@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
+import type { SubjectId } from "../content/schema";
 
 export type ThemePref = "system" | "light" | "dark";
 
@@ -26,6 +27,9 @@ interface ProfileState {
   rounds: Round[];
   soundOn: boolean;
   theme: ThemePref;
+  /** Subject tab last opened on the home screen. */
+  lastSubject: SubjectId | null;
+  setLastSubject: (s: SubjectId) => void;
   recordSession: (round: Round, bestStreak: number) => void;
   toggleSound: () => void;
   setTheme: (t: ThemePref) => void;
@@ -41,6 +45,8 @@ export const useProfile = create<ProfileState>()(
       rounds: [],
       soundOn: true,
       theme: "system",
+      lastSubject: null,
+      setLastSubject: (lastSubject) => set({ lastSubject }),
       recordSession: (round, streak) =>
         set((s) => ({
           totalXp: s.totalXp + round.xp,
