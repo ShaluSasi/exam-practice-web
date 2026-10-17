@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Grains on a rubber sheet stretched over a bowl, near a metal plate being struck</title>
+<style>.gr{animation:gr .5s ease-out infinite alternate}@keyframes gr{to{transform:translateY(-14px)}}
+.bt{transform-origin:150px 60px;animation:bt .5s ease-in-out infinite alternate}@keyframes bt{from{transform:rotate(-12deg)}to{transform:rotate(4deg)}}
+.sw{stroke:#FF8A1F;animation:sw 1s linear infinite}@keyframes sw{0%{transform:translateX(0);opacity:1}100%{transform:translateX(30px);opacity:0}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M180 150 L192 236 Q250 248 308 236 L320 150Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="250" cy="150" rx="70" ry="14" fill="#FFD9A8" stroke="#E07A1A" stroke-width="2.5"/>
+<path d="M180 154 Q250 172 320 154" fill="none" stroke="#E5484D" stroke-width="3"/>
+<g fill="#F6C453" stroke="#B8892A" stroke-width="1"><ellipse class="gr" style="animation-delay:-0.00s" cx="200" cy="144" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.13s" cx="214" cy="148" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.26s" cx="228" cy="143" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.39s" cx="242" cy="149" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.52s" cx="256" cy="144" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.65s" cx="270" cy="148" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.78s" cx="284" cy="143" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-0.91s" cx="298" cy="147" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-1.04s" cx="222" cy="154" rx="4" ry="2.6"/><ellipse class="gr" style="animation-delay:-1.17s" cx="264" cy="155" rx="4" ry="2.6"/></g>
+<circle cx="80" cy="120" r="44" fill="#D7DAEE" stroke="#6E7396" stroke-width="3"/><circle cx="80" cy="120" r="30" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".7"/>
+<g class="bt"><path d="M150 60 L112 106" stroke="#8A5A2B" stroke-width="7" stroke-linecap="round"/><circle cx="110" cy="108" r="8" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/></g>
+<g fill="none"><path class="sw" d="M136 118 q8.399999999999999 12 0 24 M148 114 q11.2 16 0 32 M160 110 q14 20 0 40" fill="none" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

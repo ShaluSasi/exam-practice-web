@@ -1,0 +1,2271 @@
+[
+ {
+  "id": "in-cbse-9-phy-work-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work done by a constant force",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Arjun pushes a loaded trolley with a steady horizontal force of $50\\ \\text{N}$. It moves $400\\ \\text{cm}$ in the direction of his push. How much work does Arjun do on the trolley?",
+  "image": {
+   "src": "/img/work/push-cart.svg",
+   "alt": "A boy pushing a loaded trolley along the floor"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$20{,}000\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$200\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$12.5\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$54\\ \\text{J}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Change the displacement into metres before using $W = F \\times s$.",
+  "explanation": "**Work done** $= F \\times s$ with $s$ in metres: $400\\ \\text{cm} = 4\\ \\text{m}$, so $W = 50\\ \\text{N} \\times 4\\ \\text{m} = 200\\ \\text{J}$. Using 400 straight from centimetres gives the trap answer $20{,}000\\ \\text{J}$. $12.5\\ \\text{J}$ comes from dividing force by distance, and $54\\ \\text{J}$ from adding them."
+ },
+ {
+  "id": "in-cbse-9-phy-work-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Zero work done",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In which picture does the person's force do **no work** on the object?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/work/push-cart.svg",
+     "alt": "Picture A: pushing a trolley"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/work/dumbbell.svg",
+     "alt": "Picture B: raising and lowering a dumbbell"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/work/wall-push.svg",
+     "alt": "Picture C: pushing against a wall"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/work/goalkeeper.svg",
+     "alt": "Picture D: a goalkeeper stopping a ball"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Work needs a displacement of the object in the direction of the force.",
+  "explanation": "When the girl pushes the rigid **wall**, the wall does not move, so $s = 0$ and $W = F \\times s = 0$, however hard she pushes. The trolley, the dumbbell and the football all move along (or against) the line of the force, so work is done on them. The football gets **negative** work, but that is still work."
+ },
+ {
+  "id": "in-cbse-9-phy-work-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Zero work done",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/work/wall-push.svg",
+   "alt": "A girl pushing hard against a brick wall"
+  },
+  "assertion": "A girl pushing with all her strength against a rigid wall for ten minutes does no work on the wall.",
+  "reason": "The work done on an object is zero when the object is not displaced, whatever the size of the force.",
+  "answer": "a",
+  "hint": "Did the wall move at all?",
+  "explanation": "Both are true and R explains A. In science, **work** $= F \\times s$, so when the displacement $s$ is zero, the work done on the wall is zero, however large $F$ is. She still feels tired because her muscles keep contracting and use up her body's internal energy, but none of it goes into the wall."
+ },
+ {
+  "id": "in-cbse-9-phy-work-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Force perpendicular to displacement",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/work/carry-box.svg",
+   "alt": "A girl walking along level ground while holding a box"
+  },
+  "assertion": "When a girl walks along level ground holding a box, the upward force of her hands does no work on the box.",
+  "reason": "The girl gets tired because her muscles use up the internal energy of her body.",
+  "answer": "b",
+  "hint": "Compare the direction of her hands' force with the direction in which the box moves.",
+  "explanation": "Both statements are true, but R does not explain A. Her hands push **upwards** while the box moves **horizontally**. The force is perpendicular to the displacement, so there is no displacement along the force and the work is zero. That is the real reason. Getting tired comes from her muscles using internal energy. It does not show whether work is done on the box."
+ },
+ {
+  "id": "in-cbse-9-phy-work-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Positive and negative work",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A girl lifts a dumbbell up and then lowers it **slowly**. While she is lowering it, what work does **her** force do on the dumbbell?",
+  "image": {
+   "src": "/img/work/dumbbell.svg",
+   "alt": "A girl slowly raising and lowering a dumbbell"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Positive, because she is applying a force"
+   },
+   {
+    "id": "b",
+    "text": "Zero, because she moves it slowly"
+   },
+   {
+    "id": "c",
+    "text": "It depends only on the mass of the dumbbell"
+   },
+   {
+    "id": "d",
+    "text": "Negative, because the dumbbell moves opposite to her upward force"
+   }
+  ],
+  "answer": "d",
+  "hint": "Her hand still pushes upwards to hold the dumbbell. Which way does the dumbbell move?",
+  "explanation": "While lowering it slowly, she still pushes **upwards** (about equal to its weight), but the dumbbell moves **downwards**. The force and displacement are opposite, so her work on it is **negative**. While raising it, force and displacement are in the same direction, so that work is positive. The work is not zero, because the dumbbell does move."
+ },
+ {
+  "id": "in-cbse-9-phy-work-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Positive and negative work",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A goalkeeper stops a football by pushing on it with a force of $250\\ \\text{N}$. Her hands move back $12\\ \\text{cm}$ while the ball comes to rest. How much work does she do on the ball?",
+  "image": {
+   "src": "/img/work/goalkeeper.svg",
+   "alt": "A goalkeeper catching a football whose hands move back as the ball stops"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$-30\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$+30\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$-3000\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$0\\ \\text{J}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "The ball moves opposite to her force, so take the displacement as negative, and convert cm to m.",
+  "explanation": "Her force is opposite to the ball's displacement, so the work is **negative**: $W = 250\\ \\text{N} \\times (-0.12\\ \\text{m}) = -30\\ \\text{J}$. $+30\\ \\text{J}$ misses the sign, and $-3000\\ \\text{J}$ uses 12 cm without converting to metres. The answer is not zero, because the ball does move 12 cm while she pushes on it. (The ball does $+30\\ \\text{J}$ of work on her hands.)"
+ },
+ {
+  "id": "in-cbse-9-phy-work-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work from a force–displacement graph",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The graph shows the force pushing a block along a smooth floor as the block moves from 0 m to 4 m. How much work does the force do?",
+  "image": {
+   "src": "/img/work/fd-graph.svg",
+   "alt": "Force against displacement graph rising from 0 to 40 N over 2 m, then flat to 4 m"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$160\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$80\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$120\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$40\\ \\text{J}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Work = area under the force–displacement graph. Split it into a triangle and a rectangle.",
+  "explanation": "Work equals the **area under the force–displacement graph**. Triangle (0–2 m): $\\tfrac{1}{2} \\times 2\\ \\text{m} \\times 40\\ \\text{N} = 40\\ \\text{J}$. Rectangle (2–4 m): $2\\ \\text{m} \\times 40\\ \\text{N} = 80\\ \\text{J}$. Total $= 120\\ \\text{J}$. $160\\ \\text{J}$ treats the force as $40\\ \\text{N}$ the whole way. $80\\ \\text{J}$ counts only the rectangle and $40\\ \\text{J}$ only the triangle."
+ },
+ {
+  "id": "in-cbse-9-phy-work-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work-energy theorem",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "A player flicks the striker to pocket the black coin. Arrange the steps of energy transfer in order.",
+  "image": {
+   "src": "/img/work/carrom.svg",
+   "alt": "A carrom board with a striker, a white coin and a black coin"
+  },
+  "items": [
+   {
+    "id": "c3",
+    "text": "The white coin does positive work on the black coin"
+   },
+   {
+    "id": "c1",
+    "text": "The player's finger does work on the striker and gives it kinetic energy"
+   },
+   {
+    "id": "c4",
+    "text": "The black coin rolls into the pocket"
+   },
+   {
+    "id": "c2",
+    "text": "The striker does positive work on the white coin, which speeds up"
+   }
+  ],
+  "answer": [
+   "c1",
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Energy passes along the chain of collisions, one object at a time.",
+  "explanation": "The finger does work on the **striker**, giving it kinetic energy. The striker does **positive work** on the white coin, and the white coin then does positive work on the black coin, which rolls into the pocket. By Newton's third law each coin pushes back and does **negative work** on the one that hit it, so the hitter loses energy as the other gains it."
+ },
+ {
+  "id": "in-cbse-9-phy-work-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Ways of transferring energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are real ways of **transferring energy**? Select all that apply.",
+  "image": {
+   "src": "/img/work/sun-earth.svg",
+   "alt": "Sunlight crossing space to the Earth, and a cup of hot tea"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A force doing work as it moves an object"
+   },
+   {
+    "id": "b",
+    "text": "Heat flowing from a hotter object to a colder one"
+   },
+   {
+    "id": "c",
+    "text": "Energy moves only between objects that are touching"
+   },
+   {
+    "id": "d",
+    "text": "Radiation, like sunlight reaching the Earth through space"
+   },
+   {
+    "id": "e",
+    "text": "Sound waves"
+   },
+   {
+    "id": "f",
+    "text": "Dark energy is easily changed into electricity in power stations"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d",
+   "e"
+  ],
+  "hint": "Doing work is only one of the ways. Think about the Sun, a hot cup and a loudspeaker.",
+  "explanation": "Energy moves by **mechanical work**, as **heat** (from a hotter object to a colder one), by **radiation** (sunlight crosses empty space with no contact) and via **sound waves**. It also moves through electric circuits. Energy does not need contact, so that option is false. The mysterious **dark energy**, proposed to explain why the Universe's expansion is speeding up, cannot be exchanged with other forms at all."
+ },
+ {
+  "id": "in-cbse-9-phy-work-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Forms of energy",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each form of energy with its description.",
+  "image": {
+   "src": "/img/work/energy-forms.svg",
+   "alt": "A plate of food, a ringing bell, a cup of hot tea and an atom"
+  },
+  "left": [
+   {
+    "id": "chem",
+    "text": "Chemical energy"
+   },
+   {
+    "id": "snd",
+    "text": "Sound energy"
+   },
+   {
+    "id": "th",
+    "text": "Thermal energy"
+   },
+   {
+    "id": "nuc",
+    "text": "Nuclear energy"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Energy that makes things warm or hot"
+   },
+   {
+    "id": "r2",
+    "text": "Energy linked to the position or motion of electric charges"
+   },
+   {
+    "id": "r3",
+    "text": "Energy stored in the nuclei of atoms"
+   },
+   {
+    "id": "r4",
+    "text": "Energy stored in the bonds between atoms in food and fuels"
+   },
+   {
+    "id": "r5",
+    "text": "Energy of vibrations of air or other molecules"
+   }
+  ],
+  "pairs": {
+   "chem": "r4",
+   "snd": "r5",
+   "th": "r1",
+   "nuc": "r3"
+  },
+  "hint": "Food and fuels store energy in the bonds between their atoms.",
+  "explanation": "**Chemical energy** is stored in the bonds between atoms in food and fuels. **Sound energy** is the energy of vibrating air or other molecules. **Thermal energy** makes things warm or hot. **Nuclear energy** is stored in the nuclei of atoms. The leftover description, about electric charges, is **electrical energy**."
+ },
+ {
+  "id": "in-cbse-9-phy-work-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Energy transformations",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each numbered device with the main energy change that takes place in it.",
+  "image": {
+   "src": "/img/work/energy-devices.svg",
+   "alt": "Four numbered devices",
+   "markers": [
+    {
+     "x": 15,
+     "y": 34.6,
+     "label": "1"
+    },
+    {
+     "x": 47.5,
+     "y": 46.2,
+     "label": "2"
+    },
+    {
+     "x": 72.5,
+     "y": 31.5,
+     "label": "3"
+    },
+    {
+     "x": 90,
+     "y": 19.2,
+     "label": "4"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "d1",
+    "text": "Device 1"
+   },
+   {
+    "id": "d2",
+    "text": "Device 2"
+   },
+   {
+    "id": "d3",
+    "text": "Device 3"
+   },
+   {
+    "id": "d4",
+    "text": "Device 4"
+   }
+  ],
+  "right": [
+   {
+    "id": "e1",
+    "text": "Light → electrical"
+   },
+   {
+    "id": "e2",
+    "text": "Chemical → heat and light"
+   },
+   {
+    "id": "e3",
+    "text": "Electrical → light"
+   },
+   {
+    "id": "e4",
+    "text": "Kinetic → potential"
+   },
+   {
+    "id": "e5",
+    "text": "Sound → electrical"
+   }
+  ],
+  "pairs": {
+   "d1": "e3",
+   "d2": "e1",
+   "d3": "e5",
+   "d4": "e2"
+  },
+  "hint": "Ask what goes in and what useful energy comes out of each device.",
+  "explanation": "1, the **bulb**, changes electrical energy into light (and some heat). 2, the **solar panel**, changes light energy into electrical energy. 3, the **microphone**, changes sound energy into electrical signals. 4, the burning **matchstick**, changes chemical energy into heat and light. The kinetic-to-potential option was a distractor."
+ },
+ {
+  "id": "in-cbse-9-phy-work-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Kinetic energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A bowler delivers a $0.16\\ \\text{kg}$ cricket ball at $90\\ \\text{km h}^{-1}$. What is the kinetic energy of the ball?",
+  "image": {
+   "src": "/img/work/cricket-ball.svg",
+   "alt": "A fast cricket delivery speeding towards the stumps"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$648\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$100\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$2\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$50\\ \\text{J}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "First change km/h to m/s ($\\times \\dfrac{1000}{3600}$), then use $K = \\tfrac{1}{2}mv^2$.",
+  "explanation": "$90\\ \\text{km h}^{-1} = \\dfrac{90\\,000\\ \\text{m}}{3600\\ \\text{s}} = 25\\ \\text{m s}^{-1}$. **Kinetic energy** $K = \\tfrac{1}{2} \\times 0.16 \\times 25^2 = 0.08 \\times 625 = 50\\ \\text{J}$. Using 90 directly gives $648\\ \\text{J}$, dropping the $\\tfrac{1}{2}$ gives $100\\ \\text{J}$, and forgetting to square $v$ gives $2\\ \\text{J}$."
+ },
+ {
+  "id": "in-cbse-9-phy-work-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work-energy theorem",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A $10{,}000\\ \\text{kg}$ jet lands on a ship's deck. An arresting wire pulls back on it with a steady force of $2{,}00{,}000\\ \\text{N}$ and stops it in $90\\ \\text{m}$. How fast was the jet moving when the wire caught it?",
+  "image": {
+   "src": "/img/work/jet-carrier.svg",
+   "alt": "A jet landing on a ship's deck being slowed by an arresting wire"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$60\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "b",
+    "text": "$42.4\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "c",
+    "text": "$3600\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "d",
+    "text": "$1800\\ \\text{m s}^{-1}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Work done by the wire (negative) = change in kinetic energy, and the final kinetic energy is zero.",
+  "explanation": "Work by the wire $= -2{,}00{,}000\\ \\text{N} \\times 90\\ \\text{m} = -1{,}80{,}00{,}000\\ \\text{J}$. By the **work-energy theorem** this equals $0 - \\tfrac{1}{2}(10{,}000)v^2$, so $v^2 = \\dfrac{2 \\times 1.8 \\times 10^7}{10{,}000} = 3600$ and $v = 60\\ \\text{m s}^{-1}$ (216 km/h). Forgetting the $\\tfrac{1}{2}$ gives $v^2 = 1800$, about $42\\ \\text{m s}^{-1}$. Forgetting the square root gives 3600, and making both slips gives 1800."
+ },
+ {
+  "id": "in-cbse-9-phy-work-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Potential energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these have stored **potential energy**? Select all that apply.",
+  "image": {
+   "src": "/img/work/spring.svg",
+   "alt": "A spring being squashed by a block and then springing back"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A compressed spring"
+   },
+   {
+    "id": "b",
+    "text": "A ball rolling at steady speed on a level floor"
+   },
+   {
+    "id": "c",
+    "text": "A stretched slingshot band holding a pebble"
+   },
+   {
+    "id": "d",
+    "text": "A loose, unstretched rubber band"
+   },
+   {
+    "id": "e",
+    "text": "Two unlike magnetic poles held apart"
+   },
+   {
+    "id": "f",
+    "text": "A ball held 2 m above the ground"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "e",
+   "f"
+  ],
+  "hint": "Potential energy comes from a change of shape, or from the positions of objects that attract or repel each other.",
+  "explanation": "**Potential energy** is stored when an object is deformed (compressed spring, stretched slingshot band) or when objects that interact are moved apart (unlike magnetic poles pulled apart, a ball raised above the Earth). A ball rolling at steady speed on a level floor has kinetic energy, not extra potential energy. A loose, unstretched band is not deformed, so it stores nothing."
+ },
+ {
+  "id": "in-cbse-9-phy-work-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work and energy basics",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** the true statements.",
+  "image": {
+   "src": "/img/work/slingshot.svg",
+   "alt": "A slingshot with its rubber band stretched back holding a pebble"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Work is done whenever a force is applied, even if the object does not move"
+   },
+   {
+    "id": "b",
+    "text": "Lifting a bucket straight up does positive work on the bucket"
+   },
+   {
+    "id": "c",
+    "text": "The SI unit of both work and energy is the joule"
+   },
+   {
+    "id": "d",
+    "text": "A motionless stretched rubber band has kinetic energy"
+   },
+   {
+    "id": "e",
+    "text": "Energy can change from one form to another"
+   },
+   {
+    "id": "f",
+    "text": "If a car's speed doubles, its kinetic energy also just doubles"
+   }
+  ],
+  "answers": [
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "One false statement mixes up a stretched band with a moving object. Another forgets that kinetic energy depends on $v^2$.",
+  "explanation": "Lifting a bucket upward does **positive work** because force and displacement are both upward. The SI unit of work and energy is the **joule**, and energy can change form. A force on an object that does not move does **no** work. A motionless stretched band has **potential**, not kinetic, energy. Doubling speed makes kinetic energy **four** times as large, because $K = \\tfrac{1}{2}mv^2$."
+ },
+ {
+  "id": "in-cbse-9-phy-work-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Gravitational potential energy",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A ball of mass $250\\ \\text{g}$ is thrown up and reaches a height of $8\\ \\text{m}$. What is its potential energy at the top? (Take $g = 10\\ \\text{m s}^{-2}$.)",
+  "image": {
+   "src": "/img/work/ball-up.svg",
+   "alt": "A ball thrown straight up rising, stopping for an instant and falling back"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$20{,}000\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$20\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$2\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$10\\ \\text{J}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Use $U = mgh$ with the mass in kilograms.",
+  "explanation": "$U = mgh = 0.25\\ \\text{kg} \\times 10\\ \\text{m s}^{-2} \\times 8\\ \\text{m} = 20\\ \\text{J}$. Leaving the mass as 250 g gives $20{,}000\\ \\text{J}$. Missing out $g$ gives $2\\ \\text{J}$. There is no $\\tfrac{1}{2}$ in $mgh$, so $10\\ \\text{J}$ is also wrong."
+ },
+ {
+  "id": "in-cbse-9-phy-work-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Gravitational potential energy",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "order",
+  "prompt": "The same heavy ball is dropped onto loose sand from four different heights. Arrange the drops by depth of the dent made, from **shallowest** to **deepest**.",
+  "image": {
+   "src": "/img/work/sand-drop.svg",
+   "alt": "A heavy ball being dropped into a tray of loose sand"
+  },
+  "items": [
+   {
+    "id": "h2",
+    "text": "Dropped from 2 m"
+   },
+   {
+    "id": "h05",
+    "text": "Dropped from 0.5 m"
+   },
+   {
+    "id": "h3",
+    "text": "Dropped from 3 m"
+   },
+   {
+    "id": "h1",
+    "text": "Dropped from 1 m"
+   }
+  ],
+  "answer": [
+   "h05",
+   "h1",
+   "h2",
+   "h3"
+  ],
+  "startLabel": "Shallowest",
+  "endLabel": "Deepest",
+  "hint": "More height means more work was done to lift the ball, so more energy is stored.",
+  "explanation": "Lifting the ball higher takes more work, so it stores more **potential energy** ($U = mgh$). On falling, that energy becomes kinetic energy, which digs the dent. So the dent gets deeper with height: 0.5 m, then 1 m, then 2 m, then 3 m."
+ },
+ {
+  "id": "in-cbse-9-phy-work-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Gravitational potential energy",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully. (Take $g = 10\\ \\text{m s}^{-2}$.)",
+  "image": {
+   "src": "/img/work/elevator-stairs.svg",
+   "alt": "A tall building with a lift on one side and a zig-zag staircase on the other"
+  },
+  "assertion": "A $50\\ \\text{kg}$ student gains $36{,}250\\ \\text{J}$ of potential energy going to the top of a $72.5\\ \\text{m}$ building, whether she takes the lift or the stairs.",
+  "reason": "Gravitational potential energy depends only on mass, g and height, not on the path taken.",
+  "answer": "a",
+  "hint": "Work out $mgh$ for $m = 50\\ \\text{kg}$ and $h = 72.5\\ \\text{m}$. Does the route appear in the formula?",
+  "explanation": "Both are true and R explains A. $U = mgh = 50 \\times 10 \\times 72.5 = 36{,}250\\ \\text{J}$ whichever way she goes. **Gravitational potential energy** depends only on the mass, $g$ and the height gained, not on the path. The stairs only change how long the climb takes, and so how much power she needs."
+ },
+ {
+  "id": "in-cbse-9-phy-work-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Kinetic and potential energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "A ball is thrown straight up. At the instant it reaches its **highest point**, which statements are correct?",
+  "image": {
+   "src": "/img/work/ball-up.svg",
+   "alt": "A ball thrown straight up rising, stopping for an instant and falling back"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The force acting on the ball is zero"
+   },
+   {
+    "id": "b",
+    "text": "Its kinetic energy is zero"
+   },
+   {
+    "id": "c",
+    "text": "Its acceleration is zero"
+   },
+   {
+    "id": "d",
+    "text": "Its potential energy is maximum"
+   }
+  ],
+  "answers": [
+   "b",
+   "d"
+  ],
+  "hint": "Gravity never switches off, even when the ball is momentarily still.",
+  "explanation": "At the top the ball is momentarily at rest, so its **kinetic energy is zero** and its **potential energy is maximum**. Gravity still pulls on it, so the force is $mg$ (not zero) and its acceleration is still $g$ downwards (not zero). That is why it starts falling at once."
+ },
+ {
+  "id": "in-cbse-9-phy-work-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work-energy theorem",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A $0.5\\ \\text{kg}$ ball is thrown up at $20\\ \\text{m s}^{-1}$. Air resistance acts, and the ball rises only to $18\\ \\text{m}$. How much work did air resistance do on the ball on the way up? (Take $g = 10\\ \\text{m s}^{-2}$.)",
+  "image": {
+   "src": "/img/work/ball-up.svg",
+   "alt": "A ball thrown straight up rising, stopping for an instant and falling back"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$-10\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$+10\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$-100\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$0\\ \\text{J}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Compare the kinetic energy at the start with the potential energy at the top. The difference was taken by air resistance.",
+  "explanation": "Starting kinetic energy $= \\tfrac{1}{2} \\times 0.5 \\times 20^2 = 100\\ \\text{J}$. Potential energy at the top $= 0.5 \\times 10 \\times 18 = 90\\ \\text{J}$. Air resistance removed $10\\ \\text{J}$. It acts opposite to the motion, so its work is $-10\\ \\text{J}$. $+10\\ \\text{J}$ has the wrong sign. $-100\\ \\text{J}$ wrongly gives all the energy to air resistance, and $0\\ \\text{J}$ ignores air resistance."
+ },
+ {
+  "id": "in-cbse-9-phy-work-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Conservation of mechanical energy",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The pendulum bob is released from P. Tap the point where its **kinetic energy is greatest**.",
+  "image": {
+   "src": "/img/work/pendulum.svg",
+   "alt": "A swinging pendulum with numbered markers along its path"
+  },
+  "spots": [
+   {
+    "id": "p",
+    "x": 21.1,
+    "y": 60.7,
+    "label": "P (extreme point)"
+   },
+   {
+    "id": "m1",
+    "x": 34.6,
+    "y": 72.7,
+    "label": "Halfway down"
+   },
+   {
+    "id": "q",
+    "x": 50,
+    "y": 76.9,
+    "label": "Q (lowest point)"
+   },
+   {
+    "id": "m2",
+    "x": 65.4,
+    "y": 72.7,
+    "label": "Halfway up the other side"
+   },
+   {
+    "id": "r",
+    "x": 78.9,
+    "y": 60.7,
+    "label": "R (other extreme)"
+   }
+  ],
+  "answer": "q",
+  "hint": "The bob is fastest where its potential energy is smallest.",
+  "explanation": "At the lowest point **Q** all the potential energy has turned into kinetic energy, so the bob moves fastest there. At P and R the bob stops for an instant, so kinetic energy is zero and potential energy is maximum. In between it has some of each."
+ },
+ {
+  "id": "in-cbse-9-phy-work-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Conservation of mechanical energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "The bob is let go at P. Arrange its states in the order they happen during the first swing.",
+  "image": {
+   "src": "/img/work/pendulum.svg",
+   "alt": "A simple pendulum swinging between two extreme points"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "At Q: only kinetic energy, moving fastest"
+   },
+   {
+    "id": "s1",
+    "text": "At P: only potential energy, at rest"
+   },
+   {
+    "id": "s5",
+    "text": "At R: only potential energy, at rest for an instant"
+   },
+   {
+    "id": "s2",
+    "text": "Swinging down: speeding up, potential energy turning into kinetic"
+   },
+   {
+    "id": "s4",
+    "text": "Swinging up: slowing down, kinetic energy turning into potential"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "Released",
+  "endLabel": "End of swing",
+  "hint": "It starts with only potential energy and ends with only potential energy on the far side.",
+  "explanation": "At **P** the bob has only potential energy ($mgh$). It speeds up as it falls, so potential energy turns into kinetic energy. At **Q** it has only kinetic energy. Climbing towards **R** it slows down, and at R it stops for an instant with only potential energy again. It reaches almost the same height, which shows mechanical energy is conserved. A little energy is lost to air resistance and friction at the support."
+ },
+ {
+  "id": "in-cbse-9-phy-work-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Formulas and units",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each quantity with its expression.",
+  "image": {
+   "src": "/img/work/free-fall.svg",
+   "alt": "A falling ball with potential energy and kinetic energy bars"
+  },
+  "left": [
+   {
+    "id": "w",
+    "text": "Work done"
+   },
+   {
+    "id": "ke",
+    "text": "Kinetic energy"
+   },
+   {
+    "id": "pe",
+    "text": "Potential energy near the Earth"
+   },
+   {
+    "id": "p",
+    "text": "Power"
+   },
+   {
+    "id": "ma",
+    "text": "Mechanical advantage"
+   }
+  ],
+  "right": [
+   {
+    "id": "f1",
+    "text": "$mgh$"
+   },
+   {
+    "id": "f2",
+    "text": "$\\dfrac{W}{t}$"
+   },
+   {
+    "id": "f3",
+    "text": "$F \\times s$"
+   },
+   {
+    "id": "f4",
+    "text": "$ma$"
+   },
+   {
+    "id": "f5",
+    "text": "$\\dfrac{\\text{load}}{\\text{effort}}$"
+   },
+   {
+    "id": "f6",
+    "text": "$\\tfrac{1}{2}mv^2$"
+   }
+  ],
+  "pairs": {
+   "w": "f3",
+   "ke": "f6",
+   "pe": "f1",
+   "p": "f2",
+   "ma": "f5"
+  },
+  "hint": "Power is a rate, so it divides by time.",
+  "explanation": "**Work** $= F \\times s$ (joule). **Kinetic energy** $= \\tfrac{1}{2}mv^2$. Near the Earth, **potential energy** $= mgh$. **Power** $= \\dfrac{W}{t}$ (watt, $1\\ \\text{W} = 1\\ \\text{J s}^{-1}$). **Mechanical advantage** $= \\dfrac{\\text{load}}{\\text{effort}}$, which has no unit. $ma$ is Newton's second law for force, so it was the distractor."
+ },
+ {
+  "id": "in-cbse-9-phy-work-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Conservation of mechanical energy",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A ball is released from rest at the top of this science-park track. Ignoring friction, tap the point where the ball moves **fastest**.",
+  "image": {
+   "src": "/img/work/coaster.svg",
+   "alt": "A curvy ball track with lettered points"
+  },
+  "spots": [
+   {
+    "id": "a",
+    "x": 7.5,
+    "y": 20,
+    "label": "A (start)"
+   },
+   {
+    "id": "b",
+    "x": 32.5,
+    "y": 82.7,
+    "label": "B"
+   },
+   {
+    "id": "c",
+    "x": 52.5,
+    "y": 42.3,
+    "label": "C"
+   },
+   {
+    "id": "d",
+    "x": 70,
+    "y": 69.2,
+    "label": "D"
+   },
+   {
+    "id": "e",
+    "x": 92.5,
+    "y": 53.8,
+    "label": "E"
+   }
+  ],
+  "answer": "b",
+  "hint": "The lower the point, the more potential energy has turned into kinetic energy.",
+  "explanation": "Mechanical energy stays constant, so the ball is fastest where its potential energy is **least**, at the lowest valley **B**. D is also a valley, but it is higher than B. A is the start, where the ball is at rest. In real tracks friction takes away energy, which is why later hills such as C and E are built lower than the start."
+ },
+ {
+  "id": "in-cbse-9-phy-work-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Conservation of mechanical energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "All three slides start from the same platform, $5\\ \\text{m}$ above the ground. Ignoring friction, with what speed does a child reach the bottom of **slide 2**? (Take $g = 10\\ \\text{m s}^{-2}$.)",
+  "image": {
+   "src": "/img/work/slides.svg",
+   "alt": "Three slides of different shapes starting from the same platform"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$100\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "b",
+    "text": "$7.1\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "c",
+    "text": "$10\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "d",
+    "text": "$50\\ \\text{m s}^{-1}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Set $mgh = \\tfrac{1}{2}mv^2$. The mass cancels, and so does the shape of the slide.",
+  "explanation": "Potential energy at the top becomes kinetic energy at the bottom: $\\tfrac{1}{2}mv^2 = mgh$, so $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 5} = 10\\ \\text{m s}^{-1}$. The mass cancels, and the shape does not matter, so all three slides give the **same** speed. Forgetting the square root gives 100, dropping the 2 gives $\\sqrt{50} \\approx 7.1$, and $v = gh$ gives 50."
+ },
+ {
+  "id": "in-cbse-9-phy-work-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Conservation of mechanical energy",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The graph shows the potential energy of a ball on a frictionless track. The ball starts at rest at O. Tap the point where the ball moves **fastest**.",
+  "image": {
+   "src": "/img/work/pe-graph.svg",
+   "alt": "A potential energy–displacement graph with lettered points"
+  },
+  "spots": [
+   {
+    "id": "o",
+    "x": 20,
+    "y": 15.4,
+    "label": "O"
+   },
+   {
+    "id": "p",
+    "x": 42.5,
+    "y": 58.7,
+    "label": "P"
+   },
+   {
+    "id": "q",
+    "x": 62.5,
+    "y": 24,
+    "label": "Q"
+   },
+   {
+    "id": "r",
+    "x": 82.5,
+    "y": 41.3,
+    "label": "R"
+   }
+  ],
+  "answer": "p",
+  "hint": "Total energy = 40 J all the way along. Where is the potential energy share smallest?",
+  "explanation": "Mechanical energy $= 40\\ \\text{J}$ throughout (it starts at rest with $U = 40\\ \\text{J}$). Kinetic energy $= 40\\ \\text{J} - U$, so it is largest where $U$ is smallest, at **P** ($U = 15\\ \\text{J}$, $K = 25\\ \\text{J}$). At Q ($35\\ \\text{J}$) the ball is slowest of the three, and R ($25\\ \\text{J}$) is in between."
+ },
+ {
+  "id": "in-cbse-9-phy-work-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Conservation of mechanical energy",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The ball in the graph has mass $0.5\\ \\text{kg}$. It starts at rest at O with $40\\ \\text{J}$ of potential energy. At P its potential energy is $15\\ \\text{J}$. What is its speed at P?",
+  "image": {
+   "src": "/img/work/pe-graph.svg",
+   "alt": "Potential energy against displacement for a ball on a frictionless track"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$7.7\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "b",
+    "text": "$10\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "c",
+    "text": "$7.1\\ \\text{m s}^{-1}$"
+   },
+   {
+    "id": "d",
+    "text": "$100\\ \\text{m s}^{-1}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Kinetic energy at P = total energy − potential energy at P. Then use $K = \\tfrac{1}{2}mv^2$.",
+  "explanation": "$K_P = 40 - 15 = 25\\ \\text{J}$. Then $\\tfrac{1}{2}(0.5)v^2 = 25$, so $v^2 = 100$ and $v = 10\\ \\text{m s}^{-1}$. Dropping the $\\tfrac{1}{2}$ gives $v^2 = 50$, about 7.1. Using the 15 J of potential energy as if it were kinetic energy gives $\\sqrt{60} \\approx 7.7$, and forgetting the square root gives 100."
+ },
+ {
+  "id": "in-cbse-9-phy-work-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work and kinetic energy",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A $1000\\ \\text{kg}$ car sees traffic ahead and the driver brakes. Tap the part of the speed–time graph where the **brakes do negative work** on the car.",
+  "image": {
+   "src": "/img/work/car-graph.svg",
+   "alt": "A speed–time graph with marked points and sections"
+  },
+  "spots": [
+   {
+    "id": "a",
+    "x": 15,
+    "y": 19.2,
+    "label": "Point A"
+   },
+   {
+    "id": "ab",
+    "x": 27.5,
+    "y": 19.2,
+    "label": "Section A–B"
+   },
+   {
+    "id": "bc",
+    "x": 65,
+    "y": 50,
+    "label": "Section B–C"
+   },
+   {
+    "id": "c",
+    "x": 90,
+    "y": 80.8,
+    "label": "Point C"
+   }
+  ],
+  "answer": "bc",
+  "hint": "Negative work on the car means its kinetic energy is falling, so its speed is falling.",
+  "explanation": "From A to B the speed stays at $20\\ \\text{m s}^{-1}$, so kinetic energy stays at $\\tfrac{1}{2} \\times 1000 \\times 20^2 = 2{,}00{,}000\\ \\text{J}$ and the brakes are not yet acting. Along **B–C** the speed falls to zero. The braking force acts opposite to the motion and does **negative work** of $-2{,}00{,}000\\ \\text{J}$. That energy turns mainly into heat in the brakes and tyres. At C the car has already stopped."
+ },
+ {
+  "id": "in-cbse-9-phy-work-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Work-energy theorem",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "An $8000\\ \\text{kg}$ truck moving at $54\\ \\text{km h}^{-1}$ loses its brakes and steers onto a sand-filled escape ramp. The ramp rises 1 m for every 2 m along it, and the sand pushes back with $40{,}000\\ \\text{N}$. What is the shortest ramp length $d$ that stops it? (Take $g = 10\\ \\text{m s}^{-2}$.)",
+  "image": {
+   "src": "/img/work/escape-ramp.svg",
+   "alt": "A truck driving up a sand-filled escape ramp and stopping"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$22.5\\ \\text{m}$"
+   },
+   {
+    "id": "b",
+    "text": "$7.5\\ \\text{m}$"
+   },
+   {
+    "id": "c",
+    "text": "$145.8\\ \\text{m}$"
+   },
+   {
+    "id": "d",
+    "text": "$11.25\\ \\text{m}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Starting kinetic energy = work against the sand + potential energy gained. The height gained is $\\dfrac{d}{2}$.",
+  "explanation": "$54\\ \\text{km h}^{-1} = 15\\ \\text{m s}^{-1}$, so $K = \\tfrac{1}{2}(8000)(15^2) = 9{,}00{,}000\\ \\text{J}$. Over length $d$ the sand takes $40{,}000\\,d$ and the truck gains $mg\\dfrac{d}{2} = 40{,}000\\,d$ of potential energy. So $80{,}000\\,d = 9{,}00{,}000$, giving $d = 11.25\\ \\text{m}$. Ignoring the height gained gives 22.5 m, and using $h = d$ gives 7.5 m. Using 54 without converting to m/s gives about 146 m."
+ },
+ {
+  "id": "in-cbse-9-phy-work-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Power",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A weightlifter raises an $80\\ \\text{kg}$ barbell through $2\\ \\text{m}$ in $4\\ \\text{s}$. What power does she need? (Take $g = 10\\ \\text{m s}^{-2}$.)",
+  "image": {
+   "src": "/img/work/weightlifter.svg",
+   "alt": "A weightlifter raising a barbell above her head"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$400\\ \\text{W}$"
+   },
+   {
+    "id": "b",
+    "text": "$6400\\ \\text{W}$"
+   },
+   {
+    "id": "c",
+    "text": "$40\\ \\text{W}$"
+   },
+   {
+    "id": "d",
+    "text": "$1600\\ \\text{W}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Work = $mgh$, then power = work ÷ time.",
+  "explanation": "Work $= mgh = 80 \\times 10 \\times 2 = 1600\\ \\text{J}$. **Power** $= \\dfrac{W}{t} = \\dfrac{1600\\ \\text{J}}{4\\ \\text{s}} = 400\\ \\text{W}$. Multiplying by the time gives 6400 W. Leaving out $g$ gives 40 W, and $1600\\ \\text{W}$ is the work, not the power."
+ },
+ {
+  "id": "in-cbse-9-phy-work-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Power",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A $1200\\ \\text{kg}$ car starts from rest and reaches $54\\ \\text{km h}^{-1}$ in $9\\ \\text{s}$. What average power must the engine supply? (Ignore friction and air resistance.)",
+  "image": {
+   "src": "/img/work/car-start.svg",
+   "alt": "A car accelerating from rest with its speedometer needle rising"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1{,}94{,}400\\ \\text{W}$"
+   },
+   {
+    "id": "b",
+    "text": "$15{,}000\\ \\text{W}$"
+   },
+   {
+    "id": "c",
+    "text": "$30{,}000\\ \\text{W}$"
+   },
+   {
+    "id": "d",
+    "text": "$1{,}35{,}000\\ \\text{W}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "The engine's work equals the car's gain in kinetic energy. Convert km/h to m/s first.",
+  "explanation": "$54\\ \\text{km h}^{-1} = 15\\ \\text{m s}^{-1}$. Work $= \\tfrac{1}{2}(1200)(15^2) - 0 = 1{,}35{,}000\\ \\text{J}$. Power $= \\dfrac{1{,}35{,}000}{9} = 15{,}000\\ \\text{W}$. Using 54 directly gives 1,94,400 W, and dropping the $\\tfrac{1}{2}$ gives 30,000 W. $1{,}35{,}000\\ \\text{W}$ forgets to divide by the time."
+ },
+ {
+  "id": "in-cbse-9-phy-work-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Power",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Four students climb stairs. Arrange their climbs from **least** power to **greatest** power.",
+  "image": {
+   "src": "/img/work/stairs-power.svg",
+   "alt": "A student running up a flight of stairs with a stopwatch"
+  },
+  "items": [
+   {
+    "id": "t3",
+    "text": "$600\\ \\text{J}$ of work in $2\\ \\text{s}$"
+   },
+   {
+    "id": "t1",
+    "text": "$600\\ \\text{J}$ of work in $10\\ \\text{s}$"
+   },
+   {
+    "id": "t4",
+    "text": "$1200\\ \\text{J}$ of work in $3\\ \\text{s}$"
+   },
+   {
+    "id": "t2",
+    "text": "$600\\ \\text{J}$ of work in $5\\ \\text{s}$"
+   }
+  ],
+  "answer": [
+   "t1",
+   "t2",
+   "t3",
+   "t4"
+  ],
+  "startLabel": "Least power",
+  "endLabel": "Greatest power",
+  "hint": "Work out $P = \\dfrac{W}{t}$ for each one.",
+  "explanation": "Power $= \\dfrac{W}{t}$: $600\\ \\text{J}$ in $10\\ \\text{s}$ is 60 W. $600\\ \\text{J}$ in $5\\ \\text{s}$ is 120 W. $600\\ \\text{J}$ in $2\\ \\text{s}$ is 300 W. $1200\\ \\text{J}$ in $3\\ \\text{s}$ is 400 W. The same work done faster needs more power, and more work in a similar time also needs more power."
+ },
+ {
+  "id": "in-cbse-9-phy-work-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Power",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "This flywheel engine is the kind of efficient steam engine that a famous scientist built. The unit of **power** is named after him. Which statement is correct?",
+  "image": {
+   "src": "/img/work/steam-engine.svg",
+   "alt": "An old steam engine turning a large flywheel"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The joule, where $1\\ \\text{J} = 1\\ \\text{N s}$"
+   },
+   {
+    "id": "b",
+    "text": "The horsepower, where $1\\ \\text{hp} = 1\\ \\text{W}$"
+   },
+   {
+    "id": "c",
+    "text": "The watt, where $1\\ \\text{W} = 1\\ \\text{J s}^{-1}$"
+   },
+   {
+    "id": "d",
+    "text": "The newton, where $1\\ \\text{N} = 1\\ \\text{J m}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "One unit is named after the engine builder. The other famous unit, for work and energy, is named after a scientist who studied heat.",
+  "explanation": "The **watt** honours James Watt, who built an efficient steam engine that turned wheels. $1\\ \\text{W} = 1\\ \\text{J s}^{-1}$. The **joule** (unit of work and energy) honours James Prescott Joule, who showed how mechanical and thermal energy convert into each other. $1\\ \\text{J} = 1\\ \\text{N m}$, not N s. One **horsepower** is $746\\ \\text{W}$, not 1 W."
+ },
+ {
+  "id": "in-cbse-9-phy-work-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Power",
+  "difficulty": "hard",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A crane lifts a load to the 10th floor of a building in time $t$. It then lifts the same load to the 20th floor in time $2t$. All floors are equally high. Compared with the first lift, the second lift needs:",
+  "image": {
+   "src": "/img/work/elevator-stairs.svg",
+   "alt": "A tall building with a lift shaft and a staircase"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The same energy and half the power"
+   },
+   {
+    "id": "b",
+    "text": "Twice the energy and twice the power"
+   },
+   {
+    "id": "c",
+    "text": "Four times the energy and twice the power"
+   },
+   {
+    "id": "d",
+    "text": "Twice the energy and the same power"
+   }
+  ],
+  "answer": "d",
+  "hint": "Energy depends on height. Power is energy divided by time.",
+  "explanation": "Going to the 20th floor doubles the height, so the energy needed ($mgh$) **doubles**. That double energy is spread over double the time, so power $= \\dfrac{2E}{2t} = \\dfrac{E}{t}$, the **same** as before. 'Twice the power' forgets the extra time, and 'four times' wrongly squares the height."
+ },
+ {
+  "id": "in-cbse-9-phy-work-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Kinetic energy",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A $60\\ \\text{kg}$ man on a $100\\ \\text{kg}$ scooter speeds up from rest to speed $v$. The next day his $40\\ \\text{kg}$ son rides with him and the scooter reaches the same speed in the same time. Assuming all the fuel's energy becomes kinetic energy, what is the ratio of fuel used (day 1 : day 2)?",
+  "image": {
+   "src": "/img/work/scooter.svg",
+   "alt": "A father and son riding a scooter along a road"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$4 : 5$"
+   },
+   {
+    "id": "b",
+    "text": "$3 : 5$"
+   },
+   {
+    "id": "c",
+    "text": "$5 : 4$"
+   },
+   {
+    "id": "d",
+    "text": "$16 : 25$"
+   }
+  ],
+  "answer": "a",
+  "hint": "At the same speed, $K = \\tfrac{1}{2}mv^2$ is proportional to the total moving mass. Include the scooter.",
+  "explanation": "Day 1 moving mass $= 60 + 100 = 160\\ \\text{kg}$. Day 2 $= 160 + 40 = 200\\ \\text{kg}$. At the same $v$, kinetic energy (and so fuel) is proportional to mass: $160 : 200 = 4 : 5$. Forgetting the scooter gives $60 : 100 = 3 : 5$, and $5 : 4$ is the ratio turned upside down. Mass is not squared, so $16 : 25$ is wrong too."
+ },
+ {
+  "id": "in-cbse-9-phy-work-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Pulley",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A flag is raised by pulling the rope **down** over a single fixed pulley at the top of the pole. What does the pulley do?",
+  "image": {
+   "src": "/img/work/flag-pulley.svg",
+   "alt": "A flag being hoisted up a pole by pulling a rope down over a pulley"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It halves the effort, so its mechanical advantage is 2"
+   },
+   {
+    "id": "b",
+    "text": "It changes only the direction of the effort; mechanical advantage is 1"
+   },
+   {
+    "id": "c",
+    "text": "It reduces the total work needed to raise the flag"
+   },
+   {
+    "id": "d",
+    "text": "It makes the effort larger than the load, so mechanical advantage is below 1"
+   }
+  ],
+  "answer": "b",
+  "hint": "Compare the size of the pull with the weight of the flag when you use a single fixed pulley.",
+  "explanation": "A **fixed pulley** does not reduce the force. The effort equals the load, so **mechanical advantage** $= \\dfrac{\\text{load}}{\\text{effort}} = 1$. It makes the job easier by changing the **direction** of the effort: pulling down is more convenient than lifting up. No simple machine reduces the total work. Movable pulleys or pulley systems are needed for a mechanical advantage above 1."
+ },
+ {
+  "id": "in-cbse-9-phy-work-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Pulley",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In this pulley system, tap the **movable pulley**, the one that rises with the load.",
+  "image": {
+   "src": "/img/work/pulley-system.svg",
+   "alt": "A pulley system with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "beam",
+    "x": 25,
+    "y": 7.3,
+    "label": "Rigid support"
+   },
+   {
+    "id": "fixed",
+    "x": 56,
+    "y": 23.1,
+    "label": "Fixed pulley"
+   },
+   {
+    "id": "mov",
+    "x": 45,
+    "y": 57.7,
+    "label": "Movable pulley"
+   },
+   {
+    "id": "load",
+    "x": 45,
+    "y": 83.8,
+    "label": "Load"
+   },
+   {
+    "id": "eff",
+    "x": 61.5,
+    "y": 78.1,
+    "label": "Effort (hand)"
+   }
+  ],
+  "answer": "mov",
+  "hint": "One pulley hangs from the beam. The other hangs in the rope loop and is attached to the load.",
+  "explanation": "The **movable pulley** is the one attached to the load. It hangs in a loop of rope whose one end is tied to the rigid support. Two strands of rope hold it up, so a system like this can lift a heavy load with a smaller effort (mechanical advantage greater than 1). The **fixed pulley** at the top only changes the direction of the pull."
+ },
+ {
+  "id": "in-cbse-9-phy-work-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Inclined plane",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A toy cart is pulled slowly up a short steep plank X and a long gentle plank Y to the same height. Ignoring friction, which is correct?",
+  "image": {
+   "src": "/img/work/ramp-compare.svg",
+   "alt": "A toy cart pulled up a steep short plank X and a gentle long plank Y"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "X needs a smaller force because the distance is shorter"
+   },
+   {
+    "id": "b",
+    "text": "Both need the same force because the height is the same"
+   },
+   {
+    "id": "c",
+    "text": "Y needs a smaller force, applied over a longer distance, with the same work"
+   },
+   {
+    "id": "d",
+    "text": "Y needs a smaller force and less total work"
+   }
+  ],
+  "answer": "c",
+  "hint": "Work = force × distance. The height gained, and so the energy gained, is the same.",
+  "explanation": "Both carts gain the same potential energy ($mgh$), so the same work is done: $F' \\times L = mgh$. On the longer, gentler plank **Y** the distance $L$ is larger, so the force $F'$ is **smaller**. This is why hill roads wind in gentle slopes and why a sloping ladder is easier than a vertical one. No plank reduces the total work."
+ },
+ {
+  "id": "in-cbse-9-phy-work-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Inclined plane",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A ramp is used to raise a box onto a step $60\\ \\text{cm}$ high. The foot of the ramp is $80\\ \\text{cm}$ from the step. What is the mechanical advantage of the ramp?",
+  "image": {
+   "src": "/img/work/ramp.svg",
+   "alt": "A box being pushed up a ramp onto a step"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1.33$"
+   },
+   {
+    "id": "b",
+    "text": "$0.6$"
+   },
+   {
+    "id": "c",
+    "text": "$0.75$"
+   },
+   {
+    "id": "d",
+    "text": "$1.67$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Find the sloping length $L$ with Pythagoras, then use $\\text{MA} = \\dfrac{L}{h}$.",
+  "explanation": "Sloping length $L = \\sqrt{60^2 + 80^2} = 100\\ \\text{cm}$. For an **inclined plane**, $\\text{MA} = \\dfrac{\\text{load}}{\\text{effort}} = \\dfrac{L}{h} = \\dfrac{100}{60} \\approx 1.67$. Using the base instead of the slope gives 1.33. Turning the ratio upside down gives 0.6, or 0.75 with the base. An MA below 1 would mean the ramp makes the job harder."
+ },
+ {
+  "id": "in-cbse-9-phy-work-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Lever",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A crowbar is used to lift a heavy rock. Tap the **fulcrum**.",
+  "image": {
+   "src": "/img/work/lever-crowbar.svg",
+   "alt": "A crowbar lifting a rock, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "eff",
+    "x": 13.5,
+    "y": 38.5,
+    "label": "End of the long arm (effort)"
+   },
+   {
+    "id": "mid",
+    "x": 40,
+    "y": 52.7,
+    "label": "Middle of the bar"
+   },
+   {
+    "id": "ful",
+    "x": 63.75,
+    "y": 73.8,
+    "label": "Block under the bar (fulcrum)"
+   },
+   {
+    "id": "load",
+    "x": 86.25,
+    "y": 61.5,
+    "label": "Rock (load)"
+   }
+  ],
+  "answer": "ful",
+  "hint": "The fulcrum is the fixed point the bar turns about.",
+  "explanation": "The **fulcrum** is the fixed point about which the lever rotates, here the wooden block under the bar. The **effort** is applied at the far end of the long side (blue arrow), and the **load** is the rock. Because the fulcrum is between the effort and the load, this is a Class I lever."
+ },
+ {
+  "id": "in-cbse-9-phy-work-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Lever",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each numbered part of the crowbar lever with its name.",
+  "image": {
+   "src": "/img/work/lever-crowbar.svg",
+   "alt": "A crowbar lever with four numbered parts",
+   "markers": [
+    {
+     "x": 63.75,
+     "y": 73.8,
+     "label": "1"
+    },
+    {
+     "x": 14.5,
+     "y": 21.2,
+     "label": "2"
+    },
+    {
+     "x": 86.25,
+     "y": 61.5,
+     "label": "3"
+    },
+    {
+     "x": 38.75,
+     "y": 90.4,
+     "label": "4"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "m1",
+    "text": "Part 1"
+   },
+   {
+    "id": "m2",
+    "text": "Part 2"
+   },
+   {
+    "id": "m3",
+    "text": "Part 3"
+   },
+   {
+    "id": "m4",
+    "text": "Part 4"
+   }
+  ],
+  "right": [
+   {
+    "id": "load",
+    "text": "Load"
+   },
+   {
+    "id": "larm",
+    "text": "Load arm"
+   },
+   {
+    "id": "ful",
+    "text": "Fulcrum"
+   },
+   {
+    "id": "earm",
+    "text": "Effort arm"
+   },
+   {
+    "id": "eff",
+    "text": "Effort"
+   }
+  ],
+  "pairs": {
+   "m1": "ful",
+   "m2": "eff",
+   "m3": "load",
+   "m4": "earm"
+  },
+  "hint": "The two dimension lines at the bottom are distances measured from the fulcrum.",
+  "explanation": "1 is the **fulcrum**, the block the bar turns on. 2 is the **effort**, the downward push. 3 is the **load**, the rock. 4 is the **effort arm**, the distance from the fulcrum to the effort. The short line on the right (not numbered) is the **load arm**."
+ },
+ {
+  "id": "in-cbse-9-phy-work-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Lever",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "With the crowbar, the effort arm is $1.5\\ \\text{m}$ and the load arm is $0.3\\ \\text{m}$. The rock pushes down with $600\\ \\text{N}$. What is the smallest effort that lifts it?",
+  "image": {
+   "src": "/img/work/lever-crowbar.svg",
+   "alt": "A crowbar lifting a heavy rock"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$3000\\ \\text{N}$"
+   },
+   {
+    "id": "b",
+    "text": "$120\\ \\text{N}$"
+   },
+   {
+    "id": "c",
+    "text": "$180\\ \\text{N}$"
+   },
+   {
+    "id": "d",
+    "text": "$600\\ \\text{N}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Effort × effort arm = load × load arm.",
+  "explanation": "Using the **lever principle**: effort $\\times 1.5 = 600 \\times 0.3$, so effort $= \\dfrac{180}{1.5} = 120\\ \\text{N}$. That is a mechanical advantage of $\\dfrac{1.5}{0.3} = 5$. Swapping the arms gives $3000\\ \\text{N}$. Stopping at $600 \\times 0.3$ gives 180 N, and 600 N assumes no advantage. The small effort moves 5 times further, so the work is not reduced."
+ },
+ {
+  "id": "in-cbse-9-phy-work-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Lever",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "A 15 kg child sits on seat A, 2 m from the fulcrum C. Tap the seat where a **30 kg** child must sit to balance the seesaw.",
+  "image": {
+   "src": "/img/work/seesaw.svg",
+   "alt": "A seesaw with lettered seats and a child on seat A"
+  },
+  "spots": [
+   {
+    "id": "b",
+    "x": 30,
+    "y": 53.8,
+    "label": "Seat B"
+   },
+   {
+    "id": "c",
+    "x": 50,
+    "y": 57.7,
+    "label": "Above the fulcrum C"
+   },
+   {
+    "id": "d",
+    "x": 70,
+    "y": 53.8,
+    "label": "Seat D"
+   },
+   {
+    "id": "e",
+    "x": 90,
+    "y": 53.8,
+    "label": "Seat E"
+   }
+  ],
+  "answer": "d",
+  "hint": "Mass × distance must be equal on both sides of the fulcrum.",
+  "explanation": "For balance, $15\\ \\text{kg} \\times 2\\ \\text{m} = 30\\ \\text{kg} \\times L$, so $L = 1\\ \\text{m}$. The heavier child sits **closer** to the fulcrum, on seat **D** on the other side. Seat E (2 m) would tip the seesaw towards the heavier child. Seat B is on the same side as A, so it cannot balance it."
+ },
+ {
+  "id": "in-cbse-9-phy-work-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Classes of levers",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each numbered tool with its class of lever.",
+  "image": {
+   "src": "/img/work/lever-objects.svg",
+   "alt": "Three numbered tools",
+   "markers": [
+    {
+     "x": 17.5,
+     "y": 53.8,
+     "label": "1"
+    },
+    {
+     "x": 48.75,
+     "y": 61.5,
+     "label": "2"
+    },
+    {
+     "x": 82.5,
+     "y": 50,
+     "label": "3"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "o1",
+    "text": "Tool 1"
+   },
+   {
+    "id": "o2",
+    "text": "Tool 2"
+   },
+   {
+    "id": "o3",
+    "text": "Tool 3"
+   }
+  ],
+  "right": [
+   {
+    "id": "c2",
+    "text": "Class II: load between fulcrum and effort"
+   },
+   {
+    "id": "c3",
+    "text": "Class III: effort between fulcrum and load"
+   },
+   {
+    "id": "c1",
+    "text": "Class I: fulcrum between load and effort"
+   },
+   {
+    "id": "px",
+    "text": "Not a lever: it is a pulley"
+   }
+  ],
+  "pairs": {
+   "o1": "c1",
+   "o2": "c2",
+   "o3": "c3"
+  },
+  "hint": "Find what is in the middle: the fulcrum, the load or the effort.",
+  "explanation": "1, the **seesaw**, has the fulcrum in the middle: **Class I**. 2, the **wheelbarrow**, has the load between the wheel (fulcrum) and the handles (effort): **Class II**. 3, the **tweezers**, have the effort (your fingers) between the hinge (fulcrum) and the tips (load): **Class III**. A pulley is a different simple machine, not a lever class."
+ },
+ {
+  "id": "in-cbse-9-phy-work-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Lever",
+  "difficulty": "hard",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "You need to cut a thick piece of cardboard. Tap where you should place it between the blades so that the cut needs the **least effort**.",
+  "image": {
+   "src": "/img/work/scissors.svg",
+   "alt": "An open pair of scissors with markers along the blades"
+  },
+  "spots": [
+   {
+    "id": "s1",
+    "x": 50,
+    "y": 50,
+    "label": "Close to the pivot"
+   },
+   {
+    "id": "s2",
+    "x": 63.75,
+    "y": 50,
+    "label": "A little way along the blades"
+   },
+   {
+    "id": "s3",
+    "x": 77.5,
+    "y": 50,
+    "label": "Near the middle of the blades"
+   },
+   {
+    "id": "s4",
+    "x": 91.25,
+    "y": 50,
+    "label": "Near the tips"
+   }
+  ],
+  "answer": "s1",
+  "hint": "Placing the cardboard closer to the pivot shortens the load arm.",
+  "explanation": "Scissors are a Class I lever with the **pivot** as the fulcrum. Effort × effort arm = load × load arm, so a **shorter load arm** lets the blades press much harder for the same push on the handles. Hard things are therefore cut **close to the pivot**. Near the tips the load arm is longest, and cutting is hardest."
+ },
+ {
+  "id": "in-cbse-9-phy-work-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Lever",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A spoon is used to prise the lid off a tin. Tap the **fulcrum** of this lever.",
+  "image": {
+   "src": "/img/work/can-spoon.svg",
+   "alt": "A spoon prising a lid off a tin, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "hand",
+    "x": 9,
+    "y": 64.6,
+    "label": "End of the spoon handle"
+   },
+   {
+    "id": "rim",
+    "x": 42,
+    "y": 43.5,
+    "label": "Rim of the tin"
+   },
+   {
+    "id": "tip",
+    "x": 51,
+    "y": 37.7,
+    "label": "Tip of the spoon under the lid"
+   },
+   {
+    "id": "lid",
+    "x": 75,
+    "y": 35.4,
+    "label": "Middle of the lid"
+   },
+   {
+    "id": "tin",
+    "x": 67.5,
+    "y": 64.6,
+    "label": "Side of the tin"
+   }
+  ],
+  "answer": "rim",
+  "hint": "Find the point the spoon rests on and turns about as you press the handle down.",
+  "explanation": "The spoon pivots on the **rim of the tin**, so the rim is the fulcrum. Your push at the far end of the handle is the effort, and the lid pressing on the spoon's tip is the load. The handle is much longer than the tip, so a small push gives a big lifting force. This is why opening the lid with a spoon is easy."
+ },
+ {
+  "id": "in-cbse-9-phy-work-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Simple machines and work",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/work/lever-crowbar.svg",
+   "alt": "A crowbar lifting a heavy rock"
+  },
+  "assertion": "Using a crowbar reduces the total work needed to lift a heavy rock.",
+  "reason": "In a lever, the small effort moves through a larger distance than the load does.",
+  "answer": "d",
+  "hint": "A machine can change the size or direction of a force. Can it change the total work?",
+  "explanation": "A is **false**: a lever reduces the **force** needed, not the total work. R is **true**: the small effort moves through a larger distance $d_1$ while the large force on the load moves a small distance $d_2$, with $F_1 \\times d_1 = F_2 \\times d_2$. So the work put in equals the work done on the load (ignoring friction)."
+ },
+ {
+  "id": "in-cbse-9-phy-work-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Energy conversion",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In this hill watermill (gharat), tap the part that is set **rotating** directly by the kinetic energy of the rushing water.",
+  "image": {
+   "src": "/img/work/watermill.svg",
+   "alt": "A hill watermill with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "pond",
+    "x": 13.75,
+    "y": 21.5,
+    "label": "Stream at the top"
+   },
+   {
+    "id": "chute",
+    "x": 42.5,
+    "y": 50,
+    "label": "Sloping chute"
+   },
+   {
+    "id": "roof",
+    "x": 70,
+    "y": 19.2,
+    "label": "Hut roof"
+   },
+   {
+    "id": "stone",
+    "x": 70,
+    "y": 59.6,
+    "label": "Grinding stones"
+   },
+   {
+    "id": "wheel",
+    "x": 70,
+    "y": 82.3,
+    "label": "Paddle wheel"
+   }
+  ],
+  "answer": "wheel",
+  "hint": "The water leaves the bottom of the chute and strikes something under the hut.",
+  "explanation": "Water at the top of the hill has **potential energy**, which turns into **kinetic energy** as it rushes down the chute. The fast water strikes the paddle **wheel** under the hut and sets it rotating. A shaft carries the rotation up to the **grinding stones**, which grind the grain. Dams use the same potential-to-kinetic change to generate electricity."
+ },
+ {
+  "id": "in-cbse-9-phy-work-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Energy conversion",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "order",
+  "prompt": "Put the energy changes in a gharat watermill in order.",
+  "image": {
+   "src": "/img/work/watermill.svg",
+   "alt": "A traditional hill watermill with a chute and a mill hut"
+  },
+  "items": [
+   {
+    "id": "w3",
+    "text": "The water strikes the paddle wheel and makes it rotate"
+   },
+   {
+    "id": "w1",
+    "text": "Water high up the hill has potential energy"
+   },
+   {
+    "id": "w4",
+    "text": "The shaft turns the grinding stone, which grinds the grain"
+   },
+   {
+    "id": "w2",
+    "text": "Water rushing down the chute gains kinetic energy"
+   }
+  ],
+  "answer": [
+   "w1",
+   "w2",
+   "w3",
+   "w4"
+  ],
+  "startLabel": "Start",
+  "endLabel": "End",
+  "hint": "Start where the water is highest.",
+  "explanation": "The water starts high up with **potential energy**. Rushing down the chute it gains **kinetic energy**. It strikes the paddle wheel and makes it rotate. The shaft then turns the grinding stone, which grinds the grain."
+ },
+ {
+  "id": "in-cbse-9-phy-work-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "physics",
+  "chapter": "Work, Energy, and Simple Machines",
+  "chapterNo": 3,
+  "topic": "Simple machines and energy",
+  "difficulty": "hard",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully about 'perpetual motion' wheels like this one.",
+  "image": {
+   "src": "/img/work/perpetual.svg",
+   "alt": "A wheel with weights on its rim, an old design for a machine meant to run forever"
+  },
+  "assertion": "Every real machine eventually slows down and stops unless energy is supplied to it.",
+  "reason": "A cleverly designed machine can give out more work than the work put into it.",
+  "answer": "c",
+  "hint": "Machines do not create energy. Where does energy keep leaking away to?",
+  "explanation": "A is true: every real machine slows down and stops unless energy is fed in, because friction and air resistance keep turning some of its energy into heat. R is **false**: machines cannot give out more work than is put in. They only help us use energy more conveniently, and they do not create it. That is why no perpetual motion machine has ever worked."
+ }
+]

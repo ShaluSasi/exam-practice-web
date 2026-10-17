@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A bullet entering a heavy wooden block and stopping inside it</title>
+<style>
+.bt{animation:bt 3s ease-out infinite}@keyframes bt{0%{transform:translateX(0)}35%{transform:translateX(196px);animation-timing-function:cubic-bezier(.2,.8,.4,1)}50%,92%{transform:translateX(240px)}100%{transform:translateX(240px);opacity:0}}.sl{animation:sl 3s linear infinite}@keyframes sl{0%,30%{opacity:1}40%,100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 160H400V184Q400 200 384 200H16Q0 200 0 184Z" fill="#D9C49A"/><line x1="0" y1="160" x2="400" y2="160" stroke="#A88B5A" stroke-width="3"/><g class="sl" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"><path d="M30 90h40M20 100h60M34 110h40"/></g><rect x="220" y="50" width="130" height="110" rx="6" fill="#C8925A" stroke="#8A5A2B" stroke-width="3"/><path d="M230 75Q285 68 340 78M230 105Q290 98 340 110M230 135Q280 128 340 140" fill="none" stroke="#A8743F" stroke-width="2.5"/><g class="bt"><path d="M10 94H30Q42 94 46 100Q42 106 30 106H10Z" fill="#D8A13A" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Air circulating in two loops between the equator and 30 degrees north and south</title>
+<defs>
+<linearGradient id="gl" gradientUnits="userSpaceOnUse" x1="200" y1="0" x2="52" y2="0"><stop offset="0" stop-color="#FF8A1F"/><stop offset="1" stop-color="#0B93D4"/></linearGradient>
+<linearGradient id="gr" gradientUnits="userSpaceOnUse" x1="200" y1="0" x2="348" y2="0"><stop offset="0" stop-color="#FF8A1F"/><stop offset="1" stop-color="#0B93D4"/></linearGradient>
+</defs>
+<style>
+.lp{stroke-dasharray:14 8;animation:lp 1.6s linear infinite}
+@keyframes lp{to{stroke-dashoffset:-44}}
+.cl{animation:bob 4s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#D9C49A" stroke="#A88B57" stroke-width="2.5"/>
+<g fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path class="lp" d="M200 186V62Q200 52 190 52H62Q52 52 52 62V178Q52 188 62 188H184" stroke="url(#gl)"/>
+<path class="lp" d="M200 186V62Q200 52 210 52H338Q348 52 348 62V178Q348 188 338 188H216" stroke="url(#gr)"/>
+</g>
+<g class="cl"><path d="M172 44Q170 28 186 28Q194 16 210 22Q226 18 230 32Q244 34 240 44Z" fill="#FFFFFF" stroke="#9DB6CC" stroke-width="2.5" stroke-linejoin="round"/></g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="52" y="224">30° N</text><text x="200" y="224">0°</text><text x="348" y="224">30° S</text>
+</g>
+</svg>

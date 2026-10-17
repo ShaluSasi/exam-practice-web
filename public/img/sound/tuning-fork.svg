@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A tuning fork held by its stem with one prong touching water, and a rubber pad</title>
+<style>.rip{transform-box:fill-box;transform-origin:center;animation:rip 2.4s ease-out infinite;opacity:0}
+@keyframes rip{0%{transform:scale(.12);opacity:.9}100%{transform:scale(1);opacity:0}}
+.vib{animation:vib .3s ease-in-out infinite alternate}@keyframes vib{from{opacity:.15}to{opacity:1}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="300" y="200" width="84" height="32" rx="9" fill="#F7A8A8" stroke="#C0393E" stroke-width="2.5"/>
+<path d="M312 209 H372" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+<path d="M115 188 Q122 248 200 248 Q278 248 285 188Z" fill="#CDEBFA" stroke="#2B6F99" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="200" cy="188" rx="85" ry="10" fill="#9ED3F2" stroke="#2B6F99" stroke-width="2.5"/>
+<g fill="none" stroke="#0B93D4" stroke-width="2"><ellipse class="rip" cx="195" cy="188" rx="70" ry="8"/><ellipse class="rip" style="animation-delay:-.8s" cx="195" cy="188" rx="70" ry="8"/><ellipse class="rip" style="animation-delay:-1.6s" cx="195" cy="188" rx="70" ry="8"/></g>
+<g transform="translate(230 14) rotate(18)">
+<path d="M0 0 V72" fill="none" stroke="#6E7396" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 0 V72" fill="none" stroke="#C9CDE6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-20 176 V96 Q-20 72 0 72 Q20 72 20 96 V176" fill="none" stroke="#6E7396" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/><path d="M-20 176 V96 Q-20 72 0 72 Q20 72 20 96 V176" fill="none" stroke="#C9CDE6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-23 100 V170" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<rect x="-17" y="-34" width="34" height="38" rx="7" fill="#6C7BD9" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="-14" y="2" width="28" height="34" rx="12" fill="#F2C6A0" stroke="#B9835A" stroke-width="2.5"/>
+<g class="vib" fill="none" stroke="#FF8A1F" stroke-width="2.5" stroke-linecap="round"><path d="M-34 110 q-6 14 0 28"/><path d="M-43 103 q-9 21 0 42"/><path d="M34 110 q6 14 0 28"/><path d="M43 103 q9 21 0 42"/></g>
+</g>
+</svg>

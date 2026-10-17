@@ -1,0 +1,2266 @@
+[
+  {
+    "id": "in-cbse-9-phy-sound-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Tuning fork",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A tuning fork has been struck on a rubber pad and one arm is dipped into water. Tap a **prong** (tine) of the tuning fork.",
+    "image": {
+      "src": "/img/sound/tuning-fork.svg",
+      "alt": "A tuning fork, a bowl of water and a rubber pad with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "stem",
+        "x": 53.5,
+        "y": 24.4,
+        "label": "Stem"
+      },
+      {
+        "id": "prong",
+        "x": 42.7,
+        "y": 50.5,
+        "label": "Prong (tine)"
+      },
+      {
+        "id": "water",
+        "x": 62.5,
+        "y": 73.8,
+        "label": "Ripples on the water"
+      },
+      {
+        "id": "pad",
+        "x": 85.5,
+        "y": 83.1,
+        "label": "Rubber pad"
+      }
+    ],
+    "answer": "prong",
+    "hint": "The prongs are the two arms of the 'U'; you hold the fork by the single straight part.",
+    "explanation": "A tuning fork is a U-shaped steel or aluminium bar with a **stem**. The two arms of the U are the **prongs** (tines). They are struck gently on a soft **rubber pad**, never a hard surface, and then they vibrate. When a vibrating prong touches water, ripples spread out, which shows that sound comes from **vibrating objects**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Frequency",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A friend pushes and pulls the end of a slinky steadily. You count **36 compressions** passing the flag P in **3 s**. What is the frequency of the wave?",
+    "image": {
+      "src": "/img/sound/slinky.svg",
+      "alt": "Animation of a slinky with compressions travelling past a flag marked P"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$108\\ \\text{Hz}$"
+      },
+      {
+        "id": "b",
+        "text": "$12\\ \\text{Hz}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.083\\ \\text{Hz}$"
+      },
+      {
+        "id": "d",
+        "text": "$36\\ \\text{Hz}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Frequency is the number of oscillations at a point **per second**.",
+    "explanation": "Each compression passing P is one oscillation, so $$\\nu = \\dfrac{\\text{number of oscillations}}{\\text{time}} = \\dfrac{36}{3\\ \\text{s}} = 12\\ \\text{Hz}$$ 108 Hz comes from multiplying instead of dividing. 0.083 Hz is $\\tfrac{3}{36}$, the ratio turned upside down (that is actually the **time period** in seconds), and 36 Hz ignores the 3 s."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Sound needs a medium",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/sound/bell-jar.svg",
+      "alt": "Animation of an electric bell ringing inside a bell jar attached to a vacuum pump"
+    },
+    "assertion": "A ringing electric bell inside a bell jar becomes almost silent once most of the air is pumped out, even though its hammer can still be seen striking.",
+    "reason": "Sound needs a material medium to propagate.",
+    "answer": "a",
+    "hint": "What is left between the bell and your ear when the air has been removed?",
+    "explanation": "Both are true and R explains A. As the pump removes air, there are fewer particles to carry the vibrations, so the sound fades; near a **vacuum** almost nothing is heard. The bell can still be **seen** because light does not need a medium. Letting air back in brings the sound back."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Production of sound",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which observations show that **sound is produced by vibrating objects**? Select all that apply.",
+    "image": {
+      "src": "/img/sound/rubber-band.svg",
+      "alt": "Animation of a rubber band vibrating over an open cardboard box"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The sound stops as soon as the plucked rubber band stops vibrating"
+      },
+      {
+        "id": "b",
+        "text": "A sounding tuning fork makes ripples when one prong touches water"
+      },
+      {
+        "id": "c",
+        "text": "You feel your throat vibrating while you sing"
+      },
+      {
+        "id": "d",
+        "text": "Lightning is seen before the thunder is heard"
+      },
+      {
+        "id": "e",
+        "text": "Your shout comes back from a distant cliff"
+      },
+      {
+        "id": "f",
+        "text": "A bell in a jar grows fainter as the air is pumped out"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Pick only the observations where you can see or feel something moving to and fro while the sound is made.",
+    "explanation": "Sound lasts only while the rubber band vibrates; the tuning-fork prong shakes the water; and your **vocal cords** in the larynx vibrate when you sing. These all link sound to **vibration** (periodic to-and-fro motion). Lightning before thunder shows that light is faster than sound, the echo shows **reflection**, and the bell jar shows that sound needs a **medium**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Compressions and rarefactions",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The piston moves to and fro and sends a sound wave down the air-filled tube. Tap a **compression**.",
+    "image": {
+      "src": "/img/sound/piston-tube.svg",
+      "alt": "Air particles in a tube with a piston, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "piston",
+        "x": 12.3,
+        "y": 50,
+        "label": "Piston"
+      },
+      {
+        "id": "r192",
+        "x": 43.6,
+        "y": 50,
+        "label": "Rarefaction"
+      },
+      {
+        "id": "c252",
+        "x": 57.3,
+        "y": 50,
+        "label": "Compression"
+      },
+      {
+        "id": "r312",
+        "x": 70.9,
+        "y": 50,
+        "label": "Rarefaction"
+      },
+      {
+        "id": "wall",
+        "x": 81.8,
+        "y": 27.5,
+        "label": "Tube wall"
+      }
+    ],
+    "answer": "c252",
+    "hint": "In a compression the air is denser than average, so the dots are packed closest together.",
+    "explanation": "A **compression** is a region where the air has a **higher density** than the average. It forms when the piston pushes forward and crowds the particles together. Where the dots are spread out is a **rarefaction**, made when the piston moves back. The compressions travel along the tube, but each particle only vibrates about its mean position."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Sound in space",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In a science-fiction film, a spacecraft explodes far out in space. The astronaut watching **sees the flash and hears a loud bang at the same moment**. What is wrong with this scene?",
+    "image": {
+      "src": "/img/sound/space.svg",
+      "alt": "Animation of an astronaut watching a spacecraft explode in space"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Nothing is wrong: light and sound both travel through space at the same speed"
+      },
+      {
+        "id": "b",
+        "text": "The bang should be heard first, because sound travels faster than light"
+      },
+      {
+        "id": "c",
+        "text": "No bang should be heard at all, because space is almost a vacuum and sound needs a medium"
+      },
+      {
+        "id": "d",
+        "text": "The bang should be heard a few seconds after the flash, as thunder follows lightning"
+      }
+    ],
+    "answer": "c",
+    "hint": "Think about the bell-jar experiment. What is between the explosion and the astronaut?",
+    "explanation": "Outer space is almost a **vacuum**, and sound is a **mechanical wave**, so it cannot travel there. The astronaut would see the flash, because light needs no medium, but would hear nothing. Option d would be correct on the Earth, where sound travels through air far more slowly than light. Astronauts on a spacewalk talk to each other through special communication devices fitted in their spacesuits."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Vibrating parts of instruments",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered sound source with the part that vibrates to make its sound.",
+    "image": {
+      "src": "/img/sound/instruments.svg",
+      "alt": "Four numbered sound sources",
+      "markers": [
+        {
+          "x": 25,
+          "y": 25,
+          "label": "1"
+        },
+        {
+          "x": 75,
+          "y": 25.8,
+          "label": "2"
+        },
+        {
+          "x": 25,
+          "y": 68.3,
+          "label": "3"
+        },
+        {
+          "x": 72.3,
+          "y": 68.8,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "1 (bansuri)"
+      },
+      {
+        "id": "p2",
+        "text": "2 (ektara)"
+      },
+      {
+        "id": "p3",
+        "text": "3 (tabla)"
+      },
+      {
+        "id": "p4",
+        "text": "4 (tuning fork)"
+      }
+    ],
+    "right": [
+      {
+        "id": "mem",
+        "text": "A stretched membrane"
+      },
+      {
+        "id": "air",
+        "text": "The air column inside a hollow pipe"
+      },
+      {
+        "id": "vocal",
+        "text": "Vocal cords"
+      },
+      {
+        "id": "prong",
+        "text": "Metal prongs"
+      },
+      {
+        "id": "string",
+        "text": "A stretched string"
+      }
+    ],
+    "pairs": {
+      "p1": "air",
+      "p2": "string",
+      "p3": "mem",
+      "p4": "prong"
+    },
+    "hint": "In a flute, nothing solid moves; you blow into it.",
+    "explanation": "In a **bansuri** the **air column** inside the hollow pipe vibrates. The **ektara** has a plucked **string**, the **tabla** has a struck **membrane**, and a **tuning fork** vibrates through its metal **prongs**. Vocal cords make sound in humans, not in these instruments."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Compressions and rarefactions",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Look at the air particles in the tube again. Tap a **rarefaction**.",
+    "image": {
+      "src": "/img/sound/piston-tube.svg",
+      "alt": "Air particles in a tube with a piston, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "piston",
+        "x": 12.3,
+        "y": 50,
+        "label": "Piston"
+      },
+      {
+        "id": "c132",
+        "x": 30,
+        "y": 50,
+        "label": "Compression"
+      },
+      {
+        "id": "c252",
+        "x": 57.3,
+        "y": 50,
+        "label": "Compression"
+      },
+      {
+        "id": "r312",
+        "x": 70.9,
+        "y": 50,
+        "label": "Rarefaction"
+      },
+      {
+        "id": "c372",
+        "x": 84.5,
+        "y": 50,
+        "label": "Compression"
+      }
+    ],
+    "answer": "r312",
+    "hint": "A rarefaction has a lower density than average, so look for dots that are spread out.",
+    "explanation": "A **rarefaction** is a region of **lower density** than average. It forms when the piston moves backwards and the nearby air particles follow it, leaving the air thinner. The other markers in the tube sit on compressions, where the dots are crowded. Compressions and rarefactions alternate along a sound wave."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Particles do not travel with the wave",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/sound/slinky.svg",
+      "alt": "Animation of a slinky with one red marked turn as a pulse travels along it"
+    },
+    "assertion": "In a slinky wave, the regions where the turns are bunched up and spread out travel from one end to the other.",
+    "reason": "Each turn of the slinky moves forward along with the wave all the way to the far end.",
+    "answer": "c",
+    "hint": "Watch the red marked turn. Does it reach the far end?",
+    "explanation": "A is true: the disturbance (bunched and spread regions) moves along the slinky. R is false: the marked turn only **oscillates about its own position**, parallel to the direction of the disturbance. Sound in air behaves the same way, since the **energy** moves on while the particles stay near their mean positions."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Frequency",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The piston in an air-filled tube vibrates at **15 Hz**. How many complete oscillations does it make in **one minute**?",
+    "image": {
+      "src": "/img/sound/piston-tube.svg",
+      "alt": "Animation of a piston oscillating at one end of an air-filled tube"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "0.25"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "900"
+      }
+    ],
+    "answer": "d",
+    "hint": "15 Hz means 15 oscillations every second. How many seconds are in a minute?",
+    "explanation": "$$15\\ \\text{s}^{-1} \\times 60\\ \\text{s} = 900\\ \\text{oscillations}$$ The answer 15 forgets to change the minute into seconds. 0.25 ($\\tfrac{15}{60}$) and 4 ($\\tfrac{60}{15}$) come from dividing when you should multiply."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Intensity",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "As you walk away from a ringing temple bell, it sounds softer and softer. Which explanation fits the picture best?",
+    "image": {
+      "src": "/img/sound/spherical-waves.svg",
+      "alt": "Animation of sound spreading out in rings from a small source, with the same cone covering a bigger area farther away"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The same sound energy spreads over a larger area, so the energy through each unit area per second (intensity) falls"
+      },
+      {
+        "id": "b",
+        "text": "The sound wave slows down as it travels, so it carries less energy"
+      },
+      {
+        "id": "c",
+        "text": "The frequency of the sound drops as it moves away from the bell"
+      },
+      {
+        "id": "d",
+        "text": "The air particles carrying the sound get tired and stop moving with it"
+      }
+    ],
+    "answer": "a",
+    "hint": "Compare the two orange arcs. They catch the same share of energy, but how big is each one?",
+    "explanation": "A small source sends out **spherical waves**. Energy is conserved, so the same energy is shared over an ever larger area, and **intensity** (sound energy through unit area in unit time) decreases with distance. The speed and frequency do not change as you walk away. Air particles never travel with the wave; they only vibrate about their mean positions."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Vacuum bell jar",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of the **vacuum bell jar** experiment in the order in which they happen.",
+    "image": {
+      "src": "/img/sound/bell-jar.svg",
+      "alt": "Animation of an electric bell inside a bell jar, connected to a power supply and a vacuum pump"
+    },
+    "items": [
+      {
+        "id": "faint",
+        "text": "The pump removes air and the sound grows fainter"
+      },
+      {
+        "id": "loud",
+        "text": "The bell is switched on and rings loudly in the air-filled jar"
+      },
+      {
+        "id": "back",
+        "text": "The sound slowly becomes as loud as at the start"
+      },
+      {
+        "id": "silent",
+        "text": "Near vacuum: the bell is seen ringing but almost nothing is heard"
+      },
+      {
+        "id": "letin",
+        "text": "Air is let back into the jar"
+      }
+    ],
+    "answer": [
+      "loud",
+      "faint",
+      "silent",
+      "letin",
+      "back"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The loudness falls as air leaves and rises as air returns.",
+    "explanation": "The bell rings loudly while the jar is full of air. As air is pumped out, the sound fades until, near a **vacuum**, almost nothing is heard although the hammer still moves. Letting the air back in gradually restores the sound. This shows that sound **needs a medium**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Wavelength",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the arrow that shows **one wavelength** ($\\lambda$) of this sound wave.",
+    "image": {
+      "src": "/img/sound/wave-measure.svg",
+      "alt": "A density–distance graph of a sound wave with four numbered arrows"
+    },
+    "spots": [
+      {
+        "id": "amp",
+        "x": 84.1,
+        "y": 38.9,
+        "label": "Average density to crest: amplitude"
+      },
+      {
+        "id": "lam",
+        "x": 36.4,
+        "y": 18.5,
+        "label": "Crest to next crest: one wavelength"
+      },
+      {
+        "id": "twoA",
+        "x": 36.4,
+        "y": 50,
+        "label": "Trough to crest: twice the amplitude"
+      },
+      {
+        "id": "half",
+        "x": 60.2,
+        "y": 82.2,
+        "label": "Crest to next trough: half a wavelength"
+      }
+    ],
+    "answer": "lam",
+    "hint": "Wavelength is measured from one crest to the next crest, or one trough to the next trough.",
+    "explanation": "The **wavelength** is the distance between two **consecutive crests** (or two consecutive troughs); its SI unit is the metre. The arrow from a crest to the next trough is only **half** a wavelength. The vertical arrows measure density changes, not distance."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Microphones and speakers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "When you sing into a microphone, a thin diaphragm inside it vibrates. Which energy changes happen in the **microphone** and in the **loudspeaker**?",
+    "image": {
+      "src": "/img/sound/mic-speaker.svg",
+      "alt": "Animation of a microphone joined by a wire to a loudspeaker"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Microphone: electrical → sound; speaker: sound → electrical"
+      },
+      {
+        "id": "b",
+        "text": "Microphone: sound → light; speaker: light → sound"
+      },
+      {
+        "id": "c",
+        "text": "Microphone: sound → heat; speaker: heat → sound"
+      },
+      {
+        "id": "d",
+        "text": "Microphone: sound → electrical; speaker: electrical → sound"
+      }
+    ],
+    "answer": "d",
+    "hint": "The microphone sends something along the wire; the speaker turns it back into what you hear.",
+    "explanation": "In a **microphone**, sound waves make the **diaphragm** vibrate and these vibrations are turned into an **electrical signal**. A **speaker** does the opposite: the electrical signal makes its cone or diaphragm vibrate, which produces sound. Option a has the two devices swapped."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Energy and amplitude",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/sound/drum-grains.svg",
+      "alt": "Animation of grains jumping on a rubber sheet over a bowl as a metal plate is struck nearby"
+    },
+    "assertion": "When the metal plate is struck harder, the grains on the stretched sheet jump higher, even though nothing touches the sheet.",
+    "reason": "A sound wave with a larger amplitude carries more energy.",
+    "answer": "a",
+    "hint": "What does the sound carry across the gap to the sheet?",
+    "explanation": "Both are true and R explains A. Sound is a form of **energy**: the vibrating plate passes energy to the air, and the air makes the sheet vibrate. Striking harder gives a **larger amplitude**, so more energy reaches the sheet, it vibrates more, and the grains jump higher."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Amplitude",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the arrow that shows the **amplitude** of this sound wave.",
+    "image": {
+      "src": "/img/sound/wave-measure.svg",
+      "alt": "A density–distance graph of a sound wave with four numbered arrows"
+    },
+    "spots": [
+      {
+        "id": "lam",
+        "x": 36.4,
+        "y": 18.5,
+        "label": "Crest to next crest: one wavelength"
+      },
+      {
+        "id": "twoA",
+        "x": 36.4,
+        "y": 50,
+        "label": "Trough to crest: twice the amplitude"
+      },
+      {
+        "id": "amp",
+        "x": 84.1,
+        "y": 38.9,
+        "label": "Average density to crest: amplitude"
+      },
+      {
+        "id": "half",
+        "x": 60.2,
+        "y": 82.2,
+        "label": "Crest to next trough: half a wavelength"
+      }
+    ],
+    "answer": "amp",
+    "hint": "Amplitude is measured from the average density line, not from the trough.",
+    "explanation": "The **amplitude** is the **maximum change in density** in a compression (or rarefaction) compared with the **average density**, so it runs from the dashed average line up to a crest. The trough-to-crest arrow is **twice** the amplitude. The horizontal arrows measure distances along the wave (wavelength and half-wavelength)."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "SI units",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quantity that describes a sound wave with its SI unit.",
+    "image": {
+      "src": "/img/sound/wave-measure.svg",
+      "alt": "A density–distance graph of a sound wave with measurement arrows"
+    },
+    "left": [
+      {
+        "id": "lam",
+        "text": "Wavelength ($\\lambda$)"
+      },
+      {
+        "id": "nu",
+        "text": "Frequency ($\\nu$)"
+      },
+      {
+        "id": "T",
+        "text": "Time period ($T$)"
+      },
+      {
+        "id": "v",
+        "text": "Speed ($v$)"
+      }
+    ],
+    "right": [
+      {
+        "id": "s",
+        "text": "second (s)"
+      },
+      {
+        "id": "db",
+        "text": "decibel (dB)"
+      },
+      {
+        "id": "ms",
+        "text": "$\\text{m s}^{-1}$"
+      },
+      {
+        "id": "m",
+        "text": "metre (m)"
+      },
+      {
+        "id": "hz",
+        "text": "hertz (Hz), i.e. $\\text{s}^{-1}$"
+      }
+    ],
+    "pairs": {
+      "lam": "m",
+      "nu": "hz",
+      "T": "s",
+      "v": "ms"
+    },
+    "hint": "Frequency counts oscillations per second, so its unit is 'per second'.",
+    "explanation": "Wavelength is a distance, measured in **metres**. Frequency is oscillations per second, measured in **hertz** ($\\text{s}^{-1}$). Time period is a time, measured in **seconds**, and speed is distance per time, in $\\text{m s}^{-1}$. The **decibel** is used for loudness levels, not for any of these."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Speed, frequency and wavelength",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Sound travels at $344\\ \\text{m s}^{-1}$ in air. What is the wavelength of a whistle of frequency **17.2 kHz**?",
+    "image": {
+      "src": "/img/sound/spherical-waves.svg",
+      "alt": "Animation of sound waves spreading out from a small source"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2\\ \\text{cm}$"
+      },
+      {
+        "id": "b",
+        "text": "$20\\ \\text{m}$"
+      },
+      {
+        "id": "c",
+        "text": "$50\\ \\text{m}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.2\\ \\text{cm}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Change kHz into Hz first, then use $\\lambda = \\dfrac{v}{\\nu}$.",
+    "explanation": "$17.2\\ \\text{kHz} = 17{,}200\\ \\text{Hz}$, so $$\\lambda = \\dfrac{v}{\\nu} = \\dfrac{344\\ \\text{m s}^{-1}}{17{,}200\\ \\text{s}^{-1}} = 0.02\\ \\text{m} = 2\\ \\text{cm}$$ 20 m comes from forgetting to convert kHz into Hz ($344 \\div 17.2$). 50 comes from dividing frequency by speed, the formula upside down, and 0.2 cm is a slip when changing metres to centimetres."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Time period",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A tuning fork produces a sound of wavelength **0.86 m** in air, where sound travels at $344\\ \\text{m s}^{-1}$. What is the **time period** of the sound wave?",
+    "image": {
+      "src": "/img/sound/tuning-fork.svg",
+      "alt": "Animation of a vibrating tuning fork making ripples in a bowl of water"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$400\\ \\text{s}$"
+      },
+      {
+        "id": "b",
+        "text": "$296\\ \\text{s}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.0025\\ \\text{s}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.025\\ \\text{s}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Find the frequency with $\\nu = \\dfrac{v}{\\lambda}$, then use $T = \\dfrac{1}{\\nu}$.",
+    "explanation": "$$\\nu = \\dfrac{v}{\\lambda} = \\dfrac{344}{0.86} = 400\\ \\text{Hz}, \\qquad T = \\dfrac{1}{\\nu} = \\dfrac{1}{400} = 0.0025\\ \\text{s}$$ 400 is the frequency, wrongly given in seconds. 296 s comes from multiplying $v \\times \\lambda$, and 0.025 s is a decimal-place slip."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Loudness and amplitude",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Four sounds were recorded in the same room and are drawn to the same scale. Which one is the **loudest**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wave P",
+        "image": {
+          "src": "/img/sound/wave-amp-2.svg",
+          "alt": "Sound wave P"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Wave Q",
+        "image": {
+          "src": "/img/sound/wave-amp-4.svg",
+          "alt": "Sound wave Q"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Wave R",
+        "image": {
+          "src": "/img/sound/wave-amp-1.svg",
+          "alt": "Sound wave R"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Wave S",
+        "image": {
+          "src": "/img/sound/wave-amp-3.svg",
+          "alt": "Sound wave S"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "Loudness is how we perceive one particular feature of the wave: how far it rises above and falls below the average.",
+    "explanation": "We hear **amplitude** as **loudness**. Wave Q has the tallest crests and deepest troughs, so it has the largest amplitude, carries the most energy and sounds loudest. All four have the same wavelength, so they have the same pitch."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Pitch and frequency",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "These four sounds travel through air and are drawn to the same scale. Which one could be a **shrill whistle** rather than a deep rumble?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wave P",
+        "image": {
+          "src": "/img/sound/wave-pitch-2.svg",
+          "alt": "Sound wave P"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Wave Q",
+        "image": {
+          "src": "/img/sound/wave-pitch-1.svg",
+          "alt": "Sound wave Q"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Wave R",
+        "image": {
+          "src": "/img/sound/wave-pitch-3.svg",
+          "alt": "Sound wave R"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Wave S",
+        "image": {
+          "src": "/img/sound/wave-pitch-4.svg",
+          "alt": "Sound wave S"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Shrill means high pitch, and high pitch means high frequency. In the same medium, how does a higher frequency change the wavelength?",
+    "explanation": "A shrill sound has a **high pitch**, which means a **high frequency**. In air the speed is fixed, so by $v = \\nu\\lambda$ a higher frequency means a **shorter wavelength**, with the crests closest together, as in wave S. Wave Q, with the longest wavelength, would be the deepest sound."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Pitch and frequency",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These four sound waves all travel through air. Tap the marker beside the wave with the **lowest pitch**.",
+    "image": {
+      "src": "/img/sound/four-waves.svg",
+      "alt": "Animation of four numbered sound waves drawn to the same scale"
+    },
+    "spots": [
+      {
+        "id": "w1",
+        "x": 7.7,
+        "y": 15,
+        "label": "Wave 1: medium wavelength"
+      },
+      {
+        "id": "w2",
+        "x": 7.7,
+        "y": 38.3,
+        "label": "Wave 2: longest wavelength"
+      },
+      {
+        "id": "w3",
+        "x": 7.7,
+        "y": 61.7,
+        "label": "Wave 3: shortest wavelength, largest amplitude"
+      },
+      {
+        "id": "w4",
+        "x": 7.7,
+        "y": 85,
+        "label": "Wave 4: smallest amplitude"
+      }
+    ],
+    "answer": "w2",
+    "hint": "Pitch depends on frequency, not on how tall the wave is.",
+    "explanation": "Pitch is how we perceive **frequency**. All four waves have the same speed in air, so the one with the **longest wavelength** has the lowest frequency ($\\nu = v/\\lambda$) and the lowest pitch: wave 2. Wave 3 has the largest amplitude, which makes it the **loudest**, not the lowest. Wave 4 is simply the softest."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Effect of frequency",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A sound wave is travelling in air. If its **frequency is increased**, what else increases?",
+    "image": {
+      "src": "/img/sound/four-waves.svg",
+      "alt": "Animation of four sound waves of different wavelengths travelling at the same speed"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Its wavelength"
+      },
+      {
+        "id": "b",
+        "text": "Its speed"
+      },
+      {
+        "id": "c",
+        "text": "The number of compressions passing a point each second"
+      },
+      {
+        "id": "d",
+        "text": "Its time period"
+      }
+    ],
+    "answer": "c",
+    "hint": "Recall the definition of frequency in terms of what happens at one fixed point.",
+    "explanation": "Frequency is the number of density oscillations at a point per second, so **more compressions pass each second**. In air the speed does not depend on frequency, so the wavelength $\\lambda = v/\\nu$ gets **shorter**. The time period $T = 1/\\nu$ also gets **shorter**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Reading a wave graph",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph shows a sound wave in **steel**, where sound travels at $5000\\ \\text{m s}^{-1}$. What is the time period of this wave?",
+    "image": {
+      "src": "/img/sound/graph-steel.svg",
+      "alt": "Density–distance graph of a sound wave in steel with distance marked in metres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.008\\ \\text{s}$"
+      },
+      {
+        "id": "b",
+        "text": "$0.004\\ \\text{s}$"
+      },
+      {
+        "id": "c",
+        "text": "$125\\ \\text{s}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.016\\ \\text{s}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find two neighbouring crests and read the distance between them.",
+    "explanation": "Crests are at 10 m and 50 m, so $\\lambda = 40\\ \\text{m}$. $$\\nu = \\dfrac{v}{\\lambda} = \\dfrac{5000}{40} = 125\\ \\text{Hz}, \\qquad T = \\dfrac{1}{\\nu} = \\dfrac{1}{125} = 0.008\\ \\text{s}$$ 0.004 s comes from taking 20 m (between two average-density crossings) as a full wavelength, when it is only half. 0.016 s treats the whole 80 m graph as one wavelength, and 125 is the frequency, not the period."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Reading a wave graph",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "This graph shows a sound wave travelling in air at $340\\ \\text{m s}^{-1}$. What is its **frequency**?",
+    "image": {
+      "src": "/img/sound/graph-cm.svg",
+      "alt": "Density–distance graph of a sound wave with distance marked in centimetres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$85\\ \\text{Hz}$"
+      },
+      {
+        "id": "b",
+        "text": "$8500\\ \\text{Hz}$"
+      },
+      {
+        "id": "c",
+        "text": "$17{,}000\\ \\text{Hz}$"
+      },
+      {
+        "id": "d",
+        "text": "$13.6\\ \\text{Hz}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Read crest to crest, and remember to change centimetres into metres.",
+    "explanation": "Crests are at 0, 4 and 8 cm, so $\\lambda = 4\\ \\text{cm} = 0.04\\ \\text{m}$. $$\\nu = \\dfrac{v}{\\lambda} = \\dfrac{340}{0.04} = 8500\\ \\text{Hz}$$ 85 Hz forgets the cm-to-m conversion. 17,000 Hz uses the 2 cm from crest to trough, which is only half a wavelength, and 13.6 comes from multiplying $v \\times \\lambda$."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Lightning and thunder",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "During a storm you see a lightning flash and hear the thunder **4 s** later. Taking the speed of sound as $340\\ \\text{m s}^{-1}$, about how far away was the strike? (Light reaches you almost instantly.)",
+    "image": {
+      "src": "/img/sound/lightning.svg",
+      "alt": "Animation of a lightning flash followed by sound travelling towards a child with a stopwatch"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$680\\ \\text{m}$"
+      },
+      {
+        "id": "b",
+        "text": "$85\\ \\text{m}$"
+      },
+      {
+        "id": "c",
+        "text": "$1.36\\ \\text{km}$"
+      },
+      {
+        "id": "d",
+        "text": "$12{,}00{,}000\\ \\text{km}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The sound makes a one-way trip from the strike to you.",
+    "explanation": "$$d = v \\times t = 340\\ \\text{m s}^{-1} \\times 4\\ \\text{s} = 1360\\ \\text{m} \\approx 1.36\\ \\text{km}$$ No reflection is involved, so do **not** halve (680 m is that echo mistake). 85 m comes from dividing speed by time, and 12,00,000 km uses the speed of light, whose travel time here is negligible."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Speed of sound",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which statements about the **speed of sound** are correct? Select all that apply.",
+    "image": {
+      "src": "/img/sound/speed-media.svg",
+      "alt": "A steel bar, a tank of water and a box of air"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The speed of sound in air increases as the temperature rises"
+      },
+      {
+        "id": "b",
+        "text": "In air, a high-pitched sound travels faster than a low-pitched one"
+      },
+      {
+        "id": "c",
+        "text": "Sound travels fastest in solids and slowest in gases"
+      },
+      {
+        "id": "d",
+        "text": "Sound travels about 4–5 times faster in water than in air"
+      },
+      {
+        "id": "e",
+        "text": "Making the air more humid lowers the speed of sound"
+      },
+      {
+        "id": "f",
+        "text": "Sound travels faster through a vacuum because nothing gets in its way"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "In dry air, sound travels at about 331 m/s at 0 °C but about 344 m/s at 22 °C.",
+    "explanation": "Sound is fastest in **solids** (steel about 5000 m/s), slower in **liquids** (water about 1500 m/s) and slowest in **gases** (air about 340 m/s), so it is roughly 4–5 times faster in water than in air. Raising the **temperature** or the **humidity** increases the speed. In air, speed depends on the medium, not the frequency, and sound cannot travel through a vacuum at all."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Sound through solids",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Gunjan presses her ear to a long steel fence while her friend knocks on it **850 m** away. Sound travels at $5000\\ \\text{m s}^{-1}$ in steel and $340\\ \\text{m s}^{-1}$ in air. What is the time gap between the two knocks she hears, and can she tell them apart? (Two sounds must be at least 0.1 s apart to be heard separately.)",
+    "image": {
+      "src": "/img/sound/steel-fence.svg",
+      "alt": "Animation of a knock travelling quickly along a steel fence and more slowly through the air"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "2.33 s; yes, she hears two separate knocks"
+      },
+      {
+        "id": "b",
+        "text": "2.67 s; yes, she hears two separate knocks"
+      },
+      {
+        "id": "c",
+        "text": "0.17 s; yes, she hears two separate knocks"
+      },
+      {
+        "id": "d",
+        "text": "2.33 s; no, the gap is too short to notice"
+      }
+    ],
+    "answer": "a",
+    "hint": "Work out each travel time separately, then find the difference.",
+    "explanation": "Through air: $\\dfrac{850}{340} = 2.5\\ \\text{s}$. Through steel: $\\dfrac{850}{5000} = 0.17\\ \\text{s}$. Gap $= 2.5 - 0.17 = 2.33\\ \\text{s}$, far more than 0.1 s, so she hears the knock twice: first through the steel, then through the air. 2.67 s adds the times instead of subtracting, and 0.17 s is only the steel time."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Temperature and speed of sound",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Sound travels at about $344\\ \\text{m s}^{-1}$ in air at 22 °C but only $331\\ \\text{m s}^{-1}$ at 0 °C. Thunder comes from a strike **2648 m** away. Roughly how much **extra** time does it take to reach you on a 0 °C day than on a 22 °C day?",
+    "image": {
+      "src": "/img/sound/lightning.svg",
+      "alt": "Animation of thunder travelling from a distant lightning strike to a child"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$7.70\\ \\text{s}$"
+      },
+      {
+        "id": "b",
+        "text": "$8.00\\ \\text{s}$"
+      },
+      {
+        "id": "c",
+        "text": "$15.70\\ \\text{s}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.30\\ \\text{s}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find the travel time at each temperature, then subtract.",
+    "explanation": "At 0 °C: $t = \\dfrac{2648}{331} = 8.00\\ \\text{s}$. At 22 °C: $t = \\dfrac{2648}{344} \\approx 7.70\\ \\text{s}$. Extra time $\\approx 8.00 - 7.70 = 0.30\\ \\text{s}$. The 7.70 s and 8.00 s options are single travel times, not the difference, and 15.70 s adds them. Sound is slower in colder air."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Human ear",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Sound waves are entering this ear. Tap the **eardrum**.",
+    "image": {
+      "src": "/img/sound/ear.svg",
+      "alt": "A schematic ear with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "pinna",
+        "x": 13.6,
+        "y": 49.2,
+        "label": "Outer ear"
+      },
+      {
+        "id": "canal",
+        "x": 36.4,
+        "y": 50.4,
+        "label": "Ear canal"
+      },
+      {
+        "id": "drum",
+        "x": 51.4,
+        "y": 50.4,
+        "label": "Eardrum"
+      },
+      {
+        "id": "bones",
+        "x": 57.7,
+        "y": 43.1,
+        "label": "Tiny bones"
+      },
+      {
+        "id": "cochlea",
+        "x": 71.8,
+        "y": 53.8,
+        "label": "Cochlea"
+      }
+    ],
+    "answer": "drum",
+    "hint": "It is the thin membrane stretched across the inner end of the ear canal.",
+    "explanation": "The **eardrum** is a thin membrane at the end of the ear canal. Sound entering the ear makes it **vibrate**. Tiny bones then amplify these vibrations and pass them on to the **cochlea**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Human ear",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the part of the ear that **converts vibrations into electrical signals** for the brain.",
+    "image": {
+      "src": "/img/sound/ear.svg",
+      "alt": "A schematic ear connected to the brain, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "drum",
+        "x": 51.4,
+        "y": 50.4,
+        "label": "Eardrum"
+      },
+      {
+        "id": "bones",
+        "x": 57.7,
+        "y": 43.1,
+        "label": "Tiny bones"
+      },
+      {
+        "id": "cochlea",
+        "x": 71.8,
+        "y": 53.8,
+        "label": "Cochlea"
+      },
+      {
+        "id": "nerve",
+        "x": 82.7,
+        "y": 48.5,
+        "label": "Nerve carrying signals"
+      },
+      {
+        "id": "brain",
+        "x": 90.9,
+        "y": 24.6,
+        "label": "Brain"
+      }
+    ],
+    "answer": "cochlea",
+    "hint": "It is coiled like a snail shell.",
+    "explanation": "The coiled **cochlea** converts the amplified vibrations into **electrical signals**. A nerve carries these signals to the **brain**, which perceives them as sound. The eardrum and tiny bones only vibrate and amplify; they do not make electrical signals."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "How we hear",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps by which we **hear** a sound, starting when the sound reaches the ear.",
+    "image": {
+      "src": "/img/sound/ear.svg",
+      "alt": "Animation of sound waves entering a schematic ear connected to the brain"
+    },
+    "items": [
+      {
+        "id": "bones",
+        "text": "Tiny bones amplify the vibrations"
+      },
+      {
+        "id": "brain",
+        "text": "The brain perceives the signals as sound"
+      },
+      {
+        "id": "canal",
+        "text": "Sound waves travel into the ear"
+      },
+      {
+        "id": "cochlea",
+        "text": "The cochlea turns the vibrations into electrical signals"
+      },
+      {
+        "id": "drum",
+        "text": "The eardrum starts vibrating"
+      }
+    ],
+    "answer": [
+      "canal",
+      "drum",
+      "bones",
+      "cochlea",
+      "brain"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Follow the diagram from left to right.",
+    "explanation": "Sound enters the ear and sets the **eardrum** vibrating. The **tiny bones** amplify these vibrations, and the **cochlea** converts them into **electrical signals** that travel to the **brain**. Having two ears lets the brain compare which ear hears a sound first, so it can work out where the sound came from."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Loudness, noise and hearing",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which statements about **loudness and hearing** are correct? Select all that apply.",
+    "image": {
+      "src": "/img/sound/db-meter.svg",
+      "alt": "Animation of a handheld sound level meter with a decibel dial"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Normal conversation is about 60 dB"
+      },
+      {
+        "id": "b",
+        "text": "Very loud firecrackers can exceed 100 dB"
+      },
+      {
+        "id": "c",
+        "text": "A small rise in the dB level means only a tiny rise in sound intensity"
+      },
+      {
+        "id": "d",
+        "text": "Long exposure to loud sound can cause hearing loss, which can be checked with an audiogram"
+      },
+      {
+        "id": "e",
+        "text": "A hearing aid has a microphone, an amplifier and a speaker"
+      },
+      {
+        "id": "f",
+        "text": "Loudness is a fixed measurable quantity that is the same for every listener"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Intensity is measurable, but loudness depends on the person listening.",
+    "explanation": "Rustling leaves are a few dB, **conversation about 60 dB**, and firecrackers can go **above 100 dB**. Even a **small increase** in dB means a **large increase** in intensity. Prolonged loud sound (**noise**) can damage hearing, which is tested with **audiograms**, and a **hearing aid** uses a microphone, amplifier and speaker. **Intensity** is measurable, but **loudness** depends on the listener's hearing."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Tone and musical note",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Traces P and Q were recorded with a sound app. One is a **tuning fork** and the other is a child **singing**. Which trace is the tuning fork, and why?",
+    "image": {
+      "src": "/img/sound/tone-note.svg",
+      "alt": "Animation of two sound waveforms, a smooth one labelled P and a more complex one labelled Q"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Q, because its irregular shape shows a single pure frequency"
+      },
+      {
+        "id": "b",
+        "text": "P, because it is a smooth, regular wave of a single frequency (a tone)"
+      },
+      {
+        "id": "c",
+        "text": "P, because its crests are taller, so it must be louder"
+      },
+      {
+        "id": "d",
+        "text": "Q, because singing produces a pure tone with no overtones"
+      }
+    ],
+    "answer": "b",
+    "hint": "A tuning fork gives a nearly single-frequency sound.",
+    "explanation": "A **tone** has a single frequency, like a tuning fork or oral whistling, so its trace is smooth and regular (P). A **musical note**, as in singing or a plucked tanpura string, combines a lowest frequency, the **fundamental**, with higher **overtones**, which gives a more complex shape (Q). Loudness has nothing to do with which trace is a tone."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Perception of sound",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term with what it depends on or describes.",
+    "image": {
+      "src": "/img/sound/tone-note.svg",
+      "alt": "Two sound waveforms, P and Q, of different shapes"
+    },
+    "left": [
+      {
+        "id": "pitch",
+        "text": "Pitch"
+      },
+      {
+        "id": "loud",
+        "text": "Loudness"
+      },
+      {
+        "id": "timbre",
+        "text": "Timbre"
+      },
+      {
+        "id": "int",
+        "text": "Intensity"
+      }
+    ],
+    "right": [
+      {
+        "id": "amp",
+        "text": "Amplitude of the wave"
+      },
+      {
+        "id": "energy",
+        "text": "Sound energy through unit area in unit time"
+      },
+      {
+        "id": "speed",
+        "text": "Speed of the wave in the medium"
+      },
+      {
+        "id": "freq",
+        "text": "Frequency of the wave"
+      },
+      {
+        "id": "over",
+        "text": "The pattern and strength of overtones, set by the source's shape and material"
+      }
+    ],
+    "pairs": {
+      "pitch": "freq",
+      "loud": "amp",
+      "timbre": "over",
+      "int": "energy"
+    },
+    "hint": "Timbre is why a flute and a tabla playing the same note at the same loudness still sound different.",
+    "explanation": "**Pitch** is how we perceive **frequency**, and **loudness** is how we perceive **amplitude**. **Timbre** comes from the pattern and intensity of **overtones**, which depend on the instrument's shape, material and construction. **Intensity** is the measurable energy passing through unit area per unit time. Speed depends on the medium, not on any of these."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Tabla and syaahi",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Indian drums like the tabla have a black patch on the drum head that changes how the membrane vibrates. Tap this patch, the **syaahi**, on the smaller wooden drum.",
+    "image": {
+      "src": "/img/sound/tabla.svg",
+      "alt": "Animation of a tabla pair with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "block",
+        "x": 27,
+        "y": 69.2,
+        "label": "Wooden tuning block"
+      },
+      {
+        "id": "body",
+        "x": 37,
+        "y": 53.8,
+        "label": "Wooden shell"
+      },
+      {
+        "id": "syaahi",
+        "x": 30,
+        "y": 36.9,
+        "label": "Syaahi"
+      },
+      {
+        "id": "head",
+        "x": 63.75,
+        "y": 49.2,
+        "label": "Head of the larger drum"
+      },
+      {
+        "id": "bayan",
+        "x": 71.25,
+        "y": 73.1,
+        "label": "Metal body of the larger drum"
+      }
+    ],
+    "answer": "syaahi",
+    "hint": "Look for the black circle at the centre of the drum head.",
+    "explanation": "The **syaahi** is the black patch at the centre of the drum-head membrane of the tabla and mridangam. It alters how the **membrane vibrates**, giving these drums a rich variety of sounds and unusual tonal control. **Sir C. V. Raman**, India's first Nobel laureate in science, studied the tabla and mridangam to understand their rich sound."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Musical notes and frequency",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "In Kongthong, the 'Whistling Village' in Meghalaya, every person has a sung **tune name**, a tradition called **Jingrwai Iawbei**. A girl practising her tune sings the notes below into a frequency app. Arrange them from **lowest to highest frequency**.",
+    "image": {
+      "src": "/img/sound/phone-app.svg",
+      "alt": "Animation of a girl singing while a phone app shows frequency bars"
+    },
+    "items": [
+      {
+        "id": "ga",
+        "text": "Ga"
+      },
+      {
+        "id": "sa",
+        "text": "Sa"
+      },
+      {
+        "id": "pa",
+        "text": "Pa"
+      },
+      {
+        "id": "re",
+        "text": "Re"
+      },
+      {
+        "id": "ma",
+        "text": "Ma"
+      }
+    ],
+    "answer": [
+      "sa",
+      "re",
+      "ga",
+      "ma",
+      "pa"
+    ],
+    "startLabel": "Lowest frequency",
+    "endLabel": "Highest frequency",
+    "hint": "Sing the scale Sa, Re, Ga, Ma, Pa in your head. Does your voice rise or fall?",
+    "explanation": "With an app such as Phyphox you find that **Sa** has the lowest frequency, which increases through **Re, Ga, Ma, Pa** (then Dha and Ni). Each note has its own frequency, which is why it sounds different. Two notes where one has double the frequency of the other (such as 200 Hz and 400 Hz) are an **octave** apart."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Reflection of sound",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Sound from the speaker strikes a hard wall at **30°** to the normal. Tap the end of the path the **reflected sound** will follow.",
+    "image": {
+      "src": "/img/sound/reflection.svg",
+      "alt": "Sound striking a wall, with four numbered possible paths leaving the wall"
+    },
+    "spots": [
+      {
+        "id": "r10",
+        "x": 43.1,
+        "y": 49.3,
+        "label": "10° from the normal"
+      },
+      {
+        "id": "r30",
+        "x": 47.9,
+        "y": 66.7,
+        "label": "30° from the normal"
+      },
+      {
+        "id": "r50",
+        "x": 56.8,
+        "y": 80.9,
+        "label": "50° from the normal"
+      },
+      {
+        "id": "r70",
+        "x": 68.8,
+        "y": 90.1,
+        "label": "70° from the normal"
+      }
+    ],
+    "answer": "r30",
+    "hint": "Sound obeys the same laws of reflection as light.",
+    "explanation": "Sound follows the **laws of reflection**: the incident and reflected directions make **equal angles with the normal**, and all three lie in the same plane. The incoming sound is at 30°, so it leaves at 30° on the other side of the normal. Echoes are an everyday result of this reflection."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Minimum distance for an echo",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A science club wants an echo to arrive **at least 0.15 s** after a clap. If sound travels at $340\\ \\text{m s}^{-1}$, what is the **minimum** distance of the reflecting cliff?",
+    "image": {
+      "src": "/img/sound/echo-cliff.svg",
+      "alt": "Animation of a child's shout travelling to a cliff and back"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$51\\ \\text{m}$"
+      },
+      {
+        "id": "b",
+        "text": "$17\\ \\text{m}$"
+      },
+      {
+        "id": "c",
+        "text": "$25.5\\ \\text{m}$"
+      },
+      {
+        "id": "d",
+        "text": "$2267\\ \\text{m}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "In 0.15 s the sound must go to the cliff **and back**.",
+    "explanation": "Total path $= v \\times t = 340 \\times 0.15 = 51\\ \\text{m}$. This is there and back, so the cliff must be $\\dfrac{51}{2} = 25.5\\ \\text{m}$ away. 51 m forgets to halve. 17 m is the usual minimum for a 0.1 s gap, and 2267 m comes from dividing speed by time."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Echo",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "You clap in an empty corridor and hear the echo from the end wall after **0.8 s**. The speed of sound is $340\\ \\text{m s}^{-1}$. How far away is the wall?",
+    "image": {
+      "src": "/img/sound/clap-corridor.svg",
+      "alt": "Animation of a clap travelling down a corridor to the end wall and back"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$272\\ \\text{m}$"
+      },
+      {
+        "id": "b",
+        "text": "$425\\ \\text{m}$"
+      },
+      {
+        "id": "c",
+        "text": "$212.5\\ \\text{m}$"
+      },
+      {
+        "id": "d",
+        "text": "$136\\ \\text{m}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Use $d = \\dfrac{vt}{2}$, because the echo makes a round trip.",
+    "explanation": "$$d = \\dfrac{v \\times t}{2} = \\dfrac{340 \\times 0.8}{2} = 136\\ \\text{m}$$ 272 m is the full there-and-back path (forgot to halve). 425 m comes from $340 \\div 0.8$, and 212.5 m from dividing instead of multiplying and then halving."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Reverberation",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/sound/hall.svg",
+      "alt": "Animation of sound from a singer reflecting off the ceiling and walls of a large hall"
+    },
+    "assertion": "In a large hall, sound can linger after the singer stops, because reflections from the walls and ceiling keep arriving less than 0.05 s apart.",
+    "reason": "Hard, smooth walls absorb most of the sound that falls on them.",
+    "answer": "c",
+    "hint": "Do echoes come more strongly from hard surfaces or from curtains?",
+    "explanation": "A is true: sound persisting because of many reflections arriving less than 0.05 s apart is **reverberation**. R is false: **hard, smooth** surfaces **reflect** sound well, while soft, porous ones such as curtains, upholstered chairs and acoustic panels **absorb** it. Halls use these soft materials to control reverberation. The Whispering Gallery of the **Gol Gumbaz** in Bijapur uses reflections so that a faint whisper is heard many times across the dome."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Ultrasonic and infrasonic waves",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these uses rely on **ultrasonic** waves? Select all that apply.",
+    "image": {
+      "src": "/img/sound/spectrum.svg",
+      "alt": "Animation of three frequency bands of sound: infrasonic, audible and ultrasonic"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Imaging internal organs without surgery (ultrasonography)"
+      },
+      {
+        "id": "b",
+        "text": "Detecting volcanic eruptions far away"
+      },
+      {
+        "id": "c",
+        "text": "Breaking kidney stones into small pieces"
+      },
+      {
+        "id": "d",
+        "text": "Detecting drones from the low-frequency hum of their motors"
+      },
+      {
+        "id": "e",
+        "text": "Finding hidden defects inside metal blocks"
+      },
+      {
+        "id": "f",
+        "text": "Detecting severe storms from waves that travel long distances"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Ultrasound is above 20 kHz. Very low frequencies travel far through air and the Earth.",
+    "explanation": "**Ultrasonic** waves (above 20 kHz) are used for **ultrasonography**, **breaking kidney stones**, finding **defects in metal**, cleaning delicate parts, ultrasonic welding and locating objects (sonar). **Infrasonic** waves (below 20 Hz) are used to detect earthquakes, volcanic eruptions and severe storms. Drones are tracked by their low-frequency humming (**audio surveillance**), which is not ultrasound."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Echolocation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/sound/bat.svg",
+      "alt": "Animation of a bat sending sound pulses towards a moth at night and receiving the echoes"
+    },
+    "assertion": "Humans can hear the sound pulses that most bats use to find their prey at night.",
+    "reason": "Sound waves with frequencies above 20 kHz are called ultrasonic waves.",
+    "answer": "d",
+    "hint": "What is the upper limit of human hearing?",
+    "explanation": "A is false: most bats use **ultrasonic** pulses, above the human audible range of **20 Hz to 20 kHz**, so we cannot hear them. R is true. Dogs, cats, bats and dolphins can detect ultrasound, while elephants can detect **infrasound**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Echo, reverberation and sonar",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term with its description.",
+    "image": {
+      "src": "/img/sound/bat.svg",
+      "alt": "Animation of a bat locating a moth using reflected sound"
+    },
+    "left": [
+      {
+        "id": "echo",
+        "text": "Echo"
+      },
+      {
+        "id": "rev",
+        "text": "Reverberation"
+      },
+      {
+        "id": "eloc",
+        "text": "Echolocation"
+      },
+      {
+        "id": "sonar",
+        "text": "Sonar"
+      }
+    ],
+    "right": [
+      {
+        "id": "d1",
+        "text": "Animals such as bats and dolphins locating objects by sensing reflected sound"
+      },
+      {
+        "id": "d2",
+        "text": "Detecting drones from the hum of their motors"
+      },
+      {
+        "id": "d3",
+        "text": "A reflected sound heard separately, at least 0.1 s after the original"
+      },
+      {
+        "id": "d4",
+        "text": "Ultrasonic waves sent into water and their reflections analysed to find underwater objects"
+      },
+      {
+        "id": "d5",
+        "text": "Sound persisting because of many reflections arriving less than 0.05 s apart"
+      }
+    ],
+    "pairs": {
+      "echo": "d3",
+      "rev": "d5",
+      "eloc": "d1",
+      "sonar": "d4"
+    },
+    "hint": "Sonar stands for **so**und **n**avigation **a**nd **r**anging.",
+    "explanation": "An **echo** is a reflection heard separately (gap of at least 0.1 s). **Reverberation** is sound lingering because of many quick reflections (less than 0.05 s apart). **Echolocation** is how bats, dolphins, whales and some birds locate objects, and **sonar** is the human version used by ships underwater. Detecting drones by their hum is **audio surveillance**."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Sonar",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A ship's sonar sends an ultrasonic pulse straight down. The echo from the sea bed returns after **3 s**. The speed of sound in seawater is $1500\\ \\text{m s}^{-1}$. How deep is the sea here?",
+    "image": {
+      "src": "/img/sound/sonar-depth.svg",
+      "alt": "Animation of a ship sending pulses down to the sea bed and receiving echoes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2250\\ \\text{m}$"
+      },
+      {
+        "id": "b",
+        "text": "$4500\\ \\text{m}$"
+      },
+      {
+        "id": "c",
+        "text": "$500\\ \\text{m}$"
+      },
+      {
+        "id": "d",
+        "text": "$510\\ \\text{m}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The pulse goes down **and** comes back up in those 3 s.",
+    "explanation": "One-way time $= \\dfrac{3}{2} = 1.5\\ \\text{s}$, so depth $= 1500 \\times 1.5 = 2250\\ \\text{m}$. 4500 m forgets to halve for the round trip. 500 m divides speed by time, and 510 m wrongly uses the speed of sound in air ($340 \\times 1.5$)."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Sonar",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A navy ship uses **sonar** to locate a submarine. Put the steps in order.",
+    "image": {
+      "src": "/img/sound/sonar-sub.svg",
+      "alt": "Animation of a ship sending pulses through the sea towards a submarine"
+    },
+    "items": [
+      {
+        "id": "reflect",
+        "text": "The waves reflect off the submarine"
+      },
+      {
+        "id": "calc",
+        "text": "The time taken is used to work out the distance with $d = \\dfrac{vt}{2}$"
+      },
+      {
+        "id": "send",
+        "text": "The ship sends a burst of ultrasonic waves into the water"
+      },
+      {
+        "id": "receive",
+        "text": "The reflected waves are picked up back at the ship"
+      },
+      {
+        "id": "travel",
+        "text": "The waves travel through the seawater"
+      }
+    ],
+    "answer": [
+      "send",
+      "travel",
+      "reflect",
+      "receive",
+      "calc"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The calculation can only be done once the echo has returned.",
+    "explanation": "**Sonar** sends **ultrasonic** waves into the water. They travel through the sea, **reflect** off the object and return to the ship. The time for the round trip, together with the speed of sound in seawater, gives the distance, and analysing the echoes also gives the object's direction and speed."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Ultrasonic parking sensor",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A car's ultrasonic parking sensor (about 40 kHz) starts beeping when the wall is **0.69 m** away. If ultrasound travels at $345\\ \\text{m s}^{-1}$ in air, how long does a pulse take to reach the wall **and come back**?",
+    "image": {
+      "src": "/img/sound/parking-sensor.svg",
+      "alt": "Animation of a reversing car's rear sensor sending pulses to a wall 0.69 m away"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.002\\ \\text{s}$"
+      },
+      {
+        "id": "b",
+        "text": "$0.004\\ \\text{s}$"
+      },
+      {
+        "id": "c",
+        "text": "$500\\ \\text{s}$"
+      },
+      {
+        "id": "d",
+        "text": "$476\\ \\text{s}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The pulse travels twice the gap. Then use time = distance ÷ speed.",
+    "explanation": "Distance travelled $= 2 \\times 0.69 = 1.38\\ \\text{m}$, so $$t = \\dfrac{1.38\\ \\text{m}}{345\\ \\text{m s}^{-1}} = 0.004\\ \\text{s}\\ (4\\ \\text{ms})$$ 0.002 s forgets the return journey. 500 s comes from $345 \\div 0.69$, and 476 s from multiplying $345 \\times 1.38$."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Speed of sound in air and water",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two identical sources face a vertical cliff from the same distance: A in air and B under water. The echo takes **4.4 times as long** to return to A as to B. What is the ratio of the speed of sound in air to that in water?",
+    "image": {
+      "src": "/img/sound/cliff-two.svg",
+      "alt": "Animation of sound pulses from source A in air and source B under water bouncing off a cliff"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "4.4 : 1"
+      },
+      {
+        "id": "b",
+        "text": "1 : 2.2"
+      },
+      {
+        "id": "c",
+        "text": "1 : 4.4"
+      },
+      {
+        "id": "d",
+        "text": "1 : 8.8"
+      }
+    ],
+    "answer": "c",
+    "hint": "For the same distance, speed and time are inversely proportional.",
+    "explanation": "Both pulses cover the same round trip, so $v = \\dfrac{2d}{t}$ and $$\\dfrac{v_\\text{air}}{v_\\text{water}} = \\dfrac{t_B}{t_A} = \\dfrac{1}{4.4}$$ The factor 2 for the echo is the same on both sides and cancels, so 1 : 2.2 and 1 : 8.8 are wrong. 4.4 : 1 forgets that the slower wave takes longer. The result agrees with sound being about 4–5 times faster in water."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Longitudinal and transverse waves",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/sound/long-trans.svg",
+      "alt": "Animation of two mechanical waves, P with particles moving along the wave and Q with particles moving across it"
+    },
+    "assertion": "When an earthquake strikes, the first seismic waves picked up by seismographs are longitudinal waves.",
+    "reason": "Sound in air is a longitudinal wave, in which particles vibrate parallel to the direction of propagation.",
+    "answer": "b",
+    "hint": "Both statements are facts from the chapter, but is the second one about earthquakes at all?",
+    "explanation": "Both are true. Seismic waves can be longitudinal (like P) or transverse (like Q), and the **longitudinal** ones are detected first. R correctly describes **sound** in air, but it says nothing about why longitudinal seismic waves arrive first, so it does not explain A. Not all waves are mechanical: **light** is a transverse wave that can travel through a vacuum."
+  },
+  {
+    "id": "in-cbse-9-phy-sound-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Sound Waves: Characteristics and Applications",
+    "chapterNo": 4,
+    "topic": "Different ways of making sound",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered sound source with how its sound is produced.",
+    "image": {
+      "src": "/img/sound/sources.svg",
+      "alt": "Four numbered sound sources",
+      "markers": [
+        {
+          "x": 25,
+          "y": 26.7,
+          "label": "1"
+        },
+        {
+          "x": 75,
+          "y": 26.7,
+          "label": "2"
+        },
+        {
+          "x": 25,
+          "y": 75,
+          "label": "3"
+        },
+        {
+          "x": 75,
+          "y": 66.7,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "1 (cricket)"
+      },
+      {
+        "id": "p2",
+        "text": "2 (firecracker)"
+      },
+      {
+        "id": "p3",
+        "text": "3 (jet aircraft)"
+      },
+      {
+        "id": "p4",
+        "text": "4 (singing child)"
+      }
+    ],
+    "right": [
+      {
+        "id": "vocal",
+        "text": "Vibrating vocal cords in the larynx"
+      },
+      {
+        "id": "rub",
+        "text": "Rubbing its wings or legs together"
+      },
+      {
+        "id": "air",
+        "text": "A vibrating air column in a hollow pipe"
+      },
+      {
+        "id": "boom",
+        "text": "Flying faster than sound, which causes a sonic boom"
+      },
+      {
+        "id": "gas",
+        "text": "Gases heated so fast that they expand suddenly"
+      }
+    ],
+    "pairs": {
+      "p1": "rub",
+      "p2": "gas",
+      "p3": "boom",
+      "p4": "vocal"
+    },
+    "hint": "Thunder is made in the same way as the bang of a firecracker.",
+    "explanation": "Crickets and grasshoppers **rub** their wings or legs. A firecracker (like thunder) heats gases so quickly that they **expand suddenly**, sending a pulse of changed air density outwards. An aircraft flying **faster than sound** creates a **sonic boom**, and humans speak or sing using the **vocal cords** in the larynx."
+  }
+]

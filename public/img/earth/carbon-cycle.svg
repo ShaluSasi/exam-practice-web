@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Carbon dioxide moving between the air, a tree, an animal, a factory, the ground and the sea</title>
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3FA34D"/></marker>
+<marker id="k" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6E7396"/></marker>
+<marker id="b" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#0B6FA4"/></marker>
+</defs>
+<style>
+.f{stroke-dasharray:9 6;animation:f 1.4s linear infinite}
+@keyframes f{to{stroke-dashoffset:-30}}
+.sm{animation:sm 3s ease-out infinite}
+.sm:nth-child(2){animation-delay:1s}.sm:nth-child(3){animation-delay:2s}
+@keyframes sm{0%{transform:translateY(8px);opacity:0}30%{opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+.pk{animation:tw 2.4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.4}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 200H272V300H16Q0 300 0 284Z" fill="#C9A878"/>
+<path d="M0 200H272" stroke="#3FA34D" stroke-width="6"/>
+<path d="M270 190H400V284Q400 300 384 300H270Z" fill="#7CC4EC" stroke="#0B6FA4" stroke-width="2.5"/>
+<path d="M120 266Q150 254 190 262Q204 274 186 284Q150 290 124 282Q110 274 120 266Z" fill="#2B2F4A"/>
+<ellipse cx="226" cy="276" rx="16" ry="10" fill="#4A3A30" stroke="#2B2F4A" stroke-width="2"/>
+<ellipse cx="200" cy="42" rx="62" ry="24" fill="#D5DAEA" stroke="#7E84A8" stroke-width="2.5"/>
+<text x="200" y="47" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle">CO₂</text>
+<path d="M75 198V164" stroke="#8A5A2B" stroke-width="8" stroke-linecap="round"/>
+<circle cx="75" cy="140" r="28" fill="#3FA34D" stroke="#2C7A37" stroke-width="2.5"/>
+<circle cx="62" cy="130" r="8" fill="#5DBB63"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<ellipse cx="146" cy="190" rx="18" ry="10" fill="#E8D3B5"/>
+<circle cx="128" cy="182" r="7" fill="#E8D3B5"/>
+<path d="M136 198v-2M156 198v-2" stroke-width="4" stroke-linecap="round"/>
+<path d="M104 199a8 6 0 0 1 16 0z" fill="#E5484D"/><path d="M110 199v-2h4v2" fill="#FFFFFF"/>
+<rect x="188" y="160" width="54" height="40" fill="#C9CCDD"/>
+<rect x="224" y="122" width="12" height="38" fill="#A3A8CC"/>
+<rect x="196" y="172" width="10" height="10" fill="#F6C453"/><rect x="214" y="172" width="10" height="10" fill="#F6C453"/>
+</g>
+<g fill="#B7BCCF"><circle class="sm" cx="230" cy="110" r="7"/><circle class="sm" cx="236" cy="104" r="6"/><circle class="sm" cx="226" cy="100" r="5"/></g>
+<g class="pk" fill="#3FA34D"><circle cx="300" cy="232" r="2.5"/><circle cx="318" cy="246" r="2.5"/><circle cx="342" cy="228" r="2.5"/><circle cx="356" cy="250" r="2.5"/><circle cx="374" cy="234" r="2.5"/><circle cx="330" cy="260" r="2.5"/></g>
+<path d="M326 290a10 8 0 0 1 20 0z" fill="#FBE3D1" stroke="#C88A6A" stroke-width="2"/>
+<g fill="none" stroke-width="4" stroke-linecap="round">
+<path class="f" d="M150 60L98 110" stroke="#3FA34D" marker-end="url(#g)"/>
+<path class="f" d="M150 172L176 74" stroke="#6E7396" marker-end="url(#k)"/>
+<path class="f" d="M231 92L229 72" stroke="#6E7396" marker-end="url(#k)"/>
+<path class="f" d="M258 62L314 176" stroke="#0B6FA4" marker-end="url(#b)"/>
+<path class="f" d="M336 176L280 62" stroke="#0B6FA4" marker-end="url(#b)"/>
+</g>
+</svg>

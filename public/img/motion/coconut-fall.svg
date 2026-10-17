@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img">
+<title>A coconut falling from a palm tree, with its velocity marked every second</title>
+<style>
+.t{font:600 13px system-ui, sans-serif;fill:#2B2F4A}.s{font:600 12px system-ui, sans-serif;fill:#2B2F4A}.m{text-anchor:middle}.e{text-anchor:end}
+.fall{animation:fl 3s cubic-bezier(.33,0,.67,.33) infinite}@keyframes fl{0%{transform:translateY(0)}85%,100%{transform:translateY(216px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="270" width="300" height="30" fill="#D9C49A"/><path d="M60 270Q48 160 66 40" fill="none" stroke="#C8925A" stroke-width="14" stroke-linecap="round"/><path d="M66 40q25 -36 40 -14.6" fill="none" stroke="#3FA34D" stroke-width="7" stroke-linecap="round"/><path d="M66 40q47 -20.3 75.2 6.3" fill="none" stroke="#3FA34D" stroke-width="7" stroke-linecap="round"/><path d="M66 40q47 0.3 75.2 33.7" fill="none" stroke="#3FA34D" stroke-width="7" stroke-linecap="round"/><path d="M66 40q25 16 40 54.6" fill="none" stroke="#3FA34D" stroke-width="7" stroke-linecap="round"/><path d="M66 40q-8.7 19.5 -13.9 59.4" fill="none" stroke="#3FA34D" stroke-width="7" stroke-linecap="round"/><path d="M150 44V268" stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="4 5"/><path d="M144 44H156" stroke="#2B2F4A" stroke-width="2"/><text class="s" x="164" y="48">t = 0 s, v = 0 m s⁻¹</text><path d="M144 68H156" stroke="#2B2F4A" stroke-width="2"/><text class="s" x="164" y="72">t = 1 s, v = 9.8 m s⁻¹</text><path d="M144 140H156" stroke="#2B2F4A" stroke-width="2"/><text class="s" x="164" y="144">t = 2 s, v = 19.6 m s⁻¹</text><path d="M144 260.1H156" stroke="#2B2F4A" stroke-width="2"/><text class="s" x="164" y="264.1">t = 3 s, v = 29.4 m s⁻¹</text><g class="fall"><circle cx="150" cy="44" r="11" fill="#8C5A35" stroke="#2B2F4A" stroke-width="2.5"/></g>
+</svg>

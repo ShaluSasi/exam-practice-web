@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A position-time graph and a velocity-time graph side by side</title>
+<style>
+.t{font:600 13px system-ui, sans-serif;fill:#2B2F4A}.s{font:600 12px system-ui, sans-serif;fill:#2B2F4A}.m{text-anchor:middle}.e{text-anchor:end}
+.ar{animation:pl 3s ease-in-out infinite alternate}@keyframes pl{from{opacity:.35}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(10 0)"><rect x="0" y="10" width="185" height="180" rx="12" fill="#FFFFFF" stroke="#E6DCC8" stroke-width="2"/><path d="M36 22V150H176" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><text class="s m" x="106" y="172">Time</text><text class="s m" transform="translate(22 86) rotate(-90)">Position</text><path d="M36 140L166 40" stroke="#0B93D4" stroke-width="4" stroke-linecap="round"/><path class="ar" d="M75 110H140V60" fill="none" stroke="#FF8A1F" stroke-width="3" stroke-dasharray="5 4"/></g><g transform="translate(205 0)"><rect x="0" y="10" width="185" height="180" rx="12" fill="#FFFFFF" stroke="#E6DCC8" stroke-width="2"/><path d="M36 22V150H176" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><text class="s m" x="106" y="172">Time</text><text class="s m" transform="translate(22 86) rotate(-90)">Velocity</text><path class="ar" d="M36 150V110L166 40V150Z" fill="#3FA34D" fill-opacity=".35"/><path d="M36 110L166 40" stroke="#3FA34D" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

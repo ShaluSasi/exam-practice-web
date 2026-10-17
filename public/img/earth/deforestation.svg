@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A green forest on one side and a cleared hillside with stumps and muddy water on the other</title>
+<style>
+.rain{stroke-dasharray:6 8;animation:fall .8s linear infinite}
+@keyframes fall{to{stroke-dashoffset:-28}}
+.mud{stroke-dasharray:8 6;animation:f 1.6s linear infinite}
+@keyframes f{to{stroke-dashoffset:-28}}
+.du{animation:du 3s ease-out infinite}
+.du:nth-child(2){animation-delay:1.5s}
+@keyframes du{0%{transform:translateX(0);opacity:0}30%{opacity:.8}100%{transform:translateX(40px);opacity:0}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H200V170H0V16Q0 0 16 0Z" fill="#D9ECF7"/>
+<path d="M200 0H384Q400 0 400 16V170H200Z" fill="#FCEFD6"/>
+<path d="M44 46Q40 26 60 26Q68 12 86 20Q104 14 110 30Q126 32 122 46Z" fill="#E7EDF5" stroke="#8399B3" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="none" stroke="#3D9BE0" stroke-width="2.5" stroke-linecap="round"><path class="rain" d="M58 54V92M76 54V98M94 54V90M110 54V86"/></g>
+<circle class="sun" cx="340" cy="40" r="22" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 160Q100 140 200 150V224Q200 240 184 240H16Q0 240 0 224Z" fill="#7DBB6A" stroke="#3FA34D" stroke-width="2.5"/>
+<path d="M200 150Q300 160 400 140V224Q400 240 384 240H200Z" fill="#C9A878" stroke="#8A6A3E" stroke-width="2.5"/>
+<g stroke="#2C5E33" stroke-width="2">
+<path d="M30 156v-26M74 150v-30M118 150v-28M160 150v-26" stroke="#8A5A2B" stroke-width="6"/>
+<circle cx="30" cy="116" r="22" fill="#3FA34D"/><circle cx="74" cy="104" r="26" fill="#2F8F3E"/><circle cx="118" cy="108" r="24" fill="#3FA34D"/><circle cx="160" cy="114" r="21" fill="#2F8F3E"/>
+</g>
+<g fill="#C8925A" stroke="#8A5A2B" stroke-width="2"><rect x="230" y="144" width="14" height="10" rx="2"/><rect x="290" y="146" width="14" height="10" rx="2"/><rect x="350" y="138" width="14" height="10" rx="2"/></g>
+<path d="M220 176l14 8-6 10 12 6M300 172l-8 12 10 8" fill="none" stroke="#8A6A3E" stroke-width="2" stroke-linecap="round"/>
+<path class="mud" d="M260 160Q270 190 300 200Q340 212 396 214" fill="none" stroke="#9B7442" stroke-width="7" stroke-linecap="round"/>
+<g fill="#D9C49A"><circle class="du" cx="250" cy="130" r="6"/><circle class="du" cx="320" cy="122" r="5"/></g>
+</svg>

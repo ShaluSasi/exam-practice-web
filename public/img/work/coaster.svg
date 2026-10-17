@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A ball rolling along a curvy track with hills and valleys</title>
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="232" width="400" height="28" fill="#D9C49A"/>
+<g stroke="#A3A8CC" stroke-width="4" stroke-linecap="round">
+<path d="M28 58V232M70 110V232M130 222V232M210 116V232M280 186V232M368 146V232"/>
+</g>
+<path id="trk" d="M20 52C60 52 80 215 130 215C175 215 180 110 210 110C240 110 250 180 280 180C310 180 330 140 370 140" fill="none" stroke="#2B2F4A" stroke-width="9" stroke-linecap="round"/>
+<path d="M20 52C60 52 80 215 130 215C175 215 180 110 210 110C240 110 250 180 280 180C310 180 330 140 370 140" fill="none" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/>
+<g transform="translate(0 -12)">
+<circle r="9" fill="#E5484D" stroke="#9E2A2E" stroke-width="2.5">
+<animateMotion dur="5s" repeatCount="indefinite" keyPoints="0;1;0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" path="M20 52C60 52 80 215 130 215C175 215 180 110 210 110C240 110 250 180 280 180C310 180 330 140 370 140"/>
+</circle>
+</g>
+<g font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="30" y="30">A</text><text x="130" y="250">B</text><text x="210" y="90">C</text><text x="280" y="210">D</text><text x="372" y="120">E</text>
+</g>
+</svg>

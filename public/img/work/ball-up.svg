@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A ball thrown straight up rising, stopping for an instant and falling back</title>
+<style>
+.ball{animation:up 3s infinite}
+@keyframes up{0%{transform:translateY(0);animation-timing-function:cubic-bezier(.33,.66,.66,1)}50%{transform:translateY(-160px);animation-timing-function:cubic-bezier(.33,0,.66,.33)}100%{transform:translateY(0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="226" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="226" width="400" height="34" fill="#9CCB86"/>
+<path d="M200 40V200" stroke="#A3A8CC" stroke-width="2.5" stroke-dasharray="6 6"/>
+<path d="M150 34H250" stroke="#FF8A1F" stroke-width="2.5" stroke-dasharray="8 5"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 182L144 224M160 182L166 224" stroke="#2B2F4A" stroke-width="9"/>
+<path d="M155 136V184" stroke="#FF8A1F" stroke-width="24"/>
+<path d="M166 144L190 204" stroke="#F2C9A0" stroke-width="7"/>
+</g>
+<circle cx="154" cy="118" r="14" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M140 114Q152 98 168 112" fill="#2B2F4A"/>
+<g class="ball"><circle cx="200" cy="200" r="12" fill="#E5484D" stroke="#9E2A2E" stroke-width="2.5"/><path d="M193 194Q200 200 193 206" fill="none" stroke="#FFFFFF" stroke-width="1.5"/></g>
+<path d="M300 200V40" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<path d="M294 48L300 36L306 48M294 192L300 204L306 192" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="310" y="126" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A">h</text>
+</svg>

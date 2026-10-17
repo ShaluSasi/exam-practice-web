@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A father and son riding a scooter along a road</title>
+<style>
+.go{animation:go 3s ease-in-out infinite alternate}
+.wh{transform-box:fill-box;transform-origin:center;animation:sp 1s linear infinite}
+@keyframes go{from{transform:translateX(-30px)}to{transform:translateX(30px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="206" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="206" width="400" height="54" fill="#A3A8CC"/>
+<g class="go">
+<path d="M120 186H250L270 150H290L280 120" fill="none" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 186Q118 150 150 148H230Q250 150 252 186Z" fill="#0B93D4" stroke="#075E88" stroke-width="3" stroke-linejoin="round"/>
+<rect x="150" y="140" width="80" height="10" rx="5" fill="#2B2F4A"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M210 90L196 140M196 140L240 150L250 180" stroke="#2B2F4A" stroke-width="10" fill="none"/>
+<path d="M214 94L276 118" stroke="#F2C9A0" stroke-width="7"/>
+<path d="M150 108L150 142M150 142L176 150L180 176" stroke="#E5484D" stroke-width="12" fill="none"/>
+<path d="M156 112L196 116" stroke="#F2C9A0" stroke-width="5"/>
+<path d="M210 68V108" stroke="#FF8A1F" stroke-width="22"/>
+</g>
+<circle cx="212" cy="50" r="14" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M198 46Q210 32 226 44" fill="#2B2F4A"/>
+<circle cx="150" cy="90" r="11" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M139 87Q150 75 161 87" fill="#2B2F4A"/>
+<g class="wh"><circle cx="140" cy="192" r="16" fill="#2B2F4A"/><path d="M130 192H150" stroke="#A3A8CC" stroke-width="3"/></g>
+<g class="wh"><circle cx="262" cy="192" r="16" fill="#2B2F4A"/><path d="M252 192H272" stroke="#A3A8CC" stroke-width="3"/></g>
+</g>
+</svg>

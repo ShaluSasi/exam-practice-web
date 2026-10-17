@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A system of two pulleys hanging from a beam lifting a load</title>
+<style>
+.up{animation:up 3s ease-in-out infinite}
+.dn{animation:dn 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 3s ease-in-out infinite}
+@keyframes up{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes dn{0%,100%{transform:translateY(0)}50%{transform:translateY(20px)}}
+@keyframes spin{0%,100%{transform:rotate(0)}50%{transform:rotate(-120deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#5E4A2A" stroke-width="2.5">
+<path d="M60 8V20M90 8V20M120 8V20M150 8V20M180 8V20M210 8V20M240 8V20M270 8V20M300 8V20M330 8V20" />
+</g>
+<g class="up">
+<path d="M158 26V150M202 150V70" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M180 150V196" stroke="#2B2F4A" stroke-width="3"/>
+<circle cx="180" cy="150" r="22" fill="#CDEBFA" stroke="#0B6FA0" stroke-width="3"/>
+<g class="spin"><circle cx="180" cy="150" r="14" fill="none" stroke="#0B93D4" stroke-width="2" stroke-dasharray="6 5"/></g>
+<circle cx="180" cy="150" r="4" fill="#2B2F4A"/>
+<rect x="148" y="196" width="64" height="44" rx="6" fill="#C8925A" stroke="#8A5A2B" stroke-width="3"/>
+<path d="M160 212H200M160 224H200" stroke="#8A5A2B" stroke-width="2"/>
+</g>
+<path d="M246 60V250" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M224 20V60" stroke="#2B2F4A" stroke-width="4"/>
+<circle cx="224" cy="60" r="22" fill="#F6C453" stroke="#B98A1F" stroke-width="3"/>
+<g class="spin"><circle cx="224" cy="60" r="14" fill="none" stroke="#B98A1F" stroke-width="2" stroke-dasharray="6 5"/></g>
+<path d="M202 60A22 22 0 0 1 246 60" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<circle cx="224" cy="60" r="4" fill="#2B2F4A"/>
+<rect x="40" y="10" width="320" height="18" rx="4" fill="#A3A8CC" stroke="#5E6390" stroke-width="3"/>
+<g class="dn">
+<rect x="236" y="190" width="20" height="26" rx="8" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M274 186V214" stroke="#E5484D" stroke-width="5" stroke-linecap="round"/>
+<path d="M265 208L274 224L283 208Z" fill="#E5484D" stroke="#E5484D" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</svg>

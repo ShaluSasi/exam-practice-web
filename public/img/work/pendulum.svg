@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A simple pendulum swinging between two extreme points</title>
+<style>
+.bob{transform-origin:200px 20px;animation:sw 3s ease-in-out infinite alternate}
+@keyframes sw{from{transform:rotate(40deg)}to{transform:rotate(-40deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="150" y="10" width="100" height="12" rx="4" fill="#C8925A" stroke="#8A5A2B" stroke-width="2.5"/>
+<path d="M84.3 157.9A180 180 0 0 0 315.7 157.9" fill="none" stroke="#A3A8CC" stroke-width="2.5" stroke-dasharray="6 6"/>
+<path d="M50 158H350" stroke="#FF8A1F" stroke-width="2" stroke-dasharray="8 6"/>
+<g fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2.5">
+<circle cx="84.3" cy="157.9" r="13"/><circle cx="138.4" cy="189.1" r="13"/><circle cx="200" cy="200" r="13"/><circle cx="261.6" cy="189.1" r="13"/><circle cx="315.7" cy="157.9" r="13"/>
+</g>
+<g class="bob">
+<path d="M200 20V187" stroke="#2B2F4A" stroke-width="2.5"/>
+<circle cx="200" cy="200" r="14" fill="#0B93D4" stroke="#075E88" stroke-width="3"/>
+<circle cx="195" cy="195" r="4" fill="#CDEBFA"/>
+</g>
+<circle cx="200" cy="20" r="5" fill="#2B2F4A"/>
+<g font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="62" y="150">P</text><text x="200" y="238">Q</text><text x="338" y="150">R</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>The Sun with a small bare planet close to it and a cloud-wrapped planet farther away</title>
+<style>
+.ray{stroke-dasharray:8 6;animation:r 1.3s linear infinite}
+@keyframes r{to{stroke-dashoffset:-28}}
+.hz{animation:hz 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes hz{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.06);opacity:.8}}
+.tr{stroke-dasharray:5 4;animation:r 1s linear infinite}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V204Q400 220 384 220H16Q0 220 0 204V16Q0 0 16 0Z" fill="#2E3460"/>
+<g fill="#FFFFFF" opacity=".7"><circle cx="200" cy="30" r="1.5"/><circle cx="360" cy="40" r="1.5"/><circle cx="230" cy="190" r="1.5"/><circle cx="380" cy="180" r="1.2"/></g>
+<path class="sun" d="M0 20A90 90 0 0 1 0 200Z" fill="#F6C453" stroke="#E0A92E" stroke-width="3"/>
+<g fill="none" stroke="#F6C453" stroke-width="2.5" stroke-linecap="round"><path class="ray" d="M96 110H124"/><path class="ray" d="M96 100L260 96"/><path class="ray" d="M96 120L260 124"/></g>
+<circle cx="140" cy="110" r="12" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/>
+<g fill="#6E7396"><circle cx="136" cy="106" r="2.5"/><circle cx="144" cy="114" r="2"/></g>
+<circle class="hz" cx="300" cy="110" r="40" fill="#F6D77A"/>
+<circle cx="300" cy="110" r="24" fill="#E8B04A" stroke="#B9822A" stroke-width="2.5"/>
+<g fill="none" stroke="#E5484D" stroke-width="2.5" stroke-linecap="round">
+<path class="tr" d="M292 90q-4 -6 0 -10q4 -4 0 -8"/><path class="tr" d="M312 92q4 -6 0 -10q-4 -4 0 -8"/><path class="tr" d="M300 132q-4 6 0 10q4 4 0 8"/>
+</g>
+</svg>

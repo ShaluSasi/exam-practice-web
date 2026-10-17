@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A girl singing a tune while a phone app shows the frequency of her voice</title>
+<style>.bar{transform-box:fill-box;transform-origin:bottom;animation:br 1.8s ease-in-out infinite alternate}@keyframes br{from{transform:scaleY(.15)}to{transform:scaleY(.9)}}
+.nt{animation:nt 1.6s ease-in-out infinite alternate}@keyframes nt{to{transform:translateY(-10px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M8 210 Q90 150 170 200 Q240 160 330 196 Q370 180 392 190 V224 Q392 232 384 232 H16 Q8 232 8 224Z" fill="#BFD9A8"/>
+<g transform="translate(100 110) scale(1)">
+<rect x="-13" y="17" width="26" height="40" rx="10" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-7 56 V78 M7 56 V78" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/>
+<circle r="16" fill="#F2C6A0" stroke="#B9835A" stroke-width="2"/>
+<path d="M-16 -2 Q-14 -18 0 -17 Q14 -18 16 -2 Q8 -10 -16 -2Z" fill="#3B2A20"/>
+<circle cx="-5" cy="1" r="1.8" fill="#2B2F4A"/><circle cx="5" cy="1" r="1.8" fill="#2B2F4A"/>
+<path d="M-5 8 Q0 12 5 8" fill="none" stroke="#2B2F4A" stroke-width="1.8" stroke-linecap="round"/><ellipse cx="0" cy="9" rx="4" ry="3" fill="#C0393E"/><path d="M-16 -2 Q-24 18 -14 34 M16 -2 Q24 18 14 34" fill="none" stroke="#3B2A20" stroke-width="5" stroke-linecap="round"/></g>
+<g class="nt" fill="#2B2F4A"><circle cx="140" cy="84" r="6"/><path d="M145 84 V58 l10 4" stroke="#2B2F4A" stroke-width="2.5" fill="none"/><circle cx="168" cy="110" r="5"/><path d="M172 110 V90" stroke="#2B2F4A" stroke-width="2.5"/></g>
+<rect x="240" y="22" width="110" height="196" rx="16" fill="#2B2F4A"/><rect x="250" y="40" width="90" height="156" rx="6" fill="#E3F2FD"/>
+<path d="M256 170 H334" stroke="#2B2F4A" stroke-width="1.5"/>
+<g fill="#0B93D4"><rect class="bar" style="animation-delay:-0.0s" x="262" y="70" width="8" height="100" rx="2"/><rect class="bar" style="animation-delay:-0.3s" x="274" y="70" width="8" height="100" rx="2"/><rect class="bar" style="animation-delay:-0.6s" x="286" y="70" width="8" height="100" rx="2"/><rect class="bar" style="animation-delay:-0.9s" x="298" y="70" width="8" height="100" rx="2"/><rect class="bar" style="animation-delay:-1.2s" x="310" y="70" width="8" height="100" rx="2"/><rect class="bar" style="animation-delay:-1.5s" x="322" y="70" width="8" height="100" rx="2"/></g>
+<rect x="280" y="204" width="30" height="5" rx="2.5" fill="#6E7396"/>
+<text x="295" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="13">Hz</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A goalkeeper catching a football whose hands move back as the ball stops</title>
+<style>
+.ball{animation:bl 3s ease-out infinite}
+.hands{animation:hd 3s ease-out infinite}
+@keyframes bl{0%{transform:translateX(-230px)}45%{transform:translateX(0)}70%,100%{transform:translateX(24px)}}
+@keyframes hd{0%,45%{transform:translateX(0)}70%,100%{transform:translateX(24px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="210" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="210" width="400" height="50" fill="#9CCB86"/>
+<path d="M330 40H392V210" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+<path d="M340 50L392 102M340 90L392 142M340 130L392 182M352 50V210M372 50V210" stroke="#FFFFFF" stroke-width="1.5" opacity=".9"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M300 160L290 206M310 160L322 206" stroke="#2B2F4A" stroke-width="10"/>
+<path d="M304 108V160" stroke="#3FA34D" stroke-width="28"/>
+</g>
+<circle cx="306" cy="88" r="16" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M290 84Q304 66 322 82" fill="#2B2F4A"/>
+<g class="hands">
+<path d="M296 118L262 116M296 132L262 134" stroke="#3FA34D" stroke-width="9" stroke-linecap="round"/>
+<g fill="#F6C453" stroke="#B98A1F" stroke-width="2.5"><circle cx="254" cy="114" r="9"/><circle cx="254" cy="136" r="9"/></g>
+</g>
+<g class="ball">
+<circle cx="230" cy="125" r="16" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M224 116L236 116L240 127L230 134L220 127Z" fill="#2B2F4A"/>
+</g>
+<g stroke-linecap="round" stroke-width="5">
+<path d="M60 40H140" stroke="#3FA34D"/><path d="M132 30L148 40L132 50Z" fill="#3FA34D" stroke="#3FA34D" stroke-width="3" stroke-linejoin="round"/>
+<path d="M140 70H60" stroke="#E5484D"/><path d="M68 60L52 70L68 80Z" fill="#E5484D" stroke="#E5484D" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A"><text x="156" y="45">ball moves</text><text x="148" y="75">force on ball</text></g>
+</svg>

@@ -360,11 +360,28 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: strin
           <section className="mb-12">
             <h2 className="mb-1 font-display text-3xl font-extrabold tracking-tight">Chapter practice</h2>
             <p className="mb-5 text-muted">Diagrams, animations and instant explanations, straight from the syllabus.</p>
-            <div className="grid gap-5 md:grid-cols-2">
-              {chapters.map((c, i) => (
-                <ChapterCard key={c.key} chapter={c} onStart={onStart} index={i} />
-              ))}
-            </div>
+            {[...new Set(chapters.map((c) => c.subject))].map((subject) => {
+              const st = SUBJECT_STYLE[subject];
+              const list = chapters.filter((c) => c.subject === subject);
+              return (
+                <div key={subject} className="mb-10 last:mb-0">
+                  <h3 className="mb-4 flex items-center gap-3 font-display text-2xl font-extrabold tracking-tight">
+                    <span className={clsx("grid size-10 place-items-center rounded-xl text-white", st.bg)}>
+                      <st.icon className="size-5" />
+                    </span>
+                    {region.subjects[subject]}
+                    <span className="text-base font-semibold text-muted">
+                      {list.length} chapter{list.length === 1 ? "" : "s"}
+                    </span>
+                  </h3>
+                  <div className="grid gap-5 md:grid-cols-2">
+                    {list.map((c, i) => (
+                      <ChapterCard key={c.key} chapter={c} onStart={onStart} index={i} />
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
           </section>
         )}
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Ultraviolet rays from the Sun meeting a layer high in the sky, with a spray can below</title>
+<defs>
+<marker id="v" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8E5CD9"/></marker>
+</defs>
+<style>
+.uv{stroke-dasharray:8 6;animation:r 1.2s linear infinite}
+@keyframes r{to{stroke-dashoffset:-28}}
+.oz circle{animation:oz 2.6s ease-in-out infinite}
+.oz circle:nth-child(odd){animation-delay:1.3s}
+@keyframes oz{0%,100%{opacity:.4}50%{opacity:1}}
+.pf{animation:up 3.2s ease-out infinite}
+.pf:nth-child(2){animation-delay:1.1s}.pf:nth-child(3){animation-delay:2.1s}
+@keyframes up{0%{transform:translate(0,0);opacity:0}25%{opacity:.9}100%{transform:translate(18px,-60px);opacity:0}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M16 0H384Q400 0 400 16V64H0V16Q0 0 16 0Z" fill="#D8DCF0"/>
+<circle class="sun" cx="40" cy="30" r="20" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<rect x="0" y="64" width="400" height="26" fill="#E6D4FA"/>
+<g class="oz" fill="#9B6BDA"><circle cx="30" cy="77" r="3.5"/><circle cx="70" cy="72" r="3.5"/><circle cx="110" cy="80" r="3.5"/><circle cx="150" cy="73" r="3.5"/><circle cx="190" cy="80" r="3.5"/><circle cx="230" cy="72" r="3.5"/><circle cx="270" cy="79" r="3.5"/><circle cx="310" cy="73" r="3.5"/><circle cx="350" cy="80" r="3.5"/><circle cx="385" cy="74" r="3.5"/></g>
+<g fill="none" stroke="#8E5CD9" stroke-width="3" stroke-linecap="round">
+<path class="uv" d="M64 36L120 66" marker-end="url(#v)"/><path class="uv" d="M66 26L190 62" marker-end="url(#v)"/><path class="uv" d="M62 44L84 64" marker-end="url(#v)"/><path class="uv" d="M64 32L268 100" marker-end="url(#v)" opacity=".5"/>
+</g>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#A9D98E" stroke="#3FA34D" stroke-width="2.5"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<rect x="96" y="160" width="24" height="40" rx="5" fill="#E5484D"/><rect x="102" y="150" width="12" height="10" fill="#A3A8CC"/>
+</g>
+<g fill="#C3C7D6"><circle class="pf" cx="118" cy="144" r="6"/><circle class="pf" cx="122" cy="140" r="5"/><circle class="pf" cx="114" cy="138" r="4"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M262 200V176M276 200V176" fill="none"/>
+<rect x="256" y="138" width="26" height="40" rx="9" fill="#F6C453"/>
+<circle cx="269" cy="122" r="13" fill="#F2C9A0"/>
+<path d="M254 118h30" stroke="#2B2F4A" stroke-width="4"/>
+</g>
+</svg>

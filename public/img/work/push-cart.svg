@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A boy pushing a loaded trolley along the floor</title>
+<style>
+.mv{animation:mv 4s ease-in-out infinite}
+.wh{transform-box:fill-box;transform-origin:center;animation:wh 4s ease-in-out infinite}
+@keyframes mv{0%,100%{transform:translateX(-30px)}50%{transform:translateX(40px)}}
+@keyframes wh{0%,100%{transform:rotate(0)}50%{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="200" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="200" width="400" height="60" fill="#D9C49A"/>
+<g class="mv">
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M96 150L84 196M104 150L116 196" stroke="#2B2F4A" stroke-width="9"/>
+<path d="M98 100L104 152" stroke="#0B93D4" stroke-width="24"/>
+<path d="M106 112L150 124" stroke="#F2C9A0" stroke-width="7"/>
+</g>
+<circle cx="96" cy="84" r="15" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M82 80Q94 64 110 78" fill="#2B2F4A"/>
+<path d="M150 124V182H270V148" fill="none" stroke="#5E6390" stroke-width="5" stroke-linejoin="round"/>
+<rect x="164" y="128" width="50" height="50" rx="4" fill="#C8925A" stroke="#8A5A2B" stroke-width="3"/>
+<rect x="216" y="146" width="46" height="32" rx="4" fill="#F6C453" stroke="#B98A1F" stroke-width="3"/>
+<g class="wh"><circle cx="172" cy="190" r="10" fill="#2B2F4A"/><path d="M164 190H180" stroke="#A3A8CC" stroke-width="3"/></g>
+<g class="wh"><circle cx="252" cy="190" r="10" fill="#2B2F4A"/><path d="M244 190H260" stroke="#A3A8CC" stroke-width="3"/></g>
+</g>
+<g stroke-linecap="round" stroke-width="5">
+<path d="M150 50H230" stroke="#E5484D"/><path d="M222 40L238 50L222 60Z" fill="#E5484D" stroke="#E5484D" stroke-width="3" stroke-linejoin="round"/>
+<path d="M150 228H300" stroke="#3FA34D"/><path d="M292 218L308 228L292 238Z" fill="#3FA34D" stroke="#3FA34D" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A"><text x="246" y="55">F</text><text x="316" y="233">s</text></g>
+</svg>

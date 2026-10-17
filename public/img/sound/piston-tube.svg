@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img">
+<title>An air-filled tube with an oscillating piston at one end; dots show the air particles</title>
+<style>.pis{animation:pis .9s ease-in-out infinite alternate}@keyframes pis{from{transform:translateX(-4px)}to{transform:translateX(6px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker></defs>
+<rect x="40" y="55" width="385" height="90" fill="#E3F2FD"/>
+<path d="M72 64V136M84.5 69.5V136M96.2 64V136M106.5 69.5V136M115 64V136M121.5 69.5V136M126.2 64V136M129.5 69.5V136M132 64V136M134.5 69.5V136M137.8 64V136M142.5 69.5V136M149 64V136M157.5 69.5V136M167.8 64V136M179.5 69.5V136M192 64V136M204.5 69.5V136M216.2 64V136M226.5 69.5V136M235 64V136M241.5 69.5V136M246.2 64V136M249.5 69.5V136M252 64V136M254.5 69.5V136M257.8 64V136M262.5 69.5V136M269 64V136M277.5 69.5V136M287.8 64V136M299.5 69.5V136M312 64V136M324.5 69.5V136M336.2 64V136M346.5 69.5V136M355 64V136M361.5 69.5V136M366.2 64V136M369.5 69.5V136M372 64V136M374.5 69.5V136M377.8 64V136M382.5 69.5V136M389 64V136M397.5 69.5V136M407.8 64V136" stroke="#0B93D4" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="0 11"/>
+<path d="M40 55 H425 M40 145 H425" stroke="#2B6F99" stroke-width="3" stroke-linecap="round"/>
+<g class="pis"><rect x="2" y="93" width="48" height="14" rx="5" fill="#C9CDE6" stroke="#6E7396" stroke-width="2"/>
+<rect x="44" y="57" width="20" height="86" rx="5" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/></g>
+<path d="M300 30 H400" stroke="#2B2F4A" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="292" y="35" text-anchor="end" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="13">wave travels</text>
+</svg>

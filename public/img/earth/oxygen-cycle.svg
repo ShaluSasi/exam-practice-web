@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A plant, a person, a campfire and a rusting iron bucket under the open sky</title>
+<style>
+.bu{animation:up 3s ease-in infinite}
+.bu:nth-child(2){animation-delay:1s}.bu:nth-child(3){animation-delay:2s}
+@keyframes up{0%{transform:translateY(10px);opacity:0}25%{opacity:1}100%{transform:translateY(-50px);opacity:0}}
+.fl{animation:fl .9s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scaleY(.85)}to{transform:scaleY(1.12)}}
+.br{animation:br 2.6s ease-out infinite}
+@keyframes br{0%{transform:translateX(0);opacity:0}30%{opacity:.9}100%{transform:translateX(26px);opacity:0}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V204H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 204H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E" stroke="#3FA34D" stroke-width="2.5"/>
+<circle class="sun" cx="40" cy="36" r="20" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<ellipse cx="210" cy="36" rx="52" ry="20" fill="#D5DAEA" stroke="#7E84A8" stroke-width="2.5"/>
+<text x="210" y="41" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle">O₂</text>
+<path d="M78 206V150" stroke="#3FA34D" stroke-width="5" stroke-linecap="round"/>
+<g fill="#7CC36A" stroke="#2C7A37" stroke-width="2">
+<ellipse cx="60" cy="150" rx="20" ry="9" transform="rotate(-25 60 150)"/><ellipse cx="96" cy="140" rx="20" ry="9" transform="rotate(25 96 140)"/><ellipse cx="78" cy="122" rx="9" ry="20"/>
+</g>
+<g fill="#FFFFFF" stroke="#5FB4E6" stroke-width="2"><circle class="bu" cx="70" cy="100" r="5"/><circle class="bu" cx="90" cy="96" r="4"/><circle class="bu" cx="80" cy="88" r="6"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M170 206V180M186 206V180" fill="none"/>
+<rect x="164" y="138" width="28" height="44" rx="10" fill="#0B93D4"/>
+<circle cx="178" cy="120" r="14" fill="#F2C9A0"/>
+<path d="M174 124q4 3 8 0" fill="none"/>
+</g>
+<g fill="#C3C7D6"><circle class="br" cx="196" cy="122" r="4"/><circle class="br" cx="200" cy="118" r="3" style="animation-delay:1.3s"/></g>
+<g stroke="#8A5A2B" stroke-width="6" stroke-linecap="round"><path d="M262 206L300 194M266 194L304 206"/></g>
+<path class="fl" d="M270 196Q268 170 284 154Q284 172 296 176Q302 186 296 196Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="2" stroke-linejoin="round"/>
+<path class="fl" d="M278 196Q278 182 286 174Q288 186 292 196Z" fill="#F6C453"/>
+<path d="M336 204L340 166H376L380 204Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="#B5562B"><circle cx="346" cy="178" r="4"/><circle cx="362" cy="190" r="5"/><circle cx="370" cy="174" r="3"/><circle cx="350" cy="196" r="3"/></g>
+<path d="M340 166Q358 146 376 166" fill="none" stroke="#2B2F4A" stroke-width="2.5"/>
+</svg>

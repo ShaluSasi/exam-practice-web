@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A truck slowing down near a speed-limit sign</title>
+<style>
+.t{font:600 13px system-ui, sans-serif;fill:#2B2F4A}.s{font:600 12px system-ui, sans-serif;fill:#2B2F4A}.m{text-anchor:middle}.e{text-anchor:end}
+.wh{transform-box:fill-box;transform-origin:center;animation:sp .8s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}.go{animation:go 5s cubic-bezier(.3,.6,.5,1) infinite}@keyframes go{0%{transform:translateX(-60px)}90%,100%{transform:translateX(150px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="160" rx="16" fill="#E3F2FD"/><rect x="0" y="160" width="400" height="44" fill="#6B7280"/><path class="dash" d="M0 182.0H400" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="18 14"/><path d="M330 160V92" stroke="#2B2F4A" stroke-width="4"/><circle cx="330" cy="62" r="34" fill="#FFFFFF" stroke="#E5484D" stroke-width="8"/><text class="t m" x="330" y="70" style="font-size:24px">40</text><g class="go"><g transform="translate(10 192)"><rect x="0" y="-62" width="96" height="50" rx="4" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/><path d="M96 -48H118L132 -30V-12H96Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M102 -44H116L124 -32H102Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="22" cy="-10" r="9" fill="#2B2F4A"/><g class="wh"><circle cx="22" cy="-10" r="4.0" fill="#A3A8CC"/><path d="M22 -14.1V-6" stroke="#2B2F4A" stroke-width="1.5"/></g><circle cx="48" cy="-10" r="9" fill="#2B2F4A"/><g class="wh"><circle cx="48" cy="-10" r="4.0" fill="#A3A8CC"/><path d="M48 -14.1V-6" stroke="#2B2F4A" stroke-width="1.5"/></g><circle cx="112" cy="-10" r="9" fill="#2B2F4A"/><g class="wh"><circle cx="112" cy="-10" r="4.0" fill="#A3A8CC"/><path d="M112 -14.1V-6" stroke="#2B2F4A" stroke-width="1.5"/></g></g></g>
+</svg>

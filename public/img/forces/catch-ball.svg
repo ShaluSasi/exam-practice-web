@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A fielder's hands catching a cricket ball and drawing back with it</title>
+<style>
+.ball{animation:ball 3s ease-out infinite}@keyframes ball{0%{transform:translate(120px,-50px)}35%{transform:translate(0,0)}75%,100%{transform:translate(-50px,0)}}.hd{animation:hd 3s ease-out infinite}@keyframes hd{0%,35%{transform:translateX(0)}75%,100%{transform:translateX(-50px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="hd"><path d="M0 150L120 126" fill="none" stroke="#2B2F4A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 150L120 126" fill="none" stroke="#FF8A1F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 186L120 152" fill="none" stroke="#2B2F4A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 186L120 152" fill="none" stroke="#FF8A1F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><path d="M118 108Q150 98 166 116Q156 124 140 126Q156 130 166 140Q150 156 118 150Z" fill="#F2C29B" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><path d="M118 136Q150 130 166 146Q156 154 140 156Q156 160 164 170Q148 180 118 170Z" fill="#F2C29B" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/></g><g class="ball"><circle cx="172" cy="138" r="15" fill="#C0272D" stroke="#2B2F4A" stroke-width="2.5"/><path d="M162 127Q172 138 162 149M182 127Q172 138 182 149" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-dasharray="2 2"/></g>
+</svg>

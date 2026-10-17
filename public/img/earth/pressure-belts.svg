@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img">
+<title>The Earth with lines of latitude and curved surface winds</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#FFFFFF"/></marker>
+</defs>
+<style>
+.w{stroke-dasharray:9 5;animation:w 1.3s linear infinite}
+@keyframes w{to{stroke-dashoffset:-28}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="200" cy="160" r="130" fill="#6EC1EC" stroke="#0B6FA4" stroke-width="3"/>
+<g fill="#9BD08A" stroke="#3FA34D" stroke-width="2" opacity=".85">
+<path d="M110 120q16-14 30-4q8 16-8 22q-18 2-22-18z"/>
+<path d="M150 196q18-6 26 8q0 18-18 18q-14-6-8-26z"/>
+<path d="M260 130q12-8 20 2q2 12-10 12q-10-2-10-14z"/>
+</g>
+<g fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="5 4" opacity=".9">
+<path d="M135 47.4H265M87.4 95H312.6M70 160H330M87.4 225H312.6M135 272.6H265"/>
+</g>
+<g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+<path class="w" d="M292 108Q280 136 248 146" marker-end="url(#a)"/>
+<path class="w" d="M292 212Q280 184 248 174" marker-end="url(#a)"/>
+<path class="w" d="M226 86Q252 82 262 58" marker-end="url(#a)"/>
+<path class="w" d="M226 234Q252 238 262 262" marker-end="url(#a)"/>
+<path class="w" d="M156 106Q146 134 114 146" marker-end="url(#a)"/>
+<path class="w" d="M156 214Q146 186 114 174" marker-end="url(#a)"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A">
+<text x="8" y="34">90° N</text><text x="8" y="52">60° N</text><text x="8" y="99">30° N</text><text x="8" y="164">0°</text><text x="8" y="229">30° S</text><text x="8" y="277">60° S</text><text x="8" y="300">90° S</text>
+</g>
+<g stroke="#2B2F4A" stroke-width="1" stroke-dasharray="2 3" opacity=".5"><path d="M48 48H135M48 95H87M30 160H70M48 225H87M48 273H135"/></g>
+</svg>

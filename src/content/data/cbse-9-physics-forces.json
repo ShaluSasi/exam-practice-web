@@ -1,0 +1,935 @@
+[
+  {
+    "id": "in-cbse-9-phy-forces-001",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Forces on a pushed object",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "A box is pushed along the floor. Tap the **normal force**, the force the floor exerts on the box.",
+    "image": { "src": "/img/forces/fbd-box.svg", "alt": "A box being pushed along a floor, with numbered markers on force arrows" },
+    "spots": [
+      { "id": "applied", "x": 81.25, "y": 57.1, "label": "Applied force" },
+      { "id": "normal", "x": 52.5, "y": 21.4, "label": "Normal force" },
+      { "id": "friction", "x": 35, "y": 77.5, "label": "Force of friction" },
+      { "id": "weight", "x": 52.5, "y": 85.7, "label": "Gravitational force (weight)" },
+      { "id": "hand", "x": 36, "y": 57.5, "label": "Hand pushing the box" }
+    ],
+    "answer": "normal",
+    "hint": "The surface pushes back on the box at right angles to itself.",
+    "explanation": "The **normal force** is exerted by the surface on the object, acting **upwards, perpendicular to the surface**. On a level floor it balances the **gravitational force (weight)** acting downwards, so the box neither sinks into the floor nor rises off it. Its motion along the floor depends only on the horizontal net force."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-002",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Force of friction",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Same box, same push. Tap the **force of friction** acting on the box.",
+    "image": { "src": "/img/forces/fbd-box.svg", "alt": "A box being pushed along a floor, with numbered markers on force arrows" },
+    "spots": [
+      { "id": "normal", "x": 52.5, "y": 21.4, "label": "Normal force" },
+      { "id": "hand", "x": 36, "y": 57.5, "label": "Hand pushing the box" },
+      { "id": "applied", "x": 81.25, "y": 57.1, "label": "Applied force" },
+      { "id": "weight", "x": 52.5, "y": 85.7, "label": "Gravitational force (weight)" },
+      { "id": "friction", "x": 35, "y": 77.5, "label": "Force of friction" }
+    ],
+    "answer": "friction",
+    "hint": "Friction acts where the two surfaces touch, against the direction of motion.",
+    "explanation": "The **force of friction** acts along the surface where the bottom of the box touches the floor, in the direction **opposite to the motion**. The box speeds up only while the push is larger than friction. If you stop pushing, friction alone acts and brings the box to rest."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-003",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's first law and graphs",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "This is the velocity–time graph of a car on a straight road. Tap the part of the graph where the **net force on the car is zero**.",
+    "image": { "src": "/img/forces/vt-car.svg", "alt": "Velocity-time graph of a car with numbered markers along the line" },
+    "spots": [
+      { "id": "o", "x": 15, "y": 82.1, "label": "Point O (start, at rest)" },
+      { "id": "oa", "x": 24, "y": 56.4, "label": "OA: speeding up" },
+      { "id": "ab", "x": 46.5, "y": 30.7, "label": "AB: constant velocity" },
+      { "id": "bc", "x": 73.5, "y": 56.4, "label": "BC: slowing down" }
+    ],
+    "answer": "ab",
+    "hint": "Zero net force means zero acceleration. Where is the velocity not changing while the car moves?",
+    "explanation": "Along **AB** the line is parallel to the time axis, so the velocity stays at $12\\ \\text{m s}^{-1}$ and the acceleration is zero. By **Newton's first law**, a body moving with constant velocity has **no net force** on it (the engine's push just balances friction). Along OA and BC the velocity changes, so a net force acts. Point O is only an instant, not a stretch of motion."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-004",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's second law and graphs",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Same car. Tap the part of the graph where the net force acts **opposite to the direction of motion**.",
+    "image": { "src": "/img/forces/vt-car.svg", "alt": "Velocity-time graph of a car with numbered markers along the line" },
+    "spots": [
+      { "id": "oa", "x": 24, "y": 56.4, "label": "OA: speeding up" },
+      { "id": "ab", "x": 46.5, "y": 30.7, "label": "AB: constant velocity" },
+      { "id": "bc", "x": 73.5, "y": 56.4, "label": "BC: slowing down" },
+      { "id": "o", "x": 15, "y": 82.1, "label": "Point O (start, at rest)" }
+    ],
+    "answer": "bc",
+    "hint": "A force against the motion makes the object slow down.",
+    "explanation": "Along **BC** the velocity falls from $12\\ \\text{m s}^{-1}$ to zero, so the acceleration is **negative**. By **Newton's second law**, the acceleration is always in the direction of the net force, so here the net force points **backwards**, against the motion. Along OA the net force is forwards, and along AB it is zero."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-005",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's first law and graphs",
+    "difficulty": "hard", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Four objects move along straight lines. Tap the position–time graph of the object on which a **net force is acting**.",
+    "image": { "src": "/img/forces/pt-graphs.svg", "alt": "Four position-time graphs for objects A, B, C and D, each with a numbered marker" },
+    "spots": [
+      { "id": "a", "x": 25.75, "y": 32.3, "label": "Object A: at rest" },
+      { "id": "b", "x": 75.75, "y": 32.3, "label": "Object B: constant velocity" },
+      { "id": "c", "x": 25.75, "y": 77.3, "label": "Object C: velocity increasing" },
+      { "id": "d", "x": 75.75, "y": 77.3, "label": "Object D: constant velocity (moving back)" }
+    ],
+    "answer": "c",
+    "hint": "A straight position–time line means constant velocity. Look for the one whose slope keeps changing.",
+    "explanation": "A net force produces **acceleration**, i.e. a changing velocity. On a position–time graph the slope is the velocity, so only the **curved graph of C**, which gets steeper and steeper, shows acceleration. A is at rest (flat line), and B and D are straight lines, so they move with **constant velocity**. Even D, moving backwards, has no net force on it."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-006",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Rocket propulsion",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "The rocket's engine pushes hot gas downwards. Tap the arrow showing the force that the **exhaust gas exerts on the rocket**.",
+    "image": { "src": "/img/forces/rocket.svg", "alt": "A rocket lifting off, with numbered markers on arrows and parts" },
+    "spots": [
+      { "id": "nose", "x": 50, "y": 22.5, "label": "Nose of the rocket" },
+      { "id": "weight", "x": 28.7, "y": 51.6, "label": "Weight of the rocket (downwards)" },
+      { "id": "up", "x": 71.3, "y": 35.9, "label": "Gas pushing the rocket up" },
+      { "id": "fin", "x": 38, "y": 60.9, "label": "Fin" },
+      { "id": "down", "x": 50, "y": 89.1, "label": "Rocket pushing the gas down" }
+    ],
+    "answer": "up",
+    "hint": "By Newton's third law, this force is equal and opposite to the push of the rocket on the gas.",
+    "explanation": "The engine pushes the gas **downwards** (the arrow in the exhaust). By **Newton's third law** the gas pushes the rocket **upwards** with an equal force. This pair acts on two different bodies, so it does not cancel. Because the upward push on the rocket is larger than its weight, the net force is upwards and the rocket lifts off."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-007",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Friction helps motion",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the force that actually **pushes the walker forward**.",
+    "image": { "src": "/img/forces/walking.svg", "alt": "A person walking with numbered markers near the feet" },
+    "spots": [
+      { "id": "back", "x": 27.8, "y": 88.5, "label": "Foot pushing the ground backwards" },
+      { "id": "fric", "x": 47.8, "y": 76.5, "label": "Friction on the foot, forwards" },
+      { "id": "normal", "x": 66.7, "y": 61.5, "label": "Normal force from the ground" },
+      { "id": "shoe", "x": 35.6, "y": 79, "label": "Back shoe" }
+    ],
+    "answer": "fric",
+    "hint": "The force must act on the person, not on the ground.",
+    "explanation": "While walking, your foot pushes the ground **backwards**. The ground pushes your foot **forwards** with an equal force, and this force is **friction**. So here friction helps motion instead of opposing it. The backward arrow acts on the ground, so it cannot move you; the normal force is upwards and balances your weight."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-008",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "System of objects",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Two boxes joined by a string are pulled across a frictionless floor. Treat both boxes and the string as **one system**. Tap the only **external** horizontal force on the system.",
+    "image": { "src": "/img/forces/two-boxes.svg", "alt": "Two boxes joined by a string with numbered markers on the force arrows" },
+    "spots": [
+      { "id": "box2", "x": 21.25, "y": 56.8, "label": "Box 2" },
+      { "id": "t2", "x": 40, "y": 52.7, "label": "Tension on Box 2 (internal)" },
+      { "id": "t1", "x": 45, "y": 70, "label": "Tension on Box 1 (internal)" },
+      { "id": "pull", "x": 87.5, "y": 61.4, "label": "Pull F (external)" }
+    ],
+    "answer": "pull",
+    "hint": "Forces that the parts of the system exert on each other are internal.",
+    "explanation": "The **tension** forces are exerted by one part of the system on another (Box 1 and Box 2 via the string), so they are **internal** and form a third-law pair that cancels for the system. Only the **pull F** comes from outside. So the system accelerates as one body: $a = \\dfrac{F}{m_1 + m_2}$."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-009",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Force from a velocity–time graph",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "The car in the graph has a mass of **1200 kg**. What is the net force on it from O to A (0 s to 4 s)?",
+    "image": { "src": "/img/forces/vt-car.svg", "alt": "Velocity-time graph of a car rising from 0 to 12 m/s in 4 s, constant until 10 s, then falling to 0 at 16 s" },
+    "options": [
+      { "id": "a", "text": "14,400 N" },
+      { "id": "b", "text": "3600 N" },
+      { "id": "c", "text": "400 N" },
+      { "id": "d", "text": "300 N" }
+    ],
+    "answer": "b",
+    "hint": "First find the acceleration from $v = u + at$, then use $F = ma$.",
+    "explanation": "From the graph $u = 0$, $v = 12\\ \\text{m s}^{-1}$, $t = 4\\ \\text{s}$, so $a = \\dfrac{12 - 0}{4} = 3\\ \\text{m s}^{-2}$. $$F = ma = 1200 \\times 3 = 3600\\ \\text{N}$$ in the direction of motion. 14,400 N multiplies the mass by the velocity instead of the acceleration, 400 N divides mass by acceleration, and 300 N divides mass by time."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-010",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Force from a velocity–time graph",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "The same **1200 kg** car is moving towards the east. What net force acts on it from B to C (10 s to 16 s)?",
+    "image": { "src": "/img/forces/vt-car.svg", "alt": "Velocity-time graph of a car rising from 0 to 12 m/s in 4 s, constant until 10 s, then falling to 0 at 16 s" },
+    "options": [
+      { "id": "a", "text": "2400 N towards the east" },
+      { "id": "b", "text": "1440 N towards the west" },
+      { "id": "c", "text": "2400 N towards the west" },
+      { "id": "d", "text": "Zero, because the car is coming to rest" }
+    ],
+    "answer": "c",
+    "hint": "The time interval is from 10 s to 16 s. A negative acceleration means the force points against the motion.",
+    "explanation": "$u = 12\\ \\text{m s}^{-1}$, $v = 0$, $t = 16 - 10 = 6\\ \\text{s}$, so $a = \\dfrac{0 - 12}{6} = -2\\ \\text{m s}^{-2}$. $$F = ma = 1200 \\times (-2) = -2400\\ \\text{N}$$ The minus sign means the force acts **opposite to the motion**, i.e. towards the west. 'East' is the sign slip, 1440 N uses $t = 10$ s read off the axis instead of the 6 s interval, and the car is slowing down, so the force is not zero."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-011",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Weight and balanced forces",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A weightlifter holds a barbell steady above her head. The bar has a mass of **20 kg** and a **15 kg** plate is fixed on each side. What upward force must she apply? (Take $g = 9.8\\ \\text{m s}^{-2}$.)",
+    "image": { "src": "/img/forces/barbell.svg", "alt": "A weightlifter holding a barbell with a plate on each side above her head" },
+    "options": [
+      { "id": "a", "text": "343 N" },
+      { "id": "b", "text": "50 N" },
+      { "id": "c", "text": "196 N" },
+      { "id": "d", "text": "490 N" }
+    ],
+    "answer": "d",
+    "hint": "Add up all the masses, find the weight with $F = mg$, and remember the forces must balance.",
+    "explanation": "Total mass $= 20 + 15 + 15 = 50\\ \\text{kg}$. Weight $= mg = 50 \\times 9.8 = 490\\ \\text{N}$ downwards. To keep the barbell steady the forces must be **balanced**, so she pushes **490 N upwards**. 343 N counts only one plate, 196 N counts only the bar, and 50 N is the mass, not a force."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-012",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Net force and motion",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "A **20 kg** box rests on a floor. The largest friction the floor can provide is **40 N**. Meera pushes it with a steady **46 N**. How far does the box move in **3 s**?",
+    "image": { "src": "/img/forces/fbd-box.svg", "alt": "A box being pushed along a floor with force arrows" },
+    "options": [
+      { "id": "a", "text": "1.35 m" },
+      { "id": "b", "text": "2.7 m" },
+      { "id": "c", "text": "10.35 m" },
+      { "id": "d", "text": "0.45 m" }
+    ],
+    "answer": "a",
+    "hint": "Only the net force (push minus friction) accelerates the box. Then use $s = ut + \\frac{1}{2}at^2$.",
+    "explanation": "Net force $= 46 - 40 = 6\\ \\text{N}$, so $a = \\dfrac{6}{20} = 0.3\\ \\text{m s}^{-2}$. $$s = 0 + \\tfrac{1}{2} \\times 0.3 \\times 3^2 = 1.35\\ \\text{m}$$ 2.7 m forgets the $\\tfrac{1}{2}$, 0.45 m uses $t$ instead of $t^2$, and 10.35 m uses the full 46 N push and ignores friction. (A push of exactly 40 N would leave the box at rest.)"
+  },
+  {
+    "id": "in-cbse-9-phy-forces-013",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Recoil of a gun",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "A gun of mass **4 kg** fires a bullet of mass **50 g** with a force of **6 N**. What is the initial acceleration of the **bullet**?",
+    "image": { "src": "/img/forces/gun-recoil.svg", "alt": "Animation of a toy gun recoiling backwards as a bullet flies forwards, with arrows on each" },
+    "options": [
+      { "id": "a", "text": "$0.12\\ \\text{m s}^{-2}$" },
+      { "id": "b", "text": "$1.5\\ \\text{m s}^{-2}$" },
+      { "id": "c", "text": "$120\\ \\text{m s}^{-2}$" },
+      { "id": "d", "text": "$0.3\\ \\text{m s}^{-2}$" }
+    ],
+    "answer": "c",
+    "hint": "Convert grams to kilograms before using $a = \\dfrac{F}{m}$.",
+    "explanation": "$50\\ \\text{g} = 0.05\\ \\text{kg}$, so $a = \\dfrac{6}{0.05} = 120\\ \\text{m s}^{-2}$. By **Newton's third law** the bullet pushes the gun back with the same 6 N, giving the gun only $\\dfrac{6}{4} = 1.5\\ \\text{m s}^{-2}$ (that option is the gun's value). Equal forces, unequal masses, so unequal accelerations. 0.12 comes from using 50 kg, and 0.3 from multiplying force by mass."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-014",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Net force",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "In a snake boat (*Vallam kali*) practice, **120** oarsmen row. **112** of them row to push the boat forward, but **8** row the wrong way. Each applies **150 N**. What is the net force on the boat? (Ignore drag.)",
+    "image": { "src": "/img/forces/snake-boat.svg", "alt": "Animation of a long snake boat with many oarsmen rowing" },
+    "options": [
+      { "id": "a", "text": "16,800 N forwards" },
+      { "id": "b", "text": "15,600 N forwards" },
+      { "id": "c", "text": "18,000 N forwards" },
+      { "id": "d", "text": "14,400 N forwards" }
+    ],
+    "answer": "b",
+    "hint": "Forces in opposite directions subtract; the net force is along the larger one.",
+    "explanation": "Forward force $= 112 \\times 150 = 16{,}800\\ \\text{N}$; backward force $= 8 \\times 150 = 1200\\ \\text{N}$. Net force $= 16{,}800 - 1200 = 15{,}600\\ \\text{N}$ forwards. 18,000 N adds all 120 oarsmen, 16,800 N ignores the wrong-way rowers, and 14,400 N subtracts them twice."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-015",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Stopping force",
+    "difficulty": "hard", "marks": 3,
+    "type": "mcq",
+    "prompt": "A **20 g** bullet moving at $200\\ \\text{m s}^{-1}$ enters a heavy wooden block and stops after going **10 cm** into it. Assuming constant deceleration, estimate the stopping force on the bullet.",
+    "image": { "src": "/img/forces/bullet-block.svg", "alt": "Animation of a bullet entering a wooden block and stopping inside it" },
+    "options": [
+      { "id": "a", "text": "40 N" },
+      { "id": "b", "text": "8000 N" },
+      { "id": "c", "text": "40,00,000 N" },
+      { "id": "d", "text": "4000 N" }
+    ],
+    "answer": "d",
+    "hint": "Use $v^2 = u^2 + 2as$ with $v = 0$, in SI units, then $F = ma$.",
+    "explanation": "$m = 0.02\\ \\text{kg}$, $s = 0.1\\ \\text{m}$. $$0 = 200^2 + 2a(0.1) \\Rightarrow a = -\\dfrac{40\\,000}{0.2} = -2{,}00{,}000\\ \\text{m s}^{-2}$$ $F = 0.02 \\times 2{,}00{,}000 = 4000\\ \\text{N}$, opposing the motion. 40 N keeps 10 cm unconverted, 40,00,000 N uses 20 g as 20 kg, and 8000 N drops the 2 in $2as$."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-016",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Force and time of contact",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "A footballer kicks a **0.45 kg** ball from rest to **72 km/h** with an average force of **600 N**. For how long was the boot in contact with the ball?",
+    "image": { "src": "/img/forces/football.svg", "alt": "Animation of a boot kicking a football across the grass" },
+    "options": [
+      { "id": "a", "text": "0.015 s" },
+      { "id": "b", "text": "0.054 s" },
+      { "id": "c", "text": "66.7 s" },
+      { "id": "d", "text": "13.5 s" }
+    ],
+    "answer": "a",
+    "hint": "Convert km/h to m/s (× 5/18). Find $a = F/m$, then $t = (v - u)/a$.",
+    "explanation": "$72 \\times \\dfrac{5}{18} = 20\\ \\text{m s}^{-1}$. $a = \\dfrac{600}{0.45} \\approx 1333\\ \\text{m s}^{-2}$, so $$t = \\dfrac{20 - 0}{1333} = 0.015\\ \\text{s}$$ (equivalently $t = \\dfrac{mv}{F} = \\dfrac{0.45 \\times 20}{600}$). 0.054 s uses 72 without converting, 66.7 s turns the fraction upside down, and 13.5 s multiplies force by mass."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-017",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Friction and stopping distance",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "A **4 kg** block slides at a steady $6\\ \\text{m s}^{-1}$ onto a rough patch where friction is **5 N**. At the same moment an extra **3 N** force opposing the motion is applied. How far does it go before stopping?",
+    "image": { "src": "/img/forces/rough-patch.svg", "alt": "Animation of a block sliding from a smooth floor onto a rough patch and stopping, with two backward arrows" },
+    "options": [
+      { "id": "a", "text": "14.4 m" },
+      { "id": "b", "text": "9 m" },
+      { "id": "c", "text": "36 m" },
+      { "id": "d", "text": "18 m" }
+    ],
+    "answer": "b",
+    "hint": "Both forces act against the motion, so add them. Then use $v^2 = u^2 + 2as$.",
+    "explanation": "Net opposing force $= 5 + 3 = 8\\ \\text{N}$, so $a = -\\dfrac{8}{4} = -2\\ \\text{m s}^{-2}$. $$0 = 6^2 - 2 \\times 2 \\times s \\Rightarrow s = \\dfrac{36}{4} = 9\\ \\text{m}$$ 14.4 m uses friction alone, 36 m subtracts the two forces (2 N), and 18 m forgets the 2 in $2as$."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-018",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Second law: mass and acceleration",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "A tractor's net pull F gives a harrow an acceleration of $3\\ \\text{m s}^{-2}$, and gives a trolley $6\\ \\text{m s}^{-2}$. With the harrow loaded on the trolley, what acceleration does the same force F produce? (Ignore friction.)",
+    "image": { "src": "/img/forces/tractor.svg", "alt": "Animation of a tractor pulling a trolley that carries a harrow" },
+    "options": [
+      { "id": "a", "text": "$9\\ \\text{m s}^{-2}$" },
+      { "id": "b", "text": "$4.5\\ \\text{m s}^{-2}$" },
+      { "id": "c", "text": "$2\\ \\text{m s}^{-2}$" },
+      { "id": "d", "text": "$3\\ \\text{m s}^{-2}$" }
+    ],
+    "answer": "c",
+    "hint": "Write each mass as $m = F/a$, add the masses, then divide F by the total.",
+    "explanation": "$m_1 = \\dfrac{F}{3}$ and $m_2 = \\dfrac{F}{6}$, so $$a = \\dfrac{F}{m_1 + m_2} = \\dfrac{a_1 a_2}{a_1 + a_2} = \\dfrac{3 \\times 6}{3 + 6} = 2\\ \\text{m s}^{-2}$$ A bigger mass must give a **smaller** acceleration than either alone, which rules out adding (9), averaging (4.5) or subtracting (3) the accelerations."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-019",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "System of objects",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "In the picture, Box 1 has mass **4 kg** and Box 2 has mass **2 kg**. A force of **30 N** pulls Box 1 on a frictionless floor. What is the acceleration of the boxes?",
+    "image": { "src": "/img/forces/two-boxes.svg", "alt": "Two boxes joined by a string on a smooth floor, pulled to the right" },
+    "options": [
+      { "id": "a", "text": "$7.5\\ \\text{m s}^{-2}$" },
+      { "id": "b", "text": "$15\\ \\text{m s}^{-2}$" },
+      { "id": "c", "text": "$180\\ \\text{m s}^{-2}$" },
+      { "id": "d", "text": "$5\\ \\text{m s}^{-2}$" }
+    ],
+    "answer": "d",
+    "hint": "Treat the two boxes and the string as one system; the string's tension is internal.",
+    "explanation": "The whole system moves together, so $$a = \\dfrac{F}{m_1 + m_2} = \\dfrac{30}{4 + 2} = 5\\ \\text{m s}^{-2}$$ 7.5 uses only Box 1's mass, 15 uses only Box 2's, and 180 multiplies instead of dividing."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-020",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Forces in the same direction",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "Two friends push a stalled **900 kg** car in the same direction with **300 N** and **240 N**. Friction on the car is **360 N**. What is the car's acceleration?",
+    "image": { "src": "/img/forces/stalled-car.svg", "alt": "Two people pushing a stalled car from behind" },
+    "options": [
+      { "id": "a", "text": "$0.6\\ \\text{m s}^{-2}$" },
+      { "id": "b", "text": "$0.2\\ \\text{m s}^{-2}$" },
+      { "id": "c", "text": "$0.067\\ \\text{m s}^{-2}$" },
+      { "id": "d", "text": "$1.0\\ \\text{m s}^{-2}$" }
+    ],
+    "answer": "b",
+    "hint": "Forces in the same direction add; friction acts against them.",
+    "explanation": "Pushes in the same direction add: $300 + 240 = 540\\ \\text{N}$. Net force $= 540 - 360 = 180\\ \\text{N}$, so $a = \\dfrac{180}{900} = 0.2\\ \\text{m s}^{-2}$. 0.6 ignores friction, 0.067 subtracts the two pushes, and 1.0 adds friction as if it helped."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-021",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: force and acceleration",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "In the cart-and-cup activity, the cart takes $T_1 = 3.0$ s to cross the table. With double the mass in the cup it takes $T_2 = 2.2$ s over the same distance, starting from rest. What is $\\dfrac{a_2}{a_1}$?",
+    "image": { "src": "/img/forces/cart-pulley.svg", "alt": "Animation of a cart on a table pulled by a thread over a pipe to a falling paper cup" },
+    "options": [
+      { "id": "a", "text": "1.86" },
+      { "id": "b", "text": "1.36" },
+      { "id": "c", "text": "0.54" },
+      { "id": "d", "text": "0.73" }
+    ],
+    "answer": "a",
+    "hint": "From $s = \\frac{1}{2}aT^2$ with the same $s$, $a_1T_1^2 = a_2T_2^2$.",
+    "explanation": "$$\\dfrac{a_2}{a_1} = \\dfrac{T_1^2}{T_2^2} = \\dfrac{9.0}{4.84} \\approx 1.86$$ Doubling the force nearly doubles the acceleration; it falls a little short of 2 because of **friction** at the wheels and measurement errors. 1.36 forgets to square the times, while 0.54 and 0.73 turn the ratio upside down."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-022",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Momentum",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "**Momentum** is mass × velocity. What is the momentum of a **160 g** cricket ball moving at **90 km/h**?",
+    "image": { "src": "/img/forces/catch-ball.svg", "alt": "Animation of a fielder's hands catching a cricket ball" },
+    "options": [
+      { "id": "a", "text": "$14.4\\ \\text{kg m s}^{-1}$" },
+      { "id": "b", "text": "$4000\\ \\text{kg m s}^{-1}$" },
+      { "id": "c", "text": "$0.0064\\ \\text{kg m s}^{-1}$" },
+      { "id": "d", "text": "$4\\ \\text{kg m s}^{-1}$" }
+    ],
+    "answer": "d",
+    "hint": "Use SI units: kg and m/s. 1 km/h = 5/18 m/s.",
+    "explanation": "$m = 0.16\\ \\text{kg}$ and $v = 90 \\times \\dfrac{5}{18} = 25\\ \\text{m s}^{-1}$, so $p = mv = 0.16 \\times 25 = 4\\ \\text{kg m s}^{-1}$, in the direction of the velocity. 14.4 keeps km/h, 4000 keeps grams, and 0.0064 divides mass by velocity. The more complete form of Newton's second law says the **rate of change of momentum** is proportional to the net force."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-023",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Inertia",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "The bus brakes suddenly and the standing passenger tips **forwards**. Why?",
+    "image": { "src": "/img/forces/bus-brake.svg", "alt": "Animation of a bus braking while a standing passenger tips forwards" },
+    "options": [
+      { "id": "a", "text": "The brakes push the passenger forwards" },
+      { "id": "b", "text": "Her upper body tends to keep moving with its earlier velocity while her feet slow down with the bus" },
+      { "id": "c", "text": "Gravity suddenly starts acting forwards" },
+      { "id": "d", "text": "The air inside the bus pushes her forwards" }
+    ],
+    "answer": "b",
+    "hint": "Objects resist changes to their state of motion.",
+    "explanation": "Newton called the tendency of objects to resist a change in their state of rest or uniform motion **inertia**. Friction from the floor slows her feet along with the bus, but no such force acts directly on her upper body, so it carries on forwards as **Newton's first law** says. No new forward force appears."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-024",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's third law",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "A sailor jumps forwards from a small boat onto the shore. What happens to the boat?",
+    "image": { "src": "/img/forces/sailor-boat.svg", "alt": "Animation of a sailor jumping from a small boat towards the shore" },
+    "options": [
+      { "id": "a", "text": "Nothing; it stays still" },
+      { "id": "b", "text": "It moves forwards towards the shore with the sailor" },
+      { "id": "c", "text": "It moves backwards, away from the shore" },
+      { "id": "d", "text": "It only bobs up and down" }
+    ],
+    "answer": "c",
+    "hint": "To jump forwards, the sailor's feet must push on something.",
+    "explanation": "To jump forwards, the sailor's feet push the boat **backwards**. By **Newton's third law** the boat pushes the sailor forwards with an equal force. These forces act on different bodies, so the boat, floating freely on water, moves **backwards, away from the shore**."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-025",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: verifying the third law",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Two identical spring balances are hooked together. One end is fixed to a wall and you pull the other. The left balance reads **8 N**. What does the right balance read?",
+    "image": { "src": "/img/forces/spring-balances.svg", "alt": "Two spring balances hooked together between a wall and a hand; the right scale is hidden" },
+    "options": [
+      { "id": "a", "text": "8 N" },
+      { "id": "b", "text": "16 N" },
+      { "id": "c", "text": "4 N" },
+      { "id": "d", "text": "0 N" }
+    ],
+    "answer": "a",
+    "hint": "Each balance measures the force the other balance applies on it.",
+    "explanation": "The two balances pull on each other with forces that are **equal in magnitude and opposite in direction**, so both read **8 N** however hard you pull. This activity checks **Newton's third law**. 16 N wrongly adds the readings and 4 N wrongly shares the force between them."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-026",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's first law and graphs",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "An object is **already moving** and **no net force** acts on it. Which velocity–time graph describes its motion?",
+    "options": [
+      { "id": "a", "text": "Graph P", "image": { "src": "/img/forces/vt-rise.svg", "alt": "Velocity-time graph: a straight line rising from the origin" } },
+      { "id": "b", "text": "Graph Q", "image": { "src": "/img/forces/vt-fall.svg", "alt": "Velocity-time graph: a straight line sloping down" } },
+      { "id": "c", "text": "Graph R", "image": { "src": "/img/forces/vt-flat.svg", "alt": "Velocity-time graph: a horizontal line above the time axis" } }
+    ],
+    "answer": "c",
+    "hint": "No net force means no acceleration.",
+    "explanation": "By **Newton's first law**, an object in motion keeps moving with **constant velocity** unless a net force acts. So its velocity–time graph is a **horizontal line above the time axis** (Graph R), and its position–time graph would be a straight sloping line. P shows speeding up and Q slowing down, which both need a net force."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-027",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Second law: force, mass and acceleration",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "This graph shows the acceleration a force gives to objects of different masses. Which **force–mass** graph matches it?",
+    "image": { "src": "/img/forces/am-graph.svg", "alt": "Acceleration-mass graph: 10 at 1 kg, 5 at 2 kg, 2.5 at 4 kg and 2 at 5 kg, a curve falling towards the mass axis" },
+    "options": [
+      { "id": "a", "text": "Graph P", "image": { "src": "/img/forces/fm-fall.svg", "alt": "Force-mass graph: a curve falling" } },
+      { "id": "b", "text": "Graph Q", "image": { "src": "/img/forces/fm-flat.svg", "alt": "Force-mass graph: a horizontal line" } },
+      { "id": "c", "text": "Graph R", "image": { "src": "/img/forces/fm-rise.svg", "alt": "Force-mass graph: a straight line rising from the origin" } }
+    ],
+    "answer": "b",
+    "hint": "Work out $F = ma$ for a few points on the graph.",
+    "explanation": "$F = ma$: $1 \\times 10 = 2 \\times 5 = 4 \\times 2.5 = 5 \\times 2 = 10\\ \\text{N}$. The force is the **same** for every mass, so the force–mass graph is a **horizontal line** at 10 N (Graph Q). The acceleration falls because it is **inversely proportional** to mass. Graph P just copies the shape of the a–m graph."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-028",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's third law",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A hand cart loaded with vegetables collides with an identical empty cart. During the collision:",
+    "image": { "src": "/img/forces/carts-collide.svg", "alt": "Animation of a loaded hand cart and an empty hand cart rolling into each other" },
+    "options": [
+      { "id": "a", "text": "the loaded cart pushes harder on the empty cart" },
+      { "id": "b", "text": "the empty cart pushes harder on the loaded cart" },
+      { "id": "c", "text": "neither cart exerts a force on the other" },
+      { "id": "d", "text": "each cart exerts a force of equal magnitude on the other" }
+    ],
+    "answer": "d",
+    "hint": "Forces always come in pairs.",
+    "explanation": "By **Newton's third law**, the forces the two carts exert on each other are **equal in magnitude and opposite in direction**, whatever their masses. The *effects* differ: the lighter empty cart gets the larger acceleration, which is why it seems to be hit 'harder'."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-029",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Rocket propulsion in space",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Like the Vikram lander of **Chandrayaan-3**, this lander is moving down towards the Moon and must slow down for a soft landing. Which way should its engine push out the exhaust gas?",
+    "image": { "src": "/img/forces/spacecraft.svg", "alt": "Animation of a lander descending towards the Moon's surface, with an arrow showing its downward motion" },
+    "options": [
+      { "id": "a", "text": "Downwards, in the direction it is moving" },
+      { "id": "b", "text": "Upwards, away from the Moon" },
+      { "id": "c", "text": "Sideways, at right angles to its motion" },
+      { "id": "d", "text": "It need not fire; with no air it slows down by itself" }
+    ],
+    "answer": "a",
+    "hint": "The gas pushes back on the lander in the opposite direction to the way the gas is thrown.",
+    "explanation": "If the engine fires gas **in the direction of motion** (downwards), the gas pushes the lander **upwards**, against its motion, by **Newton's third law**. This slows it down, which is how Vikram landed softly near the Moon's south pole. Firing upwards would speed it up, and nothing slows it 'by itself'."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-030",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Measuring friction",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A wooden block is pulled along a table at a **constant velocity**. The spring balance reads **3 N**. What is the force of friction on the block?",
+    "image": { "src": "/img/forces/spring-block.svg", "alt": "Animation of a wooden block pulled along a table by a spring balance" },
+    "options": [
+      { "id": "a", "text": "0 N, because the block is not accelerating" },
+      { "id": "b", "text": "More than 3 N" },
+      { "id": "c", "text": "3 N, opposite to the pull" },
+      { "id": "d", "text": "Less than 3 N" }
+    ],
+    "answer": "c",
+    "hint": "Constant velocity means the net force is zero.",
+    "explanation": "At **constant velocity** the net force is zero, so the pull and friction are **balanced**: friction is **3 N** acting opposite to the pull. That is why a spring balance can measure friction. The block not accelerating means the net force is zero, not that friction is zero."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-031",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Balanced and unbalanced forces",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "On a smooth floor, block P has forces of **5 N** and **4 N** acting in opposite directions, while block Q slides at **constant velocity**. Which statement is correct?",
+    "image": { "src": "/img/forces/blocks-pq.svg", "alt": "Block P with a 5 N arrow to the left and a 4 N arrow to the right; block Q sliding to the right" },
+    "options": [
+      { "id": "a", "text": "P has a net force on it; Q does not" },
+      { "id": "b", "text": "Q has a net force on it; P does not" },
+      { "id": "c", "text": "Both P and Q have a net force on them" },
+      { "id": "d", "text": "Neither P nor Q has a net force on it" }
+    ],
+    "answer": "a",
+    "hint": "Unequal opposite forces leave something over. Constant velocity means nothing is left over.",
+    "explanation": "On P the forces are **unbalanced**: net force $= 5 - 4 = 1\\ \\text{N}$ towards the 5 N side, so P accelerates. Q moves with **constant velocity**, so by Newton's first law the net force on it is **zero**. A moving object does not need a net force to keep moving."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-032",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's third law",
+    "difficulty": "easy", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/forces/chair-table.svg", "alt": "Animation of a girl on a wheeled chair pushing a heavy table and rolling backwards" },
+    "assertion": "A girl sitting on a wheeled chair rolls backwards when she pushes a heavy table forwards.",
+    "reason": "The table exerts a force on the girl that is equal and opposite to her push on the table.",
+    "answer": "a",
+    "hint": "Who pushes the girl?",
+    "explanation": "Both are true and R explains A. By **Newton's third law** the table pushes back on her with an equal and opposite force, and this force acts on **her**, so she and the chair roll backwards. If she pulled the table instead, she would roll towards it."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-033",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Third law and unequal masses",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/forces/earth-fruit.svg", "alt": "A fruit falling from a tree towards the Earth, with an arrow on the fruit and an arrow on the Earth" },
+    "assertion": "A falling fruit moves towards the Earth, but the Earth's motion towards the fruit is far too small to notice.",
+    "reason": "The fruit pulls the Earth with a much smaller force than the Earth pulls the fruit.",
+    "answer": "c",
+    "hint": "Compare the forces first, then compare the masses.",
+    "explanation": "A is true, R is false. By **Newton's third law** the Earth and the fruit pull each other with forces of **equal** magnitude. The Earth's mass is enormous, so by $a = \\dfrac{F}{m}$ its acceleration is extremely small, while the fruit's is large."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-034",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Bridging Science and Society: safety",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/forces/airbag.svg", "alt": "Animation of a passenger moving forwards into an inflating airbag" },
+    "assertion": "Airbags lower the risk of serious injury when a vehicle stops abruptly in a collision.",
+    "reason": "The soft cushion increases the time over which the passenger is brought to rest, so the acceleration and hence the force on the passenger are smaller.",
+    "answer": "a",
+    "hint": "Think about how $F = ma$ changes when the same change in velocity happens more slowly.",
+    "explanation": "Both are true and R explains A. The passenger's velocity must drop to zero either way. Spreading that change over a **longer time** means a **smaller acceleration**, and by $F = ma$ a **smaller force**. Seat belts add to this protection. A fielder pulling the hands back while catching uses the same idea."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-035",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Third law and unequal masses",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/forces/magnet-compass.svg", "alt": "Animation of a bar magnet near a compass whose needle swings" },
+    "assertion": "A bar magnet exerts a larger magnetic force on a compass needle than the needle exerts on the magnet.",
+    "reason": "For the same force, an object with a smaller mass gets a larger acceleration.",
+    "answer": "d",
+    "hint": "Is the third law only for contact forces?",
+    "explanation": "A is false, R is true. Newton's third law applies to **non-contact** forces such as magnetic forces too, so the two forces are **equal**. The needle swings while the magnet stays put because the light needle gets a large acceleration from that force, while the much heavier magnet (held in a hand) does not."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-036",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's third law",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/forces/canoe.svg", "alt": "A canoeist paddling, with two arrows at the paddle blade" },
+    "assertion": "A canoe speeds up more when the canoeist pushes the water backwards harder.",
+    "reason": "The paddle's push on the water and the water's push on the paddle act on different objects.",
+    "answer": "b",
+    "hint": "R is true, but does it say anything about *pushing harder*?",
+    "explanation": "Both are true, but R does not explain A. R explains why the action–reaction pair does **not cancel**. A is explained by the size of the force: a harder push on the water means a **larger forward push** of the water on the paddle and canoe, so by the second law a larger acceleration."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-037",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's first law",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "**No net force** acts on an object. Which of these are possible? Select all that apply.",
+    "image": { "src": "/img/forces/galileo.svg", "alt": "Animation of a ball rolling down a ramp and along a long, smooth horizontal surface" },
+    "options": [
+      { "id": "a", "text": "It stays at rest, if it was at rest" },
+      { "id": "b", "text": "It speeds up steadily" },
+      { "id": "c", "text": "It keeps moving with constant velocity, if it was moving" },
+      { "id": "d", "text": "It moves with a constant acceleration" },
+      { "id": "e", "text": "It moves round a circle at a steady speed" }
+    ],
+    "answers": ["a", "c"],
+    "hint": "Zero net force means zero acceleration, and velocity includes direction.",
+    "explanation": "By **Newton's first law**, with zero net force an object at rest **stays at rest** and a moving object **keeps the same velocity**. Speeding up or any constant acceleration needs a net force. Going round a circle changes the **direction** of velocity, so it needs a net force too. In the 17th century **Galileo** argued through thought experiments that a ball on a perfectly smooth horizontal plane would keep moving forever."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-038",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Stopping time and force",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these **reduce the force** on a moving object by making it stop over a **longer time**? Select all that apply.",
+    "image": { "src": "/img/forces/landing-mat.svg", "alt": "Animation of a high jumper going over a bar and sinking into a thick mat" },
+    "options": [
+      { "id": "a", "text": "An airbag inflating in front of a passenger" },
+      { "id": "b", "text": "Cracking a coconut by striking it hard on a stone" },
+      { "id": "c", "text": "A thick landing mat or sand bed for high jumpers" },
+      { "id": "d", "text": "A fielder drawing the hands back while catching" },
+      { "id": "e", "text": "Packing glassware in bubble wrap or hay" },
+      { "id": "f", "text": "Treads on vehicle tyres" }
+    ],
+    "answers": ["a", "c", "d", "e"],
+    "hint": "Look for soft, give-way surfaces or movements.",
+    "explanation": "The airbag, landing mat, drawn-back hands and bubble wrap all **increase the stopping time**, so the deceleration is smaller and, by $F = ma$, the force is smaller. Cracking a coconut does the **opposite**: it stops in a very short time, so the ground exerts a huge force that breaks the shell. Tyre treads increase friction, which is a different idea."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-039",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Increasing and reducing friction",
+    "difficulty": "easy", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these **increase** friction? Select all that apply.",
+    "image": { "src": "/img/forces/tread-sole.svg", "alt": "A shoe sole with grooves and a turning tyre with treads" },
+    "options": [
+      { "id": "a", "text": "Grooves on the soles of footwear" },
+      { "id": "b", "text": "Oiling the moving parts of a machine" },
+      { "id": "c", "text": "Treads on vehicle tyres" },
+      { "id": "d", "text": "Giving a vehicle a streamlined shape" },
+      { "id": "e", "text": "Wrapping a rope one more turn round a post to hold a load" },
+      { "id": "f", "text": "Magnetic levitation of a train above its track" }
+    ],
+    "answers": ["a", "c", "e"],
+    "hint": "Three of these help us grip; three help things slip.",
+    "explanation": "**Grooves** on soles and **treads** on tyres increase friction so we can walk and drive safely, which is why wet polished floors, ice and waterlogged roads are risky. Each extra **turn of rope** round a post increases the grip a lot, which is how ships are held at a pier. Lubricants, streamlining and magnetic levitation are ways scientists **reduce** friction."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-040",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Ready to Go Beyond",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these statements are **true**? Select all that apply.",
+    "image": { "src": "/img/forces/handlebar.svg", "alt": "Animation of a handlebar turning, with an arrow at each end" },
+    "options": [
+      { "id": "a", "text": "Equal and opposite forces at the two ends of a handlebar can make it turn" },
+      { "id": "b", "text": "Newton's laws need changes for speeds close to the speed of light" },
+      { "id": "c", "text": "Newton's laws work for everyday objects but not for planets and stars" },
+      { "id": "d", "text": "The air's friction on a box pushed across a room is always too large to ignore" },
+      { "id": "e", "text": "To find the acceleration of two boxes tied together, the tension in the string need not be considered" }
+    ],
+    "answers": ["a", "b", "e"],
+    "hint": "Two of the false statements underestimate or overestimate Newton's laws and air.",
+    "explanation": "(a) True: equal and opposite forces on the two ends of an **extended object** like a handlebar or tap make it **rotate**. (b) True: Newton's laws need modification very close to massive objects, near the speed of light and at atomic scales. (c) False: they describe motion from everyday objects to planets and stars. (d) False: air friction is often so small it can be neglected. (e) True: tension is an **internal force** of the system."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-041",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Newton's three laws",
+    "difficulty": "easy", "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with the law of motion that best explains it.",
+    "left": [
+      { "id": "bus", "text": "A passenger tips forwards when the bus brakes", "image": { "src": "/img/forces/bus-brake.svg", "alt": "Passenger in a braking bus" } },
+      { "id": "cart", "text": "Doubling the pull on a cart roughly doubles its acceleration", "image": { "src": "/img/forces/cart-pulley.svg", "alt": "Cart pulled by a hanging cup" } },
+      { "id": "chair", "text": "Pushing a table makes your wheeled chair roll back", "image": { "src": "/img/forces/chair-table.svg", "alt": "Girl on a wheeled chair pushing a table" } }
+    ],
+    "right": [
+      { "id": "third", "text": "Newton's third law" },
+      { "id": "first", "text": "Newton's first law" },
+      { "id": "second", "text": "Newton's second law" }
+    ],
+    "pairs": { "bus": "first", "cart": "second", "chair": "third" },
+    "hint": "First: things keep doing what they were doing. Second: F = ma. Third: forces come in pairs.",
+    "explanation": "The passenger's body keeps moving because of **inertia** (**first law**). For a fixed mass, acceleration is proportional to the net force (**second law**, $F = ma$). The table pushes back on you with an equal and opposite force (**third law**). Newton presented all three laws in 1687."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-042",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Net force",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Each block has two forces on it. Match each numbered block with the **net force** on it.",
+    "image": {
+      "src": "/img/forces/forces-blocks.svg",
+      "alt": "Four blocks with two labelled force arrows each, and numbered markers",
+      "markers": [
+        { "x": 25, "y": 27.7, "label": "1" },
+        { "x": 75, "y": 27.7, "label": "2" },
+        { "x": 25, "y": 73.8, "label": "3" },
+        { "x": 75, "y": 73.8, "label": "4" }
+      ]
+    },
+    "left": [
+      { "id": "b1", "text": "Block 1" },
+      { "id": "b2", "text": "Block 2" },
+      { "id": "b3", "text": "Block 3" },
+      { "id": "b4", "text": "Block 4" }
+    ],
+    "right": [
+      { "id": "r4", "text": "4 N to the right" },
+      { "id": "zero", "text": "Zero (balanced)" },
+      { "id": "r16", "text": "16 N to the right" },
+      { "id": "l16", "text": "16 N to the left" },
+      { "id": "l4", "text": "4 N to the left" }
+    ],
+    "pairs": { "b1": "r16", "b2": "r4", "b3": "l4", "b4": "zero" },
+    "hint": "Same direction: add. Opposite directions: subtract, and the net force points along the bigger force.",
+    "explanation": "Block 1: both forces point right, so $10 + 6 = 16\\ \\text{N}$ right. Block 2: $10 - 6 = 4\\ \\text{N}$ along the 10 N force, to the right. Block 3: the 10 N force points left, so $4\\ \\text{N}$ left. Block 4: 8 N each way, so the forces are **balanced** and the net force is zero."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-043",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Net force and velocity",
+    "difficulty": "easy", "marks": 2,
+    "type": "match",
+    "prompt": "A ball rolls on a smooth, **frictionless** surface. Match each condition with what happens to the ball.",
+    "image": { "src": "/img/forces/galileo.svg", "alt": "Animation of a ball rolling along a long, smooth horizontal surface" },
+    "left": [
+      { "id": "none", "text": "No net force acts on it" },
+      { "id": "along", "text": "A net force acts in its direction of motion" },
+      { "id": "against", "text": "A net force acts opposite to its direction of motion" }
+    ],
+    "right": [
+      { "id": "dec", "text": "Its speed decreases" },
+      { "id": "same", "text": "Its velocity stays the same" },
+      { "id": "stop", "text": "It stops instantly" },
+      { "id": "inc", "text": "Its speed increases" }
+    ],
+    "pairs": { "none": "same", "along": "inc", "against": "dec" },
+    "hint": "The acceleration always points the same way as the net force.",
+    "explanation": "With **no net force**, the velocity stays the same (first law), even with no push. A net force **along** the motion gives an acceleration along the motion, so the speed **increases**. A net force **against** the motion **decreases** the speed gradually; nothing stops instantly."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-044",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Third law for all forces",
+    "difficulty": "easy", "marks": 2,
+    "type": "match",
+    "prompt": "Newton's third law works for contact and non-contact forces. Match each pair of objects with the type of force they exert on each other.",
+    "left": [
+      { "id": "mag", "text": "A bar magnet and a compass needle", "image": { "src": "/img/forces/magnet-compass.svg", "alt": "Bar magnet and compass" } },
+      { "id": "bal", "text": "Two similarly charged balloons", "image": { "src": "/img/forces/balloons.svg", "alt": "Two charged balloons hanging apart" } },
+      { "id": "earth", "text": "The Earth and a falling fruit", "image": { "src": "/img/forces/earth-fruit.svg", "alt": "Fruit falling towards the Earth" } },
+      { "id": "foot", "text": "A walker's foot and the ground", "image": { "src": "/img/forces/walking.svg", "alt": "A person walking" } }
+    ],
+    "right": [
+      { "id": "grav", "text": "Gravitational force" },
+      { "id": "fric", "text": "Force of friction" },
+      { "id": "magf", "text": "Magnetic force" },
+      { "id": "elec", "text": "Electrostatic force" }
+    ],
+    "pairs": { "mag": "magf", "bal": "elec", "earth": "grav", "foot": "fric" },
+    "hint": "Only one pair has to touch for its force to act.",
+    "explanation": "Magnets exert **magnetic** forces, charged balloons exert **electrostatic** forces, and the Earth and fruit exert **gravitational** forces on each other, all without touching. The foot and ground exert **friction** on each other, a contact force. In every case the two forces are equal and opposite and act on different objects."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-045",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Action and reaction",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each **action** with its **reaction** force.",
+    "image": { "src": "/img/forces/tree-climb.svg", "alt": "Animation of a person climbing a coconut tree" },
+    "left": [
+      { "id": "paddle", "text": "A paddle pushes water backwards" },
+      { "id": "rocket", "text": "A rocket engine pushes gas downwards" },
+      { "id": "climb", "text": "A climber's legs push down on the tree trunk" },
+      { "id": "hose", "text": "A fire hose pushes a jet of water forwards" }
+    ],
+    "right": [
+      { "id": "up", "text": "Friction from the trunk pushes the climber up" },
+      { "id": "back", "text": "The water pushes the hose backwards" },
+      { "id": "fwd", "text": "The water pushes the paddle forwards" },
+      { "id": "lift", "text": "The gas pushes the rocket upwards" }
+    ],
+    "pairs": { "paddle": "fwd", "rocket": "lift", "climb": "up", "hose": "back" },
+    "hint": "The reaction is equal and opposite, and acts on the first object.",
+    "explanation": "Each reaction is **equal and opposite** to its action and acts on the object that did the pushing. That is why the canoe moves forwards, the rocket rises, the climber goes up (harder on smooth trunks with less friction), and a fireperson has to struggle to hold a hose that is pushed **backwards**."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-046",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Size of forces",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "How big is a newton? Arrange these forces from **smallest to largest**.",
+    "image": { "src": "/img/forces/palm-mass.svg", "alt": "An open palm holding a small 100 g mass" },
+    "items": [
+      { "id": "car", "text": "Net force on a 1500 kg car accelerating at $2\\ \\text{m s}^{-2}$" },
+      { "id": "touch", "text": "A light touch (about $10^{-3}$ N)" },
+      { "id": "barbell", "text": "Holding a 30 kg barbell steady" },
+      { "id": "yocto", "text": "The tiniest force measured in special experiments (about $10^{-24}$ N)" },
+      { "id": "palm", "text": "Your palm holding up a 100 g mass" }
+    ],
+    "answer": ["yocto", "touch", "palm", "barbell", "car"],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Work out the last three with $F = mg$ or $F = ma$.",
+    "explanation": "Yoctonewtons ($10^{-24}$ N) < a light touch, about a **millinewton** ($10^{-3}$ N) < a 100 g mass, about $0.1 \\times 9.8 \\approx 1$ N < a 30 kg barbell, $30 \\times 9.8 = 294$ N < the car, $1500 \\times 2 = 3000$ N."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-047",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: friction on different surfaces",
+    "difficulty": "medium", "marks": 1,
+    "type": "order",
+    "prompt": "A stack of coins is launched by the same stretched rubber band on three surfaces. Arrange the surfaces from where the stack slides **farthest** to where it stops **soonest**.",
+    "image": { "src": "/img/forces/coins-setup.svg", "alt": "Top view of a rubber band stretched to point C with a stack of coins, and three surface samples" },
+    "items": [
+      { "id": "wood", "text": "Wooden table top" },
+      { "id": "marble", "text": "Polished marble floor" },
+      { "id": "lam", "text": "Laminated table top" }
+    ],
+    "answer": ["marble", "lam", "wood"],
+    "startLabel": "Slides farthest",
+    "endLabel": "Stops soonest",
+    "hint": "The smoother the surface, the smaller the friction.",
+    "explanation": "After leaving the rubber band, only **friction** acts on the coins, slowing them down. Polished marble gives the least friction, so the velocity decreases most slowly and the stack slides farthest. The wooden top gives the most friction. A spring balance pulling a block on these surfaces shows the same order: the smallest reading on marble."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-048",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: force and acceleration",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the cart-and-cup activity, which tests how force affects acceleration.",
+    "image": { "src": "/img/forces/cart-pulley.svg", "alt": "Animation of a cart on a table pulled by a thread over a pipe to a paper cup" },
+    "items": [
+      { "id": "time", "text": "Read the time $T_1$ from the slow-motion video" },
+      { "id": "build", "text": "Fit pencil axles and wheels to a cardboard box to make a cart" },
+      { "id": "repeat", "text": "Double the mass in the cup and repeat to find $T_2$" },
+      { "id": "hang", "text": "Pass the thread over the pipe and hang the paper cup" },
+      { "id": "release", "text": "Release the cart from the start line while recording a slow-motion video" },
+      { "id": "mass", "text": "Measure the mass of the cup with the objects in it" }
+    ],
+    "answer": ["build", "hang", "mass", "release", "time", "repeat"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Build and set up, measure, run, read, then change one thing.",
+    "explanation": "Build the cart, set up the thread, pipe and cup, **measure** the cup's mass, run the cart while filming, read $T_1$, then **double the force** (the cup's mass) and repeat for $T_2$. Since $a_2/a_1 = T_1^2/T_2^2$, you find a larger force gives a larger acceleration for the same mass."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-049",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: balloon rocket",
+    "difficulty": "easy", "marks": 1,
+    "type": "order",
+    "prompt": "Arrange the steps to make the **balloon rocket** in the correct order.",
+    "image": { "src": "/img/forces/balloon-rocket.svg", "alt": "Animation of a balloon taped to a straw moving along a taut thread" },
+    "items": [
+      { "id": "thread", "text": "Pass a long thread through the straw and tie its ends to two nails, keeping it taut" },
+      { "id": "release", "text": "Untie the balloon's neck and watch which way it moves" },
+      { "id": "inflate", "text": "Inflate the balloon and tie its neck with a small piece of thread" },
+      { "id": "straw", "text": "Tape a piece of straw to the balloon, pointing towards its neck" }
+    ],
+    "answer": ["inflate", "straw", "thread", "release"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need a balloon full of air before you can attach it to anything.",
+    "explanation": "Inflate and tie the balloon, tape on the straw, thread it on a taut line and then let the air out. The stretched balloon pushes the air out backwards and the air pushes the balloon **forwards** with an equal force (**third law**), the same way a rocket works."
+  },
+  {
+    "id": "in-cbse-9-phy-forces-050",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Stopping force",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "You want the stopping force on a bullet that stops inside a wooden block. Arrange the steps of the working in order.",
+    "image": { "src": "/img/forces/bullet-block.svg", "alt": "Animation of a bullet entering a wooden block and stopping inside it" },
+    "items": [
+      { "id": "force", "text": "Multiply by the mass to get the force, $F = ma$" },
+      { "id": "units", "text": "Convert the mass to kg and the distance to m" },
+      { "id": "dir", "text": "State that the force acts opposite to the bullet's motion" },
+      { "id": "acc", "text": "Use $v^2 = u^2 + 2as$ with $v = 0$ to find the deceleration" }
+    ],
+    "answer": ["units", "acc", "force", "dir"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot use $F = ma$ until you know $a$.",
+    "explanation": "Work in **SI units** first (g → kg, cm → m). Then the kinematic equation $v^2 = u^2 + 2as$ gives the deceleration, $F = ma$ turns it into a force, and the negative sign of $a$ tells you the force **opposes the motion**."
+  }
+]

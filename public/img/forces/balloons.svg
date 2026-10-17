@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img">
+<title>Two similarly charged balloons hanging from threads and pushing apart</title>
+<style>
+.lb{animation:lb 3s ease-in-out infinite;transform-box:view-box;transform-origin:150px 20px}@keyframes lb{50%{transform:rotate(4deg)}}.rb{animation:rb 3s ease-in-out infinite;transform-box:view-box;transform-origin:150px 20px}@keyframes rb{50%{transform:rotate(-4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="90" y="12" width="120" height="10" rx="4" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/><g class="lb"><path d="M150 22L98 150" stroke="#2B2F4A" stroke-width="2"/><ellipse cx="90" cy="168" rx="32" ry="40" fill="#E5484D" stroke="#2B2F4A" stroke-width="3"/><text x="90" y="175" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ +</text></g><g class="rb"><path d="M150 22L202 150" stroke="#2B2F4A" stroke-width="2"/><ellipse cx="210" cy="168" rx="32" ry="40" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3"/><text x="210" y="175" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ +</text></g>
+</svg>

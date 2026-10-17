@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Sunlight falling on a solar panel standing in a sandy desert, with a clock beside it</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#E0A92E"/></marker>
+</defs>
+<style>
+.ray{stroke-dasharray:10 6;animation:r 1.3s linear infinite}
+@keyframes r{to{stroke-dashoffset:-32}}
+.hand{animation:spin 6s linear infinite;transform-origin:340px 70px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.gl{animation:gl 2.4s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.1}50%{opacity:.45}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V190H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 190Q100 176 200 188T400 184V244Q400 260 384 260H16Q0 260 0 244Z" fill="#F0D59A" stroke="#C9A55E" stroke-width="2.5"/>
+<path d="M40 226q30-8 60 0M250 236q30-8 60 0" fill="none" stroke="#C9A55E" stroke-width="2" stroke-linecap="round"/>
+<circle class="sun" cx="56" cy="50" r="26" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<g fill="none" stroke="#E0A92E" stroke-width="3" stroke-linecap="round">
+<path class="ray" d="M86 64L156 118" marker-end="url(#a)"/><path class="ray" d="M80 80L134 148" marker-end="url(#a)"/><path class="ray" d="M94 56L196 112" marker-end="url(#a)"/>
+</g>
+<path d="M180 200V160M150 200l30-40 30 40" fill="none" stroke="#6E7396" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 170L160 104H262L232 170Z" fill="#1F5FA8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#9FD3F5" stroke-width="1.5"><path d="M154 115H256M146 128H248M138 142H240M130 156H234M186 104L156 170M212 104L182 170M238 104L208 170"/></g>
+<path class="gl" d="M120 170L160 104H262L232 170Z" fill="#FFFFFF"/>
+<circle cx="340" cy="70" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M340 48v4M362 70h-4M340 92v-4M318 70h4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<path class="hand" d="M340 70V50" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/>
+<path d="M340 70L352 76" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>Two boxes joined by a string on a smooth floor, being pulled to the right</title>
+<style>
+.pl{animation:pl 2.4s ease-in-out infinite}@keyframes pl{50%{opacity:.55}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 170H400V204Q400 220 384 220H16Q0 220 0 204Z" fill="#E3EEF5"/><line x1="0" y1="170" x2="400" y2="170" stroke="#9DB6C9" stroke-width="3"/><rect x="40" y="100" width="90" height="70" rx="6" fill="#CDEBFA" stroke="#0B93D4" stroke-width="3"/><text x="85" y="154" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">Box 2</text><rect x="210" y="100" width="90" height="70" rx="6" fill="#F6C453" stroke="#B88A1E" stroke-width="3"/><text x="255" y="154" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">Box 1</text><line x1="130" y1="135" x2="210" y2="135" stroke="#2B2F4A" stroke-width="3"/><g class="pl"><line x1="302" y1="135" x2="367.8" y2="135" stroke="#FF8A1F" stroke-width="6" stroke-linecap="round"/><path d="M386 135L366.8 147.6L366.8 122.4Z" fill="#FF8A1F" stroke="#FF8A1F" stroke-width="2" stroke-linejoin="round"/></g><g class="pl"><line x1="134" y1="116" x2="167" y2="116" stroke="#0B93D4" stroke-width="5" stroke-linecap="round"/><path d="M182 116L166 126.5L166 105.5Z" fill="#0B93D4" stroke="#0B93D4" stroke-width="2" stroke-linejoin="round"/></g><g class="pl"><line x1="206" y1="154" x2="173" y2="154" stroke="#3FA34D" stroke-width="5" stroke-linecap="round"/><path d="M158 154L174 143.5L174 164.5Z" fill="#3FA34D" stroke="#3FA34D" stroke-width="2" stroke-linejoin="round"/></g>
+</svg>

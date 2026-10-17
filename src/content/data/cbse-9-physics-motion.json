@@ -1,0 +1,2265 @@
+[
+  {
+    "id": "in-cbse-9-phy-motion-ch-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Describing position",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Meera starts at the reference point **O** and jogs **70 m** in the positive direction. She then turns and jogs **40 m** back along the same track. Tap her **final position**.",
+    "image": {
+      "src": "/img/motion/track.svg",
+      "alt": "A straight track marked as a number line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "m40",
+        "x": 24.5,
+        "y": 57.1,
+        "label": "−40 m"
+      },
+      {
+        "id": "p30",
+        "x": 54.2,
+        "y": 57.1,
+        "label": "+30 m"
+      },
+      {
+        "id": "p70",
+        "x": 71.2,
+        "y": 57.1,
+        "label": "+70 m"
+      },
+      {
+        "id": "p110",
+        "x": 88.2,
+        "y": 57.1,
+        "label": "+110 m"
+      }
+    ],
+    "answer": "p30",
+    "hint": "Count forward as + and backward as −, then add.",
+    "explanation": "Her final position is $+70\\ \\text{m} - 40\\ \\text{m} = +30\\ \\text{m}$: 30 m on the positive side of O. So her **displacement** is 30 m in the positive direction, while the **total distance** she ran is 70 + 40 = 110 m. The +70 m mark forgets the return leg, and +110 m adds the two legs as if she never turned back."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Distance and displacement",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A toy robot starts at the **+40 m** mark on this track. Over the next minute its **displacement** is **−80 m**. Tap where the robot ends up.",
+    "image": {
+      "src": "/img/motion/track.svg",
+      "alt": "A straight track marked as a number line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "m80",
+        "x": 7.5,
+        "y": 57.1,
+        "label": "−80 m"
+      },
+      {
+        "id": "m40",
+        "x": 24.5,
+        "y": 57.1,
+        "label": "−40 m"
+      },
+      {
+        "id": "zero",
+        "x": 41.5,
+        "y": 57.1,
+        "label": "0 m (point O)"
+      },
+      {
+        "id": "p40",
+        "x": 58.5,
+        "y": 57.1,
+        "label": "+40 m"
+      },
+      {
+        "id": "p120",
+        "x": 92.5,
+        "y": 57.1,
+        "label": "+120 m"
+      }
+    ],
+    "answer": "m40",
+    "hint": "Final position = starting position + displacement. Watch the sign.",
+    "explanation": "Final position = $+40\\ \\text{m} + (-80\\ \\text{m}) = -40\\ \\text{m}$, which is 40 m on the **negative** side of O. The minus sign of the displacement means the robot moved in the negative direction. Choosing −80 m treats the displacement as the final position, and +120 m ignores the minus sign."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Position-time graphs",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The position–time graph shows a scooter on a straight road. Tap the part of the graph where the scooter is **at rest**.",
+    "image": {
+      "src": "/img/motion/pt-trip.svg",
+      "alt": "A position-time graph of a scooter with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 21.7,
+        "y": 75.5,
+        "label": "0–2 s"
+      },
+      {
+        "id": "s2",
+        "x": 38.3,
+        "y": 66.8,
+        "label": "2–5 s"
+      },
+      {
+        "id": "s3",
+        "x": 55.0,
+        "y": 49.3,
+        "label": "5–7 s"
+      },
+      {
+        "id": "s4",
+        "x": 71.7,
+        "y": 25.2,
+        "label": "7–10 s"
+      },
+      {
+        "id": "s5",
+        "x": 88.3,
+        "y": 27.4,
+        "label": "10–12 s"
+      }
+    ],
+    "answer": "s2",
+    "hint": "If the position does not change with time, what does the line look like?",
+    "explanation": "From 2 s to 5 s the line is **parallel to the time axis**: the position stays at 40 m, so the scooter is at rest 40 m from the origin. Its slope, and so its velocity, is zero there. Every other part slopes, so the position is changing."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Slope of a position-time graph",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Look at the same scooter's position–time graph. Tap the part where the scooter moves **fastest**.",
+    "image": {
+      "src": "/img/motion/pt-trip.svg",
+      "alt": "A position-time graph of a scooter with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 21.7,
+        "y": 75.5,
+        "label": "0–2 s"
+      },
+      {
+        "id": "s2",
+        "x": 38.3,
+        "y": 66.8,
+        "label": "2–5 s"
+      },
+      {
+        "id": "s3",
+        "x": 55.0,
+        "y": 49.3,
+        "label": "5–7 s"
+      },
+      {
+        "id": "s4",
+        "x": 71.7,
+        "y": 25.2,
+        "label": "7–10 s"
+      },
+      {
+        "id": "s5",
+        "x": 88.3,
+        "y": 27.4,
+        "label": "10–12 s"
+      }
+    ],
+    "answer": "s3",
+    "hint": "The steeper the line, the greater the velocity.",
+    "explanation": "Velocity is the **slope** of a position–time graph. 0–2 s: $\\dfrac{40}{2} = 20\\ \\text{m s}^{-1}$; 5–7 s: $\\dfrac{120 - 40}{7 - 5} = 40\\ \\text{m s}^{-1}$; 7–10 s: $\\dfrac{30}{3} = 10\\ \\text{m s}^{-1}$; 10–12 s: $\\dfrac{110 - 150}{2} = -20\\ \\text{m s}^{-1}$. The steepest part, 5–7 s, is the fastest. Being far from the origin (the highest part of the graph) is not the same as moving fast."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Position-time graphs",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the part of the scooter's position–time graph where it is moving **back towards the origin**.",
+    "image": {
+      "src": "/img/motion/pt-trip.svg",
+      "alt": "A position-time graph of a scooter with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 21.7,
+        "y": 75.5,
+        "label": "0–2 s"
+      },
+      {
+        "id": "s2",
+        "x": 38.3,
+        "y": 66.8,
+        "label": "2–5 s"
+      },
+      {
+        "id": "s3",
+        "x": 55.0,
+        "y": 49.3,
+        "label": "5–7 s"
+      },
+      {
+        "id": "s4",
+        "x": 71.7,
+        "y": 25.2,
+        "label": "7–10 s"
+      },
+      {
+        "id": "s5",
+        "x": 88.3,
+        "y": 27.4,
+        "label": "10–12 s"
+      }
+    ],
+    "answer": "s5",
+    "hint": "Look for the part where the position gets smaller as time goes on.",
+    "explanation": "Between 10 s and 12 s the position falls from 150 m to 110 m, so the scooter is heading back towards the origin (the negative direction), with velocity $\\dfrac{110 - 150}{12 - 10} = -20\\ \\text{m s}^{-1}$. In the rising parts it moves away from the origin, and in the flat part it is at rest."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Velocity-time graphs",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The velocity–time graph shows a car on a straight road. Tap the part where the car is **slowing down**.",
+    "image": {
+      "src": "/img/motion/vt-trip.svg",
+      "alt": "A velocity-time graph of a car with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 25.0,
+        "y": 56.3,
+        "label": "0–10 s"
+      },
+      {
+        "id": "s2",
+        "x": 50.0,
+        "y": 28.3,
+        "label": "10–25 s"
+      },
+      {
+        "id": "s3",
+        "x": 75.0,
+        "y": 56.3,
+        "label": "25–35 s"
+      },
+      {
+        "id": "s4",
+        "x": 90.0,
+        "y": 84.3,
+        "label": "35–40 s"
+      }
+    ],
+    "answer": "s3",
+    "hint": "Find where the velocity is getting smaller.",
+    "explanation": "From 25 s to 35 s the velocity falls from 20 m/s to 0, so the car is slowing down. Its acceleration is $\\dfrac{0 - 20}{35 - 25} = -2\\ \\text{m s}^{-2}$; the minus sign shows that it acts **opposite to the velocity**. From 0 to 10 s the car speeds up, from 10 to 25 s it moves at constant velocity, and from 35 to 40 s it is at rest."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Velocity-time graphs",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "On the same graph, tap the part where the car is **moving** but its **acceleration is zero**.",
+    "image": {
+      "src": "/img/motion/vt-trip.svg",
+      "alt": "A velocity-time graph of a car with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 25.0,
+        "y": 56.3,
+        "label": "0–10 s"
+      },
+      {
+        "id": "s2",
+        "x": 50.0,
+        "y": 28.3,
+        "label": "10–25 s"
+      },
+      {
+        "id": "s3",
+        "x": 75.0,
+        "y": 56.3,
+        "label": "25–35 s"
+      },
+      {
+        "id": "s4",
+        "x": 90.0,
+        "y": 84.3,
+        "label": "35–40 s"
+      }
+    ],
+    "answer": "s2",
+    "hint": "Zero acceleration means the velocity is not changing. The car must also be moving.",
+    "explanation": "From 10 s to 25 s the line is flat at 20 m/s. The velocity does not change, so the **acceleration is zero** even though the car is moving quite fast. From 35 s to 40 s the acceleration is also zero, but there the velocity is 0, so the car is at rest, not moving."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Uniform circular motion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Seen from above, this merry-go-round turns **anticlockwise** at a steady speed. Tap the arrow that shows the direction of the child's **velocity** as she passes point **P**.",
+    "image": {
+      "src": "/img/motion/merry.svg",
+      "alt": "Top view of a merry-go-round with four arrows at point P and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "up",
+        "x": 75.0,
+        "y": 24.7,
+        "label": "Along the tangent, in the direction of turning"
+      },
+      {
+        "id": "out",
+        "x": 93.5,
+        "y": 50.0,
+        "label": "Straight out from the centre"
+      },
+      {
+        "id": "down",
+        "x": 75.0,
+        "y": 75.3,
+        "label": "Along the tangent, against the turning"
+      },
+      {
+        "id": "in",
+        "x": 60.0,
+        "y": 50.0,
+        "label": "Towards the centre"
+      }
+    ],
+    "answer": "up",
+    "hint": "In circular motion the velocity points along the tangent, in the direction of motion.",
+    "explanation": "At every point of a circular path the velocity is along the **tangent** to the circle, in the direction of motion. Going anticlockwise, the child at P (the right-hand edge) is heading up the page. The arrows towards or away from the centre lie along the radius, not the tangent, and the downward arrow points backwards."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Velocity in circular motion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A marble rolls **clockwise** round the inside of a ring lying flat on a table. As it reaches the top of the ring, the ring is lifted away. Tap the end of the path the marble will follow.",
+    "image": {
+      "src": "/img/motion/marble-ring.svg",
+      "alt": "A marble at the top of a ring, with four dashed paths and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "radial",
+        "x": 35.0,
+        "y": 8.5,
+        "label": "Straight out from the centre"
+      },
+      {
+        "id": "tangent",
+        "x": 82.5,
+        "y": 26.9,
+        "label": "Straight line along the tangent"
+      },
+      {
+        "id": "circle",
+        "x": 55.0,
+        "y": 57.7,
+        "label": "Keeps going round the circle"
+      },
+      {
+        "id": "curve",
+        "x": 80.5,
+        "y": 80.0,
+        "label": "Curves away gradually"
+      }
+    ],
+    "answer": "tangent",
+    "hint": "Once the ring is gone, nothing turns the marble any more.",
+    "explanation": "Released, the marble carries on in the direction it was moving at that instant: a **straight line along the tangent** at the point of release. Inside the ring it kept curving only because the ring kept changing its direction. This is also why the velocity in circular motion is drawn along the tangent. (You will learn the reason in a later chapter.)"
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Average speed and average velocity",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Kabir's family drives **150 km east** from town A to town B in **2 h**, then drives **150 km west** back to A in **3 h**. What are the average speed and the average velocity for the whole trip?",
+    "image": {
+      "src": "/img/motion/car-trip.svg",
+      "alt": "A car driving between two towns 150 km apart"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$62.5\\ \\text{km h}^{-1}$ and $0\\ \\text{km h}^{-1}$"
+      },
+      {
+        "id": "b",
+        "text": "$60\\ \\text{km h}^{-1}$ and $0\\ \\text{km h}^{-1}$"
+      },
+      {
+        "id": "c",
+        "text": "$60\\ \\text{km h}^{-1}$ and $60\\ \\text{km h}^{-1}$ towards the east"
+      },
+      {
+        "id": "d",
+        "text": "$0\\ \\text{km h}^{-1}$ and $60\\ \\text{km h}^{-1}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Average speed uses the total distance; average velocity uses the displacement.",
+    "explanation": "Average speed = $\\dfrac{\\text{total distance}}{\\text{time interval}} = \\dfrac{150 + 150}{2 + 3} = \\dfrac{300}{5} = 60\\ \\text{km h}^{-1}$. The family ends where it started, so the **displacement is zero** and the average velocity is $0\\ \\text{km h}^{-1}$. 62.5 km/h comes from averaging the two leg speeds (75 and 50 km/h), which is wrong because the legs took different times."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Average speed and average velocity",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Sarang swims from one end of a **25 m** pool to the other and then swims **halfway back**, all in **25 s**. What are his average speed and average velocity?",
+    "image": {
+      "src": "/img/motion/pool.svg",
+      "alt": "A swimmer in a 25 m swimming pool"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1.5\\ \\text{m s}^{-1}$ and $1.5\\ \\text{m s}^{-1}$ towards the far end"
+      },
+      {
+        "id": "b",
+        "text": "$0.5\\ \\text{m s}^{-1}$ and $1.5\\ \\text{m s}^{-1}$ towards the far end"
+      },
+      {
+        "id": "c",
+        "text": "$1.5\\ \\text{m s}^{-1}$ and $0.5\\ \\text{m s}^{-1}$ towards the far end"
+      },
+      {
+        "id": "d",
+        "text": "$1.5\\ \\text{m s}^{-1}$ and $0\\ \\text{m s}^{-1}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Work out the total distance and the displacement separately.",
+    "explanation": "Distance = 25 + 12.5 = 37.5 m, so average speed = $\\dfrac{37.5}{25} = 1.5\\ \\text{m s}^{-1}$. He ends 12.5 m from where he started, so his average velocity = $\\dfrac{12.5}{25} = 0.5\\ \\text{m s}^{-1}$ towards the far end. 0 m/s would be right only if he had swum all the way back; speed and the size of velocity are equal only when he swims in one direction."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "India's scientific contributions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A puzzle in the style of the 14th-century Indian text *Ganitakaumudi*: two messengers start **240 yojanas** apart and walk towards each other. One covers **7 yojanas** a day and the other **5 yojanas** a day. After how many days do they meet?",
+    "image": {
+      "src": "/img/motion/postmen.svg",
+      "alt": "Two messengers walking towards each other from villages 240 yojanas apart"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "120 days"
+      },
+      {
+        "id": "b",
+        "text": "48 days"
+      },
+      {
+        "id": "c",
+        "text": "About 34 days"
+      },
+      {
+        "id": "d",
+        "text": "20 days"
+      }
+    ],
+    "answer": "d",
+    "hint": "Walking towards each other, how much of the gap do they close together each day?",
+    "explanation": "Together they close the gap by 7 + 5 = **12 yojanas per day**, so they meet after $\\dfrac{240}{12} = 20$ days (by then one has walked 140 yojanas and the other 100). 120 days uses the difference 7 − 5, which would fit only if they walked the same way; 48 and about 34 days use one messenger's speed alone. Speed as distance ÷ time was known in India at least from the *Aryabhatiya* (5th century CE)."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Average acceleration",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Car makers often say how fast a car can reach a high speed from rest. A car goes from **0 to 108 km/h in 12 s**. What is the magnitude of its average acceleration?",
+    "image": {
+      "src": "/img/motion/car-0-100.svg",
+      "alt": "A car speeding up from rest while a stopwatch runs"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$9\\ \\text{m s}^{-2}$"
+      },
+      {
+        "id": "b",
+        "text": "$2.5\\ \\text{m s}^{-2}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.4\\ \\text{m s}^{-2}$"
+      },
+      {
+        "id": "d",
+        "text": "$30\\ \\text{m s}^{-2}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Convert km/h to m/s first: multiply by 1000 and divide by 3600.",
+    "explanation": "$108\\ \\text{km h}^{-1} = 108 \\times \\dfrac{1000\\ \\text{m}}{3600\\ \\text{s}} = 30\\ \\text{m s}^{-1}$. Then $a = \\dfrac{v - u}{t} = \\dfrac{30 - 0}{12} = 2.5\\ \\text{m s}^{-2}$. 9 m s⁻² skips the km/h → m/s conversion, 0.4 turns the ratio upside down, and 30 forgets to divide by the time."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Slope of a position-time graph",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph shows a cyclist's position on a straight road. Using the points **P** and **Q**, find the cyclist's velocity.",
+    "image": {
+      "src": "/img/motion/pt-slope.svg",
+      "alt": "Position-time graph of a cyclist with points P and Q marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "b",
+        "text": "$6.7\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "c",
+        "text": "$20\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.2\\ \\text{m s}^{-1}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Velocity = change in position ÷ change in time between P and Q.",
+    "explanation": "Velocity = slope = $\\dfrac{s_2 - s_1}{t_2 - t_1} = \\dfrac{40 - 20}{6 - 2} = \\dfrac{20}{4} = 5\\ \\text{m s}^{-1}$. 6.7 m/s divides Q's position by its time (40 ÷ 6), which is wrong because the cyclist started 10 m from the origin. 20 m/s forgets to divide by the time interval, and 0.2 m/s is the ratio upside down."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Area under a velocity-time graph",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The velocity–time graph is for a scooter on a straight road. What is its **displacement** from 0 s to 8 s?",
+    "image": {
+      "src": "/img/motion/vt-area.svg",
+      "alt": "Velocity-time graph of a scooter with the area under the line shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "128 m"
+      },
+      {
+        "id": "b",
+        "text": "48 m"
+      },
+      {
+        "id": "c",
+        "text": "32 m"
+      },
+      {
+        "id": "d",
+        "text": "80 m"
+      }
+    ],
+    "answer": "d",
+    "hint": "Displacement = area under the line. Split it into a rectangle and a triangle.",
+    "explanation": "Displacement = shaded area = rectangle + triangle = $(4 \\times 8) + \\tfrac{1}{2} \\times 8 \\times (16 - 4) = 32 + 48 = 80\\ \\text{m}$. 128 m multiplies the final velocity by the time, as if the scooter had moved at 16 m/s throughout; 48 m and 32 m each leave out one part of the area."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Slope of a velocity-time graph",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Use the same velocity–time graph of the scooter. What is its **acceleration**?",
+    "image": {
+      "src": "/img/motion/vt-area.svg",
+      "alt": "Velocity-time graph of a scooter with the area under the line shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2\\ \\text{m s}^{-2}$"
+      },
+      {
+        "id": "b",
+        "text": "$1.5\\ \\text{m s}^{-2}$"
+      },
+      {
+        "id": "c",
+        "text": "$12\\ \\text{m s}^{-2}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.67\\ \\text{m s}^{-2}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Acceleration = slope = change in velocity ÷ time taken.",
+    "explanation": "Acceleration = slope = $\\dfrac{v - u}{t} = \\dfrac{16 - 4}{8 - 0} = \\dfrac{12}{8} = 1.5\\ \\text{m s}^{-2}$, in the direction of the velocity because the scooter is speeding up. 2 m s⁻² divides the final velocity by the time and ignores the starting 4 m/s; 12 forgets to divide by the time; 0.67 is the ratio upside down."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Kinematic equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A metro train starts from rest and accelerates uniformly at **0.8 m/s²** for **25 s**. How far does it travel in this time?",
+    "image": {
+      "src": "/img/motion/metro.svg",
+      "alt": "A metro train pulling away from a platform"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10 m"
+      },
+      {
+        "id": "b",
+        "text": "500 m"
+      },
+      {
+        "id": "c",
+        "text": "250 m"
+      },
+      {
+        "id": "d",
+        "text": "20 m"
+      }
+    ],
+    "answer": "c",
+    "hint": "Starting from rest means $u = 0$. Use $s = ut + \\tfrac{1}{2}at^2$.",
+    "explanation": "$s = ut + \\tfrac{1}{2}at^2 = 0 + \\tfrac{1}{2} \\times 0.8 \\times 25^2 = 0.4 \\times 625 = 250\\ \\text{m}$. (Its final velocity is $v = u + at = 0.8 \\times 25 = 20\\ \\text{m s}^{-1}$.) 500 m either forgets the ½ or multiplies the final velocity by the time; 10 m forgets to square the time; and 20 m is the final velocity, not a distance."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Kinematic equations",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A scooter moving at **24 m/s** brakes with constant acceleration and stops after travelling **72 m**. Find its acceleration and the time it takes to stop.",
+    "image": {
+      "src": "/img/motion/bike-brake.svg",
+      "alt": "A scooter braking to a stop on a straight road"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-8\\ \\text{m s}^{-2}$ and 3 s"
+      },
+      {
+        "id": "b",
+        "text": "$+4\\ \\text{m s}^{-2}$ and 6 s"
+      },
+      {
+        "id": "c",
+        "text": "$-0.33\\ \\text{m s}^{-2}$ and 72 s"
+      },
+      {
+        "id": "d",
+        "text": "$-4\\ \\text{m s}^{-2}$ and 6 s"
+      }
+    ],
+    "answer": "d",
+    "hint": "No time is given, so start with $v^2 = u^2 + 2as$, taking $v = 0$.",
+    "explanation": "$v^2 = u^2 + 2as \\Rightarrow 0 = 24^2 + 2a(72) \\Rightarrow a = -\\dfrac{576}{144} = -4\\ \\text{m s}^{-2}$. Then $t = \\dfrac{v - u}{a} = \\dfrac{0 - 24}{-4} = 6\\ \\text{s}$. −8 m s⁻² drops the 2 in $2as$; +4 m s⁻² loses the minus sign that shows the acceleration opposes the motion; −0.33 m s⁻² just divides 24 by 72."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Stopping distance and reaction time",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A car is moving at **54 km/h** when the driver spots a cow standing **40 m** ahead. She takes **0.6 s** to react and then brakes with a constant acceleration of **−3 m/s²**. Does the car stop before reaching the cow?",
+    "image": {
+      "src": "/img/motion/reaction.svg",
+      "alt": "A car approaching a cow standing on the road 40 m ahead"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes: braking needs only 37.5 m, so it stops 2.5 m short of the cow"
+      },
+      {
+        "id": "b",
+        "text": "Yes: in the 0.6 s reaction time it covers only 9 m"
+      },
+      {
+        "id": "c",
+        "text": "No: it needs 46.5 m in all, 6.5 m more than the gap"
+      },
+      {
+        "id": "d",
+        "text": "No: it needs 84 m in all"
+      }
+    ],
+    "answer": "c",
+    "hint": "The car keeps moving at full speed during the reaction time. Add that distance to the braking distance.",
+    "explanation": "$54\\ \\text{km h}^{-1} = 15\\ \\text{m s}^{-1}$. During the reaction time the car covers $15 \\times 0.6 = 9\\ \\text{m}$. Braking distance from $v^2 = u^2 + 2as$: $s = \\dfrac{15^2}{2 \\times 3} = 37.5\\ \\text{m}$. Total = 9 + 37.5 = **46.5 m**, which is more than 40 m, so it cannot stop in time. The first option forgets the reaction distance, the second ignores braking, and 84 m drops the 2 in $2as$ (225 ÷ 3 = 75 m, plus 9 m)."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Area under a velocity-time graph",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Use the velocity–time graph of the car shown. What **total distance** does it travel in the 40 s?",
+    "image": {
+      "src": "/img/motion/vt-trip.svg",
+      "alt": "A velocity-time graph of a car over 40 seconds"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "500 m"
+      },
+      {
+        "id": "b",
+        "text": "700 m"
+      },
+      {
+        "id": "c",
+        "text": "300 m"
+      },
+      {
+        "id": "d",
+        "text": "400 m"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find the area under each part of the graph and add them.",
+    "explanation": "Distance = area under the graph. Speeding up: $\\tfrac{1}{2} \\times 10 \\times 20 = 100\\ \\text{m}$; steady: $15 \\times 20 = 300\\ \\text{m}$; braking: $\\tfrac{1}{2} \\times 10 \\times 20 = 100\\ \\text{m}$; at rest: 0 m. Total = **500 m**. 700 m assumes 20 m/s for all 35 s of motion, 300 m counts only the steady part, and 400 m misses one triangle."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Kinematic equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A truck driver moving at **72 km/h** sees a speed-limit sign and slows down uniformly to **36 km/h** in **20 s**. How far does the truck travel while slowing down?",
+    "image": {
+      "src": "/img/motion/truck-sign.svg",
+      "alt": "A truck slowing down near a speed-limit sign"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "300 m"
+      },
+      {
+        "id": "b",
+        "text": "1080 m"
+      },
+      {
+        "id": "c",
+        "text": "200 m"
+      },
+      {
+        "id": "d",
+        "text": "400 m"
+      }
+    ],
+    "answer": "a",
+    "hint": "Convert both speeds to m/s. With constant acceleration, distance = average of the two velocities × time.",
+    "explanation": "$u = 72\\ \\text{km h}^{-1} = 20\\ \\text{m s}^{-1}$ and $v = 36\\ \\text{km h}^{-1} = 10\\ \\text{m s}^{-1}$. With constant acceleration, $s = \\tfrac{1}{2}(u + v)t = \\tfrac{1}{2}(20 + 10) \\times 20 = 300\\ \\text{m}$ (its acceleration is $\\dfrac{10 - 20}{20} = -0.5\\ \\text{m s}^{-2}$). 1080 m uses km/h with seconds without converting; 200 m and 400 m assume the truck moved at its final or its initial speed the whole time."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Uniform circular motion",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cyclist rides round a circular track of radius **R = 70 m** at a steady speed, completing one lap every **44 s**. What is her average speed over one lap? (Take $\\pi = \\dfrac{22}{7}$.)",
+    "image": {
+      "src": "/img/motion/cycle-track.svg",
+      "alt": "A cyclist riding round a circular track of radius R"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "b",
+        "text": "$10\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "c",
+        "text": "$0\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "d",
+        "text": "$20\\ \\text{m s}^{-1}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "One lap is the circumference, $2\\pi R$.",
+    "explanation": "One lap = $2\\pi R = 2 \\times \\dfrac{22}{7} \\times 70 = 440\\ \\text{m}$, so $v_{av} = \\dfrac{2\\pi R}{T} = \\dfrac{440}{44} = 10\\ \\text{m s}^{-1}$. 5 m/s uses $\\pi R$ (only half a lap); 20 m/s uses the diameter, 140 m, in place of the radius; and 0 m/s is her average **velocity** over a lap, because she ends where she began."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Distance and displacement in circular motion",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Rohan studies from **2:00 pm to 3:30 pm**. The minute hand of his wall clock is **14 cm** long. For the tip of the minute hand over this time, what are the distance travelled and the magnitude of displacement? (Take $\\pi = \\dfrac{22}{7}$.)",
+    "image": {
+      "src": "/img/motion/clock.svg",
+      "alt": "A wall clock whose minute hand sweeps round"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "132 cm and 28 cm"
+      },
+      {
+        "id": "b",
+        "text": "132 cm and 0 cm"
+      },
+      {
+        "id": "c",
+        "text": "88 cm and 28 cm"
+      },
+      {
+        "id": "d",
+        "text": "66 cm and 14 cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "How many rounds does the minute hand make in 1½ hours, and where does its tip end up?",
+    "explanation": "In 1.5 h the tip makes 1.5 revolutions: distance $= 1.5 \\times 2\\pi r = 1.5 \\times 2 \\times \\dfrac{22}{7} \\times 14 = 1.5 \\times 88 = 132\\ \\text{cm}$. It starts at 12 and ends at 6, at opposite ends of a diameter, so the displacement is $2r = 28\\ \\text{cm}$. 0 cm would be right only after whole revolutions, 88 cm counts just one revolution, and 66 cm and 14 cm use $\\pi r$ and $r$ by mistake."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Direction of acceleration",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A car is moving to the right and the driver is **pressing the brake**, so it is slowing down. Which picture shows the directions of its velocity and acceleration correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture P",
+        "image": {
+          "src": "/img/motion/accel-r.svg",
+          "alt": "A car with arrows for its velocity and acceleration"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture Q",
+        "image": {
+          "src": "/img/motion/accel-p.svg",
+          "alt": "A car with arrows for its velocity and acceleration"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture R",
+        "image": {
+          "src": "/img/motion/accel-q.svg",
+          "alt": "A car with arrows for its velocity and acceleration"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "When the velocity is decreasing, which way does the change in velocity point?",
+    "explanation": "When a car **slows down**, its velocity decreases, so the change in velocity, and hence the acceleration, points **opposite** to the velocity, as in R. Arrows pointing the same way (Q) mean the car is speeding up. Zero acceleration (P) means the velocity is steady. The jolt you feel when a vehicle brakes suddenly comes from this change in velocity."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Position-time graphs",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Ravi's car starts from rest and goes **faster and faster** along a straight road. Which position–time graph matches its motion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph P",
+        "image": {
+          "src": "/img/motion/pt-p.svg",
+          "alt": "A position-time graph"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph Q",
+        "image": {
+          "src": "/img/motion/pt-s.svg",
+          "alt": "A position-time graph"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph R",
+        "image": {
+          "src": "/img/motion/pt-q.svg",
+          "alt": "A position-time graph"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph S",
+        "image": {
+          "src": "/img/motion/pt-r.svg",
+          "alt": "A position-time graph"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Speeding up means covering more distance in each equal time interval.",
+    "explanation": "A car that speeds up covers **larger distances in equal time intervals**, so the slope (velocity) of its position–time graph keeps increasing: a curve that gets steeper, like S. For example, at 0, 2, 4 and 6 s it might be at 0, 1, 4 and 9 m. A straight line (P) means constant velocity, a curve that flattens (Q) means slowing down, and a horizontal line (R) means rest. A graph is **not a route map**: a curve does not mean the road bends."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Acceleration from change in direction",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A girl riding her scooter notices that the **speedometer reading stays constant**. Can the scooter be accelerating?",
+    "image": {
+      "src": "/img/motion/scooter-turn.svg",
+      "alt": "A girl riding a scooter along a winding road, with its speedometer"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "No: a constant speedometer reading always means zero acceleration"
+      },
+      {
+        "id": "b",
+        "text": "Yes, if she is going round a bend, because the direction of her velocity is changing"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but only if the speedometer is broken"
+      },
+      {
+        "id": "d",
+        "text": "No: acceleration happens only when the speed increases"
+      }
+    ],
+    "answer": "b",
+    "hint": "Velocity has a size and a direction. Which one does a speedometer show?",
+    "explanation": "A speedometer shows (nearly) the **magnitude** of the velocity at an instant; the direction is the way the tyres point. Velocity changes if its magnitude **or its direction** changes, so on a bend the scooter is accelerating even at a steady speed. Saying acceleration needs the speed to increase also forgets that slowing down is acceleration too, opposite to the velocity."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Rest and motion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A book lies on a table. Riya says the book is **at rest**. Kabir says it is **moving**, because the Earth goes round the Sun. Who is right?",
+    "image": {
+      "src": "/img/motion/earth-sun.svg",
+      "alt": "The Earth, with a house on it, going round the Sun"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Both: the book is at rest relative to the table, but moving relative to the Sun"
+      },
+      {
+        "id": "b",
+        "text": "Only Riya: the book is not moving at all"
+      },
+      {
+        "id": "c",
+        "text": "Only Kabir: nothing on Earth is ever at rest"
+      },
+      {
+        "id": "d",
+        "text": "Neither: rest and motion cannot be described for a book"
+      }
+    ],
+    "answer": "a",
+    "hint": "Rest and motion are always described with respect to a reference point.",
+    "explanation": "An object is in motion if its position **with respect to a reference point** changes with time. With the table (or the room) as the reference point, the book's position does not change, so it is at rest. With the Sun as the reference point, the book's position keeps changing as the Earth moves, so it is in motion. Each statement is correct for its own reference point."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Speed in circular motion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "On a cardboard disc, numbers are written **7 cm** from the centre and letters **4 cm** from the centre. As the disc spins faster, the numbers blur before the letters do. Why?",
+    "image": {
+      "src": "/img/motion/spin-disc.svg",
+      "alt": "A spinning cardboard disc with numbers near the edge and letters nearer the centre"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Both move at the same speed, but numbers are harder to read"
+      },
+      {
+        "id": "b",
+        "text": "The letters move faster because they are closer to the centre"
+      },
+      {
+        "id": "c",
+        "text": "The numbers move faster, because they go round a bigger circle in the same time"
+      },
+      {
+        "id": "d",
+        "text": "The numbers are printed in a lighter colour"
+      }
+    ],
+    "answer": "c",
+    "hint": "Every point on the disc takes the same time to go round once.",
+    "explanation": "Every point on the disc completes one revolution in the same time $T$. The numbers travel round a circle of $2\\pi \\times 7$ cm while the letters travel only $2\\pi \\times 4$ cm, so by $v = \\dfrac{2\\pi R}{T}$ the numbers move $\\dfrac{7}{4}$ times as fast as the letters. The faster-moving numbers smear out first."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Acceleration in real situations",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Using an accelerometer app (such as Phyphox), a class records readings for a phone held on an outstretched palm and for a phone lying on the floor. Why does the reading for the palm keep jumping about?",
+    "image": {
+      "src": "/img/motion/phone-accel.svg",
+      "alt": "Accelerometer traces of a phone held on a palm and a phone on the floor"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The phone on the palm is moving at a high, constant velocity"
+      },
+      {
+        "id": "b",
+        "text": "The app works properly only on the floor"
+      },
+      {
+        "id": "c",
+        "text": "The floor is moving faster than the hand"
+      },
+      {
+        "id": "d",
+        "text": "The hand makes tiny, involuntary movements, so the phone keeps speeding up and slowing down slightly"
+      }
+    ],
+    "answer": "d",
+    "hint": "An accelerometer responds to changes in velocity.",
+    "explanation": "An accelerometer detects **changes in velocity**. Even a hand held 'still' makes tiny, involuntary movements, so the phone keeps getting small accelerations in changing directions and the trace wiggles. On the floor the phone is at rest relative to the Earth, so the reading stays close to zero. A high but **constant** velocity would also give zero acceleration. (Such tiny movements are studied in medical research on movement disorders.)"
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Distance and displacement",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A ball is thrown straight up from **O**, rises to **120 cm** and falls back to O. Thinking about every point of this journey, which statement about the ball's displacement from O is **always** true?",
+    "image": {
+      "src": "/img/motion/ball-up.svg",
+      "alt": "A ball thrown straight up from O beside a scale marked in centimetres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Its magnitude is less than or equal to the total distance travelled"
+      },
+      {
+        "id": "b",
+        "text": "It is never zero"
+      },
+      {
+        "id": "c",
+        "text": "Its magnitude can be greater than the total distance travelled"
+      },
+      {
+        "id": "d",
+        "text": "Its magnitude is always less than the total distance travelled"
+      }
+    ],
+    "answer": "a",
+    "hint": "Compare distance and displacement on the way up, at the top, and on the way down.",
+    "explanation": "On the way up the ball moves in one direction, so the size of its displacement **equals** the distance travelled (at 40 cm both are 40 cm). After it turns back, the distance keeps growing while the displacement shrinks: passing 80 cm on the way down, distance = 120 + 40 = 160 cm but displacement = 80 cm upward. Back at O the displacement is zero while the distance is 240 cm. So its magnitude is never more than the distance."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Stopping distance and road safety",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "When a driver brakes, the car still travels some distance before it stops. Which of these make that **stopping distance longer**? Select all that apply.",
+    "image": {
+      "src": "/img/motion/reaction.svg",
+      "alt": "A car on a misty road approaching a cow"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A higher speed when the brakes are applied"
+      },
+      {
+        "id": "b",
+        "text": "A wet, slippery road"
+      },
+      {
+        "id": "c",
+        "text": "The colour of the car's paint"
+      },
+      {
+        "id": "d",
+        "text": "Worn-out tyres"
+      },
+      {
+        "id": "e",
+        "text": "A tired or distracted driver who reacts more slowly"
+      },
+      {
+        "id": "f",
+        "text": "A louder horn"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Think about the speed, the grip between the tyres and the road, and how quickly the driver reacts.",
+    "explanation": "Stopping distance depends on the **speed** when the brakes are applied, the **road surface**, the **braking capacity** (how large a negative acceleration the brakes and tyres can give) and the driver's **reaction time**, during which the car keeps moving at full speed. Worn tyres grip less, so braking is weaker. Paint colour and horn loudness do not change the motion. Vehicle-to-vehicle (V2V) communication, being developed in India and other countries, lets vehicles exchange signals and warn drivers of possible collisions."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Scalars and vectors",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these quantities need a **direction** as well as a numerical value (magnitude) to be described completely? Select all that apply.",
+    "image": {
+      "src": "/img/motion/track.svg",
+      "alt": "A straight track marked as a number line with + and − directions"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Distance travelled"
+      },
+      {
+        "id": "b",
+        "text": "Displacement"
+      },
+      {
+        "id": "c",
+        "text": "Average speed"
+      },
+      {
+        "id": "d",
+        "text": "Average velocity"
+      },
+      {
+        "id": "e",
+        "text": "Average acceleration"
+      },
+      {
+        "id": "f",
+        "text": "Time interval"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "On a straight track, which quantities carry a + or − sign?",
+    "explanation": "**Displacement**, **velocity** and **acceleration** must have a direction; on a straight line it is shown by a + or − sign. Such quantities are called **vectors**. Distance travelled, speed and time interval need only a numerical value with units, so they are **scalars**."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Average speed and average velocity",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The graph shows the positions of two objects, **A** and **B**, moving along the same straight line for 10 s. Which statements are correct? Select all that apply.",
+    "image": {
+      "src": "/img/motion/pt-ab.svg",
+      "alt": "Position-time graphs of two objects A and B over 10 seconds"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Their average velocities over the 10 s are equal"
+      },
+      {
+        "id": "b",
+        "text": "Their average speeds over the 10 s are equal"
+      },
+      {
+        "id": "c",
+        "text": "A's average speed is lower than B's, because A covers a shorter distance in the same time"
+      },
+      {
+        "id": "d",
+        "text": "A's average speed is greater than B's"
+      },
+      {
+        "id": "e",
+        "text": "B travels a total distance of 120 m"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Compare where each object starts and ends, then work out how far each one actually travelled.",
+    "explanation": "Both start at 0 m and end at 60 m after 10 s, so both have displacement 60 m and average velocity $\\dfrac{60}{10} = 6\\ \\text{m s}^{-1}$. A moves straight to 60 m (distance 60 m). B goes out to 90 m and comes back to 60 m, a distance of 90 + 30 = **120 m**. So A's average speed is $6\\ \\text{m s}^{-1}$ and B's is $12\\ \\text{m s}^{-1}$."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Accelerated motion",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In which of these cases is the object **accelerating**? Select all that apply.",
+    "image": {
+      "src": "/img/motion/fan.svg",
+      "alt": "A ceiling fan turning steadily, with a dot on one blade tip"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A bus moving at a steady 60 km/h on a straight highway"
+      },
+      {
+        "id": "b",
+        "text": "A car going round a circular turn at a steady speed"
+      },
+      {
+        "id": "c",
+        "text": "A coconut falling from a tree"
+      },
+      {
+        "id": "d",
+        "text": "A train slowing down as it enters a station"
+      },
+      {
+        "id": "e",
+        "text": "A book lying on a table"
+      },
+      {
+        "id": "f",
+        "text": "The tip of a ceiling fan blade turning steadily"
+      }
+    ],
+    "answers": [
+      "b",
+      "c",
+      "d",
+      "f"
+    ],
+    "hint": "Acceleration means the velocity is changing: in size, in direction, or both.",
+    "explanation": "An object accelerates whenever its **velocity changes**. The falling coconut speeds up (by about $9.8\\ \\text{m s}^{-1}$ every second), the train slows down, and the turning car and the fan-blade tip keep changing direction: uniform circular motion is accelerated. The bus at constant velocity, however fast, and the book at rest have zero acceleration."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Motion in a plane",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are examples of **motion in a plane** (motion in two dimensions)? Select all that apply.",
+    "image": {
+      "src": "/img/motion/football.svg",
+      "alt": "A footballer kicking a ball that flies through the air in a curve"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A car overtaking another car"
+      },
+      {
+        "id": "b",
+        "text": "The path of a kicked football"
+      },
+      {
+        "id": "c",
+        "text": "A train on a straight track"
+      },
+      {
+        "id": "d",
+        "text": "A satellite moving in a circular orbit"
+      },
+      {
+        "id": "e",
+        "text": "A stone dropped straight down from a bridge"
+      },
+      {
+        "id": "f",
+        "text": "A car climbing a winding mountain road"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Straight-line motion is one-dimensional; motion that also goes up and down while turning is three-dimensional.",
+    "explanation": "Overtaking another vehicle, the curved flight of a kicked ball and a satellite going round a circular path all happen in a flat plane: **two dimensions**. A train on a straight track and a dropped stone move along a straight line: **one dimension**. A car climbing a winding mountain road moves forward, sideways and upward, which is motion in **three dimensions**, like a bird or an aircraft in flight."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Distance and displacement",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each trip with its total distance travelled and its displacement.",
+    "image": {
+      "src": "/img/motion/trips.svg",
+      "alt": "A walk to a shop, a climb up the floors of a building and a run along a track"
+    },
+    "left": [
+      {
+        "id": "shop",
+        "text": "Dad walks 300 m to a shop, comes home for a forgotten bag, goes back to the shop and then returns home"
+      },
+      {
+        "id": "stairs",
+        "text": "Asha climbs from the ground floor to the 3rd floor, then comes down to the 1st floor (each floor is 4 m high)"
+      },
+      {
+        "id": "track",
+        "text": "An athlete runs 80 m forward along a straight track, then 30 m back"
+      }
+    ],
+    "right": [
+      {
+        "id": "r20",
+        "text": "Distance 20 m; displacement 20 m upward"
+      },
+      {
+        "id": "r1200",
+        "text": "Distance 1200 m; displacement 0 m"
+      },
+      {
+        "id": "r110",
+        "text": "Distance 110 m; displacement 50 m forward"
+      },
+      {
+        "id": "r600",
+        "text": "Distance 600 m; displacement 300 m"
+      },
+      {
+        "id": "r4",
+        "text": "Distance 20 m; displacement 4 m upward"
+      }
+    ],
+    "pairs": {
+      "shop": "r1200",
+      "stairs": "r4",
+      "track": "r110"
+    },
+    "hint": "Distance adds up every stretch; displacement compares only the start and the end.",
+    "explanation": "Dad: 4 × 300 = **1200 m**, but he ends at home, so his displacement is **0 m**. Asha: up 12 m and down 8 m gives a distance of 20 m, and she ends 4 m above the ground floor: displacement **4 m upward**. The athlete: 80 + 30 = **110 m**, ending 80 − 30 = **50 m forward**. The other two options were distractors."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Describing motion: key terms",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each description with the term it describes.",
+    "image": {
+      "src": "/img/motion/stopwatch.svg",
+      "alt": "A stopwatch with its hand ticking round"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "A single reading of a clock, such as 10:05 am"
+      },
+      {
+        "id": "l2",
+        "text": "The duration between two clock readings"
+      },
+      {
+        "id": "l3",
+        "text": "The net change in position between two instants"
+      },
+      {
+        "id": "l4",
+        "text": "Change in velocity divided by the time interval"
+      },
+      {
+        "id": "l5",
+        "text": "Total distance travelled divided by the time interval"
+      }
+    ],
+    "right": [
+      {
+        "id": "disp",
+        "text": "Displacement"
+      },
+      {
+        "id": "spd",
+        "text": "Average speed"
+      },
+      {
+        "id": "inst",
+        "text": "Instant of time"
+      },
+      {
+        "id": "acc",
+        "text": "Average acceleration"
+      },
+      {
+        "id": "int",
+        "text": "Time interval"
+      }
+    ],
+    "pairs": {
+      "l1": "inst",
+      "l2": "int",
+      "l3": "disp",
+      "l4": "acc",
+      "l5": "spd"
+    },
+    "hint": "An instant is a single moment; an interval lasts between two moments.",
+    "explanation": "An **instant of time** is one reading of a clock, while a **time interval** is the duration between two readings. **Displacement** is the net change in position (SI unit m). **Average speed** is total distance ÷ time interval ($\\text{m s}^{-1}$), and **average acceleration** is change in velocity ÷ time interval ($\\text{m s}^{-2}$)."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Velocity-time graphs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each numbered panel is a velocity–time graph. Match each graph with the motion it shows.",
+    "image": {
+      "src": "/img/motion/vt-shapes.svg",
+      "alt": "Four velocity-time graphs with numbered markers",
+      "markers": [
+        {
+          "x": 32.5,
+          "y": 12.0,
+          "label": "1"
+        },
+        {
+          "x": 80.0,
+          "y": 12.0,
+          "label": "2"
+        },
+        {
+          "x": 32.5,
+          "y": 58.7,
+          "label": "3"
+        },
+        {
+          "x": 80.0,
+          "y": 58.7,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "g1",
+        "text": "Graph 1"
+      },
+      {
+        "id": "g2",
+        "text": "Graph 2"
+      },
+      {
+        "id": "g3",
+        "text": "Graph 3"
+      },
+      {
+        "id": "g4",
+        "text": "Graph 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "const",
+        "text": "Moving with constant velocity"
+      },
+      {
+        "id": "down",
+        "text": "Slowing down with constant acceleration"
+      },
+      {
+        "id": "rest",
+        "text": "At rest"
+      },
+      {
+        "id": "inc",
+        "text": "Speeding up with increasing acceleration"
+      },
+      {
+        "id": "up",
+        "text": "Speeding up with constant acceleration"
+      }
+    ],
+    "pairs": {
+      "g1": "up",
+      "g2": "const",
+      "g3": "rest",
+      "g4": "down"
+    },
+    "hint": "A flat line means the velocity is not changing. What does a line lying on the time axis mean?",
+    "explanation": "Graph 1 rises in a straight line: velocity increases by equal amounts in equal times, so the object **speeds up with constant acceleration**. Graph 2 is parallel to the time axis: **constant velocity**, zero acceleration. Graph 3 lies on the time axis: velocity is zero, so the object is **at rest**. Graph 4 falls in a straight line: it **slows down with constant acceleration** opposite to the velocity. A changing acceleration would need a curved line."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Kinematic equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "For motion in a straight line with **constant acceleration**, match each problem with the most direct equation to use.",
+    "image": {
+      "src": "/img/motion/kin-car.svg",
+      "alt": "A car speeding up from velocity u to velocity v over a displacement s"
+    },
+    "left": [
+      {
+        "id": "k1",
+        "text": "Find $v$, knowing $u$, $a$ and $t$"
+      },
+      {
+        "id": "k2",
+        "text": "Find $s$, knowing $u$, $a$ and $t$"
+      },
+      {
+        "id": "k3",
+        "text": "Find $s$, knowing $u$, $v$ and $a$ (no time given)"
+      },
+      {
+        "id": "k4",
+        "text": "Find $s$, knowing $u$, $v$ and $t$ (no acceleration given)"
+      }
+    ],
+    "right": [
+      {
+        "id": "e3",
+        "text": "$v^2 = u^2 + 2as$"
+      },
+      {
+        "id": "e1",
+        "text": "$v = u + at$"
+      },
+      {
+        "id": "e4",
+        "text": "$s = \\tfrac{1}{2}(u + v)t$"
+      },
+      {
+        "id": "e2",
+        "text": "$s = ut + \\tfrac{1}{2}at^2$"
+      }
+    ],
+    "pairs": {
+      "k1": "e1",
+      "k2": "e2",
+      "k3": "e3",
+      "k4": "e4"
+    },
+    "hint": "Choose the equation that contains the unknown and only the quantities you know.",
+    "explanation": "$v = u + at$ has no $s$; $s = ut + \\tfrac{1}{2}at^2$ has no $v$; $v^2 = u^2 + 2as$ has no $t$; and $s = \\tfrac{1}{2}(u + v)t$, the area of the trapezium under the velocity–time graph, has no $a$. So each problem is solved by the equation that leaves out the quantity you do not know. All of them hold only when the acceleration is **constant**."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Information from motion graphs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each feature of a motion graph with the physical quantity it gives.",
+    "image": {
+      "src": "/img/motion/graphs-pair.svg",
+      "alt": "A position-time graph with a slope triangle and a velocity-time graph with a shaded area"
+    },
+    "left": [
+      {
+        "id": "f1",
+        "text": "Slope of a position–time graph"
+      },
+      {
+        "id": "f2",
+        "text": "Slope of a velocity–time graph"
+      },
+      {
+        "id": "f3",
+        "text": "Area between a velocity–time graph and the time axis"
+      },
+      {
+        "id": "f4",
+        "text": "Y-axis reading of a position–time graph at an instant"
+      }
+    ],
+    "right": [
+      {
+        "id": "acc",
+        "text": "Acceleration"
+      },
+      {
+        "id": "pos",
+        "text": "Position"
+      },
+      {
+        "id": "time",
+        "text": "Time interval"
+      },
+      {
+        "id": "vel",
+        "text": "Velocity"
+      },
+      {
+        "id": "disp",
+        "text": "Displacement"
+      }
+    ],
+    "pairs": {
+      "f1": "vel",
+      "f2": "acc",
+      "f3": "disp",
+      "f4": "pos"
+    },
+    "hint": "Slope is a rate of change; the area under a velocity–time graph is velocity × time.",
+    "explanation": "The slope of a graph is the rate of change of the Y-axis quantity with the X-axis quantity: on a position–time graph that is **velocity**, and on a velocity–time graph it is **acceleration**. The area between a velocity–time graph and the time axis is velocity × time, i.e. **displacement**. Reading a position–time graph at an instant simply gives the **position**."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Plotting a graph",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for plotting a position–time graph from a table of readings.",
+    "image": {
+      "src": "/img/motion/graph-paper.svg",
+      "alt": "Points being plotted on graph paper and joined into a line"
+    },
+    "items": [
+      {
+        "id": "plot",
+        "text": "Plot a point for each pair of time and position values"
+      },
+      {
+        "id": "scale",
+        "text": "Choose a convenient scale, such as 5 divisions = 1 s and 5 divisions = 20 m"
+      },
+      {
+        "id": "join",
+        "text": "Join the points to complete the graph"
+      },
+      {
+        "id": "axes",
+        "text": "Draw two perpendicular lines (the axes) meeting at the origin O"
+      },
+      {
+        "id": "mark",
+        "text": "Mark the values along both axes using that scale"
+      },
+      {
+        "id": "choose",
+        "text": "Decide which quantity goes on which axis: time on X, position on Y"
+      }
+    ],
+    "answer": [
+      "axes",
+      "choose",
+      "scale",
+      "mark",
+      "plot",
+      "join"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot plot a point until the axes and their scales are ready.",
+    "explanation": "First draw the axes, then decide what each axis shows (time on the X-axis, position on the Y-axis) and pick a scale that uses the paper well. Only then can you mark values and plot the points, and joining them comes last. For readings of 0, 20, 40 … m at 0, 1, 2 … s, the points fall on a straight line, showing constant velocity."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Uniform circular motion",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "An athlete runs one round of each closed track at a steady speed. Arrange the tracks from the **fewest** changes of direction per round to the **most**.",
+    "image": {
+      "src": "/img/motion/tracks.svg",
+      "alt": "Four closed running tracks of different shapes"
+    },
+    "items": [
+      {
+        "id": "hex",
+        "text": "Hexagonal track"
+      },
+      {
+        "id": "cir",
+        "text": "Circular track"
+      },
+      {
+        "id": "tri",
+        "text": "Triangular track"
+      },
+      {
+        "id": "rec",
+        "text": "Rectangular track"
+      }
+    ],
+    "answer": [
+      "tri",
+      "rec",
+      "hex",
+      "cir"
+    ],
+    "startLabel": "Fewest changes",
+    "endLabel": "Most changes",
+    "hint": "Count the corners of each track.",
+    "explanation": "Per round, the athlete turns 3 times on a triangle, 4 times on a rectangle and 6 times on a hexagon. As the number of sides grows, the turns come more often and each side shrinks, until the track becomes a **circle**, where the direction of velocity changes **continuously**. That is why uniform circular motion is accelerated even at constant speed."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Velocity in circular motion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "order",
+    "prompt": "Put the steps of the marble-and-ring activity in order.",
+    "image": {
+      "src": "/img/motion/marble-ring.svg",
+      "alt": "A marble and a ring on a table"
+    },
+    "items": [
+      {
+        "id": "lift",
+        "text": "Lift the ring away without disturbing the marble"
+      },
+      {
+        "id": "place",
+        "text": "Lay a ring, such as an adhesive tape roll, flat on a smooth table"
+      },
+      {
+        "id": "repeat",
+        "text": "Repeat several times to confirm the result"
+      },
+      {
+        "id": "wait",
+        "text": "Let the marble complete one or two revolutions"
+      },
+      {
+        "id": "flick",
+        "text": "Flick a marble so it rolls round the inner edge of the ring"
+      },
+      {
+        "id": "watch",
+        "text": "Observe the path the marble takes once released"
+      }
+    ],
+    "answer": [
+      "place",
+      "flick",
+      "wait",
+      "lift",
+      "watch",
+      "repeat"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Set up first, get the marble moving, then release it.",
+    "explanation": "Lay the ring flat and flick the marble so it runs round the inner edge. After a revolution or two, lift the ring without touching the marble and watch the path it takes, then repeat to make sure the result is reliable. The activity shows what a moving object does once nothing keeps changing its direction."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Deriving the kinematic equations",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "The graph shows velocity rising from $u$ to $v$ in time $t$ with constant acceleration $a$. Arrange the steps that derive $s = ut + \\tfrac{1}{2}at^2$.",
+    "image": {
+      "src": "/img/motion/vt-derive.svg",
+      "alt": "Velocity-time graph for constant acceleration, with the area split into a rectangle and a triangle"
+    },
+    "items": [
+      {
+        "id": "tri",
+        "text": "Triangle ABC $= \\tfrac{1}{2} \\times t \\times (v - u)$"
+      },
+      {
+        "id": "area",
+        "text": "Displacement $s$ = area OABD under the graph"
+      },
+      {
+        "id": "done",
+        "text": "So $s = ut + \\tfrac{1}{2}at^2$"
+      },
+      {
+        "id": "rect",
+        "text": "Rectangle OACD $= u \\times t$"
+      },
+      {
+        "id": "sub",
+        "text": "Replace $(v - u)$ by $at$, using $v = u + at$"
+      },
+      {
+        "id": "split",
+        "text": "Split OABD into rectangle OACD and triangle ABC"
+      }
+    ],
+    "answer": [
+      "area",
+      "split",
+      "rect",
+      "tri",
+      "sub",
+      "done"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Start from what the area under a velocity–time graph means.",
+    "explanation": "The area under a velocity–time graph is the displacement. Splitting OABD gives rectangle OACD of area $ut$ and triangle ABC of area $\\tfrac{1}{2}t(v - u)$. Since $v - u = at$, the triangle is $\\tfrac{1}{2}at^2$, so $s = ut + \\tfrac{1}{2}at^2$. Eliminating $t$ between this and $v = u + at$ leads to $v^2 = u^2 + 2as$."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Average acceleration",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these by the **magnitude** of their average acceleration, from smallest to largest.",
+    "image": {
+      "src": "/img/motion/accel-lineup.svg",
+      "alt": "A bus, a cyclist, a car and a falling stone"
+    },
+    "items": [
+      {
+        "id": "car",
+        "text": "A car: $0 \\to 20\\ \\text{m s}^{-1}$ in 5 s"
+      },
+      {
+        "id": "stone",
+        "text": "A stone falling freely"
+      },
+      {
+        "id": "bus",
+        "text": "A bus: $10 \\to 15\\ \\text{m s}^{-1}$ in 10 s"
+      },
+      {
+        "id": "brake",
+        "text": "A car braking: $15 \\to 0\\ \\text{m s}^{-1}$ in 5 s"
+      },
+      {
+        "id": "cyc",
+        "text": "A cyclist: $2 \\to 5\\ \\text{m s}^{-1}$ in 2 s"
+      }
+    ],
+    "answer": [
+      "bus",
+      "cyc",
+      "brake",
+      "car",
+      "stone"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Use $a = \\dfrac{v - u}{t}$ for each, and ignore the sign when comparing sizes.",
+    "explanation": "Using $a = \\dfrac{v - u}{t}$: bus $\\dfrac{5}{10} = 0.5$, cyclist $\\dfrac{3}{2} = 1.5$, braking car $\\dfrac{0 - 15}{5} = -3$ (magnitude 3), car $\\dfrac{20}{5} = 4$, and the freely falling stone $g = 9.8\\ \\text{m s}^{-2}$. The braking car's minus sign only shows that its acceleration is opposite to its velocity."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Acceleration due to gravity",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/motion/coconut-fall.svg",
+      "alt": "A coconut falling from a palm tree, with its velocity marked every second"
+    },
+    "assertion": "The velocity of a coconut falling freely from a tree increases by about $9.8\\ \\text{m s}^{-1}$ every second.",
+    "reason": "A freely falling object moves with a constant acceleration, $g \\approx 9.8\\ \\text{m s}^{-2}$, due to the Earth's gravitational force.",
+    "answer": "a",
+    "hint": "Look at how the velocity changes in each second.",
+    "explanation": "Both are true and R explains A. The velocities 0, 9.8, 19.6 and 29.4 m/s at 0, 1, 2 and 3 s rise by equal amounts in equal times, so the acceleration is constant: $g = 9.8\\ \\text{m s}^{-2}$, in the direction of motion (downward). Here downward was taken as positive; you may choose any origin and positive direction, but must keep it for the whole problem."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Stopping distance and road safety",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/motion/braking-cars.svg",
+      "alt": "Two identical cars braking, one moving twice as fast as the other"
+    },
+    "assertion": "With the same brakes, a car moving twice as fast needs about four times the braking distance to stop.",
+    "reason": "For a fixed braking acceleration $a$, $v^2 = u^2 + 2as$ with $v = 0$ gives $s = -\\dfrac{u^2}{2a}$, so the braking distance is proportional to the square of the initial velocity.",
+    "answer": "a",
+    "hint": "Rearrange $v^2 = u^2 + 2as$ for $s$ when the car stops.",
+    "explanation": "Both are true and R explains A. Braking at $-4\\ \\text{m s}^{-2}$, a car at 54 km/h (15 m/s) needs $\\dfrac{15^2}{8} \\approx 28.1\\ \\text{m}$ to stop, but at 108 km/h (30 m/s) it needs $\\dfrac{30^2}{8} = 112.5\\ \\text{m}$: four times as far. So the safe gap behind another vehicle must grow much faster than the speed."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Average acceleration",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/motion/bus-highway.svg",
+      "alt": "A bus cruising along a straight highway with its speedometer needle steady"
+    },
+    "assertion": "A bus moving at a high, constant velocity on a straight highway has zero acceleration.",
+    "reason": "Acceleration depends on how fast an object is moving.",
+    "answer": "c",
+    "hint": "Does acceleration depend on how fast something moves, or on how its velocity changes?",
+    "explanation": "A is true: the bus's velocity is not changing, so its acceleration is zero however large the velocity is. R is false: acceleration depends on **how quickly the velocity changes**, not on how fast the object is moving. An object can be moving very fast with zero acceleration."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Uniform circular motion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/motion/cycle-track.svg",
+      "alt": "A cyclist riding round a circular track"
+    },
+    "assertion": "In uniform circular motion, the velocity of the object stays constant.",
+    "reason": "In uniform circular motion, the speed of the object is the same at every point of the circle.",
+    "answer": "d",
+    "hint": "Velocity has both a magnitude and a direction.",
+    "explanation": "A is false: the velocity points along the tangent, and its direction keeps changing as the object goes round, so the velocity changes and the motion is **accelerated**. R is true: 'uniform' means the speed is the same at every point. Uniform circular motion is an idealised model; planets going round the Sun or a vehicle on a circular turn only approximately follow it."
+  },
+  {
+    "id": "in-cbse-9-phy-motion-ch-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "physics",
+    "chapter": "Describing Motion Around Us",
+    "chapterNo": 1,
+    "topic": "Distance and displacement",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/motion/car-trip.svg",
+      "alt": "A car driving from one town to another and back"
+    },
+    "assertion": "The fuel used by a car on a trip depends on the total distance travelled, not on the displacement.",
+    "reason": "The displacement of a car that returns to its starting point is zero.",
+    "answer": "b",
+    "hint": "Both statements may be true, but does the second one give the reason for the first?",
+    "explanation": "Both are true, but R does not explain A. A car burns fuel for every kilometre it covers, whichever way it goes, so fuel use depends on the **distance travelled**. R is a correct fact about a round trip, but it is not the reason fuel depends on distance; it only shows why displacement would be a poor measure of fuel use."
+  }
+]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>Top view of a handlebar with two equal and opposite forces at its ends</title>
+<style>
+.hb{animation:hb 3s ease-in-out infinite;transform-box:view-box;transform-origin:150px 100px}@keyframes hb{0%,100%{transform:rotate(0)}50%{transform:rotate(-20deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="hb"><line x1="50" y1="100" x2="250" y2="100" stroke="#A3A8CC" stroke-width="10" stroke-linecap="round"/><rect x="34" y="92" width="40" height="16" rx="8" fill="#2B2F4A"/><rect x="226" y="92" width="40" height="16" rx="8" fill="#2B2F4A"/><circle cx="150" cy="100" r="14" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="3"/><g><line x1="54" y1="80" x2="54" y2="48.2" stroke="#FF8A1F" stroke-width="6" stroke-linecap="round"/><path d="M54 30L66.6 49.2L41.4 49.2Z" fill="#FF8A1F" stroke="#FF8A1F" stroke-width="2" stroke-linejoin="round"/></g><g><line x1="246" y1="120" x2="246" y2="151.8" stroke="#FF8A1F" stroke-width="6" stroke-linecap="round"/><path d="M246 170L233.4 150.8L258.6 150.8Z" fill="#FF8A1F" stroke="#FF8A1F" stroke-width="2" stroke-linejoin="round"/></g></g>
+</svg>

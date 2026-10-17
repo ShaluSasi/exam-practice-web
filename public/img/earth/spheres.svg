@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A mountain valley with snow, a lake, rocks, grazing sheep and clouds</title>
+<style>
+.cl{animation:drift 6s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+.melt{stroke-dasharray:6 6;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.rip{animation:rip 3s ease-in-out infinite}
+@keyframes rip{0%,100%{opacity:.3}50%{opacity:.9}}
+.sh{animation:graze 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes graze{0%,100%{transform:rotate(0)}50%{transform:rotate(-4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="352" cy="44" r="22" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<g class="cl" fill="#FFFFFF" stroke="#A9C7DE" stroke-width="2">
+<path d="M196 70Q194 52 212 52Q220 38 238 46Q256 40 262 56Q278 58 274 72Z"/>
+</g>
+<path d="M150 200L230 98L312 200Z" fill="#B9BEDA" stroke="#7E84A8" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M230 98L214 119L224 115L232 123L240 115L247 119Z" fill="#FFFFFF" stroke="#7E84A8" stroke-width="2" stroke-linejoin="round"/>
+<path d="M14 200L110 66L206 200Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M110 66L84 104L97 98L106 110L116 98L126 108L138 101Z" fill="#FFFFFF" stroke="#6E7396" stroke-width="2" stroke-linejoin="round"/>
+<path d="M0 196H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#A9D98E"/>
+<path d="M0 270H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#D9C49A"/>
+<path class="melt" d="M112 150Q118 180 110 200Q104 214 128 220" fill="none" stroke="#5FB4E6" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="150" cy="236" rx="74" ry="22" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="rip" d="M118 234Q128 230 138 234M160 242Q170 238 180 242" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<g fill="#C7CBDD" stroke="#7E84A8" stroke-width="2.5" stroke-linejoin="round">
+<path d="M296 262L304 236L326 226L346 238L352 262Z"/>
+<path d="M340 264L348 246L366 244L374 264Z" fill="#B0B5CC"/>
+</g>
+<path d="M310 244L322 240M330 236L338 246" stroke="#7E84A8" stroke-width="2" stroke-linecap="round"/>
+<g stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round" fill="none">
+<path d="M236 236l-4-10M240 236l0-12M244 236l4-10"/>
+<path d="M286 228l-4-9M290 228l0-11M294 228l4-9"/>
+<path d="M50 230l-4-9M54 230l0-11M58 230l4-9"/>
+</g>
+<g class="sh">
+<ellipse cx="262" cy="222" rx="20" ry="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<ellipse cx="242" cy="226" rx="7" ry="6" fill="#2B2F4A"/>
+<path d="M254 234v8M270 234v8" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+</g>
+</svg>

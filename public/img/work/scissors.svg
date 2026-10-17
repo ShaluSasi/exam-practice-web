@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>An open pair of scissors with its pivot screw</title>
+<style>
+.a1{transform-origin:170px 130px;animation:a1 2.4s ease-in-out infinite}
+.a2{transform-origin:170px 130px;animation:a2 2.4s ease-in-out infinite}
+@keyframes a1{0%,100%{transform:rotate(0)}50%{transform:rotate(4deg)}}
+@keyframes a2{0%,100%{transform:rotate(0)}50%{transform:rotate(-4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="a1">
+<path d="M170 130L380 98L384 104L174 140Z" fill="#D5D8EC" stroke="#5E6390" stroke-width="3" stroke-linejoin="round"/>
+<path d="M170 130L96 158" stroke="#E5484D" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="66" cy="170" rx="34" ry="22" fill="none" stroke="#E5484D" stroke-width="10"/>
+</g>
+<g class="a2">
+<path d="M170 130L380 162L384 156L174 120Z" fill="#E8EAF6" stroke="#5E6390" stroke-width="3" stroke-linejoin="round"/>
+<path d="M170 130L96 102" stroke="#0B93D4" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="66" cy="90" rx="34" ry="22" fill="none" stroke="#0B93D4" stroke-width="10"/>
+</g>
+<circle cx="170" cy="130" r="8" fill="#F6C453" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M166 130H174" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

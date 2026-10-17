@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A balloon taped to a straw on a taut thread, moving as air rushes out</title>
+<style>
+.br{animation:br 3.5s ease-in infinite}@keyframes br{0%,10%{transform:translateX(0)}85%{transform:translateX(170px);opacity:1}90%,100%{transform:translateX(170px);opacity:0}}.air{animation:air .6s linear infinite}@keyframes air{from{transform:translateX(0);opacity:1}to{transform:translateX(-24px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="10" y="40" width="12" height="40" fill="#C9CBD8" stroke="#2B2F4A" stroke-width="2"/><rect x="378" y="40" width="12" height="40" fill="#C9CBD8" stroke="#2B2F4A" stroke-width="2"/><line x1="22" y1="60" x2="378" y2="60" stroke="#2B2F4A" stroke-width="2"/><g class="br"><rect x="70" y="54" width="80" height="12" rx="3" fill="#FFFFFF" stroke="#0B93D4" stroke-width="2.5"/><ellipse cx="110" cy="108" rx="52" ry="34" fill="#E5484D" stroke="#2B2F4A" stroke-width="3"/><path d="M60 102L50 108L60 114Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><rect x="96" y="60" width="10" height="20" fill="#F6C453" opacity=".9"/><rect x="124" y="60" width="10" height="20" fill="#F6C453" opacity=".9"/><g class="air" fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"><path d="M44 100h-14M44 108h-18M44 116h-14"/></g></g>
+</svg>

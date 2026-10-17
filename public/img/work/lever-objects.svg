@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Three everyday tools: a seesaw, a wheelbarrow and a pair of tweezers</title>
+<style>
+.ss{transform-origin:70px 150px;animation:ss 3s ease-in-out infinite}
+.tw{transform-origin:290px 130px;animation:tw 2s ease-in-out infinite}
+@keyframes ss{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@keyframes tw{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="200" width="400" height="60" fill="#D9C49A"/>
+<path d="M56 200L70 152L84 200Z" fill="#A3A8CC" stroke="#5E6390" stroke-width="3" stroke-linejoin="round"/>
+<g class="ss"><rect x="10" y="144" width="120" height="10" rx="5" fill="#C8925A" stroke="#8A5A2B" stroke-width="3"/>
+<rect x="14" y="132" width="16" height="12" rx="3" fill="#E5484D"/><rect x="110" y="132" width="16" height="12" rx="3" fill="#0B93D4"/></g>
+<g>
+<circle cx="170" cy="186" r="14" fill="#2B2F4A"/><circle cx="170" cy="186" r="5" fill="#A3A8CC"/>
+<path d="M164 172Q172 140 210 140H222L216 176Z" fill="#3FA34D" stroke="#2A7335" stroke-width="3" stroke-linejoin="round"/>
+<path d="M170 186L260 130M208 176L212 200" stroke="#8A5A2B" stroke-width="6" stroke-linecap="round"/>
+<circle cx="190" cy="148" r="6" fill="#A3A8CC"/><circle cx="202" cy="146" r="6" fill="#A3A8CC"/>
+</g>
+<g class="tw">
+<path d="M290 130L386 112" stroke="#5E6390" stroke-width="7" stroke-linecap="round"/>
+</g>
+<path d="M290 130L386 148" stroke="#5E6390" stroke-width="7" stroke-linecap="round"/>
+<path d="M282 124Q276 130 282 136" fill="none" stroke="#5E6390" stroke-width="7" stroke-linecap="round"/>
+</svg>

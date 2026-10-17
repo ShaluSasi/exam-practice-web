@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>An old steam engine turning a large flywheel and puffing steam</title>
+<style>
+.fw{transform-box:fill-box;transform-origin:center;animation:sp 3s linear infinite}
+.puff{transform-box:fill-box;transform-origin:center;animation:pf 3s ease-out infinite}
+.p2{animation-delay:1s}.p3{animation-delay:2s}
+.rod{animation:rd 3s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+@keyframes pf{0%{transform:translateY(0) scale(.4);opacity:.9}100%{transform:translateY(-60px) scale(1.4);opacity:0}}
+@keyframes rd{0%,100%{transform:translateX(0)}50%{transform:translateX(40px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="226" width="400" height="34" fill="#D9C49A"/>
+<rect x="40" y="120" width="120" height="86" rx="20" fill="#5E6390" stroke="#2B2F4A" stroke-width="3"/>
+<rect x="70" y="70" width="24" height="52" fill="#2B2F4A"/>
+<rect x="40" y="206" width="250" height="20" rx="4" fill="#8A5A2B"/>
+<rect x="160" y="150" width="70" height="30" rx="5" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="3"/>
+<g class="rod"><path d="M200 165H260" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/></g>
+<g class="fw">
+<circle cx="300" cy="150" r="62" fill="none" stroke="#C8925A" stroke-width="12"/>
+<path d="M300 92V208M242 150H358M259 109L341 191M341 109L259 191" stroke="#8A5A2B" stroke-width="5"/>
+<circle cx="300" cy="150" r="10" fill="#F6C453" stroke="#2B2F4A" stroke-width="3"/>
+</g>
+<g fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2.5">
+<circle class="puff" cx="82" cy="56" r="14"/><circle class="puff p2" cx="82" cy="56" r="14"/><circle class="puff p3" cx="82" cy="56" r="14"/>
+</g>
+</svg>

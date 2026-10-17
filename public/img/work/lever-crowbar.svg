@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A crowbar resting on a wooden block being used to lift a heavy rock</title>
+<style>
+.bar{transform-origin:255px 171px;animation:tip 3.5s ease-in-out infinite}
+.push{animation:push 3.5s ease-in-out infinite}
+@keyframes tip{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-5deg)}}
+@keyframes push{0%,100%{transform:translateY(0)}50%{transform:translateY(16px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="210" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="210" width="400" height="50" fill="#D9C49A"/>
+<path d="M0 210H400" stroke="#A88B57" stroke-width="3"/>
+<g class="bar">
+<path d="M296 196Q290 150 318 128Q350 110 376 134Q394 156 384 186Q378 200 352 200Z" fill="#A3A8CC" stroke="#6A6F94" stroke-width="3" stroke-linejoin="round"/>
+<path d="M322 150Q334 142 346 150M354 170Q364 164 372 172" fill="none" stroke="#6A6F94" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M50 99L314 190" stroke="#2B2F4A" stroke-width="12" stroke-linecap="round"/>
+<path d="M50 99L314 190" stroke="#E5484D" stroke-width="7" stroke-linecap="round"/>
+</g>
+<path d="M233 210L255 172L277 210Z" fill="#C8925A" stroke="#8A5A2B" stroke-width="3" stroke-linejoin="round"/>
+<g class="push">
+<path d="M58 30V78" stroke="#0B93D4" stroke-width="6" stroke-linecap="round"/>
+<path d="M46 70L58 90L70 70Z" fill="#0B93D4" stroke="#0B93D4" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round">
+<path d="M58 235H253M58 228V242M253 228V242"/>
+<path d="M257 235H312M312 228V242"/>
+</g>
+</svg>

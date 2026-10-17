@@ -1,0 +1,970 @@
+[
+  {
+    "id": "in-cbse-9-phy-earth-001",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Spheres of the Earth",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "This valley shows all five 'spheres' of the Earth system. Tap the part that belongs to the **cryosphere**.",
+    "image": { "src": "/img/earth/spheres.svg", "alt": "A mountain valley scene with numbered markers" },
+    "spots": [
+      { "id": "snow", "x": 27.5, "y": 30.7, "label": "Snow cap" },
+      { "id": "lake", "x": 37.5, "y": 78.7, "label": "Lake" },
+      { "id": "rock", "x": 81.25, "y": 82.7, "label": "Rocks" },
+      { "id": "sheep", "x": 64.5, "y": 74, "label": "Sheep" },
+      { "id": "cloud", "x": 58.75, "y": 20, "label": "Cloud in the air" }
+    ],
+    "answer": "snow",
+    "hint": "'Cryo' means icy cold. Look for water in its solid form.",
+    "explanation": "The **cryosphere** is the frozen part of the Earth: ice and snow, such as Himalayan glaciers, snow in Ladakh and the polar ice caps. The lake is **hydrosphere** (liquid water), the rocks are **geosphere**, the sheep belong to the **biosphere** and the air with its clouds is the **atmosphere**."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-002",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Spheres of the Earth",
+    "difficulty": "easy", "marks": 2,
+    "type": "match",
+    "prompt": "Label the Earth system. Match each numbered part of the valley with the sphere it belongs to.",
+    "image": {
+      "src": "/img/earth/spheres.svg",
+      "alt": "A mountain valley scene with five numbered parts",
+      "markers": [
+        { "x": 27.5, "y": 30.7, "label": "1" },
+        { "x": 37.5, "y": 78.7, "label": "2" },
+        { "x": 81.25, "y": 82.7, "label": "3" },
+        { "x": 64.5, "y": 74, "label": "4" },
+        { "x": 58.75, "y": 20, "label": "5" }
+      ]
+    },
+    "left": [
+      { "id": "p1", "text": "Part 1" },
+      { "id": "p2", "text": "Part 2" },
+      { "id": "p3", "text": "Part 3" },
+      { "id": "p4", "text": "Part 4" },
+      { "id": "p5", "text": "Part 5" }
+    ],
+    "right": [
+      { "id": "geo", "text": "Geosphere" },
+      { "id": "atmo", "text": "Atmosphere" },
+      { "id": "cryo", "text": "Cryosphere" },
+      { "id": "bio", "text": "Biosphere" },
+      { "id": "hydro", "text": "Hydrosphere" }
+    ],
+    "pairs": { "p1": "cryo", "p2": "hydro", "p3": "geo", "p4": "bio", "p5": "atmo" },
+    "hint": "Liquid water and frozen water belong to two different spheres.",
+    "explanation": "1 is snow, part of the **cryosphere**. 2 is the lake, liquid surface water of the **hydrosphere**. 3 is solid rock, the **geosphere** (which also includes soil, landforms and the Earth's interior). 4, the sheep, is part of the **biosphere** of living things. 5, the air holding the cloud, is the **atmosphere**. Snow melting into the lake shows how one sphere feeds another."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-003",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Interacting spheres",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "A change in one sphere spreads to others. Arrange this chain of events, starting from a warmer Arabian Sea.",
+    "image": { "src": "/img/earth/sea-monsoon.svg", "alt": "Warm sea water evaporating while moist wind blows towards hills" },
+    "items": [
+      { "id": "monsoon", "text": "The southwest monsoon starts to fluctuate" },
+      { "id": "warm", "text": "The surface water of the Arabian Sea gets warmer" },
+      { "id": "flood", "text": "Rainfall becomes uneven: floods in some regions, drought in others" },
+      { "id": "evap", "text": "More water evaporates from the sea" }
+    ],
+    "answer": ["warm", "evap", "monsoon", "flood"],
+    "startLabel": "Cause",
+    "endLabel": "Effect",
+    "hint": "Heat first changes the water, then the air, and finally the land.",
+    "explanation": "Warmer sea water (**hydrosphere**) leads to **more evaporation**, which puts more moisture into the **atmosphere**. This makes the **southwest monsoon** fluctuate, so rainfall varies: some regions of India flood while others face drought. The changed rainfall then affects soil, crops and living things, which shows that the spheres are interconnected."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-004",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Electromagnetic spectrum",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Short-wavelength radiation from the Sun is mostly absorbed by the **ozone layer**. Tap the region of the spectrum it belongs to.",
+    "image": { "src": "/img/earth/em-spectrum.svg", "alt": "A band of electromagnetic radiation from short to long wavelength with numbered markers" },
+    "spots": [
+      { "id": "gamma", "x": 11.25, "y": 55, "label": "Gamma rays" },
+      { "id": "xray", "x": 23.75, "y": 55, "label": "X-rays" },
+      { "id": "uv", "x": 36.9, "y": 55, "label": "Ultraviolet (UV)" },
+      { "id": "vis", "x": 48.75, "y": 55, "label": "Visible light" },
+      { "id": "ir", "x": 61.25, "y": 55, "label": "Infrared (IR)" },
+      { "id": "radio", "x": 88.1, "y": 55, "label": "Radio waves" }
+    ],
+    "answer": "uv",
+    "hint": "It lies just beyond the violet end of the rainbow band.",
+    "explanation": "In order of increasing wavelength the spectrum runs: gamma rays, X-rays, **ultraviolet**, visible, infrared, microwaves, radio waves. UV (about $100$–$400\\ \\text{nm}$) sits just on the short-wavelength side of violet light. Most short-wavelength UV is absorbed by **ozone** in the stratosphere, which protects life and heats that layer. Gamma rays and X-rays are mostly filtered out higher up."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-005",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Solar radiation",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "About 99% of the Sun's energy arrives as UV, visible and infrared radiation. Match each kind of radiation with what happens to it at the Earth.",
+    "image": { "src": "/img/earth/em-spectrum.svg", "alt": "A band of electromagnetic radiation from short to long wavelength" },
+    "left": [
+      { "id": "uv", "text": "Ultraviolet" },
+      { "id": "vis", "text": "Visible light" },
+      { "id": "ir", "text": "Infrared" },
+      { "id": "gx", "text": "Gamma rays and X-rays" }
+    ],
+    "right": [
+      { "id": "filter", "text": "Mostly filtered out by the upper atmosphere" },
+      { "id": "photo", "text": "Reaches the surface and powers photosynthesis" },
+      { "id": "weak", "text": "Carries too little energy to warm the Earth much" },
+      { "id": "ozone", "text": "Mostly absorbed by the ozone layer" },
+      { "id": "warm", "text": "Warms the surface, which then re-radiates heat" }
+    ],
+    "pairs": { "uv": "ozone", "vis": "photo", "ir": "warm", "gx": "filter" },
+    "hint": "One of the descriptions fits microwaves and radio waves, which are not listed.",
+    "explanation": "Short-wavelength **UV** is mostly absorbed by the **ozone layer**. **Visible light** reaches the ground, provides energy for **photosynthesis** and also warms land and water. **Infrared** warms the surface, which re-radiates heat that greenhouse gases partly trap. The very energetic **gamma rays and X-rays** are filtered out high in the atmosphere. 'Too little energy' describes microwaves and radio waves."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-006",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Electromagnetic spectrum",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": { "src": "/img/earth/em-spectrum.svg", "alt": "A band of electromagnetic radiation from short to long wavelength" },
+    "assertion": "Very little of the Sun's gamma radiation and X-rays reaches the Earth's surface.",
+    "reason": "Gamma rays and X-rays have a very high frequency and carry very high energy.",
+    "answer": "b",
+    "hint": "Ask what actually stops these rays. Is it their energy?",
+    "explanation": "Both statements are true. Gamma rays and X-rays are high-frequency, high-energy waves that would harm life, but their energy is not *why* they fail to reach the ground. They are **filtered out by the upper atmosphere**. The reason explains why they are dangerous, not why they are missing at the surface, so the answer is (b)."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-007",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Electromagnetic waves",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "Sunlight crosses about $1.5 \\times 10^{11}\\ \\text{m}$ of empty space to reach the Earth. Light travels through a vacuum at $3 \\times 10^{8}\\ \\text{m s}^{-1}$. How long does the journey take?",
+    "image": { "src": "/img/earth/sun-earth.svg", "alt": "A pulse of light travelling from the Sun to the Earth" },
+    "options": [
+      { "id": "a", "text": "$4.5 \\times 10^{19}\\ \\text{s}$" },
+      { "id": "b", "text": "$500\\ \\text{s}$ (about 8.3 minutes)" },
+      { "id": "c", "text": "$2 \\times 10^{-3}\\ \\text{s}$" },
+      { "id": "d", "text": "$50\\ \\text{s}$" }
+    ],
+    "answer": "b",
+    "hint": "Time = distance ÷ speed. Subtract the powers of ten carefully.",
+    "explanation": "$$t = \\dfrac{d}{c} = \\dfrac{1.5 \\times 10^{11}}{3 \\times 10^{8}} = 0.5 \\times 10^{3} = 500\\ \\text{s}$$ which is about 8.3 minutes. Light can cross a vacuum because it is an **electromagnetic wave**, while sound (a mechanical wave) cannot. $4.5 \\times 10^{19}$ s comes from multiplying instead of dividing, $2 \\times 10^{-3}$ s from dividing the wrong way round, and $50$ s from slipping a power of ten."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-008",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Ultraviolet radiation",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "UV rays can damage the skin and eyes, but they are also useful. Which of these is a **use of UV rays**?",
+    "image": { "src": "/img/earth/ozone-shield.svg", "alt": "Ultraviolet rays from the Sun meeting a layer high in the sky" },
+    "options": [
+      { "id": "a", "text": "Providing the energy plants use for photosynthesis" },
+      { "id": "b", "text": "Carrying radio and television signals" },
+      { "id": "c", "text": "Killing germs in water purifiers" },
+      { "id": "d", "text": "Keeping the Earth warm at night" }
+    ],
+    "answer": "c",
+    "hint": "UV has much more energy than visible light, enough to harm tiny living things.",
+    "explanation": "UV rays ($100$–$400\\ \\text{nm}$, where $1\\ \\text{nm} = 10^{-9}\\ \\text{m}$) carry more energy than visible light. They are used to **kill germs in water purifiers** and help power **fluorescent lights**. Because long exposure harms the eyes and skin and raises cancer risk, people use UV-protective glasses and sunscreen. Photosynthesis uses visible light, signals use radio waves, and night-time warmth is infrared trapped by greenhouse gases."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-009",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Solar constant and insolation",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "The **solar constant** at the top of the atmosphere is about $1400\\ \\text{W m}^{-2}$, but on a clear day the maximum insolation at the ground is about $1000\\ \\text{W m}^{-2}$. Roughly what percentage of the energy is lost on the way down?",
+    "image": { "src": "/img/earth/solar-budget.svg", "alt": "Sunlight entering the atmosphere and meeting clouds, air and the ground" },
+    "options": [
+      { "id": "a", "text": "40%" },
+      { "id": "b", "text": "71%" },
+      { "id": "c", "text": "29%" },
+      { "id": "d", "text": "0.4%" }
+    ],
+    "answer": "c",
+    "hint": "Find the loss first, then divide it by the amount you started with.",
+    "explanation": "Loss $= 1400 - 1000 = 400\\ \\text{W m}^{-2}$, and $$\\dfrac{400}{1400} \\times 100 \\approx 29\\%$$ This energy is **absorbed and scattered** by gases, clouds and dust. 40% divides the loss by 1000 instead of by the starting value, 71% is the fraction that *does* reach the ground, and 0.4% writes the $0.4\\ \\text{kW}$ loss as if it were a percentage. The solar constant ($1.4\\ \\text{kW m}^{-2}$) is the energy per second per square metre facing the Sun before any absorption."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-010",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Insolation",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "A $2\\ \\text{m}^2$ solar panel in the Thar desert faces the Sun for **30 minutes**. The insolation is $1\\ \\text{kW m}^{-2}$. How much solar energy falls on it?",
+    "image": { "src": "/img/earth/solar-panel.svg", "alt": "Sunlight falling on a solar panel in a desert, with a clock beside it" },
+    "options": [
+      { "id": "a", "text": "$6.0 \\times 10^{4}\\ \\text{J}$" },
+      { "id": "b", "text": "$7.2 \\times 10^{6}\\ \\text{J}$" },
+      { "id": "c", "text": "$1.8 \\times 10^{6}\\ \\text{J}$" },
+      { "id": "d", "text": "$3.6 \\times 10^{6}\\ \\text{J}$" }
+    ],
+    "answer": "d",
+    "hint": "Energy = intensity × area × time, with intensity in W m⁻² and time in seconds.",
+    "explanation": "$$E = 1000\\ \\text{J s}^{-1}\\text{m}^{-2} \\times 2\\ \\text{m}^2 \\times 1800\\ \\text{s} = 3.6 \\times 10^{6}\\ \\text{J}$$ That equals **one unit** (1 kWh) of household electricity. $6.0 \\times 10^{4}$ J uses 30 instead of 1800 s, $7.2 \\times 10^{6}$ J uses a full hour, and $1.8 \\times 10^{6}$ J leaves out the area. Estimates like this show why even a fraction of the Thar desert covered with panels could supply India's electricity."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-011",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Indian scientists",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each scientist, institute or process with its contribution to understanding the Earth system.",
+    "image": { "src": "/img/earth/science-desk.svg", "alt": "A scientist's desk with a book of charts, a sunlight meter, a computer and a sack" },
+    "left": [
+      { "id": "mani", "text": "Anna Mani" },
+      { "id": "ram", "text": "K. R. Ramanathan" },
+      { "id": "iitm", "text": "IITM, Pune" },
+      { "id": "haber", "text": "Haber–Bosch process" }
+    ],
+    "right": [
+      { "id": "model", "text": "Runs computer models coupling air, ocean, land and ice to forecast the monsoon" },
+      { "id": "cfc", "text": "Global agreement that cut the use of CFCs" },
+      { "id": "atlas", "text": "Mapped solar insolation and made India's first insolation atlas" },
+      { "id": "nh3", "text": "Makes ammonia from atmospheric nitrogen for fertilisers" },
+      { "id": "ozone", "text": "Measured ozone high in the Himalayas in 1934 and found it lower than expected" }
+    ],
+    "pairs": { "mani": "atlas", "ram": "ozone", "iitm": "model", "haber": "nh3" },
+    "hint": "One description is about the Montreal Protocol, which is not in the list.",
+    "explanation": "**Anna Mani** mapped insolation across India in the 1950s and, with S. Rangarajan, published *Solar Radiation Over India* (1982). **K. R. Ramanathan** climbed to 18,000 feet in 1934 to measure ozone and later led early monsoon forecasting. **IITM Pune** runs coupled models using satellite, buoy and Antarctic data. The **Haber–Bosch** process, 'Bread from Air', fixes nitrogen into ammonia for most fertilisers. The CFC agreement is the Montreal Protocol."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-012",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Solar radiation and the Earth's surface",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Some sunlight bounces straight back to space from the **Earth's surface** itself. Tap that ray.",
+    "image": { "src": "/img/earth/solar-budget.svg", "alt": "Sunlight entering the atmosphere and meeting clouds, air and the ground, with numbered markers" },
+    "spots": [
+      { "id": "cloudref", "x": 50, "y": 16, "label": "Reflected by a cloud" },
+      { "id": "atmabs", "x": 26.5, "y": 54, "label": "Absorbed by gases and dust" },
+      { "id": "surfabs", "x": 45, "y": 80.7, "label": "Absorbed by the ground" },
+      { "id": "surfref", "x": 69, "y": 38.3, "label": "Reflected by the ground" },
+      { "id": "ghg", "x": 84, "y": 42.7, "label": "Heat trapped by greenhouse gases" }
+    ],
+    "answer": "surfref",
+    "hint": "Follow a yellow ray down to the ground and see which one heads back up.",
+    "explanation": "Incoming sunlight is **partly reflected** by clouds, **partly absorbed** by the atmosphere and clouds, **partly absorbed** by the surface and **partly reflected** by the surface. The ray that hits the ground and returns upward is the surface reflection. How much a surface reflects is its **albedo**, so snow reflects far more than dark soil."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-013",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Greenhouse effect",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the spot where heat given off by the warm ground is being **trapped by greenhouse gases**.",
+    "image": { "src": "/img/earth/solar-budget.svg", "alt": "Sunlight entering the atmosphere and meeting clouds, air and the ground, with numbered markers" },
+    "spots": [
+      { "id": "cloudref", "x": 50, "y": 16, "label": "Reflected by a cloud" },
+      { "id": "atmabs", "x": 26.5, "y": 54, "label": "Absorbed by gases and dust" },
+      { "id": "surfabs", "x": 45, "y": 80.7, "label": "Absorbed by the ground" },
+      { "id": "surfref", "x": 69, "y": 38.3, "label": "Reflected by the ground" },
+      { "id": "ghg", "x": 84, "y": 42.7, "label": "Heat trapped by greenhouse gases" }
+    ],
+    "answer": "ghg",
+    "hint": "Look for wavy red infrared arrows and small molecules that send some heat back down.",
+    "explanation": "The warmed surface re-radiates energy as **infrared**. Molecules of **CO₂, CH₄ and water vapour** absorb part of this outgoing heat and send some back down, so it cannot all escape to space. This **greenhouse effect** keeps the Earth warm enough for life. Too much CO₂ enhances it and causes global warming."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-014",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Greenhouse effect",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which statement best explains how the Earth is **mainly warmed**?",
+    "image": { "src": "/img/earth/solar-budget.svg", "alt": "Sunlight entering the atmosphere and meeting clouds, air and the ground" },
+    "options": [
+      { "id": "a", "text": "The surface absorbs sunlight and re-radiates it as infrared, part of which greenhouse gases trap" },
+      { "id": "b", "text": "Carbon dioxide absorbs incoming sunlight straight away and releases it as heat" },
+      { "id": "c", "text": "Tiny dust particles absorb incoming sunlight and directly heat the ground" },
+      { "id": "d", "text": "Only the sunlight reflected by clouds heats the Earth" }
+    ],
+    "answer": "a",
+    "hint": "The troposphere is heated from below, by the ground.",
+    "explanation": "Much of the incoming sunlight passes through the air and is **absorbed by the surface**. The warm surface then **re-radiates infrared**, and greenhouse gases absorb part of it, keeping heat near the ground. That is why the troposphere is heated from the Earth's surface. CO₂ mainly traps *outgoing* infrared rather than incoming light, dust absorbs only a little sunlight, and reflected light leaves rather than heats."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-015",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Greenhouse gases",
+    "difficulty": "easy", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these gases are **greenhouse gases** that trap outgoing heat? Select all that apply.",
+    "image": { "src": "/img/earth/solar-budget.svg", "alt": "Sunlight entering the atmosphere and meeting clouds, air and the ground" },
+    "options": [
+      { "id": "a", "text": "Carbon dioxide (CO₂)" },
+      { "id": "b", "text": "Nitrogen (N₂)" },
+      { "id": "c", "text": "Methane (CH₄)" },
+      { "id": "d", "text": "Oxygen (O₂)" },
+      { "id": "e", "text": "Water vapour" },
+      { "id": "f", "text": "Argon" }
+    ],
+    "answers": ["a", "c", "e"],
+    "hint": "The two most plentiful gases in air are not on the list of heat trappers.",
+    "explanation": "**Carbon dioxide, methane and water vapour** absorb the infrared re-radiated by the surface, preventing it from escaping into space. Nitrogen (78%) and oxygen (21%) make up most of the air but do not trap this heat, and argon is present only in small amounts. Without greenhouse gases the Earth would be too cold for life."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-016",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Albedo",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "A $2\\ \\text{m}^2$ patch of snow with an **albedo of 0.8** receives sunlight of $1000\\ \\text{W m}^{-2}$. How much power does the snow **absorb**?",
+    "image": { "src": "/img/earth/albedo.svg", "alt": "Equal sunlight falling on four different surfaces" },
+    "options": [
+      { "id": "a", "text": "$400\\ \\text{W}$" },
+      { "id": "b", "text": "$1600\\ \\text{W}$" },
+      { "id": "c", "text": "$200\\ \\text{W}$" },
+      { "id": "d", "text": "$800\\ \\text{W}$" }
+    ],
+    "answer": "a",
+    "hint": "Albedo is the fraction reflected. What fraction is left over?",
+    "explanation": "Power falling on the patch $= 1000 \\times 2 = 2000\\ \\text{W}$. **Albedo** is the fraction reflected, so $0.8 \\times 2000 = 1600\\ \\text{W}$ bounces off and $$P_{\\text{absorbed}} = (1 - 0.8) \\times 2000 = 400\\ \\text{W}$$ 1600 W is the *reflected* part, 200 W forgets the area, and 800 W is the reflected power for only $1\\ \\text{m}^2$. High-albedo snow stays cool because it absorbs so little."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-017",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Albedo",
+    "difficulty": "easy", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": { "src": "/img/earth/albedo.svg", "alt": "Equal sunlight falling on four different surfaces" },
+    "assertion": "Regions covered with snow and ice, like the poles, stay very cold.",
+    "reason": "Snow and ice have a high albedo, so they reflect a large share of the incoming solar radiation.",
+    "answer": "a",
+    "hint": "What happens to sunlight that is reflected instead of absorbed?",
+    "explanation": "Both are true and the reason explains the assertion. Snow has an albedo of about **0.80–0.90** and ice about **0.50–0.70**, so most sunlight is reflected rather than absorbed, keeping these regions cold. By contrast, black soil and ocean water have a **low albedo**, absorb more and stay relatively warmer."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-018",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Re-radiation of heat",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": { "src": "/img/earth/heat-island.svg", "alt": "A city of concrete buildings beside green countryside at night" },
+    "assertion": "On a summer night, a concrete house can feel hotter inside than a traditional house with thick mud and wooden walls.",
+    "reason": "Concrete reflects almost all the sunlight that falls on it and absorbs none.",
+    "answer": "c",
+    "hint": "Where does the night-time heat in a concrete room come from?",
+    "explanation": "The assertion is true but the reason is false. Concrete **absorbs** solar radiation during the day and **re-radiates** the stored heat at night, which is why the room feels hot. Thick mud and wooden walls re-radiate less, so traditional houses stay cooler. All objects radiate heat; concrete simply stores and gives back a lot of it."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-019",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Urban heat island",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Cities are often warmer than the countryside around them, especially on summer nights. What is the main reason for this **urban heat island effect**?",
+    "image": { "src": "/img/earth/heat-island.svg", "alt": "A city of concrete buildings beside green countryside at night" },
+    "options": [
+      { "id": "a", "text": "Tall buildings are closer to the Sun, so they receive more insolation" },
+      { "id": "b", "text": "Concrete, brick, steel and asphalt absorb and retain solar heat and re-radiate it, and there is little vegetation to cool the air" },
+      { "id": "c", "text": "Cities have more snow and ice, which have a low albedo" },
+      { "id": "d", "text": "Trees in cities give out extra heat through transpiration" }
+    ],
+    "answer": "b",
+    "hint": "Compare what covers the ground in a city with what covers it in a village.",
+    "explanation": "Built-up materials such as **concrete, brick, steel and asphalt** absorb solar radiation, retain heat and **re-radiate** it, warming the city. Rural areas and forests stay cool through **shade and transpiration**. The extra heat raises the demand for air conditioning, further stressing urban ecosystems. A few metres of building height makes no difference to the Sun's distance, and transpiration cools rather than heats."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-020",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Latitude and Earth's shape",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Two equal beams of sunlight strike the Earth, one near the equator and one near a pole. Why do equatorial regions stay **warmer**?",
+    "image": { "src": "/img/earth/latitude-rays.svg", "alt": "Two equal beams of sunlight striking a round Earth at different places" },
+    "options": [
+      { "id": "a", "text": "The equator is much closer to the Sun than the poles" },
+      { "id": "b", "text": "There is no atmosphere above the poles" },
+      { "id": "c", "text": "The equator receives sunlight for all 24 hours of every day" },
+      { "id": "d", "text": "The same energy is concentrated on a smaller area at the equator but spread over a larger area near the poles" }
+    ],
+    "answer": "d",
+    "hint": "Compare the length of the two bright patches made by the beams.",
+    "explanation": "Because the Earth is a **sphere**, the Sun's rays strike different latitudes at different angles. Near the equator a beam lands almost straight on and its energy is **concentrated** over a small area, while near the poles the same beam is **spread** over a larger area, so each square metre gets less. This uneven heating drives global winds and ocean currents. The difference in distance from the Sun is negligible."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-021",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Latitude and Earth's shape",
+    "difficulty": "hard", "marks": 1,
+    "type": "mcq",
+    "prompt": "Imagine the Earth were a **flat disc** always facing the Sun instead of a sphere. How would the pattern of solar heating change?",
+    "image": { "src": "/img/earth/flat-earth.svg", "alt": "Parallel sunlight falling on a ball-shaped planet and on a flat disc" },
+    "options": [
+      { "id": "a", "text": "Every part would get sunlight at the same angle, so heating would be nearly uniform with no equator-to-pole difference" },
+      { "id": "b", "text": "The edges of the disc would receive the most concentrated sunlight" },
+      { "id": "c", "text": "The centre of the disc would receive no sunlight at all" },
+      { "id": "d", "text": "Nothing would change, because heating depends only on distance from the Sun" }
+    ],
+    "answer": "a",
+    "hint": "Look at the angle at which the rays meet the disc compared with the ball.",
+    "explanation": "On a sphere the rays meet the surface at different angles, so energy per square metre falls from the equator to the poles. A flat disc facing the Sun would meet every ray **at the same angle**, so insolation would be **nearly the same everywhere**. Without this temperature difference, the pressure belts and planetary winds that it drives would be much weaker. This shows that the Earth's **shape** controls the uneven heating."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-022",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Composition of the atmosphere",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A classroom holds $200\\ \\text{m}^3$ of air. About what volume of this is **oxygen**?",
+    "image": { "src": "/img/earth/air-room.svg", "alt": "A classroom filled with molecules of different gases" },
+    "options": [
+      { "id": "a", "text": "$156\\ \\text{m}^3$" },
+      { "id": "b", "text": "$21\\ \\text{m}^3$" },
+      { "id": "c", "text": "$42\\ \\text{m}^3$" },
+      { "id": "d", "text": "$158\\ \\text{m}^3$" }
+    ],
+    "answer": "c",
+    "hint": "Air is about 78% nitrogen and 21% oxygen.",
+    "explanation": "Oxygen is about **21%** of air, so $$0.21 \\times 200 = 42\\ \\text{m}^3$$ $156\\ \\text{m}^3$ is the **nitrogen** (78%), $21\\ \\text{m}^3$ takes 21% of 100 instead of 200, and $158\\ \\text{m}^3$ is everything that is *not* oxygen. The rest of the air is small amounts of argon, carbon dioxide, water vapour and other gases, held around the Earth by gravity."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-023",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Layers of the atmosphere",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the layer of the atmosphere that contains the **ozone layer**, where temperature rises with height.",
+    "image": { "src": "/img/earth/atm-layers.svg", "alt": "A column of the atmosphere divided into bands, with numbered markers" },
+    "spots": [
+      { "id": "tropo", "x": 52.8, "y": 87.5, "label": "Troposphere" },
+      { "id": "strat", "x": 55.6, "y": 60.5, "label": "Stratosphere" },
+      { "id": "meso", "x": 55.6, "y": 40, "label": "Mesosphere" },
+      { "id": "thermo", "x": 55.6, "y": 22.5, "label": "Thermosphere" },
+      { "id": "exo", "x": 55.6, "y": 7, "label": "Exosphere" }
+    ],
+    "answer": "strat",
+    "hint": "It begins at about 12 km and reaches about 50 km.",
+    "explanation": "The **stratosphere** extends from about $12$ to $50\\ \\text{km}$. Its **ozone** absorbs UV rays, which heats the layer, so temperature *increases* with height. Below it is the **troposphere** (0–12 km), where clouds, aircraft and weather are found. The mesosphere, thermosphere and exosphere above play only a minor role in surface climate."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-024",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Layers of the atmosphere",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "On this graph of temperature against height, tap the part where the **temperature rises as you go higher**.",
+    "image": { "src": "/img/earth/temp-height.svg", "alt": "Graph of air temperature against height with numbered markers" },
+    "spots": [
+      { "id": "ground", "x": 88.6, "y": 86.7, "label": "Ground level" },
+      { "id": "tropo", "x": 58.4, "y": 77.5, "label": "Lower part of the line" },
+      { "id": "turn", "x": 28.2, "y": 68.3, "label": "Turning point at about 12 km" },
+      { "id": "strat", "x": 51.4, "y": 39.1, "label": "Upper part of the line" }
+    ],
+    "answer": "strat",
+    "hint": "Moving up the height axis, find where the line also moves to the right, towards warmer values.",
+    "explanation": "From the ground to about $12\\ \\text{km}$ (the **troposphere**) the line slopes towards colder values: temperature falls by about $6.5\\ ^\\circ\\text{C}$ per km. Above the turning point, in the **stratosphere** (12–50 km), the line slopes back towards warmer values because **ozone absorbs UV** and heats the air. The turning point itself is the boundary, not a region of rising temperature."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-025",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Troposphere",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "It is $30\\ ^\\circ\\text{C}$ in a valley town. A hill town is $2.0\\ \\text{km}$ higher. In the troposphere temperature falls by about $6.5\\ ^\\circ\\text{C}$ per km. Estimate the temperature in the hill town.",
+    "image": { "src": "/img/earth/hill-thermo.svg", "alt": "A town in a valley and another town high on a hill, each with a thermometer" },
+    "options": [
+      { "id": "a", "text": "$43\\ ^\\circ\\text{C}$" },
+      { "id": "b", "text": "$23.5\\ ^\\circ\\text{C}$" },
+      { "id": "c", "text": "$-13\\ ^\\circ\\text{C}$" },
+      { "id": "d", "text": "$17\\ ^\\circ\\text{C}$" }
+    ],
+    "answer": "d",
+    "hint": "Find the total drop for 2 km first, then subtract it from 30 °C.",
+    "explanation": "Drop $= 6.5\\ ^\\circ\\text{C/km} \\times 2.0\\ \\text{km} = 13\\ ^\\circ\\text{C}$, so $$T = 30 - 13 = 17\\ ^\\circ\\text{C}$$ $43\\ ^\\circ\\text{C}$ adds the drop instead of subtracting it, $23.5\\ ^\\circ\\text{C}$ allows for only 1 km, and $-13\\ ^\\circ\\text{C}$ is the drop itself, not the final temperature. The troposphere gets colder with height because it is **heated from the ground**."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-026",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Troposphere",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": { "src": "/img/earth/atm-layers.svg", "alt": "A column of the atmosphere divided into bands" },
+    "assertion": "Nearly all weather, such as clouds, rain and storms, happens in the troposphere.",
+    "reason": "In the stratosphere temperature increases with height, which stops vertical mixing of air and keeps weather confined to the layer below.",
+    "answer": "a",
+    "hint": "Can warm air keep rising if the air above it is even warmer?",
+    "explanation": "Both are true and the reason explains the assertion. The **troposphere** is heated from the ground, so warm air rises, cools and forms clouds, winds and storms. In the **stratosphere** temperature *rises* with height, so the air is calm with little **vertical mixing**, acting like a lid that keeps the weather in the troposphere."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-027",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Role of the atmosphere",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Mercury is closer to the Sun than Venus, yet **Venus is hotter**. Why?",
+    "image": { "src": "/img/earth/venus-mercury.svg", "alt": "The Sun with a small bare planet close by and a cloud-wrapped planet farther away" },
+    "options": [
+      { "id": "a", "text": "Venus is larger, so it collects more sunlight" },
+      { "id": "b", "text": "Venus has a thick atmosphere that causes an uncontrolled greenhouse effect" },
+      { "id": "c", "text": "Venus has a much hotter interior than Mercury" },
+      { "id": "d", "text": "Mercury is covered in snow with a very high albedo" }
+    ],
+    "answer": "b",
+    "hint": "Think about what happens to heat after it reaches each planet's surface.",
+    "explanation": "Venus has a dense **atmosphere** that traps re-radiated heat so strongly that it has an **uncontrolled greenhouse effect**. Mercury has almost no atmosphere, so its heat escapes into space. This shows how powerfully an atmosphere controls a planet's temperature, and why excess CO₂ on the Earth is a concern."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-028",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Ozone layer",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "CFCs from refrigerators and aerosol sprays caused an **ozone hole** over Antarctica. Which global agreement has started the recovery of the ozone layer?",
+    "image": { "src": "/img/earth/ozone-shield.svg", "alt": "Ultraviolet rays meeting a layer high in the sky, with a spray can below" },
+    "options": [
+      { "id": "a", "text": "Kyoto Protocol" },
+      { "id": "b", "text": "Paris Agreement" },
+      { "id": "c", "text": "Mission LiFE" },
+      { "id": "d", "text": "Montreal Protocol" }
+    ],
+    "answer": "d",
+    "hint": "It is the one agreement the chapter calls a success story.",
+    "explanation": "The **Montreal Protocol** cut the use of CFCs, and the ozone layer is now slowly recovering, a strong example of international scientific cooperation. The **Kyoto Protocol** and **Paris Agreement** aimed to reduce CO₂ emissions and have been less successful. **Mission LiFE** (2021) is an India-led initiative that encourages eco-friendly lifestyles."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-029",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Human impact",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Vehicle exhaust reacts with sunlight to form smog and **ground-level ozone**. Which statement is correct?",
+    "image": { "src": "/img/earth/smog.svg", "alt": "Traffic on a city road with haze hanging low over the buildings" },
+    "options": [
+      { "id": "a", "text": "Ozone near the ground harms health, while ozone in the stratosphere protects life by blocking UV" },
+      { "id": "b", "text": "Ozone near the ground is helpful because it shields city people from UV" },
+      { "id": "c", "text": "Ground-level ozone rises and repairs the ozone hole" },
+      { "id": "d", "text": "Smog forms only at night, when there is no sunlight" }
+    ],
+    "answer": "a",
+    "hint": "The same gas can help or harm depending on where it is.",
+    "explanation": "**Ground-level ozone** and smog form when vehicle emissions react in **sunlight**, and they make city air unhealthy to breathe. High up in the **stratosphere**, the same gas absorbs harmful UV and protects life. Smog needs sunlight, so it does not form only at night, and polluted air near the ground does not mend the ozone layer."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-030",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Local winds",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture correctly shows a **valley breeze** in a hilly region such as Shimla?",
+    "options": [
+      { "id": "p", "text": "Picture P", "image": { "src": "/img/earth/breeze-p.svg", "alt": "Mountain valley scene P" } },
+      { "id": "q", "text": "Picture Q", "image": { "src": "/img/earth/breeze-q.svg", "alt": "Mountain valley scene Q" } },
+      { "id": "r", "text": "Picture R", "image": { "src": "/img/earth/breeze-r.svg", "alt": "Mountain valley scene R" } },
+      { "id": "s", "text": "Picture S", "image": { "src": "/img/earth/breeze-s.svg", "alt": "Mountain valley scene S" } }
+    ],
+    "answer": "r",
+    "hint": "Check two things: is it day or night, and which way does the air move along the slopes?",
+    "explanation": "During the **day**, sunlit slopes heat faster than the valley floor. Air over the slopes warms and rises, making low pressure, and cooler valley air flows **up the slopes**: a **valley breeze** (Picture R). After sunset the slopes cool faster, and cold, dense air sinks **down** into the valley: a **mountain breeze** (Picture S). P and Q show these directions at the wrong time of day."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-031",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Planetary winds",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **sub-tropical high pressure belt** of the Northern Hemisphere, where cooled air sinks back to the surface.",
+    "image": { "src": "/img/earth/pressure-belts.svg", "alt": "The Earth with lines of latitude and surface winds, with numbered markers" },
+    "spots": [
+      { "id": "eq", "x": 50, "y": 50, "label": "0° (equator)" },
+      { "id": "n30", "x": 50, "y": 29.7, "label": "30° N" },
+      { "id": "n60", "x": 50, "y": 14.8, "label": "60° N" },
+      { "id": "s30", "x": 50, "y": 70.3, "label": "30° S" },
+      { "id": "s60", "x": 50, "y": 85.2, "label": "60° S" }
+    ],
+    "answer": "n30",
+    "hint": "Air rising at the equator travels poleward high up and sinks about one-third of the way to the pole.",
+    "explanation": "Intense heating makes air rise at the equator (**equatorial low**). High up it moves poleward, cools, becomes denser and **sinks near 30° N and 30° S**, forming the **sub-tropical high pressure belts**. Some air then moves poleward along the surface and rises again near **60°** (sub-polar lows), while cold, dense air sinks at the poles (**polar highs**)."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-032",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Planetary winds",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Planetary winds do not blow straight from high to low pressure; they follow **curved paths**. What causes this?",
+    "image": { "src": "/img/earth/pressure-belts.svg", "alt": "The Earth with lines of latitude and curved surface winds" },
+    "options": [
+      { "id": "a", "text": "Uneven heating of land and sea" },
+      { "id": "b", "text": "The Earth's rotation on its axis, which deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere" },
+      { "id": "c", "text": "The tilt of the Earth's axis, which bends winds towards the summer hemisphere" },
+      { "id": "d", "text": "Friction with ocean currents, which drags the winds sideways" }
+    ],
+    "answer": "b",
+    "hint": "The ground beneath the moving air is itself turning.",
+    "explanation": "Pressure differences set the air moving, but the **Earth's rotation** deflects it from a straight path: to the **right in the Northern Hemisphere** and to the **left in the Southern Hemisphere**. Uneven heating creates the pressure belts but does not bend the winds, and it is winds that drag ocean water, not the other way round. The same rotation also turns ocean currents into gyres."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-033",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Planetary winds",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Follow a parcel of air around one loop between the equator and 30° N. Arrange the steps in order.",
+    "image": { "src": "/img/earth/hadley-cell.svg", "alt": "Air circulating in two loops between the equator and 30 degrees north and south" },
+    "items": [
+      { "id": "sink", "text": "It cools, becomes denser and sinks near 30° N, forming high pressure" },
+      { "id": "heat", "text": "Strong sunlight heats the air near the equator" },
+      { "id": "back", "text": "It flows back towards the equator along the Earth's surface" },
+      { "id": "rise", "text": "The warm air rises, leaving an equatorial low pressure belt" },
+      { "id": "pole", "text": "High in the atmosphere, it moves towards the pole" }
+    ],
+    "answer": ["heat", "rise", "pole", "sink", "back"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Air must rise before it can travel poleward high up.",
+    "explanation": "Intense **heating** at the equator makes air **rise**, creating the **equatorial low**. At high altitude the air moves **poleward**, cools, becomes denser and **sinks around 30°**, forming the **sub-tropical high**. From there it **flows back to the equator** along the surface, completing one circulation cycle. Uneven heating, not the wind itself, powers this loop."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-034",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Ocean currents",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "The Earth's rotation turns surface ocean currents into huge loops called **gyres**. Which picture shows the correct directions? (N = Northern Hemisphere, S = Southern Hemisphere)",
+    "options": [
+      { "id": "p", "text": "Pattern P", "image": { "src": "/img/earth/gyre-p.svg", "alt": "Ocean loop pattern P" } },
+      { "id": "q", "text": "Pattern Q", "image": { "src": "/img/earth/gyre-q.svg", "alt": "Ocean loop pattern Q" } },
+      { "id": "r", "text": "Pattern R", "image": { "src": "/img/earth/gyre-r.svg", "alt": "Ocean loop pattern R" } },
+      { "id": "s", "text": "Pattern S", "image": { "src": "/img/earth/gyre-s.svg", "alt": "Ocean loop pattern S" } }
+    ],
+    "answer": "s",
+    "hint": "Deflection is to the right in the north and to the left in the south, so the two loops turn opposite ways.",
+    "explanation": "Moving water is deflected **right in the Northern Hemisphere**, so gyres there turn **clockwise**; it is deflected **left in the Southern Hemisphere**, so gyres there turn **counter-clockwise** (Pattern S). Patterns Q and R have both loops turning the same way, and P has them reversed. Continents further block and redirect these currents."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-035",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Ocean currents",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Many ports on the north-western coast of Europe stay **ice-free in winter**, even though they are at high latitudes. Why?",
+    "image": { "src": "/img/earth/ocean-currents.svg", "alt": "A slice through the ocean from the equator to a pole with moving water" },
+    "options": [
+      { "id": "a", "text": "The North Atlantic Drift, an extension of the Gulf Stream, carries warm equatorial water to them" },
+      { "id": "b", "text": "Cold, dense water rising from the deep ocean keeps the harbours warm" },
+      { "id": "c", "text": "Water near these coasts is so salty that it rises to the surface and gives off heat" },
+      { "id": "d", "text": "The ports are warmed by their own urban heat island" }
+    ],
+    "answer": "a",
+    "hint": "Ocean currents move heat as well as water.",
+    "explanation": "Warm equatorial water travels poleward at the surface while colder, denser water returns towards the equator at depth. The **Gulf Stream** and its extension, the **North Atlantic Drift**, carry this warm water across the Atlantic to north-western Europe, keeping ports ice-free and supporting trade. Deep water is cold, saltier water is denser and *sinks*, and a city's heat island cannot stop a sea from freezing."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-036",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Biogeochemical cycles",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "What is the main role of **biogeochemical cycles** in an ecosystem?",
+    "image": { "src": "/img/earth/oxygen-cycle.svg", "alt": "A plant, a person, a campfire and a rusting bucket under the open sky" },
+    "options": [
+      { "id": "a", "text": "To provide food directly to every organism" },
+      { "id": "b", "text": "To create new elements for living things to use" },
+      { "id": "c", "text": "To remove all pollutants and toxins from organisms" },
+      { "id": "d", "text": "To recycle essential nutrients between living (biotic) and non-living (abiotic) parts" }
+    ],
+    "answer": "d",
+    "hint": "'Cycle' means the same atoms are used again and again.",
+    "explanation": "A **biogeochemical cycle** is the cyclic movement of matter and energy between the **biotic** and **abiotic** parts of the Earth. It keeps nutrients such as carbon, nitrogen and oxygen **recycled** and available to support life, and it helps ecosystems recover from disturbances. Cycles move existing atoms around; they do not make new elements or feed organisms directly."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-037",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Water cycle",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the place where water vapour is turning back into tiny droplets, that is, where **condensation** is happening.",
+    "image": { "src": "/img/earth/water-cycle.svg", "alt": "Water moving between the sea, the sky, a mountain, a tree and the ground, with numbered markers" },
+    "spots": [
+      { "id": "evap", "x": 23, "y": 65, "label": "Evaporation" },
+      { "id": "cond", "x": 30.5, "y": 33, "label": "Condensation" },
+      { "id": "precip", "x": 66, "y": 36.7, "label": "Precipitation" },
+      { "id": "transp", "x": 91.25, "y": 32, "label": "Transpiration" },
+      { "id": "runoff", "x": 62.5, "y": 59.3, "label": "Run-off" },
+      { "id": "ground", "x": 75, "y": 94, "label": "Groundwater" }
+    ],
+    "answer": "cond",
+    "hint": "Look for a small cloud with droplets just forming beneath it.",
+    "explanation": "Water **evaporates** from the sea, rises, cools and **condenses** into droplets that form clouds. The clouds release **precipitation** (rain, hail or snow) over the hills. The water then runs off in rivers back to the ocean, while some seeps down to become **groundwater**, and plants return vapour to the air by **transpiration**."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-038",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Water cycle",
+    "difficulty": "easy", "marks": 2,
+    "type": "order",
+    "prompt": "Trace a drop of sea water through the water cycle. Arrange the steps in order.",
+    "image": { "src": "/img/earth/water-cycle.svg", "alt": "Water moving between the sea, the sky, a mountain, a tree and the ground" },
+    "items": [
+      { "id": "rain", "text": "It falls as rain on the hills" },
+      { "id": "evap", "text": "The Sun heats the sea and the water evaporates" },
+      { "id": "ocean", "text": "It reaches the ocean again" },
+      { "id": "cloud", "text": "The vapour cools and condenses into a cloud" },
+      { "id": "river", "text": "It runs off the slopes into a river" }
+    ],
+    "answer": ["evap", "cloud", "rain", "river", "ocean"],
+    "startLabel": "Sea",
+    "endLabel": "Sea again",
+    "hint": "Sunlight is the energy source that starts the cycle.",
+    "explanation": "Solar energy drives **evaporation**; the vapour rises, cools and **condenses** into clouds; water returns as **precipitation**; it **runs off** into rivers and finally flows back to the **ocean**. Along the way water dissolves minerals from soil and rocks and carries nutrients that support life on land and in the sea."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-039",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Climate change and the water cycle",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "How is **climate change** affecting the water cycle? Select all that apply.",
+    "image": { "src": "/img/earth/water-cycle.svg", "alt": "Water moving between the sea, the sky, a mountain, a tree and the ground" },
+    "options": [
+      { "id": "a", "text": "A warmer atmosphere holds more moisture, giving heavier rain in some areas" },
+      { "id": "b", "text": "Droughts become more likely in other areas" },
+      { "id": "c", "text": "Melting glaciers add water to rivers and, in the long run, raise sea levels" },
+      { "id": "d", "text": "Sudden bursts of heavy rain increase infiltration and recharge groundwater" },
+      { "id": "e", "text": "More run-off erodes the soil" },
+      { "id": "f", "text": "Warmer air holds less moisture, so rainfall decreases everywhere" }
+    ],
+    "answers": ["a", "b", "c", "e"],
+    "hint": "Heavy, sudden rain runs off quickly instead of soaking in.",
+    "explanation": "A warmer atmosphere **holds more moisture**, so some regions get heavier rain (more intense monsoons) while others face **drought**. **Melting glaciers** feed rivers and eventually raise sea levels, threatening coastal cities such as Mumbai and Chennai. Intense bursts of rain cause more **run-off and soil erosion** and *less* infiltration, so groundwater recharge falls and farming in dry months becomes harder."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-040",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Carbon cycle",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Part of the carbon cycle runs over **millions of years**. Tap the carbon store that belongs to this **slow cycle**.",
+    "image": { "src": "/img/earth/carbon-cycle.svg", "alt": "Carbon dioxide moving between the air, a tree, an animal, a factory, the ground and the sea, with numbered markers" },
+    "spots": [
+      { "id": "atm", "x": 50, "y": 14, "label": "CO₂ in the air" },
+      { "id": "tree", "x": 18.75, "y": 46.7, "label": "Tree" },
+      { "id": "animal", "x": 36.5, "y": 63.3, "label": "Animal" },
+      { "id": "factory", "x": 51.25, "y": 60.7, "label": "Factory" },
+      { "id": "fossil", "x": 40, "y": 91, "label": "Coal and oil underground" },
+      { "id": "plankton", "x": 83.75, "y": 80, "label": "Plankton in the sea" }
+    ],
+    "answer": "fossil",
+    "hint": "Dead plants and animals that were buried long ago.",
+    "explanation": "In the **slow cycle**, buried dead plants and animals are turned over millions of years into **fossil fuels**: coal, oil and gas. Burning them releases that carbon as CO₂ on a very short time scale. The **fast cycle** (days to years) is photosynthesis, respiration, feeding and decomposition by living things."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-041",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Carbon cycle",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Each numbered arrow moves carbon. Match each arrow with the process it shows.",
+    "image": {
+      "src": "/img/earth/carbon-cycle.svg",
+      "alt": "Carbon dioxide moving between the air, a tree, an animal, a factory, the ground and the sea, with four numbered arrows",
+      "markers": [
+        { "x": 31, "y": 28.3, "label": "1" },
+        { "x": 40.75, "y": 41, "label": "2" },
+        { "x": 57.5, "y": 28, "label": "3" },
+        { "x": 74.25, "y": 39.7, "label": "4" }
+      ]
+    },
+    "left": [
+      { "id": "a1", "text": "Arrow 1" },
+      { "id": "a2", "text": "Arrow 2" },
+      { "id": "a3", "text": "Arrow 3" },
+      { "id": "a4", "text": "Arrow 4" }
+    ],
+    "right": [
+      { "id": "resp", "text": "Respiration" },
+      { "id": "decomp", "text": "Decomposition" },
+      { "id": "ocean", "text": "Exchange of CO₂ with ocean water" },
+      { "id": "photo", "text": "Photosynthesis" },
+      { "id": "comb", "text": "Combustion of fossil fuels" }
+    ],
+    "pairs": { "a1": "photo", "a2": "resp", "a3": "comb", "a4": "ocean" },
+    "hint": "Only one arrow carries CO₂ out of the air into a living thing on land.",
+    "explanation": "Arrow 1 takes CO₂ from the air into the tree: **photosynthesis**, which turns it into glucose. Arrow 2 returns CO₂ from the animal: **respiration**. Arrow 3 rises from the chimney: **combustion of fossil fuels**. Arrow 4 is the two-way **exchange with the ocean**, where CO₂ forms carbonate and bicarbonate ions used by phytoplankton and shell-makers. Decomposition was the distractor."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-042",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Keeling curve",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph shows atmospheric CO₂ rising from about $315\\ \\text{ppm}$ in 1960 to about $420\\ \\text{ppm}$ today. By roughly what **percentage** has it increased?",
+    "image": { "src": "/img/earth/keeling.svg", "alt": "Graph of carbon dioxide in the air from 1960 to 2025" },
+    "options": [
+      { "id": "a", "text": "25%" },
+      { "id": "b", "text": "33%" },
+      { "id": "c", "text": "105%" },
+      { "id": "d", "text": "75%" }
+    ],
+    "answer": "b",
+    "hint": "Percentage increase = rise ÷ starting value × 100.",
+    "explanation": "Rise $= 420 - 315 = 105\\ \\text{ppm}$, so $$\\dfrac{105}{315} \\times 100 \\approx 33\\%$$ which the textbook rounds to 'about 35%'. 25% divides by the final value, 105% writes the rise in ppm as a percentage, and 75% is $315 \\div 420$. The yearly **sawtooth** wiggles are seasonal dips as Northern Hemisphere plants absorb CO₂ while growing."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-043",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Carbon cycle",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Carbon makes up about **49% of the dry weight** of living organisms. Roughly how much carbon is locked in a dried log weighing $20\\ \\text{kg}$?",
+    "image": { "src": "/img/earth/dry-log.svg", "alt": "A dried log of wood resting on a weighing scale" },
+    "options": [
+      { "id": "a", "text": "$0.98\\ \\text{kg}$" },
+      { "id": "b", "text": "$14.2\\ \\text{kg}$" },
+      { "id": "c", "text": "$9.8\\ \\text{kg}$" },
+      { "id": "d", "text": "$10.2\\ \\text{kg}$" }
+    ],
+    "answer": "c",
+    "hint": "49% means 0.49 of the dry mass.",
+    "explanation": "$$m_{\\text{C}} = 0.49 \\times 20\\ \\text{kg} = 9.8\\ \\text{kg}$$ $0.98$ kg uses 4.9% instead of 49%, $14.2$ kg uses the 71% figure (the share of the world's carbon held in the **oceans**), and $10.2$ kg is the part that is *not* carbon. Burning or rotting the log returns this carbon to the air as CO₂. The atmosphere holds only about 1% of the world's carbon."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-044",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Human impact on oceans",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": { "src": "/img/earth/carbon-cycle.svg", "alt": "Carbon dioxide moving between the air, land and the sea" },
+    "assertion": "As the oceans get warmer, they become a more effective carbon sink.",
+    "reason": "Ocean water absorbs atmospheric CO₂ to form carbonate and bicarbonate ions.",
+    "answer": "d",
+    "hint": "Does warm water hold more or less dissolved gas?",
+    "explanation": "The assertion is false and the reason is true. The ocean does absorb CO₂, forming **carbonate and bicarbonate ions** used by phytoplankton and shell-forming organisms. But **warmer water reduces** the ocean's capacity to absorb CO₂, so it becomes a *weaker* sink. Meanwhile, extra CO₂ makes sea water **more acidic**, threatening plankton and coral reefs."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-045",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Nitrogen cycle",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap where **Rhizobium** bacteria live and fix nitrogen from the air for the pea plant.",
+    "image": { "src": "/img/earth/nitrogen-cycle.svg", "alt": "Nitrogen moving between the air, a pea plant and the soil, with numbered markers" },
+    "spots": [
+      { "id": "bolt", "x": 78.5, "y": 26.7, "label": "Lightning" },
+      { "id": "leaves", "x": 22.5, "y": 48, "label": "Leaves" },
+      { "id": "nodules", "x": 23, "y": 83.3, "label": "Root nodules" },
+      { "id": "fungus", "x": 55.5, "y": 66, "label": "Mushroom on a dead leaf" },
+      { "id": "soil", "x": 76, "y": 85, "label": "Free-living soil bacteria" }
+    ],
+    "answer": "nodules",
+    "hint": "Look underground, at the small swellings on the roots.",
+    "explanation": "**Rhizobium** lives in the **root nodules** of legumes such as peas and converts unreactive N₂ into **ammonia** (NH₃). Free-living **Azotobacter** in the soil also fixes nitrogen. **Lightning** fixes a tiny amount as nitrogen oxides, and decomposers such as fungi return ammonia to the soil when organisms die (**ammonification**)."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-046",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Nitrogen cycle",
+    "difficulty": "hard", "marks": 2,
+    "type": "match",
+    "prompt": "Match each bacterium with its job in the nitrogen cycle.",
+    "image": { "src": "/img/earth/nitrogen-cycle.svg", "alt": "Nitrogen moving between the air, a pea plant and the soil" },
+    "left": [
+      { "id": "rhizo", "text": "*Rhizobium*" },
+      { "id": "azoto", "text": "*Azotobacter*" },
+      { "id": "nitroso", "text": "*Nitrosomonas*" },
+      { "id": "nitrob", "text": "*Nitrobacter*" },
+      { "id": "pseudo", "text": "*Pseudomonas*" }
+    ],
+    "right": [
+      { "id": "nitrite", "text": "Converts ammonia into nitrite" },
+      { "id": "denit", "text": "Converts nitrate back into nitrogen gas" },
+      { "id": "nodule", "text": "Fixes N₂ into ammonia inside legume root nodules" },
+      { "id": "nitrate", "text": "Converts nitrite into nitrate" },
+      { "id": "free", "text": "Fixes N₂ into ammonia while living freely in the soil" }
+    ],
+    "pairs": { "rhizo": "nodule", "azoto": "free", "nitroso": "nitrite", "nitrob": "nitrate", "pseudo": "denit" },
+    "hint": "Nitroso- comes before Nitro- in the chain: ammonia → nitrite → nitrate.",
+    "explanation": "**Nitrogen fixation**: *Rhizobium* (in root nodules) and *Azotobacter* (free in the soil) turn N₂ into ammonia. **Nitrification**: *Nitrosomonas* turns ammonia into nitrite ($\\text{NO}_2^-$) and *Nitrobacter* turns nitrite into nitrate ($\\text{NO}_3^-$). **Denitrification**: *Pseudomonas* turns some nitrate back into N₂ gas, completing the cycle."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-047",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Nitrogen cycle",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Follow a nitrogen atom from the air into a plant and back into the soil. Arrange the steps in order.",
+    "image": { "src": "/img/earth/nitrogen-cycle.svg", "alt": "Nitrogen moving between the air, a pea plant and the soil" },
+    "items": [
+      { "id": "nitrate", "text": "Nitrite is converted into nitrate" },
+      { "id": "fix", "text": "Bacteria fix N₂ from the air into ammonia" },
+      { "id": "ammon", "text": "The plant dies and decomposers return ammonia to the soil" },
+      { "id": "nitrite", "text": "Ammonia is converted into nitrite" },
+      { "id": "assim", "text": "The plant absorbs nitrate and builds proteins" }
+    ],
+    "answer": ["fix", "nitrite", "nitrate", "assim", "ammon"],
+    "startLabel": "Air",
+    "endLabel": "Soil",
+    "hint": "Plants cannot use N₂ directly; it must be changed in steps first.",
+    "explanation": "N₂ is unreactive, so it is first **fixed** into ammonia. **Nitrification** turns ammonia into nitrite and then nitrate. Plants **assimilate** nitrate to make proteins and nucleic acids, and animals get nitrogen by eating plants. When organisms die, decomposers carry out **ammonification**, returning ammonia to the soil, while denitrifying bacteria send some nitrate back to the air."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-048",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Oxygen cycle",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these processes **use up oxygen** from the atmosphere? Select all that apply.",
+    "image": { "src": "/img/earth/oxygen-cycle.svg", "alt": "A plant, a person, a campfire and a rusting bucket under the open sky" },
+    "options": [
+      { "id": "a", "text": "Respiration by plants and animals" },
+      { "id": "b", "text": "Photosynthesis" },
+      { "id": "c", "text": "Combustion of fuels" },
+      { "id": "d", "text": "Formation of oxides, such as rusting" },
+      { "id": "e", "text": "Transpiration from leaves" },
+      { "id": "f", "text": "Nitrogen fixation by *Rhizobium*" }
+    ],
+    "answers": ["a", "c", "d"],
+    "hint": "Only one process on the list puts oxygen back.",
+    "explanation": "Atmospheric oxygen (about 21% of air) is used in **respiration**, **combustion** and **oxide formation** (such as rusting), and these processes release CO₂ or lock oxygen into compounds. **Photosynthesis** restores it, using sunlight, water and CO₂ to make glucose and release O₂. Transpiration releases water vapour, and nitrogen fixation does not use oxygen from the air."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-049",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Eutrophication",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of **eutrophication** in the order they happen.",
+    "image": { "src": "/img/earth/eutrophication.svg", "alt": "A farm on a slope draining into a lake covered with green scum" },
+    "items": [
+      { "id": "bloom", "text": "Algae grow rapidly and cover the water (algal bloom)" },
+      { "id": "fert", "text": "Farmers put too much fertiliser on their fields" },
+      { "id": "fish", "text": "Fish die and the fishery is harmed" },
+      { "id": "wash", "text": "Rain washes excess nitrates into the lake" },
+      { "id": "oxygen", "text": "Oxygen in the water gets used up" }
+    ],
+    "answer": ["fert", "wash", "bloom", "oxygen", "fish"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The nutrients must reach the water before the algae can use them.",
+    "explanation": "Overuse of **fertilisers** adds excess nitrogen; rain carries **nitrates** into rivers and lakes; algae multiply into an **algal bloom**; the bloom **depletes oxygen**; and **fish die**. This is **eutrophication**, a human disruption of the nitrogen cycle that threatens water bodies and coastal fisheries."
+  },
+  {
+    "id": "in-cbse-9-phy-earth-050",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "physics",
+    "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Deforestation",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "A large forest is cleared. Which of these are likely effects? Select all that apply.",
+    "image": { "src": "/img/earth/deforestation.svg", "alt": "A green forest beside a cleared hillside with stumps and muddy water" },
+    "options": [
+      { "id": "a", "text": "Less photosynthesis, so less CO₂ is removed from the air" },
+      { "id": "b", "text": "Less transpiration, which can reduce local rainfall" },
+      { "id": "c", "text": "More soil erosion, because no roots hold the soil" },
+      { "id": "d", "text": "A change in the albedo of the land surface" },
+      { "id": "e", "text": "More groundwater recharge, because rain no longer falls on leaves" },
+      { "id": "f", "text": "Greater biodiversity, because open land makes new habitats" }
+    ],
+    "answers": ["a", "b", "c", "d"],
+    "hint": "Trees affect air, water, soil and living things all at once.",
+    "explanation": "Clearing forests means **less photosynthesis** (so less CO₂ removed and less O₂ released) and **less transpiration**, which can lower local rainfall. It **alters surface albedo**, and without roots **soil erosion** rises, so rivers carry more mud. Over time habitats are destroyed and **biodiversity declines**. Bare, eroding soil sheds rain as run-off instead of letting it soak in, so groundwater recharge does not improve."
+  }
+]

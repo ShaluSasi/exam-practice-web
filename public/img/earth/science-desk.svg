@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A scientist's desk with a book of charts, a sunlight meter, a computer model and a sack of fertiliser</title>
+<style>
+.wv{stroke-dasharray:6 4;animation:f 1.4s linear infinite}
+@keyframes f{to{stroke-dashoffset:-20}}
+.bl{animation:bob 3s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-4px)}to{transform:translateY(4px)}}
+.dm{animation:gl 2.4s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.35}50%{opacity:.9}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="168" width="400" height="14" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/>
+<g class="bl"><ellipse cx="70" cy="40" rx="16" ry="18" fill="#FFFFFF" stroke="#7E84A8" stroke-width="2.5"/><path d="M70 58V92" stroke="#7E84A8" stroke-width="1.5"/><rect x="62" y="92" width="16" height="12" rx="2" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M24 168l4-36h42l42 0 4 36z" fill="#FFFFFF"/>
+<path d="M70 132V168" fill="none"/>
+<rect x="36" y="146" width="6" height="16" fill="#0B93D4" stroke-width="1.5"/><rect x="46" y="140" width="6" height="22" fill="#FF8A1F" stroke-width="1.5"/><rect x="56" y="150" width="6" height="12" fill="#3FA34D" stroke-width="1.5"/>
+<path d="M80 160l10-8 10 4 10-10" fill="none" stroke="#E5484D" stroke-width="2"/>
+<rect x="140" y="148" width="40" height="20" rx="3" fill="#A3A8CC"/>
+<path d="M146 148a14 14 0 0 1 28 0z" fill="#E3F2FD"/>
+<path d="M210 100h110v62h-110z" fill="#2B2F4A"/>
+<rect x="216" y="106" width="98" height="50" fill="#CDEBFA" stroke-width="1"/>
+<path d="M256 162h18l4 6h-26z" fill="#A3A8CC"/>
+<path d="M336 168l4-50q16-8 32 0l4 50z" fill="#F6F0E2"/>
+<path d="M342 118q14-8 28 0" fill="none"/>
+</g>
+<path class="dm" d="M146 148a14 14 0 0 1 28 0z" fill="#F6C453"/>
+<g fill="none" stroke-width="2.5" stroke-linecap="round"><path class="wv" d="M220 136q10-14 20 0t20 0t20 0t20 0t10 0" stroke="#0B93D4"/><path class="wv" d="M220 124q10 10 20 0t20 0t20 0t20 0" stroke="#FF8A1F"/></g>
+<rect x="346" y="136" width="24" height="12" rx="2" fill="#3FA34D"/>
+<path d="M150 112l10 16M170 112l-10 16M160 106v22" stroke="#F6C453" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

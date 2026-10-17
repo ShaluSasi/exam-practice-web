@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A slice through the ocean from the equator to a pole with moving water</title>
+<defs>
+<linearGradient id="t" gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="356" y2="0"><stop offset="0" stop-color="#E5484D"/><stop offset=".7" stop-color="#FF8A1F"/><stop offset="1" stop-color="#0B6FA4"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9FDDF5"/><stop offset="1" stop-color="#5FA6D6"/></linearGradient>
+</defs>
+<style>
+.c{stroke-dasharray:14 8;animation:c 1.8s linear infinite}
+@keyframes c{to{stroke-dashoffset:-44}}
+.f{animation:sw 5s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-20px)}to{transform:translateX(20px)}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle class="sun" cx="52" cy="34" r="20" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 70H400V214Q400 230 384 230H16Q0 230 0 214Z" fill="url(#sea)" stroke="#0B6FA4" stroke-width="2.5"/>
+<path d="M318 70L326 56H372L386 70Z" fill="#FFFFFF" stroke="#7FA8C9" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M330 56L340 40L356 46L364 56Z" fill="#F2FAFF" stroke="#7FA8C9" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path class="c" d="M50 92H338Q354 92 354 108V176" stroke="url(#t)"/>
+<path class="c" d="M342 200H62Q46 200 46 184V112" stroke="#0B6FA4"/>
+</g>
+<g class="f"><path d="M180 146q14-10 28 0q-14 10-28 0zm28 0l8-6v12z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/></g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A">
+<text x="12" y="62">Equator</text><text x="388" y="30" text-anchor="end">Pole</text>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A spring being squashed by a block and then springing back to launch it</title>
+<style>
+.spr{transform-box:fill-box;transform-origin:left;animation:sq 3s ease-in-out infinite}
+.blk{animation:bk 3s ease-in-out infinite}
+@keyframes sq{0%,100%{transform:scaleX(1)}45%,55%{transform:scaleX(.45)}65%{transform:scaleX(1)}}
+@keyframes bk{0%{transform:translateX(0)}45%,55%{transform:translateX(-77px)}65%{transform:translateX(0)}90%{transform:translateX(150px);opacity:1}95%{opacity:0;transform:translateX(150px)}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="190" width="400" height="70" fill="#D9C49A"/>
+<rect x="20" y="100" width="20" height="90" fill="#A3A8CC" stroke="#5E6390" stroke-width="3"/>
+<g class="spr"><path d="M40 160L50 136L64 184L78 136L92 184L106 136L120 184L134 136L148 184L162 136L176 160" fill="none" stroke="#0B93D4" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g class="blk"><rect x="176" y="132" width="56" height="58" rx="6" fill="#FF8A1F" stroke="#B85C0E" stroke-width="3"/><path d="M188 150H220M188 166H220" stroke="#B85C0E" stroke-width="2"/></g>
+</svg>

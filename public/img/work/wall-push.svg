@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A girl pushing hard against a brick wall</title>
+<style>
+.sw{animation:sw 2s ease-in infinite}
+.strain{transform-origin:150px 200px;animation:st 1s ease-in-out infinite}
+@keyframes sw{0%{transform:translateY(0);opacity:1}100%{transform:translateY(26px);opacity:0}}
+@keyframes st{0%,100%{transform:rotate(0)}50%{transform:rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="210" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="210" width="400" height="50" fill="#D9C49A"/>
+<rect x="260" y="20" width="110" height="190" fill="#E58B6B" stroke="#A9533A" stroke-width="3"/>
+<path d="M260 50H370M260 80H370M260 110H370M260 140H370M260 170H370M300 20V50M330 50V80M290 80V110M340 110V140M300 140V170M330 170V210" stroke="#A9533A" stroke-width="2.5"/>
+<g class="strain">
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 162L120 206M160 160L186 204" stroke="#2B2F4A" stroke-width="9"/>
+<path d="M176 104L156 162" stroke="#FF8A1F" stroke-width="26"/>
+<path d="M184 110L256 98M180 124L256 120" stroke="#F2C9A0" stroke-width="7"/>
+</g>
+<circle cx="194" cy="84" r="15" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M178 82Q186 64 206 74Q196 70 186 90Z" fill="#2B2F4A"/>
+</g>
+<g class="sw"><path d="M214 66Q210 74 214 78Q218 74 214 66Z" fill="#7CC4EA" stroke="#0B6FA0" stroke-width="1.5"/></g>
+<path d="M200 40H250" stroke="#E5484D" stroke-width="5" stroke-linecap="round"/>
+<path d="M242 30L258 40L242 50Z" fill="#E5484D" stroke="#E5484D" stroke-width="3" stroke-linejoin="round"/>
+<text x="180" y="45" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A">F</text>
+</svg>

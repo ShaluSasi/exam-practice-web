@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Traffic on a city road on a sunny day with brown haze hanging low over the buildings</title>
+<style>
+.car{animation:drive 6s linear infinite}
+@keyframes drive{from{transform:translateX(-120px)}to{transform:translateX(420px)}}
+.c2{animation-delay:-3s}
+.ex{animation:ex 1.6s ease-out infinite}
+@keyframes ex{0%{transform:translateX(0);opacity:.9}100%{transform:translateX(-18px) translateY(-8px);opacity:0}}
+.hz{animation:hz 6s ease-in-out infinite alternate}
+@keyframes hz{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V190H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle class="sun" cx="340" cy="38" r="22" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<rect x="20" y="90" width="44" height="100" fill="#B4B7C6"/><rect x="72" y="60" width="50" height="130" fill="#A3A8CC"/><rect x="132" y="104" width="40" height="86" fill="#C4BBAA"/><rect x="250" y="80" width="46" height="110" fill="#B4B7C6"/><rect x="306" y="110" width="40" height="80" fill="#A3A8CC"/><rect x="354" y="96" width="32" height="94" fill="#C4BBAA"/>
+</g>
+<path class="hz" d="M-20 150Q60 108 140 124Q220 102 300 122Q370 106 420 130V190H-20Z" fill="#B58A54" opacity=".45"/>
+<path d="M0 190H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#6E7180"/>
+<path d="M0 214H400" stroke="#F6F0E2" stroke-width="2" stroke-dasharray="14 10"/>
+<g class="car"><rect x="0" y="194" width="52" height="16" rx="5" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><path d="M10 194l6-10h22l8 10z" fill="#FBD3C2" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="212" r="5" fill="#2B2F4A"/><circle cx="42" cy="212" r="5" fill="#2B2F4A"/><circle class="ex" cx="-6" cy="206" r="5" fill="#8C8F9E"/></g>
+<g class="car c2"><rect x="0" y="194" width="58" height="16" rx="5" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><path d="M12 194l6-10h24l8 10z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="14" cy="212" r="5" fill="#2B2F4A"/><circle cx="46" cy="212" r="5" fill="#2B2F4A"/><circle class="ex" cx="-6" cy="206" r="5" fill="#8C8F9E"/></g>
+</svg>

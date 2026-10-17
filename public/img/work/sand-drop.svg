@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A heavy ball being dropped into a tray of loose sand</title>
+<style>
+.ball{animation:dr 2.4s cubic-bezier(.5,0,1,1) infinite}
+.dent{transform-box:fill-box;transform-origin:top;animation:dn 2.4s ease-out infinite}
+@keyframes dr{0%{transform:translateY(0)}55%,100%{transform:translateY(126px)}}
+@keyframes dn{0%,54%{transform:scaleY(0)}62%,100%{transform:scaleY(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M60 180H340L326 236H74Z" fill="#C8925A" stroke="#8A5A2B" stroke-width="3" stroke-linejoin="round"/>
+<rect x="68" y="176" width="264" height="14" rx="4" fill="#E9D8A6"/>
+<ellipse class="dent" cx="200" cy="178" rx="26" ry="10" fill="#B89B5E"/>
+<path d="M200 30V150" stroke="#A3A8CC" stroke-width="2" stroke-dasharray="5 5"/>
+<g class="ball"><circle cx="200" cy="40" r="16" fill="#5E6390" stroke="#2B2F4A" stroke-width="3"/><circle cx="194" cy="34" r="4" fill="#A3A8CC"/></g>
+<path d="M60 30V176" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<path d="M54 38L60 26L66 38M54 168L60 180L66 168" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+</svg>

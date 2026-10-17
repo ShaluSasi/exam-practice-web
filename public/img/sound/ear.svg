@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260" role="img">
+<title>A simple schematic of the human ear connected to the brain</title>
+<style>.sw{stroke:#0B93D4;animation:sw 2s linear infinite}@keyframes sw{0%{transform:translateX(0);opacity:0}20%{opacity:1}100%{transform:translateX(26px);opacity:0}}
+.drum{transform-box:fill-box;transform-origin:center;animation:dr .18s ease-in-out infinite alternate}@keyframes dr{from{transform:scaleX(.7)}to{transform:scaleX(1.3)}}
+.sig{animation:sig 1s linear infinite}@keyframes sig{to{stroke-dashoffset:-28}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="96" y="18" width="330" height="224" rx="20" fill="#FCE3CF" stroke="#E2B48F" stroke-width="2"/>
+<rect x="96" y="116" width="130" height="30" rx="6" fill="#FFF4EC" stroke="#C98E62" stroke-width="2.5"/>
+<ellipse cx="258" cy="131" rx="30" ry="32" fill="#FFF4EC" stroke="#E2B48F" stroke-width="2"/>
+<ellipse class="drum" cx="226" cy="131" rx="5" ry="24" fill="#F7A8A8" stroke="#C0393E" stroke-width="2.5"/>
+<polyline points="231,128 244,112 260,124 272,118 286,129" fill="none" stroke="#C98A12" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="231,128 244,112 260,124 272,118 286,129" fill="none" stroke="#F6C453" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M286 129 L297 139" stroke="#E07A1A" stroke-width="6" stroke-linecap="round"/>
+<path d="M320 140 a4 4 0 1 1 -8 0 a8 8 0 1 1 16 0 a12 12 0 1 1 -24 0 a16 16 0 1 1 32 0 a20 20 0 1 1 -40 0" fill="none" stroke="#E07A1A" stroke-width="8" stroke-linecap="round"/>
+<path d="M320 140 a4 4 0 1 1 -8 0 a8 8 0 1 1 16 0 a12 12 0 1 1 -24 0 a16 16 0 1 1 32 0 a20 20 0 1 1 -40 0" fill="none" stroke="#FFC48A" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M336 146 C360 150 370 110 384 80" fill="none" stroke="#C26A80" stroke-width="4" stroke-linecap="round"/>
+<path class="sig" d="M336 146 C360 150 370 110 384 80" fill="none" stroke="#F6C453" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 10"/>
+<g fill="#F4B6C2" stroke="#C26A80" stroke-width="2"><circle cx="388" cy="62" r="14"/><circle cx="404" cy="55" r="14"/><circle cx="412" cy="70" r="12"/><circle cx="396" cy="74" r="12"/></g>
+<path d="M104 70 Q50 60 46 120 Q44 175 92 196 Q108 200 106 182 Q80 168 82 130 Q84 96 106 98Z" fill="#F5C9A6" stroke="#C98E62" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="sw" d="M14 120 q7.699999999999999 11 0 22 M26 116 q10.5 15 0 30 M38 112 q13.299999999999999 19 0 38" fill="none" stroke-width="3" stroke-linecap="round"/>
+</svg>

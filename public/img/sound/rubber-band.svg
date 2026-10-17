@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A rubber band stretched over an open cardboard box being plucked</title>
+<style>.band{animation:bd .1s linear infinite alternate;transform-origin:200px 130px}@keyframes bd{from{transform:scaleY(1)}to{transform:scaleY(-1)}}
+.sw{stroke:#FF8A1F;animation:sw 1.6s linear infinite}@keyframes sw{0%{transform:translateX(0);opacity:1}100%{transform:translateX(30px);opacity:0}}
+.nt{animation:nt 2s ease-in-out infinite alternate}@keyframes nt{to{transform:translateY(-10px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M100 70 L130 48 H330 L300 70Z" fill="#E8B77E" stroke="#9A6B33" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M300 70 L330 48 V168 L300 190Z" fill="#C08A4E" stroke="#9A6B33" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="100" y="70" width="200" height="120" fill="#D9A066" stroke="#9A6B33" stroke-width="3"/>
+<rect x="118" y="86" width="164" height="88" rx="4" fill="#5A3A1E"/>
+<path d="M104 130 H296" stroke="#E5484D" stroke-width="2" opacity=".35"/>
+<path class="band" d="M104 130 Q200 112 296 130" fill="none" stroke="#E5484D" stroke-width="4" stroke-linecap="round"/>
+<path d="M100 126 h-6 v8 h6 M300 126 h6 v8 h-6" fill="#E5484D" stroke="#E5484D" stroke-width="3"/>
+<g fill="none" stroke-width="3" stroke-linecap="round"><path class="sw" d="M316 97 q9.1 13 0 26 M330 93 q11.899999999999999 17 0 34 M344 89 q14.7 21 0 42" fill="none" stroke-width="3" stroke-linecap="round"/></g>
+<g fill="#2B2F4A"><circle cx="356" cy="60" r="6"/><path d="M361 60 V34 l10 4" stroke="#2B2F4A" stroke-width="2.5" fill="none"/><circle class="nt" cx="60" cy="70" r="6"/></g>
+<path class="nt" d="M65 70 V44 l10 4" stroke="#2B2F4A" stroke-width="2.5" fill="none"/>
+<rect x="190" y="200" width="26" height="34" rx="12" fill="#F2C6A0" stroke="#B9835A" stroke-width="2.5" transform="rotate(-20 203 217)"/>
+</svg>

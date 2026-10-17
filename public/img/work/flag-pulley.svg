@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A flag being hoisted up a pole by pulling a rope down over a pulley</title>
+<style>
+.fl{animation:fl 4s ease-in-out infinite}
+.hd{animation:hd 4s ease-in-out infinite}
+.wave{transform-box:fill-box;transform-origin:left;animation:wv 1s ease-in-out infinite alternate}
+@keyframes fl{0%,100%{transform:translateY(120px)}50%{transform:translateY(0)}}
+@keyframes hd{0%,100%{transform:translateY(-60px)}50%{transform:translateY(60px)}}
+@keyframes wv{from{transform:skewY(-4deg)}to{transform:skewY(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="230" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="230" width="400" height="30" fill="#9CCB86"/>
+<rect x="196" y="30" width="8" height="200" fill="#A3A8CC" stroke="#5E6390" stroke-width="2"/>
+<circle cx="200" cy="26" r="10" fill="#F6C453" stroke="#B98A1F" stroke-width="3"/>
+<circle cx="200" cy="26" r="3" fill="#2B2F4A"/>
+<path d="M190 26V230M210 26V230" stroke="#2B2F4A" stroke-width="2"/>
+<g class="fl"><g class="wave">
+<rect x="210" y="40" width="80" height="18" fill="#FF8A1F"/><rect x="210" y="58" width="80" height="18" fill="#FFFFFF"/><rect x="210" y="76" width="80" height="18" fill="#3FA34D"/>
+<circle cx="250" cy="67" r="6" fill="none" stroke="#0B5FA5" stroke-width="2"/>
+<rect x="210" y="40" width="80" height="54" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+</g></g>
+<g class="hd"><rect x="180" y="130" width="20" height="24" rx="8" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5"/></g>
+<path d="M150 110V160" stroke="#E5484D" stroke-width="5" stroke-linecap="round"/>
+<path d="M140 152L150 168L160 152Z" fill="#E5484D" stroke="#E5484D" stroke-width="3" stroke-linejoin="round"/>
+<path d="M320 160V110" stroke="#3FA34D" stroke-width="5" stroke-linecap="round"/>
+<path d="M310 118L320 102L330 118Z" fill="#3FA34D" stroke="#3FA34D" stroke-width="3" stroke-linejoin="round"/>
+</svg>

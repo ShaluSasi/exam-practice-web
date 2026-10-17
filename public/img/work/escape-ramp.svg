@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A truck with failed brakes driving up a sand-filled escape ramp and stopping</title>
+<style>
+.tr{transform-origin:142px 210px;animation:tr 4s linear infinite}
+@keyframes tr{0%{transform:translate(-120px,0) rotate(0deg)}30%{transform:translate(0,0) rotate(0deg);animation-timing-function:cubic-bezier(.2,.7,.4,1)}85%,100%{transform:translate(120px,-69px) rotate(-30deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="210" rx="16" fill="#E3F2FD"/>
+<path d="M0 210H140L390 66V260H0Z" fill="#A3A8CC"/>
+<path d="M140 210L390 66" stroke="#E9C46A" stroke-width="16" stroke-linecap="round"/>
+<g fill="#C8925A"><circle cx="190" cy="180" r="2.5"/><circle cx="240" cy="152" r="2.5"/><circle cx="290" cy="122" r="2.5"/><circle cx="340" cy="94" r="2.5"/><circle cx="215" cy="168" r="2"/><circle cx="315" cy="110" r="2"/></g>
+<g class="tr"><g>
+<rect x="40" y="160" width="70" height="40" rx="4" fill="#3FA34D" stroke="#2A7335" stroke-width="3"/>
+<path d="M110 200V172H132L142 186V200Z" fill="#F6C453" stroke="#B98A1F" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="62" cy="204" r="9" fill="#2B2F4A"/><circle cx="126" cy="204" r="9" fill="#2B2F4A"/>
+</g></g>
+<text x="250" y="200" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A">sand ramp</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Warm sea water evaporating, moist wind blowing inland and rain falling on hills</title>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#0B6FA4"/></marker>
+</defs>
+<style>
+.ev{animation:rise 2.6s ease-in infinite}
+.ev:nth-of-type(2){animation-delay:.9s}.ev:nth-of-type(3){animation-delay:1.7s}
+@keyframes rise{0%{transform:translateY(14px);opacity:0}30%{opacity:1}100%{transform:translateY(-20px);opacity:0}}
+.wd{stroke-dasharray:12 7;animation:f 1.2s linear infinite}
+@keyframes f{to{stroke-dashoffset:-38}}
+.cl{animation:mv 6s ease-in-out infinite alternate}
+@keyframes mv{from{transform:translateX(-30px)}to{transform:translateX(10px)}}
+.rain{stroke-dasharray:6 8;animation:fall .8s linear infinite}
+@keyframes fall{to{stroke-dashoffset:-28}}
+.sun{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V190H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle class="sun" cx="50" cy="36" r="22" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 176H190L206 240H16Q0 240 0 224Z" fill="#6FB7D9" stroke="#0B6FA4" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 176H190L193 188H0Z" fill="#FF8A1F" opacity=".45"/>
+<path d="M188 176Q240 170 270 150L320 104L360 140L400 120V224Q400 240 384 240H206Z" fill="#8FC774" stroke="#3FA34D" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="none" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round">
+<path class="ev" d="M40 170q-6 -8 0 -16t0 -16"/><path class="ev" d="M90 170q-6 -8 0 -16t0 -16"/><path class="ev" d="M140 170q-6 -8 0 -16t0 -16"/>
+</g>
+<g fill="none" stroke="#0B6FA4" stroke-width="4" stroke-linecap="round">
+<path class="wd" d="M30 116Q140 104 240 120" marker-end="url(#a)"/><path class="wd" d="M60 140Q160 132 250 146" marker-end="url(#a)"/>
+</g>
+<g class="cl">
+<path d="M262 76Q258 54 280 54Q288 38 308 46Q328 40 334 58Q352 60 346 78Z" fill="#C9D0DE" stroke="#7E84A8" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="none" stroke="#3D9BE0" stroke-width="2.5" stroke-linecap="round"><path class="rain" d="M276 84V122M294 84V114M312 84V108M330 84V116"/></g>
+</g>
+</svg>

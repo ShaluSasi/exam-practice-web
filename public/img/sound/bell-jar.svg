@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" role="img">
+<title>An electric bell ringing inside a glass bell jar connected to a vacuum pump</title>
+<style>.air,.snd{animation:fade 6s ease-in-out infinite}@keyframes fade{0%,12%{opacity:1}50%,62%{opacity:.08}100%{opacity:1}}
+.ham{transform-origin:232px 200px;animation:hm .12s linear infinite alternate}@keyframes hm{from{transform:rotate(0)}to{transform:rotate(-9deg)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="70" y="228" width="260" height="16" rx="4" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<path d="M192 206 V248 H50 V252" fill="none" stroke="#E5484D" stroke-width="3"/><path d="M208 206 V252" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M286 244 V262 H322" fill="none" stroke="#6E7396" stroke-width="7" stroke-linecap="round"/>
+<rect x="18" y="250" width="70" height="32" rx="6" fill="#F6C453" stroke="#B8892A" stroke-width="2.5"/>
+<path d="M56 254 L46 268 H54 L50 280 L64 262 H56 L60 254Z" fill="#2B2F4A"/>
+<rect x="318" y="238" width="66" height="44" rx="8" fill="#C9CDE6" stroke="#6E7396" stroke-width="2.5"/>
+<circle cx="351" cy="260" r="12" fill="#FFFFFF" stroke="#6E7396" stroke-width="2"/><path d="M351 260 L358 253" stroke="#E5484D" stroke-width="2.5" stroke-linecap="round"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12"><text x="351" y="232" text-anchor="middle">pump</text></g>
+<g class="air" fill="#0B93D4"><circle cx="140" cy="90" r="3"/><circle cx="175" cy="72" r="3"/><circle cx="230" cy="76" r="3"/><circle cx="262" cy="96" r="3"/><circle cx="128" cy="140" r="3"/><circle cx="270" cy="140" r="3"/><circle cx="150" cy="200" r="3"/><circle cx="250" cy="205" r="3"/><circle cx="120" cy="185" r="3"/><circle cx="282" cy="180" r="3"/><circle cx="200" cy="98" r="3"/><circle cx="160" cy="116" r="3"/><circle cx="244" cy="118" r="3"/><circle cx="136" cy="214" r="3"/><circle cx="268" cy="214" r="3"/></g>
+<rect x="194" y="176" width="12" height="52" fill="#6E7396"/>
+<rect x="182" y="186" width="36" height="22" rx="4" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<circle cx="200" cy="150" r="26" fill="#F6C453" stroke="#B8892A" stroke-width="2.5"/><circle cx="192" cy="142" r="7" fill="#FFF3C4"/>
+<g class="ham"><path d="M232 200 L226 158" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><circle cx="225" cy="153" r="6" fill="#2B2F4A"/></g>
+<path d="M100 228 V112 Q100 46 200 46 Q300 46 300 112 V228" fill="#E3F2FD" fill-opacity=".45" stroke="#6B7A99" stroke-width="3"/>
+<path d="M118 200 V116 Q118 72 168 62" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<circle cx="200" cy="40" r="8" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<g class="snd" fill="none" stroke="#FF8A1F"><path class="" d="M312 107 q9.1 13 0 26 M325 103 q11.899999999999999 17 0 34 M338 99 q14.7 21 0 42" fill="none" stroke-width="3" stroke-linecap="round"/><path class="" d="M88 107 q-9.1 13 0 26 M75 103 q-11.899999999999999 17 0 34 M62 99 q-14.7 21 0 42" fill="none" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

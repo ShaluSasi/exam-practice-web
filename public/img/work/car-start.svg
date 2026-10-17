@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A car accelerating from rest with its speedometer needle rising</title>
+<style>
+.car{animation:go 4s cubic-bezier(.5,0,.9,.5) infinite}
+.wh{transform-box:fill-box;transform-origin:center;animation:sp 4s cubic-bezier(.5,0,.9,.5) infinite}
+.ndl{transform-origin:330px 80px;animation:nd 4s cubic-bezier(.5,0,.9,.5) infinite}
+@keyframes go{from{transform:translateX(-40px)}to{transform:translateX(150px)}}
+@keyframes sp{to{transform:rotate(1080deg)}}
+@keyframes nd{from{transform:rotate(-80deg)}to{transform:rotate(60deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="200" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="200" width="400" height="60" fill="#A3A8CC"/>
+<path d="M0 230H400" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="26 18"/>
+<g class="car">
+<path d="M40 190V166Q40 156 52 154L84 150L110 126Q116 120 126 120H176Q186 120 192 128L210 150L236 154Q246 156 246 168V190Z" fill="#FF8A1F" stroke="#B85C0E" stroke-width="3" stroke-linejoin="round"/>
+<path d="M98 150L118 130H146V150ZM154 150V130H182L198 150Z" fill="#CDEBFA" stroke="#B85C0E" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="wh"><circle cx="86" cy="192" r="16" fill="#2B2F4A"/><path d="M76 192H96M86 182V202" stroke="#A3A8CC" stroke-width="3"/></g>
+<g class="wh"><circle cx="202" cy="192" r="16" fill="#2B2F4A"/><path d="M192 192H212M202 182V202" stroke="#A3A8CC" stroke-width="3"/></g>
+</g>
+<circle cx="330" cy="80" r="46" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M298 108A42 42 0 1 1 362 108" fill="none" stroke="#CDEBFA" stroke-width="6"/>
+<g class="ndl"><path d="M330 80V44" stroke="#E5484D" stroke-width="4" stroke-linecap="round"/></g>
+<circle cx="330" cy="80" r="5" fill="#2B2F4A"/>
+</svg>

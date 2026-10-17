@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Three playground slides of different shapes starting from the same platform</title>
+<style>@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="220" rx="16" fill="#E3F2FD"/>
+<rect x="0" y="220" width="400" height="40" fill="#9CCB86"/>
+<rect x="40" y="60" width="44" height="160" fill="#C8925A" stroke="#8A5A2B" stroke-width="3"/>
+<path d="M44 90H80M44 120H80M44 150H80M44 180H80M44 210H80" stroke="#8A5A2B" stroke-width="3"/>
+<rect x="30" y="52" width="64" height="10" rx="3" fill="#A3A8CC" stroke="#5E6390" stroke-width="2.5"/>
+<g fill="none" stroke-linecap="round" stroke-width="8">
+<path d="M90 62L200 216" stroke="#E5484D"/>
+<path d="M90 62Q150 62 200 140Q240 214 300 216" stroke="#0B93D4"/>
+<path d="M90 62C200 70 140 210 230 210C300 210 330 214 380 216" stroke="#3FA34D"/>
+</g>
+<g transform="translate(0 -10)"><circle r="8" fill="#F6C453" stroke="#B98A1F" stroke-width="2.5"><animateMotion dur="3s" repeatCount="indefinite" path="M90 62Q150 62 200 140Q240 214 300 216" calcMode="spline" keyTimes="0;1" keyPoints="0;1" keySplines="0.5 0 0.8 0.6"/></circle></g>
+<path d="M18 62V216" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<path d="M12 70L18 58L24 70M12 208L18 220L24 208" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<g font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="26" y="40">h</text><text x="200" y="244">1</text><text x="300" y="244">2</text><text x="380" y="244">3</text></g>
+</svg>

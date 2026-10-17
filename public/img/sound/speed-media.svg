@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img">
+<title>Three media: a steel bar, a tank of water and air</title>
+<style>.wv{animation:wv 2s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-12px)}}.air{animation:ai 3s ease-in-out infinite alternate}@keyframes ai{to{transform:translate(4px,-4px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="30" y="70" width="110" height="60" rx="6" fill="#C9CDE6" stroke="#6E7396" stroke-width="2.5"/><path d="M40 84 L120 84" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<path d="M170 50 V136 Q170 146 180 146 H260 Q270 146 270 136 V50" fill="#F2FAFF" stroke="#6B7A99" stroke-width="3"/>
+<path d="M172 74 H268 V136 Q268 144 260 144 H180 Q172 144 172 136Z" fill="#7CC4E8"/>
+<path class="wv" d="M172 74 q12 -5 24 0 t24 0 t24 0 t24 0" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+<rect x="300" y="50" width="110" height="96" rx="10" fill="#E3F2FD" stroke="#0B93D4" stroke-width="2.5" stroke-dasharray="6 5"/>
+<g class="air" fill="#0B93D4"><circle cx="318" cy="70" r="3"/><circle cx="350" cy="64" r="3"/><circle cx="388" cy="76" r="3"/><circle cx="330" cy="100" r="3"/><circle cx="368" cy="96" r="3"/><circle cx="396" cy="122" r="3"/><circle cx="316" cy="130" r="3"/><circle cx="352" cy="128" r="3"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="14" text-anchor="middle"><text x="85" y="170">Steel</text><text x="220" y="170">Water</text><text x="355" y="170">Air</text></g>
+</svg>

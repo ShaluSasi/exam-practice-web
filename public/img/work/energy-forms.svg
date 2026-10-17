@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A collage: a plate of food, a ringing bell, a cup of hot tea and an atom</title>
+<style>
+.bell{transform-origin:125px 40px;animation:rg .6s ease-in-out infinite alternate}
+.stm{animation:sm 2.5s ease-out infinite}
+.orb{transform-box:fill-box;transform-origin:center;animation:or 4s linear infinite}
+@keyframes rg{from{transform:rotate(-12deg)}to{transform:rotate(12deg)}}
+@keyframes sm{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-20px);opacity:0}}
+@keyframes or{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="80" cy="200" rx="58" ry="22" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="3"/>
+<ellipse cx="60" cy="194" rx="20" ry="10" fill="#F6C453" stroke="#B98A1F" stroke-width="2"/>
+<circle cx="96" cy="192" r="12" fill="#E5484D" stroke="#9E2A2E" stroke-width="2"/>
+<g class="bell">
+<path d="M125 40V52" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M100 104Q100 54 125 52Q150 54 150 104Z" fill="#F6C453" stroke="#B98A1F" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="125" cy="110" r="7" fill="#B98A1F"/>
+</g>
+<g fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"><path d="M164 66Q172 80 164 94M176 60Q188 80 176 100"/></g>
+<rect x="240" y="170" width="60" height="50" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M300 182Q318 182 318 194Q318 206 300 206" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<rect x="246" y="176" width="48" height="10" fill="#C8925A"/>
+<g class="stm" fill="none" stroke="#E5484D" stroke-width="3" stroke-linecap="round"><path d="M256 164Q250 156 256 148M270 164Q264 156 270 148M284 164Q278 156 284 148"/></g>
+<circle cx="320" cy="80" r="10" fill="#E5484D"/>
+<g class="orb" fill="none" stroke="#0B93D4" stroke-width="2.5">
+<ellipse cx="320" cy="80" rx="52" ry="18"/>
+<ellipse cx="320" cy="80" rx="52" ry="18" transform="rotate(60 320 80)"/>
+<ellipse cx="320" cy="80" rx="52" ry="18" transform="rotate(120 320 80)"/>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A band of electromagnetic radiation from short to long wavelength</title>
+<defs>
+<linearGradient id="vis" x1="0" x2="1">
+<stop offset="0" stop-color="#8E5CD9"/><stop offset=".2" stop-color="#3D7BE0"/><stop offset=".4" stop-color="#3FA34D"/><stop offset=".6" stop-color="#F6D04D"/><stop offset=".8" stop-color="#FF8A1F"/><stop offset="1" stop-color="#E5484D"/>
+</linearGradient>
+</defs>
+<style>
+.wv{stroke-dasharray:14 6;animation:run 1.2s linear infinite}
+@keyframes run{to{stroke-dashoffset:-40}}
+.gl{animation:gl 3s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.15}50%{opacity:.5}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path class="wv" d="M20 52 q1.5 -28 3 0 q1.5 28 3 0 q2 -28 4 0 q2 28 4 0 q2.5 -28 5 0 q3 28 6 0 q3.5 -28 7 0 q4 28 8 0 q4.5 -28 9 0 q5 28 10 0 q6 -28 12 0 q7 28 14 0 q8 -28 16 0 q9.5 28 19 0 q11 -28 22 0 q13 28 26 0 q15 -28 30 0 q17.5 28 35 0 q20 -28 40 0 q22.5 28 45 0 q21 -28 42 0" fill="none" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<rect x="20" y="90" width="50" height="40" fill="#D9D2F2"/>
+<rect x="70" y="90" width="50" height="40" fill="#C9D9F6"/>
+<rect x="120" y="90" width="55" height="40" fill="#E6D4FA"/>
+<rect x="175" y="90" width="40" height="40" fill="url(#vis)"/>
+<rect x="215" y="90" width="60" height="40" fill="#FBD3C2"/>
+<rect x="275" y="90" width="50" height="40" fill="#FCE7B8"/>
+<rect x="325" y="90" width="55" height="40" fill="#DDEFD2"/>
+</g>
+<rect class="gl" x="175" y="90" width="40" height="40" fill="#FFFFFF"/>
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 160H30M40 152L30 160L40 168"/>
+<path d="M250 160H370M360 152L370 160L360 168"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A">
+<text x="30" y="186">shorter wavelength</text>
+<text x="370" y="186" text-anchor="end">longer wavelength</text>
+</g>
+</svg>

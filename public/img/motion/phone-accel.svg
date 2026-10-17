@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>Accelerometer readings of a phone held on a palm and a phone lying on the floor</title>
+<style>
+.t{font:600 13px system-ui, sans-serif;fill:#2B2F4A}.s{font:600 12px system-ui, sans-serif;fill:#2B2F4A}.m{text-anchor:middle}.e{text-anchor:end}
+.tr{stroke-dasharray:100;animation:tr 3s linear infinite}@keyframes tr{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(10 0)"><rect x="0" y="10" width="185" height="200" rx="12" fill="#FFFFFF" stroke="#E6DCC8" stroke-width="2"/><text class="t m" x="92" y="198">On a palm</text><rect x="52" y="24" width="80" height="140" rx="12" fill="#2B2F4A"/><rect x="58" y="34" width="68" height="118" rx="6" fill="#E9F6FF"/><path d="M62 94H122" stroke="#A3A8CC" stroke-width="1"/><path class="tr" pathLength="100" d="M62 94L65 101.5L68 84.0L71 99.0L74 86.5L77 104.0L80 89.0L83 101.5L86 84.0L89 99.0L92 86.5L95 104.0L98 89.0L101 101.5L104 84.0L107 99.0L110 86.5L113 104.0L116 89.0L119 101.5L122 84.0" fill="none" stroke="#E5484D" stroke-width="2"/><path d="M40 168Q30 120 52 112L132 112Q150 120 146 168Z" fill="#F2C59B" stroke="#2B2F4A" stroke-width="2" opacity=".85"/></g><g transform="translate(205 0)"><rect x="0" y="10" width="185" height="200" rx="12" fill="#FFFFFF" stroke="#E6DCC8" stroke-width="2"/><text class="t m" x="92" y="198">On the floor</text><rect x="52" y="24" width="80" height="140" rx="12" fill="#2B2F4A"/><rect x="58" y="34" width="68" height="118" rx="6" fill="#E9F6FF"/><path d="M62 94H122" stroke="#A3A8CC" stroke-width="1"/><path class="tr" pathLength="100" d="M62 94H122" fill="none" stroke="#3FA34D" stroke-width="2.5"/><path d="M20 166H165" stroke="#C8925A" stroke-width="6"/></g>
+</svg>

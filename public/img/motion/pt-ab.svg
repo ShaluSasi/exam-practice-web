@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img">
+<title>Position-time graphs of two objects A and B over 10 seconds</title>
+<style>
+.t{font:600 13px system-ui, sans-serif;fill:#2B2F4A}.s{font:600 12px system-ui, sans-serif;fill:#2B2F4A}.m{text-anchor:middle}.e{text-anchor:end}
+.ln{stroke-dasharray:100;animation:dr 6s ease-in-out infinite}@keyframes dr{0%{stroke-dashoffset:100}55%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M124 40V236M188 40V236M252 40V236M316 40V236M380 40V236M60 180H380M60 124H380M60 68H380" stroke="#E6DCC8" stroke-width="1.2"/><path d="M60 34V236H386" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><text class="s m" x="60" y="252">0</text><text class="s m" x="124" y="252">2</text><text class="s m" x="188" y="252">4</text><text class="s m" x="252" y="252">6</text><text class="s m" x="316" y="252">8</text><text class="s m" x="380" y="252">10</text><text class="s e" x="53" y="184">30</text><text class="s e" x="53" y="128">60</text><text class="s e" x="53" y="72">90</text><text class="t m" x="220" y="269">Time (s)</text><text class="t m" transform="translate(18 138) rotate(-90)">Position (m)</text><path d="M60 236L380 124" fill="none" stroke="#0B93D4" stroke-opacity=".3" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path class="ln" pathLength="100" d="M60 236L380 124" fill="none" stroke="#0B93D4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 236L252 68L380 124" fill="none" stroke="#FF8A1F" stroke-opacity=".3" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path class="ln" pathLength="100" d="M60 236L252 68L380 124" fill="none" stroke="#FF8A1F" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><text class="t" x="335.2" y="152.9" fill="#0B93D4">A</text><text class="t" x="246" y="60">B</text><circle cx="380" cy="124" r="5" fill="#FFF" stroke="#2B2F4A" stroke-width="2.5"/>
+</svg>

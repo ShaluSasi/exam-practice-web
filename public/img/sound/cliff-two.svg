@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260" role="img">
+<title>Two identical sound sources, A in air and B under water, facing a vertical cliff</title>
+<style>.pa{animation:pa 2.2s linear infinite alternate}@keyframes pa{to{transform:translateX(272px)}}.pb{animation:pa .5s linear infinite alternate}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="8" y="8" width="424" height="244" rx="12" fill="#E3F2FD"/>
+<path d="M8 140 H360 V252 H16 Q8 252 8 244Z" fill="#7CC4E8"/>
+<path d="M360 20 L400 10 L432 20 V252 H360Z" fill="#B79C7E" stroke="#7E6448" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M76 84 H354 M354 100 H80 M76 194 H354 M354 210 H80" stroke="#6B7A99" stroke-width="2" stroke-dasharray="6 6"/>
+<g><rect x="30" y="74" width="34" height="34" rx="6" fill="#2B2F4A"/><circle cx="52" cy="91" r="10" fill="#A3A8CC"/></g>
+<g><rect x="30" y="184" width="34" height="34" rx="6" fill="#2B2F4A"/><circle cx="52" cy="201" r="10" fill="#A3A8CC"/></g>
+<circle class="pa" cx="80" cy="92" r="7" fill="#FF8A1F"/><circle class="pb" cx="80" cy="202" r="7" fill="#F6C453"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="18"><text x="40" y="66">A</text><text x="40" y="176">B</text></g>
+</svg>

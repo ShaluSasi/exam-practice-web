@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A farm on a slope draining into a lake covered with green scum</title>
+<style>
+.ro{stroke-dasharray:8 6;animation:f 1.4s linear infinite}
+@keyframes f{to{stroke-dashoffset:-28}}
+.al{animation:al 4s ease-in-out infinite alternate}
+@keyframes al{from{transform:translateX(-4px)}to{transform:translateX(4px)}}
+.fi{animation:bob 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(180deg)}50%{transform:translateY(-4px) rotate(172deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 70L170 150H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#C9A878" stroke="#8A6A3E" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#3FA34D" stroke-width="3" stroke-linecap="round"><path d="M14 80l-3-10M14 80l3-10M44 94l-3-10M44 94l3-10M74 108l-3-10M74 108l3-10M104 122l-3-10M104 122l3-10M134 136l-3-10M134 136l3-10"/></g>
+<g transform="translate(30 104)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M0 0h26l-3 28h-20z" fill="#F6F0E2"/><path d="M6 10h14" stroke="#0B93D4" stroke-width="3"/></g>
+<path class="ro" d="M60 132Q110 150 150 160Q176 168 196 172" fill="none" stroke="#7FB04A" stroke-width="4" stroke-linecap="round"/>
+<path d="M180 160Q200 150 380 150Q392 196 360 236Q280 248 220 236Q186 210 180 160Z" fill="#6FB7D9" stroke="#0B6FA4" stroke-width="2.5"/>
+<g class="al" fill="#5BAE3C" stroke="#3B7D26" stroke-width="1.5">
+<path d="M190 162Q240 150 300 154Q340 150 374 156Q376 168 350 170Q300 176 250 172Q210 174 190 162Z"/>
+<circle cx="230" cy="168" r="4"/><circle cx="290" cy="170" r="5"/><circle cx="336" cy="164" r="4"/>
+</g>
+<g class="fi"><path d="M260 210q14-10 28 0q-14 10-28 0zm28 0l9-6v12z" fill="#C3C7D6" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/></g>
+<g class="fi" style="animation-delay:-1.2s"><path d="M310 222q11-8 22 0q-11 8-22 0zm22 0l7-5v10z" fill="#C3C7D6" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/></g>
+</svg>

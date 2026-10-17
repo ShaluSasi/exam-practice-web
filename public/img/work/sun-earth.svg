@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Energy travelling from the Sun to the Earth across space, and steam rising from a hot cup</title>
+<style>
+.ray{animation:ry 2s linear infinite}
+.sun{transform-box:fill-box;transform-origin:center;animation:gl 3s ease-in-out infinite}
+.stm{animation:sm 2.5s ease-out infinite}
+@keyframes ry{to{stroke-dashoffset:-40}}
+@keyframes gl{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+@keyframes sm{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-24px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="8" y="8" width="384" height="160" rx="12" fill="#2B2F4A"/>
+<g fill="#FFFFFF"><circle cx="160" cy="30" r="1.5"/><circle cx="230" cy="150" r="1.5"/><circle cx="300" cy="40" r="1.5"/><circle cx="200" cy="90" r="1"/></g>
+<g class="sun"><circle cx="60" cy="88" r="40" fill="#F6C453" stroke="#FF8A1F" stroke-width="4"/></g>
+<g class="ray" fill="none" stroke="#F6C453" stroke-width="3" stroke-dasharray="12 8" stroke-linecap="round">
+<path d="M110 70Q190 50 290 76"/><path d="M110 88H290"/><path d="M110 106Q190 126 290 100"/>
+</g>
+<circle cx="330" cy="88" r="38" fill="#0B93D4" stroke="#075E88" stroke-width="3"/>
+<path d="M310 66Q324 60 330 72Q322 84 310 78Z M336 94Q352 88 356 102Q344 116 334 106Z M302 98Q312 100 312 112Q304 116 300 106Z" fill="#3FA34D"/>
+<rect x="160" y="196" width="60" height="48" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M220 208Q238 208 238 220Q238 232 220 232" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<rect x="166" y="202" width="48" height="10" fill="#C8925A"/>
+<g class="stm" fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"><path d="M176 190Q170 182 176 174M190 190Q184 182 190 174M204 190Q198 182 204 174"/></g>
+</svg>

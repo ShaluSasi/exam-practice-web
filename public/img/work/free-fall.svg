@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A ball falling freely with two energy bars that change as it falls</title>
+<style>
+.ball{animation:fall 3s cubic-bezier(.5,0,1,1) infinite}
+.pe{transform-box:fill-box;transform-origin:bottom;animation:pe 3s cubic-bezier(.5,0,1,1) infinite}
+.ke{transform-box:fill-box;transform-origin:bottom;animation:ke 3s cubic-bezier(.5,0,1,1) infinite}
+@keyframes fall{0%{transform:translateY(0)}90%,100%{transform:translateY(170px)}}
+@keyframes pe{0%{transform:scaleY(1)}90%,100%{transform:scaleY(0)}}
+@keyframes ke{0%{transform:scaleY(0)}90%,100%{transform:scaleY(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="226" width="400" height="34" fill="#D9C49A"/>
+<path d="M120 40V214" stroke="#A3A8CC" stroke-width="2" stroke-dasharray="5 5"/>
+<g class="ball"><circle cx="120" cy="44" r="14" fill="#0B93D4" stroke="#075E88" stroke-width="3"/></g>
+<rect x="250" y="40" width="40" height="170" rx="4" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2"/>
+<rect x="310" y="40" width="40" height="170" rx="4" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2"/>
+<rect class="pe" x="252" y="42" width="36" height="166" rx="3" fill="#3FA34D"/>
+<rect class="ke" x="312" y="42" width="36" height="166" rx="3" fill="#FF8A1F"/>
+<g font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="270" y="30">PE</text><text x="330" y="30">KE</text></g>
+</svg>
