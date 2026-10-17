@@ -1,0 +1,121 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Semantic colour tokens. Components only use these names, so a region or
+   brand re-skin is a change here, not in components. */
+:root {
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --surface-2: #f0ede6;
+  --fg: #1b1f3b;
+  --muted: #5e6278;
+  --line: #e4e0d6;
+  --brand: #ff8a1f;
+  --brand-ink: #1b1f3b;
+  --brand-soft: #ffe7d1;
+  --ok: #0f9f5f;
+  --ok-soft: #d6f5e6;
+  --bad: #e5483b;
+  --bad-soft: #fde2df;
+  --maths: #5b5ef0;
+  --physics: #0b93d4;
+  --chemistry: #a24ee8;
+  --biology: #5a9a10;
+  --shadow: 27 31 59;
+}
+
+.dark {
+  --bg: #0e1022;
+  --surface: #171a33;
+  --surface-2: #1f2342;
+  --fg: #eef0fa;
+  --muted: #9aa0bf;
+  --line: #2a2f55;
+  --brand: #ff9a3c;
+  --brand-ink: #1b1f3b;
+  --brand-soft: #3a2a26;
+  --ok: #2fd389;
+  --ok-soft: #133a30;
+  --bad: #ff6b5e;
+  --bad-soft: #3d1e28;
+  --maths: #8b8dff;
+  --physics: #3cc0ff;
+  --chemistry: #c88bff;
+  --biology: #9bd34a;
+  --shadow: 0 0 0;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-maths: var(--maths);
+  --color-physics: var(--physics);
+  --color-chemistry: var(--chemistry);
+  --color-biology: var(--biology);
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --shadow-card: 0 1px 2px rgb(var(--shadow) / 0.06), 0 8px 24px -12px rgb(var(--shadow) / 0.18);
+  --shadow-pop: 0 2px 0 rgb(var(--shadow) / 0.12), 0 14px 32px -14px rgb(var(--shadow) / 0.35);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Subtle dotted "exam paper" texture behind everything. */
+.paper {
+  background-image: radial-gradient(rgb(var(--shadow) / 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.dark .paper {
+  background-image: radial-gradient(rgb(255 255 255 / 0.05) 1px, transparent 1px);
+}
+
+.katex {
+  font-size: 1.08em;
+}
+.katex-display {
+  margin: 0.6em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 0;
+}
+
+/* Hide number-input spinners: answers are typed, not stepped. */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
