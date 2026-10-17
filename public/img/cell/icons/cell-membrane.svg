@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>Cell membrane</title>
+<defs>
+<g id="pl"><path d="M-2 4 C-4 10 0 14 -2 20 M2 4 C4 10 0 14 2 20" fill="none" stroke="#C99A1E" stroke-width="1.6" stroke-linecap="round"/><circle r="4.5" fill="#E2717F" stroke="#B5485A" stroke-width="1.5"/></g>
+</defs>
+<style>
+.w{animation:w 4s ease-in-out infinite}
+@keyframes w{0%,100%{transform:translateY(-2px)}50%{transform:translateY(2px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="w">
+<g transform="translate(60 150)">
+<use href="#pl" transform="rotate(-28) translate(0 -112)"/><use href="#pl" transform="rotate(-21) translate(0 -112)"/><use href="#pl" transform="rotate(-14) translate(0 -112)"/><use href="#pl" transform="rotate(-7) translate(0 -112)"/><use href="#pl" transform="rotate(0) translate(0 -112)"/><use href="#pl" transform="rotate(7) translate(0 -112)"/><use href="#pl" transform="rotate(14) translate(0 -112)"/><use href="#pl" transform="rotate(21) translate(0 -112)"/><use href="#pl" transform="rotate(28) translate(0 -112)"/>
+<use href="#pl" transform="rotate(-28) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(-21) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(-14) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(-7) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(0) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(7) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(14) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(21) translate(0 -70) rotate(180)"/><use href="#pl" transform="rotate(28) translate(0 -70) rotate(180)"/>
+</g>
+</g>
+</svg>

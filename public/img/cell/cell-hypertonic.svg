@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>Red blood cell in a hypertonic solution: water moves out and the cell shrinks and wrinkles</title>
+<style>
+.ar{fill:none;stroke:#2F6FA8;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.out{animation:out 2.5s ease-in-out infinite}
+.d1{animation-delay:-1.25s}
+.cell{transform-box:fill-box;transform-origin:center;animation:shrink 5s ease-in-out infinite}
+.smooth{animation:fadeA 5s ease-in-out infinite}
+.wavy{opacity:0;animation:fadeB 5s ease-in-out infinite}
+@keyframes out{0%{transform:translateX(0);opacity:0}25%,75%{opacity:1}100%{transform:translateX(8px);opacity:0}}
+@keyframes shrink{0%,8%{transform:scale(1)}70%,88%{transform:scale(.65)}100%{transform:scale(1)}}
+@keyframes fadeA{0%,40%{opacity:1}65%,88%{opacity:0}100%{opacity:1}}
+@keyframes fadeB{0%,40%{opacity:0}65%,88%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<radialGradient id="rbc">
+<stop offset="0" stop-color="#F6A3A5"/>
+<stop offset=".45" stop-color="#EF7D80"/>
+<stop offset=".85" stop-color="#E5484D"/>
+</radialGradient>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="100" cy="80" r="72" fill="#E9F5FF" stroke="#4A90C8" stroke-width="3"/>
+<circle cx="100" cy="80" r="64" fill="#CDE9FF" stroke="#4A90C8" stroke-width="1.5" stroke-opacity=".5"/>
+<g transform="translate(100 80)">
+<g class="cell">
+<circle r="28" fill="none"/>
+<circle class="smooth" r="26" fill="url(#rbc)" stroke="#B8323A" stroke-width="2.5"/>
+<g class="wavy">
+<path d="M24 0A7 7 0 0 1 20.78 12A7 7 0 0 1 12 20.78A7 7 0 0 1 0 24A7 7 0 0 1 -12 20.78A7 7 0 0 1 -20.78 12A7 7 0 0 1 -24 0A7 7 0 0 1 -20.78 -12A7 7 0 0 1 -12 -20.78A7 7 0 0 1 0 -24A7 7 0 0 1 12 -20.78A7 7 0 0 1 20.78 -12A7 7 0 0 1 24 0Z" fill="#E5484D" stroke="#B8323A" stroke-width="2.5" stroke-linejoin="round"/>
+<circle r="10" fill="#EF7D80"/>
+</g>
+</g>
+<g class="ar">
+<g transform="rotate(0)"><path class="out" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(45)"><path class="out d1" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(90)"><path class="out" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(135)"><path class="out d1" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(180)"><path class="out" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(225)"><path class="out d1" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(270)"><path class="out" d="M30 0H42M38 -4L42 0L38 4"/></g>
+<g transform="rotate(315)"><path class="out d1" d="M30 0H42M38 -4L42 0L38 4"/></g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>Golgi apparatus</title>
+<style>
+.v{animation:v 3s ease-out infinite;opacity:0}
+.v2{animation-delay:-1s}.v3{animation-delay:-2s}
+@keyframes v{0%{opacity:0;transform:translate(0,0)}20%{opacity:1}100%{opacity:0;transform:translate(8px,-10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.v{opacity:1}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g fill="#F28CB1" stroke="#D9578F" stroke-width="2.5" stroke-linejoin="round">
+<path d="M22 40 C40 30 80 30 98 40 C100 44 96 46 92 45 C76 38 44 38 28 45 C24 46 20 44 22 40 Z"/>
+<path d="M18 54 C40 44 80 44 102 54 C104 58 100 60 96 59 C76 52 44 52 24 59 C20 60 16 58 18 54 Z"/>
+<path d="M18 68 C40 58 80 58 102 68 C104 72 100 74 96 73 C76 66 44 66 24 73 C20 74 16 72 18 68 Z"/>
+<path d="M22 82 C40 72 80 72 98 82 C100 86 96 88 92 87 C76 80 44 80 28 87 C24 88 20 86 22 82 Z"/>
+<path d="M28 95 C44 87 76 87 92 95 C94 99 90 101 86 100 C72 94 48 94 34 100 C30 101 26 99 28 95 Z"/>
+</g>
+<g fill="#F28CB1" stroke="#D9578F" stroke-width="2">
+<circle class="v" cx="102" cy="40" r="4"/><circle class="v v2" cx="106" cy="66" r="4"/><circle class="v v3" cx="98" cy="92" r="4"/>
+<circle cx="16" cy="44" r="3.5"/><circle cx="12" cy="76" r="3.5"/>
+</g>
+</svg>

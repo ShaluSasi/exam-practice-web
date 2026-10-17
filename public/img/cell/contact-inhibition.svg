@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>Normal cells stop dividing after forming one layer; cancer cells keep dividing and pile up</title>
+<defs>
+<g id="n"><ellipse cx="10" cy="0" rx="10" ry="8" fill="#FFE1E1" stroke="#E2717F" stroke-width="2"/><circle cx="10" cy="0" r="3" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="1.2"/></g>
+<g id="c"><path d="M0 1 C0 -7 8 -9 12 -8 C19 -7 21 -2 20 2 C19 8 12 9 8 8 C2 8 0 5 0 1 Z" fill="#F7B2C0" stroke="#C2455A" stroke-width="2" stroke-linejoin="round"/><circle cx="10" cy="0" r="4" fill="#B48AE0" stroke="#6D3BB0" stroke-width="1.2"/></g>
+</defs>
+<style>
+.k{transform-box:fill-box;transform-origin:center;transform:scale(0)}
+.k1{animation:p1 7s ease-out infinite}.k2{animation:p2 7s ease-out infinite}.k3{animation:p3 7s ease-out infinite}
+.k4{animation:p4 7s ease-out infinite}.k5{animation:p5 7s ease-out infinite}.k6{animation:p6 7s ease-out infinite}.k7{animation:p7 7s ease-out infinite}
+@keyframes p1{0%,3%{transform:scale(0)}9%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@keyframes p2{0%,12%{transform:scale(0)}18%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@keyframes p3{0%,21%{transform:scale(0)}27%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@keyframes p4{0%,30%{transform:scale(0)}36%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@keyframes p5{0%,42%{transform:scale(0)}48%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@keyframes p6{0%,54%{transform:scale(0)}60%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@keyframes p7{0%,66%{transform:scale(0)}72%,90%{transform:scale(1);opacity:1}97%,100%{transform:scale(1);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.k{transform:none}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="10" y="10" width="186" height="200" rx="12" fill="#FFFFFF" stroke="#E6DCC8" stroke-width="2"/>
+<rect x="204" y="10" width="186" height="200" rx="12" fill="#FFFFFF" stroke="#E6DCC8" stroke-width="2"/>
+<text x="103" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A">Normal cells</text>
+<text x="297" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A">Cancer cells</text>
+<rect x="16" y="171" width="174" height="14" rx="5" fill="#DCEAF3" stroke="#7FA6BF" stroke-width="2"/>
+<rect x="210" y="171" width="174" height="14" rx="5" fill="#DCEAF3" stroke="#7FA6BF" stroke-width="2"/>
+<g transform="translate(0 162)">
+<use class="k k1" href="#n" x="82"/><use class="k k1" href="#n" x="104"/>
+<use class="k k2" href="#n" x="60"/><use class="k k2" href="#n" x="126"/>
+<use class="k k3" href="#n" x="38"/><use class="k k3" href="#n" x="148"/>
+<use class="k k4" href="#n" x="18"/><use class="k k4" href="#n" x="168"/>
+</g>
+<g transform="translate(194 162)">
+<use class="k k1" href="#c" x="82"/><use class="k k1" href="#c" x="104"/>
+<use class="k k2" href="#c" x="60"/><use class="k k2" href="#c" x="126"/>
+<use class="k k3" href="#c" x="38"/><use class="k k3" href="#c" x="148"/>
+<use class="k k4" href="#c" x="18"/><use class="k k4" href="#c" x="168"/>
+<use class="k k5" href="#c" x="50" y="-15"/><use class="k k5" href="#c" x="72" y="-16"/><use class="k k5" href="#c" x="94" y="-15"/><use class="k k5" href="#c" x="116" y="-16"/><use class="k k5" href="#c" x="138" y="-14"/>
+<use class="k k6" href="#c" x="62" y="-30"/><use class="k k6" href="#c" x="84" y="-31"/><use class="k k6" href="#c" x="106" y="-30"/><use class="k k6" href="#c" x="128" y="-28"/><use class="k k6" href="#c" x="30" y="-12"/>
+<use class="k k7" href="#c" x="74" y="-45"/><use class="k k7" href="#c" x="96" y="-46"/><use class="k k7" href="#c" x="86" y="-60"/><use class="k k7" href="#c" x="116" y="-43"/><use class="k k7" href="#c" x="158" y="-12"/>
+</g>
+</svg>

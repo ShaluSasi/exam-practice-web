@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>One cell divides into two identical daughter cells</title>
+<style>
+.p{animation:p 4.5s ease-in-out infinite}
+.L{opacity:0;animation:L 4.5s ease-in-out infinite}
+.R{opacity:0;animation:R 4.5s ease-in-out infinite}
+@keyframes p{0%,22%{opacity:1}28%,94%{opacity:0}100%{opacity:1}}
+@keyframes L{0%,22%{transform:translateX(0);opacity:0}28%{transform:translateX(0);opacity:1}45%{transform:translateX(-34px)}70%,90%{transform:translateX(-75px);opacity:1}96%,100%{transform:translateX(-75px);opacity:0}}
+@keyframes R{0%,22%{transform:translateX(0);opacity:0}28%{transform:translateX(0);opacity:1}45%{transform:translateX(34px)}70%,90%{transform:translateX(75px);opacity:1}96%,100%{transform:translateX(75px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.L,.R{opacity:1}.L{transform:translateX(-75px)}.R{transform:translateX(75px)}.p{opacity:0}}
+</style>
+<defs>
+<g id="nuc">
+<circle r="19" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2.5"/>
+<path d="M-9 -9L-4 9" stroke="#E5484D" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M4 -9L9 8" stroke="#3D7BD9" stroke-width="5.5" stroke-linecap="round"/>
+</g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(200 100)">
+<g class="p">
+<circle r="50" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/>
+<use href="#nuc" transform="scale(1.1)"/>
+</g>
+<circle class="L" r="46" fill="#D9926A" stroke="#D9926A" stroke-width="6"/>
+<circle class="R" r="46" fill="#D9926A" stroke="#D9926A" stroke-width="6"/>
+<circle class="L" r="46" fill="#FFE9D6"/>
+<circle class="R" r="46" fill="#FFE9D6"/>
+<g class="L"><use href="#nuc"/></g>
+<g class="R"><use href="#nuc"/></g>
+</g>
+</svg>

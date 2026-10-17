@@ -1,11 +1,16 @@
 import { motion } from "motion/react";
 import { region } from "../config/regions";
-import type { QuestionOf, ResponseFor } from "../content/schema";
+import clsx from "clsx";
+import type { Choice, QuestionOf, QuestionType, ResponseFor } from "../content/schema";
 import { RichText } from "../components/RichText";
 import { play } from "../lib/sound";
 import { OptionCard, type OptionState } from "./OptionCard";
 
-export interface QuestionProps<T extends "mcq" | "multi" | "numeric" | "assertion_reason" | "match" | "order"> {
+/** Options with pictures render as a 2-column grid of tiles. */
+const optionGrid = (options: Choice[]) =>
+  clsx("grid gap-3", options.some((o) => o.image) && "grid-cols-2");
+
+export interface QuestionProps<T extends QuestionType> {
   q: QuestionOf<T>;
   response: ResponseFor<T> | undefined;
   onChange: (r: ResponseFor<T>) => void;
@@ -20,12 +25,13 @@ function singleState(id: string, answer: string, picked: string | undefined, rev
 
 export function McqQuestion({ q, response, onChange, reveal }: QuestionProps<"mcq">) {
   return (
-    <ul className="grid gap-3" role="radiogroup">
+    <ul className={optionGrid(q.options)} role="radiogroup">
       {q.options.map((o, i) => (
         <OptionCard
           key={o.id}
           index={i}
           text={o.text}
+          image={o.image}
           state={singleState(o.id, q.answer, response, reveal)}
           disabled={reveal}
           onClick={() => {
@@ -49,13 +55,14 @@ export function MultiQuestion({ q, response = [], onChange, reveal }: QuestionPr
   return (
     <div>
       <p className="mb-3 text-sm font-semibold text-muted">Select all that apply</p>
-      <ul className="grid gap-3">
+      <ul className={optionGrid(q.options)}>
         {q.options.map((o, i) => (
           <OptionCard
             key={o.id}
             index={i}
             multi
             text={o.text}
+            image={o.image}
             state={state(o.id)}
             disabled={reveal}
             onClick={() => {

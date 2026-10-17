@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <title>A typical bacterial cell</title>
+  <style>
+    .swim { animation: swim 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes swim { 50% { transform: translateX(-4px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+  <g class="swim">
+    <!-- Flagellum (appendage for locomotion) -->
+    <path d="M308 120q10-14 20 0t20 0t20 0t20 0" fill="none" stroke="#4E8F2A" stroke-width="4" stroke-linecap="round">
+      <animate attributeName="d" dur="0.9s" repeatCount="indefinite"
+        values="M308 120q10-14 20 0t20 0t20 0t20 0;M308 120q10 14 20 0t20 0t20 0t20 0;M308 120q10-14 20 0t20 0t20 0t20 0"/>
+    </path>
+
+    <!-- Cell wall, membrane, cytoplasm -->
+    <rect x="70" y="70" width="240" height="100" rx="50" fill="#CFE9A8" stroke="#4E8F2A" stroke-width="6"/>
+    <rect x="80" y="80" width="220" height="80" rx="40" fill="#E9F7D2" stroke="#8CC152" stroke-width="2"/>
+
+    <!-- Nucleoid: tangled genetic material without a membrane -->
+    <path d="M160 112c10-22 40-20 46-4s-24 26-36 12 8-30 30-24 30 22 10 30-40 6-36-12c4-14 30-16 40-4" fill="none" stroke="#8E44AD" stroke-width="3" stroke-linecap="round"/>
+    <path d="M176 104c18-6 30 6 24 16" fill="none" stroke="#B37ED6" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Ribosomes -->
+    <g fill="#5B3A8C">
+      <circle cx="110" cy="100" r="3"/><circle cx="104" cy="136" r="3"/><circle cx="130" cy="146" r="3"/>
+      <circle cx="250" cy="98" r="3"/><circle cx="268" cy="130" r="3"/><circle cx="240" cy="148" r="3"/>
+      <circle cx="140" cy="94" r="3"/>
+    </g>
+  </g>
+</svg>

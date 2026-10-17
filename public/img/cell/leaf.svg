@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img">
+<title>A fresh green leaf</title>
+<defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8FD16A"/><stop offset="1" stop-color="#4E9F33"/></linearGradient></defs>
+<style>
+.sway{transform-origin:46px 118px;animation:sway 4s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="sway">
+<path d="M46 118 L30 136" stroke="#3E7A22" stroke-width="4" stroke-linecap="round"/>
+<path d="M46 118 C40 70 90 24 166 22 C168 80 120 124 46 118 Z" fill="url(#lg)" stroke="#3E7A22" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#3E7A22" stroke-width="2" stroke-linecap="round">
+<path d="M46 118 C80 92 120 58 160 28" stroke-width="2.6"/>
+<path d="M70 99 C66 86 68 74 72 66"/><path d="M70 99 C84 102 98 102 108 98"/>
+<path d="M94 80 C92 68 96 56 102 48"/><path d="M94 80 C108 82 122 80 132 74"/>
+<path d="M118 61 C118 52 122 44 128 38"/><path d="M118 61 C130 62 140 58 148 52"/>
+</g>
+<path d="M68 92 C80 70 104 48 130 38" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>

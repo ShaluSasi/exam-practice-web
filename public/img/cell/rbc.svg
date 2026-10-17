@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>Red blood cells flowing through a blood vessel</title>
+<style>
+.flow{animation:flow 6s linear infinite}
+@keyframes flow{from{transform:translateX(0)}to{transform:translateX(300px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="lumen"><rect x="0" y="55" width="300" height="90"/></clipPath>
+<radialGradient id="rg">
+<stop offset="0" stop-color="#F6A3A5"/>
+<stop offset=".45" stop-color="#EF7D80"/>
+<stop offset=".85" stop-color="#E5484D"/>
+</radialGradient>
+<circle id="f" r="13" fill="url(#rg)" stroke="#B32D33" stroke-width="2"/>
+<path id="e" d="M-13 0C-13 -7 -6 -6 0 -3C6 -6 13 -7 13 0C13 7 6 6 0 3C-6 6 -13 7 -13 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2" stroke-linejoin="round"/>
+<g id="cells">
+<use href="#f" x="22" y="76"/>
+<use href="#e" transform="translate(60 120) rotate(20)"/>
+<use href="#f" x="100" y="88"/>
+<use href="#f" x="140" y="126"/>
+<use href="#e" transform="translate(176 72) rotate(-15)"/>
+<use href="#f" x="214" y="110"/>
+<use href="#f" x="254" y="78"/>
+<use href="#e" transform="translate(282 126) rotate(70)"/>
+</g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="40" width="300" height="120" fill="#E9A0A0"/>
+<path d="M0 40H300M0 160H300" stroke="#B8545A" stroke-width="3"/>
+<rect x="0" y="55" width="300" height="90" fill="#FFEFD9"/>
+<path d="M0 55H300M0 145H300" stroke="#C96A70" stroke-width="2"/>
+<g clip-path="url(#lumen)">
+<g class="flow">
+<use href="#cells" x="-300"/>
+<use href="#cells"/>
+</g>
+</g>
+</svg>

@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, animate, motion, useMotionValue, useTransform } from "motion/react";
-import { Check, ChevronDown, Clock, Flame, House, RotateCcw, Target, Trophy, X, Zap } from "lucide-react";
+import { Check, ChevronDown, Clock, Crown, Flame, House, Medal, RotateCcw, Target, Trophy, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import type { Question, SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
+import { Figure } from "../components/Figure";
+import { scoreSession } from "../engine/scoring";
+import { rankRounds, useProfile } from "../store/profile";
 import { SubjectChip } from "../components/QuestionHeader";
 import { RichText } from "../components/RichText";
 import { SettingsToggles, Logo } from "../components/TopBar";
@@ -66,20 +69,92 @@ function Stat({ icon: Icon, label, value, tone, delay }: { icon: typeof Zap; lab
   );
 }
 
-export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry: (qs: Question[]) => void }) {
+function ScoreHistory({ currentId }: { currentId: string | undefined }) {
+  const rounds = useProfile((p) => p.rounds);
+  const ranked = useMemo(() => rankRounds(rounds), [rounds]);
+  if (rounds.length === 0) return null;
+  const best = ranked[0];
+  const rank = ranked.findIndex((r) => r.id === currentId) + 1;
+  const date = (t: number) => new Date(t).toLocaleDateString(region.locale, { day: "numeric", month: "short" });
+
+  return (
+    <section className="mt-8">
+      <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
+        <h2 className="font-display text-2xl font-extrabold tracking-tight">Your scoreboard</h2>
+        {rank > 0 && rounds.length > 1 && (
+          <motion.span
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: 0.8, type: "spring", stiffness: 400, damping: 14 }}
+            className={clsx(
+              "flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-bold",
+              rank === 1 ? "bg-brand text-brand-ink" : "bg-surface-2 text-muted",
+            )}
+          >
+            {rank === 1 ? <Crown className="size-4" /> : <Medal className="size-4" />}
+            {rank === 1 ? "New personal best!" : `Your #${rank} round of ${rounds.length}`}
+          </motion.span>
+        )}
+      </div>
+      <div className="overflow-hidden rounded-[28px] border-2 border-line bg-surface">
+        <div className="flex items-center gap-4 border-b-2 border-dashed border-line bg-brand-soft/50 p-4 sm:p-5">
+          <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-brand text-brand-ink">
+            <Crown className="size-6" />
+          </span>
+          <div className="min-w-0">
+            <div className="text-xs font-bold uppercase tracking-wider text-muted">Personal best</div>
+            <div className="font-display text-2xl font-extrabold tabular-nums">
+              {best.accuracy}% <span className="text-base text-muted">· {best.marks}/{best.maxMarks} marks</span>
+            </div>
+          </div>
+        </div>
+        <ol className="divide-y-2 divide-line">
+          {rounds.slice(0, 8).map((r, i) => {
+            const current = r.id === currentId;
+            return (
+              <motion.li
+                key={r.id}
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.5 + i * 0.05 }}
+                className={clsx("grid grid-cols-[1fr_auto] items-center gap-3 px-4 py-3 sm:grid-cols-[1fr_9rem_auto] sm:px-5", current && "bg-ok-soft/60")}
+              >
+                <div className="min-w-0">
+                  <div className="truncate font-semibold">
+                    {r.title || "Practice round"}
+                    {current && <span className="ml-2 rounded-full bg-ok px-2 py-0.5 text-[11px] font-bold text-white">This round</span>}
+                  </div>
+                  <div className="text-xs font-semibold text-muted">
+                    {date(r.at)} · {r.correct}/{r.total} correct · {formatTime(r.timeMs)}
+                  </div>
+                </div>
+                <div className="hidden h-2.5 overflow-hidden rounded-full bg-surface-2 sm:block">
+                  <motion.div
+                    className={clsx("h-full rounded-full", r.accuracy >= 80 ? "bg-ok" : r.accuracy >= 50 ? "bg-brand" : "bg-bad")}
+                    initial={{ width: 0 }}
+                    animate={{ width: `${r.accuracy}%` }}
+                    transition={{ delay: 0.6 + i * 0.05, duration: 0.7 }}
+                  />
+                </div>
+                <div className="text-right font-display font-extrabold tabular-nums">
+                  {r.marks}/{r.maxMarks}
+                  <div className="text-xs font-semibold text-muted">{r.accuracy}%</div>
+                </div>
+              </motion.li>
+            );
+          })}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
+export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry: (qs: Question[], title: string) => void }) {
   const s = useSession();
   const [openId, setOpenId] = useState<string | null>(null);
   const byId = useMemo(() => Object.fromEntries(s.questions.map((q) => [q.id, q])), [s.questions]);
 
-  const correct = s.attempts.filter((a) => a.correct).length;
-  const total = s.attempts.length;
-  const pct = total ? Math.round((correct / total) * 100) : 0;
-  const maxMarks = s.questions.reduce((n, q) => n + q.marks, 0);
-  const marks = s.attempts.reduce((n, a) => {
-    const q = byId[a.questionId];
-    if (a.correct) return n + q.marks;
-    return a.response === undefined ? n : n - (q.negativeMarks ?? 0);
-  }, 0);
+  const { marks, maxMarks, accuracy: pct } = scoreSession(s.questions, s.attempts);
   const wrong = s.questions.filter((q) => !s.attempts.find((a) => a.questionId === q.id)?.correct);
 
   const subjects = Object.entries(
@@ -142,7 +217,7 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
 
           <div className="mt-7 flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
             {wrong.length > 0 && (
-              <Button onClick={() => onRetry(wrong)}>
+              <Button onClick={() => onRetry(wrong, s.title ? `${s.title} · mistakes` : "Mistakes")}>
                 <RotateCcw className="size-5" /> Retry {wrong.length} mistake{wrong.length === 1 ? "" : "s"}
               </Button>
             )}
@@ -151,6 +226,8 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
             </Button>
           </div>
         </section>
+
+        <ScoreHistory currentId={s.finishedAt ? `${s.finishedAt}` : undefined} />
 
         {/* Subject breakdown */}
         <section className="mt-8">
@@ -228,6 +305,7 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
                         className="overflow-hidden"
                       >
                         <div className="border-t-2 border-dashed border-line p-4 sm:p-5">
+                          {q.image && q.type !== "hotspot" && <Figure media={q.image} className="mb-4" frameClassName="max-w-[380px]" />}
                           <QuestionBody q={q} response={a.response} onChange={() => {}} reveal />
                           <div className="mt-5 rounded-2xl bg-surface-2 p-4 leading-relaxed">
                             <p className="mb-1 text-xs font-bold uppercase tracking-wider text-muted">Explanation</p>

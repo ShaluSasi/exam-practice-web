@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>Human respiratory system: windpipe, bronchi and two lungs breathing</title>
+<style>
+.lung{transform-box:fill-box;transform-origin:center;animation:breathe 4s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F9B9C7"/>
+<stop offset="1" stop-color="#F28FA6"/>
+</linearGradient>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="lung">
+<path d="M135 72C110 58 72 68 62 108C52 148 52 184 72 198C96 206 124 196 136 186L138 120Z" fill="url(#lg)" stroke="#C9566F" stroke-width="3" stroke-linejoin="round"/>
+<path d="M118 128L98 150M98 150L84 160M98 150L96 172M126 122L102 116M102 116L86 110M110 140L112 166" fill="none" stroke="#E7778F" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<g class="lung">
+<path d="M165 72C190 58 228 68 238 108C248 148 248 184 228 198C204 206 176 196 164 186L162 120Z" fill="url(#lg)" stroke="#C9566F" stroke-width="3" stroke-linejoin="round"/>
+<path d="M182 128L202 150M202 150L216 160M202 150L204 172M174 122L198 116M198 116L214 110M190 140L188 166" fill="none" stroke="#E7778F" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 22V96Q150 106 140 112L114 128M150 96Q150 106 160 112L186 128" stroke="#B86A5E" stroke-width="17"/>
+<path d="M150 22V96Q150 106 140 112L114 128M150 96Q150 106 160 112L186 128" stroke="#F3CFC4" stroke-width="12"/>
+<path d="M144 34H156M144 46H156M144 58H156M144 70H156M144 82H156" stroke="#D9978A" stroke-width="2.5"/>
+</g>
+</svg>

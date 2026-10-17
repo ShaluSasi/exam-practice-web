@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<title>A virus particle with a protein coat, spikes and genetic material inside</title>
+<defs>
+<g id="spike"><path d="M0 -58 V-74" stroke="#7B4BC0" stroke-width="3" stroke-linecap="round"/><circle cy="-77" r="5" fill="#F28CB1" stroke="#D9578F" stroke-width="2"/></g>
+</defs>
+<style>
+.rot{transform-box:fill-box;transform-origin:center;animation:spin 20s linear infinite}
+.beat{transform-box:fill-box;transform-origin:center;animation:beat 3s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="beat"><g class="rot">
+<circle cx="100" cy="100" r="86" fill="none"/>
+<g transform="translate(100 100)">
+<use href="#spike"/><use href="#spike" transform="rotate(60)"/><use href="#spike" transform="rotate(120)"/><use href="#spike" transform="rotate(180)"/><use href="#spike" transform="rotate(240)"/><use href="#spike" transform="rotate(300)"/>
+<use href="#spike" transform="rotate(30) scale(.92)"/><use href="#spike" transform="rotate(90) scale(.92)"/><use href="#spike" transform="rotate(150) scale(.92)"/><use href="#spike" transform="rotate(210) scale(.92)"/><use href="#spike" transform="rotate(270) scale(.92)"/><use href="#spike" transform="rotate(330) scale(.92)"/>
+<path d="M0 -60 L52 -30 L52 30 L0 60 L-52 30 L-52 -30 Z" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="3" stroke-linejoin="round"/>
+<path d="M0 -26 L23 -13 L23 13 L0 26 L-23 13 L-23 -13 Z" fill="#EADCFA"/>
+<path d="M0 -60 L0 -26 M52 -30 L23 -13 M52 30 L23 13 M0 60 L0 26 M-52 30 L-23 13 M-52 -30 L-23 -13 M0 -26 L23 -13 L23 13 L0 26 L-23 13 L-23 -13 Z" fill="none" stroke="#7B4BC0" stroke-width="1.6" stroke-linejoin="round" opacity=".6"/>
+<path d="M-14 -4 c4 -10 12 -10 14 -2 s-8 12 -2 16 s12 -2 10 -10 s-14 -6 -14 4 s10 12 16 4" fill="none" stroke="#E04848" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g></g>
+</svg>

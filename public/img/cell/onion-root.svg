@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img">
+<title>Onion bulb on a jar of water growing roots</title>
+<style>
+.grow{stroke-dasharray:100;stroke-dashoffset:100;animation:grow 6s ease-in-out infinite}
+@keyframes grow{0%,5%{stroke-dashoffset:100;opacity:1}70%,90%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.grow{stroke-dashoffset:0}}
+</style>
+<defs>
+<g id="r" fill="none" stroke-linecap="round">
+<path pathLength="100" d="M147 128C140 170 130 205 124 250"/>
+<path pathLength="100" d="M153 128C159 175 170 205 178 246"/>
+<path pathLength="100" d="M150 128C151 180 148 222 150 264"/>
+<path pathLength="100" d="M144 127C124 160 110 190 104 232"/>
+<path pathLength="100" d="M156 127C176 160 190 190 196 226"/>
+<path pathLength="100" d="M149 128C138 160 140 190 134 216"/>
+<path pathLength="100" d="M151 128C163 158 160 186 166 214"/>
+</g>
+<linearGradient id="on" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#C45A80"/>
+<stop offset="1" stop-color="#8E2F55"/>
+</linearGradient>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M85 115V265Q85 282 102 282H198Q215 282 215 265V115Z" fill="#F2FAFF"/>
+<path d="M87 145H213V265Q213 280 198 280H102Q87 280 87 265Z" fill="#CDE9FF"/>
+<path d="M87 145H213" stroke="#4A90C8" stroke-width="2.5"/>
+<g class="grow">
+<use href="#r" stroke="#B8B2A0" stroke-width="5"/>
+<use href="#r" stroke="#FFFDF5" stroke-width="3"/>
+</g>
+<path d="M85 115V265Q85 282 102 282H198Q215 282 215 265V115" fill="none" stroke="#6B7A99" stroke-width="3" stroke-linejoin="round"/>
+<path d="M98 135V255" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<rect x="78" y="108" width="144" height="12" rx="6" fill="#E3EEF8" stroke="#6B7A99" stroke-width="3"/>
+<ellipse cx="150" cy="127" rx="16" ry="5" fill="#D9C08A" stroke="#9C7F45" stroke-width="2"/>
+<path d="M150 22C160 46 196 58 196 90C196 114 176 127 150 127C124 127 104 114 104 90C104 58 140 46 150 22Z" fill="url(#on)" stroke="#6E2140" stroke-width="3" stroke-linejoin="round"/>
+<path d="M150 30C140 60 124 80 128 122M150 30C162 60 176 80 172 122M150 30V124" fill="none" stroke="#E79AB6" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M150 22C148 14 152 8 156 4" fill="none" stroke="#9C7F45" stroke-width="3" stroke-linecap="round"/>
+</svg>

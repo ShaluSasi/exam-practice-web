@@ -1,0 +1,910 @@
+[
+  {
+    "id": "in-cbse-9-bio-cell-001",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Nucleus",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **nucleus**, the control centre of this plant cell.",
+    "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell with numbered markers on its parts" },
+    "spots": [
+      { "id": "wall", "x": 6, "y": 50, "label": "Cell wall" },
+      { "id": "nucleus", "x": 27, "y": 32, "label": "Nucleus" },
+      { "id": "vacuole", "x": 65.5, "y": 56, "label": "Vacuole" },
+      { "id": "chloroplast", "x": 75, "y": 20.7, "label": "Chloroplast" },
+      { "id": "mito", "x": 37.5, "y": 77.3, "label": "Mitochondrion" }
+    ],
+    "answer": "nucleus",
+    "hint": "Look for the round purple body with a dark dot (the nucleolus) inside it.",
+    "explanation": "The **nucleus** is the round body wrapped in a double nuclear membrane. The dark dot inside is the nucleolus. The nucleus holds the DNA, the coded instructions that control the cell's activities."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-002",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Vacuoles",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **large central vacuole**, the sac filled with cell sap.",
+    "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell with numbered markers on its parts" },
+    "spots": [
+      { "id": "nucleus", "x": 27, "y": 32, "label": "Nucleus" },
+      { "id": "er", "x": 43.75, "y": 28.3, "label": "Endoplasmic reticulum" },
+      { "id": "chloroplast", "x": 75, "y": 20.7, "label": "Chloroplast" },
+      { "id": "golgi", "x": 27.5, "y": 60, "label": "Golgi apparatus" },
+      { "id": "vacuole", "x": 65.5, "y": 56, "label": "Large central vacuole" }
+    ],
+    "answer": "vacuole",
+    "hint": "It is the biggest structure in a mature plant cell, and it is full of watery fluid.",
+    "explanation": "A mature plant cell usually has one **large central vacuole** surrounded by a single membrane and filled with **cell sap**. It stores water, minerals, sugars and wastes. By holding water it keeps the cell firm."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-003",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Plastids",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the organelle where **photosynthesis** takes place.",
+    "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell with numbered markers on its parts" },
+    "spots": [
+      { "id": "wall", "x": 6, "y": 50, "label": "Cell wall" },
+      { "id": "nucleus", "x": 27, "y": 32, "label": "Nucleus" },
+      { "id": "chloroplast", "x": 75, "y": 20.7, "label": "Chloroplast" },
+      { "id": "mito", "x": 37.5, "y": 77.3, "label": "Mitochondrion" },
+      { "id": "vacuole", "x": 65.5, "y": 56, "label": "Vacuole" },
+      { "id": "golgi", "x": 27.5, "y": 60, "label": "Golgi apparatus" }
+    ],
+    "answer": "chloroplast",
+    "hint": "It is green because it contains chlorophyll.",
+    "explanation": "**Chloroplasts** are plastids that contain the green pigment **chlorophyll**, which absorbs sunlight. Inside, disc-shaped membranes holding chlorophyll sit in a fluid called the **stroma**. The sugars made are stored in the stroma along with starch granules."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-004",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Lysosomes",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **lysosome**, the clean-up system of this animal cell.",
+    "image": { "src": "/img/cell/animal-cell.svg", "alt": "An animal cell with numbered markers on its parts" },
+    "spots": [
+      { "id": "nucleus", "x": 46.25, "y": 48.3, "label": "Nucleus" },
+      { "id": "er", "x": 30.5, "y": 46.7, "label": "Endoplasmic reticulum" },
+      { "id": "mito", "x": 71.25, "y": 36.7, "label": "Mitochondrion" },
+      { "id": "golgi", "x": 70, "y": 65, "label": "Golgi apparatus" },
+      { "id": "lysosome", "x": 28.75, "y": 71.7, "label": "Lysosome" },
+      { "id": "membrane", "x": 86.25, "y": 50, "label": "Cell membrane" }
+    ],
+    "answer": "lysosome",
+    "hint": "Look for a small, round, single-membrane sac packed with enzyme dots.",
+    "explanation": "**Lysosomes** are single-membrane sacs filled with enzymes. They break down unwanted proteins, carbohydrates, fats and even worn-out parts of the cell. The broken-down products can be reused by the cell."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-005",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Golgi apparatus",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **Golgi apparatus**, the cell's packaging and shipping centre.",
+    "image": { "src": "/img/cell/animal-cell.svg", "alt": "An animal cell with numbered markers on its parts" },
+    "spots": [
+      { "id": "nucleus", "x": 46.25, "y": 48.3, "label": "Nucleus" },
+      { "id": "er", "x": 30.5, "y": 46.7, "label": "Endoplasmic reticulum" },
+      { "id": "mito", "x": 71.25, "y": 36.7, "label": "Mitochondrion" },
+      { "id": "golgi", "x": 70, "y": 65, "label": "Golgi apparatus" },
+      { "id": "lysosome", "x": 28.75, "y": 71.7, "label": "Lysosome" }
+    ],
+    "answer": "golgi",
+    "hint": "It looks like a stack of flattened, curved sacs with small vesicles budding off.",
+    "explanation": "The **Golgi apparatus** is a stack of flattened, sac-like structures. Like a post office, it modifies, sorts and packages proteins and lipids into vesicles for transport, secretion or making lysosomes."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-006",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Prokaryotic cells",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "A bacterium has no true nucleus. Tap the region that holds its **genetic material**.",
+    "image": { "src": "/img/cell/bacterial-cell.svg", "alt": "A bacterial cell with numbered markers on its parts" },
+    "spots": [
+      { "id": "wall", "x": 47.5, "y": 29.2, "label": "Cell wall" },
+      { "id": "nucleoid", "x": 47.5, "y": 50, "label": "Nucleoid" },
+      { "id": "flagellum", "x": 88.75, "y": 50, "label": "Appendage for locomotion" },
+      { "id": "ribosome", "x": 27.5, "y": 41.7, "label": "Ribosome" }
+    ],
+    "answer": "nucleoid",
+    "hint": "Look for the tangled thread in the middle of the cell.",
+    "explanation": "In prokaryotic cells the DNA is a single circular molecule with no membrane around it. The region where it lies is called the **nucleoid**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-007",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Mitochondria",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **cristae**, the folds that increase the surface area for energy production.",
+    "image": { "src": "/img/cell/mitochondrion.svg", "alt": "A mitochondrion releasing ATP, with numbered markers" },
+    "spots": [
+      { "id": "outer", "x": 50, "y": 17, "label": "Outer membrane" },
+      { "id": "cristae", "x": 57.5, "y": 62.5, "label": "Cristae" },
+      { "id": "dna", "x": 18.75, "y": 52, "label": "DNA" },
+      { "id": "ribosome", "x": 82.5, "y": 50, "label": "Ribosomes" }
+    ],
+    "answer": "cristae",
+    "hint": "They are finger-like folds of the inner membrane.",
+    "explanation": "A mitochondrion has two membranes. The outer one is smooth and porous. The inner one is folded into finger-like **cristae**, which give more surface area for the reactions of cellular respiration. The energy released is stored as **ATP**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-008",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Light microscope",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Where do you place your glass slide? Tap the **stage** of this microscope.",
+    "image": { "src": "/img/cell/microscope.svg", "alt": "A compound light microscope with numbered markers" },
+    "spots": [
+      { "id": "eyepiece", "x": 41.75, "y": 10, "label": "Eyepiece" },
+      { "id": "objective", "x": 41.75, "y": 62.7, "label": "Objective lens" },
+      { "id": "stage", "x": 57.5, "y": 70.3, "label": "Stage" },
+      { "id": "mirror", "x": 41.75, "y": 79.3, "label": "Mirror" },
+      { "id": "coarse", "x": 65.5, "y": 46.7, "label": "Coarse adjustment knob" },
+      { "id": "fine", "x": 65.5, "y": 58.3, "label": "Fine adjustment knob" }
+    ],
+    "answer": "stage",
+    "hint": "It is the flat platform between the objective lens and the mirror.",
+    "explanation": "The **stage** is the flat platform where the slide is placed. The **mirror** below reflects light up through the slide, the **objective lens** magnifies it, and you look through the **eyepiece**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-009",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Light microscope",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Your onion peel looks slightly blurry at 40X. Tap the knob you should turn for **fine, sharp focusing**.",
+    "image": { "src": "/img/cell/microscope.svg", "alt": "A compound light microscope with numbered markers" },
+    "spots": [
+      { "id": "eyepiece", "x": 41.75, "y": 10, "label": "Eyepiece" },
+      { "id": "objective", "x": 41.75, "y": 62.7, "label": "Objective lens" },
+      { "id": "stage", "x": 57.5, "y": 70.3, "label": "Stage" },
+      { "id": "mirror", "x": 41.75, "y": 79.3, "label": "Mirror" },
+      { "id": "coarse", "x": 65.5, "y": 46.7, "label": "Coarse adjustment knob" },
+      { "id": "fine", "x": 65.5, "y": 58.3, "label": "Fine adjustment knob" }
+    ],
+    "answer": "fine",
+    "hint": "There are two knobs. The bigger one moves the tube a lot; you need the other one.",
+    "explanation": "The large **coarse adjustment knob** moves the body tube quickly to find the object. The smaller **fine adjustment knob** makes tiny movements to get a sharp image, which matters most at high magnification such as 40X."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-010",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Nucleus",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **nucleolus**, where ribosome subunits are made.",
+    "image": { "src": "/img/cell/nucleus.svg", "alt": "A nucleus with numbered markers on its parts" },
+    "spots": [
+      { "id": "pore", "x": 50, "y": 11.5, "label": "Nuclear pore" },
+      { "id": "nucleolus", "x": 53.75, "y": 46.15, "label": "Nucleolus" },
+      { "id": "chromatin", "x": 40, "y": 61.5, "label": "Chromatin" },
+      { "id": "membrane", "x": 26.5, "y": 63, "label": "Double nuclear membrane" }
+    ],
+    "answer": "nucleolus",
+    "hint": "It is the dense, dark, round body inside the nucleus.",
+    "explanation": "The **nucleolus** is the dense round body in the nucleus where ribosomal subunits are made. The subunits leave through the **nuclear pores**, and one large plus one small subunit join in the cytoplasm to form a ribosome."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-011",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Plant cell structure",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Label the plant cell. Match each numbered part with its name.",
+    "image": {
+      "src": "/img/cell/plant-cell.svg",
+      "alt": "A plant cell with four numbered parts",
+      "markers": [
+        { "x": 6, "y": 50, "label": "1" },
+        { "x": 27, "y": 32, "label": "2" },
+        { "x": 65.5, "y": 56, "label": "3" },
+        { "x": 75, "y": 20.7, "label": "4" }
+      ]
+    },
+    "left": [
+      { "id": "p1", "text": "Part 1" },
+      { "id": "p2", "text": "Part 2" },
+      { "id": "p3", "text": "Part 3" },
+      { "id": "p4", "text": "Part 4" }
+    ],
+    "right": [
+      { "id": "chloroplast", "text": "Chloroplast" },
+      { "id": "wall", "text": "Cell wall" },
+      { "id": "mito", "text": "Mitochondrion" },
+      { "id": "vacuole", "text": "Large central vacuole" },
+      { "id": "nucleus", "text": "Nucleus" }
+    ],
+    "pairs": { "p1": "wall", "p2": "nucleus", "p3": "vacuole", "p4": "chloroplast" },
+    "hint": "Part 1 is the thick outer layer; Part 3 is the biggest structure inside.",
+    "explanation": "1 is the rigid **cell wall** (made of cellulose). 2 is the **nucleus** with its dark nucleolus. 3 is the **large central vacuole** filled with cell sap. 4 is a green **chloroplast**. The mitochondrion was a distractor."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-012",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell organelles",
+    "difficulty": "easy", "marks": 2,
+    "type": "match",
+    "prompt": "Every organelle has a job. Match each organelle with its nickname.",
+    "left": [
+      { "id": "mito", "text": "Mitochondrion", "image": { "src": "/img/cell/icons/mitochondrion.svg", "alt": "Mitochondrion" } },
+      { "id": "ribo", "text": "Ribosome", "image": { "src": "/img/cell/icons/ribosome.svg", "alt": "Ribosome" } },
+      { "id": "golgi", "text": "Golgi apparatus", "image": { "src": "/img/cell/icons/golgi.svg", "alt": "Golgi apparatus" } },
+      { "id": "lyso", "text": "Lysosome", "image": { "src": "/img/cell/icons/lysosome.svg", "alt": "Lysosome" } }
+    ],
+    "right": [
+      { "id": "clean", "text": "Clean-up system" },
+      { "id": "power", "text": "Powerhouse of the cell" },
+      { "id": "post", "text": "Packaging and shipping centre" },
+      { "id": "factory", "text": "Protein factory" }
+    ],
+    "pairs": { "mito": "power", "ribo": "factory", "golgi": "post", "lyso": "clean" },
+    "hint": "Think about what each one makes, moves or breaks down.",
+    "explanation": "**Mitochondria** release energy as ATP (powerhouse). **Ribosomes** are the sites of protein synthesis (protein factory). The **Golgi apparatus** packs and dispatches materials (post office). **Lysosomes** digest wastes and worn-out parts (clean-up system)."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-013",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Scientists and discoveries",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each scientist with their discovery.",
+    "image": { "src": "/img/cell/cork-cells.svg", "alt": "Empty box-like compartments of cork seen under a microscope" },
+    "left": [
+      { "id": "hooke", "text": "Robert Hooke" },
+      { "id": "golgi", "text": "Camillo Golgi" },
+      { "id": "virchow", "text": "Rudolf Virchow" },
+      { "id": "haberlandt", "text": "Gottlieb Haberlandt" }
+    ],
+    "right": [
+      { "id": "owl", "text": "A thread-like network in a barn owl's nerve cells (1898)" },
+      { "id": "totipotent", "text": "Any living plant cell can grow into a whole plant (1902)" },
+      { "id": "cork", "text": "Named 'cells' after looking at cork (1665)" },
+      { "id": "preexisting", "text": "New cells form only from pre-existing cells (1855)" }
+    ],
+    "pairs": { "hooke": "cork", "golgi": "owl", "virchow": "preexisting", "haberlandt": "totipotent" },
+    "hint": "The picture shows what Hooke saw in a thin slice of cork.",
+    "explanation": "**Hooke** (1665) saw box-like compartments in cork and called them cells. **Golgi** (1898) saw the network later named the Golgi apparatus. **Virchow** (1855) added that new cells come from pre-existing cells. **Haberlandt** (1902) proposed totipotency, the basis of plant tissue culture."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-014",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Osmosis",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Red blood cells are put into three solutions. Match each solution with what happens to the cell.",
+    "left": [
+      { "id": "hypo", "text": "Hypotonic solution (outside less concentrated)" },
+      { "id": "iso", "text": "Isotonic solution (equal concentration)" },
+      { "id": "hyper", "text": "Hypertonic solution (outside more concentrated)" }
+    ],
+    "right": [
+      { "id": "shrink", "text": "Cell shrinks", "image": { "src": "/img/cell/cell-hypertonic.svg", "alt": "Animation of a cell shrinking as water leaves" } },
+      { "id": "swell", "text": "Cell swells", "image": { "src": "/img/cell/cell-hypotonic.svg", "alt": "Animation of a cell swelling as water enters" } },
+      { "id": "same", "text": "No change", "image": { "src": "/img/cell/cell-isotonic.svg", "alt": "Animation of a cell staying the same size" } }
+    ],
+    "pairs": { "hypo": "swell", "iso": "same", "hyper": "shrink" },
+    "hint": "Water always moves towards the side with more solute.",
+    "explanation": "In a **hypotonic** solution water enters the cell, so it swells. In an **isotonic** solution water moves in and out equally, so there is no change. In a **hypertonic** solution water leaves the cell, so it shrinks."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-015",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Levels of organisation",
+    "difficulty": "easy", "marks": 1,
+    "type": "order",
+    "prompt": "Think about your respiratory system. Arrange these levels of organisation from **smallest to largest**.",
+    "image": { "src": "/img/cell/lungs.svg", "alt": "Animation of the human lungs and trachea breathing" },
+    "items": [
+      { "id": "system", "text": "Organ system (respiratory system)" },
+      { "id": "cell", "text": "Cell" },
+      { "id": "organ", "text": "Organ (lungs)" },
+      { "id": "tissue", "text": "Tissue" }
+    ],
+    "answer": ["cell", "tissue", "organ", "system"],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "A group of similar cells forms the next level up.",
+    "explanation": "Similar **cells** form a **tissue**. Different tissues form an **organ** such as the lungs. Organs working together, such as the nasal cavity, trachea and lungs, form an **organ system**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-016",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Endoplasmic reticulum and Golgi",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "The animation follows a protein that the cell will secrete. Arrange its journey in the correct order.",
+    "image": { "src": "/img/cell/protein-pathway.svg", "alt": "Animation of a vesicle travelling from the ER through the Golgi to the cell membrane" },
+    "items": [
+      { "id": "golgi", "text": "Golgi apparatus modifies and packs it into vesicles" },
+      { "id": "ribo", "text": "Ribosomes on the rough ER make the protein" },
+      { "id": "membrane", "text": "A vesicle fuses with the cell membrane and releases it" },
+      { "id": "rer", "text": "The protein moves through the rough ER" }
+    ],
+    "answer": ["ribo", "rer", "golgi", "membrane"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Proteins are made on ribosomes before they are packaged.",
+    "explanation": "Proteins for secretion are made by **ribosomes on the rough ER**, travel through the **RER**, are modified and packed into vesicles by the **Golgi apparatus**, and the vesicles fuse with the **cell membrane** to release them."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-017",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Chromosomes and DNA",
+    "difficulty": "medium", "marks": 1,
+    "type": "order",
+    "prompt": "Zoom in! Arrange these from **largest to smallest**.",
+    "image": { "src": "/img/cell/chromosome.svg", "alt": "Animation of a chromosome with DNA unwinding from one arm" },
+    "items": [
+      { "id": "dna", "text": "DNA molecule" },
+      { "id": "cell", "text": "Cell" },
+      { "id": "chromosome", "text": "Chromosome" },
+      { "id": "gene", "text": "Gene" },
+      { "id": "nucleus", "text": "Nucleus" }
+    ],
+    "answer": ["cell", "nucleus", "chromosome", "dna", "gene"],
+    "startLabel": "Largest",
+    "endLabel": "Smallest",
+    "hint": "A gene is a functional segment of a DNA molecule.",
+    "explanation": "The **cell** contains a **nucleus**, the nucleus contains **chromosomes**, each chromosome is made of a **DNA** molecule with proteins, and a **gene** is a functional segment of DNA."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-018",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell theory",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Put these milestones on the road to the **Cell Theory** in time order.",
+    "image": { "src": "/img/cell/microscope.svg", "alt": "A compound light microscope" },
+    "items": [
+      { "id": "virchow", "text": "Virchow: new cells form only from pre-existing cells" },
+      { "id": "hooke", "text": "Hooke: sees box-like 'cells' in cork" },
+      { "id": "schwann", "text": "Schwann: all animals are made of cells" },
+      { "id": "schleiden", "text": "Schleiden: all plants are made of cells" }
+    ],
+    "answer": ["hooke", "schleiden", "schwann", "virchow"],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "1665, 1838, 1839, 1855.",
+    "explanation": "**Hooke** observed cork cells in 1665. **Schleiden** reported in 1838 that all plants are made of cells, and **Schwann** in 1839 that all animals are. **Virchow** completed the Cell Theory in 1855: all cells arise from pre-existing cells."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-019",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell division",
+    "difficulty": "hard", "marks": 3,
+    "type": "order",
+    "prompt": "You want to see dividing cells in an onion root tip. Arrange the steps in the correct order.",
+    "image": { "src": "/img/cell/onion-root.svg", "alt": "Animation of onion roots growing down into a jar of water" },
+    "items": [
+      { "id": "stain", "text": "Add aceto-carmine stain and warm gently" },
+      { "id": "grow", "text": "Grow roots by keeping the onion over water for 5–6 days" },
+      { "id": "squash", "text": "Cut the tip, cover with a coverslip, squash and observe" },
+      { "id": "fix", "text": "Keep root tips in aceto-alcohol, then store in 70% ethanol" },
+      { "id": "hcl", "text": "Soften the root tips with a drop of dilute HCl, then rinse" }
+    ],
+    "answer": ["grow", "fix", "hcl", "stain", "squash"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You must have roots before you can fix them, and the tissue must be soft before staining and squashing.",
+    "explanation": "Grow the roots, **fix** them in aceto-alcohol (store in 70% ethanol), **soften** with dilute HCl, **stain** with aceto-carmine while warming gently, then **squash** the tip under a coverslip and look under the microscope. The cells show different stages of division."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-020",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Estimating cell size",
+    "difficulty": "medium", "marks": 2,
+    "type": "numeric",
+    "prompt": "Through the eyepiece, the circular field of view measures **4 mm** across. You count **20** onion peel cells in a straight line along the diameter. Estimate the size of one cell.",
+    "image": { "src": "/img/cell/field-of-view.svg", "alt": "A microscope field of view 4 mm across with a row of 20 onion cells along its diameter" },
+    "answer": 200,
+    "unit": "µm",
+    "hint": "Convert 4 mm to micrometres first (1 mm = 1000 µm), then share it between the cells.",
+    "explanation": "Field diameter = 4 mm = $4 \\times 1000 = 4000$ µm. $$\\text{Cell size} = \\frac{4000\\ \\mu\\text{m}}{20} = 200\\ \\mu\\text{m}$$"
+  },
+  {
+    "id": "in-cbse-9-bio-cell-021",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Magnification",
+    "difficulty": "easy", "marks": 1,
+    "type": "numeric",
+    "prompt": "A microscope has a **10X** eyepiece and a **40X** objective lens. What is the total magnification?",
+    "image": { "src": "/img/cell/microscope.svg", "alt": "A compound light microscope" },
+    "answer": 400,
+    "unit": "X",
+    "hint": "Total magnification = eyepiece power × objective power.",
+    "explanation": "Total magnification $= 10 \\times 40 = 400$X. An object looks 400 times larger than it really is."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-022",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Meiosis",
+    "difficulty": "medium", "marks": 1,
+    "type": "numeric",
+    "prompt": "A human body cell has **46** chromosomes. How many chromosomes will each gamete made by meiosis have?",
+    "image": { "src": "/img/cell/meiosis.svg", "alt": "Animation of one cell dividing twice to form four cells" },
+    "answer": 23,
+    "hint": "Meiosis halves the chromosome number.",
+    "explanation": "Meiosis produces four daughter cells, each with **half** the chromosome number: $46 \\div 2 = 23$. When a sperm (23) fuses with an egg (23), the original number of 46 is restored."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-023",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Osmosis",
+    "difficulty": "hard", "marks": 2,
+    "type": "numeric",
+    "prompt": "In the potato experiment, the piece in **Beaker A** weighed **50 g** at the start and **56 g** after an hour. By what percentage did its weight increase?",
+    "image": { "src": "/img/cell/potato-setup.svg", "alt": "Two beakers: A with plain water and B with 20% salt solution, each holding a potato piece" },
+    "answer": 12,
+    "tolerance": 0.01,
+    "unit": "%",
+    "hint": "Percentage change = (final − initial) ÷ initial × 100.",
+    "explanation": "$$\\frac{56 - 50}{50} \\times 100 = 12\\%$$ Plain water is less concentrated than the potato cells, so water entered the cells by **osmosis** and the piece gained weight."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-024",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Magnification",
+    "difficulty": "hard", "marks": 2,
+    "type": "numeric",
+    "prompt": "An onion peel cell is **200 µm** long. Under a total magnification of **100X**, how long will it appear, in millimetres?",
+    "image": { "src": "/img/cell/onion-peel.svg", "alt": "Onion peel cells seen through a microscope" },
+    "answer": 20,
+    "unit": "mm",
+    "hint": "Multiply by the magnification, then convert µm to mm (÷ 1000).",
+    "explanation": "Apparent size $= 200 \\times 100 = 20\\,000$ µm $= 20\\,000 \\div 1000 = 20$ mm."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-025",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Limit of resolution",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Two dots are moved closer and closer. Viewed from 25 cm, below what gap does your eye see them as **one** dot?",
+    "image": { "src": "/img/cell/two-dots.svg", "alt": "Animation of an eye watching two dots move together until they merge" },
+    "options": [
+      { "id": "a", "text": "1 cm" },
+      { "id": "b", "text": "1 mm" },
+      { "id": "c", "text": "0.1 mm" },
+      { "id": "d", "text": "0.001 mm" }
+    ],
+    "answer": "c",
+    "hint": "This value is called the limit of resolution of the human eye.",
+    "explanation": "The **limit of resolution** of the human eye is about **0.1 mm**. Two points closer than this look like one, which is why we need microscopes to see cells."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-026",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Microscopes",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Use the size chart. Which of these can be seen **only** with an electron microscope?",
+    "image": { "src": "/img/cell/size-scale.svg", "alt": "Chart of object sizes with the ranges of the eye, light microscope and electron microscope" },
+    "options": [
+      { "id": "a", "text": "An Amoeba" },
+      { "id": "b", "text": "A typical plant cell" },
+      { "id": "c", "text": "A bacterium" },
+      { "id": "d", "text": "A virus" }
+    ],
+    "answer": "d",
+    "hint": "Find the item that is smaller than the light microscope's range.",
+    "explanation": "Viruses are only about 100 nm across, far below what a light microscope can resolve. **Electron microscopes** use a beam of electrons instead of light and can show details at the nanometre scale."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-027",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Observing cells",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which slide shows **onion peel** cells?",
+    "options": [
+      { "id": "a", "text": "Slide P", "image": { "src": "/img/cell/cheek-cells.svg", "alt": "Irregular, flat cells stained blue, each with a central nucleus" } },
+      { "id": "b", "text": "Slide Q", "image": { "src": "/img/cell/onion-peel.svg", "alt": "Regular, brick-shaped cells in neat rows with clear walls" } },
+      { "id": "c", "text": "Slide R", "image": { "src": "/img/cell/rbc.svg", "alt": "Red disc-shaped cells without a nucleus flowing in a vessel" } }
+    ],
+    "answer": "b",
+    "hint": "Plant cells have a rigid cell wall that gives them a box-like shape.",
+    "explanation": "Onion peel cells are **box-shaped and regularly arranged** because each has a rigid cell wall. Cheek cells (P) are irregular with no wall. Red blood cells (R) are discs with no nucleus."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-028",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Osmosis",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "A red blood cell is placed in a **concentrated (hypertonic)** salt solution. Which animation shows what happens?",
+    "options": [
+      { "id": "a", "text": "Animation 1", "image": { "src": "/img/cell/cell-hypotonic.svg", "alt": "Animation of a cell swelling" } },
+      { "id": "b", "text": "Animation 2", "image": { "src": "/img/cell/cell-isotonic.svg", "alt": "Animation of a cell staying the same size" } },
+      { "id": "c", "text": "Animation 3", "image": { "src": "/img/cell/cell-hypertonic.svg", "alt": "Animation of a cell shrinking" } }
+    ],
+    "answer": "c",
+    "hint": "Which way does water move when the outside has more solute?",
+    "explanation": "The salt solution outside is more concentrated than the cell's contents, so water leaves the cell by **osmosis** and the cell **shrinks**. Animation 1 shows a hypotonic solution and Animation 2 an isotonic one."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-029",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell wall",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "This *Rhoeo* leaf cell has been placed in 20% sugar solution. What does the animation show?",
+    "image": { "src": "/img/cell/plasmolysis.svg", "alt": "Animation of a plant cell's contents shrinking away from its cell wall" },
+    "options": [
+      { "id": "a", "text": "Sugar enters the cell and the cell wall shrinks" },
+      { "id": "b", "text": "Water leaves by osmosis, so the contents shrink away from the rigid cell wall" },
+      { "id": "c", "text": "Water enters the cell until it bursts" },
+      { "id": "d", "text": "The cell wall dissolves in the sugar solution" }
+    ],
+    "answer": "b",
+    "hint": "Notice which part changes size and which part does not.",
+    "explanation": "Water leaves the cell by **osmosis**. The membrane and its contents shrink, but the rigid **cell wall** keeps its shape, so the gap between them grows. This shows that the cell wall helps plant cells keep their shape."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-030",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell membrane",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "The cell membrane is explained by the **fluid-mosaic model**. Why is it called *fluid*?",
+    "image": { "src": "/img/cell/membrane.svg", "alt": "Animation of a lipid bilayer with embedded proteins and water passing through a channel" },
+    "options": [
+      { "id": "a", "text": "It is made only of water" },
+      { "id": "b", "text": "Its molecules can move sideways, flip and rotate" },
+      { "id": "c", "text": "It has large holes that let everything through" },
+      { "id": "d", "text": "It is a liquid that fills the cell" }
+    ],
+    "answer": "b",
+    "hint": "Watch the lipid heads in the animation.",
+    "explanation": "The membrane is a **lipid bilayer** with proteins embedded in it. Its molecules can move sideways, flip and rotate, so it is **fluid**. The molecules are arranged like tiles, so it is a **mosaic**. It is only about 7–10 nm thick."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-031",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell growth and cancer",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/cell/contact-inhibition.svg", "alt": "Animation comparing normal cells forming one layer with cancer cells piling up" },
+    "assertion": "Cancer cells can form tumours.",
+    "reason": "Cancer cells stop dividing when they touch neighbouring cells.",
+    "answer": "c",
+    "hint": "Look at what the cancer cells do in the right-hand panel.",
+    "explanation": "A is true: cancer cells divide uncontrollably and form tumours. R is false: stopping division on contact is **contact inhibition**, which normal animal cells show. Cancer cells **lose** contact inhibition."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-032",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Diffusion",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Watch the dye spread through the water. There is **no membrane** here. What is this process called?",
+    "image": { "src": "/img/cell/diffusion.svg", "alt": "Animation of purple dye spreading evenly through a beaker of water" },
+    "options": [
+      { "id": "a", "text": "Osmosis" },
+      { "id": "b", "text": "Diffusion" },
+      { "id": "c", "text": "Plasmolysis" },
+      { "id": "d", "text": "Photosynthesis" }
+    ],
+    "answer": "b",
+    "hint": "Osmosis needs a selectively permeable membrane.",
+    "explanation": "**Diffusion** is the net movement of particles from a region of higher concentration to lower concentration, and it happens even without a membrane. **Osmosis** is a special case: the diffusion of water across a selectively permeable membrane."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-033",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Prokaryotic and eukaryotic cells",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which of these is a **prokaryotic** cell?",
+    "options": [
+      { "id": "a", "text": "Cell P", "image": { "src": "/img/cell/plant-cell.svg", "alt": "A cell with a wall, nucleus, chloroplasts and a large vacuole" } },
+      { "id": "b", "text": "Cell Q", "image": { "src": "/img/cell/bacterial-cell.svg", "alt": "A capsule-shaped cell with a wall, a tangled thread of DNA and a tail" } },
+      { "id": "c", "text": "Cell R", "image": { "src": "/img/cell/animal-cell.svg", "alt": "A rounded cell with a nucleus, mitochondria and other organelles but no wall" } }
+    ],
+    "answer": "b",
+    "hint": "Prokaryotes lack a membrane-bound nucleus.",
+    "explanation": "Cell Q is a **bacterium**, a prokaryotic cell. It has no well-defined nucleus (just a nucleoid) and no membrane-bound organelles. P (plant) and R (animal) are **eukaryotic**: they have a true nucleus and organelles such as mitochondria."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-034",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Osmosis in daily life",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/cell/pickle-jar.svg", "alt": "A jar of amla pickle next to a microbe shrivelling as it loses water" },
+    "assertion": "Adding plenty of salt or sugar helps amla pickle and murabba stay fresh for months.",
+    "reason": "In a concentrated solution, bacteria and fungi lose water by osmosis and cannot grow.",
+    "answer": "a",
+    "hint": "Is a concentrated salt solution hypotonic or hypertonic for a microbe?",
+    "explanation": "Both are true and R explains A. High salt or sugar makes a **hypertonic** environment. Spoilage microbes lose water by **osmosis**, so they cannot grow, and the food keeps longer."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-035",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Specialised cells",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Mature human red blood cells have **no nucleus**. What is the main advantage of this?",
+    "image": { "src": "/img/cell/rbc.svg", "alt": "Animation of red blood cells flowing through a blood vessel" },
+    "options": [
+      { "id": "a", "text": "They can divide faster" },
+      { "id": "b", "text": "There is more room for haemoglobin, so they carry more oxygen" },
+      { "id": "c", "text": "They can live forever" },
+      { "id": "d", "text": "They can make their own food" }
+    ],
+    "answer": "b",
+    "hint": "Think about the job of red blood cells.",
+    "explanation": "Without a nucleus there is more space for **haemoglobin**, so each RBC can carry more oxygen. The cost is that RBCs cannot repair or divide themselves, so they live only about **120 days**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-036",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Ribosomes",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which organelle is the cell's **protein factory**?",
+    "options": [
+      { "id": "a", "text": "Lysosome", "image": { "src": "/img/cell/icons/lysosome.svg", "alt": "Lysosome" } },
+      { "id": "b", "text": "Vacuole", "image": { "src": "/img/cell/icons/vacuole.svg", "alt": "Vacuole" } },
+      { "id": "c", "text": "Ribosome", "image": { "src": "/img/cell/icons/ribosome.svg", "alt": "Ribosome" } },
+      { "id": "d", "text": "Mitochondrion", "image": { "src": "/img/cell/icons/mitochondrion.svg", "alt": "Mitochondrion" } }
+    ],
+    "answer": "c",
+    "hint": "It is tiny, and is found free in the cytoplasm or attached to the ER.",
+    "explanation": "**Ribosomes** are the sites of protein synthesis. They are found free in the cytoplasm or attached to the rough ER. Even prokaryotes have ribosomes."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-037",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Lysosomes",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "What is the lysosome doing in this animation?",
+    "image": { "src": "/img/cell/lysosome.svg", "alt": "Animation of a lysosome engulfing a worn-out mitochondrion that breaks into fragments" },
+    "options": [
+      { "id": "a", "text": "Making new proteins" },
+      { "id": "b", "text": "Breaking down a worn-out organelle with its enzymes" },
+      { "id": "c", "text": "Storing cell sap" },
+      { "id": "d", "text": "Releasing energy as ATP" }
+    ],
+    "answer": "b",
+    "hint": "Lysosomes are full of digestive enzymes.",
+    "explanation": "**Lysosomes** contain enzymes that break down worn-out organelles, wastes and unwanted molecules, keeping the cell clean. The products are released into the cytoplasm to be reused."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-038",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Plastids",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which of these is rich in **leucoplasts** that store starch?",
+    "options": [
+      { "id": "a", "text": "Green leaf", "image": { "src": "/img/cell/leaf.svg", "alt": "A green leaf" } },
+      { "id": "b", "text": "Ripe tomato", "image": { "src": "/img/cell/tomato.svg", "alt": "A ripe red tomato" } },
+      { "id": "c", "text": "Potato tuber", "image": { "src": "/img/cell/potato.svg", "alt": "A potato and a cut half showing white flesh" } },
+      { "id": "d", "text": "Marigold flower", "image": { "src": "/img/cell/marigold.svg", "alt": "An orange marigold flower" } }
+    ],
+    "answer": "c",
+    "hint": "*Leukos* means white. Which one is white inside and full of stored food?",
+    "explanation": "**Leucoplasts** are colourless plastids that store food such as starch, oils or proteins. Potato and taro cells store starch in them. Leaves are rich in **chloroplasts**, while tomatoes and marigolds owe their colour to **chromoplasts**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-039",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Plastids",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Why is a ripe tomato **red**?",
+    "image": { "src": "/img/cell/tomato.svg", "alt": "A ripe red tomato" },
+    "options": [
+      { "id": "a", "text": "Its chloroplasts are full of chlorophyll" },
+      { "id": "b", "text": "Its leucoplasts store red starch" },
+      { "id": "c", "text": "Its chromoplasts contain red, orange or yellow pigments" },
+      { "id": "d", "text": "Its mitochondria release red ATP" }
+    ],
+    "answer": "c",
+    "hint": "*Chroma* means colour in Greek.",
+    "explanation": "**Chromoplasts** are plastids with pigments other than chlorophyll, which can be yellow, orange or red. They colour flowers and fruits, attracting pollinators and the animals that disperse seeds."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-040",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Vacuoles",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "This plant has not been watered for days. Why does it droop?",
+    "image": { "src": "/img/cell/plant-wilting.svg", "alt": "Animation of a potted plant wilting and recovering" },
+    "options": [
+      { "id": "a", "text": "Its cell walls dissolve" },
+      { "id": "b", "text": "Its chloroplasts stop working at once" },
+      { "id": "c", "text": "Its vacuoles lose water, so the cells are no longer firm" },
+      { "id": "d", "text": "Its cells divide too quickly" }
+    ],
+    "answer": "c",
+    "hint": "Which organelle stores large amounts of water and helps keep the cell firm?",
+    "explanation": "The large central **vacuole** stores water and keeps pressure inside the cell, which makes the plant firm. Without enough water, vacuoles lose water, cells become less firm, and the plant **wilts**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-041",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Origin of life",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "The hot springs of Puga Valley in Ladakh stay close to boiling point. Which organisms mostly live in them?",
+    "image": { "src": "/img/cell/hot-spring.svg", "alt": "Animation of a steaming hot spring in a mountain valley, with rod-shaped bacteria magnified" },
+    "options": [
+      { "id": "a", "text": "Heat-loving, unicellular bacteria called thermophiles" },
+      { "id": "b", "text": "Multicellular fish" },
+      { "id": "c", "text": "Fungi that need cold water" },
+      { "id": "d", "text": "Flowering plants" }
+    ],
+    "answer": "a",
+    "hint": "*Thermo* means heat and *phile* means lover.",
+    "explanation": "**Thermophiles** are heat-loving, unicellular bacteria. Conditions in such hot springs may resemble the early Earth about 3.5 billion years ago. Scientists found that calcium carbonate forms rapidly there and may have protected early organic molecules."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-042",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell death",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "As an embryo's hand develops, the cells between the fingers die on schedule. What is this called?",
+    "image": { "src": "/img/cell/hand-pcd.svg", "alt": "Animation of the webbing between an embryo's fingers disappearing" },
+    "options": [
+      { "id": "a", "text": "Contact inhibition" },
+      { "id": "b", "text": "Programmed cell death (PCD)" },
+      { "id": "c", "text": "Meiosis" },
+      { "id": "d", "text": "Osmosis" }
+    ],
+    "answer": "b",
+    "hint": "The cell death is genetically planned.",
+    "explanation": "**Programmed cell death** is a genetically regulated, organised way of removing selected cells. It is essential for normal development: without it we would have webbed hands. It also helps in quality control and immunity."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-043",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Totipotency",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "A single plant cell, given nutrients and the right conditions, grows into a whole new plant. What is this ability called?",
+    "image": { "src": "/img/cell/tissue-culture.svg", "alt": "Animation: a single plant cell becomes a cell mass and then a small plantlet" },
+    "options": [
+      { "id": "a", "text": "Totipotency" },
+      { "id": "b", "text": "Plasmolysis" },
+      { "id": "c", "text": "Contact inhibition" },
+      { "id": "d", "text": "Diffusion" }
+    ],
+    "answer": "a",
+    "hint": "Gottlieb Haberlandt proposed this idea in 1902.",
+    "explanation": "**Totipotency** is the ability of a living plant cell, even a mature one, to develop into a complete plant. Haberlandt's idea laid the foundation of **plant tissue culture**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-044",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Synthetic biology",
+    "difficulty": "hard", "marks": 1,
+    "type": "mcq",
+    "prompt": "In 2010, Craig Venter's team put lab-made DNA into a bacterium whose own DNA had been removed. The cell grew and divided following the new DNA. What does this show?",
+    "image": { "src": "/img/cell/synthetic-cell.svg", "alt": "Animation: a bacterium's DNA is removed, synthetic DNA is added, and the cell divides" },
+    "options": [
+      { "id": "a", "text": "Scientists can build a complete living cell from non-living chemicals" },
+      { "id": "b", "text": "DNA controls the structure and activities of a cell" },
+      { "id": "c", "text": "The cytoplasm controls the cell, not the DNA" },
+      { "id": "d", "text": "Bacteria do not need DNA to divide" }
+    ],
+    "answer": "b",
+    "hint": "Only one part of the cell was made in the lab.",
+    "explanation": "The cell followed the instructions of the inserted DNA, showing that **DNA controls the structure and activities of a cell**. Only the DNA was synthetic: the cytoplasm and membrane came from an existing living cell, so a complete cell was **not** made from scratch."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-045",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Plant and animal cells",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which structures are found in **both** plant and animal cells?",
+    "options": [
+      { "id": "a", "text": "Cell membrane", "image": { "src": "/img/cell/icons/cell-membrane.svg", "alt": "Cell membrane" } },
+      { "id": "b", "text": "Mitochondrion", "image": { "src": "/img/cell/icons/mitochondrion.svg", "alt": "Mitochondrion" } },
+      { "id": "c", "text": "Cell wall", "image": { "src": "/img/cell/icons/cell-wall.svg", "alt": "Cell wall" } },
+      { "id": "d", "text": "Nucleus", "image": { "src": "/img/cell/icons/nucleus.svg", "alt": "Nucleus" } },
+      { "id": "e", "text": "Chloroplast", "image": { "src": "/img/cell/icons/chloroplast.svg", "alt": "Chloroplast" } },
+      { "id": "f", "text": "Golgi apparatus", "image": { "src": "/img/cell/icons/golgi.svg", "alt": "Golgi apparatus" } }
+    ],
+    "answers": ["a", "b", "d", "f"],
+    "hint": "Two of these are found only in plant cells.",
+    "explanation": "Both plant and animal cells have a **cell membrane**, **nucleus**, **mitochondria** and **Golgi apparatus**. The **cell wall** and **chloroplasts** are found in plant cells but not in animal cells."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-046",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell organelles",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are surrounded by **two membranes**?",
+    "options": [
+      { "id": "a", "text": "Nucleus", "image": { "src": "/img/cell/icons/nucleus.svg", "alt": "Nucleus" } },
+      { "id": "b", "text": "Lysosome", "image": { "src": "/img/cell/icons/lysosome.svg", "alt": "Lysosome" } },
+      { "id": "c", "text": "Mitochondrion", "image": { "src": "/img/cell/icons/mitochondrion.svg", "alt": "Mitochondrion" } },
+      { "id": "d", "text": "Vacuole", "image": { "src": "/img/cell/icons/vacuole.svg", "alt": "Vacuole" } },
+      { "id": "e", "text": "Chloroplast", "image": { "src": "/img/cell/icons/chloroplast.svg", "alt": "Chloroplast" } },
+      { "id": "f", "text": "Rough ER", "image": { "src": "/img/cell/icons/er.svg", "alt": "Rough endoplasmic reticulum" } }
+    ],
+    "answers": ["a", "c", "e"],
+    "hint": "Lysosomes and vacuoles each have a single membrane.",
+    "explanation": "The **nucleus** has a double-layered nuclear membrane, and **mitochondria** and **chloroplasts** are both double-membrane-bound. Lysosomes and the vacuole are bounded by a single membrane, and the ER is a network of single membranes."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-047",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Mitosis",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "Watch the animation of **mitosis**. Which statements are correct?",
+    "image": { "src": "/img/cell/mitosis.svg", "alt": "Animation of one cell dividing into two identical cells" },
+    "options": [
+      { "id": "a", "text": "One parent cell forms two daughter cells" },
+      { "id": "b", "text": "The daughter cells are genetically identical to the parent" },
+      { "id": "c", "text": "It happens only in the testes and ovaries" },
+      { "id": "d", "text": "Each daughter cell has the same number of chromosomes as the parent" },
+      { "id": "e", "text": "It helps heal a cut on your skin" }
+    ],
+    "answers": ["a", "b", "d", "e"],
+    "hint": "One statement describes meiosis, not mitosis.",
+    "explanation": "**Mitosis** makes two genetically identical daughter cells with the same number of chromosomes as the parent. It drives growth, repair (such as healing a cut) and asexual reproduction. Division only in testes and ovaries describes **meiosis**."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-048",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Acellular agents",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are **acellular** (not made of cells)?",
+    "image": { "src": "/img/cell/virus.svg", "alt": "Animation of a virus particle with a protein coat and genetic material inside" },
+    "options": [
+      { "id": "a", "text": "Virus" },
+      { "id": "b", "text": "Bacterium" },
+      { "id": "c", "text": "Viroid" },
+      { "id": "d", "text": "Yeast" },
+      { "id": "e", "text": "Prion" }
+    ],
+    "answers": ["a", "c", "e"],
+    "hint": "Bacteria and yeast are both single-celled organisms.",
+    "explanation": "**Viruses** (genetic material in a protein coat), **viroids** (genetic material with no protein coat) and **prions** (misfolded proteins with no genetic material) are acellular infectious agents. Bacteria and yeast are unicellular organisms."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-049",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Cell wall",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/cell/cheek-cells.svg", "alt": "Human cheek cells seen through a microscope" },
+    "assertion": "Cheek cells shrink considerably when placed in 20% sugar solution.",
+    "reason": "Animal cells do not have a rigid cell wall to hold their shape.",
+    "answer": "a",
+    "hint": "Compare what happened to the Rhoeo leaf cells in the same solution.",
+    "explanation": "Both are true and R explains A. Water leaves the cheek cells by osmosis. With no rigid **cell wall**, the whole cell shrinks. Plant cells in the same solution keep their outer shape because of their wall."
+  },
+  {
+    "id": "in-cbse-9-bio-cell-050",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Cell: The Building Block of Life", "topic": "Mitochondria and plastids",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/cell/mitochondrion.svg", "alt": "A mitochondrion with its own DNA loop and ribosomes" },
+    "assertion": "Mitochondria can make some of their own proteins.",
+    "reason": "Mitochondria have their own DNA and ribosomes.",
+    "answer": "a",
+    "hint": "What two things does a cell need to make a protein?",
+    "explanation": "Both are true and R explains A. Mitochondria (and plastids) have their own **DNA** and **ribosomes**, so they can make some of their own proteins. This suggests they share an evolutionary history with certain bacteria."
+  }
+]

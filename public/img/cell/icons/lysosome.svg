@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>Lysosome</title>
+<style>
+.p{transform-box:fill-box;transform-origin:center;animation:p 3s ease-in-out infinite}
+.e{transform-box:fill-box;transform-origin:center;animation:r 8s linear infinite}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+@keyframes r{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="p">
+<circle cx="60" cy="60" r="36" fill="#F2C94C" stroke="#C99A1E" stroke-width="3"/>
+<circle cx="60" cy="60" r="30" fill="#F7DA7A"/>
+<g class="e" fill="#C99A1E">
+<circle cx="48" cy="46" r="3.5"/><circle cx="68" cy="44" r="3"/><circle cx="76" cy="60" r="3.5"/><circle cx="64" cy="74" r="3"/>
+<circle cx="46" cy="70" r="3.5"/><circle cx="58" cy="58" r="3"/><circle cx="40" cy="58" r="2.5"/><circle cx="78" cy="74" r="2.5"/><circle cx="56" cy="36" r="2.5"/>
+</g>
+<ellipse cx="46" cy="40" rx="8" ry="4.5" transform="rotate(-35 46 40)" fill="#fff" opacity=".45"/>
+</g>
+</svg>

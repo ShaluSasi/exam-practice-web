@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A lysosome engulfs and digests a worn-out mitochondrion</title>
+<style>
+.mover{animation:move 5s ease-in-out infinite}
+.grow{transform-box:fill-box;transform-origin:center;animation:grow 5s ease-in-out infinite}
+.mito{animation:mito 5s ease-in-out infinite}
+.frag{opacity:0;transform-box:fill-box;transform-origin:center;animation:frag 5s ease-out infinite}
+.f2{animation-name:frag2}.f3{animation-name:frag3}.f4{animation-name:frag4}
+.dots{animation:spin 5s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes move{0%{transform:translate(0,0);opacity:0}6%{opacity:1}38%,100%{transform:translate(190px,0)}92%{opacity:1}100%{opacity:0}}
+@keyframes grow{0%,36%{transform:scale(1)}50%,80%{transform:scale(2.3)}100%{transform:scale(2.3)}}
+@keyframes mito{0%,50%{opacity:1;transform:none}62%,100%{opacity:0}}
+@keyframes frag{0%,55%{opacity:0;transform:translate(0,0) scale(1)}62%{opacity:1}88%,100%{opacity:0;transform:translate(-18px,-14px) scale(.4)}}
+@keyframes frag2{0%,55%{opacity:0;transform:translate(0,0)}62%{opacity:1}88%,100%{opacity:0;transform:translate(18px,-12px) scale(.4)}}
+@keyframes frag3{0%,55%{opacity:0;transform:translate(0,0)}62%{opacity:1}88%,100%{opacity:0;transform:translate(-14px,16px) scale(.4)}}
+@keyframes frag4{0%,55%{opacity:0;transform:translate(0,0)}62%{opacity:1}88%,100%{opacity:0;transform:translate(16px,14px) scale(.4)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="14" y="14" width="372" height="192" rx="60" fill="#FFE1E1" stroke="#E2717F" stroke-width="3"/>
+<g fill="#5B3A8C" opacity=".5"><circle cx="60" cy="50" r="2.5"/><circle cx="140" cy="175" r="2.5"/><circle cx="200" cy="45" r="2.5"/><circle cx="340" cy="60" r="2.5"/><circle cx="350" cy="170" r="2.5"/><circle cx="110" cy="70" r="2"/><circle cx="230" cy="180" r="2"/></g>
+<g class="mito">
+<path d="M246 110c0-17 16-24 34-24s34 7 34 24-16 24-34 24-34-7-34-24z" fill="#C9C4C0" stroke="#8A8580" stroke-width="2.5"/>
+<path d="M256 110c5-12 9 12 14 0s9 12 14 0 9 12 14 0 9 12 10 2" fill="none" stroke="#8A8580" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M262 96l6 4M294 124l5-5" stroke="#8A8580" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g fill="#C9C4C0" stroke="#8A8580" stroke-width="2" stroke-linejoin="round">
+<path class="frag" d="M266 100l10-3 4 8-9 4z"/>
+<path class="frag f2" d="M286 98l10 2-2 9-9-2z"/>
+<path class="frag f3" d="M264 116l9 1-1 9-9-3z"/>
+<path class="frag f4" d="M288 116l9-1 2 8-10 3z"/>
+</g>
+<g class="mover">
+<g class="grow">
+<circle cx="90" cy="110" r="22" fill="#F2C94C" fill-opacity=".55" stroke="#C99A1E" stroke-width="2.5"/>
+<g class="dots" fill="#C99A1E"><circle cx="82" cy="102" r="2"/><circle cx="97" cy="100" r="2"/><circle cx="100" cy="114" r="2"/><circle cx="86" cy="119" r="2"/><circle cx="76" cy="112" r="1.6"/><circle cx="92" cy="110" r="1.6"/><circle cx="104" cy="106" r="1.4"/></g>
+</g>
+</g>
+</svg>

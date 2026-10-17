@@ -1,13 +1,14 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, BookOpen, Check, Clock, Flame, Lightbulb, X, Zap } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Clock, Flame, Lightbulb, Target, Trophy, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { Button } from "../components/Button";
+import { Figure } from "../components/Figure";
 import { QuestionHeader } from "../components/QuestionHeader";
 import { RichText } from "../components/RichText";
 import { XpPill } from "../components/TopBar";
-import { isAnswered } from "../engine/scoring";
+import { isAnswered, scoreSession, type ScoreSummary } from "../engine/scoring";
 import { burst } from "../lib/celebrate";
 import { play } from "../lib/sound";
 import { formatTime } from "../lib/subjects";
@@ -65,6 +66,55 @@ function Streak({ n }: { n: number }) {
       <Flame className={clsx("size-5", hot && "fill-brand text-bad")} />
       {n}
     </motion.div>
+  );
+}
+
+function ScoreTile({
+  icon: Icon,
+  label,
+  value,
+  suffix,
+  tone,
+}: {
+  icon: typeof Zap;
+  label: string;
+  value: string | number;
+  suffix?: string;
+  tone: string;
+}) {
+  return (
+    <div className="flex min-w-0 flex-1 items-center gap-2 rounded-xl border-2 border-line bg-surface px-2 py-1.5 sm:px-3">
+      <span className={clsx("hidden size-7 shrink-0 place-items-center rounded-lg sm:grid", tone)}>
+        <Icon className="size-4" strokeWidth={2.75} />
+      </span>
+      <div className="min-w-0 leading-none">
+        <div className="flex items-baseline gap-0.5 font-display font-extrabold tabular-nums">
+          <motion.span
+            key={String(value)}
+            initial={{ y: -10, opacity: 0, scale: 1.4 }}
+            animate={{ y: 0, opacity: 1, scale: 1 }}
+            transition={{ type: "spring", stiffness: 500, damping: 18 }}
+            className="text-[17px] sm:text-lg"
+          >
+            {value}
+          </motion.span>
+          {suffix && <span className="text-xs text-muted">{suffix}</span>}
+        </div>
+        <div className="mt-0.5 truncate text-[10px] font-bold uppercase tracking-wider text-muted sm:text-[11px]">{label}</div>
+      </div>
+    </div>
+  );
+}
+
+/** Live scoreboard for the current round. */
+function ScoreBoard({ score }: { score: ScoreSummary }) {
+  return (
+    <div className="mx-auto flex max-w-3xl gap-1.5 px-4 pb-3 sm:gap-2.5 sm:px-6" aria-label="Scoreboard">
+      <ScoreTile icon={Trophy} label="Score" value={score.marks} suffix={`/${score.maxMarks}`} tone="bg-brand text-brand-ink" />
+      <ScoreTile icon={Check} label="Correct" value={score.correct} tone="bg-ok text-white" />
+      <ScoreTile icon={X} label="Wrong" value={score.wrong + score.skipped} tone="bg-bad text-white" />
+      <ScoreTile icon={Target} label="Accuracy" value={`${score.accuracy}%`} tone="bg-fg text-bg" />
+    </div>
   );
 }
 
@@ -166,6 +216,7 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
   const [floatXp, setFloatXp] = useState<{ id: number; xp: number } | null>(null);
   const answered = q ? isAnswered(q, s.response) : false;
   const lastAttempt = s.attempts.at(-1);
+  const score = useMemo(() => scoreSession(s.questions, s.attempts), [s.questions, s.attempts]);
 
   const check = useCallback(() => {
     if (!answered || s.phase !== "answering") return;
@@ -191,6 +242,13 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
         return;
       }
       if (e.target instanceof HTMLInputElement || s.phase !== "answering") return;
+      if (q?.type === "hotspot") {
+        const spot = q.spots[Number(e.key) - 1];
+        if (!spot) return;
+        play("tap");
+        s.setResponse(spot.id);
+        return;
+      }
       if (q?.type === "mcq" || q?.type === "assertion_reason" || q?.type === "multi") {
         const opts = q.type === "assertion_reason" ? region.assertionReasonOptions : q.options;
         const i = "1234".indexOf(e.key) >= 0 ? "1234".indexOf(e.key) : "abcd".indexOf(e.key.toLowerCase());
@@ -243,13 +301,15 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
             </AnimatePresence>
           </div>
         </div>
+        <ScoreBoard score={score} />
       </header>
 
       {/* Question */}
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 pb-8 pt-6 sm:px-6 sm:pt-10">
-        <div className="mb-4 flex items-center justify-between text-sm font-semibold text-muted">
-          <span>
+        <div className="mb-4 flex items-center justify-between gap-3 text-sm font-semibold text-muted">
+          <span className="min-w-0">
             Question <span className="font-display text-fg">{s.index + 1}</span> of {s.questions.length}
+            {s.title && <span className="hidden sm:inline"> · {s.title}</span>}
           </span>
           <Elapsed since={s.startedAt} />
         </div>
@@ -269,6 +329,7 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
             <h2 className="mt-5 text-xl font-semibold leading-relaxed sm:text-[22px]">
               <RichText text={q.prompt} />
             </h2>
+            {q.image && q.type !== "hotspot" && <Figure media={q.image} className="mt-5" />}
 
             {q.hint && !reveal && (
               <div className="mt-4">

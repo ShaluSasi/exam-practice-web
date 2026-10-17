@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>Rough endoplasmic reticulum</title>
+<defs>
+<g id="m">
+<path d="M16 0 C28 -8 40 -8 52 0 S76 8 88 0 S100 -6 104 -2 C106 2 102 6 98 5 C90 2 84 10 72 10 C60 10 54 2 42 2 C30 2 24 8 16 6 C12 5 12 2 16 0 Z" fill="#F5B7C8" stroke="#D46A8A" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="#5B3A8C"><circle cx="22" cy="-3" r="2.3"/><circle cx="34" cy="-7" r="2.3"/><circle cx="46" cy="-5" r="2.3"/><circle cx="58" cy="0" r="2.3"/><circle cx="70" cy="3" r="2.3"/><circle cx="82" cy="2" r="2.3"/><circle cx="94" cy="-4" r="2.3"/>
+<circle cx="30" cy="8" r="2.3"/><circle cx="50" cy="5" r="2.3"/><circle cx="66" cy="13" r="2.3"/><circle cx="84" cy="11" r="2.3"/></g>
+</g>
+</defs>
+<style>
+.f{animation:f 4s ease-in-out infinite}.f2{animation-delay:-1.3s}.f3{animation-delay:-2.6s}
+@keyframes f{0%,100%{transform:translateX(-2px)}50%{transform:translateX(2px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="f"><use href="#m" y="36"/></g>
+<g class="f f2"><use href="#m" y="60"/></g>
+<g class="f f3"><use href="#m" y="84"/></g>
+</svg>

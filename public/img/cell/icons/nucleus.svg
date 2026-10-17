@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>Nucleus</title>
+<style>
+.p{transform-box:fill-box;transform-origin:center;animation:p 4s ease-in-out infinite}
+@keyframes p{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="p">
+<circle cx="60" cy="60" r="42" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="3"/>
+<circle cx="60" cy="60" r="35" fill="#E6D6F9" stroke="#7B4BC0" stroke-width="2"/>
+<g fill="#FFF9EE" stroke="#7B4BC0" stroke-width="1.5">
+<circle cx="60" cy="21.5" r="3"/><circle cx="98.5" cy="60" r="3"/><circle cx="60" cy="98.5" r="3"/><circle cx="21.5" cy="60" r="3"/>
+<circle cx="87" cy="33" r="3"/><circle cx="87" cy="87" r="3"/><circle cx="33" cy="87" r="3"/><circle cx="33" cy="33" r="3"/>
+</g>
+<g fill="none" stroke="#9A72D4" stroke-width="2.2" stroke-linecap="round">
+<path d="M36 50 q4 -6 8 0 t8 0"/><path d="M70 40 q4 -6 8 0 t8 0"/><path d="M38 76 q4 -6 8 0 t8 0"/><path d="M70 80 q4 -6 8 0 t6 2"/><path d="M48 92 q3 -4 6 0"/>
+</g>
+<circle cx="64" cy="60" r="11" fill="#6D3BB0" stroke="#4E2788" stroke-width="2"/>
+<ellipse cx="60" cy="56" rx="4" ry="2.5" fill="#fff" opacity=".35"/>
+</g>
+</svg>

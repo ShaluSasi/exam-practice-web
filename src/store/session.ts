@@ -12,6 +12,8 @@ export interface Attempt {
 }
 
 interface SessionState {
+  /** Shown on the scoreboard, e.g. the chapter name. */
+  title: string;
   questions: Question[];
   index: number;
   phase: "answering" | "feedback";
@@ -25,7 +27,7 @@ interface SessionState {
   finishedAt: number | null;
   questionStartedAt: number;
 
-  start: (questions: Question[]) => void;
+  start: (questions: Question[], title: string) => void;
   setResponse: (r: AnyResponse) => void;
   revealHint: () => void;
   /** Grades the current response; `skip` records it as unanswered. */
@@ -34,6 +36,7 @@ interface SessionState {
 }
 
 export const useSession = create<SessionState>()((set, get) => ({
+  title: "",
   questions: [],
   index: 0,
   phase: "answering",
@@ -47,9 +50,10 @@ export const useSession = create<SessionState>()((set, get) => ({
   finishedAt: null,
   questionStartedAt: 0,
 
-  start: (questions) => {
+  start: (questions, title) => {
     const now = Date.now();
     set({
+      title,
       questions,
       index: 0,
       phase: "answering",

@@ -1,5 +1,6 @@
 import type { AnyResponse, Question } from "../content/schema";
 import { AssertionReasonQuestion, McqQuestion, MultiQuestion } from "./ChoiceQuestions";
+import { HotspotQuestion } from "./HotspotQuestion";
 import { MatchQuestion } from "./MatchQuestion";
 import { NumericQuestion } from "./NumericQuestion";
 import { OrderQuestion } from "./OrderQuestion";
@@ -30,6 +31,8 @@ export function QuestionBody({
       return <MatchQuestion q={q} response={response as Record<string, string> | undefined} {...p} />;
     case "order":
       return <OrderQuestion q={q} response={response as string[] | undefined} {...p} />;
+    case "hotspot":
+      return <HotspotQuestion q={q} response={response as string | undefined} {...p} />;
   }
 }
 
@@ -40,4 +43,5 @@ export const TYPE_LABEL: Record<Question["type"], string> = {
   assertion_reason: "Assertion & Reason",
   match: "Match the following",
   order: "Arrange in order",
+  hotspot: "Tap the diagram",
 };

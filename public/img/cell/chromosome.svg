@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A chromosome with one arm uncoiling into a DNA double helix</title>
+<style>
+.hx{animation:scroll 4s linear infinite}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(50px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<clipPath id="c"><rect x="139" y="80" width="155" height="60"/></clipPath>
+<g id="rungs" stroke-width="3.5" stroke-linecap="round">
+<path d="M6.25 97.3V122.7" stroke="#F2C94C"/>
+<path d="M12.5 92V128" stroke="#3FA34D"/>
+<path d="M18.75 97.3V122.7" stroke="#E5484D"/>
+<path d="M31.25 97.3V122.7" stroke="#4A90C8"/>
+<path d="M37.5 92V128" stroke="#F2C94C"/>
+<path d="M43.75 97.3V122.7" stroke="#3FA34D"/>
+</g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M98 168C110 196 124 196 128 176C132 156 116 150 122 136C127 124 134 114 140 110" fill="none" stroke="#8E3B96" stroke-width="3.5" stroke-linecap="round"/>
+<g fill="none" stroke-linecap="round">
+<path d="M45 42Q70 110 45 178M95 42Q70 110 95 178" stroke="#8E3B96" stroke-width="28"/>
+<path d="M45 42Q70 110 45 178M95 42Q70 110 95 178" stroke="#D77FCF" stroke-width="22"/>
+<path d="M45 42Q70 110 45 178M95 42Q70 110 95 178" stroke="#F2B6E9" stroke-width="6" stroke-dasharray="3 14" opacity=".9"/>
+</g>
+<circle cx="70" cy="110" r="9" fill="#8E3B96"/>
+<g clip-path="url(#c)">
+<g class="hx">
+<use href="#rungs" x="90"/><use href="#rungs" x="140"/><use href="#rungs" x="190"/><use href="#rungs" x="240"/>
+<g fill="none" stroke-width="4.5" stroke-linecap="round">
+<path d="M90 110c9 -24 16 -24 25 0c9 24 16 24 25 0c9 -24 16 -24 25 0c9 24 16 24 25 0c9 -24 16 -24 25 0c9 24 16 24 25 0c9 -24 16 -24 25 0c9 24 16 24 25 0" stroke="#7B4BC0"/>
+<path d="M90 110c9 24 16 24 25 0c9 -24 16 -24 25 0c9 24 16 24 25 0c9 -24 16 -24 25 0c9 24 16 24 25 0c9 -24 16 -24 25 0c9 24 16 24 25 0c9 -24 16 -24 25 0" stroke="#E2717F"/>
+</g>
+</g>
+</g>
+</svg>

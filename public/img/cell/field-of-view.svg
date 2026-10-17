@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Microscope field of view 4 mm across with one row of 20 onion cells</title>
+<defs>
+<clipPath id="fov"><circle cx="200" cy="172" r="118"/></clipPath>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="200" cy="172" r="118" fill="#FDFBF4"/>
+<g clip-path="url(#fov)">
+<g fill="#FBE3E8" stroke="#B0607A" stroke-width="1.5">
+<rect x="82" y="163" width="11.8" height="18"/><rect x="93.8" y="163" width="11.8" height="18"/><rect x="105.6" y="163" width="11.8" height="18"/><rect x="117.4" y="163" width="11.8" height="18"/><rect x="129.2" y="163" width="11.8" height="18"/>
+<rect x="141" y="163" width="11.8" height="18"/><rect x="152.8" y="163" width="11.8" height="18"/><rect x="164.6" y="163" width="11.8" height="18"/><rect x="176.4" y="163" width="11.8" height="18"/><rect x="188.2" y="163" width="11.8" height="18"/>
+<rect x="200" y="163" width="11.8" height="18"/><rect x="211.8" y="163" width="11.8" height="18"/><rect x="223.6" y="163" width="11.8" height="18"/><rect x="235.4" y="163" width="11.8" height="18"/><rect x="247.2" y="163" width="11.8" height="18"/>
+<rect x="259" y="163" width="11.8" height="18"/><rect x="270.8" y="163" width="11.8" height="18"/><rect x="282.6" y="163" width="11.8" height="18"/><rect x="294.4" y="163" width="11.8" height="18"/><rect x="306.2" y="163" width="11.8" height="18"/>
+</g>
+<g fill="#7B4BC0">
+<circle cx="87.9" cy="172" r="1.9"/><circle cx="99.7" cy="172" r="1.9"/><circle cx="111.5" cy="172" r="1.9"/><circle cx="123.3" cy="172" r="1.9"/><circle cx="135.1" cy="172" r="1.9"/>
+<circle cx="146.9" cy="172" r="1.9"/><circle cx="158.7" cy="172" r="1.9"/><circle cx="170.5" cy="172" r="1.9"/><circle cx="182.3" cy="172" r="1.9"/><circle cx="194.1" cy="172" r="1.9"/>
+<circle cx="205.9" cy="172" r="1.9"/><circle cx="217.7" cy="172" r="1.9"/><circle cx="229.5" cy="172" r="1.9"/><circle cx="241.3" cy="172" r="1.9"/><circle cx="253.1" cy="172" r="1.9"/>
+<circle cx="264.9" cy="172" r="1.9"/><circle cx="276.7" cy="172" r="1.9"/><circle cx="288.5" cy="172" r="1.9"/><circle cx="300.3" cy="172" r="1.9"/><circle cx="312.1" cy="172" r="1.9"/>
+</g>
+</g>
+<circle cx="200" cy="172" r="118" fill="none" stroke="#2B2F4A" stroke-width="6"/>
+<g fill="none" stroke="#2B2F4A" stroke-linecap="round" stroke-linejoin="round">
+<path d="M82 42V172M318 42V172" stroke-width="1.5" stroke-dasharray="3 4" opacity=".6"/>
+<path d="M84 42H316M92 36L84 42L92 48M308 36L316 42L308 48" stroke-width="2.5"/>
+</g>
+<text x="200" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A">4 mm</text>
+</svg>

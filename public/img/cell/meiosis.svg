@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>One cell divides twice to form four cells, each with half the chromosomes</title>
+<style>
+.r1{animation:r1 5s ease-in-out infinite}
+.r2{opacity:0;animation:r2 5s ease-in-out infinite}
+.r3{opacity:0;animation:r3 5s ease-in-out infinite}
+@keyframes r1{0%{opacity:0}8%,90%{opacity:1}100%{opacity:0}}
+@keyframes r2{0%,25%{opacity:0}35%,90%{opacity:1}100%{opacity:0}}
+@keyframes r3{0%,50%{opacity:0}60%,90%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.r2,.r3{opacity:1}}
+</style>
+<defs>
+<g id="xr" stroke="#E5484D" stroke-width="4.5" stroke-linecap="round"><path d="M-5 -7L5 7M5 -7L-5 7"/></g>
+<g id="xb" stroke="#3D7BD9" stroke-width="4.5" stroke-linecap="round"><path d="M-5 -7L5 7M5 -7L-5 7"/></g>
+<path id="sr" d="M0 -7V7" stroke="#E5484D" stroke-width="4.5" stroke-linecap="round"/>
+<path id="sb" d="M0 -7V7" stroke="#3D7BD9" stroke-width="4.5" stroke-linecap="round"/>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="r1" transform="translate(200 42)">
+<circle r="31" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/>
+<circle r="20" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/>
+<use href="#xr" x="-7"/><use href="#xb" x="7"/>
+</g>
+<g class="r2">
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M182 76L134 100M134 92V100H142"/>
+<path d="M218 76L266 100M266 92V100H258"/>
+</g>
+<g transform="translate(120 128)"><circle r="26" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/><circle r="15" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/><use href="#xr"/></g>
+<g transform="translate(280 128)"><circle r="26" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/><circle r="15" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/><use href="#xb"/></g>
+</g>
+<g class="r3">
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M106 158L72 186M72 178V186H80"/>
+<path d="M134 158L146 186M141 181L146 186L150 179"/>
+<path d="M266 158L254 186M250 179L254 186L259 181"/>
+<path d="M294 158L328 186M320 186H328V178"/>
+</g>
+<g transform="translate(60 218)"><circle r="22" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/><circle r="12" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/><use href="#sr"/></g>
+<g transform="translate(150 218)"><circle r="22" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/><circle r="12" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/><use href="#sr"/></g>
+<g transform="translate(250 218)"><circle r="22" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/><circle r="12" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/><use href="#sb"/></g>
+<g transform="translate(340 218)"><circle r="22" fill="#FFE9D6" stroke="#D9926A" stroke-width="3"/><circle r="12" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/><use href="#sb"/></g>
+</g>
+</svg>

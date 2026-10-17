@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Plant cell losing water: the living contents shrink away from the rigid cell wall</title>
+<style>
+.live{transform-box:fill-box;transform-origin:center;animation:shrink 5s ease-in-out infinite}
+@keyframes shrink{0%,8%{transform:scale(1)}60%,82%{transform:scale(.7)}100%{transform:scale(1)}}
+.dr{fill:#4A90C8;opacity:0}
+.l{animation:l 2.5s ease-out infinite}
+.r{animation:r 2.5s ease-out infinite}
+.u{animation:u 2.5s ease-out infinite}
+.dn{animation:dn 2.5s ease-out infinite}
+.d1{animation-delay:-1.25s}
+@keyframes l{0%{transform:translateX(0);opacity:0}20%{opacity:.9}100%{transform:translateX(-60px);opacity:0}}
+@keyframes r{0%{transform:translateX(0);opacity:0}20%{opacity:.9}100%{transform:translateX(60px);opacity:0}}
+@keyframes u{0%{transform:translateY(0);opacity:0}20%{opacity:.9}100%{transform:translateY(-45px);opacity:0}}
+@keyframes dn{0%{transform:translateY(0);opacity:0}20%{opacity:.9}100%{transform:translateY(45px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="60" y="30" width="280" height="180" rx="14" fill="#E6F3FF" stroke="#4E8F2A" stroke-width="12"/>
+<rect x="54" y="24" width="292" height="192" rx="18" fill="none" stroke="#2F5E16" stroke-width="2"/>
+<rect x="66" y="36" width="268" height="168" rx="9" fill="none" stroke="#2F5E16" stroke-width="2"/>
+<g class="live">
+<rect x="74" y="44" width="252" height="152" rx="12" fill="#EEF8E0" stroke="#6DAA3C" stroke-width="2.5"/>
+<rect x="165" y="70" width="135" height="100" rx="30" fill="#CDE9FF" stroke="#4A90C8" stroke-width="2"/>
+<circle cx="120" cy="92" r="17" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2.5"/>
+<circle cx="124" cy="89" r="5.5" fill="#6D3BB0"/>
+<g fill="#3FA34D" stroke="#2C7A37" stroke-width="1.5">
+<ellipse cx="100" cy="150" rx="9" ry="5" transform="rotate(-20 100 150)"/>
+<ellipse cx="135" cy="170" rx="9" ry="5" transform="rotate(15 135 170)"/>
+<ellipse cx="150" cy="128" rx="9" ry="5" transform="rotate(60 150 128)"/>
+<ellipse cx="200" cy="58" rx="9" ry="5"/>
+<ellipse cx="260" cy="57" rx="9" ry="5" transform="rotate(10 260 57)"/>
+<ellipse cx="312" cy="110" rx="9" ry="5" transform="rotate(80 312 110)"/>
+<ellipse cx="230" cy="182" rx="9" ry="5" transform="rotate(-8 230 182)"/>
+<ellipse cx="290" cy="183" rx="9" ry="5" transform="rotate(12 290 183)"/>
+<ellipse cx="95" cy="60" rx="9" ry="5" transform="rotate(30 95 60)"/>
+</g>
+</g>
+<circle class="dr l" cx="120" cy="125" r="4"/>
+<circle class="dr l d1" cx="120" cy="170" r="3.5"/>
+<circle class="dr r" cx="280" cy="80" r="4"/>
+<circle class="dr r d1" cx="280" cy="150" r="3.5"/>
+<circle class="dr u d1" cx="180" cy="72" r="3.5"/>
+<circle class="dr u" cx="240" cy="72" r="4"/>
+<circle class="dr dn" cx="170" cy="168" r="4"/>
+<circle class="dr dn d1" cx="250" cy="168" r="3.5"/>
+<text x="200" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A">In 20% sugar solution</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" role="img">
+<title>An eye looking at two dots that move closer until they appear as one</title>
+<style>
+.a{animation:a 4s ease-in-out infinite}
+.b{animation:b 4s ease-in-out infinite}
+@keyframes a{0%,10%{transform:translateX(0)}65%,90%{transform:translateX(50px)}100%{transform:translateX(0)}}
+@keyframes b{0%,10%{transform:translateX(0)}65%,90%{transform:translateX(-50px)}100%{transform:translateX(0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M28 80Q80 28 132 80Q80 132 28 80Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="84" cy="80" r="19" fill="#4A90C8" stroke="#2B5F8F" stroke-width="2"/>
+<circle cx="84" cy="80" r="8.5" fill="#2B2F4A"/>
+<circle cx="89" cy="74" r="3.5" fill="#FFFFFF"/>
+<path d="M40 52L33 44M60 40L57 31M80 36V27M100 40L103 31M120 52L127 44" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M150 80H200" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round" opacity=".5"/>
+<circle class="a" cx="240" cy="80" r="7" fill="#111111"/>
+<circle class="b" cx="340" cy="80" r="7" fill="#111111"/>
+</svg>

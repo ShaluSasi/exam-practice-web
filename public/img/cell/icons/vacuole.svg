@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>Vacuole</title>
+<style>
+.w{transform-box:fill-box;transform-origin:center;animation:w 4s ease-in-out infinite}
+.d{animation:f 3s ease-in-out infinite}.d2{animation-delay:-1s}.d3{animation-delay:-2s}
+@keyframes w{0%,100%{transform:scale(1,1)}50%{transform:scale(1.03,.97)}}
+@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="w">
+<path d="M20 62 C18 38 38 22 62 24 C88 26 102 42 100 64 C98 86 80 98 58 96 C34 94 22 84 20 62 Z" fill="#CDE9FF" stroke="#4A90C8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M34 46 C40 36 50 32 60 32" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+</g>
+<g fill="#A9D4F5" stroke="#4A90C8" stroke-width="1.6">
+<path class="d" d="M50 58 C54 63 55 66 55 68 A5 5 0 0 1 45 68 C45 66 46 63 50 58 Z"/>
+<path class="d d2" d="M72 50 C75 54 76 56 76 58 A4 4 0 0 1 68 58 C68 56 69 54 72 50 Z"/>
+<path class="d d3" d="M66 74 C70 79 71 82 71 84 A5 5 0 0 1 61 84 C61 82 62 79 66 74 Z"/>
+</g>
+</svg>

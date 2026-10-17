@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>A potted plant wilting and then recovering</title>
+<style>
+.lower{transform-origin:150px 200px;animation:lo 5s ease-in-out infinite}
+.upper{transform-origin:150px 145px;animation:up 5s ease-in-out infinite}
+.lL1{transform-origin:150px 178px;animation:dl 5s ease-in-out infinite}
+.lR1{transform-origin:150px 162px;animation:dr 5s ease-in-out infinite}
+.lL2{transform-origin:150px 118px;animation:dl 5s ease-in-out infinite}
+.lR2{transform-origin:150px 102px;animation:dr 5s ease-in-out infinite}
+.leaf{animation:col 5s ease-in-out infinite}
+.rays{transform-box:fill-box;transform-origin:center;animation:spin 6s linear infinite}
+@keyframes lo{0%,12%,100%{transform:rotate(0)}45%,60%{transform:rotate(6deg)}}
+@keyframes up{0%,12%,100%{transform:rotate(0)}45%,60%{transform:rotate(70deg)}}
+@keyframes dl{0%,12%,100%{transform:rotate(0)}45%,60%{transform:rotate(-50deg)}}
+@keyframes dr{0%,12%,100%{transform:rotate(0)}45%,60%{transform:rotate(45deg)}}
+@keyframes col{0%,12%,100%{fill:#5FAE3A}45%,60%{fill:#A7B54A}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="rays" stroke="#F2B32C" stroke-width="3" stroke-linecap="round">
+<path d="M46 14v8M46 70v8M14 46h8M70 46h8M23 23l6 6M63 63l6 6M23 69l6-6M63 29l6-6"/>
+</g>
+<circle cx="46" cy="46" r="16" fill="#FFD54A" stroke="#E0A21E" stroke-width="2.5"/>
+<path d="M60 246h180" stroke="#C9B48A" stroke-width="3" stroke-linecap="round"/>
+<g class="lower" stroke-linejoin="round" stroke-linecap="round">
+<path d="M150 200 L150 145" stroke="#3E7A22" stroke-width="5"/>
+<g class="lL1"><path class="leaf" d="M150 178 C138 160 114 156 100 164 C112 180 134 184 150 178 Z" fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5"/><path d="M150 178 C134 170 118 166 104 165" fill="none" stroke="#3E7A22" stroke-width="1.5"/></g>
+<g class="lR1"><path class="leaf" d="M150 162 C162 144 186 140 200 148 C188 164 166 168 150 162 Z" fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5"/><path d="M150 162 C166 154 182 150 196 149" fill="none" stroke="#3E7A22" stroke-width="1.5"/></g>
+<g class="upper">
+<path d="M150 146 L150 82" stroke="#3E7A22" stroke-width="4.5"/>
+<g class="lL2"><path class="leaf" d="M150 118 C140 102 120 98 108 105 C118 119 136 123 150 118 Z" fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5"/></g>
+<g class="lR2"><path class="leaf" d="M150 102 C160 86 180 82 192 89 C182 103 164 107 150 102 Z" fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5"/></g>
+<path class="leaf" d="M150 84 C142 72 144 60 150 54 C156 60 158 72 150 84 Z" fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5"/>
+</g>
+</g>
+<path d="M112 198 h76 l-8 48 h-60 z" fill="#D9774A" stroke="#9E4A26" stroke-width="3" stroke-linejoin="round"/>
+<rect x="106" y="192" width="88" height="14" rx="4" fill="#E88A5C" stroke="#9E4A26" stroke-width="3"/>
+<path d="M112 192 q38 -6 76 0" fill="#7A5434"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A bacterium's own DNA is replaced by synthetic DNA, and the cell then divides</title>
+<defs>
+<path id="loop" d="M-26 0 C-26 -12 -14 -16 -4 -12 C4 -9 8 -16 16 -14 C24 -12 27 -6 26 0 C25 10 16 15 6 12 C-2 9 -8 16 -16 13 C-23 10 -26 6 -26 0 Z" fill="none" stroke-width="3.5" stroke-linejoin="round"/>
+<g id="cellbody">
+<rect x="140" y="80" width="120" height="70" rx="35" fill="#CFE9A8" stroke="#4E8F2A" stroke-width="3"/>
+<g fill="#5B3A8C" opacity=".55"><circle cx="160" cy="100" r="2"/><circle cx="240" cy="132" r="2"/><circle cx="170" cy="134" r="2"/><circle cx="236" cy="98" r="2"/></g>
+</g>
+</defs>
+<style>
+.all{animation:all 6s ease-in-out infinite}
+.red{animation:red 6s ease-in-out infinite}
+.inc{animation:inc 6s ease-in-out infinite}
+.bin{animation:bin 6s ease-in-out infinite;opacity:0}
+.dl{animation:dl 6s ease-in-out infinite}
+.dr{animation:dr 6s ease-in-out infinite}
+@keyframes all{0%{opacity:0}5%,90%{opacity:1}98%,100%{opacity:0}}
+@keyframes red{0%,10%{opacity:1}24%,100%{opacity:0}}
+@keyframes inc{0%,20%{opacity:0;transform:translate(140px,0)}26%{opacity:1;transform:translate(140px,0)}44%{opacity:1;transform:translate(0,0)}46%,100%{opacity:0;transform:translate(0,0)}}
+@keyframes bin{0%,44%{opacity:0}45%,100%{opacity:1}}
+@keyframes dl{0%,55%{transform:translate(0,0)}80%,100%{transform:translate(-80px,0)}}
+@keyframes dr{0%,55%{transform:translate(0,0)}80%,100%{transform:translate(80px,0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.bin{opacity:1}.red,.inc{opacity:0}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="all">
+<g class="dl"><use href="#cellbody"/><use class="bin" href="#loop" x="200" y="115" stroke="#3D7BD9"/></g>
+<g class="dr"><use href="#cellbody"/><use class="bin" href="#loop" x="200" y="115" stroke="#3D7BD9"/></g>
+<use class="red" href="#loop" x="200" y="115" stroke="#E04848"/>
+<g class="inc">
+<use href="#loop" x="200" y="115" stroke="#3D7BD9"/>
+<text x="200" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">Synthetic DNA</text>
+</g>
+</g>
+</svg>

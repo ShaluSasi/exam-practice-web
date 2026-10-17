@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Two beakers with potato cubes: plain water and 20% salt solution</title>
+<defs>
+<g id="beaker">
+<path d="M-60 20 L-60 165 Q-60 180 -45 180 L45 180 Q60 180 60 165 L60 20" fill="#F2FAFF" fill-opacity=".6"/>
+<path d="M-58 60 H58 V165 Q58 178 45 178 H-45 Q-58 178 -58 165Z" fill="#CDE9FF"/>
+<path d="M-58 60 H58" stroke="#4A90C8" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<g id="glass" fill="none" stroke="#6B7A99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-66 16 Q-60 18 -60 24 L-60 165 Q-60 180 -45 180 L45 180 Q60 180 60 165 L60 20"/>
+<path d="M60 40 H48 M60 70 H48 M60 100 H48 M60 130 H48" stroke-width="2"/>
+<path d="M-48 35 V150" stroke="#FFFFFF" stroke-width="5" opacity=".8"/>
+</g>
+<g id="potato" stroke="#B8892A" stroke-width="2" stroke-linejoin="round">
+<path d="M-20 136 L-10 126 L26 126 L16 136Z" fill="#FBE7A1"/>
+<path d="M16 136 L26 126 L26 162 L16 172Z" fill="#E3B341"/>
+<rect x="-20" y="136" width="36" height="36" fill="#F6D365"/>
+<circle cx="-8" cy="148" r="1.6" fill="#B8892A" stroke="none"/>
+<circle cx="6" cy="160" r="1.6" fill="#B8892A" stroke="none"/>
+</g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(110 22)">
+<use href="#beaker"/>
+<use href="#potato" x="-2"/>
+<use href="#glass"/>
+</g>
+<g transform="translate(290 22)">
+<use href="#beaker"/>
+<use href="#potato" x="-2"/>
+<g fill="#FFFFFF" stroke="#8A8F9C" stroke-width="1.2">
+<rect x="-44" y="80" width="5" height="5" transform="rotate(20 -42 82)"/>
+<rect x="-20" y="96" width="5" height="5" transform="rotate(-15 -18 98)"/>
+<rect x="8" y="76" width="5" height="5" transform="rotate(35 10 78)"/>
+<rect x="34" y="92" width="5" height="5" transform="rotate(10 36 94)"/>
+<rect x="-36" y="118" width="5" height="5" transform="rotate(-30 -34 120)"/>
+<rect x="38" y="122" width="5" height="5" transform="rotate(25 40 124)"/>
+<rect x="-6" y="108" width="4" height="4" transform="rotate(40 -4 110)"/>
+<rect x="20" y="104" width="4" height="4"/>
+<rect x="-50" y="150" width="5" height="5" transform="rotate(15 -48 152)"/>
+<rect x="-40" y="170" width="5" height="5"/>
+<rect x="-32" y="172" width="5" height="5" transform="rotate(45 -30 174)"/>
+<rect x="30" y="170" width="5" height="5" transform="rotate(20 32 172)"/>
+<rect x="40" y="172" width="5" height="5"/>
+<rect x="46" y="150" width="4" height="4" transform="rotate(30 48 152)"/>
+<rect x="-24" y="68" width="4" height="4" transform="rotate(10 -22 70)"/>
+</g>
+<use href="#glass"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="110" y="232">A · Plain water</text>
+<text x="290" y="232">B · 20% salt solution</text>
+</g>
+</svg>

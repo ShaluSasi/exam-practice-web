@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>An embryo hand: webbing cells between the fingers die away to separate the fingers</title>
+<defs>
+<g id="hand">
+<rect x="-10" y="-45" width="20" height="55" rx="10" transform="translate(112 150) rotate(-50)"/>
+<rect x="-9" y="-62" width="18" height="72" rx="9" transform="translate(128 122) rotate(-18)"/>
+<rect x="-9" y="-68" width="18" height="78" rx="9" transform="translate(148 116) rotate(-4)"/>
+<rect x="-9" y="-62" width="18" height="72" rx="9" transform="translate(167 119) rotate(10)"/>
+<rect x="-8" y="-50" width="16" height="60" rx="8" transform="translate(183 130) rotate(25)"/>
+<ellipse cx="150" cy="158" rx="40" ry="40"/>
+<rect x="124" y="170" width="52" height="56" rx="14"/>
+</g>
+</defs>
+<style>
+.web{animation:web 5s ease-in-out infinite}
+.dying{animation:dots 5s ease-in-out infinite;opacity:0}
+@keyframes web{0%,25%{opacity:1}60%,88%{opacity:0}100%{opacity:1}}
+@keyframes dots{0%,15%{opacity:0}30%,40%{opacity:1}60%,100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="web">
+<path d="M126 220 C122 190 104 178 92 162 C76 148 60 128 74 112 C84 100 92 80 102 62 C114 40 134 34 150 36 C170 36 186 44 196 62 C210 76 222 88 214 106 C206 130 196 152 184 170 C178 186 176 200 176 220 Z" fill="#F7D3B8" stroke="#C98A64" stroke-width="3" stroke-linejoin="round"/>
+<g class="dying" fill="#B5785A">
+<circle cx="92" cy="110" r="3"/><circle cx="100" cy="100" r="2.4"/><circle cx="86" cy="120" r="2"/>
+<circle cx="124" cy="60" r="2.6"/><circle cx="128" cy="74" r="2.2"/><circle cx="120" cy="50" r="2"/>
+<circle cx="161" cy="48" r="2.6"/><circle cx="160" cy="62" r="2.2"/><circle cx="163" cy="76" r="2"/>
+<circle cx="194" cy="74" r="2.6"/><circle cx="192" cy="88" r="2.2"/><circle cx="200" cy="64" r="2"/>
+</g>
+</g>
+<use href="#hand" fill="#F2C1A0" stroke="#B9744E" stroke-width="5" stroke-linejoin="round"/>
+<use href="#hand" fill="#F2C1A0"/>
+<path d="M128 150 q22 14 44 0" fill="none" stroke="#D9967A" stroke-width="2" stroke-linecap="round"/>
+</svg>

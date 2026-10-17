@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+  <title>A typical animal cell</title>
+  <style>
+    .breathe { animation: breathe 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes breathe { 50% { transform: scale(1.015, 0.99); } }
+    .drift { animation: drift 5s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+    .d2 { animation-delay: -2.5s; }
+    @keyframes drift { from { transform: translate(-2px, 2px) rotate(-5deg); } to { transform: translate(2px, -2px) rotate(5deg); } }
+    .glow { animation: glow 2.4s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: 0.55; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+  <!-- Cell membrane and cytoplasm -->
+  <path class="breathe" d="M70 150C60 80 130 40 200 45C280 50 350 80 345 150C340 225 280 265 200 260C120 255 80 220 70 150Z" fill="#FFE1E1" stroke="#E2717F" stroke-width="4"/>
+
+  <!-- Nucleus -->
+  <circle cx="185" cy="145" r="40" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="4"/>
+  <circle cx="185" cy="145" r="34" fill="none" stroke="#7B4BC0" stroke-width="1.5" stroke-dasharray="10 4"/>
+  <path d="M162 132q6-8 12 0t12 0M166 162q6 6 12 0t14 2M198 158q6-6 10 2" fill="none" stroke="#9A6FD6" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="190" cy="140" r="11" fill="#6D3BB0"/>
+
+  <!-- Endoplasmic reticulum (left of nucleus) -->
+  <g fill="none" stroke="#D46A8A" stroke-width="4" stroke-linecap="round">
+    <path d="M110 112q-7 8 0 16t0 16t0 16"/>
+    <path d="M123 108q-7 8 0 16t0 16t0 16t0 16"/>
+    <path d="M136 114q-7 8 0 16t0 16t0 16"/>
+  </g>
+  <g fill="#5B3A8C"><circle cx="104" cy="122" r="2"/><circle cx="117" cy="138" r="2"/><circle cx="104" cy="152" r="2"/><circle cx="129" cy="156" r="2"/><circle cx="130" cy="124" r="2"/></g>
+
+  <!-- Mitochondria -->
+  <g class="drift">
+    <ellipse cx="285" cy="110" rx="26" ry="13" fill="#F6A15A" stroke="#D9692A" stroke-width="2.5" transform="rotate(-20 285 110)"/>
+    <path d="M266 117l5-7 5 13 5-13 5 13 5-13 5 13 5-7" fill="none" stroke="#C0561E" stroke-width="1.8" stroke-linejoin="round" transform="rotate(-20 285 110)"/>
+  </g>
+  <g class="drift d2">
+    <ellipse cx="160" cy="222" rx="20" ry="10" fill="#F6A15A" stroke="#D9692A" stroke-width="2" transform="rotate(15 160 222)"/>
+    <path d="M145 222l4-5 4 10 4-10 4 10 4-10 4 10 4-5" fill="none" stroke="#C0561E" stroke-width="1.5" transform="rotate(15 160 222)"/>
+  </g>
+
+  <!-- Golgi apparatus -->
+  <g fill="none" stroke="#E0679A" stroke-width="5" stroke-linecap="round">
+    <path d="M258 186q22-12 44 0"/>
+    <path d="M260 195q20-11 40 0"/>
+    <path d="M262 204q18-10 36 0"/>
+    <path d="M265 213q15-8 30 0"/>
+  </g>
+  <circle cx="308" cy="190" r="4" fill="#F28CB1"/>
+  <circle cx="304" cy="214" r="3" fill="#F28CB1"/>
+
+  <!-- Lysosome -->
+  <g class="glow">
+    <circle cx="115" cy="215" r="13" fill="#F2C94C" stroke="#C99A1E" stroke-width="2.5"/>
+    <g fill="#C99A1E"><circle cx="110" cy="211" r="2"/><circle cx="119" cy="213" r="2"/><circle cx="113" cy="221" r="2"/></g>
+  </g>
+  <circle cx="250" cy="70" r="8" fill="#F2C94C" stroke="#C99A1E" stroke-width="2"/>
+
+  <!-- Small vacuole -->
+  <circle cx="230" cy="232" r="10" fill="#CDE9FF" stroke="#4A90C8" stroke-width="2"/>
+
+  <!-- Free ribosomes -->
+  <g fill="#5B3A8C">
+    <circle cx="240" cy="110" r="2"/><circle cx="250" cy="160" r="2"/><circle cx="320" cy="150" r="2"/>
+    <circle cx="200" cy="80" r="2"/><circle cx="140" cy="80" r="2"/><circle cx="210" cy="215" r="2"/>
+    <circle cx="95" cy="180" r="2"/>
+  </g>
+</svg>

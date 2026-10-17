@@ -1,15 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Award, Check, Flame, Play, Sparkles, Target, Zap } from "lucide-react";
+import { Award, Check, Flame, Play, Sparkles, Target, Trophy, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { questionBank } from "../content";
 import type { Question, SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
+import { SubjectChip } from "../components/QuestionHeader";
 import { RichText } from "../components/RichText";
 import { Logo, SettingsToggles, XpPill } from "../components/TopBar";
+import { ROUND_SIZE, pickRandom } from "../engine/scoring";
 import { SUBJECT_STYLE } from "../lib/subjects";
-import { useProfile } from "../store/profile";
+import { rankRounds, useProfile } from "../store/profile";
 import { TYPE_LABEL } from "../questions";
 
 const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
@@ -131,8 +133,108 @@ function Toggle({ on, onClick, children, className }: { on: boolean; onClick: ()
   );
 }
 
-export function HomeScreen({ onStart }: { onStart: (qs: Question[]) => void }) {
+interface Chapter {
+  key: string;
+  title: string;
+  subject: SubjectId;
+  grade: number;
+  questions: Question[];
+  cover: string | undefined;
+}
+
+/** Chapters with enough questions for a full random round get their own card. */
+function useChapters(): Chapter[] {
+  return useMemo(() => {
+    const map = new Map<string, Chapter>();
+    for (const q of questionBank) {
+      const key = `${q.subject}|${q.grade}|${q.chapter}`;
+      let c = map.get(key);
+      if (!c) {
+        c = { key, title: q.chapter, subject: q.subject, grade: q.grade, questions: [], cover: undefined };
+        map.set(key, c);
+      }
+      c.questions.push(q);
+      c.cover ??= q.image?.src;
+    }
+    return [...map.values()].filter((c) => c.questions.length >= ROUND_SIZE);
+  }, []);
+}
+
+function ChapterCard({ chapter, onStart, index }: { chapter: Chapter; onStart: (qs: Question[], title: string) => void; index: number }) {
+  const rounds = useProfile((p) => p.rounds);
+  const best = rankRounds(rounds.filter((r) => r.title === chapter.title))[0];
+  const st = SUBJECT_STYLE[chapter.subject];
+  const counts = Object.entries(
+    chapter.questions.reduce<Record<string, number>>((acc, q) => ((acc[q.type] = (acc[q.type] ?? 0) + 1), acc), {}),
+  ) as [Question["type"], number][];
+  const withImages = chapter.questions.filter(
+    (q) =>
+      q.image ||
+      ("options" in q && q.options.some((o) => o.image)) ||
+      (q.type === "match" && [...q.left, ...q.right].some((o) => o.image)),
+  ).length;
+
+  return (
+    <motion.article
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ delay: index * 0.08, type: "spring", stiffness: 200, damping: 24 }}
+      className="grid overflow-hidden rounded-[28px] border-2 border-line bg-surface shadow-card md:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]"
+    >
+      <div className={clsx("relative grid place-items-center p-5 sm:p-7", st.soft)}>
+        {chapter.cover ? (
+          <motion.img
+            src={chapter.cover}
+            alt=""
+            className="w-full max-w-[360px] rounded-2xl shadow-pop"
+            whileHover={{ rotate: -2, scale: 1.03 }}
+          />
+        ) : (
+          <span className={clsx("font-display text-[120px] font-extrabold", st.text)}>{st.glyph}</span>
+        )}
+      </div>
+      <div className="flex flex-col p-5 sm:p-7">
+        <div className="flex flex-wrap items-center gap-2">
+          <SubjectChip subject={chapter.subject} />
+          <span className="rounded-full bg-surface-2 px-2.5 py-1 text-xs font-bold text-muted">{region.gradeLabel(chapter.grade)}</span>
+        </div>
+        <h3 className="mt-3 font-display text-2xl font-extrabold tracking-tight sm:text-3xl">{chapter.title}</h3>
+        <p className="mt-1.5 text-muted">
+          <span className="font-bold text-fg">{chapter.questions.length} questions</span> with {withImages} illustrated ·{" "}
+          <span className="font-bold text-fg">{ROUND_SIZE} random</span> every round, so no two rounds are the same.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-1.5">
+          {counts.map(([t, n]) => (
+            <span key={t} className="rounded-full bg-surface-2 px-2.5 py-1 text-xs font-semibold text-muted">
+              {TYPE_LABEL[t]} <span className="font-bold text-fg">×{n}</span>
+            </span>
+          ))}
+        </div>
+        <div className="mt-auto flex flex-wrap items-center justify-between gap-4 pt-6">
+          <div className="flex items-center gap-2 text-sm font-semibold text-muted">
+            <Trophy className="size-5 text-brand" />
+            {best ? (
+              <span>
+                Best: <span className="font-display text-lg font-extrabold text-fg">{best.accuracy}%</span> ({best.marks}/{best.maxMarks})
+              </span>
+            ) : (
+              <span>No rounds yet. Set your first score!</span>
+            )}
+          </div>
+          <Button onClick={() => onStart(pickRandom(chapter.questions), chapter.title)}>
+            <Play className="size-4 fill-current" /> Start {ROUND_SIZE} questions
+          </Button>
+        </div>
+      </div>
+    </motion.article>
+  );
+}
+
+export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: string) => void }) {
   const profile = useProfile();
+  const chapters = useChapters();
+  const bestRound = rankRounds(profile.rounds)[0];
   const [grades, setGrades] = useState<number[]>([]);
   const [subjects, setSubjects] = useState<SubjectId[]>([]);
 
@@ -208,7 +310,7 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[]) => void }) {
               transition={{ delay: 0.2 }}
               className="mt-8 flex flex-wrap items-center gap-4"
             >
-              <Button onClick={() => onStart(questionBank)} className="px-7 py-4 text-lg">
+              <Button onClick={() => onStart(pickRandom(questionBank), "Mixed practice")} className="px-7 py-4 text-lg">
                 <Play className="size-5 fill-current" /> Start mixed practice
               </Button>
               <a href="#build" className="font-semibold text-muted underline-offset-4 hover:text-fg hover:underline">
@@ -219,12 +321,13 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[]) => void }) {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-              className="mt-10 flex gap-8"
+              className="mt-10 grid grid-cols-2 gap-x-8 gap-y-5 sm:flex"
             >
               {[
                 { icon: Zap, label: "Total XP", value: profile.totalXp, cls: "fill-brand text-brand" },
                 { icon: Flame, label: "Best streak", value: profile.bestStreak, cls: "fill-bad text-bad" },
-                { icon: Award, label: "Sessions", value: profile.sessions, cls: "text-maths" },
+                { icon: Trophy, label: "Best score", value: bestRound ? `${bestRound.accuracy}%` : "–", cls: "text-brand" },
+                { icon: Award, label: "Rounds", value: profile.sessions, cls: "text-maths" },
               ].map((s) => (
                 <div key={s.label}>
                   <dt className="text-xs font-semibold uppercase tracking-wider text-muted">{s.label}</dt>
@@ -244,6 +347,18 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[]) => void }) {
             <HeroDemo />
           </motion.div>
         </section>
+
+        {chapters.length > 0 && (
+          <section className="mb-12">
+            <h2 className="mb-1 font-display text-3xl font-extrabold tracking-tight">Chapter practice</h2>
+            <p className="mb-5 text-muted">Diagrams, animations and instant explanations, straight from the syllabus.</p>
+            <div className="grid gap-5">
+              {chapters.map((c, i) => (
+                <ChapterCard key={c.key} chapter={c} onStart={onStart} index={i} />
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Builder */}
         <section id="build" className="scroll-mt-6 rounded-[28px] border-2 border-line bg-surface p-5 shadow-card sm:p-8">
@@ -331,11 +446,12 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[]) => void }) {
               <span className="flex items-center gap-2 font-semibold text-muted">
                 <Target className="size-4" />
                 <motion.span key={selection.length} initial={{ y: -6, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="tabular-nums">
-                  {selection.length}
+                  {Math.min(selection.length, ROUND_SIZE)}
                 </motion.span>
                 question{selection.length === 1 ? "" : "s"}
+                {selection.length > ROUND_SIZE && <span className="whitespace-nowrap font-normal">(random from {selection.length})</span>}
               </span>
-              <Button variant="dark" disabled={selection.length === 0} onClick={() => onStart(selection)}>
+              <Button variant="dark" disabled={selection.length === 0} onClick={() => onStart(pickRandom(selection), "Custom set")}>
                 Start <Play className="size-4 fill-current" />
               </Button>
             </div>

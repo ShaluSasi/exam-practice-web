@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, MotionConfig, motion } from "motion/react";
 import type { Question } from "./content/schema";
+import { scoreSession } from "./engine/scoring";
 import { useApplyTheme } from "./lib/theme";
 import { HomeScreen } from "./screens/HomeScreen";
 import { PracticeScreen } from "./screens/PracticeScreen";
@@ -16,16 +17,31 @@ export default function App() {
   const start = useSession((s) => s.start);
   const finishedAt = useSession((s) => s.finishedAt);
 
-  const begin = (qs: Question[]) => {
-    start(qs);
+  const begin = (qs: Question[], title: string) => {
+    start(qs, title);
     setScreen("practice");
     window.scrollTo({ top: 0 });
   };
 
   useEffect(() => {
     if (finishedAt && screen === "practice") {
-      const { xp, bestStreak } = useSession.getState();
-      useProfile.getState().recordSession(xp, bestStreak);
+      const { xp, bestStreak, title, questions, attempts, startedAt } = useSession.getState();
+      const score = scoreSession(questions, attempts);
+      useProfile.getState().recordSession(
+        {
+          id: `${finishedAt}`,
+          at: finishedAt,
+          title,
+          correct: score.correct,
+          total: questions.length,
+          marks: score.marks,
+          maxMarks: score.maxMarks,
+          accuracy: score.accuracy,
+          xp,
+          timeMs: finishedAt - startedAt,
+        },
+        bestStreak,
+      );
       setScreen("results");
       window.scrollTo({ top: 0 });
     }

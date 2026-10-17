@@ -3,13 +3,30 @@ import { createJSONStorage, persist } from "zustand/middleware";
 
 export type ThemePref = "system" | "light" | "dark";
 
+/** One finished practice round, as shown on the scoreboard. */
+export interface Round {
+  id: string;
+  at: number;
+  title: string;
+  correct: number;
+  total: number;
+  marks: number;
+  maxMarks: number;
+  accuracy: number;
+  xp: number;
+  timeMs: number;
+}
+
+const MAX_ROUNDS = 30;
+
 interface ProfileState {
   totalXp: number;
   bestStreak: number;
   sessions: number;
+  rounds: Round[];
   soundOn: boolean;
   theme: ThemePref;
-  recordSession: (xp: number, bestStreak: number) => void;
+  recordSession: (round: Round, bestStreak: number) => void;
   toggleSound: () => void;
   setTheme: (t: ThemePref) => void;
 }
@@ -21,13 +38,15 @@ export const useProfile = create<ProfileState>()(
       totalXp: 0,
       bestStreak: 0,
       sessions: 0,
+      rounds: [],
       soundOn: true,
       theme: "system",
-      recordSession: (xp, streak) =>
+      recordSession: (round, streak) =>
         set((s) => ({
-          totalXp: s.totalXp + xp,
+          totalXp: s.totalXp + round.xp,
           bestStreak: Math.max(s.bestStreak, streak),
           sessions: s.sessions + 1,
+          rounds: [round, ...s.rounds].slice(0, MAX_ROUNDS),
         })),
       toggleSound: () => set((s) => ({ soundOn: !s.soundOn })),
       setTheme: (theme) => set({ theme }),
@@ -35,3 +54,8 @@ export const useProfile = create<ProfileState>()(
     { name: "prepquest-profile", storage: createJSONStorage(() => localStorage) },
   ),
 );
+
+/** Rounds sorted best first: accuracy, then marks, then faster time. */
+export function rankRounds(rounds: readonly Round[]): Round[] {
+  return [...rounds].sort((a, b) => b.accuracy - a.accuracy || b.marks - a.marks || a.timeMs - b.timeMs);
+}

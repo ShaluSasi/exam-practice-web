@@ -11,9 +11,26 @@ import { z } from "zod";
 export const SubjectId = z.enum(["maths", "physics", "chemistry", "biology"]);
 export type SubjectId = z.infer<typeof SubjectId>;
 
+/** A point on an image, in percent of its width/height. */
+const Point = z.object({
+  x: z.number().min(0).max(100),
+  y: z.number().min(0).max(100),
+});
+
+/** An illustration (SVG/PNG/GIF). Paths are relative to the site root. */
+const Media = z.object({
+  src: z.string().min(1),
+  alt: z.string().min(1),
+  caption: z.string().optional(),
+  /** Numbered badges drawn over the image, e.g. for "label the diagram". */
+  markers: z.array(Point.extend({ label: z.string().min(1) })).optional(),
+});
+export type Media = z.infer<typeof Media>;
+
 const Choice = z.object({
   id: z.string().min(1),
   text: z.string().min(1),
+  image: Media.optional(),
 });
 export type Choice = z.infer<typeof Choice>;
 
@@ -29,6 +46,7 @@ const Base = z.object({
   marks: z.number().positive(),
   negativeMarks: z.number().min(0).optional(),
   prompt: z.string().min(1),
+  image: Media.optional(),
   hint: z.string().optional(),
   explanation: z.string().min(1),
   tags: z.array(z.string()).optional(),
@@ -78,8 +96,16 @@ const Order = Base.extend({
   endLabel: z.string().optional(),
 });
 
+/** Tap the right part of a diagram. */
+const Hotspot = Base.extend({
+  type: z.literal("hotspot"),
+  image: Media,
+  spots: z.array(Point.extend({ id: z.string().min(1), label: z.string().min(1) })).min(2),
+  answer: z.string(),
+});
+
 export const Question = z
-  .discriminatedUnion("type", [Mcq, Multi, Numeric, AssertionReason, Match, Order])
+  .discriminatedUnion("type", [Mcq, Multi, Numeric, AssertionReason, Match, Order, Hotspot])
   .superRefine((q, ctx) => {
     const ids = (cs: Choice[]) => new Set(cs.map((c) => c.id));
     const bad = (message: string) => ctx.addIssue({ code: "custom", message: `${q.id}: ${message}` });
@@ -100,6 +126,9 @@ export const Question = z
         if (q.answer.length !== q.items.length || !q.answer.every((a) => ids(q.items).has(a)))
           bad("answer must list every item id exactly once");
         break;
+      case "hotspot":
+        if (!q.spots.some((s) => s.id === q.answer)) bad("answer is not a spot id");
+        break;
     }
   });
 
@@ -117,5 +146,6 @@ export type ResponseFor<T extends QuestionType> = {
   assertion_reason: string;
   match: Record<string, string>;
   order: string[];
+  hotspot: string;
 }[T];
 export type AnyResponse = ResponseFor<QuestionType>;

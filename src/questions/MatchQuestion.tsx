@@ -10,6 +10,10 @@ const PAIR_COLORS = ["#5B5EF0", "#E0782A", "#0B93D4", "#D63F8C", "#0F9F5F", "#A2
 
 const NO_PAIRS: Record<string, string> = {};
 
+function Thumb({ src, alt }: { src: string; alt: string }) {
+  return <img src={src} alt={alt} draggable={false} className="size-11 shrink-0 select-none rounded-xl sm:size-14" />;
+}
+
 interface Line {
   id: string;
   d: string;
@@ -127,6 +131,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                 >
                   {reveal ? right ? <Check className="size-3.5" strokeWidth={3} /> : <X className="size-3.5" strokeWidth={3} /> : i + 1}
                 </span>
+                {l.image && <Thumb src={l.image.src} alt={l.image.alt} />}
                 <span className="min-w-0">
                   <RichText text={l.text} className="font-semibold" />
                   {reveal && !right && (
@@ -187,6 +192,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                 >
                   {n}
                 </motion.span>
+                {r.image && <Thumb src={r.image.src} alt={r.image.alt} />}
                 <RichText text={r.text} className="min-w-0" />
               </motion.button>
             );

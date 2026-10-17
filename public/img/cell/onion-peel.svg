@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img">
+<title>Stained onion peel cells seen under a microscope</title>
+<defs>
+<pattern id="br" width="36" height="32" patternUnits="userSpaceOnUse" patternTransform="translate(100 75) rotate(-8)">
+<rect width="36" height="32" fill="#FBDCE3"/>
+<path d="M0 0H36M0 16H36M0 32H36M0 0V16M36 0V16M18 16V32" fill="none" stroke="#C25B7A" stroke-width="2.4"/>
+<circle cx="24" cy="8" r="2.6" fill="#A0306A"/>
+<circle cx="6" cy="24" r="2.6" fill="#A0306A"/>
+</pattern>
+<radialGradient id="light" cx=".45" cy=".4" r=".6">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity=".5"/>
+<stop offset=".7" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="1" stop-color="#7A2A4A" stop-opacity=".25"/>
+</radialGradient>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="100" cy="75" r="62" fill="url(#br)"/>
+<circle cx="100" cy="75" r="62" fill="url(#light)"/>
+<path d="M16 0H184A16 16 0 0 1 200 16V134A16 16 0 0 1 184 150H16A16 16 0 0 1 0 134V16A16 16 0 0 1 16 0ZM38 75A62 62 0 1 0 162 75A62 62 0 1 0 38 75Z" fill="#1E2133" fill-rule="evenodd"/>
+<circle cx="100" cy="75" r="62" fill="none" stroke="#000000" stroke-opacity=".5" stroke-width="3"/>
+</svg>
