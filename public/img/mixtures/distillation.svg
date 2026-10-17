@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>A distillation set-up with flask, thermometer, condenser and receiver</title>
+<defs><clipPath id="fk"><circle cx="120" cy="210" r="38"/></clipPath></defs>
+<style>
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fl .7s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scaleY(.85)}to{transform:scaleY(1.12)}}
+.bb circle{animation:bb 1.8s ease-in infinite}
+.bb circle:nth-child(2){animation-delay:.6s}.bb circle:nth-child(3){animation-delay:1.2s}
+@keyframes bb{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-30px);opacity:0}}
+.vap{animation:va 1.2s linear infinite}
+@keyframes va{to{stroke-dashoffset:-24}}
+.wat{animation:wa 1.4s linear infinite}
+@keyframes wa{to{stroke-dashoffset:-36}}
+.drip{animation:dp 1.5s ease-in infinite}
+@keyframes dp{0%{transform:translateY(0);opacity:1}85%{opacity:1}100%{transform:translateY(58px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="12" y="300" width="96" height="10" rx="4" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<path d="M30 300V30M30 140H110" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<path d="M90 256L76 306M150 256L164 306" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<path d="M82 256H158" stroke="#6E7396" stroke-width="6" stroke-linecap="round"/>
+<rect x="78" y="249" width="84" height="5" rx="2" fill="#A3A8CC" stroke="#6E7396" stroke-width="1.5"/>
+<path class="fl" d="M120 260C110 272 111 280 120 284C129 280 130 272 120 260Z" fill="#FF8A1F"/>
+<rect x="112" y="284" width="16" height="14" rx="2" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<rect x="100" y="297" width="40" height="7" rx="3" fill="#6E7396"/>
+<g clip-path="url(#fk)"><rect x="80" y="214" width="80" height="40" fill="#D7ECF7"/></g>
+<g class="bb" fill="#FFFFFF"><circle cx="108" cy="244" r="3"/><circle cx="124" cy="246" r="2.5"/><circle cx="134" cy="242" r="3"/></g>
+<rect x="111" y="92" width="18" height="86" fill="#F3F8FC"/>
+<circle cx="120" cy="210" r="40" fill="none" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M111 174V92M129 174V92" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="112" y="171" width="16" height="8" fill="#F3F8FC"/>
+<rect x="108" y="84" width="24" height="12" rx="3" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/>
+<rect x="117" y="26" width="6" height="84" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.8"/>
+<path d="M120 60V108" stroke="#E5484D" stroke-width="2.5"/>
+<circle cx="120" cy="111" r="5" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M129 112L160 120" stroke="#2B2F4A" stroke-width="10" stroke-linecap="round"/>
+<path d="M129 112L160 120" stroke="#F3F8FC" stroke-width="6" stroke-linecap="round"/>
+<path d="M198.4 117.4V88M317.9 197.1V228" stroke="#2B2F4A" stroke-width="10" stroke-linecap="round"/>
+<path d="M198.4 117.4V88M317.9 197.1V228" stroke="#CDEBFA" stroke-width="6" stroke-linecap="round"/>
+<path d="M178.7 127.1L337.6 187.5" stroke="#2B2F4A" stroke-width="34"/>
+<path d="M178.7 127.1L337.6 187.5" stroke="#CDEBFA" stroke-width="30"/>
+<path class="wat" d="M337.6 187.5L178.7 127.1" stroke="#7CC4EA" stroke-width="3" stroke-dasharray="10 8" transform="translate(-4 9)"/>
+<path d="M160 120L360 196L372 224" fill="none" stroke="#2B2F4A" stroke-width="11" stroke-linejoin="round"/>
+<path d="M160 120L360 196L372 224" fill="none" stroke="#F3F8FC" stroke-width="7" stroke-linejoin="round"/>
+<path class="vap" d="M160 120L360 196" stroke="#A3A8CC" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
+<path d="M368 246L340 304Q338 308 343 308H407Q412 308 410 304L382 246Z" fill="#F3F8FC"/>
+<path d="M347.7 288L340 304Q338 308 343 308H407Q412 308 410 304L402.3 288Z" fill="#CDEBFA"/>
+<path d="M368 222V246L340 304Q338 308 343 308H407Q412 308 410 304L382 246V222" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<circle class="drip" cx="374" cy="230" r="3" fill="#7CC4EA"/>
+</svg>

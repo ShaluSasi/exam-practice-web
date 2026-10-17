@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img">
+<title>A gold medal engraved with an atom</title>
+<style>
+.sh{animation:sh 3s ease-in-out infinite}@keyframes sh{0%,60%{transform:translateX(-90px)}100%{transform:translateX(90px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M80 10h30l20 70h-30zM160 10h-30l-20 70h30z" fill="#0B93D4" stroke="#075E88" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M95 10l25 70 25-70" fill="#E5484D" opacity=".85"/>
+<defs><clipPath id="m"><circle cx="120" cy="145" r="66"/></clipPath></defs>
+<circle cx="120" cy="145" r="72" fill="#F6C453" stroke="#B8892A" stroke-width="4"/>
+<circle cx="120" cy="145" r="58" fill="none" stroke="#D9A43A" stroke-width="3"/>
+<ellipse cx="120" cy="145" rx="40" ry="14" transform="rotate(0 120 145)" fill="none" stroke="#9A6B12" stroke-width="3"/>
+<ellipse cx="120" cy="145" rx="40" ry="14" transform="rotate(60 120 145)" fill="none" stroke="#9A6B12" stroke-width="3"/>
+<ellipse cx="120" cy="145" rx="40" ry="14" transform="rotate(120 120 145)" fill="none" stroke="#9A6B12" stroke-width="3"/>
+<circle cx="120" cy="145" r="6" fill="#9A6B12"/>
+<g clip-path="url(#m)"><rect class="sh" x="100" y="60" width="18" height="170" fill="#fff" opacity=".45" transform="rotate(20 120 145)"/></g>
+</svg>

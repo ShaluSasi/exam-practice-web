@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>An atom whose nucleus is hidden behind a question mark</title>
+<style>
+.o1{transform-origin:150px 110px;animation:sp 6s linear infinite}.o2{transform-origin:150px 110px;animation:sp 9s linear infinite reverse}@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="150" cy="110" r="52" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="150" cy="110" r="88" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="150" cy="110" r="26" fill="#F8B4B6" stroke="#E5484D" stroke-width="3"/>
+<text x="150" y="121" font-size="30" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" fill="#A8282C">?</text>
+<g class="o1"><circle cx="150.0" cy="58.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="150.0" cy="162.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+<g class="o2"><circle cx="62.0" cy="110.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="238.0" cy="110.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="150.0" cy="22.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+</svg>

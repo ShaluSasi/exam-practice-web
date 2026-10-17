@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img">
+<title>A Bohr diagram of an atom</title>
+<style>
+.g0{transform-origin:120.0px 120.0px;animation:sp 8s linear infinite}
+.g1{transform-origin:120.0px 120.0px;animation:sp 12s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="120.0" cy="120.0" r="38" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="120.0" cy="120.0" r="64" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="120.0" cy="120.0" r="16" fill="#F8B4B6" stroke="#E5484D" stroke-width="3"/><circle cx="114.4" cy="114.4" r="4.5" fill="#fff" opacity=".7"/>
+<g class="g0"><circle cx="120.0" cy="82.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="120.0" cy="158.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+<g class="g1"><circle cx="138.9" cy="58.9" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="182.4" cy="105.8" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="163.5" cy="167.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="101.1" cy="181.1" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="57.6" cy="134.2" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="76.5" cy="73.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+</svg>

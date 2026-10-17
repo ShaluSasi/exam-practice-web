@@ -1,0 +1,2328 @@
+[
+ {
+  "id": "in-cbse-9-chem-atomic-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Conservation of mass: closed set-up",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In this set-up the baking soda will be tipped from the balloon into the vinegar. **Tap the part that stops the carbon dioxide gas from escaping**, so that the balance reading stays the same.",
+  "image": {
+   "src": "/img/atomic/lab-setup.svg",
+   "alt": "A conical flask with a balloon on its mouth, on a digital balance, with markers on its parts"
+  },
+  "spots": [
+   {
+    "id": "balloon",
+    "x": 50.0,
+    "y": 22.0,
+    "label": "Balloon"
+   },
+   {
+    "id": "vinegar",
+    "x": 50.0,
+    "y": 68.67,
+    "label": "Vinegar"
+   },
+   {
+    "id": "display",
+    "x": 31.0,
+    "y": 85.67,
+    "label": "Display"
+   },
+   {
+    "id": "button",
+    "x": 78.0,
+    "y": 85.67,
+    "label": "Button"
+   }
+  ],
+  "answer": "balloon",
+  "hint": "The gas has to collect somewhere sealed over the mouth of the flask.",
+  "explanation": "The **balloon** tied over the mouth of the flask traps the carbon dioxide; you can see it swell up as the reaction fizzes. Since nothing leaves the set-up, the final reading equals the starting reading, which shows that mass is **conserved** in a chemical reaction. The vinegar is a reactant, and the display and button are parts of the balance."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Conservation of mass: open set-up",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Baking soda is added to vinegar in an **open** flask kept on a digital balance. After the fizzing stops, the reading is lower than at the start. Why?",
+  "image": {
+   "src": "/img/atomic/balance-open.svg",
+   "alt": "Baking soda fizzing in vinegar in an open flask on a digital balance whose reading changes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Some mass was destroyed during the reaction"
+   },
+   {
+    "id": "b",
+    "text": "Carbon dioxide gas escaped into the air from the open flask"
+   },
+   {
+    "id": "c",
+    "text": "A balance always reads lower after any reaction"
+   },
+   {
+    "id": "d",
+    "text": "Baking soda loses all its mass once it reacts"
+   }
+  ],
+  "answer": "b",
+  "hint": "The fizzing means a gas is being made. Where can it go?",
+  "explanation": "Vinegar and baking soda react to form **carbon dioxide gas** and other substances. In an open flask the gas escapes into the air, so it is no longer weighed and the reading drops. No mass is destroyed: when the balloon traps the gas, the reading stays the same."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Mass in a physical change",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "An empty beaker on a digital balance is set to zero with the tare button. Then $50.00\\ \\text{g}$ of water and $4.20\\ \\text{g}$ of common salt are added. After swirling, the salt dissolves completely and can no longer be seen. What does the balance read now?",
+  "image": {
+   "src": "/img/atomic/salt-dissolve.svg",
+   "alt": "Common salt falling from a spatula into water in a beaker on a digital balance"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$50.00\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$45.80\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$54.20\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "Somewhere between $50.00\\ \\text{g}$ and $54.20\\ \\text{g}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Dissolving is a physical change. Does any matter leave the beaker?",
+  "explanation": "Dissolving salt is a **physical change**, and the mass of the solution equals the sum of the masses of water and salt: $50.00 + 4.20 = 54.20\\ \\text{g}$. The salt is still there, just spread out as tiny particles, so the answer is not $50.00\\ \\text{g}$, and $45.80\\ \\text{g}$ wrongly subtracts it. A change of $\\pm 1$ in the last digit would only be experimental error."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Verifying the Law of Conservation of Mass",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Put the steps of the closed balloon experiment (vinegar and baking soda) in the correct order.",
+  "image": {
+   "src": "/img/atomic/lab-setup.svg",
+   "alt": "A conical flask with a balloon on its mouth standing on a digital balance"
+  },
+  "items": [
+   {
+    "id": "tie",
+    "text": "Put baking soda in the balloon and tie the balloon over the flask's mouth"
+   },
+   {
+    "id": "tare",
+    "text": "Place the empty flask and balloon on the balance and press tare"
+   },
+   {
+    "id": "final",
+    "text": "Record the reading after the fizzing stops"
+   },
+   {
+    "id": "vin",
+    "text": "Pour about 20 mL of vinegar into the flask"
+   },
+   {
+    "id": "tip",
+    "text": "Lift the balloon so the baking soda falls into the vinegar"
+   },
+   {
+    "id": "first",
+    "text": "Record the reading of the sealed set-up"
+   }
+  ],
+  "answer": [
+   "tare",
+   "vin",
+   "tie",
+   "first",
+   "tip",
+   "final"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "You must set the balance to zero before anything is added, and weigh the sealed set-up before the two substances mix.",
+  "explanation": "First the empty flask and balloon are put on the balance and the reading is set to **zero** (tare). Then vinegar goes into the flask, baking soda into the balloon, and the balloon is tied over the mouth so nothing can escape. The sealed set-up is weighed, the baking soda is tipped in, and the set-up is weighed again. The two readings match, so **mass is conserved**."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Law of Conservation of Mass: calculation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In a closed container, $5.00\\ \\text{g}$ of calcium carbonate reacts completely with $3.65\\ \\text{g}$ of hydrochloric acid. The products are $2.20\\ \\text{g}$ of carbon dioxide, $0.90\\ \\text{g}$ of water and some calcium chloride. What mass of calcium chloride is formed?",
+  "image": {
+   "src": "/img/atomic/stoppered-flask.svg",
+   "alt": "Marble chips reacting with acid in a stoppered flask on a digital balance"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$6.45\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$11.75\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$7.75\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$5.55\\ \\text{g}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Total mass of products = total mass of reactants. Add the reactants first.",
+  "explanation": "Reactants: $5.00 + 3.65 = 8.65\\ \\text{g}$. By the **Law of Conservation of Mass** the products also total $8.65\\ \\text{g}$, so calcium chloride $= 8.65 - (2.20 + 0.90) = 5.55\\ \\text{g}$. $6.45\\ \\text{g}$ forgets to subtract the water, $7.75\\ \\text{g}$ forgets the carbon dioxide, and $11.75\\ \\text{g}$ adds every number together."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Conservation of mass: precipitation reaction",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atomic/precipitate.svg",
+   "alt": "Two conical flasks A and B on one digital balance after their solutions are mixed"
+  },
+  "assertion": "The reaction between sodium sulfate solution and barium chloride solution can be used to check the Law of Conservation of Mass with the flasks left open.",
+  "reason": "No gas is formed in this reaction; the products are a white precipitate of barium sulfate and sodium chloride.",
+  "answer": "a",
+  "hint": "Which product of this reaction could escape from an open flask?",
+  "explanation": "Both statements are true and R explains A. Sodium sulfate and barium chloride form a **white precipitate of barium sulfate** and sodium chloride, both of which stay in the flask, so nothing escapes and the total mass on the balance stays the same. A reaction that gives off a gas, such as zinc with dilute hydrochloric acid (which forms hydrogen), would need a closed set-up instead."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Conservation of mass: burning",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atomic/ethanol-burn.svg",
+   "alt": "A liquid fuel burning with a blue flame in an open beaker, with gases rising"
+  },
+  "assertion": "Burning 10 g of ethanol in an open beaker, which leaves no residue, shows that mass can be destroyed in a chemical reaction.",
+  "reason": "The products formed when ethanol burns are gases, which escape into the air from an open beaker.",
+  "answer": "d",
+  "hint": "Where do the products of burning go when the beaker is open?",
+  "explanation": "A is false but R is true. When ethanol burns it combines with oxygen from the air, and the products are **gases** that escape from the open beaker, so nothing is left behind. Mass is not destroyed: if all the gases were collected, their mass would equal the mass of ethanol plus the oxygen used, so the **Law of Conservation of Mass** still holds."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Using fixed masses in a reaction",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "$12\\ \\text{g}$ of carbon combines with $32\\ \\text{g}$ of oxygen to form $44\\ \\text{g}$ of carbon dioxide. How much carbon dioxide is produced when $3.6\\ \\text{g}$ of carbon burns completely?",
+  "image": {
+   "src": "/img/atomic/combine-mass.svg",
+   "alt": "A two-pan balance staying level with carbon and oxygen on one pan and carbon dioxide on the other"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$9.6\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$13.2\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$0.98\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$47.6\\ \\text{g}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Find how much carbon dioxide 1 g of carbon gives, then scale up.",
+  "explanation": "$1\\ \\text{g}$ of carbon gives $\\dfrac{44}{12}\\ \\text{g}$ of carbon dioxide, so $3.6\\ \\text{g}$ gives $\\dfrac{44}{12} \\times 3.6 = 13.2\\ \\text{g}$. $9.6\\ \\text{g}$ is the mass of **oxygen** used ($\\dfrac{32}{12} \\times 3.6$), $0.98\\ \\text{g}$ comes from turning the ratio upside down, and $47.6\\ \\text{g}$ just adds 44 and 3.6."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Scientists of the chapter",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each scientist with the work the chapter links to them.",
+  "image": {
+   "src": "/img/atomic/old-balance.svg",
+   "alt": "An old two-pan balance settling level beside a scroll and a quill"
+  },
+  "left": [
+   {
+    "id": "lav",
+    "text": "Antoine Lavoisier"
+   },
+   {
+    "id": "pro",
+    "text": "Joseph Proust"
+   },
+   {
+    "id": "dal",
+    "text": "John Dalton"
+   },
+   {
+    "id": "ram",
+    "text": "Raja Ramanna"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Atomic theory, presented in 1808"
+   },
+   {
+    "id": "r2",
+    "text": "Law of Conservation of Mass, 1789"
+   },
+   {
+    "id": "r3",
+    "text": "India's Nuclear Energy Programme"
+   },
+   {
+    "id": "r4",
+    "text": "Invented the digital weighing balance"
+   },
+   {
+    "id": "r5",
+    "text": "Fixed composition by mass, for example of copper carbonate"
+   }
+  ],
+  "pairs": {
+   "lav": "r2",
+   "pro": "r5",
+   "dal": "r1",
+   "ram": "r3"
+  },
+  "hint": "Lavoisier's law came first, in 1789. Dalton's theory was built on two earlier laws.",
+  "explanation": "**Antoine Lavoisier**, the Father of Modern Chemistry, proposed the Law of Conservation of Mass in 1789. **Joseph Proust** showed that compounds such as copper carbonate always contain their elements in the same proportion by mass. **John Dalton** presented his atomic theory in 1808, and **Raja Ramanna** helped build India's peaceful Nuclear Energy Programme."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Law of Constant Proportions",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Water from a river, a borewell and the sea is purified, and each sample is then broken down into its elements. What is the mass ratio of hydrogen to oxygen in the samples?",
+  "image": {
+   "src": "/img/atomic/water-sources.svg",
+   "alt": "Water from a river, a borewell and the sea being purified into one glass"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "1 : 8 in every sample"
+   },
+   {
+    "id": "b",
+    "text": "2 : 1 in every sample"
+   },
+   {
+    "id": "c",
+    "text": "8 : 1 in every sample"
+   },
+   {
+    "id": "d",
+    "text": "A different ratio for each source, because sea water is salty"
+   }
+  ],
+  "answer": "a",
+  "hint": "Pure water is a compound. Does its composition depend on where it came from?",
+  "explanation": "Pure water from any source contains hydrogen and oxygen in the mass ratio **1 : 8**: 9 g of water always gives 1 g of hydrogen and 8 g of oxygen. This is the **Law of Constant (Definite) Proportions**. The ratio 2 : 1 compares numbers of atoms, not masses, and 8 : 1 is upside down. The salt in sea water is removed when it is purified, so it does not change the ratio."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Law of Constant Proportions: calculation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Sodium chloride ($\\ce{NaCl}$) contains sodium and chlorine in the mass ratio $23 : 35.5$. How much chlorine is needed to react completely with $69\\ \\text{g}$ of sodium?",
+  "image": {
+   "src": "/img/atomic/na-cl-mass.svg",
+   "alt": "Sodium metal and chlorine gas combining to form sodium chloride crystals"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$44.7\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$35.5\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$106.5\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$175.5\\ \\text{g}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "How many times 23 g is 69 g? The chlorine must grow by the same factor.",
+  "explanation": "Mass of chlorine $= \\dfrac{35.5}{23} \\times 69 = 35.5 \\times 3 = 106.5\\ \\text{g}$. $44.7\\ \\text{g}$ comes from using the ratio the wrong way round ($\\dfrac{23}{35.5} \\times 69$), $35.5\\ \\text{g}$ forgets to scale up, and $175.5\\ \\text{g}$ is the mass of sodium chloride formed, not the chlorine needed."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Law of Constant Proportions: calculation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Carbon monoxide ($\\ce{CO}$) contains carbon and oxygen in the mass ratio $3 : 4$. What mass of oxygen combines with $15\\ \\text{g}$ of carbon?",
+  "image": {
+   "src": "/img/atomic/mol-co.svg",
+   "alt": "A ball-and-stick model of a carbon monoxide molecule"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$60\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$11.25\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$35\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$20\\ \\text{g}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Divide 15 g by 3 to find the size of one 'part'.",
+  "explanation": "One part $= 15 \\div 3 = 5\\ \\text{g}$, so oxygen $= 4 \\times 5 = 20\\ \\text{g}$ (or $\\dfrac{4}{3} \\times 15 = 20\\ \\text{g}$). $60\\ \\text{g}$ multiplies by 4 but forgets to divide by 3, $11.25\\ \\text{g}$ uses $\\dfrac{3}{4}$ instead of $\\dfrac{4}{3}$, and $35\\ \\text{g}$ is the mass of carbon monoxide formed."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Cinnabar and percentage composition",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Heating cinnabar (called *hingula* in India) gives mercury and sulfur in the mass percentages shown. What mass of mercury can be obtained from $50\\ \\text{g}$ of pure cinnabar?",
+  "image": {
+   "src": "/img/atomic/cinnabar.svg",
+   "alt": "Red cinnabar rock heated to give mercury and sulfur, with a bar showing their percentages by mass"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$43.11\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$6.89\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$86.22\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$57.99\\ \\text{g}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "A percentage is 'out of 100'. Find 86.22% of 50 g.",
+  "explanation": "Mass of mercury $= \\dfrac{86.22}{100} \\times 50 = 43.11\\ \\text{g}$. $6.89\\ \\text{g}$ is the **sulfur** ($13.78\\%$ of 50 g), $86.22\\ \\text{g}$ treats the percentage as grams, and $57.99\\ \\text{g}$ divides by 0.8622 instead of multiplying. Because cinnabar is a compound, every pure sample has this same composition."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Law of Constant Proportions",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Students X and Y each made an oxide of copper. X combined copper and oxygen in the mass ratio 4 : 1, and Y in the ratio 8 : 2. Do their results agree with the Law of Constant Proportions?",
+  "image": {
+   "src": "/img/atomic/copper-oxide.svg",
+   "alt": "Two trays, X and Y, showing the masses of copper and oxygen each student used"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "No, because Y used twice as much oxygen as X"
+   },
+   {
+    "id": "b",
+    "text": "Yes, because 8 : 2 is the same ratio as 4 : 1"
+   },
+   {
+    "id": "c",
+    "text": "No, because the numbers in the two ratios are different"
+   },
+   {
+    "id": "d",
+    "text": "Only X is right, because a ratio must contain the number 1"
+   }
+  ],
+  "answer": "b",
+  "hint": "Simplify 8 : 2.",
+  "explanation": "Yes. $8 : 2$ simplifies to $4 : 1$, so both students combined copper and oxygen in the **same fixed ratio by mass** and made the same compound. A ratio does not have to be written with the same numbers to be equal, and Y using twice as much copper *and* twice as much oxygen keeps the ratio unchanged."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Compounds and mixtures",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these always have the **same composition by mass**, whatever their source? Select all that apply.",
+  "image": {
+   "src": "/img/atomic/mix-vs-compound.svg",
+   "alt": "Beaker P with two kinds of particles in a random ratio and beaker Q with identical molecules"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Pure water"
+   },
+   {
+    "id": "b",
+    "text": "Sugar solution"
+   },
+   {
+    "id": "c",
+    "text": "Carbon dioxide"
+   },
+   {
+    "id": "d",
+    "text": "Air"
+   },
+   {
+    "id": "e",
+    "text": "Sodium chloride"
+   },
+   {
+    "id": "f",
+    "text": "Salt water"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "e"
+  ],
+  "hint": "The Law of Definite Proportions is true only for compounds.",
+  "explanation": "**Pure water**, **carbon dioxide** and **sodium chloride** are compounds, so their elements are always combined in a fixed ratio by mass (beaker Q). Sugar solution, air and salt water are **mixtures**: you can mix their parts in any proportion (beaker P), so the law does not apply to them."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Dalton's Atomic Theory",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are postulates of **Dalton's Atomic Theory**? Select all that apply.",
+  "image": {
+   "src": "/img/atomic/dalton-atoms.svg",
+   "alt": "Solid spheres for atoms of two elements combining in small whole-number ratios"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "All matter is made of very tiny particles called atoms"
+   },
+   {
+    "id": "b",
+    "text": "Atoms of a given element are identical in mass and chemical properties"
+   },
+   {
+    "id": "c",
+    "text": "Atoms are made of electrons, protons and neutrons"
+   },
+   {
+    "id": "d",
+    "text": "Atoms combine in the ratio of simple whole numbers to form compounds"
+   },
+   {
+    "id": "e",
+    "text": "Atoms can be created during a chemical reaction"
+   },
+   {
+    "id": "f",
+    "text": "Atoms of all elements have the same mass"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Dalton's atoms were tiny, solid and indivisible. He knew nothing about particles inside them.",
+  "explanation": "Dalton said that all matter is made of tiny **atoms**, that atoms of one element are **identical in mass and chemical properties**, and that atoms combine in **simple whole-number ratios** to form compounds. He also said atoms are indivisible and are never created or destroyed in a reaction, and that atoms of different elements have different masses. Electrons, protons and neutrons were discovered later."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Dalton's theory and burning magnesium",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atomic/mg-burn.svg",
+   "alt": "A magnesium ribbon held in tongs burning with a dazzling flame over a watch glass"
+  },
+  "assertion": "When a magnesium ribbon burns in air, the white powder formed has more mass than the ribbon.",
+  "reason": "Magnesium atoms combine with oxygen atoms from the air to form magnesium oxide.",
+  "answer": "a",
+  "hint": "Where does the extra mass in the white powder come from?",
+  "explanation": "Both statements are true and R explains A. When magnesium burns, its atoms combine with **oxygen atoms from the air** to form white magnesium oxide. The atoms are not destroyed, only rearranged, so the powder's mass equals the magnesium plus the oxygen that joined it, which is more than the ribbon alone."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Atoms and molecules",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the particle that is **not a molecule**, because it exists on its own as a single, stable atom.",
+  "image": {
+   "src": "/img/atomic/molecule-tray.svg",
+   "alt": "Six particles drawn as ball-and-stick models, each in its own box"
+  },
+  "spots": [
+   {
+    "id": "hcl",
+    "x": 27.08,
+    "y": 42.67,
+    "label": "HCl"
+   },
+   {
+    "id": "h2o",
+    "x": 60.42,
+    "y": 42.67,
+    "label": "H2O"
+   },
+   {
+    "id": "he",
+    "x": 93.75,
+    "y": 42.67,
+    "label": "He"
+   },
+   {
+    "id": "h2",
+    "x": 27.08,
+    "y": 86.0,
+    "label": "H2"
+   },
+   {
+    "id": "nh3",
+    "x": 60.42,
+    "y": 86.0,
+    "label": "NH3"
+   },
+   {
+    "id": "ch4",
+    "x": 93.75,
+    "y": 86.0,
+    "label": "CH4"
+   }
+  ],
+  "answer": "he",
+  "hint": "Look for an element whose atoms do not need to join with anything.",
+  "explanation": "**Helium** exists only as single atoms because its atoms are already stable. A **molecule** is an electrically neutral particle of **more than one atom** that can exist independently, so $\\ce{H2}$, $\\ce{HCl}$, $\\ce{H2O}$, $\\ce{NH3}$ and $\\ce{CH4}$ are all molecules."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Molecules of elements and compounds",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **molecule of an element**.",
+  "image": {
+   "src": "/img/atomic/molecule-tray.svg",
+   "alt": "Six particles drawn as ball-and-stick models, each in its own box"
+  },
+  "spots": [
+   {
+    "id": "hcl",
+    "x": 27.08,
+    "y": 42.67,
+    "label": "HCl"
+   },
+   {
+    "id": "h2o",
+    "x": 60.42,
+    "y": 42.67,
+    "label": "H2O"
+   },
+   {
+    "id": "he",
+    "x": 93.75,
+    "y": 42.67,
+    "label": "He"
+   },
+   {
+    "id": "h2",
+    "x": 27.08,
+    "y": 86.0,
+    "label": "H2"
+   },
+   {
+    "id": "nh3",
+    "x": 60.42,
+    "y": 86.0,
+    "label": "NH3"
+   },
+   {
+    "id": "ch4",
+    "x": 93.75,
+    "y": 86.0,
+    "label": "CH4"
+   }
+  ],
+  "answer": "h2",
+  "hint": "In a molecule of an element, every atom is of the same kind.",
+  "explanation": "$\\ce{H2}$ is made of two atoms of the **same element**, hydrogen, so it is a molecule of an element. $\\ce{HCl}$, $\\ce{H2O}$, $\\ce{NH3}$ and $\\ce{CH4}$ contain atoms of different elements, so they are molecules of **compounds**. Helium is a single atom, not a molecule."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Atoms and molecules of oxygen",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Oxygen is sometimes written as $\\ce{O}$ and sometimes as $\\ce{O2}$. What is the difference?",
+  "image": {
+   "src": "/img/atomic/bond-o2.svg",
+   "alt": "Two oxygen atoms sharing electrons where their outer shells overlap"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{O}$ is an oxygen molecule and $\\ce{O2}$ is an oxygen atom"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{O}$ is the oxide ion and $\\ce{O2}$ is oxygen gas"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{O}$ is one oxygen atom; $\\ce{O2}$ is a molecule of two oxygen atoms sharing two pairs of electrons"
+   },
+   {
+    "id": "d",
+    "text": "They mean exactly the same thing"
+   }
+  ],
+  "answer": "c",
+  "hint": "The subscript tells you how many atoms there are.",
+  "explanation": "$\\ce{O}$ stands for **one oxygen atom**. $\\ce{O2}$ is an **oxygen molecule**: two oxygen atoms, each with six valence electrons, share two pairs of electrons and are held by a **double bond** ($\\ce{O=O}$). Oxygen gas is made of $\\ce{O2}$ molecules. The oxide ion is written $\\ce{O^2-}$, not O."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Single, double and triple covalent bonds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these molecules by the **number of shared pairs of electrons** in each, from fewest to most.",
+  "image": {
+   "src": "/img/atomic/bond-h2.svg",
+   "alt": "Two hydrogen atoms moving together until their shells overlap"
+  },
+  "items": [
+   {
+    "id": "n2",
+    "text": "$\\ce{N2}$"
+   },
+   {
+    "id": "co2",
+    "text": "$\\ce{CO2}$"
+   },
+   {
+    "id": "h2",
+    "text": "$\\ce{H2}$"
+   },
+   {
+    "id": "o2",
+    "text": "$\\ce{O2}$"
+   }
+  ],
+  "answer": [
+   "h2",
+   "o2",
+   "n2",
+   "co2"
+  ],
+  "startLabel": "Fewest shared pairs",
+  "endLabel": "Most shared pairs",
+  "hint": "Hydrogen needs 1 electron, oxygen 2 and nitrogen 3. Carbon dioxide has two bonds to its carbon atom.",
+  "explanation": "$\\ce{H2}$ has **one** shared pair (single bond, H–H). $\\ce{O2}$ has **two** (double bond, O=O). Nitrogen has five valence electrons and needs three more, so $\\ce{N2}$ has **three** shared pairs (triple bond, N≡N). In $\\ce{CO2}$ the carbon forms a double bond with each oxygen (O=C=O), making **four** shared pairs in all."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Covalent bond in hydrogen chloride",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **shared pair of electrons** that holds this hydrogen chloride molecule together.",
+  "image": {
+   "src": "/img/atomic/hcl-shells.svg",
+   "alt": "Shell diagram of a hydrogen atom and a chlorine atom bonded together, with markers"
+  },
+  "spots": [
+   {
+    "id": "h-nuc",
+    "x": 29.17,
+    "y": 50.0,
+    "label": "H nucleus"
+   },
+   {
+    "id": "shared",
+    "x": 38.75,
+    "y": 50.0,
+    "label": "Shared pair"
+   },
+   {
+    "id": "cl-nuc",
+    "x": 62.5,
+    "y": 50.0,
+    "label": "Cl nucleus"
+   },
+   {
+    "id": "cl-lone",
+    "x": 62.5,
+    "y": 11.88,
+    "label": "Cl outer electrons"
+   },
+   {
+    "id": "cl-inner",
+    "x": 77.5,
+    "y": 50.0,
+    "label": "Cl second shell"
+   }
+  ],
+  "answer": "shared",
+  "hint": "Look where the two atoms' outer shells overlap.",
+  "explanation": "Hydrogen needs one electron for a duplet and chlorine needs one for an octet, so each gives **one electron** to a shared pair where their shells overlap. That shared pair attracts both nuclei and is a **single covalent bond** (H–Cl). The bonded atoms have lower total energy than the separate atoms, which is why they stay together."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Covalent compounds with common names",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which model shows a molecule of **ammonia**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Model P",
+    "image": {
+     "src": "/img/atomic/mol-nh3.svg",
+     "alt": "Model P"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Model Q",
+    "image": {
+     "src": "/img/atomic/mol-h2o.svg",
+     "alt": "Model Q"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Model R",
+    "image": {
+     "src": "/img/atomic/mol-ch4.svg",
+     "alt": "Model R"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Model S",
+    "image": {
+     "src": "/img/atomic/mol-co2.svg",
+     "alt": "Model S"
+    }
+   }
+  ],
+  "answer": "a",
+  "hint": "Ammonia is a compound of nitrogen and hydrogen.",
+  "explanation": "Ammonia is $\\ce{NH3}$: one nitrogen atom sharing an electron pair with each of **three** hydrogen atoms (Model P). Its systematic name would be nitrogen trihydride, but it is known by its common name, just as $\\ce{H2O}$ (Model Q) is called water. Model R is methane ($\\ce{CH4}$) and Model S is carbon dioxide ($\\ce{CO2}$)."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Molecular mass",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Using H = 1 u, C = 12 u, N = 14 u and O = 16 u, arrange these molecules by **molecular mass**, from lightest to heaviest.",
+  "items": [
+   {
+    "id": "h2o",
+    "text": "$\\ce{H2O}$",
+    "image": {
+     "src": "/img/atomic/mol-h2o.svg",
+     "alt": "Water molecule model"
+    }
+   },
+   {
+    "id": "co2",
+    "text": "$\\ce{CO2}$",
+    "image": {
+     "src": "/img/atomic/mol-co2.svg",
+     "alt": "Carbon dioxide molecule model"
+    }
+   },
+   {
+    "id": "ch4",
+    "text": "$\\ce{CH4}$",
+    "image": {
+     "src": "/img/atomic/mol-ch4.svg",
+     "alt": "Methane molecule model"
+    }
+   },
+   {
+    "id": "nh3",
+    "text": "$\\ce{NH3}$",
+    "image": {
+     "src": "/img/atomic/mol-nh3.svg",
+     "alt": "Ammonia molecule model"
+    }
+   }
+  ],
+  "answer": [
+   "ch4",
+   "nh3",
+   "h2o",
+   "co2"
+  ],
+  "startLabel": "Lightest",
+  "endLabel": "Heaviest",
+  "hint": "Count every atom in each model and add up their atomic masses.",
+  "explanation": "$\\ce{CH4}$: $12 + 4 \\times 1 = 16\\ \\text{u}$. $\\ce{NH3}$: $14 + 3 \\times 1 = 17\\ \\text{u}$. $\\ce{H2O}$: $2 \\times 1 + 16 = 18\\ \\text{u}$. $\\ce{CO2}$: $12 + 2 \\times 16 = 44\\ \\text{u}$. A common slip is to forget the subscript and count only one H or one O."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Molecular mass",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Find the molecular mass of nitric acid, $\\ce{HNO3}$. (Atomic masses: H = 1 u, N = 14 u, O = 16 u)",
+  "image": {
+   "src": "/img/atomic/mol-hno3.svg",
+   "alt": "A ball-and-stick model of a nitric acid molecule"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$31\\ \\text{u}$"
+   },
+   {
+    "id": "b",
+    "text": "$93\\ \\text{u}$"
+   },
+   {
+    "id": "c",
+    "text": "$32\\ \\text{u}$"
+   },
+   {
+    "id": "d",
+    "text": "$63\\ \\text{u}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "The subscript 3 belongs to oxygen only.",
+  "explanation": "Molecular mass of $\\ce{HNO3} = (1 \\times 1) + (14 \\times 1) + (16 \\times 3) = 1 + 14 + 48 = 63\\ \\text{u}$. $31\\ \\text{u}$ counts only one oxygen atom, $93\\ \\text{u}$ multiplies the whole of HNO by 3, and $32\\ \\text{u}$ adds the **atomic numbers** (1 + 7 + 3 × 8) instead of the atomic masses."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Naming covalent compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each molecule model with its correct name.",
+  "left": [
+   {
+    "id": "m1",
+    "text": "Model 1",
+    "image": {
+     "src": "/img/atomic/mol-cs2.svg",
+     "alt": "Model 1"
+    }
+   },
+   {
+    "id": "m2",
+    "text": "Model 2",
+    "image": {
+     "src": "/img/atomic/mol-pcl3.svg",
+     "alt": "Model 2"
+    }
+   },
+   {
+    "id": "m3",
+    "text": "Model 3",
+    "image": {
+     "src": "/img/atomic/mol-sf6.svg",
+     "alt": "Model 3"
+    }
+   },
+   {
+    "id": "m4",
+    "text": "Model 4",
+    "image": {
+     "src": "/img/atomic/mol-n2o4.svg",
+     "alt": "Model 4"
+    }
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Sulfur hexafluoride"
+   },
+   {
+    "id": "r2",
+    "text": "Dinitrogen tetraoxide"
+   },
+   {
+    "id": "r3",
+    "text": "Carbon disulfide"
+   },
+   {
+    "id": "r4",
+    "text": "Dinitrogen tetroxide"
+   },
+   {
+    "id": "r5",
+    "text": "Phosphorus trichloride"
+   }
+  ],
+  "pairs": {
+   "m1": "r3",
+   "m2": "r5",
+   "m3": "r1",
+   "m4": "r4"
+  },
+  "hint": "Prefixes give the number of atoms: di = 2, tri = 3, tetra = 4, hexa = 6. Watch for a dropped vowel before 'oxide'.",
+  "explanation": "Model 1 is $\\ce{CS2}$, **carbon disulfide**; Model 2 is $\\ce{PCl3}$, **phosphorus trichloride**; Model 3 is $\\ce{SF6}$, **sulfur hexafluoride**; Model 4 is $\\ce{N2O4}$, **dinitrogen tetroxide**. When a prefix ending in 'a' or 'o' comes before a vowel, that vowel is dropped, so 'tetraoxide' is wrong. 'Mono' is left off the first element, and hydrogen never gets a prefix ($\\ce{H2S}$ is hydrogen sulfide)."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Ionic bond: electron transfer",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A sodium atom and a chlorine atom are about to form sodium chloride. **Tap the electron that the sodium atom gives away.**",
+  "image": {
+   "src": "/img/atomic/nacl-shells.svg",
+   "alt": "Shell diagrams of a sodium atom and a chlorine atom side by side, with markers"
+  },
+  "spots": [
+   {
+    "id": "na-val",
+    "x": 26.04,
+    "y": 25.0,
+    "label": "Na outer electron"
+   },
+   {
+    "id": "na-nuc",
+    "x": 26.04,
+    "y": 50.0,
+    "label": "Na nucleus"
+   },
+   {
+    "id": "na-inner",
+    "x": 17.19,
+    "y": 43.71,
+    "label": "Na second-shell electron"
+   },
+   {
+    "id": "cl-nuc",
+    "x": 73.96,
+    "y": 50.0,
+    "label": "Cl nucleus"
+   },
+   {
+    "id": "cl-val",
+    "x": 73.96,
+    "y": 25.0,
+    "label": "Cl outer electron"
+   }
+  ],
+  "answer": "na-val",
+  "hint": "Sodium is 2, 8, 1. Which electron is alone in its shell?",
+  "explanation": "Sodium (2, 8, 1) loses its single **valence electron** from the third shell, leaving a stable 2, 8 arrangement and becoming $\\ce{Na+}$. Chlorine (2, 8, 7) has one empty place in its outer shell; it accepts that electron and becomes $\\ce{Cl-}$. The **electrostatic attraction** between the oppositely charged ions is the ionic bond."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Atoms and ions",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A species has **11 protons, 12 neutrons and 10 electrons**. Which description is correct?",
+  "image": {
+   "src": "/img/atomic/sodium-ion.svg",
+   "alt": "An atom with 11 protons and 12 neutrons in its nucleus, losing its outermost electron"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A neutral sodium atom, mass number 23"
+   },
+   {
+    "id": "b",
+    "text": "A neon atom, mass number 22"
+   },
+   {
+    "id": "c",
+    "text": "A sodium cation, $\\ce{Na+}$, mass number 23"
+   },
+   {
+    "id": "d",
+    "text": "A sodium anion, $\\ce{Na-}$, mass number 21"
+   }
+  ],
+  "answer": "c",
+  "hint": "The number of protons fixes the element. Compare protons with electrons to find the charge.",
+  "explanation": "11 protons means the element is **sodium** (atomic number 11), and mass number $= 11 + 12 = 23$. It has one more proton than electrons, so it carries a charge of +1: it is the **sodium cation**, $\\ce{Na+}$, with configuration 2, 8. Choosing neon uses the electron count instead of the proton count, and a neutral atom would need 11 electrons."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Formula unit mass and crystal structure",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atomic/nacl-crystal.svg",
+   "alt": "A cube-shaped crystal of small positive ions and large negative ions in a repeating pattern"
+  },
+  "assertion": "The formula unit mass of sodium chloride is 58.5 u (Na = 23 u, Cl = 35.5 u).",
+  "reason": "In a sodium chloride crystal, each sodium ion is surrounded by six chloride ions.",
+  "answer": "b",
+  "hint": "Is R about mass at all? Check A with the atomic masses Na = 23 u and Cl = 35.5 u.",
+  "explanation": "Both are true, but R does not explain A. A is a calculation: formula unit mass of $\\ce{NaCl} = 23 + 35.5 = 58.5\\ \\text{u}$. R describes the crystal: each $\\ce{Na+}$ is surrounded by six $\\ce{Cl-}$ ions (and each $\\ce{Cl-}$ by six $\\ce{Na+}$) in a repeating 3-D pattern. Because ionic compounds form such crystals and not separate molecules, we speak of a **formula unit mass** rather than a molecular mass."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Chloride ion",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The atomic number of chlorine is 17. Which diagram correctly shows a **chloride ion**, $\\ce{Cl-}$?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Diagram A",
+    "image": {
+     "src": "/img/atomic/cl-opt-r.svg",
+     "alt": "Diagram A"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Diagram B",
+    "image": {
+     "src": "/img/atomic/cl-opt-q.svg",
+     "alt": "Diagram B"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Diagram C",
+    "image": {
+     "src": "/img/atomic/cl-opt-p.svg",
+     "alt": "Diagram C"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Diagram D",
+    "image": {
+     "src": "/img/atomic/cl-opt-s.svg",
+     "alt": "Diagram D"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "An ion keeps its number of protons. A chloride ion has gained one electron.",
+  "explanation": "A chloride ion still has **17 protons**, but it has gained one electron, so it has 18 electrons arranged 2, 8, 8 (Diagram B). Diagram C (17p, 2, 8, 7) is a neutral chlorine atom. Diagram A has 18 protons, so it is an argon atom, and Diagram D has 16 protons, so it is a sulfide ion, $\\ce{S^2-}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Electrons and neutrons in ions",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The bromide ion $\\ce{^{80}_{35}Br-}$ has 35 protons. How many electrons and neutrons does it have?",
+  "image": {
+   "src": "/img/atomic/bromide-card.svg",
+   "alt": "An element card for a bromine species with its mass number and atomic number, beside a cartoon atom"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "35 electrons and 45 neutrons"
+   },
+   {
+    "id": "b",
+    "text": "34 electrons and 45 neutrons"
+   },
+   {
+    "id": "c",
+    "text": "36 electrons and 80 neutrons"
+   },
+   {
+    "id": "d",
+    "text": "36 electrons and 45 neutrons"
+   }
+  ],
+  "answer": "d",
+  "hint": "Neutrons = mass number − protons. A 1− charge means one extra electron.",
+  "explanation": "Neutrons $= 80 - 35 = 45$. The 1− charge means one electron **more** than the protons: $35 + 1 = 36$ electrons. 35 electrons ignores the charge, 34 subtracts instead of adding, and 80 neutrons confuses the mass number with the number of neutrons."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Electrons in atoms and ions",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Atomic numbers: Li = 3, Na = 11, Al = 13, Cl = 17. Arrange these particles by the **number of electrons** they have, from fewest to most.",
+  "image": {
+   "src": "/img/atomic/ions-float.svg",
+   "alt": "Four floating particles: an atom and three ions"
+  },
+  "items": [
+   {
+    "id": "na",
+    "text": "$\\ce{Na}$ atom"
+   },
+   {
+    "id": "cl",
+    "text": "$\\ce{Cl-}$ ion"
+   },
+   {
+    "id": "li",
+    "text": "$\\ce{Li+}$ ion"
+   },
+   {
+    "id": "al",
+    "text": "$\\ce{Al^3+}$ ion"
+   }
+  ],
+  "answer": [
+   "li",
+   "al",
+   "na",
+   "cl"
+  ],
+  "startLabel": "Fewest electrons",
+  "endLabel": "Most electrons",
+  "hint": "A positive ion has lost electrons; a negative ion has gained them. A neutral atom has as many electrons as protons.",
+  "explanation": "$\\ce{Li+}$: $3 - 1 = 2$ electrons. $\\ce{Al^3+}$: $13 - 3 = 10$. Neutral $\\ce{Na}$: 11. $\\ce{Cl-}$: $17 + 1 = 18$. Although aluminium has a bigger atomic number than sodium, the $\\ce{Al^3+}$ ion has **fewer** electrons than a sodium atom because it has lost three."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Predicting the bond and formula",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Element A has one electron in its third shell (2, 8, 1). Element B has six electrons in its second shell (2, 6). What kind of bond do they form, and what is the formula of the compound?",
+  "image": {
+   "src": "/img/atomic/atoms-ab.svg",
+   "alt": "Shell diagrams of two unknown elements A and B"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Ionic, $\\ce{A2B}$"
+   },
+   {
+    "id": "b",
+    "text": "Covalent, $\\ce{AB2}$"
+   },
+   {
+    "id": "c",
+    "text": "Ionic, $\\ce{AB2}$"
+   },
+   {
+    "id": "d",
+    "text": "Ionic, $\\ce{AB}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "A loses 1 electron and B needs 2. How many A atoms does one B atom need?",
+  "explanation": "A loses one electron to form $\\ce{A+}$, and B gains two electrons to form $\\ce{B^2-}$, so the bond is **ionic**. Two $\\ce{A+}$ ions balance one $\\ce{B^2-}$ ion, giving $\\ce{A2B}$ (like $\\ce{Na2O}$). $\\ce{AB2}$ crosses the valencies the wrong way, $\\ce{AB}$ leaves the charges unbalanced, and the bond is not covalent because A gives its electron away completely."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Writing formulae of ionic compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Put the steps for writing the formula of **aluminium sulfate** in the correct order.",
+  "image": {
+   "src": "/img/atomic/crisscross.svg",
+   "alt": "The criss-cross method: the charge numbers of two ions cross over to become subscripts"
+  },
+  "items": [
+   {
+    "id": "cross",
+    "text": "Cross over the numbers: 2 goes to Al and 3 goes to the sulfate"
+   },
+   {
+    "id": "sym",
+    "text": "Write the symbol of the cation, then the anion: Al and $\\ce{SO4}$"
+   },
+   {
+    "id": "final",
+    "text": "Check for a common factor and add brackets round the sulfate: $\\ce{Al2(SO4)3}$"
+   },
+   {
+    "id": "chg",
+    "text": "Write the charges, 3+ and 2−, under the symbols"
+   }
+  ],
+  "answer": [
+   "sym",
+   "chg",
+   "cross",
+   "final"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Symbols come first; the brackets come only at the very end.",
+  "explanation": "Write the cation then the anion ($\\ce{Al}$, $\\ce{SO4}$), write their charges (3+ and 2−) under them, and **cross over** the numbers so Al gets 2 and $\\ce{SO4}$ gets 3. Finally check for a common factor (there is none for 2 and 3) and put brackets round the polyatomic ion because there is more than one of it: $\\ce{Al2(SO4)3}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Writing formulae with polyatomic ions",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "What is the formula of the compound formed by $\\ce{Fe^3+}$ and $\\ce{OH-}$ ions?",
+  "image": {
+   "src": "/img/atomic/crisscross.svg",
+   "alt": "The criss-cross method: the charge numbers of two ions cross over to become subscripts"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{FeOH3}$"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{Fe3OH}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{Fe(OH)3}$"
+   },
+   {
+    "id": "d",
+    "text": "$\\ce{Fe(OH)2}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Cross over the charge numbers, and remember the brackets for more than one polyatomic ion.",
+  "explanation": "Crossing the charges gives one Fe and three OH. Since there are three **hydroxide** ions, OH goes in brackets: $\\ce{Fe(OH)3}$, ferric hydroxide. $\\ce{FeOH3}$ wrongly suggests three H atoms with one O, $\\ce{Fe3OH}$ crosses the numbers the wrong way, and $\\ce{Fe(OH)2}$ is the formula with the ferrous ion, $\\ce{Fe^2+}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Balancing charges in ionic compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "You want to design an ionic compound in which the total positive charge is 6+ and the total negative charge is 6−. Which combination of ions works?",
+  "image": {
+   "src": "/img/atomic/charge-seesaw.svg",
+   "alt": "A see-saw balancing six positive charges against six negative charges"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$2\\ \\ce{Al^3+}$ and $3\\ \\ce{Cl-}$"
+   },
+   {
+    "id": "b",
+    "text": "$3\\ \\ce{Mg^2+}$ and $1\\ \\ce{PO4^3-}$"
+   },
+   {
+    "id": "c",
+    "text": "$3\\ \\ce{Ca^2+}$ and $2\\ \\ce{SO4^2-}$"
+   },
+   {
+    "id": "d",
+    "text": "$2\\ \\ce{Fe^3+}$ and $3\\ \\ce{O^2-}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Multiply the number of each ion by its charge, for both the cations and the anions.",
+  "explanation": "$2\\ \\ce{Fe^3+}$ gives $2 \\times 3 = 6+$ and $3\\ \\ce{O^2-}$ gives $3 \\times 2 = 6-$, so the charges balance ($\\ce{Fe2O3}$, ferric oxide). $2\\ \\ce{Al^3+}$ with $3\\ \\ce{Cl-}$ is $6+$ but only $3-$; $3\\ \\ce{Mg^2+}$ with one $\\ce{PO4^3-}$ is $6+$ and $3-$; $3\\ \\ce{Ca^2+}$ with $2\\ \\ce{SO4^2-}$ is $6+$ and $4-$."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Common ions",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **polyatomic cation**.",
+  "image": {
+   "src": "/img/atomic/cation-cards.svg",
+   "alt": "Six cation cards, each showing the formula of an ion"
+  },
+  "spots": [
+   {
+    "id": "ca",
+    "x": 17.71,
+    "y": 39.67,
+    "label": "Ca2+"
+   },
+   {
+    "id": "nh4",
+    "x": 50.0,
+    "y": 39.67,
+    "label": "NH4+"
+   },
+   {
+    "id": "fe2",
+    "x": 82.29,
+    "y": 39.67,
+    "label": "Fe2+"
+   },
+   {
+    "id": "al",
+    "x": 17.71,
+    "y": 83.0,
+    "label": "Al3+"
+   },
+   {
+    "id": "na",
+    "x": 50.0,
+    "y": 83.0,
+    "label": "Na+"
+   },
+   {
+    "id": "fe3",
+    "x": 82.29,
+    "y": 83.0,
+    "label": "Fe3+"
+   }
+  ],
+  "answer": "nh4",
+  "hint": "A polyatomic ion is made of atoms of more than one element. Most cations are single metal atoms.",
+  "explanation": "The **ammonium ion**, $\\ce{NH4+}$, is made of one nitrogen and four hydrogen atoms carrying a single positive charge, so it is a polyatomic cation with valency 1. All the others are **monoatomic** metal cations. In names, the cation comes first: ammonium chloride is $\\ce{NH4Cl}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Combining ions in the right ratio",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The aluminium ion is $\\ce{Al^3+}$. Tap the anion that combines with it in a **1 : 1 ratio**.",
+  "image": {
+   "src": "/img/atomic/anion-cards.svg",
+   "alt": "Six anion cards, each showing the formula of an ion"
+  },
+  "spots": [
+   {
+    "id": "oh",
+    "x": 17.71,
+    "y": 39.67,
+    "label": "OH-"
+   },
+   {
+    "id": "so4",
+    "x": 50.0,
+    "y": 39.67,
+    "label": "SO4 2-"
+   },
+   {
+    "id": "cl",
+    "x": 82.29,
+    "y": 39.67,
+    "label": "Cl-"
+   },
+   {
+    "id": "po4",
+    "x": 17.71,
+    "y": 83.0,
+    "label": "PO4 3-"
+   },
+   {
+    "id": "o",
+    "x": 50.0,
+    "y": 83.0,
+    "label": "O2-"
+   },
+   {
+    "id": "no3",
+    "x": 82.29,
+    "y": 83.0,
+    "label": "NO3-"
+   }
+  ],
+  "answer": "po4",
+  "hint": "For a 1 : 1 ratio, the anion's charge must exactly cancel 3+.",
+  "explanation": "Only the **phosphate ion**, $\\ce{PO4^3-}$, has a 3− charge, so one $\\ce{Al^3+}$ and one $\\ce{PO4^3-}$ give the neutral compound $\\ce{AlPO4}$. With $\\ce{O^2-}$ the criss-cross gives $\\ce{Al2O3}$; with $\\ce{SO4^2-}$, $\\ce{Al2(SO4)3}$; and with the 1− ions, three anions are needed, as in $\\ce{Al(OH)3}$ or $\\ce{Al(NO3)3}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Common ions",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **polyatomic** anion whose valency is **2**.",
+  "image": {
+   "src": "/img/atomic/anion-cards.svg",
+   "alt": "Six anion cards, each showing the formula of an ion"
+  },
+  "spots": [
+   {
+    "id": "oh",
+    "x": 17.71,
+    "y": 39.67,
+    "label": "OH-"
+   },
+   {
+    "id": "so4",
+    "x": 50.0,
+    "y": 39.67,
+    "label": "SO4 2-"
+   },
+   {
+    "id": "cl",
+    "x": 82.29,
+    "y": 39.67,
+    "label": "Cl-"
+   },
+   {
+    "id": "po4",
+    "x": 17.71,
+    "y": 83.0,
+    "label": "PO4 3-"
+   },
+   {
+    "id": "o",
+    "x": 50.0,
+    "y": 83.0,
+    "label": "O2-"
+   },
+   {
+    "id": "no3",
+    "x": 82.29,
+    "y": 83.0,
+    "label": "NO3-"
+   }
+  ],
+  "answer": "so4",
+  "hint": "Two cards have a 2− charge. Only one of them contains more than one element.",
+  "explanation": "The **sulfate ion**, $\\ce{SO4^2-}$, is made of one sulfur and four oxygen atoms and has valency 2. The oxide ion, $\\ce{O^2-}$, also has valency 2 but is a single atom. $\\ce{OH-}$ and $\\ce{NO3-}$ are polyatomic but have valency 1, and $\\ce{PO4^3-}$ has valency 3."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Formulae from pairs of ions",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Complete the table. Match each numbered cell with the formula of the compound formed by its cation (row) and anion (column).",
+  "image": {
+   "src": "/img/atomic/table-grid.svg",
+   "alt": "A table of cations down the side and anions across the top, with four numbered cells",
+   "markers": [
+    {
+     "x": 36.46,
+     "y": 50.0,
+     "label": "1"
+    },
+    {
+     "x": 82.29,
+     "y": 67.24,
+     "label": "2"
+    },
+    {
+     "x": 59.38,
+     "y": 84.48,
+     "label": "3"
+    },
+    {
+     "x": 82.29,
+     "y": 32.76,
+     "label": "4"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "c1",
+    "text": "Cell 1"
+   },
+   {
+    "id": "c2",
+    "text": "Cell 2"
+   },
+   {
+    "id": "c3",
+    "text": "Cell 3"
+   },
+   {
+    "id": "c4",
+    "text": "Cell 4"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "$\\ce{Li3PO4}$"
+   },
+   {
+    "id": "r2",
+    "text": "$\\ce{Cu2(PO4)3}$"
+   },
+   {
+    "id": "r3",
+    "text": "$\\ce{Al(NO3)3}$"
+   },
+   {
+    "id": "r4",
+    "text": "$\\ce{(NH4)2SO4}$"
+   },
+   {
+    "id": "r5",
+    "text": "$\\ce{Cu3(PO4)2}$"
+   }
+  ],
+  "pairs": {
+   "c1": "r3",
+   "c2": "r5",
+   "c3": "r4",
+   "c4": "r1"
+  },
+  "hint": "Cross over the charges. Put brackets round a polyatomic ion when there is more than one of it.",
+  "explanation": "Cell 1: $\\ce{Al^3+}$ + $\\ce{NO3-}$ gives $\\ce{Al(NO3)3}$. Cell 2: $\\ce{Cu^2+}$ + $\\ce{PO4^3-}$ gives $\\ce{Cu3(PO4)2}$. Cell 3: $\\ce{NH4+}$ + $\\ce{SO4^2-}$ gives $\\ce{(NH4)2SO4}$. Cell 4: $\\ce{Li+}$ + $\\ce{PO4^3-}$ gives $\\ce{Li3PO4}$. $\\ce{Cu2(PO4)3}$ crosses the numbers the wrong way and leaves the charges unbalanced ($4+$ and $9-$)."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Formula unit mass",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Find the formula unit mass of magnesium nitrate, $\\ce{Mg(NO3)2}$. (Atomic masses: Mg = 24 u, N = 14 u, O = 16 u)",
+  "image": {
+   "src": "/img/atomic/mg-nitrate-ions.svg",
+   "alt": "One magnesium ion with two nitrate ions"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$86\\ \\text{u}$"
+   },
+   {
+    "id": "b",
+    "text": "$148\\ \\text{u}$"
+   },
+   {
+    "id": "c",
+    "text": "$100\\ \\text{u}$"
+   },
+   {
+    "id": "d",
+    "text": "$84\\ \\text{u}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "The 2 outside the bracket multiplies everything inside it.",
+  "explanation": "One nitrate ion: $14 + 3 \\times 16 = 62\\ \\text{u}$. Formula unit mass $= 24 + 2 \\times 62 = 148\\ \\text{u}$. $86\\ \\text{u}$ forgets the 2 outside the bracket, $100\\ \\text{u}$ doubles the nitrogen but not the oxygen ($24 + 28 + 48$), and $84\\ \\text{u}$ counts only one oxygen in each nitrate."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Formula unit mass",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Baking soda is sodium hydrogencarbonate, $\\ce{NaHCO3}$. Find its formula unit mass. (Atomic masses: Na = 23 u, H = 1 u, C = 12 u, O = 16 u)",
+  "image": {
+   "src": "/img/atomic/baking-soda.svg",
+   "alt": "A box of baking soda beside a fizzing glass of water"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$52\\ \\text{u}$"
+   },
+   {
+    "id": "b",
+    "text": "$42\\ \\text{u}$"
+   },
+   {
+    "id": "c",
+    "text": "$84\\ \\text{u}$"
+   },
+   {
+    "id": "d",
+    "text": "$68\\ \\text{u}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Add one Na, one H, one C and three O.",
+  "explanation": "$23 + 1 + 12 + (3 \\times 16) = 84\\ \\text{u}$. $52\\ \\text{u}$ counts only one oxygen, $68\\ \\text{u}$ counts two, and $42\\ \\text{u}$ adds atomic numbers ($11 + 1 + 6 + 3 \\times 8$) instead of atomic masses."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Formula unit mass",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Find the formula unit mass of aluminium sulfate, $\\ce{Al2(SO4)3}$. (Atomic masses: Al = 27 u, S = 32 u, O = 16 u)",
+  "image": {
+   "src": "/img/atomic/al-sulfate-ions.svg",
+   "alt": "Two aluminium ions with three sulfate ions"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$342\\ \\text{u}$"
+   },
+   {
+    "id": "b",
+    "text": "$150\\ \\text{u}$"
+   },
+   {
+    "id": "c",
+    "text": "$123\\ \\text{u}$"
+   },
+   {
+    "id": "d",
+    "text": "$198\\ \\text{u}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "First find the mass of one sulfate ion, then use both subscripts.",
+  "explanation": "One sulfate ion: $32 + 4 \\times 16 = 96\\ \\text{u}$. Formula unit mass $= 2 \\times 27 + 3 \\times 96 = 54 + 288 = 342\\ \\text{u}$. $150\\ \\text{u}$ forgets the 3 outside the bracket, $123\\ \\text{u}$ ignores both subscripts, and $198\\ \\text{u}$ counts only one oxygen in each sulfate."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Electrical conductivity of ionic compounds",
+  "difficulty": "hard",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atomic/cond-on.svg",
+   "alt": "A beaker of solution with two electrodes connected to a battery and a glowing bulb"
+  },
+  "assertion": "Copper sulfate conducts electricity in the molten state but not in the solid state.",
+  "reason": "In molten copper sulfate the ions are fixed in place, while in the solid they can move freely.",
+  "answer": "c",
+  "hint": "In which state are the ions held in fixed positions?",
+  "explanation": "A is true, but R is false. Ionic compounds such as copper sulfate do not conduct in the **solid** state because the ions are held in **fixed positions** by strong forces. When melted (or dissolved in water) the ions become **free to move**, so the compound conducts. R has the two states the wrong way round."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Electrical conductivity of covalent compounds",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Sugar dissolves completely in water, yet when the electrodes are dipped in the sugar solution the bulb does not glow. Why?",
+  "image": {
+   "src": "/img/atomic/cond-off.svg",
+   "alt": "A beaker of solution with two electrodes connected to a battery and an unlit bulb"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Sugar is a covalent compound and gives no ions in solution"
+   },
+   {
+    "id": "b",
+    "text": "Sugar does not really dissolve in water"
+   },
+   {
+    "id": "c",
+    "text": "The ions of sugar stay fixed in place in water"
+   },
+   {
+    "id": "d",
+    "text": "Sugar solution is too thick for electricity to pass"
+   }
+  ],
+  "answer": "a",
+  "hint": "To carry current, a solution needs charged particles that can move.",
+  "explanation": "Sugar is a **covalent compound**. It dissolves in water as whole molecules and gives **no ions**, so there are no moving charges to carry the current. Salt is ionic, so its solution contains free $\\ce{Na+}$ and $\\ce{Cl-}$ ions and lights the bulb. Sugar does dissolve, so the second option is wrong."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Conductivity apparatus",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each numbered part of the conductivity set-up with its name.",
+  "image": {
+   "src": "/img/atomic/cond-on.svg",
+   "alt": "A conductivity set-up with four numbered parts",
+   "markers": [
+    {
+     "x": 77.5,
+     "y": 23.33,
+     "label": "1"
+    },
+    {
+     "x": 21.25,
+     "y": 27.0,
+     "label": "2"
+    },
+    {
+     "x": 45.5,
+     "y": 76.67,
+     "label": "3"
+    },
+    {
+     "x": 62.5,
+     "y": 54.67,
+     "label": "4"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "p1",
+    "text": "Part 1"
+   },
+   {
+    "id": "p2",
+    "text": "Part 2"
+   },
+   {
+    "id": "p3",
+    "text": "Part 3"
+   },
+   {
+    "id": "p4",
+    "text": "Part 4"
+   }
+  ],
+  "right": [
+   {
+    "id": "battery",
+    "text": "9 V battery"
+   },
+   {
+    "id": "cardboard",
+    "text": "Cardboard holder"
+   },
+   {
+    "id": "bal",
+    "text": "Digital balance"
+   },
+   {
+    "id": "bulb",
+    "text": "Bulb"
+   },
+   {
+    "id": "electrode",
+    "text": "Electrode"
+   }
+  ],
+  "pairs": {
+   "p1": "bulb",
+   "p2": "battery",
+   "p3": "electrode",
+   "p4": "cardboard"
+  },
+  "hint": "The rods that dip into the beaker are the electrodes.",
+  "explanation": "1 is the **bulb**, which glows when current flows. 2 is the **9 V battery**, a low-voltage source used for safety. 3 is an **electrode**, one of the two carbon or metal rods that dip into the sample. 4 is the **cardboard** that holds the electrodes apart. No weighing balance is needed in this activity."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Properties of ionic compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which properties do ionic compounds such as sodium chloride and copper sulfate generally show? Select all that apply.",
+  "image": {
+   "src": "/img/atomic/solubility.svg",
+   "alt": "Three test tubes of water, kerosene and petrol, each with a few crystals"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Soluble in water"
+   },
+   {
+    "id": "b",
+    "text": "Conduct electricity in the solid state"
+   },
+   {
+    "id": "c",
+    "text": "Conduct electricity when dissolved in water"
+   },
+   {
+    "id": "d",
+    "text": "High melting and boiling points"
+   },
+   {
+    "id": "e",
+    "text": "Dissolve readily in kerosene and petrol"
+   },
+   {
+    "id": "f",
+    "text": "Exist as separate small molecules"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "d"
+  ],
+  "hint": "Think about Activity 9.4: which solvent dissolves salt, and when does it conduct?",
+  "explanation": "Ionic compounds are generally **soluble in water**, **conduct electricity when dissolved** in water (the ions are free to move) and have **high melting and boiling points** because of strong attractions between ions. They do not conduct as solids, because the ions are fixed, and they do not dissolve in kerosene or petrol. They form crystals of ions, not separate molecules."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Comparing ionic and covalent compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each substance with what you would observe in Activity 9.4.",
+  "image": {
+   "src": "/img/atomic/solubility.svg",
+   "alt": "Three test tubes of water, kerosene and petrol, each with a few crystals"
+  },
+  "left": [
+   {
+    "id": "nacl",
+    "text": "Sodium chloride"
+   },
+   {
+    "id": "sugar",
+    "text": "Sugar"
+   },
+   {
+    "id": "naph",
+    "text": "Naphthalene"
+   },
+   {
+    "id": "cuso4",
+    "text": "Dry copper sulfate crystals"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Does not dissolve in water but dissolves in kerosene"
+   },
+   {
+    "id": "r2",
+    "text": "Conducts electricity in the solid state because its ions move freely"
+   },
+   {
+    "id": "r3",
+    "text": "Does not conduct, because its ions cannot move"
+   },
+   {
+    "id": "r4",
+    "text": "Dissolves in water, and the solution lights the bulb"
+   },
+   {
+    "id": "r5",
+    "text": "Dissolves in water, but the solution does not light the bulb"
+   }
+  ],
+  "pairs": {
+   "nacl": "r4",
+   "sugar": "r5",
+   "naph": "r1",
+   "cuso4": "r3"
+  },
+  "hint": "Sodium chloride is ionic; sugar and naphthalene are covalent. A dry crystal has no free ions.",
+  "explanation": "**Sodium chloride** dissolves in water and its solution lights the bulb. **Sugar** dissolves in water but gives no ions, so the bulb stays off. **Naphthalene**, like camphor, is insoluble in water but dissolves in kerosene and petrol. **Dry copper sulfate crystals** do not conduct because their ions are held in fixed positions."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Bridging Science and Society: nuclear energy",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "How does a nuclear power plant produce electricity?",
+  "image": {
+   "src": "/img/atomic/nuclear-plant.svg",
+   "alt": "A power plant with two cooling towers giving off steam, a reactor dome and a power pylon"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Atoms of the fuel are burnt in air, like coal"
+   },
+   {
+    "id": "b",
+    "text": "Thermal energy from nuclear reactions makes steam that drives turbines"
+   },
+   {
+    "id": "c",
+    "text": "Sunlight trapped in the cooling towers is turned into electricity"
+   },
+   {
+    "id": "d",
+    "text": "Electrons flow straight from the reactor core into the wires"
+   }
+  ],
+  "answer": "b",
+  "hint": "Think about what makes the turbines spin.",
+  "explanation": "Nuclear reactions release enormous energy from the **nuclei** of atoms. This thermal energy turns water into **steam**, which drives **turbines** that generate electricity, a cleaner alternative to burning fossil fuels. Nothing is burnt in air, and the cooling towers release steam, not trapped sunlight. Scientists such as Raja Ramanna developed India's peaceful nuclear energy programme."
+ },
+ {
+  "id": "in-cbse-9-chem-atomic-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Atomic Foundations of Matter",
+  "chapterNo": 3,
+  "topic": "Predicting properties from electron arrangement",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Metal M has two electrons in its valence shell (the M shell). It reacts with oxygen to form a compound that is slightly soluble in water. Which predictions are correct? Select all that apply.",
+  "image": {
+   "src": "/img/atomic/atom-m.svg",
+   "alt": "Shell diagram of a metal atom M with its two outermost electrons glowing"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Its oxide has the formula $\\ce{MO}$"
+   },
+   {
+    "id": "b",
+    "text": "Its oxide has the formula $\\ce{M2O}$"
+   },
+   {
+    "id": "c",
+    "text": "The bond in the oxide is ionic"
+   },
+   {
+    "id": "d",
+    "text": "M forms the ion $\\ce{M^2+}$ by losing two electrons"
+   },
+   {
+    "id": "e",
+    "text": "A solution of the oxide in water does not conduct electricity"
+   },
+   {
+    "id": "f",
+    "text": "M gains two electrons from oxygen"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "d"
+  ],
+  "hint": "M loses 2 electrons; oxygen (2, 6) gains 2.",
+  "explanation": "M (2, 8, 2) loses its two valence electrons to form $\\ce{M^2+}$, and oxygen gains two to form $\\ce{O^2-}$. The equal charges give the formula $\\ce{MO}$ (like MgO) and the bond is **ionic**. The dissolved part gives free ions, so the solution **does** conduct electricity. $\\ce{M2O}$ would need an ion with a 1+ charge, and a metal loses electrons rather than gaining them."
+ }
+]

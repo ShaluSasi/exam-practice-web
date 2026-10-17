@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<title>A glass holding two liquids</title>
+<style>
+.bl{animation:bl 3s ease-in-out infinite}
+@keyframes bl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M53 70L57 110H143L147 70Z" fill="#F6C453"/>
+<path d="M57 110L62 176Q63 182 69 182H131Q137 182 138 176L143 110Z" fill="#CDEBFA"/>
+<path class="bl" d="M57 110Q78 104 100 110T143 110" fill="none" stroke="#D9A21F" stroke-width="3" stroke-linecap="round"/>
+<g fill="#FFFFFF" opacity=".7"><circle cx="80" cy="88" r="5"/><circle cx="118" cy="82" r="4"/></g>
+<path d="M50 40L62 176Q63 182 69 182H131Q137 182 138 176L150 40" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 56L68 160" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

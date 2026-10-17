@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img">
+<title>A dish holding a mixture of sand, salt crystals and white naphthalene balls</title>
+<style>
+.tw circle{animation:tw 2.4s ease-in-out infinite}
+.tw circle:nth-child(2){animation-delay:.8s}.tw circle:nth-child(3){animation-delay:1.6s}
+@keyframes tw{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+.tw circle{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="160" cy="186" rx="120" ry="14" fill="#E3E6F3"/>
+<path d="M30 100Q160 250 290 100Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M44 108Q160 222 276 108Q220 92 160 98Q100 92 44 108Z" fill="#D9C49A"/>
+<g fill="#A88A52"><circle cx="80" cy="120" r="2"/><circle cx="110" cy="140" r="2"/><circle cx="150" cy="150" r="2"/><circle cx="190" cy="138" r="2"/><circle cx="230" cy="124" r="2"/><circle cx="130" cy="118" r="2"/><circle cx="210" cy="152" r="2"/><circle cx="170" cy="124" r="2"/><circle cx="96" cy="128" r="1.6"/><circle cx="248" cy="116" r="1.6"/></g>
+<g fill="#FFFFFF" stroke="#A3A8CC" stroke-width="1.5" stroke-linejoin="round"><rect x="92" y="108" width="9" height="9" transform="rotate(10 96 112)"/><rect x="160" y="136" width="9" height="9" transform="rotate(-12 164 140)"/><rect x="214" y="110" width="9" height="9" transform="rotate(20 218 114)"/><rect x="128" y="150" width="8" height="8"/><rect x="242" y="128" width="8" height="8" transform="rotate(-8 246 132)"/><rect x="66" y="112" width="8" height="8"/></g>
+<g fill="#F7F7FB" stroke="#9FA4C4" stroke-width="2"><circle cx="122" cy="128" r="9"/><circle cx="196" cy="118" r="9"/><circle cx="178" cy="156" r="8"/><circle cx="234" cy="140" r="8"/><circle cx="86" cy="136" r="8"/></g>
+<g fill="#FFFFFF"><circle cx="119" cy="125" r="2.5"/><circle cx="193" cy="115" r="2.5"/><circle cx="175" cy="153" r="2"/><circle cx="231" cy="137" r="2"/><circle cx="83" cy="133" r="2"/></g>
+<g class="tw" fill="#F6C453"><circle cx="100" cy="104" r="3"/><circle cx="220" cy="104" r="3"/><circle cx="168" cy="132" r="3"/></g>
+</svg>

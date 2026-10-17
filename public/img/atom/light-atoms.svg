@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img">
+<title>Four small atoms with their nuclei shown</title>
+<style>
+.r0{transform-origin:55px 95px;animation:sp 5s linear infinite}
+.r1{transform-origin:155px 95px;animation:sp 6s linear infinite}
+.r2{transform-origin:255px 95px;animation:sp 7s linear infinite}
+.r3{transform-origin:355px 95px;animation:sp 8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="55" cy="95" r="40" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="45.5" cy="78.5" r="10" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M40.5 78.5H50.5M45.5 73.5V83.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="64.5" cy="78.5" r="10" fill="#C9CCE3" stroke="#6B7099" stroke-width="2"/><circle cx="55.0" cy="95.0" r="10" fill="#C9CCE3" stroke="#6B7099" stroke-width="2"/><circle cx="45.5" cy="111.5" r="10" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M40.5 111.5H50.5M45.5 106.5V116.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<g class="r0"><circle cx="15.0" cy="95.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/><circle cx="95.0" cy="95.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+<circle cx="155" cy="95" r="40" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="155.0" cy="95.0" r="10" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M150.0 95.0H160.0M155.0 90.0V100.0" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<g class="r1"><circle cx="115.0" cy="95.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+<circle cx="255" cy="95" r="40" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="245.5" cy="78.5" r="10" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M240.5 78.5H250.5M245.5 73.5V83.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="255.0" cy="95.0" r="10" fill="#C9CCE3" stroke="#6B7099" stroke-width="2"/><circle cx="245.5" cy="111.5" r="10" fill="#C9CCE3" stroke="#6B7099" stroke-width="2"/>
+<g class="r2"><circle cx="215.0" cy="95.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+<circle cx="355" cy="95" r="40" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="345.5" cy="78.5" r="10" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M340.5 78.5H350.5M345.5 73.5V83.5" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="355.0" cy="95.0" r="10" fill="#C9CCE3" stroke="#6B7099" stroke-width="2"/>
+<g class="r3"><circle cx="315.0" cy="95.0" r="6" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+</svg>

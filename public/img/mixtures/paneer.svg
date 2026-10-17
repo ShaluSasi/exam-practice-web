@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img">
+<title>Lemon juice being squeezed into a pan of hot milk</title>
+<style>
+.dr circle{animation:dr 1.5s ease-in infinite}
+.dr circle:nth-child(2){animation-delay:.75s}
+@keyframes dr{0%{transform:translateY(0);opacity:1}100%{transform:translateY(52px);opacity:0}}
+.cu path{transform-box:fill-box;transform-origin:center;animation:cu 2.6s ease-in-out infinite alternate}
+@keyframes cu{from{transform:scale(.9)}to{transform:scale(1.08)}}
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fl .7s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scaleY(.8)}to{transform:scaleY(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="56" y="200" width="208" height="18" rx="6" fill="#2B2F4A"/>
+<g class="fl" fill="#0B93D4"><path d="M110 200c-6-6-4-12 0-16 4 4 6 10 0 16z"/><path d="M160 200c-6-6-4-12 0-16 4 4 6 10 0 16z"/><path d="M210 200c-6-6-4-12 0-16 4 4 6 10 0 16z"/></g>
+<path d="M250 132L302 124" stroke="#2B2F4A" stroke-width="9" stroke-linecap="round"/>
+<path d="M70 118H250V168Q250 184 234 184H86Q70 184 70 168Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="160" cy="120" rx="88" ry="10" fill="#EEF2C6" stroke="#6E7396" stroke-width="2"/>
+<g class="cu" fill="#FFFFFF" stroke="#D9D4C4" stroke-width="1.5">
+<path d="M96 120q6-8 14-2 6 6-2 9-10 2-12-7z"/><path d="M130 116q8-7 15 0 4 7-6 8-10 0-9-8z"/><path d="M168 121q6-9 14-3 6 6-3 8-9 2-11-5z"/><path d="M204 116q8-6 14 1 3 6-6 7-9 0-8-8z"/><path d="M150 124q5-5 10 0 2 4-5 4-6 0-5-4z"/>
+</g>
+<g transform="rotate(-25 128 50)">
+<path d="M98 50A30 30 0 0 0 158 50Z" fill="#F6C453" stroke="#C99A1E" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M104 50A24 24 0 0 0 152 50Z" fill="#FFF0A8"/>
+<path d="M128 50V72M128 50L112 66M128 50L144 66" stroke="#F6C453" stroke-width="2"/>
+</g>
+<g class="dr" fill="#F1E07A" stroke="#C99A1E" stroke-width="1"><circle cx="142" cy="66" r="3.5"/><circle cx="146" cy="62" r="3"/></g>
+</svg>

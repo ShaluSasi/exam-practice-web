@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img">
+<title>Bar chart of the boiling points of five liquids</title>
+<style>
+.hl rect{animation:hl 3s ease-in-out infinite}
+.hl rect:nth-child(2){animation-delay:.4s}.hl rect:nth-child(3){animation-delay:.8s}.hl rect:nth-child(4){animation-delay:1.2s}.hl rect:nth-child(5){animation-delay:1.6s}
+@keyframes hl{0%,100%{opacity:.15}50%{opacity:.6}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#E3E6F3" stroke-width="1.5"><path d="M60 208H410M60 176H410M60 144H410M60 112H410M60 80H410M60 48H410"/></g>
+<g stroke-width="2.5" stroke-linejoin="round">
+<rect x="80" y="80" width="44" height="160" fill="#0B93D4" stroke="#075E88"/>
+<rect x="150" y="150.4" width="44" height="89.6" fill="#FF8A1F" stroke="#B85E0E"/>
+<rect x="220" y="115.2" width="44" height="124.8" fill="#3FA34D" stroke="#2A7034"/>
+<rect x="290" y="142.4" width="44" height="97.6" fill="#A28BE0" stroke="#6C55A8"/>
+<rect x="360" y="112" width="44" height="128" fill="#F6C453" stroke="#B88A1C"/>
+</g>
+<g class="hl" fill="#FFFFFF"><rect x="86" y="86" width="8" height="148" rx="3"/><rect x="156" y="156" width="8" height="78" rx="3"/><rect x="226" y="121" width="8" height="113" rx="3"/><rect x="296" y="148" width="8" height="86" rx="3"/><rect x="366" y="118" width="8" height="116" rx="3"/></g>
+<path d="M60 240H412M60 240V40" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="102" y="74">100</text><text x="172" y="144">56</text><text x="242" y="109">78</text><text x="312" y="136">61</text><text x="382" y="106">80</text>
+<text x="102" y="258">Water</text><text x="172" y="258">Acetone</text><text x="242" y="258">Alcohol</text><text x="312" y="258">Chloroform</text><text x="382" y="258">Benzene</text>
+<g text-anchor="end"><text x="54" y="244">0</text><text x="54" y="212">20</text><text x="54" y="180">40</text><text x="54" y="148">60</text><text x="54" y="116">80</text><text x="54" y="84">100</text><text x="54" y="52">120</text></g>
+<text transform="translate(20 140) rotate(-90)">Boiling point (°C)</text>
+</g>
+</svg>

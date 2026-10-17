@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img">
+<title>A tiny central nucleus with electrons moving in orbits around it</title>
+<style>
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="120" cy="120" rx="96" ry="34" transform="rotate(0 120 120)" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<ellipse cx="120" cy="120" rx="96" ry="34" transform="rotate(60 120 120)" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<ellipse cx="120" cy="120" rx="96" ry="34" transform="rotate(120 120 120)" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="120" cy="120" r="7" fill="#E5484D" stroke="#A8282C" stroke-width="2"/>
+<g transform="rotate(0 120 120)"><circle r="6.5" fill="#0B93D4" stroke="#075E88" stroke-width="2"><animateMotion dur="3s" repeatCount="indefinite" path="M24 120a96 34 0 1 0 192 0a96 34 0 1 0 -192 0"/></circle></g>
+<g transform="rotate(60 120 120)"><circle r="6.5" fill="#0B93D4" stroke="#075E88" stroke-width="2"><animateMotion dur="4s" repeatCount="indefinite" path="M24 120a96 34 0 1 0 192 0a96 34 0 1 0 -192 0"/></circle></g>
+<g transform="rotate(120 120 120)"><circle r="6.5" fill="#0B93D4" stroke="#075E88" stroke-width="2"><animateMotion dur="5s" repeatCount="indefinite" path="M24 120a96 34 0 1 0 192 0a96 34 0 1 0 -192 0"/></circle></g>
+</svg>

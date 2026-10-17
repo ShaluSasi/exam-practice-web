@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img">
+<title>Orange juice concentrate being spooned into a glass of water</title>
+<style>
+.dr circle{animation:dr 1.4s ease-in infinite}
+.dr circle:nth-child(2){animation-delay:.7s}
+@keyframes dr{0%{transform:translateY(0);opacity:1}100%{transform:translateY(70px);opacity:0}}
+.sw{animation:sw 3s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-4px)}to{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="44" y="56" width="22" height="20" rx="3" fill="#E5484D" stroke="#9C2A2E" stroke-width="2"/>
+<path d="M44 76H66V90Q84 98 84 116V222Q84 230 76 230H34Q26 230 26 222V116Q26 98 44 90Z" fill="#FF8A1F" stroke="#B85E0E" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="55" cy="160" r="18" fill="#F6C453" stroke="#B85E0E" stroke-width="2"/>
+<path d="M55 142V178M37 160H73M42 147L68 173M68 147L42 173" stroke="#FF8A1F" stroke-width="1.5"/>
+<path d="M120 70Q150 60 182 70" stroke="#A3A8CC" stroke-width="6" stroke-linecap="round" fill="none"/>
+<ellipse cx="200" cy="74" rx="20" ry="9" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<ellipse cx="200" cy="74" rx="14" ry="5" fill="#FF8A1F"/>
+<g class="dr" fill="#FF8A1F"><circle cx="214" cy="84" r="3.5"/><circle cx="212" cy="86" r="3"/></g>
+<path d="M176 138L184 226Q185 232 191 232H253Q259 232 260 226L268 138Z" fill="#FFC27A"/>
+<path class="sw" d="M176 138Q198 132 222 138T268 138" fill="none" stroke="#FF8A1F" stroke-width="2.5"/>
+<path d="M172 108L184 226Q185 232 191 232H253Q259 232 260 226L272 108" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"><path d="M262 140H254M263 160H255M264 180H256M266 200H258"/></g>
+<path d="M182 120L190 216" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

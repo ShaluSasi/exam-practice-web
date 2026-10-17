@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>A laser beam passing through three beakers of different mixtures</title>
+<style>
+.glow{animation:gl 2.4s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.55}50%{opacity:1}}
+.dr{animation:dr 5s linear infinite}
+@keyframes dr{from{transform:translateY(-6px)}to{transform:translateY(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="8" y="122" width="44" height="16" rx="6" fill="#2B2F4A"/>
+<rect x="46" y="125" width="8" height="10" rx="2" fill="#A3A8CC"/>
+<circle cx="18" cy="130" r="3" fill="#E5484D"/>
+<path d="M56 130H82M178 130H202M298 130H322M418 130H470" stroke="#E5484D" stroke-width="1.5" stroke-dasharray="3 5" opacity=".6"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M85 100H175V204Q175 210 169 210H91Q85 210 85 204Z" fill="#DFF1FB" stroke="none"/>
+<path d="M205 100H295V204Q295 210 289 210H211Q205 210 205 204Z" fill="#E7E3DA" stroke="none"/>
+<path d="M325 100H415V204Q415 210 409 210H331Q325 210 325 204Z" fill="#F4F1EA" stroke="none"/>
+</g>
+<g class="dr" fill="#B9AE98">
+<circle cx="220" cy="120" r="2.5"/><circle cx="246" cy="146" r="2"/><circle cx="270" cy="114" r="2.5"/><circle cx="232" cy="172" r="2"/><circle cx="284" cy="160" r="2.5"/><circle cx="258" cy="186" r="2"/><circle cx="214" cy="150" r="2"/>
+</g>
+<path d="M207 207H293" stroke="#B9AE98" stroke-width="5" stroke-linecap="round"/>
+<rect class="glow" x="205" y="126" width="90" height="8" fill="#E5484D" opacity=".85"/>
+<rect class="glow" x="325" y="126" width="90" height="8" fill="#FF6B70" opacity=".7"/>
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M80 70H180M85 70V204Q85 210 91 210H169Q175 210 175 204V70"/>
+<path d="M200 70H300M205 70V204Q205 210 211 210H289Q295 210 295 204V70"/>
+<path d="M320 70H420M325 70V204Q325 210 331 210H409Q415 210 415 204V70"/>
+</g>
+<g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".7"><path d="M94 82V196M214 82V196M334 82V196"/></g>
+<g font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="130" y="240">A</text><text x="250" y="240">B</text><text x="370" y="240">C</text>
+</g>
+</svg>

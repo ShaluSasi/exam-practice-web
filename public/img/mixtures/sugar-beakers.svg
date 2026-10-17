@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img">
+<title>Three beakers of water labelled P, Q and R with heaps of sugar beside them</title>
+<style>
+.tw circle{animation:tw 2.4s ease-in-out infinite}
+.tw circle:nth-child(2){animation-delay:.8s}.tw circle:nth-child(3){animation-delay:1.6s}
+@keyframes tw{0%,100%{opacity:0}50%{opacity:1}}
+.wv{animation:wv 3s ease-in-out infinite alternate}
+@keyframes wv{from{transform:translateX(-3px)}to{transform:translateX(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g fill="#DFF1FB">
+<path d="M21 112H89V194Q89 199 84 199H26Q21 199 21 194Z"/>
+<path d="M176 154H244V194Q244 199 239 199H181Q176 199 176 194Z"/>
+<path d="M331 68H399V194Q399 199 394 199H336Q331 199 331 194Z"/>
+</g>
+<g class="wv" stroke="#7CC4EA" stroke-width="2" fill="none"><path d="M22 112Q38 108 55 112T88 112"/><path d="M177 154Q193 150 210 154T243 154"/><path d="M332 68Q348 64 365 68T398 68"/></g>
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M15 48H95M20 48V194Q20 200 26 200H84Q90 200 90 194V48"/>
+<path d="M170 48H250M175 48V194Q175 200 181 200H239Q245 200 245 194V48"/>
+<path d="M325 48H405M330 48V194Q330 200 336 200H394Q400 200 400 194V48"/>
+</g>
+<g fill="#A3A8CC" stroke="#6E7396" stroke-width="2"><ellipse cx="125" cy="196" rx="28" ry="6"/><ellipse cx="280" cy="196" rx="28" ry="6"/><ellipse cx="435" cy="196" rx="30" ry="6"/></g>
+<g fill="#FFFFFF" stroke="#C9CBD9" stroke-width="2" stroke-linejoin="round">
+<path d="M105 194Q125 168 145 194Z"/><path d="M262 194Q280 170 298 194Z"/><path d="M409 194Q435 156 461 194Z"/>
+</g>
+<g class="tw" fill="#F6C453"><circle cx="120" cy="184" r="2"/><circle cx="284" cy="186" r="2"/><circle cx="440" cy="176" r="2"/></g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="125" y="160">20 g</text><text x="280" y="160">18 g</text><text x="435" y="146">30 g</text>
+<text x="55" y="186">80 g</text><text x="210" y="186">42 g</text><text x="365" y="186">120 g</text>
+<g font-size="18"><text x="55" y="228">P</text><text x="210" y="228">Q</text><text x="365" y="228">R</text></g>
+</g>
+</svg>

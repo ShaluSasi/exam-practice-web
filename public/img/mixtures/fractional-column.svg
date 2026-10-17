@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 340" role="img">
+<title>A fractionating column separating crude oil into fractions</title>
+<defs><linearGradient id="tw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CDEBFA"/><stop offset="1" stop-color="#FFD2A6"/></linearGradient></defs>
+<style>
+.up circle{animation:up 3s linear infinite}
+.up circle:nth-child(2){animation-delay:-1s}.up circle:nth-child(3){animation-delay:-2s}
+@keyframes up{0%{transform:translateY(0);opacity:0}15%{opacity:.9}100%{transform:translateY(-230px);opacity:0}}
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fl .7s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scaleY(.8)}to{transform:scaleY(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="130" y="24" width="80" height="282" rx="14" fill="url(#tw)" stroke="#2B2F4A" stroke-width="2.5"/>
+<g stroke="#6E7396" stroke-width="2" stroke-dasharray="5 4"><path d="M138 66H202M138 111H202M138 156H202M138 201H202M138 246H202"/></g>
+<g class="up" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="1.5"><circle cx="152" cy="290" r="4"/><circle cx="172" cy="290" r="3.5"/><circle cx="190" cy="290" r="4"/></g>
+<g stroke="#2B2F4A" stroke-width="8" stroke-linecap="round"><path d="M210 55H262M210 100H262M210 145H262M210 190H262M210 235H262M210 280H262"/></g>
+<g stroke="#A3A8CC" stroke-width="4" stroke-linecap="round"><path d="M210 55H262M210 100H262M210 145H262M210 190H262M210 235H262M210 280H262"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<rect x="264" y="44" width="44" height="22" rx="8" fill="#E3F2FD"/>
+<rect x="264" y="89" width="44" height="22" rx="8" fill="#FFF3C4"/>
+<rect x="264" y="134" width="44" height="22" rx="8" fill="#FBE3A8"/>
+<rect x="264" y="179" width="44" height="22" rx="8" fill="#F6C453"/>
+<rect x="264" y="224" width="44" height="22" rx="8" fill="#D9A04A"/>
+<rect x="264" y="269" width="44" height="22" rx="8" fill="#5A4636"/>
+</g>
+<rect x="30" y="262" width="78" height="54" rx="8" fill="#E5484D" stroke="#9C2A2E" stroke-width="2.5"/>
+<path d="M42 276H96M42 292H96" stroke="#9C2A2E" stroke-width="2"/>
+<rect x="50" y="296" width="38" height="18" rx="4" fill="#2B2F4A"/>
+<path class="fl" d="M69 298C61 306 62 312 69 314C76 312 77 306 69 298Z" fill="#F6C453"/>
+<path d="M108 290H130M10 300H30" stroke="#2B2F4A" stroke-width="9" stroke-linecap="round"/>
+<path d="M108 290H130M10 300H30" stroke="#5A4636" stroke-width="5" stroke-linecap="round"/>
+</svg>

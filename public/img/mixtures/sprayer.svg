@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img">
+<title>A pesticide spray tank spraying a fine mist over rice plants</title>
+<style>
+.mist circle{animation:mi 1.6s ease-out infinite}
+.mist circle:nth-child(2n){animation-delay:.5s}.mist circle:nth-child(3n){animation-delay:1s}
+@keyframes mi{0%{transform:translate(0,0);opacity:0}20%{opacity:1}100%{transform:translate(30px,46px);opacity:0}}
+.sw{transform-box:fill-box;transform-origin:50% 100%;animation:sw 2.5s ease-in-out infinite alternate}
+@keyframes sw{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="222" width="320" height="38" fill="#CDEBFA"/>
+<rect x="34" y="60" width="90" height="140" rx="22" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M36 120H122V178Q122 198 102 198H56Q36 198 36 178Z" fill="#C9E8C1"/>
+<rect x="64" y="46" width="30" height="16" rx="5" fill="#E5484D" stroke="#9C2A2E" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="1.8" stroke-linecap="round"><path d="M110 90H122M114 110H122M110 130H122M114 150H122M110 170H122"/></g>
+<path d="M60 200V212M98 200V212" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 186Q150 196 156 150L196 96" fill="none" stroke="#3FA34D" stroke-width="5" stroke-linecap="round"/>
+<path d="M196 96L214 84" stroke="#6E7396" stroke-width="7" stroke-linecap="round"/>
+<g class="mist" fill="#7CC4EA"><circle cx="218" cy="86" r="2.5"/><circle cx="222" cy="80" r="2"/><circle cx="220" cy="92" r="2"/><circle cx="226" cy="86" r="2.5"/><circle cx="216" cy="94" r="2"/><circle cx="230" cy="80" r="2"/></g>
+<g class="sw" fill="none" stroke="#3FA34D" stroke-width="3.5" stroke-linecap="round">
+<path d="M220 226Q214 190 200 168M226 226Q228 186 222 160M232 226Q242 192 254 172"/>
+<path d="M264 226Q258 190 246 170M270 226Q272 186 268 158M276 226Q286 194 298 176"/>
+</g>
+<g fill="#F6C453"><ellipse cx="222" cy="160" rx="3" ry="6"/><ellipse cx="268" cy="158" rx="3" ry="6"/></g>
+</svg>

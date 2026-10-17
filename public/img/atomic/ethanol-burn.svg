@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>A liquid fuel burning with a blue flame in an open beaker</title>
+<style>
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fl .9s ease-in-out infinite alternate}@keyframes fl{0%{transform:scale(1,1)}100%{transform:scale(.9,1.12)}}.gas{animation:gas 3s ease-in infinite}.g2{animation-delay:1s}.g3{animation-delay:2s}@keyframes gas{0%{transform:translateY(0);opacity:0}30%{opacity:.9}100%{transform:translateY(-60px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="210" width="300" height="50" fill="#D9C49A"/><path d="M96 150V202Q96 210 104 210H196Q204 210 204 202V150" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="3"/><rect x="99" y="178" width="102" height="29" fill="#EAF6FF"/><g class="fl"><path d="M150 176C118 150 134 118 150 92C166 118 182 150 150 176Z" fill="#7FB7F0" stroke="#3E7CC0" stroke-width="2.5"/><path d="M150 172C134 154 140 134 150 118C160 134 166 154 150 172Z" fill="#FFD27A"/></g><path class="gas " d="M126 84q-8-10 0-20t0-20" fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"/><path class="gas g2" d="M150 84q-8-10 0-20t0-20" fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"/><path class="gas g3" d="M174 84q-8-10 0-20t0-20" fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"/>
+</svg>

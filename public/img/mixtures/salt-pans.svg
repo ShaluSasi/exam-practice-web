@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img">
+<title>Shallow salt pans beside the sea under a hot sun</title>
+<style>
+.sun{transform-box:fill-box;transform-origin:center;animation:sun 10s linear infinite}
+@keyframes sun{to{transform:rotate(360deg)}}
+.wv{animation:wv 2.5s ease-in-out infinite alternate}
+@keyframes wv{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.ev path{animation:ev 3s ease-out infinite}
+.ev path:nth-child(2){animation-delay:1s}.ev path:nth-child(3){animation-delay:2s}
+@keyframes ev{0%{transform:translateY(0);opacity:0}30%{opacity:.8}100%{transform:translateY(-30px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H404V130H16Z" fill="#E3F2FD"/>
+<g class="sun"><g stroke="#F6C453" stroke-width="4" stroke-linecap="round"><path d="M360 18V8M360 72V82M333 45H323M387 45H397M341 26L334 19M379 64L386 71M379 26L386 19M341 64L334 71"/></g><circle cx="360" cy="45" r="20" fill="#F6C453" stroke="#D9A21F" stroke-width="2.5"/></g>
+<path d="M16 130H404V224Q404 228 400 228H20Q16 228 16 224Z" fill="#D9C49A"/>
+<path d="M16 110H96V228H20Q16 228 16 224Z" fill="#0B93D4"/>
+<path class="wv" d="M10 116Q26 108 42 116T74 116T106 116" fill="none" stroke="#CDEBFA" stroke-width="3" stroke-linecap="round"/>
+<g stroke="#A88A52" stroke-width="3" stroke-linejoin="round">
+<rect x="110" y="150" width="86" height="56" rx="4" fill="#7CC4EA"/>
+<rect x="210" y="150" width="86" height="56" rx="4" fill="#B9DDF0"/>
+<rect x="310" y="150" width="86" height="56" rx="4" fill="#E9EEF4"/>
+</g>
+<g class="ev" fill="none" stroke="#A3A8CC" stroke-width="2.5" stroke-linecap="round"><path d="M140 144q-4-6 0-12t0-12"/><path d="M168 144q-4-6 0-12t0-12"/><path d="M252 144q-4-6 0-12t0-12"/></g>
+<g fill="#FFFFFF" stroke="#C9CBD9" stroke-width="1.5" stroke-linejoin="round"><path d="M316 202Q334 168 352 202Z"/><path d="M350 202Q370 162 390 202Z"/></g>
+<g fill="#FFFFFF" stroke="#C9CBD9" stroke-width="1"><rect x="230" y="180" width="5" height="5"/><rect x="250" y="190" width="5" height="5"/><rect x="268" y="178" width="5" height="5"/><rect x="242" y="168" width="4" height="4"/></g>
+<path d="M96 178H110M196 178H210M296 178H310" stroke="#0B93D4" stroke-width="4" stroke-linecap="round"/>
+<g fill="#2B2F4A"><circle cx="330" cy="132" r="7" fill="#C8925A"/><path d="M324 140H336L338 166H322Z" fill="#E5484D"/><path d="M338 146L362 170" stroke="#8A5A2B" stroke-width="3"/><path d="M356 172H370" stroke="#8A5A2B" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

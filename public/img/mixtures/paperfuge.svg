@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img">
+<title>A hand-pulled paper disc spinning on strings with a small tube taped to it</title>
+<style>
+.disc{transform-box:fill-box;transform-origin:center;animation:sp .9s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.pl{animation:pl 1.2s ease-in-out infinite alternate}
+@keyframes pl{from{transform:translateX(0)}to{transform:translateX(-10px)}}
+.pr{animation:pr 1.2s ease-in-out infinite alternate}
+@keyframes pr{from{transform:translateX(0)}to{transform:translateX(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="pl">
+<path d="M50 112L150 118M50 128L150 122" stroke="#8C6A2F" stroke-width="2"/>
+<rect x="36" y="96" width="14" height="48" rx="6" fill="#C8925A" stroke="#8A5A2B" stroke-width="2.5"/>
+<path d="M20 108Q10 120 20 132L34 132V108Z" fill="#F2C9A0" stroke="#B07A4A" stroke-width="2"/>
+</g>
+<g class="pr">
+<path d="M270 112L170 118M270 128L170 122" stroke="#8C6A2F" stroke-width="2"/>
+<rect x="270" y="96" width="14" height="48" rx="6" fill="#C8925A" stroke="#8A5A2B" stroke-width="2.5"/>
+<path d="M300 108Q310 120 300 132L286 132V108Z" fill="#F2C9A0" stroke="#B07A4A" stroke-width="2"/>
+</g>
+<g class="disc">
+<circle cx="160" cy="120" r="56" fill="#FBE3A8" stroke="#B88A1C" stroke-width="3"/>
+<circle cx="160" cy="120" r="44" fill="none" stroke="#E8C976" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="170" y="114" width="40" height="12" rx="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="196" y="115.5" width="12" height="9" rx="4" fill="#B8323D"/>
+<rect x="176" y="115.5" width="20" height="9" fill="#F6D77A"/>
+<rect x="182" y="110" width="12" height="20" fill="#CDEBFA" opacity=".7"/>
+<circle cx="154" cy="117" r="2.5" fill="#2B2F4A"/><circle cx="154" cy="123" r="2.5" fill="#2B2F4A"/>
+</g>
+</svg>

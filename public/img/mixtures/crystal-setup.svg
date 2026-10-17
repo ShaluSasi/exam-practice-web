@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img">
+<title>A beaker of blue solution being heated in a water bath and stirred</title>
+<style>
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fl .8s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scaleY(.85)}to{transform:scaleY(1.1)}}
+.rod{transform-origin:180px 175px;animation:rd 2s ease-in-out infinite alternate}
+@keyframes rd{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+.st{animation:st 3s ease-out infinite}
+@keyframes st{0%{transform:translateY(0);opacity:0}30%{opacity:.8}100%{transform:translateY(-40px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="st" fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round">
+<path d="M115 132q-6-10 0-18t0-18"/><path d="M248 132q-6-10 0-18t0-18"/>
+</g>
+<path d="M110 190L94 266M250 190L266 266" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<path d="M98 190H262" stroke="#6E7396" stroke-width="6" stroke-linecap="round"/>
+<path class="fl" d="M180 188C168 204 170 214 180 220C190 214 192 204 180 188Z" fill="#FF8A1F"/>
+<path d="M180 200C175 208 176 214 180 218C184 214 185 208 180 200Z" fill="#F6C453"/>
+<rect x="170" y="222" width="20" height="36" rx="3" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<rect x="150" y="256" width="60" height="10" rx="4" fill="#6E7396"/>
+<path d="M96 140V184Q96 188 100 188H260Q264 188 264 184V140" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M97 150H263" stroke="#0B93D4" stroke-width="1.5" opacity=".6"/>
+<path d="M146 122H214V180Q214 184 210 184H150Q146 184 146 180Z" fill="#3D9BE0"/>
+<g class="rod"><path d="M196 56L172 176" stroke="#BFD9EA" stroke-width="6" stroke-linecap="round"/><path d="M196 56L172 176" stroke="#2B2F4A" stroke-width="1.2" stroke-linecap="round" opacity=".5"/></g>
+<path d="M146 92V180Q146 184 150 184H210Q214 184 214 180V92M140 90H220" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M153 100V174" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+</svg>

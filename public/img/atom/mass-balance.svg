@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A balance with four small atoms on one pan and one bigger atom on the other</title>
+<style>
+.bm{transform-origin:200px 70px;animation:wb 3s ease-in-out infinite}@keyframes wb{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M200 70V200M160 210h80" stroke="#8A5A2B" stroke-width="6" stroke-linecap="round"/>
+<g class="bm"><path d="M70 70H330" stroke="#C8925A" stroke-width="7" stroke-linecap="round"/>
+<path d="M90 70L58 130M90 70L122 130M310 70L278 130M310 70L342 130" stroke="#6B7099" stroke-width="2"/>
+<path d="M50 130h80q-6 14 -40 14t-40 -14zM270 130h80q-6 14 -40 14t-40 -14z" fill="#A3A8CC" stroke="#6B7099" stroke-width="2.5"/>
+<circle cx="68" cy="116" r="10" fill="none" stroke="#8A90C0" stroke-width="1.5"/><circle cx="68.0" cy="116.0" r="5.5" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M65.2 116.0H70.8M68.0 113.2V118.8" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="90" cy="116" r="10" fill="none" stroke="#8A90C0" stroke-width="1.5"/><circle cx="90.0" cy="116.0" r="5.5" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M87.2 116.0H92.8M90.0 113.2V118.8" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="112" cy="116" r="10" fill="none" stroke="#8A90C0" stroke-width="1.5"/><circle cx="112.0" cy="116.0" r="5.5" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M109.2 116.0H114.8M112.0 113.2V118.8" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="90" cy="96" r="10" fill="none" stroke="#8A90C0" stroke-width="1.5"/><circle cx="90.0" cy="96.0" r="5.5" fill="#E5484D" stroke="#A8282C" stroke-width="2"/><path d="M87.2 96.0H92.8M90.0 93.2V98.8" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<circle cx="310" cy="102" r="22" fill="none" stroke="#8A90C0" stroke-width="1.5"/><circle cx="310" cy="102" r="13" fill="#F8B4B6" stroke="#E5484D" stroke-width="2.5"/><text x="310" y="108" font-size="16" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" fill="#A8282C">?</text>
+</g>
+<circle cx="200" cy="70" r="7" fill="#2B2F4A"/>
+</svg>

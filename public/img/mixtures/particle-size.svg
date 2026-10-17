@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" role="img">
+<title>Three magnified views of particles of different sizes in water</title>
+<style>
+.j1{animation:j 1.2s ease-in-out infinite alternate}
+.j2{animation:j 2s ease-in-out infinite alternate}
+.j3{animation:k 3s ease-in-out infinite alternate}
+@keyframes j{from{transform:translate(-1.5px,1px)}to{transform:translate(1.5px,-1px)}}
+@keyframes k{from{transform:translateY(-3px)}to{transform:translateY(5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#6E7396" stroke-width="10" stroke-linecap="round"><path d="M120 132L146 162M250 132L276 162M380 132L404 160"/></g>
+<g fill="#E3F2FD" stroke="#2B2F4A" stroke-width="4"><circle cx="80" cy="90" r="56"/><circle cx="210" cy="90" r="56"/><circle cx="340" cy="90" r="56"/></g>
+<g class="j1" fill="#0B93D4"><circle cx="60" cy="70" r="1.2"/><circle cx="76" cy="62" r="1.2"/><circle cx="96" cy="74" r="1.2"/><circle cx="66" cy="92" r="1.2"/><circle cx="86" cy="88" r="1.2"/><circle cx="104" cy="100" r="1.2"/><circle cx="58" cy="110" r="1.2"/><circle cx="78" cy="116" r="1.2"/><circle cx="94" cy="122" r="1.2"/><circle cx="110" cy="80" r="1.2"/><circle cx="48" cy="88" r="1.2"/><circle cx="82" cy="104" r="1.2"/></g>
+<g class="j2" fill="#A28BE0" stroke="#6C55A8" stroke-width="1"><circle cx="188" cy="70" r="4"/><circle cx="214" cy="60" r="4"/><circle cx="236" cy="80" r="4"/><circle cx="196" cy="96" r="4"/><circle cx="222" cy="104" r="4"/><circle cx="182" cy="118" r="4"/><circle cx="208" cy="126" r="4"/><circle cx="240" cy="112" r="4"/></g>
+<g class="j3" fill="#C8925A" stroke="#8A5A2B" stroke-width="2" stroke-linejoin="round"><path d="M312 70l14-6 8 10-6 12-14-2z"/><path d="M346 86l16-4 6 14-12 8-10-6z"/><path d="M318 112l12-6 10 8-4 12-14 0z"/></g>
+<g fill="#FFFFFF" opacity=".6"><path d="M48 60a40 40 0 0 1 24-16" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M178 60a40 40 0 0 1 24-16" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M308 60a40 40 0 0 1 24-16" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+</svg>

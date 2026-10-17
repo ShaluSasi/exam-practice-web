@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A grain being divided again and again, and tiny particles joined in groups</title>
+<style>
+.sl{animation:sl 3s ease-in-out infinite alternate}@keyframes sl{from{transform:translateX(0)}to{transform:translateX(-6px)}}.sr{animation:sr 3s ease-in-out infinite alternate}@keyframes sr{from{transform:translateX(0)}to{transform:translateX(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="50" cy="90" rx="30" ry="18" fill="#F6C453" stroke="#B8892A" stroke-width="3"/>
+<path d="M90 90h22M106 84l6 6l-6 6" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<g class="sl"><path d="M150 72a16 18 0 0 0 0 36z" fill="#F6C453" stroke="#B8892A" stroke-width="3"/></g>
+<g class="sr"><path d="M156 72a16 18 0 0 1 0 36z" fill="#F6C453" stroke="#B8892A" stroke-width="3"/></g>
+<path d="M186 90h22M202 84l6 6l-6 6" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="228" cy="80" r="6" fill="#F6C453" stroke="#B8892A" stroke-width="2.5"/>
+<circle cx="244" cy="80" r="6" fill="#F6C453" stroke="#B8892A" stroke-width="2.5"/>
+<circle cx="228" cy="100" r="6" fill="#F6C453" stroke="#B8892A" stroke-width="2.5"/>
+<circle cx="244" cy="100" r="6" fill="#F6C453" stroke="#B8892A" stroke-width="2.5"/>
+<path d="M262 90h22M278 84l6 6l-6 6" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="310" cy="90" r="3" fill="#2B2F4A"/>
+<path d="M60 150h280" stroke="#A3A8CC" stroke-width="2" stroke-dasharray="4 5"/>
+<path d="M110 186h22" stroke="#2B2F4A" stroke-width="3"/><circle cx="110" cy="186" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/><circle cx="132" cy="186" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/>
+<path d="M260 196l14 -22l14 22z" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="260" cy="196" r="8" fill="#3FA34D" stroke="#256B2E" stroke-width="2.5"/><circle cx="274" cy="174" r="8" fill="#3FA34D" stroke="#256B2E" stroke-width="2.5"/><circle cx="288" cy="196" r="8" fill="#3FA34D" stroke="#256B2E" stroke-width="2.5"/>
+</svg>

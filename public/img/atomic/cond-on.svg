@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A beaker of solution with two electrodes connected to a battery and a glowing bulb</title>
+<style>
+.ray{animation:ray 1.2s ease-in-out infinite alternate}@keyframes ray{0%{opacity:.3}100%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g fill="none" stroke="#E5484D" stroke-width="3" stroke-linejoin="round"><path d="M85 102V128H182V142"/><path d="M218 142V128H312V112"/><path d="M85 60V30H345V104H322"/></g><rect x="50" y="60" width="70" height="42" rx="6" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/><rect x="62" y="52" width="12" height="8" fill="#2B2F4A"/><rect x="96" y="52" width="12" height="8" fill="#2B2F4A"/><text x="85" y="87" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >9 V</text><rect x="142" y="196" width="116" height="74" fill="#CDEBFA"/><path d="M140 168V262Q140 272 150 272H250Q260 272 260 262V168" fill="none" stroke="#2B2F4A" stroke-width="3"/><rect x="118" y="158" width="164" height="12" rx="3" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/><rect x="178" y="142" width="8" height="110" rx="2" fill="#4A4F6A"/><rect x="214" y="142" width="8" height="110" rx="2" fill="#4A4F6A"/><g class="ray" stroke="#F6C453" stroke-width="4" stroke-linecap="round"><path d="M310 26V12M276 40L266 30M344 40L354 30M268 70H254M352 70H366"/></g><circle cx="310" cy="70" r="26" fill="#FFE58A" stroke="#2B2F4A" stroke-width="2.5"/><rect x="300" y="94" width="20" height="18" rx="3" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/><path d="M302 78Q310 62 318 78" fill="none" stroke="#E5484D" stroke-width="2.5"/>
+</svg>

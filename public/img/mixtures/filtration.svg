@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" role="img">
+<title>A filtration set-up with a funnel, filter paper and beaker</title>
+<style>
+.drip{animation:dp 1.6s ease-in infinite}
+@keyframes dp{0%{transform:translateY(0);opacity:1}80%{opacity:1}100%{transform:translateY(54px);opacity:0}}
+.rip{transform-box:fill-box;transform-origin:center;animation:rp 1.6s ease-out infinite}
+@keyframes rp{0%,70%{transform:scale(.2);opacity:0}85%{opacity:.8}100%{transform:scale(1);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="18" y="316" width="110" height="12" rx="4" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<path d="M40 316V28" stroke="#6E7396" stroke-width="6" stroke-linecap="round"/>
+<path d="M40 74H112" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<path d="M105 62H215L168 150V222H152V150Z" fill="#EEF7FC" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M114 66H206L161 146H159Z" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2" stroke-linejoin="round"/>
+<path d="M128.6 92H191.4L175.6 120H144.4Z" fill="#D8C29A"/>
+<path d="M144.4 120H175.6L160.6 145H159.4Z" fill="#8A6A3A"/>
+<g fill="#6B4E26"><circle cx="152" cy="125" r="2"/><circle cx="163" cy="128" r="2"/><circle cx="158" cy="135" r="2"/><circle cx="168" cy="123" r="1.8"/></g>
+<path d="M110 236V312Q110 320 118 320H202Q210 320 210 312V236M104 232H216" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M111 286H209V312Q209 319 202 319H118Q111 319 111 312Z" fill="#CDEBFA"/>
+<ellipse class="rip" cx="160" cy="286" rx="14" ry="3" fill="none" stroke="#0B93D4" stroke-width="1.5"/>
+<circle class="drip" cx="160" cy="228" r="3.5" fill="#7CC4EA"/>
+<path d="M118 244V306" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

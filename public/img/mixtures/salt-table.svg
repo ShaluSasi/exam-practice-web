@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 236" role="img">
+<title>Table of solubilities of four salts at different temperatures</title>
+<style>
+.hg{animation:hg 4s ease-in-out infinite alternate}
+@keyframes hg{from{transform:translateX(0)}to{transform:translateX(230px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="14" y="44" width="432" height="180" rx="10" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M24 44H436Q446 44 446 54V78H14V54Q14 44 24 44Z" fill="#CDEBFA"/>
+<rect class="hg" x="170" y="46" width="46" height="31" fill="#F6C453" opacity=".45"/>
+<rect x="15" y="114" width="430" height="36" fill="#FFF3D9"/>
+<rect x="15" y="186" width="430" height="36" fill="#FFF3D9"/>
+<path d="M14 78H446M170 44V224" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M216 44V224M262 44V224M308 44V224M354 44V224M400 44V224" stroke="#D5D8EA" stroke-width="1.5"/>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">
+<text x="230" y="30" text-anchor="middle" font-size="14">Solubility (g per 100 g of water)</text>
+<text x="26" y="66">Salt  /  Temperature</text>
+<g text-anchor="middle"><text x="193" y="66">10 °C</text><text x="239" y="66">20 °C</text><text x="285" y="66">30 °C</text><text x="331" y="66">40 °C</text><text x="377" y="66">60 °C</text><text x="423" y="66">80 °C</text></g>
+<text x="24" y="101">Potassium nitrate</text><text x="24" y="137">Sodium chloride</text><text x="24" y="173">Potassium chloride</text><text x="24" y="209">Ammonium chloride</text>
+<g text-anchor="middle" font-weight="500">
+<text x="193" y="101">21</text><text x="239" y="101">32</text><text x="285" y="101">45</text><text x="331" y="101">62</text><text x="377" y="101">106</text><text x="423" y="101">167</text>
+<text x="193" y="137">36</text><text x="239" y="137">36</text><text x="285" y="137">36.3</text><text x="331" y="137">36.5</text><text x="377" y="137">37</text><text x="423" y="137">37</text>
+<text x="193" y="173">35</text><text x="239" y="173">35</text><text x="285" y="173">37.4</text><text x="331" y="173">40</text><text x="377" y="173">46</text><text x="423" y="173">54</text>
+<text x="193" y="209">24</text><text x="239" y="209">37</text><text x="285" y="209">41</text><text x="331" y="209">41</text><text x="377" y="209">55</text><text x="423" y="209">66</text>
+</g>
+</g>
+</svg>

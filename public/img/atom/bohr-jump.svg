@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img">
+<title>An electron jumping between energy levels after absorbing energy</title>
+<style>
+.j{animation:jp 4s ease-in-out infinite}@keyframes jp{0%,30%{transform:translateY(0)}45%,80%{transform:translateY(-32px)}95%,100%{transform:translateY(0)}}.w{animation:wv 4s ease-in-out infinite}@keyframes wv{0%{transform:translateX(70px);opacity:0}15%{opacity:1}35%{transform:translateX(0);opacity:1}40%,100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="150" cy="120" r="36" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="150" cy="120" r="68" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="150" cy="120" r="100" fill="none" stroke="#8A90C0" stroke-width="2.5"/>
+<circle cx="150" cy="120" r="15" fill="#F8B4B6" stroke="#E5484D" stroke-width="3"/><circle cx="144.8" cy="114.8" r="4.2" fill="#fff" opacity=".7"/>
+<g class="j"><circle cx="150.0" cy="84.0" r="7" fill="#0B93D4" stroke="#075E88" stroke-width="2"/></g>
+<g class="w"><path d="M168 80 q6 -8 12 0 t12 0 t12 0 t12 0" fill="none" stroke="#F6C453" stroke-width="4" stroke-linecap="round"/><path d="M168 80 l8 -6 M168 80 l8 6" stroke="#F6C453" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

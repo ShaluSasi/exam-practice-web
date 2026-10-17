@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img">
+<title>A packet of oral rehydration salts beside a glass of water</title>
+<style>
+.sp{transform-origin:228px 40px;animation:sp 1.6s ease-in-out infinite alternate}
+@keyframes sp{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+.pr circle{animation:pr 2s ease-in infinite}
+.pr circle:nth-child(2){animation-delay:.7s}.pr circle:nth-child(3){animation-delay:1.4s}
+@keyframes pr{0%{transform:translateY(0);opacity:1}100%{transform:translateY(40px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="rotate(-8 100 130)">
+<rect x="40" y="60" width="120" height="150" rx="10" fill="#FFFFFF" stroke="#0B93D4" stroke-width="3"/>
+<path d="M40 82H160" stroke="#0B93D4" stroke-width="3" stroke-dasharray="4 4"/>
+<rect x="52" y="96" width="96" height="40" rx="8" fill="#0B93D4"/>
+<text x="100" y="125" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">ORS</text>
+<path d="M100 150c-12 16-14 24-14 30a14 14 0 0 0 28 0c0-6-2-14-14-30z" fill="#7CC4EA" stroke="#0B93D4" stroke-width="2"/>
+</g>
+<g class="pr" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="1"><circle cx="222" cy="58" r="2.5"/><circle cx="230" cy="54" r="2"/><circle cx="236" cy="60" r="2.5"/></g>
+<path d="M188 92L196 206Q197 212 203 212H257Q263 212 264 206L272 92Z" fill="#DFF1FB"/>
+<g class="sp"><path d="M228 30V180" stroke="#A3A8CC" stroke-width="5" stroke-linecap="round"/><ellipse cx="228" cy="186" rx="7" ry="10" fill="#A3A8CC"/></g>
+<path d="M184 66L196 206Q197 212 203 212H257Q263 212 264 206L276 66" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M193 80L200 190" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

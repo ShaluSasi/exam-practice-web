@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A ball-and-stick model of a molecule</title>
+<style>
+.bob{animation:bob 4s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(-4px)}50%{transform:translateY(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="bob"><path d="M50.0 86.5L120.0 86.5" stroke="#7A7FA3" stroke-width="6.0" stroke-linecap="round"/><path d="M50.0 93.5L120.0 93.5" stroke="#7A7FA3" stroke-width="6.0" stroke-linecap="round"/><path d="M120.0 86.5L190.0 86.5" stroke="#7A7FA3" stroke-width="6.0" stroke-linecap="round"/><path d="M120.0 93.5L190.0 93.5" stroke="#7A7FA3" stroke-width="6.0" stroke-linecap="round"/><circle cx="50.0" cy="90.0" r="24.0" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5"/><ellipse cx="41.6" cy="80.4" rx="6.7" ry="4.3" fill="#fff" opacity=".45"/><text x="50.0" y="96.8" font-family="system-ui, sans-serif" font-weight="600" font-size="19" fill="#fff" text-anchor="middle" >O</text><circle cx="120.0" cy="90.0" r="26.0" fill="#4A4F6A" stroke="#2B2F4A" stroke-width="2.5"/><ellipse cx="110.9" cy="79.6" rx="7.3" ry="4.7" fill="#fff" opacity=".45"/><text x="120.0" y="97.6" font-family="system-ui, sans-serif" font-weight="600" font-size="21" fill="#fff" text-anchor="middle" >C</text><circle cx="190.0" cy="90.0" r="24.0" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5"/><ellipse cx="181.6" cy="80.4" rx="6.7" ry="4.3" fill="#fff" opacity=".45"/><text x="190.0" y="96.8" font-family="system-ui, sans-serif" font-weight="600" font-size="19" fill="#fff" text-anchor="middle" >O</text></g>
+</svg>

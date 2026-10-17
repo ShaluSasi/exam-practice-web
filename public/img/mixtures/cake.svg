@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img">
+<title>Bowls of sugar, flour and baking soda beside a mixing bowl</title>
+<style>
+.wh{transform-origin:200px 120px;animation:wh 1.4s ease-in-out infinite alternate}
+@keyframes wh{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+.pf circle{animation:pf 2s ease-out infinite}
+.pf circle:nth-child(2){animation-delay:.7s}.pf circle:nth-child(3){animation-delay:1.4s}
+@keyframes pf{0%{transform:translateY(0);opacity:.8}100%{transform:translateY(-26px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M20 70H88Q86 100 54 102Q22 100 20 70Z" fill="#CDEBFA"/>
+<path d="M20 140H88Q86 170 54 172Q22 170 20 140Z" fill="#FBE3A8"/>
+<path d="M30 200H78Q76 222 54 224Q32 222 30 200Z" fill="#E3E6F3"/>
+</g>
+<g fill="#FFFFFF" stroke="#A3A8CC" stroke-width="1"><rect x="34" y="62" width="7" height="7"/><rect x="46" y="58" width="7" height="7"/><rect x="58" y="62" width="7" height="7"/><rect x="40" y="66" width="7" height="6"/><rect x="66" y="66" width="7" height="5"/></g>
+<path d="M26 140Q54 116 82 140Z" fill="#FFF6E2" stroke="#D9C49A" stroke-width="2"/>
+<path d="M38 200Q54 188 70 200Z" fill="#FFFFFF" stroke="#C9CBD9" stroke-width="2"/>
+<path d="M120 120H290Q286 200 205 204Q124 200 120 120Z" fill="#F6C453" stroke="#B88A1C" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="205" cy="120" rx="85" ry="12" fill="#FFF0CF" stroke="#B88A1C" stroke-width="2.5"/>
+<g class="pf" fill="#FFFFFF" opacity=".8"><circle cx="170" cy="112" r="5"/><circle cx="206" cy="108" r="6"/><circle cx="240" cy="112" r="5"/></g>
+<g class="wh" fill="none" stroke="#6E7396" stroke-width="3" stroke-linecap="round">
+<path d="M200 20V70"/><path d="M200 70Q182 96 200 124Q218 96 200 70Z"/><path d="M200 70Q190 96 200 124Q210 96 200 70Z"/>
+</g>
+</svg>

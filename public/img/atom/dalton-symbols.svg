@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>Six old-style circle symbols for elements</title>
+<style>
+.s{transform-box:fill-box;transform-origin:center;animation:pp 3s ease-in-out infinite}@keyframes pp{0%,100%{transform:scale(1)}15%{transform:scale(1.1)}30%{transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="s" style="animation-delay:0.0s"><circle cx="80" cy="62" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><circle cx="80" cy="62" r="5" fill="#2B2F4A"/></g>
+<g class="s" style="animation-delay:0.4s"><circle cx="200" cy="62" r="28" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="3"/></g>
+<g class="s" style="animation-delay:0.8s"><circle cx="320" cy="62" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/></g>
+<g class="s" style="animation-delay:1.2s"><circle cx="80" cy="142" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><text x="80" y="150" font-size="22" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">C</text></g>
+<g class="s" style="animation-delay:1.6s"><circle cx="200" cy="142" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><text x="200" y="150" font-size="22" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">G</text></g>
+<g class="s" style="animation-delay:2.0s"><circle cx="320" cy="142" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><text x="320" y="150" font-size="22" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">S</text></g>
+</svg>

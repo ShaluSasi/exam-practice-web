@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" role="img">
+<title>Two test tubes of blood in a stand, before and after spinning</title>
+<style>
+.spin{transform-box:fill-box;transform-origin:center;animation:sp 2s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.gl{animation:gl 3s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.25}50%{opacity:.8}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M58 124V318M242 124V318" stroke="#C8925A" stroke-width="7" stroke-linecap="round"/>
+<rect x="46" y="314" width="208" height="12" rx="5" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/>
+<rect x="46" y="118" width="208" height="12" rx="5" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/>
+<path d="M86 80V280A19 19 0 0 0 124 280V80Z" fill="#B8323D"/>
+<path d="M176 80V185H214V80Z" fill="#F6D77A"/>
+<path d="M176 185H214V196H176Z" fill="#FFFFFF"/>
+<path d="M176 196V280A19 19 0 0 0 214 280V196Z" fill="#9E1F2C"/>
+<path d="M176 196H214" stroke="#E8E1D6" stroke-width="1.5"/>
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M85 46V280A20 20 0 0 0 125 280V46"/><path d="M175 46V280A20 20 0 0 0 215 280V46"/>
+</g>
+<path d="M80 46H130M170 46H220" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<g class="gl" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path d="M93 92V270M183 92V270"/></g>
+<g class="spin"><path d="M138 72A12 12 0 1 1 150 84" fill="none" stroke="#FF8A1F" stroke-width="3.5" stroke-linecap="round"/><path d="M150 78L150 90L141 84Z" fill="#FF8A1F"/></g>
+<g font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="105" y="34">(a)</text><text x="195" y="34">(b)</text></g>
+</svg>

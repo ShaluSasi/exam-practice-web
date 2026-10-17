@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<title>A glass of water with sand grains in it</title>
+<style>
+.fall{animation:fa 4s ease-in infinite}
+@keyframes fa{from{transform:translateY(-50px)}to{transform:translateY(20px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M53 70L62 176Q63 182 69 182H131Q137 182 138 176L147 70Z" fill="#DFF1FB"/>
+<path d="M61 160Q80 150 100 156T139 158L138 176Q137 182 131 182H69Q63 182 62 176Z" fill="#D9C49A" stroke="#A88A52" stroke-width="2"/>
+<g fill="#A88A52"><circle cx="72" cy="170" r="2.5"/><circle cx="88" cy="164" r="2"/><circle cx="104" cy="172" r="2.5"/><circle cx="120" cy="166" r="2"/><circle cx="128" cy="174" r="2.5"/><circle cx="84" cy="176" r="2"/></g>
+<g class="fall" fill="#C8A86A"><circle cx="80" cy="120" r="3"/><circle cx="110" cy="105" r="2.5"/><circle cx="126" cy="128" r="3"/><circle cx="95" cy="138" r="2.5"/></g>
+<path d="M50 40L62 176Q63 182 69 182H131Q137 182 138 176L150 40" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 56L68 140" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

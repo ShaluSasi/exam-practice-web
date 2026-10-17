@@ -1,0 +1,2280 @@
+[
+ {
+  "id": "in-cbse-9-chem-mixtures-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Homogeneous and heterogeneous mixtures",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Each glass has been stirred well and then left for a minute. Which glass holds a **homogeneous mixture**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/mixtures/pic-sand.svg",
+     "alt": "Picture A: a glass of water with sand grains"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/mixtures/pic-oil.svg",
+     "alt": "Picture B: a glass holding two liquids"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/mixtures/pic-sugar.svg",
+     "alt": "Picture C: a glass of liquid being stirred"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/mixtures/pic-tea.svg",
+     "alt": "Picture D: a glass of water with tea leaves"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "A homogeneous mixture has the same composition everywhere, so you cannot see separate parts in it.",
+  "explanation": "A well-stirred **sugar solution** (Picture C) has the same composition throughout, so the first sip is as sweet as the last. That makes it **homogeneous**. Sand settles to the bottom, oil floats as a separate layer and tea leaves stay visible, so those three are **heterogeneous** mixtures. Sand in water and tea leaves in water are also suspensions."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Classifying mixtures",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which list classifies **every** mixture correctly as homogeneous (Hm) or heterogeneous (Ht)?",
+  "image": {
+   "src": "/img/mixtures/mixture-icons.svg",
+   "alt": "A glass of muddy water, a glass of milk, a drop of blood and a brass bell"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Air — Hm, Milk — Ht, Sugar solution — Hm, Smoke — Hm"
+   },
+   {
+    "id": "b",
+    "text": "Brass — Ht, Fog — Ht, Vinegar — Ht, Muddy water — Hm"
+   },
+   {
+    "id": "c",
+    "text": "Copper sulfate solution — Hm, Salt solution — Hm, Milk — Hm, Bronze — Hm"
+   },
+   {
+    "id": "d",
+    "text": "Muddy water — Ht, Milk — Ht, Blood — Ht, Brass — Hm"
+   }
+  ],
+  "answer": "d",
+  "hint": "Milk and blood look uniform, but they are colloids. Alloys are homogeneous.",
+  "explanation": "Muddy water is a suspension, and milk and blood are colloids. All three are **heterogeneous**, even though milk and blood look uniform: their particles scatter light. **Brass** is an alloy, which is a homogeneous mixture of copper and zinc. List A wrongly calls smoke (solid particles in air) homogeneous. List B gets brass, vinegar and muddy water wrong. List C calls milk homogeneous."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Mixtures with a gas",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are **heterogeneous** mixtures that have a **gas** as one of their components? Select all that apply.",
+  "image": {
+   "src": "/img/mixtures/gas-mixtures.svg",
+   "alt": "A smoking chimney, a foggy street and a rocket launch"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Smoke from a chimney"
+   },
+   {
+    "id": "b",
+    "text": "Fog on a winter morning"
+   },
+   {
+    "id": "c",
+    "text": "Hydrogen and oxygen used as rocket fuel"
+   },
+   {
+    "id": "d",
+    "text": "Dust in the air"
+   },
+   {
+    "id": "e",
+    "text": "Soda water ($\\ce{CO2}$ dissolved in water)"
+   },
+   {
+    "id": "f",
+    "text": "Brass"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Gases mix evenly with other gases. Look for solid bits or liquid droplets spread through air.",
+  "explanation": "**Smoke** (solid particles in air), **fog** (tiny water droplets in air) and **dust in air** are heterogeneous mixtures with a gas as one component. Gas particles move freely in all directions and mix evenly, so most gas–gas mixtures, such as hydrogen and oxygen rocket fuel, are **homogeneous**. Soda water is a solution of carbon dioxide in water, which is homogeneous. Brass contains no gas."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Tyndall effect",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A laser beam is shone through three stirred mixtures: salt in water, chalk powder in water and a few drops of milk in water. Each is viewed from the side. Tap the beaker that holds the **salt solution**.",
+  "image": {
+   "src": "/img/mixtures/tyndall-beakers.svg",
+   "alt": "A laser pointer shining through three beakers labelled A, B and C"
+  },
+  "spots": [
+   {
+    "id": "laser",
+    "x": 6.25,
+    "y": 50,
+    "label": "Laser pointer"
+   },
+   {
+    "id": "a",
+    "x": 27.08,
+    "y": 59.62,
+    "label": "Beaker A – beam path not visible"
+   },
+   {
+    "id": "b",
+    "x": 52.08,
+    "y": 59.62,
+    "label": "Beaker B – cloudy, beam visible"
+   },
+   {
+    "id": "c",
+    "x": 77.08,
+    "y": 59.62,
+    "label": "Beaker C – milky, beam visible"
+   }
+  ],
+  "answer": "a",
+  "hint": "Particles in a true solution are too small to scatter light.",
+  "explanation": "In beaker A you cannot see the beam's path, because dissolved salt particles (less than 1 nm across) are too small to scatter light. That makes A the **true solution**. Chalk in water (B) is a **suspension**: its large particles scatter the beam and slowly settle. Milk in water (C) looks uniform but is a **colloid**, so the beam shows there too. This scattering is the **Tyndall effect**. Never look straight into a laser beam."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Mass by mass percentage",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Riya dissolves $15\\ \\text{g}$ of sugar in $60\\ \\text{g}$ of water. What is the concentration of the solution as a **mass by mass percentage**?",
+  "image": {
+   "src": "/img/mixtures/balance.svg",
+   "alt": "Sugar being spooned into a beaker of water on a digital balance"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$20\\%$"
+   },
+   {
+    "id": "b",
+    "text": "$25\\%$"
+   },
+   {
+    "id": "c",
+    "text": "$400\\%$"
+   },
+   {
+    "id": "d",
+    "text": "$15\\%$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Mass of solution = mass of solute + mass of solvent.",
+  "explanation": "Mass of solution $= 15\\ \\text{g} + 60\\ \\text{g} = 75\\ \\text{g}$. $$\\%\\ \\text{m/m} = \\dfrac{\\text{mass of solute}}{\\text{mass of solution}} \\times 100 = \\dfrac{15}{75} \\times 100 = 20\\%$$ Dividing by the water alone (60 g) gives the trap answer 25%, and turning the fraction upside down gives 400%. 15% just repeats the mass of sugar, which would only be right if the solution weighed exactly 100 g."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Concentration of a solid mixture",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A dry cake mix contains $60\\ \\text{g}$ of sugar, $336\\ \\text{g}$ of flour and $4\\ \\text{g}$ of baking soda (sodium hydrogencarbonate). What is the concentration of **sugar** in the mix, expressed in a suitable way?",
+  "image": {
+   "src": "/img/mixtures/cake.svg",
+   "alt": "Bowls of sugar, flour and baking soda beside a mixing bowl"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$17.9\\%$ m/m"
+   },
+   {
+    "id": "b",
+    "text": "$60\\%$ m/m"
+   },
+   {
+    "id": "c",
+    "text": "$15\\%$ v/v"
+   },
+   {
+    "id": "d",
+    "text": "$15\\%$ m/m"
+   }
+  ],
+  "answer": "d",
+  "hint": "All three are solids, so compare masses. Divide by the mass of the whole mix.",
+  "explanation": "All the parts are solids, so we use **mass by mass percentage**, which also works for heterogeneous mixtures such as milk powder and spice mixes. Total mass $= 60 + 336 + 4 = 400\\ \\text{g}$, so sugar $= \\dfrac{60}{400} \\times 100 = 15\\%$ m/m. In the same way flour is 84% and baking soda 1%. 17.9% divides by the flour only, and 60% just repeats the mass. % v/v is used for mixing liquids, not powders."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Mass by volume percentage",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A hospital drip bag holds $500\\ \\text{mL}$ of 0.9% m/v sodium chloride ($\\ce{NaCl}$) solution, called saline. How much salt does the bag contain?",
+  "image": {
+   "src": "/img/mixtures/saline-drip.svg",
+   "alt": "A saline drip bag hanging from a hospital stand"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$0.45\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$45\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$4.5\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$0.9\\ \\text{g}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "0.9% m/v means 0.9 g of solute in every 100 mL of solution.",
+  "explanation": "**Mass by volume percentage** gives the grams of solute in 100 mL of solution. Here that is 0.9 g in every 100 mL, so $\\text{mass} = \\dfrac{0.9 \\times 500}{100} = 4.5\\ \\text{g}$. 0.9 g is the salt in only 100 mL. 45 g forgets to divide by 100, and 0.45 g divides by 1000 instead. 0.9% saline is safe for blood and replaces fluids the body has lost."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Volume by volume percentage",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Kabir mixes **3 tablespoons** of orange juice concentrate with water to make $200\\ \\text{mL}$ of juice. Each tablespoon holds $10\\ \\text{mL}$. What is the % v/v of concentrate in his juice?",
+  "image": {
+   "src": "/img/mixtures/juice.svg",
+   "alt": "Orange juice concentrate being spooned into a glass"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$5\\%$"
+   },
+   {
+    "id": "b",
+    "text": "$17.6\\%$"
+   },
+   {
+    "id": "c",
+    "text": "$1.5\\%$"
+   },
+   {
+    "id": "d",
+    "text": "$15\\%$"
+   }
+  ],
+  "answer": "d",
+  "hint": "First find the total volume of concentrate in mL, then divide by the volume of the whole juice.",
+  "explanation": "Volume of solute $= 3 \\times 10\\ \\text{mL} = 30\\ \\text{mL}$. $$\\%\\ \\text{v/v} = \\dfrac{30\\ \\text{mL}}{200\\ \\text{mL}} \\times 100 = 15\\%$$ 5% counts only one tablespoon. 1.5% uses the number of spoons (3) instead of 30 mL. 17.6% divides by the water alone (170 mL) instead of the whole solution."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Volume of solute needed",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A farmer needs $15\\ \\text{L}$ of a 2% v/v pesticide spray for her rice field. What volume of liquid pesticide should she measure out before topping it up with water?",
+  "image": {
+   "src": "/img/mixtures/sprayer.svg",
+   "alt": "A spray tank spraying a fine mist over rice plants"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$300\\ \\text{mL}$"
+   },
+   {
+    "id": "b",
+    "text": "$30\\ \\text{mL}$"
+   },
+   {
+    "id": "c",
+    "text": "$7.5\\ \\text{L}$"
+   },
+   {
+    "id": "d",
+    "text": "$3\\ \\text{L}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "2% v/v means 2 mL of pesticide in every 100 mL of spray. Change litres to millilitres.",
+  "explanation": "$15\\ \\text{L} = 15{,}000\\ \\text{mL}$, so pesticide $= \\dfrac{2}{100} \\times 15{,}000 = 300\\ \\text{mL}$. She then adds water until the spray measures 15 L. 3 L comes from using 0.2 instead of 0.02, and 30 mL from slipping the decimal the other way. 7.5 L just halves 15. The right proportion matters: too little pesticide may not protect the crop, and too much can damage the crop, the soil and the environment."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Preparing a solution of given % v/v",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Vinegar is 5% v/v acetic acid. Glacial acetic acid is pure (100%) acetic acid. How should you make $500\\ \\text{mL}$ of vinegar from glacial acetic acid?",
+  "image": {
+   "src": "/img/mixtures/vinegar.svg",
+   "alt": "A bottle of vinegar next to a measuring cylinder"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Add 5 mL of glacial acetic acid to 500 mL of water"
+   },
+   {
+    "id": "b",
+    "text": "Measure 25 mL of glacial acetic acid and add water until the total volume is 500 mL"
+   },
+   {
+    "id": "c",
+    "text": "Mix 100 mL of glacial acetic acid with 400 mL of water"
+   },
+   {
+    "id": "d",
+    "text": "Add 25 mL of glacial acetic acid to 500 mL of water"
+   }
+  ],
+  "answer": "b",
+  "hint": "% v/v compares the solute with the volume of the whole **solution**, not with the water.",
+  "explanation": "Volume of acid needed $= \\dfrac{5}{100} \\times 500\\ \\text{mL} = 25\\ \\text{mL}$. The water must bring the **total** to 500 mL. Adding 25 mL of acid to 500 mL of water makes about 525 mL, which is only about 4.8% v/v. 5 mL wrongly reads \"5%\" as 5 mL, and 100 mL in 500 mL would make a 20% solution."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Comparing concentrations",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Three students make sugar solutions, as shown. **P** dissolves 20 g of sugar in 80 g of water, **Q** dissolves 18 g in 42 g of water and **R** dissolves 30 g in 120 g of water. Whose solution is the **most concentrated**?",
+  "image": {
+   "src": "/img/mixtures/sugar-beakers.svg",
+   "alt": "Three beakers of water labelled P, Q and R, each with a heap of sugar beside it"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "R, because it contains the most sugar"
+   },
+   {
+    "id": "b",
+    "text": "Q, at $30\\%$ m/m"
+   },
+   {
+    "id": "c",
+    "text": "P, at $25\\%$ m/m"
+   },
+   {
+    "id": "d",
+    "text": "P and R, both at $20\\%$ m/m"
+   }
+  ],
+  "answer": "b",
+  "hint": "Work out the % m/m of each solution, remembering mass of solution = sugar + water.",
+  "explanation": "P: $\\dfrac{20}{20 + 80} \\times 100 = 20\\%$. Q: $\\dfrac{18}{18 + 42} \\times 100 = 30\\%$. R: $\\dfrac{30}{30 + 120} \\times 100 = 20\\%$. **Q** is the most concentrated, even though it has the least sugar, because it has much less water. Concentration compares solute with solution. The most sugar does not always mean the strongest solution, and 25% for P comes from dividing by the water only."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "ORS and concentration",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The Indian paediatrician **Dilip Mahalanabis** formulated the Oral Rehydration Solution (ORS) used to treat dehydration. Why must ORS be made with the **specified** amounts of salt and sugar in a fixed volume of water?",
+  "image": {
+   "src": "/img/mixtures/ors.svg",
+   "alt": "A packet of oral rehydration salts beside a glass of water being stirred"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Any sweet drink from a shop works just as well as ORS"
+   },
+   {
+    "id": "b",
+    "text": "Its concentration must be right: changing the salt, sugar or water gives a different solution that is no longer ORS"
+   },
+   {
+    "id": "c",
+    "text": "Adding extra salt always makes ORS work faster"
+   },
+   {
+    "id": "d",
+    "text": "The amounts only change the taste, not how it works"
+   }
+  ],
+  "answer": "b",
+  "hint": "Think about what \"concentration\" means and why the right proportion matters.",
+  "explanation": "ORS works only at the right **concentration**. If you change the amount of salt or sugar, or the volume of water, you still get a salt–sugar solution, but it is not ORS. Not every sugary drink is ORS. Mahalanabis developed this treatment for dehydration caused by diseases such as diarrhoea and cholera. After the WHO popularised it worldwide, it saved millions of lives."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Solubility curves",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Each point on these solubility curves shows the most solute that 100 g of water can dissolve at that temperature. Tap the point at which 100 g of water can hold the **least** solute before it becomes saturated.",
+  "image": {
+   "src": "/img/mixtures/solubility-curve.svg",
+   "alt": "Solubility curves of compounds A and B with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "a20",
+    "x": 33.33,
+    "y": 72,
+    "label": "Compound A at 20 °C (about 66 g)"
+   },
+   {
+    "id": "a60",
+    "x": 71.43,
+    "y": 66.38,
+    "label": "Compound A at 60 °C (about 96 g)"
+   },
+   {
+    "id": "b20",
+    "x": 33.33,
+    "y": 46.13,
+    "label": "Compound B at 20 °C (about 204 g)"
+   },
+   {
+    "id": "b40",
+    "x": 52.38,
+    "y": 39.19,
+    "label": "Compound B at 40 °C (241 g)"
+   },
+   {
+    "id": "b60",
+    "x": 71.43,
+    "y": 30.56,
+    "label": "Compound B at 60 °C (287 g)"
+   }
+  ],
+  "answer": "a20",
+  "hint": "The lower a point sits on the graph, the less solute dissolves.",
+  "explanation": "The y-axis shows **solubility** in g per 100 g of water. Curve A lies well below curve B, and both curves rise with temperature, so the lowest point marked is **A at 20 °C** (about 66 g). B at 60 °C (287 g) holds the most. The solubility of most solids rises as the temperature rises, and B's rises much faster than A's."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Crystallization from a solubility curve",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A saturated solution of compound B is made at 60 °C by dissolving 287 g of B in 100 g of water. It is then cooled slowly to 40 °C. Using the graph, what mass of B separates out as crystals?",
+  "image": {
+   "src": "/img/mixtures/solubility-curve.svg",
+   "alt": "Solubility curves of compounds A and B against temperature"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$241\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$528\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$46\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$287\\ \\text{g}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Read how much B can stay dissolved at 40 °C. Everything above that comes out.",
+  "explanation": "At 40 °C only 241 g of B can stay dissolved in 100 g of water, so the extra comes out as pure crystals: $287\\ \\text{g} - 241\\ \\text{g} = 46\\ \\text{g}$. 241 g is the mass that **stays** in solution. 528 g wrongly adds the two values, and 287 g assumes all of B crystallises."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Solubility table",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Using the table, what mass of potassium nitrate is needed to make a **saturated** solution in **50 g** of water at 40 °C?",
+  "image": {
+   "src": "/img/mixtures/salt-table.svg",
+   "alt": "Table of the solubility of four salts at temperatures from 10 °C to 80 °C"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$62\\ \\text{g}$"
+   },
+   {
+    "id": "b",
+    "text": "$31\\ \\text{g}$"
+   },
+   {
+    "id": "c",
+    "text": "$124\\ \\text{g}$"
+   },
+   {
+    "id": "d",
+    "text": "$53\\ \\text{g}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "The table gives grams per 100 g of water. Here you have only half that much water.",
+  "explanation": "At 40 °C, 62 g of potassium nitrate dissolves in 100 g of water. 50 g of water holds half as much: $\\dfrac{62 \\times 50}{100} = 31\\ \\text{g}$. 62 g ignores the smaller amount of water, and 124 g doubles instead of halving. 53 g halves the 60 °C value (106 g), so it reads the wrong column."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Crystallization of copper sulfate",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps for growing pure crystals of copper sulfate ($\\ce{CuSO4 . 5H2O}$) in the correct order.",
+  "image": {
+   "src": "/img/mixtures/crystal-setup.svg",
+   "alt": "A beaker of blue solution being heated in a water bath and stirred"
+  },
+  "items": [
+   {
+    "id": "c3",
+    "text": "Filter the hot solution to remove insoluble impurities"
+   },
+   {
+    "id": "c1",
+    "text": "Dissolve copper sulfate in water with a drop of dilute sulfuric acid, heating gently in a water bath while stirring"
+   },
+   {
+    "id": "c5",
+    "text": "Filter off the crystals, rinse them with cold water and dry them on a watch glass"
+   },
+   {
+    "id": "c2",
+    "text": "Keep adding copper sulfate until the solution becomes saturated"
+   },
+   {
+    "id": "c4",
+    "text": "Cover the filtrate with a watch glass and let it cool slowly without disturbing it"
+   }
+  ],
+  "answer": [
+   "c1",
+   "c2",
+   "c3",
+   "c4",
+   "c5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "You must have a hot saturated solution before you can filter it and let it cool.",
+  "explanation": "First dissolve the salt with gentle heating. The drop of sulfuric acid, added by the teacher, helps give pure crystals by preventing unwanted reactions. Next make the solution **saturated**, then filter it hot to remove insoluble impurities. Slow, undisturbed cooling lets the particles arrange themselves into large, shiny, well-shaped blue **crystals**. Finally filter, rinse and dry the crystals. Copper sulfate is toxic, so don't touch it with bare hands."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Crystal size",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/mixtures/crystal-cool.svg",
+   "alt": "Two beakers of copper sulfate solution, P covered and Q standing in ice"
+  },
+  "assertion": "A hot saturated copper sulfate solution that cools slowly at room temperature gives larger, better-shaped crystals than one cooled quickly in ice-cold water.",
+  "reason": "Slow cooling gives the particles in the solution enough time to come together and arrange themselves in a regular pattern.",
+  "answer": "a",
+  "hint": "Is speed of cooling linked to how neatly particles can pack?",
+  "explanation": "Both are true and R explains A. A **crystal** is a solid whose particles are arranged in a regular geometric pattern, and slow cooling gives them time to build that pattern. Quick cooling in ice gives many small, less well-formed crystals (beaker Q). To test this, divide one hot saturated solution into two equal parts and cool one slowly and the other in ice. Crystals also form in nature, for example in the Mawsmai Cave in Sohra (Cherrapunji) and as quartz."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Salt from seawater",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Put the steps of making common salt from seawater in salt pans in the correct order.",
+  "image": {
+   "src": "/img/mixtures/salt-pans.svg",
+   "alt": "Shallow salt pans beside the sea under a hot sun"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "The brine becomes a saturated salt solution"
+   },
+   {
+    "id": "s1",
+    "text": "Seawater is let into shallow pans"
+   },
+   {
+    "id": "s4",
+    "text": "Salt crystals separate out and are raked into heaps"
+   },
+   {
+    "id": "s2",
+    "text": "The Sun's heat evaporates much of the water"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Water has to leave before the solution can become saturated.",
+  "explanation": "Seawater in shallow pans loses water by **evaporation** until the brine is **saturated**. Further evaporation makes the extra salt **crystallise** out, and it is then collected. Coastal communities in India have long done this: **panga** salt came from boiling concentrated sea brine, and **karkatch** salt from evaporating sea water. The two methods gave crystals of different sizes."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Distillation apparatus",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "This set-up is separating acetone (boiling point about 56 °C) from water. Tap the place where the **pure acetone** collects.",
+  "image": {
+   "src": "/img/mixtures/distillation.svg",
+   "alt": "A distillation set-up with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "thermo",
+    "x": 25,
+    "y": 17.19,
+    "label": "Thermometer"
+   },
+   {
+    "id": "flask",
+    "x": 25,
+    "y": 71.88,
+    "label": "Distillation flask with the mixture"
+   },
+   {
+    "id": "cond",
+    "x": 53.79,
+    "y": 49.16,
+    "label": "Water condenser"
+   },
+   {
+    "id": "inlet",
+    "x": 66.25,
+    "y": 68.75,
+    "label": "Cooling-water pipe"
+   },
+   {
+    "id": "recv",
+    "x": 78.13,
+    "y": 93.13,
+    "label": "Conical flask with the distillate"
+   },
+   {
+    "id": "burner",
+    "x": 25,
+    "y": 90.63,
+    "label": "Burner"
+   }
+  ],
+  "answer": "recv",
+  "hint": "The liquid that boils first travels through the long tube and drips out at the end.",
+  "explanation": "Acetone boils first. Its vapour passes through the **condenser**, cools back into a liquid and drips into the conical flask as the **distillate**. Water, with its higher boiling point, stays behind in the distillation flask. The thermometer shows the temperature of the vapour, and the burner only heats the mixture."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Distillation apparatus",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the same distillation set-up, tap the part where the hot vapour is **cooled and turns back into a liquid**.",
+  "image": {
+   "src": "/img/mixtures/distillation.svg",
+   "alt": "A distillation set-up with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "thermo",
+    "x": 25,
+    "y": 17.19,
+    "label": "Thermometer"
+   },
+   {
+    "id": "flask",
+    "x": 25,
+    "y": 71.88,
+    "label": "Distillation flask (heating)"
+   },
+   {
+    "id": "cond",
+    "x": 53.79,
+    "y": 49.16,
+    "label": "Water condenser (cooling)"
+   },
+   {
+    "id": "recv",
+    "x": 78.13,
+    "y": 93.13,
+    "label": "Conical flask (collecting)"
+   },
+   {
+    "id": "burner",
+    "x": 25,
+    "y": 90.63,
+    "label": "Burner"
+   }
+  ],
+  "answer": "cond",
+  "hint": "Look for the tube wrapped in a jacket of circulating water.",
+  "explanation": "In the **water condenser**, cold water circulates through the outer jacket and cools the inner tube. The vapour passing through **condenses** into a pure liquid. Distillation is heating (to vaporise) followed by cooling (to condense). Heating happens in the flask, and the conical flask only collects the liquid."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Distillation",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/mixtures/distillation.svg",
+   "alt": "A distillation set-up with a flask, condenser and receiver"
+  },
+  "assertion": "A mixture of acetone and water can be separated by simple distillation.",
+  "reason": "Acetone (about 56 °C) and water (100 °C) differ in boiling point by more than about 25 °C, so acetone vaporises before much water vapour forms.",
+  "answer": "a",
+  "hint": "What boiling-point gap does simple distillation need?",
+  "explanation": "Both are true and R explains A. Simple **distillation** separates miscible liquids whose boiling points differ by at least about 25 °C. Acetone and water differ by 44 °C, so acetone vapour comes off first and condenses as the distillate while water stays in the flask. Evaporation alone would lose the acetone to the air, so you could not recover both liquids."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Choosing distillation",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Using the boiling points in the chart, which of these mixtures can be separated by **simple distillation**? Select all that apply.",
+  "image": {
+   "src": "/img/mixtures/bp-chart.svg",
+   "alt": "Bar chart of the boiling points of water, acetone, alcohol, chloroform and benzene"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Water and acetone"
+   },
+   {
+    "id": "b",
+    "text": "Water and dissolved salt"
+   },
+   {
+    "id": "c",
+    "text": "Acetone and alcohol"
+   },
+   {
+    "id": "d",
+    "text": "Sand and salt"
+   },
+   {
+    "id": "e",
+    "text": "Alcohol and chloroform"
+   },
+   {
+    "id": "f",
+    "text": "Alcohol and benzene"
+   }
+  ],
+  "answers": [
+   "a",
+   "b"
+  ],
+  "hint": "Simple distillation needs a boiling-point gap of about 25 °C or more, or a liquid with a dissolved solid.",
+  "explanation": "Water (100 °C) and acetone (56 °C) differ by 44 °C, so they can be distilled. In salt water, the water distils off and the salt stays in the flask. Acetone–alcohol (22 °C apart), alcohol–chloroform (17 °C) and alcohol–benzene (2 °C) are too close, so they need **fractional distillation**. Sand and salt are both solids: dissolve the salt, filter off the sand and then evaporate the water."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Fractional distillation",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Chloroform boils at 61 °C and alcohol at 78 °C. Which method suits a mixture of these two miscible liquids? (The same method separates crude oil in a refinery.)",
+  "image": {
+   "src": "/img/mixtures/fractional-column.svg",
+   "alt": "A tall column separating crude oil heated in a furnace"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Simple distillation"
+   },
+   {
+    "id": "b",
+    "text": "Separating funnel"
+   },
+   {
+    "id": "c",
+    "text": "Fractional distillation"
+   },
+   {
+    "id": "d",
+    "text": "Sublimation"
+   }
+  ],
+  "answer": "c",
+  "hint": "Is the gap between the boiling points more or less than about 25 °C?",
+  "explanation": "The gap is only $78 - 61 = 17$ °C, which is less than 25 °C, so **fractional distillation** is needed. Crude petroleum is separated the same way into petroleum gas, petrol, kerosene, diesel, lubricating oil and bitumen. The gas fraction is liquefied under pressure in steel cylinders and sold as **LPG**. A separating funnel works only for immiscible liquids, and sublimation is for solids."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Fractions of crude oil",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Crude oil is heated and separated in a fractionating column. Match each numbered outlet with the fraction collected there.",
+  "image": {
+   "src": "/img/mixtures/fractional-column.svg",
+   "alt": "A fractionating column with numbered outlets",
+   "markers": [
+    {
+     "x": 79.17,
+     "y": 16.18,
+     "label": "1"
+    },
+    {
+     "x": 79.17,
+     "y": 29.41,
+     "label": "2"
+    },
+    {
+     "x": 79.17,
+     "y": 55.88,
+     "label": "3"
+    },
+    {
+     "x": 79.17,
+     "y": 82.35,
+     "label": "4"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "o1",
+    "text": "Outlet 1"
+   },
+   {
+    "id": "o2",
+    "text": "Outlet 2"
+   },
+   {
+    "id": "o3",
+    "text": "Outlet 3"
+   },
+   {
+    "id": "o4",
+    "text": "Outlet 4"
+   }
+  ],
+  "right": [
+   {
+    "id": "gas",
+    "text": "Petroleum gas"
+   },
+   {
+    "id": "petrol",
+    "text": "Petrol"
+   },
+   {
+    "id": "kero",
+    "text": "Kerosene (aviation fuel)"
+   },
+   {
+    "id": "diesel",
+    "text": "Diesel"
+   },
+   {
+    "id": "bit",
+    "text": "Bitumen"
+   }
+  ],
+  "pairs": {
+   "o1": "gas",
+   "o2": "petrol",
+   "o3": "diesel",
+   "o4": "bit"
+  },
+  "hint": "Fractions with the lowest boiling points travel highest up the column. The heaviest stays near the bottom.",
+  "explanation": "From top to bottom the outlets give **petroleum gas**, petrol, kerosene, **diesel**, lubricating oil and **bitumen**. The column is coolest at the top, so the fractions with the lowest boiling points rise highest before condensing, and thick bitumen collects at the bottom. Kerosene comes from the unnumbered outlet between 2 and 3."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Deg-Bhapka method",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In Kannauj, the \"perfume capital of India\", the earthy smell of the first rain is captured as **Mitti ka Ittar** using the traditional Deg-Bhapka method shown. Which separation process is it based on?",
+  "image": {
+   "src": "/img/mixtures/deg-bhapka.svg",
+   "alt": "A copper pot on a fire joined by a bamboo pipe to a receiver pot standing in water"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Sublimation"
+   },
+   {
+    "id": "b",
+    "text": "Paper chromatography"
+   },
+   {
+    "id": "c",
+    "text": "Centrifugation"
+   },
+   {
+    "id": "d",
+    "text": "Distillation"
+   }
+  ],
+  "answer": "d",
+  "hint": "Heating happens in one pot, and cooling in the other.",
+  "explanation": "The material is heated in the copper pot (deg), and the fragrant vapours travel along the pipe to the receiver (bhapka) standing in cool water, where they condense. Heating to vaporise and cooling to condense is **distillation**, a method used for a very long time to extract fragrances from flowers. Kannauj's Fragrance and Flavour Development Centre helps farmers and perfume makers with these techniques."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Paper chromatography",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A spot of black sketch-pen ink has separated on this chromatography strip. Tap the component that **travelled farthest** up the paper with the water.",
+  "image": {
+   "src": "/img/mixtures/chromatography.svg",
+   "alt": "A paper strip in a covered gas jar with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "front",
+    "x": 50,
+    "y": 35.56,
+    "label": "Top edge of the wet paper"
+   },
+   {
+    "id": "yellow",
+    "x": 50,
+    "y": 45,
+    "label": "Yellow spot"
+   },
+   {
+    "id": "pink",
+    "x": 50,
+    "y": 56.11,
+    "label": "Pink spot"
+   },
+   {
+    "id": "blue",
+    "x": 50,
+    "y": 66.11,
+    "label": "Blue spot"
+   },
+   {
+    "id": "line",
+    "x": 50,
+    "y": 76.67,
+    "label": "Pencil line where the ink was placed"
+   }
+  ],
+  "answer": "yellow",
+  "hint": "Each coloured spot started at the pencil line. Which one is now highest?",
+  "explanation": "Black ink is a mixture of dyes. The rising water carries each dye at a different speed, depending on how it interacts with the water and the paper, so the yellow dye ended up highest. The wet edge above it only shows how far the water reached. It is not a component. \"Chromatography\" comes from the Greek *chroma* (colour) and *graphein* (to write), so it means \"writing with colour\"."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Paper chromatography",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Before starting, a line is drawn 2 cm from the bottom of the strip and the ink spot is placed on it. Tap this line, which must be drawn with a **pencil**, not a pen.",
+  "image": {
+   "src": "/img/mixtures/chromatography.svg",
+   "alt": "A paper strip in a covered gas jar with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "watch",
+    "x": 50,
+    "y": 20,
+    "label": "Watch glass covering the jar"
+   },
+   {
+    "id": "front",
+    "x": 50,
+    "y": 35.56,
+    "label": "Top edge of the wet paper"
+   },
+   {
+    "id": "yellow",
+    "x": 50,
+    "y": 45,
+    "label": "Yellow spot"
+   },
+   {
+    "id": "line",
+    "x": 50,
+    "y": 76.67,
+    "label": "Pencil line"
+   },
+   {
+    "id": "water",
+    "x": 65,
+    "y": 87.78,
+    "label": "Water in the jar"
+   }
+  ],
+  "answer": "line",
+  "hint": "It is the starting line, just above the water surface.",
+  "explanation": "The **pencil line** marks where the sample starts. Pencil marks do not dissolve, so the line stays put while the ink's dyes move up. The water level must be **below** this line, or the ink would dissolve into the water instead of climbing the paper. The watch glass covers the jar, and the wet edge shows how far the water has risen."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Paper chromatography",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of separating the colours in black ink by paper chromatography.",
+  "image": {
+   "src": "/img/mixtures/chromatography.svg",
+   "alt": "A paper strip standing in a covered gas jar with coloured spots"
+  },
+  "items": [
+   {
+    "id": "k3",
+    "text": "Stand the strip in a jar with a thin layer of water, keeping the water below the spot"
+   },
+   {
+    "id": "k1",
+    "text": "Draw a pencil line 2 cm from the bottom of a 3 cm wide paper strip"
+   },
+   {
+    "id": "k5",
+    "text": "Take out the strip when the ink has split into separate coloured spots"
+   },
+   {
+    "id": "k2",
+    "text": "Put a small spot of black sketch-pen ink at the centre of the line"
+   },
+   {
+    "id": "k4",
+    "text": "Watch the water rise up the paper and carry the ink with it"
+   }
+  ],
+  "answer": [
+   "k1",
+   "k2",
+   "k3",
+   "k4",
+   "k5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Mark the line, then the spot, before the paper touches the water.",
+  "explanation": "Mark the starting line, place the sample spot, then dip the strip so the water is just below the spot. As the water rises it separates the dyes because they move at different rates. The same method can separate the pigments in spinach leaves or flower petals, though sometimes a solvent such as alcohol works better than water."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Evaporation, distillation and chromatography",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these statements are **true**? Select all that apply.",
+  "image": {
+   "src": "/img/mixtures/evaporation.svg",
+   "alt": "A salt solution being heated in a china dish over a burner"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Salt can be recovered from a salt solution by evaporation or by distillation"
+   },
+   {
+    "id": "b",
+    "text": "Distillation can separate two liquids that have the same boiling point"
+   },
+   {
+    "id": "c",
+    "text": "In paper chromatography the water level should start above the sample spot"
+   },
+   {
+    "id": "d",
+    "text": "Evaporation and crystallization are the same process"
+   },
+   {
+    "id": "e",
+    "text": "Distillation, unlike evaporation, lets you collect the solvent as well"
+   },
+   {
+    "id": "f",
+    "text": "Gases generally dissolve better in water as the temperature rises"
+   }
+  ],
+  "answers": [
+   "a",
+   "e"
+  ],
+  "hint": "Think about what happens to the solvent in each method, and how temperature affects dissolved gases.",
+  "explanation": "Statements a and e are true. Evaporation leaves the salt behind but loses the water to the air, while **distillation** also collects the water. Distillation needs different boiling points. The water level must start **below** the spot. **Crystallization** forms pure crystals from a saturated solution, which is not the same as simply drying up a solvent. Gases generally become **less** soluble as the temperature rises, which is why a fizzy drink goes flat faster when warm."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Separating funnel",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A cooking-oil pack says one litre of oil has a mass of 910 g, while one litre of water is about 1000 g. Oil and water are left to settle in this separating funnel. Tap the layer that drains out **first** when the stopcock is opened.",
+  "image": {
+   "src": "/img/mixtures/separating-funnel.svg",
+   "alt": "A separating funnel with two liquid layers and numbered markers"
+  },
+  "spots": [
+   {
+    "id": "stopper",
+    "x": 50,
+    "y": 7.78,
+    "label": "Glass stopper"
+   },
+   {
+    "id": "oil",
+    "x": 50,
+    "y": 27.78,
+    "label": "Upper layer – oil"
+   },
+   {
+    "id": "water",
+    "x": 50,
+    "y": 45.83,
+    "label": "Lower layer – water"
+   },
+   {
+    "id": "cock",
+    "x": 50,
+    "y": 65.56,
+    "label": "Stopcock"
+   },
+   {
+    "id": "flask",
+    "x": 50,
+    "y": 94.44,
+    "label": "Conical flask"
+   }
+  ],
+  "answer": "water",
+  "hint": "Which liquid is denser? The tap is at the bottom of the funnel.",
+  "explanation": "Oil and water are **immiscible**, so they form two layers. Oil is less dense (910 g per litre), so it floats on top. The denser water forms the **lower layer**, and that layer runs out first through the stopcock at the bottom. Close the stopcock as the water finishes, throw away the small mixed portion, then collect the oil."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Separating funnel",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps for separating mustard oil from water with a separating funnel.",
+  "image": {
+   "src": "/img/mixtures/separating-funnel.svg",
+   "alt": "A separating funnel holding two liquid layers above a conical flask"
+  },
+  "items": [
+   {
+    "id": "f4",
+    "text": "Close the stopcock when the water has almost all drained"
+   },
+   {
+    "id": "f1",
+    "text": "Pour the oil and water mixture into the separating funnel"
+   },
+   {
+    "id": "f6",
+    "text": "Open the stopcock again and collect the oil separately"
+   },
+   {
+    "id": "f3",
+    "text": "Open the stopcock slowly to run the lower water layer into a container"
+   },
+   {
+    "id": "f5",
+    "text": "Collect and throw away the small portion that has both liquids"
+   },
+   {
+    "id": "f2",
+    "text": "Let it stand undisturbed until two clear layers form"
+   }
+  ],
+  "answer": [
+   "f1",
+   "f2",
+   "f3",
+   "f4",
+   "f5",
+   "f6"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "The bottom layer has to come out before the top layer can.",
+  "explanation": "Once poured in and left to stand, the yellow mustard oil floats above the denser water. The **lower layer** (water) is run off first through the stopcock. The mixed portion where the layers meet is discarded, and then the oil is collected, giving two separate liquids. The separating funnel works because the two liquids are **immiscible** and differ in **density**."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Sublimation",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A mixture of crushed camphor and sand is heated gently in the china dish. Tap where the **pure camphor** collects.",
+  "image": {
+   "src": "/img/mixtures/sublimation.svg",
+   "alt": "A china dish heated under an inverted funnel, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "cotton",
+    "x": 50,
+    "y": 12.35,
+    "label": "Cotton plug"
+   },
+   {
+    "id": "wall",
+    "x": 42,
+    "y": 44.12,
+    "label": "Inner wall of the funnel"
+   },
+   {
+    "id": "dish",
+    "x": 50,
+    "y": 65.29,
+    "label": "Mixture in the china dish"
+   },
+   {
+    "id": "gauze",
+    "x": 68.67,
+    "y": 71.18,
+    "label": "Wire gauze"
+   },
+   {
+    "id": "burner",
+    "x": 50,
+    "y": 87.06,
+    "label": "Burner"
+   }
+  ],
+  "answer": "wall",
+  "hint": "The vapour rises and meets a cooler surface.",
+  "explanation": "Camphor **sublimes**: below its melting point it turns straight from a solid into a vapour. The vapour meets the cooler **inner wall of the funnel** and turns straight back into a white solid, which is called **deposition**. Sand does not sublime, so it stays in the dish, and the cotton plug stops the vapour escaping. Naphthalene and dry ice (solid carbon dioxide) also sublime."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Separating a three-part mixture",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "order",
+  "prompt": "A mixture contains sand, common salt and naphthalene. Arrange the separation steps in the correct order.",
+  "image": {
+   "src": "/img/mixtures/mixture-tray.svg",
+   "alt": "A dish holding sand, salt crystals and white naphthalene balls"
+  },
+  "items": [
+   {
+    "id": "n3",
+    "text": "Filter the mixture: sand stays on the filter paper as the residue"
+   },
+   {
+    "id": "n1",
+    "text": "Heat the mixture under an inverted funnel so that naphthalene sublimes and collects on the funnel"
+   },
+   {
+    "id": "n4",
+    "text": "Evaporate the water from the filtrate to get the salt back"
+   },
+   {
+    "id": "n2",
+    "text": "Add water to the remaining sand and salt and stir to dissolve the salt"
+   }
+  ],
+  "answer": [
+   "n1",
+   "n2",
+   "n3",
+   "n4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Remove the substance that sublimes before you add any water.",
+  "explanation": "**Sublimation** removes naphthalene first, leaving sand and salt. Salt dissolves in water but sand does not, so after stirring, **filtration** keeps the sand as the residue. **Evaporation** of the filtrate leaves the salt. Removing naphthalene first, while the mixture is still dry, means only sand is left on the filter paper."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Alloys",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each alloy with its approximate composition.",
+  "image": {
+   "src": "/img/mixtures/alloys.svg",
+   "alt": "A brass bell, a bronze medal and a stainless steel tumbler"
+  },
+  "left": [
+   {
+    "id": "brass",
+    "text": "Brass"
+   },
+   {
+    "id": "bronze",
+    "text": "Bronze"
+   },
+   {
+    "id": "steel",
+    "text": "Stainless steel"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "About 80% copper and 20% zinc"
+   },
+   {
+    "id": "r2",
+    "text": "About 80% copper and 20% tin"
+   },
+   {
+    "id": "r3",
+    "text": "Iron with chromium, nickel, molybdenum and a little carbon"
+   },
+   {
+    "id": "r4",
+    "text": "About 80% iron and 20% copper"
+   }
+  ],
+  "pairs": {
+   "brass": "r1",
+   "bronze": "r2",
+   "steel": "r3"
+  },
+  "hint": "Brass and bronze are both mostly copper; they differ in the second metal.",
+  "explanation": "**Brass** is about 80% copper and 20% zinc, and **bronze** about 80% copper and 20% tin. **Stainless steel** is iron with chromium (16–18%), nickel (10–14%), molybdenum (2–3%) and carbon (0.03–0.8%). An **alloy** is a homogeneous mixture of metals, or of a metal and a non-metal, made by mixing the molten metals. Physical methods cannot separate it. Alloys are made to be stronger, more rigid or more resistant to corrosion."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Composition of an alloy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A $200\\ \\text{g}$ brass statue is 65% copper by mass, and the rest is zinc. How much copper and zinc does it contain?",
+  "image": {
+   "src": "/img/mixtures/alloys.svg",
+   "alt": "A brass bell, a bronze medal and a stainless steel tumbler"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Copper 70 g, zinc 130 g"
+   },
+   {
+    "id": "b",
+    "text": "Copper 130 g, zinc 70 g"
+   },
+   {
+    "id": "c",
+    "text": "Copper 65 g, zinc 35 g"
+   },
+   {
+    "id": "d",
+    "text": "Copper 130 g, zinc 200 g"
+   }
+  ],
+  "answer": "b",
+  "hint": "Find 65% of 200 g, then subtract to find the zinc.",
+  "explanation": "Copper $= \\dfrac{65}{100} \\times 200\\ \\text{g} = 130\\ \\text{g}$, and zinc $= 200 - 130 = 70\\ \\text{g}$ (35%). Option A swaps the two metals. Option C treats the percentages as grams, which is only right for a 100 g sample. Option D forgets to subtract the copper. The masses must add up to the 200 g total."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Separation processes",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each observation with the process it shows.",
+  "image": {
+   "src": "/img/mixtures/sublimation.svg",
+   "alt": "A china dish heated under an inverted glass funnel"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Dry ice turning into gas without melting"
+   },
+   {
+    "id": "l2",
+    "text": "Camphor vapour forming a white solid on a cool funnel wall"
+   },
+   {
+    "id": "l3",
+    "text": "Alum making fine mud particles clump together"
+   },
+   {
+    "id": "l4",
+    "text": "Blue crystals growing as a hot saturated copper sulfate solution cools"
+   }
+  ],
+  "right": [
+   {
+    "id": "sub",
+    "text": "Sublimation"
+   },
+   {
+    "id": "dep",
+    "text": "Deposition"
+   },
+   {
+    "id": "coag",
+    "text": "Coagulation"
+   },
+   {
+    "id": "cry",
+    "text": "Crystallization"
+   },
+   {
+    "id": "dist",
+    "text": "Distillation"
+   }
+  ],
+  "pairs": {
+   "l1": "sub",
+   "l2": "dep",
+   "l3": "coag",
+   "l4": "cry"
+  },
+  "hint": "Solid → vapour and vapour → solid have different names.",
+  "explanation": "Dry ice (solid carbon dioxide) changes straight from solid to vapour, which is **sublimation**. Camphor vapour turning straight back into a solid is **deposition**. Alum acting as a coagulant makes fine particles clump, which is **coagulation**. Crystals separating out of a cooling saturated solution is **crystallization**. Distillation, the leftover option, involves boiling a liquid and condensing its vapour."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Filtration",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Chalk powder stirred in water is poured through this filter. Tap the **residue**.",
+  "image": {
+   "src": "/img/mixtures/filtration.svg",
+   "alt": "A filtration set-up with a funnel, filter paper and beaker, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "rim",
+    "x": 40.67,
+    "y": 20.59,
+    "label": "Rim of the filter paper"
+   },
+   {
+    "id": "res",
+    "x": 53.33,
+    "y": 38.24,
+    "label": "Solid left on the filter paper (residue)"
+   },
+   {
+    "id": "stem",
+    "x": 53.33,
+    "y": 55.88,
+    "label": "Stem of the funnel"
+   },
+   {
+    "id": "filt",
+    "x": 53.33,
+    "y": 88.82,
+    "label": "Clear liquid in the beaker (filtrate)"
+   },
+   {
+    "id": "stand",
+    "x": 13.33,
+    "y": 58.82,
+    "label": "Stand"
+   }
+  ],
+  "answer": "res",
+  "hint": "The residue is whatever cannot pass through the filter paper.",
+  "explanation": "Insoluble particles that are too big to pass through the pores of the filter paper stay on it as the **residue**. The liquid that passes through and collects in the beaker is the **filtrate**. Salt dissolved in water would leave no residue, because dissolved particles go straight through the paper."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Limits of filtration",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/mixtures/filtration.svg",
+   "alt": "Muddy water dripping through a filter funnel into a beaker"
+  },
+  "assertion": "Filtering muddy water through filter paper always gives perfectly clear water.",
+  "reason": "Filtration cannot always remove the very tiny particles suspended in muddy water.",
+  "answer": "d",
+  "hint": "After filtering, muddy water often still looks cloudy. Why?",
+  "explanation": "A is false but R is true. Filtering through cloth or filter paper removes the larger particles, but the water often stays **cloudy** because very tiny particles slip through. Water like this can be cleared by **centrifugation** or **coagulation** (for example with alum), followed by settling and decantation or filtration."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Centrifugation",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In a centrifuge, why do the heavier particles end up at the **bottom** of each tube?",
+  "image": {
+   "src": "/img/mixtures/centrifuge.svg",
+   "alt": "Top view of a spinning centrifuge rotor holding four tubes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "While spinning, the tubes swing horizontal and the outward (centrifugal) force pushes the heavier particles out to the tube bottoms"
+   },
+   {
+    "id": "b",
+    "text": "Spinning heats the mixture so the heavy particles melt and sink"
+   },
+   {
+    "id": "c",
+    "text": "Spinning dissolves the lighter particles, leaving only heavy ones"
+   },
+   {
+    "id": "d",
+    "text": "A magnet in the machine pulls the particles downwards"
+   }
+  ],
+  "answer": "a",
+  "hint": "Remember the spinning game in which you feel pulled outwards.",
+  "explanation": "During **centrifugation** the tubes spin very fast and become horizontal. The **centrifugal force**, the outward force on a body moving in a circle, drives the heavier particles outwards to the bottom of each tube while the lighter liquid stays on top. You feel the same outward pull in the spinning folk game called *phugadi* in Marathi and *kikli* in Punjabi. No heating, dissolving or magnet is involved."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Paperfuge",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The **paperfuge** is a cheap, hand-powered device based on a spinning toy. How does it help health workers in remote areas?",
+  "image": {
+   "src": "/img/mixtures/paperfuge.svg",
+   "alt": "A cardboard disc spinning on strings pulled by two handles, with a small tube taped to it"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It spins blood samples very fast without electricity, separating the heavier parts so that diseases like malaria and anaemia can be detected"
+   },
+   {
+    "id": "b",
+    "text": "It filters germs out of drinking water"
+   },
+   {
+    "id": "c",
+    "text": "It distils medicines from plant leaves"
+   },
+   {
+    "id": "d",
+    "text": "It measures a patient's blood pressure"
+   }
+  ],
+  "answer": "a",
+  "hint": "It does the same job as a laboratory centrifuge.",
+  "explanation": "Pulling the strings spins the cardboard disc at very high speed, so the paperfuge works like a **centrifuge** without any electricity. Heavier components of the blood move away from the lighter ones, and this helps detect diseases such as **malaria** and **anaemia** where no laboratory machine is available. It is an example of simple, low-cost technology improving medical care."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Coagulation",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/mixtures/coagulation.svg",
+   "alt": "Three beakers of muddy water: alum being added, clumps forming and the mud settled"
+  },
+  "assertion": "Powdered alum (fitkari) is added to muddy water to help make it clear.",
+  "reason": "Alum is a white crystalline substance.",
+  "answer": "b",
+  "hint": "R is a true description of alum, but does it say what alum **does**?",
+  "explanation": "Both are true, but R does not explain A. Alum clears muddy water because it acts as a **coagulant**: it makes the fine suspended particles clump into bigger lumps. The lumps settle by gravity (**sedimentation**) and are removed by decantation or filtration. Its white crystalline appearance has nothing to do with this. Sewage treatment uses the same steps, sedimentation, coagulation and filtration, so the water can be reused for flushing toilets or watering plants."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Coagulation in daily life",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "To make paneer, lemon juice or vinegar is added to hot milk. What role does it play?",
+  "image": {
+   "src": "/img/mixtures/paneer.svg",
+   "alt": "Lemon juice being squeezed into a pan of hot milk with white lumps forming"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It acts as a coagulant, making the milk proteins clump together"
+   },
+   {
+    "id": "b",
+    "text": "It dissolves the fat in the milk"
+   },
+   {
+    "id": "c",
+    "text": "It boils away the water in the milk"
+   },
+   {
+    "id": "d",
+    "text": "It acts as an emulsifying agent that keeps the milk smooth"
+   }
+  ],
+  "answer": "a",
+  "hint": "White lumps appear and separate from a watery liquid.",
+  "explanation": "The acid in lemon juice or vinegar is a **coagulant**. It makes the milk proteins clump into solid lumps (paneer), which separate from the watery liquid. This is **coagulation**, just as alum clumps mud particles. An emulsifying agent does the opposite: it keeps an emulsion stable, the way milk proteins do in ordinary milk."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Components of blood",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tube (a) is a blood sample before centrifugation, and tube (b) is the same blood afterwards. Tap the layer of **plasma**.",
+  "image": {
+   "src": "/img/mixtures/blood-tube.svg",
+   "alt": "Two test tubes of blood in a stand with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "spin",
+    "x": 50,
+    "y": 21.18,
+    "label": "Spin symbol"
+   },
+   {
+    "id": "whole",
+    "x": 35,
+    "y": 55.88,
+    "label": "Unspun blood in tube (a)"
+   },
+   {
+    "id": "plasma",
+    "x": 65,
+    "y": 38.82,
+    "label": "Top yellow layer – plasma"
+   },
+   {
+    "id": "buffy",
+    "x": 65,
+    "y": 55.88,
+    "label": "Thin white layer – platelets and white blood cells"
+   },
+   {
+    "id": "rbc",
+    "x": 65,
+    "y": 73.53,
+    "label": "Bottom red layer – red blood cells"
+   }
+  ],
+  "answer": "plasma",
+  "hint": "Plasma is the lightest part, a pale yellow liquid.",
+  "explanation": "Spinning drives the heavier **red blood cells** to the bottom. A thin white band of platelets and white blood cells sits above them, and the lighter, pale yellow **plasma** rises to the top. Blood banks separate donated blood into these components and store them for patients who need transfusions. The body replaces donated blood within a few weeks, so donating is safe."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Colloids",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Blood can be separated by centrifugation, yet its cells cannot be seen with the naked eye and they do not settle when blood stands. What type of mixture is blood?",
+  "image": {
+   "src": "/img/mixtures/blood-tube.svg",
+   "alt": "Two test tubes of blood in a stand, before and after spinning"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A true solution"
+   },
+   {
+    "id": "b",
+    "text": "A suspension"
+   },
+   {
+    "id": "c",
+    "text": "An alloy"
+   },
+   {
+    "id": "d",
+    "text": "A colloid"
+   }
+  ],
+  "answer": "d",
+  "hint": "Its particles are bigger than those in a solution but smaller than those in a suspension.",
+  "explanation": "Blood is a **colloid**. Its particles (1–1000 nm) are too big for a true solution but too small to be seen or to settle like a **suspension**. The blood cells and platelets form the **dispersed phase**, and plasma is the **dispersion medium**. If blood behaved like a true suspension, its cells would settle inside the blood vessels. Milk, tomato sauce and ice cream are other colloids."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Solutions, suspensions and colloids",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each type of mixture with its set of properties.",
+  "image": {
+   "src": "/img/mixtures/particle-size.svg",
+   "alt": "Three magnified views of particles of different sizes in water"
+  },
+  "left": [
+   {
+    "id": "sol",
+    "text": "Solution"
+   },
+   {
+    "id": "sus",
+    "text": "Suspension"
+   },
+   {
+    "id": "col",
+    "text": "Colloid"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Particles under 1 nm; transparent; no Tyndall effect; cannot be filtered out"
+   },
+   {
+    "id": "r2",
+    "text": "Particles over 1000 nm; settle on standing; scatter light; can be filtered out"
+   },
+   {
+    "id": "r3",
+    "text": "Particles 1–1000 nm; do not settle; scatter light; cannot be filtered out"
+   },
+   {
+    "id": "r4",
+    "text": "Particles 1–1000 nm; settle quickly; no Tyndall effect"
+   }
+  ],
+  "pairs": {
+   "sol": "r1",
+   "sus": "r2",
+   "col": "r3"
+  },
+  "hint": "The main difference is particle size. Size decides settling, filtering and light scattering.",
+  "explanation": "A **solution** (such as salt water) has particles under 1 nm. It is transparent, does not scatter light and passes through filter paper. A **suspension** (such as mud or sand in water) has particles over 1000 nm that can be seen, settle, scatter light and are caught by filter paper. A **colloid** (such as milk) has particles of 1–1000 nm that stay evenly spread, scatter light and pass through filter paper. The fourth description mixes these properties up."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Tyndall effect",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/mixtures/particle-size.svg",
+   "alt": "Three magnified views of particles of different sizes"
+  },
+  "assertion": "Solutions do not show the Tyndall effect.",
+  "reason": "The particles in a solution are larger than 100 nm, so they cannot scatter light.",
+  "answer": "c",
+  "hint": "How big are the solute particles in a true solution?",
+  "explanation": "A is true but R is false. Solute particles in a solution are the **smallest** kind, less than 1 nm across, and that is exactly why they are too small to scatter a beam of light. Larger particles, like those in colloids (1–1000 nm) and suspensions (over 1000 nm), do scatter light and show the **Tyndall effect**."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Tyndall effect in nature",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Why can you see bright beams of sunlight in the air when sunlight passes through small gaps between the leaves of a dense tree?",
+  "image": {
+   "src": "/img/mixtures/sunbeams.svg",
+   "alt": "Beams of sunlight slanting through gaps in a dense tree canopy"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The leaves reflect extra light into the air"
+   },
+   {
+    "id": "b",
+    "text": "The air gets hotter where the sunlight passes and starts to glow"
+   },
+   {
+    "id": "c",
+    "text": "The leaves split sunlight into its colours"
+   },
+   {
+    "id": "d",
+    "text": "Fine dust and smoke particles in the air scatter the light (the Tyndall effect)"
+   }
+  ],
+  "answer": "d",
+  "hint": "Light becomes visible from the side only when something in its path scatters it.",
+  "explanation": "Tiny dust and smoke particles in the air **scatter** the light, so its path becomes visible from the side. This is the **Tyndall effect**, named after John Tyndall, who studied the scattering of light by particles. You see it in floodlit stadiums and when a thin beam enters a dark room through a small hole. Smoke and dust scattering light is also why polluted cities look hazy."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Tyndall effect",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "A beam of light is passed through each of these mixtures. In which would the **path of the beam be visible**? Select all that apply.",
+  "image": {
+   "src": "/img/mixtures/tyndall-beakers.svg",
+   "alt": "A laser pointer shining through three beakers labelled A, B and C"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Air with dust particles"
+   },
+   {
+    "id": "b",
+    "text": "Copper sulfate ($\\ce{CuSO4}$) dissolved in water"
+   },
+   {
+    "id": "c",
+    "text": "Starch stirred in water"
+   },
+   {
+    "id": "d",
+    "text": "Acetone mixed with water"
+   },
+   {
+    "id": "e",
+    "text": "A few drops of milk in water"
+   },
+   {
+    "id": "f",
+    "text": "Common salt ($\\ce{NaCl}$) dissolved in water"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "e"
+  ],
+  "hint": "Only colloids and suspensions scatter light. True solutions do not.",
+  "explanation": "Dust in air, starch in water and milk in water contain particles large enough to scatter light, so they show the **Tyndall effect**. Copper sulfate solution, salt solution and acetone–water are true **solutions**. Their particles are far too small, so the beam passes through unseen, even though copper sulfate solution is coloured blue."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Emulsions",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "An **emulsion** is a colloid in which both the dispersed phase and the dispersion medium are liquids. Which of these is a **water-in-oil** emulsion?",
+  "image": {
+   "src": "/img/mixtures/emulsions.svg",
+   "alt": "A glass of milk, a block of butter, a jar of cream and a bottle of lotion"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Milk"
+   },
+   {
+    "id": "b",
+    "text": "Vanishing cream"
+   },
+   {
+    "id": "c",
+    "text": "Butter"
+   },
+   {
+    "id": "d",
+    "text": "Vinegar"
+   }
+  ],
+  "answer": "c",
+  "hint": "In a water-in-oil emulsion, tiny water droplets are spread through oil or fat.",
+  "explanation": "**Butter** (like cold cream and body lotions) is a **water-in-oil** emulsion: water droplets dispersed in fat. Milk and vanishing cream are **oil-in-water** emulsions. Vinegar is a true solution of acetic acid in water, not an emulsion. Emulsifying agents, such as the proteins in milk and butter, keep emulsions stable. You can make one by shaking a few drops of oil with water and a little soap solution."
+ },
+ {
+  "id": "in-cbse-9-chem-mixtures-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Exploring Mixtures and their Separation",
+  "chapterNo": 1,
+  "topic": "Choosing a separation method",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each mixture with the best method to separate it.",
+  "left": [
+   {
+    "id": "m1",
+    "text": "Plasma from the other parts of a blood sample"
+   },
+   {
+    "id": "m2",
+    "text": "Naphthalene from sand"
+   },
+   {
+    "id": "m3",
+    "text": "Mustard oil from water"
+   },
+   {
+    "id": "m4",
+    "text": "Pigments from a flower petal"
+   }
+  ],
+  "right": [
+   {
+    "id": "t1",
+    "text": "Centrifugation",
+    "image": {
+     "src": "/img/mixtures/centrifuge.svg",
+     "alt": "A spinning centrifuge rotor"
+    }
+   },
+   {
+    "id": "t2",
+    "text": "Sublimation",
+    "image": {
+     "src": "/img/mixtures/sublimation.svg",
+     "alt": "A dish heated under an inverted funnel"
+    }
+   },
+   {
+    "id": "t3",
+    "text": "Separating funnel",
+    "image": {
+     "src": "/img/mixtures/separating-funnel.svg",
+     "alt": "A separating funnel with a stopcock"
+    }
+   },
+   {
+    "id": "t4",
+    "text": "Paper chromatography",
+    "image": {
+     "src": "/img/mixtures/chromatography.svg",
+     "alt": "A paper strip in a covered jar"
+    }
+   },
+   {
+    "id": "t5",
+    "text": "Distillation",
+    "image": {
+     "src": "/img/mixtures/distillation.svg",
+     "alt": "A flask, condenser and receiver"
+    }
+   }
+  ],
+  "pairs": {
+   "m1": "t1",
+   "m2": "t2",
+   "m3": "t3",
+   "m4": "t4"
+  },
+  "hint": "Ask which property differs: density, the ability to sublime, mixing with water, or speed of moving up paper.",
+  "explanation": "**Centrifugation** spins the heavier blood cells away from the lighter plasma. Naphthalene **sublimes** but sand does not. Mustard oil and water are immiscible liquids of different densities, so a **separating funnel** works. Flower pigments move up paper at different rates, which suits **paper chromatography**. Distillation is left over: it suits miscible liquids with different boiling points."
+ }
+]

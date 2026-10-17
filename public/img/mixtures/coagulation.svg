@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" role="img">
+<title>Three beakers of muddy water treated with powdered alum</title>
+<style>
+.pw circle{animation:pw 1.8s ease-in infinite}
+.pw circle:nth-child(2){animation-delay:.5s}.pw circle:nth-child(3){animation-delay:1s}.pw circle:nth-child(4){animation-delay:1.4s}
+@keyframes pw{0%{transform:translateY(0);opacity:1}100%{transform:translateY(46px);opacity:0}}
+.cl{animation:cl 4s ease-in-out infinite alternate}
+@keyframes cl{from{transform:translateY(-6px)}to{transform:translateY(14px)}}
+.ar{animation:ar 1.5s ease-in-out infinite alternate}
+@keyframes ar{from{transform:translateX(-3px)}to{transform:translateX(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M36 86H134V182Q134 188 128 188H42Q36 188 36 182Z" fill="#C9AE7E"/>
+<g fill="#A88A52"><circle cx="54" cy="110" r="1.5"/><circle cx="72" cy="140" r="1.5"/><circle cx="96" cy="120" r="1.5"/><circle cx="118" cy="150" r="1.5"/><circle cx="62" cy="170" r="1.5"/><circle cx="106" cy="172" r="1.5"/><circle cx="84" cy="98" r="1.5"/></g>
+<path d="M60 22L104 40" stroke="#C8925A" stroke-width="5" stroke-linecap="round"/>
+<path d="M98 36Q112 34 116 44Q108 50 98 44Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<g class="pw" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="1"><circle cx="110" cy="50" r="2.5"/><circle cx="104" cy="52" r="2"/><circle cx="114" cy="54" r="2"/><circle cx="108" cy="48" r="2.5"/></g>
+<path d="M191 86H289V182Q289 188 283 188H197Q191 188 191 182Z" fill="#DCCDAE"/>
+<g class="cl" fill="#8A6A3A"><circle cx="210" cy="110" r="6"/><circle cx="244" cy="128" r="7"/><circle cx="270" cy="104" r="5"/><circle cx="226" cy="150" r="6"/><circle cx="262" cy="150" r="7"/><circle cx="216" cy="132" r="4"/></g>
+<path d="M346 86H444V182Q444 188 438 188H352Q346 188 346 182Z" fill="#DFF1FB"/>
+<path d="M347 172Q370 166 395 170T443 170V182Q443 187 438 187H352Q347 187 347 182Z" fill="#8A6A3A"/>
+<g fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 60H140M35 60V182Q35 189 42 189H128Q135 189 135 182V60"/>
+<path d="M185 60H295M190 60V182Q190 189 197 189H283Q290 189 290 182V60"/>
+<path d="M340 60H450M345 60V182Q345 189 352 189H438Q445 189 445 182V60"/>
+</g>
+<g class="ar" fill="#FF8A1F"><path d="M148 120H172V112L184 125L172 138V130H148Z"/><path d="M303 120H327V112L339 125L327 138V130H303Z"/></g>
+<g font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="85" y="214">(a)</text><text x="240" y="214">(b)</text><text x="395" y="214">(c)</text></g>
+</svg>

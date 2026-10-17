@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A traditional set-up with a copper pot on a fire joined by a bamboo pipe to a receiver pot in water</title>
+<style>
+.fl path{transform-box:fill-box;transform-origin:50% 100%;animation:fl .6s ease-in-out infinite alternate}
+.fl path:nth-child(2){animation-delay:.3s}
+@keyframes fl{from{transform:scaleY(.8)}to{transform:scaleY(1.15)}}
+.vp{animation:vp 1.2s linear infinite}
+@keyframes vp{to{stroke-dashoffset:-20}}
+.rp{animation:rp 3s ease-in-out infinite alternate}
+@keyframes rp{from{transform:translateX(-4px)}to{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="232" width="400" height="28" fill="#D9C49A"/>
+<g fill="#C0634A" stroke="#7E3A28" stroke-width="2"><rect x="30" y="200" width="40" height="18"/><rect x="70" y="200" width="40" height="18"/><rect x="110" y="200" width="40" height="18"/><rect x="40" y="218" width="40" height="16"/><rect x="80" y="218" width="40" height="16"/><rect x="120" y="218" width="30" height="16"/><rect x="30" y="218" width="10" height="16"/></g>
+<g class="fl"><path d="M70 200C60 186 66 174 76 166C80 178 92 182 86 200Z" fill="#FF8A1F"/><path d="M104 200C96 188 100 178 110 172C112 182 122 188 116 200Z" fill="#F6C453"/></g>
+<path d="M50 120Q40 196 90 200Q140 196 130 120Z" fill="#C46A3A" stroke="#7E3A28" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M44 120Q90 96 136 120Z" fill="#B0703A" stroke="#7E3A28" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M62 140Q60 170 74 186" stroke="#E7A57A" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M90 106L90 80L268 120" fill="none" stroke="#8C6A2F" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M90 106L90 80L268 120" fill="none" stroke="#C8A25A" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<path class="vp" d="M90 104L90 80L268 120" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="5 5" opacity=".9"/>
+<g stroke="#8C6A2F" stroke-width="2"><path d="M140 86L141 96M196 99L197 109M240 109L241 119"/></g>
+<rect x="210" y="150" width="160" height="82" rx="6" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/>
+<path d="M214 168H366V226Q366 228 364 228H216Q214 228 214 226Z" fill="#7CC4EA"/>
+<path class="rp" d="M214 168Q234 164 254 168T294 168T334 168T366 168" fill="none" stroke="#CDEBFA" stroke-width="2.5"/>
+<path d="M262 124Q238 150 246 196Q266 222 290 222Q314 222 334 196Q342 150 318 124Z" fill="#C46A3A" stroke="#7E3A28" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="290" cy="124" rx="28" ry="7" fill="#9C5530" stroke="#7E3A28" stroke-width="2.5"/>
+</svg>

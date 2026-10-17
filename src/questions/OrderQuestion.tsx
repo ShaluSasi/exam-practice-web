@@ -56,6 +56,14 @@ function OrderItem({
       >
         {state === "correct" ? <Check className="size-4" strokeWidth={3} /> : state === "wrong" ? <X className="size-4" strokeWidth={3} /> : index + 1}
       </span>
+      {item.image && (
+        <img
+          src={item.image.src}
+          alt={item.image.alt}
+          draggable={false}
+          className="size-11 shrink-0 select-none rounded-xl sm:size-14"
+        />
+      )}
       <RichText text={item.text} className="min-w-0 flex-1 font-semibold" />
       {!locked && (
         <div className="flex shrink-0 gap-1">

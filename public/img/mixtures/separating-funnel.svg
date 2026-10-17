@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img">
+<title>A separating funnel holding two liquid layers above a conical flask</title>
+<defs><clipPath id="bulb"><path d="M140 52C92 68 84 132 122 182L145 212H155L178 182C216 132 208 68 160 52Z"/></clipPath></defs>
+<style>
+.drip{animation:dp 1.4s ease-in infinite}
+@keyframes dp{0%{transform:translateY(0);opacity:1}85%{opacity:1}100%{transform:translateY(40px);opacity:0}}
+.if{animation:if 3s ease-in-out infinite alternate}
+@keyframes if{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="10" y="340" width="84" height="10" rx="4" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<path d="M40 340V20M40 74H96" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<g clip-path="url(#bulb)">
+<rect x="80" y="40" width="140" height="180" fill="#F3F8FC"/>
+<rect x="80" y="76" width="140" height="54" fill="#F6C453"/>
+<rect x="80" y="130" width="140" height="90" fill="#CDEBFA"/>
+<path class="if" d="M70 130Q90 126 110 130T150 130T190 130T230 130" fill="none" stroke="#D9A21F" stroke-width="2.5"/>
+</g>
+<rect x="141" y="34" width="18" height="20" fill="#F3F8FC" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M140 52C92 68 84 132 122 182L145 212H155L178 182C216 132 208 68 160 52" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M118 82C106 100 104 130 116 152" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+<rect x="134" y="20" width="32" height="16" rx="5" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<ellipse cx="150" cy="74" rx="62" ry="6" fill="none" stroke="#6E7396" stroke-width="3"/>
+<rect x="146" y="211" width="8" height="80" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="126" y="231" width="48" height="10" rx="4" fill="#C8925A" stroke="#8A5A2B" stroke-width="2"/>
+<circle cx="150" cy="236" r="8" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<circle class="drip" cx="150" cy="296" r="3" fill="#7CC4EA"/>
+<path d="M115 350H185Q190 350 188 346L170 324H130L112 346Q110 350 115 350Z" fill="#CDEBFA"/>
+<path d="M141 296V312L112 346Q110 350 115 350H185Q190 350 188 346L159 312V296" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

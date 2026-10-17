@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" role="img">
+<title>A hospital saline drip bag hanging from a stand</title>
+<style>
+.dp{animation:dp 1.2s ease-in infinite}
+@keyframes dp{0%{transform:translateY(0);opacity:1}90%{opacity:1}100%{transform:translateY(26px);opacity:0}}
+.fl{animation:fl 2s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-20}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M60 22V292M60 22H124M124 22V36" stroke="#6E7396" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M30 292H90M36 292L30 304M84 292L90 304" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<circle cx="30" cy="306" r="5" fill="#2B2F4A"/><circle cx="90" cy="306" r="5" fill="#2B2F4A"/>
+<path d="M84 40H164Q172 40 172 48V128Q172 146 150 150H98Q76 146 76 128V48Q76 40 84 40Z" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M78 62H170V128Q170 144 150 148H98Q78 144 78 128Z" fill="#CDEBFA"/>
+<rect x="88" y="74" width="72" height="44" rx="6" fill="#FFFFFF" stroke="#0B93D4" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-weight="700" fill="#0B93D4" text-anchor="middle"><text x="124" y="93" font-size="13">0.9% NaCl</text><text x="124" y="111" font-size="12">500 mL</text></g>
+<circle cx="124" cy="36" r="5" fill="none" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M124 150V164" stroke="#2B2F4A" stroke-width="4"/>
+<rect x="114" y="164" width="20" height="40" rx="6" fill="#F3F8FC" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M115 192H133V198Q133 203 128 203H120Q115 203 115 198Z" fill="#CDEBFA"/>
+<circle class="dp" cx="124" cy="168" r="3" fill="#7CC4EA"/>
+<path d="M124 204V244Q124 266 150 270H210" fill="none" stroke="#A3A8CC" stroke-width="4" stroke-linecap="round"/>
+<path class="fl" d="M124 204V244Q124 266 150 270H210" fill="none" stroke="#7CC4EA" stroke-width="2" stroke-dasharray="4 6"/>
+</svg>

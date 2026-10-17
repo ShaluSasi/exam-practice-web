@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A gas discharge tube connected to a high-voltage supply and a pump, with numbered markers</title>
+<style>
+.glow{animation:gw 2.5s ease-in-out infinite}@keyframes gw{50%{opacity:.25}}.fan{transform-box:fill-box;transform-origin:center;animation:sp 1.5s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="150" y="14" width="100" height="44" rx="8" fill="#F6C453" stroke="#B8892A" stroke-width="3"/>
+<path d="M204 20 l-10 14 h9 l-6 16 l14 -19 h-9 l7 -11z" fill="#FF8A1F" stroke="#B8892A" stroke-width="1.5" stroke-linejoin="round"/>
+<g font-family="system-ui, sans-serif" font-weight="700" fill="#2B2F4A" font-size="22" text-anchor="middle"><text x="168" y="44">+</text><text x="232" y="44">−</text></g>
+<path d="M168 58V76H84V110M232 58V76H316V110" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<rect x="50" y="95" width="300" height="70" rx="35" fill="#E3F2FD" stroke="#5B8DB8" stroke-width="3"/>
+<rect class="glow" x="96" y="112" width="208" height="36" rx="18" fill="#B6E3A8" opacity=".6"/>
+<rect x="80" y="108" width="8" height="44" rx="2" fill="#A3A8CC" stroke="#6B7099" stroke-width="2"/>
+<rect x="312" y="108" width="8" height="44" rx="2" fill="#A3A8CC" stroke="#6B7099" stroke-width="2"/>
+<path d="M70 108 q-6 22 0 44" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<rect x="193" y="164" width="14" height="32" fill="#A3A8CC" stroke="#6B7099" stroke-width="2"/>
+<rect x="160" y="194" width="80" height="44" rx="8" fill="#CDEBFA" stroke="#0B93D4" stroke-width="3"/>
+<g class="fan"><circle cx="200" cy="216" r="13" fill="#fff" stroke="#0B93D4" stroke-width="2.5"/><path d="M200 205v22M189 216h22" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

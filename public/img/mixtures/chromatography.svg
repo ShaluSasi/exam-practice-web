@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img">
+<title>A paper strip standing in a covered gas jar with a little water</title>
+<style>
+.fr{animation:fr 2s ease-in-out infinite alternate}
+@keyframes fr{from{transform:translateY(-2px)}to{transform:translateY(2px)}}
+.sp ellipse{transform-box:fill-box;transform-origin:center;animation:sp 3s ease-in-out infinite}
+.sp ellipse:nth-child(2){animation-delay:.5s}.sp ellipse:nth-child(3){animation-delay:1s}
+@keyframes sp{0%,100%{transform:scale(.92)}50%{transform:scale(1.08)}}
+.wv{animation:wv 3s ease-in-out infinite alternate}
+@keyframes wv{from{transform:translateX(-4px)}to{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M81 296H219V320Q219 333 206 333H94Q81 333 81 320Z" fill="#CDEBFA"/>
+<path class="wv" d="M84 296Q100 292 116 296T148 296T180 296T216 296" fill="none" stroke="#7CC4EA" stroke-width="2"/>
+<rect x="130" y="70" width="40" height="252" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2"/>
+<rect x="131" y="128" width="38" height="168" fill="#E8F4FB"/>
+<rect x="131" y="296" width="38" height="25" fill="#BFE2F6"/>
+<path class="fr" d="M131 128Q140 124 150 128T169 128" fill="none" stroke="#7CC4EA" stroke-width="2.5"/>
+<path d="M133 276H167" stroke="#6E7396" stroke-width="2"/>
+<circle cx="150" cy="276" r="3" fill="#B7B9C9"/>
+<g class="sp">
+<ellipse cx="150" cy="162" rx="10" ry="7" fill="#F6C453" stroke="#C99A1E" stroke-width="1.5"/>
+<ellipse cx="150" cy="202" rx="10" ry="7" fill="#E05FA0" stroke="#A8326E" stroke-width="1.5"/>
+<ellipse cx="150" cy="238" rx="10" ry="7" fill="#3D7FE0" stroke="#22519E" stroke-width="1.5"/>
+</g>
+<path d="M80 66V320Q80 334 94 334H206Q220 334 220 320V66" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M90 80V300" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<path d="M62 62Q150 82 238 62" fill="none" stroke="#7FA9C8" stroke-width="5" stroke-linecap="round"/>
+</svg>

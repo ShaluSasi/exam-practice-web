@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>A bottle of vinegar next to a measuring cylinder</title>
+<style>
+.lv{animation:lv 3s ease-in-out infinite alternate}
+@keyframes lv{from{transform:translateY(6px)}to{transform:translateY(-6px)}}
+.bb circle{animation:bb 2.4s ease-in infinite}
+.bb circle:nth-child(2){animation-delay:1.2s}
+@keyframes bb{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-60px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="72" y="26" width="26" height="18" rx="3" fill="#3FA34D" stroke="#2A7034" stroke-width="2"/>
+<path d="M76 44H94V70Q120 82 120 108V226Q120 236 110 236H60Q50 236 50 226V108Q50 82 76 70Z" fill="#FBF3D9" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="56" y="130" width="58" height="62" rx="6" fill="#FFFFFF" stroke="#3FA34D" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-weight="700" fill="#2A7034" text-anchor="middle"><text x="85" y="154" font-size="12">Vinegar</text><text x="85" y="176" font-size="12">5% v/v</text></g>
+<g class="bb" fill="#FFFFFF" stroke="#D9CFA8" stroke-width="1"><circle cx="66" cy="222" r="3"/><circle cx="104" cy="220" r="2.5"/></g>
+<path d="M181 120H229V226Q229 230 225 230H185Q181 230 181 226Z" fill="#EEF7FC"/>
+<g class="lv"><path d="M182 132H228V226H182Z" fill="#E9F5D8"/><path d="M182 132H228" stroke="#3FA34D" stroke-width="2"/></g>
+<rect x="176" y="40" width="58" height="80" fill="#FFF9EE"/>
+<path d="M180 40V226Q180 231 185 231H225Q230 231 230 226V40M174 40H236" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M164 232H246" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="1.8" stroke-linecap="round"><path d="M180 60H192M180 80H188M180 100H192M180 120H188M180 140H192M180 160H188M180 180H192M180 200H188M180 220H192"/></g>
+</svg>

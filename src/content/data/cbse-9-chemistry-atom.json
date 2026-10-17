@@ -1,0 +1,2275 @@
+[
+ {
+  "id": "in-cbse-9-chem-atom-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Roots of atomic theory",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Thinkers in ancient India and Greece, and later John Dalton, wondered what matter is made of. Which of these statements are correct? Select all that apply.",
+  "image": {
+   "src": "/img/atom/parmanu.svg",
+   "alt": "A grain being divided into smaller and smaller pieces, and tiny particles joined in groups"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Acharya Kanada called the smallest particles of matter that cannot be divided further **parmanus**"
+   },
+   {
+    "id": "b",
+    "text": "Parmanus can combine as dyads (groups of two) and triads (groups of three)"
+   },
+   {
+    "id": "c",
+    "text": "Kanada's description gave the exact proportions in which parmanus combine to form each substance"
+   },
+   {
+    "id": "d",
+    "text": "The Greek word *atomos* means 'indivisible'"
+   },
+   {
+    "id": "e",
+    "text": "The ideas of Kanada and Democritus came from careful laboratory experiments"
+   },
+   {
+    "id": "f",
+    "text": "John Dalton's atomic theory of 1808 was the first scientific description of matter, based on experiments"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d",
+   "f"
+  ],
+  "hint": "Two of the wrong statements claim too much about the ancient ideas.",
+  "explanation": "**Acharya Kanada** called the smallest indivisible particles **parmanus** (recorded in the *Vaisesika Sutras*), and said they combine as **dyads** (two) and **triads** (three). The Greek word **atomos** means *indivisible*. These were imaginary ideas, not experiments, and Kanada did not give the proportions in which parmanus combine. **Dalton's theory (1808)** was the first scientific description, based on the experiments of his time."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Discovery of the electron",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In this discharge tube, follow the wires from the high-voltage supply. Tap the **cathode**.",
+  "image": {
+   "src": "/img/atom/cathode-tube.svg",
+   "alt": "A discharge tube wired to a high-voltage supply, with a pump below and numbered markers"
+  },
+  "spots": [
+   {
+    "id": "left",
+    "x": 21.0,
+    "y": 50.0,
+    "label": "Anode (positive electrode)"
+   },
+   {
+    "id": "gas",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Gas at very low pressure"
+   },
+   {
+    "id": "right",
+    "x": 79.0,
+    "y": 50.0,
+    "label": "Cathode (negative electrode)"
+   },
+   {
+    "id": "supply",
+    "x": 50.0,
+    "y": 13.8,
+    "label": "High-voltage supply"
+   },
+   {
+    "id": "pump",
+    "x": 50.0,
+    "y": 83.1,
+    "label": "Vacuum pump"
+   }
+  ],
+  "answer": "right",
+  "hint": "The cathode is the electrode joined to the negative (−) terminal.",
+  "explanation": "The **cathode** is the **negative electrode**, so it is the one wired to the **−** terminal, here the right-hand plate. The left plate, joined to **+**, is the **anode**. Cathode rays travel from the cathode to the anode through gas kept at a very low pressure by the vacuum pump."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Discovery of the electron",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Thomson got the same kind of cathode rays **whatever metal** he used for the cathode and **whatever gas** filled the tube. What did this show?",
+  "image": {
+   "src": "/img/atom/cathode-tube.svg",
+   "alt": "A gas discharge tube connected to a high-voltage supply and a vacuum pump"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Cathode rays come only from metals, not from gases"
+   },
+   {
+    "id": "b",
+    "text": "Electrons are a basic part of the atoms of every element"
+   },
+   {
+    "id": "c",
+    "text": "Atoms cannot be broken into smaller particles"
+   },
+   {
+    "id": "d",
+    "text": "Cathode rays are streams of positively charged particles"
+   }
+  ],
+  "answer": "b",
+  "hint": "If the rays don't depend on which element is used, what must every element contain?",
+  "explanation": "Because the rays were the same for every cathode material and every gas, the particles in them, the **electrons**, must be a basic part of the atoms of **every element**. Bending the rays in electric and magnetic fields showed they are **negatively charged** and much lighter than atoms, so atoms are not indivisible. The electron's charge, $-1.602 \\times 10^{-19}\\ \\text{C}$, is taken as $-1$ for convenience."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Discovery of the electron",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A beam of cathode rays passes between two charged plates. Tap where the beam ends up.",
+  "image": {
+   "src": "/img/atom/cathode-plates.svg",
+   "alt": "A beam entering the space between two charged plates, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "mid",
+    "x": 86.0,
+    "y": 50.0,
+    "label": "Straight on, not bent"
+   },
+   {
+    "id": "up",
+    "x": 86.0,
+    "y": 30.0,
+    "label": "Bent towards the + plate"
+   },
+   {
+    "id": "back",
+    "x": 20.0,
+    "y": 70.0,
+    "label": "Turned back towards the cathode"
+   },
+   {
+    "id": "down",
+    "x": 86.0,
+    "y": 70.0,
+    "label": "Bent towards the − plate"
+   }
+  ],
+  "answer": "up",
+  "hint": "Cathode rays are negatively charged. Unlike charges attract.",
+  "explanation": "Cathode rays are streams of **negatively charged electrons**, so they are attracted towards the **positive (+) plate** and repelled by the negative plate. The beam therefore bends upwards and strikes the top of the screen. Studying this bending in electric and magnetic fields is how Thomson showed the rays were negative particles."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Discovery of the electron",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of Thomson's cathode-ray investigation in order.",
+  "image": {
+   "src": "/img/atom/cathode-tube.svg",
+   "alt": "A gas discharge tube connected to a high-voltage supply and a vacuum pump"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Rays stream from the cathode towards the anode"
+   },
+   {
+    "id": "s5",
+    "text": "Conclude that the rays are negative particles much lighter than atoms"
+   },
+   {
+    "id": "s1",
+    "text": "Pump out gas so the tube holds gas at very low pressure"
+   },
+   {
+    "id": "s4",
+    "text": "Pass the rays through electric and magnetic fields"
+   },
+   {
+    "id": "s2",
+    "text": "Apply a high voltage across the two electrodes"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "First the apparatus is prepared, then the rays are produced, then they are tested.",
+  "explanation": "Thomson first pumped out most of the gas so it was at a **very low pressure**, then applied a **high voltage** across the electrodes. Rays streamed from the **cathode to the anode**. By bending them in **electric and magnetic fields** he concluded that they were **negatively charged particles** much lighter than atoms, later called electrons."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Thomson's model of an atom",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Riya builds a Thomson-style atom: a ball of positively charged clay with small negatively charged beads pressed into it. The clay's positive charge is **less** than the total negative charge of the beads. What is wrong with her model?",
+  "image": {
+   "src": "/img/atom/plum-pudding.svg",
+   "alt": "A ball of positive charge with small negative particles spread through it"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Nothing is wrong; it still represents a neutral atom"
+   },
+   {
+    "id": "b",
+    "text": "It now has a tiny nucleus at its centre"
+   },
+   {
+    "id": "c",
+    "text": "It has an overall negative charge, so it no longer represents a neutral atom"
+   },
+   {
+    "id": "d",
+    "text": "The extra beads will turn into protons to balance the charge"
+   }
+  ],
+  "answer": "c",
+  "hint": "A real atom is electrically neutral.",
+  "explanation": "In **Thomson's model** the atom is a sphere of positive charge with electrons spread through it, like seeds in a watermelon's red pulp, and the two charges **balance exactly**. If the beads carry more negative charge than the clay carries positive charge, the model has an **overall negative charge**, so it no longer stands for a neutral atom. It has no nucleus, and beads cannot change into protons."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Gold foil experiment",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Alpha particles are fired at a very thin gold foil, and a circular screen records where they land. Tap where **most** of the alpha particles were detected.",
+  "image": {
+   "src": "/img/atom/gold-foil-setup.svg",
+   "alt": "A beam of alpha particles aimed at a thin gold foil inside a circular screen, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "foil",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "The gold foil itself"
+   },
+   {
+    "id": "back",
+    "x": 26.5,
+    "y": 63.2,
+    "label": "Bounced back towards the source"
+   },
+   {
+    "id": "large",
+    "x": 45.7,
+    "y": 12.1,
+    "label": "Deflected through a large angle"
+   },
+   {
+    "id": "small",
+    "x": 71.7,
+    "y": 30.8,
+    "label": "Deflected through a small angle"
+   },
+   {
+    "id": "fwd",
+    "x": 75.0,
+    "y": 50.0,
+    "label": "Straight through, undeflected"
+   }
+  ],
+  "answer": "fwd",
+  "hint": "Most of an atom turned out to be empty space.",
+  "explanation": "**Most** alpha particles went **straight through** the foil without being deflected, so they hit the screen directly behind it. This told Rutherford that **most of an atom is empty space**. Only some were deflected, and a very few bounced back."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Gold foil experiment",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the same experiment, tap where the **very few** alpha particles that **bounced back** were detected.",
+  "image": {
+   "src": "/img/atom/gold-foil-setup.svg",
+   "alt": "A beam of alpha particles aimed at a thin gold foil inside a circular screen, with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "fwd",
+    "x": 75.0,
+    "y": 50.0,
+    "label": "Straight through, undeflected"
+   },
+   {
+    "id": "small",
+    "x": 71.7,
+    "y": 30.8,
+    "label": "Deflected through a small angle"
+   },
+   {
+    "id": "large",
+    "x": 45.7,
+    "y": 12.1,
+    "label": "Deflected through a large angle"
+   },
+   {
+    "id": "back",
+    "x": 26.5,
+    "y": 63.2,
+    "label": "Bounced back towards the source"
+   },
+   {
+    "id": "foil",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "The gold foil itself"
+   }
+  ],
+  "answer": "back",
+  "hint": "Bouncing back means coming back the way it came, towards the source.",
+  "explanation": "A very few alpha particles **bounced back** towards the source, landing on the part of the screen beside the beam. Positive alpha particles can only be turned back like this by hitting something small, **dense and positively charged**: the **nucleus**. Thomson's spread-out positive charge could never do this."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Gold foil experiment",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which statements about Rutherford's gold foil experiment are correct? Select all that apply.",
+  "image": {
+   "src": "/img/atom/gold-foil-scatter.svg",
+   "alt": "Alpha particles striking a thin gold foil, most passing through and a few bending or bouncing back"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The experiment proved that neutrons are present in the nucleus"
+   },
+   {
+    "id": "b",
+    "text": "Its results disproved the plum pudding model and led to the idea of a nucleus"
+   },
+   {
+    "id": "c",
+    "text": "The few large deflections showed that most of the mass and all the positive charge are packed into a tiny centre"
+   },
+   {
+    "id": "d",
+    "text": "The way alpha particles were deflected showed that electrons move around the nucleus"
+   },
+   {
+    "id": "e",
+    "text": "Most particles passing straight through showed that most of an atom is empty space"
+   },
+   {
+    "id": "f",
+    "text": "With a much thicker gold foil, fewer alpha particles would be deflected"
+   }
+  ],
+  "answers": [
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "The experiment was about where the positive charge and mass sit. Neutrons were found 21 years later.",
+  "explanation": "The results **disproved the plum pudding model**. Most particles passing straight through showed the atom is **mostly empty space**, and the few large deflections showed that the **mass and positive charge are packed into a tiny centre**. Neutrons were discovered by Chadwick only in 1932, and the light electrons did not cause the deflections. A **thicker foil** puts more nuclei in the path, so **more**, not fewer, particles would be deflected."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Rutherford's model of an atom",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atom/rutherford-model.svg",
+   "alt": "A tiny central nucleus with electrons moving in orbits around it"
+  },
+  "assertion": "From the gold foil experiment, Rutherford concluded that most of the mass of an atom is concentrated in a tiny central region called the nucleus.",
+  "reason": "According to Thomson's model, electrons are embedded in a sphere of evenly spread positive charge.",
+  "answer": "b",
+  "hint": "Check each statement on its own, then ask whether R is the reason for A.",
+  "explanation": "Both are true, but R does not explain A. Rutherford's conclusion came from his **own results**: a few alpha particles were deflected through large angles or bounced back, which needs a small, dense, positive **nucleus**. R just describes **Thomson's** earlier model, which the experiment actually disproved."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Size of the atom and nucleus",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Rutherford estimated that an atom is about $10^{-10}\\ \\text{m}$ across and its nucleus about $10^{-15}\\ \\text{m}$ across. How many times wider is the atom than its nucleus?",
+  "image": {
+   "src": "/img/atom/cricket-ground.svg",
+   "alt": "A cricket ground with a tiny grain at its centre, shown magnified"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$10^{5}$ (one lakh) times"
+   },
+   {
+    "id": "b",
+    "text": "$10^{-5}$ times"
+   },
+   {
+    "id": "c",
+    "text": "$10^{-25}$ times"
+   },
+   {
+    "id": "d",
+    "text": "$1.5$ times"
+   }
+  ],
+  "answer": "a",
+  "hint": "Divide the atom's size by the nucleus's size. When dividing powers of ten, subtract the exponents.",
+  "explanation": "$\\dfrac{10^{-10}\\ \\text{m}}{10^{-15}\\ \\text{m}} = 10^{-10-(-15)} = 10^{5}$, so the atom is about **one lakh** times wider. If an atom were a 100 m cricket ground, the nucleus would be a $1\\ \\text{mm}$ pepper grain at the centre. $10^{-5}$ divides the wrong way round, $10^{-25}$ multiplies instead of dividing, and $1.5$ just divides 15 by 10."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Size of the atom and nucleus",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A sheet of card is $0.2\\ \\text{mm}$ thick. If one atom is about $10^{-10}\\ \\text{m}$ across, roughly how many atoms lie stacked across the card's thickness?",
+  "image": {
+   "src": "/img/atom/paper-stack.svg",
+   "alt": "A thin sheet magnified to show the atoms packed inside it"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$2 \\times 10^{9}$"
+   },
+   {
+    "id": "b",
+    "text": "$2 \\times 10^{7}$"
+   },
+   {
+    "id": "c",
+    "text": "$2 \\times 10^{-14}$"
+   },
+   {
+    "id": "d",
+    "text": "$2 \\times 10^{6}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Convert mm to m first: $1\\ \\text{mm} = 10^{-3}\\ \\text{m}$.",
+  "explanation": "$0.2\\ \\text{mm} = 0.2 \\times 10^{-3}\\ \\text{m} = 2 \\times 10^{-4}\\ \\text{m}$. Number of atoms $= \\dfrac{2 \\times 10^{-4}}{10^{-10}} = 2 \\times 10^{6}$, about **20 lakh**. Leaving 0.2 in millimetres gives $2 \\times 10^{9}$, and treating mm as $10^{-2}\\ \\text{m}$ (like cm) gives $2 \\times 10^{7}$. Multiplying instead of dividing gives $2 \\times 10^{-14}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Limitations of Rutherford's model",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atom/spiral-collapse.svg",
+   "alt": "An electron spiralling inwards towards a positive nucleus"
+  },
+  "assertion": "Rutherford's planetary model could not explain why atoms are stable.",
+  "reason": "An electron moving in a circular path is accelerating, so it should lose energy and spiral into the nucleus.",
+  "answer": "a",
+  "hint": "Think about what happens to a charged particle that keeps changing direction.",
+  "explanation": "Both are true and R explains A. A particle moving in a circle keeps changing direction, so it is **accelerating**. An accelerating electron should **lose energy**, spiral inwards and fall into the nucleus, so atoms would collapse. Real atoms are **stable**, so Rutherford's model could not be fully correct."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Bohr's model of the atom",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Electrons orbit the nucleus in both Rutherford's and Bohr's models. Why could Bohr's model explain the **stability** of atoms?",
+  "image": {
+   "src": "/img/atom/bohr-shells.svg",
+   "alt": "Concentric energy levels around a nucleus with electrons moving on them"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "In Bohr's model the electrons do not move at all"
+   },
+   {
+    "id": "b",
+    "text": "Electrons move only in allowed shells (stationary states) where their energy stays constant"
+   },
+   {
+    "id": "c",
+    "text": "Bohr's nucleus has no charge, so it does not attract the electrons"
+   },
+   {
+    "id": "d",
+    "text": "Bohr placed the electrons inside the nucleus"
+   }
+  ],
+  "answer": "b",
+  "hint": "Bohr introduced special allowed paths as a postulate.",
+  "explanation": "Bohr proposed that electrons move only in certain allowed shells called **stationary states**, in which an electron's energy stays **constant** even though it is moving. So it does not lose energy and spiral into the nucleus. Bohr's electrons do move, the nucleus is still positive (its attraction keeps electrons in the atom), and electrons are outside the nucleus."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Bohr's model of the atom",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the shell in which an electron has the **least** energy.",
+  "image": {
+   "src": "/img/atom/bohr-shells.svg",
+   "alt": "Concentric rings around a nucleus with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "n",
+    "x": 71.1,
+    "y": 22.8,
+    "label": "N-shell (n = 4)"
+   },
+   {
+    "id": "nuc",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Nucleus"
+   },
+   {
+    "id": "l",
+    "x": 63.0,
+    "y": 61.5,
+    "label": "L-shell (n = 2)"
+   },
+   {
+    "id": "k",
+    "x": 50.0,
+    "y": 36.5,
+    "label": "K-shell (n = 1)"
+   },
+   {
+    "id": "m",
+    "x": 31.6,
+    "y": 66.3,
+    "label": "M-shell (n = 3)"
+   }
+  ],
+  "answer": "k",
+  "hint": "Energy increases as you move away from the nucleus.",
+  "explanation": "The **K-shell** ($n = 1$) is closest to the nucleus and has the **least energy**. Energy rises as we move outwards through L ($n = 2$), M ($n = 3$) and N ($n = 4$). The nucleus itself is not a shell."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Distribution of electrons",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Using the $2n^2$ rule, tap the shell that can hold a **maximum of 18** electrons.",
+  "image": {
+   "src": "/img/atom/bohr-shells.svg",
+   "alt": "Concentric rings around a nucleus with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "k",
+    "x": 50.0,
+    "y": 36.5,
+    "label": "K-shell: 2 electrons"
+   },
+   {
+    "id": "m",
+    "x": 31.6,
+    "y": 66.3,
+    "label": "M-shell: 18 electrons"
+   },
+   {
+    "id": "nuc",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Nucleus"
+   },
+   {
+    "id": "n",
+    "x": 71.1,
+    "y": 22.8,
+    "label": "N-shell: 32 electrons"
+   },
+   {
+    "id": "l",
+    "x": 63.0,
+    "y": 61.5,
+    "label": "L-shell: 8 electrons"
+   }
+  ],
+  "answer": "m",
+  "hint": "Try $n = 1, 2, 3, 4$ in $2n^2$.",
+  "explanation": "$2n^2 = 18$ when $n = 3$, which is the **M-shell** (third from the nucleus). K holds $2 \\times 1^2 = 2$, L holds $2 \\times 2^2 = 8$ and N holds $2 \\times 4^2 = 32$."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Bohr's model of the atom",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which statements agree with **Bohr's model** of the atom? Select all that apply.",
+  "image": {
+   "src": "/img/atom/bohr-jump.svg",
+   "alt": "An electron jumping from an inner energy level to an outer one after taking in energy"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Electrons lose energy while moving in fixed orbits and slowly fall into the nucleus"
+   },
+   {
+    "id": "b",
+    "text": "Electrons revolve in orbits of fixed energy without losing energy"
+   },
+   {
+    "id": "c",
+    "text": "Electrons are often found between energy levels"
+   },
+   {
+    "id": "d",
+    "text": "The farther a shell is from the nucleus, the higher its energy"
+   },
+   {
+    "id": "e",
+    "text": "An electron moves to another shell by absorbing or releasing energy equal to the difference between the two levels"
+   },
+   {
+    "id": "f",
+    "text": "Electrons can be anywhere around the nucleus with no fixed energy"
+   }
+  ],
+  "answers": [
+   "b",
+   "d",
+   "e"
+  ],
+  "hint": "Bohr's electrons have fixed energies and can only be in allowed shells.",
+  "explanation": "In Bohr's model electrons revolve in shells of **fixed energy without losing energy**. Shells farther from the nucleus have **higher energy**, and an electron moves between shells by **absorbing or releasing** exactly the energy difference. Electrons cannot slowly fall in, cannot sit **between** shells, and cannot have just any energy."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Bohr's model of the atom",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Why are Bohr's shells named K, L, M, N… instead of starting from A?",
+  "image": {
+   "src": "/img/atom/kln-letters.svg",
+   "alt": "Letters A to N, with the first ten faded and four highlighted"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "K stands for 'kernel', another word for nucleus"
+   },
+   {
+    "id": "b",
+    "text": "Bohr named them after the first letter of his teacher's name"
+   },
+   {
+    "id": "c",
+    "text": "Barkla called the first X-ray line he found K, leaving earlier letters free; Bohr kept that notation"
+   },
+   {
+    "id": "d",
+    "text": "Shells A to J are hidden inside the nucleus"
+   }
+  ],
+  "answer": "c",
+  "hint": "The letters were first used for X-ray lines.",
+  "explanation": "Physicist **Charles Barkla** named the first X-ray line he observed **K**. He skipped A to J to leave room for any series found before it, though none ever was. Bohr adopted the same letters for atomic shells. The other options are made up."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Distribution of electrons",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Using the rule $2n^2$, what is the maximum number of electrons the **N-shell** can hold?",
+  "image": {
+   "src": "/img/atom/shell-boxes.svg",
+   "alt": "Four boxes for the K, L, M and N shells being filled with electrons"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "8"
+   },
+   {
+    "id": "b",
+    "text": "16"
+   },
+   {
+    "id": "c",
+    "text": "64"
+   },
+   {
+    "id": "d",
+    "text": "32"
+   }
+  ],
+  "answer": "d",
+  "hint": "N is the fourth shell, so $n = 4$.",
+  "explanation": "For the N-shell $n = 4$, so $2n^2 = 2 \\times 4^2 = 2 \\times 16 = 32$. Using $2n$ gives 8, forgetting the 2 gives $4^2 = 16$, and squaring the 2 as well, $(2n)^2$, gives 64. (Whatever its capacity, the **outermost** shell of an atom holds at most 8 electrons.)"
+ },
+ {
+  "id": "in-cbse-9-chem-atom-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Discovery of the neutron",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A helium atom has twice as many protons as a hydrogen atom, yet it is about **four times** as heavy. What explains this?",
+  "image": {
+   "src": "/img/atom/mass-balance.svg",
+   "alt": "A balance with four small atoms on one pan and one bigger atom on the other"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Helium's nucleus also contains two neutrons, each about as heavy as a proton but uncharged"
+   },
+   {
+    "id": "b",
+    "text": "Helium's electrons are much heavier than hydrogen's"
+   },
+   {
+    "id": "c",
+    "text": "Each proton in helium is twice as heavy as the proton in hydrogen"
+   },
+   {
+    "id": "d",
+    "text": "Helium has extra protons outside its nucleus"
+   }
+  ],
+  "answer": "a",
+  "hint": "Something in the nucleus adds mass but no charge.",
+  "explanation": "In 1932 **James Chadwick** discovered the **neutron**, which has nearly the same mass as a proton but **no charge**. A helium nucleus has 2 protons and **2 neutrons**, so its mass is about $4$ times that of hydrogen, whose ordinary atom has no neutron. Electrons are so light that their mass can be ignored, and all protons have the same mass."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Subatomic particles",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each particle with its description.",
+  "image": {
+   "src": "/img/atom/subatomic.svg",
+   "alt": "An atom with its nucleus magnified to show two kinds of particles"
+  },
+  "left": [
+   {
+    "id": "e",
+    "text": "Electron"
+   },
+   {
+    "id": "p",
+    "text": "Proton"
+   },
+   {
+    "id": "n",
+    "text": "Neutron"
+   },
+   {
+    "id": "al",
+    "text": "Alpha particle"
+   }
+  ],
+  "right": [
+   {
+    "id": "r3",
+    "text": "Symbol $n^0$, relative charge $0$, in the nucleus"
+   },
+   {
+    "id": "r5",
+    "text": "Relative charge $-1$, found inside the nucleus"
+   },
+   {
+    "id": "r1",
+    "text": "Symbol $e^-$, relative charge $-1$, moves around the nucleus"
+   },
+   {
+    "id": "r4",
+    "text": "A helium nucleus: 2 protons and 2 neutrons"
+   },
+   {
+    "id": "r2",
+    "text": "Symbol $p^+$, relative charge $+1$, in the nucleus"
+   }
+  ],
+  "pairs": {
+   "e": "r1",
+   "p": "r2",
+   "n": "r3",
+   "al": "r4"
+  },
+  "hint": "Only one particle has no charge, and the alpha particle is a nucleus.",
+  "explanation": "The **electron** ($e^-$, charge $-1$) moves around the nucleus. The **proton** ($p^+$, charge $+1$) and **neutron** ($n^0$, charge 0) are in the nucleus, and the proton is much heavier than the electron. An **alpha particle** is a helium nucleus with 2 protons and 2 neutrons. Nothing with charge $-1$ lives in the nucleus."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Discovery of the neutron",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "All the protons in a nucleus are positive, so they repel each other. How do **neutrons** help hold the nucleus together?",
+  "image": {
+   "src": "/img/atom/nucleus-forces.svg",
+   "alt": "A nucleus packed with two kinds of particles, with arrows showing pushing apart"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Neutrons carry a negative charge that cancels the protons' charge"
+   },
+   {
+    "id": "b",
+    "text": "Neutrons sit between protons to reduce their repulsion and strengthen the nuclear force"
+   },
+   {
+    "id": "c",
+    "text": "Neutrons orbit outside the nucleus and pull the protons outwards"
+   },
+   {
+    "id": "d",
+    "text": "Neutrons change protons into electrons"
+   }
+  ],
+  "answer": "b",
+  "hint": "Neutrons have no charge, so they cannot cancel the protons' charge.",
+  "explanation": "Neutrons are **neutral**. They sit between protons, increasing the distance between them and so **reducing the repulsion**, and they **strengthen the nuclear force** that binds all the particles. That is why heavier atoms need many more neutrons than protons, e.g. iron has 26 protons and 30 neutrons, and uranium 92 protons and 146 neutrons."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Scientists and their discoveries",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each scientist with their contribution.",
+  "image": {
+   "src": "/img/atom/medal.svg",
+   "alt": "A gold medal engraved with an atom"
+  },
+  "left": [
+   {
+    "id": "th",
+    "text": "J. J. Thomson"
+   },
+   {
+    "id": "ru",
+    "text": "Ernest Rutherford"
+   },
+   {
+    "id": "bo",
+    "text": "Niels Bohr"
+   },
+   {
+    "id": "cw",
+    "text": "James Chadwick"
+   },
+   {
+    "id": "bh",
+    "text": "Homi J. Bhabha"
+   }
+  ],
+  "right": [
+   {
+    "id": "c4",
+    "text": "Discovered the neutron in 1932"
+   },
+   {
+    "id": "c6",
+    "text": "Named the smallest particles of matter 'parmanus'"
+   },
+   {
+    "id": "c2",
+    "text": "Discovered the atomic nucleus; called the Father of Nuclear Physics"
+   },
+   {
+    "id": "c5",
+    "text": "Founded TIFR and BARC; father of India's nuclear programme"
+   },
+   {
+    "id": "c1",
+    "text": "Discovered the electron while studying gases"
+   },
+   {
+    "id": "c3",
+    "text": "Proposed fixed energy levels (stationary states) in 1913"
+   }
+  ],
+  "pairs": {
+   "th": "c1",
+   "ru": "c2",
+   "bo": "c3",
+   "cw": "c4",
+   "bh": "c5"
+  },
+  "hint": "Bhabha's work was in India; Chadwick was Rutherford's student.",
+  "explanation": "**J. J. Thomson** discovered the electron (Nobel Prize in Physics, 1906). **Rutherford**, the Father of Nuclear Physics, discovered the nucleus (Nobel Prize in Chemistry, 1908). **Bohr** proposed fixed energy levels in 1913, and **Chadwick** discovered the neutron in 1932. **Homi J. Bhabha** founded TIFR and BARC and is called the father of India's nuclear programme. The word *parmanu* belongs to Acharya Kanada."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "India's scientific contributions",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The research reactor **Dhruva** at the Bhabha Atomic Research Centre (BARC), Mumbai, is used for which kind of advanced experiments?",
+  "image": {
+   "src": "/img/atom/barc-dome.svg",
+   "alt": "A research reactor building with a dome beside the sea"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Firing alpha particles at gold foil"
+   },
+   {
+    "id": "b",
+    "text": "Producing cathode rays in discharge tubes"
+   },
+   {
+    "id": "c",
+    "text": "Weighing single atoms in kilograms"
+   },
+   {
+    "id": "d",
+    "text": "Neutron scattering, to study materials such as superconductors, battery electrodes and drug molecules"
+   }
+  ],
+  "answer": "d",
+  "hint": "Neutrons have no charge, so they can probe deep inside materials.",
+  "explanation": "BARC uses reactors such as **Dhruva** for **neutron-scattering** experiments. These reveal how materials like **superconductors, battery electrodes and drug molecules** are built, helping develop better medicines, energy storage and alloys in India. Gold foil and cathode-ray experiments were done by Rutherford's and Thomson's teams long ago, and atoms are far too small to weigh in kilograms."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Symbols of elements",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In 1803, John Dalton used circle pictures like these as symbols for elements. Who, in 1813, suggested that symbols be made from letters of the elements' **Latin** names?",
+  "image": {
+   "src": "/img/atom/dalton-symbols.svg",
+   "alt": "Six old-style circle symbols for elements"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Berzelius"
+   },
+   {
+    "id": "b",
+    "text": "IUPAC"
+   },
+   {
+    "id": "c",
+    "text": "Ernest Rutherford"
+   },
+   {
+    "id": "d",
+    "text": "Acharya Kanada"
+   }
+  ],
+  "answer": "a",
+  "hint": "IUPAC is the modern organisation that approves symbols, but it came much later.",
+  "explanation": "**Berzelius** suggested in 1813 that symbols be taken from the elements' Latin names, giving the alphabetic symbols we use. Today the **IUPAC** approves names and symbols. Common symbols let scientists everywhere understand each other whatever language they speak; if everyone used their own, there would be confusion."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Symbols of elements",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each element with its symbol and where the symbol comes from.",
+  "image": {
+   "src": "/img/atom/symbol-tiles.svg",
+   "alt": "Four element tiles with their chemical symbols"
+  },
+  "left": [
+   {
+    "id": "fe",
+    "text": "Iron"
+   },
+   {
+    "id": "hg",
+    "text": "Mercury"
+   },
+   {
+    "id": "w",
+    "text": "Tungsten"
+   },
+   {
+    "id": "na",
+    "text": "Sodium"
+   },
+   {
+    "id": "k",
+    "text": "Potassium"
+   }
+  ],
+  "right": [
+   {
+    "id": "s2",
+    "text": "Hg, from Greek *hydrargyros*"
+   },
+   {
+    "id": "s5",
+    "text": "K, from Latin *kalium*"
+   },
+   {
+    "id": "s6",
+    "text": "Mr, from the letters of 'mercury'"
+   },
+   {
+    "id": "s1",
+    "text": "Fe, from Latin *ferrum*"
+   },
+   {
+    "id": "s4",
+    "text": "Na, from Latin *natrium*"
+   },
+   {
+    "id": "s3",
+    "text": "W, from German *wolfram*"
+   }
+  ],
+  "pairs": {
+   "fe": "s1",
+   "hg": "s2",
+   "w": "s3",
+   "na": "s4",
+   "k": "s5"
+  },
+  "hint": "Several symbols come from Latin names; one comes from Greek and one from German.",
+  "explanation": "**Iron** is Fe from Latin *ferrum*, **mercury** is Hg from Greek *hydrargyros*, and **tungsten** is W from German *wolfram*. **Sodium** is Na from Latin *natrium* and **potassium** is K from Latin *kalium*. The first letter of a symbol is always a capital and any second letter is small, as in Co for cobalt (not CO). 'Mr' is not a real symbol."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Atomic number and mass number",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "An atom has atomic number **26** and **56** nucleons. How many electrons, protons and neutrons does it have?",
+  "image": {
+   "src": "/img/atom/mystery-atom.svg",
+   "alt": "An atom whose nucleus is hidden behind a question mark"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "26 electrons, 26 protons, 56 neutrons"
+   },
+   {
+    "id": "b",
+    "text": "30 electrons, 30 protons, 26 neutrons"
+   },
+   {
+    "id": "c",
+    "text": "26 electrons, 26 protons, 30 neutrons"
+   },
+   {
+    "id": "d",
+    "text": "56 electrons, 26 protons, 30 neutrons"
+   }
+  ],
+  "answer": "c",
+  "hint": "Atomic number = protons = electrons (in a neutral atom). Nucleons = protons + neutrons.",
+  "explanation": "**Atomic number** $Z = 26$, so there are **26 protons** and, in a neutral atom, **26 electrons**. **Mass number** $A = 56$ counts protons + neutrons, so neutrons $= 56 - 26 = 30$. (This is iron.) Taking 56 as the neutron or electron count, or swapping 26 and 30, are the traps."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Atomic number and mass number",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Each clue describes a neutral atom. Work out the missing numbers and match each clue with its element.",
+  "image": {
+   "src": "/img/atom/table-cards.svg",
+   "alt": "A clipboard with a table of missing atomic data"
+  },
+  "left": [
+   {
+    "id": "t1",
+    "text": "Atomic number 5, with 6 neutrons"
+   },
+   {
+    "id": "t2",
+    "text": "Mass number 14, with 7 electrons"
+   },
+   {
+    "id": "t3",
+    "text": "Mass number 24, with 12 protons"
+   },
+   {
+    "id": "t4",
+    "text": "Atomic number 15, with 16 neutrons"
+   },
+   {
+    "id": "t5",
+    "text": "Mass number 1, with 0 neutrons"
+   }
+  ],
+  "right": [
+   {
+    "id": "e3",
+    "text": "Magnesium"
+   },
+   {
+    "id": "e6",
+    "text": "Carbon"
+   },
+   {
+    "id": "e1",
+    "text": "Boron"
+   },
+   {
+    "id": "e5",
+    "text": "Hydrogen"
+   },
+   {
+    "id": "e2",
+    "text": "Nitrogen"
+   },
+   {
+    "id": "e4",
+    "text": "Phosphorus"
+   }
+  ],
+  "pairs": {
+   "t1": "e1",
+   "t2": "e2",
+   "t3": "e3",
+   "t4": "e4",
+   "t5": "e5"
+  },
+  "hint": "Atomic number = protons = electrons. Mass number = protons + neutrons.",
+  "explanation": "$Z = 5$ with 6 neutrons is **boron** ($A = 11$). $A = 14$ with 7 electrons means 7 protons, so **nitrogen** (7 neutrons). $A = 24$ with 12 protons is **magnesium** (12 neutrons). $Z = 15$ with 16 neutrons is **phosphorus** ($A = 31$). $A = 1$ with no neutrons is **hydrogen**. Carbon was the trap for the first clue: 6 is boron's neutron count, not its atomic number."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Atomic number and mass number",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Riddle: \"My mass number is 23 and I have 11 protons. I am a soft metal that reacts vigorously with water.\" Who am I, and how many neutrons do I have?",
+  "image": {
+   "src": "/img/atom/sodium-water.svg",
+   "alt": "A small piece of soft metal fizzing and darting on water"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Magnesium, 12 neutrons"
+   },
+   {
+    "id": "b",
+    "text": "Sodium, 23 neutrons"
+   },
+   {
+    "id": "c",
+    "text": "Neon, 12 neutrons"
+   },
+   {
+    "id": "d",
+    "text": "Sodium, 12 neutrons"
+   }
+  ],
+  "answer": "d",
+  "hint": "The number of protons fixes the element. Neutrons = mass number − protons.",
+  "explanation": "11 protons means atomic number 11, which is **sodium** (Na). Neutrons $= A - Z = 23 - 11 = 12$. Saying 23 neutrons confuses the mass number with the neutron count. Magnesium has 12 protons and neon has 10, so neither has 11."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Atomic number and mass number",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these atoms from the **fewest** to the **most** neutrons.",
+  "image": {
+   "src": "/img/atom/mystery-atom.svg",
+   "alt": "An atom whose nucleus is hidden behind a question mark"
+  },
+  "items": [
+   {
+    "id": "na",
+    "text": "$^{23}_{11}\\text{Na}$"
+   },
+   {
+    "id": "he",
+    "text": "$^{4}_{2}\\text{He}$"
+   },
+   {
+    "id": "ar",
+    "text": "$^{40}_{18}\\text{Ar}$"
+   },
+   {
+    "id": "f",
+    "text": "$^{19}_{9}\\text{F}$"
+   },
+   {
+    "id": "n",
+    "text": "$^{14}_{7}\\text{N}$"
+   }
+  ],
+  "answer": [
+   "he",
+   "n",
+   "f",
+   "na",
+   "ar"
+  ],
+  "startLabel": "Fewest neutrons",
+  "endLabel": "Most neutrons",
+  "hint": "In $^{A}_{Z}\\text{X}$, neutrons $= A - Z$.",
+  "explanation": "Neutrons $= A - Z$: $^{4}_{2}\\text{He}$ has $2$, $^{14}_{7}\\text{N}$ has $7$, $^{19}_{9}\\text{F}$ has $10$, $^{23}_{11}\\text{Na}$ has $12$ and $^{40}_{18}\\text{Ar}$ has $22$. Lighter atoms have about as many neutrons as protons, but heavier ones have more neutrons than protons."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Electronic configuration",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which Bohr diagram shows a neutral atom of **oxygen** (atomic number 8)?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Diagram A",
+    "image": {
+     "src": "/img/atom/bohr-c.svg",
+     "alt": "Diagram A: an atom with electrons in shells"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Diagram B",
+    "image": {
+     "src": "/img/atom/bohr-s.svg",
+     "alt": "Diagram B: an atom with electrons in shells"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Diagram C",
+    "image": {
+     "src": "/img/atom/bohr-o.svg",
+     "alt": "Diagram C: an atom with electrons in shells"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Diagram D",
+    "image": {
+     "src": "/img/atom/bohr-ne.svg",
+     "alt": "Diagram D: an atom with electrons in shells"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Fill 8 electrons shell by shell: K first, then L.",
+  "explanation": "Oxygen has 8 electrons: 2 fill the **K-shell** and the remaining 6 go into the **L-shell**, giving **2, 6** (Diagram C). Diagram A (2, 4) is carbon, Diagram B (2, 8, 6) is sulfur, which also has 6 valence electrons, and Diagram D (2, 8) is neon."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Valency",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "This is a sodium atom (2, 8, 1). Tap its **valence shell**.",
+  "image": {
+   "src": "/img/atom/bohr-na.svg",
+   "alt": "A Bohr diagram of an atom with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "k",
+    "x": 50.0,
+    "y": 34.6,
+    "label": "K-shell (2 electrons)"
+   },
+   {
+    "id": "n",
+    "x": 67.8,
+    "y": 10.9,
+    "label": "Empty outer shell (no electrons)"
+   },
+   {
+    "id": "nuc",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Nucleus"
+   },
+   {
+    "id": "l",
+    "x": 64.7,
+    "y": 65.9,
+    "label": "L-shell (8 electrons)"
+   },
+   {
+    "id": "m",
+    "x": 27.5,
+    "y": 70.0,
+    "label": "M-shell: the valence shell (1 electron)"
+   }
+  ],
+  "answer": "m",
+  "hint": "The valence shell is the outermost shell that actually contains electrons.",
+  "explanation": "The **valence shell** is the outermost shell **containing electrons**. For sodium (2, 8, 1) that is the **M-shell**, holding its single valence electron. Sodium loses this one electron to get an octet, so its valency is 1. The dashed ring further out is empty, so it is not the valence shell."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Mass of an atom",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the part of this lithium atom that holds **almost all of its mass**.",
+  "image": {
+   "src": "/img/atom/lithium-atom.svg",
+   "alt": "An atom with numbered markers"
+  },
+  "spots": [
+   {
+    "id": "ek",
+    "x": 33.8,
+    "y": 50.0,
+    "label": "An electron in the K-shell"
+   },
+   {
+    "id": "el",
+    "x": 68.6,
+    "y": 21.4,
+    "label": "The electron in the L-shell"
+   },
+   {
+    "id": "nuc",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Nucleus: 3 protons and 4 neutrons"
+   },
+   {
+    "id": "gap",
+    "x": 65.0,
+    "y": 73.1,
+    "label": "Empty space between the shells"
+   }
+  ],
+  "answer": "nuc",
+  "hint": "Electrons are so light that their mass can be ignored.",
+  "explanation": "Almost all the mass is in the **nucleus**, where lithium's **3 protons and 4 neutrons** (mass number 7) are packed tightly. Electrons have almost negligible mass, and most of the atom is empty space."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Valency",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "This Bohr diagram shows all the electrons of a neutral atom. Which element is it, and what is its valency?",
+  "image": {
+   "src": "/img/atom/bohr-al.svg",
+   "alt": "A Bohr diagram of an atom"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Boron, valency 3"
+   },
+   {
+    "id": "b",
+    "text": "Aluminium, valency 3"
+   },
+   {
+    "id": "c",
+    "text": "Silicon, valency 4"
+   },
+   {
+    "id": "d",
+    "text": "Aluminium, valency 5"
+   }
+  ],
+  "answer": "b",
+  "hint": "Count all the electrons to find the atomic number, then look at the outermost shell.",
+  "explanation": "The atom has $2 + 8 + 3 = 13$ electrons, so its atomic number is 13: **aluminium**. It has **3 valence electrons**, fewer than four, so it tends to **lose** them to complete its octet, giving **valency 3**. $8 - 3 = 5$ is wrong because aluminium loses rather than gains, boron has only 2, 3, and silicon would have 14 electrons."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Valency",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Chlorine has atomic number 17. What is its **valency**?",
+  "image": {
+   "src": "/img/atom/bohr-cl.svg",
+   "alt": "A Bohr diagram of an atom"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "1"
+   },
+   {
+    "id": "b",
+    "text": "7"
+   },
+   {
+    "id": "c",
+    "text": "17"
+   },
+   {
+    "id": "d",
+    "text": "8"
+   }
+  ],
+  "answer": "a",
+  "hint": "First write the configuration, then ask how many electrons it must gain to complete its octet.",
+  "explanation": "Chlorine is **2, 8, 7**. With 7 valence electrons (more than four), it **gains 1** electron to complete its octet, so its **valency is 1**. 7 is the number of valence electrons, not the valency. 17 is the atomic number, and 8 is the size of a full octet."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Valency",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Water is $\\ce{H2O}$, ammonia is $\\ce{NH3}$ and magnesium chloride is $\\ce{MgCl2}$. What are the **combining capacities** of nitrogen and magnesium?",
+  "image": {
+   "src": "/img/atom/combining.svg",
+   "alt": "Ball models of water, ammonia and magnesium chloride"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Nitrogen 1, magnesium 1"
+   },
+   {
+    "id": "b",
+    "text": "Nitrogen 4, magnesium 2"
+   },
+   {
+    "id": "c",
+    "text": "Nitrogen 3, magnesium 1"
+   },
+   {
+    "id": "d",
+    "text": "Nitrogen 3, magnesium 2"
+   }
+  ],
+  "answer": "d",
+  "hint": "Count how many hydrogen or chlorine atoms one atom of the element joins with.",
+  "explanation": "**Combining capacity** is the number of hydrogen or chlorine atoms one atom of an element combines with. One N joins **3** H atoms in $\\ce{NH3}$, and one Mg joins **2** Cl atoms in $\\ce{MgCl2}$. In the same way oxygen's is 2 in $\\ce{H2O}$. Counting all 4 atoms of ammonia, or counting the single N or Mg atom, are the traps."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Valency",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atom/bohr-c.svg",
+   "alt": "A Bohr diagram of an atom"
+  },
+  "assertion": "Carbon, with electronic configuration 2, 4, has a valency of 4.",
+  "reason": "Carbon easily loses its four valence electrons to complete its octet.",
+  "answer": "c",
+  "hint": "Carbon has 4 valence electrons. Is it easy to lose or gain four?",
+  "explanation": "A is true but R is false. Carbon (2, 4) has **four valence electrons**, which it **cannot easily gain or lose**. Instead it **shares** four electrons with other atoms to complete its octet, so its valency is 4."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Valency",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these atoms are largely **unreactive** because their valence shell is already complete? Select all that apply.",
+  "image": {
+   "src": "/img/atom/bohr-ne.svg",
+   "alt": "A Bohr diagram of an atom"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Helium (2)"
+   },
+   {
+    "id": "b",
+    "text": "Neon (2, 8)"
+   },
+   {
+    "id": "c",
+    "text": "Sodium (2, 8, 1)"
+   },
+   {
+    "id": "d",
+    "text": "Argon (2, 8, 8)"
+   },
+   {
+    "id": "e",
+    "text": "Chlorine (2, 8, 7)"
+   },
+   {
+    "id": "f",
+    "text": "Carbon (2, 4)"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "A complete valence shell has 8 electrons, or 2 when there is only one shell.",
+  "explanation": "Atoms with a complete **octet** in the valence shell, or **2 electrons** for helium (which has only the K-shell), are stable and **largely unreactive**: helium (2), neon (2, 8) and argon (2, 8, 8). Sodium (2, 8, 1) and chlorine (2, 8, 7) have incomplete valence shells, so they lose or gain an electron. Carbon (2, 4) shares four."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Electronic configuration",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Element X has mass number 35 and 18 neutrons. Arrange the steps to work out its valency.",
+  "image": {
+   "src": "/img/atom/shell-boxes.svg",
+   "alt": "Four boxes for the K, L, M and N shells being filled with electrons"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "X has 7 valence electrons"
+   },
+   {
+    "id": "s2",
+    "text": "Atomic number is 17, so X is chlorine"
+   },
+   {
+    "id": "s5",
+    "text": "X gains 1 electron to complete its octet, so its valency is 1"
+   },
+   {
+    "id": "s1",
+    "text": "Protons $= 35 - 18 = 17$"
+   },
+   {
+    "id": "s3",
+    "text": "Electrons are arranged as 2, 8, 7"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First step",
+  "endLabel": "Last step",
+  "hint": "Start with the nucleus, then the electrons, then the outermost shell.",
+  "explanation": "Protons $= 35 - 18 = 17$, so $Z = 17$ and X is **chlorine**. Its 17 electrons fill as **2, 8, 7**, giving **7 valence electrons**. It gains 1 electron to complete its octet, so its **valency is 1**. If two more neutrons were added, the mass number would become 37: an **isotope** of X."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Isotopes",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the atom of **tritium**.",
+  "image": {
+   "src": "/img/atom/light-atoms.svg",
+   "alt": "Four small atoms with their nuclei shown and numbered markers"
+  },
+  "spots": [
+   {
+    "id": "he",
+    "x": 13.8,
+    "y": 30.6,
+    "label": "Helium-4: 2 protons, 2 neutrons"
+   },
+   {
+    "id": "h1",
+    "x": 38.8,
+    "y": 30.6,
+    "label": "Protium: 1 proton, 0 neutrons"
+   },
+   {
+    "id": "h3",
+    "x": 63.7,
+    "y": 30.6,
+    "label": "Tritium: 1 proton, 2 neutrons"
+   },
+   {
+    "id": "h2",
+    "x": 88.8,
+    "y": 30.6,
+    "label": "Deuterium: 1 proton, 1 neutron"
+   }
+  ],
+  "answer": "h3",
+  "hint": "Tritium is an isotope of hydrogen, so it has one proton. How many neutrons does it have?",
+  "explanation": "All hydrogen isotopes have **1 proton** and 1 electron. **Protium** has no neutron, **deuterium** has 1 and **tritium** has **2**, so tritium is $^{3}_{1}\\text{H}$. The atom with 2 protons and 2 neutrons is helium, a different element, even though it also has 2 neutrons."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Isotopes",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atom/carbon-isotopes.svg",
+   "alt": "Three atoms with six electrons each and nuclei of different sizes"
+  },
+  "assertion": "$^{12}_{6}\\text{C}$, $^{13}_{6}\\text{C}$ and $^{14}_{6}\\text{C}$ have the same chemical properties.",
+  "reason": "Isotopes of an element have the same number of electrons and the same electronic configuration.",
+  "answer": "a",
+  "hint": "Chemical properties depend mainly on the valence electrons.",
+  "explanation": "Both are true and R explains A. The three carbon **isotopes** have 6 protons and 6 electrons each, so they share the configuration **2, 4**. Chemical properties depend mainly on the valence electrons, so their chemistry is the same. They differ only in neutrons (6, 7 and 8)."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Isotopes",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/atom/light-atoms.svg",
+   "alt": "Four small atoms with their nuclei shown"
+  },
+  "assertion": "Protium, deuterium and tritium have exactly the same boiling and melting points.",
+  "reason": "Isotopes of an element have the same atomic number but different numbers of neutrons.",
+  "answer": "d",
+  "hint": "Isotopes are alike chemically, but are they alike physically?",
+  "explanation": "A is false but R is true. Isotopes have the same atomic number but different numbers of neutrons, so their masses differ. They share chemical properties, but **physical properties** such as **boiling and melting points** differ."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Uses of isotopes",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each isotope with its use.",
+  "image": {
+   "src": "/img/atom/isotope-uses.svg",
+   "alt": "Four pictures: a power station, a hospital treatment machine, a neck, and a fossil in rock"
+  },
+  "left": [
+   {
+    "id": "u",
+    "text": "$^{235}_{92}\\text{U}$"
+   },
+   {
+    "id": "co",
+    "text": "$^{60}_{27}\\text{Co}$"
+   },
+   {
+    "id": "i",
+    "text": "$^{131}_{53}\\text{I}$"
+   },
+   {
+    "id": "c",
+    "text": "$^{14}_{6}\\text{C}$"
+   }
+  ],
+  "right": [
+   {
+    "id": "x3",
+    "text": "Treating goitre and thyroid cancer"
+   },
+   {
+    "id": "x5",
+    "text": "Producing cathode rays in a discharge tube"
+   },
+   {
+    "id": "x1",
+    "text": "Fuel for generating electricity in a nuclear power plant"
+   },
+   {
+    "id": "x4",
+    "text": "Finding the age of fossils and artefacts"
+   },
+   {
+    "id": "x2",
+    "text": "Radiation treatment for cancer"
+   }
+  ],
+  "pairs": {
+   "u": "x1",
+   "co": "x2",
+   "i": "x3",
+   "c": "x4"
+  },
+  "hint": "Iodine collects in the thyroid gland in the neck.",
+  "explanation": "$^{235}_{92}\\text{U}$ is the **fuel** in nuclear power plants. $^{60}_{27}\\text{Co}$ gives radiation for **cancer treatment**. $^{131}_{53}\\text{I}$ treats **goitre and thyroid cancer**. $^{14}_{6}\\text{C}$ is used to find the **age of fossils and artefacts**. Cathode rays come from the cathode in a discharge tube, not from an isotope."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Average atomic mass",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Chlorine is a mixture of $^{35}_{17}\\text{Cl}$ and $^{37}_{17}\\text{Cl}$ in the ratio $3 : 1$. What is its average atomic mass?",
+  "image": {
+   "src": "/img/atom/chlorine-mix.svg",
+   "alt": "A jar holding atoms of two isotopes of one element"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$36\\ \\text{u}$"
+   },
+   {
+    "id": "b",
+    "text": "$36.5\\ \\text{u}$"
+   },
+   {
+    "id": "c",
+    "text": "$35.5\\ \\text{u}$"
+   },
+   {
+    "id": "d",
+    "text": "$142\\ \\text{u}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "A $3 : 1$ ratio means 75% and 25%. Weight each mass by its share.",
+  "explanation": "Weighted average $= 35 \\times \\dfrac{75}{100} + 37 \\times \\dfrac{25}{100} = 26.25 + 9.25 = 35.5\\ \\text{u}$. No single chlorine atom weighs 35.5 u: in 10 lakh atoms about 7.5 lakh are Cl-35 and 2.5 lakh are Cl-37. The simple mean, 36 u, ignores abundance. Swapping the shares gives 36.5 u, and forgetting to divide by 4 gives 142 u."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Average atomic mass",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Natural boron is about 20% $^{10}_{5}\\text{B}$ and 80% $^{11}_{5}\\text{B}$. What is its average atomic mass?",
+  "image": {
+   "src": "/img/atom/boron-mix.svg",
+   "alt": "A jar holding atoms of two isotopes of one element"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$10.8\\ \\text{u}$"
+   },
+   {
+    "id": "b",
+    "text": "$10.5\\ \\text{u}$"
+   },
+   {
+    "id": "c",
+    "text": "$10.2\\ \\text{u}$"
+   },
+   {
+    "id": "d",
+    "text": "$1080\\ \\text{u}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Multiply each mass by its percentage, add, and divide by 100.",
+  "explanation": "$10 \\times \\dfrac{20}{100} + 11 \\times \\dfrac{80}{100} = 2 + 8.8 = 10.8\\ \\text{u}$. The answer is closer to 11 because $^{11}\\text{B}$ is far more common. The simple mean, 10.5 u, ignores abundance. Swapping the percentages gives 10.2 u, and forgetting to divide by 100 gives 1080 u."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Isotopes and isobars",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The table shows the nuclei of three atoms X, Y and Z. How are Y and Z related, and how are Z and X related?",
+  "image": {
+   "src": "/img/atom/xyz-table.svg",
+   "alt": "A table of protons and neutrons in three atoms X, Y and Z"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Y and Z are isobars; Z and X are isotopes"
+   },
+   {
+    "id": "b",
+    "text": "Y and Z are isotopes; Z and X are isobars"
+   },
+   {
+    "id": "c",
+    "text": "Both pairs are isotopes"
+   },
+   {
+    "id": "d",
+    "text": "Y and Z are isotopes; Z and X are not related at all"
+   }
+  ],
+  "answer": "b",
+  "hint": "Work out the mass number of each. Same protons → isotopes. Same mass number, different protons → isobars.",
+  "explanation": "Mass numbers: X $= 18 + 19 = 37$, Y $= 17 + 18 = 35$, Z $= 17 + 20 = 37$. Y and Z both have 17 protons (chlorine) but different mass numbers, so they are **isotopes**. Z and X both have mass number 37 but different atomic numbers, so they are **isobars**, like $^{40}\\text{Ar}$, $^{40}\\text{K}$ and $^{40}\\text{Ca}$."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Atomic number and mass number",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "An atom has 12 protons and 12 neutrons. Imagine its electrons are replaced by particles with the **same charge** but **500 times heavier**. Which property of the atom would change?",
+  "image": {
+   "src": "/img/atom/heavy-electrons.svg",
+   "alt": "An atom whose electrons have been replaced by big heavy balls"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Its atomic number"
+   },
+   {
+    "id": "b",
+    "text": "Its mass number"
+   },
+   {
+    "id": "c",
+    "text": "Its overall charge"
+   },
+   {
+    "id": "d",
+    "text": "Its atomic mass"
+   }
+  ],
+  "answer": "d",
+  "hint": "Which quantities count only protons and neutrons? Is the charge any different?",
+  "explanation": "**Atomic number** counts protons, so it stays 12. **Mass number** counts protons + neutrons, so it stays 24. The new particles have the same charge as electrons, so the atom is still **neutral**. Only the **atomic mass** changes: it increases, because the 'electrons' are no longer light enough to ignore."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Development of atomic models",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "The pictures P to T show five models of the atom. Arrange them in the order in which they were proposed.",
+  "image": {
+   "src": "/img/atom/model-gallery.svg",
+   "alt": "Five different pictures of the atom labelled P to T"
+  },
+  "items": [
+   {
+    "id": "p",
+    "text": "P: electrons in fixed shells of definite energy"
+   },
+   {
+    "id": "r",
+    "text": "R: electrons as a cloud around the nucleus"
+   },
+   {
+    "id": "q",
+    "text": "Q: a solid ball that cannot be divided"
+   },
+   {
+    "id": "t",
+    "text": "T: a tiny dense nucleus with electrons orbiting it"
+   },
+   {
+    "id": "s",
+    "text": "S: electrons spread through a sphere of positive charge"
+   }
+  ],
+  "answer": [
+   "q",
+   "s",
+   "t",
+   "p",
+   "r"
+  ],
+  "startLabel": "Earliest",
+  "endLabel": "Latest",
+  "hint": "Start with the idea of an indivisible atom and end with today's electron-cloud picture.",
+  "explanation": "**Dalton (Q)**: atoms as indivisible balls. **Thomson (S)**: electrons in a sphere of positive charge. **Rutherford (T)**: a dense central nucleus. **Bohr (P)**: electrons in fixed energy levels. **Modern model (R)**: electrons as **clouds**, where we can predict only where an electron is likely to be. Each model changed when new experiments showed the old one fell short."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Size of the atom and nucleus",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these from **smallest** to **largest**.",
+  "image": {
+   "src": "/img/atom/cricket-ground.svg",
+   "alt": "A cricket ground with a tiny grain at its centre, shown magnified"
+  },
+  "items": [
+   {
+    "id": "pg",
+    "text": "A grain of black pepper"
+   },
+   {
+    "id": "at",
+    "text": "The diameter of an atom"
+   },
+   {
+    "id": "cg",
+    "text": "The width of a cricket ground"
+   },
+   {
+    "id": "nu",
+    "text": "The diameter of an atom's nucleus"
+   },
+   {
+    "id": "pp",
+    "text": "The thickness of a page of your textbook"
+   }
+  ],
+  "answer": [
+   "nu",
+   "at",
+   "pp",
+   "pg",
+   "cg"
+  ],
+  "startLabel": "Smallest",
+  "endLabel": "Largest",
+  "hint": "A nucleus is about $10^{-15}\\ \\text{m}$ across and an atom about $10^{-10}\\ \\text{m}$. A page is about $0.1\\ \\text{mm}$ thick.",
+  "explanation": "Nucleus ($\\approx 10^{-15}\\ \\text{m}$) $<$ atom ($\\approx 10^{-10}\\ \\text{m}$) $<$ thickness of a page ($0.1\\ \\text{mm} = 10^{-4}\\ \\text{m}$, about a million atoms) $<$ pepper grain (a few mm) $<$ cricket ground (about 100 m). If an atom were as big as the ground, its nucleus would only be the size of the pepper grain."
+ },
+ {
+  "id": "in-cbse-9-chem-atom-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "chemistry",
+  "chapter": "Journey Inside the Atom",
+  "chapterNo": 2,
+  "topic": "Beyond the atomic models",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these statements are correct? Select all that apply.",
+  "image": {
+   "src": "/img/atom/stm-atoms.svg",
+   "alt": "A sharp probe tip scanning over a surface of round atoms"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Atomic masses are given in unified atomic mass units (u), because a kilogram is far too large a unit for atoms"
+   },
+   {
+    "id": "b",
+    "text": "Scanning tunnelling microscopes mainly image surfaces, while transmission electron microscopes show how atoms are arranged inside thin samples"
+   },
+   {
+    "id": "c",
+    "text": "Being uncharged, neutrons can easily get into nuclei, which helped scientists split uranium atoms"
+   },
+   {
+    "id": "d",
+    "text": "Scientists can now say exactly where an electron is at every instant in its orbit"
+   },
+   {
+    "id": "e",
+    "text": "All 118 known elements occur naturally on the Earth"
+   },
+   {
+    "id": "f",
+    "text": "Isotopes of an element have different chemical properties because their neutron numbers differ"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "Today's model tells us only where an electron is likely to be.",
+  "explanation": "Atoms are too light to weigh in kilograms, so we use the **unified atomic mass unit (u)**, earlier written amu. **STMs** mainly image surfaces, while **TEMs** show how atoms are arranged inside thin samples. Uncharged **neutrons** easily get into nuclei, which led to artificial radioactive elements and splitting uranium. Today electrons are pictured as **clouds**, so we cannot say exactly where one is. Of the 118 known elements, some are made artificially."
+ }
+]
