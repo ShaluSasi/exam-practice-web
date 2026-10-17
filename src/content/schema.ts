@@ -41,6 +41,8 @@ const Base = z.object({
   grade: z.number().int().min(1).max(13),
   subject: SubjectId,
   chapter: z.string().min(1),
+  /** Position of the chapter in the subject's course, for ordering quizzes. */
+  chapterNo: z.number().int().positive().optional(),
   topic: z.string().min(1),
   difficulty: z.enum(["easy", "medium", "hard"]),
   marks: z.number().positive(),

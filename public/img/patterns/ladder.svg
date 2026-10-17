@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img">
+<title>Seven stacked levels of a classification system</title>
+<style>
+.dot{animation:dn 5s ease-in-out infinite}
+@keyframes dn{0%{transform:translateY(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateY(288px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-opacity=".25" stroke-width="2">
+<rect x="20" y="12" width="260" height="44" rx="10" fill="#FFE9C7"/>
+<rect x="20" y="60" width="260" height="44" rx="10" fill="#FFE0B8"/>
+<rect x="20" y="108" width="260" height="44" rx="10" fill="#FDD5B4"/>
+<rect x="20" y="156" width="260" height="44" rx="10" fill="#F9CAB8"/>
+<rect x="20" y="204" width="260" height="44" rx="10" fill="#F2C0C8"/>
+<rect x="20" y="252" width="260" height="44" rx="10" fill="#E6BADA"/>
+<rect x="20" y="300" width="260" height="44" rx="10" fill="#D7B6EA"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="17" font-weight="600" fill="#2B2F4A">
+<text x="58" y="40">Kingdom</text><text x="58" y="88">Phylum</text><text x="58" y="136">Class</text><text x="58" y="184">Order</text><text x="58" y="232">Family</text><text x="58" y="280">Genus</text><text x="58" y="328">Species</text>
+</g>
+<g fill="#fff" stroke="#2B2F4A" stroke-opacity=".3" stroke-width="2">
+<circle cx="255" cy="34" r="12"/><circle cx="255" cy="82" r="12"/><circle cx="255" cy="130" r="12"/><circle cx="255" cy="178" r="12"/><circle cx="255" cy="226" r="12"/><circle cx="255" cy="274" r="12"/><circle cx="255" cy="322" r="12"/>
+</g>
+<path d="M38 26 V334" stroke="#2B2F4A" stroke-opacity=".2" stroke-width="3" stroke-linecap="round"/>
+<circle class="dot" cx="38" cy="34" r="6" fill="#F59A3E" stroke="#B8601A" stroke-width="2"/>
+</svg>

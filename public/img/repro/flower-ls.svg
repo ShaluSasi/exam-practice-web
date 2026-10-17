@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A flower cut lengthwise</title>
+<style>
+.sway{animation:sway 5s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sway{from{transform:rotate(-1.5deg)}to{transform:rotate(1.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="194" y="230" width="12" height="70" rx="5" fill="#4E8F2A"/>
+<path d="M206 270q30-22 58-14q-26 18-58 14z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2" stroke-linejoin="round"/>
+<g class="sway">
+<path d="M180 228Q140 246 104 214Q140 214 182 220Z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M220 228Q260 246 296 214Q260 214 218 220Z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M184 224C140 222 60 190 50 120C90 120 150 160 188 214Z" fill="#F28CB1" stroke="#C2557F" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M216 224C260 222 340 190 350 120C310 120 250 160 212 214Z" fill="#F28CB1" stroke="#C2557F" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M70 132C100 150 140 180 176 212M330 132C300 150 260 180 224 212" fill="none" stroke="#E06A98" stroke-width="1.5" stroke-linecap="round"/>
+<ellipse cx="200" cy="230" rx="32" ry="10" fill="#4E8F2A" stroke="#3E7A20" stroke-width="2"/>
+<path d="M184 222Q160 170 158 112M216 222Q240 170 242 112" fill="none" stroke="#C9A23B" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="158" cy="104" rx="10" ry="15" fill="#F6C453" stroke="#B8860B" stroke-width="2.5"/>
+<ellipse cx="242" cy="104" rx="10" ry="15" fill="#F6C453" stroke="#B8860B" stroke-width="2.5"/>
+<g fill="#E0A21B"><circle cx="155" cy="98" r="2"/><circle cx="161" cy="106" r="2"/><circle cx="156" cy="112" r="2"/><circle cx="239" cy="98" r="2"/><circle cx="245" cy="106" r="2"/><circle cx="240" cy="112" r="2"/></g>
+<rect x="195" y="88" width="10" height="82" rx="4" fill="#A8D58A" stroke="#4E8F2A" stroke-width="2"/>
+<path d="M184 84q8-12 16-4q8-8 16 4q-8 10-16 6q-8 4-16-6z" fill="#E59B3B" stroke="#B5651D" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="200" cy="194" rx="30" ry="28" fill="#BFE3A0" stroke="#4E8F2A" stroke-width="3"/>
+<ellipse cx="200" cy="194" rx="22" ry="21" fill="#E6F4D8"/>
+<g fill="#FFF4C8" stroke="#B8A04A" stroke-width="2">
+<ellipse cx="192" cy="184" rx="5" ry="6"/><ellipse cx="210" cy="184" rx="5" ry="6"/>
+<ellipse cx="192" cy="202" rx="5" ry="6"/><ellipse cx="210" cy="202" rx="5" ry="6"/>
+</g>
+<path d="M200 172v44" stroke="#8CC152" stroke-width="2"/>
+</g>
+</svg>

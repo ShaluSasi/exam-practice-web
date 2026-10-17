@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A black-faced monkey with a silver-grey mane</title>
+<style>
+.e{transform-box:fill-box;transform-origin:center;animation:e 4.5s ease-in-out infinite}
+.m{transform-box:fill-box;transform-origin:center;animation:m 5s ease-in-out infinite}
+@keyframes e{0%,46%,54%,100%{transform:scaleY(1)}50%{transform:scaleY(.1)}}
+@keyframes m{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#DDEFD2"/>
+<g fill="#4E8F2A" opacity=".35"><circle cx="16" cy="20" r="14"/><circle cx="104" cy="98" r="16"/></g>
+<path class="m" d="M60 10 L68 18 L80 14 L84 26 L98 26 L96 38 L108 46 L100 56 L110 66 L98 74 L102 88 L88 88 L84 102 L72 96 L60 108 L48 96 L36 102 L32 88 L18 88 L22 74 L10 66 L20 56 L12 46 L24 38 L22 26 L36 26 L40 14 L52 18 Z" fill="#D8D8D0" stroke="#8E8E86" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M60 28 C78 28 86 42 86 58 C86 76 74 88 60 88 C46 88 34 76 34 58 C34 42 42 28 60 28 Z" fill="#3A3A44" stroke="#22222A" stroke-width="2"/>
+<path d="M44 44 Q52 38 58 46 M62 46 Q68 38 76 44" fill="none" stroke="#55555F" stroke-width="3" stroke-linecap="round"/>
+<g class="e"><circle cx="51" cy="52" r="4.5" fill="#E8A33D"/><circle cx="69" cy="52" r="4.5" fill="#E8A33D"/><circle cx="51" cy="52" r="2" fill="#1A1A20"/><circle cx="69" cy="52" r="2" fill="#1A1A20"/></g>
+<ellipse cx="60" cy="72" rx="13" ry="10" fill="#4A4A55"/>
+<ellipse cx="56" cy="68" rx="1.8" ry="1.4" fill="#1A1A20"/><ellipse cx="64" cy="68" rx="1.8" ry="1.4" fill="#1A1A20"/>
+<path d="M54 76 Q60 79 66 76" fill="none" stroke="#1A1A20" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

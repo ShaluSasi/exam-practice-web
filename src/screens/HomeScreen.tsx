@@ -136,13 +136,14 @@ function Toggle({ on, onClick, children, className }: { on: boolean; onClick: ()
 interface Chapter {
   key: string;
   title: string;
+  no: number | undefined;
   subject: SubjectId;
   grade: number;
   questions: Question[];
   cover: string | undefined;
 }
 
-/** Chapters with enough questions for a full random round get their own card. */
+/** Chapters with enough questions for a full random round get their own quiz card, in course order. */
 function useChapters(): Chapter[] {
   return useMemo(() => {
     const map = new Map<string, Chapter>();
@@ -150,13 +151,15 @@ function useChapters(): Chapter[] {
       const key = `${q.subject}|${q.grade}|${q.chapter}`;
       let c = map.get(key);
       if (!c) {
-        c = { key, title: q.chapter, subject: q.subject, grade: q.grade, questions: [], cover: undefined };
+        c = { key, title: q.chapter, no: q.chapterNo, subject: q.subject, grade: q.grade, questions: [], cover: undefined };
         map.set(key, c);
       }
       c.questions.push(q);
       c.cover ??= q.image?.src;
     }
-    return [...map.values()].filter((c) => c.questions.length >= ROUND_SIZE);
+    return [...map.values()]
+      .filter((c) => c.questions.length >= ROUND_SIZE)
+      .sort((a, b) => a.subject.localeCompare(b.subject) || a.grade - b.grade || (a.no ?? 99) - (b.no ?? 99));
   }, []);
 }
 
@@ -180,26 +183,31 @@ function ChapterCard({ chapter, onStart, index }: { chapter: Chapter; onStart: (
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.08, type: "spring", stiffness: 200, damping: 24 }}
-      className="grid overflow-hidden rounded-[28px] border-2 border-line bg-surface shadow-card md:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)]"
+      className="flex flex-col overflow-hidden rounded-[28px] border-2 border-line bg-surface shadow-card"
     >
-      <div className={clsx("relative grid place-items-center p-5 sm:p-7", st.soft)}>
+      <div className={clsx("relative grid place-items-center p-5 sm:p-6", st.soft)}>
+        {chapter.no !== undefined && (
+          <span className="absolute left-4 top-4 z-10 rounded-full bg-fg px-3 py-1 font-display text-sm font-extrabold text-bg shadow-pop">
+            Chapter {chapter.no}
+          </span>
+        )}
         {chapter.cover ? (
           <motion.img
             src={chapter.cover}
             alt=""
-            className="w-full max-w-[360px] rounded-2xl shadow-pop"
+            className="w-full max-w-[340px] rounded-2xl shadow-pop"
             whileHover={{ rotate: -2, scale: 1.03 }}
           />
         ) : (
           <span className={clsx("font-display text-[120px] font-extrabold", st.text)}>{st.glyph}</span>
         )}
       </div>
-      <div className="flex flex-col p-5 sm:p-7">
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2">
           <SubjectChip subject={chapter.subject} />
           <span className="rounded-full bg-surface-2 px-2.5 py-1 text-xs font-bold text-muted">{region.gradeLabel(chapter.grade)}</span>
         </div>
-        <h3 className="mt-3 font-display text-2xl font-extrabold tracking-tight sm:text-3xl">{chapter.title}</h3>
+        <h3 className="mt-3 font-display text-2xl font-extrabold tracking-tight">{chapter.title}</h3>
         <p className="mt-1.5 text-muted">
           <span className="font-bold text-fg">{chapter.questions.length} questions</span> with {withImages} illustrated ·{" "}
           <span className="font-bold text-fg">{ROUND_SIZE} random</span> every round, so no two rounds are the same.
@@ -352,7 +360,7 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: strin
           <section className="mb-12">
             <h2 className="mb-1 font-display text-3xl font-extrabold tracking-tight">Chapter practice</h2>
             <p className="mb-5 text-muted">Diagrams, animations and instant explanations, straight from the syllabus.</p>
-            <div className="grid gap-5">
+            <div className="grid gap-5 md:grid-cols-2">
               {chapters.map((c, i) => (
                 <ChapterCard key={c.key} chapter={c} onStart={onStart} index={i} />
               ))}

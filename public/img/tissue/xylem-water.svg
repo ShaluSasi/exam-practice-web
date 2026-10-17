@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" role="img">
+<title>Water moving up through a young plant from soil to leaves</title>
+<style>
+.up{animation:up 4s linear infinite}@keyframes up{0%{transform:translateY(0);opacity:0}10%,85%{opacity:1}100%{transform:translateY(-200px);opacity:0}}
+.d2{animation-delay:-1.33s}.d3{animation-delay:-2.66s}
+.vp{animation:vp 3s ease-out infinite}@keyframes vp{0%{transform:translateY(0);opacity:0}30%{opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 214H300V304Q300 320 284 320H16Q0 320 0 304Z" fill="#E9D3AE"/><path d="M0 214H300" stroke="#B48A55" stroke-width="3"/>
+<g fill="#9FCBEA" opacity=".6"><circle cx="60" cy="260" r="5"/><circle cx="90" cy="290" r="4"/><circle cx="220" cy="250" r="5"/><circle cx="240" cy="294" r="4"/></g>
+<path d="M150 214V300" stroke="#B08A4E" stroke-width="8" stroke-linecap="round"/>
+<path d="M150 236L114 266M150 250L190 280" stroke="#B08A4E" stroke-width="4" stroke-linecap="round"/>
+<path d="M146 250l-9 -3M154 250l9 -3M146 256l-9 -3M154 256l9 -3M146 262l-9 -3M154 262l9 -3M146 268l-9 -3M154 268l9 -3M146 274l-9 -3M154 274l9 -3M146 280l-9 -3M154 280l9 -3M146 286l-9 -3M154 286l9 -3" stroke="#C8A877" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M150 216V58" stroke="#3E7A22" stroke-width="16" stroke-linecap="round"/><path d="M150 300V58" stroke="#CDE9FF" stroke-width="5" stroke-linecap="round"/>
+<g fill="#6CC04A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"><path d="M146 80C122 58 88 54 66 66C88 88 122 92 146 80Z"/><path d="M154 70C178 50 212 46 234 58C212 80 178 84 154 70Z"/><path d="M146 140C126 124 100 122 82 130C100 148 126 150 146 140Z"/><path d="M154 130C174 114 200 112 218 120C200 138 174 140 154 130Z"/></g>
+<g fill="#4A90C8"><circle class="up" cx="150" cy="292" r="4.5"/><circle class="up d2" cx="150" cy="292" r="4.5"/><circle class="up d3" cx="150" cy="292" r="4.5"/></g>
+<g class="vp" fill="none" stroke="#9FCBEA" stroke-width="3" stroke-linecap="round"><path d="M96 54q-4 -6 0 -12M196 42q-4 -6 0 -12M110 118q-4 -6 0 -12M190 106q-4 -6 0 -12"/></g>
+</svg>

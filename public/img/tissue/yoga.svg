@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img">
+<title>A child doing a standing yoga pose at sunrise</title>
+<style>
+.ry{transform-box:fill-box;transform-origin:center;animation:ry 12s linear infinite}@keyframes ry{to{transform:rotate(360deg)}}
+.fg{transform-box:fill-box;transform-origin:center bottom;animation:fg 4s ease-in-out infinite}@keyframes fg{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path class="ry" d="M266 70L278 70M261.4 87L271.8 93M249 99.4L255 109.8M232 104L232 116M215 99.4L209 109.8M202.6 87L192.2 93M198 70L186 70M202.6 53L192.2 47M215 40.6L209 30.2M232 36L232 24M249 40.6L255 30.2M261.4 53L271.8 47" stroke="#F2B84B" stroke-width="4" stroke-linecap="round"/>
+<circle cx="232" cy="70" r="26" fill="#F6C453" stroke="#E0A93A" stroke-width="3"/>
+<rect x="70" y="222" width="150" height="10" rx="5" fill="#9FD3A8" stroke="#5E9E6B" stroke-width="2"/>
+<g class="fg">
+<path d="M144 150L144 220" stroke="#F2C1A0" stroke-width="11" stroke-linecap="round"/>
+<path d="M154 150L182 176L150 186" fill="none" stroke="#F2C1A0" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M134 148H164V160H134Z" fill="#4A90C8"/>
+<path d="M136 92L144 36M162 92L154 36" stroke="#F2C1A0" stroke-width="9" stroke-linecap="round"/>
+<circle cx="149" cy="32" r="7" fill="#F2C1A0" stroke="#D9967A" stroke-width="2"/>
+<rect x="132" y="86" width="34" height="68" rx="12" fill="#6FB3E8" stroke="#3A7AB0" stroke-width="3"/>
+<circle cx="149" cy="66" r="17" fill="#F2C1A0" stroke="#D9967A" stroke-width="2.5"/>
+<path d="M132 62C132 46 166 46 166 62C160 54 138 54 132 62Z" fill="#3B2A20"/>
+<path d="M142 68h4M152 68h4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<path d="M144 74Q149 78 154 74" fill="none" stroke="#B94A4A" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

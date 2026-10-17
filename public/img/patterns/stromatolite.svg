@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>Layered rock mounds in shallow sunlit water, one cut open to show its layers</title>
+<style>
+.bu{animation:bu 3s ease-in infinite}.d1{animation-delay:-1s}.d2{animation-delay:-2s}
+.ry{animation:ry 4s ease-in-out infinite}
+@keyframes bu{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-50px);opacity:0}}
+@keyframes ry{0%,100%{opacity:.3}50%{opacity:.8}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="288" height="40" rx="12" fill="#E6F4FF"/>
+<rect x="6" y="40" width="288" height="154" rx="12" fill="#CDE9FF"/>
+<path d="M6 42 Q50 36 100 42 T200 42 T294 42" fill="none" stroke="#4A90C8" stroke-width="2.5"/>
+<circle cx="260" cy="24" r="12" fill="#FFD45C"/>
+<g class="ry" stroke="#FFE58A" stroke-width="6" stroke-linecap="round"><path d="M240 50 L210 110"/><path d="M262 52 L246 120"/><path d="M220 48 L170 104"/></g>
+<path d="M6 170 Q150 160 294 170 V182 Q294 194 282 194 H18 Q6 194 6 182 Z" fill="#F2DDAE"/>
+<g fill="none" stroke="#9C7A52" stroke-width="2.5">
+<path d="M24 172 C24 134 76 134 76 172" fill="#D9BE94"/>
+<path d="M210 172 C210 142 254 142 254 172" fill="#D9BE94"/>
+</g>
+<path d="M98 172 C98 112 182 112 182 172 Z" fill="#E6CFA6" stroke="#9C7A52" stroke-width="2.5"/>
+<g fill="none" stroke="#9C7A52" stroke-width="2"><path d="M106 172 C106 122 174 122 174 172"/><path d="M114 172 C114 132 166 132 166 172"/><path d="M122 172 C122 142 158 142 158 172"/><path d="M130 172 C130 152 150 152 150 172"/></g>
+<path d="M98 172 C98 112 182 112 182 172" fill="none" stroke="#3FA36F" stroke-width="5"/>
+<g fill="#fff" stroke="#4A90C8" stroke-width="1.5"><circle class="bu" cx="130" cy="116" r="3.5"/><circle class="bu d1" cx="152" cy="114" r="3"/><circle class="bu d2" cx="50" cy="134" r="3"/><circle class="bu d1" cx="232" cy="140" r="3"/><circle class="bu d2" cx="166" cy="120" r="2.5"/></g>
+</svg>

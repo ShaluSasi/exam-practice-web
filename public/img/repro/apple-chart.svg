@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Bar chart of fruit set and fruit drop in apple orchards at Place A and Place B</title>
+<style>
+.bar{animation:up 1.2s ease-out both;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes up{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#E6DDCB" stroke-width="1">
+<path d="M60 200H380M60 160H380M60 120H380M60 80H380M60 40H380"/>
+</g>
+<path d="M60 240H380" stroke="#9A927F" stroke-width="1.5"/>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#6B6F86" text-anchor="end">
+<text x="54" y="244">0</text><text x="54" y="204">10</text><text x="54" y="164">20</text><text x="54" y="124">30</text><text x="54" y="84">40</text><text x="54" y="44">50</text>
+</g>
+<text x="20" y="140" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#6B6F86" text-anchor="middle" transform="rotate(-90 20 140)">Per cent</text>
+<path class="bar" d="M98 240V140a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4V240Z" fill="#E0822F"/>
+<path class="bar" d="M142 240V84a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4V240Z" fill="#3D7BB8"/>
+<path class="bar" d="M248 240V104a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4V240Z" fill="#E0822F"/>
+<path class="bar" d="M292 240V212a4 4 0 0 1 4-4h32a4 4 0 0 1 4 4V240Z" fill="#3D7BB8"/>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="118" y="130">26</text><text x="162" y="74">40</text><text x="268" y="94">35</text><text x="312" y="202">8</text>
+<text x="140" y="282">Fruit set</text><text x="290" y="282">Fruit drop</text>
+</g>
+<rect x="232" y="16" width="12" height="12" rx="3" fill="#E0822F"/>
+<rect x="306" y="16" width="12" height="12" rx="3" fill="#3D7BB8"/>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A">
+<text x="250" y="27">Place A</text><text x="324" y="27">Place B</text>
+</g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#6B6F86" text-anchor="middle">
+<text x="118" y="257">A</text><text x="162" y="257">B</text><text x="268" y="257">A</text><text x="312" y="257">B</text>
+</g>
+</svg>

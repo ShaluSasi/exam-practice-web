@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>A beating heart next to a heartbeat trace</title>
+<style>
+.ht{transform-box:fill-box;transform-origin:center;animation:ht 1.2s ease-in-out infinite}
+@keyframes ht{0%,45%,100%{transform:scale(1)}12%{transform:scale(1.1)}25%{transform:scale(.97)}}
+.ec{stroke-dasharray:100;animation:ec 1.2s linear infinite}
+@keyframes ec{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="ht"><path d="M90 168C40 130 20 100 30 70C40 40 75 38 90 62C105 38 140 40 150 70C160 100 140 130 90 168Z" fill="#E5484D" stroke="#A62F35" stroke-width="3" stroke-linejoin="round"/>
+<path d="M48 76C52 62 64 56 74 60" fill="none" stroke="#F6A3A5" stroke-width="5" stroke-linecap="round"/></g>
+<rect x="168" y="54" width="118" height="92" rx="10" fill="#1F2A44"/>
+<path d="M174 100H200L206 92L212 100H220L226 70L234 124L240 100H254L262 90L270 100H282" fill="none" stroke="#2B3A5E" stroke-width="2.5"/>
+<path class="ec" pathLength="100" d="M174 100H200L206 92L212 100H220L226 70L234 124L240 100H254L262 90L270 100H282" fill="none" stroke="#5EE08A" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

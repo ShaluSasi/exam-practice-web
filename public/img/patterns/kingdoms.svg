@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>Five kingdoms of living organisms, each with an example</title>
+<style>
+.b{animation:b 3s ease-in-out infinite}.d1{animation-delay:-.6s}.d2{animation-delay:-1.2s}.d3{animation-delay:-1.8s}.d4{animation-delay:-2.4s}
+@keyframes b{0%,100%{transform:translateY(-3px)}50%{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke-width="2.5">
+<rect x="10" y="14" width="70" height="172" rx="12" fill="#DFF3EC" stroke="#2E8B7A"/>
+<rect x="87" y="14" width="70" height="172" rx="12" fill="#EDE3FB" stroke="#7B4BC0"/>
+<rect x="164" y="14" width="70" height="172" rx="12" fill="#F4E7D3" stroke="#A9774F"/>
+<rect x="241" y="14" width="70" height="172" rx="12" fill="#E3F3D6" stroke="#4E8F2A"/>
+<rect x="318" y="14" width="70" height="172" rx="12" fill="#FDE4D6" stroke="#D9822B"/>
+</g>
+<g class="b"><rect x="30" y="78" width="30" height="16" rx="8" fill="#9EDCCB" stroke="#2E8B7A" stroke-width="2.2"/><path d="M60 86 q6 -6 10 0 t8 0" fill="none" stroke="#2E8B7A" stroke-width="2" stroke-linecap="round"/><path d="M38 86 q4 -4 7 0 t7 0" fill="none" stroke="#E04848" stroke-width="1.6"/></g>
+<g class="b d1"><path d="M122 66 C134 64 144 74 142 84 C148 90 144 104 132 104 C124 110 110 106 108 98 C98 94 100 80 110 78 C112 70 116 66 122 66 Z" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2.2"/><circle cx="124" cy="86" r="6" fill="#B98BE8" stroke="#7B4BC0" stroke-width="1.5"/></g>
+<g class="b d2"><path d="M194 90 V108 H206 V90" fill="#F3E7D2" stroke="#A9774F" stroke-width="2.2"/><path d="M178 90 C178 70 222 70 222 90 Z" fill="#C98B5A" stroke="#8A5530" stroke-width="2.2" stroke-linejoin="round"/><circle cx="192" cy="80" r="3" fill="#F5E6D0"/><circle cx="206" cy="78" r="2.5" fill="#F5E6D0"/></g>
+<g class="b d3"><path d="M276 110 V72" stroke="#4E8F2A" stroke-width="3" stroke-linecap="round"/><g fill="#8FD16A" stroke="#3F8A2A" stroke-width="2"><ellipse cx="266" cy="96" rx="10" ry="5" transform="rotate(-25 266 96)"/><ellipse cx="286" cy="88" rx="10" ry="5" transform="rotate(25 286 88)"/></g><circle cx="276" cy="68" r="7" fill="#F7C6E0" stroke="#C2549A" stroke-width="2"/><circle cx="276" cy="68" r="2.5" fill="#F5C842"/></g>
+<g class="b d4"><path d="M340 86 L330 78 L332 94 Z" fill="#FFB547" stroke="#D9822B" stroke-width="2" stroke-linejoin="round"/><path d="M338 86 C346 72 366 72 376 86 C366 100 346 100 338 86 Z" fill="#FFB547" stroke="#D9822B" stroke-width="2.2"/><circle cx="367" cy="84" r="2.4" fill="#2B2F4A"/></g>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="45" y="168">Monera</text><text x="122" y="168">Protista</text><text x="199" y="168">Fungi</text><text x="276" y="168">Plantae</text><text x="353" y="168">Animalia</text>
+</g>
+</svg>

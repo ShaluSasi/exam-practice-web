@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A rose shoot joined onto a rooted rose plant</title>
+<style>
+.bl{animation:bloom 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bloom{0%,100%{transform:scale(.85)}50%{transform:scale(1.05)}}
+.nl{animation:nl 4s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes nl{0%,100%{transform:scale(.5)}50%{transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="236" width="368" height="50" rx="12" fill="#8B5E3C"/>
+<path d="M200 240q-20 20-40 26M200 240q22 18 44 24M200 240v30" fill="none" stroke="#6B4528" stroke-width="3" stroke-linecap="round"/>
+<path d="M200 238V150" stroke="#6B8E3A" stroke-width="12" stroke-linecap="round"/>
+<path d="M196 200q-30-6-44 6q24 10 44-6zM204 180q30-8 44 4q-24 10-44-4z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2"/>
+<path d="M200 150V60" stroke="#4E8F2A" stroke-width="9" stroke-linecap="round"/>
+<rect x="188" y="138" width="24" height="26" rx="5" fill="#F3F0E6" stroke="#9AA0B8" stroke-width="2.5"/>
+<path d="M190 146h20M190 154h20" stroke="#C8C4B8" stroke-width="2"/>
+<g class="nl"><path d="M202 110q28-14 44 0q-24 12-44 0z" fill="#8CCB5E" stroke="#3E7A20" stroke-width="2"/></g>
+<g class="nl"><path d="M198 92q-28-14-44 0q24 12 44 0z" fill="#8CCB5E" stroke="#3E7A20" stroke-width="2"/></g>
+<g class="bl">
+<circle cx="200" cy="50" r="22" fill="#F6C453" stroke="#C99A1E" stroke-width="2.5"/>
+<path d="M200 36q12 6 8 16q-10 6-16-2q-2-10 8-14zM188 48q-6 10 4 16M212 46q6 12-4 18" fill="none" stroke="#C99A1E" stroke-width="2"/>
+</g>
+<path d="M200 70q-10-4-14 4M200 70q10-4 14 4" fill="none" stroke="#3E7A20" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

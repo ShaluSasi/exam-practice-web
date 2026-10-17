@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A yeast cell seen under a microscope</title>
+<style>
+.bud{animation:bud 5s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes bud{0%{transform:scale(.1)}60%,90%{transform:scale(1)}100%{transform:scale(.1)}}
+.bud2{animation:bud2 5s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes bud2{0%,55%{transform:scale(0)}85%,95%{transform:scale(1)}100%{transform:scale(0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="200" cy="150" r="128" fill="#FFFDF7" stroke="#D9C9A8" stroke-width="4"/>
+<ellipse cx="176" cy="170" rx="64" ry="54" fill="#F9E3B4" stroke="#C99A4A" stroke-width="3"/>
+<circle cx="164" cy="176" r="18" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2.5"/>
+<circle cx="196" cy="150" r="10" fill="#CDE9FF" stroke="#4A90C8" stroke-width="2"/>
+<g class="bud">
+<ellipse cx="252" cy="104" rx="34" ry="30" fill="#F9E3B4" stroke="#C99A4A" stroke-width="3"/>
+<circle cx="252" cy="106" r="9" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/>
+<g class="bud2"><ellipse cx="292" cy="76" rx="16" ry="14" fill="#F9E3B4" stroke="#C99A4A" stroke-width="2.5"/></g>
+</g>
+<g fill="#E0C080"><circle cx="150" cy="140" r="2.5"/><circle cx="200" cy="196" r="2.5"/><circle cx="130" cy="196" r="2.5"/></g>
+</svg>

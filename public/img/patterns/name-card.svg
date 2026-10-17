@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" role="img">
+<title>A notebook page with a handwritten scientific name of the tiger</title>
+<style>
+.ul{stroke-dasharray:190;animation:ul 4s ease-in-out infinite}
+.pn{animation:pn 4s ease-in-out infinite}
+@keyframes ul{0%{stroke-dashoffset:190}40%,100%{stroke-dashoffset:0}}
+@keyframes pn{0%{transform:translateX(0)}40%,100%{transform:translateX(190px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.ul{stroke-dashoffset:0}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="18" y="16" width="264" height="148" rx="8" fill="#fff" stroke="#C9CCD6" stroke-width="2"/>
+<path d="M18 52 H282 M18 84 H282 M18 116 H282 M18 148 H282" stroke="#CFE3F5" stroke-width="1.5"/>
+<path d="M48 16 V164" stroke="#F28C8C" stroke-width="2"/>
+<g fill="#C9CCD6"><circle cx="30" cy="40" r="4"/><circle cx="30" cy="90" r="4"/><circle cx="30" cy="140" r="4"/></g>
+<text x="62" y="106" font-family="system-ui, sans-serif" font-size="30" font-weight="600" font-style="italic" fill="#2B4A8A">Panthera tigris</text>
+<path class="ul" d="M60 118 H250" stroke="#2B4A8A" stroke-width="3" stroke-linecap="round"/>
+<g class="pn"><path d="M58 118 l10 -24 l6 3 l-10 24 Z" fill="#F5C842" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/><path d="M58 118 l2 -6 l4 2 Z" fill="#2B2F4A"/></g>
+<g fill="#F59A3E" opacity=".8"><ellipse cx="248" cy="46" rx="9" ry="8"/><circle cx="236" cy="34" r="4"/><circle cx="246" cy="29" r="4"/><circle cx="257" cy="31" r="4"/><circle cx="263" cy="40" r="3.6"/></g>
+</svg>

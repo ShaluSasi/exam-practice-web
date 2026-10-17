@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>Ribbon-like water plants in a pond with tiny flowers floating on the surface</title>
+<style>
+.fl{animation:fl 6s ease-in-out infinite}
+.f2{animation-delay:-2s}.f3{animation-delay:-4s}
+@keyframes fl{0%{transform:translateX(0)}50%{transform:translateX(70px)}100%{transform:translateX(0)}}
+.rb{animation:rb 4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes rb{from{transform:skewX(-4deg)}to{transform:skewX(4deg)}}
+.wv{animation:wv 3s linear infinite}
+@keyframes wv{to{transform:translateX(-40px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="70" width="268" height="134" rx="12" fill="#CDE9FF" stroke="#4A90C8" stroke-width="2.5"/>
+<rect x="16" y="188" width="268" height="16" rx="6" fill="#8B5E3C"/>
+<g class="rb" fill="#6DB33F" stroke="#3E7A20" stroke-width="2">
+<path d="M50 190C40 150 60 120 54 90L62 90C68 120 50 150 58 190Z"/>
+<path d="M90 190C100 150 78 130 88 100L96 100C88 130 108 150 98 190Z"/>
+<path d="M150 190C140 160 158 130 152 104L160 104C166 130 148 160 158 190Z"/>
+<path d="M240 190C250 150 230 130 238 96L246 96C240 130 258 150 248 190Z"/>
+</g>
+<path d="M200 190c-10-20 14-30 0-50c-14-20 10-34 2-62" fill="none" stroke="#4E8F2A" stroke-width="3" stroke-linecap="round"/>
+<path d="M194 76q8-14 16 0q-8 6-16 0z" fill="#F7F0D0" stroke="#B8A04A" stroke-width="2"/>
+<g fill="#FFFFFF" stroke="#B8A04A" stroke-width="1.5">
+<g class="fl"><circle cx="70" cy="74" r="5"/></g><g class="fl f2"><circle cx="100" cy="72" r="4.5"/></g><g class="fl f3"><circle cx="122" cy="75" r="5"/></g>
+</g>
+<g class="wv"><path d="M16 70q10-6 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0" fill="none" stroke="#4A90C8" stroke-width="2"/></g>
+</svg>

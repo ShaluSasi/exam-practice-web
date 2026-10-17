@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img">
+<title>Four simple animals: a segmented worm, a sponge, a flatworm and a jellyfish</title>
+<style>
+.s{transform-box:fill-box;transform-origin:center;animation:s 1.6s ease-in-out infinite}
+.bob{animation:b 2.4s ease-in-out infinite}
+.u{animation:u 3s ease-out infinite}
+@keyframes s{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes b{0%,100%{transform:translateY(3px)}50%{transform:translateY(-3px)}}
+@keyframes u{0%{transform:translateY(4px);opacity:0}25%{opacity:1}100%{transform:translateY(-12px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="8" y="8" width="108" height="108" rx="12" fill="#F4E6CC"/>
+<rect x="124" y="8" width="108" height="108" rx="12" fill="#E3F2FF"/>
+<rect x="8" y="124" width="108" height="108" rx="12" fill="#E3F2FF"/>
+<rect x="124" y="124" width="108" height="108" rx="12" fill="#E3F2FF"/>
+<g fill="#E79A8C" stroke="#B85C4E" stroke-width="2">
+<ellipse class="s" cx="22" cy="66" rx="5" ry="6"/><ellipse class="s" cx="30" cy="64" rx="5" ry="7.5" style="animation-delay:-.2s"/><ellipse class="s" cx="38" cy="62" rx="5" ry="8" style="animation-delay:-.4s"/><ellipse class="s" cx="46" cy="61" rx="5" ry="8" style="animation-delay:-.6s"/><ellipse class="s" cx="54" cy="61" rx="5" ry="8" style="animation-delay:-.8s"/><ellipse class="s" cx="63" cy="62" rx="6.5" ry="9" fill="#C96E5E" style="animation-delay:-1s"/><ellipse class="s" cx="72" cy="62" rx="5" ry="8" style="animation-delay:-1.2s"/><ellipse class="s" cx="80" cy="61" rx="5" ry="8" style="animation-delay:-1.4s"/><ellipse class="s" cx="88" cy="60" rx="5" ry="7.5" style="animation-delay:-1.6s"/><ellipse class="s" cx="97" cy="58" rx="6.5" ry="7" style="animation-delay:-1.8s"/>
+</g>
+<path d="M162 104 C156 84 152 56 158 36 Q160 30 166 30 H190 Q196 30 198 36 C204 56 200 84 194 104 Z" fill="#F7C95E" stroke="#B9801C" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="178" cy="33" rx="11" ry="4" fill="#8A5A12"/>
+<g fill="#C98A1E"><circle cx="168" cy="50" r="3"/><circle cx="186" cy="48" r="3"/><circle cx="176" cy="64" r="3"/><circle cx="188" cy="76" r="3"/><circle cx="166" cy="80" r="3"/><circle cx="178" cy="92" r="3"/></g>
+<g fill="#4A90C8"><circle class="u" cx="178" cy="22" r="2.4"/><circle class="u" cx="172" cy="20" r="2" style="animation-delay:-1.5s"/></g>
+<path d="M18 180 C20 168 40 164 62 164 C80 164 88 164 94 160 C99 157 106 161 104 169 C108 173 108 181 104 184 C106 191 99 195 94 192 C88 189 80 194 62 194 C40 194 20 192 18 180 Z" fill="#F4C7A1" stroke="#C9824A" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="94" cy="172" r="3" fill="#fff" stroke="#C9824A"/><circle cx="94" cy="182" r="3" fill="#fff" stroke="#C9824A"/><circle cx="95" cy="172" r="1.4" fill="#2B2F4A"/><circle cx="95" cy="182" r="1.4" fill="#2B2F4A"/>
+<g class="bob">
+<g fill="none" stroke="#D9578F" stroke-width="2.2" stroke-linecap="round"><path d="M160 180 q-4 8 0 16 t0 16"/><path d="M170 182 q4 8 0 16 t0 14"/><path d="M186 182 q-4 8 0 16 t0 14"/><path d="M196 180 q4 8 0 16 t0 16"/></g>
+<path d="M150 180 C150 158 164 146 178 146 C192 146 206 158 206 180 Q199 175 192 180 Q185 175 178 180 Q171 175 164 180 Q157 175 150 180 Z" fill="#F7B6D2" stroke="#D9578F" stroke-width="2.5" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A joint between two bones</title>
+<style>
+.sh{animation:sh 2s ease-in-out infinite}
+@keyframes sh{0%,100%{transform:translate(0,0)}25%{transform:translate(-5px,2px)}75%{transform:translate(5px,-2px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="sh"><path d="M80 26L70 36L80 46L70 56L80 66L70 76L80 86L70 96L80 106L70 116L80 126L80 134H18Q10 80 18 26Z" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M80 26L70 36L80 46L70 56L80 66L70 76L80 86L70 96L80 106L70 116L80 126L80 134H142Q150 80 142 26Z" fill="#EFE2C8" stroke="#B9A27A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M80 26L70 36L80 46L70 56L80 66L70 76L80 86L70 96L80 106L70 116L80 126" fill="none" stroke="#8C7550" stroke-width="2.5" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,949 @@
+[
+  {
+    "id": "in-cbse-9-bio-tissue-001",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Complex permanent tissues",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "This is a cross-section of a young stem. Tap the tissue that carries **water and minerals** up from the roots.",
+    "image": { "src": "/img/tissue/stem-ts.svg", "alt": "Cross-section of a young stem with numbered markers" },
+    "spots": [
+      { "id": "epidermis", "x": 17, "y": 50, "label": "Epidermis" },
+      { "id": "ground", "x": 29.7, "y": 77.1, "label": "Ground tissue" },
+      { "id": "scl", "x": 50, "y": 17, "label": "Sclerenchyma" },
+      { "id": "phloem", "x": 72, "y": 50, "label": "Phloem" },
+      { "id": "xylem", "x": 34, "y": 50, "label": "Xylem" }
+    ],
+    "answer": "xylem",
+    "hint": "Look inside each bundle for the wide, round tubes on the side nearer the centre.",
+    "explanation": "**Xylem** lies on the inner side of each vascular bundle. Its **vessels** and **tracheids** are tubular, thick-walled cells that carry water and minerals upward, and they also give the plant strength. **Phloem**, on the outer side of the same bundle, carries food instead."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-002",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Complex permanent tissues",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the tissue that carries **food made in the leaves** to other parts of the plant.",
+    "image": { "src": "/img/tissue/stem-ts.svg", "alt": "Cross-section of a young stem with numbered markers" },
+    "spots": [
+      { "id": "xylem", "x": 34, "y": 50, "label": "Xylem" },
+      { "id": "pith", "x": 50, "y": 50, "label": "Central ground tissue (pith)" },
+      { "id": "phloem", "x": 72, "y": 50, "label": "Phloem" },
+      { "id": "cambium", "x": 50, "y": 76.3, "label": "Lateral meristem" },
+      { "id": "ground", "x": 29.7, "y": 77.1, "label": "Ground tissue" }
+    ],
+    "answer": "phloem",
+    "hint": "In each bundle it lies on the outer side, towards the epidermis.",
+    "explanation": "**Phloem** sits on the outer side of every vascular bundle. Its **sieve tubes**, joined end to end through perforated walls, carry food from the leaves to the rest of the plant. Unlike xylem, phloem is made mostly of **living** cells."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-003",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Lateral meristem",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "The stem of a dicot plant gets **thicker** year after year. Tap the ring of dividing cells responsible for this.",
+    "image": { "src": "/img/tissue/stem-ts.svg", "alt": "Cross-section of a young stem with numbered markers" },
+    "spots": [
+      { "id": "scl", "x": 50, "y": 17, "label": "Sclerenchyma" },
+      { "id": "epidermis", "x": 17, "y": 50, "label": "Epidermis" },
+      { "id": "xylem", "x": 34, "y": 50, "label": "Xylem" },
+      { "id": "phloem", "x": 72, "y": 50, "label": "Phloem" },
+      { "id": "cambium", "x": 50, "y": 76.3, "label": "Lateral meristem" }
+    ],
+    "answer": "cambium",
+    "hint": "It is a thin, continuous ring running between the two conducting tissues.",
+    "explanation": "The **lateral meristem** is a ring of actively dividing cells along the circumference of the stem, here between the xylem and the phloem. Its cells add new cells both inwards and outwards, so the stem's **girth** increases. The epidermis protects and the sclerenchyma supports; neither of them divides to thicken the stem."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-004",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Apical meristem",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the region whose dividing cells make this sapling's **stem grow taller**.",
+    "image": { "src": "/img/tissue/sapling.svg", "alt": "A young sapling with numbered markers" },
+    "spots": [
+      { "id": "shoot", "x": 50, "y": 11.5, "label": "Shoot tip" },
+      { "id": "leaf", "x": 65, "y": 26, "label": "Leaf" },
+      { "id": "node", "x": 50, "y": 41.75, "label": "Just above a node" },
+      { "id": "lateral", "x": 36.7, "y": 71.5, "label": "Side root" },
+      { "id": "roottip", "x": 50, "y": 92.5, "label": "Root tip" }
+    ],
+    "answer": "shoot",
+    "hint": "Growth in length happens at the very tip.",
+    "explanation": "**Apical meristems** sit at the tips of shoots and roots. The **shoot apical meristem** at the stem tip divides continuously, so the stem grows in length. The root tip also has an apical meristem, but it lengthens the root, not the stem."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-005",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Intercalary meristem",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Mowed grass and trimmed hedges grow back because of the **intercalary meristem**. Tap where this meristem is found on the sapling.",
+    "image": { "src": "/img/tissue/sapling.svg", "alt": "A young sapling with numbered markers" },
+    "spots": [
+      { "id": "shoot", "x": 50, "y": 11.5, "label": "Shoot tip" },
+      { "id": "leaf", "x": 65, "y": 26, "label": "Leaf" },
+      { "id": "node", "x": 50, "y": 41.75, "label": "Just above a node" },
+      { "id": "lower", "x": 50, "y": 53, "label": "Stem just above the soil" },
+      { "id": "roottip", "x": 50, "y": 92.5, "label": "Root tip" }
+    ],
+    "answer": "node",
+    "hint": "Look for the point on the stem where leaves are attached.",
+    "explanation": "The **intercalary meristem** lies at the base of an internode, just above a **node** (the point where leaves or branches arise). It helps grasses regrow after mowing or grazing and makes a cut hedge turn bushy. The meristems at the shoot and root tips are **apical** meristems."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-006",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Protective tissue: epidermis",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the part of the root that greatly **increases the surface area** for absorbing water and minerals.",
+    "image": { "src": "/img/tissue/sapling.svg", "alt": "A young sapling with numbered markers" },
+    "spots": [
+      { "id": "leaf", "x": 65, "y": 26, "label": "Leaf" },
+      { "id": "lower", "x": 50, "y": 53, "label": "Stem just above the soil" },
+      { "id": "lateral", "x": 36.7, "y": 71.5, "label": "Side root" },
+      { "id": "hairs", "x": 53.3, "y": 81.5, "label": "Root hairs" },
+      { "id": "roottip", "x": 50, "y": 92.5, "label": "Root tip" }
+    ],
+    "answer": "hairs",
+    "hint": "Look for fine, hair-like outgrowths of the root's outer cells.",
+    "explanation": "**Root hairs** are hair-like projections of the root's **epidermal** cells. They greatly increase the surface in contact with the soil, so more water and minerals are absorbed. The root tip holds the root apical meristem, which lengthens the root."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-007",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Nervous tissue",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the short branches of this nerve cell that **receive signals** from other neurons.",
+    "image": { "src": "/img/tissue/neuron.svg", "alt": "A nerve cell with numbered markers" },
+    "spots": [
+      { "id": "dendrite", "x": 11, "y": 22, "label": "Dendrites" },
+      { "id": "nucleus", "x": 22.5, "y": 50, "label": "Nucleus" },
+      { "id": "body", "x": 24, "y": 61, "label": "Cell body" },
+      { "id": "axon", "x": 56.25, "y": 50, "label": "Axon" },
+      { "id": "terminal", "x": 92.5, "y": 50, "label": "Axon terminals" }
+    ],
+    "answer": "dendrite",
+    "hint": "They are the many short branches spreading out from the cell body.",
+    "explanation": "**Dendrites** are short, branched extensions that receive messages from other neurons. The **cell body** contains the nucleus and controls the cell, the long **axon** carries the message away, and the **axon terminals** pass it on to other cells."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-008",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Connective tissue: ligament",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Sit on a chair and swing your lower leg up: the knee stops at a limit and does not dislocate. Tap the tissue that **joins bone to bone** and gives this stability.",
+    "image": { "src": "/img/tissue/knee-joint.svg", "alt": "Side view of a knee joint with numbered markers" },
+    "spots": [
+      { "id": "bone", "x": 50, "y": 19.4, "label": "Bone" },
+      { "id": "muscle", "x": 68, "y": 22.2, "label": "Muscle" },
+      { "id": "cartilage", "x": 50, "y": 47.5, "label": "Cartilage" },
+      { "id": "ligament", "x": 36.3, "y": 50.6, "label": "Ligament" },
+      { "id": "tendon", "x": 68, "y": 59.7, "label": "Tendon" }
+    ],
+    "answer": "ligament",
+    "hint": "It is a band at the side of the joint, stretching from the upper bone to the lower bone.",
+    "explanation": "**Ligaments** connect bone to bone. They keep a joint stable, limit how far it can move and help prevent dislocation. **Tendons** look similar but connect muscle to bone, and the blue **cartilage** cushions the ends of the bones."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-009",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Types of joints",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Shake your head to say 'no'. Tap the **pivot joint** that lets your head turn from side to side.",
+    "image": { "src": "/img/tissue/skeleton.svg", "alt": "A cartoon human skeleton with numbered markers" },
+    "spots": [
+      { "id": "skull", "x": 50, "y": 7.1, "label": "Bones of the skull" },
+      { "id": "neck", "x": 50, "y": 26.2, "label": "Top of the neck" },
+      { "id": "shoulder", "x": 31.7, "y": 31, "label": "Shoulder" },
+      { "id": "elbow", "x": 72.7, "y": 47.6, "label": "Elbow" },
+      { "id": "knee", "x": 42, "y": 81, "label": "Knee" }
+    ],
+    "answer": "neck",
+    "hint": "It is where the skull rests on top of the backbone.",
+    "explanation": "The skull joins the backbone at a **pivot joint**, which lets the head turn side to side like a doorknob. The shoulder is a **ball and socket** joint, the elbow and knee are **hinge** joints, and the bones of the skull meet at **fixed** joints."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-010",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Skeletal system",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **vertebral column**: the stack of small bones whose cartilage discs let you bend and twist safely.",
+    "image": { "src": "/img/tissue/skeleton.svg", "alt": "A cartoon human skeleton with numbered markers" },
+    "spots": [
+      { "id": "skull", "x": 50, "y": 7.1, "label": "Skull" },
+      { "id": "shoulder", "x": 31.7, "y": 31, "label": "Shoulder" },
+      { "id": "ribs", "x": 62.7, "y": 38.6, "label": "Ribs" },
+      { "id": "spine", "x": 50, "y": 57.1, "label": "Vertebral column" },
+      { "id": "knee", "x": 42, "y": 81, "label": "Knee" }
+    ],
+    "answer": "spine",
+    "hint": "It runs down the middle of the back from the base of the skull.",
+    "explanation": "The **vertebral column** (backbone or spine) is a flexible column of small bones called **vertebrae**. A **cartilage disc** between each pair acts as a cushion, so we can bend and twist without injuring the spinal cord inside. It supports the body and helps us stand upright."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-011",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Plant and animal tissues",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Plants stay fixed in one place, yet a tall tree stands upright for years. Which feature of plant cells most helps plant tissues give this support?",
+    "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell" },
+    "options": [
+      { "id": "a", "text": "Cells that can change shape easily" },
+      { "id": "b", "text": "A rigid cell wall around each cell" },
+      { "id": "c", "text": "Many mitochondria in every cell" },
+      { "id": "d", "text": "Cells that have no nucleus" }
+    ],
+    "answer": "b",
+    "hint": "Animal cells lack this layer, which is why they can change shape.",
+    "explanation": "Plants cannot move, so their tissues must keep them firm and upright. Plant cells have a **cell wall** that gives rigidity and strength. Animal cells lack a cell wall and can change shape easily, which suits movement from place to place."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-012",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Apical meristem",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Two onion bulbs grew roots in jars of water. On day 3, about 1 cm of the root tips in **Jar B** was cut off. What does the graph tell you?",
+    "image": { "src": "/img/tissue/onion-graph.svg", "alt": "Line graph of onion root length over seven days for Jar A and Jar B" },
+    "options": [
+      { "id": "a", "text": "Roots grow equally along their whole length" },
+      { "id": "b", "text": "Cutting the tips makes roots grow faster" },
+      { "id": "c", "text": "Roots grow in length only from their tips" },
+      { "id": "d", "text": "Jar B's roots stopped because its water ran out" }
+    ],
+    "answer": "c",
+    "hint": "Compare the two lines after day 3.",
+    "explanation": "After the cut, the Jar B line stays flat while Jar A keeps rising. So the growth zone is at the **tip**, where cells divide continuously: the **root apical meristem**. If roots grew along their whole length, the cut roots would have kept getting longer."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-013",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Apical meristem",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "Use the graph. On **day 7**, how much longer are the roots in Jar A than the roots in Jar B?",
+    "image": { "src": "/img/tissue/onion-graph.svg", "alt": "Line graph of onion root length over seven days for Jar A and Jar B" },
+    "options": [
+      { "id": "a", "text": "5 cm" },
+      { "id": "b", "text": "4 cm" },
+      { "id": "c", "text": "9 cm" },
+      { "id": "d", "text": "7 cm" }
+    ],
+    "answer": "a",
+    "hint": "Read both lines at day 7, then subtract.",
+    "explanation": "At day 7, Jar A = **7 cm** and Jar B = **2 cm**, so the difference is 7 − 2 = **5 cm**. Using Jar B's day-3 length (3 cm) gives 4 cm, which forgets that 1 cm was cut off and never grew back. Adding the lengths (9 cm) or reading only Jar A (7 cm) does not give a difference."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-014",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Annual rings",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "A disc of wood cut from a young tree (bark removed) is **24 cm across** and shows **6 annual rings**. On average, by how much did the trunk's **radius** increase each year?",
+    "image": { "src": "/img/tissue/tree-rings.svg", "alt": "A cross-section disc of a tree trunk showing rings" },
+    "options": [
+      { "id": "a", "text": "4 cm per year" },
+      { "id": "b", "text": "0.25 cm per year" },
+      { "id": "c", "text": "1 cm per year" },
+      { "id": "d", "text": "2 cm per year" }
+    ],
+    "answer": "d",
+    "hint": "The radius is half the diameter, and one ring stands for one year.",
+    "explanation": "Radius = 24 ÷ 2 = **12 cm**, laid down over **6 years** (one ring per year), so 12 ÷ 6 = **2 cm per year**. Dividing the diameter by 6 (4 cm) forgets to halve it, 6 ÷ 24 turns the ratio upside down, and counting each light and dark band as a separate year doubles the count to 12, giving 1 cm. The rings are made by the **lateral meristem**."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-015",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Lateral meristem",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "The chart shows the trunk diameter at breast height (DBH) of a teak tree at different ages; its number of annual rings always equalled its age. What was the **average increase in DBH per year** between the ages of **10 and 20 years**?",
+    "image": { "src": "/img/tissue/teak-chart.svg", "alt": "Bar chart of a teak tree's trunk diameter at different ages" },
+    "options": [
+      { "id": "a", "text": "1.2 cm per year" },
+      { "id": "b", "text": "1.6 cm per year" },
+      { "id": "c", "text": "16 cm per year" },
+      { "id": "d", "text": "0.8 cm per year" }
+    ],
+    "answer": "b",
+    "hint": "Find the change in DBH, then divide by the change in age.",
+    "explanation": "DBH rose from **8 cm** at 10 years to **24 cm** at 20 years: (24 − 8) ÷ (20 − 10) = 16 ÷ 10 = **1.6 cm per year**. Dividing 24 by 20 (1.2) uses the whole lifetime instead of that decade, 16 cm forgets to divide by the 10 years, and 0.8 cm is the rate for the first 10 years only. This growth in girth comes from the **lateral meristem**."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-016",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Musculoskeletal system",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "Riya's mother weighs **50 kg**. An adult's bones make up about **12–15%** of body weight. Estimate the mass of her bones.",
+    "image": { "src": "/img/tissue/scale.svg", "alt": "A bathroom weighing scale reading 50 kg" },
+    "options": [
+      { "id": "a", "text": "0.6–0.75 kg" },
+      { "id": "b", "text": "12–15 kg" },
+      { "id": "c", "text": "6–7.5 kg" },
+      { "id": "d", "text": "35–38 kg" }
+    ],
+    "answer": "c",
+    "hint": "Multiply the body weight by 12/100 and by 15/100.",
+    "explanation": "12% of 50 kg = 0.12 × 50 = **6 kg** and 15% of 50 kg = 0.15 × 50 = **7.5 kg**, so her bones weigh about **6–7.5 kg**. Writing the percentages straight as kilograms gives 12–15 kg, dividing by 100 twice gives 0.6–0.75 kg, and subtracting the percentages from 50 gives 35–38 kg."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-017",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Connective tissue: blood",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "A donor gives **350 mL** of blood. Plasma makes up about **55%** of blood volume. Roughly how much of the donated blood is plasma?",
+    "image": { "src": "/img/tissue/blood-tube.svg", "alt": "A blood sample that has settled into two layers in a test tube" },
+    "options": [
+      { "id": "a", "text": "157.5 mL" },
+      { "id": "b", "text": "636 mL" },
+      { "id": "c", "text": "55 mL" },
+      { "id": "d", "text": "192.5 mL" }
+    ],
+    "answer": "d",
+    "hint": "Plasma is the larger, straw-coloured layer. Find 55% of 350.",
+    "explanation": "Plasma ≈ 55% of 350 mL = 0.55 × 350 = **192.5 mL**. 157.5 mL is the 45% made of **formed elements** (RBCs, WBCs and platelets); 636 mL comes from dividing by 0.55 instead of multiplying, which is more than was donated; and 55 mL treats the percentage as a volume."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-018",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Muscular tissue",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which sample shows the muscle that keeps your **heart** beating throughout life?",
+    "options": [
+      { "id": "a", "text": "Sample P", "image": { "src": "/img/tissue/muscle-skeletal.svg", "alt": "Muscle tissue sample P" } },
+      { "id": "b", "text": "Sample Q", "image": { "src": "/img/tissue/muscle-cardiac.svg", "alt": "Muscle tissue sample Q" } },
+      { "id": "c", "text": "Sample R", "image": { "src": "/img/tissue/muscle-smooth.svg", "alt": "Muscle tissue sample R" } }
+    ],
+    "answer": "b",
+    "hint": "Look for fibres that branch and join one another.",
+    "explanation": "**Cardiac muscle** (Q) has cylindrical, **branched** fibres with one nucleus per cell and faint striations; it works rhythmically without tiring. P, with long, unbranched, striped fibres and many nuclei, is **skeletal muscle**. R, with spindle-shaped cells, one nucleus each and no stripes, is **smooth muscle**."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-019",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Simple permanent tissues",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Coconut-husk fibres are hard and tough enough to make doormats. Which sample shows the cells that give them this strength?",
+    "options": [
+      { "id": "a", "text": "Sample P", "image": { "src": "/img/tissue/sclerenchyma.svg", "alt": "Plant tissue sample P" } },
+      { "id": "b", "text": "Sample Q", "image": { "src": "/img/tissue/parenchyma.svg", "alt": "Plant tissue sample Q" } },
+      { "id": "c", "text": "Sample R", "image": { "src": "/img/tissue/collenchyma.svg", "alt": "Plant tissue sample R" } }
+    ],
+    "answer": "a",
+    "hint": "Look for cells whose walls are so thick that only a tiny space is left inside.",
+    "explanation": "**Sclerenchyma** (P) has very thick walls hardened with **lignin**, and most of its cells are dead; it makes coconut husk, walnut shells and seed coats hard. Living, thin-walled **parenchyma** (Q) is soft and stores food, while **collenchyma** (R), thickened only at the corners, is flexible rather than hard."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-020",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Simple permanent tissues",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Aamrapali sees a young mango sapling bend in the monsoon wind without breaking. Which sample shows the tissue that gives the young stem this **flexible support**?",
+    "options": [
+      { "id": "a", "text": "Sample P", "image": { "src": "/img/tissue/parenchyma.svg", "alt": "Plant tissue sample P" } },
+      { "id": "b", "text": "Sample Q", "image": { "src": "/img/tissue/sclerenchyma.svg", "alt": "Plant tissue sample Q" } },
+      { "id": "c", "text": "Sample R", "image": { "src": "/img/tissue/collenchyma.svg", "alt": "Plant tissue sample R" } }
+    ],
+    "answer": "c",
+    "hint": "Look for living cells with extra thickening only at their corners.",
+    "explanation": "**Collenchyma** (R) is made of living cells whose walls are thickened unevenly at the **corners** by **pectin**, which makes them flexible like rubber. It lets young stems, tendrils and leaf stalks (like coriander's) bend without breaking. If it were replaced by stiff, lignified **sclerenchyma** (Q), the stem would be more likely to snap in strong wind."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-021",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Simple permanent tissues",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "How does a water plant like this one manage to **float**?",
+    "image": { "src": "/img/tissue/floating-plant.svg", "alt": "A water plant floating on a pond" },
+    "options": [
+      { "id": "a", "text": "Its roots are covered by a thick cuticle" },
+      { "id": "b", "text": "Its stems are made of lignified sclerenchyma" },
+      { "id": "c", "text": "It grows extra root hairs" },
+      { "id": "d", "text": "Special parenchyma in it has large air spaces" }
+    ],
+    "answer": "d",
+    "hint": "Think about what makes a life jacket float.",
+    "explanation": "In aquatic plants, specialised **parenchyma** forms large **air spaces** that make the plant light, so it floats. Lignified sclerenchyma would make it hard and heavy, and a cuticle or extra root hairs do not provide buoyancy."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-022",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Complex permanent tissues",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "An elephant stripped a band of bark off this tree to eat it. Months later the roots begin to starve, even though the leaves are still green and making food. Damage to which tissue, lying just beneath the bark, best explains this?",
+    "image": { "src": "/img/tissue/debarked-tree.svg", "alt": "An elephant beside a tree whose bark has been stripped in a band" },
+    "options": [
+      { "id": "a", "text": "Xylem" },
+      { "id": "b", "text": "Phloem" },
+      { "id": "c", "text": "Sclerenchyma" },
+      { "id": "d", "text": "Shoot apical meristem" }
+    ],
+    "answer": "b",
+    "hint": "Which tissue carries food downwards from the leaves?",
+    "explanation": "**Phloem** lies just inside the bark, so a stripped band tears it away. Phloem carries food from the leaves **down** to the roots; with the band broken, food cannot pass and the roots slowly starve. **Xylem** lies deeper in the wood and carries water upward, which is why the leaves stay green for a while."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-023",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Intercalary meristem",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Sohan planted two kinds of sugarcane cuttings, A and B. After a few weeks only the **B** cuttings sprouted into new plants. What made the difference?",
+    "image": { "src": "/img/tissue/sugarcane.svg", "alt": "Two sugarcane cuttings, A and B, planted in soil" },
+    "options": [
+      { "id": "a", "text": "Cutting B was planted deeper in the soil" },
+      { "id": "b", "text": "Cutting A had no phloem" },
+      { "id": "c", "text": "Cutting B had a node, with meristematic tissue that can form new shoots and roots" },
+      { "id": "d", "text": "Cutting B got more sunlight under the soil" }
+    ],
+    "answer": "c",
+    "hint": "Look carefully at what cutting B has in its middle.",
+    "explanation": "Only cutting B included a **node**, which carries a bud and **meristematic tissue** whose cells can still divide, so new shoots and roots grew from it. Cutting A was only internode, made of **permanent tissue** that cannot form a new plant. For a fair test, both cuttings should have the same length, soil, water and temperature."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-024",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Crown gall disease",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "This plant has **crown gall disease**: tumour-like swellings caused by rapid, uncontrolled cell division. Which organism causes it?",
+    "image": { "src": "/img/tissue/crown-gall.svg", "alt": "A plant stem with a large lumpy swelling near the soil" },
+    "options": [
+      { "id": "a", "text": "*Helianthus annuus*" },
+      { "id": "b", "text": "*Agrobacterium tumefaciens*" },
+      { "id": "c", "text": "Amoeba" },
+      { "id": "d", "text": "*Escherichia coli*" }
+    ],
+    "answer": "b",
+    "hint": "Its name contains a word meaning 'tumour-making'.",
+    "explanation": "Crown gall is caused by the bacterium *Agrobacterium tumefaciens*, which transfers some of its genetic material into plant cells. Scientists studied how it does this, and now use Agrobacterium as a tool to put useful genes into plants for better, disease-resistant crops. Helianthus annuus is the sunflower, not a germ."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-025",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Plant tissue culture",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Indian scientists **Sipra Guha Mukherjee** and **S. C. Maheshwari** made a breakthrough in plant tissue culture. What did they achieve?",
+    "image": { "src": "/img/cell/tissue-culture.svg", "alt": "Cells growing into a small plantlet in culture dishes" },
+    "options": [
+      { "id": "a", "text": "Grew complete plants from anthers on an artificial nutrient medium" },
+      { "id": "b", "text": "Discovered the bacterium that causes crown gall" },
+      { "id": "c", "text": "First grew a carrot plant from a single phloem cell" },
+      { "id": "d", "text": "Wrote the Kannada book Hasuru Honnu" }
+    ],
+    "answer": "a",
+    "hint": "Anthers are the parts of a flower that make pollen.",
+    "explanation": "Guha Mukherjee and Maheshwari developed **complete plants through anther culture**, on an artificial nutrient medium under controlled laboratory conditions; this helped crop improvement. Growing carrot plants from single phloem cells was **F. C. Steward's** work, and Hasuru Honnu was written by botanist **B. G. L. Swamy**."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-026",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Totipotency",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "In 1958, **F. C. Steward** grew single cells from a carrot's phloem in a nutrient medium and obtained whole new carrot plants. What does this show?",
+    "image": { "src": "/img/tissue/carrot-culture.svg", "alt": "A carrot, a slice cut from it, and a flask of liquid with cells swirling" },
+    "options": [
+      { "id": "a", "text": "Only meristematic cells can ever divide" },
+      { "id": "b", "text": "Phloem cells turn into xylem when kept in sugar" },
+      { "id": "c", "text": "Animal cells can regenerate whole animals in the same way" },
+      { "id": "d", "text": "Some mature plant cells can dedifferentiate, divide and redifferentiate into a whole plant" }
+    ],
+    "answer": "d",
+    "hint": "The cells were already specialised, yet they formed every part of a new plant.",
+    "explanation": "Steward's phloem cells first **dedifferentiated** (regained the ability to divide) into a mass of unspecialised cells, which then **redifferentiated** into roots, shoot and a complete plant. This ability is **totipotency**, like a zygote developing into a whole organism. It disproves the idea that only meristematic cells can divide, and it tells us nothing about animal cells."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-027",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Cork cambium",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "As a stem grows older, some cells under its epidermis begin dividing again and form the **cork cambium**, which builds the bark. Which statement about the **cork cells** it produces is correct?",
+    "image": { "src": "/img/tissue/bark.svg", "alt": "Close-up of the outer layers of an old tree stem" },
+    "options": [
+      { "id": "a", "text": "They are dead, tightly packed and impermeable to water and gases" },
+      { "id": "b", "text": "They are living cells with large air spaces between them" },
+      { "id": "c", "text": "They carry food from the leaves to the roots" },
+      { "id": "d", "text": "They form a type of apical meristem" }
+    ],
+    "answer": "a",
+    "hint": "Bark has to keep water in and germs out.",
+    "explanation": "The **cork cambium** acts as a lateral meristem near the surface of older stems. The **cork cells** it makes are **dead**, compactly arranged and contain a substance that makes them **impermeable to water and gases**, forming protective bark. Living cells with air spaces describe parenchyma, and carrying food is the job of phloem."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-028",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Protective tissue: epidermis",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "The image shows pores on a leaf surface opening and closing. What would most likely happen if a plant's leaves and stems had **none of these pores**?",
+    "image": { "src": "/img/tissue/stomata.svg", "alt": "Close-up of a leaf surface with pores opening and closing" },
+    "options": [
+      { "id": "a", "text": "The plant would lose water much faster" },
+      { "id": "b", "text": "Gas exchange and transpiration would almost stop, weakening the pull that draws water up the xylem" },
+      { "id": "c", "text": "The roots would absorb more minerals" },
+      { "id": "d", "text": "The cuticle would become thinner" }
+    ],
+    "answer": "b",
+    "hint": "These pores let gases in and water vapour out.",
+    "explanation": "**Stomata** are pores in the epidermis used for **gaseous exchange** and **transpiration**, the loss of water vapour. Transpiration creates a **transpiration pull** that helps draw water up the xylem and also helps remove wastes. Without stomata, gas exchange and this pull would nearly stop, so the plant would lose less water, not more."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-029",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Skeletal system",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Your **12 pairs of ribs** form a strong cage, yet your chest rises and falls as you breathe. What allows the rib cage to move?",
+    "image": { "src": "/img/tissue/ribcage.svg", "alt": "A rib cage around the lungs, moving as a person breathes" },
+    "options": [
+      { "id": "a", "text": "The ribs are fused to each other by fixed joints" },
+      { "id": "b", "text": "The ribs float freely with no attachments" },
+      { "id": "c", "text": "The ribs are attached to the spine at the back and the breastbone in front, joined by flexible cartilage" },
+      { "id": "d", "text": "The ribs are made of muscle, not bone" }
+    ],
+    "answer": "c",
+    "hint": "Look at the pale blue bands linking the ribs to the bone in the middle of the chest.",
+    "explanation": "The 12 pairs of ribs are attached to the **vertebral column** at the back and the **breastbone (sternum)** in front, and are joined by flexible **cartilage**. This lets the cage expand and contract, increasing and decreasing the space in the chest so that air moves in and out of the lungs. The rib cage also protects the heart and lungs."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-030",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Types of joints",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A folk dancer swings her arm in a **complete circle** at the shoulder. Which type of joint makes this possible?",
+    "image": { "src": "/img/tissue/dancer.svg", "alt": "A dancer moving one arm" },
+    "options": [
+      { "id": "a", "text": "Hinge joint" },
+      { "id": "b", "text": "Pivot joint" },
+      { "id": "c", "text": "Fixed joint" },
+      { "id": "d", "text": "Ball and socket joint" }
+    ],
+    "answer": "d",
+    "hint": "The rounded top of the upper arm bone sits in a shallow hollow.",
+    "explanation": "At the shoulder, the rounded top of the upper arm bone fits into a shallow hollow of the shoulder bone: a **ball and socket joint**. It allows forward, backward, sideways and circular movements. A **hinge** joint (elbow, knee) bends one way only, a **pivot** joint (neck) turns side to side, and **fixed** joints (skull) do not move."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-031",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Yoga and health",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which statement about **yoga** is correct?",
+    "image": { "src": "/img/tissue/yoga.svg", "alt": "A child doing a standing yoga pose at sunrise" },
+    "options": [
+      { "id": "a", "text": "International Yoga Day is on 21 June, and yoga improves flexibility, posture and breathing" },
+      { "id": "b", "text": "International Yoga Day is on 5 June, and yoga mainly helps people gain weight" },
+      { "id": "c", "text": "Yoga makes joints stiff by holding them still" },
+      { "id": "d", "text": "Yoga is a modern practice with no roots in ancient Indian texts" }
+    ],
+    "answer": "a",
+    "hint": "It falls on the longest day of the year in India.",
+    "explanation": "Yoga, described in ancient Indian texts, combines postures, breathing and meditation. It improves **flexibility, posture and breathing**, reduces stress and helps prevent lifestyle diseases, keeping bones strong and joints flexible. **21 June** is International Yoga Day; 5 June is World Environment Day."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-032",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Tissue systems",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Plant tissues are organised into three **tissue systems**. To which system do parenchyma, collenchyma and sclerenchyma belong?",
+    "image": { "src": "/img/tissue/stem-ts.svg", "alt": "Cross-section of a young plant stem" },
+    "options": [
+      { "id": "a", "text": "Dermal tissue system" },
+      { "id": "b", "text": "Vascular tissue system" },
+      { "id": "c", "text": "Ground tissue system" },
+      { "id": "d", "text": "Meristematic tissue system" }
+    ],
+    "answer": "c",
+    "hint": "This system forms the main body of the plant between the skin and the pipes.",
+    "explanation": "The **ground tissue system** forms the main body of the plant between the dermal and conducting tissues, and includes **parenchyma, collenchyma and sclerenchyma**. The **dermal** system forms the protective outer covering, and the **vascular** system is made of **xylem and phloem**. There is no 'meristematic tissue system'."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-033",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Meristematic tissue",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Cells at a root tip divide again and again. Which features of these **meristematic cells** help them do this? Select all that apply.",
+    "image": { "src": "/img/tissue/meristem-cells.svg", "alt": "Two groups of plant cells, one group with a cell dividing" },
+    "options": [
+      { "id": "a", "text": "Thin cell walls" },
+      { "id": "b", "text": "Large, prominent nucleus" },
+      { "id": "c", "text": "Large central vacuole" },
+      { "id": "d", "text": "Dense cytoplasm with many organelles" },
+      { "id": "e", "text": "Thick walls hardened with lignin" },
+      { "id": "f", "text": "Tightly packed, with little or no space between cells" }
+    ],
+    "answers": ["a", "b", "d", "f"],
+    "hint": "Dividing cells are small and busy; features for storage or stiffness are missing.",
+    "explanation": "**Meristematic cells** are small, with **thin walls**, a **large prominent nucleus** and **dense cytoplasm** with many organelles, and they are **tightly packed** with little or no intercellular space. **Vacuoles** are generally absent, leaving the cell full of active cytoplasm. Thick lignified walls belong to sclerenchyma, whose cells cannot divide."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-034",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Complex permanent tissues",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are parts of **phloem**? Select all that apply.",
+    "image": { "src": "/img/tissue/vascular.svg", "alt": "Different cells that make up the two conducting tissues of a plant" },
+    "options": [
+      { "id": "a", "text": "Sieve tubes" },
+      { "id": "b", "text": "Tracheids" },
+      { "id": "c", "text": "Companion cells" },
+      { "id": "d", "text": "Vessels" },
+      { "id": "e", "text": "Phloem parenchyma" },
+      { "id": "f", "text": "Phloem fibres" }
+    ],
+    "answers": ["a", "c", "e", "f"],
+    "hint": "Two of these are water-carrying tubes.",
+    "explanation": "Phloem is a **complex permanent tissue** made of **sieve tubes**, **companion cells**, **phloem parenchyma** and **phloem fibres**. Sieve tubes carry food, companion cells monitor the loading and unloading of sugars, phloem parenchyma stores food, resins, tannins and latex, and the fibres give strength. **Tracheids** and **vessels** belong to xylem."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-035",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Connective tissue",
+    "difficulty": "easy", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are **connective tissues**? Select all that apply.",
+    "image": { "src": "/img/cell/rbc.svg", "alt": "Red blood cells flowing through a blood vessel" },
+    "options": [
+      { "id": "a", "text": "Blood" },
+      { "id": "b", "text": "Bone" },
+      { "id": "c", "text": "Neurons" },
+      { "id": "d", "text": "Cartilage" },
+      { "id": "e", "text": "Lining of the small intestine" },
+      { "id": "f", "text": "Tendon" }
+    ],
+    "answers": ["a", "b", "d", "f"],
+    "hint": "Blood and bone look very different but belong to the same group.",
+    "explanation": "**Connective tissues** connect and support other tissues. **Blood** (watery matrix), **bone** (hard matrix with calcium and phosphorus), **cartilage** (soft, jelly-like matrix), **tendons** and ligaments are all connective tissues; they differ mainly in their **matrix**. Neurons form nervous tissue, and the intestinal lining is epithelial tissue."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-036",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Permanent tissues",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these plant cells are **dead** while doing their job? Select all that apply.",
+    "image": { "src": "/img/tissue/bark.svg", "alt": "Close-up of the outer layers of an old tree stem" },
+    "options": [
+      { "id": "a", "text": "Cork cells" },
+      { "id": "b", "text": "Companion cells" },
+      { "id": "c", "text": "Vessels" },
+      { "id": "d", "text": "Xylem parenchyma" },
+      { "id": "e", "text": "Tracheids" },
+      { "id": "f", "text": "Collenchyma cells" }
+    ],
+    "answers": ["a", "c", "e"],
+    "hint": "In xylem, only the parenchyma is alive.",
+    "explanation": "**Cork cells** of bark are dead and compactly arranged. In xylem, **tracheids** and **vessels** (and xylem fibres) are thick-walled, mainly sclerenchymatous cells, and **xylem parenchyma** is the only living part. **Companion cells** of phloem and **collenchyma** cells are living."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-037",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Epithelial tissue",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Each numbered tissue is a type of **epithelium**. Match it with where it is found in the body.",
+    "image": {
+      "src": "/img/tissue/epithelia.svg",
+      "alt": "Five kinds of lining tissue with numbered markers",
+      "markers": [
+        { "x": 10, "y": 7, "label": "1" },
+        { "x": 30, "y": 7, "label": "2" },
+        { "x": 50, "y": 7, "label": "3" },
+        { "x": 70, "y": 7, "label": "4" },
+        { "x": 90, "y": 7, "label": "5" }
+      ]
+    },
+    "left": [
+      { "id": "t1", "text": "Tissue 1" },
+      { "id": "t2", "text": "Tissue 2" },
+      { "id": "t3", "text": "Tissue 3" },
+      { "id": "t4", "text": "Tissue 4" },
+      { "id": "t5", "text": "Tissue 5" }
+    ],
+    "right": [
+      { "id": "vessels", "text": "Lining of blood vessels and lungs" },
+      { "id": "glands", "text": "Salivary and sweat glands" },
+      { "id": "skin", "text": "Skin, mouth and oesophagus" },
+      { "id": "senses", "text": "Taste buds, nostrils and inner ear" },
+      { "id": "intestine", "text": "Lining of the small intestine" }
+    ],
+    "pairs": { "t1": "skin", "t2": "intestine", "t3": "vessels", "t4": "glands", "t5": "senses" },
+    "hint": "Many layers protect; a single thin, flat layer lets gases pass through quickly.",
+    "explanation": "1 has **many layers** with flat cells on top, for **protection** in the skin, mouth and oesophagus. 2 has **tall, pillar-like cells** with a hair-like border for **absorption** in the small intestine. 3 is a **single layer of thin, flat cells** for fast diffusion in blood vessels and lungs. 4 releases **secretions**, as in salivary and sweat glands, and 5 has **receptor cells with cilia** for taste, smell, hearing and balance."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-038",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Connective tissue",
+    "difficulty": "easy", "marks": 2,
+    "type": "match",
+    "prompt": "Try each action, then match it with the **connective tissue** you can feel at work.",
+    "image": { "src": "/img/tissue/knee-joint.svg", "alt": "Side view of a knee joint with bones, muscle and connecting tissues" },
+    "left": [
+      { "id": "elbow", "text": "Tap your elbow: it feels hard and rigid" },
+      { "id": "ear", "text": "Fold your ear: it bends and springs back" },
+      { "id": "fingers", "text": "Wiggle your fingers: your forearm moves" },
+      { "id": "knee", "text": "Lift your lower leg: the knee stops at a limit" }
+    ],
+    "right": [
+      { "id": "ligament", "text": "Ligament" },
+      { "id": "bone", "text": "Bone" },
+      { "id": "tendon", "text": "Tendon" },
+      { "id": "cartilage", "text": "Cartilage" }
+    ],
+    "pairs": { "elbow": "bone", "ear": "cartilage", "fingers": "tendon", "knee": "ligament" },
+    "hint": "Tendons link muscle to bone; ligaments link bone to bone.",
+    "explanation": "**Bone** has a hard matrix containing calcium and phosphorus. **Cartilage** has a soft, jelly-like matrix that bends and cushions bone ends. **Tendons** join forearm muscles to the finger bones, so you feel the forearm move. **Ligaments** join bone to bone, limiting how far the knee moves and helping prevent dislocation."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-039",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Muscular tissue",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each muscle sample with where it is found and how its cells look.",
+    "left": [
+      { "id": "p", "text": "Sample P", "image": { "src": "/img/tissue/muscle-cardiac.svg", "alt": "Muscle tissue sample P" } },
+      { "id": "q", "text": "Sample Q", "image": { "src": "/img/tissue/muscle-skeletal.svg", "alt": "Muscle tissue sample Q" } },
+      { "id": "r", "text": "Sample R", "image": { "src": "/img/tissue/muscle-smooth.svg", "alt": "Muscle tissue sample R" } }
+    ],
+    "right": [
+      { "id": "bones", "text": "Attached to bones; long, unbranched fibres with many nuclei and stripes" },
+      { "id": "gut", "text": "Walls of the stomach and intestine; spindle-shaped, one nucleus, no stripes" },
+      { "id": "tendon", "text": "Joins muscle to bone; tough bands with no contraction" },
+      { "id": "heart", "text": "Only in the heart; branched fibres with one nucleus and faint stripes" }
+    ],
+    "pairs": { "p": "heart", "q": "bones", "r": "gut" },
+    "hint": "Count the nuclei, and look for stripes and branches.",
+    "explanation": "P is **cardiac muscle**: branched, cylindrical fibres with one nucleus and faint striations, found only in the heart. Q is **skeletal muscle**: long, unbranched, striated, multinucleate fibres attached to bones for voluntary movement. R is **smooth muscle**: spindle-shaped cells with one nucleus and no striations, for slow involuntary movements in the gut. The tendon description was a distractor."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-040",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Types of joints",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Watch how each joint moves. Match it with a place in your body where that kind of joint is found.",
+    "left": [
+      { "id": "p", "text": "Joint P", "image": { "src": "/img/tissue/joint-hinge.svg", "alt": "Joint P" } },
+      { "id": "q", "text": "Joint Q", "image": { "src": "/img/tissue/joint-fixed.svg", "alt": "Joint Q" } },
+      { "id": "r", "text": "Joint R", "image": { "src": "/img/tissue/joint-ball.svg", "alt": "Joint R" } },
+      { "id": "s", "text": "Joint S", "image": { "src": "/img/tissue/joint-pivot.svg", "alt": "Joint S" } }
+    ],
+    "right": [
+      { "id": "shoulder", "text": "Shoulder" },
+      { "id": "neck", "text": "Where the skull meets the backbone" },
+      { "id": "elbow", "text": "Elbow" },
+      { "id": "skull", "text": "Between the bones of the skull" }
+    ],
+    "pairs": { "p": "elbow", "q": "skull", "r": "shoulder", "s": "neck" },
+    "hint": "Think of a door hinge, a sealed seam, a ball in a cup and a doorknob.",
+    "explanation": "P bends in **one direction** like a door: a **hinge joint**, as in the elbow and knee. Q does not move at all: a **fixed joint**, joining the bones of the skull. R is a ball turning in a cup that moves in many directions: a **ball and socket joint**, as in the shoulder. S turns a ring around a peg: a **pivot joint**, where the skull meets the backbone."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-041",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Connective tissue: blood",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Blood is a fluid connective tissue. Match each component with its role.",
+    "image": { "src": "/img/tissue/blood-cells.svg", "alt": "Different kinds of cells flowing in a blood vessel" },
+    "left": [
+      { "id": "rbc", "text": "Red blood cells (RBCs)" },
+      { "id": "wbc", "text": "White blood cells (WBCs)" },
+      { "id": "platelets", "text": "Platelets" },
+      { "id": "plasma", "text": "Plasma" }
+    ],
+    "right": [
+      { "id": "clot", "text": "Help blood clot at a cut" },
+      { "id": "oxygen", "text": "Contain haemoglobin and carry oxygen; replaced about every 4 months" },
+      { "id": "fluid", "text": "Watery matrix making up about 55% of blood volume" },
+      { "id": "infection", "text": "Gather at infected areas, causing swelling and pus" }
+    ],
+    "pairs": { "rbc": "oxygen", "wbc": "infection", "platelets": "clot", "plasma": "fluid" },
+    "hint": "Haemoglobin is what makes blood red.",
+    "explanation": "**RBCs** contain the iron-rich protein **haemoglobin**, which gives blood its red colour; each lives about 4 months. **WBCs** collect at infected areas, causing redness, swelling and pus. **Platelets** help form a clot at a wound. **Plasma**, the fluid matrix, makes up about 55% of blood, and the cells (formed elements) make up the other 45%."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-042",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Totipotency",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of **F. C. Steward's** carrot experiment in the correct order.",
+    "image": { "src": "/img/tissue/carrot-culture.svg", "alt": "A carrot, a slice cut from it, and a flask of liquid with cells swirling" },
+    "items": [
+      { "id": "embryo", "text": "A tiny embryo-like plant develops from one cell" },
+      { "id": "cut", "text": "Cut a cross-section of the carrot root" },
+      { "id": "agar", "text": "Grow the plantlet on agar, then plant it in soil" },
+      { "id": "divide", "text": "Single cells floating in the medium begin to divide" },
+      { "id": "culture", "text": "Culture small fragments in a liquid nutrient medium; stirring frees single cells" }
+    ],
+    "answer": ["cut", "culture", "divide", "embryo", "agar"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Single cells must be freed into the liquid before they can divide.",
+    "explanation": "Steward cut slices of carrot root and cultured tiny **fragments** in a nutrient medium; stirring sheared **single cells** off into the liquid. These cells **divided**, one cell developed into an **embryonic plant**, and the plantlet was grown on **agar** and then in soil into an adult carrot. The mature phloem cells had dedifferentiated and then redifferentiated: **totipotency**."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-043",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Complex permanent tissues",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Trace a drop of water from the soil to the air. Arrange its journey through the plant in order.",
+    "image": { "src": "/img/tissue/xylem-water.svg", "alt": "Water moving up through a young plant from soil to leaves" },
+    "items": [
+      { "id": "stem", "text": "It rises through the xylem of the stem" },
+      { "id": "vapour", "text": "It escapes as water vapour through stomata" },
+      { "id": "hair", "text": "Root hairs absorb it from the soil" },
+      { "id": "leaf", "text": "It reaches the cells of a leaf" },
+      { "id": "rootx", "text": "It enters the xylem of the root" }
+    ],
+    "answer": ["hair", "rootx", "stem", "leaf", "vapour"],
+    "startLabel": "Soil",
+    "endLabel": "Air",
+    "hint": "Water enters at the bottom of the plant and leaves at the top.",
+    "explanation": "**Root hairs** absorb water, which passes into the **xylem** of the root and rises through the vessels and tracheids of the stem to the leaves. It then evaporates and escapes through **stomata** (transpiration). This loss creates a **transpiration pull** that keeps the water moving up through the dead xylem cells."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-044",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Nervous tissue",
+    "difficulty": "easy", "marks": 1,
+    "type": "order",
+    "prompt": "Watch the signal in the animation. Arrange the parts of the neuron in the order a message passes through them.",
+    "image": { "src": "/img/tissue/neuron.svg", "alt": "A nerve cell with a signal travelling along it" },
+    "items": [
+      { "id": "axon", "text": "Axon" },
+      { "id": "dendrites", "text": "Dendrites" },
+      { "id": "terminals", "text": "Axon terminals" },
+      { "id": "body", "text": "Cell body" }
+    ],
+    "answer": ["dendrites", "body", "axon", "terminals"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "A message is received before it is sent on.",
+    "explanation": "**Dendrites** receive the message from other neurons, the **cell body** (with the nucleus) processes it, the long **axon** carries it away from the cell, and the **axon terminals** transmit it to the next cell."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-045",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Differentiation",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "How does a meristem build the permanent tissues of a plant? Arrange the steps in order.",
+    "image": { "src": "/img/tissue/meristem-cells.svg", "alt": "Two groups of plant cells, one group with a cell dividing" },
+    "items": [
+      { "id": "change", "text": "These cells change their shape, walls and contents" },
+      { "id": "divide", "text": "Meristematic cells divide repeatedly" },
+      { "id": "permanent", "text": "They become permanent tissue with one job, such as support or transport" },
+      { "id": "stop", "text": "Some of the new cells lose the ability to divide" }
+    ],
+    "answer": ["divide", "stop", "change", "permanent"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "A cell must stop dividing before it can specialise.",
+    "explanation": "Meristems keep adding new cells. Some daughter cells stay meristematic, while others **lose the ability to divide**, change in structure and function and become specialised. This process is **differentiation**, and it turns meristematic tissue into **permanent tissue** for support, transport or storage."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-046",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Musculoskeletal system",
+    "difficulty": "hard", "marks": 2,
+    "type": "order",
+    "prompt": "You lift a cup by bending your elbow. Arrange the events in the correct order.",
+    "image": { "src": "/img/tissue/arm-flex.svg", "alt": "An arm bending at the elbow" },
+    "items": [
+      { "id": "tendon", "text": "The tendon passes the pull on to the forearm bone" },
+      { "id": "joint", "text": "The forearm moves at the elbow joint" },
+      { "id": "brain", "text": "The brain sends a message along a nerve" },
+      { "id": "contract", "text": "Muscle fibres in the upper arm contract" }
+    ],
+    "answer": ["brain", "contract", "tendon", "joint"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Muscles act only when the nervous system tells them to.",
+    "explanation": "The **musculoskeletal system** works under the control of the **nervous system**. A nerve message makes the muscle **contract**, the **tendon** transmits this force to the bone, and the bone moves at the **joint**. Joints allow movement but cannot move the bones on their own."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-047",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Epithelial tissue",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/tissue/epithelia.svg", "alt": "Five kinds of lining tissue side by side" },
+    "assertion": "The epithelium lining the lungs is well suited for the exchange of gases.",
+    "reason": "It is made of many layers of tall cells that slow down diffusion.",
+    "answer": "c",
+    "hint": "For fast diffusion, would you want a thick barrier or a thin one?",
+    "explanation": "A is true: the lining of the lungs and blood vessels is a **single layer of thin, flat cells**, so gases diffuse across quickly. R is false: many layers of tall cells would slow diffusion. Multi-layered epithelium is found where **protection** is needed, such as the skin."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-048",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Muscular tissue",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/tissue/heart.svg", "alt": "A beating heart next to a heartbeat trace" },
+    "assertion": "Cardiac muscle can keep contracting throughout life without getting tired.",
+    "reason": "Cardiac muscle cells have a large number of mitochondria and a rich blood supply.",
+    "answer": "a",
+    "hint": "Working nonstop needs a steady supply of energy and oxygen.",
+    "explanation": "Both are true. **Cardiac muscle** works tirelessly and rhythmically so the heart beats all through life. Its many **mitochondria** release energy continuously, and its rich **blood supply** brings oxygen and food, so R correctly explains A."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-049",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Connective tissue: tendon",
+    "difficulty": "easy", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/tissue/knee-joint.svg", "alt": "Side view of a knee joint with bones, muscle and connecting tissues" },
+    "assertion": "Tendons connect bone to bone and allow joint movement.",
+    "reason": "Tendons are made of tough connective tissue that transmits force from muscle to bone.",
+    "answer": "d",
+    "hint": "Which tissue joins bone to bone?",
+    "explanation": "A is false: tendons connect **muscle to bone**; it is **ligaments** that connect bone to bone. R is true: a tendon is tough connective tissue that passes the pull of a contracting muscle on to the bone, producing movement at a joint."
+  },
+  {
+    "id": "in-cbse-9-bio-tissue-050",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Tissues in Action", "chapterNo": 2, "topic": "Protective tissue: epidermis",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/tissue/cactus.svg", "alt": "A cactus with a shiny green skin under a hot desert sun" },
+    "assertion": "Plants growing in deserts often have a thick cuticle on their epidermis.",
+    "reason": "Stomata in the epidermis allow the exchange of gases.",
+    "answer": "b",
+    "hint": "Both statements are facts, but does the second one explain the first?",
+    "explanation": "Both are true. A thick, waxy **cuticle** (made of cutin) reduces water loss, which is why desert plants have one. R is a correct fact about **stomata**, but gas exchange does not explain why the cuticle is thick. (For a plant living underwater, a thick cuticle would be a drawback, as it would hinder exchange with the surrounding water.)"
+  }
+]

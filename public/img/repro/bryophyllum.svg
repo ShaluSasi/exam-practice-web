@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A thick leaf lying on moist soil</title>
+<defs>
+<g id="pl">
+<path d="M0 0v-22" stroke="#4E8F2A" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M0-18q-22-14-26 4q16 8 26-4zM0-18q22-14 26 4q-16 8-26-4z" fill="#8CCB5E" stroke="#3E7A20" stroke-width="2"/>
+<path d="M0 0q-8 8-12 16M0 0q2 10 0 18M0 0q8 8 12 14" fill="none" stroke="#E8D3B0" stroke-width="2" stroke-linecap="round"/>
+</g>
+</defs>
+<style>
+.pl{animation:sprout 5s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 60%}
+.p2{animation-delay:-1s}.p3{animation-delay:-2s}.p4{animation-delay:-3s}.p5{animation-delay:-4s}
+@keyframes sprout{0%{transform:scale(.2)}55%,85%{transform:scale(1)}100%{transform:scale(.2)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="200" width="368" height="86" rx="12" fill="#8B5E3C"/>
+<g fill="#A67650"><circle cx="60" cy="250" r="4"/><circle cx="150" cy="266" r="3"/><circle cx="270" cy="244" r="4"/><circle cx="340" cy="270" r="3"/></g>
+<path d="M40 196C60 150 110 128 200 126C290 128 340 150 360 196C340 214 290 222 200 222C110 222 60 214 40 196Z" fill="#5FA83A" stroke="#3E7A20" stroke-width="3" stroke-linejoin="round"/>
+<g fill="#FFF9EE" stroke="#3E7A20" stroke-width="2.5" stroke-linejoin="round">
+<path d="M86 148l6 8l6-12z"/><path d="M140 132l6 9l7-12z"/><path d="M196 126l5 9l7-10z"/><path d="M252 130l6 10l6-11z"/><path d="M306 144l6 9l6-11z"/>
+</g>
+<path d="M44 196C120 180 280 180 356 196" fill="none" stroke="#3E7A20" stroke-width="2.5"/>
+<path d="M110 190l-14-28M170 186l-10-40M230 186l8-42M290 190l14-32" stroke="#3E7A20" stroke-width="1.8"/>
+<g class="pl"><use href="#pl" transform="translate(92 154)"/></g>
+<g class="pl p2"><use href="#pl" transform="translate(146 138)"/></g>
+<g class="pl p3"><use href="#pl" transform="translate(201 132)"/></g>
+<g class="pl p4"><use href="#pl" transform="translate(258 136)"/></g>
+<g class="pl p5"><use href="#pl" transform="translate(312 150)"/></g>
+</svg>

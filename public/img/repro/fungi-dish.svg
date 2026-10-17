@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A petri dish with a fungus colony growing among bacteria</title>
+<style>
+.halo{animation:halo 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes halo{0%,100%{transform:scale(.92)}50%{transform:scale(1.05)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="200" cy="150" r="126" fill="#EAF6FF" stroke="#4A90C8" stroke-width="4"/>
+<circle cx="200" cy="150" r="116" fill="#FBF0C8" stroke="#E0C98A" stroke-width="2"/>
+<g fill="#E5A23B">
+<circle cx="110" cy="110" r="5"/><circle cx="126" cy="90" r="4"/><circle cx="98" cy="140" r="5"/><circle cx="104" cy="180" r="4"/><circle cx="124" cy="210" r="5"/><circle cx="150" cy="236" r="4"/><circle cx="190" cy="250" r="5"/><circle cx="232" cy="246" r="4"/><circle cx="270" cy="226" r="5"/><circle cx="294" cy="194" r="4"/><circle cx="302" cy="154" r="5"/><circle cx="296" cy="116" r="4"/><circle cx="276" cy="84" r="5"/><circle cx="240" cy="60" r="4"/><circle cx="200" cy="52" r="5"/><circle cx="160" cy="60" r="4"/><circle cx="138" cy="74" r="3"/><circle cx="90" cy="160" r="3"/><circle cx="310" cy="134" r="3"/><circle cx="214" cy="262" r="3"/>
+</g>
+<circle class="halo" cx="200" cy="152" r="70" fill="#FFFDF2" stroke="#E8DDB0" stroke-width="2" stroke-dasharray="5 5"/>
+<g fill="#7FB3A0" stroke="#3F7A64" stroke-width="2.5">
+<circle cx="200" cy="152" r="30"/><circle cx="178" cy="138" r="14"/><circle cx="222" cy="140" r="14"/><circle cx="214" cy="172" r="14"/><circle cx="184" cy="170" r="13"/>
+</g>
+<g fill="#B8E0D0"><circle cx="196" cy="146" r="4"/><circle cx="208" cy="158" r="3"/><circle cx="180" cy="160" r="3"/></g>
+</svg>

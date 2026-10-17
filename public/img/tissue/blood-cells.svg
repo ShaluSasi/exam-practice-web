@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>Different kinds of cells flowing in a blood vessel</title>
+<style>
+.fl{animation:fl 8s linear infinite}@keyframes fl{from{transform:translateX(0)}to{transform:translateX(300px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="lm"><rect x="0" y="46" width="300" height="108"/></clipPath><g id="cs"><path transform="translate(24 78) rotate(0)" d="M-12 0C-12 -8 -5 -7 0 -3C5 -7 12 -8 12 0C12 8 5 7 0 3C-5 7 -12 8 -12 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2"/><path transform="translate(70 122) rotate(30)" d="M-12 0C-12 -8 -5 -7 0 -3C5 -7 12 -8 12 0C12 8 5 7 0 3C-5 7 -12 8 -12 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2"/><circle cx="118" cy="84" r="16" fill="#EDE4FA" stroke="#7B4BC0" stroke-width="2"/><path d="M110 86c0 -8 6 -9 8 -4c2 -6 9 -4 8 2c4 2 2 9 -3 8c-2 4 -9 4 -9 -1c-4 0 -6 -3 -4 -5z" fill="#9B6BD6"/><path transform="translate(162 128) rotate(-20)" d="M-12 0C-12 -8 -5 -7 0 -3C5 -7 12 -8 12 0C12 8 5 7 0 3C-5 7 -12 8 -12 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2"/><path d="M150 64l4 -2l3 3l-2 4l-4 0z" fill="#F2A0A0" stroke="#C25555" stroke-width="1.2"/><path d="M196 98l4 -2l3 3l-2 4l-4 0z" fill="#F2A0A0" stroke="#C25555" stroke-width="1.2"/><path transform="translate(214 70) rotate(0)" d="M-12 0C-12 -8 -5 -7 0 -3C5 -7 12 -8 12 0C12 8 5 7 0 3C-5 7 -12 8 -12 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2"/><path transform="translate(252 116) rotate(60)" d="M-12 0C-12 -8 -5 -7 0 -3C5 -7 12 -8 12 0C12 8 5 7 0 3C-5 7 -12 8 -12 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2"/><path d="M40 128l4 -2l3 3l-2 4l-4 0z" fill="#F2A0A0" stroke="#C25555" stroke-width="1.2"/><path d="M282 74l4 -2l3 3l-2 4l-4 0z" fill="#F2A0A0" stroke="#C25555" stroke-width="1.2"/><path transform="translate(96 60) rotate(-10)" d="M-12 0C-12 -8 -5 -7 0 -3C5 -7 12 -8 12 0C12 8 5 7 0 3C-5 7 -12 8 -12 0Z" fill="#E5484D" stroke="#B32D33" stroke-width="2"/></g></defs>
+<rect x="0" y="34" width="300" height="132" fill="#E9A0A0"/>
+<path d="M0 34H300M0 166H300" stroke="#B8545A" stroke-width="3"/>
+<rect x="0" y="46" width="300" height="108" fill="#FCEFC0"/>
+<g clip-path="url(#lm)"><g class="fl"><use href="#cs" x="-300"/><use href="#cs"/></g></g>
+</svg>

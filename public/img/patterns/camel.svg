@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A one-humped camel in the desert</title>
+<style>
+.h{animation:h 2.5s ease-in-out infinite}.h2{animation-delay:-1.2s}
+.tl{transform-box:view-box;transform-origin:24px 56px;animation:tl 2s ease-in-out infinite}
+@keyframes h{0%,100%{transform:translateY(0);opacity:.2}50%{transform:translateY(-6px);opacity:.8}}
+@keyframes tl{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(10deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="96" cy="24" r="10" fill="#FFD45C"/>
+<path d="M6 96 Q36 84 70 94 Q96 100 114 90 V102 Q114 114 102 114 H18 Q6 114 6 102 Z" fill="#F2D59A"/>
+<g fill="none" stroke="#E8B04A" stroke-width="2" stroke-linecap="round"><path class="h" d="M14 30 q4 -4 8 0 t8 0"/><path class="h h2" d="M30 18 q4 -4 8 0 t8 0"/></g>
+<path class="tl" d="M24 56 Q18 66 20 76" fill="none" stroke="#A9773C" stroke-width="3" stroke-linecap="round"/>
+<g fill="#E3B778" stroke="#A9773C" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M32 88 L30 104 M42 88 L42 104 M70 88 L70 104 M80 88 L82 104" fill="none" stroke-width="5"/>
+<path d="M22 58 C22 46 32 44 38 44 C42 26 62 26 66 44 C72 46 78 48 82 52 L88 34 C90 28 100 26 104 32 L108 38 L100 42 L94 42 L90 60 C88 70 84 80 76 88 H30 C24 84 22 70 22 58 Z"/>
+</g>
+<circle cx="99" cy="33" r="1.8" fill="#2B2F4A"/>
+<path d="M40 44 Q52 36 62 44" fill="none" stroke="#F1D2A0" stroke-width="3" stroke-linecap="round"/>
+</svg>

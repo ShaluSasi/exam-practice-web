@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A nerve cell with a signal travelling along it</title>
+<style>
+.sig{animation:go 3s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes go{0%{transform:translateX(0);opacity:0}8%{opacity:1}88%{transform:translateX(196px);opacity:1}100%{transform:translateX(196px);opacity:0}}
+.knob{animation:fl 3s ease-in-out infinite}
+@keyframes fl{0%,82%{fill:#F6C453}90%{fill:#FFF3C4}100%{fill:#F6C453}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M72 80C62 62 54 52 42 42M54 54L32 52M47 47L45 24M60 100C45 98 30 92 18 86M38 95L22 112M72 122C62 140 54 152 44 166M56 150L32 160M50 157L54 182M106 76C114 60 120 50 128 40M119 52L138 50M108 124C116 142 122 152 132 166" stroke="#C9962A" stroke-width="7"/><path d="M72 80C62 62 54 52 42 42M54 54L32 52M47 47L45 24M60 100C45 98 30 92 18 86M38 95L22 112M72 122C62 140 54 152 44 166M56 150L32 160M50 157L54 182M106 76C114 60 120 50 128 40M119 52L138 50M108 124C116 142 122 152 132 166" stroke="#F6C453" stroke-width="4"/>
+<path d="M118 100H324" stroke="#C9962A" stroke-width="13"/><path d="M118 100H324" stroke="#F6C453" stroke-width="8"/>
+<path d="M322 100C336 96 346 80 358 66M322 100H370M322 100C336 104 346 120 358 134" stroke="#C9962A" stroke-width="7"/><path d="M322 100C336 96 346 80 358 66M322 100H370M322 100C336 104 346 120 358 134" stroke="#F6C453" stroke-width="4"/>
+</g>
+<g class="knob" stroke="#C9962A" stroke-width="2.5" fill="#F6C453"><circle cx="360" cy="64" r="7"/><circle cx="372" cy="100" r="7"/><circle cx="360" cy="136" r="7"/></g>
+<path d="M90 68C108 66 124 84 122 102C120 120 104 134 88 132C70 130 56 116 58 98C60 80 74 70 90 68Z" fill="#F6C453" stroke="#C9962A" stroke-width="3"/>
+<circle cx="90" cy="100" r="13" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2.5"/>
+<circle cx="93" cy="97" r="4" fill="#7B4BC0"/>
+<g class="sig"><circle cx="126" cy="100" r="8" fill="#FF8A4C" opacity=".35"/><circle cx="126" cy="100" r="4.5" fill="#FFFFFF" stroke="#FF7A2F" stroke-width="2"/></g>
+</svg>

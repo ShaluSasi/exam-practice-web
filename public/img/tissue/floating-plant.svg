@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A water plant floating on a pond</title>
+<style>
+.bob{animation:bob 3s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+.rp{animation:rp 3s linear infinite}@keyframes rp{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 122H300V204Q300 220 284 220H16Q0 220 0 204Z" fill="#CDE9FF"/>
+<g class="rp"><path d="M-40 122q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0q10 -6 20 0" fill="none" stroke="#4A90C8" stroke-width="2.5"/></g>
+<g class="bob">
+<g fill="none" stroke="#6B5B45" stroke-width="2" stroke-linecap="round"><path d="M136 132C130 156 126 176 122 200M150 136V208M164 132C170 156 174 176 180 198M128 160l-8 6M150 170l-7 7M150 186l7 6M172 162l8 6"/></g>
+<g fill="#8FD16A" stroke="#3E7A22" stroke-width="2.5"><ellipse cx="128" cy="122" rx="15" ry="11"/><ellipse cx="172" cy="122" rx="15" ry="11"/><ellipse cx="150" cy="126" rx="13" ry="10"/></g>
+<path d="M128 112L114 92M172 112L188 90M150 116V78" stroke="#3E7A22" stroke-width="4" stroke-linecap="round"/>
+<g fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5"><ellipse cx="108" cy="80" rx="24" ry="18"/><ellipse cx="194" cy="78" rx="24" ry="18"/><ellipse cx="150" cy="60" rx="20" ry="22"/></g>
+<g fill="none" stroke="#9BDB6A" stroke-width="3" stroke-linecap="round"><path d="M96 74q8 -8 20 -6M182 72q8 -8 20 -6M142 50q6 -8 14 -6"/></g>
+<path d="M150 40V20" stroke="#3E7A22" stroke-width="3" stroke-linecap="round"/>
+<g fill="#B99BE6" stroke="#7B4BC0" stroke-width="1.5"><circle cx="146" cy="22" r="5"/><circle cx="155" cy="18" r="5"/><circle cx="150" cy="30" r="5"/><circle cx="157" cy="28" r="4"/></g>
+</g>
+</svg>

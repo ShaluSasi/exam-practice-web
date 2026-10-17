@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img">
+<title>Side view of a knee joint with bones, muscle and connecting tissues</title>
+<style>
+.mus{transform-box:fill-box;transform-origin:center top;animation:mu 3s ease-in-out infinite}
+@keyframes mu{0%,100%{transform:scale(1,1)}50%{transform:scale(1.06,.96)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M130 6V118C130 134 112 140 112 155C112 168 128 172 150 168C172 172 188 168 188 155C188 140 170 134 170 118V6Z" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M112 200C112 190 120 186 150 188C180 186 188 190 188 200C188 212 172 216 168 228V354H132V228C128 216 112 212 112 200Z" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke-linecap="round"><path d="M115 160C120 170 134 174 150 171C166 174 180 170 185 160" stroke="#7FB6D1" stroke-width="9"/><path d="M115 160C120 170 134 174 150 171C166 174 180 170 185 160" stroke="#BFE3F2" stroke-width="6"/>
+<path d="M115 195C122 189 136 190 150 191C164 190 178 189 185 195" stroke="#7FB6D1" stroke-width="9"/><path d="M115 195C122 189 136 190 150 191C164 190 178 189 185 195" stroke="#BFE3F2" stroke-width="6"/></g>
+<g fill="none" stroke="#C7B48C" stroke-width="2" stroke-linecap="round" opacity=".8"><path d="M140 30V110M160 40V100M142 250V330M158 240V320"/></g>
+<rect x="100" y="142" width="16" height="76" rx="7" fill="#9FD3A8" stroke="#5E9E6B" stroke-width="2.5"/>
+<rect x="184" y="142" width="14" height="76" rx="7" fill="#9FD3A8" stroke="#5E9E6B" stroke-width="2.5"/>
+<g fill="none" stroke="#5E9E6B" stroke-width="1.5" opacity=".7"><path d="M108 150V210M191 150V210"/></g>
+<path class="mus" d="M172 10C202 10 224 44 224 92C224 118 216 134 206 142L192 142C184 120 176 80 172 10Z" fill="#E57373" stroke="#B94A4A" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#F2A0A0" stroke-width="2" stroke-linecap="round"><path d="M186 30C200 60 206 100 202 130M200 28C214 56 216 96 212 126"/></g>
+<g fill="none" stroke-linecap="round"><path d="M199 140C212 160 218 182 212 202C206 220 192 230 176 236" stroke="#C9A43A" stroke-width="12"/><path d="M199 140C212 160 218 182 212 202C206 220 192 230 176 236" stroke="#F2D16B" stroke-width="8"/></g>
+<ellipse cx="214" cy="178" rx="11" ry="16" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A stem piece planted at a slant in soil</title>
+<style>
+.rt{stroke-dasharray:60;stroke-dashoffset:60;animation:root 5s ease-in-out infinite}
+.r2{animation-delay:-.6s}.r3{animation-delay:-1.2s}
+@keyframes root{0%,10%{stroke-dashoffset:60}60%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:60}}
+.lf{animation:lf 5s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes lf{0%,20%{transform:scale(.4)}70%,90%{transform:scale(1)}100%{transform:scale(.4)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.rt{stroke-dashoffset:0}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="170" width="368" height="116" rx="12" fill="#8B5E3C"/>
+<g fill="#A67650"><circle cx="60" cy="200" r="4"/><circle cx="320" cy="250" r="5"/><circle cx="120" cy="260" r="3"/><circle cx="300" cy="196" r="3"/></g>
+<g fill="none" stroke="#E8D3B0" stroke-width="2.5" stroke-linecap="round">
+<path class="rt" d="M150 262q-18 10-34 6"/><path class="rt r2" d="M152 264q4 16-6 24"/><path class="rt r3" d="M166 244q20 8 26 22"/><path class="rt" d="M178 222q-24 4-34 -4"/>
+</g>
+<path d="M150 264L252 74" stroke="#4E8F2A" stroke-width="9" stroke-linecap="round"/>
+<g fill="#3E7A20"><circle cx="186" cy="197" r="5"/><circle cx="214" cy="145" r="5"/><circle cx="238" cy="100" r="5"/></g>
+<path d="M214 145q30-14 46 4q-26 12-46-4z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2"/>
+<g class="lf"><path d="M238 100q-34-10-46 8q28 8 46-8z" fill="#8CCB5E" stroke="#3E7A20" stroke-width="2"/></g>
+<g class="lf"><path d="M252 76q22-26 46-14q-20 24-46 14z" fill="#8CCB5E" stroke="#3E7A20" stroke-width="2"/></g>
+<path d="M36 170h348" stroke="#6B4528" stroke-width="3" stroke-dasharray="10 8"/>
+</svg>

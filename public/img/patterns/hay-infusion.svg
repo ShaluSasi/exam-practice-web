@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<title>A glass bottle of soaked dry grass covered with a cloth, with tiny organisms swimming in the water</title>
+<style>
+.s1{animation:a 5s ease-in-out infinite}.s2{animation:b 6s ease-in-out infinite}.s3{animation:a 4s ease-in-out infinite reverse}
+@keyframes a{0%,100%{transform:translate(0,0)}50%{transform:translate(24px,-8px)}}
+@keyframes b{0%,100%{transform:translate(0,0)}50%{transform:translate(-20px,10px)}}
+.dr{animation:dr 3s ease-in infinite}
+@keyframes dr{0%,60%{transform:translateY(0);opacity:0}70%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="182" width="188" height="12" rx="6" fill="#E2D5BC"/>
+<path d="M44 108 Q44 80 74 72 H126 Q156 80 156 108 V174 Q156 184 146 184 H54 Q44 184 44 174 Z" fill="#DCE9C8"/>
+<g stroke="#B9A24A" stroke-width="3" stroke-linecap="round" fill="none"><path d="M56 178 L74 150 M66 180 L60 148 M80 178 L96 152 M92 180 L84 150 M104 178 L120 154 M118 180 L110 150 M130 178 L144 156 M140 180 L134 152 M70 166 L90 160 M110 168 L132 162"/></g>
+<g fill="#D9C3F5" stroke="#7B4BC0" stroke-width="1.5"><ellipse class="s1" cx="76" cy="110" rx="7" ry="3.5"/><ellipse class="s2" cx="124" cy="124" rx="6" ry="3"/><ellipse class="s3" cx="94" cy="134" rx="5" ry="3"/></g>
+<g fill="#C9EBC0" stroke="#4E8F2A" stroke-width="1.5"><ellipse class="s2" cx="108" cy="100" rx="6" ry="2.6"/></g>
+<path d="M74 42 V60 Q44 72 44 104 V174 Q44 184 54 184 H146 Q156 184 156 174 V104 Q156 72 126 60 V42" fill="none" stroke="#4A90C8" stroke-width="3" stroke-linejoin="round"/>
+<path d="M56 110 Q56 92 70 84" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<path d="M64 46 Q100 30 136 46 L132 58 Q100 50 68 58 Z" fill="#F5F0E6" stroke="#BDB3A0" stroke-width="2" stroke-linejoin="round"/>
+<path d="M76 50 l4 6 M88 46 l4 8 M100 45 l4 8 M112 46 l4 8 M124 50 l3 6" stroke="#D8CFBC" stroke-width="1.5"/>
+<path d="M66 56 Q100 48 134 56" fill="none" stroke="#E04848" stroke-width="3" stroke-linecap="round"/>
+<g transform="rotate(20 176 40)"><rect x="170" y="14" width="12" height="16" rx="5" fill="#E04848"/><path d="M172 30 H180 L178 74 L176 80 L174 74 Z" fill="#F4FAFF" stroke="#4A90C8" stroke-width="2" stroke-linejoin="round"/></g>
+<path class="dr" d="M162 84 q-3 5 0 7 q3 -2 0 -7 Z" fill="#9BC97E"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A flower changing after fertilisation</title>
+<style>
+.pt{animation:fall 6s ease-in infinite}
+.pt2{animation-delay:-.2s}
+@keyframes fall{0%,20%{transform:translate(0,0) rotate(0);opacity:1}45%{transform:translate(-30px,120px) rotate(-40deg);opacity:0}95%{opacity:0;transform:translate(0,0)}100%{opacity:1}}
+.pr{animation:fallr 6s ease-in infinite}
+@keyframes fallr{0%,20%{transform:translate(0,0);opacity:1}45%{transform:translate(30px,120px);opacity:0}95%{opacity:0;transform:translate(0,0)}100%{opacity:1}}
+.ov{animation:swell 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 80%}
+@keyframes swell{0%,25%{transform:scale(1)}70%,92%{transform:scale(2.3)}100%{transform:scale(1)}}
+.skin{animation:skin 6s ease-in-out infinite}
+@keyframes skin{0%,30%{fill:#BFE3A0}70%,92%{fill:#E5484D}100%{fill:#BFE3A0}}
+.st{animation:st 6s ease-in infinite}
+@keyframes st{0%,25%{opacity:1}40%,95%{opacity:0}100%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M200 300V226" stroke="#4E8F2A" stroke-width="8" stroke-linecap="round"/>
+<path d="M200 262q34-18 56-6q-26 18-56 6z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2"/>
+<g class="pt"><path d="M186 214C140 206 110 160 120 120C150 132 178 170 194 206Z" fill="#F28CB1" stroke="#C2557F" stroke-width="2.5"/></g>
+<g class="pr"><path d="M214 214C260 206 290 160 280 120C250 132 222 170 206 206Z" fill="#F28CB1" stroke="#C2557F" stroke-width="2.5"/></g>
+<g class="st"><path d="M200 196V130" stroke="#8CC152" stroke-width="6"/><ellipse cx="200" cy="126" rx="10" ry="5" fill="#E59B3B"/><path d="M190 214Q176 180 172 150M210 214Q224 180 228 150" fill="none" stroke="#C9A23B" stroke-width="3"/></g>
+<path d="M180 228Q150 240 132 222Q156 222 184 222ZM220 228Q250 240 268 222Q244 222 216 222Z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2"/>
+<g class="ov">
+<ellipse class="skin" cx="200" cy="206" rx="20" ry="20" fill="#BFE3A0" stroke="#3E7A20" stroke-width="2"/>
+<ellipse cx="200" cy="206" rx="13" ry="13" fill="#FBE3D0"/>
+<g fill="#FFF4C8" stroke="#B8A04A" stroke-width="1"><ellipse cx="195" cy="201" rx="2.5" ry="3"/><ellipse cx="205" cy="201" rx="2.5" ry="3"/><ellipse cx="195" cy="211" rx="2.5" ry="3"/><ellipse cx="205" cy="211" rx="2.5" ry="3"/></g>
+</g>
+</svg>

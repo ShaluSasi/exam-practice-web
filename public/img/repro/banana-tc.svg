@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Tiny plantlets in glass jars next to a banana plant in a field</title>
+<style>
+.pl{animation:g 4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+.p2{animation-delay:-1.3s}.p3{animation-delay:-2.6s}
+@keyframes g{0%,100%{transform:scale(.75)}50%{transform:scale(1)}}
+.ar{stroke-dasharray:8 8;animation:run 1.5s linear infinite}
+@keyframes run{to{stroke-dashoffset:-32}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#4A90C8" stroke-width="2.5" fill="#EAF6FF">
+<rect x="28" y="150" width="46" height="96" rx="10"/><rect x="86" y="150" width="46" height="96" rx="10"/><rect x="144" y="150" width="46" height="96" rx="10"/>
+</g>
+<g fill="#F3E6B5"><rect x="31" y="214" width="40" height="29" rx="8"/><rect x="89" y="214" width="40" height="29" rx="8"/><rect x="147" y="214" width="40" height="29" rx="8"/></g>
+<g fill="#F4A6A6" stroke="#C9606A" stroke-width="2"><rect x="26" y="140" width="50" height="12" rx="4"/><rect x="84" y="140" width="50" height="12" rx="4"/><rect x="142" y="140" width="50" height="12" rx="4"/></g>
+<g fill="#8CCB5E" stroke="#3E7A20" stroke-width="1.8">
+<g class="pl"><path d="M51 216v-24"/><path d="M51 200q-14-10-16-28q14 10 16 28zM51 196q14-12 14-30q-12 12-14 30z"/></g>
+<g class="pl p2"><path d="M109 216v-24"/><path d="M109 200q-14-10-16-28q14 10 16 28zM109 196q14-12 14-30q-12 12-14 30z"/></g>
+<g class="pl p3"><path d="M167 216v-24"/><path d="M167 200q-14-10-16-28q14 10 16 28zM167 196q14-12 14-30q-12 12-14 30z"/></g>
+</g>
+<path class="ar" d="M200 196h40" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M240 188l10 8l-10 8z" fill="#2B2F4A"/>
+<rect x="256" y="252" width="128" height="34" rx="10" fill="#8B5E3C"/>
+<path d="M316 254V130" stroke="#7FA34A" stroke-width="16" stroke-linecap="round"/>
+<g fill="#5FA83A" stroke="#3E7A20" stroke-width="2.5" stroke-linejoin="round">
+<path d="M316 132C290 100 262 96 252 110C276 112 298 124 316 140Z"/>
+<path d="M316 132C342 96 370 96 378 110C356 114 334 126 316 140Z"/>
+<path d="M316 130C304 90 300 64 316 46C326 70 324 100 316 130Z"/>
+<path d="M314 160C286 148 266 160 262 176C286 168 302 168 314 172Z"/>
+</g>
+<g fill="#F6C453" stroke="#B8860B" stroke-width="2"><path d="M324 160q16 6 14 24q-10-6-14-24z"/><path d="M326 176q16 6 14 24q-10-6-14-24z"/><path d="M322 192q16 6 14 22q-10-6-14-22z"/></g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>An elephant beside a tree whose bark has been stripped in a band</title>
+<style>
+.tr{transform-box:fill-box;transform-origin:right top;animation:tr 3s ease-in-out infinite}
+@keyframes tr{0%,100%{transform:rotate(0)}50%{transform:rotate(9deg)}}
+.lf{transform-box:fill-box;transform-origin:center bottom;animation:lf 4s ease-in-out infinite alternate}@keyframes lf{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 230H300V244Q300 260 284 260H16Q0 260 0 244Z" fill="#E9D3AE"/>
+<path d="M0 230H300" stroke="#B48A55" stroke-width="3"/>
+<g class="lf"><g fill="#5FAE3A" stroke="#3E7A22" stroke-width="3"><circle cx="90" cy="70" r="36"/><circle cx="170" cy="70" r="36"/><circle cx="130" cy="44" r="40"/><circle cx="130" cy="86" r="30"/></g></g>
+<path d="M112 232V96H148V232Z" fill="#8C5A35" stroke="#5E3A20" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#6E4528" stroke-width="2" stroke-linecap="round"><path d="M122 110V140M138 104V136M126 200V226M140 196V224"/></g>
+<path d="M113 150L118 146L124 152L130 145L137 151L143 146L147 150V192L142 196L136 190L129 197L122 191L116 196L113 192Z" fill="#F3DDB0" stroke="#C99A60" stroke-width="2" stroke-linejoin="round"/>
+<g stroke="#D9B98A" stroke-width="1.5"><path d="M120 156V188M128 154V190M136 156V188M142 154V186"/></g>
+<g fill="#8C5A35" stroke="#5E3A20" stroke-width="1.5"><path d="M84 232q6 -8 14 -2q-6 0 -14 2Z"/><path d="M160 232q8 -6 14 0q-8 -1 -14 0Z"/></g>
+<g fill="#AEB0C2" stroke="#6E7088" stroke-width="3" stroke-linejoin="round">
+<rect x="208" y="196" width="16" height="36" rx="6"/><rect x="258" y="196" width="16" height="36" rx="6"/>
+<ellipse cx="244" cy="184" rx="48" ry="34"/>
+<path class="tr" d="M182 178C170 182 162 176 156 168C152 162 158 158 162 164C166 170 172 170 178 164Z"/>
+<circle cx="196" cy="160" r="26"/></g>
+<ellipse cx="214" cy="160" rx="15" ry="20" fill="#C6C8D8" stroke="#6E7088" stroke-width="3"/>
+<circle cx="186" cy="152" r="3.5" fill="#2B2F4A"/>
+<path d="M184 176q-8 4 -14 2" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A tiger's face</title>
+<style>
+.e{transform-box:fill-box;transform-origin:center;animation:e 4s ease-in-out infinite}
+@keyframes e{0%,46%,54%,100%{transform:scaleY(1)}50%{transform:scaleY(.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#E6F2D8"/>
+<g stroke="#B8601A" stroke-width="2.5"><circle cx="32" cy="32" r="12" fill="#F59A3E"/><circle cx="88" cy="32" r="12" fill="#F59A3E"/></g>
+<circle cx="32" cy="32" r="6" fill="#FFE3C2"/><circle cx="88" cy="32" r="6" fill="#FFE3C2"/>
+<path d="M60 22 C86 22 98 40 98 62 C98 86 82 102 60 102 C38 102 22 86 22 62 C22 40 34 22 60 22 Z" fill="#F59A3E" stroke="#B8601A" stroke-width="2.5"/>
+<g fill="#2B2F4A">
+<path d="M60 24 L56 40 L60 46 L64 40 Z"/><path d="M48 26 L50 38 L54 30 Z"/><path d="M72 26 L70 38 L66 30 Z"/>
+<path d="M23 56 L38 60 L24 64 Z"/><path d="M25 72 L38 72 L28 78 Z"/><path d="M97 56 L82 60 L96 64 Z"/><path d="M95 72 L82 72 L92 78 Z"/>
+</g>
+<ellipse cx="50" cy="80" rx="13" ry="11" fill="#FFF6EA"/><ellipse cx="70" cy="80" rx="13" ry="11" fill="#FFF6EA"/>
+<ellipse cx="60" cy="94" rx="10" ry="6" fill="#FFF6EA"/>
+<g class="e"><ellipse cx="46" cy="58" rx="5" ry="5.5" fill="#F5D24A" stroke="#2B2F4A" stroke-width="2"/><ellipse cx="74" cy="58" rx="5" ry="5.5" fill="#F5D24A" stroke="#2B2F4A" stroke-width="2"/>
+<ellipse cx="46" cy="58" rx="1.6" ry="4" fill="#2B2F4A"/><ellipse cx="74" cy="58" rx="1.6" ry="4" fill="#2B2F4A"/></g>
+<path d="M53 72 H67 L60 79 Z" fill="#D9578F" stroke="#9E2F5E" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M60 79 V84 M60 84 Q54 90 48 86 M60 84 Q66 90 72 86" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+</svg>

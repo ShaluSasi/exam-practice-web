@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Seeds with tufts of fine silky hairs leaving an open pod</title>
+<defs>
+<g id="sd">
+<path d="M0 0L0-16M0 0L-12-12M0 0L12-12M0 0L-16-4M0 0L16-4M0 0L-6-17M0 0L6-17" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<path d="M0 0L0-16M0 0L-12-12M0 0L12-12M0 0L-16-4M0 0L16-4" stroke="#B8BED4" stroke-width=".8"/>
+<ellipse cx="0" cy="6" rx="3.5" ry="6" fill="#8B5E3C"/>
+</g>
+</defs>
+<style>
+.s{animation:fly 6s linear infinite;opacity:0}
+.s2{animation-delay:-1.5s}.s3{animation-delay:-3s}.s4{animation-delay:-4.5s}
+@keyframes fly{0%{transform:translate(0,0);opacity:0}8%{opacity:1}50%{transform:translate(140px,-90px)}90%{opacity:1}100%{transform:translate(280px,-60px);opacity:0}}
+.wl{stroke-dasharray:40 300;animation:wl 3s linear infinite}
+@keyframes wl{from{stroke-dashoffset:340}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.s{opacity:1}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="12" y="12" width="376" height="276" rx="12" fill="#E8F4FF"/>
+<path d="M12 250H388V276Q388 288 376 288H24Q12 288 12 276Z" fill="#9CC46A"/>
+<g fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"><path class="wl" d="M20 90q80-20 160 0t200 0"/><path class="wl" d="M20 170q80-20 160 0t200 0" style="animation-delay:-1.4s"/></g>
+<path d="M60 250C66 220 70 210 80 200" stroke="#6B8E3A" stroke-width="5" fill="none"/>
+<path d="M80 200C70 170 90 150 110 160C120 180 104 204 80 200Z" fill="#9CC46A" stroke="#5E8A2A" stroke-width="2.5"/>
+<path d="M80 200C96 176 120 168 132 180C120 200 100 206 80 200Z" fill="#B7D98C" stroke="#5E8A2A" stroke-width="2.5"/>
+<g transform="translate(104 176) scale(1.6)"><use href="#sd"/></g>
+<g transform="translate(110 168) scale(1.6)">
+<use class="s" href="#sd"/><use class="s s2" href="#sd"/><use class="s s3" href="#sd"/><use class="s s4" href="#sd"/>
+</g>
+</svg>

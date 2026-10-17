@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>Cow dung slurry in an underground tank producing gas that lights a stove</title>
+<style>
+.bu{animation:bu 2.6s ease-in infinite}.d1{animation-delay:-.9s}.d2{animation-delay:-1.7s}
+.fl{transform-box:fill-box;transform-origin:50% 100%;animation:fl .5s ease-in-out infinite alternate}
+.gs{animation:gs 1.2s linear infinite}
+@keyframes bu{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-30px);opacity:0}}
+@keyframes fl{from{transform:scale(1,1)}to{transform:scale(.85,1.2)}}
+@keyframes gs{to{stroke-dashoffset:-14}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="288" height="92" rx="12" fill="#E6F4FF"/>
+<rect x="6" y="96" width="288" height="98" rx="12" fill="#D9B98C"/>
+<rect x="6" y="96" width="288" height="20" fill="#D9B98C"/>
+<path d="M6 97 H294" stroke="#6CC04A" stroke-width="4"/>
+<g fill="#8C6A4A" stroke="#5C4128" stroke-width="2.5" stroke-linejoin="round">
+<path d="M22 58 C22 46 34 44 40 48 L46 42 L52 48 C60 46 66 54 62 62 C60 70 52 74 42 74 C30 74 22 68 22 58 Z" fill="#F4F0E6"/>
+</g>
+<g fill="#2B2F4A"><circle cx="36" cy="58" r="2.4"/><circle cx="52" cy="58" r="2.4"/></g>
+<ellipse cx="44" cy="68" rx="9" ry="5" fill="#F7C6CF" stroke="#5C4128" stroke-width="1.8"/>
+<path d="M30 46 L22 38 M58 46 L66 38" stroke="#A9774F" stroke-width="4" stroke-linecap="round"/>
+<path d="M60 90 L72 100 V146 H92" fill="none" stroke="#6E4520" stroke-width="10" stroke-linejoin="round"/>
+<rect x="48" y="78" width="30" height="18" rx="4" fill="#8A5A2B" stroke="#5C4128" stroke-width="2.5"/>
+<path d="M96 186 V140 C96 106 196 106 196 140 V186 Z" fill="#B7A48A" stroke="#5C4128" stroke-width="3" stroke-linejoin="round"/>
+<path d="M99 184 V150 Q146 140 193 150 V184 Z" fill="#7A5A36"/>
+<g fill="#E8F4FF" stroke="#4A90C8" stroke-width="1.5"><circle class="bu" cx="120" cy="150" r="4"/><circle class="bu d1" cx="146" cy="152" r="5"/><circle class="bu d2" cx="172" cy="150" r="4"/><circle class="bu d2" cx="132" cy="156" r="3"/><circle class="bu d1" cx="160" cy="158" r="3"/></g>
+<g fill="#C2E59E"><circle cx="112" cy="170" r="2"/><circle cx="130" cy="176" r="2"/><circle cx="150" cy="168" r="2"/><circle cx="176" cy="174" r="2"/></g>
+<path d="M146 112 V70 H236 V108" fill="none" stroke="#7B8794" stroke-width="7" stroke-linejoin="round"/>
+<path class="gs" d="M146 104 V70 H236 V100" fill="none" stroke="#CDE9FF" stroke-width="2.5" stroke-dasharray="4 10"/>
+<rect x="216" y="108" width="44" height="12" rx="4" fill="#4A4F68" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M222 120 V140 M254 120 V140" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<g class="fl"><path d="M226 106 C226 96 232 92 238 84 C244 92 250 96 250 106 Z" fill="#7FB2F0" stroke="#3D6FB5" stroke-width="2" stroke-linejoin="round"/><path d="M233 106 C233 100 236 98 238 94 C240 98 243 100 243 106 Z" fill="#E6F2FF"/></g>
+</svg>

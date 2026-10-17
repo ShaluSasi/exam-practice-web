@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A small, slender, fish-like sea animal swimming over sand</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite}
+.wv{transform-box:fill-box;transform-origin:center;animation:wv 1s ease-in-out infinite}
+@keyframes sw{0%,100%{transform:translate(-5px,2px)}50%{transform:translate(5px,-2px)}}
+@keyframes wv{0%,100%{transform:skewY(2deg)}50%{transform:skewY(-2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#E3F2FF"/>
+<path d="M6 96 Q60 88 114 96 V102 Q114 114 102 114 H18 Q6 114 6 102 Z" fill="#F2DDAE"/>
+<g class="sw"><g class="wv">
+<path d="M10 60 C24 48 70 46 108 56 Q112 58 108 60 C70 72 24 70 10 60 Z" fill="#F6DDE0" stroke="#C98A92" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M14 57 C40 50 80 50 104 57" fill="none" stroke="#E2A34A" stroke-width="3" stroke-linecap="round"/>
+<path d="M26 54 l5 6 l-5 6 M36 53 l5 7 l-5 7 M46 52 l5 8 l-5 8 M56 52 l5 8 l-5 8 M66 52 l5 8 l-5 8 M76 52 l5 7 l-5 7 M86 53 l4 6 l-4 6" fill="none" stroke="#E4AEB5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 62 l-4 4 M14 63 l-3 6 M17 64 l-1 6" stroke="#C98A92" stroke-width="1.5" stroke-linecap="round"/>
+</g></g>
+</svg>

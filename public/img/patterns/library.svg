@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A messy pile of books beside neatly arranged bookshelves</title>
+<style>
+.bk{animation:bk 4s ease-in-out infinite}
+.ar{animation:ar 1.6s ease-in-out infinite}
+@keyframes bk{0%,15%{transform:translate(0,0) rotate(0);opacity:1}70%{transform:translate(176px,-56px);opacity:1}85%,100%{transform:translate(176px,-56px);opacity:0}}
+@keyframes ar{0%,100%{transform:translateX(-4px)}50%{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="160" width="388" height="34" rx="12" fill="#E2D5BC"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<rect x="22" y="148" width="44" height="12" rx="2" fill="#F28CB1" transform="rotate(-8 44 154)"/>
+<rect x="60" y="150" width="40" height="12" rx="2" fill="#7FB2F0" transform="rotate(12 80 156)"/>
+<rect x="100" y="146" width="46" height="12" rx="2" fill="#FFD45C" transform="rotate(-4 123 152)"/>
+<rect x="36" y="132" width="40" height="12" rx="2" fill="#8FD16A" transform="rotate(16 56 138)"/>
+<rect x="86" y="130" width="42" height="12" rx="2" fill="#D9C3F5" transform="rotate(-18 107 136)"/>
+<rect x="132" y="128" width="14" height="32" rx="2" fill="#FFB547" transform="rotate(22 139 144)"/>
+<rect x="58" y="114" width="40" height="12" rx="2" fill="#9EDCCB" transform="rotate(6 78 120)"/>
+<rect x="14" y="112" width="12" height="34" rx="2" fill="#F58A5C" transform="rotate(-24 20 129)"/>
+</g>
+<text x="76" y="80" font-family="system-ui, sans-serif" font-size="40" font-weight="600" fill="#2B2F4A" text-anchor="middle" opacity=".35">?</text>
+<path class="ar" d="M174 100 H206 M198 90 L210 100 L198 110" fill="none" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="228" y="20" width="156" height="140" rx="8" fill="#C9A273" stroke="#6E4520" stroke-width="3"/>
+<path d="M232 66 H380 M232 112 H380" stroke="#6E4520" stroke-width="4"/>
+<g stroke="#2B2F4A" stroke-width="1.6">
+<g fill="#F28CB1"><rect x="236" y="30" width="11" height="34"/><rect x="247" y="34" width="11" height="30"/><rect x="258" y="30" width="11" height="34"/></g>
+<g fill="#7FB2F0"><rect x="276" y="32" width="11" height="32"/><rect x="287" y="30" width="11" height="34"/><rect x="298" y="34" width="11" height="30"/><rect x="309" y="30" width="11" height="34"/></g>
+<g fill="#FFD45C"><rect x="330" y="30" width="11" height="34"/><rect x="341" y="34" width="11" height="30"/></g>
+<g fill="#8FD16A"><rect x="236" y="78" width="11" height="32"/><rect x="247" y="76" width="11" height="34"/><rect x="258" y="80" width="11" height="30"/><rect x="269" y="76" width="11" height="34"/></g>
+<g fill="#D9C3F5"><rect x="290" y="76" width="11" height="34"/><rect x="301" y="80" width="11" height="30"/><rect x="312" y="76" width="11" height="34"/></g>
+<g fill="#FFB547"><rect x="334" y="78" width="11" height="32"/><rect x="345" y="76" width="11" height="34"/><rect x="356" y="80" width="11" height="30"/></g>
+<g fill="#9EDCCB"><rect x="236" y="122" width="11" height="34"/><rect x="247" y="126" width="11" height="30"/><rect x="258" y="122" width="11" height="34"/></g>
+<g fill="#F58A5C"><rect x="282" y="124" width="11" height="32"/><rect x="293" y="122" width="11" height="34"/><rect x="304" y="126" width="11" height="30"/><rect x="315" y="122" width="11" height="34"/></g>
+</g>
+<rect class="bk" x="160" y="140" width="11" height="34" fill="#FFD45C" stroke="#2B2F4A" stroke-width="1.6"/>
+</svg>

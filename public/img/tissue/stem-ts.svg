@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Cross-section of a young plant stem</title>
+<style>
+.hair{transform-box:fill-box;transform-origin:center;animation:sw 3s ease-in-out infinite alternate}
+@keyframes sw{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs>
+<pattern id="pc" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#EEF8E0"/><circle cx="6" cy="6" r="5" fill="#F7FCEF" stroke="#A9CF8A" stroke-width="1.2"/></pattern>
+<pattern id="pp" width="18" height="18" patternUnits="userSpaceOnUse"><rect width="18" height="18" fill="#F3FAE8"/><circle cx="9" cy="9" r="8" fill="#FBFEF6" stroke="#B5D69A" stroke-width="1.2"/></pattern>
+<g id="vb"><path d="M302.4 131.9A104 104 0 0 1 302.4 168.1L292.6 166.3A94 94 0 0 0 292.6 133.7Z" fill="#D9B98A" stroke="#9C7A45" stroke-width="2"/><path d="M291.6 128.9A94 94 0 0 1 291.6 171.1L279.9 168.4A82 82 0 0 0 279.9 131.6Z" fill="#F8DDB0" stroke="#C99A55" stroke-width="2"/><path d="M274.1 132.9A76 76 0 0 1 274.1 167.1L250.7 161.7A52 52 0 0 0 250.7 138.3Z" fill="#DCEFFF" stroke="#4A90C8" stroke-width="2"/><g fill="#FFFFFF" stroke="#4A90C8" stroke-width="2"><circle cx="265" cy="150" r="5.5"/><circle cx="259" cy="140" r="3.5"/><circle cx="259" cy="160" r="3.5"/><circle cx="270" cy="141" r="3"/><circle cx="270" cy="159" r="3"/></g><g fill="#C99A55"><circle cx="288" cy="146" r="1.6"/><circle cx="286" cy="155" r="1.6"/><circle cx="290" cy="140" r="1.4"/></g></g>
+</defs>
+<g stroke="#4E8F2A" stroke-width="2.5" stroke-linecap="round" fill="none"><path class="hair" d="M332.3 185.5L335.4 204.7"/><path class="hair" d="M296.9 246.9L289.9 265"/><path class="hair" d="M235.5 282.3L220.3 294.6"/><path class="hair" d="M164.5 282.3L145.3 285.4"/><path class="hair" d="M103.1 246.9L85 239.9"/><path class="hair" d="M67.7 185.5L55.4 170.3"/><path class="hair" d="M67.7 114.5L64.6 95.3"/><path class="hair" d="M103.1 53.1L110.1 35"/><path class="hair" d="M164.5 17.7L179.7 5.4"/><path class="hair" d="M235.5 17.7L254.7 14.6"/><path class="hair" d="M296.9 53.1L315 60.1"/><path class="hair" d="M332.3 114.5L344.6 129.7"/></g>
+<circle cx="200" cy="150" r="138" fill="none" stroke="#E2C95E" stroke-width="3"/>
+<circle cx="200" cy="150" r="132" fill="url(#pc)" stroke="#4E8F2A" stroke-width="8"/>
+<circle cx="200" cy="150" r="132" fill="none" stroke="#CFE8B4" stroke-width="7" stroke-dasharray="1.3 6"/>
+<use href="#vb"/><use href="#vb" transform="rotate(45 200 150)"/><use href="#vb" transform="rotate(90 200 150)"/><use href="#vb" transform="rotate(135 200 150)"/><use href="#vb" transform="rotate(180 200 150)"/><use href="#vb" transform="rotate(225 200 150)"/><use href="#vb" transform="rotate(270 200 150)"/><use href="#vb" transform="rotate(315 200 150)"/>
+<circle cx="200" cy="150" r="79" fill="none" stroke="#7BC043" stroke-width="5"/>
+<circle cx="200" cy="150" r="79" fill="none" stroke="#B9E58C" stroke-width="2" stroke-dasharray="3 3"/>
+<circle cx="200" cy="150" r="48" fill="url(#pp)" stroke="#9CC77C" stroke-width="2"/>
+</svg>

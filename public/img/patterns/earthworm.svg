@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A segmented worm crawling on moist soil</title>
+<style>
+.s{transform-box:fill-box;transform-origin:center;animation:s 1.6s ease-in-out infinite}
+@keyframes s{0%,100%{transform:translateY(0) scaleX(1)}50%{transform:translateY(-4px) scaleX(.8)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="70" width="108" height="44" rx="12" fill="#C9A273"/>
+<rect x="6" y="70" width="108" height="20" fill="#C9A273"/>
+<path d="M6 72 H114" stroke="#6CC04A" stroke-width="4" stroke-linecap="round"/>
+<g fill="#A9824F"><circle cx="20" cy="96" r="3"/><circle cx="50" cy="104" r="2.5"/><circle cx="86" cy="100" r="3.5"/><circle cx="104" cy="88" r="2"/></g>
+<g fill="#E79A8C" stroke="#B85C4E" stroke-width="2">
+<ellipse class="s" cx="16" cy="62" rx="5" ry="6"/>
+<ellipse class="s" cx="24" cy="60" rx="5.5" ry="7.5" style="animation-delay:-.15s"/>
+<ellipse class="s" cx="32" cy="58" rx="5.5" ry="8" style="animation-delay:-.3s"/>
+<ellipse class="s" cx="40" cy="57" rx="5.5" ry="8.5" style="animation-delay:-.45s"/>
+<ellipse class="s" cx="48" cy="57" rx="5.5" ry="8.5" style="animation-delay:-.6s"/>
+<ellipse class="s" cx="56" cy="58" rx="5.5" ry="8.5" style="animation-delay:-.75s"/>
+<ellipse class="s" cx="64" cy="59" rx="5.5" ry="8.5" style="animation-delay:-.9s"/>
+<ellipse class="s" cx="73" cy="59" rx="7" ry="9.5" fill="#C96E5E" style="animation-delay:-1.05s"/>
+<ellipse class="s" cx="82" cy="58" rx="5.5" ry="8.5" style="animation-delay:-1.2s"/>
+<ellipse class="s" cx="90" cy="56" rx="5.5" ry="8" style="animation-delay:-1.35s"/>
+<ellipse class="s" cx="99" cy="54" rx="7" ry="7.5" style="animation-delay:-1.5s"/>
+</g>
+</svg>

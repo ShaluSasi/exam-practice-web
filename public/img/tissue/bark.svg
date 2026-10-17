@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>Close-up of the outer layers of an old tree stem</title>
+<style>
+.pu{animation:pu 3s linear infinite}@keyframes pu{from{transform:translateY(0)}to{transform:translateY(-14px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><pattern id="bk" width="24" height="14" patternUnits="userSpaceOnUse"><rect width="24" height="14" fill="#B07A45"/><path d="M0 .75H24M.75 0V7M12.75 7V14" stroke="#6E4528" stroke-width="1.5"/></pattern>
+<clipPath id="ck"><rect x="20" y="20" width="260" height="96"/></clipPath>
+<pattern id="cx" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#EEF8E0"/><circle cx="10" cy="10" r="8.5" fill="#F7FCEF" stroke="#A9CF8A" stroke-width="1.3"/></pattern></defs>
+<rect x="20" y="20" width="260" height="184" rx="12" fill="#EEF8E0"/>
+<g clip-path="url(#ck)"><g class="pu"><rect x="20" y="20" width="260" height="112" fill="url(#bk)"/></g></g>
+<path d="M20 34L60 20L96 36L140 20L184 34L228 20L280 32V20H20Z" fill="#FFF9EE"/>
+<rect x="20" y="116" width="260" height="10" fill="#9ED36A" stroke="#4E8F2A" stroke-width="2"/>
+<rect x="20" y="126" width="260" height="78" fill="url(#cx)"/>
+<rect x="20" y="20" width="260" height="184" rx="12" fill="none" stroke="#6E4528" stroke-width="3"/>
+</svg>

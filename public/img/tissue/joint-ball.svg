@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A moving joint between two bones</title>
+<style>
+.mv{transform-box:view-box;transform-origin:56px 80px;animation:mv 4s ease-in-out infinite}
+@keyframes mv{0%,100%{transform:rotate(-50deg)}25%{transform:rotate(0) scaleY(.5)}50%{transform:rotate(50deg)}75%{transform:rotate(0) scaleY(1.2)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="mv"><path d="M60 80H146" fill="none" stroke="#B9A27A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 80H146" fill="none" stroke="#F5EBD7" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><circle cx="56" cy="80" r="17" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3"/></g>
+<path d="M8 30H40C20 50 20 110 40 130H8Z" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M42 54A28 28 0 0 0 42 106" fill="none" stroke="#7FB6D1" stroke-width="7"/><path d="M42 54A28 28 0 0 0 42 106" fill="none" stroke="#BFE3F2" stroke-width="4"/>
+</svg>

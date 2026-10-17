@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A frog beside a large mass of eggs in a pond, and a bird sitting by a few eggs in a nest</title>
+<style>
+.fish{animation:sw 5s ease-in-out infinite}
+@keyframes sw{0%,100%{transform:translateX(0)}50%{transform:translateX(-50px)}}
+.jl{animation:jl 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes jl{50%{transform:scale(1.04)}}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="14" y="80" width="182" height="166" rx="12" fill="#CDE9FF" stroke="#4A90C8" stroke-width="2.5"/>
+<path d="M14 92q22-10 44 0t44 0t44 0t50 0" fill="none" stroke="#4A90C8" stroke-width="2"/>
+<g class="jl">
+<ellipse cx="110" cy="180" rx="66" ry="40" fill="#E9F3FA" stroke="#9CC6E8" stroke-width="2"/>
+<g fill="#2B2F4A">
+<circle cx="66" cy="172" r="3"/><circle cx="78" cy="164" r="3"/><circle cx="90" cy="158" r="3"/><circle cx="102" cy="154" r="3"/><circle cx="114" cy="154" r="3"/><circle cx="126" cy="156" r="3"/><circle cx="138" cy="160" r="3"/><circle cx="150" cy="168" r="3"/>
+<circle cx="60" cy="186" r="3"/><circle cx="72" cy="178" r="3"/><circle cx="84" cy="172" r="3"/><circle cx="96" cy="168" r="3"/><circle cx="108" cy="166" r="3"/><circle cx="120" cy="168" r="3"/><circle cx="132" cy="170" r="3"/><circle cx="144" cy="178" r="3"/><circle cx="156" cy="184" r="3"/>
+<circle cx="70" cy="196" r="3"/><circle cx="82" cy="186" r="3"/><circle cx="94" cy="182" r="3"/><circle cx="106" cy="180" r="3"/><circle cx="118" cy="182" r="3"/><circle cx="130" cy="184" r="3"/><circle cx="142" cy="190" r="3"/><circle cx="154" cy="198" r="3"/>
+<circle cx="80" cy="204" r="3"/><circle cx="92" cy="196" r="3"/><circle cx="104" cy="194" r="3"/><circle cx="116" cy="196" r="3"/><circle cx="128" cy="198" r="3"/><circle cx="140" cy="204" r="3"/><circle cx="96" cy="208" r="3"/><circle cx="110" cy="208" r="3"/><circle cx="124" cy="210" r="3"/>
+</g>
+</g>
+<g class="fish"><path d="M170 120q16-12 30 0q-14 12-30 0zM200 120l10-8v16z" fill="#F6A15A" stroke="#C0561E" stroke-width="2"/><circle cx="176" cy="118" r="1.8" fill="#2B2F4A"/></g>
+<g transform="translate(56 90)">
+<ellipse cx="0" cy="10" rx="34" ry="20" fill="#6DB33F" stroke="#3E7A20" stroke-width="2.5"/>
+<circle cx="-14" cy="-6" r="9" fill="#6DB33F" stroke="#3E7A20" stroke-width="2.5"/><circle cx="14" cy="-6" r="9" fill="#6DB33F" stroke="#3E7A20" stroke-width="2.5"/>
+<circle cx="-14" cy="-7" r="4" fill="#2B2F4A"/><circle cx="14" cy="-7" r="4" fill="#2B2F4A"/>
+<path d="M-12 14q12 8 24 0" fill="none" stroke="#3E7A20" stroke-width="2"/>
+</g>
+<path d="M220 150C260 140 330 140 388 120" stroke="#8B5E3C" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M240 150q60 40 120 0q-8 34-60 34q-52 0-60-34z" fill="#C9A27A" stroke="#8B5E3C" stroke-width="2.5"/>
+<path d="M248 160q50 16 104 0" fill="none" stroke="#8B5E3C" stroke-width="2"/>
+<g fill="#CDE9FF" stroke="#4A90C8" stroke-width="2"><ellipse cx="280" cy="150" rx="11" ry="14"/><ellipse cx="300" cy="152" rx="11" ry="14"/><ellipse cx="320" cy="150" rx="11" ry="14"/></g>
+<g class="bob">
+<ellipse cx="336" cy="102" rx="30" ry="20" fill="#E5484D" stroke="#A8282C" stroke-width="2.5"/>
+<circle cx="362" cy="86" r="13" fill="#E5484D" stroke="#A8282C" stroke-width="2.5"/>
+<path d="M374 86l12 4l-12 4z" fill="#F6C453" stroke="#C99A1E" stroke-width="1.5"/>
+<circle cx="365" cy="83" r="2.5" fill="#2B2F4A"/>
+<path d="M320 96q14 16 32 6" fill="none" stroke="#A8282C" stroke-width="2.5"/>
+<path d="M306 100l-16 10l18 2z" fill="#A8282C"/>
+</g>
+</svg>

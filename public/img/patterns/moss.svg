@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A green mat of tiny plants growing on a damp rock</title>
+<style>
+.st{transform-box:fill-box;transform-origin:50% 100%;animation:st 3s ease-in-out infinite}
+.d1{animation-delay:-1s}.d2{animation-delay:-2s}
+.dr{animation:dr 2.5s ease-in infinite}
+@keyframes st{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@keyframes dr{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(20px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#EEF6E8"/>
+<path class="dr" d="M98 18 q-4 6 0 8 q4 -2 0 -8 Z" fill="#4A90C8"/>
+<ellipse cx="60" cy="96" rx="48" ry="16" fill="#C9CCD6" stroke="#8A8FA3" stroke-width="2.5"/>
+<g fill="none" stroke="#8B6A3E" stroke-width="2" stroke-linecap="round">
+<path class="st" d="M34 72 Q32 52 36 36"/><path class="st d1" d="M58 70 Q60 46 56 28"/><path class="st d2" d="M82 72 Q84 54 80 40"/>
+</g>
+<g fill="#B07A45" stroke="#6E4520" stroke-width="1.5"><ellipse cx="36" cy="34" rx="3.5" ry="6" transform="rotate(10 36 34)"/><ellipse cx="56" cy="26" rx="3.5" ry="6" transform="rotate(-8 56 26)"/><ellipse cx="80" cy="38" rx="3.5" ry="6" transform="rotate(12 80 38)"/></g>
+<path d="M16 88 C14 78 22 72 28 76 C28 66 38 64 42 70 C44 62 54 62 56 68 C60 60 70 62 70 70 C74 64 84 66 84 74 C90 70 100 74 98 82 C106 84 106 92 100 94 C80 98 40 98 18 94 Z" fill="#6DBE45" stroke="#3F8A2A" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="none" stroke="#9AD873" stroke-width="2" stroke-linecap="round"><path d="M26 84 l3 -4 M38 80 l2 -5 M50 82 l3 -5 M64 80 l2 -5 M76 82 l3 -4 M90 84 l2 -4"/></g>
+</svg>

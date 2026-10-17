@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>A blood sample that has settled into two layers in a test tube</title>
+<style>
+.sk{animation:sk 3.5s ease-in infinite}
+@keyframes sk{0%{transform:translateY(0);opacity:0}15%{opacity:1}80%{transform:translateY(58px);opacity:1}100%{transform:translateY(58px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="tb"><path d="M128 60V200A22 22 0 0 0 172 200V60Z"/></clipPath></defs>
+<rect x="84" y="150" width="132" height="14" rx="5" fill="#C9D6E6" stroke="#6B7A99" stroke-width="2.5"/>
+<g clip-path="url(#tb)">
+<rect x="120" y="60" width="60" height="86" fill="#F7E08A"/>
+<rect x="120" y="146" width="60" height="4" fill="#FFFFFF"/>
+<rect x="120" y="150" width="60" height="80" fill="#E5484D"/>
+<g fill="#C9343A"><circle cx="140" cy="170" r="3"/><circle cx="158" cy="182" r="3"/><circle cx="146" cy="200" r="3"/><circle cx="160" cy="208" r="3"/></g>
+<g class="sk" fill="#E5484D"><circle cx="140" cy="76" r="3"/><circle cx="158" cy="90" r="3"/><circle cx="148" cy="84" r="2.5"/></g>
+</g>
+<path d="M124 30H176M128 30V200A22 22 0 0 0 172 200V30" fill="none" stroke="#6B7A99" stroke-width="3" stroke-linecap="round"/>
+<path d="M136 70V190" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+<path d="M60 92C60 92 40 118 40 132A20 20 0 0 0 80 132C80 118 60 92 60 92Z" fill="#E5484D" stroke="#B32D33" stroke-width="2.5"/>
+<path d="M52 128A8 8 0 0 0 60 140" fill="none" stroke="#F6A3A5" stroke-width="3" stroke-linecap="round"/>
+<rect x="200" y="84" width="58" height="76" rx="12" fill="#FDE3E3" stroke="#B32D33" stroke-width="2.5"/>
+<rect x="208" y="104" width="42" height="48" rx="8" fill="#E5484D"/>
+<path d="M229 84V64" stroke="#B32D33" stroke-width="3" stroke-linecap="round"/>
+</svg>

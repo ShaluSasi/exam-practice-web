@@ -31,9 +31,15 @@
     "topic": "Roots of a quadratic",
     "difficulty": "easy",
     "marks": 1,
-    "type": "numeric",
+    "type": "mcq",
     "prompt": "If $x = 2$ is a root of the equation $x^2 - 5x + k = 0$, find the value of $k$.",
-    "answer": 6,
+    "options": [
+      { "id": "a", "text": "$-6$" },
+      { "id": "b", "text": "$6$" },
+      { "id": "c", "text": "$14$" },
+      { "id": "d", "text": "$10$" }
+    ],
+    "answer": "b",
     "hint": "A root satisfies the equation. Substitute $x = 2$.",
     "explanation": "Substituting $x = 2$: $$2^2 - 5(2) + k = 0 \\Rightarrow 4 - 10 + k = 0 \\Rightarrow k = 6$$"
   },
@@ -47,11 +53,15 @@
     "topic": "Uniform acceleration",
     "difficulty": "easy",
     "marks": 2,
-    "type": "numeric",
+    "type": "mcq",
     "prompt": "A car starts from rest and reaches a velocity of $20\\ \\text{m s}^{-1}$ in $5\\ \\text{s}$ with uniform acceleration. What is its acceleration?",
-    "answer": 4,
-    "tolerance": 0.01,
-    "unit": "m/s²",
+    "options": [
+      { "id": "a", "text": "$100\\ \\text{m s}^{-2}$" },
+      { "id": "b", "text": "$0.25\\ \\text{m s}^{-2}$" },
+      { "id": "c", "text": "$4\\ \\text{m s}^{-2}$" },
+      { "id": "d", "text": "$15\\ \\text{m s}^{-2}$" }
+    ],
+    "answer": "c",
     "hint": "Use $v = u + at$. 'Starts from rest' tells you $u$.",
     "explanation": "Using $v = u + at$ with $u = 0$: $$a = \\frac{v - u}{t} = \\frac{20 - 0}{5} = 4\\ \\text{m s}^{-2}$$"
   },

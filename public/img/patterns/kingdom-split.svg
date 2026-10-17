@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img">
+<title>Animation of living things being sorted into more and more groups over time</title>
+<style>
+.g1,.g2,.g3,.g4{opacity:0;animation:sh 8s ease-in-out infinite}
+.g2{animation-delay:2s}.g3{animation-delay:4s}.g4{animation-delay:6s}
+.g1{animation-delay:0s}
+@keyframes sh{0%{opacity:0;transform:translateY(8px)}5%,22%{opacity:1;transform:translateY(0)}27%,100%{opacity:0;transform:translateY(-8px)}}
+.i1,.i2,.i3,.i4{animation:hi 8s steps(1) infinite;fill:#E6E1D8}
+.i2{animation-delay:2s}.i3{animation-delay:4s}.i4{animation-delay:6s}
+@keyframes hi{0%{fill:#2B2F4A}25%,100%{fill:#E6E1D8}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.g4{opacity:1}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="200" cy="30" r="14" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M194 30 h12 M200 24 v12" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="none" stroke="#2B2F4A" stroke-opacity=".25" stroke-width="2.5"><path d="M200 44 V64"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<g class="g1"><path d="M200 64 L140 92 M200 64 L260 92" fill="none" stroke-opacity=".3"/><circle cx="140" cy="110" r="20" fill="#B8E39C"/><circle cx="260" cy="110" r="20" fill="#FFC48A"/></g>
+<g class="g2"><path d="M200 64 L110 92 M200 64 L200 92 M200 64 L290 92" fill="none" stroke-opacity=".3"/><circle cx="110" cy="110" r="20" fill="#B8E39C"/><circle cx="200" cy="110" r="20" fill="#D9C3F5"/><circle cx="290" cy="110" r="20" fill="#FFC48A"/></g>
+<g class="g3"><path d="M200 64 L80 92 M200 64 L160 92 M200 64 L240 92 M200 64 L320 92" fill="none" stroke-opacity=".3"/><circle cx="80" cy="110" r="20" fill="#9EDCCB"/><circle cx="160" cy="110" r="20" fill="#D9C3F5"/><circle cx="240" cy="110" r="20" fill="#B8E39C"/><circle cx="320" cy="110" r="20" fill="#FFC48A"/></g>
+<g class="g4"><path d="M200 64 L60 92 M200 64 L130 92 M200 64 L200 92 M200 64 L270 92 M200 64 L340 92" fill="none" stroke-opacity=".3"/><circle cx="60" cy="110" r="20" fill="#9EDCCB"/><circle cx="130" cy="110" r="20" fill="#D9C3F5"/><circle cx="200" cy="110" r="20" fill="#E8D3B0"/><circle cx="270" cy="110" r="20" fill="#B8E39C"/><circle cx="340" cy="110" r="20" fill="#FFC48A"/></g>
+</g>
+<circle class="i1" cx="170" cy="160" r="6"/><circle class="i2" cx="190" cy="160" r="6"/><circle class="i3" cx="210" cy="160" r="6"/><circle class="i4" cx="230" cy="160" r="6"/>
+</svg>

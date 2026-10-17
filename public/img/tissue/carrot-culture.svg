@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A carrot, a slice cut from it, and a flask of liquid with cells swirling</title>
+<style>
+.sw{transform-box:view-box;transform-origin:212px 160px;animation:sw 6s linear infinite}
+@keyframes sw{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="fl"><path d="M194 76V112L156 186Q150 200 166 200H258Q274 200 268 186L230 112V76Z"/></clipPath></defs>
+<path d="M44 52L66 52L56 196Z" fill="#F28C38" stroke="#B85A1A" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#C96A22" stroke-width="2" stroke-linecap="round"><path d="M50 80h10M52 110h8M54 140h6"/></g>
+<g fill="#5FAE3A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"><path d="M55 52C50 36 40 26 30 22C36 34 44 44 55 52ZM55 52C56 34 60 22 66 14C68 28 64 42 55 52ZM55 52C66 40 78 34 88 34C80 44 68 50 55 52Z"/></g>
+<circle cx="112" cy="150" r="26" fill="#F28C38" stroke="#B85A1A" stroke-width="3"/>
+<circle cx="112" cy="150" r="13" fill="#F7B26A" stroke="#D9802E" stroke-width="2"/>
+<path d="M84 130L98 128" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="3 3"/>
+<g clip-path="url(#fl)"><rect x="150" y="128" width="130" height="80" fill="#FFF3C4"/>
+<path d="M150 130q16 -6 31 0t31 0t31 0t31 0" fill="none" stroke="#E2C95E" stroke-width="2"/>
+<g class="sw" fill="#9BDB6A" stroke="#3E7A22" stroke-width="1.5"><circle cx="192" cy="150" r="4.5"/><circle cx="226" cy="168" r="4.5"/><circle cx="210" cy="182" r="4.5"/><circle cx="236" cy="146" r="4.5"/><circle cx="200" cy="170" r="4.5"/><circle cx="222" cy="140" r="4.5"/><circle cx="214" cy="158" r="5"/><circle cx="220" cy="160" r="5"/></g></g>
+<path d="M194 76V112L156 186Q150 200 166 200H258Q274 200 268 186L230 112V76Z" fill="none" stroke="#6B7A99" stroke-width="3" stroke-linejoin="round"/>
+<rect x="190" y="64" width="44" height="14" rx="5" fill="#F2E6D0" stroke="#9C8A68" stroke-width="2.5"/>
+<path d="M172 176L200 120" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+</svg>

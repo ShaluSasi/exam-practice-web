@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>A cut through layers of rock, each with fossils</title>
+<style>
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2.4s ease-in-out infinite}
+.t1{animation-delay:-.8s}.t2{animation-delay:-1.6s}
+@keyframes tw{0%,100%{transform:scale(.3) rotate(0);opacity:0}50%{transform:scale(1) rotate(45deg);opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="288" height="14" rx="7" fill="#9FD27F"/>
+<rect x="6" y="18" width="288" height="50" fill="#F3E3C3"/>
+<path d="M6 66 Q80 60 150 66 T294 64 V114 H6 Z" fill="#E8CFA3"/>
+<path d="M6 112 Q90 118 160 110 T294 112 V160 H6 Z" fill="#DDBB88"/>
+<path d="M6 158 Q70 152 150 160 T294 156 V206 H6 Z" fill="#C9A273"/>
+<path d="M6 204 Q100 210 170 202 T294 204 V242 Q294 254 282 254 H18 Q6 254 6 242 Z" fill="#B08A5E"/>
+<g fill="none" stroke="#8A6A48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M176 52 C184 36 200 30 208 32 C204 42 194 50 176 52 Z" fill="#F7EEDD"/><path d="M176 52 L206 33 M186 46 l-2 -6 M194 41 l-1 -6 M186 46 l6 2 M194 41 l7 1"/>
+<path d="M96 90 H146 M146 90 l10 -8 M146 90 l10 8 M96 90 C88 82 82 86 82 90 C82 94 88 98 96 90 M106 82 v16 M116 80 v20 M126 80 v20 M136 82 v16"/>
+<circle cx="88" cy="89" r="1.8" fill="#8A6A48"/>
+<path d="M200 150 Q204 132 200 116 M200 146 l-8 -4 M200 146 l8 -4 M200 138 l-9 -4 M200 138 l9 -4 M200 130 l-8 -4 M200 130 l8 -4 M200 122 l-6 -3 M200 122 l6 -3"/>
+<circle cx="100" cy="182" r="13" fill="#F7EEDD"/><path d="M100 182 A2.5 2.5 0 0 1 105 182 A5 5 0 0 1 95 182 A7.5 7.5 0 0 1 110 182 A10 10 0 0 1 90 182"/>
+</g>
+<g fill="#F7EEDD" stroke="#6E5236" stroke-width="1.8"><path d="M162 236 C162 222 178 222 178 236 Z"/><path d="M178 236 C178 226 190 226 190 236 Z"/><path d="M190 236 C190 220 206 220 206 236 Z"/></g>
+<g fill="none" stroke="#6E5236" stroke-width="1.2"><path d="M166 236 C166 228 174 228 174 236 M194 236 C194 226 202 226 202 236"/></g>
+<g fill="#FFF3C4"><path class="tw" d="M240 40 l3 -9 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 Z"/><path class="tw t1" d="M60 130 l3 -9 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 Z"/><path class="tw t2" d="M250 222 l3 -9 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 Z"/></g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Bread mould growing on bread</title>
+<style>
+.sp{animation:fly 5s ease-out infinite;opacity:0}
+.s2{animation-delay:-1.2s}.s3{animation-delay:-2.4s}.s4{animation-delay:-3.6s}
+@keyframes fly{0%{transform:translate(0,0);opacity:0}10%{opacity:1}100%{transform:translate(90px,-60px);opacity:0}}
+.wob{animation:wob 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes wob{50%{transform:scale(1.06)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.sp{opacity:0}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="232" width="368" height="56" rx="12" fill="#E8C48A" stroke="#B07A3C" stroke-width="3"/>
+<g fill="#D9AE6E"><circle cx="70" cy="262" r="4"/><circle cx="160" cy="272" r="3"/><circle cx="250" cy="258" r="4"/><circle cx="330" cy="274" r="3"/></g>
+<path d="M30 230q30-8 60 0t60 0t60 0t60 0t60 0t30-2M60 236q20-12 40-4M240 236q30-14 60-2" fill="none" stroke="#6B6F86" stroke-width="3" stroke-linecap="round"/>
+<path d="M120 230V122M200 230V104M290 230V130" stroke="#6B6F86" stroke-width="4" stroke-linecap="round"/>
+<path d="M120 230q-10 6-16 0M200 230q10 6 18 0M290 230q-10 6-16 0" fill="none" stroke="#6B6F86" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="120" cy="100" r="24" fill="#4A4A5A" stroke="#2B2F4A" stroke-width="3"/>
+<g class="wob"><circle cx="200" cy="78" r="28" fill="#4A4A5A" stroke="#2B2F4A" stroke-width="3"/></g>
+<circle cx="290" cy="110" r="22" fill="#4A4A5A" stroke="#2B2F4A" stroke-width="3"/>
+<g fill="#9AA0B8"><circle cx="112" cy="94" r="3"/><circle cx="126" cy="98" r="3"/><circle cx="118" cy="108" r="3"/><circle cx="192" cy="70" r="3"/><circle cx="208" cy="74" r="3"/><circle cx="198" cy="88" r="3"/><circle cx="212" cy="88" r="3"/><circle cx="284" cy="104" r="3"/><circle cx="296" cy="112" r="3"/></g>
+<g fill="#5C6078"><circle cx="340" cy="56" r="4"/><circle cx="352" cy="64" r="4"/><circle cx="344" cy="68" r="4"/><circle cx="356" cy="52" r="3.5"/></g>
+<g fill="#5C6078">
+<circle class="sp" cx="214" cy="64" r="3.5"/><circle class="sp s2" cx="210" cy="70" r="3"/><circle class="sp s3" cx="218" cy="74" r="3.5"/><circle class="sp s4" cx="206" cy="62" r="3"/>
+</g>
+</svg>

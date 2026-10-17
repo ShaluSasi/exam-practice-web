@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250" role="img">
+<title>Five pea flowers and buds given different treatments</title>
+<defs>
+<g id="bud"><path d="M0 0v40" stroke="#4E8F2A" stroke-width="4"/><path d="M0 4c-12-6-12-28 0-36c12 8 12 30 0 36z" fill="#8CCB5E" stroke="#3E7A20" stroke-width="2"/><path d="M0-30c-4-4-3-10 0-12c3 2 4 8 0 12z" fill="#F28CB1"/></g>
+<g id="fl"><path d="M0 0v40" stroke="#4E8F2A" stroke-width="4"/><path d="M-8 2q8-10 16 0q-8 6-16 0z" fill="#6DB33F" stroke="#3E7A20" stroke-width="1.5"/><circle cx="0" cy="-16" r="18" fill="#F7B6CF" stroke="#C2557F" stroke-width="2"/><path d="M-14-4q-8-14 4-20q6 10-4 20zM14-4q8-14-4-20q-6 10 4 20z" fill="#F28CB1" stroke="#C2557F" stroke-width="1.5"/><path d="M-4-6q4-10 8 0z" fill="#FFFFFF" stroke="#C2557F" stroke-width="1.5"/></g>
+<path id="bag" d="M-28-62h56l6 74q-34 10-68 0z" fill="#EFE6D0" fill-opacity=".75" stroke="#B5A27A" stroke-width="2" stroke-dasharray="3 3"/>
+<g id="x"><path d="M-6-6l12 12M6-6l-12 12" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/></g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g fill="#FFFFFF" stroke="#E0D3B8" stroke-width="2">
+<rect x="16" y="30" width="88" height="180" rx="12"/><rect x="112" y="30" width="88" height="180" rx="12"/><rect x="208" y="30" width="88" height="180" rx="12"/><rect x="304" y="30" width="88" height="180" rx="12"/><rect x="400" y="30" width="88" height="180" rx="12"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="60" y="52">1</text><text x="156" y="52">2</text><text x="252" y="52">3</text><text x="348" y="52">4</text><text x="444" y="52">5</text>
+</g>
+<g transform="translate(60 150)"><use href="#bud"/><use href="#bag"/><path d="M-6 12h12" stroke="#B5A27A" stroke-width="3"/></g>
+<g transform="translate(156 150)"><use href="#bud"/><use href="#bag"/><path d="M-6 12h12" stroke="#B5A27A" stroke-width="3"/></g>
+<g transform="translate(252 150)"><use href="#fl"/><use href="#bag"/><path d="M-6 12h12" stroke="#B5A27A" stroke-width="3"/></g>
+<g transform="translate(348 150)"><use href="#fl"/><use href="#bag"/><path d="M-6 12h12" stroke="#B5A27A" stroke-width="3"/></g>
+<g transform="translate(444 150)"><use href="#fl"/></g>
+<g transform="translate(156 200)"><use href="#x"/></g>
+<g transform="translate(252 200)"><use href="#x"/></g>
+<g transform="translate(150 232)"><use href="#x"/></g>
+<text x="164" y="237" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">= stamens removed</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>Tall grass plants swaying in a breeze</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-4deg)}to{transform:rotate(5deg)}}
+.p{animation:blow 3.5s linear infinite;opacity:0}
+.q2{animation-delay:-.7s}.q3{animation-delay:-1.4s}.q4{animation-delay:-2.1s}.q5{animation-delay:-2.8s}
+@keyframes blow{0%{transform:translate(0,0);opacity:0}10%{opacity:1}100%{transform:translate(170px,30px);opacity:0}}
+.wl{stroke-dasharray:30 200;animation:wl 2.5s linear infinite}
+@keyframes wl{from{stroke-dashoffset:230}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.p{opacity:1}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="196" width="268" height="12" rx="6" fill="#8B5E3C"/>
+<g fill="none" stroke="#9AB8D8" stroke-width="2.5" stroke-linecap="round">
+<path class="wl" d="M20 40q60-14 120 0t140 0"/><path class="wl" d="M20 120q60-14 120 0t140 0" style="animation-delay:-1.2s"/>
+</g>
+<g class="sw">
+<path d="M70 198V60" stroke="#8DB04A" stroke-width="5" stroke-linecap="round"/>
+<path d="M70 160q-30-20-36-54q20 24 36 40zM70 130q30-24 34-56q-18 26-34 42z" fill="#9CC46A" stroke="#5E8A2A" stroke-width="2"/>
+<path d="M70 62l-14-26M70 62l0-32M70 62l14-26M62 50l-14-10M78 50l14-10" stroke="#C9B26A" stroke-width="3" stroke-linecap="round"/>
+<g fill="#E8D49A"><circle cx="56" cy="36" r="3"/><circle cx="70" cy="30" r="3"/><circle cx="84" cy="36" r="3"/><circle cx="48" cy="40" r="3"/><circle cx="92" cy="40" r="3"/></g>
+</g>
+<g class="sw" style="animation-delay:-1s">
+<path d="M150 198V80" stroke="#8DB04A" stroke-width="5" stroke-linecap="round"/>
+<path d="M150 170q-30-20-36-54q20 24 36 40zM150 140q30-24 34-56q-18 26-34 42z" fill="#9CC46A" stroke="#5E8A2A" stroke-width="2"/>
+<path d="M150 82l-14-26M150 82l0-32M150 82l14-26" stroke="#C9B26A" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g fill="#F2C94C">
+<circle class="p" cx="72" cy="34" r="2.6"/><circle class="p q2" cx="66" cy="40" r="2.6"/><circle class="p q3" cx="80" cy="30" r="2.6"/><circle class="p q4" cx="76" cy="44" r="2.6"/><circle class="p q5" cx="62" cy="32" r="2.6"/>
+<circle class="p q3" cx="150" cy="54" r="2.6"/><circle class="p q5" cx="154" cy="60" r="2.6"/>
+</g>
+<g class="sw" style="animation-delay:-2s">
+<path d="M236 198V96" stroke="#8DB04A" stroke-width="5" stroke-linecap="round"/>
+<path d="M236 96q-12-20 0-36q12 16 0 36z" fill="#E6D7A0" stroke="#B8A04A" stroke-width="2"/>
+<path d="M236 70q-20-10-26-26M236 70q20-10 26-26M236 64v-26" stroke="#E5A23B" stroke-width="2" stroke-linecap="round" fill="none"/>
+<path d="M236 170q-30-20-36-54q20 24 36 40z" fill="#9CC46A" stroke="#5E8A2A" stroke-width="2"/>
+</g>
+</svg>

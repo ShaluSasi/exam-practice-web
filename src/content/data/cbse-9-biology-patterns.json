@@ -1,0 +1,965 @@
+[
+  {
+    "id": "in-cbse-9-bio-patterns-001",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Ecological roles",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the organism in this pond-side scene that works as a **decomposer**, breaking down dead wood and leaves.",
+    "image": { "src": "/img/patterns/pond-scene.svg", "alt": "A pond and forest-edge scene with numbered markers on several organisms" },
+    "spots": [
+      { "id": "tree", "x": 10.5, "y": 18.7, "label": "Tree (producer)" },
+      { "id": "frog", "x": 75, "y": 72, "label": "Frog (consumer)" },
+      { "id": "mushroom", "x": 28, "y": 61.3, "label": "Mushroom (decomposer)" },
+      { "id": "moss", "x": 15.5, "y": 84, "label": "Moss (producer)" },
+      { "id": "lily", "x": 88, "y": 69.3, "label": "Water lily (producer)" }
+    ],
+    "answer": "mushroom",
+    "hint": "It cannot make its own food and grows on dead, rotting matter.",
+    "explanation": "The **mushroom** on the rotting log is a fungus. Most fungi are **saprophytes**: they absorb nutrients from dead organic matter and release minerals back into the soil, keeping it fertile. The tree, moss and water lily are **producers** that photosynthesise, and the frog is a **consumer**. Every one of them plays a part in keeping the ecosystem stable."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-002",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Bryophyta",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the plant that belongs to **Bryophyta**, the group called the 'amphibians' of the plant kingdom.",
+    "image": { "src": "/img/patterns/pond-scene.svg", "alt": "A pond and forest-edge scene with numbered markers on several organisms" },
+    "spots": [
+      { "id": "lily", "x": 88, "y": 69.3, "label": "Water lily" },
+      { "id": "moss", "x": 15.5, "y": 84, "label": "Moss" },
+      { "id": "tree", "x": 10.5, "y": 18.7, "label": "Tree" },
+      { "id": "mushroom", "x": 28, "y": 61.3, "label": "Mushroom" },
+      { "id": "snail", "x": 39.25, "y": 85.7, "label": "Snail" }
+    ],
+    "answer": "moss",
+    "hint": "Look for a low, soft green mat growing on a damp surface.",
+    "explanation": "The green **moss** cushion on the damp rock is a bryophyte. Bryophytes have simple stem-like and leaf-like parts and root-like **rhizoids**, but no vascular tissue, and they need water for reproduction. The tree and water lily are flowering plants (angiosperms), and the mushroom is a fungus, not a plant."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-003",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Vertebrates",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Only one animal in this scene has a **vertebral column (backbone)**. Tap it.",
+    "image": { "src": "/img/patterns/pond-scene.svg", "alt": "A pond and forest-edge scene with numbered markers on several organisms" },
+    "spots": [
+      { "id": "beetle", "x": 46.75, "y": 47, "label": "Beetle" },
+      { "id": "snail", "x": 39.25, "y": 85.7, "label": "Snail" },
+      { "id": "frog", "x": 75, "y": 72, "label": "Frog" },
+      { "id": "lily", "x": 88, "y": 69.3, "label": "Water lily" },
+      { "id": "mushroom", "x": 28, "y": 61.3, "label": "Mushroom" }
+    ],
+    "answer": "frog",
+    "hint": "Vertebrates are grouped as fish, amphibians, reptiles, birds and mammals.",
+    "explanation": "The **frog** is an amphibian, so it is a vertebrate. Its backbone supports the body and protects the spinal cord. The beetle (Arthropoda, hard exoskeleton) and the snail (Mollusca, protective shell) are **invertebrates**: they have no notochord and no backbone."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-004",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Protista",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "*Paramecium* swims by beating thousands of tiny hair-like structures. Tap them.",
+    "image": { "src": "/img/patterns/paramecium.svg", "alt": "A single-celled organism with numbered markers on its parts" },
+    "spots": [
+      { "id": "nucleus", "x": 56, "y": 48, "label": "Nucleus" },
+      { "id": "cv", "x": 28, "y": 46, "label": "Contractile vacuole" },
+      { "id": "cilia", "x": 50, "y": 29, "label": "Cilia" },
+      { "id": "groove", "x": 43.75, "y": 57.75, "label": "Oral groove" },
+      { "id": "food", "x": 67, "y": 57, "label": "Food vacuole" }
+    ],
+    "answer": "cilia",
+    "hint": "They form a fringe all the way round the outer edge of the cell.",
+    "explanation": "The fringe of tiny hairs round the cell are **cilia**. They beat in waves to move the paramecium and sweep food into the **oral groove**. Inside lie the large **nucleus**, food vacuoles and star-shaped **contractile vacuoles** that pump out extra water. As a unicellular eukaryote, *Paramecium* belongs to **Protista**."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-005",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Pteridophyta",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Ferns have true roots, stems and leaves. In this fern, the **stem** grows sideways just below the soil. Tap it.",
+    "image": { "src": "/img/patterns/fern.svg", "alt": "A fern plant with numbered markers above and below the soil" },
+    "spots": [
+      { "id": "frond", "x": 20.5, "y": 43.5, "label": "Leaf (frond)" },
+      { "id": "young", "x": 87, "y": 57, "label": "Young coiled leaf" },
+      { "id": "stem", "x": 50, "y": 77, "label": "Underground stem (rhizome)" },
+      { "id": "roots", "x": 38.5, "y": 86, "label": "Roots" }
+    ],
+    "answer": "stem",
+    "hint": "Roots are thin and branch downwards; the stem is thick and the leaves grow up from it.",
+    "explanation": "The thick brown horizontal part is the fern's **stem**, an underground stem called a rhizome. Leaves (fronds) rise from it, and thin **roots** grow down from it; young leaves come out tightly coiled and then unroll. **Pteridophytes** have true roots, stems and leaves with **xylem and phloem**, but they produce no seeds and still need water for reproduction."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-006",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Hierarchy of classification",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "The tiger (*Panthera tigris*) and the lion (*Panthera leo*) share this level of classification, but a house cat does not. Tap it.",
+    "image": { "src": "/img/patterns/ladder.svg", "alt": "Seven levels of classification with numbered markers beside them" },
+    "spots": [
+      { "id": "phylum", "x": 85, "y": 22.78, "label": "Phylum" },
+      { "id": "class", "x": 85, "y": 36.11, "label": "Class" },
+      { "id": "order", "x": 85, "y": 49.44, "label": "Order" },
+      { "id": "family", "x": 85, "y": 62.78, "label": "Family" },
+      { "id": "genus", "x": 85, "y": 76.11, "label": "Genus" },
+      { "id": "species", "x": 85, "y": 89.44, "label": "Species" }
+    ],
+    "answer": "genus",
+    "hint": "Look at the first word of the two scientific names.",
+    "explanation": "Tiger and lion share the **genus** *Panthera*, the roaring cats with a similar skull structure. A house cat is also in the family **Felidae**, so the family level includes all three. Tiger and lion are different **species**, so they do not share that level."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-007",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Five kingdom classification",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the kingdom whose members have cell walls made of **chitin**.",
+    "image": { "src": "/img/patterns/kingdoms.svg", "alt": "Five kingdom panels, each with a numbered marker" },
+    "spots": [
+      { "id": "monera", "x": 11.25, "y": 44, "label": "Monera" },
+      { "id": "protista", "x": 30.5, "y": 44, "label": "Protista" },
+      { "id": "fungi", "x": 49.75, "y": 44, "label": "Fungi" },
+      { "id": "plantae", "x": 69, "y": 44, "label": "Plantae" },
+      { "id": "animalia", "x": 88.25, "y": 44, "label": "Animalia" }
+    ],
+    "answer": "fungi",
+    "hint": "Plant cell walls are made of cellulose; this kingdom uses a different material.",
+    "explanation": "**Fungi** have cell walls made of **chitin** and absorb nutrients from dead or decaying matter. **Plantae** have walls made mainly of **cellulose**, and **Animalia** cells have no wall at all. Protists may or may not have a wall (cellulose when present), and Monera are prokaryotes."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-008",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Fossils as evidence",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Study the fossils in these rock layers. Tap the fossil from the layer that is most likely the **oldest**.",
+    "image": { "src": "/img/patterns/fossil-layers.svg", "alt": "Rock layers with a numbered marker on the fossil in each layer" },
+    "spots": [
+      { "id": "feather", "x": 64, "y": 16, "label": "Feather" },
+      { "id": "fish", "x": 39.3, "y": 34.6, "label": "Fish skeleton" },
+      { "id": "fern", "x": 66.7, "y": 50.8, "label": "Fern leaf" },
+      { "id": "shell", "x": 33.3, "y": 70, "label": "Coiled shell" },
+      { "id": "mats", "x": 61.3, "y": 88.5, "label": "Simple microbial mounds" }
+    ],
+    "answer": "mats",
+    "hint": "Older layers usually hold simpler forms of life.",
+    "explanation": "**Fossils** are preserved remains of organisms in layers of rock, sand and mud. Generally, **older layers contain simpler organisms**, and newer layers show more complex forms, because small differences built up over many generations to give new forms of life. The simple mounds in the bottom layer are the oldest. The Indian scientist **Birbal Sahni** studied fossil plants and founded the Birbal Sahni Institute of Palaeosciences in Lucknow."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-009",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Invertebrate phyla",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each invertebrate with its **phylum**.",
+    "left": [
+      { "id": "sponge", "text": "Sponge", "image": { "src": "/img/patterns/sponge.svg", "alt": "Sponge" } },
+      { "id": "jelly", "text": "Jellyfish", "image": { "src": "/img/patterns/jellyfish.svg", "alt": "Jellyfish" } },
+      { "id": "flat", "text": "Flatworm", "image": { "src": "/img/patterns/flatworm.svg", "alt": "Flatworm" } },
+      { "id": "round", "text": "Roundworm", "image": { "src": "/img/patterns/roundworm.svg", "alt": "Roundworm" } },
+      { "id": "star", "text": "Starfish", "image": { "src": "/img/patterns/starfish.svg", "alt": "Starfish" } }
+    ],
+    "right": [
+      { "id": "nema", "text": "Nematoda" },
+      { "id": "echino", "text": "Echinodermata" },
+      { "id": "pori", "text": "Porifera" },
+      { "id": "anne", "text": "Annelida" },
+      { "id": "platy", "text": "Platyhelminthes" },
+      { "id": "cnid", "text": "Cnidaria" }
+    ],
+    "pairs": { "sponge": "pori", "jelly": "cnid", "flat": "platy", "round": "nema", "star": "echino" },
+    "hint": "Porifera means 'pore-bearers' and echinoderm means 'spiny skin'.",
+    "explanation": "Sponges (**Porifera**) bear pores and show only cellular-level organisation. Jellyfish (**Cnidaria**) have tissues and tentacles but a single body opening. Flatworms (**Platyhelminthes**) are flat and bilaterally symmetrical. Roundworms (**Nematoda**) are cylindrical with two openings, a mouth and an anus. Starfish (**Echinodermata**) have a hard internal skeleton of calcium carbonate. Annelida (segmented worms such as earthworms) was the extra option."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-010",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "History of classification",
+    "difficulty": "hard", "marks": 2,
+    "type": "match",
+    "prompt": "Match each scientist with their contribution to classification.",
+    "image": { "src": "/img/patterns/kingdom-split.svg", "alt": "Animation of living things being sorted into more and more groups" },
+    "left": [
+      { "id": "linnaeus", "text": "Carolus Linnaeus" },
+      { "id": "haeckel", "text": "Ernst Haeckel" },
+      { "id": "copeland", "text": "Herbert F. Copeland" },
+      { "id": "whittaker", "text": "Robert H. Whittaker" },
+      { "id": "woese", "text": "Carl Woese" }
+    ],
+    "right": [
+      { "id": "fungi", "text": "Gave fungi a separate kingdom, making five kingdoms" },
+      { "id": "domains", "text": "Proposed three domains using genetic data" },
+      { "id": "two", "text": "Divided life into Plantae and Animalia" },
+      { "id": "monera", "text": "Put bacteria in a separate kingdom, Monera" },
+      { "id": "protista", "text": "Added Protista for microscopic life" }
+    ],
+    "pairs": { "linnaeus": "two", "haeckel": "protista", "copeland": "monera", "whittaker": "fungi", "woese": "domains" },
+    "hint": "The kingdoms grew by one each time, in the order 1758, 1866, 1938, 1969; the domains came in 1977.",
+    "explanation": "**Linnaeus** (1758) used two kingdoms, Plantae and Animalia; he also introduced binomial names. **Haeckel** (1866) added **Protista**. **Copeland** (1938) moved bacteria into **Monera**, giving four kingdoms. **Whittaker** (1969) gave fungi their own kingdom, making five. **Carl Woese** (1977) compared DNA and proposed three domains: Bacteria, Archaea and Eukarya."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-011",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Classes of Plantae",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each plant with the key feature of its group.",
+    "left": [
+      { "id": "spiro", "text": "*Spirogyra*", "image": { "src": "/img/patterns/spirogyra.svg", "alt": "Spirogyra" } },
+      { "id": "moss", "text": "Moss", "image": { "src": "/img/patterns/moss.svg", "alt": "Moss" } },
+      { "id": "fern", "text": "Fern", "image": { "src": "/img/patterns/fern.svg", "alt": "Fern" } },
+      { "id": "pine", "text": "Pine", "image": { "src": "/img/patterns/pine.svg", "alt": "Pine" } },
+      { "id": "pea", "text": "Pea plant", "image": { "src": "/img/patterns/flowering.svg", "alt": "Pea plant" } }
+    ],
+    "right": [
+      { "id": "cone", "text": "Seeds lie exposed on cones, not inside fruits" },
+      { "id": "thallus", "text": "Simple thallus body, lives in water" },
+      { "id": "fruit", "text": "Seeds are enclosed inside fruits" },
+      { "id": "rhizoid", "text": "Rhizoids, no vascular tissue, needs moisture" },
+      { "id": "vascular", "text": "True roots, stem and leaves with xylem and phloem, but no seeds" }
+    ],
+    "pairs": { "spiro": "thallus", "moss": "rhizoid", "fern": "vascular", "pine": "cone", "pea": "fruit" },
+    "hint": "'Gymnos' means naked and 'angeion' means vessel.",
+    "explanation": "*Spirogyra* is a **thallophyte** (alga) with an undifferentiated thallus. Moss is a **bryophyte** with rhizoids and no vascular tissue. Fern is a **pteridophyte** with xylem and phloem but no seeds. Pine is a **gymnosperm** whose naked seeds sit on cones. The pea is an **angiosperm**: its flowers form fruits (pods) that enclose the seeds."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-012",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Adaptations",
+    "difficulty": "easy", "marks": 1,
+    "type": "match",
+    "prompt": "Body structures help animals survive where they live. Match each animal with its adaptation.",
+    "left": [
+      { "id": "fish", "text": "Fish", "image": { "src": "/img/patterns/fish.svg", "alt": "Fish" } },
+      { "id": "bird", "text": "Bird", "image": { "src": "/img/patterns/bird.svg", "alt": "Bird" } },
+      { "id": "camel", "text": "Camel", "image": { "src": "/img/patterns/camel.svg", "alt": "Camel" } },
+      { "id": "bear", "text": "Polar bear", "image": { "src": "/img/patterns/polar-bear.svg", "alt": "Polar bear" } }
+    ],
+    "right": [
+      { "id": "fur", "text": "Thick fur for extreme cold" },
+      { "id": "gills", "text": "Fins and gills" },
+      { "id": "fat", "text": "Stored fat for harsh desert life" },
+      { "id": "feathers", "text": "Feathers and hollow bones" }
+    ],
+    "pairs": { "fish": "gills", "bird": "feathers", "camel": "fat", "bear": "fur" },
+    "hint": "Think about water, air, desert and ice.",
+    "explanation": "**Fins and gills** let fish move and breathe in water. **Feathers and hollow bones** make flight possible for birds. Camels rely on **stored fat** in harsh deserts, and polar bears keep warm with **thick fur**. In mammals, **mammary glands** are a further change that improves the survival of the young."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-013",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Protista",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "*Euglena* makes its own food in light but feeds on other material in the dark. Match each numbered part with its name.",
+    "image": {
+      "src": "/img/patterns/euglena.svg",
+      "alt": "A single-celled organism with four numbered parts",
+      "markers": [
+        { "x": 13, "y": 46, "label": "1" },
+        { "x": 48, "y": 44, "label": "2" },
+        { "x": 65, "y": 52, "label": "3" },
+        { "x": 33, "y": 47.5, "label": "4" }
+      ]
+    },
+    "left": [
+      { "id": "p1", "text": "Part 1" },
+      { "id": "p2", "text": "Part 2" },
+      { "id": "p3", "text": "Part 3" },
+      { "id": "p4", "text": "Part 4" }
+    ],
+    "right": [
+      { "id": "nucleus", "text": "Nucleus" },
+      { "id": "wall", "text": "Cellulose cell wall" },
+      { "id": "flagellum", "text": "Flagellum" },
+      { "id": "cv", "text": "Contractile vacuole" },
+      { "id": "chloro", "text": "Chloroplast" }
+    ],
+    "pairs": { "p1": "flagellum", "p2": "chloro", "p3": "nucleus", "p4": "cv" },
+    "hint": "Part 1 is the long whip used for swimming; Part 2 is green.",
+    "explanation": "1 is the whip-like **flagellum** used for swimming. 2 is a green **chloroplast** for photosynthesis. 3 is the **nucleus**, showing that *Euglena* is a eukaryote. 4 is the **contractile vacuole**, which removes extra water. *Euglena* has no cell wall, so that option was a distractor. A single-celled eukaryote like this is placed in **Protista**."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-014",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Five kingdom classification",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each kingdom with an organism that belongs to it. One organism fits none of the five kingdoms.",
+    "left": [
+      { "id": "monera", "text": "Monera" },
+      { "id": "protista", "text": "Protista" },
+      { "id": "fungi", "text": "Fungi" },
+      { "id": "plantae", "text": "Plantae" },
+      { "id": "animalia", "text": "Animalia" }
+    ],
+    "right": [
+      { "id": "yeast", "text": "Yeast", "image": { "src": "/img/patterns/yeast.svg", "alt": "Yeast" } },
+      { "id": "worm", "text": "Earthworm", "image": { "src": "/img/patterns/earthworm.svg", "alt": "Earthworm" } },
+      { "id": "virus", "text": "Virus", "image": { "src": "/img/cell/virus.svg", "alt": "Virus" } },
+      { "id": "cyano", "text": "Cyanobacteria", "image": { "src": "/img/patterns/cyanobacteria.svg", "alt": "Cyanobacteria" } },
+      { "id": "pine", "text": "Pine", "image": { "src": "/img/patterns/pine.svg", "alt": "Pine" } },
+      { "id": "amoeba", "text": "*Amoeba*", "image": { "src": "/img/patterns/amoeba.svg", "alt": "Amoeba" } }
+    ],
+    "pairs": { "monera": "cyano", "protista": "amoeba", "fungi": "yeast", "plantae": "pine", "animalia": "worm" },
+    "hint": "Yeast is single-celled, but look at what its cell wall is made of.",
+    "explanation": "**Cyanobacteria** are prokaryotes (Monera). *Amoeba* is a unicellular eukaryote (Protista). **Yeast** is unicellular, but its chitin cell wall places it in Fungi. **Pine** is a multicellular autotroph with cellulose walls (Plantae), and the **earthworm** is a multicellular heterotroph without cell walls (Animalia). A **virus** has no cells at all, so it is kept outside the five kingdoms."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-015",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Hierarchy of classification",
+    "difficulty": "hard", "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the classification of the **pea plant** from the broadest group to the most specific.",
+    "image": { "src": "/img/patterns/flowering.svg", "alt": "A climbing pea plant with flowers and a pod" },
+    "items": [
+      { "id": "fabaceae", "text": "Fabaceae" },
+      { "id": "plantae", "text": "Plantae" },
+      { "id": "sativum", "text": "*Pisum sativum*" },
+      { "id": "magnoliopsida", "text": "Magnoliopsida" },
+      { "id": "fabales", "text": "Fabales" },
+      { "id": "pisum", "text": "*Pisum*" },
+      { "id": "magnoliophyta", "text": "Magnoliophyta" }
+    ],
+    "answer": ["plantae", "magnoliophyta", "magnoliopsida", "fabales", "fabaceae", "pisum", "sativum"],
+    "startLabel": "Broadest",
+    "endLabel": "Most specific",
+    "hint": "Endings help: -phyta for a phylum, -opsida for a class, -ales for an order, -aceae for a family.",
+    "explanation": "The order is Kingdom **Plantae** → Phylum **Magnoliophyta** → Class **Magnoliopsida** → Order **Fabales** → Family **Fabaceae** → Genus *Pisum* → Species *Pisum sativum*. Each lower group is part of the group above it, and its members share more features. It works like a postal address that narrows down to one house."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-016",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "History of classification",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Classification systems changed as scientists learnt more. Arrange these steps in the order they happened.",
+    "image": { "src": "/img/patterns/kingdom-split.svg", "alt": "Animation of living things being sorted into more and more groups" },
+    "items": [
+      { "id": "monera", "text": "Organisms without a true nucleus were moved into a kingdom of their own" },
+      { "id": "habitat", "text": "Animals were grouped by habitat: land, water and air" },
+      { "id": "fungi", "text": "Fungi were given a kingdom of their own" },
+      { "id": "two", "text": "All life was split into plants and animals" },
+      { "id": "protista", "text": "A kingdom was added for microscopic unicellular life" }
+    ],
+    "answer": ["habitat", "two", "protista", "monera", "fungi"],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "Better microscopes revealed the difference between a true nucleus and no nucleus only later.",
+    "explanation": "**Aristotle** (4th century BCE) grouped animals by habitat, which relied only on outer features. The **two kingdom** system (1758) could not place *Amoeba* or bacteria, so **Protista** was added (1866). Better microscopes showed bacteria lack a true nucleus, giving **Monera** (1938). Fungi absorb food and do not photosynthesise, so they got their own kingdom in Whittaker's **five kingdom** system (1969)."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-017",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Hay infusion",
+    "difficulty": "easy", "marks": 2,
+    "type": "order",
+    "prompt": "You want to see protists from a **hay infusion**. Arrange the steps in the correct order.",
+    "image": { "src": "/img/patterns/hay-infusion.svg", "alt": "A bottle of soaked dry grass covered with a cloth, and a dropper" },
+    "items": [
+      { "id": "cover", "text": "Cover the mouth with muslin cloth and tie it" },
+      { "id": "collect", "text": "Collect cut grass, straw or fodder" },
+      { "id": "observe", "text": "Put a drop on a slide and observe under a microscope" },
+      { "id": "water", "text": "Fill the bottle with pond water or stagnant water" },
+      { "id": "wait", "text": "Leave it undisturbed for a week" },
+      { "id": "fill", "text": "Fill one-fourth of a small bottle with it" }
+    ],
+    "answer": ["collect", "fill", "water", "cover", "wait", "observe"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The microorganisms need about a week to multiply before you look.",
+    "explanation": "Grass or straw goes into one-fourth of the bottle, pond water is added, the mouth is covered with **muslin cloth**, and the bottle is left for a week. A drop then shows moving protists such as *Paramecium*. The infusion may smell, so wear a lab coat, mask and gloves, and autoclave it before discarding."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-018",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Classes of Plantae",
+    "difficulty": "easy", "marks": 1,
+    "type": "order",
+    "prompt": "Arrange the five classes of Kingdom Plantae from the **simplest** body organisation to the **most complex**.",
+    "image": { "src": "/img/patterns/fern.svg", "alt": "A fern plant with leaves, stem and roots" },
+    "items": [
+      { "id": "gymno", "text": "Gymnosperms" },
+      { "id": "bryo", "text": "Bryophyta" },
+      { "id": "angio", "text": "Angiosperms" },
+      { "id": "thallo", "text": "Thallophyta" },
+      { "id": "pterido", "text": "Pteridophyta" }
+    ],
+    "answer": ["thallo", "bryo", "pterido", "gymno", "angio"],
+    "startLabel": "Simplest",
+    "endLabel": "Most complex",
+    "hint": "Track the new features: land life, transport tissue, seeds, then flowers and fruits.",
+    "explanation": "**Thallophyta** (algae) have a simple thallus and live in water. **Bryophyta** began to colonise land but lack vascular tissue. **Pteridophyta** gained xylem and phloem. **Gymnosperms** produce naked seeds and do not need water for fertilisation. **Angiosperms** have flowers and fruits and the most complex bodies, making them the most diverse plant group."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-019",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Levels of organisation in animals",
+    "difficulty": "medium", "marks": 1,
+    "type": "order",
+    "prompt": "Arrange these animals by **level of body organisation**, from the simplest to the most complex.",
+    "image": { "src": "/img/patterns/four-animals.svg", "alt": "Four simple animals shown in four panels" },
+    "items": [
+      { "id": "earthworm", "text": "Earthworm" },
+      { "id": "sponge", "text": "Sponge" },
+      { "id": "flatworm", "text": "Flatworm" },
+      { "id": "jellyfish", "text": "Jellyfish" }
+    ],
+    "answer": ["sponge", "jellyfish", "flatworm", "earthworm"],
+    "startLabel": "Simplest",
+    "endLabel": "Most complex",
+    "hint": "Cells → tissues → organs → organ systems.",
+    "explanation": "The **sponge** is multicellular but has only **cellular** organisation. The **jellyfish** (Cnidaria) has **tissues**, such as tentacles for catching prey, but one opening for both food and waste. The **flatworm** reaches **organ** level with bilateral symmetry. The **earthworm** (Annelida) has an **organ system** level, with segments, muscles and a nerve cord."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-020",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Bryophyta",
+    "difficulty": "easy", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/patterns/moss.svg", "alt": "A green mat of tiny plants on a damp rock" },
+    "assertion": "Bryophytes such as mosses are called the 'amphibians' of the plant kingdom.",
+    "reason": "They grow on land but need water for reproduction, because their male reproductive cells must swim to reach the female cells.",
+    "answer": "a",
+    "hint": "Amphibians live on land but return to water to breed.",
+    "explanation": "Both statements are true, and R explains A. Like frogs, bryophytes live on land but depend on water to reproduce, so they are called the **amphibians of the plant kingdom**. They show how plants began to colonise land while still depending on moisture."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-021",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Gymnosperms",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/patterns/pine.svg", "alt": "A woody cone hanging from a twig with needle-like leaves" },
+    "assertion": "Gymnosperms such as pines are well adapted to cold and dry regions.",
+    "reason": "The seeds of gymnosperms are not enclosed inside fruits.",
+    "answer": "b",
+    "hint": "Ask yourself: do naked seeds help a plant save water?",
+    "explanation": "Both statements are true, but R does not explain A. Pines survive cold, dry places because their **needle-like leaves** reduce water loss and they **do not need water for fertilisation**. Having **naked seeds** on cones is what defines gymnosperms, not what makes them suited to dry climates."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-022",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Porifera",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/patterns/sponge.svg", "alt": "A sponge with water flowing through its pores" },
+    "assertion": "Sponges are placed in Kingdom Animalia even though they lack true tissues and organs.",
+    "reason": "Each sponge cell is surrounded by a rigid cellulose cell wall.",
+    "answer": "c",
+    "hint": "Which kingdom has cells with no cell wall at all?",
+    "explanation": "A is true: sponges are multicellular heterotrophs, so they are animals, though they have only **cellular-level** organisation. R is false: sponge cells have only a **cell membrane** and no cell wall, which is exactly the animal feature. Water flowing through their pores brings food and oxygen to each cell."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-023",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Viruses and classification",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/cell/virus.svg", "alt": "A particle with a protein coat and genetic material inside" },
+    "assertion": "Viruses are placed in Kingdom Monera because they are the simplest prokaryotes.",
+    "reason": "Viruses lack cellular organisation and stay inactive outside a host cell.",
+    "answer": "d",
+    "hint": "Is a virus made of a cell at all?",
+    "explanation": "A is false and R is true. Viruses have genetic material but **no cell**, so they are not prokaryotes and do not fit any of the five kingdoms, which are all built on cell type and cell structure. This shows that every classification system has limits and keeps changing as we learn more."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-024",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Need for classification",
+    "difficulty": "easy", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/patterns/library.svg", "alt": "A messy pile of books beside neatly arranged bookshelves" },
+    "assertion": "Biological classification makes it easier to study the millions of organisms on the Earth.",
+    "reason": "Grouping organisms by shared features lets us find, compare and study related organisms systematically, just as books sorted by subject are easy to find in a library.",
+    "answer": "a",
+    "hint": "Think how hard it would be to find one book in a heap of thousands.",
+    "explanation": "Both are true and R explains A. Classification organises information, shows how organisms are related, helps name newly found organisms and identifies species under threat. It also gives scientists all over the world a **common system** to discuss organisms."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-025",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Endemic species",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the species that are **endemic to India**, found naturally nowhere else.",
+    "options": [
+      { "id": "a", "text": "Nilgiri tahr", "image": { "src": "/img/patterns/nilgiri-tahr.svg", "alt": "A wild mountain goat on a grassy hill" } },
+      { "id": "b", "text": "Tiger", "image": { "src": "/img/patterns/tiger.svg", "alt": "A tiger's face" } },
+      { "id": "c", "text": "Lion-tailed macaque", "image": { "src": "/img/patterns/macaque.svg", "alt": "A black-faced monkey with a silver mane" } },
+      { "id": "d", "text": "*Nepenthes khasiana*", "image": { "src": "/img/patterns/pitcher-plant.svg", "alt": "A pitcher plant" } },
+      { "id": "e", "text": "Great hornbill", "image": { "src": "/img/patterns/hornbill.svg", "alt": "A large bird with a huge bill flying past a tree" } },
+      { "id": "f", "text": "Neelakurinji", "image": { "src": "/img/patterns/neelakurinji.svg", "alt": "A shrub with blue-violet flowers" } }
+    ],
+    "answers": ["a", "c", "d", "f"],
+    "hint": "Two of these animals also live wild in several other Asian countries.",
+    "explanation": "**Endemic species** are restricted to a particular region. The **Nilgiri tahr**, **lion-tailed macaque**, the Indian pitcher plant *Nepenthes khasiana* and **Neelakurinji** are found only in India. Tigers and great hornbills also live wild in other countries of Asia, so they are not endemic to India."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-026",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Biodiversity hotspots",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the global **biodiversity hotspots** that include parts of India.",
+    "image": { "src": "/img/patterns/hotspot-hills.svg", "alt": "Misty forested hills with a waterfall" },
+    "options": [
+      { "id": "a", "text": "Western Ghats" },
+      { "id": "b", "text": "Thar Desert" },
+      { "id": "c", "text": "Indo-Burma (including North East India)" },
+      { "id": "d", "text": "The Himalayas" },
+      { "id": "e", "text": "Gangetic plains" },
+      { "id": "f", "text": "Sundaland (including the Nicobar Islands)" }
+    ],
+    "answers": ["a", "c", "d", "f"],
+    "hint": "Hotspots are rich in endemic species and have lost much of their natural habitat.",
+    "explanation": "The **Western Ghats**, **Indo-Burma**, the **Himalayas** and **Sundaland** are global biodiversity hotspots. Each supports many endemic species and has suffered heavy habitat loss, so protecting them is a conservation priority. The Thar Desert and the Gangetic plains are not counted as hotspots."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-027",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Fungi",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the statements that are true for **Kingdom Fungi**.",
+    "image": { "src": "/img/patterns/mushroom.svg", "alt": "A mushroom releasing tiny spores" },
+    "options": [
+      { "id": "a", "text": "Their cell walls are made of chitin" },
+      { "id": "b", "text": "They make their own food by photosynthesis" },
+      { "id": "c", "text": "Many absorb nutrients from dead and decaying matter" },
+      { "id": "d", "text": "Their cell walls are made of cellulose" },
+      { "id": "e", "text": "Many have fine filaments that together form a mycelium" },
+      { "id": "f", "text": "Some, like *Penicillium*, are used to make antibiotics" }
+    ],
+    "answers": ["a", "c", "e", "f"],
+    "hint": "Fungi have no chlorophyll.",
+    "explanation": "Fungi are eukaryotes with **chitin** cell walls. They cannot photosynthesise; most are **saprophytes** that absorb food from dead matter through fine filaments forming a **mycelium**, and they reproduce by **spores**. *Aspergillus* and *Penicillium* are used to make enzymes and antibiotics. Cellulose walls belong to plants, not fungi."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-028",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Binomial nomenclature",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "A tiger is *bagh* in Hindi and *puli* in Tamil. Select **all** the correct statements about its scientific name, *Panthera tigris*.",
+    "image": { "src": "/img/patterns/name-card.svg", "alt": "A notebook page with a scientific name written by hand" },
+    "options": [
+      { "id": "a", "text": "*Panthera* is the genus name and *tigris* is the species name" },
+      { "id": "b", "text": "The species name should start with a capital letter: Panthera Tigris" },
+      { "id": "c", "text": "The lion, *Panthera leo*, is in the same genus as the tiger" },
+      { "id": "d", "text": "This two-part naming system was introduced by Carolus Linnaeus" },
+      { "id": "e", "text": "The scientific name changes from one language to another" },
+      { "id": "f", "text": "The species name is written before the genus name" }
+    ],
+    "answers": ["a", "c", "d"],
+    "hint": "The genus comes first with a capital letter; the species comes second in small letters.",
+    "explanation": "In **binomial nomenclature**, the first word is the **genus** (capital letter) and the second is the **species** (small letters). The name is in italics when printed and underlined when handwritten. *Panthera tigris* and *Panthera leo* share the genus of roaring cats. Linnaeus introduced the system in the 18th century, and the name is the same in every language."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-029",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Case study: classifying unknown organisms",
+    "difficulty": "hard", "marks": 2,
+    "type": "multi",
+    "prompt": "Students recorded only the features of five samples, P to T. Select **all** the samples that are **eukaryotes**.",
+    "image": { "src": "/img/patterns/sample-vials.svg", "alt": "Five sample tubes marked P, Q, R, S and T" },
+    "options": [
+      { "id": "p", "text": "P: microscopic; no true nucleus; rigid cell covering; survives high salt and heat" },
+      { "id": "q", "text": "Q: multicellular; filaments; cell wall; no chlorophyll; grows on dead matter" },
+      { "id": "r", "text": "R: unicellular; true nucleus; contractile vacuole; flagella; photosynthesises in light" },
+      { "id": "s", "text": "S: multicellular; tissues; backbone; breathes in water when young" },
+      { "id": "t", "text": "T: not made of cells; has genetic material; inactive outside a host cell" }
+    ],
+    "answers": ["q", "r", "s"],
+    "hint": "Eukaryotes have a true, membrane-bound nucleus inside cells.",
+    "explanation": "**Q** is a fungus, **R** is a protist like *Euglena*, and **S** is a vertebrate animal; all are made of eukaryotic cells. **P** has no true nucleus, so it is a prokaryote in **Monera**. **T** is a virus: it is not made of cells at all, so it is neither a prokaryote nor a eukaryote and sits outside the five kingdoms."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-030",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Arthropoda",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Meena and Hari spot a small animal in the garden. Hari says it is an insect; Meena says it is an earthworm. Which feature would confirm that it is an **insect**?",
+    "image": { "src": "/img/patterns/garden-pair.svg", "alt": "Two small garden animals on the soil" },
+    "options": [
+      { "id": "a", "text": "Its body is bilaterally symmetrical" },
+      { "id": "b", "text": "Its body is cylindrical" },
+      { "id": "c", "text": "It has jointed legs" },
+      { "id": "d", "text": "Its body is divided into segments" }
+    ],
+    "answer": "c",
+    "hint": "'Arthropoda' means jointed appendages.",
+    "explanation": "**Jointed legs** and a hard **exoskeleton** are the defining features of **arthropods** such as insects. An earthworm (Annelida) is also segmented and bilaterally symmetrical, and its body is cylindrical, so those features cannot tell the two apart."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-031",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Porifera",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Sponges lack true tissues and organs. Which feature of **sponge cells** supports placing them in the animal kingdom?",
+    "image": { "src": "/img/patterns/sponge.svg", "alt": "A sponge with water flowing through its pores" },
+    "options": [
+      { "id": "a", "text": "They have a cell membrane but no cell wall" },
+      { "id": "b", "text": "They contain chloroplasts" },
+      { "id": "c", "text": "They have a cellulose cell wall" },
+      { "id": "d", "text": "They lack mitochondria" }
+    ],
+    "answer": "a",
+    "hint": "Plant and fungal cells have walls; animal cells do not.",
+    "explanation": "Animal cells are bounded only by a **cell membrane**, with no cell wall, and sponge cells are the same. Chloroplasts and cellulose walls are plant features, so B and C point away from animals. Sponge cells, like all eukaryotic cells, do have mitochondria."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-032",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Protista",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "You find an unlabelled slide of a **single-celled** organism with a well-defined **nucleus** and many **cilia**. Which kingdom does it most likely belong to?",
+    "image": { "src": "/img/patterns/paramecium.svg", "alt": "A single-celled organism seen under a microscope" },
+    "options": [
+      { "id": "a", "text": "Monera" },
+      { "id": "b", "text": "Fungi" },
+      { "id": "c", "text": "Plantae" },
+      { "id": "d", "text": "Protista" }
+    ],
+    "answer": "d",
+    "hint": "Single-celled + true nucleus + moves on its own.",
+    "explanation": "A true nucleus rules out **Monera**, whose members are prokaryotes. Being single-celled and moving with cilia fits **Protista**, the kingdom of unicellular eukaryotes such as *Paramecium*. Plants are multicellular, and single-celled fungi such as yeast have a chitin wall and do not swim with cilia."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-033",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Need for classification",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Scientists have recorded nearly **300** bird species in Pakke Tiger Reserve, Arunachal Pradesh, while India has about **1,300**. Roughly what percentage of India's bird species are found in Pakke?",
+    "image": { "src": "/img/patterns/hornbill.svg", "alt": "A large bird with a huge curved bill flying past a tall old tree" },
+    "options": [
+      { "id": "a", "text": "About 4%" },
+      { "id": "b", "text": "About 23%" },
+      { "id": "c", "text": "About 30%" },
+      { "id": "d", "text": "About 77%" }
+    ],
+    "answer": "b",
+    "hint": "Percentage = (part ÷ whole) × 100.",
+    "explanation": "300 ÷ 1,300 × 100 ≈ **23%**. Traps: 1,300 ÷ 300 ≈ 4.3 divides the wrong way round; 30% uses 1,000 instead of 1,300; 77% is the share **not** found in Pakke. Pakke also has four hornbill species that nest only in large old trees, and classifying them helps scientists track how species are spread through a forest."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-034",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Porifera",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "One kilogram of sponge can filter up to **24,000 litres** of seawater a day. Up to how much water could **3 kg** of sponge filter in **2 days**?",
+    "image": { "src": "/img/patterns/sponge.svg", "alt": "A sponge with water flowing through its pores" },
+    "options": [
+      { "id": "a", "text": "48,000 L" },
+      { "id": "b", "text": "72,000 L" },
+      { "id": "c", "text": "8,000 L" },
+      { "id": "d", "text": "1,44,000 L" }
+    ],
+    "answer": "d",
+    "hint": "Multiply by the mass and by the number of days.",
+    "explanation": "24,000 × 3 × 2 = **1,44,000 L**. Traps: 72,000 L forgets the 2 days, 48,000 L forgets the 3 kg, and 8,000 L divides instead of multiplying. Water flowing through a sponge's many pores brings food and oxygen to its cells and carries wastes away."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-035",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "History of classification",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Use the timeline. How many years passed between Linnaeus's **two kingdom** system and Whittaker's **five kingdom** system?",
+    "image": { "src": "/img/patterns/timeline.svg", "alt": "A timeline with years and the names of five scientists" },
+    "options": [
+      { "id": "a", "text": "103 years" },
+      { "id": "b", "text": "211 years" },
+      { "id": "c", "text": "221 years" },
+      { "id": "d", "text": "111 years" }
+    ],
+    "answer": "b",
+    "hint": "Subtract the earlier year from the later one.",
+    "explanation": "1969 − 1758 = **211 years**. 103 years is 1969 − 1866, which starts from Haeckel instead of Linnaeus; 221 and 111 are subtraction slips. Over those two centuries, better microscopes and new knowledge kept reshaping classification."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-036",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Fungi",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "A mushroom crop takes 30–45 days from start to harvest. If each crop on a farm takes the full **45 days**, how many **complete** crops can be grown in one year (365 days)?",
+    "image": { "src": "/img/patterns/mushroom.svg", "alt": "A mushroom releasing tiny spores" },
+    "options": [
+      { "id": "a", "text": "12" },
+      { "id": "b", "text": "9" },
+      { "id": "c", "text": "8" },
+      { "id": "d", "text": "45" }
+    ],
+    "answer": "c",
+    "hint": "Divide and keep only the whole number; a half-finished crop cannot be harvested.",
+    "explanation": "365 ÷ 45 ≈ 8.1, so **8** complete crops. Traps: 12 uses the shortest 30-day cycle, 9 rounds up and counts an unfinished crop, and 45 confuses days with crops. Mushroom farming needs little space and money and has a fast cycle, so it is becoming a good livelihood."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-037",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Biodiversity hotspots",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A region is called a **biodiversity hotspot** when it…",
+    "image": { "src": "/img/patterns/hotspot-hills.svg", "alt": "Misty forested hills with a waterfall" },
+    "options": [
+      { "id": "a", "text": "supports many endemic species and has lost much of its habitat" },
+      { "id": "b", "text": "has the hottest climate in a country" },
+      { "id": "c", "text": "has many species and has never lost any habitat" },
+      { "id": "d", "text": "has only species that are found all over the world" }
+    ],
+    "answer": "a",
+    "hint": "Two conditions together: richness of unique species, and danger.",
+    "explanation": "A **biodiversity hotspot** has a large number of **endemic species** and has undergone **significant habitat loss**. The Western Ghats, Indo-Burma, the Himalayas and Sundaland are examples. 'Hot' refers to conservation urgency, not temperature."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-038",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Monera",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which of these organisms belongs to Kingdom **Monera**?",
+    "options": [
+      { "id": "a", "text": "*Amoeba*", "image": { "src": "/img/patterns/amoeba.svg", "alt": "A single-celled organism changing shape" } },
+      { "id": "b", "text": "Yeast", "image": { "src": "/img/patterns/yeast.svg", "alt": "Oval cells, one forming a bud" } },
+      { "id": "c", "text": "Cyanobacteria", "image": { "src": "/img/patterns/cyanobacteria.svg", "alt": "A bead-like chain of tiny cells" } },
+      { "id": "d", "text": "*Spirogyra*", "image": { "src": "/img/patterns/spirogyra.svg", "alt": "Green threads with spiral ribbons" } }
+    ],
+    "answer": "c",
+    "hint": "Monera are prokaryotes: no membrane-bound nucleus.",
+    "explanation": "**Cyanobacteria** (blue-green algae) are prokaryotes, so they belong to **Monera** along with bacteria such as *Lactobacillus* and *Rhizobium*. *Amoeba* (Protista), yeast (Fungi) and *Spirogyra* (Plantae, Thallophyta) all have a true nucleus. Don't be fooled by the name 'algae': cyanobacteria are not plants."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-039",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Monera",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Bacteria break down cattle dung to produce biogas. Who is known as the **'Father of Modern Biogas'** in India?",
+    "image": { "src": "/img/patterns/biogas.svg", "alt": "Cow dung slurry in an underground tank producing gas that lights a stove" },
+    "options": [
+      { "id": "a", "text": "Birbal Sahni" },
+      { "id": "b", "text": "Ram Bux Singh" },
+      { "id": "c", "text": "Itty Achudan" },
+      { "id": "d", "text": "Carl Woese" }
+    ],
+    "answer": "b",
+    "hint": "He set up a biogas plant in Sitapur, Uttar Pradesh, in 1957.",
+    "explanation": "**Ram Bux Singh** set up India's first scientifically designed biogas plant at Ramnagar, Sitapur, in 1957 and developed low-cost plants for villages. Birbal Sahni studied fossil plants, Itty Achudan helped compile *Hortus Malabaricus*, and Carl Woese proposed the three domains."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-040",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Monera",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Layered rock mounds called **stromatolites**, found in Rajasthan and Madhya Pradesh, are among the earliest evidence of life. Which organisms formed them?",
+    "image": { "src": "/img/patterns/stromatolite.svg", "alt": "Layered rock mounds in shallow sunlit water" },
+    "options": [
+      { "id": "a", "text": "Ancient ferns" },
+      { "id": "b", "text": "Early fish" },
+      { "id": "c", "text": "Ancient mushrooms" },
+      { "id": "d", "text": "Ancient cyanobacteria" }
+    ],
+    "answer": "d",
+    "hint": "These organisms were among the first to release oxygen.",
+    "explanation": "Stromatolites are fossils of ancient **cyanobacteria**, among the first organisms to make oxygen by photosynthesis. About 2.5 billion years ago this oxygen built up in the atmosphere and made the Earth suitable for other life. Ferns, fish and mushrooms appeared much later."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-041",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Indian contributions",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "*Hortus Malabaricus*, one of the earliest scientific books on Indian plants, was compiled in the 17th century by Hendrik van Rheede with the help of which Indian herbalist and physician?",
+    "image": { "src": "/img/patterns/hortus.svg", "alt": "An old open book with a hand-drawn plant and notes" },
+    "options": [
+      { "id": "a", "text": "Itty Achudan" },
+      { "id": "b", "text": "Ram Bux Singh" },
+      { "id": "c", "text": "Birbal Sahni" },
+      { "id": "d", "text": "Robert H. Whittaker" }
+    ],
+    "answer": "a",
+    "hint": "He was a herbalist, botanist and physician from the Malabar region.",
+    "explanation": "**Itty Achudan** and other local experts helped van Rheede describe hundreds of plants and their medicinal uses in *Hortus Malabaricus*. It shows how traditional knowledge and science can work together. The other names belong to biogas, fossil and five-kingdom work."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-042",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Lichens",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Village elders see patches like these on tree bark as a sign of clean air. Which statement about them is correct?",
+    "image": { "src": "/img/patterns/lichen.svg", "alt": "Crusty grey-green and orange patches on tree bark" },
+    "options": [
+      { "id": "a", "text": "Each patch is a single fungus that makes its own food" },
+      { "id": "b", "text": "They are tiny moss plants with rhizoids" },
+      { "id": "c", "text": "They are an alga and a fungus living together, and their colour changes with air pollutants" },
+      { "id": "d", "text": "They are bacteria that grow only in polluted air" }
+    ],
+    "answer": "c",
+    "hint": "One partner photosynthesises and the other protects.",
+    "explanation": "These are **lichens**, a symbiotic partnership: the **alga** photosynthesises and provides food, and the **fungus** gives protection. Because their colour changes with air pollutants, they are natural **bioindicators** of air quality. Some, called *patthar ke phool*, are used as a spice or dye, but some are poisonous, so careful identification matters."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-043",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Pteridophyta",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Ferns and mosses both lack flowers and seeds. Which feature places ferns in a separate group, **Pteridophyta**?",
+    "image": { "src": "/img/patterns/fern.svg", "alt": "A fern plant with leaves, stem and roots" },
+    "options": [
+      { "id": "a", "text": "Ferns need water for reproduction" },
+      { "id": "b", "text": "Ferns have xylem and phloem and true roots, stems and leaves" },
+      { "id": "c", "text": "Ferns produce seeds on cones" },
+      { "id": "d", "text": "Ferns have a simple thallus body" }
+    ],
+    "answer": "b",
+    "hint": "Think about how water reaches the top of a tall plant.",
+    "explanation": "Ferns have **vascular tissue** (xylem for water, phloem for food) and true roots, stems and leaves; mosses have only rhizoids and no vascular tissue. Option A is true of both groups, so it cannot separate them. Cones belong to gymnosperms and a thallus to algae."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-044",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Protochordates",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "*Amphioxus* is a small sea animal with a flexible rod, the **notochord**, along its back, but no backbone. It is best described as a…",
+    "image": { "src": "/img/patterns/amphioxus.svg", "alt": "A small, slender, fish-like sea animal swimming" },
+    "options": [
+      { "id": "a", "text": "non-chordate (invertebrate)" },
+      { "id": "b", "text": "fish" },
+      { "id": "c", "text": "echinoderm" },
+      { "id": "d", "text": "protochordate" }
+    ],
+    "answer": "d",
+    "hint": "It has a notochord, so it is a chordate, but not a vertebrate.",
+    "explanation": "**Protochordates** such as *Amphioxus* have a notochord at least once in their life but no vertebral column. Having a notochord rules out non-chordates and echinoderms. Fish are vertebrates with a backbone. Protochordates help us understand how backboned animals arose from simpler forms."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-045",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Hierarchy of classification",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which group has **fewer members** but **more features in common**: class or genus?",
+    "image": { "src": "/img/patterns/tiger.svg", "alt": "A tiger's face" },
+    "options": [
+      { "id": "a", "text": "Genus" },
+      { "id": "b", "text": "Class" },
+      { "id": "c", "text": "Both have the same number of members" },
+      { "id": "d", "text": "Class, because it is closer to Kingdom" }
+    ],
+    "answer": "a",
+    "hint": "The lower you go in the hierarchy, the smaller and more alike the group.",
+    "explanation": "Going down from Kingdom to Species, groups get smaller and members share more features. For the tiger, class **Mammalia** includes all mammals, while the genus *Panthera* contains only a few roaring cats. So the **genus** has fewer members with more in common."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-046",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Echinodermata",
+    "difficulty": "hard", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which animal has a hard **internal** skeleton but **no notochord**?",
+    "options": [
+      { "id": "a", "text": "Crab", "image": { "src": "/img/patterns/crab.svg", "alt": "A crab" } },
+      { "id": "b", "text": "Snail", "image": { "src": "/img/patterns/snail.svg", "alt": "A snail" } },
+      { "id": "c", "text": "Starfish", "image": { "src": "/img/patterns/starfish.svg", "alt": "A starfish" } },
+      { "id": "d", "text": "Frog", "image": { "src": "/img/patterns/frog.svg", "alt": "A frog" } }
+    ],
+    "answer": "c",
+    "hint": "Echinoderm means 'spiny skin'.",
+    "explanation": "Starfish (**Echinodermata**) have an internal skeleton of **calcium carbonate** but no notochord. The crab (Arthropoda) has an **exoskeleton**, and the snail (Mollusca) a protective shell on the outside. The frog has an internal skeleton too, but it is a chordate with a backbone."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-047",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Naming new species",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "The purple frog, *Nasikabatrachus sahyadrensis*, was discovered in 2003. What does its species name *sahyadrensis* refer to?",
+    "image": { "src": "/img/patterns/purple-frog.svg", "alt": "A plump purple frog on wet soil in the rain" },
+    "options": [
+      { "id": "a", "text": "Its purple skin colour" },
+      { "id": "b", "text": "The Sahyadri hills where it was found" },
+      { "id": "c", "text": "The scientist who discovered it" },
+      { "id": "d", "text": "Its habit of living underground" }
+    ],
+    "answer": "b",
+    "hint": "Species names sometimes honour a place of discovery.",
+    "explanation": "*sahyadrensis* comes from the **Sahyadri hills**, the Western Ghats of Kerala where the frog lives. It stays underground for most of the year and comes out to breed in the monsoon. It belongs to an ancient family of frogs, and its discovery highlighted the need to protect the Western Ghats."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-048",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Biodiversity and disasters",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "In the 1999 super cyclone in Odisha (then Orissa), villages with more mangroves suffered less damage. What does this show?",
+    "image": { "src": "/img/patterns/mangrove.svg", "alt": "Storm waves hitting a belt of coastal trees in front of a village" },
+    "options": [
+      { "id": "a", "text": "Mangroves turn cyclones away while they are still at sea" },
+      { "id": "b", "text": "Fewer coastal trees always means a safer coast" },
+      { "id": "c", "text": "Mangroves protect villages only by producing oxygen" },
+      { "id": "d", "text": "Diverse forests act as natural barriers that reduce the impact of disasters" }
+    ],
+    "answer": "d",
+    "hint": "Look at what the trees do to the waves in the picture.",
+    "explanation": "Dense, diverse **mangrove** forests act as a physical barrier that weakens waves and wind before they reach villages. Their soils also trap sediments and heavy metals. In the Western Ghats, forest diversity even acts as a biological barrier against Kyasanur Forest Disease. Mangroves cannot steer cyclones, and removing them increases damage."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-049",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Biodiversity under threat",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "The **Sangai**, Manipur's 'dancing deer', lives on **phumdis**, the floating mats of soil and plants in Loktak Lake. What is the main threat to it today?",
+    "image": { "src": "/img/patterns/phumdi.svg", "alt": "A lake with floating grass mats and a deer standing on one" },
+    "options": [
+      { "id": "a", "text": "The phumdis are degenerating, so its habitat is being lost" },
+      { "id": "b", "text": "Too many new phumdis are forming in the lake" },
+      { "id": "c", "text": "Competition with lions in the park" },
+      { "id": "d", "text": "Its hooves cannot grip floating ground" }
+    ],
+    "answer": "a",
+    "hint": "The deer spends most of its time in one small, unique habitat.",
+    "explanation": "The Sangai is **endemic** to Manipur and depends on the phumdis of Keibul Lamjao National Park. It was declared extinct in 1951 and rediscovered in 1953. Today the phumdis are **degenerating**, and this **habitat loss** is the biggest threat, which is why the deer is on the IUCN Red List."
+  },
+  {
+    "id": "in-cbse-9-bio-patterns-050",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Three domain system",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "In 1977, Carl Woese used genetic data to group all life into **three domains**. Which one of these is a domain?",
+    "image": { "src": "/img/patterns/three-domains.svg", "alt": "A tree of life that splits into three branches, each ending in a different cell" },
+    "options": [
+      { "id": "a", "text": "Fungi" },
+      { "id": "b", "text": "Monera" },
+      { "id": "c", "text": "Archaea" },
+      { "id": "d", "text": "Protista" }
+    ],
+    "answer": "c",
+    "hint": "Two of the domains are made of prokaryotes, and one holds all eukaryotes.",
+    "explanation": "The three domains are **Bacteria**, **Archaea** and **Eukarya**. DNA comparisons showed that prokaryotes are far more diverse than once thought, so the old kingdom Monera was split into Bacteria and Archaea. Fungi and Protista are kingdoms that fall inside the domain Eukarya."
+  }
+]

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A laboratory culture dish with an egg cell and a dropper above it</title>
+<defs>
+<g id="sp"><ellipse rx="5" ry="3.5" fill="#CDE9FF" stroke="#2F6FA8" stroke-width="1.6"/><path d="M-5 0q-6-4-12 0t-12 0" fill="none" stroke="#2F6FA8" stroke-width="1.6" stroke-linecap="round"/></g>
+</defs>
+<style>
+.s1{animation:s1 4s ease-in-out infinite}
+@keyframes s1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,8px)}}
+.s2{animation:s2 4s ease-in-out infinite}
+@keyframes s2{0%,100%{transform:translate(0,0)}50%{transform:translate(-36px,-6px)}}
+.drop{animation:drop 3s ease-in infinite}
+@keyframes drop{0%,40%{transform:translateY(0);opacity:1}80%{transform:translateY(40px);opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="200" cy="190" rx="160" ry="50" fill="#D7ECFA" stroke="#4A90C8" stroke-width="3"/>
+<ellipse cx="200" cy="184" rx="146" ry="42" fill="#EAF6FF" stroke="#9CC6E8" stroke-width="2"/>
+<ellipse cx="200" cy="180" rx="34" ry="22" fill="#FDE3CF" stroke="#E0A08A" stroke-width="4"/>
+<ellipse cx="200" cy="180" rx="12" ry="8" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2"/>
+<g class="s1"><g transform="translate(110 186)"><use href="#sp"/></g></g>
+<g class="s1" style="animation-delay:-1s"><g transform="translate(120 164)"><use href="#sp"/></g></g>
+<g class="s2"><g transform="translate(300 178) scale(-1 1)"><use href="#sp"/></g></g>
+<g class="s2" style="animation-delay:-2s"><g transform="translate(290 200) scale(-1 1)"><use href="#sp"/></g></g>
+<path d="M260 20l-30 90" stroke="#9AA0B8" stroke-width="12" stroke-linecap="round"/>
+<path d="M260 20l-30 90" stroke="#F5F7FB" stroke-width="7" stroke-linecap="round"/>
+<path d="M268 0l-12 36" stroke="#E5484D" stroke-width="16" stroke-linecap="round"/>
+<circle class="drop" cx="228" cy="120" r="5" fill="#9CC6E8"/>
+</svg>

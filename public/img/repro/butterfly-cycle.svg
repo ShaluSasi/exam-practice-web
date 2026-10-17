@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>The life cycle of a butterfly</title>
+<style>
+.ar{stroke-dasharray:6 8;animation:run 1.6s linear infinite}
+@keyframes run{to{stroke-dashoffset:-28}}
+.flap{animation:flap 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes flap{50%{transform:scaleX(.7)}}
+.inch{animation:inch 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes inch{50%{transform:translateX(4px) scaleX(1.05)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g fill="none" stroke="#9AA0B8" stroke-width="3" stroke-linecap="round">
+<path class="ar" d="M236 62C280 70 306 98 316 120"/>
+<path class="ar" d="M318 182C306 210 276 236 238 244"/>
+<path class="ar" d="M162 246C124 238 96 212 84 186"/>
+<path class="ar" d="M82 116C94 90 124 68 164 60"/>
+</g>
+<g fill="#9AA0B8"><path d="M316 120l-10-4l12-6z"/><path d="M238 244l8-8l2 12z"/><path d="M84 186l10 4l-12 6z"/><path d="M164 60l-8 8l-2-12z"/></g>
+<path d="M164 62q36-34 76-6q-38 26-76 6z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2.5"/>
+<g fill="#FFF4C8" stroke="#C9A23B" stroke-width="2"><circle cx="190" cy="56" r="5"/><circle cx="202" cy="52" r="5"/><circle cx="212" cy="58" r="5"/><circle cx="200" cy="62" r="5"/></g>
+<g class="inch">
+<g fill="#8CCB5E" stroke="#4E8F2A" stroke-width="2"><circle cx="296" cy="154" r="9"/><circle cx="310" cy="150" r="10"/><circle cx="325" cy="148" r="10"/><circle cx="340" cy="150" r="10"/></g>
+<circle cx="354" cy="146" r="10" fill="#F6C453" stroke="#B8860B" stroke-width="2"/>
+<circle cx="357" cy="143" r="2" fill="#2B2F4A"/>
+</g>
+<path d="M200 214v12" stroke="#8B5E3C" stroke-width="3"/>
+<path d="M186 208h28" stroke="#8B5E3C" stroke-width="5" stroke-linecap="round"/>
+<path d="M200 226c16 0 18 20 14 32c-4 12-10 18-14 18s-10-6-14-18c-4-12-2-32 14-32z" fill="#B7D98C" stroke="#4E8F2A" stroke-width="2.5"/>
+<path d="M192 240q8 4 16 0M190 252q10 4 20 0M193 264q7 3 14 0" fill="none" stroke="#4E8F2A" stroke-width="1.5"/>
+<g class="flap">
+<path d="M78 150c-20-26-48-20-44 2c4 18 26 16 44 2z" fill="#F6A15A" stroke="#C0561E" stroke-width="2.5"/>
+<path d="M82 150c20-26 48-20 44 2c-4 18-26 16-44 2z" fill="#F6A15A" stroke="#C0561E" stroke-width="2.5"/>
+<path d="M78 154c-16 6-26 22-12 26c8 2 12-12 12-20z" fill="#F6C453" stroke="#C0561E" stroke-width="2"/>
+<path d="M82 154c16 6 26 22 12 26c-8 2-12-12-12-20z" fill="#F6C453" stroke="#C0561E" stroke-width="2"/>
+</g>
+<rect x="77" y="134" width="6" height="40" rx="3" fill="#2B2F4A"/>
+</svg>

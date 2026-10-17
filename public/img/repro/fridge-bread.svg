@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>One bread slice kept in a refrigerator and one left on a warm kitchen counter</title>
+<style>
+.m{animation:m 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.m2{animation-delay:-1.5s}.m3{animation-delay:-3s}
+@keyframes m{0%{transform:scale(.2)}60%,90%{transform:scale(1)}100%{transform:scale(.2)}}
+.sun{animation:spin 12s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="26" y="30" width="150" height="240" rx="14" fill="#E3F2FF" stroke="#4A90C8" stroke-width="3"/>
+<rect x="38" y="44" width="126" height="212" rx="8" fill="#F5FBFF" stroke="#9CC6E8" stroke-width="2"/>
+<path d="M38 170h126" stroke="#9CC6E8" stroke-width="3"/>
+<path d="M70 168v-34q0-14 16-14h30q16 0 16 14v34z" fill="#E8C48A" stroke="#B07A3C" stroke-width="3"/>
+<path d="M78 166v-28q0-10 12-10h22q12 0 12 10v28z" fill="#F6E2B8"/>
+<g stroke="#4A90C8" stroke-width="2" stroke-linecap="round"><path d="M100 70v24M88 76l24 12M112 76l-24 12"/></g>
+<text x="101" y="226" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle">5 °C</text>
+<rect x="210" y="210" width="170" height="16" rx="6" fill="#C9A27A" stroke="#8B5E3C" stroke-width="2"/>
+<ellipse cx="295" cy="206" rx="62" ry="8" fill="#FFFFFF" stroke="#9AA0B8" stroke-width="2"/>
+<path d="M258 202v-42q0-16 18-16h38q18 0 18 16v42z" fill="#E8C48A" stroke="#B07A3C" stroke-width="3"/>
+<path d="M266 200v-36q0-12 14-12h30q14 0 14 12v36z" fill="#F6E2B8"/>
+<g fill="#3F5F4A"><circle class="m" cx="282" cy="172" r="8"/><circle class="m m2" cx="306" cy="184" r="10"/><circle class="m m3" cx="300" cy="162" r="6"/></g>
+<g class="sun"><circle cx="340" cy="70" r="18" fill="#F6C453" stroke="#C99A1E" stroke-width="2.5"/><path d="M340 40v-8M340 108v-8M310 70h-8M378 70h-8M319 49l-6-6M367 97l-6-6M361 49l6-6M313 97l6-6" stroke="#E0A21B" stroke-width="3" stroke-linecap="round"/></g>
+<text x="295" y="252" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle">30 °C</text>
+</svg>

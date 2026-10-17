@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A wild mountain goat with curved horns on a grassy hilltop</title>
+<style>
+.c{animation:c 9s linear infinite}
+.hd{transform-box:view-box;transform-origin:84px 52px;animation:hd 4s ease-in-out infinite}
+@keyframes c{from{transform:translateX(30px)}to{transform:translateX(-50px)}}
+@keyframes hd{0%,100%{transform:rotate(0)}50%{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#E6F4FF"/>
+<g class="c" fill="#fff"><ellipse cx="80" cy="22" rx="12" ry="5"/><ellipse cx="88" cy="18" rx="7" ry="5"/></g>
+<path d="M6 84 Q40 72 70 80 Q96 86 114 76 V102 Q114 114 102 114 H18 Q6 114 6 102 Z" fill="#9FD27F"/>
+<g fill="#8C6A4A" stroke="#5C4128" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M36 70 L34 90 M46 72 L46 92 M72 72 L72 90 M80 70 L82 88" fill="none" stroke-width="5"/>
+<path d="M26 58 C26 48 38 44 52 44 H74 C82 44 86 50 86 58 C86 68 80 74 70 74 H38 C30 74 26 68 26 58 Z"/>
+<path d="M26 54 l-6 6" fill="none" stroke-width="3"/>
+</g>
+<path d="M42 50 H70" stroke="#C8AE88" stroke-width="7" stroke-linecap="round"/>
+<g class="hd">
+<path d="M80 40 C82 26 92 22 98 28 C92 26 88 32 86 40" fill="#7A6A58" stroke="#4C3E30" stroke-width="2" stroke-linejoin="round"/>
+<path d="M78 56 C76 46 82 38 90 38 C98 38 104 44 104 52 C104 58 100 62 94 62 C88 62 80 62 78 56 Z" fill="#8C6A4A" stroke="#5C4128" stroke-width="2.5"/>
+<circle cx="92" cy="47" r="2.2" fill="#2B2F4A"/><ellipse cx="102" cy="55" rx="2" ry="1.6" fill="#2B2F4A"/>
+<path d="M80 40 l-6 -2" stroke="#5C4128" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+</svg>

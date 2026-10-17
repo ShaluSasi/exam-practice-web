@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A lake with floating mats of grass and soil, and a deer standing on one of them</title>
+<style>
+.fb{animation:fb 3s ease-in-out infinite}.f2{animation-delay:-1s}.f3{animation-delay:-2s}
+.rp{transform-box:fill-box;transform-origin:center;animation:rp 3s ease-out infinite}
+@keyframes fb{0%,100%{transform:translateY(-2px)}50%{transform:translateY(2px)}}
+@keyframes rp{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.3);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="388" height="100" rx="12" fill="#E6F4FF"/>
+<path d="M6 96 Q80 50 160 84 Q230 46 310 80 Q360 60 394 76 V110 H6 Z" fill="#A9C79A"/>
+<rect x="6" y="100" width="388" height="94" rx="12" fill="#BFDFF5"/>
+<rect x="6" y="100" width="388" height="20" fill="#BFDFF5"/>
+<ellipse class="rp" cx="100" cy="170" rx="30" ry="5" fill="none" stroke="#4A90C8" stroke-width="2"/>
+<ellipse class="rp" cx="330" cy="176" rx="26" ry="5" fill="none" stroke="#4A90C8" stroke-width="2" style="animation-delay:-1.5s"/>
+<g class="fb f2"><ellipse cx="70" cy="128" rx="44" ry="10" fill="#8C7A4A" stroke="#5C4E2A" stroke-width="2.5"/><path d="M40 124 l-2 -10 M50 122 l0 -12 M60 121 l2 -10 M80 121 l-1 -11 M92 122 l2 -10 M100 124 l3 -8" stroke="#5DAE3E" stroke-width="2.5" stroke-linecap="round"/></g>
+<g class="fb f3"><ellipse cx="330" cy="138" rx="50" ry="11" fill="#8C7A4A" stroke="#5C4E2A" stroke-width="2.5"/><path d="M294 134 l-2 -10 M306 132 l0 -12 M318 131 l2 -10 M342 131 l-1 -11 M356 132 l2 -10 M366 134 l3 -8" stroke="#5DAE3E" stroke-width="2.5" stroke-linecap="round"/></g>
+<g class="fb">
+<ellipse cx="200" cy="160" rx="80" ry="15" fill="#8C7A4A" stroke="#5C4E2A" stroke-width="2.5"/>
+<ellipse cx="200" cy="156" rx="74" ry="9" fill="#7CBF55"/>
+<path d="M136 156 l-2 -12 M146 154 l1 -14 M256 154 l2 -12 M266 156 l3 -10" stroke="#4E8F2A" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="#B5835A" stroke="#6E4520" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M182 132 L180 154 M190 134 L192 154 M218 134 L216 154 M226 132 L228 154" fill="none" stroke-width="4"/>
+<path d="M174 120 C174 110 186 106 200 106 C214 106 230 108 232 118 C234 128 226 136 214 136 H188 C178 136 174 130 174 120 Z"/>
+<path d="M226 112 L236 92 C238 86 246 84 250 88 L256 94 L250 98 L244 98 L236 116 Z"/>
+</g>
+<path d="M186 118 Q200 112 214 118" fill="none" stroke="#D9AE84" stroke-width="3" stroke-linecap="round"/>
+<path d="M174 116 l-6 6" stroke="#6E4520" stroke-width="3" stroke-linecap="round"/>
+<g fill="none" stroke="#6E4520" stroke-width="2.5" stroke-linecap="round"><path d="M244 86 C240 74 230 68 220 72 M232 70 l-2 -6 M226 71 l-4 -4"/><path d="M246 86 C248 74 256 66 264 68 M256 68 l0 -6"/></g>
+<circle cx="246" cy="91" r="1.8" fill="#2B2F4A"/>
+</g>
+</svg>

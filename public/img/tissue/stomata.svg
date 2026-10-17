@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>Close-up of a leaf surface with pores opening and closing</title>
+<style>
+.gl{animation:gl 4s ease-in-out infinite}.gr{animation:gr 4s ease-in-out infinite}
+@keyframes gl{0%,100%{transform:translateX(0)}50%{transform:translateX(-4px)}}
+@keyframes gr{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+.po{transform-box:fill-box;transform-origin:center;animation:po 4s ease-in-out infinite}
+@keyframes po{0%,100%{transform:scaleX(.25)}50%{transform:scaleX(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><pattern id="ep" width="56" height="40" patternUnits="userSpaceOnUse"><rect width="56" height="40" fill="#F7FCEF"/><path d="M0 20Q14 14 28 20T56 20M14 0Q8 10 14 20M42 20Q48 30 42 40" fill="none" stroke="#A9CF8A" stroke-width="2"/></pattern></defs>
+<rect x="10" y="10" width="280" height="180" rx="12" fill="url(#ep)" stroke="#4E8F2A" stroke-width="2.5"/>
+<ellipse cx="96" cy="96" rx="26" ry="34" fill="#EEF8E0" stroke="#A9CF8A" stroke-width="2"/>
+<ellipse class="po" cx="96" cy="96" rx="6" ry="20" fill="#3B4A3A"/>
+<g class="gl"><path d="M94 72C70 74 70 118 94 120C86 106 86 86 94 72Z" fill="#7FCB52" stroke="#3E7A22" stroke-width="2.5"/><circle cx="84" cy="88" r="2.5" fill="#3E7A22"/><circle cx="83" cy="102" r="2.5" fill="#3E7A22"/></g>
+<g class="gr"><path d="M98 72C122 74 122 118 98 120C106 106 106 86 98 72Z" fill="#7FCB52" stroke="#3E7A22" stroke-width="2.5"/><circle cx="108" cy="88" r="2.5" fill="#3E7A22"/><circle cx="109" cy="102" r="2.5" fill="#3E7A22"/></g><ellipse cx="206" cy="112" rx="26" ry="34" fill="#EEF8E0" stroke="#A9CF8A" stroke-width="2"/>
+<ellipse class="po" cx="206" cy="112" rx="6" ry="20" fill="#3B4A3A"/>
+<g class="gl"><path d="M204 88C180 90 180 134 204 136C196 122 196 102 204 88Z" fill="#7FCB52" stroke="#3E7A22" stroke-width="2.5"/><circle cx="194" cy="104" r="2.5" fill="#3E7A22"/><circle cx="193" cy="118" r="2.5" fill="#3E7A22"/></g>
+<g class="gr"><path d="M208 88C232 90 232 134 208 136C216 122 216 102 208 88Z" fill="#7FCB52" stroke="#3E7A22" stroke-width="2.5"/><circle cx="218" cy="104" r="2.5" fill="#3E7A22"/><circle cx="219" cy="118" r="2.5" fill="#3E7A22"/></g>
+</svg>

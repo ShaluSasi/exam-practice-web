@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A shrub covered with clusters of blue-violet flowers on a hill slope</title>
+<defs><g id="cl"><circle cx="0" cy="0" r="5" fill="#8A8FEA" stroke="#4F52B8" stroke-width="1.5"/><circle cx="7" cy="3" r="4.5" fill="#7C83E8" stroke="#4F52B8" stroke-width="1.5"/><circle cx="-6" cy="4" r="4.5" fill="#9AA0F0" stroke="#4F52B8" stroke-width="1.5"/><circle cx="1" cy="8" r="4.5" fill="#7C83E8" stroke="#4F52B8" stroke-width="1.5"/></g></defs>
+<style>
+.sw{transform-box:view-box;transform-origin:60px 104px;animation:sw 4s ease-in-out infinite}
+.bee{animation:bee 4s ease-in-out infinite}
+@keyframes sw{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+@keyframes bee{0%,100%{transform:translate(0,0)}50%{transform:translate(-14px,8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#E6F4FF"/>
+<path d="M6 60 Q30 44 60 52 Q90 60 114 46 V102 Q114 114 102 114 H18 Q6 114 6 102 Z" fill="#B8C4F2"/>
+<path d="M6 84 Q40 72 70 82 Q96 88 114 80 V102 Q114 114 102 114 H18 Q6 114 6 102 Z" fill="#9FD27F"/>
+<g class="sw">
+<path d="M60 106 V70 M60 90 L40 66 M60 84 L82 60 M60 76 L56 50 M48 76 L30 74 M72 74 L92 78" fill="none" stroke="#5C7A3A" stroke-width="3" stroke-linecap="round"/>
+<g fill="#6CC04A" stroke="#3F8A2A" stroke-width="1.5"><ellipse cx="44" cy="84" rx="7" ry="3.5" transform="rotate(-30 44 84)"/><ellipse cx="76" cy="84" rx="7" ry="3.5" transform="rotate(30 76 84)"/><ellipse cx="66" cy="70" rx="6" ry="3" transform="rotate(30 66 70)"/></g>
+<use href="#cl" x="40" y="62"/><use href="#cl" x="82" y="56"/><use href="#cl" x="56" y="46"/><use href="#cl" x="28" y="70"/><use href="#cl" x="92" y="74"/>
+</g>
+<g class="bee"><ellipse cx="96" cy="34" rx="4.5" ry="3.2" fill="#F5C842" stroke="#2B2F4A" stroke-width="1.4"/><path d="M95 31 v6 M98 31 v6" stroke="#2B2F4A" stroke-width="1.2"/><ellipse cx="95" cy="29" rx="3" ry="2" fill="#fff" stroke="#4A90C8" stroke-width="1"/></g>
+</svg>

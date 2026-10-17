@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img">
+<title>A young sapling with its shoot above the soil and roots below</title>
+<style>
+.sr{transform-box:fill-box;transform-origin:left center;animation:sr 4s ease-in-out infinite alternate}
+.sl{transform-box:fill-box;transform-origin:right center;animation:sl 4s ease-in-out infinite alternate}
+@keyframes sr{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+@keyframes sl{from{transform:rotate(5deg)}to{transform:rotate(-5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 232H300V384Q300 400 284 400H16Q0 400 0 384Z" fill="#E9D3AE"/>
+<path d="M0 232H300" stroke="#B48A55" stroke-width="3"/>
+<g fill="#D6BB8C"><circle cx="40" cy="270" r="4"/><circle cx="250" cy="300" r="5"/><circle cx="70" cy="350" r="3.5"/><circle cx="230" cy="370" r="4"/><circle cx="270" cy="250" r="3"/></g>
+<g fill="none" stroke-linecap="round">
+<path d="M150 236C150 270 151 320 150 366" stroke="#B08A4E" stroke-width="8"/>
+<path d="M150 236C150 270 151 320 150 366" stroke="#E2C89A" stroke-width="4.5"/>
+<path d="M150 262C135 268 118 276 104 292M150 280C168 288 186 296 206 314M150 300C140 306 128 312 120 324" stroke="#B08A4E" stroke-width="4"/>
+<path d="M148 306l-11 -3M152 306l11 -3M147.5 311l-11 -3M152 311l11 -3M148 316l-11 -3M152 316l11 -3M147.5 321l-11 -3M152 321l11 -3M148 326l-11 -3M152 326l11 -3M147.5 331l-8 -3M152 331l8 -3M148 336l-8 -3M152 336l8 -3M147.5 341l-8 -3M152 341l8 -3M148 346l-8 -3M152 346l8 -3" stroke="#C8A877" stroke-width="1.6"/>
+</g>
+<path d="M144 364Q150 380 156 364Z" fill="#C9A26B" stroke="#8C6A3A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M150 234V52" stroke="#3E7A22" stroke-width="10" stroke-linecap="round"/>
+<path d="M150 234V52" stroke="#5FAE3A" stroke-width="6" stroke-linecap="round"/>
+<path class="sl" d="M146 175C126 160 92 158 70 172C92 190 126 190 146 175Z" fill="#6CC04A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="sr" d="M154 175C176 186 206 190 230 178C210 160 176 160 154 175Z" fill="#6CC04A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="sl" d="M146 115C130 96 100 88 80 96C96 116 124 124 146 115Z" fill="#6CC04A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="sr" d="M154 115C172 122 204 118 222 98C200 88 170 94 154 115Z" fill="#6CC04A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="none" stroke="#3E7A22" stroke-width="1.5" stroke-linecap="round" opacity=".7"><path d="M140 175H84M160 176H218M140 113L94 98M160 113L208 100"/></g>
+<ellipse cx="150" cy="175" rx="9" ry="5" fill="#3E7A22"/>
+<ellipse cx="150" cy="115" rx="9" ry="5" fill="#3E7A22"/>
+<path d="M150 58C140 50 140 38 150 26C160 38 160 50 150 58Z" fill="#9BDB6A" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M150 60C138 58 130 50 128 40C140 40 148 48 150 60ZM150 60C162 58 170 50 172 40C160 40 152 48 150 60Z" fill="#7FCB52" stroke="#3E7A22" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

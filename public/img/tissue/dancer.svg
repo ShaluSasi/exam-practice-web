@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>A dancer moving one arm</title>
+<style>
+.arm{transform-box:view-box;transform-origin:170px 106px;animation:arm 3s linear infinite}
+@keyframes arm{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="170" cy="106" r="54" fill="none" stroke="#E6C9A0" stroke-width="2.5" stroke-dasharray="6 6"/>
+<path d="M140 210L132 246M160 210L168 246" stroke="#F2C1A0" stroke-width="10" stroke-linecap="round"/>
+<g fill="#C9962A"><ellipse cx="128" cy="248" rx="10" ry="5"/><ellipse cx="172" cy="248" rx="10" ry="5"/></g>
+<path d="M130 102L104 140L120 150" fill="none" stroke="#F2C1A0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M128 96H172L178 150H122Z" fill="#E57373" stroke="#B94A4A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M122 148H178L206 214H94Z" fill="#F6C453" stroke="#C9962A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M122 182L114 212M138 152L132 214M150 152V214M162 152L168 214M178 182L186 212" stroke="#E0A93A" stroke-width="2"/>
+<g class="arm"><path d="M170 106H216" stroke="#F2C1A0" stroke-width="10" stroke-linecap="round"/><circle cx="222" cy="106" r="7" fill="#F2C1A0" stroke="#D9967A" stroke-width="2"/></g>
+<circle cx="170" cy="106" r="6" fill="#E57373" stroke="#B94A4A" stroke-width="2"/>
+<rect x="143" y="80" width="14" height="16" fill="#F2C1A0"/>
+<circle cx="150" cy="62" r="22" fill="#F2C1A0" stroke="#D9967A" stroke-width="2.5"/>
+<path d="M128 58C128 40 172 40 172 58C166 48 134 48 128 58Z" fill="#3B2A20"/><circle cx="174" cy="52" r="9" fill="#3B2A20"/>
+<g fill="#2B2F4A"><circle cx="143" cy="64" r="2.5"/><circle cx="157" cy="64" r="2.5"/></g>
+<circle cx="150" cy="56" r="2.5" fill="#E5484D"/>
+<path d="M144 72Q150 77 156 72" fill="none" stroke="#B94A4A" stroke-width="2" stroke-linecap="round"/>
+</svg>

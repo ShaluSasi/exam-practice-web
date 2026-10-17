@@ -1,0 +1,940 @@
+[
+  {
+    "id": "in-cbse-9-bio-repro-001",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Vegetative propagation",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "This thick leaf is lying on moist soil, and tiny new plants keep sprouting from the notches along its edge. What kind of reproduction is this?",
+    "image": { "src": "/img/repro/bryophyllum.svg", "alt": "Animation of tiny plantlets appearing along the notches of a thick leaf on soil" },
+    "options": [
+      { "id": "a", "text": "Spore formation" },
+      { "id": "b", "text": "Vegetative propagation" },
+      { "id": "c", "text": "Pollination" },
+      { "id": "d", "text": "External fertilisation" }
+    ],
+    "answer": "b",
+    "hint": "No flowers or seeds are involved: the new plants grow straight out of a leaf.",
+    "explanation": "A *Bryophyllum* leaf sprouts plantlets from its notches. When new plants grow from vegetative parts such as leaves, stems or roots, it is called **vegetative propagation**. Only one parent is involved, so the new plants are genetically identical to it. Spores are made by fungi, while pollination and fertilisation belong to sexual reproduction."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-002",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Vegetative propagation",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Gardeners and farmers grow many new plants from a single parent plant. Match each method with what is done.",
+    "left": [
+      { "id": "cutting", "text": "Cutting", "image": { "src": "/img/repro/cutting.svg", "alt": "Animation of a stem piece planted at a slant in soil" } },
+      { "id": "grafting", "text": "Grafting", "image": { "src": "/img/repro/grafting.svg", "alt": "Animation of a rose shoot joined onto a rooted rose plant" } },
+      { "id": "layering", "text": "Layering", "image": { "src": "/img/repro/layering.svg", "alt": "Animation of a shrub with one branch bent down into the soil" } },
+      { "id": "tc", "text": "Tissue culture", "image": { "src": "/img/cell/tissue-culture.svg", "alt": "Animation of a single plant cell becoming a small plantlet" } }
+    ],
+    "right": [
+      { "id": "r-graft", "text": "A stem piece of one plant is fitted into a slit on a rooted plant and wrapped until it heals" },
+      { "id": "r-tc", "text": "Cells from a shoot tip are grown on nutrients in a laboratory into many plantlets" },
+      { "id": "r-cut", "text": "A shoot piece with nodes is pushed about half its length into soil at a slant and grows roots" },
+      { "id": "r-spore", "text": "Tiny spores land on moist food and germinate" },
+      { "id": "r-layer", "text": "A flexible twig is bent and its middle buried in soil; once it roots, it is cut from the parent" }
+    ],
+    "pairs": { "cutting": "r-cut", "grafting": "r-graft", "layering": "r-layer", "tc": "r-tc" },
+    "hint": "In layering the twig stays attached to the parent until its own roots form.",
+    "explanation": "In a **cutting**, a piece of shoot is planted in soil (at about 45–60°) and grows roots. In **grafting**, the stem of one variety is joined onto a rooted plant of another. In **layering**, the buried part of a twig, still attached to the parent, forms roots in 10–15 days and is then cut free. **Tissue culture** grows many plantlets from shoot-tip cells. Spore formation is how fungi reproduce, not a gardening method."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-003",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Grafting",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "You want a yellow rose to grow on the strong roots of a wild rose. Arrange the grafting steps in order.",
+    "image": { "src": "/img/repro/grafting.svg", "alt": "Animation of a rose shoot joined onto a rooted rose plant, with new leaves and a flower" },
+    "items": [
+      { "id": "insert", "text": "Fit the stem piece of plant B into the slit" },
+      { "id": "choose", "text": "Choose a healthy rooted plant A and a healthy stem piece from plant B" },
+      { "id": "water", "text": "Water regularly and watch plant B grow along with plant A" },
+      { "id": "slit", "text": "Make a slit on a twig of plant A" },
+      { "id": "wrap", "text": "Wrap the joint with cotton cloth or film to keep pests out until it heals" }
+    ],
+    "answer": ["choose", "slit", "insert", "wrap", "water"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot insert the stem piece until there is somewhere to put it.",
+    "explanation": "Choose a rooted **stock** (plant A, the wild rose) and a stem piece (plant B, the yellow rose). Cut a **slit** in plant A, **fit** plant B into it, and **wrap** the joint so pests cannot enter while it heals. With regular watering, plant B grows on the roots of plant A. Krishi Vigyan Kendras train farmers in such modern grafting skills."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-004",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Layering",
+    "difficulty": "easy", "marks": 1,
+    "type": "order",
+    "prompt": "Arrange the steps for growing a new lemon plant by **layering**.",
+    "image": { "src": "/img/repro/layering.svg", "alt": "Animation of a shrub with one branch bent down into the soil while roots appear" },
+    "items": [
+      { "id": "cut", "text": "Cut the rooted twig from the parent so it grows as a new plant" },
+      { "id": "bury", "text": "Bury the middle part of the twig under the soil" },
+      { "id": "select", "text": "Select a flexible, thin twig of the lemon plant" },
+      { "id": "roots", "text": "Water regularly; roots form on the buried part in 10–15 days" }
+    ],
+    "answer": ["select", "bury", "roots", "cut"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The twig is separated from the parent only at the very end.",
+    "explanation": "In **layering**, a flexible twig is bent and its middle part buried in soil while it is still attached to the parent. The parent keeps feeding it as the buried part forms **roots** in about 10–15 days. Only then is the twig cut free to grow as an independent plant."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-005",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Tissue culture",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Banana farmers are now supplied with plantlets mass-produced in laboratories from the **shoot tips** of good plants. What is the main advantage?",
+    "image": { "src": "/img/repro/banana-tc.svg", "alt": "Animation of tiny plantlets growing in glass jars next to a banana plant in a field" },
+    "options": [
+      { "id": "a", "text": "Each plantlet is a new variety with a mix of characters" },
+      { "id": "b", "text": "The plantlets need no water or soil after planting" },
+      { "id": "c", "text": "They are healthy, virus-free copies of a good plant, giving high yields" },
+      { "id": "d", "text": "The plantlets are produced by pollination inside the jars" }
+    ],
+    "answer": "c",
+    "hint": "Tissue culture is a type of asexual reproduction.",
+    "explanation": "**Tissue culture** grows huge numbers of plantlets from the shoot tip (apical meristem). It is asexual, so every plantlet is a genetically identical copy of the parent, and starting from healthy tissue helps remove **virus-infected** plants and ensures high yields. There is no pollination and no mixing of characters, and the plantlets still need water and soil."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-006",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Budding in yeast",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A drop of yeast kept in warm sugar solution for an hour is observed under a microscope. What is happening in the animation?",
+    "image": { "src": "/img/repro/yeast-budding.svg", "alt": "Animation of a yeast cell under a microscope with a small round outgrowth getting bigger" },
+    "options": [
+      { "id": "a", "text": "The cell is bursting to release spores" },
+      { "id": "b", "text": "Two yeast cells are fusing to form a zygote" },
+      { "id": "c", "text": "The cell is shrinking because it is dying" },
+      { "id": "d", "text": "A small outgrowth (bud) forms and grows, so the yeast is reproducing asexually" }
+    ],
+    "answer": "d",
+    "hint": "Look at the small round structure growing out of the parent cell.",
+    "explanation": "Active yeast reproduces by **budding**: a small outgrowth forms on the parent cell, grows, and can itself form a bud. It is **asexual reproduction**, so the new cells are copies of the parent. No gametes fuse and no spores are released."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-007",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Budding in hydra",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Repeated cell division at one spot on this hydra has made an outgrowth on its side. What happens to it next?",
+    "image": { "src": "/img/repro/hydra-budding.svg", "alt": "Animation of a hydra under water with an outgrowth growing on its side" },
+    "options": [
+      { "id": "a", "text": "It grows into a small hydra, separates and lives on its own" },
+      { "id": "b", "text": "It opens into a flower and makes seeds" },
+      { "id": "c", "text": "It releases sperm and eggs into the water" },
+      { "id": "d", "text": "It stays attached for ever as an extra tentacle" }
+    ],
+    "answer": "a",
+    "hint": "Hydra reproduces in the same way as yeast.",
+    "explanation": "The outgrowth is a **bud**. It enlarges, develops its own tentacles, separates from the parent and lives independently. This is **budding**, a form of asexual reproduction. A hydra can carry several buds at the same time."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-008",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Spore formation",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which of these organisms reproduces by **spore formation**?",
+    "options": [
+      { "id": "a", "text": "Image P", "image": { "src": "/img/repro/bryophyllum.svg", "alt": "A thick leaf with tiny plantlets along its edge" } },
+      { "id": "b", "text": "Image Q", "image": { "src": "/img/repro/rhizopus.svg", "alt": "Thread-like growth with round dark sacs on bread" } },
+      { "id": "c", "text": "Image R", "image": { "src": "/img/repro/hydra-budding.svg", "alt": "A hydra with an outgrowth on its side" } },
+      { "id": "d", "text": "Image S", "image": { "src": "/img/repro/yeast-budding.svg", "alt": "A yeast cell with a small outgrowth" } }
+    ],
+    "answer": "b",
+    "hint": "Spores are formed inside round sacs at the tips of threads.",
+    "explanation": "Image Q is **bread mould** (*Rhizopus*). Its thread-like hyphae carry round sacs full of tiny, light **spores** that drift in the air. P shows vegetative propagation in *Bryophyllum*, and R (hydra) and S (yeast) show **budding**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-009",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Spore formation",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Mould has grown on a moist slice of bread. Tap the **sac** in which its spores are formed.",
+    "image": { "src": "/img/repro/rhizopus.svg", "alt": "Bread mould on bread with numbered markers" },
+    "spots": [
+      { "id": "hyphae", "x": 15, "y": 76.67, "label": "Hyphae spreading over the bread" },
+      { "id": "stalk", "x": 50, "y": 53.33, "label": "Upright hypha" },
+      { "id": "sac", "x": 30, "y": 33.33, "label": "Sporangium (spore sac)" },
+      { "id": "spores", "x": 87, "y": 20, "label": "Released spores" },
+      { "id": "bread", "x": 82.5, "y": 88.33, "label": "Bread" }
+    ],
+    "answer": "sac",
+    "hint": "Look at the round, dark structures at the tips of the upright threads.",
+    "explanation": "In *Rhizopus*, spores form inside a round **sporangium** at the tip of an upright hypha. When it bursts, millions of light, single-celled **spores** float away on air currents. Where they find warmth, moisture and food, they germinate into new mould."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-010",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Uses of fungi",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Mould on bread looks unpleasant, but fungi are very useful. Which of these are **benefits of fungi** to society?",
+    "image": { "src": "/img/repro/fungi-dish.svg", "alt": "A petri dish with a fungus colony growing among bacteria" },
+    "options": [
+      { "id": "a", "text": "Making food for us by photosynthesis" },
+      { "id": "b", "text": "Breaking down organic wastes and pollutants" },
+      { "id": "c", "text": "Keeping bread fresh for longer" },
+      { "id": "d", "text": "Removing heavy metals from industrial wastes" },
+      { "id": "e", "text": "Providing antibiotics such as penicillin" }
+    ],
+    "answers": ["b", "d", "e"],
+    "hint": "Fungi have no chlorophyll, and moulds spoil bread rather than protect it.",
+    "explanation": "Fungi grow fast and **degrade organic wastes and pollutants**, help **remove heavy metals** from industrial wastes, and give us **antibiotics** such as penicillin that have saved countless lives. Fungi cannot photosynthesise, and moulds spoil bread rather than keep it fresh."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-011",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Refrigeration and spoilage",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/repro/fridge-bread.svg", "alt": "Animation of one bread slice in a refrigerator at 5 °C and one on a warm kitchen counter at 30 °C" },
+    "assertion": "Bread kept in a refrigerator stays free of mould for longer than bread left on a warm kitchen counter.",
+    "reason": "There are no mould spores in the cold air inside a refrigerator.",
+    "answer": "c",
+    "hint": "Where did the mould on your bread come from in the first place?",
+    "explanation": "A is true, but R is false. Mould spores are present in the air almost everywhere, including inside a fridge. Spores need **warmth (about 25–35 °C) and moisture** to grow; **low temperature slows or stops their reproduction**. That is why refrigeration keeps perishable food from spoiling."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-012",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Mitosis and clones",
+    "difficulty": "easy", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/cell/mitosis.svg", "alt": "Animation of one cell dividing into two identical cells" },
+    "assertion": "Offspring formed by asexual reproduction are genetically identical to their parent.",
+    "reason": "Asexual reproduction depends on mitosis, which gives daughter cells with the same chromosomes as the parent cell.",
+    "answer": "a",
+    "hint": "How many chromosomes does each daughter cell get in mitosis?",
+    "explanation": "Both are true and R explains A. **Mitosis** makes two daughter cells, each with the same number of chromosomes, identical to the parent cell. So offspring from budding, spores or vegetative propagation are copies of the parent, called **clones**. This is fast and helps a population grow quickly when conditions are good."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-013",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Meiosis and variation",
+    "difficulty": "medium", "marks": 2,
+    "type": "mcq",
+    "prompt": "In the bead activity, **3 pairs** of beads give 8 different combinations when you pick one bead from each pair. How many combinations are possible with the **4 pairs** shown?",
+    "image": { "src": "/img/repro/beads.svg", "alt": "Animation of four pairs of beads, each with a light and a dark bead, with one bead from each pair dropping into a tray" },
+    "options": [
+      { "id": "a", "text": "8" },
+      { "id": "b", "text": "12" },
+      { "id": "c", "text": "32" },
+      { "id": "d", "text": "16" }
+    ],
+    "answer": "d",
+    "hint": "Each pair gives 2 choices. Multiply the choices together.",
+    "explanation": "Each pair offers 2 choices, so 3 pairs give 2 × 2 × 2 = 8 and 4 pairs give 2 × 2 × 2 × 2 = 2⁴ = **16**. 8 comes from 4 × 2 (or stopping at 3 pairs), 12 from 3 × 4, and 32 from multiplying by 2 once too often. With 23 chromosome pairs, there are 2²³, about 84 lakh, combinations. This random sorting in **meiosis** is why children differ from their parents and siblings."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-014",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Parts of a flower",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the part of the flower that **produces pollen grains**.",
+    "image": { "src": "/img/repro/flower-ls.svg", "alt": "A flower cut lengthwise with numbered markers" },
+    "spots": [
+      { "id": "sepal", "x": 35.25, "y": 74.67, "label": "Sepal" },
+      { "id": "petal", "x": 28, "y": 57.33, "label": "Petal" },
+      { "id": "anther", "x": 39.5, "y": 34.67, "label": "Anther" },
+      { "id": "stigma", "x": 50, "y": 27.33, "label": "Stigma" },
+      { "id": "ovary", "x": 50, "y": 72, "label": "Ovary" }
+    ],
+    "answer": "anther",
+    "hint": "It sits on top of a thin stalk called the filament.",
+    "explanation": "The **stamen** is the male part of the flower. It has a thin **filament** topped by an **anther**, which produces pollen grains containing the male gametes. The stigma receives pollen, and the ovary holds the ovules."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-015",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Parts of a flower",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the part on which pollen grains must land for **pollination** to happen.",
+    "image": { "src": "/img/repro/flower-ls.svg", "alt": "A flower cut lengthwise with numbered markers" },
+    "spots": [
+      { "id": "anther", "x": 39.5, "y": 34.67, "label": "Anther" },
+      { "id": "style", "x": 50, "y": 42.67, "label": "Style" },
+      { "id": "stigma", "x": 50, "y": 27.33, "label": "Stigma" },
+      { "id": "ovary", "x": 50, "y": 72, "label": "Ovary" },
+      { "id": "petal", "x": 28, "y": 57.33, "label": "Petal" }
+    ],
+    "answer": "stigma",
+    "hint": "It is the tip of the female part and is often sticky.",
+    "explanation": "The **pistil** has three parts: the **stigma** at the tip, the long **style**, and the **ovary** at the base. The stigma may be flat or sticky so that it can hold pollen. Pollination is the transfer of pollen from an anther to a stigma."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-016",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Parts of a flower",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the green, outermost part that covered and protected this flower when it was a **bud**.",
+    "image": { "src": "/img/repro/flower-ls.svg", "alt": "A flower cut lengthwise with numbered markers" },
+    "spots": [
+      { "id": "petal", "x": 28, "y": 57.33, "label": "Petal" },
+      { "id": "filament", "x": 41.25, "y": 56, "label": "Filament" },
+      { "id": "sepal", "x": 35.25, "y": 74.67, "label": "Sepal" },
+      { "id": "ovary", "x": 50, "y": 72, "label": "Ovary" }
+    ],
+    "answer": "sepal",
+    "hint": "It is green and forms the outermost whorl of the flower.",
+    "explanation": "**Sepals** are the thin, flat, green outermost whorl. In a bud they cover all the other parts and protect them. The coloured **petals** inside attract pollinators. A complete flower has four parts: sepals, petals, stamens and pistil."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-017",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Fruit formation",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "After fertilisation, which part of this flower swells and develops into the **fruit**?",
+    "image": { "src": "/img/repro/flower-ls.svg", "alt": "A flower cut lengthwise with numbered markers" },
+    "spots": [
+      { "id": "ovule", "x": 52.5, "y": 61.33, "label": "Ovule" },
+      { "id": "style", "x": 50, "y": 42.67, "label": "Style" },
+      { "id": "ovary", "x": 50, "y": 72, "label": "Ovary" },
+      { "id": "anther", "x": 39.5, "y": 34.67, "label": "Anther" },
+      { "id": "sepal", "x": 35.25, "y": 74.67, "label": "Sepal" }
+    ],
+    "answer": "ovary",
+    "hint": "The fruit holds the seeds. Which part holds the ovules?",
+    "explanation": "The **ovary** is the swollen base of the pistil. After fertilisation it enlarges into the **fruit**, while the **ovules** inside it develop into **seeds**. So the ovule is a tempting distractor: it becomes a seed, not the fruit."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-018",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pea pollination experiment",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "Five pea flowers or buds are treated as shown. Muslin bags keep outside pollen away. In which treatment will **no pod (fruit)** form?",
+    "image": { "src": "/img/repro/pea-bags.svg", "alt": "Five numbered pea flowers or buds; the first four are covered with muslin bags and two are marked as having their stamens removed" },
+    "options": [
+      { "id": "a", "text": "1: Bud covered with a muslin bag" },
+      { "id": "b", "text": "2: Bud with stamens removed, covered with a bag" },
+      { "id": "c", "text": "3: Open flower with stamens removed, covered with a bag" },
+      { "id": "d", "text": "5: Open flower left uncovered" }
+    ],
+    "answer": "b",
+    "hint": "In which case could pollen never have reached the stigma?",
+    "explanation": "In treatment 2 the stamens were removed **before** any pollen was released, and the bag stopped pollen from outside, so no pollination took place and no fruit formed. In the bagged bud with stamens (1), the flower's own pollen reached its stigma. In the open flower (3), pollination had already happened before the stamens were removed. So **pollination is necessary for fruit formation**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-019",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Self- and cross-pollination",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Which animation shows **self-pollination**?",
+    "options": [
+      { "id": "a", "text": "Animation P", "image": { "src": "/img/repro/pollination-self.svg", "alt": "Animation of a pollen grain moving from an anther to the stigma of the same flower" } },
+      { "id": "b", "text": "Animation Q", "image": { "src": "/img/repro/pollination-cross.svg", "alt": "Animation of a pollen grain moving from a flower on one plant to a flower on another plant" } },
+      { "id": "c", "text": "Animation R", "image": { "src": "/img/repro/pistil-tube.svg", "alt": "Animation of a tube growing down from a pollen grain on a stigma" } }
+    ],
+    "answer": "a",
+    "hint": "Self means the pollen stays on the same flower or the same plant.",
+    "explanation": "**Self-pollination** is the transfer of pollen to the stigma of the same flower or another flower on the same plant, as in P. Q shows **cross-pollination**: pollen moves to a flower on a different plant of the same kind. R shows the pollen tube growing after pollination, on the way to fertilisation."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-020",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Self- and cross-pollination",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "A flower's anthers are removed before it matures. Later, pollen from **another plant of the same kind** is dusted onto its stigma, and seeds form. Which type of pollination has been ensured?",
+    "image": { "src": "/img/repro/hybridisation.svg", "alt": "Animation of scissors snipping near a flower's stamens, with a paper bag and a brush with pollen nearby" },
+    "options": [
+      { "id": "a", "text": "Self-pollination" },
+      { "id": "b", "text": "Pollination by water" },
+      { "id": "c", "text": "Cross-pollination" },
+      { "id": "d", "text": "No pollination took place" }
+    ],
+    "answer": "c",
+    "hint": "Where did the pollen that reached the stigma come from?",
+    "explanation": "Removing the anthers means the flower cannot pollinate itself, so self-pollination is ruled out. The pollen came from a **different plant** of the same kind, so this is **cross-pollination**. Seeds formed, which shows pollination did take place. Plant breeders use exactly this step in artificial hybridisation."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-021",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Self- and cross-pollination",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Read the clue for each plant. Which one mainly **depends on cross-pollination**?",
+    "options": [
+      { "id": "a", "text": "Tomato: the stamens cover the stigma", "image": { "src": "/img/cell/tomato.svg", "alt": "A ripe red tomato" } },
+      { "id": "b", "text": "Wheat: the flowers open only after pollination", "image": { "src": "/img/repro/wheat.svg", "alt": "An ear of wheat" } },
+      { "id": "c", "text": "Papaya: male and female flowers often grow on different trees", "image": { "src": "/img/repro/papaya.svg", "alt": "Two papaya trees, one with hanging flower clusters and one with fruits" } }
+    ],
+    "answer": "c",
+    "hint": "For self-pollination, the pollen and the stigma must be on the same plant.",
+    "explanation": "When papaya's male and female flowers are on **different trees**, pollen must travel from one plant to another, so it must be **cross-pollinated**. In tomato the stamens cover the stigma, and in wheat pollination happens before the flower even opens, so both favour **self-pollination**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-022",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollinators",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each pollinating agent with plants it pollinates.",
+    "left": [
+      { "id": "wind", "text": "Wind", "image": { "src": "/img/repro/wind-pollination.svg", "alt": "Animation of grass plants swaying in a breeze" } },
+      { "id": "water", "text": "Water", "image": { "src": "/img/repro/water-pollination.svg", "alt": "Animation of ribbon-like plants in a pond with tiny flowers floating on the surface" } },
+      { "id": "insect", "text": "Insects", "image": { "src": "/img/repro/bee-pollination.svg", "alt": "Animation of a bee flying between two bright flowers" } },
+      { "id": "bird", "text": "Birds", "image": { "src": "/img/repro/bird-pollination.svg", "alt": "Animation of a small bird with a curved beak at a red flower" } }
+    ],
+    "right": [
+      { "id": "sunflower", "text": "Sunflower and marigold" },
+      { "id": "coral", "text": "Coral tree" },
+      { "id": "grasses", "text": "Wheat, maize and rice" },
+      { "id": "vallis", "text": "Vallisneria and Hydrilla" }
+    ],
+    "pairs": { "wind": "grasses", "water": "vallis", "insect": "sunflower", "bird": "coral" },
+    "hint": "Two of these are aquatic plants; three are cereal crops.",
+    "explanation": "Cereals such as **wheat, maize and rice** are wind-pollinated. In aquatic plants like **Vallisneria and Hydrilla**, water currents carry the pollen. **Sunflower and marigold** are pollinated by bees and butterflies. Flowers of the **coral tree** are visited by birds such as sunbirds and the Indian white-eye."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-023",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollinators",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A plant has small, dull flowers with no scent or nectar. It releases huge numbers of tiny, light pollen grains and has long, feathery stigmas. Which picture shows how it is most likely pollinated?",
+    "options": [
+      { "id": "a", "text": "Picture P", "image": { "src": "/img/repro/bee-pollination.svg", "alt": "A bee flying between two bright flowers" } },
+      { "id": "b", "text": "Picture Q", "image": { "src": "/img/repro/bird-pollination.svg", "alt": "A small bird with a curved beak at a red flower" } },
+      { "id": "c", "text": "Picture R", "image": { "src": "/img/repro/water-pollination.svg", "alt": "Ribbon-like plants in a pond with tiny flowers floating on the surface" } },
+      { "id": "d", "text": "Picture S", "image": { "src": "/img/repro/wind-pollination.svg", "alt": "Grass plants swaying in a breeze" } }
+    ],
+    "answer": "d",
+    "hint": "There is nothing here to attract an animal visitor.",
+    "explanation": "Light, small pollen in large numbers and long, **feathery stigmas** that trap pollen from the air are features of **wind pollination**. Insect- and bird-pollinated flowers are usually bright, scented and full of nectar. Water pollination is found in aquatic plants such as *Vallisneria*."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-024",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollinators",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which features help a flower get pollinated by **insects** such as bees and butterflies?",
+    "image": { "src": "/img/repro/bee-pollination.svg", "alt": "Animation of a bee flying between two bright flowers" },
+    "options": [
+      { "id": "a", "text": "Brightly coloured petals" },
+      { "id": "b", "text": "A long, feathery stigma" },
+      { "id": "c", "text": "Nectar and fragrance" },
+      { "id": "d", "text": "Large, sticky or spiny pollen grains" },
+      { "id": "e", "text": "Tiny, light pollen made in huge numbers" },
+      { "id": "f", "text": "A sticky stigma" }
+    ],
+    "answers": ["a", "c", "d", "f"],
+    "hint": "Two options describe flowers that rely on the wind.",
+    "explanation": "Insect-pollinated flowers such as sunflower, hibiscus and marigold are **brightly coloured**, give **nectar** and **fragrance** to attract visitors, have **large, sticky or spiny pollen** that clings to the insect's body, and a **sticky stigma** to receive it. Feathery stigmas and tiny, light pollen in huge numbers are features of wind-pollinated flowers."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-025",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollination strategies",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Use the table. A maize flower releases **10,00,000** pollen grains and forms **200** seeds. How many pollen grains are released for **each seed** formed?",
+    "image": { "src": "/img/repro/pollen-table.svg", "alt": "Table comparing pollen grains released per flower and seeds formed for wind-pollinated and insect-pollinated plants" },
+    "options": [
+      { "id": "a", "text": "500" },
+      { "id": "b", "text": "5,000" },
+      { "id": "c", "text": "50,000" },
+      { "id": "d", "text": "20,00,00,000" }
+    ],
+    "answer": "b",
+    "hint": "Pollen per seed = pollen grains ÷ seeds. 10,00,000 is ten lakh.",
+    "explanation": "Pollen per seed = 10,00,000 ÷ 200 = **5,000**. Reading ten lakh as one lakh gives 500, and reading it as one crore gives 50,000. Multiplying instead of dividing gives 20 crore. Wind pollination is wasteful because most pollen never reaches a stigma."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-026",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollination strategies",
+    "difficulty": "hard", "marks": 2,
+    "type": "mcq",
+    "prompt": "A sunflower releases **40,000** pollen grains and forms **1,000** seeds. The maize flower needed 5,000 pollen grains per seed. About how many times as many pollen grains per seed does the maize flower need?",
+    "image": { "src": "/img/repro/pollen-table.svg", "alt": "Table comparing pollen grains released per flower and seeds formed for wind-pollinated and insect-pollinated plants" },
+    "options": [
+      { "id": "a", "text": "40" },
+      { "id": "b", "text": "25" },
+      { "id": "c", "text": "125" },
+      { "id": "d", "text": "4,960" }
+    ],
+    "answer": "c",
+    "hint": "First find the sunflower's pollen per seed, then compare the two ratios by dividing.",
+    "explanation": "Sunflower: 40,000 ÷ 1,000 = 40 pollen grains per seed. Maize: 5,000 per seed. 5,000 ÷ 40 = **125 times**. 40 is only the sunflower's ratio, 25 compares total pollen (10,00,000 ÷ 40,000) instead of pollen per seed, and 4,960 is a difference, not 'how many times'. Insects carry pollen straight to a stigma, so far less is wasted; wind plants make up for the waste by producing pollen in huge numbers."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-027",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Fertilisation in plants",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Pollen has landed on this stigma. Tap the structure that carries the **male gamete** down to the ovule.",
+    "image": { "src": "/img/repro/pistil-tube.svg", "alt": "A pistil with a pollen grain on top and numbered markers" },
+    "spots": [
+      { "id": "pollen", "x": 42.67, "y": 11.5, "label": "Pollen grain" },
+      { "id": "stigma", "x": 58, "y": 15.5, "label": "Stigma" },
+      { "id": "tube", "x": 47.33, "y": 42.5, "label": "Pollen tube" },
+      { "id": "ovule", "x": 59.33, "y": 74.5, "label": "Ovule" },
+      { "id": "ovary", "x": 32, "y": 82.5, "label": "Ovary wall" }
+    ],
+    "answer": "tube",
+    "hint": "It grows out of the pollen grain and down through the style.",
+    "explanation": "On a compatible stigma, the pollen grain grows a **pollen tube** down through the style into the ovary. The male gamete travels through this tube to the **ovule**, where it fuses with the **egg cell**. This fusion is **fertilisation**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-028",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Fertilisation in plants",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these stages of sexual reproduction in a flowering plant in the correct order.",
+    "image": { "src": "/img/repro/pistil-tube.svg", "alt": "Animation of a tube growing from a pollen grain down a pistil to an ovule" },
+    "items": [
+      { "id": "fert", "text": "Fertilisation: the male gamete fuses with the egg cell" },
+      { "id": "germ", "text": "The pollen grain germinates on the stigma and grows a tube" },
+      { "id": "seed", "text": "The ovule becomes a seed and the ovary becomes a fruit" },
+      { "id": "poll", "text": "Pollination: pollen reaches the stigma" },
+      { "id": "zyg", "text": "A zygote forms and develops into an embryo" }
+    ],
+    "answer": ["poll", "germ", "fert", "zyg", "seed"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Pollen must arrive before it can germinate, and gametes must fuse before a zygote exists.",
+    "explanation": "First **pollination** brings pollen to the stigma. The pollen **germinates** and its tube carries the male gamete to the ovule. **Fertilisation** fuses the male gamete and egg to form a **zygote**, which develops into an embryo. Meanwhile the ovule becomes a **seed** and the ovary a **fruit**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-029",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Fruit and seed formation",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "After fertilisation, the petals fall and the ovary swells into a fruit. What do the **ovules** inside it become?",
+    "image": { "src": "/img/repro/ovary-to-fruit.svg", "alt": "Animation of a flower losing its petals as its base swells and turns red" },
+    "options": [
+      { "id": "a", "text": "Seeds" },
+      { "id": "b", "text": "Pollen grains" },
+      { "id": "c", "text": "New petals" },
+      { "id": "d", "text": "Stamens" }
+    ],
+    "answer": "a",
+    "hint": "Cut a tomato or a pea pod: what is attached inside?",
+    "explanation": "Each fertilised **ovule** develops into a **seed** containing the embryo, while the **ovary** around them becomes the **fruit**. When conditions of water, air and temperature are right, a seed germinates into a new plant."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-030",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Seed dispersal",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Seeds of madar (calotropis) and dandelion carry tufts of fine, silky hairs. How are they mainly dispersed?",
+    "image": { "src": "/img/repro/seeds-parachute.svg", "alt": "Animation of light seeds with silky hairs leaving an open pod and floating across the sky" },
+    "options": [
+      { "id": "a", "text": "By wind" },
+      { "id": "b", "text": "By water currents" },
+      { "id": "c", "text": "By hooks that stick to animal fur" },
+      { "id": "d", "text": "By animals eating the fruit pulp" }
+    ],
+    "answer": "a",
+    "hint": "The hairs act like a tiny parachute.",
+    "explanation": "The light seeds and their **parachute-like hairs** let the breeze carry them far from the parent plant, so they are dispersed by **wind**. Seeds that are carried by animals usually have hooks or juicy fruits, and water-dispersed seeds can float. Spreading out means the young plants do not compete with the parent."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-031",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Plant breeding",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "A breeder wants a new variety that combines the good characters of two parent plants. Arrange the steps of **artificial hybridisation** in order.",
+    "image": { "src": "/img/repro/hybridisation.svg", "alt": "Animation of scissors near a flower's stamens, with a paper bag and a brush with pollen nearby" },
+    "items": [
+      { "id": "dust", "text": "Dust pollen from the other chosen parent onto the stigma by hand" },
+      { "id": "select", "text": "Select two parent plants with the desired characters" },
+      { "id": "seeds", "text": "Collect the seeds, which grow into the new hybrid variety" },
+      { "id": "remove", "text": "Remove the stamens from a flower of one parent before they mature" },
+      { "id": "bag", "text": "Cover that flower with a bag to prevent unwanted pollination" }
+    ],
+    "answer": ["select", "remove", "bag", "dust", "seeds"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Stop self-pollination first, then supply the pollen you want.",
+    "explanation": "Breeders **select** parents, **remove the stamens** so the flower cannot self-pollinate, **bag** it so no stray pollen arrives, then **dust** pollen with the desired characters onto its stigma. The seeds that form grow into the new hybrid. Such methods have produced high-yielding and disease-resistant varieties."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-032",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollinators and crop yield",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "In two Himalayan apple orchards, Place A relied on natural pollinators while Place B also kept honeybee boxes. By how many **percentage points** was fruit set higher at Place B?",
+    "image": { "src": "/img/repro/apple-chart.svg", "alt": "Bar chart of fruit set and fruit drop in per cent at Place A and Place B" },
+    "options": [
+      { "id": "a", "text": "14" },
+      { "id": "b", "text": "27" },
+      { "id": "c", "text": "54" },
+      { "id": "d", "text": "66" }
+    ],
+    "answer": "a",
+    "hint": "Read only the 'Fruit set' bars and subtract.",
+    "explanation": "Fruit set: Place B 40% − Place A 26% = **14 percentage points**. 27 is the difference in fruit drop (35 − 8), 66 adds the two fruit-set values, and 54 is the increase relative to Place A (14 ÷ 26 ≈ 54%), which is a different measure. Place B also had far less fruit drop, so beekeeping helped on both counts."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-033",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pollinators and crop yield",
+    "difficulty": "medium", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully. Use the chart.",
+    "image": { "src": "/img/repro/apple-chart.svg", "alt": "Bar chart of fruit set and fruit drop in per cent at Place A and Place B" },
+    "assertion": "Keeping honeybee boxes in apple orchards can increase the apple yield.",
+    "reason": "Bees carry pollen between apple flowers, so more flowers are pollinated and set fruit.",
+    "answer": "a",
+    "hint": "Fruits form only from flowers that have been pollinated.",
+    "explanation": "Both are true and R explains A. At Place B, with beekeeping, fruit set rose to 40% (from 26%) and fruit drop fell to 8% (from 35%). Bees are **pollinators**, so more flowers are pollinated and develop into fruit. Falling numbers of natural pollinators are one reason apple yields have declined."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-034",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "External and internal fertilisation",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/repro/frog-bird.svg", "alt": "Animation of a frog beside a large mass of eggs in a pond with a fish nearby, and a bird beside a few eggs in a nest" },
+    "assertion": "A frog lays thousands of eggs at a time.",
+    "reason": "Frogs can live both in water and on land.",
+    "answer": "b",
+    "hint": "Both statements are facts, but is the second one the reason for the first?",
+    "explanation": "Both are true, but R does not explain A. The real reason is **external fertilisation**: eggs and sperm are released into water, where many eggs are washed away by currents or eaten by other animals, so laying 5,000–50,000 eggs makes sure some survive. Birds have **internal fertilisation**, lay only 1–15 eggs, and their young have a higher chance of survival."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-035",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Larva and metamorphosis",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the stage that is mainly a **feeding stage**: it eats and grows before changing into the adult.",
+    "image": { "src": "/img/repro/butterfly-cycle.svg", "alt": "The life cycle of a butterfly with numbered markers" },
+    "spots": [
+      { "id": "egg", "x": 50, "y": 18.67, "label": "Eggs" },
+      { "id": "larva", "x": 81.25, "y": 49.33, "label": "Larva (caterpillar)" },
+      { "id": "pupa", "x": 50, "y": 83.33, "label": "Pupa" },
+      { "id": "adult", "x": 20, "y": 50.67, "label": "Adult butterfly" }
+    ],
+    "answer": "larva",
+    "hint": "It hatches out of the egg and munches leaves all day.",
+    "explanation": "Insects lay many eggs, and each has only enough yolk to produce a **larva**. The larva (the caterpillar) feeds and grows; it is essentially a **feeding stage**. Once it has stored enough nutrition it becomes a pupa, and the adult body forms by **metamorphosis**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-036",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Larva and metamorphosis",
+    "difficulty": "easy", "marks": 1,
+    "type": "order",
+    "prompt": "Put the stages in the life cycle of a butterfly in order.",
+    "image": { "src": "/img/repro/caterpillar.svg", "alt": "Animation of a caterpillar crawling and munching on a leaf" },
+    "items": [
+      { "id": "pupa", "text": "Pupa" },
+      { "id": "adult", "text": "Adult butterfly" },
+      { "id": "egg", "text": "Egg" },
+      { "id": "larva", "text": "Larva (caterpillar)" }
+    ],
+    "answer": ["egg", "larva", "pupa", "adult"],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The caterpillar in the picture hatches out of something small laid on a leaf.",
+    "explanation": "A butterfly lays **eggs**; a **larva** (caterpillar) hatches and feeds; it turns into a **pupa**; and the **adult** emerges. This change in body form is **metamorphosis**, also seen in frogs, where tadpoles are the larvae."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-037",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Male reproductive system",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "This schematic shows the path sperm take in the male reproductive system. Match each numbered part with its job.",
+    "image": {
+      "src": "/img/repro/male-system.svg",
+      "alt": "Schematic diagram of the male reproductive system with four numbered parts",
+      "markers": [
+        { "x": 27.5, "y": 78.33, "label": "1" },
+        { "x": 29.25, "y": 41.33, "label": "2" },
+        { "x": 39, "y": 23.33, "label": "3" },
+        { "x": 50, "y": 76.67, "label": "4" }
+      ]
+    },
+    "left": [
+      { "id": "p1", "text": "Part 1" },
+      { "id": "p2", "text": "Part 2" },
+      { "id": "p3", "text": "Part 3" },
+      { "id": "p4", "text": "Part 4" }
+    ],
+    "right": [
+      { "id": "fluid", "text": "Adds fluid that nourishes sperm and keeps them active" },
+      { "id": "urine", "text": "Stores urine" },
+      { "id": "passage", "text": "Common passage for urine and sperm" },
+      { "id": "make", "text": "Produces sperm and a male hormone" },
+      { "id": "carry", "text": "Carries sperm from the testis towards the urethra" }
+    ],
+    "pairs": { "p1": "make", "p2": "carry", "p3": "fluid", "p4": "passage" },
+    "hint": "Follow the sperm: they are made in Part 1 and leave through Part 4.",
+    "explanation": "1 is a **testis**, which makes sperm and a hormone that brings about changes during puberty. 2 is the **vas deferens**, the long tube carrying sperm to the urethra. 3 is a **seminal vesicle**, a gland that, like the prostate, adds nourishing fluid. 4 is the **urethra**, a common passage for urine and sperm. Storing urine is the job of the unnumbered urinary bladder."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-038",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Female reproductive system",
+    "difficulty": "medium", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the place where a sperm usually meets and **fertilises the egg**.",
+    "image": { "src": "/img/repro/female-system.svg", "alt": "Schematic front view of the female reproductive system with numbered markers" },
+    "spots": [
+      { "id": "ovary", "x": 22, "y": 44.67, "label": "Ovary" },
+      { "id": "tube", "x": 28.25, "y": 27.33, "label": "Oviduct (fallopian tube)" },
+      { "id": "uterus", "x": 50, "y": 43.33, "label": "Uterus" },
+      { "id": "cervix", "x": 50, "y": 70.67, "label": "Cervix" },
+      { "id": "vagina", "x": 50, "y": 87.33, "label": "Vagina" }
+    ],
+    "answer": "tube",
+    "hint": "After ovulation, the egg travels from the ovary into a tube.",
+    "explanation": "After **ovulation**, the egg moves from the ovary into the **oviduct (fallopian tube)**. Sperm swim up through the reproductive tract and may meet the egg there, so **fertilisation happens in the oviduct**. The zygote then travels to the uterus. The ovary releases the egg but is not where fertilisation takes place."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-039",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Female reproductive system",
+    "difficulty": "easy", "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the bag-like organ where the embryo **implants** and the foetus develops.",
+    "image": { "src": "/img/repro/female-system.svg", "alt": "Schematic front view of the female reproductive system with numbered markers" },
+    "spots": [
+      { "id": "ovary", "x": 22, "y": 44.67, "label": "Ovary" },
+      { "id": "tube", "x": 28.25, "y": 27.33, "label": "Oviduct (fallopian tube)" },
+      { "id": "uterus", "x": 50, "y": 43.33, "label": "Uterus" },
+      { "id": "cervix", "x": 50, "y": 70.67, "label": "Cervix" }
+    ],
+    "answer": "uterus",
+    "hint": "Both oviducts open into it.",
+    "explanation": "The **uterus** is a bag-like organ whose thick inner lining, rich in blood vessels, receives the embryo. **Implantation** in this lining marks the beginning of pregnancy, and the uterus protects and nourishes the baby. The uterus opens into the vagina through a narrow passage, the **cervix**."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-040",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Gametes",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Compare the male and female gametes in the animation. Which statement is correct?",
+    "image": { "src": "/img/repro/sperm-egg.svg", "alt": "Animation of tiny tailed cells swimming towards a large round cell" },
+    "options": [
+      { "id": "a", "text": "Sperm are large and store food, while eggs are tiny and swim" },
+      { "id": "b", "text": "Both sperm and eggs are produced in millions every month" },
+      { "id": "c", "text": "Eggs are made by mitosis, so they have 46 chromosomes" },
+      { "id": "d", "text": "Sperm are tiny and actively motile; an egg is large, stores nutrients and does not swim" }
+    ],
+    "answer": "d",
+    "hint": "Look at the sizes and at which cells are moving.",
+    "explanation": "**Sperm** are very small, produced in millions, have no stored nutrients and swim actively with their tails. An **egg** is large, few are produced (usually one is released a month), it stores nutrients and is non-motile. Both are formed by **meiosis** and have 23 chromosomes. This difference is seen across most animals."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-041",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Gametogenesis and fertilisation",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "A human sperm and egg are both made by meiosis. When they fuse, how many chromosomes does the **zygote** have?",
+    "image": { "src": "/img/repro/sperm-egg.svg", "alt": "Animation of a sperm reaching an egg, which then becomes a zygote" },
+    "options": [
+      { "id": "a", "text": "46" },
+      { "id": "b", "text": "23" },
+      { "id": "c", "text": "92" },
+      { "id": "d", "text": "69" }
+    ],
+    "answer": "a",
+    "hint": "Each gamete is haploid, carrying half of 46.",
+    "explanation": "Meiosis halves the number, so each sperm and each egg is **haploid** with 23 chromosomes. At fertilisation, 23 + 23 = **46**, the **diploid** number of a human body cell, so every generation keeps the same number. 23 is a single gamete, 92 adds two body cells (46 + 46), and 69 mixes a body cell with a gamete."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-042",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Implantation",
+    "difficulty": "hard", "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": { "src": "/img/repro/zygote-journey.svg", "alt": "Schematic of an oviduct leading into the uterus, with a growing ball of cells at several points along the way" },
+    "assertion": "The zygote attaches to the wall of the uterus as soon as it is formed.",
+    "reason": "Around ovulation, the inner lining of the uterus becomes thick and rich in blood vessels, ready to receive a zygote.",
+    "answer": "d",
+    "hint": "Where is the zygote formed, and what does it do on the way to the uterus?",
+    "explanation": "A is false, R is true. The zygote forms in the **oviduct** and undergoes a series of **mitotic divisions** while travelling to the uterus; only then does it **implant** in the lining. R is correct: the lining thickens and becomes rich in blood vessels to nourish it. If no egg is fertilised, this lining is shed in menstruation."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-043",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Menstrual cycle",
+    "difficulty": "medium", "marks": 2,
+    "type": "order",
+    "prompt": "The wheel shows a typical 28-day menstrual cycle. Arrange its stages in order, starting from Day 1.",
+    "image": { "src": "/img/repro/cycle-wheel.svg", "alt": "Animation of a dot moving round a 28-day wheel made of coloured day segments" },
+    "items": [
+      { "id": "ovulation", "text": "Ovulation: an ovary releases a mature egg" },
+      { "id": "thick", "text": "The uterine lining becomes thick and rich in blood vessels" },
+      { "id": "mens", "text": "Menstruation: the uterine lining is shed with some blood" },
+      { "id": "rebuild", "text": "The lining gradually rebuilds while an egg matures in the ovary" }
+    ],
+    "answer": ["mens", "rebuild", "ovulation", "thick"],
+    "startLabel": "Day 1",
+    "endLabel": "Day 28",
+    "hint": "The cycle is counted from the first day of the period. The single yellow day is mid-cycle.",
+    "explanation": "Days 1–5: **menstruation**, the lining is shed. Days 6–14: the lining **rebuilds** while an egg matures. About Day 14: **ovulation**. Days 15–28: the lining becomes **thick and rich in blood vessels**; if there is no fertilisation it breaks down around Day 28 and the cycle repeats. Real cycles vary from about 21 to 35 days, so ovulation is not always on Day 14."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-044",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Menstrual cycle",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "Rina's periods come every **28 days**. Her last period started on **5 March**. On which date is her next period most likely to start?",
+    "image": { "src": "/img/repro/calendar.svg", "alt": "Calendar pages for March and April with 5 March circled" },
+    "options": [
+      { "id": "a", "text": "28 March" },
+      { "id": "b", "text": "5 April" },
+      { "id": "c", "text": "2 April" },
+      { "id": "d", "text": "3 April" }
+    ],
+    "answer": "c",
+    "hint": "Add 28 days to 5 March. March has 31 days.",
+    "explanation": "5 March + 28 days = '33 March'. March has 31 days, so 33 − 31 = **2 April**. 5 April assumes the cycle is exactly one calendar month, 28 March mixes up a date with the cycle length, and 3 April adds one day too many. The cycle is counted from the first day of one period to the first day of the next."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-045",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Menstrual hygiene",
+    "difficulty": "easy", "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are **good hygiene practices** during menstruation?",
+    "image": { "src": "/img/repro/hygiene.svg", "alt": "A pouch of sanitary pads, a clock, a wash basin with a tap, a sheet of newspaper and a covered bin" },
+    "options": [
+      { "id": "a", "text": "Change pads every 4–6 hours, or more often if the flow is heavy" },
+      { "id": "b", "text": "Flush used pads down the toilet" },
+      { "id": "c", "text": "Wash hands with soap and water before and after changing a pad" },
+      { "id": "d", "text": "Wash the genital area with soap" },
+      { "id": "e", "text": "Wrap used pads in newspaper or their wrapper before putting them in a bin" },
+      { "id": "f", "text": "Use a reusable pad only after it is completely dry" }
+    ],
+    "answers": ["a", "c", "e", "f"],
+    "hint": "Two options can cause harm: one to the body's natural balance and one to the plumbing.",
+    "explanation": "Good practice is to **change pads regularly** (every 4–6 hours), **wash hands** before and after, **wrap and bin** used pads, and make sure reusable pads are **fully dry**. Clean the genital area with water only, because soap can upset the natural bacterial balance, and never flush pads. Menstruation is a sign of a healthy body, nothing to be ashamed of."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-046",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Sex determination",
+    "difficulty": "medium", "marks": 1,
+    "type": "mcq",
+    "prompt": "An egg carrying an **X** chromosome fuses with a sperm carrying a **Y** chromosome. What will the baby's sex chromosomes be, and whose gamete decided this?",
+    "image": { "src": "/img/repro/sex-chromosomes.svg", "alt": "An egg marked X plus a sperm marked Y equals a question mark" },
+    "options": [
+      { "id": "a", "text": "XX, a girl; decided by the mother's egg" },
+      { "id": "b", "text": "YY, a boy; decided by the father's sperm" },
+      { "id": "c", "text": "XY, a boy; decided by the mother's egg" },
+      { "id": "d", "text": "XY, a boy; decided by the father's sperm" }
+    ],
+    "answer": "d",
+    "hint": "Every egg carries an X. Sperm can carry either an X or a Y.",
+    "explanation": "X from the egg + Y from the sperm gives **XY**, a boy. Females are XX, so the mother always gives an **X**. Males are XY, so the father's sperm carries either an X (girl) or a Y (boy). Therefore the **father's sperm** decides the baby's biological sex. YY is impossible because the egg never carries a Y."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-047",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Pregnancy",
+    "difficulty": "easy", "marks": 1,
+    "type": "mcq",
+    "prompt": "Pregnancy lasts about nine months, divided into three trimesters. In which trimester can the mother usually **first feel the foetus move**?",
+    "image": { "src": "/img/repro/trimesters.svg", "alt": "Animation of a baby growing inside the womb in three numbered stages" },
+    "options": [
+      { "id": "a", "text": "First trimester" },
+      { "id": "b", "text": "Second trimester" },
+      { "id": "c", "text": "Third trimester" },
+      { "id": "d", "text": "Only after birth" }
+    ],
+    "answer": "b",
+    "hint": "In the first trimester the organs are only beginning to form.",
+    "explanation": "In the **first trimester** the embryo forms its major organs, and from about the ninth week it is called a **foetus**. In the **second trimester** the foetus grows bigger and stronger, and the mother can usually feel it move. In the **third trimester** it grows rapidly and gets ready for life outside the womb."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-048",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Scientists and discoveries",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each scientist with their contribution.",
+    "image": { "src": "/img/repro/ivf-dish.svg", "alt": "Animation of a laboratory culture dish with an egg cell, moving sperm and a dropper above" },
+    "left": [
+      { "id": "pasteur", "text": "Louis Pasteur" },
+      { "id": "maheshwari", "text": "P. Maheshwari" },
+      { "id": "subhash", "text": "Subhash Mukhopadhyay" }
+    ],
+    "right": [
+      { "id": "ivf", "text": "Pioneered India's first test tube baby, in Kolkata in 1978" },
+      { "id": "life", "text": "Showed by experiment that new life always comes from pre-existing life" },
+      { "id": "fungi", "text": "Proposed that all fungi make their own food" },
+      { "id": "embryo", "text": "'Father of Indian Embryology'; fused an egg and a male gamete of a flowering plant in a test tube" }
+    ],
+    "pairs": { "pasteur": "life", "maheshwari": "embryo", "subhash": "ivf" },
+    "hint": "One of these scientists studied plant reproduction; another worked on human IVF.",
+    "explanation": "**Louis Pasteur** disproved the idea that life arises from non-living matter, gave the germ theory of disease and led to sterilisation of food and instruments. **P. Maheshwari** developed in-vitro fertilisation in flowering plants and grew plant embryos on artificial media. **Subhash Mukhopadhyay** pioneered India's first IVF baby, Durga, in 1978. In **IVF**, fertilisation happens in a laboratory dish, not inside the body. Fungi cannot make their own food, so that option was a distractor."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-049",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Contraception and STIs",
+    "difficulty": "medium", "marks": 2,
+    "type": "match",
+    "prompt": "Match each method of preventing pregnancy with how it works.",
+    "left": [
+      { "id": "condom", "text": "Condom", "image": { "src": "/img/repro/condom-pack.svg", "alt": "A sealed square foil packet" } },
+      { "id": "pill", "text": "Oral pills", "image": { "src": "/img/repro/pill-strip.svg", "alt": "A strip of tablets" } },
+      { "id": "copper", "text": "Copper-T", "image": { "src": "/img/repro/copper-t.svg", "alt": "A small T-shaped device wound with copper wire" } },
+      { "id": "surgery", "text": "Surgical method", "image": { "src": "/img/repro/tube-block.svg", "alt": "A narrow tube that has been cut and tied" } }
+    ],
+    "right": [
+      { "id": "uterus", "text": "A device placed in the uterus; it may sometimes irritate the uterus" },
+      { "id": "block", "text": "The vas deferens or fallopian tubes are blocked so sperm and egg cannot meet" },
+      { "id": "barrier", "text": "A barrier that stops sperm reaching the egg and also helps prevent STIs" },
+      { "id": "hormone", "text": "Alters hormones to change the release of eggs; may have side effects" }
+    ],
+    "pairs": { "condom": "barrier", "pill": "hormone", "copper": "uterus", "surgery": "block" },
+    "hint": "Only one of these methods also protects against sexually transmitted infections.",
+    "explanation": "A **condom** is a barrier method, and it is the only one here that also reduces the spread of **STIs** such as gonorrhoea, syphilis, herpes and HIV. **Oral pills** change hormones that control egg release. A **copper-T** is an intra-uterine device. **Surgical methods** block the vas deferens or fallopian tubes. A couple using only pills is still at risk of STIs."
+  },
+  {
+    "id": "in-cbse-9-bio-repro-050",
+    "region": "IN", "board": "CBSE", "grade": 9, "subject": "biology",
+    "chapter": "Reproduction: How Life Continues", "chapterNo": 3, "topic": "Reproductive health in society",
+    "difficulty": "medium", "marks": 2,
+    "type": "multi",
+    "prompt": "Which statements about reproductive health in India are **correct**?",
+    "image": { "src": "/img/repro/asha-kit.svg", "alt": "A community health worker's kit bag and a vaccine vial beside a village home" },
+    "options": [
+      { "id": "a", "text": "ASHA workers promote hygiene, immunisation and family planning, especially in rural areas" },
+      { "id": "b", "text": "Finding out a baby's sex before birth is allowed if the family asks for it" },
+      { "id": "c", "text": "Scientists at CDRI, Lucknow developed a once-a-week, non-hormonal oral contraceptive pill" },
+      { "id": "d", "text": "Oral contraceptive pills also protect against STIs such as HIV" },
+      { "id": "e", "text": "Breast milk gives a newborn complete nutrition and protection from many diseases" }
+    ],
+    "answers": ["a", "c", "e"],
+    "hint": "Think about the sex ratio, and about which method acts as a barrier.",
+    "explanation": "More than 10 lakh **ASHA workers** advise on hygiene, immunisation, maternal care and family planning. The **CDRI weekly pill** is non-steroidal and non-hormonal, and is given free under the National Family Planning Programme. **Breastfeeding** gives complete nutrition and protection. **Prenatal sex determination is banned by law** in India to protect the sex ratio, and pills do not stop STIs; condoms do."
+  }
+]

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<title>An old open book with a hand-drawn medicinal plant and notes</title>
+<style>
+.pg{transform-box:view-box;transform-origin:100px 150px;animation:pg 5s ease-in-out infinite}
+.q{transform-box:fill-box;transform-origin:0% 100%;animation:q 2s ease-in-out infinite}
+@keyframes pg{0%,70%,100%{transform:skewY(0)}85%{transform:skewY(-3deg)}}
+@keyframes q{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M14 154 L100 166 L186 154 L186 162 L100 176 L14 162 Z" fill="#8A5A2B" stroke="#5C3A18" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M18 50 Q60 40 100 54 V160 Q60 148 18 154 Z" fill="#F3E3C0" stroke="#A9774F" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="pg"><path d="M182 50 Q140 40 100 54 V160 Q140 148 182 154 Z" fill="#F7EAD0" stroke="#A9774F" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#C9B08A" stroke-width="4" stroke-linecap="round"><path d="M112 70 H170 M112 84 H164 M112 98 H170 M112 112 H156 M112 126 H168 M112 140 H150"/></g></g>
+<path d="M58 142 C56 120 62 100 58 76" fill="none" stroke="#4E8F2A" stroke-width="3" stroke-linecap="round"/>
+<g fill="#A6D98A" stroke="#3F8A2A" stroke-width="2"><ellipse cx="44" cy="120" rx="12" ry="5" transform="rotate(-30 44 120)"/><ellipse cx="72" cy="112" rx="12" ry="5" transform="rotate(30 72 112)"/><ellipse cx="46" cy="94" rx="11" ry="4.5" transform="rotate(-35 46 94)"/><ellipse cx="70" cy="88" rx="10" ry="4.5" transform="rotate(35 70 88)"/></g>
+<circle cx="58" cy="72" r="7" fill="#F5C842" stroke="#C99A1E" stroke-width="2"/>
+<path d="M50 146 l-6 6 M58 146 v8 M66 146 l6 6" stroke="#A9774F" stroke-width="2" stroke-linecap="round"/>
+<g class="q"><path d="M150 40 C162 22 180 14 188 14 C184 24 172 40 156 48 Z" fill="#fff" stroke="#6E6E80" stroke-width="2" stroke-linejoin="round"/><path d="M156 48 L146 60" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/></g>
+</svg>

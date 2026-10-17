@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A hydra attached to a rock under water</title>
+<style>
+.bud{animation:bud 6s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes bud{0%{transform:translate(0,0) scale(.15);opacity:1}50%{transform:translate(0,0) scale(1);opacity:1}80%{transform:translate(60px,30px) scale(1);opacity:1}95%{opacity:0;transform:translate(60px,30px) scale(1)}100%{opacity:0;transform:scale(.15)}}
+.tn{animation:wave 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes wave{from{transform:rotate(-6deg)}to{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="16" width="368" height="268" rx="12" fill="#E3F2FF"/>
+<path d="M60 284q30-30 90-26q50 4 70 26z" fill="#A99A86" stroke="#7A6C5A" stroke-width="3"/>
+<g class="tn" fill="none" stroke="#7FB98A" stroke-width="5" stroke-linecap="round">
+<path d="M150 84q-30-30-44-62"/><path d="M156 80q-6-36 4-64"/><path d="M166 82q20-30 50-46"/><path d="M144 90q-40-10-70-6"/>
+</g>
+<path d="M140 262C134 200 136 140 144 96Q156 80 168 96C176 140 172 200 166 262Z" fill="#A8D9B0" stroke="#4E8F5A" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="156" cy="92" rx="14" ry="8" fill="#8CC79A" stroke="#4E8F5A" stroke-width="2"/>
+<g class="bud">
+<path d="M170 196C196 186 220 176 232 160Q242 156 240 168C232 182 206 196 172 210Z" fill="#A8D9B0" stroke="#4E8F5A" stroke-width="2.5"/>
+<path d="M238 160q6-18 2-30M240 164q16-10 24-24M236 158q-14-12-16-26" fill="none" stroke="#7FB98A" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g fill="#FFFFFF" opacity=".7"><circle cx="300" cy="80" r="5"/><circle cx="320" cy="120" r="3"/><circle cx="290" cy="150" r="4"/></g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img">
+<title>A fern plant with its parts above and below the soil</title>
+<defs>
+<g id="fr">
+<path d="M0 0 Q4 -50 0 -100" fill="none" stroke="#3F8A2A" stroke-width="3" stroke-linecap="round"/>
+<g fill="#6CC04A" stroke="#3F8A2A" stroke-width="1.5">
+<ellipse cx="-12" cy="-16" rx="12" ry="4.5" transform="rotate(18 0 -16)"/><ellipse cx="12" cy="-16" rx="12" ry="4.5" transform="rotate(-18 0 -16)"/>
+<ellipse cx="-12" cy="-28" rx="12" ry="4.5" transform="rotate(18 0 -28)"/><ellipse cx="13" cy="-28" rx="12" ry="4.5" transform="rotate(-18 0 -28)"/>
+<ellipse cx="-11" cy="-40" rx="11" ry="4.3" transform="rotate(18 0 -40)"/><ellipse cx="13" cy="-40" rx="11" ry="4.3" transform="rotate(-18 0 -40)"/>
+<ellipse cx="-10" cy="-52" rx="10" ry="4" transform="rotate(18 0 -52)"/><ellipse cx="12" cy="-52" rx="10" ry="4" transform="rotate(-18 0 -52)"/>
+<ellipse cx="-9" cy="-64" rx="9" ry="3.8" transform="rotate(18 0 -64)"/><ellipse cx="11" cy="-64" rx="9" ry="3.8" transform="rotate(-18 0 -64)"/>
+<ellipse cx="-7" cy="-76" rx="7.5" ry="3.4" transform="rotate(18 0 -76)"/><ellipse cx="9" cy="-76" rx="7.5" ry="3.4" transform="rotate(-18 0 -76)"/>
+<ellipse cx="-5" cy="-87" rx="5.5" ry="3" transform="rotate(18 0 -87)"/><ellipse cx="6" cy="-87" rx="5.5" ry="3" transform="rotate(-18 0 -87)"/>
+</g>
+</g>
+</defs>
+<style>
+.fh{transform-box:view-box;transform-origin:174px 150px;animation:fh 4s ease-in-out infinite}
+.sw{transform-box:view-box;transform-origin:100px 142px;animation:sw 5s ease-in-out infinite}
+@keyframes fh{0%,100%{transform:rotate(-4deg) scale(.92)}50%{transform:rotate(6deg) scale(1.06)}}
+@keyframes sw{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="188" height="140" rx="14" fill="#EAF6FF"/>
+<rect x="6" y="140" width="188" height="54" rx="14" fill="#D9B98C"/>
+<rect x="6" y="140" width="188" height="20" fill="#D9B98C"/>
+<path d="M6 141 H194" stroke="#A98257" stroke-width="2.5"/>
+<g fill="#C9A273"><circle cx="20" cy="176" r="3"/><circle cx="130" cy="184" r="3.5"/><circle cx="182" cy="172" r="2.5"/><circle cx="104" cy="170" r="2"/></g>
+<g fill="none" stroke="#A9774F" stroke-width="2" stroke-linecap="round">
+<path d="M40 152 q-4 14 -10 26"/><path d="M46 153 q4 16 2 30"/><path d="M80 152 q-6 16 -4 32"/><path d="M78 168 l-8 6"/><path d="M120 156 q4 14 0 30"/><path d="M150 152 q4 16 -2 28"/><path d="M162 152 q-2 12 6 22"/>
+</g>
+<path d="M22 154 C60 148 120 160 178 150" fill="none" stroke="#8A5A2B" stroke-width="9" stroke-linecap="round"/>
+<path d="M70 150 V140 M100 154 V140 M130 154 V140" stroke="#3F8A2A" stroke-width="3" stroke-linecap="round"/>
+<g class="sw">
+<use href="#fr" transform="translate(70 142) rotate(-28)"/>
+<use href="#fr" transform="translate(100 142) rotate(2) scale(1.05)"/>
+<use href="#fr" transform="translate(130 142) rotate(24) scale(.82)"/>
+</g>
+<path d="M174 150 V141" stroke="#3F8A2A" stroke-width="3" stroke-linecap="round"/>
+<g class="fh"><path d="M174 141 C174 132 176 126 174 122 A8 8 0 1 1 182 114 A5.5 5.5 0 1 1 176.5 108.5 A3 3 0 1 1 179.5 111.5" fill="none" stroke="#5DAE3E" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

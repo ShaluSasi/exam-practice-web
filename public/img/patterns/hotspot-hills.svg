@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>Misty forested hills with a waterfall and a stream</title>
+<style>
+.ms{animation:ms 9s ease-in-out infinite}.ms2{animation-delay:-4.5s}
+.wf{animation:wf .8s linear infinite}
+.bd{animation:bd 7s ease-in-out infinite}
+@keyframes ms{0%,100%{transform:translateX(-20px);opacity:.5}50%{transform:translateX(20px);opacity:.85}}
+@keyframes wf{to{stroke-dashoffset:-16}}
+@keyframes bd{0%{transform:translate(0,0)}50%{transform:translate(-60px,-10px)}100%{transform:translate(0,0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="388" height="208" rx="12" fill="#E6F4FF"/>
+<path d="M6 120 Q60 50 130 96 Q190 40 260 90 Q320 54 394 100 V214 H6 Z" fill="#9FD27F"/>
+<path d="M6 150 Q90 96 170 140 Q250 100 320 136 Q360 120 394 132 V202 Q394 214 382 214 H18 Q6 214 6 202 Z" fill="#6FB552"/>
+<path d="M6 186 Q100 160 200 180 Q300 196 394 176 V202 Q394 214 382 214 H18 Q6 214 6 202 Z" fill="#4E8F2A"/>
+<g fill="#3F7A22"><circle cx="40" cy="104" r="12"/><circle cx="58" cy="96" r="10"/><circle cx="100" cy="98" r="11"/><circle cx="150" cy="84" r="12"/><circle cx="176" cy="80" r="10"/><circle cx="232" cy="82" r="11"/><circle cx="292" cy="82" r="12"/><circle cx="340" cy="84" r="10"/><circle cx="370" cy="98" r="12"/></g>
+<g fill="#5DA33E"><circle cx="70" cy="140" r="14"/><circle cx="92" cy="134" r="12"/><circle cx="270" cy="128" r="14"/><circle cx="300" cy="136" r="12"/><circle cx="350" cy="140" r="13"/><circle cx="130" cy="146" r="12"/></g>
+<path d="M206 78 C204 110 210 140 206 176" fill="none" stroke="#CDE9FF" stroke-width="12" stroke-linecap="round"/>
+<path class="wf" d="M206 78 C204 110 210 140 206 176" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="8 8" stroke-linecap="round"/>
+<ellipse cx="206" cy="180" rx="22" ry="6" fill="#CDE9FF" stroke="#4A90C8" stroke-width="2"/>
+<g fill="#fff"><ellipse class="ms" cx="100" cy="118" rx="70" ry="8"/><ellipse class="ms ms2" cx="300" cy="110" rx="80" ry="8"/></g>
+<g class="bd" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"><path d="M320 40 q6 -6 12 0 q6 -6 12 0"/><path d="M296 52 q4 -4 8 0 q4 -4 8 0"/></g>
+</svg>

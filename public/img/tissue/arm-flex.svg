@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img">
+<title>An arm bending at the elbow</title>
+<style>
+.fa{transform-box:view-box;transform-origin:110px 160px;animation:fa 4s ease-in-out infinite}
+@keyframes fa{0%,10%,100%{transform:rotate(0)}45%,60%{transform:rotate(-58deg)}}
+.bi{transform-box:fill-box;transform-origin:center;animation:bi 4s ease-in-out infinite}
+@keyframes bi{0%,10%,100%{transform:scale(1,1)}45%,60%{transform:scale(1.35,.9)}}
+.ns{animation:ns 4s ease-in infinite}
+@keyframes ns{0%{transform:translate(0,0);opacity:0}4%{opacity:1}12%{transform:translate(44px,46px);opacity:1}16%,100%{transform:translate(44px,46px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="80" y="14" width="60" height="164" rx="28" fill="#F7DCC6" stroke="#E0B494" stroke-width="2"/>
+<path d="M106 28V152" fill="none" stroke="#B9A27A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><path d="M106 28V152" fill="none" stroke="#F5EBD7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="fa"><rect x="92" y="142" width="172" height="36" rx="18" fill="#F7DCC6" stroke="#E0B494" stroke-width="2"/><path d="M118 160H250" fill="none" stroke="#B9A27A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M118 160H250" fill="none" stroke="#F5EBD7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M134 136L146 156" stroke="#C9A43A" stroke-width="7" stroke-linecap="round"/><path d="M134 136L146 156" stroke="#F2D16B" stroke-width="4" stroke-linecap="round"/>
+<circle cx="266" cy="161" r="14" fill="#F2C1A0" stroke="#D9967A" stroke-width="2.5"/></g>
+<circle cx="110" cy="158" r="9" fill="#F5EBD7" stroke="#B9A27A" stroke-width="3"/>
+<ellipse class="bi" cx="128" cy="90" rx="11" ry="46" fill="#E57373" stroke="#B94A4A" stroke-width="3"/>
+<path d="M128 44V30" stroke="#C9A43A" stroke-width="5" stroke-linecap="round"/>
+<path d="M76 30L120 76" stroke="#F6C453" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 7"/>
+<path d="M76 30L120 76" stroke="#E0A93A" stroke-width="2"/>
+<circle class="ns" cx="76" cy="30" r="5" fill="#FFF3C4" stroke="#E0A93A" stroke-width="2"/>
+</svg>

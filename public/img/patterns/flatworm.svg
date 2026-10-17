@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
+<title>A flat, leaf-shaped worm gliding</title>
+<style>
+.g{animation:g 4s ease-in-out infinite}
+.w{transform-box:fill-box;transform-origin:center;animation:w 2s ease-in-out infinite}
+@keyframes g{0%,100%{transform:translateX(-4px)}50%{transform:translateX(4px)}}
+@keyframes w{0%,100%{transform:scale(1,1)}50%{transform:scale(1.03,.94)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="108" height="108" rx="12" fill="#E3F2FF"/>
+<path d="M6 92 Q60 84 114 92 V102 Q114 114 102 114 H18 Q6 114 6 102 Z" fill="#D7E8C6"/>
+<g class="g"><g class="w">
+<path d="M14 64 C16 52 38 46 62 46 C80 46 90 47 96 43 C101 40 108 44 106 52 C110 56 110 64 106 67 C108 74 101 78 96 75 C90 72 80 76 62 76 C38 76 16 74 14 64 Z" fill="#F4C7A1" stroke="#C9824A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M30 61 H86 M44 61 l-6 -7 M44 61 l-6 7 M58 61 l-6 -8 M58 61 l-6 8 M72 61 l-6 -8 M72 61 l-6 8" fill="none" stroke="#E2A276" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="96" cy="55" r="3.4" fill="#fff" stroke="#C9824A" stroke-width="1.2"/><circle cx="96" cy="66" r="3.4" fill="#fff" stroke="#C9824A" stroke-width="1.2"/>
+<circle cx="97" cy="55" r="1.6" fill="#2B2F4A"/><circle cx="97" cy="66" r="1.6" fill="#2B2F4A"/>
+</g></g>
+</svg>

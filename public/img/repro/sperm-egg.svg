@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Tiny cells with tails swimming towards a large round cell</title>
+<defs>
+<g id="sp"><ellipse cx="0" cy="0" rx="7" ry="5" fill="#CDE9FF" stroke="#2F6FA8" stroke-width="2"/><path d="M-7 0q-8-6-16 0t-16 0" fill="none" stroke="#2F6FA8" stroke-width="2" stroke-linecap="round"/></g>
+</defs>
+<style>
+.a{animation:a 6s ease-in-out infinite}
+@keyframes a{0%{transform:translate(0,0)}50%,100%{transform:translate(200px,0)}}
+.b{animation:b 6s ease-in-out infinite}
+@keyframes b{0%{transform:translate(0,0);opacity:1}50%{transform:translate(160px,-10px);opacity:1}60%,100%{transform:translate(165px,-12px);opacity:0}}
+.c{animation:c 6s ease-in-out infinite}
+@keyframes c{0%{transform:translate(0,0);opacity:1}50%{transform:translate(150px,14px);opacity:1}60%,100%{transform:translate(155px,16px);opacity:0}}
+.lead{animation:lead 6s ease-in-out infinite}
+@keyframes lead{0%,48%{opacity:1}55%,100%{opacity:0}}
+.zy{animation:zy 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes zy{0%,52%{opacity:0;transform:scale(.9)}62%,94%{opacity:1;transform:scale(1)}100%{opacity:0}}
+.wig{animation:wig .4s linear infinite alternate;transform-box:fill-box;transform-origin:100% 50%}
+@keyframes wig{to{transform:scaleY(-1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.zy{opacity:0}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="300" cy="120" r="66" fill="#FDE3CF" stroke="#E0A08A" stroke-width="6"/>
+<circle cx="300" cy="120" r="56" fill="#FBEBDD"/>
+<circle cx="300" cy="120" r="20" fill="#D9C3F5" stroke="#7B4BC0" stroke-width="2.5"/>
+<g fill="#F6D7B8"><circle cx="270" cy="96" r="3"/><circle cx="330" cy="150" r="3"/><circle cx="276" cy="148" r="3"/><circle cx="330" cy="92" r="3"/></g>
+<g class="zy"><circle cx="300" cy="120" r="72" fill="none" stroke="#F28CB1" stroke-width="4"/><circle cx="300" cy="120" r="20" fill="#B48AE8" stroke="#7B4BC0" stroke-width="2.5"/></g>
+<g class="lead"><g class="a"><g transform="translate(36 120)"><use href="#sp"/></g></g></g>
+<g class="b"><g transform="translate(60 80)"><use href="#sp"/></g></g>
+<g class="c"><g transform="translate(50 166)"><use href="#sp"/></g></g>
+<g transform="translate(110 200)" opacity=".7"><use href="#sp"/></g>
+<g transform="translate(120 40)" opacity=".7"><use href="#sp"/></g>
+</svg>

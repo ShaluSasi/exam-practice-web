@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" role="img">
+<title>Two small garden animals, a long soft-bodied one and a small hard-bodied one</title>
+<style>
+.s{transform-box:fill-box;transform-origin:center;animation:s 1.6s ease-in-out infinite}
+.lg{transform-box:fill-box;transform-origin:100% 50%;animation:lg .6s ease-in-out infinite alternate}
+.lg2{transform-box:fill-box;transform-origin:0% 50%;animation:lg .6s ease-in-out infinite alternate-reverse}
+@keyframes s{0%,100%{transform:translateY(0) scaleX(1)}50%{transform:translateY(-4px) scaleX(.8)}}
+@keyframes lg{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="288" height="100" rx="12" fill="#EAF6FF"/>
+<rect x="6" y="100" width="288" height="74" rx="12" fill="#C9A273"/>
+<rect x="6" y="100" width="288" height="20" fill="#C9A273"/>
+<path d="M6 101 H294" stroke="#6CC04A" stroke-width="5"/>
+<g stroke="#4E8F2A" stroke-width="3" stroke-linecap="round"><path d="M20 100 l-4 -14 M26 100 l2 -16 M140 100 l-3 -12 M146 100 l3 -14 M276 100 l-4 -12 M282 100 l2 -16"/></g>
+<g fill="#A9824F"><circle cx="40" cy="140" r="3"/><circle cx="120" cy="156" r="2.5"/><circle cx="230" cy="150" r="3.5"/></g>
+<g fill="#E79A8C" stroke="#B85C4E" stroke-width="2">
+<ellipse class="s" cx="34" cy="92" rx="5" ry="6"/><ellipse class="s" cx="42" cy="90" rx="5.5" ry="7.5" style="animation-delay:-.15s"/><ellipse class="s" cx="50" cy="88" rx="5.5" ry="8" style="animation-delay:-.3s"/><ellipse class="s" cx="58" cy="87" rx="5.5" ry="8.5" style="animation-delay:-.45s"/><ellipse class="s" cx="66" cy="87" rx="5.5" ry="8.5" style="animation-delay:-.6s"/><ellipse class="s" cx="74" cy="88" rx="5.5" ry="8.5" style="animation-delay:-.75s"/><ellipse class="s" cx="83" cy="89" rx="7" ry="9.5" fill="#C96E5E" style="animation-delay:-.9s"/><ellipse class="s" cx="92" cy="88" rx="5.5" ry="8.5" style="animation-delay:-1.05s"/><ellipse class="s" cx="100" cy="86" rx="5.5" ry="8" style="animation-delay:-1.2s"/><ellipse class="s" cx="109" cy="84" rx="7" ry="7.5" style="animation-delay:-1.35s"/>
+</g>
+<ellipse cx="216" cy="100" rx="40" ry="8" fill="#B5B9C6"/>
+<g fill="none" stroke="#2B6E70" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<polyline class="lg" points="208,76 196,70 188,80"/><polyline class="lg" points="208,84 194,86 188,96"/><polyline class="lg" points="210,92 200,98 196,98"/>
+<polyline class="lg2" points="232,76 244,70 252,80"/><polyline class="lg2" points="232,84 246,86 252,96"/><polyline class="lg2" points="230,92 240,98 244,98"/>
+<path d="M214 52 Q208 40 200 38 M226 52 Q232 40 240 38"/>
+</g>
+<circle cx="220" cy="58" r="8" fill="#2B6E70"/>
+<ellipse cx="220" cy="70" rx="12" ry="6" fill="#3F8E90" stroke="#2B6E70" stroke-width="2"/>
+<ellipse cx="220" cy="86" rx="16" ry="14" fill="#4FA3A5" stroke="#2B6E70" stroke-width="2.5"/>
+<path d="M220 74 V100" stroke="#2B6E70" stroke-width="2"/>
+</svg>

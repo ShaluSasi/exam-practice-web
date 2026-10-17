@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img">
+<title>A cactus with a shiny green skin under a hot desert sun</title>
+<style>
+.ry{transform-box:fill-box;transform-origin:center;animation:ry 14s linear infinite}@keyframes ry{to{transform:rotate(360deg)}}
+.hw{animation:hw 3s ease-in-out infinite}@keyframes hw{0%{transform:translateY(6px);opacity:0}40%{opacity:.8}100%{transform:translateY(-14px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path class="ry" d="M268 52L278 52M264.2 66L272.9 71M254 76.2L259 84.9M240 80L240 90M226 76.2L221 84.9M215.8 66L207.1 71M212 52L202 52M215.8 38L207.1 33M226 27.8L221 19.1M240 24L240 14M254 27.8L259 19.1M264.2 38L272.9 33" stroke="#F2B84B" stroke-width="4" stroke-linecap="round"/>
+<circle cx="240" cy="52" r="22" fill="#F6C453" stroke="#E0A93A" stroke-width="3"/>
+<path d="M0 196Q80 184 150 194T300 190V224Q300 240 284 240H16Q0 240 0 224Z" fill="#F4D9A0" stroke="#D9B26A" stroke-width="2.5"/>
+<g fill="#5FAE3A" stroke="#2F6B1C" stroke-width="3" stroke-linejoin="round">
+<path d="M126 196V70Q126 50 144 50Q162 50 162 70V196Z"/>
+<path d="M126 140H104Q92 140 92 128V100Q92 90 101 90Q110 90 110 100V122H126Z"/>
+<path d="M162 120H184V92Q184 82 193 82Q202 82 202 92V120Q202 136 188 136H162Z"/></g>
+<g fill="none" stroke="#3E8A2A" stroke-width="2"><path d="M144 56V194M134 64V194M154 64V194"/></g>
+<g fill="none" stroke="#E9F9D8" stroke-width="3" stroke-linecap="round" opacity=".9"><path d="M131 76V120M97 100V122M189 92V112"/></g>
+<g stroke="#2F6B1C" stroke-width="1.5" stroke-linecap="round"><path d="M126 90l-6 -3M126 120l-6 -3M162 100l6 -3M162 160l6 -3M126 170l-6 -3M92 112l-6 -2M202 102l6 -2M144 50v-6"/></g>
+<g class="hw" fill="none" stroke="#F2B84B" stroke-width="2.5" stroke-linecap="round"><path d="M40 170q6 -6 0 -12t0 -12M240 168q6 -6 0 -12t0 -12M70 150q6 -6 0 -12t0 -12"/></g>
+</svg>

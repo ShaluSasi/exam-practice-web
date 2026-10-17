@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A small bird with a curved beak at a red flower</title>
+<style>
+.hv{animation:hv 2s ease-in-out infinite}
+@keyframes hv{50%{transform:translate(4px,-6px)}}
+.wg{animation:wg .3s linear infinite alternate;transform-box:fill-box;transform-origin:20% 90%}
+@keyframes wg{to{transform:rotate(-22deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M300 40C250 50 220 80 210 130" fill="none" stroke="#8B5E3C" stroke-width="7" stroke-linecap="round"/>
+<path d="M250 56q10-22 34-24q-8 24-34 24z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2"/>
+<g fill="#E5484D" stroke="#A8282C" stroke-width="2" stroke-linejoin="round">
+<path d="M212 126q-30-6-52-26q8-6 18-2q20 10 36 22z"/>
+<path d="M214 132q-20 18-50 24q0-10 8-14q22-8 40-14z"/>
+<path d="M236 92q-26-12-40-34q8-4 16 2q16 16 26 28z"/>
+</g>
+<g fill="#F2C94C"><circle cx="164" cy="102" r="3"/><circle cx="168" cy="152" r="3"/><circle cx="198" cy="60" r="3"/></g>
+<g class="hv">
+<path d="M146 112L170 104" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M146 112q-6-2-6 2" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<ellipse cx="114" cy="124" rx="30" ry="18" fill="#3D7BB8" stroke="#1F4E7A" stroke-width="2.5"/>
+<circle cx="140" cy="112" r="12" fill="#3D7BB8" stroke="#1F4E7A" stroke-width="2.5"/>
+<ellipse cx="114" cy="132" rx="18" ry="8" fill="#F6C453"/>
+<circle cx="143" cy="109" r="2.5" fill="#FFFFFF"/>
+<path d="M86 128l-30 10l26 4z" fill="#1F4E7A"/>
+<path class="wg" d="M110 114q-20-34-6-50q16 18 18 48z" fill="#5A93CC" stroke="#1F4E7A" stroke-width="2"/>
+<g fill="#F2C94C"><circle cx="136" cy="122" r="2.5"/><circle cx="144" cy="120" r="2"/></g>
+</g>
+</svg>

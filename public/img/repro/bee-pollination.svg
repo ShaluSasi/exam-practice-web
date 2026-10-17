@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A bee flying between two bright flowers</title>
+<defs>
+<g id="sf">
+<g fill="#F6C453" stroke="#C99A1E" stroke-width="2">
+<ellipse cx="0" cy="-26" rx="9" ry="18"/><ellipse cx="0" cy="26" rx="9" ry="18"/><ellipse cx="-26" cy="0" rx="18" ry="9"/><ellipse cx="26" cy="0" rx="18" ry="9"/>
+<ellipse cx="-18" cy="-18" rx="9" ry="17" transform="rotate(-45 -18 -18)"/><ellipse cx="18" cy="-18" rx="9" ry="17" transform="rotate(45 18 -18)"/><ellipse cx="-18" cy="18" rx="9" ry="17" transform="rotate(45 -18 18)"/><ellipse cx="18" cy="18" rx="9" ry="17" transform="rotate(-45 18 18)"/>
+</g>
+<circle r="15" fill="#8B5E3C" stroke="#5E3C22" stroke-width="2"/>
+<g fill="#F2C94C"><circle cx="-5" cy="-4" r="2"/><circle cx="5" cy="3" r="2"/><circle cx="-2" cy="7" r="2"/></g>
+</g>
+</defs>
+<style>
+.bee{animation:fly 4s ease-in-out infinite}
+@keyframes fly{0%,10%{transform:translate(0,0)}45%,55%{transform:translate(150px,10px)}90%,100%{transform:translate(0,0)}}
+.wg{animation:wg .2s linear infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes wg{to{transform:scaleY(.6)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M70 210V130M220 210V140" stroke="#4E8F2A" stroke-width="6" stroke-linecap="round"/>
+<path d="M70 180q-28-12-38 4q22 8 38-4zM220 186q28-12 38 4q-22 8-38-4z" fill="#6DB33F" stroke="#3E7A20" stroke-width="2"/>
+<use href="#sf" transform="translate(70 120)"/>
+<g transform="translate(220 132)">
+<g fill="#F28CB1" stroke="#C2557F" stroke-width="2"><circle cx="0" cy="-24" r="16"/><circle cx="23" cy="-7" r="16"/><circle cx="14" cy="20" r="16"/><circle cx="-14" cy="20" r="16"/><circle cx="-23" cy="-7" r="16"/></g>
+<circle r="10" fill="#F6C453" stroke="#C99A1E" stroke-width="2"/>
+</g>
+<g class="bee">
+<g transform="translate(66 72)">
+<g class="wg"><ellipse cx="-4" cy="-14" rx="8" ry="11" fill="#E3F2FF" stroke="#4A90C8" stroke-width="1.8"/><ellipse cx="8" cy="-13" rx="7" ry="10" fill="#E3F2FF" stroke="#4A90C8" stroke-width="1.8"/></g>
+<ellipse cx="0" cy="0" rx="18" ry="11" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M-6-10v20M4-10v20" stroke="#2B2F4A" stroke-width="4"/>
+<circle cx="18" cy="-2" r="7" fill="#2B2F4A"/>
+<g fill="#F2C94C" stroke="#B8860B" stroke-width="1"><circle cx="-6" cy="14" r="3"/><circle cx="4" cy="15" r="3"/></g>
+</g>
+</g>
+</svg>
