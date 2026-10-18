@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A balance scale with coins on one pan and bills on the other, level</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}.o2{stroke:#2B2F4A;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.sw{animation:sw 4s ease-in-out infinite;transform-box:view-box;transform-origin:200px 92px}@keyframes sw{25%{transform:rotate(2.5deg)}75%{transform:rotate(-2.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M200 92V250M150 262H250" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/><path d="M170 262L200 236L230 262Z" fill="#A3A8CC" class="o"/>
+<g class="sw"><path d="M80 92H320" stroke="#C8925A" stroke-width="8" stroke-linecap="round"/><circle cx="200" cy="92" r="9" fill="#F6C453" class="o"/>
+<path d="M80 92L52 170M80 92L108 170M320 92L292 170M320 92L348 170" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M40 170H120Q112 192 80 192Q48 192 40 170Z" fill="#CDEBFA" class="o"/><path d="M280 170H360Q352 192 320 192Q288 192 280 170Z" fill="#FFD1A8" class="o"/>
+<circle cx="66" cy="160" r="10" fill="#F6C453" stroke="#B8860B" stroke-width="2"/><text x="66" y="164.2" font-family="system-ui, sans-serif" font-weight="600" font-size="11.5"  text-anchor="middle" fill="#8A5A00">₹</text><circle cx="86" cy="160" r="10" fill="#F6C453" stroke="#B8860B" stroke-width="2"/><text x="86" y="164.2" font-family="system-ui, sans-serif" font-weight="600" font-size="11.5"  text-anchor="middle" fill="#8A5A00">₹</text><circle cx="76" cy="145" r="10" fill="#F6C453" stroke="#B8860B" stroke-width="2"/><text x="76" y="149.2" font-family="system-ui, sans-serif" font-weight="600" font-size="11.5"  text-anchor="middle" fill="#8A5A00">₹</text><g transform="translate(98 154)"><rect x="-13" y="-8" width="26" height="16" rx="3" fill="#BFE3C2" stroke="#2E7D3A" stroke-width="2"/><circle r="5.333333333333333" fill="none" stroke="#2E7D3A" stroke-width="1.5"/><text x="0" y="4" font-family="system-ui, sans-serif" font-weight="600" font-size="11"  text-anchor="middle" fill="#2E7D3A">₹</text></g>
+<rect x="296" y="136" width="22" height="30" rx="2" fill="#FFFFFF" class="o2"/><rect x="316" y="142" width="22" height="26" rx="2" fill="#FFFFFF" class="o2"/><path d="M300 146H312M300 154H312M320 152H332M320 160H332" stroke="#A3A8CC" stroke-width="2"/></g>
+<text x="80" y="230" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >Income</text><text x="320" y="230" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >Expenses</text>
+</svg>

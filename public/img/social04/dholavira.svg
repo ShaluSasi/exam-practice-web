@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A plan of a walled settlement between two streams, with channels and storage tanks, with numbered markers</title>
+<style>
+.fl{stroke-dasharray:10 8;animation:fl 1.8s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-36}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="16" width="368" height="268" rx="12" fill="#E6D3A8"/>
+<path d="M40 16Q70 80 52 150T64 284H94Q82 220 86 150T70 16Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="fl" d="M55 20Q82 80 68 150T78 280" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M330 16Q360 80 344 150T356 284H386V16Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="fl" d="M352 20Q372 80 360 150T370 280" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="44" y="96" width="50" height="16" rx="3" fill="#A3A8CC" stroke="#4A4F63" stroke-width="2.5" transform="rotate(8 69 104)"/>
+<path d="M96 112Q118 116 132 116" fill="none" stroke="#5FB4E6" stroke-width="8" stroke-linecap="round"/>
+<path class="fl" d="M96 112Q118 116 132 116" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+<rect x="128" y="60" width="180" height="190" rx="4" fill="#EFE4CC" stroke="#8C6E4A" stroke-width="6"/>
+<g fill="#D9C49A" stroke="#8C6E4A" stroke-width="2"><rect x="160" y="160" width="30" height="22"/><rect x="200" y="160" width="30" height="22"/><rect x="200" y="192" width="30" height="22"/><rect x="240" y="80" width="30" height="22"/><rect x="160" y="192" width="30" height="22"/></g>
+<rect x="140" y="96" width="70" height="44" fill="#5FB4E6" stroke="#0B6E9E" stroke-width="3"/>
+<path d="M146 102h58M152 108h46M158 114h34" stroke="#CDEBFA" stroke-width="2"/>
+<rect x="246" y="190" width="50" height="46" fill="#5FB4E6" stroke="#0B6E9E" stroke-width="3"/>
+<path d="M252 196h38M258 202h26" stroke="#CDEBFA" stroke-width="2"/>
+<path d="M210 118H226V196H246" fill="none" stroke="#5FB4E6" stroke-width="5"/>
+</svg>

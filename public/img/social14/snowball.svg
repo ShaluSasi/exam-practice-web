@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A snowball rolling down a hill and growing bigger</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}.o2{stroke:#2B2F4A;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.ball{animation:rl 4s ease-in infinite;transform-box:fill-box;transform-origin:center}@keyframes rl{0%{transform:translate(0,0) scale(.45)}100%{transform:translate(260px,94px) scale(1.5)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="300" rx="16" fill="#E3F2FD"/><path d="M0 70L400 250V284Q400 300 384 300H16Q0 300 0 284Z" fill="#FFFFFF" class="o"/>
+<circle cx="330" cy="62" r="24" fill="#F6C453" class="o"/><path d="M240 40h40a12 12 0 0 0-20-14a14 14 0 0 0-20 14z" fill="#FFFFFF" class="o2"/><g transform="translate(60 230)"><path d="M0 30V46" stroke="#8A5A2B" stroke-width="5"/><path d="M-16 34L0 -6L16 34Z" fill="#5FB565" class="o"/></g>
+<g class="ball"><circle cx="60" cy="84" r="24" fill="#FFFFFF" class="o"/><path d="M46 76Q56 68 68 74M50 94Q62 100 74 90" stroke="#A3A8CC" stroke-width="2" fill="none"/></g>
+</svg>

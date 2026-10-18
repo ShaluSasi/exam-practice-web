@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>An elephant</title>
+<style>
+.bob{animation:bob 3s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="80" cy="80" r="66" fill="#FFF3D6" stroke="#E0C48E" stroke-width="3"/><g class="bob" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="46" y="96" width="14" height="28" fill="#A3A8CC"/><rect x="98" y="96" width="14" height="28" fill="#A3A8CC"/><ellipse cx="80" cy="84" rx="44" ry="30" fill="#A3A8CC"/><circle cx="118" cy="70" r="20" fill="#A3A8CC"/><path d="M132 78Q142 104 128 118" fill="none" stroke="#A3A8CC" stroke-width="10" stroke-linecap="round"/><path d="M110 58Q96 70 108 86" fill="#C7CBE5"/><circle cx="124" cy="66" r="3" fill="#2B2F4A"/></g>
+</svg>

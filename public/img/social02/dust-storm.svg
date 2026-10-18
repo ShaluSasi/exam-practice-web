@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A tall brown cloud of dust rolling over dry, cracked land</title>
+<style>
+.ds{animation:ds 4s ease-in-out infinite alternate}@keyframes ds{from{transform:translateX(-20px)}to{transform:translateX(20px)}}
+.pt{animation:pt 1.5s linear infinite}@keyframes pt{from{transform:translateX(0);opacity:1}to{transform:translateX(50px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#F3E2C4"/><circle cx="330" cy="50" r="18" fill="#F6E3B0" stroke="#E0C080" stroke-width="2"/>
+<path d="M0 168H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#E2C38E" />
+<path d="M30 190L60 200L50 220M120 186L140 204L170 200M220 196L250 210L280 200M310 186L330 206" fill="none" stroke="#B8935A" stroke-width="2"/>
+<g stroke="#8A6A4E" stroke-width="2" fill="none" stroke-linecap="round"><path d="M300 176V160M300 166L292 158M300 164L308 156"/><path d="M360 182V168M360 172L354 164"/></g>
+<g class="ds" fill="#C29A62" opacity=".9"><circle cx="40" cy="100" r="60"/><circle cx="110" cy="130" r="50"/><circle cx="60" cy="40" r="44"/><circle cx="150" cy="170" r="30"/><circle cx="10" cy="170" r="40"/></g>
+<g class="pt" fill="#A88048"><circle cx="190" cy="120" r="2.5"/><circle cx="200" cy="150" r="2"/><circle cx="210" cy="96" r="2"/><circle cx="186" cy="176" r="2.5"/></g>
+</svg>

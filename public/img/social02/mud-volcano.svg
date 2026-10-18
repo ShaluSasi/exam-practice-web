@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A low grey mound on an island with bubbles coming up through the ground</title>
+<style>
+.b{animation:b 3s linear infinite}.b2{animation-delay:1s}.b3{animation-delay:2s}@keyframes b{from{transform:translateY(0);opacity:.9}to{transform:translateY(-120px);opacity:.2}}
+.pp{animation:pp 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}.pp2{animation-delay:.9s}@keyframes pp{0%{transform:scale(.2);opacity:1}80%{transform:scale(1.2);opacity:1}100%{transform:scale(1.3);opacity:0}}
+.wv{animation:wv 3s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M300 140H400V150H300Z" fill="#7CC4EC"/><path class="wv" d="M304 140L308 141.5L312 139.3L316 138.8L320 141.2L324 140.7L328 138.5L332 140.0L336 141.5L340 139.3L344 138.8L348 141.2L352 140.7L356 138.5L360 140.0L364 141.5L368 139.3L372 138.8L376 141.2L380 140.7L384 138.5L388 140.0L392 141.5L396 139.3L400 138.8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<path d="M0 150H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#B89A72" />
+<path d="M0 190Q100 182 200 194T400 188M0 226Q120 218 220 230T400 222" fill="none" stroke="#9C7E58" stroke-width="2"/>
+<path d="M200 258Q190 200 200 116" fill="none" stroke="#8E7A66" stroke-width="16" stroke-linecap="round"/>
+<g fill="#FFFFFF" stroke="#C9C1B6" stroke-width="1.5"><circle class="b" cx="198" cy="244" r="5"/><circle class="b b2" cx="194" cy="244" r="4"/><circle class="b b3" cx="201" cy="244" r="3.5"/></g>
+<path d="M104 152Q160 108 186 110Q200 104 214 110Q240 108 296 152Z" fill="#9C8B78" stroke="#6E5E4E" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M190 112Q176 128 160 150M212 112Q228 132 246 150" fill="none" stroke="#7A6A58" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="200" cy="110" rx="16" ry="5" fill="#7A6A58"/>
+<g fill="none" stroke="#5E5040" stroke-width="2"><circle class="pp" cx="195" cy="104" r="6"/><circle class="pp pp2" cx="206" cy="106" r="5"/></g>
+<g transform="translate(60 152) scale(1)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g><g transform="translate(84 154) scale(0.8)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g><g transform="translate(330 152) scale(0.9)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g>
+</svg>

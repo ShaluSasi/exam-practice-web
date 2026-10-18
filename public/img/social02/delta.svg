@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A river seen from above splitting into many channels as it reaches the sea</title>
+<style>
+.fl{stroke-dasharray:10 9;animation:fl 1.4s linear infinite}@keyframes fl{to{stroke-dashoffset:-38}}.bt{animation:bt 2s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}@keyframes bt{from{transform:rotate(-5deg)}to{transform:rotate(5deg) translateY(2px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="400" height="260" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="400" height="260" fill="#B5DDA0"/>
+<path d="M0 180Q200 200 400 180V260H0Z" fill="#7CC4EC"/>
+<path d="M200 106L84 204Q200 238 316 204Z" fill="#E4D58C" stroke="#B9A24A" stroke-width="2"/><rect x="150" y="160" width="14" height="9" fill="#3FA34D" opacity=".6"/><rect x="170" y="175" width="14" height="9" fill="#3FA34D" opacity=".6"/><rect x="230" y="165" width="14" height="9" fill="#3FA34D" opacity=".6"/><rect x="250" y="180" width="14" height="9" fill="#3FA34D" opacity=".6"/><rect x="205" y="190" width="14" height="9" fill="#3FA34D" opacity=".6"/>
+<path d="M200 0V110" stroke="#7CC4EC" stroke-width="12"/>
+<g fill="none" stroke="#7CC4EC" stroke-width="6" stroke-linecap="round"><path d="M200 108Q150 150 100 205"/><path d="M200 108Q175 150 150 218"/><path d="M200 108Q200 150 200 226"/><path d="M200 108Q225 150 250 218"/><path d="M200 108Q250 150 300 205"/></g>
+<g fill="none" stroke="#FFFFFF" stroke-width="1.8"><path class="fl" d="M200 0V108"/><path class="fl" d="M200 108Q150 150 100 205"/><path class="fl" d="M200 108Q175 150 150 218"/><path class="fl" d="M200 108Q200 150 200 226"/><path class="fl" d="M200 108Q225 150 250 218"/><path class="fl" d="M200 108Q250 150 300 205"/></g>
+<g transform="translate(60 60) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(340 80) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(90 120) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(320 140) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g>
+<g class="bt"><path d="M320 236H352L346 245H326Z" fill="#A0663A" stroke="#2B2F4A" stroke-width="2"/><path d="M336 236V222" stroke="#2B2F4A" stroke-width="2"/></g></g>
+</svg>

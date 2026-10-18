@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A village in a drought with a dry field, a stepwell, a worried farmer, a bus to the city and a water tanker</title>
+<style>
+.ray{animation:pulse 2.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.bus{animation:go 5s ease-in-out infinite}
+@keyframes go{0%{transform:translate(0,0)}100%{transform:translate(26px,-22px)}}
+.drop{animation:drip 1.6s ease-in infinite}
+@keyframes drip{0%{transform:translateY(0);opacity:1}100%{transform:translateY(12px);opacity:0}}
+.haze{animation:haze 3s ease-in-out infinite}
+@keyframes haze{0%,100%{opacity:.2}50%{opacity:.7}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V122H0V16Q0 0 16 0Z" fill="#FDE9C8"/>
+<g class="ray"><circle cx="52" cy="44" r="30" fill="#FFB347" opacity=".45"/></g>
+<circle cx="52" cy="44" r="20" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<g fill="#C7CBDD" stroke="#7E84A8" stroke-width="2">
+<rect x="318" y="70" width="18" height="52"/><rect x="338" y="52" width="22" height="70"/><rect x="362" y="80" width="20" height="42"/>
+</g>
+<g fill="#FFF3C4"><rect x="342" y="60" width="5" height="5"/><rect x="351" y="60" width="5" height="5"/><rect x="342" y="74" width="5" height="5"/><rect x="322" y="80" width="5" height="5"/><rect x="366" y="90" width="5" height="5"/></g>
+<path d="M0 120H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#E7CF9F"/>
+<path class="haze" d="M150 112Q170 104 190 112T230 112" fill="none" stroke="#E5A04D" stroke-width="2" stroke-linecap="round"/>
+<path d="M226 214L322 122H340L262 214Z" fill="#B9BCCB" stroke="#7E84A8" stroke-width="2" stroke-linejoin="round"/>
+<g class="bus"><rect x="268" y="146" width="40" height="18" rx="4" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="273" y="150" width="8" height="6" fill="#CDEBFA"/><rect x="285" y="150" width="8" height="6" fill="#CDEBFA"/><rect x="297" y="150" width="8" height="6" fill="#CDEBFA"/>
+<circle cx="276" cy="165" r="4" fill="#2B2F4A"/><circle cx="300" cy="165" r="4" fill="#2B2F4A"/></g>
+<path d="M18 146H132L120 158H30Z M30 158H120L108 170H42Z M42 170H108L96 182H54Z M54 182H96L86 196H64Z" fill="#C8A27A" stroke="#8B6A47" stroke-width="2" stroke-linejoin="round"/>
+<path d="M64 196H86L84 202H66Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2"/>
+<g fill="#C8653A" stroke="#8B3F22" stroke-width="2"><ellipse cx="146" cy="160" rx="11" ry="12"/><ellipse cx="146" cy="146" rx="5" ry="3"/><ellipse cx="164" cy="166" rx="9" ry="10"/></g>
+<rect x="10" y="226" width="150" height="62" rx="6" fill="#D9B97E" stroke="#A9864B" stroke-width="2.5"/>
+<path d="M30 236L46 252L38 270M70 232L80 250L100 256M110 240L122 262L146 268M56 270L76 262" fill="none" stroke="#8B6A47" stroke-width="2" stroke-linecap="round"/>
+<g fill="none" stroke="#9A8A3C" stroke-width="2.5" stroke-linecap="round">
+<path d="M40 248V232Q40 224 32 222M90 252V236Q90 228 98 226M132 252V238Q132 230 124 228"/>
+</g>
+<circle cx="200" cy="180" r="11" fill="#8A5A3C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M188 176Q200 160 212 176Z" fill="#fff" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M186 194H214L218 236H182Z" fill="#fff" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M188 238V258M212 238V258" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M186 200L170 214M214 200L230 210" stroke="#8A5A3C" stroke-width="4" stroke-linecap="round"/>
+<path d="M226 206Q236 200 242 210Q238 220 228 216Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M196 186Q200 183 204 186" fill="none" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="286" y="226" width="64" height="30" rx="14" fill="#7FC8EE" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="282" y="252" width="104" height="10" fill="#6E7396" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M352 230H372L384 244V252H352Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="358" y="234" width="12" height="9" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="300" cy="264" r="8" fill="#2B2F4A"/><circle cx="366" cy="264" r="8" fill="#2B2F4A"/>
+<path d="M290 256V266" stroke="#2B2F4A" stroke-width="2"/>
+<path class="drop" d="M290 270Q286 276 290 279Q294 276 290 270Z" fill="#0B93D4"/>
+<g fill="#C8925A" stroke="#2B2F4A" stroke-width="2"><rect x="250" y="252" width="22" height="18"/><rect x="254" y="236" width="16" height="16"/></g>
+</svg>

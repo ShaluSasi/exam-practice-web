@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img">
+<title>A pyramid of election officials from one national office down to many field workers</title>
+<style>
+.flow{stroke-dasharray:5 6;animation:flow 2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<g id="pp"><circle r="9" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/><path d="M-13 28V20Q-13 11 0 11Q13 11 13 20V28Z" stroke="#2B2F4A" stroke-width="2"/></g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M180 20L340 214H20Z" fill="#F3E9D2"/>
+<g fill="none" stroke="#A3A8CC" stroke-width="2.5" class="flow">
+<path d="M180 66V84M180 122L110 140M180 122V140M180 122L250 140M110 176L70 188M110 176L110 188M250 176L250 188M250 176L290 188M180 176V188"/>
+</g>
+<rect x="150" y="28" width="60" height="38" rx="6" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M146 30L180 14L214 30Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="172" y="44" width="16" height="22" rx="2" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<use href="#pp" x="180" y="96" fill="#FF8A1F"/>
+<use href="#pp" x="110" y="150" fill="#3FA34D"/><use href="#pp" x="180" y="150" fill="#3FA34D"/><use href="#pp" x="250" y="150" fill="#3FA34D"/>
+<g><use href="#pp" x="70" y="198" fill="#8E7FD6"/><use href="#pp" x="110" y="198" fill="#8E7FD6"/><use href="#pp" x="180" y="198" fill="#8E7FD6"/><use href="#pp" x="250" y="198" fill="#8E7FD6"/><use href="#pp" x="290" y="198" fill="#8E7FD6"/></g>
+<g fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"><rect x="78" y="208" width="8" height="10"/><rect x="118" y="208" width="8" height="10"/><rect x="188" y="208" width="8" height="10"/><rect x="258" y="208" width="8" height="10"/><rect x="298" y="208" width="8" height="10"/></g>
+</svg>

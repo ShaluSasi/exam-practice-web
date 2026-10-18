@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img">
+<title>Four nested rounded shapes, one inside another, with a small figure at the centre</title>
+<style>
+.rp{transform-box:fill-box;transform-origin:center;animation:rp 3s ease-out infinite}@keyframes rp{from{transform:scale(.4);opacity:.8}to{transform:scale(1.15);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="20" width="320" height="200" rx="40" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/><rect x="60" y="45" width="240" height="150" rx="32" fill="#DFF2E1" stroke="#2B2F4A" stroke-width="2.5"/><rect x="100" y="70" width="160" height="100" rx="24" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2.5"/><rect x="140" y="95" width="80" height="50" rx="16" fill="#FFE3C2" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect class="rp" x="140" y="95" width="80" height="50" rx="16" fill="none" stroke="#FF8A1F" stroke-width="3"/><path d="M174.2 140Q174.2 124.4 180 124.4Q185.9 124.4 185.9 140Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="180" cy="120.5" r="4.6" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/><path d="M175.5 119.9A4.6 4.6 0 0 1 184.6 119.9Q180 117.6 175.5 119.9Z" fill="#2B2F4A"/>
+</svg>

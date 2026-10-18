@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A vegetable stall with price tags in rupees and a shopper paying</title>
+<style>
+.coin{animation:pay 2s ease-in-out infinite}
+@keyframes pay{0%{transform:translate(0,0);opacity:1}80%{transform:translate(-22px,4px);opacity:1}100%{transform:translate(-22px,4px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H224Q240 0 240 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 148H240V164Q240 180 224 180H16Q0 180 0 164Z" fill="#D9C49A"/>
+<rect x="24" y="80" width="130" height="68" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M16 82L28 52H150L162 82Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M56 52L52 82M89 52V82M122 52L126 82" stroke="#fff" stroke-width="5"/>
+<rect x="28" y="112" width="122" height="36" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="1.5"><circle cx="44" cy="106" r="8" fill="#E5484D"/><circle cx="58" cy="108" r="7" fill="#E5484D"/>
+<ellipse cx="90" cy="106" rx="12" ry="7" fill="#3FA34D"/><circle cx="124" cy="106" r="8" fill="#F6C453"/><circle cx="138" cy="108" r="7" fill="#F6C453"/></g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<rect x="36" y="120" width="30" height="16" rx="3" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><text x="51" y="132">₹40</text>
+<rect x="76" y="120" width="30" height="16" rx="3" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><text x="91" y="132">₹25</text>
+<rect x="116" y="120" width="30" height="16" rx="3" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><text x="131" y="132">₹60</text>
+</g>
+<circle cx="194" cy="84" r="10" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M178 150L182 108Q184 98 194 98Q204 98 206 108L210 150Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M184 112L168 118" stroke="#A86E48" stroke-width="4" stroke-linecap="round"/>
+<g class="coin"><circle cx="164" cy="118" r="5" fill="#F6C453" stroke="#B88A1E" stroke-width="1.5"/></g>
+</svg>

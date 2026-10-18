@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A stone wall with arrows stopped in front of it, and a sapling growing out of a cracked rock</title>
+<style>
+.sway{animation:sw 4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}.pulse{animation:pu 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}.shot{animation:sh 2.6s ease-in infinite}@keyframes sh{0%{transform:translateX(-30px);opacity:0}30%{opacity:1}70%,100%{transform:translateX(0);opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="196" width="400" height="44" rx="0" fill="#D9C49A"/><path d="M0 196H400" stroke="#B9A273" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="60" y="86" width="100" height="110" fill="#C9B79A"/>
+<path d="M60 108H160M60 130H160M60 152H160M60 174H160M90 86V108M130 86V108M75 108V130M115 108V130M145 108V130M90 130V152M130 130V152M75 152V174M115 152V174M145 152V174M90 174V196M130 174V196" fill="none" stroke="#9C8A6E" stroke-width="2"/>
+<rect x="60" y="74" width="16" height="12" fill="#C9B79A"/><rect x="92" y="74" width="16" height="12" fill="#C9B79A"/><rect x="124" y="74" width="16" height="12" fill="#C9B79A"/><rect x="148" y="74" width="12" height="12" fill="#C9B79A"/></g>
+<g class="shot"><path class="" d="M4 140L50 140" stroke="#E5484D" stroke-width="3" stroke-linecap="round" fill="none"/><polygon points="50,140 41.0,144.3 41.0,135.7" fill="#E5484D"/></g>
+<path d="M44 196L36 170M30 196L24 174" stroke="#7A5230" stroke-width="2.5" stroke-linecap="round"/>
+<g class="pulse"><ellipse cx="200" cy="138" rx="16" ry="10" fill="none" stroke="#FF8A1F" stroke-width="5"/><ellipse cx="222" cy="138" rx="16" ry="10" fill="none" stroke="#0B93D4" stroke-width="5"/></g>
+<path d="M262 196Q256 150 290 140Q330 128 360 150Q384 170 378 196Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M318 140L312 160L322 172L316 196" fill="none" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="sway"><path d="M316 142Q314 110 318 84" stroke="#3FA34D" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M317 112Q296 104 290 88Q310 90 317 108Z" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><path d="M318 98Q338 88 346 72Q326 74 318 94Z" fill="#8FD07F" stroke="#3FA34D" stroke-width="2"/><circle cx="318" cy="82" r="6" fill="#8FD07F" stroke="#3FA34D" stroke-width="2"/></g>
+<g class="pulse"><circle cx="352" cy="44" r="16" fill="#F6C453" stroke="#E0A526" stroke-width="2.5"/></g>
+</svg>

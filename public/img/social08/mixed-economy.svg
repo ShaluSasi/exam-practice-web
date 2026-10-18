@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>Two overlapping circles named Government and Market with small symbols inside</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.hs{animation:hs 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes hs{50%{transform:scale(1.15)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="150" cy="160" r="110" fill="#E8DDEF" fill-opacity=".85" stroke="#7B61A8" stroke-width="3"/><circle cx="250" cy="160" r="110" fill="#CDEBFA" fill-opacity=".7" stroke="#0B93D4" stroke-width="3"/>
+<text x="110" y="40" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >Government</text><text x="296" y="40" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >Market</text>
+<path d="M70 150Q70 120 100 120H104V178H96Q70 178 70 150Z" fill="#FFFFFF" class="o"/><path d="M84 120L106 120M104 136H120Q128 136 128 144Q128 152 120 152H104" fill="none" class="o"/>
+<path d="M90 200L106 194L122 200V220Q106 234 90 220Z" fill="#3FA34D" class="o"/>
+<g transform="translate(80 260) scale(0.6)"><rect x="-5" y="-30" width="10" height="30" fill="#C8925A" stroke="#8A5A2E" stroke-width="2"/><circle cx="0" cy="-42" r="20" fill="#7CC67F" stroke="#3FA34D" stroke-width="2.5"/></g>
+<g class="hs"><path d="M178 160Q190 146 200 156Q210 146 222 160L200 182Z" fill="#E5484D" class="o"/></g>
+<path d="M278 120H326L320 106H284Z" fill="#FF8A1F" class="o"/><rect x="282" y="120" width="40" height="30" fill="#F6C453" class="o"/>
+<path d="M300 182A12 12 0 0 1 308 204V210H292V204A12 12 0 0 1 300 182Z" fill="#F6C453" class="o"/><path d="M294 216H306" class="o"/>
+<circle cx="330" cy="236" r="12" fill="#F6C453" stroke="#B8860B" stroke-width="2"/><text x="330" y="241.04" font-family="system-ui, sans-serif" font-weight="600" font-size="13.799999999999999" fill="#2B2F4A" text-anchor="middle" >₹</text><circle cx="310" cy="248" r="12" fill="#F6C453" stroke="#B8860B" stroke-width="2"/><text x="310" y="253.04" font-family="system-ui, sans-serif" font-weight="600" font-size="13.799999999999999" fill="#2B2F4A" text-anchor="middle" >₹</text>
+</svg>

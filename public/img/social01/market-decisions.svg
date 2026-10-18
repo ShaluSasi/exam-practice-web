@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A town with a shopper holding a basket, a factory, a pillared public building and a delivery truck</title>
+<style>
+.smk{animation:smk 3.5s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes smk{0%{opacity:.8;transform:translateY(0) scale(.7)}100%{opacity:0;transform:translateY(-22px) scale(1.4)}}
+.box{animation:belt 3s linear infinite}
+@keyframes belt{from{transform:translateX(0)}to{transform:translateX(40px)}}
+.trk{animation:bump .6s ease-in-out infinite alternate}
+@keyframes bump{from{transform:translateY(0)}to{transform:translateY(-2px)}}
+.bas{animation:sw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:top}
+@keyframes sw{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V160H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 158H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#D9E8C8"/>
+<path d="M0 222H400V266H0Z" fill="#7A7F96"/>
+<path d="M8 244H392" stroke="#FFF9EE" stroke-width="3" stroke-dasharray="14 12"/>
+<circle class="smk" cx="236" cy="30" r="10" fill="#C7CBDD"/>
+<circle class="smk" cx="240" cy="28" r="8" fill="#C7CBDD" style="animation-delay:1.7s"/>
+<rect x="228" y="40" width="16" height="40" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M146 152V90L176 72V90L206 72V90L236 72V152Z" fill="#FFB27A" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"><rect x="156" y="100" width="18" height="14"/><rect x="184" y="100" width="18" height="14"/><rect x="212" y="100" width="18" height="14"/></g>
+<rect x="160" y="128" width="72" height="8" rx="4" fill="#6E7396" stroke="#2B2F4A" stroke-width="2"/>
+<g class="box" fill="#C8925A" stroke="#2B2F4A" stroke-width="1.5"><rect x="162" y="118" width="10" height="10"/><rect x="182" y="118" width="10" height="10"/></g>
+<path d="M290 150H390V160H290Z" fill="#C7CBDD" stroke="#6E7396" stroke-width="2"/>
+<path d="M296 140H384V150H296Z" fill="#C7CBDD" stroke="#6E7396" stroke-width="2"/>
+<path d="M286 76L340 46L394 76Z" fill="#F3E3C7" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="292" y="76" width="96" height="10" fill="#F3E3C7" stroke="#6E7396" stroke-width="2.5"/>
+<g fill="#FFFFFF" stroke="#6E7396" stroke-width="2.5"><rect x="300" y="86" width="10" height="54"/><rect x="322" y="86" width="10" height="54"/><rect x="348" y="86" width="10" height="54"/><rect x="370" y="86" width="10" height="54"/></g>
+<circle cx="340" cy="64" r="5" fill="#F6C453" stroke="#6E7396" stroke-width="2"/>
+<circle cx="60" cy="168" r="10" fill="#8A5A3C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M50 160Q60 150 70 160" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M46 220L50 184Q52 178 60 178Q68 178 70 184L74 220Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M70 188L84 200" stroke="#8A5A3C" stroke-width="4" stroke-linecap="round"/>
+<g class="bas"><path d="M80 198Q86 190 92 198" fill="none" stroke="#8B5A2B" stroke-width="2.5"/><path d="M76 200H96L92 216H80Z" fill="#C8925A" stroke="#8B5A2B" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="82" cy="198" r="4" fill="#3FA34D"/><circle cx="90" cy="197" r="4" fill="#FF8A1F"/></g>
+<rect x="18" y="176" width="22" height="30" rx="3" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M22 184h14M22 190h14M22 196h10" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="trk">
+<rect x="186" y="222" width="58" height="30" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M244 230H262L274 242V252H244Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="250" y="234" width="12" height="8" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/>
+<rect x="198" y="230" width="14" height="12" fill="#C8925A" stroke="#fff" stroke-width="1.5"/><rect x="218" y="230" width="14" height="12" fill="#C8925A" stroke="#fff" stroke-width="1.5"/>
+</g>
+<circle cx="202" cy="256" r="7" fill="#2B2F4A"/><circle cx="260" cy="256" r="7" fill="#2B2F4A"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img">
+<title>A rocky coastline with waves, showing several rock shapes carved by the sea</title>
+<style>
+.wv{animation:wv 2.4s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-12px)}}
+.sp{animation:sp 1.6s ease-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{from{transform:scale(.4);opacity:1}to{transform:scale(1.3);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="420" height="260" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><path d="M16 0H404Q420 0 420 16V160H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect y="150" width="420" height="110" fill="#5DB3E4"/>
+<path d="M0 162H380L392 176H0Z" fill="#C9B79C" stroke="#9C8A6E" stroke-width="1.5"/>
+<rect y="150" width="420" height="26" fill="#7CC4EC" opacity=".45"/>
+<path d="M0 60H120Q135 62 140 80L146 158H0Z" fill="#D9C49A" stroke="#8A6A4E" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 60H122" stroke="#3FA34D" stroke-width="5"/>
+<path d="M30 90L60 96M20 120L70 124M80 140L120 142" stroke="#B8A27A" stroke-width="2"/>
+<path d="M112 158Q112 128 128 126Q142 128 144 158Z" fill="#5A4636"/>
+<path d="M165 158L170 100Q200 86 232 102L236 158H218L216 134Q200 114 186 134L184 158Z" fill="#D9C49A" stroke="#8A6A4E" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M172 98Q200 84 230 100" fill="none" stroke="#3FA34D" stroke-width="4"/>
+<path d="M262 158L266 88Q276 80 288 88L292 158Z" fill="#D9C49A" stroke="#8A6A4E" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M266 88Q276 80 288 88" fill="none" stroke="#3FA34D" stroke-width="4"/>
+<path d="M330 160L334 146Q342 140 350 146L354 160Z" fill="#D9C49A" stroke="#8A6A4E" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="wv" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"><path d="M150 196q14 -10 28 0t28 0t28 0M250 214q14 -10 28 0t28 0t28 0M40 222q14 -10 28 0t28 0t28 0M300 186q14 -10 28 0t28 0"/></g>
+<ellipse class="sp" cx="150" cy="156" rx="12" ry="5" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+<path d="M330 40l8 4l8 -4M360 56l7 3l7 -3" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

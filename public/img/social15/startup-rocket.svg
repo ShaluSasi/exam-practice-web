@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" role="img">
+<title>A rocket launching out of a laptop into a starry sky, above a rising line</title>
+<style>
+.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}.fly{animation:fly 3s ease-in-out infinite}@keyframes fly{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.fl{animation:fl .4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:top center}@keyframes fl{from{transform:scaleY(.8)}to{transform:scaleY(1.2)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H324Q340 0 340 16V204Q340 220 324 220H16Q0 220 0 204V16Q0 0 16 0Z" fill="#1F2A4D"/>
+<path class="tw" style="animation-delay:0s" d="M40 34L41.68 38.32L46 40L41.68 41.68L40 46L38.32 41.68L34 40L38.32 38.32Z" fill="#FFF3C4"/><path class="tw" style="animation-delay:0.6s" d="M290 25L291.4 28.6L295 30L291.4 31.4L290 35L288.6 31.4L285 30L288.6 28.6Z" fill="#FFF3C4"/><path class="tw" style="animation-delay:1.2s" d="M310 114L311.68 118.32L316 120L311.68 121.68L310 126L308.32 121.68L304 120L308.32 118.32Z" fill="#FFF3C4"/><path class="tw" style="animation-delay:0.9s" d="M60 126L61.12 128.88L64 130L61.12 131.12L60 134L58.88 131.12L56 130L58.88 128.88Z" fill="#FFF3C4"/><path class="tw" style="animation-delay:0.3s" d="M250 76L251.12 78.88L254 80L251.12 81.12L250 84L248.88 81.12L246 80L248.88 78.88Z" fill="#FFF3C4"/>
+<path d="M40 180L100 160L150 168L210 120L270 96L310 52" stroke="#3FA34D" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+<g class="fly"><path d="M170 34Q190 56 188 100H152Q150 56 170 34Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="170" cy="68" r="8" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><path d="M152 86L138 104L152 100ZM188 86L202 104L188 100Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path class="fl" d="M158 102Q170 132 182 102Z" fill="#FF8A1F" stroke="#E0A31A" stroke-width="1.5"/></g>
+<path d="M104 176H236L246 196H94Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><rect x="114" y="140" width="112" height="38" rx="4" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

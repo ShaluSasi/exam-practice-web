@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 170" role="img">
+<title>Animal scene</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}.t{stroke:#2B2F4A;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}.fb{transform-box:fill-box;transform-origin:center}
+.sn{animation:sn 4s linear infinite}@keyframes sn{from{transform:translateY(-10px)}to{transform:translateY(160px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<clipPath id="k"><rect width="240" height="170" rx="16"/></clipPath>
+<g clip-path="url(#k)">
+<rect x="0" y="0" width="240" height="170" fill="#E3ECF6" /><rect x="0" y="120" width="240" height="50" fill="#F7FAFD" /><path d="M0 120Q60 112 120 120T240 118" fill="none" stroke="#C9D8E8" stroke-width="2"/><g transform="translate(80 150) scale(1.6)"><path d="M-12 0V-22M-5 0V-22M10 0V-22M16 0V-22" stroke="#6B4426" stroke-width="3.5" stroke-linecap="round"/><ellipse cx="2" cy="-28" rx="19" ry="9" fill="#A9744A" stroke="#6B4426" stroke-width="2"/><path d="M14 -32L22 -46L28 -44L22 -28Z" fill="#A9744A" stroke="#6B4426" stroke-width="2" stroke-linejoin="round"/><path d="M14 -34Q19 -24 24 -32Z" fill="#FFFFFF"/><ellipse cx="28" cy="-47" rx="7" ry="4.5" fill="#A9744A" stroke="#6B4426" stroke-width="2"/><path d="M24 -51Q20 -62 14 -66M20 -60L24 -66M18 -63L13 -58M28 -51Q30 -62 36 -66M31 -60L28 -66M33 -63L38 -59" stroke="#8A5A34" stroke-width="2.2" fill="none" stroke-linecap="round"/><circle cx="35" cy="-47" r="1.8" fill="#2B2F4A"/><circle cx="28" cy="-48" r="1.2" fill="#2B2F4A"/><circle cx="-17" cy="-31" r="3" fill="#FFFFFF" stroke="#6B4426" stroke-width="1"/></g><g transform="translate(180 156) scale(1.4)"><path d="M-10 -12Q-34 -12 -30 -30Q-22 -20 -10 -18Z" fill="#F4F6FF" stroke="#8E97BD" stroke-width="2" stroke-linejoin="round"/><path d="M-8 0V-8M-2 0V-8M8 0V-8M12 0V-8" stroke="#8E97BD" stroke-width="3" stroke-linecap="round"/><ellipse cx="2" cy="-14" rx="14" ry="7" fill="#F4F6FF" stroke="#8E97BD" stroke-width="2"/><path d="M13 -24L14 -31L18 -25ZM18 -25L21 -31L22 -23Z" fill="#F4F6FF" stroke="#8E97BD" stroke-width="1.6" stroke-linejoin="round"/><circle cx="18" cy="-20" r="6" fill="#F4F6FF" stroke="#8E97BD" stroke-width="2"/><path d="M22 -22L30 -18L22 -16Z" fill="#F4F6FF" stroke="#8E97BD" stroke-width="1.6" stroke-linejoin="round"/><circle cx="19" cy="-21" r="1.2" fill="#2B2F4A"/><circle cx="30" cy="-18" r="1.3" fill="#2B2F4A"/></g><g class="sn" fill="#FFFFFF" stroke="#C9D8E8"><circle cx="30" cy="10" r="2.5"/><circle cx="120" cy="0" r="2.5"/><circle cx="200" cy="20" r="2.5"/></g>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A legislator crossing the floor of a house from one party's benches to another's</title>
+<style>
+.walk{animation:walk 5s ease-in-out infinite}
+@keyframes walk{0%,10%{transform:translateX(-50px)}60%,100%{transform:translateX(50px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H344V204H16Z" fill="#F3E9D2"/>
+<rect x="150" y="24" width="60" height="40" rx="6" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="160" y="14" width="40" height="14" rx="5" fill="#8A5A2B" stroke="#2B2F4A" stroke-width="2"/>
+<g fill="none" stroke-width="14" stroke-linecap="round">
+<path d="M40 190Q40 100 120 84" stroke="#FFC48A"/>
+<path d="M70 196Q72 126 128 112" stroke="#FFC48A"/>
+<path d="M320 190Q320 100 240 84" stroke="#9FD3F0"/>
+<path d="M290 196Q288 126 232 112" stroke="#9FD3F0"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="1.5">
+<circle cx="52" cy="128" r="6" fill="#FF8A1F"/><circle cx="72" cy="104" r="6" fill="#FF8A1F"/><circle cx="96" cy="90" r="6" fill="#FF8A1F"/><circle cx="84" cy="146" r="6" fill="#FF8A1F"/><circle cx="104" cy="122" r="6" fill="#FF8A1F"/>
+<circle cx="308" cy="128" r="6" fill="#0B93D4"/><circle cx="288" cy="104" r="6" fill="#0B93D4"/><circle cx="264" cy="90" r="6" fill="#0B93D4"/><circle cx="276" cy="146" r="6" fill="#0B93D4"/><circle cx="256" cy="122" r="6" fill="#0B93D4"/>
+</g>
+<path d="M140 180H220" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="5 5"/>
+<path d="M214 174L222 180L214 186" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<g class="walk">
+<circle cx="180" cy="122" r="10" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M168 168V144Q168 134 180 134Q192 134 192 144V168Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M174 168V178M186 168V178" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<rect x="192" y="150" width="16" height="12" rx="2" fill="#8A5A2B" stroke="#2B2F4A" stroke-width="1.5"/>
+</g>
+<rect x="18" y="20" width="84" height="44" rx="4" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<text x="60" y="38" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">Party whip:</text>
+<text x="60" y="55" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#E5484D" text-anchor="middle">Vote YES</text>
+</svg>

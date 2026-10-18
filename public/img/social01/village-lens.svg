@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A village with people meeting under a big tree, green fields, an old fort on a hill, a market stall and a river</title>
+<style>
+.talk{animation:talk 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes talk{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.leaf{animation:rust 4s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes rust{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+.flow{stroke-dasharray:14 12;animation:flow 2.5s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-52}}
+.tag{animation:swing 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:top}
+@keyframes swing{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M230 150Q300 44 400 70V150Z" fill="#B7D3A0" stroke="#6E9A55" stroke-width="2.5"/>
+<g fill="#D9C49A" stroke="#8B6A47" stroke-width="2.5" stroke-linejoin="round">
+<path d="M300 104V72H308V64H316V72H324V64H332V72H340V80H348V68H356V104Z"/>
+</g>
+<path d="M330 104V90Q330 84 336 84Q342 84 342 90V104" fill="#8B6A47"/>
+<path d="M316 80l-6 8M350 88l4 6" stroke="#8B6A47" stroke-width="2" stroke-linecap="round"/>
+<path d="M0 148H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#A9D98E"/>
+<path d="M140 110H240V150H140Z" fill="#7CC77F" stroke="#3FA34D" stroke-width="2.5"/>
+<path d="M150 118H230M150 128H230M150 138H230" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 5"/>
+<path d="M0 250Q100 236 200 254T400 248V284Q400 300 384 300H16Q0 300 0 284Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="flow" d="M20 270Q120 258 210 274T390 268" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M76 196V120M84 196V120" stroke="#8B5A2B" stroke-width="8"/>
+<path d="M80 140L60 120M80 132L104 116" stroke="#8B5A2B" stroke-width="5" stroke-linecap="round"/>
+<g class="leaf"><circle cx="80" cy="84" r="54" fill="#3FA34D" stroke="#2B6E33" stroke-width="2.5"/>
+<circle cx="56" cy="74" r="16" fill="#5CBF66"/><circle cx="104" cy="96" r="14" fill="#5CBF66"/></g>
+<ellipse cx="85" cy="212" rx="60" ry="12" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="40" cy="196" r="6" fill="#8A5A3C"/><path d="M32 214Q32 202 40 202Q48 202 48 214Z" fill="#E5484D"/>
+<circle cx="62" cy="202" r="6" fill="#C68A5E"/><path d="M54 220Q54 208 62 208Q70 208 70 220Z" fill="#F6C453"/>
+<circle cx="108" cy="202" r="6" fill="#A86E48"/><path d="M100 220Q100 208 108 208Q116 208 116 220Z" fill="#0B93D4"/>
+<circle cx="130" cy="196" r="6" fill="#8A5A3C"/><path d="M122 214Q122 202 130 202Q138 202 138 214Z" fill="#B9B0E6"/>
+</g>
+<g class="talk" stroke="#2B2F4A" stroke-width="2"><circle cx="85" cy="176" r="7" fill="#C68A5E"/><path d="M76 212V190Q76 184 85 184Q94 184 94 190V212Z" fill="#FF8A1F"/><path d="M94 190L104 178" stroke-linecap="round" stroke-width="3"/></g>
+<rect x="216" y="184" width="78" height="40" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M208 186L218 166H292L302 186Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M234 166L230 186M255 166V186M276 166L280 186" stroke="#fff" stroke-width="4"/>
+<g fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"><ellipse cx="232" cy="206" rx="9" ry="6"/><ellipse cx="255" cy="206" rx="9" ry="6" fill="#FF8A1F"/><ellipse cx="278" cy="206" rx="9" ry="6" fill="#3FA34D"/></g>
+<g class="tag"><path d="M244 186V192" stroke="#2B2F4A" stroke-width="1.5"/><rect x="236" y="192" width="16" height="10" rx="2" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><text x="244" y="200.5" font-family="system-ui, sans-serif" font-size="8" font-weight="600" fill="#2B2F4A" text-anchor="middle">₹</text></g>
+<circle cx="318" cy="200" r="6" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M310 230V214Q310 206 318 206Q326 206 326 214V230Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M326 216L336 222" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M332 220H346L344 232H334Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

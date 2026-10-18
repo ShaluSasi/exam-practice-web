@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A cross-section of a stepped stone tomb above the ground with a shaft leading down to a chamber</title>
+<style>
+.sd{animation:sd 5s linear infinite}
+@keyframes sd{from{transform:translateX(-30px)}to{transform:translateX(30px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V160H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="340" cy="40" r="18" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 160H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<g fill="#E8C98A" stroke="#A8832A" stroke-width="2.5" stroke-linejoin="round"><path d="M80 160V136H320V160Z"/><path d="M104 136V112H296V136Z"/><path d="M128 112V88H272V112Z"/><path d="M152 88V64H248V88Z"/><path d="M176 64V44H224V64Z"/></g>
+<path d="M194 160V216" stroke="#7E5A32" stroke-width="10"/>
+<rect x="160" y="214" width="80" height="30" rx="4" fill="#B88A56" stroke="#7E5A32" stroke-width="2.5"/>
+<rect x="186" y="224" width="30" height="12" rx="4" fill="#E9C99A" stroke="#7E5A32" stroke-width="2"/>
+<g class="sd" fill="none" stroke="#E6D3A8" stroke-width="2.5" stroke-linecap="round"><path d="M30 180q10 -4 20 0M340 196q10 -4 20 0M60 230q10 -4 20 0"/></g>
+</svg>

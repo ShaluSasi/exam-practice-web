@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A city built around a tall stepped temple tower inside a walled enclosure, with numbered markers</title>
+<style>
+.fg{animation:fg 2s ease-in-out infinite;transform-box:fill-box;transform-origin:0% 100%}
+@keyframes fg{0%,100%{transform:skewY(0)}50%{transform:skewY(-6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 170H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#E6D3A8"/>
+<path d="M110 200V168H290V200ZM130 168V136H270V168ZM150 136V104H250V136Z" fill="#D9A877" stroke="#8A5A32" stroke-width="3" stroke-linejoin="round"/>
+<path d="M110 176H290M110 188H290M130 146H270M130 156H270M150 114H250M150 124H250" stroke="#B9875D" stroke-width="1.2"/>
+<path d="M186 200L190 104H210L214 200Z" fill="#C8925A" stroke="#8A5A32" stroke-width="2.5"/>
+<path d="M188 188h24M188 176h24M189 164h22M189 152h22M190 140h20M190 128h20M190 116h20" stroke="#8A5A32" stroke-width="1.5"/>
+<rect x="176" y="72" width="48" height="32" fill="#F3E3C7" stroke="#8A5A32" stroke-width="3"/>
+<rect x="194" y="84" width="12" height="20" fill="#8A5A32"/>
+<path d="M200 72V54" stroke="#2B2F4A" stroke-width="2"/><path class="fg" d="M200 54H214L210 60L214 66H200Z" fill="#FF8A1F"/>
+<rect x="30" y="196" width="70" height="40" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 204H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 212H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 220H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 228H100" stroke="#B9875D" stroke-width="1.2"/><rect x="40" y="186" width="50" height="10" fill="#C8925A" stroke="#8A5A32" stroke-width="2"/>
+<g fill="#F3E3C7" stroke="#8A5A32" stroke-width="2"><rect x="44" y="208" width="10" height="28"/><rect x="60" y="208" width="10" height="28"/><rect x="76" y="208" width="10" height="28"/></g>
+<rect x="300" y="200" width="70" height="36" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M300 208H370" stroke="#B9875D" stroke-width="1.2"/><path d="M300 216H370" stroke="#B9875D" stroke-width="1.2"/><path d="M300 224H370" stroke="#B9875D" stroke-width="1.2"/><path d="M300 232H370" stroke="#B9875D" stroke-width="1.2"/>
+<g stroke="#8A4A26" stroke-width="2"><path d="M308 230Q304 220 308 212H316Q320 220 316 230Z" fill="#D27D4E"/><path d="M324 230Q320 220 324 212H332Q336 220 332 230Z" fill="#D27D4E"/><path d="M340 230Q336 220 340 212H348Q352 220 348 230Z" fill="#D27D4E"/><path d="M356 230Q352 220 356 212H364Q368 220 364 230Z" fill="#D27D4E"/></g>
+<path d="M20 262H180M220 262H380" stroke="#8C6E4A" stroke-width="10" stroke-linecap="square"/>
+<path d="M180 262V248M220 262V248" stroke="#8C6E4A" stroke-width="6"/>
+<path d="M186 262H214" stroke="#C8925A" stroke-width="4" stroke-dasharray="4 3"/>
+</svg>

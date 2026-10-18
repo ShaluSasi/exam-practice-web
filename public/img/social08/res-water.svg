@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>Water flowing in a stream</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.wv{animation:wv 2s linear infinite}@keyframes wv{to{transform:translateX(-40px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 90Q50 70 100 90T200 90V160H0Z" fill="#CDEBFA"/><g class="wv"><path d="M0 104Q20 96 40 104T80 104T120 104T160 104T200 104T240 104" fill="none" stroke="#0B93D4" stroke-width="3"/><path d="M0 126Q20 118 40 126T80 126T120 126T160 126T200 126T240 126" fill="none" stroke="#0B93D4" stroke-width="3"/></g>
+<path d="M100 20Q120 48 120 60A20 20 0 0 1 80 60Q80 48 100 20Z" fill="#0B93D4" class="o"/>
+</svg>

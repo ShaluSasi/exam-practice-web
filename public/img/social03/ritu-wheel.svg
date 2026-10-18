@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img">
+<title>A wheel of six seasons, each slice with its own picture, and a pointer stepping round</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.rn{animation:rn .9s linear infinite}@keyframes rn{from{transform:translateY(-8px);opacity:1}to{transform:translateY(10px);opacity:0}}.pt{animation:pt 6s steps(6) infinite}@keyframes pt{from{transform:rotate(30deg)}to{transform:rotate(390deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<path d="M150 150L150.0 20.0A130 130 0 0 1 262.6 85.0Z" fill="#FDE2EC" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M150 150L262.6 85.0A130 130 0 0 1 262.6 215.0Z" fill="#FFE0B8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M150 150L262.6 215.0A130 130 0 0 1 150.0 280.0Z" fill="#CFE6F7" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M150 150L150.0 280.0A130 130 0 0 1 37.4 215.0Z" fill="#E9F3D7" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M150 150L37.4 215.0A130 130 0 0 1 37.4 85.0Z" fill="#E4E6F2" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M150 150L37.4 85.0A130 130 0 0 1 150.0 20.0Z" fill="#F2F5FA" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(191 79)"><g fill="#F7B6B8" stroke="#E5484D" stroke-width="1.5"><circle cx="0" cy="-8" r="6"/><circle cx="8" cy="0" r="6"/><circle cx="0" cy="8" r="6"/><circle cx="-8" cy="0" r="6"/></g><circle r="5" fill="#F6C453"/></g>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M250.0 150.0L257.0 150.0"/><path d="M244.7 162.7L249.7 167.7"/><path d="M232.0 168.0L232.0 175.0"/><path d="M219.3 162.7L214.3 167.7"/><path d="M214.0 150.0L207.0 150.0"/><path d="M219.3 137.3L214.3 132.3"/><path d="M232.0 132.0L232.0 125.0"/><path d="M244.7 137.3L249.7 132.3"/></g><circle cx="232" cy="150" r="13" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<g transform="translate(191 215) scale(0.5)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#DDE3EE" stroke="#8C99B5" stroke-width="5.00" stroke-linejoin="round"/></g><g class="rn" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"><path d="M183 231v7M197 233v7"/></g>
+<path transform="translate(109 221)" d="M-6 -14A14 14 0 1 0 10 8A10 10 0 1 1 -6 -14Z" fill="#F6E7A8" stroke="#E0C25A" stroke-width="2"/>
+<g transform="translate(68 150)" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"><path d="M-16 -6H16M-12 2H12M-16 10H16"/></g>
+<g transform="translate(109 79)" stroke="#8A5F33" stroke-width="3" stroke-linecap="round" fill="none"><path d="M0 16V-6M0 2L-10 -8M0 -2L10 -12M0 -6L-4 -16"/></g>
+<g class="pt" style="transform-origin:150px 150px"><path d="M150 150V30" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="30" r="6" fill="#FF8A1F"/></g>
+<circle cx="150" cy="150" r="8" fill="#2B2F4A"/>
+</svg>

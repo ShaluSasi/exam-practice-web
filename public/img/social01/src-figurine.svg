@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A small reddish-brown baked clay figure of a bull on a stand</title>
+<style>
+.bob{animation:bob 3s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.gl{animation:gl 3s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:.2}50%{opacity:.6}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse class="gl" cx="120" cy="90" rx="96" ry="70" fill="#FFE7C2"/>
+<rect x="56" y="140" width="128" height="20" rx="4" fill="#A9774A" stroke="#7A5230" stroke-width="2.5"/>
+<g class="bob" stroke="#8B3F22" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M72 104Q72 74 102 72L126 70Q140 56 150 66Q158 62 162 74Q170 82 164 94Q156 104 148 100V112H72Z" fill="#D4774A"/>
+<path d="M118 70Q118 58 128 56Q134 58 132 70" fill="#C8653A"/>
+<path d="M152 66Q160 50 172 50M162 74Q176 66 180 54" fill="none"/>
+<path d="M80 112V138M98 112V138M124 112V138M142 108V138" fill="none" stroke-width="7"/>
+<path d="M72 92Q60 96 62 112" fill="none"/>
+</g>
+<circle cx="156" cy="80" r="2.5" fill="#2B2F4A" class="bob"/>
+</svg>

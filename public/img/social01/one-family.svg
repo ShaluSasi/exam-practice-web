@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A globe with soft green land shapes and a ring of children of many backgrounds holding hands around it</title>
+<style>
+.globe{animation:turn 8s linear infinite}
+@keyframes turn{from{transform:translateX(-60px)}to{transform:translateX(60px)}}
+.ring{animation:spin 20s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.heart{animation:beat 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="c"><circle cx="200" cy="130" r="70"/></clipPath></defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="200" cy="130" r="70" fill="#5FB4E6" stroke="#0B6E9E" stroke-width="3"/>
+<g clip-path="url(#c)"><g class="globe" fill="#7CC77F" stroke="#3FA34D" stroke-width="2">
+<path d="M120 100Q140 80 168 92Q172 118 146 124Q124 122 120 100Z"/><path d="M190 140Q214 128 232 146Q228 180 204 182Q186 168 190 140Z"/><path d="M220 80Q246 72 262 90Q256 110 236 108Q218 100 220 80Z"/><path d="M270 150Q290 140 300 156Q290 172 276 168Z"/><path d="M90 160Q110 152 118 170Q104 184 92 176Z"/>
+</g></g>
+<g class="ring">
+<circle cx="200" cy="130" r="104" fill="none" stroke="#F6C453" stroke-width="5" stroke-dasharray="2 14" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="200" cy="18" r="9" fill="#8A5A3C"/><rect x="192" y="28" width="16" height="16" rx="5" fill="#E5484D"/>
+<circle cx="304" cy="130" r="9" fill="#F1C9A5"/><rect x="296" y="140" width="16" height="16" rx="5" fill="#0B93D4"/>
+<circle cx="200" cy="232" r="9" fill="#5B3A26"/><rect x="192" y="240" width="16" height="14" rx="5" fill="#3FA34D"/>
+<circle cx="96" cy="130" r="9" fill="#C68A5E"/><rect x="88" y="140" width="16" height="16" rx="5" fill="#FF8A1F"/>
+<circle cx="274" cy="56" r="9" fill="#A86E48"/><rect x="266" y="66" width="16" height="16" rx="5" fill="#B9B0E6"/>
+<circle cx="126" cy="204" r="9" fill="#E8B48C"/><rect x="118" y="214" width="16" height="14" rx="5" fill="#F6C453"/>
+<circle cx="126" cy="56" r="9" fill="#704A32"/><rect x="118" y="66" width="16" height="16" rx="5" fill="#5FB4E6"/>
+<circle cx="274" cy="204" r="9" fill="#D9A27A"/><rect x="266" y="214" width="16" height="14" rx="5" fill="#E5484D"/>
+</g></g>
+<path class="heart" d="M200 124Q192 112 184 120Q178 130 200 146Q222 130 216 120Q208 112 200 124Z" fill="#E5484D" stroke="#fff" stroke-width="2"/>
+</svg>

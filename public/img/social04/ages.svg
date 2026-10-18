@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A museum shelf holding six objects from different ages, in no particular order</title>
+<style>
+.sh{animation:sh 3s ease-in-out infinite}
+@keyframes sh{0%,100%{opacity:0}50%{opacity:.7}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="20" width="360" height="200" rx="10" fill="#F3E3C7" stroke="#C8925A" stroke-width="3"/>
+<rect x="20" y="110" width="360" height="10" fill="#C8925A"/>
+<rect x="20" y="206" width="360" height="10" fill="#C8925A"/>
+<g transform="translate(80 84) scale(1.3)"><path d="M-16 -12H16L12 -4Q20 4 14 12H-14Q-20 4 -12 -4Z" fill="#D4A63A" stroke="#8A6A1E" stroke-width="2.5" stroke-linejoin="round"/><path d="M-10 12L-12 20M10 12L12 20M0 12V20" stroke="#8A6A1E" stroke-width="2.5" stroke-linecap="round"/><path d="M-12 -12V-18M12 -12V-18" stroke="#8A6A1E" stroke-width="2.5" stroke-linecap="round"/></g><g transform="translate(200 82) scale(1.2)"><path d="M0 -22Q16 -8 15 8Q13 20 0 22Q-13 20 -15 8Q-16 -8 0 -22Z" fill="#CDBBA5" stroke="#6E5E4C" stroke-width="2.5" stroke-linejoin="round"/><path d="M0 -16L-6 -2L2 6L-4 16M7 -6L2 6L9 12" fill="none" stroke="#8C7A64" stroke-width="1.6" stroke-linecap="round"/></g><g transform="translate(320 84) scale(1.1)"><path d="M-4 18Q-24 -2 -6 -18Q14 -26 22 -8Q8 -18 -4 -8Q-14 4 2 14Z" fill="#8D93A8" stroke="#4A4F63" stroke-width="2.5" stroke-linejoin="round"/><path d="M-4 18L-14 26" stroke="#C8925A" stroke-width="5" stroke-linecap="round"/></g>
+<g transform="translate(80 178) scale(1.2)"><path d="M-12 -16Q0 -20 12 -16L16 14Q0 22 -16 14Z" fill="#8FAE9C" stroke="#4E6E5C" stroke-width="2.5" stroke-linejoin="round"/><path d="M-6 -10Q-8 2 -9 10" fill="none" stroke="#D6E8DC" stroke-width="3" stroke-linecap="round"/></g><g transform="translate(205 182) scale(1)" fill="#ECE6D8" stroke="#5E5A54" stroke-width="2" stroke-linejoin="round"><path d="M-40 6L-30 -8L-26 8Z"/><path d="M-16 6Q-8 -12 4 6Q-6 0 -16 6Z"/><path d="M12 -6H26L30 6H10Z"/><path d="M38 8L42 -10L48 8Z"/><path d="M-30 18L-22 12L-18 20Z"/><path d="M18 18Q24 10 32 18Q25 15 18 18Z"/></g><g transform="translate(320 176) scale(1.25)"><path d="M-8 -14H8L14 14H-14Z" fill="#C8663B" stroke="#7E3A1C" stroke-width="2.5" stroke-linejoin="round"/><path d="M-4 -8L-6 8" stroke="#E9A27C" stroke-width="2.5" stroke-linecap="round"/></g>
+<g class="sh" fill="#FFFFFF"><path d="M72 66l3 6l6 3l-6 3l-3 6l-3-6l-6-3l6-3z"/><path d="M314 162l3 6l6 3l-6 3l-3 6l-3-6l-6-3l6-3z"/></g>
+</svg>

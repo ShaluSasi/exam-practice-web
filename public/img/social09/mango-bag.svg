@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img">
+<title>A price board for mangoes that keeps changing, next to a shopping bag of mangoes</title>
+<style>
+.p1{animation:p1 6s infinite}.p2{animation:p2 6s infinite}.p3{animation:p3 6s infinite}
+@keyframes p1{0%,30%{opacity:1}33%,97%{opacity:0}100%{opacity:1}}
+@keyframes p2{0%,30%{opacity:0}33%,63%{opacity:1}66%,100%{opacity:0}}
+@keyframes p3{0%,63%{opacity:0}66%,97%{opacity:1}100%{opacity:0}}
+.m2{animation:p2b 6s infinite}.m3{animation:p3 6s infinite}
+@keyframes p2b{0%,30%{opacity:0}33%,97%{opacity:1}100%{opacity:0}}
+.ar{animation:ar 1.6s ease-in-out infinite}@keyframes ar{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><g id="mg"><path d="M0 -10C9 -10 13 -2 11 5C9 11 2 13 -4 11C-11 8 -12 -3 -7 -8C-5 -10 -2 -10 0 -10Z" fill="#F6C453" stroke="#C98A12" stroke-width="2"/><path d="M-3 4C-1 7 3 7 6 5" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" fill="none" opacity=".6"/><path d="M0 -10C2 -15 7 -16 10 -14C7 -11 3 -10 0 -10Z" fill="#3FA34D" stroke="#2B7A36" stroke-width="1.2"/></g></defs>
+<rect x="30" y="58" width="120" height="78" rx="10" fill="#2B2F4A" stroke="#C8925A" stroke-width="5"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text x="90" y="46" font-size="12">Price per kg</text></g>
+<g font-family="system-ui, sans-serif" font-weight="700" font-size="30" fill="#F6C453" text-anchor="middle">
+<text class="p1" x="90" y="108">₹150</text><text class="p2" x="90" y="108">₹100</text><text class="p3" x="90" y="108">₹50</text></g>
+<path d="M90 136V172M70 172H110" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path class="ar" d="M168 98H196m-8 -7l8 7l-8 7" stroke="#FF8A1F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M222 100Q222 76 246 76Q270 76 270 100" stroke="#2B2F4A" stroke-width="3" fill="none"/>
+<use href="#mg" x="230" y="96"/><g class="m2"><use href="#mg" x="258" y="94"/></g><g class="m3"><use href="#mg" x="244" y="82"/></g>
+<path d="M208 100H284L276 170H216Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" opacity=".8"/>
+<path d="M222 118H270" stroke="#0B93D4" stroke-width="2"/>
+</svg>

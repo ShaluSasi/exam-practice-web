@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img">
+<title>The sky around the Earth split into 27 equal sections, with the Moon stepping from one section to the next</title>
+<style>
+.mo{animation:mo 5.4s steps(27) infinite;transform-origin:150px 150px}@keyframes mo{to{transform:rotate(360deg)}}
+.st{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.5}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<rect width="300" height="300" rx="16" fill="#1F2347"/>
+<circle cx="150" cy="150" r="135" fill="none" stroke="#5A5F9A" stroke-width="2"/>
+<g stroke="#5A5F9A" stroke-width="1.2"><path d="M150.0 110.0L150.0 15.0"/><path d="M159.2 111.1L181.1 18.6"/><path d="M168.0 114.3L210.6 29.4"/><path d="M175.7 119.4L236.8 46.6"/><path d="M182.1 126.1L258.3 69.4"/><path d="M186.7 134.2L274.0 96.5"/><path d="M189.4 143.1L282.9 126.6"/><path d="M189.9 152.3L284.8 157.8"/><path d="M188.3 161.5L279.3 188.7"/><path d="M184.6 170.0L266.9 217.5"/><path d="M179.1 177.4L248.2 242.6"/><path d="M172.0 183.4L224.2 262.8"/><path d="M163.7 187.6L196.2 276.9"/><path d="M154.6 189.7L165.7 284.1"/><path d="M145.4 189.7L134.3 284.1"/><path d="M136.3 187.6L103.8 276.9"/><path d="M128.0 183.4L75.8 262.8"/><path d="M120.9 177.4L51.8 242.6"/><path d="M115.4 170.0L33.1 217.5"/><path d="M111.7 161.5L20.7 188.7"/><path d="M110.1 152.3L15.2 157.8"/><path d="M110.6 143.1L17.1 126.6"/><path d="M113.3 134.2L26.0 96.5"/><path d="M117.9 126.1L41.7 69.4"/><path d="M124.3 119.4L63.2 46.6"/><path d="M132.0 114.3L89.4 29.4"/><path d="M140.8 111.1L118.9 18.6"/></g>
+<g fill="#F6E7A8" class="st"><circle cx="161.4" cy="52.7" r="2.6"/><circle cx="183.5" cy="57.9" r="1.8"/><circle cx="203.9" cy="68.1" r="1.8"/><circle cx="221.3" cy="82.7" r="2.6"/><circle cx="234.9" cy="101.0" r="1.8"/><circle cx="243.9" cy="121.9" r="1.8"/><circle cx="247.8" cy="144.3" r="2.6"/><circle cx="246.5" cy="167.0" r="1.8"/><circle cx="240.0" cy="188.8" r="1.8"/><circle cx="228.6" cy="208.5" r="2.6"/><circle cx="213.0" cy="225.1" r="1.8"/><circle cx="194.0" cy="237.6" r="1.8"/><circle cx="172.6" cy="245.4" r="2.6"/><circle cx="150.0" cy="248.0" r="1.8"/><circle cx="127.4" cy="245.4" r="1.8"/><circle cx="106.0" cy="237.6" r="2.6"/><circle cx="87.0" cy="225.1" r="1.8"/><circle cx="71.4" cy="208.5" r="1.8"/><circle cx="60.0" cy="188.8" r="2.6"/><circle cx="53.5" cy="167.0" r="1.8"/><circle cx="52.2" cy="144.3" r="1.8"/><circle cx="56.1" cy="121.9" r="2.6"/><circle cx="65.1" cy="101.0" r="1.8"/><circle cx="78.7" cy="82.7" r="1.8"/><circle cx="96.1" cy="68.1" r="2.6"/><circle cx="116.5" cy="57.9" r="1.8"/><circle cx="138.6" cy="52.7" r="1.8"/></g>
+<circle cx="150" cy="150" r="20" fill="#0B93D4" stroke="#CDEBFA" stroke-width="2"/>
+<path d="M140 142q8-6 14 2q-4 8-12 6z M152 156q8-2 10 6q-8 4-10-6z" fill="#7CC47F"/>
+<circle cx="150" cy="150" r="118" fill="none" stroke="#A3A8CC" stroke-width="1" stroke-dasharray="3 5"/>
+<g class="mo"><circle cx="163.7" cy="32.8" r="9" fill="#F2F2F2" stroke="#C9CCDD" stroke-width="2"/></g>
+</svg>

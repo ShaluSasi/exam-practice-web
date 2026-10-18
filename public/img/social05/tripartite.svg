@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Three powers, shown as coloured circles, all pushing towards one walled city in the middle</title>
+<style>
+.dash{stroke-dasharray:8 6;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-28}}.pulse{animation:pu 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path class="dash" d="M200 42L200 135" stroke="#A3A8CC" stroke-width="5" stroke-linecap="round"/><path class="dash" d="M64 196L200 135" stroke="#A3A8CC" stroke-width="5" stroke-linecap="round"/><path class="dash" d="M336 196L200 135" stroke="#A3A8CC" stroke-width="5" stroke-linecap="round"/><circle cx="200" cy="42" r="26" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5"/><path d="M186 52L200 28L214 52Z" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><circle cx="64" cy="196" r="26" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="64" cy="196" r="11" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><circle cx="336" cy="196" r="26" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5"/><rect x="325" y="185" width="22" height="22" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><circle class="pulse" cx="200" cy="135" r="40" fill="#F6E3C4" stroke="#2B2F4A" stroke-width="3"/><g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="176" y="118" width="48" height="34" fill="#D9A76A"/><path d="M176 118V110H184V118M188 118V110H196V118M204 118V110H212V118M216 118V110H224V118" fill="#D9A76A"/><path d="M192 152V138Q200 128 208 138V152Z" fill="#6B4527"/></g>
+</svg>

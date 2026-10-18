@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A long bar for the whole of human history with a very thin slice at its end</title>
+<style>
+.pl{animation:pl 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="13"><text x="24" y="40">Whole human story</text><text x="376" y="40" text-anchor="end">today</text></g>
+<rect x="24" y="60" width="350" height="34" rx="6" fill="#E9C99A" stroke="#7E5A32" stroke-width="2.5"/>
+<g transform="translate(70 77) scale(0.55)"><path d="M0 -22Q16 -8 15 8Q13 20 0 22Q-13 20 -15 8Q-16 -8 0 -22Z" fill="#CDBBA5" stroke="#6E5E4C" stroke-width="2.5" stroke-linejoin="round"/><path d="M0 -16L-6 -2L2 6L-4 16M7 -6L2 6L9 12" fill="none" stroke="#8C7A64" stroke-width="1.6" stroke-linecap="round"/></g><g transform="translate(150 77) scale(0.45)" fill="#ECE6D8" stroke="#5E5A54" stroke-width="2" stroke-linejoin="round"><path d="M-40 6L-30 -8L-26 8Z"/><path d="M-16 6Q-8 -12 4 6Q-6 0 -16 6Z"/><path d="M12 -6H26L30 6H10Z"/><path d="M38 8L42 -10L48 8Z"/><path d="M-30 18L-22 12L-18 20Z"/><path d="M18 18Q24 10 32 18Q25 15 18 18Z"/></g><g transform="translate(220 77) scale(0.6)"><path d="M-12 -16Q0 -20 12 -16L16 14Q0 22 -16 14Z" fill="#8FAE9C" stroke="#4E6E5C" stroke-width="2.5" stroke-linejoin="round"/><path d="M-6 -10Q-8 2 -9 10" fill="none" stroke="#D6E8DC" stroke-width="3" stroke-linecap="round"/></g><g transform="translate(280 77) scale(0.6)"><path d="M-10 -16H10Q8 -12 13 -8Q22 2 14 12Q8 17 0 17Q-8 17 -14 12Q-22 2 -13 -8Q-8 -12 -10 -16Z" fill="#D27D4E" stroke="#8A4A26" stroke-width="2.5" stroke-linejoin="round"/><path d="M-15 0Q0 6 15 0" fill="none" stroke="#2B2F4A" stroke-width="1.6"/></g>
+<rect x="372" y="58" width="5" height="38" fill="#0B93D4"/>
+<path d="M374 96L330 132" stroke="#0B93D4" stroke-width="2" stroke-dasharray="4 3"/>
+<g class="pl"><rect x="250" y="130" width="96" height="54" rx="8" fill="#CDEBFA" stroke="#0B93D4" stroke-width="2.5"/>
+<rect x="266" y="140" width="36" height="34" rx="4" fill="#D9B98A" stroke="#7E5A32" stroke-width="2"/>
+<path d="M272 148h6M282 148h8M272 156h10M286 156h6M272 164h4M280 164h10" stroke="#7E5A32" stroke-width="2" stroke-linecap="round"/>
+<path d="M310 142h28v30h-28z" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><path d="M314 150h20M314 157h16M314 164h20" stroke="#2B2F4A" stroke-width="1.6"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12"><text x="24" y="122">tools, bones and other objects</text><text x="24" y="138">are almost the only clues</text><text x="240" y="196" text-anchor="end">written records</text></g>
+</svg>

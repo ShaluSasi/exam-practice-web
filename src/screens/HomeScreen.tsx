@@ -260,7 +260,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
                   document.getElementById("chapters")?.scrollIntoView({ behavior: "smooth", block: "start" });
                 }}
                 className={clsx(
-                  "relative flex min-w-0 flex-1 items-center justify-center gap-1.5 rounded-xl px-2 py-2.5 font-display text-sm font-bold transition-colors sm:gap-2 sm:text-base",
+                  "relative flex min-w-0 flex-auto items-center justify-center gap-1.5 rounded-xl px-2 py-2.5 font-display text-sm font-bold transition-colors sm:flex-1 sm:gap-2 sm:text-base",
                   on ? "text-white" : "text-muted hover:text-fg",
                 )}
               >
@@ -271,8 +271,11 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
                     transition={{ type: "spring", stiffness: 420, damping: 34 }}
                   />
                 )}
-                <st.icon className="relative size-4 shrink-0 sm:size-5" />
-                <span className="relative truncate">{region.subjects[s]}</span>
+                <st.icon className={clsx("relative size-5 shrink-0", subjects.length > 3 && "hidden sm:block")} />
+                <span className="relative truncate">
+                  <span className="sm:hidden">{region.subjects[s].split(" ")[0]}</span>
+                  <span className="hidden sm:inline">{region.subjects[s]}</span>
+                </span>
                 <span
                   className={clsx(
                     "relative hidden rounded-full px-1.5 text-xs tabular-nums sm:inline",

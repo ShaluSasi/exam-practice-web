@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img">
+<title>A downward-sloping demand curve for mangoes with three plotted points</title>
+<style>
+.dr{stroke-dasharray:260;animation:dr 4s ease-in-out infinite}
+@keyframes dr{0%{stroke-dashoffset:260}45%,100%{stroke-dashoffset:0}}.pt{animation:pt 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pt{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M120 205V30M180 205V30M240 205V30M60 160H290M60 115H290M60 70H290" stroke="#E3E6F3" stroke-width="1.5"/>
+<path d="M60 205H296M60 205V24" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text x="120" y="220" font-size="12">1</text><text x="180" y="220" font-size="12">2</text><text x="240" y="220" font-size="12">3</text>
+<text x="54" y="220" font-size="12" text-anchor="end">0</text>
+<text x="175" y="234" font-size="12">Quantity of mangoes (kg)</text>
+<g text-anchor="end"><text x="54" y="164" font-size="12">50</text><text x="54" y="119" font-size="12">100</text><text x="54" y="74" font-size="12">150</text></g>
+<text transform="translate(18 118) rotate(-90)">Price of mangoes (₹ per kg)</text></g><path class="dr" d="M90 47.5L270 182.5" stroke="#E5484D" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path d="M120 70H60M120 70V205M180 115H60M180 115V205M240 160H60M240 160V205" stroke="#E5484D" stroke-width="1.5" stroke-dasharray="4 4" opacity=".6"/>
+<circle class="pt" style="animation-delay:0s" cx="120" cy="70" r="6" fill="#FFFFFF" stroke="#E5484D" stroke-width="3"/><circle class="pt" style="animation-delay:0.4s" cx="180" cy="115" r="6" fill="#FFFFFF" stroke="#E5484D" stroke-width="3"/><circle class="pt" style="animation-delay:0.8s" cx="240" cy="160" r="6" fill="#FFFFFF" stroke="#E5484D" stroke-width="3"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="13"><text x="78" y="49.5" font-size="12">D</text><text x="274" y="194.5" font-size="12">D’</text></g>
+</svg>

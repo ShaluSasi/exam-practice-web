@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img">
+<title>Bars comparing a constituency's population, names on the electoral roll and votes polled</title>
+<style>
+.bar{animation:grow 4.5s ease-out infinite;transform-box:fill-box;transform-origin:left center}
+@keyframes grow{0%{transform:scaleX(.03)}40%,100%{transform:scaleX(1)}}
+.walk{animation:walk 3s ease-in-out infinite}
+@keyframes walk{0%,100%{transform:translateX(0)}50%{transform:translateX(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="24" y="30" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A">Constituency 9 · polling day</text>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A">
+<text x="40" y="56">Total population</text>
+<text x="40" y="110">Names on the electoral roll</text>
+<text x="40" y="164">Votes polled</text>
+</g>
+<g stroke="#2B2F4A" stroke-width="2">
+<rect class="bar" x="40" y="62" width="270" height="26" rx="4" fill="#A3A8CC"/>
+<rect class="bar" x="40" y="116" width="180" height="26" rx="4" fill="#0B93D4"/>
+<rect class="bar" x="40" y="170" width="135" height="26" rx="4" fill="#FF8A1F"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">
+<text x="300" y="80" text-anchor="end">3,60,000</text>
+<text x="226" y="134">2,40,000</text>
+<text x="181" y="188">1,80,000</text>
+</g>
+<g class="walk" stroke="#2B2F4A" stroke-width="1.8">
+<circle cx="280" cy="168" r="7" fill="#E8B48C"/><path d="M271 196Q271 178 280 178Q289 178 289 196Z" fill="#3FA34D"/>
+<circle cx="304" cy="168" r="7" fill="#C58C64"/><path d="M295 196Q295 178 304 178Q313 178 313 196Z" fill="#E5484D"/>
+</g>
+<path d="M0 206H360V214Q360 230 344 230H16Q0 230 0 214Z" fill="#D9C49A"/>
+</svg>

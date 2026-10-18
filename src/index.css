@@ -23,6 +23,7 @@
   --physics: #0b93d4;
   --chemistry: #a24ee8;
   --biology: #5a9a10;
+  --social: #d4762a;
   --shadow: 27 31 59;
 }
 
@@ -44,6 +45,7 @@
   --physics: #3cc0ff;
   --chemistry: #c88bff;
   --biology: #9bd34a;
+  --social: #f2a65a;
   --shadow: 0 0 0;
 }
 
@@ -65,6 +67,7 @@
   --color-physics: var(--physics);
   --color-chemistry: var(--chemistry);
   --color-biology: var(--biology);
+  --color-social: var(--social);
   --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --shadow-card: 0 1px 2px rgb(var(--shadow) / 0.06), 0 8px 24px -12px rgb(var(--shadow) / 0.18);

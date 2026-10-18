@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img">
+<title>A coast at night with a wind arrow near the ground</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.w{stroke-dasharray:12 7;animation:w 1.2s linear infinite}@keyframes w{to{stroke-dashoffset:-38}}.wv{animation:wv 3s ease-in-out infinite alternate}@keyframes wv{from{transform:translateX(-6px)}to{transform:translateX(6px)}}.st{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#FF8A1F"/></marker></defs>
+<rect width="240" height="160" rx="16" fill="#2E3366"/>
+<g class="st" fill="#FFFFFF"><circle cx="150" cy="20" r="1.6"/><circle cx="200" cy="40" r="1.4"/><circle cx="30" cy="30" r="1.4"/></g><path d="M110 18A16 16 0 1 0 124 42A12 12 0 1 1 110 18Z" fill="#F6E7A8" stroke="#E0C25A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M120 108H240V144Q240 160 224 160H120Z" fill="#7CC4EE" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="wv" d="M132 126q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M0 100H126L120 108V160H16Q0 160 0 144Z" fill="#D9C49A" stroke="#B89A62" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(50 102) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-14 0V-18H14V0Z" fill="#F6E3C4"/><path d="M-18 -16L0 -32L18 -16Z" fill="#E5484D"/><path d="M-4 0V-10H4V0" fill="#C8925A"/></g>
+<path class="w" d="M40 82H196" fill="none" stroke="#FF8A1F" stroke-width="6" stroke-linecap="round" marker-end="url(#a)"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img">
+<title>Picture Q: an underwater landform</title>
+<style>
+@keyframes wv{to{transform:translateX(-12px)}}.wv{animation:wv 2.4s ease-in-out infinite alternate}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}.sm{animation:sm 3s ease-out infinite}@keyframes sm{from{transform:translateY(0);opacity:.8}to{transform:translateY(-20px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H224Q240 0 240 16V56H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="0" y="56" width="240" height="130" fill="#7FC6EC"/>
+<path class="wv" d="M0 56L4 57.9L8 57.2L12 54.8L16 54.1L20 56.0L24 57.9L28 57.2L32 54.8L36 54.1L40 56.0L44 57.9L48 57.2L52 54.8L56 54.1L60 56.0L64 57.9L68 57.2L72 54.8L76 54.1L80 56.0L84 57.9L88 57.2L92 54.8L96 54.1L100 56.0L104 57.9L108 57.2L112 54.8L116 54.1L120 56.0L124 57.9L128 57.2L132 54.8L136 54.1L140 56.0L144 57.9L148 57.2L152 54.8L156 54.1L160 56.0L164 57.9L168 57.2L172 54.8L176 54.1L180 56.0L184 57.9L188 57.2L192 54.8L196 54.1L200 56.0L204 57.9L208 57.2L212 54.8L216 54.1L220 56.0L224 57.9L228 57.2L232 54.8L236 54.1L240 56.0" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+<path d="M0 176H240V184Q240 200 224 200H16Q0 200 0 184Z" fill="#C9B48A" />
+<path d="M40 180L96 84H144L200 180Z" fill="#9C8A6E" stroke="#5E5040" stroke-width="2.5" stroke-linejoin="round"/>
+
+<g transform="translate(60 110) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(190 130) scale(-0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g>
+<circle cx="24" cy="24" r="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="24" y="29" text-anchor="middle" font-size="14" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Q</text>
+</svg>

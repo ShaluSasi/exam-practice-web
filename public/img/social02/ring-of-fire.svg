@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A globe centred on a large ocean with red dots near its edges</title>
+<style>
+.d{animation:p 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes p{0%,100%{transform:scale(.7);opacity:.6}50%{transform:scale(1.15);opacity:1}}
+.gl{animation:gl 6s ease-in-out infinite alternate}@keyframes gl{to{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="g"><circle cx="200" cy="150" r="130"/></clipPath></defs>
+<circle cx="200" cy="150" r="136" fill="#CDEBFA"/>
+<circle cx="200" cy="150" r="130" fill="#7CC4EC" stroke="#0B93D4" stroke-width="3"/>
+<g clip-path="url(#g)"><g class="gl">
+<g fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity=".55"><ellipse cx="200" cy="150" rx="130" ry="34"/><ellipse cx="200" cy="150" rx="130" ry="80"/><ellipse cx="200" cy="150" rx="45" ry="130"/><ellipse cx="200" cy="150" rx="95" ry="130"/><path d="M70 150H330M200 20V280"/></g>
+<g fill="#9BD08A" stroke="#3FA34D" stroke-width="2.5" stroke-linejoin="round">
+<path d="M50 70Q100 36 140 58Q156 86 132 108Q120 138 96 128Q70 140 58 116Q44 92 50 70Z"/>
+<path d="M88 204Q118 188 142 204Q148 230 122 238Q98 240 90 224Z"/>
+<path d="M268 52Q322 40 344 80Q334 110 306 120Q292 140 280 120Q258 98 268 52Z"/>
+<path d="M300 166Q326 160 326 190Q320 230 302 260Q290 226 288 196Z"/>
+</g></g></g>
+<g fill="#E5484D" stroke="#FFFFFF" stroke-width="1.5"><circle class="d" style="animation-delay:0.00s" cx="150" cy="242" r="5.5"/><circle class="d" style="animation-delay:0.15s" cx="134" cy="208" r="5.5"/><circle class="d" style="animation-delay:0.30s" cx="146" cy="172" r="5.5"/><circle class="d" style="animation-delay:0.45s" cx="150" cy="138" r="5.5"/><circle class="d" style="animation-delay:0.60s" cx="160" cy="110" r="5.5"/><circle class="d" style="animation-delay:0.75s" cx="178" cy="86" r="5.5"/><circle class="d" style="animation-delay:0.90s" cx="206" cy="70" r="5.5"/><circle class="d" style="animation-delay:1.05s" cx="240" cy="68" r="5.5"/><circle class="d" style="animation-delay:1.20s" cx="268" cy="88" r="5.5"/><circle class="d" style="animation-delay:1.35s" cx="276" cy="122" r="5.5"/><circle class="d" style="animation-delay:1.50s" cx="284" cy="156" r="5.5"/><circle class="d" style="animation-delay:1.65s" cx="290" cy="190" r="5.5"/><circle class="d" style="animation-delay:1.80s" cx="296" cy="226" r="5.5"/></g>
+</svg>

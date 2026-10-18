@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>Snowy mountains, a river flowing to a flat plain with fields and a small town on its bank</title>
+<style>
+.flow{stroke-dasharray:10 10;animation:flow 2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-40}}
+.cl{animation:drift 5s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-8px)}to{transform:translateX(8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H224Q240 0 240 16V110H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<g class="cl"><path d="M150 36Q148 24 160 24Q166 16 178 20Q190 18 192 30Q202 32 198 40Z" fill="#fff" stroke="#A9C7DE" stroke-width="2"/></g>
+<path d="M0 110L46 40L82 86L110 54L150 110Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M46 40L36 56L46 52L54 58ZM110 54L102 66L110 63L117 68Z" fill="#fff" stroke="#6E7396" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M0 108H240V164Q240 180 224 180H16Q0 180 0 164Z" fill="#A9D98E"/>
+<g stroke="#3FA34D" stroke-width="2" stroke-dasharray="3 4"><path d="M150 124H230M150 134H230M150 144H230"/></g>
+<path d="M70 108Q90 128 70 146Q56 162 90 180H118Q92 160 104 146Q120 126 96 108Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2"/>
+<path class="flow" d="M84 112Q100 128 84 146Q72 162 102 178" fill="none" stroke="#fff" stroke-width="2"/>
+<g fill="#FFD9B0" stroke="#2B2F4A" stroke-width="1.8"><rect x="22" y="132" width="14" height="12"/><rect x="40" y="128" width="12" height="16"/></g>
+<path d="M20 133L29 125L38 133M38 129L46 121L54 129" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.8" stroke-linejoin="round"/>
+</svg>

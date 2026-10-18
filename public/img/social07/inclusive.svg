@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A polling station entrance with a ramp, helpers, a guard and a close-up of a voting machine button panel</title>
+<style>
+.wh{animation:roll 4s ease-in-out infinite}
+@keyframes roll{0%,100%{transform:translate(0,0)}50%{transform:translate(16px,-2px)}}
+.pt{animation:pt 2s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+@keyframes pt{0%,100%{transform:rotate(0)}50%{transform:rotate(-10deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H384V200H16Z" fill="#E3F2FD"/>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M232 200V70H388V200Z" fill="#FDE3C8"/>
+<path d="M226 72L310 34L394 72Z" fill="#E5484D"/>
+<rect x="290" y="128" width="40" height="72" rx="3" fill="#C8925A"/>
+<rect x="246" y="92" width="32" height="26" fill="#CDEBFA"/><rect x="342" y="92" width="32" height="26" fill="#CDEBFA"/>
+<path d="M140 200L290 200L290 184Z" fill="#A3A8CC"/>
+</g>
+<g class="wh" stroke="#2B2F4A" stroke-width="2">
+<circle cx="206" cy="182" r="13" fill="none" stroke-width="3"/>
+<path d="M200 182V160H214L222 182" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="208" cy="138" r="9" fill="#C58C64"/>
+<path d="M200 166V156Q200 148 208 148Q216 148 216 156V168H226V176" fill="#0B93D4" stroke-linejoin="round"/>
+</g>
+<circle cx="110" cy="132" r="10" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M96 200V158Q96 144 110 144Q124 144 124 158V200Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="102" y="156" width="10" height="12" rx="2" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="pt"><path d="M124 156L146 146" stroke="#E8B48C" stroke-width="6" stroke-linecap="round"/></g>
+<circle cx="360" cy="140" r="10" fill="#C58C64" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M349 135Q350 124 360 124Q370 124 371 135Z" fill="#5B6B3A" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M346 200V166Q346 152 360 152Q374 152 374 166V200Z" fill="#7C8C55" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="70" cy="72" r="48" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="38" y="44" width="64" height="56" rx="6" fill="#F3F3F7" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="44" y="52" width="22" height="14" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/>
+<rect x="44" y="76" width="22" height="14" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="90" cy="59" r="6" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="90" cy="83" r="6" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"/>
+<g fill="#2B2F4A"><circle cx="74" cy="55" r="1.6"/><circle cx="74" cy="60" r="1.6"/><circle cx="78" cy="57.5" r="1.6"/><circle cx="74" cy="79" r="1.6"/><circle cx="78" cy="79" r="1.6"/><circle cx="74" cy="84" r="1.6"/><circle cx="78" cy="84" r="1.6"/></g>
+<path d="M112 92L150 120" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

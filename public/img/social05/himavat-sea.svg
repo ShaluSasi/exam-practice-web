@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>Snowy mountains on one side, plains and a river in the middle, and the sea on the other side</title>
+<style>
+.riv{animation:rv 2s linear infinite}@keyframes rv{to{stroke-dashoffset:-36}}.wv{animation:wv 2.4s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="200" rx="16" fill="#E3F2FD"/><circle cx="200" cy="40" r="16" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/><path d="M0 170L30 70L60 110L95 46L135 120L160 150H260V200H16Q0 200 0 184Z" fill="#A3A8CC" stroke="#6E7399" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 70L20 104L34 96L42 108L50 98ZM95 46L80 84L94 76L102 88L112 78Z" fill="#FFFFFF" stroke="#6E7399" stroke-width="2" stroke-linejoin="round"/><path d="M120 150Q200 136 300 150V200H120Z" fill="#9BD08A" stroke="#3FA34D" stroke-width="2.5"/><path class="riv" d="M130 152Q170 168 210 160T296 170" fill="none" stroke="#0B93D4" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 8"/><path d="M290 150Q340 146 400 150V184Q400 200 384 200H290Z" fill="#7FC4E8" stroke="#0B93D4" stroke-width="2.5"/><g class="wv" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"><path d="M304 168q8-6 16 0t16 0"/><path d="M344 182q8-6 16 0t16 0"/><path d="M330 160q8-6 16 0t16 0"/></g>
+</svg>

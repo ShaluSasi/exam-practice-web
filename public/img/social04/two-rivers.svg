@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Two rivers flowing out of a curve of hills with green fields in the land between them</title>
+<style>
+.wv{stroke-dasharray:10 10;animation:wv 2s linear infinite}
+@keyframes wv{to{stroke-dashoffset:-40}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V90H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 100Q40 50 100 70Q150 40 200 62Q250 40 300 70Q360 50 400 100V110H0Z" fill="#9BBF7A" stroke="#5E8A3E" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 100H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#E6D3A8"/>
+<path d="M150 100Q120 160 60 240H110Q160 170 172 100Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path d="M240 100Q270 160 330 240H380Q300 160 262 100Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="wv" d="M160 104Q136 170 86 236M252 104Q282 170 354 236" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M176 110L236 110L320 236H120Z" fill="#B9D27A" stroke="#7E9A3A" stroke-width="2"/>
+<path d="M196 130H226M178 160H252M156 192H282M134 222H310M206 110L200 236" stroke="#7E9A3A" stroke-width="1.6"/>
+</svg>

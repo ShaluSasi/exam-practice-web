@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A pair of balance scales with a crown on a cushion in one pan and a group of smiling people in the other</title>
+<style>
+.beam{transform-box:view-box;transform-origin:180px 52px;animation:tilt 4s ease-in-out infinite alternate}@keyframes tilt{from{transform:rotate(6deg)}to{transform:rotate(9deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="130" y="196" width="100" height="12" rx="4" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/><path d="M180 196V52" stroke="#A3A8CC" stroke-width="7"/><path d="M180 196V52" stroke="#2B2F4A" stroke-width="1.5" fill="none" opacity=".4"/>
+<g class="beam"><rect x="60" y="48" width="240" height="8" rx="4" fill="#E0A83A" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M70 56L50 120M70 56L90 120M290 56L270 120M290 56L310 120" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M40 120Q70 140 100 120Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/><path d="M260 120Q290 140 320 120Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="54" y="110" width="32" height="10" rx="4" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5"/><path d="M58 110V96L64 103L70 94L76 103L82 96V110Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M270.6 120Q270.6 105.6 276 105.6Q281.4 105.6 281.4 120Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="276" cy="102" r="4.2" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/><path d="M271.8 101.4A4.2 4.2 0 0 1 280.2 101.4Q276 99.3 271.8 101.4Z" fill="#2B2F4A"/><path d="M283.7 120Q283.7 103.2 290 103.2Q296.3 103.2 296.3 120Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="290" cy="99" r="4.9" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/><path d="M285.1 98.3A4.9 4.9 0 0 1 294.9 98.3Q290 95.9 285.1 98.3Z" fill="#2B2F4A"/><path d="M298.6 120Q298.6 105.6 304 105.6Q309.4 105.6 309.4 120Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="304" cy="102" r="4.2" fill="#8A5A3C" stroke="#2B2F4A" stroke-width="2"/><path d="M299.8 101.4A4.2 4.2 0 0 1 308.2 101.4Q304 99.3 299.8 101.4Z" fill="#2B2F4A"/></g>
+<circle cx="180" cy="52" r="6" fill="#2B2F4A"/>
+</svg>

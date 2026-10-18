@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A pie chart of a student's monthly money in four slices</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.pz{animation:pz 3s ease-in-out infinite;transform-box:view-box;transform-origin:200px 165px}@keyframes pz{50%{transform:scale(1.03)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="200" y="32" font-family="system-ui, sans-serif" font-weight="600" font-size="17" fill="#2B2F4A" text-anchor="middle" >Riya's monthly money: ₹600</text>
+<g class="pz"><path d="M200 165L200.0 50.0A115 115 0 0 1 299.6 222.5Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M200 165L299.6 222.5A115 115 0 0 1 142.5 264.6Z" fill="#FCE3A0" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M200 165L142.5 264.6A115 115 0 0 1 100.4 107.5Z" fill="#BFE3C2" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M200 165L100.4 107.5A115 115 0 0 1 200.0 50.0Z" fill="#FFD1A8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/></g>
+<text x="255" y="142" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#2B2F4A" text-anchor="middle" >Notebooks</text><text x="255" y="158" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#2B2F4A" text-anchor="middle" >and pens</text><text x="255" y="176" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="middle" >₹200</text>
+<text x="212" y="214" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#2B2F4A" text-anchor="middle" >Bus pass</text><text x="212" y="232" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="middle" >₹150</text>
+<text x="150" y="176" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#2B2F4A" text-anchor="middle" >Savings</text><text x="150" y="194" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="middle" >₹150</text>
+<text x="164" y="102" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#2B2F4A" text-anchor="middle" >Cinema</text><text x="164" y="115" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#2B2F4A" text-anchor="middle" >and snacks</text><text x="166" y="131" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#2B2F4A" text-anchor="middle" >₹100</text>
+</svg>

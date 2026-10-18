@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A rock shelter wall painted with simple figures of people and animals, with numbered markers</title>
+<style>
+.lt{animation:lt 3s ease-in-out infinite}
+@keyframes lt{0%,100%{opacity:.05}50%{opacity:.22}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M20 20Q100 8 200 18Q300 6 380 22L384 280Q300 292 200 284Q100 294 16 280Z" fill="#E2C9A4" stroke="#A9886A" stroke-width="3"/>
+<path d="M60 150q40 -10 80 4M250 60q30 10 70 0M240 250q40 -8 90 4" fill="none" stroke="#CDB28A" stroke-width="3" stroke-linecap="round"/>
+<g fill="none" stroke="#B5462E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="80" cy="64" r="7" fill="#B5462E"/><path d="M80 71V100M80 100L70 122M80 100L92 120M80 80L100 82M80 80L66 90"/>
+<path d="M100 66Q114 82 100 98M100 66L100 98M100 82H124M118 77l6 5l-6 5"/>
+<circle cx="316" cy="70" r="7" fill="#B5462E"/><path d="M316 77V106M316 106L306 128M316 106L328 126M316 86L298 80M316 86L332 92M286 74L346 98"/>
+<path d="M150 112Q190 96 230 112L226 126H156Z" fill="#B5462E"/><path d="M160 124L154 146M170 124L168 146M214 124L216 146M224 124L230 146M228 112L240 96L246 100M240 96L236 86M240 96L250 90"/>
+<path d="M80 210Q110 190 140 210Q110 230 80 210ZM80 210L66 198M80 210L66 222"/><circle cx="128" cy="207" r="2" fill="#B5462E"/>
+<circle cx="230" cy="196" r="5" fill="#B5462E"/><path d="M230 201V222M230 222L222 238M230 222L238 238M230 208L218 200M230 208L242 200"/>
+<circle cx="262" cy="196" r="5" fill="#B5462E"/><path d="M262 201V222M262 222L254 238M262 222L270 238M262 208L250 200M262 208L274 200"/>
+<circle cx="294" cy="196" r="5" fill="#B5462E"/><path d="M294 201V222M294 222L286 238M294 222L302 238M294 208L282 200M294 208L306 200"/>
+</g>
+<g fill="#C9603F" opacity=".5"><path d="M344 210q-2 -14 4 -16q4 0 4 8q2 -12 6 -12q4 0 3 12q3 -8 6 -6q3 2 0 14q-2 12 -12 12q-10 0 -11 -12z"/></g>
+<rect class="lt" x="16" y="8" width="368" height="288" fill="#FF8A1F"/>
+</svg>

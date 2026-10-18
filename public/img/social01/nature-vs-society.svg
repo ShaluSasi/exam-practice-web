@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Two halves: on one side a flask, a magnet and a leaf; on the other side people talking in a community</title>
+<style>
+.bub{animation:rise 2.5s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-30px);opacity:0}}
+.talk{animation:talk 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes talk{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 8H196V252H16Q8 252 8 244V16Q8 8 16 8Z" fill="#CDEBFA"/>
+<path d="M204 8H384Q392 8 392 16V244Q392 252 384 252H204Z" fill="#FCE3C4"/>
+<path d="M200 20V240" stroke="#2B2F4A" stroke-width="3" stroke-dasharray="8 8" stroke-linecap="round"/>
+<path d="M66 70H90V112L116 168Q120 180 108 180H48Q36 180 40 168L66 112Z" fill="#E6F5FD" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M52 146H104L114 168Q116 176 108 176H48Q40 176 42 168Z" fill="#3FA34D" fill-opacity=".7"/>
+<g fill="#fff" stroke="#3FA34D" stroke-width="1.5"><circle class="bub" cx="74" cy="140" r="4"/><circle class="bub" cx="84" cy="150" r="3" style="animation-delay:1.2s"/></g>
+<path d="M130 196V160Q130 140 150 140Q170 140 170 160V196H156V162Q156 154 150 154Q144 154 144 162V196Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="130" y="184" width="14" height="12" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/><rect x="156" y="184" width="14" height="12" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M120 40Q150 26 170 50Q160 82 128 76Q112 64 120 40Z" fill="#7CC77F" stroke="#2B6E33" stroke-width="2.5"/>
+<path d="M126 70Q144 54 162 46" fill="none" stroke="#2B6E33" stroke-width="2"/>
+<path d="M30 220H176" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<circle cx="250" cy="110" r="14" fill="#8A5A3C"/><path d="M226 180Q226 132 250 132Q274 132 274 180Z" fill="#0B93D4"/>
+<circle cx="340" cy="110" r="14" fill="#C68A5E"/><path d="M316 180Q316 132 340 132Q364 132 364 180Z" fill="#3FA34D"/>
+<circle cx="296" cy="140" r="11" fill="#A86E48"/><path d="M278 196Q278 158 296 158Q314 158 314 196Z" fill="#F6C453"/>
+</g>
+<g class="talk"><path d="M262 54H300Q308 54 308 62V78Q308 86 300 86H282L272 96V86H262Q254 86 254 78V62Q254 54 262 54Z" fill="#fff" stroke="#2B2F4A" stroke-width="2"/><path d="M264 66h32M264 74h22" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"/></g>
+<g class="talk" style="animation-delay:1s"><path d="M318 40H356Q364 40 364 48V64Q364 72 356 72H346L340 82V72H318Q310 72 310 64V48Q310 40 318 40Z" fill="#fff" stroke="#2B2F4A" stroke-width="2"/><path d="M320 52h32M320 60h20" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"/></g>
+<path d="M216 220H380" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>A shiny gold wristwatch</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.s{animation:s 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes s{50%{transform:scale(.4);opacity:.3}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="84" y="20" width="32" height="120" rx="8" fill="#C8925A" class="o"/><circle cx="100" cy="80" r="34" fill="#F6C453" stroke="#B8860B" stroke-width="3"/><circle cx="100" cy="80" r="25" fill="#FFF9EE" stroke="#B8860B" stroke-width="2"/>
+<path d="M100 80V62M100 80L112 88" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path class="s" d="M150 40L154 50L164 54L154 58L150 68L146 58L136 54L146 50Z" fill="#F6C453" stroke="#B8860B" stroke-width="1.5"/>
+<path class="s" d="M48 100L51 107L58 110L51 113L48 120L45 113L38 110L45 107Z" fill="#F6C453" stroke="#B8860B" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>The Sun, the Earth with its oceans, and four possible positions of the Moon on its orbit</title>
+<style>
+.ray{animation:ray 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes ray{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.12);opacity:1}}
+.bl{animation:bl 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes bl{0%,100%{transform:scaleX(1)}50%{transform:scaleX(1.08)}}
+.tw{animation:tw 2.5s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="6" y="6" width="468" height="248" rx="12" fill="#26294A"/>
+<g class="tw" fill="#FFF3B0"><circle cx="150" cy="30" r="2"/><circle cx="420" cy="40" r="2.5"/><circle cx="440" cy="220" r="2"/><circle cx="160" cy="232" r="2.5"/><circle cx="370" cy="200" r="1.8"/></g>
+<g class="ray"><circle cx="55" cy="130" r="54" fill="#F6C453" opacity=".35"/></g>
+<circle cx="55" cy="130" r="40" fill="#F6C453" stroke="#E0A030" stroke-width="3"/>
+<circle cx="290" cy="130" r="105" fill="none" stroke="#A3A8CC" stroke-width="2" stroke-dasharray="6 7"/>
+<g class="bl"><ellipse cx="290" cy="130" rx="46" ry="35" fill="#7FD0FF" opacity=".55" stroke="#BFE6FA" stroke-width="2"/></g>
+<circle cx="290" cy="130" r="30" fill="#0B93D4" stroke="#BFE6FA" stroke-width="2.5"/>
+<path d="M272 120Q284 106 296 118Q292 132 278 134Z M294 140Q306 134 310 146Q298 154 292 148Z" fill="#3FA34D"/>
+<path d="M290 100A30 30 0 0 1 290 160Z" fill="#1A1C33" opacity=".45"/>
+<circle cx="185" cy="130" r="12" fill="#8E93B5" stroke="#2B2F4A" stroke-width="2"/><path d="M185 118A12 12 0 0 0 185 142Z" fill="#FFF3B0"/><circle cx="185" cy="130" r="12" fill="none" stroke="#2B2F4A" stroke-width="2"/><circle cx="395" cy="130" r="12" fill="#8E93B5" stroke="#2B2F4A" stroke-width="2"/><path d="M395 118A12 12 0 0 0 395 142Z" fill="#FFF3B0"/><circle cx="395" cy="130" r="12" fill="none" stroke="#2B2F4A" stroke-width="2"/><circle cx="290" cy="25" r="12" fill="#8E93B5" stroke="#2B2F4A" stroke-width="2"/><path d="M290 13A12 12 0 0 0 290 37Z" fill="#FFF3B0"/><circle cx="290" cy="25" r="12" fill="none" stroke="#2B2F4A" stroke-width="2"/><circle cx="290" cy="235" r="12" fill="#8E93B5" stroke="#2B2F4A" stroke-width="2"/><path d="M290 223A12 12 0 0 0 290 247Z" fill="#FFF3B0"/><circle cx="290" cy="235" r="12" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

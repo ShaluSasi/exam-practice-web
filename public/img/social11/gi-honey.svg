@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img">
+<title>Product picture</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}.t{stroke:#2B2F4A;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}.fb{transform-box:fill-box;transform-origin:center}
+.hv{animation:hv 1.6s ease-in-out infinite alternate}@keyframes hv{to{transform:translate(8px,-5px)}}.dp{animation:dp 1.4s ease-in infinite}@keyframes dp{from{transform:translateY(0);opacity:1}to{transform:translateY(12px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<clipPath id="k"><rect width="200" height="150" rx="16"/></clipPath>
+<g clip-path="url(#k)">
+<rect x="0" y="0" width="200" height="150" fill="#FFF3DD" /><rect x="0" y="118" width="200" height="32" fill="#E2C9A0" /><path d="M60 118V64Q60 52 72 52H116Q128 52 128 64V118Z" fill="#F0A92B" stroke="#B9781A" stroke-width="2.5"/><rect x="64" y="38" width="60" height="16" rx="4" fill="#E9DCC8" class="t"/><path d="M70 74Q94 82 118 74" stroke="#FFE3A3" stroke-width="3" fill="none"/><path d="M150 24L132 96" stroke="#8A5A34" stroke-width="5" stroke-linecap="round"/><g fill="#C8925A" stroke="#7A5230" stroke-width="1.5"><ellipse cx="130" cy="98" rx="9" ry="6"/></g><path class="dp" d="M130 104v6" stroke="#F0A92B" stroke-width="4" stroke-linecap="round"/><g transform="translate(40 40) scale(1.2)"><g class="hv"><ellipse cx="-2" cy="-8" rx="5" ry="7" fill="#FFFFFF" fill-opacity="0.85" stroke="#7FA7D9" stroke-width="1.2"/><ellipse cx="4" cy="-8" rx="5" ry="7" fill="#FFFFFF" fill-opacity="0.85" stroke="#7FA7D9" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.6"/><path d="M-3 -5V5M2 -6V6" stroke="#2B2F4A" stroke-width="2.2"/><circle cx="8" cy="-1" r="1" fill="#2B2F4A"/></g></g>
+</g>
+</svg>

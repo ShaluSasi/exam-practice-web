@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" role="img">
+<title>A coast and sea fitted with instruments: a satellite, a buoy, a sensor on the sea floor, a tide gauge, a seismic station and a warning centre</title>
+<style>
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}.sg{animation:sg 1.6s linear infinite}@keyframes sg{from{stroke-dashoffset:0}to{stroke-dashoffset:-24}}
+.rg{animation:rg 2s ease-out infinite;transform-box:fill-box;transform-origin:center}@keyframes rg{from{transform:scale(.3);opacity:1}to{transform:scale(1.4);opacity:0}}
+.ph{animation:ph 1.2s ease-in-out infinite}@keyframes ph{50%{opacity:.3}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H544Q560 0 560 16V110H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="170" y="110" width="390" height="150" fill="#5BB5E8"/>
+<path d="M0 250H560V264Q560 280 544 280H16Q0 280 0 264Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5"/>
+<path d="M0 110H150L190 250H0Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(290 34)" stroke="#2B2F4A" stroke-width="2"><rect x="-12" y="-10" width="24" height="20" fill="#A3A8CC"/><rect x="-44" y="-6" width="28" height="12" fill="#0B93D4"/><rect x="16" y="-6" width="28" height="12" fill="#0B93D4"/></g>
+<path class="sg" d="M290 48L440 112M290 48L70 72" stroke="#FF8A1F" stroke-width="2.5" stroke-dasharray="8 4"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="40" y="72" width="60" height="38" fill="#F6E3C4"/><path d="M34 72L70 52L106 72Z" fill="#E5484D"/><path d="M70 52V40" /><circle cx="70" cy="38" r="3" fill="#2B2F4A"/></g>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="114" y="92" width="26" height="18" fill="#A3A8CC"/><path d="M118 101L122 96L126 106L130 96L134 101" fill="none" stroke="#E5484D"/></g>
+<path d="M150 110H186V150" fill="none" stroke="#2B2F4A" stroke-width="3"/><rect x="180" y="120" width="12" height="24" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<g class="bob"><path d="M426 112H454L448 124H432Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/><path d="M440 112V94" stroke="#2B2F4A" stroke-width="2"/><circle cx="440" cy="92" r="3" fill="#E5484D"/></g>
+<path class="sg" d="M440 126V236" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 8"/>
+<rect x="428" y="236" width="24" height="14" rx="3" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<circle class="rg" cx="330" cy="250" r="22" fill="none" stroke="#E5484D" stroke-width="3"/>
+<path d="M330 250L336 240L340 250L350 248L342 256L346 266L336 260L326 266L328 256L318 250Z" fill="#F6C453" stroke="#E5484D" stroke-width="2" stroke-linejoin="round"/>
+<g class="ph"><rect x="18" y="150" width="34" height="56" rx="6" fill="#2B2F4A"/><rect x="22" y="158" width="26" height="38" rx="3" fill="#CDEBFA"/><path d="M26 168H44M26 176H40" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/></g>
+<g transform="translate(100 200) scale(1.1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(140 220) scale(0.8)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>An underwater scene: a healthy coral reef on one side and rubbish and an oversized net on the other</title>
+<style>
+.sw{animation:sw 2s ease-in-out infinite alternate}@keyframes sw{to{transform:translateX(8px)}}
+.fl{animation:fl 3s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-6px) rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><linearGradient id="uw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FC6EC"/><stop offset="1" stop-color="#2F7FB8"/></linearGradient></defs>
+<rect x="8" y="8" width="464" height="244" rx="12" fill="url(#uw)"/>
+<path d="M240 8V252" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6 6" opacity=".6"/>
+<path d="M8 220Q120 205 240 222V240Q240 252 228 252H20Q8 252 8 240Z M240 222Q360 208 472 220V240Q472 252 460 252H252Q240 252 240 240Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" fill="none"><path d="M60 222V180M60 196L44 176M60 190L76 168" stroke="#FF8A1F" stroke-width="6"/><path d="M120 224V170M120 186L104 160M120 196L140 176" stroke="#E5484D" stroke-width="6"/><path d="M180 222V190M180 200L194 182" stroke="#F6C453" stroke-width="6"/></g>
+<g class="sw"><g transform="translate(70 110) scale(1.2 1.2)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(150 80) scale(1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(120 140) scale(-1.1 1.1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(190 120) scale(1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g></g>
+<path d="M300 40L440 40L420 150Q370 180 320 150Z" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="4 3"/>
+<g transform="translate(340 110) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(370 128) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(400 104) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(355 140) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(390 146) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(380 84) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g>
+<g class="fl"><path d="M270 200L290 196L298 216L276 222Z" fill="#E6E6E6" stroke="#2B2F4A" stroke-width="2"/></g>
+<g class="fl" style="animation-delay:1s"><rect x="420" y="192" width="12" height="28" rx="4" fill="#BFE6FA" stroke="#2B2F4A" stroke-width="2" transform="rotate(30 426 206)"/></g>
+<path d="M330 214Q346 196 362 214Q346 226 330 214Z" fill="#2B2F4A" opacity=".75"/>
+</svg>

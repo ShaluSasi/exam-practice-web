@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A ploughed field with furrows running in two directions and two kinds of crop growing</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V60H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 60H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#C8A26E"/>
+<path d="M40 76H360L392 226H8Z" fill="#B88A56" stroke="#7E5A32" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#7E5A32" stroke-width="2.5" stroke-linecap="round"><path d="M40 76L8 226"/><path d="M85.7 76L62.9 226"/><path d="M131.4 76L117.8 226"/><path d="M177.10000000000002 76L172.7 226"/><path d="M222.8 76L227.6 226"/><path d="M268.5 76L282.5 226"/><path d="M314.20000000000005 76L337.4 226"/><path d="M359.90000000000003 76L392.3 226"/></g>
+<g stroke="#8F6A3E" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"><path d="M34 102H366M26 138H374M18 178H382M12 206H388"/></g>
+<g class="sw"><path d="M80 136V112M80 120l-6-6M80 116l6-6" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/><path d="M128 136V112M128 120l-6-6M128 116l6-6" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/><path d="M176 136V112M176 120l-6-6M176 116l6-6" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/><path d="M224 136V112M224 120l-6-6M224 116l6-6" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/><path d="M272 136V112M272 120l-6-6M272 116l6-6" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/><path d="M320 136V112M320 120l-6-6M320 116l6-6" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/></g>
+<g><circle cx="50" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="50" cy="194" r="2" fill="#F6C453"/><circle cx="100" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="100" cy="194" r="2" fill="#F6C453"/><circle cx="150" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="150" cy="194" r="2" fill="#F6C453"/><circle cx="200" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="200" cy="194" r="2" fill="#F6C453"/><circle cx="250" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="250" cy="194" r="2" fill="#F6C453"/><circle cx="300" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="300" cy="194" r="2" fill="#F6C453"/><circle cx="350" cy="196" r="7" fill="#7CC36E" stroke="#3FA34D" stroke-width="2"/><circle cx="350" cy="194" r="2" fill="#F6C453"/></g>
+</svg>

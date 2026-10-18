@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A road through a lifting barrier towards busy factories, shops and cargo containers</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.gate{animation:gate 3s ease-in-out infinite;transform-box:view-box;transform-origin:150px 170px}@keyframes gate{0%,20%{transform:rotate(0)}50%,80%{transform:rotate(-70deg)}100%{transform:rotate(0)}}
+.tk{animation:tk 4s linear infinite}@keyframes tk{from{transform:translateX(-60px)}to{transform:translateX(320px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/><rect x="0" y="150" width="400" height="150" fill="#D9C49A"/><path d="M0 200H400V240H0Z" fill="#7E8299"/><path d="M10 220H50M80 220H120M150 220H190M220 220H260M290 220H330M360 220H400" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="16" y="160" width="30" height="16" rx="2" fill="#FFFFFF" class="o"/><rect x="50" y="160" width="30" height="16" rx="2" fill="#FFFFFF" class="o"/><rect x="16" y="142" width="30" height="16" rx="2" fill="#FFFFFF" class="o"/><rect x="50" y="142" width="30" height="16" rx="2" fill="#FFFFFF" class="o"/><rect x="16" y="124" width="30" height="16" rx="2" fill="#FFFFFF" class="o"/>
+<rect x="144" y="166" width="12" height="34" fill="#2B2F4A"/><g class="gate"><rect x="150" y="164" width="96" height="10" rx="4" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><path d="M170 164V174M194 164V174M218 164V174" stroke="#FFFFFF" stroke-width="6"/></g>
+<path d="M260 150V100L280 112V100L300 112V80H314V150Z" fill="#A3A8CC" class="o"/>
+<g><rect x="320" y="118" width="34" height="30" fill="#FF8A1F" class="o"/><rect x="354" y="118" width="34" height="30" fill="#0B93D4" class="o"/><rect x="336" y="88" width="34" height="30" fill="#3FA34D" class="o"/></g>
+<rect x="210" y="104" width="44" height="46" fill="#FFFFFF" class="o"/><path d="M206 104L214 92H250L258 104Z" fill="#F6C453" class="o"/>
+<g class="tk"><rect x="0" y="184" width="40" height="22" rx="3" fill="#F6C453" class="o"/><rect x="40" y="190" width="16" height="16" rx="3" fill="#CDEBFA" class="o"/><circle cx="14" cy="208" r="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><circle cx="14" cy="208" r="3" fill="#2B2F4A"/><circle cx="46" cy="208" r="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><circle cx="46" cy="208" r="3" fill="#2B2F4A"/></g>
+<path d="M20 270H380" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><circle cx="60" cy="270" r="8" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="200" cy="270" r="8" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="340" cy="270" r="8" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+</svg>

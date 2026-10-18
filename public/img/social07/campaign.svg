@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" role="img">
+<title>A busy market street with posters on the walls and campaigners handing out leaflets</title>
+<style>
+.lf{animation:lf 3s ease-in-out infinite}
+.l2{animation-delay:1s}.l3{animation-delay:2s}
+@keyframes lf{0%{transform:translate(0,0) rotate(0);opacity:0}20%{opacity:1}100%{transform:translate(40px,-30px) rotate(40deg);opacity:0}}
+.mg{animation:wave 1.6s ease-in-out infinite}
+@keyframes wave{0%,100%{opacity:.2}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H364V176H16Z" fill="#E3F2FD"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M20 176V60H140V176Z" fill="#FDE3C8"/>
+<path d="M14 64L36 40H124L146 64Z" fill="#E5484D"/>
+<path d="M240 176V54H364V176Z" fill="#D8F0D9"/>
+<path d="M234 58L256 36H348L370 58Z" fill="#0B93D4"/>
+<rect x="30" y="76" width="44" height="54" rx="3" fill="#FFFFFF"/>
+<rect x="84" y="76" width="44" height="54" rx="3" fill="#FFFFFF"/>
+<rect x="252" y="72" width="44" height="54" rx="3" fill="#FFFFFF"/>
+<rect x="306" y="72" width="44" height="54" rx="3" fill="#FFFFFF"/>
+</g>
+<path d="M52 88l4 8 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2"/>
+<circle cx="106" cy="100" r="11" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M274 84l12 22h-24Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M328 88l4 8 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2"/>
+<path d="M36 120H68M90 120H122M258 116H290M312 116H344" stroke="#A3A8CC" stroke-width="2"/>
+<rect x="150" y="26" width="80" height="34" rx="6" fill="#FFF0C2" stroke="#2B2F4A" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="190" y="40">Polling day</text><text x="190" y="54">tomorrow</text></g>
+<path d="M190 60V100" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M0 172H380V204Q380 220 364 220H16Q0 220 0 204Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="168" cy="128" r="10" fill="#E8B48C"/><path d="M154 186V152Q154 140 168 140Q182 140 182 152V186Z" fill="#F6C453"/>
+<circle cx="214" cy="126" r="10" fill="#C58C64"/><path d="M200 186V150Q200 138 214 138Q228 138 228 150V186Z" fill="#8E7FD6"/>
+</g>
+<path d="M182 150L196 136L198 150Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/>
+<path class="mg" d="M202 136Q208 142 202 148" fill="none" stroke="#FF8A1F" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.2">
+<rect class="lf" x="226" y="150" width="12" height="15"/><rect class="lf l2" x="230" y="146" width="12" height="15"/><rect class="lf l3" x="224" y="154" width="12" height="15"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="70" cy="150" r="9" fill="#E8B48C"/><path d="M58 196V172Q58 160 70 160Q82 160 82 172V196Z" fill="#E5484D"/>
+<circle cx="96" cy="158" r="7" fill="#E8B48C"/><path d="M87 196V178Q87 168 96 168Q105 168 105 178V196Z" fill="#3FA34D"/>
+</g>
+</svg>

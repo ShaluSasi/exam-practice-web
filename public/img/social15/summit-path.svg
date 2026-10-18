@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A zigzag path up a mountain to a small pennant at the summit, with a hiker climbing</title>
+<style>
+.hike{animation:hike 6s ease-in-out infinite}@keyframes hike{0%{transform:translate(80px,174px)}20%{transform:translate(170px,148px)}40%{transform:translate(120px,120px)}60%{transform:translate(190px,96px)}80%{transform:translate(160px,74px)}100%{transform:translate(198px,52px)}}
+.fl{animation:fl 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}@keyframes fl{0%,100%{transform:skewY(0)}50%{transform:skewY(8deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H324Q340 0 340 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/><circle cx="60" cy="44" r="18" fill="#F6C453" stroke="#E0A31A" stroke-width="2"/>
+<path d="M0 194L110 80L150 112L200 40L340 194V194Q340 210 324 210H16Q0 210 0 194Z" fill="#A3C9A8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M178 70L200 40L222 70L210 64L200 72L190 64Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M80 196L170 170L120 142L190 118L160 96L200 74" stroke="#E8DCC8" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 10"/>
+<path d="M200 40V12" stroke="#2B2F4A" stroke-width="2.5"/><path class="fl" d="M200 13L222 20L200 27Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="hike"><g transform="translate(0 0) scale(0.5)">
+<path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-8" r="10" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-10 -10Q-9 -20 0 -19Q9 -20 10 -10Q6 -15 0 -14Q-6 -15 -10 -10Z" fill="#2B2F4A"/>
+<circle cx="-3.5" cy="-8" r="1.3" fill="#2B2F4A"/><circle cx="3.5" cy="-8" r="1.3" fill="#2B2F4A"/>
+<path d="M-3 -3Q0 -1 3 -3" stroke="#2B2F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/></g></g>
+</svg>

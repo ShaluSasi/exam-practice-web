@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>Four tiles showing a pot, a loom, a plough and a trader's balance</title>
+<style>
+.b0,.b1,.b2,.b3{animation:bob 3s ease-in-out infinite alternate}.b1{animation-delay:.5s}.b2{animation-delay:1s}.b3{animation-delay:1.5s}@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="40" width="80" height="120" rx="12" fill="#FFFFFF" stroke="#E0C48E" stroke-width="3"/><g class="b0"><path d="M36 92H76Q76 140 56 144Q36 140 36 92Z" fill="#C8553D" stroke="#8C3424" stroke-width="2.5"/><ellipse cx="56" cy="92" rx="20" ry="5" fill="#A8432F"/></g><rect x="112" y="40" width="80" height="120" rx="12" fill="#FFFFFF" stroke="#E0C48E" stroke-width="3"/><g class="b1"><rect x="124" y="70" width="56" height="60" fill="none" stroke="#8A5A33" stroke-width="4"/><path d="M132 72V128M142 72V128M152 72V128M162 72V128M172 72V128" stroke="#E5484D" stroke-width="2"/><path d="M124 100H180" stroke="#0B93D4" stroke-width="4"/></g><rect x="208" y="40" width="80" height="120" rx="12" fill="#FFFFFF" stroke="#E0C48E" stroke-width="3"/><g class="b2"><path d="M222 140L262 76M246 102L276 116L266 136Z" fill="#A3A8CC" stroke="#8A5A33" stroke-width="4" stroke-linejoin="round"/></g><rect x="304" y="40" width="80" height="120" rx="12" fill="#FFFFFF" stroke="#E0C48E" stroke-width="3"/><g class="b3"><path d="M344 70V134M318 84H370" stroke="#2B2F4A" stroke-width="3"/><path d="M318 84L310 108H326ZM370 84L362 108H378Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M330 136H358" stroke="#2B2F4A" stroke-width="4"/></g>
+</svg>

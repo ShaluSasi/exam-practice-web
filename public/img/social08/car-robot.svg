@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A car body on an assembly line with a robot arm working on it</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.arm{animation:arm 2.4s ease-in-out infinite;transform-box:view-box;transform-origin:96px 230px}@keyframes arm{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(10deg)}}
+.cv{animation:cv 3s linear infinite}@keyframes cv{to{transform:translateX(-40px)}}
+.sp{animation:sp .5s steps(2) infinite}@keyframes sp{50%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="236" width="400" height="22" fill="#7E8299"/><g class="cv" fill="#2B2F4A"><circle cx="10" cy="247" r="6"/><circle cx="50" cy="247" r="6"/><circle cx="90" cy="247" r="6"/><circle cx="130" cy="247" r="6"/><circle cx="170" cy="247" r="6"/><circle cx="210" cy="247" r="6"/><circle cx="250" cy="247" r="6"/><circle cx="290" cy="247" r="6"/><circle cx="330" cy="247" r="6"/><circle cx="370" cy="247" r="6"/><circle cx="410" cy="247" r="6"/><circle cx="450" cy="247" r="6"/></g>
+<path d="M170 230V200Q170 192 180 190L206 186L228 160H300L328 186L352 192Q360 194 360 202V230Z" fill="#CDEBFA" class="o"/><path d="M236 168H260V186H218ZM268 168H296L318 186H268Z" fill="#FFFFFF" class="o"/>
+<rect x="70" y="230" width="52" height="10" fill="#A3A8CC" class="o"/>
+<g class="arm"><path d="M96 230L120 140L190 120" fill="none" stroke="#F6C453" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/><path d="M96 230L120 140L190 120" fill="none" stroke="#2B2F4A" stroke-width="2"/><circle cx="120" cy="140" r="10" fill="#FFF9EE" class="o"/><path d="M190 120L204 146" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/>
+<g class="sp" fill="#FF8A1F"><path d="M206 152L214 146L212 156L222 156L212 162Z"/></g></g>
+</svg>

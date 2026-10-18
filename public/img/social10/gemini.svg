@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" role="img">
+<title>A satellite above the sea, a fishing boat with a small device and a phone, and two range lines drawn from the coast</title>
+<style>
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}.sg{animation:sg 1.4s linear infinite}@keyframes sg{to{stroke-dashoffset:-24}}
+.bt{animation:bt 1.4s ease-in-out infinite}@keyframes bt{50%{opacity:.2}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H504Q520 0 520 16V110H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 110H520V244Q520 260 504 260H16Q0 260 0 244Z" fill="#5BB5E8" />
+<path d="M0 110H34Q60 180 40 260H16Q0 260 0 244Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5"/>
+<path d="M18 180A70 70 0 0 1 88 250" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="7 5"/>
+<path d="M188 110A420 420 0 0 1 438 250" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="96" y="246" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">50 NM</text><text x="368" y="246" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">300 NM</text>
+<g transform="translate(110 40)" stroke="#2B2F4A" stroke-width="2"><rect x="-12" y="-10" width="24" height="20" fill="#A3A8CC"/><rect x="-44" y="-6" width="28" height="12" fill="#0B93D4"/><rect x="16" y="-6" width="28" height="12" fill="#0B93D4"/></g>
+<path class="sg" d="M120 54L250 126" stroke="#FF8A1F" stroke-width="2.5" stroke-dasharray="8 4"/>
+<g class="bob"><path d="M200 130H320L306 152H214Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M262 130Q262 104 276 104Q290 104 290 130Z" fill="#3FA34D"/><circle cx="276" cy="94" r="10" fill="#C98B5A"/><rect x="244" y="116" width="14" height="10" rx="2" fill="#F6C453"/><rect x="290" y="100" width="10" height="18" rx="2" fill="#2B2F4A"/></g>
+<g class="bt" fill="none" stroke="#0B93D4" stroke-width="2" stroke-linecap="round"><path d="M262 116Q270 108 278 116"/><path d="M258 110Q270 98 282 110"/></g></g>
+</svg>

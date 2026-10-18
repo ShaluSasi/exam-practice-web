@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A timeline bar divided into five unnamed stages with their starting and ending dates, with numbered markers</title>
+<style>
+.mv{animation:mv 6s linear infinite}
+@keyframes mv{from{transform:translateX(0)}to{transform:translateX(320px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="40" y="80" width="64" height="40" fill="#D9E8C8" stroke="#2B2F4A" stroke-width="2.5"/><rect x="104" y="80" width="64" height="40" fill="#F3D9B8" stroke="#2B2F4A" stroke-width="2.5"/><rect x="168" y="80" width="64" height="40" fill="#F6E3A2" stroke="#2B2F4A" stroke-width="2.5"/><rect x="232" y="80" width="64" height="40" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/><rect x="296" y="80" width="64" height="40" fill="#E9C9E0" stroke="#2B2F4A" stroke-width="2.5"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text x="40" y="66">7000 BCE</text><path d="M40 78V70" stroke="#2B2F4A" stroke-width="2"/><text x="104" y="150">4500 BCE</text><path d="M104 122V136" stroke="#2B2F4A" stroke-width="2"/><text x="168" y="66">3300 BCE</text><path d="M168 78V70" stroke="#2B2F4A" stroke-width="2"/><text x="232" y="150">2600 BCE</text><path d="M232 122V136" stroke="#2B2F4A" stroke-width="2"/><text x="296" y="66">1900 BCE</text><path d="M296 78V70" stroke="#2B2F4A" stroke-width="2"/><text x="360" y="150">1300 BCE</text><path d="M360 122V136" stroke="#2B2F4A" stroke-width="2"/></g>
+<path d="M40 176H352M344 170l10 6l-10 6" fill="none" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12"><text x="40" y="194">time</text></g>
+<circle class="mv" cx="40" cy="176" r="5" fill="#FF8A1F"/>
+</svg>

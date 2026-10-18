@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A balanced pair of scales holding a wealthy-looking person in a top hat and an ordinary person at the same level</title>
+<style>
+.beam{animation:rock 4s ease-in-out infinite;transform-origin:120px 44px}@keyframes rock{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 156H240V164Q240 180 224 180H16Q0 180 0 164Z" fill="#D9C49A"/><path d="M120 44V152M92 156H148" stroke="#8B5A2B" stroke-width="6" stroke-linecap="round"/><path d="M100 156L120 140L140 156Z" fill="#C8925A"/><g class="beam"><path d="M44 44H196" stroke="#8B5A2B" stroke-width="6" stroke-linecap="round"/><path d="M50 44L24 116M50 44L76 116M190 44L164 116M190 44L216 116" stroke="#2B2F4A" stroke-width="1.5"/><path d="M41.6 116Q41.6 95 50 95Q58.4 95 58.4 116Z" fill="#8E7CC3" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="50" cy="89.4" r="6.3" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/><path d="M43.7 88.7A6.3 6.3 0 0 1 56.3 88.7Q50 85.9 43.7 88.7Z" fill="#2B2F4A"/><rect x="44" y="69" width="12" height="11" fill="#2B2F4A"/><rect x="40" y="79" width="20" height="3" rx="1" fill="#2B2F4A"/><path d="M46 96l4 2 4-2v4l-4-2-4 2Z" fill="#E5484D"/><path d="M181.6 116Q181.6 95 190 95Q198.4 95 198.4 116Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="190" cy="89.4" r="6.3" fill="#8A5A3C" stroke="#2B2F4A" stroke-width="2"/><path d="M183.7 88.7A6.3 6.3 0 0 1 196.3 88.7Q190 85.9 183.7 88.7Z" fill="#2B2F4A"/><path d="M182 92Q190 84 198 92" fill="none" stroke="#C8925A" stroke-width="3"/><path d="M20 116Q50 134 80 116ZM160 116Q190 134 220 116Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/></g><circle cx="120" cy="40" r="6" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

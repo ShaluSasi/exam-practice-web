@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A scientist in a laboratory studying an old bone and a pot shard with a microscope and a computer showing a twisted ladder shape</title>
+<style>
+.dna{animation:twist 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes twist{0%,100%{transform:scaleX(1)}50%{transform:scaleX(-1)}}
+.blink{animation:bl 1.4s ease-in-out infinite}
+@keyframes bl{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V190H0V16Q0 0 16 0Z" fill="#EEF4FA"/>
+<path d="M0 188H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A3A8CC"/>
+<rect x="0" y="182" width="400" height="10" fill="#6E7396"/>
+<rect x="250" y="60" width="120" height="90" rx="6" fill="#2B2F4A"/>
+<rect x="258" y="68" width="104" height="74" fill="#E3F2FD"/>
+<g class="dna" stroke-width="3" stroke-linecap="round" fill="none">
+<path d="M294 74Q330 92 294 108Q258 124 294 138" stroke="#0B93D4"/>
+<path d="M326 74Q290 92 326 108Q362 124 326 138" stroke="#E5484D"/>
+<path d="M300 82H320M300 100H320M300 116H320M300 132H320" stroke="#A3A8CC"/>
+</g>
+<path d="M300 150H320L326 182H294Z" fill="#6E7396"/>
+<circle class="blink" cx="364" cy="160" r="4" fill="#3FA34D"/>
+<path d="M150 182H190M168 182V170L150 120L162 112L182 160H190" fill="none" stroke="#2B2F4A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="140" y="104" width="18" height="30" rx="4" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2" transform="rotate(-25 149 119)"/>
+<rect x="166" y="160" width="32" height="6" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="80" cy="100" r="14" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M66 92Q80 80 94 92" fill="#2B2F4A"/>
+<path d="M54 182L58 130Q60 118 80 118Q100 118 102 130L106 182Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M100 134L134 118" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/><path d="M100 134L134 118" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="0 0"/>
+<path d="M210 176Q206 168 214 166L236 162Q246 162 244 170Q240 176 232 174L222 178Q212 182 210 176Z" fill="#F3EFE6" stroke="#8E8466" stroke-width="2"/>
+<path d="M226 136L246 132L250 150L230 154Z" fill="#D4774A" stroke="#8B3F22" stroke-width="2"/>
+</svg>

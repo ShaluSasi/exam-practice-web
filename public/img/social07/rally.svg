@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img">
+<title>A candidate speaking to a crowd while an observer watches with a question mark</title>
+<style>
+.q{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.wave{animation:wave 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+@keyframes wave{0%,100%{opacity:.2;transform:scale(.8)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 168H360V194Q360 210 344 210H16Q0 210 0 194Z" fill="#D9C49A"/>
+<rect x="40" y="110" width="90" height="58" rx="4" fill="#C8925A" stroke="#8A5A2B" stroke-width="2.5"/>
+<path d="M66 98H104V112H66Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="85" cy="58" r="14" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M71 56Q72 42 85 42Q98 42 99 56Q92 49 71 56Z" fill="#2B2F4A"/>
+<path d="M64 110V88Q64 74 85 74Q106 74 106 88V110Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M104 80L122 66" stroke="#E8B48C" stroke-width="7" stroke-linecap="round"/>
+<path d="M118 62L136 52V76L118 70Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path class="wave" d="M142 56Q150 64 142 72M150 50Q162 64 150 78" fill="none" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="180" cy="140" r="10" fill="#C58C64"/><path d="M166 168Q166 152 180 152Q194 152 194 168Z" fill="#3FA34D"/>
+<circle cx="212" cy="136" r="10" fill="#E8B48C"/><path d="M198 168Q198 148 212 148Q226 148 226 168Z" fill="#5B4FA8"/>
+<circle cx="244" cy="140" r="10" fill="#C58C64"/><path d="M230 168Q230 152 244 152Q258 152 258 168Z" fill="#E5484D"/>
+<circle cx="306" cy="110" r="11" fill="#E8B48C"/><path d="M290 168V136Q290 122 306 122Q322 122 322 136V168Z" fill="#F6C453"/>
+<rect x="312" y="132" width="20" height="26" rx="2" fill="#FFFFFF"/>
+</g>
+<g class="q"><circle cx="306" cy="66" r="20" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<text x="306" y="74" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#E5484D" text-anchor="middle">?</text></g>
+</svg>

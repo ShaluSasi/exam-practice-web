@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img">
+<title>Sunlight reaching the ground and heat rising, with some heat turned back by a layer of gases</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.w{stroke-dasharray:12 7;animation:w 1.2s linear infinite}@keyframes w{to{stroke-dashoffset:-38}}.d{animation-delay:.6s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><marker id="y" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#E0A92E"/></marker><marker id="r" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#E5484D"/></marker></defs>
+<rect width="360" height="240" rx="16" fill="#1F2347"/>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M69.0 42.0L76.0 42.0"/><path d="M62.3 58.3L67.2 63.2"/><path d="M46.0 65.0L46.0 72.0"/><path d="M29.7 58.3L24.8 63.2"/><path d="M23.0 42.0L16.0 42.0"/><path d="M29.7 25.7L24.8 20.8"/><path d="M46.0 19.0L46.0 12.0"/><path d="M62.3 25.7L67.2 20.8"/></g><circle cx="46" cy="42" r="18" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<path d="M0 120Q180 60 360 120V150Q180 92 0 150Z" fill="#9FD3F2" opacity=".35"/>
+<g fill="#FFFFFF" opacity=".75"><circle cx="90" cy="118" r="3"/><circle cx="150" cy="100" r="3"/><circle cx="210" cy="100" r="3"/><circle cx="270" cy="112" r="3"/><circle cx="320" cy="124" r="3"/></g>
+<path d="M0 200Q180 150 360 200V224Q360 240 344 240H16Q0 240 0 224Z" fill="#7CC47F" stroke="#3FA34D" stroke-width="2.5"/>
+<path d="M200 200Q230 188 260 196" fill="none" stroke="#7CC4EE" stroke-width="6" stroke-linecap="round"/>
+<g fill="none" stroke="#E0A92E" stroke-width="4" stroke-linecap="round" marker-end="url(#y)"><path class="w" d="M70 64L130 168"/><path class="w" d="M90 56L180 160"/></g>
+<g fill="none" stroke="#E5484D" stroke-width="4" stroke-linecap="round" marker-end="url(#r)"><path class="w" d="M220 176L250 110Q256 100 262 112L290 168"/><path class="w d" d="M300 182L320 70"/></g>
+</svg>

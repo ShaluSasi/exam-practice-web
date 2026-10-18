@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>Two blocks of land seen from above, separated by a long crack, with a road and a fence crossing it</title>
+<style>
+.a{animation:a 2.6s ease-in-out infinite alternate}@keyframes a{to{transform:translateY(-8px)}}
+.b{animation:b 2.6s ease-in-out infinite alternate}@keyframes b{to{transform:translateY(8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="400" height="220" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><g class="a"><rect x="0" y="-30" width="199" height="280" fill="#B5DDA0"/>
+<rect x="0" y="96" width="199" height="28" fill="#8E93B5"/><path d="M0 110H199" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="12 9"/>
+<path d="M18 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M56 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M94 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M132 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M170 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/>
+<path d="M0 76H199" stroke="#8A5A34" stroke-width="2"/>
+<g transform="translate(50 190) scale(0.9)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(140 60) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><path class="" d="M146 180V151H141L150 140L159 151H154V180Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g><g class="b"><rect x="201" y="-30" width="199" height="280" fill="#A6D08E"/>
+<rect x="201" y="96" width="199" height="28" fill="#8E93B5"/><path d="M201 110H400" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="12 9"/>
+<path d="M219 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M257 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M295 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M333 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/><path d="M371 70V90" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/>
+<path d="M201 76H400" stroke="#8A5A34" stroke-width="2"/>
+<g transform="translate(251 190) scale(0.9)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(341 60) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><path class="" d="M246 140V169H241L250 180L259 169H254V140Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+<path d="M200 -10L196 30L204 70L197 110L204 150L197 190L201 230" fill="none" stroke="#7A5230" stroke-width="4" stroke-linejoin="round"/></g>
+</svg>

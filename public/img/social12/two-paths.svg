@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A path that forks: one way leads up towards lonely mountains, the other to a family home</title>
+<style>
+.pulse{animation:pu 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/><g class="pulse"><circle cx="350" cy="40" r="14" fill="#F6C453" stroke="#E0A526" stroke-width="2.5"/></g>
+<path d="M0 110L60 50L110 90L160 40L210 110Z" fill="#B8C3DA" stroke="#7D88A8" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 110H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CFE8B8"/>
+<path d="M200 240Q196 200 200 180Q170 150 110 112M200 180Q240 150 300 140" stroke="#E2C78F" stroke-width="16" fill="none" stroke-linecap="round"/>
+<g transform="translate(60 130) scale(0.7)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g><g transform="translate(90 120) scale(0.6)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g><g transform="translate(140 140) scale(0.6)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="295" y="122.5" width="50" height="27.500000000000004" fill="#F6E3C4"/><path d="M289 122.5L320 97.5L351 122.5Z" fill="#E5484D"/><rect x="314" y="133.5" width="12" height="16.5" fill="#8A5A33"/></g><g transform="translate(282 160) scale(0.7)"><g class="" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-6 0V-18M6 0V-18" fill="none"/>
+<path d="M-12 -16Q-13 -40 0 -40Q13 -40 12 -16Z" fill="#9B6BD3"/>
+<circle cx="0" cy="-49" r="9" fill="#E8B48A"/>
+<path d="M-9 -51Q-8 -60 0 -60Q8 -60 9 -51Q3 -56 -9 -51Z" fill="#3B2A20"/>
+<circle cx="-3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><circle cx="3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><path d="M-3 -45Q0 -43 3 -45" fill="none" stroke-width="1.4"/>
+</g></g><g transform="translate(360 166) scale(0.6)"><g class="" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-6 0V-18M6 0V-18" fill="none"/>
+<path d="M-12 -16Q-13 -40 0 -40Q13 -40 12 -16Z" fill="#0B93D4"/>
+<circle cx="0" cy="-49" r="9" fill="#E8B48A"/>
+<path d="M-9 -51Q-8 -60 0 -60Q8 -60 9 -51Q3 -56 -9 -51Z" fill="#3B2A20"/>
+<circle cx="-3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><circle cx="3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><path d="M-3 -45Q0 -43 3 -45" fill="none" stroke-width="1.4"/>
+</g></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M220 230V180" stroke="#7A5230" stroke-width="4"/><path d="M220 186H252L260 194L252 202H220Z" fill="#F6C453"/><path d="M220 190H190L182 198L190 206H220Z" fill="#F6C453"/></g>
+</svg>

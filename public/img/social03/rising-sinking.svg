@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>Warm air bubbles rising over hot ground and cold air bubbles sinking over icy ground</title>
+<style>
+.up{animation:up 3s ease-in infinite}@keyframes up{from{transform:translateY(0);opacity:1}to{transform:translateY(-120px);opacity:0}}
+.dn{animation:dn 3s ease-in infinite}@keyframes dn{from{transform:translateY(0);opacity:0}20%{opacity:1}to{transform:translateY(110px);opacity:1}}
+.d{animation-delay:1.5s}
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<rect x="0" y="0" width="180" height="220" rx="16" fill="#FFE7CC"/>
+<rect x="180" y="0" width="180" height="220" rx="16" fill="#DDEBF8"/>
+<rect x="164" y="0" width="32" height="220" fill="#FFF9EE"/>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M61.0 36.0L68.0 36.0"/><path d="M54.8 50.8L59.8 55.8"/><path d="M40.0 57.0L40.0 64.0"/><path d="M25.2 50.8L20.2 55.8"/><path d="M19.0 36.0L12.0 36.0"/><path d="M25.2 21.2L20.2 16.2"/><path d="M40.0 15.0L40.0 8.0"/><path d="M54.8 21.2L59.8 16.2"/></g><circle cx="40" cy="36" r="16" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<path d="M8 180H160V204Q160 212 152 212H16Q8 212 8 204Z" fill="#E8B07A" stroke="#C47F3E" stroke-width="2.5"/>
+<path d="M200 180H352V204Q352 212 344 212H208Q200 212 200 204Z" fill="#FFFFFF" stroke="#9DB6CC" stroke-width="2.5"/>
+<g class="up"><circle cx="80" cy="150" r="9" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5"/></g><g class="up d"><circle cx="120" cy="150" r="9" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<g class="dn"><circle cx="250" cy="50" r="9" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"/></g><g class="dn d"><circle cx="300" cy="50" r="9" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="135" y="104" width="10" height="56" rx="5" fill="#FFFFFF"/><circle cx="140" cy="164" r="8" fill="#E5484D"/><rect x="138" y="112" width="4" height="50" fill="#E5484D" stroke="none"/></g><g stroke="#2B2F4A" stroke-width="2"><rect x="325" y="104" width="10" height="56" rx="5" fill="#FFFFFF"/><circle cx="330" cy="164" r="8" fill="#0B93D4"/><rect x="328" y="150" width="4" height="12" fill="#0B93D4" stroke="none"/></g>
+<g fill="#FFFFFF" stroke="#9DB6CC" stroke-width="1.5"><path d="M230 178l6-6 6 6-6 6z"/><path d="M272 176l5-5 5 5-5 5z"/></g>
+</svg>

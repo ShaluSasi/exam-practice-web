@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" role="img">
+<title>A cross-section of a shallow sea channel with a giant oil tanker, the low-tide level and the high-tide level</title>
+<style>
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H504Q520 0 520 16V72H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="10" y="72" width="500" height="184" fill="#9FD3F0"/>
+<path d="M10 112H510" stroke="#0B6FA4" stroke-width="2.5" stroke-dasharray="8 6"/>
+<path d="M10 72H510" stroke="#0B6FA4" stroke-width="2.5"/>
+<path d="M0 256H520V264Q520 280 504 280H16Q0 280 0 264Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5"/>
+<g class="bob"><path d="M250 50H470L462 240H262Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M256 72H466" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="420" y="22" width="40" height="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><rect x="430" y="8" width="10" height="14" fill="#2B2F4A"/></g>
+<path d="M60 114V254M54 122L60 114L66 122M54 246L60 254L66 246" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="72" y="189" font-size="14" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">18 m at low tide</text>
+<path d="M170 74V110M164 82L170 74L176 82M164 102L170 110L176 102" fill="none" stroke="#3FA34D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="182" y="97" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">5 m</text>
+<path d="M486 74V238M480 82L486 74L492 82M480 230L486 238L492 230" fill="none" stroke="#E5484D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="480" y="262" text-anchor="end" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Ship needs 21 m</text>
+<text x="20" y="64" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">High tide</text><text x="20" y="104" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Low tide</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Inside a polling station: officials at three tables and a voting compartment</title>
+<style>
+.led{animation:led 1.4s ease-in-out infinite}
+@keyframes led{0%,100%{opacity:.25}50%{opacity:1}}
+.slip{animation:slip 4s ease-in-out infinite}
+@keyframes slip{0%,12%{transform:translateY(-12px);opacity:0}30%,72%{transform:translateY(0);opacity:1}88%,100%{transform:translateY(8px);opacity:0}}
+.drop{animation:drop 2.4s ease-in infinite}
+@keyframes drop{0%{transform:translateY(0);opacity:0}20%{opacity:1}75%{transform:translateY(10px);opacity:1}100%{transform:translateY(10px);opacity:0}}
+.page{animation:page 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+@keyframes page{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.6)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<g id="off">
+<path d="M-19 42V25Q-19 14 0 14Q19 14 19 25V42Z" stroke="#2B2F4A" stroke-width="2"/>
+<circle r="12" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-12 -3Q-11 -14 0 -14Q11 -14 12 -3Q6 -9 -12 -3Z" fill="#2B2F4A"/>
+<circle cx="-4" cy="1" r="1.6" fill="#2B2F4A"/><circle cx="4" cy="1" r="1.6" fill="#2B2F4A"/>
+<path d="M-4 6Q0 9 4 6" fill="none" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H384V196H16Z" fill="#E3F2FD"/>
+<rect x="130" y="26" width="140" height="24" rx="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<text x="200" y="43" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">POLLING STATION</text>
+<path d="M0 196H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<use href="#off" x="62" y="108" fill="#CDEBFA"/>
+<rect x="16" y="148" width="94" height="48" rx="4" fill="#F6E7C8" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M40 147L45 132L62 134V148Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path class="page" d="M62 134L79 132L84 147L62 148Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M47 138H58M46 142H58M66 138H77M66 142H78" stroke="#A3A8CC" stroke-width="1.5"/>
+<use href="#off" x="166" y="108" fill="#D8F0D9"/>
+<path d="M196 160L191 135" stroke="#2B2F4A" stroke-width="8.5" stroke-linecap="round"/>
+<path d="M196 160L191 135" stroke="#E8B48C" stroke-width="5.5" stroke-linecap="round"/>
+<ellipse cx="198" cy="152" rx="9" ry="7" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M192 139L190.5 134" stroke="#5B4FA8" stroke-width="4" stroke-linecap="round"/>
+<rect x="128" y="148" width="86" height="48" rx="4" fill="#F6E7C8" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="148" y="132" width="14" height="16" rx="2" fill="#5B4FA8" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="151" y="126" width="8" height="6" fill="#2B2F4A"/>
+<circle class="drop" cx="190" cy="120" r="2.6" fill="#5B4FA8"/>
+<use href="#off" x="262" y="108" fill="#FDE3C8"/>
+<rect x="226" y="148" width="72" height="48" rx="4" fill="#F6E7C8" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="246" y="130" width="34" height="18" rx="3" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="250" y="134" width="13" height="6" fill="#3FA34D"/>
+<circle class="led" cx="272" cy="139" r="3.5" fill="#E5484D"/>
+<path d="M298 186Q304 190 312 186" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="306" y="176" width="86" height="8" rx="2" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M312 184V196M386 184V196" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M316 104H384V176H316Z" fill="#F6C453" stroke="#B8872A" stroke-width="2"/>
+<path d="M306 96L316 104V176H306Z" fill="#EBB43C" stroke="#B8872A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M394 96L384 104V176H394Z" fill="#EBB43C" stroke="#B8872A" stroke-width="2" stroke-linejoin="round"/>
+<rect x="322" y="118" width="26" height="56" rx="3" fill="#F3F3F7" stroke="#2B2F4A" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="1">
+<rect x="325" y="123" width="12" height="8" fill="#FFF"/><circle cx="342.5" cy="127" r="3.2" fill="#0B93D4"/>
+<rect x="325" y="135" width="12" height="8" fill="#FFF"/><circle cx="342.5" cy="139" r="3.2" fill="#0B93D4"/>
+<rect x="325" y="147" width="12" height="8" fill="#FFF"/><circle cx="342.5" cy="151" r="3.2" fill="#0B93D4"/>
+<rect x="325" y="159" width="12" height="8" fill="#FFF"/><circle cx="342.5" cy="163" r="3.2" fill="#0B93D4"/>
+</g>
+<rect x="354" y="128" width="26" height="46" rx="3" fill="#E4E0F7" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="358" y="134" width="18" height="22" rx="2" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="slip"><rect x="361" y="137" width="12" height="16" fill="#FFFDF4" stroke="#5B4FA8" stroke-width="1"/><path d="M364 146l3-5 3 5Z" fill="#FF8A1F"/><path d="M363 150H371" stroke="#A3A8CC" stroke-width="1"/></g>
+<rect x="361" y="162" width="12" height="4" rx="1" fill="#2B2F4A"/>
+</svg>

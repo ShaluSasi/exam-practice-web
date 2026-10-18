@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A flow chart linking citizens, political parties, elections and the two sides in the legislature</title>
+<style>
+.f{stroke-dasharray:6 6;animation:f 1.6s linear infinite}
+@keyframes f{to{stroke-dashoffset:-24}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="f" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round">
+<path d="M200 53V77M200 113V137M180 173L120 202M220 173L280 202"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<rect x="125" y="17" width="150" height="36" rx="12" fill="#FDE3C8"/>
+<rect x="125" y="77" width="150" height="36" rx="12" fill="#CDEBFA"/>
+<rect x="125" y="137" width="150" height="36" rx="12" fill="#FFF0C2"/>
+<rect x="35" y="202" width="150" height="36" rx="12" fill="#D8F0D9"/>
+<rect x="215" y="202" width="150" height="36" rx="12" fill="#E4E0F7"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="200" y="40">Citizens</text>
+<text x="200" y="100">Political Parties</text>
+<text x="200" y="160">Contest Elections</text>
+<text x="110" y="225">Winning Party</text>
+<text x="290" y="225">Opposition Party</text>
+</g>
+</svg>

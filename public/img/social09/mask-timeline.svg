@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A line graph of the price of face masks over time, with a face mask drawn beside it</title>
+<style>
+.dr{stroke-dasharray:420;animation:dr 5s ease-in-out infinite}
+@keyframes dr{0%{stroke-dashoffset:420}45%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M55 175H320M55 175V25" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M60 150C90 150 95 148 110 60C120 35 140 35 160 70C185 115 215 128 240 140C265 150 290 152 315 152" stroke="#E5484D" stroke-width="4.5" fill="none" stroke-linecap="round" class="dr"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text x="188" y="196" font-size="12">Time</text><text transform="translate(30 100) rotate(-90)">Price of masks (₹)</text></g>
+<g transform="translate(270 55)"><path d="M-26 -10Q0 -18 26 -10V8Q0 20 -26 8Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M-26 -6Q-38 -6 -36 4Q-34 10 -26 6M26 -6Q38 -6 36 4Q34 10 26 6M-18 -4H18M-18 3H18" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+</svg>

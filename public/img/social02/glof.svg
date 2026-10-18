@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A high mountain lake beside a glacier, held back by a ridge of loose rock, above a valley with buildings</title>
+<style>
+.fd{stroke-dasharray:14 8;animation:fd .8s linear infinite}@keyframes fd{to{stroke-dashoffset:-44}}
+.dr{animation:dr 2s ease-in-out infinite alternate}@keyframes dr{to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V120H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 120L50 30L100 60L150 20L210 70L260 40L320 90L400 70V260H0Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 260V200Q150 180 240 210Q320 230 400 220V260Z" fill="#B5DDA0"/>
+<path d="M30 70Q70 60 110 80L100 100Q66 90 34 96Z" fill="#E8F6FF" stroke="#8CC8E8" stroke-width="2"/>
+<ellipse cx="140" cy="102" rx="44" ry="14" fill="#7CC4EC" stroke="#0B93D4" stroke-width="2"/>
+<path d="M176 92Q196 100 190 120Q170 124 166 112Z" fill="#9C7E58" stroke="#6E5A44" stroke-width="2"/>
+<g fill="#6E5A44"><circle cx="180" cy="104" r="2.5"/><circle cx="184" cy="114" r="2.5"/></g>
+<path d="M178 110Q220 150 230 190Q250 214 300 222" fill="none" stroke="#7CC4EC" stroke-width="14" stroke-linecap="round"/>
+<path class="fd" d="M178 110Q220 150 230 190Q250 214 300 222" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+<g class="dr"><g transform="translate(300 200) scale(1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(340 204) scale(0.9)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#0B93D4"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g></g>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="250" y="226" width="34" height="16" fill="#A3A8CC"/><path d="M250 226L267 216L284 226" fill="#E5484D"/></g>
+</svg>

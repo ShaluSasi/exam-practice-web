@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>An old gold coin with an animal design and a dotted border</title>
+<style>
+.flip{animation:flip 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes flip{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.82)}}
+.sh{animation:sh 2.5s ease-in-out infinite}
+@keyframes sh{0%,100%{opacity:0}50%{opacity:.9}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="120" cy="160" rx="56" ry="8" fill="#E8DCC4"/>
+<g class="flip">
+<circle cx="120" cy="88" r="62" fill="#F6C453" stroke="#B88A1E" stroke-width="3"/>
+<circle cx="120" cy="88" r="52" fill="none" stroke="#B88A1E" stroke-width="3" stroke-dasharray="1 7" stroke-linecap="round"/>
+<path d="M92 102Q92 82 108 78L114 66Q118 62 120 68L122 76Q140 76 150 86L148 94Q140 90 136 96L138 114H130L128 100H110L106 114H98L100 100Z" fill="#E0A92E" stroke="#8C6512" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M150 86Q156 92 152 104" fill="none" stroke="#8C6512" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="116" cy="74" r="2" fill="#8C6512"/>
+</g>
+<path class="sh" d="M84 54L98 70M150 52L158 62" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</svg>

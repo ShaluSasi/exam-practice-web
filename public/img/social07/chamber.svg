@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img">
+<title>A semicircular assembly of 250 seats shared by Party A, B and C</title>
+<style>
+.sweep{stroke-dasharray:6 10;animation:dash 3s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-32}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="180" y="28" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle">State Assembly · 250 seats</text>
+<g fill="none" stroke-width="34">
+<path d="M70 170A110 110 0 0 1 170.34 60.42" stroke="#FF8A1F"/>
+<path d="M170.34 60.42A110 110 0 0 1 276.39 117" stroke="#0B93D4"/>
+<path d="M276.39 117A110 110 0 0 1 290 170" stroke="#3FA34D"/>
+</g>
+<path d="M53 170A127 127 0 0 1 307 170M87 170A93 93 0 0 1 273 170" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<path class="sweep" d="M70 170A110 110 0 0 1 290 170" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+<path d="M53 170H87M273 170H307" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="160" y="140" width="40" height="30" rx="4" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="180" cy="128" r="9" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">
+<rect x="30" y="200" width="14" height="14" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5"/><text x="50" y="212">A: 118</text>
+<rect x="140" y="200" width="14" height="14" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"/><text x="160" y="212">B: 92</text>
+<rect x="244" y="200" width="14" height="14" rx="3" fill="#3FA34D" stroke="#2B2F4A" stroke-width="1.5"/><text x="264" y="212">C: 40</text>
+</g>
+</svg>

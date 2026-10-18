@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A single ornate slipper resting on a cushion on a tray, with a dotted outline where a second slipper is missing</title>
+<style>
+.pulse{animation:pu 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}.bob{animation:bob 3s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="180" width="400" height="60" fill="#C8925A"/>
+<ellipse cx="200" cy="184" rx="150" ry="22" fill="#F6C453" stroke="#B9851E" stroke-width="3"/>
+<rect x="80" y="130" width="240" height="50" rx="22" fill="#E5484D" stroke="#A5282D" stroke-width="3"/>
+<path d="M90 140Q200 124 310 140" stroke="#F8CFC0" stroke-width="2" fill="none"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M110 140Q112 110 140 108Q180 104 206 118Q218 104 230 112Q218 122 206 132Q160 146 110 140Z" fill="#F6C453"/>
+<path d="M130 118Q160 112 190 120" fill="none" stroke="#E5484D" stroke-width="2"/><circle cx="150" cy="126" r="3" fill="#3FA34D"/><circle cx="170" cy="126" r="3" fill="#0B93D4"/></g>
+<g class="pulse"><path d="M232 140Q234 110 262 108Q302 104 328 118Q340 104 352 112Q340 122 328 132Q282 146 232 140Z" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-dasharray="6 5"/></g>
+<text x="300" y="70" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="34" text-anchor="middle" class="bob">?</text>
+</svg>

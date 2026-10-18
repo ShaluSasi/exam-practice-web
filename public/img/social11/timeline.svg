@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" role="img">
+<title>A blank timeline arrow running from earlier to later, with four empty slots</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}.t{stroke:#2B2F4A;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round}.fb{transform-box:fill-box;transform-origin:center}
+.mv{animation:mv 5s ease-in-out infinite}@keyframes mv{from{transform:translateX(0)}to{transform:translateX(320px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<clipPath id="k"><rect width="420" height="200" rx="16"/></clipPath>
+<g clip-path="url(#k)">
+<rect x="0" y="0" width="420" height="200" fill="#FFF9EE" /><path d="M30 110H384" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/><path d="M374 98L392 110L374 122" fill="none" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="80" cy="110" r="16" fill="#F6C453" class="o"/><text x="80" y="115" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >?</text><circle cx="160" cy="110" r="16" fill="#CDEBFA" class="o"/><text x="160" y="115" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >?</text><circle cx="240" cy="110" r="16" fill="#C9E7B5" class="o"/><text x="240" y="115" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >?</text><circle cx="320" cy="110" r="16" fill="#F7B2B2" class="o"/><text x="320" y="115" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >?</text><text x="40" y="150" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="start" >Earlier</text><text x="384" y="150" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="end" >Later</text><g transform="translate(46 54)"><path d="M-12 -16H12M-12 16H12M-10 -16Q-10 -2 0 0Q-10 2 -10 16M10 -16Q10 -2 0 0Q10 2 10 16" fill="#FFF3C4" stroke="#C8925A" stroke-width="2.5" stroke-linejoin="round"/><path d="M-5 12H5L0 6Z" fill="#E0A92E"/></g><circle class="mv" cx="40" cy="110" r="5" fill="#E5484D"/>
+</g>
+</svg>

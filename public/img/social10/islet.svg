@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>A small rocky hill in the sea joined to the shore by a stone path, with the water level changing</title>
+<style>
+.td{animation:td 6s ease-in-out infinite}@keyframes td{0%,100%{transform:translateY(0)}50%{transform:translateY(26px)}}@keyframes wv{to{transform:translateX(-12px)}}.wv{animation:wv 2.4s ease-in-out infinite alternate}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H464Q480 0 480 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="400" cy="34" r="14" fill="#F6C453" stroke="#E0A030" stroke-width="2"/>
+<path d="M0 150H480V244Q480 260 464 260H16Q0 260 0 244Z" fill="#7FC6EC" />
+<path d="M0 150H90L110 196H0Z" fill="#E8D3A2"/>
+<path d="M0 196H480V244Q480 260 464 260H16Q0 260 0 244Z" fill="#CDB98C"/>
+<g fill="#A3A8CC" stroke="#6E738F" stroke-width="2"><rect x="110" y="182" width="26" height="10" rx="3"/><rect x="140" y="182" width="26" height="10" rx="3"/><rect x="170" y="182" width="26" height="10" rx="3"/><rect x="200" y="182" width="26" height="10" rx="3"/><rect x="230" y="182" width="26" height="10" rx="3"/><rect x="260" y="182" width="26" height="10" rx="3"/><rect x="290" y="182" width="26" height="10" rx="3"/><rect x="320" y="182" width="26" height="10" rx="3"/></g>
+<path d="M330 196Q340 120 380 104Q420 96 440 130Q458 160 466 196Z" fill="#9C8A6E" stroke="#5E5040" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="372" y="78" width="40" height="26" fill="#F1DDB0"/><path d="M366 80H418L406 66H378Z" fill="#E5484D"/><rect x="386" y="88" width="12" height="16" fill="#8A5A34"/></g>
+<g class="td"><path d="M110 166H480V200H110Z" fill="#7FC6EC" opacity=".88"/><path class="wv" d="M110 166L114 168.3L118 167.9L122 165.3L126 163.5L130 164.6L134 167.4L138 168.5L142 166.7L146 164.1L150 163.7L154 166.0L158 168.3L162 167.9L166 165.3L170 163.5L174 164.6L178 167.4L182 168.5L186 166.7L190 164.1L194 163.7L198 166.0L202 168.3L206 167.9L210 165.3L214 163.5L218 164.6L222 167.4L226 168.5L230 166.7L234 164.1L238 163.7L242 166.0L246 168.3L250 167.9L254 165.3L258 163.5L262 164.6L266 167.4L270 168.5L274 166.7L278 164.1L282 163.7L286 166.0L290 168.3L294 167.9L298 165.3L302 163.5L306 164.6L310 167.4L314 168.5L318 166.7L322 164.1L326 163.7L330 166.0L334 168.3L338 167.9L342 165.3L346 163.5L350 164.6L354 167.4L358 168.5L362 166.7L366 164.1L370 163.7L374 166.0L378 168.3L382 167.9L386 165.3L390 163.5L394 164.6L398 167.4L402 168.5L406 166.7L410 164.1L414 163.7L418 166.0L422 168.3L426 167.9L430 165.3L434 163.5L438 164.6L442 167.4L446 168.5L450 166.7L454 164.1L458 163.7L462 166.0L466 168.3L470 167.9L474 165.3L478 163.5" fill="none" stroke="#FFFFFF" stroke-width="2.5"/></g>
+<g transform="translate(30 150) scale(0.9)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g>
+</svg>

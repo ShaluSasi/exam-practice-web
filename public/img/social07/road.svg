@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" role="img">
+<title>A road with potholes leading to a ballot box marked free and fair elections</title>
+<style>
+.car{animation:drive 6s ease-in-out infinite}
+@keyframes drive{0%{transform:translate(0,0)}100%{transform:translate(250px,-70px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H384V110H16Z" fill="#E3F2FD"/>
+<path d="M0 100H400V194Q400 210 384 210H16Q0 210 0 194Z" fill="#9ED6A4"/>
+<path d="M10 210Q120 150 220 130Q300 112 330 70L360 70Q340 130 240 160Q150 186 90 210Z" fill="#B9B4A6" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M54 206Q140 160 228 144Q310 124 344 74" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="10 9"/>
+<g fill="#6E6858" stroke="#2B2F4A" stroke-width="1.5">
+<ellipse cx="96" cy="186" rx="22" ry="7"/><ellipse cx="190" cy="152" rx="20" ry="6"/><ellipse cx="280" cy="124" rx="18" ry="6"/>
+<ellipse cx="140" cy="172" rx="14" ry="5" fill="#8C8577"/><ellipse cx="320" cy="98" rx="12" ry="4" fill="#8C8577"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A">
+<rect x="24" y="130" width="96" height="20" rx="5" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/><text x="72" y="144" text-anchor="middle">Misinformation</text>
+<rect x="160" y="168" width="74" height="20" rx="5" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/><text x="197" y="182" text-anchor="middle">Fake News</text>
+<rect x="232" y="138" width="84" height="20" rx="5" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/><text x="274" y="152" text-anchor="middle">Intimidation</text>
+<text x="140" y="164" text-anchor="middle" fill="#FFFFFF">?</text><text x="320" y="92" text-anchor="middle" fill="#FFFFFF">?</text>
+</g>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<rect x="330" y="34" width="44" height="34" rx="4" fill="#A3A8CC"/><rect x="342" y="30" width="20" height="6" fill="#2B2F4A"/>
+</g>
+<rect x="250" y="20" width="76" height="30" rx="6" fill="#FFF0C2" stroke="#2B2F4A" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="288" y="33">Free and fair</text><text x="288" y="46">elections</text></g>
+<g class="car"><path d="M30 196V186L36 178H56L62 186V196Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="38" cy="197" r="4" fill="#2B2F4A"/><circle cx="54" cy="197" r="4" fill="#2B2F4A"/></g>
+</svg>

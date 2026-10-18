@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Farmland with crops and huts lying between two rivers that meet downstream</title>
+<style>
+.sway{animation:sw 4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}.rip{animation:rp 3s ease-in-out infinite alternate}@keyframes rp{to{transform:translateX(12px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#CFE8B8"/>
+<path d="M60 0Q80 80 170 150Q210 190 230 240H262Q246 186 196 140Q120 70 96 0Z" fill="#7FC4E8" stroke="#3E9BD0" stroke-width="2.5"/>
+<path d="M340 0Q318 80 250 140Q228 170 236 240H262Q256 180 276 152Q350 84 372 0Z" fill="#7FC4E8" stroke="#3E9BD0" stroke-width="2.5"/><path d="M150 40H290" stroke="#3FA34D" stroke-width="8" stroke-linecap="round"/><path d="M156 64H276" stroke="#3FA34D" stroke-width="8" stroke-linecap="round"/><path d="M162 88H262" stroke="#3FA34D" stroke-width="8" stroke-linecap="round"/><path d="M168 112H248" stroke="#3FA34D" stroke-width="8" stroke-linecap="round"/><g class="sway" stroke="#C9A64A" stroke-width="2" stroke-linecap="round"><path d="M160 150V136"/><path d="M174 150V136"/><path d="M188 150V136"/><path d="M202 150V136"/><path d="M216 150V136"/><path d="M230 150V136"/><path d="M244 150V136"/><path d="M258 150V136"/><path d="M272 150V136"/></g><g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="175" y="179.5" width="30" height="16.5" fill="#F6E3C4"/><path d="M169 179.5L190 164.5L211 179.5Z" fill="#C8925A"/><rect x="186.4" y="186.1" width="7.199999999999999" height="9.9" fill="#8A5A33"/></g><g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="210" y="172.8" width="24" height="13.200000000000001" fill="#F6E3C4"/><path d="M204 172.8L222 160.8L240 172.8Z" fill="#C8925A"/><rect x="219.12" y="178.08" width="5.76" height="7.92" fill="#8A5A33"/></g><g transform="translate(30 200) scale(0.8)"><g class="" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-6 0V-18M6 0V-18" fill="none"/>
+<path d="M-12 -16Q-13 -40 0 -40Q13 -40 12 -16Z" fill="#E5484D"/>
+<circle cx="0" cy="-49" r="9" fill="#E8B48A"/>
+<path d="M-9 -51Q-8 -60 0 -60Q8 -60 9 -51Q3 -56 -9 -51Z" fill="#3B2A20"/>
+<circle cx="-3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><circle cx="3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><path d="M-3 -45Q0 -43 3 -45" fill="none" stroke-width="1.4"/>
+</g></g><g transform="translate(60 200) scale(0.9)" stroke="#8A6A3A" stroke-width="2" stroke-linejoin="round"><path d="M-14 0Q-18 -22 -8 -30L-6 -36H6L8 -30Q18 -22 14 0Z" fill="#E9D3A3"/><path d="M-7 -31H7" /></g><g transform="translate(360 200) scale(0.9)" stroke="#8A6A3A" stroke-width="2" stroke-linejoin="round"><path d="M-14 0Q-18 -22 -8 -30L-6 -36H6L8 -30Q18 -22 14 0Z" fill="#E9D3A3"/><path d="M-7 -31H7" /></g><g class="rip" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"><path d="M90 50q6-4 12 0"/><path d="M312 60q6-4 12 0"/><path d="M230 210q6-4 12 0"/></g>
+</svg>

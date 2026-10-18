@@ -1,0 +1,2261 @@
+[
+  {
+    "id": "in-cbse-9-soc-02-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Interior of the Earth",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the layer that is a **solid, hot, spinning ball of metal** and the densest part of the Earth.",
+    "image": {
+      "src": "/img/social02/interior.svg",
+      "alt": "A cut-away of the Earth with its layers shown as rings"
+    },
+    "spots": [
+      {
+        "id": "crust",
+        "x": 20.7,
+        "y": 28.1,
+        "label": "Crust"
+      },
+      {
+        "id": "asth",
+        "x": 63.6,
+        "y": 16.5,
+        "label": "Asthenosphere"
+      },
+      {
+        "id": "mantle",
+        "x": 71.6,
+        "y": 40.2,
+        "label": "Mantle"
+      },
+      {
+        "id": "outer",
+        "x": 61.9,
+        "y": 61.8,
+        "label": "Outer core"
+      },
+      {
+        "id": "inner",
+        "x": 48.5,
+        "y": 52.7,
+        "label": "Inner core"
+      }
+    ],
+    "answer": "inner",
+    "hint": "It is the innermost layer, right at the centre.",
+    "explanation": "The **inner core** is a solid, very hot, spinning metal ball and the **densest** part of the Earth. The **outer core** around it is *fluid*, made mainly of iron and nickel. The **mantle** is the thick, mostly solid layer between the crust and the outer core."
+  },
+  {
+    "id": "in-cbse-9-soc-02-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Interior of the Earth",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the hot, **partially molten** layer that lets the tectonic plates move over it.",
+    "image": {
+      "src": "/img/social02/interior.svg",
+      "alt": "A cut-away of the Earth with its layers shown as rings"
+    },
+    "spots": [
+      {
+        "id": "crust",
+        "x": 20.7,
+        "y": 28.1,
+        "label": "Crust"
+      },
+      {
+        "id": "lith",
+        "x": 35.2,
+        "y": 13.4,
+        "label": "Lower part of the lithosphere"
+      },
+      {
+        "id": "asth",
+        "x": 63.6,
+        "y": 16.5,
+        "label": "Asthenosphere"
+      },
+      {
+        "id": "mantle",
+        "x": 71.6,
+        "y": 40.2,
+        "label": "Mantle"
+      },
+      {
+        "id": "outer",
+        "x": 61.9,
+        "y": 61.8,
+        "label": "Outer core"
+      }
+    ],
+    "answer": "asth",
+    "hint": "It lies just below the rigid lithosphere, in the upper part of the mantle.",
+    "explanation": "The **lithosphere** is the rigid outer shell made of the crust plus the upper mantle (about 100 km thick). Just beneath it lies the **asthenosphere**, a hot, mobile layer of *partially molten* rock. Because it is semi-molten, the broken pieces of the lithosphere, the **tectonic plates**, can slide slowly over it."
+  },
+  {
+    "id": "in-cbse-9-soc-02-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Interior of the Earth",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these layers in the order you would meet them on a journey from the **surface to the centre** of the Earth.",
+    "image": {
+      "src": "/img/social02/interior.svg",
+      "alt": "A cut-away of the Earth with its layers shown as rings"
+    },
+    "items": [
+      {
+        "id": "oc",
+        "text": "Outer core (fluid iron and nickel)"
+      },
+      {
+        "id": "cr",
+        "text": "Crust"
+      },
+      {
+        "id": "ic",
+        "text": "Inner core"
+      },
+      {
+        "id": "as",
+        "text": "Asthenosphere"
+      }
+    ],
+    "answer": [
+      "cr",
+      "as",
+      "oc",
+      "ic"
+    ],
+    "startLabel": "Surface",
+    "endLabel": "Centre",
+    "hint": "The semi-molten layer that carries the plates lies just under the lithosphere.",
+    "explanation": "We live on the **crust**. Below the lithosphere (crust + upper mantle) is the **asthenosphere**, part of the upper mantle. The mantle continues for about 2,900 km down to the fluid **outer core**, and the solid **inner core** sits at the centre."
+  },
+  {
+    "id": "in-cbse-9-soc-02-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Interior of the Earth",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The Earth's radius is about $6375\\ \\text{km}$ and the inner core's radius is about $1250\\ \\text{km}$. Roughly how far **below the surface** does the inner core begin?",
+    "image": {
+      "src": "/img/social02/interior.svg",
+      "alt": "A cut-away of the Earth with its layers shown as rings"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$7625\\ \\text{km}$"
+      },
+      {
+        "id": "b",
+        "text": "$1250\\ \\text{km}$"
+      },
+      {
+        "id": "c",
+        "text": "$5125\\ \\text{km}$"
+      },
+      {
+        "id": "d",
+        "text": "$3475\\ \\text{km}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The inner core's radius is measured from the centre, not from the surface.",
+    "explanation": "Depth to the top of the inner core = radius of Earth − radius of inner core: $$6375 - 1250 = 5125\\ \\text{km}$$ $7625$ km comes from **adding** instead of subtracting, $1250$ km is just the inner core's radius (measured from the centre), and $3475$ km comes from subtracting the mantle's thickness (2,900 km) by mistake."
+  },
+  {
+    "id": "in-cbse-9-soc-02-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Tectonic plates",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The slab of the Earth's outer layer shown here carries **both a continent and part of an ocean floor**. What kind of tectonic plate is it?",
+    "image": {
+      "src": "/img/social02/crust.svg",
+      "alt": "One slab of the Earth's outer layer carrying land and sea"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Oceanic plate"
+      },
+      {
+        "id": "b",
+        "text": "Mixed plate"
+      },
+      {
+        "id": "c",
+        "text": "Continental plate"
+      },
+      {
+        "id": "d",
+        "text": "Transform plate"
+      }
+    ],
+    "answer": "b",
+    "hint": "There are three main types: one carries continents, one carries ocean floors, one carries both.",
+    "explanation": "**Continental plates** carry continents, **oceanic plates** carry ocean floors and **mixed plates** carry both. The chapter names seven major plates: Pacific, Eurasian, African, North American, South American, Indo-Australian and Antarctic. There is no 'transform plate'; *transform* is a type of plate **boundary**."
+  },
+  {
+    "id": "in-cbse-9-soc-02-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Interior of the Earth",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The crust under a continent is $35\\ \\text{km}$ thick, while the crust under the nearby ocean is only $7\\ \\text{km}$ thick. **How many times thicker** is the continental crust?",
+    "image": {
+      "src": "/img/social02/crust.svg",
+      "alt": "One slab of the Earth's outer layer carrying land and sea, with thickness markings"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "28 times"
+      },
+      {
+        "id": "b",
+        "text": "0.2 times"
+      },
+      {
+        "id": "c",
+        "text": "42 times"
+      },
+      {
+        "id": "d",
+        "text": "5 times"
+      }
+    ],
+    "answer": "d",
+    "hint": "'How many times' means divide, not subtract.",
+    "explanation": "$$\\dfrac{35\\ \\text{km}}{7\\ \\text{km}} = 5$$ The continental crust is **5 times** thicker. The crust is **30–40 km** thick under continents but only **5–7 km** under oceans. 28 is the *difference* (35 − 7), 0.2 is the ratio upside down (7 ÷ 35) and 42 comes from adding."
+  },
+  {
+    "id": "in-cbse-9-soc-02-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate tectonics",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The theory of **plate tectonics**, given by **W.J. Morgan**, describes the Earth's outermost layer. Which statement matches the theory?",
+    "image": {
+      "src": "/img/social02/puzzle-globe.svg",
+      "alt": "A globe whose outer shell is cracked into pieces"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is broken into several large and small plates that move slowly over a semi-molten layer"
+      },
+      {
+        "id": "b",
+        "text": "It is a single unbroken shell that never moves"
+      },
+      {
+        "id": "c",
+        "text": "It is completely liquid, so continents float about freely and quickly"
+      },
+      {
+        "id": "d",
+        "text": "It is broken into pieces, but the pieces are fixed for ever"
+      }
+    ],
+    "answer": "a",
+    "hint": "Think of a cracked eggshell whose pieces can slide.",
+    "explanation": "According to plate tectonics, the outermost layer is **not one single piece**. It is broken into large and small **tectonic plates** that move **slowly** (a few centimetres a year) over the semi-molten layer beneath. Their movement explains mountains, earthquakes and volcanoes."
+  },
+  {
+    "id": "in-cbse-9-soc-02-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Convection currents",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "What supplies the energy that keeps tectonic plates moving?",
+    "image": {
+      "src": "/img/social02/convection.svg",
+      "alt": "Loops of moving material in the mantle under two plates"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind blowing against the continents"
+      },
+      {
+        "id": "b",
+        "text": "Tides raised by the Moon in the oceans"
+      },
+      {
+        "id": "c",
+        "text": "Heat from the Earth's core, which sets up convection currents in the mantle"
+      },
+      {
+        "id": "d",
+        "text": "Sunlight warming the surface rocks"
+      }
+    ],
+    "answer": "c",
+    "hint": "Look at where the loops start rising in the picture.",
+    "explanation": "**Heat from the Earth's core** makes molten material in the mantle **rise**, while cooler material **sinks**. This continuous circulation forms **convection currents**, which push and pull the plates in different directions. Wind, tides and sunlight act only on the surface and are far too weak to move plates."
+  },
+  {
+    "id": "in-cbse-9-soc-02-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Convection currents",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of a **convection current** in the mantle in order.",
+    "image": {
+      "src": "/img/social02/convection.svg",
+      "alt": "Loops of moving material in the mantle under two plates"
+    },
+    "items": [
+      {
+        "id": "sink",
+        "text": "Cooler material sinks back down"
+      },
+      {
+        "id": "heat",
+        "text": "Heat from the core warms material in the mantle"
+      },
+      {
+        "id": "side",
+        "text": "It spreads sideways beneath the plates, dragging them along"
+      },
+      {
+        "id": "rise",
+        "text": "The hot material rises"
+      }
+    ],
+    "answer": [
+      "heat",
+      "rise",
+      "side",
+      "sink"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Hot material rises; cool material sinks.",
+    "explanation": "Heat from the **core** warms mantle material, which becomes lighter and **rises**. Near the top it moves **sideways**, pushing and pulling the plates above. Having cooled, it **sinks**, and the loop starts again. These **convection currents** drive plate movement."
+  },
+  {
+    "id": "in-cbse-9-soc-02-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate boundaries",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the place where plates move **apart**, magma rises and **new crust** is created.",
+    "image": {
+      "src": "/img/social02/boundaries.svg",
+      "alt": "A slice through the Earth's outer layers across an ocean and two continents"
+    },
+    "spots": [
+      {
+        "id": "cont",
+        "x": 7,
+        "y": 42.7,
+        "label": "Continent"
+      },
+      {
+        "id": "ridge",
+        "x": 37.5,
+        "y": 42,
+        "label": "Mid-ocean ridge"
+      },
+      {
+        "id": "trench",
+        "x": 75,
+        "y": 52.7,
+        "label": "Trench"
+      },
+      {
+        "id": "volcano",
+        "x": 88.8,
+        "y": 20,
+        "label": "Volcano"
+      },
+      {
+        "id": "slab",
+        "x": 85.3,
+        "y": 85,
+        "label": "Sinking plate"
+      }
+    ],
+    "answer": "ridge",
+    "hint": "Look for the underwater mountain range in the middle of the ocean.",
+    "explanation": "At a **divergent boundary** plates move away from each other. Magma rises from below and hardens into **new crust**, building **mid-ocean ridges** such as the **Mid-Atlantic Ridge**. The trench and volcano on the right belong to a *convergent* boundary, where crust sinks instead."
+  },
+  {
+    "id": "in-cbse-9-soc-02-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate boundaries",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "An oceanic plate meets a continental plate here. Tap the **oceanic plate where it sinks beneath** the continental plate.",
+    "image": {
+      "src": "/img/social02/boundaries.svg",
+      "alt": "A slice through the Earth's outer layers across an ocean and two continents"
+    },
+    "spots": [
+      {
+        "id": "sea",
+        "x": 53.8,
+        "y": 35.3,
+        "label": "Ocean water"
+      },
+      {
+        "id": "ridge",
+        "x": 37.5,
+        "y": 42,
+        "label": "Mid-ocean ridge"
+      },
+      {
+        "id": "asth",
+        "x": 15,
+        "y": 85,
+        "label": "Asthenosphere"
+      },
+      {
+        "id": "volcano",
+        "x": 88.8,
+        "y": 20,
+        "label": "Volcano"
+      },
+      {
+        "id": "slab",
+        "x": 85.3,
+        "y": 85,
+        "label": "Sinking oceanic plate"
+      }
+    ],
+    "answer": "slab",
+    "hint": "Follow the dark ocean floor to the right until it bends downwards.",
+    "explanation": "At a **convergent** boundary between an oceanic and a continental plate, the denser **oceanic plate sinks beneath** the continental plate. The sinking slab melts at depth, which leads to **volcanic activity** (the volcano on the continent) and **earthquakes**."
+  },
+  {
+    "id": "in-cbse-9-soc-02-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate boundaries",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture shows the kind of plate boundary found along the **San Andreas Fault**, where plates slide past each other?",
+    "options": [
+      {
+        "id": "p",
+        "text": "Picture P",
+        "image": {
+          "src": "/img/social02/bound-p.svg",
+          "alt": "Two blocks of crust seen from above, arrows set P"
+        }
+      },
+      {
+        "id": "q",
+        "text": "Picture Q",
+        "image": {
+          "src": "/img/social02/bound-q.svg",
+          "alt": "Two blocks of crust seen from above, arrows set Q"
+        }
+      },
+      {
+        "id": "r",
+        "text": "Picture R",
+        "image": {
+          "src": "/img/social02/bound-r.svg",
+          "alt": "Two blocks of crust seen from above, arrows set R"
+        }
+      }
+    ],
+    "answer": "r",
+    "hint": "The blocks neither crash together nor pull apart.",
+    "explanation": "At a **transform boundary** (Picture R) plates **slide past each other**, so crust is neither created nor destroyed; this mainly causes **earthquakes**, as along the San Andreas Fault in the United States. Picture P shows plates moving **towards** each other (convergent) and Picture Q shows them moving **apart** with magma rising (divergent)."
+  },
+  {
+    "id": "in-cbse-9-soc-02-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate boundaries",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": {
+      "src": "/img/social02/fault.svg",
+      "alt": "Two blocks of land seen from above, separated by a crack, with a road crossing it"
+    },
+    "assertion": "At a transform boundary, new crust is created as the two plates move.",
+    "reason": "At a transform boundary, plates slide past each other, mainly causing earthquakes.",
+    "answer": "d",
+    "hint": "Where is new crust made: where plates separate, or where they scrape sideways?",
+    "explanation": "The assertion is **false**: at a transform boundary plates slide past each other **without creating or destroying crust**; new crust forms at **divergent** boundaries. The reason is **true**: this sideways movement mainly causes earthquakes, as along the San Andreas Fault. So the answer is (d)."
+  },
+  {
+    "id": "in-cbse-9-soc-02-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate boundaries",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Fold mountains such as the **Himalaya** formed as shown. What is happening here?",
+    "image": {
+      "src": "/img/social02/fold.svg",
+      "alt": "Layers of rock squeezed between two pushing blocks of land"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Two oceanic plates are moving apart at a divergent boundary"
+      },
+      {
+        "id": "b",
+        "text": "Two plates are sliding past each other at a transform boundary"
+      },
+      {
+        "id": "c",
+        "text": "An oceanic plate is sinking under a continental plate"
+      },
+      {
+        "id": "d",
+        "text": "Two continental plates are colliding at a convergent boundary"
+      }
+    ],
+    "answer": "d",
+    "hint": "The arrows push towards each other, and both sides carry land.",
+    "explanation": "When two **continental plates collide** at a **convergent boundary**, the rock layers between them are squeezed and crumpled into **fold mountains** such as the Himalaya. When an *oceanic* plate meets a continental plate, the oceanic plate sinks instead, causing volcanoes and earthquakes. Plates moving apart build ridges, not fold mountains."
+  },
+  {
+    "id": "in-cbse-9-soc-02-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Earthquakes and volcanoes",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The red dots on this globe mark the belt where most earthquakes and volcanoes occur. What is the belt called, and why is it so active?",
+    "image": {
+      "src": "/img/social02/ring-of-fire.svg",
+      "alt": "A globe centred on a large ocean with red dots near its edges"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The Ring of Fire around the Pacific Ocean; it follows plate boundaries"
+      },
+      {
+        "id": "b",
+        "text": "The Ring of Fire around the Atlantic Ocean; it has hot deserts nearby"
+      },
+      {
+        "id": "c",
+        "text": "The Mid-Atlantic Ridge; the Sun heats the ocean floor there"
+      },
+      {
+        "id": "d",
+        "text": "The Equator belt; the rocks there receive the most sunlight"
+      }
+    ],
+    "answer": "a",
+    "hint": "Earthquakes and volcanoes happen where plates meet.",
+    "explanation": "Most earthquakes and volcanoes occur along **plate boundaries**, especially around the **Pacific Ocean**, an area called the **Ring of Fire**. Comparing a plate map with an earthquake–volcano map shows this correlation. This is why plate tectonics helps us identify **earthquake- and volcano-prone regions**."
+  },
+  {
+    "id": "in-cbse-9-soc-02-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate tectonics",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": {
+      "src": "/img/social02/plate-drift.svg",
+      "alt": "A slab of land sliding slowly over a soft hot layer, beside a ruler"
+    },
+    "assertion": "The rigid tectonic plates can move slowly over the layer beneath them.",
+    "reason": "The asthenosphere below the lithosphere is semi-molten.",
+    "answer": "a",
+    "hint": "Could a solid slab glide over another completely solid, rigid layer?",
+    "explanation": "Both are true. The lithosphere is broken into rigid **tectonic plates**, and beneath them the **asthenosphere** is a hot, **semi-molten** layer. Because this layer can flow slowly, it **allows the plates to move** over it, so the reason correctly explains the assertion: (a)."
+  },
+  {
+    "id": "in-cbse-9-soc-02-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate movement rate",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A plate moves $5\\ \\text{cm}$ every year. How far will it move in **10,00,000 years** (one million years)?",
+    "image": {
+      "src": "/img/social02/plate-drift.svg",
+      "alt": "A slab of land sliding slowly over a soft hot layer, beside a ruler"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$500\\ \\text{km}$"
+      },
+      {
+        "id": "b",
+        "text": "$50\\ \\text{km}$"
+      },
+      {
+        "id": "c",
+        "text": "$5\\ \\text{km}$"
+      },
+      {
+        "id": "d",
+        "text": "$5000\\ \\text{km}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "$1\\ \\text{km} = 1000\\ \\text{m} = 1{,}00{,}000\\ \\text{cm}$.",
+    "explanation": "Distance $= 5\\ \\text{cm} \\times 10{,}00{,}000 = 50{,}00{,}000\\ \\text{cm}$. Divide by 100 to get metres: $50{,}000\\ \\text{m}$, then by 1000 to get kilometres: $$50\\ \\text{km}$$ $500$ km comes from dividing by only 10,000, $5$ km from one division too many, and $5000$ km from dividing by 1000 only. Plates move just **a few centimetres a year**, but over millions of years this adds up to huge distances."
+  },
+  {
+    "id": "in-cbse-9-soc-02-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Plate movement rate",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A plate creeps along at $4\\ \\text{cm}$ per year. How long will it take to move **1 km**?",
+    "image": {
+      "src": "/img/social02/plate-drift.svg",
+      "alt": "A slab of land sliding slowly over a soft hot layer, beside a ruler"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "250 years"
+      },
+      {
+        "id": "b",
+        "text": "4,00,000 years"
+      },
+      {
+        "id": "c",
+        "text": "2,500 years"
+      },
+      {
+        "id": "d",
+        "text": "25,000 years"
+      }
+    ],
+    "answer": "d",
+    "hint": "Convert 1 km into centimetres first, then divide by the yearly distance.",
+    "explanation": "$1\\ \\text{km} = 1000\\ \\text{m} = 1{,}00{,}000\\ \\text{cm}$. $$\\text{Time} = \\dfrac{1{,}00{,}000\\ \\text{cm}}{4\\ \\text{cm per year}} = 25{,}000\\ \\text{years}$$ 250 years comes from taking 1 km as only 1000 cm, 2,500 years from taking it as 10,000 cm, and 4,00,000 years from **multiplying** instead of dividing."
+  },
+  {
+    "id": "in-cbse-9-soc-02-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Heat inside the Earth",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Using the bar chart, what **total share** of the interior heat flow comes from the **mantle** (upper and lower together)?",
+    "image": {
+      "src": "/img/social02/heat-flow.svg",
+      "alt": "A bar chart of the share of interior heat flow from each layer"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "32%"
+      },
+      {
+        "id": "b",
+        "text": "46%"
+      },
+      {
+        "id": "c",
+        "text": "54%"
+      },
+      {
+        "id": "d",
+        "text": "78%"
+      }
+    ],
+    "answer": "c",
+    "hint": "The mantle has two bars.",
+    "explanation": "Mantle share = upper mantle + lower mantle $= 22\\% + 32\\% = 54\\%$. 32% is the lower mantle alone, 46% is the share of the **other** layers (crust 24% + core 22%), and 78% wrongly adds the crust too. Heat moving up from the interior powers the mantle's convection currents."
+  },
+  {
+    "id": "in-cbse-9-soc-02-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Earthquakes in early India",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Earthquakes were known in early times as **bhūkampa**. In which work did **Varāhamihira** devote a section to earthquakes and the signs that might come before them?",
+    "image": {
+      "src": "/img/social02/manuscript.svg",
+      "alt": "Old palm-leaf manuscript pages beside drawings of a cloud, wind and a ground-shaking trace"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Arthaśhāstra"
+      },
+      {
+        "id": "b",
+        "text": "Bṛihatsaṁhitā"
+      },
+      {
+        "id": "c",
+        "text": "Kṛiṣhiparāśhara"
+      },
+      {
+        "id": "d",
+        "text": "Vṛikṣhāyurveda"
+      }
+    ],
+    "answer": "b",
+    "hint": "The other three texts are mentioned in the chapter for land and farming practices.",
+    "explanation": "In the **Bṛihatsaṁhitā**, Varāhamihira noted how changes in wind, rain, clouds, animal behaviour and planetary alignments might signal earthquakes. He linked them to four elemental forces: **Vāyu, Agni, Indra and Varuṇa**. The Arthaśhāstra, Kṛiṣhiparāśhara and Vṛikṣhāyurveda are cited for land assessment and farming."
+  },
+  {
+    "id": "in-cbse-9-soc-02-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Volcanoes",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "At **Baratang Island** in the Andaman and Nicobar Islands there is a rare kind of volcano. What comes out of it?",
+    "image": {
+      "src": "/img/social02/mud-volcano.svg",
+      "alt": "A low grey mound on an island with bubbles rising through the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Mud, bubbling out because of natural underground gases and pressure"
+      },
+      {
+        "id": "b",
+        "text": "Red-hot lava from a magma chamber"
+      },
+      {
+        "id": "c",
+        "text": "Sea water pushed up by the tides"
+      },
+      {
+        "id": "d",
+        "text": "Ice and snow from the mountain top"
+      }
+    ],
+    "answer": "a",
+    "hint": "It is described as unlike a fiery volcano.",
+    "explanation": "Baratang has **India's only mud volcano**. Unlike fiery volcanoes, it releases **bubbling mud**, pushed out by **natural underground gases and pressure**. It is a rare natural wonder and a tourist attraction of the islands."
+  },
+  {
+    "id": "in-cbse-9-soc-02-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Volcanoes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "After an eruption nearby, a thick **grey powder** covers this village. What is it most likely to be, and what does it tell us?",
+    "image": {
+      "src": "/img/social02/ash.svg",
+      "alt": "A village under a grey sky with a smoking mountain in the distance"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Desert sand from a dust storm; it shows wind erosion"
+      },
+      {
+        "id": "b",
+        "text": "Cement dust from building work; it shows human activity"
+      },
+      {
+        "id": "c",
+        "text": "Powdered snow from an avalanche; it shows a rise in temperature"
+      },
+      {
+        "id": "d",
+        "text": "Volcanic ash; it shows the powerful forces inside the Earth"
+      }
+    ],
+    "answer": "d",
+    "hint": "Look at what is rising from the mountain.",
+    "explanation": "The grey powder is **volcanic ash**, thrown into the air by an eruption and deposited over a wide area. It shows the **internal (endogenic) forces** of the Earth: heat and pressure deep inside push magma, gases and ash to the surface. Dust storms, building work and avalanches do not follow an eruption."
+  },
+  {
+    "id": "in-cbse-9-soc-02-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Earthquake safety",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "You live in an earthquake-prone region and the ground starts shaking while you are indoors. What is the **safest** thing to do?",
+    "image": {
+      "src": "/img/social02/quake-safety.svg",
+      "alt": "A room shaking during an earthquake, with a window, a lamp, a table and a lift"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Take the lift down to the ground floor quickly"
+      },
+      {
+        "id": "b",
+        "text": "Stand next to the window to watch what is happening"
+      },
+      {
+        "id": "c",
+        "text": "Drop down, take cover under a sturdy table and hold on until the shaking stops"
+      },
+      {
+        "id": "d",
+        "text": "Run down a crowded staircase while the building is still shaking"
+      }
+    ],
+    "answer": "c",
+    "hint": "Protect your head from falling objects and stay put until it stops.",
+    "explanation": "**Drop, cover and hold on**: a sturdy table shields you from falling objects. Lifts can get stuck when the power fails, glass windows can shatter, and running on crowded stairs causes injuries. India has had major earthquakes, such as **Gujarat (2001)**, and in a **densely populated** country one large earthquake can cause severe damage, so preparation saves lives."
+  },
+  {
+    "id": "in-cbse-9-soc-02-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Internal and external forces",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are **internal (endogenic) forces** that move the Earth's crust? Select all that apply.",
+    "image": {
+      "src": "/img/social02/forces.svg",
+      "alt": "A landscape cut open to show rock layers, with activity below and above the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Earthquakes"
+      },
+      {
+        "id": "b",
+        "text": "Weathering"
+      },
+      {
+        "id": "c",
+        "text": "Volcanic eruptions"
+      },
+      {
+        "id": "d",
+        "text": "Folding"
+      },
+      {
+        "id": "e",
+        "text": "Deposition"
+      },
+      {
+        "id": "f",
+        "text": "Faulting"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "f"
+    ],
+    "hint": "Internal forces start below the surface; external ones work on it from above.",
+    "explanation": "**Earthquakes, volcanic eruptions, folding and faulting** are internal forces that build mountains, valleys and ocean basins. **Weathering, erosion and deposition** are external forces that slowly wear these features down and reshape them. Together they create the landforms we see."
+  },
+  {
+    "id": "in-cbse-9-soc-02-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Weathering",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each numbered scene shows a rock being broken down. Match each scene with the **type of weathering**.",
+    "image": {
+      "src": "/img/social02/weathering.svg",
+      "alt": "Three numbered scenes of rocks being broken down",
+      "markers": [
+        {
+          "x": 5.7,
+          "y": 12,
+          "label": "1"
+        },
+        {
+          "x": 38.3,
+          "y": 12,
+          "label": "2"
+        },
+        {
+          "x": 71,
+          "y": 12,
+          "label": "3"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "Scene 1"
+      },
+      {
+        "id": "s2",
+        "text": "Scene 2"
+      },
+      {
+        "id": "s3",
+        "text": "Scene 3"
+      }
+    ],
+    "right": [
+      {
+        "id": "phys",
+        "text": "Physical weathering"
+      },
+      {
+        "id": "chem",
+        "text": "Chemical weathering"
+      },
+      {
+        "id": "bio",
+        "text": "Biological weathering"
+      }
+    ],
+    "pairs": {
+      "s1": "bio",
+      "s2": "chem",
+      "s3": "phys"
+    },
+    "hint": "Living things, reactions with water or acids, and heating–cooling or frost.",
+    "explanation": "Scene 1: a plant's roots grow into a crack and split the rock, which is **biological** weathering. Scene 2: rain and acids react with minerals, forming new substances (the rusty patches), which is **chemical** weathering. Scene 3: heating, cooling and frost crack the rock into flakes, which is **physical** weathering. Weathering also helps form **soil**."
+  },
+  {
+    "id": "in-cbse-9-soc-02-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Weathering and erosion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": {
+      "src": "/img/social02/weathering.svg",
+      "alt": "Three scenes of rocks being broken down"
+    },
+    "assertion": "Weathering only breaks rocks down into smaller pieces; it does not carry the pieces away.",
+    "reason": "Erosion moves soil and broken rock from one place to another using agents such as water, wind, ice and waves.",
+    "answer": "b",
+    "hint": "Both statements are correct definitions. Does the second explain the first?",
+    "explanation": "Both statements are true. **Weathering** is breakdown in place, with no movement. **Erosion** wears material away *and* carries it off using water, wind, ice or waves. The reason describes a *different* process; it does not explain why weathering involves no movement, so the answer is (b)."
+  },
+  {
+    "id": "in-cbse-9-soc-02-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Erosion and livelihoods",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "How can **erosion** affect people's work and livelihoods? Select all that apply.",
+    "image": {
+      "src": "/img/social02/erosion.svg",
+      "alt": "A hillside with a forested half and a bare half above a river with a house on its bank"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It removes fertile topsoil, lowering crop yields"
+      },
+      {
+        "id": "b",
+        "text": "It always makes farmland more fertile"
+      },
+      {
+        "id": "c",
+        "text": "It can wash away land, houses and roads near rivers and coasts"
+      },
+      {
+        "id": "d",
+        "text": "It makes slopes at construction and mining sites unstable"
+      },
+      {
+        "id": "e",
+        "text": "It has no effect on tourism or fishing"
+      },
+      {
+        "id": "f",
+        "text": "It makes beaches grow wider every year"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "Think of farmers, riverside families, builders and miners.",
+    "explanation": "Erosion strips the **fertile topsoil** farmers need, **washes away** land, houses and roads near rivers and coasts, and **destabilises** land at construction and mining sites. It can also *destroy* beaches, rivers and fertile land, which hurts **tourism and fishing**. Bare, deforested slopes (right side of the picture) erode much faster than forested ones, because no roots hold the soil."
+  },
+  {
+    "id": "in-cbse-9-soc-02-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Soil and water conservation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered scene with the **soil and water conservation** method it shows.",
+    "image": {
+      "src": "/img/social02/conservation.svg",
+      "alt": "Four numbered scenes of hillsides and a stream",
+      "markers": [
+        {
+          "x": 5,
+          "y": 7.1,
+          "label": "1"
+        },
+        {
+          "x": 55,
+          "y": 7.1,
+          "label": "2"
+        },
+        {
+          "x": 5,
+          "y": 57.1,
+          "label": "3"
+        },
+        {
+          "x": 55,
+          "y": 57.1,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "Scene 1"
+      },
+      {
+        "id": "s2",
+        "text": "Scene 2"
+      },
+      {
+        "id": "s3",
+        "text": "Scene 3"
+      },
+      {
+        "id": "s4",
+        "text": "Scene 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "trench",
+        "text": "Continuous contour trench (CCT)"
+      },
+      {
+        "id": "terrace",
+        "text": "Terracing"
+      },
+      {
+        "id": "bund",
+        "text": "Bunding"
+      },
+      {
+        "id": "check",
+        "text": "Check dam"
+      }
+    ],
+    "pairs": {
+      "s1": "terrace",
+      "s2": "check",
+      "s3": "trench",
+      "s4": "bund"
+    },
+    "hint": "A trench is dug into the slope; a bund is an earth bank built up on it.",
+    "explanation": "1: **Terracing** cuts a hillside into level steps. 2: A **check dam** across a small stream slows the water, stops soil erosion, traps sediment and recharges groundwater. 3: **Contour trenches** are dug along the contours to hold rainwater and let it soak in. 4: **Bunds** are raised earthen banks along the contours that slow run-off. The Sindhu-Sarasvatī civilisation used contouring, bunding and terracing, and Nagaland's **Zabo system** uses earthen bunds on hillslopes."
+  },
+  {
+    "id": "in-cbse-9-soc-02-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Agents of gradation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each **agent of gradation** with a landform it creates.",
+    "image": {
+      "src": "/img/social02/agents.svg",
+      "alt": "Five tiles showing the agents of gradation"
+    },
+    "left": [
+      {
+        "id": "river",
+        "text": "Running water"
+      },
+      {
+        "id": "glacier",
+        "text": "Glacier"
+      },
+      {
+        "id": "wind",
+        "text": "Wind"
+      },
+      {
+        "id": "waves",
+        "text": "Sea waves"
+      },
+      {
+        "id": "ground",
+        "text": "Groundwater"
+      }
+    ],
+    "right": [
+      {
+        "id": "cliff",
+        "text": "Sea cliff"
+      },
+      {
+        "id": "sink",
+        "text": "Sinkhole"
+      },
+      {
+        "id": "delta",
+        "text": "Delta"
+      },
+      {
+        "id": "dune",
+        "text": "Sand dune"
+      },
+      {
+        "id": "uval",
+        "text": "U-shaped valley"
+      }
+    ],
+    "pairs": {
+      "river": "delta",
+      "glacier": "uval",
+      "wind": "dune",
+      "waves": "cliff",
+      "ground": "sink"
+    },
+    "hint": "Which agent dissolves limestone underground?",
+    "explanation": "**Running water** carves valleys and deposits sediment at its mouth as a **delta**. **Glaciers** scrape out **U-shaped valleys**. **Wind** piles sand into **dunes**. **Sea waves** cut **cliffs**. **Groundwater** dissolves rocks such as limestone, creating caves and **sinkholes**. Together these agents lower high areas and fill up low ones."
+  },
+  {
+    "id": "in-cbse-9-soc-02-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Landforms and history",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The Himalaya protected India from invasions, yet ideas and goods still crossed them. What made this **cultural exchange** possible?",
+    "image": {
+      "src": "/img/social02/civilisation.svg",
+      "alt": "A landscape with mountains, a desert, a river plain with a town and a coast"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Deltas such as the Sundarbans"
+      },
+      {
+        "id": "b",
+        "text": "Mountain passes such as the Khyber Pass"
+      },
+      {
+        "id": "c",
+        "text": "Deserts such as the Thar"
+      },
+      {
+        "id": "d",
+        "text": "Oxbow lakes on the plains"
+      }
+    ],
+    "answer": "b",
+    "hint": "Look for the low gap in the mountain range.",
+    "explanation": "Mountains acted as both **barriers and protectors**, but **passes** like the **Khyber Pass** allowed cultural exchanges. Fertile river plains (Ganga, Nile, Indus, Brahmaputra) gave rise to farming societies and early cities; deserts like the **Thar** limited large settlements but encouraged trade routes such as the **Silk Route**; coasts and harbours supported trade with distant lands."
+  },
+  {
+    "id": "in-cbse-9-soc-02-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Running water",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these groups of river landforms in the order they appear from the river's **source to its mouth**.",
+    "image": {
+      "src": "/img/social02/river-course.svg",
+      "alt": "A river flowing from mountains across a plain to the sea"
+    },
+    "items": [
+      {
+        "id": "mid",
+        "text": "Meanders, oxbow lakes and floodplains"
+      },
+      {
+        "id": "low",
+        "text": "Deltas, levees and alluvial fans"
+      },
+      {
+        "id": "up",
+        "text": "Waterfalls, rapids and V-shaped valleys"
+      }
+    ],
+    "answer": [
+      "up",
+      "mid",
+      "low"
+    ],
+    "startLabel": "Source",
+    "endLabel": "Mouth",
+    "hint": "Steep slopes and strong erosion come first; heavy deposition comes last.",
+    "explanation": "In the **upper course**, steep gradients give the river great erosive force, forming **V-shaped valleys, waterfalls and rapids**. In the **middle course** it loses energy, starts to **meander** and forms **oxbow lakes and floodplains**. In the **lower course** it slows further and deposits large amounts of sediment as **deltas, levees and alluvial fans**."
+  },
+  {
+    "id": "in-cbse-9-soc-02-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Running water",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **oxbow lake**.",
+    "image": {
+      "src": "/img/social02/river-course.svg",
+      "alt": "A river flowing from mountains across a plain to the sea"
+    },
+    "spots": [
+      {
+        "id": "vvalley",
+        "x": 13.8,
+        "y": 20,
+        "label": "V-shaped valley"
+      },
+      {
+        "id": "waterfall",
+        "x": 28.8,
+        "y": 40,
+        "label": "Waterfall"
+      },
+      {
+        "id": "meander",
+        "x": 56,
+        "y": 51.5,
+        "label": "Meander"
+      },
+      {
+        "id": "oxbow",
+        "x": 29,
+        "y": 76.9,
+        "label": "Oxbow lake"
+      },
+      {
+        "id": "delta",
+        "x": 82.9,
+        "y": 92.3,
+        "label": "Delta"
+      }
+    ],
+    "answer": "oxbow",
+    "hint": "It is a curved lake that is no longer joined to the river.",
+    "explanation": "An **oxbow lake** is a curved lake left behind on the floodplain when a **meander** loop gets cut off from the main channel. Oxbow lakes form in the **middle course**, where the river winds across flat land. The V-shaped valley and waterfall belong to the upper course, and the delta to the mouth."
+  },
+  {
+    "id": "in-cbse-9-soc-02-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Waterfall",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "How does a waterfall like this one form?",
+    "image": {
+      "src": "/img/social02/waterfall.svg",
+      "alt": "A river dropping over a step in the rock layers into a pool"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A hard rock layer resists erosion while the softer rock below is worn away, creating a sudden drop"
+      },
+      {
+        "id": "b",
+        "text": "Soft rock on top is worn away faster than the hard rock beneath it"
+      },
+      {
+        "id": "c",
+        "text": "The river deposits sediment that builds up a wall across its path"
+      },
+      {
+        "id": "d",
+        "text": "Waves from the sea cut a step into the riverbed"
+      }
+    ],
+    "answer": "a",
+    "hint": "Compare the dark top layer with the lighter layer under it.",
+    "explanation": "Waterfalls form in the **upper course** where **hard rock** resists erosion and the **softer rock below** is worn away, leaving a sudden drop; the falling water digs a **plunge pool**. Waterfalls attract tourists, are sometimes used to generate **hydroelectric power**, and offer trekking and photography."
+  },
+  {
+    "id": "in-cbse-9-soc-02-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Meander",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "This river is curving round a meander. Where does it **erode** its bank, and where does it **deposit** sediment?",
+    "image": {
+      "src": "/img/social02/meander.svg",
+      "alt": "A river seen from above curving round a bend, with banks marked X and Y"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Erodes at Y (inner bank) and deposits at X (outer bank)"
+      },
+      {
+        "id": "b",
+        "text": "Erodes at X (outer bank) and deposits at Y (inner bank)"
+      },
+      {
+        "id": "c",
+        "text": "Erodes and deposits equally at both banks"
+      },
+      {
+        "id": "d",
+        "text": "Deposits at both banks and erodes only its bed"
+      }
+    ],
+    "answer": "b",
+    "hint": "Water swings fastest round the outside of a bend.",
+    "explanation": "A river **erodes the outer bank** of a bend (X) and **deposits sediment on the inner bank** (Y), so the loops slowly grow bigger. This **lateral erosion and deposition** creates meanders. The fertile soil supports farming and settlements; rivers are also used for irrigation, as at the **Grand Anicut (Kallanai)** in Tamil Nadu."
+  },
+  {
+    "id": "in-cbse-9-soc-02-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Delta",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Deltas such as the **Sundarbans** are good for growing **rice and jute**. Why?",
+    "image": {
+      "src": "/img/social02/delta.svg",
+      "alt": "A river seen from above splitting into many channels as it reaches the sea"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "They are covered by thick sheets of glacial ice"
+      },
+      {
+        "id": "b",
+        "text": "Strong winds bring sand to them from deserts"
+      },
+      {
+        "id": "c",
+        "text": "They are built of hard rock that resists erosion"
+      },
+      {
+        "id": "d",
+        "text": "The river deposits rich alluvial soil there, making them very fertile"
+      }
+    ],
+    "answer": "d",
+    "hint": "A delta is built from what the river carries down from upstream.",
+    "explanation": "A **delta** forms at a river's mouth when it deposits the sediment it has carried, building a **fan-shaped or triangular** area of land split by distributaries. Its **rich alluvial soil** suits rice and jute. The mix of fresh and salt water supports fishing, and deltas often have dense settlements, though they can be **prone to flooding**."
+  },
+  {
+    "id": "in-cbse-9-soc-02-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Delta",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": {
+      "src": "/img/social02/river-course.svg",
+      "alt": "A river flowing from mountains across a plain to the sea"
+    },
+    "assertion": "Deltas are highly fertile and often support dense human settlements.",
+    "reason": "Deltas form in the upper course of a river, where steep slopes give it great erosive force.",
+    "answer": "c",
+    "hint": "Check where along the river a delta is found.",
+    "explanation": "The assertion is **true**: rich alluvial soil makes deltas fertile, and they support dense settlements, trade and transport. The reason is **false**: deltas form in the **lower course**, at the river's mouth, where the river **slows down and deposits** sediment, not where it erodes strongly. So the answer is (c)."
+  },
+  {
+    "id": "in-cbse-9-soc-02-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Coastal landforms",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **sea stack**.",
+    "image": {
+      "src": "/img/social02/coast.svg",
+      "alt": "A rocky coastline with waves and several rock shapes carved by the sea"
+    },
+    "spots": [
+      {
+        "id": "cliff",
+        "x": 31,
+        "y": 36.5,
+        "label": "Sea cliff"
+      },
+      {
+        "id": "cave",
+        "x": 30.5,
+        "y": 56.2,
+        "label": "Sea cave"
+      },
+      {
+        "id": "arch",
+        "x": 47.6,
+        "y": 40,
+        "label": "Sea arch"
+      },
+      {
+        "id": "stack",
+        "x": 66,
+        "y": 46.2,
+        "label": "Sea stack"
+      },
+      {
+        "id": "platform",
+        "x": 58.3,
+        "y": 65.4,
+        "label": "Wave-cut platform"
+      }
+    ],
+    "answer": "stack",
+    "hint": "It is an isolated pillar of rock standing on its own in the sea.",
+    "explanation": "A **stack** is an isolated pillar of rock left standing after an **arch collapses**. Waves erode weak parts of a headland into **caves**; when caves on opposite sides meet they form an **arch**. **Cliffs** are steep rock faces undercut by waves, and **wave-cut platforms** are flat areas left as cliffs retreat."
+  },
+  {
+    "id": "in-cbse-9-soc-02-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Coastal landforms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put these stages of **coastal erosion** of a headland in order.",
+    "image": {
+      "src": "/img/social02/coast.svg",
+      "alt": "A rocky coastline with waves and several rock shapes carved by the sea"
+    },
+    "items": [
+      {
+        "id": "arch",
+        "text": "Caves on opposite sides of the headland meet, forming an arch"
+      },
+      {
+        "id": "cliff",
+        "text": "Waves undercut the base of the coast, forming a steep cliff"
+      },
+      {
+        "id": "stack",
+        "text": "The arch collapses, leaving an isolated pillar of rock"
+      },
+      {
+        "id": "cave",
+        "text": "Waves erode weak parts of the rock, hollowing out caves"
+      }
+    ],
+    "answer": [
+      "cliff",
+      "cave",
+      "arch",
+      "stack"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot have an arch before there are caves.",
+    "explanation": "Waves first **undercut the coast into a cliff**, then erode weak spots into **caves**. When caves on opposite sides of a headland meet, an **arch** forms. When the arch collapses, a **stack** is left standing. As the cliff retreats, a flat **wave-cut platform** is left at its base."
+  },
+  {
+    "id": "in-cbse-9-soc-02-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Beaches",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion and the reason, then choose the correct option.",
+    "image": {
+      "src": "/img/social02/beach.svg",
+      "alt": "A curved sandy shore between two rocky points, with houses behind it"
+    },
+    "assertion": "Beaches help to protect settlements near the coast.",
+    "reason": "Beaches are popular tourist destinations that boost the local economy.",
+    "answer": "b",
+    "hint": "Being popular with tourists is true, but is that what protects houses?",
+    "explanation": "Both are true. Beaches act as **natural barriers** against strong waves and coastal erosion, which protects coastal settlements. They are also popular for tourism and fishing. But tourism does **not explain** the protection, so the answer is (b). Beaches are formed by the **deposition** of sand, pebbles and rocks by waves."
+  },
+  {
+    "id": "in-cbse-9-soc-02-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Glacial landforms",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture shows a valley carved by a **glacier**?",
+    "options": [
+      {
+        "id": "p",
+        "text": "Picture P",
+        "image": {
+          "src": "/img/social02/valley-p.svg",
+          "alt": "Cross-section of valley P"
+        }
+      },
+      {
+        "id": "q",
+        "text": "Picture Q",
+        "image": {
+          "src": "/img/social02/valley-q.svg",
+          "alt": "Cross-section of valley Q"
+        }
+      },
+      {
+        "id": "r",
+        "text": "Picture R",
+        "image": {
+          "src": "/img/social02/valley-r.svg",
+          "alt": "Cross-section of valley R"
+        }
+      }
+    ],
+    "answer": "q",
+    "hint": "A glacier widens and deepens a valley as it scrapes along.",
+    "explanation": "Glaciers **widen and deepen** valleys, giving a **U-shaped** valley with steep sides and a broad flat floor (Picture Q). A narrow **V-shaped** valley (P) is cut by a fast river in its upper course, and the broad, gentle valley with a wide floor (R) is a river floodplain."
+  },
+  {
+    "id": "in-cbse-9-soc-02-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Glacial landforms",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **terminal moraine**, the ridge of debris that marks the farthest point the glacier reached.",
+    "image": {
+      "src": "/img/social02/glacier.svg",
+      "alt": "A mountain landscape with two rivers of ice joining and flowing down a valley"
+    },
+    "spots": [
+      {
+        "id": "cirque",
+        "x": 26.2,
+        "y": 23.6,
+        "label": "Cirque"
+      },
+      {
+        "id": "arete",
+        "x": 47.9,
+        "y": 14.3,
+        "label": "Arête"
+      },
+      {
+        "id": "lateral",
+        "x": 33.1,
+        "y": 51.4,
+        "label": "Lateral moraine"
+      },
+      {
+        "id": "medial",
+        "x": 52.1,
+        "y": 70,
+        "label": "Medial moraine"
+      },
+      {
+        "id": "terminal",
+        "x": 51.2,
+        "y": 87.9,
+        "label": "Terminal moraine"
+      }
+    ],
+    "answer": "terminal",
+    "hint": "Look at the very end (snout) of the glacier.",
+    "explanation": "**Moraines** are made of rock, soil and debris (called **till**) carried and left behind by glaciers. The **terminal moraine** forms at the **end** of a glacier, marking its farthest advance. **Lateral** moraines run along the sides, and **medial** moraines form in the middle where two glaciers meet. Moraines can form natural dams and lakes."
+  },
+  {
+    "id": "in-cbse-9-soc-02-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Glacial landforms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each **glacial landform** with its description.",
+    "image": {
+      "src": "/img/social02/glacier.svg",
+      "alt": "A mountain landscape with two rivers of ice joining and flowing down a valley"
+    },
+    "left": [
+      {
+        "id": "cirque",
+        "text": "Cirque"
+      },
+      {
+        "id": "arete",
+        "text": "Arête"
+      },
+      {
+        "id": "hang",
+        "text": "Hanging valley"
+      },
+      {
+        "id": "fjord",
+        "text": "Fjord"
+      },
+      {
+        "id": "medial",
+        "text": "Medial moraine"
+      }
+    ],
+    "right": [
+      {
+        "id": "d1",
+        "text": "A deep, narrow inlet formed when the sea floods a glacial valley"
+      },
+      {
+        "id": "d2",
+        "text": "A bowl-shaped hollow at the head of a glacier"
+      },
+      {
+        "id": "d3",
+        "text": "Debris in the middle of a glacier, where two lateral moraines join"
+      },
+      {
+        "id": "d4",
+        "text": "A sharp ridge between two glacial valleys"
+      },
+      {
+        "id": "d5",
+        "text": "A valley left high up where a smaller glacier met a larger one"
+      }
+    ],
+    "pairs": {
+      "cirque": "d2",
+      "arete": "d4",
+      "hang": "d5",
+      "fjord": "d1",
+      "medial": "d3"
+    },
+    "hint": "A 'bowl', a 'knife-edge', a 'step', an 'inlet' and a 'stripe'.",
+    "explanation": "A **cirque** is a bowl-shaped hollow at a glacier's head; an **arête** is a sharp ridge between valleys; a **hanging valley** forms where a smaller glacier joined a larger one; a **fjord** is a deep, narrow inlet made when the sea floods a glacial valley; a **medial moraine** forms when two glaciers meet and their lateral moraines join. Fjords serve as harbours, and glaciers feed rivers with fresh water."
+  },
+  {
+    "id": "in-cbse-9-soc-02-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Wind landforms",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Wind has scooped out loose sand here down to the water below, forming a **deflation hollow** with an **oasis**. Tap it.",
+    "image": {
+      "src": "/img/social02/desert.svg",
+      "alt": "A desert landscape with rocks, a pool with palm trees, sand hills and blowing sand"
+    },
+    "spots": [
+      {
+        "id": "yardang",
+        "x": 17.9,
+        "y": 53.8,
+        "label": "Yardang"
+      },
+      {
+        "id": "ventifact",
+        "x": 29.5,
+        "y": 82.3,
+        "label": "Ventifact"
+      },
+      {
+        "id": "oasis",
+        "x": 55.2,
+        "y": 75.4,
+        "label": "Deflation hollow with oasis"
+      },
+      {
+        "id": "dune",
+        "x": 83.3,
+        "y": 56.2,
+        "label": "Barchan dune"
+      },
+      {
+        "id": "pavement",
+        "x": 81,
+        "y": 89.2,
+        "label": "Desert pavement"
+      }
+    ],
+    "answer": "oasis",
+    "hint": "Look for water and palm trees in a dip.",
+    "explanation": "A **deflation hollow** (blowout) is a shallow depression formed where wind removes loose material. Where it reaches the **water table**, water collects and an **oasis** forms. The streamlined rock ridge is a **yardang**, the polished faceted rock is a **ventifact**, and the flat pebbly patch is **desert pavement**, left after fine particles are blown away."
+  },
+  {
+    "id": "in-cbse-9-soc-02-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Wind landforms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these landforms are created by **wind**? Select all that apply.",
+    "image": {
+      "src": "/img/social02/desert.svg",
+      "alt": "A desert landscape with rocks, a pool with palm trees, sand hills and blowing sand"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Yardang"
+      },
+      {
+        "id": "b",
+        "text": "Stalagmite"
+      },
+      {
+        "id": "c",
+        "text": "Ventifact"
+      },
+      {
+        "id": "d",
+        "text": "Cirque"
+      },
+      {
+        "id": "e",
+        "text": "Barchan dune"
+      },
+      {
+        "id": "f",
+        "text": "Levee"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Rule out what water underground, ice and rivers make.",
+    "explanation": "**Yardangs** (streamlined rock ridges), **ventifacts** (rocks polished by sandblasting) and **barchan dunes** are made by wind. A **stalagmite** forms in caves from underground water, a **cirque** is carved by a glacier, and a **levee** is deposited by a river in its lower course."
+  },
+  {
+    "id": "in-cbse-9-soc-02-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Sand dunes",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each picture shows a sand dune from above; orange arrows show the wind. Match each picture with the **type of dune**.",
+    "left": [
+      {
+        "id": "p",
+        "text": "Dune P",
+        "image": {
+          "src": "/img/social02/dune-p.svg",
+          "alt": "Sand hill P seen from above"
+        }
+      },
+      {
+        "id": "q",
+        "text": "Dune Q",
+        "image": {
+          "src": "/img/social02/dune-q.svg",
+          "alt": "Sand hill Q seen from above"
+        }
+      },
+      {
+        "id": "r",
+        "text": "Dune R",
+        "image": {
+          "src": "/img/social02/dune-r.svg",
+          "alt": "Sand hill R seen from above"
+        }
+      },
+      {
+        "id": "s",
+        "text": "Dune S",
+        "image": {
+          "src": "/img/social02/dune-s.svg",
+          "alt": "Sand hill S seen from above"
+        }
+      }
+    ],
+    "right": [
+      {
+        "id": "star",
+        "text": "Star dune"
+      },
+      {
+        "id": "para",
+        "text": "Parabolic dune"
+      },
+      {
+        "id": "barchan",
+        "text": "Barchan dune"
+      },
+      {
+        "id": "long",
+        "text": "Longitudinal dune"
+      }
+    ],
+    "pairs": {
+      "p": "barchan",
+      "q": "star",
+      "r": "long",
+      "s": "para"
+    },
+    "hint": "Count the wind directions, and look for plants holding a dune in place.",
+    "explanation": "**Barchan** dunes (P) are **crescent-shaped**, forming where sand is limited and the wind blows from one direction. **Star** dunes (Q) have **many arms** because winds come from several directions. **Longitudinal** dunes (R) are long ridges **parallel** to the prevailing wind. **Parabolic** dunes (S) are **U-shaped**, often held in place by vegetation."
+  },
+  {
+    "id": "in-cbse-9-soc-02-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Underground water",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap a **stalagmite**.",
+    "image": {
+      "src": "/img/social02/cave.svg",
+      "alt": "A cut-away of limestone ground with a large cave below the surface"
+    },
+    "spots": [
+      {
+        "id": "stalactite",
+        "x": 55.2,
+        "y": 37.9,
+        "label": "Stalactite"
+      },
+      {
+        "id": "stalagmite",
+        "x": 31.4,
+        "y": 76.4,
+        "label": "Stalagmite"
+      },
+      {
+        "id": "pillar",
+        "x": 42.4,
+        "y": 57.1,
+        "label": "Pillar"
+      },
+      {
+        "id": "river",
+        "x": 69,
+        "y": 80.7,
+        "label": "Underground river"
+      },
+      {
+        "id": "sinkhole",
+        "x": 85.7,
+        "y": 22.9,
+        "label": "Sinkhole"
+      }
+    ],
+    "answer": "stalagmite",
+    "hint": "Stalagmites grow upwards from the floor of the cave.",
+    "explanation": "In **Karst topography**, acidic groundwater dissolves limestone, forming **caves**. **Stalactites** hang like icicles from the ceiling; **stalagmites** rise from the floor; where the two join, a **pillar** forms. **Sinkholes** (dolines) are depressions where the ground collapses into a cavity, and **underground rivers** flow through cave systems."
+  },
+  {
+    "id": "in-cbse-9-soc-02-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Landslides",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these can make a hillside **more likely to suffer a landslide**? Select all that apply.",
+    "image": {
+      "src": "/img/social02/landslide.svg",
+      "alt": "A steep rainy hillside cut by a road, with loose earth sliding downhill"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Heavy, continuous rainfall soaking into the slope"
+      },
+      {
+        "id": "b",
+        "text": "Cutting down the trees on the slope"
+      },
+      {
+        "id": "c",
+        "text": "A gentle slope of firm, unweathered rock"
+      },
+      {
+        "id": "d",
+        "text": "Earthquakes shaking the ground"
+      },
+      {
+        "id": "e",
+        "text": "Good drainage that removes excess water"
+      },
+      {
+        "id": "f",
+        "text": "Road building and unplanned construction on the hillside"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "f"
+    ],
+    "hint": "Anything that adds weight, reduces friction or disturbs the slope counts.",
+    "explanation": "Rainwater seeping into soil and rock **adds weight and reduces friction**; **earthquakes** shake and weaken slopes; **deforestation, road building and unplanned construction** disturb the slope's balance. Steep slopes with loose, weathered rock and **poor** drainage raise the risk, so firm rock on gentle slopes and good drainage make landslides *less* likely."
+  },
+  {
+    "id": "in-cbse-9-soc-02-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Avalanches",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Why can a **sudden rise in temperature** set off an avalanche on a snowy slope?",
+    "image": {
+      "src": "/img/social02/avalanche.svg",
+      "alt": "A steep snowy mountain slope on a sunny day with snow breaking away"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Warm air freezes the snow into heavier ice"
+      },
+      {
+        "id": "b",
+        "text": "Heat makes the slope much gentler"
+      },
+      {
+        "id": "c",
+        "text": "Partial melting reduces the friction that holds the snow together"
+      },
+      {
+        "id": "d",
+        "text": "The warmth stops all snowfall, so the snowpack becomes lighter"
+      }
+    ],
+    "answer": "c",
+    "hint": "Think about what melting water does between layers of snow.",
+    "explanation": "A sudden warm spell causes **partial melting**, which **reduces the friction** holding the snowpack together, so it can slide. Avalanches are also triggered by **heavy snowfall** in a short time, weak layers, **strong winds** piling up snow unevenly, earthquakes and vibrations, and human activities such as skiing, trekking or construction."
+  },
+  {
+    "id": "in-cbse-9-soc-02-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "GLOFs",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the chain of events that leads to a **Glacial Lake Outburst Flood (GLOF)**.",
+    "image": {
+      "src": "/img/social02/glof.svg",
+      "alt": "A high mountain lake beside a glacier, held back by a ridge of loose rock, above a valley with buildings"
+    },
+    "items": [
+      {
+        "id": "dam",
+        "text": "The weakened natural dam of ice or moraine suddenly collapses"
+      },
+      {
+        "id": "melt",
+        "text": "Rising temperatures melt the glacier rapidly"
+      },
+      {
+        "id": "flood",
+        "text": "Stored water rushes out, flooding areas downstream"
+      },
+      {
+        "id": "lake",
+        "text": "The glacial lake grows, pressing harder on its dam"
+      }
+    ],
+    "answer": [
+      "melt",
+      "lake",
+      "dam",
+      "flood"
+    ],
+    "startLabel": "Cause",
+    "endLabel": "Effect",
+    "hint": "Start with the warming and end with the damage in the valley.",
+    "explanation": "**Rapid melting** of glaciers enlarges glacial lakes and raises their level, putting **pressure on their natural dams** of ice or loose **moraine**. Heavy rain, avalanches, landslides or earthquakes can further weaken the dam until it **collapses**, releasing the water abruptly as a destructive **flood** downstream. Sudden floods in Himalayan valleys can be devastating: the **Chamoli (Uttarakhand) flood of February 2021** damaged buildings, roads, bridges and hydel projects (the chapter asks you to find out its causes)."
+  },
+  {
+    "id": "in-cbse-9-soc-02-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Shaping of the Earth’s Surface",
+    "chapterNo": 2,
+    "topic": "Dust storms",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which set of conditions makes **dust storms** most likely?",
+    "image": {
+      "src": "/img/social02/dust-storm.svg",
+      "alt": "A tall brown cloud of dust rolling over dry, cracked land"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Long drought, loose dry soil, sparse vegetation and strong winds"
+      },
+      {
+        "id": "b",
+        "text": "Heavy rainfall and thick forest cover"
+      },
+      {
+        "id": "c",
+        "text": "Deep snow cover on high mountains"
+      },
+      {
+        "id": "d",
+        "text": "Calm, humid air over a coastal mangrove forest"
+      }
+    ],
+    "answer": "a",
+    "hint": "The wind needs dry, loose particles that nothing holds down.",
+    "explanation": "**Prolonged drought and low rainfall** dry out the soil, and **sparse vegetation**, often caused by deforestation, overgrazing or poor farming, leaves it exposed. **Strong winds** then lift large amounts of fine soil and sand into the air. Dust storms are common in **desert and semi-arid** regions, and climate change can make them more frequent and intense."
+  }
+]

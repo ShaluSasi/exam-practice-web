@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A bicycle with a price tag between two children, one dreaming of it and one holding money</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:top center}@keyframes sw{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.wave{animation:wv 1.6s ease-in-out infinite}@keyframes wv{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H324Q340 0 340 16V176H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 174H340V194Q340 210 324 210H16Q0 210 0 194Z" fill="#D9C49A"/><g stroke="#2B2F4A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="140" cy="148" r="22" fill="#FFFFFF"/><circle cx="202" cy="148" r="22" fill="#FFFFFF"/>
+<path d="M140 148L162 118H194L202 148M162 118L173 148H140M173 148L194 118M194 118L190 106H202M156 110H170M162 118L158 110" stroke="#E5484D" stroke-width="4"/></g><g class="sw"><g><rect x="139" y="61" width="64" height="20" rx="4" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="144" cy="71" r="1.8" fill="#2B2F4A"/><text x="173" y="75.5" font-size="12" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹6,000</text></g></g>
+<g transform="translate(58 128) scale(1)">
+<path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-8" r="10" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-10 -10Q-9 -20 0 -19Q9 -20 10 -10Q6 -15 0 -14Q-6 -15 -10 -10Z" fill="#2B2F4A"/>
+<circle cx="-3.5" cy="-8" r="1.3" fill="#2B2F4A"/><circle cx="3.5" cy="-8" r="1.3" fill="#2B2F4A"/>
+<path d="M-3 -3Q0 -1 3 -3" stroke="#2B2F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+<g fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"><circle cx="82" cy="98" r="4"/><circle cx="92" cy="84" r="6"/><ellipse cx="108" cy="58" rx="24" ry="17"/></g>
+<path d="M108 66C96 56 100 47 108 53C116 47 120 56 108 66Z" fill="#E5484D" stroke="#B5363A" stroke-width="1.5"/>
+<path d="M30 158H46V170Q38 176 30 170Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M33 162H43" stroke="#A3A8CC" stroke-width="2"/>
+<g transform="translate(286 128) scale(1)">
+<path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-8" r="10" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-10 -10Q-9 -20 0 -19Q9 -20 10 -10Q6 -15 0 -14Q-6 -15 -10 -10Z" fill="#2B2F4A"/>
+<circle cx="-3.5" cy="-8" r="1.3" fill="#2B2F4A"/><circle cx="3.5" cy="-8" r="1.3" fill="#2B2F4A"/>
+<path d="M-3 -3Q0 -1 3 -3" stroke="#2B2F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+<g class="wave"><rect x="246" y="140" width="26" height="15" rx="2" fill="#9BD36A" stroke="#2B7A36" stroke-width="2"/><rect x="250" y="134" width="26" height="15" rx="2" fill="#9BD36A" stroke="#2B7A36" stroke-width="2"/>
+<text x="263" y="146" font-size="11" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹</text></g>
+<path d="M272 150L276 150" stroke="#A86E48" stroke-width="5" stroke-linecap="round"/>
+</svg>

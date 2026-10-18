@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A single river flowing from the hills that divides into two streams</title>
+<style>
+.flow{animation:fl2 1.6s linear infinite}@keyframes fl2{to{stroke-dashoffset:-36}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/>
+<path d="M0 90L80 40L150 80L210 30L280 76L340 44L400 80V240H0Z" fill="#9BD08C" stroke="#3FA34D" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M196 40Q190 90 200 120Q150 160 70 240H120Q170 180 204 146Q240 190 290 240H340Q260 160 214 120Q208 90 214 40Z" fill="#7FC4E8" stroke="#3E9BD0" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="flow" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="8 10"><path d="M205 50Q200 90 205 120Q160 170 96 236"/><path d="M205 120Q246 170 314 236"/></g>
+<g transform="translate(40 150) scale(0.8)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g><g transform="translate(70 130) scale(0.7)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g><g transform="translate(350 150) scale(0.8)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g><g transform="translate(320 126) scale(0.7)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g><g transform="translate(200 230) scale(0.7)" stroke="#2F7A3A" stroke-width="2" stroke-linejoin="round"><rect x="-2.5" y="-8" width="5" height="8" fill="#8A5A33" stroke="none"/><path d="M0 -40L14 -8H-14Z" fill="#5DB36A"/><path d="M0 -50L10 -26H-10Z" fill="#7CC36E"/></g>
+</svg>

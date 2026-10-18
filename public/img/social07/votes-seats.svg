@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" role="img">
+<title>Ballot papers going into a machine that turns votes into seats</title>
+<style>
+.b1,.b2,.b3{animation:fly 3s ease-in infinite}
+.b2{animation-delay:1s}.b3{animation-delay:2s}
+@keyframes fly{0%{transform:translate(0,0);opacity:0}15%{opacity:1}80%{transform:translate(100px,22px);opacity:1}100%{transform:translate(110px,24px);opacity:0}}
+.gear{animation:spin 4s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.seat{animation:pop 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="1.5">
+<g class="b1"><rect x="20" y="60" width="26" height="32" rx="2" fill="#FFF"/><path d="M26 70h14M26 78h10" stroke="#A3A8CC"/><circle cx="38" cy="84" r="3" fill="#FF8A1F" stroke="none"/></g>
+<g class="b2"><rect x="24" y="104" width="26" height="32" rx="2" fill="#FFF"/><path d="M30 114h14M30 122h10" stroke="#A3A8CC"/><circle cx="42" cy="128" r="3" fill="#0B93D4" stroke="none"/></g>
+<g class="b3"><rect x="16" y="140" width="26" height="32" rx="2" fill="#FFF"/><path d="M22 150h14M22 158h10" stroke="#A3A8CC"/><circle cx="34" cy="164" r="3" fill="#3FA34D" stroke="none"/></g>
+</g>
+<rect x="136" y="56" width="92" height="96" rx="12" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="128" y="88" width="10" height="34" rx="3" fill="#2B2F4A"/>
+<g class="gear"><circle cx="182" cy="96" r="20" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-dasharray="7 5"/><circle cx="182" cy="96" r="7" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/></g>
+<text x="182" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">votes → seats</text>
+<path d="M230 104H258" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><path d="M252 97L260 104L252 111" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 150A50 50 0 0 1 350 150" fill="none" stroke="#E4E0F7" stroke-width="30"/>
+<g stroke="#2B2F4A" stroke-width="1.5">
+<circle class="seat" cx="276" cy="140" r="6" fill="#FF8A1F"/><circle cx="282" cy="120" r="6" fill="#FF8A1F"/><circle cx="296" cy="106" r="6" fill="#FF8A1F"/>
+<circle class="seat" cx="314" cy="102" r="6" fill="#0B93D4"/><circle cx="330" cy="108" r="6" fill="#0B93D4"/>
+<circle cx="341" cy="122" r="6" fill="#3FA34D"/><circle class="seat" cx="344" cy="140" r="6" fill="#A3A8CC"/>
+</g>
+<path d="M0 176H360V184Q360 200 344 200H16Q0 200 0 184Z" fill="#D9C49A"/>
+</svg>

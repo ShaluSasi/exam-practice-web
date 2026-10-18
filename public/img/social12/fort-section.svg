@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A fort seen from the front: a hilltop citadel behind, a long wall with towers and a gate, and water in front</title>
+<style>
+.fl{animation:fl 1.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:0 50%}
+@keyframes fl{to{transform:scaleX(.72)}}.rip{animation:rp 3s ease-in-out infinite alternate}@keyframes rp{to{transform:translateX(12px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/>
+<path d="M90 120Q150 30 200 26Q250 30 310 120Z" fill="#C9A87A" stroke="#8A6A3A" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="176" y="24" width="48" height="26" fill="#E3C08A"/><rect x="176" y="16" width="10" height="8" fill="#E3C08A"/><rect x="195" y="16" width="10" height="8" fill="#E3C08A"/><rect x="214" y="16" width="10" height="8" fill="#E3C08A"/><rect x="194" y="34" width="12" height="16" fill="#6B4527"/></g>
+<rect x="0" y="180" width="400" height="20" fill="#9BD08C"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="20" y="110" width="360" height="70" fill="#D9A76A"/><rect x="20" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="44" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="68" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="92" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="116" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="140" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="164" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="188" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="212" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="236" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="260" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="284" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="308" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="332" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/><rect x="356" y="100.4" width="12" height="9.600000000000001" fill="#D9A76A"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M282 180V100Q282 90 302 90Q322 90 322 100V180Z" fill="#C8925A"/>
+<rect x="284" y="80" width="10" height="10" fill="#C8925A"/><rect x="310" y="80" width="10" height="10" fill="#C8925A"/>
+<rect x="176" y="100" width="48" height="80" fill="#C8925A"/><path d="M186 180V142Q200 124 214 142V180Z" fill="#6B4527"/></g>
+<path d="M200 126V180M186 160H214" stroke="#3B2A20" stroke-width="2"/>
+<g fill="#6B4527"><rect x="140" y="134" width="8" height="14"/><rect x="250" y="134" width="8" height="14"/><rect x="296" y="120" width="8" height="14"/></g>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#7FC4E8"/>
+<g class="rip" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"><path d="M40 218q10-5 20 0t20 0"/><path d="M250 224q10-5 20 0t20 0"/><path d="M140 230q10-5 20 0t20 0"/></g>
+<path d="M200 16V-4" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M200 -4L220 2L200 8Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+</svg>

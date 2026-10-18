@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A crowded city of tall buildings beside scattered village huts among fields</title>
+<style>
+.car{animation:car 4s linear infinite}
+@keyframes car{from{transform:translateX(-40px)}to{transform:translateX(220px)}}
+.win{animation:win 2s steps(2) infinite}
+@keyframes win{0%{opacity:1}100%{opacity:.3}}
+.cow{animation:graze 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes graze{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V190H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<g fill="#C7CBDD" stroke="#6E7396" stroke-width="2">
+<rect x="10" y="70" width="34" height="120"/><rect x="46" y="40" width="40" height="150"/><rect x="88" y="90" width="30" height="100"/><rect x="120" y="56" width="36" height="134"/><rect x="158" y="100" width="30" height="90"/>
+</g>
+<g fill="#FFF3C4"><rect class="win" x="18" y="80" width="7" height="7"/><rect x="30" y="100" width="7" height="7"/><rect x="54" y="52" width="7" height="7"/><rect class="win" x="70" y="76" width="7" height="7"/><rect x="54" y="110" width="7" height="7"/><rect x="96" y="104" width="7" height="7"/><rect class="win" x="128" y="70" width="7" height="7"/><rect x="142" y="100" width="7" height="7"/><rect x="166" y="120" width="7" height="7"/></g>
+<path d="M0 188H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E"/>
+<path d="M0 196H196V226H0Z" fill="#7A7F96"/>
+<g class="car"><rect x="0" y="202" width="26" height="12" rx="3" fill="#E5484D"/><rect x="34" y="202" width="22" height="12" rx="3" fill="#F6C453"/><rect x="66" y="202" width="26" height="12" rx="3" fill="#0B93D4"/></g>
+<g stroke="#3FA34D" stroke-width="2" stroke-dasharray="4 5"><path d="M220 230H390M220 242H390"/></g>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<rect x="236" y="164" width="30" height="24" fill="#E8C79A"/><path d="M230 166L251 146L272 166Z" fill="#C8925A"/>
+<rect x="330" y="150" width="30" height="24" fill="#E8C79A"/><path d="M324 152L345 132L366 152Z" fill="#C8925A"/>
+<rect x="290" y="196" width="26" height="20" fill="#E8C79A"/><path d="M285 198L303 182L321 198Z" fill="#C8925A"/>
+</g>
+<circle cx="380" cy="120" r="16" fill="#3FA34D" stroke="#2B6E33" stroke-width="2"/><path d="M380 136V178" stroke="#8B5A2B" stroke-width="5"/>
+<g class="cow"><ellipse cx="364" cy="206" rx="14" ry="8" fill="#fff" stroke="#2B2F4A" stroke-width="2"/><circle cx="350" cy="204" r="5" fill="#2B2F4A"/></g>
+<path d="M200 10V250" stroke="#FFF9EE" stroke-width="4"/>
+</svg>

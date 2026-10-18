@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A river flowing out of dry hills past a small mud-brick village</title>
+<style>
+.wv{stroke-dasharray:12 10;animation:wv 2.2s linear infinite}
+@keyframes wv{to{stroke-dashoffset:-44}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V110H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 120L60 50L120 104L190 40L260 100L330 56L400 110V130H0Z" fill="#C9A877" stroke="#8A6A40" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 126H400V204Q400 220 384 220H16Q0 220 0 204Z" fill="#E6D3A8"/>
+<path d="M188 100Q170 140 200 160T190 220H240Q230 180 250 160T206 100Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="wv" d="M200 110Q190 140 220 162T214 216" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="60" y="150" width="40" height="28" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M60 158H100" stroke="#B9875D" stroke-width="1.2"/><path d="M60 166H100" stroke="#B9875D" stroke-width="1.2"/><path d="M60 174H100" stroke="#B9875D" stroke-width="1.2"/><rect x="110" y="158" width="34" height="24" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M110 166H144" stroke="#B9875D" stroke-width="1.2"/><path d="M110 174H144" stroke="#B9875D" stroke-width="1.2"/><rect x="290" y="152" width="44" height="28" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M290 160H334" stroke="#B9875D" stroke-width="1.2"/><path d="M290 168H334" stroke="#B9875D" stroke-width="1.2"/><path d="M290 176H334" stroke="#B9875D" stroke-width="1.2"/>
+<g stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"><path d="M320 200l-3-10M324 200v-12M350 196l-3-10M354 196v-12M60 200l-3-10M64 200v-12"/></g>
+</svg>

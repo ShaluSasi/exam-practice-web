@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" role="img">
+<title>A demand curve with a supply curve sliding sideways and the crossing point moving</title>
+<style>
+.sh{animation:sh 5s ease-in-out infinite}.eq{animation:eq 5s ease-in-out infinite}
+@keyframes sh{0%,15%{transform:translateX(0)}55%,85%{transform:translateX(60px)}100%{transform:translateX(0)}}
+@keyframes eq{0%,15%{transform:translate(0,0)}55%,85%{transform:translate(33px,22.5px)}100%{transform:translate(0,0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M55 205H320M55 205V25" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text x="190" y="228" font-size="12">Quantity</text><text transform="translate(28 115) rotate(-90)">Price (₹)</text></g>
+<path d="M70 50L290 200" stroke="#E5484D" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M70 200L250 50" stroke="#0B93D4" stroke-width="3" stroke-dasharray="8 6" opacity=".55" stroke-linecap="round"/>
+<g class="sh"><path d="M70 200L250 50" stroke="#0B93D4" stroke-width="4.5" stroke-linecap="round"/></g>
+<g class="eq"><circle cx="169" cy="117.5" r="6.5" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A"><text x="56" y="46" font-size="13" fill="#C2353A">D</text><text x="252" y="46" font-size="13" fill="#0B6FA4">S</text></g>
+</svg>

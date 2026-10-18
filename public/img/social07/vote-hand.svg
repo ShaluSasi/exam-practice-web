@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A voter's hand with an inked finger, a voting machine button and a printed paper slip</title>
+<style>
+.press{animation:press 2.6s ease-in-out infinite}
+@keyframes press{0%,100%{transform:translateY(0)}45%,55%{transform:translateY(5px)}}
+.slip{animation:slip 2.6s ease-in-out infinite}
+@keyframes slip{0%,50%{opacity:0;transform:translateY(-8px)}65%,90%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="24" y="96" width="150" height="96" rx="10" fill="#F3F3F7" stroke="#2B2F4A" stroke-width="2.5"/>
+<g stroke="#2B2F4A" stroke-width="1.5">
+<rect x="36" y="110" width="80" height="22" fill="#FFFFFF"/><circle cx="146" cy="121" r="10" fill="#0B93D4"/>
+<rect x="36" y="150" width="80" height="22" fill="#FFFFFF"/><circle cx="146" cy="161" r="10" fill="#0B93D4"/>
+<path d="M44 121l5-8 5 8Z" fill="#FF8A1F"/><circle cx="49" cy="161" r="5" fill="#3FA34D"/>
+</g>
+<g class="press">
+<path d="M126 108V40Q126 30 136 30Q146 30 146 40V84" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M146 84V72Q146 64 154 64Q162 64 162 72V86Q170 80 176 88V102Q176 112 166 112H130Q120 112 120 104Z" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M136 31V44" stroke="#5B4FA8" stroke-width="5" stroke-linecap="round"/>
+</g>
+<rect x="216" y="40" width="96" height="140" rx="10" fill="#E4E0F7" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="232" y="58" width="64" height="80" rx="4" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<g class="slip"><rect x="242" y="66" width="44" height="64" fill="#FFFDF4" stroke="#5B4FA8" stroke-width="1.5"/>
+<path d="M256 96l8-13 8 13Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1"/><path d="M250 106H278M250 114H272" stroke="#A3A8CC" stroke-width="2"/></g>
+<rect x="244" y="152" width="40" height="8" rx="2" fill="#2B2F4A"/>
+</svg>

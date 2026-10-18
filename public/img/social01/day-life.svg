@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A neighbourhood with a house, a school, a shop, a power line and a road</title>
+<style>
+.bus{animation:drive 7s linear infinite}
+@keyframes drive{from{transform:translateX(-130px)}to{transform:translateX(430px)}}
+.spark{animation:blink 1.4s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:.15}50%{opacity:1}}
+.kid{animation:hop 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.cl{animation:drift 6s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V204H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="40" cy="40" r="18" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<g class="cl"><path d="M210 50Q208 36 222 36Q230 26 244 32Q258 28 262 42Q274 44 270 54Z" fill="#fff" stroke="#A9C7DE" stroke-width="2"/></g>
+<rect x="0" y="200" width="400" height="32" fill="#A9D98E"/>
+<path d="M0 230H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#7A7F96"/>
+<path d="M8 264H392" stroke="#FFF9EE" stroke-width="3" stroke-dasharray="16 12"/>
+<rect x="22" y="140" width="70" height="60" fill="#FFD9B0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M14 142L57 104L100 142Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="48" y="168" width="18" height="32" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="28" y="152" width="14" height="14" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="72" y="152" width="14" height="14" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="112" y="120" width="104" height="80" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="146" y="96" width="36" height="24" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M140 98L164 78L188 98Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="164" cy="108" r="8" fill="#fff" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M164 103V108L168 110" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" fill="none"/>
+<g fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2">
+<rect x="120" y="130" width="18" height="16"/><rect x="190" y="130" width="18" height="16"/>
+<rect x="120" y="160" width="18" height="16"/><rect x="190" y="160" width="18" height="16"/>
+</g>
+<rect x="152" y="160" width="24" height="40" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<g class="kid"><circle cx="226" cy="186" r="5" fill="#8A5A3C"/><rect x="221" y="191" width="10" height="11" rx="3" fill="#0B93D4"/><rect x="229" y="192" width="5" height="8" rx="1.5" fill="#E5484D"/></g>
+<rect x="236" y="150" width="62" height="50" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M230 150L240 132H294L304 150Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M252 132L248 150M267 132L267 150M282 132L286 150" stroke="#fff" stroke-width="4"/>
+<rect x="240" y="176" width="54" height="24" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="252" cy="172" r="5" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="264" cy="172" r="5" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="276" cy="172" r="5" fill="#3FA34D" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="288" cy="172" r="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M290 150V122" stroke="#6E7396" stroke-width="3" stroke-linecap="round"/>
+<g fill="none" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M322 200L332 70L342 200"/><path d="M325 160H339M327 130H337M329 100H335M323 180L341 160L325 140L339 120L327 100"/>
+<path d="M314 84H350M318 100H346"/>
+</g>
+<path d="M314 84Q300 104 290 122M350 84Q376 92 400 88M346 100Q372 110 400 106" fill="none" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle class="spark" cx="372" cy="92" r="3.5" fill="#F6C453"/>
+<circle class="spark" cx="302" cy="104" r="3.5" fill="#F6C453" style="animation-delay:.7s"/>
+<g class="bus">
+<rect x="0" y="236" width="70" height="26" rx="6" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="8" y="241" width="12" height="9" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/><rect x="26" y="241" width="12" height="9" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/><rect x="44" y="241" width="12" height="9" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="16" cy="263" r="6" fill="#2B2F4A"/><circle cx="54" cy="263" r="6" fill="#2B2F4A"/>
+</g>
+</svg>

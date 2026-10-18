@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A pyramid divided into four unlabelled horizontal levels, with numbered markers</title>
+<style>
+.gl{animation:gl 3s ease-in-out infinite}
+@keyframes gl{0%,100%{opacity:0}50%{opacity:.8}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 280H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#D9C49A"/>
+<path d="M200 30L245 100H155Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M155 100H245L280 160H120Z" fill="#F3B3A0" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M120 160H280L316 220H84Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M84 220H316L352 280H48Z" fill="#C9E6B8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<path class="gl" d="M200 18l3 6l6 3l-6 3l-3 6l-3-6l-6-3l6-3z" fill="#E0A92E"/>
+</svg>

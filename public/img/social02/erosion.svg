@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A hillside with a forested half and a bare half above a river with a house on its bank</title>
+<style>
+.rn{animation:rn .9s linear infinite}@keyframes rn{from{transform:translateY(-10px)}to{transform:translateY(14px)}}
+.md{stroke-dasharray:8 8;animation:md 1s linear infinite}@keyframes md{to{stroke-dashoffset:-32}}
+.du{animation:du 3s ease-out infinite}.du2{animation-delay:1.5s}@keyframes du{from{transform:translate(0,0);opacity:.9}to{transform:translate(50px,-12px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V110H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 100Q100 50 200 70V240H0Z" fill="#9BD08A"/>
+<path d="M200 70Q300 90 360 170L400 186V240H200Z" fill="#D9A86C"/>
+<path d="M0 100Q100 50 200 70Q300 90 360 170L400 186" fill="none" stroke="#7A5230" stroke-width="2.5"/>
+<g transform="translate(40 92) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(80 76) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(120 70) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(160 68) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(70 130) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(130 120) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(170 150) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(40 170) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(110 190) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g>
+<g fill="#8A5A34"><rect x="226" y="68" width="7" height="8"/><rect x="262" y="78" width="7" height="8"/><rect x="300" y="104" width="7" height="8"/></g>
+<g fill="none" stroke="#9C6A38" stroke-width="3" stroke-linecap="round"><path d="M240 84Q250 130 236 200"/><path d="M282 98Q296 140 288 204"/><path d="M322 128Q334 160 330 206"/></g>
+<g class="md" fill="none" stroke="#A8783E" stroke-width="3" stroke-linecap="round"><path d="M240 84Q250 130 236 200"/><path d="M282 98Q296 140 288 204"/></g>
+<path d="M0 222C120 212 260 230 400 218" fill="none" stroke="#8FB8D8" stroke-width="16"/>
+<g fill="#A8783E" opacity=".7"><ellipse cx="240" cy="220" rx="18" ry="5"/><ellipse cx="292" cy="221" rx="16" ry="5"/></g>
+<g transform="rotate(10 350 196)"><g transform="translate(350 204) scale(1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g></g>
+<g class="rn" stroke="#0B93D4" stroke-width="2" stroke-linecap="round"><path d="M220 20l-4 10M250 30l-4 10M280 18l-4 10M310 34l-4 10M340 22l-4 10M370 36l-4 10"/></g>
+<g fill="#C9A06A"><circle class="du" cx="330" cy="140" r="6"/><circle class="du du2" cx="345" cy="150" r="5"/></g>
+</svg>

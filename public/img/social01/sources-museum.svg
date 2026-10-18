@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A museum gallery with a bundle of palm leaves, a clay bull, a carved stone pillar, a coin in a case and an earthen pot</title>
+<style>
+.glow{animation:glow 3s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:.55}}
+.shine{animation:shine 2.6s ease-in-out infinite}
+@keyframes shine{0%,100%{opacity:0}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V262H0V16Q0 0 16 0Z" fill="#F3E3C7"/>
+<path d="M0 262H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#C8925A"/>
+<g class="glow" fill="#FFF6D6"><path d="M80 0L40 108H120Z"/><path d="M200 0L160 100H240Z"/><path d="M322 0L282 70H362Z"/></g>
+<rect x="18" y="150" width="252" height="9" rx="3" fill="#A9774A" stroke="#7A5230" stroke-width="2"/>
+<g stroke="#8B6A47" stroke-width="2">
+<rect x="30" y="112" width="100" height="9" rx="4" fill="#E9CF8E"/>
+<rect x="28" y="122" width="104" height="9" rx="4" fill="#E2C47E"/>
+<rect x="30" y="132" width="100" height="9" rx="4" fill="#E9CF8E"/>
+<rect x="32" y="142" width="96" height="8" rx="4" fill="#DDBB72"/>
+</g>
+<g fill="none" stroke="#7A5230" stroke-width="1.2" stroke-linecap="round">
+<path d="M48 116h8m4 0h10m4 0h6m22 0h10m4 0h8M48 126h12m4 0h6m4 0h10m18 0h8m4 0h12M48 136h6m4 0h12m4 0h8m20 0h12m4 0h6"/>
+</g>
+<path d="M66 108V152M98 108V152" stroke="#B5463A" stroke-width="2.5"/>
+<g stroke="#8B3F22" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M168 120Q170 104 192 104H222Q238 104 238 120V128H168Z" fill="#D4774A"/>
+<path d="M232 112Q246 104 248 94L240 98M236 108Q242 96 238 88" fill="none"/>
+<circle cx="242" cy="114" r="9" fill="#D4774A"/>
+<path d="M174 128V148M190 128V148M214 128V148M230 128V148" fill="none" stroke-width="5"/>
+<path d="M168 116Q158 118 160 130" fill="none"/>
+</g>
+<circle cx="245" cy="112" r="1.8" fill="#2B2F4A"/>
+<path d="M300 236V86Q300 70 322 70Q344 70 344 86V236Z" fill="#C7CBDD" stroke="#6E7396" stroke-width="2.5"/>
+<rect x="292" y="236" width="60" height="26" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/>
+<g stroke="#6E7396" stroke-width="2" stroke-linecap="round" fill="none">
+<path d="M308 96l4-6 4 6m4 0v-6h6M308 112h6m4-4v8m6-8l4 8M308 128l4 6 4-6m6 0h8M308 144v8h6m4-8l4 4-4 4m8-8v8M308 160h6m4 0l4 6m4-6h6M308 176l4-6 4 6m4-6v6h6M308 192h8m4-4v8m6-8h4M308 208l4 6 4-6m6 0v6h6"/>
+</g>
+<rect x="60" y="244" width="80" height="18" fill="#A9774A" stroke="#7A5230" stroke-width="2"/>
+<rect x="70" y="204" width="60" height="40" fill="#E6F5FD" fill-opacity=".7" stroke="#7FB6E0" stroke-width="2.5"/>
+<circle cx="100" cy="226" r="13" fill="#F6C453" stroke="#C8962E" stroke-width="2.5"/>
+<circle cx="100" cy="226" r="8" fill="none" stroke="#C8962E" stroke-width="1.5" stroke-dasharray="2 2"/>
+<path class="shine" d="M76 212L88 236M112 210L120 222" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<rect x="178" y="244" width="76" height="18" fill="#A9774A" stroke="#7A5230" stroke-width="2"/>
+<path d="M200 198H230L226 206Q248 220 238 236Q232 244 216 244Q200 244 194 236Q184 220 204 206Z" fill="#C8653A" stroke="#8B3F22" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M196 222Q215 228 236 222" fill="none" stroke="#F3C79A" stroke-width="2.5"/>
+<path d="M199 230Q215 235 233 230" fill="none" stroke="#8B3F22" stroke-width="1.5" stroke-dasharray="4 3"/>
+</svg>

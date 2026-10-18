@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" role="img">
+<title>Five tiles showing the agents of gradation</title>
+<style>
+.fl{stroke-dasharray:10 8;animation:fl 1.2s linear infinite}@keyframes fl{to{stroke-dashoffset:-36}}
+.gl{stroke-dasharray:6 10;animation:fl 4s linear infinite}
+.wv{animation:wv 1.8s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-8px)}}
+.dr{animation:dr 1.4s linear infinite}@keyframes dr{from{transform:translateY(0);opacity:1}to{transform:translateY(40px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="t3"><rect x="256" y="12" width="76" height="110" rx="12"/></clipPath></defs>
+<rect x="10" y="12" width="76" height="110" rx="12" fill="#B5DDA0" stroke="#2B2F4A" stroke-width="2"/><path d="M30 14C70 40 20 70 60 120" fill="none" stroke="#7CC4EC" stroke-width="14" stroke-linecap="round"/>
+<path class="fl" d="M30 14C70 40 20 70 60 120" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+<rect x="92" y="12" width="76" height="110" rx="12" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><path d="M94 110L130 24L166 110Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<path d="M118 52Q130 44 142 52L148 118H112Z" fill="#FFFFFF" stroke="#8CC8E8" stroke-width="2"/>
+<path class="gl" d="M124 60V116M136 60V116" stroke="#8CC8E8" stroke-width="2"/>
+<rect x="174" y="12" width="76" height="110" rx="12" fill="#FBEBC8" stroke="#2B2F4A" stroke-width="2"/><g fill="none" stroke="#C88A3A" stroke-width="3" stroke-linecap="round"><path class="fl" d="M182 46Q214 30 242 46"/><path class="fl" d="M182 70Q214 54 242 70"/></g>
+<path d="M176 120Q204 88 248 120Z" fill="#F2D49B"/>
+<rect x="256" y="12" width="76" height="110" rx="12" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><g clip-path="url(#t3)"><path d="M256 70H332V122H256Z" fill="#7CC4EC"/><path class="wv" d="M252 70Q270 48 286 64Q292 70 286 74Q306 64 340 70" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+<path d="M312 122V60L332 52V122Z" fill="#C8925A" stroke="#7A5230" stroke-width="2"/></g>
+<rect x="338" y="12" width="76" height="110" rx="12" fill="#DCD6C8" stroke="#2B2F4A" stroke-width="2"/><path d="M338 40H414M338 66H414" stroke="#B8B0A0" stroke-width="2"/>
+<ellipse cx="376" cy="100" rx="26" ry="12" fill="#6B5E54"/>
+<g class="dr" fill="#0B93D4"><path d="M362 26l-3 6a3 3 0 0 0 6 0z"/><path d="M384 34l-3 6a3 3 0 0 0 6 0z"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text x="48" y="142">Running water</text><text x="130" y="142">Glacier</text><text x="212" y="142">Wind</text><text x="294" y="142">Sea waves</text><text x="376" y="142">Groundwater</text></g>
+</svg>

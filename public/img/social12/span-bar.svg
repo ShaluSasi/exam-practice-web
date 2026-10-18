@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A long bar running between a start flag and an end flag with a dot travelling along it</title>
+<style>
+.fl{animation:fl 1.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:0 50%}
+@keyframes fl{to{transform:scaleX(.72)}}.run{animation:rn 5s ease-in-out infinite alternate}@keyframes rn{to{transform:translateX(320px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="40" y="92" width="320" height="22" rx="11" fill="#CDEBFA" stroke="#0B93D4" stroke-width="2.5"/>
+<g class="run"><circle cx="40" cy="103" r="9" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/></g>
+<path d="M40 92V52" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M40 52L60 58L40 64Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M360 92V52" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M360 52L380 58L360 64Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"><path d="M72 120V130"/><path d="M104 120V130"/><path d="M136 120V130"/><path d="M168 120V130"/><path d="M200 120V130"/><path d="M232 120V130"/><path d="M264 120V130"/><path d="M296 120V130"/><path d="M328 120V130"/></g>
+<text x="200" y="168" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="20" text-anchor="middle">? years</text>
+</svg>

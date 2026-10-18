@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>The same pair of school shoes this year and next year, with an upward arrow between them</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}.o2{stroke:#2B2F4A;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+.up{animation:up 2s ease-in-out infinite}@keyframes up{50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="16" y="60" width="160" height="210" rx="12" fill="#E3F2FD" class="o"/><rect x="224" y="60" width="160" height="210" rx="12" fill="#FFF3E0" class="o"/><text x="96" y="90" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >This year</text><text x="304" y="90" font-family="system-ui, sans-serif" font-weight="600" font-size="15" fill="#2B2F4A" text-anchor="middle" >Next year</text>
+<g transform="translate(96 190)"><path d="M-46 0V-26Q-46 -34 -38 -34H-14Q-6 -20 14 -16L40 -10Q50 -8 50 2V8H-46Z" fill="#2B2F4A" class="o"/><path d="M-46 8H50" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/><path d="M-20 -26L-10 -22M-16 -32L-4 -26" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/></g><g transform="translate(304 190)"><path d="M-46 0V-26Q-46 -34 -38 -34H-14Q-6 -20 14 -16L40 -10Q50 -8 50 2V8H-46Z" fill="#2B2F4A" class="o"/><path d="M-46 8H50" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/><path d="M-20 -26L-10 -22M-16 -32L-4 -26" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/></g><g transform="translate(96 238)"><path d="M-43 -13H34L43 0L34 13H-43Z" fill="#FFFFFF" class="o"/><circle cx="-35" cy="0" r="3" fill="#2B2F4A"/><text x="5" y="5" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="middle" >₹1,500</text></g><g transform="translate(304 238)"><path d="M-35 -13H26L35 0L26 13H-35Z" fill="#FFFFFF" class="o"/><circle cx="-27" cy="0" r="3" fill="#2B2F4A"/><text x="5" y="5" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A" text-anchor="middle" >₹ ?</text></g>
+<g class="up"><path d="M200 200V120" stroke="#E5484D" stroke-width="7" stroke-linecap="round"/><path d="M186 134L200 116L214 134" stroke="#E5484D" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="200" y="36" font-family="system-ui, sans-serif" font-weight="600" font-size="16" fill="#2B2F4A" text-anchor="middle" >Prices rise by 4% a year</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img">
+<title>An open account book, sacks of salt and rice, rolls of cloth, coins and a sailing ship at sea</title>
+<style>
+.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.rock{animation:rock 3s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom center}@keyframes rock{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+.wave{animation:wave 3s ease-in-out infinite}@keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(-8px)}}
+.pe{animation:pe 2.4s ease-in-out infinite}@keyframes pe{0%,100%{transform:translate(0,0)}50%{transform:translate(-6px,4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M210 150Q285 142 360 150V194Q360 210 344 210H210Z" fill="#CDEBFA"/>
+<path class="wave" d="M214 166Q228 160 242 166T270 166T298 166T326 166T354 166" stroke="#0B93D4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<g class="rock"><path d="M250 150H330L318 168H262Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M290 150V96" stroke="#2B2F4A" stroke-width="2.5"/><path d="M292 98Q324 122 292 146Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M288 104Q262 124 288 146Z" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2"/></g>
+<g transform="translate(86 74)"><path d="M-62 -34Q-30 -42 0 -32Q30 -42 62 -34V34Q30 26 0 36Q-30 26 -62 34Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M0 -32V36" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-52 -18H-10M-52 -6H-10M-52 6H-10M-52 18H-22M10 -18H52M10 -6H52M10 6H40M10 18H52" stroke="#A3A8CC" stroke-width="2" stroke-linecap="round"/><path d="M-30 -24V26M30 -24V26" stroke="#F9D7D8" stroke-width="1.5"/></g>
+<g class="pe"><path d="M136 88L160 56L166 61L142 93Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="1.8" stroke-linejoin="round"/></g>
+<g><path d="M26 146Q18 192 46 192Q74 192 66 146Q46 138 26 146Z" fill="#F1EEE6" stroke="#2B2F4A" stroke-width="2"/><path d="M34 146H58" stroke="#A86E3C" stroke-width="3"/><g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="46" y="176" font-size="12" text-anchor="middle">Salt</text></g></g><g><path d="M92 146Q84 192 112 192Q140 192 132 146Q112 138 92 146Z" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2"/><path d="M100 146H124" stroke="#A86E3C" stroke-width="3"/><g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="112" y="176" font-size="12" text-anchor="middle">Rice</text></g></g>
+<g><rect x="150" y="150" width="50" height="16" rx="8" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><rect x="150" y="168" width="50" height="16" rx="8" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><rect x="150" y="186" width="50" height="16" rx="8" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2"/></g>
+<g class="bob"><g transform="translate(196 40) scale(1.2)"><circle r="9" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><text y="4" font-size="11" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹</text></g><g transform="translate(222 52) scale(1.2)"><circle r="9" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><text y="4" font-size="11" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹</text></g><g transform="translate(204 66) scale(1.2)"><circle r="9" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><text y="4" font-size="11" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹</text></g></g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 210" role="img">
+<title>A state legislature with two houses side by side</title>
+<style>
+.cloud{animation:drift 8s ease-in-out infinite}
+@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(24px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H344V170H16Z" fill="#E3F2FD"/>
+<g class="cloud" fill="#FFFFFF"><circle cx="60" cy="40" r="12"/><circle cx="76" cy="36" r="15"/><circle cx="92" cy="42" r="11"/></g>
+<path d="M0 166H360V194Q360 210 344 210H16Q0 210 0 194Z" fill="#9ED6A4"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M30 156H150V166H30Z" fill="#D9C49A"/>
+<path d="M38 156V98H142V156Z" fill="#E4E0F7"/>
+<path d="M42 98A48 30 0 0 1 138 98Z" fill="#C7BFF0"/>
+<path d="M52 106V150M68 106V150M84 106V150M100 106V150M116 106V150M130 106V150" stroke-width="3" stroke-linecap="round"/>
+<path d="M190 156H340V166H190Z" fill="#D9C49A"/>
+<path d="M198 156V84H332V156Z" fill="#FDE3C8"/>
+<path d="M202 84A63 40 0 0 1 328 84Z" fill="#FFB877"/>
+<path d="M212 92V150M228 92V150M244 92V150M260 92V150M276 92V150M292 92V150M308 92V150M322 92V150" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 136H190" stroke-dasharray="5 4"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="90" y="186">Upper House</text>
+<text x="265" y="186">Lower House</text>
+</g>
+</svg>

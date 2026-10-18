@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A growing city with solar roofs, a wind turbine, an elevated train and a network of connected phones</title>
+<style>
+.blade{animation:spin 3s linear infinite;transform-box:view-box;transform-origin:330px 70px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.train{animation:run 5s linear infinite}
+@keyframes run{from{transform:translateX(-130px)}to{transform:translateX(420px)}}
+.node{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<g stroke="#A3A8CC" stroke-width="2"><path d="M40 40L100 24L150 50L100 24M40 40L150 50"/></g>
+<g class="node" fill="#FF8A1F"><circle cx="40" cy="40" r="6"/></g><g class="node" fill="#0B93D4" style="animation-delay:.6s"><circle cx="100" cy="24" r="6"/></g><g class="node" fill="#3FA34D" style="animation-delay:1.2s"><circle cx="150" cy="50" r="6"/></g>
+<path d="M330 70V196" stroke="#A3A8CC" stroke-width="5" stroke-linecap="round"/>
+<g class="blade" fill="#FFFFFF" stroke="#6E7396" stroke-width="2"><path d="M330 70L326 24Q330 18 334 24Z"/><path d="M330 70L370 92Q372 100 364 98Z"/><path d="M330 70L290 92Q286 98 294 98Z"/></g>
+<circle cx="330" cy="70" r="5" fill="#6E7396"/>
+<g stroke="#6E7396" stroke-width="2"><rect x="30" y="90" width="50" height="110" fill="#C7CBDD"/><rect x="90" y="70" width="56" height="130" fill="#CDEBFA"/><rect x="156" y="110" width="48" height="90" fill="#FFD9B0"/><rect x="214" y="96" width="50" height="104" fill="#C7CBDD"/></g>
+<g fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.5"><path d="M32 90L44 80H78L80 90Z"/><path d="M158 110L170 100H200L202 110Z"/><path d="M92 70L104 60H140L144 70Z"/></g>
+<g fill="#FFF3C4"><rect x="40" y="104" width="10" height="10"/><rect x="60" y="130" width="10" height="10"/><rect x="100" y="84" width="10" height="10"/><rect x="124" y="110" width="10" height="10"/><rect x="166" y="124" width="10" height="10"/><rect x="224" y="110" width="10" height="10"/><rect x="244" y="140" width="10" height="10"/></g>
+<path d="M0 160H400" stroke="#6E7396" stroke-width="5"/>
+<path d="M60 160V200M200 160V200M340 160V200" stroke="#6E7396" stroke-width="4"/>
+<g class="train"><rect x="0" y="140" width="110" height="18" rx="9" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2"/><g fill="#CDEBFA"><rect x="14" y="144" width="14" height="8"/><rect x="40" y="144" width="14" height="8"/><rect x="66" y="144" width="14" height="8"/></g></g>
+<path d="M0 198H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E"/>
+<g stroke="#2B2F4A" stroke-width="2"><circle cx="120" cy="214" r="8" fill="#8A5A3C"/><path d="M108 252Q108 224 120 224Q132 224 132 252Z" fill="#FF8A1F"/>
+<rect x="132" y="222" width="12" height="20" rx="2" fill="#2B2F4A"/></g>
+<rect x="134" y="225" width="8" height="13" fill="#5FB4E6"/>
+</svg>

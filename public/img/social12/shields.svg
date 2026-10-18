@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Five shields in different colours with invented patterns</title>
+<style>
+.bob{animation:bob 3s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="200" width="400" height="40" fill="#D9C49A"/><g class="bob" style="animation-delay:-0s"><path d="M20 70Q48 58 76 70V120Q74 160 48 176Q22 160 20 120Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><circle cx="48" cy="114" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><circle cx="48" cy="114" r="4" fill="#E5484D"/></g><g class="bob" style="animation-delay:-0.5s"><path d="M96 70Q124 58 152 70V120Q150 160 124 176Q98 160 96 120Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><circle cx="124" cy="114" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><path d="M118 114H130M124 108V120" stroke="#2B2F4A" stroke-width="2.5"/></g><g class="bob" style="animation-delay:-1s"><path d="M172 70Q200 58 228 70V120Q226 160 200 176Q174 160 172 120Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><circle cx="200" cy="114" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><circle cx="200" cy="114" r="4" fill="#3FA34D"/></g><g class="bob" style="animation-delay:-1.5s"><path d="M248 70Q276 58 304 70V120Q302 160 276 176Q250 160 248 120Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><circle cx="276" cy="114" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><path d="M270 114H282M276 108V120" stroke="#2B2F4A" stroke-width="2.5"/></g><g class="bob" style="animation-delay:-2s"><path d="M324 70Q352 58 380 70V120Q378 160 352 176Q326 160 324 120Z" fill="#9B6BD3" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><circle cx="352" cy="114" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><circle cx="352" cy="114" r="4" fill="#9B6BD3"/></g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" role="img">
+<title>Three imaginary countries: a ballot with three choices, a ballot with one choice, and a crown with no ballot</title>
+<style>
+.tick{animation:t 2.4s ease-in-out infinite}
+@keyframes t{0%,100%{opacity:.2}50%{opacity:1}}
+.cr{animation:cr 3s ease-in-out infinite}
+@keyframes cr{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="12" y="12" width="124" height="196" rx="10" fill="#FFFFFF"/><rect x="148" y="12" width="124" height="196" rx="10" fill="#FFFFFF"/><rect x="284" y="12" width="124" height="196" rx="10" fill="#FFFFFF"/></g>
+<g font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="74" y="36">Country A</text><text x="210" y="36">Country B</text><text x="346" y="36">Country C</text></g>
+<g stroke="#2B2F4A" stroke-width="2">
+<rect x="34" y="52" width="80" height="130" rx="4" fill="#F3F3F7"/>
+<rect x="170" y="52" width="80" height="130" rx="4" fill="#F3F3F7"/>
+<path d="M42 92H106M42 132H106M178 92H242" stroke="#A3A8CC"/>
+<path d="M58 62l3.5 7 7.5 1-5.5 5 1.5 7.5L58 79l-7 3.5 1.5-7.5-5.5-5 7.5-1Z" fill="#FF8A1F" stroke-width="1"/>
+<circle cx="58" cy="112" r="9" fill="#0B93D4" stroke-width="1"/>
+<path d="M58 143l9 16H49Z" fill="#3FA34D" stroke-width="1"/>
+<circle cx="94" cy="72" r="7" fill="#FFFFFF"/><circle cx="94" cy="112" r="7" fill="#FFFFFF"/><circle cx="94" cy="152" r="7" fill="#FFFFFF"/>
+<rect x="185" y="62" width="18" height="18" fill="#8E7FD6" stroke-width="1"/><circle cx="230" cy="72" r="7" fill="#FFFFFF"/>
+</g>
+<path class="tick" d="M90 112l3 3 6-6" fill="none" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M190 112H230M190 132H230M190 152H230" stroke="#E6E3D8" stroke-width="2" stroke-dasharray="4 4"/>
+<g class="cr"><path d="M310 110L316 76L332 96L346 70L360 96L376 76L382 110Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="310" y="108" width="72" height="12" rx="3" fill="#E9A92E" stroke="#2B2F4A" stroke-width="2"/></g>
+<rect x="322" y="146" width="48" height="36" rx="4" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M314 140L378 190M378 140L314 190" stroke="#E5484D" stroke-width="5" stroke-linecap="round"/>
+</svg>

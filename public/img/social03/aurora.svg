@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>Glowing green and pink curtains of light rippling in a night sky over a snowy land</title>
+<style>
+.au1{animation:w1 5s ease-in-out infinite alternate}.au2{animation:w2 4s ease-in-out infinite alternate}
+@keyframes w1{from{transform:translateX(-10px);opacity:.6}to{transform:translateX(10px);opacity:1}}@keyframes w2{from{transform:translateX(12px);opacity:1}to{transform:translateX(-12px);opacity:.5}}
+.st{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<rect width="360" height="220" rx="16" fill="#1F2347"/>
+<g class="st" fill="#FFFFFF"><circle cx="30" cy="20" r="1.6"/><circle cx="90" cy="40" r="1.3"/><circle cx="150" cy="16" r="1.6"/><circle cx="220" cy="30" r="1.3"/><circle cx="300" cy="18" r="1.6"/><circle cx="335" cy="50" r="1.3"/></g>
+<g class="au1"><path d="M-10 120Q40 40 90 100T190 90T290 80T380 100V60Q330 20 280 50T180 50T80 50T-10 70Z" fill="#5BE39A" opacity=".55"/></g>
+<g class="au2"><path d="M-10 140Q60 90 120 130T240 110T380 130V100Q320 70 250 90T130 90T-10 110Z" fill="#E58AD8" opacity=".45"/></g>
+<path d="M0 170Q90 150 180 166T360 160V204Q360 220 344 220H16Q0 220 0 204Z" fill="#F3F7FB" stroke="#B9C7D8" stroke-width="2"/>
+<g fill="#2D5A3D" stroke="#1E3D29" stroke-width="1.5" stroke-linejoin="round"><path d="M60 176L72 140L84 176Z"/><path d="M80 178L90 150L100 178Z"/><path d="M270 172L284 132L298 172Z"/><path d="M296 174L306 148L316 174Z"/></g>
+</svg>

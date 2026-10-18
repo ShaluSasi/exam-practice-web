@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A turning wheel lifting water in pots into a channel that waters fields, beside a well with a rope pulley and bucket</title>
+<style>
+.spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}.sway{animation:sw 4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}.pulse{animation:pu 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}.bucket{animation:bk 2.5s ease-in-out infinite alternate}@keyframes bk{from{transform:translateY(0)}to{transform:translateY(-14px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/><g class="pulse"><circle cx="360" cy="36" r="13" fill="#F6C453" stroke="#E0A526" stroke-width="2.5"/></g><path d="M0 150H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CFE8B8"/>
+<rect x="60" y="150" width="90" height="80" fill="#7FC4E8" stroke="#3E9BD0" stroke-width="2.5"/>
+<g stroke="#7A5230" stroke-width="4" stroke-linecap="round"><path d="M70 150L105 40L140 150" fill="none"/></g>
+<g class="spin"><circle cx="105" cy="110" r="52" fill="none" stroke="#A8743F" stroke-width="5"/><path d="M53 110H157M105 58V162M68 73L142 147M142 73L68 147" stroke="#A8743F" stroke-width="3"/>
+<rect x="151.0" y="104.0" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="141.1" y="134.6" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="115.1" y="153.5" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="82.9" y="153.5" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="56.9" y="134.6" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="47.0" y="104.0" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="56.9" y="73.4" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="82.9" y="54.5" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="115.1" y="54.5" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/><rect x="141.1" y="73.4" width="12" height="12" rx="4" fill="#E07B4A" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<circle cx="105" cy="110" r="7" fill="#7A5230" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M150 160H230" stroke="#7FC4E8" stroke-width="8"/><path d="M230 160V220M230 186H390M230 214H390" stroke="#7FC4E8" stroke-width="5"/>
+<g stroke="#3FA34D" stroke-width="3" stroke-linecap="round" class="sway"><path d="M246 182V168M246 210V196"/><path d="M260 182V168M260 210V196"/><path d="M274 182V168M274 210V196"/><path d="M288 182V168M288 210V196"/><path d="M302 182V168M302 210V196"/><path d="M316 182V168M316 210V196"/><path d="M330 182V168M330 210V196"/><path d="M344 182V168M344 210V196"/><path d="M358 182V168M358 210V196"/><path d="M372 182V168M372 210V196"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5"><ellipse cx="320" cy="140" rx="22" ry="7" fill="#7FC4E8"/><path d="M298 140V126H342V140" fill="#C9B79A"/></g>
+<g stroke="#7A5230" stroke-width="3.5"><path d="M300 126V80H340V126" fill="none"/></g><circle cx="320" cy="82" r="6" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<g class="bucket"><path d="M320 88V110" stroke="#7A5230" stroke-width="2"/><path d="M312 110H328L326 124H314Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/></g>
+</svg>

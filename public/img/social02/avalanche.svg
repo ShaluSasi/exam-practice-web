@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A steep snowy mountain slope on a sunny day with a large mass of snow breaking away</title>
+<style>
+.sl{animation:sl 3.5s ease-in infinite}@keyframes sl{0%,15%{transform:translate(0,0);opacity:1}90%{transform:translate(120px,100px);opacity:.9}100%{transform:translate(130px,108px);opacity:0}}
+.th{animation:th 3.5s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}@keyframes th{0%{transform:scaleY(.4)}60%,100%{transform:scaleY(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V260H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="340" cy="44" r="22" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 40L60 20L120 60L300 220L400 236V260H0Z" fill="#FFFFFF" stroke="#A3A8CC" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M60 20L120 60L300 220" fill="none" stroke="#CFE3F2" stroke-width="6"/>
+<path d="M96 46L112 66L104 76L120 92" fill="none" stroke="#6E7396" stroke-width="2.5"/>
+<g class="sl"><path d="M110 70L150 100L140 116L100 90Z" fill="#E8F6FF" stroke="#8CC8E8" stroke-width="2"/><circle cx="160" cy="112" r="6" fill="#FFFFFF" stroke="#8CC8E8"/><circle cx="96" cy="96" r="5" fill="#FFFFFF" stroke="#8CC8E8"/></g>
+<g><g transform="translate(320 236) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#2E7D4F" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(350 240) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#2E7D4F" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(380 244) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g></g>
+<g transform="translate(270 40)"><rect x="-6" y="0" width="12" height="60" rx="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><circle cy="66" r="10" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><rect class="th" x="-2.5" y="14" width="5" height="50" fill="#E5484D"/></g>
+</svg>

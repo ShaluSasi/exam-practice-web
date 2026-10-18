@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Four elected bodies in India and a crowd of voters</title>
+<style>
+.hand{animation:wave 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom center}
+@keyframes wave{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M17 140H93V150H17Z" fill="#D9C49A"/>
+<path d="M22 140V104H88V140Z" fill="#CDEBFA"/>
+<path d="M24 104A31 31 0 0 1 86 104Z" fill="#9FD3F0"/>
+<path d="M32 112V136M44 112V136M56 112V136M68 112V136M80 112V136" stroke-width="3" stroke-linecap="round"/>
+<path d="M114 140H186V150H114Z" fill="#D9C49A"/>
+<path d="M118 140V96H182V140Z" fill="#FDE3C8"/>
+<path d="M114 96L150 72L186 96Z" fill="#FFB877"/>
+<rect x="141" y="114" width="18" height="26" rx="8" fill="#FFF"/>
+<rect x="124" y="104" width="12" height="12" fill="#FFF"/><rect x="164" y="104" width="12" height="12" fill="#FFF"/>
+<path d="M212 140H288V150H212Z" fill="#D9C49A"/>
+<path d="M217 140V100H283V140Z" fill="#E4E0F7"/>
+<path d="M219 100A31 26 0 0 1 281 100Z" fill="#C7BFF0"/>
+<path d="M227 108V136M239 108V136M251 108V136M263 108V136M275 108V136" stroke-width="3" stroke-linecap="round"/>
+<path d="M310 140H380V150H310Z" fill="#D9C49A"/>
+<path d="M316 140V108H374V140Z" fill="#D8F0D9"/>
+<path d="M310 108L345 84L380 108Z" fill="#9ED6A4"/>
+<rect x="337" y="118" width="16" height="22" rx="3" fill="#FFF"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="55" y="170">Lok Sabha</text>
+<text x="150" y="170">Vidhan Sabha</text>
+<text x="250" y="170">Rajya Sabha</text>
+<text x="345" y="170">Panchayat</text>
+</g>
+<path d="M0 196H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#F3E3C3"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="60" cy="204" r="9" fill="#E8B48C"/><path d="M48 230Q48 216 60 216Q72 216 72 230Z" fill="#FF8A1F"/>
+<circle cx="110" cy="206" r="9" fill="#C58C64"/><path d="M98 232Q98 218 110 218Q122 218 122 232Z" fill="#3FA34D"/>
+<circle cx="160" cy="204" r="9" fill="#E8B48C"/><path d="M148 230Q148 216 160 216Q172 216 172 230Z" fill="#0B93D4"/>
+<circle cx="240" cy="206" r="9" fill="#C58C64"/><path d="M228 232Q228 218 240 218Q252 218 252 232Z" fill="#E5484D"/>
+<circle cx="290" cy="204" r="9" fill="#E8B48C"/><path d="M278 230Q278 216 290 216Q302 216 302 230Z" fill="#5B4FA8"/>
+<circle cx="340" cy="206" r="9" fill="#C58C64"/><path d="M328 232Q328 218 340 218Q352 218 352 232Z" fill="#F6C453"/>
+</g>
+<g class="hand"><path d="M200 222V196" stroke="#E8B48C" stroke-width="7" stroke-linecap="round"/><path d="M200 197V190" stroke="#5B4FA8" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" role="img">
+<title>A top view of the sea beside a straight stretch of coast, divided into bands by distance from the baseline</title>
+<style>
+.sh{animation:sh 6s linear infinite}@keyframes sh{from{transform:translateX(0)}to{transform:translateX(-90px)}}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="30" y="40" width="50" height="240" fill="#7CC4EA"/><rect x="80" y="40" width="70" height="240" fill="#9FD3F0"/><rect x="150" y="40" width="65" height="240" fill="#B9E1F6"/><rect x="215" y="40" width="215" height="240" fill="#D3ECFA"/>
+<path d="M430 40H560V264Q560 280 544 280H430Z" fill="#EAF6FD"/>
+<path d="M150 40V280M215 40V280M430 40V280" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M0 40H70V110Q40 114 40 150Q40 186 70 190V280H16Q0 280 0 264Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(24 96) scale(0.8)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g><g transform="translate(20 230) scale(0.8)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g>
+<path d="M80 40V280" stroke="#2B2F4A" stroke-width="3.5"/>
+<text x="80" y="28" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Baseline</text><path d="M80 34V40" stroke="#2B2F4A" stroke-width="2"/><text x="150" y="28" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">12 NM</text><path d="M150 34V40" stroke="#2B2F4A" stroke-width="2"/><text x="215" y="28" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">24 NM</text><path d="M215 34V40" stroke="#2B2F4A" stroke-width="2"/><text x="430" y="28" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">200 NM</text><path d="M430 34V40" stroke="#2B2F4A" stroke-width="2"/>
+<g class="sh"><g transform="translate(400 82)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-26 0H26L34 -8V-12H-34V-8Z" fill="#E5484D"/><rect x="-18" y="-22" width="12" height="10" fill="#F6C453"/><rect x="-4" y="-22" width="12" height="10" fill="#0B93D4"/><rect x="12" y="-26" width="8" height="14" fill="#FFFFFF"/></g></g>
+<g class="bob"><g transform="translate(300 238) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-18 -6H18L12 4H-12Z" fill="#3FA34D"/><path d="M0 -6V-30L14 -10Z" fill="#FFFFFF"/><path d="M0 -6V-30" fill="none"/></g></g>
+<text x="550" y="272" text-anchor="end" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Not to scale</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img">
+<title>Two cold, high-latitude coasts side by side, labelled Coast X and Coast Y</title>
+<style>
+@keyframes fl{to{stroke-dashoffset:-40}}.fl{stroke-dasharray:14 6;animation:fl 1.6s linear infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}.ib{animation:ib 3s ease-in-out infinite}@keyframes ib{50%{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><marker id="E5484D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#E5484D"/></marker><marker id="0B93D4" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#0B93D4"/></marker></defs>
+<rect x="10" y="10" width="226" height="220" rx="12" fill="#9FD3F0"/><rect x="244" y="10" width="226" height="220" rx="12" fill="#C9E6F5"/>
+<path d="M10 22Q10 10 22 10H96Q80 60 92 110Q102 160 80 230H22Q10 230 10 218Z" fill="#9CCB7A" stroke="#4E8A3A" stroke-width="2.5"/>
+<path d="M244 22Q244 10 256 10H330Q314 60 326 110Q336 160 314 230H256Q244 230 244 218Z" fill="#E8F1F5" stroke="#8FA6B2" stroke-width="2.5"/>
+<g transform="translate(48 70) scale(1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(52 150) scale(1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#0B93D4"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(30 110) scale(0.8)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g>
+<path d="M276 70L290 58L304 70Z M270 150L286 136L302 150Z" fill="#FFFFFF" stroke="#8FA6B2" stroke-width="2"/>
+<path class="fl" d="M190 220V40" stroke="#E5484D" stroke-width="7" stroke-linecap="round" fill="none" marker-end="url(#E5484D)"/>
+<path class="fl" d="M424 30V210" stroke="#0B93D4" stroke-width="7" stroke-linecap="round" fill="none" marker-end="url(#0B93D4)"/>
+<g class="bob"><g transform="translate(140 90) scale(0.9)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-18 -6H18L12 4H-12Z" fill="#FF8A1F"/><path d="M0 -6V-30L14 -10Z" fill="#FFFFFF"/><path d="M0 -6V-30" fill="none"/></g><g transform="translate(130 180) scale(0.9)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-18 -6H18L12 4H-12Z" fill="#E5484D"/><path d="M0 -6V-30L14 -10Z" fill="#FFFFFF"/><path d="M0 -6V-30" fill="none"/></g></g>
+<path d="M330 40H380L384 56H326Z M332 120H366L372 132H330Z" fill="#FFFFFF" stroke="#8FA6B2" stroke-width="2" stroke-linejoin="round"/>
+<g class="ib"><path d="M360 200L374 160L384 170L396 150L408 200Z" fill="#FFFFFF" stroke="#7FA9C4" stroke-width="2.5" stroke-linejoin="round"/></g>
+<g class="ib" style="animation-delay:1.2s"><path d="M350 96L360 74L372 96Z" fill="#FFFFFF" stroke="#7FA9C4" stroke-width="2.5" stroke-linejoin="round"/></g>
+<rect x="104" y="16" width="76" height="22" rx="11" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.5"/><text x="142" y="32" text-anchor="middle" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Coast X</text>
+<rect x="338" y="208" width="76" height="22" rx="11" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.5"/><text x="376" y="224" text-anchor="middle" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Coast Y</text>
+</svg>

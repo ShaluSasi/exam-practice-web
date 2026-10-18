@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A fort spread over three rocky hills joined by long walls, with a citadel on the tallest hill and a gateway at the base</title>
+<style>
+.drift{animation:dr 6s ease-in-out infinite alternate}
+@keyframes dr{to{transform:translateX(24px)}}.fl{animation:fl 1.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:0 50%}
+@keyframes fl{to{transform:scaleX(.72)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/><g class="drift"><g transform="translate(330 34) scale(0.8)" fill="#FFFFFF" stroke="#C9D6E8" stroke-width="2"><path d="M-30 8Q-34 -6 -20 -8Q-16 -22 0 -18Q12 -26 20 -12Q34 -12 30 8Z"/></g></g>
+<path d="M0 240V200H400V240Z" fill="#9BD08C"/>
+<path d="M20 204L90 120L160 204Z" fill="#B49A7A" stroke="#6E583C" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M130 204L200 50L270 204Z" fill="#A58B67" stroke="#6E583C" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M240 204L310 110L380 204Z" fill="#B49A7A" stroke="#6E583C" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M90 124L144 168L200 60L256 168L310 114" stroke="#C8925A" stroke-width="6" fill="none" stroke-linejoin="round"/>
+<path d="M20 200H380" stroke="#C8925A" stroke-width="8"/>
+<g stroke="#2B2F4A" stroke-width="2.2" stroke-linejoin="round"><rect x="184" y="38" width="32" height="24" fill="#E3C08A"/><rect x="80" y="110" width="20" height="16" fill="#E3C08A"/><rect x="300" y="100" width="20" height="16" fill="#E3C08A"/>
+<rect x="186" y="176" width="28" height="28" fill="#D9A76A"/><path d="M194 204V190Q200 184 206 190V204Z" fill="#6B4527"/></g>
+<path d="M200 38V18" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M200 18L220 24L200 30Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+</svg>

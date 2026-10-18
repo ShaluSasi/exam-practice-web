@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>One slab of the Earth's outer layer carrying land on one side and sea on the other, with thickness markings</title>
+<style>
+.pl{animation:pl 3s ease-in-out infinite alternate}@keyframes pl{to{transform:translateX(6px)}}
+.fl{stroke-dasharray:14 12;animation:fl 2s linear infinite}@keyframes fl{to{stroke-dashoffset:-52}}
+.wv{animation:wv 2.5s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 204H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#F4A261" />
+<path class="fl" d="M20 222H140M200 230H360" stroke="#FFC48A" stroke-width="3" stroke-linecap="round"/>
+<g class="pl">
+<path d="M196 84H372V168H214Q208 110 196 84Z" fill="#9FD3F0"/>
+<path class="wv" d="M200 84L204 86.0L208 84.7L212 82.3L216 82.7L220 85.3L224 85.7L228 83.3L232 82.0L236 84.0L240 86.0L244 84.7L248 82.3L252 82.7L256 85.3L260 85.7L264 83.3L268 82.0L272 84.0L276 86.0L280 84.7L284 82.3L288 82.7L292 85.3L296 85.7L300 83.3L304 82.0L308 84.0L312 86.0L316 84.7L320 82.3L324 82.7L328 85.3L332 85.7L336 83.3L340 82.0L344 84.0L348 86.0L352 84.7L356 82.3L360 82.7L364 85.3L368 85.7" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="60" y="190" width="312" height="14" fill="#A88466" stroke="#7A5230" stroke-width="2"/>
+<path d="M210 166H372V190H210Z" fill="#7D6B5D" stroke="#4E4036" stroke-width="2"/>
+<path d="M60 190V70H95L125 40L155 70H186Q206 74 214 166V190Z" fill="#C8925A" stroke="#7A5230" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M118 47L125 40L132 47L128 52L125 48L121 52Z" fill="#FFFFFF"/>
+<path d="M60 70H95M155 70H186" stroke="#3FA34D" stroke-width="4"/>
+<g transform="translate(78 70) scale(0.7)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(172 70) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g>
+<path d="M58 30V204M374 30V204" stroke="#E5484D" stroke-width="2.5" stroke-dasharray="6 5"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="2" fill="none"><path d="M44 70V190M38 70H50M38 190H50"/><path d="M386 166V190M380 166H392M380 190H392"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="13"><text x="34" y="135" text-anchor="middle" transform="rotate(-90 34 135)">35 km</text><text x="382" y="158" text-anchor="end">7 km</text></g>
+</svg>

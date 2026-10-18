@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" role="img">
+<title>A schematic cross-section of sea and land in summer with moist wind blowing inland towards hills</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.w{stroke-dasharray:12 7;animation:w 1.2s linear infinite}@keyframes w{to{stroke-dashoffset:-38}}.wv{animation:wv 3s ease-in-out infinite alternate}@keyframes wv{from{transform:translateX(-6px)}to{transform:translateX(6px)}}.rn{animation:rn .9s linear infinite}@keyframes rn{from{transform:translateY(-8px);opacity:1}to{transform:translateY(10px);opacity:0}}.vp{animation:vp 2.5s ease-in-out infinite}@keyframes vp{0%{transform:translateY(6px);opacity:0}50%{opacity:.7}100%{transform:translateY(-10px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#0B93D4"/></marker></defs>
+<rect width="380" height="240" rx="16" fill="#E3F2FD"/>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M323.0 40.0L330.0 40.0"/><path d="M316.3 56.3L321.2 61.2"/><path d="M300.0 63.0L300.0 70.0"/><path d="M283.7 56.3L278.8 61.2"/><path d="M277.0 40.0L270.0 40.0"/><path d="M283.7 23.7L278.8 18.8"/><path d="M300.0 17.0L300.0 10.0"/><path d="M316.3 23.7L321.2 18.8"/></g><circle cx="300" cy="40" r="18" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<path d="M0 170H175V240H16Q0 240 0 224Z" fill="#7CC4EE" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="wv" d="M14 194q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M168 166H250L300 120L340 90L380 110V224Q380 240 364 240H175V172Z" fill="#9BD08A" stroke="#3FA34D" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(215 168) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-14 0V-18H14V0Z" fill="#F6E3C4"/><path d="M-18 -16L0 -32L18 -16Z" fill="#E5484D"/><path d="M-4 0V-10H4V0" fill="#C8925A"/></g><g transform="translate(250 166) scale(0.7)" stroke-linejoin="round"><path d="M-3 0V-18H3V0Z" fill="#C8925A" stroke="#8A5F33" stroke-width="2"/><circle cx="0" cy="-28" r="14" fill="#7CC47F" stroke="#3FA34D" stroke-width="2.5"/></g>
+<g class="vp" fill="none" stroke="#0B93D4" stroke-width="2" stroke-linecap="round" opacity=".6"><path d="M40 160q-5-6 0-12t0-12M90 160q-5-6 0-12t0-12M140 160q-5-6 0-12t0-12"/></g>
+<g fill="none" stroke="#0B93D4" stroke-width="6" stroke-linecap="round" marker-end="url(#a)"><path class="w" d="M20 130H200Q250 120 290 90"/></g>
+<g transform="translate(320 70) scale(0.8)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#DDE3EE" stroke="#8C99B5" stroke-width="3.13" stroke-linejoin="round"/></g>
+<g class="rn" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"><path d="M300 88v8"/><path d="M312 96v8"/><path d="M324 88v8"/><path d="M336 96v8"/></g>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="65" y="186" width="10" height="40" rx="5" fill="#FFFFFF"/><circle cx="70" cy="230" r="8" fill="#0B93D4"/><rect x="68" y="212" width="4" height="16" fill="#0B93D4" stroke="none"/></g><g stroke="#2B2F4A" stroke-width="2"><rect x="195" y="186" width="10" height="40" rx="5" fill="#FFFFFF"/><circle cx="200" cy="230" r="8" fill="#E5484D"/><rect x="198" y="196" width="4" height="32" fill="#E5484D" stroke="none"/></g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A bundle of long dried palm leaves with lines of writing, tied with a string between two wooden boards</title>
+<style>
+.top{animation:lift 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left}
+@keyframes lift{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="128" width="200" height="14" rx="5" fill="#A9774A" stroke="#7A5230" stroke-width="2.5"/>
+<g stroke="#8B6A47" stroke-width="2">
+<rect x="24" y="112" width="192" height="16" rx="8" fill="#E2C47E"/>
+<rect x="26" y="96" width="188" height="16" rx="8" fill="#E9CF8E"/>
+</g>
+<g class="top">
+<rect x="24" y="70" width="192" height="22" rx="10" fill="#EFD99C" stroke="#8B6A47" stroke-width="2.5"/>
+<g fill="none" stroke="#6B4A2A" stroke-width="1.6" stroke-linecap="round">
+<path d="M40 78h10m4 0h8m4 0h12m4 0h6m30 0h12m4 0h8m4 0h10M40 85h14m4 0h6m4 0h10m4 0h8m26 0h8m4 0h14m4 0h8"/>
+</g>
+<circle cx="86" cy="81" r="3.5" fill="#FFF9EE" stroke="#6B4A2A" stroke-width="1.5"/><circle cx="154" cy="81" r="3.5" fill="#FFF9EE" stroke="#6B4A2A" stroke-width="1.5"/>
+</g>
+<path d="M86 84V146Q86 158 100 160M154 84V146" fill="none" stroke="#B5463A" stroke-width="3" stroke-linecap="round"/>
+<circle cx="102" cy="161" r="4" fill="#E5484D"/>
+</svg>

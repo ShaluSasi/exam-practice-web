@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img">
+<title>A preference ballot marked 1, 2 and 3 beside a card showing seats and valid votes</title>
+<style>
+.pen{animation:pen 3s ease-in-out infinite}
+@keyframes pen{0%,100%{transform:translate(0,0)}50%{transform:translate(-6px,8px)}}
+.n{animation:fade 3s ease-in-out infinite}
+@keyframes fade{0%,100%{opacity:.4}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="22" y="18" width="170" height="196" rx="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<text x="107" y="40" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">Mark your preferences</text>
+<g stroke="#2B2F4A" stroke-width="1.5">
+<path d="M32 52H182M32 92H182M32 132H182M32 172H182M32 212" stroke="#E6E3D8"/>
+<rect x="142" y="58" width="30" height="28" rx="3" fill="#FFF9EE"/>
+<rect x="142" y="98" width="30" height="28" rx="3" fill="#FFF9EE"/>
+<rect x="142" y="138" width="30" height="28" rx="3" fill="#FFF9EE"/>
+<rect x="142" y="178" width="30" height="28" rx="3" fill="#FFF9EE"/>
+<circle cx="48" cy="72" r="9" fill="#F6C453"/>
+<rect x="39" y="103" width="18" height="18" fill="#8E7FD6"/>
+<path d="M48 141l9 16H39Z" fill="#2BB3A3"/>
+<path d="M48 182l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6-4.5-4 6-1Z" fill="#E5484D"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">
+<text x="66" y="77">Candidate P</text><text x="66" y="117">Candidate Q</text><text x="66" y="157">Candidate R</text><text x="66" y="197">Candidate S</text>
+</g>
+<g class="n" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#0B93D4" text-anchor="middle">
+<text x="157" y="119">1</text><text x="157" y="79">2</text><text x="157" y="199">3</text>
+</g>
+<g class="pen"><path d="M176 196L196 168L202 172L182 200Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/><path d="M176 196L182 200L174 204Z" fill="#2B2F4A"/></g>
+<rect x="214" y="58" width="128" height="116" rx="12" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">
+<text x="228" y="84" font-size="12">Seats to fill</text><text x="328" y="84" font-size="15" text-anchor="end">3</text>
+<path d="M226 96H330" stroke="#FFFFFF" stroke-width="2"/>
+<text x="228" y="118" font-size="12">Valid votes</text><text x="328" y="118" font-size="15" text-anchor="end">4,000</text>
+<path d="M226 130H330" stroke="#FFFFFF" stroke-width="2"/>
+<text x="228" y="156" font-size="12">Quota</text><text x="328" y="157" font-size="15" text-anchor="end">?</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A balance holding a big person and a small person level with each other</title>
+<style>
+.beam{animation:bm 3s ease-in-out infinite;transform-origin:150px 60px}@keyframes bm{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="186" width="300" height="34" fill="#D9C49A"/><g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M150 186V60" stroke="#8A5A33" stroke-width="6"/><path d="M120 190H180L170 178H130Z" fill="#C8925A"/><circle cx="150" cy="56" r="7" fill="#F6C453"/></g><g class="beam"><path d="M60 60H240" stroke="#C9962A" stroke-width="6" stroke-linecap="round"/>
+<path d="M60 60L36 120M60 60L84 120M240 60L216 120M240 60L264 120" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M30 120H90Q86 136 60 136Q34 136 30 120Z" fill="#F6C453" stroke="#C9962A" stroke-width="2.5"/>
+<path d="M210 120H270Q266 136 240 136Q214 136 210 120Z" fill="#F6C453" stroke="#C9962A" stroke-width="2.5"/>
+<g transform="translate(60 120) scale(0.85)"><g class="" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-6 0V-18M6 0V-18" fill="none"/>
+<path d="M-12 -16Q-13 -40 0 -40Q13 -40 12 -16Z" fill="#E5484D"/>
+<circle cx="0" cy="-49" r="9" fill="#E8B48A"/>
+<path d="M-9 -51Q-8 -60 0 -60Q8 -60 9 -51Q3 -56 -9 -51Z" fill="#3B2A20"/>
+<circle cx="-3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><circle cx="3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><path d="M-3 -45Q0 -43 3 -45" fill="none" stroke-width="1.4"/>
+</g></g><g transform="translate(240 120) scale(0.55)"><g class="" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-6 0V-18M6 0V-18" fill="none"/>
+<path d="M-12 -16Q-13 -40 0 -40Q13 -40 12 -16Z" fill="#0B93D4"/>
+<circle cx="0" cy="-49" r="9" fill="#E8B48A"/>
+<path d="M-9 -51Q-8 -60 0 -60Q8 -60 9 -51Q3 -56 -9 -51Z" fill="#3B2A20"/>
+<circle cx="-3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><circle cx="3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><path d="M-3 -45Q0 -43 3 -45" fill="none" stroke-width="1.4"/>
+</g></g></g>
+</svg>

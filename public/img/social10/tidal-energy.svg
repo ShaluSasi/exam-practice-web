@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>A wall across a bay with a tunnel and a spinning turbine connected to a light bulb</title>
+<style>
+.tb{animation:spin 1.2s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes spin{to{transform:rotate(360deg)}}@keyframes fl{to{stroke-dashoffset:-40}}.fl{stroke-dasharray:14 6;animation:fl 1.6s linear infinite}
+.gl{animation:gl 1.2s ease-in-out infinite}@keyframes gl{50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H464Q480 0 480 16V70H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="10" y="70" width="210" height="160" fill="#7FC6EC"/><rect x="260" y="120" width="210" height="110" fill="#BFE6FA"/>
+<path d="M10 70H220" stroke="#FFFFFF" stroke-width="2.5"/>
+<path d="M260 120H470" stroke="#FFFFFF" stroke-width="2.5"/>
+<path d="M210 60H270V230H210Z" fill="#A3A8CC" stroke="#5E6380" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M210 176H270V206H210Z" fill="#5BB5E8" stroke="#5E6380" stroke-width="2"/>
+<path class="fl" d="M150 191H330" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none"/>
+<g class="tb"><path d="M240 177L246 191L240 205L234 191Z M226 191L240 185L254 191L240 197Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<circle cx="240" cy="191" r="3" fill="#2B2F4A"/>
+<path d="M240 60V40H380V70" fill="none" stroke="#2B2F4A" stroke-width="2.5"/>
+<g class="gl"><circle cx="380" cy="86" r="22" fill="#FFE98A" opacity=".6"/></g>
+<path d="M380 70Q362 72 364 90Q366 100 372 104H388Q394 100 396 90Q398 72 380 70Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/><rect x="372" y="104" width="16" height="8" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M0 230H480V244Q480 260 464 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<g transform="translate(80 140) scale(1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(130 110) scale(-1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g>
+</svg>

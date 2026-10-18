@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A cartoon early human kneeling and striking a bone on a rock with a hand-held stone tool</title>
+<style>
+.ch{animation:ch 1.4s ease-in-out infinite;transform-box:view-box;transform-origin:150px 128px}
+@keyframes ch{0%,100%{transform:rotate(-40deg)}45%,55%{transform:rotate(0deg)}}
+.sp{animation:sp 1.4s ease-out infinite}
+@keyframes sp{0%,40%{opacity:0}55%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 170H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#D9C49A"/>
+<path d="M190 196Q186 162 230 158Q276 160 272 196Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(232 150) rotate(-6)"><rect x="-34" y="-5" width="68" height="10" rx="5" fill="#F5EEDF" stroke="#8C7B62" stroke-width="2.5"/><circle cx="-34" cy="-5" r="7" fill="#F5EEDF" stroke="#8C7B62" stroke-width="2.5"/><circle cx="-34" cy="5" r="7" fill="#F5EEDF" stroke="#8C7B62" stroke-width="2.5"/><circle cx="34" cy="-5" r="7" fill="#F5EEDF" stroke="#8C7B62" stroke-width="2.5"/><circle cx="34" cy="5" r="7" fill="#F5EEDF" stroke="#8C7B62" stroke-width="2.5"/></g>
+<g class="sp" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round"><path d="M196 132l-8-10M210 128v-14M224 132l8-10"/></g>
+<path d="M118 196Q104 196 108 178Q112 160 130 162L150 176Q156 196 140 196Z" fill="#8A5A32" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M124 170Q118 130 144 120Q164 126 160 172Z" fill="#B07A4A" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M132 140L150 150M136 156L154 162" stroke="#8A5A32" stroke-width="2" stroke-linecap="round"/>
+<circle cx="146" cy="100" r="17" fill="#C8946A" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M130 98Q128 80 146 80Q164 80 164 94Q156 86 146 90Q136 88 130 98Z" fill="#3A2A1E"/>
+<circle cx="154" cy="100" r="2" fill="#2B2F4A"/><path d="M152 109q4 3 8 0" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<g class="ch"><path d="M150 128L196 140" stroke="#C8946A" stroke-width="9" stroke-linecap="round"/><path d="M150 128L196 140" stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="0" opacity=".25"/>
+<path d="M196 126Q212 132 210 144Q204 154 192 150Q184 140 196 126Z" fill="#CDBBA5" stroke="#6E5E4C" stroke-width="2.5" stroke-linejoin="round"/><circle cx="196" cy="140" r="6" fill="#C8946A" stroke="#2B2F4A" stroke-width="2"/></g>
+</svg>

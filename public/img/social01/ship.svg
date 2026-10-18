@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A wooden sailing ship loaded with sacks and bales of cloth on a blue sea, with a coastal port behind</title>
+<style>
+.boat{animation:rock 3s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes rock{0%,100%{transform:rotate(-3deg) translateY(0)}50%{transform:rotate(3deg) translateY(-4px)}}
+.wave{animation:wv 3s linear infinite}
+@keyframes wv{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+.bird{animation:fly 5s ease-in-out infinite alternate}
+@keyframes fly{from{transform:translate(0,0)}to{transform:translate(30px,-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="340" cy="44" r="20" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 150Q30 128 70 140L110 150V170H0Z" fill="#D9C49A" stroke="#B49C6E" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><rect x="14" y="110" width="24" height="30" fill="#FFD9B0"/><path d="M10 112L26 98L42 112Z" fill="#E5484D"/><rect x="48" y="118" width="20" height="24" fill="#E8C79A"/><path d="M44 120L58 108L72 120Z" fill="#C8925A"/></g>
+<path d="M0 166H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#5FB4E6"/>
+<g class="wave" fill="none" stroke="#CDEBFA" stroke-width="3" stroke-linecap="round"><path d="M0 190Q20 180 40 190T80 190T120 190T160 190T200 190T240 190T280 190T320 190T360 190T400 190T440 190"/><path d="M0 226Q20 216 40 226T80 226T120 226T160 226T200 226T240 226T280 226T320 226T360 226T400 226T440 226"/></g>
+<g class="bird" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"><path d="M120 50q6-6 12 0q6-6 12 0M160 70q5-5 10 0q5-5 10 0"/></g>
+<g class="boat">
+<path d="M150 170H330L310 206H170Z" fill="#C8925A" stroke="#7A5230" stroke-width="3" stroke-linejoin="round"/>
+<path d="M158 182H322" stroke="#7A5230" stroke-width="2"/>
+<path d="M240 170V50" stroke="#7A5230" stroke-width="5" stroke-linecap="round"/>
+<path d="M244 56Q290 90 244 150Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M236 70Q196 104 236 150Z" fill="#FCE3C4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2"><path d="M172 170Q170 152 184 150Q198 152 196 170Z" fill="#E8C79A"/><path d="M198 170Q198 156 210 156Q222 156 222 170Z" fill="#F6C453"/>
+<rect x="262" y="154" width="24" height="16" fill="#E5484D"/><rect x="288" y="158" width="22" height="12" fill="#0B93D4"/></g>
+<path d="M262 160h24M288 164h22" stroke="#fff" stroke-width="2"/>
+</g>
+</svg>

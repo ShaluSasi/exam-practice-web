@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A fort on top of a rocky hill with banners flying</title>
+<style>
+.fl{animation:fl 1.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:0 50%}
+@keyframes fl{to{transform:scaleX(.72)}}.drift{animation:dr 6s ease-in-out infinite alternate}
+@keyframes dr{to{transform:translateX(24px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/><g class="drift"><g transform="translate(60 40) scale(1)" fill="#FFFFFF" stroke="#C9D6E8" stroke-width="2"><path d="M-30 8Q-34 -6 -20 -8Q-16 -22 0 -18Q12 -26 20 -12Q34 -12 30 8Z"/></g></g><g class="drift"><g transform="translate(300 30) scale(0.8)" fill="#FFFFFF" stroke="#C9D6E8" stroke-width="2"><path d="M-30 8Q-34 -6 -20 -8Q-16 -22 0 -18Q12 -26 20 -12Q34 -12 30 8Z"/></g></g>
+<path d="M0 240V200Q60 170 110 140Q160 100 200 96Q250 96 290 140Q340 180 400 196V240Z" fill="#C9A87A" stroke="#8A6A3A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M120 170L140 160M260 160L282 172M180 130L196 124" stroke="#8A6A3A" stroke-width="2" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="140" y="72" width="120" height="30" fill="#E3C08A"/><rect x="140" y="64" width="10" height="8" fill="#E3C08A"/><rect x="160" y="64" width="10" height="8" fill="#E3C08A"/><rect x="180" y="64" width="10" height="8" fill="#E3C08A"/><rect x="200" y="64" width="10" height="8" fill="#E3C08A"/><rect x="220" y="64" width="10" height="8" fill="#E3C08A"/><rect x="240" y="64" width="10" height="8" fill="#E3C08A"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="128" y="56" width="26" height="46" fill="#D9A76A"/><rect x="246" y="56" width="26" height="46" fill="#D9A76A"/><rect x="186" y="44" width="28" height="58" fill="#D9A76A"/><path d="M192 102V84Q200 74 208 84V102Z" fill="#6B4527"/></g>
+<path d="M141 56V30" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M141 30L161 36L141 42Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M259 56V30" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M259 30L279 36L259 42Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M200 44V14" stroke="#7A5230" stroke-width="3" stroke-linecap="round"/><path class="fl" d="M200 14L220 20L200 26Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img">
+<title>A globe whose outer shell is cracked into several pieces</title>
+<style>
+.ck{animation:ck 2s ease-in-out infinite}@keyframes ck{0%,100%{opacity:.6}50%{opacity:1}}
+.sp{animation:sp 5s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}@keyframes sp{to{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="g"><circle cx="150" cy="120" r="95"/></clipPath></defs>
+<circle cx="150" cy="120" r="101" fill="#FFD9B0"/>
+<g class="sp"><circle cx="150" cy="120" r="95" fill="#7CC4EC" stroke="#0B93D4" stroke-width="3"/>
+<g clip-path="url(#g)"><g fill="#9BD08A" stroke="#3FA34D" stroke-width="2"><path d="M70 60Q110 40 130 70Q120 100 90 96Q66 90 70 60Z"/><path d="M170 140Q210 128 228 156Q214 196 186 188Q164 170 170 140Z"/><path d="M196 52Q226 50 232 78Q214 90 200 80Z"/></g>
+<g class="ck" fill="none" stroke="#FF8A1F" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M50 72L95 98L122 84L150 112L190 96L250 122"/><path d="M150 112L140 152L166 182L150 222"/><path d="M190 96L206 60L198 20"/><path d="M140 152L90 166L50 150"/><path d="M166 182L222 172L250 150"/></g></g></g>
+</svg>

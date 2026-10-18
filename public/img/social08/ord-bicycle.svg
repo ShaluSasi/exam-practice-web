@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" role="img">
+<title>A bicycle</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.w{animation:w 1.5s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes w{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M10 118H190" stroke="#D9C49A" stroke-width="6"/><g class="w"><circle cx="52" cy="96" r="22" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><circle cx="52" cy="96" r="3" fill="#2B2F4A"/><path d="M52 74V118M30 96H74" stroke="#A3A8CC" stroke-width="1.5"/></g><g class="w"><circle cx="148" cy="96" r="22" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><circle cx="148" cy="96" r="3" fill="#2B2F4A"/><path d="M148 74V118M126 96H170" stroke="#A3A8CC" stroke-width="1.5"/></g>
+<path d="M52 96L84 60H132L148 96M84 60L100 96L132 60M100 96L52 96M80 52H94M132 60L128 46H142" fill="none" stroke="#3FA34D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

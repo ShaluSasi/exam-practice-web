@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A study desk with a globe, a laptop showing stacked data layers, a wall chart, a thick book and a town plan</title>
+<style>
+.spin{animation:sp 6s ease-in-out infinite alternate}
+@keyframes sp{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.lay{animation:lift 3s ease-in-out infinite}
+@keyframes lift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.pin{animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="g"><circle cx="70" cy="120" r="38"/></clipPath></defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#EAF2E3"/>
+<path d="M0 198H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#C8925A"/>
+<path d="M0 198H400" stroke="#8B5A2B" stroke-width="3"/>
+<path d="M30 120A40 40 0 0 1 110 120" fill="none" stroke="#6E7396" stroke-width="4" transform="rotate(-25 70 120)"/>
+<path d="M70 160V194M50 196H90" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<circle cx="70" cy="120" r="38" fill="#5FB4E6" stroke="#0B6E9E" stroke-width="2.5"/>
+<g clip-path="url(#g)"><g class="spin" fill="#7CC77F" stroke="#3FA34D" stroke-width="1.5">
+<path d="M40 100Q52 88 66 98Q62 112 48 114Q36 112 40 100Z"/><path d="M76 124Q90 116 98 128Q94 146 80 144Q70 136 76 124Z"/><path d="M52 132Q60 130 62 138Q56 146 50 140Z"/>
+</g></g>
+<path d="M32 120H108" stroke="#0B6E9E" stroke-width="1.2"/>
+<rect x="145" y="90" width="120" height="92" rx="6" fill="#2B2F4A"/>
+<rect x="152" y="97" width="106" height="78" fill="#E3F2FD"/>
+<g class="lay">
+<path d="M170 150L205 160L240 150L205 140Z" fill="#A9D98E" stroke="#3FA34D" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g class="lay" style="animation-delay:.3s"><path d="M170 136L205 146L240 136L205 126Z" fill="#CDEBFA" fill-opacity=".9" stroke="#0B93D4" stroke-width="2" stroke-linejoin="round"/>
+<path d="M182 136Q205 132 228 138" fill="none" stroke="#0B93D4" stroke-width="2"/></g>
+<g class="lay" style="animation-delay:.6s"><path d="M170 122L205 132L240 122L205 112Z" fill="#FCE3C4" fill-opacity=".9" stroke="#FF8A1F" stroke-width="2" stroke-linejoin="round"/>
+<path d="M186 122L224 122M205 116V128" stroke="#FF8A1F" stroke-width="2"/></g>
+<g class="pin"><path d="M205 120Q197 110 197 104A8 8 0 0 1 213 104Q213 110 205 120Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><circle cx="205" cy="104" r="3" fill="#fff"/></g>
+<path d="M135 182H275L284 196H126Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="300" y="38" width="82" height="114" rx="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<circle cx="326" cy="66" r="16" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M326 66V50A16 16 0 0 1 341 72Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M326 66L341 72A16 16 0 0 1 316 79Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="350" y="54" width="22" height="6" rx="3" fill="#A3A8CC"/><rect x="350" y="66" width="16" height="6" rx="3" fill="#A3A8CC"/>
+<g fill="#3FA34D"><rect x="314" y="122" width="10" height="20"/><rect x="330" y="110" width="10" height="32"/><rect x="346" y="100" width="10" height="42"/><rect x="362" y="114" width="10" height="28"/></g>
+<path d="M312 142H374" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="42" y="222" width="108" height="50" rx="5" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="42" y="266" width="108" height="8" rx="2" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="96" cy="244" r="12" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M84 244H108M96 232Q88 244 96 256M96 232Q104 244 96 256" fill="none" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M240 214L280 220L320 212L360 218V282L320 276L280 284L240 278Z" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M280 220V284M320 212V276" stroke="#C8B98A" stroke-width="1.5"/>
+<path d="M244 262Q270 240 300 252T356 232" fill="none" stroke="#5FB4E6" stroke-width="4" stroke-linecap="round"/>
+<path d="M260 222V276M246 246H356" stroke="#A3A8CC" stroke-width="3"/>
+<g fill="#F2A3A3" stroke="#B5463A" stroke-width="1.5"><rect x="292" y="226" width="12" height="10"/><rect x="330" y="258" width="12" height="10"/><rect x="266" y="252" width="10" height="10"/></g>
+<path d="M344 226L348 236L344 234L340 236Z" fill="#E5484D"/>
+</svg>

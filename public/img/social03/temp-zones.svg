@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img">
+<title>The Earth lit by parallel sunrays, with shaded bands between key latitudes</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.w{stroke-dasharray:12 7;animation:w 1.2s linear infinite}@keyframes w{to{stroke-dashoffset:-38}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><clipPath id="g"><circle cx="180" cy="150" r="120"/></clipPath><marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#E0A92E"/></marker></defs>
+<g clip-path="url(#g)"><rect x="60" y="30.0" width="240" height="10.0" fill="#FFFFFF"/><rect x="60" y="40.0" width="240" height="62.2" fill="#BFE3C0"/><rect x="60" y="102.2" width="240" height="95.7" fill="#F9D9A8"/><rect x="60" y="197.8" width="240" height="62.2" fill="#BFE3C0"/><rect x="60" y="260.0" width="240" height="10.0" fill="#FFFFFF"/></g>
+<circle cx="180" cy="150" r="120" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<g stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="5 4"><path d="M132.2 40.0H227.8"/><path d="M70.0 102.2H290.0"/><path d="M60.0 150.0H300.0"/><path d="M70.0 197.8H290.0"/><path d="M132.2 260.0H227.8"/></g>
+<g fill="none" stroke="#E0A92E" stroke-width="3" stroke-linecap="round" marker-end="url(#a)"><path class="w" d="M50 80H77"/><path class="w" d="M50 115H59"/><path class="w" d="M50 150H54"/><path class="w" d="M50 185H59"/><path class="w" d="M50 220H77"/></g>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M47.0 150.0L54.0 150.0"/><path d="M40.8 164.8L45.8 169.8"/><path d="M26.0 171.0L26.0 178.0"/><path d="M11.2 164.8L6.2 169.8"/><path d="M5.0 150.0L-2.0 150.0"/><path d="M11.2 135.2L6.2 130.2"/><path d="M26.0 129.0L26.0 122.0"/><path d="M40.8 135.2L45.8 130.2"/></g><circle cx="26" cy="150" r="16" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A"><text x="244" y="44" font-size="12" >66½°N</text><text x="295" y="106" font-size="12" >23½°N</text><text x="305" y="154" font-size="12" >0°</text><text x="295" y="202" font-size="12" >23½°S</text><text x="244" y="264" font-size="12" >66½°S</text></g>
+</svg>

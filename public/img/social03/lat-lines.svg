@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230" role="img">
+<title>Part of a globe with latitude lines from the equator to 40 degrees north</title>
+<style>
+.mr{animation:mr 4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}@keyframes mr{from{transform:scaleX(.2)}to{transform:scaleX(1.6)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><clipPath id="c"><rect x="0" y="0" width="300" height="200"/></clipPath></defs>
+<g clip-path="url(#c)"><circle cx="110" cy="200" r="150" fill="#7CC4EE" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M30 170Q50 130 100 140Q140 120 160 160Q150 196 110 198Q60 200 30 170Z" fill="#9BD08A" stroke="#3FA34D" stroke-width="2"/>
+<g class="mr"><ellipse cx="110" cy="200" rx="60" ry="150" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity=".7"/></g></g>
+<g stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="5 4"><path d="M-40 200.0H260"/><path d="M-38 174.0H258"/><path d="M-31 148.7H251"/><path d="M-20 125.0H240"/><path d="M-5 103.6H225"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A"><text x="266" y="204" font-size="12" >0°</text><text x="264" y="178" font-size="12" >10°N</text><text x="257" y="153" font-size="12" >20°N</text><text x="246" y="129" font-size="12" >30°N</text><text x="231" y="108" font-size="12" >40°N</text></g>
+</svg>

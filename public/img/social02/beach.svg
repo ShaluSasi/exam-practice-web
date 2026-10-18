@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A curved sandy shore between two rocky points, with houses behind it</title>
+<style>
+.wv{animation:wv 2.4s ease-in-out infinite alternate}@keyframes wv{to{transform:translateY(5px)}}
+.bt{animation:bt 2s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}@keyframes bt{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="400" height="240" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="400" height="240" fill="#7CC4EC"/>
+<path d="M0 0H400V70Q300 60 200 66Q100 60 0 70Z" fill="#B5DDA0"/>
+<g transform="translate(120 58) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(170 54) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#0B93D4"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(240 58) scale(0.8)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(90 70) scale(0.7)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g><g transform="translate(290 70) scale(0.7)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g>
+<path d="M0 70Q100 60 200 66Q300 60 400 70V100Q330 90 300 120Q200 170 100 120Q70 90 0 100Z" fill="#F2D49B" stroke="#D9AE68" stroke-width="2"/>
+<path d="M0 100Q50 92 80 108L60 150Q30 150 0 160Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/>
+<path d="M400 100Q350 92 320 108L340 150Q370 150 400 160Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/>
+<g class="wv" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"><path d="M110 150Q200 190 290 150"/><path d="M140 186q14 -8 28 0t28 0t28 0"/></g>
+<g transform="translate(200 104)"><path d="M0 0V-26" stroke="#2B2F4A" stroke-width="2"/><path d="M-16 -22Q0 -38 16 -22Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/></g>
+<g class="bt"><path d="M226 206H262L256 216H232Z" fill="#A0663A" stroke="#2B2F4A" stroke-width="2"/><path d="M244 206V188L256 204Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/></g></g>
+</svg>

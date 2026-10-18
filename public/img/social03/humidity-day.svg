@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>Wet clothes dripping on a line on a warm, sticky day while a child sweats</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.dp{animation:dp 1.6s ease-in infinite}@keyframes dp{from{transform:translateY(0);opacity:1}to{transform:translateY(30px);opacity:0}}
+.vp{animation:vp 2.5s ease-in-out infinite}@keyframes vp{0%{transform:translateY(6px);opacity:0}50%{opacity:.8}100%{transform:translateY(-14px);opacity:0}}
+.sw{animation:dp 2s ease-in infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<rect width="360" height="220" rx="16" fill="#F5EEDC"/>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M331.0 40.0L338.0 40.0"/><path d="M324.8 54.8L329.8 59.8"/><path d="M310.0 61.0L310.0 68.0"/><path d="M295.2 54.8L290.2 59.8"/><path d="M289.0 40.0L282.0 40.0"/><path d="M295.2 25.2L290.2 20.2"/><path d="M310.0 19.0L310.0 12.0"/><path d="M324.8 25.2L329.8 20.2"/></g><circle cx="310" cy="40" r="16" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<path d="M0 180H360V204Q360 220 344 220H16Q0 220 0 204Z" fill="#9BD08A"/>
+<path d="M30 180V60M230 180V60" stroke="#8A5F33" stroke-width="5" stroke-linecap="round"/>
+<path d="M30 66Q130 86 230 66" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M50 70H90V120H50Z" fill="#0B93D4"/><path d="M110 76L100 86L106 92V130H144V92L150 86L140 76Z" fill="#F6C453"/><path d="M170 76H210V126H170Z" fill="#E5484D"/></g>
+<g class="dp" fill="#0B93D4"><circle cx="62" cy="128" r="3"/><circle cx="125" cy="138" r="3"/><circle cx="190" cy="134" r="3"/></g>
+<g class="vp" fill="none" stroke="#9DB6CC" stroke-width="2.5" stroke-linecap="round"><path d="M80 176q-5-6 0-12t0-12M160 176q-5-6 0-12t0-12"/></g>
+<g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M290 150L296 180M310 150L304 180" stroke-width="5" fill="none"/>
+<path d="M286 116Q300 110 314 116L318 152H282Z" fill="#9B6BDA"/>
+<circle cx="300" cy="98" r="15" fill="#F2C9A0"/>
+<path d="M294 98h2M304 98h2M295 106q5-3 10 0" fill="none"/></g>
+<path class="sw" d="M314 88q4 6 0 9q-4-3 0-9Z" fill="#7CC4EE" stroke="#0B93D4" stroke-width="1"/>
+</svg>

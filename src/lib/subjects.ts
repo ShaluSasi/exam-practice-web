@@ -1,4 +1,4 @@
-import { Atom, Dna, FlaskConical, Sigma, type LucideIcon } from "lucide-react";
+import { Atom, Dna, FlaskConical, Globe2, Sigma, type LucideIcon } from "lucide-react";
 import type { SubjectId } from "../content/schema";
 
 /** Literal class names so Tailwind can see them at build time. */
@@ -10,6 +10,7 @@ export const SUBJECT_STYLE: Record<
   physics: { icon: Atom, text: "text-physics", bg: "bg-physics", soft: "bg-physics/12", ring: "ring-physics/40", glyph: "λ" },
   chemistry: { icon: FlaskConical, text: "text-chemistry", bg: "bg-chemistry", soft: "bg-chemistry/12", ring: "ring-chemistry/40", glyph: "⚗" },
   biology: { icon: Dna, text: "text-biology", bg: "bg-biology", soft: "bg-biology/12", ring: "ring-biology/40", glyph: "✿" },
+  social: { icon: Globe2, text: "text-social", bg: "bg-social", soft: "bg-social/12", ring: "ring-social/40", glyph: "◍" },
 };
 
 export function formatTime(ms: number) {

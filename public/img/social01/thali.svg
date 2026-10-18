@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A plate of rice, roti, dal and vegetables with steam rising and question marks around it</title>
+<style>
+.st{animation:steam 3s ease-in-out infinite}
+@keyframes steam{0%{opacity:0;transform:translateY(6px)}50%{opacity:.9}100%{opacity:0;transform:translateY(-14px)}}
+.q{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="200" cy="160" rx="150" ry="74" fill="#C7CBDD" stroke="#6E7396" stroke-width="3"/>
+<ellipse cx="200" cy="156" rx="132" ry="62" fill="#E4E6F0" stroke="#A3A8CC" stroke-width="2"/>
+<ellipse cx="150" cy="150" rx="46" ry="26" fill="#FFFFFF" stroke="#C7CBDD" stroke-width="2"/>
+<g fill="#F3F0E6"><circle cx="134" cy="146" r="4"/><circle cx="150" cy="140" r="4"/><circle cx="164" cy="150" r="4"/><circle cx="146" cy="158" r="4"/></g>
+<ellipse cx="250" cy="134" rx="30" ry="16" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<ellipse cx="250" cy="132" rx="24" ry="11" fill="#F6C453"/>
+<ellipse cx="262" cy="176" rx="30" ry="16" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/>
+<ellipse cx="262" cy="174" rx="24" ry="11" fill="#3FA34D"/>
+<circle cx="256" cy="172" r="3" fill="#FF8A1F"/><circle cx="268" cy="176" r="3" fill="#FF8A1F"/>
+<ellipse cx="196" cy="196" rx="34" ry="14" fill="#E8C79A" stroke="#C8925A" stroke-width="2"/>
+<g fill="none" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round">
+<path class="st" d="M140 110Q134 98 142 88Q150 78 142 66"/><path class="st" d="M250 104Q244 92 252 82Q260 72 252 60" style="animation-delay:1.2s"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="30" font-weight="600" fill="#FF8A1F">
+<text class="q" x="40" y="70">?</text><text class="q" x="340" y="64" style="animation-delay:.8s">?</text><text class="q" x="196" y="40" style="animation-delay:1.6s">?</text>
+</g>
+</svg>

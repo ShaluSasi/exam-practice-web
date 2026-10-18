@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 170" role="img">
+<title>An empty timeline with six blank stops and a moving marker</title>
+<style>
+.dot{animation:move 6s ease-in-out infinite}
+@keyframes move{0%{transform:translateX(0)}100%{transform:translateX(280px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M30 96H350" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M342 86L356 96L342 106" fill="none" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5">
+<circle cx="40" cy="96" r="11"/><circle cx="96" cy="96" r="11"/><circle cx="152" cy="96" r="11"/><circle cx="208" cy="96" r="11"/><circle cx="264" cy="96" r="11"/><circle cx="320" cy="96" r="11"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#A3A8CC" text-anchor="middle">
+<text x="40" y="70">?</text><text x="96" y="70">?</text><text x="152" y="70">?</text><text x="208" y="70">?</text><text x="264" y="70">?</text><text x="320" y="70">?</text>
+</g>
+<circle class="dot" cx="40" cy="96" r="6" fill="#FF8A1F"/>
+<rect x="132" y="118" width="116" height="34" rx="8" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<text x="190" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">earlier → later</text>
+<rect x="150" y="16" width="80" height="34" rx="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M150 28H230" stroke="#E5484D" stroke-width="8"/>
+<path d="M168 12V20M212 12V20" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+</svg>

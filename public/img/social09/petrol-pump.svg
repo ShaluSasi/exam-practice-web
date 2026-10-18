@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img">
+<title>A petrol pump whose price display is changing, with a car filling up</title>
+<style>
+.o{animation:o 4s infinite}.n{animation:n 4s infinite}.up{animation:n 4s infinite}
+@keyframes o{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}@keyframes n{0%,45%{opacity:0}50%,95%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H304Q320 0 320 16V168H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 166H320V184Q320 200 304 200H16Q0 200 0 184Z" fill="#D9C49A"/>
+<rect x="52" y="44" width="70" height="124" rx="8" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="62" y="56" width="50" height="30" rx="4" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="14" text-anchor="middle"><text class="o" x="87" y="76">₹100</text><text class="n" x="87" y="76" fill="#C2353A">₹200</text></g>
+<text x="87" y="102" font-size="11" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-weight="600">per litre</text>
+<path d="M122 110Q150 110 150 136Q150 150 176 150" stroke="#2B2F4A" stroke-width="4" fill="none"/>
+<path class="up" d="M134 70V46m-8 8l8 -8l8 8" stroke="#E5484D" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176 160V138Q178 124 196 122L214 106H262L282 124Q298 126 298 140V160Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M220 112H240V124H206ZM246 112H258L272 124H246Z" fill="#CDEBFA"/>
+<circle cx="200" cy="162" r="12" fill="#2B2F4A"/><circle cx="200" cy="162" r="5" fill="#A3A8CC"/><circle cx="272" cy="162" r="12" fill="#2B2F4A"/><circle cx="272" cy="162" r="5" fill="#A3A8CC"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A room shaking during an earthquake, with a window, a hanging lamp, a table and a lift</title>
+<style>
+.sh{animation:sh .5s ease-in-out infinite alternate}@keyframes sh{from{transform:translateX(-2px)}to{transform:translateX(2px)}}
+.sw{animation:sw 1.4s ease-in-out infinite alternate;transform-box:view-box;transform-origin:200px 16px}@keyframes sw{from{transform:rotate(-12deg)}to{transform:rotate(12deg)}}
+.tl{animation:tl 1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:top center}@keyframes tl{from{transform:rotate(-6deg)}to{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="sh"><path d="M16 0H384Q400 0 400 16V210H0V16Q0 0 16 0Z" fill="#F6E3C4"/>
+<path d="M0 210H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#C8925A" />
+<path d="M16 16H384" stroke="#D9C49A" stroke-width="4"/>
+<g stroke="#2B2F4A" stroke-width="2.5"><rect x="36" y="56" width="90" height="90" rx="4" fill="#CDEBFA"/><path d="M81 56V146M36 101H126"/></g>
+<path d="M50 70L64 88L58 96L72 112" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<g class="tl"><rect x="232" y="50" width="44" height="34" rx="3" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/><path d="M240 76L252 62L262 72L270 66" fill="none" stroke="#3FA34D" stroke-width="2.5"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="306" y="76" width="74" height="134" fill="#A3A8CC"/><path d="M343 76V210"/><circle cx="296" cy="132" r="6" fill="#FFFFFF"/><path d="M293 134L296 129L299 134Z" fill="#2B2F4A" stroke-width="1"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="152" y="156" width="130" height="14" rx="3" fill="#A0663A"/><path d="M162 170V210M272 170V210M176 170V202M258 170V202" stroke="#7A4A28" stroke-width="7" stroke-linecap="round"/></g>
+</g>
+<g class="sw"><path d="M200 16V70" stroke="#2B2F4A" stroke-width="2"/><path d="M182 88L190 70H210L218 88Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/></g>
+<path d="M20 238L40 238L46 228L52 248L58 224L64 250L70 230L76 238L384 238" fill="none" stroke="#7A5230" stroke-width="2" stroke-linejoin="round"/>
+</svg>

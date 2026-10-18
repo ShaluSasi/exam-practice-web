@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A narrow lane between tall plain-walled houses, with a person walking along it</title>
+<style>
+.walk{animation:wk 5s ease-in-out infinite alternate}@keyframes wk{from{transform:translateY(10px) scale(1.05)}to{transform:translateY(-6px) scale(.95)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="400" height="240" rx="16" fill="#E3F2FD"/>
+<path d="M0 0H150L170 200H0Z" fill="#D9BFA0" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M400 0H250L230 200H400Z" fill="#E3C9A6" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#E2D7C2"/><path d="M170 200L150 240M230 200L250 240" stroke="#C9B79A" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="40" y="40" width="30" height="30" fill="#8FB8D8"/><rect x="90" y="40" width="26" height="30" fill="#8FB8D8"/><rect x="40" y="100" width="30" height="30" fill="#8FB8D8"/><rect x="96" y="120" width="40" height="80" fill="#6B4527"/>
+<rect x="300" y="40" width="30" height="30" fill="#8FB8D8"/><rect x="346" y="40" width="30" height="30" fill="#8FB8D8"/><rect x="300" y="100" width="30" height="30" fill="#8FB8D8"/><rect x="346" y="140" width="34" height="60" fill="#6B4527"/></g>
+<rect x="150" y="0" width="100" height="70" fill="#CDE6F7"/><rect x="176" y="70" width="48" height="60" fill="#F0DCC0" stroke="#2B2F4A" stroke-width="2"/><rect x="194" y="104" width="12" height="26" fill="#6B4527"/>
+<g class="walk"><g transform="translate(200 214) scale(0.7)"><g class="" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M-6 0V-18M6 0V-18" fill="none"/>
+<path d="M-12 -16Q-13 -40 0 -40Q13 -40 12 -16Z" fill="#E5484D"/>
+<circle cx="0" cy="-49" r="9" fill="#E8B48A"/>
+<path d="M-9 -51Q-8 -60 0 -60Q8 -60 9 -51Q3 -56 -9 -51Z" fill="#3B2A20"/>
+<circle cx="-3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><circle cx="3" cy="-49" r="1.3" fill="#2B2F4A" stroke="none"/><path d="M-3 -45Q0 -43 3 -45" fill="none" stroke-width="1.4"/>
+</g></g></g>
+</svg>

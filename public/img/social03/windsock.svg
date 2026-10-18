@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img">
+<title>A compass and a windsock with the wind blowing across the field</title>
+<style>
+.w{stroke-dasharray:12 7;animation:w 1.2s linear infinite}@keyframes w{to{stroke-dashoffset:-38}}.sk{animation:fl 1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:left center}@keyframes fl{from{transform:skewY(-3deg)}to{transform:skewY(3deg)}}
+.lf{animation:lf 2.5s linear infinite}@keyframes lf{from{transform:translateX(0);opacity:1}to{transform:translateX(150px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#0B93D4"/></marker></defs>
+<rect width="320" height="220" rx="16" fill="#E3F2FD"/>
+<path d="M0 190H320V204Q320 220 304 220H16Q0 220 0 204Z" fill="#9BD08A"/>
+<g transform="translate(70 92)"><circle r="46" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M0 -36L7 0L0 36L-7 0Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="1.5"/><path d="M0 -36L7 0H-7Z" fill="#E5484D"/>
+<path d="M-36 0L0 -6L36 0L0 6Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="1.5"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" text-anchor="middle"><text x="0" y="-50" font-size="13" >N</text><text x="0" y="62" font-size="13" >S</text><text x="57" y="5" font-size="13" >E</text><text x="-57" y="5" font-size="13" >W</text></g></g>
+<path d="M210 190V60" stroke="#6E7396" stroke-width="5" stroke-linecap="round"/>
+<g class="sk"><path d="M212 62L300 72V92L212 102Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M240 65V99M268 68V96" stroke="#FFFFFF" stroke-width="6"/></g>
+<g fill="none" stroke="#0B93D4" stroke-width="5" stroke-linecap="round" marker-end="url(#a)"><path class="w" d="M130 150H300"/></g>
+<g class="lf" fill="#3FA34D" stroke="#2B7A37" stroke-width="1"><ellipse cx="140" cy="176" rx="7" ry="3.5"/><ellipse cx="170" cy="170" rx="6" ry="3"/></g>
+</svg>

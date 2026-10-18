@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>Bottles moving on an automated conveyor under a machine</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.mv{animation:mv 2s linear infinite}@keyframes mv{to{transform:translateX(40px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="40" y="20" width="120" height="44" rx="6" fill="#A3A8CC" class="o"/><path d="M70 64V80M130 64V80" stroke="#2B2F4A" stroke-width="5"/>
+<rect x="0" y="126" width="200" height="14" fill="#7E8299"/>
+<g class="mv"><path d="M-28 126V96Q-28 88 -22 86V78H-14V86Q-8 88 -8 96V126Z" fill="#CDEBFA" class="o"/><path d="M12 126V96Q12 88 18 86V78H26V86Q32 88 32 96V126Z" fill="#CDEBFA" class="o"/><path d="M52 126V96Q52 88 58 86V78H66V86Q72 88 72 96V126Z" fill="#CDEBFA" class="o"/><path d="M92 126V96Q92 88 98 86V78H106V86Q112 88 112 96V126Z" fill="#CDEBFA" class="o"/><path d="M132 126V96Q132 88 138 86V78H146V86Q152 88 152 96V126Z" fill="#CDEBFA" class="o"/><path d="M172 126V96Q172 88 178 86V78H186V86Q192 88 192 96V126Z" fill="#CDEBFA" class="o"/></g>
+</svg>

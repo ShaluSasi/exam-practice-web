@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>An early farming settlement with round huts, a field of crops, cattle, clay pots and stone tools</title>
+<style>
+.crop{animation:sway 3s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.smk{animation:smk 3.5s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes smk{0%{opacity:.8;transform:translateY(0) scale(.7)}100%{opacity:0;transform:translateY(-20px) scale(1.4)}}
+.cow{animation:graze 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes graze{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V140H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 120Q100 96 200 118T400 112V140H0Z" fill="#B7D3A0"/>
+<path d="M0 138H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<g stroke="#8B5A2B" stroke-width="2.5" stroke-linejoin="round">
+<path d="M30 190V158Q30 146 62 146Q94 146 94 158V190Z" fill="#E8C79A"/><path d="M22 156L62 112L102 156Z" fill="#C8A060"/>
+<path d="M120 196V170Q120 160 146 160Q172 160 172 170V196Z" fill="#E8C79A"/><path d="M114 168L146 132L178 168Z" fill="#C8A060"/>
+</g>
+<rect x="54" y="166" width="16" height="24" fill="#8B5A2B"/>
+<circle class="smk" cx="146" cy="126" r="8" fill="#C7CBDD"/>
+<rect x="214" y="150" width="170" height="60" rx="6" fill="#C9A86A" stroke="#8B6A47" stroke-width="2"/>
+<g class="crop" fill="none" stroke="#3FA34D" stroke-width="3" stroke-linecap="round">
+<path d="M232 196V168M232 176l-6-6M232 176l6-6M262 196V168M262 176l-6-6M262 176l6-6M292 196V168M292 176l-6-6M292 176l6-6M322 196V168M322 176l-6-6M322 176l6-6M352 196V168M352 176l-6-6M352 176l6-6"/>
+</g>
+<g class="cow"><ellipse cx="300" cy="232" rx="22" ry="12" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="276" cy="226" r="7" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M288 242V252M312 242V252" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><circle cx="306" cy="228" r="5" fill="#8A5A3C"/></g>
+<g fill="#C8653A" stroke="#8B3F22" stroke-width="2"><ellipse cx="54" cy="222" rx="14" ry="13"/><ellipse cx="54" cy="208" rx="6" ry="3"/><ellipse cx="84" cy="226" rx="10" ry="10"/></g>
+<path d="M130 230L150 214L158 222L140 236Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2" stroke-linejoin="round"/>
+<path d="M180 236L190 220L200 236Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img">
+<title>A year wheel of the twelve months with a turning pointer and weather icons inside</title>
+<style>
+.sun{animation:sp 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes sp{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}.pt{animation:pt 6s linear infinite}@keyframes pt{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<circle cx="150" cy="150" r="138" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<circle cx="150" cy="150" r="106" fill="#F3F6FB" stroke="#A3A8CC" stroke-width="2"/>
+<g stroke="#A3A8CC" stroke-width="1.5"><path d="M150.0 44.0L150.0 12.0"/><path d="M203.0 58.2L219.0 30.5"/><path d="M241.8 97.0L269.5 81.0"/><path d="M256.0 150.0L288.0 150.0"/><path d="M241.8 203.0L269.5 219.0"/><path d="M203.0 241.8L219.0 269.5"/><path d="M150.0 256.0L150.0 288.0"/><path d="M97.0 241.8L81.0 269.5"/><path d="M58.2 203.0L30.5 219.0"/><path d="M44.0 150.0L12.0 150.0"/><path d="M58.2 97.0L30.5 81.0"/><path d="M97.0 58.2L81.0 30.5"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A"><text x="181.6" y="36.2" font-size="12" text-anchor="middle">Jan</text><text x="236.3" y="67.7" font-size="12" text-anchor="middle">Feb</text><text x="267.8" y="122.4" font-size="12" text-anchor="middle">Mar</text><text x="267.8" y="185.6" font-size="12" text-anchor="middle">Apr</text><text x="236.3" y="240.3" font-size="12" text-anchor="middle">May</text><text x="181.6" y="271.8" font-size="12" text-anchor="middle">Jun</text><text x="118.4" y="271.8" font-size="12" text-anchor="middle">Jul</text><text x="63.7" y="240.3" font-size="12" text-anchor="middle">Aug</text><text x="32.2" y="185.6" font-size="12" text-anchor="middle">Sep</text><text x="32.2" y="122.4" font-size="12" text-anchor="middle">Oct</text><text x="63.7" y="67.7" font-size="12" text-anchor="middle">Nov</text><text x="118.4" y="36.2" font-size="12" text-anchor="middle">Dec</text></g>
+<g class="pt" style="transform-origin:150px 150px"><path d="M150 150L150 56" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="56" r="6" fill="#FF8A1F"/></g>
+<g fill="#FFFFFF" stroke="#7C8BB0" stroke-width="2"><path d="M100 96l8-8 8 8-8 8z"/></g>
+<g class="sun"><g stroke="#E0A92E" stroke-width="3" stroke-linecap="round"><path d="M221.0 104.0L228.0 104.0"/><path d="M216.0 116.0L221.0 121.0"/><path d="M204.0 121.0L204.0 128.0"/><path d="M192.0 116.0L187.0 121.0"/><path d="M187.0 104.0L180.0 104.0"/><path d="M192.0 92.0L187.0 87.0"/><path d="M204.0 87.0L204.0 80.0"/><path d="M216.0 92.0L221.0 87.0"/></g><circle cx="204" cy="104" r="12" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/></g>
+<g transform="translate(204 196) scale(0.6)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#DDE3EE" stroke="#8C99B5" stroke-width="4.17" stroke-linejoin="round"/></g><g stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"><path d="M196 212v8M210 212v8"/></g>
+<path d="M90 186A14 14 0 1 0 114 200A10 10 0 1 1 90 186Z" fill="#F6E7A8" stroke="#E0C25A" stroke-width="2"/>
+<circle cx="150" cy="150" r="7" fill="#2B2F4A"/>
+</svg>

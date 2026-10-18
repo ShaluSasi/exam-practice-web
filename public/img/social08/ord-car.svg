@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" role="img">
+<title>A car</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.w{animation:w 1.5s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes w{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M10 118H190" stroke="#D9C49A" stroke-width="6"/>
+<path d="M20 98V78Q20 70 30 68L56 64L78 42H130L154 64L176 70Q184 72 184 80V98Z" fill="#0B93D4" class="o"/>
+<path d="M84 50H104V64H68ZM112 50H126L142 64H112Z" fill="#CDEBFA" class="o"/>
+<g class="w"><circle cx="56" cy="100" r="16" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><circle cx="56" cy="100" r="3" fill="#2B2F4A"/></g><g class="w"><circle cx="150" cy="100" r="16" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><circle cx="150" cy="100" r="3" fill="#2B2F4A"/></g>
+</svg>

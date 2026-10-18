@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A shop counter with a pair of shoes and snack packets, each with a price tag, and a wallet</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.wl{animation:wl 2.6s ease-in-out infinite}@keyframes wl{50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="400" height="44" rx="16" fill="#FF8A1F"/><g fill="#FFFFFF" opacity=".6"><rect x="40" y="0" width="40" height="44"/><rect x="120" y="0" width="40" height="44"/><rect x="200" y="0" width="40" height="44"/><rect x="280" y="0" width="40" height="44"/><rect x="360" y="0" width="40" height="44"/></g>
+<rect x="20" y="170" width="360" height="22" rx="6" fill="#C8925A" stroke="#8A5A2E" stroke-width="2.5"/><rect x="34" y="192" width="332" height="90" fill="#E8D2AE" stroke="#8A5A2E" stroke-width="2.5"/>
+<g transform="translate(110 150)"><path d="M-46 6Q-46 -18 -24 -22L0 -10Q30 -8 46 6V14H-46Z" fill="#0B93D4" class="o"/><rect x="-48" y="12" width="96" height="10" rx="4" fill="#FFFFFF" class="o"/><path d="M-20 -14L-12 -2M-6 -16L2 -4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/></g>
+<g transform="translate(110 216)"><path d="M-35 -12H27L35 0L27 12H-35Z" fill="#FFFFFF" class="o"/><circle cx="-27" cy="0" r="3" fill="#2B2F4A"/><text x="4" y="5" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#2B2F4A" text-anchor="middle" >₹250</text></g>
+<g><g transform="translate(236 136)"><path d="M-14 -24H14L16 30H-16Z" fill="#E5484D" class="o"/><path d="M-14 -20L-10 -24L-6 -20L-2 -24L2 -20L6 -24L10 -20L14 -24" fill="none" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="0" cy="4" r="8" fill="#FFF9EE"/></g><g transform="translate(276 136)"><path d="M-14 -24H14L16 30H-16Z" fill="#F6C453" class="o"/><path d="M-14 -20L-10 -24L-6 -20L-2 -24L2 -20L6 -24L10 -20L14 -24" fill="none" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="0" cy="4" r="8" fill="#FFF9EE"/></g><g transform="translate(316 136)"><path d="M-14 -24H14L16 30H-16Z" fill="#3FA34D" class="o"/><path d="M-14 -20L-10 -24L-6 -20L-2 -24L2 -20L6 -24L10 -20L14 -24" fill="none" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="0" cy="4" r="8" fill="#FFF9EE"/></g></g>
+<g transform="translate(276 216)"><path d="M-48 -12H40L48 0L40 12H-48Z" fill="#FFFFFF" class="o"/><circle cx="-40" cy="0" r="3" fill="#2B2F4A"/><text x="4" y="5" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#2B2F4A" text-anchor="middle" >₹25 each</text></g>
+<g class="wl"><rect x="150" y="236" width="100" height="52" rx="10" fill="#8A5A2E" class="o"/><rect x="150" y="250" width="100" height="10" fill="#6E4520"/><text x="200" y="280" font-family="system-ui, sans-serif" font-weight="600" font-size="15"  text-anchor="middle" fill="#FFF9EE">₹300</text></g>
+</svg>

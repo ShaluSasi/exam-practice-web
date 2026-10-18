@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A drawing of a person turning into a two-stroke character and a drawing of a tree turning into a four-stroke character</title>
+<style>
+.dr{stroke-dasharray:120;animation:dr 3s ease-in-out infinite}
+@keyframes dr{0%{stroke-dashoffset:120}50%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" fill="none">
+<circle cx="50" cy="60" r="10" fill="#E8B88C"/><path d="M50 70V110M50 110L36 146M50 110L64 146M50 82L32 98M50 82L68 98"/>
+<path d="M160 64Q160 120 128 150M156 104Q170 130 192 150" class="dr" stroke="#B5462E" stroke-width="7"/>
+<circle cx="250" cy="66" r="26" fill="#7CC36E"/><path d="M250 92V150M250 150L236 158M250 150L264 158"/>
+<path d="M310 84H380M345 56V160M345 88Q330 120 308 140M345 88Q360 120 382 140" class="dr" stroke="#B5462E" stroke-width="7"/>
+</g>
+<g fill="none" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M80 110H112M104 102l8 8l-8 8M276 110H300M292 102l8 8l-8 8"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="13" text-anchor="middle"><text x="110" y="200">person</text><text x="310" y="200">tree</text></g>
+</svg>

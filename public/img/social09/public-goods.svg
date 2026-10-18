@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A neighbourhood scene with a streetlight, a park, a bridge over a canal, a juice cart and a road</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:top center}@keyframes sw{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}.glow{animation:gl 2s ease-in-out infinite}@keyframes gl{0%,100%{opacity:.25}50%{opacity:.8}}.wt{animation:wt 2s linear infinite}@keyframes wt{0%{transform:translateX(0)}100%{transform:translateX(8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V176H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 172H400V194H0Z" fill="#BFE3A5"/><path d="M0 192H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#7A7FA8"/>
+<path d="M20 216H60M100 216H140M180 216H220M260 216H300M340 216H380" stroke="#FFFFFF" stroke-width="4"/>
+<path d="M36 190V64Q36 54 46 54H58" stroke="#2B2F4A" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M50 52H70L66 62H54Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<ellipse class="glow" cx="60" cy="72" rx="12" ry="8" fill="#F6C453" opacity=".7"/>
+<path d="M98 176V128" stroke="#8A5A34" stroke-width="7"/><circle cx="98" cy="114" r="22" fill="#3FA34D" stroke="#2B7A36" stroke-width="2.5"/>
+<path d="M148 176V136" stroke="#8A5A34" stroke-width="6"/><circle cx="148" cy="124" r="17" fill="#3FA34D" stroke="#2B7A36" stroke-width="2.5"/>
+<rect x="108" y="158" width="32" height="6" rx="2" fill="#C8925A" stroke="#2B2F4A" stroke-width="1.5"/><path d="M112 164V174M136 164V174" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M76 168V184M90 168V184M160 168V184M174 168V184M72 172H178" stroke="#FFFFFF" stroke-width="2.5"/>
+<path d="M196 172H264V194H196Z" fill="#0B93D4" opacity=".6"/><path class="wt" d="M202 182Q208 178 214 182T226 182M236 186Q242 182 248 186T260 186" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+<path d="M184 172Q230 136 276 172" stroke="#A3A8CC" stroke-width="10" fill="none"/><path d="M184 168Q230 132 276 168" stroke="#2B2F4A" stroke-width="2" fill="none"/>
+<path d="M196 160V150M210 152V142M230 148V138M250 152V142M264 160V150M192 152Q230 120 268 152" stroke="#2B2F4A" stroke-width="2" fill="none"/>
+<path d="M300 116L308 98H368L376 116Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M322 98L320 116M346 98L348 116" stroke="#FFFFFF" stroke-width="4"/>
+<path d="M306 116V128M370 116V128" stroke="#2B2F4A" stroke-width="2.5"/><rect x="300" y="128" width="76" height="34" rx="3" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M314 120H324L322 130H316ZM330 120H340L338 130H332Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="314" cy="170" r="8" fill="#2B2F4A"/><circle cx="362" cy="170" r="8" fill="#2B2F4A"/>
+<g class="sw"><g><rect x="341" y="134" width="34" height="20" rx="4" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="346" cy="144" r="1.8" fill="#2B2F4A"/><text x="360" y="148.5" font-size="12" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹20</text></g></g>
+</svg>

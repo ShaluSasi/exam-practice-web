@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img">
+<title>Sacks of wheat beside a farmer, with a market price tag and a maximum price tag</title>
+<style>
+.cap{animation:cap 2.4s ease-in-out infinite}@keyframes cap{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 168H320V184Q320 200 304 200H16Q0 200 0 184Z" fill="#D9C49A"/><path d="M38 170Q34 130 48 112L44 104H76L72 112Q86 130 82 170Z" fill="#E8D3B0" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M54 140L60 128L66 140M60 128V152" stroke="#C98A12" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M88 170Q84 130 98 112L94 104H126L122 112Q136 130 132 170Z" fill="#E8D3B0" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M104 140L110 128L116 140M110 128V152" stroke="#C98A12" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M138 170Q134 130 148 112L144 104H176L172 112Q186 130 182 170Z" fill="#E8D3B0" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M154 140L160 128L166 140M160 128V152" stroke="#C98A12" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<g transform="translate(262 112) scale(1)">
+<path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-8" r="10" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-10 -10Q-9 -20 0 -19Q9 -20 10 -10Q6 -15 0 -14Q-6 -15 -10 -10Z" fill="#2B2F4A"/>
+<circle cx="-3.5" cy="-8" r="1.3" fill="#2B2F4A"/><circle cx="3.5" cy="-8" r="1.3" fill="#2B2F4A"/>
+<path d="M-3 -3Q0 -1 3 -3" stroke="#2B2F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/></g>
+<g><g><rect x="30" y="25" width="160" height="20" rx="4" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="35" cy="35" r="1.8" fill="#2B2F4A"/><text x="112" y="39.5" font-size="12" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Market price: ₹30/kg</text></g></g>
+<g class="cap"><g><rect x="25" y="63" width="170" height="20" rx="4" fill="#FFD6D7" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="30" cy="73" r="1.8" fill="#2B2F4A"/><text x="112" y="77.5" font-size="12" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">Maximum price: ₹20/kg</text></g></g>
+</svg>

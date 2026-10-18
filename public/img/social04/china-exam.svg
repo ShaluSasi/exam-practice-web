@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>An archery target, a horse, a writing brush with a scroll, counting rods and a set of hanging bells</title>
+<style>
+.ar{animation:ar 2s ease-in infinite}
+@keyframes ar{0%{transform:translateX(-50px);opacity:0}20%{opacity:1}70%,100%{transform:translateX(0);opacity:1}}
+.bl{animation:bl 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 0%}
+@keyframes bl{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(70 70)"><circle r="36" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/><circle r="24" fill="#E5484D"/><circle r="12" fill="#FFFFFF"/><circle r="5" fill="#E5484D"/>
+<g class="ar"><path d="M-2 0H-60" stroke="#C8925A" stroke-width="3"/><path d="M-60 0l-8 -6M-60 0l-8 6" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/></g></g>
+<g transform="translate(200 76)" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M-36 0Q-30 -20 0 -18Q20 -18 26 -30L40 -40L46 -26Q40 -10 34 0Q30 14 20 14H-26Q-38 12 -36 0Z" fill="#C8925A"/><path d="M-26 14V40M-14 14V40M14 14V40M24 14V40" fill="none"/><path d="M-36 0Q-48 6 -44 24" fill="none"/><circle cx="36" cy="-26" r="2" fill="#2B2F4A"/></g>
+<g transform="translate(330 70)"><path d="M-40 -30H40" stroke="#8A5A32" stroke-width="4" stroke-linecap="round"/><g class="bl" style="animation-delay:0s"><path d="M-26 -30V-20" stroke="#8A5A32" stroke-width="2"/><path d="M-34 -20H-18L-14 14H-38Z" fill="#D4A63A" stroke="#8A6A1E" stroke-width="2.5" stroke-linejoin="round"/></g><g class="bl" style="animation-delay:0.3s"><path d="M0 -30V-20" stroke="#8A5A32" stroke-width="2"/><path d="M-8 -20H8L12 14H-12Z" fill="#D4A63A" stroke="#8A6A1E" stroke-width="2.5" stroke-linejoin="round"/></g><g class="bl" style="animation-delay:0.6s"><path d="M26 -30V-20" stroke="#8A5A32" stroke-width="2"/><path d="M18 -20H34L38 14H14Z" fill="#D4A63A" stroke="#8A6A1E" stroke-width="2.5" stroke-linejoin="round"/></g></g>
+<g transform="translate(110 170)"><rect x="-50" y="-14" width="100" height="34" rx="4" fill="#FFF3D6" stroke="#C8925A" stroke-width="2.5"/><rect x="-58" y="-16" width="10" height="38" rx="4" fill="#C8925A"/><rect x="48" y="-16" width="10" height="38" rx="4" fill="#C8925A"/><path d="M-30 -6v20M-14 -6v14M2 -6v20M18 -6v10" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M70 -30L40 10" stroke="#8A5A32" stroke-width="5" stroke-linecap="round"/><path d="M40 10l-6 10l10 -6z" fill="#2B2F4A"/></g>
+<g transform="translate(300 170)" stroke-linecap="round"><path d="M-30 -18V22" stroke="#C8925A" stroke-width="5"/><path d="M-22 -18V22" stroke="#C8925A" stroke-width="5"/><path d="M-14 -18V22" stroke="#C8925A" stroke-width="5"/><path d="M-6 -18V22" stroke="#C8925A" stroke-width="5"/><path d="M2 -18V22" stroke="#C8925A" stroke-width="5"/><path d="M12 -14H44" stroke="#C8925A" stroke-width="5"/><path d="M12 0H44" stroke="#C8925A" stroke-width="5"/><path d="M12 14H44" stroke="#C8925A" stroke-width="5"/></g>
+</svg>

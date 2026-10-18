@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" role="img">
+<title>A cross-section of the sea with a jolt on the sea floor and a wave heading towards a coast</title>
+<style>
+.tw{animation:tw 4s ease-in infinite}@keyframes tw{0%{transform:translateX(0) scaleY(.5);opacity:.2}80%{opacity:1}100%{transform:translateX(220px) scaleY(1.4);opacity:1}}
+.qk{animation:qk .5s linear infinite alternate}@keyframes qk{to{transform:translate(2px,-2px)}}
+.bs{animation:bs 1s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes bs{50%{transform:scale(1.25)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H504Q520 0 520 16V110H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="10" y="110" width="420" height="140" fill="#9FD3F0"/>
+<path d="M10 110H420" stroke="#0B6FA4" stroke-width="2" stroke-dasharray="6 5"/>
+<g style="transform-origin:120px 110px"><path class="tw" d="M70 110Q100 110 115 80Q130 110 160 110Z" fill="#7FC6EC" stroke="#0B6FA4" stroke-width="2.5" style="transform-box:fill-box;transform-origin:bottom"/></g>
+<path d="M0 232L118 228L122 214L250 220L380 196L430 120L470 70L520 60V244Q520 260 504 260H16Q0 260 0 244Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="qk" d="M120 236V212" stroke="#E5484D" stroke-width="3"/>
+<g class="bs"><path d="M120 222L126 212L130 222L140 220L132 228L136 238L126 232L116 238L118 228L108 222Z" fill="#F6C453" stroke="#E5484D" stroke-width="2" stroke-linejoin="round"/></g>
+<g transform="translate(470 66) scale(1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g><g transform="translate(500 62) scale(0.8)" stroke-linecap="round"><path d="M0 0Q-3 -18 2 -34" fill="none" stroke="#8A5A34" stroke-width="4"/><path d="M2 -34Q-12 -40 -20 -30M2 -34Q14 -42 22 -32M2 -34Q-4 -46 -14 -46M2 -34Q10 -48 18 -46" fill="none" stroke="#3FA34D" stroke-width="4"/></g>
+<path d="M448 110V38M440 48L448 38L456 48M440 100L448 110L456 100" fill="none" stroke="#E5484D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M430 110H460M430 38H470" stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="3 4"/>
+<circle cx="420" cy="74" r="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="420" y="79" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">?</text>
+</svg>

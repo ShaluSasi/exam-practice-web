@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 320" role="img">
+<title>A rocket rising from the ground through the bands of the atmosphere into space</title>
+<style>
+.rk{animation:up 5s ease-in infinite}@keyframes up{0%{transform:translateY(0)}100%{transform:translateY(-330px)}}
+.fl{animation:fk .3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:top}@keyframes fk{from{transform:scaleY(.7)}to{transform:scaleY(1.2)}}
+.st{animation:tw 3s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<path d="M16 0H204Q220 0 220 16V60H0V16Q0 0 16 0Z" fill="#3A3F6B"/>
+<rect y="60" width="220" height="60" fill="#5A5F9A"/><rect y="120" width="220" height="60" fill="#9097CC"/>
+<rect y="180" width="220" height="60" fill="#C9D6F4"/><rect y="240" width="220" height="60" fill="#E3F2FD"/>
+<path d="M0 300H220V304Q220 320 204 320H16Q0 320 0 304Z" fill="#A9D98E"/>
+<g class="st" fill="#FFFFFF"><circle cx="40" cy="20" r="1.6"/><circle cx="170" cy="36" r="1.6"/><circle cx="120" cy="14" r="1.4"/></g>
+<g class="rk"><g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<path class="fl" d="M104 300Q110 322 116 300Z" fill="#FF8A1F"/>
+<path d="M100 300V262Q110 240 120 262V300Z" fill="#FFFFFF"/>
+<path d="M100 286L92 302H100Z M120 286L128 302H120Z" fill="#E5484D"/>
+<circle cx="110" cy="272" r="5" fill="#0B93D4"/></g></g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img">
+<title>Four linked circles showing a balance, a stack of coins, a flower and a flying bird</title>
+<style>
+.ring{animation:rg 8s linear infinite}@keyframes rg{to{stroke-dashoffset:-220}}.fly{animation:fy 2s ease-in-out infinite alternate}@keyframes fy{to{transform:translateY(-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle class="ring" cx="150" cy="150" r="96" fill="none" stroke="#A3A8CC" stroke-width="5" stroke-dasharray="12 10"/><circle cx="150" cy="54" r="34" fill="#FFE7A3" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="246" cy="150" r="34" fill="#D6F0C8" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="150" cy="246" r="34" fill="#FBD3D3" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="54" cy="150" r="34" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/><g stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M150 36V70M134 44H166" fill="none"/><path d="M134 44L128 58H140ZM166 44L160 58H172Z" fill="#F6C453"/></g><g fill="#F6C453" stroke="#C9962A" stroke-width="2"><ellipse cx="246" cy="164" rx="16" ry="5"/><ellipse cx="246" cy="156" rx="16" ry="5"/><ellipse cx="246" cy="148" rx="16" ry="5"/><ellipse cx="246" cy="140" rx="16" ry="5"/></g><g stroke="#C23B40" stroke-width="2"><circle cx="150" cy="234" r="7" fill="#E5484D"/><circle cx="150" cy="258" r="7" fill="#E5484D"/><circle cx="138" cy="246" r="7" fill="#E5484D"/><circle cx="162" cy="246" r="7" fill="#E5484D"/><circle cx="150" cy="246" r="6" fill="#F6C453"/></g><g class="fly"><path d="M36 152Q46 136 56 150Q66 136 76 152Q66 146 56 156Q46 146 36 152Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img">
+<title>A flat piece of bone with cracks and carved marks</title>
+<style>
+.cr{stroke-dasharray:40;animation:cr 3s ease-in-out infinite}
+@keyframes cr{0%{stroke-dashoffset:40}60%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M40 40Q100 20 160 44Q150 90 126 116Q100 130 74 116Q50 90 40 40Z" fill="#F5EEDF" stroke="#8C7B62" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#6E5E4C" stroke-width="2.2" stroke-linecap="round"><path d="M70 52V78M70 64H82M120 52V84M120 70H132"/><path class="cr" d="M96 60L100 80L92 96L98 112"/></g>
+</svg>

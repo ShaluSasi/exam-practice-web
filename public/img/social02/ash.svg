@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A village under a grey sky with a smoking mountain in the distance</title>
+<style>
+.f{animation:f 3s linear infinite}@keyframes f{from{transform:translateY(-10px);opacity:0}30%{opacity:1}to{transform:translateY(40px);opacity:0}}
+.pl{animation:pl 5s ease-in-out infinite alternate}@keyframes pl{to{transform:translate(10px,-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V175H0V16Q0 0 16 0Z" fill="#D3D7E2"/>
+<g class="pl" fill="#8E8E98" stroke="#6E6E78" stroke-width="2"><circle cx="300" cy="58" r="20"/><circle cx="324" cy="40" r="22"/><circle cx="352" cy="50" r="18"/><circle cx="330" cy="70" r="16"/></g>
+<path d="M240 175L290 92H312L370 175Z" fill="#8E8A99" stroke="#5E5A6A" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="301" cy="92" rx="11" ry="3" fill="#E5484D"/>
+<path d="M0 172H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#BDBDC4" />
+<path d="M0 172Q100 166 200 174T400 170" fill="none" stroke="#9A9AA4" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M60 205V160H150V205Z" fill="#E8DCC6"/><path d="M50 160L105 124L160 160Z" fill="#9FA0A8"/><path d="M92 205V180H112V205" fill="#A88466"/><rect x="124" y="172" width="16" height="14" fill="#C9D3E0"/></g>
+<path d="M54 158L105 126L156 158" fill="none" stroke="#D9D9DF" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M180 218V200L192 186H232L246 200V218Z" fill="#7CA7C9"/><circle cx="196" cy="220" r="8" fill="#2B2F4A"/><circle cx="232" cy="220" r="8" fill="#2B2F4A"/></g>
+<path d="M190 188H232L244 200" fill="none" stroke="#D9D9DF" stroke-width="5" stroke-linecap="round"/>
+<g transform="translate(36 230)"><path d="M-3 0V-30H3V0Z" fill="#6E6E78"/><circle cy="-40" r="16" fill="#A9AAB0" stroke="#6E6E78" stroke-width="2"/></g>
+<g class="f" fill="#6E6E78"><circle cx="40" cy="20" r="2.2" style="animation-delay:0.00s"/><circle cx="90" cy="50" r="2.2" style="animation-delay:0.27s"/><circle cx="140" cy="10" r="2.2" style="animation-delay:0.54s"/><circle cx="180" cy="60" r="2.2" style="animation-delay:0.81s"/><circle cx="230" cy="30" r="2.2" style="animation-delay:1.08s"/><circle cx="20" cy="90" r="2.2" style="animation-delay:1.35s"/><circle cx="120" cy="100" r="2.2" style="animation-delay:1.62s"/><circle cx="260" cy="90" r="2.2" style="animation-delay:1.89s"/><circle cx="330" cy="120" r="2.2" style="animation-delay:2.16s"/><circle cx="60" cy="140" r="2.2" style="animation-delay:2.43s"/><circle cx="380" cy="60" r="2.2" style="animation-delay:2.70s"/></g>
+</svg>

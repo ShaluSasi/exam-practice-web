@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>A river valley with a band of dark soil and green crops between the water and sandy desert</title>
+<style>
+.fl{animation:fl 4s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.35)}}
+.fl{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V70H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="340" cy="36" r="18" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M0 70H400V204Q400 220 384 220H16Q0 220 0 204Z" fill="#F0D9A0"/>
+<path d="M0 104Q200 92 400 104V188Q200 200 0 188Z" fill="#3B3428"/>
+<g stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round"><path d="M20 120v-10M30 182v-10"/><path d="M60 120v-10M70 182v-10"/><path d="M100 120v-10M110 182v-10"/><path d="M140 120v-10M150 182v-10"/><path d="M180 120v-10M190 182v-10"/><path d="M220 120v-10M230 182v-10"/><path d="M260 120v-10M270 182v-10"/><path d="M300 120v-10M310 182v-10"/><path d="M340 120v-10M350 182v-10"/><path d="M380 120v-10M390 182v-10"/></g>
+<path class="fl" d="M0 140Q100 130 200 142T400 140V158Q300 166 200 156T0 160Z" fill="#5FB4E6" stroke="#0B93D4" stroke-width="2"/>
+<g><path d="M60 92V64" stroke="#8A5A32" stroke-width="4"/><path d="M60 64q-14 -4 -20 6M60 64q14 -4 20 6M60 64q-8 -12 -18 -12M60 64q8 -12 18 -12" fill="none" stroke="#3FA34D" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M330 94V66" stroke="#8A5A32" stroke-width="4"/><path d="M330 66q-14 -4 -20 6M330 66q14 -4 20 6M330 66q-8 -12 -18 -12M330 66q8 -12 18 -12" fill="none" stroke="#3FA34D" stroke-width="3.5" stroke-linecap="round"/></g>
+</svg>

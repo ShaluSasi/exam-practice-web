@@ -1,0 +1,2285 @@
+[
+  {
+    "id": "in-cbse-9-soc-03-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Troposphere",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Rain, fog and hail all form in one layer of the atmosphere. Tap that layer.",
+    "image": {
+      "src": "/img/social03/atm-column.svg",
+      "alt": "A column of the atmosphere divided into five bands, with heights marked and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "exo",
+        "x": 55,
+        "y": 9.5,
+        "label": "Exosphere"
+      },
+      {
+        "id": "thermo",
+        "x": 55,
+        "y": 28.6,
+        "label": "Thermosphere"
+      },
+      {
+        "id": "meso",
+        "x": 55,
+        "y": 48.1,
+        "label": "Mesosphere"
+      },
+      {
+        "id": "strat",
+        "x": 55,
+        "y": 66.7,
+        "label": "Stratosphere"
+      },
+      {
+        "id": "tropo",
+        "x": 55,
+        "y": 84.5,
+        "label": "Troposphere"
+      }
+    ],
+    "answer": "tropo",
+    "hint": "It is the layer we live and breathe in, closest to the ground.",
+    "explanation": "The **troposphere** is the lowest layer, with an average height of about **12 km**. It holds the air we breathe and most of the water vapour and clouds, so nearly all weather (rain, fog, hail) happens here. Its upper boundary is the **tropopause**."
+  },
+  {
+    "id": "in-cbse-9-soc-03-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Composition of the atmosphere",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A large jar holds **500 litres** of dry air. Using the composition of the atmosphere, about how much of this air is **nitrogen**?",
+    "image": {
+      "src": "/img/social03/air-jar.svg",
+      "alt": "A jar labelled 500 L filled with moving gas molecules of different colours"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "78 L"
+      },
+      {
+        "id": "b",
+        "text": "105 L"
+      },
+      {
+        "id": "c",
+        "text": "390 L"
+      },
+      {
+        "id": "d",
+        "text": "39 L"
+      }
+    ],
+    "answer": "c",
+    "hint": "Nitrogen makes up about 78% of air. Find 78% of 500.",
+    "explanation": "Nitrogen is about **78%** of air: $$\\dfrac{78}{100} \\times 500 = 390\\ \\text{L}$$ 78 L just copies the percentage, 105 L is 21% (that is **oxygen**), and 39 L comes from dividing by 1000 instead of 100."
+  },
+  {
+    "id": "in-cbse-9-soc-03-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Composition of the atmosphere",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "This pie chart shows the gases in dry air, with the tiniest slice magnified on the right. Tap the part that shows **oxygen**.",
+    "image": {
+      "src": "/img/social03/composition-pie.svg",
+      "alt": "A pie chart of gases in air with a magnified bar for the smallest slice"
+    },
+    "spots": [
+      {
+        "id": "n2",
+        "x": 51.6,
+        "y": 66.3,
+        "label": "Nitrogen (78%)"
+      },
+      {
+        "id": "o2",
+        "x": 28.2,
+        "y": 32.7,
+        "label": "Oxygen (21%)"
+      },
+      {
+        "id": "ar",
+        "x": 87.5,
+        "y": 38.5,
+        "label": "Argon (0.93%)"
+      },
+      {
+        "id": "co2",
+        "x": 87.5,
+        "y": 67.3,
+        "label": "Carbon dioxide (0.04%)"
+      },
+      {
+        "id": "oth",
+        "x": 87.5,
+        "y": 79.2,
+        "label": "Other gases (0.03%)"
+      }
+    ],
+    "answer": "o2",
+    "hint": "Oxygen is the second most abundant gas, about one-fifth of the air.",
+    "explanation": "**Nitrogen (78%)** and **oxygen (21%)** are the two main gases and together make up 99% of air. The last 1% is mostly **argon (0.93%)**, with tiny amounts of carbon dioxide (0.04%) and other gases such as helium, neon, krypton, xenon, ozone and hydrogen."
+  },
+  {
+    "id": "in-cbse-9-soc-03-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Composition of the atmosphere",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which part of the atmosphere **varies** in amount, usually between **0.1 and 0.4 per cent**, and plays a big role in forming clouds and precipitation?",
+    "image": {
+      "src": "/img/social03/air-jar.svg",
+      "alt": "A jar of air filled with moving gas molecules"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Argon"
+      },
+      {
+        "id": "b",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "c",
+        "text": "Nitrogen"
+      },
+      {
+        "id": "d",
+        "text": "Water vapour"
+      }
+    ],
+    "answer": "d",
+    "hint": "It comes from water evaporating from land and water bodies.",
+    "explanation": "**Water vapour** usually makes up about 0.1–0.4 per cent of the atmosphere, but the amount changes from place to place and day to day. When it condenses it forms clouds and precipitation. Nitrogen and argon stay almost constant, and carbon dioxide is only about 0.04%."
+  },
+  {
+    "id": "in-cbse-9-soc-03-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Layers of the atmosphere",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "A rocket climbs straight up from the ground into space. Arrange the layers of the atmosphere in the order it passes through them.",
+    "image": {
+      "src": "/img/social03/rocket-climb.svg",
+      "alt": "Animation of a rocket rising through bands of the atmosphere"
+    },
+    "items": [
+      {
+        "id": "meso",
+        "text": "Mesosphere"
+      },
+      {
+        "id": "exo",
+        "text": "Exosphere"
+      },
+      {
+        "id": "tropo",
+        "text": "Troposphere"
+      },
+      {
+        "id": "thermo",
+        "text": "Thermosphere"
+      },
+      {
+        "id": "strat",
+        "text": "Stratosphere"
+      }
+    ],
+    "answer": [
+      "tropo",
+      "strat",
+      "meso",
+      "thermo",
+      "exo"
+    ],
+    "startLabel": "Ground",
+    "endLabel": "Outer space",
+    "hint": "The ozone layer is in the second layer; auroras glow in the fourth.",
+    "explanation": "From the surface up: **troposphere** (to about 12 km), **stratosphere** (to 50 km), **mesosphere** (to 80 km), **thermosphere** (80–700 km) and the **exosphere** at the top. The layers are marked off by changes in temperature and density with height."
+  },
+  {
+    "id": "in-cbse-9-soc-03-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Stratosphere and ozone",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the layer that contains the **ozone layer**, which filters out the Sun's harmful ultraviolet radiation.",
+    "image": {
+      "src": "/img/social03/atm-column.svg",
+      "alt": "A column of the atmosphere divided into five bands, with heights marked and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "exo",
+        "x": 55,
+        "y": 9.5,
+        "label": "Exosphere"
+      },
+      {
+        "id": "thermo",
+        "x": 55,
+        "y": 28.6,
+        "label": "Thermosphere"
+      },
+      {
+        "id": "meso",
+        "x": 55,
+        "y": 48.1,
+        "label": "Mesosphere"
+      },
+      {
+        "id": "strat",
+        "x": 55,
+        "y": 66.7,
+        "label": "Stratosphere"
+      },
+      {
+        "id": "tropo",
+        "x": 55,
+        "y": 84.5,
+        "label": "Troposphere"
+      }
+    ],
+    "answer": "strat",
+    "hint": "It lies just above the layer where weather happens, up to about 50 km.",
+    "explanation": "The **stratosphere** extends from the tropopause up to about **50 km** and contains a layer of **ozone** gas. Ozone shields life on the Earth by filtering harmful radiation, including ultraviolet rays. The **stratopause** separates it from the mesosphere."
+  },
+  {
+    "id": "in-cbse-9-soc-03-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Stratosphere",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/social03/plane-clouds.svg",
+      "alt": "Animation of an aeroplane cruising high above storm clouds"
+    },
+    "assertion": "Aeroplanes prefer to fly in the stratosphere.",
+    "reason": "The stratosphere is free of clouds and other weather disturbances.",
+    "answer": "a",
+    "hint": "Think about what makes a flight bumpy.",
+    "explanation": "Both are true, and R explains A. Clouds, storms and rain belong to the **troposphere**. Above the tropopause the **stratosphere** is calm and cloud-free, so planes get a smoother, safer ride there."
+  },
+  {
+    "id": "in-cbse-9-soc-03-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Mesosphere",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Most **meteorites** entering from space burn up before reaching the ground. Tap the layer where this happens.",
+    "image": {
+      "src": "/img/social03/atm-column.svg",
+      "alt": "A column of the atmosphere divided into five bands, with heights marked and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "exo",
+        "x": 55,
+        "y": 9.5,
+        "label": "Exosphere"
+      },
+      {
+        "id": "thermo",
+        "x": 55,
+        "y": 28.6,
+        "label": "Thermosphere"
+      },
+      {
+        "id": "meso",
+        "x": 55,
+        "y": 48.1,
+        "label": "Mesosphere"
+      },
+      {
+        "id": "strat",
+        "x": 55,
+        "y": 66.7,
+        "label": "Stratosphere"
+      },
+      {
+        "id": "tropo",
+        "x": 55,
+        "y": 84.5,
+        "label": "Troposphere"
+      }
+    ],
+    "answer": "meso",
+    "hint": "It is the third layer up, extending to about 80 km.",
+    "explanation": "The **mesosphere** lies above the stratosphere and extends to about **80 km**. Most meteorites burn up here, which we see as shooting stars. Like the troposphere, temperature **falls** with height in this layer."
+  },
+  {
+    "id": "in-cbse-9-soc-03-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Temperature in the layers",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "On this graph of temperature against height, tap the part of the line where temperature **rises very rapidly** because gas molecules absorb X-rays and short-wave ultraviolet radiation from the Sun.",
+    "image": {
+      "src": "/img/social03/temp-profile.svg",
+      "alt": "A graph of air temperature against height with markers on the line"
+    },
+    "spots": [
+      {
+        "id": "tropo",
+        "x": 43.1,
+        "y": 82.8,
+        "label": "0–12 km (troposphere)"
+      },
+      {
+        "id": "strat",
+        "x": 41.7,
+        "y": 66.9,
+        "label": "12–50 km (stratosphere)"
+      },
+      {
+        "id": "meso",
+        "x": 36.1,
+        "y": 45.1,
+        "label": "50–80 km (mesosphere)"
+      },
+      {
+        "id": "thermo",
+        "x": 54.2,
+        "y": 23.4,
+        "label": "Above 80 km (thermosphere)"
+      }
+    ],
+    "answer": "thermo",
+    "hint": "Look above 80 km, where the line swings sharply towards 'hotter'.",
+    "explanation": "In the **thermosphere** (about 80–700 km), gas molecules absorb the Sun's X-rays and short-wave UV, so temperature climbs very steeply with height. Temperature **falls** with height only in the **troposphere** and **mesosphere**. The thermosphere, which includes the **ionosphere**, also reflects radio waves back to the Earth."
+  },
+  {
+    "id": "in-cbse-9-soc-03-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Aurora",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The word *aurora* comes from Latin for 'dawn'. Where and how does the **Aurora Australis** form?",
+    "image": {
+      "src": "/img/social03/aurora.svg",
+      "alt": "Animation of glowing green and pink curtains of light over a snowy land"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "In the mesosphere near the equator, when meteors burn up"
+      },
+      {
+        "id": "b",
+        "text": "In the thermosphere of the Southern Hemisphere, when charged particles from the Sun make gases glow"
+      },
+      {
+        "id": "c",
+        "text": "In the stratosphere of the Northern Hemisphere, when ozone absorbs ultraviolet rays"
+      },
+      {
+        "id": "d",
+        "text": "In the troposphere of the Southern Hemisphere, when lightning lights up the clouds"
+      }
+    ],
+    "answer": "b",
+    "hint": "'Australis' means southern; auroras happen in the same layer that reflects radio waves.",
+    "explanation": "The **solar wind** (charged particles from the Sun) is steered towards the Earth's magnetic poles. As the particles hit gases in the **thermosphere**, each gas glows with its own colour. Near the North Pole this is the **Aurora Borealis**, and near the South Pole the **Aurora Australis**."
+  },
+  {
+    "id": "in-cbse-9-soc-03-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Exosphere",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Light gases such as **helium and hydrogen** slowly drift off into space. From which layer does this happen, and why?",
+    "image": {
+      "src": "/img/social03/atm-column.svg",
+      "alt": "A column of the atmosphere divided into five bands, with heights marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Exosphere, because the air is very thin and the pull of gravity is weak"
+      },
+      {
+        "id": "b",
+        "text": "Mesosphere, because temperature falls with height there"
+      },
+      {
+        "id": "c",
+        "text": "Stratosphere, because ozone pushes light gases upwards"
+      },
+      {
+        "id": "d",
+        "text": "Troposphere, because winds blow the gases away"
+      }
+    ],
+    "answer": "a",
+    "hint": "It is the uppermost layer, farthest from the Earth's pull.",
+    "explanation": "The atmosphere is held around the Earth by **gravity**, which is why air is densest near the surface. In the topmost **exosphere** the air is extremely thin and gravity is weak, so light gases like helium and hydrogen can escape into space."
+  },
+  {
+    "id": "in-cbse-9-soc-03-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Layers of the atmosphere",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Label the diagram. Match each numbered band with the name of the layer.",
+    "image": {
+      "src": "/img/social03/atm-column.svg",
+      "alt": "A column of the atmosphere with four numbered bands",
+      "markers": [
+        {
+          "x": 55,
+          "y": 28.6,
+          "label": "1"
+        },
+        {
+          "x": 55,
+          "y": 84.5,
+          "label": "2"
+        },
+        {
+          "x": 55,
+          "y": 48.1,
+          "label": "3"
+        },
+        {
+          "x": 55,
+          "y": 66.7,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "Band 1"
+      },
+      {
+        "id": "p2",
+        "text": "Band 2"
+      },
+      {
+        "id": "p3",
+        "text": "Band 3"
+      },
+      {
+        "id": "p4",
+        "text": "Band 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "strat",
+        "text": "Stratosphere"
+      },
+      {
+        "id": "thermo",
+        "text": "Thermosphere"
+      },
+      {
+        "id": "exo",
+        "text": "Exosphere"
+      },
+      {
+        "id": "tropo",
+        "text": "Troposphere"
+      },
+      {
+        "id": "meso",
+        "text": "Mesosphere"
+      }
+    ],
+    "pairs": {
+      "p1": "thermo",
+      "p2": "tropo",
+      "p3": "meso",
+      "p4": "strat"
+    },
+    "hint": "Use the heights on the left: 12 km, 50 km, 80 km and 700 km mark the tops of the first four layers.",
+    "explanation": "Band 2 (0–12 km) is the **troposphere**, band 4 (12–50 km) the **stratosphere**, band 3 (50–80 km) the **mesosphere** and band 1 (80–700 km) the **thermosphere**. The **exosphere** is the unnumbered top band, so it was the distractor."
+  },
+  {
+    "id": "in-cbse-9-soc-03-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Atmospheric pressure",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/social03/pressure-body.svg",
+      "alt": "Animation of air pushing inwards on a child from every side and the body pushing outwards"
+    },
+    "assertion": "We do not feel the weight of the air pressing on our bodies.",
+    "reason": "Air presses on us from all sides, and the pressure inside our bodies pushes back equally.",
+    "answer": "a",
+    "hint": "What happens when two equal pushes act in opposite directions?",
+    "explanation": "Both are true and R explains A. The air above us does exert a large force, but it acts from **all sides**, and the pressure inside our bodies is equal to atmospheric pressure. The two cancel, so we do not feel it."
+  },
+  {
+    "id": "in-cbse-9-soc-03-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Weather and climate",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which statement describes **climate** rather than weather?",
+    "image": {
+      "src": "/img/social03/weather-climate.svg",
+      "alt": "One calendar page under today's sky beside a grid of many years of calendar pages"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is drizzling in Pune this evening."
+      },
+      {
+        "id": "b",
+        "text": "Yesterday was hot and sticky in Kolkata."
+      },
+      {
+        "id": "c",
+        "text": "Over the past 30 years and more, Jaisalmer has had very hot summers and little rain."
+      },
+      {
+        "id": "d",
+        "text": "A strong wind is blowing across the field this morning."
+      }
+    ],
+    "answer": "c",
+    "hint": "Climate is about the long-term average, not one hour or one day.",
+    "explanation": "**Weather** is the hour-to-hour and day-to-day condition of the atmosphere, so this evening's drizzle, yesterday's heat and this morning's wind are all weather. **Climate** is the sum total of weather conditions over a large area for a long period, usually **thirty years or more**."
+  },
+  {
+    "id": "in-cbse-9-soc-03-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Insolation and temperature zones",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "**Insolation** is the incoming solar energy intercepted by the Earth. Tap the zone where the Sun's rays strike **most directly**, so insolation is greatest.",
+    "image": {
+      "src": "/img/social03/temp-zones.svg",
+      "alt": "The Earth lit by parallel sunrays with shaded bands between marked latitudes"
+    },
+    "spots": [
+      {
+        "id": "nFrigid",
+        "x": 50,
+        "y": 11.3,
+        "label": "North Frigid Zone"
+      },
+      {
+        "id": "nTemp",
+        "x": 50,
+        "y": 24,
+        "label": "North Temperate Zone"
+      },
+      {
+        "id": "torrid",
+        "x": 55.6,
+        "y": 43.3,
+        "label": "Torrid Zone"
+      },
+      {
+        "id": "sTemp",
+        "x": 50,
+        "y": 76,
+        "label": "South Temperate Zone"
+      },
+      {
+        "id": "sFrigid",
+        "x": 50,
+        "y": 88.7,
+        "label": "South Frigid Zone"
+      }
+    ],
+    "answer": "torrid",
+    "hint": "Look between the Tropic of Cancer (23½°N) and the Tropic of Capricorn (23½°S).",
+    "explanation": "Between 23½°N and 23½°S lies the **Torrid Zone**, where sunlight strikes most directly and insolation is highest. Towards the poles the rays arrive at a low angle and spread over more area, so the **Temperate** and then the **Frigid** zones are cooler."
+  },
+  {
+    "id": "in-cbse-9-soc-03-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Insolation and temperature zones",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/social03/temp-zones.svg",
+      "alt": "The Earth lit by parallel sunrays with shaded bands between marked latitudes"
+    },
+    "assertion": "Temperature generally decreases from the equator towards the poles.",
+    "reason": "The amount of insolation increases from the equator towards the poles.",
+    "answer": "c",
+    "hint": "Where on the globe do the rays hit head-on?",
+    "explanation": "A is true but R is false. Insolation **decreases** from the equator towards the poles, because the Sun's rays strike the high latitudes at a low angle. Less insolation is the reason temperature falls towards the poles."
+  },
+  {
+    "id": "in-cbse-9-soc-03-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Humidity",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "On a warm, humid day, the washing takes ages to dry and you feel sticky. Why?",
+    "image": {
+      "src": "/img/social03/humidity-day.svg",
+      "alt": "Animation of wet clothes dripping on a line on a warm, sticky day while a child sweats"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Warm air can hold less water vapour than cool air"
+      },
+      {
+        "id": "b",
+        "text": "The air already holds a lot of water vapour, so water and sweat evaporate slowly"
+      },
+      {
+        "id": "c",
+        "text": "Humidity means there is a lot of dust in the air"
+      },
+      {
+        "id": "d",
+        "text": "High air pressure stops all evaporation"
+      }
+    ],
+    "answer": "b",
+    "hint": "Humidity is about water vapour in the air.",
+    "explanation": "**Humidity** is the presence of water vapour in the air. Warmer air can hold **more** water vapour, so humidity can be high on warm days. When the air is already moist, water from clothes and sweat from skin evaporates slowly, and we feel uncomfortable."
+  },
+  {
+    "id": "in-cbse-9-soc-03-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Precipitation",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are forms of **precipitation**? Select all that apply.",
+    "image": {
+      "src": "/img/social03/precip-forms.svg",
+      "alt": "Animation of a large cloud with several kinds of water and ice falling from it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Drizzle"
+      },
+      {
+        "id": "b",
+        "text": "Fog"
+      },
+      {
+        "id": "c",
+        "text": "Sleet"
+      },
+      {
+        "id": "d",
+        "text": "Hail"
+      },
+      {
+        "id": "e",
+        "text": "Water vapour"
+      },
+      {
+        "id": "f",
+        "text": "Snow"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "f"
+    ],
+    "hint": "Precipitation is water that falls to the Earth from the sky under gravity.",
+    "explanation": "Precipitation is condensed water that falls to the ground due to gravity: **drizzle, rain, snow, sleet and hail**. Rain is the most common form; it lowers the temperature and refills most of our groundwater. Fog hangs in the air rather than falling, and water vapour is an invisible gas."
+  },
+  {
+    "id": "in-cbse-9-soc-03-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Precipitation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that lead to **precipitation** in the correct order.",
+    "image": {
+      "src": "/img/social03/rain-cycle.svg",
+      "alt": "Animation of water vapour rising from the sea, a cloud forming over hills and drops falling"
+    },
+    "items": [
+      {
+        "id": "cond",
+        "text": "Water vapour condenses into tiny droplets"
+      },
+      {
+        "id": "evap",
+        "text": "Water evaporates from land and water bodies"
+      },
+      {
+        "id": "fall",
+        "text": "Drops fall to the Earth due to gravity"
+      },
+      {
+        "id": "sat",
+        "text": "Part of the atmosphere becomes saturated with water vapour"
+      },
+      {
+        "id": "vap",
+        "text": "Water vapour collects in the air, raising humidity"
+      }
+    ],
+    "answer": [
+      "evap",
+      "vap",
+      "sat",
+      "cond",
+      "fall"
+    ],
+    "hint": "Start with the Sun warming the sea, and end with something falling.",
+    "explanation": "Water **evaporates** and becomes water vapour, which raises **humidity**. When part of the atmosphere becomes **saturated**, the vapour **condenses** and the drops '**precipitate**', falling under gravity. Prevailing winds, mountains and seasons all affect how much precipitation a place gets."
+  },
+  {
+    "id": "in-cbse-9-soc-03-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Atmospheric pressure",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which statements about **air pressure** are correct? Select all that apply.",
+    "image": {
+      "src": "/img/social03/pressure-altitude.svg",
+      "alt": "Air particles crowded near the sea and spread out near a mountain top"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Air pressure is highest at sea level"
+      },
+      {
+        "id": "b",
+        "text": "Air pressure increases as you climb a mountain"
+      },
+      {
+        "id": "c",
+        "text": "Air always moves from high-pressure areas to low-pressure areas"
+      },
+      {
+        "id": "d",
+        "text": "Low pressure is linked with cloudy skies and wet weather"
+      },
+      {
+        "id": "e",
+        "text": "Cold, heavy air rises and creates low pressure"
+      },
+      {
+        "id": "f",
+        "text": "Air pressure falls rapidly as we go higher in the atmosphere"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "f"
+    ],
+    "hint": "Count how many air particles are pressing down at the bottom compared with the top of the mountain.",
+    "explanation": "Air pressure is the weight of air pressing on the surface. It is **highest at sea level** and **falls rapidly with altitude**. Warm air rises to make **low pressure** (cloudy, wet); cold, heavy air **sinks** to make **high pressure** (clear, sunny). Air always moves from high to low pressure."
+  },
+  {
+    "id": "in-cbse-9-soc-03-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Horizontal pressure distribution",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Air over the hot ground is rising, and air over the icy ground is sinking. Which description of the two areas is correct?",
+    "image": {
+      "src": "/img/social03/rising-sinking.svg",
+      "alt": "Animation of warm air bubbles rising over hot ground and cold air bubbles sinking over icy ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Hot ground: high pressure, clear skies. Icy ground: low pressure, wet weather."
+      },
+      {
+        "id": "b",
+        "text": "Both areas: high pressure, because the air is moving."
+      },
+      {
+        "id": "c",
+        "text": "Hot ground: low pressure, clear and sunny. Icy ground: high pressure, cloudy and wet."
+      },
+      {
+        "id": "d",
+        "text": "Hot ground: low pressure, cloudy and wet. Icy ground: high pressure, clear and sunny."
+      }
+    ],
+    "answer": "d",
+    "hint": "Rising air leaves less air pressing down on the ground.",
+    "explanation": "Where temperatures are high, air heats up and **rises**, creating a **low-pressure** area with cloudy skies and wet weather. Cold air is heavy and **sinks**, creating a **high-pressure** area with clear, sunny skies. Option C gets the pressures right but swaps the weather."
+  },
+  {
+    "id": "in-cbse-9-soc-03-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Wind and pressure",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These rings join places of equal air pressure (in millibars). Wind blows from high to low pressure. Tap the place that the winds blow **towards**.",
+    "image": {
+      "src": "/img/social03/isobars.svg",
+      "alt": "Rings of equal air pressure with values in millibars and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "out",
+        "x": 93.1,
+        "y": 90.8,
+        "label": "Outside the 1008 ring"
+      },
+      {
+        "id": "b1008",
+        "x": 50,
+        "y": 13.8,
+        "label": "Between 1008 and 1000"
+      },
+      {
+        "id": "b1000",
+        "x": 22.5,
+        "y": 50,
+        "label": "Between 1000 and 992"
+      },
+      {
+        "id": "b992",
+        "x": 65.6,
+        "y": 50,
+        "label": "Between 992 and 984"
+      },
+      {
+        "id": "centre",
+        "x": 50,
+        "y": 50,
+        "label": "Centre, below 984"
+      }
+    ],
+    "answer": "centre",
+    "hint": "Read the numbers: they get smaller as you move in which direction?",
+    "explanation": "The values fall from 1008 mb on the outer ring to 984 mb in the middle, so the **centre has the lowest pressure**. **Wind** is the movement of air from high to low pressure, so air flows inwards towards it. The Earth's rotation bends this flow, so winds curve rather than heading straight in."
+  },
+  {
+    "id": "in-cbse-9-soc-03-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Wind",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Look at the compass and the windsock. What is the name of this wind?",
+    "image": {
+      "src": "/img/social03/windsock.svg",
+      "alt": "A compass and a windsock with the wind blowing across a field"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Easterly"
+      },
+      {
+        "id": "b",
+        "text": "Northerly"
+      },
+      {
+        "id": "c",
+        "text": "Westerly"
+      },
+      {
+        "id": "d",
+        "text": "Southerly"
+      }
+    ],
+    "answer": "c",
+    "hint": "Winds are named after the direction they blow **from**, not where they go.",
+    "explanation": "The wind is coming **from the west** and blowing towards the east, so it is a **westerly**. Calling it 'easterly' is the classic mistake of naming it after where it is going."
+  },
+  {
+    "id": "in-cbse-9-soc-03-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Wind speeds and effects",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each numbered scene shows the effect of a wind. Match each scene with its category and speed.",
+    "image": {
+      "src": "/img/social03/wind-scale.svg",
+      "alt": "Four small scenes showing effects of winds of different strengths, with numbered markers",
+      "markers": [
+        {
+          "x": 4.5,
+          "y": 12.5,
+          "label": "1"
+        },
+        {
+          "x": 29.5,
+          "y": 12.5,
+          "label": "2"
+        },
+        {
+          "x": 54.5,
+          "y": 12.5,
+          "label": "3"
+        },
+        {
+          "x": 79.5,
+          "y": 12.5,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "Scene 1"
+      },
+      {
+        "id": "s2",
+        "text": "Scene 2"
+      },
+      {
+        "id": "s3",
+        "text": "Scene 3"
+      },
+      {
+        "id": "s4",
+        "text": "Scene 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "calm",
+        "text": "Calm, 0–1 km/h"
+      },
+      {
+        "id": "light",
+        "text": "Light breeze, 6–11 km/h"
+      },
+      {
+        "id": "strong",
+        "text": "Strong breeze, 39–49 km/h"
+      },
+      {
+        "id": "storm",
+        "text": "Storm, 103–117 km/h"
+      }
+    ],
+    "pairs": {
+      "s1": "strong",
+      "s2": "calm",
+      "s3": "storm",
+      "s4": "light"
+    },
+    "hint": "Smoke going straight up means almost no wind; a fallen tree means a very violent wind.",
+    "explanation": "In **calm** air (0–1 km/h) smoke rises vertically (scene 2). A **light breeze** (6–11 km/h) rustles leaves and turns a wind vane (scene 4). A **strong breeze** (39–49 km/h) sways large branches and makes umbrellas hard to use (scene 1). A **storm** (103–117 km/h) is rare and causes widespread damage (scene 3)."
+  },
+  {
+    "id": "in-cbse-9-soc-03-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Land and sea breeze",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "It is a hot, sunny afternoon at the coast. Tap where a **low-pressure** region forms, causing a sea breeze.",
+    "image": {
+      "src": "/img/social03/coast-day.svg",
+      "alt": "A sunny afternoon at the coast with land on the left and sea on the right"
+    },
+    "spots": [
+      {
+        "id": "landAir",
+        "x": 25,
+        "y": 50.8,
+        "label": "Air over the land"
+      },
+      {
+        "id": "seaAir",
+        "x": 75,
+        "y": 58.3,
+        "label": "Air over the sea"
+      },
+      {
+        "id": "seaWater",
+        "x": 75,
+        "y": 89.6,
+        "label": "Deep in the sea water"
+      },
+      {
+        "id": "sky",
+        "x": 69.4,
+        "y": 20.8,
+        "label": "High in the sky over the sea"
+      }
+    ],
+    "answer": "landAir",
+    "hint": "Which heats up faster in the sun, land or water?",
+    "explanation": "By day, especially in the afternoon, the **land becomes warmer than the sea**. Warm air over the land rises and forms a **low-pressure** region, so cooler air from the sea blows in: the **sea breeze**. Such local winds help keep coastal climates moderate."
+  },
+  {
+    "id": "in-cbse-9-soc-03-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Land and sea breeze",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture correctly shows a **land breeze**?",
+    "image": {
+      "src": "/img/social03/coast-day.svg",
+      "alt": "A coast with land on the left and sea on the right"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture P",
+        "image": {
+          "src": "/img/social03/breeze-3.svg",
+          "alt": "A coast with a wind arrow near the ground"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture Q",
+        "image": {
+          "src": "/img/social03/breeze-2.svg",
+          "alt": "A coast with a wind arrow near the ground"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture R",
+        "image": {
+          "src": "/img/social03/breeze-4.svg",
+          "alt": "A coast with a wind arrow near the ground"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture S",
+        "image": {
+          "src": "/img/social03/breeze-1.svg",
+          "alt": "A coast with a wind arrow near the ground"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Check two things: the time of day (Sun or Moon) and the direction of the arrow.",
+    "explanation": "A **land breeze** blows from **land to sea at night**, because land cools faster than the sea, so the sea is warmer and has lower pressure. Picture S (Moon, arrow towards the sea) is correct. Q has the wrong direction for night, R is a daytime sea breeze, and P has the right direction but at the wrong time."
+  },
+  {
+    "id": "in-cbse-9-soc-03-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Land and sea breeze",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/social03/coast-day.svg",
+      "alt": "A sunny afternoon at the coast with land on the left and sea on the right"
+    },
+    "assertion": "A sea breeze blows from the sea towards the land in the afternoon.",
+    "reason": "Land cools faster than the sea at night.",
+    "answer": "b",
+    "hint": "Is R about the same time of day as A?",
+    "explanation": "Both statements are true, but R does not explain A. The **sea breeze** happens because the land **heats** faster than the sea by day, creating low pressure over land. Land **cooling** faster at night explains the **land breeze** instead."
+  },
+  {
+    "id": "in-cbse-9-soc-03-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Seasons in India",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "The India Meteorological Department (IMD) recognises four seasons. Match each season with its description.",
+    "image": {
+      "src": "/img/social03/seasons-wheel.svg",
+      "alt": "Animation of a year wheel of twelve months with a turning pointer and weather icons"
+    },
+    "left": [
+      {
+        "id": "win",
+        "text": "Winter"
+      },
+      {
+        "id": "sum",
+        "text": "Summer (pre-monsoon)"
+      },
+      {
+        "id": "mon",
+        "text": "Monsoon (advancing)"
+      },
+      {
+        "id": "post",
+        "text": "Post-monsoon (retreating)"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "June to September; humid south-west winds sweep across the country"
+      },
+      {
+        "id": "r2",
+        "text": "October to December; October and November usually cloudless in the north-west"
+      },
+      {
+        "id": "r3",
+        "text": "December and January are coldest; about 10–15 °C in the north-west"
+      },
+      {
+        "id": "r4",
+        "text": "April to June; average 32–40 °C across most of inland India"
+      }
+    ],
+    "pairs": {
+      "win": "r3",
+      "sum": "r4",
+      "mon": "r1",
+      "post": "r2"
+    },
+    "hint": "The monsoon is the rainy season; 'post' means after.",
+    "explanation": "India has a **tropical monsoon** climate. **Winter** runs from December to early April; **summer** from April to June (hottest month April in the west and south, May in the north); the **monsoon** from June to September; and the **post-monsoon** from October to December. The Himalayan states also have **autumn and spring**."
+  },
+  {
+    "id": "in-cbse-9-soc-03-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Traditional Indian seasons",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Traditionally, India has **six seasons (ṛtus)** of about two months each. Match each ṛtu with its Gregorian months.",
+    "image": {
+      "src": "/img/social03/ritu-wheel.svg",
+      "alt": "Animation of a wheel of six seasons, each slice with its own picture"
+    },
+    "left": [
+      {
+        "id": "vas",
+        "text": "Vasanta"
+      },
+      {
+        "id": "var",
+        "text": "Varṣhā"
+      },
+      {
+        "id": "sha",
+        "text": "Śharad"
+      },
+      {
+        "id": "shi",
+        "text": "Śhiśhira"
+      }
+    ],
+    "right": [
+      {
+        "id": "ja",
+        "text": "January–February"
+      },
+      {
+        "id": "ma",
+        "text": "March–April"
+      },
+      {
+        "id": "mj",
+        "text": "May–June"
+      },
+      {
+        "id": "jl",
+        "text": "July–August"
+      },
+      {
+        "id": "so",
+        "text": "September–October"
+      }
+    ],
+    "pairs": {
+      "vas": "ma",
+      "var": "jl",
+      "sha": "so",
+      "shi": "ja"
+    },
+    "hint": "Vasanta is spring and Varṣhā is the rainy season.",
+    "explanation": "The six ṛtus divide the year into two-month parts: **Vasanta** (March–April), Grīṣhma (May–June), **Varṣhā** (July–August), **Śharad** (September–October), Hemanta (November–December) and **Śhiśhira** (January–February). May–June (Grīṣhma, summer) was the distractor."
+  },
+  {
+    "id": "in-cbse-9-soc-03-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Monsoon",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Sailors visiting India long ago used winds that reversed direction with the seasons. Arab traders named this **'monsoon'** from the Arabic word *mausim*. What does *mausim* mean?",
+    "image": {
+      "src": "/img/social03/sailing-ship.svg",
+      "alt": "Animation of an old sailing ship with winds that blow one way and then the opposite way"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Season"
+      },
+      {
+        "id": "b",
+        "text": "Storm"
+      },
+      {
+        "id": "c",
+        "text": "Rain cloud"
+      },
+      {
+        "id": "d",
+        "text": "Sea wind"
+      }
+    ],
+    "answer": "a",
+    "hint": "A monsoon is a reversal of winds that comes round at a fixed time of year.",
+    "explanation": "*Mausim* means **season**. A **monsoon** is the **seasonal reversal of wind direction** during a year. Sailing ships moved at the mercy of the winds, so sailors were among the first to notice and benefit from this reversal."
+  },
+  {
+    "id": "in-cbse-9-soc-03-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Mechanism of the monsoon",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that produce the **south-west (summer) monsoon** rains.",
+    "image": {
+      "src": "/img/social03/monsoon-summer.svg",
+      "alt": "A schematic sea and land cross-section in summer with moist wind blowing inland towards hills"
+    },
+    "items": [
+      {
+        "id": "wind",
+        "text": "Winds blow from the high-pressure ocean towards the low-pressure land"
+      },
+      {
+        "id": "rain",
+        "text": "The moist sea winds bring rainfall over the land"
+      },
+      {
+        "id": "heat",
+        "text": "In summer, the landmass heats up faster than the surrounding oceans"
+      },
+      {
+        "id": "low",
+        "text": "A low-pressure area forms over the land; the cooler ocean has high pressure"
+      }
+    ],
+    "answer": [
+      "heat",
+      "low",
+      "wind",
+      "rain"
+    ],
+    "hint": "It all begins with land and sea heating unequally.",
+    "explanation": "The summer monsoon is caused mainly by **unequal heating of land and sea**. The land heats faster, forming **low pressure**, while the cooler Indian Ocean keeps **high pressure**. Moist winds blow from sea to land between June and September, bringing most of India's yearly rainfall."
+  },
+  {
+    "id": "in-cbse-9-soc-03-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "North-east monsoon",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In winter the land cools faster than the sea and dry winds blow off the land. Tap the place where these **north-east monsoon** winds bring rain.",
+    "image": {
+      "src": "/img/social03/monsoon-winter.svg",
+      "alt": "A schematic cross-section of a cold landmass, a stretch of sea and a coastal strip, with wind blowing across"
+    },
+    "spots": [
+      {
+        "id": "sky",
+        "x": 18.4,
+        "y": 16.7,
+        "label": "High above the cold land"
+      },
+      {
+        "id": "interior",
+        "x": 14.5,
+        "y": 77.1,
+        "label": "Interior of the cold landmass"
+      },
+      {
+        "id": "leftCoast",
+        "x": 35.5,
+        "y": 77.1,
+        "label": "Coast the winds leave from"
+      },
+      {
+        "id": "sea",
+        "x": 56.6,
+        "y": 89.6,
+        "label": "Out at sea"
+      },
+      {
+        "id": "rightCoast",
+        "x": 90.8,
+        "y": 83.3,
+        "label": "Coast the winds reach after crossing the sea"
+      }
+    ],
+    "answer": "rightCoast",
+    "hint": "The winds start dry. Where could they have picked up moisture, and where do they go next?",
+    "explanation": "From October to February the land has **high pressure**, so cold, dry winds blow from land to sea and bring little rain to most of India. Crossing the **Bay of Bengal** they pick up moisture, then drop it on the coast they reach: the **south-east coast**, especially Tamil Nadu, Andhra Pradesh and parts of Karnataka."
+  },
+  {
+    "id": "in-cbse-9-soc-03-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "North-east monsoon",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/social03/monsoon-winter.svg",
+      "alt": "A schematic cross-section of a cold landmass, a stretch of sea and a coastal strip, with wind blowing across"
+    },
+    "assertion": "The winter monsoon brings heavy rain to most parts of India.",
+    "reason": "When the north-east monsoon winds pass over the Bay of Bengal, they pick up moisture.",
+    "answer": "d",
+    "hint": "Winds blowing off a cold landmass start out dry.",
+    "explanation": "A is false: winter monsoon winds blow from the cold land and are **dry**, so most of India gets little rain from them. R is true: over the **Bay of Bengal** they pick up moisture, which is why the **south-eastern coast** receives rain in this season."
+  },
+  {
+    "id": "in-cbse-9-soc-03-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Traditional rainfall prediction",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Varāhamihira used **nakṣhatras** to predict seasonal rainfall. Why are nakṣhatras called **'lunar mansions'**?",
+    "image": {
+      "src": "/img/social03/nakshatra.svg",
+      "alt": "Animation of the sky around the Earth split into 27 equal sections with the Moon stepping round"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Each one is a house-shaped group of stars"
+      },
+      {
+        "id": "b",
+        "text": "The Moon changes its shape 27 times every month"
+      },
+      {
+        "id": "c",
+        "text": "The Moon takes about 27 days to circle the Earth relative to the stars, so it is in a different one of the 27 sections each night"
+      },
+      {
+        "id": "d",
+        "text": "They are 27 planets that the Moon visits every year"
+      }
+    ],
+    "answer": "c",
+    "hint": "Count the sections in the picture and think about how long the Moon takes to go round.",
+    "explanation": "Nakṣhatras divide the sky into **27 equal parts** along the Moon's path. The Moon takes about **27 days** to go round the Earth relative to the stars, so it moves through about one nakṣhatra each day, as if it stays in a different 'house' each night. Varāhamihira's **Bṛihatsaṁhitā** used them to predict rain."
+  },
+  {
+    "id": "in-cbse-9-soc-03-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Traditional rainfall knowledge",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Ancient Indian texts recorded and predicted rainfall. Match each text with what the chapter says it contains.",
+    "image": {
+      "src": "/img/social03/manuscript.svg",
+      "alt": "Old palm-leaf manuscripts beside a rain-measuring pot, with the Moon, stars and a rain cloud"
+    },
+    "left": [
+      {
+        "id": "kp",
+        "text": "Kṛiṣhiparāśhara"
+      },
+      {
+        "id": "bs",
+        "text": "Bṛihatsaṁhitā (Varāhamihira)"
+      },
+      {
+        "id": "md",
+        "text": "Meghadūtam (Kālidāsa)"
+      },
+      {
+        "id": "as",
+        "text": "Arthaśhāstra (Kauṭilya)"
+      }
+    ],
+    "right": [
+      {
+        "id": "nak",
+        "text": "Predicting seasonal rainfall using lunar mansions (nakṣhatras)"
+      },
+      {
+        "id": "rev",
+        "text": "Rainfall measurements used for managing revenue and relief"
+      },
+      {
+        "id": "sm",
+        "text": "Predicting rainfall from the positions of the Moon and the Sun"
+      },
+      {
+        "id": "path",
+        "text": "The date of monsoon onset over central India and the path of monsoon clouds"
+      }
+    ],
+    "pairs": {
+      "kp": "sm",
+      "bs": "nak",
+      "md": "path",
+      "as": "rev"
+    },
+    "hint": "Meghadūtam means 'cloud messenger'.",
+    "explanation": "**Kṛiṣhiparāśhara** based its forecasts on the positions of the **Moon and the Sun**. **Varāhamihira's Bṛihatsaṁhitā** used **nakṣhatras**. **Kālidāsa's Meghadūtam** (around the 5th century CE) mentions the **onset date over central India** and the path of monsoon clouds. **Kauṭilya's Arthaśhāstra** records **rainfall measurements** for revenue and relief."
+  },
+  {
+    "id": "in-cbse-9-soc-03-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Monsoon forecasting",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Under the National Monsoon Mission, the Ministry of Earth Sciences built advanced prediction models. What does **'Mission Mausam'** aim to do?",
+    "image": {
+      "src": "/img/social03/forecast.svg",
+      "alt": "Animation of a weather satellite, a radar dome, a weather balloon and a laptop showing a forecast"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Stop monsoon floods by controlling the clouds"
+      },
+      {
+        "id": "b",
+        "text": "Make India 'Weather Ready' and 'Climate Smart' through better observation, modelling and forecasting"
+      },
+      {
+        "id": "c",
+        "text": "Replace the IMD's four seasons with the six traditional seasons"
+      },
+      {
+        "id": "d",
+        "text": "Measure rainfall only to collect land revenue"
+      }
+    ],
+    "answer": "b",
+    "hint": "The mission is about services such as forecasts for farmers and disaster managers.",
+    "explanation": "**Mission Mausam** aims to make India a global leader in weather and climate science, making the nation **'Weather Ready' and 'Climate Smart'**. It improves timely, precise **observation, modelling and forecasting** for agriculture, disaster management and rural development. The **National Monsoon Mission** works to improve monsoon predictions over all time frames."
+  },
+  {
+    "id": "in-cbse-9-soc-03-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Importance of the monsoon",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Most of India's farming depends on monsoon rain. What is a **weak monsoon** most likely to cause?",
+    "image": {
+      "src": "/img/social03/farm-monsoon.svg",
+      "alt": "Two farms side by side: one green under rain clouds, one dry and cracked under a hot sun"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Drought, with less food production and water supply"
+      },
+      {
+        "id": "b",
+        "text": "Floods in rivers and overflowing reservoirs"
+      },
+      {
+        "id": "c",
+        "text": "More groundwater stored in wells"
+      },
+      {
+        "id": "d",
+        "text": "Colder winters across the country"
+      }
+    ],
+    "answer": "a",
+    "hint": "Think of the right-hand farm in the picture.",
+    "explanation": "A good monsoon fills rivers, reservoirs and wells and ensures enough food. A **weak monsoon** can lead to **droughts**, while **excessive** rain causes **floods**. The monsoon also affects transport, festivals and jobs, so it shapes the economy and livelihoods, especially in rural areas."
+  },
+  {
+    "id": "in-cbse-9-soc-03-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Climate graphs",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "This climate graph shows Delhi's monthly rainfall (bars) and temperature (line). Tap the **wettest month**.",
+    "image": {
+      "src": "/img/social03/delhi-graph.svg",
+      "alt": "Climate graph of Delhi with rainfall bars, a temperature line and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "Jan",
+        "x": 16.4,
+        "y": 78.6,
+        "label": "January"
+      },
+      {
+        "id": "Jun",
+        "x": 46.9,
+        "y": 68.4,
+        "label": "June"
+      },
+      {
+        "id": "Jul",
+        "x": 53.1,
+        "y": 28.5,
+        "label": "July"
+      },
+      {
+        "id": "Aug",
+        "x": 59.2,
+        "y": 33.6,
+        "label": "August"
+      },
+      {
+        "id": "Sep",
+        "x": 65.3,
+        "y": 53.3,
+        "label": "September"
+      }
+    ],
+    "answer": "Jul",
+    "hint": "Read the bars against the left-hand (rainfall) axis, not the red line.",
+    "explanation": "Delhi's tallest bar is **July (19.3 cm)**, just ahead of August (17.8 cm). Rain is concentrated in **June–September**, the south-west monsoon season. Do not mix up the axes: the red line is temperature, which peaks in May–June at 33.3 °C."
+  },
+  {
+    "id": "in-cbse-9-soc-03-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Climate graphs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "From Delhi's data, the mean temperatures are **December 15.6 °C, January 14.4 °C and February 16.7 °C**. What is the average temperature of these three winter months?",
+    "image": {
+      "src": "/img/social03/delhi-graph.svg",
+      "alt": "Climate graph of Delhi with rainfall bars and a temperature line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "23.4 °C"
+      },
+      {
+        "id": "b",
+        "text": "15.6 °C"
+      },
+      {
+        "id": "c",
+        "text": "46.7 °C"
+      },
+      {
+        "id": "d",
+        "text": "14.4 °C"
+      }
+    ],
+    "answer": "b",
+    "hint": "Add the three values, then divide by the number of months.",
+    "explanation": "$$\\text{Average} = \\dfrac{15.6 + 14.4 + 16.7}{3} = \\dfrac{46.7}{3} \\approx 15.6\\ ^\\circ\\text{C}$$ 46.7 °C is the sum without dividing, 23.4 °C divides by 2 instead of 3, and 14.4 °C is just the coldest month (January)."
+  },
+  {
+    "id": "in-cbse-9-soc-03-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Climate data",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mumbai receives **183.4 cm** of rain a year. About what percentage of it falls in the four monsoon months, **June to September**?",
+    "image": {
+      "src": "/img/social03/mumbai-bars.svg",
+      "alt": "Bar graph of Mumbai's monthly rainfall with the four largest bars labelled"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "About 61%"
+      },
+      {
+        "id": "b",
+        "text": "About 4%"
+      },
+      {
+        "id": "c",
+        "text": "About 24%"
+      },
+      {
+        "id": "d",
+        "text": "About 96%"
+      }
+    ],
+    "answer": "d",
+    "hint": "Add the June, July, August and September values, then divide by the annual total.",
+    "explanation": "June–September $= 50.6 + 61.0 + 36.9 + 26.9 = 175.4\\ \\text{cm}$. $$\\dfrac{175.4}{183.4} \\times 100 \\approx 96\\%$$ 61% uses only June and July, 4% is the share of the other eight months, and 24% comes from using the monthly average instead of the total."
+  },
+  {
+    "id": "in-cbse-9-soc-03-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Retreating monsoon",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Chennai gets most of its rain in **October and November**, after the monsoon is over in most of India. Why?",
+    "image": {
+      "src": "/img/social03/chennai-graph.svg",
+      "alt": "Climate graph of Chennai with monthly rainfall bars and a temperature line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The south-west monsoon winds first reach Chennai only in October"
+      },
+      {
+        "id": "b",
+        "text": "North-east monsoon winds pick up moisture over the Bay of Bengal and drop it on the south-eastern coast"
+      },
+      {
+        "id": "c",
+        "text": "Chennai is at a high altitude, so it rains only in the cooler months"
+      },
+      {
+        "id": "d",
+        "text": "Western disturbances bring winter rain mainly to the south-eastern coast"
+      }
+    ],
+    "answer": "b",
+    "hint": "Which way do the winds blow from October, and what do they cross before reaching Chennai?",
+    "explanation": "From October the **north-east (winter) monsoon** blows from land to sea. Most of India stays dry, but the winds that cross the **Bay of Bengal** gather moisture and rain on the **south-eastern coast**, so Chennai's wettest month is **November (35.0 cm)**. Chennai is only 7 m above sea level, so altitude is not the cause."
+  },
+  {
+    "id": "in-cbse-9-soc-03-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Climate data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In Leh, the mean temperature is **−8.5 °C in January** and **17.2 °C in July**, the coldest and warmest months. What is Leh's **annual range of temperature**?",
+    "image": {
+      "src": "/img/social03/leh-thermo.svg",
+      "alt": "Two thermometers in a cold mountain town showing January and July temperatures"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "25.7 °C"
+      },
+      {
+        "id": "b",
+        "text": "8.7 °C"
+      },
+      {
+        "id": "c",
+        "text": "24.6 °C"
+      },
+      {
+        "id": "d",
+        "text": "17.2 °C"
+      }
+    ],
+    "answer": "a",
+    "hint": "Range = highest − lowest. Subtracting a negative number means adding.",
+    "explanation": "$$\\text{Range} = 17.2 - (-8.5) = 17.2 + 8.5 = 25.7\\ ^\\circ\\text{C}$$ 8.7 °C ignores the minus sign, 24.6 °C uses August (16.1 °C) instead of July, and 17.2 °C is only the warmest value. Such a large range gives Leh (34°N, 3506 m) one of the **most extreme** climates in the table."
+  },
+  {
+    "id": "in-cbse-9-soc-03-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Equable climate",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Use the table to find the **annual range of temperature** in Thiruvananthapuram. What does it show about the climate?",
+    "image": {
+      "src": "/img/social03/tvm-table.svg",
+      "alt": "A coastal scene above a table of monthly temperatures for Thiruvananthapuram"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "54.9 °C, so the climate is extreme"
+      },
+      {
+        "id": "b",
+        "text": "1.4 °C, so the climate is extreme"
+      },
+      {
+        "id": "c",
+        "text": "2.5 °C, so the climate is equable"
+      },
+      {
+        "id": "d",
+        "text": "28.7 °C, so the climate is equable"
+      }
+    ],
+    "answer": "c",
+    "hint": "Find the highest and lowest months first. Two months tie for the lowest.",
+    "explanation": "Highest: April $28.7\\ ^\\circ\\text{C}$; lowest: July and August $26.2\\ ^\\circ\\text{C}$. $$28.7 - 26.2 = 2.5\\ ^\\circ\\text{C}$$ A range this small means an **equable** climate, as the city is close to the equator (8°29'N) and next to the sea. 54.9 adds instead of subtracting, 1.4 wrongly uses February as the lowest, and 28.7 is just the maximum."
+  },
+  {
+    "id": "in-cbse-9-soc-03-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Climate data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Using their latitudes, arrange these stations from **nearest to farthest from the equator**: Delhi (29°N), Leh (34°N), Thiruvananthapuram (8°29'N), Kolkata (22°34'N), Mumbai (19°N).",
+    "image": {
+      "src": "/img/social03/lat-lines.svg",
+      "alt": "Part of a globe with latitude lines from the equator to 40 degrees north"
+    },
+    "items": [
+      {
+        "id": "del",
+        "text": "Delhi"
+      },
+      {
+        "id": "leh",
+        "text": "Leh"
+      },
+      {
+        "id": "tvm",
+        "text": "Thiruvananthapuram"
+      },
+      {
+        "id": "kol",
+        "text": "Kolkata"
+      },
+      {
+        "id": "mum",
+        "text": "Mumbai"
+      }
+    ],
+    "answer": [
+      "tvm",
+      "mum",
+      "kol",
+      "del",
+      "leh"
+    ],
+    "startLabel": "Nearest the equator",
+    "endLabel": "Farthest",
+    "hint": "Smaller latitude means closer to the equator (0°).",
+    "explanation": "Ordering by latitude: **Thiruvananthapuram 8°29'N**, **Mumbai 19°N**, **Kolkata 22°34'N**, **Delhi 29°N**, **Leh 34°N**. Distance from the equator is one reason temperature patterns differ: the southern coastal stations stay warm all year, while Leh freezes in winter (it is also very high)."
+  },
+  {
+    "id": "in-cbse-9-soc-03-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Factors affecting precipitation",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Shillong (24°34'N, 1461 m) gets about **225 cm** of rain a year, while Kolkata (22°34'N, 6 m) gets about **163 cm**. Which is the best explanation?",
+    "image": {
+      "src": "/img/social03/hill-rain.svg",
+      "alt": "Animation of moist wind from the sea crossing a plain and climbing a range of hills"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Shillong is closer to the equator than Kolkata"
+      },
+      {
+        "id": "b",
+        "text": "Shillong is hotter than Kolkata, so its air holds more water vapour"
+      },
+      {
+        "id": "c",
+        "text": "Shillong lies on the coast, right next to the sea"
+      },
+      {
+        "id": "d",
+        "text": "Shillong is in the hills; moist monsoon winds are forced to rise over them and shed more rain"
+      }
+    ],
+    "answer": "d",
+    "hint": "Compare the altitudes, and remember that mountains are one of the factors affecting precipitation.",
+    "explanation": "**Mountains** are a key factor affecting precipitation. Moist monsoon winds that meet hills are pushed upwards, and the rising air releases its moisture, so hill stations like **Shillong** get more rain than the plains. Shillong is actually **farther** from the equator and **cooler** than Kolkata, and it is inland, so the other options are wrong."
+  },
+  {
+    "id": "in-cbse-9-soc-03-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Climate change",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Burning fossil fuels, deforestation and industrial pollution are increasing greenhouse gases. Which set lists **effects of climate change**?",
+    "image": {
+      "src": "/img/social03/climate-change.svg",
+      "alt": "Animation of a melting glacier, rising sea water near a house, factory smoke and a rising thermometer"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "More frequent floods and droughts, melting glaciers, rising sea levels"
+      },
+      {
+        "id": "b",
+        "text": "Thicker ozone layer, fewer storms, falling sea levels"
+      },
+      {
+        "id": "c",
+        "text": "Cooler summers, growing glaciers, more biodiversity"
+      },
+      {
+        "id": "d",
+        "text": "More auroras, a thicker exosphere, stronger gravity"
+      }
+    ],
+    "answer": "a",
+    "hint": "Rising global temperatures melt ice and warm the seas.",
+    "explanation": "**Climate change** means long-term changes in temperature, rainfall and wind, caused mainly by **human activities**. Trapped heat raises global temperatures, bringing more **floods and droughts**, **melting glaciers**, **rising sea levels** and **loss of biodiversity**. It also harms health, farming and livelihoods, affecting women and children too."
+  },
+  {
+    "id": "in-cbse-9-soc-03-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Greenhouse gases",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these are **greenhouse gases** that trap heat and raise global temperatures? Select all that apply.",
+    "image": {
+      "src": "/img/social03/greenhouse.svg",
+      "alt": "Animation of sunlight reaching the ground and heat rising, with some heat turned back by a layer of gases"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Carbon dioxide"
+      },
+      {
+        "id": "b",
+        "text": "Nitrogen"
+      },
+      {
+        "id": "c",
+        "text": "Methane"
+      },
+      {
+        "id": "d",
+        "text": "Nitrous oxide"
+      },
+      {
+        "id": "e",
+        "text": "Argon"
+      },
+      {
+        "id": "f",
+        "text": "Water vapour"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "f"
+    ],
+    "hint": "The two most plentiful gases in air are not on the list of heat-trappers.",
+    "explanation": "The chapter names **carbon dioxide, methane, nitrous oxide and water vapour** as greenhouse gases that trap heat. **Nitrogen** (78% of air) and **argon** are plentiful but do not trap heat this way. Cutting carbon footprints, using **renewable energy** and **protecting forests** help reduce these gases."
+  },
+  {
+    "id": "in-cbse-9-soc-03-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Carbon footprint",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "In the 'My Carbon Footprint' activity, arrange these travel habits from **lowest to highest** carbon impact.",
+    "image": {
+      "src": "/img/social03/transport.svg",
+      "alt": "Animation of four ways to travel: a car, a bicycle, an aeroplane and a bus"
+    },
+    "items": [
+      {
+        "id": "car",
+        "text": "Travelling by private car even for short distances"
+      },
+      {
+        "id": "walk",
+        "text": "Walking or cycling"
+      },
+      {
+        "id": "fly",
+        "text": "Taking flights more than twice a year"
+      },
+      {
+        "id": "bus",
+        "text": "Using public transport or carpooling"
+      }
+    ],
+    "answer": [
+      "walk",
+      "bus",
+      "car",
+      "fly"
+    ],
+    "startLabel": "Lowest impact",
+    "endLabel": "Highest impact",
+    "hint": "Burning no fuel at all is the lowest; frequent flying is the highest.",
+    "explanation": "Walking or cycling is **low** impact, public transport or carpooling **medium**, a private car for short trips **high**, and frequent flights **very high**. Your **carbon footprint** is the total greenhouse gas released by your activities, such as energy use and travel."
+  },
+  {
+    "id": "in-cbse-9-soc-03-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Carbon footprint",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In the activity, **Low = 1 point, Medium = 2, High = 3, Very high = 4**. Rohan ticked the four habits on his card. What is his total score?",
+    "image": {
+      "src": "/img/social03/footprint-card.svg",
+      "alt": "A carbon footprint checklist with four ticked habits and their impact levels"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "8"
+      },
+      {
+        "id": "b",
+        "text": "4"
+      },
+      {
+        "id": "c",
+        "text": "9"
+      },
+      {
+        "id": "d",
+        "text": "6"
+      }
+    ],
+    "answer": "a",
+    "hint": "Turn each impact level into points, then add.",
+    "explanation": "Car for short trips (High) $= 3$, sometimes leaving fans on (Medium) $= 2$, one bucket bath (Low) $= 1$, sometimes plastic bottles (Medium) $= 2$. $$3 + 2 + 1 + 2 = 8$$ 4 just counts the ticks, 9 scores the car as Very high, and 6 scores Medium as 1. Switching to a cycle and avoiding single-use plastics would lower his score."
+  },
+  {
+    "id": "in-cbse-9-soc-03-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "social",
+    "chapter": "Atmosphere and Climate",
+    "chapterNo": 3,
+    "topic": "Punjab floods 2025: case study",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In 2025, Punjab suffered severe floods. Which were **human-made** causes that made the damage worse? Select all that apply.",
+    "image": {
+      "src": "/img/social03/flood-scene.svg",
+      "alt": "Animation of heavy rain, a broken mud embankment and floodwater spreading over fields and houses"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Weak and old river embankments (dhūsī bāndh)"
+      },
+      {
+        "id": "b",
+        "text": "Western disturbances adding extra moisture and rain"
+      },
+      {
+        "id": "c",
+        "text": "Houses and farms built too close to the rivers"
+      },
+      {
+        "id": "d",
+        "text": "Silt and mud collected in rivers and dams, reducing their capacity"
+      },
+      {
+        "id": "e",
+        "text": "Heavy rain in Himachal Pradesh and Jammu & Kashmir"
+      },
+      {
+        "id": "f",
+        "text": "Flood warnings that came late or were not clearly communicated"
+      },
+      {
+        "id": "g",
+        "text": "Rivers already flowing high before the heavy rains"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "f"
+    ],
+    "hint": "Separate what the weather did from what people built, failed to maintain or failed to communicate.",
+    "explanation": "The **natural** causes were very heavy monsoon rain, intensified by **western disturbances**, rain in the hills, and the Satluj, Beas, Ravi and Ghaggar already running high. The **human-made** causes were weak embankments (**dhūsī bāndh**), building too close to rivers, **silt** reducing river and dam capacity, and **late or unclear warnings**. Effects included lost lives, relief camps, damaged paddy and livestock, and waterborne disease."
+  }
+]

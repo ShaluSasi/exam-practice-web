@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A wide river with a bronze vessel beside it and a timeline arrow made of four unlabelled blocks</title>
+<style>
+.wv{stroke-dasharray:12 10;animation:wv 2.4s linear infinite}
+@keyframes wv{to{stroke-dashoffset:-44}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 30Q100 14 200 34T400 26V70Q300 80 200 64T0 74Z" fill="#E9C46A" stroke="#C29A2A" stroke-width="2.5"/>
+<path class="wv" d="M10 50Q100 36 200 52T390 46" fill="none" stroke="#FFF3D6" stroke-width="2.5" stroke-linecap="round"/>
+<g transform="translate(60 120) scale(1.3)"><path d="M-16 -12H16L12 -4Q20 4 14 12H-14Q-20 4 -12 -4Z" fill="#D4A63A" stroke="#8A6A1E" stroke-width="2.5" stroke-linejoin="round"/><path d="M-10 12L-12 20M10 12L12 20M0 12V20" stroke="#8A6A1E" stroke-width="2.5" stroke-linecap="round"/><path d="M-12 -12V-18M12 -12V-18" stroke="#8A6A1E" stroke-width="2.5" stroke-linecap="round"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5"><rect x="110" y="110" width="70" height="30" fill="#F6C453"/><rect x="180" y="110" width="90" height="30" fill="#F3B3A0"/><rect x="270" y="110" width="12" height="30" fill="#CDEBFA"/><rect x="282" y="110" width="60" height="30" fill="#C9E6B8"/></g>
+<path d="M342 125H372M364 117l10 8l-10 8" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12"><text x="110" y="166">older</text><text x="372" y="166" text-anchor="end">later</text></g>
+</svg>

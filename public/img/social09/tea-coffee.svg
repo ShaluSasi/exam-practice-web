@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img">
+<title>A glass of tea and a mug of coffee with price tags</title>
+<style>
+.o{animation:o 4s infinite}.n{animation:n 4s infinite}
+@keyframes o{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}@keyframes n{0%,45%{opacity:0}50%,95%{opacity:1}100%{opacity:0}}
+.up{animation:n 4s infinite}.st{animation:st 2.5s ease-in-out infinite}@keyframes st{0%,100%{transform:translateY(0);opacity:.9}50%{transform:translateY(-4px);opacity:.4}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 160H320V184Q320 200 304 200H16Q0 200 0 184Z" fill="#D9C49A"/>
+<path d="M70 98H128L122 158H76Z" fill="#E8B77F" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M73 112H125" stroke="#FFFFFF" stroke-width="3" opacity=".6"/>
+<path d="M190 100H246V150Q246 160 236 160H200Q190 160 190 150Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/><path d="M246 112Q262 112 262 126Q262 140 246 140" stroke="#2B2F4A" stroke-width="2.5" fill="none"/>
+<ellipse cx="218" cy="104" rx="25" ry="4" fill="#7A4A2A"/>
+<g class="st" stroke="#A3A8CC" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M90 90Q84 80 90 72Q96 64 90 56"/><path d="M110 90Q104 80 110 72"/><path d="M210 92Q204 82 210 74Q216 66 210 58"/><path d="M228 92Q222 82 228 74"/></g>
+<g><rect x="77" y="23" width="44" height="20" rx="4" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="82" cy="33" r="1.8" fill="#2B2F4A"/><text x="101" y="37.5" font-size="12" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">₹15</text></g>
+<g><rect x="194" y="23" width="48" height="20" rx="4" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="1.5"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" font-size="12" text-anchor="middle"><text class="o" x="220" y="37">₹20</text><text class="n" x="220" y="37" fill="#C2353A">₹30</text></g></g>
+<path class="up" d="M256 42V22m-7 7l7 -7l7 7" stroke="#E5484D" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

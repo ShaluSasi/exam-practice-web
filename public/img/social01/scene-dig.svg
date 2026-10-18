@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>An excavation trench with a string grid, old brick walls and broken pots being uncovered by a person with a brush</title>
+<style>
+.br{animation:brush 1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:top}
+@keyframes brush{from{transform:rotate(-12deg)}to{transform:rotate(12deg)}}
+.dust{animation:dust 1.2s ease-out infinite}
+@keyframes dust{0%{opacity:.9;transform:translate(0,0)}100%{opacity:0;transform:translate(-8px,-10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H224Q240 0 240 16V60H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 58H240V164Q240 180 224 180H16Q0 180 0 164Z" fill="#D9C49A"/>
+<path d="M20 76H210V164H20Z" fill="#B98F5E" stroke="#7A5230" stroke-width="2.5"/>
+<path d="M20 104H210M20 134H210" stroke="#A47C4C" stroke-width="2"/>
+<g fill="#C8653A" stroke="#7A3E22" stroke-width="1.5">
+<rect x="34" y="138" width="20" height="9"/><rect x="56" y="138" width="20" height="9"/><rect x="44" y="148" width="20" height="9"/><rect x="66" y="148" width="20" height="9"/>
+<rect x="34" y="128" width="20" height="9"/><rect x="56" y="128" width="20" height="9"/>
+</g>
+<path d="M120 150Q118 132 134 128L146 128Q160 134 156 150Z" fill="#D4774A" stroke="#8B3F22" stroke-width="2"/>
+<path d="M164 112L178 106L182 118L170 122Z M150 92L160 88L162 98Z" fill="#D4774A" stroke="#8B3F22" stroke-width="1.5"/>
+<g stroke="#FFF3C4" stroke-width="1.5"><path d="M20 76L210 164M83 76V164M147 76V164M20 120H210"/></g>
+<g fill="#E5484D"><circle cx="20" cy="76" r="3"/><circle cx="210" cy="76" r="3"/><circle cx="83" cy="76" r="3"/><circle cx="147" cy="76" r="3"/></g>
+<circle cx="186" cy="38" r="10" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M174 34Q186 18 198 34Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M174 74Q176 50 186 50Q198 50 200 74Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2.5"/>
+<g class="br"><path d="M176 58L160 92" stroke="#8A5A3C" stroke-width="4" stroke-linecap="round"/><path d="M156 90L166 96L160 104L152 98Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<circle class="dust" cx="152" cy="104" r="3" fill="#E8DCC4"/>
+</svg>

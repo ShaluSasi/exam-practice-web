@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A sailing boat loaded with wrapped bundles and sealed jars crossing the sea towards a distant port</title>
+<style>
+.bo{animation:bo 3s ease-in-out infinite}
+@keyframes bo{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-5px) rotate(-1.5deg)}}
+.wv{animation:wv 2.5s linear infinite}
+@keyframes wv{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V140H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M300 140V110H330V100H350V110H384V140Z" fill="#D9A877" stroke="#8A5A32" stroke-width="2"/>
+<path d="M0 136H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#5FB4E6"/>
+<g class="wv" fill="none" stroke="#CDEBFA" stroke-width="2.5" stroke-linecap="round"><path d="M0 196q10 -6 20 0"/><path d="M40 196q10 -6 20 0"/><path d="M80 196q10 -6 20 0"/><path d="M120 196q10 -6 20 0"/><path d="M160 196q10 -6 20 0"/><path d="M200 196q10 -6 20 0"/><path d="M240 196q10 -6 20 0"/><path d="M280 196q10 -6 20 0"/><path d="M320 196q10 -6 20 0"/><path d="M360 196q10 -6 20 0"/><path d="M400 196q10 -6 20 0"/></g>
+<g class="bo"><path d="M60 160H260Q250 196 210 196H110Q70 196 60 160Z" fill="#C8925A" stroke="#7E5A32" stroke-width="3" stroke-linejoin="round"/>
+<path d="M160 160V40" stroke="#7E5A32" stroke-width="4"/><path d="M164 46Q230 80 222 150H164Z" fill="#FFF3D6" stroke="#C8925A" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="80" y="138" width="28" height="22" rx="6" fill="#E9C99A"/><rect x="112" y="142" width="30" height="18" rx="6" fill="#D9B98A"/>
+<path d="M186 160Q178 146 186 136H202Q210 146 202 160Z" fill="#D27D4E"/><path d="M214 160Q206 146 214 136H230Q238 146 230 160Z" fill="#D27D4E"/><path d="M186 136H202M214 136H230" stroke-width="3"/>
+<path d="M94 138V160M80 149H108M127 142V160" stroke="#7E5A32"/></g></g>
+</svg>

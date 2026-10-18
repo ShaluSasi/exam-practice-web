@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img">
+<title>A mountain landscape with two rivers of ice joining and flowing down a valley</title>
+<style>
+.cr{stroke-dasharray:6 10;animation:cr 5s linear infinite}@keyframes cr{to{stroke-dashoffset:-48}}.fl{stroke-dasharray:10 9;animation:fl 1.4s linear infinite}@keyframes fl{to{stroke-dashoffset:-38}}
+.sn{animation:sn 4s linear infinite}@keyframes sn{from{transform:translateY(-10px)}to{transform:translateY(30px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="420" height="280" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><path d="M16 0H404Q420 0 420 16V120H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 160L30 70L80 30L120 22L160 44L205 20L250 40L300 16L350 34L392 70L420 110V280H0Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M0 240Q100 220 160 236L270 236Q340 220 420 230V280H0Z" fill="#B5DDA0"/>
+<path d="M70 70Q110 112 150 68Q110 38 70 70Z" fill="#E8F6FF" stroke="#6E7396" stroke-width="2.5"/>
+<path d="M250 64Q295 108 340 60Q295 30 250 64Z" fill="#E8F6FF" stroke="#6E7396" stroke-width="2.5"/>
+<path d="M150 68L205 22L250 64" fill="none" stroke="#4A4E6E" stroke-width="3.5" stroke-linejoin="miter"/>
+<path d="M80 78Q120 150 190 165L192 228H238L238 225Q240 200 230 165Q275 140 335 70Q300 92 260 72Q250 120 215 150Q160 120 140 76Q110 92 80 78Z" fill="#E8F6FF" stroke="#8CC8E8" stroke-width="2"/>
+<path class="cr" d="M110 90Q140 140 200 170M300 82Q270 130 224 168M206 176V222M226 176V222" fill="none" stroke="#8CC8E8" stroke-width="2"/>
+<g fill="none" stroke="#8A6A4E" stroke-width="5" stroke-dasharray="7 4" stroke-linecap="round"><path d="M80 78Q120 150 190 165L192 228"/><path d="M335 70Q275 140 230 165L238 225"/><path d="M218 158L216 226"/></g>
+<path d="M342 120Q352 116 364 122L366 136L346 138Z" fill="#E8F6FF" stroke="#8CC8E8" stroke-width="2"/>
+<path d="M356 138Q352 170 350 214" fill="none" stroke="#7CC4EC" stroke-width="3"/>
+<path d="M174 234Q215 262 256 230" fill="none" stroke="#8A6A4E" stroke-width="12" stroke-linecap="round"/>
+<g fill="#6E5A44"><circle cx="190" cy="244" r="3"/><circle cx="214" cy="250" r="3"/><circle cx="238" cy="243" r="3"/></g>
+<path d="M240 248Q290 266 330 262" fill="none" stroke="#7CC4EC" stroke-width="6" stroke-linecap="round"/>
+<path class="fl" d="M240 248Q290 266 330 262" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+<ellipse cx="362" cy="262" rx="34" ry="10" fill="#7CC4EC"/>
+<g class="sn" fill="#FFFFFF"><circle cx="40" cy="20" r="2"/><circle cx="380" cy="14" r="2"/><circle cx="260" cy="6" r="2"/></g></g>
+</svg>

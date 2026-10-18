@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img">
+<title>A balance with D on one pan and S on the other, tipping back and forth</title>
+<style>
+.bal{animation:bal 4s ease-in-out infinite;transform-origin:150px 70px}@keyframes bal{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 178H300V184Q300 200 284 200H16Q0 200 0 184Z" fill="#D9C49A"/><path d="M150 70L130 178H170Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="bal"><path d="M60 70H240" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/>
+<path d="M70 70L50 118M70 70L90 118M230 70L210 118M230 70L250 118" stroke="#2B2F4A" stroke-width="1.8"/>
+<path d="M42 118H98Q96 136 70 136Q44 136 42 118Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5"/><path d="M202 118H258Q256 136 230 136Q204 136 202 118Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5"/>
+<g font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF" text-anchor="middle"><text x="70" y="131">D</text><text x="230" y="131">S</text></g></g>
+<circle cx="150" cy="70" r="7" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+</svg>

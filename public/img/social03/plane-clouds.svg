@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>An aeroplane cruising in clear calm air high above a layer of storm clouds</title>
+<style>
+.pl{animation:fly 6s linear infinite}@keyframes fly{from{transform:translateX(-150px)}to{transform:translateX(330px)}}
+.lt{animation:fl 2s steps(1) infinite}@keyframes fl{0%{opacity:1}20%{opacity:0}100%{opacity:0}}
+.rn{animation:rn .9s linear infinite}@keyframes rn{from{transform:translateY(-6px);opacity:1}to{transform:translateY(8px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<rect width="360" height="220" rx="16" fill="#E3F2FD"/>
+<path d="M0 130H360V204Q360 220 344 220H16Q0 220 0 204Z" fill="#A3A8CC" opacity=".35"/>
+<g transform="translate(60 140) scale(1.1)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#FFFFFF" stroke="#9DB6CC" stroke-width="2.27" stroke-linejoin="round"/></g><g transform="translate(160 132) scale(1.3)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#FFFFFF" stroke="#9DB6CC" stroke-width="1.92" stroke-linejoin="round"/></g><g transform="translate(270 142) scale(1.1)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#FFFFFF" stroke="#9DB6CC" stroke-width="2.27" stroke-linejoin="round"/></g>
+<g transform="translate(200 170) scale(1.4)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#8C92B8" stroke="#5C6290" stroke-width="1.79" stroke-linejoin="round"/></g>
+<path class="lt" d="M196 186L188 202H196L190 216L206 196H198L204 186Z" fill="#F6C453" stroke="#E0A92E" stroke-width="1.5" stroke-linejoin="round"/>
+<g class="rn" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"><path d="M160 192v8M176 196v8M222 194v8M238 190v8"/></g>
+<g class="pl"><path d="M40 60h70l14-9h7l-6 14h-86l-6-5z M70 60l-12-14h9l20 14z M74 65l-12 13h9l20-13z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+</svg>

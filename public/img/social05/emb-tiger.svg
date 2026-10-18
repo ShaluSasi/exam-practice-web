@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A tiger</title>
+<style>
+.bob{animation:bob 3s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="80" cy="80" r="66" fill="#FFF3D6" stroke="#E0C48E" stroke-width="3"/><g class="bob" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><circle cx="50" cy="48" r="13" fill="#FF8A1F"/><circle cx="110" cy="48" r="13" fill="#FF8A1F"/><circle cx="80" cy="84" r="42" fill="#FF8A1F"/><path d="M58 104Q80 128 102 104Q96 92 80 94Q64 92 58 104Z" fill="#FFF3D6"/><path d="M80 46V60M64 50L68 62M96 50L92 62M40 82H52M40 94H54M120 82H108M120 94H106" fill="none" stroke-width="3"/><circle cx="66" cy="80" r="4" fill="#2B2F4A"/><circle cx="94" cy="80" r="4" fill="#2B2F4A"/><path d="M74 96L80 102L86 96Z" fill="#E5484D"/></g>
+</svg>

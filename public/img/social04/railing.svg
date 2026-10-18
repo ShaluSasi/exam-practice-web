@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A carved stone railing with rows of small marks cut into one bar</title>
+<style>
+.cs{stroke-dasharray:60;animation:cs 4s ease-in-out infinite}
+@keyframes cs{0%{stroke-dashoffset:60}60%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 170H400V184Q400 200 384 200H16Q0 200 0 184Z" fill="#D9C49A"/>
+<g fill="#E6D2B0" stroke="#8C6E4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="20" y="30" width="360" height="26" rx="8"/>
+<rect x="40" y="56" width="22" height="114"/><rect x="130" y="56" width="22" height="114"/><rect x="220" y="56" width="22" height="114"/><rect x="310" y="56" width="22" height="114"/>
+<rect x="62" y="76" width="68" height="20" rx="8"/><rect x="62" y="120" width="68" height="20" rx="8"/>
+<rect x="152" y="76" width="68" height="20" rx="8"/><rect x="152" y="120" width="68" height="20" rx="8"/>
+<rect x="242" y="76" width="68" height="20" rx="8"/><rect x="242" y="120" width="68" height="20" rx="8"/>
+</g>
+<g class="cs" fill="none" stroke="#5E4426" stroke-width="2.2" stroke-linecap="round"><path d="M50 38v10M60 38l6 10M76 38h8M90 38v10l6-5M108 40q6 4 0 8M124 38v10M140 43h10M160 38l-4 10M170 38v10M186 38q-6 5 0 10M200 43h8M218 38v10M232 38l6 10l6-10M256 38v10M270 43h10M290 38v10M302 38q6 5 0 10M318 38v10M334 43h8M350 38l6 10"/></g>
+</svg>

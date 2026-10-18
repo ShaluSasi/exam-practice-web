@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Four objects: a cracked flat bone, green fish shapes hanging on a cord, a pile of cocoons beside folded cloth, and a long wall over hills</title>
+<style>
+.ri{animation:ri 1.8s ease-out infinite;transform-box:fill-box;transform-origin:0% 50%}
+@keyframes ri{0%{opacity:.9;transform:scale(.6)}100%{opacity:0;transform:scale(1.4)}}
+.sw{animation:sw 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 0%}
+@keyframes sw{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M200 16V244M16 130H384" stroke="#E9DCC3" stroke-width="2"/>
+<g transform="translate(100 72)"><path d="M-50 -30Q0 -46 50 -26Q40 10 20 36Q0 46 -20 36Q-40 10 -50 -30Z" fill="#F5EEDF" stroke="#8C7B62" stroke-width="2.5" stroke-linejoin="round"/><path d="M-20 -20V10M-20 -6H-8M10 -20V14M10 0H22M-4 18L-14 28M14 20l8 8" fill="none" stroke="#6E5E4C" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(300 40)"><path d="M-50 0H50" stroke="#8A5A32" stroke-width="4" stroke-linecap="round"/>
+<g class="sw"><path d="M-20 0V20" stroke="#8A5A32" stroke-width="1.5"/><path d="M-20 20Q-4 30 -20 52Q-36 30 -20 20ZM-20 52L-28 62H-12Z" fill="#7CC9A0" stroke="#2C7A58" stroke-width="2" stroke-linejoin="round"/></g>
+<g class="sw" style="animation-delay:.4s"><path d="M20 0V24" stroke="#8A5A32" stroke-width="1.5"/><path d="M20 24Q36 34 20 58Q4 34 20 24ZM20 58L12 68H28Z" fill="#9AD9B6" stroke="#2C7A58" stroke-width="2" stroke-linejoin="round"/></g>
+<path class="ri" d="M40 40q8 8 0 16M48 34q14 14 0 28" fill="none" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"/></g>
+<g transform="translate(100 190)"><g fill="#FFFDF5" stroke="#B9AE96" stroke-width="2"><ellipse cx="-40" cy="10" rx="12" ry="8"/><ellipse cx="-22" cy="16" rx="12" ry="8"/><ellipse cx="-34" cy="-2" rx="12" ry="8"/></g>
+<path d="M-6 26L4 -20H60L50 26Z" fill="#E5484D" stroke="#9E2A2E" stroke-width="2.5" stroke-linejoin="round"/><path d="M0 0H56M-3 12H53" stroke="#F6C453" stroke-width="2.5"/></g>
+<g transform="translate(300 190)"><path d="M-84 40Q-50 0 -20 20T40 0T84 30V54H-84Z" fill="#9BBF7A" stroke="#5E8A3E" stroke-width="2"/>
+<path d="M-84 28Q-50 -12 -20 8T40 -12T84 18" fill="none" stroke="#A3A8CC" stroke-width="10" stroke-linejoin="round"/>
+<path d="M-84 28Q-50 -12 -20 8T40 -12T84 18" fill="none" stroke="#6E7396" stroke-width="2" stroke-dasharray="4 4" transform="translate(0 -6)"/>
+<rect x="-30" y="-14" width="16" height="22" fill="#C7CBDD" stroke="#6E7396" stroke-width="2"/><rect x="34" y="-34" width="16" height="22" fill="#C7CBDD" stroke="#6E7396" stroke-width="2"/></g>
+</svg>

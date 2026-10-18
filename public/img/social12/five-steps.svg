@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A staircase of five steps rising from left to right, each with an orange marker</title>
+<style>
+.pulse{animation:pu 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}.dash{stroke-dasharray:8 6;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="210" width="400" height="30" fill="#D9C49A"/><rect x="40" y="178" width="320" height="32" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/><g class="pulse" style="animation-delay:-0s"><circle cx="70" cy="164" r="10" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/></g><rect x="104" y="146" width="256" height="32" fill="#BFE3C2" stroke="#2B2F4A" stroke-width="2.5"/><g class="pulse" style="animation-delay:-0.4s"><circle cx="134" cy="132" r="10" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/></g><rect x="168" y="114" width="192" height="32" fill="#FCE3B0" stroke="#2B2F4A" stroke-width="2.5"/><g class="pulse" style="animation-delay:-0.8s"><circle cx="198" cy="100" r="10" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/></g><rect x="232" y="82" width="128" height="32" fill="#F8CFC0" stroke="#2B2F4A" stroke-width="2.5"/><g class="pulse" style="animation-delay:-1.2000000000000002s"><circle cx="262" cy="68" r="10" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/></g><rect x="296" y="50" width="64" height="32" fill="#E2D4F5" stroke="#2B2F4A" stroke-width="2.5"/><g class="pulse" style="animation-delay:-1.6s"><circle cx="326" cy="36" r="10" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/></g><path class="dash" d="M40 176L330 30" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" fill="none"/><polygon points="330,30 323.9,37.9 320.0,30.2" fill="#0B93D4"/>
+</svg>

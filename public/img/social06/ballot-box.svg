@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A voter behind a screened voting compartment and another voter beside a ballot box as a folded paper drops in</title>
+<style>
+.slip{animation:drop 2.6s ease-in infinite}@keyframes drop{0%{transform:translateY(-12px);opacity:0}25%{opacity:1}75%{transform:translateY(10px);opacity:1}100%{transform:translateY(10px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 150H240V164Q240 180 224 180H16Q0 180 0 164Z" fill="#D9C49A"/><path d="M43 150Q43 120 55 120Q67 120 67 150Z" fill="#3BB3A8" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="55" cy="112" r="9" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/><path d="M46 111A9 9 0 0 1 64 111Q55 107 46 111Z" fill="#2B2F4A"/><path d="M18 124H92V150H18Z" fill="#E4E0F7" stroke="#5B4FA8" stroke-width="2.5"/><path d="M14 124H96" stroke="#5B4FA8" stroke-width="4" stroke-linecap="round"/><rect x="132" y="108" width="70" height="42" rx="4" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5"/><rect x="155" y="105" width="24" height="6" rx="2" fill="#2B2F4A"/><circle cx="167" cy="133" r="4" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"/><g class="slip"><rect x="161" y="82" width="12" height="17" fill="#FFF" stroke="#2B2F4A" stroke-width="1.5"/><path d="M164 88h6M164 93h4" stroke="#A3A8CC" stroke-width="1.5"/></g><path d="M211.2 150Q211.2 123 222 123Q232.8 123 232.8 150Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle cx="222" cy="115.8" r="8.1" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/><path d="M213.9 114.9A8.1 8.1 0 0 1 230.1 114.9Q222 111.3 213.9 114.9Z" fill="#2B2F4A"/><circle cx="222" cy="105.9" r="3.6" fill="#2B2F4A"/>
+</svg>

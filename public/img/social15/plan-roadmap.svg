@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" role="img">
+<title>A winding road with signposts and a detour sign leading to a flag, beside a blueprint</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:top center}@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}.dash{animation:dash 3s linear infinite}@keyframes dash{to{stroke-dashoffset:-32}}
+.bl{animation:bl 2s ease-in-out infinite}@keyframes bl{0%,100%{opacity:1}50%{opacity:.55}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H344Q360 0 360 16V70H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 60H360V184Q360 200 344 200H16Q0 200 0 184Z" fill="#CDE8C6"/>
+<path d="M20 196C80 170 60 130 140 128C230 126 180 70 260 64C300 60 300 40 326 38" stroke="#A3A8CC" stroke-width="22" fill="none" stroke-linecap="round"/><path d="M20 196C80 170 60 130 140 128C230 126 180 70 260 64C300 60 300 40 326 38" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="8 8" fill="none" class="dash"/>
+<path d="M326 38V4" stroke="#2B2F4A" stroke-width="2.5"/><path class="sw" d="M326 6L348 13L326 20Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5"/>
+<g transform="translate(118 146)"><path d="M0 0V-26" stroke="#2B2F4A" stroke-width="2.5"/><rect x="-14" y="-38" width="28" height="14" rx="3" fill="#3FA34D" stroke="#2B2F4A" stroke-width="1.8"/></g>
+<g transform="translate(244 96)" class="bl"><path d="M0 8V-16" stroke="#2B2F4A" stroke-width="2.5"/><path d="M0 -40L18 -22L0 -4L-18 -22Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M-7 -18Q-7 -28 3 -28M-1 -32L4 -28L-1 -24" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<g transform="translate(60 40)"><rect x="-38" y="-24" width="76" height="50" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><path d="M-30 -14H30M-30 -2H30M-30 10H30M-18 -22V24M2 -22V24M22 -22V24" stroke="#CDEBFA" stroke-width="1.2"/><rect x="-26" y="-12" width="22" height="18" fill="none" stroke="#FFFFFF" stroke-width="2"/><circle cx="38" cy="0" r="6" fill="#0B6FA4" stroke="#2B2F4A" stroke-width="2"/></g>
+</svg>

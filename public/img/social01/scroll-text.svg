@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>An old unrolled manuscript on a desk beside a weighing balance, a pile of coins and a small shield</title>
+<style>
+.bal{animation:tip 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tip{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.lamp{animation:fl 1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:bottom}
+@keyframes fl{from{transform:scaleY(.85)}to{transform:scaleY(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 196H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#C8925A"/>
+<path d="M60 40H250V190H60Z" fill="#F3E3C7" stroke="#8B6A47" stroke-width="2.5"/>
+<rect x="46" y="30" width="16" height="170" rx="8" fill="#A9774A" stroke="#7A5230" stroke-width="2.5"/>
+<rect x="248" y="30" width="16" height="170" rx="8" fill="#A9774A" stroke="#7A5230" stroke-width="2.5"/>
+<g stroke="#8B6A47" stroke-width="2" stroke-linecap="round" fill="none">
+<path d="M80 62h40m8 0h30m8 0h40M80 80h24m8 0h50m8 0h36M80 98h44m8 0h20m8 0h46M80 116h30m8 0h44m8 0h34M80 134h50m8 0h28m8 0h30M80 152h22m8 0h40m8 0h46M80 170h36m8 0h30"/>
+</g>
+<path d="M330 104V186M300 190H360" stroke="#6E7396" stroke-width="4" stroke-linecap="round"/>
+<g class="bal"><path d="M290 104H370" stroke="#6E7396" stroke-width="4" stroke-linecap="round"/>
+<path d="M290 104L280 132H300ZM370 104L360 132H380Z" fill="none" stroke="#6E7396" stroke-width="1.5"/>
+<path d="M276 132H304Q300 142 290 142Q280 142 276 132ZM356 132H384Q380 142 370 142Q360 142 356 132Z" fill="#F6C453" stroke="#C8962E" stroke-width="2"/></g>
+<circle cx="330" cy="100" r="5" fill="#6E7396"/>
+<g fill="#F6C453" stroke="#B88A1E" stroke-width="2"><ellipse cx="300" cy="226" rx="16" ry="6"/><ellipse cx="300" cy="218" rx="16" ry="6"/><ellipse cx="324" cy="228" rx="16" ry="6"/></g>
+<path d="M350 206H380V222Q380 236 365 242Q350 236 350 222Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M365 210V236M352 220H378" stroke="#6E7396" stroke-width="2"/>
+<path d="M120 226Q120 214 140 214Q160 214 160 226Z" fill="#C8653A" stroke="#8B3F22" stroke-width="2"/>
+<g class="lamp"><path d="M140 212Q132 202 140 192Q148 202 140 212Z" fill="#FF8A1F"/></g>
+</svg>

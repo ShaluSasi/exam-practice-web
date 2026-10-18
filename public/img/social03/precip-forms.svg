@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A large cloud with several different kinds of water and ice falling from it</title>
+<style>
+.f1{animation:fa 2.4s linear infinite}.f2{animation:fa 1.2s linear infinite}.f3{animation:fa 4s linear infinite}.f4{animation:fa 1s linear infinite}
+@keyframes fa{from{transform:translateY(-12px);opacity:0}30%{opacity:1}to{transform:translateY(14px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<rect width="360" height="220" rx="16" fill="#E3F2FD"/>
+<g transform="translate(180 46) scale(2.6)"><path d="M-36 12Q-46 -4 -26 -8Q-22 -26 -2 -22Q10 -34 26 -20Q46 -20 40 0Q52 12 36 14Z" fill="#DDE3EE" stroke="#8C99B5" stroke-width="0.96" stroke-linejoin="round"/></g>
+<g class="f2" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"><path d="M46 90v12"/><path d="M58 112v12"/><path d="M46 134v12"/><path d="M58 156v12"/></g><g class="f3" stroke="#7C8BB0" stroke-width="2" stroke-linecap="round"><path d="M104 96h12M110 90v12M106 92l8 8M114 92l-8 8"/><path d="M118 126h12M124 120v12M120 122l8 8M128 122l-8 8"/><path d="M104 156h12M110 150v12M106 152l8 8M114 152l-8 8"/></g><g class="f1" fill="#0B93D4"><circle cx="170" cy="90" r="1.8"/><circle cx="180" cy="106" r="1.8"/><circle cx="170" cy="122" r="1.8"/><circle cx="180" cy="138" r="1.8"/><circle cx="170" cy="154" r="1.8"/><circle cx="180" cy="170" r="1.8"/></g><g class="f4" fill="#FFFFFF" stroke="#7C8BB0" stroke-width="2"><circle cx="228" cy="96" r="7"/><circle cx="242" cy="126" r="7"/><circle cx="228" cy="156" r="7"/></g><g class="f2" fill="#DDF1FB" stroke="#0B93D4" stroke-width="1.5"><rect x="292" y="92" width="6" height="6" rx="1.5"/><rect x="304" y="114" width="6" height="6" rx="1.5"/><rect x="292" y="136" width="6" height="6" rx="1.5"/><rect x="304" y="158" width="6" height="6" rx="1.5"/></g>
+<path d="M0 196H360V204Q360 220 344 220H16Q0 220 0 204Z" fill="#9BD08A"/>
+</svg>

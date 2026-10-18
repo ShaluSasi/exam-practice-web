@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+<title>A weathered stone slab with rows of carved letters</title>
+<style>
+.chis{animation:tap 1s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom right}
+@keyframes tap{0%,100%{transform:rotate(0)}50%{transform:rotate(-10deg)}}
+.dust{animation:dust 1s ease-out infinite}
+@keyframes dust{0%{opacity:1;transform:translate(0,0)}100%{opacity:0;transform:translate(6px,-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M60 160V40Q60 18 104 18Q148 18 148 40V160Z" fill="#C7CBDD" stroke="#6E7396" stroke-width="3"/>
+<rect x="50" y="156" width="108" height="14" rx="3" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5"/>
+<g fill="none" stroke="#5B6085" stroke-width="2.5" stroke-linecap="round">
+<path d="M74 44l5-7 5 7m5 0v-7h7m5 7l5-7m4 7h7m4-7v7"/>
+<path d="M74 64h7m4-5v10m6-10l5 10m5-10v10h7m4-10l5 5-5 5"/>
+<path d="M74 84l5 7 5-7m5 0h8m4 0v7m5-7h6m4 0l4 7"/>
+<path d="M74 104v8h7m4-8l5 4-5 4m9-8v8m5-8h7m4 8l5-8"/>
+<path d="M74 124h7m4 0l5 7m5-7h6m4-4v8m5 0h7"/>
+<path d="M74 144l5-7 5 7m5-7v7h6m4-7l5 7"/>
+</g>
+<path d="M140 30l-8 10M66 120l6 4" stroke="#8E93B8" stroke-width="2"/>
+<g class="chis"><rect x="168" y="80" width="12" height="44" rx="3" fill="#C8925A" stroke="#7A5230" stroke-width="2" transform="rotate(-35 174 102)"/>
+<path d="M150 124L162 112L166 116L154 128Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2"/></g>
+<circle class="dust" cx="150" cy="128" r="2.5" fill="#A3A8CC"/>
+</svg>

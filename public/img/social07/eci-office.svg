@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>An election office building with a ballot box and a checklist</title>
+<style>
+.tick{stroke-dasharray:20;animation:tick 3s ease-in-out infinite}
+.t2{animation-delay:.6s}.t3{animation-delay:1.2s}
+@keyframes tick{0%{stroke-dashoffset:20}40%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H324V176H16Z" fill="#E3F2FD"/>
+<path d="M0 172H340V194Q340 210 324 210H16Q0 210 0 194Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M28 172V80H208V172Z" fill="#F3EEE4"/>
+<path d="M20 80L118 36L216 80Z" fill="#C8925A"/>
+<rect x="100" y="126" width="36" height="46" rx="4" fill="#C8925A"/>
+<rect x="44" y="102" width="30" height="20" fill="#CDEBFA"/><rect x="162" y="102" width="30" height="20" fill="#CDEBFA"/>
+<rect x="44" y="136" width="30" height="24" fill="#CDEBFA"/><rect x="162" y="136" width="30" height="24" fill="#CDEBFA"/>
+<rect x="46" y="80" width="144" height="17" rx="3" fill="#FFFFFF" stroke-width="1.5"/>
+</g>
+<text x="118" y="93" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">Election Commission</text>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="232" y="120" width="56" height="52" rx="4" fill="#A3A8CC"/>
+<rect x="248" y="116" width="24" height="6" fill="#2B2F4A"/>
+<rect x="236" y="36" width="80" height="74" rx="6" fill="#FFFFFF"/>
+<rect x="262" y="30" width="28" height="10" rx="3" fill="#F6C453"/>
+</g>
+<g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path class="tick" d="M246 56l5 5 9-10" stroke="#3FA34D"/><path class="tick t2" d="M246 76l5 5 9-10" stroke="#3FA34D"/><path class="tick t3" d="M246 96l5 5 9-10" stroke="#3FA34D"/>
+<path d="M268 56H306M268 76H306M268 96H300" stroke="#A3A8CC" stroke-width="2.5"/>
+</g>
+</svg>

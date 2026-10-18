@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>A suitcase and an aeroplane in the sky</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.p{animation:p 3s ease-in-out infinite}@keyframes p{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="40" y="70" width="70" height="62" rx="10" fill="#FF8A1F" class="o"/><path d="M62 70V58H88V70" fill="none" class="o"/><path d="M56 70V132M94 70V132" stroke="#C25E0A" stroke-width="3"/>
+<g class="p"><path d="M120 50L180 40L186 46L150 58L162 76L154 78L136 62L120 64L116 58Z" fill="#FFFFFF" class="o"/></g>
+<circle cx="164" cy="112" r="14" fill="#F6C453" stroke="#C79A1E" stroke-width="2"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" role="img">
+<title>Three rocks being broken down in three different ways</title>
+<style>
+.a{animation:a 2.6s ease-in-out infinite alternate}@keyframes a{to{transform:translateX(-3px)}}
+.b{animation:b 2.6s ease-in-out infinite alternate}@keyframes b{to{transform:translateX(3px)}}
+.dr{animation:dr 1.1s linear infinite}@keyframes dr{from{transform:translateY(0);opacity:1}to{transform:translateY(40px);opacity:0}}
+.fz{animation:fz 1.6s ease-out infinite}@keyframes fz{from{transform:translateY(0);opacity:1}to{transform:translateY(-14px);opacity:0}}
+.fk{animation:fk 2.4s ease-in infinite}@keyframes fk{0%,30%{transform:translate(0,0) rotate(0);opacity:1}100%{transform:translate(10px,34px) rotate(40deg);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="10" y="10" width="126" height="180" rx="12" fill="#E3F2FD" stroke="#B9D3E8" stroke-width="2"/><path d="M10 158H136V178Q136 190 124 190H22Q10 190 10 178Z" fill="#B5DDA0"/><rect x="147" y="10" width="126" height="180" rx="12" fill="#E3F2FD" stroke="#B9D3E8" stroke-width="2"/><path d="M147 158H273V178Q273 190 261 190H159Q147 190 147 178Z" fill="#B5DDA0"/><rect x="284" y="10" width="126" height="180" rx="12" fill="#E3F2FD" stroke="#B9D3E8" stroke-width="2"/><path d="M284 158H410V178Q410 190 398 190H296Q284 190 284 178Z" fill="#B5DDA0"/>
+<g stroke="#5E6386" stroke-width="2.5" stroke-linejoin="round"><path class="a" d="M24 160Q22 112 52 102H68L64 160Z" fill="#A3A8CC"/><path class="b" d="M76 160L78 102H92Q124 110 122 160Z" fill="#A3A8CC"/></g>
+<path d="M72 104V72" stroke="#8A5A34" stroke-width="6" stroke-linecap="round"/><circle cx="72" cy="58" r="20" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/>
+<path d="M72 104L71 130L68 150M71 120L66 136M71 128L75 146" fill="none" stroke="#8A5A34" stroke-width="3" stroke-linecap="round"/>
+<path d="M188 44Q188 28 204 30Q212 20 226 26Q244 24 244 40Q254 44 248 52H192Q182 50 188 44Z" fill="#FFFFFF" stroke="#8FA7C2" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="dr" fill="#0B93D4"><path d="M200 62l-3 6a3 3 0 0 0 6 0z"/><path d="M218 66l-3 6a3 3 0 0 0 6 0z"/><path d="M236 62l-3 6a3 3 0 0 0 6 0z"/></g>
+<ellipse cx="210" cy="140" rx="46" ry="26" fill="#A3A8CC" stroke="#5E6386" stroke-width="2.5"/>
+<g fill="#D9822B" opacity=".85"><ellipse cx="192" cy="132" rx="10" ry="6"/><ellipse cx="226" cy="146" rx="12" ry="6"/></g>
+<g fill="#6E7396"><circle cx="208" cy="126" r="2.5"/><circle cx="238" cy="132" r="2"/><circle cx="182" cy="148" r="2"/></g>
+<g class="fz" fill="none" stroke="#FFFFFF" stroke-width="1.5"><circle cx="196" cy="118" r="2.5"/><circle cx="222" cy="120" r="2"/></g>
+<circle cx="330" cy="48" r="14" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<g stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"><path d="M386 34V62M374 41L398 55M374 55L398 41"/></g>
+<path d="M303 160Q300 112 347 108Q394 112 391 160Z" fill="#A3A8CC" stroke="#5E6386" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M330 112L338 130L332 146M360 112L354 128L362 150" fill="none" stroke="#5E6386" stroke-width="2"/>
+<path class="fk" d="M372 122L382 120L384 130Z" fill="#A3A8CC" stroke="#5E6386" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>A schematic ocean basin between two land masses with loops of warm and cold currents</title>
+<style>
+@keyframes fl{to{stroke-dashoffset:-40}}.fl{stroke-dasharray:14 6;animation:fl 1.6s linear infinite}.wd{animation:wd 2.5s ease-in-out infinite alternate}@keyframes wd{to{transform:translateX(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><marker id="E5484D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#E5484D"/></marker><marker id="0B93D4" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#0B93D4"/></marker></defs>
+<rect x="10" y="10" width="460" height="260" rx="12" fill="#9FD3F0"/>
+<path d="M10 22Q10 10 22 10H62Q78 50 66 90Q54 130 74 170Q90 220 62 270H22Q10 270 10 258Z" fill="#9CCB7A" stroke="#4E8A3A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M470 22Q470 10 458 10H418Q404 60 418 100Q432 150 410 190Q396 230 420 270H458Q470 270 470 258Z" fill="#9CCB7A" stroke="#4E8A3A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M66 140H414" stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="4 6"/>
+<g fill="none" stroke-width="7" stroke-linecap="round">
+<path class="fl" d="M240 124A150 48 0 0 1 240 28" stroke="#E5484D" marker-end="url(#E5484D)"/>
+<path class="fl" d="M240 28A150 48 0 0 1 240 124" stroke="#0B93D4" marker-end="url(#0B93D4)"/>
+<path class="fl" d="M240 156A150 48 0 0 0 240 252" stroke="#E5484D" marker-end="url(#E5484D)"/>
+<path class="fl" d="M240 252A150 48 0 0 0 240 156" stroke="#0B93D4" marker-end="url(#0B93D4)"/>
+</g>
+<g class="wd" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"><path d="M200 70H262M252 62L262 70L252 78"/><path d="M280 210H218M228 202L218 210L228 218"/></g>
+</svg>

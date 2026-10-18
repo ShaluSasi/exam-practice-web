@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>A cross-section of the sea from the coast to deep water, with two groups of fish marked A and B</title>
+<style>
+.sw{animation:sw 2s ease-in-out infinite alternate}@keyframes sw{to{transform:translateX(8px)}}.sw2{animation-duration:2.8s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H464Q480 0 480 16V40H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="10" y="40" width="460" height="210" fill="#5BB5E8"/>
+<rect x="10" y="40" width="460" height="60" fill="#9FD3F0"/>
+<path d="M10 100H470" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M0 34H40L50 44L200 100L240 236L480 244V244Q480 260 464 260H16Q0 260 0 244Z" fill="#D9C49A" stroke="#8A6D3B" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="sw"><g transform="translate(150 56) scale(1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(176 68) scale(1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(196 52) scale(0.9 0.9)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g></g>
+<g class="sw sw2"><g transform="translate(330 170) scale(1.1 1.1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#7B61FF" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(370 190) scale(1 1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#7B61FF" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g><g transform="translate(400 160) scale(1.1 1.1)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#7B61FF" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g></g>
+<circle cx="118" cy="52" r="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="118" y="57" text-anchor="middle" font-size="14" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">A</text><circle cx="300" cy="196" r="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="300" y="201" text-anchor="middle" font-size="14" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">B</text>
+<text x="462" y="58" text-anchor="end" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">0 m</text><text x="462" y="94" text-anchor="end" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">200 m</text>
+</svg>

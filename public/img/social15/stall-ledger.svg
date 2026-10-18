@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" role="img">
+<title>A notebook page with a festival stall's sales and costs, beside a glass of nimbu pani</title>
+<style>
+.bu{animation:bu 2.4s ease-in infinite}@keyframes bu{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-60px);opacity:0}}
+.pe{animation:pe 2s ease-in-out infinite}@keyframes pe{0%,100%{transform:translate(0,0)}50%{transform:translate(-6px,3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="18" y="14" width="212" height="192" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M34 62H224M34 88H224M34 114H224M34 140H224M34 166H224M34 192H224" stroke="#CDEBFA" stroke-width="1.5"/><circle cx="24" cy="30" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="52" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="74" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="96" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="118" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="140" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="162" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/><circle cx="24" cy="184" r="4" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="1.8"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="40" y="40" font-size="14" fill="#0B6FA4">Festival stall report</text><text x="40" y="70" font-size="12">Glasses sold: 120 at ₹15</text><text x="40" y="96" font-size="12">Lemons: ₹500</text><text x="40" y="122" font-size="12">Sugar: ₹200</text><text x="40" y="148" font-size="12">Paper cups: ₹300</text><text x="40" y="182" font-size="14" fill="#C2353A">Profit: ₹ ?</text></g>
+<path d="M258 80H312L304 180H266Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M261 104H309L304 178H266Z" fill="#F6E05E" opacity=".75"/>
+<g fill="#FFFFFF" stroke="#C9B13B" stroke-width="1"><circle class="bu" cx="276" cy="168" r="3"/><circle class="bu" style="animation-delay:.7s" cx="290" cy="160" r="2.5"/><circle class="bu" style="animation-delay:1.3s" cx="298" cy="170" r="2"/></g>
+<circle cx="306" cy="84" r="14" fill="#F6E05E" stroke="#B7950B" stroke-width="2"/><path d="M306 72V96M294 84H318M297 76L315 92M315 76L297 92" stroke="#B7950B" stroke-width="1.2"/>
+<g class="pe"><path d="M196 196L232 160L240 168L204 204Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M196 196L192 208L204 204" fill="#C8925A" stroke="#2B2F4A" stroke-width="1.5"/></g>
+</svg>

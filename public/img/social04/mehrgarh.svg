@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>An early farming village with houses, a storage building, animals and a field, with numbered markers</title>
+<style>
+.sm{animation:sm 4s ease-in-out infinite}
+@keyframes sm{0%{opacity:0;transform:translate(0,0)}30%{opacity:.7}100%{opacity:0;transform:translate(8px,-30px)}}
+.tl{animation:tl 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:100% 0%}
+@keyframes tl{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(14deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V120H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 120Q80 84 160 104T320 96T400 104V120Z" fill="#C2B28E"/>
+<path d="M0 118H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#E6D3A8"/>
+<rect x="30" y="110" width="70" height="50" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 118H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 126H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 134H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 142H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 150H100" stroke="#B9875D" stroke-width="1.2"/><path d="M30 158H100" stroke="#B9875D" stroke-width="1.2"/><path d="M24 112L65 92L106 112Z" fill="#C8925A" stroke="#7E5A32" stroke-width="2.5" stroke-linejoin="round"/><rect x="56" y="134" width="16" height="26" fill="#7E5A32"/>
+<rect x="126" y="104" width="80" height="56" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5" stroke-linejoin="round"/><path d="M126 112H206" stroke="#B9875D" stroke-width="1.2"/><path d="M126 120H206" stroke="#B9875D" stroke-width="1.2"/><path d="M126 128H206" stroke="#B9875D" stroke-width="1.2"/><path d="M126 136H206" stroke="#B9875D" stroke-width="1.2"/><path d="M126 144H206" stroke="#B9875D" stroke-width="1.2"/><path d="M126 152H206" stroke="#B9875D" stroke-width="1.2"/><path d="M120 106L166 84L212 106Z" fill="#C8925A" stroke="#7E5A32" stroke-width="2.5" stroke-linejoin="round"/><rect x="158" y="132" width="16" height="28" fill="#7E5A32"/>
+<g class="sm" fill="#FFFFFF"><circle cx="196" cy="80" r="5"/><circle cx="200" cy="70" r="6"/></g>
+<rect x="248" y="100" width="116" height="62" fill="#D9A877" stroke="#8A5A32" stroke-width="2.5"/>
+<g fill="#F6C453" stroke="#8A5A32" stroke-width="2"><rect x="254" y="106" width="22" height="22"/><rect x="254" y="134" width="22" height="22"/><rect x="282" y="106" width="22" height="22"/><rect x="282" y="134" width="22" height="22"/><rect x="310" y="106" width="22" height="22"/><rect x="310" y="134" width="22" height="22"/><rect x="338" y="106" width="22" height="22"/><rect x="338" y="134" width="22" height="22"/></g>
+<g fill="#E0A92E"><path d="M256 126Q265 112 274 126Z"/><path d="M256 154Q265 140 274 154Z"/><path d="M284 126Q293 112 302 126Z"/><path d="M284 154Q293 140 302 154Z"/><path d="M312 126Q321 112 330 126Z"/><path d="M312 154Q321 140 330 154Z"/><path d="M340 126Q349 112 358 126Z"/><path d="M340 154Q349 140 358 154Z"/></g>
+<g transform="translate(90 236)"><ellipse cx="0" cy="0" rx="34" ry="18" fill="#E2D6C2" stroke="#2B2F4A" stroke-width="2.5"/><path d="M-24 -12Q-16 -40 2 -15" fill="#C9B796" stroke="#2B2F4A" stroke-width="2.5"/><path d="M-30 -6Q-46 -14 -52 -2Q-54 10 -40 8" fill="#E2D6C2" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M-48 -8L-56 -20M-42 -10L-38 -22" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><path d="M-20 16V34M-8 18V34M14 18V34M24 16V34" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><path class="tl" d="M34 -4Q46 4 42 20" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/></g>
+<g transform="translate(196 246)"><ellipse cx="0" cy="0" rx="22" ry="14" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/><ellipse cx="-22" cy="-4" rx="8" ry="7" fill="#2B2F4A"/><path d="M-8 12V26M10 12V26" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/></g>
+<rect x="268" y="200" width="112" height="80" rx="6" fill="#B9D27A" stroke="#7E9A3A" stroke-width="2.5"/>
+<g stroke="#A8832A" stroke-width="2.5" stroke-linecap="round"><path d="M280 272V224"/><circle cx="280" cy="220" r="3" fill="#E8C468"/><path d="M295 272V230"/><circle cx="295" cy="226" r="3" fill="#E8C468"/><path d="M310 272V224"/><circle cx="310" cy="220" r="3" fill="#E8C468"/><path d="M325 272V230"/><circle cx="325" cy="226" r="3" fill="#E8C468"/><path d="M340 272V224"/><circle cx="340" cy="220" r="3" fill="#E8C468"/><path d="M355 272V230"/><circle cx="355" cy="226" r="3" fill="#E8C468"/><path d="M370 272V224"/><circle cx="370" cy="220" r="3" fill="#E8C468"/></g>
+</svg>

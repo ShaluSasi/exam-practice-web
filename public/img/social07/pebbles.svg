@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" role="img">
+<title>A hand dropping a pebble into a clay pot between stone columns</title>
+<style>
+.peb{animation:fall 2.8s ease-in infinite}
+@keyframes fall{0%{transform:translateY(0);opacity:0}15%{opacity:1}70%{transform:translateY(58px);opacity:1}100%{transform:translateY(58px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 178H320V194Q320 210 304 210H16Q0 210 0 194Z" fill="#D9C49A"/>
+<g fill="#F3EEE4" stroke="#8C8577" stroke-width="2.5" stroke-linejoin="round">
+<path d="M26 42H74V52H26Z"/><path d="M32 52H68V170H32Z"/><path d="M24 170H76V180H24Z"/>
+<path d="M246 42H294V52H246Z"/><path d="M252 52H288V170H252Z"/><path d="M244 170H296V180H244Z"/>
+</g>
+<path d="M40 56V166M50 56V166M60 56V166M260 56V166M270 56V166M280 56V166" stroke="#D6CFC0" stroke-width="2"/>
+<path d="M136 110Q118 120 118 146Q118 176 160 178Q202 176 202 146Q202 120 184 110Z" fill="#E59A63" stroke="#8A4B22" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M134 100H186L184 110H136Z" fill="#D4864E" stroke="#8A4B22" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M124 140Q160 150 196 140" fill="none" stroke="#8A4B22" stroke-width="2"/>
+<path d="M126 156Q160 166 194 156" fill="none" stroke="#FFF2E2" stroke-width="2" stroke-dasharray="4 5"/>
+<path d="M118 120Q102 124 108 138" fill="none" stroke="#8A4B22" stroke-width="3" stroke-linecap="round"/>
+<path d="M202 120Q218 124 212 138" fill="none" stroke="#8A4B22" stroke-width="3" stroke-linecap="round"/>
+<ellipse class="peb" cx="160" cy="54" rx="6" ry="4.5" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M146 30Q150 20 162 22L178 24Q186 26 182 32L172 36Q176 44 166 46L152 44Q142 40 146 30Z" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M182 30L222 22" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+<path d="M182 30L222 22" stroke="#C7BFF0" stroke-width="8" stroke-linecap="round"/>
+<g fill="#A3A8CC" stroke="#2B2F4A" stroke-width="1.2"><ellipse cx="96" cy="188" rx="6" ry="4"/><ellipse cx="110" cy="192" rx="5" ry="3.5"/><ellipse cx="214" cy="190" rx="6" ry="4"/><ellipse cx="226" cy="186" rx="4" ry="3"/></g>
+</svg>

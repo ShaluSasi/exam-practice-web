@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 170" role="img">
+<title>Cross-section of a valley between two hills</title>
+<style>
+.fl{stroke-dasharray:10 9;animation:fl 1.4s linear infinite}@keyframes fl{to{stroke-dashoffset:-38}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="240" height="170" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><path d="M16 0H224Q240 0 240 16V170H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 26Q16 136 70 144H170Q224 136 240 26V170H0Z" fill="#9BD08A" stroke="#3FA34D" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M112 144H128L125 150H115Z" fill="#7CC4EC" stroke="#0B93D4" stroke-width="2"/><g transform="translate(84 144) scale(0.6)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(156 144) scale(0.6)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g></g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img">
+<title>Globe P with two arrows starting near the equator</title>
+<style>
+.dr{stroke-dasharray:120;stroke-dashoffset:120;animation:dr 3s ease-in-out infinite}@keyframes dr{0%{stroke-dashoffset:120}60%,100%{stroke-dashoffset:0}}
+.rt{animation:rt 3s ease-in-out infinite}@keyframes rt{0%,100%{transform:translateX(-4px)}50%{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><marker id="E5484D" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#E5484D"/></marker></defs>
+<circle cx="120" cy="124" r="96" fill="#9FD3F0" stroke="#0B6FA4" stroke-width="3"/>
+<path d="M48 70Q68 56 84 74Q78 96 56 92Z M156 160Q178 150 190 170Q180 188 160 182Z" fill="#9CCB7A" opacity=".8"/>
+<path d="M24 124H216" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M40 76Q120 64 200 76M40 172Q120 184 200 172" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity=".8"/>
+<path d="M120 112V44M120 136V204" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="3 5"/>
+<g fill="none" stroke="#E5484D" stroke-width="5" stroke-linecap="round">
+<path class="dr" d="M120 112Q120 70 154 48" marker-end="url(#E5484D)"/>
+<path class="dr" d="M120 136Q120 178 154 200" marker-end="url(#E5484D)"/>
+</g>
+<g class="rt"><path d="M88 18Q120 8 152 18" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><path d="M144 12L152 18L143 23" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="26" cy="26" r="15" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="26" y="31" text-anchor="middle" font-size="15" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">P</text>
+<text x="228" y="40" text-anchor="end" font-size="13" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">N ↑</text>
+</svg>

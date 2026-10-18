@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A globe with soft continents and two hands shaking over signed papers</title>
+<style>
+.mer{animation:mer 6s linear infinite}
+@keyframes mer{0%{transform:translateX(-30px)}100%{transform:translateX(30px)}}
+.shake{animation:shake 1.6s ease-in-out infinite}
+@keyframes shake{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="g"><circle cx="110" cy="100" r="70"/></clipPath></defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="110" cy="100" r="70" fill="#9FD3F0" stroke="#2B2F4A" stroke-width="2.5"/>
+<g clip-path="url(#g)">
+<g class="mer" fill="#9ED6A4" stroke="#3F8A4A" stroke-width="1.5">
+<path d="M60 60Q80 44 100 58Q110 72 92 84Q72 92 62 78Z"/>
+<path d="M118 70Q140 56 160 72Q170 92 150 104Q130 110 122 94Z"/>
+<path d="M76 116Q96 108 108 124Q110 150 92 160Q74 150 76 116Z"/>
+<path d="M150 130Q170 124 176 140Q168 156 152 150Z"/>
+<path d="M0 60Q20 44 40 58Q50 72 32 84Q12 92 2 78Z"/>
+</g>
+<path d="M40 100H180M48 66H172M48 134H172" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity=".8" fill="none"/>
+<path d="M110 30V170M110 30Q70 100 110 170M110 30Q150 100 110 170" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity=".8" fill="none"/>
+</g>
+<rect x="210" y="120" width="70" height="60" rx="4" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" transform="rotate(-8 245 150)"/>
+<rect x="236" y="126" width="70" height="60" rx="4" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" transform="rotate(6 271 156)"/>
+<path d="M248 146H290M248 156H290M248 166H276" stroke="#A3A8CC" stroke-width="2" transform="rotate(6 271 156)"/>
+<g class="shake">
+<path d="M196 84L240 70L258 82L232 96Z" fill="#E8B48C" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M320 84L276 70L252 84L280 98Z" fill="#C58C64" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M190 80L200 92M326 80L316 92" stroke="#2B2F4A" stroke-width="10" stroke-linecap="round"/>
+</g>
+</svg>

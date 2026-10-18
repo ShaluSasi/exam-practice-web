@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img">
+<title>A tablet showing six election service apps</title>
+<style>
+.flash{animation:flash 2.4s ease-in-out infinite}
+@keyframes flash{0%,80%,100%{opacity:0}88%{opacity:1}}
+.car{animation:roll 3s ease-in-out infinite}
+@keyframes roll{0%,100%{transform:translateX(-4px)}50%{transform:translateX(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="40" y="14" width="280" height="214" rx="18" fill="#2B2F4A"/>
+<rect x="50" y="24" width="260" height="194" rx="10" fill="#E3F2FD"/>
+<g stroke="#2B2F4A" stroke-width="2">
+<rect x="72" y="52" width="56" height="56" rx="14" fill="#FDE3C8"/>
+<rect x="152" y="52" width="56" height="56" rx="14" fill="#FBD9DA"/>
+<rect x="232" y="52" width="56" height="56" rx="14" fill="#D8F0D9"/>
+<rect x="72" y="137" width="56" height="56" rx="14" fill="#E4E0F7"/>
+<rect x="152" y="137" width="56" height="56" rx="14" fill="#FFF0C2"/>
+<rect x="232" y="137" width="56" height="56" rx="14" fill="#D7F2EE"/>
+</g>
+<g fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round">
+<path d="M86 86V78Q86 64 100 64Q114 64 114 78V86"/>
+<path d="M114 88Q112 96 102 96"/>
+</g>
+<rect x="82" y="78" width="9" height="14" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="109" y="78" width="9" height="14" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="162" y="68" width="36" height="26" rx="5" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="172" y="63" width="14" height="6" rx="2" fill="#2B2F4A"/>
+<circle cx="180" cy="81" r="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><circle cx="180" cy="81" r="3.5" fill="#2B2F4A"/>
+<circle class="flash" cx="180" cy="81" r="24" fill="#FFFFFF" opacity="0"/>
+<circle cx="257" cy="63" r="5" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M257 70V84H270L274 96" fill="none" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M251 82A11 11 0 1 0 266 97" fill="none" stroke="#3FA34D" stroke-width="3.5" stroke-linecap="round"/>
+<rect x="88" y="148" width="24" height="32" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="94" y="144" width="12" height="6" rx="2" fill="#8E7FD6" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M93 164l5 5 9-10" fill="none" stroke="#8E7FD6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="car"><path d="M162 174V164L168 154H192L198 164V174Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<rect x="171" y="157" width="18" height="7" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/>
+<circle cx="170" cy="175" r="4.5" fill="#2B2F4A"/><circle cx="190" cy="175" r="4.5" fill="#2B2F4A"/></g>
+<rect x="242" y="153" width="36" height="24" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M242 154L260 168L278 154" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M266 140L258 152H264L258 162" fill="none" stroke="#2BB3A3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="100" y="124">Voter Helpline</text><text x="180" y="124">cVIGIL</text><text x="260" y="124">Saksham</text>
+<text x="100" y="209">Suvidha</text><text x="180" y="209">Sugam</text><text x="260" y="209">ETPBS</text>
+</g>
+</svg>

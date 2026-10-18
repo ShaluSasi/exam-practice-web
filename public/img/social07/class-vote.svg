@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A classroom election with a blackboard, a ballot box and students in a queue</title>
+<style>
+.slip{animation:drop 2.6s ease-in infinite}
+@keyframes drop{0%{transform:translateY(-12px);opacity:0}30%{opacity:1}80%{transform:translateY(10px);opacity:1}100%{transform:translateY(10px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 16H324V170H16Z" fill="#FDF1D8"/>
+<path d="M0 166H340V194Q340 210 324 210H16Q0 210 0 194Z" fill="#C8925A"/>
+<rect x="30" y="26" width="180" height="84" rx="6" fill="#2F5D50" stroke="#8A5A2B" stroke-width="5"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#FFFFFF">
+<text x="120" y="50" font-size="14" text-anchor="middle">Class Representative</text>
+<text x="120" y="68" font-size="13" text-anchor="middle">Grade 9 · Election</text>
+<text x="44" y="96" font-size="13">Term: one year</text>
+</g>
+<rect x="238" y="112" width="66" height="54" rx="4" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="258" y="108" width="26" height="6" fill="#2B2F4A"/>
+<g class="slip"><rect x="263" y="88" width="16" height="20" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="70" cy="128" r="10" fill="#E8B48C"/><path d="M56 166V150Q56 140 70 140Q84 140 84 150V166Z" fill="#0B93D4"/>
+<circle cx="110" cy="128" r="10" fill="#C58C64"/><path d="M96 166V150Q96 140 110 140Q124 140 124 150V166Z" fill="#E5484D"/>
+<circle cx="150" cy="128" r="10" fill="#E8B48C"/><path d="M136 166V150Q136 140 150 140Q164 140 164 150V166Z" fill="#3FA34D"/>
+<circle cx="196" cy="126" r="10" fill="#C58C64"/><path d="M182 166V148Q182 138 196 138Q210 138 210 148V166Z" fill="#F6C453"/>
+</g>
+<path d="M210 146L240 120" stroke="#C58C64" stroke-width="6" stroke-linecap="round"/>
+</svg>

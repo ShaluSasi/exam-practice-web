@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A balance with a sealed scroll on one pan and an open book on the other, held level</title>
+<style>
+.tilt{animation:tl 4s ease-in-out infinite alternate;transform-box:view-box;transform-origin:200px 64px}@keyframes tl{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="206" width="400" height="34" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M200 206V60M160 206H240" fill="none"/>
+<g class="tilt"><path d="M90 64H310" fill="none"/><path d="M96 64L72 128M96 64L120 128M304 64L280 128M304 64L328 128" fill="none" stroke-width="2"/>
+<path d="M60 128H132Q126 148 96 148Q66 148 60 128Z" fill="#F6E3C4"/><path d="M268 128H340Q334 148 304 148Q274 148 268 128Z" fill="#F6E3C4"/>
+<rect x="76" y="110" width="40" height="16" rx="8" fill="#FBEFD2" stroke-width="2"/><circle cx="96" cy="118" r="5" fill="#E5484D" stroke-width="1.5"/>
+<path d="M280 124L304 116L328 124V108L304 100L280 108Z" fill="#CDEBFA" stroke-width="2"/><path d="M304 100V116" fill="none" stroke-width="2"/></g></g>
+<circle cx="200" cy="58" r="7" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+</svg>

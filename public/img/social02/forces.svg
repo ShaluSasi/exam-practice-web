@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img">
+<title>A landscape cut open to show rock layers, with activity both below and above the ground</title>
+<style>
+.lv{animation:lv 1.6s ease-out infinite}.lv2{animation-delay:.8s}@keyframes lv{from{transform:translateY(0);opacity:1}to{transform:translateY(-26px);opacity:0}}
+.sw{animation:sw 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}.sw2{animation-delay:1.2s}@keyframes sw{from{transform:scale(.3);opacity:1}to{transform:scale(1.4);opacity:0}}
+.dr{animation:dr 1s linear infinite}@keyframes dr{from{transform:translateY(0)}to{transform:translateY(16px)}}
+.wd{stroke-dasharray:16 10;animation:wd 1.4s linear infinite}@keyframes wd{to{stroke-dashoffset:-52}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="420" height="240" rx="16"/></clipPath></defs>
+<path d="M16 0H404Q420 0 420 16V130H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<g clip-path="url(#c)"><path d="M0 120L4 115.8L8 112.1L12 109.4L16 108.1L20 108.3L24 110.0L28 112.9L32 116.8L36 121.1L40 125.2L44 128.7L48 131.0L52 132.0L56 131.4L60 129.4L64 126.2L68 122.1L72 117.9L76 113.8L80 110.6L84 108.6L88 108.0L92 109.0L96 111.3L100 114.8L104 118.9L108 123.2L112 127.1L116 130.0L120 131.7L124 131.9L128 130.6L132 127.9L136 124.2L140 120.0L144 115.8L148 112.1L152 109.4L156 108.1L160 108.3L164 110.0L168 112.9L172 116.8L176 121.1L180 125.2L184 128.7L188 131.0L192 132.0L196 131.4L200 129.4L204 126.2L206 240H0Z" fill="#C8925A" stroke="#7A5230" stroke-width="1.5"/><path d="M212 134H420V240H212Z" fill="#C8925A" stroke="#7A5230" stroke-width="1.5"/><path d="M0 146L4 141.8L8 138.1L12 135.4L16 134.1L20 134.3L24 136.0L28 138.9L32 142.8L36 147.1L40 151.2L44 154.7L48 157.0L52 158.0L56 157.4L60 155.4L64 152.2L68 148.1L72 143.9L76 139.8L80 136.6L84 134.6L88 134.0L92 135.0L96 137.3L100 140.8L104 144.9L108 149.2L112 153.1L116 156.0L120 157.7L124 157.9L128 156.6L132 153.9L136 150.2L140 146.0L144 141.8L148 138.1L152 135.4L156 134.1L160 134.3L164 136.0L168 138.9L172 142.8L176 147.1L180 151.2L184 154.7L188 157.0L192 158.0L196 157.4L200 155.4L204 152.2L206 240H0Z" fill="#E7C08A" stroke="#7A5230" stroke-width="1.5"/><path d="M212 160H420V240H212Z" fill="#E7C08A" stroke="#7A5230" stroke-width="1.5"/><path d="M0 172L4 167.8L8 164.1L12 161.4L16 160.1L20 160.3L24 162.0L28 164.9L32 168.8L36 173.1L40 177.2L44 180.7L48 183.0L52 184.0L56 183.4L60 181.4L64 178.2L68 174.1L72 169.9L76 165.8L80 162.6L84 160.6L88 160.0L92 161.0L96 163.3L100 166.8L104 170.9L108 175.2L112 179.1L116 182.0L120 183.7L124 183.9L128 182.6L132 179.9L136 176.2L140 172.0L144 167.8L148 164.1L152 161.4L156 160.1L160 160.3L164 162.0L168 164.9L172 168.8L176 173.1L180 177.2L184 180.7L188 183.0L192 184.0L196 183.4L200 181.4L204 178.2L206 240H0Z" fill="#A97B50" stroke="#7A5230" stroke-width="1.5"/><path d="M212 186H420V240H212Z" fill="#A97B50" stroke="#7A5230" stroke-width="1.5"/><path d="M0 198L4 193.8L8 190.1L12 187.4L16 186.1L20 186.3L24 188.0L28 190.9L32 194.8L36 199.1L40 203.2L44 206.7L48 209.0L52 210.0L56 209.4L60 207.4L64 204.2L68 200.1L72 195.9L76 191.8L80 188.6L84 186.6L88 186.0L92 187.0L96 189.3L100 192.8L104 196.9L108 201.2L112 205.1L116 208.0L120 209.7L124 209.9L128 208.6L132 205.9L136 202.2L140 198.0L144 193.8L148 190.1L152 187.4L156 186.1L160 186.3L164 188.0L168 190.9L172 194.8L176 199.1L180 203.2L184 206.7L188 209.0L192 210.0L196 209.4L200 207.4L204 204.2L206 240H0Z" fill="#D9C49A" stroke="#7A5230" stroke-width="1.5"/><path d="M212 212H420V240H212Z" fill="#D9C49A" stroke="#7A5230" stroke-width="1.5"/>
+<path d="M206 100L212 240" stroke="#5E4030" stroke-width="3"/>
+<path d="M300 134Q330 160 360 134" fill="#7CC4EC" stroke="#0B93D4" stroke-width="2"/></g>
+<path d="M40 124L92 54H112L160 124Z" fill="#8E8A99" stroke="#5E5A6A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M102 56V180" stroke="#E5484D" stroke-width="6" stroke-linecap="round"/>
+<g fill="#FF8A1F"><circle class="lv" cx="98" cy="50" r="6"/><circle class="lv lv2" cx="108" cy="48" r="5"/></g>
+<g fill="none" stroke="#E5484D" stroke-width="2.5"><circle class="sw" cx="160" cy="200" r="16"/><circle class="sw sw2" cx="160" cy="200" r="16"/></g>
+<circle cx="390" cy="30" r="14" fill="#F6C453" stroke="#E0A92E" stroke-width="2.5"/>
+<path d="M290 44Q290 26 308 28Q318 16 334 24Q352 22 352 40Q362 44 356 52H294Q284 50 290 44Z" fill="#FFFFFF" stroke="#8FA7C2" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="dr" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round"><path d="M304 60l-3 7M322 60l-3 7M340 60l-3 7"/></g>
+<path class="wd" d="M232 86Q262 76 292 88T350 86" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"/>
+</svg>

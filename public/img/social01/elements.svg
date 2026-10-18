@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A landscape with starry space above, breezy sky, a rocky hill, a river and a campfire</title>
+<style>
+.tw{animation:tw 2.4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+.wind{stroke-dasharray:22 14;animation:wind 2.2s linear infinite}
+@keyframes wind{to{stroke-dashoffset:-72}}
+.kite{animation:sway 3s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes sway{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.fl{animation:flick .9s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:bottom}
+@keyframes flick{from{transform:scaleY(.85)}to{transform:scaleY(1.12)}}
+.rip{animation:rip 3s ease-in-out infinite}
+@keyframes rip{0%,100%{opacity:.3}50%{opacity:.95}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M16 0H384Q400 0 400 16V80H0V16Q0 0 16 0Z" fill="#3B4A8F"/>
+<path d="M0 72Q200 96 400 72V80H0Z" fill="#6E7FC0"/>
+<g fill="#FFF3C4">
+<circle class="tw" cx="40" cy="24" r="2.5"/><circle class="tw" cx="96" cy="50" r="2" style="animation-delay:.6s"/>
+<circle class="tw" cx="150" cy="18" r="3" style="animation-delay:1.1s"/><circle class="tw" cx="250" cy="44" r="2.5" style="animation-delay:.3s"/>
+<circle class="tw" cx="300" cy="16" r="2" style="animation-delay:1.6s"/><circle class="tw" cx="360" cy="40" r="3" style="animation-delay:.9s"/>
+<circle class="tw" cx="200" cy="58" r="2" style="animation-delay:1.9s"/>
+</g>
+<circle cx="200" cy="34" r="11" fill="#F6C453" stroke="#E0A92E" stroke-width="2"/>
+<ellipse cx="200" cy="34" rx="20" ry="5" fill="none" stroke="#FF8A1F" stroke-width="2"/>
+<g fill="none" stroke="#7FB6E0" stroke-width="3" stroke-linecap="round">
+<path class="wind" d="M30 120Q90 104 150 120T270 116"/>
+<path class="wind" d="M60 160Q120 146 180 160T300 156" style="animation-delay:.8s"/>
+</g>
+<path d="M300 150Q290 176 270 200" fill="none" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="kite"><path d="M300 104L318 126L300 150L282 126Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M300 104V150M282 126H318" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<path d="M0 200H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#A9D98E"/>
+<path d="M0 204L70 128L150 204Z" fill="#C8A27A" stroke="#8B6A47" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M40 182L58 172L72 180M84 160L96 168" stroke="#8B6A47" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+<path d="M0 250H140V284Q140 300 124 300H16Q0 300 0 284Z" fill="#D9C49A"/>
+<g fill="#B79C74" stroke="#8B6A47" stroke-width="2"><ellipse cx="40" cy="266" rx="14" ry="8"/><ellipse cx="96" cy="276" rx="10" ry="6"/></g>
+<path d="M176 200Q160 230 196 252Q230 272 214 300H252Q266 268 236 246Q204 226 214 200Z" fill="#8FD0F2" stroke="#0B93D4" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="rip" d="M196 222Q204 218 212 222M214 258Q222 254 230 258M226 282Q234 278 242 282" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<path d="M310 262L350 250M310 250L350 262" stroke="#8B5A2B" stroke-width="6" stroke-linecap="round"/>
+<g class="fl"><path d="M330 254Q312 236 324 216Q328 228 334 222Q332 206 344 196Q342 214 352 226Q356 242 340 254Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M334 252Q326 240 334 230Q338 238 342 236Q346 246 338 252Z" fill="#F6C453"/></g>
+</svg>

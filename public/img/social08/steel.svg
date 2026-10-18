@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A steel beam with arrows to three different products</title>
+<style>
+.o{stroke:#2B2F4A;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.f{stroke-dasharray:8 8;animation:f 1s linear infinite}@keyframes f{to{stroke-dashoffset:-16}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(200 150)"><rect x="-56" y="-16" width="112" height="32" rx="4" fill="#A3A8CC" class="o"/><path d="M-56 -8H56M-56 8H56" stroke="#7E8299" stroke-width="2"/></g>
+<g fill="none" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round" class="f"><path d="M150 130L96 84"/><path d="M200 168V214"/><path d="M250 130L304 84"/></g>
+<g transform="translate(70 60)"><rect x="-42" y="0" width="84" height="12" rx="4" fill="#FFFFFF" class="o"/><path d="M-36 12V30M36 12V30" class="o"/><rect x="-36" y="-12" width="22" height="12" rx="4" fill="#CDEBFA" class="o"/><path d="M26 -40V0M18 -40H34" class="o"/><path d="M26 -34Q40 -30 30 -18" fill="none" stroke="#0B93D4" stroke-width="2"/></g>
+<g transform="translate(200 250)"><rect x="-24" y="-34" width="48" height="76" rx="5" fill="#CDEBFA" class="o" transform="translate(0 -8)"/><path d="M-24 -14H24M16 -34V-22M16 -8V10" class="o"/></g>
+<g transform="translate(330 64)"><path d="M-50 4L40 -6Q54 -6 54 2Q54 8 40 8L-50 12Z" fill="#FFFFFF" class="o"/><path d="M-6 0L-26 -28H-16L14 0ZM-4 10L-20 34H-10L12 10Z" fill="#0B93D4" class="o"/><path d="M-48 4L-56 -14H-48L-38 4" fill="#0B93D4" class="o"/></g>
+</svg>

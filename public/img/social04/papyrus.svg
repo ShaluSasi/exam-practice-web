@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img">
+<title>Tall reeds growing by water and thin strips of their stems laid across each other in layers</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 170H160V220H16Q0 220 0 204Z" fill="#8FD0F2"/>
+<path d="M160 170H400V204Q400 220 384 220H160Z" fill="#E6D3A8"/>
+<g class="sw" style="animation-delay:0s"><path d="M40 190V60" stroke="#3FA34D" stroke-width="4"/><path d="M40 60l-20 -24M40 60l-10 -30M40 60V26M40 60l10 -30M40 60l20 -24" stroke="#55B862" stroke-width="2.5" stroke-linecap="round"/></g><g class="sw" style="animation-delay:0.5s"><path d="M80 190V60" stroke="#3FA34D" stroke-width="4"/><path d="M80 60l-20 -24M80 60l-10 -30M80 60V26M80 60l10 -30M80 60l20 -24" stroke="#55B862" stroke-width="2.5" stroke-linecap="round"/></g><g class="sw" style="animation-delay:1s"><path d="M120 190V60" stroke="#3FA34D" stroke-width="4"/><path d="M120 60l-20 -24M120 60l-10 -30M120 60V26M120 60l10 -30M120 60l20 -24" stroke="#55B862" stroke-width="2.5" stroke-linecap="round"/></g>
+<g transform="translate(200 60)"><rect x="0" y="0" width="170" height="110" fill="#F3E3B0" stroke="#A8832A" stroke-width="2.5"/>
+<rect x="4" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/><rect x="28" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/><rect x="52" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/><rect x="76" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/><rect x="100" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/><rect x="124" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/><rect x="148" y="4" width="18" height="102" fill="#E9D396" stroke="#C2A35A" stroke-width="1.5"/>
+<rect x="4" y="6" width="162" height="18" fill="#EEDCA6" fill-opacity=".85" stroke="#C2A35A" stroke-width="1.5"/><rect x="4" y="32" width="162" height="18" fill="#EEDCA6" fill-opacity=".85" stroke="#C2A35A" stroke-width="1.5"/><rect x="4" y="58" width="162" height="18" fill="#EEDCA6" fill-opacity=".85" stroke="#C2A35A" stroke-width="1.5"/><rect x="4" y="84" width="162" height="18" fill="#EEDCA6" fill-opacity=".85" stroke="#C2A35A" stroke-width="1.5"/></g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" role="img">
+<title>A schematic cross-section in winter: a cold landmass, a stretch of sea and a coastal strip, with wind blowing across</title>
+<style>
+.w{stroke-dasharray:12 7;animation:w 1.2s linear infinite}@keyframes w{to{stroke-dashoffset:-38}}.wv{animation:wv 3s ease-in-out infinite alternate}@keyframes wv{from{transform:translateX(-6px)}to{transform:translateX(6px)}}.vp{animation:vp 2.5s ease-in-out infinite}@keyframes vp{0%{transform:translateY(6px);opacity:0}50%{opacity:.7}100%{transform:translateY(-10px);opacity:0}}
+.sf{animation:sf 3s linear infinite}@keyframes sf{from{transform:translateY(-10px);opacity:0}30%{opacity:1}to{transform:translateY(40px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+
+<defs><marker id="a" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#7C8BB0"/></marker></defs>
+<rect width="380" height="240" rx="16" fill="#E8EEF7"/>
+<path d="M0 160H40L80 100L120 160H150V240H16Q0 240 0 224Z" fill="#C7D3B8" stroke="#7E9A6A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M80 100L68 118L77 115L82 122L88 115L94 118Z" fill="#FFFFFF" stroke="#7E9A6A" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M150 176H282V240H150Z" fill="#7CC4EE" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="wv" d="M160 200q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0q5 -5 10 0t10 0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+<path d="M276 166H380V224Q380 240 364 240H282V176Z" fill="#9BD08A" stroke="#3FA34D" stroke-width="2.5" stroke-linejoin="round"/>
+<g transform="translate(330 168) scale(0.8)" stroke-linejoin="round" stroke-linecap="round"><path d="M0 0Q-4 -20 4 -40" fill="none" stroke="#8A5F33" stroke-width="5"/><g fill="#7CC47F" stroke="#3FA34D" stroke-width="2"><path d="M4 -40Q-14 -48 -24 -36Q-10 -42 4 -40Z"/><path d="M4 -40Q20 -50 32 -38Q16 -42 4 -40Z"/><path d="M4 -40Q2 -58 -10 -60Q2 -50 4 -40Z"/><path d="M4 -40Q16 -56 26 -54Q12 -50 4 -40Z"/></g></g>
+<g stroke="#2B2F4A" stroke-width="2"><rect x="25" y="180" width="10" height="40" rx="5" fill="#FFFFFF"/><circle cx="30" cy="224" r="8" fill="#0B93D4"/><rect x="28" y="212" width="4" height="10" fill="#0B93D4" stroke="none"/></g>
+<g class="sf" fill="#FFFFFF" stroke="#9DB6CC" stroke-width="1.5"><path d="M30 60l5-5 5 5-5 5z"/><path d="M110 50l5-5 5 5-5 5z"/><path d="M70 30l4-4 4 4-4 4z"/></g>
+<g class="vp" fill="none" stroke="#0B93D4" stroke-width="2" stroke-linecap="round" opacity=".6"><path d="M180 168q-5-6 0-12t0-12M220 168q-5-6 0-12t0-12M255 168q-5-6 0-12t0-12"/></g>
+<g fill="none" stroke="#7C8BB0" stroke-width="6" stroke-linecap="round" marker-end="url(#a)"><path class="w" d="M40 136H300"/></g>
+</svg>

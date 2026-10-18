@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Five people in different styles of clothing holding hands under a string of bunting, with speech bubbles in different scripts</title>
+<style>
+.flag{animation:flut 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:top}
+@keyframes flut{0%,100%{transform:skewX(0)}50%{transform:skewX(10deg)}}
+.bub{animation:bob 3s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 222H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<path d="M10 30Q200 80 390 30" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<g class="flag" stroke="#2B2F4A" stroke-width="1.5">
+<path d="M40 38L52 64L64 44Z" fill="#E5484D"/><path d="M90 50L100 76L114 54Z" fill="#F6C453"/><path d="M144 58L152 84L168 60Z" fill="#3FA34D"/><path d="M196 60L202 86L218 60Z" fill="#0B93D4"/><path d="M248 58L250 84L268 56Z" fill="#FF8A1F"/><path d="M300 50L300 76L318 48Z" fill="#B9B0E6"/><path d="M348 40L348 64L364 36Z" fill="#E5484D"/>
+</g>
+<g class="bub"><path d="M60 92H120V122H82L72 132V122H60Z" fill="#fff" stroke="#2B2F4A" stroke-width="2"/><path d="M68 104q6-8 10 0t10 0t10 0M68 114h28" fill="none" stroke="#5B4FA8" stroke-width="2" stroke-linecap="round"/></g>
+<g class="bub" style="animation-delay:1s"><path d="M170 96H230V126H210L202 136V126H170Z" fill="#fff" stroke="#2B2F4A" stroke-width="2"/><path d="M178 106h12v8M196 106l6 8 6-8M178 118h40" fill="none" stroke="#0B6E9E" stroke-width="2" stroke-linecap="round"/></g>
+<g class="bub" style="animation-delay:2s"><path d="M280 92H340V122H320L312 132V122H280Z" fill="#fff" stroke="#2B2F4A" stroke-width="2"/><path d="M288 108q4-10 10-2q4 8 10-2q4-6 8 4M288 116h36" fill="none" stroke="#B5463A" stroke-width="2" stroke-linecap="round"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<circle cx="60" cy="152" r="12" fill="#8A5A3C"/><path d="M42 222L46 176Q48 166 60 166Q72 166 74 176L78 222Z" fill="#E5484D"/>
+<circle cx="130" cy="150" r="12" fill="#C68A5E"/><path d="M114 222V178Q114 166 130 166Q146 166 146 178V222Z" fill="#F6C453"/><path d="M118 146Q130 132 142 146Z" fill="#fff"/>
+<circle cx="200" cy="154" r="12" fill="#704A32"/><path d="M180 222L186 178Q188 168 200 168Q212 168 214 178L220 222Z" fill="#3FA34D"/>
+<circle cx="270" cy="150" r="12" fill="#E8B48C"/><path d="M254 222V178Q254 166 270 166Q286 166 286 178V222Z" fill="#0B93D4"/><path d="M258 148Q270 130 282 148" fill="#2B2F4A"/>
+<circle cx="340" cy="152" r="12" fill="#A86E48"/><path d="M322 222L326 176Q328 166 340 166Q352 166 354 176L358 222Z" fill="#B9B0E6"/>
+</g>
+<g stroke-width="4" stroke-linecap="round" fill="none" stroke="#2B2F4A"><path d="M74 186L116 186M146 186L186 188M214 188L254 186M286 186L326 186"/></g>
+</svg>

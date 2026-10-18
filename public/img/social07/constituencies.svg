@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270" role="img">
+<title>Seven hexagon tiles, each a constituency electing one MP, with its population in lakh</title>
+<style>
+.p{animation:p 3s ease-in-out infinite}
+.p2{animation-delay:1s}.p3{animation-delay:2s}
+@keyframes p{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><path id="hx" d="M34.64 -20V20L0 40L-34.64 20V-20L0 -40Z"/></defs>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="180" y="24" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="middle">Each tile elects one MP</text>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<use href="#hx" x="145" y="80" fill="#CDEBFA"/>
+<use href="#hx" x="215" y="80" fill="#FDE3C8"/>
+<use href="#hx" x="110" y="140" fill="#D8F0D9"/>
+<use href="#hx" x="180" y="140" fill="#E4E0F7"/>
+<use href="#hx" x="250" y="140" fill="#FFF0C2"/>
+<use href="#hx" x="145" y="200" fill="#FBD9DA"/>
+<use href="#hx" x="215" y="200" fill="#D7F2EE"/>
+</g>
+<g fill="#2B2F4A">
+<circle class="p" cx="135" cy="95" r="2.5"/><circle class="p p2" cx="155" cy="95" r="2.5"/>
+<circle class="p p3" cx="205" cy="95" r="2.5"/><circle class="p" cx="225" cy="95" r="2.5"/>
+<circle class="p p2" cx="100" cy="155" r="2.5"/><circle class="p p3" cx="120" cy="155" r="2.5"/>
+<circle class="p" cx="166" cy="155" r="2.5"/><circle class="p p2" cx="176" cy="157" r="2.5"/><circle class="p p3" cx="186" cy="155" r="2.5"/><circle class="p" cx="196" cy="157" r="2.5"/><circle class="p p2" cx="171" cy="164" r="2.5"/><circle class="p p3" cx="191" cy="164" r="2.5"/>
+<circle class="p p3" cx="240" cy="155" r="2.5"/><circle class="p" cx="260" cy="155" r="2.5"/>
+<circle class="p p2" cx="145" cy="216" r="2.5"/>
+<circle class="p" cx="205" cy="215" r="2.5"/><circle class="p p3" cx="225" cy="215" r="2.5"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#2B2F4A" text-anchor="middle">
+<text x="145" y="84">12 L</text><text x="215" y="84">14 L</text>
+<text x="110" y="144">13 L</text><text x="180" y="144">25 L</text><text x="250" y="144">15 L</text>
+<text x="145" y="204">5 L</text><text x="215" y="204">11 L</text>
+</g>
+<text x="180" y="260" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle">L = lakh people</text>
+</svg>

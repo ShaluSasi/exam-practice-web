@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>An elder telling stories to children at night by the light of a lantern</title>
+<style>
+.glow{animation:glow 2s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.35}50%{opacity:.7}}
+.hand{animation:wave 2s ease-in-out infinite;transform-box:fill-box;transform-origin:left bottom}
+@keyframes wave{0%,100%{transform:rotate(0)}50%{transform:rotate(-14deg)}}
+.tw{animation:tw 2.4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+.bub{animation:bob 3s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V180H0V16Q0 0 16 0Z" fill="#3B4A8F"/>
+<g fill="#FFF3C4"><circle class="tw" cx="40" cy="30" r="2.5"/><circle class="tw" cx="120" cy="20" r="2" style="animation-delay:.8s"/><circle class="tw" cx="360" cy="40" r="2.5" style="animation-delay:1.5s"/><circle class="tw" cx="300" cy="20" r="2" style="animation-delay:.4s"/></g>
+<path d="M350 30A16 16 0 1 0 366 54A12 12 0 1 1 350 30Z" fill="#F6C453"/>
+<path d="M0 178H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#8B6A47"/>
+<circle class="glow" cx="200" cy="190" r="70" fill="#F6C453"/>
+<rect x="192" y="182" width="16" height="22" rx="3" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M190 182H210M194 176Q200 168 206 176" fill="none" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M200 198Q195 192 200 186Q205 192 200 198Z" fill="#FF8A1F"/>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<circle cx="110" cy="132" r="15" fill="#A86E48"/><path d="M96 124Q110 108 124 124" fill="#E8E8EE"/>
+<path d="M80 200Q80 150 110 150Q140 150 140 200Z" fill="#FF8A1F"/>
+</g>
+<g class="hand"><path d="M136 162L156 142" stroke="#A86E48" stroke-width="6" stroke-linecap="round"/></g>
+<g stroke="#2B2F4A" stroke-width="2">
+<circle cx="260" cy="172" r="10" fill="#8A5A3C"/><path d="M244 206Q244 184 260 184Q276 184 276 206Z" fill="#0B93D4"/>
+<circle cx="300" cy="166" r="10" fill="#C68A5E"/><path d="M284 206Q284 178 300 178Q316 178 316 206Z" fill="#E5484D"/>
+<circle cx="338" cy="174" r="9" fill="#704A32"/><path d="M324 206Q324 186 338 186Q352 186 352 206Z" fill="#3FA34D"/>
+</g>
+<g class="bub"><path d="M150 50H246Q256 50 256 60V96Q256 106 246 106H180L166 120V106H150Q140 106 140 96V60Q140 50 150 50Z" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M160 92L176 70L190 86L202 74L216 92Z" fill="#A9D98E" stroke="#3FA34D" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="230" cy="70" r="7" fill="#F6C453"/></g>
+</svg>

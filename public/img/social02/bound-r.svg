@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img">
+<title>Two blocks of the Earth's crust seen from above with arrows</title>
+<style>
+.a{animation:a 2.4s ease-in-out infinite alternate}@keyframes a{to{transform:translateY(-4px)}}
+.b{animation:b 2.4s ease-in-out infinite alternate}@keyframes b{to{transform:translateY(4px)}}
+.mg{animation:mg 1.6s ease-in-out infinite}@keyframes mg{0%,100%{opacity:.7}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="a"><rect x="14" y="26" width="106" height="108" rx="6" fill="#C8925A" stroke="#7A5230" stroke-width="2.5"/><path class="" d="M62 118V53H57L66 42L75 53H70V118Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+<g class="b"><rect x="120" y="26" width="106" height="108" rx="6" fill="#D9B07A" stroke="#7A5230" stroke-width="2.5"/><path class="" d="M170 42V107H165L174 118L183 107H178V42Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+<path d="M120 26V134" stroke="#7A5230" stroke-width="3" stroke-dasharray="8 5"/>
+</svg>

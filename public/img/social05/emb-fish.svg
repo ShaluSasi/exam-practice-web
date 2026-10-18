@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A fish</title>
+<style>
+.fi{animation:fi 1.8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}@keyframes fi{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="80" cy="80" r="66" fill="#FFF3D6" stroke="#E0C48E" stroke-width="3"/><g class="fi" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><path d="M28 80Q66 40 112 80Q66 120 28 80Z" fill="#0B93D4"/><path d="M110 80L138 58V102Z" fill="#0B93D4"/><circle cx="48" cy="76" r="4" fill="#FFFFFF"/><path d="M66 64Q76 80 66 96M82 62Q92 80 82 98" fill="none" stroke="#CDEBFA"/></g>
+</svg>

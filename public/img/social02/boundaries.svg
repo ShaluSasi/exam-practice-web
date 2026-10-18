@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A slice through the Earth's outer layers across an ocean and two continents</title>
+<style>
+.mg{stroke-dasharray:6 10;animation:up 1.2s linear infinite}@keyframes up{to{stroke-dashoffset:-32}}
+.fl{stroke-dasharray:14 12;animation:up 2.4s linear infinite}
+.l{animation:l 2.5s ease-in-out infinite alternate}@keyframes l{to{transform:translateX(-6px)}}
+.r{animation:r 2.5s ease-in-out infinite alternate}@keyframes r{to{transform:translateX(6px)}}
+.sm{animation:sm 3s ease-out infinite}.sm2{animation-delay:1.5s}@keyframes sm{from{transform:translateY(0);opacity:.9}to{transform:translateY(-34px);opacity:0}}
+.wv{animation:wv 3s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V92H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<rect x="40" y="90" width="290" height="110" fill="#9FD3F0"/>
+<path class="wv" d="M44 92L48 94.3L52 93.9L56 91.3L60 89.5L64 90.6L68 93.4L72 94.5L76 92.7L80 90.1L84 89.7L88 92.0L92 94.3L96 93.9L100 91.3L104 89.5L108 90.6L112 93.4L116 94.5L120 92.7L124 90.1L128 89.7L132 92.0L136 94.3L140 93.9L144 91.3L148 89.5L152 90.6L156 93.4L160 94.5L164 92.7L168 90.1L172 89.7L176 92.0L180 94.3L184 93.9L188 91.3L192 89.5L196 90.6L200 93.4L204 94.5L208 92.7L212 90.1L216 89.7L220 92.0L224 94.3L228 93.9L232 91.3L236 89.5L240 90.6L244 93.4L248 94.5L252 92.7L256 90.1L260 89.7L264 92.0L268 94.3L272 93.9L276 91.3L280 89.5L284 90.6L288 93.4L292 94.5L296 92.7L300 90.1L304 89.7L308 92.0L312 94.3L316 93.9L320 91.3L324 89.5L328 90.6" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+<path d="M0 185H400V284Q400 300 384 300H16Q0 300 0 284Z" fill="#F4A261" />
+<path class="fl" d="M10 240H130M180 270H330M20 285H120" fill="none" stroke="#FFC48A" stroke-width="3" stroke-linecap="round"/>
+<path d="M0 150L70 150L148 118L148 190L0 206Z" fill="#7D6B5D" stroke="#4E4036" stroke-width="2" stroke-linejoin="round"/>
+<path d="M0 78H48Q62 84 72 150L66 204L0 206Z" fill="#C8925A" stroke="#7A5230" stroke-width="2" stroke-linejoin="round"/>
+<path d="M0 78H48" stroke="#3FA34D" stroke-width="4"/>
+<path d="M306 176L322 84L336 80L350 46L360 46L374 80L400 82V250L340 250Z" fill="#C8925A" stroke="#7A5230" stroke-width="2" stroke-linejoin="round"/>
+<path d="M322 84L336 80M374 80L400 82" stroke="#3FA34D" stroke-width="4" stroke-linecap="round"/>
+<path d="M152 118L286 150L306 176L386 300L356 300L285 192L152 190Z" fill="#7D6B5D" stroke="#4E4036" stroke-width="2" stroke-linejoin="round"/>
+<path d="M143 300L146 190L150 112L154 190L157 300Z" fill="#E5484D" stroke="#A8282C" stroke-width="1.5"/>
+<path class="mg" d="M150 298V118" stroke="#FFD84D" stroke-width="3" stroke-linecap="round"/>
+<path d="M342 236Q350 150 355 50" fill="none" stroke="#E5484D" stroke-width="6" stroke-linecap="round"/>
+<path class="mg" d="M342 236Q350 150 355 50" fill="none" stroke="#FFD84D" stroke-width="2.5" stroke-linecap="round"/>
+<ellipse cx="355" cy="47" rx="7" ry="3" fill="#FF8A1F"/>
+<g fill="#A3A8CC"><circle class="sm" cx="356" cy="34" r="7"/><circle class="sm sm2" cx="362" cy="30" r="5"/></g>
+<path class="l" d="M124 166H97V161L86 170L97 179V174H124Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path class="r" d="M176 166H205V161L216 170L205 179V174H176Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path class="l" d="M394 136H379V131L368 140L379 149V144H394Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+</svg>

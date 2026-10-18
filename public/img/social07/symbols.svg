@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>Four invented party symbol cards and a judge's gavel</title>
+<style>
+.gav{animation:tap 2s ease-in-out infinite;transform-box:fill-box;transform-origin:right bottom}
+@keyframes tap{0%,60%,100%{transform:rotate(0)}30%{transform:rotate(-18deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5">
+<rect x="22" y="26" width="64" height="74" rx="8" fill="#FFFFFF"/>
+<rect x="96" y="26" width="64" height="74" rx="8" fill="#FFFFFF"/>
+<rect x="22" y="110" width="64" height="74" rx="8" fill="#FFFFFF"/>
+<rect x="96" y="110" width="64" height="74" rx="8" fill="#FFFFFF"/>
+<path d="M54 44l5 11 12 1.4-9 8 2.5 11.6L54 70l-10.5 6 2.5-11.6-9-8 12-1.4Z" fill="#FF8A1F" stroke-linejoin="round"/>
+<circle cx="128" cy="63" r="18" fill="#0B93D4"/>
+<path d="M54 128l20 36H34Z" fill="#3FA34D" stroke-linejoin="round"/>
+<rect x="111" y="130" width="34" height="34" rx="3" fill="#8E7FD6"/>
+</g>
+<rect x="196" y="164" width="120" height="20" rx="4" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="232" y="150" width="48" height="14" rx="3" fill="#A86F3A" stroke="#2B2F4A" stroke-width="2.5"/>
+<g class="gav"><path d="M226 74L286 134" stroke="#8A5A2B" stroke-width="8" stroke-linecap="round"/>
+<rect x="196" y="56" width="58" height="26" rx="6" transform="rotate(45 225 69)" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/></g>
+</svg>

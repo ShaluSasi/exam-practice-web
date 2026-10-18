@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img">
+<title>Three overlapping circles with a coin stack, a worker and a fish</title>
+<style>
+.pu{animation:pu 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pu{50%{transform:scale(1.04)}}.pu2{animation-delay:1s}.pu3{animation-delay:2s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle class="pu" cx="150" cy="105" r="82" fill="#F6C453" opacity=".55" stroke="#C99A2E" stroke-width="2.5"/>
+<circle class="pu pu2" cx="270" cy="105" r="82" fill="#FF8A1F" opacity=".45" stroke="#C8620E" stroke-width="2.5"/>
+<circle class="pu pu3" cx="210" cy="190" r="82" fill="#0B93D4" opacity=".45" stroke="#075E8A" stroke-width="2.5"/>
+<g stroke="#2B2F4A" stroke-width="2"><ellipse cx="118" cy="108" rx="18" ry="6" fill="#F6C453"/><path d="M100 108V96M136 108V96" /><ellipse cx="118" cy="96" rx="18" ry="6" fill="#F6C453"/><ellipse cx="118" cy="84" rx="18" ry="6" fill="#F6C453"/></g>
+<path d="M146 98L160 82L170 90L186 70M178 70H186V78" fill="none" stroke="#3FA34D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(300 118)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-16 20Q-16 -6 0 -6Q16 -6 16 20Z" fill="#0B93D4"/><circle cy="-18" r="11" fill="#C98B5A"/><path d="M-13 -22Q0 -38 13 -22Z" fill="#F6C453"/></g>
+<g transform="translate(205 220) scale(2 2)"><path d="M-9 0Q0 -7 9 0Q0 7 -9 0ZM-9 0L-15 -5V5Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="1.2" stroke-linejoin="round"/><circle cx="4" cy="-1" r="1.2" fill="#2B2F4A"/></g>
+<path d="M170 250Q166 232 176 220M246 250Q250 232 240 222" fill="none" stroke="#3FA34D" stroke-width="4" stroke-linecap="round"/>
+</svg>

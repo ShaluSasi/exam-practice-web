@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A student with a clipboard asking questions at a house door, beside a tally chart</title>
+<style>
+.pen{animation:write 1s ease-in-out infinite alternate}
+@keyframes write{from{transform:translateX(0)}to{transform:translateX(6px)}}
+.bar{animation:grow 3s ease-out infinite;transform-box:fill-box;transform-origin:bottom}
+@keyframes grow{0%{transform:scaleY(.2)}40%,100%{transform:scaleY(1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 214H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<rect x="20" y="60" width="120" height="154" fill="#FFD9B0" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M12 62L80 20L148 62Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="56" y="130" width="40" height="84" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/>
+<circle cx="88" cy="174" r="3" fill="#2B2F4A"/>
+<circle cx="76" cy="146" r="10" fill="#A86E48" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M62 214V170Q62 160 76 160Q90 160 90 170V214Z" fill="#B9B0E6" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="174" cy="132" r="12" fill="#8A5A3C" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M160 214L162 160Q164 148 174 148Q184 148 186 160L188 214Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="188" y="150" width="30" height="40" rx="3" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="192" y="156" width="22" height="30" fill="#fff"/>
+<path d="M195 162h14M195 168h14M195 174h10" stroke="#A3A8CC" stroke-width="2"/>
+<g class="pen"><path d="M206 182L222 160" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/></g>
+<path d="M184 160L196 176" stroke="#8A5A3C" stroke-width="4" stroke-linecap="round"/>
+<rect x="250" y="40" width="132" height="150" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M268 170H366M268 170V60" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+<rect class="bar" x="282" y="130" width="24" height="40" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bar" x="326" y="80" width="24" height="90" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2"/>
+<g stroke="#FF8A1F" stroke-width="2.5" stroke-linecap="round"><path d="M284 58v12M290 58v12M296 58v12M302 58v12M282 68l22-8"/></g>
+</svg>

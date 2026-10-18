@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img">
+<title>A river flowing from mountains across a plain to the sea</title>
+<style>
+.fl{stroke-dasharray:10 9;animation:fl 1.4s linear infinite}@keyframes fl{to{stroke-dashoffset:-38}}.wf{stroke-dasharray:6 5;animation:fl .6s linear infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="c"><rect width="420" height="260" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="420" height="260" fill="#B5DDA0"/>
+<path d="M0 0H420V18Q300 10 220 40Q170 70 150 112L130 118L60 120Q20 118 0 130Z" fill="#E3F2FD"/>
+<path d="M0 130Q20 110 10 70L30 14L60 30L84 8L110 40L140 30L170 70L150 112L126 118Q60 124 0 130Z" fill="#A3A8CC" stroke="#6E7396" stroke-width="2.5" stroke-linejoin="round"/>
+<g fill="#FFFFFF"><path d="M84 8L76 22L86 20L94 26Z"/><path d="M30 14L24 28L32 26L38 30Z"/></g>
+<path d="M22 22L52 40L98 74L124 90L112 104L82 92L46 66L20 34Z" fill="#7A5E48"/>
+<path d="M114 96H130V114H114Z" fill="#8A6A4E"/>
+<path d="M300 260Q330 214 420 196V260Z" fill="#7CC4EC"/>
+<path d="M318 216Q332 246 330 262L384 236Q352 230 318 216Z" fill="#E4D58C" stroke="#B9A24A" stroke-width="1.5"/>
+<path d="M130 168C108 186 122 220 158 214" fill="none" stroke="#7CC4EC" stroke-width="8" stroke-linecap="round"/>
+<g fill="none" stroke="#7CC4EC" stroke-linecap="round"><path d="M30 26C45 42 55 58 70 70C86 80 100 88 118 96" stroke-width="7"/><path d="M118 96L122 112" stroke-width="7"/><path d="M122 112C150 120 170 108 195 120C240 115 250 150 215 155C180 160 185 195 225 192C265 189 280 165 300 185C318 202 300 215 322 224" stroke-width="9"/>
+<path d="M322 224L338 254M322 224L358 240M322 224L372 232" stroke-width="5"/></g>
+<g fill="none" stroke="#FFFFFF" stroke-width="2"><path class="fl" d="M30 26C45 42 55 58 70 70C86 80 100 88 118 96"/><path class="wf" d="M118 96L122 112"/><path class="fl" d="M122 112C150 120 170 108 195 120C240 115 250 150 215 155C180 160 185 195 225 192C265 189 280 165 300 185C318 202 300 215 322 224"/></g>
+<g transform="translate(200 230) scale(0.6)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(260 120) scale(0.6)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(180 100) scale(0.6)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(250 228) scale(0.6)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g></g>
+</svg>

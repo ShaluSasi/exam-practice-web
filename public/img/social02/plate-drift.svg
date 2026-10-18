@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A slab of land sliding slowly over a soft hot layer, beside a centimetre ruler</title>
+<style>
+.pl{animation:pl 6s ease-in-out infinite alternate}@keyframes pl{to{transform:translateX(26px)}}
+.fl{stroke-dasharray:14 12;animation:fl 2s linear infinite}@keyframes fl{to{stroke-dashoffset:-52}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 140H400V184Q400 200 384 200H16Q0 200 0 184Z" fill="#F4A261" />
+<path class="fl" d="M20 160H160M200 178H380" stroke="#FFC48A" stroke-width="3" stroke-linecap="round"/>
+<rect x="40" y="44" width="320" height="18" rx="3" fill="#F6C453" stroke="#B88A1E" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A"><path d="M40 44V62" stroke="#2B2F4A" stroke-width="2"/><text x="40" y="36" text-anchor="middle" font-size="12">0</text><path d="M104 44V62" stroke="#2B2F4A" stroke-width="2"/><text x="104" y="36" text-anchor="middle" font-size="12">1</text><path d="M168 44V62" stroke="#2B2F4A" stroke-width="2"/><text x="168" y="36" text-anchor="middle" font-size="12">2</text><path d="M232 44V62" stroke="#2B2F4A" stroke-width="2"/><text x="232" y="36" text-anchor="middle" font-size="12">3</text><path d="M296 44V62" stroke="#2B2F4A" stroke-width="2"/><text x="296" y="36" text-anchor="middle" font-size="12">4</text><path d="M360 44V62" stroke="#2B2F4A" stroke-width="2"/><text x="360" y="36" text-anchor="middle" font-size="12">5</text><path d="M72 52V62" stroke="#2B2F4A" stroke-width="1.5"/><path d="M136 52V62" stroke="#2B2F4A" stroke-width="1.5"/><path d="M200 52V62" stroke="#2B2F4A" stroke-width="1.5"/><path d="M264 52V62" stroke="#2B2F4A" stroke-width="1.5"/><path d="M328 52V62" stroke="#2B2F4A" stroke-width="1.5"/><text x="368" y="58" font-size="12">cm</text></g>
+<g class="pl"><path d="M24 110H300V140H24Z" fill="#C8925A" stroke="#7A5230" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 110H300" stroke="#3FA34D" stroke-width="4"/>
+<g transform="translate(70 110) scale(1)"><path d="M-3 0V-16H3V0Z" fill="#8A5A34"/><circle cy="-24" r="12" fill="#3FA34D" stroke="#2B7A37" stroke-width="2"/></g><g transform="translate(140 110) scale(1)" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"><path d="M-12 0V-14H12V0Z" fill="#F6E3C4"/><path d="M-15 -14L0 -26L15 -14Z" fill="#E5484D"/><path d="M-3 0V-8H3V0" fill="#C8925A"/></g>
+<g transform="translate(232 110)" stroke="#2B2F4A" stroke-width="2"><path d="M-14 0H18Q22 -4 18 -6H4" fill="#F6E3C4"/><circle cx="-2" cy="-9" r="9" fill="#F6C453"/><path d="M-2 -9m-4 0a4 4 0 1 0 4 -4" fill="none"/><path d="M16 -6V-14M20 -6V-13" stroke-linecap="round"/></g></g>
+<g transform="translate(352 92)" stroke="#2B2F4A" stroke-width="2"><rect x="-22" y="-20" width="44" height="40" rx="5" fill="#FFFFFF"/><path d="M-22 -8H22" /><rect x="-22" y="-20" width="44" height="12" rx="4" fill="#E5484D"/><path d="M-12 -24V-16M12 -24V-16" stroke-linecap="round"/></g>
+<text x="352" y="108" text-anchor="middle" font-size="12" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">1 yr</text>
+</svg>

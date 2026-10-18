@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>Law books and a scroll of constitutional articles on a shelf</title>
+<style>
+.glow{animation:glow 3s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.3}50%{opacity:.9}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle class="glow" cx="120" cy="100" r="80" fill="#FFF0C2"/>
+<rect x="18" y="170" width="304" height="12" rx="3" fill="#C8925A" stroke="#8A5A2B" stroke-width="2.5"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="34" y="50" width="44" height="120" rx="4" fill="#0B93D4"/>
+<rect x="84" y="40" width="44" height="130" rx="4" fill="#E5484D"/>
+<rect x="134" y="62" width="40" height="108" rx="4" fill="#3FA34D"/>
+</g>
+<path d="M34 66H78M34 154H78M84 56H128M84 154H128M134 78H174M134 154H174" stroke="#FFFFFF" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+<text x="56" y="100" font-size="14">RPA</text><text x="56" y="120" font-size="13">1950</text>
+<text x="106" y="100" font-size="14">RPA</text><text x="106" y="120" font-size="13">1951</text>
+<text x="154" y="104" font-size="12">Act</text><text x="154" y="122" font-size="13">1952</text>
+</g>
+<path d="M200 70H300Q308 70 308 78V150Q308 158 300 158H200Z" fill="#FDF1D8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="192" y="62" width="16" height="104" rx="8" fill="#E7CFA0" stroke="#2B2F4A" stroke-width="2.5"/>
+<g font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A">
+<text x="218" y="100">Article 82</text>
+<text x="218" y="130">Articles</text>
+<text x="218" y="146">324–329</text>
+</g>
+</svg>

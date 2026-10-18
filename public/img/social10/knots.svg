@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img">
+<title>A narrow sea channel with a strong current and a speed dial</title>
+<style>
+@keyframes fl{to{stroke-dashoffset:-40}}.fl{stroke-dasharray:14 6;animation:fl 1.6s linear infinite}.dr{animation:drf 4s linear infinite}@keyframes drf{from{transform:translateX(-40px)}to{transform:translateX(160px)}}
+.nd{animation:nd 1.5s ease-in-out infinite alternate;transform-box:view-box;transform-origin:390px 150px}@keyframes nd{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="8" y="8" width="464" height="224" rx="12" fill="#7FC6EC"/>
+<path d="M8 20Q8 8 20 8H300V40Q200 56 100 44Q40 40 8 50Z" fill="#9CCB7A" stroke="#4E8A3A" stroke-width="2.5"/>
+<path d="M8 230V190Q60 176 140 186Q220 196 300 182V232H20Q8 232 8 220Z" fill="#9CCB7A" stroke="#4E8A3A" stroke-width="2.5"/>
+<g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"><path class="fl" d="M20 90H300"/><path class="fl" d="M20 120H300"/><path class="fl" d="M20 150H300"/></g>
+<g class="dr"><circle cx="60" cy="120" r="10" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/><path d="M60 110V96" stroke="#2B2F4A" stroke-width="2"/><path d="M60 96L72 101L60 106Z" fill="#E5484D"/></g>
+<circle cx="390" cy="150" r="62" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M340 160A52 52 0 0 1 440 160" fill="none" stroke="#CDEBFA" stroke-width="10"/>
+<path class="nd" d="M390 150L358 116" stroke="#E5484D" stroke-width="4" stroke-linecap="round"/>
+<circle cx="390" cy="150" r="6" fill="#2B2F4A"/>
+<text x="390" y="190" text-anchor="middle" font-size="16" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">5 knots</text>
+</svg>

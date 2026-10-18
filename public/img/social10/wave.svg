@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>A side view of an ocean wave with measurement arrows and two points A and B</title>
+<style>
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.bob{animation:bob 2.6s ease-in-out infinite}.dir{animation:dir 2s ease-in-out infinite}@keyframes dir{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+.gu{animation:gu 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes gu{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H464Q480 0 480 16V90H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M40 100L44 100.5L48 102.0L52 104.4L56 107.6L60 111.7L64 116.5L68 121.8L72 127.6L76 133.7L80 140.0L84 146.3L88 152.4L92 158.2L96 163.5L100 168.3L104 172.4L108 175.6L112 178.0L116 179.5L120 180.0L124 179.5L128 178.0L132 175.6L136 172.4L140 168.3L144 163.5L148 158.2L152 152.4L156 146.3L160 140.0L164 133.7L168 127.6L172 121.8L176 116.5L180 111.7L184 107.6L188 104.4L192 102.0L196 100.5L200 100.0L204 100.5L208 102.0L212 104.4L216 107.6L220 111.7L224 116.5L228 121.8L232 127.6L236 133.7L240 140.0L244 146.3L248 152.4L252 158.2L256 163.5L260 168.3L264 172.4L268 175.6L272 178.0L276 179.5L280 180.0L284 179.5L288 178.0L292 175.6L296 172.4L300 168.3L304 163.5L308 158.2L312 152.4L316 146.3L320 140.0L324 133.7L328 127.6L332 121.8L336 116.5L340 111.7L344 107.6L348 104.4L352 102.0L356 100.5L360 100.0L364 100.5L368 102.0L372 104.4L376 107.6L380 111.7L384 116.5L388 121.8L392 127.6L396 133.7L400 140.0L404 146.3L408 152.4L412 158.2L416 163.5L420 168.3L424 172.4L428 175.6L432 178.0L436 179.5L440 180.0V244Q440 252 432 252H48Q40 252 40 244Z" fill="#9FD3F0" stroke="#0B6FA4" stroke-width="3" stroke-linejoin="round"/>
+<path d="M22 140H462" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M200 100V232M360 100V232" stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="3 5"/>
+<path d="M40 100H130" stroke="#2B2F4A" stroke-width="1.5" stroke-dasharray="3 5"/>
+<path d="M200 62L360 62" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/><path d="M210 55L200 62L210 69M350 55L360 62L350 69" fill="none" stroke="#E5484D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M120 104L120 176" stroke="#3FA34D" stroke-width="3" stroke-linecap="round"/><path d="M113 114L120 104L127 114M113 166L120 176L127 166" fill="none" stroke="#3FA34D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200" cy="232" r="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="200" y="237" text-anchor="middle" font-size="14" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">A</text>
+<circle cx="360" cy="232" r="13" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><text x="360" y="237" text-anchor="middle" font-size="14" font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A">B</text>
+<g class="dir"><path d="M392 24H440L432 16M440 24L432 32" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<path class="gu" d="M60 30Q68 22 76 30Q84 22 92 30" fill="none" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
