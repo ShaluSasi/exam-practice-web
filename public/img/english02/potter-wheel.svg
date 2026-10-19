@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img">
+<title>A potter's hands shape a lump of clay on a turning wheel, one hand tapping with a wooden spatula</title>
+<style>
+.mv{animation:mv 1.5s linear infinite}@keyframes mv{0%{transform:translateX(0);opacity:0}20%{opacity:1}80%{opacity:1}100%{transform:translateX(150px);opacity:0}}.tap{animation:tap .7s ease-in-out infinite;transform-origin:268px 52px}@keyframes tap{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}.tw{animation:tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.3;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}.gl{animation:gl 2s ease-in-out infinite}@keyframes gl{0%,100%{opacity:.35}50%{opacity:.9}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 190H360V214Q360 230 344 230H16Q0 230 0 214Z" fill="#E3CFA6"/>
+<ellipse cx="180" cy="196" rx="70" ry="10" fill="#B89C70"/>
+<rect x="166" y="170" width="28" height="24" fill="#8A5A33" stroke="#2B2F4A" stroke-width="2"/>
+<g><rect x="96" y="158" width="168" height="14" rx="7" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/><rect class="mv" style="animation-delay:0s" x="100" y="160" width="8" height="10" fill="#8A5A33"/><rect class="mv" style="animation-delay:-0.25s" x="100" y="160" width="8" height="10" fill="#8A5A33"/><rect class="mv" style="animation-delay:-0.5s" x="100" y="160" width="8" height="10" fill="#8A5A33"/><rect class="mv" style="animation-delay:-0.75s" x="100" y="160" width="8" height="10" fill="#8A5A33"/><rect class="mv" style="animation-delay:-1s" x="100" y="160" width="8" height="10" fill="#8A5A33"/><rect class="mv" style="animation-delay:-1.25s" x="100" y="160" width="8" height="10" fill="#8A5A33"/></g>
+<path d="M150 158Q132 128 146 100Q152 90 164 88H196Q208 90 214 100Q228 128 210 158Z" fill="#B5603A" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path class="gl" d="M156 120Q180 126 204 120M150 138Q180 145 210 138" stroke="#E0A07A" stroke-width="2" fill="none"/>
+<path d="M104 46L170 100" stroke="#2B2F4A" stroke-width="20" stroke-linecap="round"/><path d="M104 46L170 100" stroke="#C68A5E" stroke-width="15" stroke-linecap="round"/>
+<ellipse cx="176" cy="104" rx="12" ry="8" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2" transform="rotate(38 176 104)"/>
+<g class="tap"><path d="M268 52L232 104" stroke="#2B2F4A" stroke-width="20" stroke-linecap="round"/><path d="M268 52L232 104" stroke="#C68A5E" stroke-width="15" stroke-linecap="round"/>
+<rect x="216" y="104" width="12" height="34" rx="4" fill="#C8925A" stroke="#2B2F4A" stroke-width="2" transform="rotate(-12 222 121)"/><circle cx="230" cy="108" r="9" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/></g>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="268" y="128" font-size="14" fill="#B5603A" class="tw">tap</text><text x="288" y="148" font-size="14" fill="#B5603A" class="tw" style="animation-delay:.6s">tap</text></g>
+</svg>

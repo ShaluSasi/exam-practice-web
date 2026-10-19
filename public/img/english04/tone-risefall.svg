@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 130" role="img">
+<title>A pitch line that climbs in the middle and drops at the end</title>
+<style>
+.dot{animation:dt 2.4s linear infinite;offset-path:path('M40 80Q80 80 104 34Q124 20 150 50Q170 76 196 96')}@keyframes dt{from{offset-distance:0%}to{offset-distance:100%}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M30 112H210" stroke="#E7DCC7" stroke-width="2"/><path d="M30 20V112" stroke="#E7DCC7" stroke-width="2"/><path d="M40 80Q80 80 104 34Q124 20 150 50Q170 76 196 96" stroke="#0B93D4" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle class="dot" r="7" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A sailing ship on the waves</title>
+<style>
+.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.wv{animation:wv 3s ease-in-out infinite}@keyframes wv{0%,100%{transform:translateX(0)}50%{transform:translateX(-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="8" y="112" width="144" height="40" fill="#6EC1EA"/><g class="bob"><path d="M28 104H132L118 124H42Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M80 104V26" stroke="#8A5A33" stroke-width="4"/><path d="M84 30Q120 60 84 96Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M76 40Q48 66 76 96Z" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="2"/></g><path class="wv" d="M12 132q10-6 20 0t20 0t20 0t20 0t20 0t20 0t20 0" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+</svg>

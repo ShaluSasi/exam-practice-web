@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A quiet hermitage hut under a large banyan tree, with palm-leaf manuscripts and a lamp at its doorway</title>
+<style>
+.flame{animation:fl 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.3)}}
+.leaf{animation:lf 5s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes lf{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+.glow{animation:gw 4s ease-in-out infinite}
+@keyframes gw{0%,100%{opacity:.25}50%{opacity:.55}}
+.bird{animation:bd 9s linear infinite}
+@keyframes bd{from{transform:translateX(0)}to{transform:translateX(-440px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V180H0V16Q0 0 16 0Z" fill="#FFE9D2"/>
+<circle class="glow" cx="300" cy="150" r="80" fill="#FFF3C4"/>
+<path d="M0 180H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E"/>
+<g class="bird" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"><path d="M410 40Q416 34 422 40Q428 34 434 40"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M90 200V110" fill="none" stroke="#8B5A2B" stroke-width="20"/>
+<path d="M70 130V200M110 130V200" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+<g class="leaf"><ellipse cx="90" cy="80" rx="80" ry="50" fill="#3FA34D"/><ellipse cx="50" cy="96" rx="36" ry="24" fill="#4FB55C"/><ellipse cx="136" cy="96" rx="36" ry="24" fill="#4FB55C"/></g>
+<rect x="230" y="140" width="120" height="60" fill="#E8C79A"/>
+<path d="M216 144L290 92L364 144Z" fill="#C8925A"/>
+<path d="M226 136L290 100L354 136" fill="none" stroke="#A8743F" stroke-width="2"/>
+<path d="M276 200V160Q290 148 304 160V200Z" fill="#8B5A2B"/>
+<path d="M248 210H272L268 202H252Z" fill="#F6C453"/>
+<path class="flame" d="M260 202Q254 192 260 182Q266 192 260 202Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="1.5"/>
+<rect x="304" y="204" width="48" height="8" rx="4" fill="#E8C79A"/>
+<rect x="308" y="212" width="44" height="8" rx="4" fill="#F0D7A8"/>
+<path d="M330 200V224" fill="none" stroke="#B8323A" stroke-width="3"/>
+</g>
+</svg>

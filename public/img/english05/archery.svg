@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A bow, an arrow flying towards a target and a trophy</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.fly{animation:fly 2.8s cubic-bezier(.3,.1,.5,1) infinite}@keyframes fly{0%{transform:translateX(0);opacity:0}10%{opacity:1}70%,100%{transform:translateX(178px);opacity:1}}.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H344Q360 0 360 16V160H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 158H360V204Q360 220 344 220H16Q0 220 0 204Z" fill="#BFE3B4"/>
+<path d="M282 126L270 180M310 126L322 180" stroke="#8A5A2B" stroke-width="5" stroke-linecap="round"/><circle cx="296" cy="96" r="34" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><circle cx="296" cy="96" r="27" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle cx="296" cy="96" r="20" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><circle cx="296" cy="96" r="12" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M60 40Q110 96 60 152" fill="none" stroke="#8A5A2B" stroke-width="7" stroke-linecap="round"/><path d="M60 40Q110 96 60 152" fill="none" stroke="#C8925A" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M60 40L60 152" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="fly"><path d="M62 96H112" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><path d="M112 96l-9 -5v10z" fill="#2B2F4A"/><path d="M62 96l-8 -6M62 96l-8 6M68 96l-8 -6M68 96l-8 6" stroke="#E5484D" stroke-width="2.5" stroke-linecap="round"/></g>
+<g transform="translate(170 150)"><path d="M-18 -30H18V-22Q18 -2 0 -2Q-18 -2 -18 -22Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/><path d="M-18 -26Q-30 -26 -28 -16Q-26 -10 -16 -10M18 -26Q30 -26 28 -16Q26 -10 16 -10" fill="none" stroke="#2B2F4A" stroke-width="2"/><rect x="-4" y="-2" width="8" height="12" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/><rect x="-14" y="10" width="28" height="10" rx="2" fill="#C8925A" stroke="#2B2F4A" stroke-width="2"/><path class="" style="animation-delay:0s" d="M0 -24L1.7999999999999998 -19.8L6 -18L1.7999999999999998 -16.2L0 -12L-1.7999999999999998 -16.2L-6 -18L-1.7999999999999998 -19.8Z" fill="#FFFFFF"/></g>
+<path class="tw" style="animation-delay:0s" d="M206 34L207.8 38.2L212 40L207.8 41.8L206 46L204.2 41.8L200 40L204.2 38.2Z" fill="#F6C453"/><path class="tw" style="animation-delay:0.7s" d="M140 25L141.5 28.5L145 30L141.5 31.5L140 35L138.5 31.5L135 30L138.5 28.5Z" fill="#FF8A1F"/><path class="tw" style="animation-delay:1.3s" d="M240 171L241.5 174.5L245 176L241.5 177.5L240 181L238.5 177.5L235 176L238.5 174.5Z" fill="#F6C453"/>
+</svg>

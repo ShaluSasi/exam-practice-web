@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Four kinds of literacy shown as tiles: coins and a growth chart, a mobile phone, a dance bell anklet and drum, and an alphabet book</title>
+<style>
+.bar{animation:gr 3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes gr{0%,100%{transform:scaleY(.7)}50%{transform:scaleY(1)}}
+.ring{animation:rg 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes rg{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+.sig{animation:sg 2s ease-in-out infinite}
+@keyframes sg{0%,100%{opacity:.2}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="16" y="14" width="178" height="110" rx="12" fill="#FFF3C4"/>
+<rect x="206" y="14" width="178" height="110" rx="12" fill="#CDEBFA"/>
+<rect x="16" y="136" width="178" height="110" rx="12" fill="#F9D7E6"/>
+<rect x="206" y="136" width="178" height="110" rx="12" fill="#D8F0D0"/>
+<g fill="#F6C453"><ellipse cx="60" cy="100" rx="20" ry="7"/><ellipse cx="60" cy="92" rx="20" ry="7"/><ellipse cx="60" cy="84" rx="20" ry="7"/></g>
+<rect class="bar" x="104" y="76" width="16" height="28" fill="#3FA34D"/><rect class="bar" x="126" y="60" width="16" height="44" fill="#3FA34D"/><rect class="bar" x="148" y="40" width="16" height="64" fill="#3FA34D"/>
+<rect x="270" y="26" width="50" height="88" rx="8" fill="#2B2F4A"/>
+<rect x="276" y="36" width="38" height="62" rx="3" fill="#fff"/>
+<path d="M284 50H306M284 62H300M284 74H306" fill="none" stroke="#0B93D4" stroke-width="3"/>
+<g class="sig" fill="none" stroke="#0B93D4" stroke-width="3"><path d="M332 46Q340 56 332 66M340 40Q352 56 340 72"/></g>
+<g class="ring"><path d="M40 200Q70 220 100 200" fill="none" stroke="#C9961A" stroke-width="4"/>
+<g fill="#F6C453"><circle cx="46" cy="208" r="6"/><circle cx="60" cy="214" r="6"/><circle cx="74" cy="216" r="6"/><circle cx="88" cy="213" r="6"/></g></g>
+<path d="M120 172H176V222H120Z" fill="#C8925A"/><ellipse cx="148" cy="172" rx="28" ry="9" fill="#FFE1B8"/><ellipse cx="148" cy="222" rx="28" ry="9" fill="#C8925A"/>
+<path d="M126 178L170 216M170 178L126 216" fill="none" stroke="#8B5A2B" stroke-width="2"/>
+<path d="M230 222Q260 204 294 216Q328 204 360 222V160Q328 148 294 158Q260 148 230 160Z" fill="#fff"/>
+<path d="M294 158V216" fill="none"/>
+</g>
+<g font-family="system-ui, sans-serif" font-weight="800" font-size="22"><text x="246" y="196" fill="#E5484D">A</text><text x="266" y="196" fill="#0B93D4">B</text><text x="310" y="196" fill="#3FA34D">C</text><text x="330" y="196" fill="#FF8A1F">D</text></g>
+</svg>

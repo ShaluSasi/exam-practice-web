@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A stack of weekly magazines turning into one bound novel</title>
+<style>
+.arr{animation:ar 2s ease-in-out infinite}
+@keyframes ar{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+.sp{animation:sp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes sp{0%,100%{opacity:.2;transform:scale(.6)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="150" width="120" height="18" rx="3" fill="#CDEBFA"/>
+<rect x="46" y="132" width="120" height="18" rx="3" fill="#F6C453"/>
+<rect x="36" y="114" width="120" height="18" rx="3" fill="#F48FB1"/>
+<rect x="44" y="96" width="120" height="18" rx="3" fill="#A9D98E"/>
+<rect x="40" y="78" width="120" height="18" rx="3" fill="#FFD9A8"/>
+<g class="arr"><path d="M186 124H232M218 110L234 124L218 138" fill="none" stroke="#FF8A1F" stroke-width="5"/></g>
+<rect x="262" y="58" width="96" height="128" rx="6" fill="#E5484D"/>
+<path d="M274 58V186" fill="none" stroke="#B8323A" stroke-width="4"/>
+<rect x="286" y="80" width="58" height="30" rx="4" fill="#FFF3C4"/>
+<path d="M294 90H336M300 100H330" stroke="#C9961A" stroke-width="3"/>
+<path d="M290 150Q314 132 338 150" fill="none" stroke="#FFF3C4" stroke-width="3"/>
+</g>
+<path class="sp" d="M370 46L374 56L384 60L374 64L370 74L366 64L356 60L366 56Z" fill="#F6C453"/>
+<text x="100" y="200" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">weekly episodes</text>
+<text x="310" y="210" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle">one book</text>
+</svg>

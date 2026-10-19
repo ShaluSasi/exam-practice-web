@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" role="img">
+<title>Two cards: a magnifying glass with a tick for fact, a thought cloud with a heart for opinion</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="24" y="30" width="146" height="146" rx="14" fill="#E3F7E6" stroke="#2B2F4A" stroke-width="2"/><rect x="190" y="30" width="146" height="146" rx="14" fill="#FFF0F0" stroke="#2B2F4A" stroke-width="2"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="97" y="160" font-size="16" text-anchor="middle">FACT</text><text x="263" y="160" font-size="16" text-anchor="middle">OPINION</text></g>
+<g class="bob"><circle cx="90" cy="86" r="28" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="4"/><path d="M110 106L130 128" stroke="#2B2F4A" stroke-width="8" stroke-linecap="round"/><path d="M76 86l10 10 18 -20" stroke="#3FA34D" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="bob" style="animation-delay:.7s"><path d="M226 104Q206 104 208 86Q210 70 226 72Q232 54 252 58Q270 50 282 66Q302 66 300 86Q300 104 280 104Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="232" cy="118" r="5" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><circle cx="224" cy="130" r="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M254 92c-6 -8 -16 0 -8 8l8 7 8 -7c8 -8 -2 -16 -8 -8z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<path class="tw" style="animation-delay:0s" d="M176 14L177.8 18.2L182 20L177.8 21.8L176 26L174.2 21.8L170 20L174.2 18.2Z" fill="#F6C453"/>
+</svg>

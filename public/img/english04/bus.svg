@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>People inside a city bus seen through its windows</title>
+<style>
+.spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes spin{to{transform:rotate(360deg)}}.pu{animation:pu 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pu{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+.bus{animation:bb 1s ease-in-out infinite}@keyframes bb{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+.capw{animation:cw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes cw{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H464Q480 0 480 16V250H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 248H480V284Q480 300 464 300H16Q0 300 0 284Z" fill="#B8BBC9"/><path d="M0 270H480" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="20 14"/>
+<g class="bus"><rect x="30" y="70" width="420" height="160" rx="22" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5"/><rect x="30" y="176" width="420" height="10" fill="#FFFFFF" opacity=".7"/>
+<rect x="52" y="96" width="62" height="56" rx="6" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><rect x="124" y="96" width="62" height="56" rx="6" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><rect x="196" y="96" width="62" height="56" rx="6" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><rect x="268" y="96" width="62" height="56" rx="6" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><rect x="340" y="96" width="62" height="56" rx="6" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/><rect x="412" y="96" width="30" height="80" rx="6" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2"/>
+<clipPath id="w3"><rect x="196" y="96" width="62" height="56" rx="6"/></clipPath><clipPath id="w4"><rect x="268" y="96" width="62" height="56" rx="6"/></clipPath><clipPath id="w1"><rect x="52" y="96" width="62" height="56" rx="6"/></clipPath>
+<g clip-path="url(#w1)"><g transform="translate(83 196)"><g transform="translate(0 0) scale(1 1)">
+<path d="M-12 0H-3M3 0H12" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M-12 -54L-19 -30M12 -54L19 -30" stroke="#C98B5F" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M-15 -28L-13 -56Q0 -63 13 -56L15 -28Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-74" r="12" fill="#C98B5F" stroke="#2B2F4A" stroke-width="2"/><path d="M-13 -64Q-15 -89 0 -88Q15 -89 13 -64L9 -66Q10 -80 0 -81Q-10 -80 -9 -66Z" fill="#2B2F4A"/>
+
+<circle cx="-4.5" cy="-75" r="1.6" fill="#2B2F4A"/><circle cx="4.5" cy="-75" r="1.6" fill="#2B2F4A"/><path d="M-4 -69Q0 -66 4 -69" stroke="#2B2F4A" stroke-width="1.6" fill="none" stroke-linecap="round"/></g></g></g>
+<g clip-path="url(#w3)"><g transform="translate(222 206)"><g transform="translate(0 0) scale(1 1)">
+<path d="M-12 0H-3M3 0H12" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M-12 -54L-19 -30M12 -54L19 -30" stroke="#D9A07A" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M-15 -28L-13 -56Q0 -63 13 -56L15 -28Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-74" r="12" fill="#D9A07A" stroke="#2B2F4A" stroke-width="2"/><path d="M-12 -76Q-11 -89 0 -88Q11 -89 12 -76Q7 -82 0 -82Q-7 -82 -12 -76Z" fill="#B9BDCF"/>
+
+<circle cx="-4.5" cy="-75" r="1.6" fill="#2B2F4A"/><circle cx="4.5" cy="-75" r="1.6" fill="#2B2F4A"/><path d="M-4 -69Q0 -66 4 -69" stroke="#2B2F4A" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M12 -54L18 -78" stroke="#D9A07A" stroke-width="5.5" stroke-linecap="round"/><g transform="translate(18 -84)"><g class="capw"><path d="M-11 4Q-11 -8 0 -8Q11 -8 11 4Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.8"/><path d="M-11 4H15" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><circle cx="4" cy="3" r="2.2" fill="#8A5A33"/></g></g></g></g></g>
+<g clip-path="url(#w4)"><g transform="translate(298 200)"><g transform="translate(0 0) scale(1 1)">
+<path d="M-12 0H-3M3 0H12" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M-12 -54L-19 -30M12 -54L19 -30" stroke="#C98B5F" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M-15 -28L-13 -56Q0 -63 13 -56L15 -28Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-74" r="12" fill="#C98B5F" stroke="#2B2F4A" stroke-width="2"/><path d="M-12 -76Q-11 -89 0 -88Q11 -89 12 -76Q7 -82 0 -82Q-7 -82 -12 -76Z" fill="#2B2F4A"/>
+
+<circle cx="-4.5" cy="-75" r="1.6" fill="#2B2F4A"/><circle cx="4.5" cy="-75" r="1.6" fill="#2B2F4A"/><ellipse cx="0" cy="-68" rx="2.4" ry="3" fill="#2B2F4A"/></g></g></g>
+<g transform="translate(110 234)"><circle r="22" fill="#2B2F4A"/><g class="spin"><circle r="10" fill="#A3A8CC"/><path d="M-10 0H10M0 -10V10" stroke="#2B2F4A" stroke-width="2"/></g></g><g transform="translate(370 234)"><circle r="22" fill="#2B2F4A"/><g class="spin"><circle r="10" fill="#A3A8CC"/><path d="M-10 0H10M0 -10V10" stroke="#2B2F4A" stroke-width="2"/></g></g></g>
+<g class="pu"><path d="M318 40h40v30h-26l-8 10v-10h-6Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="338" y="64" font-size="22" text-anchor="middle" fill="#E5484D">!</text></g></g>
+</svg>

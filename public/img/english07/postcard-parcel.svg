@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A parcel box opening with old postcards popping out</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.pop{animation:pop 2.8s ease-in-out infinite}@keyframes pop{0%,100%{transform:translateY(8px)}50%{transform:translateY(-8px)}}.p2{animation-delay:.5s}.p3{animation-delay:1s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="340" height="210" rx="16" fill="#FFF3DC"/>
+<g class="pop "><rect x="108" y="70" width="58" height="38" rx="3" fill="#F6E3B4" stroke="#2B2F4A" stroke-width="2" transform="rotate(-14 137 89)"/><rect x="152" y="75" width="9" height="10" fill="#E5484D" transform="rotate(-14 137 89)"/></g><g class="pop p2"><rect x="146" y="60" width="58" height="38" rx="3" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2" transform="rotate(6 175 79)"/><rect x="190" y="65" width="9" height="10" fill="#E5484D" transform="rotate(6 175 79)"/></g><g class="pop p3"><rect x="182" y="74" width="58" height="38" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" transform="rotate(18 211 93)"/><rect x="226" y="79" width="9" height="10" fill="#E5484D" transform="rotate(18 211 93)"/></g>
+<path d="M90 110H250V184H90Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/><path d="M90 110L66 92H226L250 110M250 110L274 92" fill="#D9A86C" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M150 110V184" stroke="#F6C453" stroke-width="8"/><path class="" style="animation-delay:0s" d="M60 44L61.8 48.2L66 50L61.8 51.8L60 56L58.2 51.8L54 50L58.2 48.2Z" fill="#F6C453"/><path class="" style="animation-delay:0s" d="M290 55L291.5 58.5L295 60L291.5 61.5L290 65L288.5 61.5L285 60L288.5 58.5Z" fill="#FF8A1F"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A prefix block sliding onto a word block to make a new word</title>
+<style>
+.pre{animation:sl 3.5s ease-in-out infinite}
+@keyframes sl{0%,15%{transform:translateX(-50px)}45%,85%{transform:translateX(0)}100%{transform:translateX(-50px)}}
+.glow{animation:gw 3.5s ease-in-out infinite}
+@keyframes gw{0%,40%{opacity:0}55%,85%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">
+<g class="pre"><rect x="70" y="64" width="96" height="60" rx="10" fill="#FF8A1F" stroke="#C9661A" stroke-width="3"/>
+<circle cx="166" cy="94" r="10" fill="#FF8A1F" stroke="#C9661A" stroke-width="3"/>
+<text x="118" y="104" font-size="26" fill="#fff">un</text></g>
+<rect x="170" y="64" width="160" height="60" rx="10" fill="#0B93D4" stroke="#086E9F" stroke-width="3"/>
+<text x="250" y="104" font-size="26" fill="#fff">popular</text>
+<text class="glow" x="200" y="164" font-size="22" fill="#3FA34D">unpopular</text>
+</g>
+<g class="glow" fill="#F6C453"><path d="M340 50L344 60L354 64L344 68L340 78L336 68L326 64L336 60Z"/></g>
+</svg>

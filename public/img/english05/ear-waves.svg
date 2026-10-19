@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" role="img">
+<title>An ear with sound waves travelling towards it</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.wv{animation:wv 1.8s ease-out infinite;opacity:0}@keyframes wv{0%{opacity:0;transform:translateX(30px)}30%{opacity:1}100%{opacity:0;transform:translateX(-10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="100" cy="95" r="70" fill="#FFE9D2"/>
+<path d="M80 40Q140 30 146 86Q148 116 120 130Q108 138 110 156Q108 172 90 170Q74 168 76 150" fill="#E0A878" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M96 66Q126 62 126 92Q124 108 108 112Q98 116 102 128" fill="none" stroke="#B97A57" stroke-width="3" stroke-linecap="round"/>
+<path class="wv" style="animation-delay:0s" d="M190 55Q210 95 190 135" stroke="#0B93D4" stroke-width="5" fill="none" stroke-linecap="round"/><path class="wv" style="animation-delay:0.5s" d="M216 47Q240 95 216 143" stroke="#0B93D4" stroke-width="5" fill="none" stroke-linecap="round"/><path class="wv" style="animation-delay:1s" d="M242 39Q270 95 242 151" stroke="#0B93D4" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A family expense notebook with a list, a pencil, a piggy bank and coins dropping into it</title>
+<style>
+.coin{animation:cn 2.4s ease-in infinite}
+@keyframes cn{0%{transform:translateY(-40px);opacity:0}20%{opacity:1}80%{transform:translateY(0);opacity:1}100%{transform:translateY(0);opacity:0}}
+.pen{animation:pn 2s ease-in-out infinite}
+@keyframes pn{0%,100%{transform:translateX(0)}50%{transform:translateX(-30px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="30" width="180" height="180" rx="8" fill="#fff"/>
+<path d="M60 30V210" fill="none" stroke="#E5484D" stroke-width="2"/>
+<g fill="#A3A8CC" stroke="none"><circle cx="48" cy="50" r="3"/><circle cx="48" cy="90" r="3"/><circle cx="48" cy="130" r="3"/><circle cx="48" cy="170" r="3"/></g>
+<path d="M72 60H170M72 90H150M72 120H180M72 150H140" fill="none" stroke="#A3A8CC" stroke-width="4"/>
+<path d="M182 60H204M166 90H204M188 120H204M160 150H204" fill="none" stroke="#0B93D4" stroke-width="4"/>
+<path d="M72 180H204" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<g class="pen"><path d="M200 196L250 150L262 162L212 208L196 212Z" fill="#F6C453"/><path d="M200 196L196 212L212 208" fill="#2B2F4A"/></g>
+<ellipse cx="320" cy="170" rx="50" ry="38" fill="#F48FB1"/>
+<circle cx="356" cy="160" r="12" fill="#F7A3A5"/><circle cx="352" cy="160" r="2" fill="#2B2F4A"/><circle cx="360" cy="160" r="2" fill="#2B2F4A"/>
+<path d="M296 206V214M340 206V214" fill="none" stroke-width="5"/>
+<path d="M306 134H334" fill="none" stroke-width="4"/>
+<circle cx="302" cy="160" r="3" fill="#2B2F4A"/>
+<g class="coin"><ellipse cx="320" cy="122" rx="11" ry="11" fill="#F6C453"/></g>
+</g>
+</svg>

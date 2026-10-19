@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>Two lines of the poem on a card with the dash at the end of the first line glowing</title>
+<style>
+.pause{animation:ps 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes ps{0%,100%{opacity:.3;transform:scale(.9)}50%{opacity:1;transform:scale(1.2)}}
+.dot{animation:dt 2.4s steps(3) infinite}
+@keyframes dt{from{transform:translateX(0)}to{transform:translateX(36px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="24" width="360" height="152" rx="12" fill="#fff" stroke="#C9961A" stroke-width="3"/>
+<path d="M20 50H380" stroke="#F6C453" stroke-width="2" stroke-dasharray="4 6"/>
+<circle class="pause" cx="270" cy="86" r="14" fill="#F6C453"/>
+<g font-family="Georgia, serif" font-size="17" fill="#2B2F4A" font-style="italic">
+<text x="40" y="92">The generous Ganga is ours –</text>
+<text x="40" y="132">which other river can match her grace?</text>
+</g>
+<g class="dot" fill="#FF8A1F"><circle cx="300" cy="158" r="4"/></g>
+<path d="M300 158H340" stroke="#FFD9A8" stroke-width="2" stroke-dasharray="2 4"/>
+</svg>

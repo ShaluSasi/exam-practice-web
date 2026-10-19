@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A glowing open book on a stand, a pen and calendar pages flying away</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}.gl{animation:gl 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes gl{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.08);opacity:.75}}.pg{animation:pg 4s ease-in-out infinite}@keyframes pg{0%{transform:translate(0,0) rotate(0);opacity:0}20%{opacity:1}100%{transform:translate(-60px,-60px) rotate(-30deg);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H344Q360 0 360 16V220H0V16Q0 0 16 0Z" fill="#FFF3E0"/>
+<path d="M110 200L140 156H220L250 200Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="gl"><path d="M100 150Q140 132 180 146Q220 132 260 150V70Q220 52 180 66Q140 52 100 70Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/></g>
+<path d="M180 66V146" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M116 84Q140 76 166 84M116 98Q140 90 166 98M116 112Q140 104 166 112M194 84Q220 76 244 84M194 98Q220 90 244 98" stroke="#A3A8CC" stroke-width="2" fill="none"/>
+<path d="M60 170L92 100L100 104L70 174Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M60 170L64 182L70 174" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"/>
+<g class="pg" style="animation-delay:0s"><rect x="270" y="130" width="34" height="38" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.8"/><rect x="270" y="130" width="34" height="10" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.8"/></g><g class="pg" style="animation-delay:1.3s"><rect x="270" y="130" width="34" height="38" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.8"/><rect x="270" y="130" width="34" height="10" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.8"/></g><g class="pg" style="animation-delay:2.6s"><rect x="270" y="130" width="34" height="38" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.8"/><rect x="270" y="130" width="34" height="10" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.8"/></g><path class="tw" style="animation-delay:0s" d="M150 32L152.4 37.6L158 40L152.4 42.4L150 48L147.6 42.4L142 40L147.6 37.6Z" fill="#F6C453"/><path class="tw" style="animation-delay:0.6s" d="M214 28L215.8 32.2L220 34L215.8 35.8L214 40L212.2 35.8L208 34L212.2 32.2Z" fill="#FF8A1F"/><path class="tw" style="animation-delay:1.1s" d="M280 64L281.8 68.2L286 70L281.8 71.8L280 76L278.2 71.8L274 70L278.2 68.2Z" fill="#F6C453"/><path class="tw" style="animation-delay:0.3s" d="M70 55L71.5 58.5L75 60L71.5 61.5L70 65L68.5 61.5L65 60L68.5 58.5Z" fill="#F6C453"/>
+</svg>

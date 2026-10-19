@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>An open poetry book with a page turning</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.pg{animation:pg 3s ease-in-out infinite;transform-origin:170px 0}@keyframes pg{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}100%{transform:scaleX(-1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="340" height="210" rx="16" fill="#E8E6F4"/>
+<path d="M170 52Q110 36 50 52V178Q110 162 170 178Q230 162 290 178V52Q230 36 170 52Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/><path d="M170 52V178" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M66 70H150M66 86H134M66 102H150M66 118H134M66 134H150M66 150H134M190 70H258M190 86H274M190 102H258M190 118H274M190 134H258M190 150H274" stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"/>
+<g transform="translate(0 0)"><g class="pg"><path d="M170 52Q220 40 270 52V170Q220 158 170 172Z" fill="#FFF3DC" stroke="#2B2F4A" stroke-width="2" opacity=".9"/></g></g>
+</svg>

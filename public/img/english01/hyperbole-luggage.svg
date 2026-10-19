@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A small traveller straining to pull a giant suitcase with a huge weight tag</title>
+<style>
+.pull{animation:pl 1.4s ease-in-out infinite}
+@keyframes pl{0%,100%{transform:translateX(0)}50%{transform:translateX(-4px)}}
+.sw{animation:sw 1.6s ease-in-out infinite}
+@keyframes sw{0%{opacity:0;transform:translateY(0)}50%{opacity:1}100%{opacity:0;transform:translateY(10px)}}
+.tag{animation:tg 2s ease-in-out infinite;transform-origin:250px 60px}
+@keyframes tg{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="180" y="60" width="180" height="136" rx="14" fill="#E5484D"/>
+<path d="M230 60V40H310V60" fill="none" stroke-width="6"/>
+<path d="M210 60V196M330 60V196" stroke="#B8323A" stroke-width="5"/>
+<circle cx="200" cy="204" r="9" fill="#2B2F4A"/><circle cx="340" cy="204" r="9" fill="#2B2F4A"/>
+<g class="tag"><path d="M250 60L240 92" fill="none" stroke-width="2"/>
+<rect x="206" y="92" width="70" height="34" rx="6" fill="#FFF3C4"/></g>
+<g class="pull">
+<path d="M70 200Q66 160 86 152Q106 160 102 200Z" fill="#0B93D4"/>
+<circle cx="86" cy="136" r="14" fill="#E9B98C"/>
+<path d="M73 132Q76 120 87 121Q98 122 100 132Q93 126 86 127Q79 126 73 132Z" fill="#3B2A20"/>
+<path d="M80 140Q86 137 92 140" fill="none" stroke-width="2"/>
+<path d="M100 170L180 150" fill="none" stroke="#E9B98C" stroke-width="6"/>
+<path d="M76 200L60 214M98 200L106 214" fill="none" stroke="#2B2F4A" stroke-width="5"/>
+</g>
+</g>
+<g class="sw" fill="#7CC8F0"><path d="M64 124Q60 132 64 135Q68 132 64 124Z"/><path d="M110 124Q106 132 110 135Q114 132 110 124Z"/></g>
+<g class="tag"><text x="241" y="116" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#2B2F4A" text-anchor="middle">1 tonne!</text></g>
+</svg>

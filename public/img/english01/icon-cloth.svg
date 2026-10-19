@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>A folded length of patterned dress material</title>
+<style>
+.sh{animation:sh 3s ease-in-out infinite}
+@keyframes sh{0%,100%{opacity:0}50%{opacity:.7}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M40 110L160 110L170 130L50 130Z" fill="#C2185B"/>
+<path d="M36 82H156L160 110H40Z" fill="#E5679A"/>
+<path d="M44 54H152L156 82H36Z" fill="#F48FB1"/>
+<path d="M156 82Q176 96 170 130" fill="none"/>
+</g>
+<g fill="#F6C453"><circle cx="64" cy="68" r="4"/><circle cx="96" cy="68" r="4"/><circle cx="128" cy="68" r="4"/><circle cx="80" cy="96" r="4"/><circle cx="112" cy="96" r="4"/><circle cx="144" cy="96" r="4"/></g>
+<path d="M50 120H160" stroke="#F6C453" stroke-width="3" stroke-dasharray="6 4"/>
+<path class="sh" d="M60 58L76 58L66 80L50 80Z" fill="#fff"/>
+</svg>

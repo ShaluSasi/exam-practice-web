@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Children playing a game in a courtyard: one counts with eyes covered while others hide behind a tree and a wall</title>
+<style>
+.peek{animation:pk 3s ease-in-out infinite}
+@keyframes pk{0%,30%,100%{transform:translateX(0)}50%,70%{transform:translateX(14px)}}
+.peek2{animation:pk2 3.6s ease-in-out infinite}
+@keyframes pk2{0%,40%,100%{transform:translateY(0)}60%,80%{transform:translateY(-14px)}}
+.leaf{animation:lf 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}
+@keyframes lf{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 170H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#E8D5A8"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<g class="peek"><circle cx="268" cy="112" r="14" fill="#E9B98C"/>
+<path d="M255 108Q258 96 269 97Q280 98 282 108Q275 103 268 104Q261 103 255 108Z" fill="#3B2A20"/>
+<circle cx="273" cy="112" r="2" fill="#2B2F4A"/></g>
+<path d="M290 200V110" fill="none" stroke="#8B5A2B" stroke-width="18"/>
+<g class="leaf"><circle cx="290" cy="76" r="50" fill="#3FA34D"/><circle cx="256" cy="96" r="26" fill="#3FA34D"/><circle cx="326" cy="96" r="26" fill="#3FA34D"/></g>
+<g class="peek2"><circle cx="370" cy="156" r="13" fill="#D9A77A"/>
+<path d="M358 152Q361 141 371 142Q381 143 382 152Q376 148 370 148Q364 148 358 152Z" fill="#2B2F4A"/>
+<circle cx="366" cy="157" r="2" fill="#2B2F4A"/></g>
+<rect x="340" y="160" width="58" height="56" fill="#E8C79A"/>
+<path d="M340 178H398M340 198H398M360 160V178M380 178V198M360 198V216" fill="none" stroke="#C8925A" stroke-width="2"/>
+<path d="M80 226Q76 176 104 168Q132 176 128 226Z" fill="#E5484D"/>
+<circle cx="104" cy="146" r="17" fill="#E9B98C"/>
+<path d="M88 142Q90 126 105 127Q119 128 121 142Q113 134 104 135Q95 134 88 142Z" fill="#3B2A20"/>
+<path d="M90 150Q104 128 118 150" fill="#E9B98C" stroke-width="2.5"/>
+<path d="M98 158Q104 162 110 158" fill="none" stroke-width="2"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#2B2F4A"><text x="132" y="122">1, 2, 3…</text></g>
+</svg>

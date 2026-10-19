@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A student volunteer teaching letters on a blackboard to elderly learners at an outdoor literacy camp</title>
+<style>
+.arm{animation:arm 2s ease-in-out infinite;transform-box:fill-box;transform-origin:0 100%}
+@keyframes arm{0%,100%{transform:rotate(0)}50%{transform:rotate(-12deg)}}
+.ch{stroke-dasharray:90;animation:ch 3s linear infinite}
+@keyframes ch{from{stroke-dashoffset:90}to{stroke-dashoffset:0}}
+.flag{animation:fg 2s ease-in-out infinite;transform-box:fill-box;transform-origin:0 50%}
+@keyframes fg{0%,100%{transform:skewY(0)}50%{transform:skewY(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V160H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 160H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 30L200 14L370 30" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+<g class="flag" fill="#F6C453"><path d="M60 27L74 26L67 42Z"/><path d="M110 22L124 21L117 37Z" fill="#E5484D"/><path d="M160 17L174 16L167 32Z" fill="#3FA34D"/><path d="M226 17L240 18L233 34Z" fill="#0B93D4"/><path d="M286 22L300 23L293 39Z"/><path d="M336 27L350 28L343 44Z" fill="#E5484D"/></g>
+<rect x="40" y="56" width="150" height="96" rx="6" fill="#2F4F3E" stroke="#8B5A2B" stroke-width="6"/>
+<path d="M66 172V150M164 172V150" fill="none" stroke="#8B5A2B" stroke-width="5"/>
+<path class="ch" d="M60 90Q70 76 80 90T100 90T122 88" fill="none" stroke="#fff"/>
+<path d="M60 120Q72 108 82 122T106 120T130 118T150 120" fill="none" stroke="#fff"/>
+<path d="M206 182Q202 136 226 128Q250 136 246 182Z" fill="#0B93D4"/>
+<circle cx="226" cy="110" r="16" fill="#E9B98C"/>
+<path d="M210 106Q213 90 227 91Q240 92 242 106Q234 99 226 100Q218 99 210 106Z" fill="#3B2A20"/>
+<path d="M220 116Q226 121 232 116" fill="none" stroke-width="2"/>
+<path class="arm" d="M210 140L186 112" fill="none" stroke="#E9B98C" stroke-width="6"/>
+<path d="M270 236Q266 196 290 188Q314 196 310 236Z" fill="#3FA34D"/>
+<circle cx="290" cy="170" r="15" fill="#D9A77A"/>
+<path d="M275 168Q277 152 291 152Q304 152 305 168Q298 160 290 161Q282 160 275 168Z" fill="#C9CCD6"/>
+<path d="M284 172Q287 170 290 172M292 172Q295 170 298 172M284 178Q290 182 296 178" fill="none" stroke-width="2"/>
+<rect x="276" y="206" width="30" height="22" rx="3" fill="#3B4252" stroke="#8B5A2B" stroke-width="3"/>
+<path d="M336 236Q332 196 356 188Q380 196 376 236Z" fill="#F6C453"/>
+<circle cx="356" cy="170" r="15" fill="#B98A62"/>
+<path d="M341 166Q345 152 357 153Q369 154 371 166Q364 160 356 161Q348 160 341 166Z" fill="#E8E8EE"/>
+<path d="M350 172Q353 170 356 172M358 172Q361 170 364 172M350 178Q356 182 362 178" fill="none" stroke-width="2"/>
+<path d="M340 214L362 208L384 214L362 220Z" fill="#fff"/>
+</g>
+</svg>

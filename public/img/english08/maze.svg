@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img">
+<title>A dot finding its way through a maze towards a star</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="22" y="22" width="256" height="176" rx="8" fill="#BFE3B4"/>
+<path d="M30 30H270V190H30Z M30 70H110 M150 30V110 M70 110H190 M110 150H230 M230 70V150 M190 70H270 M70 150V190 M190 110V150" stroke="#3F6E44" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 50H130V90H210V130H250V170H90" stroke="#FF8A1F" stroke-width="3" fill="none" stroke-dasharray="5 6" stroke-linecap="round" opacity=".7"/>
+<path d="M50 50V36" stroke="#2B2F4A" stroke-width="2"/><path d="M50 36h12l-4 4l4 4h-12z" fill="#E5484D"/>
+<path class="tw" style="animation-delay:0s" d="M90 160L93 167L100 170L93 173L90 180L87 173L80 170L87 167Z" fill="#F6C453"/>
+<circle r="7" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"><animateMotion dur="6s" repeatCount="indefinite" path="M50 50H130V90H210V130H250V170H90"/></circle>
+</svg>

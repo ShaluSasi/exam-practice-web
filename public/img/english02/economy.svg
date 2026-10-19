@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>A bank, a stack of coins, a piggy bank, a banknote and a rising red line</title>
+<style>
+.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 186H340V194Q340 210 324 210H16Q0 210 0 194Z" fill="#D9C49A"/>
+<path d="M24 70L80 40L136 70Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><rect x="28" y="70" width="104" height="10" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M40 82V170M64 82V170M96 82V170M120 82V170" stroke="#2B2F4A" stroke-width="8"/><path d="M40 82V170M64 82V170M96 82V170M120 82V170" stroke="#FFFFFF" stroke-width="4"/><rect x="24" y="170" width="112" height="14" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/>
+<ellipse cx="180" cy="170" rx="18" ry="6" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><ellipse cx="180" cy="162" rx="18" ry="6" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><ellipse cx="180" cy="154" rx="18" ry="6" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><ellipse cx="180" cy="146" rx="18" ry="6" fill="#F6C453" stroke="#B9851A" stroke-width="2"/><ellipse cx="180" cy="138" rx="18" ry="6" fill="#F6C453" stroke="#B9851A" stroke-width="2"/>
+<g class="bob"><ellipse cx="250" cy="150" rx="40" ry="30" fill="#F5A9B8" stroke="#2B2F4A" stroke-width="2"/><circle cx="286" cy="144" r="10" fill="#F5A9B8" stroke="#2B2F4A" stroke-width="2"/><rect x="240" y="118" width="20" height="4" rx="2" fill="#2B2F4A"/><circle cx="262" cy="140" r="2.5" fill="#2B2F4A"/><path d="M232 178v8M266 178v8" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/></g>
+<path d="M170 110L200 80L218 92L260 46" stroke="#E5484D" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M246 44L262 44L262 60" stroke="#E5484D" stroke-width="4" fill="none" stroke-linecap="round"/>
+<rect x="280" y="40" width="44" height="26" rx="4" fill="#BFE3C0" stroke="#2B2F4A" stroke-width="2"/><g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="302" y="58" font-size="15" text-anchor="middle">₹</text></g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" role="img">
+<title>An open notebook being written in, with thought bubbles of hobbies</title>
+<style>
+.wr{animation:wr 3s ease-in-out infinite}@keyframes wr{0%{stroke-dashoffset:90}60%,100%{stroke-dashoffset:0}}.pn{animation:pn 3s ease-in-out infinite}@keyframes pn{0%,100%{transform:translate(0,0)}50%{transform:translate(-8px,4px)}}.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 196H340V204Q340 220 324 220H16Q0 220 0 204Z" fill="#E3CFA6"/>
+<path d="M50 90Q110 80 170 92V204Q110 192 50 202Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M170 92Q230 80 290 90V202Q230 192 170 204Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M62 104H160M186 104H284" stroke="#CDEBFA" stroke-width="2"/><path d="M62 120H160M186 120H284" stroke="#CDEBFA" stroke-width="2"/><path d="M62 136H160M186 136H284" stroke="#CDEBFA" stroke-width="2"/><path d="M62 152H160M186 152H284" stroke="#CDEBFA" stroke-width="2"/><path d="M62 168H160M186 168H284" stroke="#CDEBFA" stroke-width="2"/><path d="M62 184H160M186 184H284" stroke="#CDEBFA" stroke-width="2"/>
+<path class="wr" d="M66 104H150M66 120H130" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-dasharray="90" />
+<g class="pn"><path d="M224 150L264 112L272 120L232 158L220 162Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M220 162L224 150L232 158Z" fill="#2B2F4A"/></g>
+<g class="bob"><circle cx="78" cy="40" r="24" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M66 46Q62 30 78 28Q94 30 92 42Q90 50 82 46Q76 44 74 50Q70 52 66 46Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"/><circle cx="74" cy="36" r="2.5" fill="#E5484D"/><circle cx="84" cy="34" r="2.5" fill="#0B93D4"/></g>
+<g class="bob" style="animation-delay:.6s"><circle cx="170" cy="34" r="24" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M164 44v-18l12-3v18" stroke="#2B2F4A" stroke-width="2.5" fill="none"/><circle cx="162" cy="44" r="4" fill="#2B2F4A"/><circle cx="174" cy="41" r="4" fill="#2B2F4A"/></g>
+<g class="bob" style="animation-delay:1.2s"><circle cx="262" cy="40" r="24" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="262" y="46" font-size="16" text-anchor="middle" fill="#3FA34D">&lt;/&gt;</text></g></g>
+</svg>

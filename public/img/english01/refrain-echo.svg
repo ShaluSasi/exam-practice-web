@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A poem scroll in which the same highlighted line appears twice, sending out echo waves</title>
+<style>
+.echo{animation:ec 2.4s ease-out infinite;transform-box:fill-box;transform-origin:0 50%}
+.e2{animation-delay:.8s}.e3{animation-delay:1.6s}
+@keyframes ec{0%{opacity:1;transform:scale(.6)}100%{opacity:0;transform:scale(1.4)}}
+.hl{animation:hl 2.4s ease-in-out infinite}
+@keyframes hl{0%,100%{opacity:.55}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="50" y="30" width="180" height="186" rx="6" fill="#FFF3C4"/>
+<rect x="40" y="20" width="200" height="16" rx="8" fill="#C8925A"/>
+<rect x="40" y="210" width="200" height="16" rx="8" fill="#C8925A"/>
+</g>
+<g stroke="#C9B48A" stroke-width="5" stroke-linecap="round"><path d="M70 54H200M70 70H180M70 86H206M70 102H170M70 132H200M70 148H190M70 164H176"/></g>
+<rect class="hl" x="64" y="112" width="152" height="12" rx="6" fill="#E5484D"/>
+<rect class="hl" x="64" y="178" width="152" height="12" rx="6" fill="#E5484D"/>
+<g fill="none" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round">
+<path class="echo" d="M250 98Q270 118 250 138"/><path class="echo e2" d="M262 88Q292 118 262 148"/><path class="echo e3" d="M274 78Q314 118 274 158"/>
+</g>
+<g fill="#F6C453" stroke="#C9961A" stroke-width="1.5"><path d="M340 70L345 82L358 86L345 90L340 102L335 90L322 86L335 82Z"/><path d="M350 150L354 159L363 162L354 165L350 174L346 165L337 162L346 159Z"/></g>
+</svg>

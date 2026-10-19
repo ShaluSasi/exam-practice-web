@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img">
+<title>A wooden cradle rocking gently while musical notes float over toys</title>
+<style>
+.nt{animation:nt 3.6s ease-in-out infinite}@keyframes nt{0%{transform:translate(0,0);opacity:0}20%{opacity:1}100%{transform:translate(14px,-34px);opacity:0}}
+.cr{animation:cr 3s ease-in-out infinite;transform-origin:210px 44px}@keyframes cr{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="0" y="0" width="420" height="220" rx="16" fill="#F7EBD8"/><path d="M0 220H420V264Q420 280 404 280H16Q0 280 0 264Z" fill="#E2C9A0"/>
+<path d="M120 40H300" stroke="#8A5A33" stroke-width="6" stroke-linecap="round"/><path d="M128 40L110 240M292 40L310 240" stroke="#8A5A33" stroke-width="5" stroke-linecap="round"/>
+<g class="cr"><path d="M210 44V96" stroke="#2B2F4A" stroke-width="2"/><path d="M150 140Q150 200 210 200Q270 200 270 140Z" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/><path d="M152 140H268" stroke="#2B2F4A" stroke-width="2.5"/><path d="M164 100L150 140M256 100L270 140M164 100H256" stroke="#8A5A33" stroke-width="3"/><path d="M164 148Q210 166 256 148" stroke="#F7A8C4" stroke-width="6" fill="none" stroke-linecap="round"/></g>
+<g class="nt" style="animation-delay:0s"><path d="M80 120V106L89 103V117" stroke="#0B93D4" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="77.5" cy="120" rx="3.5" ry="2.6" fill="#0B93D4"/><ellipse cx="86.5" cy="117" rx="3.5" ry="2.6" fill="#0B93D4"/></g><g class="nt" style="animation-delay:1s"><path d="M330 110V96L339 93V107" stroke="#9B6BD6" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="327.5" cy="110" rx="3.5" ry="2.6" fill="#9B6BD6"/><ellipse cx="336.5" cy="107" rx="3.5" ry="2.6" fill="#9B6BD6"/></g><g class="nt" style="animation-delay:2s"><path d="M100 80V66L109 63V77" stroke="#E5484D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="97.5" cy="80" rx="3.5" ry="2.6" fill="#E5484D"/><ellipse cx="106.5" cy="77" rx="3.5" ry="2.6" fill="#E5484D"/></g><g class="nt" style="animation-delay:2.6s"><path d="M350 160V146L359 143V157" stroke="#3FA34D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="347.5" cy="160" rx="3.5" ry="2.6" fill="#3FA34D"/><ellipse cx="356.5" cy="157" rx="3.5" ry="2.6" fill="#3FA34D"/></g>
+<circle cx="60" cy="246" r="14" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><path d="M48 240Q60 248 72 240" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+<path d="M350 232L372 232L361 258Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M361 232V224" stroke="#2B2F4A" stroke-width="2.5"/>
+</svg>

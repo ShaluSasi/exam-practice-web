@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Children enjoying a village wedding feast under a decorated pandal</title>
+<style>
+.sw{animation:sw 3s ease-in-out infinite;transform-origin:200px 40px}
+@keyframes sw{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+.jump{animation:jp 1.2s ease-in-out infinite}
+@keyframes jp{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.note{animation:nt 3s ease-in-out infinite}
+@keyframes nt{0%{opacity:0;transform:translate(0,0)}50%{opacity:1}100%{opacity:0;transform:translate(10px,-24px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V180H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 180H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40 50V200M360 50V200" fill="none" stroke="#8B5A2B" stroke-width="5"/>
+<path d="M30 52L200 24L370 52Z" fill="#F6C453"/>
+<path d="M44 80Q24 110 40 140Q56 110 44 80Z" fill="#3FA34D"/><path d="M356 80Q336 110 352 140Q368 110 356 80Z" fill="#3FA34D"/>
+</g>
+<g class="sw">
+<path d="M40 56Q120 86 200 56Q280 86 360 56" fill="none" stroke="#3FA34D" stroke-width="3"/>
+<g fill="#FF8A1F" stroke="#C9661A" stroke-width="1.5"><circle cx="80" cy="69" r="6"/><circle cx="120" cy="74" r="6"/><circle cx="160" cy="68" r="6"/><circle cx="240" cy="68" r="6"/><circle cx="280" cy="74" r="6"/><circle cx="320" cy="69" r="6"/></g>
+<g fill="#F6C453" stroke="#C9661A" stroke-width="1.5"><circle cx="100" cy="72" r="5"/><circle cx="140" cy="72" r="5"/><circle cx="260" cy="72" r="5"/><circle cx="300" cy="72" r="5"/></g>
+</g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M70 214L120 204L170 214L120 224Z" fill="#3FA34D"/>
+<g fill="#fff"><circle cx="110" cy="212" r="7"/></g><circle cx="128" cy="214" r="5" fill="#F6C453"/><circle cx="120" cy="206" r="4" fill="#E5484D"/>
+<path d="M230 214L280 204L330 214L280 224Z" fill="#3FA34D"/>
+<circle cx="272" cy="212" r="7" fill="#fff"/><circle cx="290" cy="214" r="5" fill="#F6C453"/>
+<path d="M104 194Q100 160 120 154Q140 160 136 194Z" fill="#E5484D"/>
+<circle cx="120" cy="140" r="14" fill="#E9B98C"/>
+<path d="M106 138Q108 124 121 125Q133 126 134 138Q127 130 120 131Q112 130 106 138Z" fill="#3B2A20"/>
+<path d="M114 144Q120 149 126 144" fill="none" stroke-width="2"/>
+<path d="M264 194Q260 160 280 154Q300 160 296 194Z" fill="#0B93D4"/>
+<circle cx="280" cy="140" r="14" fill="#D9A77A"/>
+<path d="M266 136Q270 124 281 125Q293 126 294 136Q286 131 280 132Q272 131 266 136Z" fill="#2B2F4A"/>
+<path d="M274 144Q280 149 286 144" fill="none" stroke-width="2"/>
+<g class="jump">
+<path d="M186 196Q182 166 200 160Q218 166 214 196Z" fill="#F6C453"/>
+<circle cx="200" cy="146" r="13" fill="#E9B98C"/>
+<path d="M187 144Q189 131 201 132Q212 133 213 144Q206 137 200 138Q193 137 187 144Z" fill="#3B2A20"/>
+<path d="M194 150Q200 155 206 150" fill="none" stroke-width="2"/>
+<path d="M188 170L174 156M212 170L226 156" fill="none" stroke="#E9B98C" stroke-width="5"/>
+</g>
+</g>
+<g class="note" fill="#7A3FB0" font-family="system-ui, sans-serif" font-size="18" font-weight="700"><text x="320" y="120">♪</text></g>
+</svg>

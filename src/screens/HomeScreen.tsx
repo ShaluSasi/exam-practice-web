@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Award, BookOpen, Check, Flame, Play, Sparkles, Target, Trophy, Zap } from "lucide-react";
 import clsx from "clsx";
@@ -229,6 +229,29 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
   const subjects = [...new Set(chapters.map((c) => c.subject))];
   const active = lastSubject && subjects.includes(lastSubject) ? lastSubject : subjects[0];
   const list = chapters.filter((c) => c.subject === active);
+  const tabsRef = useRef<HTMLDivElement>(null);
+  const [more, setMore] = useState({ left: false, right: false });
+  const measure = () => {
+    const bar = tabsRef.current;
+    if (!bar) return;
+    setMore({ left: bar.scrollLeft > 2, right: bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 2 });
+  };
+
+  useEffect(() => {
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  }, [subjects.length]);
+
+  // On narrow screens the tab strip scrolls sideways; keep the selected tab in view.
+  useEffect(() => {
+    const bar = tabsRef.current;
+    const tab = bar?.querySelector<HTMLElement>('[aria-selected="true"]');
+    if (!bar || !tab) return;
+    if (tab.offsetLeft < bar.scrollLeft || tab.offsetLeft + tab.offsetWidth > bar.scrollLeft + bar.clientWidth) {
+      bar.scrollTo({ left: tab.offsetLeft - (bar.clientWidth - tab.offsetWidth) / 2, behavior: "smooth" });
+    }
+  }, [active]);
 
   const start = (qs: Question[], title: string) => {
     setLastSubject(active);
@@ -243,7 +266,20 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
       </div>
 
       <div className="sticky top-0 z-30 -mx-4 bg-bg/90 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6">
-        <div role="tablist" aria-label="Subjects" className="flex gap-1.5 rounded-2xl border-2 border-line bg-surface p-1.5">
+        <div className="rounded-2xl border-2 border-line bg-surface">
+        <div
+          ref={tabsRef}
+          role="tablist"
+          aria-label="Subjects"
+          onScroll={measure}
+          style={{
+            maskImage:
+              more.left || more.right
+                ? `linear-gradient(to right, ${more.left ? "transparent, #000 40px" : "#000"}, ${more.right ? "#000 calc(100% - 40px), transparent" : "#000"})`
+                : undefined,
+          }}
+          className="relative flex gap-1.5 overflow-x-auto overscroll-x-contain rounded-[14px] p-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        >
           {subjects.map((s) => {
             const st = SUBJECT_STYLE[s];
             const on = s === active;
@@ -260,7 +296,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
                   document.getElementById("chapters")?.scrollIntoView({ behavior: "smooth", block: "start" });
                 }}
                 className={clsx(
-                  "relative flex min-w-0 flex-auto items-center justify-center gap-1.5 rounded-xl px-2 py-2.5 font-display text-sm font-bold transition-colors sm:flex-1 sm:gap-2 sm:text-base",
+                  "relative flex flex-1 shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:gap-2 sm:text-base",
                   on ? "text-white" : "text-muted hover:text-fg",
                 )}
               >
@@ -272,7 +308,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
                   />
                 )}
                 <st.icon className={clsx("relative size-5 shrink-0", subjects.length > 3 && "hidden sm:block")} />
-                <span className="relative truncate">
+                <span className="relative">
                   <span className="sm:hidden">{region.subjects[s].split(" ")[0]}</span>
                   <span className="hidden sm:inline">{region.subjects[s]}</span>
                 </span>
@@ -287,6 +323,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
               </button>
             );
           })}
+        </div>
         </div>
       </div>
 

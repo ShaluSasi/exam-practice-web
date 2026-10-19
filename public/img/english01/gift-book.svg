@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A grandmother proudly holding up and reading a new book unwrapped from gift paper while a girl smiles</title>
+<style>
+.sp{animation:sp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sp2{animation:sp 2.4s ease-in-out infinite 1.2s;transform-box:fill-box;transform-origin:center}
+@keyframes sp{0%,100%{opacity:.2;transform:scale(.6) rotate(0)}50%{opacity:1;transform:scale(1.1) rotate(45deg)}}
+.book{animation:lift 3s ease-in-out infinite}
+@keyframes lift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V185H0V16Q0 0 16 0Z" fill="#E8F4E0"/>
+<path d="M0 185H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M120 226L150 214L196 222L170 238Z" fill="#E5484D"/>
+<path d="M140 220L180 230" fill="none" stroke="#F6C453" stroke-width="3"/>
+<path d="M190 226Q184 150 232 138Q280 150 274 226Z" fill="#3FA34D"/>
+<path d="M200 170Q232 190 264 170" fill="none" stroke="#F6C453" stroke-width="4"/>
+<circle cx="232" cy="112" r="22" fill="#D9A77A"/>
+<path d="M210 110Q212 88 232 88Q252 88 254 110Q245 98 232 100Q219 98 210 110Z" fill="#C9CCD6"/>
+<circle cx="254" cy="96" r="8" fill="#C9CCD6"/>
+<circle cx="224" cy="113" r="5.5" fill="none" stroke-width="2"/><circle cx="240" cy="113" r="5.5" fill="none" stroke-width="2"/>
+<path d="M229.5 113H234.5M222 124Q232 132 242 124" fill="none" stroke-width="2"/>
+<g class="book">
+<path d="M198 190L206 166M266 190L258 166" fill="none" stroke="#D9A77A" stroke-width="7"/>
+<rect x="196" y="84" width="72" height="50" rx="4" fill="#0B93D4" transform="translate(0,62) rotate(-4 232 109)"/>
+<path d="M210 100H254M214 112H250" stroke="#FFF3C4" stroke-width="4" transform="translate(0,62) rotate(-4 232 109)"/>
+</g>
+<path d="M320 226Q316 176 344 168Q372 176 368 226Z" fill="#F6C453"/>
+<circle cx="344" cy="144" r="18" fill="#E9B98C"/>
+<path d="M326 142Q328 124 345 125Q361 126 362 142Q354 132 344 133Q334 132 326 142Z" fill="#3B2A20"/>
+<path d="M336 145Q339 142 342 145M347 145Q350 142 353 145M336 152Q344 160 352 152" fill="none" stroke-width="2"/>
+</g>
+<g fill="#F6C453" stroke="#C9961A" stroke-width="1"><path class="sp" d="M170 60L174 70L184 74L174 78L170 88L166 78L156 74L166 70Z"/><path class="sp2" d="M300 54L303 61L310 64L303 67L300 74L297 67L290 64L297 61Z"/><path class="sp2" d="M120 120L123 127L130 130L123 133L120 140L117 133L110 130L117 127Z"/></g>
+</svg>

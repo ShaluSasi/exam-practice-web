@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" role="img">
+<title>A hand</title>
+<style>
+.tp{animation:tp 2s ease-in-out infinite}@keyframes tp{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="80" cy="70" r="54" fill="#DDF3D8" stroke="#2B2F4A" stroke-width="2.5"/><g class="tp"><path d="M62 112V70Q62 62 68 62Q74 62 74 70V52Q74 44 80 44Q86 44 86 52V56Q86 50 92 50Q98 50 98 58V64Q98 58 104 58Q110 58 110 66V94Q110 112 92 112Z" fill="#E2AE84" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><path d="M62 84Q50 74 46 80Q42 86 60 102" fill="#E2AE84" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/></g>
+</svg>

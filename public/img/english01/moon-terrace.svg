@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A grandmother sitting beside a girl on an open terrace on a full-moon summer night</title>
+<style>
+.tw{animation:tw 2.5s ease-in-out infinite}
+.tw2{animation:tw 3.4s ease-in-out infinite .8s}
+@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}
+.glow{animation:gl 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes gl{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+.hand{animation:hd 3s ease-in-out infinite}
+@keyframes hd{0%,100%{transform:translateX(0)}50%{transform:translateX(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#2E3566"/>
+<circle class="glow" cx="320" cy="56" r="34" fill="#FFF3C4" opacity=".35"/>
+<circle cx="320" cy="56" r="24" fill="#FFF3C4" stroke="#F6C453" stroke-width="2"/>
+<g fill="#FFF3C4"><circle class="tw" cx="60" cy="40" r="2.5"/><circle class="tw2" cx="120" cy="28" r="2"/><circle class="tw" cx="200" cy="50" r="2.5"/><circle class="tw2" cx="250" cy="22" r="2"/><circle class="tw" cx="370" cy="110" r="2"/><circle class="tw2" cx="30" cy="100" r="2"/></g>
+<path d="M0 150Q60 130 110 150T220 146" fill="#3FA34D" opacity=".5"/>
+<path d="M0 170H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#C7B28A"/>
+<path d="M0 170H400" stroke="#8B7355" stroke-width="4"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="70" y="196" width="190" height="30" rx="10" fill="#F6C453"/>
+<path d="M120 200Q170 186 250 206L250 222L120 222Z" fill="#E5484D"/>
+<circle cx="100" cy="206" r="15" fill="#E9B98C"/>
+<path d="M86 202Q88 188 102 190Q114 192 114 202Q106 196 100 197Q92 196 86 202Z" fill="#3B2A20"/>
+<path d="M94 208Q97 210 100 208M104 208Q107 210 110 208" fill="none" stroke-width="2"/>
+<g transform="translate(-110,30)">
+<path d="M270 196Q266 150 296 140Q326 150 322 196Z" fill="#3FA34D"/>
+<path d="M276 158Q296 174 316 158" fill="none" stroke="#F6C453" stroke-width="4"/>
+<circle cx="296" cy="120" r="19" fill="#D9A77A"/>
+<path d="M277 118Q279 99 296 99Q313 99 315 118Q307 107 296 109Q285 107 277 118Z" fill="#C9CCD6"/>
+<circle cx="316" cy="106" r="7" fill="#C9CCD6"/>
+<path d="M286 120Q290 117 293 120M300 120Q303 117 307 120M289 130Q296 126 303 130" fill="none" stroke-width="2"/>
+<path d="M287 124Q285 130 287 133" fill="none" stroke="#0B93D4" stroke-width="2"/>
+</g>
+<g class="hand"><path d="M170 190Q140 186 112 196" fill="none" stroke="#D9A77A" stroke-width="7"/></g>
+</g>
+</svg>

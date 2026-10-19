@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>At a festival puja corner, a grandmother bows before a girl seated on a stool</title>
+<style>
+.flame{animation:fl 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.3)}}
+.sp{animation:sp 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes sp{0%,100%{opacity:.2;transform:scale(.6)}50%{opacity:1;transform:scale(1.1)}}
+.bow{animation:bw 4s ease-in-out infinite;transform-origin:250px 200px}
+@keyframes bw{0%,100%{transform:rotate(0)}50%{transform:rotate(-6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V185H0V16Q0 0 16 0Z" fill="#F7E6CC"/>
+<path d="M0 185H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<g fill="#FF8A1F" stroke="#C9661A" stroke-width="1.5"><circle cx="30" cy="30" r="6"/><circle cx="60" cy="40" r="6"/><circle cx="90" cy="46" r="6"/><circle cx="310" cy="46" r="6"/><circle cx="340" cy="40" r="6"/><circle cx="370" cy="30" r="6"/></g>
+<path d="M16 24Q60 52 110 48M290 48Q340 52 384 24" fill="none" stroke="#3FA34D" stroke-width="3"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="150" width="60" height="10" rx="3" fill="#C8925A"/>
+<path d="M58 150H82L78 142H62Z" fill="#F6C453"/>
+<path class="flame" d="M70 142Q63 132 70 120Q77 132 70 142Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="1.5"/>
+<rect x="110" y="170" width="70" height="14" rx="4" fill="#C8925A"/>
+<path d="M118 184V214M172 184V214" fill="none" stroke="#8B5A2B" stroke-width="5"/>
+<path d="M124 172Q120 128 145 120Q170 128 166 172Z" fill="#0B93D4"/>
+<circle cx="145" cy="98" r="16" fill="#E9B98C"/>
+<path d="M129 96Q131 80 146 81Q160 82 161 96Q153 87 145 88Q136 87 129 96Z" fill="#3B2A20"/>
+<path d="M139 101Q142 99 145 101" fill="none" stroke-width="2"/><ellipse cx="146" cy="107" rx="3" ry="4" fill="#7A3B2E" stroke-width="1.5"/>
+<path d="M136 184V214M154 184V214" fill="none" stroke="#E9B98C" stroke-width="6"/>
+<path d="M130 216H142M148 216H160" fill="none" stroke="#E9B98C" stroke-width="6"/>
+<rect x="198" y="206" width="36" height="20" rx="3" fill="#E5484D"/><path d="M216 206V226M198 216H234" fill="none" stroke="#F6C453" stroke-width="3"/>
+<g class="bow">
+<path d="M250 216Q232 170 268 150Q306 140 316 176Q322 206 300 220Z" fill="#3FA34D"/>
+<path d="M262 164Q286 180 306 168" fill="none" stroke="#F6C453" stroke-width="4"/>
+<circle cx="232" cy="156" r="17" fill="#D9A77A"/>
+<path d="M216 150Q220 134 236 136Q250 140 248 154Q240 144 232 145Q223 145 216 150Z" fill="#C9CCD6"/>
+<circle cx="250" cy="140" r="7" fill="#C9CCD6"/>
+<path d="M248 182Q210 196 166 214" fill="none" stroke="#D9A77A" stroke-width="7"/>
+</g>
+</g>
+<g fill="#F6C453"><path class="sp" d="M200 90L204 100L214 104L204 108L200 118L196 108L186 104L196 100Z"/><path class="sp" d="M100 70L103 77L110 80L103 83L100 90L97 83L90 80L97 77Z"/></g>
+</svg>

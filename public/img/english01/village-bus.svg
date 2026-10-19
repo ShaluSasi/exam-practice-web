@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A small bus carrying newspapers and post arriving at a village stop where children wait</title>
+<style>
+.bus{animation:bus 5s ease-out infinite}
+@keyframes bus{0%{transform:translateX(-240px)}60%,100%{transform:translateX(0)}}
+.dust{animation:du 5s ease-out infinite}
+@keyframes du{0%,55%{opacity:0}65%{opacity:.8}100%{opacity:0}}
+.wave{animation:wv 1s ease-in-out infinite;transform-box:fill-box;transform-origin:0 100%}
+@keyframes wv{0%,100%{transform:rotate(0)}50%{transform:rotate(-25deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V176H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<circle cx="350" cy="44" r="20" fill="#F6C453"/>
+<path d="M0 176H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E"/>
+<path d="M0 196H400V232H0Z" fill="#C7B28A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M330 176V110" fill="none" stroke="#8B5A2B" stroke-width="5"/>
+<circle cx="330" cy="98" r="30" fill="#3FA34D"/>
+<path d="M286 192Q284 166 296 162Q308 166 306 192Z" fill="#E5484D"/>
+<circle cx="296" cy="150" r="11" fill="#E9B98C"/>
+<path d="M285 148Q287 137 297 138Q306 139 307 148Q301 143 296 143Q290 143 285 148Z" fill="#3B2A20"/>
+<path class="wave" d="M306 170L316 152" fill="none" stroke="#E9B98C" stroke-width="5"/>
+<path d="M356 192Q354 170 364 166Q374 170 372 192Z" fill="#0B93D4"/>
+<circle cx="364" cy="156" r="10" fill="#D9A77A"/>
+<path d="M354 154Q357 144 365 145Q373 146 374 154Q368 150 364 150Q358 150 354 154Z" fill="#2B2F4A"/>
+</g>
+<g class="bus" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="70" y="128" width="170" height="66" rx="12" fill="#F6C453"/>
+<rect x="80" y="138" width="30" height="24" rx="4" fill="#CDEBFA"/><rect x="118" y="138" width="30" height="24" rx="4" fill="#CDEBFA"/><rect x="156" y="138" width="30" height="24" rx="4" fill="#CDEBFA"/><rect x="194" y="138" width="36" height="24" rx="4" fill="#CDEBFA"/>
+<path d="M70 172H240" stroke="#E5484D" stroke-width="5"/>
+<circle cx="104" cy="196" r="12" fill="#2B2F4A"/><circle cx="206" cy="196" r="12" fill="#2B2F4A"/>
+<circle cx="104" cy="196" r="4" fill="#A3A8CC"/><circle cx="206" cy="196" r="4" fill="#A3A8CC"/>
+<rect x="96" y="108" width="40" height="20" rx="3" fill="#fff"/><path d="M100 114H132M100 120H126" stroke="#A3A8CC" stroke-width="2"/>
+<rect x="144" y="112" width="34" height="16" rx="3" fill="#C8925A"/><path d="M144 112L161 122L178 112" fill="none"/>
+</g>
+<g class="dust" fill="#E8DCC2"><circle cx="64" cy="200" r="10"/><circle cx="50" cy="194" r="7"/><circle cx="40" cy="202" r="6"/></g>
+</svg>

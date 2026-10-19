@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" role="img">
+<title>Five round badges: a flame, an uphill road, a floating ring, a thought cloud and a heart</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.fk{animation:fk 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom center}@keyframes fk{0%,100%{transform:scale(1,1)}50%{transform:scale(.9,1.12)}}.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}undefined
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="48" cy="80" r="34" fill="#FDE2E2" stroke="#2B2F4A" stroke-width="2.5"/><g class="fk"><path d="M48 104Q28 94 36 72Q42 82 46 76Q44 58 56 50Q56 66 64 74Q70 88 62 100Q58 106 48 104Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+<circle cx="124" cy="80" r="34" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2.5"/><path d="M94 104L136 56L154 104Z" fill="#9CD08E" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><path d="M104 102Q122 90 116 82Q110 74 128 66" stroke="#C8925A" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="130" cy="64" r="3" fill="#E5484D"/>
+<circle cx="200" cy="80" r="34" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="2.5"/><path d="M168 96Q184 88 200 96T232 96V114H168Z" fill="#5BB6E6"/><g class="bob"><circle cx="200" cy="82" r="16" fill="none" stroke="#E5484D" stroke-width="9"/><path d="M188 72l5 5M207 87l5 5M212 72l-5 5M193 87l-5 5" stroke="#FFFFFF" stroke-width="4"/></g>
+<circle cx="276" cy="80" r="34" fill="#EDE7F6" stroke="#2B2F4A" stroke-width="2.5"/><g transform="translate(276 86) scale(0.8)"><path d="M-30 10Q-42 10 -40 -2Q-38 -12 -26 -10Q-24 -26 -6 -24Q8 -32 18 -18Q34 -20 36 -4Q44 4 32 10Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g><circle cx="262" cy="104" r="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5"/><path style="animation-delay:0s" d="M278 74L279.8 78.2L284 80L279.8 81.8L278 86L276.2 81.8L272 80L276.2 78.2Z" fill="#F6C453"/>
+<circle cx="352" cy="80" r="34" fill="#FFF3C4" stroke="#2B2F4A" stroke-width="2.5"/><g transform="translate(352 80) scale(2.2)"><path style="animation-delay:0s" d="M0 6C-10 -2 -10 -10 -5 -11C-2 -12 0 -9 0 -7C0 -9 2 -12 5 -11C10 -10 10 -2 0 6Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5" stroke-linejoin="round"/></g><path class="pu" d="M326 104Q338 96 352 104T378 104" stroke="#E5484D" stroke-width="3" fill="none"/>
+</svg>

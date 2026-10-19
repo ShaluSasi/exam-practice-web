@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A student studying at a desk late at night by an oil lamp, with a clock, books and a thought bubble</title>
+<style>
+.flame{animation:fl 1.3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.3) rotate(5deg)}}
+.hand{animation:hd 6s linear infinite;transform-origin:330px 60px}
+@keyframes hd{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.th{animation:th 3s ease-in-out infinite}
+@keyframes th{0%,100%{opacity:.3}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V180H0V16Q0 0 16 0Z" fill="#2E3566"/>
+<circle cx="120" cy="150" r="70" fill="#FFF3C4" opacity=".25"/>
+<path d="M0 180H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#8B6A4A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="330" cy="60" r="30" fill="#fff"/>
+<path d="M330 60V40" stroke-width="3"/>
+<path class="hand" d="M330 60L346 60" stroke="#E5484D" stroke-width="3"/>
+<rect x="20" y="180" width="360" height="16" rx="4" fill="#C8925A"/>
+<path d="M104 180H136L130 170H110Z" fill="#F6C453"/>
+<path class="flame" d="M120 170Q112 158 120 144Q128 158 120 170Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="1.5"/>
+<rect x="40" y="160" width="50" height="10" rx="2" fill="#E5484D"/><rect x="44" y="150" width="46" height="10" rx="2" fill="#3FA34D"/><rect x="38" y="170" width="54" height="10" rx="2" fill="#0B93D4"/>
+<path d="M210 180Q206 130 234 122Q262 130 258 180Z" fill="#F6C453"/>
+<circle cx="234" cy="100" r="18" fill="#E9B98C"/>
+<path d="M216 96Q219 80 235 81Q250 82 252 96Q244 89 234 90Q224 89 216 96Z" fill="#3B2A20"/>
+<path d="M227 102Q230 104 233 102M237 102Q240 104 243 102M229 110H240" fill="none" stroke-width="2"/>
+<path d="M170 178L200 170L230 178L200 186Z" fill="#fff"/>
+<path d="M212 160L196 176" fill="none" stroke="#E9B98C" stroke-width="6"/>
+</g>
+<g class="th"><circle cx="262" cy="80" r="4" fill="#fff"/><circle cx="272" cy="66" r="6" fill="#fff"/><ellipse cx="276" cy="40" rx="24" ry="16" fill="#fff"/><path d="M266 40H286M276 30V50" stroke="#F6C453" stroke-width="4" stroke-linecap="round"/></g>
+</svg>

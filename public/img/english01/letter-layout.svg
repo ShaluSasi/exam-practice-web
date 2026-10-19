@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" role="img">
+<title>The layout of a formal letter drawn as blocks of lines</title>
+<style>
+.pen{animation:pen 2.4s ease-in-out infinite}
+@keyframes pen{0%,100%{transform:translateX(0)}50%{transform:translateX(-26px)}}
+.ink{stroke-dasharray:60;animation:ink 2.4s linear infinite}
+@keyframes ink{from{stroke-dashoffset:60}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="24" y="14" width="272" height="456" rx="8" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M36 22V462" stroke="#F7A3A5" stroke-width="1.5"/>
+<g stroke-linecap="round" fill="none">
+<g stroke="#8E94B8" stroke-width="6"><path d="M70 36H180M70 50H160M70 64H140"/></g>
+<path d="M70 92H140" stroke="#0B93D4" stroke-width="6"/>
+<g stroke="#8E94B8" stroke-width="6"><path d="M70 120H150M70 134H190M70 148H160"/></g>
+<path d="M70 178H250" stroke="#2B2F4A" stroke-width="7"/>
+<path d="M70 188H250" stroke="#2B2F4A" stroke-width="1.5"/>
+<path d="M70 210H112" stroke="#3FA34D" stroke-width="6"/>
+<g stroke="#C9CCD6" stroke-width="6"><path d="M90 238H276M70 252H276M70 266H200M90 288H276M70 302H276M70 316H230M90 338H276M70 352H276M70 366H180"/></g>
+<path d="M70 400H140" stroke="#FF8A1F" stroke-width="6"/>
+<path class="ink" d="M70 432Q80 418 88 432T106 430T126 428" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M70 450H150" stroke="#8E94B8" stroke-width="6"/>
+</g>
+<g transform="translate(66,0)"><g class="pen" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round">
+<path d="M150 428L214 372L226 384L162 440L146 446Z" fill="#F6C453"/>
+<path d="M150 428L146 446L162 440Z" fill="#2B2F4A"/>
+</g></g>
+</svg>

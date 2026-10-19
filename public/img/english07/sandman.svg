@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img">
+<title>A figure in a khaki uniform and turban walking through a swirling sandstorm</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.sw1{animation:sw1 4s linear infinite;transform-origin:180px 130px}.sw2{animation:sw1 6s linear infinite reverse;transform-origin:180px 130px}@keyframes sw1{to{transform:rotate(360deg)}}.gr{animation:gr 2s ease-in-out infinite}@keyframes gr{50%{transform:translateY(-3px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H344Q360 0 360 16V210H0V16Q0 0 16 0Z" fill="#F6DDB0"/><path d="M0 186Q72 156 151.2 180Q223.2 196 288 164Q331.2 152 360 172V214Q360 230 344 230H16Q0 230 0 214Z" fill="#D9B26F"/>
+<path d="M0 210Q108 190 198.00000000000003 212Q280.8 230 360 208V214Q360 230 344 230H16Q0 230 0 214Z" fill="#E9C98B"/>
+<path d="M140 206Q180 186 220 206Z" fill="#D9B26F" stroke="#B8955A" stroke-width="2"/>
+<g transform="translate(180 200) scale(1.35 1.35)">
+<path d="M-4 -30L-10 0M4 -30L10 0" stroke="#8A6A3A" stroke-width="6" stroke-linecap="round"/><path d="M-13 0h7M8 0h7" stroke="#6B4226" stroke-width="4" stroke-linecap="round"/>
+<path d="M-11 -30L-9 -60Q0 -66 9 -60L11 -30Z" fill="#C9A86A" stroke="#7A5A2A" stroke-width="2" stroke-linejoin="round"/>
+<path d="M-8 -60L14 -30" stroke="#5E3A1E" stroke-width="3"/><path d="M8 -40Q22 -40 20 -24Q12 -18 6 -26Z" fill="#A86B3C" stroke="#5E3A1E" stroke-width="2"/>
+<path d="M9 -56L14 -40" stroke="#C68A5E" stroke-width="5" stroke-linecap="round"/>
+<circle cx="0" cy="-70" r="8" fill="#B97A57" stroke="#7A5A2A" stroke-width="2"/><path d="M-9 -72Q-9 -84 0 -84Q10 -84 9 -72Q4 -76 0 -75Q-5 -76 -9 -72Z" fill="#B8955A" stroke="#7A5A2A" stroke-width="1.8"/><path d="M8 -76q6 2 5 10" fill="none" stroke="#B8955A" stroke-width="3" stroke-linecap="round"/></g>
+<g class="sw1"><ellipse cx="180" cy="130" rx="110" ry="54" fill="none" stroke="#C99B55" stroke-width="3" stroke-dasharray="26 18" stroke-linecap="round"/></g>
+<g class="sw2"><ellipse cx="180" cy="130" rx="80" ry="78" fill="none" stroke="#B8955A" stroke-width="2.5" stroke-dasharray="14 22" stroke-linecap="round"/></g>
+<g class="gr" fill="#B8955A"><circle cx="60" cy="90" r="2.5"/><circle cx="300" cy="80" r="2"/><circle cx="90" cy="160" r="2"/><circle cx="290" cy="150" r="2.5"/><circle cx="250" cy="50" r="2"/><circle cx="110" cy="44" r="2"/></g>
+</svg>

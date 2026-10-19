@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img">
+<title>String puppets dancing on a small puppet stage</title>
+<style>
+.k{stroke:#2B2F4A;stroke-width:2px;stroke-linejoin:round;stroke-linecap:round}.k1{stroke:#2B2F4A;stroke-width:1.5px;stroke-linejoin:round;stroke-linecap:round}
+.bob{animation:bob 2.2s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="30" y="20" width="360" height="226" rx="10" fill="#8E1B3A" class="k"/><rect x="60" y="48" width="300" height="150" fill="#FDEFD9" class="k"/><path d="M60 48Q80 120 64 198H60Z M360 48Q340 120 356 198H360Z" fill="#E5484D" class="k1"/><path d="M60 48H360V64Q330 76 300 64Q270 76 240 64Q210 76 180 64Q150 76 120 64Q90 76 60 64Z" fill="#F6C453" class="k1"/><rect x="50" y="198" width="320" height="20" fill="#C8925A" class="k"/><g class="bob" style="animation-delay:0s"><path d="M144 40H196M170 32V48" stroke="#8A5A32" stroke-width="5" stroke-linecap="round"/>
+<path d="M144 40L152 130M196 40L188 130M170 48V96" stroke="#2B2F4A" stroke-width="1"/>
+<circle cx="170" cy="108" r="13" fill="#F0C9A0" class="k"/><circle cx="166" cy="106" r="1.6" fill="#2B2F4A"/><circle cx="174" cy="106" r="1.6" fill="#2B2F4A"/><path d="M166 112Q170 115 174 112" stroke="#2B2F4A" stroke-width="1.4" fill="none"/>
+<path d="M156 96Q170 88 184 96" fill="#0B93D4"/><path d="M154 180L158 124H182L186 180Z" fill="#0B93D4" class="k"/><path d="M158 130L148 150M182 130L192 150" class="k"/></g><g class="bob" style="animation-delay:-1s"><path d="M234 40H286M260 32V48" stroke="#8A5A32" stroke-width="5" stroke-linecap="round"/>
+<path d="M234 40L242 130M286 40L278 130M260 48V96" stroke="#2B2F4A" stroke-width="1"/>
+<circle cx="260" cy="108" r="13" fill="#F0C9A0" class="k"/><circle cx="256" cy="106" r="1.6" fill="#2B2F4A"/><circle cx="264" cy="106" r="1.6" fill="#2B2F4A"/><path d="M256 112Q260 115 264 112" stroke="#2B2F4A" stroke-width="1.4" fill="none"/>
+<path d="M246 96Q260 88 274 96" fill="#3FA34D"/><path d="M244 180L248 124H272L276 180Z" fill="#3FA34D" class="k"/><path d="M248 130L238 150M272 130L282 150" class="k"/></g>
+</svg>

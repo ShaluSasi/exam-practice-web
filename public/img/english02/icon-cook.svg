@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A steaming pan on a stove with bowls of spices</title>
+<style>
+.up{animation:up 3s ease-in infinite;transform-box:fill-box}@keyframes up{0%{transform:translateY(6px);opacity:0}30%{opacity:1}100%{transform:translateY(-26px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="24" y="112" width="112" height="30" rx="6" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2"/><path d="M36 112Q36 82 80 82Q124 82 124 112Z" fill="#7A7F9E" stroke="#2B2F4A" stroke-width="2"/><path d="M124 96H150" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/>
+<path class="up" d="M62 74q-6-8 0-14q6-6 0-14M80 70q-6-8 0-14q6-6 0-14M98 74q-6-8 0-14q6-6 0-14" stroke="#A3A8CC" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="30" cy="150" rx="12" ry="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.5"/><ellipse cx="130" cy="150" rx="12" ry="5" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>A new hardbound novel</title>
+<style>
+.pg{animation:pg 3.5s ease-in-out infinite;transform-origin:100px 80px}
+@keyframes pg{0%,60%,100%{transform:scaleX(1)}80%{transform:scaleX(-1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 46Q65 34 100 46Q135 34 170 46V128Q135 116 100 128Q65 116 30 128Z" fill="#0B93D4"/>
+<path d="M38 44Q68 34 100 44V122Q68 112 38 122Z" fill="#fff"/>
+<path d="M100 44Q132 34 162 44V122Q132 112 100 122Z" fill="#fff"/>
+<path class="pg" d="M100 44Q124 36 150 44V120Q124 112 100 120Z" fill="#FFF3C4"/>
+</g>
+<g stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"><path d="M50 62H88M50 76H88M50 90H88M50 104H80M112 62H150M112 76H150M112 90H150"/></g>
+</svg>

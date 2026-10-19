@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A figure at an open door that looks out onto an endless starry sky</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}.door{animation:dr 4s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}@keyframes dr{0%,100%{transform:scaleX(.55)}50%{transform:scaleX(.35)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect width="360" height="220" rx="16" fill="#FFE9D2"/><path d="M0 170H360V204Q360 220 344 220H16Q0 220 0 204Z" fill="#D9C49A"/>
+<rect x="130" y="30" width="120" height="150" rx="6" fill="#3D3F8F" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M136 150Q170 120 190 122Q214 124 244 150V176H136Z" fill="#5BB6E6"/><path d="M190 176L182 150L198 150Z" fill="#F6C453" opacity=".7"/><path class="tw" style="animation-delay:0s" d="M150 55L151.5 58.5L155 60L151.5 61.5L150 65L148.5 61.5L145 60L148.5 58.5Z" fill="#F6C453"/><path class="tw" style="animation-delay:0.35s" d="M210 38L211.8 42.2L216 44L211.8 45.8L210 50L208.2 45.8L204 44L208.2 42.2Z" fill="#FFFFFF"/><path class="tw" style="animation-delay:0.7s" d="M184 93L186.1 97.9L191 100L186.1 102.1L184 107L181.9 102.1L177 100L181.9 97.9Z" fill="#FF8A1F"/><path class="tw" style="animation-delay:1.0499999999999998s" d="M236 79L237.5 82.5L241 84L237.5 85.5L236 89L234.5 85.5L231 84L234.5 82.5Z" fill="#F6C453"/><path class="tw" style="animation-delay:1.4s" d="M160 124L161.8 128.2L166 130L161.8 131.8L160 136L158.2 131.8L154 130L158.2 128.2Z" fill="#FFFFFF"/><path class="tw" style="animation-delay:1.75s" d="M224 125L226.1 129.9L231 132L226.1 134.1L224 139L221.9 134.1L217 132L221.9 129.9Z" fill="#FF8A1F"/>
+<rect class="door" x="250" y="30" width="80" height="150" rx="4" fill="#C8925A" stroke="#2B2F4A" stroke-width="3"/>
+<rect x="120" y="22" width="140" height="10" rx="3" fill="#8A5A2B"/><rect x="120" y="178" width="140" height="8" rx="3" fill="#8A5A2B"/>
+<g transform="translate(92 124) scale(0.9)"><path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle class="o" cx="0" cy="-8" r="8" fill="#B97A57"/><path d="M-8 -9Q-7 -18 0 -17Q7 -18 8 -9Q4 -14 0 -13Q-4 -14 -8 -9Z" fill="#2B2F4A"/></g>
+</svg>

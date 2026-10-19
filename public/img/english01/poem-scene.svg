@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A landscape with snowy mountains, a winding river, golden fields under the sun, a bundle of palm-leaf manuscripts and a stringed instrument</title>
+<style>
+.flow{stroke-dasharray:10 12;animation:fw 1.6s linear infinite}
+@keyframes fw{to{stroke-dashoffset:-44}}
+.rays{animation:rot 12s linear infinite;transform-origin:350px 44px}
+@keyframes rot{to{transform:rotate(360deg)}}
+.note{animation:nt 3s ease-in-out infinite}
+.n2{animation-delay:1.5s}
+@keyframes nt{0%{opacity:0;transform:translate(0,0)}40%{opacity:1}100%{opacity:0;transform:translate(14px,-30px)}}
+.sway{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{0%,100%{transform:skewX(-4deg)}50%{transform:skewX(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V160H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<g class="rays" stroke="#F6C453" stroke-width="3" stroke-linecap="round"><path d="M350 8V16M350 72V80M314 44H322M378 44H386M325 19L331 25M369 63L375 69M375 19L369 25M331 63L325 69"/></g>
+<circle cx="350" cy="44" r="20" fill="#F6C453" stroke="#C9961A" stroke-width="2"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M0 160V110L50 70L90 34L130 80L165 56L230 160Z" fill="#A3A8CC"/>
+<path d="M68 54L90 34L112 60L100 56L90 64L80 56Z" fill="#fff"/>
+<path d="M150 66L165 56L180 74L170 72L162 78Z" fill="#fff"/>
+<path d="M0 160H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#A9D98E" stroke="none"/>
+<path d="M250 160H400V244Q400 260 384 260H250Z" fill="#F6C453" stroke="none"/>
+<path d="M150 160Q130 190 170 210Q214 230 196 260H232Q248 226 204 204Q170 186 186 160Z" fill="#7CC8F0"/>
+</g>
+<path class="flow" d="M168 162Q156 188 188 206Q226 226 214 258" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<g stroke="#C9961A" stroke-width="3" stroke-linecap="round"><path class="sway" d="M270 250V204M290 250V200M310 250V206M330 250V198M350 250V204M370 250V200"/></g>
+<g fill="#E0A21B"><ellipse cx="270" cy="202" rx="4" ry="8"/><ellipse cx="290" cy="198" rx="4" ry="8"/><ellipse cx="310" cy="204" rx="4" ry="8"/><ellipse cx="330" cy="196" rx="4" ry="8"/><ellipse cx="350" cy="202" rx="4" ry="8"/><ellipse cx="370" cy="198" rx="4" ry="8"/></g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(0,12)">
+<path d="M258 150L270 128H310L322 150Z" fill="#C8925A"/>
+<rect x="258" y="104" width="64" height="9" rx="4" fill="#E8C79A"/>
+<rect x="262" y="113" width="60" height="9" rx="4" fill="#E0B97F"/>
+<rect x="258" y="96" width="64" height="9" rx="4" fill="#F0D7A8"/>
+<path d="M290 92V126" fill="none" stroke="#B8323A" stroke-width="3"/>
+</g>
+<path d="M20 222L120 202" fill="none" stroke="#8B5A2B" stroke-width="7"/>
+<circle cx="112" cy="206" r="16" fill="#C8925A"/>
+<circle cx="30" cy="214" r="11" fill="#E8C79A"/>
+<path d="M22 212L118 192M24 216L120 196" fill="none" stroke="#fff" stroke-width="1"/>
+</g>
+<g fill="#7A3FB0" font-family="system-ui, sans-serif" font-size="18" font-weight="700"><text class="note" x="70" y="190">♪</text><text class="note n2" x="96" y="182">♫</text></g>
+</svg>

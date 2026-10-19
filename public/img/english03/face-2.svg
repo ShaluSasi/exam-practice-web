@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
+<title>A cartoon face</title>
+<style>
+.k{stroke:#2B2F4A;stroke-width:2px;stroke-linejoin:round;stroke-linecap:round}.k1{stroke:#2B2F4A;stroke-width:1.5px;stroke-linejoin:round;stroke-linecap:round}
+.tear{animation:tear 2.6s ease-in infinite}@keyframes tear{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="80" cy="84" r="58" fill="#E8B48A" class="k"/><path d="M22 74Q26 22 80 24Q134 22 138 74Q124 44 80 44Q36 44 22 74Z" fill="#8A4B2A" class="k1"/><path d="M52 74L70 70M108 74L90 70" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round"/><path d="M54 90Q62 86 70 90M90 90Q98 86 106 90" stroke="#2B2F4A" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M64 120Q80 110 96 120" stroke="#2B2F4A" stroke-width="3.5" fill="none" stroke-linecap="round"/><g class="tear"><path d="M100 96Q96 104 100 108Q104 104 100 96Z" fill="#7DC4EA" stroke="#2F6F8F" stroke-width="1.2"/></g>
+</svg>

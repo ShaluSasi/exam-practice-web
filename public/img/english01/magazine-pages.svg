@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>An open weekly magazine with a story picture and lines of print, and a hand moving over the page</title>
+<style>
+.hand{animation:rub 2.8s ease-in-out infinite}
+@keyframes rub{0%,100%{transform:translate(0,0)}50%{transform:translate(-70px,10px)}}
+.q{animation:q 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes q{0%,100%{opacity:.2;transform:scale(.9)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40 50Q120 36 200 52Q280 36 360 50V206Q280 192 200 208Q120 192 40 206Z" fill="#fff"/>
+<path d="M200 52V208" fill="none"/>
+<rect x="60" y="66" width="120" height="70" rx="6" fill="#CDEBFA"/>
+<path d="M60 136L96 100L122 124L140 110L180 136Z" fill="#3FA34D"/>
+<circle cx="156" cy="84" r="9" fill="#F6C453"/>
+</g>
+<g stroke="#A3A8CC" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 6 22 6 10 6">
+<path d="M64 154H178M64 170H178M64 186H150"/>
+<path d="M222 70H340M222 86H340M222 102H340M222 118H340M222 134H340M222 150H340M222 166H340M222 182H310"/>
+</g>
+<g class="hand" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<path d="M300 150Q296 132 306 130Q312 129 314 140L316 120Q318 112 325 114Q331 116 330 124L332 118Q335 111 341 114Q346 117 344 126L346 124Q350 119 355 123Q358 127 355 136L350 166Q346 182 330 184L318 184Q306 182 300 150Z" fill="#D9A77A"/>
+</g>
+<text class="q" x="368" y="44" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#E5484D">?</text>
+</svg>

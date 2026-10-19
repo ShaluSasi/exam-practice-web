@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A student at a podium holding a sign that flips between a thumbs-up side and a thumbs-down side, with a timer</title>
+<style>
+.flip{animation:flip 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes flip{0%,40%{transform:scaleX(1)}50%,90%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
+.up{animation:up 4s steps(1) infinite}
+@keyframes up{0%{opacity:1}50%{opacity:0}}
+.dn{animation:dn 4s steps(1) infinite}
+@keyframes dn{0%{opacity:0}50%{opacity:1}}
+.hand{animation:tk 4s linear infinite;transform-origin:330px 70px}
+@keyframes tk{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V200H0V16Q0 0 16 0Z" fill="#EDE7F6"/>
+<path d="M0 200H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#C8925A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="330" cy="70" r="34" fill="#fff"/>
+<path class="hand" d="M330 70V44" stroke="#E5484D" stroke-width="3"/>
+<circle cx="330" cy="70" r="4" fill="#2B2F4A"/>
+<path d="M150 150Q146 104 176 96Q206 104 202 150Z" fill="#0B93D4"/>
+<circle cx="176" cy="76" r="18" fill="#E9B98C"/>
+<path d="M158 72Q161 56 177 57Q192 58 194 72Q186 64 176 65Q167 64 158 72Z" fill="#3B2A20"/>
+<path d="M170 82Q176 88 182 82" fill="none" stroke-width="2"/>
+<path d="M120 150H232L222 226H130Z" fill="#7A3FB0"/>
+<path d="M140 176H212" fill="none" stroke="#F6C453" stroke-width="4"/>
+<path d="M196 116L232 92" fill="none" stroke="#E9B98C" stroke-width="6"/>
+<g class="flip"><circle cx="250" cy="76" r="30" fill="#fff"/>
+<g class="up"><circle cx="250" cy="76" r="27" fill="#3FA34D" stroke="none"/><path d="M240 90V72L248 58Q254 58 252 70H262Q266 72 264 78L260 90Z" fill="#fff"/></g>
+<g class="dn"><circle cx="250" cy="76" r="27" fill="#E5484D" stroke="none"/><path d="M240 62V80L248 94Q254 94 252 82H262Q266 80 264 74L260 62Z" fill="#fff"/></g>
+</g>
+</g>
+</svg>

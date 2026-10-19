@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" role="img">
+<title>A writing slate with a stick of chalk</title>
+<style>
+.ln{stroke-dasharray:80;animation:dr 3s linear infinite}
+@keyframes dr{from{stroke-dashoffset:80}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="36" y="30" width="128" height="94" rx="6" fill="#3B4252" stroke="#8B5A2B" stroke-width="7"/>
+<path class="ln" d="M54 62Q62 50 70 62T86 62T102 62T120 62" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<path d="M54 92Q64 82 74 94T96 92" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<rect x="120" y="134" width="44" height="9" rx="4" fill="#fff" stroke="#2B2F4A" stroke-width="2"/>
+</svg>

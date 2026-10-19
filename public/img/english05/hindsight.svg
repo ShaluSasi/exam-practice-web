@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img">
+<title>A figure on a hilltop turning to look back down a winding path</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}.dash{stroke-dasharray:6 8;animation:dsh 2s linear infinite}@keyframes dsh{to{stroke-dashoffset:28}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H344Q360 0 360 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/><circle cx="60" cy="44" r="20" fill="#F6C453" stroke="#E0A02A" stroke-width="2"/>
+<path d="M0 150Q120 120 220 132Q300 100 360 92V204Q360 220 344 220H16Q0 220 0 204Z" fill="#BFE3B4"/>
+<path d="M220 132Q290 70 360 70V110Q300 108 220 132Z" fill="#9CD08E"/>
+<path d="M12 208Q90 200 70 178Q50 158 140 160Q220 162 180 146Q160 136 262 98" stroke="#D9C49A" stroke-width="12" fill="none" stroke-linecap="round"/>
+<path class="dash" d="M12 208Q90 200 70 178Q50 158 140 160Q220 162 180 146Q160 136 262 98" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+<path d="M52 196V178" stroke="#2B2F4A" stroke-width="2"/><path d="M52 178h12l-4 5 4 5h-12z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.2"/><path d="M104 162V144" stroke="#2B2F4A" stroke-width="2"/><path d="M104 144h12l-4 5 4 5h-12z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="1.2"/><path d="M196 150V132" stroke="#2B2F4A" stroke-width="2"/><path d="M196 132h12l-4 5 4 5h-12z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="1.2"/>
+<g transform="translate(286 44) scale(1)"><path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><circle class="o" cx="0" cy="-8" r="8" fill="#B97A57"/><path d="M-8 -9Q-7 -18 0 -17Q7 -18 8 -9Q4 -14 0 -13Q-4 -14 -8 -9Z" fill="#2B2F4A"/></g>
+<path d="M276 30Q268 26 262 32" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M250 40l-26 6M250 34l-28 -4" stroke="#FF8A1F" stroke-width="2" stroke-dasharray="3 4" stroke-linecap="round"/>
+<path class="tw" style="animation-delay:0.4s" d="M150 35L151.5 38.5L155 40L151.5 41.5L150 45L148.5 41.5L145 40L148.5 38.5Z" fill="#F6C453"/><path class="tw" style="animation-delay:1s" d="M220 22L221.2 24.8L224 26L221.2 27.2L220 30L218.8 27.2L216 26L218.8 24.8Z" fill="#FF8A1F"/>
+</svg>

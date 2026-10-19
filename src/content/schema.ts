@@ -8,7 +8,7 @@ import { z } from "zod";
  * Real data must pass this schema — it is validated when loaded.
  */
 
-export const SubjectId = z.enum(["maths", "physics", "chemistry", "biology", "social"]);
+export const SubjectId = z.enum(["maths", "physics", "chemistry", "biology", "social", "english"]);
 export type SubjectId = z.infer<typeof SubjectId>;
 
 /** A point on an image, in percent of its width/height. */

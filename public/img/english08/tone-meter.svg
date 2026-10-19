@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" role="img">
+<title>A mood gauge with a swinging needle</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.nd{animation:nd 4s ease-in-out infinite;transform-box:view-box;transform-origin:180px 160px}@keyframes nd{0%,100%{transform:rotate(-60deg)}50%{transform:rotate(60deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H344Q360 0 360 16V200H0V16Q0 0 16 0Z" fill="#EEF3FF"/><path d="M70.0 160.0A110 110 0 0 1 102.2 82.2" stroke="#A3A8CC" stroke-width="26" fill="none"/><path d="M102.2 82.2A110 110 0 0 1 180.0 50.0" stroke="#CDEBFA" stroke-width="26" fill="none"/><path d="M180.0 50.0A110 110 0 0 1 257.8 82.2" stroke="#F6C453" stroke-width="26" fill="none"/><path d="M257.8 82.2A110 110 0 0 1 290.0 160.0" stroke="#FF8A1F" stroke-width="26" fill="none"/>
+<path d="M70 160A110 110 0 0 1 290 160" stroke="#2B2F4A" stroke-width="2" fill="none"/>
+<g class="nd"><path d="M176 160L180 70L184 160Z" fill="#2B2F4A"/></g><circle cx="180" cy="160" r="10" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/>
+<circle cx="44" cy="176" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><path d="M38 172h.01M50 172h.01" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><path d="M39 181h10" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<circle cx="316" cy="176" r="12" fill="#FFF9EE" stroke="#2B2F4A" stroke-width="2"/><path d="M310 172h.01M322 172h.01" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><path d="M310 179Q316 185 322 179" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

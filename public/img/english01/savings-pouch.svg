@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A cloth pouch of savings with coins flowing away from a long road towards a pair of wedding garlands</title>
+<style>
+.coin{animation:cn 3s ease-in-out infinite}
+.c2{animation-delay:1s}.c3{animation-delay:2s}
+@keyframes cn{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(150px,-10px);opacity:0}}
+.gl{animation:gl 3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 0}
+@keyframes gl{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/>
+<path d="M0 150H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#D9C49A"/>
+<path d="M60 150L110 40H130L120 150Z" fill="#E8DCC2" opacity=".8"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40 70V150" fill="none" stroke="#8B5A2B" stroke-width="4"/>
+<path d="M28 70H90L100 82L90 94H28Z" fill="#C9CCD6" opacity=".7"/>
+<path d="M120 200Q100 200 104 172Q108 150 124 144L118 132Q140 126 162 132L156 144Q172 150 176 172Q180 200 160 200Z" fill="#C8925A"/>
+<path d="M120 138Q140 146 160 138" fill="none" stroke="#E5484D" stroke-width="3"/>
+<g fill="#F6C453"><circle class="coin" cx="176" cy="160" r="8"/><circle class="coin c2" cx="176" cy="160" r="8"/><circle class="coin c3" cx="176" cy="160" r="8"/></g>
+<g class="gl"><path d="M300 60Q280 120 300 170Q320 120 300 60" fill="none" stroke="#3FA34D" stroke-width="2"/>
+<g fill="#FF8A1F"><circle cx="291" cy="90" r="6"/><circle cx="287" cy="114" r="6"/><circle cx="291" cy="140" r="6"/><circle cx="309" cy="90" r="6"/><circle cx="313" cy="114" r="6"/><circle cx="309" cy="140" r="6"/></g>
+<circle cx="300" cy="170" r="7" fill="#E5484D"/></g>
+<g class="gl"><path d="M350 60Q330 120 350 170Q370 120 350 60" fill="none" stroke="#3FA34D" stroke-width="2"/>
+<g fill="#F6C453"><circle cx="341" cy="90" r="6"/><circle cx="337" cy="114" r="6"/><circle cx="341" cy="140" r="6"/><circle cx="359" cy="90" r="6"/><circle cx="363" cy="114" r="6"/><circle cx="359" cy="140" r="6"/></g>
+<circle cx="350" cy="170" r="7" fill="#E5484D"/></g>
+</g>
+</svg>

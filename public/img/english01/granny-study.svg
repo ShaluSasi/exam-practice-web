@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A grandmother wearing spectacles writing on a slate by lamplight while a girl watches</title>
+<style>
+.flame{animation:fl 1.5s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.3) rotate(-4deg)}}
+.chalk{animation:wr 2.4s ease-in-out infinite}
+@keyframes wr{0%,100%{transform:translate(0,0)}25%{transform:translate(8px,-3px)}50%{transform:translate(16px,2px)}75%{transform:translate(6px,4px)}}
+.line{stroke-dasharray:70;animation:dr 2.4s linear infinite}
+@keyframes dr{from{stroke-dashoffset:70}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V175H0V16Q0 0 16 0Z" fill="#F2DDBE"/>
+<path d="M0 175H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<circle cx="70" cy="150" r="46" fill="#FFF3C4" opacity=".6"/>
+<path d="M56 176H84L78 166H62Z" fill="#C8925A" stroke="#8B5A2B" stroke-width="2"/>
+<path class="flame" d="M70 166Q62 154 70 140Q78 154 70 166Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="1.5"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M190 220Q184 140 230 128Q276 140 270 220Z" fill="#3FA34D"/>
+<path d="M198 160Q230 182 262 160" fill="none" stroke="#F6C453" stroke-width="4"/>
+<circle cx="230" cy="102" r="23" fill="#D9A77A"/>
+<path d="M207 100Q209 77 230 77Q251 77 253 100Q244 87 230 89Q216 87 207 100Z" fill="#C9CCD6"/>
+<circle cx="253" cy="84" r="9" fill="#C9CCD6"/>
+<circle cx="222" cy="104" r="6" fill="#fff" fill-opacity=".4" stroke-width="2"/><circle cx="238" cy="104" r="6" fill="#fff" fill-opacity=".4" stroke-width="2"/>
+<path d="M228 104H232M222 116Q230 120 238 116" fill="none" stroke-width="2"/>
+<rect x="150" y="178" width="96" height="62" rx="5" fill="#3B4252" stroke="#8B5A2B" stroke-width="5"/>
+<path class="line" d="M164 200Q172 190 178 200T192 200T206 200T222 200" fill="none" stroke="#fff" stroke-width="2.5"/>
+<path d="M164 220Q174 212 182 222T200 220" fill="none" stroke="#fff" stroke-width="2.5"/>
+<g class="chalk"><path d="M214 196L222 168" fill="none" stroke="#D9A77A" stroke-width="7"/><rect x="211" y="194" width="6" height="10" rx="2" fill="#fff" stroke-width="1.5"/></g>
+<path d="M320 226Q316 176 344 168Q372 176 368 226Z" fill="#0B93D4"/>
+<circle cx="344" cy="144" r="18" fill="#E9B98C"/>
+<path d="M326 142Q328 124 345 125Q361 126 362 142Q354 132 344 133Q334 132 326 142Z" fill="#3B2A20"/>
+<path d="M336 144Q339 146 342 144M347 144Q350 146 353 144M338 154Q344 158 350 154" fill="none" stroke-width="2"/>
+</g>
+</svg>

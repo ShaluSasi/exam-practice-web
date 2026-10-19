@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A wall calendar with one festival day circled, next to a slate, a chalk stick and spectacles</title>
+<style>
+.ring{animation:rg 2.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes rg{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.page{animation:pg 5s ease-in-out infinite;transform-origin:150px 40px}
+@keyframes pg{0%,70%,100%{transform:rotateX(0)}85%{transform:rotateX(70deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="34" width="220" height="180" rx="10" fill="#fff"/>
+<rect x="40" y="34" width="220" height="38" rx="10" fill="#E5484D"/>
+<circle cx="90" cy="34" r="5" fill="#A3A8CC"/><circle cx="210" cy="34" r="5" fill="#A3A8CC"/>
+</g>
+<g fill="#CDEBFA">
+<rect x="56" y="84" width="22" height="18" rx="3"/><rect x="84" y="84" width="22" height="18" rx="3"/><rect x="112" y="84" width="22" height="18" rx="3"/><rect x="140" y="84" width="22" height="18" rx="3"/><rect x="168" y="84" width="22" height="18" rx="3"/><rect x="196" y="84" width="22" height="18" rx="3"/><rect x="224" y="84" width="22" height="18" rx="3"/>
+<rect x="56" y="110" width="22" height="18" rx="3"/><rect x="84" y="110" width="22" height="18" rx="3"/><rect x="112" y="110" width="22" height="18" rx="3"/><rect x="140" y="110" width="22" height="18" rx="3"/><rect x="168" y="110" width="22" height="18" rx="3"/><rect x="196" y="110" width="22" height="18" rx="3"/><rect x="224" y="110" width="22" height="18" rx="3"/>
+<rect x="56" y="136" width="22" height="18" rx="3"/><rect x="84" y="136" width="22" height="18" rx="3"/><rect x="112" y="136" width="22" height="18" rx="3"/><rect x="140" y="136" width="22" height="18" rx="3"/><rect x="168" y="136" width="22" height="18" rx="3"/><rect x="196" y="136" width="22" height="18" rx="3"/><rect x="224" y="136" width="22" height="18" rx="3"/>
+<rect x="56" y="162" width="22" height="18" rx="3"/><rect x="84" y="162" width="22" height="18" rx="3"/><rect x="112" y="162" width="22" height="18" rx="3"/><rect x="140" y="162" width="22" height="18" rx="3"/><rect x="168" y="162" width="22" height="18" rx="3"/>
+</g>
+<rect x="168" y="136" width="22" height="18" rx="3" fill="#F6C453"/>
+<path d="M172 152H186L183 147H175Z" fill="#C8925A"/><path d="M179 147Q176 143 179 139Q182 143 179 147Z" fill="#FF8A1F"/>
+<ellipse class="ring" cx="179" cy="145" rx="17" ry="14" fill="none" stroke="#E5484D" stroke-width="3"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<rect x="282" y="96" width="92" height="70" rx="5" fill="#3B4252" stroke="#8B5A2B" stroke-width="5"/>
+<path d="M296 116Q304 106 310 116T324 116T340 116" fill="none" stroke="#fff"/>
+<path d="M296 140Q306 132 314 142T334 140" fill="none" stroke="#fff"/>
+<rect x="300" y="184" width="40" height="7" rx="3" fill="#fff"/>
+<circle cx="306" cy="208" r="10" fill="#CDEBFA" fill-opacity=".5"/><circle cx="334" cy="208" r="10" fill="#CDEBFA" fill-opacity=".5"/>
+<path d="M316 206Q320 202 324 206M296 206L286 200M344 206L354 200" fill="none"/>
+</g>
+</svg>

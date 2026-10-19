@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Golden fields of ripe grain glowing under a bright sun</title>
+<style>
+.rays{animation:rot 14s linear infinite;transform-origin:200px 80px}
+@keyframes rot{to{transform:rotate(360deg)}}
+.sway{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+.s2{animation-delay:.6s}
+@keyframes sw{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.bird{animation:bd 8s linear infinite}
+@keyframes bd{from{transform:translateX(-60px)}to{transform:translateX(460px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#FFE9B8"/>
+<g class="rays" stroke="#F6C453" stroke-width="5" stroke-linecap="round"><path d="M200 20V36M200 124V140M140 80H156M244 80H260M158 38L169 49M231 111L242 122M242 38L231 49M169 111L158 122"/></g>
+<circle cx="200" cy="80" r="32" fill="#F6C453" stroke="#E0A21B" stroke-width="3"/>
+<g class="bird" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"><path d="M10 50Q16 44 22 50Q28 44 34 50"/><path d="M40 62Q45 57 50 62Q55 57 60 62"/></g>
+<path d="M0 150Q100 130 200 150T400 146V244Q400 240 384 240H16Q0 240 0 224Z" fill="#E0A21B"/>
+<path d="M0 180Q100 162 200 180T400 176V224Q400 240 384 240H16Q0 240 0 224Z" fill="#F6C453"/>
+<g stroke="#C9961A" stroke-width="3" stroke-linecap="round">
+<g class="sway"><path d="M30 230V190"/><path d="M70 230V184"/><path d="M110 230V192"/><path d="M150 230V186"/><path d="M190 230V190"/></g>
+<g class="sway s2"><path d="M230 230V186"/><path d="M270 230V192"/><path d="M310 230V184"/><path d="M350 230V190"/><path d="M380 230V186"/></g>
+</g>
+<g fill="#E0A21B" stroke="#B5810F" stroke-width="1"><ellipse cx="30" cy="188" rx="5" ry="10"/><ellipse cx="70" cy="182" rx="5" ry="10"/><ellipse cx="110" cy="190" rx="5" ry="10"/><ellipse cx="150" cy="184" rx="5" ry="10"/><ellipse cx="190" cy="188" rx="5" ry="10"/><ellipse cx="230" cy="184" rx="5" ry="10"/><ellipse cx="270" cy="190" rx="5" ry="10"/><ellipse cx="310" cy="182" rx="5" ry="10"/><ellipse cx="350" cy="188" rx="5" ry="10"/><ellipse cx="380" cy="184" rx="5" ry="10"/></g>
+</svg>

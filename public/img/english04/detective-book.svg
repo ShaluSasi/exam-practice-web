@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img">
+<title>A thick hardcover book of detective stories with a magnifying glass and footprints</title>
+<style>
+.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+.mag{animation:mg 5s ease-in-out infinite}@keyframes mg{0%,100%{transform:translate(300px,150px)}50%{transform:translate(350px,120px)}}
+.fp{animation:fp 2.4s ease-in-out infinite}@keyframes fp{0%,100%{opacity:.15}50%{opacity:.6}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse class="fp" style="animation-delay:0s" cx="40" cy="250" rx="6" ry="9" fill="#C8925A" opacity=".5"/><ellipse class="fp" style="animation-delay:0.4s" cx="64" cy="236" rx="6" ry="9" fill="#C8925A" opacity=".5"/><ellipse class="fp" style="animation-delay:0.8s" cx="88" cy="252" rx="6" ry="9" fill="#C8925A" opacity=".5"/><ellipse class="fp" style="animation-delay:1.2000000000000002s" cx="112" cy="238" rx="6" ry="9" fill="#C8925A" opacity=".5"/><ellipse class="fp" style="animation-delay:1.6s" cx="340" cy="250" rx="6" ry="9" fill="#C8925A" opacity=".5"/><ellipse class="fp" style="animation-delay:2s" cx="364" cy="236" rx="6" ry="9" fill="#C8925A" opacity=".5"/>
+<path d="M120 40H290L300 50V246H130L120 236Z" fill="#B8BCCC" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="112" y="34" width="176" height="206" rx="6" fill="#1F3C7A" stroke="#2B2F4A" stroke-width="2.5"/><rect x="112" y="34" width="18" height="206" fill="#16305F"/>
+<rect x="140" y="56" width="134" height="2" fill="#F6C453"/><rect x="140" y="214" width="134" height="2" fill="#F6C453"/>
+<g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="207" y="92" font-size="18" text-anchor="middle" fill="#F6C453">The Best</text><text x="207" y="116" font-size="18" text-anchor="middle" fill="#F6C453">Detective</text><text x="207" y="140" font-size="18" text-anchor="middle" fill="#F6C453">Stories</text></g>
+<g fill="#F6C453"><circle cx="190" cy="180" r="3"/><circle cx="207" cy="180" r="3"/><circle cx="224" cy="180" r="3"/></g>
+<g class="mag"><circle cx="0" cy="0" r="26" fill="#CDEBFA" fill-opacity=".55" stroke="#2B2F4A" stroke-width="4"/><path d="M18 18L42 42" stroke="#8A5A33" stroke-width="9" stroke-linecap="round"/><path d="M-12 -10Q-6 -18 4 -18" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/></g>
+<g class="tw"><path d="M340 70l5 11 11 5-11 5-5 11-5-11-11-5 11-5Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="1.4"/></g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180" role="img">
+<title>Two puzzle pieces sliding together to fit</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.pl{animation:pl 2.6s ease-in-out infinite}@keyframes pl{0%,100%{transform:translateX(-22px)}45%,70%{transform:translateX(0)}}.pr{animation:pr 2.6s ease-in-out infinite}@keyframes pr{0%,100%{transform:translateX(22px)}45%,70%{transform:translateX(0)}}.tw{animation:tw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes tw{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="pl"><path d="M50 50H170V78Q186 72 186 90Q186 108 170 102V130H50Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><path d="M70 82H130M70 98H118" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/></g>
+<g class="pr"><path d="M170 50H290V130H170V102Q186 108 186 90Q186 72 170 78Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><path d="M206 82H266M206 98H252" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/></g>
+<path class="tw" style="animation-delay:0s" d="M170 22L172.4 27.6L178 30L172.4 32.4L170 38L167.6 32.4L162 30L167.6 27.6Z" fill="#F6C453"/><path class="tw" style="animation-delay:0.6s" d="M170 146L171.8 150.2L176 152L171.8 153.8L170 158L168.2 153.8L164 152L168.2 150.2Z" fill="#3FA34D"/>
+</svg>

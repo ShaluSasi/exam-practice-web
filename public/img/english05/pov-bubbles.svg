@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img">
+<title>Two friends talking, one with a question bubble and one with an opinion bubble</title>
+<style>
+.L{fill:none;stroke-linecap:round;stroke-linejoin:round}.K{stroke:#2B2F4A}.o{stroke:#2B2F4A;stroke-width:2}
+.bob{animation:bob 2.6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g transform="translate(80 150) scale(1.4)"><path d="M-15 30Q-15 10 0 10Q15 10 15 30Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle class="o" cx="0" cy="0" r="8" fill="#C68A5E"/><path d="M-8 -1Q-7 -10 0 -9Q7 -10 8 -1Q4 -6 0 -5Q-4 -6 -8 -1Z" fill="#2B2F4A"/><path d="M-3 1h.01M3 1h.01" class="L K" stroke-width="2.6"/><path d="M-3 5Q0 8 3 5" class="L K" stroke-width="1.4"/></g><g transform="translate(260 150) scale(1.4)"><circle cx="0" cy="-12" r="5" fill="#2B2F4A"/><path d="M-15 30Q-15 10 0 10Q15 10 15 30Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><circle class="o" cx="0" cy="0" r="8" fill="#8D5B3E"/><path d="M-8 -1Q-7 -10 0 -9Q7 -10 8 -1Q4 -6 0 -5Q-4 -6 -8 -1Z" fill="#2B2F4A"/><path d="M-3 1h.01M3 1h.01" class="L K" stroke-width="2.6"/><path d="M-3 5Q0 8 3 5" class="L K" stroke-width="1.4"/></g>
+<g class="bob"><path d="M40 28H130Q142 28 142 40V82Q142 94 130 94H104L92 110L88 94H40Q28 94 28 82V40Q28 28 40 28Z" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2.5"/><g font-family="system-ui, sans-serif" font-weight="600" fill="#2B2F4A" ><text x="85" y="76" font-size="36" text-anchor="middle" fill="#0B6FA4">?</text></g></g>
+<g class="bob" style="animation-delay:.8s"><path d="M210 28H300Q312 28 312 40V82Q312 94 300 94H252L248 110L236 94H210Q198 94 198 82V40Q198 28 210 28Z" fill="#FFE0E0" stroke="#2B2F4A" stroke-width="2.5"/><path d="M240 48c-6 -6 -14 0 -8 7l8 7 8 -7c6 -7 -2 -13 -8 -7z" fill="#E5484D"/><path d="M226 74H284M232 84H276" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

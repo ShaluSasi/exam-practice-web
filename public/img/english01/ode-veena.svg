@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A long-necked stringed instrument with music notes and sparkles rising from it</title>
+<style>
+.note{animation:nt 3.2s ease-in-out infinite}
+.n2{animation-delay:1s}.n3{animation-delay:2s}
+@keyframes nt{0%{opacity:0;transform:translate(0,0)}30%{opacity:1}100%{opacity:0;transform:translate(16px,-60px)}}
+.str{animation:vb .25s linear infinite}
+@keyframes vb{0%,100%{transform:translateY(0)}50%{transform:translateY(1px)}}
+.sp{animation:sp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes sp{0%,100%{opacity:.2;transform:scale(.6)}50%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 180L330 120" fill="none" stroke="#8B5A2B" stroke-width="14"/>
+<circle cx="300" cy="140" r="40" fill="#C8925A"/>
+<circle cx="300" cy="140" r="26" fill="#A8743F"/>
+<circle cx="80" cy="190" r="26" fill="#E8C79A"/>
+<path d="M330 120Q350 100 344 86" fill="none" stroke="#8B5A2B" stroke-width="8"/>
+<g stroke="#F6C453" stroke-width="2.5"><circle cx="140" cy="167" r="2"/><circle cx="180" cy="158" r="2"/><circle cx="220" cy="149" r="2"/><circle cx="260" cy="140" r="2"/></g>
+</g>
+<g class="str" stroke="#fff" stroke-width="1.2"><path d="M70 176L334 117M72 181L336 122"/></g>
+<g fill="#7A3FB0" font-family="system-ui, sans-serif" font-weight="700" font-size="24"><text class="note" x="180" y="120">♪</text><text class="note n2" x="226" y="104">♫</text><text class="note n3" x="140" y="132">♪</text></g>
+<g fill="#F6C453" stroke="#C9961A" stroke-width="1"><path class="sp" d="M60 60L64 70L74 74L64 78L60 88L56 78L46 74L56 70Z"/><path class="sp" d="M360 40L363 47L370 50L363 53L360 60L357 53L350 50L357 47Z"/></g>
+</svg>

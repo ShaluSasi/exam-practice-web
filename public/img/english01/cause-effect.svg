@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A row of dominoes knocking each other over, from a cause card to an effect card</title>
+<style>
+.d{transform-box:fill-box;transform-origin:100% 100%;animation:fall 4s ease-in infinite}
+.d2{animation-delay:.3s}.d3{animation-delay:.6s}.d4{animation-delay:.9s}
+@keyframes fall{0%,10%{transform:rotate(0)}30%,80%{transform:rotate(28deg)}100%{transform:rotate(0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="18" y="40" width="96" height="44" rx="10" fill="#CDEBFA"/>
+<rect x="286" y="40" width="96" height="44" rx="10" fill="#FFD9A8"/>
+<path d="M30 160H370" stroke="#C8925A" stroke-width="6"/>
+<rect class="d" x="110" y="96" width="20" height="62" rx="4" fill="#F6C453"/>
+<rect class="d d2" x="155" y="96" width="20" height="62" rx="4" fill="#3FA34D"/>
+<rect class="d d3" x="200" y="96" width="20" height="62" rx="4" fill="#0B93D4"/>
+<rect class="d d4" x="245" y="96" width="20" height="62" rx="4" fill="#E5484D"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#2B2F4A" text-anchor="middle"><text x="66" y="68">Cause</text><text x="334" y="68">Effect</text></g>
+<path d="M120 62H280M268 52L282 62L268 72" fill="none" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 6"/>
+</svg>

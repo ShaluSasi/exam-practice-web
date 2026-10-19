@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Students acting a scene on a school stage between red curtains, with a teacher guiding from the side</title>
+<style>
+.cl{animation:cl 5s ease-in-out infinite}
+.cr{animation:cr 5s ease-in-out infinite}
+@keyframes cl{0%,100%{transform:translateX(0)}40%,60%{transform:translateX(-24px)}}
+@keyframes cr{0%,100%{transform:translateX(0)}40%,60%{transform:translateX(24px)}}
+.spot{animation:sp 3s ease-in-out infinite}
+@keyframes sp{0%,100%{opacity:.25}50%{opacity:.5}}
+.arm{animation:arm 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:0 100%}
+@keyframes arm{0%,100%{transform:rotate(0)}50%{transform:rotate(-20deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="20" width="360" height="170" rx="8" fill="#3A2F5B"/>
+<path class="spot" d="M200 20L130 190H270Z" fill="#FFF3C4"/>
+<rect x="10" y="186" width="380" height="24" rx="4" fill="#C8925A" stroke="#8B5A2B" stroke-width="3"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M150 186Q146 140 170 132Q194 140 190 186Z" fill="#F6C453"/>
+<circle cx="170" cy="114" r="16" fill="#E9B98C"/>
+<path d="M155 108Q160 92 172 94Q184 96 186 110Q176 102 170 103Q162 102 155 108Z" fill="#3B2A20"/>
+<path d="M164 118Q170 123 176 118" fill="none" stroke-width="2"/>
+<path class="arm" d="M188 150L208 126" fill="none" stroke="#E9B98C" stroke-width="6"/>
+<path d="M216 186Q212 140 236 132Q260 140 256 186Z" fill="#3FA34D"/>
+<circle cx="236" cy="114" r="16" fill="#D9A77A"/>
+<path d="M221 110Q224 96 237 96Q250 97 251 110Q244 104 236 104Q228 104 221 110Z" fill="#2B2F4A"/>
+<path d="M230 120Q236 116 242 120" fill="none" stroke-width="2"/>
+</g>
+<g class="cl"><path d="M20 20H120Q100 100 112 190H20Z" fill="#E5484D" stroke="#B8323A" stroke-width="3"/></g>
+<g class="cr"><path d="M380 20H280Q300 100 288 190H380Z" fill="#E5484D" stroke="#B8323A" stroke-width="3"/></g>
+<path d="M20 20H380V40Q200 52 20 40Z" fill="#B8323A"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M340 256Q336 222 356 216Q376 222 372 256Z" fill="#0B93D4"/>
+<circle cx="356" cy="202" r="13" fill="#D9A77A"/>
+<path d="M343 198Q346 186 357 187Q367 188 369 198Q362 193 356 194Q349 193 343 198Z" fill="#2B2F4A"/>
+<path d="M340 232L322 218" fill="none" stroke="#D9A77A" stroke-width="5"/>
+</g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A girl reading a weekly magazine aloud to her grandmother in a village home</title>
+<style>
+.flame{animation:fl 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.25) rotate(4deg)}}
+.voice{animation:vo 2.4s ease-in-out infinite}
+@keyframes vo{0%{opacity:0;transform:translateX(0)}40%{opacity:1}100%{opacity:0;transform:translateX(16px)}}
+.steam{animation:st 3s ease-in-out infinite}
+@keyframes st{0%{opacity:0;transform:translateY(6px)}50%{opacity:.8}100%{opacity:0;transform:translateY(-10px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V170H0V16Q0 0 16 0Z" fill="#F7E6CC"/>
+<rect x="150" y="22" width="80" height="58" rx="6" fill="#E3F2FD" stroke="#8B5A2B" stroke-width="3"/>
+<path d="M190 22V80M150 51H230" stroke="#8B5A2B" stroke-width="3"/>
+<path d="M0 170H400V244Q400 260 384 260H16Q0 260 0 244Z" fill="#D9C49A"/>
+<rect x="95" y="186" width="230" height="40" rx="8" fill="#E5484D" opacity=".75"/>
+<path d="M105 196H315M105 216H315" stroke="#F6C453" stroke-width="3" stroke-dasharray="8 6"/>
+<rect x="30" y="120" width="56" height="10" rx="3" fill="#C8925A" stroke="#8B5A2B" stroke-width="2"/>
+<rect x="38" y="186" width="34" height="8" rx="3" fill="#C8925A" stroke="#8B5A2B" stroke-width="2"/>
+<path d="M42 186Q55 200 68 186Z" fill="#C8925A" stroke="#8B5A2B" stroke-width="2" stroke-linejoin="round"/>
+<path class="flame" d="M55 186Q47 176 55 164Q63 176 55 186Z" fill="#FF8A1F" stroke="#E5484D" stroke-width="1.5"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M132 200Q128 150 155 140Q182 150 178 200Z" fill="#0B93D4"/>
+<circle cx="155" cy="114" r="18" fill="#E9B98C"/>
+<path d="M137 112Q140 92 156 94Q172 92 174 112Q166 100 155 102Q144 100 137 112Z" fill="#3B2A20"/>
+<path d="M139 116Q132 132 136 146" fill="none" stroke="#3B2A20" stroke-width="5"/>
+<path d="M178 156L206 150L230 156L230 132L206 126L178 132Z" fill="#fff"/>
+<path d="M206 126V150" fill="none"/>
+<rect x="183" y="134" width="18" height="12" fill="#F6C453" stroke-width="1.5"/>
+<path d="M212 136H225M212 142H225" stroke-width="1.5"/>
+<path d="M170 160L184 150M190 160L182 150" fill="none" stroke="#E9B98C" stroke-width="5"/>
+</g>
+<g class="voice" fill="none" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round">
+<path d="M177 108Q182 114 177 120"/><path d="M184 104Q191 114 184 124"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M240 204Q236 142 270 132Q304 142 300 204Z" fill="#3FA34D"/>
+<path d="M248 150Q270 168 294 150" fill="none" stroke="#F6C453" stroke-width="4"/>
+<circle cx="270" cy="110" r="20" fill="#D9A77A"/>
+<path d="M250 108Q252 88 270 88Q288 88 290 108Q282 96 270 98Q258 96 250 108Z" fill="#C9CCD6"/>
+<circle cx="292" cy="96" r="8" fill="#C9CCD6"/>
+<circle cx="263" cy="110" r="5" fill="none" stroke-width="2"/><circle cx="277" cy="110" r="5" fill="none" stroke-width="2"/>
+<path d="M268 110H272M264 120Q270 124 276 120" fill="none" stroke-width="2"/>
+<path d="M250 170Q244 186 258 192M290 170Q300 186 284 192" fill="none" stroke="#D9A77A" stroke-width="6"/>
+</g>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="340" y="214" width="40" height="10" rx="3" fill="#A3A8CC"/>
+<path d="M336 196H384Q380 214 360 214Q340 214 336 196Z" fill="#7A7F96"/>
+</g>
+<g class="steam" fill="none" stroke="#A3A8CC" stroke-width="2.5" stroke-linecap="round"><path d="M352 188Q348 180 354 172M366 188Q362 180 368 172"/></g>
+</svg>

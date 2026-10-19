@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A balance with a pile of coins on one pan and an open book on the other</title>
+<style>
+.beam{animation:tilt 4s ease-in-out infinite;transform-origin:200px 70px}
+@keyframes tilt{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(-3deg)}}
+.panL{animation:pl 4s ease-in-out infinite}
+@keyframes pl{0%,100%{transform:translateY(-17px)}50%{transform:translateY(-7px)}}
+.panR{animation:pr 4s ease-in-out infinite}
+@keyframes pr{0%,100%{transform:translateY(17px)}50%{transform:translateY(7px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M200 70V200" fill="none"/>
+<path d="M160 214H240L226 200H174Z" fill="#C8925A"/>
+<circle cx="200" cy="66" r="9" fill="#F6C453"/>
+<g class="beam"><path d="M70 70H330" fill="none" stroke-width="5"/></g>
+<g class="panL">
+<path d="M70 70L42 140M70 70L98 140" fill="none" stroke-width="2"/>
+<path d="M30 140H110Q104 160 70 160Q36 160 30 140Z" fill="#A3A8CC"/>
+<g fill="#F6C453"><ellipse cx="58" cy="134" rx="14" ry="5"/><ellipse cx="58" cy="128" rx="14" ry="5"/><ellipse cx="84" cy="134" rx="14" ry="5"/><ellipse cx="70" cy="122" rx="14" ry="5"/></g>
+</g>
+<g class="panR">
+<path d="M330 70L302 140M330 70L358 140" fill="none" stroke-width="2"/>
+<path d="M290 140H370Q364 160 330 160Q296 160 290 140Z" fill="#A3A8CC"/>
+<path d="M298 138Q314 126 330 134Q346 126 362 138V118Q346 108 330 116Q314 108 298 118Z" fill="#CDEBFA"/>
+<path d="M330 116V134" fill="none" stroke-width="2"/>
+</g>
+</g>
+</svg>

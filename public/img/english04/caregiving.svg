@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>A young person helping an elderly woman with a walking stick on a stroll, beside a presentation board</title>
+<style>
+.walk{animation:wk 4s ease-in-out infinite alternate}@keyframes wk{from{transform:translateX(-10px)}to{transform:translateX(14px)}}
+.hrt{animation:hr 3s ease-in-out infinite}@keyframes hr{0%{transform:translateY(0);opacity:0}30%{opacity:1}100%{transform:translateY(-40px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H464Q480 0 480 16V230H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 228H480V284Q480 300 464 300H16Q0 300 0 284Z" fill="#BFE3A8"/><rect x="64" y="160" width="12" height="60" rx="3" fill="#A86B3C" stroke="#2B2F4A" stroke-width="2"/><circle cx="70" cy="146" r="40" fill="#8FD18F" stroke="#3F7F45" stroke-width="2"/><path d="M385 232Q379 212 402.5 208Q414 192 431.6666666666667 206Q461 206 455 232Z" fill="#5DB463" stroke="#3F7F45" stroke-width="2"/>
+<g class="walk"><g transform="translate(230 262) scale(1 1)">
+<path d="M-7 -30V-2M7 -30V-2" stroke="#3D4466" stroke-width="7" stroke-linecap="round"/><path d="M-12 0H-3M3 0H12" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M-12 -54L-22 -30M12 -54L22 -40" stroke="#D9A07A" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M-17 -4L-13 -56Q0 -63 13 -56L17 -4Z" fill="#9B6BD6" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-74" r="12" fill="#D9A07A" stroke="#2B2F4A" stroke-width="2"/><circle cx="0" cy="-88" r="6" fill="#B9BDCF"/><path d="M-12 -74Q-12 -88 0 -87Q12 -88 12 -74Q8 -82 0 -82Q-8 -82 -12 -74Z" fill="#B9BDCF"/>
+<g fill="none" stroke="#2B2F4A" stroke-width="1.3"><circle cx="-4.5" cy="-75" r="3.4"/><circle cx="4.5" cy="-75" r="3.4"/><path d="M-1.1 -75H1.1"/></g>
+<circle cx="-4.5" cy="-75" r="1.6" fill="#2B2F4A"/><circle cx="4.5" cy="-75" r="1.6" fill="#2B2F4A"/><path d="M-4 -69Q0 -66 4 -69" stroke="#2B2F4A" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M-22 -30L-26 0" stroke="#8A5A33" stroke-width="4" stroke-linecap="round"/></g>
+<g transform="translate(272 262) scale(0.9 0.9)">
+<path d="M-7 -30V-2M7 -30V-2" stroke="#3D4466" stroke-width="7" stroke-linecap="round"/><path d="M-12 0H-3M3 0H12" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/>
+<path d="M-12 -54L-24 -40M12 -54L19 -30" stroke="#C98B5F" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M-15 -28L-13 -56Q0 -63 13 -56L15 -28Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-74" r="12" fill="#C98B5F" stroke="#2B2F4A" stroke-width="2"/><path d="M-12 -76Q-11 -89 0 -88Q11 -89 12 -76Q7 -82 0 -82Q-7 -82 -12 -76Z" fill="#2B2F4A"/>
+
+<circle cx="-4.5" cy="-75" r="1.6" fill="#2B2F4A"/><circle cx="4.5" cy="-75" r="1.6" fill="#2B2F4A"/><path d="M-4 -69Q0 -66 4 -69" stroke="#2B2F4A" stroke-width="1.6" fill="none" stroke-linecap="round"/></g></g>
+<g class="hrt"><path d="M252 140C240 130 244 120 252 127C260 120 264 130 252 140Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.4"/></g>
+<rect x="340" y="40" width="110" height="74" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><path d="M356 60H434M356 76H420M356 92H428" stroke="#A3A8CC" stroke-width="4" stroke-linecap="round"/><path d="M395 114V150" stroke="#8A5A33" stroke-width="4"/>
+</svg>

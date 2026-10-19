@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A letter in an envelope flying into the letters column of a newspaper</title>
+<style>
+.env{animation:fly 4s ease-in-out infinite}
+@keyframes fly{0%{transform:translate(0,0) rotate(-8deg);opacity:0}15%{opacity:1}70%{transform:translate(-90px,40px) rotate(0);opacity:1}100%{transform:translate(-90px,40px);opacity:0}}
+.hl{animation:hl 4s ease-in-out infinite}
+@keyframes hl{0%,60%{opacity:0}75%,100%{opacity:.6}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round">
+<rect x="40" y="30" width="250" height="186" rx="4" fill="#fff"/>
+<path d="M290 30L304 44V230H54L40 216" fill="#E8E8EE"/>
+<rect x="56" y="44" width="218" height="26" rx="3" fill="#2B2F4A"/>
+<rect x="56" y="82" width="110" height="64" rx="3" fill="#CDEBFA"/>
+<path d="M56 146L90 112L112 132L130 118L166 146Z" fill="#A9D98E"/>
+</g>
+<g stroke="#A3A8CC" stroke-width="4" stroke-linecap="round"><path d="M56 160H166M56 172H166M56 184H150M56 196H166"/><path d="M182 160H274M182 172H274M182 184H274M182 196H250"/></g>
+<rect class="hl" x="178" y="78" width="100" height="70" rx="6" fill="#F6C453"/>
+<g stroke="#2B2F4A" stroke-width="2" fill="none"><rect x="182" y="82" width="92" height="62" rx="3"/></g>
+<g stroke="#A3A8CC" stroke-width="3" stroke-linecap="round"><path d="M190 96H266M190 108H266M190 120H250M190 132H260"/></g>
+<g class="env" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"><rect x="300" y="60" width="70" height="46" rx="4" fill="#FFF3C4"/><path d="M300 60L335 88L370 60" fill="none"/></g>
+</svg>
