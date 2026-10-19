@@ -1,0 +1,2250 @@
+[
+  {
+    "id": "ma09-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Propositions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which of these is a **proposition**, a statement that is definitely either true or false?",
+    "image": {
+      "src": "/img/maths09/statements.svg",
+      "alt": "Four cards showing a question mark, an exclamation mark, a triangle and a speech bubble"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Please sit down quietly."
+      },
+      {
+        "id": "b",
+        "text": "A triangle can have two right angles."
+      },
+      {
+        "id": "c",
+        "text": "How tall is this triangle?"
+      },
+      {
+        "id": "d",
+        "text": "What a lovely drawing!"
+      }
+    ],
+    "answer": "b",
+    "hint": "A proposition does not have to be true. It only has to be possible to say it is true or false.",
+    "explanation": "A **proposition** is a statement that is either true or false. \"A triangle can have two right angles\" is a proposition because it can be judged: it is **false**, since the angle sum would exceed $180^\\circ$. A request, a question and an exclamation cannot be called true or false, so they are not propositions."
+  },
+  {
+    "id": "ma09-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Converse of a proposition",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Statement 1:** If two sides of a triangle are equal, then the angles opposite those sides are equal. Which statement is its **converse**?",
+    "image": {
+      "src": "/img/maths09/tri-iso.svg",
+      "alt": "Triangle ABC with two sides marked with tick marks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "If two sides of a triangle are not equal, then the angles opposite them are not equal."
+      },
+      {
+        "id": "b",
+        "text": "If the angles opposite two sides are not equal, then the two sides are not equal."
+      },
+      {
+        "id": "c",
+        "text": "If two sides of a triangle are equal, then the angles opposite them are equal."
+      },
+      {
+        "id": "d",
+        "text": "If two angles of a triangle are equal, then the sides opposite those angles are equal."
+      }
+    ],
+    "answer": "d",
+    "hint": "For the converse, swap the 'if' part and the 'then' part.",
+    "explanation": "The proposition has the form 'if X then Y' with X = two sides are equal and Y = the opposite angles are equal. Its **converse** is 'if Y then X', which is Statement 2 of the chapter. The second option (negating both parts) is the *inverse*, the third (negating and swapping) is the *contrapositive*, and the fourth just repeats the original."
+  },
+  {
+    "id": "ma09-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Using a true proposition",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In this triangle $AB = AC$ (see the tick marks). Statement 1 says the angles opposite equal sides are equal. Tap the angle that must be equal to $\\angle B$.",
+    "image": {
+      "src": "/img/maths09/tri-iso.svg",
+      "alt": "A triangle with numbered markers placed near its corners and base"
+    },
+    "spots": [
+      {
+        "id": "angA",
+        "x": 50.0,
+        "y": 45.0,
+        "label": "Angle A"
+      },
+      {
+        "id": "angB",
+        "x": 33.2,
+        "y": 77.5,
+        "label": "Angle B"
+      },
+      {
+        "id": "angC",
+        "x": 66.8,
+        "y": 77.5,
+        "label": "Angle C"
+      },
+      {
+        "id": "baseBC",
+        "x": 50.0,
+        "y": 85.4,
+        "label": "Side BC"
+      }
+    ],
+    "answer": "angC",
+    "hint": "$\\angle B$ is opposite side $AC$. Which side is equal to $AC$, and which angle is opposite that side?",
+    "explanation": "Side $AC$ is opposite $\\angle B$ and side $AB$ is opposite $\\angle C$. Since $AB = AC$, the angles opposite them, $\\angle C$ and $\\angle B$, are equal. Angle $A$ lies between the equal sides, so Statement 1 says nothing about it being equal to $\\angle B$."
+  },
+  {
+    "id": "ma09-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Proof of the converse",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "In $\\triangle ABC$ it is given that $\\angle B = \\angle C$. Arrange the steps that prove $AB = AC$ (Statement 2), following the hint to draw the altitude.",
+    "image": {
+      "src": "/img/maths09/tri-alt.svg",
+      "alt": "Triangle ABC with a dashed line from A to the base BC"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Conclude $\\triangle ABD \\cong \\triangle ACD$ by the AAS criterion"
+      },
+      {
+        "id": "s1",
+        "text": "Start with $\\triangle ABC$ in which $\\angle B = \\angle C$"
+      },
+      {
+        "id": "s5",
+        "text": "Hence $AB = AC$, the sides opposite the equal angles"
+      },
+      {
+        "id": "s3",
+        "text": "Note that $AD$ is a side common to $\\triangle ABD$ and $\\triangle ACD$"
+      },
+      {
+        "id": "s2",
+        "text": "Draw the altitude $AD$ from $A$ to $BC$, so $\\angle ADB = \\angle ADC = 90^\\circ$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Two angles and a side that is not between them are enough for congruence (AAS).",
+    "explanation": "The altitude splits the triangle into two right triangles. They have $\\angle B = \\angle C$, $\\angle ADB = \\angle ADC$ and the common side $AD$, so they are congruent by **AAS**. Corresponding sides of congruent triangles are equal, so $AB = AC$. This proves the converse of Statement 1."
+  },
+  {
+    "id": "ma09-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "The proof's altitude",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **altitude** from $A$, the line the hint tells us to draw to prove Statement 2.",
+    "image": {
+      "src": "/img/maths09/tri-alt.svg",
+      "alt": "A triangle with numbered markers on its sides and on a dashed line"
+    },
+    "spots": [
+      {
+        "id": "alt",
+        "x": 50.0,
+        "y": 52.1,
+        "label": "Line AD"
+      },
+      {
+        "id": "sideAB",
+        "x": 35.0,
+        "y": 53.3,
+        "label": "Side AB"
+      },
+      {
+        "id": "sideAC",
+        "x": 65.0,
+        "y": 53.3,
+        "label": "Side AC"
+      },
+      {
+        "id": "baseBC",
+        "x": 39.5,
+        "y": 85.4,
+        "label": "Side BC"
+      }
+    ],
+    "answer": "alt",
+    "hint": "An altitude is perpendicular to the side it meets.",
+    "explanation": "An **altitude** from $A$ is the line segment from $A$ that meets $BC$ at a right angle; here it is $AD$. The sides $AB$, $AC$ and $BC$ are sides of the triangle, not altitudes. Drawing $AD$ creates two congruent right triangles, which is the key to the proof."
+  },
+  {
+    "id": "ma09-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Example 1: rain and the road",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Proposition P:** If it rains, then the road is wet. Which statement is the **converse Q**?",
+    "image": {
+      "src": "/img/maths09/road-scene.svg",
+      "alt": "A street with a raining cloud, a sun, a tree and a tanker truck"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "If the road is wet, then it has rained."
+      },
+      {
+        "id": "b",
+        "text": "If it does not rain, then the road is not wet."
+      },
+      {
+        "id": "c",
+        "text": "If the road is not wet, then it has not rained."
+      },
+      {
+        "id": "d",
+        "text": "If it rains, then the road is not wet."
+      }
+    ],
+    "answer": "a",
+    "hint": "Swap the two parts of the sentence without changing them.",
+    "explanation": "P has the form 'if X then Y', with X = it rains and Y = the road is wet. The converse swaps them: 'if the road is wet, then it has rained'. The second option is the inverse, the third is the contrapositive (which is true, just like P), and the fourth contradicts P."
+  },
+  {
+    "id": "ma09-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Counterexamples",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Q says: 'If the road is wet, then it has rained.' Tap the item in the picture that shows why Q is **not always true**.",
+    "image": {
+      "src": "/img/maths09/road-scene.svg",
+      "alt": "A street scene with numbered markers on a cloud, a sun, a tree, a truck and the road"
+    },
+    "spots": [
+      {
+        "id": "cloud",
+        "x": 26.2,
+        "y": 24.0,
+        "label": "Cloud"
+      },
+      {
+        "id": "sun",
+        "x": 86.2,
+        "y": 18.0,
+        "label": "Sun"
+      },
+      {
+        "id": "tanker",
+        "x": 65.5,
+        "y": 56.0,
+        "label": "Truck"
+      },
+      {
+        "id": "tree",
+        "x": 10.8,
+        "y": 40.0,
+        "label": "Tree"
+      },
+      {
+        "id": "road",
+        "x": 30.0,
+        "y": 86.0,
+        "label": "Road surface"
+      }
+    ],
+    "answer": "tanker",
+    "hint": "Look for something other than rain that can make the road wet.",
+    "explanation": "A **counterexample** is a situation where the 'if' part is true but the 'then' part is false. The road can be wet because a tanker spilled water, even though it did not rain, so Q fails. The cloud gives the rain that makes P true; the sun and tree do not wet the road."
+  },
+  {
+    "id": "ma09-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Converse of a true statement",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths09/if-then.svg",
+      "alt": "A box X with an arrow to a box Y and a dashed arrow coming back"
+    },
+    "assertion": "The converse of a true proposition need not be true.",
+    "reason": "'If it rains, then the road is wet' is true, but 'if the road is wet, then it has rained' can fail because a tanker may spill water.",
+    "answer": "a",
+    "hint": "Can you find a case where the road is wet but it did not rain?",
+    "explanation": "Both A and R are true, and R explains A. The spilled-water case is a **counterexample** to the converse while the original proposition stays true. So 'if X then Y' being true does not guarantee 'if Y then X'."
+  },
+  {
+    "id": "ma09-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Counterexamples and Fermat",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Fermat claimed that every number $2^{2^n} + 1$ is prime $(n = 0, 1, 2, \\dots)$, and the first five values really are prime. Euler found that $2^{2^5} + 1$ is composite. What does this **one** example prove?",
+    "image": {
+      "src": "/img/maths09/fermat.svg",
+      "alt": "Values of a number pattern for n from 0 to 4, and a question mark for n equal to 5"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The claim is still probably true, because five values out of six work."
+      },
+      {
+        "id": "b",
+        "text": "The converse of Fermat's claim is true."
+      },
+      {
+        "id": "c",
+        "text": "Fermat's claim is false, because a single counterexample is enough."
+      },
+      {
+        "id": "d",
+        "text": "The claim is false only if many more composite values are found."
+      }
+    ],
+    "answer": "c",
+    "hint": "How many cases where the claim fails do we need to refute it?",
+    "explanation": "A claim of the form 'every number of this type has property Q' is disproved by **one** counterexample. Euler found it: $2^{2^5} + 1 = 4{,}294{,}967{,}297$ is divisible by 641, so it is composite. Many successes (five here) never prove such a claim, but one failure ends it."
+  },
+  {
+    "id": "ma09-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Example 2: multiples of 6 and 3",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "**Q:** If a number is a multiple of 3, then it is a multiple of 6. How many numbers from 1 to 30 are **counterexamples** to Q?",
+    "image": {
+      "src": "/img/maths09/grid30.svg",
+      "alt": "A grid of the numbers 1 to 30 with the multiples of 3 shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "15"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "25"
+      }
+    ],
+    "answer": "c",
+    "hint": "A counterexample is a multiple of 3 that is not a multiple of 6.",
+    "explanation": "Multiples of 3 up to 30: $3, 6, 9, \\dots, 30$, which is 10 numbers. Multiples of 6: $6, 12, 18, 24, 30$, which is 5 numbers. Counterexamples are multiples of 3 that are **not** multiples of 6: $3, 9, 15, 21, 27$, so $10 - 5 = 5$. The trap 10 counts every multiple of 3; 25 counts all numbers that are not multiples of 6."
+  },
+  {
+    "id": "ma09-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Finding a counterexample",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "**Q:** If a number is a multiple of 3, then it is a multiple of 6. Tap the tile that is a **counterexample** to Q.",
+    "image": {
+      "src": "/img/maths09/tiles5.svg",
+      "alt": "Five number tiles with a dashed empty circle above each"
+    },
+    "spots": [
+      {
+        "id": "t12",
+        "x": 13.0,
+        "y": 38.1,
+        "label": "Tile 1"
+      },
+      {
+        "id": "t18",
+        "x": 31.5,
+        "y": 38.1,
+        "label": "Tile 2"
+      },
+      {
+        "id": "t24",
+        "x": 50.0,
+        "y": 38.1,
+        "label": "Tile 3"
+      },
+      {
+        "id": "t21",
+        "x": 68.5,
+        "y": 38.1,
+        "label": "Tile 4"
+      },
+      {
+        "id": "t30",
+        "x": 87.0,
+        "y": 38.1,
+        "label": "Tile 5"
+      }
+    ],
+    "answer": "t21",
+    "hint": "You need a multiple of 3 that is odd, so it cannot be a multiple of 6.",
+    "explanation": "A counterexample must be a multiple of 3 that is **not** a multiple of 6. Here $12 = 6\\times 2$, $18 = 6\\times 3$, $24 = 6\\times 4$ and $30 = 6\\times 5$ are all multiples of 6, but $21 = 3\\times 7$ is odd, so it is not. One such number shows Q is false."
+  },
+  {
+    "id": "ma09-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Example 3: factor-partner argument",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "For a number $n$, pair each factor with its 'partner' (the factor that multiplies with it to give $n$). The argument says: an odd number of factors forces a pair $(f, f)$, so $n = f\\times f$. What does this argument prove?",
+    "image": {
+      "src": "/img/maths09/fp12.svg",
+      "alt": "The factors of a number on a line with arcs joining partner factors"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Only Q: if $n$ has an odd number of factors, then $n$ is a perfect square."
+      },
+      {
+        "id": "b",
+        "text": "Only P: if $n$ is a perfect square, then it has an odd number of factors."
+      },
+      {
+        "id": "c",
+        "text": "Both P and its converse Q."
+      },
+      {
+        "id": "d",
+        "text": "Neither P nor Q."
+      }
+    ],
+    "answer": "a",
+    "hint": "Look at where the argument starts and where it ends.",
+    "explanation": "The argument starts with 'an odd number of factors' and ends with 'a perfect square', so it proves **Q** only. It does not show that every square has an odd number of factors, because a square could in principle have several repeated pairs. P needs the extra fact that a number has at most one pair $(f, f)$."
+  },
+  {
+    "id": "ma09-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Factor pairs of 36",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Here are the factors of 36 with partner arcs. Tap the pair that shows $36$ is a **perfect square**.",
+    "image": {
+      "src": "/img/maths09/fp36.svg",
+      "alt": "Factors of 36 on a line joined by five coloured arcs, one of which is a small loop"
+    },
+    "spots": [
+      {
+        "id": "p1_36",
+        "x": 21.7,
+        "y": 44.4,
+        "label": "Outer arc"
+      },
+      {
+        "id": "p2_18",
+        "x": 71.2,
+        "y": 54.8,
+        "label": "Second arc"
+      },
+      {
+        "id": "p3_12",
+        "x": 35.9,
+        "y": 64.0,
+        "label": "Third arc"
+      },
+      {
+        "id": "p4_9",
+        "x": 55.0,
+        "y": 69.0,
+        "label": "Fourth arc"
+      },
+      {
+        "id": "p6_6",
+        "x": 50.0,
+        "y": 78.5,
+        "label": "Small loop"
+      }
+    ],
+    "answer": "p6_6",
+    "hint": "Which factor is its own partner?",
+    "explanation": "The factor pairs of 36 are $(1, 36), (2, 18), (3, 12), (4, 9)$ and $(6, 6)$. The pair $(6, 6)$ repeats the same factor, shown as a loop, so $36 = 6\\times 6$ is a perfect square. Because this repeated pair counts only once, the total number of factors is $4\\times 2 + 1 = 9$, which is odd."
+  },
+  {
+    "id": "ma09-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Odd number of factors",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Exactly one of these numbers has an **odd** number of factors. Which one?",
+    "image": {
+      "src": "/img/maths09/square-dots.svg",
+      "alt": "Counters laid out in squares and rectangles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "48"
+      },
+      {
+        "id": "b",
+        "text": "50"
+      },
+      {
+        "id": "c",
+        "text": "72"
+      },
+      {
+        "id": "d",
+        "text": "64"
+      }
+    ],
+    "answer": "d",
+    "hint": "Only perfect squares have an odd number of factors.",
+    "explanation": "$64 = 8^2$ is a perfect square, so its factors $1, 2, 4, 8, 16, 32, 64$ number 7, an odd count. The others are not squares: $48$ has 10 factors, $50$ has 6 and $72$ has 12. Large or even-looking numbers are not the clue; being a **perfect square** is."
+  },
+  {
+    "id": "ma09-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Proving Q in Example 3",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the factor-partner argument that proves Q: 'if $n$ has an odd number of factors, then $n$ is a perfect square'.",
+    "image": {
+      "src": "/img/maths09/fp12.svg",
+      "alt": "The factors of a number on a line with arcs joining partner factors"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "So some factor is its own partner, giving a pair $(f, f)$"
+      },
+      {
+        "id": "s1",
+        "text": "Pair every factor of $n$ with its partner, the factor that multiplies with it to give $n$"
+      },
+      {
+        "id": "s4",
+        "text": "Hence $n = f \\times f$, so $n$ is a perfect square"
+      },
+      {
+        "id": "s2",
+        "text": "If the number of factors is odd, they cannot all be matched with a different partner"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Think of pairing up socks: an odd number leaves one without a different partner.",
+    "explanation": "Each factor has a partner. If every factor had a *different* partner, the factors would come in twos and the count would be even. An odd count therefore needs a factor that is its own partner, $(f, f)$, which means $n = f\\times f$. This proves Q, not P."
+  },
+  {
+    "id": "ma09-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Example 4: same area",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "**P:** If two triangles have the same area, then they are congruent. Triangle 1 has base $8\\ \\text{cm}$ and height $3\\ \\text{cm}$; triangle 2 has base $6\\ \\text{cm}$ and height $4\\ \\text{cm}$. What do they show about P?",
+    "image": {
+      "src": "/img/maths09/same-area.svg",
+      "alt": "Two differently shaped triangles with bases and heights marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Both areas are $24\\ \\text{cm}^2$, so the triangles are congruent and P is true."
+      },
+      {
+        "id": "b",
+        "text": "Both areas are $12\\ \\text{cm}^2$ but the triangles are not congruent, so P is false."
+      },
+      {
+        "id": "c",
+        "text": "Both areas are $12\\ \\text{cm}^2$, so the triangles are congruent and P is true."
+      },
+      {
+        "id": "d",
+        "text": "The areas are $11\\ \\text{cm}^2$ and $10\\ \\text{cm}^2$, so P cannot be tested."
+      }
+    ],
+    "answer": "b",
+    "hint": "Area of a triangle = $\\frac12\\times$ base $\\times$ height. Then compare the shapes.",
+    "explanation": "Area 1 $= \\tfrac12\\times 8\\times 3 = 12\\ \\text{cm}^2$ and area 2 $= \\tfrac12\\times 6\\times 4 = 12\\ \\text{cm}^2$. The areas are equal, yet the sides are different, so the triangles are **not congruent**: P is false. Forgetting the $\\tfrac12$ gives 24; adding base and height gives 11 and 10. Its converse Q, 'congruent triangles have equal area', is true."
+  },
+  {
+    "id": "ma09-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Four possible outcomes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each proposition with what is true about it and its converse.",
+    "image": {
+      "src": "/img/maths09/cases4.svg",
+      "alt": "Four cards each showing P and Q with a tick or a cross"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "If a number is a multiple of 6, then it is a multiple of 3"
+      },
+      {
+        "id": "l2",
+        "text": "If a number is a perfect square, then it has an odd number of factors"
+      },
+      {
+        "id": "l3",
+        "text": "If a number is prime, then it is odd"
+      },
+      {
+        "id": "l4",
+        "text": "If two triangles have the same area, then they are congruent"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "Both it and its converse are false"
+      },
+      {
+        "id": "r1",
+        "text": "True, but its converse is false"
+      },
+      {
+        "id": "r4",
+        "text": "False, but its converse is true"
+      },
+      {
+        "id": "r2",
+        "text": "Both it and its converse are true"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Test each statement and its converse with a quick example: 2, 9, 15, a pair of triangles.",
+    "explanation": "Multiples of 6 are multiples of 3, but 9 is a multiple of 3 and not of 6. Squares and numbers with an odd count of factors imply each other. 'Prime implies odd' fails for 2, and 'odd implies prime' fails for 9, so both are false. Equal area does not give congruence, but congruent triangles do have equal area. All four outcomes can occur."
+  },
+  {
+    "id": "ma09-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 8: divisibility",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths09/ticks-4-6.svg",
+      "alt": "Two number lines with dots on multiples of 4 and multiples of 6"
+    },
+    "assertion": "The converse of 'If $n$ is divisible by 24, then $n$ is divisible by both 4 and 6' is false.",
+    "reason": "$4\\times 6 = 24$.",
+    "answer": "b",
+    "hint": "Is 12 divisible by both 4 and 6? Is it divisible by 24?",
+    "explanation": "A is true: $n = 12$ is divisible by 4 and 6 but not by 24, a counterexample. R is also a true fact, but it does not explain A: the product $4\\times 6$ equals 24, yet 4 and 6 share the factor 2, so a number divisible by both only needs to be a multiple of their lcm, $12$. So the answer is: both true, R is not the explanation."
+  },
+  {
+    "id": "ma09-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Example 5: converse of the Pythagoras theorem",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Theorem:** Let $a, b, c$ be the side lengths of a triangle. If the triangle is right-angled, then $a^2 + b^2 = c^2$. Which statement is its **converse**?",
+    "image": {
+      "src": "/img/maths09/pythag-conv.svg",
+      "alt": "A triangle ABC beside a right triangle XYZ"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Let $a, b, c$ be the side lengths of a triangle. If the triangle is not right-angled, then $a^2 + b^2 \\ne c^2$."
+      },
+      {
+        "id": "b",
+        "text": "Let $a, b, c$ be the side lengths of a triangle. If $a^2 + b^2 \\ne c^2$, then the triangle is right-angled."
+      },
+      {
+        "id": "c",
+        "text": "Let $a, b, c$ be the side lengths of a triangle. If the triangle is right-angled, then $a^2 + b^2 = c^2$."
+      },
+      {
+        "id": "d",
+        "text": "Let $a, b, c$ be the side lengths of a triangle. If $a^2 + b^2 = c^2$, then the triangle is right-angled."
+      }
+    ],
+    "answer": "d",
+    "hint": "Keep the first sentence, and swap the 'if' and 'then' parts of the second.",
+    "explanation": "The book keeps the opening line and swaps the two parts: 'if $a^2 + b^2 = c^2$, then the triangle is right-angled'. The second option is the inverse, the third switches the equation without swapping meaning, and the fourth is the original theorem. Here, unlike many examples, the converse is also true."
+  },
+  {
+    "id": "ma09-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Proof of the converse of Pythagoras",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that show: if $a^2 + b^2 = c^2$ in $\\triangle ABC$, then the triangle is right-angled.",
+    "image": {
+      "src": "/img/maths09/pythag-conv.svg",
+      "alt": "A triangle ABC beside a right triangle XYZ"
+    },
+    "items": [
+      {
+        "id": "s5",
+        "text": "Hence $\\angle C = \\angle Z = 90^\\circ$, so $\\triangle ABC$ is right-angled"
+      },
+      {
+        "id": "s2",
+        "text": "Draw a right triangle $\\triangle XYZ$ with perpendicular sides $YZ = a$ and $XZ = b$"
+      },
+      {
+        "id": "s4",
+        "text": "The two triangles have all three sides equal, so $\\triangle ABC \\cong \\triangle XYZ$ by SSS"
+      },
+      {
+        "id": "s1",
+        "text": "Start with $\\triangle ABC$ whose sides satisfy $a^2 + b^2 = c^2$"
+      },
+      {
+        "id": "s3",
+        "text": "By the Baudhāyana–Pythagoras theorem, $XY^2 = a^2 + b^2 = c^2$, so $XY = c$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need a triangle you already know is right-angled to compare with.",
+    "explanation": "We build a right triangle $XYZ$ with legs $a$ and $b$. Applying the theorem to it gives $XY = c$. Now $\\triangle ABC$ and $\\triangle XYZ$ have three equal pairs of sides, so they are congruent by **SSS**, and the angle opposite $c$ in $\\triangle ABC$ equals the right angle in $\\triangle XYZ$."
+  },
+  {
+    "id": "ma09-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "The right angle in the proof",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the proof of the converse of the Baudhāyana–Pythagoras theorem, the SSS step shows one angle of $\\triangle ABC$ equals the right angle at $Z$. Tap that angle of $\\triangle ABC$.",
+    "image": {
+      "src": "/img/maths09/pythag-conv.svg",
+      "alt": "Two triangles with numbered markers near several of their corners"
+    },
+    "spots": [
+      {
+        "id": "angC",
+        "x": 14.7,
+        "y": 37.1,
+        "label": "Angle C"
+      },
+      {
+        "id": "angA",
+        "x": 31.5,
+        "y": 63.4,
+        "label": "Angle A"
+      },
+      {
+        "id": "angB",
+        "x": 27.6,
+        "y": 30.7,
+        "label": "Angle B"
+      },
+      {
+        "id": "angZ",
+        "x": 61.4,
+        "y": 72.7,
+        "label": "Angle Z"
+      },
+      {
+        "id": "angX",
+        "x": 84.7,
+        "y": 74.7,
+        "label": "Angle X"
+      }
+    ],
+    "answer": "angC",
+    "hint": "Which angle sits between the sides $a$ and $b$, opposite side $c$?",
+    "explanation": "In $\\triangle XYZ$ the right angle $Z$ is between the legs $a$ and $b$. By SSS congruence, the angle of $\\triangle ABC$ between sides $a$ and $b$ (and opposite $c$) is $\\angle C$, so $\\angle C = 90^\\circ$. Angle $Z$ is in the other triangle and was right by construction; $A$ and $B$ are the other angles."
+  },
+  {
+    "id": "ma09-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Using the converse",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which set of side lengths (in cm) forms a **right-angled** triangle?",
+    "image": {
+      "src": "/img/maths09/sides-squares.svg",
+      "alt": "A right triangle with a square drawn on each side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6, 8, 11"
+      },
+      {
+        "id": "b",
+        "text": "7, 24, 26"
+      },
+      {
+        "id": "c",
+        "text": "5, 12, 13"
+      },
+      {
+        "id": "d",
+        "text": "9, 12, 16"
+      }
+    ],
+    "answer": "c",
+    "hint": "Square each number. Does the sum of the two smaller squares equal the largest square?",
+    "explanation": "By the converse of the theorem, a triangle is right-angled when $a^2 + b^2 = c^2$ for its longest side $c$. $5^2 + 12^2 = 25 + 144 = 169 = 13^2$, so $5, 12, 13$ works. The others fail: $36 + 64 = 100 \\ne 121$; $49 + 576 = 625 \\ne 676$; $81 + 144 = 225 \\ne 256$. Do not just compare sums of lengths."
+  },
+  {
+    "id": "ma09-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Which angle is a right angle?",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A triangle $PQR$ has $PQ = 20\\ \\text{cm}$, $QR = 21\\ \\text{cm}$ and $PR = 29\\ \\text{cm}$. Which angle is a right angle?",
+    "image": {
+      "src": "/img/maths09/tri-rot.svg",
+      "alt": "A tilted triangle PQR with its side lengths marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\angle Q$"
+      },
+      {
+        "id": "b",
+        "text": "$\\angle P$"
+      },
+      {
+        "id": "c",
+        "text": "$\\angle R$"
+      },
+      {
+        "id": "d",
+        "text": "None, because $20 + 21 \\ne 29$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The right angle is opposite the longest side, if $a^2 + b^2 = c^2$ holds.",
+    "explanation": "Check $20^2 + 21^2 = 400 + 441 = 841 = 29^2$. By the converse of the Baudhāyana–Pythagoras theorem the triangle is right-angled, and the right angle is opposite the longest side $PR$, which is $\\angle Q$. Adding the lengths, $20 + 21 = 41 \\ne 29$, is irrelevant: the theorem uses squares."
+  },
+  {
+    "id": "ma09-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Understanding converses",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about propositions and their converses.",
+    "image": {
+      "src": "/img/maths09/cases4.svg",
+      "alt": "Four cards each showing P and Q with a tick or a cross"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The converse of 'if X then Y' is 'if Y then X'."
+      },
+      {
+        "id": "b",
+        "text": "If a proposition is true, its converse is always true."
+      },
+      {
+        "id": "c",
+        "text": "A proposition and its converse can both be true."
+      },
+      {
+        "id": "d",
+        "text": "A proposition and its converse can both be false."
+      },
+      {
+        "id": "e",
+        "text": "One counterexample is enough to show a proposition is false."
+      },
+      {
+        "id": "f",
+        "text": "If a proposition works for ten examples, it is proved true."
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "hint": "Think of examples: multiples of 6 and 3; prime and odd; squares and odd factors.",
+    "explanation": "The converse swaps the parts. Truth is not preserved: 'multiple of 6 implies multiple of 3' is true but its converse is false. Both can be true (square and odd number of factors) or both false (prime implies odd). A single counterexample disproves a claim, but examples that work, even ten, do not prove it."
+  },
+  {
+    "id": "ma09-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Writing a converse",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Use the note on 'Y when X'. Arrange the steps to write and test the converse of **'A number has an odd number of factors when it is a perfect square.'**",
+    "image": {
+      "src": "/img/maths09/if-then.svg",
+      "alt": "A box X with an arrow to a box Y and a dashed arrow coming back"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Swap them: If a number has an odd number of factors, then it is a perfect square"
+      },
+      {
+        "id": "s1",
+        "text": "Notice that 'Y when X' means the same as 'if X then Y'"
+      },
+      {
+        "id": "s5",
+        "text": "Test the new statement with a justification or a counterexample"
+      },
+      {
+        "id": "s3",
+        "text": "Name the parts: X = 'is a perfect square', Y = 'has an odd number of factors'"
+      },
+      {
+        "id": "s2",
+        "text": "Rewrite it: If a number is a perfect square, then it has an odd number of factors"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "First turn the sentence into 'if ... then ...' form.",
+    "explanation": "'Y when X' conveys 'if X then Y'. Once it is written as 'if it is a perfect square, then it has an odd number of factors', X and Y are clear, and swapping them gives the converse. A converse is only a *candidate* statement until it is justified or a counterexample is found; this one is true."
+  },
+  {
+    "id": "ma09-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 1: parallel lines",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "**Proposition:** If two lines are parallel, then corresponding angles formed by a transversal are equal. The shaded angle is at the upper line. Tap its **corresponding angle** at the lower line.",
+    "image": {
+      "src": "/img/maths09/parallel.svg",
+      "alt": "Two parallel lines cut by a slanting line with one angle shaded and numbered markers at the lower crossing"
+    },
+    "spots": [
+      {
+        "id": "ul",
+        "x": 51.5,
+        "y": 65.8,
+        "label": "Upper-left at lower crossing"
+      },
+      {
+        "id": "ur",
+        "x": 63.0,
+        "y": 59.9,
+        "label": "Upper-right at lower crossing"
+      },
+      {
+        "id": "ll",
+        "x": 55.2,
+        "y": 84.1,
+        "label": "Lower-left at lower crossing"
+      },
+      {
+        "id": "lr",
+        "x": 66.7,
+        "y": 78.2,
+        "label": "Lower-right at lower crossing"
+      },
+      {
+        "id": "toplr",
+        "x": 48.5,
+        "y": 38.2,
+        "label": "Lower-right at upper crossing"
+      }
+    ],
+    "answer": "ul",
+    "hint": "Corresponding angles occupy the same position at each crossing.",
+    "explanation": "The shaded angle lies **above** the upper line and to the **left** of the transversal. Its corresponding angle is in the same position at the lower crossing: above the lower line and left of the transversal. The converse, 'if corresponding angles are equal, then the lines are parallel', is also true."
+  },
+  {
+    "id": "ma09-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 2: square and angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Proposition:** If a quadrilateral is a square, then all its angles are equal. The converse is false. Which shape is a **counterexample** to the converse?",
+    "image": {
+      "src": "/img/maths09/rect-square.svg",
+      "alt": "Four flat shapes: a square, a rectangle, a diamond and a trapezium"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A rhombus with angles $60^\\circ$ and $120^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "A rectangle with sides $3\\ \\text{cm}$ and $5\\ \\text{cm}$"
+      },
+      {
+        "id": "c",
+        "text": "A square of side $4\\ \\text{cm}$"
+      },
+      {
+        "id": "d",
+        "text": "A trapezium with one pair of parallel sides"
+      }
+    ],
+    "answer": "b",
+    "hint": "The converse says 'all angles equal implies square'. You need all angles equal but not a square.",
+    "explanation": "The converse is 'if all angles of a quadrilateral are equal, then it is a square'. A $3\\ \\text{cm}\\times 5\\ \\text{cm}$ rectangle has four angles of $90^\\circ$ but unequal sides, so it is not a square. The rhombus and trapezium do not have equal angles, so they do not test the converse; a square obeys it."
+  },
+  {
+    "id": "ma09-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 3: incentre figure",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In $\\triangle ABC$, the bisectors of $\\angle B$ and $\\angle C$ meet at the incentre $I$ and are extended to meet the opposite sides at $E$ and $F$. **Proposition:** If $AB = AC$, then $IE = IF$. Select **all** correct statements.",
+    "image": {
+      "src": "/img/maths09/incentre.svg",
+      "alt": "A triangle with two lines from B and C crossing inside it at I, meeting the sides at E and F"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The converse is: if $IE = IF$, then $AB = AC$."
+      },
+      {
+        "id": "b",
+        "text": "The proposition starts from the condition $AB = AC$."
+      },
+      {
+        "id": "c",
+        "text": "'If $AB \\ne AC$, then $IE \\ne IF$' is the converse."
+      },
+      {
+        "id": "d",
+        "text": "$I$ is where the angle bisectors meet."
+      },
+      {
+        "id": "e",
+        "text": "$I$ is where the altitudes meet."
+      },
+      {
+        "id": "f",
+        "text": "$IE = IF$ is the 'if' part of the proposition."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Find the 'if' part and the 'then' part first.",
+    "explanation": "The 'if' part is $AB = AC$ and the 'then' part is $IE = IF$. The converse swaps them: 'if $IE = IF$, then $AB = AC$'. The statement with both parts negated is the inverse, not the converse. $I$ is the **incentre**, where the angle bisectors meet, not the altitudes."
+  },
+  {
+    "id": "ma09-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Reading Fig. 9.1",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The proposition says: if $AB = AC$, then $IE = IF$. Tap the segment $IE$.",
+    "image": {
+      "src": "/img/maths09/incentre.svg",
+      "alt": "A triangle with numbered markers on several of its inner segments"
+    },
+    "spots": [
+      {
+        "id": "IE",
+        "x": 56.8,
+        "y": 51.2,
+        "label": "Segment IE"
+      },
+      {
+        "id": "IF",
+        "x": 43.2,
+        "y": 51.2,
+        "label": "Segment IF"
+      },
+      {
+        "id": "IB",
+        "x": 35.2,
+        "y": 69.9,
+        "label": "Segment IB"
+      },
+      {
+        "id": "IC",
+        "x": 64.8,
+        "y": 69.9,
+        "label": "Segment IC"
+      },
+      {
+        "id": "AF",
+        "x": 43.2,
+        "y": 29.4,
+        "label": "Segment AF"
+      }
+    ],
+    "answer": "IE",
+    "hint": "E is on the side opposite B and lies at the end of the bisector from B.",
+    "explanation": "The bisector from $B$ passes through $I$ and ends at $E$ on side $AC$, so $IE$ is the part of that bisector between $I$ and $E$ (the right-hand piece here). $IF$ is the matching piece of the bisector from $C$. The proposition says these two pieces are equal when $AB = AC$."
+  },
+  {
+    "id": "ma09-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Converse of the incentre statement",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths09/incentre.svg",
+      "alt": "A triangle with two lines from B and C crossing inside it"
+    },
+    "assertion": "The converse of 'If $AB = AC$, then $IE = IF$' is 'If $IE = IF$, then $AB = AC$'.",
+    "reason": "A proposition and its converse always have the same truth value.",
+    "answer": "c",
+    "hint": "Is the second sentence true in general? Think of 'rain' and 'wet road'.",
+    "explanation": "A is true, since the converse swaps the 'if' and 'then' parts. R is **false**: many propositions are true while their converses are false, for example 'multiples of 6 are multiples of 3'. So A is true and R is false."
+  },
+  {
+    "id": "ma09-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 5: products of squares",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "**Proposition:** If $a$ and $b$ are perfect squares, then $ab$ is a perfect square. Which pair $(a, b)$ is a **counterexample to its converse** (if $ab$ is a perfect square, then $a$ and $b$ are perfect squares)?",
+    "image": {
+      "src": "/img/maths09/square-dots.svg",
+      "alt": "Counters laid out in squares and rectangles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a = 4,\\ b = 9$"
+      },
+      {
+        "id": "b",
+        "text": "$a = 2,\\ b = 8$"
+      },
+      {
+        "id": "c",
+        "text": "$a = 3,\\ b = 7$"
+      },
+      {
+        "id": "d",
+        "text": "$a = 5,\\ b = 6$"
+      }
+    ],
+    "answer": "b",
+    "hint": "You need $ab$ to be a perfect square while $a$ and $b$ are not.",
+    "explanation": "$2\\times 8 = 16 = 4^2$ is a perfect square, but neither 2 nor 8 is, so $(2, 8)$ is a counterexample. For $(4, 9)$ both are squares, so it fits the converse and is no counterexample. For $(3, 7)$ and $(5, 6)$ the products $21$ and $30$ are not squares, so the 'if' part fails."
+  },
+  {
+    "id": "ma09-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 6: squares of numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "**Proposition:** If $x = y$, then $x^2 = y^2$. Its converse: if $x^2 = y^2$, then $x = y$. The graph shows $x^2$ against $x$; the orange point is $x = 3$. Tap the other point on the curve with the same $x^2$ value, a counterexample to the converse.",
+    "image": {
+      "src": "/img/maths09/parabola.svg",
+      "alt": "A U-shaped curve on a grid with a dashed horizontal line and numbered markers on the curve"
+    },
+    "spots": [
+      {
+        "id": "m3",
+        "x": 20.0,
+        "y": 45.0,
+        "label": "x = -3"
+      },
+      {
+        "id": "m2",
+        "x": 30.0,
+        "y": 70.0,
+        "label": "x = -2"
+      },
+      {
+        "id": "m1",
+        "x": 40.0,
+        "y": 85.0,
+        "label": "x = -1"
+      },
+      {
+        "id": "p2",
+        "x": 70.0,
+        "y": 70.0,
+        "label": "x = 2"
+      },
+      {
+        "id": "m4",
+        "x": 10.0,
+        "y": 10.0,
+        "label": "x = -4"
+      }
+    ],
+    "answer": "m3",
+    "hint": "The dashed line shows all points at the same height as the orange point.",
+    "explanation": "The dashed line at height 9 meets the curve at $x = 3$ and at $x = -3$. So $(-3)^2 = 3^2 = 9$ although $-3 \\ne 3$: the converse is **false**, with counterexample $x = -3,\\ y = 3$. The other marked points are at different heights, so their $x^2$ values differ from 9."
+  },
+  {
+    "id": "ma09-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercises 4 to 9: converses",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each proposition with the correct verdict on its **converse**.",
+    "image": {
+      "src": "/img/maths09/parabola.svg",
+      "alt": "A U-shaped curve on a grid with a dashed horizontal line"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "If $x = y$, then $x^2 = y^2$"
+      },
+      {
+        "id": "l2",
+        "text": "If $x = y$, then $x^3 = y^3$"
+      },
+      {
+        "id": "l3",
+        "text": "If $x = y$, then $a + x = a + y$"
+      },
+      {
+        "id": "l4",
+        "text": "If $n$ is divisible by 24, then it is divisible by both 4 and 6"
+      },
+      {
+        "id": "l5",
+        "text": "If $n$ is divisible by 60, then it is divisible by both 5 and 12"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "Converse false: $n = 12$"
+      },
+      {
+        "id": "r1",
+        "text": "Converse false: $x = -3,\\ y = 3$"
+      },
+      {
+        "id": "r5",
+        "text": "Converse true: 5 and 12 share no factor, so $5\\times 12 = 60$ divides $n$"
+      },
+      {
+        "id": "r3",
+        "text": "Converse true: subtract $a$ from both sides"
+      },
+      {
+        "id": "r2",
+        "text": "Converse true: different real numbers never have equal cubes"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "For each converse try a small example such as $-3$ and $3$, or $12$.",
+    "explanation": "$(-3)^2 = 3^2$ breaks the converse for squares, but cubes keep their sign, so $x^3 = y^3$ forces $x = y$. Subtracting $a$ from both sides gives the converse of Exercise 4, which is why we can solve equations. $12$ is divisible by 4 and 6 but not 24. Since 5 and 12 have no common factor, a number divisible by both is divisible by 60."
+  },
+  {
+    "id": "ma09-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 8: smallest counterexample",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "**Converse:** If $n$ is divisible by both 4 and 6, then $n$ is divisible by 24. Which is the **smallest positive** counterexample?",
+    "image": {
+      "src": "/img/maths09/ticks-4-6.svg",
+      "alt": "Two number lines with dots on multiples of 4 and multiples of 6"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "24"
+      },
+      {
+        "id": "c",
+        "text": "36"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find the first number that is a multiple of both 4 and 6; is it a multiple of 24?",
+    "explanation": "Numbers divisible by both 4 and 6 are the multiples of $\\text{lcm}(4, 6) = 12$: $12, 24, 36, \\dots$. The smallest is $12$, which is not divisible by 24, so it is the smallest counterexample. $24$ obeys the converse, and $4$ is not divisible by 6. $36$ is also a counterexample, but not the smallest."
+  },
+  {
+    "id": "ma09-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 10: exactly 3 factors",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Proposition:** If $n$ is the square of a prime number, then it has exactly 3 factors. Its converse is also true. Which of these numbers has **exactly 3 factors**?",
+    "image": {
+      "src": "/img/maths09/square-dots.svg",
+      "alt": "Counters laid out in squares and rectangles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "49"
+      },
+      {
+        "id": "b",
+        "text": "36"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "21"
+      }
+    ],
+    "answer": "a",
+    "hint": "The number must be the square of a prime.",
+    "explanation": "$49 = 7^2$ has factors $1, 7, 49$: exactly 3. $36 = 6^2$ is a square, but $6$ is not prime, so it has 9 factors. $30$ has 8 factors and $21 = 3\\times 7$ has 4. Being a perfect square is not enough; the square must be of a **prime** for there to be just three factors."
+  },
+  {
+    "id": "ma09-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 11: four divisors",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "**Proposition:** If $n$ is a product of two unequal primes, then it has exactly 4 divisors. Select **all** numbers below that have exactly 4 divisors.",
+    "image": {
+      "src": "/img/maths09/arrays.svg",
+      "alt": "Counters arranged in different rectangular arrays"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "8"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      },
+      {
+        "id": "e",
+        "text": "16"
+      },
+      {
+        "id": "f",
+        "text": "27"
+      },
+      {
+        "id": "g",
+        "text": "30"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "f"
+    ],
+    "hint": "List the divisors of each number: 8 gives 1, 2, 4, 8.",
+    "explanation": "$6$: $1, 2, 3, 6$. $8$: $1, 2, 4, 8$. $10$: $1, 2, 5, 10$. $27$: $1, 3, 9, 27$. All have 4 divisors. But $12$ has 6, $16$ has 5 and $30$ has 8. Note that $8 = 2^3$ and $27 = 3^3$ are not products of two unequal primes, so the converse of the proposition is **false**."
+  },
+  {
+    "id": "ma09-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 11: converse",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Converse:** If $n$ has exactly 4 divisors, then $n$ is a product of two unequal primes. Which number is a **counterexample**?",
+    "image": {
+      "src": "/img/maths09/arrays.svg",
+      "alt": "Counters arranged in different rectangular arrays"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "8"
+      },
+      {
+        "id": "d",
+        "text": "15"
+      }
+    ],
+    "answer": "c",
+    "hint": "Look for a number with 4 divisors that is not of the form $p\\times q$.",
+    "explanation": "$8$ has exactly 4 divisors, $1, 2, 4, 8$, but $8 = 2\\times 2\\times 2$ is not a product of two **unequal** primes, so it is a counterexample. The numbers $6 = 2\\times 3$, $10 = 2\\times 5$ and $15 = 3\\times 5$ each have 4 divisors and are products of two unequal primes, so they fit the converse."
+  },
+  {
+    "id": "ma09-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 12: converse",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "**Proposition:** If $n$ and $n+3$ have no common factor other than 1, then $n$ is not a multiple of 3. What is true of its converse: if $n$ is not a multiple of 3, then $n$ and $n+3$ have no common factor other than 1?",
+    "image": {
+      "src": "/img/maths09/grid30.svg",
+      "alt": "A grid of the numbers 1 to 30 with the multiples of 3 shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "False: $n = 9$ gives 9 and 12, which share the factor 3."
+      },
+      {
+        "id": "b",
+        "text": "False, because converses of true statements are always false."
+      },
+      {
+        "id": "c",
+        "text": "True: a common factor of $n$ and $n+3$ also divides 3, so it could only be 3, which does not divide $n$."
+      },
+      {
+        "id": "d",
+        "text": "It cannot be decided without checking every $n$."
+      }
+    ],
+    "answer": "c",
+    "hint": "Any common factor of $n$ and $n+3$ divides their difference.",
+    "explanation": "A common factor of $n$ and $n+3$ divides $(n+3) - n = 3$, so it is 1 or 3. If $n$ is not a multiple of 3, it cannot be 3, so it is 1: the converse is **true**. The case $n = 9$ is not a test, since 9 *is* a multiple of 3. Converses of true statements are sometimes true, so no general rule 'always false' exists."
+  },
+  {
+    "id": "ma09-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 13(ii): neat expressions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "**Claim:** all numbers of the form $n^2 + n + 11$ are prime. What is the **smallest positive** value of $n$ that is a counterexample?",
+    "image": {
+      "src": "/img/maths09/prime-machine.svg",
+      "alt": "A machine with a spinning gear taking a number n in and sending an unknown result out"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "9"
+      },
+      {
+        "id": "c",
+        "text": "11"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "a",
+    "hint": "Try $n = 1, 2, 3, \\dots$ and stop at the first composite result.",
+    "explanation": "For $n = 1$ to $9$ the values are $13, 17, 23, 31, 41, 53, 67, 83, 101$, all prime. For $n = 10$: $100 + 10 + 11 = 121 = 11^2$, which is composite, so $n = 10$ is the smallest counterexample. $n = 11$ gives $143 = 11\\times 13$, also composite but not the smallest, and $n = 9$ gives the prime 101."
+  },
+  {
+    "id": "ma09-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercises 13 and 14: counterexamples",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each false claim with a counterexample.",
+    "image": {
+      "src": "/img/maths09/prime-machine.svg",
+      "alt": "A machine with a spinning gear taking a number n in and sending an unknown result out"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$4n^2 + 1$ is prime for every $n$"
+      },
+      {
+        "id": "l2",
+        "text": "$n^2 + n + 11$ is prime for every $n$"
+      },
+      {
+        "id": "l3",
+        "text": "$4^n + 3$ is prime for every $n$"
+      },
+      {
+        "id": "l4",
+        "text": "If $n$ is prime, then $2^n - 1$ is prime"
+      },
+      {
+        "id": "l5",
+        "text": "If $n$ is even, then $2^n + 1$ is prime"
+      }
+    ],
+    "right": [
+      {
+        "id": "r5",
+        "text": "$n = 10$, giving $1025 = 25\\times 41$"
+      },
+      {
+        "id": "r3",
+        "text": "$n = 4$, giving $259 = 7\\times 37$"
+      },
+      {
+        "id": "r1",
+        "text": "$n = 4$, giving $65 = 5\\times 13$"
+      },
+      {
+        "id": "r4",
+        "text": "$n = 11$, giving $2047 = 23\\times 89$"
+      },
+      {
+        "id": "r2",
+        "text": "$n = 10$, giving $121 = 11\\times 11$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Substitute each $n$ and see which gives a composite result.",
+    "explanation": "Each right-hand option substitutes a value that makes the formula composite: $4\\times 4^2 + 1 = 65$; $10^2 + 10 + 11 = 121$; $4^4 + 3 = 259$; $2^{11} - 1 = 2047$; $2^{10} + 1 = 1025$. Earlier values often give primes (for example $4\\times 2^2 + 1 = 17$), but one failure is enough to disprove each claim."
+  },
+  {
+    "id": "ma09-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 15: divisible by 8",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Ravi tests whether a number is divisible by 8 by checking only that it is divisible by 2 and by 4. Which number **fools** his test?",
+    "image": {
+      "src": "/img/maths09/ticks-248.svg",
+      "alt": "Three number lines with dots marking multiples of 2, 4 and 8"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "b",
+        "text": "24"
+      },
+      {
+        "id": "c",
+        "text": "40"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "d",
+    "hint": "Divisible by 8 means divisible by 2, 4 **and** more. Which number is a multiple of 4 but not of 8?",
+    "explanation": "If a number is divisible by 8 it is divisible by 2 and 4, but the converse fails: $12 = 4\\times 3$ is divisible by 2 and 4, yet $12 \\div 8$ is not whole. $16, 24$ and $40$ are multiples of 8. So checking 2 and 4 is not enough; we need a stronger test (for example, the last three digits)."
+  },
+  {
+    "id": "ma09-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 16: divisibility by 3",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The digit-sum shortcut links 'a number is divisible by 3' and 'its digit sum is a multiple of 3'. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths09/digit-sum.svg",
+      "alt": "A four-digit number broken into its digits that are added up"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "If a number is divisible by 3, then its digit sum is a multiple of 3."
+      },
+      {
+        "id": "b",
+        "text": "If the digit sum of a number is a multiple of 3, then the number is divisible by 3."
+      },
+      {
+        "id": "c",
+        "text": "If the digit sum is a multiple of 3, then the number is divisible by 9."
+      },
+      {
+        "id": "d",
+        "text": "A number is divisible by 3 exactly when its digit sum is a multiple of 3."
+      },
+      {
+        "id": "e",
+        "text": "If the digit sum is 12, then the number is not divisible by 3."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Test 12: its digit sum is 3.",
+    "explanation": "The shortcut works both ways: divisible by 3 implies digit sum a multiple of 3, and the converse is true too, so the two conditions are equivalent. Digit sum 12 is a multiple of 3, so the number *is* divisible by 3, not the opposite. The claim about 9 fails: $12$ has digit sum 3 but is not divisible by 9."
+  },
+  {
+    "id": "ma09-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 17(i): equal diagonals",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two thin sticks are crossed to form the diagonals of a quadrilateral of type $Q$. Every quadrilateral of type $Q$ has equal-length diagonals. Which statement is correct?",
+    "image": {
+      "src": "/img/maths09/sticks.svg",
+      "alt": "Two thin sticks laid across each other, one of them swaying"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The sticks can have any lengths."
+      },
+      {
+        "id": "b",
+        "text": "The two sticks must be of equal length, but equal sticks alone do not guarantee type $Q$."
+      },
+      {
+        "id": "c",
+        "text": "Equal sticks, joined in any way, always make a $Q$."
+      },
+      {
+        "id": "d",
+        "text": "The sticks must be of different lengths."
+      }
+    ],
+    "answer": "b",
+    "hint": "The property only says 'if $Q$ then equal diagonals'. It does not say 'if equal diagonals then $Q$'.",
+    "explanation": "The property says every $Q$ has equal diagonals, so equal sticks are **necessary** for making a $Q$. But it is not the converse 'equal diagonals imply $Q$', so equal sticks do not guarantee type $Q$; how they are crossed may matter (for example, a rectangle needs the sticks to cross at their midpoints)."
+  },
+  {
+    "id": "ma09-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Exercise 17(ii): converse property",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Now suppose $Q$ satisfies: **if a quadrilateral has equal diagonals, then it is of type $Q$.** You join two sticks of equal length as diagonals. What can you say?",
+    "image": {
+      "src": "/img/maths09/sticks.svg",
+      "alt": "Two thin sticks laid across each other, one of them swaying"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The result is type $Q$ only if the sticks cross at their midpoints."
+      },
+      {
+        "id": "b",
+        "text": "The result is never type $Q$."
+      },
+      {
+        "id": "c",
+        "text": "The result is type $Q$ only if the sticks are unequal."
+      },
+      {
+        "id": "d",
+        "text": "The result is always type $Q$, however the sticks are crossed."
+      }
+    ],
+    "answer": "d",
+    "hint": "Equal sticks give a quadrilateral with equal diagonals.",
+    "explanation": "Equal sticks always give a quadrilateral with equal diagonals, and the property says any such quadrilateral is of type $Q$. So with equal sticks, it **does not matter** how they are put together. This is the opposite of part (i), where the 'if' part was 'type $Q$' and the way of joining could matter."
+  },
+  {
+    "id": "ma09-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Squares and rectangles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "**Exercise 2:** 'If a quadrilateral is a square, then all its angles are equal' is true, but its converse is false. Tap the region where a **counterexample** to the converse lies (all angles equal, not a square).",
+    "image": {
+      "src": "/img/maths09/nested-quads.svg",
+      "alt": "Nested boxes for four families of shapes, with numbered markers in different regions"
+    },
+    "spots": [
+      {
+        "id": "rectonly",
+        "x": 30.0,
+        "y": 65.4,
+        "label": "Region A"
+      },
+      {
+        "id": "square",
+        "x": 67.5,
+        "y": 68.5,
+        "label": "Region B"
+      },
+      {
+        "id": "para",
+        "x": 62.5,
+        "y": 24.2,
+        "label": "Region C"
+      },
+      {
+        "id": "quad",
+        "x": 82.5,
+        "y": 10.4,
+        "label": "Region D"
+      }
+    ],
+    "answer": "rectonly",
+    "hint": "A quadrilateral with four equal angles is a rectangle.",
+    "explanation": "Equal angles of $90^\\circ$ make a **rectangle**. The counterexamples are rectangles that are not squares, the part of the 'Rectangles' box outside the 'Squares' box. Squares lie inside this box too, so they obey the converse; parallelograms and general quadrilaterals have unequal angles."
+  },
+  {
+    "id": "ma09-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Propositions and their converses",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each proposition with its **converse**.",
+    "image": {
+      "src": "/img/maths09/if-then.svg",
+      "alt": "A box X with an arrow to a box Y and a dashed arrow coming back"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "If it rains, then the road is wet"
+      },
+      {
+        "id": "l2",
+        "text": "If two lines are parallel, then corresponding angles formed by a transversal are equal"
+      },
+      {
+        "id": "l3",
+        "text": "If a triangle is right-angled, then $a^2 + b^2 = c^2$"
+      },
+      {
+        "id": "l4",
+        "text": "If a quadrilateral is a square, then all its angles are equal"
+      },
+      {
+        "id": "l5",
+        "text": "If $x = y$, then $a + x = a + y$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "If all angles of a quadrilateral are equal, then it is a square"
+      },
+      {
+        "id": "r2",
+        "text": "If corresponding angles formed by a transversal are equal, then the two lines are parallel"
+      },
+      {
+        "id": "r5",
+        "text": "If $a + x = a + y$, then $x = y$"
+      },
+      {
+        "id": "r1",
+        "text": "If the road is wet, then it has rained"
+      },
+      {
+        "id": "r3",
+        "text": "If $a^2 + b^2 = c^2$, then the triangle is right-angled"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "A converse keeps the same two ideas and just swaps which is the 'if' part.",
+    "explanation": "Each converse is found by swapping the 'if' part and the 'then' part. A converse is not the same as the inverse (both parts negated) or the contrapositive. Of these five, the converses about the road and about the square are false; the other three are true."
+  },
+  {
+    "id": "ma09-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Key terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term from the chapter with its meaning.",
+    "image": {
+      "src": "/img/maths09/statements.svg",
+      "alt": "Four cards showing a question mark, an exclamation mark, a triangle and a speech bubble"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Proposition"
+      },
+      {
+        "id": "l2",
+        "text": "Converse of 'if X then Y'"
+      },
+      {
+        "id": "l3",
+        "text": "Counterexample"
+      },
+      {
+        "id": "l4",
+        "text": "'Y when X'"
+      },
+      {
+        "id": "l5",
+        "text": "Euler's discovery"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "An example that contradicts a stated proposition"
+      },
+      {
+        "id": "r5",
+        "text": "$2^{2^5} + 1$ is composite, disproving Fermat's claim"
+      },
+      {
+        "id": "r1",
+        "text": "A statement that is either true or false"
+      },
+      {
+        "id": "r4",
+        "text": "Has the same meaning as 'if X then Y'"
+      },
+      {
+        "id": "r2",
+        "text": "The statement 'if Y then X'"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Think of the road example for the converse and counterexample.",
+    "explanation": "A **proposition** is true or false; the **converse** swaps the parts of 'if X then Y'; a **counterexample** is a case where the 'if' part holds and the 'then' part fails. 'Y when X' is another way of saying 'if X then Y', and Euler's single counterexample showed Fermat's claim about $2^{2^n} + 1$ is false."
+  },
+  {
+    "id": "ma09-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Disproving a claim",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for showing that a claim of the form 'if P, then Q' is **false**.",
+    "image": {
+      "src": "/img/maths09/prime-machine.svg",
+      "alt": "A machine with a spinning gear taking a number n in and sending an unknown result out"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Check whether Q also holds in each case"
+      },
+      {
+        "id": "s5",
+        "text": "State that case as the counterexample: the claim is false"
+      },
+      {
+        "id": "s1",
+        "text": "Read the claim carefully as 'if P then Q'"
+      },
+      {
+        "id": "s4",
+        "text": "Find a case where P holds but Q fails"
+      },
+      {
+        "id": "s2",
+        "text": "Try some values or cases that satisfy P"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "A counterexample needs P to be true and Q to be false.",
+    "explanation": "To disprove a proposition we look for a case where the 'if' part P is true but the 'then' part Q is false. We test cases satisfying P, check Q, and as soon as Q fails we have a **counterexample**, which settles the claim. Only one is needed, such as $n = 10$ for $n^2 + n + 11$."
+  },
+  {
+    "id": "ma09-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "False propositions and converses",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths09/cases4.svg",
+      "alt": "Four cards each showing P and Q with a tick or a cross"
+    },
+    "assertion": "If a proposition is false, then its converse is also false.",
+    "reason": "'If a number is prime, then it is odd' is false, and its converse 'if a number is odd, then it is prime' is also false.",
+    "answer": "d",
+    "hint": "Think of two triangles with the same area.",
+    "explanation": "R is true: 2 is prime but even, and 9 is odd but not prime. But A is **false**: 'if two triangles have the same area, then they are congruent' is false while its converse, 'if two triangles are congruent, then they have the same area', is true. One example where both fail does not show that it always happens."
+  },
+  {
+    "id": "ma09-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Propositions and Their Converses",
+    "chapterNo": 9,
+    "topic": "Fermat and Euler",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths09/fermat.svg",
+      "alt": "Values of a number pattern for n from 0 to 4 and a question mark for n equal to 5"
+    },
+    "assertion": "Fermat's claim that every number $2^{2^n} + 1$ is prime is false.",
+    "reason": "Euler showed $2^{2^5} + 1$ is composite, and one such example is enough to disprove a claim.",
+    "answer": "a",
+    "hint": "How many failures does it take to disprove a 'for every $n$' claim?",
+    "explanation": "Both statements are true and R explains A. Euler's single counterexample, $n = 5$, makes the claim false even though it holds for $n = 0, 1, 2, 3, 4$. This is why **counterexamples** are a short, convincing way to show a proposition is false."
+  }
+]

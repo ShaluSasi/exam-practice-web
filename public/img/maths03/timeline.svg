@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>An empty timeline with six slots and an hourglass</title>
+<style>
+.sand{transform-box:fill-box;transform-origin:50% 100%;animation:sd 3s linear infinite}@keyframes sd{from{transform:scaleY(1)}to{transform:scaleY(.2)}}
+.hg{transform-box:fill-box;transform-origin:center;animation:fl 6s ease-in-out infinite}@keyframes fl{0%,45%{transform:rotate(0)}50%,95%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="hg"><path d="M50 70h60M50 190h60" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/><path d="M58 72q0 40 22 58q-22 18 -22 58h44q0 -40 -22 -58q22 -18 22 -58z" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="3"/><path class="sand" d="M64 90q16 30 16 40q0 -10 16 -40z" fill="#F6C453"/><path d="M66 186q14 -22 14 -36q0 14 14 36z" fill="#F6C453"/></g>
+<path d="M150 130h510" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round"/><path d="M646 116l18 14l-18 14" fill="none" stroke="#2B2F4A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="190" cy="130" r="22" fill="#fff" stroke="#0B93D4" stroke-width="3" stroke-dasharray="7 5"/><circle cx="275" cy="130" r="22" fill="#fff" stroke="#0B93D4" stroke-width="3" stroke-dasharray="7 5"/><circle cx="360" cy="130" r="22" fill="#fff" stroke="#0B93D4" stroke-width="3" stroke-dasharray="7 5"/><circle cx="445" cy="130" r="22" fill="#fff" stroke="#0B93D4" stroke-width="3" stroke-dasharray="7 5"/><circle cx="530" cy="130" r="22" fill="#fff" stroke="#0B93D4" stroke-width="3" stroke-dasharray="7 5"/><circle cx="615" cy="130" r="22" fill="#fff" stroke="#0B93D4" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="190" y="190" font-size="18" text-anchor="middle" fill="#2B2F4A">Earliest</text><text x="615" y="190" font-size="18" text-anchor="middle" fill="#2B2F4A">Latest</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A square of side a with a strip of width b moved to its side</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.mv{animation:sh 4s ease-in-out infinite}@keyframes sh{0%,100%{opacity:1}50%{opacity:.55}}.ar{animation:da 2s linear infinite}@keyframes da{to{stroke-dashoffset:-24}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="110" y="60" width="180" height="140" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect class="mv" x="290" y="60" width="40" height="140" fill="#F27BB0" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="110" y="200" width="140" height="40" fill="none" stroke="#F27BB0" stroke-width="2.5" stroke-dasharray="6 5"/>
+<rect x="250" y="200" width="40" height="40" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<path class="ar" d="M180.0 252Q350 300 310.0 206" stroke="#E5484D" stroke-width="2.5" fill="none" stroke-dasharray="6 6"/>
+<path d="M304.0 216L310.0 205L317.0 215" stroke="#E5484D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M118 44L112 48L118 52M112 48H288M282 44L288 48L282 52" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="200" y="40" font-size="15" text-anchor="middle">a</text>
+<path d="M298 44L292 48L298 52M292 48H328M322 44L328 48L322 52" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="310" y="40" font-size="15" text-anchor="middle">b</text>
+<path d="M94 68L98 62L102 68M98 62V238M94 232L98 238L102 232" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="90" y="155" font-size="15" text-anchor="end">a</text>
+<path d="M340 208L344 202L348 208M344 202V238M340 232L344 238L348 232" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="352" y="225" font-size="15" text-anchor="start">b</text>
+</svg>

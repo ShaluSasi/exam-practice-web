@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 310" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A long division of 1 by 13 that has just begun</title>
+<style>
+.pen{animation:pn 1.4s ease-in-out infinite}@keyframes pn{50%{transform:translateX(30px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="40" y="30" width="520" height="250" rx="10" fill="#fff" stroke="#A3A8CC" stroke-width="2"/>
+<text x="100" y="130" font-size="34" text-anchor="middle" fill="#2B2F4A">13</text><path d="M130 92q14 20 0 50" fill="none" stroke="#2B2F4A" stroke-width="3"/><path d="M132 92h330" stroke="#2B2F4A" stroke-width="3"/>
+<text x="150" y="130" font-size="34" text-anchor="start" fill="#2B2F4A">1.0 0 0 0 0 0 0 …</text>
+<text x="150" y="80" font-size="34" text-anchor="start" fill="#0B93D4">0.0 7 6 …</text>
+<path d="M150 190h160" stroke="#2B2F4A" stroke-width="2" stroke-dasharray="6 6"/><path class="pen" d="M330 240l60 -60l14 14l-60 60l-20 6z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

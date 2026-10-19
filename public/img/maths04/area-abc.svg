@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A square of side a plus b plus c cut into nine pieces</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.out{animation:mv 3s linear infinite}@keyframes mv{to{stroke-dashoffset:-36}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="130" y="55" width="115" height="115" fill="#F28B6B" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="245" y="55" width="70" height="115" fill="#F6B26B" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="315" y="55" width="45" height="115" fill="#A98FD8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="130" y="170" width="115" height="70" fill="#F6B26B" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="245" y="170" width="70" height="70" fill="#F6DC6B" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="315" y="170" width="45" height="70" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="130" y="240" width="115" height="45" fill="#A98FD8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="245" y="240" width="70" height="45" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="315" y="240" width="45" height="45" fill="#6FC3D6" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect class="out" x="130" y="55" width="230" height="230" fill="none" stroke="#0B93D4" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M138 39L132 43L138 47M132 43H243M237 39L243 43L237 47" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="187.5" y="35" font-size="16" text-anchor="middle">a</text>
+<path d="M253 39L247 43L253 47M247 43H313M307 39L313 43L307 47" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="280" y="35" font-size="16" text-anchor="middle">b</text>
+<path d="M323 39L317 43L323 47M317 43H358M352 39L358 43L352 47" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="337.5" y="35" font-size="16" text-anchor="middle">c</text>
+<path d="M114 63L118 57L122 63M118 57V168M114 162L118 168L122 162" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="110" y="117.5" font-size="16" text-anchor="end">a</text>
+<path d="M114 178L118 172L122 178M118 172V238M114 232L118 238L122 232" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="110" y="210" font-size="16" text-anchor="end">b</text>
+<path d="M114 248L118 242L122 248M118 242V283M114 277L118 283L122 277" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="110" y="267.5" font-size="16" text-anchor="end">c</text>
+</svg>

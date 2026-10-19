@@ -1,0 +1,2140 @@
+[
+  {
+    "id": "ma07-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Subjective probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Two friends look at the same sky. Asha says, “It is bright and sunny, so rain is unlikely.” Ravi says, “It is very hot, so I think it may rain later.” Each is judging the chance of rain from what they personally see, without counting trials or equal outcomes. What kind of probability are they giving?",
+    "image": {
+      "src": "/img/maths07/weather.svg",
+      "alt": "Two friends and a sky with a sun and a cloud"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Theoretical probability, because all outcomes are equally likely"
+      },
+      {
+        "id": "b",
+        "text": "Experimental probability, because they repeated an experiment many times"
+      },
+      {
+        "id": "c",
+        "text": "Subjective probability, a personal judgement based on the evidence they see"
+      },
+      {
+        "id": "d",
+        "text": "A probability of exactly $\\dfrac{1}{2}$, because it either rains or it does not"
+      }
+    ],
+    "answer": "c",
+    "hint": "Ask whether they counted trials, or reasoned with equally likely outcomes, or simply formed an opinion.",
+    "explanation": "Estimates based on how a person reads the situation are **subjective probability**. Rain is not an equally likely two-outcome event, so the idea that \"rain or no rain\" must be $\\dfrac{1}{2}$ is a common slip. Experimental and theoretical probability need repeated trials or equally likely outcomes, which neither friend used."
+  },
+  {
+    "id": "ma07-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Probability scale",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A school's chance of winning tomorrow's hockey match is given as $0.75$. Where does this sit on the probability scale, and what does it tell us?",
+    "image": {
+      "src": "/img/maths07/scale.svg",
+      "alt": "A probability scale running from 0 to 1"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is more likely than not that the school wins (a 75% chance)"
+      },
+      {
+        "id": "b",
+        "text": "Winning and losing are equally likely"
+      },
+      {
+        "id": "c",
+        "text": "The school is certain to win"
+      },
+      {
+        "id": "d",
+        "text": "Winning is less likely than losing"
+      }
+    ],
+    "answer": "a",
+    "hint": "A value close to 1 means the event is likely; 0.5 means an even chance.",
+    "explanation": "Probability runs from $0$ (impossible) to $1$ (certain), and $0.75 = 75\\%$ lies between the even chance $0.5$ and certainty $1$. So winning is **more likely than not**, but not guaranteed. Equally likely would need $0.5$, and certain would need exactly $1$."
+  },
+  {
+    "id": "ma07-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Probability scale",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the place on this probability scale where the event **“rolling a 7 on one standard die”** belongs.",
+    "image": {
+      "src": "/img/maths07/scale.svg",
+      "alt": "A probability scale with numbered markers above it"
+    },
+    "spots": [
+      {
+        "id": "p0",
+        "x": 10,
+        "y": 44,
+        "label": "0"
+      },
+      {
+        "id": "p25",
+        "x": 30,
+        "y": 44,
+        "label": "0.25"
+      },
+      {
+        "id": "p50",
+        "x": 50,
+        "y": 44,
+        "label": "0.5"
+      },
+      {
+        "id": "p75",
+        "x": 70,
+        "y": 44,
+        "label": "0.75"
+      },
+      {
+        "id": "p1",
+        "x": 90,
+        "y": 44,
+        "label": "1"
+      }
+    ],
+    "answer": "p0",
+    "hint": "How many faces of a standard die show a 7?",
+    "explanation": "A standard die only has the numbers $1$ to $6$, so a $7$ can never appear. An **impossible event** has probability $0$, the left end of the scale. $1$ would mean certain, and $0.5$ would be an even chance."
+  },
+  {
+    "id": "ma07-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Theoretical probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A deck of six cards has only purple and green cards. In this deck, 4 cards are purple and 2 are green. One card is drawn at random. What is the probability that it is purple?",
+    "image": {
+      "src": "/img/maths07/cards-six.svg",
+      "alt": "Six playing cards in a row, some purple and some green"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{2}{5}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{2}{3}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Favourable outcomes divided by all possible outcomes.",
+    "explanation": "$P(\\text{purple}) = \\dfrac{\\text{purple cards}}{\\text{all cards}} = \\dfrac{4}{6} = \\dfrac{2}{3}$. The value $\\dfrac{1}{3}$ is the probability of green, and $\\dfrac{2}{5}$ comes from wrongly adding the 4 purple cards to the 6 cards in the denominator."
+  },
+  {
+    "id": "ma07-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Probability scale",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "From a deck of 52 cards, 36 cards carry the numbers 2 to 10. Tap where the event **“drawing a card numbered 2 to 10”** sits on the scale.",
+    "image": {
+      "src": "/img/maths07/scale.svg",
+      "alt": "A probability scale with numbered markers above it"
+    },
+    "spots": [
+      {
+        "id": "z",
+        "x": 10,
+        "y": 44,
+        "label": "0"
+      },
+      {
+        "id": "sixth",
+        "x": 23.33,
+        "y": 44,
+        "label": "about 0.17"
+      },
+      {
+        "id": "half",
+        "x": 50,
+        "y": 44,
+        "label": "0.5"
+      },
+      {
+        "id": "m69",
+        "x": 65.38,
+        "y": 44,
+        "label": "about 0.69"
+      },
+      {
+        "id": "one",
+        "x": 90,
+        "y": 44,
+        "label": "1"
+      }
+    ],
+    "answer": "m69",
+    "hint": "Work out $\\dfrac{36}{52}$ as a decimal first.",
+    "explanation": "$P = \\dfrac{36}{52} = \\dfrac{9}{13} \\approx 0.69$, which is more than $0.5$ but less than $1$, so the event is **more likely** than not yet not certain. A value of $0.5$ would need only 26 such cards, and $1$ would need all 52."
+  },
+  {
+    "id": "ma07-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Range of probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion (A) and the reason (R) and choose the correct option.",
+    "image": {
+      "src": "/img/maths07/scale.svg",
+      "alt": "A probability scale running from 0 to 1"
+    },
+    "assertion": "The probability of an event can **never** be $1.3$.",
+    "reason": "Probability is measured on a scale from $0$ to $1$, so for every event $E$ we have $0 \\le P(E) \\le 1$.",
+    "answer": "a",
+    "hint": "Is 1.3 inside the interval from 0 to 1?",
+    "explanation": "Both statements are true. Because every probability must satisfy $0 \\le P(E) \\le 1$, a value like $1.3$ is outside the scale, so it is impossible; R is exactly the reason for A."
+  },
+  {
+    "id": "ma07-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Range of probability",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these numbers can be the probability of an event? Select **all** that can.",
+    "image": {
+      "src": "/img/maths07/scale.svg",
+      "alt": "A probability scale running from 0 to 1"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{7}{5}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.83$"
+      },
+      {
+        "id": "d",
+        "text": "$-0.2$"
+      },
+      {
+        "id": "e",
+        "text": "$1$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "A probability must lie between 0 and 1, both included.",
+    "explanation": "Valid probabilities satisfy $0 \\le P \\le 1$. So $0$ (impossible), $0.83$ and $1$ (certain) are possible. $\\dfrac{7}{5} = 1.4$ is above $1$, and $-0.2$ is below $0$, so neither can be a probability."
+  },
+  {
+    "id": "ma07-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Experimental probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A die was rolled 50 times and this chart shows how many times each face turned up. What is the experimental probability of getting a 4?",
+    "image": {
+      "src": "/img/maths07/die-tally.svg",
+      "alt": "A bar chart with one bar for each face of a die"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$0.16$"
+      },
+      {
+        "id": "c",
+        "text": "$6.25$"
+      },
+      {
+        "id": "d",
+        "text": "$0.08$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Read the bar for Face 4 and divide by the total number of rolls.",
+    "explanation": "Face 4 appeared 8 times in 50 trials, so the experimental probability is $\\dfrac{8}{50} = 0.16$. Using $\\dfrac{1}{6} \\approx 0.167$ gives the **theoretical** value, not the experimental one. Dividing 50 by 8 inverts the ratio, and dividing by 100 gives $0.08$."
+  },
+  {
+    "id": "ma07-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Experimental vs theoretical",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion (A) and the reason (R) and choose the correct option.",
+    "image": {
+      "src": "/img/maths07/die.svg",
+      "alt": "A die rolling and showing different faces"
+    },
+    "assertion": "A fair die is rolled 12 times and shows a 3 on three rolls. The experimental probability of a 3 is $\\dfrac{1}{4}$, even though the theoretical probability is $\\dfrac{1}{6}$.",
+    "reason": "Experimental probability depends on the actual results of the trials done, so with few trials it can differ from the theoretical value.",
+    "answer": "a",
+    "hint": "Compare 3 out of 12 with 1 out of 6.",
+    "explanation": "$\\dfrac{3}{12} = \\dfrac{1}{4}$ and the theoretical value is $\\dfrac{1}{6}$, so A is true. R is true and explains why: with only 12 trials, chance variation can push the experimental value away from $\\dfrac{1}{6}$. With many more rolls it would settle close to $\\dfrac{1}{6}$."
+  },
+  {
+    "id": "ma07-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Law of Large Numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A fair die is rolled 6000 times. About how many times would you expect a 4 to appear?",
+    "image": {
+      "src": "/img/maths07/die.svg",
+      "alt": "A die rolling and showing different faces"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "About $1500$ times"
+      },
+      {
+        "id": "b",
+        "text": "About $1000$ times"
+      },
+      {
+        "id": "c",
+        "text": "About $960$ times"
+      },
+      {
+        "id": "d",
+        "text": "About $600$ times"
+      }
+    ],
+    "answer": "b",
+    "hint": "Multiply the theoretical probability of a 4 by the number of rolls.",
+    "explanation": "For a fair die $P(4) = \\dfrac{1}{6}$, and in the long run the share of 4s gets close to this (the **Law of Large Numbers**). Expected count $= \\dfrac{1}{6} \\times 6000 = 1000$. Dividing 6000 by 4 gives $1500$, and $960$ would come from reusing the experimental $0.16$ from only 50 rolls."
+  },
+  {
+    "id": "ma07-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Statistical probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In a class survey of **50 students** the probability that a randomly chosen student likes one fruit best is $0.2$. Tap the bar of that fruit.",
+    "image": {
+      "src": "/img/maths07/fruit-bars.svg",
+      "alt": "A bar chart of favourite fruits with numbered markers on the bars"
+    },
+    "spots": [
+      {
+        "id": "mango",
+        "x": 24.25,
+        "y": 46.15,
+        "label": "Mango"
+      },
+      {
+        "id": "apple",
+        "x": 44.75,
+        "y": 54.42,
+        "label": "Apple"
+      },
+      {
+        "id": "banana",
+        "x": 65.25,
+        "y": 62.69,
+        "label": "Banana"
+      },
+      {
+        "id": "grapes",
+        "x": 85.75,
+        "y": 70.96,
+        "label": "Grapes"
+      }
+    ],
+    "answer": "banana",
+    "hint": "Probability $0.2$ of 50 students means how many students?",
+    "explanation": "$0.2 \\times 50 = 10$ students, and the bar that reaches $10$ is **banana**. Mango has $\\dfrac{20}{50} = 0.4$, apple $\\dfrac{15}{50} = 0.3$ and grapes $\\dfrac{5}{50} = 0.1$."
+  },
+  {
+    "id": "ma07-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Statistical probability",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "In a sample of 40 students, favourite clubs were counted as shown. Match each club with the probability that a randomly chosen student from the sample prefers it.",
+    "image": {
+      "src": "/img/maths07/clubs.svg",
+      "alt": "A bar chart of favourite clubs with counts above the bars"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Science Club"
+      },
+      {
+        "id": "l2",
+        "text": "Arts Club"
+      },
+      {
+        "id": "l3",
+        "text": "Sports Club"
+      },
+      {
+        "id": "l4",
+        "text": "Debate Club"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$\\dfrac{9}{40} = 0.225$"
+      },
+      {
+        "id": "r1",
+        "text": "$\\dfrac{14}{40} = 0.35$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{6}{40} = 0.15$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{11}{40} = 0.275$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Probability = students who chose it divided by 40.",
+    "explanation": "Each probability is the relative frequency: Science $\\dfrac{14}{40} = 0.35$, Arts $\\dfrac{11}{40} = 0.275$, Sports $\\dfrac{9}{40} = 0.225$ and Debate $\\dfrac{6}{40} = 0.15$. They add up to $1$, as all outcomes together must."
+  },
+  {
+    "id": "ma07-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Estimating from a sample",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The bar chart shows the favourite fruits of a sample of 50 students. The whole school has 1500 students. Using the sample, about how many bananas should be bought for the school?",
+    "image": {
+      "src": "/img/maths07/fruit-bars.svg",
+      "alt": "A bar chart of favourite fruits"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$150$"
+      },
+      {
+        "id": "b",
+        "text": "$450$"
+      },
+      {
+        "id": "c",
+        "text": "$600$"
+      },
+      {
+        "id": "d",
+        "text": "$300$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find the sample probability for bananas, then scale up to 1500.",
+    "explanation": "In the sample, bananas have $\\dfrac{10}{50} = 0.2$, so the estimate is $0.2 \\times 1500 = 300$. A value of $150$ belongs to grapes ($\\dfrac{5}{50}$), $450$ to apples ($\\dfrac{15}{50}$) and $600$ to mangoes ($\\dfrac{20}{50}$), so reading the wrong bar is the trap."
+  },
+  {
+    "id": "ma07-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sampling",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put these steps in the right order to estimate how many mangoes to buy for a whole school from a class survey.",
+    "image": {
+      "src": "/img/maths07/sample-pop.svg",
+      "alt": "A crowd of dots with some highlighted"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Multiply that probability by the number of students in the school"
+      },
+      {
+        "id": "s1",
+        "text": "Ask a sample of students for their favourite fruit"
+      },
+      {
+        "id": "s5",
+        "text": "Round the result to an approximate quantity to buy"
+      },
+      {
+        "id": "s3",
+        "text": "Treat it as an estimate of the probability for the whole school"
+      },
+      {
+        "id": "s2",
+        "text": "Find the relative frequency of mango in the sample"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need a sample before you can count, and the population number comes in near the end.",
+    "explanation": "A sample gives a relative frequency such as $\\dfrac{20}{50} = 0.4$ for mango. We use it as the estimated probability for the school and multiply by $1500$ to get about $600$ mangoes. A bigger, more representative sample makes the estimate more reliable."
+  },
+  {
+    "id": "ma07-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Estimating from a sample",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A teacher picks a sample of 30 sweets from a large bag of 600 sweets. The sample has 10 red, 8 green, 7 yellow and 5 blue. Based on the sample, about how many yellow sweets are in the whole bag?",
+    "image": {
+      "src": "/img/maths07/sweets.svg",
+      "alt": "Rows of coloured sweets with a number for each colour"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$140$"
+      },
+      {
+        "id": "b",
+        "text": "$100$"
+      },
+      {
+        "id": "c",
+        "text": "$200$"
+      },
+      {
+        "id": "d",
+        "text": "$\\approx 86$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Probability of yellow in the sample, then multiply by 600.",
+    "explanation": "$P(\\text{yellow}) = \\dfrac{7}{30}$, so the estimate is $\\dfrac{7}{30} \\times 600 = 140$. Using the blue count gives $\\dfrac{5}{30} \\times 600 = 100$, using red gives $200$, and dividing $600 \\div 7 \\approx 86$ ignores the sample size of 30."
+  },
+  {
+    "id": "ma07-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Estimating from a sample",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In a sample of 40 students (see the chart), 9 prefer the Sports Club. The school has 800 students. Estimate how many students in the school are likely to prefer the Sports Club.",
+    "image": {
+      "src": "/img/maths07/clubs.svg",
+      "alt": "A bar chart of favourite clubs with counts above the bars"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$220$"
+      },
+      {
+        "id": "b",
+        "text": "$280$"
+      },
+      {
+        "id": "c",
+        "text": "$180$"
+      },
+      {
+        "id": "d",
+        "text": "$72$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Sample probability for Sports is 9 out of 40.",
+    "explanation": "$P(\\text{Sports}) = \\dfrac{9}{40}$, and the estimate is $\\dfrac{9}{40} \\times 800 = 180$. The values $220$ and $280$ come from the Arts ($\\dfrac{11}{40}$) and Science ($\\dfrac{14}{40}$) bars, and $72$ treats 9 as $9\\%$ of 800."
+  },
+  {
+    "id": "ma07-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Theoretical probability",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A letter is picked at random from the word PROBABILITY. What is the probability that it is a vowel?",
+    "image": {
+      "src": "/img/maths07/tiles-probability.svg",
+      "alt": "Eleven letter tiles in a row"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{11}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{4}{7}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{4}{11}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{5}{11}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Count the tiles that are vowels, repeated letters included.",
+    "explanation": "PROBABILITY has 11 letters, and the vowels are O, A, I, I, which is 4 tiles. So $P = \\dfrac{4}{11}$. Counting each vowel once gives $\\dfrac{3}{11}$, comparing vowels with consonants gives $\\dfrac{4}{7}$, and counting Y as a vowel gives $\\dfrac{5}{11}$."
+  },
+  {
+    "id": "ma07-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Theoretical probability",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The letters of the word PEACE are written on five cards. Leela picks a card without looking. What is the probability that it is a P, an E or a C?",
+    "image": {
+      "src": "/img/maths07/tiles-peace.svg",
+      "alt": "Five letter tiles in a row"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{4}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{3}{5}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{5}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Count cards, not different letters.",
+    "explanation": "The favourable cards are P (1), E (2) and C (1), which is 4 cards out of 5, so $P = \\dfrac{4}{5}$. Counting the letters P, E, C only once gives $\\dfrac{3}{5}$. The value $\\dfrac{1}{5}$ is the chance of the card A, the only one left out."
+  },
+  {
+    "id": "ma07-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Events on a spinner",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A spinner has eight equal sectors numbered 1 to 8. Tap the number that is **both odd and a multiple of 3**.",
+    "image": {
+      "src": "/img/maths07/spinner8.svg",
+      "alt": "A spinner wheel with numbered markers near the rim"
+    },
+    "spots": [
+      {
+        "id": "n6",
+        "x": 27.83,
+        "y": 64.13,
+        "label": "Sector 6"
+      },
+      {
+        "id": "n3",
+        "x": 72.17,
+        "y": 64.13,
+        "label": "Sector 3"
+      },
+      {
+        "id": "n1",
+        "x": 59.18,
+        "y": 15.89,
+        "label": "Sector 1"
+      },
+      {
+        "id": "n5",
+        "x": 40.82,
+        "y": 84.11,
+        "label": "Sector 5"
+      },
+      {
+        "id": "n8",
+        "x": 40.82,
+        "y": 15.89,
+        "label": "Sector 8"
+      }
+    ],
+    "answer": "n3",
+    "hint": "List the multiples of 3 from 1 to 8 first, then pick the odd one.",
+    "explanation": "The multiples of 3 between 1 and 8 are $3$ and $6$. Only $3$ is odd, since $6$ is even. Sectors 1, 5 and 8 are not multiples of 3 at all."
+  },
+  {
+    "id": "ma07-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Events on a spinner",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "The spinner stops at one of the eight equal sectors 1 to 8. Match each event with its probability.",
+    "image": {
+      "src": "/img/maths07/spinner8.svg",
+      "alt": "A spinner wheel with eight numbered sectors"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "The pointer stops at 8"
+      },
+      {
+        "id": "l2",
+        "text": "The pointer stops at an odd number"
+      },
+      {
+        "id": "l3",
+        "text": "The pointer stops at a multiple of 3"
+      },
+      {
+        "id": "l4",
+        "text": "The pointer stops at a number less than 9"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "r1",
+        "text": "$\\dfrac{1}{8}$"
+      },
+      {
+        "id": "r4",
+        "text": "$1$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Count the favourable sectors out of 8 for each event.",
+    "explanation": "Only one sector shows 8, giving $\\dfrac{1}{8}$. Odd numbers 1, 3, 5, 7 give $\\dfrac{4}{8} = \\dfrac{1}{2}$, multiples of 3 (3 and 6) give $\\dfrac{2}{8} = \\dfrac{1}{4}$, and every sector is below 9, so that event is **certain** with probability $1$."
+  },
+  {
+    "id": "ma07-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Theoretical probability",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A bag has 13 counters in four colours as shown. One counter is picked at random. Tap the colour whose probability is $\\dfrac{3}{13}$.",
+    "image": {
+      "src": "/img/maths07/counters.svg",
+      "alt": "Four stacks of coloured counters with numbered markers below them"
+    },
+    "spots": [
+      {
+        "id": "red",
+        "x": 17.5,
+        "y": 91.54,
+        "label": "Red"
+      },
+      {
+        "id": "yellow",
+        "x": 39,
+        "y": 91.54,
+        "label": "Yellow"
+      },
+      {
+        "id": "blue",
+        "x": 60.5,
+        "y": 91.54,
+        "label": "Blue"
+      },
+      {
+        "id": "green",
+        "x": 82,
+        "y": 91.54,
+        "label": "Green"
+      }
+    ],
+    "answer": "blue",
+    "hint": "Count the counters in each stack.",
+    "explanation": "Probability $\\dfrac{3}{13}$ means 3 counters out of 13, which is the stack of **blue** counters. Red has 5 ($\\dfrac{5}{13}$), yellow 4 ($\\dfrac{4}{13}$) and green 1 ($\\dfrac{1}{13}$)."
+  },
+  {
+    "id": "ma07-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Probability scale",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these events from the **least** likely to the **most** likely.",
+    "image": {
+      "src": "/img/maths07/scale.svg",
+      "alt": "A probability scale running from 0 to 1"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Getting heads on a fair coin"
+      },
+      {
+        "id": "s5",
+        "text": "Picking a red sweet from a bag holding only red sweets"
+      },
+      {
+        "id": "s1",
+        "text": "Rolling a number greater than 6 on a die"
+      },
+      {
+        "id": "s4",
+        "text": "Picking a card numbered 2 to 10 from a pack of 52"
+      },
+      {
+        "id": "s2",
+        "text": "Rolling a 3 on a die"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "Least likely",
+    "endLabel": "Most likely",
+    "hint": "Convert each event to a probability between 0 and 1.",
+    "explanation": "The probabilities are $0$, $\\dfrac{1}{6} \\approx 0.17$, $\\dfrac{1}{2}$, $\\dfrac{36}{52} \\approx 0.69$ and $1$. The first is impossible and the last is certain, with the others in between."
+  },
+  {
+    "id": "ma07-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Gambler's fallacy",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion (A) and the reason (R) and choose the correct option.",
+    "image": {
+      "src": "/img/maths07/coin-streak.svg",
+      "alt": "A row of coins followed by a question mark"
+    },
+    "assertion": "A fair coin shows heads six times in a row, so the next toss is **more likely** to be tails.",
+    "reason": "Each toss of a fair coin is independent of the tosses before it.",
+    "answer": "d",
+    "hint": "Does the coin remember what happened before?",
+    "explanation": "A is false, since the chance of tails on the next toss is still $\\dfrac{1}{2}$. Believing that tails is \"due\" is the **Gambler's Fallacy**. R is true, because the coin has no memory and every toss is independent."
+  },
+  {
+    "id": "ma07-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Gambler's fallacy",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A fair coin has just landed heads six times in a row. What is the probability that the seventh toss is tails?",
+    "image": {
+      "src": "/img/maths07/coin-streak.svg",
+      "alt": "A row of coins followed by a question mark"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "More than $\\dfrac{1}{2}$, because tails is due"
+      },
+      {
+        "id": "b",
+        "text": "Less than $\\dfrac{1}{2}$, because heads is on a run"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{64}$, because six heads is so unusual"
+      },
+      {
+        "id": "d",
+        "text": "Exactly $\\dfrac{1}{2}$, the same as for any toss"
+      }
+    ],
+    "answer": "d",
+    "hint": "The coin does not keep track of previous results.",
+    "explanation": "Each toss is independent, so $P(\\text{tails}) = \\dfrac{1}{2}$ again. The probability of getting six heads in a row was small before tossing, but that does not change the next toss. The fractions $\\dfrac{1}{64}$ and \"tails is due\" are the classic traps."
+  },
+  {
+    "id": "ma07-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Gambler's fallacy",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "You roll a fair die three times and get a 6 every time. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths07/die.svg",
+      "alt": "A die rolling and showing different faces"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The chance of a 6 on the fourth roll is still $\\dfrac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "A 6 is now less likely than the other numbers"
+      },
+      {
+        "id": "c",
+        "text": "Each roll is independent of the earlier rolls"
+      },
+      {
+        "id": "d",
+        "text": "The die remembers its results and tries to balance them out"
+      },
+      {
+        "id": "e",
+        "text": "Thinking a 6 cannot come again is the Gambler's Fallacy"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Think about whether a die can remember.",
+    "explanation": "A fair die has no memory, so every roll has $P(6) = \\dfrac{1}{6}$ and this does not depend on past rolls. Statements B and D claim the die balances itself out, which is exactly the mistaken belief known as the Gambler's Fallacy."
+  },
+  {
+    "id": "ma07-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Fair coin",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion (A) and the reason (R) and choose the correct option.",
+    "image": {
+      "src": "/img/maths07/coin.svg",
+      "alt": "A coin being flipped"
+    },
+    "assertion": "The probability of getting heads when a fair coin is tossed is $\\dfrac{1}{2}$.",
+    "reason": "A coin has two sides.",
+    "answer": "b",
+    "hint": "Having two sides is not enough on its own; what else is needed?",
+    "explanation": "A is true. R is also true, but having two sides does not by itself give $\\dfrac{1}{2}$. We also need the coin to be **fair (unbiased)** so that heads and tails are equally likely; then $\\dfrac{1}{2}$ follows."
+  },
+  {
+    "id": "ma07-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Law of Large Numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A fair coin was tossed many times. The graph shows the share of heads so far (the dashed line is the theoretical probability). Tap the point where the experimental probability is **closest** to the theoretical probability.",
+    "image": {
+      "src": "/img/maths07/lln.svg",
+      "alt": "A line graph with numbered markers under its points"
+    },
+    "spots": [
+      {
+        "id": "t0",
+        "x": 17.5,
+        "y": 47.33,
+        "label": "10 tosses"
+      },
+      {
+        "id": "t1",
+        "x": 32,
+        "y": 63.36,
+        "label": "50 tosses"
+      },
+      {
+        "id": "t2",
+        "x": 46.5,
+        "y": 65.65,
+        "label": "100 tosses"
+      },
+      {
+        "id": "t3",
+        "x": 61,
+        "y": 68.85,
+        "label": "500 tosses"
+      },
+      {
+        "id": "t4",
+        "x": 75.5,
+        "y": 69.66,
+        "label": "1,000 tosses"
+      },
+      {
+        "id": "t5",
+        "x": 90,
+        "y": 70.14,
+        "label": "5,000 tosses"
+      }
+    ],
+    "answer": "t5",
+    "hint": "Look for the point nearest the dashed line.",
+    "explanation": "As the number of trials grows, the experimental probability settles near the theoretical value (**Law of Large Numbers**). After 5,000 tosses the share of heads is almost exactly $0.5$, while 10 tosses is far away at $0.70$."
+  },
+  {
+    "id": "ma07-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Three coins are tossed and the **number of heads** is recorded. Which list is a correct sample space for this experiment?",
+    "image": {
+      "src": "/img/maths07/coins3.svg",
+      "alt": "Three coins and a list of eight letter patterns"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\{1, 2, 3\\}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\{0, 1, 2, 3\\}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\{0, 1, 2\\}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\{0, 1, 2, 3, 4\\}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "A sample space must have every possible outcome, and nothing impossible.",
+    "explanation": "With three coins you can get 0, 1, 2 or 3 heads, so $S = \\{0, 1, 2, 3\\}$. The list $\\{1, 2, 3\\}$ misses the outcome TTT with 0 heads, $\\{0, 1, 2\\}$ misses HHH with 3 heads, and $\\{0, 1, 2, 3, 4\\}$ includes 4 heads, which cannot happen with three coins."
+  },
+  {
+    "id": "ma07-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these experiments from the **smallest** to the **largest** sample space (number of outcomes).",
+    "image": {
+      "src": "/img/maths07/experiments.svg",
+      "alt": "Six pictures of coins and dice"
+    },
+    "items": [
+      {
+        "id": "s5",
+        "text": "Rolling a die and tossing a coin together"
+      },
+      {
+        "id": "s1",
+        "text": "Tossing one coin"
+      },
+      {
+        "id": "s6",
+        "text": "Rolling two dice"
+      },
+      {
+        "id": "s3",
+        "text": "Rolling one die"
+      },
+      {
+        "id": "s4",
+        "text": "Tossing three coins"
+      },
+      {
+        "id": "s2",
+        "text": "Tossing two coins"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Multiply the outcomes of each part of the experiment.",
+    "explanation": "The sizes are $2$, $2 \\times 2 = 4$, $6$, $2 \\times 2 \\times 2 = 8$, $6 \\times 2 = 12$ and $6 \\times 6 = 36$. A common slip is to add instead of multiply, such as $6 + 2 = 8$ for a die and a coin."
+  },
+  {
+    "id": "ma07-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Equally likely outcomes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these experiments have **equally likely** outcomes? Select all that do.",
+    "image": {
+      "src": "/img/maths07/equally.svg",
+      "alt": "Four pictures labelled A to D"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A: Tossing a fair coin once"
+      },
+      {
+        "id": "b",
+        "text": "B: Rolling a fair 6-sided die"
+      },
+      {
+        "id": "c",
+        "text": "C: A driver tries to start a car: it starts or it does not"
+      },
+      {
+        "id": "d",
+        "text": "D: Picking a marble at random from a bag with 3 red and 7 blue marbles"
+      }
+    ],
+    "answers": [
+      "a",
+      "b"
+    ],
+    "hint": "Outcomes are equally likely only if nothing favours one over another.",
+    "explanation": "A fair coin and a fair die give symmetrical outcomes. A car usually starts, so the two outcomes are not equally likely. In D, blue marbles outnumber red ones, so a blue marble is more likely than a red one even though there are two colours."
+  },
+  {
+    "id": "ma07-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Key terms",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term with its meaning.",
+    "image": {
+      "src": "/img/maths07/sample-space.svg",
+      "alt": "Six die faces in a row with two highlighted"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Sample space"
+      },
+      {
+        "id": "l2",
+        "text": "Event"
+      },
+      {
+        "id": "l3",
+        "text": "Experimental probability"
+      },
+      {
+        "id": "l4",
+        "text": "Theoretical probability"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "Number of times the event occurred divided by the total number of trials"
+      },
+      {
+        "id": "r1",
+        "text": "The set of all possible outcomes, each listed once"
+      },
+      {
+        "id": "r4",
+        "text": "Number of favourable outcomes divided by the number of equally likely possible outcomes"
+      },
+      {
+        "id": "r2",
+        "text": "Any outcome or group of outcomes, a subset of the sample space"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Think about what needs data and what only needs reasoning.",
+    "explanation": "The **sample space** $S$ lists everything that can happen, and an **event** is a subset of it (like $\\{5, 6\\}$ in $\\{1, \\dots, 6\\}$). **Experimental** probability uses the data from trials, while **theoretical** probability uses counting favourable and possible outcomes that are equally likely."
+  },
+  {
+    "id": "ma07-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space and events",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "At a village fair, a visitor picks one of 3 snacks (Samosa, Pakora, Bhaji) and one of 2 drinks (Chai, Lassi). All 6 combinations are equally likely to be chosen. What is the probability that the visitor's snack is Samosa?",
+    "image": {
+      "src": "/img/maths07/snacks.svg",
+      "alt": "A menu with snacks and drinks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{2}{3}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Write all the combinations, then pick those with Samosa.",
+    "explanation": "The sample space has $3 \\times 2 = 6$ combinations. Samosa appears in 2 of them (Samosa-Chai and Samosa-Lassi), so $P = \\dfrac{2}{6} = \\dfrac{1}{3}$. The value $\\dfrac{1}{6}$ counts only a single combination, and $\\dfrac{1}{2}$ is the chance of one particular drink."
+  },
+  {
+    "id": "ma07-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space of two dice",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Two dice are rolled, one after the other. Tap the cell where the **first die shows 5** and the **sum is 9**.",
+    "image": {
+      "src": "/img/maths07/dice-grid-hot.svg",
+      "alt": "An empty six by six grid with numbered markers in some cells"
+    },
+    "spots": [
+      {
+        "id": "r5c4",
+        "x": 55,
+        "y": 74.67,
+        "label": "First 5, second 4"
+      },
+      {
+        "id": "r4c5",
+        "x": 65,
+        "y": 61.33,
+        "label": "First 4, second 5"
+      },
+      {
+        "id": "r5c5",
+        "x": 65,
+        "y": 74.67,
+        "label": "First 5, second 5"
+      },
+      {
+        "id": "r6c3",
+        "x": 45,
+        "y": 88,
+        "label": "First 6, second 3"
+      },
+      {
+        "id": "r3c4",
+        "x": 55,
+        "y": 48,
+        "label": "First 3, second 4"
+      }
+    ],
+    "answer": "r5c4",
+    "hint": "Rows are the first die and columns are the second die.",
+    "explanation": "If the first die is 5 and the sum is 9, the second die must be $9 - 5 = 4$, so we tap row 5, column 4. The cell for first 4 and second 5 also has sum 9 but is a different outcome, which is why the order matters in the sample space."
+  },
+  {
+    "id": "ma07-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space of two dice",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two dice are rolled. What is the probability that the sum is a **prime number greater than 5**?",
+    "image": {
+      "src": "/img/maths07/dice-grid-sums.svg",
+      "alt": "A grid of numbers for two dice"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{18}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{5}{36}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{2}{9}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Primes greater than 5 that can be a sum of two dice are 7 and 11.",
+    "explanation": "The sample space has $6 \\times 6 = 36$ outcomes. A sum of $7$ occurs in 6 ways and a sum of $11$ in 2 ways, so there are $8$ favourable outcomes and $P = \\dfrac{8}{36} = \\dfrac{2}{9}$. Counting only the sum 7 gives $\\dfrac{1}{6}$, and counting only 11 gives $\\dfrac{1}{18}$."
+  },
+  {
+    "id": "ma07-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Impossible events",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the assertion (A) and the reason (R) and choose the correct option.",
+    "image": {
+      "src": "/img/maths07/die.svg",
+      "alt": "A die rolling and showing different faces"
+    },
+    "assertion": "When one standard die is rolled, the probability of getting a 7 is $0$.",
+    "reason": "The probability of an impossible event is $1$.",
+    "answer": "c",
+    "hint": "Which value goes with impossible, and which with certain?",
+    "explanation": "A is true because a die has no face with 7, so the event is impossible. R is false: an impossible event has probability $0$, while an event that is certain has probability $1$."
+  },
+  {
+    "id": "ma07-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Statistical probability",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A tyre company recorded how far 1000 tyres ran before replacement. A tyre is chosen at random. What is the probability that it lasted **between 4000 km and 14000 km** (the middle two groups)?",
+    "image": {
+      "src": "/img/maths07/tyre.svg",
+      "alt": "A table of numbers about tyres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.535$"
+      },
+      {
+        "id": "b",
+        "text": "$0.555$"
+      },
+      {
+        "id": "c",
+        "text": "$0.325$"
+      },
+      {
+        "id": "d",
+        "text": "$0.21$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Add the numbers in the two middle groups, then divide by 1000.",
+    "explanation": "The middle groups have $210 + 325 = 535$ tyres, so $P = \\dfrac{535}{1000} = 0.535$. Adding in the first group by mistake gives $0.555$, and using just one group gives $0.325$ or $0.21$."
+  },
+  {
+    "id": "ma07-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Statistical probability",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "For the same tyre data, what is the probability that a randomly chosen tyre lasts **more than 4000 km**?",
+    "image": {
+      "src": "/img/maths07/tyre.svg",
+      "alt": "A table of numbers about tyres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.02$"
+      },
+      {
+        "id": "b",
+        "text": "$0.445$"
+      },
+      {
+        "id": "c",
+        "text": "$0.98$"
+      },
+      {
+        "id": "d",
+        "text": "$0.535$"
+      }
+    ],
+    "answer": "c",
+    "hint": "It can be easier to find the probability of the opposite event.",
+    "explanation": "Only 20 tyres lasted less than 4000 km, so the other $1000 - 20 = 980$ lasted more, giving $\\dfrac{980}{1000} = 0.98$. Equivalently $P = 1 - 0.02 = 0.98$. The value $0.02$ is the probability of the opposite event, and $0.445$ and $0.535$ each count only some of the groups."
+  },
+  {
+    "id": "ma07-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Probability with area",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A dye drop falls at random on a rectangle $3\\ \\text{m}$ by $2\\ \\text{m}$. What is the probability that it lands inside the circle of **diameter** $1\\ \\text{m}$ drawn on it?",
+    "image": {
+      "src": "/img/maths07/dye.svg",
+      "alt": "A dropper above a rectangle containing a circle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{\\pi}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{\\pi}{4}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{\\pi}{24}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{\\pi}{12}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Probability here is a ratio of areas.",
+    "explanation": "Radius $= 0.5\\ \\text{m}$, so the circle's area is $\\pi \\times 0.5^2 = \\dfrac{\\pi}{4}\\ \\text{m}^2$, and the rectangle's area is $3 \\times 2 = 6\\ \\text{m}^2$. So $P = \\dfrac{\\pi/4}{6} = \\dfrac{\\pi}{24} \\approx 0.13$. Using 1 as the radius gives $\\dfrac{\\pi}{6}$, and forgetting to divide by the rectangle's area gives $\\dfrac{\\pi}{4}$."
+  },
+  {
+    "id": "ma07-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these steps for drawing a tree diagram for two tosses of a coin and finding a probability.",
+    "image": {
+      "src": "/img/maths07/tree-2coins.svg",
+      "alt": "A tree diagram with branches"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Read each path from the start to the end to list HH, HT, TH, TT"
+      },
+      {
+        "id": "s2",
+        "text": "Draw two branches for the first toss: H and T"
+      },
+      {
+        "id": "s5",
+        "text": "Count the paths, so $n(S) = 4$, and find probabilities such as $P(HH) = \\dfrac{1}{4}$"
+      },
+      {
+        "id": "s1",
+        "text": "Mark a single starting point"
+      },
+      {
+        "id": "s3",
+        "text": "From each of these, draw two branches for the second toss"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "A tree grows from its root outwards, one toss at a time.",
+    "explanation": "Begin with a starting point, branch for the first toss, then branch again from every result for the second toss. Each path is one complete outcome, and counting them gives the size of the sample space, so $P(HH) = \\dfrac{1}{4} = 0.25$."
+  },
+  {
+    "id": "ma07-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the end of the path where the first toss is **tails** and the second toss is **heads**.",
+    "image": {
+      "src": "/img/maths07/tree-2coins.svg",
+      "alt": "A tree diagram with numbered markers at the ends of its paths"
+    },
+    "spots": [
+      {
+        "id": "hh",
+        "x": 75,
+        "y": 15.38,
+        "label": "Path HH"
+      },
+      {
+        "id": "ht",
+        "x": 75,
+        "y": 38.46,
+        "label": "Path HT"
+      },
+      {
+        "id": "th",
+        "x": 75,
+        "y": 61.54,
+        "label": "Path TH"
+      },
+      {
+        "id": "tt",
+        "x": 75,
+        "y": 84.62,
+        "label": "Path TT"
+      }
+    ],
+    "answer": "th",
+    "hint": "Follow the lower branch first, then the upper one.",
+    "explanation": "The first toss gives T (lower branch), and the second toss gives H (upper sub-branch), so this is the outcome **TH**. The order matters: HT is a different outcome with heads first."
+  },
+  {
+    "id": "ma07-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Events",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Two coins are tossed. Select **all** the outcomes that belong to the event “**at least one head**”.",
+    "image": {
+      "src": "/img/maths07/tree-2coins.svg",
+      "alt": "A tree diagram with branches"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "HH"
+      },
+      {
+        "id": "b",
+        "text": "HT"
+      },
+      {
+        "id": "c",
+        "text": "TH"
+      },
+      {
+        "id": "d",
+        "text": "TT"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "At least one head means one or two heads.",
+    "explanation": "The sample space is $\\{HH, HT, TH, TT\\}$. The event $E = \\{HH, HT, TH\\}$ has every outcome with a head. Only TT has no head, so it is left out."
+  },
+  {
+    "id": "ma07-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Events as subsets",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each event with the set of outcomes that makes it up.",
+    "image": {
+      "src": "/img/maths07/tree-2coins.svg",
+      "alt": "A tree diagram with branches"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Two coins: at least one head"
+      },
+      {
+        "id": "l2",
+        "text": "A die: a number greater than 4"
+      },
+      {
+        "id": "l3",
+        "text": "Apple, Banana or Orange picked: a yellow fruit"
+      },
+      {
+        "id": "l4",
+        "text": "Two coins: the two coins show different faces"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$\\{\\text{Banana}\\}$"
+      },
+      {
+        "id": "r1",
+        "text": "$\\{HH, HT, TH\\}$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\{HT, TH\\}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\{5, 6\\}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "An event is a subset of the sample space.",
+    "explanation": "At least one head is $\\{HH, HT, TH\\}$. Numbers greater than 4 on a die are $\\{5, 6\\}$ (not 4 itself). The only yellow fruit is the banana, and different faces means one head and one tail in either order, $\\{HT, TH\\}$."
+  },
+  {
+    "id": "ma07-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Two fair coins are tossed. Using the tree diagram, what is the probability of getting **one head and one tail** (in any order)?",
+    "image": {
+      "src": "/img/maths07/tree-2coins.svg",
+      "alt": "A tree diagram with branches"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{3}{4}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Count both HT and TH.",
+    "explanation": "Two of the four equally likely paths, HT and TH, give one head and one tail, so $P = \\dfrac{2}{4} = \\dfrac{1}{2}$. Treating \"one head one tail\" as a single outcome out of three gives the wrong $\\dfrac{1}{3}$, and counting only HT gives $\\dfrac{1}{4}$."
+  },
+  {
+    "id": "ma07-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space and events",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Three fair coins are tossed together. What is the probability of getting **exactly two heads**?",
+    "image": {
+      "src": "/img/maths07/coins3.svg",
+      "alt": "Three coins and a list of eight letter patterns"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{3}{8}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "List all 8 outcomes and mark the ones with exactly two heads.",
+    "explanation": "The sample space has $2 \\times 2 \\times 2 = 8$ outcomes, and exactly two heads occurs in HHT, HTH and THH. So $P = \\dfrac{3}{8}$. The value $\\dfrac{1}{4}$ wrongly treats the head counts $0, 1, 2, 3$ as equally likely, and $\\dfrac{2}{8}$ would only count two of the three ways."
+  },
+  {
+    "id": "ma07-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Theoretical probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A bag contains 4 red, 2 blue and 1 green ball. One ball is picked at random. What is the probability that it is **not red**?",
+    "image": {
+      "src": "/img/maths07/bag-421.svg",
+      "alt": "A bag containing coloured balls"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{4}{7}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{3}{7}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{2}{3}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Count all the balls, then the balls that are not red.",
+    "explanation": "There are $4 + 2 + 1 = 7$ balls, and $2 + 1 = 3$ of them are not red, so $P = \\dfrac{3}{7}$. The value $\\dfrac{4}{7}$ is the probability of red, $\\dfrac{3}{4}$ compares non-red with red, and $\\dfrac{2}{3}$ counts colours instead of balls."
+  },
+  {
+    "id": "ma07-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Basket A has one apple and two oranges. Basket B has one banana and one mango. One fruit is picked at random from each basket. What is the probability of getting an apple and a banana?",
+    "image": {
+      "src": "/img/maths07/baskets.svg",
+      "alt": "Two baskets of fruit"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{5}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Treat the two oranges as different fruits when listing pairs.",
+    "explanation": "Listing pairs: $3 \\times 2 = 6$ equally likely outcomes (Apple-Banana, Apple-Mango, Orange$_1$-Banana, Orange$_1$-Mango, Orange$_2$-Banana, Orange$_2$-Mango). Only 1 is Apple-Banana, so $P = \\dfrac{1}{6}$. Ignoring Basket B gives $\\dfrac{1}{3}$, and ignoring Basket A's other fruits gives $\\dfrac{1}{2}$."
+  },
+  {
+    "id": "ma07-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A box has 3 red, 4 black and 2 green pens. You pick a pen, note the colour and **put it back**. Then your friend does the same. What is the probability that both of you pick pens of the **same colour**?",
+    "image": {
+      "src": "/img/maths07/pens.svg",
+      "alt": "A box of coloured pens"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{18}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{9}{29}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{29}{81}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Each of you has 9 pens to choose from, so there are 9 times 9 outcomes in total.",
+    "explanation": "Total outcomes $= 9 \\times 9 = 81$. Same colour: red-red $3 \\times 3 = 9$, black-black $4 \\times 4 = 16$, green-green $2 \\times 2 = 4$, total $29$, so $P = \\dfrac{29}{81}$. Guessing $\\dfrac{1}{3}$ because there are three colours ignores their different numbers, and $\\dfrac{5}{18}$ comes from forgetting that the pen is put back."
+  },
+  {
+    "id": "ma07-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A basket has 4 red and 5 blue balls. One ball is drawn and laid aside, then a second ball is drawn. Using the tree diagram, what is the probability of getting **one red and one blue** ball (in either order)?",
+    "image": {
+      "src": "/img/maths07/tree-balls.svg",
+      "alt": "A tree diagram with fractions on the branches"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{9}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{18}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{40}{81}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Multiply along each path, then add the two paths that give one of each colour.",
+    "explanation": "Path R then B: $\\dfrac{4}{9} \\times \\dfrac{5}{8} = \\dfrac{5}{18}$. Path B then R: $\\dfrac{5}{9} \\times \\dfrac{4}{8} = \\dfrac{5}{18}$. Adding, $\\dfrac{5}{18} + \\dfrac{5}{18} = \\dfrac{5}{9}$. Taking only one order gives $\\dfrac{5}{18}$, and using $\\dfrac{4}{9} \\times \\dfrac{5}{9}$ twice would be correct only if the first ball were put back."
+  },
+  {
+    "id": "ma07-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Tree diagrams",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A bag has 4 red, 3 green and 2 blue balls. Two balls are drawn **without replacement**. What is the probability that the two balls are of **different colours**?",
+    "image": {
+      "src": "/img/maths07/bag-432.svg",
+      "alt": "A bag containing coloured balls"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{18}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{52}{81}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{13}{18}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{6}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "It may be quicker to find the probability that the two are the same colour and subtract from 1.",
+    "explanation": "Same colour: $\\dfrac{4 \\times 3 + 3 \\times 2 + 2 \\times 1}{9 \\times 8} = \\dfrac{20}{72} = \\dfrac{5}{18}$, so different colours has $P = 1 - \\dfrac{5}{18} = \\dfrac{13}{18}$. The value $\\dfrac{5}{18}$ is the same-colour answer, $\\dfrac{52}{81}$ comes from drawing **with** replacement, and $\\dfrac{1}{6}$ counts only red then green."
+  },
+  {
+    "id": "ma07-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The Mathematics of Maybe: Introduction to Probability",
+    "chapterNo": 7,
+    "topic": "Sample space and events",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A test has 3 questions, each with 4 options (A, B, C, D) and only one correct answer. A student guesses every answer. What is the probability that exactly 2 answers are correct?",
+    "image": {
+      "src": "/img/maths07/mcq-test.svg",
+      "alt": "A test sheet with three questions and four option circles each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{64}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{3}{16}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{9}{64}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{16}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Choose which two questions are right, then count the wrong options for the third.",
+    "explanation": "There are $4 \\times 4 \\times 4 = 64$ equally likely answer patterns. Choose the 2 correct questions in $3$ ways, and the remaining question must be wrong in $3$ ways, so $3 \\times 3 = 9$ favourable patterns and $P = \\dfrac{9}{64}$. Forgetting the 3 wrong options gives $\\dfrac{3}{64}$, and ignoring the third question altogether gives $\\dfrac{1}{16}$."
+  }
+]

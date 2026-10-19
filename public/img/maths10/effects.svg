@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A">
+<title>A set of data points with an arrow showing the mean, and small arrows pointing up, down and level</title>
+<style>.ar{animation:a 2s ease-in-out infinite}@keyframes a{0%,100%{transform:translateX(0)}50%{transform:translateX(-10px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="320" y="26" text-anchor="middle" font-size="16" fill="#2B2F4A">What happens to the mean?</text><line x1="60" y1="120" x2="580" y2="120" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<circle cx="120" cy="120" r="10" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle cx="200" cy="120" r="10" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle cx="260" cy="120" r="10" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle cx="340" cy="120" r="10" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle cx="420" cy="120" r="10" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/><circle cx="500" cy="120" r="10" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2"/>
+<polygon points="310,150 298,174 322,174" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/>
+<g class="ar"><polygon points="520,60 540,60 540,45 565,70 540,95 540,80 520,80" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+<text x="320" y="205" text-anchor="middle" font-size="13" fill="#2B2F4A">Add, remove or rescale values and watch the balance point</text>
+</svg>

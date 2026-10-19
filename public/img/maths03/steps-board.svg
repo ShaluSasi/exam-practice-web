@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A notebook page that starts a repeating-decimal conversion</title>
+<style>
+.pen{animation:pn 2s ease-in-out infinite}@keyframes pn{50%{transform:translate(40px,6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="60" y="30" width="520" height="270" rx="10" fill="#fff" stroke="#2B2F4A" stroke-width="3"/><path d="M110 30v270" stroke="#F7A1A8" stroke-width="2"/><path d="M90 130h470" stroke="#9FD6F5" stroke-width="2"/><path d="M90 166h470" stroke="#9FD6F5" stroke-width="2"/><path d="M90 202h470" stroke="#9FD6F5" stroke-width="2"/><path d="M90 238h470" stroke="#9FD6F5" stroke-width="2"/><path d="M90 274h470" stroke="#9FD6F5" stroke-width="2"/><circle cx="70" cy="60" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="70" cy="96" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="70" cy="132" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="70" cy="168" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="70" cy="204" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="70" cy="240" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/><circle cx="70" cy="276" r="8" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<text x="130" y="96" font-size="26" text-anchor="start" fill="#2B2F4A">x = 1.2353535…</text>
+<g class="pen"><path d="M380 250l80 -80l14 14l-80 80l-20 6z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/></g>
+</svg>

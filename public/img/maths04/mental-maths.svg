@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A chalkboard with four quick calculations</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.ch{animation:sl 4s ease-in-out infinite}@keyframes sl{0%,100%{transform:translateX(-60px)}50%{transform:translateX(60px)}}.ul{animation:dr 4s ease-in-out infinite}@keyframes dr{0%{stroke-dashoffset:260}60%,100%{stroke-dashoffset:0}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="18" width="360" height="184" rx="10" fill="#2F5D50" stroke="#C8925A" stroke-width="8"/>
+<rect x="60" y="206" width="280" height="8" rx="4" fill="#C8925A"/>
+<rect class="ch" x="180.0" y="198" width="26" height="8" rx="3" fill="#F7F3E8"/>
+<text class="t" x="200" y="96" font-size="22" text-anchor="middle" style="fill:#F7F3E8">98²,  103²,</text>
+<text class="t" x="200" y="134" font-size="22" text-anchor="middle" style="fill:#F7F3E8">104 × 96,  102 × 105</text>
+<path class="ul" d="M70 188H330" stroke="#F6C453" stroke-width="3" stroke-linecap="round" stroke-dasharray="260" stroke-dashoffset="260"/>
+</svg>

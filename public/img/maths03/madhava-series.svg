@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 390" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A palm leaf with an infinite series for pi and a zigzag of sums closing in on a dashed line</title>
+<style>
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M30 20h580q10 40 0 80h-580q-10 -40 0 -80z" fill="#E9D29A" stroke="#B28B3E" stroke-width="3"/>
+<text x="320" y="70" font-size="22" text-anchor="middle" fill="#6B4423">π = 4 × (1 − 1/3 + 1/5 − 1/7 + …)</text>
+<path d="M80 150V350H620" fill="none" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M80 266.2H610" stroke="#3FA34D" stroke-width="3" stroke-dasharray="10 7"/><text x="616" y="273.2" font-size="22" text-anchor="start" fill="#2E7D32">π</text>
+<path d="M110 167.5L188 320.8L266 228.8L344 294.5L422 243.4L500 285.3L578 249.9" fill="none" stroke="#0B93D4" stroke-width="3"/><circle cx="110" cy="167.5" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/><circle cx="188" cy="320.8" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/><circle cx="266" cy="228.8" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/><circle cx="344" cy="294.5" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/><circle cx="422" cy="243.4" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/><circle cx="500" cy="285.3" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/><circle cx="578" cy="249.9" r="7" fill="#fff" stroke="#0B93D4" stroke-width="3"/>
+<circle r="9" fill="#FF8A1F"><animateMotion dur="5s" repeatCount="indefinite" path="M110 167.5L188 320.8L266 228.8L344 294.5L422 243.4L500 285.3L578 249.9"/></circle>
+<text x="350" y="376" font-size="16" text-anchor="middle" fill="#2B2F4A">number of terms added →</text>
+</svg>

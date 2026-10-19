@@ -1,0 +1,2231 @@
+[
+  {
+    "id": "ma10-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Average of averages",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A badminton academy has 6 seniors with a mean height of $168\\ \\text{cm}$ and 2 juniors with a mean height of $152\\ \\text{cm}$. What is the mean height of all 8 players together?",
+    "image": {
+      "src": "/img/maths10/badminton.svg",
+      "alt": "Two groups of badminton players of different sizes with their mean heights"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$160\\ \\text{cm}$"
+      },
+      {
+        "id": "b",
+        "text": "$164\\ \\text{cm}$"
+      },
+      {
+        "id": "c",
+        "text": "$156\\ \\text{cm}$"
+      },
+      {
+        "id": "d",
+        "text": "$656\\ \\text{cm}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each group should count according to how many players it has.",
+    "explanation": "Each group total is mean $\\times$ size: $168\\times 6=1008$ and $152\\times 2=304$. Combined mean $=\\dfrac{1008+304}{6+2}=\\dfrac{1312}{8}=164$. The trap is the **average of averages**, $\\dfrac{168+152}{2}=160$, which treats the 2 juniors as if they were as many as the 6 seniors. Swapping the weights gives $156$, and dividing $1312$ by 2 groups instead of 8 players gives $656$."
+  },
+  {
+    "id": "ma10-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Weighted mean on a number line",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Class A has 45 students with a mean of 58 marks. Class B has 15 students with a mean of 82 marks. Tap the point on the number line where the mean of all 60 students lies.",
+    "image": {
+      "src": "/img/maths10/numline-sections.svg",
+      "alt": "A number line of marks with two flags and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "v64",
+        "x": 33.1,
+        "y": 65.2,
+        "label": "Marker at 64"
+      },
+      {
+        "id": "v70",
+        "x": 50,
+        "y": 65.2,
+        "label": "Marker at 70"
+      },
+      {
+        "id": "v76",
+        "x": 66.9,
+        "y": 65.2,
+        "label": "Marker at 76"
+      },
+      {
+        "id": "v80",
+        "x": 78.1,
+        "y": 65.2,
+        "label": "Marker at 80"
+      }
+    ],
+    "answer": "v64",
+    "hint": "The mean is pulled towards the class with more students.",
+    "explanation": "Weighted mean $=\\dfrac{58\\times 45+82\\times 15}{45+15}=\\dfrac{2610+1230}{60}=64$. The simple average of the two means, $\\dfrac{58+82}{2}=70$, ignores that Class A is three times as big. Because A has more students, the combined mean sits much closer to 58 than to 82."
+  },
+  {
+    "id": "ma10-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "When the simple mean works",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In which situations does the **simple mean of the group means** give the true mean of all the data combined? Select **all** that apply.",
+    "image": {
+      "src": "/img/maths10/groups-equal.svg",
+      "alt": "Two rows of data groups, one with equal-sized groups and one with different sizes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The means of 4 weeks, each week having 5 weekday readings"
+      },
+      {
+        "id": "b",
+        "text": "Mean heights of 6 seniors and of 2 juniors"
+      },
+      {
+        "id": "c",
+        "text": "Two glasses holding equal volumes of lemonade with different jaggery percentages"
+      },
+      {
+        "id": "d",
+        "text": "A 300 mL bowl and a 100 mL glass of lemonade"
+      },
+      {
+        "id": "e",
+        "text": "Mean marks of two sections of 40 students each"
+      },
+      {
+        "id": "f",
+        "text": "Mean marks of three sections with 30, 25 and 20 students"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Check whether every group carries the same weight.",
+    "explanation": "The weighted mean $\\dfrac{an+bm}{n+m}$ collapses to $\\dfrac{a+b}{2}$ only when $n=m$, that is, when all groups have the **same size** (or the same volume). That holds for the 4 weeks, the equal glasses and the two equal sections. The seniors/juniors, bowl/glass and 30, 25, 20 cases have unequal sizes, so the simple mean of means would be a trap."
+  },
+  {
+    "id": "ma10-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Equal-sized groups",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths10/cycling.svg",
+      "alt": "A cyclist and a table of three weeks with five weekday rides each"
+    },
+    "assertion": "Jaspreet cycled on 5 weekdays in each of 3 weeks. Adding her three weekly means and dividing by 3 gives her correct mean over all 15 rides.",
+    "reason": "When all the groups have the same size, each group has the same weight, so the weighted mean becomes the simple mean of the group means.",
+    "answer": "a",
+    "hint": "Look at what $p$ does in $\\dfrac{ap+bp+cp}{p+p+p}$.",
+    "explanation": "Both are true and R explains A. With group size $p$, $\\dfrac{ap+bp+cp}{3p}=\\dfrac{a+b+c}{3}$ because $p$ cancels. The same shortcut would be wrong if one week had 4 rides and another 5."
+  },
+  {
+    "id": "ma10-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mixtures",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A 300 mL bowl of lemonade has 10% jaggery and a 100 mL glass has 30% jaggery. Both are poured into one jug. What is the percentage of jaggery in the mixture?",
+    "image": {
+      "src": "/img/maths10/bowl-glass.svg",
+      "alt": "A bowl and a glass of lemonade being poured into one jug"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "20%"
+      },
+      {
+        "id": "b",
+        "text": "25%"
+      },
+      {
+        "id": "c",
+        "text": "40%"
+      },
+      {
+        "id": "d",
+        "text": "15%"
+      }
+    ],
+    "answer": "d",
+    "hint": "Concentration = jaggery in the mixture divided by volume of the mixture.",
+    "explanation": "Jaggery $=300\\times 0.10+100\\times 0.30=30+30=60\\ \\text{mL}$ in $400\\ \\text{mL}$, so concentration $=\\dfrac{60}{400}=15\\%$. The simple average $\\dfrac{10+30}{2}=20\\%$ ignores that there is three times as much of the weaker lemonade. Swapping the volumes gives $25\\%$, and adding the percentages gives the absurd $40\\%$."
+  },
+  {
+    "id": "ma10-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mixtures: unknown weight",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Brass batch A weighs 100 kg and is 60% copper. Batch B weighs 150 kg and is 40% copper. Batch C is 30% copper. When all three are melted together the alloy is 40% copper. What is the weight of Batch C?",
+    "image": {
+      "src": "/img/maths10/brass.svg",
+      "alt": "Three batches of brass drawn as bars with an unknown weight for the third"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "200 kg"
+      },
+      {
+        "id": "b",
+        "text": "20 kg"
+      },
+      {
+        "id": "c",
+        "text": "100 kg"
+      },
+      {
+        "id": "d",
+        "text": "250 kg"
+      }
+    ],
+    "answer": "a",
+    "hint": "Let Batch C weigh $y$ kg and write copper in the mixture over total weight.",
+    "explanation": "$0.4=\\dfrac{100\\times 0.6+150\\times 0.4+y\\times 0.3}{100+150+y}=\\dfrac{120+0.3y}{250+y}$. So $0.4(250+y)=120+0.3y$, i.e. $100+0.4y=120+0.3y$, giving $0.1y=20$ and $y=200$. Stopping at $0.1y=20$ (not dividing by 0.1) gives the trap $20$, and $250$ is just the weight of A and B together. Check: copper $=60+60+60=180$ in $450\\ \\text{kg}$ is $40\\%$."
+  },
+  {
+    "id": "ma10-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mean depth of a pit",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Brahmagupta’s idea of mean depth: a 20-hasta pit is dug in four sections of lengths 3, 4, 5 and 8 hastas to depths 8, 6, 4 and 2 hastas respectively. What is the mean depth of the pit?",
+    "image": {
+      "src": "/img/maths10/pit.svg",
+      "alt": "Side view of a pit with four sections of different lengths and depths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5 hastas"
+      },
+      {
+        "id": "b",
+        "text": "21 hastas"
+      },
+      {
+        "id": "c",
+        "text": "4.2 hastas"
+      },
+      {
+        "id": "d",
+        "text": "84 hastas"
+      }
+    ],
+    "answer": "c",
+    "hint": "Weight each depth by the length of its section.",
+    "explanation": "Mean depth $=\\dfrac{8\\times 3+6\\times 4+4\\times 5+2\\times 8}{3+4+5+8}=\\dfrac{24+24+20+16}{20}=\\dfrac{84}{20}=4.2$. The plain mean of depths $\\dfrac{8+6+4+2}{4}=5$ gives the long shallow section too little say. Dividing $84$ by 4 sections gives $21$, and forgetting to divide at all gives $84$."
+  },
+  {
+    "id": "ma10-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Equal quantities",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A farmer mixes **equal** quantities of three fertilisers. Their nitrogen fractions are $\\dfrac{1}{5}$, $\\dfrac{3}{10}$ and $\\dfrac{1}{4}$. What fraction of the mixture is nitrogen?",
+    "image": {
+      "src": "/img/maths10/fertiliser.svg",
+      "alt": "Three equal sacks of fertiliser labelled with nitrogen fractions"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{19}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{10}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{4}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Equal quantities means equal weights.",
+    "explanation": "With equal quantities every weight is the same, so the mean is the simple mean: $\\dfrac{0.2+0.3+0.25}{3}=\\dfrac{0.75}{3}=0.25=\\dfrac{1}{4}$. Adding without dividing gives $\\dfrac{3}{4}$. Adding numerators and denominators ($\\dfrac{1+3+1}{5+10+4}$) gives the nonsense $\\dfrac{5}{19}$."
+  },
+  {
+    "id": "ma10-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Weighted mean: gold purity",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A goldsmith melts together 6 units of gold of purity 14 varṇa, 10 units of 12 varṇa and 4 units of 16 varṇa (16 varṇa is pure gold). What is the purity of the combined gold?",
+    "image": {
+      "src": "/img/maths10/gold.svg",
+      "alt": "Three small stacks of gold bars with different purities"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "14 varṇa"
+      },
+      {
+        "id": "b",
+        "text": "13.4 varṇa"
+      },
+      {
+        "id": "c",
+        "text": "13.6 varṇa"
+      },
+      {
+        "id": "d",
+        "text": "89.3 varṇa"
+      }
+    ],
+    "answer": "b",
+    "hint": "The number of units is the weight of each purity.",
+    "explanation": "Purity $=\\dfrac{14\\times 6+12\\times 10+16\\times 4}{6+10+4}=\\dfrac{84+120+64}{20}=\\dfrac{268}{20}=13.4$. The plain mean $\\dfrac{14+12+16}{3}=14$ ignores how much gold of each purity there is. Pairing the weights wrongly (4, 10, 6) gives $13.6$, and dividing $268$ by 3 gives $89.3$."
+  },
+  {
+    "id": "ma10-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Expression for combined mean",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The mean rainfall per day was $3.5\\ \\text{mm}$ in May (31 days), $10\\ \\text{mm}$ in June (30 days) and $8.7\\ \\text{mm}$ in July (31 days). Which expression gives the mean rainfall per day over the three months?",
+    "image": {
+      "src": "/img/maths10/rain.svg",
+      "alt": "Three month cards showing daily rainfall means and numbers of days"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3.5+10+8.7}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{3.5\\times 31+10\\times 30+8.7\\times 31}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3.5\\times 31+10\\times 30+8.7\\times 31}{31+30+31}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{3.5+10+8.7}{31+30+31}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Total rainfall divided by total number of days.",
+    "explanation": "Total rain $=3.5\\times 31+10\\times 30+8.7\\times 31$ and total days $=31+30+31=92$, so the combined mean is that total over $92$. The simple mean of 3.5, 10 and 8.7 ignores month lengths. Dividing the weighted sum by 3 (months) instead of 92 (days) is the classic slip, and dividing the plain sum by 92 forgets to multiply by days."
+  },
+  {
+    "id": "ma10-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mixtures of three",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A 400 mL kadha with 5% spice mix, a 100 mL one with 10% and a 500 mL one with 20% are poured together. What is the spice-mix concentration of the mixture?",
+    "image": {
+      "src": "/img/maths10/jugs3.svg",
+      "alt": "Three jugs of herbal drink of different sizes and strengths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "13%"
+      },
+      {
+        "id": "b",
+        "text": "11.67%"
+      },
+      {
+        "id": "c",
+        "text": "11.5%"
+      },
+      {
+        "id": "d",
+        "text": "18.33%"
+      }
+    ],
+    "answer": "a",
+    "hint": "Concentration = total spice mix ÷ total volume.",
+    "explanation": "Spice $=400\\times 0.05+100\\times 0.10+500\\times 0.20=20+10+100=130\\ \\text{mL}$ in $1000\\ \\text{mL}$, so $13\\%$. The average of the three percentages, $\\dfrac{5+10+20}{3}\\approx 11.67\\%$, treats all jugs alike. Reversing the volumes gives $11.5\\%$; ignoring the 400 mL jug gives $\\dfrac{10+100}{600}\\cdot 100\\approx 18.33\\%$ (weighted over two jugs only)."
+  },
+  {
+    "id": "ma10-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Weight times value",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Each jug is a lemonade with some jaggery. Tap the jug that contains the **greatest quantity of pure jaggery**.",
+    "image": {
+      "src": "/img/maths10/jugs-hot.svg",
+      "alt": "Four jugs of lemonade with different volumes and percentages, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "j1",
+        "x": 17.2,
+        "y": 52.6,
+        "label": "Jug 1"
+      },
+      {
+        "id": "j2",
+        "x": 40.6,
+        "y": 61.9,
+        "label": "Jug 2"
+      },
+      {
+        "id": "j3",
+        "x": 64.1,
+        "y": 71.3,
+        "label": "Jug 3"
+      },
+      {
+        "id": "j4",
+        "x": 85.9,
+        "y": 66.6,
+        "label": "Jug 4"
+      }
+    ],
+    "answer": "j2",
+    "hint": "Jaggery = volume $\\times$ percentage. The biggest jug need not win.",
+    "explanation": "Jaggery in each jug: $500\\times 0.05=25$, $300\\times 0.12=36$, $100\\times 0.30=30$ and $200\\times 0.08=16\\ \\text{mL}$. So the 300 mL jug holds the most. The largest jug (500 mL) has too weak a mix, and the strongest jug (30%) is too small. This product, volume $\\times$ concentration, is exactly each jug’s contribution to the weighted mean."
+  },
+  {
+    "id": "ma10-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Custom weights",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A school combines internals, project and final exam in the ratio $3:2:5$. A student scored 54, 70 and 82 (each out of 100) respectively. What is the annual score?",
+    "image": {
+      "src": "/img/maths10/report-card.svg",
+      "alt": "A report card with marks for three parts and a weight bar for each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "68.67%"
+      },
+      {
+        "id": "b",
+        "text": "71.2%"
+      },
+      {
+        "id": "c",
+        "text": "65.6%"
+      },
+      {
+        "id": "d",
+        "text": "70%"
+      }
+    ],
+    "answer": "b",
+    "hint": "The ratio gives the weights 3, 2 and 5.",
+    "explanation": "Score $=\\dfrac{54\\times 3+70\\times 2+82\\times 5}{3+2+5}=\\dfrac{162+140+410}{10}=71.2$. Equal weights give $\\dfrac{54+70+82}{3}\\approx 68.67$. Attaching the ratio in the wrong order ($5:2:3$) gives $65.6$, and $70$ is merely the middle mark."
+  },
+  {
+    "id": "ma10-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Marks out of different totals",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Marks: internals 18 out of 20, project 36 out of 40, final exam 70 out of 100, combined in the ratio $2:3:5$. Which expression(s) give the annual score **as a percentage**? Select all that apply.",
+    "image": {
+      "src": "/img/maths10/report-card2.svg",
+      "alt": "A report card with marks out of different totals and a weight bar for each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{18\\times 2+36\\times 3+70\\times 5}{2+3+5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{\\frac{18}{20}\\times 2+\\frac{36}{40}\\times 3+\\frac{70}{100}\\times 5}{2+3+5}\\times 100$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{\\left(\\frac{18}{20}\\times 100\\right)\\times 2+\\left(\\frac{36}{40}\\times 100\\right)\\times 3+\\left(\\frac{70}{100}\\times 100\\right)\\times 5}{2+3+5}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{\\frac{18}{100}\\times 2+\\frac{36}{100}\\times 3+\\frac{70}{100}\\times 5}{2+3+5}$"
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{18+36+70}{3}$"
+      }
+    ],
+    "answers": [
+      "b",
+      "c"
+    ],
+    "hint": "First turn every mark into a fraction (or percentage) of its own total.",
+    "explanation": "Marks out of 20, 40 and 100 are not on the same scale, so each must first become a fraction of its own total. Options b and c both do this: b multiplies by 100 at the end and c converts each score to a percentage first; both give $\\dfrac{0.9\\times 2+0.9\\times 3+0.7\\times 5}{10}\\times 100=80\\%$. Option a uses raw marks, d divides 18 and 36 by 100 although they are out of 20 and 40, and e is a simple mean of raw marks."
+  },
+  {
+    "id": "ma10-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Ratings with weights",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A customer rates food 5, service 2 and ambience 4. The restaurant gives these aspects the weights $5:2:3$ respectively. What is the customer’s overall rating?",
+    "image": {
+      "src": "/img/maths10/hotel.svg",
+      "alt": "A restaurant sign with star ratings and a weight for each aspect"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3.67"
+      },
+      {
+        "id": "b",
+        "text": "3.9"
+      },
+      {
+        "id": "c",
+        "text": "13.67"
+      },
+      {
+        "id": "d",
+        "text": "4.1"
+      }
+    ],
+    "answer": "d",
+    "hint": "Multiply each rating by its weight, add, then divide by the sum of the weights.",
+    "explanation": "Rating $=\\dfrac{5\\times 5+2\\times 2+4\\times 3}{5+2+3}=\\dfrac{25+4+12}{10}=4.1$. The unweighted mean $\\dfrac{5+2+4}{3}\\approx 3.67$ gives service as much say as food. Attaching weights in reverse order gives $3.9$, and dividing $41$ by 3 instead of 10 gives $13.67$."
+  },
+  {
+    "id": "ma10-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Weights by recency",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A store counts each review of the last 3 months **twice** as much as an older review. It has 40 recent reviews averaging 4.5 and 60 older reviews averaging 3.5. What is its overall rating (to two decimals)?",
+    "image": {
+      "src": "/img/maths10/shop-reviews.svg",
+      "alt": "Two review boxes for recent and older reviews with their means"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3.90"
+      },
+      {
+        "id": "b",
+        "text": "4.00"
+      },
+      {
+        "id": "c",
+        "text": "4.07"
+      },
+      {
+        "id": "d",
+        "text": "4.17"
+      }
+    ],
+    "answer": "c",
+    "hint": "Give the recent reviews weight 2 and the older reviews weight 1.",
+    "explanation": "Weighted mean $=\\dfrac{4.5\\times(2\\times 40)+3.5\\times 60}{2\\times 40+60}=\\dfrac{360+210}{140}\\approx 4.07$. Ignoring the double weight gives $\\dfrac{180+210}{100}=3.90$. The mean of the two means is $4.00$. Using the weights 2 and 1 on the two *means* only, $\\dfrac{4.5\\times 2+3.5}{3}\\approx 4.17$, forgets that the groups have different numbers of reviews."
+  },
+  {
+    "id": "ma10-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Profit percentage",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A shop earned ₹6000 from books with a 20% profit and ₹2000 from book covers with a 40% profit. What is the profit percentage on the total sales?",
+    "image": {
+      "src": "/img/maths10/stationery.svg",
+      "alt": "A shop counter with a pile of books and a pile of book covers"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "25%"
+      },
+      {
+        "id": "b",
+        "text": "30%"
+      },
+      {
+        "id": "c",
+        "text": "33.3%"
+      },
+      {
+        "id": "d",
+        "text": "20%"
+      }
+    ],
+    "answer": "a",
+    "hint": "Total profit divided by total sales.",
+    "explanation": "Profit $=6000\\times 0.20+2000\\times 0.40=1200+800=₹2000$ on sales of $₹8000$, so $\\dfrac{2000}{8000}=25\\%$. The mean of 20% and 40% is $30\\%$, which pretends both items sold equally. Dividing the profit by book sales only gives $33.3\\%$, and $20\\%$ ignores the cover profit."
+  },
+  {
+    "id": "ma10-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Adding one value to a mean",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A stork’s mean flight over 20 days is $38\\ \\text{km}$ per day. On day 21 it flies $59\\ \\text{km}$. What is the mean daily distance over all 21 days?",
+    "image": {
+      "src": "/img/maths10/stork.svg",
+      "alt": "A stork flying along a dotted trail of daily journeys"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$48.5\\ \\text{km}$"
+      },
+      {
+        "id": "b",
+        "text": "$40.95\\ \\text{km}$"
+      },
+      {
+        "id": "c",
+        "text": "$21\\ \\text{km}$"
+      },
+      {
+        "id": "d",
+        "text": "$39\\ \\text{km}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "First recover the total distance of the first 20 days.",
+    "explanation": "Total of 20 days $=38\\times 20=760$. New total $=760+59=819$, over 21 days: $\\dfrac{819}{21}=39$. One extra day only nudges the mean from 38 to 39. Averaging 38 and 59 gives $48.5$ (treating the new day as important as 20 days), and dividing $819$ by 20 days gives $40.95$."
+  },
+  {
+    "id": "ma10-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Two-level weighted mean",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Ten customers rated the restaurant, with the counts shown in the table. First find the mean star rating for each aspect, then combine them with the weights Food : Service : Ambience $=5:3:2$. What is the overall rating?",
+    "image": {
+      "src": "/img/maths10/rating-table.svg",
+      "alt": "A table of how many customers gave each star rating for three aspects"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3.6"
+      },
+      {
+        "id": "b",
+        "text": "3.75"
+      },
+      {
+        "id": "c",
+        "text": "3.48"
+      },
+      {
+        "id": "d",
+        "text": "37.5"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each aspect’s mean comes from its row: add (stars $\\times$ number of customers) and divide by 10.",
+    "explanation": "Food: $\\dfrac{5\\times 4+4\\times 4+3\\times 2}{10}=4.2$. Service: $\\dfrac{5+12+12+4}{10}=3.3$. Ambience: $\\dfrac{20+9+4}{10}=3.3$. Overall $=\\dfrac{4.2\\times 5+3.3\\times 3+3.3\\times 2}{10}=\\dfrac{21+9.9+6.6}{10}=3.75$. The unweighted mean of $4.2, 3.3, 3.3$ is $3.6$; reversed weights give $3.48$; forgetting to divide by $10$ gives $37.5$."
+  },
+  {
+    "id": "ma10-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Balance point of a weighted mean",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A facility has 18 female langurs with a mean weight of 10 kg and 6 male langurs with a mean weight of 22 kg. Tap the point on the ruler where the mean weight of **all 24 langurs** lies.",
+    "image": {
+      "src": "/img/maths10/balance-langur.svg",
+      "alt": "A weight ruler with two groups of langurs at their mean weights and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "w11",
+        "x": 24.6,
+        "y": 70.4,
+        "label": "Marker at 11 kg"
+      },
+      {
+        "id": "w13",
+        "x": 34.8,
+        "y": 70.4,
+        "label": "Marker at 13 kg"
+      },
+      {
+        "id": "w16",
+        "x": 50,
+        "y": 70.4,
+        "label": "Marker at 16 kg"
+      },
+      {
+        "id": "w19",
+        "x": 65.2,
+        "y": 70.4,
+        "label": "Marker at 19 kg"
+      }
+    ],
+    "answer": "w13",
+    "hint": "The mean is closer to the heavier-in-number group (the one with more langurs).",
+    "explanation": "Mean $=\\dfrac{10\\times 18+22\\times 6}{18+6}=\\dfrac{180+132}{24}=13$. The midpoint of 10 and 22 is $16$, but there are three times as many females, so the balance point is pulled towards 10. Like a seesaw, the bigger group sits closer to the pivot."
+  },
+  {
+    "id": "ma10-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Find the number in a group",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In another facility the mean weight of male langurs is $20\\ \\text{kg}$, of female langurs $14\\ \\text{kg}$, and of all 48 langurs $16\\ \\text{kg}$. How many male langurs are there?",
+    "image": {
+      "src": "/img/maths10/langur-table.svg",
+      "alt": "A table of langur weights with the counts left unknown"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "b",
+        "text": "24"
+      },
+      {
+        "id": "c",
+        "text": "32"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "a",
+    "hint": "Let there be $x$ males, so $48-x$ females, and write the weighted-mean equation.",
+    "explanation": "$\\dfrac{20x+14(48-x)}{48}=16$, so $20x+672-14x=768$, which gives $6x=96$ and $x=16$ males (32 females). Check: $\\dfrac{20\\times 16+14\\times 32}{48}=\\dfrac{768}{48}=16$. The overall mean $16$ is closer to $14$ than to $20$, so females must outnumber males; the answer $24$ assumes equal numbers, and $32$ is the number of females."
+  },
+  {
+    "id": "ma10-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Adding a value to a group",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "There are 12 female langurs with a mean weight of $14\\ \\text{kg}$. A new female weighing $17\\ \\text{kg}$ joins them. What is the mean weight of the females now (to two decimals)?",
+    "image": {
+      "src": "/img/maths10/langur-join.svg",
+      "alt": "A group of female langurs on a scale with one more arriving"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$15.5\\ \\text{kg}$"
+      },
+      {
+        "id": "b",
+        "text": "$15.42\\ \\text{kg}$"
+      },
+      {
+        "id": "c",
+        "text": "$14.23\\ \\text{kg}$"
+      },
+      {
+        "id": "d",
+        "text": "$14\\ \\text{kg}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Old total = mean $\\times$ 12, then add 17 and divide by 13.",
+    "explanation": "Old total $=14\\times 12=168$. New total $=168+17=185$ for 13 langurs: $\\dfrac{185}{13}\\approx 14.23$. The newcomer is only one of 13, so the mean barely moves. Averaging 14 and 17 gives $15.5$; dividing $185$ by the old count 12 gives $15.42$."
+  },
+  {
+    "id": "ma10-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mixing salty water",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Dorjee mixes 1 L of Dead Sea water (salinity 34%) with 3 L of ocean water (salinity 3.5%). What is the salinity of the mixture?",
+    "image": {
+      "src": "/img/maths10/deadsea.svg",
+      "alt": "Two bottles of salty water being poured into one jar"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "18.75%"
+      },
+      {
+        "id": "b",
+        "text": "11.125%"
+      },
+      {
+        "id": "c",
+        "text": "26.375%"
+      },
+      {
+        "id": "d",
+        "text": "37.5%"
+      }
+    ],
+    "answer": "b",
+    "hint": "Salt quantity ÷ total volume.",
+    "explanation": "Salt $=1\\times 0.34+3\\times 0.035=0.34+0.105=0.445\\ \\text{L}$ in $4\\ \\text{L}$: $\\dfrac{0.445}{4}=0.11125=11.125\\%$. The average of 34 and 3.5 is $18.75\\%$, treating the volumes as equal; swapping the volumes gives $26.375\\%$; adding the percentages gives $37.5\\%$."
+  },
+  {
+    "id": "ma10-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Range of a mixture",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths10/mix-range.svg",
+      "alt": "A number line of salt concentrations with marks for drinking, ground and Dead Sea water"
+    },
+    "assertion": "Mixing Dead Sea water (34% salt) with groundwater (0.01% salt) can never give water with 0.001% salt.",
+    "reason": "The concentration of a mixture always lies between the smallest and the largest concentration of the parts that are mixed.",
+    "answer": "a",
+    "hint": "Is 0.001 between 0.01 and 34?",
+    "explanation": "Both are true and R explains A. A weighted mean always lies between the smallest and largest values being averaged, so any mixture of $34\\%$ and $0.01\\%$ water has salinity between $0.01\\%$ and $34\\%$. Since $0.001<0.01$, it is out of reach; you would need water that is purer than groundwater."
+  },
+  {
+    "id": "ma10-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Diluting a mixture",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A stall’s pani has 10% spice. Customers say it is too hot, so the owner adds plain water to 12 L of pani until the spice level is $\\dfrac{3}{5}$ of the original. How much water is added?",
+    "image": {
+      "src": "/img/maths10/pani.svg",
+      "alt": "A pot of pani with a jug of plain water being added"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "7.2 L"
+      },
+      {
+        "id": "b",
+        "text": "4.8 L"
+      },
+      {
+        "id": "c",
+        "text": "20 L"
+      },
+      {
+        "id": "d",
+        "text": "8 L"
+      }
+    ],
+    "answer": "d",
+    "hint": "The amount of spice stays the same; only the total volume changes.",
+    "explanation": "New concentration $=\\dfrac{3}{5}\\times 10\\%=6\\%$. Spice $=0.10\\times 12=1.2\\ \\text{L}$ stays fixed, so $\\dfrac{1.2}{12+x}=0.06$, giving $12+x=20$ and $x=8\\ \\text{L}$. Taking $\\dfrac{3}{5}$ of 12 gives $7.2$, taking $\\dfrac{2}{5}$ gives $4.8$, and $20$ is the final total volume, not the water added."
+  },
+  {
+    "id": "ma10-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Reading a cluster-column chart",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the bar that shows the **largest weekly spending** anywhere on this chart.",
+    "image": {
+      "src": "/img/maths10/cluster-chart.svg",
+      "alt": "A cluster-column chart of weekly spending by three families in six categories, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "housingA",
+        "x": 13.1,
+        "y": 48.5,
+        "label": "Family A, Housing"
+      },
+      {
+        "id": "foodA",
+        "x": 27.7,
+        "y": 52.8,
+        "label": "Family A, Food"
+      },
+      {
+        "id": "eduB",
+        "x": 46.5,
+        "y": 56.3,
+        "label": "Family B, Education"
+      },
+      {
+        "id": "transC",
+        "x": 65.3,
+        "y": 58,
+        "label": "Family C, Transport"
+      },
+      {
+        "id": "healthA",
+        "x": 71.2,
+        "y": 51.5,
+        "label": "Family A, Healthcare"
+      }
+    ],
+    "answer": "housingA",
+    "hint": "Compare the heights against the gridlines.",
+    "explanation": "Bar heights are proportional to rupees. Family A’s Housing bar reaches about ₹1940, higher than A’s Healthcare (₹1770), A’s Food (₹1700), B’s Education (₹1500) or C’s Transport (₹1400). In a **cluster-column chart** you compare bars side by side, but it does not show the totals directly."
+  },
+  {
+    "id": "ma10-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Reading a stacked bar chart",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "This stacked bar chart shows each family’s weekly spending. Tap the part of **Family A’s bar** that shows spending on **Healthcare** (red).",
+    "image": {
+      "src": "/img/maths10/stacked-chart.svg",
+      "alt": "A stacked bar chart with one long bar per family split into six coloured parts and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "seg0",
+        "x": 24.3,
+        "y": 25.8,
+        "label": "Family A, Housing"
+      },
+      {
+        "id": "seg1",
+        "x": 40.5,
+        "y": 25.8,
+        "label": "Family A, Food"
+      },
+      {
+        "id": "seg2",
+        "x": 53.8,
+        "y": 25.8,
+        "label": "Family A, Education"
+      },
+      {
+        "id": "seg3",
+        "x": 64.8,
+        "y": 25.8,
+        "label": "Family A, Transport"
+      },
+      {
+        "id": "seg4",
+        "x": 78,
+        "y": 25.8,
+        "label": "Family A, Healthcare"
+      },
+      {
+        "id": "seg5",
+        "x": 88.2,
+        "y": 25.8,
+        "label": "Family A, Recreation"
+      }
+    ],
+    "answer": "seg4",
+    "hint": "Use the colour legend at the top.",
+    "explanation": "In a **stacked bar chart** the parts are joined end to end in a fixed order (Housing, Food, Education, Transport, Healthcare, Recreation), so Healthcare is the fifth coloured block of Family A’s bar. Only the first block starts at 0, so later blocks must be read by their length, not their end position. Its length is about ₹1770."
+  },
+  {
+    "id": "ma10-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Share of a total",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Family C’s weekly spending (₹) was Housing 950, Food 1700, Education 1540, Transport 1400, Healthcare 1300 and Recreation 150. Roughly what percentage of Family C’s spending went on housing?",
+    "image": {
+      "src": "/img/maths10/stacked-chart.svg",
+      "alt": "A stacked bar chart with one long bar per family split into six coloured parts"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "13.5%"
+      },
+      {
+        "id": "b",
+        "text": "11.3%"
+      },
+      {
+        "id": "c",
+        "text": "15.6%"
+      },
+      {
+        "id": "d",
+        "text": "9.5%"
+      }
+    ],
+    "answer": "a",
+    "hint": "First find the total length of Family C’s bar.",
+    "explanation": "Total $=950+1700+1540+1400+1300+150=₹7040$. Share of housing $=\\dfrac{950}{7040}\\times 100\\approx 13.5\\%$. Using Family A’s total ($₹8425$) gives $11.3\\%$, leaving housing out of the total ($\\dfrac{950}{6090}$) gives $15.6\\%$, and $9.5\\%$ comes from wrongly using a rounded total of $10000$."
+  },
+  {
+    "id": "ma10-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "100% stacked bar chart",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "This chart shows how a house’s electricity use was split in 2005 and 2025. Tap the segment that is the **largest share of the 2025 total**.",
+    "image": {
+      "src": "/img/maths10/power-100.svg",
+      "alt": "A 100 percent stacked bar chart of electricity use by type for two years, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "l25",
+        "x": 18.7,
+        "y": 54.8,
+        "label": "2025 Lighting"
+      },
+      {
+        "id": "c25",
+        "x": 39.1,
+        "y": 54.8,
+        "label": "2025 Cooling"
+      },
+      {
+        "id": "k25",
+        "x": 64.3,
+        "y": 54.8,
+        "label": "2025 Kitchen"
+      },
+      {
+        "id": "o25",
+        "x": 83.9,
+        "y": 54.8,
+        "label": "2025 Other"
+      },
+      {
+        "id": "c05",
+        "x": 55.1,
+        "y": 28.9,
+        "label": "2005 Cooling"
+      }
+    ],
+    "answer": "c25",
+    "hint": "Look at the 2025 bar only; its segments add up to 100%.",
+    "explanation": "The 2025 numbers are $220, 800, 460, 520$ kWh with total $2000$, so the shares are $11\\%, 40\\%, 23\\%, 26\\%$. Cooling ($40\\%$) is the longest segment. In a **100% stacked bar** each bar has the same full length, so segment length shows a *share*, not an absolute amount. (The 2005 cooling segment is $30\\%$ of $1000$ kWh.)"
+  },
+  {
+    "id": "ma10-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Inferences from a 100% stacked chart",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The chart shows the share of each garden’s yearly flowers that bloomed in each season. Which statements can be **definitely inferred**? Select all that apply.",
+    "image": {
+      "src": "/img/maths10/flowers-100.svg",
+      "alt": "A 100 percent stacked bar chart of flowers blooming by season in two gardens"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "In Garden P, more flowers bloomed in spring than in autumn"
+      },
+      {
+        "id": "b",
+        "text": "More flowers bloomed in spring in Garden P than in Garden Q"
+      },
+      {
+        "id": "c",
+        "text": "In Garden Q, summer flowers outnumber spring and autumn flowers put together"
+      },
+      {
+        "id": "d",
+        "text": "Both gardens have the same total number of flowers"
+      },
+      {
+        "id": "e",
+        "text": "In each garden, autumn blooms are fewer than spring blooms"
+      },
+      {
+        "id": "f",
+        "text": "Garden P had more flowers in the whole year than Garden Q"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "You may compare parts within one garden, but not across gardens without totals.",
+    "explanation": "Within one garden all parts share the same total, so comparing them is safe: P has $45\\%>20\\%$ (a true), Q has $55\\%>25\\%+20\\%=45\\%$ (c true), and autumn $20\\%<$ spring in both ($20<45$ and $20<25$), so e is true. Comparing **across** gardens (b, d, f) needs the actual totals, which a 100% chart does not show; a 45% slice of a small garden can be fewer flowers than a 25% slice of a huge one."
+  },
+  {
+    "id": "ma10-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Stacked vs 100% stacked",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths10/cases.svg",
+      "alt": "Two different stacked bar charts with two rows each"
+    },
+    "assertion": "From any stacked bar chart we can draw the matching 100% stacked bar chart.",
+    "reason": "From any 100% stacked bar chart we can recover the exact numbers of the original stacked bar chart.",
+    "answer": "c",
+    "hint": "Many different totals can give the same percentages.",
+    "explanation": "A is true: divide each part by its bar’s total and scale to 100%. R is false: the two charts in the picture have different counts and totals but would give identical 100% bars, so the percentages cannot tell you the numbers. The chapter’s summary says a 100% chart can be made from a stacked chart, but not vice versa."
+  },
+  {
+    "id": "ma10-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Averages hide differences",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths10/average-day.svg",
+      "alt": "One strip for an average day above four strips for age groups with different patterns"
+    },
+    "assertion": "The “average day” strip for a whole country is a good description of how a typical 10-year-old spends a day.",
+    "reason": "An average of a very varied collection can hide big differences between its groups.",
+    "answer": "d",
+    "hint": "Compare the top strip with the age-group strips.",
+    "explanation": "A is false: children, youth, adults and the elderly spend their days very differently (more learning for children, more paid work for adults), so one national average describes hardly anyone well. R is true and is the reason we break the data into **age groups** (a stacked chart) to see the real patterns."
+  },
+  {
+    "id": "ma10-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "100% stacked bar: shares",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Smartwatch data shows how four people spend 24 hours. Tap the bar of the person who spends the **largest share of the day standing or moving around** (orange part).",
+    "image": {
+      "src": "/img/maths10/smartwatch-100.svg",
+      "alt": "A 100 percent stacked bar chart of four people’s 24-hour days with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "pavani",
+        "x": 22.1,
+        "y": 24,
+        "label": "Pavani"
+      },
+      {
+        "id": "raghu",
+        "x": 22.1,
+        "y": 42,
+        "label": "Raghu"
+      },
+      {
+        "id": "zakir",
+        "x": 22.1,
+        "y": 60,
+        "label": "Zakir"
+      },
+      {
+        "id": "julie",
+        "x": 22.1,
+        "y": 78,
+        "label": "Julie"
+      }
+    ],
+    "answer": "raghu",
+    "hint": "Find which bar has the longest orange part.",
+    "explanation": "Standing or moving hours: Pavani 1, Raghu 13, Zakir 10, Julie 6, each out of 24. The shares are $\\dfrac{1}{24}\\approx 4\\%$, $\\dfrac{13}{24}\\approx 54\\%$, $\\dfrac{10}{24}\\approx 42\\%$ and $\\dfrac{6}{24}=25\\%$. Raghu’s orange part is the longest. Because every bar is a full 24 hours, lengths can be compared directly."
+  },
+  {
+    "id": "ma10-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Making a 100% stacked bar",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for turning a stacked bar chart into a **100% stacked bar chart**.",
+    "image": {
+      "src": "/img/maths10/convert.svg",
+      "alt": "A stacked bar turning into a full-length 100 percent bar"
+    },
+    "items": [
+      {
+        "id": "draw",
+        "text": "Draw every bar with the same full length"
+      },
+      {
+        "id": "div",
+        "text": "Divide each part by the total of its bar"
+      },
+      {
+        "id": "tot",
+        "text": "Add up the parts of each bar to get its total"
+      },
+      {
+        "id": "split",
+        "text": "Split each bar into segments in proportion to the percentages"
+      },
+      {
+        "id": "mul",
+        "text": "Multiply each fraction by $100$ to get a percentage"
+      }
+    ],
+    "answer": [
+      "tot",
+      "div",
+      "mul",
+      "draw",
+      "split"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need the totals before you can find any share.",
+    "explanation": "Like the electricity example ($360+300+120+220=1000$, then $\\dfrac{360}{1000}\\times 100=36\\%$), first find each bar’s total, then divide every part by it and multiply by 100. Only then can you draw equal-length bars and split them in those proportions."
+  },
+  {
+    "id": "ma10-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Run rate as a mean",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In cricket the run rate is runs per over. After 14 overs a team’s run rate is 7. In the 15th over it scores 13 runs. What is the run rate after 15 overs?",
+    "image": {
+      "src": "/img/maths10/cricket.svg",
+      "alt": "A cricket scoreboard with overs and runs, a bat and a ball"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "7.93"
+      },
+      {
+        "id": "c",
+        "text": "7.4"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "c",
+    "hint": "Runs so far = run rate $\\times$ overs.",
+    "explanation": "Runs after 14 overs $=7\\times 14=98$. After the 15th over: $98+13=111$ runs in 15 overs, so the run rate is $\\dfrac{111}{15}=7.4$. Averaging 7 and 13 gives $10$ (treating one over like 14 overs), dividing by 14 gives $7.93$, and $7$ ignores the big over."
+  },
+  {
+    "id": "ma10-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Average price of shares",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Asha holds 20 shares of a company at a mean price of ₹120. She buys 10 more shares at ₹30 each. What is her mean price per share now?",
+    "image": {
+      "src": "/img/maths10/shares.svg",
+      "alt": "A pile of share certificates already held and a smaller pile being bought"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹75"
+      },
+      {
+        "id": "b",
+        "text": "₹90"
+      },
+      {
+        "id": "c",
+        "text": "₹135"
+      },
+      {
+        "id": "d",
+        "text": "₹270"
+      }
+    ],
+    "answer": "b",
+    "hint": "Total money spent divided by total number of shares.",
+    "explanation": "Money spent $=20\\times 120+10\\times 30=2400+300=₹2700$ for $30$ shares: $\\dfrac{2700}{30}=₹90$. The average of 120 and 30 is $₹75$, which ignores that 20 shares were bought at the higher price. Dividing $2700$ by 20 gives $135$ and by 10 gives $270$."
+  },
+  {
+    "id": "ma10-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mean price after a purchase",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Suvarna owns 3 g of gold bought at a mean price of ₹20k per gram (point O). She now buys **1 g at ₹40k**. Tap where her new mean price per gram lies.",
+    "image": {
+      "src": "/img/maths10/gold-line.svg",
+      "alt": "A number line of gold prices with a marker O and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p15",
+        "x": 18.8,
+        "y": 63.6,
+        "label": "Marker at ₹15k"
+      },
+      {
+        "id": "p20",
+        "x": 31.3,
+        "y": 63.6,
+        "label": "Marker at ₹20k"
+      },
+      {
+        "id": "p25",
+        "x": 43.8,
+        "y": 63.6,
+        "label": "Marker at ₹25k"
+      },
+      {
+        "id": "p30",
+        "x": 56.3,
+        "y": 63.6,
+        "label": "Marker at ₹30k"
+      },
+      {
+        "id": "p35",
+        "x": 68.8,
+        "y": 63.6,
+        "label": "Marker at ₹35k"
+      },
+      {
+        "id": "p40",
+        "x": 81.3,
+        "y": 63.6,
+        "label": "Marker at ₹40k"
+      }
+    ],
+    "answer": "p25",
+    "hint": "She has 4 g in all; how much did she pay in total?",
+    "explanation": "Total paid $=3\\times 20+1\\times 40=100$ (₹k) for $4$ g: $\\dfrac{100}{4}=25$. The new mean is only a quarter of the way from 20 towards 40, because the new purchase is small compared with what she already holds. The midpoint $30$ is the trap that treats both purchases as equal."
+  },
+  {
+    "id": "ma10-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Equal weights give the midpoint",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Suvarna again owns 3 g at a mean price of ₹20k per gram (point O). This time she buys **3 g at ₹40k**. Tap where her new mean price lies.",
+    "image": {
+      "src": "/img/maths10/gold-line.svg",
+      "alt": "A number line of gold prices with a marker O and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p15",
+        "x": 18.8,
+        "y": 63.6,
+        "label": "Marker at ₹15k"
+      },
+      {
+        "id": "p20",
+        "x": 31.3,
+        "y": 63.6,
+        "label": "Marker at ₹20k"
+      },
+      {
+        "id": "p25",
+        "x": 43.8,
+        "y": 63.6,
+        "label": "Marker at ₹25k"
+      },
+      {
+        "id": "p30",
+        "x": 56.3,
+        "y": 63.6,
+        "label": "Marker at ₹30k"
+      },
+      {
+        "id": "p35",
+        "x": 68.8,
+        "y": 63.6,
+        "label": "Marker at ₹35k"
+      },
+      {
+        "id": "p40",
+        "x": 81.3,
+        "y": 63.6,
+        "label": "Marker at ₹40k"
+      }
+    ],
+    "answer": "p30",
+    "hint": "Compare the amount bought with the amount she already had.",
+    "explanation": "Now she holds $3$ g at ₹20k and $3$ g at ₹40k, equal amounts, so the weights are equal and the mean is the midpoint: $\\dfrac{3\\times 20+3\\times 40}{6}=\\dfrac{180}{6}=30$. When the two amounts are unequal (as with 1 g at ₹40k) the mean moves much less."
+  },
+  {
+    "id": "ma10-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Doubling the weights",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths10/weights-scale.svg",
+      "alt": "Two data values with counters showing weights, and the same values with doubled counters"
+    },
+    "assertion": "If every weight in a weighted mean is doubled, the weighted mean does not change.",
+    "reason": "A weighted mean always lies between the smallest and the largest data value.",
+    "answer": "b",
+    "hint": "Does the second statement say anything about doubling?",
+    "explanation": "A is true: $\\dfrac{2w_1x_1+2w_2x_2}{2w_1+2w_2}=\\dfrac{w_1x_1+w_2x_2}{w_1+w_2}$ because the factor $2$ cancels. R is also a true property, but it does not explain *why* doubling changes nothing, so the answer is B. (Example: values 10 and 20 with weights 1 and 3 give $17.5$, and with weights 2 and 6 give $\\dfrac{20+120}{8}=17.5$.)"
+  },
+  {
+    "id": "ma10-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Shares that change",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A farm’s animals were 60% cows, 25% sheep and 15% hens, and the **number** of every kind of animal fell this year. Which changes in the **shares** (percentages) are possible? Select all that apply.",
+    "image": {
+      "src": "/img/maths10/farm.svg",
+      "alt": "A bar showing shares of cows, sheep and hens on a farm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "All three shares decreased"
+      },
+      {
+        "id": "b",
+        "text": "All three shares increased"
+      },
+      {
+        "id": "c",
+        "text": "All three shares stayed the same"
+      },
+      {
+        "id": "d",
+        "text": "Cows’ share decreased, sheep’s share increased, hens’ share stayed the same"
+      },
+      {
+        "id": "e",
+        "text": "Cows’ share increased, sheep’s share increased, hens’ share decreased"
+      }
+    ],
+    "answers": [
+      "c",
+      "d",
+      "e"
+    ],
+    "hint": "The shares of one whole must always add up to 100%.",
+    "explanation": "Shares always add to $100\\%$, so they cannot **all** fall (a) or **all** rise (b). All staying the same (c) is possible when every population falls by the same fraction. In d the cows fall faster than the others and in e the hens fall fastest, so the rest gain share; both are possible even though every count fell."
+  },
+  {
+    "id": "ma10-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "100% bar from times",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Athlete 1 took 1 h 08 min to swim, 5 h 00 min to cycle and 3 h 15 min to run. If a 100% stacked bar is drawn for this athlete, what percentage will the cycling part be (to one decimal)?",
+    "image": {
+      "src": "/img/maths10/triathlon.svg",
+      "alt": "A table of three athletes’ finish times in swimming, cycling and running"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "54.2%"
+      },
+      {
+        "id": "b",
+        "text": "33.3%"
+      },
+      {
+        "id": "c",
+        "text": "114.1%"
+      },
+      {
+        "id": "d",
+        "text": "53.3%"
+      }
+    ],
+    "answer": "d",
+    "hint": "Convert everything to minutes before adding; hh:mm is not a decimal.",
+    "explanation": "In minutes: swim $68$, cycle $300$, run $195$, total $563$. Cycling share $=\\dfrac{300}{563}\\times 100\\approx 53.3\\%$. Reading $1{:}08$ as $1.08$ hours gives $\\dfrac{5}{9.23}\\approx 54.2\\%$. Cycling against the other two parts, $\\dfrac{300}{263}\\approx 114.1\\%$, forgets that the total includes the cycling itself, and $33.3\\%$ assumes all three parts are equal."
+  },
+  {
+    "id": "ma10-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Key terms",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term from this chapter with its meaning.",
+    "image": {
+      "src": "/img/maths10/terms.svg",
+      "alt": "Small sketches of different charts and a balance"
+    },
+    "left": [
+      {
+        "id": "wm",
+        "text": "Weighted mean"
+      },
+      {
+        "id": "cl",
+        "text": "Cluster-column chart"
+      },
+      {
+        "id": "sb",
+        "text": "Stacked bar chart"
+      },
+      {
+        "id": "ps",
+        "text": "100% stacked bar chart"
+      },
+      {
+        "id": "cn",
+        "text": "Concentration of a mixture"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Average in which each value counts according to its size or importance"
+      },
+      {
+        "id": "r2",
+        "text": "Groups of side-by-side bars for comparing items"
+      },
+      {
+        "id": "r3",
+        "text": "Bars joined end to end, showing totals and their parts"
+      },
+      {
+        "id": "r4",
+        "text": "Equal-length bars split in proportion; compares shares only"
+      },
+      {
+        "id": "r5",
+        "text": "Quantity of the substance divided by the quantity of the whole mixture"
+      }
+    ],
+    "pairs": {
+      "wm": "r1",
+      "cl": "r2",
+      "sb": "r3",
+      "ps": "r4",
+      "cn": "r5"
+    },
+    "hint": "Which one tells you nothing about totals?",
+    "explanation": "A **weighted mean** is $\\dfrac{w_1x_1+\\dots+w_nx_n}{w_1+\\dots+w_n}$. A **cluster-column** chart puts bars side by side, a **stacked bar** joins them so totals are visible, and a **100% stacked bar** gives every bar the same length so only proportions are compared. **Concentration** is the amount of the substance over the amount of the mixture."
+  },
+  {
+    "id": "ma10-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "What acts as the weight",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "In each situation, what plays the role of the **weight**?",
+    "image": {
+      "src": "/img/maths10/weights-match.svg",
+      "alt": "Five small everyday scenes"
+    },
+    "left": [
+      {
+        "id": "wk",
+        "text": "Mean of three weekly means, 5 school days each"
+      },
+      {
+        "id": "mx",
+        "text": "Strength after mixing jugs of different volumes"
+      },
+      {
+        "id": "sc",
+        "text": "Final score from internals, project and exam"
+      },
+      {
+        "id": "pt",
+        "text": "Mean depth of a pit dug in sections"
+      },
+      {
+        "id": "sh",
+        "text": "Mean price of shares bought in lots"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Equal weights, since every week has the same number of days"
+      },
+      {
+        "id": "r2",
+        "text": "The volume of each jug"
+      },
+      {
+        "id": "r3",
+        "text": "The agreed ratio, such as $3:2:5$"
+      },
+      {
+        "id": "r4",
+        "text": "The length of each section"
+      },
+      {
+        "id": "r5",
+        "text": "The number of shares in each lot"
+      }
+    ],
+    "pairs": {
+      "wk": "r1",
+      "mx": "r2",
+      "sc": "r3",
+      "pt": "r4",
+      "sh": "r5"
+    },
+    "hint": "Ask: what tells me how much each value counts?",
+    "explanation": "In every weighted mean, the weight says how much a value counts: equal sizes mean equal weights, a jug’s **volume** weights its concentration, the exam **ratio** weights each score, a section’s **length** weights its depth (Brahmagupta’s pit), and the **number of shares** in a lot weights its price."
+  },
+  {
+    "id": "ma10-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Choosing a chart",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each question about three families’ spending with the chart that answers it best.",
+    "image": {
+      "src": "/img/maths10/charts-match.svg",
+      "alt": "Five small chart sketches"
+    },
+    "left": [
+      {
+        "id": "q1",
+        "text": "Which family spent the least on housing?"
+      },
+      {
+        "id": "q2",
+        "text": "Did Family A spend more on food or on healthcare?"
+      },
+      {
+        "id": "q3",
+        "text": "Which family spent the most overall, and on what?"
+      },
+      {
+        "id": "q4",
+        "text": "In which family is healthcare the smallest share?"
+      },
+      {
+        "id": "q5",
+        "text": "How does one family’s money split among items, as slices?"
+      }
+    ],
+    "right": [
+      {
+        "id": "c1",
+        "text": "Cluster columns grouped by category"
+      },
+      {
+        "id": "c2",
+        "text": "Cluster columns grouped by family"
+      },
+      {
+        "id": "c3",
+        "text": "Stacked bar chart"
+      },
+      {
+        "id": "c4",
+        "text": "100% stacked bar chart"
+      },
+      {
+        "id": "c5",
+        "text": "Pie chart"
+      }
+    ],
+    "pairs": {
+      "q1": "c1",
+      "q2": "c2",
+      "q3": "c3",
+      "q4": "c4",
+      "q5": "c5"
+    },
+    "hint": "Think about what each chart makes easy to compare.",
+    "explanation": "Grouping by **category** puts the three families side by side for each item (q1); grouping by **family** puts a family’s items side by side (q2). A **stacked bar** shows totals along with parts (q3). A **100% stacked bar** compares proportions across families (q4), and a **pie chart** shows how one whole splits (q5)."
+  },
+  {
+    "id": "ma10-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Mixture concentrations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each mixture of lemonade (volume at jaggery percentage) with the jaggery concentration of the final mixture.",
+    "image": {
+      "src": "/img/maths10/mix-match.svg",
+      "alt": "Several jugs of lemonade of different colours"
+    },
+    "left": [
+      {
+        "id": "m1",
+        "text": "100 mL at 10% and 100 mL at 20%"
+      },
+      {
+        "id": "m2",
+        "text": "300 mL at 10% and 100 mL at 20%"
+      },
+      {
+        "id": "m3",
+        "text": "100 mL at 10% and 300 mL at 20%"
+      },
+      {
+        "id": "m4",
+        "text": "200 mL each at 10%, 20% and 30%"
+      },
+      {
+        "id": "m5",
+        "text": "100 mL at 10%, 100 mL at 20% and 200 mL at 30%"
+      }
+    ],
+    "right": [
+      {
+        "id": "k1",
+        "text": "15%"
+      },
+      {
+        "id": "k2",
+        "text": "12.5%"
+      },
+      {
+        "id": "k3",
+        "text": "17.5%"
+      },
+      {
+        "id": "k4",
+        "text": "20%"
+      },
+      {
+        "id": "k5",
+        "text": "22.5%"
+      }
+    ],
+    "pairs": {
+      "m1": "k1",
+      "m2": "k2",
+      "m3": "k3",
+      "m4": "k4",
+      "m5": "k5"
+    },
+    "hint": "Equal volumes give the midpoint; more of the weaker one pulls the result down.",
+    "explanation": "Concentration $=\\dfrac{\\text{jaggery}}{\\text{volume}}$: m1 is $\\dfrac{10+20}{200}=15\\%$; m2 is $\\dfrac{30+20}{400}=12.5\\%$; m3 is $\\dfrac{10+60}{400}=17.5\\%$; m4 is $\\dfrac{20+40+60}{600}=20\\%$; m5 is $\\dfrac{10+20+60}{400}=22.5\\%$. Each answer sits nearer the percentage with more volume."
+  },
+  {
+    "id": "ma10-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Effect on the mean",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each change to a data set with its effect on the **mean**.",
+    "image": {
+      "src": "/img/maths10/effects.svg",
+      "alt": "A row of data points with a balance marker and arrows"
+    },
+    "left": [
+      {
+        "id": "e1",
+        "text": "A new value larger than the current mean is added"
+      },
+      {
+        "id": "e2",
+        "text": "A value larger than the mean is removed"
+      },
+      {
+        "id": "e3",
+        "text": "A new value equal to the current mean is added"
+      },
+      {
+        "id": "e4",
+        "text": "Every weight is increased by 1"
+      },
+      {
+        "id": "e5",
+        "text": "Every data value is doubled"
+      }
+    ],
+    "right": [
+      {
+        "id": "f1",
+        "text": "The mean rises"
+      },
+      {
+        "id": "f2",
+        "text": "The mean falls"
+      },
+      {
+        "id": "f3",
+        "text": "The mean stays the same"
+      },
+      {
+        "id": "f4",
+        "text": "The mean may change, depending on the values"
+      },
+      {
+        "id": "f5",
+        "text": "The mean doubles"
+      }
+    ],
+    "pairs": {
+      "e1": "f1",
+      "e2": "f2",
+      "e3": "f3",
+      "e4": "f4",
+      "e5": "f5"
+    },
+    "hint": "Test each with a small example, such as 10 and 20.",
+    "explanation": "A value above the mean pulls it up when added (the stork’s long 21st day) and down when removed. Adding a value equal to the mean changes nothing. Doubling every value doubles the mean. Adding 1 to every weight changes the ratio of the weights: for values 10, 20 with weights 1, 3 the mean is $17.5$, with weights 2, 4 it is $\\dfrac{20+80}{6}\\approx 16.67$."
+  },
+  {
+    "id": "ma10-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Combining two groups",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to find the mean of two groups combined, given each group’s mean and size.",
+    "image": {
+      "src": "/img/maths10/steps-avg.svg",
+      "alt": "Two groups with their means and sizes being combined into one"
+    },
+    "items": [
+      {
+        "id": "div",
+        "text": "Divide the combined total by the combined size"
+      },
+      {
+        "id": "know",
+        "text": "Note each group’s mean and size"
+      },
+      {
+        "id": "add",
+        "text": "Add the two group totals and add the two group sizes"
+      },
+      {
+        "id": "tot",
+        "text": "Multiply each mean by its size to get the group totals"
+      }
+    ],
+    "answer": [
+      "know",
+      "tot",
+      "add",
+      "div"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need totals before you can combine them.",
+    "explanation": "Since mean $=\\dfrac{\\text{sum}}{\\text{size}}$, the sum of a group is mean $\\times$ size ($an$ and $bm$). The combined mean is therefore $\\dfrac{an+bm}{n+m}$: first the totals, then add totals and sizes, finally divide."
+  },
+  {
+    "id": "ma10-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Sorting mixtures",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these mixtures from the **lowest** to the **highest** jaggery concentration.",
+    "image": {
+      "src": "/img/maths10/glasses4.svg",
+      "alt": "Four glasses of mixed juice of different shades"
+    },
+    "items": [
+      {
+        "id": "R",
+        "text": "Mixture R: 100 mL at 10% with 300 mL at 20%"
+      },
+      {
+        "id": "P",
+        "text": "Mixture P: 100 mL at 10% with 100 mL at 20%"
+      },
+      {
+        "id": "S",
+        "text": "Mixture S: 200 mL at 5% with 100 mL at 20%"
+      },
+      {
+        "id": "Q",
+        "text": "Mixture Q: 300 mL at 10% with 100 mL at 20%"
+      }
+    ],
+    "answer": [
+      "S",
+      "Q",
+      "P",
+      "R"
+    ],
+    "startLabel": "Lowest",
+    "endLabel": "Highest",
+    "hint": "Work out jaggery ÷ volume for each.",
+    "explanation": "S: $\\dfrac{10+20}{300}=10\\%$; Q: $\\dfrac{30+20}{400}=12.5\\%$; P: $\\dfrac{10+20}{200}=15\\%$; R: $\\dfrac{10+60}{400}=17.5\\%$. So the order is S, Q, P, R. Mixtures with more of the 10% lemonade sit nearer 10%."
+  },
+  {
+    "id": "ma10-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "History of the weighted mean",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these events in the history of the weighted mean in **time order** (earliest first).",
+    "image": {
+      "src": "/img/maths10/manuscript.svg",
+      "alt": "Palm-leaf manuscripts above a timeline with four marks"
+    },
+    "items": [
+      {
+        "id": "eu",
+        "text": "The weighted mean gains prominence in Europe (by the 1700s)"
+      },
+      {
+        "id": "sr",
+        "text": "Śrīdharācārya uses weighted means for the purity of gold alloys (c. 750 CE)"
+      },
+      {
+        "id": "bg",
+        "text": "Brahmagupta writes the weighted-mean formula for the mean depth of a pit (c. 628 CE)"
+      },
+      {
+        "id": "pr",
+        "text": "Pṛthūdakasvāmī comments on Brahmagupta’s mean depth of a pool (c. 864 CE)"
+      }
+    ],
+    "answer": [
+      "bg",
+      "sr",
+      "pr",
+      "eu"
+    ],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "Compare the years: 628, 750, 864, then the 1700s.",
+    "explanation": "Brahmagupta’s *Brāhmasphuṭasiddhānta* (c. 628 CE) gave the formula, Śrīdharācārya (c. 750 CE) used it for gold purity (varṇa), Pṛthūdakasvāmī (c. 864 CE) commented on Brahmagupta’s work, and the idea reached prominence in Europe by the 1700s."
+  },
+  {
+    "id": "ma10-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "How Quantities Combine: Understanding Data",
+    "chapterNo": 10,
+    "topic": "Ranking by weighted score",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Internals, project and final exam count in the ratio $3:5:2$. Arrange the students by their **annual score**, lowest first. Marks are (internals, project, final).",
+    "image": {
+      "src": "/img/maths10/podium.svg",
+      "alt": "Four students standing in a row"
+    },
+    "items": [
+      {
+        "id": "P",
+        "text": "Student P: 60, 70, 80"
+      },
+      {
+        "id": "R",
+        "text": "Student R: 70, 80, 60"
+      },
+      {
+        "id": "S",
+        "text": "Student S: 90, 50, 60"
+      },
+      {
+        "id": "Q",
+        "text": "Student Q: 80, 60, 70"
+      }
+    ],
+    "answer": [
+      "S",
+      "Q",
+      "P",
+      "R"
+    ],
+    "startLabel": "Lowest",
+    "endLabel": "Highest",
+    "hint": "The project carries the biggest weight (5).",
+    "explanation": "Score $=\\dfrac{3a+5b+2c}{10}$. S: $\\dfrac{270+250+120}{10}=64$; Q: $\\dfrac{240+300+140}{10}=68$; P: $\\dfrac{180+350+160}{10}=69$; R: $\\dfrac{210+400+120}{10}=73$. Plain means would put P, Q and R all at $70$, and S at $66.7$, hiding the real ranking; the heavy project weight lifts R."
+  }
+]

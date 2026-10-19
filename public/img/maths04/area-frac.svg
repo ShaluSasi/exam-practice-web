@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>An area model with sides two-thirds m plus 6n</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.out{animation:mv 3s linear infinite}@keyframes mv{to{stroke-dashoffset:-36}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="120" y="70" width="60" height="60" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="180" y="70" width="150" height="60" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="120" y="130" width="60" height="150" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="180" y="130" width="150" height="150" fill="#C9A7E8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect class="out" x="120" y="70" width="210" height="210" fill="none" stroke="#0B93D4" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M128 54L122 58L128 62M122 58H178M172 54L178 58L172 62" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="150" y="50" font-size="16" text-anchor="middle">⅔m</text>
+<path d="M188 54L182 58L188 62M182 58H328M322 54L328 58L322 62" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="255" y="50" font-size="16" text-anchor="middle">6n</text>
+<path d="M104 78L108 72L112 78M108 72V128M104 122L108 128L112 122" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="100" y="105" font-size="16" text-anchor="end">⅔m</text>
+<path d="M104 138L108 132L112 138M108 132V278M104 272L108 278L112 272" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="100" y="210" font-size="16" text-anchor="end">6n</text>
+</svg>

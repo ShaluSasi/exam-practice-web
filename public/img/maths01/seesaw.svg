@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img">
+<title>Two children on a seesaw balanced at its middle point M between ends S and T</title>
+<style>
+text{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.h{stroke:#FFF9EE;stroke-width:3px;paint-order:stroke}
+.plank{transform-box:view-box;transform-origin:210px 146px;animation:tilt 4s ease-in-out infinite}@keyframes tilt{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M0 205H420" stroke="#D9C49A" stroke-width="0"/><rect x="16" y="200" width="388" height="24" rx="8" fill="#D9C49A"/><path d="M210 200L186 150H234Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/><g class="plank"><rect x="50" y="140" width="320" height="12" rx="6" fill="#C8925A" stroke="#2B2F4A" stroke-width="2.5"/><circle cx="60" cy="146" r="7" fill="#0B93D4" stroke="#fff" stroke-width="2"/><circle cx="360" cy="146" r="7" fill="#0B93D4" stroke="#fff" stroke-width="2"/><circle cx="210" cy="146" r="7" fill="#E5484D" stroke="#fff" stroke-width="2"/><g transform="translate(80 92) scale(0.9)">
+<path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-8" r="10" fill="#C68A5E" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-10 -10Q-9 -20 0 -19Q9 -20 10 -10Q6 -15 0 -14Q-6 -15 -10 -10Z" fill="#2B2F4A"/>
+<circle cx="-3.5" cy="-8" r="1.3" fill="#2B2F4A"/><circle cx="3.5" cy="-8" r="1.3" fill="#2B2F4A"/>
+<path d="M-3 -3Q0 -1 3 -3" stroke="#2B2F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/></g><g transform="translate(340 92) scale(0.9)">
+<path d="M-14 46L-11 14Q-10 4 0 4Q10 4 11 14L14 46Z" fill="#8E5BD0" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="0" cy="-8" r="10" fill="#A86B45" stroke="#2B2F4A" stroke-width="2"/>
+<path d="M-10 -10Q-9 -20 0 -19Q9 -20 10 -10Q6 -15 0 -14Q-6 -15 -10 -10Z" fill="#2B2F4A"/>
+<circle cx="-3.5" cy="-8" r="1.3" fill="#2B2F4A"/><circle cx="3.5" cy="-8" r="1.3" fill="#2B2F4A"/>
+<path d="M-3 -3Q0 -1 3 -3" stroke="#2B2F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/></g></g><text class="h" x="60" y="186" font-size="15" text-anchor="middle">S</text><text class="h" x="210" y="128" font-size="15" text-anchor="middle">M</text><text class="h" x="360" y="186" font-size="15" text-anchor="middle">T</text>
+</svg>

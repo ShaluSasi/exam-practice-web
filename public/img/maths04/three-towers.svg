@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>Three towers of blocks of heights n minus 1, n and n plus 1</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.bk{animation:dp 5s ease-out infinite}@keyframes dp{0%{transform:translateY(-14px);opacity:0}12%,100%{transform:translateY(0);opacity:1}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="215" width="360" height="12" rx="6" fill="#D9C49A"/>
+<rect class="bk" style="animation-delay:0.0s" x="90" y="185" width="50" height="28" rx="5" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:0.1s" x="90" y="155" width="50" height="28" rx="5" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:0.2s" x="90" y="125" width="50" height="28" rx="5" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:0.3s" x="90" y="95" width="50" height="28" rx="5" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2"/>
+<text class="t v" x="115" y="248" font-size="16" text-anchor="middle">n − 1</text>
+<rect class="bk" style="animation-delay:0.6s" x="180" y="185" width="50" height="28" rx="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:0.7s" x="180" y="155" width="50" height="28" rx="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:0.8s" x="180" y="125" width="50" height="28" rx="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:0.9s" x="180" y="95" width="50" height="28" rx="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:1.0s" x="180" y="65" width="50" height="28" rx="5" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<text class="t v" x="205" y="248" font-size="16" text-anchor="middle">n</text>
+<rect class="bk" style="animation-delay:1.2s" x="270" y="185" width="50" height="28" rx="5" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:1.3s" x="270" y="155" width="50" height="28" rx="5" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:1.4s" x="270" y="125" width="50" height="28" rx="5" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:1.5s" x="270" y="95" width="50" height="28" rx="5" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:1.6s" x="270" y="65" width="50" height="28" rx="5" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2"/>
+<rect class="bk" style="animation-delay:1.7s" x="270" y="35" width="50" height="28" rx="5" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2"/>
+<text class="t v" x="295" y="248" font-size="16" text-anchor="middle">n + 1</text>
+</svg>

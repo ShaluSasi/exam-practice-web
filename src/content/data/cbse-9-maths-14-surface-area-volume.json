@@ -1,0 +1,2205 @@
+[
+  {
+    "id": "ma14-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Surface area of a cube",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The volume of a cube is $64\\ \\text{cm}^3$. What is its **total surface area**?",
+    "image": {
+      "src": "/img/maths14/cube-vol.svg",
+      "alt": "A cube with its volume written beside it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$24\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$96\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$384\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$16\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Find the side first: which number multiplied by itself three times gives 64?",
+    "explanation": "Since $a^3 = 64$, the side is $a = 4\\ \\text{cm}$. The cube has six square faces, so $\\text{TSA} = 6a^2 = 6 \\times 16 = 96\\ \\text{cm}^2$. The trap is stopping early: $16\\ \\text{cm}^2$ is only one face, $24$ comes from $6a$ (forgetting to square) and $384$ from $6 \\times 64$ (using the volume instead of $a^2$)."
+  },
+  {
+    "id": "ma14-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Packing cuboids in a cuboid",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A godown measures $40\\ \\text{m} \\times 25\\ \\text{m} \\times 10\\ \\text{m}$. How many cuboidal boxes, each $2\\ \\text{m} \\times 1.25\\ \\text{m} \\times 1\\ \\text{m}$, can be packed in it completely?",
+    "image": {
+      "src": "/img/maths14/godown.svg",
+      "alt": "A cuboid-shaped godown with its three dimensions and one small box beside it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "8,000"
+      },
+      {
+        "id": "b",
+        "text": "5,000"
+      },
+      {
+        "id": "c",
+        "text": "4,000"
+      },
+      {
+        "id": "d",
+        "text": "400"
+      }
+    ],
+    "answer": "c",
+    "hint": "Divide the volume of the godown by the volume of one box.",
+    "explanation": "Volume of godown $= 40 \\times 25 \\times 10 = 10000\\ \\text{m}^3$. Volume of one box $= 2 \\times 1.25 \\times 1 = 2.5\\ \\text{m}^3$. Number of boxes $= \\dfrac{10000}{2.5} = 4000$. Dividing by $1.25$ only (forgetting the $2$) gives $8000$, dividing by $2$ only gives $5000$, and a misplaced decimal gives $400$."
+  },
+  {
+    "id": "ma14-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cube versus cuboid",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A cube of side $6\\ \\text{cm}$ and a cuboid $9\\ \\text{cm} \\times 6\\ \\text{cm} \\times 4\\ \\text{cm}$ are made of the same material. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths14/cube-vs-cuboid.svg",
+      "alt": "A cube and a cuboid side by side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Both solids have the same volume, $216\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "The cuboid has the larger total surface area"
+      },
+      {
+        "id": "c",
+        "text": "The cube has a total surface area of $228\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "For the same volume, the cube needs less covering material"
+      },
+      {
+        "id": "e",
+        "text": "Equal volumes always mean equal surface areas"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Work out $a^3$, $6a^2$, $lwh$ and $2(lw+wh+lh)$ for each solid.",
+    "explanation": "Cube: $V = 6^3 = 216$ and $\\text{SA} = 6 \\times 36 = 216\\ \\text{cm}^2$. Cuboid: $V = 9 \\times 6 \\times 4 = 216$ and $\\text{SA} = 2(54 + 24 + 36) = 228\\ \\text{cm}^2$. So volumes are equal but the cuboid has more surface, which is why a cube-like pack uses less wrapping and a flatter shape loses heat faster. The cube's area is $216$, not $228$."
+  },
+  {
+    "id": "ma14-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Surface area when a solid is cut up",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A cube of side $4\\ \\text{cm}$ is cut into cubes of side $1\\ \\text{cm}$. What is the ratio of the surface area of the original cube to the total surface area of all the small cubes?",
+    "image": {
+      "src": "/img/maths14/cut-cube.svg",
+      "alt": "A large cube turning into many small cubes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1 : 4$"
+      },
+      {
+        "id": "b",
+        "text": "$4 : 1$"
+      },
+      {
+        "id": "c",
+        "text": "$1 : 64$"
+      },
+      {
+        "id": "d",
+        "text": "$1 : 16$"
+      }
+    ],
+    "answer": "a",
+    "hint": "How many small cubes are there, and what is the surface area of each?",
+    "explanation": "Original: $6 \\times 4^2 = 96\\ \\text{cm}^2$. Number of small cubes $= 4^3 = 64$, each with area $6 \\times 1^2 = 6$, so total $= 384\\ \\text{cm}^2$. Ratio $96 : 384 = 1 : 4$. The volume has not changed but the surface area has grown four times; reversing the ratio gives $4:1$, and $1:64$ would compare only counts of cubes."
+  },
+  {
+    "id": "ma14-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Volume from face areas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The areas of the three faces of a cuboid meeting at one corner are $6\\ \\text{cm}^2$, $15\\ \\text{cm}^2$ and $10\\ \\text{cm}^2$. What is its volume?",
+    "image": {
+      "src": "/img/maths14/cuboid-faces.svg",
+      "alt": "A cuboid and its net with the face areas written in square centimetres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$900\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$31\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$90\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$30\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Multiply the three areas together: what product of $l$, $w$ and $h$ do you get?",
+    "explanation": "The areas are $lw$, $wh$ and $lh$. Their product is $(lw)(wh)(lh) = (lwh)^2 = 6 \\times 15 \\times 10 = 900$, so $V = lwh = \\sqrt{900} = 30\\ \\text{cm}^3$ (the edges are $2$, $3$ and $5$ cm). Stopping at $900$ forgets the square root, adding the areas gives $31$, and $90$ multiplies only two of them."
+  },
+  {
+    "id": "ma14-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Painted cube cut into small cubes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A $5\\ \\text{cm}$ cube is painted on every face and then sliced into $1\\ \\text{cm}$ cubes. Tap the small cube that will have **exactly one** face painted.",
+    "image": {
+      "src": "/img/maths14/painted-cube.svg",
+      "alt": "A painted cube divided into small cubes, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "corner",
+        "x": 13.2,
+        "y": 32.7,
+        "label": "Corner cube"
+      },
+      {
+        "id": "edge",
+        "x": 29.5,
+        "y": 32.7,
+        "label": "Cube on an edge"
+      },
+      {
+        "id": "face",
+        "x": 29.5,
+        "y": 56.7,
+        "label": "Cube in the middle of a face"
+      },
+      {
+        "id": "edge2",
+        "x": 13.2,
+        "y": 68.7,
+        "label": "Cube on the left edge"
+      }
+    ],
+    "answer": "face",
+    "hint": "A cube touching only one outer face must sit in the middle of a face, not on an edge or corner.",
+    "explanation": "Corner cubes touch three outer faces, edge cubes (not corners) touch two, and cubes in the interior of a face touch only one. On each face the inner $3 \\times 3$ block has one painted face, so there are $6 \\times 9 = 54$ such cubes."
+  },
+  {
+    "id": "ma14-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Painted cube counts",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A $5\\ \\text{cm}$ cube is painted on all faces and sliced into $125$ cubes of $1\\ \\text{cm}^3$. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths14/painted-cube.svg",
+      "alt": "A painted cube divided into small cubes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "8 cubes have exactly three faces painted"
+      },
+      {
+        "id": "b",
+        "text": "24 cubes have exactly two faces painted"
+      },
+      {
+        "id": "c",
+        "text": "54 cubes have exactly one face painted"
+      },
+      {
+        "id": "d",
+        "text": "27 cubes have no face painted"
+      },
+      {
+        "id": "e",
+        "text": "150 cubes have exactly one face painted"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "Corners, edges (without corners), face-centres and the hidden inside block: count each group.",
+    "explanation": "Corners: $8$. Edges: $12$ edges with $5 - 2 = 3$ cubes each give $36$ (not $24$, which wrongly uses $2$ per edge). Faces: $6 \\times 3^2 = 54$. Inside: $(5-2)^3 = 27$. Check: $8 + 36 + 54 + 27 = 125$. A total of $150$ is impossible because there are only $125$ cubes."
+  },
+  {
+    "id": "ma14-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Choosing a swimming pool",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A school is choosing a swimming pool: Pool A is $8\\ \\text{ft}$ deep, $50\\ \\text{ft}$ long and $20\\ \\text{ft}$ wide; Pool B is $6\\ \\text{ft}$ deep, $100\\ \\text{ft}$ long and $15\\ \\text{ft}$ wide. Using $1\\ \\text{ft}^3 \\approx 28.3$ litres, which holds more water and by how much?",
+    "image": {
+      "src": "/img/maths14/pools.svg",
+      "alt": "Two swimming pool designs drawn as cuboids"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Pool A, because it is deeper"
+      },
+      {
+        "id": "b",
+        "text": "Pool B, by about 28,300 litres"
+      },
+      {
+        "id": "c",
+        "text": "Pool B, by about 1,000 litres"
+      },
+      {
+        "id": "d",
+        "text": "Pool A, by about 28,300 litres"
+      }
+    ],
+    "answer": "b",
+    "hint": "Find each volume in cubic feet, subtract, then convert to litres.",
+    "explanation": "$V_A = 8 \\times 50 \\times 20 = 8000\\ \\text{ft}^3$ and $V_B = 6 \\times 100 \\times 15 = 9000\\ \\text{ft}^3$. Pool B holds $1000\\ \\text{ft}^3$ more, which is $1000 \\times 28.3 = 28300$ litres. Depth alone does not decide it, and $1000$ is in cubic feet, not litres."
+  },
+  {
+    "id": "ma14-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Parts of a cylinder",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **radius** of this cylinder.",
+    "image": {
+      "src": "/img/maths14/cylinder-parts.svg",
+      "alt": "A cylinder with lines and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "radius",
+        "x": 53,
+        "y": 26.7,
+        "label": "Radius"
+      },
+      {
+        "id": "height",
+        "x": 75,
+        "y": 50,
+        "label": "Height"
+      },
+      {
+        "id": "curved",
+        "x": 27.5,
+        "y": 56.7,
+        "label": "Curved surface"
+      },
+      {
+        "id": "top",
+        "x": 31.3,
+        "y": 26.7,
+        "label": "Top circular face"
+      }
+    ],
+    "answer": "radius",
+    "hint": "The radius runs from the centre of a circular face to its edge.",
+    "explanation": "The **radius** is the distance from the centre of the circular base to its boundary, shown by the dashed line on the top face. The vertical line is the **height**, the sides form the **curved surface**, and the flat ellipse is the circular face."
+  },
+  {
+    "id": "ma14-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Curved surface of a cylinder",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Cut a cylinder along its height and open it out: one surface becomes a rectangle. Tap that surface.",
+    "image": {
+      "src": "/img/maths14/cylinder-parts.svg",
+      "alt": "A cylinder with lines and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "radius",
+        "x": 53,
+        "y": 26.7,
+        "label": "Radius"
+      },
+      {
+        "id": "height",
+        "x": 75,
+        "y": 50,
+        "label": "Height"
+      },
+      {
+        "id": "curved",
+        "x": 27.5,
+        "y": 56.7,
+        "label": "Curved surface"
+      },
+      {
+        "id": "top",
+        "x": 31.3,
+        "y": 26.7,
+        "label": "Top circular face"
+      }
+    ],
+    "answer": "curved",
+    "hint": "It is the surface that wraps around the sides, like a label on a tin.",
+    "explanation": "The **curved surface** unrolls into a rectangle whose length is the circumference $2\\pi r$ and whose width is the height $h$, so its area is $2\\pi r h$. The circular faces stay circles however you cut."
+  },
+  {
+    "id": "ma14-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Curved surface area of a cylinder",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Savitri makes a tube-shaped kaleidoscope of length $25\\ \\text{cm}$ and radius $3.5\\ \\text{cm}$ out of chart paper. How much paper is needed for the curved surface? Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/kaleidoscope.svg",
+      "alt": "A rectangle of chart paper rolled into a tube"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$275\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$1100\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$627\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$550\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "The rolled paper is a rectangle: circumference by length.",
+    "explanation": "$\\text{CSA} = 2\\pi r h = 2 \\times \\dfrac{22}{7} \\times 3.5 \\times 25 = 22 \\times 25 = 550\\ \\text{cm}^2$. Using $\\pi r h$ (forgetting the $2$) gives $275$; using the diameter $7$ as the radius doubles it to $1100$; adding the two end circles ($2\\pi r(h+r) = 627$) is for a closed tin, not a tube of paper."
+  },
+  {
+    "id": "ma14-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cylinder closed at one end",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A tumbler is a cylinder of radius $7\\ \\text{cm}$ and height $10\\ \\text{cm}$, closed at the bottom and **open at the top**. What is the area of material in it? Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/tumbler.svg",
+      "alt": "A cylinder that is open at the top"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$748\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$440\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$594\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$1540\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Curved surface plus only one circular end.",
+    "explanation": "Surface area $= 2\\pi r h + \\pi r^2 = \\pi r(2h + r) = \\dfrac{22}{7} \\times 7 \\times 27 = 594\\ \\text{cm}^2$. Counting both ends gives $748$, the curved part alone is $440$, and $1540$ is the volume $\\pi r^2 h$ (in $\\text{cm}^3$, a different quantity)."
+  },
+  {
+    "id": "ma14-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Changing a cylinder",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The volume of a cylinder is $V = \\pi r^2 h$. Each picture a to e shows a change to the original cylinder. Select **all** changes that make the volume **exactly double**.",
+    "image": {
+      "src": "/img/maths14/cyl-double.svg",
+      "alt": "An original cylinder and five changed cylinders marked a to e"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "a: height doubled, radius unchanged"
+      },
+      {
+        "id": "b",
+        "text": "b: radius doubled, height unchanged"
+      },
+      {
+        "id": "c",
+        "text": "c: radius doubled and height halved"
+      },
+      {
+        "id": "d",
+        "text": "d: radius multiplied by $\\sqrt{2}$, height unchanged"
+      },
+      {
+        "id": "e",
+        "text": "e: radius halved and height multiplied by 4"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "The volume depends on $r^2$ and on $h$: multiply the factors.",
+    "explanation": "Volume scales by (radius factor)$^2 \\times$ (height factor). a: $1 \\times 2 = 2$. b: $2^2 \\times 1 = 4$. c: $2^2 \\times \\tfrac12 = 2$. d: $(\\sqrt2)^2 \\times 1 = 2$. e: $(\\tfrac12)^2 \\times 4 = 1$, so the volume is unchanged. Doubling the radius is the usual slip: it quadruples the volume."
+  },
+  {
+    "id": "ma14-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Volume kept constant",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The radius of a cylinder is increased by $10\\%$ and the height is decreased by $x\\%$. The volume stays the same. What is $x$?",
+    "image": {
+      "src": "/img/maths14/cyl-resize.svg",
+      "alt": "A cylinder before and after a change in radius and height"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "about 17.4%"
+      },
+      {
+        "id": "b",
+        "text": "10%"
+      },
+      {
+        "id": "c",
+        "text": "21%"
+      },
+      {
+        "id": "d",
+        "text": "about 9.1%"
+      }
+    ],
+    "answer": "a",
+    "hint": "New volume $= \\pi(1.1r)^2 h(1 - x/100)$. Set it equal to $\\pi r^2 h$.",
+    "explanation": "$(1.1)^2 \\times (1 - \\tfrac{x}{100}) = 1$, so $1 - \\tfrac{x}{100} = \\tfrac{1}{1.21} \\approx 0.826$ and $x \\approx 17.4$. The radius enters **squared**, so $10\\%$ does not cancel $10\\%$. $21\\%$ is the rise in $r^2$, and $9.1\\%$ comes from using $1/1.1$ instead of $1/1.21$."
+  },
+  {
+    "id": "ma14-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Melting and recasting",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A solid metal cube of side $12\\ \\text{cm}$ is melted and recast into solid rods, each of radius $2\\ \\text{cm}$ and height $12\\ \\text{cm}$. How many **complete** rods can be made? Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/melt-rods.svg",
+      "alt": "A metal cube being melted into several rods"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "11"
+      },
+      {
+        "id": "c",
+        "text": "36"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "b",
+    "hint": "Volume is conserved: cube volume divided by rod volume, then round down.",
+    "explanation": "Cube: $12^3 = 1728\\ \\text{cm}^3$. One rod: $\\pi r^2 h = \\dfrac{22}{7} \\times 4 \\times 12 \\approx 150.86\\ \\text{cm}^3$. $1728 \\div 150.86 \\approx 11.45$, so only **11** complete rods. Rounding up to $12$ is wrong, $36$ forgets $\\pi$, and $2$ uses the diameter $4$ as the radius."
+  },
+  {
+    "id": "ma14-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Steps of a recasting problem",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for finding how many cylindrical rods can be recast from a metal cube in the correct order.",
+    "image": {
+      "src": "/img/maths14/melt-rods.svg",
+      "alt": "A metal cube being melted into several rods"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Divide the cube volume by the rod volume"
+      },
+      {
+        "id": "s1",
+        "text": "Note the cube edge and the rod radius and height"
+      },
+      {
+        "id": "s5",
+        "text": "Round down to the number of complete rods"
+      },
+      {
+        "id": "s3",
+        "text": "Find the volume of one rod, $\\pi r^2 h$"
+      },
+      {
+        "id": "s2",
+        "text": "Find the volume of the cube, $a^3$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Melting keeps the volume the same, so you need both volumes before dividing.",
+    "explanation": "Melting and recasting changes the shape but not the **volume**. So compute the cube's volume, then one rod's volume, divide, and take the whole-number part because a partly formed rod is not a rod."
+  },
+  {
+    "id": "ma14-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Slant height of a cone",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **slant height** of this cone.",
+    "image": {
+      "src": "/img/maths14/cone-parts.svg",
+      "alt": "A cone with several lines and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "height",
+        "x": 42.5,
+        "y": 43.3,
+        "label": "Height"
+      },
+      {
+        "id": "slant",
+        "x": 54,
+        "y": 42.7,
+        "label": "Slant height"
+      },
+      {
+        "id": "radius",
+        "x": 53.8,
+        "y": 78.3,
+        "label": "Radius"
+      },
+      {
+        "id": "curved",
+        "x": 30,
+        "y": 56.7,
+        "label": "Curved surface"
+      },
+      {
+        "id": "base",
+        "x": 30.5,
+        "y": 80,
+        "label": "Circular base"
+      }
+    ],
+    "answer": "slant",
+    "hint": "It runs along the sloping side from the apex to the rim of the base.",
+    "explanation": "The **slant height** $l$ is the length along the curved side from the apex to a point on the rim. The vertical dashed line is the height $h$ and the line on the base is the radius $r$; they are linked by $l^2 = h^2 + r^2$."
+  },
+  {
+    "id": "ma14-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Height of a cone",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **vertical height** of this cone.",
+    "image": {
+      "src": "/img/maths14/cone-parts.svg",
+      "alt": "A cone with several lines and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "height",
+        "x": 42.5,
+        "y": 43.3,
+        "label": "Height"
+      },
+      {
+        "id": "slant",
+        "x": 54,
+        "y": 42.7,
+        "label": "Slant height"
+      },
+      {
+        "id": "radius",
+        "x": 53.8,
+        "y": 78.3,
+        "label": "Radius"
+      },
+      {
+        "id": "curved",
+        "x": 30,
+        "y": 56.7,
+        "label": "Curved surface"
+      },
+      {
+        "id": "base",
+        "x": 30.5,
+        "y": 80,
+        "label": "Circular base"
+      }
+    ],
+    "answer": "height",
+    "hint": "The height is measured straight down, at a right angle to the base.",
+    "explanation": "The **height** $h$ is the perpendicular distance from the apex to the centre of the base (the dashed vertical line). The sloping side is longer: $l > h$. The cone volume uses $h$, while the curved surface area uses $l$."
+  },
+  {
+    "id": "ma14-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cone triples",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "For a cone, $l^2 = h^2 + r^2$. Match each radius and height with its slant height.",
+    "image": {
+      "src": "/img/maths14/cone-lhr.svg",
+      "alt": "A cone with its slant height, height and radius marked with letters"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$r = 3,\\ h = 4$"
+      },
+      {
+        "id": "l2",
+        "text": "$r = 5,\\ h = 12$"
+      },
+      {
+        "id": "l3",
+        "text": "$r = 6,\\ h = 8$"
+      },
+      {
+        "id": "l4",
+        "text": "$r = 7,\\ h = 24$"
+      },
+      {
+        "id": "l5",
+        "text": "$r = 8,\\ h = 15$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "$l = 25$"
+      },
+      {
+        "id": "r1",
+        "text": "$l = 5$"
+      },
+      {
+        "id": "r5",
+        "text": "$l = 17$"
+      },
+      {
+        "id": "r2",
+        "text": "$l = 13$"
+      },
+      {
+        "id": "r3",
+        "text": "$l = 10$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Compute $r^2 + h^2$ and take the square root.",
+    "explanation": "$3^2 + 4^2 = 25$, $5^2 + 12^2 = 169$, $6^2 + 8^2 = 100$, $7^2 + 24^2 = 625$, $8^2 + 15^2 = 289$, giving $l = 5, 13, 10, 25, 17$. Adding the numbers ($3 + 4 = 7$) instead of squaring them is the usual mistake."
+  },
+  {
+    "id": "ma14-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Total surface area of a cone",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The total surface area of a cone is its curved surface plus one more part. Tap that **flat part**.",
+    "image": {
+      "src": "/img/maths14/cone-parts.svg",
+      "alt": "A cone with several lines and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "height",
+        "x": 42.5,
+        "y": 43.3,
+        "label": "Height"
+      },
+      {
+        "id": "slant",
+        "x": 54,
+        "y": 42.7,
+        "label": "Slant height"
+      },
+      {
+        "id": "radius",
+        "x": 53.8,
+        "y": 78.3,
+        "label": "Radius"
+      },
+      {
+        "id": "curved",
+        "x": 30,
+        "y": 56.7,
+        "label": "Curved surface"
+      },
+      {
+        "id": "base",
+        "x": 30.5,
+        "y": 80,
+        "label": "Circular base"
+      }
+    ],
+    "answer": "base",
+    "hint": "It is the circular piece the cone stands on.",
+    "explanation": "$\\text{TSA} = \\pi r l + \\pi r^2$. The $\\pi r l$ part is the curved surface; the extra $\\pi r^2$ is the **circular base**."
+  },
+  {
+    "id": "ma14-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Total surface area of a cone",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cone has slant height $25\\ \\text{m}$ and a base of diameter $14\\ \\text{m}$. Find its **total** surface area. Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/cone-dims.svg",
+      "alt": "A cone with its slant height and base diameter marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$704\\ \\text{m}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$550\\ \\text{m}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$1100\\ \\text{m}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$858\\ \\text{m}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Halve the diameter first, then add the base circle.",
+    "explanation": "$r = 7\\ \\text{m}$. $\\text{TSA} = \\pi r(l + r) = \\dfrac{22}{7} \\times 7 \\times 32 = 704\\ \\text{m}^2$. $550$ is the curved part $\\pi r l$ only; $1100$ uses the diameter $14$ as the radius; $858$ adds the base circle twice ($\\pi r l + 2\\pi r^2$)."
+  },
+  {
+    "id": "ma14-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Radius from volume of a cone",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cone of height $15\\ \\text{cm}$ has volume $1570\\ \\text{cm}^3$. Find its base radius. Use $\\pi = 3.14$.",
+    "image": {
+      "src": "/img/maths14/cone-vol.svg",
+      "alt": "A cone with its height and volume marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "100 cm"
+      },
+      {
+        "id": "b",
+        "text": "5.8 cm"
+      },
+      {
+        "id": "c",
+        "text": "10 cm"
+      },
+      {
+        "id": "d",
+        "text": "38.7 cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "Start from $V = \\tfrac13 \\pi r^2 h$ and solve for $r^2$.",
+    "explanation": "$1570 = \\tfrac13 \\times 3.14 \\times r^2 \\times 15 = 15.7\\,r^2$, so $r^2 = 100$ and $r = 10\\ \\text{cm}$. Forgetting the square root leaves $100$; forgetting the $\\tfrac13$ gives $r^2 \\approx 33.3$ so $r \\approx 5.8$; forgetting to divide by $h$ gives $r \\approx 38.7$."
+  },
+  {
+    "id": "ma14-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cloth for a conical tent",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A conical tent has height $24\\ \\text{m}$ and base radius $7\\ \\text{m}$. How long a strip of tarpaulin $5\\ \\text{m}$ wide is needed for the curved surface, if $20\\ \\text{cm}$ of length is extra for stitching and wastage? Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/tent.svg",
+      "alt": "A conical tent and a roll of tarpaulin"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "110 m"
+      },
+      {
+        "id": "b",
+        "text": "105.8 m"
+      },
+      {
+        "id": "c",
+        "text": "141 m"
+      },
+      {
+        "id": "d",
+        "text": "110.2 m"
+      }
+    ],
+    "answer": "d",
+    "hint": "You need the slant height first, and the margin must be in metres.",
+    "explanation": "$l = \\sqrt{24^2 + 7^2} = 25\\ \\text{m}$. $\\text{CSA} = \\pi r l = \\dfrac{22}{7} \\times 7 \\times 25 = 550\\ \\text{m}^2$. Length $= 550 \\div 5 = 110\\ \\text{m}$, plus $0.2\\ \\text{m}$ extra gives $110.2\\ \\text{m}$. $110$ ignores the margin, $105.8$ uses the height $24$ instead of $l$, and $141$ wrongly adds a floor."
+  },
+  {
+    "id": "ma14-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Steps for a conical tent",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to find the length of tarpaulin needed for a conical tent of given height and radius.",
+    "image": {
+      "src": "/img/maths14/tent.svg",
+      "alt": "A conical tent and a roll of tarpaulin"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Find the curved surface area $\\pi r l$"
+      },
+      {
+        "id": "s5",
+        "text": "Add the extra length for stitching and wastage"
+      },
+      {
+        "id": "s1",
+        "text": "Notice that only the curved surface needs cloth"
+      },
+      {
+        "id": "s4",
+        "text": "Divide the area by the width of the tarpaulin"
+      },
+      {
+        "id": "s2",
+        "text": "Find the slant height using $l^2 = h^2 + r^2$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need $l$ before the area, and the area before the length.",
+    "explanation": "The tent is open to the ground, so the cloth covers the **curved surface** only. The slant height $l$ comes from Pythagoras, the area is $\\pi r l$, and dividing by the width gives the length of the strip. The margin is added last because it is a length, not an area."
+  },
+  {
+    "id": "ma14-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Solid formed by rotating a triangle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A right triangle with sides $6\\ \\text{cm}$, $8\\ \\text{cm}$ and $10\\ \\text{cm}$ is turned through $360^\\circ$ about the side of $8\\ \\text{cm}$. What is the volume of the solid formed? (Leave $\\pi$ in the answer.)",
+    "image": {
+      "src": "/img/maths14/triangle-rotate.svg",
+      "alt": "A right triangle turning about one of its sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$288\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$96\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$128\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$120\\pi\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The side it turns about becomes the height; the other leg is the radius.",
+    "explanation": "A cone forms with $h = 8$ and $r = 6$. $V = \\tfrac13 \\pi r^2 h = \\tfrac13 \\pi \\times 36 \\times 8 = 96\\pi\\ \\text{cm}^3$. $288\\pi$ forgets the $\\tfrac13$, $128\\pi$ turns the triangle about the $6\\ \\text{cm}$ side instead, and $120\\pi$ uses the slant side $10$ as the height."
+  },
+  {
+    "id": "ma14-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Water in a conical cup",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cup shaped like a cone, point downwards, is filled with water to **half its depth**. What fraction of the cup's volume does the water occupy?",
+    "image": {
+      "src": "/img/maths14/cone-half-water.svg",
+      "alt": "A cone-shaped cup holding water"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac12$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac14$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac18$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac13$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The water forms a smaller cone similar to the cup: what happens to the radius and height?",
+    "explanation": "At half the depth the water surface has half the radius, so the water is a similar cone with $r' = \\tfrac r2$ and $h' = \\tfrac h2$. Its volume is $\\tfrac13\\pi (\\tfrac r2)^2 \\tfrac h2 = \\tfrac18 \\cdot \\tfrac13 \\pi r^2 h$, i.e. $\\tfrac18$ of the cup. Half the depth is not half the volume, because the cone gets wider as it goes up."
+  },
+  {
+    "id": "ma14-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cone and cylinder volumes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths14/cone-salt.svg",
+      "alt": "A cone full of salt being emptied into a cylinder"
+    },
+    "assertion": "A cone and a cylinder have the same base radius and height. The cone holds exactly one third as much as the cylinder.",
+    "reason": "The slant height $l$ of a cone satisfies $l^2 = h^2 + r^2$.",
+    "answer": "b",
+    "hint": "Is the relation among $l$, $h$ and $r$ the reason behind the factor $\\tfrac13$?",
+    "explanation": "Both statements are true. Pouring a cone of salt into the cylinder fills it exactly in three goes, so $V_\\text{cone} = \\tfrac13 \\pi r^2 h$. But $l^2 = h^2 + r^2$ is about the sloping side and has nothing to do with the $\\tfrac13$, so R does not explain A."
+  },
+  {
+    "id": "ma14-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cone and its net",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A cone is cut along a slant edge and opened out flat. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths14/cone-unroll.svg",
+      "alt": "A cone opened out into a sector of a circle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The curved surface opens out into a sector of a circle"
+      },
+      {
+        "id": "b",
+        "text": "The radius of that sector equals the slant height $l$"
+      },
+      {
+        "id": "c",
+        "text": "The total surface area of the cone is $\\pi r l$"
+      },
+      {
+        "id": "d",
+        "text": "The arc length of the sector equals the base circumference $2\\pi r$"
+      },
+      {
+        "id": "e",
+        "text": "The radius of the sector equals the height $h$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Think about what stays the same length when you roll the sector back up.",
+    "explanation": "The unrolled surface is a sector of radius $l$ whose arc becomes the base circle, so arc $= 2\\pi r$. Its area is $\\pi r l$, which is only the **curved** part; the total surface area adds the base: $\\pi r l + \\pi r^2$. The sector's radius is the slanted side $l$, not the height."
+  },
+  {
+    "id": "ma14-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Parts of a pyramid",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **slant height** of a triangular face, which runs from the apex to the middle of a base edge.",
+    "image": {
+      "src": "/img/maths14/pyramid-parts.svg",
+      "alt": "A square pyramid with several lines and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "height",
+        "x": 52.5,
+        "y": 36.7,
+        "label": "Vertical height"
+      },
+      {
+        "id": "slant",
+        "x": 47.1,
+        "y": 66.7,
+        "label": "Slant height of a face"
+      },
+      {
+        "id": "edge",
+        "x": 58.8,
+        "y": 50,
+        "label": "Slanting edge"
+      },
+      {
+        "id": "base",
+        "x": 56.3,
+        "y": 85.5,
+        "label": "Base edge"
+      }
+    ],
+    "answer": "slant",
+    "hint": "It lies in a sloping face and meets the base edge at its midpoint.",
+    "explanation": "The **slant height** is the height of a triangular face, from the apex to the midpoint of its base edge; it is used for areas of the faces ($\\tfrac12 \\times \\text{base edge} \\times \\text{slant height}$). The dashed vertical line is the **height** used in volume, and the other sloping line is a slanting edge."
+  },
+  {
+    "id": "ma14-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Volume of a pyramid",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A pyramid has a square base of side $6\\ \\text{cm}$ and height $9\\ \\text{cm}$. What is its volume?",
+    "image": {
+      "src": "/img/maths14/pyramid-sq.svg",
+      "alt": "A square-based pyramid with base edge and height marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$324\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$162\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$18\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$108\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "d",
+    "hint": "$V = \\tfrac13 \\times \\text{area of base} \\times \\text{height}$.",
+    "explanation": "Base area $= 6 \\times 6 = 36\\ \\text{cm}^2$, so $V = \\tfrac13 \\times 36 \\times 9 = 108\\ \\text{cm}^3$. Forgetting the $\\tfrac13$ gives $324$; using $\\tfrac12$ gives $162$; and $18$ uses the base **edge** $6$ instead of the base **area**."
+  },
+  {
+    "id": "ma14-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Volume of a pyramid",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths14/pyramids-bases.svg",
+      "alt": "A pyramid with a triangular base and a pyramid with a square base"
+    },
+    "assertion": "For any pyramid, $V = \\tfrac13 \\times (\\text{area of base}) \\times \\text{height}$, whatever the shape of the base.",
+    "reason": "A pyramid with a triangular base needs a different volume formula from one with a square base.",
+    "answer": "c",
+    "hint": "The same formula is used for triangular, square or any other base.",
+    "explanation": "A is true: the same formula works for any base, and a cone is just a pyramid with a circular base. R is false, since only the **base area** changes, not the formula. Surface area, however, is found by adding up the areas of all faces."
+  },
+  {
+    "id": "ma14-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Volume formulas",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each solid with its volume.",
+    "image": {
+      "src": "/img/maths14/solids-lineup.svg",
+      "alt": "A cuboid, a cylinder, a cone, a sphere and a hemisphere"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Cuboid"
+      },
+      {
+        "id": "l2",
+        "text": "Cylinder"
+      },
+      {
+        "id": "l3",
+        "text": "Cone"
+      },
+      {
+        "id": "l4",
+        "text": "Sphere"
+      },
+      {
+        "id": "l5",
+        "text": "Hemisphere"
+      }
+    ],
+    "right": [
+      {
+        "id": "r5",
+        "text": "$\\dfrac23 \\pi r^3$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac13 \\pi r^2 h$"
+      },
+      {
+        "id": "r1",
+        "text": "$lwh$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac43 \\pi r^3$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\pi r^2 h$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "A hemisphere is half a sphere; a cone is one third of a cylinder.",
+    "explanation": "Cuboid $lwh$; cylinder $\\pi r^2 h$ (base area times height); cone $\\tfrac13 \\pi r^2 h$ (one third of the cylinder); sphere $\\tfrac43 \\pi r^3$; hemisphere is half of that, $\\tfrac23 \\pi r^3$."
+  },
+  {
+    "id": "ma14-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Surface area formulas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each surface with its area.",
+    "image": {
+      "src": "/img/maths14/solids-lineup.svg",
+      "alt": "A cuboid, a cylinder, a cone, a sphere and a hemisphere"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Curved surface of a cylinder"
+      },
+      {
+        "id": "l2",
+        "text": "Total surface of a cylinder closed at both ends"
+      },
+      {
+        "id": "l3",
+        "text": "Curved surface of a cone"
+      },
+      {
+        "id": "l4",
+        "text": "Surface of a sphere"
+      },
+      {
+        "id": "l5",
+        "text": "Total surface of a hemisphere"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$\\pi r l$"
+      },
+      {
+        "id": "r5",
+        "text": "$3\\pi r^2$"
+      },
+      {
+        "id": "r1",
+        "text": "$2\\pi r h$"
+      },
+      {
+        "id": "r2",
+        "text": "$2\\pi r(h + r)$"
+      },
+      {
+        "id": "r4",
+        "text": "$4\\pi r^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Remember which formulas include the circular ends.",
+    "explanation": "Curved cylinder: circumference times height $= 2\\pi r h$; adding two ends $2\\pi r^2$ gives $2\\pi r(h+r)$. Cone: $\\pi r l$ with the **slant** height. Sphere: $4\\pi r^2$. Hemisphere: curved $2\\pi r^2$ plus flat base $\\pi r^2$ gives $3\\pi r^2$."
+  },
+  {
+    "id": "ma14-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Archimedes and the sphere",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths14/sphere-cylinder.svg",
+      "alt": "A sphere that fits tightly inside a cylinder"
+    },
+    "assertion": "The surface area of a sphere of radius $r$ equals the curved surface area of the cylinder that fits tightly around it.",
+    "reason": "That cylinder has radius $r$ and height $2r$, so its curved surface area is $2\\pi r \\times 2r = 4\\pi r^2$.",
+    "answer": "a",
+    "hint": "Work out the height of the tight cylinder, then use $2\\pi r h$.",
+    "explanation": "The sphere touches the cylinder's sides, top and bottom, so the cylinder has height equal to the diameter $2r$. Its curved area is $2\\pi r \\cdot 2r = 4\\pi r^2$, exactly the sphere's surface area, so R explains A. This is Archimedes' result."
+  },
+  {
+    "id": "ma14-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Parts of a hemisphere",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A solid hemisphere has one curved surface and one flat surface. Tap the **flat circular face**.",
+    "image": {
+      "src": "/img/maths14/hemisphere-parts.svg",
+      "alt": "A bowl-shaped hemisphere with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "base",
+        "x": 35,
+        "y": 33.3,
+        "label": "Flat circular face"
+      },
+      {
+        "id": "radius",
+        "x": 63.8,
+        "y": 33.3,
+        "label": "Radius"
+      },
+      {
+        "id": "curved",
+        "x": 35,
+        "y": 53.3,
+        "label": "Curved surface"
+      },
+      {
+        "id": "rim",
+        "x": 50,
+        "y": 44.7,
+        "label": "Rim"
+      }
+    ],
+    "answer": "base",
+    "hint": "It is the face you get when a sphere is cut through its centre.",
+    "explanation": "Cutting a sphere through its centre gives two hemispheres, each with a flat circular **base** of area $\\pi r^2$ and a curved surface of area $2\\pi r^2$. That is why the total surface area is $2\\pi r^2 + \\pi r^2 = 3\\pi r^2$."
+  },
+  {
+    "id": "ma14-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Total surface area of a hemisphere",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find the **total** surface area of a solid hemisphere of radius $21\\ \\text{cm}$. Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/hemisphere-dim.svg",
+      "alt": "A solid hemisphere with its radius marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2772\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$5544\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$4158\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$1386\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Curved part plus the flat circular base.",
+    "explanation": "$\\text{TSA} = 2\\pi r^2 + \\pi r^2 = 3\\pi r^2 = 3 \\times \\dfrac{22}{7} \\times 441 = 4158\\ \\text{cm}^2$. $2772$ is the curved surface only, $5544$ is the whole sphere $4\\pi r^2$, and $1386$ is the base alone."
+  },
+  {
+    "id": "ma14-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Spheres packed in a box",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Sixteen metal spheres, each of radius $2\\ \\text{cm}$, are packed into a box of internal size $16\\ \\text{cm} \\times 8\\ \\text{cm} \\times 8\\ \\text{cm}$ (two layers of eight). The box is then filled with preservative liquid. Find the volume of liquid, to the nearest whole number.",
+    "image": {
+      "src": "/img/maths14/spheres-box.svg",
+      "alt": "Top view of a box with eight spheres in one layer"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$488\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$536\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$220\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$1024\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Liquid fills what the spheres do not: box volume minus the volume of 16 spheres.",
+    "explanation": "Box: $16 \\times 8 \\times 8 = 1024\\ \\text{cm}^3$. One sphere: $\\tfrac43 \\pi \\times 2^3 \\approx 33.5$, so $16$ spheres $\\approx 536$. Liquid $\\approx 1024 - 536 = 488\\ \\text{cm}^3$. $536$ is the volume of the spheres, $220$ subtracts the surface areas $4\\pi r^2$ instead of volumes, and $1024$ forgets the spheres."
+  },
+  {
+    "id": "ma14-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Painting a hemispherical dome",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The outside of a hemispherical dome is to be painted. The circumference of its base is $35.2\\ \\text{m}$ and painting costs ₹10 per $100\\ \\text{cm}^2$. What is the total cost? Use $\\pi = \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths14/dome.svg",
+      "alt": "A building topped by a hemispherical dome"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹2,95,680"
+      },
+      {
+        "id": "b",
+        "text": "₹3,94,240"
+      },
+      {
+        "id": "c",
+        "text": "₹1,971.20"
+      },
+      {
+        "id": "d",
+        "text": "₹1,97,120"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find $r$ from $2\\pi r = 35.2$, then the curved area, then convert $\\text{m}^2$ to $\\text{cm}^2$.",
+    "explanation": "$2 \\times \\dfrac{22}{7} \\times r = 35.2$ gives $r = 5.6\\ \\text{m}$. Only the curved surface is painted: $2\\pi r^2 = 2 \\times \\dfrac{22}{7} \\times 31.36 = 197.12\\ \\text{m}^2 = 19,71,200\\ \\text{cm}^2$. Cost $= 19712 \\times 10 = ₹1,97,120$. Using $3\\pi r^2$ (with the base) or $4\\pi r^2$ (a full sphere) overcounts, and treating $1\\ \\text{m}^2$ as $100\\ \\text{cm}^2$ gives ₹1,971.20."
+  },
+  {
+    "id": "ma14-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Scaling a sphere",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths14/sphere-double.svg",
+      "alt": "A small sphere and a sphere with twice the radius"
+    },
+    "assertion": "If the radius of a sphere is doubled, its volume doubles.",
+    "reason": "The volume of a sphere of radius $r$ is $\\tfrac43 \\pi r^3$.",
+    "answer": "d",
+    "hint": "Put $2r$ in place of $r$ in the formula.",
+    "explanation": "A is false: $V' = \\tfrac43 \\pi (2r)^3 = 8 \\times \\tfrac43 \\pi r^3$, so the volume becomes **eight** times as large. R is a true statement, and it is the very reason A fails because $r$ is cubed."
+  },
+  {
+    "id": "ma14-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Comparing volumes of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these solids from **smallest** to **largest** volume.",
+    "image": {
+      "src": "/img/maths14/solids-four.svg",
+      "alt": "A cone, a hemisphere, a cylinder and a sphere"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Sphere, $r = 3$ cm"
+      },
+      {
+        "id": "s1",
+        "text": "Cone, $r = 3,\\ h = 4$ cm"
+      },
+      {
+        "id": "s3",
+        "text": "Cylinder, $r = 3,\\ h = 3$ cm"
+      },
+      {
+        "id": "s2",
+        "text": "Hemisphere, $r = 3$ cm"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Write each volume as a multiple of $\\pi$.",
+    "explanation": "Cone: $\\tfrac13 \\pi \\cdot 9 \\cdot 4 = 12\\pi$. Hemisphere: $\\tfrac23 \\pi \\cdot 27 = 18\\pi$. Cylinder: $\\pi \\cdot 9 \\cdot 3 = 27\\pi$. Sphere: $\\tfrac43 \\pi \\cdot 27 = 36\\pi$. So the order is cone, hemisphere, cylinder, sphere."
+  },
+  {
+    "id": "ma14-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Ratios of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each comparison with its ratio.",
+    "image": {
+      "src": "/img/maths14/sphere-cylinder.svg",
+      "alt": "A sphere that fits tightly inside a cylinder"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Volume of a cone : volume of a cylinder with the same base and height"
+      },
+      {
+        "id": "l2",
+        "text": "Volume of a hemisphere : volume of the sphere of the same radius"
+      },
+      {
+        "id": "l3",
+        "text": "Volume of a sphere : volume of the cylinder that fits tightly round it"
+      },
+      {
+        "id": "l4",
+        "text": "Surface area of a sphere : curved area of the tight cylinder"
+      },
+      {
+        "id": "l5",
+        "text": "Volume of a cube : volume of a cube with double the side"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "$1 : 1$"
+      },
+      {
+        "id": "r2",
+        "text": "$1 : 2$"
+      },
+      {
+        "id": "r5",
+        "text": "$1 : 8$"
+      },
+      {
+        "id": "r1",
+        "text": "$1 : 3$"
+      },
+      {
+        "id": "r3",
+        "text": "$2 : 3$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "For the tight cylinder, $h = 2r$, so its volume is $2\\pi r^3$.",
+    "explanation": "Cone is $\\tfrac13$ of the cylinder. Hemisphere is half of a sphere. Sphere $\\tfrac43 \\pi r^3$ over cylinder $2\\pi r^3$ is $\\tfrac23$. The areas are both $4\\pi r^2$. Doubling a side multiplies volume by $2^3 = 8$."
+  },
+  {
+    "id": "ma14-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Guesstimate: golgappas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cylindrical vessel of radius $10\\ \\text{cm}$ holds spiced water (pani) to a height of $50\\ \\text{cm}$. Each golgappa is a ball of radius $1.5\\ \\text{cm}$, and on average it is **half full** of pani (ignore the thickness of the shell). About how many golgappas can be served?",
+    "image": {
+      "src": "/img/maths14/golgappa.svg",
+      "alt": "A vessel of spiced water and a few round hollow golgappas"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "about 1,111"
+      },
+      {
+        "id": "b",
+        "text": "about 2,222"
+      },
+      {
+        "id": "c",
+        "text": "about 2,963"
+      },
+      {
+        "id": "d",
+        "text": "about 8,889"
+      }
+    ],
+    "answer": "b",
+    "hint": "Number $=$ pani in vessel $\\div$ pani in one golgappa. Notice $\\pi$ cancels.",
+    "explanation": "Pani in vessel $= \\pi \\times 10^2 \\times 50 = 5000\\pi$. One golgappa holds $\\tfrac12 \\times \\tfrac43 \\pi (1.5)^3 = 2.25\\pi$. Number $= \\dfrac{5000\\pi}{2.25\\pi} \\approx 2222$. Ignoring the \"half full\" gives about $1111$, forgetting the $\\tfrac43$ gives about $2963$, and using $\\tfrac13$ instead of $\\tfrac43$ gives about $8889$."
+  },
+  {
+    "id": "ma14-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Packing tennis balls",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A classroom is $12\\ \\text{m} \\times 9\\ \\text{m} \\times 3\\ \\text{m}$. Tennis balls of radius $3\\ \\text{cm}$ are stacked in neat, straight rows along the length, width and height, touching each other. How many fit?",
+    "image": {
+      "src": "/img/maths14/room-balls.svg",
+      "alt": "A classroom shaped like a cuboid and tennis balls packed neatly in rows"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "28,64,789"
+      },
+      {
+        "id": "b",
+        "text": "1,20,00,000"
+      },
+      {
+        "id": "c",
+        "text": "15,00,000"
+      },
+      {
+        "id": "d",
+        "text": "7,50,000"
+      }
+    ],
+    "answer": "c",
+    "hint": "The diameter is $6\\ \\text{cm}$. Convert metres to centimetres and count along each direction.",
+    "explanation": "Diameter $= 6\\ \\text{cm}$. Along the length $1200 \\div 6 = 200$, width $900 \\div 6 = 150$, height $300 \\div 6 = 50$. Total $= 200 \\times 150 \\times 50 = 15,00,000$ balls. Dividing room volume by ball volume gives about $28,64,789$, but that is only an **upper bound** because spheres leave gaps. Using the radius $3\\ \\text{cm}$ as the spacing gives $1,20,00,000$, which is far too many."
+  },
+  {
+    "id": "ma14-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "How to make a guesstimate",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of solving a **guesstimate** problem, as suggested in the chapter.",
+    "image": {
+      "src": "/img/maths14/guess-steps.svg",
+      "alt": "A light bulb, a thought cloud and a calculator"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Calculate using suitable approximations"
+      },
+      {
+        "id": "s1",
+        "text": "Make a quick intuitive guess"
+      },
+      {
+        "id": "s5",
+        "text": "Compare the answer with your first guess"
+      },
+      {
+        "id": "s3",
+        "text": "Make reasonable assumptions"
+      },
+      {
+        "id": "s2",
+        "text": "Model the situation by identifying relations between the quantities"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The guess comes before any calculation and the comparison after.",
+    "explanation": "Guesstimates have no exact data, so the **reasoning** matters most. Guess first, model the situation, state assumptions, calculate with approximations, then look back to see how close the guess was. Different assumptions can give different, equally sensible answers."
+  },
+  {
+    "id": "ma14-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Litres of milk",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A school gives milk in cylindrical glasses of diameter $7\\ \\text{cm}$, each filled to a height of $12\\ \\text{cm}$. How many litres are needed for $1600$ students? Use $\\pi = \\dfrac{22}{7}$ and $1000\\ \\text{cm}^3 = 1$ litre.",
+    "image": {
+      "src": "/img/maths14/milk-glasses.svg",
+      "alt": "A row of identical glasses filled with milk"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "739.2 litres"
+      },
+      {
+        "id": "b",
+        "text": "2,956.8 litres"
+      },
+      {
+        "id": "c",
+        "text": "7,392 litres"
+      },
+      {
+        "id": "d",
+        "text": "7,39,200 litres"
+      }
+    ],
+    "answer": "a",
+    "hint": "Halve the diameter to get the radius, then convert $\\text{cm}^3$ to litres at the end.",
+    "explanation": "$r = 3.5\\ \\text{cm}$. One glass: $\\pi r^2 h = \\dfrac{22}{7} \\times 12.25 \\times 12 = 462\\ \\text{cm}^3$. For $1600$: $462 \\times 1600 = 7,39,200\\ \\text{cm}^3 = 739.2$ litres. Using $7$ as the radius gives $2956.8$, a decimal slip gives $7392$, and $7,39,200$ forgets to convert to litres."
+  },
+  {
+    "id": "ma14-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Marbles raise the water level",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cylindrical glass of height $25\\ \\text{cm}$ and radius $4\\ \\text{cm}$ has water up to $16\\ \\text{cm}$. A crow can drink only when the water reaches $20\\ \\text{cm}$. It drops in marbles of radius $1\\ \\text{cm}$. How many marbles are needed?",
+    "image": {
+      "src": "/img/maths14/crow.svg",
+      "alt": "A tall glass of water with marbles dropping in and a crow waiting"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "b",
+        "text": "64"
+      },
+      {
+        "id": "c",
+        "text": "108"
+      },
+      {
+        "id": "d",
+        "text": "48"
+      }
+    ],
+    "answer": "d",
+    "hint": "The volume of the marbles equals the volume of the water that rises by $4\\ \\text{cm}$.",
+    "explanation": "Water must rise by $20 - 16 = 4\\ \\text{cm}$, a cylinder of volume $\\pi \\times 4^2 \\times 4 = 64\\pi$. One marble: $\\tfrac43 \\pi (1)^3 = \\tfrac43 \\pi$. Number $= 64\\pi \\div \\tfrac43\\pi = 48$. Using $4\\pi r^2$ for a marble gives $16$, taking marble volume as $\\pi r^3$ gives $64$, and using the rise $25 - 16 = 9\\ \\text{cm}$ gives $108$."
+  },
+  {
+    "id": "ma14-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Cone and sphere together",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The surface area of a sphere of radius $5\\ \\text{cm}$ is **five times** the curved surface area of a cone of base radius $4\\ \\text{cm}$. Find the height and the volume of the cone.",
+    "image": {
+      "src": "/img/maths14/sphere-cone.svg",
+      "alt": "A sphere of radius 5 cm beside a cone of radius 4 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$h = 5\\ \\text{cm},\\ V = \\dfrac{80\\pi}{3}\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$h = 3\\ \\text{cm},\\ V = 16\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$h = 3\\ \\text{cm},\\ V = 48\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$h = 4\\ \\text{cm},\\ V = \\dfrac{64\\pi}{3}\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Equate $4\\pi(5)^2 = 5\\pi r l$ to find the slant height first.",
+    "explanation": "$4\\pi \\cdot 25 = 100\\pi = 5 \\cdot \\pi \\cdot 4 \\cdot l$ gives $l = 5$. Then $h = \\sqrt{l^2 - r^2} = \\sqrt{25 - 16} = 3\\ \\text{cm}$ and $V = \\tfrac13 \\pi \\cdot 16 \\cdot 3 = 16\\pi\\ \\text{cm}^3$. Taking $l = 5$ as the height, forgetting the $\\tfrac13$ ($48\\pi$), or swapping $h$ with $r$ are the traps."
+  },
+  {
+    "id": "ma14-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Comparing planets",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Take Earth as a sphere of radius $6370\\ \\text{km}$ and Jupiter as a sphere of radius $69,900\\ \\text{km}$. About how many times is Jupiter's **volume** the volume of the Earth?",
+    "image": {
+      "src": "/img/maths14/planets.svg",
+      "alt": "Earth, Jupiter and the Sun drawn as circles of different sizes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "about 11"
+      },
+      {
+        "id": "b",
+        "text": "about 120"
+      },
+      {
+        "id": "c",
+        "text": "about 1,321"
+      },
+      {
+        "id": "d",
+        "text": "about 33"
+      }
+    ],
+    "answer": "c",
+    "hint": "Volume goes with the cube of the radius.",
+    "explanation": "The radius ratio is $\\dfrac{69900}{6370} \\approx 10.97$. Volumes are in the ratio of the **cubes**: $10.97^3 \\approx 1321$. The ratio $11$ is just the radii, $\\approx 120$ squares the ratio (an area ratio) and $33$ multiplies by $3$ instead of cubing."
+  },
+  {
+    "id": "ma14-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "String round a sphere",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A string is tied tightly round the equator of a sphere. A second string, exactly $1\\ \\text{m}$ longer, is held at the same height above the surface all the way round. How high above the surface is it, and does the answer depend on the size of the sphere?",
+    "image": {
+      "src": "/img/maths14/earth-string.svg",
+      "alt": "A string round a planet and a slightly longer string above it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "About 16 cm, and it is the same for every sphere"
+      },
+      {
+        "id": "b",
+        "text": "About 32 cm, the same for every sphere"
+      },
+      {
+        "id": "c",
+        "text": "About 16 cm for the Earth, but much less for a volleyball"
+      },
+      {
+        "id": "d",
+        "text": "About 1 m, the same for every sphere"
+      }
+    ],
+    "answer": "a",
+    "hint": "Circumference is $2\\pi r$: what happens to $r$ when the circumference grows by $1$ m?",
+    "explanation": "The new circle has radius $R + d$ with $2\\pi(R + d) = 2\\pi R + 1$, so $d = \\dfrac{1}{2\\pi} \\approx 0.16\\ \\text{m} = 16\\ \\text{cm}$. The radius $R$ cancels, so it is the same for the Earth, the Moon, Jupiter or a volleyball. Using $1/\\pi$ confuses the diameter with the radius ($\\approx 32$ cm)."
+  },
+  {
+    "id": "ma14-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Math of Space: Surface Area and Volume",
+    "chapterNo": 14,
+    "topic": "Which quantity?",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with the quantity you would calculate.",
+    "image": {
+      "src": "/img/maths14/items-around.svg",
+      "alt": "A painted wall, a water tank, a gift box and a tin"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Cloth for a cone-shaped cap that is open at the bottom"
+      },
+      {
+        "id": "l2",
+        "text": "Tin sheet for a closed biscuit tin"
+      },
+      {
+        "id": "l3",
+        "text": "Salt needed to fill a cylinder tin exactly, in $\\text{cm}^3$"
+      },
+      {
+        "id": "l4",
+        "text": "Milk in a jug of volume $2500\\ \\text{cm}^3$, in litres"
+      },
+      {
+        "id": "l5",
+        "text": "How many cones of salt fill a cylinder of the same base and height"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "Volume divided by $1000$"
+      },
+      {
+        "id": "r1",
+        "text": "Curved surface area"
+      },
+      {
+        "id": "r5",
+        "text": "A ratio of volumes"
+      },
+      {
+        "id": "r2",
+        "text": "Total surface area"
+      },
+      {
+        "id": "r3",
+        "text": "Volume"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Ask yourself: is it covering something (area) or filling something (volume)?",
+    "explanation": "Cloth and sheet metal cover a **surface**, so they need areas (curved only for the open cap, total for the closed tin). Filling needs **volume**, in cubic units; litres come from dividing $\\text{cm}^3$ by $1000$. Comparing cone and cylinder fills is a ratio of volumes, $3 : 1$."
+  }
+]

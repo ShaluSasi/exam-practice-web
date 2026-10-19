@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "ma02-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Terms and constants",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These tiles are the terms of $p(x) = 9x^3 + 5x^2 - 8x - 10$. Tap the circle under the **constant term**.",
+    "image": {
+      "src": "/img/maths02/poly-tiles.svg",
+      "alt": "Four term tiles of a polynomial with an empty circle under each tile"
+    },
+    "spots": [
+      {
+        "id": "t1",
+        "x": 15.0,
+        "y": 74.8,
+        "label": "9x³"
+      },
+      {
+        "id": "t2",
+        "x": 38.3,
+        "y": 74.8,
+        "label": "+5x²"
+      },
+      {
+        "id": "t3",
+        "x": 61.7,
+        "y": 74.8,
+        "label": "−8x"
+      },
+      {
+        "id": "t4",
+        "x": 85.0,
+        "y": 74.8,
+        "label": "−10"
+      }
+    ],
+    "answer": "t4",
+    "hint": "Look for the term that has no variable in it at all.",
+    "explanation": "The **constant term** is the term with no variable, so here it is $-10$ (the minus sign belongs to the term). $-8x$ also has a negative number, but it contains $x$: it is the $x$-term with **coefficient** $-8$. The term $9x^3$ has the highest power, so it fixes the **degree** of $p(x)$ as 3."
+  },
+  {
+    "id": "ma02-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Coefficients",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "What is the **coefficient of $z$** in the polynomial $4z^3 + 5z^2 - 11$?",
+    "image": {
+      "src": "/img/maths02/poly-z.svg",
+      "alt": "Term tiles of a polynomial in z under a moving magnifying glass"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4$"
+      },
+      {
+        "id": "b",
+        "text": "$5$"
+      },
+      {
+        "id": "c",
+        "text": "$0$"
+      },
+      {
+        "id": "d",
+        "text": "$-11$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Write the polynomial with every power of $z$ from $z^3$ down to the constant showing.",
+    "explanation": "Writing every power in turn gives $4z^3 + 5z^2 + 0z - 11$, so the **coefficient of $z$ is 0**: there is no $z$ term at all. $4$ is the coefficient of $z^3$, $5$ is the coefficient of $z^2$, and $-11$ is the **constant term**, not a coefficient of $z$."
+  },
+  {
+    "id": "ma02-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Types of polynomials",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Drop each polynomial into the right bin. Match each polynomial with its name.",
+    "image": {
+      "src": "/img/maths02/sorting-bins.svg",
+      "alt": "Four bins named by degree with question-mark cards dropping in"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$2t^3 - t + 4$"
+      },
+      {
+        "id": "l2",
+        "text": "$7s^2 - 4s + 6$"
+      },
+      {
+        "id": "l3",
+        "text": "$5 - 4y$"
+      },
+      {
+        "id": "l4",
+        "text": "$-9$"
+      }
+    ],
+    "right": [
+      {
+        "id": "cubic",
+        "text": "Cubic polynomial"
+      },
+      {
+        "id": "quad",
+        "text": "Quadratic polynomial"
+      },
+      {
+        "id": "lin",
+        "text": "Linear polynomial"
+      },
+      {
+        "id": "const",
+        "text": "Constant polynomial"
+      }
+    ],
+    "pairs": {
+      "l1": "cubic",
+      "l2": "quad",
+      "l3": "lin",
+      "l4": "const"
+    },
+    "hint": "Find the highest power of the variable in each one: 3, 2, 1 or 0.",
+    "explanation": "The **degree** is the highest power of the variable. $2t^3 - t + 4$ has degree 3 (**cubic**), $7s^2 - 4s + 6$ has degree 2 (**quadratic**), $5 - 4y$ has degree 1 (**linear**, even though the constant is written first), and $-9 = -9y^0$ has degree 0 (**constant**)."
+  },
+  {
+    "id": "ma02-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Degree of a polynomial",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these polynomials from **lowest degree** to **highest degree**.",
+    "image": {
+      "src": "/img/maths02/degree-stairs.svg",
+      "alt": "A staircase with steps labelled degree 0 to degree 4 and a ball climbing it"
+    },
+    "items": [
+      {
+        "id": "d3",
+        "text": "$4z^3 + 5z^2 - 11$"
+      },
+      {
+        "id": "d1",
+        "text": "$9 - 2t$"
+      },
+      {
+        "id": "d4",
+        "text": "$x^4 - 3x^3 + 6x^2$"
+      },
+      {
+        "id": "d0",
+        "text": "$-11$"
+      },
+      {
+        "id": "d2",
+        "text": "$7s^2 - 4s + 6$"
+      }
+    ],
+    "answer": [
+      "d0",
+      "d1",
+      "d2",
+      "d3",
+      "d4"
+    ],
+    "startLabel": "Lowest degree",
+    "endLabel": "Highest degree",
+    "hint": "Only the highest power counts. A number on its own has degree 0.",
+    "explanation": "Degrees: $-11$ is 0 (a **constant polynomial**), $9 - 2t$ is 1, $7s^2 - 4s + 6$ is 2, $4z^3 + 5z^2 - 11$ is 3 and $x^4 - 3x^3 + 6x^2$ is 4. The order in which terms are written does not matter: $9 - 2t$ is still linear. The number of terms does not matter either: the 3-term polynomial with $x^4$ has the highest degree."
+  },
+  {
+    "id": "ma02-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear polynomials",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the linear polynomials.",
+    "image": {
+      "src": "/img/maths02/linear-detector.svg",
+      "alt": "A machine with a magnifying glass checking whether a polynomial has degree 1"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3z + 7$"
+      },
+      {
+        "id": "b",
+        "text": "$x^2 + 5x + 1$"
+      },
+      {
+        "id": "c",
+        "text": "$5 - 4y$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{x}{2} - 9$"
+      },
+      {
+        "id": "e",
+        "text": "$8$"
+      },
+      {
+        "id": "f",
+        "text": "$10x - x^2$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "A linear polynomial has degree exactly 1. A fraction as a coefficient is fine.",
+    "explanation": "A **linear polynomial** has degree 1. $3z + 7$, $5 - 4y$ and $\\dfrac{x}{2} - 9 = \\dfrac{1}{2}x - 9$ all have the variable only to the power 1. $x^2 + 5x + 1$ and $10x - x^2$ (the area of a rectangle made from a wire) are **quadratic**, and $8$ is a **constant polynomial** of degree 0."
+  },
+  {
+    "id": "ma02-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Constant polynomials",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths02/eight-card.svg",
+      "alt": "The number 8 shown equal to 8 times x to the power 0"
+    },
+    "assertion": "The number $8$ on its own is a polynomial of degree $0$.",
+    "reason": "$8$ can be written as $8x^0$, and the highest power of $x$ in it is $0$.",
+    "answer": "a",
+    "hint": "What is $x^0$ equal to?",
+    "explanation": "Since $x^0 = 1$, we have $8 = 8x^0$. The highest (and only) power of the variable is 0, so 8 is a **constant polynomial** of degree 0. Both statements are true, and R is exactly why A is true."
+  },
+  {
+    "id": "ma02-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Algebraic expressions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A shop sells green boxes with **6 markers** each and yellow boxes with **8 erasers** each. Ananya buys $p$ green boxes and $q$ yellow boxes, and also gets **2 erasers free**. Which expression gives the total number of items she takes home?",
+    "image": {
+      "src": "/img/maths02/boxes.svg",
+      "alt": "A green box of 6 markers, a yellow box of 8 erasers and two free erasers"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$8p + 6q + 2$"
+      },
+      {
+        "id": "b",
+        "text": "$6p + 8q + 2$"
+      },
+      {
+        "id": "c",
+        "text": "$6p + 8q$"
+      },
+      {
+        "id": "d",
+        "text": "$14pq + 2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Count the markers from the green boxes, then the erasers from the yellow boxes, then add the free ones.",
+    "explanation": "$p$ green boxes hold $6p$ markers and $q$ yellow boxes hold $8q$ erasers. Adding the 2 free erasers gives $6p + 8q + 2$. $8p + 6q + 2$ swaps the box sizes, $6p + 8q$ forgets the free erasers, and $14pq + 2$ wrongly multiplies the two kinds of boxes together."
+  },
+  {
+    "id": "ma02-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Terms, coefficients and variables",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Ananya's items are counted by the expression $6p + 8q + 2$. Match each description with the right answer.",
+    "image": {
+      "src": "/img/maths02/boxes.svg",
+      "alt": "A green box of 6 markers, a yellow box of 8 erasers and two free erasers"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Coefficient of $q$"
+      },
+      {
+        "id": "l2",
+        "text": "Constant term"
+      },
+      {
+        "id": "l3",
+        "text": "The variables"
+      },
+      {
+        "id": "l4",
+        "text": "Number of terms"
+      }
+    ],
+    "right": [
+      {
+        "id": "r8",
+        "text": "$8$"
+      },
+      {
+        "id": "r2",
+        "text": "$2$"
+      },
+      {
+        "id": "rpq",
+        "text": "$p$ and $q$"
+      },
+      {
+        "id": "r3",
+        "text": "$3$"
+      },
+      {
+        "id": "r6",
+        "text": "$6$"
+      }
+    ],
+    "pairs": {
+      "l1": "r8",
+      "l2": "r2",
+      "l3": "rpq",
+      "l4": "r3"
+    },
+    "hint": "Terms are the parts joined by + or − signs.",
+    "explanation": "The **terms** are $6p$, $8q$ and $2$, so there are 3 terms. The **variables** are $p$ and $q$. The number multiplying $q$ is its **coefficient**, 8. The term with no variable, 2, is the **constant**. 6 is the coefficient of $p$, which was not asked for."
+  },
+  {
+    "id": "ma02-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Algebraic expressions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A rectangular garden is $l$ m long and $w$ m wide. A wire fence along **both lengths** costs ₹120 per metre, a wooden fence along **both widths** costs ₹90 per metre, and seeds sown over the whole garden cost ₹40 per square metre. Which expression gives the **total cost** in rupees?",
+    "image": {
+      "src": "/img/maths02/garden.svg",
+      "alt": "A rectangular garden with wire fencing on its two lengths, wooden fencing on its two widths and seeds inside"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$120l + 90w + 40lw$"
+      },
+      {
+        "id": "b",
+        "text": "$240l + 180w + 40(l + w)$"
+      },
+      {
+        "id": "c",
+        "text": "$240w + 180l + 40lw$"
+      },
+      {
+        "id": "d",
+        "text": "$240l + 180w + 40lw$"
+      }
+    ],
+    "answer": "d",
+    "hint": "There are two lengths and two widths. The seeds depend on the area.",
+    "explanation": "Wire: $2l \\times 120 = 240l$. Wood: $2w \\times 90 = 180w$. Seeds cover the **area** $lw$, costing $40lw$. Total $= 240l + 180w + 40lw$. $120l + 90w + 40lw$ fences only one length and one width, $40(l + w)$ uses a sum instead of the area, and $240w + 180l$ swaps the fences."
+  },
+  {
+    "id": "ma02-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Evaluating expressions",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A wire **24 cm** long is bent into a rectangle. If its length is $x$ cm, what is the **area** of the rectangle when $x = 8$?",
+    "image": {
+      "src": "/img/maths02/wire-rect.svg",
+      "alt": "A 24 cm wire bent into a rectangle of length x cm and unknown width"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$32\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$128\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$96\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$24\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Length + width is half of the wire.",
+    "explanation": "Length + width $= 24 \\div 2 = 12$, so width $= (12 - x)$ cm and area $= x(12 - x) = 12x - x^2$. At $x = 8$: $8 \\times 4 = 32\\ \\text{cm}^2$. $128$ uses width $24 - x$ (forgot to halve), $96$ is $8 \\times 12$ (forgot to subtract $x$), and $24$ is the perimeter, not the area. Note that $12x - x^2$ is quadratic, not linear."
+  },
+  {
+    "id": "ma02-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear equations",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A chess club charges a joining fee of ₹150 plus ₹60 for every match played. Kabir paid **₹750** in all. How many matches did he play?",
+    "image": {
+      "src": "/img/maths02/chess.svg",
+      "alt": "A chess board with a hopping pawn next to the club's price board"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12.5"
+      },
+      {
+        "id": "b",
+        "text": "15"
+      },
+      {
+        "id": "c",
+        "text": "9"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "answer": "d",
+    "hint": "Total paid $= 150 + 60m$. Set it equal to 750.",
+    "explanation": "$150 + 60m = 750 \\Rightarrow 60m = 600 \\Rightarrow m = 10$. Check: $150 + 600 = 750$. $12.5$ comes from $750 \\div 60$ (ignoring the joining fee), $15$ from adding the fee, $(750 + 150) \\div 60$, and $9$ from taking away one extra ₹60. The cost goes up by the same ₹60 for each extra match, a **linear pattern**."
+  },
+  {
+    "id": "ma02-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear equations",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "The sum of two numbers is 64, and one number is 10 more than the other. Put the steps for finding the numbers in order.",
+    "image": {
+      "src": "/img/maths02/balance.svg",
+      "alt": "A balance with bags x and x + 10 on one pan and a 64 weight on the other"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Write the equation $x + (x + 10) = 64$"
+      },
+      {
+        "id": "s1",
+        "text": "Let the smaller number be $x$"
+      },
+      {
+        "id": "s5",
+        "text": "So $x = 27$, and the numbers are 27 and 37"
+      },
+      {
+        "id": "s2",
+        "text": "Then the larger number is $x + 10$"
+      },
+      {
+        "id": "s4",
+        "text": "Simplify to $2x + 10 = 64$, so $2x = 54$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Name the unknown first, then build the equation, then solve.",
+    "explanation": "Choose a variable ($x$), express the other number with it ($x + 10$), and set their sum to 64. The linear polynomial $2x + 10$ equated to 64 gives a **linear equation**: $2x = 54$, $x = 27$. Check: $27 + 37 = 64$ and $37 - 27 = 10$."
+  },
+  {
+    "id": "ma02-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Polynomials as functions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The machine works out $y = 3x - 5$. What does it output for the input $x = -4$?",
+    "image": {
+      "src": "/img/maths02/machine.svg",
+      "alt": "An input-output machine for y = 3x - 5 being fed x = -4"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-7$"
+      },
+      {
+        "id": "b",
+        "text": "$7$"
+      },
+      {
+        "id": "c",
+        "text": "$-17$"
+      },
+      {
+        "id": "d",
+        "text": "$-27$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Substitute $-4$ for $x$ and keep the sign: $3 \\times (-4)$ comes first.",
+    "explanation": "$y = 3 \\times (-4) - 5 = -12 - 5 = -17$. $-7$ comes from $-12 + 5$ (sign error), $7$ from using $+4$ instead of $-4$, and $-27$ from $3 \\times (-4 - 5)$ (bracketing wrongly). Each input gives one output, which is why $3x - 5$ can be seen as a **function** of $x$."
+  },
+  {
+    "id": "ma02-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Right now, a mother is **3 times** as old as her son. In **4 years**, their ages will add up to **64**. What are their present ages?",
+    "image": {
+      "src": "/img/maths02/ages.svg",
+      "alt": "A mother and her son next to a calendar showing plus 4 years"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Son 14, mother 42"
+      },
+      {
+        "id": "b",
+        "text": "Son 15, mother 45"
+      },
+      {
+        "id": "c",
+        "text": "Son 16, mother 48"
+      },
+      {
+        "id": "d",
+        "text": "Son 18, mother 46"
+      }
+    ],
+    "answer": "a",
+    "hint": "Both of them get 4 years older, so add 4 twice.",
+    "explanation": "Let the son be $x$; the mother is $3x$. In 4 years: $(x + 4) + (3x + 4) = 64 \\Rightarrow 4x + 8 = 64 \\Rightarrow x = 14$. So the son is 14 and the mother 42. 15 and 45 add the 4 years only once, 16 and 48 forget the 4 years altogether, and 18 and 46 are their ages **after** 4 years, not now."
+  },
+  {
+    "id": "ma02-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear equations",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Ruhi has **twice as many** ₹2 coins as ₹5 coins. Together the coins are worth **₹126**. How many coins of each kind does she have?",
+    "image": {
+      "src": "/img/maths02/coins.svg",
+      "alt": "A stack of five-rupee coins and two stacks of two-rupee coins"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "14 coins of ₹5 and 28 coins of ₹2"
+      },
+      {
+        "id": "b",
+        "text": "28 coins of ₹5 and 14 coins of ₹2"
+      },
+      {
+        "id": "c",
+        "text": "18 coins of ₹5 and 36 coins of ₹2"
+      },
+      {
+        "id": "d",
+        "text": "42 coins of ₹5 and 84 coins of ₹2"
+      }
+    ],
+    "answer": "a",
+    "hint": "Let the number of ₹5 coins be $n$. Write the **value** of each kind of coin.",
+    "explanation": "With $n$ coins of ₹5 and $2n$ coins of ₹2, the value is $5n + 2(2n) = 9n = 126$, so $n = 14$: 14 coins of ₹5 and 28 coins of ₹2 (₹70 + ₹56 = ₹126). Swapping them gives ₹168. 18 and 36 come from $5n + 2n = 126$ (forgot that there are $2n$ two-rupee coins), and 42 and 84 come from counting coins, $n + 2n = 126$, instead of rupees."
+  },
+  {
+    "id": "ma02-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear patterns",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Look at the growing L-shaped tile pattern. How many tiles will **Stage 26** need?",
+    "image": {
+      "src": "/img/maths02/tiles.svg",
+      "alt": "An L-shaped tile pattern growing from stage 1 to stage 4"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "52"
+      },
+      {
+        "id": "b",
+        "text": "51"
+      },
+      {
+        "id": "c",
+        "text": "53"
+      },
+      {
+        "id": "d",
+        "text": "49"
+      }
+    ],
+    "answer": "b",
+    "hint": "Count the tiles: 1, 3, 5, 7, … What is added each time?",
+    "explanation": "The tiles go 1, 3, 5, 7: each stage adds 2, so Stage $n$ has $2n - 1$ tiles. Stage 26: $2 \\times 26 - 1 = 51$. 52 forgets the $-1$, 53 uses $2n + 1$, and 49 is Stage 25. Because the difference between stages is constant, this is a **linear pattern**."
+  },
+  {
+    "id": "ma02-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear patterns",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Each stage of this matchstick pattern adds one hexagon that shares a side with the previous one. How many matchsticks are needed for **Stage 15**?",
+    "image": {
+      "src": "/img/maths02/hexagons.svg",
+      "alt": "Hexagons made of matchsticks: one, two and three joined hexagons"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "90"
+      },
+      {
+        "id": "b",
+        "text": "75"
+      },
+      {
+        "id": "c",
+        "text": "76"
+      },
+      {
+        "id": "d",
+        "text": "81"
+      }
+    ],
+    "answer": "c",
+    "hint": "Count: Stage 1 uses 6 sticks, Stage 2 uses 11, Stage 3 uses 16.",
+    "explanation": "Each new hexagon needs only 5 new sticks because one side is shared, so the counts are 6, 11, 16, … $= 5n + 1$. Stage 15: $5 \\times 15 + 1 = 76$. 90 is $6 \\times 15$ (ignores the shared sides), 75 forgets the $+1$, and 81 is Stage 16."
+  },
+  {
+    "id": "ma02-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear patterns",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "The hexagon matchstick pattern needs $5n + 1$ sticks at Stage $n$. Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths02/hexagons.svg",
+      "alt": "Hexagons made of matchsticks: one, two and three joined hexagons"
+    },
+    "assertion": "No stage of this pattern uses exactly 200 matchsticks.",
+    "reason": "Solving $5n + 1 = 200$ gives $n = 39.8$, which is not a whole number.",
+    "answer": "a",
+    "hint": "A stage number must be a counting number.",
+    "explanation": "$5n + 1 = 200 \\Rightarrow 5n = 199 \\Rightarrow n = 39.8$. Stage numbers are whole numbers, so 200 is never reached exactly: Stage 39 uses 196 sticks and Stage 40 uses 201. Both statements are true and R explains A."
+  },
+  {
+    "id": "ma02-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear decay",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Meena has ₹240 of pocket money and spends ₹15 every day. After how many days will she have **₹60 left**?",
+    "image": {
+      "src": "/img/maths02/wallet.svg",
+      "alt": "A wallet with fifteen-rupee notes flying out, next to a calendar"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "answer": "c",
+    "hint": "Money left after $n$ days $= 240 - 15n$.",
+    "explanation": "$240 - 15n = 60 \\Rightarrow 15n = 180 \\Rightarrow n = 12$ days. 4 is $60 \\div 15$ (divided the wrong amount), 16 is when all the money is gone ($240 \\div 15$), and 20 is $(240 + 60) \\div 15$. The money falls by the same ₹15 each day: a linear pattern."
+  },
+  {
+    "id": "ma02-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear patterns",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "An auto-rickshaw fare is ₹30 for the first 2 km, and then ₹12 for every extra kilometre. What is the fare for a **10 km** ride?",
+    "image": {
+      "src": "/img/maths02/auto.svg",
+      "alt": "An auto-rickshaw on a road with its fare meter"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹150"
+      },
+      {
+        "id": "b",
+        "text": "₹126"
+      },
+      {
+        "id": "c",
+        "text": "₹120"
+      },
+      {
+        "id": "d",
+        "text": "₹138"
+      }
+    ],
+    "answer": "b",
+    "hint": "Only the kilometres after the first 2 cost ₹12 each.",
+    "explanation": "Extra distance $= 10 - 2 = 8$ km, so fare $= 30 + 12 \\times 8 = 126$ rupees. In general the fare for $n$ km ($n \\ge 2$) is $30 + 12(n - 2) = 12n + 6$. ₹150 charges ₹12 for all 10 km on top of ₹30, ₹120 drops the starting fare, and ₹138 counts 9 extra km."
+  },
+  {
+    "id": "ma02-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear patterns",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Ravi has ₹1,200 and saves ₹300 every month. How much will he have after **2 years**?",
+    "image": {
+      "src": "/img/maths02/piggy.svg",
+      "alt": "A piggy bank receiving a coin each month"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹1,800"
+      },
+      {
+        "id": "b",
+        "text": "₹7,200"
+      },
+      {
+        "id": "c",
+        "text": "₹36,000"
+      },
+      {
+        "id": "d",
+        "text": "₹8,400"
+      }
+    ],
+    "answer": "d",
+    "hint": "Convert 2 years into months first.",
+    "explanation": "Amount after $n$ months $= 1200 + 300n$. Two years is 24 months: $1200 + 300 \\times 24 = 1200 + 7200 = 8400$ rupees. ₹1,800 uses $n = 2$ (years, not months), ₹7,200 forgets the starting ₹1,200, and ₹36,000 is $(1200 + 300) \\times 24$."
+  },
+  {
+    "id": "ma02-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear expressions in daily life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered scene with the linear expression that models it.",
+    "image": {
+      "src": "/img/maths02/scenes.svg",
+      "alt": "Four numbered scenes: a bank, a rally, a box and a book",
+      "markers": [
+        {
+          "x": 7.9,
+          "y": 11.9,
+          "label": "1"
+        },
+        {
+          "x": 56.2,
+          "y": 11.9,
+          "label": "2"
+        },
+        {
+          "x": 7.9,
+          "y": 58.8,
+          "label": "3"
+        },
+        {
+          "x": 56.2,
+          "y": 58.8,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Scene 1: ₹500 in the bank, ₹150 added each month (amount after $n$ months)"
+      },
+      {
+        "id": "l2",
+        "text": "Scene 2: a rally of 120 people, 9 drop out each hour (people left after $n$ hours)"
+      },
+      {
+        "id": "l3",
+        "text": "Scene 3: a box 7 cm long and 11 cm wide (volume when the height is $h$ cm)"
+      },
+      {
+        "id": "l4",
+        "text": "Scene 4: a 500-page book, 20 pages read a day (pages left after $n$ days)"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$500 + 150n$"
+      },
+      {
+        "id": "r2",
+        "text": "$120 - 9n$"
+      },
+      {
+        "id": "r3",
+        "text": "$77h$"
+      },
+      {
+        "id": "r4",
+        "text": "$500 - 20n$"
+      },
+      {
+        "id": "r5",
+        "text": "$150 + 500n$"
+      },
+      {
+        "id": "r6",
+        "text": "$18h$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "The starting amount is the constant; the change per step multiplies the variable.",
+    "explanation": "Bank: start 500, add 150 per month, $500 + 150n$ (not $150 + 500n$, which swaps the roles). Rally: $120 - 9n$. Box: volume $= 7 \\times 11 \\times h = 77h$ ($18h$ wrongly adds 7 and 11). Book: $500 - 20n$. Each one changes by a fixed amount per step, so each is a **linear pattern**."
+  },
+  {
+    "id": "ma02-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear growth",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The cost of a taxi journey is $C(d) = 80 + 45d$ rupees, where $d$ is the distance in km. What does a **12 km** journey cost?",
+    "image": {
+      "src": "/img/maths02/journey.svg",
+      "alt": "A taxi passing kilometre posts with a cost meter"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹540"
+      },
+      {
+        "id": "b",
+        "text": "₹1,500"
+      },
+      {
+        "id": "c",
+        "text": "₹620"
+      },
+      {
+        "id": "d",
+        "text": "₹1,005"
+      }
+    ],
+    "answer": "c",
+    "hint": "Substitute $d = 12$; multiply before adding.",
+    "explanation": "$C(12) = 80 + 45 \\times 12 = 80 + 540 = 620$ rupees. ₹540 forgets the fixed ₹80, ₹1,500 is $(80 + 45) \\times 12$, and ₹1,005 swaps the two numbers ($80 \\times 12 + 45$). Each extra km adds the same ₹45: this is **linear growth**."
+  },
+  {
+    "id": "ma02-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear decay",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "At the start of summer, the water in a tank is 4.5 m high. After $t$ months the height is $h(t) = 4.5 - 0.6t$ metres. What is the height after **5 months**?",
+    "image": {
+      "src": "/img/maths02/tank.svg",
+      "alt": "A cylindrical tank with a metre scale whose water level keeps falling"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "7.5 m"
+      },
+      {
+        "id": "b",
+        "text": "1.5 m"
+      },
+      {
+        "id": "c",
+        "text": "3.9 m"
+      },
+      {
+        "id": "d",
+        "text": "19.5 m"
+      }
+    ],
+    "answer": "b",
+    "hint": "Work out $0.6 \\times 5$ first, then subtract.",
+    "explanation": "$h(5) = 4.5 - 0.6 \\times 5 = 4.5 - 3 = 1.5$ m. 7.5 m adds instead of subtracting, 3.9 m subtracts 0.6 only once, and 19.5 m is $(4.5 - 0.6) \\times 5$. The height drops by the same 0.6 m every month: **linear decay**. (The tank would be empty after $4.5 \\div 0.6 = 7.5$ months.)"
+  },
+  {
+    "id": "ma02-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear decay",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A phone bought for ₹12,000 loses ₹1,500 of its value every year. The bars show its value at the end of each year. Tap the bar for the **first year** when its value is **below ₹5,000**.",
+    "image": {
+      "src": "/img/maths02/phone-bars.svg",
+      "alt": "Bar chart of a phone's value at the end of each year, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "y3",
+        "x": 54.2,
+        "y": 43.1,
+        "label": "Year 3"
+      },
+      {
+        "id": "y4",
+        "x": 64.6,
+        "y": 51.8,
+        "label": "Year 4"
+      },
+      {
+        "id": "y5",
+        "x": 75.0,
+        "y": 60.5,
+        "label": "Year 5"
+      },
+      {
+        "id": "y6",
+        "x": 85.4,
+        "y": 69.2,
+        "label": "Year 6"
+      }
+    ],
+    "answer": "y5",
+    "hint": "Value after $t$ years $= 12000 - 1500t$. Try $t = 4$ and $t = 5$.",
+    "explanation": "$v = 12000 - 1500t$. After 4 years $v = 6000$ (still above ₹5,000); after 5 years $v = 4500$, the first value below ₹5,000. Solving $12000 - 1500t < 5000$ gives $t > 4.67$, so year 5. Year 4 is the trap: ₹6,000 is not below ₹5,000."
+  },
+  {
+    "id": "ma02-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear growth and decay",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the situations that show **linear decay**.",
+    "image": {
+      "src": "/img/maths02/decay-growth.svg",
+      "alt": "Two bar patterns: one rising in equal steps and one falling in equal steps"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Water in a tank falls by 0.5 m every month"
+      },
+      {
+        "id": "b",
+        "text": "A phone's value drops by ₹800 every year"
+      },
+      {
+        "id": "c",
+        "text": "A village gains 50 people every year"
+      },
+      {
+        "id": "d",
+        "text": "A prepaid balance of ₹600 is cut by ₹15 each day"
+      },
+      {
+        "id": "e",
+        "text": "A plant grows 0.5 feet every month"
+      },
+      {
+        "id": "f",
+        "text": "A bacteria colony doubles every hour"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Decay means going down, and linear means by the same amount each time.",
+    "explanation": "**Linear decay** is a decrease by a constant amount over equal intervals: the tank, the phone and the prepaid balance. The village and the plant show **linear growth** (equal increases). Doubling is not linear at all, because the increase gets bigger every hour."
+  },
+  {
+    "id": "ma02-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear growth",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths02/bacteria.svg",
+      "alt": "A bacteria colony with 1, 2, 4 and 8 cells at hours 0 to 3"
+    },
+    "assertion": "A bacteria colony that grows 1, 2, 4, 8, 16, … over successive hours shows linear growth.",
+    "reason": "The number of bacteria increases every hour.",
+    "answer": "d",
+    "hint": "Check the differences between consecutive numbers.",
+    "explanation": "The differences are 1, 2, 4, 8, which are not constant, so this is **not** linear growth (the colony doubles each hour). A is false. R is true: the number does go up every hour. But increasing is not enough; linear growth needs the **same** increase in each equal interval."
+  },
+  {
+    "id": "ma02-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Finding a linear relationship",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A phone company charges a fixed monthly fee plus a fixed amount per GB. A bill was ₹340 for 8 GB and ₹460 for 12 GB. If the bill is $y = ax + b$ rupees for $x$ GB, find $a$ and $b$.",
+    "image": {
+      "src": "/img/maths02/bills.svg",
+      "alt": "A phone beside two monthly bills: 8 GB for ₹340 and 12 GB for ₹460"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a = 100,\\ b = 30$"
+      },
+      {
+        "id": "b",
+        "text": "$a = 30,\\ b = 100$"
+      },
+      {
+        "id": "c",
+        "text": "$a = 42.5,\\ b = 0$"
+      },
+      {
+        "id": "d",
+        "text": "$a = 10,\\ b = 260$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Subtract the two bills: the extra 4 GB cost the difference.",
+    "explanation": "$340 = 8a + b$ and $460 = 12a + b$. Subtracting: $120 = 4a$, so $a = 30$; then $b = 340 - 240 = 100$. So $y = 30x + 100$: ₹30 is the **cost per GB** and ₹100 is the **fixed fee** (the bill at 0 GB). $a = 100, b = 30$ swaps them, $a = 42.5$ is $340 \\div 8$ (ignores the fixed fee), and $a = 10$ divides 120 by 12 GB instead of the 4 extra GB."
+  },
+  {
+    "id": "ma02-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Finding a linear relationship",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A gym bill is $y = ax + b$ rupees for $x$ hours of badminton. It was ₹800 for 10 hours and ₹1,100 for 15 hours. Put the steps for finding $a$ and $b$ in order.",
+    "image": {
+      "src": "/img/maths02/badminton.svg",
+      "alt": "A badminton court with a flying shuttle and two bills: 10 hours ₹800 and 15 hours ₹1,100"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Solve $5a = 300$ to get $a = 60$"
+      },
+      {
+        "id": "s2",
+        "text": "From the first equation, $b = 800 - 10a$"
+      },
+      {
+        "id": "s5",
+        "text": "Find $b = 800 - 600 = 200$, so $y = 60x + 200$"
+      },
+      {
+        "id": "s1",
+        "text": "Write $800 = 10a + b$ and $1100 = 15a + b$"
+      },
+      {
+        "id": "s3",
+        "text": "Substitute: $1100 = 15a + 800 - 10a$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Turn both bills into equations before solving anything.",
+    "explanation": "Substitute both data points into $y = ax + b$, make $b$ the subject of one equation, substitute it into the other, and solve: $1100 = 5a + 800$, so $a = 60$ (₹60 per hour) and $b = 200$ (the fixed monthly fee). Check: $60 \\times 15 + 200 = 1100$."
+  },
+  {
+    "id": "ma02-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Finding a linear relationship",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Temperatures in °C and °F are related by $C = aF + b$. Water freezes at 0 °C, which is 32 °F, and boils at 100 °C, which is 212 °F. Find $a$ and $b$.",
+    "image": {
+      "src": "/img/maths02/thermo-cf.svg",
+      "alt": "A Celsius thermometer and a Fahrenheit thermometer with matching freezing and boiling marks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a = \\dfrac{9}{5},\\ b = 32$"
+      },
+      {
+        "id": "b",
+        "text": "$a = \\dfrac{5}{9},\\ b = -32$"
+      },
+      {
+        "id": "c",
+        "text": "$a = \\dfrac{25}{53},\\ b = 0$"
+      },
+      {
+        "id": "d",
+        "text": "$a = \\dfrac{5}{9},\\ b = -\\dfrac{160}{9}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Substitute both pairs: $0 = 32a + b$ and $100 = 212a + b$.",
+    "explanation": "Subtracting the equations: $100 = 180a$, so $a = \\dfrac{5}{9}$. Then $b = -32a = -\\dfrac{160}{9}$, giving $C = \\dfrac{5}{9}(F - 32)$. $a = \\dfrac{9}{5}, b = 32$ is the reverse formula (°F from °C), $b = -32$ forgets to multiply 32 by $a$, and $\\dfrac{25}{53} = \\dfrac{100}{212}$ divides the boiling points instead of the differences."
+  },
+  {
+    "id": "ma02-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear relationships",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A liquid's temperature in kelvin ($x$) and in °F ($y$) are related by $y = \\dfrac{9}{5}(x - 273) + 32$. What is the temperature in °F when it is **323 K**?",
+    "image": {
+      "src": "/img/maths02/thermo-kf.svg",
+      "alt": "A Kelvin thermometer reading 323 K beside a Fahrenheit thermometer showing a question mark"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "122 °F"
+      },
+      {
+        "id": "b",
+        "text": "90 °F"
+      },
+      {
+        "id": "c",
+        "text": "613.4 °F"
+      },
+      {
+        "id": "d",
+        "text": "about 59.8 °F"
+      }
+    ],
+    "answer": "a",
+    "hint": "Work out the bracket first: $323 - 273$.",
+    "explanation": "$y = \\dfrac{9}{5}(323 - 273) + 32 = \\dfrac{9}{5} \\times 50 + 32 = 90 + 32 = 122$ °F. 90 °F forgets the $+32$, 613.4 °F forgets to subtract 273, and about 59.8 °F uses $\\dfrac{5}{9}$ instead of $\\dfrac{9}{5}$."
+  },
+  {
+    "id": "ma02-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Points on a line",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the marked point that lies on the line $y = 2x + 1$.",
+    "image": {
+      "src": "/img/maths02/points-grid.svg",
+      "alt": "A coordinate grid with five marked points and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p13",
+        "x": 44.3,
+        "y": 48.2,
+        "label": "(1, 3)"
+      },
+      {
+        "id": "p24",
+        "x": 54.6,
+        "y": 39.5,
+        "label": "(2, 4)"
+      },
+      {
+        "id": "p36",
+        "x": 64.9,
+        "y": 22.3,
+        "label": "(3, 6)"
+      },
+      {
+        "id": "pm11",
+        "x": 23.8,
+        "y": 65.5,
+        "label": "(−1, 1)"
+      },
+      {
+        "id": "p45",
+        "x": 75.1,
+        "y": 30.9,
+        "label": "(4, 5)"
+      }
+    ],
+    "answer": "p13",
+    "hint": "Read each point's coordinates and check whether $y$ equals $2x + 1$.",
+    "explanation": "A point lies on a line only if its coordinates satisfy the equation. $(1, 3)$: $2 \\times 1 + 1 = 3$ ✓. $(2, 4)$ and $(3, 6)$ fit $y = 2x$ (they forget the $+1$), $(4, 5)$ fits $y = x + 1$ (forgets the 2), and for $(-1, 1)$, $2 \\times (-1) + 1 = -1$, not 1."
+  },
+  {
+    "id": "ma02-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Points on a line",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the points that lie on the line $y = 3x - 2$.",
+    "image": {
+      "src": "/img/maths02/line-3x-2.svg",
+      "alt": "Graph of the straight line y = 3x - 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(1, -1)$"
+      },
+      {
+        "id": "b",
+        "text": "$(0, -2)$"
+      },
+      {
+        "id": "c",
+        "text": "$(3, 9)$"
+      },
+      {
+        "id": "d",
+        "text": "$(2, 4)$"
+      },
+      {
+        "id": "e",
+        "text": "$(-2, 4)$"
+      },
+      {
+        "id": "f",
+        "text": "$(-1, -5)$"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "f"
+    ],
+    "hint": "Substitute the $x$-coordinate and see whether you get the $y$-coordinate.",
+    "explanation": "$x = 0$: $y = -2$ ✓. $x = 2$: $y = 6 - 2 = 4$ ✓. $x = -1$: $y = -3 - 2 = -5$ ✓. $x = 1$ gives $1$, not $-1$; $x = 3$ gives $7$, not $9$ (that is $y = 3x$); $x = -2$ gives $-8$, not $4$ (a sign error)."
+  },
+  {
+    "id": "ma02-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Drawing the graph of a line",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for drawing the graph of $y = x + 2$ in order.",
+    "image": {
+      "src": "/img/maths02/plot-steps.svg",
+      "alt": "Two points being plotted on a grid and joined into a straight line"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Plot the two points on the coordinate plane"
+      },
+      {
+        "id": "s1",
+        "text": "Choose two values of $x$, say $0$ and $2$"
+      },
+      {
+        "id": "s4",
+        "text": "Join the points with a ruler and extend the line both ways"
+      },
+      {
+        "id": "s2",
+        "text": "Find $y$ for each: $(0, 2)$ and $(2, 4)$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need two points before you can draw a straight line.",
+    "explanation": "Any two points fix a straight line. Pick $x$-values, work out $y = x + 2$ to get $(0, 2)$ and $(2, 4)$, plot them, then join and **extend** the line in both directions, since the line goes on beyond the two points."
+  },
+  {
+    "id": "ma02-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Slope of y = ax",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "All four lines pass through the origin. Tap the line $y = 3x$.",
+    "image": {
+      "src": "/img/maths02/slopes.svg",
+      "alt": "Four straight lines through the origin with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a3",
+        "x": 39.4,
+        "y": 87.4,
+        "label": "y = 3x"
+      },
+      {
+        "id": "a2",
+        "x": 67.4,
+        "y": 14.4,
+        "label": "y = 2x"
+      },
+      {
+        "id": "a1",
+        "x": 81.4,
+        "y": 16.6,
+        "label": "y = x"
+      },
+      {
+        "id": "ah",
+        "x": 17.4,
+        "y": 67.0,
+        "label": "y = ½x"
+      }
+    ],
+    "answer": "a3",
+    "hint": "The bigger $a$ is in $y = ax$, the steeper the line.",
+    "explanation": "In $y = ax$ the number $a$ is the **slope**. $y = 3x$ rises 3 units for every 1 unit across, so it is the steepest line: it passes through $(1, 3)$ and $(-1, -3)$. $y = x$ is equally inclined to both axes, $y = 2x$ is less steep than $3x$, and $y = \\dfrac{1}{2}x$ (with $a < 1$) is flatter than $y = x$."
+  },
+  {
+    "id": "ma02-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Slope of y = ax",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these lines from **least steep** to **steepest**.",
+    "image": {
+      "src": "/img/maths02/ramps.svg",
+      "alt": "Four ramps of different steepness with balls rolling down"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "$y = 2x$"
+      },
+      {
+        "id": "s1",
+        "text": "$y = \\dfrac{1}{3}x$"
+      },
+      {
+        "id": "s5",
+        "text": "$y = 4x$"
+      },
+      {
+        "id": "s3",
+        "text": "$y = x$"
+      },
+      {
+        "id": "s2",
+        "text": "$y = \\dfrac{3}{4}x$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "Least steep",
+    "endLabel": "Steepest",
+    "hint": "Compare the slopes $a$: $\\dfrac{1}{3}$, $\\dfrac{3}{4}$, $1$, $2$, $4$.",
+    "explanation": "For $y = ax$ with $a > 0$, a larger slope means a steeper line. $\\dfrac{1}{3} < \\dfrac{3}{4} < 1 < 2 < 4$. Lines with $a < 1$ are less steep than $y = x$; lines with $a > 1$ are steeper."
+  },
+  {
+    "id": "ma02-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Slope of y = ax",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths02/slopes.svg",
+      "alt": "Four straight lines through the origin with different steepness"
+    },
+    "assertion": "The line $y = 5x$ is steeper than the line $y = x$.",
+    "reason": "Every line of the form $y = ax$ passes through the origin.",
+    "answer": "b",
+    "hint": "Both may be true, but does passing through $(0, 0)$ tell you how steep a line is?",
+    "explanation": "A is true: the slope 5 is greater than 1, so $y = 5x$ is steeper. R is also true, since $x = 0$ gives $y = 0$. But passing through the origin says nothing about steepness; it is the slope $a$ that explains A. So both are true but R does not explain A."
+  },
+  {
+    "id": "ma02-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Negative slope",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the graph of $y = -3x$.",
+    "image": {
+      "src": "/img/maths02/neg-slopes.svg",
+      "alt": "Four straight lines through the origin with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "n3",
+        "x": 63.4,
+        "y": 87.4,
+        "label": "y = −3x"
+      },
+      {
+        "id": "n1",
+        "x": 21.4,
+        "y": 16.6,
+        "label": "y = −x"
+      },
+      {
+        "id": "nt",
+        "x": 87.4,
+        "y": 61.7,
+        "label": "y = −⅓x"
+      },
+      {
+        "id": "p3",
+        "x": 63.4,
+        "y": 10.1,
+        "label": "y = 3x"
+      }
+    ],
+    "answer": "n3",
+    "hint": "A negative slope falls from left to right. Find $y$ when $x = 1$.",
+    "explanation": "$y = -3x$ passes through $(1, -3)$ and $(-1, 3)$, so it falls steeply from left to right. $y = 3x$ has the same steepness but rises (positive slope). $y = -x$ is less steep, and $y = -\\dfrac{1}{3}x$ is the flattest. A negative slope shows **linear decay**."
+  },
+  {
+    "id": "ma02-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Slope and y-intercept",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which graph shows the line $y = 2x + 3$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph P",
+        "image": {
+          "src": "/img/maths02/mg-p.svg",
+          "alt": "Graph P: a straight line"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph Q",
+        "image": {
+          "src": "/img/maths02/mg-q.svg",
+          "alt": "Graph Q: a straight line"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph R",
+        "image": {
+          "src": "/img/maths02/mg-r.svg",
+          "alt": "Graph R: a straight line"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph S",
+        "image": {
+          "src": "/img/maths02/mg-s.svg",
+          "alt": "Graph S: a straight line"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Check where it crosses the $y$-axis, then whether it goes up 2 for every 1 across.",
+    "explanation": "$y = 2x + 3$ has $y$-intercept 3, so it crosses the $y$-axis at $(0, 3)$, and slope 2, so it rises: Graph R, which also passes through $(-1.5, 0)$. Graph P has slope $-2$ (falls), Graph Q has the right slope but crosses at $(0, -3)$, and Graph S has the right intercept but slope $\\dfrac{1}{2}$."
+  },
+  {
+    "id": "ma02-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "y-intercept",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point where the line $y = 3x - 3$ cuts the **$y$-axis**.",
+    "image": {
+      "src": "/img/maths02/intercepts.svg",
+      "alt": "Three straight lines crossing the axes, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 47.0,
+        "y": 77.4,
+        "label": "(0, −3)"
+      },
+      {
+        "id": "b",
+        "x": 47.0,
+        "y": 28.9,
+        "label": "(0, 3)"
+      },
+      {
+        "id": "c",
+        "x": 55.8,
+        "y": 53.2,
+        "label": "(1, 0)"
+      },
+      {
+        "id": "d",
+        "x": 47.0,
+        "y": 37.0,
+        "label": "(0, 2)"
+      },
+      {
+        "id": "e",
+        "x": 29.3,
+        "y": 53.2,
+        "label": "(−2, 0)"
+      }
+    ],
+    "answer": "a",
+    "hint": "On the $y$-axis, $x = 0$.",
+    "explanation": "Put $x = 0$: $y = 3 \\times 0 - 3 = -3$, so the line cuts the $y$-axis at $(0, -3)$. Its **$y$-intercept** is $b = -3$: 3 units below the origin. $(0, 3)$ ignores the minus sign, and $(1, 0)$ is where this line cuts the $x$-axis instead."
+  },
+  {
+    "id": "ma02-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Where a line meets the axes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point where the line $y = -x + 3$ cuts the **$x$-axis**.",
+    "image": {
+      "src": "/img/maths02/intercepts.svg",
+      "alt": "Three straight lines crossing the axes, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 73.5,
+        "y": 53.2,
+        "label": "(3, 0)"
+      },
+      {
+        "id": "b",
+        "x": 47.0,
+        "y": 28.9,
+        "label": "(0, 3)"
+      },
+      {
+        "id": "c",
+        "x": 55.8,
+        "y": 53.2,
+        "label": "(1, 0)"
+      },
+      {
+        "id": "d",
+        "x": 29.3,
+        "y": 53.2,
+        "label": "(−2, 0)"
+      },
+      {
+        "id": "e",
+        "x": 47.0,
+        "y": 77.4,
+        "label": "(0, −3)"
+      }
+    ],
+    "answer": "a",
+    "hint": "On the $x$-axis, $y = 0$. Solve $0 = -x + 3$.",
+    "explanation": "Put $y = 0$: $0 = -x + 3$, so $x = 3$, giving the point $(3, 0)$. $(0, 3)$ is where the same line cuts the $y$-axis (its $y$-intercept), which is the usual trap. $(1, 0)$ and $(-2, 0)$ belong to the other two lines."
+  },
+  {
+    "id": "ma02-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Equations and graphs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each equation with its graph.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "$y = 3x$"
+      },
+      {
+        "id": "l2",
+        "text": "$y = -x$"
+      },
+      {
+        "id": "l3",
+        "text": "$y = x + 2$"
+      },
+      {
+        "id": "l4",
+        "text": "$y = -2x + 4$"
+      }
+    ],
+    "right": [
+      {
+        "id": "v",
+        "text": "Graph V",
+        "image": {
+          "src": "/img/maths02/mg-v.svg",
+          "alt": "Graph V: a straight line"
+        }
+      },
+      {
+        "id": "w",
+        "text": "Graph W",
+        "image": {
+          "src": "/img/maths02/mg-w.svg",
+          "alt": "Graph W: a straight line"
+        }
+      },
+      {
+        "id": "x",
+        "text": "Graph X",
+        "image": {
+          "src": "/img/maths02/mg-x.svg",
+          "alt": "Graph X: a straight line"
+        }
+      },
+      {
+        "id": "y",
+        "text": "Graph Y",
+        "image": {
+          "src": "/img/maths02/mg-y.svg",
+          "alt": "Graph Y: a straight line"
+        }
+      },
+      {
+        "id": "z",
+        "text": "Graph Z",
+        "image": {
+          "src": "/img/maths02/mg-z.svg",
+          "alt": "Graph Z: a straight line"
+        }
+      }
+    ],
+    "pairs": {
+      "l1": "y",
+      "l2": "v",
+      "l3": "z",
+      "l4": "x"
+    },
+    "hint": "Use the sign of the slope (rising or falling) and the $y$-intercept.",
+    "explanation": "$y = 3x$: steep, rising, through the origin (Y). $y = -x$: falling, through the origin (V). $y = x + 2$: rising, crossing the $y$-axis at 2 (Z). $y = -2x + 4$: falling, crossing at $(0, 4)$ and $(2, 0)$ (X). Graph W is $y = x - 2$, the same slope as Z but intercept $-2$."
+  },
+  {
+    "id": "ma02-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Slope and y-intercept",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about the line $y = ax + b$.",
+    "image": {
+      "src": "/img/maths02/parallel.svg",
+      "alt": "Three parallel straight lines with a dashed copy sliding between them"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a$ is the slope of the line"
+      },
+      {
+        "id": "b",
+        "text": "The line cuts the $y$-axis at $(0, b)$"
+      },
+      {
+        "id": "c",
+        "text": "Changing $b$ but keeping $a$ fixed gives a line parallel to the first"
+      },
+      {
+        "id": "d",
+        "text": "Changing $a$ but keeping $b$ fixed moves the $y$-intercept"
+      },
+      {
+        "id": "e",
+        "text": "If $a$ is negative, the line shows linear growth"
+      },
+      {
+        "id": "f",
+        "text": "$y = 4x$ is less steep than $y = x$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Look at the three lines in the picture: what is the same and what changes?",
+    "explanation": "In $y = ax + b$, $a$ is the **slope** and $b$ the **$y$-intercept**, since $x = 0$ gives $y = b$. Changing $b$ shifts the line up or down without turning it, so the lines stay **parallel**. Changing $a$ turns the line about $(0, b)$, so the intercept stays fixed. A negative slope means **decay**, and $y = 4x$ is steeper than $y = x$ because $4 > 1$."
+  },
+  {
+    "id": "ma02-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Parallel lines",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths02/parallel.svg",
+      "alt": "Three parallel straight lines with a dashed copy sliding between them"
+    },
+    "assertion": "The lines $y = 2x + 1$ and $y = 2x - 4$ never meet.",
+    "reason": "Lines with the same slope but different $y$-intercepts are parallel.",
+    "answer": "a",
+    "hint": "Compare the slopes and the intercepts of the two lines.",
+    "explanation": "Both lines have slope 2 but intercepts 1 and $-4$, so they are **parallel** and never meet. If they did meet, we would need $2x + 1 = 2x - 4$, that is $1 = -4$, which is impossible. Both statements are true, and R explains A."
+  },
+  {
+    "id": "ma02-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Slope and y-intercept",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each line with its slope and $y$-intercept.",
+    "image": {
+      "src": "/img/maths02/four-lines.svg",
+      "alt": "Four straight lines labelled (i) to (iv) on one grid"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "(i) $y = -2x + 5$"
+      },
+      {
+        "id": "l2",
+        "text": "(ii) $3y = 6x + 4$"
+      },
+      {
+        "id": "l3",
+        "text": "(iii) $4y = 6x - 8$"
+      },
+      {
+        "id": "l4",
+        "text": "(iv) $2y = 4x - 9$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "slope $-2$, $y$-intercept $5$"
+      },
+      {
+        "id": "r2",
+        "text": "slope $2$, $y$-intercept $\\dfrac{4}{3}$"
+      },
+      {
+        "id": "r3",
+        "text": "slope $\\dfrac{3}{2}$, $y$-intercept $-2$"
+      },
+      {
+        "id": "r4",
+        "text": "slope $2$, $y$-intercept $-\\dfrac{9}{2}$"
+      },
+      {
+        "id": "r5",
+        "text": "slope $6$, $y$-intercept $4$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "First make $y$ the subject: divide the whole equation by the number in front of $y$.",
+    "explanation": "(ii) $y = 2x + \\dfrac{4}{3}$, (iii) $y = \\dfrac{3}{2}x - 2$, (iv) $y = 2x - \\dfrac{9}{2}$; (i) is already in form $y = ax + b$. 'Slope 6, intercept 4' reads (ii) without dividing by 3, the usual trap. Lines (ii) and (iv) have the same slope 2, so they are **parallel**, as the picture shows."
+  },
+  {
+    "id": "ma02-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Finding a linear polynomial",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The graph of a linear polynomial $p(x)$ passes through $(1, 5)$ and $(3, 11)$. What is $p(x)$?",
+    "image": {
+      "src": "/img/maths02/two-points.svg",
+      "alt": "Two plotted points (1, 5) and (3, 11) on a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3x + 2$"
+      },
+      {
+        "id": "b",
+        "text": "$2x + 3$"
+      },
+      {
+        "id": "c",
+        "text": "$3x + 5$"
+      },
+      {
+        "id": "d",
+        "text": "$4x + 1$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Write $p(x) = ax + b$, then use $p(1) = 5$ and $p(3) = 11$.",
+    "explanation": "$a + b = 5$ and $3a + b = 11$. Subtracting: $2a = 6$, so $a = 3$ and $b = 2$, giving $p(x) = 3x + 2$. Check: $p(3) = 11$ ✓. $2x + 3$ and $4x + 1$ pass through $(1, 5)$ but give 9 and 13 at $x = 3$; $3x + 5$ wrongly takes $b$ as the first $y$-value. The graph cuts the axes at $(0, 2)$ and $\\left(-\\dfrac{2}{3}, 0\\right)$."
+  },
+  {
+    "id": "ma02-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Finding linear polynomials",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Let $p(x) = ax + b$ and $q(x) = cx + d$. Use the three clues on the cards to find $p(x)$ and $q(x)$.",
+    "image": {
+      "src": "/img/maths02/clue-cards.svg",
+      "alt": "Three clue cards: p(0) = 5, p(x) - q(x) is 0 at x = 3, and p(x) + q(x) = 6x + 4"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$p(x) = 4x + 5,\\ q(x) = 2x - 1$"
+      },
+      {
+        "id": "b",
+        "text": "$p(x) = 2x + 5,\\ q(x) = 4x + 1$"
+      },
+      {
+        "id": "c",
+        "text": "$p(x) = 2x + 5,\\ q(x) = 4x - 1$"
+      },
+      {
+        "id": "d",
+        "text": "$p(x) = 5x + 2,\\ q(x) = x + 2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Clue 1 gives $b$. Clue 3 gives $a + c$ and $b + d$. Clue 2 links $a$ and $c$.",
+    "explanation": "Clue 1: $b = 5$. Clue 3: $a + c = 6$ and $b + d = 4$, so $d = -1$. Clue 2: $p(3) = q(3)$, so $3a + 5 = 3c - 1$, giving $c - a = 2$. Hence $a = 2$, $c = 4$: $p(x) = 2x + 5$, $q(x) = 4x - 1$. Swapping $a$ and $c$ makes $p(3) - q(3) = 12 \\ne 0$, $q(x) = 4x + 1$ breaks the sum ($6x + 6$), and $5x + 2$ fails $p(0) = 5$."
+  },
+  {
+    "id": "ma02-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Parallel lines",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph of $p(x)$ passes through $(2, 3)$ and $(6, 11)$. The graph of $q(x)$ is **parallel** to it and passes through $(4, -1)$. What is $q(x)$?",
+    "image": {
+      "src": "/img/maths02/graph-pq.svg",
+      "alt": "The graph of p(x) through (2, 3) and (6, 11), and a separate point (4, -1)"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2x + 7$"
+      },
+      {
+        "id": "b",
+        "text": "$-2x + 7$"
+      },
+      {
+        "id": "c",
+        "text": "$2x - 1$"
+      },
+      {
+        "id": "d",
+        "text": "$2x - 9$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find the slope of $p$ first. Parallel lines share the same slope.",
+    "explanation": "Slope of $p = \\dfrac{11 - 3}{6 - 2} = 2$, so $p(x) = 2x - 1$. Then $q(x) = 2x + d$ with $-1 = 8 + d$, so $d = -9$ and $q(x) = 2x - 9$. $2x + 7$ comes from a sign slip, $-2x + 7$ passes through $(4, -1)$ but is not parallel, and $2x - 1$ is $p$ itself. The lines meet the $x$-axis at $(0.5, 0)$ for $p$ and $(4.5, 0)$ for $q$."
+  },
+  {
+    "id": "ma02-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear functions",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Every linear function $f(x) = ax + a$ with $a > 0$ (for example $2x + 2$ or $3x + 3$) has a graph that passes through one common point. Tap that point.",
+    "image": {
+      "src": "/img/maths02/axes-points.svg",
+      "alt": "Coordinate axes with five marked points near the origin"
+    },
+    "spots": [
+      {
+        "id": "m10",
+        "x": 38.5,
+        "y": 48.6,
+        "label": "(−1, 0)"
+      },
+      {
+        "id": "o",
+        "x": 51.5,
+        "y": 48.6,
+        "label": "(0, 0)"
+      },
+      {
+        "id": "p10",
+        "x": 64.5,
+        "y": 48.6,
+        "label": "(1, 0)"
+      },
+      {
+        "id": "p01",
+        "x": 51.5,
+        "y": 34.6,
+        "label": "(0, 1)"
+      },
+      {
+        "id": "m01",
+        "x": 51.5,
+        "y": 62.7,
+        "label": "(0, −1)"
+      }
+    ],
+    "answer": "m10",
+    "hint": "Factorise: $ax + a = a(x + 1)$. When is that zero for every $a$?",
+    "explanation": "$f(x) = a(x + 1)$, so $f(-1) = 0$ whatever $a$ is: every such line passes through $(-1, 0)$. $(0, 1)$ is only on $x + 1$ (the $y$-intercept is $a$, which changes), $(0, 0)$ would need $a = 0$, and $f(1) = 2a$, never 0. All these lines also have a positive slope, so they all show **linear growth**."
+  },
+  {
+    "id": "ma02-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Linear Polynomials",
+    "chapterNo": 2,
+    "topic": "Linear equations",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The two digits of a two-digit number differ by 5. When the digits are swapped and the new number is added to the original, the sum is **121**. Which pair could be the original and swapped numbers?",
+    "image": {
+      "src": "/img/maths02/digit-swap.svg",
+      "alt": "Two digit cards a and b swapping places, with ab + ba = 121"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "83 and 38"
+      },
+      {
+        "id": "b",
+        "text": "94 and 49"
+      },
+      {
+        "id": "c",
+        "text": "72 and 27"
+      },
+      {
+        "id": "d",
+        "text": "61 and 16"
+      }
+    ],
+    "answer": "a",
+    "hint": "$(10a + b) + (10b + a) = 11(a + b)$.",
+    "explanation": "$11(a + b) = 121$, so $a + b = 11$. With $a - b = 5$: $2a = 16$, $a = 8$, $b = 3$, giving 83 and 38 ($83 + 38 = 121$ ✓). The other pairs also have digits differing by 5, but $94 + 49 = 143$, $72 + 27 = 99$ and $61 + 16 = 77$."
+  }
+]

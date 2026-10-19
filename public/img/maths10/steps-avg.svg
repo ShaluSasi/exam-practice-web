@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" role="img" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2B2F4A">
+<title>Two groups with their means and sizes, being combined into one large group</title>
+<style>.ar{animation:a 2s ease-in-out infinite}@keyframes a{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="320" y="26" text-anchor="middle" font-size="16" fill="#2B2F4A">Combining two groups</text>
+<rect x="40" y="55" width="200" height="90" rx="4" fill="#CDEBFA" stroke="#2B2F4A" stroke-width="2"/><text x="140" y="90" text-anchor="middle" font-size="15" fill="#2B2F4A">Group 1</text><text x="140" y="115" text-anchor="middle" font-size="14" fill="#2B2F4A">mean a, size n</text>
+<rect x="280" y="55" width="200" height="90" rx="4" fill="#FFE3C2" stroke="#2B2F4A" stroke-width="2"/><text x="380" y="90" text-anchor="middle" font-size="15" fill="#2B2F4A">Group 2</text><text x="380" y="115" text-anchor="middle" font-size="14" fill="#2B2F4A">mean b, size m</text>
+<g class="ar"><polygon points="495,85 530,85 530,70 560,100 530,130 530,115 495,115" fill="#F6C453" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g>
+<rect x="570" y="70" width="55" height="60" rx="8" fill="#CFEBD1" stroke="#2B2F4A" stroke-width="2"/><text x="597" y="105" text-anchor="middle" font-size="22" fill="#2B2F4A">?</text><text x="320" y="190" text-anchor="middle" font-size="14" fill="#2B2F4A">What is the mean of all n + m values together?</text>
+</svg>

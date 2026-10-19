@@ -1,0 +1,2227 @@
+[
+  {
+    "id": "ma01-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Grids in history",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A city of the **Sindhu-Sarasvatī Civilisation** was built like a grid, with streets running North–South and East–West at regular gaps. Roughly how far apart were these streets?",
+    "image": {
+      "src": "/img/maths01/ancient-grid.svg",
+      "alt": "Animation of a cart moving along the streets of a town laid out as a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "About 1 m"
+      },
+      {
+        "id": "b",
+        "text": "About 10 m"
+      },
+      {
+        "id": "c",
+        "text": "About 100 m"
+      },
+      {
+        "id": "d",
+        "text": "About 1 km"
+      }
+    ],
+    "answer": "b",
+    "hint": "Picture the length of two or three cars parked end to end.",
+    "explanation": "The streets were laid out with striking precision in **North–South and East–West** directions, about **10 metres** apart. A merchant could find a shop by counting units of distance North–South and East–West from the city centre — a **coordinate system in practice**."
+  },
+  {
+    "id": "ma01-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Grids in history",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Early Indian astronomers measured the positions of all other places from the meridian through one city, their **zero line of longitude**. Arabic geographers later called this reference 'Arin'. Which city was it?",
+    "image": {
+      "src": "/img/maths01/globe-meridian.svg",
+      "alt": "A stylised globe with one meridian line highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Pāṭaliputra"
+      },
+      {
+        "id": "b",
+        "text": "Takṣaśilā"
+      },
+      {
+        "id": "c",
+        "text": "Ujjayinī"
+      },
+      {
+        "id": "d",
+        "text": "Kāñcī"
+      }
+    ],
+    "answer": "c",
+    "hint": "The Greek writer Ptolemy listed this city as 'Ozine'.",
+    "explanation": "From at least the 4th century BCE, the early Siddhāntas used **Ujjayinī** as the central longitude meridian. When Brahmagupta's work was translated into Arabic (as the *Sindhind*), the Ujjayinī meridian entered Arabic geography as **'Arin'**, the zero-longitude reference for early Arabic maps."
+  },
+  {
+    "id": "ma01-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Grids in history",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each scholar with their contribution to the story of coordinates.",
+    "image": {
+      "src": "/img/maths01/astrolabe.svg",
+      "alt": "A brass astrolabe with a turning star map beside a manuscript scroll"
+    },
+    "left": [
+      {
+        "id": "brahma",
+        "text": "Brahmagupta"
+      },
+      {
+        "id": "arya",
+        "text": "Āryabhaṭa"
+      },
+      {
+        "id": "biruni",
+        "text": "Al-Bīrūnī"
+      },
+      {
+        "id": "khayyam",
+        "text": "Omar Khayyām"
+      },
+      {
+        "id": "descartes",
+        "text": "René Descartes"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Perfected the astrolabe, which let sailors find their coordinates from the stars"
+      },
+      {
+        "id": "r2",
+        "text": "Showed that any point in a plane is fixed by two distances from perpendicular axes"
+      },
+      {
+        "id": "r3",
+        "text": "Treated zero and negative numbers as algebraic entities"
+      },
+      {
+        "id": "r4",
+        "text": "Solved algebraic problems by interpreting them as coordinates in a plane"
+      },
+      {
+        "id": "r5",
+        "text": "Replaced Greek 'chords' with 'sines' and mapped the sky with celestial coordinates"
+      }
+    ],
+    "pairs": {
+      "brahma": "r3",
+      "arya": "r5",
+      "biruni": "r1",
+      "khayyam": "r4",
+      "descartes": "r2"
+    },
+    "hint": "The four-quadrant plane needs zero and negative numbers — whose work made those possible?",
+    "explanation": "**Brahmagupta** (c. 628 CE) formalised zero and negative numbers, which give us the origin and the negative axes. **Āryabhaṭa** (c. 499 CE) used sines and celestial coordinates. **Al-Bīrūnī** (c. 1000 CE) perfected the astrolabe. **Omar Khayyām** (c. 1100 CE) solved algebra using coordinates in the plane, and **Descartes** (1637 CE) formalised describing every point by two numbers."
+  },
+  {
+    "id": "ma01-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Grids in history",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these milestones in the history of coordinates from **earliest to latest**.",
+    "image": {
+      "src": "/img/maths01/timeline.svg",
+      "alt": "A timeline arrow from earlier to later with five empty slots"
+    },
+    "items": [
+      {
+        "id": "descartes",
+        "text": "Descartes fixes every point in a plane with two numbers"
+      },
+      {
+        "id": "biruni",
+        "text": "Al-Bīrūnī calculates the coordinates of cities across Asia"
+      },
+      {
+        "id": "arya",
+        "text": "Āryabhaṭa uses sines to find the coordinates of stars and cities"
+      },
+      {
+        "id": "khayyam",
+        "text": "Omar Khayyām solves algebra problems using coordinates"
+      },
+      {
+        "id": "brahma",
+        "text": "Brahmagupta formalises zero and negative numbers"
+      }
+    ],
+    "answer": [
+      "arya",
+      "brahma",
+      "biruni",
+      "khayyam",
+      "descartes"
+    ],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "Āryabhaṭa worked around 499 CE; Descartes published in 1637 CE.",
+    "explanation": "**Āryabhaṭa** (c. 499 CE) → **Brahmagupta** (c. 628 CE) → **Al-Bīrūnī** (c. 1000 CE) → **Omar Khayyām** (c. 1100 CE) → **Descartes** (1637 CE). The ideas travelled from India through Arabic scholarship and reached Europe in the 12th century."
+  },
+  {
+    "id": "ma01-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Grids in history",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths01/sky-ecliptic.svg",
+      "alt": "Animation of the sun moving along its path across a starry sky"
+    },
+    "assertion": "The Ujjayinī meridian served as the zero-longitude reference for early Arabic maps.",
+    "reason": "Āryabhaṭa replaced the Greek 'chords' with 'sines', making coordinates easier to calculate.",
+    "answer": "b",
+    "hint": "Both statements are historical facts from the chapter. Does the second one explain how Arabic maps got their zero line?",
+    "explanation": "Both are true. But A happened because **Brahmagupta's work was translated into Arabic**, carrying the Ujjayinī meridian ('Arin') with it. Āryabhaṭa's use of sines is a separate achievement in calculation, so R does not explain A."
+  },
+  {
+    "id": "ma01-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Floor plan of Reiaan's room",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Shalini's pin-and-thread sketch shows only the **floor** of Reiaan's room. Why can't the windows be marked on this sketch?",
+    "image": {
+      "src": "/img/maths01/room-3d.svg",
+      "alt": "A cartoon room with a grid on the floor, a door and a window on the wall"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A window is too small to show at a scale of 1 cm : 1 foot"
+      },
+      {
+        "id": "b",
+        "text": "A window has no corners that can be pinned"
+      },
+      {
+        "id": "c",
+        "text": "Only doors are allowed on a coordinate grid"
+      },
+      {
+        "id": "d",
+        "text": "A window is set at a height on the wall, and a floor plan has no direction for height"
+      }
+    ],
+    "answer": "d",
+    "hint": "How many numbers does a point on the floor plan need? What extra measurement does a window need?",
+    "explanation": "The floor plan is **two-dimensional**: each point needs just two numbers, its distances along the length and breadth of the floor. A window sits **above** the floor, so locating it needs a third measurement — its height. A door reaches the floor, so its gap shows in the outline of the room."
+  },
+  {
+    "id": "ma01-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Distances along the axes",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In this plan of Reiaan's room (1 unit = 1 ft), the room door runs along the x-axis from $D_1$ to $R_1(11.5, 0)$, and the bathroom door runs along the y-axis from $B_1(0, 1.5)$ to $B_2(0, 4)$. Read $D_1$ from the plan. Which statement is correct?",
+    "image": {
+      "src": "/img/maths01/room-plan.svg",
+      "alt": "Floor plan of a bedroom and bathroom on a coordinate grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Room door 3.5 ft wide; bathroom door 2.5 ft wide, so the bathroom door is narrower"
+      },
+      {
+        "id": "b",
+        "text": "Room door 11.5 ft wide; bathroom door 2.5 ft wide"
+      },
+      {
+        "id": "c",
+        "text": "Room door 19.5 ft wide; bathroom door 5.5 ft wide"
+      },
+      {
+        "id": "d",
+        "text": "Room door 3.5 ft wide; bathroom door 4 ft wide, so the bathroom door is wider"
+      }
+    ],
+    "answer": "a",
+    "hint": "Both ends of each door lie on the same axis, so subtract the coordinates that change.",
+    "explanation": "$D_1 = (8, 0)$, so the room door is $11.5 - 8 = 3.5$ ft wide — enough for most wheelchairs. The bathroom door is $4 - 1.5 = 2.5$ ft, so it is **1 ft narrower**. Reading one end only (11.5 ft or 4 ft) or **adding** the coordinates (19.5 ft, 5.5 ft) are the traps: a width is the **difference** of the end coordinates."
+  },
+  {
+    "id": "ma01-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Reading a plan",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point $(7, 2)$ on the plan of Reiaan's room.",
+    "image": {
+      "src": "/img/maths01/room-plan.svg",
+      "alt": "Floor plan of a bedroom and bathroom on a coordinate grid, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s27",
+        "x": 45.1,
+        "y": 32,
+        "label": "(2, 7)"
+      },
+      {
+        "id": "s32",
+        "x": 50.1,
+        "y": 72.5,
+        "label": "(3, 2)"
+      },
+      {
+        "id": "s72",
+        "x": 70.2,
+        "y": 72.5,
+        "label": "(7, 2)"
+      },
+      {
+        "id": "s655",
+        "x": 67.7,
+        "y": 48.2,
+        "label": "(6.5, 5)"
+      },
+      {
+        "id": "s658",
+        "x": 67.7,
+        "y": 23.9,
+        "label": "(6.5, 8)"
+      }
+    ],
+    "answer": "s72",
+    "hint": "The first number tells you how far to go right along the x-axis; the second tells you how far to go up.",
+    "explanation": "Go **7 units right** along the x-axis, then **2 units up**: you reach the front-right corner of the wardrobe. The point $(2, 7)$ uses the same numbers in the other order and lands on the bed — the order of coordinates matters."
+  },
+  {
+    "id": "ma01-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Completing a rectangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Reiaan's rectangular study table has three feet at $(8, 9)$, $(11, 9)$ and $(11, 7)$, shown as brown dots. Tap where the **fourth foot** must go.",
+    "image": {
+      "src": "/img/maths01/table-feet.svg",
+      "alt": "Part of the bedroom grid with three table feet marked and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "s115",
+        "x": 83.8,
+        "y": 75.5,
+        "label": "(11, 5)"
+      },
+      {
+        "id": "s78",
+        "x": 40.7,
+        "y": 34,
+        "label": "(7, 8)"
+      },
+      {
+        "id": "s87",
+        "x": 51.5,
+        "y": 47.8,
+        "label": "(8, 7)"
+      },
+      {
+        "id": "s59",
+        "x": 19.1,
+        "y": 20.1,
+        "label": "(5, 9)"
+      }
+    ],
+    "answer": "s87",
+    "hint": "The missing foot is straight below (8, 9) and straight to the left of (11, 7).",
+    "explanation": "The table's sides are parallel to the axes. The fourth foot shares its **x-coordinate with (8, 9)** and its **y-coordinate with (11, 7)**, so it is at $(8, 7)$. The marker at $(7, 8)$ has the coordinates swapped."
+  },
+  {
+    "id": "ma01-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Lengths on a plan",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Using the feet $(8, 9)$, $(11, 9)$ and $(11, 7)$ of the study table (1 unit = 1 ft), what can you say about the table's size?",
+    "image": {
+      "src": "/img/maths01/table-feet.svg",
+      "alt": "Part of the bedroom grid with three table feet marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "11 ft long and 9 ft wide; its height cannot be read from the plan"
+      },
+      {
+        "id": "b",
+        "text": "19 ft long and 16 ft wide; its height cannot be read from the plan"
+      },
+      {
+        "id": "c",
+        "text": "3 ft long and 2 ft wide; its height cannot be read from the plan"
+      },
+      {
+        "id": "d",
+        "text": "3 ft long, 2 ft wide and 9 ft high"
+      }
+    ],
+    "answer": "c",
+    "hint": "Find how far apart the feet are along each axis. Does a floor plan show height at all?",
+    "explanation": "Length $= 11 - 8 = 3$ ft and width $= 9 - 7 = 2$ ft. A floor plan is 2-D, so the **height cannot be found** from it. Reading a single coordinate (11 ft, 9 ft), **adding** coordinates (19 ft, 16 ft) or treating a y-coordinate as height are all mistakes."
+  },
+  {
+    "id": "ma01-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Coordinates in Quadrant II",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Reiaan's bathroom is the rectangle OFRP, 6 ft wide and 9 ft long, lying to the **left** of the y-axis with corner O at the origin. What are the coordinates of corner R?",
+    "image": {
+      "src": "/img/maths01/room-plan.svg",
+      "alt": "Floor plan of a bedroom and bathroom on a coordinate grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(-6, 9)$"
+      },
+      {
+        "id": "b",
+        "text": "$(6, 9)$"
+      },
+      {
+        "id": "c",
+        "text": "$(9, -6)$"
+      },
+      {
+        "id": "d",
+        "text": "$(-6, -9)$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Left of the y-axis means a negative x-coordinate; above the x-axis means a positive y-coordinate.",
+    "explanation": "R is **6 units left** of the y-axis ($x = -6$) and **9 units up** from the x-axis ($y = 9$), so $R = (-6, 9)$, in Quadrant II. $(6, 9)$ forgets the negative sign, $(9, -6)$ swaps the coordinates, and $(-6, -9)$ puts R below the x-axis."
+  },
+  {
+    "id": "ma01-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Area of the showering area",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The showering area SHWR in Reiaan's bathroom has corners $S(-6, 6)$, $H(-3, 6)$, $W(-2, 9)$ and $R(-6, 9)$ (1 unit = 1 ft). What is its floor area?",
+    "image": {
+      "src": "/img/maths01/shower-area.svg",
+      "alt": "Animation of water drops in the shaded showering area SHWR on the bathroom grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "21 sq ft"
+      },
+      {
+        "id": "b",
+        "text": "12 sq ft"
+      },
+      {
+        "id": "c",
+        "text": "9 sq ft"
+      },
+      {
+        "id": "d",
+        "text": "10.5 sq ft"
+      }
+    ],
+    "answer": "d",
+    "hint": "SH and RW are both horizontal. Which shape has exactly one pair of parallel sides?",
+    "explanation": "SH and RW lie on $y = 6$ and $y = 9$, so they are parallel and SHWR is a **trapezium**. $SH = -3 - (-6) = 3$ ft, $RW = -2 - (-6) = 4$ ft and the height is $9 - 6 = 3$ ft. $$\\text{Area} = \\tfrac{1}{2}(3 + 4) \\times 3 = 10.5\\ \\text{sq ft}$$ 21 forgets the $\\tfrac{1}{2}$; 12 treats it as a $4 \\times 3$ rectangle; 9 as a $3 \\times 3$ square."
+  },
+  {
+    "id": "ma01-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Door swing and clearance",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The bathroom door is hinged at $B_1(0, 1.5)$ and swings into the bedroom. The wardrobe's left side lies along $x = 3$, from $y = 0$ to $y = 2$. If the door were made wider, beyond what width would it start to hit the wardrobe?",
+    "image": {
+      "src": "/img/maths01/door-swing.svg",
+      "alt": "Animation of a door swinging open from the wall towards a wardrobe"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3 ft"
+      },
+      {
+        "id": "b",
+        "text": "1.5 ft"
+      },
+      {
+        "id": "c",
+        "text": "4 ft"
+      },
+      {
+        "id": "d",
+        "text": "7 ft"
+      }
+    ],
+    "answer": "a",
+    "hint": "When the door is fully open it sticks straight out along the line $y = 1.5$. How far is the wardrobe from the hinge along that line?",
+    "explanation": "Fully open, the door's free edge is at $(w, 1.5)$. Since $1.5$ lies between 0 and 2, that edge reaches the wardrobe when $w = 3 - 0 = 3$ ft. The present 2.5 ft door clears it by 0.5 ft. 1.5 ft is just the hinge's y-coordinate, 4 ft is the wardrobe's length and 7 ft its far side."
+  },
+  {
+    "id": "ma01-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Placing a table at the centre",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The dining room is 18 ft long, from $P(-6, 0)$ to $A(12, 0)$, and 15 ft wide, lying **below** the x-axis. A 5 ft × 3 ft table, long side parallel to the x-axis, stands exactly at the centre of the room. Where are its four feet?",
+    "image": {
+      "src": "/img/maths01/dining-room.svg",
+      "alt": "House plan with a dining room below the bedroom and a table at its centre"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(0.5, 6)$, $(5.5, 6)$, $(5.5, 9)$, $(0.5, 9)$"
+      },
+      {
+        "id": "b",
+        "text": "$(0.5, -6)$, $(5.5, -6)$, $(5.5, -9)$, $(0.5, -9)$"
+      },
+      {
+        "id": "c",
+        "text": "$(6.5, -6)$, $(11.5, -6)$, $(11.5, -9)$, $(6.5, -9)$"
+      },
+      {
+        "id": "d",
+        "text": "$(3, -7.5)$, $(8, -7.5)$, $(8, -10.5)$, $(3, -10.5)$"
+      }
+    ],
+    "answer": "b",
+    "hint": "First find the centre of the room: halfway from P to A, and halfway down the 15 ft width.",
+    "explanation": "Centre: $x = \\dfrac{-6 + 12}{2} = 3$, $y = -\\dfrac{15}{2} = -7.5$. The feet are $2.5$ ft left/right and $1.5$ ft up/down from $(3, -7.5)$: $x = 0.5$ or $5.5$, $y = -6$ or $-9$. Positive y-values put the room above the x-axis; centring at $x = 9$ measures half of 18 from O instead of from P; the last option puts a **corner** of the table, not its centre, at the room's centre."
+  },
+  {
+    "id": "ma01-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Plotting points",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point $(-4, 2)$.",
+    "image": {
+      "src": "/img/maths01/plane-dots.svg",
+      "alt": "A coordinate plane with five points and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 64.8,
+        "y": 84.6,
+        "label": "(2, −4)"
+      },
+      {
+        "id": "p2",
+        "x": 35.6,
+        "y": 14.9,
+        "label": "(−2, 4)"
+      },
+      {
+        "id": "p3",
+        "x": 21,
+        "y": 32.3,
+        "label": "(−4, 2)"
+      },
+      {
+        "id": "p4",
+        "x": 79.4,
+        "y": 32.3,
+        "label": "(4, 2)"
+      },
+      {
+        "id": "p5",
+        "x": 21,
+        "y": 67.2,
+        "label": "(−4, −2)"
+      }
+    ],
+    "answer": "p3",
+    "hint": "Start at O. The first number moves you left or right; the second moves you up or down.",
+    "explanation": "For $(-4, 2)$ move **4 units left** (negative x) and **2 units up** (positive y); the point is in Quadrant II. $(-2, 4)$ swaps the coordinates, $(4, 2)$ ignores the minus sign and $(-4, -2)$ goes down instead of up."
+  },
+  {
+    "id": "ma01-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Points on the axes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point $G(0, -4.5)$.",
+    "image": {
+      "src": "/img/maths01/plane-axes.svg",
+      "alt": "Coordinate axes with four points on them and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a1",
+        "x": 83.6,
+        "y": 49.8,
+        "label": "(4.5, 0)"
+      },
+      {
+        "id": "a2",
+        "x": 50.2,
+        "y": 9.8,
+        "label": "(0, 4.5)"
+      },
+      {
+        "id": "a3",
+        "x": 16.7,
+        "y": 49.8,
+        "label": "(−4.5, 0)"
+      },
+      {
+        "id": "a4",
+        "x": 50.2,
+        "y": 89.8,
+        "label": "(0, −4.5)"
+      }
+    ],
+    "answer": "a4",
+    "hint": "An x-coordinate of 0 means the point does not move left or right at all.",
+    "explanation": "With x-coordinate 0, G lies **on the y-axis**; $y = -4.5$ puts it 4.5 units **below** O, halfway between $-4$ and $-5$. $(-4.5, 0)$ is on the x-axis — the coordinates in the wrong order — and $(0, 4.5)$ is above O."
+  },
+  {
+    "id": "ma01-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Quadrants",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Every point in one region of the plane has a **negative x-coordinate** and a **positive y-coordinate**. Tap that region.",
+    "image": {
+      "src": "/img/maths01/plane-blank.svg",
+      "alt": "A blank coordinate plane with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "q4",
+        "x": 75.8,
+        "y": 75.9,
+        "label": "Quadrant IV"
+      },
+      {
+        "id": "q2",
+        "x": 24.7,
+        "y": 23.6,
+        "label": "Quadrant II"
+      },
+      {
+        "id": "q1",
+        "x": 75.8,
+        "y": 23.6,
+        "label": "Quadrant I"
+      },
+      {
+        "id": "q3",
+        "x": 24.7,
+        "y": 75.9,
+        "label": "Quadrant III"
+      }
+    ],
+    "answer": "q2",
+    "hint": "Negative x means left of the y-axis; positive y means above the x-axis.",
+    "explanation": "Points of the form **(−, +)** lie left of the y-axis and above the x-axis: **Quadrant II**. Quadrant I is (+, +), Quadrant III is (−, −) and Quadrant IV is (+, −)."
+  },
+  {
+    "id": "ma01-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Writing coordinates",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A ladybird starts at the origin, walks **6 units left**, then **4 units down**. What are the coordinates of the point where it stops?",
+    "image": {
+      "src": "/img/maths01/bug-walk.svg",
+      "alt": "Animation of a ladybird walking from the origin along a dashed path"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(-4, -6)$"
+      },
+      {
+        "id": "b",
+        "text": "$(6, 4)$"
+      },
+      {
+        "id": "c",
+        "text": "$(-6, -4)$"
+      },
+      {
+        "id": "d",
+        "text": "$(-6, 4)$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Left gives a negative x-coordinate, down gives a negative y-coordinate, and x is written first.",
+    "explanation": "Moving left makes $x = -6$ and moving down makes $y = -4$, so the ladybird stops at $(-6, -4)$ in Quadrant III. $(-4, -6)$ writes y first, $(6, 4)$ drops both signs and $(-6, 4)$ treats 'down' as positive."
+  },
+  {
+    "id": "ma01-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Order of coordinates",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths01/swap-points.svg",
+      "alt": "The points (2, 5) and (5, 2) plotted on a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2, 5)$ and $(5, 2)$ are different points."
+      },
+      {
+        "id": "b",
+        "text": "$(x, y) = (y, x)$ only when $x = y$."
+      },
+      {
+        "id": "c",
+        "text": "The x-coordinate of a point is its perpendicular distance from the **x-axis**."
+      },
+      {
+        "id": "d",
+        "text": "Every point on the y-axis has x-coordinate 0."
+      },
+      {
+        "id": "e",
+        "text": "Every point on the x-axis is of the form $(0, y)$."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Think about which axis you measure from when you read off the x-coordinate.",
+    "explanation": "Swapping coordinates gives a different point unless both are equal, so A and B are true. The x-coordinate is the distance from the **y-axis** (measured along the x-axis), so C is false. Points on the y-axis are $(0, y)$ — D is true — and points on the x-axis are $(x, 0)$, so E is false."
+  },
+  {
+    "id": "ma01-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Quadrants and signs",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each point with where it lies.",
+    "image": {
+      "src": "/img/maths01/quadrants.svg",
+      "alt": "A coordinate plane with its four quadrants named"
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "$(-4, 6)$"
+      },
+      {
+        "id": "p2",
+        "text": "$(5, -1)$"
+      },
+      {
+        "id": "p3",
+        "text": "$(-3, -7)$"
+      },
+      {
+        "id": "p4",
+        "text": "$(0, -8)$"
+      },
+      {
+        "id": "p5",
+        "text": "$(6, 0)$"
+      }
+    ],
+    "right": [
+      {
+        "id": "q1",
+        "text": "Quadrant I"
+      },
+      {
+        "id": "q2",
+        "text": "Quadrant II"
+      },
+      {
+        "id": "q3",
+        "text": "Quadrant III"
+      },
+      {
+        "id": "q4",
+        "text": "Quadrant IV"
+      },
+      {
+        "id": "xa",
+        "text": "On the x-axis"
+      },
+      {
+        "id": "ya",
+        "text": "On the y-axis"
+      }
+    ],
+    "pairs": {
+      "p1": "q2",
+      "p2": "q4",
+      "p3": "q3",
+      "p4": "ya",
+      "p5": "xa"
+    },
+    "hint": "Look at the signs: (+, +) I, (−, +) II, (−, −) III, (+, −) IV. A zero coordinate puts the point on an axis.",
+    "explanation": "$(-4, 6)$ is $(-, +)$: Quadrant II. $(5, -1)$ is $(+, -)$: Quadrant IV. $(-3, -7)$ is $(-, -)$: Quadrant III. $(0, -8)$ has $x = 0$, so it is on the **y-axis**; $(6, 0)$ has $y = 0$, so it is on the **x-axis**. Points on an axis belong to no quadrant."
+  },
+  {
+    "id": "ma01-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Quadrants and signs",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths01/plane-blank.svg",
+      "alt": "A blank coordinate plane"
+    },
+    "assertion": "The point $(-3, 0)$ lies in Quadrant II.",
+    "reason": "A point with a negative x-coordinate lies to the left of the y-axis.",
+    "answer": "d",
+    "hint": "Where does a point with y-coordinate 0 sit?",
+    "explanation": "R is true: negative x means left of the y-axis. But A is false: $(-3, 0)$ has y-coordinate 0, so it lies **on the x-axis**, and points on the axes do not belong to any quadrant."
+  },
+  {
+    "id": "ma01-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Points on the axes",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths01/plane-axes.svg",
+      "alt": "Coordinate axes with four points marked on them"
+    },
+    "assertion": "The point $(0, -6)$ lies on the y-axis, 6 units below the origin.",
+    "reason": "Every point on the y-axis has y-coordinate 0.",
+    "answer": "c",
+    "hint": "Which coordinate stays zero as you move up and down the y-axis?",
+    "explanation": "A is true: x-coordinate 0 puts the point on the y-axis, and $y = -6$ puts it 6 units below O. R is false: points on the y-axis have **x-coordinate 0**, of the form $(0, y)$. It is points on the x-axis that have y-coordinate 0."
+  },
+  {
+    "id": "ma01-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Lines parallel to the axes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Point W has x-coordinate $-5$. Point H lies on the line through W **parallel to the y-axis**. Which statement about H is correct?",
+    "image": {
+      "src": "/img/maths01/vertical-line.svg",
+      "alt": "Animation of point H sliding along a dashed line through point W"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$H = (x, -5)$; it can lie in Quadrant III or IV"
+      },
+      {
+        "id": "b",
+        "text": "$H = (-5, y)$; it can lie in Quadrant II or III, or on the x-axis"
+      },
+      {
+        "id": "c",
+        "text": "$H = (5, y)$; it can lie in Quadrant I or IV"
+      },
+      {
+        "id": "d",
+        "text": "$H = (-5, y)$; it can lie only in Quadrant II"
+      }
+    ],
+    "answer": "b",
+    "hint": "Along a line parallel to the y-axis, which coordinate never changes?",
+    "explanation": "A line parallel to the y-axis is vertical, so every point on it has the **same x-coordinate**, $-5$: $H = (-5, y)$. If $y > 0$ H is in Quadrant II, if $y < 0$ it is in Quadrant III, and if $y = 0$ it is on the x-axis. $(x, -5)$ describes a line parallel to the **x-axis** instead."
+  },
+  {
+    "id": "ma01-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Reading coordinates",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered point with its coordinates.",
+    "image": {
+      "src": "/img/maths01/plane-markers.svg",
+      "alt": "A coordinate plane with four numbered points",
+      "markers": [
+        {
+          "x": 21,
+          "y": 23.6,
+          "label": "1"
+        },
+        {
+          "x": 72.1,
+          "y": 84.6,
+          "label": "2"
+        },
+        {
+          "x": 79.4,
+          "y": 23.6,
+          "label": "3"
+        },
+        {
+          "x": 28.3,
+          "y": 84.6,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "m1",
+        "text": "Point 1"
+      },
+      {
+        "id": "m2",
+        "text": "Point 2"
+      },
+      {
+        "id": "m3",
+        "text": "Point 3"
+      },
+      {
+        "id": "m4",
+        "text": "Point 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "c1",
+        "text": "$(3, -4)$"
+      },
+      {
+        "id": "c2",
+        "text": "$(-4, 3)$"
+      },
+      {
+        "id": "c3",
+        "text": "$(3, 4)$"
+      },
+      {
+        "id": "c4",
+        "text": "$(-3, -4)$"
+      },
+      {
+        "id": "c5",
+        "text": "$(4, 3)$"
+      },
+      {
+        "id": "c6",
+        "text": "$(-4, -3)$"
+      }
+    ],
+    "pairs": {
+      "m1": "c2",
+      "m2": "c1",
+      "m3": "c5",
+      "m4": "c4"
+    },
+    "hint": "Read across to the x-axis first, then up or down to the y-axis.",
+    "explanation": "Point 1 is 4 left and 3 up: $(-4, 3)$. Point 2 is 3 right and 4 down: $(3, -4)$. Point 3 is 4 right and 3 up: $(4, 3)$. Point 4 is 3 left and 4 down: $(-3, -4)$. The extra options $(3, 4)$ and $(-4, -3)$ are what you get by swapping the coordinates."
+  },
+  {
+    "id": "ma01-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Plotting a quadrilateral",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The points $R(3, 0)$, $A(0, -2)$, $M(-5, -2)$ and $P(-5, 2)$ are joined in order to form RAMP. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths01/ramp-points.svg",
+      "alt": "Four points R, A, M and P plotted on a coordinate plane"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "AM is parallel to the x-axis."
+      },
+      {
+        "id": "b",
+        "text": "AM is perpendicular to MP."
+      },
+      {
+        "id": "c",
+        "text": "RA is parallel to the y-axis."
+      },
+      {
+        "id": "d",
+        "text": "M and P are mirror images of each other in the x-axis."
+      },
+      {
+        "id": "e",
+        "text": "M and P are mirror images of each other in the y-axis."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Two points with the same y-coordinate make a horizontal segment; the same x-coordinate, a vertical one.",
+    "explanation": "A and M share $y = -2$, so AM is horizontal (parallel to the x-axis). M and P share $x = -5$, so MP is vertical, and a horizontal and a vertical segment are **perpendicular**. $M(-5, -2)$ and $P(-5, 2)$ differ only in the sign of y, so they are mirror images in the **x-axis**, not the y-axis. RA joins $(3, 0)$ to $(0, -2)$, a slanting segment."
+  },
+  {
+    "id": "ma01-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Why negative numbers matter",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths01/plane-blank.svg",
+      "alt": "A blank coordinate plane"
+    },
+    "assertion": "Without negative numbers, a coordinate system could locate only the points in Quadrant I and on the positive parts of the axes.",
+    "reason": "Negative coordinates are needed to describe positions to the left of, or below, the origin.",
+    "answer": "a",
+    "hint": "Which three quadrants need at least one negative coordinate?",
+    "explanation": "Both are true, and R explains A. Quadrants II, III and IV and the negative halves of the axes all need at least one **negative** coordinate. That is why Brahmagupta's work on zero and negative numbers was essential for the four-quadrant Cartesian plane."
+  },
+  {
+    "id": "ma01-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Reflection in an axis",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Triangle ADM has vertices $A(3, 4)$, $D(7, 1)$ and $M(9, 6)$. It is reflected in the **x-axis**. Tap the image of M.",
+    "image": {
+      "src": "/img/maths01/reflect-x.svg",
+      "alt": "Triangle ADM on a coordinate plane with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "r1",
+        "x": 9.7,
+        "y": 12.1,
+        "label": "(−9, 6)"
+      },
+      {
+        "id": "r2",
+        "x": 81.7,
+        "y": 56,
+        "label": "(7, −1)"
+      },
+      {
+        "id": "r3",
+        "x": 90.7,
+        "y": 87.4,
+        "label": "(9, −6)"
+      },
+      {
+        "id": "r4",
+        "x": 63.7,
+        "y": 74.9,
+        "label": "(3, −4)"
+      },
+      {
+        "id": "r5",
+        "x": 9.7,
+        "y": 87.4,
+        "label": "(−9, −6)"
+      }
+    ],
+    "answer": "r3",
+    "hint": "Reflecting in the x-axis flips a point from above the axis to the same distance below it.",
+    "explanation": "Reflection in the x-axis keeps the x-coordinate and changes the sign of the y-coordinate: $M(9, 6) \\to (9, -6)$. $(-9, 6)$ is the reflection in the **y-axis**, $(-9, -6)$ reflects in both axes, and $(7, -1)$ and $(3, -4)$ are the images of D and A."
+  },
+  {
+    "id": "ma01-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Reflection preserves length",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths01/mirror-fold.svg",
+      "alt": "Animation of triangle ADM flipping across the y-axis onto its mirror image"
+    },
+    "assertion": "When $\\triangle ADM$ with $A(3, 4)$ and $D(7, 1)$ is reflected in the y-axis, the side $A'D'$ is still 5 units long.",
+    "reason": "Reflection in the y-axis only changes the sign of every x-coordinate, so the horizontal and vertical gaps between any two points keep their sizes.",
+    "answer": "a",
+    "hint": "Compute $A'D'$ using $A'(-3, 4)$ and $D'(-7, 1)$.",
+    "explanation": "$A'D' = \\sqrt{(-3 - (-7))^2 + (4 - 1)^2} = \\sqrt{4^2 + 3^2} = 5$, so A is true. R gives the reason: the gaps along the axes only change sign (if at all), and squaring removes the sign, so every **length is preserved**."
+  },
+  {
+    "id": "ma01-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Reflection preserves length",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "$\\triangle ADM$ in Quadrant I is reflected in the **y-axis** to give $\\triangle A'D'M'$. Which of these stay the **same**? Select all.",
+    "image": {
+      "src": "/img/maths01/mirror-fold.svg",
+      "alt": "Animation of triangle ADM flipping across the y-axis onto its mirror image"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The lengths of the sides"
+      },
+      {
+        "id": "b",
+        "text": "The y-coordinate of each vertex"
+      },
+      {
+        "id": "c",
+        "text": "The x-coordinate of each vertex"
+      },
+      {
+        "id": "d",
+        "text": "The area of the triangle"
+      },
+      {
+        "id": "e",
+        "text": "The quadrant the triangle lies in"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "A point $(x, y)$ reflected in the y-axis becomes $(-x, y)$.",
+    "explanation": "$(x, y) \\to (-x, y)$: the **y-coordinates stay the same** and the x-coordinates change sign, so the triangle moves from Quadrant I to Quadrant II. Its side lengths (5, $\\sqrt{29}$, $\\sqrt{40}$) and therefore its shape and **area** are unchanged."
+  },
+  {
+    "id": "ma01-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Finding a distance",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for finding the distance between $A(3, 4)$ and $D(7, 1)$ in order.",
+    "image": {
+      "src": "/img/maths01/distance-steps.svg",
+      "alt": "Animation of a right-angled triangle being drawn under segment AD"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Use the Baudhāyana–Pythagoras theorem: $AD^2 = 4^2 + 3^2 = 25$"
+      },
+      {
+        "id": "s1",
+        "text": "Mark $C(3, 1)$ so that ACD is a right-angled triangle"
+      },
+      {
+        "id": "s4",
+        "text": "Take the square root: AD = 5 units"
+      },
+      {
+        "id": "s2",
+        "text": "Find the shifts along the axes: $CD = 7 - 3 = 4$ and $AC = 4 - 1 = 3$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need a right angle before you can use the theorem about right-angled triangles.",
+    "explanation": "Drop to $C(3, 1)$ to make a right angle, measure the horizontal shift $CD = 4$ and the vertical shift $AC = 3$, then $AD = \\sqrt{4^2 + 3^2} = \\sqrt{25} = 5$ units. This is exactly the distance formula $\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$."
+  },
+  {
+    "id": "ma01-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find the distance between $P(2, 1)$ and $Q(8, 9)$.",
+    "image": {
+      "src": "/img/maths01/distance-pq.svg",
+      "alt": "Animation of a segment being drawn from P to Q on a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10 units"
+      },
+      {
+        "id": "b",
+        "text": "14 units"
+      },
+      {
+        "id": "c",
+        "text": "100 units"
+      },
+      {
+        "id": "d",
+        "text": "$10\\sqrt{2}$ units"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find the horizontal and vertical shifts first, then use the Baudhāyana–Pythagoras theorem.",
+    "explanation": "$$PQ = \\sqrt{(8 - 2)^2 + (9 - 1)^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$$ 14 adds the shifts $6 + 8$ without squaring, 100 forgets the square root, and $10\\sqrt{2}$ comes from **adding** the coordinates ($2 + 8$, $1 + 9$) instead of subtracting."
+  },
+  {
+    "id": "ma01-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Distance with negative coordinates",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find the distance between $K(-3, 4)$ and $L(2, -8)$.",
+    "image": {
+      "src": "/img/maths01/distance-kl.svg",
+      "alt": "Animation of a segment being drawn between K and L in different quadrants"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sqrt{41}$ units"
+      },
+      {
+        "id": "b",
+        "text": "17 units"
+      },
+      {
+        "id": "c",
+        "text": "13 units"
+      },
+      {
+        "id": "d",
+        "text": "$\\sqrt{145}$ units"
+      }
+    ],
+    "answer": "c",
+    "hint": "Be careful with signs: $2 - (-3)$ is not $2 - 3$.",
+    "explanation": "Shifts: $2 - (-3) = 5$ and $-8 - 4 = -12$. $$KL = \\sqrt{5^2 + (-12)^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$$ $\\sqrt{145}$ uses $2 - 3 = -1$ (sign slip in x), $\\sqrt{41}$ uses $-8 + 4 = -4$ (sign slip in y), and 17 just adds $5 + 12$."
+  },
+  {
+    "id": "ma01-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of points with the expression that gives the distance between them.",
+    "image": {
+      "src": "/img/maths01/segment-kinds.svg",
+      "alt": "Four coloured segments: horizontal, vertical, slanting, and one starting at the origin"
+    },
+    "left": [
+      {
+        "id": "h",
+        "text": "$(x_1, y)$ and $(x_2, y)$"
+      },
+      {
+        "id": "v",
+        "text": "$(x, y_1)$ and $(x, y_2)$"
+      },
+      {
+        "id": "g",
+        "text": "$(x_1, y_1)$ and $(x_2, y_2)$"
+      },
+      {
+        "id": "o",
+        "text": "$(x, y)$ and the origin"
+      }
+    ],
+    "right": [
+      {
+        "id": "e1",
+        "text": "$\\sqrt{x^2 + y^2}$"
+      },
+      {
+        "id": "e2",
+        "text": "$|x_2 - x_1|$"
+      },
+      {
+        "id": "e3",
+        "text": "$(x_2 - x_1) + (y_2 - y_1)$"
+      },
+      {
+        "id": "e4",
+        "text": "$\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$"
+      },
+      {
+        "id": "e5",
+        "text": "$|y_2 - y_1|$"
+      }
+    ],
+    "pairs": {
+      "h": "e2",
+      "v": "e5",
+      "g": "e4",
+      "o": "e1"
+    },
+    "hint": "Points with the same y-coordinate lie on a horizontal line, so only the x-coordinates differ.",
+    "explanation": "On a horizontal line the distance is $|x_2 - x_1|$; on a vertical line it is $|y_2 - y_1|$. In general, the Baudhāyana–Pythagoras theorem gives $\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$, which becomes $\\sqrt{x^2 + y^2}$ when one point is $(0, 0)$. Simply adding the shifts is not a distance."
+  },
+  {
+    "id": "ma01-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of points with the distance between them.",
+    "image": {
+      "src": "/img/maths01/ruler.svg",
+      "alt": "Animation of a ruler laid along a slanting segment on squared paper"
+    },
+    "left": [
+      {
+        "id": "a",
+        "text": "$(0, 0)$ and $(6, 8)$"
+      },
+      {
+        "id": "b",
+        "text": "$(-2, 3)$ and $(3, -9)$"
+      },
+      {
+        "id": "c",
+        "text": "$(1, -1)$ and $(9, 14)$"
+      },
+      {
+        "id": "d",
+        "text": "$(-4, -4)$ and $(-1, 0)$"
+      }
+    ],
+    "right": [
+      {
+        "id": "d5",
+        "text": "5 units"
+      },
+      {
+        "id": "d7",
+        "text": "7 units"
+      },
+      {
+        "id": "d10",
+        "text": "10 units"
+      },
+      {
+        "id": "d13",
+        "text": "13 units"
+      },
+      {
+        "id": "d17",
+        "text": "17 units"
+      }
+    ],
+    "pairs": {
+      "a": "d10",
+      "b": "d13",
+      "c": "d17",
+      "d": "d5"
+    },
+    "hint": "Find the two shifts each time; they form a famous right-triangle triple.",
+    "explanation": "$\\sqrt{6^2 + 8^2} = 10$; $\\sqrt{5^2 + 12^2} = 13$; $\\sqrt{8^2 + 15^2} = 17$; $\\sqrt{3^2 + 4^2} = 5$. The 7 is a trap: it is $3 + 4$, what you get by adding the shifts instead of using the theorem."
+  },
+  {
+    "id": "ma01-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Distance from the origin",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these points from **nearest to farthest** from the origin.",
+    "image": {
+      "src": "/img/maths01/radar.svg",
+      "alt": "Animation of a radar sweep over rings around the origin"
+    },
+    "items": [
+      {
+        "id": "p5",
+        "text": "$(5, 5)$"
+      },
+      {
+        "id": "p2",
+        "text": "$(0, -3)$"
+      },
+      {
+        "id": "p4",
+        "text": "$(-6, 0)$"
+      },
+      {
+        "id": "p1",
+        "text": "$(1, -1)$"
+      },
+      {
+        "id": "p3",
+        "text": "$(-3, 4)$"
+      }
+    ],
+    "answer": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5"
+    ],
+    "startLabel": "Nearest",
+    "endLabel": "Farthest",
+    "hint": "Use $\\sqrt{x^2 + y^2}$. You can compare $x^2 + y^2$ without taking square roots.",
+    "explanation": "Squared distances: $(1, -1) \\to 2$, $(0, -3) \\to 9$, $(-3, 4) \\to 25$, $(-6, 0) \\to 36$, $(5, 5) \\to 50$. So the distances are $\\sqrt{2} \\approx 1.41$, 3, 5, 6 and $\\sqrt{50} \\approx 7.07$. Negative signs don't matter because each coordinate is squared."
+  },
+  {
+    "id": "ma01-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Right triangle on the plane",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Plot $Z(5, -6)$ and choose $I(0, 0)$ and $N(5, 0)$ to make a right-angled triangle IZN. What are the lengths of its sides?",
+    "image": {
+      "src": "/img/maths01/z-triangle.svg",
+      "alt": "Right-angled triangle IZN drawn on the coordinate plane"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5, 6 and 11 units"
+      },
+      {
+        "id": "b",
+        "text": "5, 6 and 61 units"
+      },
+      {
+        "id": "c",
+        "text": "5, 6 and $\\sqrt{11}$ units"
+      },
+      {
+        "id": "d",
+        "text": "5, 6 and $\\sqrt{61}$ units"
+      }
+    ],
+    "answer": "d",
+    "hint": "IN lies along the x-axis and NZ is vertical. Use the theorem for IZ.",
+    "explanation": "$IN = 5 - 0 = 5$, $NZ = 0 - (-6) = 6$, and $$IZ = \\sqrt{5^2 + 6^2} = \\sqrt{25 + 36} = \\sqrt{61} \\approx 7.81$$ 11 adds the legs, 61 forgets the square root, and $\\sqrt{11}$ adds the legs before squaring."
+  },
+  {
+    "id": "ma01-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Special triangles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Each triangle has the origin O as one vertex. Which one is **right-angled and isosceles**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O, $(4, 0)$, $(0, 2)$",
+        "image": {
+          "src": "/img/maths01/tri-b.svg",
+          "alt": "Triangle with vertices O, (4, 0) and (0, 2)"
+        }
+      },
+      {
+        "id": "b",
+        "text": "O, $(4, 0)$, $(2, 3)$",
+        "image": {
+          "src": "/img/maths01/tri-c.svg",
+          "alt": "Triangle with vertices O, (4, 0) and (2, 3)"
+        }
+      },
+      {
+        "id": "c",
+        "text": "O, $(4, 0)$, $(0, 4)$",
+        "image": {
+          "src": "/img/maths01/tri-a.svg",
+          "alt": "Triangle with vertices O, (4, 0) and (0, 4)"
+        }
+      },
+      {
+        "id": "d",
+        "text": "O, $(-3, -4)$, $(3, -4)$",
+        "image": {
+          "src": "/img/maths01/tri-d.svg",
+          "alt": "Triangle with vertices O, (−3, −4) and (3, −4)"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "A right angle at O needs both other vertices on the axes; isosceles needs two equal sides.",
+    "explanation": "In $O, (4, 0), (0, 4)$ both legs lie on the axes (so the angle at O is $90^\\circ$) and both are 4 units: **right-angled and isosceles**. $O, (4, 0), (0, 2)$ is right-angled but its legs are 4 and 2. $O, (4, 0), (2, 3)$ has two sides of $\\sqrt{13}$ but no right angle. $O, (-3, -4), (3, -4)$ is isosceles (5, 5, 6) with vertices in Quadrants III and IV, but not right-angled."
+  },
+  {
+    "id": "ma01-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Points on a circle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "$A(1, -8)$, $B(-4, 7)$ and $C(-7, -4)$ all lie on a circle K centred at the origin. What is the radius of K?",
+    "image": {
+      "src": "/img/maths01/circle-abc.svg",
+      "alt": "Circle K centred at the origin with points A, B and C on it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "65 units"
+      },
+      {
+        "id": "b",
+        "text": "9 units"
+      },
+      {
+        "id": "c",
+        "text": "$\\sqrt{65}$ units"
+      },
+      {
+        "id": "d",
+        "text": "$\\sqrt{63}$ units"
+      }
+    ],
+    "answer": "c",
+    "hint": "The radius is the distance from $(0, 0)$ to any one of the points: $\\sqrt{x^2 + y^2}$.",
+    "explanation": "$OA^2 = 1 + 64 = 65$, $OB^2 = 16 + 49 = 65$, $OC^2 = 49 + 16 = 65$. All three are equally far from O, so they lie on one circle of radius $\\sqrt{65} \\approx 8.06$ units. 65 forgets the square root, 9 adds $1 + 8$, and $\\sqrt{63}$ subtracts $64 - 1$."
+  },
+  {
+    "id": "ma01-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Inside, on or outside a circle",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Circle K is centred at the origin with radius $\\sqrt{65}$. The marked points are $(7, 4)$, $(5, -6)$, $(-6, 6)$, $(-7, -3)$ and $(-4, -7)$. Tap the only point that lies **outside** K.",
+    "image": {
+      "src": "/img/maths01/circle-test.svg",
+      "alt": "Circle K centred at the origin with five points near it and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "c1",
+        "x": 81.5,
+        "y": 31.8,
+        "label": "(7, 4): on K"
+      },
+      {
+        "id": "c2",
+        "x": 72.6,
+        "y": 76.7,
+        "label": "(5, −6): inside K"
+      },
+      {
+        "id": "c3",
+        "x": 19.4,
+        "y": 63.3,
+        "label": "(−7, −3): inside K"
+      },
+      {
+        "id": "c4",
+        "x": 23.8,
+        "y": 22.9,
+        "label": "(−6, 6): outside K"
+      },
+      {
+        "id": "c5",
+        "x": 32.7,
+        "y": 81.2,
+        "label": "(−4, −7): on K"
+      }
+    ],
+    "answer": "c4",
+    "hint": "Compare $x^2 + y^2$ with $65$: less means inside, equal means on, more means outside.",
+    "explanation": "$(7, 4)$: $49 + 16 = 65$, on K. $(5, -6)$: $25 + 36 = 61$, inside. $(-7, -3)$: $49 + 9 = 58$, inside. $(-4, -7)$: $16 + 49 = 65$, on K. $(-6, 6)$: $36 + 36 = 72 > 65$, so it is **outside** (distance $\\approx 8.49$ against radius $\\approx 8.06$)."
+  },
+  {
+    "id": "ma01-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Checking collinearity",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Do $R(-5, -1)$, $B(-2, -5)$ and $C(4, -12)$ lie on one straight line?",
+    "image": {
+      "src": "/img/maths01/collinear-rbc.svg",
+      "alt": "Three points R, B and C plotted on a coordinate plane"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "No: $RB + BC \\approx 14.22$, which is more than $RC \\approx 14.21$"
+      },
+      {
+        "id": "b",
+        "text": "Yes: RB + BC is exactly equal to RC"
+      },
+      {
+        "id": "c",
+        "text": "Yes: all three points lie in Quadrant III"
+      },
+      {
+        "id": "d",
+        "text": "No: points in different quadrants can never be on one line"
+      }
+    ],
+    "answer": "a",
+    "hint": "If B were on segment RC, the two shorter distances would add up exactly to the longest one.",
+    "explanation": "$RB = \\sqrt{3^2 + 4^2} = 5$, $BC = \\sqrt{6^2 + 7^2} = \\sqrt{85} \\approx 9.22$, $RC = \\sqrt{9^2 + 11^2} = \\sqrt{202} \\approx 14.21$. Since $5 + 9.22 \\approx 14.22 \\ne 14.21$, the points are **not collinear** — very close, which is why plotting alone can mislead. C is in Quadrant IV, and points in different quadrants certainly can be collinear."
+  },
+  {
+    "id": "ma01-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Checking collinearity",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to check, **without plotting**, that $M(-3, -4)$, $A(0, 0)$ and $G(6, 8)$ lie on one straight line.",
+    "image": {
+      "src": "/img/maths01/collinear-mag.svg",
+      "alt": "Animation of a straight line being drawn through points M, A and G"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Add the two shorter distances: 5 + 10 = 15"
+      },
+      {
+        "id": "s1",
+        "text": "Find all three distances: MA = 5, AG = 10, MG = 15"
+      },
+      {
+        "id": "s4",
+        "text": "The sum equals MG, so A lies on segment MG: the points are collinear"
+      },
+      {
+        "id": "s2",
+        "text": "Pick out the longest distance, MG"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot choose the longest distance until you have worked all of them out.",
+    "explanation": "$MA = \\sqrt{3^2 + 4^2} = 5$, $AG = \\sqrt{6^2 + 8^2} = 10$, $MG = \\sqrt{9^2 + 12^2} = 15$. The longest is MG, and $5 + 10 = 15$ exactly, so the path M → A → G is no longer than the direct route: A lies **on** MG and the three points are collinear."
+  },
+  {
+    "id": "ma01-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Midpoints",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In which rows is M the **midpoint** of segment ST? Select all.",
+    "image": {
+      "src": "/img/maths01/seesaw.svg",
+      "alt": "Animation of two children on a seesaw balanced at its middle point M"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$S(-3, 0)$, $M(0, 0)$, $T(3, 0)$"
+      },
+      {
+        "id": "b",
+        "text": "$S(2, 3)$, $M(3, 4)$, $T(4, 5)$"
+      },
+      {
+        "id": "c",
+        "text": "$S(0, 0)$, $M(0, 5)$, $T(0, -10)$"
+      },
+      {
+        "id": "d",
+        "text": "$S(-8, 7)$, $M(0, -2)$, $T(6, -3)$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b"
+    ],
+    "hint": "The midpoint's coordinates are the averages of the end-points' coordinates.",
+    "explanation": "Midpoint $= \\left(\\dfrac{x_1 + x_2}{2}, \\dfrac{y_1 + y_2}{2}\\right)$. Row A gives $(0, 0)$ ✓ and row B gives $(3, 4)$ ✓. Row C gives $(0, -5)$, not $(0, 5)$ — a sign slip. Row D gives $(-1, 2)$, not $(0, -2)$."
+  },
+  {
+    "id": "ma01-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Midpoints",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "$M(-7, 1)$ is the midpoint of $A(3, -4)$ and $B(x, y)$. Find B.",
+    "image": {
+      "src": "/img/maths01/midpoint-find.svg",
+      "alt": "Points A and M with a dashed arrow from A through M towards an unknown point B"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(-2, -1.5)$"
+      },
+      {
+        "id": "b",
+        "text": "$(-17, 6)$"
+      },
+      {
+        "id": "c",
+        "text": "$(-10, 5)$"
+      },
+      {
+        "id": "d",
+        "text": "$(17, -6)$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use $\\dfrac{3 + x}{2} = -7$ and $\\dfrac{-4 + y}{2} = 1$.",
+    "explanation": "$3 + x = -14 \\Rightarrow x = -17$ and $-4 + y = 2 \\Rightarrow y = 6$, so $B = (-17, 6)$. Check: $\\left(\\dfrac{3 - 17}{2}, \\dfrac{-4 + 6}{2}\\right) = (-7, 1)$ ✓. $(-2, -1.5)$ is the midpoint of A and M, $(-10, 5)$ is only the step from A to M, and $(17, -6)$ has both signs flipped."
+  },
+  {
+    "id": "ma01-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Points of trisection",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "P and Q divide the segment from $A(4, 7)$ to $B(16, -2)$ into **three equal parts**, with P closer to A. Tap P.",
+    "image": {
+      "src": "/img/maths01/trisection.svg",
+      "alt": "Segment AB with several points marked along it and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "t3",
+        "x": 60.4,
+        "y": 49.5,
+        "label": "(10, 2.5): midpoint"
+      },
+      {
+        "id": "t4",
+        "x": 70.5,
+        "y": 61.4,
+        "label": "(12, 1): point Q"
+      },
+      {
+        "id": "t2",
+        "x": 50.3,
+        "y": 37.6,
+        "label": "(8, 4): point P"
+      },
+      {
+        "id": "t1",
+        "x": 40.3,
+        "y": 25.7,
+        "label": "(6, 5.5): one-sixth of the way"
+      }
+    ],
+    "answer": "t2",
+    "hint": "From A to B, x changes by 12 and y by $-9$. P is one-third of the way along.",
+    "explanation": "One-third of the change is $\\left(\\dfrac{12}{3}, \\dfrac{-9}{3}\\right) = (4, -3)$, so $P = (4 + 4, 7 - 3) = (8, 4)$ and $Q = (12, 1)$. Check: P is the midpoint of A and Q, since $\\left(\\dfrac{4 + 12}{2}, \\dfrac{7 + 1}{2}\\right) = (8, 4)$. $(10, 2.5)$ is the midpoint of AB, not a trisection point."
+  },
+  {
+    "id": "ma01-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Triangle from its midpoints",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, $D(5, 1)$ is the midpoint of BC, $E(6, 5)$ of CA and $F(0, 3)$ of AB. Find the vertices.",
+    "image": {
+      "src": "/img/maths01/midpoints-def.svg",
+      "alt": "Three midpoints D, E and F joined by a dashed triangle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$A(11, 3)$, $B(1, 7)$, $C(-1, -1)$"
+      },
+      {
+        "id": "b",
+        "text": "$A(5.5, 3)$, $B(3, 4)$, $C(2.5, 2)$"
+      },
+      {
+        "id": "c",
+        "text": "$A(10, 2)$, $B(12, 10)$, $C(0, 6)$"
+      },
+      {
+        "id": "d",
+        "text": "$A(1, 7)$, $B(-1, -1)$, $C(11, 3)$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Adding the two midpoints next to A and subtracting the one opposite A gives A: $A = E + F - D$.",
+    "explanation": "$A = E + F - D = (6 + 0 - 5, 5 + 3 - 1) = (1, 7)$, $B = D + F - E = (-1, -1)$, $C = D + E - F = (11, 3)$. Check: midpoint of BC $= \\left(\\dfrac{-1 + 11}{2}, \\dfrac{-1 + 3}{2}\\right) = (5, 1) = D$ ✓. The first option mixes up which vertex is opposite which midpoint, the second takes midpoints of DEF, and the third just doubles D, E and F."
+  },
+  {
+    "id": "ma01-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "City street model",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A city has **10 streets** running North–South and **10 streets** running East–West, 200 m apart. Intersection (4, 3) means the 4th N–S street meets the 3rd E–W street. How many intersections are there in all, and how many can be called (4, 3)?",
+    "image": {
+      "src": "/img/maths01/town-grid.svg",
+      "alt": "Animation of a car driving through a model city with ten streets in each direction"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "20 in all; exactly one"
+      },
+      {
+        "id": "b",
+        "text": "100 in all; exactly one"
+      },
+      {
+        "id": "c",
+        "text": "100 in all; two, since (3, 4) is the same crossing"
+      },
+      {
+        "id": "d",
+        "text": "81 in all; exactly one"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each N–S street crosses every E–W street once.",
+    "explanation": "Each of the 10 N–S streets crosses each of the 10 E–W streets, giving $10 \\times 10 = 100$ intersections. Only **one** crossing is (4, 3); (3, 4) is a different crossing (3rd N–S street, 4th E–W street) — order matters, just as for coordinates. 20 adds instead of multiplies; 81 counts the gaps ($9 \\times 9$), not the streets."
+  },
+  {
+    "id": "ma01-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "City street model",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In this model city, N–S streets are numbered from the west and E–W streets from the south. Tap the intersection **(2, 5)** — the 2nd N–S street meeting the 5th E–W street.",
+    "image": {
+      "src": "/img/maths01/town-grid.svg",
+      "alt": "A model city with ten streets in each direction and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "i52",
+        "x": 46.8,
+        "y": 79.1,
+        "label": "(5, 2)"
+      },
+      {
+        "id": "i36",
+        "x": 29.2,
+        "y": 43.1,
+        "label": "(3, 6)"
+      },
+      {
+        "id": "i25",
+        "x": 20.4,
+        "y": 52.1,
+        "label": "(2, 5)"
+      },
+      {
+        "id": "i63",
+        "x": 55.6,
+        "y": 70.1,
+        "label": "(6, 3)"
+      }
+    ],
+    "answer": "i25",
+    "hint": "N–S streets run up and down the page; count them from the left.",
+    "explanation": "The 2nd N–S street is the second vertical line from the west; follow it up to the 5th E–W (horizontal) street. (5, 2) swaps the two numbers, and (3, 6) is what you get by counting the first street as zero."
+  },
+  {
+    "id": "ma01-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Coordinates on a screen",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A screen is 800 pixels wide and 600 pixels high, with the origin at its bottom-left corner. Icon A is a circle of radius 80 px centred at (100, 150); icon B is a circle of radius 100 px centred at (250, 230). Which statement is correct?",
+    "image": {
+      "src": "/img/maths01/screen-icons.svg",
+      "alt": "A computer screen with two circular icons A and B"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Both fit on the screen; they don't meet, because the centres are 230 px apart"
+      },
+      {
+        "id": "b",
+        "text": "Circle B goes off the top of the screen, and the circles overlap"
+      },
+      {
+        "id": "c",
+        "text": "Both fit on the screen; they don't meet, because 170 px is more than the radius 100 px"
+      },
+      {
+        "id": "d",
+        "text": "Both fit on the screen, and they overlap: the centres are 170 px apart, less than 80 + 100 = 180 px"
+      }
+    ],
+    "answer": "d",
+    "hint": "Check each circle's leftmost, rightmost, lowest and highest points. Then compare the distance between centres with the sum of the radii.",
+    "explanation": "A spans $x$ 20 to 180 and $y$ 70 to 230; B spans $x$ 150 to 350 and $y$ 130 to 330 — both inside $800 \\times 600$. Distance between centres $= \\sqrt{150^2 + 80^2} = \\sqrt{28{,}900} = 170$ px, less than $80 + 100 = 180$, so the circles **overlap**. 230 adds $150 + 80$; comparing 170 with only one radius ignores the other circle."
+  },
+  {
+    "id": "ma01-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Square on the plane",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "$A(2, 1)$, $B(-1, 2)$, $C(-2, -1)$ and $D(1, -2)$ form a square. What is its area?",
+    "image": {
+      "src": "/img/maths01/square-abcd.svg",
+      "alt": "Animation of quadrilateral ABCD turning about the origin"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10 square units"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt{10}$ square units"
+      },
+      {
+        "id": "c",
+        "text": "16 square units"
+      },
+      {
+        "id": "d",
+        "text": "20 square units"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find the length of one side, then square it.",
+    "explanation": "$AB = \\sqrt{(-1 - 2)^2 + (2 - 1)^2} = \\sqrt{9 + 1} = \\sqrt{10}$, and likewise $BC = CD = DA = \\sqrt{10}$; the diagonals $AC = BD = \\sqrt{20}$ are equal, so ABCD is a square. Area $= (\\sqrt{10})^2 = 10$ square units. $\\sqrt{10}$ is the side, 16 is the $4 \\times 4$ box around the square, and 20 squares the diagonal instead of halving $d^2$."
+  },
+  {
+    "id": "ma01-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Orienting Yourself: The Use of Coordinates",
+    "chapterNo": 1,
+    "topic": "Quadrants",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "Arrange these points by the quadrant they lie in, from Quadrant I to Quadrant IV.",
+    "image": {
+      "src": "/img/maths01/plane-blank.svg",
+      "alt": "A blank coordinate plane"
+    },
+    "items": [
+      {
+        "id": "q4",
+        "text": "$(4, -3)$"
+      },
+      {
+        "id": "q2",
+        "text": "$(-2, 4)$"
+      },
+      {
+        "id": "q1",
+        "text": "$(3, 5)$"
+      },
+      {
+        "id": "q3",
+        "text": "$(-5, -1)$"
+      }
+    ],
+    "answer": [
+      "q1",
+      "q2",
+      "q3",
+      "q4"
+    ],
+    "startLabel": "Quadrant I",
+    "endLabel": "Quadrant IV",
+    "hint": "The quadrants go anticlockwise: (+, +), (−, +), (−, −), (+, −).",
+    "explanation": "$(3, 5)$ is $(+, +)$: Quadrant I. $(-2, 4)$ is $(-, +)$: Quadrant II. $(-5, -1)$ is $(-, -)$: Quadrant III. $(4, -3)$ is $(+, -)$: Quadrant IV."
+  }
+]

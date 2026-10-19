@@ -1,0 +1,2240 @@
+[
+  {
+    "id": "ma05-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circles in nature",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Ripples from a raindrop, the rings of a sawn tree trunk, a sunflower head and the full moon all look like circles, and early rock art shows circles too. Which property is shared by **every** circle, and is used to define one?",
+    "image": {
+      "src": "/img/maths05/nature-circles.svg",
+      "alt": "Rock-art shapes, ripples on water, a tree-trunk slice, a sunflower and the moon"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It has no straight edges"
+      },
+      {
+        "id": "b",
+        "text": "It has exactly one line of symmetry"
+      },
+      {
+        "id": "c",
+        "text": "Every point on it is the same distance from one fixed point"
+      },
+      {
+        "id": "d",
+        "text": "Its boundary is exactly twice as long as its width"
+      }
+    ],
+    "answer": "c",
+    "hint": "Think about what a compass keeps fixed while you draw.",
+    "explanation": "Every circle has a **centre**, and every point on the circle is at the **same distance** from it; this observation becomes the definition. An oval also has no straight edges, so that cannot define a circle. A circle has infinitely many lines of symmetry, and its boundary is about 3.14 times its width, not twice."
+  },
+  {
+    "id": "ma05-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Definition of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Using the word **locus**, which statement describes a circle with centre O and radius $r$?",
+    "image": {
+      "src": "/img/maths05/compass-locus.svg",
+      "alt": "A centre O with many points the same distance away and an arm sweeping round"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The locus of points in a plane equidistant from two fixed points"
+      },
+      {
+        "id": "b",
+        "text": "The locus of points in a plane at distance $r$ from the fixed point O"
+      },
+      {
+        "id": "c",
+        "text": "All points in the plane whose distance from O is less than $r$"
+      },
+      {
+        "id": "d",
+        "text": "The locus of points at distance $r$ from a fixed line"
+      }
+    ],
+    "answer": "b",
+    "hint": "A locus is the set of all points that satisfy one condition. What condition does every point of a circle satisfy?",
+    "explanation": "A **locus** is the set of all points satisfying a given condition. A circle is the locus of points in a plane that are at a fixed distance $r$ (the **radius**) from a fixed point O (the **centre**). Points equidistant from two fixed points form the perpendicular bisector; points closer than $r$ fill the inside of the circle; points at distance $r$ from a line form two parallel lines."
+  },
+  {
+    "id": "ma05-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Arcs",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Points A and B split this circle into two arcs. Tap the **minor arc** AB.",
+    "image": {
+      "src": "/img/maths05/circle-parts.svg",
+      "alt": "A circle with centre O, several marked points and segments, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "minor",
+        "x": 62.2,
+        "y": 15.3,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "major",
+        "x": 23.0,
+        "y": 36.9,
+        "label": "Major arc AB"
+      },
+      {
+        "id": "diameter",
+        "x": 64.9,
+        "y": 42.8,
+        "label": "Diameter RS"
+      },
+      {
+        "id": "chord",
+        "x": 51.8,
+        "y": 77.0,
+        "label": "Chord PQ"
+      },
+      {
+        "id": "radius",
+        "x": 42.8,
+        "y": 33.4,
+        "label": "Radius OT"
+      }
+    ],
+    "answer": "minor",
+    "hint": "The minor arc is the shorter way round the circle from A to B.",
+    "explanation": "An **arc** is a connected piece of the circle between two end points. Going from A to B there are two routes: the shorter one is the **minor arc** and the longer one is the **major arc**. The minor arc subtends an angle of less than $180^\\circ$ at the centre, and the major arc more than $180^\\circ$."
+  },
+  {
+    "id": "ma05-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Chords and diameter",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **longest chord** drawn in this circle.",
+    "image": {
+      "src": "/img/maths05/circle-parts.svg",
+      "alt": "A circle with centre O, several marked points and segments, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "chord",
+        "x": 51.8,
+        "y": 77.0,
+        "label": "Chord PQ"
+      },
+      {
+        "id": "radius",
+        "x": 42.8,
+        "y": 33.4,
+        "label": "Radius OT"
+      },
+      {
+        "id": "diameter",
+        "x": 64.9,
+        "y": 42.8,
+        "label": "Diameter RS"
+      },
+      {
+        "id": "minor",
+        "x": 62.2,
+        "y": 15.3,
+        "label": "Arc AB"
+      }
+    ],
+    "answer": "diameter",
+    "hint": "A chord joins two points of the circle. The closer a chord is to the centre, the longer it is.",
+    "explanation": "The **diameter** RS is a chord through the centre, so its distance from the centre is zero, and the longer a chord is, the nearer it lies to the centre. So no chord is longer than a diameter. OT is a radius, not a chord, because O is not on the circle, and arc AB is curved, not a segment."
+  },
+  {
+    "id": "ma05-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Key terms",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term from this chapter with its meaning.",
+    "image": {
+      "src": "/img/maths05/circle-terms.svg",
+      "alt": "Four points K, L, M, N on one circle with centre O"
+    },
+    "left": [
+      {
+        "id": "locus",
+        "text": "Locus"
+      },
+      {
+        "id": "chord",
+        "text": "Chord"
+      },
+      {
+        "id": "diam",
+        "text": "Diameter"
+      },
+      {
+        "id": "concyclic",
+        "text": "Concyclic points"
+      },
+      {
+        "id": "corollary",
+        "text": "Corollary"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "A fact that follows immediately from a result already proved"
+      },
+      {
+        "id": "r2",
+        "text": "Points that all lie on one circle"
+      },
+      {
+        "id": "r3",
+        "text": "The set of all points that satisfy a given condition"
+      },
+      {
+        "id": "r4",
+        "text": "A chord that passes through the centre"
+      },
+      {
+        "id": "r5",
+        "text": "A segment joining two points of a circle"
+      }
+    ],
+    "pairs": {
+      "locus": "r3",
+      "chord": "r5",
+      "diam": "r4",
+      "concyclic": "r2",
+      "corollary": "r1"
+    },
+    "hint": "K, L, M and N in the picture all lie on one circle; what word describes them?",
+    "explanation": "A **locus** is the set of points meeting a condition (a circle is a locus). A **chord** joins two points of a circle, and a **diameter** is a chord through the centre. Points on one circle, like K, L, M and N, are **concyclic**. A **corollary** follows immediately from a proved result, such as \"the angle in a semicircle is $90^\\circ$\" following from the arc-angle theorem."
+  },
+  {
+    "id": "ma05-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Symmetries of a circle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A turning wheel always looks the same, and folding a paper circle edge to edge leaves a crease. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths05/wheel-symmetry.svg",
+      "alt": "A turning wheel on a road and a paper circle with fold creases"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Turning a circle about its centre through **any** angle leaves it looking the same"
+      },
+      {
+        "id": "b",
+        "text": "Every diameter is a line of reflection symmetry"
+      },
+      {
+        "id": "c",
+        "text": "A circle has exactly 4 lines of reflection symmetry"
+      },
+      {
+        "id": "d",
+        "text": "A chord that is not a diameter can be a line of reflection symmetry"
+      },
+      {
+        "id": "e",
+        "text": "Every line of reflection symmetry of a circle passes through its centre"
+      },
+      {
+        "id": "f",
+        "text": "The midpoints of all chords of one fixed length (shorter than a diameter) lie on a circle with the same centre"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "e",
+      "f"
+    ],
+    "hint": "Where does a fold crease always run when the edges of a paper circle match?",
+    "explanation": "A circle has **complete rotational symmetry**: you cannot tell whether a rolling wheel has turned. Every crease that makes the edges overlap is a **diameter**, so there are infinitely many lines of symmetry and all pass through the centre; a chord that misses the centre is not one. Equal chords are all the same distance $d$ from the centre, so their midpoints lie on a circle of radius $d$ with the same centre."
+  },
+  {
+    "id": "ma05-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Symmetry of shapes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered shape with its number of **lines of reflection symmetry**. (The polygons are regular.)",
+    "image": {
+      "src": "/img/maths05/symmetry-shapes.svg",
+      "alt": "Five shapes in a row with numbered markers",
+      "markers": [
+        {
+          "x": 11.5,
+          "y": 21.1,
+          "label": "1"
+        },
+        {
+          "x": 31.0,
+          "y": 21.1,
+          "label": "2"
+        },
+        {
+          "x": 50.5,
+          "y": 21.1,
+          "label": "3"
+        },
+        {
+          "x": 70.0,
+          "y": 21.1,
+          "label": "4"
+        },
+        {
+          "x": 89.0,
+          "y": 21.1,
+          "label": "5"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "Shape 1"
+      },
+      {
+        "id": "s2",
+        "text": "Shape 2"
+      },
+      {
+        "id": "s3",
+        "text": "Shape 3"
+      },
+      {
+        "id": "s4",
+        "text": "Shape 4"
+      },
+      {
+        "id": "s5",
+        "text": "Shape 5"
+      }
+    ],
+    "right": [
+      {
+        "id": "n2",
+        "text": "2 lines"
+      },
+      {
+        "id": "n4",
+        "text": "4 lines"
+      },
+      {
+        "id": "n5",
+        "text": "5 lines"
+      },
+      {
+        "id": "n6",
+        "text": "6 lines"
+      },
+      {
+        "id": "ninf",
+        "text": "Infinitely many"
+      }
+    ],
+    "pairs": {
+      "s1": "n6",
+      "s2": "n2",
+      "s3": "ninf",
+      "s4": "n4",
+      "s5": "n5"
+    },
+    "hint": "A regular polygon with $n$ sides has $n$ lines of symmetry. A rectangle is not regular.",
+    "explanation": "A **regular** polygon with $n$ sides has $n$ lines of symmetry and rotational symmetry through multiples of $\\dfrac{360^\\circ}{n}$: hexagon 6, square 4 (turns of $90^\\circ$), pentagon 5 (turns of $72^\\circ$). The rectangle has only 2, the lines through the midpoints of opposite sides (its diagonals are not lines of symmetry). Every diameter of the circle is a line of symmetry, so it has **infinitely many**."
+  },
+  {
+    "id": "ma05-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circles through two points",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the centre of the **smallest** circle that passes through both A and B.",
+    "image": {
+      "src": "/img/maths05/two-points.svg",
+      "alt": "Two points A and B on squared paper with numbered points around them"
+    },
+    "spots": [
+      {
+        "id": "M",
+        "x": 50.0,
+        "y": 66.7,
+        "label": "Point M"
+      },
+      {
+        "id": "N",
+        "x": 32.5,
+        "y": 66.7,
+        "label": "Point N"
+      },
+      {
+        "id": "K",
+        "x": 50.0,
+        "y": 26.7,
+        "label": "Point K"
+      },
+      {
+        "id": "P",
+        "x": 72.5,
+        "y": 26.7,
+        "label": "Point P"
+      },
+      {
+        "id": "Q",
+        "x": 35.0,
+        "y": 86.7,
+        "label": "Point Q"
+      }
+    ],
+    "answer": "M",
+    "hint": "The centre must be equally far from A and B, and the radius can never be less than half of AB.",
+    "explanation": "Any circle through A and B has radius at least $\\dfrac{AB}{2}$. The smallest circle has AB as a **diameter**, so its centre is the **midpoint** of AB. For example, if $AB = 9$ cm, the least possible radius is $4.5$ cm. The other point on AB is not equidistant from A and B."
+  },
+  {
+    "id": "ma05-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circles through two points",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point that is **not** on segment AB but can still be the centre of a circle passing through both A and B.",
+    "image": {
+      "src": "/img/maths05/two-points.svg",
+      "alt": "Two points A and B on squared paper with numbered points around them"
+    },
+    "spots": [
+      {
+        "id": "M",
+        "x": 50.0,
+        "y": 66.7,
+        "label": "Point M"
+      },
+      {
+        "id": "N",
+        "x": 32.5,
+        "y": 66.7,
+        "label": "Point N"
+      },
+      {
+        "id": "K",
+        "x": 50.0,
+        "y": 26.7,
+        "label": "Point K"
+      },
+      {
+        "id": "P",
+        "x": 72.5,
+        "y": 26.7,
+        "label": "Point P"
+      },
+      {
+        "id": "Q",
+        "x": 35.0,
+        "y": 86.7,
+        "label": "Point Q"
+      }
+    ],
+    "answer": "K",
+    "hint": "Count squares: the centre must be exactly as far from A as from B.",
+    "explanation": "The centre of a circle through A and B must satisfy $OA = OB$, so it lies on the **perpendicular bisector** of AB, the vertical line through the midpoint here. K is on that line, so a circle centred at K passes through both points. P and Q are clearly nearer to one point than the other. Since every point on the bisector works, **infinitely many** circles pass through two points, and the radius grows (the circle looks less curved) as the centre moves away from AB."
+  },
+  {
+    "id": "ma05-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Squares through two points",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A and B are two points on a plane. How many different squares can be drawn with **both A and B as corners** (vertices)?",
+    "image": {
+      "src": "/img/maths05/squares-ab.svg",
+      "alt": "Two points A and B on squared paper, with one example square drawn faintly"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "Infinitely many"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "answer": "d",
+    "hint": "AB could be a side of the square, or it could be a diagonal.",
+    "explanation": "If AB is a **side**, the square can be built on either side of AB: 2 squares. If AB is a **diagonal**, the other two corners are fixed by the perpendicular bisector of AB: 1 square. Total $2 + 1 = 3$. Infinitely many squares are possible only if A and B merely have to lie somewhere on the boundary."
+  },
+  {
+    "id": "ma05-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circle through three points",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A, B and C are three points that do **not** lie on one straight line. How many circles pass through all three?",
+    "image": {
+      "src": "/img/maths05/three-points.svg",
+      "alt": "Three points A, B and C not on one line, and a compass"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Exactly one"
+      },
+      {
+        "id": "b",
+        "text": "None"
+      },
+      {
+        "id": "c",
+        "text": "Exactly two"
+      },
+      {
+        "id": "d",
+        "text": "Infinitely many"
+      }
+    ],
+    "answer": "a",
+    "hint": "The centre must lie on the perpendicular bisector of AB and on the perpendicular bisector of BC.",
+    "explanation": "The centre O must be equidistant from A, B and C, so it lies on the perpendicular bisectors of AB and AC. For **non-collinear** points these two lines meet at **exactly one** point, so there is a **unique** circle (Theorem 1). Infinitely many circles pass through only two points; none passes through three collinear points."
+  },
+  {
+    "id": "ma05-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Collinear points",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths05/collinear.svg",
+      "alt": "Three points on one line with dashed perpendicular bisectors"
+    },
+    "assertion": "No circle can pass through three distinct points that lie on one straight line.",
+    "reason": "For collinear points A, B, C, the perpendicular bisectors of AB and BC are parallel, so no point is equidistant from all three.",
+    "answer": "a",
+    "hint": "Where would the centre of such a circle have to be?",
+    "explanation": "Both are true and R explains A. Both bisectors are perpendicular to the same line, so they are **parallel** and never meet. A centre would have to lie on both, so no centre (and no circle) exists. This also means a straight line can cut a circle in at most two points."
+  },
+  {
+    "id": "ma05-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circumcentre",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In $\\triangle ABC$ the angle at A is **obtuse**. Tap the triangle's **circumcentre**.",
+    "image": {
+      "src": "/img/maths05/obtuse-circumcentre.svg",
+      "alt": "Triangle ABC with an obtuse angle at A and several numbered points"
+    },
+    "spots": [
+      {
+        "id": "G",
+        "x": 31.2,
+        "y": 51.5,
+        "label": "Point inside the triangle"
+      },
+      {
+        "id": "Mbc",
+        "x": 45.0,
+        "y": 60.6,
+        "label": "Midpoint of BC"
+      },
+      {
+        "id": "Op",
+        "x": 45.0,
+        "y": 32.6,
+        "label": "Point above BC"
+      },
+      {
+        "id": "O",
+        "x": 45.0,
+        "y": 88.6,
+        "label": "Point below BC"
+      },
+      {
+        "id": "X",
+        "x": 86.2,
+        "y": 33.3,
+        "label": "Point to the right"
+      }
+    ],
+    "answer": "O",
+    "hint": "For an obtuse-angled triangle, the circumcentre lies outside, beyond the longest side.",
+    "explanation": "The **circumcentre** is where the perpendicular bisectors of the sides meet, and it is equidistant from A, B and C. For an **acute** triangle it lies inside, for a **right** triangle at the midpoint of the hypotenuse, and for an **obtuse** triangle **outside**, on the far side of the longest side BC. Only the point below BC is the same distance from A, B and C. The point above BC is equally far from B and C but much closer to A."
+  },
+  {
+    "id": "ma05-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circumcentre",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "match",
+    "prompt": "Match each numbered triangle with where its **circumcentre** lies.",
+    "image": {
+      "src": "/img/maths05/triangles-three.svg",
+      "alt": "Three triangles with numbered markers",
+      "markers": [
+        {
+          "x": 16.3,
+          "y": 14.0,
+          "label": "1"
+        },
+        {
+          "x": 52.2,
+          "y": 14.0,
+          "label": "2"
+        },
+        {
+          "x": 84.8,
+          "y": 14.0,
+          "label": "3"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "t1",
+        "text": "Triangle 1 ($\\angle A = 70^\\circ$, $\\angle B = 60^\\circ$)"
+      },
+      {
+        "id": "t2",
+        "text": "Triangle 2 ($\\angle A = 100^\\circ$)"
+      },
+      {
+        "id": "t3",
+        "text": "Triangle 3 ($\\angle C = 90^\\circ$)"
+      }
+    ],
+    "right": [
+      {
+        "id": "out",
+        "text": "Outside the triangle"
+      },
+      {
+        "id": "mid",
+        "text": "At the midpoint of the hypotenuse"
+      },
+      {
+        "id": "in",
+        "text": "Inside the triangle"
+      }
+    ],
+    "pairs": {
+      "t1": "in",
+      "t2": "out",
+      "t3": "mid"
+    },
+    "hint": "Work out the largest angle of each triangle first.",
+    "explanation": "Triangle 1: $\\angle C = 180^\\circ - 70^\\circ - 60^\\circ = 50^\\circ$, so all angles are acute and the circumcentre is **inside**. Triangle 2 has a $100^\\circ$ angle, so it is obtuse and the circumcentre is **outside**. In Triangle 3 the hypotenuse AB is a diameter of the circumcircle, so the circumcentre is the **midpoint of the hypotenuse**."
+  },
+  {
+    "id": "ma05-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Circumcentre of a right triangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A right-angled triangle has legs of 6 cm and 8 cm. What is the **radius** of its circumcircle?",
+    "image": {
+      "src": "/img/maths05/right-triangle.svg",
+      "alt": "A right-angled triangle with legs 6 cm and 8 cm inside a dashed circle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$10$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$4.8$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$5$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$7$ cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "Where does the circumcentre of a right-angled triangle lie?",
+    "explanation": "Hypotenuse $= \\sqrt{6^2 + 8^2} = \\sqrt{100} = 10$ cm. The circumcentre is the midpoint of the hypotenuse, so the hypotenuse is a diameter and $r = \\dfrac{10}{2} = 5$ cm. $10$ cm is the diameter, not the radius; $4.8$ cm $\\left(=\\dfrac{6 \\times 8}{10}\\right)$ is the altitude to the hypotenuse; $7$ cm is just the average of the legs."
+  },
+  {
+    "id": "ma05-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Constructing a circumcircle",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to draw the **circumcircle** of a triangle.",
+    "image": {
+      "src": "/img/maths05/construct.svg",
+      "alt": "Triangle ABC with two perpendicular bisectors meeting at O and a circle through A, B and C"
+    },
+    "items": [
+      {
+        "id": "bis2",
+        "text": "Draw the perpendicular bisector of a second side, say BC"
+      },
+      {
+        "id": "circle",
+        "text": "With centre O and radius OA, draw the circle"
+      },
+      {
+        "id": "tri",
+        "text": "Draw $\\triangle ABC$ with the given measurements"
+      },
+      {
+        "id": "mark",
+        "text": "Mark O, the point where the two bisectors meet"
+      },
+      {
+        "id": "bis1",
+        "text": "Draw the perpendicular bisector of one side, say AB"
+      }
+    ],
+    "answer": [
+      "tri",
+      "bis1",
+      "bis2",
+      "mark",
+      "circle"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need the triangle before any bisector, and the centre before the circle.",
+    "explanation": "Every point on the perpendicular bisector of AB is equidistant from A and B, and every point on that of BC is equidistant from B and C. Their meeting point O is therefore equidistant from all three vertices, so the circle with centre O and radius OA passes through A, B and C. Measuring OA, OB and OC gives equal lengths, which is a good check."
+  },
+  {
+    "id": "ma05-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Chord and central angle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In a circle with centre O and radius 9 cm, chord AB subtends $\\angle AOB = 60^\\circ$ at the centre. How long is AB?",
+    "image": {
+      "src": "/img/maths05/central-60.svg",
+      "alt": "A circle with radii OA and OB of 9 cm making a 60° angle, and chord AB"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$9$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$18$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$4.5$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$9\\sqrt{3}$ cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "$OA = OB$, so the base angles of $\\triangle OAB$ are equal.",
+    "explanation": "$OA = OB = 9$ cm, so $\\triangle OAB$ is isosceles with base angles $\\dfrac{180^\\circ - 60^\\circ}{2} = 60^\\circ$. All angles are $60^\\circ$, so the triangle is **equilateral** and $AB = 9$ cm. $18$ cm is the diameter, $4.5$ cm wrongly halves the radius, and $9\\sqrt{3}$ cm is the chord for a $120^\\circ$ central angle."
+  },
+  {
+    "id": "ma05-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Proof tools",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each result about chords with the main tool used to prove it in the chapter.",
+    "image": {
+      "src": "/img/maths05/congruent-chords.svg",
+      "alt": "Circle with centre C and two equal chords forming two shaded triangles with the centre"
+    },
+    "left": [
+      {
+        "id": "t2",
+        "text": "Equal chords subtend equal angles at the centre"
+      },
+      {
+        "id": "t3",
+        "text": "Chords that subtend equal angles at the centre are equal"
+      },
+      {
+        "id": "t5",
+        "text": "The perpendicular from the centre to a chord bisects the chord"
+      },
+      {
+        "id": "t8",
+        "text": "Of two unequal chords, the longer one is nearer the centre"
+      }
+    ],
+    "right": [
+      {
+        "id": "sas",
+        "text": "SAS congruence"
+      },
+      {
+        "id": "bp",
+        "text": "Baudhāyana–Pythagoras theorem"
+      },
+      {
+        "id": "sss",
+        "text": "SSS congruence"
+      },
+      {
+        "id": "rhs",
+        "text": "RHS congruence"
+      }
+    ],
+    "pairs": {
+      "t2": "sss",
+      "t3": "sas",
+      "t5": "rhs",
+      "t8": "bp"
+    },
+    "hint": "List what you are given in each case: three sides? two sides and an angle? a right angle?",
+    "explanation": "Equal chords: the two triangles have two radii and equal chords, so they are congruent by **SSS**. Equal central angles: two radii and the included angle give **SAS**. Perpendicular from the centre: right angles at M, equal radii as hypotenuses and a common side give **RHS**. Unequal chords: $r^2 = d^2 + \\left(\\tfrac{\\text{chord}}{2}\\right)^2$ from the **Baudhāyana–Pythagoras theorem** shows the longer chord has the smaller $d$."
+  },
+  {
+    "id": "ma05-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Centre to midpoint of a chord",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "M is the midpoint of chord AB of a circle with centre C. Arrange the steps that prove $CM \\perp AB$.",
+    "image": {
+      "src": "/img/maths05/thm4-proof.svg",
+      "alt": "Circle with centre C, chord AB, its midpoint M and the segment CM"
+    },
+    "items": [
+      {
+        "id": "cong",
+        "text": "With $AM = BM$, $\\triangle CMA \\cong \\triangle CMB$ by SAS"
+      },
+      {
+        "id": "rad",
+        "text": "$CA = CB$, since both are radii"
+      },
+      {
+        "id": "right",
+        "text": "Since $\\angle CMA + \\angle CMB = 180^\\circ$, each angle is $90^\\circ$"
+      },
+      {
+        "id": "base",
+        "text": "So $\\angle CAB = \\angle CBA$ (base angles of isosceles $\\triangle CAB$)"
+      },
+      {
+        "id": "eq",
+        "text": "Hence $\\angle CMA = \\angle CMB$"
+      }
+    ],
+    "answer": [
+      "rad",
+      "base",
+      "cong",
+      "eq",
+      "right"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Begin with what is true for any two radii.",
+    "explanation": "Radii give $CA = CB$, so $\\triangle CAB$ is isosceles and its base angles are equal. Then $CA = CB$, $\\angle A = \\angle B$ and $AM = BM$ give $\\triangle CMA \\cong \\triangle CMB$ (**SAS**), so $\\angle CMA = \\angle CMB$. These angles lie on a straight line and add up to $180^\\circ$, so each is $90^\\circ$: the line from the centre to the midpoint of a chord is **perpendicular** to it."
+  },
+  {
+    "id": "ma05-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Distance between parallel chords",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Two parallel chords of 10 cm and 24 cm lie on **opposite sides** of the centre of a circle of radius 13 cm. How far apart are the chords?",
+    "image": {
+      "src": "/img/maths05/parallel-opposite.svg",
+      "alt": "Two parallel chords of 10 cm and 24 cm on opposite sides of the centre of a circle of radius 13 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$7$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$14$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$12$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$17$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find each chord's distance from the centre with $d = \\sqrt{r^2 - (\\text{half chord})^2}$.",
+    "explanation": "10 cm chord: $d_1 = \\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$ cm. 24 cm chord: $d_2 = \\sqrt{13^2 - 12^2} = \\sqrt{25} = 5$ cm. On **opposite** sides the distances add: $12 + 5 = 17$ cm. $7$ cm $(12 - 5)$ would be right if the chords were on the same side; $14$ cm subtracts the chord lengths; $12$ cm is only one distance."
+  },
+  {
+    "id": "ma05-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Perpendicular bisector of a chord",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "AB is a chord of a circle with centre O. Which of these **always** lie on the perpendicular bisector of AB? Select all that apply.",
+    "image": {
+      "src": "/img/maths05/perp-bisector.svg",
+      "alt": "Circle with centre O, chord AB, its midpoint M and a dashed perpendicular line through M"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The centre O"
+      },
+      {
+        "id": "b",
+        "text": "The midpoint of AB"
+      },
+      {
+        "id": "c",
+        "text": "The centre of every circle that passes through A and B"
+      },
+      {
+        "id": "d",
+        "text": "The point A"
+      },
+      {
+        "id": "e",
+        "text": "Every point of the circle"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Which points are the same distance from A as from B?",
+    "explanation": "The perpendicular bisector of AB is the **locus of points equidistant from A and B**. The centre O has $OA = OB$ (radii), so the perpendicular bisector of any chord passes through the centre. The midpoint is on it by definition, and so is the centre of any circle through A and B. A itself is at distance 0 from A, and the bisector meets the circle at only two points."
+  },
+  {
+    "id": "ma05-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angles subtended by an arc",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arc AB subtends $\\angle AOB = 100^\\circ$ at the centre O. P is on the major arc and Q is on the minor arc. Arrange these angles from **smallest to largest**.",
+    "image": {
+      "src": "/img/maths05/arc-order.svg",
+      "alt": "Circle with centre O, P on the major arc and Q on the minor arc, both joined to A and B"
+    },
+    "items": [
+      {
+        "id": "apb",
+        "text": "$\\angle APB$"
+      },
+      {
+        "id": "reflex",
+        "text": "Reflex $\\angle AOB$"
+      },
+      {
+        "id": "oab",
+        "text": "$\\angle OAB$"
+      },
+      {
+        "id": "aqb",
+        "text": "$\\angle AQB$"
+      },
+      {
+        "id": "aob",
+        "text": "$\\angle AOB$"
+      }
+    ],
+    "answer": [
+      "oab",
+      "apb",
+      "aob",
+      "aqb",
+      "reflex"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Q is outside the major arc, so $\\angle AQB$ is half of the reflex angle.",
+    "explanation": "$\\angle OAB = \\dfrac{180^\\circ - 100^\\circ}{2} = 40^\\circ$ (isosceles $\\triangle OAB$). $\\angle APB = \\dfrac{100^\\circ}{2} = 50^\\circ$. $\\angle AOB = 100^\\circ$. For Q the arc used is the major arc, whose central angle is reflex $\\angle AOB = 360^\\circ - 100^\\circ = 260^\\circ$, so $\\angle AQB = 130^\\circ$. Order: $40^\\circ < 50^\\circ < 100^\\circ < 130^\\circ < 260^\\circ$."
+  },
+  {
+    "id": "ma05-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Equidistant chords",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Chords PQ and RS of the same circle are each **4 cm** from the centre. If $PQ = 10$ cm, what is RS?",
+    "image": {
+      "src": "/img/maths05/equal-distance.svg",
+      "alt": "Two chords PQ and RS each 4 cm from the centre O; PQ is 10 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$8$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$10$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$5$ cm"
+      },
+      {
+        "id": "d",
+        "text": "It cannot be found without the radius"
+      }
+    ],
+    "answer": "b",
+    "hint": "What does the chapter say about chords that are equally far from the centre?",
+    "explanation": "Chords **equidistant from the centre are equal** (Theorem 7), so $RS = PQ = 10$ cm. No radius is needed, though we could find it: $r = \\sqrt{5^2 + 4^2} = \\sqrt{41}$ cm. Rotating the circle about its centre carries one chord onto the other, which is why they match."
+  },
+  {
+    "id": "ma05-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Length of a chord",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A chord of a circle of radius 25 cm is 7 cm from the centre. How long is the chord?",
+    "image": {
+      "src": "/img/maths05/chord-a.svg",
+      "alt": "Circle with centre O, radius 25 cm and a chord AB 7 cm from the centre"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$48$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$24$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$36$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$50$ cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "The perpendicular from the centre bisects the chord, so first find half of it.",
+    "explanation": "Half chord $AM = \\sqrt{r^2 - d^2} = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$ cm, so the chord is $2 \\times 24 = 48$ cm. $24$ cm forgets to double; $36$ cm is $2(25 - 7)$, which subtracts lengths instead of using squares; $50$ cm is the diameter."
+  },
+  {
+    "id": "ma05-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Distance of a chord",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The diameter of a circle is 34 cm. A chord of length 30 cm is drawn. How far is the chord from the centre?",
+    "image": {
+      "src": "/img/maths05/chord-b.svg",
+      "alt": "Circle with diameter 34 cm and a chord AB of 30 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$16$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt{514}$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$8$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$2$ cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use the radius (half the diameter) and half the chord.",
+    "explanation": "$r = 17$ cm and half chord $= 15$ cm, so $d = \\sqrt{17^2 - 15^2} = \\sqrt{289 - 225} = \\sqrt{64} = 8$ cm. $16$ cm comes from $\\sqrt{34^2 - 30^2}$, using the diameter and the whole chord; $\\sqrt{514}$ adds the squares; $2$ cm is $17 - 15$."
+  },
+  {
+    "id": "ma05-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Radius from a chord",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A chord of length 24 cm is 5 cm from the centre of a circle. Find the radius.",
+    "image": {
+      "src": "/img/maths05/chord-c.svg",
+      "alt": "Circle with a chord AB of 24 cm that is 5 cm from the centre O"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sqrt{601}$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$17$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$7$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$13$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "The radius is the hypotenuse of a right triangle whose legs are the distance and half the chord.",
+    "explanation": "Half chord $= 12$ cm, so $r = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$ cm. $\\sqrt{601} = \\sqrt{24^2 + 5^2}$ forgets to halve the chord; $17 = 12 + 5$ adds lengths instead of squares; $7 = 12 - 5$."
+  },
+  {
+    "id": "ma05-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Chord length formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "A chord is at distance $d$ from the centre of a circle of radius $r$. Match each pair of values with the **chord length** $2\\sqrt{r^2 - d^2}$.",
+    "image": {
+      "src": "/img/maths05/chord-rd.svg",
+      "alt": "Circle with centre O, radius r and a chord AB at distance d"
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "$r = 5$ cm, $d = 3$ cm"
+      },
+      {
+        "id": "p2",
+        "text": "$r = 13$ cm, $d = 5$ cm"
+      },
+      {
+        "id": "p3",
+        "text": "$r = 10$ cm, $d = 8$ cm"
+      },
+      {
+        "id": "p4",
+        "text": "$r = 17$ cm, $d = 15$ cm"
+      }
+    ],
+    "right": [
+      {
+        "id": "l12",
+        "text": "$12$ cm"
+      },
+      {
+        "id": "l8",
+        "text": "$8$ cm"
+      },
+      {
+        "id": "l16",
+        "text": "$16$ cm"
+      },
+      {
+        "id": "l24",
+        "text": "$24$ cm"
+      }
+    ],
+    "pairs": {
+      "p1": "l8",
+      "p2": "l24",
+      "p3": "l12",
+      "p4": "l16"
+    },
+    "hint": "Don't stop at half the chord: some of the half-lengths appear among the answers.",
+    "explanation": "$r=5, d=3$: $2\\sqrt{25 - 9} = 2 \\times 4 = 8$. $r=13, d=5$: $2\\sqrt{169 - 25} = 2 \\times 12 = 24$. $r=10, d=8$: $2\\sqrt{100 - 64} = 2 \\times 6 = 12$. $r=17, d=15$: $2\\sqrt{289 - 225} = 2 \\times 8 = 16$. The trap: the half-lengths 12 and 8 are also on the list, so forgetting the factor 2 gives wrong pairs."
+  },
+  {
+    "id": "ma05-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Distance of a chord",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "This circle has radius 5 cm and each chord is labelled with its length. Tap the chord that is exactly **3 cm** from the centre.",
+    "image": {
+      "src": "/img/maths05/chord-lengths.svg",
+      "alt": "A circle of radius 5 cm with four parallel chords labelled with their lengths, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "c6",
+        "x": 60.0,
+        "y": 16.7,
+        "label": "6 cm chord"
+      },
+      {
+        "id": "c10",
+        "x": 75.0,
+        "y": 50.0,
+        "label": "10 cm chord"
+      },
+      {
+        "id": "c96",
+        "x": 57.5,
+        "y": 61.7,
+        "label": "9.6 cm chord"
+      },
+      {
+        "id": "c8",
+        "x": 71.2,
+        "y": 75.0,
+        "label": "8 cm chord"
+      }
+    ],
+    "answer": "c8",
+    "hint": "Use $d = \\sqrt{r^2 - (\\text{half chord})^2}$ for each chord.",
+    "explanation": "For the 8 cm chord: $d = \\sqrt{5^2 - 4^2} = \\sqrt{9} = 3$ cm. The others: 6 cm gives $\\sqrt{25 - 9} = 4$ cm, 9.6 cm gives $\\sqrt{25 - 23.04} = 1.4$ cm, and the 10 cm chord is a diameter (0 cm). Longer chords are closer to the centre."
+  },
+  {
+    "id": "ma05-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Chord length and distance",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "In a circle of radius 13 cm, four chords lie at these distances from the centre. Arrange the chords from **shortest to longest**.",
+    "image": {
+      "src": "/img/maths05/chord-slide.svg",
+      "alt": "A chord sliding away from the centre of a circle and getting shorter"
+    },
+    "items": [
+      {
+        "id": "d5",
+        "text": "Chord 5 cm from the centre"
+      },
+      {
+        "id": "d0",
+        "text": "Chord through the centre"
+      },
+      {
+        "id": "d12",
+        "text": "Chord 12 cm from the centre"
+      },
+      {
+        "id": "d10",
+        "text": "Chord 10 cm from the centre"
+      }
+    ],
+    "answer": [
+      "d12",
+      "d10",
+      "d5",
+      "d0"
+    ],
+    "startLabel": "Shortest",
+    "endLabel": "Longest",
+    "hint": "The farther a chord is from the centre, the shorter it is.",
+    "explanation": "Using $2\\sqrt{13^2 - d^2}$: $d = 12$ gives $2\\sqrt{25} = 10$ cm; $d = 10$ gives $2\\sqrt{69} \\approx 16.6$ cm; $d = 5$ gives $2\\sqrt{144} = 24$ cm; $d = 0$ gives the diameter, $26$ cm. So the chord farthest from the centre is shortest, and the diameter is the longest chord of all (Theorem 8)."
+  },
+  {
+    "id": "ma05-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Chord length and distance",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths05/chords-2d.svg",
+      "alt": "Circle with chord CD at distance d and chord AB at distance 2d from the centre"
+    },
+    "assertion": "If chord AB is twice as far from the centre as chord CD, then $CD = 2AB$.",
+    "reason": "A chord at distance $d$ from the centre of a circle of radius $r$ has length $2\\sqrt{r^2 - d^2}$.",
+    "answer": "d",
+    "hint": "Try $r = 5$ cm with chords at 2 cm and 4 cm from the centre.",
+    "explanation": "A is false and R is true. With $r = 5$: CD at 2 cm has length $2\\sqrt{25 - 4} = 2\\sqrt{21} \\approx 9.2$ cm, and AB at 4 cm has length $2\\sqrt{25 - 16} = 6$ cm. Then $2AB = 12$ cm is longer than the diameter (10 cm), so $CD = 2AB$ is impossible here. Chord length depends on $\\sqrt{r^2 - d^2}$, not simply on $d$."
+  },
+  {
+    "id": "ma05-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Parallel chords on the same side",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two parallel chords of 48 cm and 14 cm lie on the **same side** of the centre of a circle and are 17 cm apart. Find the radius.",
+    "image": {
+      "src": "/img/maths05/parallel-same.svg",
+      "alt": "Two parallel chords of 48 cm and 14 cm on the same side of the centre, 17 cm apart"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$24$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$25$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$7$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$31$ cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "Let the longer chord be $x$ cm from the centre; the shorter one is then $(x + 17)$ cm away. Both give the same $r^2$.",
+    "explanation": "$r^2 = 24^2 + x^2 = 7^2 + (x + 17)^2$, so $576 + x^2 = 49 + x^2 + 34x + 289$, giving $34x = 238$ and $x = 7$. Then $r = \\sqrt{24^2 + 7^2} = \\sqrt{625} = 25$ cm (check: $\\sqrt{7^2 + 24^2} = 25$ ✓). $7$ cm stops at $x$; $24$ cm is half the longer chord; $31$ cm adds $24 + 7$ instead of using squares."
+  },
+  {
+    "id": "ma05-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Shortest chord through a point",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths05/shortest-chord.svg",
+      "alt": "A chord turning about a fixed point P inside a circle with centre O"
+    },
+    "assertion": "Of all the chords through a fixed point P inside a circle (P not the centre O), the shortest is the one perpendicular to OP.",
+    "reason": "The farther a chord is from the centre, the shorter it is.",
+    "answer": "a",
+    "hint": "For a chord through P, compare its distance from O with the length OP.",
+    "explanation": "Both are true and R explains A. Any chord through P is at distance at most OP from O, because the perpendicular from O to the chord is never longer than OP. The distance equals OP exactly when the chord is **perpendicular to OP**. Greatest distance means shortest chord, by R."
+  },
+  {
+    "id": "ma05-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Regular hexagon in a circle",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A regular hexagon is inscribed in a circle of radius 8 cm. How far is each side of the hexagon from the centre?",
+    "image": {
+      "src": "/img/maths05/hexagon.svg",
+      "alt": "A regular hexagon inside a circle of radius 8 cm with a dashed line from the centre to one side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$8$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$4$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$8\\sqrt{3}$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$4\\sqrt{3}$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "Each side subtends $\\dfrac{360^\\circ}{6} = 60^\\circ$ at the centre. What kind of triangle does that make?",
+    "explanation": "Each side subtends $60^\\circ$ at the centre, so each of the six triangles is equilateral and the **side = radius = 8 cm**. The perpendicular from the centre bisects the side: $d = \\sqrt{8^2 - 4^2} = \\sqrt{48} = 4\\sqrt{3} \\approx 6.93$ cm. $8$ cm is the radius, $4$ cm is half a side, and $8\\sqrt{3}$ cm doubles the answer as if finding a chord length."
+  },
+  {
+    "id": "ma05-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angle at the centre and on the circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "An arc subtends $130^\\circ$ at the centre O. What angle does it subtend at a point P on the remaining part of the circle?",
+    "image": {
+      "src": "/img/maths05/arc-130.svg",
+      "alt": "Arc AB makes 130° at the centre O and P is a point on the rest of the circle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$65^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$130^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$260^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$50^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The angle at the centre is double the angle at the circle.",
+    "explanation": "By Theorem 9, the angle at the centre is **twice** the angle at any point on the circle outside the arc, so $\\angle APB = \\dfrac{130^\\circ}{2} = 65^\\circ$. $130^\\circ$ treats the angles as equal, $260^\\circ$ doubles instead of halving, and $50^\\circ = 180^\\circ - 130^\\circ$ has no basis."
+  },
+  {
+    "id": "ma05-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angle subtended by an arc",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Chord AB subtends $\\angle AOB = 80^\\circ$ at the centre O. Tap the point where AB subtends an angle of exactly $140^\\circ$.",
+    "image": {
+      "src": "/img/maths05/arc-points.svg",
+      "alt": "Circle with centre O and chord AB, with numbered points on, inside and outside the circle"
+    },
+    "spots": [
+      {
+        "id": "O",
+        "x": 50.0,
+        "y": 52.8,
+        "label": "Centre O"
+      },
+      {
+        "id": "K",
+        "x": 50.0,
+        "y": 92.5,
+        "label": "Point on the minor arc"
+      },
+      {
+        "id": "P",
+        "x": 34.9,
+        "y": 20.4,
+        "label": "Point on the major arc"
+      },
+      {
+        "id": "I",
+        "x": 61.3,
+        "y": 39.6,
+        "label": "Point inside the circle"
+      },
+      {
+        "id": "F",
+        "x": 87.5,
+        "y": 18.9,
+        "label": "Point outside the circle"
+      }
+    ],
+    "answer": "K",
+    "hint": "A point on the minor arc lies outside the major arc. Which central angle does the major arc make?",
+    "explanation": "For a point on the **minor arc**, the arc used is the major arc AB, whose central angle is $360^\\circ - 80^\\circ = 280^\\circ$, so the angle is $\\dfrac{280^\\circ}{2} = 140^\\circ$. A point on the major arc gives $\\dfrac{80^\\circ}{2} = 40^\\circ$, the centre gives $80^\\circ$, and points inside or outside the circle give angles that change with position, so none is guaranteed to be $140^\\circ$."
+  },
+  {
+    "id": "ma05-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Proof of the arc-angle theorem",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "C is the centre and D is a point on the circle outside arc AFB. Arrange the steps that prove $\\angle ACB = 2\\angle ADB$.",
+    "image": {
+      "src": "/img/maths05/thm9.svg",
+      "alt": "Circle with centre C, arc AFB, a point D and DC extended to E"
+    },
+    "items": [
+      {
+        "id": "ext",
+        "text": "By the exterior angle theorem, $\\angle BCE = \\angle CBD + \\angle CDB = 2\\angle BDC$"
+      },
+      {
+        "id": "add",
+        "text": "Adding the two results gives $\\angle ACB = 2\\angle ADB$"
+      },
+      {
+        "id": "join",
+        "text": "Join D to C and extend DC to meet arc AFB at E"
+      },
+      {
+        "id": "same",
+        "text": "In the same way, in $\\triangle DCA$, $\\angle ACE = 2\\angle CDA$"
+      },
+      {
+        "id": "iso",
+        "text": "In $\\triangle DCB$, $CB = CD$ (radii), so $\\angle CBD = \\angle CDB$"
+      }
+    ],
+    "answer": [
+      "join",
+      "iso",
+      "ext",
+      "same",
+      "add"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The construction comes first; the isosceles triangle gives the equal angles needed for the exterior angle step.",
+    "explanation": "Extending DC to E splits both angles into two parts. In isosceles $\\triangle DCB$ the base angles are equal, so the **exterior angle** $\\angle BCE$ is twice $\\angle BDC$. Repeating this in $\\triangle DCA$ gives $\\angle ACE = 2\\angle CDA$. Adding: $\\angle ACB = \\angle ACE + \\angle ECB = 2(\\angle CDA + \\angle BDC) = 2\\angle ADB$."
+  },
+  {
+    "id": "ma05-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angles in an isosceles triangle with the centre",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A, B and C lie on a circle with centre O, and C is on the major arc with $\\angle ACB = 38^\\circ$. Find $\\angle OAB$.",
+    "image": {
+      "src": "/img/maths05/isosceles-oab.svg",
+      "alt": "Circle with centre O; C sees chord AB at 38° and triangle OAB is shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$76^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$71^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$52^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$38^\\circ$"
+      }
+    ],
+    "answer": "c",
+    "hint": "First find $\\angle AOB$, then use $OA = OB$.",
+    "explanation": "$\\angle AOB = 2 \\times 38^\\circ = 76^\\circ$ (angle at the centre). In $\\triangle OAB$, $OA = OB$, so $\\angle OAB = \\dfrac{180^\\circ - 76^\\circ}{2} = 52^\\circ$. $76^\\circ$ stops at the central angle; $71^\\circ = \\dfrac{180^\\circ - 38^\\circ}{2}$ forgets to double; $38^\\circ$ copies the given angle."
+  },
+  {
+    "id": "ma05-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angle in a semicircle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "AB is a diameter of a circle and C is a point on the circle with $\\angle CAB = 35^\\circ$. Find $\\angle CBA$.",
+    "image": {
+      "src": "/img/maths05/semicircle.svg",
+      "alt": "Semicircle on diameter AB with C on the arc; the angle at A is 35°"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$35^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$55^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$145^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "answer": "b",
+    "hint": "What is the angle at C, standing on a diameter?",
+    "explanation": "The angle subtended by a diameter at any point of the circle is $90^\\circ$, so $\\angle ACB = 90^\\circ$ and $\\angle CBA = 180^\\circ - 90^\\circ - 35^\\circ = 55^\\circ$. $145^\\circ = 180^\\circ - 35^\\circ$ forgets the right angle; $90^\\circ$ is $\\angle ACB$, not $\\angle CBA$; $35^\\circ$ wrongly assumes $CA = CB$."
+  },
+  {
+    "id": "ma05-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angle in a semicircle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "AB is a diameter. Tap the point X for which $\\angle AXB$ is exactly $90^\\circ$.",
+    "image": {
+      "src": "/img/maths05/semicircle-points.svg",
+      "alt": "Semicircle on diameter AB with numbered points on, inside and outside it"
+    },
+    "spots": [
+      {
+        "id": "U",
+        "x": 13.8,
+        "y": 22.7,
+        "label": "Point outside, left"
+      },
+      {
+        "id": "P",
+        "x": 31.4,
+        "y": 35.7,
+        "label": "Point on the semicircle"
+      },
+      {
+        "id": "Q",
+        "x": 61.3,
+        "y": 52.3,
+        "label": "Point inside"
+      },
+      {
+        "id": "R",
+        "x": 76.2,
+        "y": 18.2,
+        "label": "Point outside, right"
+      }
+    ],
+    "answer": "P",
+    "hint": "Only points on the circle itself are guaranteed this angle.",
+    "explanation": "The diameter subtends a straight angle ($180^\\circ$) at the centre, so at any point **on the circle** it subtends $\\dfrac{180^\\circ}{2} = 90^\\circ$. A point inside the semicircle sees AB at more than $90^\\circ$, and a point outside sees it at less than $90^\\circ$."
+  },
+  {
+    "id": "ma05-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angle in a semicircle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths05/diameter-angle.svg",
+      "alt": "Diameter AB with two points X and Y on the arc joined to A and B"
+    },
+    "assertion": "The angle subtended by a diameter at any point on the circle is $90^\\circ$.",
+    "reason": "An arc subtends the same angle at the centre as it does at any point on the remaining part of the circle.",
+    "answer": "c",
+    "hint": "Is the angle at the centre equal to the angle at the circle, or double it?",
+    "explanation": "A is true but R is false. The angle at the centre is **double** the angle at the circle (Theorem 9), not equal to it. The diameter's arc subtends $180^\\circ$ at the centre, so it subtends $\\dfrac{180^\\circ}{2} = 90^\\circ$ at every point of the circle; this is a **corollary** of Theorem 9."
+  },
+  {
+    "id": "ma05-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angles in the same segment",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Chord AB is drawn and C is a point on the major arc. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths05/same-arc.svg",
+      "alt": "Chord AB with C and D on the circle, X inside, Y outside and Z on the minor arc"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\angle ADB = \\angle ACB$ for every point D on the same arc as C"
+      },
+      {
+        "id": "b",
+        "text": "If X is inside the circle, on the same side of AB as C, then $\\angle AXB > \\angle ACB$"
+      },
+      {
+        "id": "c",
+        "text": "If Y is outside the circle, on the same side of AB as C, then $\\angle AYB < \\angle ACB$"
+      },
+      {
+        "id": "d",
+        "text": "If Z is on the minor arc, then $\\angle AZB = \\angle ACB$"
+      },
+      {
+        "id": "e",
+        "text": "If $\\angle AWB = \\angle ACB$ and W is on the opposite side of AB from C, then W is on the circle"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Angles in the same segment are equal. What happens just inside or just outside that segment?",
+    "explanation": "Angles in the **same segment** are equal, which is special to circles. Extending AX to meet the circle at E makes $\\angle AXB$ an exterior angle of $\\triangle XEB$, so it is larger than $\\angle AEB = \\angle ACB$; a point outside gives a smaller angle in the same way. On the minor arc, $\\angle AZB = 180^\\circ - \\angle ACB$, not equal to it. The concyclicity test (Theorem 10) needs both points on the **same side** of AB."
+  },
+  {
+    "id": "ma05-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Angles in the same segment",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "ABCD is a cyclic quadrilateral with diagonals AC and BD. If $\\angle BAC = 55^\\circ$ and $\\angle DBC = 40^\\circ$, find $\\angle BCD$.",
+    "image": {
+      "src": "/img/maths05/same-segment.svg",
+      "alt": "Cyclic quadrilateral ABCD with diagonals; angle BAC is 55° and angle DBC is 40°"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$85^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$95^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$140^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$125^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "$\\angle CAD$ and $\\angle CBD$ stand on the same arc CD.",
+    "explanation": "$\\angle CAD = \\angle CBD = 40^\\circ$ (same segment), so $\\angle BAD = 55^\\circ + 40^\\circ = 95^\\circ$. Opposite angles of a cyclic quadrilateral add up to $180^\\circ$, so $\\angle BCD = 180^\\circ - 95^\\circ = 85^\\circ$. $95^\\circ$ stops at $\\angle BAD$; $140^\\circ$ and $125^\\circ$ subtract only one of the given angles from $180^\\circ$."
+  },
+  {
+    "id": "ma05-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Cyclic quadrilateral",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In cyclic quadrilateral ABCD, $\\angle A = 115^\\circ$. Find $x = \\angle C$.",
+    "image": {
+      "src": "/img/maths05/cyclic-115.svg",
+      "alt": "Cyclic quadrilateral ABCD with angle A = 115° and angle C marked x"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$115^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$245^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$57.5^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$65^\\circ$"
+      }
+    ],
+    "answer": "d",
+    "hint": "A and C are opposite vertices.",
+    "explanation": "Opposite angles of a cyclic quadrilateral are **supplementary** (Theorem 11): $x = 180^\\circ - 115^\\circ = 65^\\circ$. $115^\\circ$ assumes opposite angles are equal (true for a parallelogram, not here); $245^\\circ$ uses $360^\\circ$; $57.5^\\circ$ halves the angle."
+  },
+  {
+    "id": "ma05-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Cyclic quadrilateral",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "PQRS is a cyclic quadrilateral with $\\angle P = (3x + 5)^\\circ$ and $\\angle R = (2x + 25)^\\circ$. Find $x$ and $\\angle P$.",
+    "image": {
+      "src": "/img/maths05/cyclic-algebra.svg",
+      "alt": "Cyclic quadrilateral PQRS with angle P = (3x + 5)° and angle R = (2x + 25)°"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x = 20$, $\\angle P = 65^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$x = 66$, $\\angle P = 203^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$x = 30$, $\\angle P = 95^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$x = 36$, $\\angle P = 113^\\circ$"
+      }
+    ],
+    "answer": "c",
+    "hint": "P and R are opposite, so their sum is fixed.",
+    "explanation": "$(3x + 5) + (2x + 25) = 180$, so $5x + 30 = 180$ and $x = 30$. Then $\\angle P = 95^\\circ$ and $\\angle R = 85^\\circ$ (sum $180^\\circ$ ✓). $x = 20$ sets the angles equal; $x = 66$ uses $360^\\circ$; $x = 36$ drops the constants ($5x = 180$)."
+  },
+  {
+    "id": "ma05-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Test for a cyclic quadrilateral",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The angles of a quadrilateral ABCD are listed in the order $\\angle A, \\angle B, \\angle C, \\angle D$. Which quadrilaterals are **cyclic**? Select all that apply.",
+    "image": {
+      "src": "/img/maths05/cyclic-abcd.svg",
+      "alt": "A quadrilateral ABCD with its angles marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$85^\\circ, 100^\\circ, 95^\\circ, 80^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$100^\\circ, 80^\\circ, 100^\\circ, 80^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$70^\\circ, 110^\\circ, 110^\\circ, 70^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$60^\\circ, 120^\\circ, 100^\\circ, 80^\\circ$"
+      },
+      {
+        "id": "e",
+        "text": "$120^\\circ, 75^\\circ, 60^\\circ, 105^\\circ$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Check $\\angle A + \\angle C$ (and $\\angle B + \\angle D$) for each.",
+    "explanation": "A quadrilateral is cyclic exactly when a pair of opposite angles adds up to $180^\\circ$ (Theorems 11 and 12). (a) $85 + 95 = 180$ ✓; (b) $100 + 100 = 200$ ✗, a parallelogram that is not a rectangle; (c) $70 + 110 = 180$ ✓; (d) $60 + 100 = 160$ ✗; (e) $120 + 60 = 180$ ✓. In every set the four angles total $360^\\circ$, so that alone proves nothing."
+  },
+  {
+    "id": "ma05-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Reflex angle at the centre",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "B and D lie on a circle with centre O, and the non-reflex $\\angle BOD = 140^\\circ$. A is on the major arc and C is on the minor arc. Find $\\angle BCD$.",
+    "image": {
+      "src": "/img/maths05/reflex-central.svg",
+      "alt": "Circle with centre O; angle BOD is 140°, A on the major arc and C on the minor arc"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$70^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$110^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$140^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$220^\\circ$"
+      }
+    ],
+    "answer": "b",
+    "hint": "C is on the minor arc, so $\\angle BCD$ is subtended by the major arc BAD.",
+    "explanation": "Arc BAD subtends the reflex angle $360^\\circ - 140^\\circ = 220^\\circ$ at O, so $\\angle BCD = \\dfrac{220^\\circ}{2} = 110^\\circ$. Check: $\\angle BAD = \\dfrac{140^\\circ}{2} = 70^\\circ$ and $70^\\circ + 110^\\circ = 180^\\circ$ ✓. $70^\\circ$ is $\\angle BAD$ (the wrong arc); $220^\\circ$ forgets to halve."
+  },
+  {
+    "id": "ma05-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Exterior angle of a cyclic quadrilateral",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "ABCD is a cyclic quadrilateral with $\\angle ABC = 72^\\circ$. Side CD is extended beyond D to E. Find the exterior angle $\\angle ADE$.",
+    "image": {
+      "src": "/img/maths05/exterior-cyclic.svg",
+      "alt": "Cyclic quadrilateral ABCD with side CD extended beyond D to E"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$72^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$108^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$144^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$36^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find $\\angle ADC$ first, then use the straight line CDE.",
+    "explanation": "$\\angle ADC = 180^\\circ - 72^\\circ = 108^\\circ$ (opposite angles), and $\\angle ADE = 180^\\circ - 108^\\circ = 72^\\circ$ (straight line). So the **exterior angle equals the interior opposite angle**. $108^\\circ$ is the interior angle $\\angle ADC$; $144^\\circ$ and $36^\\circ$ double or halve $72^\\circ$."
+  },
+  {
+    "id": "ma05-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Cyclic parallelograms",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the only quadrilateral here whose four vertices **always** lie on a circle.",
+    "image": {
+      "src": "/img/maths05/quads.svg",
+      "alt": "Five quadrilaterals in a row with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "par",
+        "x": 11.9,
+        "y": 54.2,
+        "label": "Parallelogram"
+      },
+      {
+        "id": "kite",
+        "x": 29.8,
+        "y": 51.2,
+        "label": "Kite"
+      },
+      {
+        "id": "rect",
+        "x": 49.1,
+        "y": 52.6,
+        "label": "Rectangle"
+      },
+      {
+        "id": "rhombus",
+        "x": 70.2,
+        "y": 52.6,
+        "label": "Rhombus"
+      },
+      {
+        "id": "trap",
+        "x": 88.2,
+        "y": 52.6,
+        "label": "Right trapezium"
+      }
+    ],
+    "answer": "rect",
+    "hint": "Check whether opposite angles add up to $180^\\circ$.",
+    "explanation": "A **rectangle** has opposite angles $90^\\circ + 90^\\circ = 180^\\circ$, so it is cyclic; its diagonals meet at the centre of the circle. A parallelogram or rhombus has equal opposite angles, which sum to $180^\\circ$ only when each is $90^\\circ$. This kite and this right trapezium (angles $90^\\circ, 90^\\circ$ and two others) have no supplementary opposite pair."
+  },
+  {
+    "id": "ma05-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Cyclic parallelograms",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths05/rhombus-circle.svg",
+      "alt": "A rhombus with a dashed circle through two of its corners"
+    },
+    "assertion": "A rhombus that is not a square cannot be inscribed in a circle.",
+    "reason": "All four sides of a rhombus are equal.",
+    "answer": "b",
+    "hint": "Is the reason about sides or about angles?",
+    "explanation": "Both are true, but R does not explain A. A rhombus has **equal opposite angles**; for it to be cyclic they must also add up to $180^\\circ$, forcing each to be $90^\\circ$, i.e. a square. Equal sides are not the reason, since a square also has equal sides and is cyclic."
+  },
+  {
+    "id": "ma05-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "I’m Up and Down, and Round and Round",
+    "chapterNo": 5,
+    "topic": "Area of a cyclic quadrilateral",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cyclic quadrilateral ABCD has sides $AB = 5$, $BC = 5$, $CD = 12$ and $DA = 12$ units. Find its area.",
+    "image": {
+      "src": "/img/maths05/kite-cyclic.svg",
+      "alt": "A quadrilateral ABCD with sides 5, 5, 12 and 12 units inside a circle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$120$ sq units"
+      },
+      {
+        "id": "b",
+        "text": "$30$ sq units"
+      },
+      {
+        "id": "c",
+        "text": "$34$ sq units"
+      },
+      {
+        "id": "d",
+        "text": "$60$ sq units"
+      }
+    ],
+    "answer": "d",
+    "hint": "Diagonal BD splits it into two congruent triangles. What are $\\angle A$ and $\\angle C$?",
+    "explanation": "$\\triangle ABD \\cong \\triangle CBD$ (SSS), so $\\angle A = \\angle C$; being opposite angles of a cyclic quadrilateral they add up to $180^\\circ$, so each is $90^\\circ$. Area $= 2 \\times \\dfrac{1}{2} \\times 5 \\times 12 = 60$ sq units (and $BD = 13$ is a diameter). $120$ forgets the $\\dfrac{1}{2}$, $30$ counts one triangle, and $34$ is the perimeter."
+  }
+]

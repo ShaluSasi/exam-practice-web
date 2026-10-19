@@ -1,0 +1,2215 @@
+[
+  {
+    "id": "ma06-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Lane stagger",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In a 4 × 100 m relay the runners in the outer lanes start a little ahead of the runners in the inner lanes, yet every lane has the same finish line. What is the reason for this stagger?",
+    "image": {
+      "src": "/img/maths06/track-stagger.svg",
+      "alt": "An oval running track with four lanes and four runners moving round it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Runners in the outer lanes are quicker, so they are given a bonus start"
+      },
+      {
+        "id": "b",
+        "text": "The finish line is also staggered, so every lane ends at a different spot"
+      },
+      {
+        "id": "c",
+        "text": "On the bends the outer lanes follow bigger circles, so their path is longer; starting ahead makes every runner cover the same distance"
+      },
+      {
+        "id": "d",
+        "text": "The outer lanes are wider, so the runners there need extra room at the start"
+      }
+    ],
+    "answer": "c",
+    "hint": "Which part of the track is longer for the outer lanes, the straight stretches or the curved ends?",
+    "explanation": "On the straight parts all lanes have the same length, but on the bends the outer lanes run along circles of **larger radius**, and the length of a circle grows with its radius ($C = 2\\pi r$). The **stagger** moves the outer starting lines forward by exactly that extra length so that all runners cover the same distance. It is not a reward for speed, the finish line is common to all, and lane width is only a side-effect."
+  },
+  {
+    "id": "ma06-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Perimeter and area of a rectangle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A rectangular garden needs 36 m of fencing to go all the way round its border. Its length is 11 m. What is the area of the garden?",
+    "image": {
+      "src": "/img/maths06/garden-rect.svg",
+      "alt": "A rectangular garden with a fence round its border and its length marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$154\\ \\text{m}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$77\\ \\text{m}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$198\\ \\text{m}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$396\\ \\text{m}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Perimeter is the length round the border. Use it to find the missing side first.",
+    "explanation": "The **perimeter** of a rectangle is $2(a+b)$, so $a+b = 36 \\div 2 = 18$ and the width is $18 - 11 = 7$ m. Area $= 11 \\times 7 = 77\\ \\text{m}^2$. Traps: forgetting to halve ($11 \\times 14 = 154$), using half the perimeter as the width ($11 \\times 18 = 198$), or multiplying by the whole perimeter ($396$). Also remember that fencing is a **length** (m) while the answer is an **area** (m$^2$)."
+  },
+  {
+    "id": "ma06-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Estimating the C/D ratio",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the home experiment, a thin thread is wound tightly 20 times round a cotton reel of diameter 2.5 cm. When unwound, the thread is 157 cm long. What estimate of the C/D ratio does this give?",
+    "image": {
+      "src": "/img/maths06/thread-reel.svg",
+      "alt": "A cotton reel and the same thread straightened out below it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$62.8$"
+      },
+      {
+        "id": "b",
+        "text": "$7.85$"
+      },
+      {
+        "id": "c",
+        "text": "$31.4$"
+      },
+      {
+        "id": "d",
+        "text": "$3.14$"
+      }
+    ],
+    "answer": "d",
+    "hint": "The thread went round the reel 20 times, so one wrap is one circumference.",
+    "explanation": "One wrap is one **circumference**: $C = \\dfrac{157}{20} = 7.85$ cm. The C/D ratio is $\\dfrac{C}{D} = \\dfrac{7.85}{2.5} = 3.14$, or in one go $\\dfrac{L}{20D} = \\dfrac{157}{50} = 3.14$. Dividing the whole length by $D$ gives $62.8$ (forgot the 20 wraps), dividing by 20 only gives the circumference $7.85$, and $31.4$ comes from dividing by $2D$."
+  },
+  {
+    "id": "ma06-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Radius from circumference",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A rope 44 cm long is joined end to end to make a circular ring. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the radius of the ring?",
+    "image": {
+      "src": "/img/maths06/rope-circle.svg",
+      "alt": "A circular ring made of rope with its radius marked as unknown"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$7$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$14$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$3.5$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$154\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The rope forms the circumference, and $C = 2\\pi r$.",
+    "explanation": "The length of the rope is the **circumference**: $2\\pi r = 44$, so $r = \\dfrac{44}{2 \\times \\frac{22}{7}} = 7$ cm. Dividing by $\\pi$ only gives the **diameter** $14$ cm, dividing by $4\\pi$ gives $3.5$, and $154\\ \\text{cm}^2$ is the **area** $\\pi r^2$ of the ring: a different quantity with square units, not a radius."
+  },
+  {
+    "id": "ma06-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Facts about π",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about the number $\\pi$.",
+    "image": {
+      "src": "/img/maths06/pi-circles.svg",
+      "alt": "Three circles of different sizes with a diameter drawn in each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The ratio of circumference to diameter is the same for circles of every size"
+      },
+      {
+        "id": "b",
+        "text": "$\\pi$ is exactly equal to $\\dfrac{22}{7}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{355}{113}$ is a closer approximation to $\\pi$ than $\\dfrac{22}{7}$ is"
+      },
+      {
+        "id": "d",
+        "text": "The decimal digits of $\\pi$ settle into a repeating block, like $\\dfrac{1}{7} = 0.142857142857\\ldots$"
+      },
+      {
+        "id": "e",
+        "text": "The symbol $\\pi$ comes from the Greek word *perimetros*, meaning perimeter"
+      },
+      {
+        "id": "f",
+        "text": "Mādhava found that $\\dfrac{\\pi}{4} = 1 - \\dfrac{1}{3} + \\dfrac{1}{5} - \\dfrac{1}{7} + \\cdots$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e",
+      "f"
+    ],
+    "hint": "Which approximations are only \"close but not equal\", and does an irrational number repeat?",
+    "explanation": "The **C/D ratio** is the same for every circle; that constant is $\\pi$. Since $\\pi$ is **irrational**, it is not equal to $\\dfrac{22}{7}$ (close but not equal) and its digits never settle into a repeating block. $\\dfrac{355}{113} \\approx 3.1415929$ is far closer to $\\pi \\approx 3.1415927$ than $\\dfrac{22}{7} \\approx 3.1428571$. The name $\\pi$ is from *perimetros*, and Mādhava gave the first exact (infinite series) formula."
+  },
+  {
+    "id": "ma06-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Bounds for π",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Archimedes trapped the perimeter of a circle between the perimeters of two hexagons, one inside the circle and one outside. Tap the part whose perimeter gives an **upper** estimate for the circle's perimeter.",
+    "image": {
+      "src": "/img/maths06/hex-bounds.svg",
+      "alt": "A circle with two regular hexagons and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "outer",
+        "x": 16.7,
+        "y": 30.8,
+        "label": "Outer hexagon"
+      },
+      {
+        "id": "inner",
+        "x": 25,
+        "y": 64.4,
+        "label": "Inner hexagon"
+      },
+      {
+        "id": "circle",
+        "x": 78.9,
+        "y": 66.7,
+        "label": "The circle"
+      },
+      {
+        "id": "centre",
+        "x": 50,
+        "y": 50,
+        "label": "The centre"
+      },
+      {
+        "id": "radius",
+        "x": 66.7,
+        "y": 50,
+        "label": "A radius"
+      }
+    ],
+    "answer": "outer",
+    "hint": "Which polygon is bigger than the circle, so its boundary is longer than the circle's?",
+    "explanation": "The hexagon **outside** the circle contains it, so its perimeter is longer than the circle's; the hexagon **inside** the circle is contained in it, so its perimeter is shorter. For a circle of radius 1 the inner hexagon has perimeter 6, so $2\\pi > 6$, i.e. $\\pi > 3$. The outer hexagon gives the upper bound."
+  },
+  {
+    "id": "ma06-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Archimedes' hexagon bound",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A circle of radius 1 touches all six sides of a regular hexagon (the outer hexagon). Using a $30^\\circ$ right triangle, each side of this hexagon is $a = \\dfrac{2}{\\sqrt{3}}$. What upper bound for $\\pi$ follows from comparing perimeters?",
+    "image": {
+      "src": "/img/maths06/hex-bounds-a.svg",
+      "alt": "A circle with an inner and an outer regular hexagon and a radius marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\pi < 4\\sqrt{3} \\approx 6.93$"
+      },
+      {
+        "id": "b",
+        "text": "$\\pi < 6$"
+      },
+      {
+        "id": "c",
+        "text": "$\\pi < 2\\sqrt{3} \\approx 3.46$"
+      },
+      {
+        "id": "d",
+        "text": "$\\pi < \\dfrac{2}{\\sqrt{3}} \\approx 1.15$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The circle's perimeter is $2\\pi$, not $\\pi$.",
+    "explanation": "Outer hexagon: perimeter $= 6a = \\dfrac{12}{\\sqrt{3}} = 4\\sqrt{3} \\approx 6.93$. The circle lies inside it, so $2\\pi < 4\\sqrt{3}$, hence $\\pi < 2\\sqrt{3} \\approx 3.46$. Traps: forgetting that the circle has perimeter $2\\pi$ (giving $4\\sqrt{3}$), using the inner hexagon's perimeter 6 (that gives the lower bound $\\pi > 3$), or quoting one side $a$."
+  },
+  {
+    "id": "ma06-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "History of π",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each mathematician with the work on $\\pi$ credited to them in the chapter.",
+    "image": {
+      "src": "/img/maths06/polygons-grow.svg",
+      "alt": "A circle with inscribed polygons that have more and more sides"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Archimedes"
+      },
+      {
+        "id": "l2",
+        "text": "Zu Chongzhi"
+      },
+      {
+        "id": "l3",
+        "text": "Āryabhaṭa"
+      },
+      {
+        "id": "l4",
+        "text": "Brahmagupta"
+      },
+      {
+        "id": "l5",
+        "text": "Mādhava"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Preferred the elegant value $\\sqrt{10}$"
+      },
+      {
+        "id": "r2",
+        "text": "Squeezed $\\pi$ using polygons with up to 96 sides"
+      },
+      {
+        "id": "r3",
+        "text": "Discovered the first exact formula, an infinite series"
+      },
+      {
+        "id": "r4",
+        "text": "Gave $3.1416$ and called it *asanna* (approximate)"
+      },
+      {
+        "id": "r5",
+        "text": "Found the \"close ratio\" $\\dfrac{355}{113}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r5",
+      "l3": "r4",
+      "l4": "r1",
+      "l5": "r3"
+    },
+    "hint": "Polygons give bounds; a series gives an exact formula.",
+    "explanation": "**Archimedes** (c. 250 BCE) trapped $\\pi$ between perimeters of inscribed and circumscribed polygons up to 96 sides. **Zu Chongzhi** (480 CE) pushed the polygon method much further and found $\\dfrac{355}{113}$. **Āryabhaṭa** (499 CE) gave $3.1416$ and noted it is only approximate. **Brahmagupta** (628 CE) suggested $\\sqrt{10}$ for its elegance, and **Mādhava** found the first exact infinite-series formula."
+  },
+  {
+    "id": "ma06-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Sizes of estimates of π",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these values used for $\\pi$ from the **smallest** to the **largest**.",
+    "image": {
+      "src": "/img/maths06/pi-scale.svg",
+      "alt": "A number line from 3.10 to 3.18 with tick marks"
+    },
+    "items": [
+      {
+        "id": "s1",
+        "text": "$\\dfrac{22}{7}$"
+      },
+      {
+        "id": "s2",
+        "text": "$\\sqrt{10}$"
+      },
+      {
+        "id": "s3",
+        "text": "$3.125$ (Mesopotamia)"
+      },
+      {
+        "id": "s4",
+        "text": "$3.1416$ (Āryabhaṭa)"
+      },
+      {
+        "id": "s5",
+        "text": "$\\dfrac{355}{113}$"
+      }
+    ],
+    "answer": [
+      "s3",
+      "s5",
+      "s4",
+      "s1",
+      "s2"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Turn each into a decimal with at least four places.",
+    "explanation": "As decimals: $3.125 < \\dfrac{355}{113} \\approx 3.141593 < 3.1416 < \\dfrac{22}{7} \\approx 3.142857 < \\sqrt{10} \\approx 3.162278$. The true value is $\\pi \\approx 3.141593$, so $\\dfrac{355}{113}$ is the closest and just below $3.1416$; $\\dfrac{22}{7}$ is slightly too large, and $\\sqrt{10}$ is the roughest but easiest to handle."
+  },
+  {
+    "id": "ma06-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "π is irrational",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths06/pi-day.svg",
+      "alt": "Two calendar cards for the days celebrated for the number pi"
+    },
+    "assertion": "The fraction $\\dfrac{22}{7}$ is exactly equal to $\\pi$.",
+    "reason": "$\\pi$ is an irrational number, so it cannot be written as a ratio of two integers.",
+    "answer": "d",
+    "hint": "Pi Approximation Day is 22 July, \"22/7\". Is it called \"approximation\" for a reason?",
+    "explanation": "Assertion is false and Reason is true. $\\pi$ is **irrational** (shown by Lambert in 1761), so no fraction equals it exactly. $\\dfrac{22}{7}$ is good enough for everyday work, so we write $\\pi \\approx \\dfrac{22}{7}$ and also $\\pi \\neq \\dfrac{22}{7}$."
+  },
+  {
+    "id": "ma06-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Length of an arc",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "An arc of a circle of radius 21 cm subtends an angle of $60^\\circ$ at the centre. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the length of the arc?",
+    "image": {
+      "src": "/img/maths06/arc-60.svg",
+      "alt": "A circle with a shaded sector and its curved edge highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$22$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$11$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$231\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$132$ cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "The arc is $\\dfrac{60}{360}$ of the whole circumference.",
+    "explanation": "Arc length $= 2\\pi r \\times \\dfrac{\\theta}{360} = 2 \\times \\dfrac{22}{7} \\times 21 \\times \\dfrac{60}{360} = 132 \\times \\dfrac{1}{6} = 22$ cm. Traps: using $\\pi r$ instead of $2\\pi r$ (gives $11$), using the **area** formula $\\pi r^2 \\times \\dfrac{\\theta}{360} = 231\\ \\text{cm}^2$ (square units, not a length), or stopping at the full circumference $132$ cm."
+  },
+  {
+    "id": "ma06-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Perimeter of a sector",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A sector of a circle has radius 14 cm and sector angle $45^\\circ$. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the **perimeter** of the sector (curved edge plus the two straight edges)?",
+    "image": {
+      "src": "/img/maths06/sector-45.svg",
+      "alt": "A circular sector drawn from the centre of a circle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$11$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$25$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$77\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$39$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "The boundary of a sector has three parts: the arc and two radii.",
+    "explanation": "Arc $= 2\\pi r \\times \\dfrac{45}{360} = 88 \\times \\dfrac{1}{8} = 11$ cm. Perimeter $= 11 + 14 + 14 = 39$ cm. Traps: giving the arc alone ($11$), adding only one radius ($25$), or computing the **area** $\\dfrac{\\pi r^2 \\theta}{360} = 77\\ \\text{cm}^2$, which has square units and is not a perimeter."
+  },
+  {
+    "id": "ma06-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Perimeter of a composite shape",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A ground is made of two straight sides, each 80 m long, joined by two semicircular ends. The straight sides are 42 m apart. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the perimeter of the ground?",
+    "image": {
+      "src": "/img/maths06/stadium.svg",
+      "alt": "A running ground shaped like two straight sides joined by two half-circle ends"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$226$ m"
+      },
+      {
+        "id": "b",
+        "text": "$292$ m"
+      },
+      {
+        "id": "c",
+        "text": "$244$ m"
+      },
+      {
+        "id": "d",
+        "text": "$424$ m"
+      }
+    ],
+    "answer": "b",
+    "hint": "Two semicircles together make one complete circle. The diameter is 42 m.",
+    "explanation": "The two semicircular ends together form one circle of diameter 42 m, so radius 21 m and circumference $2\\pi r = 2 \\times \\dfrac{22}{7} \\times 21 = 132$ m. Perimeter $= 80 + 80 + 132 = 292$ m. Traps: counting one semicircle only ($160 + 66 = 226$), using $2 \\times 42$ for the ends as if they were straight ($244$), or counting a full circle at each end ($424$)."
+  },
+  {
+    "id": "ma06-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Stagger between lanes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "On a running track each lane is 1.22 m wide. A runner in lane 2 runs two semicircular bends whose radius is 1.22 m more than those of the runner in lane 1. Taking $\\pi \\approx 3.1416$, about how much extra distance does she run on the bends, which is the stagger she needs?",
+    "image": {
+      "src": "/img/maths06/track-lanes-gap.svg",
+      "alt": "Two neighbouring lanes on the bend of a running track with the lane width marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3.83$ m"
+      },
+      {
+        "id": "b",
+        "text": "$1.22$ m"
+      },
+      {
+        "id": "c",
+        "text": "$7.67$ m"
+      },
+      {
+        "id": "d",
+        "text": "$15.33$ m"
+      }
+    ],
+    "answer": "c",
+    "hint": "Two semicircles together make one full circle, so use $2\\pi r$ for each runner.",
+    "explanation": "Both bends together make one full circle for each runner, so the extra length is $2\\pi(r + 1.22) - 2\\pi r = 2\\pi \\times 1.22 = 2 \\times 3.1416 \\times 1.22 \\approx 7.67$ m. Traps: using $\\pi \\times 1.22 = 3.83$ (counting only one bend), assuming the stagger equals the lane width $1.22$ m (that is a difference in **radius**, not in distance), or doubling again to $15.33$."
+  },
+  {
+    "id": "ma06-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Lane lengths on a bend",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Four runners each run one lap, each hugging the inside edge of their own lane. Tap the lane in which the runner covers the **longest** distance.",
+    "image": {
+      "src": "/img/maths06/track-lanes.svg",
+      "alt": "A running track with four lanes and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "l1",
+        "x": 27.1,
+        "y": 50,
+        "label": "Innermost lane"
+      },
+      {
+        "id": "l2",
+        "x": 23.7,
+        "y": 40.7,
+        "label": "Second lane"
+      },
+      {
+        "id": "l3",
+        "x": 23.5,
+        "y": 28.9,
+        "label": "Third lane"
+      },
+      {
+        "id": "l4",
+        "x": 27.3,
+        "y": 16.3,
+        "label": "Outermost lane"
+      }
+    ],
+    "answer": "l4",
+    "hint": "The straight parts are equal in every lane. Compare the bends.",
+    "explanation": "Every lane has the same straight stretches, but the two bends of the **outermost** lane together make a circle of the largest radius, and a circle's length $2\\pi r$ grows with $r$. So the outermost lane is the longest, which is why its runners start ahead."
+  },
+  {
+    "id": "ma06-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Perimeter of overlapping circles",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two circles of radius 21 cm are drawn so that each passes through the centre of the other. They meet at C and D. Taking $\\pi \\approx \\dfrac{22}{7}$, find the length of the outer boundary (the two red arcs).",
+    "image": {
+      "src": "/img/maths06/two-circles.svg",
+      "alt": "Two equal circles, each passing through the centre of the other, with the outer arcs in red"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$88$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$132$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$264$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$176$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "Triangle ABC has all sides equal to $r$. What angle does that give at A, and what is left over for the outer arc?",
+    "explanation": "Triangle ABC is equilateral, so $\\angle CAB = 60^\\circ$ and $\\angle CAD = 120^\\circ$; the inner (dotted) arc is $\\dfrac{1}{3}$ of its circle and the red outer arc is $\\dfrac{2}{3}$. Total $= 2 \\times \\dfrac{2}{3} \\times 2\\pi r = \\dfrac{8\\pi r}{3} = \\dfrac{8}{3} \\times \\dfrac{22}{7} \\times 21 = 176$ cm. Using the dotted $\\dfrac{1}{3}$ arcs gives $88$; one full circle is $132$; both full circles are $264$."
+  },
+  {
+    "id": "ma06-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Outline of overlapping circles",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Blue circle A and orange circle B have equal radii and each passes through the other's centre. Tap the arc of the **blue** circle that forms part of the outline of the combined shape.",
+    "image": {
+      "src": "/img/maths06/two-circles-hot.svg",
+      "alt": "Two overlapping circles, a blue one and an orange one, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "outA",
+        "x": 12.5,
+        "y": 50,
+        "label": "Far left arc of circle A"
+      },
+      {
+        "id": "inA",
+        "x": 59.2,
+        "y": 29.2,
+        "label": "Arc of circle A inside circle B"
+      },
+      {
+        "id": "outB",
+        "x": 87.5,
+        "y": 50,
+        "label": "Far right arc of circle B"
+      },
+      {
+        "id": "inB",
+        "x": 40.8,
+        "y": 29.2,
+        "label": "Arc of circle B inside circle A"
+      },
+      {
+        "id": "lens",
+        "x": 50,
+        "y": 50,
+        "label": "Overlap region"
+      }
+    ],
+    "answer": "outA",
+    "hint": "The outline is the part of the boundary that is not buried inside the other circle.",
+    "explanation": "The outline of the combined shape is made of the part of circle A that lies **outside** circle B (the left arc, $\\dfrac{2}{3}$ of A) and the part of circle B outside circle A. The arc of A that passes through the middle, inside circle B, is hidden in the interior, and the overlap is a region, not an arc."
+  },
+  {
+    "id": "ma06-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Wheel revolutions",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A car tyre has diameter 56 cm. How many complete revolutions does it make while the car travels 8.8 km? Take $\\pi \\approx \\dfrac{22}{7}$.",
+    "image": {
+      "src": "/img/maths06/rolling-wheel.svg",
+      "alt": "A tyre rolling along a road with a red mark on its rim"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5{,}000$"
+      },
+      {
+        "id": "b",
+        "text": "$2{,}500$"
+      },
+      {
+        "id": "c",
+        "text": "$10{,}000$"
+      },
+      {
+        "id": "d",
+        "text": "$50$"
+      }
+    ],
+    "answer": "a",
+    "hint": "In one turn the tyre covers one circumference. Convert km into cm first.",
+    "explanation": "One turn covers $\\pi d = \\dfrac{22}{7} \\times 56 = 176$ cm. The distance is $8.8\\ \\text{km} = 8{,}80{,}000$ cm, so revolutions $= \\dfrac{8{,}80{,}000}{176} = 5{,}000$. Traps: using $2\\pi d$ ($2{,}500$), using $\\pi r$ ($10{,}000$), or mixing units (8,800 m divided by 176 cm gives $50$)."
+  },
+  {
+    "id": "ma06-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Perimeter of petals",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Four arcs are drawn inside a square of side 28 cm, each centred at the midpoint of a side and passing through that side's two corners. Together they make a four-petalled flower. Taking $\\pi \\approx \\dfrac{22}{7}$, find the total perimeter of all the petals.",
+    "image": {
+      "src": "/img/maths06/petals-square.svg",
+      "alt": "A square with four semicircles drawn inside it on its sides, making petal shapes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$88$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$176$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$352$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$616\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each petal is bounded by two quarter circles of radius 14 cm.",
+    "explanation": "The radius of each arc is half the side, $14$ cm. One petal is bounded by two **quarter circles**, so its perimeter is $2 \\times \\dfrac{2\\pi r}{4} = \\pi r = 44$ cm. Four petals give $4 \\times 44 = 176$ cm. Traps: counting only two petals ($88$), a full circle for each petal ($352$), or the **area** $\\pi r^2 = 616\\ \\text{cm}^2$."
+  },
+  {
+    "id": "ma06-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Circle formulas with r = 7",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "A circle has radius 7 cm. Taking $\\pi \\approx \\dfrac{22}{7}$, match each quantity with its value. Watch the units!",
+    "image": {
+      "src": "/img/maths06/circle-r7.svg",
+      "alt": "A circle with centre O and a radius marked"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Circumference of the circle"
+      },
+      {
+        "id": "l2",
+        "text": "Area of the circle"
+      },
+      {
+        "id": "l3",
+        "text": "Length of a semicircular arc"
+      },
+      {
+        "id": "l4",
+        "text": "Length of a quarter-circle arc"
+      },
+      {
+        "id": "l5",
+        "text": "Area of a quarter-circle region (quadrant)"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$11$ cm"
+      },
+      {
+        "id": "r2",
+        "text": "$44$ cm"
+      },
+      {
+        "id": "r3",
+        "text": "$38.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "r4",
+        "text": "$22$ cm"
+      },
+      {
+        "id": "r5",
+        "text": "$154\\ \\text{cm}^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r5",
+      "l3": "r4",
+      "l4": "r1",
+      "l5": "r3"
+    },
+    "hint": "Lengths are in cm and areas in cm$^2$; each uses a fraction of the whole circle.",
+    "explanation": "$C = 2\\pi r = 44$ cm and $A = \\pi r^2 = 154\\ \\text{cm}^2$. A semicircular arc is half of $C$, i.e. $\\pi r = 22$ cm, and a quarter-circle arc is $\\dfrac{2\\pi r}{4} = 11$ cm. The quadrant has area $\\dfrac{154}{4} = 38.5\\ \\text{cm}^2$. The matching of **lengths** (cm) and **areas** (cm$^2$) is the main trap."
+  },
+  {
+    "id": "ma06-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a parallelogram",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A parallelogram has a base of 18 cm, a slanting side of 12 cm and a perpendicular height of 9 cm. What is its area?",
+    "image": {
+      "src": "/img/maths06/parallelogram-calc.svg",
+      "alt": "A parallelogram with its base, a slanting side and a dashed perpendicular drawn"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$216\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$81\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$162\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$60\\ \\text{cm}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Area = base $\\times$ height, where the height is the perpendicular distance.",
+    "explanation": "Cutting off a triangle and moving it makes a **rectangle** with the same base and height, so area $= bh = 18 \\times 9 = 162\\ \\text{cm}^2$. Traps: multiplying by the slanting side ($18 \\times 12 = 216$), halving as for a triangle ($81$), or giving the **perimeter** $2(18+12) = 60$ cm, which is a length, not an area."
+  },
+  {
+    "id": "ma06-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Height of a parallelogram",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "ABCD is a parallelogram. Two dashed segments are drawn from D. Tap the segment that is the **height** for base AB.",
+    "image": {
+      "src": "/img/maths06/parallelogram-hot.svg",
+      "alt": "A parallelogram with two dashed segments from one corner and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "height",
+        "x": 33.8,
+        "y": 64.4,
+        "label": "Vertical dashed segment from D"
+      },
+      {
+        "id": "diag",
+        "x": 51.9,
+        "y": 64.4,
+        "label": "Slanting dashed segment DB"
+      },
+      {
+        "id": "side",
+        "x": 20.9,
+        "y": 64.4,
+        "label": "Side AD"
+      },
+      {
+        "id": "base",
+        "x": 27.5,
+        "y": 86,
+        "label": "Base AB"
+      },
+      {
+        "id": "top",
+        "x": 72.8,
+        "y": 42.8,
+        "label": "Side DC"
+      }
+    ],
+    "answer": "height",
+    "hint": "The height meets the base at a right angle.",
+    "explanation": "The **height** is the perpendicular distance between the base and the opposite side, so it must meet AB at $90^\\circ$. The dashed segment DB is a diagonal, and AD is a slanting side; neither is perpendicular to AB. Area $= \\text{base} \\times \\text{height}$ uses only the perpendicular."
+  },
+  {
+    "id": "ma06-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Parallelogram: sides do not fix the area",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths06/parallelogram-flex.svg",
+      "alt": "A parallelogram made of four hinged rods that tilts while its sides stay the same"
+    },
+    "assertion": "Two parallelograms with the same side lengths, 10 cm and 6 cm, can have different areas.",
+    "reason": "The area of a parallelogram is base $\\times$ height, and the height changes when the angle between the sides changes.",
+    "answer": "a",
+    "hint": "Imagine four rods hinged at the corners. Does the shape stay the same when you push it?",
+    "explanation": "Both are true and R explains A. With sides 10 and 6 the area is $10 \\times 6\\sin\\theta = 60\\sin\\theta\\ \\text{cm}^2$: it is $60$ for a rectangle ($\\theta = 90^\\circ$) but only $30$ at $\\theta = 30^\\circ$. So side lengths alone cannot give the area; we also need the height (or an angle)."
+  },
+  {
+    "id": "ma06-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a triangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the triangle shown, the base BC is 12 cm, the slanting side AB is 17 cm and the perpendicular from A meets the extended base 8 cm below A. What is the area of the triangle?",
+    "image": {
+      "src": "/img/maths06/triangle-obtuse.svg",
+      "alt": "An obtuse triangle with its base, a slanting side and a dashed perpendicular from the top vertex"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$96\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$102\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$68\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$48\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Area $= \\frac{1}{2} \\times$ base $\\times$ height. Which of the three lengths is perpendicular to the base?",
+    "explanation": "Even when the foot of the perpendicular falls **outside** the base, the area is $\\dfrac{1}{2} \\times \\text{base} \\times \\text{height} = \\dfrac{1}{2} \\times 12 \\times 8 = 48\\ \\text{cm}^2$. Traps: leaving out the $\\dfrac{1}{2}$ ($96$), using the slanting side as the height ($\\dfrac{1}{2} \\times 12 \\times 17 = 102$ or $\\dfrac{1}{2} \\times 17 \\times 8 = 68$). A slanting side is not a height."
+  },
+  {
+    "id": "ma06-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Median of a triangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths06/median.svg",
+      "alt": "A triangle ABC split by the line AD from A to a point D on side BC"
+    },
+    "assertion": "A median of a triangle always divides it into two **congruent** triangles.",
+    "reason": "A median of a triangle divides it into two triangles of equal area.",
+    "answer": "d",
+    "hint": "In a scalene triangle, do the two parts have the same shape?",
+    "explanation": "Assertion is false and Reason is true. The triangles ABD and ACD have equal bases ($BD = DC$) and the same height from A, so their areas are equal ($\\dfrac{1}{2}bh$ each). But they are generally **not congruent**: their other sides $AB$ and $AC$ differ in a scalene triangle. Equal area does not mean congruent."
+  },
+  {
+    "id": "ma06-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Heron's formula",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A triangle has sides 13 cm, 14 cm and 15 cm. Use Heron's formula to find its area.",
+    "image": {
+      "src": "/img/maths06/triangle-13-14-15.svg",
+      "alt": "A triangle with three sides labelled"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$84\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$7{,}056\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$91\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$960\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "First find the semi-perimeter $s$, half the perimeter.",
+    "explanation": "$s = \\dfrac{13+14+15}{2} = 21$, so area $= \\sqrt{21 \\times 8 \\times 7 \\times 6} = \\sqrt{7056} = 84\\ \\text{cm}^2$. Traps: forgetting the square root ($7{,}056$), treating two sides as base and height ($\\dfrac{1}{2} \\times 13 \\times 14 = 91$, but those sides are not perpendicular), or using the whole perimeter $42$ in place of $s$ (about $960$)."
+  },
+  {
+    "id": "ma06-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Steps of Heron's formula",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A triangle has sides 5 cm, 12 cm and 13 cm. Arrange the steps of Heron's formula in the correct order.",
+    "image": {
+      "src": "/img/maths06/heron-steps.svg",
+      "alt": "A triangle with three sides labelled in cm"
+    },
+    "items": [
+      {
+        "id": "s1",
+        "text": "Take the square root: $\\sqrt{900} = 30$"
+      },
+      {
+        "id": "s2",
+        "text": "Multiply: $15 \\times 10 \\times 3 \\times 2 = 900$"
+      },
+      {
+        "id": "s3",
+        "text": "Find $s - a$, $s - b$, $s - c$: $10$, $3$ and $2$"
+      },
+      {
+        "id": "s4",
+        "text": "Write the area with its unit: $30\\ \\text{cm}^2$"
+      },
+      {
+        "id": "s5",
+        "text": "Find the semi-perimeter: $s = \\dfrac{5+12+13}{2} = 15$"
+      }
+    ],
+    "answer": [
+      "s5",
+      "s3",
+      "s2",
+      "s1",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need $s$ before anything else, and the square root comes after the product.",
+    "explanation": "The semi-perimeter $s = 15$ comes first. Then $s - a = 10$, $s - b = 3$, $s - c = 2$. Multiply $s(s-a)(s-b)(s-c) = 900$, take the square root to get $30$, and finally attach the **square** unit: $30\\ \\text{cm}^2$. Check: the triangle is right-angled ($5^2 + 12^2 = 13^2$), so $\\dfrac{1}{2} \\times 5 \\times 12 = 30$."
+  },
+  {
+    "id": "ma06-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Heron's formula with a ratio",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The sides of a triangular plot are in the ratio $3 : 5 : 7$ and its perimeter is 300 m. Find its area.",
+    "image": {
+      "src": "/img/maths06/triangle-ratio.svg",
+      "alt": "A triangular plot whose three sides are in a fixed ratio"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$75\\sqrt{3}\\ \\text{m}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$1500\\sqrt{3}\\ \\text{m}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$48{,}000\\ \\text{m}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{15\\sqrt{3}}{4}\\ \\text{m}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Sides are $3x$, $5x$, $7x$ with $15x = 300$. Then use Heron's formula with $s = 150$.",
+    "explanation": "$15x = 300$ gives $x = 20$, so the sides are 60 m, 100 m and 140 m and $s = 150$. Area $= \\sqrt{150 \\times 90 \\times 50 \\times 10} = \\sqrt{6{,}750{,}000} = 1500\\sqrt{3} \\approx 2598\\ \\text{m}^2$. Traps: using the ratio numbers 3, 5, 7 as the sides (area $\\dfrac{15\\sqrt{3}}{4}$), scaling the area by 20 instead of $20^2 = 400$ ($75\\sqrt{3}$), or putting the whole perimeter 300 in place of $s$ ($48{,}000$)."
+  },
+  {
+    "id": "ma06-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of an isosceles trapezium",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The parallel sides of a trapezium are 40 cm and 20 cm, and its two non-parallel sides are each 26 cm. Find its area.",
+    "image": {
+      "src": "/img/maths06/trapezium.svg",
+      "alt": "A trapezium with equal slanting sides and two parallel sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$780\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$1{,}440\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$720\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$600\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Drop perpendiculars from the shorter side to the longer one; each leaves a small right-angled triangle on either side.",
+    "explanation": "The two ends cut off $\\dfrac{40 - 20}{2} = 10$ cm on each side, so by the Baudhāyana–Pythagoras theorem the height is $\\sqrt{26^2 - 10^2} = 24$ cm. Area $= \\dfrac{1}{2}(40 + 20) \\times 24 = 720\\ \\text{cm}^2$. Traps: using the slanting side 26 as the height ($780$), omitting $\\dfrac{1}{2}$ ($1{,}440$), or guessing the height 20 ($600$)."
+  },
+  {
+    "id": "ma06-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a rhombus",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "One diagonal of a rhombus is twice as long as the other, and the area of the rhombus is $169\\ \\text{cm}^2$. What is the length of the **shorter** diagonal?",
+    "image": {
+      "src": "/img/maths06/rhombus-diag.svg",
+      "alt": "A rhombus with its two diagonals drawn as dashed lines"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$26$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$9.2$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$84.5$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$13$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "Area of a rhombus $= \\frac{1}{2} \\times d_1 \\times d_2$, here with $d_1 = d$ and $d_2 = 2d$.",
+    "explanation": "Area $= \\dfrac{1}{2} \\times d \\times 2d = d^2 = 169$, so $d = 13$ cm and the longer diagonal is $26$ cm. Traps: giving the longer diagonal ($26$), forgetting the $\\dfrac{1}{2}$ so that $2d^2 = 169$ ($d \\approx 9.2$), or forgetting to take the square root ($84.5$)."
+  },
+  {
+    "id": "ma06-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "When sides determine the area",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Look at shapes A to F. Select **all** the shapes whose area can be found using **only** the side lengths given for them.",
+    "image": {
+      "src": "/img/maths06/shapes-sides.svg",
+      "alt": "Six different shapes labelled A to F, each with some of its side lengths in cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A: a rectangle with sides 6 cm and 4 cm"
+      },
+      {
+        "id": "b",
+        "text": "B: a parallelogram with sides 6 cm and 4 cm"
+      },
+      {
+        "id": "c",
+        "text": "C: a triangle with sides 5 cm, 6 cm and 7 cm"
+      },
+      {
+        "id": "d",
+        "text": "D: a rhombus with side 5 cm"
+      },
+      {
+        "id": "e",
+        "text": "E: a cyclic 4-gon with sides 3 cm, 4 cm, 5 cm and 6 cm"
+      },
+      {
+        "id": "f",
+        "text": "F: a 4-gon with sides 3 cm, 4 cm, 5 cm and 6 cm that is not known to be cyclic"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "A shape that can be squashed without changing its side lengths cannot have its area fixed by the sides.",
+    "explanation": "A rectangle has area $6 \\times 4 = 24\\ \\text{cm}^2$ (the angles are fixed at $90^\\circ$). A triangle is determined by its three sides, so **Heron's formula** applies. A cyclic 4-gon is determined by its sides, so **Brahmagupta's formula** applies. A parallelogram, a rhombus and a general 4-gon can be tilted without changing any side, so their area changes (a rhombus of side 3 can have area 9, 8.01 or 5.41)."
+  },
+  {
+    "id": "ma06-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Brahmagupta's formula",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A cyclic 4-gon has sides 7 cm, 15 cm, 20 cm and 24 cm. Use Brahmagupta's formula $\\sqrt{(s-a)(s-b)(s-c)(s-d)}$ to find its area.",
+    "image": {
+      "src": "/img/maths06/cyclic-quad.svg",
+      "alt": "A four-sided figure whose corners all lie on one circle, with side lengths in cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$234\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$54{,}756\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$526.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\approx 2{,}411\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find the semi-perimeter first: half of $7 + 15 + 20 + 24$.",
+    "explanation": "$s = \\dfrac{7 + 15 + 20 + 24}{2} = 33$, so area $= \\sqrt{26 \\times 18 \\times 13 \\times 9} = \\sqrt{54{,}756} = 234\\ \\text{cm}^2$. Traps: stopping before the square root ($54{,}756$), averaging opposite sides as for a rectangle ($\\dfrac{1}{2}(7+20)(15+24) = 526.5$, which is wrong for this shape), or using the whole perimeter 66 in place of $s$."
+  },
+  {
+    "id": "ma06-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Brahmagupta generalises Heron",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths06/heron-from-brahma.svg",
+      "alt": "A four-sided figure whose fourth side slowly shrinks"
+    },
+    "assertion": "Heron's formula for a triangle is a special case of Brahmagupta's formula for a cyclic 4-gon.",
+    "reason": "A triangle can be viewed as a cyclic 4-gon whose fourth side has length zero, which makes the factor $s - d$ equal to $s$.",
+    "answer": "a",
+    "hint": "What happens to $\\sqrt{(s-a)(s-b)(s-c)(s-d)}$ when $d = 0$?",
+    "explanation": "Both are true and R explains A. Every triangle is cyclic (its circumcircle). If $d = 0$ then $s = \\dfrac{a + b + c}{2}$ is the triangle's semi-perimeter and the factor $s - d = s$, so the formula becomes $\\sqrt{s(s-a)(s-b)(s-c)}$, which is **Heron's formula**. This is why Brahmagupta's formula is called a generalisation."
+  },
+  {
+    "id": "ma06-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Cyclic 4-gons",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Only one of these four figures must always have all four corners on a single circle. Tap it.",
+    "image": {
+      "src": "/img/maths06/cyclic-quads.svg",
+      "alt": "Four different four-sided figures labelled A to D with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 13.2,
+        "y": 42.5,
+        "label": "Shape A"
+      },
+      {
+        "id": "b",
+        "x": 40,
+        "y": 45,
+        "label": "Shape B"
+      },
+      {
+        "id": "c",
+        "x": 62.3,
+        "y": 39,
+        "label": "Shape C"
+      },
+      {
+        "id": "d",
+        "x": 86.8,
+        "y": 41.5,
+        "label": "Shape D"
+      }
+    ],
+    "answer": "d",
+    "hint": "In a cyclic 4-gon, opposite angles add up to $180^\\circ$.",
+    "explanation": "A **rectangle** is always cyclic: all its angles are $90^\\circ$, so opposite angles add to $180^\\circ$, and its diagonals are equal and bisect each other, giving a common centre. A rhombus that is not a square, a slanted parallelogram and a generic kite have opposite angles that do not add to $180^\\circ$, so no circle passes through all four corners."
+  },
+  {
+    "id": "ma06-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Squaring a rectangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Baudhāyana's method turns a rectangle with sides 18 cm and 8 cm into a square of the **same area**. What is the side of that square?",
+    "image": {
+      "src": "/img/maths06/rect-to-square.svg",
+      "alt": "A rectangle and a dashed square that have the same area"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$13$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$12$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$26$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$144$ cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "Same area means $x^2 = 18 \\times 8$.",
+    "explanation": "The rectangle has area $18 \\times 8 = 144\\ \\text{cm}^2$. A square of side $x$ has area $x^2$, so $x^2 = 144$ and $x = 12$ cm. Traps: using the average of the sides $\\dfrac{18 + 8}{2} = 13$ (that square has area $169$, not $144$), adding the sides ($26$), or quoting the area $144$ as if it were a length (it is in cm$^2$)."
+  },
+  {
+    "id": "ma06-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Squaring a rectangle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "In Baudhāyana's construction, rectangle ABCD has $AD = a > AB = b$. Arrange the construction steps in the correct order.",
+    "image": {
+      "src": "/img/maths06/squaring-steps.svg",
+      "alt": "A rectangle ABCD and a construction with a square and an arc that leads to a square of equal area"
+    },
+    "items": [
+      {
+        "id": "s1",
+        "text": "With centre H and radius HG, draw an arc cutting BC at K"
+      },
+      {
+        "id": "s2",
+        "text": "Mark F, the midpoint of ED"
+      },
+      {
+        "id": "s3",
+        "text": "Draw the square AFGH with H on AB extended"
+      },
+      {
+        "id": "s4",
+        "text": "Mark E on AD so that AE = AB"
+      },
+      {
+        "id": "s5",
+        "text": "Draw a line through K parallel to AH, meeting GH at P, and build the square on HP"
+      }
+    ],
+    "answer": [
+      "s4",
+      "s2",
+      "s3",
+      "s1",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Each step uses a point that was marked in an earlier step.",
+    "explanation": "E is needed to find F, F gives the side AF of the square AFGH, and G is needed for the arc (radius HG). The arc meets BC at K, which gives P and therefore the side HP of the final square. With $AD = 9$ and $AB = 4$, HG $= 6.5$, HK $= 6.5$ and HP $= \\sqrt{6.5^2 - 2.5^2} = 6 = \\sqrt{9 \\times 4}$, so the new square has the same area as the rectangle."
+  },
+  {
+    "id": "ma06-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Rectangles with a fixed perimeter",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Consider all rectangles with perimeter 40 units (the sides need not be whole numbers). Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths06/rect-40.svg",
+      "alt": "A rectangle that changes shape while its perimeter stays fixed"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "There are infinitely many such rectangles"
+      },
+      {
+        "id": "b",
+        "text": "The $10 \\times 10$ square has the greatest area, 100 square units"
+      },
+      {
+        "id": "c",
+        "text": "The $1 \\times 19$ rectangle has the smallest area of all of them"
+      },
+      {
+        "id": "d",
+        "text": "The area can be made as close to 0 as we like"
+      },
+      {
+        "id": "e",
+        "text": "All of them have the same area, because the perimeter is the same"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "If one side is $w$, the other is $20 - w$. What happens to $w(20 - w)$ as $w$ changes?",
+    "explanation": "With one side $w$ the other is $20 - w$, so the area is $w(20 - w)$, which is largest at $w = 10$ (area $100$). Any $w$ between 0 and 20 works, so there are infinitely many rectangles, and as $w \\to 0$ the area gets as small as we like: there is **no** smallest rectangle ($1 \\times 19$ has area $19$, but $0.1 \\times 19.9$ has less). Perimeter does not decide area."
+  },
+  {
+    "id": "ma06-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Ancient area rule",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Ancient Egyptians estimated the area of a circle of diameter $d$ as $\\left(\\dfrac{8}{9}d\\right)^2$. Use this rule for a circle of diameter 18 cm.",
+    "image": {
+      "src": "/img/maths06/egypt-circle.svg",
+      "alt": "A circle with its diameter marked beside a dashed square of unknown side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$288\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$16\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$256\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$324\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "First find $\\dfrac{8}{9}$ of the diameter, then square it.",
+    "explanation": "$\\dfrac{8}{9} \\times 18 = 16$ cm, and the area is $16^2 = 256\\ \\text{cm}^2$. This is close to the true value $\\pi r^2 = \\dfrac{22}{7} \\times 81 \\approx 254.6\\ \\text{cm}^2$. Traps: squaring only the diameter inside the bracket wrongly ($\\dfrac{8}{9} \\times 18^2 = 288$), forgetting to square ($16$, which is a length), or taking the square on the whole diameter ($324$)."
+  },
+  {
+    "id": "ma06-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Archimedes' triangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Archimedes showed that a circle has the same area as a right-angled triangle whose two shorter sides are the circle's radius and its circumference. For a circle of radius 7 cm (circumference 44 cm), what is the area of that triangle?",
+    "image": {
+      "src": "/img/maths06/archimedes-triangle.svg",
+      "alt": "A circle, and a right-angled triangle whose legs are the radius and the unrolled circumference"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$308\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$616\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$51\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$154\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "The legs are perpendicular, so the triangle's area is half the product of its legs.",
+    "explanation": "Area $= \\dfrac{1}{2} \\times 7 \\times 44 = 154\\ \\text{cm}^2$, which is exactly $\\pi r^2 = \\dfrac{22}{7} \\times 49$. In general $\\dfrac{1}{2} \\times r \\times 2\\pi r = \\pi r^2$. Traps: omitting $\\dfrac{1}{2}$ ($308$), using the diameter 14 as a leg ($616$), or **adding** the legs ($51$)."
+  },
+  {
+    "id": "ma06-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a circle from slices",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of Nīlakaṇṭha's picture-proof that the area of a circle is $\\pi r^2$.",
+    "image": {
+      "src": "/img/maths06/slices-circle.svg",
+      "alt": "A circle cut into twelve equal slices and the slices set side by side in a new shape"
+    },
+    "items": [
+      {
+        "id": "s1",
+        "text": "Conclude: area of circle $= \\pi r \\times r = \\pi r^2$"
+      },
+      {
+        "id": "s2",
+        "text": "Fit the slices together, point up and point down alternately"
+      },
+      {
+        "id": "s3",
+        "text": "Cut the circle into many thin equal slices"
+      },
+      {
+        "id": "s4",
+        "text": "Notice the shape looks like a parallelogram with base $\\pi r$ (half the circumference) and height $r$"
+      },
+      {
+        "id": "s5",
+        "text": "Use area of a parallelogram $=$ base $\\times$ height"
+      }
+    ],
+    "answer": [
+      "s3",
+      "s2",
+      "s4",
+      "s5",
+      "s1"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Cut first, rearrange next, measure, then apply the formula.",
+    "explanation": "Cut the circle into thin equal slices, then rearrange them alternately. The new shape is close to a parallelogram whose base is **half the circumference** ($\\pi r$, because each half of the circumference is on one side) and whose height is the radius $r$. Applying area $=$ base $\\times$ height gives $\\pi r \\times r = \\pi r^2$. The thinner the slices, the closer the shape is to a true parallelogram."
+  },
+  {
+    "id": "ma06-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a circle from slices",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Twelve slices of a circle of radius $r$ are laid side by side, pointing alternately up and down. As the slices get thinner this shape looks more and more like a parallelogram. Tap the part of the outline that stands for the **height** of that parallelogram.",
+    "image": {
+      "src": "/img/maths06/slices-rearranged.svg",
+      "alt": "Twelve slices of a circle fitted side by side, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "height",
+        "x": 13.1,
+        "y": 49.1,
+        "label": "Straight slanted end"
+      },
+      {
+        "id": "bottom",
+        "x": 49,
+        "y": 73.8,
+        "label": "Bumpy bottom edge"
+      },
+      {
+        "id": "top",
+        "x": 54.5,
+        "y": 24.5,
+        "label": "Bumpy top edge"
+      },
+      {
+        "id": "slice",
+        "x": 48.5,
+        "y": 42.5,
+        "label": "Inside one slice"
+      },
+      {
+        "id": "tip",
+        "x": 32.1,
+        "y": 64.5,
+        "label": "Tip of a slice"
+      }
+    ],
+    "answer": "height",
+    "hint": "Each slice has two straight edges, both as long as the radius.",
+    "explanation": "The straight end of the shape is a **radius** of the original circle, and it plays the role of the height ($= r$). The bumpy top and bottom edges are made of arcs: each is **half the circumference** ($\\pi r$) and together they are the parallelogram's base. So area $= \\pi r \\times r = \\pi r^2$."
+  },
+  {
+    "id": "ma06-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area formulas",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each numbered marker sits on one shape. Match each shape with the formula for its area.",
+    "image": {
+      "src": "/img/maths06/shapes-formulas.svg",
+      "alt": "Five flat shapes in a row with numbered markers",
+      "markers": [
+        {
+          "x": 15.9,
+          "y": 24,
+          "label": "1"
+        },
+        {
+          "x": 50,
+          "y": 24,
+          "label": "2"
+        },
+        {
+          "x": 84.1,
+          "y": 27.2,
+          "label": "3"
+        },
+        {
+          "x": 21.6,
+          "y": 78,
+          "label": "4"
+        },
+        {
+          "x": 63.6,
+          "y": 76,
+          "label": "5"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Shape 1"
+      },
+      {
+        "id": "l2",
+        "text": "Shape 2"
+      },
+      {
+        "id": "l3",
+        "text": "Shape 3"
+      },
+      {
+        "id": "l4",
+        "text": "Shape 4"
+      },
+      {
+        "id": "l5",
+        "text": "Shape 5"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{1}{2}(a + b)\\,h$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\text{length} \\times \\text{width}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\pi r^2$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{1}{2} \\times \\text{base} \\times \\text{height}$"
+      },
+      {
+        "id": "r5",
+        "text": "$\\text{base} \\times \\text{height}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r5",
+      "l3": "r4",
+      "l4": "r1",
+      "l5": "r3"
+    },
+    "hint": "Shapes: a rectangle, a parallelogram, a triangle, a trapezium, a circle.",
+    "explanation": "Shape 1 is a **rectangle** (area $= \\text{length} \\times \\text{width}$) and shape 2 a **parallelogram** ($\\text{base} \\times \\text{height}$, the perpendicular height). Shape 3 is a **triangle**, half a parallelogram, with area $\\dfrac{1}{2}bh$. Shape 4 is a **trapezium** with parallel sides $a$ and $b$, area $\\dfrac{1}{2}(a+b)h$, and shape 5 is a **circle** with area $\\pi r^2$. All the answers are in **square** units."
+  },
+  {
+    "id": "ma06-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a quadrant",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The circumference of a circle is 44 cm. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the area of a quadrant (a quarter-circle region) of this circle?",
+    "image": {
+      "src": "/img/maths06/quadrant.svg",
+      "alt": "A circle with one quarter of its disc shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$38.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$154\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$77\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$11$ cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find the radius from the circumference first, then take one quarter of the area.",
+    "explanation": "$2\\pi r = 44$ gives $r = 7$ cm. The whole disc has area $\\pi r^2 = 154\\ \\text{cm}^2$ and a quadrant is $\\dfrac{90}{360} = \\dfrac{1}{4}$ of it: $\\dfrac{154}{4} = 38.5\\ \\text{cm}^2$. Traps: the whole disc ($154$), a semicircle ($77$), or the arc **length** $\\dfrac{2\\pi r}{4} = 11$ cm, which is a length, not an area."
+  },
+  {
+    "id": "ma06-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area swept by a clock hand",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The minute hand of a clock is 21 cm long. Taking $\\pi \\approx \\dfrac{22}{7}$, what area does the hand sweep in 10 minutes?",
+    "image": {
+      "src": "/img/maths06/clock.svg",
+      "alt": "A clock face with the minute hand and the region it sweeps shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1{,}386\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$231\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$38.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$462\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The hand turns $360^\\circ$ in 60 minutes. How many degrees is that in 10 minutes?",
+    "explanation": "In 10 minutes the hand turns $\\dfrac{10}{60} \\times 360^\\circ = 60^\\circ$, so it sweeps a sector of angle $60^\\circ$. Area $= \\pi r^2 \\times \\dfrac{60}{360} = \\dfrac{22}{7} \\times 441 \\times \\dfrac{1}{6} = 231\\ \\text{cm}^2$. Traps: the whole circle ($1{,}386$), reading 10 minutes as $10^\\circ$ ($38.5$), or $120^\\circ$ ($462$)."
+  },
+  {
+    "id": "ma06-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a major sector",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A chord of a circle of radius 10 cm subtends $90^\\circ$ at the centre. Taking $\\pi \\approx 3.14$, find the area of the **major** sector (the one that subtends $270^\\circ$).",
+    "image": {
+      "src": "/img/maths06/major-sector.svg",
+      "alt": "A circle with a quarter removed and the rest of the disc shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$78.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$314\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$235.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$157\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The major sector is $\\dfrac{270}{360}$ of the disc. Which sector did the question ask for?",
+    "explanation": "Area $= \\pi r^2 \\times \\dfrac{270}{360} = 3.14 \\times 100 \\times \\dfrac{3}{4} = 235.5\\ \\text{cm}^2$. Traps: giving the **minor** sector ($\\dfrac{314}{4} = 78.5$), the whole disc ($314$), or a half-disc ($157$). Check: minor + major $= 78.5 + 235.5 = 314$, the whole disc."
+  },
+  {
+    "id": "ma06-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Sector of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **sector** of the circle (the region bounded by an arc and the two radii that join its ends to the centre).",
+    "image": {
+      "src": "/img/maths06/sector-segment.svg",
+      "alt": "A circle with a wedge from the centre and a cap cut off by a straight line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "sector",
+        "x": 58.1,
+        "y": 28.3,
+        "label": "Blue wedge"
+      },
+      {
+        "id": "segment",
+        "x": 50,
+        "y": 85.8,
+        "label": "Orange cap"
+      },
+      {
+        "id": "rest",
+        "x": 35,
+        "y": 38.5,
+        "label": "Rest of the disc"
+      },
+      {
+        "id": "arc",
+        "x": 63.1,
+        "y": 15,
+        "label": "Curved edge of the wedge"
+      },
+      {
+        "id": "arcC",
+        "x": 24.1,
+        "y": 43,
+        "label": "Far curved edge"
+      }
+    ],
+    "answer": "sector",
+    "hint": "A sector looks like a slice of pizza: it touches the centre.",
+    "explanation": "A **sector** is bounded by an arc and the two radii to its end points, so it touches the centre of the circle: the blue wedge. The orange region is cut off by a straight chord, which makes it a **segment**, not a sector."
+  },
+  {
+    "id": "ma06-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Segment of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **segment** of the circle (the region bounded by an arc and the chord joining its end points).",
+    "image": {
+      "src": "/img/maths06/sector-segment.svg",
+      "alt": "A circle with a wedge from the centre and a cap cut off by a straight line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "sector",
+        "x": 58.1,
+        "y": 28.3,
+        "label": "Blue wedge"
+      },
+      {
+        "id": "segment",
+        "x": 50,
+        "y": 85.8,
+        "label": "Orange cap"
+      },
+      {
+        "id": "rest",
+        "x": 35,
+        "y": 38.5,
+        "label": "Rest of the disc"
+      },
+      {
+        "id": "arc",
+        "x": 63.1,
+        "y": 15,
+        "label": "Curved edge of the wedge"
+      },
+      {
+        "id": "arcC",
+        "x": 24.1,
+        "y": 43,
+        "label": "Far curved edge"
+      }
+    ],
+    "answer": "segment",
+    "hint": "A segment is cut off by a straight line (a chord), not by radii.",
+    "explanation": "A **segment** is the region between a chord and its arc: the orange cap. Unlike a sector it does not touch the centre. The blue wedge is a sector (arc plus two radii), and the large remaining part is a bigger region that is not named by either word here."
+  },
+  {
+    "id": "ma06-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a segment",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A chord of a circle of radius 15 cm subtends $60^\\circ$ at the centre. Taking $\\pi \\approx 3.14$ and $\\sqrt{3} \\approx 1.73$, find the area of the **minor segment**.",
+    "image": {
+      "src": "/img/maths06/segment.svg",
+      "alt": "A circle with a triangle at the centre and the region between the chord and the arc shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$117.75\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$97.31\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$215.06\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$20.44\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Segment = sector minus the triangle formed by the two radii and the chord.",
+    "explanation": "Sector area $= \\dfrac{3.14 \\times 225 \\times 60}{360} = 117.75$. The triangle with two radii and angle $60^\\circ$ is equilateral with side 15, so its area is $\\dfrac{\\sqrt{3}}{4} \\times 15^2 = \\dfrac{1.73 \\times 225}{4} \\approx 97.31$. Segment $= 117.75 - 97.31 \\approx 20.44\\ \\text{cm}^2$. Traps: giving the sector ($117.75$), the triangle ($97.31$) or **adding** them ($215.06$)."
+  },
+  {
+    "id": "ma06-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Area of a ring",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two circles share the same centre O. A chord BC of the larger circle, 14 cm long, touches the smaller circle at A. Taking $\\pi \\approx \\dfrac{22}{7}$, find the area of the ring between the two circles.",
+    "image": {
+      "src": "/img/maths06/annulus.svg",
+      "alt": "Two circles with the same centre and a chord of the big circle touching the small one"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$154\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$616\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$308\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$44\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "OA is perpendicular to BC at the touching point, so A is the midpoint of BC. Use the right triangle OAB.",
+    "explanation": "In right-angled triangle OAB: $OB^2 = OA^2 + AB^2$, so $R^2 - r^2 = \\left(\\dfrac{14}{2}\\right)^2 = 49$. Ring area $= \\pi R^2 - \\pi r^2 = \\pi(R^2 - r^2) = \\dfrac{22}{7} \\times 49 = 154\\ \\text{cm}^2$ (in general $\\dfrac{\\pi l^2}{4}$). Traps: using the whole chord ($\\pi l^2 = 616$), half of that ($308$), or $\\pi l = 44$, which is not even an area."
+  },
+  {
+    "id": "ma06-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Measuring Space: Perimeter and Area",
+    "chapterNo": 6,
+    "topic": "Polygons inside a circle",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each regular polygon A to D has its corners on a circle of radius $r$. Match each polygon with the ratio $\\dfrac{\\text{area of polygon}}{\\text{area of circle}}$.",
+    "image": {
+      "src": "/img/maths06/inscribed-polygons.svg",
+      "alt": "Four circles each holding a regular polygon with its corners on the circle, labelled A to D"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "A: the equilateral triangle"
+      },
+      {
+        "id": "l2",
+        "text": "B: the square"
+      },
+      {
+        "id": "l3",
+        "text": "C: the regular hexagon"
+      },
+      {
+        "id": "l4",
+        "text": "D: the regular 12-gon"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\approx 0.827$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\approx 0.413$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\approx 0.955$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\approx 0.637$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r4",
+      "l3": "r1",
+      "l4": "r3"
+    },
+    "hint": "The more sides the polygon has, the closer it fills the circle.",
+    "explanation": "More sides means the polygon fills more of the circle, so the ratios increase with the number of sides. Triangle: $\\dfrac{3\\sqrt{3}}{4\\pi} \\approx 0.413$; square: $\\dfrac{2}{\\pi} \\approx 0.637$; hexagon: $\\dfrac{3\\sqrt{3}}{2\\pi} \\approx 0.827$ (exactly twice the triangle's ratio, because the triangle on alternate corners covers half of the hexagon); 12-gon: $\\dfrac{3}{\\pi} \\approx 0.955$. Every ratio is below 1 because a polygon lies inside its circle."
+  }
+]

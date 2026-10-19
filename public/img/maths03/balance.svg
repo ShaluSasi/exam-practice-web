@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A level balance with an expression in each pan</title>
+<style>
+.sp{transform-box:fill-box;transform-origin:center;animation:sp 2.4s ease-in-out infinite}@keyframes sp{50%{transform:scale(.5) rotate(45deg);opacity:.4}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M320 120V320M250 330h140" stroke="#2B2F4A" stroke-width="8" stroke-linecap="round"/><path d="M150 120h340" stroke="#C8925A" stroke-width="12" stroke-linecap="round"/><circle cx="320" cy="120" r="12" fill="#F6C453" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M312 96l8 -16l8 16z" fill="#2B2F4A"/>
+<path d="M150 130L70 220M150 130L230 220" stroke="#2B2F4A" stroke-width="2"/><path d="M50 220h200q-10 30 -100 30q-90 0 -100 -30z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="3"/>
+<rect x="54" y="168" width="192" height="50" rx="10" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/><text x="150" y="200" font-size="18" text-anchor="middle" fill="#2B2F4A">5/6 × (x + 3/5)</text><path d="M490 130L410 220M490 130L570 220" stroke="#2B2F4A" stroke-width="2"/><path d="M390 220h200q-10 30 -100 30q-90 0 -100 -30z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="3"/>
+<rect x="394" y="168" width="192" height="50" rx="10" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/><text x="490" y="200" font-size="18" text-anchor="middle" fill="#2B2F4A">5/6 × x + 1/2</text>
+<path class="sp" d="M320 40l5 10l10 5l-10 5l-5 10l-5 -10l-10 -5l10 -5z" fill="#F6C453"/>
+</svg>

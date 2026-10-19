@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img">
+<title>A stylised globe with one meridian highlighted as the zero line</title>
+<style>
+text{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.h{stroke:#FFF9EE;stroke-width:3px;paint-order:stroke}
+.land{animation:spin 8s linear infinite}@keyframes spin{from{transform:translateX(0)}to{transform:translateX(-270px)}}.star{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{50%{transform:scale(1.35)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="g"><circle cx="180" cy="150" r="115"/></clipPath></defs><circle cx="180" cy="150" r="115" fill="#9ED4F2" stroke="#2B2F4A" stroke-width="3"/><g clip-path="url(#g)"><g class="land"><path d="M60 90q30-30 70-10t40 40q-20 30-60 20t-50-50zM190 70q40-20 80 5t20 50q-40 10-70-10t-30-45zM120 190q30-10 60 10t10 50q-40 10-60-20t-10-40zM230 180q30 0 40 25t-25 35q-30-15-15-60zM330 90q40-20 80 5t20 50q-40 10-70-10t-30-45z" fill="#8FD18F" stroke="#3FA34D" stroke-width="2"/></g><path d="M65 150H295" stroke="#fff" stroke-width="1.5" stroke-dasharray="5 5"/><ellipse cx="180" cy="150" rx="55" ry="115" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="5 5"/><ellipse cx="180" cy="150" rx="95" ry="115" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="5 5"/><path d="M180 35V265" stroke="#FF8A1F" stroke-width="5"/></g><circle class="star" cx="180" cy="128" r="8" fill="#E5484D" stroke="#fff" stroke-width="2.5"/><g transform="translate(220 29)"><rect x="-4" y="-14" width="34" height="22" rx="6" fill="#FF8A1F"/><text x="13" y="2" font-size="13" text-anchor="middle" style="fill:#fff">0°</text></g>
+</svg>

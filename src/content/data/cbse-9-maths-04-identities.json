@@ -1,0 +1,2281 @@
+[
+  {
+    "id": "ma04-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Area model of (a + b)²",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A square of side $(a + b)$ is cut into four pieces. Tap the piece whose area is $b^2$.",
+    "image": {
+      "src": "/img/maths04/area-ab.svg",
+      "alt": "A square of side a + b split into four pieces, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a2",
+        "x": 47.5,
+        "y": 46.67,
+        "label": "Square a by a"
+      },
+      {
+        "id": "ab1",
+        "x": 72.5,
+        "y": 46.67,
+        "label": "Strip b by a (top right)"
+      },
+      {
+        "id": "ab2",
+        "x": 47.5,
+        "y": 80.0,
+        "label": "Strip a by b (bottom left)"
+      },
+      {
+        "id": "b2",
+        "x": 72.5,
+        "y": 80.0,
+        "label": "Small square b by b"
+      }
+    ],
+    "answer": "b2",
+    "hint": "Find the piece whose length **and** breadth are both $b$.",
+    "explanation": "The small corner piece is $b$ long and $b$ wide, so its area is $b \\times b = b^2$. The big piece is $a^2$ and each long strip is $a \\times b = ab$. All four pieces together give $(a+b)^2 = a^2 + 2ab + b^2$, which is why $(a+b)^2$ is **not** just $a^2 + b^2$."
+  },
+  {
+    "id": "ma04-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Area model of (a − b)²",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A square of side $a$ is divided by lines drawn at a distance $b$ from its right edge and from its bottom edge. Tap the piece whose area is $(a - b)^2$.",
+    "image": {
+      "src": "/img/maths04/area-amb.svg",
+      "alt": "A square of side a divided into four pieces, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "tl",
+        "x": 38.75,
+        "y": 33.67,
+        "label": "Top-left square"
+      },
+      {
+        "id": "bl",
+        "x": 38.75,
+        "y": 68.67,
+        "label": "Bottom-left piece"
+      },
+      {
+        "id": "tr",
+        "x": 65.0,
+        "y": 33.67,
+        "label": "Top-right piece"
+      },
+      {
+        "id": "br",
+        "x": 65.0,
+        "y": 68.67,
+        "label": "Bottom-right corner"
+      }
+    ],
+    "answer": "tl",
+    "hint": "Which piece has **both** of its sides equal to $a - b$?",
+    "explanation": "The top-left piece is $(a - b)$ wide and $(a - b)$ tall, so its area is $(a-b)^2$. The bottom-left and top-right pieces are $b(a - b)$ each and the bottom-right corner is $b^2$. This picture is how the textbook visualises $(a-b)^2 = a^2 - 2ab + b^2$."
+  },
+  {
+    "id": "ma04-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Why (a − b)² ends in + b²",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Start with the big square of area $a^2$ and remove two strips of area $ab$ each: the right-hand column ($b$ wide, $a$ tall) and the bottom row ($a$ wide, $b$ tall). One piece gets removed **twice** this way. Tap it.",
+    "image": {
+      "src": "/img/maths04/area-amb.svg",
+      "alt": "A square of side a divided into four pieces, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "tl",
+        "x": 38.75,
+        "y": 33.67,
+        "label": "Top-left square"
+      },
+      {
+        "id": "bl",
+        "x": 38.75,
+        "y": 68.67,
+        "label": "Bottom-left piece"
+      },
+      {
+        "id": "tr",
+        "x": 65.0,
+        "y": 33.67,
+        "label": "Top-right piece"
+      },
+      {
+        "id": "br",
+        "x": 65.0,
+        "y": 68.67,
+        "label": "Bottom-right corner"
+      }
+    ],
+    "answer": "br",
+    "hint": "Which piece lies in **both** the right-hand column and the bottom row?",
+    "explanation": "The bottom-right $b \\times b$ corner belongs to both strips, so $a^2 - 2ab$ takes it away twice. Adding it back once leaves exactly the top-left square: $(a-b)^2 = a^2 - 2ab + b^2$. That is why the last term is $+b^2$, not $-b^2$."
+  },
+  {
+    "id": "ma04-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Area model of (a + b + c)²",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "This square has side $a + b + c$. Tap the marked piece whose area is $bc$.",
+    "image": {
+      "src": "/img/maths04/area-abc.svg",
+      "alt": "A square of side a + b + c split into nine pieces, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a2",
+        "x": 46.88,
+        "y": 37.5,
+        "label": "a by a"
+      },
+      {
+        "id": "ab",
+        "x": 70.0,
+        "y": 37.5,
+        "label": "b by a"
+      },
+      {
+        "id": "ac",
+        "x": 84.38,
+        "y": 37.5,
+        "label": "c by a"
+      },
+      {
+        "id": "b2",
+        "x": 70.0,
+        "y": 68.33,
+        "label": "b by b"
+      },
+      {
+        "id": "bc",
+        "x": 84.38,
+        "y": 68.33,
+        "label": "c by b"
+      },
+      {
+        "id": "c2",
+        "x": 84.38,
+        "y": 87.5,
+        "label": "c by c"
+      }
+    ],
+    "answer": "bc",
+    "hint": "For each piece, read its width along the top and its height along the left side.",
+    "explanation": "The piece in the row of height $b$ and the column of width $c$ has area $b \\times c = bc$. The square contains two such pieces, which give the $2bc$ term in $(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$. The other marked pieces are $a^2$, $ab$, $ac$, $b^2$ and $c^2$."
+  },
+  {
+    "id": "ma04-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Algebra tiles: (x + 3)(x + 4)",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These algebra tiles form a rectangle with sides $x + 3$ and $x + 4$. Each long strip has area $x$ and each small square has area 1. Tap the group of tiles that stands for $4x$.",
+    "image": {
+      "src": "/img/maths04/tiles-x3-x4.svg",
+      "alt": "Algebra tiles arranged in a rectangle, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "x2",
+        "x": 46.25,
+        "y": 38.33,
+        "label": "Big square"
+      },
+      {
+        "id": "three",
+        "x": 71.0,
+        "y": 38.33,
+        "label": "Three strips on the right"
+      },
+      {
+        "id": "four",
+        "x": 46.25,
+        "y": 75.67,
+        "label": "Four strips below"
+      },
+      {
+        "id": "units",
+        "x": 71.0,
+        "y": 75.67,
+        "label": "Small unit squares"
+      }
+    ],
+    "answer": "four",
+    "hint": "Count the long strips in each group.",
+    "explanation": "The four long strips under the big square are each $x$ by 1, so together they make $4x$. The three strips on the right make $3x$, and the $3 \\times 4$ block of small squares makes 12. So $(x+3)(x+4) = x^2 + 3x + 4x + 12 = x^2 + 7x + 12$."
+  },
+  {
+    "id": "ma04-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Algebra tiles: (2x + 3)(3x + 1)",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These tiles show $(2x + 3)(3x + 1)$: the top side is $2x + 3$ and the left side is $3x + 1$. Tap the group of tiles you get by multiplying the $3$ of $2x + 3$ by the $3x$ of $3x + 1$.",
+    "image": {
+      "src": "/img/maths04/tiles-2x3-3x1.svg",
+      "alt": "Algebra tiles for a rectangle of sides 2x + 3 and 3x + 1, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "sq",
+        "x": 50.0,
+        "y": 50.0,
+        "label": "Six big squares"
+      },
+      {
+        "id": "right",
+        "x": 75.0,
+        "y": 50.0,
+        "label": "Nine strips on the right"
+      },
+      {
+        "id": "bottom",
+        "x": 41.25,
+        "y": 88.33,
+        "label": "Two strips in the bottom row"
+      },
+      {
+        "id": "units",
+        "x": 75.0,
+        "y": 88.33,
+        "label": "Three unit squares"
+      }
+    ],
+    "answer": "right",
+    "hint": "That group is 3 units wide and $3x$ tall.",
+    "explanation": "$3 \\times 3x = 9x$: the block on the right is 3 units wide and $3x$ tall, so it holds 9 strips. With the 2 strips in the bottom row ($2x \\times 1$) the $x$-terms total $11x$, and $(2x+3)(3x+1) = 6x^2 + 11x + 3$. This matches $(px + a)(qx + b) = pqx^2 + (pb + qa)x + ab$."
+  },
+  {
+    "id": "ma04-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Splitting the middle term",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "To factorise $x^2 + 11x + 30$ we need two numbers whose **product is 30** and whose **sum is 11**. Tap the right pair.",
+    "image": {
+      "src": "/img/maths04/pairs-30.svg",
+      "alt": "Six cards showing pairs of numbers whose product is 30, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 13.5,
+        "y": 28.0,
+        "label": "1 and 30"
+      },
+      {
+        "id": "p2",
+        "x": 60.0,
+        "y": 28.0,
+        "label": "2 and 15"
+      },
+      {
+        "id": "p3",
+        "x": 13.5,
+        "y": 54.67,
+        "label": "3 and 10"
+      },
+      {
+        "id": "p4",
+        "x": 60.0,
+        "y": 54.67,
+        "label": "−5 and −6"
+      },
+      {
+        "id": "p5",
+        "x": 13.5,
+        "y": 81.33,
+        "label": "5 and 6"
+      },
+      {
+        "id": "p6",
+        "x": 60.0,
+        "y": 81.33,
+        "label": "−2 and −15"
+      }
+    ],
+    "answer": "p5",
+    "hint": "Add the two numbers on each card.",
+    "explanation": "$5 \\times 6 = 30$ and $5 + 6 = 11$, so $x^2 + 11x + 30 = (x + 5)(x + 6)$. The pairs 2, 15 and 3, 10 multiply to 30 but add to 17 and 13. The pair $-5, -6$ also multiplies to 30 but adds to $-11$, which would give $x^2 - 11x + 30$."
+  },
+  {
+    "id": "ma04-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Splitting the middle term",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "To factorise $r^2 - r - 42$, tap the pair of numbers whose product is $-42$ and whose sum is $-1$.",
+    "image": {
+      "src": "/img/maths04/pairs-42.svg",
+      "alt": "Six cards showing pairs of numbers whose product is −42, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 13.5,
+        "y": 28.0,
+        "label": "−6 and 7"
+      },
+      {
+        "id": "p2",
+        "x": 60.0,
+        "y": 28.0,
+        "label": "3 and −14"
+      },
+      {
+        "id": "p3",
+        "x": 13.5,
+        "y": 54.67,
+        "label": "6 and −7"
+      },
+      {
+        "id": "p4",
+        "x": 60.0,
+        "y": 54.67,
+        "label": "−3 and 14"
+      },
+      {
+        "id": "p5",
+        "x": 13.5,
+        "y": 81.33,
+        "label": "2 and −21"
+      },
+      {
+        "id": "p6",
+        "x": 60.0,
+        "y": 81.33,
+        "label": "−2 and 21"
+      }
+    ],
+    "answer": "p3",
+    "hint": "The numbers have opposite signs, and the larger one (ignoring sign) must be negative.",
+    "explanation": "$6 \\times (-7) = -42$ and $6 + (-7) = -1$, so $r^2 - r - 42 = (r + 6)(r - 7)$. The tempting pair $-6, 7$ has the right product but adds to $+1$; that sign slip gives $r^2 + r - 42$ instead."
+  },
+  {
+    "id": "ma04-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Cube of edge (a + b)",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A cube of edge $a + b$ can be cut into pieces of these four shapes. Tap the piece whose volume is $ab^2$.",
+    "image": {
+      "src": "/img/maths04/cube-pieces.svg",
+      "alt": "Four solid pieces with edges labelled a and b, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a3",
+        "x": 16.23,
+        "y": 58.7,
+        "label": "Cube a by a by a"
+      },
+      {
+        "id": "a2b",
+        "x": 45.84,
+        "y": 58.7,
+        "label": "Slab a by a by b"
+      },
+      {
+        "id": "ab2",
+        "x": 68.13,
+        "y": 58.7,
+        "label": "Rod b by a by b"
+      },
+      {
+        "id": "b3",
+        "x": 86.57,
+        "y": 66.96,
+        "label": "Cube b by b by b"
+      }
+    ],
+    "answer": "ab2",
+    "hint": "Volume = length × breadth × height. You need one edge $a$ and two edges $b$.",
+    "explanation": "The tall rod measures $b \\times a \\times b$, so its volume is $ab^2$. The others are $a^3$, $a \\times a \\times b = a^2b$ and $b^3$. A cube of edge $a + b$ holds one $a^3$, three $a^2b$ slabs, three $ab^2$ rods and one $b^3$, so $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$."
+  },
+  {
+    "id": "ma04-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Area of a path",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A square playground of side 30 m has a path of width $s$ m all around it. The path is split into strips and corner squares. Tap a piece of the **path** whose area is $s^2\\ \\text{m}^2$.",
+    "image": {
+      "src": "/img/maths04/playground-path.svg",
+      "alt": "A square playground with a path around it split into pieces, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "field",
+        "x": 50.0,
+        "y": 53.33,
+        "label": "Playground"
+      },
+      {
+        "id": "top",
+        "x": 50.0,
+        "y": 20.0,
+        "label": "Top strip"
+      },
+      {
+        "id": "corner",
+        "x": 27.5,
+        "y": 20.0,
+        "label": "Corner square"
+      },
+      {
+        "id": "right",
+        "x": 72.5,
+        "y": 53.33,
+        "label": "Right strip"
+      }
+    ],
+    "answer": "corner",
+    "hint": "Which piece of the path is $s$ m long and $s$ m wide?",
+    "explanation": "Each corner piece is $s$ m by $s$ m, so its area is $s^2\\ \\text{m}^2$. Each side strip is $30$ m by $s$ m, i.e. $30s\\ \\text{m}^2$, and the green middle is the playground, not the path. Four strips and four corners give a path area of $120s + 4s^2\\ \\text{m}^2$."
+  },
+  {
+    "id": "ma04-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Standard identities",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each expression with its expansion.",
+    "image": {
+      "src": "/img/maths04/identity-cards.svg",
+      "alt": "Four flash cards showing (a + b)², (a − b)², (a + b)(a − b) and (a + b)³"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$(a+b)^2$"
+      },
+      {
+        "id": "l2",
+        "text": "$(a-b)^2$"
+      },
+      {
+        "id": "l3",
+        "text": "$(a+b)(a-b)$"
+      },
+      {
+        "id": "l4",
+        "text": "$(a+b)^3$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$a^2 - b^2$"
+      },
+      {
+        "id": "r2",
+        "text": "$a^2 + 2ab + b^2$"
+      },
+      {
+        "id": "r3",
+        "text": "$a^3 + 3a^2b + 3ab^2 + b^3$"
+      },
+      {
+        "id": "r4",
+        "text": "$a^2 + b^2$"
+      },
+      {
+        "id": "r5",
+        "text": "$a^2 - 2ab + b^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r5",
+      "l3": "r1",
+      "l4": "r3"
+    },
+    "hint": "Watch the signs, and remember that squaring a sum always produces a middle term.",
+    "explanation": "$(a+b)^2 = a^2 + 2ab + b^2$, $(a-b)^2 = a^2 - 2ab + b^2$, $(a+b)(a-b) = a^2 - b^2$ and $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$. The card $a^2 + b^2$ is the classic trap: it is **not** equal to $(a+b)^2$ because it misses $2ab$."
+  },
+  {
+    "id": "ma04-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Area model of (a + b + c)²",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered piece of the square of side $a + b + c$ with its area.",
+    "image": {
+      "src": "/img/maths04/area-abc.svg",
+      "alt": "A square of side a + b + c split into nine pieces, with four numbered pieces",
+      "markers": [
+        {
+          "x": 70.0,
+          "y": 37.5,
+          "label": "1"
+        },
+        {
+          "x": 84.38,
+          "y": 87.5,
+          "label": "2"
+        },
+        {
+          "x": 84.38,
+          "y": 68.33,
+          "label": "3"
+        },
+        {
+          "x": 46.88,
+          "y": 87.5,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "Piece 1"
+      },
+      {
+        "id": "p2",
+        "text": "Piece 2"
+      },
+      {
+        "id": "p3",
+        "text": "Piece 3"
+      },
+      {
+        "id": "p4",
+        "text": "Piece 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "ab",
+        "text": "$ab$"
+      },
+      {
+        "id": "b2",
+        "text": "$b^2$"
+      },
+      {
+        "id": "bc",
+        "text": "$bc$"
+      },
+      {
+        "id": "c2",
+        "text": "$c^2$"
+      },
+      {
+        "id": "ca",
+        "text": "$ca$"
+      }
+    ],
+    "pairs": {
+      "p1": "ab",
+      "p2": "c2",
+      "p3": "bc",
+      "p4": "ca"
+    },
+    "hint": "Multiply the width of the column by the height of the row.",
+    "explanation": "Piece 1 is in the column of width $b$ and the row of height $a$: area $ab$. Piece 2 is $c \\times c = c^2$. Piece 3 is $c$ wide and $b$ tall: $bc$. Piece 4 is $a$ wide and $c$ tall: $ca$. Adding all nine pieces gives $a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$."
+  },
+  {
+    "id": "ma04-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Pieces of the cube (a + b)³",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered piece with its volume.",
+    "image": {
+      "src": "/img/maths04/cube-pieces-mixed.svg",
+      "alt": "Four solid pieces with numbered markers and edges labelled a and b",
+      "markers": [
+        {
+          "x": 11.13,
+          "y": 66.96,
+          "label": "1"
+        },
+        {
+          "x": 31.19,
+          "y": 66.96,
+          "label": "2"
+        },
+        {
+          "x": 54.71,
+          "y": 58.7,
+          "label": "3"
+        },
+        {
+          "x": 81.35,
+          "y": 66.96,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "Piece 1"
+      },
+      {
+        "id": "p2",
+        "text": "Piece 2"
+      },
+      {
+        "id": "p3",
+        "text": "Piece 3"
+      },
+      {
+        "id": "p4",
+        "text": "Piece 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "a3",
+        "text": "$a^3$"
+      },
+      {
+        "id": "a2b",
+        "text": "$a^2b$"
+      },
+      {
+        "id": "ab2",
+        "text": "$ab^2$"
+      },
+      {
+        "id": "b3",
+        "text": "$b^3$"
+      },
+      {
+        "id": "ab",
+        "text": "$3ab$"
+      }
+    ],
+    "pairs": {
+      "p1": "b3",
+      "p2": "ab2",
+      "p3": "a3",
+      "p4": "a2b"
+    },
+    "hint": "Read the three edge labels of each piece and multiply them.",
+    "explanation": "Piece 1 is $b \\times b \\times b = b^3$. Piece 2 is $a \\times b \\times b = ab^2$. Piece 3 is $a \\times a \\times a = a^3$. Piece 4 is $a \\times b \\times a = a^2b$. A cube of edge $a + b$ needs one $a^3$, three $a^2b$, three $ab^2$ and one $b^3$."
+  },
+  {
+    "id": "ma04-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Factorising x² + bx + c",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quadratic with its factors. Watch the signs carefully.",
+    "image": {
+      "src": "/img/maths04/sum-product.svg",
+      "alt": "A sum and product diamond: two unknown numbers that multiply to c and add to b"
+    },
+    "left": [
+      {
+        "id": "q1",
+        "text": "$x^2 + 7x + 12$"
+      },
+      {
+        "id": "q2",
+        "text": "$x^2 - 7x + 12$"
+      },
+      {
+        "id": "q3",
+        "text": "$x^2 + x - 12$"
+      },
+      {
+        "id": "q4",
+        "text": "$x^2 - x - 12$"
+      }
+    ],
+    "right": [
+      {
+        "id": "f1",
+        "text": "$(x-4)(x+3)$"
+      },
+      {
+        "id": "f2",
+        "text": "$(x+3)(x+4)$"
+      },
+      {
+        "id": "f3",
+        "text": "$(x-6)(x+2)$"
+      },
+      {
+        "id": "f4",
+        "text": "$(x+4)(x-3)$"
+      },
+      {
+        "id": "f5",
+        "text": "$(x-3)(x-4)$"
+      }
+    ],
+    "pairs": {
+      "q1": "f2",
+      "q2": "f5",
+      "q3": "f4",
+      "q4": "f1"
+    },
+    "hint": "For $x^2 + bx + c$, find two numbers with product $c$ and sum $b$.",
+    "explanation": "$x^2 + 7x + 12$: $3 + 4 = 7$, $3 \\times 4 = 12$, so $(x+3)(x+4)$. $x^2 - 7x + 12$: $(-3) + (-4) = -7$, so $(x-3)(x-4)$. $x^2 + x - 12$: $4 + (-3) = 1$, so $(x+4)(x-3)$. $x^2 - x - 12$: $(-4) + 3 = -1$, so $(x-4)(x+3)$. The spare $(x-6)(x+2)$ expands to $x^2 - 4x - 12$."
+  },
+  {
+    "id": "ma04-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Mental maths with identities",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Use identities to work these out in your head, then match each calculation with its value.",
+    "image": {
+      "src": "/img/maths04/mental-maths.svg",
+      "alt": "A chalkboard with four quick calculations"
+    },
+    "left": [
+      {
+        "id": "c1",
+        "text": "$98^2$"
+      },
+      {
+        "id": "c2",
+        "text": "$103^2$"
+      },
+      {
+        "id": "c3",
+        "text": "$104 \\times 96$"
+      },
+      {
+        "id": "c4",
+        "text": "$102 \\times 105$"
+      }
+    ],
+    "right": [
+      {
+        "id": "v1",
+        "text": "10710"
+      },
+      {
+        "id": "v2",
+        "text": "9996"
+      },
+      {
+        "id": "v3",
+        "text": "9604"
+      },
+      {
+        "id": "v4",
+        "text": "9984"
+      },
+      {
+        "id": "v5",
+        "text": "10609"
+      }
+    ],
+    "pairs": {
+      "c1": "v3",
+      "c2": "v5",
+      "c3": "v4",
+      "c4": "v1"
+    },
+    "hint": "Write each number as 100 plus or minus something.",
+    "explanation": "$98^2 = (100-2)^2 = 10000 - 400 + 4 = 9604$. $103^2 = (100+3)^2 = 10000 + 600 + 9 = 10609$. $104 \\times 96 = 100^2 - 4^2 = 9984$. $102 \\times 105 = 100^2 + (2+5)100 + 2 \\times 5 = 10710$. The value 9996 is the trap $100^2 - 2^2$ for $98^2$, which wrongly uses $a^2 - b^2$."
+  },
+  {
+    "id": "ma04-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Three consecutive squares",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "For three consecutive square numbers such as 25, 36, 49, (smallest + largest) − 2 × (middle) always equals 2. Put the steps of the algebraic proof in order.",
+    "image": {
+      "src": "/img/maths04/three-squares.svg",
+      "alt": "Three square grids of sides 5, 6 and 7"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Expand: $n^2 - 2n + 1 + n^2 + 2n + 1 = 2n^2 + 2$"
+      },
+      {
+        "id": "s5",
+        "text": "The result is always 2"
+      },
+      {
+        "id": "s1",
+        "text": "Call the three numbers $n - 1$, $n$ and $n + 1$"
+      },
+      {
+        "id": "s4",
+        "text": "Subtract twice the middle square: $2n^2 + 2 - 2n^2$"
+      },
+      {
+        "id": "s2",
+        "text": "Add the smallest and largest squares: $(n-1)^2 + (n+1)^2$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Begin by naming the three numbers using $n$.",
+    "explanation": "Take the numbers as $n - 1$, $n$, $n + 1$. Then $(n-1)^2 + (n+1)^2 = n^2 - 2n + 1 + n^2 + 2n + 1 = 2n^2 + 2$, and subtracting $2n^2$ leaves 2 for **every** $n$. For example $(25 + 49) - 2 \\times 36 = 74 - 72 = 2$."
+  },
+  {
+    "id": "ma04-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Visualising (a − b)²",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Using this square of side $a$, arrange the steps that show $(a-b)^2 = a^2 - 2ab + b^2$.",
+    "image": {
+      "src": "/img/maths04/area-amb.svg",
+      "alt": "A square of side a divided into pieces"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Expand: $a^2 - ab - ab + b^2$"
+      },
+      {
+        "id": "s1",
+        "text": "Area of the whole square is $a^2$"
+      },
+      {
+        "id": "s5",
+        "text": "So $(a-b)^2 = a^2 - 2ab + b^2$"
+      },
+      {
+        "id": "s3",
+        "text": "Remove the lower-left rectangle: $a^2 - ab - b(a-b)$"
+      },
+      {
+        "id": "s2",
+        "text": "Remove the right-hand rectangle: $a^2 - ab$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Start from the whole square and cut pieces away.",
+    "explanation": "The whole square has area $a^2$. Removing the right-hand rectangle ($b$ by $a$) leaves $a^2 - ab$; removing the lower-left rectangle ($a - b$ by $b$) leaves $a^2 - ab - b(a-b)$. Expanding gives $a^2 - ab - ab + b^2 = a^2 - 2ab + b^2$, the area of the top-left square $(a-b)^2$."
+  },
+  {
+    "id": "ma04-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Comparing (a + b)², a² + b², (a − b)² and a² − b²",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "Take $a = 5$ and $b = 2$. Arrange these expressions from **smallest** to **largest** value.",
+    "image": {
+      "src": "/img/maths04/two-rods.svg",
+      "alt": "Two rods, a = 5 units and b = 2 units"
+    },
+    "items": [
+      {
+        "id": "sum2",
+        "text": "$(a+b)^2$"
+      },
+      {
+        "id": "sq",
+        "text": "$a^2 + b^2$"
+      },
+      {
+        "id": "diff2",
+        "text": "$(a-b)^2$"
+      },
+      {
+        "id": "dsq",
+        "text": "$a^2 - b^2$"
+      }
+    ],
+    "answer": [
+      "diff2",
+      "dsq",
+      "sq",
+      "sum2"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Work out each value: you should get 9, 21, 29 and 49 in some order.",
+    "explanation": "$(a-b)^2 = 3^2 = 9$, $a^2 - b^2 = 25 - 4 = 21$, $a^2 + b^2 = 25 + 4 = 29$ and $(a+b)^2 = 7^2 = 49$. Notice $(a+b)^2$ is bigger than $a^2 + b^2$ by $2ab = 20$, and $(a-b)^2$ is smaller by 20."
+  },
+  {
+    "id": "ma04-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Splitting the middle term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to factorise $6x^2 + 7x + 2$ by splitting the middle term.",
+    "image": {
+      "src": "/img/maths04/sum-product-12.svg",
+      "alt": "A sum and product diamond with 12 on top and 7 below"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Split the middle term: $6x^2 + 3x + 4x + 2$"
+      },
+      {
+        "id": "s5",
+        "text": "Take out the common bracket: $(2x + 1)(3x + 2)$"
+      },
+      {
+        "id": "s1",
+        "text": "Multiply the first and last coefficients: $6 \\times 2 = 12$"
+      },
+      {
+        "id": "s4",
+        "text": "Group in pairs: $3x(2x + 1) + 2(2x + 1)$"
+      },
+      {
+        "id": "s2",
+        "text": "Find two numbers with product 12 and sum 7: 3 and 4"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "First multiply the coefficient of $x^2$ by the constant term.",
+    "explanation": "$6 \\times 2 = 12$, and the numbers 3 and 4 have product 12 and sum 7. So $6x^2 + 7x + 2 = 6x^2 + 3x + 4x + 2 = 3x(2x + 1) + 2(2x + 1) = (2x + 1)(3x + 2)$. Check: $(2x+1)(3x+2) = 6x^2 + 4x + 3x + 2$."
+  },
+  {
+    "id": "ma04-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Simplifying rational expressions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "The numerator of $\\dfrac{x^2 - 7x + 12}{5x^2 + 5x - 100}$ is already factorised as $(x-3)(x-4)$. Arrange the remaining steps to simplify it (the denominator is not zero).",
+    "image": {
+      "src": "/img/maths04/cancel-factors.svg",
+      "alt": "A fraction drawn as blocks, with matching blocks crossed out"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Cancel $x - 4$, which is not zero because the denominator is not zero"
+      },
+      {
+        "id": "s2",
+        "text": "Use 5 and $-4$ (sum 1, product $-20$): $5(x + 5)(x - 4)$"
+      },
+      {
+        "id": "s5",
+        "text": "Write the answer $\\dfrac{x-3}{5(x+5)}$"
+      },
+      {
+        "id": "s1",
+        "text": "Take 5 out of the denominator: $5(x^2 + x - 20)$"
+      },
+      {
+        "id": "s3",
+        "text": "Spot $x - 4$ in both the numerator and the denominator"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Look for a number that divides every term of the denominator.",
+    "explanation": "Take out 5: $5(x^2 + x - 20)$. Numbers with sum 1 and product $-20$ are 5 and $-4$, so the denominator is $5(x+5)(x-4)$. The factor $x - 4$ is common and not zero, so it cancels, leaving $\\dfrac{x-3}{5(x+5)}$."
+  },
+  {
+    "id": "ma04-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Square of a trinomial",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths04/area-abc.svg",
+      "alt": "A square of side a + b + c split into nine coloured pieces"
+    },
+    "assertion": "$(a + b + c)^2 = a^2 + b^2 + c^2$ for all values of $a$, $b$ and $c$.",
+    "reason": "A square of side $a + b + c$ is made of three squares and six rectangles, and the rectangles have total area $2ab + 2bc + 2ca$.",
+    "answer": "d",
+    "hint": "Count the pieces in the square: how many are squares and how many are rectangles?",
+    "explanation": "A is false: $(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$. Try $a = b = c = 1$: $9 \\ne 3$. R is true: the square of side $a + b + c$ is made of three squares ($a^2$, $b^2$, $c^2$) and six rectangles with total area $2ab + 2bc + 2ca$. So the answer is (d)."
+  },
+  {
+    "id": "ma04-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Identity or equation?",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths04/balance-equation.svg",
+      "alt": "A balance comparing x² − 1 with 24 for different values of x"
+    },
+    "assertion": "$x^2 - 1 = 24$ is an equation, not an identity.",
+    "reason": "$x^2 - 1 = 24$ is true when $x = 5$.",
+    "answer": "b",
+    "hint": "An identity must be true for **every** value. Does one value that works prove anything about that?",
+    "explanation": "A is true: $x^2 - 1 = 24$ holds only for $x = 5$ or $x = -5$ (try $x = 0$: $-1 \\ne 24$), so it is an equation, not an identity. R is also true, since $25 - 1 = 24$. But R does not explain A: being true for one value says nothing about being false for others. So the answer is (b)."
+  },
+  {
+    "id": "ma04-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Factors of x⁴ − y⁴",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths04/x4-minus-y4.svg",
+      "alt": "A square of side x² with a smaller square of side y² cut from its corner"
+    },
+    "assertion": "$x - y$ is a factor of $x^4 - y^4$.",
+    "reason": "$x^4 - y^4 = (x^2 - y^2)(x^2 + y^2)$ and $x^2 - y^2 = (x - y)(x + y)$.",
+    "answer": "a",
+    "hint": "Treat $x^4$ as $(x^2)^2$ and $y^4$ as $(y^2)^2$.",
+    "explanation": "Using $a^2 - b^2 = (a-b)(a+b)$ twice: $x^4 - y^4 = (x^2 - y^2)(x^2 + y^2) = (x - y)(x + y)(x^2 + y^2)$. So $x - y$ is a factor (A true), and R is exactly the reason why. The answer is (a)."
+  },
+  {
+    "id": "ma04-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "n³ − n is divisible by 6",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths04/three-towers.svg",
+      "alt": "Three towers of blocks of heights n − 1, n and n + 1"
+    },
+    "assertion": "$n^3 - n$ is divisible by 6 for every natural number $n$.",
+    "reason": "$n^3 - n = (n - 1)n(n + 1)$ is a product of three consecutive whole numbers, so it has a factor 2 and a factor 3.",
+    "answer": "a",
+    "hint": "Factorise $n^3 - n$ completely.",
+    "explanation": "$n^3 - n = n(n^2 - 1) = (n-1)n(n+1)$, a product of three consecutive whole numbers. Among them one is even and one is a multiple of 3, so the product is divisible by $2 \\times 3 = 6$; e.g. $5^3 - 5 = 120 = 6 \\times 20$. Both statements are true and R explains A: answer (a)."
+  },
+  {
+    "id": "ma04-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Identities hold for all numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths04/number-line-ab.svg",
+      "alt": "A number line with a marked at −2 and b marked at −3"
+    },
+    "assertion": "$(a + b)^2 = a^2 + 2ab + b^2$ is true even when $a = -2$ and $b = -3$.",
+    "reason": "An algebraic identity is true only when its variables stand for lengths, which are positive.",
+    "answer": "c",
+    "hint": "Substitute $a = -2$ and $b = -3$ into both sides.",
+    "explanation": "A is true: $(a + b)^2 = (-5)^2 = 25$ and $a^2 + 2ab + b^2 = 4 + 12 + 9 = 25$. R is false: the area picture uses lengths, but the distributive property proves the identity for **all** numbers — negative numbers and fractions too. So the answer is (c)."
+  },
+  {
+    "id": "ma04-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Identity or equation?",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "multi",
+    "prompt": "An **identity** is true for every value of its variables. Select **all** the identities.",
+    "image": {
+      "src": "/img/maths04/balance-identity.svg",
+      "alt": "A balance comparing a left side and a right side as x changes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(x+y)^2 = x^2 + 2xy + y^2$"
+      },
+      {
+        "id": "b",
+        "text": "$x^2 - 1 = 24$"
+      },
+      {
+        "id": "c",
+        "text": "$(x+3)(x-3) = x^2 - 9$"
+      },
+      {
+        "id": "d",
+        "text": "$(x+y)^2 = x^2 + y^2$"
+      },
+      {
+        "id": "e",
+        "text": "$(x+2)(x+5) = x^2 + 7x + 10$"
+      },
+      {
+        "id": "f",
+        "text": "$2x + 3 = 11$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Try two different values, such as $x = 0$ and $x = 1$, in each one.",
+    "explanation": "$(x+y)^2 = x^2 + 2xy + y^2$, $(x+3)(x-3) = x^2 - 9$ and $(x+2)(x+5) = x^2 + 7x + 10$ hold for all values, so they are identities. $x^2 - 1 = 24$ and $2x + 3 = 11$ are equations true only for particular $x$. $(x+y)^2 = x^2 + y^2$ fails for $x = y = 1$ ($4 \\ne 2$)."
+  },
+  {
+    "id": "ma04-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Equivalent forms of (a − b)²",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the expressions that are always equal to $(a - b)^2$.",
+    "image": {
+      "src": "/img/maths04/area-amb.svg",
+      "alt": "A square of side a divided into pieces"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a^2 - 2ab + b^2$"
+      },
+      {
+        "id": "b",
+        "text": "$a^2 - b^2$"
+      },
+      {
+        "id": "c",
+        "text": "$(b - a)^2$"
+      },
+      {
+        "id": "d",
+        "text": "$a^2 - 2ab - b^2$"
+      },
+      {
+        "id": "e",
+        "text": "$(a+b)^2 - 4ab$"
+      },
+      {
+        "id": "f",
+        "text": "$a^2 + b^2$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Expand each one, or test with $a = 5$, $b = 2$ (the target value is 9).",
+    "explanation": "$(a-b)^2 = a^2 - 2ab + b^2 = a^2 + b^2 - 2ab$. Also $(b-a)^2$ is the same because squaring removes the sign, and $(a+b)^2 - 4ab = a^2 + 2ab + b^2 - 4ab = a^2 - 2ab + b^2$. With $a = 5$, $b = 2$: $a^2 - b^2 = 21$, $a^2 - 2ab - b^2 = 1$ and $a^2 + b^2 = 29$, not 9."
+  },
+  {
+    "id": "ma04-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Number plus its reciprocal",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A number plus its reciprocal equals $\\dfrac{17}{4}$. Select **all** possible values of the number.",
+    "image": {
+      "src": "/img/maths04/reciprocal-cards.svg",
+      "alt": "A number card plus its reciprocal card equals seventeen quarters"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4$"
+      },
+      {
+        "id": "b",
+        "text": "$-4$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{17}{4}$"
+      },
+      {
+        "id": "e",
+        "text": "$2$"
+      },
+      {
+        "id": "f",
+        "text": "$-\\dfrac{1}{4}$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c"
+    ],
+    "hint": "Multiply $x + \\dfrac{1}{x} = \\dfrac{17}{4}$ by $4x$ and factorise the quadratic.",
+    "explanation": "$4x^2 + 4 = 17x$, so $4x^2 - 17x + 4 = 0$. Split $-17x$ as $-16x - x$ (product $16$, sum $-17$): $4x(x - 4) - 1(x - 4) = (4x - 1)(x - 4) = 0$, giving $x = 4$ or $x = \\dfrac{1}{4}$. Check: $4 + \\dfrac14 = \\dfrac{17}{4}$. Negative numbers give a negative sum, and $\\dfrac{17}{4} + \\dfrac{4}{17}$ is far bigger."
+  },
+  {
+    "id": "ma04-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "When is (a + b)² smaller than a² + b²?",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "multi",
+    "prompt": "For which pairs $(a, b)$ is $(a + b)^2$ **smaller** than $a^2 + b^2$? Select all.",
+    "image": {
+      "src": "/img/maths04/seesaw-compare.svg",
+      "alt": "A seesaw with (a + b)² on one side and a² + b² on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(3,\\ -5)$"
+      },
+      {
+        "id": "b",
+        "text": "$(-2,\\ -4)$"
+      },
+      {
+        "id": "c",
+        "text": "$(-6,\\ 1)$"
+      },
+      {
+        "id": "d",
+        "text": "$(2,\\ 7)$"
+      },
+      {
+        "id": "e",
+        "text": "$(0,\\ 5)$"
+      },
+      {
+        "id": "f",
+        "text": "$(4,\\ -1)$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "f"
+    ],
+    "hint": "$(a+b)^2 - (a^2 + b^2) = 2ab$. When is $2ab$ negative?",
+    "explanation": "$(a+b)^2$ is smaller exactly when $2ab < 0$, i.e. when $a$ and $b$ have **opposite signs**. Check $(3, -5)$: $(-2)^2 = 4 < 9 + 25 = 34$. Two negatives give $ab > 0$, so $(a+b)^2$ is bigger, and $(0, 5)$ gives $ab = 0$, so both sides are equal (25)."
+  },
+  {
+    "id": "ma04-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Expanding (a + b)²",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Use the area model to expand $(3x + 4y)^2$.",
+    "image": {
+      "src": "/img/maths04/area-3x4y.svg",
+      "alt": "An area model with sides 3x + 4y"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$9x^2 + 16y^2$"
+      },
+      {
+        "id": "b",
+        "text": "$9x^2 + 12xy + 16y^2$"
+      },
+      {
+        "id": "c",
+        "text": "$3x^2 + 24xy + 4y^2$"
+      },
+      {
+        "id": "d",
+        "text": "$9x^2 + 24xy + 16y^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Take $a = 3x$ and $b = 4y$ in $a^2 + 2ab + b^2$.",
+    "explanation": "$(3x)^2 + 2(3x)(4y) + (4y)^2 = 9x^2 + 24xy + 16y^2$. Leaving out the two $12xy$ rectangles gives $9x^2 + 16y^2$; forgetting the 2 gives $12xy$; and $3x^2$ comes from not squaring the coefficient 3."
+  },
+  {
+    "id": "ma04-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Expanding with fractions",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Expand $\\left(\\dfrac{2}{3}m + 6n\\right)^2$.",
+    "image": {
+      "src": "/img/maths04/area-frac.svg",
+      "alt": "An area model with sides two-thirds m + 6n"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{4}{9}m^2 + 36n^2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{4}{9}m^2 + 8mn + 36n^2$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{4}{9}m^2 + 4mn + 36n^2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{2}{3}m^2 + 8mn + 6n^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Middle term: $2 \\times \\dfrac{2}{3}m \\times 6n$.",
+    "explanation": "$\\left(\\dfrac23 m\\right)^2 + 2\\left(\\dfrac23 m\\right)(6n) + (6n)^2 = \\dfrac49 m^2 + 8mn + 36n^2$. Dropping the middle term or forgetting its 2 gives the wrong options, and $\\dfrac23 m^2 + 6n^2$ comes from not squaring the coefficients."
+  },
+  {
+    "id": "ma04-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Combining identities",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "James and Reshma both start to expand $(a - b)^2(a + b)$ as shown. Who is right?",
+    "image": {
+      "src": "/img/maths04/james-reshma.svg",
+      "alt": "James and Reshma each write a first step for (a − b)²(a + b)"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Only James"
+      },
+      {
+        "id": "b",
+        "text": "Only Reshma"
+      },
+      {
+        "id": "c",
+        "text": "Both: each way gives $a^3 - a^2b - ab^2 + b^3$"
+      },
+      {
+        "id": "d",
+        "text": "Neither: $(a-b)^2(a+b)$ cannot be expanded"
+      }
+    ],
+    "answer": "c",
+    "hint": "Is each first step a correct use of an identity? Do both reach the same final answer?",
+    "explanation": "Both first steps are valid: James uses $(a-b)^2 = a^2 - 2ab + b^2$, while Reshma groups $(a-b)(a+b) = a^2 - b^2$. Either way the product is $a^3 - a^2b - ab^2 + b^3$. Identities can be combined in different orders and still agree."
+  },
+  {
+    "id": "ma04-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Squaring numbers with (a − b)²",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find $198^2$ using $(a - b)^2 = a^2 - 2ab + b^2$.",
+    "image": {
+      "src": "/img/maths04/board-198.svg",
+      "alt": "A chalkboard asking for 198 squared"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "40804"
+      },
+      {
+        "id": "b",
+        "text": "39204"
+      },
+      {
+        "id": "c",
+        "text": "39196"
+      },
+      {
+        "id": "d",
+        "text": "39996"
+      }
+    ],
+    "answer": "b",
+    "hint": "$198 = 200 - 2$.",
+    "explanation": "$198^2 = (200-2)^2 = 40000 - 2 \\times 200 \\times 2 + 4 = 40000 - 800 + 4 = 39204$. $39196$ comes from writing $-b^2$, $40804$ from using the plus identity, and $39996 = 200^2 - 2^2$ mixes it up with $a^2 - b^2$."
+  },
+  {
+    "id": "ma04-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Squaring numbers with (a + b + c)²",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find $117^2$ by writing $117 = 100 + 10 + 7$ and using $(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$.",
+    "image": {
+      "src": "/img/maths04/area-117.svg",
+      "alt": "An area model of 117 squared split as 100, 10 and 7"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10149"
+      },
+      {
+        "id": "b",
+        "text": "11919"
+      },
+      {
+        "id": "c",
+        "text": "10289"
+      },
+      {
+        "id": "d",
+        "text": "13689"
+      }
+    ],
+    "answer": "d",
+    "hint": "Add the three squares and the three doubled products.",
+    "explanation": "$10000 + 100 + 49 + 2(100)(10) + 2(10)(7) + 2(7)(100) = 10149 + 2000 + 140 + 1400 = 13689$. $10149$ drops all the rectangles, $11919$ forgets to double them, and $10289 = 100^2 + 17^2$ uses the trap $(a+b)^2 = a^2 + b^2$."
+  },
+  {
+    "id": "ma04-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Products with (a + b)(a − b)",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find $53 \\times 47$ without long multiplication.",
+    "image": {
+      "src": "/img/maths04/rect-53-47.svg",
+      "alt": "A 53 by 47 rectangle with a dashed 50 by 50 square drawn over it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "2491"
+      },
+      {
+        "id": "b",
+        "text": "2509"
+      },
+      {
+        "id": "c",
+        "text": "2497"
+      },
+      {
+        "id": "d",
+        "text": "2809"
+      }
+    ],
+    "answer": "a",
+    "hint": "Both numbers are 3 away from 50.",
+    "explanation": "$53 \\times 47 = (50 + 3)(50 - 3) = 50^2 - 3^2 = 2500 - 9 = 2491$. $2509$ adds 9 instead of subtracting, $2497$ subtracts 3 instead of $3^2$, and $2809$ is $53^2$."
+  },
+  {
+    "id": "ma04-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Four consecutive squares",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Take four consecutive square numbers, e.g. 9, 16, 25, 36. Add the smallest and the largest, then subtract the two middle squares. What do you get?",
+    "image": {
+      "src": "/img/maths04/four-squares.svg",
+      "alt": "Four square grids of sides 3, 4, 5 and 6"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Always 4"
+      },
+      {
+        "id": "b",
+        "text": "Always 2"
+      },
+      {
+        "id": "c",
+        "text": "Always 0"
+      },
+      {
+        "id": "d",
+        "text": "It changes with the squares chosen"
+      }
+    ],
+    "answer": "a",
+    "hint": "Write the numbers as $n$, $n+1$, $n+2$, $n+3$ and expand.",
+    "explanation": "$n^2 + (n+3)^2 - (n+1)^2 - (n+2)^2 = n^2 + n^2 + 6n + 9 - n^2 - 2n - 1 - n^2 - 4n - 4 = 4$. Check: $9 + 36 - 16 - 25 = 4$. The $n$-terms cancel, so the answer never changes; 2 is the answer for the three-square pattern."
+  },
+  {
+    "id": "ma04-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Śrīdharāchārya's method",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In 750 CE, Śrīdharāchārya used $a^2 = (a + b)(a - b) + b^2$ to square numbers quickly. Use it to find $65^2$.",
+    "image": {
+      "src": "/img/maths04/sridhara-strip.svg",
+      "alt": "A square of side a with a strip of width b moved to its side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "4200"
+      },
+      {
+        "id": "b",
+        "text": "3625"
+      },
+      {
+        "id": "c",
+        "text": "4225"
+      },
+      {
+        "id": "d",
+        "text": "4205"
+      }
+    ],
+    "answer": "c",
+    "hint": "Choose $b = 5$ so that $a + b$ and $a - b$ are round numbers.",
+    "explanation": "$65^2 = (65 + 5)(65 - 5) + 5^2 = 70 \\times 60 + 25 = 4200 + 25 = 4225$. $4200$ forgets the $+b^2$, $4205$ adds $b$ instead of $b^2$, and $3625 = 60^2 + 5^2$ is the $(a+b)^2 = a^2 + b^2$ trap."
+  },
+  {
+    "id": "ma04-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Cubing numbers with (a − b)³",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find $99^3$ using $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$.",
+    "image": {
+      "src": "/img/maths04/cube-99.svg",
+      "alt": "A cube with every edge 99 units long"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "999999"
+      },
+      {
+        "id": "b",
+        "text": "969699"
+      },
+      {
+        "id": "c",
+        "text": "970301"
+      },
+      {
+        "id": "d",
+        "text": "970299"
+      }
+    ],
+    "answer": "d",
+    "hint": "$99 = 100 - 1$; the signs alternate $+,\\ -,\\ +,\\ -$.",
+    "explanation": "$(100 - 1)^3 = 1000000 - 3(10000)(1) + 3(100)(1) - 1 = 1000000 - 30000 + 300 - 1 = 970299$. $999999$ keeps only the cubes, $969699$ makes every sign negative, and $970301$ ends with $+1$ instead of $-1$."
+  },
+  {
+    "id": "ma04-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Factorising with a common factor",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Factorise completely: $18a^2 + 48ab + 32b^2$.",
+    "image": {
+      "src": "/img/maths04/board-factor-2.svg",
+      "alt": "A chalkboard with an expression to factorise"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(6a + 8b)^2$"
+      },
+      {
+        "id": "b",
+        "text": "$2(3a + 4b)^2$"
+      },
+      {
+        "id": "c",
+        "text": "$2(9a + 16b)^2$"
+      },
+      {
+        "id": "d",
+        "text": "$2(3a + 4b)(3a - 4b)$"
+      }
+    ],
+    "answer": "b",
+    "hint": "First take out the common factor 2.",
+    "explanation": "$18a^2 + 48ab + 32b^2 = 2(9a^2 + 24ab + 16b^2) = 2[(3a)^2 + 2(3a)(4b) + (4b)^2] = 2(3a + 4b)^2$. $(6a + 8b)^2 = 4(3a + 4b)^2$ is double the expression, and $2(3a+4b)(3a-4b)$ has no middle term."
+  },
+  {
+    "id": "ma04-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Factorising a square of three terms",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Factorise $9a^2 + b^2 + 4c^2 - 6ab + 12ac - 4bc$.",
+    "image": {
+      "src": "/img/maths04/board-factor-3.svg",
+      "alt": "A chalkboard with a six-term expression to factorise"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(3a + b + 2c)^2$"
+      },
+      {
+        "id": "b",
+        "text": "$(3a - b - 2c)^2$"
+      },
+      {
+        "id": "c",
+        "text": "$(3a - b + 2c)^2$"
+      },
+      {
+        "id": "d",
+        "text": "$(9a - b + 4c)^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The square terms give $3a$, $b$, $2c$. Use the signs of $ab$, $ac$ and $bc$ to choose the signs.",
+    "explanation": "$-6ab$ means $a$ and $b$ have opposite signs, $+12ac$ means $a$ and $c$ have the same sign, and $-4bc$ means $b$ and $c$ have opposite signs. So it is $(3a - b + 2c)^2$: check $2(3a)(-b) = -6ab$, $2(3a)(2c) = 12ac$, $2(-b)(2c) = -4bc$. $(3a+b+2c)^2$ gives $+6ab$, and $(9a - b + 4c)^2$ forgets to take square roots."
+  },
+  {
+    "id": "ma04-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Splitting the middle term",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Factorise $10x^2 - 11x - 6$.",
+    "image": {
+      "src": "/img/maths04/sum-product-60.svg",
+      "alt": "A sum and product diamond with −60 on top and −11 below"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2x + 3)(5x - 2)$"
+      },
+      {
+        "id": "b",
+        "text": "$(5x - 3)(2x + 2)$"
+      },
+      {
+        "id": "c",
+        "text": "$(10x - 3)(x + 2)$"
+      },
+      {
+        "id": "d",
+        "text": "$(2x - 3)(5x + 2)$"
+      }
+    ],
+    "answer": "d",
+    "hint": "$10 \\times (-6) = -60$. Find two numbers with product $-60$ and sum $-11$.",
+    "explanation": "$-15$ and $4$ work. $10x^2 - 15x + 4x - 6 = 5x(2x - 3) + 2(2x - 3) = (2x - 3)(5x + 2)$. $(2x+3)(5x-2)$ gives $+11x$ (signs swapped), $(5x-3)(2x+2)$ gives $+4x$, and $(10x-3)(x+2)$ gives $+17x$."
+  },
+  {
+    "id": "ma04-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Using (a + b)³",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A cube has volume $27m^3 + 27m^2n + 9mn^2 + n^3$ cubic units. What is the length of its edge?",
+    "image": {
+      "src": "/img/maths04/cube-volume.svg",
+      "alt": "A cube with unknown edge and a given volume"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3m + n$"
+      },
+      {
+        "id": "b",
+        "text": "$9m + n$"
+      },
+      {
+        "id": "c",
+        "text": "$3m + 3n$"
+      },
+      {
+        "id": "d",
+        "text": "$27m + n$"
+      }
+    ],
+    "answer": "a",
+    "hint": "$27m^3 = (3m)^3$ and $n^3 = (n)^3$. Check the middle terms.",
+    "explanation": "With $a = 3m$, $b = n$: $a^3 + 3a^2b + 3ab^2 + b^3 = 27m^3 + 3(9m^2)n + 3(3m)n^2 + n^3 = 27m^3 + 27m^2n + 9mn^2 + n^3$. So the volume is $(3m + n)^3$ and the edge is $3m + n$. $9m + n$ and $27m + n$ come from not taking the cube root of 27."
+  },
+  {
+    "id": "ma04-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Sum of two cubes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Factorise $8a^3 + 27b^3$.",
+    "image": {
+      "src": "/img/maths04/two-cubes.svg",
+      "alt": "Two cubes of volumes 8a³ and 27b³"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2a + 3b)^3$"
+      },
+      {
+        "id": "b",
+        "text": "$(2a + 3b)(4a^2 - 6ab + 9b^2)$"
+      },
+      {
+        "id": "c",
+        "text": "$(2a + 3b)(4a^2 + 6ab + 9b^2)$"
+      },
+      {
+        "id": "d",
+        "text": "$(2a - 3b)(4a^2 + 6ab + 9b^2)$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use $x^3 + y^3 = (x + y)(x^2 - xy + y^2)$ with $x = 2a$, $y = 3b$.",
+    "explanation": "$8a^3 + 27b^3 = (2a)^3 + (3b)^3 = (2a + 3b)(4a^2 - 6ab + 9b^2)$. The bracket with $+6ab$ belongs to a **difference** of cubes, $(2a - 3b)(4a^2 + 6ab + 9b^2) = 8a^3 - 27b^3$, and $(2a + 3b)^3$ has extra middle terms."
+  },
+  {
+    "id": "ma04-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "x³ + y³ + z³ − 3xyz",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Without cubing each number, find $12^3 + (-7)^3 + (-5)^3$.",
+    "image": {
+      "src": "/img/maths04/balloons.svg",
+      "alt": "Three balloons labelled 12, −7 and −5"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0$"
+      },
+      {
+        "id": "b",
+        "text": "$420$"
+      },
+      {
+        "id": "c",
+        "text": "$-1260$"
+      },
+      {
+        "id": "d",
+        "text": "$1260$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Add the three numbers first. Then use $x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx)$.",
+    "explanation": "$12 + (-7) + (-5) = 0$, so the right side of the identity is 0 and $x^3 + y^3 + z^3 = 3xyz = 3 \\times 12 \\times (-7) \\times (-5) = 1260$. Check: $1728 - 343 - 125 = 1260$. $420$ forgets the 3, $-1260$ is a sign slip (two negatives multiply to a positive), and 0 confuses the sum with the sum of cubes."
+  },
+  {
+    "id": "ma04-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "x³ + y³ + z³ − 3xyz",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "If $a + b + c = 6$ and $ab + bc + ca = 11$, find $a^3 + b^3 + c^3 - 3abc$.",
+    "image": {
+      "src": "/img/maths04/mystery-abc.svg",
+      "alt": "Three mystery boxes a, b and c with two clue cards"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$18$"
+      },
+      {
+        "id": "b",
+        "text": "$84$"
+      },
+      {
+        "id": "c",
+        "text": "$150$"
+      },
+      {
+        "id": "d",
+        "text": "$-18$"
+      }
+    ],
+    "answer": "a",
+    "hint": "First find $a^2 + b^2 + c^2$ from $(a + b + c)^2$.",
+    "explanation": "$a^2 + b^2 + c^2 = 6^2 - 2(11) = 14$. Then $a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2 + b^2 + c^2 - ab - bc - ca) = 6(14 - 11) = 18$. $84 = 6 \\times 14$ forgets to subtract 11, $150 = 6(36 - 11)$ uses 36 as the sum of squares, and $-18$ is a sign slip."
+  },
+  {
+    "id": "ma04-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Sum of cubes of three numbers",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Three numbers have sum 9, product 24 and sum of squares 29. Use identities to find the sum of their cubes.",
+    "image": {
+      "src": "/img/maths04/mystery-xyz.svg",
+      "alt": "Three mystery boxes x, y and z with three clue cards"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$27$"
+      },
+      {
+        "id": "b",
+        "text": "$-135$"
+      },
+      {
+        "id": "c",
+        "text": "$99$"
+      },
+      {
+        "id": "d",
+        "text": "$333$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Find $xy + yz + zx$ from $(x + y + z)^2$, then use $x^3 + y^3 + z^3 - 3xyz = (x+y+z)(x^2 + y^2 + z^2 - xy - yz - zx)$.",
+    "explanation": "$81 = 29 + 2(xy + yz + zx)$, so $xy + yz + zx = 26$. Then $x^3 + y^3 + z^3 = 9(29 - 26) + 3(24) = 27 + 72 = 99$ (the numbers are 2, 3, 4: $8 + 27 + 64 = 99$). $27$ forgets to add $3xyz$, $-135$ forgets to halve 52, and $333 = 9 \\times 29 + 72$ skips subtracting $xy + yz + zx$."
+  },
+  {
+    "id": "ma04-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Simplifying rational expressions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Simplify $\\dfrac{x^2 - 5x + 6}{3x^2 + 3x - 18}$, assuming the denominator is not zero.",
+    "image": {
+      "src": "/img/maths04/cancel-factors.svg",
+      "alt": "A fraction drawn as blocks, with matching blocks crossed out"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{x - 3}{3(x + 3)}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{x - 3}{x + 3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{x + 3}{3(x - 3)}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{-5x + 6}{3x - 18}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Factorise the top and bottom completely, then cancel a common factor.",
+    "explanation": "Top: $(x - 2)(x - 3)$. Bottom: $3(x^2 + x - 6) = 3(x + 3)(x - 2)$. Cancelling $x - 2$ gives $\\dfrac{x - 3}{3(x + 3)}$. Losing the 3 gives $\\dfrac{x-3}{x+3}$, and cancelling the $x^2$ terms directly is not allowed: only common **factors** cancel, never terms."
+  },
+  {
+    "id": "ma04-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Length and breadth from area",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A rectangular pool's breadth is 3 m less than its length, and its area is $108\\ \\text{m}^2$. Find its length and breadth.",
+    "image": {
+      "src": "/img/maths04/pool.svg",
+      "alt": "A rectangular swimming pool of length x metres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Length 12 m, breadth 9 m"
+      },
+      {
+        "id": "b",
+        "text": "Length 9 m, breadth 6 m"
+      },
+      {
+        "id": "c",
+        "text": "Length 12 m, breadth 15 m"
+      },
+      {
+        "id": "d",
+        "text": "Length 36 m, breadth 3 m"
+      }
+    ],
+    "answer": "a",
+    "hint": "Solve $x(x - 3) = 108$ by factorising $x^2 - 3x - 108$.",
+    "explanation": "$x^2 - 3x - 108 = 0$. Numbers with product $-108$ and sum $-3$: $-12$ and $9$, so $(x - 12)(x + 9) = 0$ and $x = 12$ (a length cannot be $-9$). Breadth $= 12 - 3 = 9$ m; check $12 \\times 9 = 108$. The 9 m by 6 m option comes from a sign slip, 12 by 15 adds 3 instead of subtracting, and 36 by 3 ignores the difference of 3 m."
+  },
+  {
+    "id": "ma04-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Area of a path",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A square playground of side 30 m has a path of uniform width $s$ m built all around it, outside the playground. What is the area of the path?",
+    "image": {
+      "src": "/img/maths04/playground-path.svg",
+      "alt": "A square playground with a path of width s around it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$60s + s^2$"
+      },
+      {
+        "id": "b",
+        "text": "$120s + 4s^2$"
+      },
+      {
+        "id": "c",
+        "text": "$120s$"
+      },
+      {
+        "id": "d",
+        "text": "$4s^2 + 120s + 900$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Outer square side $= 30 + 2s$. Subtract the playground's area.",
+    "explanation": "$(30 + 2s)^2 - 30^2 = 900 + 120s + 4s^2 - 900 = 120s + 4s^2\\ \\text{m}^2$. $60s + s^2$ comes from using $30 + s$ (width on one side only), $120s$ forgets the four corner squares, and keeping 900 forgets to remove the playground."
+  },
+  {
+    "id": "ma04-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Exploring Algebraic Identities",
+    "chapterNo": 4,
+    "topic": "Algebra tiles: factorising",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Saira has one $x^2$ tile, five $x$-strips and six unit squares, i.e. $x^2 + 5x + 6$. Which arrangement uses **exactly** these tiles to make a complete rectangle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arrangement P",
+        "image": {
+          "src": "/img/maths04/tiles-opt-p.svg",
+          "alt": "Tile arrangement P"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Arrangement Q",
+        "image": {
+          "src": "/img/maths04/tiles-opt-q.svg",
+          "alt": "Tile arrangement Q"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Arrangement R",
+        "image": {
+          "src": "/img/maths04/tiles-opt-r.svg",
+          "alt": "Tile arrangement R"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Arrangement S",
+        "image": {
+          "src": "/img/maths04/tiles-opt-s.svg",
+          "alt": "Tile arrangement S"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Count the strips and squares in each picture, then check that there are no gaps or overhangs.",
+    "explanation": "R uses $x^2$, 5 strips (3 on the right, 2 below) and a $3 \\times 2$ block of 6 squares, forming a rectangle $(x + 3)$ by $(x + 2)$. So $x^2 + 5x + 6 = (x + 2)(x + 3)$. P and S use the right tiles but leave an uneven edge, and Q is a full rectangle but uses 6 strips and 9 squares, i.e. $(x + 3)^2$."
+  }
+]

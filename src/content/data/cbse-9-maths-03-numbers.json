@@ -1,0 +1,2277 @@
+[
+  {
+    "id": "ma03-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "One-to-one correspondence",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Every morning a herder drops one pebble into a clay pot for each cow that goes out to graze. In the evening he takes out one pebble for each cow that comes back. The picture shows the pot after the last cow has come home. What can he conclude?",
+    "image": {
+      "src": "/img/maths03/pebble-pot.svg",
+      "alt": "Cows walking home at sunset past a clay pot that has some pebbles in it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "All the cows are safely home"
+      },
+      {
+        "id": "b",
+        "text": "3 cows are still missing"
+      },
+      {
+        "id": "c",
+        "text": "3 extra cows have joined the herd"
+      },
+      {
+        "id": "d",
+        "text": "Only 3 cows came back"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each pebble left in the pot stands for a cow that was never matched in the evening.",
+    "explanation": "This is **one-to-one correspondence**: every cow is matched with exactly one pebble. A returning cow removes its pebble, so each pebble still in the pot is a cow that did not return — here **3 cows are missing**. An empty pot would mean the herd was safe. Matching objects like this, even without number words, is how the **natural numbers** $\\mathbb{N} = \\{1, 2, 3, \\ldots\\}$ were born."
+  },
+  {
+    "id": "ma03-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "History of numbers",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each artefact or record with what it tells us about the history of numbers.",
+    "image": {
+      "src": "/img/maths03/artefacts-shelf.svg",
+      "alt": "A museum shelf with two carved bones, a manuscript page, a bundle of leaves and a clay tablet"
+    },
+    "left": [
+      {
+        "id": "leb",
+        "text": "Lebombo bone (about 35,000 years old)"
+      },
+      {
+        "id": "ish",
+        "text": "Ishango bone (about 20,000 BCE)"
+      },
+      {
+        "id": "bak",
+        "text": "Bakhśhālī manuscript"
+      },
+      {
+        "id": "bra",
+        "text": "Brāhmasphuṭasiddhānta (628 CE)"
+      },
+      {
+        "id": "bab",
+        "text": "Babylonian and Mayan records"
+      }
+    ],
+    "right": [
+      {
+        "id": "place",
+        "text": "A placeholder symbol for an empty column, not yet a number to calculate with"
+      },
+      {
+        "id": "notch",
+        "text": "29 evenly carved notches, perhaps used to track the phases of the Moon"
+      },
+      {
+        "id": "rules",
+        "text": "Zero defined as $a - a$, with rules for adding, subtracting and multiplying with it"
+      },
+      {
+        "id": "primes",
+        "text": "Groups of 11, 13, 17 and 19 notches: the primes between 10 and 20"
+      },
+      {
+        "id": "dot",
+        "text": "A bold dot (bindu) written for zero"
+      }
+    ],
+    "pairs": {
+      "leb": "notch",
+      "ish": "primes",
+      "bak": "dot",
+      "bra": "rules",
+      "bab": "place"
+    },
+    "hint": "Only one of these turned zero into a number with its own rules of arithmetic.",
+    "explanation": "The **Lebombo bone** carries 29 deliberately carved notches, probably a lunar counter. The **Ishango bone** groups notches as 11, 13, 17 and 19, the primes between 10 and 20. The **Bakhśhālī manuscript** shows a bold dot (*bindu*) for zero. **Brahmagupta's** Brāhmasphuṭasiddhānta defined zero as $a - a = 0$ and gave rules such as $a + 0 = a$ and $a \\times 0 = 0$. Babylonians and Mayans only used **placeholders**: they did not calculate with \"nothing\" as a number."
+  },
+  {
+    "id": "ma03-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Ishango bone and primes",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "One column of the Ishango bone has groups of 11, 13, 17 and 19 notches. If the carver had continued the same pattern, which three groups would come next?",
+    "image": {
+      "src": "/img/maths03/ishango-bone.svg",
+      "alt": "A carved bone with four groups of tally notches labelled 11, 13, 17 and 19"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "23, 29, 31"
+      },
+      {
+        "id": "b",
+        "text": "21, 23, 25"
+      },
+      {
+        "id": "c",
+        "text": "23, 29, 37"
+      },
+      {
+        "id": "d",
+        "text": "23, 27, 29"
+      }
+    ],
+    "answer": "a",
+    "hint": "First find what 11, 13, 17 and 19 have in common. They are not simply odd numbers: 15 is missing.",
+    "explanation": "11, 13, 17 and 19 are exactly the **prime numbers** between 10 and 20 (15 is skipped because $15 = 3 \\times 5$). The next primes are **23, 29 and 31**. \"21, 23, 25\" just lists odd numbers, but $21 = 3 \\times 7$ and $25 = 5^2$. \"23, 27, 29\" wrongly counts $27 = 3^3$ as prime, and \"23, 29, 37\" skips the prime 31."
+  },
+  {
+    "id": "ma03-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Ratio in trade",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "At the port of Lothal, a merchant receives 15 copper ingots for every 2 bags of spices. How many ingots does he leave with if he brings 12 bags of spices?",
+    "image": {
+      "src": "/img/maths03/lothal-trade.svg",
+      "alt": "Bags of spices and a stack of copper ingots on a dock at an ancient port, with a boat on the sea"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "180"
+      },
+      {
+        "id": "b",
+        "text": "90"
+      },
+      {
+        "id": "c",
+        "text": "27"
+      },
+      {
+        "id": "d",
+        "text": "1.6"
+      }
+    ],
+    "answer": "b",
+    "hint": "First count how many lots of 2 bags there are in 12 bags.",
+    "explanation": "12 bags make $12 \\div 2 = 6$ lots of 2 bags, and each lot earns 15 ingots: $6 \\times 15 = \\mathbf{90}$ ingots. Taking $15 \\times 12 = 180$ forgets that 15 ingots are paid for **2** bags, not 1. Adding $15 + 12 = 27$ makes no sense for a rate, and $12 \\times \\dfrac{2}{15} = 1.6$ turns the ratio upside down."
+  },
+  {
+    "id": "ma03-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Large numbers in the Vedas",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The Vedas give names to every power of 10 up to $10^{12}$, which was called **parārdha**. In the Indian system (1 lakh $= 10^5$ and 1 crore $= 10^7$), how much is one parārdha?",
+    "image": {
+      "src": "/img/maths03/palm-leaf.svg",
+      "alt": "A palm-leaf manuscript with ten to the power twelve and the word parārdha written on it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1,000 crore"
+      },
+      {
+        "id": "b",
+        "text": "10 lakh crore"
+      },
+      {
+        "id": "c",
+        "text": "1 lakh crore"
+      },
+      {
+        "id": "d",
+        "text": "1 crore crore"
+      }
+    ],
+    "answer": "c",
+    "hint": "Divide by one crore first and see what is left.",
+    "explanation": "$10^{12} \\div 10^7 = 10^{5}$, which is 1 lakh, so $10^{12} = $ **1 lakh crore** $= 10{,}00{,}00{,}00{,}00{,}000$. 1,000 crore is only $10^{10}$, 10 lakh crore is $10^{13}$, and 1 crore crore is $10^{7+7} = 10^{14}$. Later, the Lalitavistara named numbers as large as $10^{53}$ (tallakṣhaṇa), showing how early India thought in powers of 10."
+  },
+  {
+    "id": "ma03-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Counting on finger joints",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In an old Indian way of counting, the thumb is used as a pointer to touch each segment of the other four fingers, as the glowing circle does in the picture. How far can you count on one hand this way, and which counting system does it suit?",
+    "image": {
+      "src": "/img/maths03/finger-joints.svg",
+      "alt": "An open hand with creases dividing each finger into segments and a glowing circle hopping between them"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5, which suits counting in fives"
+      },
+      {
+        "id": "b",
+        "text": "10, which suits base-10 counting"
+      },
+      {
+        "id": "c",
+        "text": "15, which suits base-15 counting"
+      },
+      {
+        "id": "d",
+        "text": "12, which suits base-12 counting"
+      }
+    ],
+    "answer": "d",
+    "hint": "The thumb does the counting, so it is not counted itself. How many segments does each finger have?",
+    "explanation": "Each of the 4 fingers has 3 segments, and the thumb only points, so one hand counts $4 \\times 3 = \\mathbf{12}$. This fits **base-12** counting, which is why dozens survive today (12 months, 12 hours on a clock face). 15 wrongly counts the thumb as a fifth finger, while 5 and 10 count whole fingers, not segments."
+  },
+  {
+    "id": "ma03-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Integers: temperature",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the high-altitude desert of Ladakh, the temperature at noon is 4 °C. By midnight it has dropped by 15 °C. What is the temperature at midnight?",
+    "image": {
+      "src": "/img/maths03/thermometer.svg",
+      "alt": "A thermometer showing 4 degrees between a sunny mountain day and a starry night, with a downward arrow"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "−11 °C"
+      },
+      {
+        "id": "b",
+        "text": "11 °C"
+      },
+      {
+        "id": "c",
+        "text": "−19 °C"
+      },
+      {
+        "id": "d",
+        "text": "19 °C"
+      }
+    ],
+    "answer": "a",
+    "hint": "Start at 4 on a number line and move 15 steps to the left.",
+    "explanation": "A drop means subtraction: $4 - 15 = -11$, so it is **−11 °C** at midnight. Moving 4 steps left brings you to 0, and the remaining 11 steps take you below zero. Writing 11 °C forgets the sign; −19 °C and 19 °C come from adding 4 and 15 instead of subtracting."
+  },
+  {
+    "id": "ma03-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Integers: fortunes and debts",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A spice trader takes a loan (debt) of ₹850. The next day he makes a profit (fortune) of ₹1,200. The following week he makes a loss of ₹450. What is his final financial standing?",
+    "image": {
+      "src": "/img/maths03/ledger.svg",
+      "alt": "An account book listing a loan, a profit and a loss, with a question mark for the final standing"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A fortune of ₹100"
+      },
+      {
+        "id": "b",
+        "text": "A fortune of ₹1,600"
+      },
+      {
+        "id": "c",
+        "text": "A debt of ₹100"
+      },
+      {
+        "id": "d",
+        "text": "A debt of ₹2,500"
+      }
+    ],
+    "answer": "c",
+    "hint": "Write debts and losses as negative integers and profits as positive ones, then add.",
+    "explanation": "As integers: $-850 + 1200 + (-450) = 350 - 450 = -100$, so he ends with **a debt of ₹100**. \"A fortune of ₹100\" drops the minus sign. ₹1,600 treats the loan as money he owns ($850 + 1200 - 450$), and a debt of ₹2,500 treats the profit as a debt too ($-850 - 1200 - 450$)."
+  },
+  {
+    "id": "ma03-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Product of two negatives",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Someone takes away four of your debts, each worth ₹3. Which statement models this correctly?",
+    "image": {
+      "src": "/img/maths03/debts-removed.svg",
+      "alt": "Four debt slips of minus three rupees sliding away while a face smiles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4 \\times (-3) = -12$, so you owe ₹12 more"
+      },
+      {
+        "id": "b",
+        "text": "$(-4) + (-3) = -7$, so you owe ₹7"
+      },
+      {
+        "id": "c",
+        "text": "$(-4) \\times (-3) = -12$, so you are ₹12 poorer"
+      },
+      {
+        "id": "d",
+        "text": "$(-4) \\times (-3) = +12$, so you are ₹12 richer"
+      }
+    ],
+    "answer": "d",
+    "hint": "A debt is negative. Taking something away is the opposite of adding it.",
+    "explanation": "Each debt is $-3$, and **removing** four of them is multiplying by $-4$: $(-4) \\times (-3) = +12$, so you are **₹12 richer**. This is Brahmagupta's rule \"the product of two debts is a fortune\". $4 \\times (-3) = -12$ describes *taking on* four debts, and adding $-4$ and $-3$ mixes up a count with an amount."
+  },
+  {
+    "id": "ma03-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Brahmagupta's rules",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Use Brahmagupta's rules for fortunes (positive numbers), debts (negative numbers) and zero to match each expression with its value.",
+    "image": {
+      "src": "/img/maths03/fortune-debt.svg",
+      "alt": "A pile of coins labelled Dhana, debt slips labelled Ṛiṇa, and a zero labelled Śhūnya between them"
+    },
+    "left": [
+      {
+        "id": "e1",
+        "text": "$(-6) + (-2)$"
+      },
+      {
+        "id": "e2",
+        "text": "$(-5) \\times 3$"
+      },
+      {
+        "id": "e3",
+        "text": "$(-5) \\times (-3)$"
+      },
+      {
+        "id": "e4",
+        "text": "$-9 - 0$"
+      },
+      {
+        "id": "e5",
+        "text": "$8 - 8$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$15$"
+      },
+      {
+        "id": "r2",
+        "text": "$-9$"
+      },
+      {
+        "id": "r3",
+        "text": "$-4$"
+      },
+      {
+        "id": "r4",
+        "text": "$0$"
+      },
+      {
+        "id": "r5",
+        "text": "$-15$"
+      },
+      {
+        "id": "r6",
+        "text": "$-8$"
+      }
+    ],
+    "pairs": {
+      "e1": "r6",
+      "e2": "r5",
+      "e3": "r1",
+      "e4": "r2",
+      "e5": "r4"
+    },
+    "hint": "A debt plus a debt is a debt; a debt times a fortune is a debt; a debt times a debt is a fortune.",
+    "explanation": "Debt + debt is a bigger debt: $(-6) + (-2) = -8$ (not $-4$, which wrongly subtracts). Debt × fortune is a debt: $(-5) \\times 3 = -15$. Debt × debt is a fortune: $(-5) \\times (-3) = 15$. A debt minus zero stays a debt: $-9 - 0 = -9$. And Brahmagupta **defined** zero as a number minus itself: $8 - 8 = 0$."
+  },
+  {
+    "id": "ma03-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Closure of integers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths03/nl-halves.svg",
+      "alt": "A number line from −4 to 4"
+    },
+    "assertion": "The integers $\\mathbb{Z}$ are closed under subtraction.",
+    "reason": "The difference of any two natural numbers is always a natural number.",
+    "answer": "c",
+    "hint": "Try subtracting a bigger natural number from a smaller one.",
+    "explanation": "A is true: subtracting one integer from another always gives an integer, for example $3 - 5 = -2$ and $-4 - (-7) = 3$. R is false: $3 - 5 = -2$ is **not** a natural number, so $\\mathbb{N}$ is not closed under subtraction. This gap is exactly what Brahmagupta filled by moving left of zero and introducing negative numbers."
+  },
+  {
+    "id": "ma03-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Properties of rational numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "multi",
+    "prompt": "Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths03/number-sets.svg",
+      "alt": "Nested boxes showing the families of real numbers"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Rational numbers are closed under subtraction."
+      },
+      {
+        "id": "b",
+        "text": "Every integer is a rational number."
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{2}{3}$ and $\\dfrac{4}{6}$ are equal because $2 \\times 6 = 3 \\times 4$."
+      },
+      {
+        "id": "d",
+        "text": "Natural numbers are closed under subtraction."
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{5}{0}$ is a rational number."
+      },
+      {
+        "id": "f",
+        "text": "The quotient of any two rational numbers is always a rational number."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Watch out for zero in a denominator or as a divisor.",
+    "explanation": "True: rationals are closed under $+$, $-$ and $\\times$; every integer $m$ can be written $\\dfrac{m}{1}$; and $\\dfrac{a}{b} = \\dfrac{c}{d}$ exactly when $ad = bc$ (here $12 = 12$). False: $3 - 5 = -2$ is not natural; $\\dfrac{5}{0}$ breaks the condition $q \\neq 0$, since division by zero is not defined; and the quotient rule fails when you divide by 0. Rationals are closed under division **only by non-zero** numbers."
+  },
+  {
+    "id": "ma03-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Adding rational numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find $-\\dfrac{4}{7} + \\dfrac{3}{14}$.",
+    "image": {
+      "src": "/img/maths03/fraction-bars.svg",
+      "alt": "Two fraction strips, one cut into sevenths and one into fourteenths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-\\dfrac{1}{21}$"
+      },
+      {
+        "id": "b",
+        "text": "$-\\dfrac{5}{14}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{11}{14}$"
+      },
+      {
+        "id": "d",
+        "text": "$-\\dfrac{1}{14}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Make the denominators equal first: how many fourteenths make one seventh?",
+    "explanation": "$-\\dfrac{4}{7} = -\\dfrac{8}{14}$, so $-\\dfrac{8}{14} + \\dfrac{3}{14} = \\dfrac{-8 + 3}{14} = -\\dfrac{5}{14}$. Adding tops and bottoms gives $\\dfrac{-4 + 3}{7 + 14} = -\\dfrac{1}{21}$, which is wrong. $\\dfrac{11}{14}$ loses the minus sign, and $-\\dfrac{1}{14}$ changes the denominator to 14 but forgets to double the numerator 4."
+  },
+  {
+    "id": "ma03-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Dividing rational numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find $-\\dfrac{4}{7} \\div \\dfrac{5}{14}$.",
+    "image": {
+      "src": "/img/maths03/fraction-bars.svg",
+      "alt": "Two fraction strips, one cut into sevenths and one into fourteenths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-\\dfrac{8}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$-\\dfrac{10}{49}$"
+      },
+      {
+        "id": "c",
+        "text": "$-\\dfrac{5}{8}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{8}{5}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Dividing by $\\dfrac{c}{d}$ is the same as multiplying by $\\dfrac{d}{c}$.",
+    "explanation": "$-\\dfrac{4}{7} \\div \\dfrac{5}{14} = -\\dfrac{4}{7} \\times \\dfrac{14}{5} = -\\dfrac{56}{35} = -\\dfrac{8}{5}$. Multiplying without flipping gives $-\\dfrac{20}{98} = -\\dfrac{10}{49}$. Flipping the **first** fraction instead gives $-\\dfrac{5}{8}$, and $\\dfrac{8}{5}$ forgets that a negative divided by a positive is negative."
+  },
+  {
+    "id": "ma03-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Distributive law",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find the rational number $x$ such that $\\dfrac{5}{6}\\left(x + \\dfrac{3}{5}\\right) = \\dfrac{5}{6}x + \\dfrac{1}{2}$.",
+    "image": {
+      "src": "/img/maths03/balance.svg",
+      "alt": "A level balance with an expression in each pan"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Only $x = 0$"
+      },
+      {
+        "id": "b",
+        "text": "No rational number works"
+      },
+      {
+        "id": "c",
+        "text": "Only $x = \\dfrac{3}{5}$"
+      },
+      {
+        "id": "d",
+        "text": "Every rational number $x$ works"
+      }
+    ],
+    "answer": "d",
+    "hint": "Open the bracket on the left using $p(q + r) = pq + pr$ and compare the two sides.",
+    "explanation": "By the **distributive law**, $\\dfrac{5}{6}\\left(x + \\dfrac{3}{5}\\right) = \\dfrac{5}{6}x + \\dfrac{5}{6} \\times \\dfrac{3}{5} = \\dfrac{5}{6}x + \\dfrac{1}{2}$, which is exactly the right side. So the equation is an identity: **every** rational $x$ satisfies it. Checking only $x = 0$ (or $\\dfrac{3}{5}$) finds one solution but misses the rest. Saying \"no solution\" usually comes from forgetting to multiply $\\dfrac{3}{5}$ by $\\dfrac{5}{6}$ and comparing $\\dfrac{3}{5}$ with $\\dfrac{1}{2}$."
+  },
+  {
+    "id": "ma03-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Equations with rational numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "If $\\dfrac{x}{3} + \\dfrac{x}{5} = \\dfrac{16}{15}$, find the rational number $x$.",
+    "image": {
+      "src": "/img/maths03/chalkboard-eq.svg",
+      "alt": "A chalkboard showing x over 3 plus x over 5 equals 16 over 15"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{64}{15}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{128}{225}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Write both fractions on the left over the common denominator 15.",
+    "explanation": "$\\dfrac{x}{3} + \\dfrac{x}{5} = \\dfrac{5x + 3x}{15} = \\dfrac{8x}{15}$, so $\\dfrac{8x}{15} = \\dfrac{16}{15}$, giving $8x = 16$ and $x = 2$. Check: $\\dfrac{2}{3} + \\dfrac{2}{5} = \\dfrac{10 + 6}{15} = \\dfrac{16}{15}$. Adding the denominators ($\\dfrac{2x}{8} = \\dfrac{x}{4}$) leads to $\\dfrac{64}{15}$; dividing the wrong way round gives $\\dfrac{1}{2}$; and $\\dfrac{128}{225}$ multiplies by $\\dfrac{8}{15}$ instead of dividing."
+  },
+  {
+    "id": "ma03-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Dividing mixed fractions",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A tailor has $15\\dfrac{3}{4}$ metres of fine silk. One kurta needs $2\\dfrac{1}{4}$ metres. How many kurtas can he make?",
+    "image": {
+      "src": "/img/maths03/tailor-silk.svg",
+      "alt": "A roll of silk being measured, with two kurta outlines beside it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "35"
+      },
+      {
+        "id": "b",
+        "text": "7, with $\\dfrac{1}{2}$ m left over"
+      },
+      {
+        "id": "c",
+        "text": "7, with no silk left over"
+      },
+      {
+        "id": "d",
+        "text": "6, with $2\\dfrac{1}{4}$ m left over"
+      }
+    ],
+    "answer": "c",
+    "hint": "Change both mixed numbers into improper fractions (quarters) before dividing.",
+    "explanation": "$15\\dfrac{3}{4} = \\dfrac{63}{4}$ and $2\\dfrac{1}{4} = \\dfrac{9}{4}$, so $\\dfrac{63}{4} \\div \\dfrac{9}{4} = \\dfrac{63}{4} \\times \\dfrac{4}{9} = 7$ exactly: **7 kurtas with nothing left over**. Multiplying instead gives $\\dfrac{567}{16} \\approx 35$. Dividing whole parts and fraction parts separately is not allowed, and \"6 with $2\\dfrac{1}{4}$ m left\" stops one kurta too early."
+  },
+  {
+    "id": "ma03-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Rational numbers on the number line",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point where $-1.5$ lies on this number line.",
+    "image": {
+      "src": "/img/maths03/nl-halves.svg",
+      "alt": "A number line from −4 to 4 with numbered markers above it"
+    },
+    "spots": [
+      {
+        "id": "m25",
+        "x": 22,
+        "y": 42,
+        "label": "−2.5"
+      },
+      {
+        "id": "m15",
+        "x": 33.2,
+        "y": 42,
+        "label": "−1.5"
+      },
+      {
+        "id": "m05",
+        "x": 44.4,
+        "y": 42,
+        "label": "−0.5"
+      },
+      {
+        "id": "p05",
+        "x": 55.6,
+        "y": 42,
+        "label": "0.5"
+      },
+      {
+        "id": "p15",
+        "x": 66.8,
+        "y": 42,
+        "label": "1.5"
+      }
+    ],
+    "answer": "m15",
+    "hint": "$-1.5 = -\\dfrac{3}{2}$: start at 0 and move one and a half units to the left.",
+    "explanation": "$-1.5 = -\\dfrac{3}{2}$ lies **halfway between −2 and −1**, to the left of 0. A common slip is to stop at −0.5 (half a step after −1, but towards 0), or to drop the sign and choose 1.5. −2.5 overshoots by a whole unit."
+  },
+  {
+    "id": "ma03-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Fractions greater than 1 on the number line",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The line is divided into quarters. Tap the point that represents $\\dfrac{9}{4}$.",
+    "image": {
+      "src": "/img/maths03/nl-quarters.svg",
+      "alt": "A number line from 0 to 3 divided into quarters, with numbered markers above it"
+    },
+    "spots": [
+      {
+        "id": "q075",
+        "x": 28.9,
+        "y": 42,
+        "label": "3/4"
+      },
+      {
+        "id": "q125",
+        "x": 43,
+        "y": 42,
+        "label": "5/4"
+      },
+      {
+        "id": "q175",
+        "x": 57,
+        "y": 42,
+        "label": "7/4"
+      },
+      {
+        "id": "q225",
+        "x": 71.1,
+        "y": 42,
+        "label": "9/4"
+      },
+      {
+        "id": "q275",
+        "x": 85.1,
+        "y": 42,
+        "label": "11/4"
+      }
+    ],
+    "answer": "q225",
+    "hint": "Write $\\dfrac{9}{4}$ as a mixed number first.",
+    "explanation": "$\\dfrac{9}{4} = 2\\dfrac{1}{4}$, so it lies between 2 and 3. Divide that unit into 4 equal parts and move **one part to the right of 2**. The point one quarter before 3 is $\\dfrac{11}{4} = 2\\dfrac{3}{4}$, a mix-up of $\\dfrac{1}{4}$ with $\\dfrac{3}{4}$, and $\\dfrac{7}{4}$ lies before 2."
+  },
+  {
+    "id": "ma03-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Density: averages",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point that is the **average** of $\\dfrac{3}{2}$ and $2$.",
+    "image": {
+      "src": "/img/maths03/nl-quarters.svg",
+      "alt": "A number line from 0 to 3 divided into quarters, with numbered markers above it"
+    },
+    "spots": [
+      {
+        "id": "q025",
+        "x": 14.9,
+        "y": 42,
+        "label": "1/4"
+      },
+      {
+        "id": "q125",
+        "x": 43,
+        "y": 42,
+        "label": "5/4"
+      },
+      {
+        "id": "q175",
+        "x": 57,
+        "y": 42,
+        "label": "7/4"
+      },
+      {
+        "id": "q225",
+        "x": 71.1,
+        "y": 42,
+        "label": "9/4"
+      },
+      {
+        "id": "q275",
+        "x": 85.1,
+        "y": 42,
+        "label": "11/4"
+      }
+    ],
+    "answer": "q175",
+    "hint": "Average $= \\dfrac{a + b}{2}$. It must lie between the two numbers.",
+    "explanation": "$\\dfrac{1}{2}\\left(\\dfrac{3}{2} + 2\\right) = \\dfrac{1}{2} \\times \\dfrac{7}{2} = \\dfrac{7}{4} = 1\\dfrac{3}{4}$, exactly midway between 1.5 and 2. Halving only the gap ($\\dfrac{2 - 1.5}{2} = \\dfrac{1}{4}$) forgets to add it on to $\\dfrac{3}{2}$. $\\dfrac{5}{4}$ is the average of 1 and $\\dfrac{3}{2}$, not of $\\dfrac{3}{2}$ and 2. Taking averages again and again shows that rational numbers are **dense**."
+  },
+  {
+    "id": "ma03-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Absolute value and distance",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "On the number line, $a = -\\dfrac{5}{2}$ and $b = \\dfrac{7}{4}$. What is the distance between them?",
+    "image": {
+      "src": "/img/maths03/nl-distance.svg",
+      "alt": "Two flags marked a and b on a number line from −3 to 3 with the gap between them shown by a double arrow"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{17}{4}$"
+      },
+      {
+        "id": "c",
+        "text": "$-\\dfrac{17}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Distance $= |a - b|$, and a distance is never negative.",
+    "explanation": "$|a - b| = \\left|-\\dfrac{10}{4} - \\dfrac{7}{4}\\right| = \\left|-\\dfrac{17}{4}\\right| = \\dfrac{17}{4} = 4\\dfrac{1}{4}$ units. Subtracting the sizes $\\dfrac{10}{4} - \\dfrac{7}{4} = \\dfrac{3}{4}$ ignores that the points are on **opposite sides** of 0. $-\\dfrac{17}{4}$ forgets the absolute value, and $\\dfrac{1}{3}$ comes from adding tops and bottoms."
+  },
+  {
+    "id": "ma03-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Density: average of two rationals",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which number is the **average** of $\\dfrac{1}{3}$ and $\\dfrac{1}{2}$?",
+    "image": {
+      "src": "/img/maths03/avg-between.svg",
+      "alt": "A number line from 0 to 1 with one third and one half marked and a magnifying glass"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{2}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{6}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{5}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{5}{12}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Add the two numbers using the denominator 6, then halve.",
+    "explanation": "$\\dfrac{1}{2}\\left(\\dfrac{2}{6} + \\dfrac{3}{6}\\right) = \\dfrac{1}{2} \\times \\dfrac{5}{6} = \\dfrac{5}{12}$. $\\dfrac{5}{6}$ is the sum, not halved. $\\dfrac{2}{5}$ comes from adding tops and bottoms; it does happen to lie between the two numbers, but it is not their average. $\\dfrac{1}{5}$ halves that wrong sum."
+  },
+  {
+    "id": "ma03-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Rational numbers between two rationals",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "multi",
+    "prompt": "Select **all** the numbers that lie strictly between $-\\dfrac{1}{2}$ and $\\dfrac{1}{4}$.",
+    "image": {
+      "src": "/img/maths03/interval.svg",
+      "alt": "A number line from −1 to 1 with the stretch between two open circles highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-\\dfrac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$-\\dfrac{1}{4}$"
+      },
+      {
+        "id": "c",
+        "text": "$0$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{5}$"
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{3}{8}$"
+      },
+      {
+        "id": "f",
+        "text": "$-\\dfrac{1}{2}$"
+      }
+    ],
+    "answers": [
+      "b",
+      "c",
+      "d"
+    ],
+    "hint": "Change everything to decimals: you need $-0.5 < x < 0.25$.",
+    "explanation": "$-\\dfrac{1}{4} = -0.25$, $0$ and $\\dfrac{1}{5} = 0.2$ all satisfy $-0.5 < x < 0.25$. $-\\dfrac{3}{4} = -0.75$ is further left than $-0.5$, and $\\dfrac{3}{8} = 0.375$ is beyond $0.25$. $-\\dfrac{1}{2}$ is an endpoint, so it is not **strictly** between."
+  },
+  {
+    "id": "ma03-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Comparing real numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these numbers from smallest to largest.",
+    "image": {
+      "src": "/img/maths03/nl-halves.svg",
+      "alt": "A number line from −4 to 4"
+    },
+    "items": [
+      {
+        "id": "i1",
+        "text": "$\\dfrac{3}{2}$"
+      },
+      {
+        "id": "i2",
+        "text": "$-\\sqrt{2}$"
+      },
+      {
+        "id": "i3",
+        "text": "$\\pi$"
+      },
+      {
+        "id": "i4",
+        "text": "$0.\\overline{3}$"
+      },
+      {
+        "id": "i5",
+        "text": "$-\\dfrac{7}{4}$"
+      },
+      {
+        "id": "i6",
+        "text": "$\\dfrac{5}{6}$"
+      }
+    ],
+    "answer": [
+      "i5",
+      "i2",
+      "i4",
+      "i6",
+      "i1",
+      "i3"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Convert each to a decimal. For negative numbers, the bigger the size, the smaller the number.",
+    "explanation": "As decimals: $-\\dfrac{7}{4} = -1.75$, $-\\sqrt{2} \\approx -1.414$, $0.\\overline{3} = 0.333\\ldots$, $\\dfrac{5}{6} = 0.833\\ldots$, $\\dfrac{3}{2} = 1.5$, $\\pi \\approx 3.1416$. The trap is the negatives: $1.75 > 1.414$, so $-1.75$ lies further **left** and is smaller than $-\\sqrt{2}$."
+  },
+  {
+    "id": "ma03-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Proof by contradiction",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the proof that $\\sqrt{5}$ is irrational.",
+    "image": {
+      "src": "/img/maths03/proof-board.svg",
+      "alt": "A chalkboard asking whether root five equals p over q, with a lightning bolt"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "So $p^2$ is a multiple of 5, and therefore $p$ is a multiple of 5. Write $p = 5k$."
+      },
+      {
+        "id": "s1",
+        "text": "Assume $\\sqrt{5} = \\dfrac{p}{q}$, where $p$ and $q$ are integers with no common factor and $q \\neq 0$."
+      },
+      {
+        "id": "s5",
+        "text": "Now 5 is a common factor of $p$ and $q$. This contradicts the assumption, so $\\sqrt{5}$ is irrational."
+      },
+      {
+        "id": "s2",
+        "text": "Square both sides and multiply by $q^2$: $5q^2 = p^2$."
+      },
+      {
+        "id": "s4",
+        "text": "Substitute: $5q^2 = 25k^2$, so $q^2 = 5k^2$ and $q$ is a multiple of 5 too."
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "A proof by contradiction starts by assuming the opposite of what you want to prove.",
+    "explanation": "This copies Hippasus' proof for $\\sqrt{2}$: **assume** $\\sqrt{5} = \\dfrac{p}{q}$ in lowest terms, square to get $5q^2 = p^2$, deduce $p = 5k$ (5 is prime, so if it divides $p^2$ it divides $p$), substitute to get $q^2 = 5k^2$, so 5 divides $q$ as well. Both share the factor 5, contradicting \"lowest terms\", so the assumption was false."
+  },
+  {
+    "id": "ma03-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Locating root 2 on the number line",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A right triangle with both short sides 1 unit stands on the number line, with corner O at 0. With the compass point at O and radius OB, an arc is swung down to the number line. Tap where the arc cuts the line.",
+    "image": {
+      "src": "/img/maths03/sqrt2-construct.svg",
+      "alt": "A right triangle with legs of 1 unit on a number line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "one",
+        "x": 48.6,
+        "y": 68.5,
+        "label": "At 1, the foot of the vertical side"
+      },
+      {
+        "id": "root2",
+        "x": 60.4,
+        "y": 68.5,
+        "label": "At √2 ≈ 1.41"
+      },
+      {
+        "id": "two",
+        "x": 77.1,
+        "y": 68.5,
+        "label": "At 2"
+      },
+      {
+        "id": "B",
+        "x": 48.6,
+        "y": 15.2,
+        "label": "Corner B"
+      }
+    ],
+    "answer": "root2",
+    "hint": "Every point on the arc is the same distance from O as B is. How long is OB?",
+    "explanation": "By the Baudhāyana–Pythagoras theorem, $OB^2 = 1^2 + 1^2 = 2$, so $OB = \\sqrt{2} \\approx 1.414$. The arc keeps that distance from O, so it cuts the line at $P = \\sqrt{2}$, a little before halfway from 1 to 2. Choosing 2 adds the two sides ($1 + 1$) instead of using the theorem. B is the right distance from O, but it is not on the number line."
+  },
+  {
+    "id": "ma03-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Constructing root 2",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for marking $\\sqrt{2}$ on the number line in order.",
+    "image": {
+      "src": "/img/maths03/sqrt2-construct.svg",
+      "alt": "A right triangle with legs of 1 unit standing on a number line"
+    },
+    "items": [
+      {
+        "id": "arc",
+        "text": "With centre O and radius OB, draw an arc."
+      },
+      {
+        "id": "perp",
+        "text": "Draw a line perpendicular to the number line through A."
+      },
+      {
+        "id": "mark",
+        "text": "Label the point P where the arc meets the number line; OP $= \\sqrt{2}$."
+      },
+      {
+        "id": "oa",
+        "text": "Mark O at 0 and A at 1, so that OA = 1 unit."
+      },
+      {
+        "id": "ab",
+        "text": "Mark B on the perpendicular so that AB = 1 unit, and join OB."
+      }
+    ],
+    "answer": [
+      "oa",
+      "perp",
+      "ab",
+      "arc",
+      "mark"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need the slanting side OB before you can use it as a radius.",
+    "explanation": "Mark OA = 1, raise a **perpendicular** at A, mark AB = 1 and join OB, so $OB = \\sqrt{1^2 + 1^2} = \\sqrt{2}$. Then swing an **arc** with centre O and radius OB; it meets the line at P with OP $= \\sqrt{2}$. Repeating the method on a segment of length $\\sqrt{2}$ with another perpendicular of 1 unit gives $\\sqrt{3}$, and so on for any $\\sqrt{n}$."
+  },
+  {
+    "id": "ma03-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Square root spiral",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In this square-root spiral the first triangle has two sides of 1 unit, and every new triangle adds an outer side of 1 unit. Tap the slanting side (hypotenuse) whose length is $\\sqrt{5}$.",
+    "image": {
+      "src": "/img/maths03/root-spiral.svg",
+      "alt": "A square-root spiral of six right triangles with numbered markers on the slanting sides"
+    },
+    "spots": [
+      {
+        "id": "h1",
+        "x": 87,
+        "y": 57.9,
+        "label": "Hypotenuse 1 (length √2)"
+      },
+      {
+        "id": "h2",
+        "x": 75.8,
+        "y": 40.7,
+        "label": "Hypotenuse 2 (length √3)"
+      },
+      {
+        "id": "h3",
+        "x": 60,
+        "y": 36.6,
+        "label": "Hypotenuse 3 (length √4)"
+      },
+      {
+        "id": "h4",
+        "x": 45.1,
+        "y": 45,
+        "label": "Hypotenuse 4 (length √5)"
+      },
+      {
+        "id": "h5",
+        "x": 34.2,
+        "y": 62.7,
+        "label": "Hypotenuse 5 (length √6)"
+      },
+      {
+        "id": "h6",
+        "x": 29,
+        "y": 85.6,
+        "label": "Hypotenuse 6 (length √7)"
+      }
+    ],
+    "answer": "h4",
+    "hint": "Each new hypotenuse satisfies (new length)$^2$ = (previous length)$^2 + 1$.",
+    "explanation": "The first hypotenuse is $\\sqrt{1^2 + 1^2} = \\sqrt{2}$. Each new triangle uses the previous hypotenuse and a side of 1, so the lengths go $\\sqrt{2}, \\sqrt{3}, \\sqrt{4}, \\sqrt{5}, \\sqrt{6}, \\sqrt{7}$. So $\\sqrt{5}$ is the **fourth** hypotenuse. Counting the first short side as a hypotenuse, or starting at $\\sqrt{1}$, puts you one triangle out."
+  },
+  {
+    "id": "ma03-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Square root spiral",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Only one slanting side (hypotenuse) in this square-root spiral has a **rational** length. Tap it.",
+    "image": {
+      "src": "/img/maths03/root-spiral.svg",
+      "alt": "A square-root spiral of six right triangles with numbered markers on the slanting sides"
+    },
+    "spots": [
+      {
+        "id": "h1",
+        "x": 87,
+        "y": 57.9,
+        "label": "Hypotenuse 1 (length √2)"
+      },
+      {
+        "id": "h2",
+        "x": 75.8,
+        "y": 40.7,
+        "label": "Hypotenuse 2 (length √3)"
+      },
+      {
+        "id": "h3",
+        "x": 60,
+        "y": 36.6,
+        "label": "Hypotenuse 3 (length √4)"
+      },
+      {
+        "id": "h4",
+        "x": 45.1,
+        "y": 45,
+        "label": "Hypotenuse 4 (length √5)"
+      },
+      {
+        "id": "h5",
+        "x": 34.2,
+        "y": 62.7,
+        "label": "Hypotenuse 5 (length √6)"
+      },
+      {
+        "id": "h6",
+        "x": 29,
+        "y": 85.6,
+        "label": "Hypotenuse 6 (length √7)"
+      }
+    ],
+    "answer": "h3",
+    "hint": "Which of the lengths √2, √3, √4, … is a square root of a perfect square?",
+    "explanation": "The hypotenuses are $\\sqrt{2}, \\sqrt{3}, \\sqrt{4}, \\sqrt{5}, \\sqrt{6}, \\sqrt{7}$. Only $\\sqrt{4} = 2$ is rational, and it is the **third** one. The others are square roots of numbers that are not perfect squares, so they are irrational. A root sign alone does not make a number irrational."
+  },
+  {
+    "id": "ma03-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Mādhava's series for pi",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Mādhava's infinite series is $\\pi = 4\\left(1 - \\dfrac{1}{3} + \\dfrac{1}{5} - \\dfrac{1}{7} + \\cdots\\right)$. What value do you get if you stop after the first **three** terms inside the bracket?",
+    "image": {
+      "src": "/img/maths03/madhava-series.svg",
+      "alt": "A palm leaf with an infinite series for pi above a zigzag of sums closing in on a dashed line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{52}{15}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{13}{15}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{92}{15}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{304}{105}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Work out $1 - \\dfrac{1}{3} + \\dfrac{1}{5}$ with denominator 15, then multiply by 4.",
+    "explanation": "$1 - \\dfrac{1}{3} + \\dfrac{1}{5} = \\dfrac{15 - 5 + 3}{15} = \\dfrac{13}{15}$, and $4 \\times \\dfrac{13}{15} = \\dfrac{52}{15} \\approx 3.47$. $\\dfrac{13}{15}$ forgets the 4; $\\dfrac{92}{15}$ adds every term (ignoring the alternating signs); $\\dfrac{304}{105} \\approx 2.90$ uses four terms. The sums jump above and below $\\pi$ and close in on it, but no fraction is exact because $\\pi$ is irrational."
+  },
+  {
+    "id": "ma03-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Pi is irrational",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths03/pi-wheel.svg",
+      "alt": "A wheel one unit across rolling once along a ruler and leaving a red trail"
+    },
+    "assertion": "$\\pi$ is an irrational number.",
+    "reason": "Āryabhaṭa used the value $\\dfrac{3927}{1250} = 3.1416$ for $\\pi$.",
+    "answer": "b",
+    "hint": "Āryabhaṭa himself called his value an approximation (asanna).",
+    "explanation": "Both statements are true. $\\pi$ (circumference ÷ diameter) cannot be written as $\\dfrac{p}{q}$; this was proved by **Lambert in 1761**. Āryabhaṭa (499 CE) did give $\\dfrac{3927}{1250} = 3.1416$, but he called it *asanna*, an approximation. A good fraction **approximation** does not explain why no exact fraction exists, so R is not the reason for A."
+  },
+  {
+    "id": "ma03-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Timeline of numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these milestones in the story of numbers from earliest to latest.",
+    "image": {
+      "src": "/img/maths03/timeline.svg",
+      "alt": "An empty timeline with six slots and a turning hourglass"
+    },
+    "items": [
+      {
+        "id": "bra",
+        "text": "Brahmagupta writes down the rules for zero and negative numbers"
+      },
+      {
+        "id": "leb",
+        "text": "Notches are carved on the Lebombo bone"
+      },
+      {
+        "id": "lam",
+        "text": "Lambert proves that $\\pi$ is irrational"
+      },
+      {
+        "id": "shu",
+        "text": "Baudhāyana's Śhulbasūtra meets lengths that are not fractions"
+      },
+      {
+        "id": "ish",
+        "text": "Prime-number groups of notches are carved on the Ishango bone"
+      },
+      {
+        "id": "ary",
+        "text": "Āryabhaṭa gives 3.1416 as an approximation for $\\pi$"
+      }
+    ],
+    "answer": [
+      "leb",
+      "ish",
+      "shu",
+      "ary",
+      "bra",
+      "lam"
+    ],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "Two of these are tens of thousands of years old; one is only about 260 years old.",
+    "explanation": "**Lebombo bone** (about 35,000 years ago) → **Ishango bone** (about 20,000 BCE) → **Śhulbasūtra** of Baudhāyana (around 800 BCE) → **Āryabhaṭa** (499 CE) → **Brahmagupta** (628 CE) → **Lambert** (1761 CE). A common slip is to put Brahmagupta before Āryabhaṭa; Āryabhaṭa came over a century earlier."
+  },
+  {
+    "id": "ma03-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Fractions to decimals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each fraction with its decimal expansion.",
+    "image": {
+      "src": "/img/maths03/division-machine.svg",
+      "alt": "A gear machine turning a fraction card into a decimal tape"
+    },
+    "left": [
+      {
+        "id": "f1",
+        "text": "$\\dfrac{3}{8}$"
+      },
+      {
+        "id": "f2",
+        "text": "$\\dfrac{7}{20}$"
+      },
+      {
+        "id": "f3",
+        "text": "$\\dfrac{2}{9}$"
+      },
+      {
+        "id": "f4",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "f5",
+        "text": "$\\dfrac{3}{50}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "d1",
+        "text": "$0.1\\overline{6}$"
+      },
+      {
+        "id": "d2",
+        "text": "$0.06$"
+      },
+      {
+        "id": "d3",
+        "text": "$0.375$"
+      },
+      {
+        "id": "d4",
+        "text": "$0.6$"
+      },
+      {
+        "id": "d5",
+        "text": "$0.\\overline{2}$"
+      },
+      {
+        "id": "d6",
+        "text": "$0.35$"
+      }
+    ],
+    "pairs": {
+      "f1": "d3",
+      "f2": "d6",
+      "f3": "d5",
+      "f4": "d1",
+      "f5": "d2"
+    },
+    "hint": "Denominators made only of 2s and 5s give terminating decimals; scale them up to 10, 100 or 1000.",
+    "explanation": "$\\dfrac{3}{8} = \\dfrac{375}{1000} = 0.375$; $\\dfrac{7}{20} = \\dfrac{35}{100} = 0.35$; $\\dfrac{3}{50} = \\dfrac{6}{100} = 0.06$ (not $0.6$, a place-value slip). The denominators 9 and 6 contain the prime 3, so they repeat: $\\dfrac{2}{9} = 0.222\\ldots = 0.\\overline{2}$ and $\\dfrac{1}{6} = 0.1666\\ldots = 0.1\\overline{6}$."
+  },
+  {
+    "id": "ma03-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Predicting terminating decimals",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "multi",
+    "prompt": "Without dividing, select **all** the fractions whose decimal expansions terminate.",
+    "image": {
+      "src": "/img/maths03/prime-filter.svg",
+      "alt": "A sieve that lets some prime factors of a denominator through and stops others"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{7}{20}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{4}{15}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{13}{250}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{18}{125}$"
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{21}{35}$"
+      },
+      {
+        "id": "f",
+        "text": "$\\dfrac{5}{12}$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "hint": "Put each fraction in lowest terms first, then factorise the denominator.",
+    "explanation": "A fraction in lowest terms terminates exactly when its denominator has **no prime factors other than 2 and 5**. $20 = 2^2 \\times 5$, $250 = 2 \\times 5^3$ and $125 = 5^3$ all pass. $\\dfrac{21}{35} = \\dfrac{3}{5}$ once the 7 cancels, so it terminates too ($0.6$): don't judge it before simplifying. $15 = 3 \\times 5$ and $12 = 2^2 \\times 3$ contain a 3, so $\\dfrac{4}{15}$ and $\\dfrac{5}{12}$ repeat."
+  },
+  {
+    "id": "ma03-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Predicting terminating decimals",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths03/prime-filter.svg",
+      "alt": "A sieve that lets some prime factors of a denominator through and stops others"
+    },
+    "assertion": "The decimal expansion of $\\dfrac{4}{15}$ terminates.",
+    "reason": "In lowest terms, $\\dfrac{4}{15}$ has a denominator with a prime factor other than 2 and 5.",
+    "answer": "d",
+    "hint": "Factorise 15.",
+    "explanation": "R is true: $15 = 3 \\times 5$, and 4 and 15 share no common factor. Because of the factor 3, no multiplication can turn 15 into a power of 10, so A is false: $\\dfrac{4}{15} = 0.2666\\ldots = 0.2\\overline{6}$, which repeats forever."
+  },
+  {
+    "id": "ma03-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Number of decimal places",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Without dividing, decide how the decimal expansion of $\\dfrac{18}{125}$ behaves.",
+    "image": {
+      "src": "/img/maths03/place-value.svg",
+      "alt": "An empty decimal place-value chart from ones to ten-thousandths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It terminates after 2 decimal places"
+      },
+      {
+        "id": "b",
+        "text": "It terminates after 3 decimal places"
+      },
+      {
+        "id": "c",
+        "text": "It terminates after 6 decimal places"
+      },
+      {
+        "id": "d",
+        "text": "It never terminates; it repeats"
+      }
+    ],
+    "answer": "b",
+    "hint": "$125 = 5^3$. What must you multiply by to reach a power of 10?",
+    "explanation": "$125 = 5^3$ has only the prime 5, so the decimal terminates. Multiply top and bottom by $2^3 = 8$: $\\dfrac{18}{125} = \\dfrac{144}{1000} = 0.144$, which has **3 decimal places**. In general, a denominator $2^m \\times 5^n$ needs as many places as the larger of $m$ and $n$, so $2^3 \\times 5$ also gives 3 places. Adding the powers ($3 + 3 = 6$) is a common slip, and an odd denominator does not by itself make a decimal repeat."
+  },
+  {
+    "id": "ma03-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Why decimals repeat",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths03/remainders-7.svg",
+      "alt": "Six remainders arranged in a loop with arrows going round"
+    },
+    "assertion": "$\\dfrac{1}{7}$ has a non-terminating, repeating decimal expansion.",
+    "reason": "When dividing by 7, the remainder is never 0 and can only be 1, 2, 3, 4, 5 or 6, so some remainder must come up again and the division starts to loop.",
+    "answer": "a",
+    "hint": "Once a remainder repeats, every step after it repeats too.",
+    "explanation": "Both are true, and R explains A. In the long division of 1 by 7 the remainders go $3, 2, 6, 4, 5, 1, \\ldots$; there are only six possible non-zero values, so a remainder must repeat, and then the digits loop: $\\dfrac{1}{7} = 0.\\overline{142857}$. The remainder can never be 0 because 7 is not made of 2s and 5s."
+  },
+  {
+    "id": "ma03-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Cyclic numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "$\\dfrac{1}{7} = 0.\\overline{142857}$, and $142857 \\times 3 = 428571$. Using this cyclic pattern, what is $\\dfrac{3}{7}$ as a decimal?",
+    "image": {
+      "src": "/img/maths03/cyclic-dial.svg",
+      "alt": "The digits 1, 4, 2, 8, 5, 7 arranged around a circle with one seventh in the centre"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.\\overline{285714}$"
+      },
+      {
+        "id": "b",
+        "text": "$0.\\overline{714285}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.\\overline{428571}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.\\overline{426}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "$\\dfrac{3}{7} = 3 \\times \\dfrac{1}{7}$, so multiply the repeating block by 3.",
+    "explanation": "$\\dfrac{3}{7} = 3 \\times 0.\\overline{142857} = 0.\\overline{428571}$: the same six digits, just starting from a different place on the circle. That is what makes **142857 a cyclic number**. $0.\\overline{285714}$ is $\\dfrac{2}{7}$ and $0.\\overline{714285}$ is $\\dfrac{5}{7}$, while $0.\\overline{426}$ multiplies only the first three digits."
+  },
+  {
+    "id": "ma03-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Long division and repeating blocks",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Carry out the long division for $\\dfrac{1}{13}$. How many digits are in its repeating block?",
+    "image": {
+      "src": "/img/maths03/long-division-13.svg",
+      "alt": "A long division of 1 by 13 that has just begun"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "13"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "answer": "a",
+    "hint": "Keep track of the remainders and stop when one comes back.",
+    "explanation": "The remainders are $10, 9, 12, 3, 4, 1$, and then 10 again, so $\\dfrac{1}{13} = 0.\\overline{076923}$ has a **6-digit** block. 12 is only the **largest possible** block length (there are 12 possible non-zero remainders); the cycle may close sooner. Unlike $\\dfrac{1}{7}$, the block for $\\dfrac{2}{13} = 0.\\overline{153846}$ is not a rotation of 076923, so 076923 is not a cyclic number."
+  },
+  {
+    "id": "ma03-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Pure repeating decimals",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Write $0.\\overline{36}$ in the form $\\dfrac{p}{q}$ in lowest terms.",
+    "image": {
+      "src": "/img/maths03/repeating-conveyor.svg",
+      "alt": "A conveyor belt carrying the digits 3 and 6 again and again after a decimal point"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{9}{25}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{2}{5}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{4}{111}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{4}{11}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Two digits repeat, so multiply by 100.",
+    "explanation": "Let $x = 0.3636\\ldots$. Then $100x = 36.3636\\ldots$, and subtracting gives $99x = 36$, so $x = \\dfrac{36}{99} = \\dfrac{4}{11}$. $\\dfrac{9}{25} = \\dfrac{36}{100}$ treats the decimal as if it stopped. $\\dfrac{36}{90} = \\dfrac{2}{5}$ uses the wrong subtraction, and $\\dfrac{36}{999} = \\dfrac{4}{111}$ uses three nines for a two-digit block."
+  },
+  {
+    "id": "ma03-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "General repeating decimals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to write $1.2\\overline{35}$ in the form $\\dfrac{p}{q}$.",
+    "image": {
+      "src": "/img/maths03/steps-board.svg",
+      "alt": "A notebook page that starts with x equals 1.2353535"
+    },
+    "items": [
+      {
+        "id": "sub",
+        "text": "Subtract the two equations: $990x = 1223$"
+      },
+      {
+        "id": "let",
+        "text": "Let $x = 1.2353535\\ldots$"
+      },
+      {
+        "id": "div",
+        "text": "Divide: $x = \\dfrac{1223}{990}$"
+      },
+      {
+        "id": "x10",
+        "text": "Multiply by 10 to move the non-repeating digit: $10x = 12.353535\\ldots$"
+      },
+      {
+        "id": "x1000",
+        "text": "Multiply by 100 more to move one full block: $1000x = 1235.3535\\ldots$"
+      }
+    ],
+    "answer": [
+      "let",
+      "x10",
+      "x1000",
+      "sub",
+      "div"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "First move the non-repeating part, then move one whole repeating block, then subtract.",
+    "explanation": "One digit (2) does not repeat, so multiply by $10^1$: $10x = 12.\\overline{35}$. Two digits repeat, so multiply by $10^2$ more: $1000x = 1235.\\overline{35}$. The endless tails match, so subtracting gives $990x = 1223$ and $x = \\dfrac{1223}{990}$, already in lowest terms."
+  },
+  {
+    "id": "ma03-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "General repeating decimals",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Write $2.0\\overline{5}$ in the form $\\dfrac{p}{q}$ in lowest terms.",
+    "image": {
+      "src": "/img/maths03/decimal-shift.svg",
+      "alt": "The digits 2, 0, 5, 5, 5 in boxes with a decimal point sliding between them"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{23}{9}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{203}{99}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{37}{18}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{41}{20}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Only the 5 repeats; the 0 just after the point does not.",
+    "explanation": "Let $x = 2.0555\\ldots$. Then $10x = 20.555\\ldots$ and $100x = 205.555\\ldots$. Subtracting, $90x = 185$, so $x = \\dfrac{185}{90} = \\dfrac{37}{18}$. $\\dfrac{23}{9}$ is $2.\\overline{5}$ (it forgets the 0), $\\dfrac{203}{99}$ is $2.\\overline{05}$ (repeating \"05\"), and $\\dfrac{41}{20} = 2.05$ treats the decimal as terminating."
+  },
+  {
+    "id": "ma03-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Repeating decimals to fractions",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each repeating decimal with its fraction in lowest terms.",
+    "image": {
+      "src": "/img/maths03/x-trick.svg",
+      "alt": "Two decimals with the same endless tail lined up for subtraction"
+    },
+    "left": [
+      {
+        "id": "a",
+        "text": "$0.\\overline{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$0.\\overline{45}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.8\\overline{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$0.\\overline{23}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "p",
+        "text": "$\\dfrac{23}{100}$"
+      },
+      {
+        "id": "q",
+        "text": "$\\dfrac{5}{6}$"
+      },
+      {
+        "id": "r",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "s",
+        "text": "$\\dfrac{23}{99}$"
+      },
+      {
+        "id": "t",
+        "text": "$\\dfrac{5}{11}$"
+      }
+    ],
+    "pairs": {
+      "a": "r",
+      "b": "t",
+      "c": "q",
+      "d": "s"
+    },
+    "hint": "Multiply by 10 for one repeating digit, by 100 for two, and shift any non-repeating digit first.",
+    "explanation": "$0.\\overline{6}$: $10x - x = 6$, so $x = \\dfrac{6}{9} = \\dfrac{2}{3}$. $0.\\overline{45}$: $99x = 45$, so $x = \\dfrac{5}{11}$. $0.8\\overline{3}$: $100x - 10x = 83.\\overline{3} - 8.\\overline{3} = 75$, so $x = \\dfrac{75}{90} = \\dfrac{5}{6}$. $0.\\overline{23}$: $99x = 23$, so $x = \\dfrac{23}{99}$. $\\dfrac{23}{100} = 0.23$ stops, so it matches none of them."
+  },
+  {
+    "id": "ma03-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Two decimal forms of a number",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Just as $0.\\overline{9} = 1$, every terminating decimal has a second decimal form. Which of these is **exactly** equal to $2.47$?",
+    "image": {
+      "src": "/img/maths03/zoom-247.svg",
+      "alt": "A zoomed-in number line from 2.4 to 2.5 with 2.47 marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2.4\\overline{7}$"
+      },
+      {
+        "id": "b",
+        "text": "$2.46\\overline{9}$"
+      },
+      {
+        "id": "c",
+        "text": "$2.\\overline{47}$"
+      },
+      {
+        "id": "d",
+        "text": "$2.469$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use the method for $0.\\overline{9}$: let $x$ be the decimal, shift and subtract.",
+    "explanation": "Let $x = 2.46999\\ldots$. Then $100x = 246.999\\ldots$ and $1000x = 2469.999\\ldots$, so $900x = 2223$ and $x = \\dfrac{2223}{900} = 2.47$ exactly. $2.4\\overline{7} = 2.4777\\ldots$ and $2.\\overline{47} = 2.4747\\ldots$ are both larger than 2.47, while $2.469$ falls short by $0.001$. It surprises many people, but $0.999\\ldots$ is not \"slightly less than 1\"; it **is** 1."
+  },
+  {
+    "id": "ma03-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Types of decimal expansions",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each decimal with its type.",
+    "image": {
+      "src": "/img/maths03/sort-bins.svg",
+      "alt": "Four sorting bins with different symbols above them"
+    },
+    "left": [
+      {
+        "id": "a",
+        "text": "$0.875$"
+      },
+      {
+        "id": "b",
+        "text": "$0.\\overline{72}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.58\\overline{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$1.0100100010000\\ldots$ (one more 0 each time)"
+      }
+    ],
+    "right": [
+      {
+        "id": "gen",
+        "text": "General repeating: some digits come before the repeating block"
+      },
+      {
+        "id": "irr",
+        "text": "Non-terminating and non-repeating: irrational"
+      },
+      {
+        "id": "term",
+        "text": "Terminating"
+      },
+      {
+        "id": "pure",
+        "text": "Pure repeating: the block starts right after the decimal point"
+      }
+    ],
+    "pairs": {
+      "a": "term",
+      "b": "pure",
+      "c": "gen",
+      "d": "irr"
+    },
+    "hint": "Look at where the bar starts, and ask whether the last one has any block that repeats.",
+    "explanation": "$0.875 = \\dfrac{7}{8}$ stops, so it is **terminating**. In $0.\\overline{72}$ the block starts at once: **pure repeating**. In $0.58\\overline{3}$ the digits 5 and 8 come first: **general repeating**. $1.0100100010000\\ldots$ never ends, and because the run of zeros keeps growing, no block repeats, so it is **irrational**."
+  },
+  {
+    "id": "ma03-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Rational or irrational",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "multi",
+    "prompt": "Select **all** the irrational numbers.",
+    "image": {
+      "src": "/img/maths03/number-sets.svg",
+      "alt": "Nested boxes showing the families of real numbers"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sqrt{81}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt{12}$"
+      },
+      {
+        "id": "c",
+        "text": "$0.33333\\ldots$"
+      },
+      {
+        "id": "d",
+        "text": "$0.123451234512345\\ldots$"
+      },
+      {
+        "id": "e",
+        "text": "$1.01001000100001\\ldots$"
+      },
+      {
+        "id": "f",
+        "text": "$\\pi$"
+      }
+    ],
+    "answers": [
+      "b",
+      "e",
+      "f"
+    ],
+    "hint": "Rational numbers have decimals that stop or repeat. Check each root for a perfect square.",
+    "explanation": "$\\sqrt{81} = 9$ is rational, and $\\sqrt{12}$ is **irrational** because 12 is not a perfect square. $0.333\\ldots = \\dfrac{1}{3}$, and $0.\\overline{12345} = \\dfrac{12345}{99999} = \\dfrac{4115}{33333}$, so both are rational. $1.0100100010\\ldots$ never repeats a block, so it is **irrational**, and so is $\\pi$."
+  },
+  {
+    "id": "ma03-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Families of numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Every number goes in exactly **one** coloured region, the innermost one it fits. Tap the region where $-7$ belongs.",
+    "image": {
+      "src": "/img/maths03/number-sets.svg",
+      "alt": "Nested boxes for the families of real numbers, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "irr",
+        "x": 18.9,
+        "y": 62.5,
+        "label": "Irrational numbers"
+      },
+      {
+        "id": "rat",
+        "x": 39.6,
+        "y": 68.8,
+        "label": "Rational numbers that are not integers"
+      },
+      {
+        "id": "int",
+        "x": 50,
+        "y": 68.8,
+        "label": "Integers that are not natural numbers"
+      },
+      {
+        "id": "nat",
+        "x": 64.5,
+        "y": 72.9,
+        "label": "Natural numbers"
+      },
+      {
+        "id": "out",
+        "x": 90.1,
+        "y": 53.1,
+        "label": "Not a real number"
+      }
+    ],
+    "answer": "int",
+    "hint": "Is $-7$ a counting number? Is it a whole number of units?",
+    "explanation": "$-7$ is an **integer**, but not a natural number (natural numbers are $1, 2, 3, \\ldots$). It is also rational ($-\\dfrac{7}{1}$) and real, but its innermost region is the integer band outside the natural numbers box."
+  },
+  {
+    "id": "ma03-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Families of numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Every number goes in exactly **one** coloured region, the innermost one it fits. Tap the region where $\\sqrt{16}$ belongs.",
+    "image": {
+      "src": "/img/maths03/number-sets.svg",
+      "alt": "Nested boxes for the families of real numbers, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "irr",
+        "x": 18.9,
+        "y": 62.5,
+        "label": "Irrational numbers"
+      },
+      {
+        "id": "rat",
+        "x": 39.6,
+        "y": 68.8,
+        "label": "Rational numbers that are not integers"
+      },
+      {
+        "id": "int",
+        "x": 50,
+        "y": 68.8,
+        "label": "Integers that are not natural numbers"
+      },
+      {
+        "id": "nat",
+        "x": 64.5,
+        "y": 72.9,
+        "label": "Natural numbers"
+      },
+      {
+        "id": "out",
+        "x": 90.1,
+        "y": 53.1,
+        "label": "Not a real number"
+      }
+    ],
+    "answer": "nat",
+    "hint": "Simplify the root before deciding.",
+    "explanation": "$\\sqrt{16} = 4$, a **natural number**. The root sign is a trap: it does not make a number irrational unless the number under it is not a perfect square, as in $\\sqrt{15}$."
+  },
+  {
+    "id": "ma03-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Families of numbers",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Every number goes in exactly **one** coloured region, the innermost one it fits. Tap the region where $\\dfrac{22}{7}$ belongs.",
+    "image": {
+      "src": "/img/maths03/number-sets.svg",
+      "alt": "Nested boxes for the families of real numbers, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "irr",
+        "x": 18.9,
+        "y": 62.5,
+        "label": "Irrational numbers"
+      },
+      {
+        "id": "rat",
+        "x": 39.6,
+        "y": 68.8,
+        "label": "Rational numbers that are not integers"
+      },
+      {
+        "id": "int",
+        "x": 50,
+        "y": 68.8,
+        "label": "Integers that are not natural numbers"
+      },
+      {
+        "id": "nat",
+        "x": 64.5,
+        "y": 72.9,
+        "label": "Natural numbers"
+      },
+      {
+        "id": "out",
+        "x": 90.1,
+        "y": 53.1,
+        "label": "Not a real number"
+      }
+    ],
+    "answer": "rat",
+    "hint": "Is $\\dfrac{22}{7}$ the same as $\\pi$, or just close to it?",
+    "explanation": "$\\dfrac{22}{7}$ is a ratio of two integers, so it is **rational**, and since 7 does not divide 22 it is not an integer. It is only an **approximation** to $\\pi$: $\\dfrac{22}{7} = 3.\\overline{142857}$ repeats, while $\\pi = 3.14159\\ldots$ never repeats."
+  },
+  {
+    "id": "ma03-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "The World of Numbers",
+    "chapterNo": 3,
+    "topic": "Beyond the real numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths03/imaginary.svg",
+      "alt": "A puzzled character holding a square root of minus one card above a number line"
+    },
+    "assertion": "$\\sqrt{-1}$ cannot be marked anywhere on the real number line.",
+    "reason": "The square of every real number is zero or positive, so no real number multiplied by itself gives $-1$.",
+    "answer": "a",
+    "hint": "Try squaring a positive number, a negative number and 0.",
+    "explanation": "Both are true, and R explains A: $1 \\times 1 = 1$ and $(-1) \\times (-1) = 1$, and in general $x^2 \\ge 0$ for every real $x$. So no point on the real line squares to $-1$. Mathematicians stepped off the line and created the **imaginary** number $i$ for this, which is used in electrical engineering and quantum physics."
+  }
+]

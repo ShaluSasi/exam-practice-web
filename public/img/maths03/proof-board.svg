@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A chalkboard asking whether root five can be written as p over q, with a lightning bolt</title>
+<style>
+.zap{animation:zp 1.5s ease-in-out infinite}@keyframes zp{50%{opacity:.3}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="30" y="24" width="580" height="250" rx="12" fill="#2F5D50" stroke="#8B5A2B" stroke-width="12"/>
+<text x="170" y="150" font-size="52" text-anchor="middle" fill="#fff">√5</text><text x="245" y="150" font-size="44" text-anchor="middle" fill="#fff">=</text><text x="320" y="132" font-size="44" text-anchor="middle" fill="#fff">p</text><line x1="303.8" y1="136" x2="336.2" y2="136" stroke="#fff" stroke-width="2"/><text x="320" y="181" font-size="44" text-anchor="middle" fill="#fff">q</text><text x="390" y="152" font-size="52" text-anchor="middle" fill="#F6C453">?</text>
+<path class="zap" d="M500 60l-40 80h34l-26 80l70 -100h-36l30 -60z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="40" y="280" width="560" height="14" rx="4" fill="#8B5A2B"/>
+</svg>

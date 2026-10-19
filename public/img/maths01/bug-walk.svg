@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 320" role="img">
+<title>A ladybird walking from the origin along a dashed path</title>
+<style>
+text{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.h{stroke:#FFF9EE;stroke-width:3px;paint-order:stroke}
+.bug{animation:walk 6s ease-in-out infinite}@keyframes walk{0%,8%{transform:translate(0,0)}45%{transform:translate(-204px,0)}75%,92%{transform:translate(-204px,136px)}100%{transform:translate(0,0)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M26 24V296M60 24V296M94 24V296M128 24V296M162 24V296M196 24V296M230 24V296M264 24V296M298 24V296M332 24V296M366 24V296M26 296H366M26 262H366M26 228H366M26 194H366M26 160H366M26 126H366M26 92H366M26 58H366M26 24H366" stroke="#E9DCC3" stroke-width="1" fill="none"/><path d="M16 92H376" stroke="#2B2F4A" stroke-width="2.2"/><path d="M378 92l-9 -4.375v8.75zM14 92l9 -4.375v8.75z" fill="#2B2F4A"/><text class="h" x="374" y="83" font-size="14" text-anchor="end" font-style="italic">x</text><path d="M298 14V306" stroke="#2B2F4A" stroke-width="2.2"/><path d="M298 12l-4.375 9h8.75zM298 308l-4.375 -9h8.75z" fill="#2B2F4A"/><text class="h" x="307" y="24" font-size="14" font-style="italic">y</text><text class="h" x="304" y="110" font-size="12">O</text><path d="M298 92H94V228" fill="none" stroke="#E5484D" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round"/><g class="bug"><g transform="translate(298 92)"><ellipse rx="13" ry="11" fill="#E5484D" stroke="#2B2F4A" stroke-width="2"/><path d="M0 -11V11" stroke="#2B2F4A" stroke-width="2"/><circle cx="-5" cy="-3" r="2.5" fill="#2B2F4A"/><circle cx="5" cy="4" r="2.5" fill="#2B2F4A"/><circle cx="-14" cy="0" r="6" fill="#2B2F4A"/></g></g>
+</svg>

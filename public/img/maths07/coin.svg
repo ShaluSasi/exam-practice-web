@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>A coin being flipped</title>
+<style>.t{font:600 14px system-ui, sans-serif;fill:#2B2F4A}.s{font:600 12px system-ui, sans-serif;fill:#2B2F4A}.b{font:700 18px system-ui, sans-serif;fill:#2B2F4A}.m{text-anchor:middle}.e{text-anchor:end}@keyframes flip{0%,100%{transform:scaleX(1)}25%{transform:scaleX(.04)}50%{transform:scaleX(1)}75%{transform:scaleX(.04)}}@keyframes hh{0%,24%,75%,100%{opacity:1}25%,74%{opacity:0}}@keyframes tt{0%,24%,75%,100%{opacity:0}25%,74%{opacity:1}}.hh{animation:hh 3s steps(1) infinite}.tt{opacity:0;animation:tt 3s steps(1) infinite}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="200" cy="160" rx="46" ry="8" fill="#000" opacity=".12"/><g style="transform-origin:200px 100px;animation:flip 3s ease-in-out 0s infinite"><circle cx="200" cy="100" r="52" fill="#F6C453" stroke="#B8862B" stroke-width="2.5"/><circle cx="200" cy="100" r="37.4" fill="none" stroke="#B8862B" stroke-width="1.5"/><text x="200" y="116.6" class="b m hh" style="font-size:46.8px;animation-delay:0s">H</text><text x="200" y="116.6" class="b m tt" style="font-size:46.8px;animation-delay:0s">T</text></g><text x="200" y="190" class="s m">Two faces: heads and tails</text>
+</svg>

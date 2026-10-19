@@ -1,0 +1,2211 @@
+[
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q001",
+  "topic": "Where the carry is written",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Adding $586 + 748$ with the column algorithm. The dashed circles above the columns are the carry cells. Tap the cell in which the carry produced by the **units** column is written.",
+  "image": {
+   "src": "/img/maths11/add-586-748.svg",
+   "alt": "Two three-digit numbers written one under the other with dashed carry circles above each column"
+  },
+  "spots": [
+   {
+    "id": "c0",
+    "x": 82.3,
+    "y": 22.1,
+    "label": "Spot 1"
+   },
+   {
+    "id": "c1",
+    "x": 70.0,
+    "y": 22.1,
+    "label": "Spot 2"
+   },
+   {
+    "id": "c2",
+    "x": 57.7,
+    "y": 22.1,
+    "label": "Spot 3"
+   },
+   {
+    "id": "r3",
+    "x": 45.4,
+    "y": 83.8,
+    "label": "Spot 4"
+   }
+  ],
+  "answer": "c1",
+  "hint": "The carry is added into the **next** column on the left.",
+  "explanation": "Units: $6 + 8 = 14$, so we write $4$ and set carry $= 1$. That carry is used in the **next** column, the tens, so it is written above the tens column. Tapping the units cell is the usual slip: the carry never goes back into the column that made it."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q002",
+  "topic": "Adding 4-digit numbers",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Follow the column-addition steps exactly to add $4857 + 3968$.",
+  "image": {
+   "src": "/img/maths11/add-4857-3968.svg",
+   "alt": "Two four-digit numbers written one under the other with carry circles and empty answer boxes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "8725"
+   },
+   {
+    "id": "b",
+    "text": "7715"
+   },
+   {
+    "id": "c",
+    "text": "12825"
+   },
+   {
+    "id": "d",
+    "text": "8825"
+   }
+  ],
+  "answer": "d",
+  "hint": "Write the carry each time a column total reaches 10 or more.",
+  "explanation": "Units: $7 + 8 = 15$, write $5$, carry $1$. Tens: $5 + 6 + 1 = 12$, write $2$, carry $1$. Hundreds: $8 + 9 + 1 = 18$, write $8$, carry $1$. Thousands: $4 + 3 + 1 = 8$. Answer $8825$. $7715$ is what you get by forgetting every carry; $8725$ forgets the carry into the hundreds; $12825$ writes each column total without carrying."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q003",
+  "topic": "Numbers of different lengths",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Using the column algorithm, add the 5-digit number $48936$ to the 3-digit number $275$. Which is the correct result?",
+  "image": {
+   "src": "/img/maths11/add-48936-275.svg",
+   "alt": "A five-digit number above a three-digit number, aligned on the right, with carry circles and answer boxes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "76436"
+   },
+   {
+    "id": "b",
+    "text": "48211"
+   },
+   {
+    "id": "c",
+    "text": "49211"
+   },
+   {
+    "id": "d",
+    "text": "49201"
+   }
+  ],
+  "answer": "c",
+  "hint": "Align from the right, and treat an empty place as 0 while the carry travels on.",
+  "explanation": "Units $6+5=11$ (write 1, carry 1); tens $3+7+1=11$ (write 1, carry 1); hundreds $9+2+1=12$ (write 2, carry 1); thousands $8+0+1=9$; ten-thousands $4$. Result $49211$. $76436$ comes from aligning the **left** ends ($48936 + 27500$); $48211$ stops adding once $275$ runs out and drops the carry; $49201$ forgets the carry from the units column."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q004",
+  "topic": "Why the carry is at most 1",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In Step 3 of the addition algorithm, one column holds two digits and a carry. What is the **largest** total that one such column can have?",
+  "image": {
+   "src": "/img/maths11/add-max.svg",
+   "alt": "Two digit cards and a carry card added together with a question mark for the total"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "18"
+   },
+   {
+    "id": "b",
+    "text": "19"
+   },
+   {
+    "id": "c",
+    "text": "20"
+   },
+   {
+    "id": "d",
+    "text": "10"
+   }
+  ],
+  "answer": "b",
+  "hint": "Take the biggest digit twice, and add the biggest possible carry.",
+  "explanation": "The biggest digit is $9$ and the biggest carry is $1$, so the largest column total is $9 + 9 + 1 = 19$. Writing the units digit $9$ and carrying $1$ shows the carry can never be more than $1$. $18$ forgets the incoming carry; $20$ and $10$ do not come from any real column."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q005",
+  "topic": "Steps of the addition algorithm",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "order",
+  "prompt": "Put the steps of the addition algorithm in the correct order.",
+  "image": {
+   "src": "/img/maths11/add-742-658.svg",
+   "alt": "Two three-digit numbers written one under the other with carry circles and answer boxes"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Move one column to the left, add the two digits and the carry, write the units digit and update the carry."
+   },
+   {
+    "id": "s4",
+    "text": "Repeat the previous step until no digits remain on the left."
+   },
+   {
+    "id": "s5",
+    "text": "If the carry is 1, write 1 to the left of the bottom row."
+   },
+   {
+    "id": "s1",
+    "text": "Write the numbers one below the other with the digits aligned from the right."
+   },
+   {
+    "id": "s2",
+    "text": "Add the rightmost digits, write the units digit of the sum and set the carry to 0 or 1."
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "hint": "The algorithm is built right to left: align, first column, other columns, repeat, finish.",
+  "explanation": "First we **align** the digits. Then the rightmost column is handled (carry starts at 0 or 1). Next we move left, adding the carry every time, and **repeat** until the digits finish. Only then can the leftover carry be written at the left end.",
+  "startLabel": "First step",
+  "endLabel": "Last step"
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q006",
+  "topic": "Why the last step is needed",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Consider the addition algorithm with its last step (write a leftover carry) removed.",
+  "image": {
+   "src": "/img/maths11/add-742-658.svg",
+   "alt": "Two three-digit numbers written one under the other with carry circles and answer boxes"
+  },
+  "assertion": "Without the final step, the algorithm still adds $123 + 456$ correctly but gives a wrong answer for $742 + 658$.",
+  "reason": "After the leftmost column, a carry of 1 can still be left over.",
+  "answer": "a",
+  "hint": "Check whether any column of each sum produces a carry past the leftmost digit.",
+  "explanation": "$123 + 456 = 579$ has no carry out of the hundreds, so nothing is lost. But $742 + 658$: $2+8=10$ (carry 1), $4+5+1=10$ (carry 1), $7+6+1=14$ gives $4$ and a leftover carry $1$. Without the last step we would report $400$ instead of $1400$. The reason is exactly why the step is needed."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q007",
+  "topic": "Time to add by columns",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Suppose adding one column of two single digits (with a carry) takes $15$ seconds. How long does the column algorithm take for two **6-digit** numbers?",
+  "image": {
+   "src": "/img/maths11/dots-vs-cols.svg",
+   "alt": "A big block of dots beside a row of column boxes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "1 minute 15 seconds"
+   },
+   {
+    "id": "b",
+    "text": "1 minute 45 seconds"
+   },
+   {
+    "id": "c",
+    "text": "1 minute 30 seconds"
+   },
+   {
+    "id": "d",
+    "text": "3 minutes"
+   }
+  ],
+  "answer": "c",
+  "hint": "One column per digit place.",
+  "explanation": "Six digits mean $6$ columns, so $6 \\times 15 = 90$ seconds $= 1$ min $30$ s. $75$ s counts only $5$ columns; $105$ s counts the leftover carry as a $7$th column; $3$ min doubles it for the two numbers. The time grows only with the number of **digits**."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q008",
+  "topic": "Counting vs columns",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "If we move from adding 3-digit numbers to adding 5-digit numbers, what happens to the dots we would have to count and to the columns we add?",
+  "image": {
+   "src": "/img/maths11/dots-vs-cols.svg",
+   "alt": "A big block of dots beside a row of column boxes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "dots become $10$ times as many; only $2$ more columns"
+   },
+   {
+    "id": "b",
+    "text": "dots become $100$ times as many; only $2$ more columns"
+   },
+   {
+    "id": "c",
+    "text": "dots become $100$ times as many; $100$ times as many columns"
+   },
+   {
+    "id": "d",
+    "text": "dots become $2$ times as many; $2$ times as many columns"
+   }
+  ],
+  "answer": "b",
+  "hint": "5-digit numbers are about 100 times as big as 3-digit numbers.",
+  "explanation": "A 5-digit number is about $10 \\times 10 = 100$ times a 3-digit number, so counting out dots takes $100$ times as long. The column method just adds $5 - 3 = 2$ more columns. Mixing up a factor of $10$ (one more digit) with $100$ (two more digits) is the common slip."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q009",
+  "topic": "Adding decimals",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "To add the decimal fractions $12.75 + 8.5$ with the column algorithm, the numbers must first be lined up. What is $12.75 + 8.5$?",
+  "image": {
+   "src": "/img/maths11/decimal-add.svg",
+   "alt": "A number with a decimal point written above empty boxes, with a second number waiting to be placed"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$21.25$"
+   },
+   {
+    "id": "b",
+    "text": "$13.60$"
+   },
+   {
+    "id": "c",
+    "text": "$20.80$"
+   },
+   {
+    "id": "d",
+    "text": "$20.25$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Line up the decimal points, so that tenths sit under tenths. Write 8.5 as 8.50.",
+  "explanation": "Aligned: $12.75 + 8.50$. Hundredths $5+0=5$; tenths $7+5=12$ (write 2, carry 1); ones $2+8+1=11$ (write 1, carry 1); tens $1+1=2$. Result $21.25$. $13.60$ comes from right-aligning the digits ($1275 + 85$); $20.80$ reads $8.5$ as $8.05$; $20.25$ loses the carry."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q010",
+  "topic": "Tracing the divisors algorithm",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The divisors algorithm is run for $n = 12$. After the number $j = 7$ has been checked, what does list-of-divisors contain?",
+  "image": {
+   "src": "/img/maths11/scanner12.svg",
+   "alt": "A row of twelve numbered cells with a frame scanning along them"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$[1, 2, 3, 4, 6, 7]$"
+   },
+   {
+    "id": "b",
+    "text": "$[1, 2, 3, 4]$"
+   },
+   {
+    "id": "c",
+    "text": "$[1, 2, 3, 4, 5, 6]$"
+   },
+   {
+    "id": "d",
+    "text": "$[1, 2, 3, 4, 6]$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Test each j from 1 to 7: does it divide 12 exactly?",
+  "explanation": "$1, 2, 3, 4, 6$ divide $12$; $5$ and $7$ do not. So the list is $[1, 2, 3, 4, 6]$. Adding $7$ (checked but not a divisor) or $5$ is a tracing slip, and stopping at $[1,2,3,4]$ forgets $6$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q011",
+  "topic": "Divisors in pairs",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Divisors of $36$ come in pairs with product $36$, e.g. $(1, 36)$, $(2, 18)$. One divisor is paired with **itself**. Tap the circle under that divisor.",
+  "image": {
+   "src": "/img/maths11/divpairs36.svg",
+   "alt": "A row of nine number chips with an empty dashed circle under each chip"
+  },
+  "spots": [
+   {
+    "id": "c1",
+    "x": 9.0,
+    "y": 81.3,
+    "label": "Spot 1"
+   },
+   {
+    "id": "c2",
+    "x": 19.3,
+    "y": 81.3,
+    "label": "Spot 2"
+   },
+   {
+    "id": "c4",
+    "x": 40.0,
+    "y": 81.3,
+    "label": "Spot 3"
+   },
+   {
+    "id": "c5",
+    "x": 50.3,
+    "y": 81.3,
+    "label": "Spot 4"
+   },
+   {
+    "id": "c6",
+    "x": 60.7,
+    "y": 81.3,
+    "label": "Spot 5"
+   },
+   {
+    "id": "c9",
+    "x": 91.7,
+    "y": 81.3,
+    "label": "Spot 6"
+   }
+  ],
+  "answer": "c5",
+  "hint": "Which number multiplied by itself gives 36?",
+  "explanation": "The pairs are $(1,36), (2,18), (3,12), (4,9)$ and $(6,6)$. Since $6 \\times 6 = 36$, the divisor $6 = \\sqrt{36}$ is its own partner. Pairs are why we need to examine only the numbers up to $\\sqrt{n}$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q012",
+  "topic": "Examining fewer numbers",
+  "difficulty": "hard",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "If divisors are found **in pairs**, up to which number must we examine to find all the divisors of $n = 144$?",
+  "image": {
+   "src": "/img/maths11/pairarcs24.svg",
+   "alt": "Number chips with coloured arcs joining pairs of chips"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "72"
+   },
+   {
+    "id": "b",
+    "text": "12"
+   },
+   {
+    "id": "c",
+    "text": "144"
+   },
+   {
+    "id": "d",
+    "text": "24"
+   }
+  ],
+  "answer": "b",
+  "hint": "Smaller members of the pairs never exceed the square root of n.",
+  "explanation": "Each divisor $j \\le \\sqrt{144} = 12$ gives its partner $144 \\div j$ automatically (for example $9 \\leftrightarrow 16$). So we need to examine only $1$ to $12$. Checking up to $72$ (half of $n$) or $144$ (all of $n$) is far more work than needed."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q013",
+  "topic": "Order of the list of divisors",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "The divisors algorithm checks $j = 1, 2, 3, \\dots$ for $n = 45$. Arrange the divisors in the order in which they are **added** to the list.",
+  "image": {
+   "src": "/img/maths11/list-grows.svg",
+   "alt": "A bracket containing coloured blocks that appear one by one at the end"
+  },
+  "items": [
+   {
+    "id": "s5",
+    "text": "15"
+   },
+   {
+    "id": "s3",
+    "text": "5"
+   },
+   {
+    "id": "s6",
+    "text": "45"
+   },
+   {
+    "id": "s1",
+    "text": "1"
+   },
+   {
+    "id": "s4",
+    "text": "9"
+   },
+   {
+    "id": "s2",
+    "text": "3"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5",
+   "s6"
+  ],
+  "hint": "The algorithm scans j upward, so the smaller divisors are found first.",
+  "explanation": "The algorithm checks $j$ in increasing order, and each new divisor is added at the **end**. So the list grows as $[1], [1,3], [1,3,5], [1,3,5,9], [1,3,5,9,15], [1,3,5,9,15,45]$ and is always in increasing order.",
+  "startLabel": "Added first",
+  "endLabel": "Added last"
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q014",
+  "topic": "Reading a flowchart: the decision",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the flowchart for finding divisors, tap the circle beside the **decision** that checks whether the current $j$ should be added to the list.",
+  "image": {
+   "src": "/img/maths11/flow-divisors.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "spots": [
+   {
+    "id": "start",
+    "x": 57.5,
+    "y": 5.5,
+    "label": "Spot 1"
+   },
+   {
+    "id": "d1",
+    "x": 58.9,
+    "y": 36.9,
+    "label": "Spot 2"
+   },
+   {
+    "id": "d2",
+    "x": 60.4,
+    "y": 57.8,
+    "label": "Spot 3"
+   },
+   {
+    "id": "act",
+    "x": 62.0,
+    "y": 80.9,
+    "label": "Spot 4"
+   },
+   {
+    "id": "inc",
+    "x": 60.7,
+    "y": 88.5,
+    "label": "Spot 5"
+   }
+  ],
+  "answer": "d2",
+  "hint": "A decision is a diamond. Which diamond asks about dividing n?",
+  "explanation": "There are two diamonds. The upper one asks $j \\le n$ (are we done scanning?). The lower one asks **'j divides n?'**; only when the answer is yes do we reach the rectangle that adds $j$ to the list."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q015",
+  "topic": "Reading a flowchart: the loop",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the circle on the arrow that **loops back** so that the next value of $j$ can be tested.",
+  "image": {
+   "src": "/img/maths11/flow-divisors.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "spots": [
+   {
+    "id": "loop",
+    "x": 8.9,
+    "y": 67.6,
+    "label": "Spot 1"
+   },
+   {
+    "id": "nobr",
+    "x": 78.6,
+    "y": 78.2,
+    "label": "Spot 2"
+   },
+   {
+    "id": "yes12",
+    "x": 49.6,
+    "y": 75.1,
+    "label": "Spot 3"
+   },
+   {
+    "id": "yes01",
+    "x": 49.6,
+    "y": 53.5,
+    "label": "Spot 4"
+   }
+  ],
+  "answer": "loop",
+  "hint": "The loop-back arrow starts after j is increased and returns to the first test.",
+  "explanation": "After $j \\leftarrow j + 1$ the arrow along the left edge returns to the diamond $j \\le n$, so the same tests are repeated for the new $j$. The 'no' arrow from the lower diamond skips adding but also feeds into the increase step; it does not go back to the test."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q016",
+  "topic": "Flowchart symbols",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "match",
+  "prompt": "Match each numbered flowchart symbol in the picture with its job.",
+  "image": {
+   "src": "/img/maths11/shapes-legend.svg",
+   "alt": "Four flowchart symbols in a row with numbered markers above them",
+   "markers": [
+    {
+     "x": 13.7,
+     "y": 20,
+     "label": "1"
+    },
+    {
+     "x": 43.5,
+     "y": 20,
+     "label": "2"
+    },
+    {
+     "x": 71,
+     "y": 20,
+     "label": "3"
+    },
+    {
+     "x": 92,
+     "y": 20,
+     "label": "4"
+    }
+   ]
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Symbol 1 (oval)"
+   },
+   {
+    "id": "l2",
+    "text": "Symbol 2 (rectangle)"
+   },
+   {
+    "id": "l3",
+    "text": "Symbol 3 (diamond)"
+   },
+   {
+    "id": "l4",
+    "text": "Symbol 4 (arrow)"
+   }
+  ],
+  "right": [
+   {
+    "id": "A",
+    "text": "A yes/no decision"
+   },
+   {
+    "id": "B",
+    "text": "Start or end of the algorithm"
+   },
+   {
+    "id": "C",
+    "text": "A step that does something or sets a value"
+   },
+   {
+    "id": "D",
+    "text": "Shows which step comes next"
+   }
+  ],
+  "pairs": {
+   "l1": "B",
+   "l2": "C",
+   "l3": "A",
+   "l4": "D"
+  },
+  "hint": "Think about what happens at a diamond: the path splits.",
+  "explanation": "Standard flowchart conventions: an **oval** marks Start and End, a **rectangle** holds a process (for example $j \\leftarrow j+1$), a **diamond** asks a question with two ways out (yes/no), and **arrows** show the order of steps."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q017",
+  "topic": "Counting loop tests",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The flowchart is run with $n = 10$. How many times is the test **'$j \\le n$ ?'** carried out before the flowchart ends?",
+  "image": {
+   "src": "/img/maths11/flow-divisors.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "11"
+   },
+   {
+    "id": "b",
+    "text": "10"
+   },
+   {
+    "id": "c",
+    "text": "12"
+   },
+   {
+    "id": "d",
+    "text": "4"
+   }
+  ],
+  "answer": "a",
+  "hint": "The test is also performed once more when j has gone past n.",
+  "explanation": "The test is done for $j = 1, 2, \\dots, 10$ (answer yes each time) and once more for $j = 11$ (answer no, so we leave the loop). That is $10 + 1 = 11$ tests. $10$ is the off-by-one slip; $4$ is the number of times $j$ is **added** ($1, 2, 5, 10$), not the number of tests."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q018",
+  "topic": "Following the flowchart",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "For $n = 18$, arrange these actions in the order in which the flowchart performs them for the very first time round.",
+  "image": {
+   "src": "/img/maths11/flow-divisors.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Test whether $j \\le n$"
+   },
+   {
+    "id": "s1",
+    "text": "Set list-of-divisors to empty"
+   },
+   {
+    "id": "s6",
+    "text": "Increase $j$ by $1$"
+   },
+   {
+    "id": "s2",
+    "text": "Set $j$ to $1$"
+   },
+   {
+    "id": "s5",
+    "text": "Add $j$ to the list"
+   },
+   {
+    "id": "s4",
+    "text": "Test whether $j$ divides $n$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5",
+   "s6"
+  ],
+  "hint": "Initial steps come first, then the loop body, and the increase is last.",
+  "explanation": "The two set-up steps are done once at the start. Then the loop body is entered: first test $j \\le 18$, then the divisibility test; $1$ divides $18$, so $1$ is added; finally $j$ is increased to $2$ and control loops back.",
+  "startLabel": "First",
+  "endLabel": "Last"
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q019",
+  "topic": "Common divisors list",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Using the first gcd algorithm for $\\gcd(48, 36)$, how many numbers are in the list **common-divisors**?",
+  "image": {
+   "src": "/img/maths11/lists-48-36.svg",
+   "alt": "Two rows of number chips, the first row longer than the second"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "5"
+   },
+   {
+    "id": "b",
+    "text": "7"
+   },
+   {
+    "id": "c",
+    "text": "6"
+   },
+   {
+    "id": "d",
+    "text": "4"
+   }
+  ],
+  "answer": "c",
+  "hint": "Check each divisor of 48 against the divisors of 36 (do not forget 1).",
+  "explanation": "Divisors of $48$ that also divide $36$: $1, 2, 3, 4, 6, 12$ ($8, 16, 24, 48$ are not divisors of $36$). That is $6$ numbers, and the rightmost, $12$, is the gcd. $5$ forgets $1$; $7$ wrongly includes $8$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q020",
+  "topic": "Elements of one list not in another",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "List 1 is the list of divisors of $375$ and List 2 is the list of divisors of $825$. Which elements of List 1 are **not** present in List 2?",
+  "image": {
+   "src": "/img/maths11/lists-375-825.svg",
+   "alt": "Two rows of number chips for two lists of divisors"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$[1, 3, 5, 15, 25, 75]$"
+   },
+   {
+    "id": "b",
+    "text": "$[125, 375]$"
+   },
+   {
+    "id": "c",
+    "text": "$[11, 33, 55, 165, 275, 825]$"
+   },
+   {
+    "id": "d",
+    "text": "$[125]$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Go through List 1 from the left and test membership in List 2.",
+  "explanation": "$1, 3, 5, 15, 25, 75$ occur in both lists. $125$ and $375$ divide $375$ but not $825$, so List 1 minus List 2 is $[125, 375]$. $[1,3,5,15,25,75]$ is the **common** list; the list with $11, 33, \\dots$ is List 2 minus List 1; $[125]$ forgets $375$ itself."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q021",
+  "topic": "Facts about the divisors algorithm",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** the true statements about the algorithm that lists the divisors of $n$.",
+  "image": {
+   "src": "/img/maths11/list-grows.svg",
+   "alt": "A bracket containing coloured blocks that appear one by one at the end"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "list-of-divisors is empty before $j = 1$ is checked."
+   },
+   {
+    "id": "b",
+    "text": "The final list is in increasing order because $j$ runs from $1$ upwards."
+   },
+   {
+    "id": "c",
+    "text": "Every $j$ from $1$ to $n$ is added to the list."
+   },
+   {
+    "id": "d",
+    "text": "$1$ and $n$ are always in the list."
+   },
+   {
+    "id": "e",
+    "text": "The algorithm needs no basic skill such as knowing whether one number divides another."
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Only the j that divide n are added.",
+  "explanation": "The list starts empty, grows at the end, and is therefore sorted. $1$ and $n$ always divide $n$. But only the $j$ that **divide** $n$ are added, and the algorithm does assume that we can tell directly when a smaller number divides a larger one."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q022",
+  "topic": "Efficiency of gcd scans",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "For $m = 90$ and $n = 36$, arrange the three scans from the **most** numbers checked to the **fewest**.",
+  "image": {
+   "src": "/img/maths11/bars-scan.svg",
+   "alt": "Two bars of different lengths with a magnifier scanning along a ruler"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Check one scan from $1$ to $\\min(m, n)$"
+   },
+   {
+    "id": "s1",
+    "text": "Check divisors of $m$ and of $n$ separately ($m + n$ numbers)"
+   },
+   {
+    "id": "s2",
+    "text": "Check one scan from $1$ to $\\max(m, n)$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3"
+  ],
+  "hint": "Compute the number of checks for each version.",
+  "explanation": "Separate scans: $90 + 36 = 126$ checks. One combined scan up to the larger number: $90$. Scanning only to the smaller number: $36$. Each improvement keeps the answer correct but lowers the work.",
+  "startLabel": "Most checks",
+  "endLabel": "Fewest checks"
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q023",
+  "topic": "Bound on common divisors",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Consider the scan used to find $\\gcd(m, n)$ for two positive numbers.",
+  "image": {
+   "src": "/img/maths11/bars-scan.svg",
+   "alt": "Two bars of different lengths with a magnifier scanning along a ruler"
+  },
+  "assertion": "It is enough to scan the numbers from $1$ to $\\min(m, n)$ when looking for common divisors.",
+  "reason": "A divisor of a positive number cannot be larger than the number itself.",
+  "answer": "a",
+  "hint": "Which number limits how big a common divisor can be?",
+  "explanation": "A common divisor divides both numbers, so it cannot exceed the smaller one. Hence scanning beyond $\\min(m,n)$ only wastes effort; for example $\\gcd(36, 60)$ needs no check above $36$. The reason is the fact that justifies the assertion."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q024",
+  "topic": "Tracing the common-divisor scan",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The scan with the variable $d$ (most recent common divisor) is run for $m = 36$, $n = 60$. What is $d$ just after $k = 9$ has been processed?",
+  "image": {
+   "src": "/img/maths11/flow-scan.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "9"
+   },
+   {
+    "id": "b",
+    "text": "6"
+   },
+   {
+    "id": "c",
+    "text": "4"
+   },
+   {
+    "id": "d",
+    "text": "12"
+   }
+  ],
+  "answer": "b",
+  "hint": "Only k that divides BOTH numbers can update d. Does 9 divide 60?",
+  "explanation": "Common divisors met so far: $k = 2, 3, 4, 6$ (each divides $36$ and $60$). $k = 9$ divides $36$ but $60 \\div 9$ is not whole, so $d$ is unchanged. Hence $d = 6$. $9$ forgets the 'both'; $12$ has not been reached yet."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q025",
+  "topic": "Reading a flowchart: update step",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In this flowchart $d$ always holds the most recent common divisor found. Tap the circle beside the step that **updates** $d$.",
+  "image": {
+   "src": "/img/maths11/flow-scan.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "spots": [
+   {
+    "id": "i1",
+    "x": 62.0,
+    "y": 16.7,
+    "label": "Spot 1"
+   },
+   {
+    "id": "d1",
+    "x": 58.9,
+    "y": 36.9,
+    "label": "Spot 2"
+   },
+   {
+    "id": "d2",
+    "x": 60.4,
+    "y": 57.8,
+    "label": "Spot 3"
+   },
+   {
+    "id": "act",
+    "x": 62.0,
+    "y": 80.9,
+    "label": "Spot 4"
+   },
+   {
+    "id": "inc",
+    "x": 60.7,
+    "y": 88.5,
+    "label": "Spot 5"
+   }
+  ],
+  "answer": "act",
+  "hint": "d changes only when the test 'k divides m and n' is answered yes.",
+  "explanation": "The rectangle $d \\leftarrow k$ is reached only through the **yes** arrow of the divisibility test, so it records the newest common divisor. The first rectangle $d \\leftarrow 1$ only sets the starting value once."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q026",
+  "topic": "Which k update d",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "The scan is run for $m = 12$ and $n = 18$ (so $k$ goes from $2$ to $12$). Select **all** the values of $k$ at which $d \\leftarrow k$ is executed.",
+  "image": {
+   "src": "/img/maths11/flow-scan.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$k = 2$"
+   },
+   {
+    "id": "b",
+    "text": "$k = 3$"
+   },
+   {
+    "id": "c",
+    "text": "$k = 4$"
+   },
+   {
+    "id": "d",
+    "text": "$k = 6$"
+   },
+   {
+    "id": "e",
+    "text": "$k = 9$"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Which k divide both 12 and 18?",
+  "explanation": "$2$, $3$ and $6$ divide both numbers. $4$ divides $12$ but not $18$; $9$ divides $18$ but not $12$. So $d$ is updated at $2, 3, 6$ and the final answer is $\\gcd = 6$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q027",
+  "topic": "Counting tests in a scan",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The scan is run for $m = 15$ and $n = 40$. How many times is the test **'k divides m and n ?'** carried out?",
+  "image": {
+   "src": "/img/maths11/flow-scan.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "15"
+   },
+   {
+    "id": "b",
+    "text": "13"
+   },
+   {
+    "id": "c",
+    "text": "14"
+   },
+   {
+    "id": "d",
+    "text": "39"
+   }
+  ],
+  "answer": "c",
+  "hint": "k starts from 2 and stops at min(m, n).",
+  "explanation": "$k$ runs through $2, 3, \\dots, \\min(15, 40) = 15$, which is $15 - 2 + 1 = 14$ values. $15$ wrongly starts from $k = 1$ (but $d$ starts at $1$ so $1$ is not tested); $13$ stops one early; $39$ scans up to the larger number."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q028",
+  "topic": "Which pairs have gcd 6",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** pairs $(m, n)$ whose gcd is $6$.",
+  "image": {
+   "src": "/img/maths11/tile-proof.svg",
+   "alt": "Two bars made of equal blocks, one placed under the other"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$(42, 30)$"
+   },
+   {
+    "id": "b",
+    "text": "$(24, 18)$"
+   },
+   {
+    "id": "c",
+    "text": "$(36, 60)$"
+   },
+   {
+    "id": "d",
+    "text": "$(54, 24)$"
+   },
+   {
+    "id": "e",
+    "text": "$(48, 32)$"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Find the greatest number that divides both.",
+  "explanation": "$\\gcd(42,30)=6$, $\\gcd(24,18)=6$ and $\\gcd(54,24)=6$. But $\\gcd(36,60)=12$ (stopping at a common divisor $6$ instead of the greatest is the slip) and $\\gcd(48,32)=16$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q029",
+  "topic": "Why Euclid's reduction works",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "If $d$ is a common divisor of $m$ and $n$ and we write $m = ad$, $n = bd$, what is $m - n$ in terms of $d$?",
+  "image": {
+   "src": "/img/maths11/tile-proof.svg",
+   "alt": "Two bars made of equal blocks, one placed under the other"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$(a - b)d$"
+   },
+   {
+    "id": "b",
+    "text": "$(a + b)d$"
+   },
+   {
+    "id": "c",
+    "text": "$ad - b$"
+   },
+   {
+    "id": "d",
+    "text": "$(a - b)$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Take d out as a common factor.",
+  "explanation": "$m - n = ad - bd = (a - b)d$, so $d$ also divides $m - n$. That is why every common divisor of $m$ and $n$ is a common divisor of $n$ and $m - n$. $(a+b)d$ would be $m + n$; $ad - b$ forgets to multiply $b$ by $d$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q030",
+  "topic": "Tiling picture of m - n",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Bar $n$ is laid under bar $m$ with their left ends together. Tap the circle on the part that represents $m - n$.",
+  "image": {
+   "src": "/img/maths11/tile-proof.svg",
+   "alt": "Two bars made of equal blocks, one placed under the other, with dashed circles"
+  },
+  "spots": [
+   {
+    "id": "p1",
+    "x": 32.1,
+    "y": 33.5,
+    "label": "Spot 1"
+   },
+   {
+    "id": "p2",
+    "x": 75.0,
+    "y": 33.5,
+    "label": "Spot 2"
+   },
+   {
+    "id": "p3",
+    "x": 32.1,
+    "y": 66.1,
+    "label": "Spot 3"
+   },
+   {
+    "id": "p4",
+    "x": 75.0,
+    "y": 66.1,
+    "label": "Spot 4"
+   }
+  ],
+  "answer": "p2",
+  "hint": "Which part of m is left over after matching n?",
+  "explanation": "The first part of $m$ has the same length as $n$; what sticks out to the right is the leftover piece $m - n$. If $d$-sized blocks tile $m$ and $n$, the same blocks tile that leftover, which is Euclid's picture proof."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q031",
+  "topic": "Counting subtraction reductions",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Euclid's original (subtraction) algorithm is applied to $\\gcd(48, 18)$. How many **reductions** (uses of Step 3) happen before $n = 0$ is reached?",
+  "image": {
+   "src": "/img/maths11/pair-48-18.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "4"
+   },
+   {
+    "id": "b",
+    "text": "6"
+   },
+   {
+    "id": "c",
+    "text": "5"
+   },
+   {
+    "id": "d",
+    "text": "3"
+   }
+  ],
+  "answer": "c",
+  "hint": "Reduce (m, n) to (n, m - n), reversing the pair whenever m < n, and count only the reductions.",
+  "explanation": "$(48,18)\\to(18,30)$; reverse to $(30,18)\\to(18,12)\\to(12,6)\\to(6,6)\\to(6,0)$. That is $5$ reductions (reversing is not a reduction), and the gcd is $6$. $4$ stops before the last $(6,6)\\to(6,0)$; $6$ counts the reversal; $3$ is the count for the faster remainder method."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q032",
+  "topic": "Slow case of subtraction",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "How many reductions does the subtraction algorithm need for $\\gcd(61, 2)$? (Here $61 = 2k+1$ with $k = 30$.)",
+  "image": {
+   "src": "/img/maths11/pair-61-2.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "30"
+   },
+   {
+    "id": "b",
+    "text": "32"
+   },
+   {
+    "id": "c",
+    "text": "31"
+   },
+   {
+    "id": "d",
+    "text": "2"
+   }
+  ],
+  "answer": "b",
+  "hint": "Each reduction lowers the big number by only 2, until you reach the small numbers.",
+  "explanation": "$(61,2)\\to(59,2)\\to\\cdots\\to(3,2)$ takes $29$ reductions; then $(3,2)\\to(2,1)\\to(1,1)\\to(1,0)$ adds $3$ more, giving $32$ in all (about $k$, as the book says). $30$ is the rough value $k$; $2$ is the count for the remainder method."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q033",
+  "topic": "Computing a gcd with Euclid's method",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Using the improved Euclid algorithm, $\\gcd(51000, 81000) = $ ?",
+  "image": {
+   "src": "/img/maths11/pair-51000-81000.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "3000"
+   },
+   {
+    "id": "b",
+    "text": "1000"
+   },
+   {
+    "id": "c",
+    "text": "6000"
+   },
+   {
+    "id": "d",
+    "text": "27000"
+   }
+  ],
+  "answer": "a",
+  "hint": "$81000 \\bmod 51000$ is the first remainder.",
+  "explanation": "$(81000, 51000)\\to(51000, 30000)\\to(30000, 21000)\\to(21000, 9000)\\to(9000, 3000)\\to(3000, 0)$. So the gcd is $3000$. $27000$ is $\\gcd(54000, 81000)$ from the book, a different pair; $1000$ is a common divisor but not the greatest; $6000$ does not divide $51000$."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q034",
+  "topic": "Counting divisions",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Using Āryabhaṭa's division algorithm for $\\gcd(1071, 462)$, how many reduction (division) steps are needed before the second number becomes $0$?",
+  "image": {
+   "src": "/img/maths11/pair-1071-462.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "4"
+   },
+   {
+    "id": "b",
+    "text": "2"
+   },
+   {
+    "id": "c",
+    "text": "12"
+   },
+   {
+    "id": "d",
+    "text": "3"
+   }
+  ],
+  "answer": "d",
+  "hint": "Replace (m, n) by (n, m mod n) until n = 0.",
+  "explanation": "$1071 \\bmod 462 = 147$, so $(462, 147)$; $462 \\bmod 147 = 21$, so $(147, 21)$; $147 \\bmod 21 = 0$, so $(21, 0)$. That is $3$ reductions and the gcd is $21$. $4$ counts the final report step; $12$ is the number needed by repeated subtraction."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q035",
+  "topic": "Next pair in the remainder method",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "In the improved algorithm, $\\gcd(m, n)$ is reduced to $\\gcd(n, m \\bmod n)$. Match each problem with the problem it reduces to.",
+  "image": {
+   "src": "/img/maths11/reduce-step.svg",
+   "alt": "A gcd problem passing through a gear to become a smaller problem"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "$\\gcd(50, 35)$"
+   },
+   {
+    "id": "l2",
+    "text": "$\\gcd(90, 24)$"
+   },
+   {
+    "id": "l3",
+    "text": "$\\gcd(64, 40)$"
+   },
+   {
+    "id": "l4",
+    "text": "$\\gcd(45, 12)$"
+   }
+  ],
+  "right": [
+   {
+    "id": "A",
+    "text": "$\\gcd(24, 18)$"
+   },
+   {
+    "id": "B",
+    "text": "$\\gcd(35, 15)$"
+   },
+   {
+    "id": "C",
+    "text": "$\\gcd(12, 9)$"
+   },
+   {
+    "id": "D",
+    "text": "$\\gcd(40, 24)$"
+   },
+   {
+    "id": "E",
+    "text": "$\\gcd(15, 35)$"
+   }
+  ],
+  "pairs": {
+   "l1": "B",
+   "l2": "A",
+   "l3": "D",
+   "l4": "C"
+  },
+  "hint": "The new second number is the remainder m mod n.",
+  "explanation": "$50 \\bmod 35 = 15$, $90 \\bmod 24 = 18$, $64 \\bmod 40 = 24$ and $45 \\bmod 12 = 9$. The first number of the new pair is the old $n$. The extra choice $\\gcd(15, 35)$ has the numbers in the wrong order."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q036",
+  "topic": "Chain of reductions",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "The improved Euclid algorithm is run on $\\gcd(84, 30)$. Arrange the problems in the order in which they appear.",
+  "image": {
+   "src": "/img/maths11/pair-84-30.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "$\\gcd(6, 0)$"
+   },
+   {
+    "id": "s3",
+    "text": "$\\gcd(24, 6)$"
+   },
+   {
+    "id": "s1",
+    "text": "$\\gcd(84, 30)$"
+   },
+   {
+    "id": "s2",
+    "text": "$\\gcd(30, 24)$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "hint": "Each new problem is $(n, m \\bmod n)$.",
+  "explanation": "$84 \\bmod 30 = 24$, so $\\gcd(30, 24)$; $30 \\bmod 24 = 6$, so $\\gcd(24, 6)$; $24 \\bmod 6 = 0$, so $\\gcd(6, 0)$ and the answer is $6$.",
+  "startLabel": "Start",
+  "endLabel": "Stop"
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q037",
+  "topic": "Stopping test",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In this flowchart for Euclid's remainder algorithm, tap the circle beside the **decision** whose 'yes' answer ends the computation.",
+  "image": {
+   "src": "/img/maths11/flow-euclid.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "spots": [
+   {
+    "id": "d1",
+    "x": 55.0,
+    "y": 20.0,
+    "label": "Spot 1"
+   },
+   {
+    "id": "swap",
+    "x": 94.3,
+    "y": 23.5,
+    "label": "Spot 2"
+   },
+   {
+    "id": "d2",
+    "x": 55.0,
+    "y": 54.0,
+    "label": "Spot 3"
+   },
+   {
+    "id": "report",
+    "x": 94.3,
+    "y": 61.8,
+    "label": "Spot 4"
+   },
+   {
+    "id": "reduce",
+    "x": 62.9,
+    "y": 82.0,
+    "label": "Spot 5"
+   }
+  ],
+  "answer": "d2",
+  "hint": "When the second number is 0 the gcd is known.",
+  "explanation": "The diamond **'n = 0 ?'** is the stopping test: if yes, the answer is $m$. The upper diamond $m < n$ only decides whether to swap the two numbers."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q038",
+  "topic": "Loop in Euclid's algorithm",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "After the numbers have been reduced, the process repeats from the top. Tap the circle on the **loop-back** arrow.",
+  "image": {
+   "src": "/img/maths11/flow-euclid.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "spots": [
+   {
+    "id": "loop",
+    "x": 8.0,
+    "y": 57.5,
+    "label": "Spot 1"
+   },
+   {
+    "id": "swapline",
+    "x": 58.9,
+    "y": 43.8,
+    "label": "Spot 2"
+   },
+   {
+    "id": "nolink",
+    "x": 49.1,
+    "y": 75.5,
+    "label": "Spot 3"
+   },
+   {
+    "id": "yesrep",
+    "x": 61.1,
+    "y": 63.2,
+    "label": "Spot 4"
+   }
+  ],
+  "answer": "loop",
+  "hint": "It leaves the reducing rectangle and returns to the first decision.",
+  "explanation": "The long arrow on the left leads from the box $r \\leftarrow m \\bmod n$ back up to $m < n$, so the new pair goes through the same steps again. The short arrow from 'swap' only rejoins the main path and is not a loop."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q039",
+  "topic": "Where the answer is produced",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the circle beside the step that **produces the answer** of the algorithm.",
+  "image": {
+   "src": "/img/maths11/flow-euclid.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "spots": [
+   {
+    "id": "start",
+    "x": 57.5,
+    "y": 7.0,
+    "label": "Spot 1"
+   },
+   {
+    "id": "swap",
+    "x": 94.3,
+    "y": 23.5,
+    "label": "Spot 2"
+   },
+   {
+    "id": "report",
+    "x": 94.3,
+    "y": 61.8,
+    "label": "Spot 3"
+   },
+   {
+    "id": "reduce",
+    "x": 62.9,
+    "y": 82.0,
+    "label": "Spot 4"
+   },
+   {
+    "id": "end",
+    "x": 89.3,
+    "y": 80.0,
+    "label": "Spot 5"
+   }
+  ],
+  "answer": "report",
+  "hint": "Look for the box that outputs a value.",
+  "explanation": "The rectangle **'Report m'** is where the gcd is given, after the test $n = 0$ is satisfied. The reducing box only prepares a smaller problem, and the oval End just stops."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q040",
+  "topic": "Why Step 1 reverses",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Consider Euclid's algorithm with Step 1 'If $m < n$, reverse the numbers'.",
+  "image": {
+   "src": "/img/maths11/reduce-step.svg",
+   "alt": "A gcd problem passing through a gear to become a smaller problem"
+  },
+  "assertion": "For $\\gcd(18, 48)$, the first thing the algorithm does is to reverse the numbers to $\\gcd(48, 18)$.",
+  "reason": "The reduction of $\\gcd(m, n)$ to $\\gcd(n, m - n)$ is justified only when $m \\ge n$.",
+  "answer": "a",
+  "hint": "Is 18 smaller than 48?",
+  "explanation": "Since $18 < 48$, Step 1 applies and the pair becomes $(48, 18)$. The reduction rule was proved for $m \\ge n$ (so that $m - n$ is not negative), which is why the reversal comes first."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q041",
+  "topic": "Tracing the flowchart",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The flowchart is run with $m = 18$ and $n = 48$. How many times is the rectangle $r \\leftarrow m \\bmod n$ executed?",
+  "image": {
+   "src": "/img/maths11/flow-euclid.svg",
+   "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "3"
+   },
+   {
+    "id": "b",
+    "text": "2"
+   },
+   {
+    "id": "c",
+    "text": "4"
+   },
+   {
+    "id": "d",
+    "text": "5"
+   }
+  ],
+  "answer": "a",
+  "hint": "Swap first. Then count the divisions until n becomes 0.",
+  "explanation": "$(18,48)$ is swapped to $(48,18)$. Then $48 \\bmod 18 = 12$ gives $(18,12)$; $18 \\bmod 12 = 6$ gives $(12,6)$; $12 \\bmod 6 = 0$ gives $(6,0)$. The box runs $3$ times and the report is $6$. $4$ counts the stopping test; $5$ is the number needed by subtraction."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q042",
+  "topic": "Remainders",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "A reduction step uses $m \\bmod n$, the remainder when $m$ is divided by $n$. Match each remainder expression with its value.",
+  "image": {
+   "src": "/img/maths11/reduce-step.svg",
+   "alt": "A gcd problem passing through a gear to become a smaller problem"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "$29 \\bmod 6$"
+   },
+   {
+    "id": "l2",
+    "text": "$100 \\bmod 8$"
+   },
+   {
+    "id": "l3",
+    "text": "$45 \\bmod 9$"
+   },
+   {
+    "id": "l4",
+    "text": "$7 \\bmod 12$"
+   }
+  ],
+  "right": [
+   {
+    "id": "A",
+    "text": "$12$"
+   },
+   {
+    "id": "B",
+    "text": "$4$"
+   },
+   {
+    "id": "C",
+    "text": "$0$"
+   },
+   {
+    "id": "D",
+    "text": "$5$"
+   },
+   {
+    "id": "E",
+    "text": "$7$"
+   }
+  ],
+  "pairs": {
+   "l1": "D",
+   "l2": "B",
+   "l3": "C",
+   "l4": "E"
+  },
+  "hint": "Divide, then see what is left over.",
+  "explanation": "$29 = 4 \\times 6 + 5$, $100 = 12 \\times 8 + 4$, $45 = 5 \\times 9 + 0$, and $7 = 0 \\times 12 + 7$ (a smaller number divided by a larger one leaves itself as the remainder). $12$ is the quotient of $100 \\div 8$ and a tempting wrong choice."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q043",
+  "topic": "Speed of the subtraction algorithm",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Consider Euclid's subtraction algorithm applied to $\\gcd(2k+1, 2)$.",
+  "image": {
+   "src": "/img/maths11/pair-99-2.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "assertion": "The subtraction algorithm needs about $k$ reductions for $\\gcd(2k + 1, 2)$.",
+  "reason": "Each reduction here lowers the big number by only $2$, so the work grows with the **value** of the number, not with its number of digits.",
+  "answer": "a",
+  "hint": "How much does each step shrink 2k + 1?",
+  "explanation": "The pairs go $(2k+1, 2) \\to (2k-1, 2) \\to (2k-3, 2) \\to \\cdots$ so roughly $k$ steps are used; for example $\\gcd(99, 2)$ needs $51$. The reason explains why the algorithm is slow for large numbers."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q044",
+  "topic": "Why remainders are faster",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Āryabhaṭa's improvement replaces the reduction to $\\gcd(n, m - n)$ by $\\gcd(n, m \\bmod n)$.",
+  "image": {
+   "src": "/img/maths11/pair-99-2.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "assertion": "For $\\gcd(99, 2)$ the remainder method finishes in just two reductions.",
+  "reason": "$99 \\bmod 2$ is what remains when $2$ is subtracted from $99$ again and again until no more can be subtracted.",
+  "answer": "a",
+  "hint": "Many subtractions are bundled into one division.",
+  "explanation": "$99 \\bmod 2 = 1$ so $(99,2)\\to(2,1)$, then $2 \\bmod 1 = 0$ gives $(1,0)$: two reductions instead of fifty-one. The reason shows why one remainder step replaces many subtractions."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q045",
+  "topic": "Remainder method for a hard case",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "How many reductions does the **remainder** method need for $\\gcd(1001, 2)$?",
+  "image": {
+   "src": "/img/maths11/pair-1001-2.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "2"
+   },
+   {
+    "id": "b",
+    "text": "502"
+   },
+   {
+    "id": "c",
+    "text": "500"
+   },
+   {
+    "id": "d",
+    "text": "1"
+   }
+  ],
+  "answer": "a",
+  "hint": "Compute 1001 mod 2 first.",
+  "explanation": "$1001 \\bmod 2 = 1$, so $(1001, 2) \\to (2, 1)$; $2 \\bmod 1 = 0$, so $(2,1) \\to (1,0)$. Only $2$ reductions. The subtraction method would need $502$ for the same problem, and the count does not depend on the size of the odd number."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q046",
+  "topic": "An algorithm for lcm",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "One way to find the least common multiple is to first compute $\\gcd(m, n)$ and then use it. What is $\\text{lcm}(24, 36)$?",
+  "image": {
+   "src": "/img/maths11/pair-24-36.svg",
+   "alt": "Two number cards going into a gear that produces an unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "864"
+   },
+   {
+    "id": "b",
+    "text": "12"
+   },
+   {
+    "id": "c",
+    "text": "144"
+   },
+   {
+    "id": "d",
+    "text": "72"
+   }
+  ],
+  "answer": "d",
+  "hint": "The product of the two numbers is gcd times lcm.",
+  "explanation": "$\\gcd(24, 36) = 12$, and $\\text{lcm} = \\dfrac{24 \\times 36}{12} = \\dfrac{864}{12} = 72$. $864$ forgets to divide by the gcd; $12$ reports the gcd itself; $144$ divides by $6$, a common divisor that is not the greatest."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q047",
+  "topic": "prime(n) using divisors(n)",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "An algorithm prime(n) computes divisors(n) and says 'prime' if the list has exactly two entries (1 and $n$). Select **all** the numbers for which it says 'prime'.",
+  "image": {
+   "src": "/img/maths11/list-grows.svg",
+   "alt": "A bracket containing coloured blocks that appear one by one at the end"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$31$"
+   },
+   {
+    "id": "b",
+    "text": "$39$"
+   },
+   {
+    "id": "c",
+    "text": "$51$"
+   },
+   {
+    "id": "d",
+    "text": "$53$"
+   },
+   {
+    "id": "e",
+    "text": "$91$"
+   }
+  ],
+  "answers": [
+   "a",
+   "d"
+  ],
+  "hint": "A number with a third divisor is not prime.",
+  "explanation": "divisors$(31) = [1, 31]$ and divisors$(53) = [1, 53]$ have two entries. But $39 = 3 \\times 13$, $51 = 3 \\times 17$ and $91 = 7 \\times 13$ each have four divisors."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q048",
+  "topic": "primedivisors(n)",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The algorithm primedivisors(n) first computes divisors(n) and then keeps only the **prime** numbers in the list. What is primedivisors$(24)$?",
+  "image": {
+   "src": "/img/maths11/list-grows.svg",
+   "alt": "A bracket containing coloured blocks that appear one by one at the end"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$[1, 2, 3]$"
+   },
+   {
+    "id": "b",
+    "text": "$[2, 3]$"
+   },
+   {
+    "id": "c",
+    "text": "$[2, 3, 6]$"
+   },
+   {
+    "id": "d",
+    "text": "$[2, 4, 8]$"
+   }
+  ],
+  "answer": "b",
+  "hint": "divisors(24) = [1, 2, 3, 4, 6, 8, 12, 24]. Which are prime?",
+  "explanation": "The divisors of $24$ are $1, 2, 3, 4, 6, 8, 12, 24$. Only $2$ and $3$ are prime. $1$ is not prime; $6$ is a product $2 \\times 3$; $4$ and $8$ are powers of $2$, not primes."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q049",
+  "topic": "Prime factorisation as a list",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "The prime factorisation of $180 = 2^2 \\times 3^2 \\times 5^1$ can be stored as the list of pairs (prime, power) $= [(2,2),(3,2),(5,1)]$. Match each number with its list.",
+  "image": {
+   "src": "/img/maths11/factor-tree.svg",
+   "alt": "A factor tree beside a list of prime and power pairs"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "$60$"
+   },
+   {
+    "id": "l2",
+    "text": "$72$"
+   },
+   {
+    "id": "l3",
+    "text": "$100$"
+   },
+   {
+    "id": "l4",
+    "text": "$90$"
+   }
+  ],
+  "right": [
+   {
+    "id": "A",
+    "text": "$(2,2), (3,1), (5,1)$"
+   },
+   {
+    "id": "B",
+    "text": "$(2,2), (5,2)$"
+   },
+   {
+    "id": "C",
+    "text": "$(2,1), (3,2), (5,1)$"
+   },
+   {
+    "id": "D",
+    "text": "$(2,3), (3,2)$"
+   }
+  ],
+  "pairs": {
+   "l1": "A",
+   "l2": "D",
+   "l3": "B",
+   "l4": "C"
+  },
+  "hint": "Multiply out each list to check.",
+  "explanation": "$60 = 2^2\\times3\\times5$, $72 = 2^3\\times3^2$, $100 = 2^2\\times5^2$, $90 = 2\\times3^2\\times5$. Comparing two such lists prime by prime (taking the smaller power) gives their gcd."
+ },
+ {
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 9,
+  "subject": "maths",
+  "chapter": "The World of Algorithms",
+  "chapterNo": 11,
+  "id": "ma11-q050",
+  "topic": "History of algorithms",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each name from the history of algorithms with what it stands for.",
+  "image": {
+   "src": "/img/maths11/history.svg",
+   "alt": "An old book of numerals and a word changing its spelling step by step"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Euclid"
+   },
+   {
+    "id": "l2",
+    "text": "Āryabhaṭa"
+   },
+   {
+    "id": "l3",
+    "text": "Al-Khwārizmī"
+   },
+   {
+    "id": "l4",
+    "text": "*Liber Algorismi*"
+   }
+  ],
+  "right": [
+   {
+    "id": "A",
+    "text": "Used division with remainders ('long division') in the *Āryabhaṭīya*, 499 CE"
+   },
+   {
+    "id": "B",
+    "text": "A 12th-century Latin book that spread Indian numerals in Europe"
+   },
+   {
+    "id": "C",
+    "text": "His name, in its Latin form *Algoritmi*, gave us the word 'algorithm'"
+   },
+   {
+    "id": "D",
+    "text": "Wrote down the repeated-subtraction gcd algorithm in his *Elements*"
+   }
+  ],
+  "pairs": {
+   "l1": "D",
+   "l2": "A",
+   "l3": "C",
+   "l4": "B"
+  },
+  "hint": "Think of who is connected to subtraction, division, the word itself, and a book.",
+  "explanation": "Euclid recorded the subtraction form of the gcd algorithm; Āryabhaṭa's long division uses remainders and is much faster; the Persian scholar Al-Khwārizmī wrote on Indian numerals and his name became 'algorism' and then 'algorithm'; the Latin *Liber Algorismi* carried this arithmetic to Europe."
+ }
+]

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A red account book listing a loan, a profit and a loss</title>
+<style>
+.q{transform-box:fill-box;transform-origin:center;animation:qq 1.8s ease-in-out infinite}@keyframes qq{50%{transform:scale(1.12)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="30" y="30" width="560" height="320" rx="14" fill="#B3282D"/><path d="M50 46h250v290h-250zM320 46h250v290h-250z" fill="#FFF4DD" stroke="#C8925A" stroke-width="2"/>
+<path d="M310 40v304" stroke="#7A1A1E" stroke-width="6"/>
+<text x="175" y="84" font-size="20" text-anchor="middle" fill="#2B2F4A">Spice account</text>
+<path d="M70 122l12 16l12 -16z" fill="#E5484D"/><text x="106" y="137" font-size="18" text-anchor="start" fill="#2B2F4A">Loan</text><text x="290" y="137" font-size="20" text-anchor="end" fill="#C62828">₹850</text><path d="M60 152h240" stroke="#E0C9A6" stroke-width="2"/><path d="M70 198l12 -16l12 16z" fill="#3FA34D"/><text x="106" y="197" font-size="18" text-anchor="start" fill="#2B2F4A">Profit</text><text x="290" y="197" font-size="20" text-anchor="end" fill="#2E7D32">₹1,200</text><path d="M60 212h240" stroke="#E0C9A6" stroke-width="2"/><path d="M70 242l12 16l12 -16z" fill="#E5484D"/><text x="106" y="257" font-size="18" text-anchor="start" fill="#2B2F4A">Loss</text><text x="290" y="257" font-size="20" text-anchor="end" fill="#C62828">₹450</text><path d="M60 272h240" stroke="#E0C9A6" stroke-width="2"/>
+<text x="445" y="110" font-size="22" text-anchor="middle" fill="#2B2F4A">Final</text><text x="445" y="138" font-size="22" text-anchor="middle" fill="#2B2F4A">standing</text>
+<rect class="q" x="395" y="170" width="100" height="90" rx="12" fill="#fff" stroke="#2B2F4A" stroke-width="3"/><text x="445" y="232" font-size="48" text-anchor="middle" fill="#2B2F4A">?</text>
+</svg>

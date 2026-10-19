@@ -1,0 +1,2243 @@
+[
+  {
+    "id": "ma13-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Forming a linear equation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Radha buys $x$ kg of mangoes at ₹60 per kg and $y$ kg of bananas at ₹50 per kg. She pays ₹280 altogether. Which equation describes her purchase?",
+    "image": {
+      "src": "/img/maths13/fruit-cart.svg",
+      "alt": "A fruit cart with mangoes and bananas and price tags"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$60x + 50y = 280$"
+      },
+      {
+        "id": "b",
+        "text": "$50x + 60y = 280$"
+      },
+      {
+        "id": "c",
+        "text": "$x + y = 280$"
+      },
+      {
+        "id": "d",
+        "text": "$110(x + y) = 280$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Cost of a fruit = price per kg $\\times$ number of kg. The total cost is the sum of the two costs.",
+    "explanation": "The mangoes cost $60 \\times x = 60x$ rupees and the bananas cost $50y$ rupees, so the **total cost** gives $60x + 50y = 280$. Writing $50x + 60y$ **swaps the prices** between the fruits. $x + y = 280$ forgets the prices and adds kilograms to rupees, and $110(x+y)$ wrongly treats both fruits as costing the sum of the two prices."
+  },
+  {
+    "id": "ma13-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Standard form",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Move every term to the left side so each equation reads $ax + by + c = 0$. Match each equation with its values of $a$, $b$ and $c$.",
+    "image": {
+      "src": "/img/maths13/std-form.svg",
+      "alt": "The standard form ax + by + c = 0 with its three parts"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$5x + 2y = 2.7$"
+      },
+      {
+        "id": "l2",
+        "text": "$3y = 5$"
+      },
+      {
+        "id": "l3",
+        "text": "$7 + 4x = 0$"
+      },
+      {
+        "id": "l4",
+        "text": "$4 = 1.5x - 1.3y$"
+      },
+      {
+        "id": "l5",
+        "text": "$\\dfrac{x}{2} - 4 = \\dfrac{3y}{2}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$a = 4,\\ b = 0,\\ c = 7$"
+      },
+      {
+        "id": "r2",
+        "text": "$a = 5,\\ b = 2,\\ c = -2.7$"
+      },
+      {
+        "id": "r3",
+        "text": "$a = \\dfrac{1}{2},\\ b = -\\dfrac{3}{2},\\ c = -4$"
+      },
+      {
+        "id": "r4",
+        "text": "$a = 1.5,\\ b = -1.3,\\ c = -4$"
+      },
+      {
+        "id": "r5",
+        "text": "$a = 0,\\ b = 3,\\ c = -5$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r5",
+      "l3": "r1",
+      "l4": "r4",
+      "l5": "r3"
+    },
+    "hint": "Subtract the whole right-hand side from both sides; an equation with no $y$ still has $b = 0$.",
+    "explanation": "Moving everything to the left gives $5x + 2y - 2.7 = 0$, $0x + 3y - 5 = 0$, $4x + 0y + 7 = 0$, $1.5x - 1.3y - 4 = 0$ and $\\dfrac{1}{2}x - \\dfrac{3}{2}y - 4 = 0$. A missing variable simply has coefficient $0$, and the **sign** of $c$ flips when its term crosses the equals sign."
+  },
+  {
+    "id": "ma13-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Linear equations in two variables",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths13/std-form.svg",
+      "alt": "The standard form ax + by + c = 0 with its three parts"
+    },
+    "assertion": "The equation $x = 3$ can be regarded as a linear equation in two variables.",
+    "reason": "$x = 3$ can be written as $1\\cdot x + 0 \\cdot y - 3 = 0$, which has the form $ax + by + c = 0$ with $a$ and $b$ not both zero.",
+    "answer": "a",
+    "hint": "Is the condition 'a and b are not both zero' met when $a = 1$ and $b = 0$?",
+    "explanation": "Both statements are true and R explains A. Writing $x = 3$ as $1x + 0y - 3 = 0$ gives $a = 1$, $b = 0$, $c = -3$. Only $a = b = 0$ is forbidden, so a zero coefficient for one variable is perfectly allowed."
+  },
+  {
+    "id": "ma13-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Solution of an equation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which ordered pair is a solution of $5x - 6y = 2$?",
+    "image": {
+      "src": "/img/maths13/pair-box.svg",
+      "alt": "An ordered pair whose first entry is x and second entry is y"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(3,\\ 4)$"
+      },
+      {
+        "id": "b",
+        "text": "$(-4,\\ -3)$"
+      },
+      {
+        "id": "c",
+        "text": "$(4,\\ 3)$"
+      },
+      {
+        "id": "d",
+        "text": "$(4,\\ -3)$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Substitute the first number for $x$ and the second for $y$, and see whether the left side equals 2.",
+    "explanation": "For $(4,3)$: $5(4) - 6(3) = 20 - 18 = 2$, so it is a solution. Swapping to $(3,4)$ gives $15 - 24 = -9$; $(-4,-3)$ gives $-20 + 18 = -2$; and $(4,-3)$ gives $20 + 18 = 38$. In an **ordered pair** the first number is always $x$."
+  },
+  {
+    "id": "ma13-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Finding unknown constants",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The point $(2,\\ -1)$ lies on both lines $2mx + 3y = 7$ and $4x + ny = -10$. Find $m$ and $n$.",
+    "image": {
+      "src": "/img/maths13/mn-cards.svg",
+      "alt": "Two equations with unknown constants m and n"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$m = \\dfrac{5}{2},\\ n = -18$"
+      },
+      {
+        "id": "b",
+        "text": "$m = \\dfrac{5}{2},\\ n = 18$"
+      },
+      {
+        "id": "c",
+        "text": "$m = 1,\\ n = 18$"
+      },
+      {
+        "id": "d",
+        "text": "$m = \\dfrac{7}{4},\\ n = 18$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Put $x = 2$ and $y = -1$ into each equation separately; each gives a one-variable equation.",
+    "explanation": "First equation: $2m(2) + 3(-1) = 7 \\Rightarrow 4m - 3 = 7 \\Rightarrow m = \\dfrac{5}{2}$. Second: $4(2) + n(-1) = -10 \\Rightarrow 8 - n = -10 \\Rightarrow n = 18$. Traps: forgetting the $-3$ gives $m = \\dfrac{7}{4}$, treating $3(-1)$ as $+3$ gives $m = 1$, and writing $8 + n = -10$ gives $n = -18$."
+  },
+  {
+    "id": "ma13-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Solutions of an equation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the ordered pairs that are solutions of $3x + 2y = 12$.",
+    "image": {
+      "src": "/img/maths13/g-line1.svg",
+      "alt": "A straight line drawn on a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\left(1,\\ \\dfrac{9}{2}\\right)$"
+      },
+      {
+        "id": "b",
+        "text": "$(0,\\ 6)$"
+      },
+      {
+        "id": "c",
+        "text": "$(4,\\ 1)$"
+      },
+      {
+        "id": "d",
+        "text": "$\\left(\\dfrac{1}{2},\\ \\dfrac{21}{4}\\right)$"
+      },
+      {
+        "id": "e",
+        "text": "$(4,\\ 0)$"
+      },
+      {
+        "id": "f",
+        "text": "$(1,\\ 3)$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Substitute each pair and compute $3x + 2y$.",
+    "explanation": "$3(1) + 2\\left(\\dfrac{9}{2}\\right) = 12$, $3(0) + 2(6) = 12$, $3\\left(\\dfrac{1}{2}\\right) + 2\\left(\\dfrac{21}{4}\\right) = 1.5 + 10.5 = 12$ and $3(4) + 2(0) = 12$ all work. But $3(4) + 2(1) = 14$ and $3(1) + 2(3) = 9$ do not. Solutions need not be whole numbers, and a line has **infinitely many** of them."
+  },
+  {
+    "id": "ma13-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Intercepts on a graph",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The graph shows the line $3x + 2y = 12$. Tap the point where it cuts the **y-axis**.",
+    "image": {
+      "src": "/img/maths13/g-line1.svg",
+      "alt": "A straight line on a grid with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "yint",
+        "x": 38.5,
+        "y": 29.1,
+        "label": "Point (0, 6)"
+      },
+      {
+        "id": "xint",
+        "x": 74.5,
+        "y": 76.7,
+        "label": "Point (4, 0)"
+      },
+      {
+        "id": "mid",
+        "x": 56.5,
+        "y": 52.9,
+        "label": "Point (2, 3)"
+      },
+      {
+        "id": "left",
+        "x": 29.5,
+        "y": 17.2,
+        "label": "Point (-1, 7.5)"
+      },
+      {
+        "id": "p",
+        "x": 47.5,
+        "y": 41.0,
+        "label": "Point (1, 4.5)"
+      }
+    ],
+    "answer": "yint",
+    "hint": "On the y-axis, the x-value is 0.",
+    "explanation": "Putting $x = 0$ gives $2y = 12$, so $y = 6$: the line meets the y-axis at $(0, 6)$. The point $(4, 0)$ is the **x-intercept** (put $y = 0$). The other marked points are also solutions, but they are not on an axis."
+  },
+  {
+    "id": "ma13-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Points and the line",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The line is the graph of $3x - 7y = 21$ and four dots are marked. Tap the dot whose coordinates do **not** satisfy the equation.",
+    "image": {
+      "src": "/img/maths13/g-dots.svg",
+      "alt": "A straight line with four dots near it, marked with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 84.2,
+        "y": 37.2,
+        "label": "Dot (7, 0)"
+      },
+      {
+        "id": "b",
+        "x": 49.0,
+        "y": 59.9,
+        "label": "Dot (0, -3)"
+      },
+      {
+        "id": "c",
+        "x": 59.1,
+        "y": 14.5,
+        "label": "Dot (2, 3)"
+      },
+      {
+        "id": "d",
+        "x": 13.9,
+        "y": 82.6,
+        "label": "Dot (-7, -6)"
+      }
+    ],
+    "answer": "c",
+    "hint": "A point that does not lie on the line cannot satisfy its equation.",
+    "explanation": "Check each dot: $3(7) - 7(0) = 21$, $3(0) - 7(-3) = 21$ and $3(-7) - 7(-6) = -21 + 42 = 21$ all work. But $3(2) - 7(3) = 6 - 21 = -15 \\ne 21$, so the dot $(2, 3)$ is **off the line**. Every point on the line is a solution, and every solution is a point on the line."
+  },
+  {
+    "id": "ma13-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "True or false about linear equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths13/tf-card.svg",
+      "alt": "A True card and a False card"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The equation $2x + 3y = 7$ has infinitely many solutions."
+      },
+      {
+        "id": "b",
+        "text": "$x = 3$ is a valid linear equation in two variables."
+      },
+      {
+        "id": "c",
+        "text": "The graph of a linear equation in two variables always passes through the origin."
+      },
+      {
+        "id": "d",
+        "text": "A linear equation in two variables has exactly one solution."
+      },
+      {
+        "id": "e",
+        "text": "$(1,\\ 2)$ is a solution of $2x + 3y = 7$."
+      },
+      {
+        "id": "f",
+        "text": "$(2,\\ 1)$ is a solution of $2x + 3y = 7$."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "f"
+    ],
+    "hint": "Test the pairs by substitution; for the origin, try an equation with a non-zero constant.",
+    "explanation": "Each value of $x$ gives a matching $y$, so there are infinitely many solutions, and $x = 3$ is $x + 0y - 3 = 0$. $2x + 3y = 7$ does not pass through $(0,0)$, so the origin claim is false. $(1,2)$ gives $2 + 6 = 8 \\ne 7$, while $(2,1)$ gives $4 + 3 = 7$, so only the second pair works."
+  },
+  {
+    "id": "ma13-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Lines through the origin",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths13/origin-grid.svg",
+      "alt": "A coordinate plane with the origin marked"
+    },
+    "assertion": "The line $ax + by + c = 0$ passes through the origin whenever $c = 0$.",
+    "reason": "The pair $x = 0,\\ y = 0$ satisfies $ax + by = 0$ for every choice of $a$ and $b$.",
+    "answer": "a",
+    "hint": "Substitute $x = 0$ and $y = 0$ into $ax + by = 0$.",
+    "explanation": "Both are true and R explains A. If $c = 0$ the equation is $ax + by = 0$, and $a(0) + b(0) = 0$ is always true, so $(0,0)$ lies on the line. The converse also holds: if the line passes through the origin then $c = 0$."
+  },
+  {
+    "id": "ma13-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Slope from two points",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A line passes through $P(-2,\\ 7)$ and $Q(4,\\ -5)$. What is its slope?",
+    "image": {
+      "src": "/img/maths13/slope-pq.svg",
+      "alt": "A line through two labelled points P and Q on a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-6$"
+      },
+      {
+        "id": "b",
+        "text": "$-\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$2$"
+      },
+      {
+        "id": "d",
+        "text": "$-2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Slope $= \\dfrac{y_2 - y_1}{x_2 - x_1}$; use the points in the same order on top and bottom.",
+    "explanation": "Slope $= \\dfrac{-5 - 7}{4 - (-2)} = \\dfrac{-12}{6} = -2$. Writing $4 - 2$ in the denominator (a **sign error** on $-2$) gives $-6$, mixing the order of the points gives $+2$, and inverting rise and run gives $-\\dfrac{1}{2}$."
+  },
+  {
+    "id": "ma13-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Slope of a ramp",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A wheelchair ramp must rise 1 cm for every 12 cm of horizontal length. The stairs beside it are 18 cm high. How long, horizontally, must the ramp be?",
+    "image": {
+      "src": "/img/maths13/ramp-steps.svg",
+      "alt": "A ramp beside a flight of steps"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1.5\\ \\text{cm}$"
+      },
+      {
+        "id": "b",
+        "text": "$30\\ \\text{cm}$"
+      },
+      {
+        "id": "c",
+        "text": "$216\\ \\text{cm}$"
+      },
+      {
+        "id": "d",
+        "text": "$108\\ \\text{cm}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Slope $= \\dfrac{\\text{rise}}{\\text{run}} = \\dfrac{1}{12}$, so run $= 12 \\times$ rise.",
+    "explanation": "Since $\\dfrac{\\text{rise}}{\\text{run}} = \\dfrac{1}{12}$, the run is $12 \\times \\text{rise} = 12 \\times 18 = 216$ cm. Dividing $18 \\div 12 = 1.5$ inverts the ratio, adding $18 + 12$ is meaningless, and $108$ comes from multiplying by only 6."
+  },
+  {
+    "id": "ma13-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Rise and run",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The line passes through A and B. Tap the part of the step triangle that shows the **rise** from A to B.",
+    "image": {
+      "src": "/img/maths13/g-slope.svg",
+      "alt": "A line on a grid with a dashed right-angled step triangle and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "run",
+        "x": 51.8,
+        "y": 75.9,
+        "label": "Segment AC"
+      },
+      {
+        "id": "rise",
+        "x": 62.2,
+        "y": 55.3,
+        "label": "Segment CB"
+      },
+      {
+        "id": "hyp",
+        "x": 51.8,
+        "y": 55.3,
+        "label": "Segment AB"
+      },
+      {
+        "id": "origin",
+        "x": 20.9,
+        "y": 75.9,
+        "label": "Origin"
+      }
+    ],
+    "answer": "rise",
+    "hint": "The rise is the vertical change.",
+    "explanation": "Moving from A to B, you go right along the dashed horizontal side AC (the **run**), then up along the vertical side CB (the **rise**). Here the run is 2 and the rise is 3, so the slope is $\\dfrac{3}{2}$. The slanted side AB is the line itself."
+  },
+  {
+    "id": "ma13-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Slope-intercept form",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Rewrite $5x + 2y = 8$ in the form $y = mx + d$. What are the slope $m$ and the $y$-intercept $d$?",
+    "image": {
+      "src": "/img/maths13/slope-int.svg",
+      "alt": "A line with a slope step and a marked y-intercept"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$m = -5,\\ d = 8$"
+      },
+      {
+        "id": "b",
+        "text": "$m = \\dfrac{5}{2},\\ d = 4$"
+      },
+      {
+        "id": "c",
+        "text": "$m = -\\dfrac{5}{2},\\ d = 4$"
+      },
+      {
+        "id": "d",
+        "text": "$m = -\\dfrac{2}{5},\\ d = 4$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Solve for $y$ and divide every term by the coefficient of $y$.",
+    "explanation": "$2y = -5x + 8$, so $y = -\\dfrac{5}{2}x + 4$: $m = -\\dfrac{5}{2}$, $d = 4$. Forgetting to divide by 2 gives $(-5, 8)$, dropping the minus sign gives $\\dfrac{5}{2}$, and inverting the slope gives $-\\dfrac{2}{5}$. In general $m = -\\dfrac{a}{b}$ and $d = -\\dfrac{c}{b}$."
+  },
+  {
+    "id": "ma13-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Graph of a line",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which graph shows the line $y = -3x + 4$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/maths13/opt-a.svg",
+          "alt": "Graph A: a straight line on a grid"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/maths13/opt-b.svg",
+          "alt": "Graph B: a straight line on a grid"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/maths13/opt-c.svg",
+          "alt": "Graph C: a straight line on a grid"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/maths13/opt-d.svg",
+          "alt": "Graph D: a straight line on a grid"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Look at the sign of the slope and where the line crosses the y-axis.",
+    "explanation": "The slope is $-3$, so the line falls steeply from left to right, and the $y$-intercept is $+4$, so it crosses the y-axis above the origin. Graph A rises (slope $+3$), Graph B has intercept $-4$, and Graph D falls too gently (slope $-\\dfrac{1}{3}$)."
+  },
+  {
+    "id": "ma13-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Types of slope",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each equation with what its line does as you move from left to right.",
+    "image": {
+      "src": "/img/maths13/slope-types.svg",
+      "alt": "Four small panels, each with a different kind of line"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$y = 2x + 1$"
+      },
+      {
+        "id": "l2",
+        "text": "$y = -3x + 4$"
+      },
+      {
+        "id": "l3",
+        "text": "$y = 5$"
+      },
+      {
+        "id": "l4",
+        "text": "$x = 2$"
+      },
+      {
+        "id": "l5",
+        "text": "$5x + y = 3$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Horizontal; slope is 0"
+      },
+      {
+        "id": "r2",
+        "text": "Falls 5 units for each 1 unit to the right"
+      },
+      {
+        "id": "r3",
+        "text": "Vertical; slope is undefined"
+      },
+      {
+        "id": "r4",
+        "text": "Rises 2 units for each 1 unit to the right"
+      },
+      {
+        "id": "r5",
+        "text": "Falls 3 units for each 1 unit to the right"
+      }
+    ],
+    "pairs": {
+      "l1": "r4",
+      "l2": "r5",
+      "l3": "r1",
+      "l4": "r3",
+      "l5": "r2"
+    },
+    "hint": "Write each equation as $y = mx + d$ where you can; $m$ is the slope.",
+    "explanation": "In $y = mx + d$ the slope is $m$: $y = 2x + 1$ has $m = 2$ and $y = -3x + 4$ has $m = -3$. $y = 5$ has $m = 0$ (horizontal). $5x + y = 3$ becomes $y = -5x + 3$, so $m = -5$. The line $x = 2$ is vertical, the run is $0$, and division by $0$ is undefined."
+  },
+  {
+    "id": "ma13-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Vertical and horizontal lines",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Three lines are drawn. Tap the line whose equation is $x = 2$.",
+    "image": {
+      "src": "/img/maths13/g-hv.svg",
+      "alt": "Three straight lines on a grid with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "v",
+        "x": 62.1,
+        "y": 82.3,
+        "label": "Vertical line"
+      },
+      {
+        "id": "h",
+        "x": 21.7,
+        "y": 24.9,
+        "label": "Horizontal line"
+      },
+      {
+        "id": "d",
+        "x": 31.8,
+        "y": 72.7,
+        "label": "Rising diagonal line"
+      },
+      {
+        "id": "yax",
+        "x": 41.9,
+        "y": 44.0,
+        "label": "The y-axis"
+      }
+    ],
+    "answer": "v",
+    "hint": "On the line $x = 2$, every point has the same x-coordinate.",
+    "explanation": "Every point on $x = 2$ has $x$-coordinate $2$ whatever the $y$-value, so the line is **vertical** through $(2, 0)$. The horizontal line is $y = 5$ and the slanted one is $y = x + 1$. The y-axis is the line $x = 0$, not $x = 2$."
+  },
+  {
+    "id": "ma13-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Parallel lines",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths13/rail.svg",
+      "alt": "Railway tracks running side by side"
+    },
+    "assertion": "The lines $y = 2x + 1$ and $y = 2x + 5$ are parallel.",
+    "reason": "They have the same slope but different y-intercepts, so $2x + 1 = 2x + 5$ has no solution and the lines never meet.",
+    "answer": "a",
+    "hint": "A common point would need $2x + 1$ and $2x + 5$ to be equal for the same $x$.",
+    "explanation": "Both are true and R explains A. At a common point the two $y$-values would be equal, giving $2x + 1 = 2x + 5$, i.e. $1 = 5$, which is impossible. So lines with **equal slopes and different intercepts** never meet and are parallel."
+  },
+  {
+    "id": "ma13-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Comparing steepness",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Each hill is a right triangle: Hill A rises 60 m over a run of 70 m, Hill B rises 60 m over 110 m and Hill C rises 80 m over 100 m. Arrange the hills from the **least steep** to the **steepest**.",
+    "image": {
+      "src": "/img/maths13/hills.svg",
+      "alt": "Three right-angled ski hills with their rise and run"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Hill A"
+      },
+      {
+        "id": "s1",
+        "text": "Hill B"
+      },
+      {
+        "id": "s2",
+        "text": "Hill C"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "startLabel": "Least steep",
+    "endLabel": "Steepest",
+    "hint": "Compare the slopes $\\dfrac{\\text{rise}}{\\text{run}}$, not the rises alone.",
+    "explanation": "Slope A $= \\dfrac{60}{70} \\approx 0.86$, slope B $= \\dfrac{60}{110} \\approx 0.55$ and slope C $= \\dfrac{80}{100} = 0.8$. So the order is B, C, A. Hills A and B have the same rise, but A is steeper because its run is shorter; the biggest rise (C) is not the steepest."
+  },
+  {
+    "id": "ma13-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Forming equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each statement with the equation that describes it.",
+    "image": {
+      "src": "/img/maths13/word-eq.svg",
+      "alt": "Four speech bubbles with everyday statements"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "The sum of two numbers $x$ and $y$ is 25."
+      },
+      {
+        "id": "l2",
+        "text": "The difference of $x$ and $y$ is 11."
+      },
+      {
+        "id": "l3",
+        "text": "2 adult tickets at ₹$x$ and 3 child tickets at ₹$y$ cost ₹600."
+      },
+      {
+        "id": "l4",
+        "text": "A taxi charges a fixed ₹$x$ plus ₹$y$ per km; a 6 km trip costs ₹122."
+      },
+      {
+        "id": "l5",
+        "text": "The number $x$ is three times the number $y$."
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$x - y = 11$"
+      },
+      {
+        "id": "r2",
+        "text": "$x = 3y$"
+      },
+      {
+        "id": "r3",
+        "text": "$x + y = 25$"
+      },
+      {
+        "id": "r4",
+        "text": "$x + 6y = 122$"
+      },
+      {
+        "id": "r5",
+        "text": "$2x + 3y = 600$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r1",
+      "l3": "r5",
+      "l4": "r4",
+      "l5": "r2"
+    },
+    "hint": "Translate each phrase one piece at a time: 'sum' means add, 'times' means multiply.",
+    "explanation": "'Sum' gives $x + y = 25$ and 'difference' gives $x - y = 11$. 2 adult and 3 child tickets give $2x + 3y = 600$. The taxi has one fixed charge plus $6$ kilometres at $y$ each, so $x + 6y = 122$. 'Three times' gives $x = 3y$, not $y = 3x$."
+  },
+  {
+    "id": "ma13-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Pair of equations from a situation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A science exhibition charges one price for adults and another for children. Group A pays ₹600 for 2 adult and 3 child tickets. Group B pays ₹700 for 3 adult and 2 child tickets. What does one adult ticket cost?",
+    "image": {
+      "src": "/img/maths13/ticket-booth.svg",
+      "alt": "Two groups of tickets, adult and child"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹80"
+      },
+      {
+        "id": "b",
+        "text": "₹120"
+      },
+      {
+        "id": "c",
+        "text": "₹140"
+      },
+      {
+        "id": "d",
+        "text": "₹180"
+      }
+    ],
+    "answer": "d",
+    "hint": "Let adult $= x$ and child $= y$: $2x + 3y = 600$ and $3x + 2y = 700$. Multiply to match the $x$ terms.",
+    "explanation": "Multiply the first by 3 and the second by 2: $6x + 9y = 1800$ and $6x + 4y = 1400$. Subtracting gives $5y = 400$, so $y = 80$; then $2x = 600 - 240$, so $x = 180$. Check: $3(180) + 2(80) = 700$. ₹80 is the **child** ticket, and $\\dfrac{600}{5}$ or $\\dfrac{700}{5}$ wrongly divide a total by the number of tickets."
+  },
+  {
+    "id": "ma13-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Solving a puzzle with two equations",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the puzzle, a row has 2 triangles and 2 rectangles that add up to 28, and a column has 1 triangle, 1 rectangle and 2 circles that add up to 22. What is the value of one circle?",
+    "image": {
+      "src": "/img/maths13/shape-puzzle.svg",
+      "alt": "A row and a column of triangles, rectangles and circles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "8"
+      },
+      {
+        "id": "b",
+        "text": "11"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "d",
+    "hint": "Halve the first equation to get a value for $T + R$, then use it in the second.",
+    "explanation": "$2T + 2R = 28$ gives $T + R = 14$. The column says $T + R + 2C = 22$, so $14 + 2C = 22$ and $2C = 8$, giving $C = 4$. Stopping at $2C = 8$ gives $8$; $\\dfrac{22}{2} = 11$ and $\\dfrac{14}{2} = 7$ ignore the structure of the equations."
+  },
+  {
+    "id": "ma13-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Substitution method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Solve by substitution: $x + 2y = 8$ and $3x - y = 3$. Which pair is the solution?",
+    "image": {
+      "src": "/img/maths13/sub-flow.svg",
+      "alt": "One equation rewritten and put into the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(3,\\ 2)$"
+      },
+      {
+        "id": "b",
+        "text": "$(2,\\ 3)$"
+      },
+      {
+        "id": "c",
+        "text": "$(4,\\ 2)$"
+      },
+      {
+        "id": "d",
+        "text": "$(1,\\ 0)$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Write $x = 8 - 2y$, then put it into $3x - y = 3$.",
+    "explanation": "From the first equation $x = 8 - 2y$. Then $3(8 - 2y) - y = 3 \\Rightarrow 24 - 7y = 3 \\Rightarrow y = 3$ and $x = 8 - 6 = 2$. $(3,2)$ **swaps** $x$ and $y$; $(4,2)$ fits only the first equation ($4 + 4 = 8$) and $(1,0)$ only the second ($3 - 0 = 3$). A solution must satisfy both."
+  },
+  {
+    "id": "ma13-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Angles of a triangle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two angles of a triangle are $x^\\circ$ and $y^\\circ$ with $y = 3x$, and the third angle is $40^\\circ$. What is the larger of the two angles $x$ and $y$?",
+    "image": {
+      "src": "/img/maths13/tri-xy.svg",
+      "alt": "A triangle with angles x, y and 40 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$35^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$135^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$105^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$140^\\circ$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The three angles of a triangle add up to $180^\\circ$. Substitute $y = 3x$.",
+    "explanation": "$x + y + 40 = 180$ and $y = 3x$ give $4x = 140$, so $x = 35$ and $y = 105$. Check: $35 + 105 + 40 = 180$. $35^\\circ$ is the smaller angle (solving for one variable and stopping), $135^\\circ$ comes from forgetting the $40^\\circ$, and $140^\\circ$ is $x + y$."
+  },
+  {
+    "id": "ma13-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Elimination method",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The incomes of two people are in the ratio $9 : 7$ and their spendings in the ratio $4 : 3$. Each saves ₹3,000 a month. What is the monthly income of the first person?",
+    "image": {
+      "src": "/img/maths13/income-bars.svg",
+      "alt": "Bars of income and spending for two people"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹27,000"
+      },
+      {
+        "id": "b",
+        "text": "₹3,000"
+      },
+      {
+        "id": "c",
+        "text": "₹21,000"
+      },
+      {
+        "id": "d",
+        "text": "₹24,000"
+      }
+    ],
+    "answer": "a",
+    "hint": "Take incomes $9x$, $7x$ and spendings $4y$, $3y$: $9x - 4y = 3000$ and $7x - 3y = 3000$.",
+    "explanation": "Multiply by 3 and 4: $27x - 12y = 9000$ and $28x - 12y = 12000$. Subtracting the first from the second gives $x = 3000$, then $9(3000) - 4y = 3000$ gives $y = 6000$. The first income is $9x = ₹27{,}000$. ₹3,000 is just $x$, ₹21,000 is the **second** income, and ₹24,000 is the first person's spending $4y$."
+  },
+  {
+    "id": "ma13-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Elimination step by step",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Solve $2x + 3y = 13$ and $2x - y = 1$ by elimination. Arrange the steps in order.",
+    "image": {
+      "src": "/img/maths13/balance.svg",
+      "alt": "A balance with an expression on each side"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Put $y = 3$ into $2x - y = 1$ to get $2x = 4$"
+      },
+      {
+        "id": "s1",
+        "text": "Notice that both equations have the same coefficient of $x$"
+      },
+      {
+        "id": "s6",
+        "text": "Check $(2,\\ 3)$ in both equations"
+      },
+      {
+        "id": "s2",
+        "text": "Subtract the second equation from the first to get $4y = 12$"
+      },
+      {
+        "id": "s5",
+        "text": "Divide by 2 to get $x = 2$"
+      },
+      {
+        "id": "s3",
+        "text": "Divide by 4 to get $y = 3$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Eliminate $x$ first; then work back to find $x$.",
+    "explanation": "The $x$ terms are equal, so subtracting removes $x$: $(3y) - (-y) = 4y$ and $13 - 1 = 12$, giving $y = 3$. Then $2x - 3 = 1$ gives $x = 2$. A common **sign error** is to write $3y - y = 2y$ and get $y = 6$; always subtract the whole term, signs included. Finally $2(2) + 3(3) = 13$ and $2(2) - 3 = 1$ confirm the answer."
+  },
+  {
+    "id": "ma13-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Consistency of a pair",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths13/ratio-card.svg",
+      "alt": "A card comparing the ratios of coefficients"
+    },
+    "assertion": "The pair $2x + 3y = 7$ and $4x + 6y = 15$ has infinitely many solutions.",
+    "reason": "For this pair, $\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2}$.",
+    "answer": "d",
+    "hint": "Compare all three ratios, including the constants.",
+    "explanation": "Here $\\dfrac{a_1}{a_2} = \\dfrac{2}{4} = \\dfrac{1}{2}$ and $\\dfrac{b_1}{b_2} = \\dfrac{3}{6} = \\dfrac{1}{2}$, so R is true. But $\\dfrac{c_1}{c_2} = \\dfrac{7}{15} \\ne \\dfrac{1}{2}$, so the lines are **parallel** and there is no solution: A is false. Equal $a$- and $b$-ratios alone allow either no solution or infinitely many; the constants decide."
+  },
+  {
+    "id": "ma13-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Unique solution condition",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "For which values of $p$ does the pair $4x + py + 8 = 0$ and $2x + 2y + 2 = 0$ have a unique solution?",
+    "image": {
+      "src": "/img/maths13/ratio-card.svg",
+      "alt": "A card comparing the ratios of coefficients"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$p = 4$"
+      },
+      {
+        "id": "b",
+        "text": "$p \\ne 4$"
+      },
+      {
+        "id": "c",
+        "text": "$p \\ne 2$"
+      },
+      {
+        "id": "d",
+        "text": "$p \\ne 8$"
+      }
+    ],
+    "answer": "b",
+    "hint": "A unique solution needs $\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$.",
+    "explanation": "Here $\\dfrac{a_1}{a_2} = \\dfrac{4}{2} = 2$ and $\\dfrac{b_1}{b_2} = \\dfrac{p}{2}$. They differ exactly when $p \\ne 4$, which gives a unique solution. If $p = 4$ the ratios are $2,\\ 2,\\ \\dfrac{8}{2} = 4$, so the $a$ and $b$ ratios match but the constants do not: the lines are **parallel** with no solution. So $p = 4$ is the one value to avoid, and $p \\ne 2$ or $p \\ne 8$ come from muddling the ratios."
+  },
+  {
+    "id": "ma13-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Coincident lines",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The lines $x + 3y = 6$ and $(k-1)x + 2ky = 4k$ coincide. Find $k$.",
+    "image": {
+      "src": "/img/maths13/three-cases.svg",
+      "alt": "Three panels showing two lines in three different positions"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$k = 3$"
+      },
+      {
+        "id": "b",
+        "text": "$k = 1$"
+      },
+      {
+        "id": "c",
+        "text": "$k = 2$"
+      },
+      {
+        "id": "d",
+        "text": "$k = 6$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Coincident lines need $\\dfrac{k-1}{1} = \\dfrac{2k}{3} = \\dfrac{4k}{6}$.",
+    "explanation": "Equating the first two ratios: $3(k - 1) = 2k \\Rightarrow k = 3$. Check the third: $\\dfrac{k-1}{1} = 2$, $\\dfrac{2k}{3} = 2$ and $\\dfrac{4k}{6} = 2$, all equal. Other values break at least one ratio; for example $k = 1$ makes the $x$-coefficient $0$, so the second line is not a multiple of the first."
+  },
+  {
+    "id": "ma13-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Number of solutions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the pairs of equations that have **exactly one** solution.",
+    "image": {
+      "src": "/img/maths13/ratio-card.svg",
+      "alt": "A card comparing the ratios of coefficients"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2x + y = 5$ and $x - y = 1$"
+      },
+      {
+        "id": "b",
+        "text": "$x + 2y = 4$ and $2x + 4y = 8$"
+      },
+      {
+        "id": "c",
+        "text": "$3x - y = 2$ and $6x - 2y = 7$"
+      },
+      {
+        "id": "d",
+        "text": "$x + y = 6$ and $x - y = 2$"
+      },
+      {
+        "id": "e",
+        "text": "$5x - 4y + 8 = 0$ and $7x + 6y - 9 = 0$"
+      }
+    ],
+    "answers": [
+      "a",
+      "d",
+      "e"
+    ],
+    "hint": "Compare $\\dfrac{a_1}{a_2}$ with $\\dfrac{b_1}{b_2}$ for each pair.",
+    "explanation": "A unique solution needs $\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$: this holds for $\\dfrac{2}{1} \\ne \\dfrac{1}{-1}$, $\\dfrac{1}{1} \\ne \\dfrac{1}{-1}$ and $\\dfrac{5}{7} \\ne \\dfrac{-4}{6}$. The second pair has all ratios equal to $\\dfrac{1}{2}$ (infinitely many solutions), and the third has $\\dfrac{3}{6} = \\dfrac{-1}{-2} \\ne \\dfrac{2}{7}$ (no solution)."
+  },
+  {
+    "id": "ma13-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Graphs of pairs of equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of equations with what its two lines do.",
+    "image": {
+      "src": "/img/maths13/three-cases.svg",
+      "alt": "Three panels showing two lines in three different positions"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$5x - 4y + 8 = 0$ and $7x + 6y - 9 = 0$"
+      },
+      {
+        "id": "l2",
+        "text": "$6x - 3y + 10 = 0$ and $2x - y + 9 = 0$"
+      },
+      {
+        "id": "l3",
+        "text": "$9x + 3y + 12 = 0$ and $18x + 6y + 24 = 0$"
+      },
+      {
+        "id": "l4",
+        "text": "$2x + y = 0$ and $x - y = 0$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "The lines coincide"
+      },
+      {
+        "id": "r2",
+        "text": "The lines meet at exactly one point, which is not the origin"
+      },
+      {
+        "id": "r3",
+        "text": "The lines are parallel"
+      },
+      {
+        "id": "r4",
+        "text": "The lines meet at the origin"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r3",
+      "l3": "r1",
+      "l4": "r4"
+    },
+    "hint": "Find the ratios $\\dfrac{a_1}{a_2}$, $\\dfrac{b_1}{b_2}$, $\\dfrac{c_1}{c_2}$.",
+    "explanation": "First pair: $\\dfrac{5}{7} \\ne \\dfrac{-4}{6}$, so one point; it is $x = -\\dfrac{6}{29} \\ne 0$, not the origin. Second: $\\dfrac{6}{2} = \\dfrac{-3}{-1} = 3 \\ne \\dfrac{10}{9}$, parallel. Third: all ratios equal $\\dfrac{1}{2}$, so coincident. Fourth: adding gives $3x = 0$, so $x = 0$, $y = 0$: the origin."
+  },
+  {
+    "id": "ma13-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Fraction problem",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A fraction becomes $\\dfrac{4}{5}$ when 1 is added to both its numerator and denominator, and becomes $\\dfrac{2}{3}$ when 1 is subtracted from both. What is the fraction?",
+    "image": {
+      "src": "/img/maths13/fraction-strip.svg",
+      "alt": "A fraction with two clues"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{4}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{4}{3}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Let the fraction be $\\dfrac{n}{d}$ and cross-multiply each clue.",
+    "explanation": "$\\dfrac{n+1}{d+1} = \\dfrac{4}{5}$ gives $5n - 4d = -1$, and $\\dfrac{n-1}{d-1} = \\dfrac{2}{3}$ gives $3n - 2d = 1$. Doubling the second, $6n - 4d = 2$; subtracting the first gives $n = 3$ and then $d = 4$. Check: $\\dfrac{4}{5}$ and $\\dfrac{2}{4 - 1} \\to \\dfrac{2}{3}$ both hold. The other options are values given in the clues or the fraction upside down."
+  },
+  {
+    "id": "ma13-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Age problem",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Eight years ago Ria was 3 times as old as Tia. Eight years from now Ria will be twice as old as Tia. How old is Ria now?",
+    "image": {
+      "src": "/img/maths13/ages-line.svg",
+      "alt": "A timeline with three moments"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "24 years"
+      },
+      {
+        "id": "b",
+        "text": "56 years"
+      },
+      {
+        "id": "c",
+        "text": "48 years"
+      },
+      {
+        "id": "d",
+        "text": "64 years"
+      }
+    ],
+    "answer": "b",
+    "hint": "Let the present ages be $R$ and $T$: $R - 8 = 3(T - 8)$ and $R + 8 = 2(T + 8)$.",
+    "explanation": "The equations simplify to $R = 3T - 16$ and $R = 2T + 8$. Equating gives $T = 24$ and so $R = 56$. Check: $56 - 8 = 48 = 3 \\times 16$ and $56 + 8 = 64 = 2 \\times 32$. 24 is Tia's age, while 48 and 64 are Ria's ages 8 years ago and 8 years later, not now."
+  },
+  {
+    "id": "ma13-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Notes problem",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Meena withdraws ₹2,500 in ₹50 and ₹100 notes only and gets 35 notes in all. How many ₹100 notes does she get?",
+    "image": {
+      "src": "/img/maths13/notes-pile.svg",
+      "alt": "Piles of fifty and hundred rupee notes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "20"
+      },
+      {
+        "id": "b",
+        "text": "15"
+      },
+      {
+        "id": "c",
+        "text": "25"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "answer": "b",
+    "hint": "Let $x$ be the ₹50 notes and $y$ the ₹100 notes: $x + y = 35$ and $50x + 100y = 2500$.",
+    "explanation": "From $x = 35 - y$: $50(35 - y) + 100y = 2500 \\Rightarrow 1750 + 50y = 2500 \\Rightarrow y = 15$. So there are $x = 20$ notes of ₹50. Check: $20 \\times 50 + 15 \\times 100 = 1000 + 1500 = 2500$. 20 is the number of ₹50 notes (stopping at one variable), and $\\dfrac{2500}{100} = 25$ pretends every note is ₹100."
+  },
+  {
+    "id": "ma13-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "A Pinch of History",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which ancient book devoted a whole chapter, called *fangcheng*, to systems of linear equations, solved by arranging coefficients in columns of counting rods and combining the columns?",
+    "image": {
+      "src": "/img/maths13/counting-rods.svg",
+      "alt": "Three columns of bamboo counting rods"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Euclid's Elements"
+      },
+      {
+        "id": "b",
+        "text": "A Babylonian clay tablet from 2000 BCE"
+      },
+      {
+        "id": "c",
+        "text": "Brahmagupta's Brahmasphutasiddhanta"
+      },
+      {
+        "id": "d",
+        "text": "The Nine Chapters on the Mathematical Art"
+      }
+    ],
+    "answer": "d",
+    "hint": "Counting rods were used in ancient China.",
+    "explanation": "The **Nine Chapters on the Mathematical Art** (China, about 2000 years ago) used columns of counting rods and cancelled variables, which is essentially elimination, about eighteen centuries before Gauss's name was attached to the method. Babylonian tablets hold the earliest traces of such problems, and Indian mathematicians like Aryabhata and Brahmagupta also studied systems of equations, but the *fangcheng* chapter belongs to the Chinese text."
+  },
+  {
+    "id": "ma13-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Graphical solution",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The graph shows the lines $x + 3y = 6$ and $2x - 3y = 12$. Tap the point that is the **solution** of the pair.",
+    "image": {
+      "src": "/img/maths13/g-pair1.svg",
+      "alt": "Two straight lines on a grid with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "meet",
+        "x": 76.9,
+        "y": 44.0,
+        "label": "Point (6, 0)"
+      },
+      {
+        "id": "yint1",
+        "x": 26.5,
+        "y": 24.9,
+        "label": "Point (0, 2)"
+      },
+      {
+        "id": "yint2",
+        "x": 26.5,
+        "y": 82.3,
+        "label": "Point (0, -4)"
+      },
+      {
+        "id": "q",
+        "x": 51.7,
+        "y": 63.2,
+        "label": "Point (3, -2)"
+      },
+      {
+        "id": "origin",
+        "x": 26.5,
+        "y": 44.0,
+        "label": "Origin"
+      }
+    ],
+    "answer": "meet",
+    "hint": "The solution must lie on both lines.",
+    "explanation": "The solution is the point where the lines cross. Check $(6, 0)$: $6 + 0 = 6$ and $2(6) - 0 = 12$. The points $(0,2)$ and $(0,-4)$ are y-intercepts and $(3,-2)$ lies on only the second line. The origin is on neither line. Since the lines meet at one point, the pair has a **unique solution**."
+  },
+  {
+    "id": "ma13-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Graphical solution",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the point that satisfies **both** $2x + y = 6$ and $2x - y = 2$.",
+    "image": {
+      "src": "/img/maths13/g-pair2.svg",
+      "alt": "Two straight lines on a grid with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "meet",
+        "x": 52.0,
+        "y": 48.9,
+        "label": "Point (2, 2)"
+      },
+      {
+        "id": "yint1",
+        "x": 31.8,
+        "y": 14.0,
+        "label": "Point (0, 6)"
+      },
+      {
+        "id": "xint1",
+        "x": 62.1,
+        "y": 66.4,
+        "label": "Point (3, 0)"
+      },
+      {
+        "id": "xint2",
+        "x": 41.9,
+        "y": 66.4,
+        "label": "Point (1, 0)"
+      },
+      {
+        "id": "yint2",
+        "x": 31.8,
+        "y": 83.8,
+        "label": "Point (0, -2)"
+      }
+    ],
+    "answer": "meet",
+    "hint": "Which marked point lies on both lines?",
+    "explanation": "At $(2, 2)$: $2(2) + 2 = 6$ and $2(2) - 2 = 2$, so both hold. Adding the equations gives $4x = 8$, so $x = 2$ and then $y = 2$. The other markers are axis intercepts of a single line: $(0,6)$ and $(3,0)$ for the first, $(1,0)$ and $(0,-2)$ for the second."
+  },
+  {
+    "id": "ma13-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Reading an intersection",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Three lines are drawn. Tap the solution of the **pair** $x + y = 4$ and $x - y = 2$.",
+    "image": {
+      "src": "/img/maths13/g-three-eq.svg",
+      "alt": "Three straight lines on a grid with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "ab",
+        "x": 62.1,
+        "y": 48.9,
+        "label": "Point (3, 1)"
+      },
+      {
+        "id": "ac",
+        "x": 52.0,
+        "y": 40.2,
+        "label": "Point (2, 2)"
+      },
+      {
+        "id": "bc",
+        "x": 31.8,
+        "y": 75.1,
+        "label": "Point (0, -2)"
+      },
+      {
+        "id": "xa",
+        "x": 72.2,
+        "y": 57.6,
+        "label": "Point (4, 0)"
+      },
+      {
+        "id": "xb",
+        "x": 52.0,
+        "y": 57.6,
+        "label": "Point (2, 0)"
+      }
+    ],
+    "answer": "ab",
+    "hint": "Use only the two named lines; the third line is a distraction.",
+    "explanation": "Adding the two equations gives $2x = 6$, so $x = 3$ and $y = 1$: the point $(3, 1)$. Check: $3 + 1 = 4$ and $3 - 1 = 2$. The point $(2,2)$ is where $x + y = 4$ meets the **third** line $y = 2x - 2$, and $(0,-2)$ is where $x - y = 2$ meets it. A crossing of the wrong two lines is not the solution."
+  },
+  {
+    "id": "ma13-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Identifying a line",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Three lines are drawn. Tap the line that represents $2x + y = 4$.",
+    "image": {
+      "src": "/img/maths13/g-three-lines.svg",
+      "alt": "Three straight lines on a grid with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p",
+        "x": 77.3,
+        "y": 14.0,
+        "label": "Steep rising line"
+      },
+      {
+        "id": "q",
+        "x": 72.2,
+        "y": 83.8,
+        "label": "Falling line"
+      },
+      {
+        "id": "r",
+        "x": 21.7,
+        "y": 48.9,
+        "label": "Gently rising line"
+      },
+      {
+        "id": "pq",
+        "x": 54.5,
+        "y": 53.3,
+        "label": "Crossing of two lines"
+      }
+    ],
+    "answer": "q",
+    "hint": "Write the equation as $y = mx + d$ and look at the sign of the slope.",
+    "explanation": "$2x + y = 4$ gives $y = -2x + 4$: slope $-2$ (falling) and y-intercept $4$. For example $(3, -2)$ satisfies it: $6 - 2 = 4$. The other two lines rise, with slopes $2$ and $\\dfrac{1}{2}$. The crossing of two lines is not on every line."
+  },
+  {
+    "id": "ma13-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Two plans compared",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Plan A costs ₹50 a month plus ₹0.20 per minute. Plan B costs ₹30 a month plus ₹0.30 per minute. Tap the point where both plans cost the **same**.",
+    "image": {
+      "src": "/img/maths13/g-plans.svg",
+      "alt": "Cost against minutes for two mobile plans, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "meet",
+        "x": 53.4,
+        "y": 30.6,
+        "label": "200 minutes, ₹90"
+      },
+      {
+        "id": "a0",
+        "x": 19.1,
+        "y": 52.3,
+        "label": "Plan A, 30 minutes"
+      },
+      {
+        "id": "b0",
+        "x": 19.1,
+        "y": 63.2,
+        "label": "Plan B, 30 minutes"
+      },
+      {
+        "id": "a8",
+        "x": 93.7,
+        "y": 5.0,
+        "label": "Plan A, 400 minutes"
+      },
+      {
+        "id": "b6",
+        "x": 73.5,
+        "y": 11.4,
+        "label": "Plan B, 300 minutes"
+      }
+    ],
+    "answer": "meet",
+    "hint": "Set $50 + 0.2m = 30 + 0.3m$.",
+    "explanation": "$50 + 0.2m = 30 + 0.3m$ gives $20 = 0.1m$, so $m = 200$ minutes, and the cost is $50 + 0.2(200) = ₹90$ for both. The other marked points each lie on only one of the two lines. Below 200 minutes Plan B is cheaper; beyond it Plan A is cheaper."
+  },
+  {
+    "id": "ma13-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Choosing a plan",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Using the same plans (A: ₹50 + ₹0.20 per minute; B: ₹30 + ₹0.30 per minute), which plan is cheaper for 300 minutes of calls in a month, and by how much?",
+    "image": {
+      "src": "/img/maths13/g-plans.svg",
+      "alt": "Cost against minutes for two mobile plans"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Plan A, by ₹10"
+      },
+      {
+        "id": "b",
+        "text": "Plan B, by ₹10"
+      },
+      {
+        "id": "c",
+        "text": "Plan A, by ₹30"
+      },
+      {
+        "id": "d",
+        "text": "Both cost the same"
+      }
+    ],
+    "answer": "a",
+    "hint": "Work out the total cost under each plan for 300 minutes.",
+    "explanation": "Plan A costs $50 + 0.20 \\times 300 = 50 + 60 = ₹110$. Plan B costs $30 + 0.30 \\times 300 = 30 + 90 = ₹120$. So A is cheaper by ₹10. Comparing only the call charges (₹60 vs ₹90) gives a difference of ₹30 and forgets the monthly fees, and the plans are equal only at 200 minutes."
+  },
+  {
+    "id": "ma13-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Temperature conversion",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The formula $F = \\dfrac{9}{5}C + 32$ converts Celsius to Fahrenheit. At which temperature is the number the **same** in both scales?",
+    "image": {
+      "src": "/img/maths13/thermo.svg",
+      "alt": "A thermometer whose liquid rises and falls"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$40$"
+      },
+      {
+        "id": "b",
+        "text": "$-40$"
+      },
+      {
+        "id": "c",
+        "text": "$-32$"
+      },
+      {
+        "id": "d",
+        "text": "$-17.8$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Put $F = C$ in the formula and solve for $C$.",
+    "explanation": "$C = \\dfrac{9}{5}C + 32$ gives $-\\dfrac{4}{5}C = 32$, so $C = -40$. Check: $\\dfrac{9}{5}(-40) + 32 = -72 + 32 = -40$. A sign slip gives $+40$; $-32$ is just the constant term; and $-17.8$ is the Celsius value of $0^\\circ$F, not the point where the scales agree."
+  },
+  {
+    "id": "ma13-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Meeting point of two paths",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Robot 1 starts at $(0, 0)$ and repeatedly moves 2 units right then 3 units up. Robot 2 starts at $(8, 0)$ and repeatedly moves 1 unit right then 2 units up. Where do their paths meet?",
+    "image": {
+      "src": "/img/maths13/robots.svg",
+      "alt": "Two robots tracing staircase paths on a grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(32,\\ 48)$"
+      },
+      {
+        "id": "b",
+        "text": "$(48,\\ 32)$"
+      },
+      {
+        "id": "c",
+        "text": "$(16,\\ 24)$"
+      },
+      {
+        "id": "d",
+        "text": "$(32,\\ 64)$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Robot 1 follows $y = \\dfrac{3}{2}x$. Find the line for Robot 2 and equate.",
+    "explanation": "Robot 1: slope $\\dfrac{3}{2}$ through the origin, $y = \\dfrac{3}{2}x$. Robot 2: slope $2$ through $(8,0)$, $y = 2(x - 8)$. Equating: $\\dfrac{3}{2}x = 2x - 16$, so $x = 32$ and $y = 48$. Robot 1 reaches it after 16 steps and Robot 2 after 24 steps. $(48,32)$ **swaps** the coordinates, $(16,24)$ halves them, and $(32,64)$ uses $y = 2x$, forgetting the start offset of 8."
+  },
+  {
+    "id": "ma13-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Cyclic quadrilateral",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In a cyclic quadrilateral ABCD, $\\angle A = (x + 7)^\\circ$, $\\angle B = (y + 8)^\\circ$, $\\angle C = (3y + 23)^\\circ$ and $\\angle D = (4x + 12)^\\circ$. Find $\\angle D$.",
+    "image": {
+      "src": "/img/maths13/cyclic-quad.svg",
+      "alt": "A quadrilateral inscribed in a circle with its angles written in terms of x and y"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$37^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$48^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$143^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$132^\\circ$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Opposite angles of a cyclic quadrilateral add up to $180^\\circ$; this gives two equations in $x$ and $y$.",
+    "explanation": "$\\angle A + \\angle C = 180^\\circ$ gives $x + 3y = 150$, and $\\angle B + \\angle D = 180^\\circ$ gives $4x + y = 160$. From the second $y = 160 - 4x$; then $x + 480 - 12x = 150$, so $x = 30$ and $y = 40$. Hence $\\angle D = 4(30) + 12 = 132^\\circ$. The other angles are $\\angle A = 37^\\circ$, $\\angle B = 48^\\circ$ and $\\angle C = 143^\\circ$; check $37 + 143 = 180$ and $48 + 132 = 180$."
+  },
+  {
+    "id": "ma13-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Graphical method",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for solving a pair of linear equations by the **graphical method**.",
+    "image": {
+      "src": "/img/maths13/origin-grid.svg",
+      "alt": "A coordinate plane with the origin marked"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Find the point where the lines cross"
+      },
+      {
+        "id": "s1",
+        "text": "Make a table with two points for each equation"
+      },
+      {
+        "id": "s6",
+        "text": "Verify the values in both equations"
+      },
+      {
+        "id": "s3",
+        "text": "Draw the straight line through each pair of points"
+      },
+      {
+        "id": "s2",
+        "text": "Plot the four points on the Cartesian plane"
+      },
+      {
+        "id": "s5",
+        "text": "Read off its $x$ and $y$ values"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need points before lines and lines before an intersection.",
+    "explanation": "Two points fix a line, so make a table first, then plot, then draw. The solution is the **point common to both lines**, so find the crossing, read its coordinates and finally substitute them in both equations as a check. A reading error from the graph is caught by this last step."
+  },
+  {
+    "id": "ma13-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Ordering slopes",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the lines from the **smallest** slope to the **greatest** slope.",
+    "image": {
+      "src": "/img/maths13/slope-fan.svg",
+      "alt": "A fan of five lines through one point"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "$2x - 4y = 8$"
+      },
+      {
+        "id": "s1",
+        "text": "$5x + y = 3$"
+      },
+      {
+        "id": "s5",
+        "text": "$3x - y = 1$"
+      },
+      {
+        "id": "s2",
+        "text": "$2x + 3y = 6$"
+      },
+      {
+        "id": "s3",
+        "text": "$y = 5$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "Smallest slope",
+    "endLabel": "Greatest slope",
+    "hint": "Write each as $y = mx + d$ and compare the values of $m$.",
+    "explanation": "Slopes: $5x + y = 3$ gives $-5$; $2x + 3y = 6$ gives $-\\dfrac{2}{3}$; $y = 5$ gives $0$; $2x - 4y = 8$ gives $\\dfrac{1}{2}$; $3x - y = 1$ gives $3$. So the order is $-5 < -\\dfrac{2}{3} < 0 < \\dfrac{1}{2} < 3$. Remember that a negative slope is smaller than zero, and $-5$ is smaller than $-\\dfrac{2}{3}$ even though it looks 'bigger'."
+  },
+  {
+    "id": "ma13-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Slope-intercept form",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and the Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths13/slope-int.svg",
+      "alt": "A line with a slope step and a marked y-intercept"
+    },
+    "assertion": "For the line $y = mx + d$, the point $(0,\\ d)$ lies on the line.",
+    "reason": "The slope of a line is the ratio of its rise to its run between any two points on it.",
+    "answer": "b",
+    "hint": "Does the definition of slope say anything about the point where $x = 0$?",
+    "explanation": "Both are true, but R does not explain A. Putting $x = 0$ gives $y = d$, so $(0, d)$ is on the line: this uses substitution, not slope. R is a correct description of slope, but it says nothing about why $(0,d)$ lies on the line."
+  },
+  {
+    "id": "ma13-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "y-intercepts",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each equation with the point where its line crosses the y-axis.",
+    "image": {
+      "src": "/img/maths13/intercept-axes.svg",
+      "alt": "A line crossing the y-axis at a marked point"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$3x + 2y = 12$"
+      },
+      {
+        "id": "l2",
+        "text": "$4x + 3y = 12$"
+      },
+      {
+        "id": "l3",
+        "text": "$2x - 3y = 12$"
+      },
+      {
+        "id": "l4",
+        "text": "$x + 3y = 6$"
+      },
+      {
+        "id": "l5",
+        "text": "$5x + y = 3$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$(0,\\ 4)$"
+      },
+      {
+        "id": "r2",
+        "text": "$(0,\\ 6)$"
+      },
+      {
+        "id": "r3",
+        "text": "$(0,\\ 3)$"
+      },
+      {
+        "id": "r4",
+        "text": "$(0,\\ -4)$"
+      },
+      {
+        "id": "r5",
+        "text": "$(0,\\ 2)$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r1",
+      "l3": "r4",
+      "l4": "r5",
+      "l5": "r3"
+    },
+    "hint": "Put $x = 0$ and solve for $y$.",
+    "explanation": "With $x = 0$: $2y = 12$ gives $y = 6$; $3y = 12$ gives $y = 4$; $-3y = 12$ gives $y = -4$; $3y = 6$ gives $y = 2$; and $y = 3$. A common slip is losing the **minus sign** in the third case or reporting the x-intercept instead."
+  },
+  {
+    "id": "ma13-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Solutions on a fruit bill",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Radha's fruit bill gives $60x + 50y = 280$ ($x$ kg of mangoes at ₹60 per kg, $y$ kg of bananas at ₹50 per kg). Select **all** the pairs $(x,\\ y)$ that match the bill exactly.",
+    "image": {
+      "src": "/img/maths13/fruit-cart.svg",
+      "alt": "A fruit cart with mangoes and bananas and price tags"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(3,\\ 2)$"
+      },
+      {
+        "id": "b",
+        "text": "$(2,\\ 3)$"
+      },
+      {
+        "id": "c",
+        "text": "$\\left(4,\\ \\dfrac{4}{5}\\right)$"
+      },
+      {
+        "id": "d",
+        "text": "$(1,\\ 4)$"
+      },
+      {
+        "id": "e",
+        "text": "$\\left(2,\\ \\dfrac{16}{5}\\right)$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Compute $60x + 50y$ for each pair.",
+    "explanation": "$60(3) + 50(2) = 280$, $60(4) + 50\\left(\\dfrac{4}{5}\\right) = 240 + 40 = 280$ and $60(2) + 50\\left(\\dfrac{16}{5}\\right) = 120 + 160 = 280$ all work. But $60(2) + 50(3) = 270$ and $60(1) + 50(4) = 260$ do not. One equation in two unknowns has **many** solutions, so extra information is needed to pick one."
+  },
+  {
+    "id": "ma13-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Two Variables, One Line",
+    "chapterNo": 13,
+    "topic": "Substitution step by step",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Solve $3x + y = 11$ and $x - 2y = -1$ by substitution. Arrange the steps in order.",
+    "image": {
+      "src": "/img/maths13/step-stairs.svg",
+      "alt": "Five steps of a staircase numbered one to five"
+    },
+    "items": [
+      {
+        "id": "s5",
+        "text": "Find $y = 11 - 3(3) = 2$"
+      },
+      {
+        "id": "s2",
+        "text": "Put it into the second: $x - 2(11 - 3x) = -1$"
+      },
+      {
+        "id": "s6",
+        "text": "Check $(3,\\ 2)$ in both equations"
+      },
+      {
+        "id": "s1",
+        "text": "Write $y = 11 - 3x$ from the first equation"
+      },
+      {
+        "id": "s4",
+        "text": "Solve to get $x = 3$"
+      },
+      {
+        "id": "s3",
+        "text": "Expand and collect: $7x - 22 = -1$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Express one variable in terms of the other before substituting.",
+    "explanation": "Expressing $y = 11 - 3x$ and substituting gives $x - 22 + 6x = -1$, i.e. $7x = 21$ and $x = 3$. The classic slip is $x - 2(11 - 3x) = x - 22 - 6x$ (forgetting that $-2 \\times -3x = +6x$). Then $y = 11 - 9 = 2$, and the check $3(3) + 2 = 11$, $3 - 4 = -1$ confirms it. Stopping after finding $x$ leaves the answer incomplete."
+  }
+]

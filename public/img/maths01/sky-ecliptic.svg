@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" role="img">
+<title>A night sky with twinkling stars and the sun moving along its yearly path</title>
+<style>
+text{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.h{stroke:#FFF9EE;stroke-width:3px;paint-order:stroke}
+.tw{animation:tw 3s ease-in-out infinite}.t1{animation-delay:1s}.t2{animation-delay:2s}@keyframes tw{50%{opacity:.3}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="14" y="14" width="412" height="252" rx="12" fill="#1E2A5A"/><circle class="tw t0" cx="50" cy="50" r="2" fill="#FFF3C4"/><circle class="tw t1" cx="90" cy="120" r="3" fill="#FFF3C4"/><circle class="tw t2" cx="140" cy="40" r="4" fill="#FFF3C4"/><circle class="tw t0" cx="200" cy="90" r="2" fill="#FFF3C4"/><circle class="tw t1" cx="260" cy="50" r="3" fill="#FFF3C4"/><circle class="tw t2" cx="320" cy="110" r="4" fill="#FFF3C4"/><circle class="tw t0" cx="380" cy="60" r="2" fill="#FFF3C4"/><circle class="tw t1" cx="400" cy="200" r="3" fill="#FFF3C4"/><circle class="tw t2" cx="70" cy="210" r="4" fill="#FFF3C4"/><circle class="tw t0" cx="160" cy="230" r="2" fill="#FFF3C4"/><circle class="tw t1" cx="300" cy="220" r="3" fill="#FFF3C4"/><circle class="tw t2" cx="350" cy="160" r="4" fill="#FFF3C4"/><circle class="tw t0" cx="230" cy="170" r="2" fill="#FFF3C4"/><circle class="tw t1" cx="120" cy="170" r="3" fill="#FFF3C4"/><path d="M30 210Q220 40 410 210" fill="none" stroke="#F6C453" stroke-width="2.5" stroke-dasharray="7 6"/><path d="M30 240H410" stroke="#A3A8CC" stroke-width="2"/><g><circle r="14" fill="#F6C453" stroke="#FF8A1F" stroke-width="3"/><animateMotion dur="6s" repeatCount="indefinite" path="M30 210Q220 40 410 210"/></g>
+</svg>

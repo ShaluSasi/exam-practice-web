@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+<title>Two rods: a is 5 units long and b is 2 units long</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.f{animation:fl 4s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="f">
+<rect x="50" y="50" width="50" height="34" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="100" y="50" width="50" height="34" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="150" y="50" width="50" height="34" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="200" y="50" width="50" height="34" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="250" y="50" width="50" height="34" fill="#F6C453" stroke="#2B2F4A" stroke-width="2"/>
+</g><g class="f" style="animation-delay:1.5s">
+<rect x="50" y="120" width="50" height="34" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2"/>
+<rect x="100" y="120" width="50" height="34" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2"/>
+</g>
+<text class="t" x="325" y="74" font-size="18" text-anchor="middle">a = 5</text>
+<text class="t" x="175" y="144" font-size="18" text-anchor="start">b = 2</text>
+</svg>

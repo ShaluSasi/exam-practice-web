@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A square of side a divided at distance b from two edges</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.out{animation:mv 3s linear infinite}@keyframes mv{to{stroke-dashoffset:-36}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="120" y="66" width="70" height="70" fill="#E4E4EE" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="120" y="136" width="70" height="140" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="190" y="66" width="140" height="70" fill="#F79A8C" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="190" y="136" width="140" height="140" fill="#F79A8C" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M190 136H330" stroke="#FFF9EE" stroke-width="3" stroke-dasharray="7 6"/>
+<rect class="out" x="120" y="66" width="210" height="210" fill="none" stroke="#0B93D4" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M128 50L122 54L128 58M122 54H188M182 50L188 54L182 58" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="155" y="46" font-size="15" text-anchor="middle">a − b</text>
+<path d="M198 50L192 54L198 58M192 54H328M322 50L328 54L322 58" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="260" y="46" font-size="15" text-anchor="middle">b</text>
+<path d="M128 20L122 24L128 28M122 24H328M322 20L328 24L322 28" stroke="#0B93D4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="225" y="17" font-size="15" text-anchor="middle">a</text>
+<path d="M104 74L108 68L112 74M108 68V134M104 128L108 134L112 128" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="100" y="106" font-size="15" text-anchor="end">a − b</text>
+<path d="M104 144L108 138L112 144M108 138V274M104 268L108 274L112 268" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="100" y="211" font-size="15" text-anchor="end">b</text>
+<path d="M50 74L54 68L58 74M54 68V274M50 268L54 274L58 268" stroke="#0B93D4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="46" y="176" font-size="15" text-anchor="end">a</text>
+</svg>

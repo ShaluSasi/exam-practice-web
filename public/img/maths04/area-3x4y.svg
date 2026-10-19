@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>An area model with sides 3x plus 4y</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.out{animation:mv 3s linear infinite}@keyframes mv{to{stroke-dashoffset:-36}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="110" y="70" width="90" height="90" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="200" y="70" width="120" height="90" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="110" y="160" width="90" height="120" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="200" y="160" width="120" height="120" fill="#C9A7E8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect class="out" x="110" y="70" width="210" height="210" fill="none" stroke="#0B93D4" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M118 54L112 58L118 62M112 58H198M192 54L198 58L192 62" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="155" y="50" font-size="16" text-anchor="middle">3x</text>
+<path d="M208 54L202 58L208 62M202 58H318M312 54L318 58L312 62" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="260" y="50" font-size="16" text-anchor="middle">4y</text>
+<path d="M94 78L98 72L102 78M98 72V158M94 152L98 158L102 152" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="90" y="120" font-size="16" text-anchor="end">3x</text>
+<path d="M94 168L98 162L102 168M98 162V278M94 272L98 278L102 272" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="90" y="225" font-size="16" text-anchor="end">4y</text>
+</svg>

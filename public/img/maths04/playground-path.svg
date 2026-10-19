@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A square playground with a path of width s all around it</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="90" y="40" width="220" height="220" fill="#E8C99A" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="130" y="80" width="140" height="140" fill="#9BD18B" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M150 150H250M150 180H250" stroke="#7FBF6E" stroke-width="6" stroke-linecap="round"/>
+<path d="M130 40V80M130 220V260M270 40V80M270 220V260M90 80H130M270 80H310M90 220H130M270 220H310" stroke="#2B2F4A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text class="t" x="200" y="110" font-size="15" text-anchor="middle">30 m</text>
+<path d="M138 116L132 120L138 124M132 120H268M262 116L268 120L262 124" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M97 270L91 274L97 278M91 274H129M123 270L129 274L123 278" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="110" y="294" font-size="16" text-anchor="middle">s</text>
+<g><circle r="7" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2"><animateMotion dur="10s" repeatCount="indefinite" path="M110.0 60.0H290.0V240.0H110.0Z"/></circle></g>
+</svg>

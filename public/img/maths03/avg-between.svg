@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" role="img" font-family="system-ui, sans-serif" font-weight="600">
+<title>A number line from 0 to 1 with one third and one half marked and a magnifying glass</title>
+<style>
+.la{animation:la 2.4s ease-in-out infinite}.ra{animation:ra 2.4s ease-in-out infinite}
+@keyframes la{50%{transform:translateX(-5px)}}@keyframes ra{50%{transform:translateX(5px)}}.mg{animation:mg 3s ease-in-out infinite}@keyframes mg{50%{transform:translate(18px,-6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="arr"><line x1="26" y1="150" x2="674" y2="150" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<path d="M20 150l14 -8v16z" fill="#2B2F4A" class="la"/><path d="M680 150l-14 -8v16z" fill="#2B2F4A" class="ra"/></g><line x1="60" y1="134" x2="60" y2="166" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><text x="60" y="190" font-size="20" text-anchor="middle" fill="#2B2F4A">0</text><line x1="640" y1="134" x2="640" y2="166" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><text x="640" y="190" font-size="20" text-anchor="middle" fill="#2B2F4A">1</text><line x1="253.3" y1="138" x2="253.3" y2="162" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><line x1="350" y1="138" x2="350" y2="162" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round"/><circle cx="253.3" cy="150" r="7" fill="#E5484D"/><circle cx="350" cy="150" r="7" fill="#E5484D"/><text x="253.3" y="192" font-size="18" text-anchor="middle" fill="#2B2F4A">1</text><line x1="244.9" y1="196" x2="261.7" y2="196" stroke="#2B2F4A" stroke-width="2"/><text x="253.3" y="215" font-size="18" text-anchor="middle" fill="#2B2F4A">3</text><text x="350" y="192" font-size="18" text-anchor="middle" fill="#2B2F4A">1</text><line x1="341.6" y1="196" x2="358.4" y2="196" stroke="#2B2F4A" stroke-width="2"/><text x="350" y="215" font-size="18" text-anchor="middle" fill="#2B2F4A">2</text><g class="mg"><circle cx="300" cy="70" r="34" fill="#CDEBFA" fill-opacity=".7" stroke="#2B2F4A" stroke-width="4"/><path d="M324 94l26 26" stroke="#2B2F4A" stroke-width="8" stroke-linecap="round"/><text x="300" y="82" font-size="32" text-anchor="middle" fill="#2B2F4A">?</text></g>
+</svg>

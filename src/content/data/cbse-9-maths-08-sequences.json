@@ -1,0 +1,2238 @@
+[
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q001",
+    "topic": "Triangular numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "These dot triangles show the first four **triangular numbers**: 1, 3, 6, 10. How many dots are needed for Stage 5?",
+    "image": {
+      "src": "/img/maths08/tri-next.svg",
+      "alt": "Dot triangles with one, two, three and four rows, and an empty dashed slot for the next stage"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "14"
+      },
+      {
+        "id": "b",
+        "text": "15"
+      },
+      {
+        "id": "c",
+        "text": "16"
+      },
+      {
+        "id": "d",
+        "text": "13"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each new stage adds one more row than the last stage added.",
+    "explanation": "Each triangular number is the sum of the counting numbers up to its stage: $1+2+3+4+5 = 15$. The gaps between terms grow $2, 3, 4, 5, \\dots$, so after $10$ we add $5$. Adding $4$ again gives $14$ (forgetting the gap grows), and $16$ is the next **square** number, not triangular."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q002",
+    "topic": "Rules for common sequences",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Each row of the picture shows the first four stages of a dot pattern. Match each numbered row with the rule for the number of dots at stage $n$.",
+    "image": {
+      "src": "/img/maths08/seq-types.svg",
+      "alt": "Four rows of dot patterns with numbered markers at the left of each row",
+      "markers": [
+        {
+          "x": 5.8,
+          "y": 14.7,
+          "label": "1"
+        },
+        {
+          "x": 5.8,
+          "y": 38.2,
+          "label": "2"
+        },
+        {
+          "x": 5.8,
+          "y": 61.8,
+          "label": "3"
+        },
+        {
+          "x": 5.8,
+          "y": 85.3,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "r1",
+        "text": "Row 1"
+      },
+      {
+        "id": "r2",
+        "text": "Row 2"
+      },
+      {
+        "id": "r3",
+        "text": "Row 3"
+      },
+      {
+        "id": "r4",
+        "text": "Row 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "A",
+        "text": "$2n-1$"
+      },
+      {
+        "id": "B",
+        "text": "$\\dfrac{n(n+1)}{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$n^2$"
+      },
+      {
+        "id": "D",
+        "text": "$2n$"
+      }
+    ],
+    "pairs": {
+      "r1": "C",
+      "r2": "B",
+      "r3": "D",
+      "r4": "A"
+    },
+    "hint": "Count the dots in stages 1, 2, 3, 4 of each row, then test each rule with $n = 3$.",
+    "explanation": "Row 1 is a square grid, so the count is $n^2$ ($1, 4, 9, 16$). Row 2 grows $1, 3, 6, 10$ and equals $\\dfrac{n(n+1)}{2}$. Row 3 has two lines of $n$ dots, giving $2n$. Row 4 is a single line of $1, 3, 5, 7$ dots, which is $2n-1$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q003",
+    "topic": "Notation t_n",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The cards show the first six triangular numbers in order, starting with $t_1$. Tap the empty circle under the card for $t_5$.",
+    "image": {
+      "src": "/img/maths08/tri-strip.svg",
+      "alt": "A row of six number cards with an empty dashed circle under each and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "c1",
+        "x": 9.2,
+        "y": 81.2,
+        "label": "Card 1"
+      },
+      {
+        "id": "c2",
+        "x": 25.0,
+        "y": 81.2,
+        "label": "Card 2"
+      },
+      {
+        "id": "c3",
+        "x": 40.8,
+        "y": 81.2,
+        "label": "Card 3"
+      },
+      {
+        "id": "c4",
+        "x": 56.7,
+        "y": 81.2,
+        "label": "Card 4"
+      },
+      {
+        "id": "c5",
+        "x": 72.5,
+        "y": 81.2,
+        "label": "Card 5"
+      },
+      {
+        "id": "c6",
+        "x": 88.3,
+        "y": 81.2,
+        "label": "Card 6"
+      }
+    ],
+    "answer": "c5",
+    "hint": "The subscript tells you the position: $t_5$ is the card in the fifth place.",
+    "explanation": "In the notation $t_n$ the subscript is the **position** of the term, so $t_5$ is the fifth card (it holds $15 = 1+2+3+4+5$). A common slip is to count from $0$ and tap the fourth card, or to look for the card with the value $5$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q004",
+    "topic": "Odd numbers and squares",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The picture builds a square by adding L-shaped layers of dots, one after another. Using this idea, what is $1 + 3 + 5 + 7 + 9 + 11 + 13 + 15$?",
+    "image": {
+      "src": "/img/maths08/odd-square.svg",
+      "alt": "A square grid made of eight nested L-shaped layers in two alternating colours"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "72"
+      },
+      {
+        "id": "b",
+        "text": "32"
+      },
+      {
+        "id": "c",
+        "text": "16"
+      },
+      {
+        "id": "d",
+        "text": "64"
+      }
+    ],
+    "answer": "d",
+    "hint": "Each L-layer holds the next odd number of squares.",
+    "explanation": "The sum of the first $n$ odd numbers is $n^2$ because each L-shaped layer adds the next odd number. There are $8$ odd numbers here, so the sum is $8^2 = 64$. Multiplying $8 \\times 9 = 72$ uses the triangular-number formula, and $8 \\times 4 = 32$ or $2 \\times 8 = 16$ mix up squaring with multiplying."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q005",
+    "topic": "Explicit rule",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A sequence has the explicit rule $t_n = 3n - 7$. What is its **18th term**?",
+    "image": {
+      "src": "/img/maths08/machine-rule.svg",
+      "alt": "A function machine that takes a position number n and gives a term"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "47"
+      },
+      {
+        "id": "b",
+        "text": "44"
+      },
+      {
+        "id": "c",
+        "text": "33"
+      },
+      {
+        "id": "d",
+        "text": "61"
+      }
+    ],
+    "answer": "a",
+    "hint": "Replace $n$ by $18$ and then subtract $7$.",
+    "explanation": "An explicit rule uses the position directly: $t_{18} = 3 \\times 18 - 7 = 54 - 7 = 47$. Writing $3 \\times 17 - 7 = 44$ uses the wrong position, $3(18-7) = 33$ subtracts before multiplying, and $61$ adds $7$ instead of subtracting."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q006",
+    "topic": "Position of a term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "For the sequence $t_n = 3n - 7$, which **term number** is $332$?",
+    "image": {
+      "src": "/img/maths08/machine-rule.svg",
+      "alt": "A function machine that takes a position number n and gives a term"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "111"
+      },
+      {
+        "id": "b",
+        "text": "108"
+      },
+      {
+        "id": "c",
+        "text": "113"
+      },
+      {
+        "id": "d",
+        "text": "339"
+      }
+    ],
+    "answer": "c",
+    "hint": "Solve $3n - 7 = 332$ for $n$.",
+    "explanation": "Set $3n - 7 = 332$, so $3n = 339$ and $n = 113$. So $332$ is the **113th** term. Dividing $332$ by $3$ and rounding gives $111$, subtracting $7$ instead of adding gives $108$, and $339$ is the value of $3n$, not the position $n$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q007",
+    "topic": "Is a number a term?",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "For the sequence $s_n = 5n - 2$, select **all** the numbers that are terms of the sequence. (Remember that $n$ must be a natural number.)",
+    "image": {
+      "src": "/img/maths08/machine-5n.svg",
+      "alt": "A function machine that takes a position number n and gives a term"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "471"
+      },
+      {
+        "id": "b",
+        "text": "308"
+      },
+      {
+        "id": "c",
+        "text": "250"
+      },
+      {
+        "id": "d",
+        "text": "473"
+      },
+      {
+        "id": "e",
+        "text": "98"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Solve $5n - 2 = $ each number and see whether $n$ is a whole number.",
+    "explanation": "Solving $5n - 2 = x$ gives $n = \\dfrac{x+2}{5}$. For $308$, $n = 62$; for $473$, $n = 95$; for $98$, $n = 20$ - all natural numbers. For $471$, $n = 94.6$, and for $250$, $n = 50.4$, so these are not terms, because a position must be a natural number."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q008",
+    "topic": "Recursive rule",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A sequence is defined by $u_1 = 1$ and $u_n = 2u_{n-1} + 3$ for $n \\ge 2$. What is $u_5$?",
+    "image": {
+      "src": "/img/maths08/chain-double.svg",
+      "alt": "Five cards linked by arrows, with the first card known and the others to be found"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "32"
+      },
+      {
+        "id": "b",
+        "text": "58"
+      },
+      {
+        "id": "c",
+        "text": "64"
+      },
+      {
+        "id": "d",
+        "text": "61"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find $u_2, u_3, u_4$ in turn: each needs the one before it.",
+    "explanation": "Work forward: $u_2 = 2(1)+3 = 5$, $u_3 = 2(5)+3 = 13$, $u_4 = 2(13)+3 = 29$, $u_5 = 2(29)+3 = 61$. Adding only $3$ to $u_4$ gives $32$, doubling without the $+3$ gives $58$, and $64$ is a doubling pattern from $1$ that ignores the rule."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q009",
+    "topic": "Recursive rules",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each recursive rule with the first four terms it generates.",
+    "image": {
+      "src": "/img/maths08/recursion.svg",
+      "alt": "A card for the previous term feeding a rule that produces the next term"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$t_1=3,\\ t_n=t_{n-1}+4$"
+      },
+      {
+        "id": "l2",
+        "text": "$t_1=3,\\ t_n=2t_{n-1}$"
+      },
+      {
+        "id": "l3",
+        "text": "$t_1=3,\\ t_n=t_{n-1}(t_{n-1}-1)$"
+      },
+      {
+        "id": "l4",
+        "text": "$t_1=1,\\ t_2=2,\\ t_n=t_{n-1}+t_{n-2}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "x1",
+        "text": "$3, 6, 12, 24$"
+      },
+      {
+        "id": "x2",
+        "text": "$1, 2, 3, 5$"
+      },
+      {
+        "id": "x3",
+        "text": "$3, 7, 11, 15$"
+      },
+      {
+        "id": "x4",
+        "text": "$3, 6, 30, 870$"
+      }
+    ],
+    "pairs": {
+      "l1": "x3",
+      "l2": "x1",
+      "l3": "x4",
+      "l4": "x2"
+    },
+    "hint": "Use the first term, apply the rule once, and compare with the lists.",
+    "explanation": "Apply each rule step by step. $t_1=3$, $t_n=t_{n-1}+4$ gives $3, 7, 11, 15$. $t_1=3$, $t_n=2t_{n-1}$ gives $3, 6, 12, 24$. $t_1=3$, $t_n=t_{n-1}(t_{n-1}-1)$ gives $3, 6, 30, 870$ (note $6\\times5=30$). The rule using the two previous terms with $t_1=1, t_2=2$ gives $1, 2, 3, 5$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q010",
+    "topic": "Virahanka-Fibonacci sequence",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The picture shows the ways to fill $1$, $2$ and $3$ beats with short ($1$ beat) and long ($2$ beats) sounds. The counts $V_1 = 1$, $V_2 = 2$, $V_3 = 3, \\dots$ follow $V_n = V_{n-1} + V_{n-2}$. What is $V_{10}$?",
+    "image": {
+      "src": "/img/maths08/fib-tiles.svg",
+      "alt": "Rows of short and long tiles arranged to fill one, two and three beats"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "55"
+      },
+      {
+        "id": "b",
+        "text": "89"
+      },
+      {
+        "id": "c",
+        "text": "144"
+      },
+      {
+        "id": "d",
+        "text": "110"
+      }
+    ],
+    "answer": "b",
+    "hint": "Keep adding the previous two terms: $1, 2, 3, 5, 8, \\dots$",
+    "explanation": "Starting from $1, 2$ each term is the sum of the two before: $1, 2, 3, 5, 8, 13, 21, 34, 55, 89$, so $V_{10} = 89$. $55$ is $V_9$ (off by one), $144$ comes from the classical Fibonacci numbers that start $1, 1$, and $110 = 2 \\times 55$ wrongly doubles."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q011",
+    "topic": "Virahanka-Fibonacci sequence",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "Each card is a term of the sequence $V_n = V_{n-1} + V_{n-2}$ (with $V_1 = 1$ and $V_2 = 2$). Arrange the terms in the order they appear in the sequence.",
+    "image": {
+      "src": "/img/maths08/fib-tiles.svg",
+      "alt": "Rows of short and long tiles arranged to fill one, two and three beats"
+    },
+    "items": [
+      {
+        "id": "i8",
+        "text": "8"
+      },
+      {
+        "id": "i2",
+        "text": "2"
+      },
+      {
+        "id": "i13",
+        "text": "13"
+      },
+      {
+        "id": "i1",
+        "text": "1"
+      },
+      {
+        "id": "i5",
+        "text": "5"
+      },
+      {
+        "id": "i3",
+        "text": "3"
+      }
+    ],
+    "answer": [
+      "i1",
+      "i2",
+      "i3",
+      "i5",
+      "i8",
+      "i13"
+    ],
+    "startLabel": "First term",
+    "endLabel": "Last term",
+    "hint": "Each term is bigger than the one before, so put them from smallest to largest.",
+    "explanation": "The sequence runs $1, 2, 3, 5, 8, 13$, because $V_3 = 2+1$, $V_4 = 3+2$, $V_5 = 5+3$, $V_6 = 8+5$. Each term is the sum of the previous two, so the terms rise in value and can be placed by size."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q012",
+    "topic": "Explicit rules",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each explicit rule with the **first four terms** it produces (start from $n = 1$).",
+    "image": {
+      "src": "/img/maths08/machine-unknown.svg",
+      "alt": "A function machine with a hidden rule"
+    },
+    "left": [
+      {
+        "id": "e1",
+        "text": "$t_n = 3n-4$"
+      },
+      {
+        "id": "e2",
+        "text": "$t_n = 2-5n$"
+      },
+      {
+        "id": "e3",
+        "text": "$t_n = n^2-2n+3$"
+      },
+      {
+        "id": "e4",
+        "text": "$t_n = 2\\cdot 3^{\\,n-1}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "f1",
+        "text": "$2, 6, 18, 54$"
+      },
+      {
+        "id": "f2",
+        "text": "$-1, 2, 5, 8$"
+      },
+      {
+        "id": "f3",
+        "text": "$2, 3, 6, 11$"
+      },
+      {
+        "id": "f4",
+        "text": "$-3, -8, -13, -18$"
+      }
+    ],
+    "pairs": {
+      "e1": "f2",
+      "e2": "f4",
+      "e3": "f3",
+      "e4": "f1"
+    },
+    "hint": "Substitute $n = 1$ and $n = 2$ into each rule and compare.",
+    "explanation": "$t_n = 3n-4$ gives $-1, 2, 5, 8$. $t_n = 2-5n$ gives $-3, -8, -13, -18$ (it falls). $t_n = n^2-2n+3$ gives $2, 3, 6, 11$ since $1-2+3=2$, $4-4+3=3$, $9-6+3=6$. $t_n = 2\\cdot 3^{n-1}$ gives $2, 6, 18, 54$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q013",
+    "topic": "nth term of an AP",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The pattern uses $1, 5, 9, 13$ tiles in Stages 1 to 4, growing by the same number each stage. How many tiles are in **Stage 20**?",
+    "image": {
+      "src": "/img/maths08/plus-pattern.svg",
+      "alt": "A plus-shaped pattern of tiles whose arms get longer at each stage"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "80"
+      },
+      {
+        "id": "b",
+        "text": "76"
+      },
+      {
+        "id": "c",
+        "text": "77"
+      },
+      {
+        "id": "d",
+        "text": "81"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use $t_n = a + (n-1)d$ with $a = 1$ and $d = 4$.",
+    "explanation": "The first term is $a = 1$ and the common difference is $d = 4$, so $t_{20} = 1 + (20-1) \\times 4 = 1 + 76 = 77$ (also $4n-3 = 77$). The slip $4 \\times 20 = 80$ forgets the $-3$, $76$ forgets the first term, and $1 + 20 \\times 4 = 81$ uses $n$ instead of $n-1$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q014",
+    "topic": "Graph of an AP",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "On the graph, each point is $(x, y)$ with $x$ the stage number and $y$ the number of tiles in a growing pattern ($1, 5, 9, 13, 17$). Tap the point for **Stage 4**.",
+    "image": {
+      "src": "/img/maths08/ap-graph.svg",
+      "alt": "A graph with numbered axes and five points lying on a straight line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 26.0,
+        "y": 81.2,
+        "label": "Stage 1"
+      },
+      {
+        "id": "p2",
+        "x": 40.0,
+        "y": 66.2,
+        "label": "Stage 2"
+      },
+      {
+        "id": "p3",
+        "x": 54.0,
+        "y": 51.2,
+        "label": "Stage 3"
+      },
+      {
+        "id": "p4",
+        "x": 68.0,
+        "y": 36.2,
+        "label": "Stage 4"
+      },
+      {
+        "id": "p5",
+        "x": 82.0,
+        "y": 21.2,
+        "label": "Stage 5"
+      }
+    ],
+    "answer": "p4",
+    "hint": "Find $x = 4$ on the horizontal axis and go up to the point.",
+    "explanation": "The point for Stage 4 has $x = 4$ and $y = 13$, found by reading up from $4$ on the stage-number axis. The points $(1,1), (2,5), (3,9), (4,13), (5,17)$ lie on a straight line because the difference between terms is constant, which is what makes this an **AP**."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q015",
+    "topic": "Graph of an AP",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Same graph. Tap the point that stands for the stage with **9 tiles**.",
+    "image": {
+      "src": "/img/maths08/ap-graph.svg",
+      "alt": "A graph with numbered axes and five points lying on a straight line, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 26.0,
+        "y": 81.2,
+        "label": "Stage 1"
+      },
+      {
+        "id": "p2",
+        "x": 40.0,
+        "y": 66.2,
+        "label": "Stage 2"
+      },
+      {
+        "id": "p3",
+        "x": 54.0,
+        "y": 51.2,
+        "label": "Stage 3"
+      },
+      {
+        "id": "p4",
+        "x": 68.0,
+        "y": 36.2,
+        "label": "Stage 4"
+      },
+      {
+        "id": "p5",
+        "x": 82.0,
+        "y": 21.2,
+        "label": "Stage 5"
+      }
+    ],
+    "answer": "p3",
+    "hint": "Find $y = 9$ on the vertical axis and look across to the point.",
+    "explanation": "Reading across from $y = 9$ we reach the point $(3, 9)$, so Stage 3 has $9$ tiles; check with $4n - 3 = 9 \\Rightarrow n = 3$. Tapping Stage 5 or 2 confuses the tile count with the stage number or counts squares on the axis wrongly."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q016",
+    "topic": "AP in real life",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A taxi charges a fixed booking fee of ₹200 plus ₹40 for every kilometre. The fares after $1, 2, 3, \\dots$ km form an AP starting at ₹240. What is the fare for **15 km**?",
+    "image": {
+      "src": "/img/maths08/taxi.svg",
+      "alt": "A taxi on a road marked in kilometres, with a fare board"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹800"
+      },
+      {
+        "id": "b",
+        "text": "₹840"
+      },
+      {
+        "id": "c",
+        "text": "₹600"
+      },
+      {
+        "id": "d",
+        "text": "₹3,600"
+      }
+    ],
+    "answer": "a",
+    "hint": "Either use $t_n = 240 + (n-1)\\times 40$ or $200 + 40n$.",
+    "explanation": "The first term is $240$ and $d = 40$, so $t_{15} = 240 + 14 \\times 40 = 800$; equally $200 + 40 \\times 15 = 800$. Using $240 + 15 \\times 40 = 840$ counts one step too many, $15 \\times 40 = 600$ forgets the booking fee, and $(200+40)\\times 15 = 3{,}600$ wrongly multiplies the whole first term."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q017",
+    "topic": "Term number of an AP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In the AP $21, 18, 15, \\dots$, which term is $-81$?",
+    "image": {
+      "src": "/img/maths08/steps-21.svg",
+      "alt": "A staircase of steps going down by the same amount each time"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "34th"
+      },
+      {
+        "id": "b",
+        "text": "35th"
+      },
+      {
+        "id": "c",
+        "text": "36th"
+      },
+      {
+        "id": "d",
+        "text": "21st"
+      }
+    ],
+    "answer": "b",
+    "hint": "Here $d = -3$. Solve $21 + (n-1)(-3) = -81$.",
+    "explanation": "With $a = 21$ and $d = -3$: $21 - 3(n-1) = -81$, so $-3(n-1) = -102$ and $n - 1 = 34$, giving $n = 35$. Stopping at $n - 1 = 34$ gives $34$th, using $a + nd$ gives $36$th, and a sign error in $d$ gives a wrong small answer such as $21$st."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q018",
+    "topic": "nth term of an AP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which expression gives the $n$th term of the AP $11, 8, 5, 2, \\dots$?",
+    "image": {
+      "src": "/img/maths08/steps-11.svg",
+      "alt": "A staircase of steps going down by the same amount each time"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$11 - 3n$"
+      },
+      {
+        "id": "b",
+        "text": "$3n - 14$"
+      },
+      {
+        "id": "c",
+        "text": "$8 - 3n$"
+      },
+      {
+        "id": "d",
+        "text": "$14 - 3n$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Use $a + (n-1)d$ with $a = 11$ and $d = -3$.",
+    "explanation": "$t_n = 11 + (n-1)(-3) = 11 - 3n + 3 = 14 - 3n$; check $n = 1$ gives $11$. The choice $11 - 3n$ uses $nd$ instead of $(n-1)d$ (it gives $8$ for $n = 1$), $3n - 14$ has the wrong sign, and $8 - 3n$ starts from the second term."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q019",
+    "topic": "Finding a and d",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "An AP has $50$ terms. Its third term is $12$ and its last term is $106$. What is the **29th term**?",
+    "image": {
+      "src": "/img/maths08/clues-50.svg",
+      "alt": "A strip of 50 terms with the third term, 29th term and last term flagged"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "64"
+      },
+      {
+        "id": "b",
+        "text": "66"
+      },
+      {
+        "id": "c",
+        "text": "58"
+      },
+      {
+        "id": "d",
+        "text": "62"
+      }
+    ],
+    "answer": "a",
+    "hint": "Write $a + 2d = 12$ and $a + 49d = 106$ and subtract.",
+    "explanation": "Subtracting gives $47d = 94$, so $d = 2$ and $a = 12 - 4 = 8$. Then $t_{29} = 8 + 28 \\times 2 = 64$. Using $a + 29d = 66$ is the $nd$ slip, $29 \\times 2 = 58$ forgets $a$, and $8 + 27 \\times 2 = 62$ is one term too early."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q020",
+    "topic": "Sum using S_n",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "How much is the **sum of all two-digit numbers divisible by 3**? (They run from $12$ to $99$.)",
+    "image": {
+      "src": "/img/maths08/multiples-3.svg",
+      "alt": "A number line from 10 to 99 with the multiples of 3 marked by orange ticks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3330"
+      },
+      {
+        "id": "b",
+        "text": "555"
+      },
+      {
+        "id": "c",
+        "text": "1665"
+      },
+      {
+        "id": "d",
+        "text": "1674"
+      }
+    ],
+    "answer": "c",
+    "hint": "Write the multiples as $3 \\times (4 + 5 + \\dots + 33)$ and use $S_n = \\dfrac{n(n+1)}{2}$.",
+    "explanation": "$12 = 3 \\times 4$ and $99 = 3 \\times 33$, so the sum is $3(S_{33} - S_3) = 3(561 - 6) = 1665$; also there are $30$ terms with average $\\dfrac{12+99}{2}$, giving $30 \\times 55.5 = 1665$. Forgetting to halve gives $3330$, forgetting the factor $3$ gives $555$, and including $9$ gives $1674$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q021",
+    "topic": "AP in real life",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Harish starts at ₹5,00,000 a year and gets a rise of ₹20,000 every year. Counting the starting year as year 1, in which **year of work** does his salary reach ₹7,00,000?",
+    "image": {
+      "src": "/img/maths08/salary-steps.svg",
+      "alt": "A staircase of yearly salary steps with a figure climbing it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10th year"
+      },
+      {
+        "id": "b",
+        "text": "12th year"
+      },
+      {
+        "id": "c",
+        "text": "11th year"
+      },
+      {
+        "id": "d",
+        "text": "14th year"
+      }
+    ],
+    "answer": "c",
+    "hint": "Solve $500000 + (n-1)\\times 20000 = 700000$.",
+    "explanation": "We need $(n-1) \\times 20000 = 200000$, so $n - 1 = 10$ and $n = 11$. Ten rises are needed, so the salary reaches ₹7,00,000 in the 11th year (after $10$ years of increments). Answering $10$ forgets that year 1 is the starting salary."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q022",
+    "topic": "Sum of natural numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A child lays marbles in rows: $1$ in the first row, $2$ in the second, $3$ in the third, and so on up to $25$ rows. How many marbles are used in all?",
+    "image": {
+      "src": "/img/maths08/marbles-rows.svg",
+      "alt": "Rows of coloured marbles forming a triangle, each row one longer than the last"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "325"
+      },
+      {
+        "id": "b",
+        "text": "650"
+      },
+      {
+        "id": "c",
+        "text": "351"
+      },
+      {
+        "id": "d",
+        "text": "300"
+      }
+    ],
+    "answer": "a",
+    "hint": "Use $S_n = \\dfrac{n(n+1)}{2}$ with $n = 25$.",
+    "explanation": "The total is $1 + 2 + \\dots + 25 = \\dfrac{25 \\times 26}{2} = 325$. Forgetting to halve gives $650$, using $n = 26$ gives $351$, and $300$ comes from guessing $25 \\times 12$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q023",
+    "topic": "Sum of natural numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that show why $1 + 2 + \\dots + n = \\dfrac{n(n+1)}{2}$.",
+    "image": {
+      "src": "/img/maths08/gauss-pairs.svg",
+      "alt": "Two rows of numbers, one forwards and one backwards, paired by columns"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Add the two lines column by column: every pair gives the same total, $n+1$"
+      },
+      {
+        "id": "s1",
+        "text": "Write $S = 1 + 2 + 3 + \\dots + n$"
+      },
+      {
+        "id": "s4",
+        "text": "With $n$ equal pairs, $2S = n(n+1)$"
+      },
+      {
+        "id": "s5",
+        "text": "Divide by $2$ to get $S = \\dfrac{n(n+1)}{2}$"
+      },
+      {
+        "id": "s2",
+        "text": "Below it, write the same sum backwards: $S = n + \\dots + 2 + 1$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Write the sum, then write it backwards underneath.",
+    "explanation": "Write $S = 1 + 2 + \\dots + n$, then write the same sum reversed. Each column adds to $n+1$ and there are $n$ columns, so $2S = n(n+1)$. Finally divide by $2$ to get $S = \\dfrac{n(n+1)}{2}$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q024",
+    "topic": "Visual proof of S_n",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The blue dots show $1 + 2 + 3 + 4 + 5 + 6$ and together with a turned-over copy they fill a $6 \\times 7$ rectangle. Tap a dot of the **second copy** that completes the rectangle.",
+    "image": {
+      "src": "/img/maths08/rect-dots.svg",
+      "alt": "A rectangle of dots with a blue staircase part and an orange part, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "blue1",
+        "x": 36.4,
+        "y": 83.6,
+        "label": "A blue dot"
+      },
+      {
+        "id": "copy",
+        "x": 72.7,
+        "y": 25.5,
+        "label": "An orange dot"
+      },
+      {
+        "id": "blue2",
+        "x": 12.1,
+        "y": 10.9,
+        "label": "Top-left dot"
+      },
+      {
+        "id": "out",
+        "x": 50.0,
+        "y": 95.3,
+        "label": "Below the rectangle"
+      }
+    ],
+    "answer": "copy",
+    "hint": "The staircase in blue is only half the rectangle - which colour makes up the rest?",
+    "explanation": "The rectangle has $6 \\times 7 = 42$ dots, and the blue staircase has $1+2+\\dots+6 = 21$. The other $21$ dots (orange) are a turned-over copy of the staircase, so $2(1+2+\\dots+6) = 6 \\times 7$. Blue dots are the first copy, and the area below the rectangle holds no dots at all."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q025",
+    "topic": "Sum of natural numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "What is the **smallest** $n$ for which $1 + 2 + 3 + \\dots + n$ is greater than $1000$?",
+    "image": {
+      "src": "/img/maths08/rect-dots.svg",
+      "alt": "A rectangle of rows of blue and orange dots"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "44"
+      },
+      {
+        "id": "b",
+        "text": "46"
+      },
+      {
+        "id": "c",
+        "text": "32"
+      },
+      {
+        "id": "d",
+        "text": "45"
+      }
+    ],
+    "answer": "d",
+    "hint": "Test $\\dfrac{n(n+1)}{2}$ for $n$ near $45$.",
+    "explanation": "$S_{44} = \\dfrac{44 \\times 45}{2} = 990$, which is not above $1000$, while $S_{45} = \\dfrac{45 \\times 46}{2} = 1035 > 1000$. So $n = 45$. Answer $44$ falls short by $10$, $46$ is not the smallest, and $32$ comes from solving $n(n+1) > 1000$ and forgetting the halving."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q026",
+    "topic": "Sum using S_n",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find $30 + 31 + 32 + \\dots + 60$.",
+    "image": {
+      "src": "/img/maths08/bars-range.svg",
+      "alt": "A bar split into a part from 1 to 29 and a part from 30 to 60"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1365"
+      },
+      {
+        "id": "b",
+        "text": "1395"
+      },
+      {
+        "id": "c",
+        "text": "1830"
+      },
+      {
+        "id": "d",
+        "text": "2790"
+      }
+    ],
+    "answer": "b",
+    "hint": "Subtract the sum up to $29$ from the sum up to $60$.",
+    "explanation": "$30 + \\dots + 60 = S_{60} - S_{29} = \\dfrac{60 \\times 61}{2} - \\dfrac{29 \\times 30}{2} = 1830 - 435 = 1395$. Subtracting $S_{30}$ instead (off by one) gives $1365$, $1830$ forgets to remove the early terms, and $2790$ is $31 \\times 90$, missing the halving."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q027",
+    "topic": "Identifying a GP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the sequences that are geometric progressions.",
+    "image": {
+      "src": "/img/maths08/compare.svg",
+      "alt": "Two bar charts, one rising steadily and one rising faster and faster"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1, 3, 5, 7, \\dots$"
+      },
+      {
+        "id": "b",
+        "text": "$5, \\dfrac{15}{4}, \\dfrac{45}{16}, \\dots$"
+      },
+      {
+        "id": "c",
+        "text": "$1, -1, 1, -1, \\dots$"
+      },
+      {
+        "id": "d",
+        "text": "$1, 2, 4, 8, \\dots$"
+      }
+    ],
+    "answers": [
+      "b",
+      "c",
+      "d"
+    ],
+    "hint": "Check whether the ratio of every term to the one before is the same.",
+    "explanation": "A GP has a constant ratio. $1, 2, 4, 8$ has ratio $2$. $1, -1, 1, -1$ has ratio $-1$ (negative ratios are allowed). $5, \\dfrac{15}{4}, \\dfrac{45}{16}$ has ratio $\\dfrac{3}{4}$. But $1, 3, 5, 7$ has constant **difference** $2$, not constant ratio ($3/1 \\ne 5/3$), so it is an AP."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q028",
+    "topic": "AP or not",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Consider the sequence of square numbers $1, 4, 9, 16, 25, \\dots$",
+    "image": {
+      "src": "/img/maths08/seq-types.svg",
+      "alt": "Four rows of dot patterns, each showing its first four stages"
+    },
+    "assertion": "The sequence of square numbers is not an arithmetic progression.",
+    "reason": "The differences between consecutive square numbers $3, 5, 7, 9, \\dots$ are not constant.",
+    "answer": "a",
+    "hint": "Find the differences between consecutive terms.",
+    "explanation": "The differences are $3, 5, 7, 9, \\dots$, which are not all equal, so the square numbers are **not** an AP. This is exactly why the reason explains the assertion. (They are not a GP either, since the ratios $4, 2.25, \\dots$ differ.)"
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q029",
+    "topic": "Growing GP pattern",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Each stage of the green pattern has **twice** as many squares as the stage before. Tap the stage that has exactly $12$ squares.",
+    "image": {
+      "src": "/img/maths08/gp-squares.svg",
+      "alt": "Four panels of green squares labelled Stage 1 to Stage 4, with numbered markers below"
+    },
+    "spots": [
+      {
+        "id": "g1",
+        "x": 13.5,
+        "y": 87.8,
+        "label": "Stage 1"
+      },
+      {
+        "id": "g2",
+        "x": 37.5,
+        "y": 87.8,
+        "label": "Stage 2"
+      },
+      {
+        "id": "g3",
+        "x": 61.5,
+        "y": 87.8,
+        "label": "Stage 3"
+      },
+      {
+        "id": "g4",
+        "x": 85.6,
+        "y": 87.8,
+        "label": "Stage 4"
+      }
+    ],
+    "answer": "g3",
+    "hint": "Count the squares in each panel, or double $3 \\to 6 \\to \\dots$",
+    "explanation": "Stage 1 has $3$ squares and each stage doubles: $3, 6, 12, 24$. So $12$ squares are in Stage 3 ($3 \\times 2^2 = 12$). Stage 2 shows $6$, which is only one doubling, and Stage 4 shows $24$, which is one doubling too many."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q030",
+    "topic": "nth term of a GP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A GP has common ratio $2$ and its **8th term is $192$**. What is its 12th term?",
+    "image": {
+      "src": "/img/maths08/chain-gp.svg",
+      "alt": "Five cards linked by arrows, each arrow multiplying by two"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3072"
+      },
+      {
+        "id": "b",
+        "text": "384"
+      },
+      {
+        "id": "c",
+        "text": "2304"
+      },
+      {
+        "id": "d",
+        "text": "768"
+      }
+    ],
+    "answer": "a",
+    "hint": "Going from the 8th to the 12th term means multiplying by $r$ four times.",
+    "explanation": "$t_{12} = t_8 \\times r^{4} = 192 \\times 16 = 3072$. (Check: $a = 192 \\div 2^7 = 1.5$ and $1.5 \\times 2^{11} = 3072$.) Using $192 \\times 2 = 384$ multiplies once, $192 \\times 12 = 2304$ multiplies by the term number, and $192 \\times 4 = 768$ uses $4$ instead of $2^4$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q031",
+    "topic": "Which term of a GP",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that find which term of the GP $2, 6, 18, \\dots$ equals $4374$.",
+    "image": {
+      "src": "/img/maths08/chain-4374.svg",
+      "alt": "A list of numbers 2, 6, 18 and so on up to 4374 with arrows"
+    },
+    "items": [
+      {
+        "id": "g1",
+        "text": "Read off $a = 2$ and the ratio $r = 3$"
+      },
+      {
+        "id": "g2",
+        "text": "Write $2 \\times 3^{n-1} = 4374$"
+      },
+      {
+        "id": "g3",
+        "text": "Divide by $2$: $3^{n-1} = 2187$"
+      },
+      {
+        "id": "g4",
+        "text": "Write $2187 = 3^7$, so $n - 1 = 7$"
+      },
+      {
+        "id": "g5",
+        "text": "Conclude $n = 8$"
+      }
+    ],
+    "answer": [
+      "g1",
+      "g2",
+      "g3",
+      "g4",
+      "g5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "First find $a$ and $r$, then use $t_n = ar^{n-1}$.",
+    "explanation": "Here $a = 2$ and $r = 6 \\div 2 = 3$. Then $2 \\times 3^{n-1} = 4374$, so $3^{n-1} = 2187 = 3^7$. Equal powers of $3$ give $n - 1 = 7$, so $n = 8$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q032",
+    "topic": "Recursive rule",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A sequence is given by $t_1 = 2$ and $t_{n+1} = 3t_n - 2$. Which term of the sequence is $730$?",
+    "image": {
+      "src": "/img/maths08/chain-730.svg",
+      "alt": "Cards linked by arrows, each arrow applying the same rule"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6th"
+      },
+      {
+        "id": "b",
+        "text": "8th"
+      },
+      {
+        "id": "c",
+        "text": "7th"
+      },
+      {
+        "id": "d",
+        "text": "9th"
+      }
+    ],
+    "answer": "c",
+    "hint": "Compute $t_2, t_3, \\dots$ - or notice that $t_n - 1$ is a GP.",
+    "explanation": "$t_2 = 4$, $t_3 = 10$, $t_4 = 28$, $t_5 = 82$, $t_6 = 244$, $t_7 = 730$. So $730$ is the **7th** term. The shortcut: $t_n - 1 = 1, 3, 9, \\dots$ is a GP with ratio $3$, and $729 = 3^6$ means $n - 1 = 6$. Stopping at the exponent $6$ gives the wrong answer $6$th."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q033",
+    "topic": "Graph of a GP",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "On this graph the points are (stage number, squares) for a pattern that doubles each stage: $3, 6, 12, 24, 48$. Tap the point where the number of squares is $24$.",
+    "image": {
+      "src": "/img/maths08/gp-graph.svg",
+      "alt": "A graph with numbered axes and five points rising faster and faster, with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "q1",
+        "x": 26.0,
+        "y": 82.0,
+        "label": "Stage 1"
+      },
+      {
+        "id": "q2",
+        "x": 40.0,
+        "y": 77.3,
+        "label": "Stage 2"
+      },
+      {
+        "id": "q3",
+        "x": 54.0,
+        "y": 68.0,
+        "label": "Stage 3"
+      },
+      {
+        "id": "q4",
+        "x": 68.0,
+        "y": 49.3,
+        "label": "Stage 4"
+      },
+      {
+        "id": "q5",
+        "x": 82.0,
+        "y": 12.0,
+        "label": "Stage 5"
+      }
+    ],
+    "answer": "q4",
+    "hint": "Find $24$ on the vertical axis.",
+    "explanation": "Reading across from $y = 24$ we reach the point $(4, 24)$. Notice these points do **not** lie on a straight line, unlike an AP: the rise from $24$ to $48$ is much bigger than from $3$ to $6$, because a GP multiplies instead of adding."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q034",
+    "topic": "Graphs of AP and GP",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Plot (term number, term) for each sequence.",
+    "image": {
+      "src": "/img/maths08/compare.svg",
+      "alt": "Two bar charts, one rising steadily and one rising faster and faster"
+    },
+    "assertion": "The points $(n, t_n)$ of an arithmetic progression lie on a straight line.",
+    "reason": "The points $(n, t_n)$ of every geometric progression also lie on a straight line.",
+    "answer": "c",
+    "hint": "Which sequence adds a fixed amount, and which multiplies?",
+    "explanation": "For an AP, equal steps in $n$ give equal steps in the term, so the points lie on a straight line. A GP multiplies each time, so the points curve upward (or downward) and are **not** on a straight line. So the assertion is true and the reason is false."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q035",
+    "topic": "Types of progression",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each list with its type and constant.",
+    "image": {
+      "src": "/img/maths08/compare.svg",
+      "alt": "Two bar charts, one rising steadily and one rising faster and faster"
+    },
+    "left": [
+      {
+        "id": "m1",
+        "text": "$5, 8, 11, 14, \\dots$"
+      },
+      {
+        "id": "m2",
+        "text": "$3, 6, 12, 24, \\dots$"
+      },
+      {
+        "id": "m3",
+        "text": "$16, 8, 4, 2, \\dots$"
+      },
+      {
+        "id": "m4",
+        "text": "$11, 7, 3, -1, \\dots$"
+      }
+    ],
+    "right": [
+      {
+        "id": "n1",
+        "text": "GP with $r = \\dfrac{1}{2}$"
+      },
+      {
+        "id": "n2",
+        "text": "AP with $d = -4$"
+      },
+      {
+        "id": "n3",
+        "text": "AP with $d = 3$"
+      },
+      {
+        "id": "n4",
+        "text": "GP with $r = 2$"
+      }
+    ],
+    "pairs": {
+      "m1": "n3",
+      "m2": "n4",
+      "m3": "n1",
+      "m4": "n2"
+    },
+    "hint": "Check whether the terms differ by a constant (AP) or have a constant ratio (GP).",
+    "explanation": "$5, 8, 11, 14$ adds $3$ each time: AP with $d = 3$. $3, 6, 12, 24$ doubles: GP with $r = 2$. $16, 8, 4, 2$ halves: GP with $r = \\dfrac{1}{2}$. $11, 7, 3, -1$ subtracts $4$: AP with $d = -4$. Take care: $16, 8, 4, 2$ falls, but it is a GP, not an AP."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q036",
+    "topic": "AP and GP together",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Consider the sequence $2, 2, 2, 2, \\dots$",
+    "image": {
+      "src": "/img/maths08/const-chips.svg",
+      "alt": "Cards all showing the same number, linked by arrows"
+    },
+    "assertion": "The sequence 2, 2, 2, 2, ... is both an AP and a GP.",
+    "reason": "Its common difference is 0 and its common ratio is 1.",
+    "answer": "a",
+    "hint": "Find the common difference and the common ratio.",
+    "explanation": "The difference between consecutive terms is $0$ and the ratio is $2 \\div 2 = 1$, both constant. So the list is an AP with $d = 0$ and a GP with $r = 1$, and the reason explains why the assertion holds."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q037",
+    "topic": "Sierpinski triangle",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the Sierpinski triangle, each blue triangle is replaced by three smaller ones at the next stage. Tap the stage that has **9** blue triangles.",
+    "image": {
+      "src": "/img/maths08/sierpinski.svg",
+      "alt": "Four stages of a blue triangle with holes, labelled Stage 0 to 3, with numbered markers below"
+    },
+    "spots": [
+      {
+        "id": "s0",
+        "x": 13.8,
+        "y": 90.5,
+        "label": "Stage 0"
+      },
+      {
+        "id": "s1",
+        "x": 37.9,
+        "y": 90.5,
+        "label": "Stage 1"
+      },
+      {
+        "id": "s2",
+        "x": 62.0,
+        "y": 90.5,
+        "label": "Stage 2"
+      },
+      {
+        "id": "s3",
+        "x": 86.1,
+        "y": 90.5,
+        "label": "Stage 3"
+      }
+    ],
+    "answer": "s2",
+    "hint": "The counts triple each time: $1, 3, 9, 27$.",
+    "explanation": "The number of blue triangles at Stage $n$ is $3^n$, so $9 = 3^2$ means Stage 2. Stage 1 has $3$ triangles and Stage 3 has $27$. Beware of counting the holes or reading the stage number as the count."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q038",
+    "topic": "Fractals",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "order",
+    "prompt": "Arrange the steps for making the next stage of the Sierpinski triangle.",
+    "image": {
+      "src": "/img/maths08/sierpinski.svg",
+      "alt": "Four stages of a blue triangle with holes cut again and again"
+    },
+    "items": [
+      {
+        "id": "p3",
+        "text": "Remove the central triangle"
+      },
+      {
+        "id": "p1",
+        "text": "Start with an equilateral triangle"
+      },
+      {
+        "id": "p4",
+        "text": "Repeat the same steps on each of the three remaining triangles"
+      },
+      {
+        "id": "p2",
+        "text": "Join the midpoints of the three sides to make 4 smaller triangles"
+      }
+    ],
+    "answer": [
+      "p1",
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Start from the whole triangle and keep dividing.",
+    "explanation": "Begin with an equilateral triangle, join the midpoints of its sides to make four smaller triangles, remove the central one, then repeat the same process on every triangle that is left. Repeating forever gives the **fractal**."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q039",
+    "topic": "Fractals",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Start with a Sierpinski triangle whose Stage 0 area is 1 square unit.",
+    "image": {
+      "src": "/img/maths08/sierpinski.svg",
+      "alt": "Four stages of a blue triangle with holes cut again and again"
+    },
+    "assertion": "As the number of stages grows, the black area gets closer and closer to 0.",
+    "reason": "Each stage keeps $\\dfrac{3}{4}$ of the area of the previous stage, a common ratio less than 1.",
+    "answer": "a",
+    "hint": "How much of the area is left after one stage? What happens if you multiply by that fraction again and again?",
+    "explanation": "At every stage one quarter of the area is removed, so $\\dfrac{3}{4}$ remains: the areas are $1, \\dfrac{3}{4}, \\dfrac{9}{16}, \\dots$, a GP with ratio $\\dfrac{3}{4}$. Since this ratio is below $1$, repeated multiplication shrinks the area towards $0$, so R explains A."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q040",
+    "topic": "Sierpinski carpet",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In the Sierpinski carpet each red square is cut into $9$ equal squares and the middle one is removed. Stage 0 has $1$ square, Stage 1 has $8$. How many red squares are there in **Stage 3**?",
+    "image": {
+      "src": "/img/maths08/carpet.svg",
+      "alt": "Three stages of a red square carpet with square holes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "24"
+      },
+      {
+        "id": "b",
+        "text": "512"
+      },
+      {
+        "id": "c",
+        "text": "729"
+      },
+      {
+        "id": "d",
+        "text": "64"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each stage multiplies the count by $8$.",
+    "explanation": "The count is a GP with ratio $8$: $1, 8, 64, 512$, so Stage 3 has $8^3 = 512$. $8 \\times 3 = 24$ adds instead of using powers, $9^3 = 729$ uses the number of pieces before removing the centre, and $64$ is Stage 2."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q041",
+    "topic": "Bouncing ball GP",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A ball is dropped from $24$ ft and each bounce reaches $\\dfrac{3}{4}$ of the previous height. Tap the bar that shows the height after the **3rd bounce**.",
+    "image": {
+      "src": "/img/maths08/bounce-bars.svg",
+      "alt": "A bar chart of decreasing heights with numbered axes and numbered markers above the bars"
+    },
+    "spots": [
+      {
+        "id": "b0",
+        "x": 16.7,
+        "y": 23.7,
+        "label": "Bounce 0"
+      },
+      {
+        "id": "b1",
+        "x": 27.2,
+        "y": 37.2,
+        "label": "Bounce 1"
+      },
+      {
+        "id": "b2",
+        "x": 37.8,
+        "y": 47.3,
+        "label": "Bounce 2"
+      },
+      {
+        "id": "b3",
+        "x": 48.3,
+        "y": 54.9,
+        "label": "Bounce 3"
+      },
+      {
+        "id": "b4",
+        "x": 58.9,
+        "y": 60.6,
+        "label": "Bounce 4"
+      },
+      {
+        "id": "b5",
+        "x": 69.4,
+        "y": 64.9,
+        "label": "Bounce 5"
+      },
+      {
+        "id": "b6",
+        "x": 80.0,
+        "y": 68.1,
+        "label": "Bounce 6"
+      },
+      {
+        "id": "b7",
+        "x": 90.6,
+        "y": 70.5,
+        "label": "Bounce 7"
+      }
+    ],
+    "answer": "b3",
+    "hint": "Bar 0 is the drop. Multiply by $\\dfrac{3}{4}$ three times.",
+    "explanation": "After the 3rd bounce the height is $24 \\times \\left(\\dfrac{3}{4}\\right)^3 = 24 \\times \\dfrac{27}{64} = 10.125$ ft, which is the fourth bar from the left because bar $0$ is the drop. Tapping the bar labelled $2$ (height $13.5$ ft) is an off-by-one slip."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q042",
+    "topic": "GP in real life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A ball is dropped from $80$ m. After each bounce it rises to $60\\%$ of its previous height. How high does it rise after the **5th bounce**? (in metres)",
+    "image": {
+      "src": "/img/maths08/bounce-80.svg",
+      "alt": "A ball dropped from a height, bouncing lower each time"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10.368"
+      },
+      {
+        "id": "b",
+        "text": "3.73248"
+      },
+      {
+        "id": "c",
+        "text": "240"
+      },
+      {
+        "id": "d",
+        "text": "6.2208"
+      }
+    ],
+    "answer": "d",
+    "hint": "Multiply by $0.6$ once for each bounce: $80 \\times 0.6^5$.",
+    "explanation": "The heights are $48, 28.8, 17.28, 10.368, 6.2208$, so after the 5th bounce it rises $80 \\times 0.6^5 = 6.2208$ m. $10.368$ is the 4th bounce, $3.73248$ is the 6th, and $240$ comes from the mistake $80 \\times 0.6 \\times 5$ (multiplying by the bounce number)."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q043",
+    "topic": "GP in real life",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The same ball falls from $80$ m and rebounds to $60\\%$ of its previous height each time. What total vertical distance has it travelled by the time it **hits the ground for the 6th time**? (in metres)",
+    "image": {
+      "src": "/img/maths08/bounce-80.svg",
+      "alt": "A ball dropped from a height, bouncing lower each time"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "190.6688"
+      },
+      {
+        "id": "b",
+        "text": "221.3376"
+      },
+      {
+        "id": "c",
+        "text": "301.3376"
+      },
+      {
+        "id": "d",
+        "text": "288.896"
+      }
+    ],
+    "answer": "c",
+    "hint": "After the first fall of $80$ m, every bounce is an upward trip plus a matching downward trip.",
+    "explanation": "The first fall is $80$ m. The $5$ bounces rise to $48, 28.8, 17.28, 10.368, 6.2208$ (sum $110.6688$) and each is travelled up **and** down, so the total is $80 + 2 \\times 110.6688 = 301.3376$ m. Counting each bounce once gives $190.6688$, forgetting the first fall gives $221.3376$, and using only $4$ bounces gives $288.896$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q044",
+    "topic": "Finding a and d",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The 11th term of an AP is $38$ and its 16th term is $73$. What is the **31st term**?",
+    "image": {
+      "src": "/img/maths08/clues-31.svg",
+      "alt": "A strip of terms with the 11th, 16th and 31st positions flagged"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "178"
+      },
+      {
+        "id": "b",
+        "text": "738"
+      },
+      {
+        "id": "c",
+        "text": "185"
+      },
+      {
+        "id": "d",
+        "text": "171"
+      }
+    ],
+    "answer": "a",
+    "hint": "The difference of $5$ steps is $73 - 38$.",
+    "explanation": "From $t_{16} - t_{11} = 5d = 35$ we get $d = 7$, so $t_{31} = t_{11} + 20d = 38 + 140 = 178$ (and $a = -32$). Taking $d = 35$ gives $738$, $38 + 21 \\times 7 = 185$ counts one step too many, and $38 + 19 \\times 7 = 171$ one too few."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q045",
+    "topic": "Counting terms of an AP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "How many multiples of $4$ lie **between $10$ and $250$**?",
+    "image": {
+      "src": "/img/maths08/mult4.svg",
+      "alt": "A number line with ticks at every multiple of 4 between two red boundary lines"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "59"
+      },
+      {
+        "id": "b",
+        "text": "61"
+      },
+      {
+        "id": "c",
+        "text": "62"
+      },
+      {
+        "id": "d",
+        "text": "60"
+      }
+    ],
+    "answer": "d",
+    "hint": "The smallest is $12$ and the largest is $248$. Use $a + (n-1)d$.",
+    "explanation": "The multiples form the AP $12, 16, \\dots, 248$ with $d = 4$, so $12 + (n-1) \\times 4 = 248$ gives $n - 1 = 59$ and $n = 60$. Forgetting the $+1$ gives $59$, and dividing $250 \\div 4 \\approx 62$ counts multiples of $4$ below $10$ as well."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q046",
+    "topic": "GP in real life",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A culture has $30$ bacteria at the start, and the number **doubles every hour**. How many bacteria are present at the end of the **4th hour**?",
+    "image": {
+      "src": "/img/maths08/petri.svg",
+      "alt": "Petri dishes with more and more bacteria dots after each hour"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "120"
+      },
+      {
+        "id": "b",
+        "text": "480"
+      },
+      {
+        "id": "c",
+        "text": "240"
+      },
+      {
+        "id": "d",
+        "text": "960"
+      }
+    ],
+    "answer": "b",
+    "hint": "Multiply by $2$ once for each hour: $30 \\times 2^4$.",
+    "explanation": "After $n$ hours the count is $30 \\times 2^n$, so after $4$ hours it is $30 \\times 16 = 480$. Adding instead of multiplying ($30 \\times 4 = 120$) treats it as an AP, $30 \\times 2^3 = 240$ is the 3rd hour, and $30 \\times 2^5 = 960$ is the 5th."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q047",
+    "topic": "GP from conditions",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "The sum of the first two terms of a GP is $-4$, and its fifth term is $4$ times its third term. Select **all** the GPs that fit.",
+    "image": {
+      "src": "/img/maths08/chain-gp-general.svg",
+      "alt": "Five cards a, ar, ar squared, ar cubed and ar to the fourth linked by arrows"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-\\dfrac{4}{3},\\ -\\dfrac{8}{3},\\ -\\dfrac{16}{3},\\ \\dots$"
+      },
+      {
+        "id": "b",
+        "text": "$2,\\ -6,\\ 18,\\ \\dots$"
+      },
+      {
+        "id": "c",
+        "text": "$4,\\ -8,\\ 16,\\ \\dots$"
+      },
+      {
+        "id": "d",
+        "text": "$-4,\\ 0,\\ 0,\\ \\dots$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c"
+    ],
+    "hint": "$t_5 = 4t_3$ gives $r^2 = 4$, so $r = 2$ or $-2$.",
+    "explanation": "From $ar^4 = 4ar^2$ we get $r^2 = 4$, so $r = \\pm 2$. If $r = -2$ then $a(1 + r) = -a = -4$, so $a = 4$: $4, -8, 16, \\dots$. If $r = 2$ then $3a = -4$ and $a = -\\dfrac{4}{3}$: $-\\dfrac{4}{3}, -\\dfrac{8}{3}, \\dots$. The list $2, -6, 18$ has sum $-4$ but ratio $-3$, so $t_5 \\ne 4t_3$."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q048",
+    "topic": "Consecutive sums",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the runs of consecutive natural numbers whose sum is exactly $100$.",
+    "image": {
+      "src": "/img/maths08/run.svg",
+      "alt": "A row of consecutive number cards with hidden values"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10 to 17"
+      },
+      {
+        "id": "b",
+        "text": "18 to 22"
+      },
+      {
+        "id": "c",
+        "text": "19 to 23"
+      },
+      {
+        "id": "d",
+        "text": "9 to 16"
+      }
+    ],
+    "answers": [
+      "b",
+      "d"
+    ],
+    "hint": "Use $S_b - S_{a-1}$ for a run from $a$ to $b$.",
+    "explanation": "$9 + \\dots + 16 = S_{16} - S_8 = 136 - 36 = 100$ and $18 + \\dots + 22 = 5 \\times 20 = 100$. But $10 + \\dots + 17 = 108$ and $19 + \\dots + 23 = 105$. A run of $8$ numbers starting at $9$ and a run of $5$ numbers starting at $18$ are the two ways (apart from $100$ alone)."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q049",
+    "topic": "Progressions in real life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered scene with the rule that describes its numbers.",
+    "image": {
+      "src": "/img/maths08/situations.svg",
+      "alt": "Four everyday scenes with numbered markers: a taxi, a bouncing ball, a dish of bacteria and a staircase",
+      "markers": [
+        {
+          "x": 6.2,
+          "y": 8.6,
+          "label": "1"
+        },
+        {
+          "x": 55.2,
+          "y": 8.6,
+          "label": "2"
+        },
+        {
+          "x": 6.2,
+          "y": 57.3,
+          "label": "3"
+        },
+        {
+          "x": 55.2,
+          "y": 57.3,
+          "label": "4"
+        }
+      ]
+    },
+    "left": [
+      {
+        "id": "pic1",
+        "text": "Picture 1"
+      },
+      {
+        "id": "pic2",
+        "text": "Picture 2"
+      },
+      {
+        "id": "pic3",
+        "text": "Picture 3"
+      },
+      {
+        "id": "pic4",
+        "text": "Picture 4"
+      }
+    ],
+    "right": [
+      {
+        "id": "u1",
+        "text": "Each term is the previous term plus a fixed yearly raise in rupees"
+      },
+      {
+        "id": "u2",
+        "text": "Each term is the previous one multiplied by 2"
+      },
+      {
+        "id": "u3",
+        "text": "Each term is the previous one multiplied by a fraction less than 1"
+      },
+      {
+        "id": "u4",
+        "text": "Each term is the previous one plus a fixed fare for every extra km"
+      }
+    ],
+    "pairs": {
+      "pic1": "u4",
+      "pic2": "u3",
+      "pic3": "u2",
+      "pic4": "u1"
+    },
+    "hint": "Does the quantity change by adding a fixed amount, or by multiplying by a fixed factor?",
+    "explanation": "Picture 1: taxi fare is ₹200 plus ₹40 per km, an **AP** with $d = 40$. Picture 2: a ball that rises to a fixed fraction of its previous height gives a **GP** with ratio less than 1. Picture 3: bacteria doubling every hour is a **GP** with $r = 2$. Picture 4: steps of salary rising by an equal rupee raise each year is an **AP**."
+  },
+  {
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Predicting What Comes Next: Exploring Sequences and Progressions",
+    "chapterNo": 8,
+    "id": "ma08-q050",
+    "topic": "Comparing terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Find the **10th term** of each sequence and arrange them from smallest to largest.",
+    "image": {
+      "src": "/img/maths08/compare.svg",
+      "alt": "Two bar charts, one rising steadily and one rising faster and faster"
+    },
+    "items": [
+      {
+        "id": "ta",
+        "text": "$t_n = 3n - 4$"
+      },
+      {
+        "id": "tb",
+        "text": "$t_n = 2 - 5n$"
+      },
+      {
+        "id": "tc",
+        "text": "$t_n = n^2 - 2n + 3$"
+      },
+      {
+        "id": "td",
+        "text": "the GP $3, 6, 12, \\dots$"
+      }
+    ],
+    "answer": [
+      "tb",
+      "ta",
+      "tc",
+      "td"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Substitute $n = 10$ carefully; for the GP use $ar^{n-1}$.",
+    "explanation": "(a) $3(10) - 4 = 26$. (b) $2 - 5(10) = -48$. (c) $10^2 - 2(10) + 3 = 83$. (d) GP $3, 6, 12, \\dots$ has $t_{10} = 3 \\times 2^9 = 1536$. In order: $-48 < 26 < 83 < 1536$. A common slip is $3 \\times 2^{10} = 3072$ for (d), which would not change the order but is wrong."
+  }
+]

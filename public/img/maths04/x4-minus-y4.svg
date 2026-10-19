@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img">
+<title>A square of side x squared with a square of side y squared cut from its corner</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.cut{animation:ct 3s ease-in-out infinite}@keyframes ct{0%,100%{transform:translate(0,0)}50%{transform:translate(10px,10px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="120" y="50" width="200" height="200" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect class="cut" x="240" y="170" width="80" height="80" fill="#FFF9EE" stroke="#E5484D" stroke-width="2.5" stroke-dasharray="7 5"/>
+<path d="M128 34L122 38L128 42M122 38H318M312 34L318 38L312 42" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="220" y="30" font-size="17" text-anchor="middle">x²</text>
+<path d="M330 178L334 172L338 178M334 172V248M330 242L334 248L338 242" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="342" y="215" font-size="17" text-anchor="start">y²</text>
+<path d="M102 58L106 52L110 58M106 52V248M102 242L106 248L110 242" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="98" y="155" font-size="17" text-anchor="end">x²</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img">
+<title>A square of side a plus b cut into four pieces</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.out{animation:mv 3s linear infinite}@keyframes mv{to{stroke-dashoffset:-36}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="120" y="70" width="140" height="140" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="260" y="70" width="60" height="140" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="120" y="210" width="140" height="60" fill="#8FD19E" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="260" y="210" width="60" height="60" fill="#C9A7E8" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<rect class="out" x="120" y="70" width="200" height="200" fill="none" stroke="#0B93D4" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M128 54L122 58L128 62M122 58H258M252 54L258 58L252 62" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="190" y="50" font-size="16" text-anchor="middle">a</text>
+<path d="M268 54L262 58L268 62M262 58H318M312 54L318 58L312 62" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="290" y="50" font-size="16" text-anchor="middle">b</text>
+<path d="M104 78L108 72L112 78M108 72V208M104 202L108 208L112 202" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="100" y="145" font-size="16" text-anchor="end">a</text>
+<path d="M104 218L108 212L112 218M108 212V268M104 262L108 268L112 262" stroke="#E5484D" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t v" x="100" y="245" font-size="16" text-anchor="end">b</text>
+<text class="t" x="220" y="26" font-size="14" text-anchor="middle">side (a + b)</text>
+</svg>

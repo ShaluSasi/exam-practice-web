@@ -1,0 +1,2161 @@
+[
+  {
+    "id": "ma12-q001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Tiling with parallelograms",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A grid of long wooden sticks is pinned at every crossing. The bottom stick is held still and the top is pushed sideways, as in the picture. Which statement describes the cells of the grid afterwards?",
+    "image": {
+      "src": "/img/maths12/tile-shear.svg",
+      "alt": "A grid of pinned sticks that slants as it is pushed sideways"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Every cell becomes a trapezium, because only one pair of sides stays parallel"
+      },
+      {
+        "id": "b",
+        "text": "Every cell is still a **parallelogram**: opposite sides stay parallel, but the angles are no longer $90^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "Every cell becomes a kite, because the two sets of sticks now meet at an acute angle"
+      },
+      {
+        "id": "d",
+        "text": "Gaps open up between the cells, so the grid no longer covers the plane"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each set of sticks stays parallel to itself. What does that say about opposite sides of a cell?",
+    "explanation": "Both sets of sticks keep their directions, so each pair of opposite sides of a cell remains parallel: the rectangles become **parallelograms**. The cells still fit together without gaps or overlaps. This shows that copies of any fixed parallelogram tile the plane."
+  },
+  {
+    "id": "ma12-q002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Defining a quadrilateral",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "By the definition of a quadrilateral, no three of the four vertices may lie on one line. In the picture, which figure breaks this rule because **three of its four points are collinear**?",
+    "image": {
+      "src": "/img/maths12/shapes-gallery.svg",
+      "alt": "Four figures labelled P, Q, R and S"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Figure P"
+      },
+      {
+        "id": "b",
+        "text": "Figure Q"
+      },
+      {
+        "id": "c",
+        "text": "Figure R"
+      },
+      {
+        "id": "d",
+        "text": "Figure S"
+      }
+    ],
+    "answer": "d",
+    "hint": "Look for a vertex sitting on a straight side, so that two sides lie along one line.",
+    "explanation": "In figure **S** the fourth point sits on a straight side, so two adjacent sides lie along the same line and the figure is only a triangle. Q crosses itself (it is a self-intersecting 4-gon) and R has a dent (it is non-convex), but in both of those no three vertices are collinear."
+  },
+  {
+    "id": "ma12-q003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Convex and non-convex",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **non-convex** quadrilateral: the one with a dent, where one internal angle is more than $180^\\circ$.",
+    "image": {
+      "src": "/img/maths12/shapes-gallery.svg",
+      "alt": "Four figures labelled P, Q, R and S with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "P",
+        "x": 28,
+        "y": 30,
+        "label": "Figure P"
+      },
+      {
+        "id": "Q",
+        "x": 70,
+        "y": 29.2,
+        "label": "Figure Q"
+      },
+      {
+        "id": "R",
+        "x": 22,
+        "y": 77.7,
+        "label": "Figure R"
+      },
+      {
+        "id": "S",
+        "x": 72.5,
+        "y": 82.7,
+        "label": "Figure S"
+      }
+    ],
+    "answer": "R",
+    "hint": "A convex shape has no dent: all its internal angles are less than $180^\\circ$.",
+    "explanation": "A quadrilateral is **convex** when all internal angles are less than $180^\\circ$. Figure R looks as if a bite has been taken out of a triangle, so the angle at the dent is more than $180^\\circ$. P is convex, Q crosses itself (it is not an ordinary quadrilateral) and S is really a triangle."
+  },
+  {
+    "id": "ma12-q004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Convexity and diagonals",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the quadrilateral shown, the two diagonals drawn as solid lines **do not meet** (they would only meet if one were extended). What can you conclude?",
+    "image": {
+      "src": "/img/maths12/convex-test.svg",
+      "alt": "A four-sided figure with its two diagonals drawn"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is convex, because the diagonals are drawn inside the figure"
+      },
+      {
+        "id": "b",
+        "text": "It is a parallelogram, because the diagonals are not equal"
+      },
+      {
+        "id": "c",
+        "text": "It is non-convex: one internal angle is more than $180^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "It is self-intersecting, because the diagonals do not cross"
+      }
+    ],
+    "answer": "c",
+    "hint": "For a convex quadrilateral the diagonals always cross each other.",
+    "explanation": "The diagonals of a **convex** quadrilateral always intersect; if they do not, the quadrilateral is **non-convex** and has a reflex angle ($>180^\\circ$) at the dent. The figure has no crossing sides, so it is not self-intersecting, and a parallelogram is always convex (its diagonals bisect each other)."
+  },
+  {
+    "id": "ma12-q005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Opposite angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In quadrilateral ABCD, tap the internal angle that is **opposite** to $\\angle A$.",
+    "image": {
+      "src": "/img/maths12/quad-parts.svg",
+      "alt": "A four-sided figure ABCD with its diagonals and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 23.3,
+        "y": 35.5,
+        "label": "Angle at A"
+      },
+      {
+        "id": "b",
+        "x": 71.7,
+        "y": 29.8,
+        "label": "Angle at B"
+      },
+      {
+        "id": "c",
+        "x": 78.1,
+        "y": 66.1,
+        "label": "Angle at C"
+      },
+      {
+        "id": "d",
+        "x": 31.8,
+        "y": 71.8,
+        "label": "Angle at D"
+      }
+    ],
+    "answer": "c",
+    "hint": "Opposite angles are at vertices that are not neighbours, joined by a diagonal.",
+    "explanation": "The angles adjacent to $\\angle A$ are $\\angle B$ and $\\angle D$ (they share a side with it). The angle opposite to $\\angle A$ is the one at the vertex joined to A by a diagonal, namely $\\angle C$."
+  },
+  {
+    "id": "ma12-q006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Diagonals",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **diagonal BD** of quadrilateral ABCD.",
+    "image": {
+      "src": "/img/maths12/quad-parts.svg",
+      "alt": "A four-sided figure ABCD with its diagonals and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "ac",
+        "x": 29.3,
+        "y": 36.5,
+        "label": "Diagonal AC"
+      },
+      {
+        "id": "bd",
+        "x": 66.2,
+        "y": 32.1,
+        "label": "Diagonal BD"
+      },
+      {
+        "id": "ab",
+        "x": 46.3,
+        "y": 22.1,
+        "label": "Side AB"
+      },
+      {
+        "id": "cd",
+        "x": 56.3,
+        "y": 79.8,
+        "label": "Side CD"
+      }
+    ],
+    "answer": "bd",
+    "hint": "A diagonal joins two vertices that are not adjacent.",
+    "explanation": "A **diagonal** joins two non-adjacent vertices, so the diagonals of ABCD are AC and BD. Sides such as AB and CD join adjacent vertices, and AC is the other diagonal, not BD."
+  },
+  {
+    "id": "ma12-q007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Angles of a parallelogram",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In parallelogram ABCD, $\\angle A = 65^\\circ$. Find $\\angle B$.",
+    "image": {
+      "src": "/img/maths12/para-65.svg",
+      "alt": "A parallelogram ABCD with one angle marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$65^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$295^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$115^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$25^\\circ$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Adjacent angles of a parallelogram lie between the same pair of parallel lines.",
+    "explanation": "$AD \\parallel BC$ with transversal AB, so $\\angle A + \\angle B = 180^\\circ$ (interior angles on the same side). Hence $\\angle B = 180^\\circ - 65^\\circ = 115^\\circ$. Traps: $65^\\circ$ is the **opposite** angle, not the adjacent one; $295^\\circ$ comes from using $360^\\circ - 65^\\circ$; $25^\\circ$ uses $90^\\circ$ instead of $180^\\circ$."
+  },
+  {
+    "id": "ma12-q008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Angles of a parallelogram",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In parallelogram ABCD, $\\angle A = (3x + 10)^\\circ$ and $\\angle B = (2x + 20)^\\circ$. Find $\\angle C$.",
+    "image": {
+      "src": "/img/maths12/para-labels.svg",
+      "alt": "A parallelogram ABCD with arrow marks on parallel sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$100^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$80^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$208^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$30^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Adjacent angles add up to $180^\\circ$; opposite angles are equal.",
+    "explanation": "Adjacent angles are supplementary: $(3x+10) + (2x+20) = 180$, so $5x + 30 = 180$ and $x = 30$. Then $\\angle A = 100^\\circ$, $\\angle B = 80^\\circ$, and $\\angle C = \\angle A = 100^\\circ$ (opposite angles). Traps: $80^\\circ$ is $\\angle B$; $30$ is just $x$; $208^\\circ$ comes from wrongly setting the sum of adjacent angles to $360^\\circ$."
+  },
+  {
+    "id": "ma12-q009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Opposite angles of a parallelogram",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "ABCD is a parallelogram. Tap the angle that is **equal to $\\angle A$**.",
+    "image": {
+      "src": "/img/maths12/para-labels.svg",
+      "alt": "A parallelogram ABCD with arrow marks on parallel sides and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 23.6,
+        "y": 71,
+        "label": "Angle at A"
+      },
+      {
+        "id": "b",
+        "x": 62.4,
+        "y": 65.6,
+        "label": "Angle at B"
+      },
+      {
+        "id": "c",
+        "x": 77.6,
+        "y": 34.7,
+        "label": "Angle at C"
+      },
+      {
+        "id": "d",
+        "x": 38.8,
+        "y": 40.2,
+        "label": "Angle at D"
+      }
+    ],
+    "answer": "c",
+    "hint": "In a parallelogram, which pair of angles is equal: opposite or adjacent?",
+    "explanation": "The **opposite angles** of a parallelogram are equal, so $\\angle C = \\angle A$. The adjacent angles $\\angle B$ and $\\angle D$ are each $180^\\circ - \\angle A$, so they equal $\\angle A$ only in the special case of a rectangle."
+  },
+  {
+    "id": "ma12-q010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Sides of a parallelogram",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In parallelogram ABCD, $AB = (2x + 3)$ cm and $DC = (4x - 7)$ cm. Find the length of AB.",
+    "image": {
+      "src": "/img/maths12/para-sides.svg",
+      "alt": "A parallelogram ABCD with expressions for two opposite sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5 cm"
+      },
+      {
+        "id": "b",
+        "text": "26 cm"
+      },
+      {
+        "id": "c",
+        "text": "10 cm"
+      },
+      {
+        "id": "d",
+        "text": "13 cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "Opposite sides of a parallelogram are equal.",
+    "explanation": "Opposite sides are equal, so $2x + 3 = 4x - 7$, giving $2x = 10$ and $x = 5$. Then $AB = 2(5) + 3 = 13$ cm (and $DC = 4(5) - 7 = 13$ cm too). Traps: 5 is only the value of $x$; 26 adds the two sides; 10 is $2x$."
+  },
+  {
+    "id": "ma12-q011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Diagonals of a parallelogram",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The diagonals of parallelogram ABCD meet at O. If $AC = 14$ cm and $BD = 10$ cm, find AO.",
+    "image": {
+      "src": "/img/maths12/para-diag.svg",
+      "alt": "A parallelogram ABCD with diagonals meeting at O"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "14 cm"
+      },
+      {
+        "id": "b",
+        "text": "7 cm"
+      },
+      {
+        "id": "c",
+        "text": "3.5 cm"
+      },
+      {
+        "id": "d",
+        "text": "5 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "The diagonals of a parallelogram bisect each other.",
+    "explanation": "The diagonals bisect each other, so O is the midpoint of AC: $AO = \\dfrac{14}{2} = 7$ cm. Traps: 14 cm is the whole diagonal; 3.5 cm halves it twice; 5 cm is $BO$, half of the other diagonal."
+  },
+  {
+    "id": "ma12-q012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Area of a parallelogram",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A parallelogram has base 8 cm, a slanting side of 5 cm and a height of 4 cm (dashed in the picture). Find its area.",
+    "image": {
+      "src": "/img/maths12/para-area.svg",
+      "alt": "A parallelogram with base, slant side and dashed height marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$32\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$40\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$26\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$16\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Area uses the perpendicular height, not the slanting side.",
+    "explanation": "Area of a parallelogram $=$ base $\\times$ perpendicular height $= 8 \\times 4 = 32\\ \\text{cm}^2$. Traps: $8 \\times 5 = 40$ uses the slanting side; 26 is the perimeter $2(8+5)$ with the wrong unit; 16 halves the area as if it were a triangle."
+  },
+  {
+    "id": "ma12-q013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Tests for a parallelogram",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A quadrilateral ABCD (diagonals meeting at E) **must be a parallelogram** if which of these hold? Select **all** that apply.",
+    "image": {
+      "src": "/img/maths12/diag-bisect.svg",
+      "alt": "A four-sided figure ABCD whose diagonals cross at E with tick marks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Its opposite sides are equal in length"
+      },
+      {
+        "id": "b",
+        "text": "Its opposite angles are equal"
+      },
+      {
+        "id": "c",
+        "text": "Its diagonals bisect each other"
+      },
+      {
+        "id": "d",
+        "text": "One pair of opposite sides is both equal and parallel"
+      },
+      {
+        "id": "e",
+        "text": "One pair of opposite sides is equal in length (nothing else known)"
+      },
+      {
+        "id": "f",
+        "text": "Its diagonals are equal in length"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hint": "Four of these are the converses proved in the chapter. Think of a kite or an isosceles trapezium for the others.",
+    "explanation": "The chapter proves four tests: opposite sides equal, opposite angles equal, diagonals bisecting each other, and one pair of opposite sides equal **and** parallel. One pair of equal sides alone is not enough (an isosceles trapezium has a pair of equal legs), and equal diagonals alone do not work either (an isosceles trapezium again)."
+  },
+  {
+    "id": "ma12-q014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Converse of opposite angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths12/opp-angles.svg",
+      "alt": "A four-sided figure ABCD with its angles marked x and y"
+    },
+    "assertion": "If the opposite angles of a quadrilateral are equal, then it is a parallelogram.",
+    "reason": "If $\\angle A = \\angle C = x$ and $\\angle B = \\angle D = y$, then $2(x + y) = 360^\\circ$, so each pair of adjacent angles adds up to $180^\\circ$, which makes opposite sides parallel.",
+    "answer": "a",
+    "hint": "Use the fact that the four angles add up to $360^\\circ$.",
+    "explanation": "Both are true and R is the proof of A. With $2x + 2y = 360^\\circ$ we get $x + y = 180^\\circ$, so $\\angle A + \\angle B = 180^\\circ$ and BC $\\parallel$ AD; likewise $\\angle B + \\angle C = 180^\\circ$ gives AB $\\parallel$ DC. Two pairs of parallel sides make a parallelogram."
+  },
+  {
+    "id": "ma12-q015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Proof: diagonals bisect each other",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that prove: *a quadrilateral whose diagonals bisect each other is a parallelogram.*",
+    "image": {
+      "src": "/img/maths12/diag-bisect.svg",
+      "alt": "A four-sided figure ABCD whose diagonals cross at E with tick marks"
+    },
+    "items": [
+      {
+        "id": "s5",
+        "text": "Similarly $\\triangle EAB \\cong \\triangle ECD$ gives $AB \\parallel DC$, so ABCD is a parallelogram"
+      },
+      {
+        "id": "s2",
+        "text": "$\\angle AED = \\angle CEB$ because they are vertically opposite angles"
+      },
+      {
+        "id": "s4",
+        "text": "$\\angle DAE = \\angle ECB$ (corresponding parts), and alternate angles on transversal AC give $AD \\parallel BC$"
+      },
+      {
+        "id": "s1",
+        "text": "Let the diagonals meet at E, with $EA = EC$ and $EB = ED$"
+      },
+      {
+        "id": "s3",
+        "text": "$\\triangle AED \\cong \\triangle CEB$ by SAS"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need two sides and the angle between them before you can use SAS.",
+    "explanation": "The given equalities $EA = EC$ and $EB = ED$ supply two pairs of sides; the vertically opposite angles supply the included angle, so SAS applies. Equal corresponding angles then give one pair of parallel sides, and repeating the argument with the other two triangles gives the second pair."
+  },
+  {
+    "id": "ma12-q016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Equal diagonals",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths12/iso-trap.svg",
+      "alt": "A four-sided figure ABCD with equal-length marks on its diagonals"
+    },
+    "assertion": "If the diagonals of a quadrilateral are equal in length, then it must be a rectangle.",
+    "reason": "The diagonals of every rectangle are equal in length.",
+    "answer": "d",
+    "hint": "A statement and its converse are separate claims. Can you draw a quadrilateral with equal diagonals that has no right angle?",
+    "explanation": "R is true, but its converse A is false: an **isosceles trapezium** has equal diagonals yet is not a rectangle. Equal diagonals make a *parallelogram* a rectangle, but you must also know it is a parallelogram (diagonals bisecting each other)."
+  },
+  {
+    "id": "ma12-q017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Recognising a rhombus",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **rhombus** (all four sides equal; equal sides carry the same tick marks).",
+    "image": {
+      "src": "/img/maths12/gallery-rhombus.svg",
+      "alt": "Four quadrilaterals labelled P, Q, R and S with tick marks and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p",
+        "x": 27.5,
+        "y": 26.2,
+        "label": "Figure P"
+      },
+      {
+        "id": "q",
+        "x": 77.5,
+        "y": 27.7,
+        "label": "Figure Q"
+      },
+      {
+        "id": "r",
+        "x": 27.5,
+        "y": 73.1,
+        "label": "Figure R"
+      },
+      {
+        "id": "s",
+        "x": 77.5,
+        "y": 75.8,
+        "label": "Figure S"
+      }
+    ],
+    "answer": "p",
+    "hint": "Find the figure where every side has the same number of ticks.",
+    "explanation": "A **rhombus** has all four sides equal, so every side shows one tick. Q has two pairs of equal opposite sides (a general parallelogram), R has two pairs of equal *adjacent* sides (a kite) and S has four right angles with unequal sides (a rectangle)."
+  },
+  {
+    "id": "ma12-q018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Recognising a kite",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **kite**: the quadrilateral with two pairs of equal **adjacent** sides.",
+    "image": {
+      "src": "/img/maths12/gallery-rhombus.svg",
+      "alt": "Four quadrilaterals labelled P, Q, R and S with tick marks and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p",
+        "x": 27.5,
+        "y": 26.2,
+        "label": "Figure P"
+      },
+      {
+        "id": "q",
+        "x": 77.5,
+        "y": 27.7,
+        "label": "Figure Q"
+      },
+      {
+        "id": "r",
+        "x": 27.5,
+        "y": 73.1,
+        "label": "Figure R"
+      },
+      {
+        "id": "s",
+        "x": 77.5,
+        "y": 75.8,
+        "label": "Figure S"
+      }
+    ],
+    "answer": "r",
+    "hint": "Look for single ticks on two sides that meet at a corner and double ticks on the other two sides.",
+    "explanation": "In a **kite** the two sides at the top are equal and the two sides at the bottom are equal. In Q and S the equal sides are *opposite* each other (a parallelogram and a rectangle), and in P all four sides are equal (a rhombus, which is a special kite)."
+  },
+  {
+    "id": "ma12-q019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Rhombus: side from diagonals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The diagonals of a rhombus are 16 cm and 12 cm long. Find the length of one side.",
+    "image": {
+      "src": "/img/maths12/rhombus-diag.svg",
+      "alt": "A rhombus ABCD with both diagonals and their lengths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10 cm"
+      },
+      {
+        "id": "b",
+        "text": "14 cm"
+      },
+      {
+        "id": "c",
+        "text": "20 cm"
+      },
+      {
+        "id": "d",
+        "text": "28 cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "The diagonals of a rhombus bisect each other at right angles, forming four right triangles.",
+    "explanation": "The diagonals bisect each other at right angles, so each side is the hypotenuse of a right triangle with legs $\\dfrac{16}{2} = 8$ and $\\dfrac{12}{2} = 6$: side $= \\sqrt{8^2 + 6^2} = \\sqrt{100} = 10$ cm. Traps: 14 adds the half-diagonals; 20 uses the full diagonals as legs; 28 adds the full diagonals."
+  },
+  {
+    "id": "ma12-q020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Rhombus: area from diagonals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Using the same rhombus (diagonals 16 cm and 12 cm), find its area.",
+    "image": {
+      "src": "/img/maths12/rhombus-diag.svg",
+      "alt": "A rhombus ABCD with both diagonals and their lengths"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$192\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$40\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$96\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$48\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The rhombus is made of four congruent right triangles.",
+    "explanation": "Each of the four right triangles has area $\\dfrac12 \\times 8 \\times 6 = 24$, so the rhombus has area $4 \\times 24 = 96\\ \\text{cm}^2$, which is $\\dfrac12 d_1 d_2$. Traps: 192 forgets the $\\dfrac12$ ($16 \\times 12$); 40 is the perimeter ($4 \\times 10$) with a square unit; 48 divides by 4 instead of 2."
+  },
+  {
+    "id": "ma12-q021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Angles of a rhombus",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In rhombus ABCD, $\\angle A = 70^\\circ$. Find $\\angle ABD$, where BD is a diagonal.",
+    "image": {
+      "src": "/img/maths12/rhombus-angle.svg",
+      "alt": "A rhombus ABCD with one angle marked and diagonal BD"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$70^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$35^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$110^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$55^\\circ$"
+      }
+    ],
+    "answer": "d",
+    "hint": "AB = AD in a rhombus, so triangle ABD is isosceles.",
+    "explanation": "All sides of a rhombus are equal, so $AB = AD$ and $\\triangle ABD$ is isosceles with apex angle $70^\\circ$. The base angles are equal: $\\angle ABD = \\dfrac{180^\\circ - 70^\\circ}{2} = 55^\\circ$. Traps: $70^\\circ$ is $\\angle A$ itself; $35^\\circ$ is half of $\\angle A$ (that is $\\angle BAC$ if the other diagonal were drawn); $110^\\circ$ is $\\angle ABC$."
+  },
+  {
+    "id": "ma12-q022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Diagonal of a rectangle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A rectangle is 16 cm long and 12 cm wide. Find the length of its diagonal AC.",
+    "image": {
+      "src": "/img/maths12/rect-diag.svg",
+      "alt": "A rectangle ABCD with its sides and diagonal AC"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "28 cm"
+      },
+      {
+        "id": "b",
+        "text": "20 cm"
+      },
+      {
+        "id": "c",
+        "text": "400 cm"
+      },
+      {
+        "id": "d",
+        "text": "14 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "The diagonal is the hypotenuse of a right triangle whose legs are the length and the width.",
+    "explanation": "Triangle ABC has a right angle at B, so $AC = \\sqrt{16^2 + 12^2} = \\sqrt{256 + 144} = \\sqrt{400} = 20$ cm. Traps: 28 adds the sides; 400 forgets the square root; 14 averages the sides."
+  },
+  {
+    "id": "ma12-q023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Diagonals of a rectangle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The diagonals of rectangle ABCD meet at O and $\\angle AOB = 64^\\circ$. Find $\\angle OAB$.",
+    "image": {
+      "src": "/img/maths12/rect-angle.svg",
+      "alt": "A rectangle ABCD with diagonals meeting at O and one angle marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$58^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$64^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$116^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$26^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The diagonals of a rectangle are equal and bisect each other, so OA = OB.",
+    "explanation": "In a rectangle $OA = OB$ (half of equal diagonals), so $\\triangle OAB$ is isosceles with apex $64^\\circ$: $\\angle OAB = \\dfrac{180^\\circ - 64^\\circ}{2} = 58^\\circ$. Traps: $64^\\circ$ is the apex angle; $116^\\circ$ is $180^\\circ - 64^\\circ$ (forgetting to halve); $26^\\circ$ is $90^\\circ - 64^\\circ$."
+  },
+  {
+    "id": "ma12-q024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Diagonal of a square",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A square has side 9 cm. What is the length of its diagonal AC?",
+    "image": {
+      "src": "/img/maths12/square-diag.svg",
+      "alt": "A square ABCD with side length and diagonal AC"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "18 cm"
+      },
+      {
+        "id": "b",
+        "text": "$3\\sqrt{2}$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$9\\sqrt{2}$ cm"
+      },
+      {
+        "id": "d",
+        "text": "9 cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use the right angle at B and the Pythagoras theorem.",
+    "explanation": "$AC^2 = 9^2 + 9^2 = 162$, so $AC = \\sqrt{162} = 9\\sqrt{2} \\approx 12.7$ cm. Traps: 18 is twice the side (adding the sides); $3\\sqrt{2} = \\sqrt{18}$ comes from $\\sqrt{2 \\times 9}$; 9 treats the diagonal as equal to the side."
+  },
+  {
+    "id": "ma12-q025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Special parallelograms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths12/gallery-rhombus.svg",
+      "alt": "Four quadrilaterals labelled P, Q, R and S with tick marks on equal sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A parallelogram with one right angle is a rectangle"
+      },
+      {
+        "id": "b",
+        "text": "A rhombus whose diagonals are perpendicular is a square"
+      },
+      {
+        "id": "c",
+        "text": "A parallelogram with equal diagonals is a rectangle"
+      },
+      {
+        "id": "d",
+        "text": "A rhombus with equal diagonals is a square"
+      },
+      {
+        "id": "e",
+        "text": "Every quadrilateral with equal diagonals is a rectangle"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "The diagonals of **every** rhombus are already perpendicular.",
+    "explanation": "A right angle forces all four angles to be $90^\\circ$ in a parallelogram (adjacent angles add to $180^\\circ$), so (a) is true. Equal diagonals make a parallelogram a rectangle, and a rhombus that is also a rectangle is a square, so (c) and (d) are true. (b) is false because every rhombus has perpendicular diagonals; (e) is false because an isosceles trapezium has equal diagonals."
+  },
+  {
+    "id": "ma12-q026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Shapes and their diagonals",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each shape with the property of its diagonals.",
+    "image": {
+      "src": "/img/maths12/gallery-rhombus.svg",
+      "alt": "Four quadrilaterals labelled P, Q, R and S with tick marks on equal sides"
+    },
+    "left": [
+      {
+        "id": "par",
+        "text": "Parallelogram"
+      },
+      {
+        "id": "rect",
+        "text": "Rectangle"
+      },
+      {
+        "id": "rh",
+        "text": "Rhombus"
+      },
+      {
+        "id": "sq",
+        "text": "Square"
+      },
+      {
+        "id": "tz",
+        "text": "Isosceles trapezium"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Equal and perpendicular, and bisect each other"
+      },
+      {
+        "id": "r2",
+        "text": "Bisect each other, and are not necessarily equal"
+      },
+      {
+        "id": "r3",
+        "text": "Equal, but do not bisect each other"
+      },
+      {
+        "id": "r4",
+        "text": "Bisect each other at right angles"
+      },
+      {
+        "id": "r5",
+        "text": "Equal and bisect each other"
+      }
+    ],
+    "pairs": {
+      "par": "r2",
+      "rect": "r5",
+      "rh": "r4",
+      "sq": "r1",
+      "tz": "r3"
+    },
+    "hint": "Start with the parallelogram: every shape in the list except the trapezium inherits its diagonal property.",
+    "explanation": "In any **parallelogram** the diagonals bisect each other. A **rectangle** adds equal diagonals, a **rhombus** adds perpendicular diagonals, and a **square** has both. An **isosceles trapezium** has equal diagonals, but they do not bisect each other, otherwise it would be a parallelogram."
+  },
+  {
+    "id": "ma12-q027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Trapezium: segment joining midpoints",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In trapezium ABCD, $AB \\parallel DC$, $AB = 6$ cm and $DC = 14$ cm. E and F are the midpoints of AD and BC. Find EF.",
+    "image": {
+      "src": "/img/maths12/trapezium-mid.svg",
+      "alt": "A trapezium ABCD with the segment EF joining midpoints of the slanting sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "20 cm"
+      },
+      {
+        "id": "b",
+        "text": "10 cm"
+      },
+      {
+        "id": "c",
+        "text": "8 cm"
+      },
+      {
+        "id": "d",
+        "text": "7 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "EF is parallel to the two bases and has length equal to their average.",
+    "explanation": "The segment joining the midpoints of the non-parallel sides is parallel to the bases and equals half their sum: $EF = \\dfrac{AB + DC}{2} = \\dfrac{6 + 14}{2} = 10$ cm. Traps: 20 forgets to halve; 8 subtracts the bases; 7 halves only the longer base."
+  },
+  {
+    "id": "ma12-q028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Trapezium midsegment",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In trapezium ABCD, tap the segment that joins the **midpoints of the two non-parallel sides**.",
+    "image": {
+      "src": "/img/maths12/trapezium-mid.svg",
+      "alt": "A trapezium with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "ab",
+        "x": 42,
+        "y": 20.4,
+        "label": "Side AB"
+      },
+      {
+        "id": "ef",
+        "x": 37.5,
+        "y": 51,
+        "label": "Segment EF"
+      },
+      {
+        "id": "dc",
+        "x": 26,
+        "y": 81.6,
+        "label": "Side DC"
+      },
+      {
+        "id": "bc",
+        "x": 70.6,
+        "y": 37.6,
+        "label": "Side BC"
+      }
+    ],
+    "answer": "ef",
+    "hint": "The non-parallel sides are the slanting ones; find the segment joining their middle points.",
+    "explanation": "The parallel sides are AB and DC, so the non-parallel sides are AD and BC. The segment EF joins their midpoints, and it is parallel to both bases. Sides AB and DC are the bases themselves, and BC is a slanting side."
+  },
+  {
+    "id": "ma12-q029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Areas in a trapezium",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In trapezium ABCD, $AD \\parallel BC$, $AD = 3$ cm and $BC = 5$ cm. E and F are the midpoints of the non-parallel sides. Find the ratio of the areas of AEFD and EBCF.",
+    "image": {
+      "src": "/img/maths12/trap-areas.svg",
+      "alt": "A trapezium ABCD split by EF into a green part and an orange part"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3 : 5$"
+      },
+      {
+        "id": "b",
+        "text": "$1 : 1$"
+      },
+      {
+        "id": "c",
+        "text": "$9 : 7$"
+      },
+      {
+        "id": "d",
+        "text": "$7 : 9$"
+      }
+    ],
+    "answer": "d",
+    "hint": "First find EF. Then notice the two parts have the same height.",
+    "explanation": "$EF = \\dfrac{3 + 5}{2} = 4$ cm. EF cuts the height $h$ in half, so both parts have height $\\dfrac h2$. Areas: AEFD $= \\dfrac{3+4}{2}\\cdot\\dfrac h2$ and EBCF $= \\dfrac{4+5}{2}\\cdot\\dfrac h2$, giving $7 : 9$. Traps: $3 : 5$ compares the bases only; $1 : 1$ assumes EF splits the area equally; $9 : 7$ is reversed."
+  },
+  {
+    "id": "ma12-q030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Midpoint Theorem",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, P and Q are the midpoints of AB and AC, and $BC = 18$ cm. Find PQ.",
+    "image": {
+      "src": "/img/maths12/tri-mid-bc.svg",
+      "alt": "A triangle ABC with P and Q the midpoints of two sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "9 cm"
+      },
+      {
+        "id": "b",
+        "text": "18 cm"
+      },
+      {
+        "id": "c",
+        "text": "36 cm"
+      },
+      {
+        "id": "d",
+        "text": "6 cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "The segment joining two midpoints is parallel to the third side. What is its length compared with that side?",
+    "explanation": "By the **Midpoint Theorem**, $PQ \\parallel BC$ and $PQ = \\dfrac12 BC = \\dfrac{18}{2} = 9$ cm. Traps: 18 treats PQ as equal to BC; 36 doubles instead of halving; 6 takes a third."
+  },
+  {
+    "id": "ma12-q031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Triangle of midpoints",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, the sides are $AB = 10$ cm, $AC = 14$ cm and $BC = 16$ cm. P, Q and R are the midpoints of AB, AC and BC. Find the perimeter of $\\triangle PQR$.",
+    "image": {
+      "src": "/img/maths12/tri-medial.svg",
+      "alt": "A triangle ABC with the triangle PQR joined by the midpoints of its sides"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "40 cm"
+      },
+      {
+        "id": "b",
+        "text": "20 cm"
+      },
+      {
+        "id": "c",
+        "text": "10 cm"
+      },
+      {
+        "id": "d",
+        "text": "80 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each side of $\\triangle PQR$ is half of one side of $\\triangle ABC$.",
+    "explanation": "By the Midpoint Theorem, $PQ = \\dfrac{BC}{2} = 8$, $QR = \\dfrac{AB}{2} = 5$, $PR = \\dfrac{AC}{2} = 7$. Perimeter $= 8 + 5 + 7 = 20$ cm, half of $10 + 14 + 16 = 40$. Traps: 40 is the perimeter of ABC; 10 halves twice; 80 doubles."
+  },
+  {
+    "id": "ma12-q032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Proof of the Midpoint Theorem",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the proof that $PQ \\parallel BC$ and $PQ = \\dfrac12 BC$, where P and Q are midpoints of AB and AC.",
+    "image": {
+      "src": "/img/maths12/midpoint-proof.svg",
+      "alt": "A triangle ABC with midpoints P and Q and a dashed line through C parallel to BA"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "$CR \\parallel BP$ and $CR = BP$, so BCRP is a parallelogram (equal parallel sides test)"
+      },
+      {
+        "id": "s1",
+        "text": "Draw the line through C parallel to BA and extend PQ to meet it at R"
+      },
+      {
+        "id": "s5",
+        "text": "Hence $PQ \\parallel BC$ and $PQ = \\dfrac12 PR = \\dfrac12 BC$"
+      },
+      {
+        "id": "s3",
+        "text": "From the congruence, $CR = AP = BP$ and $PQ = QR$"
+      },
+      {
+        "id": "s2",
+        "text": "$\\triangle APQ \\cong \\triangle CRQ$ by AAS"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The congruent triangles must come before the parallelogram.",
+    "explanation": "The extra line through C creates $\\triangle CRQ$, which is congruent to $\\triangle APQ$ ($AQ = CQ$, vertically opposite angles, alternate angles). This gives $CR = AP = BP$, so BCRP has an equal and parallel pair of sides and is a parallelogram. Then $PR = BC$, and since Q is the midpoint of PR, $PQ = \\dfrac12 BC$."
+  },
+  {
+    "id": "ma12-q033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Named theorems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each result from the chapter with its statement.",
+    "image": {
+      "src": "/img/maths12/varignon.svg",
+      "alt": "A four-sided figure ABCD with the midpoints of its sides joined"
+    },
+    "left": [
+      {
+        "id": "mp",
+        "text": "Midpoint Theorem"
+      },
+      {
+        "id": "cv",
+        "text": "Converse of the Midpoint Theorem"
+      },
+      {
+        "id": "ce",
+        "text": "Centroid Theorem"
+      },
+      {
+        "id": "va",
+        "text": "Midpoint Theorem for quadrilaterals"
+      },
+      {
+        "id": "ep",
+        "text": "Equal parallel sides test"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "The midpoints of the sides of any quadrilateral form a parallelogram"
+      },
+      {
+        "id": "r2",
+        "text": "A line through the midpoint of one side, parallel to a second side, bisects the third side"
+      },
+      {
+        "id": "r3",
+        "text": "A quadrilateral with one pair of opposite sides equal and parallel is a parallelogram"
+      },
+      {
+        "id": "r4",
+        "text": "The medians meet at a point that divides each in the ratio $2 : 1$"
+      },
+      {
+        "id": "r5",
+        "text": "The segment joining midpoints of two sides of a triangle is parallel to the third side and half as long"
+      }
+    ],
+    "pairs": {
+      "mp": "r5",
+      "cv": "r2",
+      "ce": "r4",
+      "va": "r1",
+      "ep": "r3"
+    },
+    "hint": "The converse starts from \"parallel\" and ends with \"bisects\".",
+    "explanation": "The **Midpoint Theorem** goes from midpoints to parallel and half-length; its **converse** goes from a parallel line through a midpoint to bisecting the third side. The **Centroid Theorem** concerns the $2:1$ division of medians, the quadrilateral version (**Varignon**) gives a parallelogram, and the **equal parallel sides test** recognises parallelograms."
+  },
+  {
+    "id": "ma12-q034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Varignon parallelogram",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "P, Q, R and S are the midpoints of the sides of quadrilateral ABCD, whose diagonals are $AC = 12$ cm and $BD = 8$ cm. Find the perimeter of the parallelogram PQRS.",
+    "image": {
+      "src": "/img/maths12/varignon.svg",
+      "alt": "A four-sided figure ABCD with the midpoints of its sides joined"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "40 cm"
+      },
+      {
+        "id": "b",
+        "text": "10 cm"
+      },
+      {
+        "id": "c",
+        "text": "24 cm"
+      },
+      {
+        "id": "d",
+        "text": "20 cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "Apply the Midpoint Theorem in triangles ABC, BCD, CDA and DAB.",
+    "explanation": "In $\\triangle ABC$, $PQ = \\dfrac12 AC = 6$; in $\\triangle ADC$, $SR = 6$; in $\\triangle BCD$, $QR = \\dfrac12 BD = 4$; in $\\triangle BAD$, $PS = 4$. Perimeter $= 6 + 4 + 6 + 4 = 20$ cm, which is $AC + BD$. Traps: 40 doubles it; 10 counts only one pair of sides; 24 uses $2 \\times AC$."
+  },
+  {
+    "id": "ma12-q035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Varignon parallelogram",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "P, Q, R, S are the midpoints of the sides AB, BC, CD, DA of **any** quadrilateral ABCD. Select **all** the true statements.",
+    "image": {
+      "src": "/img/maths12/varignon.svg",
+      "alt": "A four-sided figure ABCD with the midpoints of its sides joined"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "PQRS is always a parallelogram"
+      },
+      {
+        "id": "b",
+        "text": "PQ is parallel to the diagonal AC"
+      },
+      {
+        "id": "c",
+        "text": "PQ is half as long as the diagonal AC"
+      },
+      {
+        "id": "d",
+        "text": "PQRS is always a rectangle"
+      },
+      {
+        "id": "e",
+        "text": "PQRS is still a parallelogram if ABCD is non-convex"
+      },
+      {
+        "id": "f",
+        "text": "PQ is equal in length to the diagonal AC"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "hint": "Use the Midpoint Theorem in triangle ABC.",
+    "explanation": "In $\\triangle ABC$, P and Q are midpoints, so $PQ \\parallel AC$ and $PQ = \\dfrac12 AC$; the same holds for SR, and similarly for QR and PS with BD. So PQRS is a parallelogram, and the argument does not need ABCD to be convex. PQRS is a rectangle only when the diagonals AC and BD are perpendicular, and PQ is half (not equal to) AC."
+  },
+  {
+    "id": "ma12-q036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Centroid Theorem",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$ the medians meet at the centroid M. The median CP is 18 cm long. Find CM.",
+    "image": {
+      "src": "/img/maths12/centroid.svg",
+      "alt": "A triangle ABC with its three medians meeting at M"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12 cm"
+      },
+      {
+        "id": "b",
+        "text": "9 cm"
+      },
+      {
+        "id": "c",
+        "text": "6 cm"
+      },
+      {
+        "id": "d",
+        "text": "15 cm"
+      }
+    ],
+    "answer": "a",
+    "hint": "The centroid divides each median in the ratio $2 : 1$, with the longer part next to the vertex.",
+    "explanation": "M divides CP in the ratio $CM : MP = 2 : 1$, so $CM = \\dfrac23 \\times 18 = 12$ cm and $MP = 6$ cm. Traps: 9 cm takes half of the median; 6 cm is $MP$ (the shorter part); 15 cm has no basis in the ratio."
+  },
+  {
+    "id": "ma12-q037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Centroid Theorem",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The medians of $\\triangle ABC$ meet at M, and $MQ = 5$ cm, where BQ is a median. Find the length of the whole median BQ.",
+    "image": {
+      "src": "/img/maths12/centroid.svg",
+      "alt": "A triangle ABC with its three medians meeting at M"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10 cm"
+      },
+      {
+        "id": "b",
+        "text": "15 cm"
+      },
+      {
+        "id": "c",
+        "text": "7.5 cm"
+      },
+      {
+        "id": "d",
+        "text": "20 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "MQ is the shorter part, one third of the median.",
+    "explanation": "The longer part is $BM = 2 \\times MQ = 10$ cm, so $BQ = BM + MQ = 10 + 5 = 15$ cm. Traps: 10 cm is only $BM$; 7.5 cm halves MQ's partner wrongly; 20 cm multiplies by 4 (using $3 : 1$ instead of $2 : 1$)."
+  },
+  {
+    "id": "ma12-q038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Centroid",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **centroid** of the triangle, the point common to all three medians.",
+    "image": {
+      "src": "/img/maths12/centroid-plain.svg",
+      "alt": "A triangle with its three medians drawn and numbered markers"
+    },
+    "spots": [
+      {
+        "id": "m",
+        "x": 50,
+        "y": 59.3,
+        "label": "Where the medians meet"
+      },
+      {
+        "id": "r",
+        "x": 50,
+        "y": 82,
+        "label": "Midpoint of BC"
+      },
+      {
+        "id": "am",
+        "x": 50,
+        "y": 36.7,
+        "label": "Halfway from A to the crossing"
+      },
+      {
+        "id": "bm",
+        "x": 32.5,
+        "y": 70.7,
+        "label": "Halfway from B to the crossing"
+      }
+    ],
+    "answer": "m",
+    "hint": "The medians all pass through one point.",
+    "explanation": "The three medians are concurrent, and their common point is the **centroid**. The midpoint of BC lies on one median but not on the other two, and the points halfway between a vertex and the centroid lie on a single median only."
+  },
+  {
+    "id": "ma12-q039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Centroid Theorem",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths12/centroid-plain.svg",
+      "alt": "A triangle with its three medians drawn and numbered markers"
+    },
+    "assertion": "The three medians of a triangle pass through one common point.",
+    "reason": "The common point divides each median in the ratio $1 : 1$.",
+    "answer": "c",
+    "hint": "Recall the ratio in which the centroid divides a median.",
+    "explanation": "A is true: the medians are concurrent at the centroid. R is false because the centroid divides each median in the ratio $2 : 1$ (longer part towards the vertex); a $1 : 1$ division would be the midpoint, which lies on only one of the medians."
+  },
+  {
+    "id": "ma12-q040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Line parallel to the base",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, P lies on AB and the line through P parallel to BC meets AC at Q. If $AP = 1$, $PB = 2$ and $AQ = \\sqrt{5}$, find QC.",
+    "image": {
+      "src": "/img/maths12/tri-parallel.svg",
+      "alt": "A triangle ABC with a line PQ drawn parallel to the base BC"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{\\sqrt{5}}{2}$"
+      },
+      {
+        "id": "b",
+        "text": "$2\\sqrt{5}$"
+      },
+      {
+        "id": "c",
+        "text": "$3\\sqrt{5}$"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "b",
+    "hint": "Split PB into pieces equal to AP and draw parallels through the division points.",
+    "explanation": "Dividing PB into two segments of length 1 and drawing lines parallel to BC cuts AC into equal parts of length $\\sqrt{5}$ each, so $\\dfrac{AP}{PB} = \\dfrac{AQ}{QC}$, i.e. $\\dfrac12 = \\dfrac{\\sqrt5}{QC}$ and $QC = 2\\sqrt{5}$. Traps: $\\dfrac{\\sqrt5}{2}$ inverts the ratio; $3\\sqrt5$ is the whole side AC; 2 copies PB."
+  },
+  {
+    "id": "ma12-q041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Trisecting a diagonal",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In parallelogram ABCD, M and N are the midpoints of AB and CD. The segments DM and BN cut the diagonal AC at X and Y, and $AC = 21$ cm. Find XY.",
+    "image": {
+      "src": "/img/maths12/trisect.svg",
+      "alt": "A parallelogram ABCD with two lines crossing the diagonal AC at X and Y"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10.5 cm"
+      },
+      {
+        "id": "b",
+        "text": "14 cm"
+      },
+      {
+        "id": "c",
+        "text": "7 cm"
+      },
+      {
+        "id": "d",
+        "text": "5.25 cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "DM and BN trisect AC: all three parts AX, XY and YC are equal.",
+    "explanation": "MBND is a parallelogram ($MB \\parallel DN$ and $MB = DN$), so $DM \\parallel BN$. In $\\triangle ABY$, M is the midpoint of AB and $MX \\parallel BY$, so X is the midpoint of AY; similarly Y is the midpoint of XC. Hence $AX = XY = YC = \\dfrac{21}{3} = 7$ cm. Traps: 10.5 halves AC; 14 is two of the three parts; 5.25 divides by 4."
+  },
+  {
+    "id": "ma12-q042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Angle sum of a polygon",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Triangles are drawn from one vertex of a 7-sided polygon, as in the picture. What is the sum of its internal angles?",
+    "image": {
+      "src": "/img/maths12/heptagon-triangles.svg",
+      "alt": "A seven-sided polygon being cut into triangles from one corner"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$900^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$1260^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$720^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$1080^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "How many triangles do you get from one vertex of an $n$-sided polygon?",
+    "explanation": "From one vertex an $n$-gon splits into $n - 2$ triangles, each with angle sum $180^\\circ$. For $n = 7$: $(7 - 2) \\times 180^\\circ = 900^\\circ$. Traps: $1260^\\circ$ is $7 \\times 180^\\circ$ (counting 7 triangles); $720^\\circ$ is for a hexagon; $1080^\\circ$ is for an octagon."
+  },
+  {
+    "id": "ma12-q043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Angle sum of a quadrilateral",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Three angles of quadrilateral ABCD are $80^\\circ$, $95^\\circ$ and $70^\\circ$. Find the fourth angle $\\angle D$.",
+    "image": {
+      "src": "/img/maths12/quad-angles.svg",
+      "alt": "A four-sided figure ABCD with three angles marked and one unknown"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$65^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$245^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$115^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$295^\\circ$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The four angles of any quadrilateral add up to $360^\\circ$.",
+    "explanation": "The angles add up to $360^\\circ$, so $\\angle D = 360^\\circ - (80^\\circ + 95^\\circ + 70^\\circ) = 360^\\circ - 245^\\circ = 115^\\circ$. Traps: $65^\\circ$ comes from using $180^\\circ$ (the triangle sum) and subtracting the other way; $245^\\circ$ is just the sum of the three angles; $295^\\circ$ is $360^\\circ - 65^\\circ$."
+  },
+  {
+    "id": "ma12-q044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Counting diagonals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these polygons from the **fewest** diagonals to the **most** diagonals.",
+    "image": {
+      "src": "/img/maths12/polygons-row.svg",
+      "alt": "A row of five polygons with three, four, five, six and seven sides"
+    },
+    "items": [
+      {
+        "id": "hex",
+        "text": "Hexagon"
+      },
+      {
+        "id": "tri",
+        "text": "Triangle"
+      },
+      {
+        "id": "hep",
+        "text": "Heptagon"
+      },
+      {
+        "id": "pen",
+        "text": "Pentagon"
+      },
+      {
+        "id": "quad",
+        "text": "Quadrilateral"
+      }
+    ],
+    "answer": [
+      "tri",
+      "quad",
+      "pen",
+      "hex",
+      "hep"
+    ],
+    "startLabel": "Fewest",
+    "endLabel": "Most",
+    "hint": "An $n$-gon has $\\dfrac{n(n-3)}{2}$ diagonals.",
+    "explanation": "Each vertex joins to $n - 3$ others by diagonals, and each diagonal is counted twice, so an $n$-gon has $\\dfrac{n(n-3)}{2}$ diagonals: triangle 0, quadrilateral 2, pentagon 5, hexagon 9, heptagon 14."
+  },
+  {
+    "id": "ma12-q045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Tiling the plane",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Only one of these regular polygons **cannot** tile the plane by itself without gaps or overlaps. Tap it.",
+    "image": {
+      "src": "/img/maths12/reg-polygons.svg",
+      "alt": "Four regular polygons labelled P, Q, R and S with numbered markers"
+    },
+    "spots": [
+      {
+        "id": "p",
+        "x": 13.8,
+        "y": 53.3,
+        "label": "Figure P"
+      },
+      {
+        "id": "q",
+        "x": 37.5,
+        "y": 48,
+        "label": "Figure Q"
+      },
+      {
+        "id": "r",
+        "x": 62.5,
+        "y": 49.3,
+        "label": "Figure R"
+      },
+      {
+        "id": "s",
+        "x": 86.3,
+        "y": 48,
+        "label": "Figure S"
+      }
+    ],
+    "answer": "r",
+    "hint": "The angles meeting at a point in a tiling must add up to $360^\\circ$.",
+    "explanation": "The interior angle of a regular pentagon is $108^\\circ$, and $360 \\div 108$ is not a whole number, so copies cannot fit around a point. The triangle ($60^\\circ \\times 6$), the square ($90^\\circ \\times 4$) and the hexagon ($120^\\circ \\times 3$) all make exactly $360^\\circ$."
+  },
+  {
+    "id": "ma12-q046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Interior angles of regular polygons",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each regular polygon with the size of one of its interior angles.",
+    "image": {
+      "src": "/img/maths12/reg-polygons.svg",
+      "alt": "Four regular polygons labelled P, Q, R and S"
+    },
+    "left": [
+      {
+        "id": "tri",
+        "text": "Equilateral triangle"
+      },
+      {
+        "id": "sq",
+        "text": "Square"
+      },
+      {
+        "id": "pen",
+        "text": "Regular pentagon"
+      },
+      {
+        "id": "hex",
+        "text": "Regular hexagon"
+      },
+      {
+        "id": "oct",
+        "text": "Regular octagon"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$135^\\circ$"
+      },
+      {
+        "id": "r2",
+        "text": "$60^\\circ$"
+      },
+      {
+        "id": "r3",
+        "text": "$120^\\circ$"
+      },
+      {
+        "id": "r4",
+        "text": "$90^\\circ$"
+      },
+      {
+        "id": "r5",
+        "text": "$108^\\circ$"
+      }
+    ],
+    "pairs": {
+      "tri": "r2",
+      "sq": "r4",
+      "pen": "r5",
+      "hex": "r3",
+      "oct": "r1"
+    },
+    "hint": "Use $\\dfrac{(n-2) \\times 180^\\circ}{n}$.",
+    "explanation": "A regular $n$-gon has all $n$ angles equal, each $\\dfrac{(n-2)\\times 180^\\circ}{n}$: triangle $60^\\circ$, square $90^\\circ$, pentagon $\\dfrac{540^\\circ}{5} = 108^\\circ$, hexagon $\\dfrac{720^\\circ}{6} = 120^\\circ$, octagon $\\dfrac{1080^\\circ}{8} = 135^\\circ$."
+  },
+  {
+    "id": "ma12-q047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Tiling with any 4-gon",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of **Method 1** for tiling the plane with copies of a 4-gon SOME.",
+    "image": {
+      "src": "/img/maths12/tiling-methods.svg",
+      "alt": "A four-sided tile and a second copy turned a half-turn about the midpoint of one edge"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Repeat the half-turn at every edge of each new copy"
+      },
+      {
+        "id": "s1",
+        "text": "Place one copy of the 4-gon"
+      },
+      {
+        "id": "s5",
+        "text": "Check that all copies fit with no gaps or overlaps, giving a tiling"
+      },
+      {
+        "id": "s3",
+        "text": "Do the same at all four edges of the first copy, adding 4 copies"
+      },
+      {
+        "id": "s2",
+        "text": "Turn a second copy through $180^\\circ$ about the midpoint of one edge so that it fits along that edge"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Start with one tile, then one half-turn, then repeat.",
+    "explanation": "A half-turn about the midpoint of an edge such as OM carries the tile onto its neighbour so the two fit exactly along that edge. Repeating this at every edge of every copy spreads the pattern in all directions; each new copy fits because the angles around each vertex are the four angles of the 4-gon, which add to $360^\\circ$."
+  },
+  {
+    "id": "ma12-q048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Diagonals of a parallelogram",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/maths12/diag-bisect.svg",
+      "alt": "A four-sided figure ABCD whose diagonals cross at E with tick marks"
+    },
+    "assertion": "The diagonals of a parallelogram bisect each other.",
+    "reason": "The four angles of any quadrilateral add up to $360^\\circ$.",
+    "answer": "b",
+    "hint": "The proof of A uses congruent triangles, not the angle sum.",
+    "explanation": "Both statements are true, but R does not explain A. The diagonals bisect each other because $\\triangle AED \\cong \\triangle CEB$ (by ASA or AAS), using the equal opposite sides and parallel lines. The angle sum of a quadrilateral is a separate fact."
+  },
+  {
+    "id": "ma12-q049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Existence of a 4-gon",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Three sides of a quadrilateral measure 2 cm, 5 cm and 11 cm. Which of these could be the length of the **fourth** side?",
+    "image": {
+      "src": "/img/maths12/rods.svg",
+      "alt": "Rods of different lengths to be joined into a four-sided frame"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "100 cm"
+      },
+      {
+        "id": "b",
+        "text": "4 cm"
+      },
+      {
+        "id": "c",
+        "text": "18 cm"
+      },
+      {
+        "id": "d",
+        "text": "10 cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "The longest side must be shorter than the sum of the other three.",
+    "explanation": "A 4-gon exists exactly when the longest side is **less than** the sum of the other three. With sides 2, 5, 11 and $x$: if $x \\le 11$ we need $11 < 2 + 5 + x$, so $x > 4$; if $x > 11$ we need $x < 18$. So $4 < x < 18$. Only 10 fits: 4 and 18 give a flat frame (a degenerate case) and 100 is far too long."
+  },
+  {
+    "id": "ma12-q050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "chapterNo": 12,
+    "topic": "Kinds of 4-gons",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each description with the figure in the picture.",
+    "image": {
+      "src": "/img/maths12/shapes-gallery.svg",
+      "alt": "Four figures labelled P, Q, R and S"
+    },
+    "left": [
+      {
+        "id": "cv",
+        "text": "Convex quadrilateral"
+      },
+      {
+        "id": "nc",
+        "text": "Non-convex quadrilateral"
+      },
+      {
+        "id": "si",
+        "text": "Self-intersecting 4-gon"
+      },
+      {
+        "id": "col",
+        "text": "Three points on one line (not a quadrilateral)"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Figure R"
+      },
+      {
+        "id": "r2",
+        "text": "Figure P"
+      },
+      {
+        "id": "r3",
+        "text": "Figure S"
+      },
+      {
+        "id": "r4",
+        "text": "Figure Q"
+      }
+    ],
+    "pairs": {
+      "cv": "r2",
+      "nc": "r1",
+      "si": "r4",
+      "col": "r3"
+    },
+    "hint": "Which figure has a dent, which has sides crossing, and which has a corner lying on a straight side?",
+    "explanation": "P has all angles under $180^\\circ$ (convex). R has a dent, so one angle exceeds $180^\\circ$ (non-convex). In Q two sides cross each other (self-intersecting). In S one vertex lies on the straight side between two others, so only a triangle is formed."
+  }
+]

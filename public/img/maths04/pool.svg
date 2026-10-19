@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" role="img">
+<title>A rectangular swimming pool of length x metres</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.wv{animation:wv 3s ease-in-out infinite}@keyframes wv{0%,100%{transform:translateX(0)}50%{transform:translateX(12px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="58" y="48" width="274" height="174" rx="10" fill="#D9C49A" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="70" y="60" width="250" height="150" rx="4" fill="#7CC6F2" stroke="#2B2F4A" stroke-width="2.5"/>
+<path class="wv" style="animation-delay:0.0s" d="M90 85q15 -8 30 0t30 0t30 0t30 0t30 0t30 0" stroke="#E3F2FD" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path class="wv" style="animation-delay:0.4s" d="M90 117q15 -8 30 0t30 0t30 0t30 0t30 0t30 0" stroke="#E3F2FD" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path class="wv" style="animation-delay:0.8s" d="M90 149q15 -8 30 0t30 0t30 0t30 0t30 0t30 0" stroke="#E3F2FD" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path class="wv" style="animation-delay:1.2000000000000002s" d="M90 181q15 -8 30 0t30 0t30 0t30 0t30 0t30 0" stroke="#E3F2FD" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text class="t" x="195" y="143" font-size="18" text-anchor="middle">area 108 m²</text>
+<path d="M76 236L70 240L76 244M70 240H320M314 236L320 240L314 244" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t" x="195" y="262" font-size="15" text-anchor="middle">length x m</text>
+<path d="M346 66L350 60L354 66M350 60V210M346 204L350 210L354 204" stroke="#2B2F4A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t" x="0" y="0" font-size="15" text-anchor="middle" transform="translate(370 135.0) rotate(-90)">breadth (x − 3) m</text>
+</svg>

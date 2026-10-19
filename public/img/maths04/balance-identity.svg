@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img">
+<title>A balance comparing two sides for different values of x</title>
+<style>.t{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.v{font-style:italic}.dl{animation:dl 8s steps(1) infinite}@keyframes dl{0%{opacity:1}25.0%,100%{opacity:0}}.beam{transform-box:view-box;transform-origin:200px 80px;animation:tl 4s ease-in-out infinite}@keyframes tl{0%,100%{transform:rotate(0)}25%{transform:rotate(2deg)}75%{transform:rotate(-2deg)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M200 70V215M150 225H250" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/>
+<path d="M175 225L200 205L225 225Z" fill="#A3A8CC" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<g class="beam">
+<path d="M70 80H330" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round"/>
+<path d="M85 80L60 140M85 80L110 140M315 80L290 140M315 80L340 140" stroke="#A3A8CC" stroke-width="2"/>
+<path d="M45 140H125Q120 160 85 160Q50 160 45 140Z" fill="#F6C453" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M275 140H355Q350 160 315 160Q280 160 275 140Z" fill="#8EC5F0" stroke="#2B2F4A" stroke-width="2.5"/>
+<text class="t" x="85" y="130" font-size="17" text-anchor="middle">LHS</text>
+<text class="t" x="315" y="130" font-size="17" text-anchor="middle">RHS</text>
+</g>
+<circle cx="200" cy="70" r="9" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5"/>
+<rect x="150" y="18" width="100" height="34" rx="10" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5"/>
+<text class="t v dl" x="200" y="41" font-size="16" text-anchor="middle" style="animation-delay:0s;opacity:1">x = 0</text>
+<text class="t v dl" x="200" y="41" font-size="16" text-anchor="middle" style="animation-delay:2s;opacity:0">x = 1</text>
+<text class="t v dl" x="200" y="41" font-size="16" text-anchor="middle" style="animation-delay:4s;opacity:0">x = 5</text>
+<text class="t v dl" x="200" y="41" font-size="16" text-anchor="middle" style="animation-delay:6s;opacity:0">x = −3</text>
+</svg>
