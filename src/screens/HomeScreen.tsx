@@ -18,6 +18,8 @@ import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
 
 const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
+/** Classes shown in the practice-set builder. Only Class 9 for now; add the others back as their content grows. */
+const gradesWithQuestions = region.grades.filter((g) => g === 9);
 
 /** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
 type StartRound = (qs: Question[], title: string, key?: string) => void;
@@ -581,7 +583,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
 
           <h3 className="mb-3 mt-7 text-sm font-bold uppercase tracking-wider text-muted">Class</h3>
           <div className="grid grid-cols-4 gap-2 sm:flex">
-            {region.grades.map((g) => (
+            {gradesWithQuestions.map((g) => (
               <Toggle key={g} on={grades.includes(g)} onClick={() => setGrades(toggle(grades, g))} className="px-5 py-3 sm:min-w-28">
                 <span className="hidden sm:inline">{region.gradeLabel(g)}</span>
                 <span className="sm:hidden">{g}</span>

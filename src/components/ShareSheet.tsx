@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { Check, Copy, Loader2, MessageCircle, Share2, Users, X } from "lucide-react";
+import { Check, Copy, Link2, Loader2, MessageCircle, Share2, Users, X } from "lucide-react";
 import clsx from "clsx";
 import { burst } from "../lib/celebrate";
 import { renderShareCard, type CardData } from "../lib/shareCard";
@@ -67,16 +67,18 @@ async function createLink(t: ShareTarget, signedIn: boolean): Promise<string> {
 function message(t: ShareTarget, url: string, signedIn: boolean): string {
   if (t.kind === "game") {
     const where = t.section === "overall" ? t.gameTitle : `${t.gameTitle} (${t.sectionName})`;
-    if (t.rank) return `🚀 I'm #${t.rank.rank} of ${t.rank.participants} in ${where} ${PERIOD_LABEL[t.rank.period]}! Think you can beat me? 👉 ${url}`;
-    if (t.score) return `🚀 I scored ${t.score.points.toLocaleString("en-IN")} points in ${where} and reached level ${t.score.level}! Can you beat me? 👉 ${url}`;
-    return `🚀 Play ${where} with me! Blast asteroids with maths and save Earth 🌍 👉 ${url}`;
+    if (t.rank) return `🚀 I'm #${t.rank.rank} of ${t.rank.participants} in ${where} ${PERIOD_LABEL[t.rank.period]}! Think you can beat me?\n👉 ${url}`;
+    if (t.score) return `🚀 I scored ${t.score.points.toLocaleString("en-IN")} points in ${where} and reached level ${t.score.level}! Can you beat me?\n👉 ${url}`;
+    return `🚀 Play ${where} with me! Blast asteroids with maths and save Earth 🌍\n👉 ${url}`;
   }
-  if (t.kind === "rank") return `🔥 I'm #${t.rank} of ${t.participants} students on PrepQuest ${PERIOD_LABEL[t.period]}! Think you can beat me? 👉 ${url}`;
+  if (t.kind === "rank") return `🔥 I'm #${t.rank} of ${t.participants} students on PrepQuest ${PERIOD_LABEL[t.period]}! Think you can beat me?\n👉 ${url}`;
   const head = `🏆 I scored ${t.accuracy}% in ${t.title} on PrepQuest!`;
   return signedIn
-    ? `${head}\nSame ${t.questionIds.length} questions — can you beat me? 👉 ${url}`
-    : `${head}\nFree CBSE practice — try it 👉 ${url}`;
+    ? `${head}\nSame ${t.questionIds.length} questions — can you beat me?\n👉 ${url}`
+    : `${head}\nFree CBSE practice — try it\n👉 ${url}`;
 }
+
+const escapeHtml = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 export function ShareSheet({ target, onClose }: { target: ShareTarget | null; onClose: () => void }) {
   return <AnimatePresence>{target && <Sheet key="sheet" target={target} onClose={onClose} />}</AnimatePresence>;
@@ -151,7 +153,8 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
   const shareBoth = async () => {
     if (!file) return;
     try {
-      await navigator.share({ files: [file], text });
+      // The link goes in `url` too: some apps drop the text when a picture is attached, but keep the link.
+      await navigator.share({ files: [file], text, url: link ?? undefined });
       celebrate();
     } catch {
       // Closed the share menu: nothing to do.
@@ -165,7 +168,20 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
   const copyBoth = async (): Promise<"copied" | "saved"> => {
     if (!card) return "saved";
     try {
-      await navigator.clipboard.write([new ClipboardItem({ "image/png": card.blob, "text/plain": new Blob([text], { type: "text/plain" }) })]);
+      // Rich text (email, docs, chat apps that take it) gets the picture with a real, clickable link under it.
+      const dataUrl = await new Promise<string>((resolve) => {
+        const r = new FileReader();
+        r.onload = () => resolve(String(r.result));
+        r.readAsDataURL(card.blob);
+      });
+      const html = `<p>${escapeHtml(text).replace(escapeHtml(link ?? ""), `<a href="${link}">${escapeHtml(link ?? "")}</a>`).replace(/\n/g, "<br>")}</p><img src="${dataUrl}" alt="PrepQuest" width="540">`;
+      await navigator.clipboard.write([
+        new ClipboardItem({
+          "image/png": card.blob,
+          "text/plain": new Blob([text], { type: "text/plain" }),
+          "text/html": new Blob([html], { type: "text/html" }),
+        }),
+      ]);
       return "copied";
     } catch {
       const a = document.createElement("a");
@@ -240,6 +256,22 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
             )}
           </AnimatePresence>
         </div>
+
+        {link ? (
+          <motion.a
+            href={link}
+            target="_blank"
+            rel="noopener"
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mx-auto mt-3 flex max-w-[17rem] items-center gap-2 rounded-xl border-2 border-line bg-surface-2 px-3 py-2 text-sm font-bold text-brand hover:border-brand"
+          >
+            <Link2 className="size-4 shrink-0" />
+            <span className="truncate underline underline-offset-2">{link.replace(/^https?:\/\//, "")}</span>
+          </motion.a>
+        ) : (
+          <div className="mx-auto mt-3 h-10 max-w-[17rem] animate-pulse rounded-xl bg-surface-2" />
+        )}
 
         {target.kind === "round" && signedIn && (
           <p className="mt-4 flex items-center justify-center gap-2 text-center text-sm font-semibold text-muted">
