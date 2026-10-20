@@ -13,9 +13,16 @@
     "db:migrate:local": "wrangler d1 migrations apply DB --local",
     "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
     "db:seed:local": "node scripts/seed-demo.mjs && wrangler d1 execute DB --local --file scripts/.demo-seed.sql",
-    "db:unseed:local": "wrangler d1 execute DB --local --command \"DELETE FROM shares WHERE user_id LIKE 'demo-%'; DELETE FROM game_runs WHERE user_id LIKE 'demo-%'; DELETE FROM answers WHERE user_id LIKE 'demo-%'; DELETE FROM active_rounds WHERE user_id LIKE 'demo-%'; DELETE FROM rounds WHERE user_id LIKE 'demo-%'; DELETE FROM users WHERE id LIKE 'demo-%';\""
+    "db:unseed:local": "wrangler d1 execute DB --local --command \"DELETE FROM shares WHERE user_id LIKE 'demo-%'; DELETE FROM game_runs WHERE user_id LIKE 'demo-%'; DELETE FROM answers WHERE user_id LIKE 'demo-%'; DELETE FROM active_rounds WHERE user_id LIKE 'demo-%'; DELETE FROM rounds WHERE user_id LIKE 'demo-%'; DELETE FROM users WHERE id LIKE 'demo-%';\"",
+    "android:sync": "npm run build && cap sync android",
+    "android:open": "cap open android",
+    "android:apk": "npm run android:sync && cd android && gradlew.bat assembleDebug"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4",
     "canvas-confetti": "^1.9.4",
     "clsx": "^2.1.1",
     "katex": "^0.19.0",
@@ -27,6 +34,7 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
     "@cloudflare/vite-plugin": "^1.64.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/canvas-confetti": "^1.9.0",
