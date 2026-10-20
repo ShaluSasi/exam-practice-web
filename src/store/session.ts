@@ -11,7 +11,25 @@ export interface Attempt {
   timeMs: number;
 }
 
+/** An unfinished round, saved after every answer so it can be resumed. */
+export interface SavedRound {
+  /** Which quiz this is, e.g. a chapter. One unfinished round is kept per key. */
+  key: string;
+  roundId: string;
+  title: string;
+  questionIds: string[];
+  attempts: Attempt[];
+  xp: number;
+  streak: number;
+  bestStreak: number;
+  elapsedMs: number;
+  updatedAt: number;
+}
+
 interface SessionState {
+  /** Resume key (chapter or mixed practice); null for one-off sets that are not resumed. */
+  key: string | null;
+  roundId: string;
   /** Shown on the scoreboard, e.g. the chapter name. */
   title: string;
   questions: Question[];
@@ -27,7 +45,9 @@ interface SessionState {
   finishedAt: number | null;
   questionStartedAt: number;
 
-  start: (questions: Question[], title: string) => void;
+  start: (questions: Question[], title: string, key?: string | null) => void;
+  /** Continues a saved round; `questions` are its questions, in order. */
+  resume: (saved: SavedRound, questions: Question[]) => void;
   setResponse: (r: AnyResponse) => void;
   revealHint: () => void;
   /** Grades the current response; `skip` records it as unanswered. */
@@ -36,6 +56,8 @@ interface SessionState {
 }
 
 export const useSession = create<SessionState>()((set, get) => ({
+  key: null,
+  roundId: "",
   title: "",
   questions: [],
   index: 0,
@@ -50,9 +72,11 @@ export const useSession = create<SessionState>()((set, get) => ({
   finishedAt: null,
   questionStartedAt: 0,
 
-  start: (questions, title) => {
+  start: (questions, title, key = null) => {
     const now = Date.now();
     set({
+      key,
+      roundId: crypto.randomUUID(),
       title,
       questions,
       index: 0,
@@ -64,6 +88,31 @@ export const useSession = create<SessionState>()((set, get) => ({
       streak: 0,
       bestStreak: 0,
       startedAt: now,
+      finishedAt: null,
+      questionStartedAt: now,
+    });
+  },
+
+  resume: (saved, questions) => {
+    const now = Date.now();
+    const done = saved.attempts.length >= questions.length;
+    // All answered but not yet finished: reopen the last question's feedback so "Finish" is one tap away.
+    const index = done ? questions.length - 1 : saved.attempts.length;
+    set({
+      key: saved.key,
+      roundId: saved.roundId,
+      title: saved.title,
+      questions,
+      index,
+      phase: done ? "feedback" : "answering",
+      response: done ? saved.attempts[index].response : initialResponse(questions[index]),
+      usedHint: false,
+      attempts: saved.attempts,
+      xp: saved.xp,
+      streak: saved.streak,
+      bestStreak: saved.bestStreak,
+      // The clock continues from where it stopped, not from when the round first began.
+      startedAt: now - saved.elapsedMs,
       finishedAt: null,
       questionStartedAt: now,
     });

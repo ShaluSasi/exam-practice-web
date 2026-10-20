@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local development.
+# Make a random value with:
+#   node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
+SESSION_SECRET=

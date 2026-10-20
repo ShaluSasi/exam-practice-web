@@ -2,11 +2,28 @@ import { motion } from "motion/react";
 import { Monitor, Moon, Sun, Volume2, VolumeX, Zap } from "lucide-react";
 import { region } from "../config/regions";
 import { useProfile, type ThemePref } from "../store/profile";
+import { useNav } from "../store/nav";
+import { AccountButton } from "./Account";
 
 const NEXT_THEME: Record<ThemePref, ThemePref> = { system: "light", light: "dark", dark: "system" };
 const THEME_ICON = { system: Monitor, light: Sun, dark: Moon };
 
+/** Goes to the landing (home) page, leaving any challenge link or result behind. */
+function goHome() {
+  if (window.location.pathname !== "/") window.history.replaceState(null, "", "/");
+  useNav.setState({ challengeCode: null, opponent: null });
+  useNav.getState().goLanding();
+}
+
 export function Logo() {
+  return (
+    <button type="button" onClick={goHome} aria-label={`${region.appName} home`} className="flex items-center gap-2.5 rounded-xl">
+      <LogoMark />
+    </button>
+  );
+}
+
+function LogoMark() {
   return (
     <div className="flex items-center gap-2.5">
       <motion.div
@@ -50,7 +67,7 @@ export function SettingsToggles() {
   const { theme, setTheme, soundOn, toggleSound } = useProfile();
   const ThemeIcon = THEME_ICON[theme];
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-1.5 sm:gap-2">
       <IconToggle label={soundOn ? "Mute sounds" : "Turn sounds on"} onClick={toggleSound}>
         {soundOn ? <Volume2 className="size-[18px]" /> : <VolumeX className="size-[18px]" />}
       </IconToggle>
@@ -59,6 +76,7 @@ export function SettingsToggles() {
           <ThemeIcon className="size-[18px]" />
         </motion.span>
       </IconToggle>
+      <AccountButton />
     </div>
   );
 }

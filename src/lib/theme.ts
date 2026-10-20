@@ -1,5 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import { useProfile } from "../store/profile";
+
+export function useMediaQuery(query: string): boolean {
+  return useSyncExternalStore(
+    (cb) => {
+      const mq = window.matchMedia(query);
+      mq.addEventListener("change", cb);
+      return () => mq.removeEventListener("change", cb);
+    },
+    () => window.matchMedia(query).matches,
+  );
+}
+
+/** Whether the dark theme is currently showing (user choice or system setting). */
+export function useIsDark(): boolean {
+  const theme = useProfile((s) => s.theme);
+  const systemDark = useMediaQuery("(prefers-color-scheme: dark)");
+  return theme === "dark" || (theme === "system" && systemDark);
+}
 
 export function useApplyTheme() {
   const theme = useProfile((s) => s.theme);

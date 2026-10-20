@@ -5,10 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && tsc --noEmit -p worker && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit",
-    "deploy": "npm run build && wrangler deploy"
+    "typecheck": "tsc --noEmit && tsc --noEmit -p worker",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types --include-env=false worker/worker-configuration.d.ts",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local",
+    "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
+    "db:seed:local": "node scripts/seed-demo.mjs && wrangler d1 execute DB --local --file scripts/.demo-seed.sql",
+    "db:unseed:local": "wrangler d1 execute DB --local --command \"DELETE FROM shares WHERE user_id LIKE 'demo-%'; DELETE FROM game_runs WHERE user_id LIKE 'demo-%'; DELETE FROM answers WHERE user_id LIKE 'demo-%'; DELETE FROM active_rounds WHERE user_id LIKE 'demo-%'; DELETE FROM rounds WHERE user_id LIKE 'demo-%'; DELETE FROM users WHERE id LIKE 'demo-%';\""
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
@@ -22,6 +27,7 @@
     "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.64.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.3.0",

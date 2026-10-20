@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Award, BookOpen, Check, Flame, Play, Sparkles, Target, Trophy, Zap } from "lucide-react";
+import { Award, BookOpen, Check, Flame, Play, RotateCcw, Sparkles, Target, Trophy, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { questionBank } from "../content";
@@ -9,11 +9,19 @@ import { Button } from "../components/Button";
 import { RichText } from "../components/RichText";
 import { Logo, SettingsToggles, XpPill } from "../components/TopBar";
 import { ROUND_SIZE, pickRandom } from "../engine/scoring";
+import { GamesStrip } from "../games/GamesStrip";
 import { SUBJECT_STYLE } from "../lib/subjects";
-import { rankRounds, useProfile } from "../store/profile";
+import { rankRounds, useProfile, useStats } from "../store/profile";
+import { useAuth } from "../store/auth";
+import { discardSavedRound, useSavedRound } from "../store/progress";
+import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
 
 const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
+
+/** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
+type StartRound = (qs: Question[], title: string, key?: string) => void;
+const MIXED_KEY = "mixed";
 const GLYPHS = [
   { c: "∑", x: "6%", y: "18%", s: 64, d: 7 },
   { c: "π", x: "88%", y: "12%", s: 56, d: 9 },
@@ -163,10 +171,12 @@ function useChapters(): Chapter[] {
 }
 
 /** One compact, fully tappable row per chapter so a whole subject fits on one screen. */
-function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: (qs: Question[], title: string) => void; index: number }) {
-  const rounds = useProfile((p) => p.rounds);
+function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: StartRound; index: number }) {
+  const { rounds } = useStats();
   const best = rankRounds(rounds.filter((r) => r.title === chapter.title))[0];
+  const saved = useSavedRound(chapter.key);
   const st = SUBJECT_STYLE[chapter.subject];
+  const startNew = () => onStart(pickRandom(chapter.questions), chapter.title, chapter.key);
 
   return (
     <motion.article
@@ -178,7 +188,7 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: (q
     >
       <motion.button
         type="button"
-        onClick={() => onStart(pickRandom(chapter.questions), chapter.title)}
+        onClick={startNew}
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.98 }}
         className="group flex w-full items-center gap-3 rounded-2xl border-2 border-line bg-surface p-2.5 text-left shadow-card transition-colors hover:border-fg/25 sm:gap-4 sm:p-3"
@@ -201,10 +211,22 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: (q
             <span>{chapter.questions.length} questions</span>
             <span className="flex items-center gap-1">
               <Trophy className="size-3.5 text-brand" />
-              {best ? <span className="font-bold text-fg">Best {best.accuracy}%</span> : "Not tried yet"}
+              {best ? <span className="font-bold text-fg">Best {best.accuracy}%</span> : saved ? null : "Not tried yet"}
             </span>
+            {saved && (
+              <span className="rounded-full bg-brand-soft px-2 py-0.5 font-bold text-fg">
+                In progress · {saved.attempts.length}/{saved.questionIds.length}
+              </span>
+            )}
           </span>
-          {best && (
+          {saved ? (
+            <span className="mt-1.5 block h-1.5 w-full max-w-48 overflow-hidden rounded-full bg-surface-2">
+              <span
+                className="block h-full rounded-full bg-brand"
+                style={{ width: `${(saved.attempts.length / saved.questionIds.length) * 100}%` }}
+              />
+            </span>
+          ) : best && (
             <span className="mt-1.5 block h-1.5 w-full max-w-48 overflow-hidden rounded-full bg-surface-2">
               <span
                 className={clsx("block h-full rounded-full", best.accuracy >= 80 ? "bg-ok" : best.accuracy >= 50 ? "bg-brand" : "bg-bad")}
@@ -215,15 +237,48 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: (q
         </span>
         <span className="grid size-11 shrink-0 place-items-center rounded-full bg-brand text-brand-ink shadow-pop transition-transform group-hover:scale-110">
           <Play className="size-5 fill-current" />
-          <span className="sr-only">Start {ROUND_SIZE} questions</span>
+          <span className="sr-only">{saved ? "Continue where you left off" : `Start ${ROUND_SIZE} questions`}</span>
         </span>
       </motion.button>
+      {saved && (
+        <StartOver
+          onConfirm={() => {
+            discardSavedRound(chapter.key, saved.roundId);
+            startNew();
+          }}
+        />
+      )}
     </motion.article>
   );
 }
 
+/** Small "Start over" link under an unfinished chapter. Asks for a second tap, since progress is lost. */
+function StartOver({ onConfirm }: { onConfirm: () => void }) {
+  const [confirming, setConfirming] = useState(false);
+  useEffect(() => {
+    if (!confirming) return;
+    const t = setTimeout(() => setConfirming(false), 4000);
+    return () => clearTimeout(t);
+  }, [confirming]);
+  return (
+    <div className="flex justify-end px-2 pt-1">
+      <button
+        type="button"
+        onClick={() => (confirming ? onConfirm() : setConfirming(true))}
+        className={clsx(
+          "flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-bold transition-colors",
+          confirming ? "bg-bad text-white" : "text-muted hover:text-fg",
+        )}
+      >
+        <RotateCcw className="size-3.5" />
+        {confirming ? "Tap again to lose progress and start over" : "Start over"}
+      </button>
+    </div>
+  );
+}
+
 /** Subject tabs + the chapter list for the selected subject. The tab bar sticks to the top while scrolling. */
-function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (qs: Question[], title: string) => void }) {
+function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: StartRound }) {
   const lastSubject = useProfile((p) => p.lastSubject);
   const setLastSubject = useProfile((p) => p.setLastSubject);
   const subjects = [...new Set(chapters.map((c) => c.subject))];
@@ -253,9 +308,9 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
     }
   }, [active]);
 
-  const start = (qs: Question[], title: string) => {
+  const start: StartRound = (qs, title, key) => {
     setLastSubject(active);
-    onStart(qs, title);
+    onStart(qs, title, key);
   };
 
   return (
@@ -340,7 +395,9 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: (q
 
 /** Slim header for returning students: stats and mixed practice, so chapters sit near the top. */
 function WelcomeBar({ onMixed }: { onMixed: () => void }) {
-  const profile = useProfile();
+  const profile = useStats();
+  const firstName = useAuth((s) => s.user?.name.split(" ")[0]);
+  const go = useNav((s) => s.go);
   const bestRound = rankRounds(profile.rounds)[0];
   const stats = [
     { icon: Zap, label: "XP", value: profile.totalXp, cls: "fill-brand text-brand" },
@@ -355,7 +412,7 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
       className="mb-4 flex items-center gap-3 rounded-[24px] border-2 border-line bg-surface p-3 shadow-card sm:mb-6 sm:justify-between sm:gap-4 sm:p-5"
     >
       <div className="min-w-0 flex-1">
-        <p className="hidden font-display text-2xl font-extrabold tracking-tight sm:block">Welcome back! 👋</p>
+        <p className="hidden font-display text-2xl font-extrabold tracking-tight sm:block">Welcome back{firstName ? `, ${firstName}` : ""}! 👋</p>
         <dl className="grid grid-cols-4 gap-2 sm:mt-2 sm:flex sm:gap-6">
           {stats.map((s) => (
             <div key={s.label} className="min-w-0">
@@ -367,18 +424,24 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
           ))}
         </dl>
       </div>
-      <Button variant="ghost" onClick={onMixed} className="shrink-0 px-3 sm:px-5" aria-label="Mixed practice">
-        <Sparkles className="size-4" /> <span className="hidden sm:inline">Mixed practice</span>
-      </Button>
+      <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
+        <Button onClick={() => go("board")} className="px-3 sm:px-5" aria-label="Leaderboard">
+          <Trophy className="size-4" /> <span className="hidden sm:inline">Leaderboard</span>
+        </Button>
+        <Button variant="ghost" onClick={onMixed} className="px-3 sm:px-5" aria-label="Mixed practice">
+          <Sparkles className="size-4" /> <span className="hidden sm:inline">Mixed practice</span>
+        </Button>
+      </div>
     </motion.section>
   );
 }
 
-export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: string) => void }) {
-  const profile = useProfile();
+export function HomeScreen({ onStart }: { onStart: StartRound }) {
+  const profile = useStats();
   const chapters = useChapters();
   const bestRound = rankRounds(profile.rounds)[0];
-  const returning = profile.sessions > 0;
+  // The logo opens the full landing page; otherwise returning students skip it.
+  const landing = useNav((s) => s.landing) || profile.sessions === 0;
   const [grades, setGrades] = useState<number[]>([]);
   const [subjects, setSubjects] = useState<SubjectId[]>([]);
 
@@ -408,10 +471,10 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: strin
           </div>
         </header>
 
-        {returning && <WelcomeBar onMixed={() => onStart(pickRandom(questionBank), "Mixed practice")} />}
+        {!landing && <WelcomeBar onMixed={() => onStart(pickRandom(questionBank), "Mixed practice", MIXED_KEY)} />}
 
-        {/* Hero: first visit only, so returning students reach their chapters without scrolling */}
-        {!returning && (
+        {/* Hero: first visit or the logo, so returning students otherwise reach their chapters without scrolling */}
+        {landing && (
         <section className="grid items-center gap-12 pb-14 pt-8 md:grid-cols-[1.15fr_1fr] md:pt-14">
           <div>
             <motion.div
@@ -465,7 +528,7 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: strin
               </Button>
               <button
                 type="button"
-                onClick={() => onStart(pickRandom(questionBank), "Mixed practice")}
+                onClick={() => onStart(pickRandom(questionBank), "Mixed practice", MIXED_KEY)}
                 className="font-semibold text-muted underline-offset-4 hover:text-fg hover:underline"
               >
                 or start mixed practice
@@ -502,6 +565,8 @@ export function HomeScreen({ onStart }: { onStart: (qs: Question[], title: strin
           </motion.div>
         </section>
         )}
+
+        <GamesStrip />
 
         {chapters.length > 0 && <ChapterPicker chapters={chapters} onStart={onStart} />}
 

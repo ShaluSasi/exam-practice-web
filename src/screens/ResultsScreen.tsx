@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, animate, motion, useMotionValue, useTransform } from "motion/react";
-import { Check, ChevronDown, Clock, Crown, Flame, House, Medal, RotateCcw, Target, Trophy, X, Zap } from "lucide-react";
+import { Check, ChevronDown, Clock, Crown, Flame, House, Medal, RotateCcw, Share2, Swords, Target, Trophy, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import type { Question, SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
 import { Figure } from "../components/Figure";
 import { scoreSession } from "../engine/scoring";
-import { rankRounds, useProfile } from "../store/profile";
+import { rankRounds, useStats } from "../store/profile";
 import { SubjectChip } from "../components/QuestionHeader";
 import { RichText } from "../components/RichText";
 import { SettingsToggles, Logo } from "../components/TopBar";
@@ -16,6 +16,68 @@ import { play } from "../lib/sound";
 import { SUBJECT_STYLE, formatTime } from "../lib/subjects";
 import { QuestionBody } from "../questions";
 import { useSession } from "../store/session";
+import { ShareSheet, type ShareTarget } from "../components/ShareSheet";
+import { useNav, type Opponent } from "../store/nav";
+
+/** Head-to-head result after playing a friend's challenge link. */
+function VersusBanner({ opponent, mine, myMarks, myTimeMs, onReply }: { opponent: Opponent; mine: number; myMarks: number; myTimeMs: number; onReply: () => void }) {
+  // Accuracy decides; equal accuracy goes to more marks, then to the faster player.
+  const by = mine !== opponent.accuracy ? "accuracy" : myMarks !== opponent.marks ? "marks" : "time";
+  const diff = by === "accuracy" ? mine - opponent.accuracy : by === "marks" ? myMarks - opponent.marks : opponent.timeMs - myTimeMs;
+  const outcome = diff > 0 ? "win" : diff < 0 ? "lose" : "tie";
+  const reason = by === "marks" ? " on marks" : by === "time" && outcome !== "tie" ? (outcome === "win" ? " — you were faster" : " by being faster") : "";
+  const title =
+    outcome === "win" ? `You beat ${opponent.name}${reason}! 🎉` : outcome === "lose" ? `${opponent.name} wins${reason} this time` : "It's a perfect tie!";
+  const bars = [
+    { who: "You", pct: mine, cls: "bg-brand" },
+    { who: opponent.name, pct: opponent.accuracy, cls: "bg-white/70" },
+  ];
+  return (
+    <motion.section
+      initial={{ opacity: 0, y: -12, scale: 0.97 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      transition={{ type: "spring", stiffness: 260, damping: 20 }}
+      className="mt-4 overflow-hidden rounded-[28px] bg-[#1b1f3b] p-5 text-white shadow-pop sm:p-6"
+    >
+      <div className="flex items-center gap-3">
+        <motion.span
+          animate={{ rotate: [0, -12, 12, 0] }}
+          transition={{ duration: 1.2, repeat: 2 }}
+          className="grid size-11 shrink-0 place-items-center rounded-full bg-brand text-brand-ink"
+        >
+          <Swords className="size-5" />
+        </motion.span>
+        <div className="min-w-0">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-white/60">Challenge result</p>
+          <p className="font-display text-2xl font-extrabold tracking-tight">{title}</p>
+        </div>
+      </div>
+      <div className="mt-4 grid gap-2.5">
+        {bars.map((b, i) => (
+          <div key={b.who} className="grid grid-cols-[5.5rem_1fr_3rem] items-center gap-3">
+            <span className="truncate text-sm font-bold">{b.who}</span>
+            <div className="h-3.5 overflow-hidden rounded-full bg-white/10">
+              <motion.div
+                className={clsx("h-full rounded-full", b.cls)}
+                initial={{ width: 0 }}
+                animate={{ width: `${b.pct}%` }}
+                transition={{ delay: 0.3 + i * 0.25, duration: 0.9, ease: "easeOut" }}
+              />
+            </div>
+            <span className="text-right font-display font-extrabold tabular-nums">{b.pct}%</span>
+          </div>
+        ))}
+      </div>
+      <motion.button
+        whileTap={{ scale: 0.96 }}
+        onClick={onReply}
+        className="mt-5 flex w-full items-center justify-center gap-2 rounded-2xl bg-brand px-4 py-3 font-display font-bold text-brand-ink"
+      >
+        <Share2 className="size-5" /> {outcome === "win" ? `Tell ${opponent.name} you won` : "Challenge them back"}
+      </motion.button>
+    </motion.section>
+  );
+}
 
 function ScoreRing({ pct }: { pct: number }) {
   const R = 70;
@@ -70,7 +132,7 @@ function Stat({ icon: Icon, label, value, tone, delay }: { icon: typeof Zap; lab
 }
 
 function ScoreHistory({ currentId }: { currentId: string | undefined }) {
-  const rounds = useProfile((p) => p.rounds);
+  const { rounds } = useStats();
   const ranked = useMemo(() => rankRounds(rounds), [rounds]);
   if (rounds.length === 0) return null;
   const best = ranked[0];
@@ -152,6 +214,9 @@ function ScoreHistory({ currentId }: { currentId: string | undefined }) {
 export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry: (qs: Question[], title: string) => void }) {
   const s = useSession();
   const [openId, setOpenId] = useState<string | null>(null);
+  const [share, setShare] = useState<ShareTarget | null>(null);
+  const opponent = useNav((n) => n.opponent);
+  const go = useNav((n) => n.go);
   const byId = useMemo(() => Object.fromEntries(s.questions.map((q) => [q.id, q])), [s.questions]);
 
   const { marks, maxMarks, accuracy: pct } = scoreSession(s.questions, s.attempts);
@@ -175,6 +240,21 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
     }
   }, [pct]);
 
+  const timeMs = (s.finishedAt ?? Date.now()) - s.startedAt;
+  const openShare = () =>
+    setShare({
+      kind: "round",
+      roundId: s.roundId,
+      questionIds: s.questions.map((q) => q.id),
+      title: s.title || "Mixed practice",
+      accuracy: pct,
+      marks,
+      maxMarks,
+      xp: s.xp,
+      streak: s.bestStreak,
+      timeMs,
+    });
+
   const headline = pct >= 80 ? "Outstanding!" : pct >= 50 ? "Good work!" : "Keep practising!";
   const sub =
     pct >= 80 ? "You're exam-ready on these topics." : pct >= 50 ? "Solid effort — review the misses below." : "Every mistake is a lesson. Check the explanations below.";
@@ -186,6 +266,8 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
           <Logo />
           <SettingsToggles />
         </header>
+
+        {opponent && <VersusBanner opponent={opponent} mine={pct} myMarks={marks} myTimeMs={timeMs} onReply={openShare} />}
 
         <section className="mt-4 flex flex-col items-center rounded-[28px] border-2 border-line bg-surface p-6 text-center shadow-card sm:p-10">
           <motion.div
@@ -212,22 +294,43 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
             <Stat icon={Target} label="Marks" value={`${marks}/${maxMarks}`} tone="text-maths" delay={0.4} />
             <Stat icon={Zap} label="XP earned" value={`+${s.xp}`} tone="fill-brand text-brand" delay={0.48} />
             <Stat icon={Flame} label="Best streak" value={String(s.bestStreak)} tone="fill-bad/30 text-bad" delay={0.56} />
-            <Stat icon={Clock} label="Time" value={formatTime((s.finishedAt ?? Date.now()) - s.startedAt)} tone="text-physics" delay={0.64} />
+            <Stat icon={Clock} label="Time" value={formatTime(timeMs)} tone="text-physics" delay={0.64} />
           </div>
 
-          <div className="mt-7 flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
+          <motion.button
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.75 }}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.97 }}
+            onClick={openShare}
+            className="group relative mt-7 flex w-full items-center justify-center gap-2.5 overflow-hidden rounded-2xl bg-gradient-to-r from-[#ffc53d] to-brand px-6 py-4 font-display text-lg font-extrabold text-brand-ink shadow-pop"
+          >
+            <motion.span
+              className="pointer-events-none absolute inset-y-0 -left-1/3 w-1/3 skew-x-[-20deg] bg-white/40"
+              animate={{ left: ["-35%", "135%"] }}
+              transition={{ duration: 1.8, repeat: Infinity, repeatDelay: 1.6, ease: "easeInOut" }}
+            />
+            <Share2 className="relative size-5" /> <span className="relative">Share &amp; challenge friends</span>
+          </motion.button>
+
+          <div className="mt-3 flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
             {wrong.length > 0 && (
-              <Button onClick={() => onRetry(wrong, s.title ? `${s.title} · mistakes` : "Mistakes")}>
+              <Button variant="dark" onClick={() => onRetry(wrong, s.title ? `${s.title} · mistakes` : "Mistakes")}>
                 <RotateCcw className="size-5" /> Retry {wrong.length} mistake{wrong.length === 1 ? "" : "s"}
               </Button>
             )}
-            <Button variant={wrong.length ? "ghost" : "primary"} onClick={onHome}>
+            <Button variant="ghost" onClick={() => go("board")}>
+              <Trophy className="size-5" /> Leaderboard
+            </Button>
+            <Button variant="ghost" onClick={onHome}>
               <House className="size-5" /> Back to home
             </Button>
           </div>
         </section>
+        <ShareSheet target={share} onClose={() => setShare(null)} />
 
-        <ScoreHistory currentId={s.finishedAt ? `${s.finishedAt}` : undefined} />
+        <ScoreHistory currentId={s.finishedAt ? s.roundId : undefined} />
 
         {/* Subject breakdown */}
         <section className="mt-8">
