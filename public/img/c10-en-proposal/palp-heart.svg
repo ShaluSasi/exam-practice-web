@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img">
+<title>A big heart beating fast with short motion lines</title>
+<style>
+.fb{transform-box:fill-box}.bt{animation:bt .5s ease-in-out infinite alternate}@keyframes bt{from{transform:scale(1)}to{transform:scale(1.25)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="bt" style="transform-box:fill-box;transform-origin:center"><g transform="translate(100 74) scale(3.2)"><path d="M0 8C-14 -4 -8 -14 0 -6C8 -14 14 -4 0 8Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/></g></g><path d="M30 50L44 58M26 80L42 80M32 108L46 100M170 50L156 58M174 80L158 80M168 108L154 100" fill="none" stroke="#E5484D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

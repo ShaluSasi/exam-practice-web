@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img"><title>A bottle of hair dye with a brush and a dab of colour</title><style>
+.fl{animation:fl 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,1)}to{transform:scale(.8,1.25)}}
+.sw{animation:sw 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+.bob{animation:bob 2.2s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-5px)}}
+.tw{animation:tw 1.6s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:1}to{opacity:.25}}
+.rot{animation:rot 24s linear infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes rot{to{transform:rotate(360deg)}}
+.dr{animation:dr 4s ease-in-out infinite alternate}
+@keyframes dr{from{transform:translateX(-8px)}to{transform:translateX(8px)}}
+.fall{animation:fall 2s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}20%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.pu{animation:pu 1.8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes pu{from{transform:scale(1)}to{transform:scale(1.12)}}
+.d2{animation-delay:.5s}.d3{animation-delay:1s}.d4{animation-delay:1.5s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#F3EEFF"/><g transform="translate(80 120) scale(1.4)" ><rect x="-14" y="-46" width="28" height="46" rx="8" fill="#7A4A2A" stroke="#2B2F4A" stroke-width="3" /><rect x="-8" y="-60" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><rect x="-10" y="-18" width="20" height="12" rx="3" fill="#FFFFFF" /></g><g transform="translate(130 125) rotate(20)"><rect x="-3" y="-40" width="6" height="40" rx="3" fill="#C9743A" stroke="#2B2F4A" stroke-width="3" /><rect x="-6" y="-52" width="12" height="14" rx="3" fill="#7A4A2A" stroke="#2B2F4A" stroke-width="3" /></g><circle cx="130" cy="60" r="10" fill="#7A4A2A"/></svg>

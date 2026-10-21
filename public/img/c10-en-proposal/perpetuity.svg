@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A glowing infinity loop above a green field, standing for forever</title>
+<style>
+.fb{transform-box:fill-box}.rt{transform-origin:200px 120px;animation:rt 6s linear infinite}@keyframes rt{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M16 0H384Q400 0 400 16V150H0V16Q0 0 16 0Z" fill="#E3F2FD"/><path d="M0 150H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#9BD66F"/><path d="M130 120C130 80 190 80 200 120C210 160 270 160 270 120C270 80 210 80 200 120C190 160 130 160 130 120Z" fill="none" stroke="#7C5CFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" /><g class="rt"><circle cx="200" cy="120" r="3" fill="#FFD23F" /></g><rect x="60" y="180" width="280" height="8" rx="3" fill="#8A5A2B" stroke="#2B2F4A" stroke-width="2" /><text x="200" y="218" font-size="13" fill="#2B2F4A" text-anchor="middle" font-weight="700" font-family="system-ui, sans-serif" >forever and ever</text>
+</svg>

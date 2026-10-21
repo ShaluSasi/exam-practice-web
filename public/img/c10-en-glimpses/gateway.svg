@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A signpost at a hill entrance with a plane, a train and a bus drawn on its boards</title><style>
+.bob{animation:bob 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes bob{to{transform:translateY(-5px)}}
+.sway{animation:sway 2.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+.flick{animation:flick .45s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes flick{to{transform:scale(1.18,.82)}}
+.steam{animation:steam 2.4s ease-in infinite;transform-box:fill-box}
+@keyframes steam{0%{transform:translateY(6px);opacity:0}30%{opacity:.85}100%{transform:translateY(-16px);opacity:0}}
+.drift{animation:drift 7s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translateX(34px)}}
+.fall{animation:fall 1.7s ease-in infinite}
+@keyframes fall{0%{transform:translateY(-22px);opacity:0}25%{opacity:1}100%{transform:translateY(38px);opacity:0}}
+.pulse{animation:pulse 1.3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{to{transform:scale(1.12)}}
+.slide{animation:slide 4s ease-in-out infinite alternate}
+@keyframes slide{from{transform:translateX(-26px)}to{transform:translateX(26px)}}
+.blink{animation:blink 1.4s steps(2) infinite}
+@keyframes blink{50%{opacity:.35}}
+.rip{animation:rip 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes rip{0%{transform:scale(.4);opacity:.9}100%{transform:scale(1.6);opacity:0}}
+.dive{animation:dive 2.2s ease-in infinite}
+@keyframes dive{0%,20%{transform:translateY(-10px)}60%{transform:translateY(26px)}100%{transform:translateY(-10px)}}
+.spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="0" y="0" width="400" height="240" rx="0" fill="#DFF1FF" /><path d="M0 120 Q60 70 130 100 T260 86 T400 110 V180 H0Z" fill="#A8D58F" /><path d="M0 140 Q90 102 190 124 T400 116 V180 H0Z" fill="#7DB86B" /><rect x="0" y="190" width="400" height="50" rx="0" fill="#7DB86B" /><rect x="190" y="80" width="12" height="130" rx="0" fill="#8B5A2B" stroke="#2B2F4A" stroke-width="3" /><path d="M120 86 H300 L316 100 L300 114 H120Z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><g class="slide" transform="translate(0 0)"><path d="M150 100 H190 M170 90 L164 100 L170 110 M182 94 L178 100 L182 106" fill="none" stroke="#0B93D4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M210 100 h60" fill="none" stroke="#C8D2E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><circle cx="284" cy="100" r="6" fill="#3FA34D" /><rect x="120" y="126" width="120" height="28" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><rect x="256" y="126" width="62" height="28" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><rect x="132" y="132" width="30" height="16" rx="4" fill="#2D6CDF" stroke="#2B2F4A" stroke-width="2" /><circle cx="140" cy="152" r="3" fill="#2B2F4A" /><circle cx="154" cy="152" r="3" fill="#2B2F4A" /><rect x="176" y="132" width="34" height="16" rx="4" fill="#FFD25E" stroke="#2B2F4A" stroke-width="2" /><rect x="180" y="135" width="8" height="6" rx="1" fill="#CFE9FF" /><rect x="192" y="135" width="8" height="6" rx="1" fill="#CFE9FF" /><circle cx="184" cy="152" r="3" fill="#2B2F4A" /><circle cx="202" cy="152" r="3" fill="#2B2F4A" /><rect x="262" y="132" width="20" height="12" rx="3" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" /><path d="M290 138 l10 0" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><text x="210" y="224" font-family="sans-serif" font-size="13" font-weight="700" fill="#2B2F4A" text-anchor="middle" >One gate leads in</text></svg>

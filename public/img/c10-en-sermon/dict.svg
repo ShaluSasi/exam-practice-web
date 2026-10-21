@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>An open dictionary with a magnifying glass</title><style>
+.fl{animation:fl 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,1)}to{transform:scale(.8,1.25)}}
+.sw{animation:sw 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+.bob{animation:bob 2.2s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-5px)}}
+.tw{animation:tw 1.6s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:1}to{opacity:.25}}
+.rot{animation:rot 24s linear infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes rot{to{transform:rotate(360deg)}}
+.dr{animation:dr 4s ease-in-out infinite alternate}
+@keyframes dr{from{transform:translateX(-8px)}to{transform:translateX(8px)}}
+.fall{animation:fall 2s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}20%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.pu{animation:pu 1.8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes pu{from{transform:scale(1)}to{transform:scale(1.12)}}
+.d2{animation-delay:.5s}.d3{animation-delay:1s}.d4{animation-delay:1.5s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="30" y="30" width="160" height="170" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><rect x="210" y="30" width="160" height="170" rx="8" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><line x1="200" y1="30" x2="200" y2="200" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="46" y1="56" x2="150" y2="56" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="56" x2="330" y2="56" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="46" y1="78" x2="136" y2="78" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="78" x2="310" y2="78" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="46" y1="100" x2="122" y2="100" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="100" x2="330" y2="100" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="46" y1="122" x2="150" y2="122" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="122" x2="310" y2="122" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="46" y1="144" x2="136" y2="144" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="144" x2="330" y2="144" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="46" y1="166" x2="122" y2="166" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="166" x2="310" y2="166" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="46" y1="188" x2="150" y2="188" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><line x1="226" y1="188" x2="330" y2="188" stroke="#B8C0E6" stroke-width="4" stroke-linecap="round" /><rect x="46" y="44" width="36" height="8" rx="3" fill="#FF8A1F" /><circle cx="300" cy="160" r="24" fill="none" stroke="#2B2F4A" stroke-width="5"/><line x1="318" y1="178" x2="342" y2="204" stroke="#2B2F4A" stroke-width="6" stroke-linecap="round" /></svg>
