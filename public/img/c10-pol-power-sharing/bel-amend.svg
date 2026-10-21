@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A large book of the constitution between a start point labelled 1970 and an end point labelled 1993, with a question mark</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.blk,.drift,.rock{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.1)}}
+.spin{animation:spin 8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rspin{transform-box:fill-box;transform-origin:center;animation:rspin 8s linear infinite}
+@keyframes rspin{to{transform:rotate(-360deg)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.4}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+.rock{animation:rock 3s ease-in-out infinite alternate}
+@keyframes rock{from{transform:rotate(-1.5deg)}to{transform:rotate(1.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7C5CFF"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#E3F2FD"/><text x="200" y="22" font-size="13" text-anchor="middle">Changing the constitution to fit everyone in</text><g transform="translate(200 105) scale(3)"><g class="pul"><rect x="-14" y="-18" width="28" height="36" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-8 -9H8M-8 -2H8M-8 5H3" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></g></g><path d="M40 190H360" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="60" cy="190" r="8" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="340" cy="190" r="8" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="60" y="218" font-size="14" text-anchor="middle">1970</text><text x="340" y="218" font-size="14" text-anchor="middle">1993</text><text x="200" y="172" font-size="12" text-anchor="middle">how many amendments?</text><g transform="translate(285 95) scale(1)"><circle r="20" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g><text x="285" y="104" font-size="26" text-anchor="middle" style="fill:#FF8A1F">?</text></svg>

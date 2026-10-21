@@ -1,0 +1,2207 @@
+[
+ {
+  "id": "in-cbse-10-pol-political-parties-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Meaning and components",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A political party has three components. Tap the one that stands for the **active members**.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/party-parts.svg",
+   "alt": "A leader on a podium, members with pennants and a crowd of listeners"
+  },
+  "spots": [
+   {
+    "id": "leader",
+    "x": 47.5,
+    "y": 20.8,
+    "label": "Leader"
+   },
+   {
+    "id": "active",
+    "x": 20.0,
+    "y": 56.7,
+    "label": "Active members"
+   },
+   {
+    "id": "followers",
+    "x": 72.5,
+    "y": 83.3,
+    "label": "Followers"
+   },
+   {
+    "id": "badge",
+    "x": 47.5,
+    "y": 44.2,
+    "label": "Party badge on podium"
+   }
+  ],
+  "answer": "active",
+  "hint": "Active members work for the party, unlike the audience.",
+  "explanation": "The three components are the **leaders**, the **active members** and the **followers**. The active members are the pennant-carrying workers who do the party's work. The leader is on the podium and the followers are the crowd listening."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Meaning and components",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which of the following best defines a political party?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/what-is.svg",
+   "alt": "People with a ballot box and an arrow to a government building"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A group of citizens who put pressure on the government without contesting elections"
+   },
+   {
+    "id": "b",
+    "text": "An organisation of officials who run the administration permanently"
+   },
+   {
+    "id": "c",
+    "text": "A group of people who come together to contest elections and hold power in the government"
+   },
+   {
+    "id": "d",
+    "text": "A group of people who live in the same region and speak one language"
+   }
+  ],
+  "answer": "c",
+  "hint": "Two things: contesting elections and holding power.",
+  "explanation": "A political party is a group of people who come together to **contest elections and hold power in the government**. They agree on policies and programmes meant to promote the collective good. Pressure groups do not contest elections, and officials are not elected through parties."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which picture shows a **multiparty system**, in which more than two parties have a reasonable chance of coming to power?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/ps-multi-q.svg",
+   "alt": "Five invented parties of similar strength"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "One party only",
+    "image": {
+     "src": "/img/c10-pol-political-parties/th-one.svg",
+     "alt": "One big party"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Three or more contenders",
+    "image": {
+     "src": "/img/c10-pol-political-parties/th-multi.svg",
+     "alt": "Five parties of similar size"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Two real contenders",
+    "image": {
+     "src": "/img/c10-pol-political-parties/th-two.svg",
+     "alt": "Two parties of similar size"
+    }
+   },
+   {
+    "id": "d",
+    "text": "No parties at all",
+    "image": {
+     "src": "/img/c10-pol-political-parties/th-none.svg",
+     "alt": "Separate grey figures"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "Count the parties with a real chance of winning.",
+  "explanation": "In a **multiparty system** several parties compete and more than two have a reasonable chance of power, alone or in alliance. The picture of one party is a **one-party system**, two real contenders is a **two-party system**, and separate figures show no party organisation."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Functions of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Parties go by the direction of their leaders when laws are passed. Tap the card that shows the function of **making laws**.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/fn-board.svg",
+   "alt": "Six cards showing party functions"
+  },
+  "spots": [
+   {
+    "id": "contest",
+    "x": 17.5,
+    "y": 25.0,
+    "label": "Contesting elections"
+   },
+   {
+    "id": "policies",
+    "x": 50.0,
+    "y": 23.3,
+    "label": "Putting forward policies"
+   },
+   {
+    "id": "laws",
+    "x": 82.5,
+    "y": 27.5,
+    "label": "Making laws"
+   },
+   {
+    "id": "govt",
+    "x": 17.5,
+    "y": 70.8,
+    "label": "Forming and running government"
+   },
+   {
+    "id": "opposition",
+    "x": 50.0,
+    "y": 66.7,
+    "label": "Playing the opposition"
+   },
+   {
+    "id": "opinion",
+    "x": 82.5,
+    "y": 70.8,
+    "label": "Shaping public opinion"
+   }
+  ],
+  "answer": "laws",
+  "hint": "Laws are debated and passed in the legislature.",
+  "explanation": "Parties play a decisive role in making laws. Laws are passed in the legislature, but most members belong to a party and follow its **leadership's direction**, whatever their personal opinions. The building with the dome is the legislature."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Functions of political parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A party that lost the election voices different views and criticises the government's failures. Tap the card showing this role.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/fn-board.svg",
+   "alt": "Six cards showing party functions"
+  },
+  "spots": [
+   {
+    "id": "contest",
+    "x": 17.5,
+    "y": 25.0,
+    "label": "Contesting elections"
+   },
+   {
+    "id": "policies",
+    "x": 50.0,
+    "y": 23.3,
+    "label": "Putting forward policies"
+   },
+   {
+    "id": "laws",
+    "x": 82.5,
+    "y": 27.5,
+    "label": "Making laws"
+   },
+   {
+    "id": "govt",
+    "x": 17.5,
+    "y": 70.8,
+    "label": "Forming and running government"
+   },
+   {
+    "id": "opposition",
+    "x": 50.0,
+    "y": 66.7,
+    "label": "Playing the opposition"
+   },
+   {
+    "id": "opinion",
+    "x": 82.5,
+    "y": 70.8,
+    "label": "Shaping public opinion"
+   }
+  ],
+  "answer": "opposition",
+  "hint": "Two benches face each other.",
+  "explanation": "Parties that lose the election play the role of **opposition**. They voice different views, criticise the government for its failures or wrong policies and mobilise opinion against it. The card with two benches and a megaphone shows this."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Functions of political parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Party P wins the most seats and its leaders become ministers. Party Q loses and sits on the other benches. Which pair of roles is correct?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/journey.svg",
+   "alt": "A ballot box, a government building and a legislature"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "P is the opposition and Q is the ruling party"
+   },
+   {
+    "id": "b",
+    "text": "Both P and Q form the government together"
+   },
+   {
+    "id": "c",
+    "text": "P is a pressure group and Q is a state party"
+   },
+   {
+    "id": "d",
+    "text": "P is the ruling party and Q plays the role of opposition"
+   }
+  ],
+  "answer": "d",
+  "hint": "The ruling party runs the government.",
+  "explanation": "A **ruling party** runs the government; parties that lose play the **opposition**, voicing different views and criticising the government. Winning parties do not become pressure groups, and a state party is a classification by the Election Commission."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Necessity of parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Imagine every candidate in an election is independent. Which problem does the chapter point out?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/no-parties.svg",
+   "alt": "Five separate candidates with no common group"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Elections are held in only one constituency"
+   },
+   {
+    "id": "b",
+    "text": "No one is responsible for how the country will be run, and no major promises of policy change can be made"
+   },
+   {
+    "id": "c",
+    "text": "Voters can no longer vote in secret"
+   },
+   {
+    "id": "d",
+    "text": "Candidates become accountable to the whole country instead of their locality"
+   }
+  ],
+  "answer": "b",
+  "hint": "Individual members answer only for their locality.",
+  "explanation": "Without parties, nobody can promise major policy changes and the government's utility is uncertain. Representatives are accountable to their **constituency** for local work, but **no one is responsible for the country as a whole**. The other options are not claimed in the chapter."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Necessity of parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In many states the panchayat elections are not fought on party lines, yet the village often splits into factions, each putting up a 'panel'. What does this show?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/panels.svg",
+   "alt": "A village divided into two groups each with a panel of candidates"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "People form groups that do exactly what parties do, so parties arise naturally"
+   },
+   {
+    "id": "b",
+    "text": "Panchayats cannot function without a ruling party at the State level"
+   },
+   {
+    "id": "c",
+    "text": "Factions are banned by the Election Commission"
+   },
+   {
+    "id": "d",
+    "text": "Only literate villagers form groups"
+   }
+  ],
+  "answer": "a",
+  "hint": "A panel of candidates is a mini party.",
+  "explanation": "The chapter says a panel of candidates **is exactly what a party does**; that is why parties exist in almost all countries, big or small, old or new. The other options are not made in the text."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Functions of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are functions of political parties listed in the chapter? Select all that apply.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/fn-board.svg",
+   "alt": "Six cards showing party functions"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Contest elections and put up candidates"
+   },
+   {
+    "id": "b",
+    "text": "Put forward policies and programmes for voters to choose from"
+   },
+   {
+    "id": "c",
+    "text": "Form and run governments"
+   },
+   {
+    "id": "d",
+    "text": "Appoint judges of the Supreme Court"
+   },
+   {
+    "id": "e",
+    "text": "Shape public opinion by raising issues"
+   },
+   {
+    "id": "f",
+    "text": "Prepare the electoral rolls"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "Think of what parties do before, during and after elections.",
+  "explanation": "Parties contest elections, offer policies, form and run governments, play opposition and shape public opinion. **Appointing judges** is not a party function and **preparing electoral rolls** is the work of the Election Commission."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Functions of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the stages of a party's journey in a democracy in the correct order.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/journey.svg",
+   "alt": "A ballot box, a government building and a legislature"
+  },
+  "items": [
+   {
+    "id": "c",
+    "text": "It forms the government and its leaders become ministers"
+   },
+   {
+    "id": "a",
+    "text": "It selects candidates and contests the election"
+   },
+   {
+    "id": "e",
+    "text": "It loses the next election and plays the opposition"
+   },
+   {
+    "id": "b",
+    "text": "It wins support and enough seats"
+   },
+   {
+    "id": "d",
+    "text": "It runs the government and takes the big policy decisions"
+   }
+  ],
+  "answer": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e"
+  ],
+  "startLabel": "Earliest",
+  "endLabel": "Latest",
+  "hint": "Elections come first; losing comes at the end.",
+  "explanation": "A party first **contests** the election, **wins** seats, then **forms the government**, **runs it** by taking policy decisions and, if it loses the next election, becomes the **opposition**."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Functions of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each function of parties with an example.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/fn-board.svg",
+   "alt": "Six cards showing party functions"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Contest elections"
+   },
+   {
+    "id": "l2",
+    "text": "Make laws"
+   },
+   {
+    "id": "l3",
+    "text": "Play the role of opposition"
+   },
+   {
+    "id": "l4",
+    "text": "Give access to government schemes"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Top leaders choose the candidates in India"
+   },
+   {
+    "id": "r2",
+    "text": "Legislators follow the direction of the party leadership"
+   },
+   {
+    "id": "r3",
+    "text": "Criticise the government for its failures"
+   },
+   {
+    "id": "r4",
+    "text": "A citizen finds it easier to approach a local party leader than an officer"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Match each function to its illustration in the text.",
+  "explanation": "In India **top party leaders choose** candidates; in law-making members **go by the leadership's direction**; the opposition **criticises** the government; and local party leaders give people **access to government machinery and welfare schemes**."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/coalition.svg",
+   "alt": "A government box made of three joined parties"
+  },
+  "assertion": "India has a multiparty system.",
+  "reason": "The social and geographical diversity of such a large country is not easily absorbed by two or even three parties.",
+  "answer": "a",
+  "hint": "Does the reason explain why India has many parties?",
+  "explanation": "Both statements are true and the reason explains the assertion. The chapter says a party system **evolves** from a society's divisions and history, so India's diversity led to a **multiparty system**."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Why does the chapter say a one-party system is **not** a democratic option?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/one-party.svg",
+   "alt": "A single party badge with a cross"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Only one election is held every ten years"
+   },
+   {
+    "id": "b",
+    "text": "The party in power is always a regional party"
+   },
+   {
+    "id": "c",
+    "text": "Voters are not allowed to vote at all"
+   },
+   {
+    "id": "d",
+    "text": "The electoral system does not permit free competition for power, even if people may legally form parties"
+   }
+  ],
+  "answer": "d",
+  "hint": "Look at what happens to competition for power.",
+  "explanation": "The chapter's example is a country where only one party is allowed to rule. People may legally form other parties but the **system does not allow free competition**. Any democratic system must allow at least two parties to compete and give them a fair chance."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each party system with its description or example from the chapter.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/one-party.svg",
+   "alt": "A single party badge with a cross"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "One-party system"
+   },
+   {
+    "id": "l2",
+    "text": "Two-party system"
+   },
+   {
+    "id": "l3",
+    "text": "Multiparty system"
+   },
+   {
+    "id": "l4",
+    "text": "Alliance or front"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Only one party is allowed to control and run the government"
+   },
+   {
+    "id": "r2",
+    "text": "Power usually changes between two main parties, as in the USA and the UK"
+   },
+   {
+    "id": "r3",
+    "text": "More than two parties have a reasonable chance of coming to power, as in India"
+   },
+   {
+    "id": "r4",
+    "text": "Several parties join hands to contest elections and win power"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Recall the examples: China, the USA and UK, India.",
+  "explanation": "In a **one-party system** only one party may rule; in a **two-party system** (USA, UK) power alternates between two main parties; in a **multiparty system** (India) several parties have a real chance; an **alliance or front** is parties joining hands to contest and win."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "When several parties in a multiparty system join hands to contest elections and win power, this is called a(n)",
+  "image": {
+   "src": "/img/c10-pol-political-parties/alliance.svg",
+   "alt": "Three invented parties joining into an alliance"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "one-party system"
+   },
+   {
+    "id": "b",
+    "text": "alliance or front"
+   },
+   {
+    "id": "c",
+    "text": "defection"
+   },
+   {
+    "id": "d",
+    "text": "affidavit"
+   }
+  ],
+  "answer": "b",
+  "hint": "Think of a joint team.",
+  "explanation": "Parties that join hands to contest elections and win power form an **alliance or front**. A one-party system has a single party; **defection** is changing party after being elected; an **affidavit** is a sworn written statement."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each alliance or party type with the item it goes with, as given in the chapter.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/alliances-2004.svg",
+   "alt": "Three boxes of parties joined into alliances"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Indian National Congress"
+   },
+   {
+    "id": "l2",
+    "text": "Bharatiya Janata Party"
+   },
+   {
+    "id": "l3",
+    "text": "Communist Party of India (Marxist)"
+   },
+   {
+    "id": "l4",
+    "text": "Telugu Desam Party"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "United Progressive Alliance"
+   },
+   {
+    "id": "r2",
+    "text": "National Democratic Alliance"
+   },
+   {
+    "id": "r3",
+    "text": "Left Front"
+   },
+   {
+    "id": "r4",
+    "text": "State party"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Three big alliances in the 2004 elections, plus a regional party.",
+  "explanation": "The text names three alliances in 2004: the **National Democratic Alliance**, the **United Progressive Alliance** and the **Left Front**. The Congress led the UPA, the BJP led the NDA, and the CPI-M belongs to the Left Front. The Telugu Desam Party is a **State party**."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Party systems",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/ps-multi-q.svg",
+   "alt": "Five invented parties of similar strength"
+  },
+  "assertion": "A country can choose its party system quickly, whenever it likes.",
+  "reason": "A party system evolves over a long time, depending on the society, its divisions, its history of politics and its system of elections.",
+  "answer": "d",
+  "hint": "Is the assertion true? Does the chapter say systems can be changed quickly?",
+  "explanation": "The assertion is false: the chapter says party systems are **not something a country can choose**, and **cannot be changed very quickly**. The reason is true; it is why no system is ideal for all countries."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "Which statements about popular participation in parties are supported by the chapter's evidence? Select all that apply.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/party-id.svg",
+   "alt": "Bars of per cent who feel close to a party"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "In South Asia more people say they have not much or no trust in parties than great or some trust"
+   },
+   {
+    "id": "b",
+    "text": "Parties are among the least trusted institutions in the world"
+   },
+   {
+    "id": "c",
+    "text": "The share of Indians who say they are party members is higher than in Canada, Japan, Spain and South Korea"
+   },
+   {
+    "id": "d",
+    "text": "Party membership in India has fallen steadily in the last three decades"
+   },
+   {
+    "id": "e",
+    "text": "Parties enjoy more trust than courts or the media"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "The chapter says the belief that parties are unpopular is only partly true for India.",
+  "explanation": "The evidence shows low trust but fairly high participation, and membership in India has **risen steadily**. The claims about **falling membership** and parties being **more trusted** than other institutions are not true."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the survey, those who feel close to a party were the largest share in one year. Tap that bar.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/party-id.svg",
+   "alt": "Bar chart of per cent who feel close to a party by year"
+  },
+  "spots": [
+   {
+    "id": "1971",
+    "x": 18.0,
+    "y": 61.9,
+    "label": "Year 1971 (38%)"
+   },
+   {
+    "id": "1996",
+    "x": 34.0,
+    "y": 65.5,
+    "label": "Year 1996 (31%)"
+   },
+   {
+    "id": "1999",
+    "x": 50.0,
+    "y": 61.9,
+    "label": "Year 1999 (38%)"
+   },
+   {
+    "id": "2004",
+    "x": 66.0,
+    "y": 54.1,
+    "label": "Year 2004 (53%)"
+   },
+   {
+    "id": "2005",
+    "x": 82.0,
+    "y": 56.7,
+    "label": "Year 2005 (48%)"
+   }
+  ],
+  "answer": "2004",
+  "hint": "Find the tallest bar.",
+  "explanation": "The shares were 38 (1971), 31 (1996), 38 (1999), **53 (2004)** and 48 (2005). The tallest bar is 2004. Despite fluctuations, party identification has gone up in India."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In the chart, by how many **percentage points** did the share of people feeling close to a party rise from 1996 to 2004?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/party-id.svg",
+   "alt": "Bars of per cent who feel close to a party"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "15 percentage points"
+   },
+   {
+    "id": "b",
+    "text": "71 percentage points"
+   },
+   {
+    "id": "c",
+    "text": "22 percentage points"
+   },
+   {
+    "id": "d",
+    "text": "84 percentage points"
+   }
+  ],
+  "answer": "c",
+  "hint": "Subtract the 1996 value from the 2004 value.",
+  "explanation": "2004 is 53 and 1996 is 31, so the rise is 53 - 31 = **22 points**. Mistakes: using 1999 instead of 1996 gives 15; dividing the rise by 31 gives about 71 per cent, which is a relative change, not points; adding the values gives 84."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange these years in **increasing** order of the share of people who felt close to a party.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/party-id.svg",
+   "alt": "Bars of per cent who feel close to a party"
+  },
+  "items": [
+   {
+    "id": "y2004",
+    "text": "2004 (53 per cent)"
+   },
+   {
+    "id": "y1971",
+    "text": "1971 (38 per cent)"
+   },
+   {
+    "id": "y2005",
+    "text": "2005 (48 per cent)"
+   },
+   {
+    "id": "y1996",
+    "text": "1996 (31 per cent)"
+   }
+  ],
+  "answer": [
+   "y1996",
+   "y1971",
+   "y2005",
+   "y2004"
+  ],
+  "startLabel": "Lowest",
+  "endLabel": "Highest",
+  "hint": "Lowest bar first.",
+  "explanation": "The values are 31 (1996), 38 (1971), 48 (2005) and 53 (2004). 1971 and 1999 were equal, which is why 1999 is left out."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the bar for the country where about **3.4 per cent** of people say they are members of a political party.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/members.svg",
+   "alt": "Bar chart of party membership in six countries with the global average"
+  },
+  "spots": [
+   {
+    "id": "Bangladesh",
+    "x": 16.7,
+    "y": 53.4,
+    "label": "Bangladesh (23.5%)"
+   },
+   {
+    "id": "India",
+    "x": 30.0,
+    "y": 68.0,
+    "label": "India (11.4%)"
+   },
+   {
+    "id": "Sweden",
+    "x": 43.3,
+    "y": 69.3,
+    "label": "Sweden (10.3%)"
+   },
+   {
+    "id": "Canada",
+    "x": 56.7,
+    "y": 74.3,
+    "label": "Canada (6.1%)"
+   },
+   {
+    "id": "Japan",
+    "x": 70.0,
+    "y": 77.6,
+    "label": "Japan (3.4%)"
+   },
+   {
+    "id": "Spain",
+    "x": 83.3,
+    "y": 80.1,
+    "label": "Spain (1.3%)"
+   }
+  ],
+  "answer": "Japan",
+  "hint": "Pick one of the two shortest bars.",
+  "explanation": "Japan is at 3.4 per cent. Bangladesh 23.5, India 11.4, Sweden 10.3, Canada 6.1 and Spain 1.3 are the other bars. The global average is 9.1."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "In the chart, how many of the six countries shown have a party membership share **above** the global average of 9.1 per cent?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/members.svg",
+   "alt": "Party membership bars with the global average"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "3"
+   },
+   {
+    "id": "b",
+    "text": "2"
+   },
+   {
+    "id": "c",
+    "text": "4"
+   },
+   {
+    "id": "d",
+    "text": "1"
+   }
+  ],
+  "answer": "a",
+  "hint": "Compare each bar with the dashed line.",
+  "explanation": "Bangladesh (23.5), India (11.4) and Sweden (10.3) are above 9.1; Canada (6.1), Japan (3.4) and Spain (1.3) are below. So the answer is **3**. Counting only the tallest bar or the first two bars gives wrong totals."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these countries from **highest** to **lowest** share of people who say they are party members.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/members-order.svg",
+   "alt": "Bars of membership for five countries"
+  },
+  "items": [
+   {
+    "id": "spain",
+    "text": "Spain (1.3)"
+   },
+   {
+    "id": "india",
+    "text": "India (11.4)"
+   },
+   {
+    "id": "japan",
+    "text": "Japan (3.4)"
+   },
+   {
+    "id": "canada",
+    "text": "Canada (6.1)"
+   },
+   {
+    "id": "skorea",
+    "text": "South Korea (2.6)"
+   }
+  ],
+  "answer": [
+   "india",
+   "canada",
+   "japan",
+   "skorea",
+   "spain"
+  ],
+  "startLabel": "Highest",
+  "endLabel": "Lowest",
+  "hint": "Read the bars from tallest to shortest.",
+  "explanation": "The values are India 11.4, Canada 6.1, Japan 3.4, South Korea 2.6 and Spain 1.3. India's share is higher than in all these advanced countries."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Participation in parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "In the survey of South Asia, tap the part of the chart for those who say they have **not much trust or no trust** in parties.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/trust.svg",
+   "alt": "Donut chart of trust in parties in South Asia"
+  },
+  "spots": [
+   {
+    "id": "great",
+    "x": 44.9,
+    "y": 37.4,
+    "label": "Great or some trust (37%)"
+   },
+   {
+    "id": "notmuch",
+    "x": 17.8,
+    "y": 77.3,
+    "label": "Not much or none (43%)"
+   },
+   {
+    "id": "dk",
+    "x": 16.3,
+    "y": 24.4,
+    "label": "Don't know (20%)"
+   }
+  ],
+  "answer": "notmuch",
+  "hint": "The text says this group is larger than those with some or great trust.",
+  "explanation": "The segments are 37 per cent great or some trust, **43 per cent not much or none** and 20 per cent do not know. Distrust is larger than trust, but membership and closeness to parties have gone up in India."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "What special facility does the Election Commission give to **recognised** parties?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/symbol.svg",
+   "alt": "An invented ballot paper with different generic shapes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Automatic membership of the government"
+   },
+   {
+    "id": "b",
+    "text": "A unique symbol that only the party's official candidates can use"
+   },
+   {
+    "id": "c",
+    "text": "Exemption from registering with the Commission"
+   },
+   {
+    "id": "d",
+    "text": "The right to nominate Election Commissioners"
+   }
+  ],
+  "answer": "b",
+  "hint": "Look at the picture on the ballot paper.",
+  "explanation": "Every party must **register** with the Commission, which treats them equally; but large and established parties are **recognised** and get a **unique symbol** and other facilities. The other options are not in the chapter."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A State Assembly election gives the results shown in the chart (invented parties). Using the rule that a State party needs at least 6 per cent of the votes **and** at least two seats, which parties qualify?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/votes-state.svg",
+   "alt": "Votes per cent and seats of five invented parties"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A, B and C"
+   },
+   {
+    "id": "b",
+    "text": "A, B and D"
+   },
+   {
+    "id": "c",
+    "text": "A and B only"
+   },
+   {
+    "id": "d",
+    "text": "A only"
+   }
+  ],
+  "answer": "c",
+  "hint": "Check both conditions for each party; 6 per cent counts.",
+  "explanation": "A (34%, 60 seats) and B (6%, 2 seats) meet both conditions. C has 7% but only **1 seat**; D has 3 seats but **5%** votes; E has neither. Ignoring seats gives 'A, B and C'; ignoring votes gives 'A, B and D'; treating 6% as not enough gives 'A only'."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which rule makes a party a **national party** according to the chapter?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/criteria.svg",
+   "alt": "Cards for State party and national party conditions"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "At least 6 per cent of the votes in Lok Sabha or in four States' Assembly elections and at least four Lok Sabha seats"
+   },
+   {
+    "id": "b",
+    "text": "At least 6 per cent of the votes in one State and two seats"
+   },
+   {
+    "id": "c",
+    "text": "Presence in at least two States with one seat each"
+   },
+   {
+    "id": "d",
+    "text": "Having more than 750 registered members"
+   }
+  ],
+  "answer": "a",
+  "hint": "It needs votes in four States and four Lok Sabha seats.",
+  "explanation": "The rule is **6 per cent of votes** in Lok Sabha or four State Assembly elections **and four Lok Sabha seats**. The one-State, two-seat rule is for a **State party**."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/nat-vs-state.svg",
+   "alt": "Many states with one party versus one state with one party"
+  },
+  "assertion": "The units of a national party in the various states follow the same policies, programmes and strategy decided at the national level.",
+  "reason": "Each State unit of a national party frames its own independent policies.",
+  "answer": "c",
+  "hint": "Who decides the policies of a national party?",
+  "explanation": "The assertion is true: national party units follow what is decided at the **national level**. The reason is false, because State units do not frame independent policies."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "Which of these statements about State parties are correct, according to the chapter? Select all that apply.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/national-state.svg",
+   "alt": "A national party with arrows to three state parties"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "They are commonly called regional parties"
+   },
+   {
+    "id": "b",
+    "text": "They need not be regional in their ideology; some are all-India parties that succeeded in only some states"
+   },
+   {
+    "id": "c",
+    "text": "Samajwadi Party and Rashtriya Janata Dal have national-level organisation with units in several states"
+   },
+   {
+    "id": "d",
+    "text": "No State party has ever been part of a national coalition government"
+   },
+   {
+    "id": "e",
+    "text": "A State party must have at least four Lok Sabha seats"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "The chapter says many State parties are commonly called regional parties.",
+  "explanation": "State parties are commonly called regional parties but need not be regional in outlook. Since 1996 nearly every one of them has been part of some national coalition government, so the claim that none has is false, and the four-seat rule is for **national** parties."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/recognised.svg",
+   "alt": "Three invented shapes with ticks"
+  },
+  "assertion": "Every party in the country has to register with the Election Commission.",
+  "reason": "Only recognised parties are given a unique election symbol.",
+  "answer": "b",
+  "hint": "Is the second sentence the reason for registering?",
+  "explanation": "Both statements are true, but the reason does not explain the assertion: registration is required of **all** parties, while a unique symbol is a facility given to **recognised** ones."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Why did national parties need to form alliances with State parties after the 1990s?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/coalition.svg",
+   "alt": "A government made of three parties"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "State parties had been banned earlier"
+   },
+   {
+    "id": "b",
+    "text": "No single national party was able to win a majority in the Lok Sabha on its own until 2014"
+   },
+   {
+    "id": "c",
+    "text": "The Election Commission required alliances"
+   },
+   {
+    "id": "d",
+    "text": "Alliances were needed to register a party"
+   }
+  ],
+  "answer": "b",
+  "hint": "Think of the number of seats won by one party.",
+  "explanation": "The number and strength of State parties grew, making Parliament more diverse. No one national party could win a majority on its own until 2014, so national parties had to form **alliances**, which strengthened federalism and democracy."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "match",
+  "prompt": "Match each party to the fact given in the chapter.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/timeline.svg",
+   "alt": "A timeline with six dots"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Bahujan Samaj Party"
+   },
+   {
+    "id": "l2",
+    "text": "Bharatiya Janata Party"
+   },
+   {
+    "id": "l3",
+    "text": "Communist Party of India (Marxist)"
+   },
+   {
+    "id": "l4",
+    "text": "Indian National Congress"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Formed in 1984 under Kanshi Ram"
+   },
+   {
+    "id": "r2",
+    "text": "Guiding philosophy of integral humanism"
+   },
+   {
+    "id": "r3",
+    "text": "Believes in Marxism-Leninism"
+   },
+   {
+    "id": "r4",
+    "text": "Founded in 1885"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Use the profiles of national parties.",
+  "explanation": "BSP was formed in **1984** under **Kanshi Ram**; the BJP draws on **integral humanism**; the CPI-M believes in **Marxism-Leninism**; and the Congress was founded in **1885**."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "National and State parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these party-formation dates from earliest to latest.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/timeline.svg",
+   "alt": "A timeline with six dots"
+  },
+  "items": [
+   {
+    "id": "bsp",
+    "text": "Bahujan Samaj Party formed (1984)"
+   },
+   {
+    "id": "inc",
+    "text": "Indian National Congress founded (1885)"
+   },
+   {
+    "id": "cpm",
+    "text": "Communist Party of India (Marxist) founded (1964)"
+   },
+   {
+    "id": "aap",
+    "text": "Aam Aadmi Party formed (2012)"
+   },
+   {
+    "id": "bjp",
+    "text": "Bharatiya Janata Party founded (1980)"
+   }
+  ],
+  "answer": [
+   "inc",
+   "cpm",
+   "bjp",
+   "bsp",
+   "aap"
+  ],
+  "startLabel": "Earliest",
+  "endLabel": "Latest",
+  "hint": "From the 1800s to the 2010s.",
+  "explanation": "The dates are 1885 (INC), 1964 (CPI-M), 1980 (BJP), 1984 (BSP) and 2012 (AAP)."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Power is concentrated in one or a few leaders at the top; members cannot influence decisions. Tap the card showing this challenge.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/challenges.svg",
+   "alt": "Four cards showing the four challenges"
+  },
+  "spots": [
+   {
+    "id": "internal",
+    "x": 25.5,
+    "y": 25.8,
+    "label": "Lack of internal democracy"
+   },
+   {
+    "id": "dynasty",
+    "x": 74.5,
+    "y": 16.7,
+    "label": "Dynastic succession"
+   },
+   {
+    "id": "money",
+    "x": 17.5,
+    "y": 80.0,
+    "label": "Money and muscle power"
+   },
+   {
+    "id": "choice",
+    "x": 67.5,
+    "y": 73.3,
+    "label": "No meaningful choice"
+   }
+  ],
+  "answer": "internal",
+  "hint": "A pyramid with a single figure at the apex.",
+  "explanation": "This is the first challenge: **lack of internal democracy**. Parties do not keep membership registers, hold meetings or conduct internal elections regularly."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Parties nominate candidates who can raise lots of money and rich companies influence decisions. Tap the card for this challenge.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/challenges.svg",
+   "alt": "Four cards showing the four challenges"
+  },
+  "spots": [
+   {
+    "id": "internal",
+    "x": 25.5,
+    "y": 25.8,
+    "label": "Lack of internal democracy"
+   },
+   {
+    "id": "dynasty",
+    "x": 74.5,
+    "y": 16.7,
+    "label": "Dynastic succession"
+   },
+   {
+    "id": "money",
+    "x": 17.5,
+    "y": 80.0,
+    "label": "Money and muscle power"
+   },
+   {
+    "id": "choice",
+    "x": 67.5,
+    "y": 73.3,
+    "label": "No meaningful choice"
+   }
+  ],
+  "answer": "money",
+  "hint": "Money bag and a fist.",
+  "explanation": "This is the third challenge: the growing role of **money and muscle power**, especially during elections. Rich people and companies who give funds tend to influence policies, and some parties support criminals who can win."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In many parties the top positions are always held by members of one family, and an ordinary worker finds it hard to rise. Which challenge is this?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/dynasty.svg",
+   "alt": "A staircase with a figure on each step"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Lack of internal democracy"
+   },
+   {
+    "id": "b",
+    "text": "Money and muscle power"
+   },
+   {
+    "id": "c",
+    "text": "Dynastic succession"
+   },
+   {
+    "id": "d",
+    "text": "No meaningful choice for voters"
+   }
+  ],
+  "answer": "c",
+  "hint": "It is unfair to other members, because those at the top favour people close to them.",
+  "explanation": "This is **dynastic succession**, the second challenge. It is related to lack of internal democracy but is specifically about family members getting an unfair advantage."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Parties do not keep membership registers, hold meetings or conduct internal elections. Which consequence follows, according to the chapter?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/pyramid.svg",
+   "alt": "A pyramid with one leader at the top"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Leaders assume greater power, and personal loyalty to the leader becomes more important than loyalty to principles"
+   },
+   {
+    "id": "b",
+    "text": "Ordinary members get more information"
+   },
+   {
+    "id": "c",
+    "text": "Decisions are taken only by a majority of members"
+   },
+   {
+    "id": "d",
+    "text": "Dissent is welcomed"
+   }
+  ],
+  "answer": "a",
+  "hint": "Look at who decides in the pyramid.",
+  "explanation": "With no registers or elections, ordinary members lack information and means to influence decisions, so a few leaders decide **in the name of the party** and those who disagree find it hard to stay."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Two major parties agree on most fundamental aspects of policy and differ only in details. Which challenge does this illustrate?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/no-choice.svg",
+   "alt": "Two identical signposts"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Lack of internal democracy"
+   },
+   {
+    "id": "b",
+    "text": "Parties do not offer a meaningful choice to voters"
+   },
+   {
+    "id": "c",
+    "text": "Defection of members"
+   },
+   {
+    "id": "d",
+    "text": "Dynastic succession"
+   }
+  ],
+  "answer": "b",
+  "hint": "Both signposts say the same thing.",
+  "explanation": "To offer a meaningful choice, parties must be **significantly different**. The chapter notes that ideological differences have declined and gives the example of two parties in Britain. Voters also see the same leaders shifting between parties."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the four challenges in the order in which the chapter discusses them.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/four-challenges.svg",
+   "alt": "Four numbered blocks"
+  },
+  "items": [
+   {
+    "id": "c",
+    "text": "Growing role of money and muscle power"
+   },
+   {
+    "id": "a",
+    "text": "Lack of internal democracy"
+   },
+   {
+    "id": "d",
+    "text": "Parties do not offer a meaningful choice to voters"
+   },
+   {
+    "id": "b",
+    "text": "Dynastic succession"
+   }
+  ],
+  "answer": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "The second challenge is related to the first.",
+  "explanation": "The order is: **internal democracy**, **dynastic succession**, **money and muscle power**, and **meaningful choice** for voters."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Challenges to political parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "Which of these are examples of the challenges faced by parties? Select all that apply.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/challenges.svg",
+   "alt": "Four cards showing the four challenges"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Parties not holding regular internal elections"
+   },
+   {
+    "id": "b",
+    "text": "Top positions controlled by one family"
+   },
+   {
+    "id": "c",
+    "text": "Candidates chosen because they can raise lots of money"
+   },
+   {
+    "id": "d",
+    "text": "Parties giving about one-third of tickets to women"
+   },
+   {
+    "id": "e",
+    "text": "The same leaders shifting from one party to another"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "Women's tickets are a suggested reform, not a problem.",
+  "explanation": "The first, second, third and last are challenges. **Giving one-third of tickets to women** is a reform suggested in the chapter, not a challenge."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each term with its meaning.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/defection.svg",
+   "alt": "A figure moving between two party boxes"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Partisan"
+   },
+   {
+    "id": "l2",
+    "text": "Defection"
+   },
+   {
+    "id": "l3",
+    "text": "Affidavit"
+   },
+   {
+    "id": "l4",
+    "text": "Ruling party"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "A person strongly committed to a party or group, often unable to take a balanced view"
+   },
+   {
+    "id": "r2",
+    "text": "Changing party allegiance from the party on which one got elected"
+   },
+   {
+    "id": "r3",
+    "text": "A signed document in which a person makes a sworn statement"
+   },
+   {
+    "id": "r4",
+    "text": "The party that runs the government"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "These are the glossary boxes of the chapter.",
+  "explanation": "**Partisan**: strongly committed to a party or faction; **defection**: changing party after being elected; **affidavit**: a signed, sworn statement; **ruling party**: the party that runs the government."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "The Constitution was amended to stop MLAs and MPs from changing parties. What was the result, according to the chapter?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/defection.svg",
+   "alt": "A figure moving between two party boxes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Defection came down, but dissent within the party became more difficult"
+   },
+   {
+    "id": "b",
+    "text": "Defection rose, but dissent became easier"
+   },
+   {
+    "id": "c",
+    "text": "Parties had to give one-third of their tickets to women"
+   },
+   {
+    "id": "d",
+    "text": "Candidates had to file affidavits"
+   }
+  ],
+  "answer": "a",
+  "hint": "A member who changes party loses the seat.",
+  "explanation": "Since a member who changes party **loses the seat**, defection is down, but legislators must accept whatever party leaders decide, so **dissent** is harder. The other options are separate reforms."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The Supreme Court made it mandatory for every candidate to file an affidavit. What does it contain, and what is the weakness noted?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/affidavit.svg",
+   "alt": "A sheet listing property and pending cases"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Details of party funds; it is kept secret"
+   },
+   {
+    "id": "b",
+    "text": "Details of the candidate's education; the Election Commission cannot see it"
+   },
+   {
+    "id": "c",
+    "text": "A promise to join the ruling party; it is not enforced"
+   },
+   {
+    "id": "d",
+    "text": "Details of property and pending criminal cases; there is no system to check if it is true"
+   }
+  ],
+  "answer": "d",
+  "hint": "Look at the pieces of paper in the picture.",
+  "explanation": "The affidavit gives **property** and **criminal cases** pending, making information available to the public, but there is **no system to verify** it."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "Which of these are suggestions for reforming parties mentioned in the chapter? Select all that apply.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/reforms.svg",
+   "alt": "Four cards showing reforms"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A law making a register of members compulsory"
+   },
+   {
+    "id": "b",
+    "text": "About one-third of tickets for women candidates"
+   },
+   {
+    "id": "c",
+    "text": "State funding of elections in cash or in kind"
+   },
+   {
+    "id": "d",
+    "text": "Banning all parties from contesting elections"
+   },
+   {
+    "id": "e",
+    "text": "Abolishing the Election Commission"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "Think of registers, women and funding.",
+  "explanation": "The chapter suggests a law to regulate internal affairs (register of members), a minimum of **about one-third** tickets for women, and **state funding**. It also warns that over-regulation can be counter-productive; it does not suggest banning parties."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The government could give parties petrol, paper or cash for election expenses. Tap the card showing this reform.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/reforms.svg",
+   "alt": "Four cards showing reform ideas"
+  },
+  "spots": [
+   {
+    "id": "women",
+    "x": 25.5,
+    "y": 25.8,
+    "label": "Tickets for women"
+   },
+   {
+    "id": "funding",
+    "x": 65.5,
+    "y": 36.7,
+    "label": "State funding of elections"
+   },
+   {
+    "id": "register",
+    "x": 22.5,
+    "y": 74.2,
+    "label": "Register of members"
+   },
+   {
+    "id": "defect",
+    "x": 67.5,
+    "y": 77.5,
+    "label": "Law on defection"
+   }
+  ],
+  "answer": "funding",
+  "hint": "Coins and a stack of paper.",
+  "explanation": "This is **state funding of elections**: support in kind (petrol, paper, telephone) or in cash on the basis of the votes secured earlier."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A party must give about one-third of its tickets to women. If it contests 90 seats, about how many tickets would that be?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/third.svg",
+   "alt": "Pie chart with a purple share for women"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "45"
+   },
+   {
+    "id": "b",
+    "text": "30"
+   },
+   {
+    "id": "c",
+    "text": "60"
+   },
+   {
+    "id": "d",
+    "text": "9"
+   }
+  ],
+  "answer": "b",
+  "hint": "Divide 90 by 3.",
+  "explanation": "One third of 90 is 90 / 3 = **30**. 45 is half of the tickets, 60 is two-thirds (the share left for others), and 9 is ten per cent."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-pol-political-parties/funding.svg",
+   "alt": "A government building helping a party"
+  },
+  "assertion": "Strict laws alone cannot reform parties.",
+  "reason": "Over-regulation forces parties to find ways to cheat the law, and parties will not pass a law they do not like.",
+  "answer": "a",
+  "hint": "Does the reason say why laws are not enough?",
+  "explanation": "Both are true and the reason explains the assertion. The chapter warns we must be careful about **legal solutions**: over-regulation can be counter-productive and parties may not agree to laws they dislike."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Besides laws, what two ways to reform parties does the chapter suggest?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/pressure.svg",
+   "alt": "A crowd with petitions and a megaphone"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Ban party membership and give power to the army"
+   },
+   {
+    "id": "b",
+    "text": "Make parties choose their own judges"
+   },
+   {
+    "id": "c",
+    "text": "People pressure parties through petitions, publicity and agitations, and those who want reform join parties"
+   },
+   {
+    "id": "d",
+    "text": "Allow only one party to contest"
+   }
+  ],
+  "answer": "c",
+  "hint": "The problem of bad politics can be solved by more and better politics.",
+  "explanation": "Citizens, pressure groups, movements and the media can **pressure** parties, and people who want reform can **join** parties. Participation improves democracy."
+ },
+ {
+  "id": "in-cbse-10-pol-political-parties-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "politics",
+  "chapter": "Political Parties",
+  "chapterNo": 4,
+  "topic": "Reforms of political parties",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A famous economist launched a new party to foster good governance and a new political culture, democratic from the grassroots level. Which view does the passage show?",
+  "image": {
+   "src": "/img/c10-pol-political-parties/newparty.svg",
+   "alt": "A seedling between two figures"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Some welcomed the new party as a chance to choose between good and bad, while leaders of traditional parties were apprehensive"
+   },
+   {
+    "id": "b",
+    "text": "Everyone supported the party equally"
+   },
+   {
+    "id": "c",
+    "text": "No one raised any objection"
+   },
+   {
+    "id": "d",
+    "text": "The party was formed only after elections"
+   }
+  ],
+  "answer": "a",
+  "hint": "Read what the government official and the traditional leader said.",
+  "explanation": "The chapter's passage records **mixed reactions**: some welcomed a new kind of party, while traditional leaders questioned the move."
+ }
+]

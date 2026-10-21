@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A balance with a factory on one side and a village hut on the other, tipping gently</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.gr{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:.9}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.gr{transform-origin:50% 100%;animation:gr 3s ease-in-out infinite}
+@keyframes gr{50%{transform:scaleY(.93)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}@keyframes tw{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}.tw{transform-box:view-box;transform-origin:200px 80px;animation:tw 3.5s ease-in-out infinite alternate}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#E3F2FD"/><rect x="0" y="196" width="400" height="44" rx="0" fill="#CDE9B5"  /><path d="M200 196V80" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M170 196H230" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="rotate(-4 200 78)"><g class="tw"><path d="M90 78H310" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M90 78L72 130H108ZM310 78L292 130H328Z" fill="#FFE082" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(90 104) scale(0.5)"><g><rect x="-30" y="-10" width="60" height="34" fill="#C9CFE0" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="-34" width="10" height="26" fill="#9AA3B5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="-24" y="0" width="9" height="9" fill="#FFE082" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="-10" y="0" width="9" height="9" fill="#FFE082" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="0" width="9" height="9" fill="#FFE082" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g class="rise"><circle cx="19" cy="-40" r="6" fill="#fff" opacity=".9"/></g><g class="rise" style="animation-delay:1.2s"><circle cx="22" cy="-42" r="5" fill="#fff" opacity=".9"/></g></g></g><g transform="translate(310 116) scale(0.6)"><g><rect x="-20" y="-13" width="40" height="26" fill="#D9B26F" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-24 -13L0 -29L24 -13Z" fill="#C9A227" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="-5" y="0" width="10" height="13" fill="#8B5A2B" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></g><circle cx="200" cy="76" r="8" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="200" y="226" font-size="12" text-anchor="middle">What is development for one may not be for the other</text></svg>

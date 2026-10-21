@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Six products: batteries, capacitors, toys, tyres, dairy products and vegetable oil</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.grow,.mv,.mv2{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-22px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 3.5s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-12px)}to{transform:translateX(12px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.grow{transform-origin:50% 100%;animation:grow 3s ease-in-out infinite alternate}
+@keyframes grow{from{transform:scaleY(.82)}to{transform:scaleY(1)}}
+.mv{animation:mv 3s ease-in-out infinite alternate}
+@keyframes mv{from{transform:translateX(-18px)}to{transform:translateX(18px)}}
+.mv2{animation:mv2 3s ease-in-out infinite alternate}
+@keyframes mv2{from{transform:translateX(18px)}to{transform:translateX(-18px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><g transform="translate(70 65) scale(1.3)"><g><rect x="-10" y="-14" width="20" height="28" rx="3" fill="#FFC93C" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="-4" y="-19" width="8" height="5" fill="#2B2F4A"/></g></g><text x="70" y="107" font-size="12" text-anchor="middle">Batteries</text><g transform="translate(200 65) scale(1.3)"><g><rect x="-8" y="-14" width="16" height="26" rx="8" fill="#7CC4F2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4 12V22M4 12V22" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><text x="200" y="107" font-size="12" text-anchor="middle">Capacitors</text><g transform="translate(330 65) scale(1.3)"><g><rect x="-10" y="-4" width="20" height="16" rx="3" fill="#E5484D" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="-8" y="-16" width="16" height="12" rx="3" fill="#FFC93C" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-3" cy="-10" r="1.8" fill="#2B2F4A"/><circle cx="3" cy="-10" r="1.8" fill="#2B2F4A"/><path d="M-16 0L-10 4M16 0L10 4M-6 12V20M6 12V20" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><text x="330" y="107" font-size="12" text-anchor="middle">Toys</text><g transform="translate(70 170) scale(1.3)"><g><circle r="15" fill="#2B2F4A"/><circle r="6" fill="#fff"/></g></g><text x="70" y="212" font-size="12" text-anchor="middle">Tyres</text><g transform="translate(200 170) scale(1.3)"><g><path d="M-9 -18H9L12 16H-12Z" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-10 -4H10" stroke="#0B93D4" stroke-width="4"/></g></g><text x="200" y="212" font-size="12" text-anchor="middle">Dairy products</text><g transform="translate(330 170) scale(1.3)"><g><path d="M-8 -18H8L12 -8V16H-12V-8Z" fill="#E3C14A" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><text x="330" y="212" font-size="12" text-anchor="middle">Vegetable oil</text></svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Bar chart: 90 percent of rural people in Tamil Nadu use a ration shop and 35 percent in West Bengal</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.gr{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:.9}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.gr{transform-origin:50% 100%;animation:gr 3s ease-in-out infinite}
+@keyframes gr{50%{transform:scaleY(.93)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><text x="200" y="22" font-size="13" text-anchor="middle">Rural people using a ration shop (%)</text><rect x="90" y="64.00" width="80" height="126.00" rx="3" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="130.0" y="59.0" font-size="13" text-anchor="middle">90%</text><text x="130.0" y="205" font-size="12" text-anchor="middle">Tamil Nadu</text><rect x="220" y="141.00" width="80" height="49.00" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="260.0" y="136.0" font-size="13" text-anchor="middle">35%</text><text x="260.0" y="205" font-size="12" text-anchor="middle">West Bengal</text><path d="M82 190H350" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(340 150) scale(0.55)"><g><rect x="-32" y="-12" width="64" height="38" fill="#E9D8B4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-36 -12H36L30 -26H-30Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="-22" y="0" width="22" height="26" fill="#8B5A2B" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="6" y="-2" width="20" height="14" fill="#FFF3E0" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="10" y="12" width="12" height="14" rx="3" fill="#C9A227" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-24 -19H24" stroke="#fff" stroke-width="2.5"/></g></g></svg>

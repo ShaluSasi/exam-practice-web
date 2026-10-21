@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img"><title>Picture option</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.gr{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:.9}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.gr{transform-origin:50% 100%;animation:gr 3s ease-in-out infinite}
+@keyframes gr{50%{transform:scaleY(.93)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#F3EEFF"/><g transform="translate(40 76) scale(0.7)"><g><rect x="-20" y="-13" width="40" height="26" fill="#FFE0B2" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-24 -13L0 -29L24 -13Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="-5" y="0" width="10" height="13" fill="#8B5A2B" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><g transform="translate(90 84) scale(0.7)"><g><path d="M-6 12V26M6 12V26" stroke="#3B4268" stroke-width="6" stroke-linecap="round"/><rect x="-10" y="-10" width="20" height="24" rx="6" fill="#7C5CFF" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-19" r="8" fill="#F4C9A0" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-8 -22Q0 -34 8 -22Z" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><g transform="translate(130 88) scale(0.6)"><g><path d="M-6 12V26M6 12V26" stroke="#3B4268" stroke-width="6" stroke-linecap="round"/><rect x="-10" y="-10" width="20" height="24" rx="6" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-19" r="8" fill="#F4C9A0" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-8 -22Q0 -34 8 -22Z" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><g transform="translate(160 88) scale(0.6)"><g><path d="M-16 -10Q-7 -14 0 -8Q7 -14 16 -10V14Q7 10 0 16Q-7 10 -16 14Z" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 -8V16" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-12 -2Q-7 -4 -3 0M-12 5Q-7 3 -3 7" fill="none" stroke="#0B93D4" stroke-width="2"/></g></g><text x="100" y="134" font-size="11" text-anchor="middle">A private tutor for one home</text></svg>
