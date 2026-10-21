@@ -1,4 +1,4 @@
-import type { AnyResponse, Question } from "../content/schema";
+import type { AnyResponse, ClientQuestion, QuestionType } from "../content/schema";
 import { AssertionReasonQuestion, McqQuestion, MultiQuestion } from "./ChoiceQuestions";
 import { HotspotQuestion } from "./HotspotQuestion";
 import { MatchQuestion } from "./MatchQuestion";
@@ -12,7 +12,7 @@ export function QuestionBody({
   onChange,
   reveal,
 }: {
-  q: Question;
+  q: ClientQuestion;
   response: AnyResponse | undefined;
   onChange: (r: AnyResponse) => void;
   reveal: boolean;
@@ -36,7 +36,7 @@ export function QuestionBody({
   }
 }
 
-export const TYPE_LABEL: Record<Question["type"], string> = {
+export const TYPE_LABEL: Record<QuestionType, string> = {
   mcq: "Multiple choice",
   multi: "Multiple select",
   numeric: "Numerical",

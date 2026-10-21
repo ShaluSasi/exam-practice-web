@@ -1,10 +1,9 @@
 import { motion } from "motion/react";
 import clsx from "clsx";
-import { isCorrect } from "../engine/scoring";
 import type { QuestionProps } from "./ChoiceQuestions";
 
 export function NumericQuestion({ q, response = "", onChange, reveal }: QuestionProps<"numeric">) {
-  const correct = reveal && isCorrect(q, response);
+  const correct = reveal && q.answer !== undefined && Math.abs(Number(response) - q.answer) <= (q.tolerance ?? 0) + 1e-9;
   return (
     <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
       <label htmlFor={`num-${q.id}`} className="mb-2 block text-sm font-semibold text-muted">

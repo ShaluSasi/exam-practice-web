@@ -23,6 +23,12 @@ export interface Round {
   quizKey?: string;
 }
 
+/** A signed-in round's questions and answers: the server grades the round from these. */
+export interface RoundAnswers {
+  questionIds: string[];
+  attempts: { questionId: string; response?: unknown; usedHint: boolean }[];
+}
+
 export interface Stats {
   totalXp: number;
   bestStreak: number;
@@ -44,7 +50,7 @@ const MAX_ROUNDS = 30;
  */
 interface ProfileState extends Stats {
   account: AccountStats | null;
-  pending: { userId: string; round: Round }[];
+  pending: { userId: string; round: Round; answers?: RoundAnswers }[];
   /** Account this device's guest progress was copied into, so it is copied only once. */
   importedTo: string | null;
   soundOn: boolean;
@@ -54,7 +60,7 @@ interface ProfileState extends Stats {
   setLastSubject: (s: SubjectId) => void;
   recordSession: (round: Round, bestStreak: number) => void;
   /** Shows a signed-in round straight away and queues it for the server. */
-  recordAccountRound: (userId: string, round: Round) => void;
+  recordAccountRound: (userId: string, round: Round, answers: RoundAnswers) => void;
   setAccount: (account: AccountStats | null) => void;
   removePending: (roundIds: string[]) => void;
   setImportedTo: (userId: string) => void;
@@ -87,10 +93,10 @@ export const useProfile = create<ProfileState>()(
       lastSubject: null,
       setLastSubject: (lastSubject) => set({ lastSubject }),
       recordSession: (round, streak) => set((s) => addRound(s, round, streak, MAX_ROUNDS)),
-      recordAccountRound: (userId, round) =>
+      recordAccountRound: (userId, round, answers) =>
         set((s) => ({
           account: { userId, ...addRound(s.account?.userId === userId ? s.account : emptyStats(), round, round.streak ?? 0) },
-          pending: [...s.pending, { userId, round }],
+          pending: [...s.pending, { userId, round, answers }],
         })),
       setAccount: (account) => set({ account }),
       removePending: (ids) => set((s) => ({ pending: s.pending.filter((p) => !ids.includes(p.round.id)) })),

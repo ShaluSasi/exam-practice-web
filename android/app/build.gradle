@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+// One version for the website and the app (app-version.json). Bump "build" for every release:
+// the server can then ask older builds to update (MIN_APP_BUILD in wrangler.jsonc).
+def appVersion = new groovy.json.JsonSlurper().parse(rootProject.file('../app-version.json'))
+
 android {
     namespace = "com.prepquest.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +11,8 @@ android {
         applicationId "com.prepquest.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode appVersion.build
+        versionName appVersion.name
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

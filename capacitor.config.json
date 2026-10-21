@@ -1,7 +1,7 @@
 {
   "appId": "com.prepquest.app",
   "appName": "PrepQuest",
-  "webDir": "dist/client",
+  "webDir": "dist/android",
   "android": {
     "backgroundColor": "#0E1022"
   },
@@ -9,6 +9,14 @@
     "SplashScreen": {
       "backgroundColor": "#1B1F3B",
       "launchShowDuration": 0
+    },
+    "SocialLogin": {
+      "providers": {
+        "google": true,
+        "facebook": false,
+        "apple": false,
+        "twitter": false
+      }
     }
   }
 }

@@ -7,6 +7,41 @@ export interface Env {
   DB: D1Database;
   /** The built React app (static assets). */
   ASSETS: Fetcher;
+  /** Oldest app build (app-version.json) still supported. Older apps are asked to update. */
+  MIN_APP_BUILD: string;
+}
+
+/**
+ * Where the Android app's pages run: Capacitor serves them from the phone, so
+ * its API calls are cross-origin. They carry the session as a bearer token
+ * instead of the cookie.
+ */
+export const APP_ORIGINS = ["https://localhost", "capacitor://localhost"];
+
+export const isAppOrigin = (request: Request) => APP_ORIGINS.includes(request.headers.get("Origin") ?? "");
+
+/** Lets the app read API responses. */
+export function withCors(request: Request, response: Response): Response {
+  if (!isAppOrigin(request)) return response;
+  const res = new Response(response.body, response);
+  res.headers.set("Access-Control-Allow-Origin", request.headers.get("Origin")!);
+  res.headers.append("Vary", "Origin");
+  return res;
+}
+
+/** Answers the browser's CORS preflight for the app. */
+export function preflight(request: Request): Response {
+  if (!isAppOrigin(request)) return new Response(null, { status: 403 });
+  return new Response(null, {
+    status: 204,
+    headers: {
+      "Access-Control-Allow-Origin": request.headers.get("Origin")!,
+      "Access-Control-Allow-Methods": "GET, POST",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization, X-App-Build",
+      "Access-Control-Max-Age": "86400",
+      Vary: "Origin",
+    },
+  });
 }
 
 export class HttpError extends Error {
@@ -18,9 +53,9 @@ export class HttpError extends Error {
   }
 }
 
-/** Blocks cross-site form posts: browsers always send Origin on POST. */
+/** Blocks cross-site form posts: browsers always send Origin on POST. The app's origin is allowed too. */
 export function assertSameOrigin(request: Request, url: URL): void {
-  if (request.headers.get("Origin") !== url.origin) throw new HttpError(403, "Bad origin");
+  if (request.headers.get("Origin") !== url.origin && !isAppOrigin(request)) throw new HttpError(403, "Bad origin");
 }
 
 export async function readJson(request: Request): Promise<unknown> {

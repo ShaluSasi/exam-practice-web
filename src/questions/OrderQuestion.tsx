@@ -102,7 +102,9 @@ function EndLabel({ icon: Icon, text }: { icon: typeof ArrowUp; text: string }) 
 export function OrderQuestion({ q, response, onChange, reveal }: QuestionProps<"order">) {
   const order = response ?? q.items.map((i) => i.id);
   const byId = Object.fromEntries(q.items.map((i) => [i.id, i]));
-  const allRight = order.every((id, i) => q.answer[i] === id);
+  // The correct order arrives from the server once checked.
+  const answer = q.answer ?? [];
+  const allRight = order.every((id, i) => answer[i] === id);
 
   const move = (i: number, dir: -1 | 1) => {
     const next = [...order];
@@ -123,7 +125,7 @@ export function OrderQuestion({ q, response, onChange, reveal }: QuestionProps<"
               item={byId[id]}
               index={i}
               total={order.length}
-              state={!reveal ? "idle" : q.answer[i] === id ? "correct" : "wrong"}
+              state={!reveal ? "idle" : answer[i] === id ? "correct" : "wrong"}
               onMove={(dir) => move(i, dir)}
             />
           ))}
@@ -137,12 +139,12 @@ export function OrderQuestion({ q, response, onChange, reveal }: QuestionProps<"
           className="mt-4 flex flex-wrap items-center gap-2 text-sm font-semibold text-ok"
         >
           Correct order:
-          {q.answer.map((id, i) => (
+          {answer.map((id, i) => (
             <span key={id} className="flex items-center gap-2">
               <span className="rounded-lg bg-ok-soft px-2 py-1">
                 <RichText text={byId[id].text} />
               </span>
-              {i < q.answer.length - 1 && "→"}
+              {i < answer.length - 1 && "→"}
             </span>
           ))}
         </motion.div>

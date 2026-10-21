@@ -15,6 +15,9 @@
     // OAuth 2.0 Web client ID from Google Cloud Console (public, safe to commit).
     // Looks like: 1234567890-abc123.apps.googleusercontent.com
     "GOOGLE_CLIENT_ID": "284460403925-crbmtochtrhan6v52k9mm5lri2et27no.apps.googleusercontent.com",
+    // Oldest app build (app-version.json "build") the API still supports. Raise it when a
+    // release changes the API in a way older apps cannot handle: they then show "Update required".
+    "MIN_APP_BUILD": "2",
   },
   // Accounts and saved scores. Local dev uses a local copy and ignores the ID.
   // Before deploying: run `npx wrangler d1 create exam-practice` and paste the

@@ -1,14 +1,13 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Clock, Crown, Loader2, Play, Swords, Target, Trophy, Zap } from "lucide-react";
 import { Button } from "../components/Button";
 import { Logo, SettingsToggles } from "../components/TopBar";
-import { questionBank } from "../content";
-import type { Question } from "../content/schema";
-import { pickRandom } from "../engine/scoring";
+import { OfflineScreen } from "./StatusScreens";
 import { formatTime } from "../lib/subjects";
 import { PERIOD_LABEL } from "../components/ShareSheet";
-import { api } from "../store/auth";
+import { ApiError, OFFLINE, api } from "../store/auth";
+import type { RoundSource } from "../store/content";
 import type { Period } from "../store/leaderboard";
 import { useNav } from "../store/nav";
 
@@ -22,27 +21,27 @@ interface PublicShare {
     | { period: Period; rank: number; participants: number; xp: number };
 }
 
-const byId = new Map(questionBank.map((q) => [q.id, q]));
-
 /** The friend's exact questions; falls back to the same chapter if some were removed since. */
-function questionsFor(d: Extract<PublicShare["data"], { questionIds: string[] }>): Question[] {
-  const same = d.questionIds.map((id) => byId.get(id)).filter((q): q is Question => !!q);
-  if (same.length === d.questionIds.length) return same;
-  const chapter = d.quizKey && d.quizKey !== "mixed" ? questionBank.filter((q) => `${q.subject}|${q.grade}|${q.chapter}` === d.quizKey) : [];
-  return pickRandom(chapter.length >= 5 ? chapter : questionBank, d.questionIds.length);
+function questionsFor(d: Extract<PublicShare["data"], { questionIds: string[] }>): RoundSource {
+  return { ids: d.questionIds, fallback: d.quizKey && d.quizKey !== "mixed" ? { chapter: d.quizKey } : { mixed: true } };
 }
 
-export function ChallengeScreen({ onStart }: { onStart: (qs: Question[], title: string) => void }) {
+export function ChallengeScreen({ onStart }: { onStart: (source: RoundSource, title: string) => void }) {
   const code = useNav((s) => s.challengeCode);
   const go = useNav((s) => s.go);
   const setOpponent = useNav((s) => s.setOpponent);
   const [share, setShare] = useState<PublicShare | null>(null);
   const [missing, setMissing] = useState(false);
+  const [offline, setOffline] = useState(false);
 
-  useEffect(() => {
+  const load = useCallback(() => {
     if (!code) return;
-    api<PublicShare>(`/api/share/${code}`).then(setShare, () => setMissing(true));
+    setOffline(false);
+    api<PublicShare>(`/api/share/${code}`).then(setShare, (e: unknown) =>
+      e instanceof ApiError && e.status === OFFLINE ? setOffline(true) : setMissing(true),
+    );
   }, [code]);
+  useEffect(load, [load]);
 
   const leave = () => {
     window.history.replaceState(null, "", "/");
@@ -60,6 +59,8 @@ export function ChallengeScreen({ onStart }: { onStart: (qs: Question[], title: 
     leave();
     onStart(questionsFor(d), d.title);
   };
+
+  if (offline) return <OfflineScreen onRetry={load} onBack={home} />;
 
   return (
     <div className="paper relative min-h-dvh overflow-hidden">

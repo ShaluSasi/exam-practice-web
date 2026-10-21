@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, BookOpen, Check, Clock, Flame, Lightbulb, Target, Trophy, X, Zap } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Clock, Flame, Lightbulb, Loader2, Target, Trophy, WifiOff, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { Button } from "../components/Button";
@@ -218,9 +218,11 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
   const lastAttempt = s.attempts.at(-1);
   const score = useMemo(() => scoreSession(s.questions, s.attempts), [s.questions, s.attempts]);
 
-  const check = useCallback(() => {
+  const check = useCallback(async () => {
     if (!answered || s.phase !== "answering") return;
-    const a = s.check();
+    // Graded on the server; null if it could not be reached (the answer stays, to try again).
+    const a = await s.check();
+    if (!a) return;
     if (a.correct) {
       play("correct");
       burst(checkRef.current);
@@ -237,8 +239,8 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
         // Buttons outside the question (Check, Continue, Exit) keep their native Enter.
         if (e.target instanceof HTMLElement && e.target.closest("button") && !e.target.closest("[data-qbody]")) return;
         e.preventDefault();
-        if (s.phase === "answering") check();
-        else s.next();
+        if (s.phase === "answering") void check();
+        else if (s.phase === "feedback") s.next();
         return;
       }
       if (e.target instanceof HTMLInputElement || s.phase !== "answering") return;
@@ -267,6 +269,7 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
 
   if (!q) return null;
   const reveal = s.phase === "feedback";
+  const checking = s.phase === "checking";
 
   return (
     <div className="paper flex min-h-dvh flex-col">
@@ -382,7 +385,7 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
               key={`fb-${q.id}`}
               attempt={lastAttempt}
               streak={s.streak}
-              explanation={q.explanation}
+              explanation={q.explanation ?? ""}
               onNext={() => s.next()}
               isLast={s.index === s.questions.length - 1}
             />
@@ -394,19 +397,22 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
               exit={{ y: 40, opacity: 0 }}
               className="border-t-2 border-line bg-bg/90 backdrop-blur"
             >
+              {s.checkFailed && (
+                <p role="alert" className="mx-auto flex max-w-3xl items-center gap-2 px-4 pt-3 text-sm font-semibold text-bad sm:px-6">
+                  <WifiOff className="size-4 shrink-0" /> Couldn't reach the server. Check your connection and try again.
+                </p>
+              )}
               <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-4 sm:px-6">
                 <button
                   type="button"
-                  onClick={() => {
-                    s.check(true);
-                    play("wrong");
-                  }}
-                  className="rounded-xl px-3 py-2 font-bold text-muted hover:bg-surface-2 hover:text-fg"
+                  disabled={checking}
+                  onClick={() => void s.check(true).then((a) => a && play("wrong"))}
+                  className="rounded-xl px-3 py-2 font-bold text-muted hover:bg-surface-2 hover:text-fg disabled:opacity-40"
                 >
                   Skip
                 </button>
-                <Button ref={checkRef} disabled={!answered} onClick={check} className="flex-1 sm:flex-none sm:px-12">
-                  Check
+                <Button ref={checkRef} disabled={!answered || checking} onClick={() => void check()} className="flex-1 sm:flex-none sm:px-12">
+                  {checking ? <Loader2 className="size-5 animate-spin" aria-label="Checking" /> : s.checkFailed ? "Try again" : "Check"}
                 </Button>
               </div>
             </motion.div>

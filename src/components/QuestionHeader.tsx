@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import clsx from "clsx";
 import { region } from "../config/regions";
-import type { Question } from "../content/schema";
+import type { ClientQuestion, Question } from "../content/schema";
 import { SUBJECT_STYLE } from "../lib/subjects";
 import { TYPE_LABEL } from "../questions";
 
@@ -18,7 +18,7 @@ export function SubjectChip({ subject }: { subject: Question["subject"] }) {
   );
 }
 
-export function QuestionHeader({ q }: { q: Question }) {
+export function QuestionHeader({ q }: { q: ClientQuestion }) {
   return (
     <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-muted">
       <SubjectChip subject={q.subject} />

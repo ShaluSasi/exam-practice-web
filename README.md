@@ -16,11 +16,14 @@ npm run deploy     # build + wrangler deploy (run `npx wrangler login` once firs
 | Path | What |
 |---|---|
 | `src/content/schema.ts` | Question schema (Zod). Real data must pass this. |
-| `src/content/data/*.json` | Question banks, one chapter per file, loaded automatically. Chapters with 20+ questions get their own quiz card, ordered by `chapterNo`. |
+| `src/content/data/*.json` | Question banks, one chapter per file, picked up automatically and served by the Worker (never bundled into the app). Checked against the schema on every build and dev-server start (`vite.config.ts`). Chapters with 20+ questions get their own quiz card, ordered by `chapterNo`. |
+| `worker/content.ts`, `worker/questions.ts` | Serves the banks: `/api/catalog`, `/api/questions` (without answers), `/api/answers/check`; grades saved rounds. |
+| `src/store/content.ts` | The app's side: catalog, loading rounds, checking answers. |
 | `public/img/<chapter>/` | Illustrations (mostly animated SVG) used by questions and answer options. |
 | `src/config/regions.ts` | Per-market settings (IN / US / UK): grade labels, boards, subject names, A–R options. |
 | `src/questions/` | One interactive renderer per question type. |
-| `src/engine/scoring.ts` | Grading and XP rules. |
+| `src/engine/scoring.ts` | Grading and XP rules (grading runs in the Worker). |
+| `src/lib/platform.ts`, `app-version.json` | Website vs Android app, the live site address, and the build number shared by both. |
 | `worker/` | API Worker: `auth.ts` (`/api/auth/*`, Google sign-in, session cookie, roles), `scores.ts` (`/api/scores*`), `progress.ts` (`/api/progress*`, unfinished rounds and answer log). |
 | `migrations/*.sql` | D1 database schema (`users`, `rounds`, `active_rounds`, `answers`, `groups`, `group_members`, `shares`). |
 | `worker/leaderboard.ts`, `worker/share.ts` | Leaderboard API (scopes and periods) and share links with link previews. |
@@ -46,6 +49,25 @@ Optional: with no client ID set, the app runs as guest-only and hides the sign-i
 
 The browser gets an ID token from Google, `POST /api/auth/google` verifies it against Google's public keys and sets an HttpOnly cookie. No Google client secret is used.
 
+## Questions, answers and images are served live
+
+Nothing is cached on the device, so a fix to a question, answer or image reaches every student on their next request once it is deployed (`npm run deploy`). Practice therefore needs a connection; the app shows an offline screen with *Try again* and retries by itself when the connection returns. Games still work offline.
+
+- **Answers stay on the server.** Questions arrive without their answer, explanation or hotspot labels; `POST /api/answers/check` grades a choice and only then returns them.
+- **Images** are requested from the live site (the Worker returns full URLs). Cloudflare serves them from its network; phones re-check them on each use, so a replaced image shows at once.
+- **Versions, ready for caching later.** Each chapter in `/api/catalog` has a `version` (a hash of its questions). It is unused today; if the app later caches chapters, it re-downloads only those whose version changed.
+- **Forcing an update.** Every request sends the build number from `app-version.json`. Set `MIN_APP_BUILD` in `wrangler.jsonc` to stop supporting older builds: the app shows *Update required* (Play Store link), and an outdated website tab reloads itself.
+
+## Android app
+
+Capacitor wraps the website's pages; the app calls the live site for everything else.
+
+1. Deploy the site first, then put its address in `.env.android` (`VITE_SERVER_URL=https://…`, no trailing slash). The Android build fails until it is set.
+2. For every release, bump `build` (and `name`) in `app-version.json`. Android's `versionCode`/`versionName` are read from it.
+3. `npm run android:sync` builds the pages for the app (`dist/android`, without `img/` and `og/`, which load from the site) and syncs the Android project. Then build in Android Studio (`npm run android:open`) or `npm run android:apk`.
+
+**Google sign-in in the app.** Google blocks its web sign-in inside apps, so the app uses Android's own (Credential Manager, via `@capgo/capacitor-social-login`). It still uses the web client ID, so the Worker needs no change, but Google must know the app: in Google Cloud Console → Credentials, in the **same project** as the web client, create an **OAuth client ID of type Android** with package name `com.prepquest.app` and the SHA-1 of each signing key (debug key: `cd android && gradlew signingReport`; Play Store: the *App signing key* SHA-1 from Play Console → App integrity). The app gets a session token instead of the cookie and sends it as `Authorization: Bearer`; the Worker allows the app's origin (`https://localhost`) through CORS.
+
 ## Saved scores
 
 - **Guests:** rounds stay on the device (localStorage), as before.
@@ -54,7 +76,7 @@ The browser gets an ID token from Google, `POST /api/auth/google` verifies it ag
 - **First sign-in only:** the device's guest progress is copied into the account once. A device copies its progress into one account only.
 - **Teacher/admin view (planned):** `users.role` is `student`, `teacher` or `admin`; `requireRole()` in `worker/auth.ts` guards routes. Make someone an admin with
   `npx wrangler d1 execute DB --remote --command "UPDATE users SET role = 'admin' WHERE email = 'someone@gmail.com'"`.
-- Scores are calculated in the browser, so a determined student could send made-up numbers. Grading on the server would close that gap.
+- Rounds are graded on the server: the app sends each round's answers and the Worker recalculates correct answers, marks and XP, ignoring the app's numbers. Guest progress copied in on first sign-in is still taken as sent.
 
 ## Leaderboard and sharing
 

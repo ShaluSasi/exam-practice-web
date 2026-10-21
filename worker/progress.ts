@@ -4,6 +4,7 @@
  */
 import { z } from "zod";
 import { requireUser } from "./auth";
+import { gradeRound, loadBank } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 
 const DAY = 86_400_000;
@@ -55,6 +56,14 @@ export async function saveProgress(request: Request, env: Env, url: URL): Promis
   assertSameOrigin(request, url);
   const user = await requireUser(request, env);
   const round = parse(SavedRoundIn, await readJson(request));
+  // Right/wrong and XP in the answer log come from grading here, not from the app.
+  const { graded } = gradeRound(await loadBank(), round.questionIds, round.attempts);
+  const byQuestion = new Map(graded.map((g) => [g.questionId, g]));
+  round.attempts = round.attempts.map((a) => {
+    const g = byQuestion.get(a.questionId);
+    return g ? { ...a, correct: g.correct, xp: g.xp } : a;
+  });
+  round.xp = round.attempts.reduce((n, a) => n + a.xp, 0);
   const state = JSON.stringify(round);
   if (state.length > MAX_STATE_BYTES) throw new HttpError(413, "Progress too large");
   const now = Date.now();

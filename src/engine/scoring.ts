@@ -1,8 +1,8 @@
-import type { AnyResponse, Question, ResponseFor } from "../content/schema";
+import type { AnyResponse, ClientQuestion, Question, ResponseFor } from "../content/schema";
 
 const sameSet = (a: string[], b: string[]) => a.length === b.length && a.every((x) => b.includes(x));
 
-export function isAnswered(q: Question, r: AnyResponse | undefined): boolean {
+export function isAnswered(q: ClientQuestion, r: AnyResponse | undefined): boolean {
   if (r === undefined) return false;
   switch (q.type) {
     case "mcq":
@@ -20,6 +20,7 @@ export function isAnswered(q: Question, r: AnyResponse | undefined): boolean {
   }
 }
 
+/** Grading needs the answer, so it runs on the server (worker/content.ts). */
 export function isCorrect(q: Question, r: AnyResponse | undefined): boolean {
   if (!isAnswered(q, r)) return false;
   switch (q.type) {
@@ -41,7 +42,7 @@ export function isCorrect(q: Question, r: AnyResponse | undefined): boolean {
 }
 
 /** Starting response so "order" questions begin in the authored order. */
-export function initialResponse(q: Question): AnyResponse | undefined {
+export function initialResponse(q: ClientQuestion): AnyResponse | undefined {
   return q.type === "order" ? q.items.map((i) => i.id) : undefined;
 }
 
@@ -71,7 +72,7 @@ export interface ScoreSummary {
 
 /** Scoreboard numbers for a round so far. Wrong answers cost `negativeMarks`; skips cost nothing. */
 export function scoreSession(
-  questions: readonly Question[],
+  questions: readonly Pick<Question, "id" | "marks" | "negativeMarks">[],
   attempts: readonly { questionId: string; correct: boolean; response: AnyResponse | undefined }[],
 ): ScoreSummary {
   const byId = new Map(questions.map((q) => [q.id, q]));
@@ -102,7 +103,7 @@ export function scoreSession(
 
 const BASE_XP = { easy: 10, medium: 15, hard: 20 } as const;
 
-export function xpFor(q: Question, opts: { streak: number; usedHint: boolean }): number {
+export function xpFor(q: Pick<Question, "difficulty">, opts: { streak: number; usedHint: boolean }): number {
   let xp: number = BASE_XP[q.difficulty];
   if (opts.usedHint) xp = Math.round(xp / 2);
   if (opts.streak >= 3) xp += 5;

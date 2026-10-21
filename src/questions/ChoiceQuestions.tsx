@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { region } from "../config/regions";
 import clsx from "clsx";
-import type { Choice, QuestionOf, QuestionType, ResponseFor } from "../content/schema";
+import type { Choice, ClientQuestionOf, QuestionType, ResponseFor } from "../content/schema";
 import { RichText } from "../components/RichText";
 import { play } from "../lib/sound";
 import { OptionCard, type OptionState } from "./OptionCard";
@@ -11,13 +11,14 @@ const optionGrid = (options: Choice[]) =>
   clsx("grid gap-3", options.some((o) => o.image) && "grid-cols-2");
 
 export interface QuestionProps<T extends QuestionType> {
-  q: QuestionOf<T>;
+  q: ClientQuestionOf<T>;
   response: ResponseFor<T> | undefined;
   onChange: (r: ResponseFor<T>) => void;
   reveal: boolean;
 }
 
-function singleState(id: string, answer: string, picked: string | undefined, reveal: boolean): OptionState {
+/** `answer` arrives from the server once the question is checked (`reveal`). */
+function singleState(id: string, answer: string | undefined, picked: string | undefined, reveal: boolean): OptionState {
   if (!reveal) return picked === id ? "selected" : "idle";
   if (id === answer) return picked === id ? "correct" : "missed";
   return picked === id ? "wrong" : "dim";
@@ -47,7 +48,7 @@ export function McqQuestion({ q, response, onChange, reveal }: QuestionProps<"mc
 export function MultiQuestion({ q, response = [], onChange, reveal }: QuestionProps<"multi">) {
   const state = (id: string): OptionState => {
     const picked = response.includes(id);
-    const right = q.answers.includes(id);
+    const right = q.answers?.includes(id) ?? false;
     if (!reveal) return picked ? "selected" : "idle";
     if (right) return picked ? "correct" : "missed";
     return picked ? "wrong" : "dim";

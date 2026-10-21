@@ -1,6 +1,7 @@
 import { create } from "zustand";
-import type { AnyResponse, Question } from "../content/schema";
-import { initialResponse, isCorrect, xpFor } from "../engine/scoring";
+import type { AnyResponse, ClientQuestion } from "../content/schema";
+import { initialResponse, xpFor } from "../engine/scoring";
+import { checkAnswer } from "./content";
 
 export interface Attempt {
   questionId: string;
@@ -32,9 +33,13 @@ interface SessionState {
   roundId: string;
   /** Shown on the scoreboard, e.g. the chapter name. */
   title: string;
-  questions: Question[];
+  /** Each question gets its answer key once checked (or when resumed already answered). */
+  questions: ClientQuestion[];
   index: number;
-  phase: "answering" | "feedback";
+  /** `checking`: waiting for the server to grade the answer. */
+  phase: "answering" | "checking" | "feedback";
+  /** The last check could not reach the server; the answer is kept so it can be tried again. */
+  checkFailed: boolean;
   response: AnyResponse | undefined;
   usedHint: boolean;
   attempts: Attempt[];
@@ -45,13 +50,13 @@ interface SessionState {
   finishedAt: number | null;
   questionStartedAt: number;
 
-  start: (questions: Question[], title: string, key?: string | null) => void;
-  /** Continues a saved round; `questions` are its questions, in order. */
-  resume: (saved: SavedRound, questions: Question[]) => void;
+  start: (questions: ClientQuestion[], title: string, key?: string | null) => void;
+  /** Continues a saved round; `questions` are its questions, in order (answered ones with their keys). */
+  resume: (saved: SavedRound, questions: ClientQuestion[]) => void;
   setResponse: (r: AnyResponse) => void;
   revealHint: () => void;
-  /** Grades the current response; `skip` records it as unanswered. */
-  check: (skip?: boolean) => Attempt;
+  /** Grades the current response on the server; `skip` records it as unanswered. Null if the server could not be reached. */
+  check: (skip?: boolean) => Promise<Attempt | null>;
   next: () => void;
 }
 
@@ -62,6 +67,7 @@ export const useSession = create<SessionState>()((set, get) => ({
   questions: [],
   index: 0,
   phase: "answering",
+  checkFailed: false,
   response: undefined,
   usedHint: false,
   attempts: [],
@@ -81,6 +87,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       questions,
       index: 0,
       phase: "answering",
+      checkFailed: false,
       response: questions[0] ? initialResponse(questions[0]) : undefined,
       usedHint: false,
       attempts: [],
@@ -105,6 +112,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       questions,
       index,
       phase: done ? "feedback" : "answering",
+      checkFailed: false,
       response: done ? saved.attempts[index].response : initialResponse(questions[index]),
       usedHint: false,
       attempts: saved.attempts,
@@ -124,15 +132,27 @@ export const useSession = create<SessionState>()((set, get) => ({
 
   revealHint: () => set({ usedHint: true }),
 
-  check: (skip = false) => {
+  check: async (skip = false) => {
     const s = get();
+    if (s.phase !== "answering") return null;
     const q = s.questions[s.index];
-    const correct = !skip && isCorrect(q, s.response);
+    const response = skip ? undefined : s.response;
+    set({ phase: "checking", checkFailed: false });
+    let result;
+    try {
+      result = await checkAnswer(q.id, response);
+    } catch {
+      if (get().roundId === s.roundId && get().index === s.index) set({ phase: "answering", checkFailed: true });
+      return null;
+    }
+    // The student left or restarted the round while it was being checked.
+    if (get().roundId !== s.roundId || get().index !== s.index) return null;
+    const correct = result.correct;
     const streak = correct ? s.streak + 1 : 0;
     const xp = correct ? xpFor(q, { streak, usedHint: s.usedHint }) : 0;
     const attempt: Attempt = {
       questionId: q.id,
-      response: skip ? undefined : s.response,
+      response,
       correct,
       usedHint: s.usedHint,
       xp,
@@ -140,6 +160,7 @@ export const useSession = create<SessionState>()((set, get) => ({
     };
     set({
       phase: "feedback",
+      questions: s.questions.map((x, i) => (i === s.index ? ({ ...x, ...result.key } as ClientQuestion) : x)),
       attempts: [...s.attempts, attempt],
       xp: s.xp + xp,
       streak,
@@ -158,6 +179,7 @@ export const useSession = create<SessionState>()((set, get) => ({
     set({
       index,
       phase: "answering",
+      checkFailed: false,
       response: initialResponse(s.questions[index]),
       usedHint: false,
       questionStartedAt: Date.now(),

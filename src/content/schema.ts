@@ -140,6 +140,28 @@ export type QuestionOf<T extends QuestionType> = Extract<Question, { type: T }>;
 
 export const QuestionBank = z.array(Question);
 
+/**
+ * Fields that give the answer away. The server keeps them back until the
+ * student has answered (or skipped) the question. Hotspot spot labels are
+ * held back too: they name every part of the diagram.
+ */
+export const KEY_FIELDS = ["answer", "answers", "pairs", "tolerance", "explanation"] as const;
+type KeyField = (typeof KEY_FIELDS)[number];
+
+type Spot = QuestionOf<"hotspot">["spots"][number];
+type WithoutKey<Q> = Q extends unknown
+  ? Omit<Q, KeyField | "spots"> &
+      Partial<Pick<Q, Extract<keyof Q, KeyField>>> &
+      (Q extends { spots: unknown } ? { spots: (Omit<Spot, "label"> & { label?: string })[] } : unknown)
+  : never;
+
+/** A question as the app gets it from the server: answer fields arrive once it has been checked. */
+export type ClientQuestion = WithoutKey<Question>;
+export type ClientQuestionOf<T extends QuestionType> = Extract<ClientQuestion, { type: T }>;
+
+/** The held-back fields of one question, merged into it once checked. */
+export type AnswerKey = Partial<Record<KeyField, unknown>> & { spots?: Spot[] };
+
 /** What a student has entered for each question type. */
 export type ResponseFor<T extends QuestionType> = {
   mcq: string;

@@ -7,6 +7,7 @@ import { renderShareCard, type CardData } from "../lib/shareCard";
 import { ApiError, api, useAuth } from "../store/auth";
 import type { Period } from "../store/leaderboard";
 import { gameUrl } from "../store/nav";
+import { SITE_ORIGIN } from "../lib/platform";
 import { flushScores } from "../store/scoreSync";
 
 export type ShareTarget =
@@ -50,7 +51,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 /** A challenge link for signed-in students; the home page for guests. */
 async function createLink(t: ShareTarget, signedIn: boolean): Promise<string> {
   if (t.kind === "game") return gameUrl(t.game, t.section === "overall" || t.section === "mixed" ? null : t.section);
-  if (!signedIn) return window.location.origin;
+  if (!signedIn) return SITE_ORIGIN;
   const body = t.kind === "round" ? { kind: "round", roundId: t.roundId, questionIds: t.questionIds } : { kind: "rank", period: t.period };
   for (let attempt = 0; ; attempt++) {
     // A just-finished round may still be on its way to the server.
@@ -111,7 +112,7 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
     (async () => {
       const url = await createLink(target, signedIn).catch(() => {
         if (live) setError("Couldn't make a challenge link right now, so your picture links to PrepQuest instead.");
-        return window.location.origin;
+        return SITE_ORIGIN;
       });
       if (!live) return;
       setLink(url);

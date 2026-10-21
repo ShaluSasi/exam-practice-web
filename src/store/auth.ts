@@ -1,4 +1,6 @@
 import { create } from "zustand";
+import { API_ORIGIN, APP_BUILD, isNative } from "../lib/platform";
+import { useConnection } from "./connection";
 
 export interface User {
   id: string;
@@ -24,6 +26,8 @@ interface AuthState {
   error: string | null;
   init: () => Promise<void>;
   signInWithCredential: (credential: string) => Promise<void>;
+  /** The app: Google sign-in through Android (Google blocks its web sign-in inside apps). */
+  signInNative: () => Promise<void>;
   signOut: () => Promise<void>;
 }
 
@@ -36,20 +40,56 @@ export class ApiError extends Error {
   }
 }
 
-/** Calls our API: GET without a body, POST (JSON) with one. */
+/** `ApiError` status when the server could not be reached at all. */
+export const OFFLINE = 0;
+
+/** The app keeps its session token here (the website uses an HttpOnly cookie instead). */
+const TOKEN_KEY = "prepquest-session";
+
+function sessionToken(): string | null {
+  try {
+    return isNative ? localStorage.getItem(TOKEN_KEY) : null;
+  } catch {
+    return null;
+  }
+}
+
+function setSessionToken(token: string | null) {
+  try {
+    if (token) localStorage.setItem(TOKEN_KEY, token);
+    else localStorage.removeItem(TOKEN_KEY);
+  } catch {
+    // Storage unavailable: the app stays signed in until it is closed.
+  }
+}
+
+/** Calls our API: GET without a body, POST (JSON) with one. Fails with status `OFFLINE` when unreachable. */
 export async function api<T>(path: string, body?: unknown): Promise<T> {
-  const res = await fetch(path, {
-    method: body === undefined ? "GET" : "POST",
-    headers: body === undefined ? undefined : { "Content-Type": "application/json" },
-    body: body === undefined ? undefined : JSON.stringify(body),
-    credentials: "same-origin",
-  });
+  const token = sessionToken();
+  let res: Response;
+  try {
+    res = await fetch(API_ORIGIN + path, {
+      method: body === undefined ? "GET" : "POST",
+      headers: {
+        "X-App-Build": String(APP_BUILD),
+        ...(body === undefined ? {} : { "Content-Type": "application/json" }),
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      },
+      body: body === undefined ? undefined : JSON.stringify(body),
+      credentials: isNative ? "omit" : "same-origin",
+    });
+  } catch {
+    throw new ApiError(OFFLINE, "You're offline. Check your internet connection.");
+  }
   const data = (await res.json().catch(() => ({}))) as T & { error?: string };
+  if (res.status === 426) useConnection.setState({ updateRequired: true });
   if (!res.ok) throw new ApiError(res.status, data.error ?? `Request failed (${res.status})`);
   return data;
 }
 
-export const useAuth = create<AuthState>()((set) => ({
+let nativeInitializedFor: string | null = null;
+
+export const useAuth = create<AuthState>()((set, get) => ({
   status: "loading",
   user: null,
   clientId: null,
@@ -72,22 +112,53 @@ export const useAuth = create<AuthState>()((set) => ({
   signInWithCredential: async (credential) => {
     set({ error: null });
     try {
-      const { user, canImport } = await api<{ user: User; canImport: boolean }>("/api/auth/google", { credential });
+      const { user, canImport, token } = await api<{ user: User; canImport: boolean; token?: string }>("/api/auth/google", {
+        credential,
+      });
+      if (token) setSessionToken(token);
       set({ status: "signedIn", user, canImport });
     } catch (e) {
       set({ error: e instanceof Error ? e.message : "Sign-in failed" });
     }
   },
 
+  signInNative: async () => {
+    const clientId = get().clientId;
+    if (!clientId) return;
+    set({ error: null });
+    try {
+      const { SocialLogin } = await import("@capgo/capacitor-social-login");
+      if (nativeInitializedFor !== clientId) {
+        await SocialLogin.initialize({ google: { webClientId: clientId } });
+        nativeInitializedFor = clientId;
+      }
+      const { result } = await SocialLogin.login({ provider: "google", options: { scopes: ["email", "profile"] } });
+      const idToken = "idToken" in result ? result.idToken : null;
+      if (!idToken) throw new Error("Google sign-in failed");
+      await get().signInWithCredential(idToken);
+    } catch (e) {
+      // Closing Google's account picker is not an error worth showing.
+      const message = e instanceof Error ? e.message : "";
+      if (!/cancel/i.test(message)) set({ error: message || "Google sign-in failed" });
+    }
+  },
+
   signOut: async () => {
     await api("/api/auth/logout", {}).catch(() => undefined);
+    setSessionToken(null);
+    if (isNative) {
+      void import("@capgo/capacitor-social-login")
+        .then(({ SocialLogin }) => SocialLogin.logout({ provider: "google" }))
+        .catch(() => undefined);
+    }
     window.google?.accounts.id.disableAutoSelect();
     set((s) => ({ status: s.clientId ? "signedOut" : "unavailable", user: null, canImport: false }));
   },
 }));
 
-/** Session ended on the server (expired cookie): show the sign-in button again. */
+/** Session ended on the server (expired cookie or token): show the sign-in button again. */
 export function markSignedOut() {
+  setSessionToken(null);
   useAuth.setState((s) => ({ status: s.clientId ? "signedOut" : "unavailable", user: null, canImport: false }));
 }
 

@@ -3,7 +3,7 @@ import { AnimatePresence, animate, motion, useMotionValue, useTransform } from "
 import { Check, ChevronDown, Clock, Crown, Flame, House, Medal, RotateCcw, Share2, Swords, Target, Trophy, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
-import type { Question, SubjectId } from "../content/schema";
+import type { SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
 import { Figure } from "../components/Figure";
 import { scoreSession } from "../engine/scoring";
@@ -211,7 +211,7 @@ function ScoreHistory({ currentId }: { currentId: string | undefined }) {
   );
 }
 
-export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry: (qs: Question[], title: string) => void }) {
+export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry: (questionIds: string[], title: string) => void }) {
   const s = useSession();
   const [openId, setOpenId] = useState<string | null>(null);
   const [share, setShare] = useState<ShareTarget | null>(null);
@@ -316,7 +316,7 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
 
           <div className="mt-3 flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
             {wrong.length > 0 && (
-              <Button variant="dark" onClick={() => onRetry(wrong, s.title ? `${s.title} · mistakes` : "Mistakes")}>
+              <Button variant="dark" onClick={() => onRetry(wrong.map((q) => q.id), s.title ? `${s.title} · mistakes` : "Mistakes")}>
                 <RotateCcw className="size-5" /> Retry {wrong.length} mistake{wrong.length === 1 ? "" : "s"}
               </Button>
             )}
@@ -410,10 +410,12 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
                         <div className="border-t-2 border-dashed border-line p-4 sm:p-5">
                           {q.image && q.type !== "hotspot" && <Figure media={q.image} className="mb-4" frameClassName="max-w-[380px]" />}
                           <QuestionBody q={q} response={a.response} onChange={() => {}} reveal />
-                          <div className="mt-5 rounded-2xl bg-surface-2 p-4 leading-relaxed">
-                            <p className="mb-1 text-xs font-bold uppercase tracking-wider text-muted">Explanation</p>
-                            <RichText text={q.explanation} />
-                          </div>
+                          {q.explanation && (
+                            <div className="mt-5 rounded-2xl bg-surface-2 p-4 leading-relaxed">
+                              <p className="mb-1 text-xs font-bold uppercase tracking-wider text-muted">Explanation</p>
+                              <RichText text={q.explanation} />
+                            </div>
+                          )}
                         </div>
                       </motion.div>
                     )}

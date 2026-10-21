@@ -3,17 +3,18 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Award, BookOpen, Check, Flame, Play, RotateCcw, Sparkles, Target, Trophy, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
-import { questionBank } from "../content";
-import type { Question, SubjectId } from "../content/schema";
+import type { ChapterInfo } from "../content/api";
+import type { SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
 import { RichText } from "../components/RichText";
 import { Logo, SettingsToggles, XpPill } from "../components/TopBar";
-import { ROUND_SIZE, pickRandom } from "../engine/scoring";
+import { ROUND_SIZE } from "../engine/scoring";
 import { GamesStrip } from "../games/GamesStrip";
 import { SUBJECT_STYLE } from "../lib/subjects";
 import { rankRounds, useProfile, useStats } from "../store/profile";
 import { useAuth } from "../store/auth";
 import { discardSavedRound, useSavedRound } from "../store/progress";
+import { useContent, type RoundSource } from "../store/content";
 import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
 
@@ -22,7 +23,7 @@ const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
 const gradesWithQuestions = region.grades.filter((g) => g === 9);
 
 /** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
-type StartRound = (qs: Question[], title: string, key?: string) => void;
+type StartRound = (source: RoundSource, title: string, key?: string) => void;
 const MIXED_KEY = "mixed";
 const GLYPHS = [
   { c: "∑", x: "6%", y: "18%", s: 64, d: 7 },
@@ -142,34 +143,17 @@ function Toggle({ on, onClick, children, className }: { on: boolean; onClick: ()
   );
 }
 
-interface Chapter {
-  key: string;
-  title: string;
-  no: number | undefined;
-  subject: SubjectId;
-  grade: number;
-  questions: Question[];
-  cover: string | undefined;
+type Chapter = ChapterInfo;
+
+/** Every chapter, in course order (from the server). */
+function useAllChapters(): ChapterInfo[] {
+  return useContent((s) => s.catalog?.chapters) ?? [];
 }
 
-/** Chapters with enough questions for a full random round get their own quiz card, in course order. */
+/** Chapters with enough questions for a full random round get their own quiz card. */
 function useChapters(): Chapter[] {
-  return useMemo(() => {
-    const map = new Map<string, Chapter>();
-    for (const q of questionBank) {
-      const key = `${q.subject}|${q.grade}|${q.chapter}`;
-      let c = map.get(key);
-      if (!c) {
-        c = { key, title: q.chapter, no: q.chapterNo, subject: q.subject, grade: q.grade, questions: [], cover: undefined };
-        map.set(key, c);
-      }
-      c.questions.push(q);
-      c.cover ??= q.image?.src;
-    }
-    return [...map.values()]
-      .filter((c) => c.questions.length >= ROUND_SIZE)
-      .sort((a, b) => a.subject.localeCompare(b.subject) || a.grade - b.grade || (a.no ?? 99) - (b.no ?? 99));
-  }, []);
+  const all = useAllChapters();
+  return useMemo(() => all.filter((c) => c.count >= ROUND_SIZE), [all]);
 }
 
 /** One compact, fully tappable row per chapter so a whole subject fits on one screen. */
@@ -178,7 +162,7 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: St
   const best = rankRounds(rounds.filter((r) => r.title === chapter.title))[0];
   const saved = useSavedRound(chapter.key);
   const st = SUBJECT_STYLE[chapter.subject];
-  const startNew = () => onStart(pickRandom(chapter.questions), chapter.title, chapter.key);
+  const startNew = () => onStart({ chapter: chapter.key }, chapter.title, chapter.key);
 
   return (
     <motion.article
@@ -210,7 +194,7 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: St
         <span className="min-w-0 flex-1">
           <h3 className="font-display text-[17px] font-extrabold leading-tight tracking-tight sm:text-lg">{chapter.title}</h3>
           <span className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold text-muted sm:text-sm">
-            <span>{chapter.questions.length} questions</span>
+            <span>{chapter.count} questions</span>
             <span className="flex items-center gap-1">
               <Trophy className="size-3.5 text-brand" />
               {best ? <span className="font-bold text-fg">Best {best.accuracy}%</span> : saved ? null : "Not tried yet"}
@@ -447,17 +431,13 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
   const [grades, setGrades] = useState<number[]>([]);
   const [subjects, setSubjects] = useState<SubjectId[]>([]);
 
-  const selection = useMemo(
-    () =>
-      questionBank.filter(
-        (q) => (grades.length === 0 || grades.includes(q.grade)) && (subjects.length === 0 || subjects.includes(q.subject)),
-      ),
-    [grades, subjects],
-  );
-  const countFor = (s: SubjectId) =>
-    questionBank.filter((q) => q.subject === s && (grades.length === 0 || grades.includes(q.grade))).length;
+  const allChapters = useAllChapters();
+  const types = useContent((s) => s.catalog?.types) ?? [];
+  const inGrades = (c: ChapterInfo) => grades.length === 0 || grades.includes(c.grade);
+  const sum = (cs: ChapterInfo[]) => cs.reduce((n, c) => n + c.count, 0);
+  const selectionSize = sum(allChapters.filter((c) => inGrades(c) && (subjects.length === 0 || subjects.includes(c.subject))));
+  const countFor = (s: SubjectId) => sum(allChapters.filter((c) => c.subject === s && inGrades(c)));
   const toggle = <T,>(list: T[], v: T) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
-  const types = [...new Set(questionBank.map((q) => q.type))];
 
   return (
     <div className="paper relative min-h-dvh">
@@ -473,7 +453,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
           </div>
         </header>
 
-        {!landing && <WelcomeBar onMixed={() => onStart(pickRandom(questionBank), "Mixed practice", MIXED_KEY)} />}
+        {!landing && <WelcomeBar onMixed={() => onStart({ mixed: true }, "Mixed practice", MIXED_KEY)} />}
 
         {/* Hero: first visit or the logo, so returning students otherwise reach their chapters without scrolling */}
         {landing && (
@@ -530,7 +510,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               </Button>
               <button
                 type="button"
-                onClick={() => onStart(pickRandom(questionBank), "Mixed practice", MIXED_KEY)}
+                onClick={() => onStart({ mixed: true }, "Mixed practice", MIXED_KEY)}
                 className="font-semibold text-muted underline-offset-4 hover:text-fg hover:underline"
               >
                 or start mixed practice
@@ -657,13 +637,13 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-2 font-semibold text-muted">
                 <Target className="size-4" />
-                <motion.span key={selection.length} initial={{ y: -6, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="tabular-nums">
-                  {Math.min(selection.length, ROUND_SIZE)}
+                <motion.span key={selectionSize} initial={{ y: -6, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="tabular-nums">
+                  {Math.min(selectionSize, ROUND_SIZE)}
                 </motion.span>
-                question{selection.length === 1 ? "" : "s"}
-                {selection.length > ROUND_SIZE && <span className="whitespace-nowrap font-normal">(random from {selection.length})</span>}
+                question{selectionSize === 1 ? "" : "s"}
+                {selectionSize > ROUND_SIZE && <span className="whitespace-nowrap font-normal">(random from {selectionSize})</span>}
               </span>
-              <Button variant="dark" disabled={selection.length === 0} onClick={() => onStart(pickRandom(selection), "Custom set")}>
+              <Button variant="dark" disabled={selectionSize === 0} onClick={() => onStart({ subjects, grades }, "Custom set")}>
                 Start <Play className="size-4 fill-current" />
               </Button>
             </div>

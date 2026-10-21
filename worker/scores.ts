@@ -2,12 +2,14 @@
  * Saved scores for signed-in students. Every round is stored against the
  * account (Google ID) and the email it was played with.
  *
- * Scores are calculated in the browser and sent here, so a determined
- * student could send made-up numbers. Server-side grading would need the
- * answers to be submitted and checked here instead.
+ * Live rounds arrive with their answers and are graded here (worker/content.ts),
+ * so the numbers the app sends are ignored. Guest progress copied in on first
+ * sign-in (`importDevice`) was played before signing in and is still
+ * taken as sent.
  */
 import { z } from "zod";
 import { requireUser, type SessionUser } from "./auth";
+import { gradeRound, loadBank } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 
 const DAY = 86_400_000;
@@ -32,7 +34,17 @@ const RoundIn = z
   .refine((r) => r.correct <= r.total && r.at <= Date.now() + DAY, "Invalid round");
 type RoundIn = z.infer<typeof RoundIn>;
 
-const SaveBody = z.object({ rounds: z.array(RoundIn).min(1).max(50) });
+/** A round just played: its questions and answers, graded here. */
+const LiveRoundIn = RoundIn.and(
+  z.object({
+    questionIds: z.array(z.string().min(1).max(100)).min(1).max(200),
+    attempts: z
+      .array(z.object({ questionId: z.string().min(1).max(100), response: z.unknown().optional(), usedHint: z.boolean() }))
+      .max(200),
+  }),
+);
+
+const SaveBody = z.object({ rounds: z.array(LiveRoundIn).min(1).max(50) });
 
 /** The device's guest progress, copied in on the account's first sign-in. */
 const ImportBody = z.object({
@@ -145,8 +157,22 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
   assertSameOrigin(request, url);
   const user = await requireUser(request, env);
   const { rounds } = parse(SaveBody, await readJson(request));
+  const bank = await loadBank();
   const now = Date.now();
-  await env.DB.batch(rounds.map((r) => insertRound(env, user, r, "live", now)));
+  const graded = rounds.map(({ questionIds, attempts, ...r }): RoundIn => {
+    const g = gradeRound(bank, questionIds, attempts);
+    return {
+      ...r,
+      correct: g.score.correct,
+      total: Math.max(1, g.total),
+      marks: g.score.marks,
+      maxMarks: g.score.maxMarks,
+      accuracy: g.score.accuracy,
+      xp: g.xp,
+      streak: g.bestStreak,
+    };
+  });
+  await env.DB.batch(graded.map((r) => insertRound(env, user, r, "live", now)));
   return json(await summary(env, user.id));
 }
 

@@ -1,4 +1,5 @@
 import { create } from "zustand";
+import { SITE_ORIGIN } from "../lib/platform";
 import type { GameId } from "./games";
 
 export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game";
@@ -39,7 +40,7 @@ const linkedGame = gameLink && GAME_IDS.includes(gameLink) ? gameLink : null;
 
 /** The game's own address, so the address bar can be copied and shared. */
 export function gameUrl(id: GameId, mode?: string | null): string {
-  return `${window.location.origin}/games/${id}${mode ? `?mode=${encodeURIComponent(mode)}` : ""}`;
+  return `${SITE_ORIGIN}/games/${id}${mode ? `?mode=${encodeURIComponent(mode)}` : ""}`;
 }
 
 /** Keeps the address bar on the open game (and mode), without adding history entries. */

@@ -3,8 +3,12 @@
  * Services, posts it here, we verify it against Google's public keys, save
  * the account in D1 and set our own signed, HttpOnly session cookie.
  * No Google client secret is needed.
+ *
+ * The Android app gets its ID token from Android's Credential Manager instead
+ * (still issued for our web client ID), and gets the session as a token it
+ * sends in an `Authorization: Bearer` header.
  */
-import { HttpError, assertSameOrigin, b64url, bytesFromB64url, json, readJson, textFromB64url, type Env } from "./http";
+import { HttpError, assertSameOrigin, b64url, bytesFromB64url, isAppOrigin, json, readJson, textFromB64url, type Env } from "./http";
 
 export type Role = "student" | "teacher" | "admin";
 
@@ -53,10 +57,11 @@ export async function signIn(request: Request, env: Env, url: URL): Promise<Resp
 
   const maxAge = SESSION_DAYS * 86400;
   const token = await signSession({ ...user, exp: Math.floor(now / 1000) + maxAge }, env.SESSION_SECRET);
-  return json(
-    { user: { ...user, role: row?.role ?? "student" }, canImport: row?.imported_at == null },
-    { "Set-Cookie": cookie(token, maxAge, url) },
-  );
+  const result = { user: { ...user, role: row?.role ?? "student" }, canImport: row?.imported_at == null };
+  // The app can't use our cookie (its pages are on another origin), so it keeps the token and sends it back.
+  // The website never sees the token: the cookie stays HttpOnly.
+  if (isAppOrigin(request)) return json({ ...result, token });
+  return json(result, { "Set-Cookie": cookie(token, maxAge, url) });
 }
 
 export async function me(request: Request, env: Env): Promise<Response> {
@@ -163,7 +168,10 @@ async function signSession(session: Session, secret: string): Promise<string> {
 
 async function readSession(request: Request, env: Env): Promise<SessionUser | null> {
   if (!env.SESSION_SECRET) return null;
-  const raw = request.headers.get("Cookie")?.match(new RegExp(`(?:^|;\\s*)${COOKIE}=([^;]+)`))?.[1];
+  // The app sends the same signed token as a bearer token; the website sends the cookie.
+  const raw =
+    /^Bearer (\S+)$/.exec(request.headers.get("Authorization") ?? "")?.[1] ??
+    request.headers.get("Cookie")?.match(new RegExp(`(?:^|;\\s*)${COOKIE}=([^;]+)`))?.[1];
   if (!raw) return null;
   const [payload, sig] = raw.split(".");
   if (!payload || !sig) return null;

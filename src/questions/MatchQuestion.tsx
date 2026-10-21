@@ -44,7 +44,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
         const x1 = a.right - c.left, y1 = a.top + a.height / 2 - c.top;
         const x2 = b.left - c.left, y2 = b.top + b.height / 2 - c.top;
         const mx = (x1 + x2) / 2;
-        const color = reveal ? (q.pairs[l] === r ? "var(--ok)" : "var(--bad)") : colorOf(l);
+        const color = reveal ? (q.pairs?.[l] === r ? "var(--ok)" : "var(--bad)") : colorOf(l);
         next.push({ id: `${l}-${r}`, d: `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`, color });
       }
       setLines(next);
@@ -102,7 +102,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
           {q.left.map((l, i) => {
             const paired = response[l.id];
             const isActive = !reveal && active === l.id;
-            const right = reveal && paired === q.pairs[l.id];
+            const right = reveal && paired === q.pairs?.[l.id];
             const color = colorOf(l.id);
             return (
               <motion.button
@@ -136,7 +136,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                   <RichText text={l.text} className="font-semibold" />
                   {reveal && !right && (
                     <span className="mt-1 block text-xs font-semibold text-ok">
-                      → <RichText text={q.right.find((r) => r.id === q.pairs[l.id])?.text ?? ""} />
+                      → <RichText text={q.right.find((r) => r.id === q.pairs?.[l.id])?.text ?? ""} />
                     </span>
                   )}
                 </span>

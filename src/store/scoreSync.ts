@@ -10,7 +10,7 @@
  */
 import { serialized } from "../lib/serial";
 import { ApiError, api, markSignedOut, useAuth, type User } from "./auth";
-import { addRound, useProfile, type AccountStats, type Round, type Stats } from "./profile";
+import { addRound, useProfile, type AccountStats, type Round, type RoundAnswers, type Stats } from "./profile";
 
 interface Summary {
   totalXp: number;
@@ -58,7 +58,8 @@ async function sendPending(userId: string): Promise<void> {
     if (batch.length === 0) return;
     const ids = batch.map((p) => p.round.id);
     try {
-      const summary = await api<Summary>("/api/scores/rounds", { rounds: batch.map((p) => p.round) });
+      // The server grades each round from its answers; the numbers in `round` are only shown until then.
+      const summary = await api<Summary>("/api/scores/rounds", { rounds: batch.map((p) => ({ ...p.round, ...p.answers })) });
       useProfile.getState().removePending(ids);
       apply(userId, summary);
     } catch (e) {
@@ -108,13 +109,13 @@ export function flushScores(): Promise<void> {
 }
 
 /** Saves a finished round: on the server when signed in, on this device otherwise. */
-export function recordRound(round: Round, bestStreak: number) {
+export function recordRound(round: Round, bestStreak: number, answers: RoundAnswers) {
   const user = useAuth.getState().user;
   if (!user) {
     useProfile.getState().recordSession(round, bestStreak);
     return;
   }
-  useProfile.getState().recordAccountRound(user.id, { ...round, streak: bestStreak });
+  useProfile.getState().recordAccountRound(user.id, { ...round, streak: bestStreak }, answers);
   flush(user.id).catch(handleError);
 }
 
