@@ -31,7 +31,7 @@ interface Result extends BattleResult {
 }
 
 type Phase = "intro" | "play" | "over" | "board";
-type Saving = "sending" | "saved" | "offline" | "guest";
+type Saving = "sending" | "saved" | "offline" | "guest" | "none";
 
 export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
   const [phase, setPhase] = useState<Phase>("intro");
@@ -40,6 +40,8 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
   const [boardFor, setBoardFor] = useState<string>(OVERALL);
   const [share, setShare] = useState<ShareTarget | null>(null);
   const [saving, setSaving] = useState<Saving>("guest");
+  /** The run whose save is in progress; an older save finishing late must not overwrite a newer result. */
+  const savingRun = useRef<string | null>(null);
   const section = useGalaxy((s) => s.section);
   const setSection = useGalaxy((s) => s.setSection);
   const signedIn = useAuth((s) => s.status === "signedIn");
@@ -63,15 +65,23 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
     const newBest = useGames.getState().finish("galaxy", r.score, r.correct);
     const rec = useGalaxy.getState().recordRun(r, r.section);
     setResult({ ...r, newBest, newMissionBest: missionBest > 0 && r.score > missionBest, badges: rec.badges, missions: rec.missions, rankBefore, boardRankBefore });
-    setPhase("over");
+    // The run is already recorded; the "SHIELDS DOWN" sequence plays out before the result screen.
+    // Back pressed meanwhile goes to the intro and stays there.
+    window.setTimeout(() => setPhase((p) => (p === "play" ? "over" : p)), 2200);
 
-    if (!useAuth.getState().user || r.score <= 0) {
+    if (r.score <= 0) {
+      setSaving("none");
+      return;
+    }
+    if (!useAuth.getState().user) {
       setSaving("guest");
       return;
     }
     setSaving("sending");
+    const runId = crypto.randomUUID();
+    savingRun.current = runId;
     void submitGameRun({
-      id: crypto.randomUUID(),
+      id: runId,
       game: "galaxy",
       section: r.section,
       at: Date.now(),
@@ -83,7 +93,7 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
       bestCombo: r.bestCombo,
     }).then(async (ok) => {
       if (ok) await loadGameRanks("galaxy", "week", true);
-      setSaving(ok ? "saved" : "offline");
+      if (savingRun.current === runId) setSaving(ok ? "saved" : "offline");
     });
   };
 
@@ -438,7 +448,9 @@ function RunRank({ result, saving, onBoard }: { result: Result; saving: Saving; 
       <h3 className="flex items-center gap-2 font-display text-lg font-extrabold">
         <Trophy className="size-5 text-[#e0a100]" /> Scoreboard
       </h3>
-      {saving === "guest" ? (
+      {saving === "none" ? (
+        <p className="mt-2 text-sm text-muted">Score some points to get on the {mission.name} scoreboard.</p>
+      ) : saving === "guest" ? (
         <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
           <p className="max-w-sm text-sm text-muted">Sign in to put this score on the {mission.name} scoreboard and see your rank among other pilots.</p>
           <AccountButton />

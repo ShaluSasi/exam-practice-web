@@ -55,3 +55,10 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
 };
 
 export const region = REGIONS.IN;
+
+/**
+ * Classes the app offers today. Only Class 9 for now; add the others as their
+ * content grows. Mixed practice, custom sets and challenge fallbacks draw from
+ * these classes only, so sample questions for other classes never reach a student.
+ */
+export const offeredGrades = region.grades.filter((g) => g === 9);

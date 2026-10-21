@@ -154,7 +154,7 @@ function ScoreHistory({ currentId }: { currentId: string | undefined }) {
             )}
           >
             {rank === 1 ? <Crown className="size-4" /> : <Medal className="size-4" />}
-            {rank === 1 ? "New personal best!" : `Your #${rank} round of ${rounds.length}`}
+            {rank === 1 ? "New personal best!" : `#${rank} of your last ${rounds.length} rounds`}
           </motion.span>
         )}
       </div>
@@ -408,6 +408,10 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
                         className="overflow-hidden"
                       >
                         <div className="border-t-2 border-dashed border-line p-4 sm:p-5">
+                          {/* The header shows only two lines of the question; long prompts need the whole thing here. */}
+                          <p className="mb-4 font-semibold leading-relaxed">
+                            <RichText text={q.prompt} />
+                          </p>
                           {q.image && q.type !== "hotspot" && <Figure media={q.image} className="mb-4" frameClassName="max-w-[380px]" />}
                           <QuestionBody q={q} response={a.response} onChange={() => {}} reveal />
                           {q.explanation && (

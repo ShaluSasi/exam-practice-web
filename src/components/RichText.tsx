@@ -20,8 +20,9 @@ export const RichText = memo(function RichText({ text, className }: { text: stri
     if (!part) return;
     if (part.startsWith("$$")) out.push(tex(part.slice(2, -2), true, i));
     else if (part.startsWith("$")) out.push(tex(part.slice(1, -1), false, i));
-    else if (part.startsWith("**")) out.push(<strong key={i} className="font-bold">{part.slice(2, -2)}</strong>);
-    else if (part.startsWith("*") && part.endsWith("*") && part.length > 2) out.push(<em key={i}>{part.slice(1, -1)}</em>);
+    // Bold and italic runs may hold maths of their own, e.g. **coefficient of $z$**.
+    else if (part.startsWith("**")) out.push(<strong key={i} className="font-bold"><RichText text={part.slice(2, -2)} /></strong>);
+    else if (part.startsWith("*") && part.endsWith("*") && part.length > 2) out.push(<em key={i}><RichText text={part.slice(1, -1)} /></em>);
     else out.push(part);
   });
   return <span className={className}>{out}</span>;

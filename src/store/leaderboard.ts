@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { ApiError, api, markSignedOut, useAuth } from "./auth";
+import { flushScores } from "./scoreSync";
 
 export type Period = "week" | "month" | "all";
 
@@ -69,6 +70,8 @@ export const useLeaderboard = create<LeaderboardState>()((set, get) => ({
     if (get().loading[id] || (cached && Date.now() - cached.at < FRESH_MS)) return;
     set((s) => ({ loading: { ...s.loading, [id]: true }, error: null }));
     try {
+      // A just-finished round may still be on its way to the server.
+      await flushScores().catch(() => undefined);
       const board = await api<Board>(`/api/leaderboard?period=${period}&scope=${scope}`);
       const userId = useAuth.getState().user?.id ?? "";
       set((s) => ({ boards: { ...s.boards, [id]: { board, moved: movement(userId, id, board.me?.rank), at: Date.now() } } }));

@@ -7,8 +7,9 @@ import { z } from "zod";
 import type { Catalog, CheckResponse, QuestionsResponse } from "../src/content/api";
 import { SubjectId, type ClientQuestion, type Question } from "../src/content/schema";
 import { ROUND_SIZE, pickRandom } from "../src/engine/scoring";
-import { answerKey, chapterInfo, grade, isResponseFor, loadBank, publicQuestion } from "./content";
-import { HttpError, json, readJson } from "./http";
+import { optionalUser } from "./auth";
+import { answerKey, chapterInfo, grade, isResponseFor, loadBank, publicQuestion, recordedChecks } from "./content";
+import { HttpError, json, readJson, type Env } from "./http";
 
 const MAX_IDS = 200;
 const MAX_COUNT = 50;
@@ -28,11 +29,12 @@ export async function getCatalog(url: URL): Promise<Response> {
 /**
  * GET /api/questions
  * - `ids=a,b,c`: those questions, in that order. `reveal=a,b` also sends the
- *   answer keys of ones already answered (resuming a round).
+ *   answer keys of ones already answered (resuming a round). For a signed-in
+ *   student only questions the server saw checked in `round=<id>` are revealed.
  * - otherwise a random round of `count` (default 20) from `chapter=<key>`, or
  *   from `subjects=` / `grades=`, or from everything.
  */
-export async function getQuestions(url: URL): Promise<Response> {
+export async function getQuestions(request: Request, env: Env, url: URL): Promise<Response> {
   const bank = await loadBank();
   const p = url.searchParams;
   const ids = list(p.get("ids"));
@@ -47,11 +49,15 @@ export async function getQuestions(url: URL): Promise<Response> {
   if (ids.length > 0) {
     if (ids.length > MAX_IDS) throw new HttpError(400, "Too many questions");
     const found = ids.map((id) => bank.byId.get(id)).filter((q): q is Question => !!q);
-    return send(
-      found,
-      ids.filter((id) => !bank.byId.has(id)),
-      new Set(list(p.get("reveal"))),
-    );
+    let reveal = list(p.get("reveal"));
+    if (reveal.length) {
+      const user = await optionalUser(request, env);
+      if (user) {
+        const checked = await recordedChecks(env, user.id, p.get("round") ?? "");
+        reveal = reveal.filter((id) => checked.has(id));
+      }
+    }
+    return send(found, ids.filter((id) => !bank.byId.has(id)), new Set(reveal));
   }
 
   const count = Math.min(MAX_COUNT, Math.max(1, Number(p.get("count")) || ROUND_SIZE));
@@ -73,16 +79,41 @@ const CheckIn = z.object({
   questionId: z.string().min(1).max(100),
   /** Missing or null: skipped. */
   response: z.unknown().optional(),
+  /** The round being played; lets the server remember the answer for grading the round later. */
+  roundId: z.string().min(1).max(64).optional(),
 });
 
-/** POST /api/answers/check — right or wrong, plus the answer key and explanation. */
-export async function checkAnswer(request: Request): Promise<Response> {
+/**
+ * POST /api/answers/check — right or wrong, plus the answer key and explanation.
+ *
+ * For a signed-in student the first answer checked per round and question is
+ * kept (table `checks`) and is the one graded, now and when the round is saved,
+ * so checking a guess to learn the key and then "answering" changes nothing.
+ */
+export async function checkAnswer(request: Request, env: Env): Promise<Response> {
   const parsed = CheckIn.safeParse(await readJson(request));
   if (!parsed.success) throw new HttpError(400, "Invalid answer");
-  const { questionId, response } = parsed.data;
+  const { questionId, roundId } = parsed.data;
+  let response: unknown = parsed.data.response ?? undefined;
   const q = (await loadBank()).byId.get(questionId);
   if (!q) throw new HttpError(404, "This question no longer exists");
-  if (response != null && !isResponseFor(q, response)) throw new HttpError(400, "Invalid answer");
+  if (response !== undefined && !isResponseFor(q, response)) throw new HttpError(400, "Invalid answer");
+
+  const user = roundId ? await optionalUser(request, env) : null;
+  if (user && roundId) {
+    const [, saved] = await env.DB.batch([
+      env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
+        user.id,
+        roundId,
+        q.id,
+        response === undefined ? null : JSON.stringify(response),
+        Date.now(),
+      ),
+      env.DB.prepare("SELECT response FROM checks WHERE user_id = ? AND round_id = ? AND question_id = ?").bind(user.id, roundId, q.id),
+    ]);
+    const row = saved.results[0] as { response: string | null } | undefined;
+    if (row) response = row.response === null ? undefined : (JSON.parse(row.response) as unknown);
+  }
   const body: CheckResponse = { correct: grade(q, response), key: answerKey(q) };
   return json(body);
 }

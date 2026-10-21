@@ -43,6 +43,9 @@ export class ApiError extends Error {
 /** `ApiError` status when the server could not be reached at all. */
 export const OFFLINE = 0;
 
+/** A stalled mobile connection must not leave a spinner forever. */
+const TIMEOUT_MS = 20_000;
+
 /** The app keeps its session token here (the website uses an HttpOnly cookie instead). */
 const TOKEN_KEY = "prepquest-session";
 
@@ -77,6 +80,7 @@ export async function api<T>(path: string, body?: unknown): Promise<T> {
       },
       body: body === undefined ? undefined : JSON.stringify(body),
       credentials: isNative ? "omit" : "same-origin",
+      signal: AbortSignal.timeout(TIMEOUT_MS),
     });
   } catch {
     throw new ApiError(OFFLINE, "You're offline. Check your internet connection.");
@@ -103,7 +107,10 @@ export const useAuth = create<AuthState>()((set, get) => ({
         api<{ user: User | null; canImport?: boolean }>("/api/auth/me"),
       ]);
       if (user) set({ status: "signedIn", user, clientId, canImport: !!canImport });
-      else set({ status: clientId ? "signedOut" : "unavailable", user: null, clientId });
+      else {
+        setSessionToken(null); // the app's token, if any, is no longer valid
+        set({ status: clientId ? "signedOut" : "unavailable", user: null, clientId });
+      }
     } catch {
       set({ status: "unavailable", user: null });
     }

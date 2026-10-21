@@ -1,7 +1,11 @@
 import { create } from "zustand";
 import type { AnyResponse, ClientQuestion } from "../content/schema";
 import { initialResponse, xpFor } from "../engine/scoring";
+import { ApiError, OFFLINE } from "./auth";
 import { checkAnswer } from "./content";
+
+/** Longest time the server accepts for one question (worker/progress.ts). */
+const MAX_QUESTION_MS = 86_400_000;
 
 export interface Attempt {
   questionId: string;
@@ -40,6 +44,8 @@ interface SessionState {
   phase: "answering" | "checking" | "feedback";
   /** The last check could not reach the server; the answer is kept so it can be tried again. */
   checkFailed: boolean;
+  /** One-off message for the current question, e.g. that a question was removed from the round. */
+  notice: string | null;
   response: AnyResponse | undefined;
   usedHint: boolean;
   attempts: Attempt[];
@@ -68,6 +74,7 @@ export const useSession = create<SessionState>()((set, get) => ({
   index: 0,
   phase: "answering",
   checkFailed: false,
+  notice: null,
   response: undefined,
   usedHint: false,
   attempts: [],
@@ -88,6 +95,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       index: 0,
       phase: "answering",
       checkFailed: false,
+      notice: null,
       response: questions[0] ? initialResponse(questions[0]) : undefined,
       usedHint: false,
       attempts: [],
@@ -113,6 +121,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       index,
       phase: done ? "feedback" : "answering",
       checkFailed: false,
+      notice: null,
       response: done ? saved.attempts[index].response : initialResponse(questions[index]),
       usedHint: false,
       attempts: saved.attempts,
@@ -140,9 +149,30 @@ export const useSession = create<SessionState>()((set, get) => ({
     set({ phase: "checking", checkFailed: false });
     let result;
     try {
-      result = await checkAnswer(q.id, response);
-    } catch {
-      if (get().roundId === s.roundId && get().index === s.index) set({ phase: "answering", checkFailed: true });
+      result = await checkAnswer(s.roundId, q.id, response);
+    } catch (e) {
+      if (get().roundId !== s.roundId || get().index !== s.index) return null;
+      // Offline or a server problem: keep the answer so it can be tried again.
+      const rejected = e instanceof ApiError && e.status !== OFFLINE && e.status !== 426 && e.status < 500;
+      if (!rejected) {
+        set({ phase: "answering", checkFailed: true });
+        return null;
+      }
+      // The question was changed or removed since the round began: take it out of the round and move on.
+      const questions = s.questions.filter((_, i) => i !== s.index);
+      if (s.index >= questions.length) {
+        set({ questions, phase: "answering", checkFailed: false, finishedAt: Date.now() });
+        return null;
+      }
+      set({
+        questions,
+        phase: "answering",
+        checkFailed: false,
+        notice: "That question was updated, so it has been removed from this round.",
+        response: initialResponse(questions[s.index]),
+        usedHint: false,
+        questionStartedAt: Date.now(),
+      });
       return null;
     }
     // The student left or restarted the round while it was being checked.
@@ -156,7 +186,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       correct,
       usedHint: s.usedHint,
       xp,
-      timeMs: Date.now() - s.questionStartedAt,
+      timeMs: Math.min(MAX_QUESTION_MS, Date.now() - s.questionStartedAt),
     };
     set({
       phase: "feedback",
@@ -171,6 +201,8 @@ export const useSession = create<SessionState>()((set, get) => ({
 
   next: () => {
     const s = get();
+    // Only from feedback: a double tap on "Continue" must not skip a question.
+    if (s.phase !== "feedback") return;
     const index = s.index + 1;
     if (index >= s.questions.length) {
       set({ finishedAt: Date.now() });
@@ -180,6 +212,7 @@ export const useSession = create<SessionState>()((set, get) => ({
       index,
       phase: "answering",
       checkFailed: false,
+      notice: null,
       response: initialResponse(s.questions[index]),
       usedHint: false,
       questionStartedAt: Date.now(),

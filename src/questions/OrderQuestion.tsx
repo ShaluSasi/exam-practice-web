@@ -100,8 +100,9 @@ function EndLabel({ icon: Icon, text }: { icon: typeof ArrowUp; text: string }) 
 }
 
 export function OrderQuestion({ q, response, onChange, reveal }: QuestionProps<"order">) {
-  const order = response ?? q.items.map((i) => i.id);
   const byId = Object.fromEntries(q.items.map((i) => [i.id, i]));
+  // A saved answer from before a content edit may name items that no longer exist: start again from the authored order.
+  const order = response && response.length === q.items.length && response.every((id) => id in byId) ? response : q.items.map((i) => i.id);
   // The correct order arrives from the server once checked.
   const answer = q.answer ?? [];
   const allRight = order.every((id, i) => answer[i] === id);
@@ -142,7 +143,7 @@ export function OrderQuestion({ q, response, onChange, reveal }: QuestionProps<"
           {answer.map((id, i) => (
             <span key={id} className="flex items-center gap-2">
               <span className="rounded-lg bg-ok-soft px-2 py-1">
-                <RichText text={byId[id].text} />
+                <RichText text={byId[id]?.text ?? ""} />
               </span>
               {i < answer.length - 1 && "→"}
             </span>

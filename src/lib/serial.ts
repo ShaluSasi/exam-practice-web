@@ -1,18 +1,18 @@
 /**
  * Wraps `task` so it runs one at a time per id. A call made while a run for
  * the same id is in progress waits for it, then runs again, so work queued
- * meanwhile is always picked up.
+ * meanwhile is always picked up. Different ids run independently.
  */
 export function serialized(task: (id: string) => Promise<void>): (id: string) => Promise<void> {
-  let running: { id: string; done: Promise<void> } | null = null;
+  const running = new Map<string, Promise<void>>();
   return async (id) => {
-    while (running?.id === id) await running.done.catch(() => undefined);
-    const run = { id, done: task(id) };
-    running = run;
+    while (running.has(id)) await running.get(id)!.catch(() => undefined);
+    const done = task(id);
+    running.set(id, done);
     try {
-      await run.done;
+      await done;
     } finally {
-      if (running === run) running = null;
+      if (running.get(id) === done) running.delete(id);
     }
   };
 }

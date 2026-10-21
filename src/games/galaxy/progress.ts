@@ -197,7 +197,11 @@ export const useGalaxy = create<GalaxyState>()(
         const s = get();
         const m = missionsFor(s.missions.day).find((x) => x.id === id);
         if (!m || s.missions.day !== dayKey() || s.missions.claimed.includes(id) || (s.missions.progress[id] ?? 0) < m.goal) return 0;
-        set({ stardust: s.stardust + m.reward, missions: { ...s.missions, claimed: [...s.missions.claimed, id] } });
+        set({
+          stardust: s.stardust + m.reward,
+          lifetime: { ...s.lifetime, stardust: s.lifetime.stardust + m.reward },
+          missions: { ...s.missions, claimed: [...s.missions.claimed, id] },
+        });
         return m.reward;
       },
       recordRun: (run, section) => {

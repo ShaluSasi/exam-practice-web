@@ -9,7 +9,7 @@
  */
 import { z } from "zod";
 import { requireUser, type SessionUser } from "./auth";
-import { gradeRound, loadBank } from "./content";
+import { fromRecorded, gradeRound, loadBank, recordedChecks } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 
 const DAY = 86_400_000;
@@ -47,12 +47,24 @@ const LiveRoundIn = RoundIn.and(
 const SaveBody = z.object({ rounds: z.array(LiveRoundIn).min(1).max(50) });
 
 /** The device's guest progress, copied in on the account's first sign-in. */
-const ImportBody = z.object({
-  totalXp: z.number().int().min(0).max(10_000_000),
-  bestStreak: z.number().int().min(0).max(10_000),
-  sessions: z.number().int().min(0).max(100_000),
-  rounds: z.array(RoundIn).max(100),
-});
+/** The most XP one question can earn (src/engine/scoring.ts: hard, with the streak bonus). */
+const MAX_XP_PER_QUESTION = 25;
+const MAX_QUESTIONS_PER_ROUND = 50;
+
+const ImportBody = z
+  .object({
+    totalXp: z.number().int().min(0).max(10_000_000),
+    bestStreak: z.number().int().min(0).max(10_000),
+    sessions: z.number().int().min(0).max(100_000),
+    rounds: z.array(RoundIn).max(100),
+  })
+  // Guest progress cannot be re-graded (its answers were never sent), so at least keep it plausible.
+  .refine(
+    (b) =>
+      b.rounds.every((r) => r.xp <= MAX_XP_PER_QUESTION * r.total && r.total <= MAX_QUESTIONS_PER_ROUND) &&
+      b.totalXp <= MAX_XP_PER_QUESTION * MAX_QUESTIONS_PER_ROUND * Math.max(b.sessions, b.rounds.length),
+    "Implausible progress",
+  );
 
 interface RoundRow {
   client_id: string;
@@ -159,9 +171,11 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
   const { rounds } = parse(SaveBody, await readJson(request));
   const bank = await loadBank();
   const now = Date.now();
-  const graded = rounds.map(({ questionIds, attempts, ...r }): RoundIn => {
-    const g = gradeRound(bank, questionIds, attempts);
-    return {
+  // Graded from the answers the server saw checked (worker/questions.ts), not the ones sent here.
+  const graded: RoundIn[] = [];
+  for (const { questionIds, attempts, ...r } of rounds) {
+    const g = gradeRound(bank, questionIds, fromRecorded(attempts, await recordedChecks(env, user.id, r.id)));
+    graded.push({
       ...r,
       correct: g.score.correct,
       total: Math.max(1, g.total),
@@ -170,8 +184,8 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
       accuracy: g.score.accuracy,
       xp: g.xp,
       streak: g.bestStreak,
-    };
-  });
+    });
+  }
   await env.DB.batch(graded.map((r) => insertRound(env, user, r, "live", now)));
   return json(await summary(env, user.id));
 }

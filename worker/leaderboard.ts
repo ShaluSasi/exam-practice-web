@@ -49,7 +49,8 @@ export interface Board {
 
 /** "Riya Sharma" -> "Riya S.": enough to recognise friends, without full names of minors. */
 export function displayName(name: string): string {
-  const parts = name.trim().split(/\s+/).filter(Boolean);
+  // An account whose Google name is missing has its email as the name: never show that.
+  const parts = name.trim().split(/\s+/).filter(Boolean).map((p) => p.split("@")[0]).filter(Boolean);
   if (parts.length === 0) return "Student";
   if (parts.length === 1) return parts[0];
   return `${parts[0]} ${parts[parts.length - 1][0].toUpperCase()}.`;
@@ -112,8 +113,11 @@ interface Row {
 export async function buildBoard(env: Env, viewerId: string, period: Period, scope: Scope): Promise<Board> {
   const since = periodStart(period);
   const filter = scopeFilter(scope);
-  // All-time totals include progress carried over from the device on first sign-in.
+  // All-time totals include progress carried over from the device on first sign-in. Those
+  // imported rounds carry client-chosen dates and unverified scores, so the weekly and
+  // monthly boards count rounds played (and graded) here only.
   const base = period === "all";
+  const liveOnly = base ? "" : "AND r.source = 'live'";
   const { results } = await env.DB.prepare(
     `WITH totals AS (
        SELECT u.id, u.name,
@@ -122,7 +126,7 @@ export async function buildBoard(env: Env, viewerId: string, period: Period, sco
               CAST(ROUND(AVG(r.accuracy)) AS INTEGER) AS accuracy,
               ${base ? "MAX(u.base_best_streak, COALESCE(MAX(r.best_streak), 0))" : "COALESCE(MAX(r.best_streak), 0)"} AS best_streak
        FROM users u
-       LEFT JOIN rounds r ON r.user_id = u.id AND r.played_at >= ? ${filter.rounds}
+       LEFT JOIN rounds r ON r.user_id = u.id AND r.played_at >= ? ${liveOnly} ${filter.rounds}
        WHERE ${filter.users}
        GROUP BY u.id
      ),

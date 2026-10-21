@@ -117,8 +117,33 @@ const push = serialized(async (userId) => {
   }
 });
 
+/** The load in progress (or last done) for the signed-in student, and whether it failed. */
+let loading: { userId: string; done: Promise<void>; failed: boolean } | null = null;
+
+/**
+ * Resolves once the signed-in student's unfinished rounds are known, so a
+ * chapter started on a new device continues the round from the other device
+ * instead of starting over it. Resolves at once for guests or after a failed load.
+ */
+export function progressReady(): Promise<void> {
+  const user = useAuth.getState().user;
+  return user && loading?.userId === user.id ? loading.done : Promise.resolve();
+}
+
+function load(userId: string) {
+  const entry = { userId, done: Promise.resolve(), failed: false };
+  entry.done = loadRounds(userId).then(
+    () => undefined,
+    () => {
+      entry.failed = true;
+    },
+  );
+  loading = entry;
+  return entry.done;
+}
+
 /** Loads the signed-in student's unfinished rounds, after sending anything still queued. */
-async function load(userId: string) {
+async function loadRounds(userId: string) {
   if (useProgress.getState().account?.userId !== userId) set({ account: { userId, rounds: {} } });
   try {
     await push(userId);
@@ -134,6 +159,7 @@ async function load(userId: string) {
     set({ account: { userId, rounds: merged } });
   } catch (e) {
     handleError(e);
+    throw e;
   }
 }
 
@@ -174,7 +200,10 @@ export function startProgressSync(): () => void {
 
   const retry = () => {
     const user = useAuth.getState().user;
-    if (user) push(user.id).catch(handleError);
+    if (!user) return;
+    // A load that failed offline is repeated, not just the queued saves.
+    if (loading?.userId === user.id && loading.failed) void load(user.id);
+    else push(user.id).catch(handleError);
   };
   window.addEventListener("online", retry);
   return () => {

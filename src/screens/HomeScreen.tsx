@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Award, BookOpen, Check, Flame, Play, RotateCcw, Sparkles, Target, Trophy, Zap } from "lucide-react";
+import { Award, BookOpen, Check, Flame, Play, RefreshCw, RotateCcw, Sparkles, Target, Trophy, WifiOff, Zap } from "lucide-react";
 import clsx from "clsx";
-import { region } from "../config/regions";
+import { offeredGrades, region } from "../config/regions";
 import type { ChapterInfo } from "../content/api";
 import type { SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
@@ -19,8 +19,7 @@ import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
 
 const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
-/** Classes shown in the practice-set builder. Only Class 9 for now; add the others back as their content grows. */
-const gradesWithQuestions = region.grades.filter((g) => g === 9);
+const MIXED: RoundSource = { subjects: [], grades: offeredGrades };
 
 /** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
 type StartRound = (source: RoundSource, title: string, key?: string) => void;
@@ -422,9 +421,25 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
   );
 }
 
+/** Shown in place of the chapters when the catalog could not be loaded (usually offline). */
+function ChaptersOffline() {
+  const load = useContent((s) => s.load);
+  return (
+    <section className="mb-12 rounded-[28px] border-2 border-dashed border-line bg-surface p-6 text-center shadow-card">
+      <WifiOff className="mx-auto size-8 text-muted" />
+      <h2 className="mt-3 font-display text-xl font-extrabold">Chapters need a connection</h2>
+      <p className="mt-1 text-sm text-muted">Questions come from the server, so practice needs the internet. The games above work offline.</p>
+      <Button variant="ghost" className="mt-4" onClick={() => void load()}>
+        <RefreshCw className="size-5" /> Try again
+      </Button>
+    </section>
+  );
+}
+
 export function HomeScreen({ onStart }: { onStart: StartRound }) {
   const profile = useStats();
   const chapters = useChapters();
+  const contentStatus = useContent((s) => s.status);
   const bestRound = rankRounds(profile.rounds)[0];
   // The logo opens the full landing page; otherwise returning students skip it.
   const landing = useNav((s) => s.landing) || profile.sessions === 0;
@@ -433,7 +448,9 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
 
   const allChapters = useAllChapters();
   const types = useContent((s) => s.catalog?.types) ?? [];
-  const inGrades = (c: ChapterInfo) => grades.length === 0 || grades.includes(c.grade);
+  // No class ticked means every class the app offers, not every class in the bank.
+  const chosenGrades = grades.length === 0 ? offeredGrades : grades;
+  const inGrades = (c: ChapterInfo) => chosenGrades.includes(c.grade);
   const sum = (cs: ChapterInfo[]) => cs.reduce((n, c) => n + c.count, 0);
   const selectionSize = sum(allChapters.filter((c) => inGrades(c) && (subjects.length === 0 || subjects.includes(c.subject))));
   const countFor = (s: SubjectId) => sum(allChapters.filter((c) => c.subject === s && inGrades(c)));
@@ -453,7 +470,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
           </div>
         </header>
 
-        {!landing && <WelcomeBar onMixed={() => onStart({ mixed: true }, "Mixed practice", MIXED_KEY)} />}
+        {!landing && <WelcomeBar onMixed={() => onStart(MIXED, "Mixed practice", MIXED_KEY)} />}
 
         {/* Hero: first visit or the logo, so returning students otherwise reach their chapters without scrolling */}
         {landing && (
@@ -510,7 +527,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               </Button>
               <button
                 type="button"
-                onClick={() => onStart({ mixed: true }, "Mixed practice", MIXED_KEY)}
+                onClick={() => onStart(MIXED, "Mixed practice", MIXED_KEY)}
                 className="font-semibold text-muted underline-offset-4 hover:text-fg hover:underline"
               >
                 or start mixed practice
@@ -551,6 +568,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
         <GamesStrip />
 
         {chapters.length > 0 && <ChapterPicker chapters={chapters} onStart={onStart} />}
+        {contentStatus === "failed" && <ChaptersOffline />}
 
         {/* Builder */}
         <section id="build" className="scroll-mt-6 rounded-[28px] border-2 border-line bg-surface p-5 shadow-card sm:p-8">
@@ -563,7 +581,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
 
           <h3 className="mb-3 mt-7 text-sm font-bold uppercase tracking-wider text-muted">Class</h3>
           <div className="grid grid-cols-4 gap-2 sm:flex">
-            {gradesWithQuestions.map((g) => (
+            {offeredGrades.map((g) => (
               <Toggle key={g} on={grades.includes(g)} onClick={() => setGrades(toggle(grades, g))} className="px-5 py-3 sm:min-w-28">
                 <span className="hidden sm:inline">{region.gradeLabel(g)}</span>
                 <span className="sm:hidden">{g}</span>
@@ -643,7 +661,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
                 question{selectionSize === 1 ? "" : "s"}
                 {selectionSize > ROUND_SIZE && <span className="whitespace-nowrap font-normal">(random from {selectionSize})</span>}
               </span>
-              <Button variant="dark" disabled={selectionSize === 0} onClick={() => onStart({ subjects, grades }, "Custom set")}>
+              <Button variant="dark" disabled={selectionSize === 0} onClick={() => onStart({ subjects, grades: chosenGrades }, "Custom set")}>
                 Start <Play className="size-4 fill-current" />
               </Button>
             </div>

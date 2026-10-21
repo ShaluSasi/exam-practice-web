@@ -13,7 +13,7 @@
 import { z } from "zod";
 import { requireUser } from "./auth";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
-import { GAME_SECTIONS } from "./games";
+import { GAME_SECTIONS, hasSection } from "./games";
 import { buildBoard, displayName, type Period } from "./leaderboard";
 
 const CODE = /^[A-Za-z0-9]{8}$/;
@@ -86,6 +86,12 @@ export async function createShare(request: Request, env: Env, url: URL): Promise
       }>();
     if (!r) throw new HttpError(404, "Round not saved yet");
     roundId = body.roundId;
+    // The questions come from the round's own answer log, so a share can't point friends at a
+    // different set. The request's list is only used if that log never arrived (saves are retried).
+    const logged = await env.DB.prepare("SELECT question_id FROM answers WHERE user_id = ? AND round_id = ? ORDER BY id")
+      .bind(user.id, body.roundId)
+      .all<{ question_id: string }>();
+    const questionIds = logged.results.length ? logged.results.map((a) => a.question_id) : body.questionIds.slice(0, r.total);
     data = {
       title: r.title,
       quizKey: r.quiz_key,
@@ -97,7 +103,7 @@ export async function createShare(request: Request, env: Env, url: URL): Promise
       xp: r.xp,
       timeMs: r.time_ms,
       streak: r.best_streak ?? 0,
-      questionIds: body.questionIds,
+      questionIds,
     };
   } else {
     const board = await buildBoard(env, user.id, body.period, { kind: "global" });
@@ -192,10 +198,10 @@ const GAME_PREVIEW: Record<string, { title: string; description: string; image: 
 
 /** GET /games/:id — a game's page, with a link preview naming the game (and mission, from ?mode=). */
 export function gamePage(env: Env, url: URL, id: string): Promise<Response> {
+  if (!Object.hasOwn(GAME_PREVIEW, id)) return homePage(env, url);
   const g = GAME_PREVIEW[id];
-  if (!g) return homePage(env, url);
   const mode = url.searchParams.get("mode");
-  const mission = mode ? GAME_SECTIONS[id]?.[mode] : undefined;
+  const mission = mode && hasSection(id, mode) ? GAME_SECTIONS[id][mode] : undefined;
   return withPreview(env, url, {
     title: mission && mode !== "mixed" ? `${g.title} · ${mission} mission` : g.title,
     description: g.description,

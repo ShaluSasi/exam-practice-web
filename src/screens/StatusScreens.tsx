@@ -21,15 +21,26 @@ function Panel({ icon, title, children }: { icon: React.ReactNode; title: string
 }
 
 /** Questions come from the server, so practice needs a connection. Retries by itself once back online. */
-export function OfflineScreen({ onRetry, onBack, busy = false }: { onRetry: () => void; onBack?: () => void; busy?: boolean }) {
+export function OfflineScreen({
+  onRetry,
+  onBack,
+  busy = false,
+  problem,
+}: {
+  onRetry: () => void;
+  onBack?: () => void;
+  busy?: boolean;
+  /** Set when the server answered but something else went wrong (not a connection problem). */
+  problem?: string;
+}) {
   useEffect(() => {
     window.addEventListener("online", onRetry);
     return () => window.removeEventListener("online", onRetry);
   }, [onRetry]);
 
   return (
-    <Panel icon={<WifiOff className="size-8" />} title="You're offline">
-      <p className="mt-2 text-muted">Connect to the internet to continue. Your progress so far is saved.</p>
+    <Panel icon={problem ? <RefreshCw className="size-8" /> : <WifiOff className="size-8" />} title={problem ? "Something went wrong" : "You're offline"}>
+      <p className="mt-2 text-muted">{problem ?? "Connect to the internet to continue. Your progress so far is saved."}</p>
       <div className="mt-6 grid gap-3">
         <Button onClick={onRetry} disabled={busy}>
           {busy ? <Loader2 className="size-5 animate-spin" /> : <RefreshCw className="size-5" />} Try again

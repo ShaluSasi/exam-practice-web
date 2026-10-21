@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { Clock, Crown, Loader2, Play, Swords, Target, Trophy, Zap } from "lucide-react";
 import { Button } from "../components/Button";
+import { offeredGrades } from "../config/regions";
 import { Logo, SettingsToggles } from "../components/TopBar";
 import { OfflineScreen } from "./StatusScreens";
 import { formatTime } from "../lib/subjects";
@@ -23,7 +24,7 @@ interface PublicShare {
 
 /** The friend's exact questions; falls back to the same chapter if some were removed since. */
 function questionsFor(d: Extract<PublicShare["data"], { questionIds: string[] }>): RoundSource {
-  return { ids: d.questionIds, fallback: d.quizKey && d.quizKey !== "mixed" ? { chapter: d.quizKey } : { mixed: true } };
+  return { ids: d.questionIds, fallback: d.quizKey && d.quizKey !== "mixed" ? { chapter: d.quizKey } : { subjects: [], grades: offeredGrades } };
 }
 
 export function ChallengeScreen({ onStart }: { onStart: (source: RoundSource, title: string) => void }) {

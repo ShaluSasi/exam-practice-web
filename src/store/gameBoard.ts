@@ -98,9 +98,25 @@ async function sendPending(userId: string): Promise<void> {
       await api("/api/games/runs", { runs: batch.map((p) => p.run) });
       drop();
     } catch (e) {
-      // The server will never accept these (bad data): drop them instead of retrying forever.
-      if (e instanceof ApiError && e.status === 400) drop();
-      else throw e;
+      if (!(e instanceof ApiError && e.status === 400)) throw e;
+      // The server will never accept bad data, so it is dropped rather than retried forever; but one
+      // bad run must not take the whole batch with it, so the rest are sent singly. The rejection is
+      // still reported, so the UI does not claim the run was saved.
+      if (batch.length === 1) {
+        drop();
+        throw e;
+      }
+      let rejected: unknown = null;
+      for (const p of batch) {
+        try {
+          await api("/api/games/runs", { runs: [p.run] });
+        } catch (err) {
+          if (!(err instanceof ApiError && err.status === 400)) throw err;
+          rejected = err;
+        }
+        useGameBoard.setState((s) => ({ pending: s.pending.filter((x) => x.run.id !== p.run.id) }));
+      }
+      if (rejected) throw rejected;
     }
   }
 }
@@ -130,11 +146,29 @@ export async function submitGameRun(run: GameRun): Promise<boolean> {
   }
 }
 
+/** Requests in flight, so a forced refresh waits for the current one instead of being dropped. */
+const inflight = new Map<string, Promise<void>>();
+
 async function load<T>(key: string, path: string, slot: "boards" | "ranks", force: boolean, pick: (data: unknown) => T) {
-  const s = useGameBoard.getState();
-  const cached = s[slot][key];
-  if (s.loading[`${slot}:${key}`] || (!force && cached && Date.now() - cached.at < FRESH_MS)) return;
-  useGameBoard.setState((st) => ({ loading: { ...st.loading, [`${slot}:${key}`]: true }, error: null }));
+  const id = `${slot}:${key}`;
+  const running = inflight.get(id);
+  if (running) {
+    if (!force) return;
+    await running.catch(() => undefined);
+  }
+  const cached = useGameBoard.getState()[slot][key];
+  if (!force && cached && Date.now() - cached.at < FRESH_MS) return;
+  const run = fetchInto(id, key, path, slot, pick);
+  inflight.set(id, run);
+  try {
+    await run;
+  } finally {
+    if (inflight.get(id) === run) inflight.delete(id);
+  }
+}
+
+async function fetchInto<T>(id: string, key: string, path: string, slot: "boards" | "ranks", pick: (data: unknown) => T) {
+  useGameBoard.setState((st) => ({ loading: { ...st.loading, [id]: true }, error: null }));
   try {
     const user = useAuth.getState().user;
     if (user) await flush(user.id).catch(() => undefined);
@@ -144,7 +178,7 @@ async function load<T>(key: string, path: string, slot: "boards" | "ranks", forc
     handleError(e);
     useGameBoard.setState({ error: "Couldn't load the scoreboard. Check your connection and try again." });
   } finally {
-    useGameBoard.setState((st) => ({ loading: { ...st.loading, [`${slot}:${key}`]: false } }));
+    useGameBoard.setState((st) => ({ loading: { ...st.loading, [id]: false } }));
   }
 }
 

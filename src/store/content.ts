@@ -33,14 +33,14 @@ export const useContent = create<ContentState>()((set) => ({
 export type RoundSource =
   | { chapter: string }
   | { subjects: SubjectId[]; grades: number[] }
-  | { mixed: true }
   /** These exact questions (retry, challenge); `fallback` if any were removed since. */
   | { ids: string[]; fallback?: RoundSource };
 
-/** Questions by ID, in order. `reveal`: IDs already answered, sent with their answer keys. */
-export function fetchQuestions(ids: string[], reveal: string[] = []): Promise<QuestionsResponse> {
+/** Questions by ID, in order. `reveal`: IDs already answered in round `roundId`, sent with their answer keys. */
+export function fetchQuestions(ids: string[], reveal: string[] = [], roundId?: string): Promise<QuestionsResponse> {
   const q = new URLSearchParams({ ids: ids.join(",") });
   if (reveal.length) q.set("reveal", reveal.join(","));
+  if (roundId) q.set("round", roundId);
   return api<QuestionsResponse>(`/api/questions?${q}`);
 }
 
@@ -60,6 +60,6 @@ export async function fetchRound(source: RoundSource, count = ROUND_SIZE): Promi
 }
 
 /** Grades an answer on the server; `undefined` is a skip. Returns the answer key either way. */
-export function checkAnswer(questionId: string, response: AnyResponse | undefined): Promise<CheckResponse> {
-  return api<CheckResponse>("/api/answers/check", { questionId, response: response ?? null });
+export function checkAnswer(roundId: string, questionId: string, response: AnyResponse | undefined): Promise<CheckResponse> {
+  return api<CheckResponse>("/api/answers/check", { roundId, questionId, response: response ?? null });
 }

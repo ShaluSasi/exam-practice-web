@@ -76,7 +76,7 @@ Capacitor wraps the website's pages; the app calls the live site for everything 
 - **First sign-in only:** the device's guest progress is copied into the account once. A device copies its progress into one account only.
 - **Teacher/admin view (planned):** `users.role` is `student`, `teacher` or `admin`; `requireRole()` in `worker/auth.ts` guards routes. Make someone an admin with
   `npx wrangler d1 execute DB --remote --command "UPDATE users SET role = 'admin' WHERE email = 'someone@gmail.com'"`.
-- Rounds are graded on the server: the app sends each round's answers and the Worker recalculates correct answers, marks and XP, ignoring the app's numbers. Guest progress copied in on first sign-in is still taken as sent.
+- Rounds are graded on the server. Every answer a signed-in student checks is recorded first (`checks`, migration 0005), and saved rounds and progress are graded from those recorded answers, so neither the app's numbers nor the answers it sends later are trusted. Checking a guess to learn the key and then "answering" changes nothing. Guests are not recorded (they are not on leaderboards), so a signed-in student could still look up keys by playing as a guest; that is the remaining gap. Guest progress copied in on first sign-in is taken as sent, within plausibility caps, and counts on the all-time board only.
 
 ## Leaderboard and sharing
 

@@ -115,6 +115,12 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
   const lastTick = useRef(0);
   const finished = useRef(false);
   const cardRef = useRef<HTMLDivElement>(null);
+  // Short delays between problems; cleared on unmount so Back mid-delay leaves nothing running.
+  const timers = useRef<number[]>([]);
+  const later = (fn: () => void, ms: number) => {
+    timers.current.push(window.setTimeout(fn, ms));
+  };
+  useEffect(() => () => timers.current.forEach(clearTimeout), []);
   const finish = useGames((s) => s.finish);
 
   const begin = useCallback(() => {
@@ -185,10 +191,10 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
       if (nextLevel > level) {
         setLevel(nextLevel);
         setLevelBanner(nextLevel);
-        setTimeout(() => play("levelup"), 200);
-        setTimeout(() => setLevelBanner(null), 1600);
+        later(() => play("levelup"), 200);
+        later(() => setLevelBanner(null), 1600);
       }
-      setTimeout(() => {
+      later(() => {
         setProblem((p) => nextProblem(nextLevel, p));
         setQn((n) => n + 1);
         setPicked(null);
@@ -200,7 +206,7 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
         s.mistakes.push({ prompt: problem.prompt, given: opt, answer: problem.answer, tip: problem.tip });
       }
       play("wrong");
-      setTimeout(() => {
+      later(() => {
         setProblem((p) => nextProblem(level, p));
         setQn((n) => n + 1);
         setPicked(null);

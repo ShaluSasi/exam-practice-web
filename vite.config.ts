@@ -29,6 +29,11 @@ function checkQuestionBanks(): Plugin {
         if (typed.length) {
           throw new Error(`Question bank "${file}" has type-in (numeric) questions; use mcq options instead: ${typed.map((q) => q.id).join(", ")}`);
         }
+        // "Arrange in order" starts in the authored order, so that order must not already be the answer.
+        const solved = parsed.data.filter((q) => q.type === "order" && q.items.every((item, i) => item.id === q.answer[i]));
+        if (solved.length) {
+          throw new Error(`Question bank "${file}" has order questions whose items are already in the correct order: ${solved.map((q) => q.id).join(", ")}`);
+        }
       }
     },
   };

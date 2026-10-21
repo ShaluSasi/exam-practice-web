@@ -22,11 +22,13 @@ export default {
 
 async function route(request: Request, env: Env, url: URL): Promise<Response> {
   try {
+    // Pages answer HEAD too (uptime monitors, link checkers).
+    const isGet = request.method === "GET" || request.method === "HEAD";
     const page = /^\/s\/([^/]+)\/?$/.exec(url.pathname);
-    if (page && request.method === "GET") return await sharePage(request, env, url, page[1]);
-    if (url.pathname === "/" && request.method === "GET") return await homePage(env, url);
+    if (page && isGet) return await sharePage(request, env, url, page[1]);
+    if (url.pathname === "/" && isGet) return await homePage(env, url);
     const gameLink = /^\/games\/([a-z]+)\/?$/.exec(url.pathname);
-    if (gameLink && request.method === "GET") return await gamePage(env, url, gameLink[1]);
+    if (gameLink && isGet) return await gamePage(env, url, gameLink[1]);
 
     // Apps older than the oldest supported build are told to update (the app shows an update screen).
     const minBuild = Number(env.MIN_APP_BUILD) || 0;
@@ -43,9 +45,9 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
       case "GET /api/catalog":
         return await getCatalog(url);
       case "GET /api/questions":
-        return await getQuestions(url);
+        return await getQuestions(request, env, url);
       case "POST /api/answers/check":
-        return await checkAnswer(request);
+        return await checkAnswer(request, env);
       case "GET /api/auth/config":
         return json({ clientId: env.GOOGLE_CLIENT_ID || null });
       case "GET /api/auth/me":

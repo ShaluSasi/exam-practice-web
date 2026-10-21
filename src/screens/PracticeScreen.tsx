@@ -235,9 +235,11 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      // Browser shortcuts (Ctrl+A, Ctrl+1, Cmd+C, ...) are not answers.
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       if (e.key === "Enter") {
-        // Buttons outside the question (Check, Continue, Exit) keep their native Enter.
-        if (e.target instanceof HTMLElement && e.target.closest("button") && !e.target.closest("[data-qbody]")) return;
+        // Enter on a focused control (an option, a move-up arrow, Check, Continue) activates that control.
+        if (e.target instanceof HTMLElement && e.target.closest("button, [role=button], input, a")) return;
         e.preventDefault();
         if (s.phase === "answering") void check();
         else if (s.phase === "feedback") s.next();
@@ -253,8 +255,9 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
       }
       if (q?.type === "mcq" || q?.type === "assertion_reason" || q?.type === "multi") {
         const opts = q.type === "assertion_reason" ? region.assertionReasonOptions : q.options;
-        const i = "1234".indexOf(e.key) >= 0 ? "1234".indexOf(e.key) : "abcd".indexOf(e.key.toLowerCase());
-        const opt = opts[i];
+        // Up to nine options (multi-select questions can have five or six).
+        const i = "123456789".indexOf(e.key) >= 0 ? "123456789".indexOf(e.key) : "abcdefghi".indexOf(e.key.toLowerCase());
+        const opt = i >= 0 ? opts[i] : undefined;
         if (!opt) return;
         play("tap");
         if (q.type === "multi") {
@@ -372,7 +375,7 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
         </AnimatePresence>
         <p className="mt-5 hidden text-center text-xs text-muted sm:block">
           Tip: press <kbd className="rounded border border-line bg-surface px-1.5 py-0.5 font-sans">1</kbd>–
-          <kbd className="rounded border border-line bg-surface px-1.5 py-0.5 font-sans">4</kbd> to choose and{" "}
+          <kbd className="rounded border border-line bg-surface px-1.5 py-0.5 font-sans">9</kbd> to choose and{" "}
           <kbd className="rounded border border-line bg-surface px-1.5 py-0.5 font-sans">Enter</kbd> to check
         </p>
       </main>
@@ -400,6 +403,11 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
               {s.checkFailed && (
                 <p role="alert" className="mx-auto flex max-w-3xl items-center gap-2 px-4 pt-3 text-sm font-semibold text-bad sm:px-6">
                   <WifiOff className="size-4 shrink-0" /> Couldn't reach the server. Check your connection and try again.
+                </p>
+              )}
+              {s.notice && !s.checkFailed && (
+                <p role="status" className="mx-auto max-w-3xl px-4 pt-3 text-sm font-semibold text-muted sm:px-6">
+                  {s.notice}
                 </p>
               )}
               <div className="mx-auto flex max-w-3xl items-center justify-between gap-3 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-4 sm:px-6">

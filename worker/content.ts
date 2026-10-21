@@ -9,6 +9,7 @@
 import { isCorrect, scoreSession, xpFor } from "../src/engine/scoring";
 import type { ChapterInfo } from "../src/content/api";
 import { KEY_FIELDS, type AnswerKey, type AnyResponse, type ClientQuestion, type Question } from "../src/content/schema";
+import type { Env } from "./http";
 
 const files = import.meta.glob<Question[]>("../src/content/data/*.json", { import: "default" });
 
@@ -120,19 +121,40 @@ export interface AttemptIn {
   usedHint: boolean;
 }
 
+/** The answers a signed-in student checked for a round (table `checks`), by question. */
+export async function recordedChecks(env: Env, userId: string, roundId: string): Promise<Map<string, unknown>> {
+  const { results } = await env.DB.prepare("SELECT question_id, response FROM checks WHERE user_id = ? AND round_id = ?")
+    .bind(userId, roundId)
+    .all<{ question_id: string; response: string | null }>();
+  return new Map(results.map((r) => [r.question_id, r.response === null ? undefined : (JSON.parse(r.response) as unknown)]));
+}
+
+/**
+ * Replaces each attempt's answer with the one the server saw checked, so a
+ * saved round is graded from what the student really answered first. An
+ * attempt the server never saw checked counts as skipped.
+ */
+export function fromRecorded<T extends AttemptIn>(attempts: T[], recorded: Map<string, unknown>): T[] {
+  return attempts.map((a) => ({ ...a, response: recorded.get(a.questionId) }));
+}
+
 /**
  * Re-grades a round's answers here, in order, with the same rules the app
  * shows (streak bonus, half XP with a hint), so saved scores never depend on
  * what the app reports. Questions removed since the round was played are left out.
  */
 export function gradeRound(bank: Bank, questionIds: string[], attempts: AttemptIn[]) {
-  const questions = questionIds.map((id) => bank.byId.get(id)).filter((q): q is Question => !!q);
+  const questions = [...new Set(questionIds)].map((id) => bank.byId.get(id)).filter((q): q is Question => !!q);
+  const inRound = new Set(questions.map((q) => q.id));
   let streak = 0;
   let bestStreak = 0;
   let xp = 0;
+  // Only the round's own questions count, and each at most once (the first attempt).
+  const seen = new Set<string>();
   const graded = attempts.flatMap((a) => {
     const q = bank.byId.get(a.questionId);
-    if (!q) return [];
+    if (!q || !inRound.has(q.id) || seen.has(q.id)) return [];
+    seen.add(q.id);
     const correct = grade(q, a.response);
     streak = correct ? streak + 1 : 0;
     bestStreak = Math.max(bestStreak, streak);

@@ -198,9 +198,13 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
     // Phones: the share menu attaches the picture; pick WhatsApp there.
     if (canShareFile) return shareBoth();
     // Desktop: WhatsApp links carry text only, so the picture goes on the clipboard to paste in.
+    // The tab is opened inside the click itself; after an await, strict browsers block it as a popup.
+    const tab = window.open("", "_blank", "noopener");
     const how = await copyBoth();
     setNotice(how === "copied" ? "Picture copied. Paste it into the WhatsApp chat (Ctrl+V) with your link." : "Picture saved. Attach it in the WhatsApp chat with your link.");
-    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank", "noopener");
+    const link = `https://wa.me/?text=${encodeURIComponent(text)}`;
+    if (tab) tab.location.href = link;
+    else window.open(link, "_blank", "noopener");
     celebrate();
   };
   const copy = async () => {

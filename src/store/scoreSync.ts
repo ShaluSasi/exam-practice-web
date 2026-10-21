@@ -96,6 +96,11 @@ async function load(user: User, canImport: boolean) {
       apply(user.id, res);
     }
     await flush(user.id);
+  } catch (e) {
+    handleError(e);
+  }
+  // Even if a queued round could not be sent, show the account's scores rather than the device's.
+  try {
     apply(user.id, await api<Summary>("/api/scores"));
   } catch (e) {
     handleError(e);
@@ -135,7 +140,10 @@ export function startScoreSync(): () => void {
 
   const retry = () => {
     const user = useAuth.getState().user;
-    if (user) flush(user.id).catch(handleError);
+    if (!user) return;
+    // Never loaded (offline at sign-in): load now; otherwise just send what is queued.
+    if (useProfile.getState().account?.userId !== user.id) void load(user, useAuth.getState().canImport);
+    else flush(user.id).catch(handleError);
   };
   window.addEventListener("online", retry);
   return () => {

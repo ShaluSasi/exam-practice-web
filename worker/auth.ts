@@ -42,7 +42,8 @@ export async function signIn(request: Request, env: Env, url: URL): Promise<Resp
   const user: SessionUser = {
     id: claims.sub,
     email: claims.email.toLowerCase(),
-    name: claims.name || claims.email,
+    // No name from Google: use the part before the @, never the whole address (names are shown to other students).
+    name: claims.name || claims.email.split("@")[0] || "Student",
     picture: claims.picture ?? null,
   };
   const now = Date.now();
@@ -78,6 +79,11 @@ export async function me(request: Request, env: Env): Promise<Response> {
 export function signOut(request: Request, url: URL): Response {
   assertSameOrigin(request, url);
   return json({ ok: true }, { "Set-Cookie": cookie("", 0, url) });
+}
+
+/** The signed-in user, or null for a guest. */
+export function optionalUser(request: Request, env: Env): Promise<SessionUser | null> {
+  return readSession(request, env);
 }
 
 /** The signed-in user, or a 401. */
@@ -139,8 +145,14 @@ async function verifyGoogleIdToken(token: string, clientId: string): Promise<Goo
 
   const jwk = (await googleKeys()).find((k) => k.kid === header.kid);
   if (!jwk) return null;
+  let sig: Uint8Array<ArrayBuffer>;
+  try {
+    sig = bytesFromB64url(s);
+  } catch {
+    return null;
+  }
   const key = await crypto.subtle.importKey("jwk", jwk, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["verify"]);
-  const ok = await crypto.subtle.verify("RSASSA-PKCS1-v1_5", key, bytesFromB64url(s), new TextEncoder().encode(`${h}.${p}`));
+  const ok = await crypto.subtle.verify("RSASSA-PKCS1-v1_5", key, sig, new TextEncoder().encode(`${h}.${p}`));
   if (!ok) return null;
 
   const now = Math.floor(Date.now() / 1000);

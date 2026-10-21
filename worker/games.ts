@@ -53,25 +53,31 @@ const RunIn = z
   })
   .refine(
     (r) =>
-      GAME_SECTIONS[r.game]?.[r.section] !== undefined &&
+      hasSection(r.game, r.section) &&
       r.correct <= r.answered &&
       r.bestCombo <= r.correct &&
       r.at <= Date.now() + DAY &&
       // A wave needs at least 3 right answers (a mothership on fire), and no answer is worth more than 1,000 points.
       r.wave <= Math.floor(r.correct / 3) + 1 &&
-      r.score <= r.correct * 1_000 + 300 * r.wave * r.wave + 1_000 * r.wave,
+      // The game's level is the wave, capped at 10 (galaxy/sections.ts levelForWave).
+      r.level <= Math.min(r.wave, 10) &&
+      r.score <= r.correct * 1_000 + 250 * r.wave * r.wave + 1_250 * r.wave,
     "Invalid run",
   );
 
 const SaveBody = z.object({ runs: z.array(RunIn).min(1).max(50) });
 
+/** Own keys only: "constructor" and friends are not games or sections. */
+export const hasGame = (game: string) => Object.hasOwn(GAME_SECTIONS, game);
+export const hasSection = (game: string, section: string) => hasGame(game) && Object.hasOwn(GAME_SECTIONS[game], section);
+
 function parseGame(v: string | null): string {
-  if (!v || !GAME_SECTIONS[v]) throw new HttpError(400, "Unknown game");
+  if (!v || !hasGame(v)) throw new HttpError(400, "Unknown game");
   return v;
 }
 
 function parseSection(game: string, v: string | null): string {
-  if (v === OVERALL || (v && GAME_SECTIONS[game][v])) return v;
+  if (v === OVERALL || (v && hasSection(game, v))) return v;
   throw new HttpError(400, "Unknown section");
 }
 

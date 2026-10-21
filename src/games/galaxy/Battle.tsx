@@ -353,7 +353,9 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
     for (const rk of g.rocks) if (!rk.dying) rk.dying = performance.now();
     force();
     setBanner({ key: Date.now(), title: "SHIELDS DOWN", sub: "Earth needs you. Try again!", tone: "boss" });
-    later(finishRun, 2200);
+    // Hand the run over now (score, missions, scoreboard); only the screen change waits for the
+    // explosion. Tapping Back during it used to clear this timer and lose the whole run.
+    finishRun();
   };
 
   const damage = (n: number) => {
@@ -489,6 +491,7 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
       ring(b.x, b.y + 30, "#ff7ad9");
       shake(8);
       play("boom");
+      if (g.over) return; // the charge beam ended the game while this shot was in flight
       if (b.hp <= 0) {
         const r = R.current;
         for (let i = 0; i < 6; i++) later(() => {
@@ -670,7 +673,7 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
     const t = setTimeout(() => {
       if (count === 0) {
         setBanner({ key: Date.now(), title: "WAVE 1", sub: `${mission.name} · ${levelLabel(section, 1)}`, tone: "info" });
-        setTimeout(startWave, 900);
+        later(startWave, 900);
       }
       setCount(count - 1);
     }, count === 0 ? 700 : 700);
