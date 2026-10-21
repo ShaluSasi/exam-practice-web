@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A cooking vessel blackened by a yellow sooty flame with blocked air holes</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M110 40H290L274 100Q270 112 258 112H142Q130 112 126 100Z" fill="#B8BDD9" stroke="#2B2F4A" stroke-width="3.5"/><rect x="124" y="98" width="152" height="14" rx="6" fill="#2B2F4A"/><path d="M100 44H110M290 44H300" stroke="#2B2F4A" stroke-width="4" stroke-linecap="round"/><path class="fl" d="M172.0 190.0Q172.0 151.5 200.0 120.0Q228.0 151.5 228.0 190.0Z" fill="#FFC83A" opacity="1"/><path class="fl" d="M185.0 190.0Q185.0 169.1 200.0 152.0Q215.0 169.1 215.0 190.0Z" fill="#FF8A1F" opacity="1"/><circle class="rise" cx="170" cy="130" r="4" fill="#2B2F4A"/><circle class="rise2" cx="200" cy="130" r="4" fill="#2B2F4A"/><circle class="rise3" cx="230" cy="130" r="4" fill="#2B2F4A"/><rect x="168" y="190" width="64" height="26" rx="6" fill="#8A90C0" stroke="#2B2F4A" stroke-width="3"/><path d="M180 203H190M210 203H220" stroke="#E5484D" stroke-width="4" stroke-linecap="round"/><text x="250.0" y="150.0" font-family="sans-serif" font-size="13" font-weight="800" fill="#FF8A1F" text-anchor="start" >yellow, sooty</text><text x="250.0" y="168.0" font-family="sans-serif" font-size="13" font-weight="800" fill="#FF8A1F" text-anchor="start" >flame</text><text x="250.0" y="204.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#E5484D" text-anchor="start" >air holes blocked</text><text x="60.0" y="84.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle" >black soot</text>
+</svg>

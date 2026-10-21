@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Iodine from iodised salt feeds the thyroid gland; a normal thyroid beside a swollen thyroid causing goitre</title>
+<style>
+text{font-family:sans-serif}
+.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes sw{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+.sw{animation:sw 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes io{0%{transform:translate(0,0);opacity:0}20%{opacity:1}100%{transform:translate(48px,0);opacity:0}}
+.io1{animation:io 2s linear infinite}.io2{animation:io 2s linear 1s infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="20" y="60" width="60" height="100" rx="6" fill="#fff" stroke="#2B2F4A" stroke-width="3" /><text x="50" y="98" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Iodised</text><text x="50" y="114" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">salt</text><circle cx="50" cy="138" r="9" fill="#FFD166" stroke="#FF8A1F" stroke-width="2" /><text x="50" y="142" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">I</text><circle class="io1" cx="86" cy="120" r="7" fill="#FFD166" stroke="#FF8A1F" stroke-width="2"/><circle class="io2" cx="86" cy="140" r="7" fill="#FFD166" stroke="#FF8A1F" stroke-width="2"/><path d="M170 70Q170 40 215 40Q260 40 260 70L260 150L170 150Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FFE0C2" /><ellipse cx="215" cy="128" rx="20" ry="12" fill="#C0605A" stroke="#2B2F4A" stroke-width="3" class="sw"/><text x="215" y="26" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Normal thyroid</text><path d="M300 70Q300 40 340 40Q380 40 380 70L380 150L300 150Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FFE0C2" /><ellipse cx="340" cy="130" rx="44" ry="30" fill="#C0605A" stroke="#2B2F4A" stroke-width="3" class="sw"/><text x="340" y="26" font-family="sans-serif" font-size="12" fill="#E5484D" text-anchor="middle" font-weight="bold">Goitre</text><text x="215" y="190" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Iodine is needed to make thyroxin</text><text x="215" y="208" font-family="sans-serif" font-size="12" fill="#E5484D" text-anchor="middle" font-weight="bold">Too little iodine can swell the thyroid</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A pollen tube growing down the style towards the ovule, guided by chemicals released by the ovule</title>
+<style>
+text{font-family:sans-serif}
+.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes gr{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+.gw{stroke-dasharray:100;animation:gr 3s ease-out infinite}
+@keyframes ch{0%{transform:translate(0,0);opacity:0}20%{opacity:1}100%{transform:translate(0,-60px);opacity:0}}
+.c1{animation:ch 2s linear infinite}.c2{animation:ch 2s linear .7s infinite}.c3{animation:ch 2s linear 1.4s infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="200" cy="196" rx="74" ry="40" fill="#FFB3C1" stroke="#2B2F4A" stroke-width="3" /><rect x="184" y="48" width="32" height="98" rx="8" fill="#FFD9E0" stroke="#2B2F4A" stroke-width="3" /><ellipse cx="200" cy="44" rx="30" ry="10" fill="#FFD166" stroke="#2B2F4A" stroke-width="3" /><circle cx="200" cy="196" r="16" fill="#CFC4FF" stroke="#2B2F4A" stroke-width="3" /><circle cx="200" cy="196" r="6" fill="#7C5CFF" stroke="#2B2F4A" stroke-width="2" /><circle cx="214" cy="36" r="9" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5" /><path d="M214 44L202 90L200 168" stroke="#2B2F4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" pathLength="100" class="gw"/><path d="M214 44L202 90L200 168" stroke="#FF8A1F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" pathLength="100" class="gw"/><circle cx="196" cy="170" r="3.5" fill="#3FA34D" stroke="#fff" stroke-width="1" class="c1"/><circle cx="206" cy="170" r="3.5" fill="#3FA34D" stroke="#fff" stroke-width="1" class="c2"/><circle cx="200" cy="170" r="3.5" fill="#3FA34D" stroke="#fff" stroke-width="1" class="c3"/><text x="240" y="34" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="start" font-weight="bold">Pollen grain on stigma</text><text x="300" y="200" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="start" font-weight="bold">Ovule</text><text x="20" y="120" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="start" font-weight="bold">Pollen tube grows</text><text x="20" y="136" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="start" font-weight="bold">towards the ovule</text>
+</svg>

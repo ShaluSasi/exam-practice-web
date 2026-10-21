@@ -1,0 +1,2261 @@
+[
+ {
+  "id": "in-cbse-10-phy-electricity-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric circuit",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "An electric circuit is a continuous, closed path for current. Tap the part that lets you **open or close** this path.",
+  "image": {
+   "src": "/img/c10-electricity/circuit-basic.svg",
+   "alt": "A circuit with a cell, plug key, bulb and ammeter"
+  },
+  "spots": [
+   {
+    "id": "cell",
+    "x": 15.0,
+    "y": 50.0,
+    "label": "Electric cell"
+   },
+   {
+    "id": "key",
+    "x": 32.5,
+    "y": 20.8,
+    "label": "Plug key (switch)"
+   },
+   {
+    "id": "bulb",
+    "x": 67.5,
+    "y": 20.8,
+    "label": "Electric bulb"
+   },
+   {
+    "id": "amm",
+    "x": 50.0,
+    "y": 79.2,
+    "label": "Ammeter"
+   },
+   {
+    "id": "wire",
+    "x": 85.0,
+    "y": 50.0,
+    "label": "Connecting wire"
+   }
+  ],
+  "answer": "key",
+  "hint": "In a torch, which part do you press to turn the light on or off?",
+  "explanation": "The **plug key (switch)** makes or breaks the conducting link between the cell and the bulb. When the key is open the path is broken, current stops and the bulb does not glow. The cell supplies the potential difference, the bulb is the load and the ammeter measures the current."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric current",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-electricity/current-direction.svg",
+   "alt": "Electrons drifting one way along a wire while conventional current points the other way"
+  },
+  "assertion": "In a metal wire, the conventional direction of electric current is opposite to the direction in which the electrons flow.",
+  "reason": "Electric current was first thought to be a flow of positive charges, before electrons were discovered.",
+  "answer": "a",
+  "hint": "Who was discovered first, current or electrons?",
+  "explanation": "Both statements are true and R explains A. The direction of current was fixed by convention as the direction of flow of **positive** charge, before electrons were known. Electrons carry negative charge and drift from the negative to the positive terminal, so conventional current points the **opposite** way, from the positive terminal to the negative terminal through the circuit."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Charge and current",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A bulb filament draws a current of $0.5\\ \\text{A}$ for $10$ minutes. How much electric charge flows through the circuit?",
+  "image": {
+   "src": "/img/c10-electricity/charge-flow.svg",
+   "alt": "Charges flowing through a wire past a cross-section"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$5\\ \\text{C}$"
+   },
+   {
+    "id": "b",
+    "text": "$1200\\ \\text{C}$"
+   },
+   {
+    "id": "c",
+    "text": "$300\\ \\text{C}$"
+   },
+   {
+    "id": "d",
+    "text": "$20\\ \\text{C}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Use $Q = It$ and write the time in seconds.",
+  "explanation": "From $I = Q/t$ we get $Q = It$. Time must be in seconds: $10\\ \\text{min} = 600\\ \\text{s}$, so $Q = 0.5\\ \\text{A} \\times 600\\ \\text{s} = 300\\ \\text{C}$. Using $10$ directly gives the trap $5\\ \\text{C}$; dividing $t$ by $I$ gives $1200\\ \\text{C}$; and $10/0.5 = 20$ comes from the same slip with minutes."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Unit of charge",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "An electron carries a charge of $1.6\\times10^{-19}\\ \\text{C}$. About how many electrons make up **one coulomb** of charge?",
+  "image": {
+   "src": "/img/c10-electricity/coulomb-electrons.svg",
+   "alt": "A box holding one coulomb of electrons next to a single electron"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$6\\times10^{18}$"
+   },
+   {
+    "id": "b",
+    "text": "$1.6\\times10^{19}$"
+   },
+   {
+    "id": "c",
+    "text": "$1.6\\times10^{-19}$"
+   },
+   {
+    "id": "d",
+    "text": "$6\\times10^{-18}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Number of electrons = total charge divided by the charge of one electron.",
+  "explanation": "$N = \\dfrac{1\\ \\text{C}}{1.6\\times10^{-19}\\ \\text{C}} \\approx 6.25\\times10^{18}$, so nearly $6\\times10^{18}$ electrons. $1.6\\times10^{-19}$ is the charge of **one** electron, not their number, and the powers of ten with the wrong sign are the typical slips from dividing by a small number."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric circuit",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Put these events in the order in which they happen when you switch on a torch.",
+  "image": {
+   "src": "/img/c10-electricity/torch.svg",
+   "alt": "A torch with cells, a bulb and a light beam"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "The potential difference sets the electrons in motion: an electric current flows"
+   },
+   {
+    "id": "s1",
+    "text": "The chemical action in the cell creates a potential difference between its terminals"
+   },
+   {
+    "id": "s4",
+    "text": "The filament resists the flow of charge and gets hot"
+   },
+   {
+    "id": "s2",
+    "text": "The switch is closed and the circuit becomes a continuous closed path"
+   },
+   {
+    "id": "s5",
+    "text": "The hot filament glows and gives out light"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Energy flows from the cell, through the current, to the bulb.",
+  "explanation": "The **cell** gives a potential difference through chemical action. Closing the **switch** completes the closed path, so the potential difference makes charges flow as a **current**. The bulb filament resists the flow and the electrical energy turns into heat, so it gets hot and glows. Remember that a break anywhere in the path stops the current."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Circuit symbols",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each circuit component with its symbol.",
+  "image": {
+   "src": "/img/c10-electricity/circuit-open.svg",
+   "alt": "An open circuit with a cell, key, bulb and ammeter"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "An electric cell"
+   },
+   {
+    "id": "l2",
+    "text": "A variable resistance (rheostat)"
+   },
+   {
+    "id": "l3",
+    "text": "A plug key (switch) that is open"
+   },
+   {
+    "id": "l4",
+    "text": "A wire joint"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Symbol A",
+    "image": {
+     "src": "/img/c10-electricity/sym-cell.svg",
+     "alt": "Symbol A"
+    }
+   },
+   {
+    "id": "r2",
+    "text": "Symbol B",
+    "image": {
+     "src": "/img/c10-electricity/sym-rheostat.svg",
+     "alt": "Symbol B"
+    }
+   },
+   {
+    "id": "r3",
+    "text": "Symbol C",
+    "image": {
+     "src": "/img/c10-electricity/sym-keyopen.svg",
+     "alt": "Symbol C"
+    }
+   },
+   {
+    "id": "r4",
+    "text": "Symbol D",
+    "image": {
+     "src": "/img/c10-electricity/sym-joint.svg",
+     "alt": "Symbol D"
+    }
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "The cell has one long thin line and one short thick line.",
+  "explanation": "The **cell** symbol has a long thin line (positive) and a short thick line (negative). A **rheostat** is a resistor with a sliding arrow. An **open key** has a gap in the line with the lever lifted. A **wire joint** is a dot where wires meet."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Circuit symbols",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A student wants to measure the potential difference across a lamp. Which symbol represents the instrument she must connect **in parallel** across the lamp?",
+  "image": {
+   "src": "/img/c10-electricity/power-circuit.svg",
+   "alt": "A lamp circuit with an ammeter and a voltmeter"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Symbol A",
+    "image": {
+     "src": "/img/c10-electricity/sym-cell.svg",
+     "alt": "Symbol of an electric cell"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Symbol B",
+    "image": {
+     "src": "/img/c10-electricity/sym-ammeter.svg",
+     "alt": "Symbol of an ammeter"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Symbol C",
+    "image": {
+     "src": "/img/c10-electricity/sym-voltmeter.svg",
+     "alt": "Symbol of a voltmeter"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Symbol D",
+    "image": {
+     "src": "/img/c10-electricity/sym-resistor.svg",
+     "alt": "Symbol of a resistor"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "The instrument that measures potential difference is the voltmeter.",
+  "explanation": "A **voltmeter** measures potential difference and is always connected **in parallel** across the two points. Its symbol is a circle with the letter **V**. The circle with **A** is the ammeter, which goes in series, and the long and short lines are a cell."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Potential difference",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In Activity 11.1 the potential difference across the nichrome wire XY is measured. Tap the **voltmeter**.",
+  "image": {
+   "src": "/img/c10-electricity/ohm-activity.svg",
+   "alt": "A circuit with cells, an ammeter, a nichrome wire XY, a voltmeter and a key"
+  },
+  "spots": [
+   {
+    "id": "cell",
+    "x": 15.0,
+    "y": 50.0,
+    "label": "Battery of cells"
+   },
+   {
+    "id": "amm",
+    "x": 32.5,
+    "y": 20.8,
+    "label": "Ammeter (in series)"
+   },
+   {
+    "id": "wire",
+    "x": 67.5,
+    "y": 20.8,
+    "label": "Nichrome wire XY"
+   },
+   {
+    "id": "volt",
+    "x": 67.5,
+    "y": 45.8,
+    "label": "Voltmeter (in parallel)"
+   },
+   {
+    "id": "key",
+    "x": 50.0,
+    "y": 79.2,
+    "label": "Plug key"
+   }
+  ],
+  "answer": "volt",
+  "hint": "It is the one joined across X and Y, not in line with the current.",
+  "explanation": "The **voltmeter** is connected in **parallel** with the wire, across the points X and Y. The ammeter sits in the main path (in series) so that the same current passes through it as through the wire."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Potential difference and energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each electrical quantity with its formula.",
+  "image": {
+   "src": "/img/c10-electricity/pd-work.svg",
+   "alt": "A battery doing work to move a charge from the negative to the positive terminal"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Electric current"
+   },
+   {
+    "id": "l2",
+    "text": "Potential difference"
+   },
+   {
+    "id": "l3",
+    "text": "Electric power"
+   },
+   {
+    "id": "l4",
+    "text": "Heat produced (Joule's law)"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "$\\dfrac{Q}{t}$"
+   },
+   {
+    "id": "r2",
+    "text": "$\\dfrac{W}{Q}$"
+   },
+   {
+    "id": "r3",
+    "text": "$V\\,I$"
+   },
+   {
+    "id": "r4",
+    "text": "$I^{2}R\\,t$"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Current is charge per unit time; potential difference is work per unit charge.",
+  "explanation": "**Current** $I = Q/t$ (charge per second). **Potential difference** $V = W/Q$ (work done per unit charge), so $1\\ \\text{V} = 1\\ \\text{J C}^{-1}$. **Power** $P = VI$. **Heat** $H = I^{2}Rt$ is Joule\\'s law of heating."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Ohm's law",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "When a $12\\ \\text{V}$ battery is connected across an unknown resistor, a current of $2.5\\ \\text{mA}$ flows. What is the resistance of the resistor?",
+  "image": {
+   "src": "/img/c10-electricity/resistor-ma.svg",
+   "alt": "A 12 volt cell connected to an unknown resistor with a milliammeter reading 2.5 milliamperes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$4.8\\ \\Omega$"
+   },
+   {
+    "id": "b",
+    "text": "$4800\\ \\Omega$"
+   },
+   {
+    "id": "c",
+    "text": "$30\\ \\Omega$"
+   },
+   {
+    "id": "d",
+    "text": "$2.1\\times10^{-4}\\ \\Omega$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Convert milliampere to ampere before using $R = V/I$.",
+  "explanation": "$I = 2.5\\ \\text{mA} = 2.5\\times10^{-3}\\ \\text{A}$, so $R = V/I = 12/(2.5\\times10^{-3}) = 4800\\ \\Omega$. Using $2.5$ directly gives the trap $4.8\\ \\Omega$; $12\\times2.5 = 30$ multiplies instead of dividing; and $I/V$ inverts the ratio."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Ohm's law",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The nichrome wire in the circuit is kept at a steady temperature. Which graph of potential difference $V$ (vertical) against current $I$ (horizontal) will the student obtain?",
+  "image": {
+   "src": "/img/c10-electricity/ohm-activity.svg",
+   "alt": "The circuit used to study Ohm's law"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Graph P",
+    "image": {
+     "src": "/img/c10-electricity/vi-opt-curve.svg",
+     "alt": "Graph P"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Graph Q",
+    "image": {
+     "src": "/img/c10-electricity/vi-opt-flat.svg",
+     "alt": "Graph Q"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Graph R",
+    "image": {
+     "src": "/img/c10-electricity/vi-opt-offset.svg",
+     "alt": "Graph R"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Graph S",
+    "image": {
+     "src": "/img/c10-electricity/vi-opt-line.svg",
+     "alt": "Graph S"
+    }
+   }
+  ],
+  "answer": "d",
+  "hint": "Ohm's law says $V/I$ is constant.",
+  "explanation": "Ohm\\'s law: $V \\propto I$ at constant temperature, so $V/I = R$ is constant. A graph of $V$ against $I$ is a **straight line through the origin**, with slope equal to the resistance. A curve, a horizontal line or a line that does not start at the origin would mean $V/I$ is not constant."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Ohm's law",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The potential difference across a heater is $60\\ \\text{V}$ and it draws $4\\ \\text{A}$. What current will it draw if the potential difference is raised to $120\\ \\text{V}$?",
+  "image": {
+   "src": "/img/c10-electricity/heater-vary.svg",
+   "alt": "An electric heater on a 60 volt supply drawing 4 amperes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$8\\ \\text{A}$"
+   },
+   {
+    "id": "b",
+    "text": "$16\\ \\text{A}$"
+   },
+   {
+    "id": "c",
+    "text": "$2\\ \\text{A}$"
+   },
+   {
+    "id": "d",
+    "text": "$4\\ \\text{A}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "First find the resistance of the heater; it does not change.",
+  "explanation": "$R = V/I = 60/4 = 15\\ \\Omega$. At $120\\ \\text{V}$, $I = 120/15 = 8\\ \\text{A}$: since $I \\propto V$, doubling $V$ doubles $I$. Getting $16\\ \\text{A}$ means doubling twice, $2\\ \\text{A}$ comes from halving, and $4\\ \\text{A}$ ignores the change."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric current",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-electricity/electrons-consumed.svg",
+   "alt": "A bulb with an ammeter on each side both reading 1 ampere"
+  },
+  "assertion": "Electrons are used up as current flows through a bulb, so the battery must keep supplying new electrons.",
+  "reason": "We pay the electricity board for the energy supplied to move electrons through our appliances, not for the electrons.",
+  "answer": "d",
+  "hint": "Compare the two ammeter readings in the picture.",
+  "explanation": "A is **false**, R is **true**. The two ammeters read the same, so exactly as many electrons leave the bulb as enter it: electrons are **not consumed**. What the circuit uses up is the **energy** given to the electrons by the source, and that is what we pay for."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistance of a conductor",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A copper wire of resistance $R$ is pulled out evenly until its length is **doubled**. Its volume stays the same. What is its new resistance?",
+  "image": {
+   "src": "/img/c10-electricity/wire-stretch.svg",
+   "alt": "A thick wire being stretched into a longer thinner wire"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$2R$"
+   },
+   {
+    "id": "b",
+    "text": "$R/2$"
+   },
+   {
+    "id": "c",
+    "text": "$R/4$"
+   },
+   {
+    "id": "d",
+    "text": "$4R$"
+   }
+  ],
+  "answer": "d",
+  "hint": "If the length doubles and the volume is the same, what happens to the area of cross-section?",
+  "explanation": "Volume $= lA$ stays constant, so doubling $l$ **halves** $A$. Then $R' = \\rho\\dfrac{2l}{A/2} = 4\\rho\\dfrac{l}{A} = 4R$. The tempting answer $2R$ only counts the length; $R/2$ and $R/4$ invert the dependence."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistivity and resistance",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A wire of length $l$ and area of cross-section $A$ has resistance $4\\ \\Omega$. What is the resistance of a wire of the **same material** with length $l/2$ and area $2A$?",
+  "image": {
+   "src": "/img/c10-electricity/wire-half-double.svg",
+   "alt": "Two wires of the same material, one long and thin and one short and thick"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$4\\ \\Omega$"
+   },
+   {
+    "id": "b",
+    "text": "$1\\ \\Omega$"
+   },
+   {
+    "id": "c",
+    "text": "$2\\ \\Omega$"
+   },
+   {
+    "id": "d",
+    "text": "$16\\ \\Omega$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Use $R = \\rho l/A$ and replace $l$ by $l/2$ and $A$ by $2A$.",
+  "explanation": "$R_2 = \\rho\\dfrac{l/2}{2A} = \\dfrac14\\rho\\dfrac{l}{A} = \\dfrac14 R_1 = 1\\ \\Omega$. Halving only the length (or doubling only the area) gives $2\\ \\Omega$; forgetting both changes gives $4\\ \\Omega$; putting the area in the numerator gives $16\\ \\Omega$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Factors affecting resistance",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "All four wires are connected one at a time to the same cell. Tap the wire that has the **greatest resistance** (fewest current dots).",
+  "image": {
+   "src": "/img/c10-electricity/wire-factors.svg",
+   "alt": "Four wires: nichrome of length l, nichrome of length 2l, thicker nichrome and copper"
+  },
+  "spots": [
+   {
+    "id": "w1",
+    "x": 25.0,
+    "y": 20.8,
+    "label": "Nichrome wire, length l"
+   },
+   {
+    "id": "w2",
+    "x": 40.0,
+    "y": 44.2,
+    "label": "Nichrome wire, length 2l"
+   },
+   {
+    "id": "w3",
+    "x": 25.0,
+    "y": 68.3,
+    "label": "Thicker nichrome wire, length l"
+   },
+   {
+    "id": "w4",
+    "x": 25.0,
+    "y": 90.8,
+    "label": "Copper wire, length l"
+   }
+  ],
+  "answer": "w2",
+  "hint": "Resistance grows with length and shrinks with area.",
+  "explanation": "$R = \\rho l/A$: resistance is **directly proportional to length**, so the nichrome wire of length $2l$ has twice the resistance of the wire of length $l$ and carries the smallest current (half of the first wire, as in Activity 11.3). The thicker wire has a larger $A$, so less resistance, and copper has lower resistivity than nichrome."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Factors affecting resistance",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "On which of these does the resistance of a metal conductor **depend**? Select all that apply.",
+  "image": {
+   "src": "/img/c10-electricity/wire-factors.svg",
+   "alt": "Four wires of different length, thickness and material"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Its length"
+   },
+   {
+    "id": "b",
+    "text": "Its area of cross-section"
+   },
+   {
+    "id": "c",
+    "text": "The nature of its material"
+   },
+   {
+    "id": "d",
+    "text": "The current that happens to flow through it"
+   },
+   {
+    "id": "e",
+    "text": "Its temperature"
+   },
+   {
+    "id": "f",
+    "text": "The number of cells in the battery"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "Think of $R = \\rho l/A$, and remember that $\\rho$ changes with temperature.",
+  "explanation": "$R = \\rho\\dfrac{l}{A}$ depends on **length** (directly), **area of cross-section** (inversely) and the **material** through $\\rho$. Both resistance and resistivity also vary with **temperature**. Resistance does **not** depend on the current or on the battery: those are changed by the resistance and by $V$, not the other way round."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistivity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these materials in order of **increasing electrical resistivity**.",
+  "image": {
+   "src": "/img/c10-electricity/resistivity-scale.svg",
+   "alt": "A scale of resistivity rising from copper to glass"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Nichrome (about $10^{-6}\\ \\Omega\\,\\text{m}$)"
+   },
+   {
+    "id": "s1",
+    "text": "Copper (about $1.6\\times10^{-8}\\ \\Omega\\,\\text{m}$)"
+   },
+   {
+    "id": "s4",
+    "text": "Glass ($10^{10}$ to $10^{14}\\ \\Omega\\,\\text{m}$)"
+   },
+   {
+    "id": "s2",
+    "text": "Iron (about $10\\times10^{-8}\\ \\Omega\\,\\text{m}$)"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "Lowest resistivity",
+  "endLabel": "Highest resistivity",
+  "hint": "Metals first, then alloys, and insulators last.",
+  "explanation": "Pure metals have the lowest resistivity ($10^{-8}\\ \\Omega\\,\\text{m}$ range), and copper is lower than iron. An **alloy** like nichrome has higher resistivity than its constituent metals ($10^{-6}\\ \\Omega\\,\\text{m}$). **Insulators** like glass are enormously higher ($10^{10}$ to $10^{17}\\ \\Omega\\,\\text{m}$)."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistance and wire dimensions",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "match",
+  "prompt": "The same material and temperature are used. Match each change to the wire with the new resistance, using $R = \\rho l/A$.",
+  "image": {
+   "src": "/img/c10-electricity/wire-changes.svg",
+   "alt": "A wire with length l, cross-section area A and resistivity rho"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Length doubled, area unchanged"
+   },
+   {
+    "id": "l2",
+    "text": "Area of cross-section doubled, length unchanged"
+   },
+   {
+    "id": "l3",
+    "text": "Diameter doubled, length unchanged"
+   },
+   {
+    "id": "l4",
+    "text": "Stretched to twice the length at constant volume"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Resistance doubles"
+   },
+   {
+    "id": "r2",
+    "text": "Resistance halves"
+   },
+   {
+    "id": "r3",
+    "text": "Resistance becomes one-fourth"
+   },
+   {
+    "id": "r4",
+    "text": "Resistance becomes four times"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Area depends on the square of the diameter.",
+  "explanation": "$R \\propto l$, so doubling $l$ doubles $R$. $R \\propto 1/A$, so doubling $A$ halves $R$. Since $A \\propto d^{2}$, doubling the diameter makes $A$ four times larger and $R$ one-fourth. Stretching to $2l$ at constant volume halves $A$ as well, so $R$ becomes $2 \\times 2 = 4$ times."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistivity and alloys",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-electricity/toaster-coil.svg",
+   "alt": "A toaster with glowing nichrome coils and a chart comparing copper and nichrome"
+  },
+  "assertion": "The heating elements of toasters and electric irons are made of an alloy such as nichrome rather than a pure metal.",
+  "reason": "Nichrome has a lower resistivity than copper.",
+  "answer": "c",
+  "hint": "Compare the heights of the two bars.",
+  "explanation": "A is **true** and R is **false**. Alloys have **higher** resistivity than pure metals ($\\rho$ of nichrome is about $10^{-6}\\ \\Omega\\,\\text{m}$ against about $1.6\\times10^{-8}\\ \\Omega\\,\\text{m}$ for copper), so they produce more heat. They also do not oxidise (burn) readily at high temperature, which is why they last."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in series",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "A $20\\ \\Omega$ lamp and a $4\\ \\Omega$ conductor are in series with a $6\\ \\text{V}$ battery. Tap the component with the **largest potential difference** across it.",
+  "image": {
+   "src": "/img/c10-electricity/series-numerical.svg",
+   "alt": "A 20 ohm lamp and a 4 ohm conductor in series with a battery and an ammeter"
+  },
+  "spots": [
+   {
+    "id": "cell",
+    "x": 15.0,
+    "y": 50.0,
+    "label": "6 V battery"
+   },
+   {
+    "id": "lamp",
+    "x": 32.5,
+    "y": 20.8,
+    "label": "Lamp (20 ohm)"
+   },
+   {
+    "id": "cond",
+    "x": 62.5,
+    "y": 20.8,
+    "label": "Conductor (4 ohm)"
+   },
+   {
+    "id": "amm",
+    "x": 50.0,
+    "y": 79.2,
+    "label": "Ammeter"
+   }
+  ],
+  "answer": "lamp",
+  "hint": "In series the same current flows through both, so $V = IR$ is largest across the larger $R$.",
+  "explanation": "$R_s = 20+4 = 24\\ \\Omega$, $I = 6/24 = 0.25\\ \\text{A}$ everywhere. Then $V_{lamp} = 0.25\\times20 = 5\\ \\text{V}$ and $V_{conductor} = 0.25\\times4 = 1\\ \\text{V}$. The battery\\'s $6\\ \\text{V}$ is shared in proportion to the resistances, and the lamp, the larger resistance, takes $5\\ \\text{V}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in series",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which statements are true for resistors connected **in series**? Select all that apply.",
+  "image": {
+   "src": "/img/c10-electricity/series-three.svg",
+   "alt": "Three resistors in series with a battery and an ammeter"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The potential difference across each resistor is the same"
+   },
+   {
+    "id": "b",
+    "text": "The same current flows through every resistor"
+   },
+   {
+    "id": "c",
+    "text": "The total potential difference is the sum of the potential differences across the resistors"
+   },
+   {
+    "id": "d",
+    "text": "The equivalent resistance is smaller than the smallest resistor"
+   },
+   {
+    "id": "e",
+    "text": "The equivalent resistance is $R_1 + R_2 + R_3$"
+   },
+   {
+    "id": "f",
+    "text": "If one component fails, the circuit is broken and none of them works"
+   }
+  ],
+  "answers": [
+   "b",
+   "c",
+   "e",
+   "f"
+  ],
+  "hint": "Think of beads on a single string: there is only one path.",
+  "explanation": "In series the **current is the same** in every part and the **p.d.s add**: $V = V_1+V_2+V_3$. Dividing by $I$ gives $R_s = R_1+R_2+R_3$, which is **greater** than any individual resistance. With only one path, a failure anywhere breaks the circuit. The p.d. is **not** the same across each resistor unless the resistances are equal."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in series",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A battery of three $2\\ \\text{V}$ cells is joined in series with $5\\ \\Omega$, $8\\ \\Omega$ and $12\\ \\Omega$ resistors. What does a voltmeter across the $12\\ \\Omega$ resistor read?",
+  "image": {
+   "src": "/img/c10-electricity/series-meters.svg",
+   "alt": "Three cells in series with 5, 8 and 12 ohm resistors and a voltmeter across the 12 ohm resistor"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$2.88\\ \\text{V}$"
+   },
+   {
+    "id": "b",
+    "text": "$6\\ \\text{V}$"
+   },
+   {
+    "id": "c",
+    "text": "$0.24\\ \\text{V}$"
+   },
+   {
+    "id": "d",
+    "text": "$3.6\\ \\text{V}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Find the total resistance, then the current, then $V = IR$ for the 12 ohm resistor.",
+  "explanation": "Battery $= 3\\times2 = 6\\ \\text{V}$; $R_s = 5+8+12 = 25\\ \\Omega$; $I = 6/25 = 0.24\\ \\text{A}$ (the ammeter reading). Across the $12\\ \\Omega$ resistor, $V = IR = 0.24\\times12 = 2.88\\ \\text{V}$. $6\\ \\text{V}$ is the whole battery voltage, $0.24$ is the current, and $3.6\\ \\text{V}$ comes from ignoring the $5\\ \\Omega$ resistor ($6\\times12/20$)."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Series and parallel circuits",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In a string of festival fairy lights, one fused bulb makes all the others go dark. Which circuit would **keep the other bulb glowing** if one bulb were removed?",
+  "image": {
+   "src": "/img/c10-electricity/fairy-lights.svg",
+   "alt": "A string of fairy lights gone dark because one bulb fused"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Circuit 1",
+    "image": {
+     "src": "/img/c10-electricity/bulbs-ser2.svg",
+     "alt": "Circuit 1"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Circuit 2",
+    "image": {
+     "src": "/img/c10-electricity/bulbs-ser3.svg",
+     "alt": "Circuit 2"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Circuit 3",
+    "image": {
+     "src": "/img/c10-electricity/bulbs-par2.svg",
+     "alt": "Circuit 3"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Circuit 4",
+    "image": {
+     "src": "/img/c10-electricity/bulbs-ser2r.svg",
+     "alt": "Circuit 4"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Each bulb needs its own separate path from the battery.",
+  "explanation": "In **parallel**, each bulb sits on its own branch across the battery, so removing one leaves the other path unbroken and the other bulb keeps glowing. In the **series** circuits (1, 2 and 4) there is only one path, so taking out one bulb breaks the circuit and everything goes off, like the fairy lights."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in parallel",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Three resistors are connected in parallel to a $12\\ \\text{V}$ battery. Tap the resistor that carries the **largest current**.",
+  "image": {
+   "src": "/img/c10-electricity/parallel-numerical.svg",
+   "alt": "Resistors of 5, 10 and 30 ohms in parallel across a 12 volt battery"
+  },
+  "spots": [
+   {
+    "id": "cell",
+    "x": 15.0,
+    "y": 50.0,
+    "label": "12 V battery"
+   },
+   {
+    "id": "r5",
+    "x": 40.0,
+    "y": 50.0,
+    "label": "Resistor 5 ohm"
+   },
+   {
+    "id": "r10",
+    "x": 57.5,
+    "y": 50.0,
+    "label": "Resistor 10 ohm"
+   },
+   {
+    "id": "r30",
+    "x": 75.0,
+    "y": 50.0,
+    "label": "Resistor 30 ohm"
+   }
+  ],
+  "answer": "r5",
+  "hint": "Every branch has the same p.d., so $I = V/R$ is largest for the smallest $R$.",
+  "explanation": "Each resistor has the full $12\\ \\text{V}$ across it: $I_1 = 12/5 = 2.4\\ \\text{A}$, $I_2 = 12/10 = 1.2\\ \\text{A}$, $I_3 = 12/30 = 0.4\\ \\text{A}$. The **smallest resistance** takes the **largest current** (shown by the denser current dots), and the total is $2.4+1.2+0.4 = 4\\ \\text{A}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in parallel",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which statements are true for resistors connected **in parallel**? Select all that apply.",
+  "image": {
+   "src": "/img/c10-electricity/parallel-three.svg",
+   "alt": "Three resistors in parallel with a battery"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The same current flows through each branch"
+   },
+   {
+    "id": "b",
+    "text": "The total current is $I = I_1 + I_2 + I_3$"
+   },
+   {
+    "id": "c",
+    "text": "The equivalent resistance is greater than the largest resistor"
+   },
+   {
+    "id": "d",
+    "text": "The potential difference across each branch is the same"
+   },
+   {
+    "id": "e",
+    "text": "$\\dfrac{1}{R_p} = \\dfrac{1}{R_1}+\\dfrac{1}{R_2}+\\dfrac{1}{R_3}$"
+   },
+   {
+    "id": "f",
+    "text": "If one branch is switched off, the other branches keep working"
+   }
+  ],
+  "answers": [
+   "b",
+   "d",
+   "e",
+   "f"
+  ],
+  "hint": "Each branch is connected directly across the same two points.",
+  "explanation": "In parallel every branch is across the **same two points**, so the **p.d. is the same**; the branch currents differ ($I = V/R$) and **add up** to the total current. The reciprocals add: $1/R_p = 1/R_1+1/R_2+1/R_3$, which makes $R_p$ **smaller** than the smallest resistor. A switched-off branch does not affect the others."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in parallel",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Resistors of $5\\ \\Omega$, $10\\ \\Omega$ and $30\\ \\Omega$ are connected in parallel. What is the equivalent resistance?",
+  "image": {
+   "src": "/img/c10-electricity/parallel-numerical.svg",
+   "alt": "Resistors of 5, 10 and 30 ohms in parallel across a 12 volt battery"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$45\\ \\Omega$"
+   },
+   {
+    "id": "b",
+    "text": "$15\\ \\Omega$"
+   },
+   {
+    "id": "c",
+    "text": "$\\tfrac{1}{3}\\ \\Omega$"
+   },
+   {
+    "id": "d",
+    "text": "$3\\ \\Omega$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Add the reciprocals, then take the reciprocal of the answer.",
+  "explanation": "$\\dfrac{1}{R_p} = \\dfrac15+\\dfrac1{10}+\\dfrac1{30} = \\dfrac{6+3+1}{30} = \\dfrac13$, so $R_p = 3\\ \\Omega$. Adding the resistors directly gives the series answer $45\\ \\Omega$; $15\\ \\Omega$ is a simple average; and $\\tfrac13\\ \\Omega$ forgets to invert $1/R_p$ at the end. Note $3\\ \\Omega$ is less than the smallest resistor, as it must be."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Resistors in parallel",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-electricity/parallel-two.svg",
+   "alt": "A 6 ohm and a 3 ohm resistor in parallel across a 6 volt battery"
+  },
+  "assertion": "When $6\\ \\Omega$ and $3\\ \\Omega$ resistors are connected in parallel, the equivalent resistance is $2\\ \\Omega$, less than either resistor.",
+  "reason": "In a parallel combination $1/R_p$ is the sum of the reciprocals, so $1/R_p$ is greater than the reciprocal of any single resistor.",
+  "answer": "a",
+  "hint": "Greater $1/R_p$ means smaller $R_p$.",
+  "explanation": "Both are true and R explains A. $\\dfrac1{R_p} = \\dfrac16+\\dfrac13 = \\dfrac12$, so $R_p = 2\\ \\Omega$. Since $1/R_p$ is larger than $1/6$ and $1/3$, $R_p$ is smaller than both. Physically, the extra branch gives the current one more path, so the total current for the same $V$ rises."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Combination of resistors",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "hotspot",
+  "prompt": "A $12\\ \\text{V}$ battery is connected to this arrangement. Tap the resistor that carries the **largest current**.",
+  "image": {
+   "src": "/img/c10-electricity/combo-circuit.svg",
+   "alt": "Two parallel groups of resistors in series across a 12 volt battery"
+  },
+  "spots": [
+   {
+    "id": "r1",
+    "x": 25.0,
+    "y": 50.0,
+    "label": "R1 = 10 ohm"
+   },
+   {
+    "id": "r2",
+    "x": 37.5,
+    "y": 50.0,
+    "label": "R2 = 40 ohm"
+   },
+   {
+    "id": "r3",
+    "x": 60.0,
+    "y": 50.0,
+    "label": "R3 = 30 ohm"
+   },
+   {
+    "id": "r4",
+    "x": 72.5,
+    "y": 50.0,
+    "label": "R4 = 20 ohm"
+   },
+   {
+    "id": "r5",
+    "x": 85.0,
+    "y": 50.0,
+    "label": "R5 = 60 ohm"
+   }
+  ],
+  "answer": "r1",
+  "hint": "Find the p.d. across each group first, then use $I = V/R$.",
+  "explanation": "Group 1: $\\tfrac1R = \\tfrac1{10}+\\tfrac1{40} = \\tfrac5{40}$, so $R = 8\\ \\Omega$. Group 2: $\\tfrac1R = \\tfrac1{30}+\\tfrac1{20}+\\tfrac1{60} = \\tfrac6{60}$, so $R = 10\\ \\Omega$. Total $= 18\\ \\Omega$ and $I = 12/18 = 0.67\\ \\text{A}$. The $8\\ \\Omega$ group has $0.67\\times8 = 5.33\\ \\text{V}$, so $I_1 = 5.33/10 = 0.53\\ \\text{A}$, the largest of all five. The others carry $0.13, 0.22, 0.33$ and $0.11\\ \\text{A}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Combination of resistors",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "In the circuit shown, $R_1 = 10\\ \\Omega$, $R_2 = 40\\ \\Omega$, $R_3 = 30\\ \\Omega$, $R_4 = 20\\ \\Omega$ and $R_5 = 60\\ \\Omega$ with a $12\\ \\text{V}$ battery. What is the **total current** from the battery?",
+  "image": {
+   "src": "/img/c10-electricity/combo-circuit.svg",
+   "alt": "Two parallel groups of resistors in series across a 12 volt battery"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1.5\\ \\text{A}$"
+   },
+   {
+    "id": "b",
+    "text": "$0.67\\ \\text{A}$"
+   },
+   {
+    "id": "c",
+    "text": "$0.075\\ \\text{A}$"
+   },
+   {
+    "id": "d",
+    "text": "$1.2\\ \\text{A}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Reduce each parallel group to one resistor, then add the two in series.",
+  "explanation": "Group 1 gives $8\\ \\Omega$, group 2 gives $10\\ \\Omega$, and they are in series: $R = 18\\ \\Omega$. $I = 12/18 = 0.67\\ \\text{A}$. Using only the first group gives $12/8 = 1.5\\ \\text{A}$; only the second gives $12/10 = 1.2\\ \\text{A}$; and adding all five resistors as if in series gives $160\\ \\Omega$ and $0.075\\ \\text{A}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Combination of resistors",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which way of joining resistors of $2\\ \\Omega$, $3\\ \\Omega$ and $6\\ \\Omega$ gives a total resistance of **$4\\ \\Omega$**?",
+  "image": {
+   "src": "/img/c10-electricity/three-resistors.svg",
+   "alt": "Three separate resistors of 2, 3 and 6 ohms"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Arrangement 1",
+    "image": {
+     "src": "/img/c10-electricity/arr-ser.svg",
+     "alt": "Arrangement 1"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Arrangement 2",
+    "image": {
+     "src": "/img/c10-electricity/arr-par.svg",
+     "alt": "Arrangement 2"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Arrangement 3",
+    "image": {
+     "src": "/img/c10-electricity/arr-a.svg",
+     "alt": "Arrangement 3"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Arrangement 4",
+    "image": {
+     "src": "/img/c10-electricity/arr-b.svg",
+     "alt": "Arrangement 4"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Try $6\\ \\Omega$ and $3\\ \\Omega$ in parallel first.",
+  "explanation": "$6\\ \\Omega\\parallel3\\ \\Omega$: $\\tfrac1R = \\tfrac16+\\tfrac13 = \\tfrac12$, so $2\\ \\Omega$; in series with $2\\ \\Omega$ it gives $4\\ \\Omega$ (arrangement 3). All in series gives $11\\ \\Omega$ (1), all in parallel gives $1\\ \\Omega$ (2), and $2\\ \\Omega\\parallel3\\ \\Omega = 1.2\\ \\Omega$ in series with $6\\ \\Omega$ gives $7.2\\ \\Omega$ (4)."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Combination of resistors",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Each circuit uses three $6\\ \\Omega$ resistors. Arrange the circuits in order of **increasing total resistance**.",
+  "image": {
+   "src": "/img/c10-electricity/combos-four.svg",
+   "alt": "Four ways of joining three 6 ohm resistors"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Circuit D (two in parallel, in series with the third)"
+   },
+   {
+    "id": "s1",
+    "text": "Circuit C (all three in parallel)"
+   },
+   {
+    "id": "s4",
+    "text": "Circuit B (all three in series)"
+   },
+   {
+    "id": "s2",
+    "text": "Circuit A (two in series, with the third in parallel to them)"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "Smallest resistance",
+  "endLabel": "Largest resistance",
+  "hint": "Work out each total in ohms.",
+  "explanation": "**C**: $\\tfrac1R = \\tfrac36$, so $2\\ \\Omega$. **A**: $12\\ \\Omega\\parallel6\\ \\Omega = \\dfrac{12\\times6}{18} = 4\\ \\Omega$. **D**: $6\\ \\Omega\\parallel6\\ \\Omega = 3\\ \\Omega$, plus $6\\ \\Omega$ gives $9\\ \\Omega$. **B**: $6+6+6 = 18\\ \\Omega$. So the order is $2 < 4 < 9 < 18\\ \\Omega$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Joule heating",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Two identical wires are first joined **in series** and then **in parallel** across the same battery. What is the ratio of the heat produced in series to that in parallel in the same time?",
+  "image": {
+   "src": "/img/c10-electricity/two-wires.svg",
+   "alt": "Two identical wires joined in series and in parallel across the same battery"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1:4$"
+   },
+   {
+    "id": "b",
+    "text": "$1:2$"
+   },
+   {
+    "id": "c",
+    "text": "$2:1$"
+   },
+   {
+    "id": "d",
+    "text": "$4:1$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Across a fixed $V$, heat is $H = V^2t/R$, so a smaller $R$ gives more heat.",
+  "explanation": "Let each wire be $R$. Series: $2R$; parallel: $R/2$. With the same $V$ and $t$, $H = \\dfrac{V^2t}{R_{eq}}$, so $\\dfrac{H_s}{H_p} = \\dfrac{R/2}{2R} = \\dfrac14$. The parallel combination dissipates four times as much heat. $1:2$ or $2:1$ come from treating the equivalent resistance as $R$ in one case only."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Units",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each physical quantity with its SI unit.",
+  "image": {
+   "src": "/img/c10-electricity/units.svg",
+   "alt": "An ammeter, a voltmeter, a resistor and a lamp"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Electric current"
+   },
+   {
+    "id": "l2",
+    "text": "Potential difference"
+   },
+   {
+    "id": "l3",
+    "text": "Electrical resistance"
+   },
+   {
+    "id": "l4",
+    "text": "Electrical resistivity"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "ampere (A)"
+   },
+   {
+    "id": "r2",
+    "text": "volt (V)"
+   },
+   {
+    "id": "r3",
+    "text": "ohm ($\\Omega$)"
+   },
+   {
+    "id": "r4",
+    "text": "ohm metre ($\\Omega\\,\\text{m}$)"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Resistivity has an extra length factor because $\\rho = RA/l$.",
+  "explanation": "**Current**: ampere ($1\\ \\text{A} = 1\\ \\text{C/s}$). **Potential difference**: volt ($1\\ \\text{V} = 1\\ \\text{J/C}$). **Resistance**: ohm ($1\\ \\Omega = 1\\ \\text{V/A}$). **Resistivity** $\\rho = RA/l$ has the unit ohm metre, $\\Omega\\,\\text{m}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Heating effect: bulb",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the part of an electric bulb that is made of **tungsten** and gets hot enough to glow.",
+  "image": {
+   "src": "/img/c10-electricity/bulb-anatomy.svg",
+   "alt": "An electric bulb with glass envelope, filament, support wires and metal cap"
+  },
+  "spots": [
+   {
+    "id": "fil",
+    "x": 50.0,
+    "y": 40.0,
+    "label": "Tungsten filament"
+   },
+   {
+    "id": "wire",
+    "x": 45.5,
+    "y": 53.3,
+    "label": "Support wire"
+   },
+   {
+    "id": "gas",
+    "x": 37.0,
+    "y": 32.5,
+    "label": "Glass bulb filled with inert gas"
+   },
+   {
+    "id": "cap",
+    "x": 50.0,
+    "y": 83.3,
+    "label": "Metal cap"
+   }
+  ],
+  "answer": "fil",
+  "hint": "It is the thin coiled wire that glows.",
+  "explanation": "The **filament** is made of **tungsten** (melting point $3380\\ ^\\circ\\text{C}$), a strong metal that does not melt at the very high temperature it reaches. It is held by insulating supports so that it keeps its heat and glows."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Heating effect: bulb",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Bulbs are filled with chemically inactive gases to make the filament last longer. Tap the part of the bulb that holds these **nitrogen and argon** gases.",
+  "image": {
+   "src": "/img/c10-electricity/bulb-anatomy.svg",
+   "alt": "An electric bulb with glass envelope, filament, support wires and metal cap"
+  },
+  "spots": [
+   {
+    "id": "fil",
+    "x": 50.0,
+    "y": 40.0,
+    "label": "Tungsten filament"
+   },
+   {
+    "id": "wire",
+    "x": 45.5,
+    "y": 53.3,
+    "label": "Support wire"
+   },
+   {
+    "id": "gas",
+    "x": 37.0,
+    "y": 32.5,
+    "label": "Glass bulb filled with nitrogen and argon"
+   },
+   {
+    "id": "cap",
+    "x": 50.0,
+    "y": 83.3,
+    "label": "Metal cap"
+   }
+  ],
+  "answer": "gas",
+  "hint": "The gas surrounds the filament inside the glass.",
+  "explanation": "The space inside the **glass bulb** is filled with chemically inactive **nitrogen and argon**. With no oxygen to react with, the hot tungsten filament does not burn away, so it lasts longer. Most of the power the filament uses appears as heat and only a small part is radiated as light."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Fuse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-electricity/fuse-iron.svg",
+   "alt": "An electric iron and a row of fuse cartridges"
+  },
+  "assertion": "A fuse is connected in series with the appliance that it protects.",
+  "reason": "The wire of a fuse has a low melting point, so it melts when too much current flows.",
+  "answer": "b",
+  "hint": "Ask why the placement in series matters, and whether the melting point explains that.",
+  "explanation": "Both are true, but R does **not** explain A. A fuse is placed in **series** so that the same current flows through the fuse and the appliance: if that current is too high the fuse wire melts first and breaks the circuit. The low melting point explains *why the wire melts*, not *why it is in series*."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Fuse",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **fuse** in this circuit.",
+  "image": {
+   "src": "/img/c10-electricity/fuse.svg",
+   "alt": "A circuit with a cell, key, fuse and heater"
+  },
+  "spots": [
+   {
+    "id": "cell",
+    "x": 15.0,
+    "y": 50.0,
+    "label": "Electric cell"
+   },
+   {
+    "id": "key",
+    "x": 30.0,
+    "y": 20.8,
+    "label": "Plug key"
+   },
+   {
+    "id": "fuse",
+    "x": 53.5,
+    "y": 20.8,
+    "label": "Fuse (in series)"
+   },
+   {
+    "id": "heater",
+    "x": 73.8,
+    "y": 79.2,
+    "label": "Heater coil"
+   }
+  ],
+  "answer": "fuse",
+  "hint": "It is a small cartridge with a thin wire inside.",
+  "explanation": "The **fuse** is the cartridge with a thin wire, connected **in series** with the heater. If the current goes above its rating, the fuse wire gets too hot, melts and breaks the circuit, which protects the heater and the wiring."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Fuse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "A fault makes the current in the circuit too large. Arrange what happens, in order.",
+  "image": {
+   "src": "/img/c10-electricity/fuse.svg",
+   "alt": "A circuit with a fuse in series with a heater"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "The temperature of the fuse wire reaches its melting point and it melts"
+   },
+   {
+    "id": "s1",
+    "text": "The current rises above the rated value of the fuse"
+   },
+   {
+    "id": "s4",
+    "text": "The circuit is broken and the current stops"
+   },
+   {
+    "id": "s2",
+    "text": "The fuse wire heats up (Joule heating)"
+   },
+   {
+    "id": "s5",
+    "text": "The appliance and wiring are protected from damage"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "It is the heating effect of the current, $H = I^{2}Rt$, at work.",
+  "explanation": "The current rises, so the heat $H = I^{2}Rt$ in the fuse wire rises sharply. The wire reaches its **melting point** and melts, which breaks the circuit and stops the current. The appliance is then safe. Domestic fuses are rated $1, 2, 3, 5, 10\\ \\text{A}$ and so on."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Joule's law of heating",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "An electric iron of resistance $20\\ \\Omega$ takes a current of $5\\ \\text{A}$. How much heat is developed in $30\\ \\text{s}$?",
+  "image": {
+   "src": "/img/c10-electricity/iron-joule.svg",
+   "alt": "An electric iron with heat waves rising from its sole plate"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$3000\\ \\text{J}$"
+   },
+   {
+    "id": "b",
+    "text": "$15000\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$500\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "$9\\times10^{5}\\ \\text{J}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Use $H = I^{2}Rt$ with $t$ in seconds.",
+  "explanation": "$H = I^{2}Rt = 5^{2}\\times20\\times30 = 15000\\ \\text{J}$. Using $I$ instead of $I^{2}$ gives $3000\\ \\text{J}$; stopping at $I^{2}R$ gives $500$ (that is the heat **per second**, i.e. the power in watts); and reading $30\\ \\text{s}$ as $30$ minutes gives $9\\times10^{5}\\ \\text{J}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Applications of heating effect",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each device with the property of the material it uses.",
+  "image": {
+   "src": "/img/c10-electricity/heating-uses.svg",
+   "alt": "A heating coil, a bulb filament, a fuse and a transmission cable"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Fuse wire"
+   },
+   {
+    "id": "l2",
+    "text": "Bulb filament"
+   },
+   {
+    "id": "l3",
+    "text": "Heating element of a toaster or iron"
+   },
+   {
+    "id": "l4",
+    "text": "Power transmission lines"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "A wire of suitable low melting point that melts when the current is too high"
+   },
+   {
+    "id": "r2",
+    "text": "Tungsten, a strong metal with a very high melting point"
+   },
+   {
+    "id": "r3",
+    "text": "An alloy with high resistivity that does not oxidise (burn) readily when hot"
+   },
+   {
+    "id": "r4",
+    "text": "Copper or aluminium, with very low resistivity"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Match the job to the property: melt, glow, heat or carry current easily.",
+  "explanation": "A **fuse** must melt and break the circuit. A **bulb filament** must reach a very high temperature without melting, so **tungsten** is used. Toaster and iron elements use an **alloy** with high resistivity that does not burn readily when hot. **Transmission lines** use **copper or aluminium** so that little energy is lost as heat."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Fuse rating",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "An electric iron consumes $1\\ \\text{kW}$ at $220\\ \\text{V}$. Which fuse from the picture should be used with it?",
+  "image": {
+   "src": "/img/c10-electricity/fuse-iron.svg",
+   "alt": "An electric iron rated 1 kilowatt at 220 volts and fuse cartridges of 1, 3, 5 and 10 amperes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1\\ \\text{A}$"
+   },
+   {
+    "id": "b",
+    "text": "$3\\ \\text{A}$"
+   },
+   {
+    "id": "c",
+    "text": "$10\\ \\text{A}$"
+   },
+   {
+    "id": "d",
+    "text": "$5\\ \\text{A}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Find the current from $P = VI$ and choose the nearest rating above it.",
+  "explanation": "$I = P/V = 1000/220 = 4.54\\ \\text{A}$. The fuse must be rated just **above** this: $5\\ \\text{A}$. A $1\\ \\text{A}$ or $3\\ \\text{A}$ fuse would melt during normal use, and a $10\\ \\text{A}$ fuse would allow almost double the safe current before it melts, so it would not protect the iron."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric power",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A bulb is rated $220\\ \\text{V}$, $100\\ \\text{W}$. What power does it consume when it is operated on a $110\\ \\text{V}$ supply (taking its resistance as constant)?",
+  "image": {
+   "src": "/img/c10-electricity/bulb-110v.svg",
+   "alt": "A bulb rated 220 V 100 W glowing dimmer on a 110 V supply"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$100\\ \\text{W}$"
+   },
+   {
+    "id": "b",
+    "text": "$50\\ \\text{W}$"
+   },
+   {
+    "id": "c",
+    "text": "$25\\ \\text{W}$"
+   },
+   {
+    "id": "d",
+    "text": "$75\\ \\text{W}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Find the resistance from the rating, then use $P = V^{2}/R$.",
+  "explanation": "$R = V^{2}/P = 220^{2}/100 = 484\\ \\Omega$. At $110\\ \\text{V}$: $P = 110^{2}/484 = 25\\ \\text{W}$. Power depends on $V^{2}$, so halving the voltage makes it **one-fourth**. $50\\ \\text{W}$ treats power as proportional to $V$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric power",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "multi",
+  "prompt": "Which of these expressions represent **electric power** in a circuit? Select all that apply.",
+  "image": {
+   "src": "/img/c10-electricity/power-circuit.svg",
+   "alt": "A lamp circuit with an ammeter and a voltmeter across the lamp"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$VI$"
+   },
+   {
+    "id": "b",
+    "text": "$IR^{2}$"
+   },
+   {
+    "id": "c",
+    "text": "$I^{2}R$"
+   },
+   {
+    "id": "d",
+    "text": "$\\dfrac{V^{2}}{R}$"
+   },
+   {
+    "id": "e",
+    "text": "$\\dfrac{V}{I}$"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "d"
+  ],
+  "hint": "Start with $P = VI$ and use $V = IR$.",
+  "explanation": "$P = VI$. Replacing $V$ by $IR$ gives $P = I^{2}R$, and replacing $I$ by $V/R$ gives $P = V^{2}/R$. $IR^{2}$ is not a power, and $V/I$ is the **resistance** $R$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electrical energy",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Which uses **more energy**: a $250\\ \\text{W}$ TV set in $1$ hour, or a $1200\\ \\text{W}$ toaster in $10$ minutes?",
+  "image": {
+   "src": "/img/c10-electricity/tv-toaster.svg",
+   "alt": "A 250 watt television and a 1200 watt toaster"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The TV: $250\\ \\text{W h}$ against $200\\ \\text{W h}$"
+   },
+   {
+    "id": "b",
+    "text": "The toaster, because $1200\\ \\text{W}$ is much larger than $250\\ \\text{W}$"
+   },
+   {
+    "id": "c",
+    "text": "The toaster: $12\\ \\text{kW h}$ against $0.25\\ \\text{kW h}$"
+   },
+   {
+    "id": "d",
+    "text": "Both use the same energy"
+   }
+  ],
+  "answer": "a",
+  "hint": "Energy = power $\\times$ time, and the times must be in the same unit.",
+  "explanation": "$E = Pt$. TV: $250\\ \\text{W}\\times1\\ \\text{h} = 250\\ \\text{W h}$. Toaster: $1200\\ \\text{W}\\times\\tfrac16\\ \\text{h} = 200\\ \\text{W h}$. The TV uses more. Comparing only the power ignores time, and multiplying $1200\\times10$ without converting minutes to hours gives the inflated $12\\ \\text{kW h}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Cost of electrical energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A refrigerator rated $400\\ \\text{W}$ runs $8$ hours a day. What is the cost of running it for $30$ days at Rs $3.00$ per kW h?",
+  "image": {
+   "src": "/img/c10-electricity/fridge-bill.svg",
+   "alt": "A 400 watt refrigerator and an energy meter charging Rs 3 per kilowatt hour"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Rs 288000"
+   },
+   {
+    "id": "b",
+    "text": "Rs 9.60"
+   },
+   {
+    "id": "c",
+    "text": "Rs 96"
+   },
+   {
+    "id": "d",
+    "text": "Rs 288"
+   }
+  ],
+  "answer": "d",
+  "hint": "Convert watt hours into kilowatt hours before multiplying by the price.",
+  "explanation": "Energy $= 400\\ \\text{W}\\times8\\ \\text{h/day}\\times30\\ \\text{days} = 96000\\ \\text{W h} = 96\\ \\text{kW h}$. Cost $= 96\\times3 = \\text{Rs } 288$. Forgetting to divide by $1000$ gives Rs 288000; finding only one day ($3.2\\ \\text{kW h}$) gives Rs 9.60; and Rs 96 forgets to multiply by the rate."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Cost of electrical energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps for finding the **cost** of running an appliance.",
+  "image": {
+   "src": "/img/c10-electricity/energy-meter.svg",
+   "alt": "A household energy meter with a kilowatt hour counter"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Divide by $1000$ to change watt hours into kilowatt hours (units)"
+   },
+   {
+    "id": "s1",
+    "text": "Note the power of the appliance in watts"
+   },
+   {
+    "id": "s4",
+    "text": "Multiply the units by the price per kW h to get the cost"
+   },
+   {
+    "id": "s2",
+    "text": "Multiply by the time of use in hours to get watt hours"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "The price is quoted per kW h, so energy must be in kW h.",
+  "explanation": "Electrical energy is **power $\\times$ time**. Using hours gives watt hours (W h); dividing by $1000$ gives **kilowatt hours**, the commercial unit also called a \"unit\". Only then do we multiply by the price per kW h."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Electric power and energy",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "An electric motor takes $5\\ \\text{A}$ from a $220\\ \\text{V}$ line. What are its power and the energy it consumes in $2$ hours?",
+  "image": {
+   "src": "/img/c10-electricity/motor.svg",
+   "alt": "An electric motor on a 220 volt line drawing 5 amperes"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1100\\ \\text{W}$ and $1.1\\ \\text{kW h}$"
+   },
+   {
+    "id": "b",
+    "text": "$1100\\ \\text{W}$ and $2.2\\ \\text{kW h}$"
+   },
+   {
+    "id": "c",
+    "text": "$44\\ \\text{W}$ and $0.088\\ \\text{kW h}$"
+   },
+   {
+    "id": "d",
+    "text": "$1100\\ \\text{W}$ and $2200\\ \\text{kW h}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Find $P = VI$ first, then multiply by the time in hours and divide by 1000.",
+  "explanation": "$P = VI = 220\\times5 = 1100\\ \\text{W} = 1.1\\ \\text{kW}$. Energy $= 1.1\\ \\text{kW}\\times2\\ \\text{h} = 2.2\\ \\text{kW h}$. Leaving out the factor of $2$ hours gives $1.1\\ \\text{kW h}$; dividing instead of multiplying ($V/I$) gives $44$; and forgetting that $1100\\ \\text{W}$ is $1.1\\ \\text{kW}$ gives $2200\\ \\text{kW h}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Commercial unit of energy",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are **equal to one kilowatt hour (1 kW h)**? Select all that apply.",
+  "image": {
+   "src": "/img/c10-electricity/energy-meter.svg",
+   "alt": "A household energy meter with a kilowatt hour counter"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$1000$ watt hours"
+   },
+   {
+    "id": "b",
+    "text": "$3.6\\times10^{6}\\ \\text{J}$"
+   },
+   {
+    "id": "c",
+    "text": "$1000\\ \\text{J}$"
+   },
+   {
+    "id": "d",
+    "text": "The energy used by a $1\\ \\text{kW}$ appliance in $1$ hour"
+   },
+   {
+    "id": "e",
+    "text": "$3600\\ \\text{J}$"
+   },
+   {
+    "id": "f",
+    "text": "$1000\\ \\text{W}$ for $1000$ seconds"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "$1\\ \\text{kW h} = 1000\\ \\text{W}\\times3600\\ \\text{s}$.",
+  "explanation": "$1\\ \\text{kW h} = 1000\\ \\text{W}\\times1\\ \\text{h} = 1000\\ \\text{W h}$. In joules, $1000\\times3600 = 3.6\\times10^{6}\\ \\text{J}$. It is also the energy used by a $1\\ \\text{kW}$ appliance in one hour. $1000\\ \\text{W}$ for $1000\\ \\text{s}$ is only $10^{6}\\ \\text{J}$."
+ },
+ {
+  "id": "in-cbse-10-phy-electricity-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Electricity",
+  "chapterNo": 3,
+  "topic": "Power in resistors",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Compare the power used in the highlighted $2\\ \\Omega$ resistor in (i) a $6\\ \\text{V}$ battery in series with $1\\ \\Omega$ and $2\\ \\Omega$ resistors, and (ii) a $4\\ \\text{V}$ battery in parallel with $12\\ \\Omega$ and $2\\ \\Omega$ resistors.",
+  "image": {
+   "src": "/img/c10-electricity/two-circuits-2ohm.svg",
+   "alt": "Two circuits each containing a 2 ohm resistor"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$8\\ \\text{W}$ in both circuits"
+   },
+   {
+    "id": "b",
+    "text": "(i) $4\\ \\text{W}$, (ii) $8\\ \\text{W}$"
+   },
+   {
+    "id": "c",
+    "text": "(i) $8\\ \\text{W}$, (ii) $32\\ \\text{W}$"
+   },
+   {
+    "id": "d",
+    "text": "(i) $18\\ \\text{W}$, (ii) $8\\ \\text{W}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "In (i) find the current first. In (ii) the whole battery voltage is across the 2 ohm resistor.",
+  "explanation": "(i) Series: $R = 3\\ \\Omega$, $I = 6/3 = 2\\ \\text{A}$, so $P = I^{2}R = 4\\times2 = 8\\ \\text{W}$. (ii) Parallel: the $2\\ \\Omega$ resistor has the full $4\\ \\text{V}$, so $P = V^{2}/R = 16/2 = 8\\ \\text{W}$. Equal power in both. Typical slips: $P = IR$ gives $4\\ \\text{W}$; $V^{2}R$ gives $32\\ \\text{W}$; and using $6\\ \\text{V}$ across $2\\ \\Omega$ ignores the $1\\ \\Omega$ and gives $18\\ \\text{W}$."
+ }
+]

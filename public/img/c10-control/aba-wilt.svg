@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A healthy plant beside a plant whose leaves droop and wilt under abscisic acid, a growth inhibitor</title>
+<style>
+text{font-family:sans-serif}
+.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes dp{0%,25%{transform:rotate(0)}60%,90%{transform:rotate(-1deg)}100%{transform:rotate(0)}}
+@keyframes wl{0%,25%{transform:rotate(0deg)}60%,90%{transform:rotate(45deg)}100%{transform:rotate(0)}}
+@keyframes wr{0%,25%{transform:rotate(0deg)}60%,90%{transform:rotate(-45deg)}100%{transform:rotate(0)}}
+.wl{animation:wl 4s ease-in-out infinite;transform-box:view-box;transform-origin:300px 140px}
+.wr{animation:wr 4s ease-in-out infinite;transform-box:view-box;transform-origin:300px 140px}
+@keyframes ab{0%{transform:translate(0,0);opacity:0}30%{opacity:1}100%{transform:translate(0,50px);opacity:0}}
+.a1{animation:ab 2s linear infinite}.a2{animation:ab 2s linear .7s infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="110" y="206" width="70" height="26" rx="5" fill="#C97B4A" stroke="#2B2F4A" stroke-width="3" /><rect x="270" y="206" width="70" height="26" rx="5" fill="#C97B4A" stroke="#2B2F4A" stroke-width="3" /><path d="M145 206L145 120" stroke="#5BAF55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M145 150Q110 120 96 100" stroke="#5BAF55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M145 130Q180 100 196 84" stroke="#5BAF55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="92" cy="98" rx="20" ry="8" fill="#7CCB6B" stroke="#2B2F4A" stroke-width="2" transform="rotate(-40 92 98)"/><ellipse cx="200" cy="82" rx="20" ry="8" fill="#7CCB6B" stroke="#2B2F4A" stroke-width="2" transform="rotate(-40 200 82)"/><ellipse cx="145" cy="112" rx="8" ry="18" fill="#7CCB6B" stroke="#2B2F4A" stroke-width="2" /><text x="145" y="24" font-family="sans-serif" font-size="12" fill="#3FA34D" text-anchor="middle" font-weight="bold">Healthy</text><path d="M305 206L305 140" stroke="#5BAF55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" /><g class="wl"><path d="M300 140Q265 125 250 108" stroke="#5BAF55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="246" cy="104" rx="22" ry="8" fill="#B9C96B" stroke="#2B2F4A" stroke-width="2" transform="rotate(-40 246 104)"/></g><g class="wr"><path d="M308 140Q343 125 358 108" stroke="#5BAF55" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="362" cy="104" rx="22" ry="8" fill="#B9C96B" stroke="#2B2F4A" stroke-width="2" transform="rotate(40 362 104)"/></g><circle cx="250" cy="40" r="6" fill="#E5484D" stroke="#fff" stroke-width="1.5" class="a1"/><circle cx="360" cy="40" r="6" fill="#E5484D" stroke="#fff" stroke-width="1.5" class="a2"/><text x="305" y="24" font-family="sans-serif" font-size="12" fill="#E5484D" text-anchor="middle" font-weight="bold">Abscisic acid: leaves wilt</text>
+</svg>

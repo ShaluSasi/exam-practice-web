@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Gas from a test tube of sodium carbonate and ethanoic acid bubbling into lime water</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M74.5 144H125.5V173.0A25.5 25.5 0 0 1 74.5 173.0Z" fill="#EAF6FF"/><path d="M73.0 80V173.0A27.0 27.0 0 0 0 127.0 173.0V80" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><rect x="76" y="68" width="48" height="16" rx="5" fill="#C58B5A" stroke="#2B2F4A" stroke-width="3"/><path d="M100 76V36H300V148" fill="none" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="92" y="184" width="16" height="9" rx="3" fill="#fff" stroke="#8A90C0" stroke-width="1.5"/><circle class="rise" cx="88" cy="170" r="4" fill="#FFFFFF" stroke="#0B93D4" stroke-width="1.6"/><circle class="rise2" cx="100" cy="164" r="4" fill="#FFFFFF" stroke="#0B93D4" stroke-width="1.6"/><circle class="rise3" cx="112" cy="170" r="4" fill="#FFFFFF" stroke="#0B93D4" stroke-width="1.6"/><circle class="rise" cx="96" cy="164" r="4" fill="#FFFFFF" stroke="#0B93D4" stroke-width="1.6"/><path d="M271.5 144H328.5V176.0A28.5 28.5 0 0 1 271.5 176.0Z" fill="#F2F4FA"/><path d="M270.0 100V176.0A30.0 30.0 0 0 0 330.0 176.0V100" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><circle class="rise" cx="300" cy="170" r="4" fill="#fff" stroke="#0B93D4" stroke-width="1.6"/><circle class="rise2" cx="294" cy="176" r="3.5" fill="#fff" stroke="#0B93D4" stroke-width="1.6"/><path d="M270 190Q300 200 330 190" stroke="#fff" stroke-width="5" opacity=".7" fill="none" class="pl"/>
+</svg>

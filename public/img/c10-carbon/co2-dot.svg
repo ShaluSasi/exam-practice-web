@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Electron dot structure of carbon dioxide</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="90.0" y="129.1" font-family="sans-serif" font-size="26" font-weight="800" fill="#E5484D" text-anchor="middle" >O</text><circle cx="85.5" cy="92.0" r="3" fill="#2B2F4A"/><circle cx="94.5" cy="92.0" r="3" fill="#2B2F4A"/><circle cx="85.5" cy="148.0" r="3" fill="#2B2F4A"/><circle cx="94.5" cy="148.0" r="3" fill="#2B2F4A"/><text x="200.0" y="129.1" font-family="sans-serif" font-size="26" font-weight="800" fill="#2B2F4A" text-anchor="middle" >C</text><text x="310.0" y="129.1" font-family="sans-serif" font-size="26" font-weight="800" fill="#E5484D" text-anchor="middle" >O</text><path d="M302.5 89.0L308.5 95.0M302.5 95.0L308.5 89.0" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><path d="M311.5 89.0L317.5 95.0M311.5 95.0L317.5 89.0" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><path d="M302.5 145.0L308.5 151.0M302.5 151.0L308.5 145.0" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><path d="M311.5 145.0L317.5 151.0M311.5 151.0L317.5 145.0" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><ellipse class="pl" cx="145.0" cy="120.0" rx="13" ry="17.5" fill="#FFD7A8"/><circle cx="140.0" cy="114.5" r="3" fill="#2B2F4A"/><path d="M147.0 111.5L153.0 117.5M147.0 117.5L153.0 111.5" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><circle cx="140.0" cy="125.5" r="3" fill="#2B2F4A"/><path d="M147.0 122.5L153.0 128.5M147.0 128.5L153.0 122.5" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><ellipse class="pl" cx="255.0" cy="120.0" rx="13" ry="17.5" fill="#FFD7A8"/><circle cx="250.0" cy="114.5" r="3" fill="#2B2F4A"/><path d="M257.0 111.5L263.0 117.5M257.0 117.5L263.0 111.5" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><circle cx="250.0" cy="125.5" r="3" fill="#2B2F4A"/><path d="M257.0 122.5L263.0 128.5M257.0 128.5L263.0 122.5" stroke="#FF8A1F" stroke-width="2.2" stroke-linecap="round"/><text x="200.0" y="218.0" font-family="sans-serif" font-size="11" font-weight="600" fill="#5A5F80" text-anchor="middle" >dots = electrons of one atom, crosses = electrons of the other</text>
+</svg>

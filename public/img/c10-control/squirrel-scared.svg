@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A frightened squirrel facing a growling dog must either run away or fight, so its body prepares for both</title>
+<style>
+text{font-family:sans-serif}
+.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes sk{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+.sk{animation:sk .3s linear infinite}
+@keyframes hb{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+.hb{animation:hb .5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<g class="sk"><path d="M120 170Q60 160 70 100Q80 70 100 90" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#C98B52" /><ellipse cx="130" cy="160" rx="36" ry="28" fill="#C98B52" stroke="#2B2F4A" stroke-width="3" /><circle cx="158" cy="134" r="20" fill="#C98B52" stroke="#2B2F4A" stroke-width="3" /><path d="M150 118L148 100L162 112" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="#C98B52" /><circle cx="164" cy="130" r="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" /><circle cx="166" cy="130" r="2.5" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="1" /></g><text x="160" y="100" font-family="sans-serif" font-size="26" fill="#E5484D" text-anchor="middle" font-weight="bold">!</text><ellipse cx="320" cy="150" rx="48" ry="40" fill="#9AA0C8" stroke="#2B2F4A" stroke-width="3" /><path d="M290 120L284 94L304 112" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#9AA0C8" /><path d="M350 120L358 96L336 112" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#9AA0C8" /><circle cx="304" cy="142" r="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" /><circle cx="336" cy="142" r="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" /><path d="M300 166L340 166L332 178L320 168L308 178Z" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#fff" /><path d="M130 196L60 222" stroke="#3FA34D" stroke-width="3" stroke-linecap="round" fill="none" /><path d="M65.9 215.2L60 222L68.9 223.3" stroke="#3FA34D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/><text x="62" y="236" font-family="sans-serif" font-size="12" fill="#3FA34D" text-anchor="middle" font-weight="bold">Run away</text><path d="M150 196L200 222" stroke="#E5484D" stroke-width="3" stroke-linecap="round" fill="none" /><path d="M191.0 222.2L200 222L195.0 214.5" stroke="#E5484D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/><text x="210" y="236" font-family="sans-serif" font-size="12" fill="#E5484D" text-anchor="middle" font-weight="bold">or fight</text><path class="hb" d="M120 168c-8-8-14-14-6-20 4-3 8 0 6 4 2-4 6-7 10-4 8 6 -2 12-10 20z" fill="#E5484D"/>
+</svg>

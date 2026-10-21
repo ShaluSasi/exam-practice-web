@@ -1,0 +1,2231 @@
+[
+ {
+  "id": "in-cbse-10-chem-acids-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acid-base indicators",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "You have three test tubes holding distilled water, an acidic solution and a basic solution, in some unknown order. You only have **red litmus paper**. It turns blue in tube 2 only. How can you tell which of tubes 1 and 3 holds the acid?",
+  "image": {
+   "src": "/img/c10-acids/litmus-tubes.svg",
+   "alt": "Red litmus paper dipped in three test tubes; in tube 2 it turns blue"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Dip a fresh red litmus paper again in tubes 1 and 3: the one where it becomes a deeper red is the acid"
+   },
+   {
+    "id": "b",
+    "text": "Taste a drop from tubes 1 and 3: the sour one is the acid"
+   },
+   {
+    "id": "c",
+    "text": "Dip the blue litmus paper obtained from tube 2 into tubes 1 and 3: it turns red in the acidic solution and stays blue in water"
+   },
+   {
+    "id": "d",
+    "text": "Add a drop of tube 2 to tubes 1 and 3: the one that turns blue is the acid"
+   }
+  ],
+  "answer": "c",
+  "hint": "Red litmus only changes in a base. So how can you get a blue paper to test the other two?",
+  "explanation": "Tube 2 is the **base** because it turns red litmus **blue**. The red litmus now has a blue paper that can test the others: **acids turn blue litmus red**, while water leaves it unchanged. Red litmus alone cannot show an acid, since it stays red in acid and in water. Tasting chemicals is never safe, and adding the base to the others with no indicator shows nothing."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acid-base indicators",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each indicator with the colour change you see in the stated solution.",
+  "image": {
+   "src": "/img/c10-acids/bottles.svg",
+   "alt": "Four dropper bottles of indicators: litmus, phenolphthalein, methyl orange and turmeric"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Blue litmus solution in an acid"
+   },
+   {
+    "id": "l2",
+    "text": "Phenolphthalein in a base"
+   },
+   {
+    "id": "l3",
+    "text": "Methyl orange in a base"
+   },
+   {
+    "id": "l4",
+    "text": "Turmeric stain when scrubbed with soap (basic)"
+   }
+  ],
+  "right": [
+   {
+    "id": "r3",
+    "text": "Turns yellow"
+   },
+   {
+    "id": "r1",
+    "text": "Turns red"
+   },
+   {
+    "id": "r4",
+    "text": "Turns reddish-brown"
+   },
+   {
+    "id": "r2",
+    "text": "Turns pink"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Phenolphthalein is colourless in acid and pink in base.",
+  "explanation": "**Acids** turn blue litmus **red**. **Phenolphthalein** is pink in a base. **Methyl orange** is yellow in a base (and red in an acid). **Turmeric**, a natural indicator, turns reddish-brown with soap, which is basic, and becomes yellow again when washed with plenty of water."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Olfactory indicators",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A cloth strip kept overnight with chopped onions in a sealed bag smells strongly of onion. A few drops of dilute **NaOH** are put on it. What will you notice, and what does it show?",
+  "image": {
+   "src": "/img/c10-acids/olfactory.svg",
+   "alt": "Onion-scented cloth strips: smell stays with acid and is lost with base"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The smell stays unchanged, so onion cannot be used as an indicator"
+   },
+   {
+    "id": "b",
+    "text": "The cloth turns pink, so onion is a colour indicator like phenolphthalein"
+   },
+   {
+    "id": "c",
+    "text": "The smell becomes stronger in a base and vanishes in an acid"
+   },
+   {
+    "id": "d",
+    "text": "The onion smell is lost, so onion acts as an olfactory indicator (its odour changes in a basic medium)"
+   }
+  ],
+  "answer": "d",
+  "hint": "Olfactory means related to smell.",
+  "explanation": "Substances whose **odour changes in acidic or basic media** are called **olfactory indicators**. The onion smell is **lost** with dilute NaOH but stays with dilute HCl. It is the smell, not the colour, that changes, and the change is not 'stronger smell in base'."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acids and metals",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In Activity 2.3 the hydrogen gas from zinc and dilute sulphuric acid is passed through a liquid so that gas-filled bubbles form. Tap the **soap solution**.",
+  "image": {
+   "src": "/img/c10-acids/zinc-acid.svg",
+   "alt": "Zinc granules in dilute sulphuric acid; hydrogen passes into soap solution and a burning candle is brought near the bubble"
+  },
+  "spots": [
+   {
+    "id": "tube",
+    "x": 16.2,
+    "y": 68.2,
+    "label": "Dilute sulphuric acid with zinc granules"
+   },
+   {
+    "id": "pipe",
+    "x": 42.5,
+    "y": 24.0,
+    "label": "Delivery tube"
+   },
+   {
+    "id": "soap",
+    "x": 67.5,
+    "y": 80.6,
+    "label": "Soap solution (hydrogen bubbles form)"
+   },
+   {
+    "id": "candle",
+    "x": 90.5,
+    "y": 57.9,
+    "label": "Burning candle"
+   }
+  ],
+  "answer": "soap",
+  "hint": "The delivery tube ends in the beaker on the right.",
+  "explanation": "The gas is bubbled through **soap solution** in the beaker, which traps it in soap bubbles that can be tested. The reacting zinc and acid are in the test tube on the left, and the burning candle is used for the test afterwards."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acids and metals",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A soap bubble filled with the gas from zinc and dilute $\\ce{H2SO4}$ is brought near a burning candle. The gas burns with a **pop** sound. Which gas is it, and which equation is correct?",
+  "image": {
+   "src": "/img/c10-acids/zinc-acid.svg",
+   "alt": "Zinc granules in dilute sulphuric acid; hydrogen passes into soap solution and a burning candle is brought near the bubble"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Hydrogen: $\\ce{Zn + H2SO4 -> ZnSO4 + H2}$"
+   },
+   {
+    "id": "b",
+    "text": "Carbon dioxide: it puts the flame out, so the bubble would not burn"
+   },
+   {
+    "id": "c",
+    "text": "Oxygen: it makes the candle burn more brightly, with no pop"
+   },
+   {
+    "id": "d",
+    "text": "Hydrogen: $\\ce{Zn + H2SO4 -> ZnSO4 + H2O}$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Which common gas burns with a squeaky pop?",
+  "explanation": "Metals displace hydrogen from acids: **acid + metal -> salt + hydrogen gas**. Hydrogen burns with a **pop** sound. $\\ce{CO2}$ extinguishes flames and $\\ce{O2}$ only makes them brighter. The last option wrongly gives water instead of hydrogen gas."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acids and metals",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Aluminium powder reacts with dilute sulphuric acid to give aluminium sulphate and hydrogen gas. Which balanced equation is correct?",
+  "image": {
+   "src": "/img/c10-acids/zinc-acid.svg",
+   "alt": "Zinc granules in dilute sulphuric acid; hydrogen passes into soap solution and a burning candle is brought near the bubble"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{Al + H2SO4 -> AlSO4 + H2}$"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{2Al + 3H2SO4 -> Al2(SO4)3 + 3H2}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{2Al + 3H2SO4 -> Al2(SO4)3 + H2}$"
+   },
+   {
+    "id": "d",
+    "text": "$\\ce{2Al + H2SO4 -> Al2SO4 + H2}$"
+   }
+  ],
+  "answer": "b",
+  "hint": "Aluminium forms $\\ce{Al^{3+}}$ and sulphate is $\\ce{SO4^{2-}}$. Count each atom on both sides.",
+  "explanation": "With $\\ce{Al^3+}$ and $\\ce{SO4^2-}$ the salt is $\\ce{Al2(SO4)3}$ (2 Al, 3 sulphate), so 3 $\\ce{H2SO4}$ are needed, giving 3 $\\ce{H2}$. Common traps: writing $\\ce{AlSO4}$ or $\\ce{Al2SO4}$ (charges ignored) and leaving hydrogen unbalanced with a single $\\ce{H2}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Soda-acid fire extinguisher",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps for making the soda-acid fire extinguisher of the group activity in order.",
+  "image": {
+   "src": "/img/c10-acids/fire-ext.svg",
+   "alt": "A wash-bottle soda-acid fire extinguisher: acid in an ignition tube mixes with sodium hydrogencarbonate and CO2 is directed on a candle flame"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "Tilt the wash-bottle so the acid mixes with the solution"
+   },
+   {
+    "id": "s1",
+    "text": "Take 20 mL of sodium hydrogencarbonate solution in a wash-bottle"
+   },
+   {
+    "id": "s5",
+    "text": "Direct the discharge from the nozzle on a burning candle"
+   },
+   {
+    "id": "s3",
+    "text": "Close the mouth of the wash-bottle"
+   },
+   {
+    "id": "s2",
+    "text": "Suspend an ignition tube containing dilute sulphuric acid in the wash-bottle"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Set up the chemicals, seal the bottle, and only then mix them.",
+  "explanation": "The bottle is filled with $\\ce{NaHCO3}$ solution, the **ignition tube of dilute $\\ce{H2SO4}$** is hung inside and the bottle is closed. Tilting it mixes the acid with the hydrogencarbonate, releasing $\\ce{CO2}$, which comes out of the nozzle and puts out the candle flame."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acids and metals",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Zinc granules are warmed with sodium hydroxide solution. Select **all** correct statements.",
+  "image": {
+   "src": "/img/c10-acids/zn-naoh.svg",
+   "alt": "Zinc granules warmed with sodium hydroxide solution give hydrogen gas"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Hydrogen gas is evolved"
+   },
+   {
+    "id": "b",
+    "text": "The salt formed is sodium zincate, $\\ce{Na2ZnO2}$"
+   },
+   {
+    "id": "c",
+    "text": "Every metal reacts with sodium hydroxide in the same way"
+   },
+   {
+    "id": "d",
+    "text": "The mixture is warmed to carry out the reaction"
+   },
+   {
+    "id": "e",
+    "text": "The products are zinc hydroxide and oxygen gas"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "A base reacting with a metal also gives hydrogen, but not all metals do this.",
+  "explanation": "$\\ce{2NaOH(aq) + Zn(s) -> Na2ZnO2(s) + H2(g)}$. Hydrogen is formed and the salt, **sodium zincate**, has a negative ion made of the metal and oxygen. The contents are warmed. Such reactions are **not possible with all metals**, and no oxygen or zinc hydroxide is formed."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Acids and metals",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Why should curd and other sour substances **not** be kept in brass or copper vessels?",
+  "image": {
+   "src": "/img/c10-acids/curd-vessel.svg",
+   "alt": "Sour curd kept in a brass vessel forms greenish metal salts"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Metals absorb the sour taste and make the curd sweet"
+   },
+   {
+    "id": "b",
+    "text": "The acids in them react with the metal to form harmful metal salts"
+   },
+   {
+    "id": "c",
+    "text": "Sour substances turn basic in a metal vessel"
+   },
+   {
+    "id": "d",
+    "text": "The metal only gets scratched and nothing else changes"
+   }
+  ],
+  "answer": "b",
+  "hint": "Think about acid + metal.",
+  "explanation": "Curd and sour substances contain **acids** (such as lactic or citric acid). Acids react with metals such as copper and the metals in brass to form **salts**, which can be **harmful** and spoil the food. This is why such food is not kept in these vessels."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal carbonates and acids",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Sodium carbonate and dilute HCl give a gas that is passed through a clear solution that turns milky. Tap the **lime water**.",
+  "image": {
+   "src": "/img/c10-acids/carbonate-limewater.svg",
+   "alt": "Gas from sodium carbonate and dilute HCl is passed through lime water, which turns milky"
+  },
+  "spots": [
+   {
+    "id": "tube",
+    "x": 16.2,
+    "y": 70.8,
+    "label": "Sodium carbonate + dilute HCl (CO2 effervescence)"
+   },
+   {
+    "id": "stopper",
+    "x": 16.2,
+    "y": 39.2,
+    "label": "Cork (stopper)"
+   },
+   {
+    "id": "pipe",
+    "x": 42.5,
+    "y": 25.8,
+    "label": "Delivery tube"
+   },
+   {
+    "id": "lime",
+    "x": 67.5,
+    "y": 80.0,
+    "label": "Lime water (turns milky)"
+   }
+  ],
+  "answer": "lime",
+  "hint": "It is the vessel on the right where the delivery tube ends.",
+  "explanation": "The $\\ce{CO2}$ from the reaction is passed into **lime water** (calcium hydroxide solution), which turns milky because **calcium carbonate** forms: $\\ce{Ca(OH)2 + CO2 -> CaCO3 + H2O}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal carbonates and acids",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "$\\ce{CO2}$ from sodium carbonate and dilute HCl is passed for a short time through fresh lime water. Which test tube shows what you will see?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Clear and colourless",
+    "image": {
+     "src": "/img/c10-acids/lw-clear.svg",
+     "alt": "Test tube of lime water: Clear, colourless"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Milky white",
+    "image": {
+     "src": "/img/c10-acids/lw-milky.svg",
+     "alt": "Test tube of lime water: Milky white"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Blue",
+    "image": {
+     "src": "/img/c10-acids/lw-blue.svg",
+     "alt": "Test tube of lime water: Blue"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Pink",
+    "image": {
+     "src": "/img/c10-acids/lw-pink.svg",
+     "alt": "Test tube of lime water: Pink"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "A white solid appears in the water.",
+  "explanation": "$\\ce{Ca(OH)2(aq) + CO2(g) -> CaCO3(s) + H2O(l)}$. The insoluble white **calcium carbonate** makes the lime water **milky**. No coloured ions are formed, so it does not turn blue or pink, and a clear tube would mean no reaction."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal carbonates and acids",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange in order what happens in Activity 2.5 when $\\ce{Na2CO3}$ reacts with dilute HCl and the gas is passed into lime water.",
+  "image": {
+   "src": "/img/c10-acids/carbonate-limewater.svg",
+   "alt": "Gas from sodium carbonate and dilute HCl is passed through lime water, which turns milky"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "The gas is passed through lime water, which turns milky"
+   },
+   {
+    "id": "s5",
+    "text": "The milkiness disappears as soluble calcium hydrogencarbonate forms"
+   },
+   {
+    "id": "s1",
+    "text": "Dilute HCl is added to sodium carbonate in a test tube"
+   },
+   {
+    "id": "s4",
+    "text": "Excess carbon dioxide is passed through the milky liquid"
+   },
+   {
+    "id": "s2",
+    "text": "Brisk effervescence of carbon dioxide is seen"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "The milkiness comes before it disappears.",
+  "explanation": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$. The gas first forms white $\\ce{CaCO3}$ in lime water (milky). With **excess** $\\ce{CO2}$: $\\ce{CaCO3 + H2O + CO2 -> Ca(HCO3)2}$, which is **soluble**, so the solution turns clear again."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal carbonates and acids",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Metal compound **A** reacts with dilute hydrochloric acid and produces effervescence. The gas **extinguishes a burning candle**, and one product is calcium chloride. Which is compound A and its balanced reaction?",
+  "image": {
+   "src": "/img/c10-acids/reaction-types.svg",
+   "alt": "Four test tubes showing acid reacting with a metal, a carbonate, a metal oxide and a base"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Calcium metal: $\\ce{Ca + 2HCl -> CaCl2 + H2}$"
+   },
+   {
+    "id": "b",
+    "text": "Calcium oxide: $\\ce{CaO + 2HCl -> CaCl2 + H2O}$"
+   },
+   {
+    "id": "c",
+    "text": "Calcium carbonate: $\\ce{CaCO3 + 2HCl -> CaCl2 + H2O + CO2}$"
+   },
+   {
+    "id": "d",
+    "text": "Calcium carbonate: $\\ce{CaCO3 + HCl -> CaCl2 + H2O + CO2}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "A gas that puts out a candle is carbon dioxide.",
+  "explanation": "A gas that **extinguishes** a flame is $\\ce{CO2}$, so A is a carbonate: **metal carbonate + acid -> salt + CO2 + water**. Calcium metal would give hydrogen, which burns. $\\ce{CaO}$ gives no gas. The last option is correct chemistry but not balanced (it needs $2$HCl)."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal carbonates and acids",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-acids/limewater-excess.svg",
+   "alt": "Lime water turns milky with a little CO2 and clear again with excess CO2"
+  },
+  "assertion": "When carbon dioxide is passed in excess through lime water, the milky appearance first formed disappears.",
+  "reason": "Calcium carbonate reacts with water and more carbon dioxide to form soluble calcium hydrogencarbonate.",
+  "answer": "a",
+  "hint": "Think about what happens to the white $\\ce{CaCO3}$.",
+  "explanation": "Both are true and R explains A: $\\ce{CaCO3(s) + H2O(l) + CO2(g) -> Ca(HCO3)2(aq)}$. The white solid is converted into a **water-soluble** compound, so the liquid becomes clear again."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Reactions of acids",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each reaction of a dilute acid with the products it gives.",
+  "image": {
+   "src": "/img/c10-acids/reaction-types.svg",
+   "alt": "Four test tubes showing acid reacting with a metal, a carbonate, a metal oxide and a base"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Acid + zinc granules"
+   },
+   {
+    "id": "l2",
+    "text": "Acid + sodium carbonate"
+   },
+   {
+    "id": "l3",
+    "text": "Acid + copper oxide"
+   },
+   {
+    "id": "l4",
+    "text": "Acid + sodium hydroxide"
+   }
+  ],
+  "right": [
+   {
+    "id": "r4",
+    "text": "A salt and water: neutralisation"
+   },
+   {
+    "id": "r2",
+    "text": "A salt, carbon dioxide and water"
+   },
+   {
+    "id": "r1",
+    "text": "A salt and hydrogen gas"
+   },
+   {
+    "id": "r3",
+    "text": "A salt and water: the oxide is basic"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Only one reaction gives a gas that burns, and only one gives a gas that turns lime water milky.",
+  "explanation": "**Metal + acid -> salt + hydrogen.** **Metal carbonate + acid -> salt + $\\ce{CO2}$ + water.** **Metal oxide + acid -> salt + water**, so metal oxides are called **basic oxides**. **Base + acid -> salt + water** is neutralisation."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Neutralisation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Phenolphthalein turns pink in NaOH solution. When dilute HCl is added drop by drop, the pink colour disappears. A few more drops of NaOH bring the pink colour back. What does this show?",
+  "image": {
+   "src": "/img/c10-acids/neutralisation.svg",
+   "alt": "Pink NaOH and phenolphthalein turns colourless as dilute HCl is added drop by drop"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "HCl bleaches phenolphthalein permanently, so the colour should not return"
+   },
+   {
+    "id": "b",
+    "text": "Phenolphthalein turns pink in acids and colourless in bases"
+   },
+   {
+    "id": "c",
+    "text": "The acid neutralises the base, so the pink disappears; extra base makes the mixture basic again"
+   },
+   {
+    "id": "d",
+    "text": "NaOH and HCl do not react; the volume only changes the colour"
+   }
+  ],
+  "answer": "c",
+  "hint": "Which of the two, acid or base, is in excess at each stage?",
+  "explanation": "$\\ce{NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l)}$. The effect of the base is **nullified** by the acid (neutralisation), so the indicator loses its pink colour. More NaOH makes the solution basic again and the pink returns. Phenolphthalein is pink only in bases."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Neutralisation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "10 mL of NaOH solution is completely neutralised by 8 mL of a given HCl solution. How much of the **same HCl solution** will neutralise **20 mL** of the same NaOH solution?",
+  "image": {
+   "src": "/img/c10-acids/titration.svg",
+   "alt": "Burette of dilute HCl above a flask of NaOH with phenolphthalein"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "4 mL"
+   },
+   {
+    "id": "b",
+    "text": "8 mL"
+   },
+   {
+    "id": "c",
+    "text": "12 mL"
+   },
+   {
+    "id": "d",
+    "text": "16 mL"
+   }
+  ],
+  "answer": "d",
+  "hint": "If the amount of base doubles, what happens to the acid needed?",
+  "explanation": "The volumes are in direct proportion: 10 mL NaOH needs 8 mL HCl, so 20 mL needs $8\\times 2 = 16$ mL. Traps: 8 mL (forgetting to scale up), 4 mL (halving instead of doubling) and 12 mL (adding the 4 mL difference instead of scaling)."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Neutralisation",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-acids/neutral-ions.svg",
+   "alt": "Hydrogen ion and hydroxide ion combining to form a water molecule"
+  },
+  "assertion": "The reaction of an acid with a base produces a salt and water.",
+  "reason": "Hydrogen ions from the acid combine with hydroxide ions from the base to form water.",
+  "answer": "a",
+  "hint": "Write the ionic equation for the water formation.",
+  "explanation": "Both are true and R explains A. In $\\ce{HX + MOH -> MX + H2O}$, the net change is $\\ce{H+(aq) + OH-(aq) -> H2O(l)}$, which is why acids and bases cancel each other's effects."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal oxides and non-metal oxides",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Black copper oxide dissolves in dilute HCl and the solution turns blue-green. What causes the colour, and what kind of oxide is CuO?",
+  "image": {
+   "src": "/img/c10-acids/cuo-hcl.svg",
+   "alt": "Black copper oxide dissolving in hydrochloric acid to give a blue-green solution"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Copper(II) chloride forms; CuO is an acidic oxide"
+   },
+   {
+    "id": "b",
+    "text": "Hydrogen gas dissolves; CuO is a neutral oxide"
+   },
+   {
+    "id": "c",
+    "text": "Copper hydroxide forms; CuO is a non-metallic oxide"
+   },
+   {
+    "id": "d",
+    "text": "Copper(II) chloride forms; CuO is a basic oxide"
+   }
+  ],
+  "answer": "d",
+  "hint": "Metal oxide + acid behaves like base + acid.",
+  "explanation": "$\\ce{CuO + 2HCl -> CuCl2 + H2O}$. The blue-green colour is due to **copper(II) chloride**. Because metal oxides react with acids to give **salt and water**, like bases do, they are **basic oxides**."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Metal oxides and non-metal oxides",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-acids/carbonate-limewater.svg",
+   "alt": "Gas from sodium carbonate and dilute HCl is passed through lime water, which turns milky"
+  },
+  "assertion": "Non-metallic oxides are acidic in nature.",
+  "reason": "Carbon dioxide reacts with calcium hydroxide, a base, to produce a salt and water, like an acid does.",
+  "answer": "a",
+  "hint": "Compare it with base + acid.",
+  "explanation": "Both are true and R explains A. $\\ce{Ca(OH)2 + CO2 -> CaCO3 + H2O}$ is similar to the reaction of a base with an acid, so $\\ce{CO2}$ behaves as an acid-forming (**acidic**) oxide."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Ions in acids and bases",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Two nails are dipped in dilute HCl and connected to a battery through a bulb. Tap one of the **nails** that carry current into the solution.",
+  "image": {
+   "src": "/img/c10-acids/conductivity.svg",
+   "alt": "Circuit with battery, switch, bulb and two nails dipped in dilute hydrochloric acid; the bulb glows"
+  },
+  "spots": [
+   {
+    "id": "battery",
+    "x": 15.0,
+    "y": 55.8,
+    "label": "6 V battery"
+   },
+   {
+    "id": "switch",
+    "x": 27.0,
+    "y": 20.8,
+    "label": "Switch"
+   },
+   {
+    "id": "bulb",
+    "x": 77.5,
+    "y": 20.8,
+    "label": "Bulb"
+   },
+   {
+    "id": "nail",
+    "x": 42.5,
+    "y": 73.3,
+    "label": "Nail (electrode)"
+   },
+   {
+    "id": "soln",
+    "x": 51.2,
+    "y": 85.4,
+    "label": "Acid solution in the beaker"
+   }
+  ],
+  "answer": "nail",
+  "hint": "The nails stand in the beaker, joined to the wires above.",
+  "explanation": "The two **nails** act as electrodes that carry current into the acid solution. The current is carried through the solution by **ions** ($\\ce{H+}$ and $\\ce{Cl-}$), so the bulb glows."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Ions in acids and bases",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which of these set-ups will **not** make the bulb glow?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Dilute HCl",
+    "image": {
+     "src": "/img/c10-acids/cond-hcl.svg",
+     "alt": "Conductivity set-up with dilute HCl"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Dilute H₂SO₄",
+    "image": {
+     "src": "/img/c10-acids/cond-h2so4.svg",
+     "alt": "Conductivity set-up with dilute H₂SO₄"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Glucose solution",
+    "image": {
+     "src": "/img/c10-acids/cond-glucose.svg",
+     "alt": "Conductivity set-up with glucose solution"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Sodium hydroxide solution",
+    "image": {
+     "src": "/img/c10-acids/cond-naoh.svg",
+     "alt": "Conductivity set-up with NaOH solution"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Which solution does not produce ions?",
+  "explanation": "Acids and alkalis give **ions** in water, which carry the current. **Glucose and alcohol** contain hydrogen but do not form ions, so they do not conduct, and the bulb does not glow. This is why not every hydrogen compound is an acid."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Ions in acids and bases",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Dry HCl gas is passed over a dry blue litmus paper and then over a wet blue litmus paper. Tap the paper that **changes colour**.",
+  "image": {
+   "src": "/img/c10-acids/hcl-prep.svg",
+   "alt": "Dry HCl gas passing over dry blue litmus and then wet blue litmus; only the wet paper changes colour"
+  },
+  "spots": [
+   {
+    "id": "tube",
+    "x": 16.2,
+    "y": 70.8,
+    "label": "Sodium chloride + conc. sulphuric acid"
+   },
+   {
+    "id": "pipe",
+    "x": 37.5,
+    "y": 25.0,
+    "label": "Delivery tube"
+   },
+   {
+    "id": "dry",
+    "x": 68.0,
+    "y": 74.2,
+    "label": "Dry blue litmus paper (no change)"
+   },
+   {
+    "id": "wet",
+    "x": 87.0,
+    "y": 74.2,
+    "label": "Wet blue litmus paper (turns red)"
+   }
+  ],
+  "answer": "wet",
+  "hint": "Hydrogen ions form only in the presence of water.",
+  "explanation": "HCl produces $\\ce{H+}$ (as $\\ce{H3O+}$) only in water. The **wet blue litmus** turns red. The **dry** paper does not change, because dry HCl gas has no free hydrogen ions."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Ions in acids and bases",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Why does dry HCl gas **not** change the colour of dry litmus paper?",
+  "image": {
+   "src": "/img/c10-acids/ionisation.svg",
+   "alt": "HCl gas gives no ions on its own but forms hydronium and chloride ions in water"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "HCl is a base and bases do not turn blue litmus red"
+   },
+   {
+    "id": "b",
+    "text": "Dry litmus paper cannot respond to any substance"
+   },
+   {
+    "id": "c",
+    "text": "H⁺ ions separate from HCl only when heated strongly"
+   },
+   {
+    "id": "d",
+    "text": "Hydrogen ions are produced from HCl only in the presence of water"
+   }
+  ],
+  "answer": "d",
+  "hint": "What does HCl need in order to release H⁺?",
+  "explanation": "$\\ce{HCl + H2O -> H3O+ + Cl-}$. The separation of $\\ce{H+}$ from HCl cannot occur in the absence of water, so dry HCl gas shows no acidic character. HCl is an acid, and the hydrogen ion is always shown as $\\ce{H+(aq)}$ or $\\ce{H3O+}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Ions in acids and bases",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** correct statements about bases and alkalis.",
+  "image": {
+   "src": "/img/c10-acids/base-ions.svg",
+   "alt": "Sodium hydroxide dissolving in water gives sodium ions and hydroxide ions"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "All alkalis are bases"
+   },
+   {
+    "id": "b",
+    "text": "All bases are alkalis"
+   },
+   {
+    "id": "c",
+    "text": "Bases give hydroxide ions in water"
+   },
+   {
+    "id": "d",
+    "text": "Sodium hydroxide and potassium hydroxide solutions are alkalis"
+   },
+   {
+    "id": "e",
+    "text": "Alkalis are soapy to touch, bitter and corrosive"
+   },
+   {
+    "id": "f",
+    "text": "Alkalis give hydrogen ions in water"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "d",
+   "e"
+  ],
+  "hint": "An alkali is a base that dissolves in water.",
+  "explanation": "Bases generate $\\ce{OH-}$ ions in water. **Alkalis** are the bases that **dissolve in water**, so every alkali is a base but not every base dissolves. Alkalis are soapy, bitter and corrosive (never taste or touch them). It is **acids**, not alkalis, that give $\\ce{H+}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Dilution",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which picture shows the **safe** way to dilute concentrated sulphuric acid?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Water poured into acid",
+    "image": {
+     "src": "/img/c10-acids/dil-a.svg",
+     "alt": "Water poured into acid"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Acid added slowly with stirring",
+    "image": {
+     "src": "/img/c10-acids/dil-b.svg",
+     "alt": "Acid added slowly, stirring"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Acid dumped in quickly",
+    "image": {
+     "src": "/img/c10-acids/dil-c.svg",
+     "alt": "Acid dumped in quickly"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Mixed in a closed bottle",
+    "image": {
+     "src": "/img/c10-acids/dil-d.svg",
+     "alt": "Mixed in a closed bottle"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "Dissolving an acid in water gives out a lot of heat.",
+  "explanation": "Dissolving an acid in water is **highly exothermic**. The acid must be added **slowly to water with constant stirring**. Adding water to concentrated acid can make the mixture **splash out** and cause burns, or break the glass by local heating. A closed bottle could burst."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Dilution",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-acids/dilution.svg",
+   "alt": "Concentrated acid is added slowly to water in a beaker while stirring; the mixture warms up"
+  },
+  "assertion": "Mixing an acid with water decreases the concentration of hydronium ions per unit volume.",
+  "reason": "The process of dissolving an acid in water is highly exothermic.",
+  "answer": "b",
+  "hint": "Does the heat released explain the fall in concentration?",
+  "explanation": "Both are true, but R does not explain A. **Dilution** lowers the concentration of $\\ce{H3O+}$ per unit volume because there is more water for the same number of ions. The release of heat is a separate fact and is why the acid is added to water."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH scale",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "On the pH scale, tap the colour block that represents a **neutral** solution.",
+  "image": {
+   "src": "/img/c10-acids/ph-scale.svg",
+   "alt": "The pH scale from 0 (red, strongly acidic) through 7 (green, neutral) to 14 (purple, strongly basic)"
+  },
+  "spots": [
+   {
+    "id": "p1",
+    "x": 14.0,
+    "y": 56.7,
+    "label": "pH 1: strongly acidic"
+   },
+   {
+    "id": "p4",
+    "x": 32.0,
+    "y": 56.7,
+    "label": "pH 4: weakly acidic"
+   },
+   {
+    "id": "p7",
+    "x": 50.0,
+    "y": 56.7,
+    "label": "pH 7: neutral"
+   },
+   {
+    "id": "p10",
+    "x": 68.0,
+    "y": 56.7,
+    "label": "pH 10: weakly basic"
+   },
+   {
+    "id": "p13",
+    "x": 86.0,
+    "y": 56.7,
+    "label": "pH 13: strongly basic"
+   }
+  ],
+  "answer": "p7",
+  "hint": "The neutral value lies in the middle of the 0-14 scale.",
+  "explanation": "A neutral solution has a pH of exactly **7**. Values below 7 are acidic (more $\\ce{H+}$) and values above 7 are basic (more $\\ce{OH-}$)."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH scale",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Solutions A, B, C, D and E have pH values 4, 1, 11, 7 and 9, respectively. Arrange them in **increasing** order of hydrogen-ion concentration.",
+  "image": {
+   "src": "/img/c10-acids/ph-scale.svg",
+   "alt": "The pH scale from 0 (red, strongly acidic) through 7 (green, neutral) to 14 (purple, strongly basic)"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "A (pH 4)"
+   },
+   {
+    "id": "s1",
+    "text": "C (pH 11)"
+   },
+   {
+    "id": "s5",
+    "text": "B (pH 1)"
+   },
+   {
+    "id": "s3",
+    "text": "D (pH 7)"
+   },
+   {
+    "id": "s2",
+    "text": "E (pH 9)"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "Lowest H⁺",
+  "endLabel": "Highest H⁺",
+  "hint": "The higher the H⁺ concentration, the lower the pH.",
+  "explanation": "Higher hydronium ion concentration means **lower pH**. So the order from the least to the most $\\ce{H+}$ is the order of decreasing pH: C (11), E (9), D (7), A (4), B (1)."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH scale",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Solution A has pH 6 and solution B has pH 8. Which statement is correct?",
+  "image": {
+   "src": "/img/c10-acids/ph-paper.svg",
+   "alt": "Two beakers A (pH 6) and B (pH 8) tested with pH paper"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "A has more hydrogen ions and is acidic; B is basic"
+   },
+   {
+    "id": "b",
+    "text": "B has more hydrogen ions because 8 is greater than 6"
+   },
+   {
+    "id": "c",
+    "text": "A is basic because its pH is below 7"
+   },
+   {
+    "id": "d",
+    "text": "Both are neutral because they are close to 7"
+   }
+  ],
+  "answer": "a",
+  "hint": "Where is 7 on the scale, and which way does acidity go?",
+  "explanation": "Lower pH means **higher H⁺ concentration**, so A (pH 6) has more H⁺ and is acidic (pH below 7). B (pH 8) is above 7, so it is basic. Only a pH of exactly 7 is neutral."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH scale",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A solution is tested with universal indicator paper and is **strongly alkaline** (pH about 13). Which colour will the paper show? (Colours are only a rough guide.)",
+  "options": [
+   {
+    "id": "a",
+    "text": "Red",
+    "image": {
+     "src": "/img/c10-acids/strip-red.svg",
+     "alt": "pH paper shown as Red"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Orange",
+    "image": {
+     "src": "/img/c10-acids/strip-orange.svg",
+     "alt": "pH paper shown as Orange"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Green",
+    "image": {
+     "src": "/img/c10-acids/strip-green.svg",
+     "alt": "pH paper shown as Green"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Purple",
+    "image": {
+     "src": "/img/c10-acids/strip-purple.svg",
+     "alt": "pH paper shown as Purple"
+    }
+   }
+  ],
+  "answer": "d",
+  "hint": "The pH colours go from red at pH 0 to purple at pH 14.",
+  "explanation": "On universal indicator paper, **red and orange** show strongly and weakly acidic solutions, **green** a neutral solution (pH 7), and **blue to purple** basic solutions. A pH of about 13 is near the purple end."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Strength of acids and bases",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Equal lengths of magnesium ribbon are put in test tube A with HCl and test tube B with acetic acid, both of the same concentration and volume. In which will the fizzing be more vigorous and why?",
+  "image": {
+   "src": "/img/c10-acids/mg-acids.svg",
+   "alt": "Magnesium ribbon in hydrochloric acid (many bubbles) and in acetic acid (few bubbles)"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "B: acetic acid gives more H⁺ ions because it is a weak acid"
+   },
+   {
+    "id": "b",
+    "text": "A and B: both acids give the same number of H⁺ ions at the same concentration"
+   },
+   {
+    "id": "c",
+    "text": "A: HCl is a strong acid and gives more H⁺ ions than acetic acid"
+   },
+   {
+    "id": "d",
+    "text": "B: weak acids react faster because they are less corrosive"
+   }
+  ],
+  "answer": "c",
+  "hint": "What decides the strength of an acid?",
+  "explanation": "Strength depends on the number of $\\ce{H+}$ ions produced. At equal concentration, **HCl (strong)** gives far more $\\ce{H+}$ than $\\ce{CH3COOH}$ (weak), so $\\ce{Mg + 2HCl -> MgCl2 + H2}$ is **faster** and fizzes more."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Strength of acids and bases",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** correct statements about strong and weak acids.",
+  "image": {
+   "src": "/img/c10-acids/strong-weak.svg",
+   "alt": "Strong acid giving many ions and a bright bulb versus weak acid giving few ions and a dim bulb"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The strength of an acid depends on the number of H⁺ ions it produces"
+   },
+   {
+    "id": "b",
+    "text": "Of equal concentration, HCl gives more H⁺ ions than acetic acid"
+   },
+   {
+    "id": "c",
+    "text": "1 M acetic acid has the same number of H⁺ ions as 1 M HCl"
+   },
+   {
+    "id": "d",
+    "text": "A weak acid solution glows a bulb less brightly than a strong acid solution of the same concentration"
+   },
+   {
+    "id": "e",
+    "text": "A stronger acid of the same concentration has a higher pH"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "More H⁺ ions means a stronger acid and a lower pH.",
+  "explanation": "**Strong acids** give more $\\ce{H+}$ ions and **weak acids** give fewer. Equal molar concentrations do **not** give equal $\\ce{H+}$. More ions carry more current, so the bulb is brighter, and more $\\ce{H+}$ means a **lower** pH, not a higher one."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH in everyday life",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Rain water of pH 5.2 flows into a river. What is the likely effect?",
+  "image": {
+   "src": "/img/c10-acids/acid-rain.svg",
+   "alt": "Acid rain falling into a river and lowering its pH, making life difficult for fish"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It is acid rain (pH below 5.6); it lowers the river pH and makes aquatic life difficult"
+   },
+   {
+    "id": "b",
+    "text": "It is normal rain; it has no effect on the river"
+   },
+   {
+    "id": "c",
+    "text": "It makes the river basic and helps fish survive"
+   },
+   {
+    "id": "d",
+    "text": "It is acid rain only if the pH is below 2"
+   }
+  ],
+  "answer": "a",
+  "hint": "Acid rain starts below a particular pH value.",
+  "explanation": "When the pH of rain water is **below 5.6** it is **acid rain**. When it flows into rivers it **lowers their pH**, and the survival of aquatic life becomes difficult. Living things survive only in a narrow pH range."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH in everyday life",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tooth decay starts when the pH of the mouth falls below 5.5. Tap the part of the tooth that gets **corroded**.",
+  "image": {
+   "src": "/img/c10-acids/tooth.svg",
+   "alt": "A tooth with enamel, dentine and pulp, with acid-producing bacteria on its surface"
+  },
+  "spots": [
+   {
+    "id": "enamel",
+    "x": 32.5,
+    "y": 37.5,
+    "label": "Enamel"
+   },
+   {
+    "id": "dentine",
+    "x": 40.0,
+    "y": 58.3,
+    "label": "Dentine"
+   },
+   {
+    "id": "pulp",
+    "x": 50.0,
+    "y": 43.8,
+    "label": "Pulp cavity"
+   },
+   {
+    "id": "bact",
+    "x": 79.5,
+    "y": 35.4,
+    "label": "Acid-producing bacteria"
+   }
+  ],
+  "answer": "enamel",
+  "hint": "It is the hardest outer layer of the tooth.",
+  "explanation": "**Tooth enamel**, made of calcium hydroxyapatite, is the hardest substance in the body but it is corroded when the pH in the mouth is below 5.5. Bacteria acting on sugar and food particles produce the acids."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH in everyday life",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange in order how tooth decay begins.",
+  "image": {
+   "src": "/img/c10-acids/tooth.svg",
+   "alt": "A tooth with enamel, dentine and pulp, with acid-producing bacteria on its surface"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "The pH of the mouth falls below 5.5"
+   },
+   {
+    "id": "s5",
+    "text": "Tooth decay starts"
+   },
+   {
+    "id": "s1",
+    "text": "Sugar and food particles stay in the mouth after eating"
+   },
+   {
+    "id": "s4",
+    "text": "The tooth enamel begins to corrode"
+   },
+   {
+    "id": "s2",
+    "text": "Bacteria degrade them and produce acids"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Food, then bacteria, then acid, then pH, then enamel.",
+  "explanation": "Bacteria in the mouth degrade **sugar and food particles** and produce acids. This lowers the mouth's **pH below 5.5**, which **corrodes the enamel** and starts decay. Cleaning the mouth after eating, and basic toothpaste, help to neutralise the acid."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH in everyday life",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-acids/stomach.svg",
+   "alt": "A stomach with excess hydrochloric acid being neutralised by an antacid containing magnesium hydroxide"
+  },
+  "assertion": "Milk of magnesia gives relief from indigestion.",
+  "reason": "Magnesium hydroxide is a mild base that neutralises the excess hydrochloric acid in the stomach.",
+  "answer": "a",
+  "hint": "What kind of medicine is used for acidity?",
+  "explanation": "Both are true and R explains A. During indigestion the stomach makes too much acid. An **antacid** such as $\\ce{Mg(OH)2}$ neutralises it: $\\ce{Mg(OH)2 + 2HCl -> MgCl2 + 2H2O}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH in everyday life",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** correct statements about acids and bases in everyday life.",
+  "image": {
+   "src": "/img/c10-acids/bee-nettle.svg",
+   "alt": "A bee sting and a nettle sting inject acid; baking soda and a dock leaf give relief"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Baking soda on a bee sting gives relief because the sting leaves an acid"
+   },
+   {
+    "id": "b",
+    "text": "Nettle leaves inject methanoic acid, which causes burning pain"
+   },
+   {
+    "id": "c",
+    "text": "Rubbing a (basic) dock leaf on a nettle sting gives relief"
+   },
+   {
+    "id": "d",
+    "text": "Tooth decay starts when the pH of the mouth rises above 5.5"
+   },
+   {
+    "id": "e",
+    "text": "Our body works within a pH range of about 7.0 to 7.8"
+   },
+   {
+    "id": "f",
+    "text": "Toothpastes are generally acidic"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "A mild base is the cure for an acid sting.",
+  "explanation": "Bee and nettle stings are **acidic** (methanoic acid for nettle), so a **mild base** such as baking soda or the dock leaf **neutralises** them. Our body works at pH about **7.0-7.8**. Tooth decay starts when the pH falls **below** 5.5, and toothpastes are generally **basic**."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Natural acids",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each natural source with the acid present in it.",
+  "image": {
+   "src": "/img/c10-acids/natural-acids.svg",
+   "alt": "Sour foods and plants: vinegar, tamarind, tomato, curd and a nettle leaf"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Vinegar"
+   },
+   {
+    "id": "l2",
+    "text": "Tamarind"
+   },
+   {
+    "id": "l3",
+    "text": "Tomato"
+   },
+   {
+    "id": "l4",
+    "text": "Sour milk (curd)"
+   },
+   {
+    "id": "l5",
+    "text": "Nettle sting"
+   }
+  ],
+  "right": [
+   {
+    "id": "r4",
+    "text": "Lactic acid"
+   },
+   {
+    "id": "r1",
+    "text": "Acetic acid"
+   },
+   {
+    "id": "r5",
+    "text": "Methanoic acid"
+   },
+   {
+    "id": "r3",
+    "text": "Oxalic acid"
+   },
+   {
+    "id": "r2",
+    "text": "Tartaric acid"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4",
+   "l5": "r5"
+  },
+  "hint": "Vinegar is a dilute solution of the acid with the 'acetic' name.",
+  "explanation": "Vinegar contains **acetic acid**, tamarind **tartaric acid**, tomato **oxalic acid**, curd **lactic acid** and the nettle sting **methanoic acid**. Orange and lemon have citric acid."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "pH in everyday life",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A milkman adds a very small amount of baking soda to fresh milk (pH 6) to make it slightly alkaline. Why does this milk take a **long time** to set as curd?",
+  "image": {
+   "src": "/img/c10-acids/milk.svg",
+   "alt": "Fresh milk, a spoon of baking soda and a bowl of curd"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Baking soda adds extra acid, so the milk stays acidic and thick"
+   },
+   {
+    "id": "b",
+    "text": "Alkaline milk contains no bacteria, so curd cannot form"
+   },
+   {
+    "id": "c",
+    "text": "The lactic acid formed has to neutralise the baking soda first, so the pH falls slowly"
+   },
+   {
+    "id": "d",
+    "text": "Baking soda turns lactic acid into a salt that cannot be changed back"
+   }
+  ],
+  "answer": "c",
+  "hint": "Curd formation needs the pH to drop; what does baking soda do to acid?",
+  "explanation": "Fresh milk turns into curd as **lactic acid** is produced, which **lowers the pH**. Baking soda is a **mild base**, so the acid is used up neutralising it before the pH falls enough for the milk to set. The milkman does this so that the milk does not turn sour quickly."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Chemicals from common salt",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** correct statements about chemicals made from common salt.",
+  "image": {
+   "src": "/img/c10-acids/bleaching.svg",
+   "alt": "Chlorine gas is passed over dry slaked lime to make bleaching powder, used for bleaching and disinfecting"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Bleaching powder is made by passing chlorine over dry slaked lime"
+   },
+   {
+    "id": "b",
+    "text": "Bleaching powder is used to make drinking water free from germs"
+   },
+   {
+    "id": "c",
+    "text": "Sodium hydroxide forms near the cathode in the chlor-alkali process"
+   },
+   {
+    "id": "d",
+    "text": "Washing soda is obtained by recrystallising sodium carbonate"
+   },
+   {
+    "id": "e",
+    "text": "Baking soda is used to remove permanent hardness of water"
+   },
+   {
+    "id": "f",
+    "text": "Chlorine gas is given off at the cathode"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "hint": "Chlorine is released at the anode, and washing soda is used for hard water.",
+  "explanation": "Bleaching powder, from **Cl₂ + dry slaked lime**, disinfects water and bleaches cotton and linen. In the chlor-alkali process **$\\ce{Cl2}$ forms at the anode** and **$\\ce{H2}$ and NaOH at the cathode**. Washing soda, from recrystallised $\\ce{Na2CO3}$, removes **permanent hardness**, not baking soda."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Chemicals from common salt",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each common name with its chemical formula.",
+  "image": {
+   "src": "/img/c10-acids/household.svg",
+   "alt": "Everyday uses: cake baking, laundry, clean water, a bone cast and toys"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Baking soda"
+   },
+   {
+    "id": "l2",
+    "text": "Washing soda"
+   },
+   {
+    "id": "l3",
+    "text": "Bleaching powder"
+   },
+   {
+    "id": "l4",
+    "text": "Plaster of Paris"
+   },
+   {
+    "id": "l5",
+    "text": "Gypsum"
+   }
+  ],
+  "right": [
+   {
+    "id": "r5",
+    "text": "CaSO₄·2H₂O"
+   },
+   {
+    "id": "r3",
+    "text": "Ca(ClO)₂"
+   },
+   {
+    "id": "r1",
+    "text": "NaHCO₃"
+   },
+   {
+    "id": "r4",
+    "text": "CaSO₄·½H₂O"
+   },
+   {
+    "id": "r2",
+    "text": "Na₂CO₃·10H₂O"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4",
+   "l5": "r5"
+  },
+  "hint": "The number before $\\ce{H2O}$ is the water of crystallisation.",
+  "explanation": "**Baking soda** is sodium hydrogencarbonate, **washing soda** is $\\ce{Na2CO3.10H2O}$, **bleaching powder** is represented as $\\ce{Ca(ClO)2}$, **Plaster of Paris** is the hemihydrate and **gypsum** has two water molecules."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Chemicals from common salt",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the chlor-alkali process, hydrogen gas and sodium hydroxide are formed at one electrode. Tap the **cathode**.",
+  "image": {
+   "src": "/img/c10-acids/chlor-alkali.svg",
+   "alt": "Electrolysis of brine: chlorine at the anode, hydrogen at the cathode, sodium hydroxide near the cathode"
+  },
+  "spots": [
+   {
+    "id": "anode",
+    "x": 37.0,
+    "y": 69.4,
+    "label": "Anode (+): chlorine gas"
+   },
+   {
+    "id": "cathode",
+    "x": 63.0,
+    "y": 69.4,
+    "label": "Cathode (−): hydrogen gas"
+   },
+   {
+    "id": "battery",
+    "x": 50.0,
+    "y": 16.7,
+    "label": "Battery / DC supply"
+   },
+   {
+    "id": "brine",
+    "x": 50.0,
+    "y": 84.9,
+    "label": "Brine (aqueous NaCl)"
+   }
+  ],
+  "answer": "cathode",
+  "hint": "The cathode is joined to the negative terminal.",
+  "explanation": "At the **cathode (-)** hydrogen gas is released and NaOH forms near it. Chlorine gas is given off at the **anode (+)**. $\\ce{2NaCl(aq) + 2H2O(l) -> 2NaOH(aq) + Cl2(g) + H2(g)}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Salts",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each salt with the nature of its aqueous solution.",
+  "image": {
+   "src": "/img/c10-acids/salt-solutions.svg",
+   "alt": "Three beakers of salt solutions to be tested with pH paper"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Sodium chloride (from HCl and NaOH)"
+   },
+   {
+    "id": "l2",
+    "text": "Copper sulphate (strong acid, weak base)"
+   },
+   {
+    "id": "l3",
+    "text": "Sodium acetate (strong base, weak acid)"
+   }
+  ],
+  "right": [
+   {
+    "id": "r2",
+    "text": "Acidic, pH below 7"
+   },
+   {
+    "id": "r3",
+    "text": "Basic, pH above 7"
+   },
+   {
+    "id": "r1",
+    "text": "Neutral, pH = 7"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3"
+  },
+  "hint": "Look at the strengths of the parent acid and base.",
+  "explanation": "Salts of a **strong acid and strong base** are **neutral**. Salts of a **strong acid and a weak base** are **acidic**, and salts of a **strong base and a weak acid** are **basic**."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Chemicals from common salt",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Baking soda is heated during cooking. Which balanced reaction occurs?",
+  "image": {
+   "src": "/img/c10-acids/baking-soda.svg",
+   "alt": "Baking soda being heated in a test tube and giving off carbon dioxide and water vapour"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{NaHCO3 -> Na2CO3 + H2O + CO2}$"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{2NaHCO3 -> Na2O + H2O + 2CO2}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{NaHCO3 -> NaOH + CO2}$"
+   },
+   {
+    "id": "d",
+    "text": "$\\ce{2NaHCO3 -> Na2CO3 + H2O + CO2}$"
+   }
+  ],
+  "answer": "d",
+  "hint": "Heating gives sodium carbonate, water and carbon dioxide.",
+  "explanation": "On heating, sodium hydrogencarbonate gives **sodium carbonate, water and carbon dioxide**, and it must be balanced with $2\\ce{NaHCO3}$. The other options are unbalanced or give $\\ce{Na2O}$ or $\\ce{NaOH}$, which are not formed."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Chemicals from common salt",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-acids/cake.svg",
+   "alt": "A cake rising as carbon dioxide bubbles form from baking powder"
+  },
+  "assertion": "A cake made with baking powder is soft and spongy.",
+  "reason": "Baking powder, a mixture of baking soda and tartaric acid, produces carbon dioxide on heating or when mixed with water.",
+  "answer": "a",
+  "hint": "Think of the gas bubbles in the batter.",
+  "explanation": "Both are true and R explains A. $\\ce{NaHCO3 + H+ -> CO2 + H2O}$ + the sodium salt of the acid. The $\\ce{CO2}$ makes the bread or cake rise, so it becomes soft and spongy."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Water of crystallisation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Blue crystals of copper sulphate ($\\ce{CuSO4.5H2O}$) are heated strongly in a dry boiling tube. Which sample is the product, anhydrous copper sulphate?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Blue crystals",
+    "image": {
+     "src": "/img/c10-acids/cus-blue.svg",
+     "alt": "Sample P"
+    }
+   },
+   {
+    "id": "b",
+    "text": "A white powder",
+    "image": {
+     "src": "/img/c10-acids/cus-white.svg",
+     "alt": "Sample Q"
+    }
+   },
+   {
+    "id": "c",
+    "text": "A black powder",
+    "image": {
+     "src": "/img/c10-acids/cus-black.svg",
+     "alt": "Sample R"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Green crystals",
+    "image": {
+     "src": "/img/c10-acids/cus-green.svg",
+     "alt": "Sample S"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "Losing the water of crystallisation removes the blue colour.",
+  "explanation": "Heating removes the **water of crystallisation**, so the salt turns **white**. Adding a few drops of water restores the blue colour. The crystals look dry but contain five water molecules per formula unit of $\\ce{CuSO4}$."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Water of crystallisation",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of Activity 2.15 with copper sulphate crystals in order.",
+  "image": {
+   "src": "/img/c10-acids/cuso4.svg",
+   "alt": "Blue copper sulphate crystals turn white on heating and blue again on adding water"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "Add 2-3 drops of water to the white sample"
+   },
+   {
+    "id": "s1",
+    "text": "Heat a few blue crystals in a dry boiling tube"
+   },
+   {
+    "id": "s5",
+    "text": "The blue colour is restored"
+   },
+   {
+    "id": "s2",
+    "text": "Water droplets appear on the cooler part of the tube"
+   },
+   {
+    "id": "s3",
+    "text": "The crystals turn white"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "The water comes out first, then it is put back.",
+  "explanation": "On heating, water of crystallisation is released (droplets) and $\\ce{CuSO4}$ becomes white. When moistened again, the blue hydrated salt forms and the blue colour reappears."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Water of crystallisation",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Why should Plaster of Paris be stored in a moisture-proof container?",
+  "image": {
+   "src": "/img/c10-acids/pop.svg",
+   "alt": "Gypsum loses water on heating to give Plaster of Paris; adding water turns it back into hard gypsum"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It reacts with moisture to form hard gypsum, CaSO₄·2H₂O"
+   },
+   {
+    "id": "b",
+    "text": "Moisture makes it lose its water of crystallisation and turn into quicklime"
+   },
+   {
+    "id": "c",
+    "text": "Moisture turns it into calcium carbonate, which is brittle"
+   },
+   {
+    "id": "d",
+    "text": "It dissolves in moist air and leaves no residue"
+   }
+  ],
+  "answer": "a",
+  "hint": "What happens when Plaster of Paris is mixed with water?",
+  "explanation": "CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O. Plaster of Paris on contact with water sets into a hard mass of gypsum. Moisture in the air would harden it in the container, so it must be kept dry."
+ },
+ {
+  "id": "in-cbse-10-chem-acids-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Acids, Bases and Salts",
+  "chapterNo": 2,
+  "topic": "Soda-acid fire extinguisher",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the soda-acid fire extinguisher, tap the ignition tube containing **dilute sulphuric acid**.",
+  "image": {
+   "src": "/img/c10-acids/fire-ext.svg",
+   "alt": "A wash-bottle soda-acid fire extinguisher: acid in an ignition tube mixes with sodium hydrogencarbonate and CO2 is directed on a candle flame"
+  },
+  "spots": [
+   {
+    "id": "ign",
+    "x": 47.8,
+    "y": 56.3,
+    "label": "Ignition tube with dilute sulphuric acid"
+   },
+   {
+    "id": "soln",
+    "x": 47.5,
+    "y": 80.0,
+    "label": "Sodium hydrogencarbonate solution"
+   },
+   {
+    "id": "nozzle",
+    "x": 75.0,
+    "y": 26.1,
+    "label": "Nozzle (delivery tube)"
+   },
+   {
+    "id": "candle",
+    "x": 86.8,
+    "y": 57.1,
+    "label": "Burning candle"
+   }
+  ],
+  "answer": "ign",
+  "hint": "It hangs inside the bottle on a thread.",
+  "explanation": "The dilute $\\ce{H2SO4}$ is in the small **ignition tube** suspended in the bottle. Tilting the bottle mixes it with the $\\ce{NaHCO3}$ solution and releases $\\ce{CO2}$."
+ }
+]
