@@ -1,0 +1,2266 @@
+[
+  {
+    "id": "in-cbse-10-math-polynomials-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Types of polynomials",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which of the following is a **quadratic polynomial** in $x$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/deg-shapes.svg",
+      "alt": "A straight line, a parabola and an S-shaped cubic curve with their names"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^3 + 4x^2$"
+      },
+      {
+        "id": "b",
+        "text": "$2x - 7$"
+      },
+      {
+        "id": "c",
+        "text": "$3 - x + 4x^2$"
+      },
+      {
+        "id": "d",
+        "text": "$x^2 + \\dfrac{1}{x}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "A quadratic polynomial has highest power of $x$ equal to 2, and every power of $x$ is a whole number.",
+    "explanation": "A **quadratic polynomial** has degree 2, i.e. it has the form $ax^2+bx+c$ with $a\\neq 0$. $3-x+4x^2$ has highest power 2, so it qualifies (the order of the terms does not matter). $x^3+4x^2$ is cubic, $2x-7$ is linear, and $x^2+\\frac1x$ is not even a polynomial because $\\frac1x=x^{-1}$ has a negative power."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Degree of a polynomial",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "What is the **degree** of the polynomial $4x^3 - 7x^6 + 2x^2 + 9$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/deg-bars.svg",
+      "alt": "Bars of height 3, 6, 2 and 0 for the powers of x in the four terms"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "4"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "11"
+      }
+    ],
+    "answer": "a",
+    "hint": "Degree means the highest power of $x$ that actually appears, not how many terms there are.",
+    "explanation": "The powers of $x$ are 3, 6, 2 and 0 (the constant). The **highest power is 6**, so the degree is 6. Common slips: counting the 4 terms, taking the power in the first term (3), or adding all the powers ($3+6+2+0=11$)."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Value of a polynomial",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "If $p(x) = 2x^2 - 5x + 3$, what is the value of $p(-2)$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/value-machine.svg",
+      "alt": "A function machine with p(x) taking in x = -2 and giving p(-2)"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "29"
+      },
+      {
+        "id": "d",
+        "text": "21"
+      }
+    ],
+    "answer": "d",
+    "hint": "Replace every $x$ by $-2$ and remember $(-2)^2$ is positive.",
+    "explanation": "$p(-2)=2(-2)^2-5(-2)+3 = 2(4)+10+3 = 21$. Trap answers: $5$ comes from writing $(-2)^2=-4$; $1$ comes from forgetting that $-5\\times(-2)=+10$; $29$ comes from squaring $2\\times(-2)$ instead of only $x$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zero of a linear polynomial",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "What is the **zero** of the linear polynomial $3x - 7$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/line-3x7.svg",
+      "alt": "Graph of the straight line y = 3x - 7 cutting the x-axis"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-\\dfrac{7}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{7}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{7}$"
+      },
+      {
+        "id": "d",
+        "text": "$7$"
+      }
+    ],
+    "answer": "b",
+    "hint": "A zero is the value $k$ with $p(k)=0$; for $ax+b$ it is $-\\dfrac{b}{a}$.",
+    "explanation": "Solve $3k-7=0$: $k=\\dfrac{7}{3}$, which is $-\\dfrac{b}{a}$ with $a=3,\\ b=-7$. The graph of $y=3x-7$ crosses the x-axis between 2 and 3, as $\\frac73\\approx 2.33$. Wrong options: $-\\frac73$ has a sign slip, $\\frac37$ inverts the fraction, and $7$ forgets to divide by the coefficient 3."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes and factors",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "It is given that $3$ is a zero of $p(x) = x^2 - x - 6$. What is the **other zero**?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/numline-3q.svg",
+      "alt": "A number line with the zero 3 marked and a question mark at the unknown second zero"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-2$"
+      },
+      {
+        "id": "b",
+        "text": "$2$"
+      },
+      {
+        "id": "c",
+        "text": "$-3$"
+      },
+      {
+        "id": "d",
+        "text": "$1$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The two zeroes add up to $-\\dfrac ba$ and multiply to $\\dfrac ca$.",
+    "explanation": "Sum of zeroes $=-\\dfrac{-1}{1}=1$, so the other zero is $1-3=-2$. Check with the product: $3\\times(-2)=-6=\\dfrac{c}{a}$. Slips: $2$ ignores the sign of the product, $-3$ just negates the given zero, and $1$ stops at the sum without subtracting $3$. Direct check: $p(-2)=4+2-6=0$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes from a graph",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph shows $y = p(x)$ for the polynomial $p(x)=x^2(x-2)$. How many **zeroes** does $p(x)$ have?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/touch-cubic.svg",
+      "alt": "A cubic curve that touches the x-axis at the origin and crosses it at 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "2"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "c",
+    "hint": "Count the different points where the curve meets the x-axis, not the degree.",
+    "explanation": "Zeroes are the x-coordinates of the points where the graph meets the x-axis. This curve **touches** the axis at $x=0$ and **crosses** it at $x=2$, so there are exactly **2 zeroes**, $0$ and $2$. Although the degree is 3 (so there could be at most 3), the zero $0$ is repeated, so the count is not 3."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Graph of a quadratic",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which graph represents a quadratic polynomial that has **no zero**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-up2.svg",
+          "alt": "Parabola cutting the x-axis twice"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-upnone.svg",
+          "alt": "Parabola opening up above the x-axis"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-uptouch.svg",
+          "alt": "Parabola touching the x-axis"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-down2.svg",
+          "alt": "Parabola opening down cutting the x-axis twice"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "A zero shows up as a point where the graph meets the x-axis.",
+    "explanation": "The zeroes of a quadratic polynomial are the x-coordinates of the points where its parabola meets the x-axis. A parabola with **no such point** (completely above, or completely below, the axis) means no zero. The upward parabola floating above the axis is the one. The others cut the axis twice or touch it once, so they have two zeroes or one."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Graph of a quadratic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which graph could be that of $y=ax^2+bx+c$ with **$a<0$** and **two distinct zeroes**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-up2.svg",
+          "alt": "Parabola opening up cutting the x-axis twice"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-downnone.svg",
+          "alt": "Parabola opening down below the x-axis"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-downtouch.svg",
+          "alt": "Parabola opening down touching the x-axis"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-down2.svg",
+          "alt": "Parabola opening down cutting the x-axis twice"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Two clues: the parabola opens downwards when $a<0$, and two zeroes means two crossing points.",
+    "explanation": "If $a<0$ the parabola opens **downwards** ($\\cap$); if $a>0$ it opens upwards. Two distinct zeroes need **two** cutting points. Only the downward parabola that crosses the axis twice satisfies both. The upward one has $a>0$, the one below the axis has no zero, and the one touching the axis has only one zero."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Graph of a cubic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which graph could be that of a **cubic polynomial with exactly three zeroes**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-cub3.svg",
+          "alt": "S-shaped curve cutting the x-axis three times"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-cub1.svg",
+          "alt": "S-shaped curve cutting the x-axis once"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-cub2.svg",
+          "alt": "Curve touching the x-axis once and cutting once"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-up2.svg",
+          "alt": "Parabola cutting the x-axis twice"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "Three zeroes means three different points on the x-axis.",
+    "explanation": "A cubic has at most 3 zeroes, and it has exactly three when its graph meets the x-axis at **three different points**. The S-shape with two bends crossing the axis three times does this. The curve crossing once has one zero, the one that touches at a bend and crosses once has two zeroes, and the parabola is quadratic, not cubic."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Graph of a quadratic",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Which graph shows $y = x^2 - 4x + 4$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-polynomials/ty-tm2.svg",
+          "alt": "Parabola touching the x-axis at minus 2"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-polynomials/ty-cut.svg",
+          "alt": "Parabola cutting the x-axis at minus 2 and 2"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-polynomials/ty-t2.svg",
+          "alt": "Parabola touching the x-axis at 2"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-polynomials/ty-abv.svg",
+          "alt": "Parabola above the x-axis"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Factorise first: what perfect square is $x^2-4x+4$?",
+    "explanation": "$x^2-4x+4=(x-2)^2$, which is zero only at $x=2$ and positive everywhere else. So the parabola opens up and **just touches the x-axis at $x=2$**. $(x+2)^2$ would touch at $-2$; $x^2-4=(x-2)(x+2)$ cuts at $\\pm2$; and $(x-2)^2+3$ never reaches the axis."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Sum of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph of $y=3x^2-5x+2$ is shown. What is the **sum of its zeroes**?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/sum-axis.svg",
+      "alt": "Parabola with two zero points placed symmetrically about the dashed axis of symmetry"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-\\dfrac{5}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{5}{2}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{5}{3}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Sum of zeroes $=-\\dfrac{\\text{coefficient of }x}{\\text{coefficient of }x^2}$.",
+    "explanation": "Here $a=3,\\ b=-5,\\ c=2$, so sum $=-\\dfrac ba=\\dfrac53$. Check: the zeroes are $\\dfrac23$ and $1$, and $\\dfrac23+1=\\dfrac53$. The dashed axis sits at the average of the zeroes, $\\dfrac56$. Slips: $-\\frac53$ forgets the minus in $-b/a$, $\\frac23$ is the product $c/a$, and $\\frac52$ uses $-b/c$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Product of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "What is the **product of the zeroes** of the polynomial $6x^2 - 3 - 7x$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/std-form.svg",
+      "alt": "The terms 6x squared, minus 3 and minus 7x rearranged into a, b, c order"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "b",
+        "text": "$-\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$-\\dfrac{7}{6}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{7}{6}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "First write the polynomial in the standard order $ax^2+bx+c$.",
+    "explanation": "In standard form it is $6x^2-7x-3$, so $a=6,\\ b=-7,\\ c=-3$ and the product of zeroes is $\\dfrac ca=\\dfrac{-3}{6}=-\\dfrac12$. Check: the zeroes are $\\dfrac32$ and $-\\dfrac13$, and $\\dfrac32\\times\\left(-\\dfrac13\\right)=-\\dfrac12$. Reading $c$ as $-7$ (the second term as written) gives the trap $-\\frac76$; $\\frac76$ is the sum of the zeroes."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Forming a quadratic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find a quadratic polynomial whose zeroes have **sum $3$** and **product $-10$**.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/build-box.svg",
+      "alt": "Sum and product chips sliding into a box showing x squared minus sum x plus product"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^2 - 3x - 10$"
+      },
+      {
+        "id": "b",
+        "text": "$x^2 + 3x - 10$"
+      },
+      {
+        "id": "c",
+        "text": "$x^2 - 3x + 10$"
+      },
+      {
+        "id": "d",
+        "text": "$x^2 - 10x + 3$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Use $x^2-(\\text{sum})x+(\\text{product})$.",
+    "explanation": "A quadratic with zeroes $\\alpha,\\beta$ is $k\\,[x^2-(\\alpha+\\beta)x+\\alpha\\beta]$; take $k=1$: $x^2-3x+(-10)=x^2-3x-10$. Check: $(x-5)(x+2)$ has zeroes $5$ and $-2$, with sum $3$ and product $-10$. The wrong options use $+(\\text{sum})x$, flip the sign of the product, or swap sum and product."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Forming a quadratic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A quadratic polynomial has zeroes $\\sqrt3$ and $-\\sqrt3$. Which polynomial is it?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/root3-graph.svg",
+      "alt": "Parabola y = x squared minus 3 cutting the x-axis at plus and minus root 3"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^2 + 3$"
+      },
+      {
+        "id": "b",
+        "text": "$x^2 - \\sqrt{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$x^2 - 3$"
+      },
+      {
+        "id": "d",
+        "text": "$x^2 - \\sqrt{3}\\,x - 3$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Add the zeroes and multiply them, then put them in $x^2-(\\text{sum})x+\\text{product}$.",
+    "explanation": "Sum $=\\sqrt3+(-\\sqrt3)=0$ and product $=\\sqrt3\\times(-\\sqrt3)=-3$. So the polynomial is $x^2-0\\cdot x+(-3)=x^2-3$. Check with $x^2-3=(x-\\sqrt3)(x+\\sqrt3)$. $x^2+3$ has the wrong sign for the product (it has no zero at all), $x^2-\\sqrt3$ forgets to square the root, and the last option assumes the sum is $\\sqrt3$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Finding an unknown coefficient",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "If $3$ is a zero of the polynomial $2x^2 - 7x + k$, find $k$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/k-graph.svg",
+      "alt": "Parabola through the point (3, 0) with the polynomial 2x squared minus 7x plus k"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-3$"
+      },
+      {
+        "id": "b",
+        "text": "$3$"
+      },
+      {
+        "id": "c",
+        "text": "$15$"
+      },
+      {
+        "id": "d",
+        "text": "$-39$"
+      }
+    ],
+    "answer": "b",
+    "hint": "If $3$ is a zero then $p(3)=0$.",
+    "explanation": "$p(3)=2(3)^2-7(3)+k=18-21+k=k-3=0$, so $k=3$. Check: $2x^2-7x+3=(2x-1)(x-3)$ has the zero $3$. Slips: $-3$ moves $18-21$ across without changing the sign; $15$ uses $2\\times3$ instead of $2\\times3^2$; $-39$ treats $-7x$ as $+7x$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes and coefficients",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The sum of the zeroes of $kx^2 + 2x + 3k$ is **equal to their product**. Find $k$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/balance.svg",
+      "alt": "A balance with the sum of zeroes on one pan and the product on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$-\\dfrac{3}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$-\\dfrac{2}{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{3}{2}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Write the sum as $-\\dfrac ba$ and the product as $\\dfrac ca$, using $a=k,\\ b=2,\\ c=3k$.",
+    "explanation": "Sum $=-\\dfrac{2}{k}$ and product $=\\dfrac{3k}{k}=3$. Setting them equal: $-\\dfrac2k=3$, so $k=-\\dfrac23$. Slips: $\\frac23$ drops the minus sign of the sum, and $\\pm\\frac32$ come from inverting the equation ($k=\\frac{3}{-2}$)."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Expressions in the zeroes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "If $\\alpha$ and $\\beta$ are the zeroes of $x^2 - 6x + 4$, what is $\\alpha^2 + \\beta^2$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/square-parts.svg",
+      "alt": "A square of side alpha plus beta split into alpha squared, beta squared and two alpha beta rectangles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$28$"
+      },
+      {
+        "id": "b",
+        "text": "$36$"
+      },
+      {
+        "id": "c",
+        "text": "$44$"
+      },
+      {
+        "id": "d",
+        "text": "$32$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Use $\\alpha^2+\\beta^2=(\\alpha+\\beta)^2-2\\alpha\\beta$ with the sum and product from the coefficients.",
+    "explanation": "$\\alpha+\\beta=6$ and $\\alpha\\beta=4$. The big square of side $\\alpha+\\beta$ has area $36=\\alpha^2+\\beta^2+2\\alpha\\beta$, so $\\alpha^2+\\beta^2=36-2(4)=28$. Slips: $36$ stops after squaring the sum, $44$ adds $2\\alpha\\beta$ instead of subtracting, and $32$ subtracts $\\alpha\\beta$ only once."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Expressions in the zeroes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "If $\\alpha$ and $\\beta$ are the zeroes of $2x^2 - 7x + 3$, find $\\dfrac1\\alpha + \\dfrac1\\beta$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/reciprocals.svg",
+      "alt": "Number line where each zero hops to its reciprocal"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{7}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{7}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$-\\dfrac{7}{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{7}{3}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Combine the fractions: $\\dfrac1\\alpha+\\dfrac1\\beta=\\dfrac{\\alpha+\\beta}{\\alpha\\beta}$.",
+    "explanation": "$\\alpha+\\beta=\\dfrac72$ and $\\alpha\\beta=\\dfrac32$, so $\\dfrac{\\alpha+\\beta}{\\alpha\\beta}=\\dfrac{7/2}{3/2}=\\dfrac73$. Check with the zeroes $\\frac12$ and $3$: $2+\\frac13=\\frac73$. Slips: $\\frac37$ flips the ratio, $\\frac72$ is just the sum, and $-\\frac73$ uses $+b/a$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Cubic polynomial relations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The graph shows $y=x^3-2x^2-5x+6$. What is the **sum of the products of its zeroes taken two at a time**, $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha$?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/cubic-3z.svg",
+      "alt": "Cubic curve cutting the x-axis at three points"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5$"
+      },
+      {
+        "id": "b",
+        "text": "$-5$"
+      },
+      {
+        "id": "c",
+        "text": "$2$"
+      },
+      {
+        "id": "d",
+        "text": "$-6$"
+      }
+    ],
+    "answer": "b",
+    "hint": "For $ax^3+bx^2+cx+d$ the pair-sum is $\\dfrac ca$.",
+    "explanation": "For $ax^3+bx^2+cx+d$: $\\alpha+\\beta+\\gamma=-\\dfrac ba$, $\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\dfrac ca$, $\\alpha\\beta\\gamma=-\\dfrac da$. Here $\\dfrac ca=\\dfrac{-5}{1}=-5$. Check with the zeroes $-2,1,3$: $(-2)(1)+(1)(3)+(3)(-2)=-2+3-6=-5$. The trap options are $2$ (the sum of zeroes) and $-6$ (the product), and $5$ drops the sign."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Forming a cubic",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Find the cubic polynomial with leading coefficient $1$ whose zeroes are $2,\\ 3$ and $-1$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/numline-3zeros.svg",
+      "alt": "Number line with the zeroes -1, 2 and 3 marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^3 + 4x^2 + x - 6$"
+      },
+      {
+        "id": "b",
+        "text": "$x^3 - 4x^2 + x - 6$"
+      },
+      {
+        "id": "c",
+        "text": "$x^3 - 4x^2 + x + 6$"
+      },
+      {
+        "id": "d",
+        "text": "$x^3 - 4x^2 - x + 6$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use $x^3-(\\text{sum})x^2+(\\text{pair-sum})x-(\\text{product})$.",
+    "explanation": "Sum $=2+3-1=4$. Pair-sum $=2\\cdot3+2(-1)+3(-1)=6-2-3=1$. Product $=2\\cdot3\\cdot(-1)=-6$. So the cubic is $x^3-4x^2+x-(-6)=x^3-4x^2+x+6$. Check $x=-1$: $-1-4-1+6=0$. The others flip a sign: the product term must be $-(\\text{product})=+6$, and the sum term $-4x^2$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes in real life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A ball is thrown up from the ground and its height after $t$ seconds is $h(t) = -5t^2 + 20t$ metres. After how many seconds does it **hit the ground again**?",
+    "image": {
+      "src": "/img/c10-ma-polynomials/ball-arc.svg",
+      "alt": "A dashed parabola showing a ball rising and falling back to the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "4 seconds"
+      },
+      {
+        "id": "b",
+        "text": "0 seconds"
+      },
+      {
+        "id": "c",
+        "text": "2 seconds"
+      },
+      {
+        "id": "d",
+        "text": "20 seconds"
+      }
+    ],
+    "answer": "a",
+    "hint": "On the ground the height is zero, so find the zeroes of $h(t)$.",
+    "explanation": "$h(t)=-5t(t-4)=0$ gives $t=0$ (the throw) or $t=4$ (the landing). The ball lands after **4 seconds**. $0$ is the moment of throwing, $2$ s is the time at the top of the path (halfway between the zeroes), and $20$ is just the coefficient of $t$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zero from a graph",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The line is the graph of $y=2x+3$. Tap the point that shows the **zero** of $2x+3$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-line.svg",
+      "alt": "Straight line y = 2x + 3 with three marked points"
+    },
+    "spots": [
+      {
+        "id": "zero",
+        "x": 29.9,
+        "y": 68.8,
+        "label": "Zero of 2x + 3 (x = -3/2)"
+      },
+      {
+        "id": "yint",
+        "x": 52.2,
+        "y": 47.5,
+        "label": "y-intercept (0, 3)"
+      },
+      {
+        "id": "p27",
+        "x": 82.1,
+        "y": 19.2,
+        "label": "Point (2, 7)"
+      },
+      {
+        "id": "pm",
+        "x": 67.2,
+        "y": 33.3,
+        "label": "Point (1, 5)"
+      },
+      {
+        "id": "orig",
+        "x": 52.2,
+        "y": 68.8,
+        "label": "Origin"
+      }
+    ],
+    "answer": "zero",
+    "hint": "A zero is where the graph meets the x-axis.",
+    "explanation": "The zero of $2x+3$ is $-\\dfrac32$, because $2\\left(-\\frac32\\right)+3=0$. On the graph it is the point where the line **meets the x-axis**, midway between $-1$ and $-2$, at $\\left(-\\frac32,0\\right)$. The marked points $(0,3)$, $(1,5)$, $(2,7)$ lie on the line but have $y\\neq0$, so they are not zeroes."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes of a quadratic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "This is the graph of $y=x^2-3x-4$. Tap the point that gives the **negative zero** of the polynomial.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-parab.svg",
+      "alt": "Parabola y = x squared minus 3x minus 4"
+    },
+    "spots": [
+      {
+        "id": "zm1",
+        "x": 27.4,
+        "y": 47.5,
+        "label": "Zero x = -1"
+      },
+      {
+        "id": "z4",
+        "x": 77.1,
+        "y": 47.5,
+        "label": "Zero x = 4"
+      },
+      {
+        "id": "vertex",
+        "x": 52.2,
+        "y": 80.7,
+        "label": "Lowest point of the curve"
+      },
+      {
+        "id": "yint",
+        "x": 37.3,
+        "y": 68.8,
+        "label": "y-intercept (0, -4)"
+      },
+      {
+        "id": "left",
+        "x": 17.4,
+        "y": 15.6,
+        "label": "Point (-2, 6)"
+      }
+    ],
+    "answer": "zm1",
+    "hint": "Look for the points on the x-axis, then choose the one on the left of the origin.",
+    "explanation": "$x^2-3x-4=(x-4)(x+1)$, so the zeroes are $-1$ and $4$. They are the x-coordinates of the two points where the parabola meets the x-axis. The **negative** one is $x=-1$, on the left. The lowest point, the y-intercept and $(-2,6)$ are not on the x-axis, so none of them is a zero."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes of a cubic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The curve is $y=x^3+x^2-6x$, which crosses the x-axis three times. Tap the zero that lies **between the highest hump and the lowest dip** of the curve.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-cubic.svg",
+      "alt": "Cubic curve y = x cubed plus x squared minus 6x"
+    },
+    "spots": [
+      {
+        "id": "zm3",
+        "x": 20.3,
+        "y": 47.5,
+        "label": "Zero x = -3"
+      },
+      {
+        "id": "z0",
+        "x": 58.6,
+        "y": 47.5,
+        "label": "Zero x = 0"
+      },
+      {
+        "id": "z2",
+        "x": 84.2,
+        "y": 47.5,
+        "label": "Zero x = 2"
+      },
+      {
+        "id": "tmax",
+        "x": 30.1,
+        "y": 16.6,
+        "label": "Peak of the left hump"
+      },
+      {
+        "id": "tmin",
+        "x": 70.1,
+        "y": 63.9,
+        "label": "Bottom of the right dip"
+      }
+    ],
+    "answer": "z0",
+    "hint": "The hump is on the left, the dip on the right: which crossing point sits between them?",
+    "explanation": "$x^3+x^2-6x=x(x+3)(x-2)$, so the zeroes are $-3,\\ 0$ and $2$: three crossing points, the most a cubic can have. The peak is on the left (between $-3$ and $0$) and the dip is on the right (between $0$ and $2$), so the zero between them is **$x=0$**, the origin. The peak and dip themselves are not on the x-axis."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes of a cubic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The curve is $y=x^3-x^2=x^2(x-1)$. It **touches** the x-axis at one zero and **cuts** it at the other. Tap the zero where it **cuts** the axis.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-cubic2.svg",
+      "alt": "Cubic curve y = x cubed minus x squared"
+    },
+    "spots": [
+      {
+        "id": "z0",
+        "x": 45.9,
+        "y": 47.5,
+        "label": "Zero x = 0 (curve touches the axis)"
+      },
+      {
+        "id": "z1",
+        "x": 71.4,
+        "y": 47.5,
+        "label": "Zero x = 1 (curve cuts the axis)"
+      },
+      {
+        "id": "left",
+        "x": 20.3,
+        "y": 75.8,
+        "label": "Point (-1, -2)"
+      },
+      {
+        "id": "right",
+        "x": 84.2,
+        "y": 31.6,
+        "label": "Point (1.5, 1.125)"
+      }
+    ],
+    "answer": "z1",
+    "hint": "The factor $x^2$ is squared, so the curve bounces off the axis there.",
+    "explanation": "$x^3-x^2=x^2(x-1)$ has zeroes $0$ and $1$. Because of the squared factor $x^2$ the curve only **touches** the axis at $0$ and turns back, while at $x=1$ it goes straight through. So the cutting point is $x=1$. The cubic therefore has just two zeroes, fewer than the maximum of three."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Quadratic with one zero",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The parabola is $y=x^2-4x+4$. Tap its **only zero**.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-double.svg",
+      "alt": "Parabola touching the x-axis at 2"
+    },
+    "spots": [
+      {
+        "id": "zero",
+        "x": 52.2,
+        "y": 81.5,
+        "label": "The zero x = 2 (vertex on the axis)"
+      },
+      {
+        "id": "yint",
+        "x": 22.4,
+        "y": 47.5,
+        "label": "y-intercept (0, 4)"
+      },
+      {
+        "id": "r4",
+        "x": 82.1,
+        "y": 47.5,
+        "label": "Point (4, 4)"
+      },
+      {
+        "id": "p1",
+        "x": 37.3,
+        "y": 73.0,
+        "label": "Point (1, 1)"
+      },
+      {
+        "id": "p3",
+        "x": 67.2,
+        "y": 73.0,
+        "label": "Point (3, 1)"
+      }
+    ],
+    "answer": "zero",
+    "hint": "Factorise: $x^2-4x+4=(x-2)^2$. Where is it zero?",
+    "explanation": "$x^2-4x+4=(x-2)^2=0$ only for $x=2$. The two coincident zeroes make the parabola touch the x-axis at one point, $(2,0)$. This is the case where \"the graph cuts the x-axis at exactly one point\". Points like $(1,1)$ and $(3,1)$ are above the axis."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes of a quadratic",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The graph is $y=-x^2+2x+3$. Tap the **larger zero** of the polynomial.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-down.svg",
+      "alt": "Downward-opening parabola cutting the x-axis twice"
+    },
+    "spots": [
+      {
+        "id": "zm1",
+        "x": 29.9,
+        "y": 47.5,
+        "label": "Zero x = -1"
+      },
+      {
+        "id": "z3",
+        "x": 74.6,
+        "y": 47.5,
+        "label": "Zero x = 3"
+      },
+      {
+        "id": "vertex",
+        "x": 52.2,
+        "y": 19.2,
+        "label": "Highest point (1, 4)"
+      },
+      {
+        "id": "bl",
+        "x": 18.7,
+        "y": 82.9,
+        "label": "Point (-2, -5)"
+      },
+      {
+        "id": "br",
+        "x": 85.8,
+        "y": 82.9,
+        "label": "Point (4, -5)"
+      }
+    ],
+    "answer": "z3",
+    "hint": "The zeroes are the two points on the x-axis; the larger value is further to the right.",
+    "explanation": "$-x^2+2x+3=-(x-3)(x+1)$, so the zeroes are $-1$ and $3$. Since $a<0$ the parabola opens **downwards**, and the two zeroes are where it cuts the x-axis. The larger value is $x=3$ on the right. The highest point $(1,4)$ is not on the axis."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Degree and terms",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The polynomial $3x^3-5x^2+2x-7$ is shown as four term chips. Tap the term that **decides the degree**.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-terms.svg",
+      "alt": "Four chips showing 3x cubed, minus 5x squared, plus 2x and minus 7"
+    },
+    "spots": [
+      {
+        "id": "t3",
+        "x": 14.75,
+        "y": 50,
+        "label": "3x^3 (highest power: degree 3)"
+      },
+      {
+        "id": "t2",
+        "x": 38.25,
+        "y": 50,
+        "label": "-5x^2"
+      },
+      {
+        "id": "t1",
+        "x": 61.75,
+        "y": 50,
+        "label": "+2x"
+      },
+      {
+        "id": "t0",
+        "x": 85.25,
+        "y": 50,
+        "label": "-7 (constant term)"
+      }
+    ],
+    "answer": "t3",
+    "hint": "Degree is the highest power of $x$.",
+    "explanation": "The powers of $x$ in the four terms are $3,\\ 2,\\ 1,\\ 0$. The **highest power**, 3, sits in $3x^3$, so the polynomial has degree 3 and is a cubic polynomial. The other terms have lower powers and do not change the degree."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Number of zeroes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "This curve is the graph of $y=p(x)$ for a polynomial $p$. Tap the **greatest zero** of $p(x)$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-quartic.svg",
+      "alt": "Curve that cuts the x-axis four times"
+    },
+    "spots": [
+      {
+        "id": "zm3",
+        "x": 18.7,
+        "y": 47.5,
+        "label": "Zero x = -3"
+      },
+      {
+        "id": "zm1",
+        "x": 41.1,
+        "y": 47.5,
+        "label": "Zero x = -1"
+      },
+      {
+        "id": "z15",
+        "x": 69.0,
+        "y": 47.5,
+        "label": "Zero x = 1.5"
+      },
+      {
+        "id": "z3",
+        "x": 85.8,
+        "y": 47.5,
+        "label": "Greatest zero x = 3"
+      },
+      {
+        "id": "yint",
+        "x": 52.2,
+        "y": 26.0,
+        "label": "y-intercept"
+      }
+    ],
+    "answer": "z3",
+    "hint": "The zeroes are where the curve meets the x-axis; the greatest has the largest x-coordinate.",
+    "explanation": "The curve meets the x-axis at four points, with x-coordinates $-3,\\ -1,\\ 1.5$ and $3$, so $p(x)$ has **4 zeroes**. A polynomial of degree $n$ has at most $n$ zeroes, so $p$ has degree at least 4. The greatest zero is the right-most crossing, $x=3$. The y-intercept is on the y-axis, not a zero."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes from a table",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The table lists values of $p(x)=x^2-2x-3$. Tap the $x$-value that is the **positive zero** of $p(x)$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/hs-table.svg",
+      "alt": "Table of x from -2 to 4 with the values of p(x)"
+    },
+    "spots": [
+      {
+        "id": "xm1",
+        "x": 35.25,
+        "y": 32.5,
+        "label": "x = -1 (a zero, but negative)"
+      },
+      {
+        "id": "x1",
+        "x": 58.25,
+        "y": 32.5,
+        "label": "x = 1 (p = -4)"
+      },
+      {
+        "id": "x3",
+        "x": 81.25,
+        "y": 32.5,
+        "label": "x = 3 (positive zero)"
+      },
+      {
+        "id": "pm2",
+        "x": 23.75,
+        "y": 62.5,
+        "label": "p(-2) = 5"
+      },
+      {
+        "id": "p4",
+        "x": 92.75,
+        "y": 62.5,
+        "label": "p(4) = 5"
+      }
+    ],
+    "answer": "x3",
+    "hint": "A zero is an $x$ for which the bottom row shows $0$.",
+    "explanation": "Check the values: $p(3)=9-6-3=0$ and $p(-1)=1+2-3=0$, so the zeroes are $-1$ and $3$. The **positive** zero is $x=3$. The cell $x=1$ gives $p=-4$, and the entries $5$ in the bottom row are values of $p$, not zeroes."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Polynomial or not?",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the expressions that are polynomials in $x$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/powers-ladder.svg",
+      "alt": "Number line showing whole-number powers allowed and fractional or negative powers not allowed"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3x^2 - 5x + 1$"
+      },
+      {
+        "id": "b",
+        "text": "$x + \\dfrac{1}{x}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\sqrt{2}\\,x^2 + 7$"
+      },
+      {
+        "id": "d",
+        "text": "$x^{1/2} + 2$"
+      },
+      {
+        "id": "e",
+        "text": "$x^3 - \\dfrac{x}{3} + 4$"
+      },
+      {
+        "id": "f",
+        "text": "$\\dfrac{1}{x+2}$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Every power of $x$ must be a whole number $0,1,2,3,\\dots$; coefficients can be any real numbers.",
+    "explanation": "$3x^2-5x+1$, $\\sqrt2\\,x^2+7$ (the coefficient $\\sqrt2$ is just a real number) and $x^3-\\frac x3+4$ are polynomials. $x+\\frac1x$ contains $x^{-1}$, $x^{1/2}$ has a fractional power, and $\\frac1{x+2}$ is a fraction with $x$ in the denominator, so none of these three is a polynomial."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Quadratic polynomials",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about a quadratic polynomial $ax^2+bx+c$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/up-down.svg",
+      "alt": "One parabola opening up and one opening down"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a$ cannot be $0$"
+      },
+      {
+        "id": "b",
+        "text": "Its graph is a parabola"
+      },
+      {
+        "id": "c",
+        "text": "It has at most two zeroes"
+      },
+      {
+        "id": "d",
+        "text": "It always has two different zeroes"
+      },
+      {
+        "id": "e",
+        "text": "The parabola opens upward when $a<0$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Recall the form, the shape of the graph, and the number of x-axis meeting points.",
+    "explanation": "True: $a\\ne0$ (otherwise it would be linear); the graph is a **parabola**; and since a parabola meets the x-axis at most twice, there are **at most two zeroes**. False: it can have two equal zeroes (touching) or none (floating above or below the axis); and the parabola opens **upward when $a>0$**, downward when $a<0$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Cubic polynomial relations",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "The graph shows $p(x)=x^3-4x$. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/cubic-x3-4x.svg",
+      "alt": "Cubic curve y = x cubed minus 4x cutting the x-axis at -2, 0 and 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The zeroes are $-2,\\ 0$ and $2$"
+      },
+      {
+        "id": "b",
+        "text": "The sum of the zeroes is $4$"
+      },
+      {
+        "id": "c",
+        "text": "The sum of the products of the zeroes taken two at a time is $-4$"
+      },
+      {
+        "id": "d",
+        "text": "The product of the zeroes is $0$"
+      },
+      {
+        "id": "e",
+        "text": "It has a fourth zero"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "Compare with $-\\dfrac ba$, $\\dfrac ca$ and $-\\dfrac da$ for $a=1,\\ b=0,\\ c=-4,\\ d=0$.",
+    "explanation": "$x^3-4x=x(x-2)(x+2)$, so the zeroes are $-2,0,2$ (the curve meets the axis at exactly three points). Sum $=-\\frac ba=0$ (not 4), pair-sum $=\\frac ca=-4$ (true), product $=-\\frac da=0$ (true). A cubic has at most three zeroes, so there is no fourth zero."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Sum of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the polynomials whose zeroes have **sum equal to $3$**. (All of them have real zeroes.)",
+    "image": {
+      "src": "/img/c10-ma-polynomials/pivot-line.svg",
+      "alt": "Parabola with its two zeroes placed symmetrically about the dashed axis at 1.5"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^2 - 3x + 2$"
+      },
+      {
+        "id": "b",
+        "text": "$2x^2 + 6x - 5$"
+      },
+      {
+        "id": "c",
+        "text": "$2x^2 - 6x + 1$"
+      },
+      {
+        "id": "d",
+        "text": "$x^2 - 3$"
+      },
+      {
+        "id": "e",
+        "text": "$3x^2 - 9x - 4$"
+      },
+      {
+        "id": "f",
+        "text": "$x^2 + 3x + 2$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Sum of zeroes $=-\\dfrac ba$; do not forget the minus sign.",
+    "explanation": "Sum $=-\\frac ba$: $x^2-3x+2\\to3$; $2x^2+6x-5\\to-3$; $2x^2-6x+1\\to3$; $x^2-3\\to0$; $3x^2-9x-4\\to3$; $x^2+3x+2\\to-3$. So the first, third and fifth qualify. On a graph, a sum of $3$ means the zeroes are symmetric about the line $x=1.5$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Number of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The graphs P, Q and R are shown. Select **all** the true statements about zeroes of polynomials.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/panels-count.svg",
+      "alt": "Three graphs: a line cutting the axis once, a parabola above the axis and a cubic cutting three times"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A linear polynomial $ax+b$ with $a\\neq0$ has exactly one zero"
+      },
+      {
+        "id": "b",
+        "text": "A quadratic polynomial can have no zero"
+      },
+      {
+        "id": "c",
+        "text": "A cubic polynomial has at most three zeroes"
+      },
+      {
+        "id": "d",
+        "text": "A polynomial of degree $4$ has exactly four zeroes"
+      },
+      {
+        "id": "e",
+        "text": "A quadratic graph can cut the x-axis at three points"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "A polynomial of degree $n$ has at most $n$ zeroes, but may have fewer.",
+    "explanation": "True: a line (Graph P) cuts the axis exactly once; a parabola can float above the axis (Graph Q) and so have no zero; a cubic (Graph R) can cut the axis at most three times. False: a degree-4 polynomial has **at most** four zeroes, possibly fewer, and a parabola meets the x-axis at most twice."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Splitting the middle term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for finding the zeroes of $2x^2-8x+6$ by splitting the middle term in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/steps-stair.svg",
+      "alt": "A staircase of steps from the polynomial up to its zeroes"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Take the common bracket: $(2x-2)(x-3)=2(x-1)(x-3)$"
+      },
+      {
+        "id": "s1",
+        "text": "Split the middle term: $-8x=-6x-2x$ (their product is $12x^2$)"
+      },
+      {
+        "id": "s5",
+        "text": "Read off the zeroes: $x=1$ and $x=3$"
+      },
+      {
+        "id": "s2",
+        "text": "Group the terms: $2x(x-3)-2(x-3)$"
+      },
+      {
+        "id": "s4",
+        "text": "Put each factor equal to zero: $x-1=0$ or $x-3=0$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Split, group, factorise, then solve.",
+    "explanation": "We want two terms whose sum is $-8x$ and product is $6\\times2x^2=12x^2$: $-6x$ and $-2x$. So $2x^2-6x-2x+6=2x(x-3)-2(x-3)=(2x-2)(x-3)=2(x-1)(x-3)$. A product is zero when a factor is zero, so $x=1$ or $x=3$. Check: sum $4=-\\frac{-8}{2}$ and product $3=\\frac62$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Proof of the relations",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps that prove $\\alpha+\\beta=-\\dfrac ba$ and $\\alpha\\beta=\\dfrac ca$ for $ax^2+bx+c$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/proof-flow.svg",
+      "alt": "Terms of ax squared plus bx plus c matched with k times the expanded product"
+    },
+    "items": [
+      {
+        "id": "p3",
+        "text": "Expand: $kx^2-k(\\alpha+\\beta)x+k\\alpha\\beta$"
+      },
+      {
+        "id": "p5",
+        "text": "Divide to get $\\alpha+\\beta=-\\dfrac ba$ and $\\alpha\\beta=\\dfrac ca$"
+      },
+      {
+        "id": "p1",
+        "text": "The zeroes $\\alpha,\\beta$ make $x-\\alpha$ and $x-\\beta$ factors of the polynomial"
+      },
+      {
+        "id": "p4",
+        "text": "Compare coefficients: $a=k,\\ b=-k(\\alpha+\\beta),\\ c=k\\alpha\\beta$"
+      },
+      {
+        "id": "p2",
+        "text": "Write $ax^2+bx+c=k(x-\\alpha)(x-\\beta)$"
+      }
+    ],
+    "answer": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Start from the factors, then expand, then match the coefficients.",
+    "explanation": "Factors first: $x-\\alpha$ and $x-\\beta$. Then $ax^2+bx+c=k(x-\\alpha)(x-\\beta)$ for some constant $k$. Expanding gives $kx^2-k(\\alpha+\\beta)x+k\\alpha\\beta$. Matching coefficients: $a=k$, $b=-k(\\alpha+\\beta)$, $c=k\\alpha\\beta$. Replacing $k$ by $a$ and dividing, $\\alpha+\\beta=-\\frac ba$ and $\\alpha\\beta=\\frac ca$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Number of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the graphs in order of the **number of zeroes**, from the fewest to the most.",
+    "items": [
+      {
+        "id": "g3",
+        "text": "Graph W",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-cub3.svg",
+          "alt": "S-shaped curve cutting the x-axis three times"
+        }
+      },
+      {
+        "id": "g1",
+        "text": "Graph X",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-upnone.svg",
+          "alt": "Parabola above the x-axis"
+        }
+      },
+      {
+        "id": "g2",
+        "text": "Graph Y",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-up2.svg",
+          "alt": "Parabola cutting the x-axis twice"
+        }
+      },
+      {
+        "id": "g0",
+        "text": "Graph Z",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-uptouch.svg",
+          "alt": "Parabola touching the x-axis once"
+        }
+      }
+    ],
+    "answer": [
+      "g1",
+      "g0",
+      "g2",
+      "g3"
+    ],
+    "startLabel": "Fewest zeroes",
+    "endLabel": "Most zeroes",
+    "hint": "Count the points where each graph meets the x-axis.",
+    "explanation": "Graph X floats above the axis: **0** zeroes. Graph Z touches the axis once: **1** zero. Graph Y cuts it twice: **2** zeroes. Graph W cuts it three times: **3** zeroes. Remember that the zeroes are the x-coordinates of the points where the graph meets the x-axis."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Values of a polynomial",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "For $p(x)=x^2-3x-4$, arrange the values from the **least to the greatest**.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/parab-4pts.svg",
+      "alt": "Parabola y = x squared minus 3x minus 4 with points at x = -2, -1, 1 and 3"
+    },
+    "items": [
+      {
+        "id": "v-2",
+        "text": "$p(-2)$"
+      },
+      {
+        "id": "v1",
+        "text": "$p(1)$"
+      },
+      {
+        "id": "v-1",
+        "text": "$p(-1)$"
+      },
+      {
+        "id": "v3",
+        "text": "$p(3)$"
+      }
+    ],
+    "answer": [
+      "v1",
+      "v3",
+      "v-1",
+      "v-2"
+    ],
+    "startLabel": "Least",
+    "endLabel": "Greatest",
+    "hint": "Compute each value, taking care with the signs of the negative inputs.",
+    "explanation": "$p(1)=1-3-4=-6$, $p(3)=9-9-4=-4$, $p(-1)=1+3-4=0$ and $p(-2)=4+6-4=6$. So the order is $-6<-4<0<6$, i.e. $p(1),\\ p(3),\\ p(-1),\\ p(-2)$. Note $p(-1)=0$ means $-1$ is a zero. On the graph, the points near the bottom of the curve have the smallest values."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Sum of zeroes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the polynomials in order of the **sum of their zeroes**, from the least to the greatest.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/sum-recipe.svg",
+      "alt": "Recipe card showing sum of zeroes equals minus b divided by a"
+    },
+    "items": [
+      {
+        "id": "q3",
+        "text": "$3x^2 - 2x - 1$"
+      },
+      {
+        "id": "q1",
+        "text": "$x^2 + 5x + 6$"
+      },
+      {
+        "id": "q4",
+        "text": "$x^2 - 4x + 1$"
+      },
+      {
+        "id": "q2",
+        "text": "$2x^2 + x - 3$"
+      }
+    ],
+    "answer": [
+      "q1",
+      "q2",
+      "q3",
+      "q4"
+    ],
+    "startLabel": "Least sum",
+    "endLabel": "Greatest sum",
+    "hint": "Compute $-\\dfrac ba$ for each polynomial, watching the signs.",
+    "explanation": "Sum $=-\\frac ba$: $x^2+5x+6\\to-5$; $2x^2+x-3\\to-\\frac12$; $3x^2-2x-1\\to\\frac23$; $x^2-4x+1\\to4$. In increasing order: $-5<-\\frac12<\\frac23<4$. Using $+\\frac ba$ would reverse every sign and reverse the order."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zero of a linear polynomial",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/ar-line.svg",
+      "alt": "Straight line cutting the x-axis at exactly one point"
+    },
+    "assertion": "The graph of $y=ax+b$ with $a\\neq0$ cuts the x-axis at exactly one point.",
+    "reason": "A linear polynomial $ax+b$ with $a\\neq0$ has exactly one zero, namely $-\\dfrac ba$.",
+    "answer": "a",
+    "hint": "The x-coordinate of the point where the graph meets the x-axis is the zero.",
+    "explanation": "Both statements are true, and R explains A. The graph meets the x-axis where $y=0$, i.e. $ax+b=0$, which has only one solution $x=-\\frac ba$. So the line meets the axis at exactly the single point $\\left(-\\frac ba,0\\right)$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Quadratic with no zero",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/ar-x2p1.svg",
+      "alt": "Parabola y = x squared plus 1 above the x-axis"
+    },
+    "assertion": "The polynomial $x^2+1$ has no real zero.",
+    "reason": "The graph of $y=x^2+1$ is a parabola that opens upwards.",
+    "answer": "b",
+    "hint": "Does opening upwards alone guarantee that the curve misses the x-axis?",
+    "explanation": "Both are true, but R does **not** explain A. An upward parabola such as $y=x^2-1$ still cuts the axis. $x^2+1$ has no zero because $x^2\\ge0$, so $x^2+1\\ge1>0$: the parabola sits entirely **above** the x-axis, with its lowest point at height 1."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Maximum number of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/ar-cubic.svg",
+      "alt": "Cubic curve cutting the x-axis at three points"
+    },
+    "assertion": "A cubic polynomial can have four zeroes.",
+    "reason": "A polynomial of degree $n$ has at most $n$ zeroes.",
+    "answer": "d",
+    "hint": "Use the limit on the number of zeroes in terms of the degree.",
+    "explanation": "A is false and R is true. A polynomial of degree $n$ has **at most $n$ zeroes**, so a cubic ($n=3$) can have at most three zeroes (as in the graph, where the curve cuts the axis at 3 points) and never four."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Sum of zeroes",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/numline-pm.svg",
+      "alt": "Number line with minus root 3 and root 3 equally far from 0"
+    },
+    "assertion": "The sum of the zeroes of $x^2-3$ is $0$.",
+    "reason": "For $ax^2+bx+c$ the sum of the zeroes is $\\dfrac ca$.",
+    "answer": "c",
+    "hint": "Check the formula for the sum of zeroes: which coefficients does it use?",
+    "explanation": "A is true and R is false. $x^2-3=(x-\\sqrt3)(x+\\sqrt3)$, so the zeroes are $\\sqrt3$ and $-\\sqrt3$, whose sum is $0$ (also $-\\frac ba=-\\frac01=0$). But the sum of the zeroes is $-\\dfrac ba$; $\\dfrac ca$ is the **product** (here $-3$)."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Sum of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/ar-sum4.svg",
+      "alt": "Parabola 2x squared minus 8x plus 6 with zeroes at 1 and 3"
+    },
+    "assertion": "The sum of the zeroes of $2x^2-8x+6$ is $4$.",
+    "reason": "A quadratic polynomial has at most two zeroes.",
+    "answer": "b",
+    "hint": "Find the sum with $-\\dfrac ba$, then ask whether the number of zeroes is why the sum is 4.",
+    "explanation": "Both are true but R does not explain A. The sum is $-\\frac{-8}{2}=4$ (the zeroes are $1$ and $3$). R is a correct fact about quadratics, but the value 4 comes from the coefficients $-b/a$, not from the limit on how many zeroes there can be."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Types of polynomials",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each polynomial with its type.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/poly-types.svg",
+      "alt": "Steps labelled with degree 0, 1, 2 and 3"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$5x-2$"
+      },
+      {
+        "id": "l2",
+        "text": "$2x^2-3$"
+      },
+      {
+        "id": "l3",
+        "text": "$x^3+x$"
+      },
+      {
+        "id": "l4",
+        "text": "$7$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "Cubic (degree 3)"
+      },
+      {
+        "id": "r1",
+        "text": "Linear (degree 1)"
+      },
+      {
+        "id": "r4",
+        "text": "Constant (degree 0)"
+      },
+      {
+        "id": "r2",
+        "text": "Quadratic (degree 2)"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Find the highest power of $x$ in each.",
+    "explanation": "The degree is the highest power of $x$: $5x-2$ has degree 1 (linear); $2x^2-3$ has degree 2 (quadratic); $x^3+x$ has degree 3 (cubic); $7=7x^0$ has degree 0 (a constant polynomial)."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Relations between zeroes and coefficients",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quantity with its value, where $a\\neq0$.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/formula-card.svg",
+      "alt": "Chips for a, b, c and d under the general cubic and quadratic"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Zero of the linear polynomial $ax+b$"
+      },
+      {
+        "id": "l2",
+        "text": "Product of the zeroes of $ax^2+bx+c$"
+      },
+      {
+        "id": "l3",
+        "text": "Product of the zeroes of $ax^3+bx^2+cx+d$"
+      },
+      {
+        "id": "l4",
+        "text": "Sum of the zeroes of $ax^2+bx+c$ when $b=0$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$-\\dfrac{d}{a}$"
+      },
+      {
+        "id": "r1",
+        "text": "$-\\dfrac{b}{a}$"
+      },
+      {
+        "id": "r4",
+        "text": "$0$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{c}{a}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Recall the three formulae, and see what happens when $b=0$.",
+    "explanation": "The zero of $ax+b$ is $-\\frac ba$. For a quadratic, product $=\\frac ca$. For a cubic, product $=-\\frac da$ (note the minus sign). The sum of the zeroes of a quadratic is $-\\frac ba$, which is $0$ when $b=0$, like $x^2-9$ with zeroes $3$ and $-3$."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Zeroes of quadratics",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each polynomial with its zeroes.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/zero-meaning.svg",
+      "alt": "Parabola with a zero k marked where p(k) = 0"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$x^2 - 5x + 6$"
+      },
+      {
+        "id": "l2",
+        "text": "$x^2 - 9$"
+      },
+      {
+        "id": "l3",
+        "text": "$x^2 + x - 6$"
+      },
+      {
+        "id": "l4",
+        "text": "$2x^2 - x - 1$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$-3$ and $2$"
+      },
+      {
+        "id": "r1",
+        "text": "$2$ and $3$"
+      },
+      {
+        "id": "r4",
+        "text": "$1$ and $-\\dfrac12$"
+      },
+      {
+        "id": "r2",
+        "text": "$3$ and $-3$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Factorise each polynomial and put each factor equal to zero.",
+    "explanation": "$x^2-5x+6=(x-2)(x-3)$; $x^2-9=(x-3)(x+3)$; $x^2+x-6=(x+3)(x-2)$; $2x^2-x-1=(2x+1)(x-1)$. The zeroes are the values of $x$ that make a factor zero, i.e. the points where the graph meets the x-axis."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Graphs and number of zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each graph with the number of its zeroes.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "Graph 1",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-downnone.svg",
+          "alt": "Parabola opening down below the x-axis"
+        }
+      },
+      {
+        "id": "l2",
+        "text": "Graph 2",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-line1.svg",
+          "alt": "Straight line cutting the x-axis once"
+        }
+      },
+      {
+        "id": "l3",
+        "text": "Graph 3",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-down2.svg",
+          "alt": "Parabola opening down cutting the x-axis twice"
+        }
+      },
+      {
+        "id": "l4",
+        "text": "Graph 4",
+        "image": {
+          "src": "/img/c10-ma-polynomials/th-cub3.svg",
+          "alt": "S-shaped curve cutting the x-axis three times"
+        }
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "Two zeroes"
+      },
+      {
+        "id": "r1",
+        "text": "No zero"
+      },
+      {
+        "id": "r4",
+        "text": "Three zeroes"
+      },
+      {
+        "id": "r2",
+        "text": "One zero"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Count the points where each graph meets the x-axis.",
+    "explanation": "Graph 1 stays below the axis: no zero. Graph 2 is a straight line cutting the axis once: one zero. Graph 3 is a parabola cutting the axis twice: two zeroes. Graph 4 is a cubic cutting the axis three times: three zeroes."
+  },
+  {
+    "id": "in-cbse-10-math-polynomials-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "chapterNo": 2,
+    "topic": "Sum and product of zeroes",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each polynomial with the sum and product of its zeroes.",
+    "image": {
+      "src": "/img/c10-ma-polynomials/sumprod-card.svg",
+      "alt": "ax squared plus bx plus c with arrows to the sum and the product of zeroes"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$x^2 - 5x + 6$"
+      },
+      {
+        "id": "l2",
+        "text": "$3x^2 - 12$"
+      },
+      {
+        "id": "l3",
+        "text": "$2x^2 + x - 6$"
+      },
+      {
+        "id": "l4",
+        "text": "$4x^2 - 4x + 1$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "sum $-\\dfrac{1}{2}$, product $-3$"
+      },
+      {
+        "id": "r1",
+        "text": "sum $5$, product $6$"
+      },
+      {
+        "id": "r4",
+        "text": "sum $1$, product $\\dfrac{1}{4}$"
+      },
+      {
+        "id": "r2",
+        "text": "sum $0$, product $-4$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Use sum $=-\\dfrac ba$ and product $=\\dfrac ca$.",
+    "explanation": "Sum $=-\\frac ba$, product $=\\frac ca$: $x^2-5x+6\\to5,\\ 6$; $3x^2-12\\to0,\\ -4$ (here $b=0$); $2x^2+x-6\\to-\\frac12,\\ -3$; $4x^2-4x+1\\to1,\\ \\frac14$ (the single repeated zero $\\frac12$ counted twice)."
+  }
+]

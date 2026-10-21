@@ -1,0 +1,2217 @@
+[
+  {
+    "id": "in-cbse-10-math-trigapp-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Line of sight",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A student looks at the top of a minar, as in the picture. The straight line drawn from her eye to the top of the minar is called the",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/sight-def.svg",
+      "alt": "A student on the ground and a line from her eye to the top of a minar, with the horizontal marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "angle of elevation"
+      },
+      {
+        "id": "b",
+        "text": "angle of depression"
+      },
+      {
+        "id": "c",
+        "text": "line of sight"
+      },
+      {
+        "id": "d",
+        "text": "horizontal level"
+      }
+    ],
+    "answer": "c",
+    "hint": "It is a line, not an angle.",
+    "explanation": "The **line of sight** is the line drawn from the eye of an observer to the point of the object being viewed. The angles of elevation and depression are *angles* made by the line of sight with the horizontal, so they cannot name the line itself, and the horizontal level is the reference line through the eye."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Angle of elevation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The student at A looks up at the top C of the minar. Tap the **angle of elevation** of C.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-elev.svg",
+      "alt": "A student at A looking at the top C of a minar BD with a horizontal dashed line through the eye"
+    },
+    "spots": [
+      {
+        "id": "ang",
+        "x": 29.0,
+        "y": 71.5,
+        "label": "Angle of elevation"
+      },
+      {
+        "id": "los",
+        "x": 50.0,
+        "y": 45.7,
+        "label": "Line of sight"
+      },
+      {
+        "id": "hor",
+        "x": 50.0,
+        "y": 75.4,
+        "label": "Horizontal line (eye level)"
+      },
+      {
+        "id": "up",
+        "x": 79.3,
+        "y": 45.7,
+        "label": "Part of the minar above eye level"
+      },
+      {
+        "id": "low",
+        "x": 79.3,
+        "y": 80.6,
+        "label": "Part of the minar below eye level"
+      }
+    ],
+    "answer": "ang",
+    "hint": "It is formed at the eye, between the horizontal and the line of sight.",
+    "explanation": "The **angle of elevation** is the angle the line of sight makes with the **horizontal** when the object is above eye level, here the angle at A between AB and AC. The line of sight itself and the horizontal are its arms, not the angle."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Angle of depression",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A girl on a balcony looks down at a flower pot on a temple step. Tap the **angle of depression** of the pot.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-depress.svg",
+      "alt": "A balcony, a dashed horizontal line, a line of sight down to a flower pot on a step, and two shaded angles"
+    },
+    "spots": [
+      {
+        "id": "dep",
+        "x": 39.3,
+        "y": 25.1,
+        "label": "Angle of depression"
+      },
+      {
+        "id": "ele",
+        "x": 64.7,
+        "y": 65.7,
+        "label": "Angle of elevation of the balcony from the pot"
+      },
+      {
+        "id": "los",
+        "x": 51.4,
+        "y": 45.1,
+        "label": "Line of sight"
+      },
+      {
+        "id": "hor",
+        "x": 63.7,
+        "y": 20.6,
+        "label": "Horizontal line at balcony level"
+      },
+      {
+        "id": "wall",
+        "x": 24.6,
+        "y": 53.2,
+        "label": "Wall of the building"
+      }
+    ],
+    "answer": "dep",
+    "hint": "Measure from the horizontal through her eyes, downwards.",
+    "explanation": "The **angle of depression** is formed at the observer's eye between the horizontal and the line of sight when the object is below eye level. The blue angle at the pot is a different angle: the angle of elevation of the balcony seen from the pot. The two are equal because the horizontal lines are parallel."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Angle of depression",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A girl stands at the top of a lighthouse and looks at a boat on the sea. Which picture shows the **angle of depression** of the boat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/pd-c.svg",
+          "alt": "Angle between the lighthouse wall and the line of sight shaded"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/pd-a.svg",
+          "alt": "Angle below the horizontal at the top between the horizontal and the line of sight shaded"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/pd-d.svg",
+          "alt": "Large angle from the horizontal pointing backwards round to the line of sight shaded"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/pd-b.svg",
+          "alt": "Angle at the boat between the sea level and the line of sight shaded"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "The angle is measured at the eye, from the horizontal, downwards.",
+    "explanation": "The angle of depression is between the **horizontal through the eye** and the line of sight, measured downwards (picture B). Picture A shades the angle from the wall, which is the complement. Picture C shades the obtuse supplement, and picture D shades the angle at the boat, which is the angle of elevation of the lighthouse top from the boat."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Alternate angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "From the top of a tower the angle of depression of a car on the level road is $40^\\circ$. What is the angle of elevation of the top of the tower from the car (marked ?)",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/alt-angles.svg",
+      "alt": "A tower, a car, the line of sight with depression 40 degrees at the top and an unknown angle at the car"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$50^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$140^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$80^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$40^\\circ$"
+      }
+    ],
+    "answer": "d",
+    "hint": "The horizontal at the top and the road are parallel lines.",
+    "explanation": "The horizontal line through the top of the tower is parallel to the road and the line of sight is a transversal, so the angle of depression and the angle of elevation are **alternate angles** and equal: $40^\\circ$. Writing $50^\\circ$ uses the complement, $140^\\circ$ uses the supplement, and $80^\\circ$ doubles the angle."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Setting up the problem",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A student wants to find the height of a minar **without** measuring it. Select **all** the things she needs to know.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/minar-need.svg",
+      "alt": "A student and a minar with a line of sight, the distance, the angle and the height of the minar marked with question marks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The distance of the student from the foot of the minar"
+      },
+      {
+        "id": "b",
+        "text": "The angle of elevation of the top of the minar"
+      },
+      {
+        "id": "c",
+        "text": "The height of the student's eye above the ground"
+      },
+      {
+        "id": "d",
+        "text": "The weight of the student"
+      },
+      {
+        "id": "e",
+        "text": "The age of the minar"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "The total height is the height above eye level plus the height of the eye.",
+    "explanation": "The height above eye level comes from a trigonometric ratio of the angle of elevation and the distance. Then the height of the student's eye is **added**, since $CD = CB + BD$ with $BD$ equal to the student's height. Her weight and the age of the minar play no part."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Choosing the ratio",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the right triangle $ABC$, the horizontal distance $AB$ is known and the height $BC$ is to be found. Which ratios of $\\angle A$ involve **both** $AB$ and $BC$?",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/tri-ratio.svg",
+      "alt": "Right triangle ABC with angle A, AB known and BC unknown"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\tan A$ or $\\cot A$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sin A$ or $\\cos A$"
+      },
+      {
+        "id": "c",
+        "text": "$\\sec A$ or $\\csc A$"
+      },
+      {
+        "id": "d",
+        "text": "Only $\\sin A$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Which side is opposite $A$ and which is adjacent?",
+    "explanation": "$BC$ is opposite to $\\angle A$ and $AB$ is adjacent, so $\\tan A = \\dfrac{BC}{AB}$ and $\\cot A = \\dfrac{AB}{BC}$. Sine and cosine need the hypotenuse $AC$, and so do secant and cosecant, so they do not link the two known sides."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Height from distance",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "An observer stands 12 m from the foot of a vertical tower on level ground. The angle of elevation of its top is $60^\\circ$. Find the height of the tower.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/tower60.svg",
+      "alt": "Observer 12 m from a tower with a 60 degree angle of elevation to the top"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$6\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$12\\sqrt{3}$ m"
+      },
+      {
+        "id": "d",
+        "text": "$24$ m"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use the ratio that links the opposite side and the adjacent side.",
+    "explanation": "In the right triangle, $\\tan 60^\\circ = \\dfrac{h}{12}$, so $h = 12\\sqrt{3}$ m. If you use $\\tan 60^\\circ = \\dfrac{12}{h}$ you get $4\\sqrt{3}$ m, using sine gives $6\\sqrt{3}$ m, and using cosine gives $24$ m, but none of these use the correct sides."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Alternate angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/parallel-lines.svg",
+      "alt": "Two parallel horizontal lines with a slanted line of sight and equal alternate angles theta"
+    },
+    "assertion": "The angle of depression of a point on the ground seen from the top of a tower is equal to the angle of elevation of the top of the tower seen from that point.",
+    "reason": "The horizontal through the observer's eye is parallel to the ground, so the two angles are alternate angles.",
+    "answer": "a",
+    "hint": "Look at the two parallel lines and the line of sight as a transversal.",
+    "explanation": "Both statements are true and R explains A. The line of sight is a transversal of the two parallel horizontals, and alternate interior angles are equal. This is why the right triangle can be solved using whichever of the two angles is convenient."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Sides of the right triangle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The angle of elevation of the top C of a tower BC is marked at A. Tap the side that is **opposite** to the angle of elevation.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-opp.svg",
+      "alt": "Right triangle ABC with a 30 degree angle at A, tower BC and ground distance AB"
+    },
+    "spots": [
+      {
+        "id": "opp",
+        "x": 80.3,
+        "y": 52.3,
+        "label": "BC, the side opposite to the angle of elevation"
+      },
+      {
+        "id": "adj",
+        "x": 48.1,
+        "y": 83.3,
+        "label": "AB, the side adjacent to the angle of elevation"
+      },
+      {
+        "id": "hyp",
+        "x": 48.1,
+        "y": 52.3,
+        "label": "AC, the hypotenuse (line of sight)"
+      },
+      {
+        "id": "ang",
+        "x": 24.9,
+        "y": 79.2,
+        "label": "Angle of elevation"
+      },
+      {
+        "id": "rt",
+        "x": 78.1,
+        "y": 78.9,
+        "label": "Right angle at the foot of the tower"
+      }
+    ],
+    "answer": "opp",
+    "hint": "The opposite side does not touch the marked angle.",
+    "explanation": "The side **opposite** to $\\angle A$ is $BC$, the tower: it faces $A$ and does not touch it. $AB$ is adjacent (it touches the angle) and $AC$ is the hypotenuse, the line of sight. So $\\tan A = \\dfrac{BC}{AB}$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Ladder problems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "An 8 m long ladder leans against a vertical wall and makes an angle of $60^\\circ$ with the ground. How high up the wall does it reach?",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/ladder60.svg",
+      "alt": "An 8 m ladder against a wall making 60 degrees with the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4$ m"
+      },
+      {
+        "id": "b",
+        "text": "$4\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$8\\sqrt{3}$ m"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{8\\sqrt{3}}{3}$ m"
+      }
+    ],
+    "answer": "b",
+    "hint": "The ladder is the hypotenuse, and the height is opposite the angle.",
+    "explanation": "The ladder is the hypotenuse and the height $h$ is opposite the $60^\\circ$ angle, so $\\sin 60^\\circ = \\dfrac{h}{8}$ and $h = 8 \\cdot \\dfrac{\\sqrt 3}{2} = 4\\sqrt3$ m. Using cosine gives $4$ m (the distance of the foot), tangent gives $8\\sqrt{3}$ m, and cotangent gives $\\dfrac{8\\sqrt{3}}{3}$ m, each using the wrong sides."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Key terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term with the picture that highlights it.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/terms-scene.svg",
+      "alt": "An observer on a roof looking up at a kite and down at a car with two angles marked"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Line of sight"
+      },
+      {
+        "id": "l2",
+        "text": "Angle of elevation"
+      },
+      {
+        "id": "l3",
+        "text": "Angle of depression"
+      },
+      {
+        "id": "l4",
+        "text": "Horizontal level through the eye"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Picture P",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/t-dep.svg",
+          "alt": "The angle below the horizontal shaded"
+        }
+      },
+      {
+        "id": "r2",
+        "text": "Picture Q",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/t-hor.svg",
+          "alt": "The horizontal dashed line from the eye highlighted"
+        }
+      },
+      {
+        "id": "r3",
+        "text": "Picture R",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/t-los.svg",
+          "alt": "The line from the eye to the kite highlighted"
+        }
+      },
+      {
+        "id": "r4",
+        "text": "Picture S",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/t-elev.svg",
+          "alt": "The angle above the horizontal shaded"
+        }
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r4",
+      "l3": "r1",
+      "l4": "r2"
+    },
+    "hint": "Look for the line, the angle above the level line and the angle below it.",
+    "explanation": "The line of sight is the line from the eye to the object (R). The angle of elevation is above the horizontal (S), the angle of depression is below it (P), and the horizontal level (Q) is the reference line from which both are measured."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Using sine",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A 12 m ladder reaches a point 6 m up a vertical wall. Which picture shows the angle the ladder makes with the ground?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/lad-60.svg",
+          "alt": "Ladder at 60 degrees to the ground"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/lad-45.svg",
+          "alt": "Ladder at 45 degrees to the ground"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/lad-75.svg",
+          "alt": "Ladder at 75 degrees to the ground"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/lad-30.svg",
+          "alt": "Ladder at 30 degrees to the ground"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Find sine of the angle with the ground using height and ladder length.",
+    "explanation": "$\\sin\\theta = \\dfrac{6}{12} = \\dfrac12$, so $\\theta = 30^\\circ$ (picture D). The pictures with $60^\\circ$, $45^\\circ$ and $75^\\circ$ would reach $12\\sin 60^\\circ \\approx 10.4$ m, $12\\sin45^\\circ \\approx 8.5$ m and $12 \\sin 75^\\circ \\approx 11.6$ m up the wall."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Quick calculations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with its answer.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/kite30.svg",
+      "alt": "A kite on a 40 m string at 30 degrees to the ground"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Kite string 40 m long, inclined at $30^\\circ$ to the ground: **height of the kite**"
+      },
+      {
+        "id": "l2",
+        "text": "Ladder 10 m long, inclined at $60^\\circ$ to the ground: **height reached on the wall**"
+      },
+      {
+        "id": "l3",
+        "text": "Pole 12 m high: **length of its shadow** when the Sun's altitude is $60^\\circ$"
+      },
+      {
+        "id": "l4",
+        "text": "Tower seen at $45^\\circ$ from a point 30 m from its foot: **height of the tower**"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$4\\sqrt{3}$ m"
+      },
+      {
+        "id": "r2",
+        "text": "$20$ m"
+      },
+      {
+        "id": "r3",
+        "text": "$30$ m"
+      },
+      {
+        "id": "r4",
+        "text": "$5\\sqrt{3}$ m"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r4",
+      "l3": "r1",
+      "l4": "r3"
+    },
+    "hint": "Choose sine, tangent or cotangent depending on which two sides are involved.",
+    "explanation": "Kite: $\\sin30^\\circ=\\dfrac{h}{40}$ gives $20$ m. Ladder: $10\\sin60^\\circ$ gives $5\\sqrt{3}$ m. Shadow: $\\tan 60^\\circ=\\dfrac{12}{s}$ gives $4\\sqrt{3}$ m. Tower: $\\tan45^\\circ=1$ gives $30$ m."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Broken tree",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A tree is broken by a storm and the broken part bends so that its top touches the ground 9 m from the foot, making an angle of $30^\\circ$ with the ground. What was the **original height** of the tree?",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/tree-broken.svg",
+      "alt": "A tree with a standing part and a bent part touching the ground 9 m away at 30 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$9\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$3\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$6\\sqrt{3}$ m"
+      },
+      {
+        "id": "d",
+        "text": "$9$ m"
+      }
+    ],
+    "answer": "a",
+    "hint": "The original height is the standing part plus the broken part.",
+    "explanation": "Standing part: $\\tan30^\\circ=\\dfrac{x}{9}$ gives $x=3\\sqrt{3}$ m. Broken part (hypotenuse): $\\cos30^\\circ=\\dfrac{9}{y}$ gives $y=6\\sqrt{3}$ m. Original height $= x+y=9\\sqrt{3}$ m. The options $3\\sqrt{3}$ and $6\\sqrt{3}$ give only one of the two parts, and 9 is just the distance on the ground."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Broken tree",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A tree breaks and its top touches the ground 6 m from the foot. Tap the **broken part** of the tree.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-tree.svg",
+      "alt": "A trunk standing at the left and the bent part sloping down to the ground 6 m away at 30 degrees"
+    },
+    "spots": [
+      {
+        "id": "stand",
+        "x": 19.2,
+        "y": 55.0,
+        "label": "The part of the trunk still standing"
+      },
+      {
+        "id": "broken",
+        "x": 43.0,
+        "y": 55.0,
+        "label": "The broken part of the tree"
+      },
+      {
+        "id": "gap",
+        "x": 45.6,
+        "y": 83.2,
+        "label": "Distance from the foot to where the top touches the ground"
+      },
+      {
+        "id": "ang",
+        "x": 64.2,
+        "y": 79.5,
+        "label": "Angle the broken part makes with the ground"
+      }
+    ],
+    "answer": "broken",
+    "hint": "It is the slanting part, which becomes the hypotenuse.",
+    "explanation": "The part that bent down and touches the ground is the slanting side, the **hypotenuse** of the right triangle. The part still standing is the vertical side, and the 6 m is the base on the ground. The original height equals standing part plus broken part."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "An observer 1.6 m tall is 24 m from a chimney and sees its top at $45^\\circ$. Arrange the steps of the solution in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/chimney.svg",
+      "alt": "An observer 1.6 m tall 24 m from a chimney with a 45 degree line of sight to its top"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Add the height of the observer, $1.6$ m, to AE"
+      },
+      {
+        "id": "s1",
+        "text": "Draw a figure and mark the known and unknown lengths and the angle of elevation"
+      },
+      {
+        "id": "s5",
+        "text": "State the height of the chimney with its unit"
+      },
+      {
+        "id": "s3",
+        "text": "Solve for AE using $\\tan 45^\\circ = 1$"
+      },
+      {
+        "id": "s2",
+        "text": "Choose the ratio that links the known side and the required side: $\\tan 45^\\circ = \\dfrac{AE}{24}$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "A diagram and a ratio come before any arithmetic, and the eye height is added last.",
+    "explanation": "Draw the figure, pick the right ratio, solve for the part above eye level ($AE = 24$ m because $\\tan45^\\circ=1$), then add the observer's height: $24 + 1.6 = 25.6$ m. Forgetting the last addition is the most common slip."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Sun's altitude",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A 20 m tower casts a shadow 20 m long on level ground. Which picture shows the Sun's ray correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/sh-35.svg",
+          "alt": "Shadow about 35 m"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/sh-10.svg",
+          "alt": "Shadow 10 m"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/sh-20.svg",
+          "alt": "Shadow 20 m, the same as the tower"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/sh-40.svg",
+          "alt": "Shadow 40 m"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Equal height and shadow means a special angle.",
+    "explanation": "Height equals shadow length, so $\\tan\\alpha = \\dfrac{20}{20} = 1$ and the Sun's altitude is $45^\\circ$ (picture C). A 10 m shadow would give $\\tan\\alpha = 2$, a 40 m shadow gives $\\tan\\alpha=\\dfrac12$, and a shadow of $20\\sqrt3\\approx34.6$ m gives $30^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Sun's altitude",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/shadow45.svg",
+      "alt": "A vertical 8 m pole with a shadow 8 m long and a 45 degree Sun ray"
+    },
+    "assertion": "When the Sun's altitude is $45^\\circ$, a vertical pole casts a shadow equal to its own height.",
+    "reason": "$\\sin 45^\\circ = \\cos 45^\\circ$.",
+    "answer": "b",
+    "hint": "Which ratio of the shadow and the pole is used?",
+    "explanation": "Both are true, but R does not explain A. The shadow $s$ and pole $h$ are related by $\\tan 45^\\circ = \\dfrac{h}{s}$ and $\\tan45^\\circ = 1$, so $s=h$. The sine and cosine do not involve $s$ and $h$ alone, because they need the length of the ray."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Building and flagstaff",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "From a point P on the ground the angle of elevation of the top of a 20 m tall building is $30^\\circ$. A flagstaff stands on top of the building and the angle of elevation of its top from P is $45^\\circ$. Find the length of the flagstaff.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/flagstaff.svg",
+      "alt": "A 20 m building with a flagstaff above it, seen from P at 30 degrees to the roof and 45 degrees to the flag top"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$20\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$20\\sqrt{3}+20$ m"
+      },
+      {
+        "id": "c",
+        "text": "$20$ m"
+      },
+      {
+        "id": "d",
+        "text": "$20\\sqrt{3}-20$ m"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find PA first from the building, then use $45^\\circ$ for the total height.",
+    "explanation": "$\\tan30^\\circ=\\dfrac{20}{PA}$ gives $PA=20\\sqrt3$ m. At $45^\\circ$ the total height equals $PA$, so $20+x=20\\sqrt3$ and $x=20(\\sqrt3-1)$ m. The option $20\\sqrt3$ forgets to subtract the 20 m, $20(\\sqrt3+1)$ has a sign slip, and 20 assumes the flagstaff equals the building height."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Shadow lengths",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the shadows of these vertical poles from **shortest** to **longest**.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/sun-arcs.svg",
+      "alt": "A pole with four Sun rays at 15, 30, 45 and 60 degrees giving four shadow lengths"
+    },
+    "items": [
+      {
+        "id": "p2",
+        "text": "Pole 6 m, Sun's altitude $30^\\circ$"
+      },
+      {
+        "id": "p0",
+        "text": "Pole 9 m, Sun's altitude $60^\\circ$"
+      },
+      {
+        "id": "p3",
+        "text": "Pole 5 m, Sun's altitude $15^\\circ$"
+      },
+      {
+        "id": "p1",
+        "text": "Pole 8 m, Sun's altitude $45^\\circ$"
+      }
+    ],
+    "answer": [
+      "p0",
+      "p1",
+      "p2",
+      "p3"
+    ],
+    "startLabel": "Shortest shadow",
+    "endLabel": "Longest shadow",
+    "hint": "Shadow length is height divided by $\\tan$ of the altitude.",
+    "explanation": "Shadow $= \\dfrac{\\text{height}}{\\tan(\\text{altitude})}$: $3\\sqrt{3}\\approx5.20$ m, $8=8$ m, $6\\sqrt{3}\\approx10.39$ m and $5(2+\\sqrt3)\\approx18.66$ m, using $\\tan15^\\circ=2-\\sqrt3$. A lower Sun makes a longer shadow."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Shadow problem",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The shadow of a tower on level ground is 50 m longer when the Sun's altitude is $30^\\circ$ than when it is $60^\\circ$. Find the height of the tower.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/shadow50.svg",
+      "alt": "A tower with its shadow 50 m longer at 30 degrees than at 60 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$50\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$25\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$25$ m"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{50\\sqrt{3}}{3}$ m"
+      }
+    ],
+    "answer": "b",
+    "hint": "Let the shorter shadow be $x$, so the longer one is $x+50$.",
+    "explanation": "$h = x\\sqrt3$ from $\\tan60^\\circ$, and $\\dfrac{h}{x+50}=\\dfrac1{\\sqrt3}$ from $\\tan30^\\circ$. So $3x = x+50$, $x = 25$ and $h = 25\\sqrt3$ m. The values $50\\sqrt3$ (using 50 as the shadow) and 25 (the shorter shadow) are traps, and $\\dfrac{50\\sqrt3}{3}$ swaps tan and cot."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Two shadows",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A tower's shadow is 40 m longer when the Sun is at $30^\\circ$ than at $60^\\circ$. Tap the **extra length** of the shadow.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-shadow.svg",
+      "alt": "A tower AB with shadow BC at 60 degrees and a longer shadow BD at 30 degrees; CD marked 40 m"
+    },
+    "spots": [
+      {
+        "id": "tow",
+        "x": 18.5,
+        "y": 46.4,
+        "label": "Tower AB"
+      },
+      {
+        "id": "sh1",
+        "x": 29.3,
+        "y": 77.5,
+        "label": "Shadow BC when the Sun is at 60°"
+      },
+      {
+        "id": "ext",
+        "x": 61.5,
+        "y": 77.5,
+        "label": "Extra length of shadow CD"
+      },
+      {
+        "id": "ray",
+        "x": 50.8,
+        "y": 46.4,
+        "label": "Sun ray through the top of the tower to D"
+      },
+      {
+        "id": "angd",
+        "x": 77.1,
+        "y": 74.8,
+        "label": "Sun’s altitude at D"
+      }
+    ],
+    "answer": "ext",
+    "hint": "It is the part of the longer shadow beyond the shorter shadow.",
+    "explanation": "The shorter shadow is $BC$ (Sun at $60^\\circ$) and the longer shadow is $BD$ (Sun at $30^\\circ$). The extra length is $CD = BD - BC = 40$ m. Setting $BC = x$ then $BD = x + 40$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Angle from the distance",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A bird flies 30 m above the ground and an observer's eye is at ground level. Select **all** the correct statements about the angle of elevation $\\theta$ of the bird.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/bird-dist.svg",
+      "alt": "A bird 30 m above the ground and an observer at distance d"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "If $d = 30$ m then $\\theta = 45^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "If $d = 30\\sqrt3$ m then $\\theta = 30^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "If $d = 10\\sqrt3$ m then $\\theta = 60^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "If $d = 15$ m then $\\theta = 30^\\circ$"
+      },
+      {
+        "id": "e",
+        "text": "If $d = 60$ m then $\\theta = 60^\\circ$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Compute $\\tan\\theta = \\dfrac{30}{d}$ in each case.",
+    "explanation": "$\\tan\\theta=\\dfrac{30}{d}$: $d=30$ gives 1 ($45^\\circ$); $d=30\\sqrt3$ gives $\\dfrac1{\\sqrt3}$ ($30^\\circ$); $d=10\\sqrt3$ gives $\\sqrt3$ ($60^\\circ$). $d=15$ gives 2 and $d=60$ gives $\\dfrac12$, neither of which is $\\tan30^\\circ$ or $\\tan60^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Walking towards a building",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A 1.5 m tall boy stands some distance from a 24 m tall building. The angle of elevation of its top from his eyes is $30^\\circ$. He walks towards the building and the angle becomes $60^\\circ$. Find the distance he walked.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/boy-walks.svg",
+      "alt": "A boy at two positions with sight lines to the top of a 24 m building at 30 and 60 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$15\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{45\\sqrt{3}}{2}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{15\\sqrt{3}}{2}$ m"
+      },
+      {
+        "id": "d",
+        "text": "$16\\sqrt{3}$ m"
+      }
+    ],
+    "answer": "a",
+    "hint": "Use the height above eye level, $24-1.5$.",
+    "explanation": "Height above his eyes $=22.5$ m. First distance $=22.5\\sqrt3$, second distance $=\\dfrac{22.5}{\\sqrt3}=7.5\\sqrt3$. Walked $=22.5\\sqrt3-7.5\\sqrt3=15\\sqrt3$ m. The other options are the first distance alone ($\\dfrac{45\\sqrt{3}}{2}$), the final distance alone ($\\dfrac{15\\sqrt{3}}{2}$), or the answer found by using 24 m instead of 22.5 m ($16\\sqrt{3}$)."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Walking towards a tower",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/two-pos.svg",
+      "alt": "A tower seen from a far point at angle alpha and from a nearer point at a bigger angle beta"
+    },
+    "assertion": "As an observer on level ground walks towards a tower, the angle of elevation of its top decreases.",
+    "reason": "$\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$, so for a fixed height $\\tan\\theta$ increases as the distance decreases.",
+    "answer": "d",
+    "hint": "Compare the angle at the far point with the angle at the near point in the picture.",
+    "explanation": "A is **false**: the angle gets bigger as the observer comes closer ($\\beta > \\alpha$). R is true, because with a fixed height a smaller distance gives a larger tangent and hence a larger angle."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Two buildings",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "From the top of a multi-storeyed building the angles of depression of the top and the bottom of a 6 m tall building are $30^\\circ$ and $45^\\circ$ respectively. Find the height of the multi-storeyed building.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/twobuild-6.svg",
+      "alt": "A tall building and a 6 m building with lines of sight at 30 and 45 degrees of depression"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3\\sqrt{3}+3$ m"
+      },
+      {
+        "id": "b",
+        "text": "$2\\sqrt{3}+6$ m"
+      },
+      {
+        "id": "c",
+        "text": "$3\\sqrt{3}+9$ m"
+      },
+      {
+        "id": "d",
+        "text": "$-3\\sqrt{3}+9$ m"
+      }
+    ],
+    "answer": "c",
+    "hint": "The distance between the buildings is the same as the height at $45^\\circ$.",
+    "explanation": "Let the height be $H$ and the distance $d$. At $45^\\circ$, $d=H$. At $30^\\circ$, $\\dfrac{H-6}{H}=\\dfrac1{\\sqrt3}$, so $H=\\dfrac{6\\sqrt3}{\\sqrt3-1}=3(3+\\sqrt3)$, that is $3\\sqrt{3}+9$ m. The option $3\\sqrt{3}+3$ is $H-6$, the option $2\\sqrt{3}+6$ assumes $d=6$, and $-3\\sqrt{3}+9$ uses the wrong conjugate when rationalising."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Two buildings",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "From the roof of a tall building the top and bottom of a shorter building are seen. Tap the part of the tall building that rises **above the roof of the short building**.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-twobuild.svg",
+      "alt": "A tall building and a shorter one with two lines of sight from the tall roof to the top and bottom of the short building"
+    },
+    "spots": [
+      {
+        "id": "upper",
+        "x": 29.4,
+        "y": 38.3,
+        "label": "Part of the tall building above the short building’s roof"
+      },
+      {
+        "id": "lower",
+        "x": 29.4,
+        "y": 68.2,
+        "label": "Part of the tall building level with the short building"
+      },
+      {
+        "id": "short",
+        "x": 76.3,
+        "y": 68.2,
+        "label": "The short building"
+      },
+      {
+        "id": "gap",
+        "x": 48.9,
+        "y": 87.5,
+        "label": "Distance between the buildings"
+      }
+    ],
+    "answer": "upper",
+    "hint": "Level the roof of the short building across to the tall one.",
+    "explanation": "The roof of the short building is level with a point on the tall building; the segment above it is $H - h$. This is the side opposite the angle of depression of the top in the upper right triangle, so $\\tan30^\\circ = \\dfrac{H-h}{d}$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "River width",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "From a point P on a bridge across a river, 5 m above the banks, the angles of depression of the banks on opposite sides are $30^\\circ$ and $45^\\circ$. Find the width of the river.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/bridge-5.svg",
+      "alt": "A bridge 5 m above a river with sight lines at 30 and 45 degrees to the two banks"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$5$ m"
+      },
+      {
+        "id": "c",
+        "text": "$10$ m"
+      },
+      {
+        "id": "d",
+        "text": "$5\\sqrt{3}+5$ m"
+      }
+    ],
+    "answer": "d",
+    "hint": "The width is the sum of two horizontal distances.",
+    "explanation": "$AD = \\dfrac{5}{\\tan30^\\circ} = 5\\sqrt3$ and $DB = \\dfrac{5}{\\tan45^\\circ} = 5$. Width $= AD + DB = 5(\\sqrt3 + 1)$ m. The options $5\\sqrt3$ and 5 give only one side, and 10 treats both angles as $45^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "River width",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **width of the river**.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-bridge.svg",
+      "alt": "A bridge with lines of sight from P to bank A at 30 degrees and bank B at 45 degrees"
+    },
+    "spots": [
+      {
+        "id": "width",
+        "x": 50.0,
+        "y": 76.4,
+        "label": "Width of the river AB"
+      },
+      {
+        "id": "pa",
+        "x": 43.4,
+        "y": 56.2,
+        "label": "Line of sight to bank A"
+      },
+      {
+        "id": "pb",
+        "x": 61.4,
+        "y": 56.2,
+        "label": "Line of sight to bank B"
+      },
+      {
+        "id": "deck",
+        "x": 86.6,
+        "y": 43.7,
+        "label": "Deck of the bridge"
+      }
+    ],
+    "answer": "width",
+    "hint": "It is the distance between the two banks, measured along the ground.",
+    "explanation": "The width of the river is the distance $AB$ between the two banks, which is $AD + DB$ when D is the point below the bridge. The lines of sight are the hypotenuses of the two right triangles and the deck is not part of the river."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Tower and building",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The angle of elevation of the top of a building from the foot of a 36 m high tower is $30^\\circ$, and the angle of elevation of the top of the tower from the foot of the building is $60^\\circ$. Find the height of the building.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/tower-bldg.svg",
+      "alt": "A 36 m tower and a building with lines of sight crossing between their tops and feet"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$12\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$12$ m"
+      },
+      {
+        "id": "c",
+        "text": "$108$ m"
+      },
+      {
+        "id": "d",
+        "text": "$4\\sqrt{3}$ m"
+      }
+    ],
+    "answer": "b",
+    "hint": "First find the distance between the foot of the tower and the foot of the building.",
+    "explanation": "$\\tan60^\\circ=\\dfrac{36}{d}$ gives $d = 12\\sqrt3$ m. Then $\\tan30^\\circ=\\dfrac{h}{12\\sqrt3}$ gives $h = 12$ m. The value $12\\sqrt3$ is just the distance, 108 inverts the ratio, and $4\\sqrt3$ divides by $\\sqrt3$ once too often."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Heights from angles",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "The observers stand on level ground with their eyes at ground level. Arrange the towers from **shortest** to **tallest**.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/tan-graph.svg",
+      "alt": "Graph of tan theta against theta with the values at 30, 45 and 60 degrees marked"
+    },
+    "items": [
+      {
+        "id": "t2",
+        "text": "Tower seen at $60^\\circ$ from 10 m away"
+      },
+      {
+        "id": "t1",
+        "text": "Tower seen at $45^\\circ$ from 15 m away"
+      },
+      {
+        "id": "t3",
+        "text": "Tower seen at $30^\\circ$ from 24 m away"
+      },
+      {
+        "id": "t0",
+        "text": "Tower seen at $30^\\circ$ from 20 m away"
+      }
+    ],
+    "answer": [
+      "t0",
+      "t3",
+      "t1",
+      "t2"
+    ],
+    "startLabel": "Shortest",
+    "endLabel": "Tallest",
+    "hint": "Height = distance $\\times \\tan\\theta$; use $\\tan30^\\circ = \\frac1{\\sqrt3}$, $\\tan45^\\circ=1$, $\\tan60^\\circ=\\sqrt3$.",
+    "explanation": "Height $=$ distance $\\times\\tan\\theta$. The heights are $\\dfrac{20\\sqrt{3}}{3}\\approx11.55$ m, $8\\sqrt{3}\\approx13.86$ m, $15$ m and $10\\sqrt{3}\\approx17.32$ m. A larger angle does not always mean a taller tower, because the distance matters too."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Two poles",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Two poles of equal height stand on either side of a 60 m wide road. From a point on the road between them the angles of elevation of the tops are $60^\\circ$ and $30^\\circ$. Find the height of the poles.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/poles.svg",
+      "alt": "Two poles across a 60 m road with lines of sight from a point P at 60 degrees and 30 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$15\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$30\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$15$ m"
+      },
+      {
+        "id": "d",
+        "text": "$45$ m"
+      }
+    ],
+    "answer": "a",
+    "hint": "Let the distance from the nearer pole be $x$; the other distance is $60-x$.",
+    "explanation": "$h = x\\tan60^\\circ = x\\sqrt3$ and $h = (60-x)\\tan30^\\circ = \\dfrac{60-x}{\\sqrt3}$. So $3x = 60-x$, $x = 15$ m and $h = 15\\sqrt3$ m. The point is 15 m and 45 m from the poles. Taking the midpoint gives $30\\sqrt3$, and 15 and 45 are the distances, not the height."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Distance from the tower",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "The tower is 12 m high and the observer's eye is at ground level. Match each angle of elevation with the observer's distance from the foot of the tower.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/three-angles.svg",
+      "alt": "A 12 m tower with lines of sight from its top to three points on the ground"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Angle of elevation of the tower top is $30^\\circ$"
+      },
+      {
+        "id": "l2",
+        "text": "Angle of elevation of the tower top is $45^\\circ$"
+      },
+      {
+        "id": "l3",
+        "text": "Angle of elevation of the tower top is $60^\\circ$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$12$ m"
+      },
+      {
+        "id": "r2",
+        "text": "$4\\sqrt{3}$ m"
+      },
+      {
+        "id": "r3",
+        "text": "$12\\sqrt{3}$ m"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r1",
+      "l3": "r2"
+    },
+    "hint": "Distance $= \\dfrac{12}{\\tan\\theta}$.",
+    "explanation": "Distance $=\\dfrac{12}{\\tan\\theta}$: for $30^\\circ$ it is $12\\sqrt{3}$ m, for $45^\\circ$ it is 12 m, and for $60^\\circ$ it is $4\\sqrt{3}$ m. A smaller angle means the observer is farther away."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Cable tower",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "From the top of a 9 m high building the angle of elevation of the top of a cable tower is $60^\\circ$ and the angle of depression of its foot is $45^\\circ$. Find the height of the tower.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/cable.svg",
+      "alt": "A 9 m building and a cable tower with a 60 degree elevation to its top and a 45 degree depression to its foot"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$9\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$9\\sqrt{3}-9$ m"
+      },
+      {
+        "id": "c",
+        "text": "$9\\sqrt{3}+9$ m"
+      },
+      {
+        "id": "d",
+        "text": "$18$ m"
+      }
+    ],
+    "answer": "c",
+    "hint": "The distance to the tower equals the height of the building, from the $45^\\circ$ angle.",
+    "explanation": "$\\tan45^\\circ = \\dfrac{9}{d}$ gives $d = 9$ m. The part of the tower above the roof is $d\\tan60^\\circ = 9\\sqrt3$ m. Height $= 9 + 9\\sqrt3 = 9(\\sqrt3+1)$ m. The option $9\\sqrt3$ forgets the 9 m below, $9(\\sqrt3-1)$ subtracts instead, and 18 treats both angles as $45^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Elevation or depression",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A person on a cliff looks up at a bird and down at a boat. Select **all** the correct statements.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/cliff-gull.svg",
+      "alt": "A person on a cliff with sight lines to a bird above and a boat below"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The angle of elevation is measured upwards from the horizontal through the eye"
+      },
+      {
+        "id": "b",
+        "text": "The angle of depression is measured downwards from the horizontal through the eye"
+      },
+      {
+        "id": "c",
+        "text": "The angle of depression is measured from the vertical"
+      },
+      {
+        "id": "d",
+        "text": "For the boat the angle formed with the horizontal is the angle of elevation"
+      },
+      {
+        "id": "e",
+        "text": "We raise our head to look at the bird"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "e"
+    ],
+    "hint": "Both angles are measured from the horizontal.",
+    "explanation": "The angle of elevation (bird above eye level) is measured **upwards** from the horizontal and the angle of depression (boat below eye level) **downwards** from the horizontal. Neither uses the vertical, and for the boat the angle is a depression, not an elevation. Raising the head describes looking at the bird."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Two ships",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "As observed from the top of a 60 m high lighthouse above sea level, the angles of depression of two ships are $30^\\circ$ and $45^\\circ$. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/lh-60.svg",
+      "alt": "A 60 m lighthouse with two ships in a line at 45 and 30 degrees of depression"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$60\\sqrt{3}+60$ m"
+      },
+      {
+        "id": "b",
+        "text": "$60\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$60$ m"
+      },
+      {
+        "id": "d",
+        "text": "$60\\sqrt{3}-60$ m"
+      }
+    ],
+    "answer": "d",
+    "hint": "Find the distance of each ship from the base and subtract.",
+    "explanation": "The ship seen at $45^\\circ$ is $60$ m from the base and the ship seen at $30^\\circ$ is $60\\sqrt3$ m away. Distance between them $= 60\\sqrt3 - 60 = 60(\\sqrt3-1)$ m. The option $60(\\sqrt3+1)$ would be for ships on opposite sides, $60\\sqrt3$ is the farther ship alone and 60 the nearer ship alone."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Distance between ships",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The ships are in a line on the same side of the lighthouse. Tap the **distance between the two ships**.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-lighthouse.svg",
+      "alt": "A lighthouse with two ships seen at 45 and 30 degrees of depression"
+    },
+    "spots": [
+      {
+        "id": "gap",
+        "x": 67.8,
+        "y": 87.5,
+        "label": "Distance between the two ships"
+      },
+      {
+        "id": "s1",
+        "x": 53.2,
+        "y": 76.1,
+        "label": "The nearer ship"
+      },
+      {
+        "id": "s2",
+        "x": 82.4,
+        "y": 76.1,
+        "label": "The farther ship"
+      },
+      {
+        "id": "lh",
+        "x": 13.3,
+        "y": 45.1,
+        "label": "The lighthouse"
+      },
+      {
+        "id": "los",
+        "x": 33.2,
+        "y": 45.1,
+        "label": "Line of sight to the nearer ship"
+      }
+    ],
+    "answer": "gap",
+    "hint": "It is the difference of the two distances from the lighthouse.",
+    "explanation": "The distance between the ships is the **difference** of their distances from the base of the lighthouse: $75\\sqrt3 - 75$ m. It is not the length of either line of sight, and it is not either ship's own distance from the lighthouse."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Angle of depression",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "From the top of a 30 m building the angle of depression of a car on the road is $30^\\circ$. Which picture shows the position of the car correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/car-a.svg",
+          "alt": "Car about 52 m from the building"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/car-c.svg",
+          "alt": "Car about 17 m from the building"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/car-d.svg",
+          "alt": "Car 60 m from the building"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-trig-applications/car-b.svg",
+          "alt": "Car 30 m from the building"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "Find the distance using $\\tan30^\\circ = \\dfrac{30}{d}$.",
+    "explanation": "$\\tan30^\\circ=\\dfrac{30}{d}$ gives $d = 30\\sqrt3 \\approx 52$ m (picture A). A car 30 m away is seen at $45^\\circ$, one 17 m away ($30/\\sqrt3$) at $60^\\circ$, and one 60 m away at about $27^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Balloon",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A 1.6 m tall girl watches a balloon moving with the wind in a horizontal line at a height of 61.6 m above the ground. The angle of elevation from her eyes is $60^\\circ$ at one instant and $30^\\circ$ later. Find the distance travelled by the balloon.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/balloon-60.svg",
+      "alt": "A girl and a balloon at two positions with lines of sight at 60 and 30 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$20\\sqrt{3}$ m"
+      },
+      {
+        "id": "b",
+        "text": "$40\\sqrt{3}$ m"
+      },
+      {
+        "id": "c",
+        "text": "$60\\sqrt{3}$ m"
+      },
+      {
+        "id": "d",
+        "text": "$80\\sqrt{3}$ m"
+      }
+    ],
+    "answer": "b",
+    "hint": "The balloon is $61.6-1.6$ m above her eyes.",
+    "explanation": "Height above her eyes $= 60$ m. At $60^\\circ$ the horizontal distance is $\\dfrac{60}{\\sqrt3}=20\\sqrt3$; at $30^\\circ$ it is $60\\sqrt3$. Distance moved $= 60\\sqrt3 - 20\\sqrt3 = 40\\sqrt3$ m. The option $20\\sqrt3$ is the first position only, $60\\sqrt3$ the second only, and $80\\sqrt3$ adds the two distances."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Balloon",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A balloon moves horizontally and is seen first at $60^\\circ$ and then at $30^\\circ$. Tap the **distance travelled** by the balloon.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-balloon.svg",
+      "alt": "A girl watching a balloon at two positions at 60 and 30 degrees"
+    },
+    "spots": [
+      {
+        "id": "path",
+        "x": 60.4,
+        "y": 10.9,
+        "label": "Distance travelled by the balloon"
+      },
+      {
+        "id": "b1",
+        "x": 35.6,
+        "y": 15.8,
+        "label": "Balloon at the first position"
+      },
+      {
+        "id": "b2",
+        "x": 85.2,
+        "y": 15.8,
+        "label": "Balloon at the second position"
+      },
+      {
+        "id": "girl",
+        "x": 10.8,
+        "y": 87.0,
+        "label": "The girl"
+      },
+      {
+        "id": "los",
+        "x": 44.3,
+        "y": 54.3,
+        "label": "Line of sight at 30°"
+      }
+    ],
+    "answer": "path",
+    "hint": "The balloon stays at the same height, so it moves along a horizontal line.",
+    "explanation": "The balloon moves at a constant height, so the distance travelled is the horizontal segment between the two positions. It is the difference of the two horizontal distances from the girl, not either line of sight."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Choosing a ratio",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/tri-sides.svg",
+      "alt": "A right triangle with angle theta and its opposite side, adjacent side and hypotenuse named"
+    },
+    "assertion": "In a right triangle, if the angle of elevation $\\theta$ and the horizontal distance are known, the height can be found using $\\tan\\theta$.",
+    "reason": "$\\tan\\theta = \\dfrac{\\text{opposite side}}{\\text{hypotenuse}}$.",
+    "answer": "c",
+    "hint": "Recall the definition of tangent.",
+    "explanation": "A is **true**: the height is opposite and the horizontal distance is adjacent, so $\\text{height} = \\text{distance}\\times\\tan\\theta$. R is **false**: $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}}$. The ratio of opposite to hypotenuse is $\\sin\\theta$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Enough information",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "An observer uses a clinometer at ground level to look at the top of a tower on level ground. Select **all** the sets of measurements that are enough to find the height of the tower.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/clinometer.svg",
+      "alt": "An observer holding a clinometer and looking at the top of a tower"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The distance from the foot of the tower and the angle of elevation"
+      },
+      {
+        "id": "b",
+        "text": "The length of the line of sight and the angle of elevation"
+      },
+      {
+        "id": "c",
+        "text": "The angle of elevation only"
+      },
+      {
+        "id": "d",
+        "text": "The distance from the foot of the tower only"
+      },
+      {
+        "id": "e",
+        "text": "Two angles of elevation from two points in line with the foot, with the distance between the points"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "e"
+    ],
+    "hint": "You need at least one side and one angle of a right triangle, or two angles and a known separation.",
+    "explanation": "A side and an acute angle of the right triangle fix it, so (a) uses $\\tan$ and (b) uses $\\sin$. Two angles from two points a known distance apart also work: $h = x\\tan\\alpha$ and $h=(x+d)\\tan\\beta$ can be solved for $h$. An angle alone or a distance alone does not fix the tower."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Car approaching a tower",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A man at the top of a tower sees a car approaching the foot of the tower at uniform speed. The angle of depression of the car is $30^\\circ$, and 8 seconds later it is $60^\\circ$. How long more does the car take to reach the foot of the tower?",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/car-tower.svg",
+      "alt": "A tower with two cars at 30 and 60 degrees of depression"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$8$ s"
+      },
+      {
+        "id": "b",
+        "text": "$16$ s"
+      },
+      {
+        "id": "c",
+        "text": "$4$ s"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{8}{3}$ s"
+      }
+    ],
+    "answer": "c",
+    "hint": "Compare the distance still to go with the distance already covered.",
+    "explanation": "With tower height $H$: first distance $H\\sqrt3$, second distance $\\dfrac{H}{\\sqrt3}$. Covered in 8 s: $H\\sqrt3-\\dfrac{H}{\\sqrt3}=\\dfrac{2H}{\\sqrt3}$, and still to go: $\\dfrac{H}{\\sqrt3}$, which is half of it. So the time is $4$ s. The options 8 and 16 use the wrong ratio and $\\dfrac{8}{3}$ divides by the first distance."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Shadow problem solution",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "The shadow of a tower is 40 m longer when the Sun's altitude is $30^\\circ$ than when it is $60^\\circ$. Arrange the steps of the solution in order.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/hs-shadow.svg",
+      "alt": "A tower AB with shadow BC at 60 degrees and a longer shadow BD at 30 degrees; CD marked 40 m"
+    },
+    "items": [
+      {
+        "id": "e3",
+        "text": "In right $\\triangle ABD$: $\\tan 30^\\circ = \\dfrac{h}{x+40}$; substitute $h = x\\sqrt3$ to get $x\\sqrt3\\cdot\\sqrt3 = x + 40$"
+      },
+      {
+        "id": "e5",
+        "text": "The height is $h = x\\sqrt3 = 20\\sqrt3$ m"
+      },
+      {
+        "id": "e1",
+        "text": "Let $AB = h$, $BC = x$ and $BD = x + 40$"
+      },
+      {
+        "id": "e4",
+        "text": "Simplify: $3x = x + 40$, so $x = 20$"
+      },
+      {
+        "id": "e2",
+        "text": "In right $\\triangle ABC$: $\\tan 60^\\circ = \\dfrac{h}{x}$, so $h = x\\sqrt3$"
+      }
+    ],
+    "answer": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Name the lengths, use the 60 degree triangle first, then the 30 degree triangle.",
+    "explanation": "After naming the lengths, the $60^\\circ$ triangle gives $h = x\\sqrt3$. That is substituted into the $30^\\circ$ triangle, giving $3x = x+40$, so $x = 20$ and $h = 20\\sqrt3$ m (about 34.6 m)."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Kite string",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/kite100.svg",
+      "alt": "A kite on a 100 m string at 30 degrees to the ground"
+    },
+    "assertion": "A kite flies on a 100 m string, with no slack, inclined at $30^\\circ$ to level ground. The kite is 50 m above the ground.",
+    "reason": "$\\sin30^\\circ = \\dfrac12$.",
+    "answer": "a",
+    "hint": "The string is the hypotenuse and the height is opposite the angle.",
+    "explanation": "Both are true and R explains A: height $= 100\\sin30^\\circ = 100\\times\\dfrac12 = 50$ m. Sine is used because the string (hypotenuse) and the height (opposite side) are involved."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Choosing sine, cosine or tangent",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "A rope runs from the top of a vertical pole to the ground and makes an angle $\\theta$ with the ground. Match the two lengths you know with the ratio you should use.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/rope-triangle.svg",
+      "alt": "A vertical pole with a rope to the ground making angle theta"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Height of the pole and length of the rope"
+      },
+      {
+        "id": "l2",
+        "text": "Length of the rope and distance of its foot from the pole"
+      },
+      {
+        "id": "l3",
+        "text": "Height of the pole and distance of the rope's foot from the pole"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\tan\\theta$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\sin\\theta$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\cos\\theta$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r3",
+      "l3": "r1"
+    },
+    "hint": "Say which sides are opposite, adjacent and hypotenuse.",
+    "explanation": "The pole is opposite $\\theta$, the ground distance is adjacent and the rope is the hypotenuse. Pole and rope: opposite/hypotenuse is $\\sin\\theta$. Rope and ground distance: adjacent/hypotenuse is $\\cos\\theta$. Pole and ground distance: opposite/adjacent is $\\tan\\theta$."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Ladder facts",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A 10 m ladder leans against a vertical wall and makes $60^\\circ$ with the ground. Select **all** the correct statements.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/ladder10.svg",
+      "alt": "A 10 m ladder against a wall at 60 degrees to the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The foot of the ladder is 5 m from the wall"
+      },
+      {
+        "id": "b",
+        "text": "The top of the ladder is $5\\sqrt3$ m above the ground"
+      },
+      {
+        "id": "c",
+        "text": "The top of the ladder is 10 m above the ground"
+      },
+      {
+        "id": "d",
+        "text": "The foot of the ladder is $5\\sqrt3$ m from the wall"
+      },
+      {
+        "id": "e",
+        "text": "The ladder is the hypotenuse of a right triangle"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "e"
+    ],
+    "hint": "Use $\\cos60^\\circ$ for the foot and $\\sin60^\\circ$ for the top.",
+    "explanation": "Foot: $10\\cos60^\\circ = 5$ m. Top: $10\\sin60^\\circ = 5\\sqrt3 \\approx 8.66$ m. The ladder is the hypotenuse, so the top cannot be as high as 10 m (that needs $90^\\circ$). The foot is not $5\\sqrt3$ m, which swaps sine and cosine."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Sun's altitude",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pole and shadow with the Sun's altitude.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/special-triangles.svg",
+      "alt": "A 30-60-90 triangle with sides 1, root 3, 2 and a 45-45-90 triangle with sides 1, 1, root 2"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "A pole 7 m high with a shadow 7 m long"
+      },
+      {
+        "id": "l2",
+        "text": "A pole 4 m high with a shadow $4\\sqrt3$ m long"
+      },
+      {
+        "id": "l3",
+        "text": "A pole $6\\sqrt3$ m high with a shadow 6 m long"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$60^\\circ$"
+      },
+      {
+        "id": "r2",
+        "text": "$30^\\circ$"
+      },
+      {
+        "id": "r3",
+        "text": "$45^\\circ$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r2",
+      "l3": "r1"
+    },
+    "hint": "$\\tan(\\text{altitude}) = \\dfrac{\\text{pole}}{\\text{shadow}}$.",
+    "explanation": "$\\tan\\alpha=\\dfrac{\\text{pole}}{\\text{shadow}}$. For 7 and 7 it is 1 ($45^\\circ$); for $\\dfrac{4}{4\\sqrt3}=\\dfrac1{\\sqrt3}$ it is $30^\\circ$; for $\\dfrac{6\\sqrt3}{6}=\\sqrt3$ it is $60^\\circ$, as in the 1, $\\sqrt3$, 2 triangle."
+  },
+  {
+    "id": "in-cbse-10-math-trigapp-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "chapterNo": 9,
+    "topic": "Angles of elevation",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Each observer's eye is at ground level. Arrange the observations from the **smallest** to the **greatest** angle of elevation of the top of the tower.",
+    "image": {
+      "src": "/img/c10-ma-trig-applications/approach.svg",
+      "alt": "An observer at four points on the ground moving towards a tower"
+    },
+    "items": [
+      {
+        "id": "o1",
+        "text": "Tower 8 m high, observer 8 m from its foot"
+      },
+      {
+        "id": "o3",
+        "text": "Tower 12 m high, observer $12(2+\\sqrt3)$ m from its foot"
+      },
+      {
+        "id": "o0",
+        "text": "Tower 10$\\sqrt3$ m high, observer 10 m from its foot"
+      },
+      {
+        "id": "o2",
+        "text": "Tower 5 m high, observer $5\\sqrt3$ m from its foot"
+      }
+    ],
+    "answer": [
+      "o3",
+      "o2",
+      "o1",
+      "o0"
+    ],
+    "startLabel": "Smallest angle",
+    "endLabel": "Greatest angle",
+    "hint": "$\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$; recall $\\tan15^\\circ = 2-\\sqrt3$.",
+    "explanation": "$\\tan\\theta=\\dfrac{h}{d}$: $\\dfrac{12}{12(2+\\sqrt3)} = 2-\\sqrt3 = \\tan15^\\circ$; $\\dfrac{5}{5\\sqrt3}=\\dfrac1{\\sqrt3}$ gives $30^\\circ$; $\\dfrac88=1$ gives $45^\\circ$; $\\dfrac{10\\sqrt3}{10}=\\sqrt3$ gives $60^\\circ$. So the order is $15^\\circ, 30^\\circ, 45^\\circ, 60^\\circ$."
+  }
+]

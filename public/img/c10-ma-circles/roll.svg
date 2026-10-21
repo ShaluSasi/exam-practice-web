@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A wheel turning on a road: the radius to the ground contact point stays at right angles to the road</title>
+<style>.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.35}}.fl{stroke-dasharray:10 5;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:15px}.h{paint-order:stroke;stroke:#FFF9EE;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}.sp{transform-box:view-box;transform-origin:200px 100px;animation:sp 5s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}.rd{stroke-dasharray:8 10;animation:rdm 1.2s linear infinite}@keyframes rdm{to{stroke-dashoffset:-18}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<line x1="20" y1="162" x2="380" y2="162" stroke="#FF8A1F" stroke-width="5" stroke-linecap="round"/>
+<line x1="20" y1="178" x2="380" y2="178" stroke="#8A8FB0" stroke-width="3" class="rd"/>
+<circle cx="200" cy="100" r="62" fill="#EAF5FD" stroke="#0B93D4" stroke-width="5"/>
+<g class="sp"><line x1="200" y1="100" x2="257" y2="115.3" stroke="#8A8FB0" stroke-width="2.5"/><line x1="200" y1="100" x2="215.3" y2="157" stroke="#8A8FB0" stroke-width="2.5"/><line x1="200" y1="100" x2="158.3" y2="141.7" stroke="#8A8FB0" stroke-width="2.5"/><line x1="200" y1="100" x2="143" y2="84.7" stroke="#8A8FB0" stroke-width="2.5"/><line x1="200" y1="100" x2="184.7" y2="43" stroke="#8A8FB0" stroke-width="2.5"/><line x1="200" y1="100" x2="241.7" y2="58.3" stroke="#8A8FB0" stroke-width="2.5"/></g>
+<line x1="200" y1="100" x2="200" y2="162" stroke="#2B2F4A" stroke-width="3" stroke-dasharray="6 4"/>
+<polyline points="211,162 211,151 200,151" fill="none" stroke="#E5484D" stroke-width="2.4"/>
+<circle cx="200" cy="100" r="5" fill="#2B2F4A"/><circle cx="200" cy="162" r="5" fill="#E5484D"/>
+<text x="214" y="94" font-size="15" class="h">O</text><text x="176" y="154" font-size="15" class="h">P</text>
+</svg>

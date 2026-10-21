@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Top view of a lighthouse spreading red light over a 40 degree sector of sea</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.45}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.lh{opacity:0;animation:lhk 3.6s ease-in-out infinite}@keyframes lhk{0%,100%{opacity:0}50%{opacity:1}}</style>
+<rect width="100%" height="100%" rx="16" fill="#CDEBFA"/>
+<path d="M120.0 160.0 L261.0 108.7 A150.0 150.0 0 0 0 195.0 30.1 Z" fill="#E5484D" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round" fill-opacity="0.5"/><path d="M120.0 160.0 L195.0 30.1 A150.0 150.0 0 0 0 176.2 20.9 Z" fill="#E5484D" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round" class="lh" opacity="0" fill-opacity="0.5"/><line x1="120.0" y1="160.0" x2="261.0" y2="108.7" stroke="#E5484D" stroke-width="2" stroke-linecap="round" /><line x1="120.0" y1="160.0" x2="195.0" y2="30.1" stroke="#E5484D" stroke-width="2" stroke-linecap="round" /><circle cx="188.9" cy="102.1" r="6" fill="#6B5B4B" /><circle cx="223.9" cy="100.0" r="6" fill="#6B5B4B" /><circle cx="166.2" cy="100.9" r="6" fill="#6B5B4B" /><polygon points="110,174 130,174 126,142 114,142" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><circle cx="120.0" cy="138.0" r="7" fill="#FFC93C" /><path d="M167.0 142.9 A50.0 50.0 0 0 0 145.0 116.7" fill="none" stroke="#E5484D" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /><text x="172.1" y="121.2" font-family="sans-serif" font-size="14" font-weight="700" fill="#E5484D" text-anchor="middle" >40°</text><text x="310.0" y="200.0" font-family="sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle" >Red light reaches</text><text x="310.0" y="218.0" font-family="sans-serif" font-size="13" font-weight="600" fill="#2B2F4A" text-anchor="middle" >21 km out to sea</text>
+</svg>

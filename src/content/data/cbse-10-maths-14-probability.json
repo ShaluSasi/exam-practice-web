@@ -1,0 +1,2200 @@
+[
+  {
+    "id": "in-cbse-10-math-probability-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Equally likely outcomes",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A fair coin is tossed once at random. What is the probability of getting a head?",
+    "image": {
+      "src": "/img/c10-ma-probability/coin-flip.svg",
+      "alt": "A coin flipping in the air showing head and tail faces"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$1$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{4}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Count how many outcomes there are and how many of them are heads.",
+    "explanation": "A fair coin has two equally likely outcomes, head and tail, and one of them is a head, so $P(\\text{head}) = \\dfrac{1}{2}$. Wrong choices come from slips such as counting the edge as a third outcome ($\\tfrac{1}{3}$), thinking a head is certain ($1$), or confusing it with two coins ($\\tfrac{1}{4}$)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Theoretical probability",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A die is thrown once. What is the probability of getting a number **greater than 4**?",
+    "image": {
+      "src": "/img/c10-ma-probability/die-roll.svg",
+      "alt": "A die rolling with its top face changing"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "List the faces that are strictly greater than 4.",
+    "explanation": "The possible outcomes are $1, 2, 3, 4, 5, 6$, and only $5$ and $6$ are greater than $4$. So $P = \\dfrac{2}{6} = \\dfrac{1}{3}$. Choosing $\\tfrac{1}{2}$ means counting $4, 5, 6$ (reading \"greater than\" as \"at least\"), $\\tfrac{2}{3}$ is the probability of a number $\\le 4$, and $\\tfrac{1}{6}$ counts a single face."
+  },
+  {
+    "id": "in-cbse-10-math-probability-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Sure and impossible events",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the mark on the scale that shows the probability of getting a number **less than 7** when a fair die is thrown once.",
+    "image": {
+      "src": "/img/c10-ma-probability/scale.svg",
+      "alt": "A probability scale with marks at 0, 0.2, 0.5, 0.8 and 1"
+    },
+    "spots": [
+      {
+        "id": "p0",
+        "x": 10,
+        "y": 45.8,
+        "label": "Probability 0"
+      },
+      {
+        "id": "p02",
+        "x": 26,
+        "y": 45.8,
+        "label": "Probability 0.2"
+      },
+      {
+        "id": "p05",
+        "x": 50,
+        "y": 45.8,
+        "label": "Probability 0.5"
+      },
+      {
+        "id": "p08",
+        "x": 74,
+        "y": 45.8,
+        "label": "Probability 0.8"
+      },
+      {
+        "id": "p1",
+        "x": 90,
+        "y": 45.8,
+        "label": "Probability 1"
+      }
+    ],
+    "answer": "p1",
+    "hint": "How many of the six faces show a number less than 7?",
+    "explanation": "Every one of the six faces shows a number less than $7$, so the favourable outcomes equal all possible outcomes: $P = \\dfrac{6}{6} = 1$. A **sure (certain) event** always has probability $1$, the right end of the scale. An impossible event, such as getting $8$, would sit at $0$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Equally likely outcomes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In which of these experiments are the outcomes **equally likely**? Select all that apply. (The pictures (a) to (d) show the first four.)",
+    "image": {
+      "src": "/img/c10-ma-probability/experiments.svg",
+      "alt": "Four experiments: a coin, a bag of 4 red and 1 blue ball, a die and a spinner with a large red half"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(a) Tossing a fair coin and noting head or tail"
+      },
+      {
+        "id": "b",
+        "text": "(b) Drawing one ball from the bag of 4 red and 1 blue ball and noting its colour"
+      },
+      {
+        "id": "c",
+        "text": "(c) Throwing a fair die and noting the number on top"
+      },
+      {
+        "id": "d",
+        "text": "(d) Spinning the spinner (half red, quarter blue, quarter green) and noting the colour"
+      },
+      {
+        "id": "e",
+        "text": "(e) A player shoots at a basket and either scores or misses"
+      }
+    ],
+    "answers": [
+      "a",
+      "c"
+    ],
+    "hint": "Ask whether any outcome has a bigger share of the possibilities than another.",
+    "explanation": "A fair coin (head or tail) and a fair die (six faces) have outcomes that are equally likely. In (b) there are four red balls and one blue, so red is more likely. In (d) the red part is half the disc, so red is more likely than blue or green. In (e) scoring and missing are not generally equally likely."
+  },
+  {
+    "id": "in-cbse-10-math-probability-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Equally likely outcomes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A bag contains **4 red balls and 1 blue ball** of the same size. One ball is drawn without looking. Which statement is correct?",
+    "image": {
+      "src": "/img/c10-ma-probability/bag-41.svg",
+      "alt": "A bag with four red balls and one blue ball"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The outcomes \"a red ball\" and \"a blue ball\" are not equally likely, because there are more red balls"
+      },
+      {
+        "id": "b",
+        "text": "The outcomes \"a red ball\" and \"a blue ball\" are equally likely, because there are only two colours"
+      },
+      {
+        "id": "c",
+        "text": "The outcomes \"a red ball\" and \"a blue ball\" are equally likely, because the balls are the same size"
+      },
+      {
+        "id": "d",
+        "text": "A blue ball is more likely, because it is the only one of its colour"
+      }
+    ],
+    "answer": "a",
+    "hint": "Compare how many balls of each colour could be drawn.",
+    "explanation": "There are 5 balls and each ball is equally likely to be drawn, but the colours are not: 4 balls are red and only 1 is blue, so red is more likely. Having two colours does not make them equally likely, and the size of the balls only ensures each ball has the same chance. This is why not every experiment has equally likely outcomes."
+  },
+  {
+    "id": "in-cbse-10-math-probability-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Complementary events",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "If $P(E) = 0.05$, what is the probability of \"not $E$\"?",
+    "image": {
+      "src": "/img/c10-ma-probability/complement.svg",
+      "alt": "A rectangle of all outcomes with a circle for event E and the rest labelled not E"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.05$"
+      },
+      {
+        "id": "b",
+        "text": "$1.05$"
+      },
+      {
+        "id": "c",
+        "text": "$0.95$"
+      },
+      {
+        "id": "d",
+        "text": "$0.995$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use $P(\\overline{E}) = 1 - P(E)$.",
+    "explanation": "The events $E$ and \"not $E$\" are complementary, so $P(\\text{not } E) = 1 - P(E) = 1 - 0.05 = 0.95$. Common slips: repeating $0.05$, adding instead of subtracting ($1.05$, which is impossible for a probability) and reading $0.05$ as $0.005$ ($0.995$)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Sure and impossible events",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A bag contains **lemon flavoured candies only**. Malini takes out one candy without looking. What are the probabilities that it is **(i) an orange flavoured candy** and **(ii) a lemon flavoured candy**?",
+    "image": {
+      "src": "/img/c10-ma-probability/candy-bag.svg",
+      "alt": "A bag full of lemon candies with one candy being taken out"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "(i) $1$ and (ii) $0$"
+      },
+      {
+        "id": "b",
+        "text": "(i) $\\dfrac{1}{2}$ and (ii) $\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "(i) $0$ and (ii) $1$"
+      },
+      {
+        "id": "d",
+        "text": "(i) $0$ and (ii) $\\dfrac{1}{8}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Can an orange candy come out? Will a lemon candy always come out?",
+    "explanation": "There is no orange candy, so the favourable outcomes number $0$ and $P(\\text{orange}) = 0$: an **impossible event**. Every candy is lemon, so favourable = possible and $P(\\text{lemon}) = 1$: a **sure event**. Swapping the two, or splitting the chance equally between two flavours, ignores that only one flavour is present."
+  },
+  {
+    "id": "in-cbse-10-math-probability-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Complementary events",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A bag contains 3 red balls and 5 black balls. A ball is drawn at random. What is the probability that it is **not red**?",
+    "image": {
+      "src": "/img/c10-ma-probability/bag-35.svg",
+      "alt": "A bag with three red balls and five black balls"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{8}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{3}{8}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{5}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Not red means black here. Divide by the total number of balls.",
+    "explanation": "Total balls $= 3 + 5 = 8$. \"Not red\" means black, so $P = \\dfrac{5}{8}$. Also $1 - P(\\text{red}) = 1 - \\dfrac{3}{8} = \\dfrac{5}{8}$. The wrong answers are $P(\\text{red}) = \\tfrac{3}{8}$, the ratio red : black $= \\tfrac{3}{5}$ (dividing by the wrong quantity) and $\\tfrac{1}{2}$ (assuming two colours are equally likely)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A piggy bank holds **100** coins of 50 p, **50** coins of ₹1, **20** coins of ₹2 and **10** coins of ₹5. When it is turned upside down, one coin falls out at random. What is the probability that it is **not** a ₹5 coin?",
+    "image": {
+      "src": "/img/c10-ma-probability/piggy.svg",
+      "alt": "A piggy bank and a bar chart showing 100, 50, 20 and 10 coins"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{18}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{17}{19}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{5}{6}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{17}{18}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "First find the total number of coins, then subtract the ₹5 coins.",
+    "explanation": "Total coins $= 100 + 50 + 20 + 10 = 180$. Coins that are not ₹5 $= 180 - 10 = 170$, so $P = \\dfrac{170}{180} = \\dfrac{17}{18}$. Wrong options: $\\tfrac{1}{18}$ is the probability of a ₹5 coin, $\\tfrac{17}{19}$ adds the ₹5 coins to the total again, and $\\tfrac{5}{6}$ counts only the 50 p and ₹1 coins."
+  },
+  {
+    "id": "in-cbse-10-math-probability-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A tank has **5 male** and **8 female** fish. The shopkeeper takes out one fish at random. What is the probability that it is a **male** fish?",
+    "image": {
+      "src": "/img/c10-ma-probability/fish-tank.svg",
+      "alt": "A tank with five blue male fish and eight orange female fish"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{8}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{13}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{8}{13}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The denominator is all the fish in the tank.",
+    "explanation": "Total fish $= 5 + 8 = 13$ and favourable (male) $= 5$, so $P = \\dfrac{5}{13}$. $\\tfrac{5}{8}$ compares males with females instead of with all fish, $\\tfrac{8}{13}$ is the probability of a female, and $\\tfrac{1}{2}$ wrongly assumes male and female are equally likely."
+  },
+  {
+    "id": "in-cbse-10-math-probability-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The spinner is equally likely to stop at any of the numbers $1, 2, \\ldots, 8$. What is the probability that the pointer stops at a number **greater than 2**?",
+    "image": {
+      "src": "/img/c10-ma-probability/spinner8.svg",
+      "alt": "A spinner with eight equal sectors numbered 1 to 8"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{5}{8}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{7}{8}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Which numbers are greater than 2? Count them out of 8.",
+    "explanation": "Numbers greater than $2$ are $3, 4, 5, 6, 7, 8$: six outcomes out of $8$, so $P = \\dfrac{6}{8} = \\dfrac{3}{4}$. The option $\\tfrac{1}{4}$ is the probability of $1$ or $2$, $\\tfrac{5}{8}$ comes from \"greater than 3\", and $\\tfrac{7}{8}$ from \"greater than 1\"."
+  },
+  {
+    "id": "in-cbse-10-math-probability-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the sector of the spinner that gives the event **\"an even number that is also a perfect square\"**.",
+    "image": {
+      "src": "/img/c10-ma-probability/spinner8.svg",
+      "alt": "A spinner with eight equal sectors numbered 1 to 8"
+    },
+    "spots": [
+      {
+        "id": "s2",
+        "x": 65.7,
+        "y": 42.5,
+        "label": "Sector 2"
+      },
+      {
+        "id": "s4",
+        "x": 56.5,
+        "y": 79.5,
+        "label": "Sector 4"
+      },
+      {
+        "id": "s6",
+        "x": 34.3,
+        "y": 64.2,
+        "label": "Sector 6"
+      },
+      {
+        "id": "s8",
+        "x": 43.5,
+        "y": 27.2,
+        "label": "Sector 8"
+      }
+    ],
+    "answer": "s4",
+    "hint": "Perfect squares are $1, 4, 9, \\ldots$; which of them are even and at most 8?",
+    "explanation": "The perfect squares from $1$ to $8$ are $1$ and $4$. Of these only $4$ is even, so only sector $4$ is favourable and $P = \\dfrac{1}{8}$. Sectors $2, 6$ and $8$ are even but not perfect squares ($8$ is a cube, not a square)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A die is thrown once. What is the probability of getting a number **lying between 2 and 6**?",
+    "image": {
+      "src": "/img/c10-ma-probability/die-faces.svg",
+      "alt": "The six faces of a die"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "\"Between 2 and 6\" does not include 2 or 6.",
+    "explanation": "The numbers strictly between $2$ and $6$ are $3, 4, 5$, so $P = \\dfrac{3}{6} = \\dfrac{1}{2}$. If $2$ and $6$ are included we would get $\\tfrac{5}{6}$; including only one end gives $\\tfrac{2}{3}$; counting just $3$ and $4$ gives $\\tfrac{1}{3}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Complementary events",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A die is thrown once. Which of these pairs of events are **complementary** (one is exactly \"not\" the other)? Select all that apply.",
+    "image": {
+      "src": "/img/c10-ma-probability/die-faces.svg",
+      "alt": "The six faces of a die"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "\"An even number\" and \"an odd number\""
+      },
+      {
+        "id": "b",
+        "text": "\"A prime number\" and \"a composite number\""
+      },
+      {
+        "id": "c",
+        "text": "\"A number $\\le 4$\" and \"a number $> 4$\""
+      },
+      {
+        "id": "d",
+        "text": "\"A number greater than 3\" and \"a number less than 3\""
+      },
+      {
+        "id": "e",
+        "text": "\"Getting a 6\" and \"not getting a 6\""
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Complementary events share no outcome and together cover all six faces.",
+    "explanation": "Complementary events $E$ and $\\overline{E}$ have no outcome in common and together use up all outcomes. Even/odd, $\\le 4$ / $>4$ and 6 / not 6 all do this. Prime/composite fails because $1$ is neither, and \"greater than 3\" / \"less than 3\" leaves out the face $3$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Playing cards",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "One card is drawn at random from a well-shuffled deck of 52 cards. What is the probability of getting a **red face card**?",
+    "image": {
+      "src": "/img/c10-ma-probability/cards-suits.svg",
+      "alt": "The four suits of a pack of cards"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{13}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{3}{26}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{52}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{26}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Face cards are jack, queen and king; red suits are hearts and diamonds.",
+    "explanation": "Red suits (hearts, diamonds) each have $3$ face cards, so there are $2 \\times 3 = 6$ red face cards and $P = \\dfrac{6}{52} = \\dfrac{3}{26}$. Wrong answers: $\\tfrac{12}{52} = \\tfrac{3}{13}$ counts all face cards, $\\tfrac{3}{52}$ counts only one red suit, and $\\tfrac{2}{52} = \\tfrac{1}{26}$ counts only the two red kings."
+  },
+  {
+    "id": "in-cbse-10-math-probability-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Playing cards",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These are the 12 face cards of a pack. Tap **the jack of hearts**.",
+    "image": {
+      "src": "/img/c10-ma-probability/cards-face12.svg",
+      "alt": "Twelve face cards: jack, queen and king of each suit"
+    },
+    "spots": [
+      {
+        "id": "c0",
+        "x": 10.0,
+        "y": 34.6,
+        "label": "Jack of hearts"
+      },
+      {
+        "id": "c1",
+        "x": 26.0,
+        "y": 34.6,
+        "label": "Queen of hearts"
+      },
+      {
+        "id": "c4",
+        "x": 74.0,
+        "y": 34.6,
+        "label": "Queen of diamonds"
+      },
+      {
+        "id": "c8",
+        "x": 42.0,
+        "y": 72.9,
+        "label": "King of spades"
+      },
+      {
+        "id": "c9",
+        "x": 58.0,
+        "y": 72.9,
+        "label": "Jack of clubs"
+      }
+    ],
+    "answer": "c0",
+    "hint": "Find the letter J together with the red heart symbol.",
+    "explanation": "The jack of hearts is the one card showing J with a heart. It is a single card out of the 52, so $P(\\text{jack of hearts}) = \\dfrac{1}{52}$. The queen of hearts has the right suit but the wrong rank, and the jack of clubs has the right rank but the wrong suit."
+  },
+  {
+    "id": "in-cbse-10-math-probability-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Playing cards",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "One card is drawn from a well-shuffled deck of 52 cards. Match each event with its probability.",
+    "image": {
+      "src": "/img/c10-ma-probability/cards-suits.svg",
+      "alt": "The four suits of a pack of cards"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Getting a spade"
+      },
+      {
+        "id": "l2",
+        "text": "Getting an ace"
+      },
+      {
+        "id": "l3",
+        "text": "Getting the jack of hearts"
+      },
+      {
+        "id": "l4",
+        "text": "Getting a red card"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{1}{52}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{1}{13}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r4",
+      "l3": "r2",
+      "l4": "r1"
+    },
+    "hint": "Count the favourable cards (13 per suit, 4 of each rank, 26 red) and divide by 52.",
+    "explanation": "A spade: $\\dfrac{13}{52} = \\dfrac{1}{4}$. An ace: $\\dfrac{4}{52} = \\dfrac{1}{13}$. The jack of hearts is one card: $\\dfrac{1}{52}$. A red card (hearts or diamonds): $\\dfrac{26}{52} = \\dfrac{1}{2}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The ten, jack, queen, king and ace of diamonds are well shuffled face down. One card is picked and it is the **queen**, which is put aside. What is the probability that the **next** card picked is an **ace**?",
+    "image": {
+      "src": "/img/c10-ma-probability/five-cards.svg",
+      "alt": "The queen of diamonds lifted out above four face-down cards"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{4}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "How many cards are left after the queen is put aside?",
+    "explanation": "After the queen is set aside, $4$ cards remain and exactly one is the ace, so $P = \\dfrac{1}{4}$. Using $\\tfrac{1}{5}$ forgets that the total has fallen to $4$, $\\tfrac{1}{3}$ miscounts the cards left, and $\\tfrac{3}{4}$ is $P(\\text{not an ace})$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A lot of **144** ball pens has **20** defective ones; the rest are good. Nuri buys a pen only if it is good. One pen is drawn at random. What is the probability that she **will buy** it?",
+    "image": {
+      "src": "/img/c10-ma-probability/pens.svg",
+      "alt": "A grid of 144 pens with 20 shown in red as defective"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{36}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{31}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{31}{41}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{31}{36}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Count the good pens first, then divide by the total number of pens.",
+    "explanation": "Good pens $= 144 - 20 = 124$, so $P(\\text{buys}) = \\dfrac{124}{144} = \\dfrac{31}{36}$. The wrong answers are $\\tfrac{5}{36}$ (that is $P(\\text{defective})$), $\\tfrac{5}{31}$ (defective divided by good, wrong denominator) and $\\tfrac{31}{41}$ (adding the defective pens to the total again)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A box contains **90** discs numbered 1 to 90. One disc is drawn at random. What is the probability that it bears a **two-digit number**?",
+    "image": {
+      "src": "/img/c10-ma-probability/discs.svg",
+      "alt": "A grid of discs numbered 1 to 90"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{10}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{9}{10}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{8}{9}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{81}{100}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Subtract the one-digit numbers from the total.",
+    "explanation": "One-digit numbers are $1$ to $9$ (nine of them), so two-digit numbers number $90 - 9 = 81$ and $P = \\dfrac{81}{90} = \\dfrac{9}{10}$. Subtracting $10$ ($\\tfrac{8}{9}$) miscounts the one-digit numbers, $\\tfrac{1}{10}$ is the probability of a one-digit number, and $\\tfrac{81}{100}$ uses 100 as the total."
+  },
+  {
+    "id": "in-cbse-10-math-probability-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A child has a die whose six faces show the letters A, B, C, D, E, A. The die is thrown once. What is the probability of getting **A**?",
+    "image": {
+      "src": "/img/c10-ma-probability/die-letters.svg",
+      "alt": "A die with letters A B C D E A on its faces"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{2}{5}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "There are six faces and two of them show A.",
+    "explanation": "There are $6$ equally likely faces and the letter A is on $2$ of them, so $P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$. Counting A once gives $\\tfrac{1}{6}$, dividing by the $5$ different letters gives $\\tfrac{2}{5}$, and \"A or not A\" does not make the chance $\\tfrac{1}{2}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A carton has 100 shirts: **88 good**, **8 with minor defects** and **4 with major defects**. Sujatha **rejects only the shirts with major defects**. One shirt is drawn at random. What is the probability that it is **acceptable to Sujatha**?",
+    "image": {
+      "src": "/img/c10-ma-probability/shirts.svg",
+      "alt": "A carton of 100 shirts with 88 good, 8 minor defect and 4 major defect"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0.96$"
+      },
+      {
+        "id": "b",
+        "text": "$0.88$"
+      },
+      {
+        "id": "c",
+        "text": "$0.04$"
+      },
+      {
+        "id": "d",
+        "text": "$0.92$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Which shirts will she accept? Add the groups she does not reject.",
+    "explanation": "She rejects only the $4$ shirts with major defects, so she accepts $88 + 8 = 96$ shirts and $P = \\dfrac{96}{100} = 0.96$. The value $0.88$ is what the strict trader Jimmy accepts, $0.04$ is $P(\\text{major defect})$, and $0.92$ adds the major defects instead of the minor ones."
+  },
+  {
+    "id": "in-cbse-10-math-probability-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "A bag has **6 red, 4 blue, 3 green and 2 yellow** balls. Tap the colour whose probability of being drawn at random is exactly $\\dfrac{1}{5}$.",
+    "image": {
+      "src": "/img/c10-ma-probability/bag-piles.svg",
+      "alt": "A bag with piles of red, blue, green and yellow balls"
+    },
+    "spots": [
+      {
+        "id": "red",
+        "x": 35,
+        "y": 76,
+        "label": "Red balls (6 of 15)"
+      },
+      {
+        "id": "blue",
+        "x": 65.5,
+        "y": 78,
+        "label": "Blue balls (4 of 15)"
+      },
+      {
+        "id": "green",
+        "x": 40,
+        "y": 49,
+        "label": "Green balls (3 of 15)"
+      },
+      {
+        "id": "yellow",
+        "x": 63,
+        "y": 51,
+        "label": "Yellow balls (2 of 15)"
+      }
+    ],
+    "answer": "green",
+    "hint": "Find the total number of balls, then test which count gives a fraction equal to $\\dfrac{1}{5}$.",
+    "explanation": "Total balls $= 6 + 4 + 3 + 2 = 15$. Green: $\\dfrac{3}{15} = \\dfrac{1}{5}$. Red is $\\dfrac{6}{15} = \\dfrac{2}{5}$, blue is $\\dfrac{4}{15}$ and yellow is $\\dfrac{2}{15}$, none of which equals $\\dfrac{1}{5}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Tossing coins",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two different coins are tossed together. What is the probability of getting **exactly one head**?",
+    "image": {
+      "src": "/img/c10-ma-probability/coins2.svg",
+      "alt": "Two coins being tossed together"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{3}{4}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "List the four equally likely outcomes, remembering that HT and TH are different.",
+    "explanation": "The equally likely outcomes are $HH, HT, TH, TT$. Exactly one head occurs in $HT$ and $TH$, so $P = \\dfrac{2}{4} = \\dfrac{1}{2}$. Treating \"one head and one tail\" as a single outcome gives the wrong $\\tfrac{1}{3}$; $\\tfrac{1}{4}$ counts only $HT$; $\\tfrac{3}{4}$ is \"at least one head\"."
+  },
+  {
+    "id": "in-cbse-10-math-probability-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Tossing coins",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two coins are tossed together. In which picture are **all the outcomes favourable to \"at least one head\"** shaded green?",
+    "image": {
+      "src": "/img/c10-ma-probability/coins2.svg",
+      "alt": "Two coins being tossed together"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-probability/cp-eq.svg",
+          "alt": "Outcomes HH and TT shaded"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-probability/cp-1.svg",
+          "alt": "Outcome HH shaded"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-probability/cp-3.svg",
+          "alt": "Outcomes HH, HT and TH shaded"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-probability/cp-2.svg",
+          "alt": "Outcomes HH and HT shaded"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "\"At least one\" means one or more heads; only TT has none.",
+    "explanation": "\"At least one head\" fails only when both coins show tails, so the favourable outcomes are $HH, HT, TH$, three out of four, giving $P = \\dfrac{3}{4}$. Picture B has only two heads, picture D forgets $TH$, and picture A wrongly includes $TT$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Spinners",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In which spinner, with **all sectors equal**, is the probability that the pointer stops on **red** equal to $\\dfrac{1}{4}$?",
+    "image": {
+      "src": "/img/c10-ma-probability/spinner8.svg",
+      "alt": "A spinner with eight equal sectors"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Spinner P",
+        "image": {
+          "src": "/img/c10-ma-probability/sp-1of8.svg",
+          "alt": "A spinner with eight equal sectors, one red"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Spinner Q",
+        "image": {
+          "src": "/img/c10-ma-probability/sp-1of4.svg",
+          "alt": "A spinner with four equal sectors, one red"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Spinner R",
+        "image": {
+          "src": "/img/c10-ma-probability/sp-2of4.svg",
+          "alt": "A spinner with four equal sectors, two red"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Spinner S",
+        "image": {
+          "src": "/img/c10-ma-probability/sp-1of3.svg",
+          "alt": "A spinner with three equal sectors, one red"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "Probability of red = red sectors divided by all sectors (they are equal in size).",
+    "explanation": "With equal sectors, $P(\\text{red}) = \\dfrac{\\text{red sectors}}{\\text{all sectors}}$. Spinner Q has $1$ red out of $4$: $\\tfrac{1}{4}$. P gives $\\tfrac{1}{8}$, R gives $\\tfrac{2}{4} = \\tfrac{1}{2}$ and S gives $\\tfrac{1}{3}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A ball is drawn at random from one of these bags. In which bag is the probability of drawing a **red** ball equal to $\\dfrac{1}{3}$?",
+    "image": {
+      "src": "/img/c10-ma-probability/bag-41.svg",
+      "alt": "A bag with red and blue balls"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Bag 1",
+        "image": {
+          "src": "/img/c10-ma-probability/bg-1r3b.svg",
+          "alt": "A bag with 1 red and 3 blue balls"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Bag 2",
+        "image": {
+          "src": "/img/c10-ma-probability/bg-2r3b.svg",
+          "alt": "A bag with 2 red and 3 blue balls"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Bag 3",
+        "image": {
+          "src": "/img/c10-ma-probability/bg-3r3b.svg",
+          "alt": "A bag with 3 red and 3 blue balls"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Bag 4",
+        "image": {
+          "src": "/img/c10-ma-probability/bg-2r4b.svg",
+          "alt": "A bag with 2 red and 4 blue balls"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Probability of red = red balls divided by ALL balls, not by blue balls.",
+    "explanation": "$P(\\text{red}) = \\dfrac{\\text{red}}{\\text{red} + \\text{blue}}$. Bag 4: $\\dfrac{2}{6} = \\dfrac{1}{3}$. Bag 1: $\\tfrac{1}{4}$; Bag 2: $\\tfrac{2}{5}$; Bag 3: $\\tfrac{3}{6} = \\tfrac{1}{2}$. Students sometimes pick the bag with a $1 : 3$ ratio of red to blue (Bag 1), but a ratio of red to *blue* is not the probability."
+  },
+  {
+    "id": "in-cbse-10-math-probability-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A die is thrown once. In which picture are **exactly the faces favourable to \"an even number greater than 2\"** shaded green?",
+    "image": {
+      "src": "/img/c10-ma-probability/die-faces.svg",
+      "alt": "The six faces of a die"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-probability/fc-246.svg",
+          "alt": "Faces 2, 4 and 6 shaded"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-probability/fc-3456.svg",
+          "alt": "Faces 3, 4, 5 and 6 shaded"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-probability/fc-456.svg",
+          "alt": "Faces 4, 5 and 6 shaded"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-probability/fc-46.svg",
+          "alt": "Faces 4 and 6 shaded"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "A face must be even AND greater than 2.",
+    "explanation": "The face must satisfy **both** conditions: even and greater than $2$. Only $4$ and $6$ do, so $P = \\dfrac{2}{6} = \\dfrac{1}{3}$. Picture A includes $2$ (even but not greater than $2$), B includes the odd numbers $3$ and $5$, and C includes $5$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A blue die and a grey die are thrown together. What is the probability that the **sum** of the two numbers is **8**?",
+    "image": {
+      "src": "/img/c10-ma-probability/grid36.svg",
+      "alt": "A table of all 36 outcomes of a blue die and a grey die"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{5}{36}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{1}{9}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{11}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "List the ordered pairs; (2, 6) and (6, 2) are different outcomes.",
+    "explanation": "There are $6 \\times 6 = 36$ equally likely outcomes. Sum $8$: $(2,6), (3,5), (4,4), (5,3), (6,2)$, so $5$ outcomes and $P = \\dfrac{5}{36}$. Counting $(4,4)$ twice gives $\\tfrac{1}{6}$, forgetting $(4,4)$ gives $\\tfrac{1}{9}$, and treating the 11 possible sums as equally likely gives $\\tfrac{1}{11}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Rows show the number on the **blue die** and columns the number on the **grey die**. Tap the cell where the blue die shows **2** and the grey die shows **6**.",
+    "image": {
+      "src": "/img/c10-ma-probability/grid36-hs.svg",
+      "alt": "A blank 6 by 6 table with a blue die down the side and a grey die across the top"
+    },
+    "spots": [
+      {
+        "id": "r2c6",
+        "x": 71.5,
+        "y": 40.0,
+        "label": "Blue 2, grey 6"
+      },
+      {
+        "id": "r6c2",
+        "x": 27.5,
+        "y": 86.7,
+        "label": "Blue 6, grey 2"
+      },
+      {
+        "id": "r4c4",
+        "x": 49.5,
+        "y": 63.3,
+        "label": "Blue 4, grey 4"
+      },
+      {
+        "id": "r1c1",
+        "x": 16.5,
+        "y": 28.3,
+        "label": "Blue 1, grey 1"
+      },
+      {
+        "id": "r6c6",
+        "x": 71.5,
+        "y": 86.7,
+        "label": "Blue 6, grey 6"
+      }
+    ],
+    "answer": "r2c6",
+    "hint": "Go down to row 2, then across to column 6.",
+    "explanation": "The outcome $(2, 6)$ lies in row $2$ (blue die) and column $6$ (grey die). It is different from $(6, 2)$, where the blue die shows $6$; each of the $36$ cells is one equally likely outcome."
+  },
+  {
+    "id": "in-cbse-10-math-probability-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the cell for the outcome where **both dice show the same number** and the **sum is 8**.",
+    "image": {
+      "src": "/img/c10-ma-probability/grid36-hs.svg",
+      "alt": "A blank 6 by 6 table with a blue die down the side and a grey die across the top"
+    },
+    "spots": [
+      {
+        "id": "r4c4",
+        "x": 49.5,
+        "y": 63.3,
+        "label": "Blue 4, grey 4"
+      },
+      {
+        "id": "r2c6",
+        "x": 71.5,
+        "y": 40.0,
+        "label": "Blue 2, grey 6"
+      },
+      {
+        "id": "r6c2",
+        "x": 27.5,
+        "y": 86.7,
+        "label": "Blue 6, grey 2"
+      },
+      {
+        "id": "r3c3",
+        "x": 38.5,
+        "y": 51.7,
+        "label": "Blue 3, grey 3"
+      },
+      {
+        "id": "r5c5",
+        "x": 60.5,
+        "y": 75.0,
+        "label": "Blue 5, grey 5"
+      }
+    ],
+    "answer": "r4c4",
+    "hint": "A double has equal numbers; which double adds up to 8?",
+    "explanation": "A double has the same number on both dice, so the sum is twice that number. Sum $8$ means $4 + 4$, the outcome $(4, 4)$. $(2,6)$ and $(6,2)$ also add to $8$ but the numbers differ, and $(3,3)$ and $(5,5)$ are doubles with sums $6$ and $10$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A student says: \"Two dice give the sums $2, 3, \\ldots, 12$. That is 11 outcomes, so each sum has probability $\\dfrac{1}{11}$.\" Why is this **wrong**?",
+    "image": {
+      "src": "/img/c10-ma-probability/sum-bars.svg",
+      "alt": "A bar chart of the number of ways to get each sum with two dice"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "There are really 12 outcomes, because a sum of 1 is also possible"
+      },
+      {
+        "id": "b",
+        "text": "Each sum should have probability $\\dfrac{1}{36}$, because there are 36 outcomes"
+      },
+      {
+        "id": "c",
+        "text": "Nothing is wrong, since 11 outcomes always give probability $\\dfrac{1}{11}$ each"
+      },
+      {
+        "id": "d",
+        "text": "The 11 sums are not equally likely: for example 7 can happen in 6 ways but 2 in only 1 way"
+      }
+    ],
+    "answer": "d",
+    "hint": "The definition needs equally likely outcomes. Are the sums equally likely?",
+    "explanation": "The definition $P = \\dfrac{\\text{favourable}}{\\text{possible}}$ needs **equally likely** outcomes. The $36$ pairs are equally likely, but the sums are not: sum $7$ comes from $6$ pairs ($P = \\tfrac{6}{36}$) while sum $2$ comes from only $(1,1)$ ($P = \\tfrac{1}{36}$). A sum of $1$ is impossible, and $\\tfrac{1}{36}$ is correct only for a single pair."
+  },
+  {
+    "id": "in-cbse-10-math-probability-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "match",
+    "prompt": "Two dice are thrown together. Match each sum with its probability.",
+    "image": {
+      "src": "/img/c10-ma-probability/grid36.svg",
+      "alt": "A table of all 36 outcomes of two dice"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Sum is 2"
+      },
+      {
+        "id": "l2",
+        "text": "Sum is 5"
+      },
+      {
+        "id": "l3",
+        "text": "Sum is 7"
+      },
+      {
+        "id": "l4",
+        "text": "Sum is 10"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{1}{12}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{1}{36}$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{1}{9}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r4",
+      "l3": "r1",
+      "l4": "r2"
+    },
+    "hint": "Count the ordered pairs that give each sum, then divide by 36.",
+    "explanation": "Sum $2$: only $(1,1)$, so $\\dfrac{1}{36}$. Sum $5$: $(1,4),(2,3),(3,2),(4,1)$, so $\\dfrac{4}{36} = \\dfrac{1}{9}$. Sum $7$: six pairs, $\\dfrac{6}{36} = \\dfrac{1}{6}$. Sum $10$: $(4,6),(5,5),(6,4)$, so $\\dfrac{3}{36} = \\dfrac{1}{12}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Tossing coins",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A game consists of tossing a one-rupee coin **3 times**. Hanif **wins** if all three tosses give the same result (three heads or three tails) and loses otherwise. What is the probability that Hanif **loses**?",
+    "image": {
+      "src": "/img/c10-ma-probability/tree3.svg",
+      "alt": "A tree diagram of the eight outcomes of three coin tosses"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{1}{8}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{2}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Count the winning outcomes among the 8 and use the complement.",
+    "explanation": "There are $2 \\times 2 \\times 2 = 8$ equally likely outcomes. Hanif wins only with $HHH$ or $TTT$, so $P(\\text{win}) = \\dfrac{2}{8} = \\dfrac{1}{4}$ and $P(\\text{loses}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$. The option $\\tfrac{1}{4}$ is the probability of winning, and $\\tfrac{1}{8}$ counts a single outcome."
+  },
+  {
+    "id": "in-cbse-10-math-probability-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Tossing coins",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the outcome in which the **first coin is tail, the second is tail and the third is head**.",
+    "image": {
+      "src": "/img/c10-ma-probability/tree3.svg",
+      "alt": "A tree diagram of the eight outcomes of three coin tosses"
+    },
+    "spots": [
+      {
+        "id": "o0",
+        "x": 72.5,
+        "y": 9.2,
+        "label": "Outcome HHH"
+      },
+      {
+        "id": "o2",
+        "x": 72.5,
+        "y": 32.3,
+        "label": "Outcome HTH"
+      },
+      {
+        "id": "o4",
+        "x": 72.5,
+        "y": 55.4,
+        "label": "Outcome THH"
+      },
+      {
+        "id": "o6",
+        "x": 72.5,
+        "y": 78.5,
+        "label": "Outcome TTH"
+      }
+    ],
+    "answer": "o6",
+    "hint": "Follow the branches T, then T, then H.",
+    "explanation": "Follow the path $T \\to T \\to H$ from the start: the leaf at the end reads $TTH$. Each of the $8$ leaves is an equally likely outcome, so $P(TTH) = \\dfrac{1}{8}$. Leaves such as $HTH$ or $THH$ share some of the same tosses but differ in at least one position."
+  },
+  {
+    "id": "in-cbse-10-math-probability-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A die is thrown **twice**. What is the probability that **5 comes up at least once**?",
+    "image": {
+      "src": "/img/c10-ma-probability/grid36.svg",
+      "alt": "A table of all 36 outcomes of two throws of a die"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{25}{36}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{18}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{11}{36}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Count pairs containing a 5 in either place, but count (5, 5) only once. Or use the complement.",
+    "explanation": "Pairs with no $5$: $5 \\times 5 = 25$, so pairs with at least one $5$ number $36 - 25 = 11$ and $P = \\dfrac{11}{36}$. The option $\\tfrac{25}{36}$ is the probability of no $5$ at all, $\\tfrac{10}{36}$ forgets $(5,5)$, and $\\tfrac{12}{36}$ counts $(5,5)$ twice ($6 + 6$)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Complementary events",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The probability of an event $E$ is $0.2$. Tap the mark on the scale that shows the probability of **not $E$**.",
+    "image": {
+      "src": "/img/c10-ma-probability/scale.svg",
+      "alt": "A probability scale with marks at 0, 0.2, 0.5, 0.8 and 1"
+    },
+    "spots": [
+      {
+        "id": "p0",
+        "x": 10,
+        "y": 45.8,
+        "label": "Probability 0"
+      },
+      {
+        "id": "p02",
+        "x": 26,
+        "y": 45.8,
+        "label": "Probability 0.2"
+      },
+      {
+        "id": "p05",
+        "x": 50,
+        "y": 45.8,
+        "label": "Probability 0.5"
+      },
+      {
+        "id": "p08",
+        "x": 74,
+        "y": 45.8,
+        "label": "Probability 0.8"
+      },
+      {
+        "id": "p1",
+        "x": 90,
+        "y": 45.8,
+        "label": "Probability 1"
+      }
+    ],
+    "answer": "p08",
+    "hint": "Use $P(\\text{not } E) = 1 - P(E)$.",
+    "explanation": "Since $E$ and \"not $E$\" are complementary, $P(\\text{not } E) = 1 - 0.2 = 0.8$. The mark $0.2$ is $P(E)$ itself, and $0.5$ would only be right if $E$ and not $E$ were equally likely."
+  },
+  {
+    "id": "in-cbse-10-math-probability-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Equally likely outcomes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "Which of these arguments are **correct**? Select all that apply.",
+    "image": {
+      "src": "/img/c10-ma-probability/experiments.svg",
+      "alt": "Pictures of a coin, a bag, a die and a spinner"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Two coins are tossed. There are three outcomes (two heads, two tails, one of each), so each has probability $\\dfrac{1}{3}$."
+      },
+      {
+        "id": "b",
+        "text": "A die is thrown. There are two outcomes, an odd number or an even number, so $P(\\text{odd}) = \\dfrac{1}{2}$."
+      },
+      {
+        "id": "c",
+        "text": "A bag has 1 red and 4 blue balls. There are two colours, so $P(\\text{red}) = \\dfrac{1}{2}$."
+      },
+      {
+        "id": "d",
+        "text": "A spinner has 8 equal sectors numbered 1 to 8, so $P(\\text{the pointer stops at } 8) = \\dfrac{1}{8}$."
+      },
+      {
+        "id": "e",
+        "text": "Two dice are thrown. The sums $2, 3, \\ldots, 12$ are 11 outcomes, so $P(\\text{sum is } 7) = \\dfrac{1}{11}$."
+      }
+    ],
+    "answers": [
+      "b",
+      "d"
+    ],
+    "hint": "The formula works only when the listed outcomes are equally likely.",
+    "explanation": "Odd and even are equally likely on a fair die (3 faces each), and each sector of the equal spinner is equally likely, so those two arguments hold. Two coins have four equally likely outcomes ($HH, HT, TH, TT$), so one head and one tail has probability $\\tfrac{1}{2}$, not $\\tfrac{1}{3}$. Red is less likely than blue in the bag ($\\tfrac{1}{5}$), and the 11 sums are not equally likely ($P(7) = \\tfrac{1}{6}$)."
+  },
+  {
+    "id": "in-cbse-10-math-probability-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Properties of probability",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about probability.",
+    "image": {
+      "src": "/img/c10-ma-probability/complement.svg",
+      "alt": "A rectangle of all outcomes with a circle for event E and the rest labelled not E"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "For any event $E$, $P(E) + P(\\text{not } E) = 1$."
+      },
+      {
+        "id": "b",
+        "text": "The sum of the probabilities of all the elementary events of an experiment is $1$."
+      },
+      {
+        "id": "c",
+        "text": "The probability of a very likely event can be $1.2$."
+      },
+      {
+        "id": "d",
+        "text": "The probability of an impossible event is $0$."
+      },
+      {
+        "id": "e",
+        "text": "If $P(E) = 0.3$ then $P(\\text{not } E) = 0.3$."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Probabilities always lie between 0 and 1, both included.",
+    "explanation": "Complementary events add to $1$, and the elementary events (single outcomes) together use up all outcomes, so their probabilities add to $1$. An impossible event has $0$ favourable outcomes, so $P = 0$. Always $0 \\le P(E) \\le 1$, so $1.2$ cannot occur, and if $P(E) = 0.3$ then $P(\\text{not } E) = 1 - 0.3 = 0.7$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Theoretical probability",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for finding the probability of an event (with equally likely outcomes) in the right order.",
+    "image": {
+      "src": "/img/c10-ma-probability/steps.svg",
+      "alt": "Six outcomes of a die with the favourable ones shaded"
+    },
+    "items": [
+      {
+        "id": "s2",
+        "text": "Count all the possible outcomes, $n$"
+      },
+      {
+        "id": "s4",
+        "text": "Write $P(E) = \\dfrac{m}{n}$"
+      },
+      {
+        "id": "s1",
+        "text": "List the equally likely outcomes of the experiment"
+      },
+      {
+        "id": "s3",
+        "text": "Count the outcomes favourable to the event, $m$"
+      },
+      {
+        "id": "s5",
+        "text": "Simplify and check that $0 \\le P(E) \\le 1$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need the total before you can divide.",
+    "explanation": "First list the outcomes, then count how many are possible ($n$) and how many favour the event ($m$). Only then can you write $P(E) = \\dfrac{m}{n}$. Finally simplify; the answer must lie between $0$ and $1$ because $m \\le n$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A fair die is thrown once. Arrange these events from **least likely** to **most likely**.",
+    "image": {
+      "src": "/img/c10-ma-probability/scale-lr.svg",
+      "alt": "An arrow from least likely to most likely"
+    },
+    "items": [
+      {
+        "id": "e1",
+        "text": "Getting a 6"
+      },
+      {
+        "id": "e3",
+        "text": "A prime number"
+      },
+      {
+        "id": "e0",
+        "text": "Getting 8"
+      },
+      {
+        "id": "e2",
+        "text": "A number greater than 4"
+      },
+      {
+        "id": "e4",
+        "text": "A number less than 7"
+      }
+    ],
+    "answer": [
+      "e0",
+      "e1",
+      "e2",
+      "e3",
+      "e4"
+    ],
+    "startLabel": "Least likely",
+    "endLabel": "Most likely",
+    "hint": "Work out each probability as a fraction out of 6.",
+    "explanation": "Getting $8$: $0$ outcomes, $P = 0$. Getting a $6$: $\\dfrac{1}{6}$. Greater than $4$ ($5, 6$): $\\dfrac{2}{6} = \\dfrac{1}{3}$. Prime ($2, 3, 5$): $\\dfrac{3}{6} = \\dfrac{1}{2}$. Less than $7$: $\\dfrac{6}{6} = 1$. Larger probability means more likely."
+  },
+  {
+    "id": "in-cbse-10-math-probability-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Complementary events",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Savita and Hamida want the probability that they have the **same birthday** (ignore leap years). Put the reasoning in order.",
+    "image": {
+      "src": "/img/c10-ma-probability/birthday.svg",
+      "alt": "A year strip of 365 days with two birthday markers"
+    },
+    "items": [
+      {
+        "id": "b2",
+        "text": "For different birthdays, Hamida has $365 - 1 = 364$ favourable days"
+      },
+      {
+        "id": "b4",
+        "text": "Same birthday is the complement, so $P(\\text{same}) = 1 - \\dfrac{364}{365}$"
+      },
+      {
+        "id": "b1",
+        "text": "Savita’s birthday can be any day; Hamida’s birthday can be any of 365 equally likely days"
+      },
+      {
+        "id": "b3",
+        "text": "$P(\\text{different birthdays}) = \\dfrac{364}{365}$"
+      },
+      {
+        "id": "b5",
+        "text": "$P(\\text{same birthday}) = \\dfrac{1}{365}$"
+      }
+    ],
+    "answer": [
+      "b1",
+      "b2",
+      "b3",
+      "b4",
+      "b5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Find the easier probability (different birthdays) first and then take the complement.",
+    "explanation": "Fix Savita’s birthday, then count the days that make Hamida differ: $364$ out of $365$. The complement rule $P(\\overline{E}) = 1 - P(E)$ then gives $1 - \\dfrac{364}{365} = \\dfrac{1}{365}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Playing cards",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "One card is drawn from a well-shuffled deck of 52 cards. Arrange these events from **smallest** to **largest** probability.",
+    "image": {
+      "src": "/img/c10-ma-probability/cards-suits.svg",
+      "alt": "The four suits of a pack of cards"
+    },
+    "items": [
+      {
+        "id": "k1",
+        "text": "A king"
+      },
+      {
+        "id": "k3",
+        "text": "A spade"
+      },
+      {
+        "id": "k0",
+        "text": "The jack of hearts"
+      },
+      {
+        "id": "k2",
+        "text": "A face card"
+      },
+      {
+        "id": "k4",
+        "text": "A red card"
+      }
+    ],
+    "answer": [
+      "k0",
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "All have denominator 52, so just compare the number of favourable cards.",
+    "explanation": "With $52$ cards in every case, a larger count of favourable cards means a larger probability: jack of hearts $1$, a king $4$, a face card $12$, a spade $13$, a red card $26$, giving $\\dfrac{1}{52} < \\dfrac{4}{52} < \\dfrac{12}{52} < \\dfrac{13}{52} < \\dfrac{26}{52}$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Properties of probability",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term with what it means.",
+    "image": {
+      "src": "/img/c10-ma-probability/scale.svg",
+      "alt": "A probability scale from 0 to 1"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Impossible event"
+      },
+      {
+        "id": "l2",
+        "text": "Sure (certain) event"
+      },
+      {
+        "id": "l3",
+        "text": "Elementary event"
+      },
+      {
+        "id": "l4",
+        "text": "Complementary events"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "An event with exactly one outcome"
+      },
+      {
+        "id": "r2",
+        "text": "$E$ and \"not $E$\", whose probabilities add up to $1$"
+      },
+      {
+        "id": "r3",
+        "text": "An event with probability $1$"
+      },
+      {
+        "id": "r4",
+        "text": "An event with probability $0$"
+      }
+    ],
+    "pairs": {
+      "l1": "r4",
+      "l2": "r3",
+      "l3": "r1",
+      "l4": "r2"
+    },
+    "hint": "Think of how many favourable outcomes each term has.",
+    "explanation": "An impossible event has no favourable outcome, so $P = 0$. A sure event has every outcome favourable, so $P = 1$. An elementary event has just one outcome (for example getting a head). Complementary events $E$ and \"not $E$\" satisfy $P(E) + P(\\overline{E}) = 1$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Probability of an event",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "A box has **3 blue, 2 white and 4 red** marbles. One marble is drawn at random. Match each event with its probability.",
+    "image": {
+      "src": "/img/c10-ma-probability/marbles-9.svg",
+      "alt": "A box with three blue, two white and four red marbles"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "The marble is blue"
+      },
+      {
+        "id": "l2",
+        "text": "The marble is white"
+      },
+      {
+        "id": "l3",
+        "text": "The marble is red"
+      },
+      {
+        "id": "l4",
+        "text": "The marble is **not** red"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{2}{9}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{4}{9}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{5}{9}$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{1}{3}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r4",
+      "l2": "r1",
+      "l3": "r2",
+      "l4": "r3"
+    },
+    "hint": "Total marbles $= 3 + 2 + 4 = 9$; \"not red\" is the complement of red.",
+    "explanation": "Total $= 3 + 2 + 4 = 9$. Blue: $\\dfrac{3}{9} = \\dfrac{1}{3}$. White: $\\dfrac{2}{9}$. Red: $\\dfrac{4}{9}$. Not red: $1 - \\dfrac{4}{9} = \\dfrac{5}{9}$ (equivalently $\\dfrac{3 + 2}{9}$). Note $P(\\text{blue}) + P(\\text{white}) + P(\\text{red}) = 1$."
+  },
+  {
+    "id": "in-cbse-10-math-probability-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Complementary events",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-probability/die-roll.svg",
+      "alt": "A die rolling"
+    },
+    "assertion": "The probability of **not** getting a 6 when a die is thrown once is $\\dfrac{5}{6}$.",
+    "reason": "For any event $E$, $P(\\text{not } E) = 1 - P(E)$.",
+    "answer": "a",
+    "hint": "Use the complement rule on $P(\\text{a 6}) = \\dfrac{1}{6}$.",
+    "explanation": "Both are true and R explains A: $P(6) = \\dfrac{1}{6}$, so $P(\\text{not } 6) = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}$. Counting the five other faces directly gives the same answer."
+  },
+  {
+    "id": "in-cbse-10-math-probability-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Equally likely outcomes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-probability/bag-41.svg",
+      "alt": "A bag with four red balls and one blue ball"
+    },
+    "assertion": "A ball is drawn at random from a bag with 4 red balls and 1 blue ball. The probability that it is red is $\\dfrac{4}{5}$.",
+    "reason": "The outcomes \"red\" and \"blue\" are not equally likely.",
+    "answer": "b",
+    "hint": "Does the reason give the way the number $\\dfrac{4}{5}$ is calculated?",
+    "explanation": "A is true: $5$ balls are equally likely to be drawn and $4$ are red, so $P = \\tfrac{4}{5}$. R is also true, but it does not explain the calculation. The $\\tfrac{4}{5}$ comes from counting the equally likely **balls**, not from the colours."
+  },
+  {
+    "id": "in-cbse-10-math-probability-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Tossing coins",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-probability/coins2.svg",
+      "alt": "Two coins being tossed"
+    },
+    "assertion": "When two coins are tossed together, the probability of getting one head and one tail is $\\dfrac{1}{2}$.",
+    "reason": "The three outcomes \"two heads\", \"two tails\" and \"one of each\" are equally likely.",
+    "answer": "c",
+    "hint": "List the outcomes as ordered pairs: HH, HT, TH, TT.",
+    "explanation": "A is true: $HT$ and $TH$ are two of the four equally likely outcomes, so $P = \\dfrac{2}{4} = \\dfrac{1}{2}$. R is false: \"one of each\" covers two outcomes while the other two cases cover one each, so the three listed outcomes are not equally likely."
+  },
+  {
+    "id": "in-cbse-10-math-probability-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Theoretical probability",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-probability/coin-streak.svg",
+      "alt": "Ten coin tosses showing seven heads"
+    },
+    "assertion": "A fair coin tossed 10 times gave 7 heads, so the theoretical probability of a head is $\\dfrac{7}{10}$.",
+    "reason": "Theoretical probability comes from equally likely outcomes, not from the result of one particular set of tosses.",
+    "answer": "d",
+    "hint": "Theoretical probability of a head for a fair coin does not change with a particular run of tosses.",
+    "explanation": "A is false: the theoretical probability of a head for a fair coin is $\\tfrac{1}{2}$ whatever happened in the 10 tosses; $\\tfrac{7}{10}$ is only the experimental (empirical) result. R is true: theoretical probability is worked out from equally likely outcomes."
+  },
+  {
+    "id": "in-cbse-10-math-probability-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "chapterNo": 14,
+    "topic": "Two dice",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-probability/grid36.svg",
+      "alt": "A table of all 36 outcomes of two dice"
+    },
+    "assertion": "When two dice are thrown, there are 36 possible outcomes.",
+    "reason": "The pair $(1, 4)$ is different from the pair $(4, 1)$.",
+    "answer": "a",
+    "hint": "Does counting ordered pairs explain 36 rather than 21?",
+    "explanation": "Both are true and R explains A: because $(1,4)$ and $(4,1)$ count as different outcomes, each of the $6$ results on one die pairs with $6$ on the other, giving $6 \\times 6 = 36$ rather than only $21$ unordered pairs."
+  }
+]

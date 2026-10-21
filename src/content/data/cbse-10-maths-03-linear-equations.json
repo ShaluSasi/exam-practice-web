@@ -1,0 +1,2235 @@
+[
+  {
+    "id": "in-cbse-10-math-linear-equations-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Forming equations",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Akhila spent ₹20 at a village fair. A Giant Wheel ride costs ₹3 and a game of Hoopla costs ₹4. The number of Hoopla games she played is **half** the number of rides. Let $x$ be the rides and $y$ the games. Which pair of equations represents this?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/fair.svg",
+      "alt": "A Giant Wheel and a Hoopla stall at a village fair with the price of each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x = \\dfrac{y}{2}$ and $3x + 4y = 20$"
+      },
+      {
+        "id": "b",
+        "text": "$y = \\dfrac{x}{2}$ and $4x + 3y = 20$"
+      },
+      {
+        "id": "c",
+        "text": "$y = \\dfrac{x}{2}$ and $3x + 4y = 20$"
+      },
+      {
+        "id": "d",
+        "text": "$y = \\dfrac{x}{2}$ and $x + y = 20$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Games are half the rides, so which letter is the smaller number? Then match each price to its own letter.",
+    "explanation": "Games are half of rides, so $y = \\frac{x}{2}$. Each ride costs ₹3 and each game ₹4, so the money is $3x + 4y = 20$. Swapping the letters in the first equation ($x = \\frac{y}{2}$) says rides are half the games, swapping the prices gives $4x + 3y = 20$, and $x + y = 20$ treats the number of rides plus games as the money spent. The correct pair has the solution $x = 4,\\ y = 2$: $3(4) + 4(2) = 20$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Graphical method",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The graph shows both equations of Akhila's story. Tap the point that is the **solution** of the pair.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-akhila.svg",
+      "alt": "Two lines on a coordinate grid, one rising slowly from the origin and one falling from the y axis"
+    },
+    "spots": [
+      {
+        "id": "sol",
+        "x": 57.1,
+        "y": 53.1,
+        "label": "Common point (4, 2)"
+      },
+      {
+        "id": "xint",
+        "x": 83.0,
+        "y": 77.1,
+        "label": "x-intercept of 3x + 4y = 20"
+      },
+      {
+        "id": "yint",
+        "x": 18.2,
+        "y": 17.0,
+        "label": "y-intercept of 3x + 4y = 20"
+      },
+      {
+        "id": "orig",
+        "x": 18.2,
+        "y": 77.1,
+        "label": "Origin"
+      },
+      {
+        "id": "one",
+        "x": 37.7,
+        "y": 65.1,
+        "label": "Point (2, 1) on x - 2y = 0 only"
+      }
+    ],
+    "answer": "sol",
+    "hint": "A solution of the pair must lie on both lines.",
+    "explanation": "A pair of equations is solved by a point that lies on **both** lines, which is where the lines cross: $(4, 2)$. Check: $4 - 2(2) = 0$ and $3(4) + 4(2) = 20$. The other marked points lie on only one line (or neither), so each satisfies at most one equation. So Akhila took 4 rides and played 2 games."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Consistent and inconsistent pairs",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The graph shows $x + 2y = 4$ and $2x + 4y = 12$. What kind of pair is this?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-parallel.svg",
+      "alt": "Two parallel lines on a coordinate grid"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Consistent with exactly one solution"
+      },
+      {
+        "id": "b",
+        "text": "Inconsistent: the lines are parallel and there is no solution"
+      },
+      {
+        "id": "c",
+        "text": "Consistent with infinitely many solutions"
+      },
+      {
+        "id": "d",
+        "text": "Dependent, because the lines never meet"
+      }
+    ],
+    "answer": "b",
+    "hint": "Do the two lines ever share a point?",
+    "explanation": "The lines never meet, so no point satisfies both equations: the pair is **inconsistent**. Algebraically $\\frac{1}{2} = \\frac{2}{4} \\ne \\frac{4}{12}$ (ratios of $x$ and $y$ coefficients equal, constants different). A *dependent* pair has coincident lines, not parallel ones, and a consistent pair needs at least one common point."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Reading the ratio condition",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Compare $\\dfrac{a_1}{a_2}$, $\\dfrac{b_1}{b_2}$ and $\\dfrac{c_1}{c_2}$ for $x - y = 2$ and $3x - 3y = 12$. Which picture shows this pair?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parallel lines rising, meeting the x axis at 2 and 4",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t1-a.svg",
+          "alt": "Two parallel lines rising to the right"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Parallel lines falling, meeting the x axis at 2 and 4",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t1-b.svg",
+          "alt": "Two parallel lines falling to the right"
+        }
+      },
+      {
+        "id": "c",
+        "text": "One line through 2 on the x axis, counted twice",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t1-c.svg",
+          "alt": "One coincident line"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Two lines that cross at one point",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t1-d.svg",
+          "alt": "Two crossing lines"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "Put both equations in the form $ax + by + c = 0$ and compare the three ratios.",
+    "explanation": "In the form $ax + by + c = 0$ the pair is $x - y - 2 = 0$ and $3x - 3y - 12 = 0$. Then $\\frac{a_1}{a_2} = \\frac{1}{3}$, $\\frac{b_1}{b_2} = \\frac{1}{3}$, $\\frac{c_1}{c_2} = \\frac{2}{12} = \\frac{1}{6}$. The first two ratios are equal but the third is different, so the lines are **parallel**. Both have slope $+1$ and cut the x axis at 2 and 4. The falling pair has slope $-1$, the single line would need $\\frac{c_1}{c_2} = \\frac13$ as well, and crossing lines need $\\frac{a_1}{a_2} \\ne \\frac{b_1}{b_2}$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Coincident lines",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The two lines $2x + 3y = 9$ and $4x + 6y = 18$ are drawn and five points are marked. Tap the point that is **not** a common solution of the pair.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-coin.svg",
+      "alt": "Two coincident lines with five marked points, four of them on the line and one above it"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 18.2,
+        "y": 29.0,
+        "label": "Point (0, 3) on both lines"
+      },
+      {
+        "id": "p2",
+        "x": 32.8,
+        "y": 41.1,
+        "label": "Point (1.5, 2) on both lines"
+      },
+      {
+        "id": "p3",
+        "x": 47.4,
+        "y": 53.1,
+        "label": "Point (3, 1) on both lines"
+      },
+      {
+        "id": "p4",
+        "x": 76.6,
+        "y": 77.1,
+        "label": "Point (6, -1) on both lines"
+      },
+      {
+        "id": "bad",
+        "x": 47.4,
+        "y": 29.0,
+        "label": "Point (3, 3) is on neither line"
+      }
+    ],
+    "answer": "bad",
+    "hint": "The lines coincide, so every point of that one line is a common solution. Which marked point is off the line?",
+    "explanation": "Since $4x + 6y = 18$ is just $2x + 3y = 9$ doubled, the lines **coincide** and every point of the line is a common solution. Test $(3, 3)$: $2(3) + 3(3) = 15 \\ne 9$, so it is off the line. The others work, e.g. $(3, 1)$: $6 + 3 = 9$ and $(6, -1)$: $12 - 3 = 9$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Comparing ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The table compares the coefficients of $9x - 6y + 15 = 0$ and $3x - 2y + 7 = 0$. What do the lines representing this pair do?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/ratio-table.svg",
+      "alt": "A table with the pair of equations and the ratios 9 over 3, minus 6 over minus 2 and 15 over 7"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "They intersect at exactly one point"
+      },
+      {
+        "id": "b",
+        "text": "They coincide"
+      },
+      {
+        "id": "c",
+        "text": "They are perpendicular"
+      },
+      {
+        "id": "d",
+        "text": "They are parallel"
+      }
+    ],
+    "answer": "d",
+    "hint": "$\\frac{9}{3}$ and $\\frac{-6}{-2}$ are both 3. Is $\\frac{15}{7}$ also 3?",
+    "explanation": "$\\frac{a_1}{a_2} = \\frac{9}{3} = 3$, $\\frac{b_1}{b_2} = \\frac{-6}{-2} = 3$ and $\\frac{c_1}{c_2} = \\frac{15}{7} \\ne 3$. When $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\ne \\frac{c_1}{c_2}$ the lines are **parallel** and the pair has no solution. Intersection would need $\\frac{a_1}{a_2} \\ne \\frac{b_1}{b_2}$, coincidence needs all three ratios equal, and \"perpendicular\" is not decided by these ratios."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Finding k",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "For what value of $k$ will the pair $3x + 2y = 8$ and $6x + ky = 10$ have **no solution**? (In the picture the second line pivots about a fixed point as $k$ changes.)",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-pivot.svg",
+      "alt": "A fixed line 3x + 2y = 8 and a second line that pivots, shown parallel to the first"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$k = 1$"
+      },
+      {
+        "id": "b",
+        "text": "$k = 4$"
+      },
+      {
+        "id": "c",
+        "text": "$k = 6$"
+      },
+      {
+        "id": "d",
+        "text": "$k = 8$"
+      }
+    ],
+    "answer": "b",
+    "hint": "No solution needs $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\ne \\frac{c_1}{c_2}$.",
+    "explanation": "We need $\\frac{3}{6} = \\frac{2}{k}$, so $k = 4$. Then $\\frac{c_1}{c_2} = \\frac{8}{10} = \\frac{4}{5}$, which differs from $\\frac12$, so the lines are parallel. $k = 1$ comes from flipping one ratio ($\\frac{3}{6} = \\frac{k}{2}$); $k = 6$ and $k = 8$ just copy a number from the equations and give crossing lines."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Finding unknown coefficients",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The pair $2x + 3y = 7$ and $(p + q)x + (2p - q)y = 21$ has **infinitely many** solutions. Find $p$.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/three-cases.svg",
+      "alt": "Three panels showing intersecting, coinciding and parallel lines"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$p = 5$"
+      },
+      {
+        "id": "b",
+        "text": "$p = 3$"
+      },
+      {
+        "id": "c",
+        "text": "$p = 1$"
+      },
+      {
+        "id": "d",
+        "text": "$p = 6$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Infinitely many solutions means all three ratios are equal; use $\\frac{2}{p+q} = \\frac{3}{2p-q} = \\frac{7}{21}$.",
+    "explanation": "Coincident lines need $\\frac{2}{p+q} = \\frac{3}{2p-q} = \\frac{7}{21} = \\frac{1}{3}$. So $p + q = 6$ and $2p - q = 9$. Adding gives $3p = 15$, so $p = 5$ (and $q = 1$). Using $2p + q = 9$ by a sign slip gives $p = 3$, $p = 1$ is the value of $q$, and $6$ is only $p + q$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Graphs and areas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The lines $x - y + 1 = 0$ and $3x + 2y = 12$ and the x axis enclose the shaded triangle. What is its area in square units?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-tri.svg",
+      "alt": "Two lines and the x axis forming a shaded triangle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{9}{2}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{15}{2}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{5}{2}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Find where each line meets the x axis; those give the base. The height is the y-coordinate of the meeting point of the two lines.",
+    "explanation": "Meeting the x axis: $x - y + 1 = 0$ gives $x = -1$ and $3x + 2y = 12$ gives $x = 4$, so the base is $4 - (-1) = 5$. The lines meet at $(2, 3)$, so the height is 3. Area $= \\frac{1}{2} \\times 5 \\times 3 = \\frac{15}{2}$. Forgetting the $\\frac12$ gives 15, using base $4 - 1 = 3$ gives $\\frac92$, and taking height 1 (the y-intercept of the first line) gives $\\frac52$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Graphical method",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the vertex of the triangle where the lines $x - y + 1 = 0$ and $3x + 2y = 12$ **meet each other**.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-tri.svg",
+      "alt": "Two lines and the x axis forming a shaded triangle"
+    },
+    "spots": [
+      {
+        "id": "top",
+        "x": 52.2,
+        "y": 47.1,
+        "label": "Vertex (2, 3) where the two lines meet"
+      },
+      {
+        "id": "left",
+        "x": 19.4,
+        "y": 78.6,
+        "label": "Vertex (-1, 0) on the x axis"
+      },
+      {
+        "id": "right",
+        "x": 74.1,
+        "y": 78.6,
+        "label": "Vertex (4, 0) on the x axis"
+      },
+      {
+        "id": "yint",
+        "x": 30.4,
+        "y": 15.5,
+        "label": "y-intercept of 3x + 2y = 12"
+      },
+      {
+        "id": "cen",
+        "x": 48.6,
+        "y": 68.1,
+        "label": "Centre of the triangle"
+      }
+    ],
+    "answer": "top",
+    "hint": "Which vertex is not on the x axis?",
+    "explanation": "The common point of the two lines is the solution of the pair. Putting $x = y - 1$ into $3x + 2y = 12$ gives $3y - 3 + 2y = 12$, so $y = 3$ and $x = 2$: the top vertex $(2, 3)$. The other two vertices lie where one line meets the x axis."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Intercepts",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the vertex where the line $x - y + 1 = 0$ meets the **x axis**.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-tri.svg",
+      "alt": "Two lines and the x axis forming a shaded triangle"
+    },
+    "spots": [
+      {
+        "id": "top",
+        "x": 52.2,
+        "y": 47.1,
+        "label": "Vertex (2, 3) where the two lines meet"
+      },
+      {
+        "id": "left",
+        "x": 19.4,
+        "y": 78.6,
+        "label": "Vertex (-1, 0) on the x axis"
+      },
+      {
+        "id": "right",
+        "x": 74.1,
+        "y": 78.6,
+        "label": "Vertex (4, 0) on the x axis"
+      },
+      {
+        "id": "yint",
+        "x": 30.4,
+        "y": 15.5,
+        "label": "y-intercept of 3x + 2y = 12"
+      },
+      {
+        "id": "cen",
+        "x": 48.6,
+        "y": 68.1,
+        "label": "Centre of the triangle"
+      }
+    ],
+    "answer": "left",
+    "hint": "On the x axis $y = 0$.",
+    "explanation": "On the x axis $y = 0$, so $x - 0 + 1 = 0$ gives $x = -1$: the vertex $(-1, 0)$. The other line meets the x axis at $x = 4$ because $3x = 12$ when $y = 0$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Graphical method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the point that solves $x + 3y = 6$ and $2x - 3y = 12$.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-ex1.svg",
+      "alt": "Two lines crossing the x axis at the same point, with three marked points on the y axis and a third"
+    },
+    "spots": [
+      {
+        "id": "sol",
+        "x": 76.6,
+        "y": 42.4,
+        "label": "Common point (6, 0)"
+      },
+      {
+        "id": "A",
+        "x": 18.2,
+        "y": 23.7,
+        "label": "A(0, 2) on x + 3y = 6 only"
+      },
+      {
+        "id": "P",
+        "x": 18.2,
+        "y": 79.8,
+        "label": "P(0, -4) on 2x - 3y = 12 only"
+      },
+      {
+        "id": "Q",
+        "x": 47.4,
+        "y": 61.1,
+        "label": "Q(3, -2) on 2x - 3y = 12 only"
+      },
+      {
+        "id": "O",
+        "x": 18.2,
+        "y": 42.4,
+        "label": "Origin"
+      }
+    ],
+    "answer": "sol",
+    "hint": "Find where the blue and orange lines cross.",
+    "explanation": "The lines meet where both equations hold. Adding them gives $3x = 18$, so $x = 6$, and then $6 + 3y = 6$ gives $y = 0$. The solution is $(6, 0)$, on the x axis. A, P and Q are only the points used to draw the lines, so each is on one line."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Forming and solving",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Rani bought $x$ pants and $y$ skirts. The number of skirts is 4 less than twice the number of pants, and also 7 less than three times the number of pants. How many pants and skirts did she buy?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-champa.svg",
+      "alt": "Two lines y = 2x - 4 and y = 3x - 7 crossing at one point"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "2 pants and 3 skirts"
+      },
+      {
+        "id": "b",
+        "text": "2 pants and 0 skirts"
+      },
+      {
+        "id": "c",
+        "text": "4 pants and 4 skirts"
+      },
+      {
+        "id": "d",
+        "text": "3 pants and 2 skirts"
+      }
+    ],
+    "answer": "d",
+    "hint": "Write y = 2x - 4 and y = 3x - 7, then equate the two expressions for y.",
+    "explanation": "$y = 2x - 4$ and $y = 3x - 7$ give $2x - 4 = 3x - 7$, so $x = 3$ and $y = 2$. Check: $2(3) - 4 = 2$ and $3(3) - 7 = 2$. Swapping $x$ and $y$ gives $(2, 3)$; misreading 7 as 6 gives $(2, 0)$; and $(4, 4)$ satisfies only the first equation."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Forming equations from a story",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A shop bills 5 pencils and 3 pens for ₹38, and 3 pencils and 5 pens for ₹42. What does **one pen** cost?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/shop-pencils.svg",
+      "alt": "Two bills: five pencils and three pens, and three pencils and five pens"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹6"
+      },
+      {
+        "id": "b",
+        "text": "₹4"
+      },
+      {
+        "id": "c",
+        "text": "₹10"
+      },
+      {
+        "id": "d",
+        "text": "₹2"
+      }
+    ],
+    "answer": "a",
+    "hint": "Let a pencil cost x and a pen cost y; adding the two equations is a quick first move.",
+    "explanation": "$5x + 3y = 38$ and $3x + 5y = 42$. Adding: $8x + 8y = 80$, so $x + y = 10$. Subtracting: $2x - 2y = -4$, so $x - y = -2$. Then $y = 6$ and $x = 4$. ₹4 is the pencil, ₹10 is the cost of a pencil plus a pen, and ₹2 is the gap $y - x$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Substitution method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of the **substitution method** in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/plug-in.svg",
+      "alt": "A piece x equals 9 minus y plugged into the other equation"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Solve the one-variable equation to find that variable"
+      },
+      {
+        "id": "s1",
+        "text": "Write one variable in terms of the other using one equation"
+      },
+      {
+        "id": "s4",
+        "text": "Put this value back to find the other variable"
+      },
+      {
+        "id": "s2",
+        "text": "Substitute that expression into the other equation"
+      },
+      {
+        "id": "s5",
+        "text": "Check the answer in both original equations"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot substitute until you have an expression to substitute.",
+    "explanation": "Express $x$ (or $y$) from one equation, substitute it into the **other** equation so only one variable remains, solve it, then put the value back to get the second variable. A final check in both equations catches slips. If the substitution leaves a true statement with no variable, there are infinitely many solutions; a false one means no solution."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Substitution method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Solve $x + 2y = 7$ and $5x - 4y = 7$ by substitution. What is $(x, y)$?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/subst-card.svg",
+      "alt": "The equation x plus 2y equals 7 rewritten as x equals 7 minus 2y and substituted into 5x minus 4y equals 7"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2, 3)$"
+      },
+      {
+        "id": "b",
+        "text": "$(3, 2)$"
+      },
+      {
+        "id": "c",
+        "text": "$(1, 3)$"
+      },
+      {
+        "id": "d",
+        "text": "$(7, 0)$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use $x = 7 - 2y$ and watch the brackets: $5(7 - 2y)$.",
+    "explanation": "From $x = 7 - 2y$: $5(7 - 2y) - 4y = 7$, so $35 - 14y = 7$, $y = 2$, and $x = 7 - 4 = 3$. Check in the second equation: $15 - 8 = 7$. $(2, 3)$ swaps the values, while $(1, 3)$ and $(7, 0)$ satisfy $x + 2y = 7$ but not $5x - 4y = 7$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Age problems",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Three years ago a father was five times as old as his son. Seven years from now he will be three times as old as his son. How old is the **father** now?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/ages-blocks.svg",
+      "alt": "Block diagram: father is five son-blocks old three years ago and three son-blocks old in seven years"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "50 years"
+      },
+      {
+        "id": "b",
+        "text": "60 years"
+      },
+      {
+        "id": "c",
+        "text": "53 years"
+      },
+      {
+        "id": "d",
+        "text": "13 years"
+      }
+    ],
+    "answer": "c",
+    "hint": "Let the ages now be $F$ and $S$: $F - 3 = 5(S - 3)$ and $F + 7 = 3(S + 7)$.",
+    "explanation": "$F - 3 = 5(S - 3)$ gives $F = 5S - 12$ and $F + 7 = 3(S + 7)$ gives $F = 3S + 14$. So $5S - 12 = 3S + 14$, $S = 13$ and $F = 53$. Check: 3 years ago $50 = 5 \\times 10$; in 7 years $60 = 3 \\times 20$. The options 50 and 60 are the father\\'s ages at those times, and 13 is the son\\'s present age."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Age problems",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "The graph shows the father's age $y$ against the son's age $x$ for the two conditions of the age problem ($y = 5x - 12$ and $y = 3x + 14$). Tap the point that gives their **present ages**.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-ages.svg",
+      "alt": "Two straight lines of fathers age against sons age crossing at one point"
+    },
+    "spots": [
+      {
+        "id": "sol",
+        "x": 65.4,
+        "y": 30.3,
+        "label": "Present ages: son 13, father 53"
+      },
+      {
+        "id": "a",
+        "x": 30.4,
+        "y": 67.7,
+        "label": "Point (5, 13) on the first line only"
+      },
+      {
+        "id": "b",
+        "x": 30.4,
+        "y": 52.7,
+        "label": "Point (5, 29) on the second line only"
+      },
+      {
+        "id": "c",
+        "x": 82.9,
+        "y": 19.0,
+        "label": "Point (17, 65) on the second line only"
+      },
+      {
+        "id": "d",
+        "x": 8.5,
+        "y": 66.7,
+        "label": "y-intercept of the second line"
+      }
+    ],
+    "answer": "sol",
+    "hint": "The present ages satisfy both conditions at once.",
+    "explanation": "Both conditions hold at the single point where the lines cross. Setting $5x - 12 = 3x + 14$ gives $x = 13$, $y = 53$. The other marked points satisfy only one condition: for example $(5, 29)$ fits $y = 3x + 14$ but $5(5) - 12 = 13 \\ne 29$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Solving word problems",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for solving a word problem with two unknowns.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/word-steps.svg",
+      "alt": "A sentence about two numbers turned into two equations"
+    },
+    "items": [
+      {
+        "id": "w3",
+        "text": "Solve the pair of equations"
+      },
+      {
+        "id": "w1",
+        "text": "Name the two unknown quantities with letters"
+      },
+      {
+        "id": "w5",
+        "text": "Check the answer against the story"
+      },
+      {
+        "id": "w2",
+        "text": "Translate the two conditions into two equations"
+      },
+      {
+        "id": "w4",
+        "text": "Write the answer with units"
+      }
+    ],
+    "answer": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You must name the unknowns before you can write equations.",
+    "explanation": "Choose letters for the unknowns, turn each condition of the story into an equation, solve the pair (by graph, substitution or elimination), state the answer in words with units, and finally verify it against the **original** wording of the problem, not just your equations."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Elimination method",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The incomes of two people are in the ratio $7 : 5$ and their spendings are in the ratio $3 : 2$. Each saves ₹1500 a month. Find the monthly income of the **first** person.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/incomes.svg",
+      "alt": "Two bars each split into spending and an equal saving"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹9,000"
+      },
+      {
+        "id": "b",
+        "text": "₹1,500"
+      },
+      {
+        "id": "c",
+        "text": "₹7,500"
+      },
+      {
+        "id": "d",
+        "text": "₹10,500"
+      }
+    ],
+    "answer": "d",
+    "hint": "Take incomes $7x, 5x$ and spendings $3y, 2y$, so $7x - 3y = 1500$ and $5x - 2y = 1500$.",
+    "explanation": "Multiply by 2 and 3: $14x - 6y = 3000$ and $15x - 6y = 4500$. Subtracting: $x = 1500$. Then $7(1500) - 3y = 1500$ gives $y = 3000$. The first income is $7x = ₹10{,}500$. ₹9,000 is the first spending ($3y$), ₹1,500 is just $x$, and ₹7,500 is the second income. Check the ratio of spendings $9000 : 6000 = 3 : 2$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Elimination method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of the **elimination method** in order.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/elim-add.svg",
+      "alt": "Two equations added so that the y terms cancel"
+    },
+    "items": [
+      {
+        "id": "e3",
+        "text": "Add or subtract the equations to eliminate that variable"
+      },
+      {
+        "id": "e1",
+        "text": "Multiply the equations by suitable numbers so one variable has equal coefficients"
+      },
+      {
+        "id": "e4",
+        "text": "Solve the resulting one-variable equation"
+      },
+      {
+        "id": "e2",
+        "text": "Put its value into an original equation to find the other variable"
+      }
+    ],
+    "answer": [
+      "e1",
+      "e3",
+      "e4",
+      "e2"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Make the coefficients match before you add or subtract.",
+    "explanation": "First make the coefficients of one variable numerically equal by multiplying by non-zero numbers. Then add or subtract so that variable disappears, solve for the other one, and substitute back for the first. If the elimination leaves a true statement with no variable the pair has infinitely many solutions; a false statement means no solution."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Digit problems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The sum of the digits of a two-digit number is 9. The number is 27 more than the number formed by reversing its digits. Find the number.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/digits.svg",
+      "alt": "Digit tiles x and y swapped when the number is reversed"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "36"
+      },
+      {
+        "id": "b",
+        "text": "63"
+      },
+      {
+        "id": "c",
+        "text": "72"
+      },
+      {
+        "id": "d",
+        "text": "54"
+      }
+    ],
+    "answer": "b",
+    "hint": "With tens digit $x$ and units digit $y$ the number is $10x + y$ and its reverse is $10y + x$.",
+    "explanation": "$x + y = 9$ and $(10x + y) - (10y + x) = 27$ gives $9(x - y) = 27$, so $x - y = 3$. Then $x = 6$, $y = 3$ and the number is 63. Check: $63 - 36 = 27$. 36 is the reverse (digits swapped). 54 has digit sum 9 but exceeds its reverse only by 9, and 72 differs from its reverse by 45."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Forming equations from a story",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A coach buys 5 bats and 3 balls for ₹3000. Later she buys 2 bats and 4 balls for ₹1900. What is the cost of **one bat**?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/cricket-kit.svg",
+      "alt": "Two purchases of cricket bats and balls with their bills"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹250"
+      },
+      {
+        "id": "b",
+        "text": "₹600"
+      },
+      {
+        "id": "c",
+        "text": "₹950"
+      },
+      {
+        "id": "d",
+        "text": "₹450"
+      }
+    ],
+    "answer": "d",
+    "hint": "Eliminate balls: multiply the first equation by 4 and the second by 3.",
+    "explanation": "$5x + 3y = 3000$ and $2x + 4y = 1900$. Multiply by 4 and 3: $20x + 12y = 12000$ and $6x + 12y = 5700$. Subtract: $14x = 6300$, so $x = 450$ and $y = 250$. ₹250 is the ball. ₹600 comes from dividing ₹3000 by 5 as if the bill were only for bats, and ₹950 from dividing ₹1900 by 2."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Fixed and variable charges",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A taxi charges a fixed amount plus a rate per km. The fare is ₹140 for 10 km and ₹200 for 15 km (see the graph). What is the fare for 25 km?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-taxi.svg",
+      "alt": "A straight line graph of taxi fare against distance through the points 10 km, 140 rupees and 15 km, 200 rupees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹300"
+      },
+      {
+        "id": "b",
+        "text": "₹320"
+      },
+      {
+        "id": "c",
+        "text": "₹350"
+      },
+      {
+        "id": "d",
+        "text": "₹340"
+      }
+    ],
+    "answer": "b",
+    "hint": "Let fixed charge = F and rate = r per km: F + 10r = 140 and F + 15r = 200.",
+    "explanation": "Subtracting: $5r = 60$, so $r = ₹12$ per km, and $F = 140 - 120 = ₹20$. Fare for 25 km: $20 + 25 \\times 12 = ₹320$. ₹300 forgets the fixed charge, ₹350 uses $\\frac{140}{10} = 14$ per km (treating the fixed charge as part of the rate), and ₹340 counts the fixed charge twice."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Fixed and variable charges",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "On the fare graph, tap the point that shows the **fixed charge** (the fare before any distance is travelled).",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-taxi.svg",
+      "alt": "A straight line graph of taxi fare against distance through the points 10 km, 140 rupees and 15 km, 200 rupees"
+    },
+    "spots": [
+      {
+        "id": "fix",
+        "x": 8.5,
+        "y": 84.5,
+        "label": "y-intercept: fixed charge"
+      },
+      {
+        "id": "p10",
+        "x": 37.7,
+        "y": 56.4,
+        "label": "Fare for 10 km"
+      },
+      {
+        "id": "p15",
+        "x": 52.2,
+        "y": 42.4,
+        "label": "Fare for 15 km"
+      },
+      {
+        "id": "p25",
+        "x": 81.4,
+        "y": 14.4,
+        "label": "Fare for 25 km"
+      },
+      {
+        "id": "p5",
+        "x": 23.1,
+        "y": 70.5,
+        "label": "Fare for 5 km"
+      }
+    ],
+    "answer": "fix",
+    "hint": "The fixed charge is paid even when the distance is zero.",
+    "explanation": "At distance 0 the fare is the fixed charge, which is where the line meets the fare axis (the y-intercept): ₹20. The other marked points show the fare for 5, 10, 15 and 25 km, which include the distance charge as well. The line has the equation fare $= 20 + 12 \\times$ distance."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A fraction becomes $\\dfrac{3}{5}$ when 1 is added to both its numerator and denominator, and $\\dfrac{2}{3}$ when 3 is added to both. Find the fraction.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/fraction-bars.svg",
+      "alt": "Bars showing 3 over 5 after adding 1 and 2 over 3 after adding 3"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{9}{5}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{5}{9}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Let the fraction be $\\frac{x}{y}$ and cross-multiply: $5(x + 1) = 3(y + 1)$ and $3(x + 3) = 2(y + 3)$.",
+    "explanation": "$5x - 3y = -2$ and $3x - 2y = -3$. Multiply by 2 and 3: $10x - 6y = -4$ and $9x - 6y = -9$. Subtract: $x = 5$, then $y = 9$. Check: $\\frac{6}{10} = \\frac35$ and $\\frac{8}{12} = \\frac23$. $\\frac35$ and $\\frac23$ are the results of the additions, not the original fraction, and $\\frac95$ is the original upside down."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Money problems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Meena withdraws ₹1700 from a bank in ₹50 and ₹100 notes only and receives 22 notes in all. How many ₹100 notes does she get?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/notes.svg",
+      "alt": "A fifty rupee note and a hundred rupee note"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "11"
+      },
+      {
+        "id": "d",
+        "text": "17"
+      }
+    ],
+    "answer": "a",
+    "hint": "Let $x$ be the ₹50 notes and $y$ the ₹100 notes: $x + y = 22$ and $50x + 100y = 1700$.",
+    "explanation": "Dividing the second equation by 50: $x + 2y = 34$. Subtract $x + y = 22$: $y = 12$, so $x = 10$. Check: $10 \\times 50 + 12 \\times 100 = 1700$. 10 is the number of ₹50 notes, 11 would come from splitting the notes equally ($1650$), and 17 is $1700 \\div 100$, which ignores the ₹50 notes."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Fixed and variable charges",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A library charges a fixed amount for the first 2 days and an extra amount for **each day after that**. A book kept for 6 days costs ₹38 and one kept for 9 days costs ₹56. What is the charge for keeping a book 12 days?",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/library-days.svg",
+      "alt": "Twelve day boxes where the first two are the fixed-charge days"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹86"
+      },
+      {
+        "id": "b",
+        "text": "₹68"
+      },
+      {
+        "id": "c",
+        "text": "₹74"
+      },
+      {
+        "id": "d",
+        "text": "₹80"
+      }
+    ],
+    "answer": "c",
+    "hint": "Only days after the 2nd are charged extra: 6 days means $6 - 2 = 4$ extra days.",
+    "explanation": "Let fixed charge be $x$ and extra charge per day $y$: $x + 4y = 38$ and $x + 7y = 56$. Subtract: $3y = 18$, $y = 6$, $x = 14$. For 12 days: $14 + 10 \\times 6 = ₹74$. ₹86 charges all 12 days at ₹6 plus ₹14, ₹68 counts 9 extra days, and ₹80 counts 11 extra days."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Coincident lines",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which picture shows the pair $2x + y = 4$ and $6x + 3y = 12$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "One line through (2, 0) and (0, 4), drawn twice",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t2-a.svg",
+          "alt": "A single line through 2 on the x axis and 4 on the y axis"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Two parallel falling lines",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t2-b.svg",
+          "alt": "Two parallel falling lines"
+        }
+      },
+      {
+        "id": "c",
+        "text": "One line through (4, 0) and (0, 2), drawn twice",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t2-c.svg",
+          "alt": "A single line through 4 on the x axis and 2 on the y axis"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Two lines meeting at (2, 0)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t2-d.svg",
+          "alt": "Two lines meeting on the x axis"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "Is $6x + 3y = 12$ a multiple of $2x + y = 4$?",
+    "explanation": "Multiplying $2x + y = 4$ by 3 gives $6x + 3y = 12$, so the lines **coincide**; the intercepts are $(2, 0)$ and $(0, 4)$. The second picture would need different constants, the third has the wrong intercepts ($x + 2y = 4$), and the last has two different slopes."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Reading solutions from a graph",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which graph shows the lines $x + y = 7$ and $x - y = 1$ meeting at their solution?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lines meet at (4, 3)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t3-a.svg",
+          "alt": "Two lines meeting at the point 4, 3"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Lines meet at (3, 4)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t3-b.svg",
+          "alt": "Two lines meeting at the point 3, 4"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Lines meet at (4, -3)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t3-c.svg",
+          "alt": "Two lines meeting at the point 4, minus 3"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Lines meet at (-3, -4)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t3-d.svg",
+          "alt": "Two lines meeting at the point minus 3, minus 4"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "Add the equations to find x, then find y.",
+    "explanation": "Adding: $2x = 8$, so $x = 4$; then $y = 3$. The lines meet at $(4, 3)$. The point $(3, 4)$ swaps the coordinates (and lies on $x + y = 7$ but not on $x - y = 1$), while the other pictures show the solutions of $x + y = 1,\\ x - y = 7$ and $x + y = -7,\\ x - y = 1$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Reading solutions from a graph",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which graph shows $x + y = 4$ and $x - y = 4$ meeting on the **x axis**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lines meet at (0, 4)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t4-b.svg",
+          "alt": "Two lines meeting on the y axis at 4"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Lines meet at (-4, 0)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t4-d.svg",
+          "alt": "Two lines meeting at minus 4 on the x axis"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Lines meet at (4, 0)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t4-a.svg",
+          "alt": "Two lines meeting at 4 on the x axis"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Lines meet at (0, -4)",
+        "image": {
+          "src": "/img/c10-ma-linear-equations/t4-c.svg",
+          "alt": "Two lines meeting at minus 4 on the y axis"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Adding the equations gives x directly; then find y.",
+    "explanation": "Adding: $2x = 8$, so $x = 4$, and then $y = 0$. The point $(4, 0)$ is on the x axis. $(0, 4)$ would solve $x + y = 4$ and $x - y = -4$; $(-4, 0)$ and $(0, -4)$ come from sign errors in the constants."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Parallel lines",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Two parallel lines are drawn. Tap the line $2x + 4y = 12$ (it meets the axes at $(6, 0)$ and $(0, 3)$).",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-par-hs.svg",
+      "alt": "Two parallel lines on a grid, no labels"
+    },
+    "spots": [
+      {
+        "id": "l1",
+        "x": 34.8,
+        "y": 54.1,
+        "label": "Line x + 2y = 4"
+      },
+      {
+        "id": "l2",
+        "x": 61.0,
+        "y": 61.1,
+        "label": "Line 2x + 4y = 12"
+      },
+      {
+        "id": "xa",
+        "x": 15.5,
+        "y": 75.1,
+        "label": "The x axis"
+      },
+      {
+        "id": "ya",
+        "x": 26.0,
+        "y": 13.4,
+        "label": "The y axis"
+      }
+    ],
+    "answer": "l2",
+    "hint": "Which line passes through (6, 0)?",
+    "explanation": "Setting $y = 0$ in $2x + 4y = 12$ gives $x = 6$, and setting $x = 0$ gives $y = 3$. The line through $(6, 0)$ and $(0, 3)$ is the upper one. The other line, $x + 2y = 4$, meets the axes at $(4, 0)$ and $(0, 2)$. Both lines have the same slope, so the pair has no solution."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Angle problems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Two angles $p$ and $q$ form a linear pair and the larger exceeds the smaller by $40^\\circ$. Tap the angle that measures $110^\\circ$.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/linepair.svg",
+      "alt": "A ray standing on a straight line with the angles p and q marked"
+    },
+    "spots": [
+      {
+        "id": "p",
+        "x": 42.0,
+        "y": 60.1,
+        "label": "Angle p"
+      },
+      {
+        "id": "q",
+        "x": 61.5,
+        "y": 65.8,
+        "label": "Angle q"
+      },
+      {
+        "id": "ray",
+        "x": 60.3,
+        "y": 32.2,
+        "label": "The ray"
+      },
+      {
+        "id": "l",
+        "x": 15.0,
+        "y": 79.2,
+        "label": "Left part of the line"
+      },
+      {
+        "id": "r",
+        "x": 85.0,
+        "y": 79.2,
+        "label": "Right part of the line"
+      }
+    ],
+    "answer": "p",
+    "hint": "A linear pair adds up to $180^\\circ$.",
+    "explanation": "$p + q = 180$ and $p - q = 40$. Adding: $2p = 220$, $p = 110$ and $q = 70$. The larger angle $p$ is the one on the left, which opens wider than the right one."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Condition for a unique solution",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-cross.svg",
+      "alt": "Two lines crossing at one marked point"
+    },
+    "assertion": "If $\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$, the pair $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$ has exactly one solution.",
+    "reason": "Two lines that are not parallel meet at exactly one point.",
+    "answer": "a",
+    "hint": "What does unequal ratios say about the slopes?",
+    "explanation": "The ratio condition means the slopes differ, so the lines are not parallel and meet at one point, which is the solution. Both statements are true and R is the geometric reason for A."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "No-solution condition",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/rails.svg",
+      "alt": "Two railway tracks running side by side"
+    },
+    "assertion": "The pair $x + 2y = 4$ and $2x + 4y = 12$ has no solution.",
+    "reason": "For this pair $\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} = \\dfrac{1}{2}$ but $\\dfrac{c_1}{c_2} = \\dfrac{1}{3}$.",
+    "answer": "a",
+    "hint": "Compare the three ratios.",
+    "explanation": "In $ax + by + c = 0$ form, $c_1 = -4$ and $c_2 = -12$, so $\\frac{c_1}{c_2} = \\frac13 \\ne \\frac12$. Equal $a$ and $b$ ratios with a different $c$ ratio mean parallel lines (like two rails) and hence no solution. Both are true, and R explains A."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Dependent pairs",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-dep3.svg",
+      "alt": "Two coincident lines"
+    },
+    "assertion": "The pair $3x - y = 3$ and $9x - 3y = 9$ has a unique solution.",
+    "reason": "The second equation is 3 times the first equation.",
+    "answer": "d",
+    "hint": "Multiply the first equation by 3.",
+    "explanation": "R is true: $3(3x - y) = 9x - 3y$ and $3 \\times 3 = 9$. So the equations are the same and the lines coincide, giving **infinitely many** solutions. A is therefore false."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Dependent pairs",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/glossary.svg",
+      "alt": "Cards naming consistent, inconsistent and dependent pairs"
+    },
+    "assertion": "A dependent pair of linear equations is always inconsistent.",
+    "reason": "A dependent pair has infinitely many common solutions.",
+    "answer": "d",
+    "hint": "Does a pair with common solutions have a solution?",
+    "explanation": "R is true. A pair with infinitely many solutions certainly has a solution, so it is **consistent**; hence A is false. (Inconsistent means no solution at all.)"
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Comparing ratios",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/ratio-table.svg",
+      "alt": "A table comparing coefficient ratios"
+    },
+    "assertion": "The pair $6x - 3y + 10 = 0$ and $2x - y + 9 = 0$ has no solution.",
+    "reason": "For this pair $\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} = \\dfrac{c_1}{c_2}$.",
+    "answer": "c",
+    "hint": "Work out the ratios: 6/2, -3/-1 and 10/9.",
+    "explanation": "$\\frac{6}{2} = 3$, $\\frac{-3}{-1} = 3$ but $\\frac{10}{9} \\ne 3$. So R is **false**. Because only the first two ratios are equal, the lines are parallel and the pair has no solution, so A is true."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Ratios and graphs",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each condition on the coefficients with what the lines do.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/three-cases.svg",
+      "alt": "Three panels showing meeting, coinciding and parallel lines"
+    },
+    "left": [
+      {
+        "id": "m1",
+        "text": "$\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$"
+      },
+      {
+        "id": "m2",
+        "text": "$\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} \\ne \\dfrac{c_1}{c_2}$"
+      },
+      {
+        "id": "m3",
+        "text": "$\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} = \\dfrac{c_1}{c_2}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Parallel lines, no solution"
+      },
+      {
+        "id": "r2",
+        "text": "Lines meet at one point"
+      },
+      {
+        "id": "r3",
+        "text": "Coincident lines, infinitely many solutions"
+      }
+    ],
+    "pairs": {
+      "m1": "r2",
+      "m2": "r1",
+      "m3": "r3"
+    },
+    "hint": "Equal ratios of $a$ and $b$ mean equal slopes.",
+    "explanation": "Different slope ratios give lines that cross once. Equal $a$ and $b$ ratios give the same slope: if the $c$ ratio differs too the lines are parallel, and if it is also equal they are the same line."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Nature of a pair",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of equations with its set of solutions.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-cross.svg",
+      "alt": "Two lines crossing at one marked point"
+    },
+    "left": [
+      {
+        "id": "p1",
+        "text": "$x + y = 5,\\ x - y = 1$"
+      },
+      {
+        "id": "p2",
+        "text": "$x + y = 5,\\ 2x + 2y = 10$"
+      },
+      {
+        "id": "p3",
+        "text": "$x + y = 5,\\ 2x + 2y = 12$"
+      },
+      {
+        "id": "p4",
+        "text": "$x + y = 6,\\ x - y = 2$"
+      }
+    ],
+    "right": [
+      {
+        "id": "s1",
+        "text": "Only $(3, 2)$"
+      },
+      {
+        "id": "s2",
+        "text": "Infinitely many solutions"
+      },
+      {
+        "id": "s3",
+        "text": "No solution"
+      },
+      {
+        "id": "s4",
+        "text": "Only $(4, 2)$"
+      }
+    ],
+    "pairs": {
+      "p1": "s1",
+      "p2": "s2",
+      "p3": "s3",
+      "p4": "s4"
+    },
+    "hint": "Check whether the second equation is a multiple of the first.",
+    "explanation": "Adding the equations in the first pair gives $x = 3$, $y = 2$. In the second, $2x + 2y = 10$ is twice $x + y = 5$ (same line). In the third, $2x + 2y = 12$ means $x + y = 6$, which contradicts $x + y = 5$ (parallel lines). The last pair gives $2x = 8$, so $(4, 2)$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Key terms",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term from the chapter with its meaning.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/glossary.svg",
+      "alt": "Cards naming consistent, inconsistent and dependent pairs"
+    },
+    "left": [
+      {
+        "id": "t1",
+        "text": "Consistent pair"
+      },
+      {
+        "id": "t2",
+        "text": "Inconsistent pair"
+      },
+      {
+        "id": "t3",
+        "text": "Dependent pair"
+      },
+      {
+        "id": "t4",
+        "text": "Substitution method"
+      },
+      {
+        "id": "t5",
+        "text": "Elimination method"
+      }
+    ],
+    "right": [
+      {
+        "id": "d1",
+        "text": "Has at least one solution"
+      },
+      {
+        "id": "d2",
+        "text": "Has no solution"
+      },
+      {
+        "id": "d3",
+        "text": "Equivalent equations with infinitely many common solutions"
+      },
+      {
+        "id": "d4",
+        "text": "Write one variable in terms of the other and put it in the other equation"
+      },
+      {
+        "id": "d5",
+        "text": "Make coefficients equal, then add or subtract to remove a variable"
+      }
+    ],
+    "pairs": {
+      "t1": "d1",
+      "t2": "d2",
+      "t3": "d3",
+      "t4": "d4",
+      "t5": "d5"
+    },
+    "hint": "A dependent pair is a special consistent pair.",
+    "explanation": "A pair with a solution is **consistent**, one with none is **inconsistent**, and a pair of equivalent equations is **dependent** (always consistent). Substitution replaces a variable using one equation; elimination removes a variable by adding or subtracting."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Forming equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with the pair of equations that represents it.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/balance.svg",
+      "alt": "A balance scale with 2x plus y on one pan and 7 on the other"
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "Two numbers add up to 20 and differ by 4"
+      },
+      {
+        "id": "s2",
+        "text": "One number is twice the other and their sum is 21"
+      },
+      {
+        "id": "s3",
+        "text": "3 pens and 2 pencils cost ₹21; 1 pen and 1 pencil cost ₹8"
+      },
+      {
+        "id": "s4",
+        "text": "Two angles of a linear pair differ by $40^\\circ$"
+      }
+    ],
+    "right": [
+      {
+        "id": "q1",
+        "text": "$x + y = 20,\\ x - y = 4$"
+      },
+      {
+        "id": "q2",
+        "text": "$x = 2y,\\ x + y = 21$"
+      },
+      {
+        "id": "q3",
+        "text": "$3x + 2y = 21,\\ x + y = 8$"
+      },
+      {
+        "id": "q4",
+        "text": "$x + y = 180,\\ x - y = 40$"
+      }
+    ],
+    "pairs": {
+      "s1": "q1",
+      "s2": "q2",
+      "s3": "q3",
+      "s4": "q4"
+    },
+    "hint": "Write the unknowns first, then each sentence as an equation.",
+    "explanation": "Each sentence gives one equation: sum and difference; \"twice\" gives $x = 2y$; the pen/pencil bills give $3x + 2y = 21$ and $x + y = 8$; and a linear pair adds up to $180^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Finding k",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "For the pair $2x + 3y = 7$ and the second equation shown, match each second equation with the number of solutions.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-pivot.svg",
+      "alt": "A fixed line and a pivoting line"
+    },
+    "left": [
+      {
+        "id": "k1",
+        "text": "$4x + 6y = 14$"
+      },
+      {
+        "id": "k2",
+        "text": "$4x + 6y = 10$"
+      },
+      {
+        "id": "k3",
+        "text": "$4x + 5y = 14$"
+      }
+    ],
+    "right": [
+      {
+        "id": "n1",
+        "text": "Infinitely many solutions"
+      },
+      {
+        "id": "n2",
+        "text": "No solution"
+      },
+      {
+        "id": "n3",
+        "text": "Exactly one solution"
+      }
+    ],
+    "pairs": {
+      "k1": "n1",
+      "k2": "n2",
+      "k3": "n3"
+    },
+    "hint": "Compare $\\frac{2}{4}$, $\\frac{3}{b}$ and $\\frac{7}{c}$.",
+    "explanation": "Here $\\frac{2}{4} = \\frac12$. For $4x + 6y = 14$: $\\frac36 = \\frac12$ and $\\frac{7}{14} = \\frac12$ (coincident). For $4x + 6y = 10$: $\\frac{7}{10} \\ne \\frac12$ (parallel). For $4x + 5y = 14$: $\\frac{3}{5} \\ne \\frac12$ (intersecting)."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Types of pairs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about a pair of linear equations in two variables.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/three-cases.svg",
+      "alt": "Three panels showing meeting, coinciding and parallel lines"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "If the lines meet at one point the pair has a unique solution"
+      },
+      {
+        "id": "b",
+        "text": "If the lines are parallel the pair is inconsistent"
+      },
+      {
+        "id": "c",
+        "text": "If the lines coincide the pair has exactly two solutions"
+      },
+      {
+        "id": "d",
+        "text": "A dependent pair is always consistent"
+      },
+      {
+        "id": "e",
+        "text": "A pair can have exactly three solutions"
+      },
+      {
+        "id": "f",
+        "text": "A consistent pair always has parallel lines"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Think about how many common points two lines can have: 0, 1 or all.",
+    "explanation": "Two lines have either one common point (unique solution), none (parallel, inconsistent) or all points (coincident, infinitely many, dependent and consistent). Exactly two or three solutions are impossible, and consistency means the lines share a point, so they are not parallel."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Consistent pairs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the pairs that are consistent.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/glossary.svg",
+      "alt": "Cards naming consistent, inconsistent and dependent pairs"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5x - 4y + 8 = 0$ and $7x + 6y - 9 = 0$"
+      },
+      {
+        "id": "b",
+        "text": "$9x + 3y + 12 = 0$ and $18x + 6y + 24 = 0$"
+      },
+      {
+        "id": "c",
+        "text": "$6x - 3y + 10 = 0$ and $2x - y + 9 = 0$"
+      },
+      {
+        "id": "d",
+        "text": "$3x + 2y = 5$ and $2x - 3y = 7$"
+      },
+      {
+        "id": "e",
+        "text": "$2x - 3y = 8$ and $4x - 6y = 9$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Only the pairs with $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\ne \\frac{c_1}{c_2}$ are inconsistent.",
+    "explanation": "First pair: $\\frac57 \\ne \\frac{-4}{6}$, so the lines intersect. Second: all ratios equal $\\frac12$, so the lines coincide. Third: $\\frac62 = \\frac{-3}{-1} = 3 \\ne \\frac{10}{9}$, parallel. Fourth: $\\frac32 \\ne \\frac{2}{-3}$, intersect. Fifth: $\\frac24 = \\frac{-3}{-6} = \\frac12 \\ne \\frac{8}{9}$, parallel. So the consistent pairs are the 1st, 2nd and 4th."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Points on a line",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** marked points that lie on the line $2x + y = 7$.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-points.svg",
+      "alt": "Lines 2x + y = 7 and x - y = 2 with four marked points"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A(3, 1)"
+      },
+      {
+        "id": "b",
+        "text": "B(2, 3)"
+      },
+      {
+        "id": "c",
+        "text": "C(4, 2)"
+      },
+      {
+        "id": "d",
+        "text": "D(1, 5)"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Put each point into $2x + y$ and see if you get 7.",
+    "explanation": "$A: 6 + 1 = 7$, $B: 4 + 3 = 7$, $D: 2 + 5 = 7$, but $C: 8 + 2 = 10$. Point A also satisfies $x - y = 2$, so it is the solution of the pair; B and D lie on the first line only, and C lies on the second line only."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Operations on equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which operations on an equation **keep its solutions unchanged**? Select all.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/balance.svg",
+      "alt": "A balance scale with 2x plus y on one pan and 7 on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Multiply both sides by 3"
+      },
+      {
+        "id": "b",
+        "text": "Add the same number to both sides"
+      },
+      {
+        "id": "c",
+        "text": "Multiply both sides by 0"
+      },
+      {
+        "id": "d",
+        "text": "Square only the left side"
+      },
+      {
+        "id": "e",
+        "text": "Divide both sides by 2"
+      },
+      {
+        "id": "f",
+        "text": "Swap x and y in only one of the equations"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "e"
+    ],
+    "hint": "The scale must stay balanced, and you must be able to undo the step.",
+    "explanation": "Doing the same non-zero operation to both sides keeps the equation equivalent, so multiplying by 3, adding a number and dividing by 2 are allowed. Multiplying by 0 turns every equation into $0 = 0$, squaring one side breaks the balance, and swapping $x$ and $y$ in one equation changes the problem."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Rails that never meet",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** pairs of lines that never meet.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/rails.svg",
+      "alt": "Two railway tracks running side by side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x + 2y = 4$ and $2x + 4y = 12$"
+      },
+      {
+        "id": "b",
+        "text": "$x - y = 1$ and $2x - 2y = 2$"
+      },
+      {
+        "id": "c",
+        "text": "$3x + y = 5$ and $6x + 2y = 7$"
+      },
+      {
+        "id": "d",
+        "text": "$x + y = 3$ and $x - y = 3$"
+      },
+      {
+        "id": "e",
+        "text": "$y = 2x + 1$ and $y = 2x - 5$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Parallel means equal ratios of $a$ and $b$ but a different ratio of constants.",
+    "explanation": "1st: $\\frac12 = \\frac24 \\ne \\frac{4}{12}$ (parallel). 2nd: the second equation is twice the first (coincident, they meet everywhere). 3rd: $\\frac36 = \\frac12 = \\frac12$ but $\\frac57 \\ne \\frac12$ (parallel). 4th: slopes differ so they meet at $(3, 0)$. 5th: both have slope 2 and different intercepts (parallel)."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Graphical method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of solving a pair of equations by the **graphical method** in order.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/g-steps.svg",
+      "alt": "Two lines with two plotted points each"
+    },
+    "items": [
+      {
+        "id": "g3",
+        "text": "Join the points of each equation to draw two lines"
+      },
+      {
+        "id": "g1",
+        "text": "Find two solutions of each equation (a table of values)"
+      },
+      {
+        "id": "g5",
+        "text": "Verify the answer in both equations"
+      },
+      {
+        "id": "g2",
+        "text": "Plot the four points on graph paper"
+      },
+      {
+        "id": "g4",
+        "text": "Read the coordinates of the point where the lines meet"
+      }
+    ],
+    "answer": [
+      "g1",
+      "g2",
+      "g3",
+      "g4",
+      "g5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need points before you can plot, and lines before you can read an intersection.",
+    "explanation": "Make a table with two (or more) solutions for each equation, plot them, join each pair to get a line, and read off the point where the lines meet. Because reading a graph can be inexact, verify by substituting into both equations. If the lines do not meet, the pair has no solution; if they coincide, it has infinitely many."
+  },
+  {
+    "id": "in-cbse-10-math-linear-equations-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "chapterNo": 3,
+    "topic": "Number of solutions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the pairs from the **fewest** to the **most** solutions.",
+    "image": {
+      "src": "/img/c10-ma-linear-equations/three-cases.svg",
+      "alt": "Three panels showing meeting, coinciding and parallel lines"
+    },
+    "items": [
+      {
+        "id": "o3",
+        "text": "$3x - y = 3$ and $9x - 3y = 9$"
+      },
+      {
+        "id": "o1",
+        "text": "$2x + 3y = 8$ and $4x + 6y = 7$"
+      },
+      {
+        "id": "o2",
+        "text": "$x - 2y = 0$ and $3x + 4y = 20$"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3"
+    ],
+    "startLabel": "Fewest solutions",
+    "endLabel": "Most solutions",
+    "hint": "Decide whether each pair is parallel, intersecting or coincident.",
+    "explanation": "$2x + 3y = 8$ and $4x + 6y = 7$ are parallel (elimination gives $0 = 9$): no solution. $x - 2y = 0$ and $3x + 4y = 20$ cross at $(4, 2)$: exactly one. $9x - 3y = 9$ is $3 \\times (3x - y = 3)$: infinitely many."
+  }
+]

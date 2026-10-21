@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img">
+<title>A shaded sector between two radii</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.45}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="100.0" cy="75.0" r="56.0" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><path d="M100.0 75.0 L152.6 55.8 A56.0 56.0 0 0 0 80.8 22.4 Z" fill="#FFD7A8" stroke="#FF8A1F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /><circle cx="100.0" cy="75.0" r="3.5" fill="#2B2F4A" />
+</svg>

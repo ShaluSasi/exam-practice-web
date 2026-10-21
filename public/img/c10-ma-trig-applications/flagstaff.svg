@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A building 20 m tall with a flagstaff on top seen from a point P at 30 degrees to the roof and 45 degrees to the top of the flagstaff</title>
+<style>.fl{stroke-dasharray:9 6;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.45}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:13px}.h{paint-order:stroke;stroke:#FFFFFF;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}@keyframes t1{from{transform:translate(0px,0px)}to{transform:translate(162.9px,-94.1px)}}.t1{animation:t1 2.6s ease-in-out infinite}@keyframes t2{from{transform:translate(0px,0px)}to{transform:translate(162.9px,-162.9px)}}.t2{animation:t2 2.6s ease-in-out infinite}</style>
+<rect width="100%" height="100%" rx="16" fill="#E3F2FD"/>
+<path d="M0 204H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CDEBC5"/>
+<line x1="0" y1="204" x2="400" y2="204" stroke="#6BAA5E" stroke-width="3" stroke-linecap="round" />
+<rect x="261" y="109.9" width="28.2" height="94.1" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<rect x="271.2" y="120.6" width="8" height="10" rx="1.5" fill="#fff" opacity=".85"/>
+<rect x="271.2" y="152" width="8" height="10" rx="1.5" fill="#fff" opacity=".85"/>
+<rect x="271.2" y="183.3" width="8" height="10" rx="1.5" fill="#fff" opacity=".85"/>
+<line x1="261" y1="109.9" x2="261" y2="41.1" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" />
+<line x1="98.1" y1="204" x2="261" y2="109.9" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" class="fl"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#FF8A1F" transform="translate(187.7 152.3) rotate(-30.0)"/>
+<line x1="98.1" y1="204" x2="261" y2="41.1" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" class="fl"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#0B93D4" transform="translate(187.7 114.4) rotate(-45.0)"/>
+<path d="M98.1 204L138.1 204A40 40 0 0 0 126.4 175.7Z" fill="#0B93D4" fill-opacity=".22"/>
+<line x1="98.1" y1="204" x2="261" y2="204" stroke="#8A8FB0" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" />
+<path d="M261 43.4l0 -10l14 4l-14 4" fill="#E5484D" stroke="#2B2F4A" stroke-width="1.8" stroke-linejoin="round"/>
+<circle class="t1" cx="98.1" cy="204" r="4.5" fill="#fff" stroke="#FF8A1F" stroke-width="2.5"/>
+<circle class="t2" cx="98.1" cy="204" r="4.5" fill="#fff" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="pu" d="M168.1 204A70 70 0 0 0 158.8 169" fill="none" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round"/>
+<text x="179.3" y="186.3" font-size="13" text-anchor="middle" fill="#FF8A1F" class="h" >30°</text>
+<path class="pu" d="M138.1 204A40 40 0 0 0 126.4 175.7" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"/>
+<text x="146.2" y="188.1" font-size="13" text-anchor="middle" fill="#0B93D4" class="h" >45°</text>
+<line x1="293" y1="204" x2="293" y2="109.9" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<line x1="288" y1="204" x2="298" y2="204" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<line x1="288" y1="109.9" x2="298" y2="109.9" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<text x="304" y="161" font-size="13" text-anchor="middle" fill="#2B2F4A" class="h" >20 m</text>
+<text x="253" y="77" font-size="13" text-anchor="end" class="h" >flagstaff?</text>
+<text x="98.1" y="222" font-size="13" text-anchor="middle" class="h" >P</text>
+</svg>

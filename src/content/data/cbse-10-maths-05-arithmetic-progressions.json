@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "in-cbse-10-math-ap-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Arithmetic progressions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Each chart shows the first few numbers of a list as bars. Which chart shows the terms of an **arithmetic progression**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Chart A",
+        "image": {
+          "src": "/img/c10-ma-ap/bars-pic-b.svg",
+          "alt": "Bars of heights 1, 2, 4, 8"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Chart B",
+        "image": {
+          "src": "/img/c10-ma-ap/bars-pic-a.svg",
+          "alt": "Bars of heights 3, 6, 9, 12"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Chart C",
+        "image": {
+          "src": "/img/c10-ma-ap/bars-pic-c.svg",
+          "alt": "Bars of heights 1, 1, 2, 3, 5"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Chart D",
+        "image": {
+          "src": "/img/c10-ma-ap/bars-pic-d.svg",
+          "alt": "Bars of heights 1, 4, 9, 16"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "In an AP every bar is taller than the one before by the same amount.",
+    "explanation": "An **arithmetic progression** is a list in which each term is got by adding a fixed number to the previous term. Bars $3, 6, 9, 12$ rise by $3$ each time. Bars $1, 2, 4, 8$ are **doubled**, not increased by a fixed amount; $1, 1, 2, 3, 5$ rise by $0, 1, 1, 2$; and the squares $1, 4, 9, 16$ rise by $3, 5, 7$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "General form of an AP",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture shows the first four terms of the AP with first term $a = 2$ and common difference $d = 3$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-ap/hops-pic-b.svg",
+          "alt": "Number line with hops from 2 to 6 to 10 to 14"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-ap/hops-pic-d.svg",
+          "alt": "Number line with hops from 2 to 5 to 9 to 14"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-ap/hops-pic-a.svg",
+          "alt": "Number line with hops from 2 to 5 to 8 to 11"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-ap/hops-pic-c.svg",
+          "alt": "Number line with hops from 11 down to 2"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Start at 2 and keep adding the same number 3.",
+    "explanation": "The terms are $a,\\ a+d,\\ a+2d,\\ a+3d = 2, 5, 8, 11$, so every hop is $+3$ starting at $2$. Picture A hops by $4$ (using $d=4$), picture B has hops $3, 4, 5$ that keep growing, and picture D starts at $11$ and goes backwards, which is $a = 11$, $d = -3$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Arithmetic progressions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-ap/bars-geo.svg",
+      "alt": "Bars of heights 2, 4, 8 and 16"
+    },
+    "assertion": "The list $2, 4, 8, 16, \\dots$ is **not** an AP.",
+    "reason": "In an AP the difference between any two consecutive terms is the same.",
+    "answer": "a",
+    "hint": "Subtract each term from the next one.",
+    "explanation": "Differences: $4-2 = 2$, $8-4 = 4$, $16-8 = 8$, which are not equal, so A is true. R is the defining property of an AP and it is exactly why the list fails: the terms are **multiplied** by $2$, not increased by a fixed number."
+  },
+  {
+    "id": "in-cbse-10-math-ap-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Identifying an AP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the lists that are APs.",
+    "image": {
+      "src": "/img/c10-ma-ap/diff-check.svg",
+      "alt": "Boxes 4, 7, 10, 13 with +3 between each pair"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3, 3, 3, 3, \\dots$"
+      },
+      {
+        "id": "b",
+        "text": "$1, 1, 2, 3, 5, \\dots$"
+      },
+      {
+        "id": "c",
+        "text": "$-1.0, -1.5, -2.0, -2.5, \\dots$"
+      },
+      {
+        "id": "d",
+        "text": "$1, 2, 4, 8, \\dots$"
+      },
+      {
+        "id": "e",
+        "text": "$\\sqrt{2}, 2\\sqrt{2}, 3\\sqrt{2}, 4\\sqrt{2}, \\dots$"
+      },
+      {
+        "id": "f",
+        "text": "$1^2, 2^2, 3^2, 4^2, \\dots$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Check that the difference of consecutive terms is the same each time.",
+    "explanation": "List $3,3,3,3$ has $d = 0$, $-1.0, -1.5, \\dots$ has $d = -0.5$ and $\\sqrt2, 2\\sqrt2, \\dots$ has $d = \\sqrt2$, so all three are APs. The Fibonacci-type list has differences $0,1,1,2$, the list $1,2,4,8$ doubles, and $1,4,9,16$ has differences $3,5,7$, so these are not APs."
+  },
+  {
+    "id": "in-cbse-10-math-ap-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Common difference",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each AP with its **common difference**.",
+    "image": {
+      "src": "/img/c10-ma-ap/hops-ma2.svg",
+      "alt": "Number line with equal hops of the same size"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$7, 12, 17, 22, \\dots$"
+      },
+      {
+        "id": "l2",
+        "text": "$20, 14, 8, 2, \\dots$"
+      },
+      {
+        "id": "l3",
+        "text": "$3.5, 3.5, 3.5, \\dots$"
+      },
+      {
+        "id": "l4",
+        "text": "$0.2, 0.5, 0.8, 1.1, \\dots$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "$0.3$"
+      },
+      {
+        "id": "r1",
+        "text": "$5$"
+      },
+      {
+        "id": "r3",
+        "text": "$0$"
+      },
+      {
+        "id": "r2",
+        "text": "$-6$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Subtract the first term from the second term (second minus first, even when it is smaller).",
+    "explanation": "The common difference is $d = a_{k+1}-a_k$. For $7, 12, 17, \\dots$ it is $12-7 = 5$; for $20, 14, 8, \\dots$ it is $14 - 20 = -6$ (subtract the earlier term from the later one); a constant list has $d = 0$; and $0.5 - 0.2 = 0.3$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Patterns in everyday life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Figures are built from dots. The pictures show Figure 1, Figure 2 and Figure 3 of four patterns. In which pattern do the numbers of dots form an AP?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pattern A",
+        "image": {
+          "src": "/img/c10-ma-ap/dots-pic-a.svg",
+          "alt": "Square grids of 1, 4 and 9 dots"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Pattern B",
+        "image": {
+          "src": "/img/c10-ma-ap/dots-pic-d.svg",
+          "alt": "Columns of 2, 4 and 8 dots"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Pattern C",
+        "image": {
+          "src": "/img/c10-ma-ap/dots-pic-b.svg",
+          "alt": "Triangles of 1, 3 and 6 dots"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Pattern D",
+        "image": {
+          "src": "/img/c10-ma-ap/dots-pic-c.svg",
+          "alt": "Columns of 3, 5 and 7 dots"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Count the dots in each figure and find the difference between neighbouring figures.",
+    "explanation": "Pattern D has $3, 5, 7$ dots: each figure has $2$ more, so $d = 2$. Squares give $1, 4, 9$ (differences $3, 5$), the triangles give $1, 3, 6$ (differences $2, 3$) and the columns $2, 4, 8$ double (differences $2, 4$)."
+  },
+  {
+    "id": "in-cbse-10-math-ap-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Arithmetic progressions",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-ap/bars-fib.svg",
+      "alt": "Bars of heights 1, 1, 2, 3, 5 and 8"
+    },
+    "assertion": "The list $1, 1, 2, 3, 5, 8, \\dots$ is an AP.",
+    "reason": "In an AP the difference $a_{k+1}-a_k$ is the same for every $k$.",
+    "answer": "d",
+    "hint": "Work out two or three differences of neighbouring terms.",
+    "explanation": "The differences are $0, 1, 1, 2, 3$, which are not equal, so the list is **not** an AP and A is false. R is the correct test for an AP."
+  },
+  {
+    "id": "in-cbse-10-math-ap-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Properties of an AP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about an arithmetic progression.",
+    "image": {
+      "src": "/img/c10-ma-ap/d-signs.svg",
+      "alt": "Three small graphs: climbing, level and falling"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The common difference $d$ can be negative"
+      },
+      {
+        "id": "b",
+        "text": "The common difference $d$ can be zero"
+      },
+      {
+        "id": "c",
+        "text": "$d$ must be a positive whole number"
+      },
+      {
+        "id": "d",
+        "text": "$d = a_{k+1} - a_k$ for any $k$"
+      },
+      {
+        "id": "e",
+        "text": "$d = a_k - a_{k+1}$ for any $k$"
+      },
+      {
+        "id": "f",
+        "text": "An AP with a last term is called a finite AP"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "f"
+    ],
+    "hint": "Look at what the three graphs show about the sign of $d$.",
+    "explanation": "$d$ may be positive, negative or zero (falling, rising or level terms) and is found as **later term minus earlier term**, $a_{k+1}-a_k$. Writing earlier minus later reverses the sign. A list that has a last term is a **finite AP**; lists that go on for ever are infinite APs."
+  },
+  {
+    "id": "in-cbse-10-math-ap-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Graph of an AP",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The points $(n, a_n)$ for $n = 1, 2, 3, 4, 5$ are plotted. Which graph shows an AP with a **negative** common difference?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-ap/graph-pic-a.svg",
+          "alt": "Five points falling along a straight line"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-ap/graph-pic-c.svg",
+          "alt": "Five points falling, with the drops getting smaller"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-ap/graph-pic-b.svg",
+          "alt": "Five points rising along a straight line"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-ap/graph-pic-d.svg",
+          "alt": "Five points in a flat horizontal line"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "In an AP the points lie on a straight line.",
+    "explanation": "The points of an AP lie on a straight line, and a negative $d$ means the line **slopes down**. Graph B falls by $8, 5, 3, 1$, which are not equal, so it is not an AP. Graph C slopes up ($d>0$) and graph D is flat ($d=0$)."
+  },
+  {
+    "id": "in-cbse-10-math-ap-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Common difference",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-ap/diff-check.svg",
+      "alt": "Boxes 4, 7, 10, 13 with +3 between each pair"
+    },
+    "assertion": "For the AP $4, 7, 10, 13, \\dots$ the common difference is $d = 3$.",
+    "reason": "The common difference of an AP can be zero.",
+    "answer": "b",
+    "hint": "Both statements can be true without one explaining the other.",
+    "explanation": "$7 - 4 = 10 - 7 = 13 - 10 = 3$, so A is true. R is also true, since a constant list such as $5, 5, 5, \\dots$ is an AP with $d = 0$, but it says nothing about why $d = 3$ here."
+  },
+  {
+    "id": "in-cbse-10-math-ap-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Terms of an AP",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Equal hops are drawn along a number line. Tap the point that shows the **4th term** of this AP.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-hops.svg",
+      "alt": "Number line with five points 7, 12, 17, 22 and 27 joined by equal hops"
+    },
+    "spots": [
+      {
+        "id": "t1",
+        "x": 22.3,
+        "y": 62.0,
+        "label": "1st term (7)"
+      },
+      {
+        "id": "t2",
+        "x": 36.2,
+        "y": 62.0,
+        "label": "2nd term (12)"
+      },
+      {
+        "id": "t3",
+        "x": 50.0,
+        "y": 62.0,
+        "label": "3rd term (17)"
+      },
+      {
+        "id": "t4",
+        "x": 63.8,
+        "y": 62.0,
+        "label": "4th term (22)"
+      },
+      {
+        "id": "t5",
+        "x": 77.7,
+        "y": 62.0,
+        "label": "5th term (27)"
+      }
+    ],
+    "answer": "t4",
+    "hint": "The first term is where the hops start.",
+    "explanation": "The hops show $a = 7$ and $d = 5$. The 4th term is $a + 3d = 7 + 15 = 22$, the fourth point from the left; the first point is the 1st term, not the 0th."
+  },
+  {
+    "id": "in-cbse-10-math-ap-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Arithmetic mean",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the term that is the **arithmetic mean** of $12$ and $22$.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-hops.svg",
+      "alt": "Number line with five points 7, 12, 17, 22 and 27 joined by equal hops"
+    },
+    "spots": [
+      {
+        "id": "t1",
+        "x": 22.3,
+        "y": 62.0,
+        "label": "1st term (7)"
+      },
+      {
+        "id": "t2",
+        "x": 36.2,
+        "y": 62.0,
+        "label": "2nd term (12)"
+      },
+      {
+        "id": "t3",
+        "x": 50.0,
+        "y": 62.0,
+        "label": "3rd term (17)"
+      },
+      {
+        "id": "t4",
+        "x": 63.8,
+        "y": 62.0,
+        "label": "4th term (22)"
+      },
+      {
+        "id": "t5",
+        "x": 77.7,
+        "y": 62.0,
+        "label": "5th term (27)"
+      }
+    ],
+    "answer": "t3",
+    "hint": "If $a, b, c$ are in AP then $b = \\frac{a+c}{2}$.",
+    "explanation": "The arithmetic mean of $12$ and $22$ is $\\dfrac{12+22}{2} = 17$. It is the term exactly **midway** between them, because equal hops of $5$ lead from $12$ to $17$ to $22$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Real-life APs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with the first term $a$ and common difference $d$ of the list it creates.",
+    "image": {
+      "src": "/img/c10-ma-ap/situations.svg",
+      "alt": "Three small bar charts titled taxi fare, ladder rungs and money box"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Taxi fare after each km: ₹15 for the first km, ₹8 for each additional km"
+      },
+      {
+        "id": "l2",
+        "text": "Ladder rungs: bottom rung 45 cm, each next rung 2 cm shorter"
+      },
+      {
+        "id": "l3",
+        "text": "Money box: ₹100 put in at first, then ₹50 more each year"
+      },
+      {
+        "id": "l4",
+        "text": "Tank holds 1200 litres and loses 50 litres every hour"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "$a = 45,\\ d = -2$"
+      },
+      {
+        "id": "r3",
+        "text": "$a = 100,\\ d = 50$"
+      },
+      {
+        "id": "r4",
+        "text": "$a = 1200,\\ d = -50$"
+      },
+      {
+        "id": "r1",
+        "text": "$a = 15,\\ d = 8$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Ask whether the list goes up or down at each step.",
+    "explanation": "The first term is the first number in the list and $d$ is the fixed change: the fare list $15, 23, 31, \\dots$ gains $8$; the rungs $45, 43, 41, \\dots$ lose $2$ (so $d$ is **negative**); the savings $100, 150, 200, \\dots$ gain $50$; and the tank $1200, 1150, 1100, \\dots$ loses $50$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "The nth term",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The bottom rung of a ladder is $60$ cm long and each rung above it is $2$ cm shorter than the one below. How long is the **15th rung** from the bottom?",
+    "image": {
+      "src": "/img/c10-ma-ap/ladder-q5.svg",
+      "alt": "A ladder whose rungs get shorter going up"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "30 cm"
+      },
+      {
+        "id": "b",
+        "text": "88 cm"
+      },
+      {
+        "id": "c",
+        "text": "32 cm"
+      },
+      {
+        "id": "d",
+        "text": "28 cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "The 15th rung is 14 steps up from the first rung.",
+    "explanation": "Here $a = 60$, $d = -2$ and $n = 15$, so $a_n = a + (n-1)d = 60 + 14\\times(-2) = 32$ cm. Using $nd$ instead of $(n-1)d$ gives $30$ cm, the 16th rung, because only $14$ steps are needed to reach the 15th rung. Using $d = +2$ gives $88$ cm, and $28$ is just $14d$ without adding $a$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "The nth term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which term of the AP $5, 12, 19, 26, \\dots$ is $187$?",
+    "image": {
+      "src": "/img/c10-ma-ap/hops-q6.svg",
+      "alt": "Number line with hops of 7 starting at 5"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "27th"
+      },
+      {
+        "id": "b",
+        "text": "26th"
+      },
+      {
+        "id": "c",
+        "text": "28th"
+      },
+      {
+        "id": "d",
+        "text": "25th"
+      }
+    ],
+    "answer": "a",
+    "hint": "Put $a_n = 187$ in $a_n = a + (n-1)d$ and solve for $n$.",
+    "explanation": "$a = 5$, $d = 7$, so $187 = 5 + (n-1)\\times 7$, giving $n - 1 = \\dfrac{182}{7} = 26$ and $n = 27$. Forgetting the $+1$ at the end gives $26$, while $28$ and $25$ come from slips in adding or subtracting $1$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Checking if a number is a term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Is $160$ a term of the list $7, 13, 19, 25, \\dots$?",
+    "image": {
+      "src": "/img/c10-ma-ap/chips-q7.svg",
+      "alt": "Boxes 7, 13, 19, 25 and a box asking if 160 is in the list"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "No, because $n = 26.5$ is not a whole number"
+      },
+      {
+        "id": "b",
+        "text": "Yes, it is the 26th term"
+      },
+      {
+        "id": "c",
+        "text": "Yes, it is the 27th term"
+      },
+      {
+        "id": "d",
+        "text": "No, because $160$ is not a multiple of $6$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Solve $160 = 7 + (n-1)6$ and check whether $n$ is a positive integer.",
+    "explanation": "$a = 7$, $d = 6$. From $160 = 7 + (n-1)\\times 6$ we get $n - 1 = 25.5$, so $n = 26.5$. A term number must be a **positive whole number**, so $160$ is not in the list. Rounding $26.5$ to $26$ or $27$ is wrong, and \"not a multiple of 6\" is not the test: the terms are $6n+1$, not multiples of $6$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "The nth term",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The rungs of a ladder form an AP: the bottom rung is $45$ cm and each rung above is $2$ cm shorter. Tap the rung that is **39 cm** long.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-ladder.svg",
+      "alt": "A ladder with six rungs getting shorter going up"
+    },
+    "spots": [
+      {
+        "id": "r1",
+        "x": 45.0,
+        "y": 82.5,
+        "label": "Rung 1 (45 cm)"
+      },
+      {
+        "id": "r2",
+        "x": 45.0,
+        "y": 69.7,
+        "label": "Rung 2 (43 cm)"
+      },
+      {
+        "id": "r3",
+        "x": 45.0,
+        "y": 56.8,
+        "label": "Rung 3 (41 cm)"
+      },
+      {
+        "id": "r4",
+        "x": 45.0,
+        "y": 44.0,
+        "label": "Rung 4 (39 cm)"
+      },
+      {
+        "id": "r5",
+        "x": 45.0,
+        "y": 31.2,
+        "label": "Rung 5 (37 cm)"
+      },
+      {
+        "id": "r6",
+        "x": 45.0,
+        "y": 18.3,
+        "label": "Rung 6 (35 cm)"
+      }
+    ],
+    "answer": "r4",
+    "hint": "Find how many $2$ cm steps take $45$ cm down to $39$ cm.",
+    "explanation": "From $a_n = a + (n-1)d$: $39 = 45 + (n-1)(-2)$, so $n - 1 = 3$ and $n = 4$. The 4th rung from the bottom is $39$ cm; $3$ steps of $2$ cm remove $6$ cm."
+  },
+  {
+    "id": "in-cbse-10-math-ap-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Graph of an AP",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The dots show the terms of an AP plotted against $n$. Tap the dot that shows the **4th term**.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-graph.svg",
+      "alt": "Graph with five points rising in a straight line over n = 1 to 5"
+    },
+    "spots": [
+      {
+        "id": "p1",
+        "x": 16.5,
+        "y": 69.9,
+        "label": "n = 1: a = 3"
+      },
+      {
+        "id": "p2",
+        "x": 35.5,
+        "y": 59.0,
+        "label": "n = 2: a = 5"
+      },
+      {
+        "id": "p3",
+        "x": 54.5,
+        "y": 48.1,
+        "label": "n = 3: a = 7"
+      },
+      {
+        "id": "p4",
+        "x": 73.5,
+        "y": 37.2,
+        "label": "n = 4: a = 9"
+      },
+      {
+        "id": "p5",
+        "x": 92.5,
+        "y": 26.3,
+        "label": "n = 5: a = 11"
+      }
+    ],
+    "answer": "p4",
+    "hint": "The 4th term is at $n = 4$ on the horizontal axis.",
+    "explanation": "The dots are $(1,3), (2,5), (3,7), (4,9), (5,11)$, so $a = 3$ and $d = 2$. The 4th term is at $n = 4$, where $a_4 = 3 + 3\\times 2 = 9$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Counting terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "How many two-digit numbers are divisible by $7$?",
+    "image": {
+      "src": "/img/c10-ma-ap/mult7.svg",
+      "alt": "A grid of numbers 10 to 99 with the multiples of 7 shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "84"
+      }
+    ],
+    "answer": "b",
+    "hint": "List them: the first is $14$ and the last is $98$.",
+    "explanation": "$14, 21, 28, \\dots, 98$ is an AP with $a = 14$, $d = 7$ and $a_n = 98$. Then $98 = 14 + (n-1)\\times 7$, so $n - 1 = 12$ and $n = 13$. Forgetting the $+1$ gives $12$; counting $7$ (not two-digit) gives $14$; and $84$ is $98 - 14$ without dividing by $d$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Checking terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the numbers that are terms of the AP $4, 11, 18, 25, \\dots$",
+    "image": {
+      "src": "/img/c10-ma-ap/hops-m4.svg",
+      "alt": "Number line with hops of 7 starting at 4"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$95$"
+      },
+      {
+        "id": "b",
+        "text": "$100$"
+      },
+      {
+        "id": "c",
+        "text": "$144$"
+      },
+      {
+        "id": "d",
+        "text": "$150$"
+      },
+      {
+        "id": "e",
+        "text": "$200$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "A number $x$ is a term only if $(x - 4)\\div 7$ is a whole number.",
+    "explanation": "$a_n = 4 + (n-1)\\times 7$, so a term minus $4$ must be a multiple of $7$: $95-4 = 91 = 7\\times13$ (the 14th term), $144 - 4 = 140 = 7\\times 20$ (the 21st term) and $200-4 = 196 = 7\\times 28$ (the 29th term). But $100 - 4 = 96$ and $150 - 4 = 146$ are not multiples of $7$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Term from the end",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Find the **20th term from the last term** of the AP $3, 8, 13, \\dots, 253$.",
+    "image": {
+      "src": "/img/c10-ma-ap/rev-ap.svg",
+      "alt": "Boxes 3, 8, 13 and 248, 253 with the last term highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "153"
+      },
+      {
+        "id": "b",
+        "text": "98"
+      },
+      {
+        "id": "c",
+        "text": "148"
+      },
+      {
+        "id": "d",
+        "text": "158"
+      }
+    ],
+    "answer": "d",
+    "hint": "First find the total number of terms, then convert \"20th from the last\" into a position from the start.",
+    "explanation": "$253 = 3 + (n-1)\\times 5$ gives $n = 51$. The 20th term from the last is term number $51 - 20 + 1 = 32$ (not $31$), so $a_{32} = 3 + 31\\times 5 = 158$. Alternatively reverse the list: $a = 253$, $d = -5$, and $a_{20} = 253 - 19\\times 5 = 158$. The value $153$ is the 21st from the last, $98$ is the 20th from the start, and $148$ is the 22nd from the last."
+  },
+  {
+    "id": "in-cbse-10-math-ap-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Number of terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps in order to find how many terms the AP $5, 9, 13, \\dots, 101$ has.",
+    "image": {
+      "src": "/img/c10-ma-ap/flow-n.svg",
+      "alt": "Four boxes showing the steps to find how many terms"
+    },
+    "items": [
+      {
+        "id": "o1",
+        "text": "Read off $a = 5$ and $d = 4$ from the list"
+      },
+      {
+        "id": "o3",
+        "text": "Substitute: $101 = 5 + (n-1)\\times 4$"
+      },
+      {
+        "id": "o4",
+        "text": "Solve: $n - 1 = \\dfrac{96}{4} = 24$"
+      },
+      {
+        "id": "o5",
+        "text": "So $n = 25$, a whole number, so the AP has 25 terms"
+      },
+      {
+        "id": "o2",
+        "text": "Write $a_n = a + (n-1)d$ with $a_n = 101$"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Find $a$ and $d$ first, then use the formula.",
+    "explanation": "$d = 9 - 5 = 4$ and $a = 5$. Putting the last term $101$ in $a_n = a + (n-1)d$ gives $96 = 4(n-1)$, so $n - 1 = 24$ and $n = 25$. The final check is that $n$ is a positive whole number."
+  },
+  {
+    "id": "in-cbse-10-math-ap-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Term from the end",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps to find the **11th term from the last** of the AP $4, 9, 14, \\dots, 199$.",
+    "image": {
+      "src": "/img/c10-ma-ap/flow-last.svg",
+      "alt": "Four boxes showing the steps to find a term counted from the end"
+    },
+    "items": [
+      {
+        "id": "o1",
+        "text": "Find $d = 9 - 4 = 5$ and note $l = 199$"
+      },
+      {
+        "id": "o2",
+        "text": "Use $199 = 4 + (n-1)\\times 5$ to get $n = 40$"
+      },
+      {
+        "id": "o4",
+        "text": "Compute $a_{30} = 4 + 29\\times 5$"
+      },
+      {
+        "id": "o3",
+        "text": "The 11th from the last is term number $40 - 11 + 1 = 30$"
+      },
+      {
+        "id": "o5",
+        "text": "So the required term is $149$"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need the total number of terms before you can count from the end.",
+    "explanation": "Counting from the end, the last term is the 1st, so the 11th from the last is term number $n - 11 + 1 = 30$, **not** $n - 11 = 29$. Then $a_{30} = 4 + 29\\times 5 = 149$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Finding an AP from two terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In an AP, $a_5 = 19$ and $a_{12} = 47$. Find $a_{20}$.",
+    "image": {
+      "src": "/img/c10-ma-ap/two-terms.svg",
+      "alt": "Graph of the terms of an AP with the 5th and 12th terms highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "83"
+      },
+      {
+        "id": "b",
+        "text": "79"
+      },
+      {
+        "id": "c",
+        "text": "54"
+      },
+      {
+        "id": "d",
+        "text": "95"
+      }
+    ],
+    "answer": "b",
+    "hint": "Subtract the equations $a + 4d = 19$ and $a + 11d = 47$.",
+    "explanation": "$a + 4d = 19$ and $a + 11d = 47$ give $7d = 28$, so $d = 4$ and $a = 3$. Then $a_{20} = 3 + 19\\times4 = 79$. Using $20d$ instead of $19d$ gives $83$; dividing $28$ by $12$ (instead of $7$) gives $54$; and using $19$ as the first term gives $95$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Finding an AP from conditions",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In an AP the sum of the 3rd and 7th terms is $30$ and the sum of the 5th and 9th terms is $46$. What are the first three terms?",
+    "image": {
+      "src": "/img/c10-ma-ap/slots.svg",
+      "alt": "Ten boxes a1 to a10 with a3 and a7 shaded orange and a5 and a9 shaded green"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-17, -9, -1$"
+      },
+      {
+        "id": "b",
+        "text": "$-2, 2, 6$"
+      },
+      {
+        "id": "c",
+        "text": "$-1, 3, 7$"
+      },
+      {
+        "id": "d",
+        "text": "$7, 11, 15$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Write each sum as $2a + (\\dots)d$ and subtract the two equations.",
+    "explanation": "$a_3 + a_7 = 2a + 8d = 30$ and $a_5 + a_9 = 2a + 12d = 46$. Subtracting gives $4d = 16$, so $d = 4$, then $2a = 30 - 32 = -2$ and $a = -1$. The terms are $-1, 3, 7$. Dividing $16$ by $2$ gives $d = 8$ and $-17, -9, -1$; writing $a + 8d = 30$ (dropping the $2$) gives $-2, 2, 6$; and $7, 11, 15$ starts the list at $a_3$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "The nth term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each AP with its **10th term**.",
+    "image": {
+      "src": "/img/c10-ma-ap/bars-ap10.svg",
+      "alt": "Bars of an AP"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$2, 5, 8, \\dots$"
+      },
+      {
+        "id": "l2",
+        "text": "$50, 46, 42, \\dots$"
+      },
+      {
+        "id": "l3",
+        "text": "$-3, 1, 5, \\dots$"
+      },
+      {
+        "id": "l4",
+        "text": "$1, 1.5, 2, \\dots$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$33$"
+      },
+      {
+        "id": "r1",
+        "text": "$29$"
+      },
+      {
+        "id": "r4",
+        "text": "$5.5$"
+      },
+      {
+        "id": "r2",
+        "text": "$14$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Use $a_{10} = a + 9d$.",
+    "explanation": "$a_{10} = a + 9d$: $2 + 9\\times3 = 29$; $50 + 9\\times(-4) = 14$; $-3 + 9\\times 4 = 33$; and $1 + 9\\times 0.5 = 5.5$. Watch the sign of $d$ in the second AP."
+  },
+  {
+    "id": "in-cbse-10-math-ap-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "The nth term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these APs in order of their **10th term**, from the smallest to the largest.",
+    "image": {
+      "src": "/img/c10-ma-ap/lines4.svg",
+      "alt": "Four straight-line graphs of APs for n from 1 to 10"
+    },
+    "items": [
+      {
+        "id": "o3",
+        "text": "$-5, -2, 1, \\dots$"
+      },
+      {
+        "id": "o4",
+        "text": "$1, 4, 7, \\dots$"
+      },
+      {
+        "id": "o1",
+        "text": "$3, 5, 7, \\dots$"
+      },
+      {
+        "id": "o2",
+        "text": "$20, 18, 16, \\dots$"
+      }
+    ],
+    "answer": [
+      "o2",
+      "o1",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Work out $a_{10} = a + 9d$ for each AP.",
+    "explanation": "$a_{10}$ values: $20 + 9(-2) = 2$; $3 + 9\\times 2 = 21$; $-5 + 9\\times 3 = 22$; $1 + 9\\times3 = 28$. A negative $d$ pulls the 10th term down, and a small first term does not make the 10th term small if $d$ is large."
+  },
+  {
+    "id": "in-cbse-10-math-ap-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Terms and sums of an AP",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "For the AP $25, 21, 17, \\dots$ select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-ap/graph-m5.svg",
+      "alt": "Graph of the terms 25, 21, 17 and so on, falling through zero"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a_7 = 1$"
+      },
+      {
+        "id": "b",
+        "text": "The first negative term is $a_8$"
+      },
+      {
+        "id": "c",
+        "text": "The common difference is $4$"
+      },
+      {
+        "id": "d",
+        "text": "$a_{10} = -11$"
+      },
+      {
+        "id": "e",
+        "text": "$S_7 = 91$"
+      },
+      {
+        "id": "f",
+        "text": "$S_6 = 0$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Here $d = -4$; find $a_n$ and $S_n$ for the values mentioned.",
+    "explanation": "$d = 21 - 25 = -4$, so $a_n = 29 - 4n$: $a_7 = 1$, $a_8 = -3$ (first negative), $a_{10} = -11$. $S_7 = \\frac72(25 + 1) = 91$, while $S_6 = \\frac62(25 + 5) = 90$, not $0$. The common difference is $-4$, not $4$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of n terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In an AP the first term is $5$ and the 11th term is $45$. Find the common difference $d$ and the sum of the first $11$ terms $S_{11}$.",
+    "image": {
+      "src": "/img/c10-ma-ap/bars-ap10.svg",
+      "alt": "Bars of an AP"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$d = 4,\\ S_{11} = 275$"
+      },
+      {
+        "id": "b",
+        "text": "$d = \\frac{40}{11},\\ S_{11} = 275$"
+      },
+      {
+        "id": "c",
+        "text": "$d = 4,\\ S_{11} = 550$"
+      },
+      {
+        "id": "d",
+        "text": "$d = 4,\\ S_{11} = 297$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find $d$ from $a_{11} = a + 10d$, then use $S = \\frac{n}{2}(a + l)$.",
+    "explanation": "$45 = 5 + 10d$ gives $d = 4$. With first and last term known, $S_{11} = \\dfrac{11}{2}(5 + 45) = 275$. Dividing by $11$ instead of $10$ gives $d = \\frac{40}{11}$; forgetting the $\\frac12$ gives $550$; and using $nd$ instead of $(n-1)d$ in $\\frac{n}{2}[2a + (n-1)d]$ gives $297$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Word problem on nth term",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A job starts with a monthly salary of \u0001 and the monthly salary goes up by \u0002 every year. In which year does the monthly salary become ₹40,000?",
+    "image": {
+      "src": "/img/c10-ma-ap/salary-bars.svg",
+      "alt": "Bars of salary rising each year"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12th year"
+      },
+      {
+        "id": "b",
+        "text": "14th year"
+      },
+      {
+        "id": "c",
+        "text": "27th year"
+      },
+      {
+        "id": "d",
+        "text": "13th year"
+      }
+    ],
+    "answer": "d",
+    "hint": "Solve $40000 = 22000 + (n-1)\\times 1500$.",
+    "explanation": "$18000 = (n-1)\\times1500$ gives $n - 1 = 12$ and $n = 13$. The number $12$ is only $n - 1$; $14$ comes from adding one too many; and $27$ comes from dividing $40000$ by $1500$, ignoring the starting salary."
+  },
+  {
+    "id": "in-cbse-10-math-ap-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Rows of logs",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Logs are stacked so that each row has one log fewer than the row below it. Tap the row that has **6 logs**.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-logs.svg",
+      "alt": "A stack of five rows of logs, narrowing upward"
+    },
+    "spots": [
+      {
+        "id": "row1",
+        "x": 50.0,
+        "y": 81.7,
+        "label": "Row with 9 logs"
+      },
+      {
+        "id": "row2",
+        "x": 50.0,
+        "y": 65.8,
+        "label": "Row with 8 logs"
+      },
+      {
+        "id": "row3",
+        "x": 50.0,
+        "y": 50.0,
+        "label": "Row with 7 logs"
+      },
+      {
+        "id": "row4",
+        "x": 50.0,
+        "y": 34.2,
+        "label": "Row with 6 logs"
+      },
+      {
+        "id": "row5",
+        "x": 50.0,
+        "y": 18.3,
+        "label": "Row with 5 logs"
+      }
+    ],
+    "answer": "row4",
+    "hint": "The bottom row is the first term; count the steps up.",
+    "explanation": "The rows form the AP $9, 8, 7, 6, 5$ with $d = -1$. The row with $6$ logs is the 4th row from the bottom, since $9 + (n-1)(-1) = 6$ gives $n = 4$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Rows of plants",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A flower bed has $13$ rose plants in the first row, $11$ in the second, $9$ in the third, and so on. Tap the row with **7 plants**.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-plants.svg",
+      "alt": "Five rows of rose plants, each row shorter than the one above"
+    },
+    "spots": [
+      {
+        "id": "pr1",
+        "x": 50.0,
+        "y": 18.3,
+        "label": "Row 1: 13 plants"
+      },
+      {
+        "id": "pr2",
+        "x": 50.0,
+        "y": 34.2,
+        "label": "Row 2: 11 plants"
+      },
+      {
+        "id": "pr3",
+        "x": 50.0,
+        "y": 50.0,
+        "label": "Row 3: 9 plants"
+      },
+      {
+        "id": "pr4",
+        "x": 50.0,
+        "y": 65.8,
+        "label": "Row 4: 7 plants"
+      },
+      {
+        "id": "pr5",
+        "x": 50.0,
+        "y": 81.7,
+        "label": "Row 5: 5 plants"
+      }
+    ],
+    "answer": "pr4",
+    "hint": "Each row has $2$ plants fewer, so $d = -2$.",
+    "explanation": "$13 + (n-1)(-2) = 7$ gives $n - 1 = 3$, so $n = 4$. The 4th row has $7$ plants."
+  },
+  {
+    "id": "in-cbse-10-math-ap-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Potato race",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In a potato race the first potato is $5$ m from the bucket and the potatoes are $3$ m apart in a line. Tap the potato that is **11 m** from the bucket.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-potato.svg",
+      "alt": "A bucket and five potatoes in a line with the distances 5 m and 3 m marked"
+    },
+    "spots": [
+      {
+        "id": "bucket",
+        "x": 7.5,
+        "y": 62.5,
+        "label": "Bucket"
+      },
+      {
+        "id": "pt1",
+        "x": 30.0,
+        "y": 64.2,
+        "label": "Potato 1 (5 m)"
+      },
+      {
+        "id": "pt2",
+        "x": 43.5,
+        "y": 64.2,
+        "label": "Potato 2 (8 m)"
+      },
+      {
+        "id": "pt3",
+        "x": 57.0,
+        "y": 64.2,
+        "label": "Potato 3 (11 m)"
+      },
+      {
+        "id": "pt4",
+        "x": 70.5,
+        "y": 64.2,
+        "label": "Potato 4 (14 m)"
+      },
+      {
+        "id": "pt5",
+        "x": 84.0,
+        "y": 64.2,
+        "label": "Potato 5 (17 m)"
+      }
+    ],
+    "answer": "pt3",
+    "hint": "The distances from the bucket form an AP $5, 8, 11, \\dots$",
+    "explanation": "The distances are $5, 8, 11, 14, 17$ from the bucket, an AP with $d = 3$. Solving $5 + (n-1)3 = 11$ gives $n = 3$, the 3rd potato."
+  },
+  {
+    "id": "in-cbse-10-math-ap-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of an AP",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "The houses in a row are numbered $1$ to $8$. Tap the house numbered $x$ for which the **sum of the numbers before it equals the sum of the numbers after it**.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-houses.svg",
+      "alt": "A row of eight houses numbered 1 to 8"
+    },
+    "spots": [
+      {
+        "id": "h1",
+        "x": 6.2,
+        "y": 62.5,
+        "label": "House 1"
+      },
+      {
+        "id": "h2",
+        "x": 18.8,
+        "y": 62.5,
+        "label": "House 2"
+      },
+      {
+        "id": "h3",
+        "x": 31.2,
+        "y": 62.5,
+        "label": "House 3"
+      },
+      {
+        "id": "h4",
+        "x": 43.8,
+        "y": 62.5,
+        "label": "House 4"
+      },
+      {
+        "id": "h5",
+        "x": 56.2,
+        "y": 62.5,
+        "label": "House 5"
+      },
+      {
+        "id": "h6",
+        "x": 68.8,
+        "y": 62.5,
+        "label": "House 6"
+      },
+      {
+        "id": "h7",
+        "x": 81.2,
+        "y": 62.5,
+        "label": "House 7"
+      },
+      {
+        "id": "h8",
+        "x": 93.8,
+        "y": 62.5,
+        "label": "House 8"
+      }
+    ],
+    "answer": "h6",
+    "hint": "Use $S_{x-1} = S_8 - S_x$ with $S_n = \\frac{n(n+1)}{2}$.",
+    "explanation": "$S_8 = 36$. We need $S_{x-1} = 36 - S_x$, i.e. $\\dfrac{(x-1)x}{2} + \\dfrac{x(x+1)}{2} = 36$, so $x^2 = 36$ and $x = 6$. Check: $1+2+3+4+5 = 15$ and $7 + 8 = 15$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Radii in an AP",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A spiral is made of semicircles with radii $0.5$ cm, $1.0$ cm, $1.5$ cm, $2.0$ cm, $\\dots$ in that order, centres alternately at A and B. Tap the semicircle of radius **2.0 cm**.",
+    "image": {
+      "src": "/img/c10-ma-ap/hs-spiral.svg",
+      "alt": "A spiral of six semicircles whose centres alternate between A and B"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 47.5,
+        "y": 34.2,
+        "label": "Semicircle 1 (radius 0.5 cm)"
+      },
+      {
+        "id": "s2",
+        "x": 52.0,
+        "y": 56.7,
+        "label": "Semicircle 2 (radius 1 cm)"
+      },
+      {
+        "id": "s3",
+        "x": 47.5,
+        "y": 19.2,
+        "label": "Semicircle 3 (radius 1.5 cm)"
+      },
+      {
+        "id": "s4",
+        "x": 52.0,
+        "y": 71.7,
+        "label": "Semicircle 4 (radius 2 cm)"
+      },
+      {
+        "id": "s5",
+        "x": 47.5,
+        "y": 4.2,
+        "label": "Semicircle 5 (radius 2.5 cm)"
+      },
+      {
+        "id": "s6",
+        "x": 52.0,
+        "y": 86.7,
+        "label": "Semicircle 6 (radius 3 cm)"
+      }
+    ],
+    "answer": "s4",
+    "hint": "The radii form an AP with $a = 0.5$ and $d = 0.5$.",
+    "explanation": "$0.5 + (n-1)\\times0.5 = 2.0$ gives $n = 4$, so it is the 4th semicircle (centre B). The radius grows by $0.5$ cm with every semicircle."
+  },
+  {
+    "id": "in-cbse-10-math-ap-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of first n natural numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find the sum $1 + 2 + 3 + \\dots + 200$.",
+    "image": {
+      "src": "/img/c10-ma-ap/gauss.svg",
+      "alt": "A list written forward and backward with equal column sums"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "40200"
+      },
+      {
+        "id": "b",
+        "text": "20100"
+      },
+      {
+        "id": "c",
+        "text": "20000"
+      },
+      {
+        "id": "d",
+        "text": "20200"
+      }
+    ],
+    "answer": "b",
+    "hint": "Pair the first and last terms, as in the picture.",
+    "explanation": "$S_n = \\dfrac{n(n+1)}{2}$, so $S_{200} = \\dfrac{200\\times201}{2} = 20100$. Forgetting the division by $2$ gives $40200$; $200\\times100 = 20000$ drops the $+1$; and $100\\times202 = 20200$ uses the wrong last number."
+  },
+  {
+    "id": "in-cbse-10-math-ap-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Gauss's method",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps in order for finding $1 + 2 + 3 + \\dots + 100$ by pairing.",
+    "image": {
+      "src": "/img/c10-ma-ap/gauss.svg",
+      "alt": "A list written forward and backward with equal column sums"
+    },
+    "items": [
+      {
+        "id": "o3",
+        "text": "Add the two lines column by column"
+      },
+      {
+        "id": "o4",
+        "text": "Each column gives $101$ and there are $100$ columns, so $2S = 100 \\times 101$"
+      },
+      {
+        "id": "o5",
+        "text": "Divide by $2$: $S = 5050$"
+      },
+      {
+        "id": "o1",
+        "text": "Write $S = 1 + 2 + 3 + \\dots + 100$"
+      },
+      {
+        "id": "o2",
+        "text": "Write the same sum backwards: $S = 100 + 99 + \\dots + 1$"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "The trick is to write the sum twice.",
+    "explanation": "Adding the sum to its reverse makes every column equal to $101$. Because we added the sum **twice**, we divide by $2$ at the end: $S = \\frac{100\\times101}{2} = 5050$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of n terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that give the formula for the sum of the first $n$ terms of an AP.",
+    "image": {
+      "src": "/img/c10-ma-ap/gauss-rev.svg",
+      "alt": "The sum written forward and backward with each column totalling 2a plus n minus 1 times d"
+    },
+    "items": [
+      {
+        "id": "o3",
+        "text": "Add the two lines term by term"
+      },
+      {
+        "id": "o2",
+        "text": "Write $S$ again with the terms in reverse order"
+      },
+      {
+        "id": "o4",
+        "text": "Each of the $n$ columns adds to $2a + (n-1)d$"
+      },
+      {
+        "id": "o5",
+        "text": "So $2S = n[2a + (n-1)d]$, i.e. $S = \\dfrac{n}{2}[2a + (n-1)d]$"
+      },
+      {
+        "id": "o1",
+        "text": "Write $S = a + (a+d) + \\dots + [a + (n-1)d]$"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4",
+      "o5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Adding the two lines makes all the columns equal.",
+    "explanation": "Reversing the list lets every column add to the same amount, $2a + (n-1)d$. There are $n$ columns, so $2S = n[2a + (n-1)d]$, and dividing by $2$ gives the formula."
+  },
+  {
+    "id": "in-cbse-10-math-ap-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Formulas for S_n",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the expressions that equal the sum $S_n$ of the first $n$ terms of an AP with first term $a$, common difference $d$ and $n$th term $a_n$.",
+    "image": {
+      "src": "/img/c10-ma-ap/gauss-rev.svg",
+      "alt": "The sum written forward and backward with each column totalling 2a plus n minus 1 times d"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{n}{2}[2a + (n-1)d]$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{n}{2}(a + a_n)$"
+      },
+      {
+        "id": "c",
+        "text": "$n(a + a_n)$"
+      },
+      {
+        "id": "d",
+        "text": "$na + \\dfrac{n(n-1)}{2}d$"
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{n}{2}[a + (n-1)d]$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Test each with a small AP, for example $1, 3, 5$.",
+    "explanation": "Adding $S$ to its reverse gives $2S = n[2a + (n-1)d] = n(a + a_n)$, so the first two are right, and expanding the first gives $na + \\frac{n(n-1)}{2}d$. The third is **twice** the sum, and the fifth leaves out the factor $2$ on $a$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of n terms",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-ap/gauss-rev.svg",
+      "alt": "The sum written forward and backward with each column totalling 2a plus n minus 1 times d"
+    },
+    "assertion": "The sum of the first $n$ terms of an AP is $S_n = \\dfrac{n}{2}[2a + (n-1)d]$.",
+    "reason": "This formula is found by adding the sum to the same sum written in the **same order**.",
+    "answer": "c",
+    "hint": "Which order is used for the second line when we add?",
+    "explanation": "A is true. R is false: the second copy of the sum is written in **reverse** order, so that every pair of terms adds to the same value $2a + (n-1)d$. Adding in the same order would give different column totals."
+  },
+  {
+    "id": "in-cbse-10-math-ap-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Formulas of an AP",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each formula with what it gives.",
+    "image": {
+      "src": "/img/c10-ma-ap/general-ap.svg",
+      "alt": "Boxes a, a+d, a+2d, a+3d with +d between each pair"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$a + (n-1)d$"
+      },
+      {
+        "id": "l2",
+        "text": "$\\dfrac{n}{2}[2a + (n-1)d]$"
+      },
+      {
+        "id": "l3",
+        "text": "$\\dfrac{n}{2}(a + l)$"
+      },
+      {
+        "id": "l4",
+        "text": "$a_{k+1} - a_k$"
+      },
+      {
+        "id": "l5",
+        "text": "$\\dfrac{a + c}{2}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "The $n$th term"
+      },
+      {
+        "id": "r3",
+        "text": "The sum when the last term $l$ is known"
+      },
+      {
+        "id": "r4",
+        "text": "The common difference"
+      },
+      {
+        "id": "r5",
+        "text": "The middle term $b$ when $a, b, c$ are in AP"
+      },
+      {
+        "id": "r2",
+        "text": "The sum of the first $n$ terms"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Think about which letters each formula uses.",
+    "explanation": "Each formula comes straight from the chapter: $a_n = a + (n-1)d$ is the general term, $S_n = \\frac n2[2a + (n-1)d]$ the sum, $S = \\frac n2(a + l)$ the sum with the last term $l$, $d = a_{k+1} - a_k$ the difference, and $b = \\frac{a+c}{2}$ the arithmetic mean."
+  },
+  {
+    "id": "in-cbse-10-math-ap-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of n terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find the sum of the first $12$ terms of the AP $8, 3, -2, \\dots$",
+    "image": {
+      "src": "/img/c10-ma-ap/bars-neg.svg",
+      "alt": "Bars of the terms 8, 3, -2, -7, -12, -17"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "-234"
+      },
+      {
+        "id": "b",
+        "text": "-468"
+      },
+      {
+        "id": "c",
+        "text": "-264"
+      },
+      {
+        "id": "d",
+        "text": "426"
+      }
+    ],
+    "answer": "a",
+    "hint": "Here $d = 3 - 8 = -5$.",
+    "explanation": "$S_{12} = \\dfrac{12}{2}[16 + 11\\times(-5)] = 6\\times(-39) = -234$. Forgetting the $\\frac12$ gives $-468$; using $nd$ instead of $(n-1)d$ gives $-264$; and using $d = +5$ gives $426$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Word problem on sum",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A father puts ₹150 in a money box on his daughter's first birthday, ₹225 on the second, ₹300 on the third and so on, adding ₹75 more each time. How much is in the box after the **17th** birthday?",
+    "image": {
+      "src": "/img/c10-ma-ap/piggy-bars.svg",
+      "alt": "Bars of money put in each birthday, rising by the same step"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹25,500"
+      },
+      {
+        "id": "b",
+        "text": "₹11,400"
+      },
+      {
+        "id": "c",
+        "text": "₹11,475"
+      },
+      {
+        "id": "d",
+        "text": "₹12,750"
+      }
+    ],
+    "answer": "d",
+    "hint": "Use $S_n = \\frac{n}{2}[2a + (n-1)d]$ with $a = 150$, $d = 75$, $n = 17$.",
+    "explanation": "$S_{17} = \\dfrac{17}{2}[300 + 16\\times 75] = \\dfrac{17}{2}\\times1500 = 12750$. Forgetting the $\\frac12$ gives ₹25,500; stopping at the 16th birthday gives ₹11,400; and leaving out the $2$ on $a$ gives ₹11,475."
+  },
+  {
+    "id": "in-cbse-10-math-ap-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of n terms",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-ap/sn-24.svg",
+      "alt": "Graph of the sums for 24, 21, 18 and so on, rising and then falling"
+    },
+    "assertion": "For the AP $24, 21, 18, \\dots$ the sum of the first $4$ terms equals the sum of the first $13$ terms.",
+    "reason": "The terms from the $5$th to the $13$th add up to zero.",
+    "answer": "a",
+    "hint": "Compare $S_{13}$ with $S_4$: what lies between them?",
+    "explanation": "$S_4 = \\frac42(48 - 9) = 78$ and $S_{13} = \\frac{13}{2}(48 - 36) = 78$, so A is true. R is true and explains it: $S_{13} - S_4 = a_5 + \\dots + a_{13} = 0$, because these nine terms run from $12$ down to $-12$ with $a_9 = 0$ in the middle, so the positive and negative terms cancel."
+  },
+  {
+    "id": "in-cbse-10-math-ap-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Number of terms from the sum",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "How many terms of the AP $30, 27, 24, \\dots$ must be taken so that their sum is $135$?",
+    "image": {
+      "src": "/img/c10-ma-ap/sn-parabola.svg",
+      "alt": "Graph of the sum of n terms of 30, 27, 24 and so on, with a dashed line at 135"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Either $6$ or $15$ terms"
+      },
+      {
+        "id": "b",
+        "text": "Only $6$ terms"
+      },
+      {
+        "id": "c",
+        "text": "Only $15$ terms"
+      },
+      {
+        "id": "d",
+        "text": "$21$ terms"
+      }
+    ],
+    "answer": "a",
+    "hint": "Solve the quadratic you get from $S_n = 135$; do not throw away a root without checking.",
+    "explanation": "$135 = \\frac n2[60 + (n-1)(-3)]$ gives $n^2 - 21n + 90 = 0$, i.e. $(n-6)(n-15) = 0$. Both $6$ and $15$ are possible because the terms after the 6th are positive and then negative, and the terms from the 7th to the 15th add up to $0$ (check: $S_6 = 135$, $S_{15} = 135$). The number $21$ is just the sum of the roots."
+  },
+  {
+    "id": "in-cbse-10-math-ap-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "The nth term from S_n",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The sum of the first $n$ terms of a list is $S_n = 3n^2 + 2n$. Find its **10th term**.",
+    "image": {
+      "src": "/img/c10-ma-ap/sn-diff.svg",
+      "alt": "Two columns for S9 and S10 with the difference at the top marked with a question mark"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "320"
+      },
+      {
+        "id": "b",
+        "text": "59"
+      },
+      {
+        "id": "c",
+        "text": "112"
+      },
+      {
+        "id": "d",
+        "text": "261"
+      }
+    ],
+    "answer": "b",
+    "hint": "The 10th term is what $S_{10}$ has more than $S_9$.",
+    "explanation": "$a_n = S_n - S_{n-1}$, so $a_{10} = S_{10} - S_9 = 320 - 261 = 59$. Giving $S_{10} = 320$ is the sum of ten terms, $S_{10} - S_8 = 112$ is two terms added together, and $261$ is $S_9$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Word problem on sum",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "$75$ logs are stacked with $15$ in the bottom row and one log fewer in each row above. In how many rows are they placed and how many logs are in the top row?",
+    "image": {
+      "src": "/img/c10-ma-ap/logs-q.svg",
+      "alt": "A stack of logs with 15, 14, 13 logs in the lowest rows"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "25 rows; $-9$ logs in the top row"
+      },
+      {
+        "id": "b",
+        "text": "6 rows; 9 logs in the top row"
+      },
+      {
+        "id": "c",
+        "text": "6 rows; 10 logs in the top row"
+      },
+      {
+        "id": "d",
+        "text": "15 rows; 1 log in the top row"
+      }
+    ],
+    "answer": "c",
+    "hint": "Form $n^2 - 31n + 150 = 0$ and test each root.",
+    "explanation": "$75 = \\frac n2[30 + (n-1)(-1)]$ gives $n^2 - 31n + 150 = 0$, so $n = 6$ or $n = 25$. With $n = 25$ the top row would have $15 - 24 = -9$ logs, impossible, so reject it. Then $n = 6$ and the top row has $15 - 5 = 10$ logs. Using $15 - 6$ gives $9$, and $15$ rows would hold $120$ logs."
+  },
+  {
+    "id": "in-cbse-10-math-ap-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Word problem on sum",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In a potato race the first potato is $6$ m from the bucket and the other $7$ potatoes are $4$ m apart in a line. A runner brings the potatoes **one at a time** to the bucket, starting and ending at the bucket. What is the total distance she runs?",
+    "image": {
+      "src": "/img/c10-ma-ap/potato-q.svg",
+      "alt": "A bucket and potatoes in a line, the first 6 m from the bucket and the rest 4 m apart"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "320 m"
+      },
+      {
+        "id": "b",
+        "text": "160 m"
+      },
+      {
+        "id": "c",
+        "text": "252 m"
+      },
+      {
+        "id": "d",
+        "text": "286 m"
+      }
+    ],
+    "answer": "a",
+    "hint": "Each trip is out and back, so double each distance.",
+    "explanation": "The distances to the potatoes are $6, 10, 14, \\dots, 34$ (an AP, $8$ terms). Each trip is **there and back**, so the total is $2\\times\\frac82(6 + 34) = 2\\times160 = 320$ m. Forgetting to double gives $160$; using $7$ potatoes gives $252$; and leaving out the return of the last trip gives $286$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Word problem on sum",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A spiral is made of $14$ semicircles with radii $0.5$ cm, $1.0$ cm, $1.5$ cm, $\\dots$ (take $\\pi = \\frac{22}{7}$). What is the total length of the spiral?",
+    "image": {
+      "src": "/img/c10-ma-ap/spiral-q.svg",
+      "alt": "A spiral of eight semicircles with centres alternately at A and B"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "330 cm"
+      },
+      {
+        "id": "b",
+        "text": "143 cm"
+      },
+      {
+        "id": "c",
+        "text": "165 cm"
+      },
+      {
+        "id": "d",
+        "text": "52.5 cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "A semicircle of radius $r$ has length $\\pi r$.",
+    "explanation": "$l_j = \\pi r_j$, so the total is $\\pi(0.5 + 1.0 + \\dots + 7.0) = \\pi\\times\\frac{14}{2}(0.5 + 7) = \\frac{22}{7}\\times52.5 = 165$ cm. Using full circles ($2\\pi r$) gives $330$; stopping at $13$ semicircles gives $143$; and $52.5$ forgets the factor $\\pi$."
+  },
+  {
+    "id": "in-cbse-10-math-ap-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "chapterNo": 5,
+    "topic": "Sum of n terms",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each AP with the **sum of its first 10 terms**.",
+    "image": {
+      "src": "/img/c10-ma-ap/tri-rect.svg",
+      "alt": "Two staircases of dots joined to make a rectangle of 5 rows and 6 dots"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$1, 2, 3, \\dots$"
+      },
+      {
+        "id": "l2",
+        "text": "$5, 7, 9, \\dots$"
+      },
+      {
+        "id": "l3",
+        "text": "$20, 17, 14, \\dots$"
+      },
+      {
+        "id": "l4",
+        "text": "$-4, -1, 2, \\dots$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "$140$"
+      },
+      {
+        "id": "r3",
+        "text": "$65$"
+      },
+      {
+        "id": "r4",
+        "text": "$95$"
+      },
+      {
+        "id": "r1",
+        "text": "$55$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Use $S_{10} = 5[2a + 9d]$.",
+    "explanation": "$S_{10} = \\frac{10}{2}[2a + 9d] = 5(2a + 9d)$: $5(2+9) = 55$; $5(10 + 18) = 140$; $5(40 - 27) = 65$; $5(-8 + 27) = 95$. The picture shows the same pairing idea: two copies of the sum make a rectangle."
+  }
+]

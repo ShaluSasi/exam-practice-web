@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Right triangle ABC with the angle of elevation 30 degrees at A, the foot of the tower at B and the top at C</title>
+<style>.fl{stroke-dasharray:9 6;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.45}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:13px}.h{paint-order:stroke;stroke:#FFFFFF;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}@keyframes t1{from{transform:translate(0px,0px)}to{transform:translate(257.6px,-148.7px)}}.t1{animation:t1 2.6s ease-in-out infinite}</style>
+<rect width="100%" height="100%" rx="16" fill="#E3F2FD"/>
+<path d="M0 199.8H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CDEBC5"/>
+<line x1="0" y1="199.8" x2="400" y2="199.8" stroke="#6BAA5E" stroke-width="3" stroke-linecap="round" />
+<polygon points="315.4,199.8 327.4,199.8 324.4,51.1 318.4,51.1" fill="#C9D2EC" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<line x1="63.7" y1="199.8" x2="321.4" y2="199.8" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" />
+<line x1="63.7" y1="199.8" x2="321.4" y2="51.1" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" class="fl"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#FF8A1F" transform="translate(205.4 118) rotate(-30.0)"/>
+<path d="M63.7 199.8L123.7 199.8A60 60 0 0 0 115.7 169.8Z" fill="#E5484D" fill-opacity=".22"/>
+<circle class="t1" cx="63.7" cy="199.8" r="4.5" fill="#fff" stroke="#FF8A1F" stroke-width="2.5"/>
+<path class="pu" d="M123.7 199.8A60 60 0 0 0 115.7 169.8" fill="none" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/>
+<text x="135.2" y="184.7" font-size="13" text-anchor="middle" fill="#E5484D" class="h" >30°</text>
+<polyline points="321.4,189.8 311.4,189.8 311.4,199.8" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<text x="53.7" y="217.8" font-size="13" text-anchor="middle" class="h" >A</text>
+<text x="333.4" y="217.8" font-size="13" text-anchor="middle" class="h" >B</text>
+<text x="321.4" y="41.1" font-size="13" text-anchor="middle" class="h" >C</text>
+<line x1="63.7" y1="215.8" x2="321.4" y2="215.8" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<line x1="63.7" y1="210.8" x2="63.7" y2="220.8" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<line x1="321.4" y1="210.8" x2="321.4" y2="220.8" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<text x="192.6" y="230.8" font-size="13" text-anchor="middle" fill="#2B2F4A" class="h" >10√3 m</text>
+</svg>

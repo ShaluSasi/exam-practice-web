@@ -1,0 +1,2265 @@
+[
+  {
+    "id": "in-cbse-10-math-surfacevol-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A solid is made of a cylinder of radius $r$ and height $h$ with a hemisphere of the same radius joined at **each end**. Which picture shows a solid whose total surface area is $2\\pi rh + 4\\pi r^2$?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/truck-tank.svg",
+      "alt": "A tanker lorry with a cylindrical tank that has a hemispherical end on each side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-cylhemi.svg",
+          "alt": "A cylinder with a hemisphere on one end only and a flat circle at the other"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-cyl.svg",
+          "alt": "A plain cylinder"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-capsule.svg",
+          "alt": "A cylinder with a hemisphere on both ends"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-spindle.svg",
+          "alt": "A cylinder with a cone on both ends"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Count the curved parts that stay on the outside: the cylinder wall and every hemisphere.",
+    "explanation": "Only curved surfaces show on the outside of a capsule: the cylinder gives $2\\pi rh$ and two hemispheres give $2 \\times 2\\pi r^2 = 4\\pi r^2$. Picture A has one flat circle too, so its area is $2\\pi rh + 2\\pi r^2 + \\pi r^2$. Picture B is $2\\pi rh + 2\\pi r^2$, and Picture D has cone surfaces $\\pi r l$ instead of hemispheres."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The tank of this lorry is a cylinder with a hemisphere at each end. Tap the part whose curved surface area is $2\\pi rh$.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/truck-tank.svg",
+      "alt": "A tanker lorry with a cylindrical tank that has a hemispherical end on each side"
+    },
+    "spots": [
+      {
+        "id": "cab",
+        "x": 12.9,
+        "y": 54.3,
+        "label": "Driver cab"
+      },
+      {
+        "id": "hl",
+        "x": 31.2,
+        "y": 47.0,
+        "label": "Left hemispherical end"
+      },
+      {
+        "id": "cy",
+        "x": 57.3,
+        "y": 47.0,
+        "label": "Cylindrical middle part"
+      },
+      {
+        "id": "hr",
+        "x": 83.3,
+        "y": 47.0,
+        "label": "Right hemispherical end"
+      }
+    ],
+    "answer": "cy",
+    "hint": "Which part is a straight tube, not a bowl?",
+    "explanation": "The curved surface of a cylinder of radius $r$ and height $h$ is $2\\pi rh$, so the answer is the **cylindrical middle part**. Each hemispherical end has curved surface $2\\pi r^2$. The cab is not part of the tank, and the joints are not outside surface."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A wooden top is a cone with a hemisphere fixed on its flat face. Its diameter is $7\\ \\text{cm}$ and its total height is $15.5\\ \\text{cm}$. Find the area to be painted. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-calc.svg",
+      "alt": "A top shaped like a cone topped by a hemisphere with diameter 7 cm and total height 15.5 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$291.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$251.8\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$214.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$137.5\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The cone height is the total height minus the radius of the hemisphere. Do not paint the joint.",
+    "explanation": "The radius is $r = 3.5$ and the cone height is $15.5 - 3.5 = 12\\ \\text{cm}$, so the slant height is $l = \\sqrt{3.5^2 + 12^2} = 12.5\\ \\text{cm}$. Area $= 2\\pi r^2 + \\pi r l = \\pi(24.5 + 43.75) = 68.25\\pi = 214.5\\ \\text{cm}^2$. Traps: adding the full surface areas of both solids gives 291.5 (the hidden flat faces are counted), using $15.5$ as the cone height gives 251.8, and painting only the cone gives 137.5."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A spinning top is a hemisphere fixed on a cone of the same radius. Tap the part whose curved surface area is $\\pi r l$.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-hs.svg",
+      "alt": "A spinning top: a hemisphere resting on top of a cone that points down to the floor"
+    },
+    "spots": [
+      {
+        "id": "hemi",
+        "x": 50.0,
+        "y": 25.8,
+        "label": "Hemispherical part"
+      },
+      {
+        "id": "joint",
+        "x": 50.0,
+        "y": 45.0,
+        "label": "Circular joint of hemisphere and cone"
+      },
+      {
+        "id": "cone",
+        "x": 50.0,
+        "y": 68.8,
+        "label": "Conical part"
+      },
+      {
+        "id": "floor",
+        "x": 82.5,
+        "y": 91.7,
+        "label": "Floor"
+      }
+    ],
+    "answer": "cone",
+    "hint": "The formula with the slant height $l$ belongs to one of the two solids.",
+    "explanation": "The curved surface of a cone is $\\pi r l$, where $l$ is the slant height. So the **conical part** is the answer. The hemispherical part has curved surface $2\\pi r^2$ and the circular joint is not on the outside."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the same top, tap the part whose curved surface area is $2\\pi r^2$.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-hs.svg",
+      "alt": "A spinning top: a hemisphere resting on top of a cone that points down to the floor"
+    },
+    "spots": [
+      {
+        "id": "hemi",
+        "x": 50.0,
+        "y": 25.8,
+        "label": "Hemispherical part"
+      },
+      {
+        "id": "joint",
+        "x": 50.0,
+        "y": 45.0,
+        "label": "Circular joint of hemisphere and cone"
+      },
+      {
+        "id": "cone",
+        "x": 50.0,
+        "y": 68.8,
+        "label": "Conical part"
+      },
+      {
+        "id": "floor",
+        "x": 82.5,
+        "y": 91.7,
+        "label": "Floor"
+      }
+    ],
+    "answer": "hemi",
+    "hint": "It is a half of a sphere, and a full sphere has $4\\pi r^2$.",
+    "explanation": "A sphere has surface $4\\pi r^2$, so a **hemisphere** has curved surface $\\tfrac12 \\times 4\\pi r^2 = 2\\pi r^2$. The cone gives $\\pi r l$ instead."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "When the surface area of this top is calculated, one circle is **not** counted at all because it is hidden inside. Tap that circle.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-hs.svg",
+      "alt": "A spinning top: a hemisphere resting on top of a cone that points down to the floor"
+    },
+    "spots": [
+      {
+        "id": "hemi",
+        "x": 50.0,
+        "y": 25.8,
+        "label": "Hemispherical part"
+      },
+      {
+        "id": "joint",
+        "x": 50.0,
+        "y": 45.0,
+        "label": "Circular joint of hemisphere and cone"
+      },
+      {
+        "id": "cone",
+        "x": 50.0,
+        "y": 68.8,
+        "label": "Conical part"
+      },
+      {
+        "id": "floor",
+        "x": 82.5,
+        "y": 91.7,
+        "label": "Floor"
+      }
+    ],
+    "answer": "joint",
+    "hint": "Look for the place where the hemisphere and the cone are pressed together.",
+    "explanation": "The flat face of the hemisphere and the flat base of the cone are glued together, so the **circular joint** is not on the outside. This is why the total surface area of the top is CSA of hemisphere + CSA of cone, and **not** the sum of the two total surface areas."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/two-cubes.svg",
+      "alt": "Two identical cubes pressed together face to face with the joined face in red"
+    },
+    "assertion": "When two cubes are joined face to face, the surface area of the cuboid so formed is less than the sum of the surface areas of the two cubes.",
+    "reason": "The two faces that are pressed together are no longer on the outside.",
+    "answer": "a",
+    "hint": "How many faces disappear inside when the cubes touch?",
+    "explanation": "Both statements are true and R explains A. Each cube has $6$ faces, but two of these faces (one from each cube) end up inside the cuboid. So the area drops by twice the area of one face. For two cubes of edge $4$: $2 \\times 96 = 192$ before joining, but the cuboid $8 \\times 4 \\times 4$ has area $2(32 + 32 + 16) = 160$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A decorative block is a cube of edge $10\\ \\text{cm}$ with a hemisphere of diameter $7\\ \\text{cm}$ fixed on the middle of its top face. Find the total surface area of the block. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/block-dims.svg",
+      "alt": "A cube of edge 10 cm with a hemisphere of diameter 7 cm on its top face"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$638.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$677\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$561.5\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$715.5\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "A circle of the cube top is covered by the hemisphere, but the curved surface of the hemisphere is added.",
+    "explanation": "Surface area $=$ TSA of cube $-$ base of hemisphere $+$ CSA of hemisphere $= 600 - \\pi r^2 + 2\\pi r^2 = 600 + \\pi r^2 = 600 + 38.5 = 638.5\\ \\text{cm}^2$ with $r = 3.5$. Adding $2\\pi r^2$ without removing the covered circle gives 677, only removing the circle gives 561.5, and using the total surface area $3\\pi r^2$ of the hemisphere gives 715.5."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "A hemisphere is fixed on the top face of a cube. Tap the part of the cube's top face that is **still exposed** and must be included in the surface area.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/block-hs.svg",
+      "alt": "A cube on a shelf with a hemisphere fixed in the middle of its top face"
+    },
+    "spots": [
+      {
+        "id": "dome",
+        "x": 50.0,
+        "y": 14.4,
+        "label": "Curved surface of the hemisphere"
+      },
+      {
+        "id": "top",
+        "x": 37.0,
+        "y": 25.2,
+        "label": "Exposed part of the cube top"
+      },
+      {
+        "id": "face",
+        "x": 50.0,
+        "y": 67.3,
+        "label": "Front face of the cube"
+      },
+      {
+        "id": "shelf",
+        "x": 50.0,
+        "y": 87.3,
+        "label": "Shelf"
+      }
+    ],
+    "answer": "top",
+    "hint": "The top face of the cube is not completely covered.",
+    "explanation": "The hemisphere hides only a circle of area $\\pi r^2$ in the middle of the top face. The rest of the top face, the **exposed part** near the edges, is still outside and counts. The area of the block is therefore $6a^2 - \\pi r^2 + 2\\pi r^2$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/dent-cube.svg",
+      "alt": "A cube of edge 10 cm with a hemispherical hollow cut into its top face"
+    },
+    "assertion": "If a hemispherical depression of radius $r$ is scooped out of one face of a cube, the surface area of the solid increases by $\\pi r^2$.",
+    "reason": "The depression removes a flat circle of area $\\pi r^2$ and exposes a curved surface of area $2\\pi r^2$.",
+    "answer": "a",
+    "hint": "Compare what is taken away with what is newly exposed.",
+    "explanation": "Both statements are true and R explains A. The flat circle $\\pi r^2$ disappears and the curved bowl $2\\pi r^2$ appears, so the change is $2\\pi r^2 - \\pi r^2 = \\pi r^2$. Compare this with a hemisphere **added** on a face: the change is the same, $+\\pi r^2$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A toy rocket is a cone fixed on a cylinder. The cone has base diameter $6\\ \\text{cm}$ and height $4\\ \\text{cm}$. The cylinder has diameter $4\\ \\text{cm}$ and the whole rocket is $16\\ \\text{cm}$ high. What area must be painted **orange** (the whole cone part, including the ring of its base not covered by the cylinder)? (Take $\\pi = 3.14$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/rocket-dims.svg",
+      "alt": "A rocket made of a cone of base diameter 6 cm and height 4 cm on a cylinder of diameter 4 cm; total height 16 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$75.36\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$47.1\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$87.92\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$62.8\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "The base of the cone is wider than the cylinder, so only a ring of it shows. Find the slant height first.",
+    "explanation": "The cone has $r = 3$, $h = 4$ so $l = \\sqrt{9 + 16} = 5\\ \\text{cm}$. Orange area $= \\pi r l + \\pi(r^2 - r_c^2) = \\pi(15 + 9 - 4) = 20\\pi = 62.8\\ \\text{cm}^2$ with $r_c = 2$. Leaving out the ring subtraction gives 75.36, painting only the curved cone gives 47.1, and adding the cylinder base instead of subtracting gives 87.92."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "A cone is fixed on a cylinder, and the base of the cone is wider than the cylinder. In the view from below, tap the **ring** of the cone's base that is still outside and must be painted.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/rocket-hs.svg",
+      "alt": "A rocket with a cone on a narrower cylinder, and a view from below showing two circles one inside the other"
+    },
+    "spots": [
+      {
+        "id": "cone",
+        "x": 27.1,
+        "y": 15.8,
+        "label": "Curved surface of the cone"
+      },
+      {
+        "id": "cyl",
+        "x": 27.1,
+        "y": 56.2,
+        "label": "Curved surface of the cylinder"
+      },
+      {
+        "id": "ring",
+        "x": 67.2,
+        "y": 50.0,
+        "label": "Ring: uncovered part of the cone base"
+      },
+      {
+        "id": "disc",
+        "x": 80.2,
+        "y": 50.0,
+        "label": "Base of the cylinder"
+      }
+    ],
+    "answer": "ring",
+    "hint": "The inner disc is where the cylinder is attached.",
+    "explanation": "The cylinder hides only a disc of radius $r_c$ in the middle of the cone's base. What remains is a **ring** of area $\\pi R^2 - \\pi r_c^2$, which is part of the outer surface. The inner disc belongs to the cylinder base and is not part of the cone paint."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A bird-bath is a solid cylinder of radius $21\\ \\text{cm}$ and height $49\\ \\text{cm}$ with a hemispherical depression of the same radius scooped out of its top. Find the area of its exposed surface (the flat bottom on the ground is not counted). Take $\\pi = \\frac{22}{7}$.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/bird-bath.svg",
+      "alt": "A cylinder of radius 21 cm and height 49 cm with a bowl-shaped hollow in its top"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$6468\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$9240\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$10626\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$12012\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The hollow has the same radius as the cylinder, so no flat ring is left on top.",
+    "explanation": "Exposed area $=$ curved side $+$ hemispherical hollow $= 2\\pi r h + 2\\pi r^2 = 2\\pi r(h + r) = 2 \\times \\tfrac{22}{7} \\times 21 \\times 70 = 9240\\ \\text{cm}^2$. Taking only the side gives 6468. Adding the bottom base as well gives 10626, and treating the hollow as a full sphere ($4\\pi r^2$) gives 12012."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A medicine capsule is a cylinder with a hemisphere stuck on each end. The whole capsule is $14\\ \\text{mm}$ long and its diameter is $5\\ \\text{mm}$. Find its surface area. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/capsule-dims.svg",
+      "alt": "A capsule 14 mm long and 5 mm wide, with two hemispherical ends"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$298.6\\ \\text{mm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$220\\ \\text{mm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$180.7\\ \\text{mm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$259.3\\ \\text{mm}^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The cylinder part is shorter than 14 mm: remove both hemisphere radii.",
+    "explanation": "The radius is $2.5$ and the cylindrical part has height $14 - 2 \\times 2.5 = 9\\ \\text{mm}$. Area $= 2\\pi r h + 4\\pi r^2 = 45\\pi + 25\\pi = 70\\pi = 220\\ \\text{mm}^2$. Using $14$ as the cylinder height gives 298.6, counting the two hemispheres as only $2\\pi r^2$ gives 180.7, and using the closed cylinder $2\\pi r(h + r)$ gives 259.3."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A tent is a cylinder topped by a cone. The cylindrical part is $2.1\\ \\text{m}$ high and $4\\ \\text{m}$ in diameter, and the slant height of the conical top is $2.8\\ \\text{m}$. What is the cost of the canvas at ₹$500$ per $\\text{m}^2$? (The floor needs no canvas; take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/tent-dims.svg",
+      "alt": "A tent with a cylinder wall 2.1 m high, diameter 4 m, and a cone roof of slant height 2.8 m"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹$44000$"
+      },
+      {
+        "id": "b",
+        "text": "₹$15400$"
+      },
+      {
+        "id": "c",
+        "text": "₹$8800$"
+      },
+      {
+        "id": "d",
+        "text": "₹$22000$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Canvas covers the cylinder wall and the cone only; the radius is half the diameter.",
+    "explanation": "With $r = 2$: canvas $= 2\\pi r h + \\pi r l = 2\\pi(2)(2.1) + \\pi(2)(2.8) = 14\\pi = 44\\ \\text{m}^2$. Cost $= 44 \\times 500 = $ ₹$22000$. Using the diameter $4$ as the radius doubles the area (₹44000), dropping the factor $2$ in $2\\pi r h$ gives ₹15400, and canvas only for the roof gives ₹8800."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A solid cylinder of height $2.4\\ \\text{cm}$ and diameter $1.4\\ \\text{cm}$ has a conical cavity of the same height and diameter hollowed out of it. Find the total surface area of the remaining solid to the nearest $\\text{cm}^2$. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/cavity-dims.svg",
+      "alt": "A cylinder of diameter 1.4 cm and height 2.4 cm with a conical hollow from its top face down to the middle of the base"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$18\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$16\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$19\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$14\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The cavity removes the whole top circle and adds the inside of the cone.",
+    "explanation": "With $r = 0.7$, $h = 2.4$: $l = \\sqrt{0.49 + 5.76} = 2.5$. The remaining solid has the curved side, the bottom circle and the inside of the cone: $2\\pi r h + \\pi r^2 + \\pi r l = \\pi r(2h + r + l) = 2.2 \\times 8 = 17.6\\approx 18\\ \\text{cm}^2$. Leaving out the bottom base gives 16.06, counting a top circle as well gives 19.14, and forgetting the cavity (plain closed cylinder) gives 13.64."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "A solid cylinder has a conical cavity of the same height and diameter. In the cut-through view, tap the **conical cavity**.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/cavity-hs.svg",
+      "alt": "A solid cylinder whole and cut through, showing a triangle-shaped hollow that reaches from the top to the middle of the base"
+    },
+    "spots": [
+      {
+        "id": "void",
+        "x": 65.9,
+        "y": 47.3,
+        "label": "Conical hollow (cut view)"
+      },
+      {
+        "id": "left",
+        "x": 55.3,
+        "y": 66.7,
+        "label": "Solid material, left of the hollow"
+      },
+      {
+        "id": "right",
+        "x": 76.5,
+        "y": 66.7,
+        "label": "Solid material, right of the hollow"
+      },
+      {
+        "id": "table",
+        "x": 54.5,
+        "y": 92.8,
+        "label": "Table"
+      }
+    ],
+    "answer": "void",
+    "hint": "The cavity is empty space shaped like a cone.",
+    "explanation": "In the cut view the cone appears as a **triangle** with its wide side at the top and its tip at the centre of the base. The solid material is the two side triangles. The inside surface of the cone adds $\\pi r l$ to the surface area, while the top circle disappears."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A wooden article is made by scooping out a hemisphere from each end of a solid cylinder of height $10\\ \\text{cm}$ and base radius $3.5\\ \\text{cm}$. Find its total surface area. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/scoop.svg",
+      "alt": "A cut view of a cylinder 10 cm high with a half-sphere hollow at the top and at the bottom"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$220\\ \\text{cm}^2$"
+      },
+      {
+        "id": "b",
+        "text": "$297\\ \\text{cm}^2$"
+      },
+      {
+        "id": "c",
+        "text": "$374\\ \\text{cm}^2$"
+      },
+      {
+        "id": "d",
+        "text": "$451\\ \\text{cm}^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Each hollow removes a whole base circle and adds a hemisphere bowl of the same radius.",
+    "explanation": "The hollows have the same radius as the cylinder, so both flat bases vanish and two bowls appear: area $= 2\\pi r h + 2 \\times 2\\pi r^2 = 70\\pi + 49\\pi = 119\\pi = 374\\ \\text{cm}^2$. Only the curved side gives 220, the plain closed cylinder gives 297, and forgetting to remove the two bases gives 451."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-joint.svg",
+      "alt": "A top: hemisphere on a cone with the circular joint highlighted in red"
+    },
+    "assertion": "The total surface area of a top made of a cone and a hemisphere of the same radius equals the total surface area of the cone plus the total surface area of the hemisphere.",
+    "reason": "The flat circular faces that are joined together are not on the outside of the top.",
+    "answer": "d",
+    "hint": "If the two TSAs are added, are the glued circles counted?",
+    "explanation": "A is **false**: adding the two total surface areas also adds the flat circle of the cone ($\\pi r^2$) and the flat circle of the hemisphere ($\\pi r^2$), which are hidden. R is **true**: that is exactly why they must be left out. The correct area is CSA of hemisphere + CSA of cone $= 2\\pi r^2 + \\pi r l$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A top is a hemisphere of radius $r$ fixed on a cone of the same radius, with total height $H$. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-m.svg",
+      "alt": "A top of diameter 6 cm and total height 8 cm: a hemisphere on a cone"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The flat circle where the two parts join is not part of the outer surface"
+      },
+      {
+        "id": "b",
+        "text": "The total surface area is $2\\pi r^2 + \\pi r l$"
+      },
+      {
+        "id": "c",
+        "text": "The total surface area is the TSA of the cone plus the TSA of the hemisphere"
+      },
+      {
+        "id": "d",
+        "text": "The height of the cone is $H - r$"
+      },
+      {
+        "id": "e",
+        "text": "The height of the cone is $H + r$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Think about what is visible from outside and how $H$ is made up.",
+    "explanation": "The hidden joint is not counted, so area $= 2\\pi r^2$ (hemisphere) $+ \\pi r l$ (cone). The cone height is the total height minus the hemisphere radius: $H - r$. For the top shown, $r = 3$, $H - r = 5$. Adding the two total surface areas double counts the joint, and $H + r$ would make the cone taller than the whole top."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A cube of edge $a$ has a hemisphere of radius $r$ fixed on the middle of its top face. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/block-m.svg",
+      "alt": "A cube of edge 8 cm with a hemisphere of diameter 6 cm fixed on its top face"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The surface area is $6a^2 - \\pi r^2 + 2\\pi r^2$"
+      },
+      {
+        "id": "b",
+        "text": "The surface area is $6a^2 + 2\\pi r^2$"
+      },
+      {
+        "id": "c",
+        "text": "The surface area is $\\pi r^2$ more than that of the bare cube"
+      },
+      {
+        "id": "d",
+        "text": "The greatest possible hemisphere has diameter equal to the edge $a$"
+      },
+      {
+        "id": "e",
+        "text": "The flat face of the hemisphere is part of the outer surface"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "The hemisphere covers a circle and adds a curved bowl.",
+    "explanation": "The covered circle $\\pi r^2$ is removed and the curved surface $2\\pi r^2$ added, so the net change is $+\\pi r^2$, giving $6a^2 + \\pi r^2$. The hemisphere must fit on the top face, so the largest diameter is $a$. The flat face of the hemisphere is glued to the cube and is not outside."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Formulas",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quantity with its formula.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/formulas-three.svg",
+      "alt": "A cylinder, a cone and a hemisphere with r, h and l marked"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Curved surface area of a cylinder"
+      },
+      {
+        "id": "l2",
+        "text": "Curved surface area of a cone"
+      },
+      {
+        "id": "l3",
+        "text": "Curved surface area of a hemisphere"
+      },
+      {
+        "id": "l4",
+        "text": "Volume of a hemisphere"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\pi r l$"
+      },
+      {
+        "id": "r2",
+        "text": "$2\\pi r h$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{2}{3}\\pi r^3$"
+      },
+      {
+        "id": "r4",
+        "text": "$2\\pi r^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r1",
+      "l3": "r4",
+      "l4": "r3"
+    },
+    "hint": "The cone is the only one with a slant height $l$.",
+    "explanation": "Cylinder: $2\\pi r h$. Cone: $\\pi r l$ with $l = \\sqrt{r^2 + h^2}$. Hemisphere: half of $4\\pi r^2$ gives $2\\pi r^2$, and half of $\\frac43\\pi r^3$ gives $\\frac23\\pi r^3$. Do not mix the area $2\\pi r^2$ with the volume $\\frac23\\pi r^3$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each solid with the formula for its outer surface area. All round parts have radius $r$; the cylinder has height $h$, the cone has slant height $l$, the cube has edge $a$. In the last solid the flat bottom is counted.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/row-ma2.svg",
+      "alt": "A capsule, a top, a block and a cup shape"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Cylinder with a hemisphere at each end"
+      },
+      {
+        "id": "l2",
+        "text": "Cone with a hemisphere on its base (a top)"
+      },
+      {
+        "id": "l3",
+        "text": "Cube with a hemisphere fixed on one face"
+      },
+      {
+        "id": "l4",
+        "text": "Cylinder with a hemisphere on one end, other end flat"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\pi r l + 2\\pi r^2$"
+      },
+      {
+        "id": "r2",
+        "text": "$6a^2 + \\pi r^2$"
+      },
+      {
+        "id": "r3",
+        "text": "$2\\pi r h + 4\\pi r^2$"
+      },
+      {
+        "id": "r4",
+        "text": "$2\\pi r h + 3\\pi r^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r1",
+      "l3": "r2",
+      "l4": "r4"
+    },
+    "hint": "List the visible curved and flat surfaces for each solid.",
+    "explanation": "Capsule: side $2\\pi r h$ + two hemispheres $4\\pi r^2$. Top: hemisphere $2\\pi r^2$ + cone $\\pi r l$. Block: $6a^2 - \\pi r^2 + 2\\pi r^2$. Cup: side $2\\pi r h$ + flat circle $\\pi r^2$ + hemisphere $2\\pi r^2 = 2\\pi r h + 3\\pi r^2$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for finding the area to be painted on a top (hemisphere on a cone) in a sensible order.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/top-o.svg",
+      "alt": "A top with diameter 6 cm and total height 8 cm"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Find the slant height $l = \\sqrt{r^2 + h^2}$ of the cone"
+      },
+      {
+        "id": "s1",
+        "text": "Read the radius from the diameter"
+      },
+      {
+        "id": "s5",
+        "text": "Add the two curved areas; leave out the joint"
+      },
+      {
+        "id": "s2",
+        "text": "Find the cone height: total height minus $r$"
+      },
+      {
+        "id": "s4",
+        "text": "Calculate $2\\pi r^2$ for the hemisphere and $\\pi r l$ for the cone"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need the cone height before the slant height.",
+    "explanation": "Take $r$ from the diameter, subtract $r$ from the total height to get the cone height, then find $l$ from Pythagoras. Only then can you work out the two curved areas, and finally add them without the hidden joint. Here $r = 3$, $h = 5$, $l = \\sqrt{34}$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "A cone is fixed on a narrower cylinder. Arrange the steps for the area to be painted on the **cone part** (its curved surface and the exposed ring of its base).",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/rocket-o.svg",
+      "alt": "A rocket with a cone of base diameter 8 cm and height 3 cm on a narrower cylinder"
+    },
+    "items": [
+      {
+        "id": "a3",
+        "text": "Find the ring area $\\pi R^2 - \\pi r^2$ using the two radii"
+      },
+      {
+        "id": "a1",
+        "text": "Find the slant height $l = \\sqrt{R^2 + h^2}$"
+      },
+      {
+        "id": "a4",
+        "text": "Add the curved area and the ring area"
+      },
+      {
+        "id": "a2",
+        "text": "Find the curved area $\\pi R l$ of the cone"
+      }
+    ],
+    "answer": [
+      "a1",
+      "a2",
+      "a3",
+      "a4"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "The slant height is needed for the curved area.",
+    "explanation": "The curved area $\\pi R l$ needs $l$, so find $l$ first. The base of the cone is wider than the cylinder, so the ring $\\pi R^2 - \\pi r^2$ is also outside. The painted area is the sum of the curved area and the ring. For these numbers $R = 4$, $h = 3$, $l = 5$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area of a combination",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A hemisphere is to be placed on the top face of a cube of side $7\\ \\text{cm}$. Which picture shows the **greatest** hemisphere that can be fixed on the face?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/dent-cube.svg",
+      "alt": "A cube of edge 10 cm with a hemispherical depression on its top face"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-dome-a.svg",
+          "alt": "A small hemisphere of half the edge in the middle of the top face"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-dome-b.svg",
+          "alt": "A hemisphere whose diameter equals the edge of the cube"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-dome-c.svg",
+          "alt": "A hemisphere wider than the cube, overhanging the face"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-dome-d.svg",
+          "alt": "A hemisphere smaller than the edge, leaving a margin"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "It must fit on the face without overhanging.",
+    "explanation": "The hemisphere must sit entirely on the square face, so its diameter cannot exceed the side: the greatest diameter is $7\\ \\text{cm}$ (radius $3.5$), as in Picture B. Picture C overhangs, so it cannot be fixed; A and D fit but are not the greatest. For this hemisphere, the surface area of the solid is $6 \\times 49 + \\pi r^2 = 294 + 38.5 = 332.5\\ \\text{cm}^2$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Surface area and volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "A solid cylinder of radius $r$ and height $h$ has a conical cavity of the same radius and height hollowed out from one end. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/cavity-m.svg",
+      "alt": "A cylinder of radius 1.5 cm and height 4 cm with a conical hollow"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The volume of the remaining solid is $\\dfrac{2}{3}\\pi r^2 h$"
+      },
+      {
+        "id": "b",
+        "text": "The outer surface includes the cone's curved surface $\\pi r l$"
+      },
+      {
+        "id": "c",
+        "text": "The outer surface includes the top circle $\\pi r^2$"
+      },
+      {
+        "id": "d",
+        "text": "The outer surface includes the bottom circle $\\pi r^2$"
+      },
+      {
+        "id": "e",
+        "text": "The slant height is $l = \\sqrt{r^2 + h^2}$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "The cavity has the same radius as the top circle.",
+    "explanation": "Volume $= \\pi r^2 h - \\frac13\\pi r^2 h = \\frac23\\pi r^2 h$. The top circle is completely removed, so it is not part of the surface; the inside of the cone $\\pi r l$ takes its place, with $l = \\sqrt{r^2 + h^2}$. The bottom circle and the curved side remain outside, giving $2\\pi r h + \\pi r^2 + \\pi r l$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A solid toy is a cone of height $4\\ \\text{cm}$ standing on a hemisphere. Both have radius $3\\ \\text{cm}$. What is the volume of the toy?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/toy-vol.svg",
+      "alt": "A cone of height 4 cm on a hemisphere of radius 3 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$48\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$54\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$30\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$18\\pi\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Add the volume of the cone and the volume of the hemisphere.",
+    "explanation": "Hemisphere: $\\frac23\\pi r^3 = \\frac23 \\pi \\times 27 = 18\\pi$. Cone: $\\frac13\\pi r^2 h = \\frac13\\pi \\times 9 \\times 4 = 12\\pi$. Total $= 30\\pi\\ \\text{cm}^3$. Using the volume of a full sphere $\\frac43\\pi r^3 = 36\\pi$ gives $48\\pi$, forgetting the $\\frac13$ of the cone gives $54\\pi$, and the hemisphere alone is $18\\pi$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which picture shows a solid whose volume is $\\dfrac{1}{3}\\pi r^2 h + \\dfrac{2}{3}\\pi r^3$, where $h$ is the height of the cone?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/toy-parts.svg",
+      "alt": "A cone fixed on a hemisphere"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-conecyl.svg",
+          "alt": "A cone standing on a cylinder"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-cylhemi.svg",
+          "alt": "A cylinder with a hemisphere on top"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-double.svg",
+          "alt": "Two cones joined at their bases"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-conehemi.svg",
+          "alt": "A cone standing on a hemisphere"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "The terms are a cone and a hemisphere.",
+    "explanation": "The term $\\frac13\\pi r^2 h$ is a **cone** and $\\frac23\\pi r^3$ is a **hemisphere**, so the solid is a cone on a hemisphere (Picture D). Picture A would need $\\pi r^2 h_1$ for the cylinder, B needs both a cylinder and a hemisphere, and C has two cone terms."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/toy-parts.svg",
+      "alt": "A cone fixed on a hemisphere with the text: volume of cone plus volume of hemisphere"
+    },
+    "assertion": "The volume of a toy made of a cone fixed on a hemisphere is the sum of the volumes of the cone and the hemisphere.",
+    "reason": "Joining two solids does not remove any material from either of them.",
+    "answer": "a",
+    "hint": "Does gluing take away any space from either solid?",
+    "explanation": "Both statements are true and R explains A. Unlike surface area, where the glued faces disappear, **volume** counts the material inside, and all of it is still there after joining. So $V = \\frac13\\pi r^2 h + \\frac23\\pi r^3$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A shed is a cuboid surmounted by a half cylinder. Its base is $20\\ \\text{m} \\times 7\\ \\text{m}$, the cuboid is $6\\ \\text{m}$ high, and the half cylinder has diameter $7\\ \\text{m}$ and length $20\\ \\text{m}$. The machinery occupies $250\\ \\text{m}^3$ and $25$ workers occupy about $0.08\\ \\text{m}^3$ each. How much air is in the shed? (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/shed-dims.svg",
+      "alt": "A shed 20 m long with cuboid walls 6 m high, width 7 m, and a half-cylinder roof"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$975\\ \\text{m}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$973\\ \\text{m}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$1358\\ \\text{m}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$1223\\ \\text{m}^3$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Total volume minus what the machinery and people take up.",
+    "explanation": "Cuboid $= 20 \\times 7 \\times 6 = 840$. Half cylinder $= \\frac12\\pi r^2 h = \\frac12 \\times \\frac{22}{7} \\times 3.5^2 \\times 20 = 385$. Total $= 1225$. Workers take $25 \\times 0.08 = 2$ and machinery $250$, so air $= 1225 - 252 = 973\\ \\text{m}^3$. Forgetting the workers gives 975, using a full cylinder for the roof gives 1358, and forgetting the machinery gives 1223."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A shed is a cuboid with a half cylinder on top. Tap the **half-cylindrical roof**.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/shed-hs.svg",
+      "alt": "A shed with cuboid walls and a curved half-cylinder roof"
+    },
+    "spots": [
+      {
+        "id": "roof",
+        "x": 45.5,
+        "y": 31.4,
+        "label": "Half-cylindrical roof (curved surface)"
+      },
+      {
+        "id": "gable",
+        "x": 33.0,
+        "y": 48.0,
+        "label": "Semicircular end of the roof"
+      },
+      {
+        "id": "wall",
+        "x": 21.6,
+        "y": 76.0,
+        "label": "Front wall of the cuboid"
+      },
+      {
+        "id": "side",
+        "x": 60.2,
+        "y": 78.0,
+        "label": "Side wall of the cuboid"
+      }
+    ],
+    "answer": "roof",
+    "hint": "The roof is the curved part.",
+    "explanation": "The roof is half of a cylinder lying on its side, so its volume is $\\frac12\\pi r^2 h$, where $r$ is the radius of the semicircular end and $h$ is the length of the shed. The cuboid walls give the volume $l \\times b \\times$ height."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for finding the volume of **air** in a shed (cuboid with a half-cylinder roof) with machinery inside.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/shed-o.svg",
+      "alt": "A shed 12 m long and 5 m wide with 4 m high walls and a half-cylinder roof"
+    },
+    "items": [
+      {
+        "id": "b4",
+        "text": "Add the two volumes to get the total volume of the shed"
+      },
+      {
+        "id": "b1",
+        "text": "Find the volume of the cuboid: length $\\times$ breadth $\\times$ height"
+      },
+      {
+        "id": "b5",
+        "text": "Subtract the space taken by machinery and people"
+      },
+      {
+        "id": "b2",
+        "text": "Find the volume of the half cylinder: $\\frac12\\pi r^2 h$"
+      }
+    ],
+    "answer": [
+      "b1",
+      "b2",
+      "b4",
+      "b5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You can only subtract once you have the total.",
+    "explanation": "Find the cuboid volume and the half-cylinder volume, add them for the full volume, and only then subtract what is not air (machinery and workers). Subtracting before adding the roof would give a wrong total."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A juice glass has inner diameter $6\\ \\text{cm}$ and height $10\\ \\text{cm}$, but its bottom has a hemispherical raised portion of the same diameter that reduces its capacity. Find the **actual capacity** of the glass. (Take $\\pi = 3.14$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/glass-dims.svg",
+      "alt": "A glass 10 cm high and 6 cm wide with a half-sphere bump at the bottom"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$226.08\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$282.6\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$339.12\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$169.56\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Apparent capacity minus the volume of the raised hemisphere.",
+    "explanation": "Apparent capacity $= \\pi r^2 h = 3.14 \\times 9 \\times 10 = 282.6$. The hemisphere takes $\\frac23\\pi r^3 = \\frac23 \\times 3.14 \\times 27 = 56.52$. Actual capacity $= 226.08\\ \\text{cm}^3$. Giving the apparent capacity ignores the bump, adding the bump gives 339.12, and using a full sphere $\\frac43\\pi r^3$ gives 169.56."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The glass is shown cut open. Tap the part that **reduces the capacity** of the glass.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/glass-hs.svg",
+      "alt": "A glass cut open with juice, showing a dome-shaped solid at the bottom"
+    },
+    "spots": [
+      {
+        "id": "dome",
+        "x": 50.0,
+        "y": 72.9,
+        "label": "Raised hemispherical bottom"
+      },
+      {
+        "id": "juice",
+        "x": 50.0,
+        "y": 35.4,
+        "label": "Juice space above the dome"
+      },
+      {
+        "id": "wall",
+        "x": 32.5,
+        "y": 45.8,
+        "label": "Glass wall"
+      },
+      {
+        "id": "base",
+        "x": 50.0,
+        "y": 89.2,
+        "label": "Base of the glass"
+      }
+    ],
+    "answer": "dome",
+    "hint": "Which part is solid and takes up space where juice could be?",
+    "explanation": "The solid hemispherical raised portion at the bottom occupies space that juice cannot fill, so its volume $\\frac23\\pi r^3$ must be subtracted from the apparent capacity $\\pi r^2 h$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The capacity of a cylindrical glass of radius $r$ and height $h$ is $\\pi r^2 h - \\dfrac{2}{3}\\pi r^3$. Which cut view shows such a glass?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/glass-dims.svg",
+      "alt": "A glass 10 cm high and 6 cm wide with a half-sphere bump at the bottom"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-glass-flat.svg",
+          "alt": "A glass with a flat bottom"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-glass-round.svg",
+          "alt": "A glass with a rounded hemispherical bottom"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-glass-cone.svg",
+          "alt": "A glass with a cone rising from the bottom"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-glass-dome.svg",
+          "alt": "A glass with a dome-shaped raised bottom"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Something has been subtracted from the full cylinder: a hemisphere of solid glass inside.",
+    "explanation": "The minus sign means a hemisphere of solid is **inside** the cylinder, making a raised bottom: Picture D. Picture A has capacity $\\pi r^2 h$. Picture B has a rounded bottom that adds $\\frac23\\pi r^3$ rather than subtracting it. Picture C removes $\\frac13\\pi r^2 \\times$ (cone height) instead."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A model is a cylinder with a cone attached at each end. The diameter is $7\\ \\text{cm}$, the whole length is $20\\ \\text{cm}$, and each cone has height $6\\ \\text{cm}$. Find the volume of air inside it. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/model.svg",
+      "alt": "A model with a cylinder in the middle and a cone at each end; diameter 7 cm, length 20 cm, cone height 6 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$924\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$770\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$385\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$462\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "d",
+    "hint": "The cylinder is shorter than the whole length.",
+    "explanation": "The cylinder has height $20 - 6 - 6 = 8$ and $r = 3.5$. Volume $= \\pi r^2 \\cdot 8 + 2 \\times \\frac13\\pi r^2 \\cdot 6 = 98\\pi + 49\\pi = 147\\pi = 462\\ \\text{cm}^3$. Taking $20$ as the cylinder height gives 924, forgetting the $\\frac13$ in the cones gives 770, and including only one cone gives 385."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A gulab jamun is a cylinder with a hemisphere at each end. Its length is $8.4\\ \\text{cm}$ and its diameter is $4.2\\ \\text{cm}$. About $30\\%$ of its volume is sugar syrup. How much syrup (in $\\text{cm}^3$) is there in $50$ such gulab jamuns? (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/jamun.svg",
+      "alt": "A gulab jamun shaped like a capsule, 8.4 cm long and 4.2 cm wide"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1164.24\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$2328.48\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$3395.7\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$1455.3\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Cylinder height $= 8.4 - 2 \\times 2.1$. The two hemispheres together make one sphere.",
+    "explanation": "$r = 2.1$ and the cylinder part has height $8.4 - 4.2 = 4.2$. One jamun: $\\pi r^2 h + \\frac43\\pi r^3 = 58.212 + 38.808 = 97.02$. Syrup in $50$ pieces $= 0.30 \\times 97.02 \\times 50 = 1455.3\\ \\text{cm}^3$. Counting only one hemisphere ($\\frac23\\pi r^3$) gives 1164.24, taking $8.4$ as the cylinder height gives 2328.48, and using $70\\%$ gives 3395.7."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A wooden pen stand is a cuboid $20\\ \\text{cm} \\times 12\\ \\text{cm} \\times 4\\ \\text{cm}$ with $6$ conical depressions to hold pens. Each depression has radius $0.7\\ \\text{cm}$ and depth $3\\ \\text{cm}$. Find the volume of wood in the stand. (Take $\\pi = \\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/penstand.svg",
+      "alt": "A wooden block 20 cm by 12 cm by 4 cm with six cone-shaped holes in its top face"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$950.76\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$960\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$932.28\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$969.24\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Subtract the volume of all six cones from the cuboid.",
+    "explanation": "Cuboid $= 20 \\times 12 \\times 4 = 960$. One cone $= \\frac13\\pi r^2 h = \\frac13 \\times \\frac{22}{7} \\times 0.49 \\times 3 = 1.54$, so six cones $= 9.24$. Wood $= 960 - 9.24 = 950.76\\ \\text{cm}^3$. Ignoring the holes gives $960$, forgetting the $\\frac13$ gives 932.28, and adding instead of subtracting gives 969.24."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "match",
+    "prompt": "Match each solid with its volume. The radius is $r$ and $h$ is the height of the cone or cylinder part.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/row-ma3.svg",
+      "alt": "A cone on a hemisphere, a capsule, a cylinder with a cone-shaped hollow and a glass with a raised dome"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Cone of height $h$ on a hemisphere"
+      },
+      {
+        "id": "l2",
+        "text": "Cylinder of height $h$ with a hemisphere at each end"
+      },
+      {
+        "id": "l3",
+        "text": "Cylinder of height $h$ with a conical hollow of the same $r$ and $h$"
+      },
+      {
+        "id": "l4",
+        "text": "Glass of height $h$ with a raised hemispherical bottom"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{1}{3}\\pi r^2 h + \\dfrac{2}{3}\\pi r^3$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\pi r^2 h + \\dfrac{4}{3}\\pi r^3$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{2}{3}\\pi r^2 h$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\pi r^2 h - \\dfrac{2}{3}\\pi r^3$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Add the pieces that are present and subtract the pieces that are missing.",
+    "explanation": "Cone on hemisphere: add $\\frac13\\pi r^2 h$ and $\\frac23\\pi r^3$. Cylinder with two hemispheres: $\\pi r^2 h$ plus a full sphere $\\frac43\\pi r^3$. Cylinder with conical hollow: $\\pi r^2 h - \\frac13\\pi r^2 h = \\frac23\\pi r^2 h$. Glass with raised bottom: $\\pi r^2 h - \\frac23\\pi r^3$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each solid with its volume (in $\\text{cm}^3$).",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/row-ma4.svg",
+      "alt": "A cone, a hemisphere, a sphere and a flat cylinder, each with radius 3 cm"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Cone, $r = 3$, $h = 4$",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-l-cone.svg",
+          "alt": "A cone"
+        }
+      },
+      {
+        "id": "l2",
+        "text": "Hemisphere, $r = 3$",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-l-hemi.svg",
+          "alt": "A hemisphere"
+        }
+      },
+      {
+        "id": "l3",
+        "text": "Sphere, $r = 3$",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-l-sphere.svg",
+          "alt": "A sphere"
+        }
+      },
+      {
+        "id": "l4",
+        "text": "Cylinder, $r = 3$, $h = 1$",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-l-cyl.svg",
+          "alt": "A flat cylinder"
+        }
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$36\\pi$"
+      },
+      {
+        "id": "r2",
+        "text": "$12\\pi$"
+      },
+      {
+        "id": "r3",
+        "text": "$9\\pi$"
+      },
+      {
+        "id": "r4",
+        "text": "$18\\pi$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r4",
+      "l3": "r1",
+      "l4": "r3"
+    },
+    "hint": "Use $\\frac13\\pi r^2 h$, $\\frac23\\pi r^3$, $\\frac43\\pi r^3$ and $\\pi r^2 h$.",
+    "explanation": "Cone: $\\frac13\\pi(9)(4) = 12\\pi$. Hemisphere: $\\frac23\\pi(27) = 18\\pi$. Sphere: $\\frac43\\pi(27) = 36\\pi$. Cylinder: $\\pi(9)(1) = 9\\pi$. Notice the sphere is exactly twice the hemisphere."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of solids",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "A cone, a hemisphere, a cylinder and a sphere all have the same radius $r$, and the cone and the cylinder both have height $r$. Arrange them from **smallest** to **largest** volume.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/row-o3.svg",
+      "alt": "A cone, a hemisphere, a cylinder and a sphere with the same radius"
+    },
+    "items": [
+      {
+        "id": "cyl",
+        "text": "Cylinder of height $r$",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-r-cyl.svg",
+          "alt": "A cylinder of height r"
+        }
+      },
+      {
+        "id": "sph",
+        "text": "Sphere",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-r-sphere.svg",
+          "alt": "A sphere of radius r"
+        }
+      },
+      {
+        "id": "cone",
+        "text": "Cone of height $r$",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-r-cone.svg",
+          "alt": "A cone of height r"
+        }
+      },
+      {
+        "id": "hem",
+        "text": "Hemisphere",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-r-hemi.svg",
+          "alt": "A hemisphere of radius r"
+        }
+      }
+    ],
+    "answer": [
+      "cone",
+      "hem",
+      "cyl",
+      "sph"
+    ],
+    "startLabel": "Smallest volume",
+    "endLabel": "Largest volume",
+    "hint": "Write each volume as a multiple of $\\pi r^3$.",
+    "explanation": "Volumes in units of $\\pi r^3$: cone $\\frac13$, hemisphere $\\frac23$, cylinder $1$, sphere $\\frac43$. So the order is cone $<$ hemisphere $<$ cylinder $<$ sphere. A common slip is to think the cylinder is the largest solid."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the solids that have volume $36\\pi$ (in cubic units).",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/formulas-m3.svg",
+      "alt": "A cylinder, a cone and a hemisphere with r, h and l marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A cone with $r = 3$ and $h = 12$"
+      },
+      {
+        "id": "b",
+        "text": "A cylinder with $r = 2$ and $h = 9$"
+      },
+      {
+        "id": "c",
+        "text": "A sphere with $r = 3$"
+      },
+      {
+        "id": "d",
+        "text": "A hemisphere with $r = 3$"
+      },
+      {
+        "id": "e",
+        "text": "A cone with $r = 3$ and $h = 4$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Work out each volume as a multiple of $\\pi$.",
+    "explanation": "Cone $r=3, h=12$: $\\frac13 \\cdot 9 \\cdot 12 = 36$. Cylinder $r=2, h=9$: $4 \\cdot 9 = 36$. Sphere $r=3$: $\\frac43 \\cdot 27 = 36$. The hemisphere with $r=3$ is $18\\pi$ and the cone with $r=3, h=4$ is $12\\pi$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "An inverted cone-shaped vessel of height $12\\ \\text{cm}$ and brim radius $6\\ \\text{cm}$ is full of water. Spherical lead shots of radius $0.5\\ \\text{cm}$ are dropped in until **one-fourth** of the water flows out. How many shots were dropped?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/shots.svg",
+      "alt": "An upside-down cone vessel full of water with small lead balls dropping in and some water spilling over the rim"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$864$"
+      },
+      {
+        "id": "b",
+        "text": "$216$"
+      },
+      {
+        "id": "c",
+        "text": "$432$"
+      },
+      {
+        "id": "d",
+        "text": "$648$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The volume of the shots equals the volume of water that overflows.",
+    "explanation": "Water in the vessel $= \\frac13\\pi(36)(12) = 144\\pi$, and one-fourth of it is $36\\pi$. One shot has volume $\\frac43\\pi(0.5)^3 = \\frac{\\pi}{6}$. So $n = 36\\pi \\div \\frac{\\pi}{6} = 216$. Using all the water gives 864, using $\\frac23\\pi r^3$ for a shot gives 432, and forgetting the $\\frac13$ of the cone gives 648."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Volume of a combination",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A solid made of a cone of height $12\\ \\text{cm}$ and radius $6\\ \\text{cm}$ standing on a hemisphere of radius $6\\ \\text{cm}$ is placed upright in a cylinder full of water so that it touches the bottom. The cylinder has radius $6\\ \\text{cm}$ and height $18\\ \\text{cm}$. Find the volume of water left in the cylinder.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/cyl-water.svg",
+      "alt": "A cylinder 18 cm high and 12 cm wide with a hemisphere at the bottom and a cone above it reaching the top"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$504\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "b",
+        "text": "$288\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "c",
+        "text": "$360\\pi\\ \\text{cm}^3$"
+      },
+      {
+        "id": "d",
+        "text": "$936\\pi\\ \\text{cm}^3$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Water left = volume of cylinder minus volume of the solid.",
+    "explanation": "Cylinder: $\\pi \\times 36 \\times 18 = 648\\pi$. Solid: cone $\\frac13\\pi(36)(12) = 144\\pi$ plus hemisphere $\\frac23\\pi(216) = 144\\pi$, total $288\\pi$. Water left $= 648\\pi - 288\\pi = 360\\pi\\ \\text{cm}^3$. Subtracting only the cone gives $504\\pi$, giving the solid itself is $288\\pi$, and adding gives $936\\pi$."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Conversion of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A solid metal cylinder of radius $6\\ \\text{cm}$ and height $8\\ \\text{cm}$ is melted and recast into cones, each of radius $2\\ \\text{cm}$ and height $6\\ \\text{cm}$. How many cones can be made?",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/melt.svg",
+      "alt": "A big cylinder, an arrow, and several small cones"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$36$"
+      },
+      {
+        "id": "b",
+        "text": "$12$"
+      },
+      {
+        "id": "c",
+        "text": "$9$"
+      },
+      {
+        "id": "d",
+        "text": "$27$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Melting keeps the volume the same.",
+    "explanation": "Volume of cylinder $= \\pi(36)(8) = 288\\pi$. Volume of one cone $= \\frac13\\pi(4)(6) = 8\\pi$. Number of cones $= 288\\pi \\div 8\\pi = 36$. Forgetting the $\\frac13$ gives 12, using the diameter $4$ as the radius gives 9, and using the cylinder height $8$ for the cone gives 27."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Conversion of solids",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/sph-cube.svg",
+      "alt": "A sphere and a cube made from the same amount of clay"
+    },
+    "assertion": "Two solids that have the same volume must have the same total surface area.",
+    "reason": "The surface area of a solid depends on its shape as well as on its volume.",
+    "answer": "d",
+    "hint": "Compare the sphere and cube made from the same clay: do they have equal skins?",
+    "explanation": "A is **false**: a sphere of radius $3$ has volume $36\\pi \\approx 113.1$, and a cube of the same volume has edge $\\approx 4.84$, so surface area $\\approx 140.6$ against the sphere's $36\\pi \\approx 113.1$. R is **true**: shape changes surface area. When a solid is melted and recast, **volume** is conserved but surface area is not."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Conversion of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A solid is melted and recast into several smaller solids. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/melt-m.svg",
+      "alt": "A large cylinder, an arrow and several small cones"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The volume of the material does not change"
+      },
+      {
+        "id": "b",
+        "text": "The total surface area of the material does not change"
+      },
+      {
+        "id": "c",
+        "text": "The number of small solids is the volume of the big solid divided by the volume of one small solid"
+      },
+      {
+        "id": "d",
+        "text": "A solid sphere of radius $6\\ \\text{cm}$ can be recast into $27$ spheres of radius $2\\ \\text{cm}$"
+      },
+      {
+        "id": "e",
+        "text": "A cone has the same volume as a cylinder of the same radius and height"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "What is conserved when a solid is melted?",
+    "explanation": "Melting conserves **volume**, so $n = V_{\\text{big}} \\div V_{\\text{small}}$. For spheres, $\\frac{(4/3)\\pi 6^3}{(4/3)\\pi 2^3} = 27$. Surface area does change with shape. A cone has only one-third of the volume of the cylinder with the same base and height."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Conversion of solids",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for finding **how many small solids** can be made by melting a big solid and recasting it.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/melt-o.svg",
+      "alt": "A big cylinder, an arrow and small cones"
+    },
+    "items": [
+      {
+        "id": "c3",
+        "text": "Divide the volume of the big solid by the volume of one small solid"
+      },
+      {
+        "id": "c1",
+        "text": "Make all the measurements use the same unit"
+      },
+      {
+        "id": "c4",
+        "text": "Check that the answer is a whole number"
+      },
+      {
+        "id": "c2",
+        "text": "Write the volume of the big solid and of one small solid"
+      }
+    ],
+    "answer": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need both volumes before dividing.",
+    "explanation": "Convert to a common unit first, then write both volumes with the correct formulas. Because the volume is conserved, the number of pieces is the ratio of the volumes. A whole-number result is a final check that the data fit together."
+  },
+  {
+    "id": "in-cbse-10-math-surfacevol-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "chapterNo": 12,
+    "topic": "Combination of solids",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each real object with the solids it is made of.",
+    "image": {
+      "src": "/img/c10-ma-surface-volumes/row-ma5.svg",
+      "alt": "A capsule shape, a test tube, a spinning top, a tent and a shed"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Oil tanker"
+      },
+      {
+        "id": "l2",
+        "text": "Test tube"
+      },
+      {
+        "id": "l3",
+        "text": "Spinning top"
+      },
+      {
+        "id": "l4",
+        "text": "Tent"
+      },
+      {
+        "id": "l5",
+        "text": "Factory shed"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Cylinder with a hemisphere at each end",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/th-capsule.svg",
+          "alt": "A cylinder with a hemisphere at each end"
+        }
+      },
+      {
+        "id": "r2",
+        "text": "Cylinder with a hemisphere at one end",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-tube.svg",
+          "alt": "A tube with a rounded bottom"
+        }
+      },
+      {
+        "id": "r3",
+        "text": "Cone with a hemisphere on top",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-top.svg",
+          "alt": "A cone with a hemisphere on top"
+        }
+      },
+      {
+        "id": "r4",
+        "text": "Cylinder with a cone on top",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-tent.svg",
+          "alt": "A cylinder with a cone roof"
+        }
+      },
+      {
+        "id": "r5",
+        "text": "Cuboid with a half cylinder on top",
+        "image": {
+          "src": "/img/c10-ma-surface-volumes/pv-shedth.svg",
+          "alt": "A cuboid with a half-cylinder roof"
+        }
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Think of the outline of each object.",
+    "explanation": "A tanker is a cylinder with hemispherical ends. A test tube is a cylinder with a rounded (hemispherical) bottom. A spinning top is a cone with a hemisphere on top. A tent is a cylinder with a conical roof. A shed is a cuboid topped by half a cylinder."
+  }
+]

@@ -1,0 +1,2300 @@
+[
+  {
+    "id": "in-cbse-10-math-coordinate-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Introduction",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A point $P$ has **abscissa** $-4$ and **ordinate** $7$. Which graph shows $P$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/intro-plane.svg",
+      "alt": "A coordinate plane with a point and its horizontal and vertical distances marked"
+    },
+    "hint": "The abscissa is the x-coordinate (left or right); the ordinate is the y-coordinate (up or down).",
+    "explanation": "The first number is the **abscissa** (x-coordinate): $-4$ means 4 units to the **left** of the y-axis. The second is the **ordinate** (y-coordinate): $7$ means 7 units **up**. Swapping the numbers gives $(7,-4)$ and a sign slip gives $(4,7)$ or $(-4,-7)$, each in a different quadrant.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-coordinate/plot-7-m4.svg",
+          "alt": "Graph A"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-coordinate/plot-m4-7.svg",
+          "alt": "Graph B"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-coordinate/plot-4-7.svg",
+          "alt": "Graph C"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-coordinate/plot-m4-m7.svg",
+          "alt": "Graph D"
+        }
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Introduction",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Every point on the x-axis has **ordinate 0**. Tap the point that lies on the **x-axis**.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/axes-points.svg",
+      "alt": "Five labelled points on a coordinate grid"
+    },
+    "hint": "On the x-axis you have not moved up or down at all.",
+    "explanation": "A point on the x-axis has the form $(x, 0)$ because its distance from the x-axis is zero. Here only $A(4,0)$ has ordinate 0. $B(0,3)$ has abscissa 0, so it lies on the **y-axis**.",
+    "spots": [
+      {
+        "id": "a",
+        "x": 71.1,
+        "y": 53.1,
+        "label": "Point A (4, 0): ordinate 0, on the x-axis"
+      },
+      {
+        "id": "b",
+        "x": 48.4,
+        "y": 24.7,
+        "label": "Point B (0, 3): on the y-axis"
+      },
+      {
+        "id": "c",
+        "x": 31.4,
+        "y": 34.2,
+        "label": "Point C (-3, 2): second quadrant"
+      },
+      {
+        "id": "d",
+        "x": 65.4,
+        "y": 71.9,
+        "label": "Point D (3, -2): fourth quadrant"
+      },
+      {
+        "id": "e",
+        "x": 31.4,
+        "y": 81.4,
+        "label": "Point E (-3, -3): third quadrant"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Introduction",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each point with where it lies on the coordinate plane.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/quadrants.svg",
+      "alt": "A coordinate plane showing four quadrants numbered I to IV"
+    },
+    "hint": "Zero in one coordinate puts a point on an axis. Otherwise look at the signs.",
+    "explanation": "$(3,0)$ has ordinate 0, so it is on the x-axis; $(0,-4)$ has abscissa 0, so it is on the y-axis. $(-2,5)$ is (left, up) = second quadrant; $(4,-1)$ is (right, down) = fourth; $(-3,-3)$ is (left, down) = third.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "$(3, 0)$"
+      },
+      {
+        "id": "l2",
+        "text": "$(0, -4)$"
+      },
+      {
+        "id": "l3",
+        "text": "$(-2, 5)$"
+      },
+      {
+        "id": "l4",
+        "text": "$(4, -1)$"
+      },
+      {
+        "id": "l5",
+        "text": "$(-3, -3)$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "On the x-axis"
+      },
+      {
+        "id": "r2",
+        "text": "On the y-axis"
+      },
+      {
+        "id": "r3",
+        "text": "In the second quadrant"
+      },
+      {
+        "id": "r4",
+        "text": "In the fourth quadrant"
+      },
+      {
+        "id": "r5",
+        "text": "In the third quadrant"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    }
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Introduction",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about the coordinate plane.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/axes-facts.svg",
+      "alt": "The point P(3,4) with dashed lines to the two axes"
+    },
+    "hint": "The distance from the y-axis is measured sideways, so it is the abscissa.",
+    "explanation": "Points on the x-axis look like $(x,0)$ and on the y-axis like $(0,y)$; the origin is on both. The distance of $(3,4)$ from the **y-axis** is its abscissa, **3** (4 is the distance from the x-axis). And $(x,0)$ has ordinate **0**, not $x$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "The point $(5, 0)$ lies on the x-axis"
+      },
+      {
+        "id": "b",
+        "text": "The point $(0, -3)$ lies on the y-axis"
+      },
+      {
+        "id": "c",
+        "text": "The origin $(0,0)$ lies on both axes"
+      },
+      {
+        "id": "d",
+        "text": "The distance of $(3, 4)$ from the **y-axis** is 4"
+      },
+      {
+        "id": "e",
+        "text": "The abscissa of every point on the y-axis is 0"
+      },
+      {
+        "id": "f",
+        "text": "A point $(x, 0)$ has ordinate $x$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ]
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Town $B$ is $24$ km **east** and $7$ km **north** of town $A$. Without measuring, what is the straight-line distance $AB$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/town-distance.svg",
+      "alt": "Two towns with a right triangle formed by the east and north distances"
+    },
+    "hint": "East and north are at right angles, so use Pythagoras.",
+    "explanation": "The east and north distances are the two legs of a right triangle, so $AB=\\sqrt{24^2+7^2}=\\sqrt{625}=25$ km. Adding the legs (31) ignores the shortcut across; subtracting (17) is meaningless; 625 forgets the square root.",
+    "options": [
+      {
+        "id": "a",
+        "text": "31 km"
+      },
+      {
+        "id": "b",
+        "text": "17 km"
+      },
+      {
+        "id": "c",
+        "text": "625 km"
+      },
+      {
+        "id": "d",
+        "text": "25 km"
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find the distance between $P(5, 3)$ and $Q(-4, -9)$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/dist-pq.svg",
+      "alt": "The points P and Q in different quadrants joined by a segment"
+    },
+    "hint": "Subtract the coordinates, square, add, then take the root.",
+    "explanation": "$PQ=\\sqrt{(-4-5)^2+(-9-3)^2}=\\sqrt{81+144}=\\sqrt{225}=15$. Adding the coordinates instead of subtracting gives $\\sqrt{37}$; adding the differences 9 and 12 gives 21; forgetting the root gives 225.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$15$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt{37}$"
+      },
+      {
+        "id": "c",
+        "text": "$21$"
+      },
+      {
+        "id": "d",
+        "text": "$225$"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The length $x_2 - x_1$ is the length of one side of the right triangle $PTQ$. Tap that **segment**.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/dist-derive-hs.svg",
+      "alt": "Right triangle PTQ with P and Q marked by coordinates"
+    },
+    "hint": "Which side runs parallel to the x-axis?",
+    "explanation": "$x_2-x_1$ measures how far $Q$ is to the right of $P$, which is the horizontal leg $PT$. The vertical leg $QT$ has length $y_2-y_1$.",
+    "spots": [
+      {
+        "id": "pt",
+        "x": 53.8,
+        "y": 65.3,
+        "label": "Segment PT (horizontal leg, length x₂ − x₁)"
+      },
+      {
+        "id": "qt",
+        "x": 71.7,
+        "y": 39.8,
+        "label": "Segment QT (vertical leg, length y₂ − y₁)"
+      },
+      {
+        "id": "pq",
+        "x": 53.8,
+        "y": 39.8,
+        "label": "Segment PQ (the distance between P and Q)"
+      },
+      {
+        "id": "xa",
+        "x": 58.9,
+        "y": 82.3,
+        "label": "The x-axis"
+      },
+      {
+        "id": "ya",
+        "x": 25.8,
+        "y": 43.2,
+        "label": "The y-axis"
+      }
+    ],
+    "answer": "pt"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the segment whose length is given by the **distance formula** $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/dist-derive-hs.svg",
+      "alt": "Right triangle PTQ with P and Q marked by coordinates"
+    },
+    "hint": "Pythagoras gives the longest side of a right triangle.",
+    "explanation": "The two legs have lengths $x_2-x_1$ and $y_2-y_1$. By Pythagoras, the hypotenuse $PQ$ satisfies $PQ^2=(x_2-x_1)^2+(y_2-y_1)^2$, which is exactly the distance formula.",
+    "spots": [
+      {
+        "id": "pt",
+        "x": 53.8,
+        "y": 65.3,
+        "label": "Segment PT (horizontal leg, length x₂ − x₁)"
+      },
+      {
+        "id": "qt",
+        "x": 71.7,
+        "y": 39.8,
+        "label": "Segment QT (vertical leg, length y₂ − y₁)"
+      },
+      {
+        "id": "pq",
+        "x": 53.8,
+        "y": 39.8,
+        "label": "Segment PQ (the distance between P and Q)"
+      },
+      {
+        "id": "xa",
+        "x": 58.9,
+        "y": 82.3,
+        "label": "The x-axis"
+      },
+      {
+        "id": "ya",
+        "x": 25.8,
+        "y": 43.2,
+        "label": "The y-axis"
+      }
+    ],
+    "answer": "pq"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that derive the **distance formula**.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/dist-derive-steps.svg",
+      "alt": "Construction for the distance formula"
+    },
+    "hint": "You need the right triangle before you can read its legs.",
+    "explanation": "Drop perpendiculars to the axis, complete the right triangle $PTQ$, express its legs through coordinates, apply Pythagoras, and take the **positive** root because a distance cannot be negative.",
+    "items": [
+      {
+        "id": "s4",
+        "text": "Apply Pythagoras: $PQ^2 = PT^2 + QT^2$"
+      },
+      {
+        "id": "s5",
+        "text": "Take the positive square root to get $PQ$"
+      },
+      {
+        "id": "s1",
+        "text": "Draw $PR$ and $QS$ perpendicular to the x-axis"
+      },
+      {
+        "id": "s3",
+        "text": "Read off $PT = x_2 - x_1$ and $QT = y_2 - y_1$"
+      },
+      {
+        "id": "s2",
+        "text": "Draw $PT$ perpendicular to $QS$ to form the right triangle $PTQ$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "For points $P(x_1, y_1)$ and $Q(x_2, y_2)$, select **all** the correct statements.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/dist-symbolic.svg",
+      "alt": "Right triangle with legs labelled x2-x1 and y2-y1"
+    },
+    "hint": "Squares make the order of subtraction irrelevant; but the two squares are added.",
+    "explanation": "Because $(x_1-x_2)^2=(x_2-x_1)^2$, both orders work (a and b). With $P=(0,0)$ it becomes $\\sqrt{x_2^2+y_2^2}$ (f). Adding the coordinates, adding the legs without squaring, or subtracting the squares are common errors.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$PQ=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$"
+      },
+      {
+        "id": "b",
+        "text": "$PQ=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$"
+      },
+      {
+        "id": "c",
+        "text": "$PQ=\\sqrt{(x_2+x_1)^2+(y_2+y_1)^2}$"
+      },
+      {
+        "id": "d",
+        "text": "$PQ=(x_2-x_1)+(y_2-y_1)$"
+      },
+      {
+        "id": "e",
+        "text": "$PQ=\\sqrt{(x_2-x_1)^2-(y_2-y_1)^2}$"
+      },
+      {
+        "id": "f",
+        "text": "If $P$ is the origin, then $PQ=\\sqrt{x_2^2+y_2^2}$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "f"
+    ]
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Formulas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each description with its formula.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/formula-cards.svg",
+      "alt": "A segment with its mid-point and another dividing point"
+    },
+    "hint": "Put $k=\\dfrac{m_1}{m_2}$ and the section formula turns into the $k:1$ form.",
+    "explanation": "These are the four results in the chapter summary. The $k:1$ form comes from dividing numerator and denominator of the section formula by $m_2$ and writing $k=m_1/m_2$. Note that $m_1$ multiplies the **second** point.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "Distance between $P(x_1,y_1)$ and $Q(x_2,y_2)$"
+      },
+      {
+        "id": "l2",
+        "text": "Distance of $P(x,y)$ from the origin"
+      },
+      {
+        "id": "l3",
+        "text": "Mid-point of $PQ$"
+      },
+      {
+        "id": "l4",
+        "text": "x-coordinate of the point dividing $PQ$ internally in $m_1 : m_2$"
+      },
+      {
+        "id": "l5",
+        "text": "x-coordinate of the point dividing $PQ$ internally in $k : 1$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\sqrt{x^2+y^2}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\left(\\dfrac{x_1+x_2}{2},\\dfrac{y_1+y_2}{2}\\right)$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{m_1x_2+m_2x_1}{m_1+m_2}$"
+      },
+      {
+        "id": "r5",
+        "text": "$\\dfrac{kx_2+x_1}{k+1}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    }
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/neg-distance.svg",
+      "alt": "The point (-3,-4) and the origin joined by a segment"
+    },
+    "hint": "What does the square root in the distance formula always give?",
+    "explanation": "Assertion is **false**: $\\sqrt{(-3)^2+(-4)^2}=\\sqrt{25}=5$, and we take only the positive root. The reason is true (distance is non-negative), and it is exactly why $-5$ is impossible, but it makes A false rather than supporting it.",
+    "assertion": "The distance of the point $(-3,-4)$ from the origin is $-5$ units.",
+    "reason": "The distance between two points is never negative.",
+    "answer": "d"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of points with the distance between them.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/five-segments.svg",
+      "alt": "Five segments drawn on a grid"
+    },
+    "hint": "Look for the 3-4-5, 5-12-13 and 6-8-10 patterns.",
+    "explanation": "Each pair gives a Pythagorean triple: $(3,4)\\to5$; a vertical segment of length $8-2=6$; $(5,12)\\to13$; $(6,8)\\to10$; $(9,12)\\to15$. Hidden in the arithmetic are triples you already know.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "$(0, 0)$ and $(3, 4)$"
+      },
+      {
+        "id": "l2",
+        "text": "$(-4, 2)$ and $(-4, 8)$"
+      },
+      {
+        "id": "l3",
+        "text": "$(1, -3)$ and $(6, 9)$"
+      },
+      {
+        "id": "l4",
+        "text": "$(-7, -2)$ and $(-1, 6)$"
+      },
+      {
+        "id": "l5",
+        "text": "$(-4, -3)$ and $(5, 9)$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "5 units"
+      },
+      {
+        "id": "r2",
+        "text": "6 units"
+      },
+      {
+        "id": "r3",
+        "text": "13 units"
+      },
+      {
+        "id": "r4",
+        "text": "10 units"
+      },
+      {
+        "id": "r5",
+        "text": "15 units"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    }
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the points in order of their distance from the origin, **nearest first**.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/origin-distances.svg",
+      "alt": "Five points plotted around the origin"
+    },
+    "hint": "Compare $x^2+y^2$; you do not need the square roots.",
+    "explanation": "Use $x^2+y^2$ for each point: $(0,-2)\\to4$, $(-2,-2)\\to8$, $(3,-1)\\to10$, $(-3,-3)\\to18$, $(-4,3)\\to25$. A larger value means a larger distance, so this order is nearest to farthest. The point with the biggest coordinate is not always farthest.",
+    "items": [
+      {
+        "id": "o4",
+        "text": "$(-4, 3)$"
+      },
+      {
+        "id": "o0",
+        "text": "$(0, -2)$"
+      },
+      {
+        "id": "o3",
+        "text": "$(-3, -3)$"
+      },
+      {
+        "id": "o1",
+        "text": "$(-2, -2)$"
+      },
+      {
+        "id": "o2",
+        "text": "$(3, -1)$"
+      }
+    ],
+    "answer": [
+      "o0",
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Nearest",
+    "endLabel": "Farthest"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The points $A(2,1)$, $B(5,5)$ and $C(-2,4)$ are joined. What kind of triangle is $ABC$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/tri-classify.svg",
+      "alt": "Triangle with vertices A, B and C plotted on a grid"
+    },
+    "hint": "Find all three sides, then test the Pythagoras relation.",
+    "explanation": "$AB=\\sqrt{9+16}=5$, $AC=\\sqrt{16+9}=5$, $BC=\\sqrt{49+1}=\\sqrt{50}$. Two sides are equal (isosceles) and $AB^2+AC^2=25+25=50=BC^2$, so by the converse of Pythagoras $\\angle A=90^\\circ$. The right angle is at the vertex **opposite** the longest side.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Equilateral"
+      },
+      {
+        "id": "b",
+        "text": "Scalene and right-angled at $B$"
+      },
+      {
+        "id": "c",
+        "text": "Isosceles and right-angled at $A$"
+      },
+      {
+        "id": "d",
+        "text": "Isosceles but not right-angled"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In a classroom three friends sit at desks $A(2,1)$, $B(5,4)$ and $C(9,8)$. Are they sitting in a straight line?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/desks.svg",
+      "alt": "A classroom grid with three highlighted desks"
+    },
+    "hint": "Three points are collinear when the two shorter distances add up to the longest.",
+    "explanation": "$AB=\\sqrt{9+9}=3\\sqrt2$, $BC=\\sqrt{16+16}=4\\sqrt2$, $AC=\\sqrt{49+49}=7\\sqrt2$. Since $AB+BC=AC$, the desks are in a line. Equal distances are **not** needed, and $AB^2+BC^2=AC^2$ is the test for a **right angle**, not for collinearity.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, because $AB+BC=AC$ ($3\\sqrt2+4\\sqrt2=7\\sqrt2$)"
+      },
+      {
+        "id": "b",
+        "text": "No, because $AB \\ne BC$"
+      },
+      {
+        "id": "c",
+        "text": "No, because $AB^2+BC^2 \\ne AC^2$"
+      },
+      {
+        "id": "d",
+        "text": "Yes, because all three desks are in the first quadrant"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Three points $A$, $B$, $C$ are given. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/collinear-vs-triangle.svg",
+      "alt": "Three collinear points beside the vertices of a triangle"
+    },
+    "hint": "Think about what happens to the triangle inequality when the points are in a line.",
+    "explanation": "A triangle needs every pair of sides to add to **more** than the third; when two sides add to exactly the third, the triangle is flat (collinear). $AB=BC=CA$ gives an equilateral triangle, and $AB^2+BC^2=AC^2$ gives a **right** triangle; neither is collinear.",
+    "options": [
+      {
+        "id": "a",
+        "text": "If the two shorter distances add up to the longest, the points are collinear"
+      },
+      {
+        "id": "b",
+        "text": "If $AB=BC=CA$, the points are collinear"
+      },
+      {
+        "id": "c",
+        "text": "If the sum of any two of the distances is greater than the third, the points form a triangle"
+      },
+      {
+        "id": "d",
+        "text": "If $AB^2+BC^2=AC^2$, the points are collinear"
+      },
+      {
+        "id": "e",
+        "text": "Three collinear points can never be the vertices of a triangle"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ]
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/collinear-ar.svg",
+      "alt": "Three points on one straight line"
+    },
+    "hint": "Compute the three distances in surd form.",
+    "explanation": "$AB=\\sqrt{9+9}=3\\sqrt2$, $BC=\\sqrt{9+9}=3\\sqrt2$, $AC=\\sqrt{36+36}=6\\sqrt2$. So $AB+BC=AC$, which is exactly the condition for collinearity, so R explains A.",
+    "assertion": "The points $A(-1,-2)$, $B(2,1)$ and $C(5,4)$ are collinear.",
+    "reason": "$AB+BC=AC$.",
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The vertices of a quadrilateral, in order, are $A(2,0)$, $B(5,4)$, $C(1,7)$ and $D(-2,3)$. What is $ABCD$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/quad-square.svg",
+      "alt": "Quadrilateral ABCD on a grid with its diagonals dashed"
+    },
+    "hint": "Find all four sides, then both diagonals.",
+    "explanation": "$AB=BC=CD=DA=\\sqrt{25}=5$, so it is a rhombus. The diagonals are $AC=\\sqrt{1+49}=\\sqrt{50}$ and $BD=\\sqrt{49+1}=\\sqrt{50}$, which are **equal**, so it is also a rectangle. Equal sides **and** equal diagonals make it a square. Checking only the sides would stop at \"rhombus\".",
+    "options": [
+      {
+        "id": "a",
+        "text": "A rhombus that is not a square"
+      },
+      {
+        "id": "b",
+        "text": "A rectangle that is not a square"
+      },
+      {
+        "id": "c",
+        "text": "A parallelogram that is neither a rectangle nor a rhombus"
+      },
+      {
+        "id": "d",
+        "text": "A square"
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Applications",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "Using the distance formula, which of these sets of facts **prove** that quadrilateral $ABCD$ is a square? Select all that do.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/square-tests.svg",
+      "alt": "A square with tick marks on its sides and dashed diagonals"
+    },
+    "hint": "A square is a rhombus and a rectangle at the same time.",
+    "explanation": "A square needs equal sides (rhombus) **and** a right angle or equal diagonals (rectangle). Equal sides alone give any rhombus; equal diagonals alone do not even guarantee a parallelogram; opposite sides equal plus equal diagonals give a rectangle; equal sides with unequal diagonals give a non-square rhombus.",
+    "options": [
+      {
+        "id": "a",
+        "text": "All four sides are equal and both diagonals are equal"
+      },
+      {
+        "id": "b",
+        "text": "All four sides are equal and one angle is $90^\\circ$ (checked using $AD^2+DC^2=AC^2$)"
+      },
+      {
+        "id": "c",
+        "text": "All four sides are equal"
+      },
+      {
+        "id": "d",
+        "text": "Both diagonals are equal"
+      },
+      {
+        "id": "e",
+        "text": "Opposite sides are equal and both diagonals are equal"
+      },
+      {
+        "id": "f",
+        "text": "All four sides are equal but the two diagonals have different lengths"
+      }
+    ],
+    "answers": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A point $P(x, y)$ is equidistant from $A(6, 1)$ and $B(2, 5)$. Which relation between $x$ and $y$ holds?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/equidistant-relation.svg",
+      "alt": "Point P joined by equal dashed lines to A and B"
+    },
+    "hint": "Put $PA^2 = PB^2$ and the $x^2$ and $y^2$ terms cancel.",
+    "explanation": "$(x-6)^2+(y-1)^2=(x-2)^2+(y-5)^2 \\Rightarrow -12x-2y+37=-4x-10y+29 \\Rightarrow -8x+8y=-8$, i.e. $x-y=1$. The equation $x+y=7$ is the line **through** $A$ and $B$, not their perpendicular bisector; $x-y=-1$ is a sign slip; $x-y=5$ is the line through $A$ parallel to the bisector.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$x + y = 7$"
+      },
+      {
+        "id": "b",
+        "text": "$x - y = 1$"
+      },
+      {
+        "id": "c",
+        "text": "$x - y = -1$"
+      },
+      {
+        "id": "d",
+        "text": "$x - y = 5$"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which graph shows **all** the points that are equidistant from $A(-3,-2)$ and $B(5,2)$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/locus-question.svg",
+      "alt": "Point P joined to A and B with equal dashed lines"
+    },
+    "hint": "The set of points equidistant from A and B is the perpendicular bisector of AB.",
+    "explanation": "The points equidistant from $A$ and $B$ form the **perpendicular bisector** of $AB$: it passes through the mid-point $(1,0)$ and is perpendicular to $AB$ (which has direction $(2,1)$, so the bisector has direction $(-1,2)$). A line through the mid-point with the wrong tilt, the line $AB$ itself, or a perpendicular through only $A$ are the tempting errors.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-coordinate/bis-slope.svg",
+          "alt": "Graph A"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-coordinate/bis-ab.svg",
+          "alt": "Graph B"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-coordinate/bis-good.svg",
+          "alt": "Graph C"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-coordinate/bis-atA.svg",
+          "alt": "Graph D"
+        }
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these points are **equidistant** from $A(5,2)$ and $B(1,6)$? Select all.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/equidistant-candidates.svg",
+      "alt": "Segment AB and five labelled candidate points"
+    },
+    "hint": "Compare $PA^2$ and $PB^2$ for each point.",
+    "explanation": "Squared distances: $(2,3)$: $18$ and $18$; $(3,3)$: $5$ and $13$; $(4,5)$: $10$ and $10$; $(3,5)$: $13$ and $5$; $(6,7)$: $26$ and $26$. The three equal pairs lie on the line $y=x+1$, the perpendicular bisector of $AB$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2, 3)$"
+      },
+      {
+        "id": "b",
+        "text": "$(3, 3)$"
+      },
+      {
+        "id": "c",
+        "text": "$(4, 5)$"
+      },
+      {
+        "id": "d",
+        "text": "$(3, 5)$"
+      },
+      {
+        "id": "e",
+        "text": "$(6, 7)$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ]
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Four lines are drawn. Tap the line made of **all points equidistant from $A$ and $B$**.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/bisector-lines.svg",
+      "alt": "Segment AB with mid-point M and four differently coloured lines"
+    },
+    "hint": "It must pass through the mid-point **and** be perpendicular to AB.",
+    "explanation": "The locus of points equidistant from $A$ and $B$ is the **perpendicular bisector**: it goes through $M(0,1)$ and is perpendicular to $AB$ (slope of $AB$ is $-\\tfrac12$, so the bisector has slope 2). The other lines either miss $M$ or are not perpendicular.",
+    "spots": [
+      {
+        "id": "bis",
+        "x": 44.9,
+        "y": 69.6,
+        "label": "Perpendicular bisector of AB (through M, at right angles to AB)"
+      },
+      {
+        "id": "ab",
+        "x": 59.8,
+        "y": 55.4,
+        "label": "Line AB itself"
+      },
+      {
+        "id": "tilt",
+        "x": 69.1,
+        "y": 18.6,
+        "label": "Line through M that is not perpendicular to AB"
+      },
+      {
+        "id": "atA",
+        "x": 40.6,
+        "y": 12.9,
+        "label": "Perpendicular to AB through A only"
+      },
+      {
+        "id": "mid",
+        "x": 50.0,
+        "y": 44.8,
+        "label": "The mid-point M"
+      }
+    ],
+    "answer": "bis"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The distance between $P(-2, 1)$ and $Q(6, y)$ is $10$ units. Find $y$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/y-values.svg",
+      "alt": "A fixed point P and a point Q on the vertical line x=6"
+    },
+    "hint": "Squaring gives $(y-1)^2 = 36$; remember both roots.",
+    "explanation": "$(6+2)^2+(y-1)^2=100 \\Rightarrow (y-1)^2=36 \\Rightarrow y-1=\\pm6$, so $y=7$ or $y=-5$. Writing $(y+1)^2$ gives $5$ or $-7$ (sign slip), dropping the $y_1$ gives $\\pm6$, and keeping only the positive root loses one valid point.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$y = 7$ only"
+      },
+      {
+        "id": "b",
+        "text": "$y = 5$ or $y = -7$"
+      },
+      {
+        "id": "c",
+        "text": "$y = 6$ or $y = -6$"
+      },
+      {
+        "id": "d",
+        "text": "$y = 7$ or $y = -5$"
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Applications",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the alternative method to show that $ABCD$ is a **square**.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/square-proof.svg",
+      "alt": "A quadrilateral with a diagonal drawn"
+    },
+    "hint": "The right-angle test needs the diagonal, and the conclusion comes last.",
+    "explanation": "First set up the vertices, then use the distance formula for the four sides (all equal gives a rhombus). Then the diagonal $AC$ lets you test $AD^2+DC^2=AC^2$ (converse of Pythagoras) to get a right angle. A rhombus with a right angle is a square.",
+    "items": [
+      {
+        "id": "t3",
+        "text": "Find the diagonal $AC$"
+      },
+      {
+        "id": "t1",
+        "text": "Write the vertices in order and plot $A, B, C, D$"
+      },
+      {
+        "id": "t2",
+        "text": "Find $AB, BC, CD, DA$ and show they are all equal"
+      },
+      {
+        "id": "t5",
+        "text": "Conclude: a rhombus with one right angle is a square"
+      },
+      {
+        "id": "t4",
+        "text": "Show $AD^2 + DC^2 = AC^2$, so $\\angle D = 90^\\circ$"
+      }
+    ],
+    "answer": [
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "t5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A relay tower is to be placed at $P$ on the straight line from $A(0,0)$ to $B(35, 20)$ so that $AP : PB = 2 : 3$ (units in km). Find the coordinates of $P$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/tower-section.svg",
+      "alt": "A line from A to B with a tower marked between them"
+    },
+    "hint": "The section formula divides by $m_1+m_2$; $m_1$ multiplies the **second** point.",
+    "explanation": "$x=\\dfrac{2\\cdot35+3\\cdot0}{2+3}=14$, $y=\\dfrac{2\\cdot20+3\\cdot0}{5}=8$. Swapping the ratio gives $(21,12)$, using the mid-point gives $(17.5,10)$ and forgetting to divide by $5$ gives $(70,40)$, which is not even on the segment.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$(14, 8)$"
+      },
+      {
+        "id": "b",
+        "text": "$(21, 12)$"
+      },
+      {
+        "id": "c",
+        "text": "$(\\dfrac{35}{2}, 10)$"
+      },
+      {
+        "id": "d",
+        "text": "$(70, 40)$"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **mid-point** of $AB$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/section-points.svg",
+      "alt": "Segment AB with four marked points"
+    },
+    "hint": "It is equally far from A and from B.",
+    "explanation": "The mid-point divides $AB$ in the ratio $1:1$. With $A(-4,-2)$ and $B(8,6)$ it is $\\left(\\dfrac{-4+8}{2},\\dfrac{-2+6}{2}\\right)=(2,2)$, which is point $Q$. $S$ is not even on the segment.",
+    "spots": [
+      {
+        "id": "p",
+        "x": 38.5,
+        "y": 62.5,
+        "label": "Point P (divides AB in 1:3)"
+      },
+      {
+        "id": "q",
+        "x": 51.2,
+        "y": 48.3,
+        "label": "Point Q (mid-point of AB)"
+      },
+      {
+        "id": "r",
+        "x": 64.0,
+        "y": 34.2,
+        "label": "Point R (divides AB in 3:1)"
+      },
+      {
+        "id": "s",
+        "x": 42.8,
+        "y": 27.1,
+        "label": "Point S (not on AB)"
+      }
+    ],
+    "answer": "q"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the point that divides $AB$ internally in the ratio $AX : XB = 3 : 1$ (so it is **nearer to $B$**).",
+    "image": {
+      "src": "/img/c10-ma-coordinate/section-points.svg",
+      "alt": "Segment AB with four marked points"
+    },
+    "hint": "A ratio of 3 : 1 means the point is three quarters of the way from A to B.",
+    "explanation": "With $m_1:m_2=3:1$: $x=\\dfrac{3(8)+1(-4)}{4}=5$ and $y=\\dfrac{3(6)+1(-2)}{4}=4$, so the point is $R(5,4)$. $P(-1,0)$ is the $1:3$ point, nearer to $A$.",
+    "spots": [
+      {
+        "id": "p",
+        "x": 38.5,
+        "y": 62.5,
+        "label": "Point P (divides AB in 1:3)"
+      },
+      {
+        "id": "q",
+        "x": 51.2,
+        "y": 48.3,
+        "label": "Point Q (mid-point of AB)"
+      },
+      {
+        "id": "r",
+        "x": 64.0,
+        "y": 34.2,
+        "label": "Point R (divides AB in 3:1)"
+      },
+      {
+        "id": "s",
+        "x": 42.8,
+        "y": 27.1,
+        "label": "Point S (not on AB)"
+      }
+    ],
+    "answer": "r"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Mid-point",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture marks the **mid-point** $M$ of the segment joining $A(-2,1)$ and $B(4,5)$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/mid-question.svg",
+      "alt": "Segment AB on a coordinate grid"
+    },
+    "hint": "Average the x-coordinates and average the y-coordinates.",
+    "explanation": "$M=\\left(\\dfrac{-2+4}{2},\\dfrac{1+5}{2}\\right)=(1,3)$. Adding without halving gives $(2,6)$; halving the **difference** gives $(3,2)$; averaging only the x-coordinates correctly and slipping on y gives $(1,6)$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-coordinate/mid-sum.svg",
+          "alt": "Graph A"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-coordinate/mid-half-diff.svg",
+          "alt": "Graph B"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-coordinate/mid-good.svg",
+          "alt": "Graph C"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-coordinate/mid-ywrong.svg",
+          "alt": "Graph D"
+        }
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Mid-point",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/mid-ar.svg",
+      "alt": "A segment with its mid-point marked"
+    },
+    "hint": "Apply the formula in R to the numbers in A.",
+    "explanation": "Using R: $\\left(\\dfrac{-2+6}{2},\\dfrac{4-8}{2}\\right)=(2,-2)$. So A is true, R is true, and R is exactly the rule that gives A.",
+    "assertion": "The mid-point of the segment joining $(-2, 4)$ and $(6, -8)$ is $(2, -2)$.",
+    "reason": "The mid-point of the segment joining $(x_1,y_1)$ and $(x_2,y_2)$ is $\\left(\\dfrac{x_1+x_2}{2},\\dfrac{y_1+y_2}{2}\\right)$.",
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Mid-point",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of end points with the **mid-point** of the segment joining them.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/four-midpoints.svg",
+      "alt": "Four segments with red mid-point dots"
+    },
+    "hint": "Add the two x-values and halve; do the same for y.",
+    "explanation": "Mid-point $=\\left(\\dfrac{x_1+x_2}{2},\\dfrac{y_1+y_2}{2}\\right)$: $(4,7)$, $(-1,2)$, $(4,-2)$ and $(-3,-5)$. Watch the signs when a coordinate is negative: $\\dfrac{-5+(-1)}{2}=-3$.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "$(2, 4)$ and $(6, 10)$"
+      },
+      {
+        "id": "l2",
+        "text": "$(-3, 5)$ and $(1, -1)$"
+      },
+      {
+        "id": "l3",
+        "text": "$(0, -6)$ and $(8, 2)$"
+      },
+      {
+        "id": "l4",
+        "text": "$(-5, -3)$ and $(-1, -7)$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$(4, 7)$"
+      },
+      {
+        "id": "r2",
+        "text": "$(-1, 2)$"
+      },
+      {
+        "id": "r3",
+        "text": "$(4, -2)$"
+      },
+      {
+        "id": "r4",
+        "text": "$(-3, -5)$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    }
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find the coordinates of the point $P$ that divides the segment joining $A(-2,5)$ and $B(10,-7)$ internally in the ratio $AP : PB = 1 : 3$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/section-1-3.svg",
+      "alt": "Segment AB with equally spaced marks"
+    },
+    "hint": "P is one quarter of the way from A towards B.",
+    "explanation": "$x=\\dfrac{1(10)+3(-2)}{1+3}=1$, $y=\\dfrac{1(-7)+3(5)}{4}=2$, so $P=(1,2)$. Reversing the ratio gives $(7,-4)$ (three quarters of the way); the mid-point gives $(4,-1)$; skipping the division by 4 gives $(4,8)$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$(7, -4)$"
+      },
+      {
+        "id": "b",
+        "text": "$(1, 2)$"
+      },
+      {
+        "id": "c",
+        "text": "$(4, -1)$"
+      },
+      {
+        "id": "d",
+        "text": "$(4, 8)$"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "The point $P$ lies on the segment joining $A(2,-1)$ and $B(14,11)$. Match each ratio $AP:PB$ with the coordinates of $P$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/ratio-points.svg",
+      "alt": "Segment AB with five marked points"
+    },
+    "hint": "The point moves from A to B as the first number in the ratio grows.",
+    "explanation": "Use $\\left(\\dfrac{m_1x_2+m_2x_1}{m_1+m_2},\\dfrac{m_1y_2+m_2y_1}{m_1+m_2}\\right)$: $1:1\\to(8,5)$, $1:2\\to(6,3)$, $1:3\\to(5,2)$, $2:1\\to(10,7)$, $3:1\\to(11,8)$. The larger $m_1$ is, the closer P is to $B$.",
+    "left": [
+      {
+        "id": "l1",
+        "text": "$AP:PB = 1:1$"
+      },
+      {
+        "id": "l2",
+        "text": "$AP:PB = 1:2$"
+      },
+      {
+        "id": "l3",
+        "text": "$AP:PB = 1:3$"
+      },
+      {
+        "id": "l4",
+        "text": "$AP:PB = 2:1$"
+      },
+      {
+        "id": "l5",
+        "text": "$AP:PB = 3:1$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$(8, 5)$"
+      },
+      {
+        "id": "r2",
+        "text": "$(6, 3)$"
+      },
+      {
+        "id": "r3",
+        "text": "$(5, 2)$"
+      },
+      {
+        "id": "r4",
+        "text": "$(10, 7)$"
+      },
+      {
+        "id": "r5",
+        "text": "$(11, 8)$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    }
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The point $P(x,y)$ divides the segment joining $A(x_1,y_1)$ and $B(x_2,y_2)$ **internally** in the ratio $m_1 : m_2$. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/section-props.svg",
+      "alt": "A segment AB with P in between and the parts labelled m1 and m2"
+    },
+    "hint": "Which end point does $m_1$ multiply in the formula?",
+    "explanation": "Internal division puts $P$ between $A$ and $B$ with $PA:PB=m_1:m_2$; equal parts give the mid-point; and with $k=m_1/m_2$ the formula becomes $\\dfrac{ky_2+y_1}{k+1}$. But $m_1$ multiplies the **second** point ($x_2$), so statement D is wrong, and $x$ always lies between $x_1$ and $x_2$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$P$ lies on the segment $AB$, between $A$ and $B$"
+      },
+      {
+        "id": "b",
+        "text": "$PA : PB = m_1 : m_2$"
+      },
+      {
+        "id": "c",
+        "text": "If $m_1 = m_2$, then $P$ is the mid-point of $AB$"
+      },
+      {
+        "id": "d",
+        "text": "$x = \\dfrac{m_1x_1+m_2x_2}{m_1+m_2}$"
+      },
+      {
+        "id": "e",
+        "text": "$x$ can be smaller than both $x_1$ and $x_2$"
+      },
+      {
+        "id": "f",
+        "text": "In the ratio $k:1$, $y=\\dfrac{ky_2+y_1}{k+1}$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "f"
+    ]
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The point $P(0, 1)$ lies on the segment joining $A(-3, 4)$ and $B(6, -5)$. In what ratio does $P$ divide $AB$? (Give $AP : PB$.)",
+    "image": {
+      "src": "/img/c10-ma-coordinate/find-ratio.svg",
+      "alt": "Segment AB with the point P between A and B"
+    },
+    "hint": "Let the ratio be $k:1$ and use the x-coordinate (it has the simplest numbers).",
+    "explanation": "With ratio $k:1$: $0=\\dfrac{6k-3}{k+1}\\Rightarrow k=\\dfrac12$, so $AP:PB=1:2$. Check with y: $\\dfrac{-5(1/2)+4}{3/2}=1$. The ratio $2:1$ is the reverse; $1:3$ confuses \"part to whole\" ($AP:AB$) with \"part to part\".",
+    "options": [
+      {
+        "id": "a",
+        "text": "$2 : 1$"
+      },
+      {
+        "id": "b",
+        "text": "$1 : 3$"
+      },
+      {
+        "id": "c",
+        "text": "$1 : 2$"
+      },
+      {
+        "id": "d",
+        "text": "$3 : 2$"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The points $P$ and $Q$ trisect the segment joining $A(-6, 3)$ and $B(6, -9)$, so $AP = PQ = QB$. Which picture shows $P$ and $Q$?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/trisect-question.svg",
+      "alt": "Segment AB between A(-6,3) and B(6,-9)"
+    },
+    "hint": "Trisection means three equal parts, so the points are $\\tfrac13$ and $\\tfrac23$ of the way along.",
+    "explanation": "$P$ divides $AB$ in $1:2$, giving $(-2,-1)$, and $Q$ divides it in $2:1$, giving $(2,-5)$. They sit one third and two thirds of the way from $A$. The \"quarter\" pictures show division into **four** parts, and only one trisection point is placed correctly in the mixed picture.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph A",
+        "image": {
+          "src": "/img/c10-ma-coordinate/tri-good.svg",
+          "alt": "Graph A"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph B",
+        "image": {
+          "src": "/img/c10-ma-coordinate/tri-quarters.svg",
+          "alt": "Graph B"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph C",
+        "image": {
+          "src": "/img/c10-ma-coordinate/tri-three.svg",
+          "alt": "Graph C"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph D",
+        "image": {
+          "src": "/img/c10-ma-coordinate/tri-mixed.svg",
+          "alt": "Graph D"
+        }
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "On the segment joining $A(-3,2)$ and $B(4,-5)$, a point $P$ is such that $AP = \\dfrac27 AB$. Find the coordinates of $P$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/seven-parts.svg",
+      "alt": "Segment AB divided into seven equal parts"
+    },
+    "hint": "If $AP$ is $\\tfrac27$ of $AB$, how much of $AB$ is left for $PB$?",
+    "explanation": "Since $AP=\\tfrac27AB$, we get $PB=\\tfrac57AB$, so $AP:PB=2:5$ (not $2:7$). Then $x=\\dfrac{2(4)+5(-3)}{7}=-1$, $y=\\dfrac{2(-5)+5(2)}{7}=0$, so $P=(-1,0)$. Using $2:7$ gives $\\left(-\\tfrac{13}{9},\\tfrac49\\right)$, reversing gives $(2,-3)$, and the mid-point is $\\left(\\tfrac12,-\\tfrac32\\right)$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2, -3)$"
+      },
+      {
+        "id": "b",
+        "text": "$(-1, 0)$"
+      },
+      {
+        "id": "c",
+        "text": "$(-\\dfrac{13}{9}, \\dfrac{4}{9})$"
+      },
+      {
+        "id": "d",
+        "text": "$(\\dfrac{1}{2}, -\\dfrac{3}{2})$"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In what ratio does the **y-axis** divide the segment joining $A(4,-3)$ and $B(-2,5)$? (Give $AP : PB$.)",
+    "image": {
+      "src": "/img/c10-ma-coordinate/yaxis-ratio.svg",
+      "alt": "A segment that crosses the y-axis"
+    },
+    "hint": "On the y-axis the abscissa is 0. Use the ratio $k : 1$.",
+    "explanation": "Let the ratio be $k:1$. The abscissa is $\\dfrac{-2k+4}{k+1}=0$, so $k=2$ and the ratio is $2:1$. The intersection point is $\\left(0,\\dfrac{2(5)+1(-3)}{3}\\right)=\\left(0,\\dfrac73\\right)$. The ratio of the ordinates $3:5$ (or $5:3$) is not the answer.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$1 : 2$"
+      },
+      {
+        "id": "b",
+        "text": "$3 : 5$"
+      },
+      {
+        "id": "c",
+        "text": "$5 : 3$"
+      },
+      {
+        "id": "d",
+        "text": "$2 : 1$"
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to find the ratio in which the **y-axis** divides a segment $AB$, and the point where it meets it.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/yaxis-steps.svg",
+      "alt": "A segment crossing the y-axis"
+    },
+    "hint": "You cannot set the abscissa to zero until you have an expression for it.",
+    "explanation": "Assume $k:1$, write the point $\\left(\\dfrac{kx_2+x_1}{k+1},\\dfrac{ky_2+y_1}{k+1}\\right)$, use the fact that the abscissa of any point on the y-axis is $0$, solve for $k$, and finally put $k$ in the ordinate. (For the x-axis, set the **ordinate** to 0 instead.)",
+    "items": [
+      {
+        "id": "u1",
+        "text": "Let the required ratio be $k : 1$"
+      },
+      {
+        "id": "u2",
+        "text": "Write the dividing point using the section formula"
+      },
+      {
+        "id": "u4",
+        "text": "Solve the equation for $k$"
+      },
+      {
+        "id": "u3",
+        "text": "Put the abscissa equal to $0$, since the point is on the y-axis"
+      },
+      {
+        "id": "u5",
+        "text": "Substitute $k$ to get the ordinate of the point of intersection"
+      }
+    ],
+    "answer": [
+      "u1",
+      "u2",
+      "u3",
+      "u4",
+      "u5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/xaxis-ratio.svg",
+      "alt": "A segment crossing the x-axis"
+    },
+    "hint": "On the x-axis it is the ordinate that equals 0.",
+    "explanation": "A is true: with ratio $k:1$, $\\dfrac{-9k+3}{k+1}=0\\Rightarrow k=\\tfrac13$, i.e. $1:3$ (the ratio of the ordinates $3:9$). R is false: the x-axis uses the ratio of the **ordinates**; here the abscissas give $6:2=3:1$, which would be the wrong answer.",
+    "assertion": "The x-axis divides the segment joining $A(6,3)$ and $B(2,-9)$ in the ratio $1:3$.",
+    "reason": "The x-axis always divides a segment in the same ratio as the ratio of the abscissas of its end points.",
+    "answer": "c"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "$A(1,2)$, $B(5,3)$, $C(7,6)$ and $D(p,5)$ are the vertices of a parallelogram, taken in order. Find $p$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/para-p.svg",
+      "alt": "A parallelogram with its two diagonals dashed"
+    },
+    "hint": "The diagonals $AC$ and $BD$ bisect each other.",
+    "explanation": "Mid-point of $AC=\\left(\\dfrac{1+7}{2},\\dfrac{2+6}{2}\\right)=(4,4)$; mid-point of $BD=\\left(\\dfrac{5+p}{2},4\\right)$. So $5+p=8$, $p=3$. Pairing the wrong vertices gives $-1$ (using $AB$ and $CD$) or $11$ (using $AD$ and $BC$), and $4$ comes from forgetting to subtract $5$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$3$"
+      },
+      {
+        "id": "b",
+        "text": "$-1$"
+      },
+      {
+        "id": "c",
+        "text": "$11$"
+      },
+      {
+        "id": "d",
+        "text": "$4$"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Applications",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to find an unknown vertex coordinate of a parallelogram.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/para-steps.svg",
+      "alt": "A parallelogram whose diagonals meet at a red point"
+    },
+    "hint": "The geometry fact comes first and the algebra last.",
+    "explanation": "The property that the diagonals bisect each other turns the geometry into algebra: the two mid-points are the same point. Equating them gives one equation per coordinate, which you solve for the unknown.",
+    "items": [
+      {
+        "id": "v3",
+        "text": "Equate the two mid-points"
+      },
+      {
+        "id": "v2",
+        "text": "Write the mid-points of $AC$ and $BD$ using the mid-point formula"
+      },
+      {
+        "id": "v4",
+        "text": "Compare the abscissas (or ordinates) to get an equation in the unknown"
+      },
+      {
+        "id": "v5",
+        "text": "Solve the equation for the unknown"
+      },
+      {
+        "id": "v1",
+        "text": "Recall that the diagonals of a parallelogram bisect each other"
+      }
+    ],
+    "answer": [
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Applications",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "In parallelogram $ABCD$, tap the point that is the **mid-point of both diagonals** $AC$ and $BD$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/para-hotspot.svg",
+      "alt": "Parallelogram ABCD with diagonals AC and BD"
+    },
+    "hint": "The diagonals of a parallelogram bisect each other.",
+    "explanation": "The diagonals bisect each other, so their common point is the mid-point of $AC$ and also of $BD$. Here both mid-points are $(4,\\tfrac52)$. The mid-points of the sides lie on the boundary, not inside.",
+    "spots": [
+      {
+        "id": "o",
+        "x": 48.1,
+        "y": 53.6,
+        "label": "Where the diagonals cross: the mid-point of both AC and BD"
+      },
+      {
+        "id": "mab",
+        "x": 41.7,
+        "y": 74.9,
+        "label": "Mid-point of side AB"
+      },
+      {
+        "id": "mcd",
+        "x": 54.4,
+        "y": 32.4,
+        "label": "Mid-point of side CD"
+      },
+      {
+        "id": "mbc",
+        "x": 67.2,
+        "y": 48.3,
+        "label": "Mid-point of side BC"
+      }
+    ],
+    "answer": "o"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Mid-point",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/mid-ar-b.svg",
+      "alt": "A segment with the point (3,3) on it"
+    },
+    "hint": "Being on the segment is not enough to be the mid-point.",
+    "explanation": "A is true: $\\left(\\dfrac{-2+8}{2},\\dfrac{1+5}{2}\\right)=(3,3)$. R is also true because the mid-point lies on the segment, but **every** point of the segment lies on it, so R does not explain why $(3,3)$ is the mid-point.",
+    "assertion": "The point $(3,3)$ is the mid-point of the segment joining $(-2,1)$ and $(8,5)$.",
+    "reason": "The point $(3,3)$ lies on the segment joining $(-2,1)$ and $(8,5)$.",
+    "answer": "b"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Applications",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In a rectangular school ground $ABCD$ with $AB$ along the x-axis and $AD = 16$ m along the y-axis, chalk lines parallel to $AD$ are drawn 1 m apart and numbered $1, 2, 3, \\dots$ from $AD$. Niharika runs $\\tfrac14$ of $AD$ along the **2nd** line and posts a green flag. Preet runs $\\tfrac34$ of $AD$ along the **8th** line and posts a red flag. How far apart are the flags?",
+    "image": {
+      "src": "/img/c10-ma-coordinate/ground-flags.svg",
+      "alt": "A rectangular ground with flower pots along AD and two flags"
+    },
+    "hint": "Turn each flag into a point $(\\text{line number},\\ \\text{distance run})$.",
+    "explanation": "The flags are at $(2,4)$ and $(8,12)$. Distance $=\\sqrt{(8-2)^2+(12-4)^2}=\\sqrt{36+64}=10$ m. Adding the legs ($6+8=14$), forgetting the root (100), or multiplying the legs (48) are the traps.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$14$ m"
+      },
+      {
+        "id": "b",
+        "text": "$100$ m"
+      },
+      {
+        "id": "c",
+        "text": "$10$ m"
+      },
+      {
+        "id": "d",
+        "text": "$48$ m"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Applications",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Rashmi must post a blue flag **exactly halfway** between the green and red flags. Tap where she should post it.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/ground-flags.svg",
+      "alt": "A school ground with a green flag and a red flag"
+    },
+    "hint": "Use the mid-point formula on the two flag positions.",
+    "explanation": "The flags are at $(2,4)$ and $(8,12)$, so the mid-point is $\\left(\\dfrac{2+8}{2},\\dfrac{4+12}{2}\\right)=(5,8)$: on the 5th line, 8 m from $AB$. The points $(2,12)$ and $(8,4)$ mix up the coordinates of the two flags.",
+    "spots": [
+      {
+        "id": "mid",
+        "x": 48.6,
+        "y": 47.9,
+        "label": "The mid-point of the two flags, (5, 8)"
+      },
+      {
+        "id": "mad",
+        "x": 31.6,
+        "y": 47.9,
+        "label": "The mid-point of AD, (0, 8)"
+      },
+      {
+        "id": "c1",
+        "x": 38.4,
+        "y": 29.2,
+        "label": "The point (2, 12): same line as the green flag, same distance as the red flag"
+      },
+      {
+        "id": "c2",
+        "x": 58.8,
+        "y": 66.7,
+        "label": "The point (8, 4): same line as the red flag, same distance as the green flag"
+      }
+    ],
+    "answer": "mid"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Section formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "$AB$ is a diameter of a circle whose centre is $C(-1, 3)$. If $B$ is $(4,-2)$, find the coordinates of $A$.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/diameter-end.svg",
+      "alt": "Circle with centre C, diameter AB and one end A unknown"
+    },
+    "hint": "The centre is the mid-point of the diameter.",
+    "explanation": "The centre is the mid-point of $AB$: $\\dfrac{x+4}{2}=-1$ and $\\dfrac{y-2}{2}=3$, so $A=(-6,8)$. The mid-point of $CB$, the sum $C+B$ and the difference $B-C$ all forget that $C$ is the mid-point of $AB$ itself.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$(\\dfrac{3}{2}, \\dfrac{1}{2})$"
+      },
+      {
+        "id": "b",
+        "text": "$(3, 1)$"
+      },
+      {
+        "id": "c",
+        "text": "$(5, -5)$"
+      },
+      {
+        "id": "d",
+        "text": "$(-6, 8)$"
+      }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The vertices of a rhombus, taken in order, are $A(4,4)$, $B(0,2)$, $C(-2,-2)$ and $D(2,0)$. Using area $=\\tfrac12\\times$ (product of the diagonals), find its area.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/rhombus-area.svg",
+      "alt": "A rhombus with diagonals AC and BD"
+    },
+    "hint": "Find the two diagonals with the distance formula and simplify the surds.",
+    "explanation": "$AC=\\sqrt{36+36}=6\\sqrt2$ and $BD=\\sqrt{4+4}=2\\sqrt2$. Area $=\\tfrac12(6\\sqrt2)(2\\sqrt2)=\\tfrac12\\times24=12$. Forgetting the $\\tfrac12$ gives 24; squaring a side gives 20; adding the diagonals gives $8\\sqrt2$.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$24$ square units"
+      },
+      {
+        "id": "b",
+        "text": "$12$ square units"
+      },
+      {
+        "id": "c",
+        "text": "$20$ square units"
+      },
+      {
+        "id": "d",
+        "text": "$8\\sqrt2$ square units"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "in-cbse-10-math-coordinate-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "chapterNo": 7,
+    "topic": "Distance formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A circle passes through $O(0,0)$, $P(6,0)$ and $Q(0,8)$. Find the coordinates of its centre.",
+    "image": {
+      "src": "/img/c10-ma-coordinate/circumcentre.svg",
+      "alt": "A circle through the three vertices of a right triangle"
+    },
+    "hint": "The centre is equidistant from all three points; note the angle at $O$.",
+    "explanation": "The centre $(x,y)$ satisfies $x^2+y^2=(x-6)^2+y^2=x^2+(y-8)^2$, which gives $x=3$ and $y=4$. It is also the mid-point of $PQ$ because $\\angle POQ=90^\\circ$, and its distance from each point is 5. The point $(6,8)$ is on the circle, not at its centre, and $(4,3)$ swaps the coordinates.",
+    "options": [
+      {
+        "id": "a",
+        "text": "$(4, 3)$"
+      },
+      {
+        "id": "b",
+        "text": "$(6, 8)$"
+      },
+      {
+        "id": "c",
+        "text": "$(3, 4)$"
+      },
+      {
+        "id": "d",
+        "text": "$(3, 0)$"
+      }
+    ],
+    "answer": "c"
+  }
+]

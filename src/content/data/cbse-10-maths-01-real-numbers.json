@@ -1,0 +1,2273 @@
+[
+  {
+    "id": "in-cbse-10-math-real-numbers-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Euclid's division",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "When a positive integer $a$ is divided by a positive integer $b$ (for example $17 \\div 5$ in the picture), which statement describes the quotient $q$ and remainder $r$ exactly?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/euclid-17-5.svg",
+      "alt": "A bar of 17 units split into three blocks of 5 and a leftover piece of 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$a = bq + r$, where $0 \\le r \\le b$"
+      },
+      {
+        "id": "b",
+        "text": "$a = bq + r$, where $0 \\le r < b$"
+      },
+      {
+        "id": "c",
+        "text": "$a = bq - r$, where $0 < r < b$"
+      },
+      {
+        "id": "d",
+        "text": "$a = b + qr$, where $r$ is any whole number"
+      }
+    ],
+    "answer": "b",
+    "hint": "In the picture the leftover piece (2) must be shorter than one block (5).",
+    "explanation": "Euclid's division algorithm says: a positive integer $a$ divided by a positive integer $b$ leaves a remainder $r$ **smaller than $b$**, so $a = bq + r$ with $0 \\le r < b$. Here $17 = 5\\times3+2$. Allowing $r = b$ would mean another full block still fits, so the quotient would be wrong. The other two forms subtract the remainder or multiply it, which is not what division does."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Euclid's division",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A bar of 23 units is cut into blocks of 6 (the reference block is shown above). Tap the **remainder**, the piece that is left over.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/euclid-23-6.svg",
+      "alt": "A bar of 23 units with three blocks of 6, a shorter orange piece and a reference block b above"
+    },
+    "spots": [
+      {
+        "id": "div",
+        "x": 18.1,
+        "y": 20.4,
+        "label": "The divisor block b = 6"
+      },
+      {
+        "id": "quot",
+        "x": 39.4,
+        "y": 52.5,
+        "label": "The three blocks of 6 (quotient part)"
+      },
+      {
+        "id": "rem",
+        "x": 80.1,
+        "y": 52.5,
+        "label": "The remainder r = 5"
+      },
+      {
+        "id": "whole",
+        "x": 48.2,
+        "y": 77.5,
+        "label": "The whole length a = 23"
+      }
+    ],
+    "answer": "rem",
+    "hint": "The remainder is too short to make another full block of 6.",
+    "explanation": "$23 = 6\\times3+5$. Three full blocks of 6 use 18 units, leaving the shorter orange piece of $r = 5$ units. It is smaller than $b = 6$, as Euclid's division algorithm requires."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Fundamental Theorem of Arithmetic",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The tiles show $210 = 2\\times3\\times5\\times7$ written in three different orders. Which statement is the **Fundamental Theorem of Arithmetic**?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/fta-perms.svg",
+      "alt": "Prime tiles 2, 3, 5, 7 arranged in three orders, each giving 210"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Every natural number can be written as a product of primes in several different ways"
+      },
+      {
+        "id": "b",
+        "text": "Every composite number is a product of primes, but each different order gives a different factorisation"
+      },
+      {
+        "id": "c",
+        "text": "Every composite number is a product of distinct primes, each used only once"
+      },
+      {
+        "id": "d",
+        "text": "Every composite number can be written as a product of primes, and this factorisation is unique apart from the order of the primes"
+      }
+    ],
+    "answer": "d",
+    "hint": "Look at what stays the same in all three rows.",
+    "explanation": "The theorem has two parts: a composite number **can** be factorised into primes, and the factorisation is **unique** except for the order of the factors. The three rows show the same primes in different orders, so they count as one factorisation. Primes may repeat (for example $12 = 2\\times2\\times3$), so the last option is false."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Prime factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Using the factor tree, write $2475$ as a product of powers of primes.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/tree-2475.svg",
+      "alt": "Factor tree of 2475 with leaves 5, 5, 3, 3 and 11"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3^2\\times5^2\\times11$"
+      },
+      {
+        "id": "b",
+        "text": "$3\\times5\\times11$"
+      },
+      {
+        "id": "c",
+        "text": "$3^2\\times5\\times11$"
+      },
+      {
+        "id": "d",
+        "text": "$3^2\\times5^2\\times11^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Count how many times each prime appears among the green leaves.",
+    "explanation": "The leaves are $5,5,3,3,11$. Grouping equal primes: $2475 = 3^2\\times5^2\\times11$ (check: $9\\times25\\times11 = 2475$). Writing each prime once gives only 165, using one 5 gives 495, and squaring 11 gives $27225$. Every exponent must match how often the prime appears."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Prime factorisation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **composite number** in this tree that splits into the primes $2$ and $5$.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/tree-90.svg",
+      "alt": "Factor tree with 90 at the top, then 9 and 10, then 3, 3, 2 and 5"
+    },
+    "spots": [
+      {
+        "id": "r",
+        "x": 50.0,
+        "y": 15.0,
+        "label": "The top number 90"
+      },
+      {
+        "id": "r0",
+        "x": 28.7,
+        "y": 44.2,
+        "label": "9, which splits into 3 and 3"
+      },
+      {
+        "id": "r1",
+        "x": 71.2,
+        "y": 44.2,
+        "label": "10, which splits into 2 and 5"
+      },
+      {
+        "id": "r00",
+        "x": 18.1,
+        "y": 73.3,
+        "label": "The prime 3"
+      },
+      {
+        "id": "r10",
+        "x": 60.6,
+        "y": 73.3,
+        "label": "The prime 2"
+      },
+      {
+        "id": "r11",
+        "x": 81.9,
+        "y": 73.3,
+        "label": "The prime 5"
+      }
+    ],
+    "answer": "r1",
+    "hint": "Which number equals $2 \\times 5$?",
+    "explanation": "$2\\times5 = 10$, so the circle labelled 10 is the one that splits into 2 and 5. The tree gives $90 = 9\\times10 = 3\\times3\\times2\\times5 = 2\\times3^2\\times5$. The green circles are primes and cannot be split further."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Factor trees",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which picture is a **complete and correct** factor tree for $84$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tree 1",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/t84b.svg",
+          "alt": "Tree 84 to 12 and 7, then 12 to 4 and 3"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Tree 2",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/t84d.svg",
+          "alt": "Tree 84 to 4 and 21, then 4 to 2 and 2"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Tree 3",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/t84a.svg",
+          "alt": "Tree 84 to 4 and 21, then 4 to 2 and 2 and 21 to 3 and 7"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Tree 4",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/t84c.svg",
+          "alt": "Tree 84 to 12 and 7, then 12 to 2 and 5"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Check two things: every branch must multiply back to its parent, and every end circle must be prime.",
+    "explanation": "Tree 3 is correct: $84 = 4\\times21$, $4 = 2\\times2$, $21 = 3\\times7$, so $84 = 2^2\\times3\\times7$ and all ends are primes. Tree 1 stops at 4, which is composite. Tree 2 stops at 21, which is composite. Tree 4 has $2\\times5 = 10 \\ne 12$. Different correct trees always give the same primes, because the factorisation is unique."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Primes and composites",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **only even prime** number.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/cards.svg",
+      "alt": "Six number cards 1, 2, 4, 9, 15 and 21"
+    },
+    "spots": [
+      {
+        "id": "c1",
+        "x": 22.5,
+        "y": 29.2,
+        "label": "1: neither prime nor composite"
+      },
+      {
+        "id": "c2",
+        "x": 50.0,
+        "y": 29.2,
+        "label": "2: the only even prime"
+      },
+      {
+        "id": "c4",
+        "x": 77.5,
+        "y": 29.2,
+        "label": "4: an even composite number"
+      },
+      {
+        "id": "c9",
+        "x": 22.5,
+        "y": 70.8,
+        "label": "9: a composite number"
+      },
+      {
+        "id": "c15",
+        "x": 50.0,
+        "y": 70.8,
+        "label": "15: a composite number"
+      },
+      {
+        "id": "c21",
+        "x": 77.5,
+        "y": 70.8,
+        "label": "21: a composite number"
+      }
+    ],
+    "answer": "c2",
+    "hint": "A prime has exactly two factors. Which even number has only 1 and itself?",
+    "explanation": "$2$ has exactly two factors, $1$ and $2$, so it is prime. Every other even number, such as $4$, is divisible by 2 and by itself and also by 1, so it has at least three factors and is composite."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Primes and composites",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the number that is **neither prime nor composite**.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/cards.svg",
+      "alt": "Six number cards 1, 2, 4, 9, 15 and 21"
+    },
+    "spots": [
+      {
+        "id": "c1",
+        "x": 22.5,
+        "y": 29.2,
+        "label": "1: neither prime nor composite"
+      },
+      {
+        "id": "c2",
+        "x": 50.0,
+        "y": 29.2,
+        "label": "2: the only even prime"
+      },
+      {
+        "id": "c4",
+        "x": 77.5,
+        "y": 29.2,
+        "label": "4: an even composite number"
+      },
+      {
+        "id": "c9",
+        "x": 22.5,
+        "y": 70.8,
+        "label": "9: a composite number"
+      },
+      {
+        "id": "c15",
+        "x": 50.0,
+        "y": 70.8,
+        "label": "15: a composite number"
+      },
+      {
+        "id": "c21",
+        "x": 77.5,
+        "y": 70.8,
+        "label": "21: a composite number"
+      }
+    ],
+    "answer": "c1",
+    "hint": "Think about how many different factors the number has.",
+    "explanation": "$1$ has only one factor (itself), so it is not prime (a prime has exactly two factors) and it is not composite (a composite has more than two). The others are $2$ (prime) and $4, 9, 15, 21$ (composite)."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Composite numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Why is $2\\times3\\times5\\times7+7$ a **composite** number?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sevens.svg",
+      "alt": "The expression 2 x 3 x 5 x 7 plus 7 with the 7 highlighted in both parts"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Its last digit is 7, so it cannot be composite"
+      },
+      {
+        "id": "b",
+        "text": "It is divisible by 2 because 2 appears in the product"
+      },
+      {
+        "id": "c",
+        "text": "It equals $7\\times(2\\times3\\times5+1) = 7\\times31$, a product of two numbers each greater than 1"
+      },
+      {
+        "id": "d",
+        "text": "Adding 7 to a product always gives an even number"
+      }
+    ],
+    "answer": "c",
+    "hint": "Take the number that appears in both parts outside a bracket.",
+    "explanation": "Both parts contain 7, so $2\\times3\\times5\\times7+7 = 7(30+1) = 7\\times31 = 217$. A number with a factor other than 1 and itself is composite. The number 217 is odd, so it is not divisible by 2, and the last digit says nothing about being prime."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Fundamental Theorem of Arithmetic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/fta-perms.svg",
+      "alt": "Prime tiles 2, 3, 5, 7 arranged in three orders"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$2\\times3\\times5\\times7$ and $7\\times5\\times3\\times2$ are the same prime factorisation"
+      },
+      {
+        "id": "b",
+        "text": "$4\\times9\\times5$ is the complete prime factorisation of $180$"
+      },
+      {
+        "id": "c",
+        "text": "$180 = 2^2\\times3^2\\times5$, and no other product of primes gives $180$ (ignoring order)"
+      },
+      {
+        "id": "d",
+        "text": "Some composite numbers have two different prime factorisations"
+      },
+      {
+        "id": "e",
+        "text": "Every composite number can be written as a product of primes"
+      },
+      {
+        "id": "f",
+        "text": "$1$ is a prime factor of every composite number"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Remember: prime factors must be primes, and the order does not matter.",
+    "explanation": "True: the same primes in another order are the same factorisation; $180 = 2^2\\times3^2\\times5$ is unique; and every composite number is a product of primes. False: $4$ and $9$ are not prime, so $4\\times9\\times5$ is not fully factorised; uniqueness rules out two different factorisations; and $1$ is not a prime."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Applications of the theorem",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "For which bases $b$ can $b^n$ **never** end with the digit $0$, whatever natural number $n$ is?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/needs-25.svg",
+      "alt": "Bubbles showing the prime factors of 4, 6, 15, 20 and 10"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4^n$"
+      },
+      {
+        "id": "b",
+        "text": "$6^n$"
+      },
+      {
+        "id": "c",
+        "text": "$15^n$"
+      },
+      {
+        "id": "d",
+        "text": "$20^n$"
+      },
+      {
+        "id": "e",
+        "text": "$10^n$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "A number ending in 0 is divisible by 10, so its prime factorisation must contain both 2 and 5.",
+    "explanation": "A number ending in 0 is divisible by $2$ and by $5$, so both primes must appear in its factorisation, and by uniqueness no other primes can appear from nowhere. $4^n = 2^{2n}$ has no 5; $6^n = 2^n3^n$ has no 5; $15^n = 3^n5^n$ has no 2. But $20^n = 2^{2n}5^n$ and $10^n = 2^n5^n$ contain both, so they end with 0."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF and LCM",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for finding the **LCM** by prime factorisation in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/exp-12-18-30.svg",
+      "alt": "Table of prime powers of 12, 18 and 30"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "For each of these primes, pick its greatest power"
+      },
+      {
+        "id": "s1",
+        "text": "Write each number as a product of prime powers"
+      },
+      {
+        "id": "s4",
+        "text": "Multiply the chosen powers together"
+      },
+      {
+        "id": "s2",
+        "text": "List every prime that appears in any of the numbers"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Factorise first; multiply last.",
+    "explanation": "For $12 = 2^2\\times3$, $18 = 2\\times3^2$, $30 = 2\\times3\\times5$: the primes are $2, 3, 5$; the greatest powers are $2^2, 3^2, 5^1$; so $\\text{LCM} = 4\\times9\\times5 = 180$. For the HCF you would instead take the smallest power of each prime common to all numbers."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF by prime factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Using the table, find $\\text{HCF}(36, 120)$.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/exp-36-120.svg",
+      "alt": "Prime powers of 36 and 120"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "360"
+      },
+      {
+        "id": "b",
+        "text": "72"
+      },
+      {
+        "id": "c",
+        "text": "6"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "d",
+    "hint": "HCF takes the smallest power of each prime that is common to both numbers.",
+    "explanation": "$36 = 2^2\\times3^2$ and $120 = 2^3\\times3\\times5$. Common primes: $2$ (smallest power $2^2$) and $3$ (smallest power $3^1$), so $\\text{HCF} = 4\\times3 = 12$. Taking the greatest powers of the common primes gives 72, using powers of 1 gives 6, and $360$ is the LCM."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF by prime factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "To find $\\text{HCF}(72, 90)$ we take the **smallest** power of each common prime. Tap the cell whose exponent of $2$ goes into the HCF.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/exp-72-90.svg",
+      "alt": "Table of the powers of 2, 3 and 5 in 72 and 90"
+    },
+    "spots": [
+      {
+        "id": "72-2",
+        "x": 46.7,
+        "y": 43.8,
+        "label": "72: power of 2 is 3"
+      },
+      {
+        "id": "72-3",
+        "x": 65.0,
+        "y": 43.8,
+        "label": "72: power of 3 is 2"
+      },
+      {
+        "id": "72-5",
+        "x": 83.3,
+        "y": 43.8,
+        "label": "72: power of 5 is 0"
+      },
+      {
+        "id": "90-2",
+        "x": 46.7,
+        "y": 72.9,
+        "label": "90: power of 2 is 1"
+      },
+      {
+        "id": "90-3",
+        "x": 65.0,
+        "y": 72.9,
+        "label": "90: power of 3 is 2"
+      },
+      {
+        "id": "90-5",
+        "x": 83.3,
+        "y": 72.9,
+        "label": "90: power of 5 is 1"
+      }
+    ],
+    "answer": "90-2",
+    "hint": "Compare the two powers of 2: which is smaller?",
+    "explanation": "$72 = 2^3\\times3^2$ and $90 = 2^1\\times3^2\\times5$. The smaller power of 2 is $2^1$ (from 90), and for 3 both are $3^2$, so $\\text{HCF} = 2\\times9 = 18$. The LCM uses the greatest powers: $2^3\\times3^2\\times5 = 360$."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF and LCM",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each item with its description.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/exp-12-18-30.svg",
+      "alt": "Table of prime powers of 12, 18 and 30"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "HCF by prime factorisation"
+      },
+      {
+        "id": "l2",
+        "text": "LCM by prime factorisation"
+      },
+      {
+        "id": "l3",
+        "text": "$\\text{HCF}(a,b)\\times\\text{LCM}(a,b)$ for positive integers"
+      },
+      {
+        "id": "l4",
+        "text": "Fundamental Theorem of Arithmetic"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Product of the greatest power of each prime involved"
+      },
+      {
+        "id": "r2",
+        "text": "Equals $a\\times b$"
+      },
+      {
+        "id": "r3",
+        "text": "Every composite number is a product of primes in one way only (ignoring order)"
+      },
+      {
+        "id": "r4",
+        "text": "Product of the smallest power of each common prime"
+      }
+    ],
+    "pairs": {
+      "l1": "r4",
+      "l2": "r1",
+      "l3": "r2",
+      "l4": "r3"
+    },
+    "hint": "HCF looks for what is shared; LCM looks for everything needed.",
+    "explanation": "For $6 = 2\\times3$ and $20 = 2^2\\times5$: $\\text{HCF} = 2$ (smallest power of the common prime) and $\\text{LCM} = 2^2\\times3\\times5 = 60$ (greatest power of every prime). Also $2\\times60 = 120 = 6\\times20$, illustrating $\\text{HCF}\\times\\text{LCM} = a\\times b$."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF and LCM relation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The HCF of two numbers is $6$ and their LCM is $36$. One of the numbers is $12$. Find the other.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/rects-12-q.svg",
+      "alt": "A 6 by 36 rectangle and a rectangle 12 wide with the same area"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "18"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "72"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use $\\text{HCF}\\times\\text{LCM} = a\\times b$.",
+    "explanation": "$6\\times36 = 12\\times b$, so $b = 216\\div12 = 18$ (check: $\\text{HCF}(12,18)=6$, $\\text{LCM}(12,18)=36$). Dividing LCM by 12 gives 3, using $\\text{HCF}+\\text{LCM}-12$ gives 30, and $36\\times12\\div6$ gives 72, which wrongly divides by the HCF."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF and LCM relation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/rects-12-18.svg",
+      "alt": "A 6 by 36 rectangle and a 12 by 18 rectangle with the same area"
+    },
+    "assertion": "For the numbers $12$ and $18$, $\\text{HCF}\\times\\text{LCM} = 12\\times18$.",
+    "reason": "The HCF of $12$ and $18$ is $6$.",
+    "answer": "b",
+    "hint": "Does knowing the HCF alone explain why the product matches?",
+    "explanation": "$12 = 2^2\\times3$, $18 = 2\\times3^2$, so $\\text{HCF} = 6$, $\\text{LCM} = 36$ and $6\\times36 = 216 = 12\\times18$. Both statements are true, but \"the HCF is 6\" does not explain the product rule. The rule holds because for every prime the smaller and the greater exponent together add up to the two exponents."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "LCM of three numbers",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "For three positive integers $p,q,r$: $\\;\\text{LCM}(p,q,r)=\\dfrac{p\\,q\\,r\\cdot\\text{HCF}(p,q,r)}{\\text{HCF}(p,q)\\cdot\\text{HCF}(q,r)\\cdot\\text{HCF}(p,r)}$. Use it with the picture to find $\\text{LCM}(4,6,10)$.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/venn-4-6-10.svg",
+      "alt": "Three overlapping circles for 4, 6 and 10 with every pairwise HCF equal to 2 and the triple HCF equal to 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "30"
+      },
+      {
+        "id": "b",
+        "text": "120"
+      },
+      {
+        "id": "c",
+        "text": "60"
+      },
+      {
+        "id": "d",
+        "text": "240"
+      }
+    ],
+    "answer": "c",
+    "hint": "Read the pairwise HCFs from the overlaps and the triple HCF from the middle.",
+    "explanation": "$pqr = 240$; the pairwise HCFs are $2,2,2$ (product $8$); the triple HCF is $2$. So $\\text{LCM} = \\dfrac{240\\times2}{8} = 60$. Forgetting the triple HCF gives 30, dividing only by the triple HCF gives 120, and $240$ is just the product $pqr$."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF and LCM of three numbers",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about positive integers.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/venn-4-6-10.svg",
+      "alt": "Three overlapping circles for 4, 6 and 10"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\text{HCF}(p,q)\\times\\text{LCM}(p,q) = p\\times q$"
+      },
+      {
+        "id": "b",
+        "text": "$\\text{HCF}(p,q,r)\\times\\text{LCM}(p,q,r) = p\\times q\\times r$ always"
+      },
+      {
+        "id": "c",
+        "text": "For $4, 6, 10$: $\\text{HCF}\\times\\text{LCM} = 2\\times60 = 120$, which is not $4\\times6\\times10$"
+      },
+      {
+        "id": "d",
+        "text": "The LCM is the product of the greatest power of each prime involved"
+      },
+      {
+        "id": "e",
+        "text": "The HCF is the product of the greatest power of each common prime"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "Test the three-number rule on 4, 6 and 10.",
+    "explanation": "The product rule holds for **two** numbers only. For $4, 6, 10$: $\\text{HCF}=2$, $\\text{LCM}=60$, product $=240 \\ne 120$. The LCM uses the greatest powers of all primes involved, while the HCF uses the **smallest** power of each common prime, so the last statement is false."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "LCM by prime factorisation",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Find $\\text{LCM}(540, 1176)$ using the prime powers in the table.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/exp-540-1176.svg",
+      "alt": "Prime powers of 540 and 1176"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "52920"
+      },
+      {
+        "id": "b",
+        "text": "635040"
+      },
+      {
+        "id": "c",
+        "text": "7560"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "a",
+    "hint": "For every prime that appears, take its greatest power.",
+    "explanation": "$540 = 2^2\\times3^3\\times5$ and $1176 = 2^3\\times3\\times7^2$. Greatest powers: $2^3, 3^3, 5^1, 7^2$, so $\\text{LCM} = 8\\times27\\times5\\times49 = 52920$. Using $7^1$ gives 7560, the product $635040$ counts the shared factor 12 twice, and $12$ is the HCF."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Word problem: meeting again",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Two riders start together from the start line of a circular track and ride in the same direction. Rider A takes $24$ minutes for one round and rider B takes $36$ minutes. After how many minutes will they **first** be together at the start line again?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/track-24-36.svg",
+      "alt": "A circular track with two riders starting together; one takes 24 minutes and the other 36 minutes per round"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "72 minutes"
+      },
+      {
+        "id": "b",
+        "text": "12 minutes"
+      },
+      {
+        "id": "c",
+        "text": "60 minutes"
+      },
+      {
+        "id": "d",
+        "text": "864 minutes"
+      }
+    ],
+    "answer": "a",
+    "hint": "They are at the start line at multiples of 24 and of 36. You want the first common one.",
+    "explanation": "The first common multiple is the LCM: $24 = 2^3\\times3$, $36 = 2^2\\times3^2$, so $\\text{LCM} = 8\\times9 = 72$. A completes 3 rounds and B completes 2. The HCF (12) is a trap, $24+36 = 60$ is meaningless, and $24\\times36 = 864$ is a common multiple but not the first."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Word problem: bells",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Three bells ring together at $8{:}00$ AM. After that they ring every $12$, $18$ and $30$ minutes respectively. At what time will they next ring together?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/bells.svg",
+      "alt": "Time line with bells ringing every 12, 18 and 30 minutes after 8:00 AM"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "8:36 AM"
+      },
+      {
+        "id": "b",
+        "text": "11:00 AM"
+      },
+      {
+        "id": "c",
+        "text": "8:06 AM"
+      },
+      {
+        "id": "d",
+        "text": "9:30 AM"
+      }
+    ],
+    "answer": "b",
+    "hint": "Find the LCM of all three intervals, then add it to 8:00 AM.",
+    "explanation": "$12 = 2^2\\times3$, $18 = 2\\times3^2$, $30 = 2\\times3\\times5$, so $\\text{LCM} = 4\\times9\\times5 = 180$ minutes $= 3$ hours, giving $11{:}00$ AM. The LCM of just $12$ and $18$ is $36$ (8:36), the HCF is $6$ (8:06), and the LCM of $18$ and $30$ is $90$ (9:30). All three bells must coincide."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Word problem: tiles",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A rectangular floor $504$ cm long and $360$ cm wide is to be covered with **identical square tiles**, with no cutting and no gaps, using the **largest possible** tiles. What is the side of a tile and how many tiles are needed?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/floor.svg",
+      "alt": "A rectangular floor 504 cm by 360 cm with a square tile beside it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "36 cm and 140 tiles"
+      },
+      {
+        "id": "b",
+        "text": "72 cm and 12 tiles"
+      },
+      {
+        "id": "c",
+        "text": "24 cm and 315 tiles"
+      },
+      {
+        "id": "d",
+        "text": "72 cm and 35 tiles"
+      }
+    ],
+    "answer": "d",
+    "hint": "The side must divide both 504 and 360, and be as big as possible.",
+    "explanation": "The largest side is $\\text{HCF}(504, 360) = 72$ cm ($504 = 2^3\\times3^2\\times7$, $360 = 2^3\\times3^2\\times5$). Along the length $504\\div72 = 7$ tiles, along the width $360\\div72 = 5$ tiles, so $7\\times5 = 35$ tiles. A side of 36 cm or 24 cm fits but is not the largest; 12 tiles comes from dividing the perimeter, not the area."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Word problem: equal pieces",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Ropes of $12$ m, $18$ m and $30$ m are cut into equal pieces with **no rope wasted**. Which picture shows the **longest** possible piece?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pieces of 4 m",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/rope-4.svg",
+          "alt": "Ropes cut into pieces of 4 m with leftover scraps"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Pieces of 2 m",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/rope-2.svg",
+          "alt": "Ropes cut into pieces of 2 m"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Pieces of 3 m",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/rope-3.svg",
+          "alt": "Ropes cut into pieces of 3 m"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Pieces of 6 m",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/rope-6.svg",
+          "alt": "Ropes cut into pieces of 6 m"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "The piece length must divide all three lengths exactly.",
+    "explanation": "The longest such piece is $\\text{HCF}(12,18,30) = 6$ m, giving $2+3+5 = 10$ pieces. Pieces of 2 m and 3 m fit exactly but are not the longest. Pieces of 4 m leave scraps of 2 m on the 18 m and 30 m ropes, because $4$ does not divide $18$ or $30$."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Word problem: same remainder",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Find the **smallest** number that leaves remainder $3$ when divided by $8$, by $12$ and by $15$.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/hops-8-12-15.svg",
+      "alt": "Jumps of 8, 12 and 15 along a scale, all landing together at one mark"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "120"
+      },
+      {
+        "id": "b",
+        "text": "117"
+      },
+      {
+        "id": "c",
+        "text": "243"
+      },
+      {
+        "id": "d",
+        "text": "123"
+      }
+    ],
+    "answer": "d",
+    "hint": "First find the smallest number divisible by all three, then add the remainder.",
+    "explanation": "A number that is divisible by $8, 12, 15$ is a multiple of $\\text{LCM}(8,12,15) = 2^3\\times3\\times5 = 120$. Adding the remainder: $120+3 = 123$, and indeed $123 = 8\\times15+3 = 12\\times10+3 = 15\\times8+3$. 120 leaves remainder 0, 117 subtracts instead of adds, and 243 is the **second** such number."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Applications of the theorem",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "By what smallest natural number must $360$ be multiplied so that the product is a **perfect square**?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/exp-360-odd.svg",
+      "alt": "Prime power table of 360 with the odd exponents highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "30"
+      }
+    ],
+    "answer": "b",
+    "hint": "A perfect square has an even exponent for every prime.",
+    "explanation": "$360 = 2^3\\times3^2\\times5^1$. The exponents of $2$ and $5$ are odd, so multiply by $2\\times5 = 10$ to get $3600 = 2^4\\times3^2\\times5^2 = 60^2$. Multiplying only by 2 fixes the power of 2 but leaves 5 odd, multiplying only by 5 leaves 2 odd, and 30 brings in an extra 3 that makes its exponent odd again."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF and LCM",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the pairs from the **smallest LCM** to the **largest LCM**.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/ladder-4-10.svg",
+      "alt": "Jumps of 4 and jumps of 10 along a scale to 40"
+    },
+    "items": [
+      {
+        "id": "p3",
+        "text": "5 and 7"
+      },
+      {
+        "id": "p1",
+        "text": "4 and 10"
+      },
+      {
+        "id": "p2",
+        "text": "8 and 12"
+      },
+      {
+        "id": "p0",
+        "text": "6 and 9"
+      }
+    ],
+    "answer": [
+      "p0",
+      "p1",
+      "p2",
+      "p3"
+    ],
+    "startLabel": "Smallest LCM",
+    "endLabel": "Largest LCM",
+    "hint": "Find the LCM of each pair first, for example the first common stop of jumps of 4 and 10.",
+    "explanation": "$\\text{LCM}(6,9)=18$, $\\text{LCM}(4,10)=20$, $\\text{LCM}(8,12)=24$, $\\text{LCM}(5,7)=35$ (coprime numbers have LCM equal to their product). The pair $(4,10)$ in the picture first lands together at 20."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "HCF",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each pair of numbers with its HCF.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/pairs.svg",
+      "alt": "Four pairs of bars with lengths 12 and 18, 14 and 35, 16 and 24, 9 and 28"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "12 and 18"
+      },
+      {
+        "id": "l1",
+        "text": "14 and 35"
+      },
+      {
+        "id": "l2",
+        "text": "16 and 24"
+      },
+      {
+        "id": "l3",
+        "text": "9 and 28"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "1"
+      },
+      {
+        "id": "r0",
+        "text": "6"
+      },
+      {
+        "id": "r2",
+        "text": "8"
+      },
+      {
+        "id": "r1",
+        "text": "7"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3"
+    },
+    "hint": "Write each number as a product of primes and keep the common part.",
+    "explanation": "$12 = 2^2\\times3$, $18 = 2\\times3^2$: HCF $= 2\\times3 = 6$. $14 = 2\\times7$, $35 = 5\\times7$: HCF $= 7$. $16 = 2^4$, $24 = 2^3\\times3$: HCF $= 2^3 = 8$. $9 = 3^2$, $28 = 2^2\\times7$ share no prime: HCF $= 1$."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Prime factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each number with its prime factorisation.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/prime-tiles.svg",
+      "alt": "Prime tiles 2, 3, 5, 7 and 11"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "60"
+      },
+      {
+        "id": "l1",
+        "text": "84"
+      },
+      {
+        "id": "l2",
+        "text": "90"
+      },
+      {
+        "id": "l3",
+        "text": "110"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$2\\times5\\times11$"
+      },
+      {
+        "id": "r2",
+        "text": "$2\\times3^2\\times5$"
+      },
+      {
+        "id": "r1",
+        "text": "$2^2\\times3\\times7$"
+      },
+      {
+        "id": "r0",
+        "text": "$2^2\\times3\\times5$"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3"
+    },
+    "hint": "Divide by the smallest prime again and again.",
+    "explanation": "$60 = 2^2\\times3\\times5$, $84 = 2^2\\times3\\times7$, $90 = 2\\times3^2\\times5$, $110 = 2\\times5\\times11$. Each is unique, so exactly one product fits each number."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Decimal expansions",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "To decide whether the decimal expansion of a rational number $\\dfrac{p}{q}$ terminates or is non-terminating and repeating, whose prime factorisation do we examine?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/fractions.svg",
+      "alt": "Fractions 3/8, 7/16, 1/3 and 1/6 with their decimal forms"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The numerator $p$"
+      },
+      {
+        "id": "b",
+        "text": "The sum $p+q$"
+      },
+      {
+        "id": "c",
+        "text": "The denominator $q$"
+      },
+      {
+        "id": "d",
+        "text": "The product $p\\times q$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Compare 3/8 and 1/3: the numerators are small and similar; what differs?",
+    "explanation": "The prime factorisation of the **denominator** $q$ completely reveals the nature of the decimal expansion. For example $8 = 2^3$ and $16 = 2^4$ give terminating decimals (0.375, 0.4375), while $3$ and $6$ give repeating ones (0.333…, 0.1666…)."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Theorem 1.2",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Theorem 1.2 says: if a **prime** $p$ divides $a^2$, then $p$ divides $a$. Which choice shows that the word \"prime\" cannot be dropped?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/squares-table.svg",
+      "alt": "Table of a, a squared and whether 4 divides each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$p=4$, $a=6$: $4$ divides $36$ but does not divide $6$"
+      },
+      {
+        "id": "b",
+        "text": "$p=3$, $a=6$: $3$ divides $36$ and $3$ divides $6$"
+      },
+      {
+        "id": "c",
+        "text": "$p=5$, $a=10$: $5$ divides $100$ and $5$ divides $10$"
+      },
+      {
+        "id": "d",
+        "text": "$p=2$, $a=6$: $2$ divides $36$ and $2$ divides $6$"
+      }
+    ],
+    "answer": "a",
+    "hint": "You need a divisor of $a^2$ that does not divide $a$. The table row $a=6$ is a clue.",
+    "explanation": "$6^2 = 36 = 4\\times9$, so $4 \\mid 36$, but $4 \\nmid 6$. This works because $4$ is composite: $4 = 2\\times2$ can be split between two copies of $6 = 2\\times3$. For primes $3, 5, 2$ the theorem holds, so those choices are not counterexamples."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Rational and irrational numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **irrational** number.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sets.svg",
+      "alt": "Nested regions for natural numbers, integers and rational numbers with a separate irrational region, each holding a sample number"
+    },
+    "spots": [
+      {
+        "id": "rat",
+        "x": 37.0,
+        "y": 27.5,
+        "label": "3/4: rational, not an integer"
+      },
+      {
+        "id": "int",
+        "x": 37.0,
+        "y": 40.0,
+        "label": "−4: an integer"
+      },
+      {
+        "id": "nat",
+        "x": 37.0,
+        "y": 63.7,
+        "label": "7: a natural number"
+      },
+      {
+        "id": "irr",
+        "x": 85.5,
+        "y": 58.3,
+        "label": "√11: an irrational number"
+      }
+    ],
+    "answer": "irr",
+    "hint": "An irrational number cannot be written as $p/q$ with integers $p, q$.",
+    "explanation": "$\\sqrt{11}$ is the square root of a non-square, so it is irrational. $\\frac34$ is a fraction, $-4$ is an integer and $7$ is a natural number; all three are rational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Rational and irrational numbers",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the number that is **rational but not an integer**.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sets.svg",
+      "alt": "Nested regions for natural numbers, integers and rational numbers with a separate irrational region, each holding a sample number"
+    },
+    "spots": [
+      {
+        "id": "rat",
+        "x": 37.0,
+        "y": 27.5,
+        "label": "3/4: rational, not an integer"
+      },
+      {
+        "id": "int",
+        "x": 37.0,
+        "y": 40.0,
+        "label": "−4: an integer"
+      },
+      {
+        "id": "nat",
+        "x": 37.0,
+        "y": 63.7,
+        "label": "7: a natural number"
+      },
+      {
+        "id": "irr",
+        "x": 85.5,
+        "y": 58.3,
+        "label": "√11: an irrational number"
+      }
+    ],
+    "answer": "rat",
+    "hint": "It sits in the outer ring of the rational region, outside the integers.",
+    "explanation": "$\\frac34 = \\frac{p}{q}$ with $p=3$, $q=4$, so it is rational, but it is not a whole number, so not an integer. $-4$ and $7$ are integers; $\\sqrt{11}$ is irrational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Rational and irrational numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each number with the best description.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sets.svg",
+      "alt": "Nested regions for natural, integer, rational and irrational numbers"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$\\sqrt{49}$"
+      },
+      {
+        "id": "l2",
+        "text": "$\\dfrac{3}{8}$"
+      },
+      {
+        "id": "l3",
+        "text": "$2\\sqrt{5}$"
+      },
+      {
+        "id": "l4",
+        "text": "$5+\\sqrt{3}$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "Irrational: a rational plus an irrational"
+      },
+      {
+        "id": "r2",
+        "text": "Rational, but not an integer"
+      },
+      {
+        "id": "r1",
+        "text": "A natural number"
+      },
+      {
+        "id": "r3",
+        "text": "Irrational: a non-zero rational times an irrational"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Simplify $\\sqrt{49}$ first.",
+    "explanation": "$\\sqrt{49}=7$ is a natural number. $\\frac38$ is a ratio of integers but not a whole number. $2\\sqrt5$ is a non-zero rational times the irrational $\\sqrt5$, so it is irrational, and $5+\\sqrt3$ is a rational plus an irrational, so also irrational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Rational and irrational numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the irrational numbers.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/decimals.svg",
+      "alt": "Decimal forms of 1/8, 1/3, root 2 and 0.1011011101111..."
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3+\\sqrt{2}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt{25}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\sqrt{18}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{\\sqrt8}{\\sqrt2}$"
+      },
+      {
+        "id": "e",
+        "text": "$0.10110111011110\\ldots$"
+      },
+      {
+        "id": "f",
+        "text": "$\\sqrt3\\times\\sqrt3$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Simplify first: some of these are secretly whole numbers.",
+    "explanation": "$3+\\sqrt2$ is rational plus irrational, $\\sqrt{18}=3\\sqrt2$ is a non-zero rational times an irrational, and $0.10110111011110\\ldots$ never ends and never repeats. But $\\sqrt{25}=5$, $\\dfrac{\\sqrt8}{\\sqrt2}=\\sqrt4=2$ and $\\sqrt3\\times\\sqrt3=3$ are rational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √3",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The proof begins by assuming $\\sqrt3 = \\dfrac{a}{b}$ with $a, b$ coprime. Tap the step that **contradicts** this assumption.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/flow-3.svg",
+      "alt": "Five proof steps for the irrationality of the square root of 3"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 50.0,
+        "y": 10.8,
+        "label": "Assumption: √3 = a/b with a, b coprime"
+      },
+      {
+        "id": "s2",
+        "x": 50.0,
+        "y": 28.7,
+        "label": "Squaring: 3b² = a²"
+      },
+      {
+        "id": "s3",
+        "x": 50.0,
+        "y": 46.7,
+        "label": "Theorem 1.2 applied to a: a = 3c"
+      },
+      {
+        "id": "s4",
+        "x": 50.0,
+        "y": 64.6,
+        "label": "Theorem 1.2 applied to b"
+      },
+      {
+        "id": "s5",
+        "x": 50.0,
+        "y": 82.5,
+        "label": "Common factor 3: the contradiction"
+      }
+    ],
+    "answer": "s5",
+    "hint": "Coprime means the only common factor is 1.",
+    "explanation": "Steps 3 and 4 show that $3$ divides both $a$ and $b$. But $a$ and $b$ were chosen to have no common factor other than 1, so the assumption that $\\sqrt3$ is rational must be wrong. Hence $\\sqrt3$ is irrational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √3",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the step where **Theorem 1.2** (if a prime $p$ divides $a^2$ then $p$ divides $a$) is used for the first time.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/flow-3.svg",
+      "alt": "Five proof steps for the irrationality of the square root of 3"
+    },
+    "spots": [
+      {
+        "id": "s1",
+        "x": 50.0,
+        "y": 10.8,
+        "label": "Assumption: √3 = a/b with a, b coprime"
+      },
+      {
+        "id": "s2",
+        "x": 50.0,
+        "y": 28.7,
+        "label": "Squaring: 3b² = a²"
+      },
+      {
+        "id": "s3",
+        "x": 50.0,
+        "y": 46.7,
+        "label": "Theorem 1.2 applied to a: a = 3c"
+      },
+      {
+        "id": "s4",
+        "x": 50.0,
+        "y": 64.6,
+        "label": "Theorem 1.2 applied to b"
+      },
+      {
+        "id": "s5",
+        "x": 50.0,
+        "y": 82.5,
+        "label": "Common factor 3: the contradiction"
+      }
+    ],
+    "answer": "s3",
+    "hint": "Look for the step that goes from \"divides $a^2$\" to \"divides $a$\".",
+    "explanation": "Squaring gives $3b^2 = a^2$, so $3 \\mid a^2$. Theorem 1.2 then gives $3 \\mid a$, written $a = 3c$. This is the third box; the same theorem is used again in the fourth box for $b$."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √7",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In the proof that $\\sqrt7$ is irrational we get $7b^2 = a^2$ and $a = 7c$. What does substituting $a = 7c$ give after simplifying?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/flow-7.svg",
+      "alt": "Proof steps for the square root of 7 with the substitution result hidden"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$b^2 = c^2$"
+      },
+      {
+        "id": "b",
+        "text": "$b^2 = 49c^2$"
+      },
+      {
+        "id": "c",
+        "text": "$b^2 = 7c^2$"
+      },
+      {
+        "id": "d",
+        "text": "$7b^2 = c^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Square $7c$ carefully: $(7c)^2 = 49c^2$.",
+    "explanation": "$7b^2 = (7c)^2 = 49c^2$. Dividing both sides by $7$ gives $b^2 = 7c^2$, so $7$ divides $b^2$ and hence $b$. Squaring $7c$ as $7c^2$ gives $b^2=c^2$ and not dividing by 7 gives $49c^2$, both wrong."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √2",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps of the proof that $\\sqrt2$ is irrational in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/road.svg",
+      "alt": "A road ending at a wall labelled contradiction with a U-turn arrow"
+    },
+    "items": [
+      {
+        "id": "p4",
+        "text": "Substituting gives $b^2 = 2c^2$, so $2$ divides $b$ too"
+      },
+      {
+        "id": "p1",
+        "text": "Assume $\\sqrt2 = \\dfrac ab$ with $a, b$ coprime integers, $b\\neq0$"
+      },
+      {
+        "id": "p6",
+        "text": "Hence $\\sqrt2$ is irrational"
+      },
+      {
+        "id": "p3",
+        "text": "By Theorem 1.2, $2$ divides $a$, so $a = 2c$"
+      },
+      {
+        "id": "p2",
+        "text": "Squaring gives $2b^2 = a^2$, so $2$ divides $a^2$"
+      },
+      {
+        "id": "p5",
+        "text": "So $2$ is a common factor of $a$ and $b$, contradicting that they are coprime"
+      }
+    ],
+    "answer": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "A proof by contradiction assumes the opposite, finds an impossibility, then concludes.",
+    "explanation": "Assume rational with coprime $a, b$; square to get $2b^2=a^2$; Theorem 1.2 gives $a=2c$; substitution gives $b^2=2c^2$ so $2\\mid b$; now $2$ divides both, contradicting coprimality; so the assumption fails and $\\sqrt2$ is irrational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √2",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "match",
+    "prompt": "In the proof that $\\sqrt2$ is irrational, match each line with how it is obtained.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/road.svg",
+      "alt": "A road ending at a wall labelled contradiction with a U-turn arrow"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$2b^2 = a^2$"
+      },
+      {
+        "id": "l2",
+        "text": "$a = 2c$"
+      },
+      {
+        "id": "l3",
+        "text": "$b^2 = 2c^2$"
+      },
+      {
+        "id": "l4",
+        "text": "$2$ is a common factor of $a$ and $b$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "Substituting $a = 2c$ and dividing by $2$"
+      },
+      {
+        "id": "r1",
+        "text": "Squaring $b\\sqrt2 = a$"
+      },
+      {
+        "id": "r4",
+        "text": "Contradiction with $a, b$ being coprime"
+      },
+      {
+        "id": "r2",
+        "text": "Theorem 1.2 applied to $2 \\mid a^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Follow the proof line by line.",
+    "explanation": "From $\\sqrt2 = a/b$ we get $b\\sqrt2 = a$; squaring gives $2b^2 = a^2$. Then $2 \\mid a^2$ so (Theorem 1.2) $2 \\mid a$, i.e. $a = 2c$. Substituting: $2b^2 = 4c^2$, so $b^2 = 2c^2$. Finally $2$ divides both $a$ and $b$, contradicting coprimality."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √3",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/flow-3.svg",
+      "alt": "Five proof steps for the irrationality of the square root of 3"
+    },
+    "assertion": "$\\sqrt3$ is an irrational number.",
+    "reason": "If a prime $p$ divides $a^2$, then $p$ divides $a$.",
+    "answer": "a",
+    "hint": "Which step of the proof needs the reason?",
+    "explanation": "$\\sqrt3$ is irrational. The reason (Theorem 1.2) is exactly what turns $3 \\mid a^2$ into $3 \\mid a$, and later $3\\mid b^2$ into $3 \\mid b$, producing the contradiction. So both are true and R explains A."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrationality of √5",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "To prove $6-\\sqrt5$ is irrational, assume $6-\\sqrt5 = \\dfrac ab$ with integers $a, b$ and $b\\ne0$. Which expression for $\\sqrt5$ do we get?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/flow-assume.svg",
+      "alt": "Boxes: assume 6 minus root 5 equals a over b, isolate root 5, and an unknown result"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sqrt5 = \\dfrac{a-6b}{b}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt5 = \\dfrac{6b-a}{b}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\sqrt5 = \\dfrac{6b+a}{b}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\sqrt5 = \\dfrac{a}{6b}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Move $\\sqrt5$ to one side and $\\dfrac ab$ to the other.",
+    "explanation": "$\\sqrt5 = 6-\\dfrac ab = \\dfrac{6b-a}{b}$. Since $a, b$ are integers, the right side is rational, so $\\sqrt5$ would be rational, contradicting the fact that $\\sqrt5$ is irrational. So $6-\\sqrt5$ is irrational. Swapping the sides gives $-\\sqrt5$, adding $a$ is a sign slip, and $a/6b$ treats the 6 as a factor."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Locating √2",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The diagonal of a unit square is swung down onto the number line with the compass point at $0$. Which number line shows the point where it lands, $\\sqrt2$?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sqrt2-square.svg",
+      "alt": "A unit square with its diagonal swung down onto the number line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Dot P",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/sq2a.svg",
+          "alt": "Number line with a dot at 1"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Dot Q",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/sq2b.svg",
+          "alt": "Number line with a dot at 2"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Dot R",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/sq2c.svg",
+          "alt": "Number line with a dot at 2.5"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Dot S",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/sq2d.svg",
+          "alt": "Number line with a dot a little right of 1.4"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "The diagonal is longer than a side (1) but shorter than 2.",
+    "explanation": "The diagonal has length $\\sqrt{1^2+1^2} = \\sqrt2 \\approx 1.414$, which is more than $1$ and less than $2$, so the dot lies between 1 and 2, a little to the left of the middle. $\\sqrt2$ is irrational, yet it still has an exact place on the number line."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrational numbers on the number line",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The picture shows $\\sqrt5$ (hypotenuse of a right triangle with legs $2$ and $1$) swung onto the number line. Which number line marks $3+2\\sqrt5$?",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sqrt5-tri.svg",
+      "alt": "A right triangle with legs 2 and 1 whose hypotenuse is swung onto the number line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Dot P",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/loca.svg",
+          "alt": "Number line from 0 to 12 with a dot at about 5.2"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Dot Q",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/locc.svg",
+          "alt": "Number line from 0 to 12 with a dot at about 7.5"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Dot R",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/locb.svg",
+          "alt": "Number line from 0 to 12 with a dot at about 4.5"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Dot S",
+        "image": {
+          "src": "/img/c10-ma-real-numbers/locd.svg",
+          "alt": "Number line from 0 to 12 with a dot at about 11.2"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "Estimate $\\sqrt5 \\approx 2.24$, then compute $3 + 2\\times2.24$.",
+    "explanation": "$\\sqrt5\\approx2.236$, so $3+2\\sqrt5 \\approx 3+4.472 = 7.47$. Dropping the 2 gives $3+\\sqrt5 \\approx 5.24$, dropping the 3 gives $2\\sqrt5\\approx4.47$, and adding $3+2$ before multiplying gives $5\\sqrt5\\approx11.18$. Each of these is an error of operations, and the right value sits between 6 and 9."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrational numbers",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps of the proof that $3\\sqrt2$ is irrational in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sqrt2x3.svg",
+      "alt": "Three equal segments of length root 2 on a number line"
+    },
+    "items": [
+      {
+        "id": "q3",
+        "text": "Since $3, a, b$ are integers, $\\dfrac{a}{3b}$ is rational, so $\\sqrt2$ would be rational"
+      },
+      {
+        "id": "q1",
+        "text": "Assume $3\\sqrt2 = \\dfrac ab$ with coprime integers $a, b$, $b\\ne0$"
+      },
+      {
+        "id": "q5",
+        "text": "Hence $3\\sqrt2$ is irrational"
+      },
+      {
+        "id": "q2",
+        "text": "Rearrange: $\\sqrt2 = \\dfrac{a}{3b}$"
+      },
+      {
+        "id": "q4",
+        "text": "This contradicts the known fact that $\\sqrt2$ is irrational"
+      }
+    ],
+    "answer": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Isolate $\\sqrt2$, show the other side is rational, then find the clash.",
+    "explanation": "Assume $3\\sqrt2 = a/b$, divide by 3 to get $\\sqrt2 = a/(3b)$, note this is a ratio of integers (rational), contradict the irrationality of $\\sqrt2$, and conclude."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Operations with irrational numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sum-sym.svg",
+      "alt": "Number line with 2 minus root 3 and 2 plus root 3 placed symmetrically about 2"
+    },
+    "assertion": "The sum of two irrational numbers is always irrational.",
+    "reason": "The sum of a rational number and an irrational number is irrational.",
+    "answer": "d",
+    "hint": "Try adding $2+\\sqrt3$ and $2-\\sqrt3$.",
+    "explanation": "A is false: $(2+\\sqrt3)+(2-\\sqrt3) = 4$, which is rational, although both numbers are irrational. R is true (for example $5-\\sqrt3$ is irrational). So A is false and R is true."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Operations with irrational numbers",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "Select **all** expressions whose value is a **rational** number.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sum-sym.svg",
+      "alt": "Number line with 2 minus root 3 and 2 plus root 3 placed symmetrically about 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(2+\\sqrt3)(2-\\sqrt3)$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sqrt{12}\\div\\sqrt3$"
+      },
+      {
+        "id": "c",
+        "text": "$\\sqrt2+\\sqrt3$"
+      },
+      {
+        "id": "d",
+        "text": "$\\sqrt5\\times\\sqrt5$"
+      },
+      {
+        "id": "e",
+        "text": "$\\sqrt5\\times\\sqrt3$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Simplify each one: look for surds that cancel or square away.",
+    "explanation": "$(2+\\sqrt3)(2-\\sqrt3) = 4-3 = 1$, $\\sqrt{12}\\div\\sqrt3 = \\sqrt4 = 2$ and $\\sqrt5\\times\\sqrt5 = 5$ are rational. $\\sqrt2+\\sqrt3$ and $\\sqrt5\\times\\sqrt3 = \\sqrt{15}$ stay irrational. Irrational numbers can combine into rationals, so \"irrational\" cannot be judged by looking at the surds alone."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Rational and irrational numbers",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/sets.svg",
+      "alt": "Nested regions for natural numbers, integers and rational numbers with a separate irrational region"
+    },
+    "assertion": "$\\sqrt2$ is an irrational number.",
+    "reason": "Every irrational number is the square root of some integer.",
+    "answer": "c",
+    "hint": "Think of $\\pi$ or $2+\\sqrt3$.",
+    "explanation": "A is true (proved by contradiction). R is false: $\\pi^2\\approx9.87$ is not an integer, and $(2+\\sqrt3)^2 = 7+4\\sqrt3$ is not an integer, so neither $\\pi$ nor $2+\\sqrt3$ is the square root of an integer, yet both are irrational."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Fundamental Theorem of Arithmetic",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/fta-perms.svg",
+      "alt": "Prime tiles 2, 3, 5, 7 arranged in three orders"
+    },
+    "assertion": "The prime factorisations $2\\times3\\times5\\times7$ and $3\\times5\\times7\\times2$ of $210$ are different.",
+    "reason": "The prime factorisation of a natural number is unique, except for the order of its factors.",
+    "answer": "d",
+    "hint": "Does changing the order create a new factorisation?",
+    "explanation": "A is false: the same primes in a different order are the same factorisation. R is the Fundamental Theorem of Arithmetic, which is true, and it is exactly why A fails."
+  },
+  {
+    "id": "in-cbse-10-math-real-numbers-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "chapterNo": 1,
+    "topic": "Irrational numbers on the number line",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these numbers from **smallest to largest**.",
+    "image": {
+      "src": "/img/c10-ma-real-numbers/line-1-2.svg",
+      "alt": "A number line from 1 to 2 with ticks every quarter"
+    },
+    "items": [
+      {
+        "id": "o3",
+        "text": "$\\dfrac32$"
+      },
+      {
+        "id": "o4",
+        "text": "$\\sqrt3$"
+      },
+      {
+        "id": "o1",
+        "text": "$\\dfrac75$"
+      },
+      {
+        "id": "o2",
+        "text": "$\\sqrt2$"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Use $\\sqrt2\\approx1.414$ and $\\sqrt3\\approx1.732$.",
+    "explanation": "$\\dfrac75 = 1.4$, $\\sqrt2 \\approx 1.414$, $\\dfrac32 = 1.5$, $\\sqrt3\\approx1.732$. Note $\\sqrt2$ lies between the rationals 1.4 and 1.5: irrational numbers fit between rational numbers on the number line."
+  }
+]
