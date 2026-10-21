@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Bar chart of how many years crude oil reserves will last in the Middle East, USA and the world</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.gr{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:.9}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.gr{transform-origin:50% 100%;animation:gr 3s ease-in-out infinite}
+@keyframes gr{50%{transform:scaleY(.93)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><text x="200" y="20" font-size="12" text-anchor="middle">Years the crude oil reserves will last</text><rect x="50" y="60.00" width="70" height="120.00" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="85.0" y="55.0" font-size="12" text-anchor="middle">70 yrs</text><text x="85.0" y="195" font-size="12" text-anchor="middle">Middle East</text><rect x="156" y="162.00" width="70" height="18.00" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="191.0" y="157.0" font-size="12" text-anchor="middle">10.5 yrs</text><text x="191.0" y="195" font-size="12" text-anchor="middle">USA</text><rect x="262" y="99.43" width="70" height="80.57" rx="3" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="297.0" y="94.42857142857143" font-size="12" text-anchor="middle">47 yrs</text><text x="297.0" y="195" font-size="12" text-anchor="middle">World</text><path d="M42 180H368" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="200" y="212" font-size="11" text-anchor="middle">Reserves (2017), thousand million barrels:</text><text x="200" y="228" font-size="11" text-anchor="middle">Middle East 836   USA 69   World 1732</text></svg>

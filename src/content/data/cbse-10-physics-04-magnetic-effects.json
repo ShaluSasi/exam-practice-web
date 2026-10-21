@@ -1,0 +1,2222 @@
+[
+ {
+  "id": "in-cbse-10-phy-magnetism-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Oersted's discovery",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A small compass is placed near a straight copper wire. When the key is closed and a current flows, the needle swings away from its north-south position. What does this show?",
+  "image": {
+   "src": "/img/c10-magnetism/oersted.svg",
+   "alt": "A compass below a wire carrying current, with the needle swinging away from north"
+  },
+  "hint": "The needle only moves while the current flows.",
+  "explanation": "This is **Oersted's** observation (1820): a current-carrying conductor deflects a nearby compass needle, so **electricity and magnetism are linked**. Copper is not magnetic, so it is not a permanent magnet. Heating is a different effect of current and cannot turn a needle in a definite direction.",
+  "options": [
+   {
+    "id": "a",
+    "text": "An electric current produces a magnetic effect (a magnetic field) around the wire"
+   },
+   {
+    "id": "b",
+    "text": "The copper wire has become a permanent magnet even without current"
+   },
+   {
+    "id": "c",
+    "text": "The current has heated the needle and made it turn"
+   },
+   {
+    "id": "d",
+    "text": "The compass needle has been given an electric charge by the wire"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Compass needle and poles",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In this compass, the red end of the needle points towards geographic north. What is this end of the needle called?",
+  "image": {
+   "src": "/img/c10-magnetism/compass-needle.svg",
+   "alt": "A compass with a red north-seeking end and a white south-seeking end"
+  },
+  "hint": "A compass needle is a small bar magnet.",
+  "explanation": "A compass needle is a **small bar magnet**. The end that points towards north is called the **north-seeking pole (north pole)**; the end that points towards south is the **south-seeking pole (south pole)**. It has two poles, not one pivot pole, and it certainly is a magnet.",
+  "options": [
+   {
+    "id": "a",
+    "text": "The south pole of the needle, because opposite poles attract"
+   },
+   {
+    "id": "b",
+    "text": "The north-seeking pole (north pole) of the needle"
+   },
+   {
+    "id": "c",
+    "text": "It is not a pole, only the pivot is a pole"
+   },
+   {
+    "id": "d",
+    "text": "A compass needle is not a magnet, so it has no poles"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Field lines of a bar magnet",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which statement about the magnetic field lines of a bar magnet is correct?",
+  "image": {
+   "src": "/img/c10-magnetism/bar-field-lab.svg",
+   "alt": "Field lines of a bar magnet with arrows from N to S outside and S to N inside"
+  },
+  "hint": "Follow one line all the way round, including through the magnet.",
+  "explanation": "By convention the field lines **emerge from the north pole and merge at the south pole**. Inside the magnet the direction is from **south to north**, so each line is a **closed curve**. Lines outside are curved, not straight, and they continue inside the magnet.",
+  "options": [
+   {
+    "id": "a",
+    "text": "They start at the north pole and end at the south pole, so they are open curves"
+   },
+   {
+    "id": "b",
+    "text": "Outside the magnet they go from south to north"
+   },
+   {
+    "id": "c",
+    "text": "Outside the magnet they go from north to south, inside from south to north, so they are closed curves"
+   },
+   {
+    "id": "d",
+    "text": "They exist only outside the magnet and are straight lines"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Properties of field lines",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Why can two magnetic field lines never cross each other?",
+  "image": {
+   "src": "/img/c10-magnetism/field-cross.svg",
+   "alt": "Two field lines crossing with a compass needle that would need to point two ways"
+  },
+  "hint": "Think of what a tiny compass needle would do at the crossing point.",
+  "explanation": "The direction of the field at a point is the direction a compass **north pole** would point. If two lines crossed, the needle would have to point along **both**, which is impossible. So no two field lines intersect. The other reasons are invented: field lines are only a way to picture the field, they do not push each other.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Field lines repel each other, so they are pushed apart"
+   },
+   {
+    "id": "b",
+    "text": "The magnetic force is always zero where lines meet"
+   },
+   {
+    "id": "c",
+    "text": "Iron filings cannot settle at a point where lines meet"
+   },
+   {
+    "id": "d",
+    "text": "At the crossing point a compass needle would have to point in two directions at once, which is not possible"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Magnetic field due to current",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In panel (a) the current flows north to south in the wire above the compass and the north pole of the needle turns towards the east. The connections to the cells are then reversed, as in (b). What does the needle do?",
+  "image": {
+   "src": "/img/c10-magnetism/compass-wire-ab.svg",
+   "alt": "Two panels showing a wire above a compass with current in opposite directions"
+  },
+  "hint": "Reversing the current reverses the field.",
+  "explanation": "Reversing the cell connections reverses the **current direction** (now south to north). The **direction of the magnetic field produced by the current also reverses**, so the north pole of the needle is deflected the **opposite** way, towards the west.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Its north pole turns towards the west, because the field has reversed"
+   },
+   {
+    "id": "b",
+    "text": "Its north pole again turns east, but by a larger angle"
+   },
+   {
+    "id": "c",
+    "text": "It does not move, because the wire is still the same"
+   },
+   {
+    "id": "d",
+    "text": "Its north pole still turns east, but the south pole turns west"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Field around a straight wire",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Look along a long straight wire carrying current (the brown dot is the wire). Which picture shows the magnetic field lines around it?",
+  "hint": "The field lines close on themselves around the wire.",
+  "explanation": "Around a straight current-carrying wire the field lines are **concentric circles centred on the wire**. They get larger and farther apart as you move away, because the field becomes weaker with distance. Straight or radial lines are never produced by a straight wire.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-magnetism/pat-radial.svg",
+     "alt": "Straight lines spreading outwards from the wire"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-magnetism/pat-perp.svg",
+     "alt": "Parallel straight lines across the picture"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-magnetism/pat-parallel.svg",
+     "alt": "Parallel straight lines running left to right"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-magnetism/pat-ccw.svg",
+     "alt": "Concentric circles around the wire with arrows"
+    }
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Right-hand thumb rule",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A straight wire carries current **out of the page, towards you**. Using the right-hand thumb rule, which picture shows the direction of the field lines around it?",
+  "hint": "Point your right thumb towards you and watch which way the fingers curl.",
+  "explanation": "Hold the wire in your **right hand with the thumb along the current** (towards you). The fingers wrap around the wire **anticlockwise** as seen by you. If the current went into the page the field would be clockwise. Straight or radial lines are wrong because the field wraps around the wire.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-magnetism/pat-cw.svg",
+     "alt": "Circles with clockwise arrows"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-magnetism/pat-radial.svg",
+     "alt": "Lines pointing away from the wire"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-magnetism/pat-ccw.svg",
+     "alt": "Circles with anticlockwise arrows"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-magnetism/pat-parallel.svg",
+     "alt": "Parallel straight lines"
+    }
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Strength of the field",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The same wire and compass are used in both panels. The needle turns through a larger angle in the right panel, where the current is larger. What does this show?",
+  "image": {
+   "src": "/img/c10-magnetism/current-strength.svg",
+   "alt": "A wire above a compass with a small current and a large current, the needle turning more for the large current"
+  },
+  "hint": "A bigger deflection means a stronger field at the needle.",
+  "explanation": "A larger deflection shows a **stronger magnetic field** at that point. The field produced at a given point **increases as the current through the wire increases**. The needle responds to the field, not to the battery.",
+  "options": [
+   {
+    "id": "a",
+    "text": "The magnetic field decreases when the current increases"
+   },
+   {
+    "id": "b",
+    "text": "The magnetic field at a given point increases when the current increases"
+   },
+   {
+    "id": "c",
+    "text": "The magnetic field does not depend on the current"
+   },
+   {
+    "id": "d",
+    "text": "The compass needle is attracted only by the battery"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Right-hand thumb rule: power line",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A horizontal power line carries current from east to west. What is the direction of the magnetic field at point A directly above the wire and at point B directly below it?",
+  "image": {
+   "src": "/img/c10-magnetism/powerline.svg",
+   "alt": "A power line between two poles with points A above and B below the wire"
+  },
+  "hint": "Point your right thumb west and see where the fingers go over the top.",
+  "explanation": "Point the right thumb **west** (the current). Over the top of the wire the fingers curl towards the **north**, and underneath they curl towards the **south**. Seen from the east end the field turns **clockwise**, as the textbook says. The field is never along the wire (east-west): it circles around it.",
+  "options": [
+   {
+    "id": "a",
+    "text": "A: towards the south, B: towards the north"
+   },
+   {
+    "id": "b",
+    "text": "A: towards the east, B: towards the west"
+   },
+   {
+    "id": "c",
+    "text": "A: towards the north, B: towards the south"
+   },
+   {
+    "id": "d",
+    "text": "A: towards the west, B: towards the east"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Field at the centre of a loop",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A current flows through a circular loop of wire. Which picture shows what the magnetic field lines look like near the **centre** of the loop?",
+  "image": {
+   "src": "/img/c10-magnetism/loop-field.svg",
+   "alt": "Edge view of a loop with circles around each wire section and straight field lines through the middle"
+  },
+  "hint": "The circles around the wire grow larger and larger towards the centre.",
+  "explanation": "Near each part of the wire the field lines are circles. Far from the wire the circles are so large that their arcs look like **straight lines**, and every part of the loop sends its field the **same way** through the loop. So at the centre the field lines are **parallel straight lines**.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-magnetism/pat-radial.svg",
+     "alt": "Lines radiating outwards"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-magnetism/pat-cw.svg",
+     "alt": "Circles with clockwise arrows"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-magnetism/pat-ccw.svg",
+     "alt": "Circles with anticlockwise arrows"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-magnetism/pat-parallel.svg",
+     "alt": "Parallel straight lines"
+    }
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Coil with many turns",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A single circular loop carrying a current produces a magnetic field of strength B at its centre. A coil of **20 identical turns** carries the same current. What is the field at its centre?",
+  "image": {
+   "src": "/img/c10-magnetism/coil-turns.svg",
+   "alt": "A one-turn loop and a five-turn coil with a stronger field arrow for the coil"
+  },
+  "hint": "The current in every turn goes the same way, so their fields add up.",
+  "explanation": "The current in each turn has the **same direction**, so the field of every turn **adds up**. For a coil of n turns the field is **n times** that of one turn: 20 B. Common traps: thinking extra turns change nothing (B), dividing instead of multiplying (B/20), or squaring the number of turns (400 B).",
+  "options": [
+   {
+    "id": "a",
+    "text": "B"
+   },
+   {
+    "id": "b",
+    "text": "B/20"
+   },
+   {
+    "id": "c",
+    "text": "400 B"
+   },
+   {
+    "id": "d",
+    "text": "20 B"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Solenoid",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The magnetic field inside a long straight solenoid carrying current",
+  "image": {
+   "src": "/img/c10-magnetism/solenoid-lab.svg",
+   "alt": "A solenoid with straight parallel field lines inside and N and S ends"
+  },
+  "hint": "Look at the field lines inside the coil.",
+  "explanation": "Inside a long solenoid the field lines are **parallel straight lines**, which means the field has the **same strength and direction at all points**, that is, it is **uniform**. It is certainly not zero: that is where the field is strongest and used to magnetise iron.",
+  "options": [
+   {
+    "id": "a",
+    "text": "is zero"
+   },
+   {
+    "id": "b",
+    "text": "decreases as we move towards its end"
+   },
+   {
+    "id": "c",
+    "text": "is the same at all points"
+   },
+   {
+    "id": "d",
+    "text": "increases as we move towards its end"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a current-carrying conductor",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A current-carrying rod is placed in a magnetic field. The force on the rod is largest when the angle between the direction of the current and the magnetic field is",
+  "image": {
+   "src": "/img/c10-magnetism/rod-force.svg",
+   "alt": "End view of a rod between magnet poles with the force arrow to the left"
+  },
+  "hint": "Remember the three mutually perpendicular directions in Fleming's rule.",
+  "explanation": "Experiments show that the force on the conductor is **largest when the current is at right angles to the field**. Then the force is perpendicular to both. When the current is along (or against) the field, 0 or 180 degrees, there is no sideways push.",
+  "options": [
+   {
+    "id": "a",
+    "text": "90 degrees (at right angles)"
+   },
+   {
+    "id": "b",
+    "text": "0 degrees (along the field)"
+   },
+   {
+    "id": "c",
+    "text": "45 degrees"
+   },
+   {
+    "id": "d",
+    "text": "180 degrees (opposite to the field)"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Fleming's left-hand rule",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "In the end view, the rod carries current **into the page**. The magnetic field points **up**, from the lower pole to the upper pole. Using Fleming's left-hand rule, which arrow shows the force on the rod?",
+  "image": {
+   "src": "/img/c10-magnetism/rod-in.svg",
+   "alt": "End view of a rod with current into the page between magnet poles with the field pointing up"
+  },
+  "hint": "The force is at right angles to both the field and the current.",
+  "explanation": "Forefinger up (field), middle finger into the page (current): the **thumb points to the right**, the direction of the force. Compare the textbook activity: with current in one direction the rod moved left, and **reversing the current reverses the force**, so the opposite current gives the opposite (right) push. Up or down would be along the field, but the force is always perpendicular to the field.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-magnetism/dir-left.svg",
+     "alt": "An arrow pointing left"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-magnetism/dir-right.svg",
+     "alt": "An arrow pointing right"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-magnetism/dir-up.svg",
+     "alt": "An arrow pointing up"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-magnetism/dir-down.svg",
+     "alt": "An arrow pointing down"
+    }
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Fleming's left-hand rule",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A horizontal wire carries current to the **right** in a magnetic field directed **into the page**. In which direction is the force on the wire?",
+  "image": {
+   "src": "/img/c10-magnetism/wire-in-field.svg",
+   "alt": "A wire carrying current to the right in a magnetic field into the page"
+  },
+  "hint": "Forefinger into the page, middle finger to the right: where is the thumb?",
+  "explanation": "Point the **forefinger into the page** (field) and the **middle finger to the right** (current). The thumb then points **up the page**, the direction of the force. The force can never be along the wire or along the field: it is perpendicular to both, so 'right' and 'into the page' are impossible.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Towards the bottom of the page"
+   },
+   {
+    "id": "b",
+    "text": "Into the page"
+   },
+   {
+    "id": "c",
+    "text": "To the right, along the wire"
+   },
+   {
+    "id": "d",
+    "text": "Towards the top of the page"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a moving charge",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "An electron enters a magnetic field that points up the page, moving to the right. Remember that the direction of conventional current is opposite to the direction of motion of electrons. The force on the electron is",
+  "image": {
+   "src": "/img/c10-magnetism/electron-field.svg",
+   "alt": "An electron moving right in a magnetic field pointing up the page"
+  },
+  "hint": "Reverse the electron's direction to get the conventional current first.",
+  "explanation": "The conventional current is **opposite** to the motion of the electron, so it points to the **left**. With the forefinger up (field) and the middle finger to the left (current), the thumb points **into the page**. The force is perpendicular to both the field and the velocity, so 'left' and 'right' are impossible; 'out of the page' is what you get if you forget to reverse the current.",
+  "options": [
+   {
+    "id": "a",
+    "text": "out of the page"
+   },
+   {
+    "id": "b",
+    "text": "into the page"
+   },
+   {
+    "id": "c",
+    "text": "to the left"
+   },
+   {
+    "id": "d",
+    "text": "to the right"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a moving charge",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A positively charged alpha particle moving towards the west is deflected towards the north by a magnetic field. The direction of the magnetic field is",
+  "image": {
+   "src": "/img/c10-magnetism/alpha-map.svg",
+   "alt": "A map showing an alpha particle moving west and bending north"
+  },
+  "hint": "Current is towards west, force is towards north: find the missing finger.",
+  "explanation": "For a positive charge the current is **along its motion (west)**, and the force is **north**. With the middle finger west and the thumb north, the forefinger (field) points **upward**. The field cannot be south or east because the force would then be zero or in a horizontal plane, not at right angles to all three.",
+  "options": [
+   {
+    "id": "a",
+    "text": "towards the south"
+   },
+   {
+    "id": "b",
+    "text": "towards the east"
+   },
+   {
+    "id": "c",
+    "text": "downward"
+   },
+   {
+    "id": "d",
+    "text": "upward"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a moving charge",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "You sit in a chamber with your back to one wall. An electron beam travelling horizontally from the back wall towards the front wall is deflected towards your **right** side. The direction of the magnetic field is",
+  "image": {
+   "src": "/img/c10-magnetism/electron-beam.svg",
+   "alt": "Top view of a chamber with an electron beam bending to the right"
+  },
+  "hint": "Electrons move forward, so the current points backward.",
+  "explanation": "The electrons move forward, so the **conventional current points backward** (towards you). The force is to your **right**. With the middle finger backward and the thumb to the right, the forefinger (field) points **downward**. A field along the beam (towards the front wall) would give no force, and 'upward' is the reverse of the correct answer.",
+  "options": [
+   {
+    "id": "a",
+    "text": "downward"
+   },
+   {
+    "id": "b",
+    "text": "upward"
+   },
+   {
+    "id": "c",
+    "text": "towards your left"
+   },
+   {
+    "id": "d",
+    "text": "towards the front wall"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Short circuit",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "At the time of a short circuit, the current in the circuit",
+  "image": {
+   "src": "/img/c10-magnetism/short-circuit.svg",
+   "alt": "A live wire touching a neutral wire with a spark"
+  },
+  "hint": "Live and neutral touch directly, so almost nothing resists the current.",
+  "explanation": "In a short circuit the live and neutral wires touch, so the **resistance is almost zero** and the current **abruptly becomes very large**. This overheats the wires, which is why a fuse is used.",
+  "options": [
+   {
+    "id": "a",
+    "text": "reduces substantially"
+   },
+   {
+    "id": "b",
+    "text": "increases heavily"
+   },
+   {
+    "id": "c",
+    "text": "does not change"
+   },
+   {
+    "id": "d",
+    "text": "varies continuously"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Domestic circuits: power and current",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "An electric oven of 2 kW power rating is operated on a 220 V domestic circuit that has a current rating of 5 A. What do you expect?",
+  "image": {
+   "src": "/img/c10-magnetism/oven.svg",
+   "alt": "A 2 kilowatt oven connected to a 220 volt 5 ampere circuit"
+  },
+  "hint": "Use I = P / V and convert kilowatts to watts first.",
+  "explanation": "$I = \\dfrac{P}{V} = \\dfrac{2000\\ \\text{W}}{220\\ \\text{V}} \\approx 9.1\\ \\text{A}$. This is more than the 5 A rating, so the circuit is **overloaded** and the **fuse melts**. Traps: dividing $V$ by $P$ gives 0.11 A; multiplying $P$ and $V$ gives a meaningless 440 000; using 2 instead of 2000 W (forgetting kW to W) gives 0.009 A.",
+  "options": [
+   {
+    "id": "a",
+    "text": "The current is about 0.11 A, so the oven works normally"
+   },
+   {
+    "id": "b",
+    "text": "The current is 440 A, so the oven burns at once"
+   },
+   {
+    "id": "c",
+    "text": "The current is about 9.1 A, which is more than 5 A, so the fuse melts and the circuit breaks"
+   },
+   {
+    "id": "d",
+    "text": "The current is about 0.009 A, so the oven works normally"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Household wiring",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which picture shows how appliances are connected in a house, and why?",
+  "image": {
+   "src": "/img/c10-magnetism/domestic-circuit.svg",
+   "alt": "A household circuit with live, neutral and earth wires, a meter, a fuse and appliances"
+  },
+  "hint": "Each appliance needs the full supply voltage and its own switch.",
+  "explanation": "In houses appliances are connected **in parallel** across the live and neutral wires. Each then gets the **same potential difference (220 V)** and can be switched on or off **separately**. In series, the same current would pass through every appliance, they would not get full voltage, and switching one off would switch off all.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-magnetism/house-ser.svg",
+     "alt": "Two bulbs in one loop, one after the other"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-magnetism/house-ser3.svg",
+     "alt": "Three bulbs in one loop, one after another"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-magnetism/house-par.svg",
+     "alt": "Two bulbs each connected across the supply on its own branch"
+    }
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Field lines of a bar magnet",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Magnetic field lines emerge from the north pole of a magnet. Tap the **north pole** of this bar magnet.",
+  "image": {
+   "src": "/img/c10-magnetism/bar-field.svg",
+   "alt": "A bar magnet with field lines and arrows pointing from the left end to the right end"
+  },
+  "hint": "Look at where the arrows leave the magnet.",
+  "explanation": "By convention the field lines **emerge from the north pole** and **merge at the south pole**. The arrows leave the magnet at the **left** end, so that is the north pole.",
+  "spots": [
+   {
+    "id": "n",
+    "x": 40.0,
+    "y": 50.0,
+    "label": "North pole (field lines emerge here)"
+   },
+   {
+    "id": "s",
+    "x": 60.0,
+    "y": 50.0,
+    "label": "South pole (field lines end here)"
+   },
+   {
+    "id": "l",
+    "x": 50.0,
+    "y": 22.9,
+    "label": "A field line outside the magnet"
+   },
+   {
+    "id": "f",
+    "x": 87.5,
+    "y": 85.4,
+    "label": "Region far from the magnet (weak field)"
+   }
+  ],
+  "answer": "n"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Strength of the magnetic field",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "The strength of the field is shown by how close the lines are. Tap the region where the field of the magnet is **weakest**.",
+  "image": {
+   "src": "/img/c10-magnetism/bar-field.svg",
+   "alt": "A bar magnet with field lines and arrows pointing from the left end to the right end"
+  },
+  "hint": "Look for where the lines are far apart.",
+  "explanation": "Field lines are **crowded near the poles**, where the field is strongest, and **spread apart far from the magnet**, where the field is weakest. The region far to the lower right has no lines nearby, so the field is weakest there.",
+  "spots": [
+   {
+    "id": "n",
+    "x": 40.0,
+    "y": 50.0,
+    "label": "North pole (field lines emerge here)"
+   },
+   {
+    "id": "s",
+    "x": 60.0,
+    "y": 50.0,
+    "label": "South pole (field lines end here)"
+   },
+   {
+    "id": "l",
+    "x": 50.0,
+    "y": 22.9,
+    "label": "A field line outside the magnet"
+   },
+   {
+    "id": "f",
+    "x": 87.5,
+    "y": 85.4,
+    "label": "Region far from the magnet (weak field)"
+   }
+  ],
+  "answer": "f"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Solenoid as a magnet",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "A current-carrying solenoid behaves like a bar magnet. Tap the **end that behaves as the north pole**.",
+  "image": {
+   "src": "/img/c10-magnetism/solenoid.svg",
+   "alt": "A solenoid connected to a battery with field lines through the coil pointing to the right"
+  },
+  "hint": "Field lines come out of the north pole.",
+  "explanation": "Inside the solenoid the field lines point to the **right**, so they come out of the **right-hand end**. That end behaves as the **north pole** and the other end as the south pole. The field inside is uniform, and outside it looks like that of a bar magnet.",
+  "spots": [
+   {
+    "id": "n",
+    "x": 76.2,
+    "y": 41.7,
+    "label": "North pole end of the solenoid"
+   },
+   {
+    "id": "s",
+    "x": 23.8,
+    "y": 41.7,
+    "label": "South pole end of the solenoid"
+   },
+   {
+    "id": "i",
+    "x": 50.0,
+    "y": 41.7,
+    "label": "Uniform field inside the solenoid"
+   },
+   {
+    "id": "o",
+    "x": 50.0,
+    "y": 8.3,
+    "label": "Field line returning outside the solenoid"
+   },
+   {
+    "id": "b",
+    "x": 50.0,
+    "y": 85.4,
+    "label": "Battery"
+   }
+  ],
+  "answer": "n"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Field around a straight wire",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The wire carries current out of the page. Tap the **compass that shows the larger deflection**.",
+  "image": {
+   "src": "/img/c10-magnetism/wire-circles.svg",
+   "alt": "Concentric circles around a wire with compasses at P and Q"
+  },
+  "hint": "The field is stronger nearer the wire.",
+  "explanation": "The magnetic field produced by a given current **decreases as the distance from the wire increases**. P is much closer to the wire than Q, so the field is stronger there and the needle at **P** is deflected more.",
+  "spots": [
+   {
+    "id": "p",
+    "x": 51.2,
+    "y": 50.0,
+    "label": "Compass at P (close to the wire)"
+   },
+   {
+    "id": "q",
+    "x": 18.2,
+    "y": 22.1,
+    "label": "Compass at Q (far from the wire)"
+   },
+   {
+    "id": "w",
+    "x": 35.0,
+    "y": 50.0,
+    "label": "The current-carrying wire"
+   },
+   {
+    "id": "c",
+    "x": 35.0,
+    "y": 10.4,
+    "label": "The largest field line circle"
+   }
+  ],
+  "answer": "p"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a conductor",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "The field between the poles points **upward**. Tap the **north pole** of the magnet.",
+  "image": {
+   "src": "/img/c10-magnetism/rod-force.svg",
+   "alt": "End view of a rod between two grey pole pieces with a green field arrow pointing up and an orange force arrow"
+  },
+  "hint": "Field lines go from north to south between the poles.",
+  "explanation": "Between the poles the field lines run **from the north pole to the south pole**. The field points up, so it starts at the **lower** pole and ends at the upper one: the lower pole is the **north pole**.",
+  "spots": [
+   {
+    "id": "rod",
+    "x": 46.2,
+    "y": 47.9,
+    "label": "Aluminium rod (end view)"
+   },
+   {
+    "id": "s",
+    "x": 47.5,
+    "y": 18.3,
+    "label": "South pole (upper)"
+   },
+   {
+    "id": "n",
+    "x": 47.5,
+    "y": 77.5,
+    "label": "North pole (lower)"
+   },
+   {
+    "id": "fld",
+    "x": 60.0,
+    "y": 47.9,
+    "label": "Magnetic field direction"
+   },
+   {
+    "id": "frc",
+    "x": 33.5,
+    "y": 47.9,
+    "label": "Direction of the force on the rod"
+   }
+  ],
+  "answer": "n"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Fleming's left-hand rule",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In Fleming's left-hand rule the three fingers are at right angles. Tap the **forefinger**, which points in the direction of the **magnetic field**.",
+  "image": {
+   "src": "/img/c10-magnetism/fleming-hand.svg",
+   "alt": "A left hand with thumb up, forefinger to the right and middle finger pointing down and to the left"
+  },
+  "hint": "First finger, second finger, thumb.",
+  "explanation": "Stretch the thumb, forefinger and middle finger of the left hand at right angles. The **forefinger = magnetic field**, the **middle finger = current** and the **thumb = motion (force)** on the conductor.",
+  "spots": [
+   {
+    "id": "t",
+    "x": 45.0,
+    "y": 33.3,
+    "label": "Thumb (direction of motion or force)"
+   },
+   {
+    "id": "f",
+    "x": 67.5,
+    "y": 62.5,
+    "label": "Forefinger (direction of magnetic field)"
+   },
+   {
+    "id": "m",
+    "x": 31.2,
+    "y": 76.7,
+    "label": "Middle finger (direction of current)"
+   },
+   {
+    "id": "p",
+    "x": 45.0,
+    "y": 62.5,
+    "label": "Palm"
+   }
+  ],
+  "answer": "f"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Domestic electric circuits",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **live wire**, the one that is usually covered with red insulation.",
+  "image": {
+   "src": "/img/c10-magnetism/domestic-circuit.svg",
+   "alt": "A household circuit with a red live wire, a black neutral wire, a green earth wire, a fuse and a meter"
+  },
+  "hint": "Red is live, black is neutral, green is earth.",
+  "explanation": "The **live (positive) wire has red insulation**, the **neutral wire has black insulation** and the **earth wire has green insulation**. The potential difference between live and neutral is 220 V.",
+  "spots": [
+   {
+    "id": "live",
+    "x": 55.0,
+    "y": 16.7,
+    "label": "Live wire (red insulation)"
+   },
+   {
+    "id": "neu",
+    "x": 55.0,
+    "y": 70.8,
+    "label": "Neutral wire (black insulation)"
+   },
+   {
+    "id": "ear",
+    "x": 50.0,
+    "y": 87.5,
+    "label": "Earth wire (green insulation)"
+   },
+   {
+    "id": "fuse",
+    "x": 32.2,
+    "y": 16.7,
+    "label": "Fuse"
+   },
+   {
+    "id": "meter",
+    "x": 18.8,
+    "y": 43.8,
+    "label": "Electricity meter"
+   }
+  ],
+  "answer": "live"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Fuse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the safety device that **melts to break the circuit** when the current becomes unusually large.",
+  "image": {
+   "src": "/img/c10-magnetism/domestic-circuit.svg",
+   "alt": "A household circuit with a fuse on the live wire, a meter and bulbs"
+  },
+  "hint": "It works by the heating effect of current.",
+  "explanation": "The **fuse** is in series with the live wire. When the current is too large the **Joule heating melts the fuse wire** and breaks the circuit, protecting the appliances from **overloading** or **short-circuiting**. The switch only turns an appliance on or off by hand.",
+  "spots": [
+   {
+    "id": "fuse",
+    "x": 32.2,
+    "y": 16.7,
+    "label": "Fuse"
+   },
+   {
+    "id": "meter",
+    "x": 18.8,
+    "y": 43.8,
+    "label": "Electricity meter"
+   },
+   {
+    "id": "bulb",
+    "x": 47.5,
+    "y": 45.8,
+    "label": "Bulb"
+   },
+   {
+    "id": "sw",
+    "x": 62.5,
+    "y": 33.3,
+    "label": "Switch of an appliance"
+   },
+   {
+    "id": "plate",
+    "x": 11.2,
+    "y": 95.0,
+    "label": "Earth plate buried in the ground"
+   }
+  ],
+  "answer": "fuse"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Earth wire",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the wire that connects the **metal body of an appliance to the ground** for safety.",
+  "image": {
+   "src": "/img/c10-magnetism/domestic-circuit.svg",
+   "alt": "A household circuit with live, neutral and earth wires and a metal-bodied appliance"
+  },
+  "hint": "It has green insulation and goes to a plate deep in the earth.",
+  "explanation": "The **earth wire (green)** gives a **low-resistance path** to the earth plate, so any leakage of current to the metal body keeps the body at the **potential of the earth** and the user does not get a severe shock.",
+  "spots": [
+   {
+    "id": "live",
+    "x": 55.0,
+    "y": 16.7,
+    "label": "Live wire (red insulation)"
+   },
+   {
+    "id": "neu",
+    "x": 55.0,
+    "y": 70.8,
+    "label": "Neutral wire (black insulation)"
+   },
+   {
+    "id": "ear",
+    "x": 50.0,
+    "y": 87.5,
+    "label": "Earth wire (green insulation)"
+   },
+   {
+    "id": "meter",
+    "x": 18.8,
+    "y": 43.8,
+    "label": "Electricity meter"
+   },
+   {
+    "id": "metal",
+    "x": 89.5,
+    "y": 45.8,
+    "label": "Metal body of an appliance"
+   }
+  ],
+  "answer": "ear"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Properties of field lines",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** the correct statements about magnetic field lines.",
+  "image": {
+   "src": "/img/c10-magnetism/bar-field-lab.svg",
+   "alt": "A labelled bar magnet and its field lines"
+  },
+  "hint": "Remember the closed loops and what crowded lines mean.",
+  "explanation": "**True:** lines leave N and enter S outside the magnet; they are closed curves (inside they run **S to N**); crowded lines mean a **stronger field**. **False:** field lines **never cross** (a needle cannot point two ways), and inside a magnet they run S to N, not N to S.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Outside a magnet they emerge from the north pole and merge at the south pole"
+   },
+   {
+    "id": "b",
+    "text": "Magnetic field lines are closed curves"
+   },
+   {
+    "id": "c",
+    "text": "The field is stronger where the lines are crowded"
+   },
+   {
+    "id": "d",
+    "text": "Two field lines may cross where the field is very strong"
+   },
+   {
+    "id": "e",
+    "text": "Inside a magnet the lines run from the north pole to the south pole"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ]
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a conductor",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "In the rod experiment, the displacement of the rod increases when we do which of the following? Select all that apply.",
+  "image": {
+   "src": "/img/c10-magnetism/rod-force.svg",
+   "alt": "End view of the rod in the magnetic field"
+  },
+  "hint": "Bigger current, bigger field and more conductor in the field all help.",
+  "explanation": "The force on the rod grows with a **larger current**, a **stronger magnetic field** and a **longer length of rod in the field**. A weaker magnet or a smaller current reduces the force.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Increase the current in the rod"
+   },
+   {
+    "id": "b",
+    "text": "Use a stronger horse-shoe magnet"
+   },
+   {
+    "id": "c",
+    "text": "Increase the length of the rod in the field"
+   },
+   {
+    "id": "d",
+    "text": "Use a weaker magnet"
+   },
+   {
+    "id": "e",
+    "text": "Reduce the current"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ]
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Charged particle in a field",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which properties of a proton can change while it moves freely in a magnetic field? Select all that apply.",
+  "image": {
+   "src": "/img/c10-magnetism/electron-field.svg",
+   "alt": "A charged particle moving in a magnetic field"
+  },
+  "hint": "The force on it is always at right angles to its motion.",
+  "explanation": "The force is always **perpendicular to the velocity**, so it changes the **direction** but not the speed. Direction change means the **velocity** changes, and so does the **momentum** (a vector). The **mass** and the **speed** stay the same.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Mass"
+   },
+   {
+    "id": "b",
+    "text": "Speed"
+   },
+   {
+    "id": "c",
+    "text": "Velocity"
+   },
+   {
+    "id": "d",
+    "text": "Momentum"
+   }
+  ],
+  "answers": [
+   "c",
+   "d"
+  ]
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Safety in domestic circuits",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are safety measures used in domestic electric circuits? Select all that apply.",
+  "image": {
+   "src": "/img/c10-magnetism/fuse.svg",
+   "alt": "A fuse wire melting in a glass holder"
+  },
+  "hint": "One stops overloading, the other stops shocks.",
+  "explanation": "A **fuse** protects against overloading and short circuits, and an **earth wire** protects the user from shocks. Plugging in many appliances into one socket **causes overloading**, and the live wire has **red** insulation, not green (green is the earth wire).",
+  "options": [
+   {
+    "id": "a",
+    "text": "A fuse in the live wire"
+   },
+   {
+    "id": "b",
+    "text": "An earth wire connected to the metal body of appliances"
+   },
+   {
+    "id": "c",
+    "text": "Connecting many high-power appliances to a single socket"
+   },
+   {
+    "id": "d",
+    "text": "Using green insulation for the live wire"
+   }
+  ],
+  "answers": [
+   "a",
+   "b"
+  ]
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Uses of the magnetic force on a conductor",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these devices use current-carrying conductors and magnetic fields? Select all that apply.",
+  "image": {
+   "src": "/img/c10-magnetism/fleming-hand-lab.svg",
+   "alt": "A left hand with the thumb, forefinger and middle finger labelled force, field and current"
+  },
+  "hint": "A toaster works on a different effect of current.",
+  "explanation": "The textbook lists **electric motors, generators, loudspeakers, microphones and measuring instruments** as devices using current-carrying conductors and magnetic fields. A **toaster** works on the **heating effect** of current instead.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Electric motor"
+   },
+   {
+    "id": "b",
+    "text": "Loudspeaker"
+   },
+   {
+    "id": "c",
+    "text": "Microphone"
+   },
+   {
+    "id": "d",
+    "text": "Electric toaster (heating element)"
+   },
+   {
+    "id": "e",
+    "text": "Measuring instruments such as an ammeter"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "e"
+  ]
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Drawing field lines with a compass",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of the activity for drawing a magnetic field line of a bar magnet with a compass.",
+  "image": {
+   "src": "/img/c10-magnetism/compass-trace.svg",
+   "alt": "Compass needles along a field line of a bar magnet"
+  },
+  "hint": "Mark, move, mark again, then join.",
+  "explanation": "You **mark the magnet's outline**, place the compass, **mark both needle ends**, then **move it so the south end of the needle sits where the north end was**. Repeating until the other pole gives the points of one field line, which you **join with a smooth curve**.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "Move the needle so that its south pole is where its north pole was"
+   },
+   {
+    "id": "s1",
+    "text": "Place the bar magnet on a sheet of paper and mark its boundary"
+   },
+   {
+    "id": "s4",
+    "text": "Repeat step by step until the south pole of the magnet is reached"
+   },
+   {
+    "id": "s2",
+    "text": "Place the compass near the north pole of the magnet and mark the two ends of the needle"
+   },
+   {
+    "id": "s5",
+    "text": "Join all the marked points with a smooth curve"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Strength of the field of a coil",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Each coil carries the same current. Arrange the coils from the weakest to the strongest magnetic field at the centre.",
+  "image": {
+   "src": "/img/c10-magnetism/coil-turns.svg",
+   "alt": "A one-turn loop and a five-turn coil"
+  },
+  "hint": "Field is proportional to the number of turns.",
+  "explanation": "The field at the centre of a circular coil is **n times** the field of a single turn, because the field of every turn adds up. So the field grows with the number of turns: 1, 5, 20, 50.",
+  "items": [
+   {
+    "id": "s2",
+    "text": "5 turns"
+   },
+   {
+    "id": "s4",
+    "text": "50 turns"
+   },
+   {
+    "id": "s1",
+    "text": "1 turn"
+   },
+   {
+    "id": "s3",
+    "text": "20 turns"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "Weakest",
+  "endLabel": "Strongest"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Electromagnet",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of making an electromagnet in the correct order.",
+  "image": {
+   "src": "/img/c10-magnetism/electromagnet.svg",
+   "alt": "A soft iron core inside a coil attracting iron nails"
+  },
+  "hint": "The coil comes first and the current is what magnetises the core.",
+  "explanation": "Make the **solenoid** from insulated copper wire, put **soft iron** in it and pass a **current**. The strong, uniform field inside the solenoid then **magnetises** the soft iron, giving an **electromagnet**.",
+  "items": [
+   {
+    "id": "s2",
+    "text": "Place a piece of soft iron inside the coil"
+   },
+   {
+    "id": "s4",
+    "text": "The strong field inside the solenoid magnetises the iron, forming an electromagnet"
+   },
+   {
+    "id": "s1",
+    "text": "Wrap insulated copper wire closely in the shape of a cylinder to make a solenoid"
+   },
+   {
+    "id": "s3",
+    "text": "Connect the coil to a battery so that a current flows"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Force on a current-carrying rod",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the observations of the aluminium rod experiment (Activity 12.7) in order.",
+  "image": {
+   "src": "/img/c10-magnetism/rod-force.svg",
+   "alt": "End view of a rod between the poles of a magnet"
+  },
+  "hint": "Setup, current, effect, reversal, new effect.",
+  "explanation": "The rod is **hung in an upward field**, a current from B to A makes it **move left**; reversing the current **reverses the force**, so it moves **right**. This shows the force depends on the direction of the current.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "The rod is displaced towards the left"
+   },
+   {
+    "id": "s1",
+    "text": "Hang the aluminium rod AB between the poles of a horse-shoe magnet with the field pointing up"
+   },
+   {
+    "id": "s4",
+    "text": "Reverse the direction of the current"
+   },
+   {
+    "id": "s2",
+    "text": "Pass a current through the rod from B to A"
+   },
+   {
+    "id": "s5",
+    "text": "The rod is displaced towards the right"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Short circuit and fuse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these events in the order in which they happen when a fault causes a short circuit and the fuse does its job.",
+  "image": {
+   "src": "/img/c10-magnetism/short-circuit.svg",
+   "alt": "A live wire touching a neutral wire"
+  },
+  "hint": "Cause, contact, large current, heating, break.",
+  "explanation": "A fault lets the **live and neutral wires touch**, the **current rises abruptly** (short circuit), the **Joule heating melts the fuse wire** and the circuit is **broken**, which saves the appliance and wiring.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "The current in the circuit increases abruptly"
+   },
+   {
+    "id": "s1",
+    "text": "The insulation of the wires is damaged or the appliance becomes faulty"
+   },
+   {
+    "id": "s4",
+    "text": "Joule heating melts the fuse wire"
+   },
+   {
+    "id": "s2",
+    "text": "The live wire and the neutral wire touch each other"
+   },
+   {
+    "id": "s5",
+    "text": "The circuit is broken and the current stops"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Oersted's discovery",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-magnetism/oersted.svg",
+   "alt": "A compass near a current-carrying wire"
+  },
+  "hint": "The needle responds to a magnetic field.",
+  "explanation": "Both are true and R explains A. The current produces a **magnetic field** around the wire; the needle is a small magnet and is deflected by this field.",
+  "assertion": "A compass needle kept near a wire carrying current gets deflected.",
+  "reason": "A wire carrying current produces a magnetic field around it.",
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Oersted's discovery",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-magnetism/compass-wire-ab.svg",
+   "alt": "A compass near a wire with the current in two directions"
+  },
+  "hint": "Is the unit named because of the deflection, or because of him?",
+  "explanation": "Both statements are true, but the unit is named **after the scientist**; it is not the reason the compass is deflected. So R does **not** explain A.",
+  "assertion": "In 1820 Oersted noticed that a compass needle was deflected by an electric current.",
+  "reason": "The unit of magnetic field strength is called the oersted in his honour.",
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Magnetic field and current",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-magnetism/current-strength.svg",
+   "alt": "Compass deflections for a small and a large current"
+  },
+  "hint": "Does a bigger current make a stronger field?",
+  "explanation": "A is true. R is **false**: the field at a point **increases as the current increases**, which is why the deflection increases.",
+  "assertion": "Increasing the current in a straight wire increases the deflection of a compass placed near it.",
+  "reason": "The magnetic field produced by a current-carrying wire does not depend on the current.",
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Fuse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-magnetism/fuse.svg",
+   "alt": "A fuse wire melting inside a glass holder"
+  },
+  "hint": "All the current must pass through the fuse.",
+  "explanation": "A is **false**: the fuse is connected **in series** with the live wire, so that the whole current passes through it. R is true: the fuse melts because of the **heating effect (Joule heating)**.",
+  "assertion": "A fuse is connected in parallel with the appliance it protects.",
+  "reason": "A fuse wire melts due to Joule heating when the current in it becomes too large.",
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Earth wire",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-magnetism/earth-wire.svg",
+   "alt": "A leaking live wire touching a metal body with an earth wire to the ground"
+  },
+  "hint": "Think of what happens if the live wire touches the metal body.",
+  "explanation": "Both are true and R explains A. With the body earthed, a leakage current flows safely to the ground through the **low-resistance** earth wire and the user avoids a severe shock.",
+  "assertion": "The metallic body of appliances such as a toaster or refrigerator is connected to the earth wire.",
+  "reason": "The earth wire provides a low-resistance path for any leakage current, keeping the body at the potential of the earth.",
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Poles of magnets",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each picture of two bar magnets with what the magnets do.",
+  "hint": "Like poles repel, unlike poles attract.",
+  "explanation": "**Like poles repel** and **unlike poles attract**. In picture 1 the facing poles are N and S (attract); in picture 2 both facing poles are N (repel); in picture 3 both facing poles are S (repel).",
+  "left": [
+   {
+    "id": "l1",
+    "image": {
+     "src": "/img/c10-magnetism/pair-att.svg",
+     "alt": "N and S facing"
+    },
+    "text": "Picture 1"
+   },
+   {
+    "id": "l2",
+    "image": {
+     "src": "/img/c10-magnetism/pair-rep-nn.svg",
+     "alt": "N and N facing"
+    },
+    "text": "Picture 2"
+   },
+   {
+    "id": "l3",
+    "image": {
+     "src": "/img/c10-magnetism/pair-rep-ss.svg",
+     "alt": "S and S facing"
+    },
+    "text": "Picture 3"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "The magnets attract each other"
+   },
+   {
+    "id": "r2",
+    "text": "The magnets repel: north poles face each other"
+   },
+   {
+    "id": "r3",
+    "text": "The magnets repel: south poles face each other"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3"
+  }
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Magnetic field patterns",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each field pattern with the current that produces it.",
+  "hint": "Circles, straight lines at the centre, bar-magnet pattern.",
+  "explanation": "A **straight wire** gives **concentric circles**; a **circular loop** gives circles that become **straight lines at the centre**; a **solenoid** gives a field like that of a **bar magnet**, uniform inside.",
+  "left": [
+   {
+    "id": "l1",
+    "image": {
+     "src": "/img/c10-magnetism/wire-circles.svg",
+     "alt": "Concentric circles around a wire"
+    },
+    "text": "Pattern A"
+   },
+   {
+    "id": "l2",
+    "image": {
+     "src": "/img/c10-magnetism/loop-field.svg",
+     "alt": "Straight lines at the centre of a loop"
+    },
+    "text": "Pattern B"
+   },
+   {
+    "id": "l3",
+    "image": {
+     "src": "/img/c10-magnetism/bar-vs-solenoid.svg",
+     "alt": "A bar magnet and a solenoid with similar fields"
+    },
+    "text": "Pattern C"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Current in a straight wire"
+   },
+   {
+    "id": "r2",
+    "text": "Current in a circular loop"
+   },
+   {
+    "id": "r3",
+    "text": "Current in a solenoid"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3"
+  }
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Fleming's left-hand rule",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each finger of the left hand with the quantity it represents in Fleming's left-hand rule.",
+  "image": {
+   "src": "/img/c10-magnetism/fleming-hand.svg",
+   "alt": "A left hand with thumb, forefinger and middle finger at right angles"
+  },
+  "hint": "First finger = field, second finger = current.",
+  "explanation": "**Forefinger: field. Middle finger: current. Thumb: force (motion).** The three directions are mutually perpendicular.",
+  "left": [
+   {
+    "id": "l1",
+    "text": "Forefinger"
+   },
+   {
+    "id": "l2",
+    "text": "Middle finger"
+   },
+   {
+    "id": "l3",
+    "text": "Thumb"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Direction of the current"
+   },
+   {
+    "id": "r2",
+    "text": "Direction of the magnetic field"
+   },
+   {
+    "id": "r3",
+    "text": "Direction of motion (force) of the conductor"
+   }
+  ],
+  "pairs": {
+   "l1": "r2",
+   "l2": "r1",
+   "l3": "r3"
+  }
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Domestic circuits: wire colours",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each wire insulation colour with the wire.",
+  "hint": "Red = live, black = neutral.",
+  "explanation": "In Indian domestic wiring the **live wire is red**, the **neutral wire is black** and the **earth wire is green**.",
+  "left": [
+   {
+    "id": "l1",
+    "image": {
+     "src": "/img/c10-magnetism/wire-red.svg",
+     "alt": "Red insulated wire"
+    },
+    "text": "Red insulation"
+   },
+   {
+    "id": "l2",
+    "image": {
+     "src": "/img/c10-magnetism/wire-black.svg",
+     "alt": "Black insulated wire"
+    },
+    "text": "Black insulation"
+   },
+   {
+    "id": "l3",
+    "image": {
+     "src": "/img/c10-magnetism/wire-green.svg",
+     "alt": "Green insulated wire"
+    },
+    "text": "Green insulation"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Live wire"
+   },
+   {
+    "id": "r2",
+    "text": "Neutral wire"
+   },
+   {
+    "id": "r3",
+    "text": "Earth wire"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3"
+  }
+ },
+ {
+  "id": "in-cbse-10-phy-magnetism-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "physics",
+  "chapter": "Magnetic Effects of Electric Current",
+  "chapterNo": 4,
+  "topic": "Domestic circuits",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each item of a domestic circuit with its use.",
+  "image": {
+   "src": "/img/c10-magnetism/domestic-circuit.svg",
+   "alt": "A household circuit with live, neutral and earth wires, a fuse and appliances"
+  },
+  "hint": "High-power appliances need the higher rating.",
+  "explanation": "The **15 A** circuit is used for high-power appliances like geysers and air coolers, the **5 A** one for bulbs and fans. The **earth wire** gives a low-resistance path for leakage and the **fuse** melts to stop an excessive current.",
+  "left": [
+   {
+    "id": "l1",
+    "text": "15 A circuit"
+   },
+   {
+    "id": "l2",
+    "text": "5 A circuit"
+   },
+   {
+    "id": "l3",
+    "text": "Earth wire"
+   },
+   {
+    "id": "l4",
+    "text": "Fuse"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Geyser, air cooler"
+   },
+   {
+    "id": "r2",
+    "text": "Bulbs, fans"
+   },
+   {
+    "id": "r3",
+    "text": "Low-resistance path for leakage current to the ground"
+   },
+   {
+    "id": "r4",
+    "text": "Melts by Joule heating when the current is too high"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  }
+ }
+]

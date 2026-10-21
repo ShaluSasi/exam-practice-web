@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A shop shelf with a gas cylinder, a necklace, a honey jar, a shirt and a notebook</title><style>text{font-family:sans-serif}
+.bob{animation:bob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{animation:flow 1.6s linear infinite}
+.slide{animation:slide 3s ease-in-out infinite}
+.grow{animation:grow 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+.puff{animation:puff 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes slide{0%,100%{transform:translateX(0)}50%{transform:translateX(26px)}}
+@keyframes grow{0%{transform:scaleX(.25)}60%,100%{transform:scaleX(1)}}
+@keyframes puff{0%{transform:translateY(0) scale(.6);opacity:.9}100%{transform:translateY(-26px) scale(1.3);opacity:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="14" y="28" width="372" height="196" rx="8" fill="#F1E3CC" stroke="#2B2F4A" stroke-width="3" /><rect x="14" y="120" width="372" height="8" rx="2" fill="#8A6B4A" stroke="#2B2F4A" stroke-width="0" /><rect x="14" y="216" width="372" height="8" rx="2" fill="#8A6B4A" stroke="#2B2F4A" stroke-width="0" /><rect x="40" y="54" width="44" height="64" rx="14" fill="#E5484D" stroke="#2B2F4A" stroke-width="3" /><rect x="52" y="42" width="20" height="14" rx="3" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2.5" /><rect x="58" y="34" width="8" height="10" rx="2" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="0" /><path d="M120,56 q40,70 80,0" fill="none" stroke="#FFD166" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="160" cy="100" r="8" fill="#8EE3F5" stroke="#2B2F4A" stroke-width="2.5" /><rect x="116" y="108" width="90" height="12" rx="3" fill="#6E3F2B" stroke="#2B2F4A" stroke-width="0" /><rect x="238" y="70" width="44" height="48" rx="8" fill="#F2B134" stroke="#2B2F4A" stroke-width="3" /><rect x="236" y="60" width="48" height="12" rx="3" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2.5" /><path d="M312,150 l22,-10 q10,12 20,0 l22,10 l-12,18 l-8,-5 v38 h-36 v-38 l-8,5z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><rect x="150" y="148" width="44" height="58" rx="5" fill="#7C5CFF" stroke="#2B2F4A" stroke-width="3" /><rect x="160" y="160" width="24" height="14" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" /><line x1="150" y1="150" x2="150" y2="206" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" /></svg>

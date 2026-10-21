@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A scroll with six empty tick boxes beside short lines</title><style>text{font-family:sans-serif}
+.bob{animation:bob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{animation:flow 1.6s linear infinite}
+.slide{animation:slide 3s ease-in-out infinite}
+.grow{animation:grow 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+.puff{animation:puff 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes slide{0%,100%{transform:translateX(0)}50%{transform:translateX(26px)}}
+@keyframes grow{0%{transform:scaleX(.25)}60%,100%{transform:scaleX(1)}}
+@keyframes puff{0%{transform:translateY(0) scale(.6);opacity:.9}100%{transform:translateY(-26px) scale(1.3);opacity:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="90" y="30" width="220" height="150" rx="10" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><rect x="80" y="24" width="240" height="14" rx="7" fill="#FFD166" stroke="#2B2F4A" stroke-width="3" /><rect x="80" y="172" width="240" height="14" rx="7" fill="#FFD166" stroke="#2B2F4A" stroke-width="3" /><text x="200" y="58" font-size="13" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Consumer Protection Act, 1986</text><rect x="112" y="72" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" /><line x1="138" y1="84" x2="190" y2="84" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" /><rect x="212" y="72" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" /><line x1="238" y1="84" x2="290" y2="84" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" /><rect x="112" y="102" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" /><line x1="138" y1="114" x2="190" y2="114" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" /><rect x="212" y="102" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" /><line x1="238" y1="114" x2="290" y2="114" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" /><rect x="112" y="132" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" /><line x1="138" y1="144" x2="190" y2="144" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" /><rect x="212" y="132" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2.5" /><line x1="238" y1="144" x2="290" y2="144" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" /><text x="200" y="214" font-size="13" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Rights every consumer should possess</text></svg>

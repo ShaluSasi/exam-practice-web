@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A purple enzyme with a notch fits a green substance but does not fit an orange piece of plastic</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-34px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.35}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><path d="M20 70Q20 40 60 40H90V70H70Q60 85 70 100H90V130H60Q20 130 20 100Z" fill="#7C5CFF" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g class="drift"><path d="M110 70H140V100H110Z" fill="#7BD88F" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/></g><path d="M222 70Q222 40 262 40H292V70H272Q262 85 272 100H292V130H262Q222 130 222 100Z" fill="#7C5CFF" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g class="bob"><path d="M320 60L350 70L340 105L318 95L326 82Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/></g><path d="M336 40L362 66M362 40L336 66" stroke="#E5484D" stroke-width="4" stroke-linecap="round"/><path d="M104 52L130 78M130 52L104 78" stroke="none"/><text x="80" y="170" font-size="12" text-anchor="middle">Enzyme + matching substance</text><text x="80" y="190" font-size="13" text-anchor="middle" style="fill:#3FA34D">fits</text><text x="290" y="170" font-size="12" text-anchor="middle">Enzyme + plastic</text><text x="290" y="190" font-size="13" text-anchor="middle" style="fill:#E5484D">does not fit</text></svg>

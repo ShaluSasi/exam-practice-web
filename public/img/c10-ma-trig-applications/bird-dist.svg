@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A bird 30 m above the ground and an observer at horizontal distance d seeing it at angle theta</title>
+<style>.fl{stroke-dasharray:9 6;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.45}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:13px}.h{paint-order:stroke;stroke:#FFFFFF;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}@keyframes t1{from{transform:translate(0px,0px)}to{transform:translate(-200.0px,-150.0px)}}.t1{animation:t1 2.6s ease-in-out infinite}</style>
+<rect width="100%" height="100%" rx="16" fill="#E3F2FD"/>
+<path d="M0 200H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CDEBC5"/>
+<line x1="0" y1="200" x2="400" y2="200" stroke="#6BAA5E" stroke-width="3" stroke-linecap="round" />
+<line x1="85" y1="200" x2="85" y2="50" stroke="#8A8FB0" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" />
+<line x1="285" y1="200" x2="85" y2="50" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" />
+<line x1="285" y1="200" x2="85" y2="50" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" class="fl"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#FF8A1F" transform="translate(175 117.5) rotate(-143.1)"/>
+<path d="M285 200L256.2 178.4A36 36 0 0 0 249 200Z" fill="#E5484D" fill-opacity=".22"/>
+<path d="M75 42q5 -9 10 3q5 -12 10 -3" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/>
+<circle class="t1" cx="285" cy="200" r="4.5" fill="#fff" stroke="#FF8A1F" stroke-width="2.5"/>
+<path class="pu" d="M256.2 178.4A36 36 0 0 0 249 200" fill="none" stroke="#E5484D" stroke-width="3" stroke-linecap="round"/>
+<text x="239.5" y="188.8" font-size="13" text-anchor="middle" fill="#E5484D" class="h" >θ</text>
+<g stroke="#7C5CFF" stroke-width="3.2" stroke-linecap="round"><line x1="285" y1="200" x2="285" y2="189.2"/><line x1="281" y1="200" x2="289" y2="200"/></g><circle cx="285" cy="185" r="4.2" fill="#7C5CFF"/>
+<polyline points="85,190 95,190 95,200" fill="none" stroke="#2B2F4A" stroke-width="2"/>
+<line x1="85" y1="220" x2="285" y2="220" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<line x1="85" y1="215" x2="85" y2="225" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<line x1="285" y1="215" x2="285" y2="225" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" />
+<text x="185" y="235" font-size="13" text-anchor="middle" fill="#2B2F4A" class="h" >d</text>
+<text x="95" y="125" font-size="13" text-anchor="start" class="h" >30 m</text>
+</svg>

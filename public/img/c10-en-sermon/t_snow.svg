@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img"><title>A snowy hill with a smiling snowman</title><style>
+.fl{animation:fl 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,1)}to{transform:scale(.8,1.25)}}
+.sw{animation:sw 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+.bob{animation:bob 2.2s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-5px)}}
+.tw{animation:tw 1.6s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:1}to{opacity:.25}}
+.rot{animation:rot 24s linear infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes rot{to{transform:rotate(360deg)}}
+.dr{animation:dr 4s ease-in-out infinite alternate}
+@keyframes dr{from{transform:translateX(-8px)}to{transform:translateX(8px)}}
+.fall{animation:fall 2s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}20%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.pu{animation:pu 1.8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes pu{from{transform:scale(1)}to{transform:scale(1.12)}}
+.d2{animation-delay:.5s}.d3{animation-delay:1s}.d4{animation-delay:1.5s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#D7ECFF"/><path d="M0 100H200V134Q200 150 184 150H16Q0 150 0 134Z" fill="#FFFFFF"/><circle cx="100" cy="98" r="22" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><circle cx="100" cy="64" r="15" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3"/><circle cx="95" cy="60" r="2" fill="#2B2F4A"/><circle cx="105" cy="60" r="2" fill="#2B2F4A"/><path d="M100 66L114 68" fill="none" stroke="#FF8A1F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /></svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A 60 m lighthouse with two ships in a line on the same side, seen at 45 and 30 degrees of depression</title>
+<style>.fl{stroke-dasharray:9 6;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.45}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:13px}.h{paint-order:stroke;stroke:#FFFFFF;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}@keyframes t1{from{transform:translate(0px,0px)}to{transform:translate(157.5px,157.5px)}}.t1{animation:t1 2.6s ease-in-out infinite}@keyframes t2{from{transform:translate(0px,0px)}to{transform:translate(272.8px,157.5px)}}.t2{animation:t2 2.6s ease-in-out infinite}</style>
+<rect width="100%" height="100%" rx="16" fill="#E3F2FD"/>
+<path d="M0 188H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CDEBC5"/>
+<line x1="0" y1="188" x2="400" y2="188" stroke="#6BAA5E" stroke-width="3" stroke-linecap="round" />
+<rect x="59" y="188" width="318.7" height="52" fill="#8FD0F2"/>
+<path d="M69 200q8 -5 16 0t16 0t16 0" stroke="#fff" stroke-width="2" fill="none" opacity=".8"/>
+<path d="M69 213q8 -5 16 0t16 0t16 0" stroke="#fff" stroke-width="2" fill="none" opacity=".8"/>
+<path d="M69 226q8 -5 16 0t16 0t16 0" stroke="#fff" stroke-width="2" fill="none" opacity=".8"/>
+<polygon points="45.5,188 59.5,188 56,30.5 49,30.5" fill="#C9D2EC" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<line x1="52.5" y1="30.5" x2="346.3" y2="30.5" stroke="#8A8FB0" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5" />
+<line x1="52.5" y1="30.5" x2="210" y2="188" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" class="fl"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#FF8A1F" transform="translate(139.1 117.1) rotate(45.0)"/>
+<line x1="52.5" y1="30.5" x2="325.3" y2="188" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" class="fl"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#0B93D4" transform="translate(202.5 117.1) rotate(30.0)"/>
+<path d="M52.5 30.5L112.5 30.5A60 60 0 0 1 94.9 72.9Z" fill="#FF8A1F" fill-opacity=".22"/>
+<circle class="t1" cx="52.5" cy="30.5" r="4.5" fill="#fff" stroke="#FF8A1F" stroke-width="2.5"/>
+<circle class="t2" cx="52.5" cy="30.5" r="4.5" fill="#fff" stroke="#0B93D4" stroke-width="2.5"/>
+<path class="pu" d="M112.5 30.5A60 60 0 0 1 94.9 72.9" fill="none" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round"/>
+<text x="120.8" y="62.8" font-size="13" text-anchor="middle" fill="#FF8A1F" class="h" >45°</text>
+<path class="pu" d="M152.5 30.5A100 100 0 0 1 139.1 80.5" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"/>
+<text x="162.6" y="64" font-size="13" text-anchor="middle" fill="#0B93D4" class="h" >30°</text>
+<g transform="translate(210 188) scale(0.9)"><path d="M-14 -8H14L9 0H-9Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><line x1="0" y1="-8" x2="0" y2="-20" stroke="#2B2F4A" stroke-width="2"/><path d="M0 -20L10 -9H0Z" fill="#fff" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<g transform="translate(325.3 188) scale(0.9)"><path d="M-14 -8H14L9 0H-9Z" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linejoin="round"/><line x1="0" y1="-8" x2="0" y2="-20" stroke="#2B2F4A" stroke-width="2"/><path d="M0 -20L10 -9H0Z" fill="#fff" stroke="#2B2F4A" stroke-width="1.5"/></g>
+<line x1="210" y1="210" x2="325.3" y2="210" stroke="#E5484D" stroke-width="2" stroke-linecap="round" />
+<line x1="210" y1="205" x2="210" y2="215" stroke="#E5484D" stroke-width="2" stroke-linecap="round" />
+<line x1="325.3" y1="205" x2="325.3" y2="215" stroke="#E5484D" stroke-width="2" stroke-linecap="round" />
+<text x="267.6" y="225" font-size="13" text-anchor="middle" fill="#E5484D" class="h" >?</text>
+</svg>

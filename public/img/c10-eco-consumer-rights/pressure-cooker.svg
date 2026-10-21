@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A pressure cooker with a steam valve on top and steam puffs</title><style>text{font-family:sans-serif}
+.bob{animation:bob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{animation:flow 1.6s linear infinite}
+.slide{animation:slide 3s ease-in-out infinite}
+.grow{animation:grow 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+.puff{animation:puff 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes slide{0%,100%{transform:translateX(0)}50%{transform:translateX(26px)}}
+@keyframes grow{0%{transform:scaleX(.25)}60%,100%{transform:scaleX(1)}}
+@keyframes puff{0%{transform:translateY(0) scale(.6);opacity:.9}100%{transform:translateY(-26px) scale(1.3);opacity:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="120" y="110" width="150" height="80" rx="10" fill="#B9C2D6" stroke="#2B2F4A" stroke-width="3" /><path d="M110,110 h170 q-10,-34 -85,-34 q-75,0 -85,34z" fill="#CAD2E3" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><rect x="280" y="130" width="40" height="12" rx="4" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="0" /><rect x="76" y="130" width="40" height="12" rx="4" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="0" /><circle cx="195" cy="68" r="8" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" /><rect x="190" y="52" width="10" height="14" rx="2" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="0" /><g class="puff" style="animation-delay:0.0s"><circle cx="187" cy="44" r="7" fill="#E7ECF6" stroke="#2B2F4A" stroke-width="0" /></g><g class="puff" style="animation-delay:0.7s"><circle cx="195" cy="44" r="7" fill="#E7ECF6" stroke="#2B2F4A" stroke-width="0" /></g><g class="puff" style="animation-delay:1.4s"><circle cx="203" cy="44" r="7" fill="#E7ECF6" stroke="#2B2F4A" stroke-width="0" /></g><text x="195" y="156" font-size="13" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Cooker</text><text x="195" y="216" font-size="13" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Safety valve must work</text></svg>

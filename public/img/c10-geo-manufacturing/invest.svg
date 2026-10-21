@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Bar chart of four units with a dashed line showing the 1 crore investment limit</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-34px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.35}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><text x="200" y="20" font-size="12" text-anchor="middle">Investment in plant and machinery (₹ lakh)</text><path d="M50 200H380M50 200V40" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="70" y="158.0" width="46" height="42.0" rx="4" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="93" y="218" font-size="12" text-anchor="middle">Unit A</text><text x="93" y="152.0" font-size="12" text-anchor="middle">40</text><rect x="145" y="121.2" width="46" height="78.8" rx="4" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="168" y="218" font-size="12" text-anchor="middle">Unit B</text><text x="168" y="115.25" font-size="12" text-anchor="middle">75</text><rect x="220" y="97.1" width="46" height="102.9" rx="4" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="243" y="218" font-size="12" text-anchor="middle">Unit C</text><text x="243" y="91.1" font-size="12" text-anchor="middle">98</text><rect x="295" y="63.5" width="46" height="136.5" rx="4" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="318" y="218" font-size="12" text-anchor="middle">Unit D</text><text x="318" y="57.5" font-size="12" text-anchor="middle">130</text><path d="M50 95.0H380" stroke="#E5484D" stroke-width="3" stroke-dasharray="8 5"/><text x="58" y="89.0" font-size="11" text-anchor="start" style="fill:#E5484D">Limit: ₹1 crore</text></svg>

@@ -1,0 +1,2253 @@
+[
+ {
+  "id": "in-cbse-10-math-triangles-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar figures",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which pair of figures is **always** similar, whatever sizes are chosen for the two figures of the pair?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Pair A: two rectangles",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-rects.svg",
+     "alt": "Two rectangles, 60 by 30 and 60 by 45"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Pair B: two squares",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-squares.svg",
+     "alt": "Two squares of different sizes"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Pair C: two rhombuses",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-rhombi.svg",
+     "alt": "Two rhombuses, one with 60 degree angles and one with 90 degree angles"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Pair D: two isosceles triangles",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-isos.svg",
+     "alt": "Two isosceles triangles with different apex angles"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "Check both conditions: equal corresponding angles and sides in the same ratio.",
+  "explanation": "All squares have four right angles and, for sides $a$ and $b$, every pair of corresponding sides has the same ratio $\\dfrac{a}{b}$, so **any two squares are similar**. Rectangles have equal angles but the sides need not be proportional (for example $60:30$ is not $60:45$). Rhombuses have proportional sides but their angles can differ. Isosceles triangles can have different apex angles."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar figures",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** pairs that are always similar, however large or small each one is.",
+  "image": {
+   "src": "/img/c10-ma-triangles/sim-shapes.svg",
+   "alt": "Pairs of circles, squares and equilateral triangles: small and large of the same shape"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Two rectangles"
+   },
+   {
+    "id": "b",
+    "text": "Two circles"
+   },
+   {
+    "id": "c",
+    "text": "Two isosceles triangles"
+   },
+   {
+    "id": "d",
+    "text": "Two squares"
+   },
+   {
+    "id": "e",
+    "text": "Two rhombuses"
+   },
+   {
+    "id": "f",
+    "text": "Two equilateral triangles"
+   }
+  ],
+  "answers": [
+   "b",
+   "d",
+   "f"
+  ],
+  "hint": "Which shapes are fixed in form except for their size?",
+  "explanation": "Circles, squares and equilateral triangles are each fixed in **shape**; only size changes, so each pair is similar. Rectangles can be long and thin or nearly square, rhombuses can lean differently, and isosceles triangles can have different apex angles, so those pairs may fail one of the two conditions (equal angles, proportional sides)."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar figures",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A photographer enlarges a $35$ mm film into a $45$ mm print. A line that measures $14$ mm on the film will measure how long on the print?",
+  "image": {
+   "src": "/img/c10-ma-triangles/photo-scale.svg",
+   "alt": "A 35 mm photograph enlarged to a 45 mm print"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "24 mm"
+   },
+   {
+    "id": "b",
+    "text": "about 10.9 mm"
+   },
+   {
+    "id": "c",
+    "text": "31 mm"
+   },
+   {
+    "id": "d",
+    "text": "18 mm"
+   }
+  ],
+  "answer": "d",
+  "hint": "Every length is multiplied by the same scale factor $\\dfrac{45}{35}$.",
+  "explanation": "Every line segment is enlarged in the ratio $35:45$, so the scale factor is $\\dfrac{45}{35}=\\dfrac{9}{7}$ and the line becomes $14\\times\\dfrac{9}{7}=18$ mm. Adding the $10$ mm difference gives $24$ mm, which is **not** a ratio. Using $\\dfrac{35}{45}$ would shrink it (about $10.9$ mm). Subtracting from $45$ ($31$ mm) has no meaning."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar polygons",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A square of side $4$ cm and a rectangle $6$ cm by $4$ cm both have all angles equal to $90^\\circ$. Why are they **not** similar?",
+  "image": {
+   "src": "/img/c10-ma-triangles/sq-rect.svg",
+   "alt": "A square of side 4 cm and a rectangle 6 cm by 4 cm, all angles 90 degrees"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Their corresponding angles are not equal"
+   },
+   {
+    "id": "b",
+    "text": "A square has fewer sides than a rectangle"
+   },
+   {
+    "id": "c",
+    "text": "Their sides are not in the same ratio: $\\dfrac{4}{6}\\neq\\dfrac{4}{4}$ for corresponding sides"
+   },
+   {
+    "id": "d",
+    "text": "Figures of different sizes can never be similar"
+   }
+  ],
+  "answer": "c",
+  "hint": "Equal angles are only one of the two conditions.",
+  "explanation": "Two polygons are similar only if **(i)** corresponding angles are equal **and (ii)** corresponding sides are in the same ratio. Here (i) holds but the ratios are $\\dfrac{4}{6}$ and $\\dfrac{4}{4}$, so (ii) fails. Both have four sides, and similar figures are allowed to differ in size."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar polygons",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-triangles/sq-rhombus.svg",
+   "alt": "A square of side 4 cm and a rhombus of side 6 cm with a 60 degree angle"
+  },
+  "assertion": "A square of side $4$ cm and a rhombus of side $6$ cm with a $60^\\circ$ angle are not similar.",
+  "reason": "A square and a rhombus both have four equal sides.",
+  "answer": "b",
+  "hint": "Check whether R explains why the angles or sides fail.",
+  "explanation": "A is true: the sides are in the same ratio $\\dfrac{4}{6}$ but the corresponding angles ($90^\\circ$ and $60^\\circ$) are not equal, so one condition fails. R is also true, but it does not explain A: having equal sides in each figure says nothing about their angles. So (b)."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar figures",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A bulb hangs above a cardboard quadrilateral and its shadow falls on the table, as in Activity 1. Tap the **shadow**, the enlarged figure similar to the cardboard.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bulb-shadow.svg",
+   "alt": "A lighted bulb above a cardboard quadrilateral casts an enlarged shadow on the table"
+  },
+  "spots": [
+   {
+    "id": "bulb",
+    "x": 50.0,
+    "y": 11.1,
+    "label": "Lighted bulb (point O)"
+   },
+   {
+    "id": "card",
+    "x": 50.3,
+    "y": 33.0,
+    "label": "Cardboard quadrilateral"
+   },
+   {
+    "id": "shadow",
+    "x": 50.7,
+    "y": 63.6,
+    "label": "Shadow (enlarged similar quadrilateral)"
+   },
+   {
+    "id": "ray",
+    "x": 35.6,
+    "y": 45.2,
+    "label": "A light ray"
+   },
+   {
+    "id": "table",
+    "x": 50.0,
+    "y": 81.5,
+    "label": "Table top"
+   }
+  ],
+  "answer": "shadow",
+  "hint": "It is the larger four-sided shape beneath the cardboard.",
+  "explanation": "Light travels in straight lines, so each corner of the shadow lies on the ray from the bulb through the matching corner of the cardboard. Every shadow length is the same multiple of the cardboard length (here $2.4$ times), so the shadow is an **enlargement** with equal angles and proportional sides."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar figures",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-triangles/cong-sim.svg",
+   "alt": "Two congruent right triangles and one similar triangle twice as large"
+  },
+  "assertion": "All congruent triangles are similar.",
+  "reason": "All similar triangles are congruent.",
+  "answer": "c",
+  "hint": "Congruent means same shape and same size; similar only needs the same shape.",
+  "explanation": "A is true: congruent figures have the same shape (and size), so they are similar with scale factor $1$. R is false: the large triangle in the picture is similar to the small ones but twice as big, so it is not congruent. All congruent figures are similar, but similar figures need not be congruent."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar polygons",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** correct statements about similar polygons.",
+  "image": {
+   "src": "/img/c10-ma-triangles/poly-sim.svg",
+   "alt": "Two quadrilaterals with equal corresponding angles and sides in the ratio 3 to 2"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Two polygons with the same number of sides are similar if their corresponding angles are equal and their corresponding sides are in the same ratio"
+   },
+   {
+    "id": "b",
+    "text": "Equal corresponding angles alone are enough to make two polygons similar"
+   },
+   {
+    "id": "c",
+    "text": "Corresponding sides in the same ratio alone are enough to make two polygons similar"
+   },
+   {
+    "id": "d",
+    "text": "The common ratio of corresponding sides is called the scale factor"
+   },
+   {
+    "id": "e",
+    "text": "If polygon 1 is similar to polygon 2 and polygon 2 is similar to polygon 3, then polygon 1 is similar to polygon 3"
+   },
+   {
+    "id": "f",
+    "text": "Two similar polygons must have equal areas"
+   }
+  ],
+  "answers": [
+   "a",
+   "d",
+   "e"
+  ],
+  "hint": "Both conditions are needed; neither alone is enough.",
+  "explanation": "The definition needs **both** equal corresponding angles and sides in the same ratio; the square/rectangle and square/rhombus examples show each alone fails. The common ratio is the scale factor, and similarity passes from one polygon to the next. Similar figures can have very different areas (the figure here is $1.5$ times larger in every length)."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar figures",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The house-shaped figure on the grid is enlarged to **twice its size** (every length doubled, angles unchanged). Which picture shows the enlargement?",
+  "image": {
+   "src": "/img/c10-ma-triangles/enl-orig.svg",
+   "alt": "A house-shaped pentagon 3 squares wide and 3 squares tall on a grid"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Figure A",
+    "image": {
+     "src": "/img/c10-ma-triangles/enl-a.svg",
+     "alt": "The house shape stretched wider only, 6 squares wide and 3 tall"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Figure C",
+    "image": {
+     "src": "/img/c10-ma-triangles/enl-c.svg",
+     "alt": "The house shape stretched taller only, 3 squares wide and 6 tall"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Figure B",
+    "image": {
+     "src": "/img/c10-ma-triangles/enl-b.svg",
+     "alt": "The house shape enlarged to twice the size, 6 squares wide and 6 tall"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Figure D",
+    "image": {
+     "src": "/img/c10-ma-triangles/enl-d.svg",
+     "alt": "The house shape enlarged but with a flatter roof, 6 squares wide and 5 tall"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Both width and height must double; count the grid squares.",
+  "explanation": "The original is $3$ squares wide and $2$ squares to the eaves and $3$ to the roof tip. A scale factor of $2$ gives $6$ wide, $4$ to the eaves and $6$ high (Figure B). Figure A doubles only the width, Figure C only the height, and Figure D changes the roof angle, so in each the sides are not in one ratio and the shape is distorted."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Similar polygons",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each pair of figures with the correct conclusion.",
+  "image": {
+   "src": "/img/c10-ma-triangles/pairs-figs.svg",
+   "alt": "Four pairs of figures: two circles, a square and a rectangle, a square and a rhombus, a triangle and a square"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Two circles (pair i)"
+   },
+   {
+    "id": "l2",
+    "text": "A square and a rectangle (pair ii)"
+   },
+   {
+    "id": "l3",
+    "text": "A square and a rhombus (pair iii)"
+   },
+   {
+    "id": "l4",
+    "text": "Two equilateral triangles of different size"
+   }
+  ],
+  "right": [
+   {
+    "id": "r4",
+    "text": "Similar: all angles $60^\\circ$ and sides in one ratio"
+   },
+   {
+    "id": "r1",
+    "text": "Similar: all circles have the same shape"
+   },
+   {
+    "id": "r3",
+    "text": "Not similar: sides in the same ratio but angles not equal"
+   },
+   {
+    "id": "r2",
+    "text": "Not similar: angles equal but sides not in the same ratio"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Decide which of the two conditions each pair fails, if any.",
+  "explanation": "Circles share the same shape. A square and a rectangle have equal angles but unequal side ratios. A square and a rhombus have proportional sides but unequal angles. Equilateral triangles have all angles $60^\\circ$ and sides in the same ratio, so any two are similar."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of Activity 2 (the idea behind the Basic Proportionality Theorem) in order.",
+  "image": {
+   "src": "/img/c10-ma-triangles/act2-parts.svg",
+   "alt": "Angle with five equal parts marked on one arm and a line through the third point parallel to BC"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "Through $D$ draw a line parallel to $BC$ meeting $AC$ at $E$"
+   },
+   {
+    "id": "s1",
+    "text": "Draw any angle $XAY$"
+   },
+   {
+    "id": "s5",
+    "text": "Measure $AE$ and $EC$: $\\dfrac{AD}{DB}=\\dfrac{3}{2}$ and $\\dfrac{AE}{EC}=\\dfrac{3}{2}$"
+   },
+   {
+    "id": "s3",
+    "text": "Through $B$ draw any line meeting $AY$ at $C$"
+   },
+   {
+    "id": "s2",
+    "text": "Mark $P, Q, D, R, B$ on arm $AX$ with $AP=PQ=QD=DR=RB$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "You need the parts marked before you can draw lines through them.",
+  "explanation": "After drawing the angle and marking five equal parts, line $BC$ is drawn and then $DE\\parallel BC$ through the third point $D$. Here $AD=3$ parts and $DB=2$ parts, so $\\dfrac{AD}{DB}=\\dfrac32$, and measuring shows $\\dfrac{AE}{EC}$ is the same."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$. Tap the side of the triangle to which $DE$ must be parallel.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-fig2.svg",
+   "alt": "Triangle ABC with a line DE drawn across it, cutting AB at D and AC at E"
+  },
+  "spots": [
+   {
+    "id": "bc",
+    "x": 50.0,
+    "y": 83.3,
+    "label": "Side BC"
+   },
+   {
+    "id": "de",
+    "x": 48.1,
+    "y": 56.7,
+    "label": "Line DE itself"
+   },
+   {
+    "id": "ab",
+    "x": 20.3,
+    "y": 73.3,
+    "label": "Side AB"
+   },
+   {
+    "id": "ac",
+    "x": 78.3,
+    "y": 73.3,
+    "label": "Side AC"
+   }
+  ],
+  "answer": "bc",
+  "hint": "The line joining the two division points is parallel to the side it does not touch.",
+  "explanation": "If a line divides two sides of a triangle in the same ratio, it is **parallel to the third side** (Theorem 6.2, the converse of the Basic Proportionality Theorem). $DE$ meets $AB$ and $AC$, so it is parallel to $BC$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "In $\\triangle ABC$, $DE\\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD=6$ cm, $DB=4$ cm and $AE=9$ cm, find $EC$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-num.svg",
+   "alt": "Triangle ABC with DE parallel to BC: AD 6 cm, DB 4 cm, AE 9 cm, EC unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "6 cm"
+   },
+   {
+    "id": "b",
+    "text": "13.5 cm"
+   },
+   {
+    "id": "c",
+    "text": "3.6 cm"
+   },
+   {
+    "id": "d",
+    "text": "7 cm"
+   }
+  ],
+  "answer": "a",
+  "hint": "Use $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$.",
+  "explanation": "By the Basic Proportionality Theorem $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$, so $\\dfrac{6}{4}=\\dfrac{9}{EC}$ and $EC=\\dfrac{9\\times4}{6}=6$ cm. Flipping the ratio gives $13.5$; dividing by $AB=10$ instead of $AD$ gives $3.6$; and subtracting the difference of the parts gives $7$. Each breaks the proportion."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "In $\\triangle ABC$, $DE\\parallel BC$ with $AD=x$, $DB=x-2$, $AE=x+2$ and $EC=x-1$ (in cm). Find $x$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-alg.svg",
+   "alt": "Triangle ABC with DE parallel to BC and sides marked x, x-2, x+2 and x-1"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$x=\\dfrac{2}{5}$"
+   },
+   {
+    "id": "b",
+    "text": "$x=-4$"
+   },
+   {
+    "id": "c",
+    "text": "$x=4$"
+   },
+   {
+    "id": "d",
+    "text": "$x=\\dfrac{2}{3}$"
+   }
+  ],
+  "answer": "c",
+  "hint": "Write $\\dfrac{x}{x-2}=\\dfrac{x+2}{x-1}$ and cross-multiply carefully.",
+  "explanation": "$\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\Rightarrow x(x-1)=(x-2)(x+2)\\Rightarrow x^2-x=x^2-4\\Rightarrow x=4$. Check: $\\dfrac{4}{2}=\\dfrac{6}{3}$. Traps: pairing $AD$ with $AE$ on one side incorrectly gives $\\frac25$; writing $(x+2)(x-2)=x^2+4$ gives $-4$; and pairing $AD\\cdot DB=AE\\cdot EC$ gives $\\frac23$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Converse of BPT",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "$E$ and $F$ lie on sides $PQ$ and $PR$ of $\\triangle PQR$. For which set of lengths is $EF\\parallel QR$?",
+  "image": {
+   "src": "/img/c10-ma-triangles/conv-data.svg",
+   "alt": "Triangle PQR with points E on PQ and F on PR; is EF parallel to QR"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$PE=3.9$, $EQ=3$, $PF=3.6$, $FR=2.4$ (all in cm)"
+   },
+   {
+    "id": "b",
+    "text": "$PE=4$, $EQ=4.5$, $PF=8$, $FR=8$ (all in cm)"
+   },
+   {
+    "id": "c",
+    "text": "$PE=2$, $EQ=3$, $PF=3$, $FR=4$ (all in cm)"
+   },
+   {
+    "id": "d",
+    "text": "$PE=2.4$, $EQ=3.6$, $PF=1.6$, $FR=2.4$ (all in cm)"
+   }
+  ],
+  "answer": "d",
+  "hint": "Compare $\\dfrac{PE}{EQ}$ with $\\dfrac{PF}{FR}$.",
+  "explanation": "$EF\\parallel QR$ exactly when $\\dfrac{PE}{EQ}=\\dfrac{PF}{FR}$ (Theorem 6.2). First set: $\\dfrac{2.4}{3.6}=\\dfrac23=\\dfrac{1.6}{2.4}$. Second: $1.3\\neq1.5$. Third: $\\dfrac{8}{9}\\neq1$. Fourth: $\\dfrac23\\neq\\dfrac34$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Converse of BPT",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Points $E$ on $PQ$ and $F$ on $PR$ are chosen so that $\\dfrac{PE}{EQ}=\\dfrac{PF}{FR}$. Which figure shows this?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Figure A",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-par-a.svg",
+     "alt": "Triangle PQR with a line EF across it"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Figure B",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-par-b.svg",
+     "alt": "Triangle PQR with a line EF across it"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Figure C",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-par-c.svg",
+     "alt": "Triangle PQR with a line EF across it"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Figure D",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-par-d.svg",
+     "alt": "Triangle PQR with a line EF across it"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "If the ratios agree, the line cannot slope.",
+  "explanation": "When $E$ and $F$ divide $PQ$ and $PR$ in the same ratio, Theorem 6.2 says $EF\\parallel QR$. Figure B is the only one where $EF$ is parallel to $QR$. In the others $E$ and $F$ sit at different fractions of their sides, so $EF$ slants."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Converse of BPT",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange the proof of Theorem 6.2 (if a line divides two sides in the same ratio, it is parallel to the third side).",
+  "image": {
+   "src": "/img/c10-ma-triangles/conv-proof.svg",
+   "alt": "Triangle ABC with line DE assumed not parallel to BC and a second line DE-prime drawn parallel to BC"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "So $\\dfrac{AE}{EC}=\\dfrac{AE'}{E'C}$"
+   },
+   {
+    "id": "s2",
+    "text": "Draw $DE'\\parallel BC$ through $D$, meeting $AC$ at $E'$"
+   },
+   {
+    "id": "s5",
+    "text": "Adding $1$ to both sides gives $EC=E'C$, so $E$ and $E'$ coincide and $DE\\parallel BC$"
+   },
+   {
+    "id": "s1",
+    "text": "Take $DE$ with $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$ and suppose $DE$ is **not** parallel to $BC$"
+   },
+   {
+    "id": "s3",
+    "text": "By Theorem 6.1, $\\dfrac{AD}{DB}=\\dfrac{AE'}{E'C}$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "It is a proof by contradiction: assume the opposite, then draw a true parallel.",
+  "explanation": "Assume $DE$ is not parallel to $BC$ and draw the true parallel $DE'$. Theorem 6.1 gives $\\dfrac{AD}{DB}=\\dfrac{AE'}{E'C}$, so both $E$ and $E'$ divide $AC$ in the same ratio. Adding $1$ to each side gives $\\dfrac{AC}{EC}=\\dfrac{AC}{E'C}$, so $E$ and $E'$ are the same point."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Converse of BPT",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "In Activity 3, $AB_1=B_1B_2=B_2B_3=B_3B_4=B_4B$ and $AC_1=C_1C_2=C_2C_3=C_3C_4=C_4C$. Select **all** true statements.",
+  "image": {
+   "src": "/img/c10-ma-triangles/act3-conv.svg",
+   "alt": "An angle with equal parts marked on both arms and lines B1C1, B2C2, B3C3, B4C4 joining matching points"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\dfrac{AB_2}{B_2B}=\\dfrac{AC_2}{C_2C}=\\dfrac{2}{3}$"
+   },
+   {
+    "id": "b",
+    "text": "$B_3C_3\\parallel BC$ and $\\dfrac{AB_3}{B_3B}=\\dfrac{3}{2}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\dfrac{AB_1}{B_1B}=\\dfrac{1}{5}$"
+   },
+   {
+    "id": "d",
+    "text": "$B_4C_4\\parallel BC$ because $\\dfrac{AB_4}{B_4B}=\\dfrac{AC_4}{C_4C}=\\dfrac{4}{1}$"
+   },
+   {
+    "id": "e",
+    "text": "$B_1C_1$ and $B_2C_2$ meet at $A$"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Count equal parts on each side of the point.",
+  "explanation": "$B_2$ has $2$ parts on one side and $3$ on the other, giving $\\dfrac23$ on both arms, so $B_2C_2\\parallel BC$; similarly $\\dfrac32$ at $B_3$ and $\\dfrac41$ at $B_4$. At $B_1$ the ratio is $\\dfrac{1}{4}$, not $\\dfrac15$ ($1$ part to $4$ parts). All the lines $B_iC_i$ are parallel to $BC$, so they never meet."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the figure $DE\\parallel BC$. By the Basic Proportionality Theorem, $\\dfrac{AD}{DB}=\\dfrac{AE}{?}$. Tap the segment that replaces the question mark.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-fig.svg",
+   "alt": "Triangle ABC with a line DE parallel to side BC, cutting AB at D and AC at E"
+  },
+  "spots": [
+   {
+    "id": "de",
+    "x": 48.1,
+    "y": 56.7,
+    "label": "Line DE (parallel to BC)"
+   },
+   {
+    "id": "bc",
+    "x": 50.0,
+    "y": 83.3,
+    "label": "Side BC"
+   },
+   {
+    "id": "ad",
+    "x": 36.4,
+    "y": 36.7,
+    "label": "Segment AD"
+   },
+   {
+    "id": "db",
+    "x": 21.8,
+    "y": 70.0,
+    "label": "Segment DB"
+   },
+   {
+    "id": "ec",
+    "x": 76.3,
+    "y": 70.0,
+    "label": "Segment EC"
+   }
+  ],
+  "answer": "ec",
+  "hint": "The ratio on side $AC$ matches the ratio on side $AB$: upper part to lower part.",
+  "explanation": "Theorem 6.1: $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$. $DB$ is the lower part of $AB$, so the matching lower part of $AC$ is $EC$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "$ABCD$ is a trapezium with $AB\\parallel DC$. $E$ and $F$ lie on the non-parallel sides $AD$ and $BC$ with $EF\\parallel AB$. If $AE=6$ cm, $ED=9$ cm and $BF=8$ cm, find $FC$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/trap-ef.svg",
+   "alt": "Trapezium ABCD with AB parallel to DC and EF parallel to AB, E on AD and F on BC"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$5\\frac{1}{3}$ cm"
+   },
+   {
+    "id": "b",
+    "text": "11 cm"
+   },
+   {
+    "id": "c",
+    "text": "4.8 cm"
+   },
+   {
+    "id": "d",
+    "text": "12 cm"
+   }
+  ],
+  "answer": "d",
+  "hint": "Show $\\dfrac{AE}{ED}=\\dfrac{BF}{FC}$ by joining $AC$.",
+  "explanation": "$EF\\parallel DC$ too, so applying Theorem 6.1 in $\\triangle ADC$ and $\\triangle CAB$ gives $\\dfrac{AE}{ED}=\\dfrac{BF}{FC}$. Then $FC=\\dfrac{8\\times9}{6}=12$ cm. Inverting the ratio gives $5\\frac13$; adding the difference of parts gives $11$; and dividing by $AD=15$ instead gives $4.8$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The diagonals $AC$ and $BD$ of a trapezium $ABCD$ with $AB\\parallel DC$ meet at $O$. If $OA=8$, $OC=12$ and $OB=10$, find $OD$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/trap-diag.svg",
+   "alt": "Trapezium ABCD with AB parallel to DC; diagonals meet at O with OA 8, OC 12, OB 10"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "15"
+   },
+   {
+    "id": "b",
+    "text": "$6\\frac{2}{3}$"
+   },
+   {
+    "id": "c",
+    "text": "14"
+   },
+   {
+    "id": "d",
+    "text": "9.6"
+   }
+  ],
+  "answer": "a",
+  "hint": "In a trapezium, $\\dfrac{OA}{OC}=\\dfrac{OB}{OD}$.",
+  "explanation": "Draw $OE\\parallel DC$ (so also $\\parallel AB$) and apply Theorem 6.1: $\\dfrac{AO}{OC}=\\dfrac{BO}{OD}$. So $\\dfrac{8}{12}=\\dfrac{10}{OD}$ and $OD=15$. Using $\\dfrac{OB\\cdot OA}{OC}$ gives $6\\frac23$; adding the difference gives $14$; and $\\dfrac{OA\\cdot OC}{OB}$ gives $9.6$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In trapezium $ABCD$ with $AB\\parallel DC$, the diagonals cross at $O$ and $\\triangle OAB$ is shaded. Tap the triangle that is **similar** to $\\triangle OAB$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/trap-diag-h.svg",
+   "alt": "Trapezium ABCD with AB parallel to DC; diagonals cross at O; triangle OAB is shaded"
+  },
+  "spots": [
+   {
+    "id": "oab",
+    "x": 50.0,
+    "y": 28.0,
+    "label": "ΔOAB (the given triangle)"
+   },
+   {
+    "id": "ocd",
+    "x": 50.0,
+    "y": 68.0,
+    "label": "ΔOCD (similar to ΔOAB)"
+   },
+   {
+    "id": "obc",
+    "x": 67.2,
+    "y": 48.0,
+    "label": "ΔOBC"
+   },
+   {
+    "id": "oda",
+    "x": 32.8,
+    "y": 48.0,
+    "label": "ΔODA"
+   }
+  ],
+  "answer": "ocd",
+  "hint": "$AB\\parallel DC$ gives equal alternate angles; look across the point $O$.",
+  "explanation": "Since $AB\\parallel DC$, $\\angle OAB=\\angle OCD$ and $\\angle OBA=\\angle ODC$ (alternate angles), and $\\angle AOB=\\angle COD$ (vertically opposite). By AA, $\\triangle OAB\\sim\\triangle OCD$. The side triangles $OBC$ and $ODA$ are not similar to it in general."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "In $\\triangle PQR$, $\\dfrac{PS}{SQ}=\\dfrac{PT}{TR}$ and $\\angle PST=\\angle PRQ$. Arrange the proof that $PQR$ is isosceles.",
+  "image": {
+   "src": "/img/c10-ma-triangles/ex3-iso.svg",
+   "alt": "Triangle PQR with ST drawn so that PS over SQ equals PT over TR and angle PST equals angle PRQ"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "It is given that $\\angle PST=\\angle PRQ$"
+   },
+   {
+    "id": "s5",
+    "text": "$PQ=PR$ (sides opposite equal angles), so $\\triangle PQR$ is isosceles"
+   },
+   {
+    "id": "s1",
+    "text": "$\\dfrac{PS}{SQ}=\\dfrac{PT}{TR}$ is given, so $ST\\parallel QR$ (Theorem 6.2)"
+   },
+   {
+    "id": "s4",
+    "text": "Hence $\\angle PRQ=\\angle PQR$"
+   },
+   {
+    "id": "s2",
+    "text": "$\\angle PST=\\angle PQR$ (corresponding angles)"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Parallel lines first, then equal angles, then equal sides.",
+  "explanation": "The ratio condition gives $ST\\parallel QR$. Corresponding angles make $\\angle PST=\\angle PQR$. Combining with the given $\\angle PST=\\angle PRQ$ gives $\\angle PQR=\\angle PRQ$, and sides opposite equal angles are equal."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Converse of BPT",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-fig2.svg",
+   "alt": "Triangle ABC with a line DE drawn across it, cutting AB at D and AC at E"
+  },
+  "assertion": "In $\\triangle ABC$, if $D$ lies on $AB$ and $E$ on $AC$ with $AD=2$ cm, $DB=3$ cm, $AE=4$ cm and $EC=6$ cm, then $DE\\parallel BC$.",
+  "reason": "If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.",
+  "answer": "a",
+  "hint": "Compare $\\dfrac{AD}{DB}$ and $\\dfrac{AE}{EC}$.",
+  "explanation": "$\\dfrac{AD}{DB}=\\dfrac23$ and $\\dfrac{AE}{EC}=\\dfrac46=\\dfrac23$ are equal, so $DE\\parallel BC$ by Theorem 6.2, which is exactly R. Both are true and R explains A."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A triangle has two angles of $50^\\circ$ and $60^\\circ$ (see the picture). Which of the triangles below is similar to it?",
+  "image": {
+   "src": "/img/c10-ma-triangles/tri-given.svg",
+   "alt": "A triangle with two angles marked 50 and 60 degrees"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Triangle A: $50^\\circ$ and $50^\\circ$",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-ang-a.svg",
+     "alt": "A triangle with two angles marked 50 and 50 degrees"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Triangle B: $60^\\circ$ and $70^\\circ$",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-ang-b.svg",
+     "alt": "A triangle with two angles marked 60 and 70 degrees"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Triangle C: $50^\\circ$ and $80^\\circ$",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-ang-c.svg",
+     "alt": "A triangle with two angles marked 50 and 80 degrees"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Triangle D: $60^\\circ$ and $60^\\circ$",
+    "image": {
+     "src": "/img/c10-ma-triangles/t-ang-d.svg",
+     "alt": "A triangle with two angles marked 60 and 60 degrees"
+    }
+   }
+  ],
+  "answer": "b",
+  "hint": "Find the third angle of each triangle.",
+  "explanation": "The given triangle has angles $50^\\circ, 60^\\circ$ and $70^\\circ$. Triangle B has $60^\\circ, 70^\\circ$ and $50^\\circ$, so all three angles match (AA criterion). A has $80^\\circ$ as its third angle, C has $50^\\circ$ twice, and D is equilateral. Sharing just one angle is not enough."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** the conditions that are enough to prove $\\triangle ABC\\sim\\triangle DEF$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/criteria.svg",
+   "alt": "Four ways to show triangles are similar: AA, SSS, SAS and RHS"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\dfrac{AB}{DE}=\\dfrac{BC}{EF}$ and $\\angle A=\\angle D$"
+   },
+   {
+    "id": "b",
+    "text": "$\\angle A=\\angle D$ and $\\angle B=\\angle E$"
+   },
+   {
+    "id": "c",
+    "text": "$\\angle A=\\angle D$ only"
+   },
+   {
+    "id": "d",
+    "text": "$\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{CA}{FD}$"
+   },
+   {
+    "id": "e",
+    "text": "$\\angle A=\\angle D$ and $\\dfrac{AB}{DE}=\\dfrac{AC}{DF}$"
+   }
+  ],
+  "answers": [
+   "b",
+   "d",
+   "e"
+  ],
+  "hint": "For the side-angle rule, the angle must be between the two proportional sides.",
+  "explanation": "Two equal angles give AA, three proportional sides give SSS, and an equal angle with the **including** sides proportional gives SAS. In the first option $\\angle A$ is between $AB$ and $AC$, but the proportional sides are $AB$ and $BC$, so the angle is not included. One equal angle alone is never enough."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each similarity criterion with its statement.",
+  "image": {
+   "src": "/img/c10-ma-triangles/criteria.svg",
+   "alt": "Four ways to show triangles are similar: AA, SSS, SAS and RHS"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "AA"
+   },
+   {
+    "id": "l2",
+    "text": "SSS"
+   },
+   {
+    "id": "l3",
+    "text": "SAS"
+   },
+   {
+    "id": "l4",
+    "text": "RHS"
+   }
+  ],
+  "right": [
+   {
+    "id": "r3",
+    "text": "One angle equal and the sides including it in the same ratio"
+   },
+   {
+    "id": "r1",
+    "text": "Two angles of one triangle equal two angles of the other"
+   },
+   {
+    "id": "r4",
+    "text": "Hypotenuse and one side proportional in two right triangles"
+   },
+   {
+    "id": "r2",
+    "text": "All three pairs of corresponding sides are in the same ratio"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "The letters spell what is compared.",
+  "explanation": "AA compares two angles (the third follows by angle sum). SSS compares three sides. SAS compares an angle and the two sides around it. RHS (from the note at the end of the chapter) compares the hypotenuses and one other side of two right triangles."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In the figure $\\triangle ABC\\sim\\triangle DEF$ with $AB=6$, $BC=9$, $CA=12$ and $DE=8$, $EF=12$. Find $FD$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/sss-tri.svg",
+   "alt": "Triangle ABC with sides 6, 9, 12 and triangle DEF with sides 8, 12 and one unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "16"
+   },
+   {
+    "id": "b",
+    "text": "14"
+   },
+   {
+    "id": "c",
+    "text": "9"
+   },
+   {
+    "id": "d",
+    "text": "20"
+   }
+  ],
+  "answer": "a",
+  "hint": "Find the scale factor from a pair of known sides, then apply it to $CA$.",
+  "explanation": "$\\dfrac{DE}{AB}=\\dfrac{8}{6}=\\dfrac43$ and $\\dfrac{EF}{BC}=\\dfrac{12}{9}=\\dfrac43$, so the scale factor is $\\dfrac43$ and $FD=12\\times\\dfrac43=16$. Adding the difference ($14$), multiplying by $\\dfrac34$ ($9$) and adding the lengths ($20$) all ignore the ratio."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In $\\triangle ABC$, $AB=2.5$, $AC=5$ and $\\angle A=50^\\circ$. In $\\triangle DEF$, $DE=4$ and $\\angle D=50^\\circ$. What must $DF$ be so that $\\triangle ABC\\sim\\triangle DEF$ by the SAS criterion?",
+  "image": {
+   "src": "/img/c10-ma-triangles/sas-tri.svg",
+   "alt": "Triangle ABC with AB 2.5, AC 5, angle A 50 degrees and triangle DEF with DE 4, angle D 50 degrees"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "6.5"
+   },
+   {
+    "id": "b",
+    "text": "3.125"
+   },
+   {
+    "id": "c",
+    "text": "8"
+   },
+   {
+    "id": "d",
+    "text": "10"
+   }
+  ],
+  "answer": "c",
+  "hint": "The sides including the equal angles must be proportional: $\\dfrac{AB}{DE}=\\dfrac{AC}{DF}$.",
+  "explanation": "$\\dfrac{AB}{DE}=\\dfrac{2.5}{4}=\\dfrac{5}{DF}$, so $DF=\\dfrac{5\\times4}{2.5}=8$. Adding the difference of $1.5$ gives $6.5$; inverting the ratio gives $3.125$; doubling $AC$ gives $10$. Check: $\\dfrac{2.5}{4}=\\dfrac{5}{8}$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In the figure $PQ\\parallel RS$ and the lines $PS$ and $QR$ cross at $O$. Tap the angle $\\angle ORS$, which equals $\\angle OQP$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/hourglass-h.svg",
+   "alt": "Lines PS and QR cross at O with PQ parallel to RS, forming triangles POQ and SOR"
+  },
+  "spots": [
+   {
+    "id": "qp",
+    "x": 65.0,
+    "y": 18.3,
+    "label": "∠OQP"
+   },
+   {
+    "id": "r",
+    "x": 33.3,
+    "y": 83.2,
+    "label": "∠ORS (alternate to ∠OQP)"
+   },
+   {
+    "id": "s",
+    "x": 66.0,
+    "y": 69.9,
+    "label": "∠OSR"
+   },
+   {
+    "id": "o",
+    "x": 54.9,
+    "y": 28.9,
+    "label": "∠POQ"
+   }
+  ],
+  "answer": "r",
+  "hint": "These are alternate angles between the parallel lines and the transversal $QR$.",
+  "explanation": "$QR$ is a transversal of $PQ\\parallel RS$, so $\\angle OQP=\\angle ORS$ (alternate angles). Similarly $\\angle OPQ=\\angle OSR$, and $\\angle POQ=\\angle SOR$ (vertically opposite), giving $\\triangle POQ\\sim\\triangle SOR$ by AA."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In the figure $PQ\\parallel RS$ and $PS$, $QR$ meet at $O$. If $PO=4$, $OS=6$ and $QO=6$, find $OR$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/hourglass.svg",
+   "alt": "Lines PS and QR cross at O with PQ parallel to RS; PO 4, OS 6, QO 6, OR unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "4"
+   },
+   {
+    "id": "b",
+    "text": "8"
+   },
+   {
+    "id": "c",
+    "text": "6"
+   },
+   {
+    "id": "d",
+    "text": "9"
+   }
+  ],
+  "answer": "d",
+  "hint": "$\\triangle POQ\\sim\\triangle SOR$ with $P\\leftrightarrow S$, $Q\\leftrightarrow R$.",
+  "explanation": "By AA, $\\triangle POQ\\sim\\triangle SOR$, so $\\dfrac{PO}{SO}=\\dfrac{QO}{RO}$, i.e. $\\dfrac46=\\dfrac6{RO}$ and $RO=9$. Pairing $PO$ with $QO$ wrongly gives $4$; adding the difference gives $8$; and just copying $QO$ gives $6$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "$\\triangle ABC$ has $AB=5$, $BC=5\\sqrt3$, $CA=10$, $\\angle A=60^\\circ$ and $\\angle B=90^\\circ$. In $\\triangle RQP$, $RQ=10$, $QP=10\\sqrt3$ and $PR=20$. Find $\\angle P$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/ex5-tri.svg",
+   "alt": "Right triangle ABC with sides 5, 5 root 3, 10 and a larger triangle RQP with sides 10, 10 root 3, 20"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$30^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$60^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$90^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$120^\\circ$"
+   }
+  ],
+  "answer": "a",
+  "hint": "Match sides first: which side of $RQP$ is in the same ratio as $CA$?",
+  "explanation": "$\\dfrac{AB}{RQ}=\\dfrac{BC}{QP}=\\dfrac{CA}{PR}=\\dfrac12$, so $\\triangle ABC\\sim\\triangle RQP$ (SSS) with $A\\leftrightarrow R$, $B\\leftrightarrow Q$, $C\\leftrightarrow P$. Then $\\angle P=\\angle C=180^\\circ-60^\\circ-90^\\circ=30^\\circ$. Matching letters in alphabetical order ($A\\leftrightarrow P$) would give $60^\\circ$; $90^\\circ$ is $\\angle Q$; $120^\\circ$ is not an angle of this triangle."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Lines $AC$ and $BD$ cross at $O$ with $OA\\cdot OB=OC\\cdot OD$. If $OA=3$, $OB=8$ and $OC=4$, find $OD$ and the triangles that are similar.",
+  "image": {
+   "src": "/img/c10-ma-triangles/ex6-cross.svg",
+   "alt": "Lines AC and BD cross at O with OA 3, OC 4, OB 8 and OD unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$OD=1.5$; $\\triangle AOD\\sim\\triangle COB$ (SAS)"
+   },
+   {
+    "id": "b",
+    "text": "$OD=6$; $\\triangle AOD\\sim\\triangle COB$ (SAS)"
+   },
+   {
+    "id": "c",
+    "text": "$OD=\\dfrac{32}{3}$; $\\triangle AOD\\sim\\triangle COB$ (SAS)"
+   },
+   {
+    "id": "d",
+    "text": "$OD=6$; $\\triangle AOB\\sim\\triangle COD$ (SAS)"
+   }
+  ],
+  "answer": "b",
+  "hint": "Rewrite $OA\\cdot OB=OC\\cdot OD$ as a ratio of sides around $\\angle AOD$ and $\\angle COB$.",
+  "explanation": "$OD=\\dfrac{OA\\cdot OB}{OC}=\\dfrac{3\\times8}{4}=6$. Rewriting, $\\dfrac{OA}{OC}=\\dfrac{OD}{OB}$ and $\\angle AOD=\\angle COB$ (vertically opposite), so $\\triangle AOD\\sim\\triangle COB$ by **SAS** (with $A\\leftrightarrow C$ and $D\\leftrightarrow B$). Dividing the wrong way gives $1.5$ or $\\frac{32}{3}$, and pairing $AOB$ with $COD$ does not match the proportion."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "$\\triangle ABC\\sim\\triangle QRP$. In the larger turned triangle, tap the vertex that corresponds to $B$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/corr-tri.svg",
+   "alt": "Triangle ABC and a larger turned triangle QRP with the matching angles marked at A and Q and at B and R"
+  },
+  "spots": [
+   {
+    "id": "p",
+    "x": 53.9,
+    "y": 39.9,
+    "label": "Vertex P"
+   },
+   {
+    "id": "q",
+    "x": 91.0,
+    "y": 71.3,
+    "label": "Vertex Q"
+   },
+   {
+    "id": "r",
+    "x": 90.0,
+    "y": 18.0,
+    "label": "Vertex R (matches B)"
+   },
+   {
+    "id": "a",
+    "x": 15.7,
+    "y": 48.2,
+    "label": "Vertex A"
+   },
+   {
+    "id": "c",
+    "x": 34.6,
+    "y": 82.0,
+    "label": "Vertex C"
+   }
+  ],
+  "answer": "r",
+  "hint": "The order of the letters in the similarity statement gives the matching vertices: $A\\leftrightarrow Q$, then?",
+  "explanation": "In $\\triangle ABC\\sim\\triangle QRP$ the vertices match in order: $A\\leftrightarrow Q$, $B\\leftrightarrow R$, $C\\leftrightarrow P$. So $B$ corresponds to $R$ (the angles with two arcs are equal). The similarity must be written with correct correspondence of vertices."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "$\\triangle ABC\\sim\\triangle QRP$. Match each part of $\\triangle ABC$ with its corresponding part in $\\triangle QRP$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/corr-tri.svg",
+   "alt": "Triangle ABC and a larger turned triangle QRP with the matching angles marked at A and Q and at B and R"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "$\\angle A$"
+   },
+   {
+    "id": "l2",
+    "text": "$\\angle B$"
+   },
+   {
+    "id": "l3",
+    "text": "$\\angle C$"
+   },
+   {
+    "id": "l4",
+    "text": "Side $AB$"
+   }
+  ],
+  "right": [
+   {
+    "id": "r4",
+    "text": "Side $QR$"
+   },
+   {
+    "id": "r3",
+    "text": "$\\angle P$"
+   },
+   {
+    "id": "r1",
+    "text": "$\\angle Q$"
+   },
+   {
+    "id": "r2",
+    "text": "$\\angle R$"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Match the letters in the same position in the two names.",
+  "explanation": "Writing $\\triangle ABC\\sim\\triangle QRP$ pairs the vertices in order: $A\\to Q$, $B\\to R$, $C\\to P$. The side $AB$ joins $A$ and $B$, so it corresponds to the side joining $Q$ and $R$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Applications of similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A girl $1.5$ m tall walks away from a lamp-post whose lamp is $4.5$ m above the ground, at $1.2$ m/s for $5$ seconds (she is then $6$ m from the post). How long is her shadow now?",
+  "image": {
+   "src": "/img/c10-ma-triangles/lamp-girl.svg",
+   "alt": "A lamp-post 4.5 m high, a girl 1.5 m tall standing 6 m from it and her shadow on the ground"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "2 m"
+   },
+   {
+    "id": "b",
+    "text": "3 m"
+   },
+   {
+    "id": "c",
+    "text": "12 m"
+   },
+   {
+    "id": "d",
+    "text": "9 m"
+   }
+  ],
+  "answer": "b",
+  "hint": "$\\triangle ABE\\sim\\triangle CDE$: $\\dfrac{BE}{DE}=\\dfrac{AB}{CD}$ with $BE=6+x$.",
+  "explanation": "The lamp-post and girl are both vertical and the angle at the shadow tip $E$ is common, so the triangles are similar (AA). $\\dfrac{6+x}{x}=\\dfrac{4.5}{1.5}=3\\Rightarrow6+x=3x\\Rightarrow x=3$ m. Forgetting the $6+x$ (using $\\dfrac6x=3$) gives $2$; flipping the ratio gives $12$; multiplying distance by height gives $9$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Applications of similarity",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A girl stands beside a lamp-post at night. Tap her **shadow** on the ground.",
+  "image": {
+   "src": "/img/c10-ma-triangles/lamp-girl-h.svg",
+   "alt": "A lamp-post 4.5 m high, a girl 1.5 m tall standing 6 m from it and her shadow on the ground"
+  },
+  "spots": [
+   {
+    "id": "shadow",
+    "x": 62.0,
+    "y": 85.4,
+    "label": "Girl's shadow"
+   },
+   {
+    "id": "girl",
+    "x": 48.2,
+    "y": 77.4,
+    "label": "The girl"
+   },
+   {
+    "id": "lamp",
+    "x": 10.0,
+    "y": 35.1,
+    "label": "Lamp"
+   },
+   {
+    "id": "post",
+    "x": 10.0,
+    "y": 61.5,
+    "label": "Lamp-post"
+   },
+   {
+    "id": "ray",
+    "x": 29.1,
+    "y": 53.5,
+    "label": "Ray of light"
+   }
+  ],
+  "answer": "shadow",
+  "hint": "It lies on the ground, where the light ray meets the ground beyond her.",
+  "explanation": "The ray from the lamp passing over her head reaches the ground beyond her feet. The dark patch on the ground between her feet and the tip of this ray is her **shadow**; the triangles formed by the post and its shadow and by the girl and her shadow are similar."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Applications of similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps that find the girl's shadow when the lamp is $4.5$ m high, the girl is $1.5$ m tall and $6$ m from the post.",
+  "image": {
+   "src": "/img/c10-ma-triangles/lamp-girl.svg",
+   "alt": "A lamp-post 4.5 m high, a girl 1.5 m tall standing 6 m from it and her shadow on the ground"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Write $\\dfrac{BE}{DE}=\\dfrac{AB}{CD}$, i.e. $\\dfrac{6+x}{x}=\\dfrac{4.5}{1.5}$"
+   },
+   {
+    "id": "s1",
+    "text": "Let the shadow be $x$ m; mark the lamp-post $AB$, the girl $CD$ and the shadow tip $E$"
+   },
+   {
+    "id": "s5",
+    "text": "Solve: $2x=6$, so the shadow is $x=3$ m"
+   },
+   {
+    "id": "s2",
+    "text": "Both stand vertically and $\\angle E$ is common, so $\\triangle ABE\\sim\\triangle CDE$ (AA)"
+   },
+   {
+    "id": "s4",
+    "text": "Simplify: $6+x=3x$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Name the triangles before using the ratio.",
+  "explanation": "Set up the unknown and the figure, prove similarity (AA), write the proportion of corresponding sides, simplify, and solve."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Applications of similarity",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A $5$ m vertical pole casts a $3$ m shadow at the same time that a tower casts a $21$ m shadow. How tall is the tower?",
+  "image": {
+   "src": "/img/c10-ma-triangles/tower-shadow.svg",
+   "alt": "A 5 m pole with a 3 m shadow and a tower with a 21 m shadow at the same time of day"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "12.6 m"
+   },
+   {
+    "id": "b",
+    "text": "105 m"
+   },
+   {
+    "id": "c",
+    "text": "23 m"
+   },
+   {
+    "id": "d",
+    "text": "35 m"
+   }
+  ],
+  "answer": "d",
+  "hint": "The sun's rays make the same angle, so the two triangles are similar.",
+  "explanation": "Both triangles have a right angle and the same angle of elevation, so they are similar (AA): $\\dfrac{\\text{tower}}{21}=\\dfrac{5}{3}$, giving $\\dfrac{5\\times21}{3}=35$ m. Inverting the ratio gives $12.6$; forgetting to divide by $3$ gives $105$; and adding the difference gives $23$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Medians of similar triangles",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "$\\triangle ABC\\sim\\triangle PQR$ and $CM$, $RN$ are their medians to $AB$ and $PQ$. If $AB=12$, $PQ=8$ and $CM=9$, find $RN$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/medians.svg",
+   "alt": "Triangle ABC with AB 12 and median CM 9, and a similar triangle PQR with PQ 8 and median RN unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "13.5"
+   },
+   {
+    "id": "b",
+    "text": "6"
+   },
+   {
+    "id": "c",
+    "text": "5"
+   },
+   {
+    "id": "d",
+    "text": "4.5"
+   }
+  ],
+  "answer": "b",
+  "hint": "In similar triangles, $\\dfrac{CM}{RN}=\\dfrac{AB}{PQ}$.",
+  "explanation": "$\\triangle AMC\\sim\\triangle PNR$ (SAS) so $\\dfrac{CM}{RN}=\\dfrac{AB}{PQ}$. Then $RN=\\dfrac{9\\times8}{12}=6$. Flipping gives $13.5$; subtracting the difference gives $5$; halving $CM$ gives $4.5$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Medians of similar triangles",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **median** of $\\triangle ABC$ drawn from $C$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/medians-h.svg",
+   "alt": "Triangles ABC and PQR with medians CM and RN drawn"
+  },
+  "spots": [
+   {
+    "id": "cm",
+    "x": 20.3,
+    "y": 50.0,
+    "label": "Median CM (C to the midpoint of AB)"
+   },
+   {
+    "id": "ab",
+    "x": 15.2,
+    "y": 71.4,
+    "label": "Side AB (not a median)"
+   },
+   {
+    "id": "rn",
+    "x": 71.2,
+    "y": 57.1,
+    "label": "Median RN"
+   },
+   {
+    "id": "pq",
+    "x": 87.7,
+    "y": 71.4,
+    "label": "Side PQ"
+   }
+  ],
+  "answer": "cm",
+  "hint": "A median joins a vertex to the midpoint of the opposite side (look for the equal tick marks).",
+  "explanation": "The median from $C$ goes to the midpoint $M$ of $AB$ (the two halves of $AB$ carry equal tick marks). $AB$ is a side, $CA$ is a side and $RN$ belongs to the other triangle."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Medians of similar triangles",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "$\\triangle ABC\\sim\\triangle PQR$; $CM$ and $RN$ are medians to $AB$ and $PQ$. Select **all** true statements.",
+  "image": {
+   "src": "/img/c10-ma-triangles/medians.svg",
+   "alt": "Triangle ABC with AB 12 and median CM 9, and a similar triangle PQR with PQ 8 and median RN unknown"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$CM=RN$"
+   },
+   {
+    "id": "b",
+    "text": "$\\triangle AMC\\sim\\triangle PNR$"
+   },
+   {
+    "id": "c",
+    "text": "$\\angle B=\\angle Q$"
+   },
+   {
+    "id": "d",
+    "text": "$\\triangle AMC\\sim\\triangle RNQ$"
+   },
+   {
+    "id": "e",
+    "text": "$\\dfrac{CM}{RN}=\\dfrac{AB}{PQ}$"
+   }
+  ],
+  "answers": [
+   "b",
+   "c",
+   "e"
+  ],
+  "hint": "Which vertices correspond: $A\\to P$, $B\\to Q$, $C\\to R$.",
+  "explanation": "Corresponding angles are equal ($\\angle B=\\angle Q$). Since $AM=\\dfrac{AB}2$ and $PN=\\dfrac{PQ}2$, $\\dfrac{AM}{PN}=\\dfrac{CA}{RP}$ and $\\angle A=\\angle P$, so $\\triangle AMC\\sim\\triangle PNR$ by SAS, giving $\\dfrac{CM}{RN}=\\dfrac{AB}{PQ}$. Medians are equal only when the triangles are congruent; and $A$ matches $P$, not $Q$ or $R$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In the figure $\\triangle ODC\\sim\\triangle OBA$, $\\angle BOC=110^\\circ$ and $\\angle CDO=65^\\circ$. Find $\\angle OAB$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/ex2-angles.svg",
+   "alt": "Lines DB and CA cross at O, DC parallel to AB, angle BOC 110 degrees and angle CDO 65 degrees"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "$45^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$65^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$70^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$110^\\circ$"
+   }
+  ],
+  "answer": "a",
+  "hint": "First find $\\angle DOC$ from the straight line, then $\\angle DCO$.",
+  "explanation": "$DOB$ is a straight line, so $\\angle DOC=180^\\circ-110^\\circ=70^\\circ$. In $\\triangle ODC$, $\\angle DCO=180^\\circ-70^\\circ-65^\\circ=45^\\circ$. Since $C\\leftrightarrow A$, $\\angle OAB=\\angle DCO=45^\\circ$. The values $65^\\circ$, $70^\\circ$ and $110^\\circ$ are other angles of the figure, not the corresponding one."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The altitudes $AD$ and $CE$ of $\\triangle ABC$ intersect each other. Tap the point where they meet.",
+  "image": {
+   "src": "/img/c10-ma-triangles/altitudes.svg",
+   "alt": "Triangle ABC with altitudes AD and CE drawn"
+  },
+  "spots": [
+   {
+    "id": "p",
+    "x": 53.3,
+    "y": 46.3,
+    "label": "Point where the altitudes meet"
+   },
+   {
+    "id": "d",
+    "x": 53.3,
+    "y": 83.3,
+    "label": "Foot D of altitude AD"
+   },
+   {
+    "id": "e",
+    "x": 44.6,
+    "y": 34.2,
+    "label": "Foot E of altitude CE"
+   },
+   {
+    "id": "a",
+    "x": 53.3,
+    "y": 16.7,
+    "label": "Vertex A"
+   },
+   {
+    "id": "c",
+    "x": 80.0,
+    "y": 83.3,
+    "label": "Vertex C"
+   }
+  ],
+  "answer": "p",
+  "hint": "It is inside the triangle, on both green and red lines.",
+  "explanation": "The point of intersection $P$ lies on both altitudes. There $\\triangle AEP\\sim\\triangle CDP$ (right angles at $E$ and $D$, and vertically opposite angles at $P$). $D$ and $E$ are the feet of the altitudes on the sides."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "$D$ is a point on side $BC$ of $\\triangle ABC$ such that $\\angle ADC=\\angle BAC$. If $CB=16$ and $CD=4$, find $CA$.",
+  "image": {
+   "src": "/img/c10-ma-triangles/ca2.svg",
+   "alt": "Triangle ABC with D on BC, angle ADC equal to angle BAC, CD 4 and CB 16"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "10"
+   },
+   {
+    "id": "b",
+    "text": "64"
+   },
+   {
+    "id": "c",
+    "text": "8"
+   },
+   {
+    "id": "d",
+    "text": "12"
+   }
+  ],
+  "answer": "c",
+  "hint": "$\\triangle CAD\\sim\\triangle CBA$ gives $CA^2=CB\\cdot CD$.",
+  "explanation": "$\\angle C$ is common and $\\angle ADC=\\angle BAC$, so $\\triangle CAD\\sim\\triangle CBA$ (AA) and $\\dfrac{CA}{CB}=\\dfrac{CD}{CA}$, i.e. $CA^2=CB\\cdot CD=64$, so $CA=8$. The mean $10$, the product $64$ (not square-rooted) and the difference $12$ are the usual traps."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each result with its statement.",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-fig.svg",
+   "alt": "Triangle ABC with a line DE parallel to side BC, cutting AB at D and AC at E"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Theorem 6.1"
+   },
+   {
+    "id": "l2",
+    "text": "Theorem 6.2"
+   },
+   {
+    "id": "l3",
+    "text": "Theorem 6.3"
+   },
+   {
+    "id": "l4",
+    "text": "Theorem 6.5"
+   }
+  ],
+  "right": [
+   {
+    "id": "r3",
+    "text": "If corresponding angles of two triangles are equal, the corresponding sides are in the same ratio"
+   },
+   {
+    "id": "r4",
+    "text": "One angle equal and the including sides proportional makes the triangles similar"
+   },
+   {
+    "id": "r1",
+    "text": "A line parallel to one side divides the other two sides in the same ratio"
+   },
+   {
+    "id": "r2",
+    "text": "A line dividing two sides in the same ratio is parallel to the third side"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "6.1 and 6.2 are converses; 6.3 and 6.4 are converses.",
+  "explanation": "Theorem 6.1 is the Basic Proportionality (Thales) Theorem and 6.2 is its converse. Theorem 6.3 is the AAA (AA) criterion, and 6.5 is the SAS criterion."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "hard",
+  "marks": 2,
+  "type": "match",
+  "prompt": "In each case $DE\\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. Match the data with the required length.",
+  "image": {
+   "src": "/img/c10-ma-triangles/mid-bpt.svg",
+   "alt": "Triangle ABC where D is the midpoint of AB and DE is parallel to BC"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "$D$ is the midpoint of $AB$ and $AC=14$ cm: find $AE$"
+   },
+   {
+    "id": "l2",
+    "text": "$AD:DB=2:3$ and $AE=4$ cm: find $EC$"
+   },
+   {
+    "id": "l3",
+    "text": "$AD=3$, $DB=5$ and $AC=24$ cm: find $AE$"
+   },
+   {
+    "id": "l4",
+    "text": "$AB=12$, $AD=4$ and $AE=5$ cm: find $AC$"
+   }
+  ],
+  "right": [
+   {
+    "id": "r4",
+    "text": "15 cm"
+   },
+   {
+    "id": "r1",
+    "text": "7 cm"
+   },
+   {
+    "id": "r3",
+    "text": "9 cm"
+   },
+   {
+    "id": "r2",
+    "text": "6 cm"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Use $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$ or $\\dfrac{AD}{AB}=\\dfrac{AE}{AC}$.",
+  "explanation": "(i) A line through the midpoint of one side parallel to another bisects the third side, so $AE=7$. (ii) $\\dfrac{2}{3}=\\dfrac{4}{EC}$ gives $EC=6$. (iii) $\\dfrac{AE}{AC}=\\dfrac{AD}{AB}=\\dfrac38$, so $AE=9$. (iv) $\\dfrac{4}{12}=\\dfrac{5}{AC}$ gives $AC=15$."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Basic Proportionality Theorem",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange the proof of the Basic Proportionality Theorem (Theorem 6.1).",
+  "image": {
+   "src": "/img/c10-ma-triangles/bpt-proof.svg",
+   "alt": "Triangle ABC with DE parallel to BC, lines BE and CD joined and perpendiculars DM and EN drawn"
+  },
+  "items": [
+   {
+    "id": "s4",
+    "text": "$\\triangle BDE$ and $\\triangle DEC$ are on the same base $DE$ and between parallels $BC$ and $DE$, so $ar(BDE)=ar(DEC)$"
+   },
+   {
+    "id": "s2",
+    "text": "$\\dfrac{ar(ADE)}{ar(BDE)}=\\dfrac{\\frac12\\,AD\\times EN}{\\frac12\\,DB\\times EN}=\\dfrac{AD}{DB}$"
+   },
+   {
+    "id": "s5",
+    "text": "Hence $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$"
+   },
+   {
+    "id": "s1",
+    "text": "Join $BE$ and $CD$ and draw $DM\\perp AC$ and $EN\\perp AB$"
+   },
+   {
+    "id": "s3",
+    "text": "$\\dfrac{ar(ADE)}{ar(DEC)}=\\dfrac{\\frac12\\,AE\\times DM}{\\frac12\\,EC\\times DM}=\\dfrac{AE}{EC}$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Build the construction, find two area ratios, then compare them.",
+  "explanation": "The construction gives two heights, so the area ratios of $\\triangle ADE$ with $\\triangle BDE$ and with $\\triangle DEC$ reduce to $\\dfrac{AD}{DB}$ and $\\dfrac{AE}{EC}$. As the triangles on $DE$ between the parallels have equal area, the two ratios are equal."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-triangles/aaa-tri.svg",
+   "alt": "Two triangles with the same three angles but different sizes"
+  },
+  "assertion": "If $\\angle A=\\angle D$, $\\angle B=\\angle E$ and $\\angle C=\\angle F$ in $\\triangle ABC$ and $\\triangle DEF$, then $\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{CA}{FD}$.",
+  "reason": "If corresponding angles of two triangles are equal, their corresponding sides are in the same ratio, and the triangles are similar.",
+  "answer": "a",
+  "hint": "Think of the AAA (AA) criterion.",
+  "explanation": "Theorem 6.3 says equal corresponding angles force the sides to be in the same ratio (the triangles in the picture have the same angles but different sizes). A is exactly that conclusion and R is the theorem, so R explains A."
+ },
+ {
+  "id": "in-cbse-10-math-triangles-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Triangles",
+  "chapterNo": 6,
+  "topic": "Criteria for similarity",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-triangles/sss-tri.svg",
+   "alt": "Triangle ABC with sides 6, 9, 12 and triangle DEF with sides 8, 12 and one unknown"
+  },
+  "assertion": "Triangles with sides $3, 4, 5$ and $6, 8, 11$ are similar.",
+  "reason": "If the sides of one triangle are proportional to the sides of another, the triangles are similar (SSS).",
+  "answer": "d",
+  "hint": "Check all three ratios.",
+  "explanation": "$\\dfrac{6}{3}=2$ and $\\dfrac{8}{4}=2$ but $\\dfrac{11}{5}=2.2$, so the sides are not proportional and A is false. R is the true SSS criterion, but it does not apply here."
+ }
+]

@@ -1,0 +1,2289 @@
+[
+  {
+    "id": "in-cbse-10-math-statistics-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Class mark",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The class interval $45\\text{--}65$ is shown on the strip. What is its **class mark**?",
+    "image": {
+      "src": "/img/c10-ma-statistics/classmark.svg",
+      "alt": "A strip from 45 to 65 with arrows from both ends meeting at the middle point marked with a question mark"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$20$"
+      },
+      {
+        "id": "b",
+        "text": "$55$"
+      },
+      {
+        "id": "c",
+        "text": "$110$"
+      },
+      {
+        "id": "d",
+        "text": "$65$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The class mark is the value in the middle of the class.",
+    "explanation": "Class mark $=\\dfrac{\\text{upper limit}+\\text{lower limit}}{2}=\\dfrac{65+45}{2}=55$. Writing $20$ gives the class **width** $65-45$. Writing $110$ forgets to divide the sum by 2, and $65$ just picks the upper limit."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Modal class",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The histogram shows the heights of 40 students. Tap the bar of the **modal class**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-heights.svg",
+      "alt": "Histogram with six bars of different heights for height classes from 130 to 160 centimetres"
+    },
+    "spots": [
+      {
+        "id": "s0",
+        "x": 19.5,
+        "y": 70.2,
+        "label": "Bar for 130–135 cm"
+      },
+      {
+        "id": "s1",
+        "x": 33.6,
+        "y": 61.5,
+        "label": "Bar for 135–140 cm"
+      },
+      {
+        "id": "s2",
+        "x": 47.7,
+        "y": 48.5,
+        "label": "Bar for 140–145 cm"
+      },
+      {
+        "id": "s3",
+        "x": 61.8,
+        "y": 57.2,
+        "label": "Bar for 145–150 cm"
+      },
+      {
+        "id": "s4",
+        "x": 75.9,
+        "y": 65.8,
+        "label": "Bar for 150–155 cm"
+      },
+      {
+        "id": "s5",
+        "x": 90.0,
+        "y": 70.2,
+        "label": "Bar for 155–160 cm"
+      }
+    ],
+    "answer": "s2",
+    "hint": "The modal class is the class with the largest frequency, which is the tallest bar.",
+    "explanation": "The **modal class** is the class with the highest frequency. The tallest bar is for $140\\text{--}145$ cm with frequency 13, so that is the modal class. A bar next to it can look tempting, but only the tallest bar counts."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Class mark",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The histogram shows daily phone time of 40 students. Tap the bar whose **class mark is 90 minutes**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-phone.svg",
+      "alt": "Histogram of phone time in minutes with six bars from 20 to 140 minutes"
+    },
+    "spots": [
+      {
+        "id": "s0",
+        "x": 19.5,
+        "y": 65.8,
+        "label": "Bar for 20–40 min"
+      },
+      {
+        "id": "s1",
+        "x": 33.6,
+        "y": 52.3,
+        "label": "Bar for 40–60 min"
+      },
+      {
+        "id": "s2",
+        "x": 47.7,
+        "y": 44.2,
+        "label": "Bar for 60–80 min"
+      },
+      {
+        "id": "s3",
+        "x": 61.8,
+        "y": 55.0,
+        "label": "Bar for 80–100 min"
+      },
+      {
+        "id": "s4",
+        "x": 75.9,
+        "y": 63.1,
+        "label": "Bar for 100–120 min"
+      },
+      {
+        "id": "s5",
+        "x": 90.0,
+        "y": 71.2,
+        "label": "Bar for 120–140 min"
+      }
+    ],
+    "answer": "s3",
+    "hint": "Add the two limits of each class and halve the sum.",
+    "explanation": "Class mark $=\\dfrac{\\text{lower}+\\text{upper}}{2}$. For $80\\text{--}100$ it is $\\dfrac{80+100}{2}=90$. The class marks of the other bars are 30, 50, 70, 110, 130. The tallest bar is not the answer: height shows the frequency, not the class mark."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean: direct method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The table shows the number of books read in a year by 20 students. Using the **direct method**, find the mean number of books read.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-direct.svg",
+      "alt": "A table of five classes of books read, with frequencies and class marks 2, 6, 10, 14 and 18"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$10$"
+      },
+      {
+        "id": "b",
+        "text": "$5.2$"
+      },
+      {
+        "id": "c",
+        "text": "$28.8$"
+      },
+      {
+        "id": "d",
+        "text": "$7.2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Multiply each class mark by its frequency, add the products and divide by the total frequency.",
+    "explanation": "Products $fx$: 14, 42, 10, 42, 36, total $\\sum fx=144$. Mean $=\\dfrac{\\sum fx}{\\sum f}=\\dfrac{144}{20}=7.2$. Traps: averaging the class marks without weights gives $10$, using lower limits instead of class marks gives $5.2$, and dividing $\\sum fx$ by the number of classes (5) gives $28.8$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean: assumed mean method",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The table shows the weekly savings (in ₹) of 40 students, worked out with the **assumed mean** $a=150$. Find the mean savings.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-assumed.svg",
+      "alt": "A table with columns class, f, x, d equal to x minus 150, and f times d, with a totals row"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹158"
+      },
+      {
+        "id": "b",
+        "text": "₹8"
+      },
+      {
+        "id": "c",
+        "text": "₹142"
+      },
+      {
+        "id": "d",
+        "text": "₹470"
+      }
+    ],
+    "answer": "a",
+    "hint": "The mean is the assumed mean plus the mean of the deviations.",
+    "explanation": "$\\bar{x}=a+\\dfrac{\\sum fd}{\\sum f}=150+\\dfrac{320}{40}=158$. Trap answers: $8$ forgets to add $a$, $142$ subtracts the mean deviation instead of adding it, and $470$ adds $\\sum fd$ without dividing by $\\sum f$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean: step-deviation method",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "For the marks of 50 students the **step-deviation method** is used with $a=45$ and $h=10$ (see the table). Find the mean mark.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-step.svg",
+      "alt": "A table with columns marks, f, x, u equal to x minus 45 over 10, and f times u, with a totals row"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$45.26$"
+      },
+      {
+        "id": "b",
+        "text": "$2.6$"
+      },
+      {
+        "id": "c",
+        "text": "$47.6$"
+      },
+      {
+        "id": "d",
+        "text": "$175$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Use $\\bar{x}=a+h\\times\\dfrac{\\sum fu}{\\sum f}$ and remember the class size $h$.",
+    "explanation": "$\\bar{x}=a+h\\dfrac{\\sum fu}{\\sum f}=45+10\\times\\dfrac{13}{50}=47.6$. Dropping $h$ gives $45.26$, dropping $a$ gives $2.6$, and multiplying $\\sum fu$ by $h$ without dividing by $\\sum f$ gives $175$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean: direct method",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of the **direct method** for the mean of grouped data in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-statistics/flow-direct.svg",
+      "alt": "Four boxes joined by arrows with a dot moving along a line below them"
+    },
+    "items": [
+      {
+        "id": "div",
+        "text": "Divide $\\sum fx$ by $\\sum f$"
+      },
+      {
+        "id": "cm",
+        "text": "Find the class mark $x$ of every class"
+      },
+      {
+        "id": "sum",
+        "text": "Add up the $f$ column and the $fx$ column"
+      },
+      {
+        "id": "prod",
+        "text": "Multiply each class mark by its frequency, $fx$"
+      }
+    ],
+    "answer": [
+      "cm",
+      "prod",
+      "sum",
+      "div"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need the class marks before you can multiply, and both totals before you divide.",
+    "explanation": "First find each **class mark** $x=\\dfrac{\\text{lower}+\\text{upper}}{2}$, then form the products $fx$, then add the columns to get $\\sum fx$ and $\\sum f$, and finally divide: $\\bar{x}=\\dfrac{\\sum fx}{\\sum f}$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Formulas for grouped data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each **method or measure** with its formula.",
+    "image": {
+      "src": "/img/c10-ma-statistics/toolkit.svg",
+      "alt": "Five coloured formula cards stacked in a list"
+    },
+    "left": [
+      {
+        "id": "dm",
+        "text": "Direct method (mean)"
+      },
+      {
+        "id": "am",
+        "text": "Assumed mean method"
+      },
+      {
+        "id": "sd",
+        "text": "Step-deviation method"
+      },
+      {
+        "id": "mo",
+        "text": "Mode of grouped data"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\bar{x}=\\dfrac{\\sum f_ix_i}{\\sum f_i}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\bar{x}=a+\\dfrac{\\sum f_id_i}{\\sum f_i}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\bar{x}=a+h\\,\\dfrac{\\sum f_iu_i}{\\sum f_i}$"
+      },
+      {
+        "id": "r4",
+        "text": "$l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$"
+      }
+    ],
+    "pairs": {
+      "dm": "r1",
+      "am": "r2",
+      "sd": "r3",
+      "mo": "r4"
+    },
+    "hint": "Look for $d_i=x_i-a$ in one formula and $u_i=\\dfrac{x_i-a}{h}$ in another.",
+    "explanation": "The **direct method** uses $\\dfrac{\\sum fx}{\\sum f}$. The **assumed mean method** adds $a$ to the mean of the deviations $d=x-a$. The **step-deviation method** also divides the deviations by $h$, so the result is multiplied back by $h$. The **mode** formula uses the modal class and its neighbours."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Choosing the measure",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The monthly pay (in ₹ thousand) of five employees and the owner is shown. Which measure gives the best idea of a **typical** pay?",
+    "image": {
+      "src": "/img/c10-ma-statistics/salaries.svg",
+      "alt": "Bar chart of six monthly pays: five near 20 thousand and one bar for the owner at 400 thousand"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The median, $20.5$ thousand, because the owner's huge pay does not pull it up"
+      },
+      {
+        "id": "b",
+        "text": "The mean, $83.33$ thousand, because it uses every value"
+      },
+      {
+        "id": "c",
+        "text": "The mode, because it is the most frequent pay"
+      },
+      {
+        "id": "d",
+        "text": "The largest value, because it shows what the firm can pay"
+      }
+    ],
+    "answer": "a",
+    "hint": "One extreme value affects one of the measures strongly.",
+    "explanation": "The mean is $\\dfrac{18+20+22+19+21+400}{6}=83.33$ thousand, far above what five of the six people earn, because it is pulled up by the **extreme value**. The median is the average of the 3rd and 4th values in order (20 and 21), $20.5$ thousand, which is typical. There is no mode here (every pay occurs once)."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode of grouped data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The histogram shows the waiting time of 60 passengers at a bus stop. Find the **mode** of the waiting time (in minutes).",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-wait.svg",
+      "alt": "Histogram with six bars for waiting time classes from 0 to 60 minutes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$35.5$"
+      },
+      {
+        "id": "b",
+        "text": "$25.5$"
+      },
+      {
+        "id": "c",
+        "text": "$24.5$"
+      },
+      {
+        "id": "d",
+        "text": "$25$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Find the modal class first, then use $l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$.",
+    "explanation": "The tallest bar is $20\\text{--}30$, so $l=20$, $h=10$, $f_1=17$, $f_0=6$, $f_2=8$. Mode $=20+\\dfrac{17-6}{2(17)-6-8}\\times 10=25.5$. Using the upper limit instead of $l$ gives $35.5$, swapping $f_0$ and $f_2$ gives $24.5$, and quoting the class mark gives $25$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode: the symbols",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the mode formula, $f_0$ is the frequency of the class **just before** the modal class. On this histogram of marks, tap the bar that gives $f_0$.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-test.svg",
+      "alt": "Histogram of marks with six bars, the fourth one tallest"
+    },
+    "spots": [
+      {
+        "id": "s0",
+        "x": 19.5,
+        "y": 70.2,
+        "label": "Bar for 20–30 marks"
+      },
+      {
+        "id": "s1",
+        "x": 33.6,
+        "y": 66.3,
+        "label": "Bar for 30–40 marks"
+      },
+      {
+        "id": "s2",
+        "x": 47.7,
+        "y": 58.5,
+        "label": "Bar for 40–50 marks"
+      },
+      {
+        "id": "s3",
+        "x": 61.8,
+        "y": 48.1,
+        "label": "Bar for 50–60 marks"
+      },
+      {
+        "id": "s4",
+        "x": 75.9,
+        "y": 62.4,
+        "label": "Bar for 60–70 marks"
+      },
+      {
+        "id": "s5",
+        "x": 90.0,
+        "y": 68.9,
+        "label": "Bar for 70–80 marks"
+      }
+    ],
+    "answer": "s2",
+    "hint": "First find the tallest bar, then step one class to the left.",
+    "explanation": "The modal class is $50\\text{--}60$ (tallest bar). The class **preceding** it is $40\\text{--}50$, so its frequency 14 is $f_0$. The bar to the right, $60\\text{--}70$, gives $f_2$, and the tallest bar itself gives $f_1$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median of grouped data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The table shows the daily screen time (in minutes) of 42 children. Find the **median** screen time.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-median.svg",
+      "alt": "A table of six classes of screen time from 20 to 80 minutes with frequency and cumulative frequency columns"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$81.25$"
+      },
+      {
+        "id": "b",
+        "text": "$45$"
+      },
+      {
+        "id": "c",
+        "text": "$50.5$"
+      },
+      {
+        "id": "d",
+        "text": "$55$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Locate the class whose cumulative frequency first exceeds $\\dfrac{n}{2}$, then use $l+\\dfrac{\\frac n2-cf}{f}\\times h$.",
+    "explanation": "$\\dfrac{n}{2}=21$, so the median class is $50\\text{--}60$ (first $cf$ above it is 25). With $l=50$, $cf=17$ (the class **before**), $f=8$, $h=10$: median $=50+\\dfrac{21-17}{8}\\times 10=55$. Using $n$ instead of $\\frac n2$ gives $81.25$, taking $cf$ of the median class itself gives $45$, and forgetting $h$ gives $50.5$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median class",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The table shows the ages of 50 club members. Find $\\dfrac{n}{2}$ and tap the row of the **median class**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-cf-hot.svg",
+      "alt": "A table of six age classes with frequency and cumulative frequency columns"
+    },
+    "spots": [
+      {
+        "id": "r0",
+        "x": 34.7,
+        "y": 25.9,
+        "label": "Class 15–20"
+      },
+      {
+        "id": "r1",
+        "x": 34.7,
+        "y": 38.2,
+        "label": "Class 20–25"
+      },
+      {
+        "id": "r2",
+        "x": 34.7,
+        "y": 50.5,
+        "label": "Class 25–30"
+      },
+      {
+        "id": "r3",
+        "x": 34.7,
+        "y": 62.7,
+        "label": "Class 30–35"
+      },
+      {
+        "id": "r4",
+        "x": 34.7,
+        "y": 75.0,
+        "label": "Class 35–40"
+      },
+      {
+        "id": "r5",
+        "x": 34.7,
+        "y": 87.3,
+        "label": "Class 40–45"
+      }
+    ],
+    "answer": "r2",
+    "hint": "The median class is the first class whose cumulative frequency is larger than $\\dfrac{n}{2}$.",
+    "explanation": "$n=50$ so $\\dfrac{n}{2}=25$. The cumulative frequencies are 4, 13, 28, 40, 46, 50. The first one greater than 25 is 28, which belongs to $25\\text{--}30$, the median class. The class with the biggest frequency is the modal class, which can be a different row."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Cumulative frequency",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The table gives a **less than** cumulative frequency distribution. How many students scored marks in the class $30\\text{--}40$?",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-lessthan.svg",
+      "alt": "A table listing less than 20 up to less than 70 with the number of students for each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$19$"
+      },
+      {
+        "id": "b",
+        "text": "$36$"
+      },
+      {
+        "id": "c",
+        "text": "$17$"
+      },
+      {
+        "id": "d",
+        "text": "$53$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The number of students in a class is the difference of two neighbouring cumulative frequencies.",
+    "explanation": "Students with less than 40 marks: 36; with less than 30 marks: 17. So the class $30\\text{--}40$ has $36-17=19$ students. Reading 36 takes everybody below 40, reading 17 takes those below 30, and 53 wrongly adds the two cumulative values."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Ogive and the median",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The **less than ogive** of the marks of 60 students is drawn. A line is drawn from $\\dfrac{n}{2}=30$ across to the curve. At which mark does the curve reach this height, i.e. what is the **median**?",
+    "image": {
+      "src": "/img/c10-ma-statistics/ogive-read.svg",
+      "alt": "A rising less than ogive with a dashed horizontal line at 30 on the vertical axis meeting the curve"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$30$"
+      },
+      {
+        "id": "b",
+        "text": "$20$"
+      },
+      {
+        "id": "c",
+        "text": "$27.5$"
+      },
+      {
+        "id": "d",
+        "text": "$25$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The median is the mark whose less than cumulative frequency is exactly $\\dfrac{n}{2}$.",
+    "explanation": "The curve is built from $(10,11),(20,24),\\dots$ and the segment through height 30 lies in the class $20\\text{--}30$. Median $=20+\\dfrac{30-24}{8}\\times 10=27.5$, the same value the formula gives. The ends of the class ($30$ or $20$) and its class mark $25$ ignore where the curve really crosses 30."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Ogive and the median",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "This less than ogive has $n=40$. Tap the point on the curve that gives the **median**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/ogive-hot.svg",
+      "alt": "A rising less than ogive through six upper-limit points with numbered axes"
+    },
+    "spots": [
+      {
+        "id": "med",
+        "x": 61.5,
+        "y": 44.2,
+        "label": "Median point at height 20"
+      },
+      {
+        "id": "lo",
+        "x": 54.5,
+        "y": 54.2,
+        "label": "Point (30, 14)"
+      },
+      {
+        "id": "hi",
+        "x": 68.5,
+        "y": 34.2,
+        "label": "Point (40, 26)"
+      },
+      {
+        "id": "end",
+        "x": 96.5,
+        "y": 10.8,
+        "label": "Last point (60, 40)"
+      },
+      {
+        "id": "st",
+        "x": 12.5,
+        "y": 77.5,
+        "label": "Starting point (0, 0)"
+      }
+    ],
+    "answer": "med",
+    "hint": "Find the height $\\dfrac{n}{2}$ on the vertical axis, then go across to the curve.",
+    "explanation": "$\\dfrac{n}{2}=20$. Reading across to the curve we land on the segment between $(30,14)$ and $(40,26)$, at $x=35$. That point is the median. The plotted corners are the cumulative frequencies at the class limits, and the top point $(60,40)$ shows the total $n$, not $\\frac n2$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean, median and mode",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "For a moderately skewed distribution the median is $52$ and the mean is $54$. Use the empirical relation shown on the balance to estimate the **mode**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/balance.svg",
+      "alt": "A balance with three median blocks on one pan and a mode block with two mean blocks on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$48$"
+      },
+      {
+        "id": "b",
+        "text": "$58$"
+      },
+      {
+        "id": "c",
+        "text": "$102$"
+      },
+      {
+        "id": "d",
+        "text": "$264$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Three times the median equals the mode plus two times the mean.",
+    "explanation": "The relation is $3\\,\\text{Median}=\\text{Mode}+2\\,\\text{Mean}$, so Mode $=3(52)-2(54)=156-108=48$. Swapping mean and median gives $58$, forgetting the factor 2 on the mean gives $102$, and adding instead of subtracting gives $264$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Missing frequency",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The mean daily pocket money of the children in the table is ₹40. Find the missing frequency in the class $50\\text{--}60$.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-missf.svg",
+      "alt": "A table of six pocket money classes with one frequency replaced by a question mark"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3$"
+      },
+      {
+        "id": "b",
+        "text": "$11$"
+      },
+      {
+        "id": "c",
+        "text": "$31$"
+      },
+      {
+        "id": "d",
+        "text": "$1$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Write $\\sum fx=\\text{mean}\\times\\sum f$ with the missing frequency as an unknown and solve.",
+    "explanation": "Let the missing frequency be $f$. Known: $\\sum f=29+f$ and $\\sum fx=995+55f$. Mean $=40$ gives $995+55f=40(29+f)$, so $f=11$. Leaving $f$ out of the total frequency gives 3, and using lower limits or upper limits instead of class marks gives 31 and 1."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median with unknown frequencies",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The **median** of the distribution below is $31$ and the total frequency is $68$. Find the value of $y$.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-xy.svg",
+      "alt": "A table of eight classes from 0 to 80 with two frequencies shown as x and y and a total row"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$11$"
+      },
+      {
+        "id": "b",
+        "text": "$14$"
+      },
+      {
+        "id": "c",
+        "text": "$13$"
+      },
+      {
+        "id": "d",
+        "text": "$4$"
+      }
+    ],
+    "answer": "d",
+    "hint": "First find the median class, then use the median formula to get $x$, then use the total.",
+    "explanation": "The median $31$ lies in $30\\text{--}40$. Frequencies before it add up to $22+x$ (the class before). Median formula: $31=30+\\dfrac{34-(22+x)}{10}\\times 10$, so $x=11$. Then $y=68-(53+11)=4$. Mixing up the unknowns gives $11$, adding the median-class frequency to $cf$ gives $y=14$, and forgetting the factor $h$ gives $y=13$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean of grouped data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-statistics/approx.svg",
+      "alt": "Five histogram bars each with dots that slide to the middle of their class"
+    },
+    "assertion": "The mean of grouped data found with class marks is only an approximation of the true mean.",
+    "reason": "It is assumed that every observation of a class is equal to the class mark of that class.",
+    "answer": "a",
+    "hint": "Ask what the formula really treats each observation as.",
+    "explanation": "Both statements are true and R **explains** A. The mean uses $\\sum fx/\\sum f$ with $x$ the class mark, as if all values in a class sat exactly at the middle. Real values differ a little, so the result is approximate (in the chapter, 62 against the exact 59.3)."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Ogives and the median",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-statistics/ogive-both.svg",
+      "alt": "A rising blue less than ogive and a falling red more than ogive crossing at a point"
+    },
+    "assertion": "The less than ogive and the more than ogive of a distribution intersect at a point whose x-coordinate is the median.",
+    "reason": "The less than ogive rises and the more than ogive falls.",
+    "answer": "b",
+    "hint": "At the crossing point both cumulative frequencies must be equal.",
+    "explanation": "Both statements are true, but R does **not** explain A. A rising curve and a falling curve are guaranteed to meet, but the reason that the meeting point gives the median is that there the numbers of observations below and above are equal, each $\\dfrac{n}{2}$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median class",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-medclass.svg",
+      "alt": "Histogram of six bars with one coloured bar"
+    },
+    "assertion": "For a distribution with $n=60$ the median class is the first class whose cumulative frequency exceeds $30$.",
+    "reason": "The median class is the class with the highest frequency.",
+    "answer": "c",
+    "hint": "Which class does the highest frequency pick out?",
+    "explanation": "A is **true**: the cumulative frequencies are 5, 14, 30, 40, 52, 60, and the first one above 30 belongs to $30\\text{--}40$. R is **false**: the class with the highest frequency is the **modal** class (here $20\\text{--}30$), which need not be the median class."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Choosing the measure",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-statistics/salaries.svg",
+      "alt": "Bar chart of six monthly pays with one very large pay"
+    },
+    "assertion": "The mean is the best measure of a typical pay when one person in the group earns a huge salary.",
+    "reason": "The mean is affected by extreme values.",
+    "answer": "d",
+    "hint": "Is a measure that reacts strongly to extremes good for a typical value?",
+    "explanation": "A is **false** and R is **true**. Because the mean is pulled towards extreme values, a single huge pay makes the mean unrepresentative, and the **median** is the better measure of a typical pay."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode of grouped data",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-modeline.svg",
+      "alt": "Histogram with the tallest bar coloured orange and a dashed line inside it marking the mode"
+    },
+    "assertion": "The mode of grouped data always lies inside the modal class.",
+    "reason": "In the formula $l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$ the fraction multiplying $h$ lies between 0 and 1.",
+    "answer": "a",
+    "hint": "Where is the answer if you add a fraction of the class size to $l$?",
+    "explanation": "Both statements are true and R explains A. Since $f_1$ is the largest frequency, $0\\le f_1-f_0\\le 2f_1-f_0-f_2$, so the fraction lies between 0 and 1 and the mode $=l+\\text{(fraction)}\\,h$ lies between $l$ and $l+h$, inside the modal class."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Class marks",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the correct statements about class marks.",
+    "image": {
+      "src": "/img/c10-ma-statistics/classes-line.svg",
+      "alt": "A number line with four coloured class intervals from 0 to 60 and a dot marked at the middle of each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The class mark of $20\\text{--}30$ is $25$."
+      },
+      {
+        "id": "b",
+        "text": "The class mark of $10\\text{--}25$ is $17.5$."
+      },
+      {
+        "id": "c",
+        "text": "The class mark of $40\\text{--}60$ is $20$."
+      },
+      {
+        "id": "d",
+        "text": "The class mark is used as the representative of the whole class."
+      },
+      {
+        "id": "e",
+        "text": "The class mark of a class is always equal to its lower limit."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Class mark $=\\dfrac{\\text{lower}+\\text{upper}}{2}$.",
+    "explanation": "Class marks: $\\dfrac{20+30}{2}=25$ and $\\dfrac{10+25}{2}=17.5$, so those two are true. The class mark represents its class, because the frequency is assumed to be centred at it. $\\dfrac{40+60}{2}=50$, not 20 (20 is the class width), and the class mark is the middle of the class, never the lower limit."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode of grouped data",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "For the histogram shown (class width 5), select **all** the correct statements.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-f.svg",
+      "alt": "Histogram of six bars with the tallest bar for the class 15 to 20"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The modal class is $15\\text{--}20$."
+      },
+      {
+        "id": "b",
+        "text": "For the modal class $f_0=12$ and $f_2=8$."
+      },
+      {
+        "id": "c",
+        "text": "The mode is $17$."
+      },
+      {
+        "id": "d",
+        "text": "The mode is $17.5$, the class mark of the modal class."
+      },
+      {
+        "id": "e",
+        "text": "The mode is $20$, the upper limit of the modal class."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Use $l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$ with the tallest bar as the modal class.",
+    "explanation": "The tallest bar (frequency 20) is $15\\text{--}20$. Its neighbours give $f_0=12$ and $f_2=8$. Mode $=15+\\dfrac{20-12}{2(20)-12-8}\\times 5=17$. The class mark ($17.5$) and the upper limit ($20$) are not the mode; the formula places the mode using the neighbouring frequencies."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Cumulative frequency",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the correct statements about the cumulative frequency (less than type) column.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-cf3.svg",
+      "alt": "A table of six classes with frequency and cumulative frequency columns"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The last cumulative frequency equals the total frequency $n$."
+      },
+      {
+        "id": "b",
+        "text": "Cumulative frequencies can decrease as we go down the table."
+      },
+      {
+        "id": "c",
+        "text": "The cumulative frequency of the first class equals its own frequency."
+      },
+      {
+        "id": "d",
+        "text": "Each cumulative frequency is the previous cumulative frequency plus the frequency of the class."
+      },
+      {
+        "id": "e",
+        "text": "The cumulative frequency of the median class is always exactly $\\dfrac{n}{2}$."
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "Think about how the column is built, running down the table.",
+    "explanation": "A running total never goes down, it starts with the first frequency (4), and each row adds that class frequency to the row above. The last entry is $n=50$. The cumulative frequency of the median class is only the first value **above** $\\frac n2$; it need not equal $\\frac n2$ (here $\\frac n2=25$ while the median class has cf 27)."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Choosing the best measure",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the situations in which the **mode** is the most suitable measure.",
+    "image": {
+      "src": "/img/c10-ma-statistics/shop.svg",
+      "alt": "Stacks of shoe boxes for sizes 5 to 9 with the tallest stack for size 7"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A shop decides which shoe size to stock the most of."
+      },
+      {
+        "id": "b",
+        "text": "A channel finds which programme is watched by the most viewers."
+      },
+      {
+        "id": "c",
+        "text": "A board compares the average marks of two schools."
+      },
+      {
+        "id": "d",
+        "text": "A survey finds the colour of auto-rickshaw used by most people in a city."
+      },
+      {
+        "id": "e",
+        "text": "A report gives the typical wage when a few people earn extremely high pay."
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "The mode answers \"which is the most frequent or popular?\".",
+    "explanation": "The mode is best when we want the **most popular** or most frequent item: a shoe size to stock, a programme, a colour. Comparing schools needs the **mean**, and a typical wage with a few huge salaries is better described by the **median**."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Methods for the mean",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about the three methods of finding the mean of grouped data.",
+    "image": {
+      "src": "/img/c10-ma-statistics/methods3.svg",
+      "alt": "Three rows of numbers: class marks, deviations from an assumed mean, and step deviations that are much smaller"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "All three methods give the same mean."
+      },
+      {
+        "id": "b",
+        "text": "The mean changes if a different assumed mean $a$ is chosen."
+      },
+      {
+        "id": "c",
+        "text": "The step-deviation method is convenient when all the deviations $d_i$ have a common factor."
+      },
+      {
+        "id": "d",
+        "text": "In the step-deviation method, $\\bar{x}=a+h\\times\\dfrac{\\sum f_iu_i}{\\sum f_i}$."
+      },
+      {
+        "id": "e",
+        "text": "The assumed mean must always be the smallest class mark."
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "The assumed mean is only a helper; $d$ and $u$ are just shifted and shrunk copies of $x$.",
+    "explanation": "The assumed mean and step-deviation methods are simplified forms of the direct method, so they give the same result and the value does **not** depend on the choice of $a$ (the shift is added back). Step deviation helps when the $d_i$ share a common factor $h$, and the formula is $a+h\\dfrac{\\sum fu}{\\sum f}$. Any class mark may serve as $a$, usually one near the middle."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median: steps",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for finding the **median of grouped data** in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-statistics/medsteps.svg",
+      "alt": "Fifteen ordered blocks with the middle block raised and highlighted"
+    },
+    "items": [
+      {
+        "id": "sub",
+        "text": "Substitute in $l+\\dfrac{\\frac n2-cf}{f}\\times h$"
+      },
+      {
+        "id": "cft",
+        "text": "Make the cumulative frequency column and find $n$"
+      },
+      {
+        "id": "half",
+        "text": "Find $\\dfrac{n}{2}$"
+      },
+      {
+        "id": "rd",
+        "text": "Read $l$, $cf$, $f$ and $h$ for that class"
+      },
+      {
+        "id": "mc",
+        "text": "Find the class whose cumulative frequency is just above $\\dfrac{n}{2}$"
+      }
+    ],
+    "answer": [
+      "cft",
+      "half",
+      "mc",
+      "rd",
+      "sub"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The median class cannot be found before you have the cumulative frequencies and $\\frac n2$.",
+    "explanation": "Build the **cumulative frequency** column (its last value is $n$), find $\\frac n2$, locate the **median class** (first cf above $\\frac n2$), read $l$, $cf$ (of the class before), $f$ and $h$, and finally substitute into the median formula."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Drawing an ogive",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for drawing a **less than ogive** in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-statistics/ogive-build.svg",
+      "alt": "A less than ogive traced as a rising curve through points"
+    },
+    "items": [
+      {
+        "id": "join",
+        "text": "Join the points with a smooth curve"
+      },
+      {
+        "id": "plot",
+        "text": "Plot the points (upper limit, cumulative frequency)"
+      },
+      {
+        "id": "tab",
+        "text": "Prepare the less than cumulative frequency table"
+      },
+      {
+        "id": "axes",
+        "text": "Mark upper limits on the $x$-axis and cumulative frequency on the $y$-axis"
+      }
+    ],
+    "answer": [
+      "tab",
+      "axes",
+      "plot",
+      "join"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need numbers before you can plot, and points before you can join them.",
+    "explanation": "Make the **less than cumulative frequency** table first, set up the axes (upper class limits along $x$, cumulative frequency up $y$; the scales need not be equal), plot each pair (upper limit, cf), then join the points with a smooth rising curve: the **ogive**."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode: steps",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps for finding the **mode of grouped data** in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-modesteps.svg",
+      "alt": "A histogram with the tallest bar orange, the bar before it green and the bar after it purple"
+    },
+    "items": [
+      {
+        "id": "form",
+        "text": "Substitute in $l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$"
+      },
+      {
+        "id": "mc",
+        "text": "Pick the class with the highest frequency (the modal class)"
+      },
+      {
+        "id": "rd",
+        "text": "Read $l$, $h$, $f_1$, $f_0$ and $f_2$"
+      },
+      {
+        "id": "simp",
+        "text": "Simplify to get the mode"
+      }
+    ],
+    "answer": [
+      "mc",
+      "rd",
+      "form",
+      "simp"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The formula symbols are all defined by the modal class.",
+    "explanation": "Find the **modal class** (the tallest bar), read $l$, $h$ and the three frequencies $f_1$ (modal), $f_0$ (before) and $f_2$ (after), substitute them into the mode formula and simplify."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean: step-deviation steps",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps of the **step-deviation method** in the correct order.",
+    "image": {
+      "src": "/img/c10-ma-statistics/flow-step.svg",
+      "alt": "Four boxes joined by arrows: choose a, find d, divide to get u, sum the products"
+    },
+    "items": [
+      {
+        "id": "fin",
+        "text": "Use $\\bar{x}=a+h\\dfrac{\\sum fu}{\\sum f}$"
+      },
+      {
+        "id": "d",
+        "text": "Find the deviations $d=x-a$"
+      },
+      {
+        "id": "a",
+        "text": "Choose an assumed mean $a$ from the class marks"
+      },
+      {
+        "id": "sum",
+        "text": "Multiply by $f$ and add to get $\\sum fu$ and $\\sum f$"
+      },
+      {
+        "id": "u",
+        "text": "Divide each deviation by the class size, $u=\\dfrac{x-a}{h}$"
+      }
+    ],
+    "answer": [
+      "a",
+      "d",
+      "u",
+      "sum",
+      "fin"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Shift first, then shrink, then multiply by frequencies.",
+    "explanation": "Pick $a$, **shift** the class marks to $d=x-a$, **shrink** them to $u=\\dfrac{d}{h}$, multiply by the frequencies and add, and finally undo the shifting and shrinking with $\\bar{x}=a+h\\dfrac{\\sum fu}{\\sum f}$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median formula: symbols",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "In the median formula $l+\\dfrac{\\frac n2-cf}{f}\\times h$, match each symbol with its meaning.",
+    "image": {
+      "src": "/img/c10-ma-statistics/median-stack.svg",
+      "alt": "Three stacked blocks: classes before, the median class in orange and classes after"
+    },
+    "left": [
+      {
+        "id": "l",
+        "text": "$l$"
+      },
+      {
+        "id": "cf",
+        "text": "$cf$"
+      },
+      {
+        "id": "f",
+        "text": "$f$"
+      },
+      {
+        "id": "h",
+        "text": "$h$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Lower limit of the median class"
+      },
+      {
+        "id": "r2",
+        "text": "Cumulative frequency of the class preceding the median class"
+      },
+      {
+        "id": "r3",
+        "text": "Frequency of the median class"
+      },
+      {
+        "id": "r4",
+        "text": "Size (width) of the class interval"
+      }
+    ],
+    "pairs": {
+      "l": "r1",
+      "cf": "r2",
+      "f": "r3",
+      "h": "r4"
+    },
+    "hint": "$cf$ is a running total of the frequencies of everything before the median class.",
+    "explanation": "$l$ is the **lower limit** of the median class, $cf$ is the cumulative frequency of the class **just before** it, $f$ is the median class frequency and $h$ is the class **size**. Using the cumulative frequency of the median class itself instead of the preceding class is a common slip."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode formula: symbols",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "In the mode formula $l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$, match each symbol with its meaning.",
+    "image": {
+      "src": "/img/c10-ma-statistics/mode-bars.svg",
+      "alt": "Three adjacent bars: the class before the modal class in green, the modal class in orange and the class after in purple"
+    },
+    "left": [
+      {
+        "id": "f1",
+        "text": "$f_1$"
+      },
+      {
+        "id": "f0",
+        "text": "$f_0$"
+      },
+      {
+        "id": "f2",
+        "text": "$f_2$"
+      },
+      {
+        "id": "l",
+        "text": "$l$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Frequency of the modal class"
+      },
+      {
+        "id": "r2",
+        "text": "Frequency of the class preceding the modal class"
+      },
+      {
+        "id": "r3",
+        "text": "Frequency of the class succeeding the modal class"
+      },
+      {
+        "id": "r4",
+        "text": "Lower limit of the modal class"
+      }
+    ],
+    "pairs": {
+      "f1": "r1",
+      "f0": "r2",
+      "f2": "r3",
+      "l": "r4"
+    },
+    "hint": "The subscript 1 is the modal class, 0 comes before it and 2 comes after it.",
+    "explanation": "$f_1$ belongs to the **modal** class, $f_0$ to the class **before** it and $f_2$ to the class **after** it. The lower limit $l$ is that of the modal class. Interchanging $f_0$ and $f_2$ changes the answer."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Choosing the measure",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with the measure of central tendency that suits it best.",
+    "image": {
+      "src": "/img/c10-ma-statistics/situations.svg",
+      "alt": "Three pictures: a television with bars of viewers, two bars for two schools, and coin stacks with one very tall stack"
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "Finding the most watched TV programme"
+      },
+      {
+        "id": "s2",
+        "text": "Comparing the average results of two schools"
+      },
+      {
+        "id": "s3",
+        "text": "Finding a typical income when a few people are extremely rich"
+      }
+    ],
+    "right": [
+      {
+        "id": "mean",
+        "text": "Mean"
+      },
+      {
+        "id": "med",
+        "text": "Median"
+      },
+      {
+        "id": "mode",
+        "text": "Mode"
+      }
+    ],
+    "pairs": {
+      "s1": "mode",
+      "s2": "mean",
+      "s3": "med"
+    },
+    "hint": "Popular means most frequent, comparison uses every value, and extremes should not drag a typical value.",
+    "explanation": "The **mode** gives the most frequent or popular item. The **mean** uses every observation and lets us compare two distributions. The **median** is not dragged by a few extreme values, so it describes a typical income better."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Class marks",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each class interval with its **class mark**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/intervals.svg",
+      "alt": "Four adjacent coloured class intervals labelled 12 to 20, 20 to 36, 36 to 50 and 50 to 76"
+    },
+    "left": [
+      {
+        "id": "i0",
+        "text": "$12\\text{--}20$"
+      },
+      {
+        "id": "i1",
+        "text": "$20\\text{--}36$"
+      },
+      {
+        "id": "i2",
+        "text": "$36\\text{--}50$"
+      },
+      {
+        "id": "i3",
+        "text": "$50\\text{--}76$"
+      }
+    ],
+    "right": [
+      {
+        "id": "c0",
+        "text": "$43$"
+      },
+      {
+        "id": "c1",
+        "text": "$16$"
+      },
+      {
+        "id": "c2",
+        "text": "$63$"
+      },
+      {
+        "id": "c3",
+        "text": "$28$"
+      }
+    ],
+    "pairs": {
+      "i0": "c1",
+      "i1": "c3",
+      "i2": "c0",
+      "i3": "c2"
+    },
+    "hint": "Add the two limits and halve the sum, class by class.",
+    "explanation": "Class mark $=\\dfrac{\\text{lower}+\\text{upper}}{2}$: $\\dfrac{12+20}{2}=16$, $\\dfrac{20+36}{2}=28$, $\\dfrac{36+50}{2}=43$, $\\dfrac{50+76}{2}=63$. The classes have different widths, but the class mark is still the midpoint."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Step deviation with unequal classes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The number of orders delivered per day by 50 riders is grouped in classes of **unequal size**. Using $a=170$ and $h=5$ (see the table), find the mean number of orders.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-unequal.svg",
+      "alt": "A table with five unequal classes, frequencies, class marks and step deviations with a totals row"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$130.9$"
+      },
+      {
+        "id": "b",
+        "text": "$162.18$"
+      },
+      {
+        "id": "c",
+        "text": "$-39.1$"
+      },
+      {
+        "id": "d",
+        "text": "$209.1$"
+      }
+    ],
+    "answer": "a",
+    "hint": "The step-deviation formula only needs $h$ to divide every $x-a$ exactly.",
+    "explanation": "$\\bar{x}=a+h\\dfrac{\\sum fu}{\\sum f}=170+5\\times\\dfrac{-391}{50}=130.9$. Unequal class sizes do not matter for the mean: only the class marks do, and $h=5$ is a common divisor of every $x-a$. Forgetting $h$ gives $162.18$, forgetting $a$ gives $-39.1$, and subtracting instead of adding gives $209.1$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Continuous classes",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The marks of 40 students are grouped as $50\\text{--}59$, $60\\text{--}69$, and so on. Before using the median formula the classes must be made **continuous**. Find the median.",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-incl.svg",
+      "alt": "A table of inclusive classes 50 to 59 up to 90 to 99 with frequencies"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$74$"
+      },
+      {
+        "id": "b",
+        "text": "$73.1$"
+      },
+      {
+        "id": "c",
+        "text": "$73.5$"
+      },
+      {
+        "id": "d",
+        "text": "$74.5$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Subtract half the gap (0.5) from every lower limit and add it to every upper limit.",
+    "explanation": "Make the classes continuous by taking $49.5\\text{--}59.5,\\ 59.5\\text{--}69.5,\\dots$ so $h=10$. With $\\frac n2=20$ the median class is $69.5\\text{--}79.5$, $cf=16$, $f=10$, so median $=69.5+\\dfrac{20-16}{10}\\times 10=73.5$. Keeping the original limits gives $74$, using $h=9$ (the width of $50\\text{--}59$) gives $73.1$, and quoting the class mark gives $74.5$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Histogram from a table",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The frequency table is given. Which **histogram** represents it correctly?",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-histq.svg",
+      "alt": "A table of five classes with frequencies 2, 5, 9, 14 and 6"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Option 1",
+        "image": {
+          "src": "/img/c10-ma-statistics/histq-b.svg",
+          "alt": "Histogram whose bars decrease from the tallest on the left"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Option 2",
+        "image": {
+          "src": "/img/c10-ma-statistics/histq-a.svg",
+          "alt": "Histogram rising to a tall bar in the fourth position and dropping at the end"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Option 3",
+        "image": {
+          "src": "/img/c10-ma-statistics/histq-d.svg",
+          "alt": "Histogram of bars that keep growing from left to right"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Option 4",
+        "image": {
+          "src": "/img/c10-ma-statistics/histq-c.svg",
+          "alt": "Histogram of bars sorted from shortest to tallest"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "Compare the order of the bar heights with the frequencies from the first class to the last.",
+    "explanation": "The frequencies in order are 2, 5, 9, 14, 6: they rise to the fourth class and then fall. Option 1 reverses the order of the classes, option 3 plots the **cumulative** frequencies (a histogram must use the class frequencies themselves), and option 4 sorts the frequencies instead of keeping them in class order."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Choosing the ogive",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The table is given. Which graph is the **less than ogive** of this data?",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-ogq.svg",
+      "alt": "A table of five classes with frequencies 3, 5, 10, 15 and 7"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph 1",
+        "image": {
+          "src": "/img/c10-ma-statistics/ogq-poly.svg",
+          "alt": "A curve that rises and then falls"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph 2",
+        "image": {
+          "src": "/img/c10-ma-statistics/ogq-more.svg",
+          "alt": "A curve falling from the top left"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph 3",
+        "image": {
+          "src": "/img/c10-ma-statistics/ogq-rev.svg",
+          "alt": "A rising curve that is steep at first and flattens"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph 4",
+        "image": {
+          "src": "/img/c10-ma-statistics/ogq-less.svg",
+          "alt": "A rising curve that starts slowly, is steepest in the middle, then flattens"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "A less than ogive never goes down, and its slope shows each class frequency.",
+    "explanation": "The cumulative frequencies are 3, 8, 18, 33, 40, so the curve starts gently (small first frequencies), is steepest over the fourth class (frequency 15) and flattens at the end. Graph 1 plots the frequencies themselves (it falls), Graph 2 is a **more than** ogive (falling), and Graph 3 comes from the frequencies in the reverse class order."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Cumulative frequency table",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The frequency table is given. Which table has the correct **cumulative frequency (cf)** column?",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-cfq.svg",
+      "alt": "A table of four classes with frequencies 4, 7, 9 and 5"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Table 1",
+        "image": {
+          "src": "/img/c10-ma-statistics/cfq-b.svg",
+          "alt": "cf column 25, 21, 14, 5"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Table 2",
+        "image": {
+          "src": "/img/c10-ma-statistics/cfq-c.svg",
+          "alt": "cf column 4, 11, 16, 14"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Table 3",
+        "image": {
+          "src": "/img/c10-ma-statistics/cfq-a.svg",
+          "alt": "cf column 4, 11, 20, 25"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Table 4",
+        "image": {
+          "src": "/img/c10-ma-statistics/cfq-d.svg",
+          "alt": "cf column 4, 14, 27, 20"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Each cf is the running total of the frequencies from the top.",
+    "explanation": "Running totals: $4$, $4+7=11$, $11+9=20$, $20+5=25$. Table 1 counts from the bottom (a more than type), Table 2 adds only two neighbouring frequencies and so goes wrong from the third row, and Table 4 makes arithmetic slips and ends lower than $n$. The last cf must equal the total $n=25$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Reading the mode formula",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In the mode formula, $f_1$ is the modal class (orange), $f_0$ the class before it (green) and $f_2$ the class after it (purple). On the histogram shown, which picture colours the bars correctly?",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-trip.svg",
+      "alt": "A histogram of six bars with the fourth bar tallest"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture 1",
+        "image": {
+          "src": "/img/c10-ma-statistics/trip-b.svg",
+          "alt": "Green on the bar after the tallest and purple on the bar before it"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture 2",
+        "image": {
+          "src": "/img/c10-ma-statistics/trip-c.svg",
+          "alt": "Orange on the bar after the tallest bar"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture 3",
+        "image": {
+          "src": "/img/c10-ma-statistics/trip-a.svg",
+          "alt": "Orange on the tallest bar with green before and purple after"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture 4",
+        "image": {
+          "src": "/img/c10-ma-statistics/trip-d.svg",
+          "alt": "Purple on the tallest bar"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Locate the tallest bar first, then the class on its left and the class on its right.",
+    "explanation": "The tallest bar is the modal class (orange $f_1$). The bar **before** it is $f_0$ (green) and the bar **after** it is $f_2$ (purple). Picture 1 swaps $f_0$ and $f_2$, Picture 2 puts the colours one class too far right, and Picture 4 puts them one class too far left, so the orange bar is not the modal class."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "More than cumulative frequency",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A **more than** cumulative frequency table is shown. How many students scored in the class $30\\text{--}40$?",
+    "image": {
+      "src": "/img/c10-ma-statistics/table-more.svg",
+      "alt": "A table giving the number of students scoring 0 or more up to 50 or more"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$32$"
+      },
+      {
+        "id": "b",
+        "text": "$15$"
+      },
+      {
+        "id": "c",
+        "text": "$17$"
+      },
+      {
+        "id": "d",
+        "text": "$49$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Students scoring 30 or more include those who scored 40 or more.",
+    "explanation": "Students scoring 30 or more: 32. Students scoring 40 or more: 17. The class $30\\text{--}40$ is the difference: $32-17=15$. Quoting 32 or 17 alone, or adding them (49), does not give a class frequency."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mean, median and mode",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "For a moderately skewed distribution the median is $42$ and the mode is $36$. Use the balance (empirical relation) to estimate the **mean**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/balance.svg",
+      "alt": "A balance with three median blocks on one pan and a mode block with two mean blocks on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$33$"
+      },
+      {
+        "id": "b",
+        "text": "$90$"
+      },
+      {
+        "id": "c",
+        "text": "$39$"
+      },
+      {
+        "id": "d",
+        "text": "$45$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Solve $3\\,\\text{Median}=\\text{Mode}+2\\,\\text{Mean}$ for the mean.",
+    "explanation": "$2\\,\\text{Mean}=3\\,\\text{Median}-\\text{Mode}=126-36=90$, so Mean $=45$. Swapping mode and median gives $33$, forgetting to divide by 2 gives $90$, and averaging the median and mode gives $39$, which ignores the relation."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode when the first class is modal",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In this histogram the **first** class is the modal class, so there is no class before it. Find the mode.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-first.svg",
+      "alt": "Histogram of five bars falling from a tall first bar"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$19$"
+      },
+      {
+        "id": "b",
+        "text": "$15$"
+      },
+      {
+        "id": "c",
+        "text": "$11$"
+      },
+      {
+        "id": "d",
+        "text": "$10$"
+      }
+    ],
+    "answer": "a",
+    "hint": "When there is no preceding class, its frequency is $f_0=0$.",
+    "explanation": "The modal class is $10\\text{--}20$ with $f_1=18$, $f_2=16$ and $f_0=0$ (no class before it). Mode $=10+\\dfrac{18-0}{2(18)-0-16}\\times 10=19$. Choosing the class mark (15) or the lower limit (10) ignores the neighbouring frequency, and using $f_2$ with the wrong sign gives $11$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Ogives and the median",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "A less than ogive (blue) and a more than ogive (red) are drawn for the same data. Tap the point where **both curves meet**. Its $x$-coordinate is the median.",
+    "image": {
+      "src": "/img/c10-ma-statistics/ogive-hot2.svg",
+      "alt": "A rising blue curve and a falling red curve that cross once"
+    },
+    "spots": [
+      {
+        "id": "x",
+        "x": 53.5,
+        "y": 44.2,
+        "label": "Point where the curves meet (median)"
+      },
+      {
+        "id": "ls",
+        "x": 12.5,
+        "y": 77.5,
+        "label": "Start of the less than curve"
+      },
+      {
+        "id": "ms",
+        "x": 12.5,
+        "y": 10.8,
+        "label": "Start of the more than curve"
+      },
+      {
+        "id": "le",
+        "x": 96.5,
+        "y": 10.8,
+        "label": "End of the less than curve"
+      },
+      {
+        "id": "me",
+        "x": 96.5,
+        "y": 77.5,
+        "label": "End of the more than curve"
+      }
+    ],
+    "answer": "x",
+    "hint": "At the meeting point the number of values below equals the number of values above.",
+    "explanation": "The two curves meet where the less than cumulative frequency equals the more than cumulative frequency, i.e. at height $\\dfrac{n}{2}=25$. Reading down to the $x$-axis gives the median, about $29.3$. The ends of the curves show the extremes $0$ and $n=50$, not the median."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Median class",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "hotspot",
+    "prompt": "The histogram shows 60 observations. Tap the bar of the **median class**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-medbar.svg",
+      "alt": "Histogram of six bars with values written above them"
+    },
+    "spots": [
+      {
+        "id": "s0",
+        "x": 19.5,
+        "y": 70.2,
+        "label": "Bar for 0–5"
+      },
+      {
+        "id": "s1",
+        "x": 33.6,
+        "y": 66.9,
+        "label": "Bar for 5–10"
+      },
+      {
+        "id": "s2",
+        "x": 47.7,
+        "y": 53.9,
+        "label": "Bar for 10–15"
+      },
+      {
+        "id": "s3",
+        "x": 61.8,
+        "y": 58.8,
+        "label": "Bar for 15–20"
+      },
+      {
+        "id": "s4",
+        "x": 75.9,
+        "y": 50.7,
+        "label": "Bar for 20–25"
+      },
+      {
+        "id": "s5",
+        "x": 90.0,
+        "y": 62.0,
+        "label": "Bar for 25–30"
+      }
+    ],
+    "answer": "s3",
+    "hint": "Add the frequencies from the left until the total passes $\\dfrac{n}{2}$.",
+    "explanation": "$\\dfrac{n}{2}=30$. Running totals: 4, 10, 24, 35, 51, 60. The first total above 30 is 35, reached at $15\\text{--}20$, the median class. The tallest bar ($20\\text{--}25$) is the **modal** class, a different bar."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Mode: the symbols",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "In the mode formula $f_2$ is the frequency of the class **after** the modal class. Tap the bar that gives $f_2$.",
+    "image": {
+      "src": "/img/c10-ma-statistics/hist-runs.svg",
+      "alt": "Histogram of six bars with a tall fourth bar"
+    },
+    "spots": [
+      {
+        "id": "s0",
+        "x": 19.5,
+        "y": 72.8,
+        "label": "Bar for 0–10 runs"
+      },
+      {
+        "id": "s1",
+        "x": 33.6,
+        "y": 65.0,
+        "label": "Bar for 10–20 runs"
+      },
+      {
+        "id": "s2",
+        "x": 47.7,
+        "y": 57.2,
+        "label": "Bar for 20–30 runs"
+      },
+      {
+        "id": "s3",
+        "x": 61.8,
+        "y": 45.5,
+        "label": "Bar for 30–40 runs"
+      },
+      {
+        "id": "s4",
+        "x": 75.9,
+        "y": 61.1,
+        "label": "Bar for 40–50 runs"
+      },
+      {
+        "id": "s5",
+        "x": 90.0,
+        "y": 70.2,
+        "label": "Bar for 50–60 runs"
+      }
+    ],
+    "answer": "s4",
+    "hint": "Find the tallest bar, then step one class to the right.",
+    "explanation": "The tallest bar, $30\\text{--}40$, is the modal class ($f_1=24$). The class **succeeding** it is $40\\text{--}50$, whose frequency 12 is $f_2$. The bar on its left gives $f_0=15$."
+  },
+  {
+    "id": "in-cbse-10-math-statistics-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "chapterNo": 13,
+    "topic": "Reading an ogive",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "This less than ogive is drawn for 50 observations. Tap the point that shows **how many observations are less than 40**.",
+    "image": {
+      "src": "/img/c10-ma-statistics/ogive-pt.svg",
+      "alt": "A rising less than ogive with six plotted points and numbered axes"
+    },
+    "spots": [
+      {
+        "id": "p0",
+        "x": 26.5,
+        "y": 72.2,
+        "label": "Point (10, 4)"
+      },
+      {
+        "id": "p1",
+        "x": 40.5,
+        "y": 62.8,
+        "label": "Point (20, 11)"
+      },
+      {
+        "id": "p2",
+        "x": 54.5,
+        "y": 48.2,
+        "label": "Point (30, 22)"
+      },
+      {
+        "id": "p3",
+        "x": 68.5,
+        "y": 29.5,
+        "label": "Point (40, 36)"
+      },
+      {
+        "id": "p4",
+        "x": 82.5,
+        "y": 17.5,
+        "label": "Point (50, 45)"
+      }
+    ],
+    "answer": "p3",
+    "hint": "The point for \"less than 40\" has upper limit 40 as its $x$-coordinate.",
+    "explanation": "The less than ogive plots (upper limit, cumulative frequency). At $x=40$ the height is $36$, which means 36 observations are less than 40. The point at 30 gives 22 and the point at 50 gives 45."
+  }
+]

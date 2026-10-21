@@ -18,8 +18,13 @@ import { useContent, type RoundSource } from "../store/content";
 import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
 
-const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
-const MIXED: RoundSource = { subjects: [], grades: offeredGrades };
+/** The class whose chapters are open; mixed practice draws from that class only. */
+function useCurrentGrade(): number {
+  const lastGrade = useProfile((p) => p.lastGrade);
+  return lastGrade && offeredGrades.includes(lastGrade) ? lastGrade : offeredGrades[0];
+}
+
+const SUBJECT_ORDER = Object.keys(region.subjects) as SubjectId[];
 
 /** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
 type StartRound = (source: RoundSource, title: string, key?: string) => void;
@@ -266,9 +271,14 @@ function StartOver({ onConfirm }: { onConfirm: () => void }) {
 function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: StartRound }) {
   const lastSubject = useProfile((p) => p.lastSubject);
   const setLastSubject = useProfile((p) => p.setLastSubject);
-  const subjects = [...new Set(chapters.map((c) => c.subject))];
+  const lastGrade = useProfile((p) => p.lastGrade);
+  const setLastGrade = useProfile((p) => p.setLastGrade);
+  const grades = [...new Set(chapters.map((c) => c.grade))].sort((a, b) => a - b);
+  const grade = lastGrade && grades.includes(lastGrade) ? lastGrade : grades[0];
+  const inGrade = chapters.filter((c) => c.grade === grade);
+  const subjects = [...new Set(inGrade.map((c) => c.subject))];
   const active = lastSubject && subjects.includes(lastSubject) ? lastSubject : subjects[0];
-  const list = chapters.filter((c) => c.subject === active);
+  const list = inGrade.filter((c) => c.subject === active);
   const tabsRef = useRef<HTMLDivElement>(null);
   const [more, setMore] = useState({ left: false, right: false });
   const measure = () => {
@@ -306,6 +316,25 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
       </div>
 
       <div className="sticky top-0 z-30 -mx-4 bg-bg/90 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6">
+        {grades.length > 1 && (
+          <div role="tablist" aria-label="Class" className="mb-2 flex gap-1.5 rounded-2xl border-2 border-line bg-surface p-1.5">
+            {grades.map((g) => (
+              <button
+                key={g}
+                type="button"
+                role="tab"
+                aria-selected={g === grade}
+                onClick={() => setLastGrade(g)}
+                className={clsx(
+                  "flex-1 rounded-xl px-3 py-2 font-display text-sm font-bold transition-colors sm:text-base",
+                  g === grade ? "bg-fg text-bg shadow-pop" : "text-muted hover:text-fg",
+                )}
+              >
+                {region.gradeLabel(g)}
+              </button>
+            ))}
+          </div>
+        )}
         <div className="rounded-2xl border-2 border-line bg-surface">
         <div
           ref={tabsRef}
@@ -323,7 +352,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
           {subjects.map((s) => {
             const st = SUBJECT_STYLE[s];
             const on = s === active;
-            const n = chapters.filter((c) => c.subject === s).length;
+            const n = inGrade.filter((c) => c.subject === s).length;
             return (
               <button
                 key={s}
@@ -440,6 +469,10 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
   const profile = useStats();
   const chapters = useChapters();
   const contentStatus = useContent((s) => s.status);
+  const currentGrade = useCurrentGrade();
+  const mixed: RoundSource = { subjects: [], grades: [currentGrade] };
+  /** Subjects with at least one question (the old combined "social" subject is empty now that it is split). */
+  const subjectsWithQuestions = SUBJECT_ORDER.filter((s) => allChapters.some((c) => c.subject === s));
   const bestRound = rankRounds(profile.rounds)[0];
   // The logo opens the full landing page; otherwise returning students skip it.
   const landing = useNav((s) => s.landing) || profile.sessions === 0;
@@ -470,7 +503,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
           </div>
         </header>
 
-        {!landing && <WelcomeBar onMixed={() => onStart(MIXED, "Mixed practice", MIXED_KEY)} />}
+        {!landing && <WelcomeBar onMixed={() => onStart(mixed, "Mixed practice", MIXED_KEY)} />}
 
         {/* Hero: first visit or the logo, so returning students otherwise reach their chapters without scrolling */}
         {landing && (
@@ -527,7 +560,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               </Button>
               <button
                 type="button"
-                onClick={() => onStart(MIXED, "Mixed practice", MIXED_KEY)}
+                onClick={() => onStart(mixed, "Mixed practice", MIXED_KEY)}
                 className="font-semibold text-muted underline-offset-4 hover:text-fg hover:underline"
               >
                 or start mixed practice
@@ -591,7 +624,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
 
           <h3 className="mb-3 mt-7 text-sm font-bold uppercase tracking-wider text-muted">Subject</h3>
           <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
-            {SUBJECTS.map((s, i) => {
+            {subjectsWithQuestions.map((s, i) => {
               const st = SUBJECT_STYLE[s];
               const on = subjects.includes(s);
               const n = countFor(s);

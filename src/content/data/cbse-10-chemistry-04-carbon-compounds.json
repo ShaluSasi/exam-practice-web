@@ -1,0 +1,2270 @@
+[
+ {
+  "id": "in-cbse-10-chem-carbon-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Bonding in carbon: the covalent bond",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A carbon atom has **4 valence electrons**. Why does carbon not simply gain four electrons or lose four electrons to reach a noble gas configuration?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Carbon already has a completely filled outer shell, so it never forms bonds"
+   },
+   {
+    "id": "b",
+    "text": "Carbon has six valence electrons, so it only needs to gain two, which is easy"
+   },
+   {
+    "id": "c",
+    "text": "Holding ten electrons round six protons ($\\ce{C^4-}$), or removing four electrons and leaving only two round six protons ($\\ce{C^4+}$), is very hard, so carbon shares electrons instead"
+   },
+   {
+    "id": "d",
+    "text": "Electrons can never be shared between atoms in a molecule"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-carbon/carbon-ions.svg",
+   "alt": "Carbon atom gaining four electrons to become C4- or losing four to become C4+"
+  },
+  "hint": "Compare the 6 protons in the nucleus with the number of electrons it would have to hold or lose.",
+  "explanation": "Carbon (atomic number 6, configuration 2, 4) would have to **gain four electrons**, but a nucleus of 6 protons cannot easily hold **10 electrons**; or it would have to **lose four electrons**, which needs a huge amount of energy and leaves just 2 electrons round 6 protons. So carbon **shares** its valence electrons with other atoms and forms **covalent bonds**. Carbon has 4 (not 6) valence electrons, its outer shell is not full, and electron sharing is exactly how many molecules form."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Bonding in carbon: the covalent bond",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "This is a Bohr diagram of a carbon atom (atomic number 6). Tap the shell that holds the **valence electrons**.",
+  "spots": [
+   {
+    "id": "nuc",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Nucleus (6 protons)"
+   },
+   {
+    "id": "k",
+    "x": 50.0,
+    "y": 33.3,
+    "label": "K shell (2 electrons)"
+   },
+   {
+    "id": "l",
+    "x": 32.0,
+    "y": 50.0,
+    "label": "L shell (4 valence electrons)"
+   },
+   {
+    "id": "m",
+    "x": 75.0,
+    "y": 50.0,
+    "label": "M shell (empty)"
+   }
+  ],
+  "answer": "l",
+  "image": {
+   "src": "/img/c10-carbon/carbon-bohr.svg",
+   "alt": "Bohr diagram of carbon with two electron shells and an empty dashed third shell"
+  },
+  "hint": "Valence electrons sit in the outermost shell that contains electrons.",
+  "explanation": "Carbon has the electronic configuration **2, 4**. The **K shell** holds 2 electrons and the outermost occupied **L shell** holds the **4 valence electrons**, which is why carbon is **tetravalent**. The dashed M shell is empty, and the nucleus holds protons and neutrons, not valence electrons."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Bonding in carbon: the covalent bond",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Nitrogen (atomic number 7) forms a diatomic molecule $\\ce{N2}$ in which each atom completes an octet by sharing **three pairs** of electrons. Which picture shows the electron dot structure of $\\ce{N2}$?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-carbon/h2-dot.svg",
+     "alt": "Two hydrogen atoms sharing one pair of electrons"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-carbon/o2-dot.svg",
+     "alt": "Two oxygen atoms sharing two pairs of electrons, each with two lone pairs"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-carbon/cl2-dot.svg",
+     "alt": "Two chlorine atoms sharing one pair of electrons, each with three lone pairs"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-carbon/n2-dot.svg",
+     "alt": "Two nitrogen atoms sharing three pairs of electrons, each with one lone pair"
+    }
+   }
+  ],
+  "answer": "d",
+  "hint": "Nitrogen has 5 valence electrons; how many more does each atom need for an octet?",
+  "explanation": "Nitrogen has **5 valence electrons**, so each atom needs 3 more for an octet. The two atoms share **three pairs**, forming a **triple bond**, and each atom keeps one non-bonding pair. Picture A is $\\ce{H2}$ (one shared pair), B is $\\ce{O2}$ (a double bond) and C is $\\ce{Cl2}$ (a single bond with three lone pairs on each atom)."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Properties of covalent compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Table 4.1 shows that carbon compounds have low melting and boiling points. Which statements about **covalent compounds** are correct? Select all that apply.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Most have low melting and boiling points"
+   },
+   {
+    "id": "b",
+    "text": "Most are poor conductors of electricity"
+   },
+   {
+    "id": "c",
+    "text": "The forces of attraction between their molecules are weak"
+   },
+   {
+    "id": "d",
+    "text": "The bonds inside each molecule are weak, so the molecules fall apart easily"
+   },
+   {
+    "id": "e",
+    "text": "Their bonding gives rise to ions that carry current"
+   },
+   {
+    "id": "f",
+    "text": "The shared electrons belong to the outer shells of both atoms"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "f"
+  ],
+  "image": {
+   "src": "/img/c10-carbon/mp-bp-chart.svg",
+   "alt": "Bar chart of the melting and boiling points of methane, ethanol, chloroform and acetic acid"
+  },
+  "hint": "Strong bonds inside a molecule and weak attraction between molecules are two different things.",
+  "explanation": "Covalent bonds are **strong inside the molecule**, but the **forces between molecules are weak**, which gives **low melting and boiling points**. Because electrons are shared, **no charged particles (ions)** form, so these compounds are generally **poor conductors**. The shared pair belongs to the outer shells of both atoms. The statements about weak bonds inside the molecule and about ions are false."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Bonding in carbon: the covalent bond",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Ethane, with the molecular formula $\\ce{C2H6}$, has how many covalent bonds?",
+  "options": [
+   {
+    "id": "a",
+    "text": "6"
+   },
+   {
+    "id": "b",
+    "text": "7"
+   },
+   {
+    "id": "c",
+    "text": "8"
+   },
+   {
+    "id": "d",
+    "text": "9"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-carbon/ethane.svg",
+   "alt": "Structural formula of ethane: two carbon atoms joined by a line, each bonded to three hydrogen atoms"
+  },
+  "hint": "Count the C-H lines and the C-C line in the structure.",
+  "explanation": "In the structure of ethane there are **six C-H single bonds** (three on each carbon) and **one C-C single bond**, so **7** bonds in all. The common trap is to count only the six C-H bonds and forget the C-C bond (answer 6). Counts of 8 or 9 over-count the bonds."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Allotropes of carbon",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In one form of carbon each atom is bonded to **three** other carbon atoms in the same plane, giving **hexagonal arrays** stacked in layers. This form is smooth, slippery and conducts electricity. Which picture shows it?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-carbon/diamond.svg",
+     "alt": "Each carbon atom bonded to four others in a rigid three-dimensional structure"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-carbon/c60.svg",
+     "alt": "Carbon atoms arranged in the shape of a football"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-carbon/graphite.svg",
+     "alt": "Hexagonal arrays of carbon atoms stacked in layers"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-carbon/benzene.svg",
+     "alt": "A ring of six carbon atoms each bonded to a hydrogen atom"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Think of a pencil lead: which carbon form is slippery and conducts electricity?",
+  "explanation": "**Graphite** has each carbon bonded to three others in one plane (one of the bonds is a double bond) in **hexagonal layers**; the layers slide over each other, so it is slippery, and it is a good conductor. **Diamond** (A) has four bonds per carbon in a rigid 3D structure, **C-60** (B) is a football-shaped fullerene, and **benzene** (D) is a molecule of carbon and hydrogen, not an allotrope."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Allotropes of carbon",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each form of carbon with its description.",
+  "left": [
+   {
+    "id": "d",
+    "text": "Structure A",
+    "image": {
+     "src": "/img/c10-carbon/diamond.svg",
+     "alt": "Carbon atoms in a rigid three-dimensional network"
+    }
+   },
+   {
+    "id": "g",
+    "text": "Structure B",
+    "image": {
+     "src": "/img/c10-carbon/graphite.svg",
+     "alt": "Hexagonal layers of carbon atoms"
+    }
+   },
+   {
+    "id": "f",
+    "text": "Structure C",
+    "image": {
+     "src": "/img/c10-carbon/c60.svg",
+     "alt": "Carbon atoms arranged in the shape of a football"
+    }
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "The hardest substance known; each carbon is bonded to four others"
+   },
+   {
+    "id": "r2",
+    "text": "Smooth and slippery, and a very good conductor of electricity"
+   },
+   {
+    "id": "r3",
+    "text": "A fullerene, named after the geodesic dome of Buckminster Fuller"
+   },
+   {
+    "id": "r4",
+    "text": "A gas made of single carbon atoms that are not bonded to each other"
+   }
+  ],
+  "pairs": {
+   "d": "r1",
+   "g": "r2",
+   "f": "r3"
+  },
+  "hint": "Think hard and brittle, slippery, and football-shaped.",
+  "explanation": "**Diamond**: each carbon bonded to four others in a rigid 3D structure, hence the hardest substance known. **Graphite**: layers of hexagonal arrays that slide, so it is smooth and slippery, and it conducts electricity unlike most non-metals. **C-60 fullerene**: carbon atoms arranged like a football, named after the geodesic dome designed by Buckminster Fuller. No allotrope of carbon is a gas of separate atoms."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Allotropes of carbon",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "assertion": "Diamond is the hardest substance known whereas graphite is soft and slippery.",
+  "reason": "In diamond and graphite the carbon atoms are bonded to one another in different ways.",
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-carbon/diamond-graphite.svg",
+   "alt": "Diamond lattice beside layered graphite"
+  },
+  "hint": "Both are made only of carbon, so what could cause their different properties?",
+  "explanation": "Both statements are true and R explains A. Diamond and graphite are both pure carbon; the **difference lies in how the carbon atoms are bonded**. In diamond each atom is bonded to four others in a rigid 3D structure (very hard); in graphite each atom is bonded to three others in layers that slide (soft, slippery). Their chemical properties remain the same."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Bonding in carbon: the covalent bond",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "hotspot",
+  "prompt": "This is the electron dot structure of carbon dioxide, $\\ce{CO2}$. Tap the **lone pairs** (electrons not shared with carbon) on the **left oxygen** atom.",
+  "spots": [
+   {
+    "id": "llp",
+    "x": 22.5,
+    "y": 38.3,
+    "label": "Lone pairs on the left oxygen atom"
+   },
+   {
+    "id": "lb",
+    "x": 36.2,
+    "y": 50.0,
+    "label": "Two shared pairs: left C=O double bond"
+   },
+   {
+    "id": "c",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Carbon atom"
+   },
+   {
+    "id": "rb",
+    "x": 63.7,
+    "y": 50.0,
+    "label": "Two shared pairs: right C=O double bond"
+   },
+   {
+    "id": "rlp",
+    "x": 77.5,
+    "y": 61.7,
+    "label": "Lone pairs on the right oxygen atom"
+   }
+  ],
+  "answer": "llp",
+  "image": {
+   "src": "/img/c10-carbon/co2-dot.svg",
+   "alt": "Electron dot structure of carbon dioxide with two shared pairs on each side of carbon"
+  },
+  "hint": "Lone pairs are the electrons drawn on the outside, away from the carbon atom.",
+  "explanation": "Oxygen has 6 valence electrons. In $\\ce{CO2}$ each oxygen shares **two pairs** with carbon (a double bond) and keeps **two lone pairs** that are not shared, drawn above and below the oxygen atom. Carbon shares all four of its valence electrons (two double bonds), so each atom has an octet. The glowing regions between the atoms are the shared pairs."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Versatile nature of carbon",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which property of carbon lets its atoms join to other carbon atoms to form **long chains, branched chains and rings**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Tetravalency"
+   },
+   {
+    "id": "b",
+    "text": "Saturation"
+   },
+   {
+    "id": "c",
+    "text": "Catenation"
+   },
+   {
+    "id": "d",
+    "text": "Substitution"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-carbon/catenation.svg",
+   "alt": "A straight chain, a branched chain and a ring of carbon atoms"
+  },
+  "hint": "The word comes from \"chain\".",
+  "explanation": "**Catenation** is the unique ability of carbon to form bonds with other carbon atoms, giving large molecules with straight chains, branched chains or rings. **Tetravalency** is carbon having a valency of four. Saturation describes a compound with only single bonds, and substitution is a type of reaction."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Versatile nature of carbon",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Carbon forms millions of compounds, more than all other elements put together. Which statements explain this? Select all that apply.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Carbon is tetravalent and can bond with four other atoms"
+   },
+   {
+    "id": "b",
+    "text": "Carbon shows catenation, forming long chains and rings"
+   },
+   {
+    "id": "c",
+    "text": "Its small size lets the nucleus hold shared electrons firmly, making strong bonds"
+   },
+   {
+    "id": "d",
+    "text": "Carbon easily forms $\\ce{C^4+}$ ions, so it bonds ionically with many elements"
+   },
+   {
+    "id": "e",
+    "text": "Silicon forms chains just as long and as stable as carbon does"
+   },
+   {
+    "id": "f",
+    "text": "Carbon atoms can be linked by single, double or triple bonds"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "f"
+  ],
+  "image": {
+   "src": "/img/c10-carbon/tetravalent.svg",
+   "alt": "Carbon atom bonded to four hydrogen atoms"
+  },
+  "hint": "Two features, tetravalency and catenation, are put together; look for the false ones about ions and silicon.",
+  "explanation": "Carbon is **tetravalent**, shows **catenation**, forms **very strong bonds** (partly because of its small size, which lets the nucleus hold the shared pairs tightly) and can use **single, double or triple** bonds. It does not easily form $\\ce{C^4+}$ ions, and silicon makes only short chains (up to seven or eight atoms) that are very reactive."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Saturated and unsaturated compounds",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which picture shows an **unsaturated** hydrocarbon?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-carbon/ethane-thumb.svg",
+     "alt": "Ethane with only single bonds"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-carbon/propane.svg",
+     "alt": "Propane with only single bonds"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-carbon/butane-full.svg",
+     "alt": "Butane with only single bonds"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-carbon/ethene-thumb.svg",
+     "alt": "Ethene with a double bond between the two carbons"
+    }
+   }
+  ],
+  "answer": "d",
+  "hint": "Unsaturated compounds have double or triple bonds between carbon atoms.",
+  "explanation": "Compounds with **only single bonds** between carbon atoms are **saturated**; those with a **double or triple bond** between carbon atoms are **unsaturated** and are more reactive. Picture D is **ethene**, $\\ce{C2H4}$, with a C=C double bond. A, B and C are ethane, propane and butane, which are saturated."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Saturated and unsaturated compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps used to work out the structure of **ethene**, $\\ce{C2H4}$, in order.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "Notice that one valency of each carbon atom is still unsatisfied"
+   },
+   {
+    "id": "s1",
+    "text": "Link the two carbon atoms together with a single bond"
+   },
+   {
+    "id": "s4",
+    "text": "Join the two carbon atoms with a double bond so every valency is satisfied"
+   },
+   {
+    "id": "s2",
+    "text": "Attach two hydrogen atoms to each carbon atom"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "image": {
+   "src": "/img/c10-carbon/ethene-steps.svg",
+   "alt": "Three stages: a C-C single bond, carbons with hydrogens and one free valency each, and the final C=C double bond"
+  },
+  "hint": "Start with the carbon skeleton, then add hydrogens, then check the valencies.",
+  "explanation": "First link the carbon atoms with a **single bond**, then use hydrogen atoms to satisfy the remaining valencies (two per carbon for $\\ce{C2H4}$). One valency per carbon is left over, and this can be satisfied **only by a double bond** between the two carbons, giving $\\ce{H2C=CH2}$."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Homologous series",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The chart shows the formulae of members of three hydrocarbon families. Following the pattern, which formula belongs to the **alkyne** with **5 carbon atoms**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{C5H6}$"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{C5H8}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{C5H10}$"
+   },
+   {
+    "id": "d",
+    "text": "$\\ce{C5H12}$"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-carbon/families.svg",
+   "alt": "Chart of alkane, alkene and alkyne formulae"
+  },
+  "hint": "Alkynes in the chart: $\\ce{C2H2}$, $\\ce{C3H4}$, $\\ce{C4H6}$. How many H for each C?",
+  "explanation": "The alkynes $\\ce{C2H2}$, $\\ce{C3H4}$, $\\ce{C4H6}$ fit **$\\mathrm{C}_n\\mathrm{H}_{2n-2}$**, so for $n = 5$ the formula is $\\ce{C5H8}$. $\\ce{C5H10}$ is the **alkene** ($\\mathrm{C}_n\\mathrm{H}_{2n}$), $\\ce{C5H12}$ is the **alkane** ($\\mathrm{C}_n\\mathrm{H}_{2n+2}$), and $\\ce{C5H6}$ subtracts too many hydrogens."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Chains, branches and rings",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "How many **structural isomers** can be drawn for pentane, $\\ce{C5H12}$ (counting straight-chain pentane itself)?",
+  "options": [
+   {
+    "id": "a",
+    "text": "2"
+   },
+   {
+    "id": "b",
+    "text": "3"
+   },
+   {
+    "id": "c",
+    "text": "4"
+   },
+   {
+    "id": "d",
+    "text": "5"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-carbon/pentane-isomers.svg",
+   "alt": "Three carbon skeletons: straight chain, branched chain and a central carbon with four branches"
+  },
+  "hint": "Try a 5-carbon chain, a 4-carbon chain with a branch, and a 3-carbon chain with branches.",
+  "explanation": "Pentane has **three** structural isomers: straight-chain **pentane**, **2-methylbutane** (a four-carbon chain with one methyl branch) and **2,2-dimethylpropane** (a central carbon with four other carbons). The trap is counting the same skeleton drawn bent in a different way as a new isomer."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Chains, branches and rings",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "hotspot",
+  "prompt": "Structures A and B both have the formula $\\ce{C4H10}$, so they are structural isomers. Tap the carbon atom that is bonded to **three other carbon atoms**.",
+  "spots": [
+   {
+    "id": "bmid",
+    "x": 30.0,
+    "y": 86.4,
+    "label": "CH carbon of the branched isomer B (bonded to three carbons)"
+   },
+   {
+    "id": "bb",
+    "x": 30.0,
+    "y": 65.3,
+    "label": "CH3 branch on the branched isomer B"
+   },
+   {
+    "id": "amid",
+    "x": 35.7,
+    "y": 16.7,
+    "label": "CH2 carbon in the middle of straight-chain butane A"
+   },
+   {
+    "id": "aend",
+    "x": 17.0,
+    "y": 16.7,
+    "label": "CH3 carbon at the end of straight-chain butane A"
+   }
+  ],
+  "answer": "bmid",
+  "image": {
+   "src": "/img/c10-carbon/isomers-butane.svg",
+   "alt": "Two structures of C4H10: a straight chain and a branched chain"
+  },
+  "hint": "The branch point is where a carbon has three carbon neighbours.",
+  "explanation": "Structures with the **same molecular formula but different structures** are **structural isomers**. A is straight-chain **butane**; B is the **branched** isomer (2-methylpropane), in which the central CH carbon is bonded to three other carbons. In A no carbon has more than two carbon neighbours."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Chains, branches and rings",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each structure with its molecular formula.",
+  "left": [
+   {
+    "id": "a",
+    "text": "Structure A",
+    "image": {
+     "src": "/img/c10-carbon/cyclohexane.svg",
+     "alt": "A ring of six carbon atoms each bonded to two hydrogen atoms"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Structure B",
+    "image": {
+     "src": "/img/c10-carbon/benzene.svg",
+     "alt": "A ring of six carbon atoms with alternate double bonds, each carbon bonded to one hydrogen"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Structure C",
+    "image": {
+     "src": "/img/c10-carbon/ethyne.svg",
+     "alt": "Two carbon atoms joined by a triple bond with a hydrogen on each"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Structure D",
+    "image": {
+     "src": "/img/c10-carbon/ethene.svg",
+     "alt": "Two carbon atoms joined by a double bond with two hydrogens on each"
+    }
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "$\\ce{C6H12}$"
+   },
+   {
+    "id": "r2",
+    "text": "$\\ce{C6H6}$"
+   },
+   {
+    "id": "r3",
+    "text": "$\\ce{C2H2}$"
+   },
+   {
+    "id": "r4",
+    "text": "$\\ce{C2H4}$"
+   }
+  ],
+  "pairs": {
+   "a": "r1",
+   "b": "r2",
+   "c": "r3",
+   "d": "r4"
+  },
+  "hint": "Count the carbon and hydrogen atoms in each drawing.",
+  "explanation": "**Cyclohexane** (6 C, each with 2 H) is $\\ce{C6H12}$; **benzene** (6 C, each with 1 H) is $\\ce{C6H6}$; **ethyne** (triple bond, 2 H) is $\\ce{C2H2}$; **ethene** (double bond, 4 H) is $\\ce{C2H4}$. Rings, like chains, can be saturated or unsaturated."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Functional groups",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Ethanoic acid contains the **carboxylic acid** functional group. Which picture shows this group? (R stands for the carbon chain.)",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-carbon/fg-oh.svg",
+     "alt": "R bonded to an oxygen atom that is bonded to hydrogen"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-carbon/fg-cho.svg",
+     "alt": "R bonded to a carbon that has a double-bonded oxygen and a hydrogen"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-carbon/fg-co.svg",
+     "alt": "A carbon with a double-bonded oxygen bonded to two carbon chains"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-carbon/fg-cooh.svg",
+     "alt": "R bonded to a carbon that has a double-bonded oxygen and an OH group"
+    }
+   }
+  ],
+  "answer": "d",
+  "hint": "The acid group has both a C=O and an O-H on the same carbon.",
+  "explanation": "The **carboxylic acid** group is **-COOH**: a carbon with a double-bonded oxygen and an -OH group. Picture A is the **alcohol** group (-OH), B is the **aldehyde** group (-CHO) and C is the **ketone** group (>C=O, bonded to two carbon chains)."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Functional groups",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "This is the structure of **ethanoic acid**. Tap the oxygen atom that carries a hydrogen atom, the **hydroxyl (-OH) oxygen** of the carboxylic acid group.",
+  "spots": [
+   {
+    "id": "c1",
+    "x": 33.1,
+    "y": 53.1,
+    "label": "Carbon of the methyl group (CH3)"
+   },
+   {
+    "id": "c2",
+    "x": 50.6,
+    "y": 53.1,
+    "label": "Carbon of the carboxylic acid group"
+   },
+   {
+    "id": "o1",
+    "x": 50.6,
+    "y": 26.0,
+    "label": "Carbonyl oxygen (C=O)"
+   },
+   {
+    "id": "o2",
+    "x": 66.9,
+    "y": 63.5,
+    "label": "Hydroxyl oxygen (-OH)"
+   }
+  ],
+  "answer": "o2",
+  "image": {
+   "src": "/img/c10-carbon/ethanoic-acid.svg",
+   "alt": "Structural formula of ethanoic acid"
+  },
+  "hint": "Look for the oxygen joined to H by a single line.",
+  "explanation": "In $\\ce{CH3COOH}$ the **-COOH** group has one oxygen double-bonded to carbon (**C=O**) and one oxygen single-bonded to carbon that also carries a hydrogen (**-OH**). The functional group, not the length of the carbon chain, decides the acidic properties."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Functional groups",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each functional group drawing with the class of compound it belongs to.",
+  "left": [
+   {
+    "id": "g1",
+    "text": "Group 1",
+    "image": {
+     "src": "/img/c10-carbon/fg-oh.svg",
+     "alt": "R-O-H"
+    }
+   },
+   {
+    "id": "g2",
+    "text": "Group 2",
+    "image": {
+     "src": "/img/c10-carbon/fg-cho.svg",
+     "alt": "R-C(=O)-H"
+    }
+   },
+   {
+    "id": "g3",
+    "text": "Group 3",
+    "image": {
+     "src": "/img/c10-carbon/fg-co.svg",
+     "alt": "R-C(=O)-R"
+    }
+   },
+   {
+    "id": "g4",
+    "text": "Group 4",
+    "image": {
+     "src": "/img/c10-carbon/fg-cooh.svg",
+     "alt": "R-C(=O)-O-H"
+    }
+   }
+  ],
+  "right": [
+   {
+    "id": "a",
+    "text": "Alcohol"
+   },
+   {
+    "id": "b",
+    "text": "Aldehyde"
+   },
+   {
+    "id": "c",
+    "text": "Ketone"
+   },
+   {
+    "id": "d",
+    "text": "Carboxylic acid"
+   }
+  ],
+  "pairs": {
+   "g1": "a",
+   "g2": "b",
+   "g3": "c",
+   "g4": "d"
+  },
+  "hint": "Only the aldehyde carbonyl has a hydrogen attached; only the ketone is between two carbon chains.",
+  "explanation": "**-OH** is the **alcohol** group; **-CHO** (carbon with =O and H, at the end of a chain) is the **aldehyde** group; **>C=O** inside the chain, between two carbons, is the **ketone** group; **-COOH** is the **carboxylic acid** group. These groups give the compound its characteristic properties whatever the chain length."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Homologous series",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which set of compounds forms a **homologous series**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{CH3OH}$, $\\ce{C2H5OH}$, $\\ce{C3H7OH}$, $\\ce{C4H9OH}$"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{CH4}$, $\\ce{C2H4}$, $\\ce{C3H8}$, $\\ce{C4H6}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{C2H6}$, $\\ce{C2H5OH}$, $\\ce{CH3COOH}$, $\\ce{CH3CHO}$"
+   },
+   {
+    "id": "d",
+    "text": "$\\ce{CH3OH}$, $\\ce{C2H5Cl}$, $\\ce{C3H7COOH}$, $\\ce{C4H9CHO}$"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-carbon/homologous-ladder.svg",
+   "alt": "The first four alkanes, each differing from the next by a CH2 unit"
+  },
+  "hint": "Same functional group, chain growing by one carbon each time.",
+  "explanation": "A homologous series is a series of compounds in which the **same functional group** replaces hydrogen on carbon chains of **increasing length**, each member differing by a $\\ce{-CH2-}$ unit. Only the alcohols in the first set fit. The other sets mix different families (alkanes, alkenes, alkynes) or different functional groups."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Homologous series",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Propane ($\\ce{C3H8}$) and butane ($\\ce{C4H10}$) are successive members of a homologous series. What is the difference in their molecular masses? (C = 12 u, H = 1 u)",
+  "options": [
+   {
+    "id": "a",
+    "text": "12 u"
+   },
+   {
+    "id": "b",
+    "text": "14 u"
+   },
+   {
+    "id": "c",
+    "text": "16 u"
+   },
+   {
+    "id": "d",
+    "text": "28 u"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-carbon/homologous-ladder.svg",
+   "alt": "The first four alkanes, each differing from the next by a CH2 unit"
+  },
+  "hint": "They differ by a $\\ce{-CH2-}$ unit; add the masses of one C and two H atoms.",
+  "explanation": "Butane has one more $\\ce{CH2}$ unit than propane, and $\\ce{CH2}$ = $12 + 2 \\times 1 = 14$ u. Check: propane is $3(12)+8 = 44$ u, butane is $4(12)+10 = 58$ u, difference **14 u**. Traps: 12 u counts only the carbon, 16 u is the mass of $\\ce{CH4}$, and 28 u is two $\\ce{CH2}$ units."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Homologous series",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "In a homologous series such as the alcohols, which statements are correct? Select all that apply.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Successive members differ by a $\\ce{-CH2-}$ unit"
+   },
+   {
+    "id": "b",
+    "text": "Melting and boiling points increase gradually as the molecular mass increases"
+   },
+   {
+    "id": "c",
+    "text": "The chemical properties, decided by the functional group, remain similar"
+   },
+   {
+    "id": "d",
+    "text": "The chemical properties change completely from one member to the next"
+   },
+   {
+    "id": "e",
+    "text": "All members have exactly the same physical properties"
+   },
+   {
+    "id": "f",
+    "text": "Other physical properties such as solubility also show a gradation"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "f"
+  ],
+  "image": {
+   "src": "/img/c10-carbon/series-trend.svg",
+   "alt": "Bars rising along the alcohol series CH3OH to C4H9OH"
+  },
+  "hint": "Physical properties change gradually; chemical properties follow the functional group.",
+  "explanation": "In a homologous series the **molecular mass rises by 14 u** per $\\ce{CH2}$, so **melting and boiling points** and other physical properties such as **solubility** show a **gradation**. The **chemical properties**, determined solely by the **functional group**, remain similar. So it is false that chemical properties change completely, or that physical properties are identical."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Nomenclature of carbon compounds",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "match",
+  "prompt": "Match each class of compound with the name of its **three-carbon** member.",
+  "left": [
+   {
+    "id": "h",
+    "text": "Halo alkane (chloro)"
+   },
+   {
+    "id": "al",
+    "text": "Alcohol"
+   },
+   {
+    "id": "ad",
+    "text": "Aldehyde"
+   },
+   {
+    "id": "k",
+    "text": "Ketone"
+   },
+   {
+    "id": "ca",
+    "text": "Carboxylic acid"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Chloropropane"
+   },
+   {
+    "id": "r2",
+    "text": "Propanol"
+   },
+   {
+    "id": "r3",
+    "text": "Propanal"
+   },
+   {
+    "id": "r4",
+    "text": "Propanone"
+   },
+   {
+    "id": "r5",
+    "text": "Propanoic acid"
+   }
+  ],
+  "pairs": {
+   "h": "r1",
+   "al": "r2",
+   "ad": "r3",
+   "k": "r4",
+   "ca": "r5"
+  },
+  "image": {
+   "src": "/img/c10-carbon/naming-flow.svg",
+   "alt": "Steps for naming a carbon compound with carbon stems"
+  },
+  "hint": "Check the suffixes: -ol, -al, -one, -oic acid; the halogen is a prefix.",
+  "explanation": "From Table 4.4: haloalkanes use a **prefix** (chloro-), alcohols use the suffix **-ol**, aldehydes **-al**, ketones **-one** and carboxylic acids **-oic acid**. With a three-carbon chain (prop-) these give chloropropane, propanol, propanal, propanone and propanoic acid."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Nomenclature of carbon compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps used to name a **three-carbon compound with a ketone group** in order.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "The suffix starts with a vowel, so delete the final \"e\": propan"
+   },
+   {
+    "id": "s1",
+    "text": "Three carbon atoms: the chain is propane"
+   },
+   {
+    "id": "s4",
+    "text": "Add the suffix: propanone"
+   },
+   {
+    "id": "s2",
+    "text": "The ketone functional group is shown by the suffix \"-one\""
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "image": {
+   "src": "/img/c10-carbon/naming-flow.svg",
+   "alt": "Steps for naming a carbon compound"
+  },
+  "hint": "Chain name first, then the functional group, then adjust the spelling.",
+  "explanation": "Follow the naming method: (i) count the carbons, so 3 carbons give **propane**; (ii) show the functional group, here the ketone suffix **-one**; (iii) since \"-one\" starts with a vowel, **delete the final e** of propane to get propan; then add the suffix to get **propanone**."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Nomenclature of carbon compounds",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which picture shows **butanone**, a four-carbon compound with a ketone group?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Picture A",
+    "image": {
+     "src": "/img/c10-carbon/bt-one.svg",
+     "alt": "CH3-CO-CH2-CH3"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Picture B",
+    "image": {
+     "src": "/img/c10-carbon/bt-al.svg",
+     "alt": "CH3-CH2-CH2-CHO"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Picture C",
+    "image": {
+     "src": "/img/c10-carbon/bt-ol.svg",
+     "alt": "CH3-CH2-CH2-CH2-OH"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Picture D",
+    "image": {
+     "src": "/img/c10-carbon/bt-acid.svg",
+     "alt": "CH3-CH2-CH2-COOH"
+    }
+   }
+  ],
+  "answer": "a",
+  "hint": "The ketone C=O sits inside the chain, between two carbon atoms.",
+  "explanation": "**Butanone** has four carbons and the ketone group >C=O on the second carbon, so $\\ce{CH3-CO-CH2-CH3}$ (A). Picture B is **butanal** (aldehyde, -CHO at the end), C is **butanol** (alcohol, -OH) and D is **butanoic acid** (carboxylic acid, -COOH)."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Combustion",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "assertion": "While cooking, the outside of the vessel gets blackened when the air holes of the stove are blocked.",
+  "reason": "With a limited supply of air, the fuel undergoes incomplete combustion and gives soot, which is carbon.",
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-carbon/sooty-vessel.svg",
+   "alt": "A vessel blackened by soot from a yellow flame when the air holes are blocked"
+  },
+  "hint": "What is soot made of, and what does the fuel need for a clean blue flame?",
+  "explanation": "Both are true and R explains A. A gas or kerosene stove has **air inlets** so that an **oxygen-rich** mixture burns with a clean **blue** flame. When the holes are blocked, the supply of oxygen is limited, **combustion is incomplete**, and the fuel gives a yellow sooty flame and **soot (carbon)** that blackens the vessel. It also means fuel is being wasted."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Combustion",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Ethanol burns in oxygen: $\\ce{CH3CH2OH + O2 -> CO2 + H2O}$ + heat and light. When this equation is balanced with the smallest whole numbers, what is the coefficient of $\\ce{O2}$?",
+  "options": [
+   {
+    "id": "a",
+    "text": "1"
+   },
+   {
+    "id": "b",
+    "text": "2"
+   },
+   {
+    "id": "c",
+    "text": "3"
+   },
+   {
+    "id": "d",
+    "text": "4"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-carbon/ethanol-combustion.svg",
+   "alt": "Ethanol burning with an unbalanced equation"
+  },
+  "hint": "Balance C first (2 $\\ce{CO2}$), then H (3 $\\ce{H2O}$), then count all the oxygen atoms.",
+  "explanation": "Balanced: $\\ce{CH3CH2OH + 3O2 -> 2CO2 + 3H2O}$. Carbon: 2 on each side. Hydrogen: 6 on each side (3 $\\ce{H2O}$). Oxygen on the right: $2 \\times 2 + 3 = 7$; ethanol supplies 1, so $\\ce{O2}$ must supply 6 atoms, i.e. **3 molecules**. The trap is forgetting the oxygen already present in the ethanol or in the water."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Combustion",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "This Bunsen burner gives a blue flame when it gets enough air. Tap the part that lets **air** into the burner.",
+  "spots": [
+   {
+    "id": "flame",
+    "x": 50.0,
+    "y": 16.7,
+    "label": "Flame"
+   },
+   {
+    "id": "barrel",
+    "x": 50.0,
+    "y": 45.0,
+    "label": "Barrel of the burner"
+   },
+   {
+    "id": "air",
+    "x": 50.0,
+    "y": 67.1,
+    "label": "Air hole (collar)"
+   },
+   {
+    "id": "inlet",
+    "x": 31.5,
+    "y": 78.3,
+    "label": "Gas inlet tube"
+   },
+   {
+    "id": "base",
+    "x": 50.0,
+    "y": 86.7,
+    "label": "Base"
+   }
+  ],
+  "answer": "air",
+  "image": {
+   "src": "/img/c10-carbon/bunsen.svg",
+   "alt": "A Bunsen burner with gas inlet, collar with air hole, barrel and flame"
+  },
+  "hint": "Closing this opening gives a yellow sooty flame.",
+  "explanation": "The **air hole** (in the collar at the bottom of the barrel) lets air mix with the gas. With the hole open, the fuel burns **completely** with a clean **blue** flame; with it closed, **incomplete combustion** gives a yellow, sooty flame (Activity 4.4). Gas enters through the **inlet tube**, and the burner stands on the **base**."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Combustion",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which statements about burning carbon compounds and fuels are correct? Select all that apply.",
+  "options": [
+   {
+    "id": "a",
+    "text": "A flame is produced only when gaseous substances burn"
+   },
+   {
+    "id": "b",
+    "text": "Charcoal often just glows red without a flame"
+   },
+   {
+    "id": "c",
+    "text": "Coal and petroleum contain nitrogen and sulphur, so burning them releases oxides of these elements, which pollute the environment"
+   },
+   {
+    "id": "d",
+    "text": "Unsaturated hydrocarbons burn with a clean blue flame"
+   },
+   {
+    "id": "e",
+    "text": "Saturated hydrocarbons generally burn with a yellow sooty flame in plenty of air"
+   },
+   {
+    "id": "f",
+    "text": "When wood is first ignited, volatile substances vapourise and burn with a flame"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "f"
+  ],
+  "image": {
+   "src": "/img/c10-carbon/angithi.svg",
+   "alt": "A burning candle beside glowing charcoal"
+  },
+  "hint": "Saturated compounds in plenty of air burn cleanly; unsaturated ones give soot.",
+  "explanation": "A **flame** is produced only when **gaseous substances burn**, so charcoal can **glow without a flame** once its volatile substances have gone. **Coal and petroleum** contain some nitrogen and sulphur whose oxides are **major pollutants**. **Saturated** hydrocarbons generally give a **clean flame**, while **unsaturated** compounds give a **yellow flame with lots of black smoke**, so the last two wrong options are reversed."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Combustion",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the stages in the formation of **coal** in order.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "They are pressed down by layers of earth and rock"
+   },
+   {
+    "id": "s1",
+    "text": "Trees, ferns and other plants live millions of years ago, then die"
+   },
+   {
+    "id": "s4",
+    "text": "They slowly decay into coal"
+   },
+   {
+    "id": "s2",
+    "text": "They are crushed into the earth, perhaps by earthquakes or volcanic eruptions"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "image": {
+   "src": "/img/c10-carbon/coal-layers.svg",
+   "alt": "Plants buried under layers of earth slowly becoming coal"
+  },
+  "hint": "Think: plants die, get buried, get squeezed, and then slowly change.",
+  "explanation": "Coal is the remains of **trees, ferns and other plants** that lived millions of years ago. They were **crushed into the earth**, **pressed down by layers of earth and rock** and **slowly decayed into coal**. Coal and petroleum, formed from biomass, are called **fossil fuels**."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Oxidation",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Alkaline potassium permanganate is added drop by drop to warm ethanol. At first the purple colour **disappears**, but once enough has been added the purple colour **stays**. What explains this?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ethanol is oxidised to ethanoic acid, using up the oxidising agent; when all the ethanol has reacted, the excess purple permanganate persists"
+   },
+   {
+    "id": "b",
+    "text": "Ethanol is reduced to ethanoic acid by the permanganate, which acts as a reducing agent"
+   },
+   {
+    "id": "c",
+    "text": "Potassium permanganate acts as a catalyst, so it is never used up and its colour should never disappear"
+   },
+   {
+    "id": "d",
+    "text": "Potassium permanganate simply dissolves in ethanol and loses its colour for ever"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-carbon/oxidation-ethanol.svg",
+   "alt": "Purple permanganate dripping into warm ethanol and losing its colour"
+  },
+  "hint": "An oxidising agent adds oxygen to the alcohol and is itself consumed.",
+  "explanation": "Alkaline $\\ce{KMnO4}$ (and acidified potassium dichromate) are **oxidising agents**: they **add oxygen** to ethanol, converting it to **ethanoic acid**, and are used up, so the purple colour vanishes. When the **ethanol is all oxidised**, extra permanganate remains and the purple colour **persists**. It is an oxidation (gain of oxygen), not a reduction, and the reagent is a reactant, not a catalyst."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Addition reaction",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "Which of these hydrocarbons undergo **addition reactions** (for example with hydrogen in the presence of nickel)? Select all that apply.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\ce{C2H6}$"
+   },
+   {
+    "id": "b",
+    "text": "$\\ce{C3H8}$"
+   },
+   {
+    "id": "c",
+    "text": "$\\ce{C3H6}$"
+   },
+   {
+    "id": "d",
+    "text": "$\\ce{C2H2}$"
+   },
+   {
+    "id": "e",
+    "text": "$\\ce{CH4}$"
+   }
+  ],
+  "answers": [
+   "c",
+   "d"
+  ],
+  "image": {
+   "src": "/img/c10-carbon/addition-reaction.svg",
+   "alt": "Ethene adding hydrogen with a nickel catalyst to become ethane"
+  },
+  "hint": "Only unsaturated hydrocarbons, with a double or triple bond, add hydrogen.",
+  "explanation": "**Unsaturated** hydrocarbons add hydrogen in the presence of a catalyst such as **nickel or palladium** to give saturated hydrocarbons. $\\ce{C3H6}$ (propene, a double bond) and $\\ce{C2H2}$ (ethyne, a triple bond) are unsaturated. $\\ce{C2H6}$, $\\ce{C3H8}$ and $\\ce{CH4}$ are alkanes (saturated) and do not add hydrogen. This reaction is used to **hydrogenate vegetable oils** with a nickel catalyst."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Substitution reaction",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "assertion": "In sunlight, methane reacts with chlorine as $\\ce{CH4 + Cl2 -> CH3Cl + HCl}$, which is a substitution reaction.",
+  "reason": "Methane is a saturated hydrocarbon.",
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-carbon/substitution.svg",
+   "alt": "Methane reacting with chlorine in sunlight to give chloromethane and hydrogen chloride"
+  },
+  "hint": "Does being saturated explain why chlorine takes the place of hydrogen?",
+  "explanation": "Both statements are true, but R is **not the explanation**. The reaction is a **substitution** because a chlorine atom **takes the place of a hydrogen atom**. Saturated hydrocarbons are fairly unreactive and give **substitution** (not addition) reactions only in the presence of sunlight; the key idea is replacement of H, which R does not state."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanol",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A small piece of sodium is dropped into ethanol and bubbles of a gas are seen. Which gas is released and how is it tested?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Carbon dioxide, which turns lime water milky"
+   },
+   {
+    "id": "b",
+    "text": "Oxygen, which relights a glowing splinter"
+   },
+   {
+    "id": "c",
+    "text": "Hydrogen, which burns with a pop sound"
+   },
+   {
+    "id": "d",
+    "text": "Ethene, which burns with a sooty flame"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-carbon/sodium-ethanol.svg",
+   "alt": "A piece of sodium in ethanol with bubbles of gas rising"
+  },
+  "hint": "Think of metals reacting with acids: which gas is given off?",
+  "explanation": "$\\ce{2Na + 2CH3CH2OH -> 2CH3CH2ONa + H2}$. Alcohols react with sodium to give **hydrogen** gas and **sodium ethoxide**. Hydrogen is recognised because it **burns with a pop sound**. Carbon dioxide would turn lime water milky, but it is not produced here."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanol",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Ethanol is heated at 443 K with excess concentrated sulphuric acid. What is formed and what is the role of the acid?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ethanoic acid; the acid is an oxidising agent"
+   },
+   {
+    "id": "b",
+    "text": "Ethane; the acid is a source of hydrogen"
+   },
+   {
+    "id": "c",
+    "text": "Sodium ethoxide; the acid is a catalyst"
+   },
+   {
+    "id": "d",
+    "text": "Ethene; the acid is a dehydrating agent that removes water"
+   }
+  ],
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-carbon/dehydration.svg",
+   "alt": "Ethanol heated with concentrated sulphuric acid at 443 K giving ethene gas"
+  },
+  "hint": "Think of what is removed from ethanol, $\\ce{C2H6O}$, to leave $\\ce{C2H4}$.",
+  "explanation": "$\\ce{CH3CH2OH ->[hot conc. H2SO4] CH2=CH2 + H2O}$. Ethanol loses a molecule of water to give **ethene**, so conc. sulphuric acid acts as a **dehydrating agent**. Ethanoic acid needs an oxidising agent, ethane would need hydrogen added, and sodium ethoxide forms with sodium."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanoic acid",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Two colourless liquids, **ethanol** and **ethanoic acid**, are tested by adding a pinch of sodium hydrogencarbonate to each, as in the picture. What does the result show?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Liquid Q is ethanoic acid because nothing happens to it"
+   },
+   {
+    "id": "b",
+    "text": "Liquid P is ethanol because it reacts with hydrogencarbonates"
+   },
+   {
+    "id": "c",
+    "text": "Both would fizz, so the test cannot tell them apart"
+   },
+   {
+    "id": "d",
+    "text": "Liquid P is ethanoic acid: it effervesces and the gas turns lime water milky"
+   }
+  ],
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-carbon/bicarb-test.svg",
+   "alt": "Two test tubes with sodium hydrogencarbonate; liquid P fizzes and liquid Q does not"
+  },
+  "hint": "Which of the two liquids is an acid that releases carbon dioxide with hydrogencarbonates?",
+  "explanation": "Ethanoic acid reacts with carbonates and hydrogencarbonates: $\\ce{CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2}$. The **brisk effervescence** of carbon dioxide (which turns lime water milky) identifies **liquid P** as ethanoic acid. Ethanol, an alcohol, does not react with sodium hydrogencarbonate."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Properties of covalent compounds",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Using Table 4.1 (melting point 290 K, boiling point 391 K for ethanoic acid), over how wide a temperature range is **ethanoic acid a liquid**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "101 K"
+   },
+   {
+    "id": "b",
+    "text": "125 K"
+   },
+   {
+    "id": "c",
+    "text": "195 K"
+   },
+   {
+    "id": "d",
+    "text": "681 K"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-carbon/mp-bp-chart.svg",
+   "alt": "Bar chart of melting and boiling points of four carbon compounds"
+  },
+  "hint": "It is a liquid between its melting point and its boiling point: subtract.",
+  "explanation": "A substance is liquid between its **melting point** and **boiling point**: $391 - 290 = 101$ K. Traps: 195 K is the range for **ethanol** ($351 - 156$), 125 K is for **chloroform** ($334 - 209$), and 681 K comes from **adding** the two values. (Because 290 K is only about 17 degrees C, pure ethanoic acid freezes in winter, hence the name glacial acetic acid.)"
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanoic acid",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "In Activity 4.8, ethanol, glacial acetic acid and a few drops of concentrated sulphuric acid are warmed gently. Tap the **water bath**.",
+  "spots": [
+   {
+    "id": "tube",
+    "x": 50.0,
+    "y": 66.7,
+    "label": "Test tube with ethanol, glacial acetic acid and conc. sulphuric acid"
+   },
+   {
+    "id": "bath",
+    "x": 33.8,
+    "y": 69.2,
+    "label": "Water bath (warm water in a beaker)"
+   },
+   {
+    "id": "therm",
+    "x": 66.8,
+    "y": 41.7,
+    "label": "Thermometer"
+   },
+   {
+    "id": "flame",
+    "x": 50.0,
+    "y": 94.2,
+    "label": "Burner flame"
+   }
+  ],
+  "answer": "bath",
+  "image": {
+   "src": "/img/c10-carbon/ester-apparatus.svg",
+   "alt": "A test tube of reactants warmed in a beaker water bath with a thermometer and burner"
+  },
+  "hint": "The test tube is warmed in hot water, not held directly in the flame.",
+  "explanation": "The mixture is warmed in a **water bath**, the beaker of hot water surrounding the test tube, so it heats gently. The acid (conc. sulphuric acid) acts as a **catalyst** for the **esterification** $\\ce{CH3COOH + CH3CH2OH ->[acid] CH3COOC2H5 + H2O}$. Pouring the product into water and smelling it shows that **esters are sweet-smelling**, used in perfumes and flavourings."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanoic acid",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Dilute ethanoic acid is added to sodium carbonate and the gas is passed through a second tube. Tap the **lime water** used to identify the gas.",
+  "spots": [
+   {
+    "id": "cork",
+    "x": 25.0,
+    "y": 31.7,
+    "label": "Cork (stopper)"
+   },
+   {
+    "id": "mix",
+    "x": 25.0,
+    "y": 66.7,
+    "label": "Test tube with sodium carbonate and dilute ethanoic acid"
+   },
+   {
+    "id": "del",
+    "x": 50.0,
+    "y": 15.0,
+    "label": "Delivery tube"
+   },
+   {
+    "id": "lime",
+    "x": 75.0,
+    "y": 70.8,
+    "label": "Lime water (turns milky)"
+   }
+  ],
+  "answer": "lime",
+  "image": {
+   "src": "/img/c10-carbon/limewater-apparatus.svg",
+   "alt": "Gas passing from a test tube through a delivery tube into lime water"
+  },
+  "hint": "The gas given off turns this solution milky.",
+  "explanation": "Ethanoic acid reacts with sodium carbonate to give a salt, water and **carbon dioxide**: $\\ce{2CH3COOH + Na2CO3 -> 2CH3COONa + H2O + CO2}$. The gas travels along the **delivery tube** into **lime water**, which turns **milky**, confirming carbon dioxide."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanoic acid",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Ethanoic acid reacts with sodium carbonate: $\\ce{2CH3COOH + Na2CO3 -> 2CH3COONa + H2O + CO2}$. How many moles of $\\ce{CO2}$ form when **6 mol** of ethanoic acid react completely with excess sodium carbonate?",
+  "options": [
+   {
+    "id": "a",
+    "text": "2 mol"
+   },
+   {
+    "id": "b",
+    "text": "3 mol"
+   },
+   {
+    "id": "c",
+    "text": "6 mol"
+   },
+   {
+    "id": "d",
+    "text": "12 mol"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-carbon/limewater-apparatus.svg",
+   "alt": "Gas from sodium carbonate and ethanoic acid bubbling into lime water"
+  },
+  "hint": "Read the mole ratio from the balanced equation: 2 acid : 1 carbon dioxide.",
+  "explanation": "From the equation, **2 mol of acid give 1 mol of $\\ce{CO2}$**, so 6 mol of acid give $6 \\div 2 = 3$ mol. The traps: 6 mol assumes a 1:1 ratio (true for $\\ce{NaHCO3}$, not for $\\ce{Na2CO3}$); 12 mol multiplies instead of dividing; 2 mol divides by 3 for no reason."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Reactions of ethanol and ethanoic acid",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "match",
+  "prompt": "Match each reaction with its products.",
+  "left": [
+   {
+    "id": "l1",
+    "text": "Ethanol + sodium"
+   },
+   {
+    "id": "l2",
+    "text": "Ethanol heated at 443 K with excess conc. sulphuric acid"
+   },
+   {
+    "id": "l3",
+    "text": "Ethanoic acid + ethanol (acid catalyst)"
+   },
+   {
+    "id": "l4",
+    "text": "Ethanoic acid + sodium hydroxide"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Sodium ethoxide + hydrogen"
+   },
+   {
+    "id": "r2",
+    "text": "Ethene + water"
+   },
+   {
+    "id": "r3",
+    "text": "An ester (sweet-smelling) + water"
+   },
+   {
+    "id": "r4",
+    "text": "Sodium ethanoate + water"
+   },
+   {
+    "id": "r5",
+    "text": "Ethanal + hydrogen"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "image": {
+   "src": "/img/c10-carbon/reactions-overview.svg",
+   "alt": "Reagents that react with ethanol and with ethanoic acid"
+  },
+  "hint": "Sodium gives hydrogen; conc. sulphuric acid removes water; an acid with an alcohol makes an ester.",
+  "explanation": "**Ethanol + Na** gives sodium ethoxide and $\\ce{H2}$. **Hot conc. $\\ce{H2SO4}$** dehydrates ethanol to **ethene** and water. **Ethanoic acid + ethanol** (acid catalyst) is **esterification**, giving an ester and water. **Ethanoic acid + NaOH** is a neutralisation giving **sodium ethanoate** and water. Ethanal and hydrogen is not a reaction in this chapter."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanoic acid",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "assertion": "Ethanoic acid is a weak acid.",
+  "reason": "Unlike hydrochloric acid, carboxylic acids are completely ionised in water.",
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-carbon/ph-compare.svg",
+   "alt": "Universal indicator colours in dilute hydrochloric acid and dilute ethanoic acid"
+  },
+  "hint": "Compare how a mineral acid like HCl behaves with how a carboxylic acid behaves in water.",
+  "explanation": "A is true and R is false. **Carboxylic acids are weak acids**: unlike mineral acids such as HCl, which are **completely ionised**, they are only partly ionised. Universal indicator therefore shows dilute ethanoic acid as less strongly acidic than dilute HCl, although both turn blue litmus red."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Ethanoic acid",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The ester ethyl ethanoate, $\\ce{CH3COOC2H5}$, is treated with sodium hydroxide. What are the products, and what is this reaction called?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ethanol and sodium ethanoate; saponification, the reaction used in making soap"
+   },
+   {
+    "id": "b",
+    "text": "Ethanoic acid and ethanol; esterification"
+   },
+   {
+    "id": "c",
+    "text": "Ethene and sodium ethanoate; dehydration"
+   },
+   {
+    "id": "d",
+    "text": "Sodium ethoxide and hydrogen; substitution"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-carbon/saponification.svg",
+   "alt": "An ester reacting with sodium hydroxide to give an alcohol and a sodium salt"
+  },
+  "hint": "The alkali breaks the ester back into the alcohol and a sodium salt.",
+  "explanation": "$\\ce{CH3COOC2H5 ->[NaOH] C2H5OH + CH3COONa}$. The ester is converted back to the **alcohol** and the **sodium salt of the carboxylic acid**. This reaction is called **saponification** because it is used to prepare **soap**; soaps are sodium or potassium salts of long-chain carboxylic acids. Esterification is the reverse (acid + alcohol)."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Soaps and detergents",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A soap molecule has two ends with different properties. Tap the end that **interacts with water**, the ionic (hydrophilic) end.",
+  "spots": [
+   {
+    "id": "head",
+    "x": 17.5,
+    "y": 50.0,
+    "label": "Ionic head (carboxylate end), hydrophilic"
+   },
+   {
+    "id": "na",
+    "x": 10.5,
+    "y": 24.2,
+    "label": "Sodium ion"
+   },
+   {
+    "id": "tail",
+    "x": 53.5,
+    "y": 50.0,
+    "label": "Hydrocarbon tail, hydrophobic"
+   },
+   {
+    "id": "oil",
+    "x": 87.5,
+    "y": 50.0,
+    "label": "Oil droplet"
+   }
+  ],
+  "answer": "head",
+  "image": {
+   "src": "/img/c10-carbon/soap-molecule.svg",
+   "alt": "A soap molecule with an ionic head, a long hydrocarbon tail and a neighbouring oil droplet"
+  },
+  "hint": "The long carbon chain avoids water; the other end is the ionic one.",
+  "explanation": "Soap is a **sodium (or potassium) salt of a long-chain carboxylic acid**. Its **ionic end** (the carboxylate with its sodium ion) is **hydrophilic** and interacts with water, while the long **hydrocarbon tail** is **hydrophobic** and interacts with oil and grease."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Soaps and detergents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Soap molecules in water form a **micelle** round a drop of oil. Tap the region where the **hydrocarbon tails** of the soap molecules are found.",
+  "spots": [
+   {
+    "id": "oil",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Oil droplet in the centre"
+   },
+   {
+    "id": "tails",
+    "x": 50.0,
+    "y": 69.6,
+    "label": "Hydrocarbon tails pointing into the oil"
+   },
+   {
+    "id": "heads",
+    "x": 69.0,
+    "y": 50.0,
+    "label": "Ionic ends facing the water"
+   },
+   {
+    "id": "water",
+    "x": 85.0,
+    "y": 25.0,
+    "label": "Surrounding water"
+   }
+  ],
+  "answer": "tails",
+  "image": {
+   "src": "/img/c10-carbon/micelle.svg",
+   "alt": "A micelle: tails pointing at an oil droplet and ionic heads facing the water"
+  },
+  "hint": "The tails dislike water, so they point towards the oil in the middle.",
+  "explanation": "In a **micelle** the **hydrophobic hydrocarbon tails** point **inwards** towards the oil droplet, while the **ionic ends face outwards** into the water. This forms an **emulsion**; the micelles stay in solution as a colloid because their ionic surfaces repel each other, so the oily dirt in the centre can be rinsed away."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Soaps and detergents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps in the **cleaning action of soap** in order.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "Micelles form with the oil droplet in the centre, giving an emulsion in water"
+   },
+   {
+    "id": "s1",
+    "text": "Oily dirt sticks to the cloth and does not dissolve in water"
+   },
+   {
+    "id": "s4",
+    "text": "Agitation and rinsing carry the micelles, and the dirt in them, away"
+   },
+   {
+    "id": "s2",
+    "text": "Soap molecules gather round the oil with their tails in the oil and their ionic ends in the water"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "image": {
+   "src": "/img/c10-carbon/cleaning-action.svg",
+   "alt": "Soap molecules gathering round oily dirt and carrying it away"
+  },
+  "hint": "The dirt is trapped in the middle of the soap structure before it is washed out.",
+  "explanation": "Most dirt is **oily**, and oil does not dissolve in water. Soap molecules surround the oil with the **hydrocarbon tails in the oil** and the **ionic ends outside**, forming **micelles** that make an **emulsion** in water. Beating or scrubbing helps the dirt in the micelles to be pulled out, and rinsing removes them, leaving the cloth clean."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Soaps and detergents",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "order",
+  "prompt": "Arrange the steps for making soap in the Group Activity in order.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "Heat with continuous stirring until the mixture thickens"
+   },
+   {
+    "id": "s5",
+    "text": "Cut the soap into shapes"
+   },
+   {
+    "id": "s1",
+    "text": "Take about 20 mL of an oil such as castor or soyabean oil in a beaker"
+   },
+   {
+    "id": "s4",
+    "text": "Add 5-10 g of common salt, stir well and allow to cool"
+   },
+   {
+    "id": "s2",
+    "text": "Add 30 mL of 20% sodium hydroxide solution"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "image": {
+   "src": "/img/c10-carbon/soap-making.svg",
+   "alt": "Heating oil with sodium hydroxide, then adding salt, to make soap"
+  },
+  "hint": "Mix the ingredients, heat, add salt, cool, then shape.",
+  "explanation": "The oil (an ester of fatty acids) is mixed with **sodium hydroxide solution** and heated with stirring until it **thickens**, which is the saponification. **Common salt** is then added, and after cooling the soap can be **cut into shapes**; perfume may also be added before it sets."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Soaps and detergents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "assertion": "Soap forms a lather easily in hard water.",
+  "reason": "The calcium and magnesium salts that make water hard react with soap to form an insoluble substance called scum.",
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-carbon/hard-water.svg",
+   "alt": "Soap added to distilled water and to hard water"
+  },
+  "hint": "Does soap foam easily in hard water? Think about the scum.",
+  "explanation": "A is false and R is true. In **hard water**, foam forms with **difficulty** because soap reacts with the **calcium and magnesium salts** to form an **insoluble scum**, so more soap is needed. In **soft water** (distilled or rain water) soap lathers easily, as in Activity 4.11."
+ },
+ {
+  "id": "in-cbse-10-chem-carbon-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "chemistry",
+  "chapter": "Carbon and its Compounds",
+  "chapterNo": 4,
+  "topic": "Soaps and detergents",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Equal amounts of **hard water** are shaken with soap solution (tube 1) and with detergent solution (tube 2). Which statement is correct?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Tube 2 shows the curdy scum because detergents react with calcium and magnesium salts"
+   },
+   {
+    "id": "b",
+    "text": "Both tubes froth equally, since hardness affects only detergents"
+   },
+   {
+    "id": "c",
+    "text": "Neither tube froths, because hard water stops all cleansing agents"
+   },
+   {
+    "id": "d",
+    "text": "Tube 1 shows scum because soap reacts with calcium and magnesium salts, while tube 2 froths because detergent ends do not form insoluble precipitates with them"
+   }
+  ],
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-carbon/soap-vs-detergent.svg",
+   "alt": "Hard water with soap in tube 1 and with detergent in tube 2"
+  },
+  "hint": "Which cleansing agent forms an insoluble precipitate with the ions that cause hardness?",
+  "explanation": "**Soap** reacts with the **calcium and magnesium** ions of hard water to form an **insoluble curdy scum**, so little froth forms. **Detergents** are usually sodium salts of sulphonic acids (or ammonium salts); their **charged ends do not form insoluble precipitates** with these ions, so they stay effective in hard water and foam well. That is why detergents are used in shampoos and for washing clothes."
+ }
+]

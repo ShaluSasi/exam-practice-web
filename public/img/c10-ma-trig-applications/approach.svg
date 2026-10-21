@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>An observer at four points on the ground moving towards a tower, the line of sight getting steeper at each point</title>
+<style>.fl{stroke-dasharray:9 6;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.45}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:13px}.h{paint-order:stroke;stroke:#FFFFFF;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#E3F2FD"/>
+<path d="M0 162.9H400V224Q400 240 384 240H16Q0 240 0 224Z" fill="#CDEBC5"/>
+<line x1="0" y1="162.9" x2="400" y2="162.9" stroke="#6BAA5E" stroke-width="3" stroke-linecap="round" />
+<polygon points="50.5,162.9 62.5,162.9 59.5,88 53.5,88" fill="#C9D2EC" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<line x1="336" y1="162.9" x2="56.5" y2="88" stroke="#7C5CFF" stroke-width="2.5" stroke-linecap="round" class="fl"/>
+<line x1="186.2" y1="162.9" x2="56.5" y2="88" stroke="#0B93D4" stroke-width="2.5" stroke-linecap="round" class="fl"/>
+<line x1="131.4" y1="162.9" x2="56.5" y2="88" stroke="#3FA34D" stroke-width="2.5" stroke-linecap="round" class="fl"/>
+<line x1="99.7" y1="162.9" x2="56.5" y2="88" stroke="#FF8A1F" stroke-width="2.5" stroke-linecap="round" class="fl"/>
+<circle cx="336" cy="162.9" r="4.5" fill="#7C5CFF" stroke="#fff" stroke-width="1.5"/>
+<path d="M307.1 155.2A30 30 0 0 0 306 162.9" fill="none" stroke="#7C5CFF" stroke-width="3" stroke-linecap="round"/>
+<circle cx="186.2" cy="162.9" r="4.5" fill="#0B93D4" stroke="#fff" stroke-width="1.5"/>
+<path d="M160.2 147.9A30 30 0 0 0 156.2 162.9" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round"/>
+<circle cx="131.4" cy="162.9" r="4.5" fill="#3FA34D" stroke="#fff" stroke-width="1.5"/>
+<path d="M110.2 141.7A30 30 0 0 0 101.4 162.9" fill="none" stroke="#3FA34D" stroke-width="3" stroke-linecap="round"/>
+<circle cx="99.7" cy="162.9" r="4.5" fill="#FF8A1F" stroke="#fff" stroke-width="1.5"/>
+<path d="M84.7 137A30 30 0 0 0 69.7 162.9" fill="none" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round"/>
+<polygon points="0,0 -10,-5 -10,5" fill="#2B2F4A" transform="translate(146.4 149.5) rotate(-180.0)"/>
+<text x="200" y="22" font-size="13" text-anchor="middle" >The observer walks towards the tower</text>
+</svg>

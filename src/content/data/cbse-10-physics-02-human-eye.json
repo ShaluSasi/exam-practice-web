@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "in-cbse-10-phy-eye-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Parts of the eye",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Most of the refraction of light entering the eye takes place at its outer surface. Tap this transparent bulge at the front of the eyeball.",
+    "image": {
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye with light rays entering from the left"
+    },
+    "spots": [
+      {
+        "id": "cornea",
+        "x": 37.5,
+        "y": 40.0,
+        "label": "Cornea"
+      },
+      {
+        "id": "iris",
+        "x": 45.0,
+        "y": 62.5,
+        "label": "Iris"
+      },
+      {
+        "id": "lens",
+        "x": 55.5,
+        "y": 50.0,
+        "label": "Crystalline lens"
+      },
+      {
+        "id": "retina",
+        "x": 77.8,
+        "y": 41.7,
+        "label": "Retina"
+      },
+      {
+        "id": "nerve",
+        "x": 87.5,
+        "y": 63.3,
+        "label": "Optic nerve"
+      }
+    ],
+    "answer": "cornea",
+    "hint": "Light enters the eye through a thin, transparent membrane at the very front.",
+    "explanation": "Light enters through the **cornea**, the transparent bulge on the front of the eyeball, and **most of the refraction** happens at its outer surface. The crystalline lens only provides the **finer adjustment** of focal length needed to focus objects at different distances. The iris controls the pupil, the retina is the screen and the optic nerve carries signals to the brain."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Image formation in the eye",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The eye lens focuses light from a distant tree on the retina. What is the nature of this image?",
+    "image": {
+      "src": "/img/c10-eye/eye-camera.svg",
+      "alt": "A camera and a human eye each forming an inverted image on a light-sensitive surface"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Virtual and erect"
+      },
+      {
+        "id": "b",
+        "text": "Real and inverted"
+      },
+      {
+        "id": "c",
+        "text": "Real and erect"
+      },
+      {
+        "id": "d",
+        "text": "Virtual and inverted"
+      }
+    ],
+    "answer": "b",
+    "hint": "The retina is a screen, and only real images can be formed on a screen.",
+    "explanation": "The human eye is like a camera. Its lens system forms a **real, inverted** image on the light-sensitive screen called the retina. A virtual image cannot be caught on a screen, and an erect image would need an extra reversal that the eye lens does not produce. The upright view is restored later by the brain."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Parts of the eye",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the dark muscular diaphragm that controls the size of the pupil.",
+    "image": {
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye with light rays entering from the left"
+    },
+    "spots": [
+      {
+        "id": "iris",
+        "x": 45.0,
+        "y": 37.5,
+        "label": "Iris"
+      },
+      {
+        "id": "lens",
+        "x": 55.5,
+        "y": 50.0,
+        "label": "Crystalline lens"
+      },
+      {
+        "id": "retina",
+        "x": 77.8,
+        "y": 41.7,
+        "label": "Retina"
+      },
+      {
+        "id": "cornea",
+        "x": 37.5,
+        "y": 60.0,
+        "label": "Cornea"
+      },
+      {
+        "id": "nerve",
+        "x": 87.5,
+        "y": 63.3,
+        "label": "Optic nerve"
+      },
+      {
+        "id": "cil",
+        "x": 56.5,
+        "y": 65.0,
+        "label": "Ciliary muscles"
+      }
+    ],
+    "answer": "iris",
+    "hint": "It sits just behind the cornea and has a hole in the middle.",
+    "explanation": "The **iris** is a dark muscular diaphragm behind the cornea. The hole in its middle is the **pupil**, and the iris changes the pupil's size to regulate how much light enters the eye. The ciliary muscles act on the lens, not on the pupil."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "The iris and the pupil",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A student walks from bright sunlight into a dimly lit room. What happens to her pupil, and which part of the eye makes this happen?",
+    "image": {
+      "src": "/img/c10-eye/iris-pupil.svg",
+      "alt": "Two eyes: a small pupil in bright light and a large pupil in dim light"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The pupil becomes smaller, adjusted by the iris"
+      },
+      {
+        "id": "b",
+        "text": "The pupil becomes larger, adjusted by the ciliary muscles"
+      },
+      {
+        "id": "c",
+        "text": "The pupil stays the same, while the retina changes the light that enters"
+      },
+      {
+        "id": "d",
+        "text": "The pupil becomes larger, adjusted by the iris"
+      }
+    ],
+    "answer": "d",
+    "hint": "Which part is a muscular diaphragm with a hole in it? And does the eye need more or less light in the dark?",
+    "explanation": "The **iris** controls the size of the pupil, and the pupil regulates the amount of light entering the eye. In dim light the eye needs to collect more light, so the pupil **widens**. Making it smaller is the response to bright light. The ciliary muscles change the curvature of the **lens**, not the pupil, and the retina cannot change how much light reaches it."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Parts of the eye",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each part of the eye with its function.",
+    "image": {
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye"
+    },
+    "left": [
+      {
+        "id": "cornea",
+        "text": "Cornea"
+      },
+      {
+        "id": "iris",
+        "text": "Iris"
+      },
+      {
+        "id": "cil",
+        "text": "Ciliary muscles"
+      },
+      {
+        "id": "ret",
+        "text": "Retina"
+      },
+      {
+        "id": "nerve",
+        "text": "Optic nerve"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "Change the curvature of the eye lens"
+      },
+      {
+        "id": "r5",
+        "text": "Carries electrical signals to the brain"
+      },
+      {
+        "id": "r1",
+        "text": "Transparent front bulge where most refraction occurs"
+      },
+      {
+        "id": "r4",
+        "text": "Light-sensitive screen that generates electrical signals"
+      },
+      {
+        "id": "r2",
+        "text": "Controls the size of the pupil"
+      }
+    ],
+    "pairs": {
+      "cornea": "r1",
+      "iris": "r2",
+      "cil": "r3",
+      "ret": "r4",
+      "nerve": "r5"
+    },
+    "hint": "Think of the eye as a camera: front window, aperture, focusing, film, cable.",
+    "explanation": "The **cornea** is the transparent front surface where most refraction occurs. The **iris** controls the pupil and so the amount of light. The **ciliary muscles** change the curvature (and focal length) of the lens. The **retina** has an enormous number of light-sensitive cells that generate electrical signals, and the **optic nerves** send these signals to the brain."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Working of the eye",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put these steps in the order in which a picture of a tree is seen by the eye.",
+    "image": {
+      "src": "/img/c10-eye/eye-signal.svg",
+      "alt": "Light from a tree entering an eye, and electrical signals travelling along the optic nerve to the brain"
+    },
+    "items": [
+      {
+        "id": "brain",
+        "text": "Optic nerves carry the signals to the brain, which interprets them"
+      },
+      {
+        "id": "cornea",
+        "text": "Light from the tree enters through the cornea"
+      },
+      {
+        "id": "ret",
+        "text": "Light-sensitive cells of the retina are activated and generate electrical signals"
+      },
+      {
+        "id": "lens",
+        "text": "The eye lens focuses the light and forms an inverted real image on the retina"
+      },
+      {
+        "id": "pupil",
+        "text": "The light passes through the pupil, whose size the iris controls"
+      }
+    ],
+    "answer": [
+      "cornea",
+      "pupil",
+      "lens",
+      "ret",
+      "brain"
+    ],
+    "startLabel": "Light starts here",
+    "endLabel": "Seen by the brain",
+    "hint": "Follow the path of the light from the outside of the eye to the brain.",
+    "explanation": "Light enters through the **cornea**, passes through the **pupil** (size set by the iris), and is focused by the **eye lens** to form an inverted real image on the **retina**. Its light-sensitive cells generate **electrical signals**, which the **optic nerves** carry to the **brain**. The brain processes them so that we perceive the object as it is."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Image formation in the eye",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The eye lens forms an inverted real image of the object. Tap the light-sensitive screen on which this image falls.",
+    "image": {
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye with light rays focusing at the back"
+    },
+    "spots": [
+      {
+        "id": "retina",
+        "x": 77.8,
+        "y": 41.7,
+        "label": "Retina"
+      },
+      {
+        "id": "nerve",
+        "x": 87.5,
+        "y": 63.3,
+        "label": "Optic nerve"
+      },
+      {
+        "id": "lens",
+        "x": 55.5,
+        "y": 50.0,
+        "label": "Crystalline lens"
+      },
+      {
+        "id": "cornea",
+        "x": 37.5,
+        "y": 40.0,
+        "label": "Cornea"
+      },
+      {
+        "id": "iris",
+        "x": 45.0,
+        "y": 62.5,
+        "label": "Iris"
+      }
+    ],
+    "answer": "retina",
+    "hint": "It lines the back of the eyeball and is full of light-sensitive cells.",
+    "explanation": "The image is formed on the **retina**, a delicate membrane at the back of the eye that has enormous numbers of light-sensitive cells. They are activated by light and send electrical signals to the brain through the optic nerve. The cornea, lens and iris help to get the light there, but none of them is a screen."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Image formation in the eye",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-eye/eye-camera.svg",
+      "alt": "A camera and a human eye each forming an inverted image"
+    },
+    "assertion": "The image of an object formed on the retina is inverted, yet we see objects the right way up.",
+    "reason": "The brain interprets the signals from the retina and processes the information so that we perceive objects as they are.",
+    "answer": "a",
+    "hint": "Where is the signal from the retina finally made sense of?",
+    "explanation": "Both statements are true and R explains A. The eye lens forms an inverted real image on the retina, the retina sends **electrical signals** along the optic nerves, and the **brain** interprets them so that we perceive objects as they really are, upright."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "The human eye",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the correct statements about the human eye.",
+    "image": {
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Most of the refraction of entering light happens at the outer surface of the cornea"
+      },
+      {
+        "id": "b",
+        "text": "The iris is a light-sensitive membrane that sends signals to the brain"
+      },
+      {
+        "id": "c",
+        "text": "The eyeball is roughly spherical with a diameter of about 2.3 cm"
+      },
+      {
+        "id": "d",
+        "text": "The eye lens forms a virtual, erect image on the retina"
+      },
+      {
+        "id": "e",
+        "text": "The crystalline lens provides only the finer adjustment of focal length"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Recall the roles of cornea, lens, iris and retina.",
+    "explanation": "True: most refraction occurs at the **cornea's** outer surface; the eyeball is nearly spherical, about **2.3 cm** across; and the **crystalline lens** only fine-tunes the focal length. False: the **iris** is a muscular diaphragm that controls the pupil (the light-sensitive membrane is the **retina**), and the eye lens forms a **real, inverted** image."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Power of accommodation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "These muscles change the curvature of the eye lens and so change its focal length. Tap the **ciliary muscles**.",
+    "image": {
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye"
+    },
+    "spots": [
+      {
+        "id": "cil",
+        "x": 56.5,
+        "y": 35.0,
+        "label": "Ciliary muscles"
+      },
+      {
+        "id": "lens",
+        "x": 55.5,
+        "y": 50.0,
+        "label": "Crystalline lens"
+      },
+      {
+        "id": "iris",
+        "x": 45.0,
+        "y": 62.5,
+        "label": "Iris"
+      },
+      {
+        "id": "retina",
+        "x": 77.8,
+        "y": 41.7,
+        "label": "Retina"
+      },
+      {
+        "id": "cornea",
+        "x": 37.5,
+        "y": 40.0,
+        "label": "Cornea"
+      }
+    ],
+    "answer": "cil",
+    "hint": "They hold the lens at its upper and lower edges.",
+    "explanation": "The **ciliary muscles** are attached around the crystalline lens. By relaxing or contracting they change the lens's curvature, and so its focal length. The lens itself is a jelly-like fibrous material that changes shape but cannot move itself, and the iris only adjusts the pupil."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Power of accommodation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "You look up from your book at a tree far away. Which picture shows the eye lens and ciliary muscles now?",
+    "image": {
+      "src": "/img/c10-eye/accommodation.svg",
+      "alt": "The eye lens is thin for distant objects and thick for near objects"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Thick lens, muscles contracted",
+        "image": {
+          "src": "/img/c10-eye/th-lens-b.svg",
+          "alt": "A thick eye lens with contracted ciliary muscles"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Thin lens, muscles contracted",
+        "image": {
+          "src": "/img/c10-eye/th-lens-c.svg",
+          "alt": "A thin eye lens with contracted ciliary muscles"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Thin lens, muscles relaxed",
+        "image": {
+          "src": "/img/c10-eye/th-lens-a.svg",
+          "alt": "A thin eye lens with relaxed ciliary muscles"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Thick lens, muscles relaxed",
+        "image": {
+          "src": "/img/c10-eye/th-lens-d.svg",
+          "alt": "A thick eye lens with relaxed ciliary muscles"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "For distant objects the focal length must be long. Is a thin lens or a thick lens weaker?",
+    "explanation": "For distant objects the ciliary muscles are **relaxed**, so the lens becomes **thin** and its focal length **increases**. This is the picture of a thin lens with relaxed muscles. A thick lens with contracted muscles is what the eye uses for **nearby** objects. The other two pictures pair a lens shape with the wrong muscle state, which cannot happen because the muscles are what change the shape."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Power of accommodation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "You shift your gaze from a distant tree to a book held at reading distance. Arrange what happens in your eye.",
+    "image": {
+      "src": "/img/c10-eye/accommodation.svg",
+      "alt": "Eye lens thin for far objects and thick for near objects"
+    },
+    "items": [
+      {
+        "id": "focal",
+        "text": "The focal length of the eye lens decreases"
+      },
+      {
+        "id": "shift",
+        "text": "You look at the nearby book"
+      },
+      {
+        "id": "thick",
+        "text": "The curvature increases and the lens becomes thicker"
+      },
+      {
+        "id": "sharp",
+        "text": "The image of the book falls on the retina and looks sharp"
+      },
+      {
+        "id": "contract",
+        "text": "The ciliary muscles contract"
+      }
+    ],
+    "answer": [
+      "shift",
+      "contract",
+      "thick",
+      "focal",
+      "sharp"
+    ],
+    "startLabel": "Cause",
+    "endLabel": "Result",
+    "hint": "The muscles act first; the focal length changes as a result.",
+    "explanation": "Looking at a nearby object makes the **ciliary muscles contract**, which **increases the curvature** of the eye lens so it becomes **thicker**. A thicker lens has a **shorter focal length**, so the image of the near book now falls on the retina and looks sharp. This ability to adjust the focal length is called **accommodation**."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Near point and far point",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A young adult with normal vision can see objects clearly when they lie between",
+    "image": {
+      "src": "/img/c10-eye/near-far-points.svg",
+      "alt": "A scale showing the near point at 25 cm and the far point at infinity"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "25 cm and infinity"
+      },
+      {
+        "id": "b",
+        "text": "2.5 cm and infinity"
+      },
+      {
+        "id": "c",
+        "text": "25 m and infinity"
+      },
+      {
+        "id": "d",
+        "text": "25 cm and 100 m"
+      }
+    ],
+    "answer": "a",
+    "hint": "The two limits are called the near point and the far point.",
+    "explanation": "The **near point** (least distance of distinct vision) is about **25 cm**, and the **far point** of a normal eye is **infinity**. So a normal eye sees clearly everything from 25 cm outwards. 2.5 cm and 25 m are wrong by a factor of ten in the near point, and a normal eye does not have a far point as close as 100 m (that would be a myopic eye)."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Near point and far point",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Why is a normal eye unable to see a book clearly when it is held only 10 cm away?",
+    "image": {
+      "src": "/img/c10-eye/reading-close.svg",
+      "alt": "An eye looking at a book very close to it, with the image falling behind the retina"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The ciliary muscles relax completely, making the lens too thin"
+      },
+      {
+        "id": "b",
+        "text": "The cornea stops refracting light from very close objects"
+      },
+      {
+        "id": "c",
+        "text": "The focal length of the eye lens cannot be decreased below a certain minimum limit, so the image falls behind the retina"
+      },
+      {
+        "id": "d",
+        "text": "The pupil becomes too small to let light in"
+      }
+    ],
+    "answer": "c",
+    "hint": "The eye lens can only become so thick.",
+    "explanation": "For nearby objects the lens becomes thicker and its focal length decreases, but only up to a limit. At 10 cm the image would need an even shorter focal length than the eye can produce, so it falls **behind the retina**: the picture blurs and the eye feels strain. That is why we hold things at about **25 cm**. The ciliary muscles *contract* (not relax) for near objects, and the cornea and pupil are not the cause."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Cataract",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-eye/cataract.svg",
+      "alt": "A normal eye beside an eye with a cloudy cataract lens"
+    },
+    "assertion": "A person with cataract has partial or complete loss of vision.",
+    "reason": "In cataract the crystalline lens of the eye becomes milky and cloudy.",
+    "answer": "a",
+    "hint": "If the lens turns cloudy, how much light can reach the retina?",
+    "explanation": "Both statements are true and R explains A. In old age the **crystalline lens** can become milky and cloudy, a condition called **cataract**. A cloudy lens blocks light, so vision is partly or completely lost. Vision can be restored by **cataract surgery**."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Myopia",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "This myopic eye looks at a distant tree. Tap the point where the **image of the tree** is formed.",
+    "image": {
+      "src": "/img/c10-eye/myopia.svg",
+      "alt": "Eye whose rays from a distant object cross in front of the retina"
+    },
+    "spots": [
+      {
+        "id": "focus",
+        "x": 66.5,
+        "y": 50.0,
+        "label": "Image point, in front of the retina"
+      },
+      {
+        "id": "retina",
+        "x": 77.0,
+        "y": 37.5,
+        "label": "Retina"
+      },
+      {
+        "id": "cornea",
+        "x": 37.5,
+        "y": 40.0,
+        "label": "Cornea"
+      },
+      {
+        "id": "nerve",
+        "x": 87.5,
+        "y": 63.3,
+        "label": "Optic nerve"
+      },
+      {
+        "id": "cil",
+        "x": 56.5,
+        "y": 35.0,
+        "label": "Ciliary muscles"
+      }
+    ],
+    "answer": "focus",
+    "hint": "Follow the rays to where they cross.",
+    "explanation": "The rays from the distant tree meet at a point **in front of the retina** (where they cross), not on it. This is what happens in **myopia (near-sightedness)**, so the distant tree looks blurred. The retina is where the image *should* be, but the rays have already crossed and spread out again by the time they reach it."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Hypermetropia",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which picture shows a **hypermetropic** eye?",
+    "image": {
+      "src": "/img/c10-eye/defects-summary.svg",
+      "alt": "Three eyes showing the image on, in front of and behind the retina"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Near object, image formed behind the retina",
+        "image": {
+          "src": "/img/c10-eye/th-eye-b.svg",
+          "alt": "Eye viewing a near object with the image behind the retina"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Distant object, image formed in front of the retina",
+        "image": {
+          "src": "/img/c10-eye/th-eye-a.svg",
+          "alt": "Eye viewing a distant object with the image in front of the retina"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Distant object, image formed on the retina",
+        "image": {
+          "src": "/img/c10-eye/th-eye-c.svg",
+          "alt": "Eye viewing a distant object with the image on the retina"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Near object, image formed on the retina",
+        "image": {
+          "src": "/img/c10-eye/th-eye-d.svg",
+          "alt": "Eye viewing a near object with the image on the retina"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "Hypermetropia is far-sightedness: which objects does such a person see badly?",
+    "explanation": "A hypermetropic (far-sighted) person sees distant objects clearly but not nearby ones, because light rays from a close object are focused at a point **behind the retina**. The picture of a distant object focused in front of the retina is **myopia**. The two pictures with the image on the retina show a normal eye, with no defect."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Myopia",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these can cause **myopia**? Select all that apply.",
+    "image": {
+      "src": "/img/c10-eye/myopia.svg",
+      "alt": "Eye whose rays from a distant object cross in front of the retina"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Excessive curvature of the eye lens"
+      },
+      {
+        "id": "b",
+        "text": "Elongation of the eyeball"
+      },
+      {
+        "id": "c",
+        "text": "The focal length of the eye lens being too long"
+      },
+      {
+        "id": "d",
+        "text": "The eyeball becoming too small"
+      },
+      {
+        "id": "e",
+        "text": "Gradual weakening of the ciliary muscles with age"
+      }
+    ],
+    "answers": [
+      "a",
+      "b"
+    ],
+    "hint": "In myopia the image forms too early, in front of the retina. What would make that happen?",
+    "explanation": "Myopia arises from **excessive curvature of the eye lens** (focal length too short) or from **elongation of the eyeball** (retina too far back). Either way the image forms in front of the retina. A lens with too long a focal length or a too-small eyeball causes **hypermetropia**, and weakening ciliary muscles with age lead to **presbyopia**."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Myopia",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A person with a myopic eye cannot see objects beyond 1.2 m distinctly. Which kind of lens should the person use?",
+    "image": {
+      "src": "/img/c10-eye/myopia-correct.svg",
+      "alt": "A concave spectacle lens spreading parallel rays so the myopic eye can focus them on the retina"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A convex lens of suitable power"
+      },
+      {
+        "id": "b",
+        "text": "A plane glass slab"
+      },
+      {
+        "id": "c",
+        "text": "A bi-focal lens with a convex upper part"
+      },
+      {
+        "id": "d",
+        "text": "A concave lens of suitable power"
+      }
+    ],
+    "answer": "d",
+    "hint": "The far point is nearer than infinity. Should the lens spread the rays or bring them together?",
+    "explanation": "A far point at 1.2 m (closer than infinity) means **myopia**. The eye converges the light too strongly, so the corrective lens must **diverge** the rays a little first: a **concave lens**. It makes a distant object appear to be at the person's far point, 1.2 m away. A convex lens would converge the rays even more and make things worse."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Power of a lens",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The far point of a myopic person is 80 cm in front of the eye. What is the power of the lens required to correct the problem?",
+    "image": {
+      "src": "/img/c10-eye/power-calc.svg",
+      "alt": "A myopic eye whose far point is 80 cm away with a concave lens in front"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$+1.25\\ \\text{D}$ (convex)"
+      },
+      {
+        "id": "b",
+        "text": "$-0.8\\ \\text{D}$"
+      },
+      {
+        "id": "c",
+        "text": "$-1.25\\ \\text{D}$ (concave)"
+      },
+      {
+        "id": "d",
+        "text": "$-125\\ \\text{D}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The lens must form a virtual image of a very distant object at the far point.",
+    "explanation": "For a distant object $u=-\\infty$, and the lens must form its image at the far point, so $v=-80\\ \\text{cm}$ and $f=-80\\ \\text{cm}=-0.8\\ \\text{m}$. Then $$P=\\dfrac{1}{f}=\\dfrac{1}{-0.8\\ \\text{m}}=-1.25\\ \\text{D}$$ The traps: **+1.25 D** has the wrong sign (convex instead of concave), **-0.8 D** uses the focal length in metres as if it were the power, and **-125 D** forgets to convert 80 cm into metres."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Power of a lens",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A person needs a lens of power $-5.5\\ \\text{D}$ for correcting distant vision and $+1.5\\ \\text{D}$ for correcting near vision. What are the focal lengths of the two lenses?",
+    "image": {
+      "src": "/img/c10-eye/spectacles-power.svg",
+      "alt": "A concave lens of power -5.5 D and a convex lens of power +1.5 D"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-18\\ \\text{cm}$ and $+67\\ \\text{cm}$"
+      },
+      {
+        "id": "b",
+        "text": "$+18\\ \\text{cm}$ and $-67\\ \\text{cm}$"
+      },
+      {
+        "id": "c",
+        "text": "$-5.5\\ \\text{cm}$ and $+1.5\\ \\text{cm}$"
+      },
+      {
+        "id": "d",
+        "text": "$-1.8\\ \\text{cm}$ and $+6.7\\ \\text{cm}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Use $f = 1/P$ with $f$ in metres, then convert to centimetres. Keep the signs.",
+    "explanation": "$f=\\dfrac{1}{P}$. For distant vision $f=\\dfrac{1}{-5.5}=-0.18\\ \\text{m}=-18\\ \\text{cm}$ (a concave lens). For near vision $f=\\dfrac{1}{+1.5}=+0.67\\ \\text{m}=+67\\ \\text{cm}$ (a convex lens). The traps: swapping the **signs**, treating the power as the focal length in cm, and slipping a **decimal place** when converting metres to centimetres."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Power of a lens",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The near point of a hypermetropic eye is 1 m. What is the power of the lens needed to read a book at 25 cm, the normal near point?",
+    "image": {
+      "src": "/img/c10-eye/hyper-calc.svg",
+      "alt": "A convex lens forming a virtual image at 1 m of a book held at 25 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-3.0\\ \\text{D}$"
+      },
+      {
+        "id": "b",
+        "text": "$+3.0\\ \\text{D}$"
+      },
+      {
+        "id": "c",
+        "text": "$+4.0\\ \\text{D}$"
+      },
+      {
+        "id": "d",
+        "text": "$+1.0\\ \\text{D}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Place the book at 25 cm and ask for its image at 1 m on the same side. Use $\\frac1f=\\frac1v-\\frac1u$.",
+    "explanation": "The lens must form a virtual image at the eye's near point of the book held at 25 cm: $u=-25\\ \\text{cm}$, $v=-100\\ \\text{cm}$. $$\\dfrac1f=\\dfrac1v-\\dfrac1u=\\dfrac{1}{-100}-\\dfrac{1}{-25}=\\dfrac{3}{100}\\Rightarrow f=+33.3\\ \\text{cm}$$ so $P=\\dfrac{1}{0.333}=+3\\ \\text{D}$ (convex). The traps: **-3 D** has the wrong sign, **+4 D** uses only $1/0.25\\ \\text{m}$ and ignores that the eye can already focus at 1 m, and **+1 D** uses only the 1 m near point."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Hypermetropia",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A boy sees distant objects clearly but must hold a book much farther than 25 cm to read it comfortably. Which spectacle lens corrects this?",
+    "image": {
+      "src": "/img/c10-eye/hyper.svg",
+      "alt": "Hypermetropic eye whose rays from a near object would focus behind the retina"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Concave lens",
+        "image": {
+          "src": "/img/c10-eye/th-lt-concave.svg",
+          "alt": "A concave lens"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Convex lens",
+        "image": {
+          "src": "/img/c10-eye/th-lt-convex.svg",
+          "alt": "A convex lens"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Plane glass slab",
+        "image": {
+          "src": "/img/c10-eye/th-lt-plane.svg",
+          "alt": "A plane glass slab"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Bi-focal lens",
+        "image": {
+          "src": "/img/c10-eye/th-lt-bifocal.svg",
+          "alt": "A bi-focal lens with concave top and convex bottom"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "Near objects focus behind the retina. Which lens adds converging power?",
+    "explanation": "The boy has **hypermetropia**: rays from nearby objects are focused behind the retina. A **convex (converging) lens** supplies the extra focusing power needed to bring the image onto the retina. A concave lens would make things worse, a plane slab does not change the focusing at all, and a bi-focal lens is for someone with **both** myopia and hypermetropia."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Defects of vision",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each defect or lens with its description.",
+    "image": {
+      "src": "/img/c10-eye/defects-summary.svg",
+      "alt": "Three eyes showing a normal eye, a myopic eye and a hypermetropic eye"
+    },
+    "left": [
+      {
+        "id": "myo",
+        "text": "Myopia"
+      },
+      {
+        "id": "hyp",
+        "text": "Hypermetropia"
+      },
+      {
+        "id": "pres",
+        "text": "Presbyopia"
+      },
+      {
+        "id": "bif",
+        "text": "Bi-focal lens"
+      }
+    ],
+    "right": [
+      {
+        "id": "d3",
+        "text": "Near point recedes with age as the ciliary muscles weaken"
+      },
+      {
+        "id": "d1",
+        "text": "Image of a distant object forms in front of the retina; corrected by a concave lens"
+      },
+      {
+        "id": "d4",
+        "text": "Concave upper part for distant vision, convex lower part for near vision"
+      },
+      {
+        "id": "d2",
+        "text": "Image of a nearby object forms behind the retina; corrected by a convex lens"
+      }
+    ],
+    "pairs": {
+      "myo": "d1",
+      "hyp": "d2",
+      "pres": "d3",
+      "bif": "d4"
+    },
+    "hint": "Match near-sighted and far-sighted first, then the age-related defect.",
+    "explanation": "**Myopia** (near-sightedness): distant image in front of the retina, corrected with a concave lens. **Hypermetropia** (far-sightedness): near image behind the retina, corrected with a convex lens. **Presbyopia**: the power of accommodation decreases with age, so the near point recedes. A **bi-focal lens** has a concave upper part and a convex lower part, for people who need both corrections."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Defects of vision",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A student sitting in the last row has difficulty reading the blackboard, but reads her own notebook comfortably. What defect might she have, and how can it be corrected?",
+    "image": {
+      "src": "/img/c10-eye/blackboard.svg",
+      "alt": "A classroom where the student in the last row cannot read the blurred blackboard"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Myopia, corrected with a convex lens"
+      },
+      {
+        "id": "b",
+        "text": "Hypermetropia, corrected with a convex lens"
+      },
+      {
+        "id": "c",
+        "text": "Hypermetropia, corrected with a concave lens"
+      },
+      {
+        "id": "d",
+        "text": "Myopia, corrected with a concave lens"
+      }
+    ],
+    "answer": "d",
+    "hint": "She sees near objects well and distant ones badly.",
+    "explanation": "Seeing nearby objects clearly but not distant ones is **myopia** (near-sightedness). It is corrected with a **concave lens** of suitable power. Hypermetropia is the opposite problem (near objects are blurred), and a convex lens would add converging power that a myopic eye does not need."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Presbyopia",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A man in his sixties sees distant objects clearly, but he gradually finds it difficult to read a newspaper at the usual distance. What is this defect and what causes it?",
+    "image": {
+      "src": "/img/c10-eye/presbyopia.svg",
+      "alt": "A book that must be held farther from an older eye"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Presbyopia: weakening of the ciliary muscles and diminishing flexibility of the eye lens"
+      },
+      {
+        "id": "b",
+        "text": "Myopia: excessive curvature of the eye lens"
+      },
+      {
+        "id": "c",
+        "text": "Cataract: the crystalline lens becomes milky and cloudy"
+      },
+      {
+        "id": "d",
+        "text": "Hypermetropia: the eyeball suddenly becomes too small"
+      }
+    ],
+    "answer": "a",
+    "hint": "The change is gradual and linked to age.",
+    "explanation": "The power of accommodation usually decreases with **ageing**. The ciliary muscles weaken and the lens becomes less flexible, so the **near point gradually recedes**. This is **presbyopia**. Myopia is a distant-vision defect, cataract makes the lens cloudy (the vision is dimmed, not just out of focus for reading), and an eyeball does not suddenly shrink."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Bi-focal lenses",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which statements about **bi-focal lenses** are correct? Select all that apply.",
+    "image": {
+      "src": "/img/c10-eye/bifocal.svg",
+      "alt": "A bi-focal lens with a concave upper part and a convex lower part"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The upper part is a concave lens that helps distant vision"
+      },
+      {
+        "id": "b",
+        "text": "The lower part is a convex lens that helps near vision"
+      },
+      {
+        "id": "c",
+        "text": "They are useful for people who suffer from both myopia and hypermetropia"
+      },
+      {
+        "id": "d",
+        "text": "The upper part is a convex lens for near vision"
+      },
+      {
+        "id": "e",
+        "text": "Both parts of a bi-focal lens are concave"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Distant vision problems need a concave lens, near vision problems a convex lens.",
+    "explanation": "A common bi-focal lens has a **concave upper part** (for distant vision, correcting myopia) and a **convex lower part** (for near vision, correcting hypermetropia or presbyopia). So it suits someone who needs both. The statements that put a convex lens on top or use two concave parts reverse or remove one of the corrections."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Hypermetropia",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-eye/hyper-correct.svg",
+      "alt": "A convex spectacle lens helping a hypermetropic eye focus on the retina"
+    },
+    "assertion": "A convex lens is used to correct hypermetropia.",
+    "reason": "A convex lens provides the additional focusing power required to form the image on the retina.",
+    "answer": "a",
+    "hint": "In hypermetropia the eye does not converge the light enough.",
+    "explanation": "Both statements are true and R explains A. In hypermetropia the focal length of the eye lens is too long (or the eyeball too small), so the image would form behind the retina. Eye-glasses with **converging (convex) lenses** supply the **additional focusing power** needed to bring the image onto the retina."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Eye donation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these statements about **eye donation** are correct? Select all that apply.",
+    "image": {
+      "src": "/img/c10-eye/eye-donation.svg",
+      "alt": "Eye donation: removal within a few hours, helping up to four corneal blind people"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The eyes must be removed within 4 to 6 hours after death"
+      },
+      {
+        "id": "b",
+        "text": "One pair of donated eyes can give vision to up to four corneal blind people"
+      },
+      {
+        "id": "c",
+        "text": "People who use spectacles or have been operated for cataract can still donate their eyes"
+      },
+      {
+        "id": "d",
+        "text": "Only people below the age of 40 can donate their eyes"
+      },
+      {
+        "id": "e",
+        "text": "A person who died of rabies can donate eyes"
+      },
+      {
+        "id": "f",
+        "text": "Eye removal takes several hours and disfigures the face"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Eye donors can be of any age or sex, but some infections rule out donation.",
+    "explanation": "Eyes must be removed within **4-6 hours** of death, a pair can restore sight to **up to four** corneal blind people, and people with spectacles or cataract surgery can donate. Donors can belong to **any age group or sex**. Those who died of infections such as rabies, AIDS or hepatitis B or C cannot donate, and removal takes only **10-15 minutes** without disfigurement."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Refraction through a prism",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "A ray of light passes through a glass prism. Tap the **angle of deviation**.",
+    "image": {
+      "src": "/img/c10-eye/prism-refraction.svg",
+      "alt": "A ray passing through a triangular prism with normals and five coloured angle arcs"
+    },
+    "spots": [
+      {
+        "id": "i",
+        "x": 31.0,
+        "y": 46.9,
+        "label": "Angle of incidence"
+      },
+      {
+        "id": "r",
+        "x": 44.7,
+        "y": 51.5,
+        "label": "Angle of refraction"
+      },
+      {
+        "id": "e",
+        "x": 67.1,
+        "y": 47.4,
+        "label": "Angle of emergence"
+      },
+      {
+        "id": "D",
+        "x": 78.6,
+        "y": 49.0,
+        "label": "Angle of deviation"
+      },
+      {
+        "id": "A",
+        "x": 50.0,
+        "y": 32.8,
+        "label": "Angle of the prism"
+      }
+    ],
+    "answer": "D",
+    "hint": "It measures how much the emergent ray is turned from the direction the ray had when it entered.",
+    "explanation": "The **angle of deviation** is the angle between the direction of the incident ray (the dashed line) and the emergent ray. The peculiar shape of the prism makes the emergent ray bend at an angle to the incident direction. The angles of **incidence**, **refraction** and **emergence** are measured from the normals at each face, and the angle of the **prism** is between its two lateral faces."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Refraction through a prism",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-eye/slab-vs-prism.svg",
+      "alt": "A glass slab giving a parallel emergent ray and a prism bending the ray towards its base"
+    },
+    "assertion": "The emergent ray from a rectangular glass slab is parallel to the incident ray, but the emergent ray from a triangular prism is not.",
+    "reason": "The refracting surfaces of a slab are parallel to each other, whereas the refracting surfaces of a prism are inclined to each other.",
+    "answer": "a",
+    "hint": "Compare the two faces of a slab with the two faces of a prism.",
+    "explanation": "Both are true and R explains A. In a slab the second surface undoes the bend of the first, so the emergent ray is parallel to the incident ray (just shifted sideways). In a prism the two faces are **inclined**, so both bends add up in the same sense and the ray is turned through the **angle of deviation**."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Dispersion of white light",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Sunlight passes through a prism and forms a spectrum on the screen. Tap the colour that bends the **most**.",
+    "image": {
+      "src": "/img/c10-eye/prism-dispersion.svg",
+      "alt": "White light split by a prism into seven colours on a screen"
+    },
+    "spots": [
+      {
+        "id": "red",
+        "x": 90.5,
+        "y": 62.3,
+        "label": "Red end of the spectrum"
+      },
+      {
+        "id": "green",
+        "x": 90.5,
+        "y": 75.8,
+        "label": "Green band"
+      },
+      {
+        "id": "violet",
+        "x": 90.5,
+        "y": 88.8,
+        "label": "Violet end of the spectrum"
+      },
+      {
+        "id": "prism",
+        "x": 46.2,
+        "y": 55.8,
+        "label": "Glass prism"
+      },
+      {
+        "id": "slit",
+        "x": 15.5,
+        "y": 47.0,
+        "label": "Slit in the cardboard"
+      }
+    ],
+    "answer": "violet",
+    "hint": "The colour that ends up farthest from the original direction.",
+    "explanation": "Different colours bend through different angles in a prism. **Red bends the least** and **violet the most**, so violet lands farthest from the original direction of the beam (here, nearest the bottom of the screen). The band of coloured components is the **spectrum**, and the splitting is called **dispersion**."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Dispersion of white light",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which strip lists the colours of the spectrum in order from the colour that bends the **least** to the one that bends the **most**?",
+    "image": {
+      "src": "/img/c10-eye/prism-dispersion.svg",
+      "alt": "White light split by a prism into seven colours on a screen"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "V I B G Y O R",
+        "image": {
+          "src": "/img/c10-eye/th-strip-b.svg",
+          "alt": "Colour strip from violet to red"
+        }
+      },
+      {
+        "id": "b",
+        "text": "R O Y G B I V",
+        "image": {
+          "src": "/img/c10-eye/th-strip-a.svg",
+          "alt": "Colour strip from red to violet"
+        }
+      },
+      {
+        "id": "c",
+        "text": "R Y O G B I V",
+        "image": {
+          "src": "/img/c10-eye/th-strip-c.svg",
+          "alt": "Colour strip with yellow and orange swapped"
+        }
+      },
+      {
+        "id": "d",
+        "text": "R O Y B G I V",
+        "image": {
+          "src": "/img/c10-eye/th-strip-d.svg",
+          "alt": "Colour strip with green and blue swapped"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "The memory aid is VIBGYOR, which starts from the colour that bends most.",
+    "explanation": "**Red bends the least and violet the most**, so from least to most the order is red, orange, yellow, green, blue, indigo, violet. The acronym **VIBGYOR** lists the same colours the other way round, starting with violet. The other two strips have two neighbouring colours swapped."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Dispersion of white light",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Isaac Newton placed a second identical prism upside down next to the first one so that all the colours of the spectrum passed through it. What did he observe?",
+    "image": {
+      "src": "/img/c10-eye/newton-prism.svg",
+      "alt": "Two prisms, the second inverted, turning the spectrum back into a white beam"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Each colour split further into many more colours"
+      },
+      {
+        "id": "b",
+        "text": "The colours stayed separate but spread out even more"
+      },
+      {
+        "id": "c",
+        "text": "No light emerged from the second prism"
+      },
+      {
+        "id": "d",
+        "text": "A beam of white light emerged from the second prism"
+      }
+    ],
+    "answer": "d",
+    "hint": "The second prism undoes what the first one did.",
+    "explanation": "The inverted second prism **recombined** the colours, and a beam of **white light** emerged. This showed that sunlight is made up of seven colours. When Newton tried to split a single colour further with another prism, he could not get any more colours."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Dispersion of white light",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps of the activity on **dispersion of sunlight** in order.",
+    "image": {
+      "src": "/img/c10-eye/prism-dispersion.svg",
+      "alt": "Narrow beam of sunlight passing through a prism to a screen"
+    },
+    "items": [
+      {
+        "id": "turn",
+        "text": "Turn the prism slowly until the light coming out appears on a nearby screen"
+      },
+      {
+        "id": "hole",
+        "text": "Make a small hole or narrow slit in the middle of a thick sheet of cardboard"
+      },
+      {
+        "id": "band",
+        "text": "Observe a band of colours on the screen"
+      },
+      {
+        "id": "sun",
+        "text": "Let sunlight fall on the slit to get a narrow beam of white light"
+      },
+      {
+        "id": "prism",
+        "text": "Let the beam from the slit fall on one face of a glass prism"
+      }
+    ],
+    "answer": [
+      "hole",
+      "sun",
+      "prism",
+      "turn",
+      "band"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Set up the slit first and look at the screen last.",
+    "explanation": "First make the **slit** in the cardboard, let **sunlight** pass through it to get a narrow white beam, and send that beam onto a face of the **prism**. Then **turn the prism** slowly until the emerging light falls on a screen, where you see a beautiful **band of colours**, the spectrum (violet, indigo, blue, green, yellow, orange, red)."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Rainbow",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "On a rainy morning the Sun is in the east. In which direction should you look to see a rainbow?",
+    "image": {
+      "src": "/img/c10-eye/rainbow-sky.svg",
+      "alt": "A rainbow in front of an observer with the Sun behind"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "East"
+      },
+      {
+        "id": "b",
+        "text": "North"
+      },
+      {
+        "id": "c",
+        "text": "West"
+      },
+      {
+        "id": "d",
+        "text": "Straight overhead"
+      }
+    ],
+    "answer": "c",
+    "hint": "A rainbow is always formed in a direction opposite to that of the Sun.",
+    "explanation": "A rainbow is always formed **opposite to the Sun**: you must have the Sun behind you and look towards the rain. With the Sun in the east, the rainbow appears in the **west**. Looking east means looking towards the Sun, so you would see no rainbow."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Rainbow",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Sunlight enters a raindrop. Tap the place where the light is **internally reflected**.",
+    "image": {
+      "src": "/img/c10-eye/raindrop.svg",
+      "alt": "Sunlight entering a raindrop, splitting into colours, reflecting inside and leaving"
+    },
+    "spots": [
+      {
+        "id": "entry",
+        "x": 54.3,
+        "y": 18.8,
+        "label": "Entry point: refraction and dispersion"
+      },
+      {
+        "id": "back",
+        "x": 77.5,
+        "y": 32.2,
+        "label": "Back of the drop: internal reflection"
+      },
+      {
+        "id": "exit",
+        "x": 65.5,
+        "y": 67.9,
+        "label": "Exit point: second refraction"
+      },
+      {
+        "id": "sun",
+        "x": 20.0,
+        "y": 18.8,
+        "label": "Incident sunlight"
+      },
+      {
+        "id": "centre",
+        "x": 62.5,
+        "y": 41.7,
+        "label": "Water inside the drop"
+      }
+    ],
+    "answer": "back",
+    "hint": "It is the far side of the drop from where the light came in.",
+    "explanation": "The drop works like a small prism. Light is **refracted and dispersed** at the entry point, **reflected internally** at the back surface of the drop, and **refracted again** as it leaves. Because the colours leave along slightly different paths, different colours reach the observer's eye from different drops, giving the rainbow."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Rainbow",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the stages of **rainbow formation** in order.",
+    "image": {
+      "src": "/img/c10-eye/raindrop.svg",
+      "alt": "Sunlight entering a raindrop, splitting into colours, reflecting inside and leaving"
+    },
+    "items": [
+      {
+        "id": "reach",
+        "text": "Different colours reach the observer's eye"
+      },
+      {
+        "id": "out",
+        "text": "The light is refracted again as it comes out of the drop"
+      },
+      {
+        "id": "fall",
+        "text": "Sunlight falls on tiny water droplets in the air after rain"
+      },
+      {
+        "id": "irefl",
+        "text": "The colours are reflected internally at the back of the drop"
+      },
+      {
+        "id": "disp",
+        "text": "The light is refracted and dispersed into colours on entering the drop"
+      }
+    ],
+    "answer": [
+      "fall",
+      "disp",
+      "irefl",
+      "out",
+      "reach"
+    ],
+    "startLabel": "Start",
+    "endLabel": "End",
+    "hint": "Refraction, internal reflection, refraction: follow the light through one drop.",
+    "explanation": "Sunlight reaches the droplets, is **refracted and dispersed** on entering, **internally reflected** at the back, and **refracted again** on leaving. Because of dispersion and internal reflection, different colours reach the observer's eye."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Rainbow",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the correct statements about a **rainbow**.",
+    "image": {
+      "src": "/img/c10-eye/rainbow-fountain.svg",
+      "alt": "A rainbow seen in a fountain spray with the Sun behind the observer"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is caused by the dispersion of sunlight by tiny water droplets in the atmosphere"
+      },
+      {
+        "id": "b",
+        "text": "The water droplets act like small prisms"
+      },
+      {
+        "id": "c",
+        "text": "You can see one through a water fountain on a sunny day with the Sun behind you"
+      },
+      {
+        "id": "d",
+        "text": "It forms in the same direction as the Sun"
+      },
+      {
+        "id": "e",
+        "text": "Light is only refracted in a raindrop; no internal reflection takes place"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Which direction do you look, relative to the Sun?",
+    "explanation": "A rainbow is a natural spectrum caused by **dispersion** of sunlight in tiny **water droplets that act like small prisms**. You can see one in a fountain or waterfall spray when the Sun is **behind you**. It is always formed **opposite** to the Sun, and the light inside each drop is refracted, **internally reflected**, then refracted again."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Atmospheric refraction",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Objects seen through the hot air rising above a fire appear to waver. What is the reason?",
+    "image": {
+      "src": "/img/c10-eye/hot-air.svg",
+      "alt": "Light from an object wavering as it passes through the hot air above a flame"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Hot air is less dense and its refractive index keeps changing unsteadily, so the apparent position of the object keeps changing"
+      },
+      {
+        "id": "b",
+        "text": "Hot air is denser than cool air and absorbs light"
+      },
+      {
+        "id": "c",
+        "text": "Hot air has a higher refractive index than cool air, so it bends light steadily"
+      },
+      {
+        "id": "d",
+        "text": "The flame's light mixes with the light from the object"
+      }
+    ],
+    "answer": "a",
+    "hint": "This is atmospheric refraction on a small scale.",
+    "explanation": "The air just above the fire is hotter, **lighter (less dense)** and has a **slightly lower refractive index** than the cooler air above it. Because this hot air is constantly moving, the physical conditions of the refracting medium are not steady, and the **apparent position** of the object fluctuates. This is atmospheric refraction on a small scale. The twinkling of stars is the same effect on a much larger scale."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Atmospheric refraction",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "A star near the horizon is seen through the atmosphere. Tap the position where the star **appears** to be.",
+    "image": {
+      "src": "/img/c10-eye/star-apparent.svg",
+      "alt": "Starlight bending in the atmosphere so the star looks higher than it is"
+    },
+    "spots": [
+      {
+        "id": "actual",
+        "x": 40.7,
+        "y": 12.5,
+        "label": "Actual position of the star"
+      },
+      {
+        "id": "apparent",
+        "x": 56.9,
+        "y": 12.5,
+        "label": "Apparent position, slightly higher"
+      },
+      {
+        "id": "obs",
+        "x": 87.5,
+        "y": 80.0,
+        "label": "Observer"
+      },
+      {
+        "id": "atmos",
+        "x": 27.5,
+        "y": 62.5,
+        "label": "Earth's atmosphere"
+      }
+    ],
+    "answer": "apparent",
+    "hint": "Extend the last part of the ray backwards from the observer.",
+    "explanation": "The atmosphere bends starlight **towards the normal** as it passes through layers of increasing density, so the observer traces the light back along its final direction. The star therefore **appears slightly higher** than its actual position when viewed near the horizon. Since conditions in the atmosphere keep changing, this apparent position also shifts slightly."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Twinkling of stars",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that explain the **twinkling** of a star.",
+    "image": {
+      "src": "/img/c10-eye/twinkling.svg",
+      "alt": "A star as a point source whose light flickers, compared with a steady planet"
+    },
+    "items": [
+      {
+        "id": "flick",
+        "text": "The apparent position shifts and the amount of starlight entering the eye varies"
+      },
+      {
+        "id": "enter",
+        "text": "Starlight enters the Earth's atmosphere"
+      },
+      {
+        "id": "twinkle",
+        "text": "The star appears brighter at one moment and fainter at another"
+      },
+      {
+        "id": "changing",
+        "text": "The path of the rays keeps changing slightly because the atmosphere is not steady"
+      },
+      {
+        "id": "refract",
+        "text": "The light is refracted continuously in a medium of gradually changing refractive index"
+      }
+    ],
+    "answer": [
+      "enter",
+      "refract",
+      "changing",
+      "flick",
+      "twinkle"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Cause comes first: the light entering a changing atmosphere.",
+    "explanation": "Starlight enters the atmosphere and is **refracted continuously** where the refractive index changes gradually. As the atmospheric conditions are **not stationary**, the ray path changes slightly, so the star's apparent position fluctuates and the **amount of light entering the eye flickers**. Since a star is a distant point-sized source, it seems brighter and fainter by turns: it **twinkles**."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Twinkling of stars",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Stars twinkle, but planets do not. Why?",
+    "image": {
+      "src": "/img/c10-eye/twinkling.svg",
+      "alt": "A point-like star flickering beside an extended planet that shines steadily"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Planets are so close that the atmosphere does not refract their light"
+      },
+      {
+        "id": "b",
+        "text": "Planets shine by their own steady light, unlike stars"
+      },
+      {
+        "id": "c",
+        "text": "Planets are too bright for twinkling to be noticed"
+      },
+      {
+        "id": "d",
+        "text": "A planet is an extended source: the variations in light from its many point-sized parts average out to nearly zero"
+      }
+    ],
+    "answer": "d",
+    "hint": "Think about a planet as a collection of many tiny point sources.",
+    "explanation": "Planets are much closer to the Earth, so they are seen as **extended sources**. A planet can be thought of as many point-sized sources; the changes in the light from each one are in different directions, so the total variation in the light entering the eye **averages out to zero**. The atmosphere still refracts the light, planets shine by *reflected* sunlight (not their own), and brightness is not the reason."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Atmospheric refraction",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "At sunrise, atmospheric refraction raises the Sun's apparent position. Tap where the Sun **appears** to be.",
+    "image": {
+      "src": "/img/c10-eye/sunrise.svg",
+      "alt": "The Sun seen above the horizon while its actual position is just below it"
+    },
+    "spots": [
+      {
+        "id": "actual",
+        "x": 19.5,
+        "y": 81.7,
+        "label": "Actual position of the Sun, just below the horizon"
+      },
+      {
+        "id": "apparent",
+        "x": 26.2,
+        "y": 52.9,
+        "label": "Apparent position, raised by refraction"
+      },
+      {
+        "id": "obs",
+        "x": 86.2,
+        "y": 68.3,
+        "label": "Observer"
+      },
+      {
+        "id": "hor",
+        "x": 55.0,
+        "y": 74.2,
+        "label": "Horizon"
+      }
+    ],
+    "answer": "apparent",
+    "hint": "The apparent position is where the observer's eye traces the final direction of the ray back to.",
+    "explanation": "Because of atmospheric refraction the Sun is visible about **2 minutes before the actual sunrise** (when it actually crosses the horizon) and about **2 minutes after the actual sunset**. The apparent position is slightly **higher** than the actual one. The same effect makes the Sun's disc look **flattened** at sunrise and sunset."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Atmospheric refraction and scattering",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each numbered scene with the cause of the phenomenon.",
+    "image": {
+      "src": "/img/c10-eye/atmosphere-phenomena.svg",
+      "alt": "Four numbered scenes: a twinkling star, a flattened Sun at the horizon, a blue sky and a rainbow"
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "1 (a twinkling star)"
+      },
+      {
+        "id": "s2",
+        "text": "2 (flattened Sun at the horizon)"
+      },
+      {
+        "id": "s3",
+        "text": "3 (blue sky)"
+      },
+      {
+        "id": "s4",
+        "text": "4 (a rainbow)"
+      }
+    ],
+    "right": [
+      {
+        "id": "c4",
+        "text": "Dispersion and internal reflection in raindrops"
+      },
+      {
+        "id": "c2",
+        "text": "Atmospheric refraction near the horizon"
+      },
+      {
+        "id": "c3",
+        "text": "Scattering of shorter wavelengths by air molecules"
+      },
+      {
+        "id": "c1",
+        "text": "Continuously changing atmospheric refraction of starlight"
+      }
+    ],
+    "pairs": {
+      "s1": "c1",
+      "s2": "c2",
+      "s3": "c3",
+      "s4": "c4"
+    },
+    "hint": "Two of these are refraction effects, one is scattering and one is dispersion.",
+    "explanation": "The **twinkling of a star** is caused by the continuous, fluctuating atmospheric refraction of starlight. The **flattening** of the Sun at sunrise and sunset (and its early appearance) is atmospheric refraction near the horizon. The **blue sky** is due to **scattering** of the shorter blue wavelengths by air molecules, and the **rainbow** is dispersion of sunlight by water droplets, with internal reflection."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Scattering of light",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A fine beam of sunlight enters a smoke-filled room through a small hole, and its path becomes visible. What is the reason?",
+    "image": {
+      "src": "/img/c10-eye/tyndall.svg",
+      "alt": "A narrow sunbeam entering a smoke-filled room and lit up by the particles"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The fine smoke particles scatter the light, which reaches our eyes (Tyndall effect)"
+      },
+      {
+        "id": "b",
+        "text": "The smoke particles absorb the light and glow by themselves"
+      },
+      {
+        "id": "c",
+        "text": "The smoke makes the light travel faster along its path"
+      },
+      {
+        "id": "d",
+        "text": "The light is reflected back by the walls of the room"
+      }
+    ],
+    "answer": "a",
+    "hint": "The path of light through a true solution is not visible, but it is through a colloid.",
+    "explanation": "Smoke, dust and tiny water droplets are fine **colloidal particles**. They **scatter** (diffusely reflect) some of the light towards our eyes, so the path of the beam becomes visible. This is the **Tyndall effect**. It is also seen when sunlight passes through the mist in a dense forest. The particles do not make their own light, and scattering does not change the speed of light."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Scattering of light",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Why does the clear sky appear blue?",
+    "image": {
+      "src": "/img/c10-eye/sky-scatter.svg",
+      "alt": "White sunlight in the atmosphere: blue is scattered strongly while red passes through"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The sky reflects the blue colour of the sea"
+      },
+      {
+        "id": "b",
+        "text": "Air molecules and other fine particles, smaller than the wavelength of light, scatter blue (shorter wavelengths) more strongly than red"
+      },
+      {
+        "id": "c",
+        "text": "Fine particles scatter red light more strongly than blue light"
+      },
+      {
+        "id": "d",
+        "text": "The Sun emits only blue light"
+      }
+    ],
+    "answer": "b",
+    "hint": "Red light has a wavelength about 1.8 times that of blue light.",
+    "explanation": "The molecules of air and other fine particles are **smaller than the wavelength of visible light**, so they are more effective at scattering **shorter wavelengths** (the blue end) than longer ones. The red wavelength is about **1.8 times** that of blue, so blue is scattered more strongly and the scattered blue light enters our eyes. The Sun emits all colours, and the sea does not colour the sky."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Scattering of light",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-eye/astronaut-sky.svg",
+      "alt": "A blue sky seen from the ground and a dark sky seen by an astronaut above the atmosphere"
+    },
+    "assertion": "An astronaut in space sees the sky as dark instead of blue.",
+    "reason": "At very high altitudes scattering of sunlight is not prominent because there is very little atmosphere.",
+    "answer": "a",
+    "hint": "Without scattering by air, no coloured light is sent towards the observer's eyes.",
+    "explanation": "Both are true and R explains A. The blue colour of the sky comes from **scattering** of sunlight by the molecules in the atmosphere. If the Earth had no atmosphere there would be no scattering and the sky would look **dark**. At very high altitudes scattering is not prominent, so the sky appears dark to the astronaut."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Scattering of light",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with what happens to the light.",
+    "image": {
+      "src": "/img/c10-eye/scatter-size.svg",
+      "alt": "Particles of three sizes scattering white light into different colours"
+    },
+    "left": [
+      {
+        "id": "fine",
+        "text": "Very fine particles (like air molecules)"
+      },
+      {
+        "id": "larger",
+        "text": "Particles of larger size"
+      },
+      {
+        "id": "large",
+        "text": "Particles large enough"
+      },
+      {
+        "id": "signal",
+        "text": "Fog or smoke and a danger signal light"
+      }
+    ],
+    "right": [
+      {
+        "id": "m3",
+        "text": "The scattered light may appear white"
+      },
+      {
+        "id": "m1",
+        "text": "Mainly blue light is scattered"
+      },
+      {
+        "id": "m4",
+        "text": "Red is least scattered, so the signal is seen from far away"
+      },
+      {
+        "id": "m2",
+        "text": "Light of longer wavelengths is scattered"
+      }
+    ],
+    "pairs": {
+      "fine": "m1",
+      "larger": "m2",
+      "large": "m3",
+      "signal": "m4"
+    },
+    "hint": "The bigger the particle, the longer the wavelengths it scatters.",
+    "explanation": "The colour of scattered light depends on the **size of the scattering particles**: very fine particles scatter mainly **blue** light, larger ones scatter light of **longer wavelengths**, and if the particles are large enough the scattered light may even appear **white**. 'Danger' signal lights are **red** because red is **least scattered** by fog or smoke, so it can be seen in the same colour at a distance."
+  },
+  {
+    "id": "in-cbse-10-phy-eye-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "chapterNo": 2,
+    "topic": "Key values",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quantity with its value.",
+    "image": {
+      "src": "/img/c10-eye/wavelength-compare.svg",
+      "alt": "A shorter blue wave and a longer red wave"
+    },
+    "left": [
+      {
+        "id": "diam",
+        "text": "Diameter of the eyeball"
+      },
+      {
+        "id": "near",
+        "text": "Near point of a young adult with normal vision"
+      },
+      {
+        "id": "far",
+        "text": "Far point of a normal eye"
+      },
+      {
+        "id": "wave",
+        "text": "Wavelength of red light compared with blue light"
+      },
+      {
+        "id": "sun",
+        "text": "Time by which the Sun is seen before the actual sunrise"
+      }
+    ],
+    "right": [
+      {
+        "id": "v4",
+        "text": "About 1.8 times greater"
+      },
+      {
+        "id": "v1",
+        "text": "About 2.3 cm"
+      },
+      {
+        "id": "v5",
+        "text": "About 2 minutes"
+      },
+      {
+        "id": "v3",
+        "text": "Infinity"
+      },
+      {
+        "id": "v2",
+        "text": "About 25 cm"
+      }
+    ],
+    "pairs": {
+      "diam": "v1",
+      "near": "v2",
+      "far": "v3",
+      "wave": "v4",
+      "sun": "v5"
+    },
+    "hint": "These are all numbers quoted in the chapter.",
+    "explanation": "The eyeball is roughly spherical with a diameter of about **2.3 cm**. The near point of a young adult is about **25 cm** and the far point of a normal eye is **infinity**. The wavelength of red light is about **1.8 times** that of blue light, which is why blue is scattered more. Atmospheric refraction lets us see the Sun about **2 minutes** before the actual sunrise."
+  }
+]

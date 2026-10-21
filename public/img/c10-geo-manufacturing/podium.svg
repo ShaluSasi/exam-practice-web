@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A podium with sugarcane, a sack and a jute bale</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-34px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.35}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#F2F7FF"/><rect y="190" width="400" height="50" fill="#EADBC0"/><g transform="translate(200 160) scale(1.6)"><g><rect x="-48" y="0" width="32" height="26" fill="#E3F2FD" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="-16" y="-14" width="32" height="40" fill="#FFD27A" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="16" y="8" width="32" height="18" fill="#FDE7EF" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><g transform="translate(149 140) scale(0.7)"><g><path d="M-10 26V-24" stroke="#8BC34A" stroke-width="7" stroke-linecap="round"/><path d="M-10 -10L4 -22M-10 0L-24 -12" stroke="#3FA34D" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M0 26V-24" stroke="#8BC34A" stroke-width="7" stroke-linecap="round"/><path d="M0 -10L14 -22M0 0L-14 -12" stroke="#3FA34D" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M10 26V-24" stroke="#8BC34A" stroke-width="7" stroke-linecap="round"/><path d="M10 -10L24 -22M10 0L-4 -12" stroke="#3FA34D" stroke-width="3" fill="none" stroke-linecap="round"/></g></g><g transform="translate(200 118) scale(0.7)"><g><path d="M-16 -18Q0 -26 16 -18L20 24H-20Z" fill="#FFF3D0" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-10 -2H10M-10 8H10" stroke="#FF8A1F" stroke-width="3"/></g></g><g transform="translate(251 158) scale(0.7)"><g><rect x="-22" y="-14" width="44" height="34" rx="4" fill="#D8B979" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-22 -2H22M-22 10H22M-8 -14V20M8 -14V20" stroke="#8B5A2B" stroke-width="2.5"/></g></g><text x="133" y="220" font-size="14" text-anchor="middle">2</text><text x="200" y="220" font-size="14" text-anchor="middle">1</text><text x="267" y="220" font-size="14" text-anchor="middle">3</text></svg>

@@ -1,0 +1,2273 @@
+[
+  {
+    "id": "in-cbse-10-eng-mandela-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the swearing-in",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Mr de Klerk, Thabo Mbeki and then Mandela took their oaths on the **podium** in the sandstone amphitheatre. Tap the podium.",
+    "image": {
+      "src": "/img/c10-en-mandela/union.svg",
+      "alt": "An open sandstone amphitheatre with tiers of seats, a podium and a crowd of silhouettes"
+    },
+    "spots": [
+      {
+        "id": "podium",
+        "x": 50.0,
+        "y": 83.33,
+        "label": "Podium"
+      },
+      {
+        "id": "seats",
+        "x": 27.5,
+        "y": 65.83,
+        "label": "Tiered seats"
+      },
+      {
+        "id": "building",
+        "x": 63.75,
+        "y": 40.83,
+        "label": "Sandstone building"
+      },
+      {
+        "id": "sun",
+        "x": 15.0,
+        "y": 16.67,
+        "label": "Sun"
+      },
+      {
+        "id": "tree",
+        "x": 91.25,
+        "y": 61.67,
+        "label": "Tree"
+      }
+    ],
+    "answer": "podium",
+    "hint": "It is the raised stand from which a speaker addresses the crowd.",
+    "explanation": "The **podium** is the stand at the front where the oaths were taken and where Mandela addressed the guests. The seats hold the crowd, the building behind is the Union Buildings backdrop, and the sun and tree are scenery."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: an autumn day in May",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela calls 10 May \"that lovely autumn day\", yet in India May is the middle of summer. Why was it autumn in Pretoria?",
+    "image": {
+      "src": "/img/c10-en-mandela/sunrise.svg",
+      "alt": "A bright morning with the sun rising behind a sandstone building and an autumn tree shedding orange leaves"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Autumn lasts the whole year in South Africa"
+      },
+      {
+        "id": "b",
+        "text": "Pretoria stands on a very high, cold mountain top"
+      },
+      {
+        "id": "c",
+        "text": "South Africa lies in the southern hemisphere, where the seasons are the opposite of those in the north"
+      },
+      {
+        "id": "d",
+        "text": "Mandela is describing the autumn of his own life, not the weather"
+      }
+    ],
+    "answer": "c",
+    "hint": "Think about which half of the Earth South Africa is in.",
+    "explanation": "South Africa is in the **southern hemisphere**, so its seasons run opposite to India's: May is autumn there. The other options invent a climate fact or read the line as a metaphor, which the text does not suggest; he is describing a bright, clear morning."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the oath-taking",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the events of the swearing-in ceremony in the order they happened.",
+    "image": {
+      "src": "/img/c10-en-mandela/oath.svg",
+      "alt": "An anonymous figure with a raised hand at a podium taking an oath while two others wait their turn"
+    },
+    "items": [
+      {
+        "id": "s2",
+        "text": "Mandela pledges to obey and uphold the Constitution"
+      },
+      {
+        "id": "s0",
+        "text": "Mr de Klerk is sworn in as second deputy president"
+      },
+      {
+        "id": "s3",
+        "text": "Mandela addresses the guests and the watching world"
+      },
+      {
+        "id": "s1",
+        "text": "Thabo Mbeki is sworn in as first deputy president"
+      }
+    ],
+    "answer": [
+      "s0",
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "The deputy presidents were sworn in before it was Mandela's turn.",
+    "explanation": "De Klerk was sworn in **first** (as second deputy president), then Thabo Mbeki (first deputy president). When it was Mandela's turn he took the pledge, and only then spoke to the assembled guests and the watching world."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: \"an extraordinary human disaster\"",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In his speech Mandela says that \"out of the experience of an extraordinary human disaster\" a society must be born of which all humanity will be proud. What is the \"disaster\"?",
+    "image": {
+      "src": "/img/c10-en-mandela/speechglow.svg",
+      "alt": "A podium in front of a glowing sun with a young green sapling, a symbol of newborn liberty and hope"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The long period of racial oppression under apartheid"
+      },
+      {
+        "id": "b",
+        "text": "A famine that struck South Africa for many years"
+      },
+      {
+        "id": "c",
+        "text": "The Anglo-Boer war alone"
+      },
+      {
+        "id": "d",
+        "text": "His own thirty years in prison"
+      }
+    ],
+    "answer": "a",
+    "hint": "He says the disaster \"lasted too long\" and a new society must replace it.",
+    "explanation": "The \"extraordinary human disaster\" is the long years of **apartheid and racial oppression**. The Anglo-Boer war is mentioned later only as the time before the system was built; prison was one man's suffering, not a disaster for a whole society; and no famine is mentioned."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: ideals for the future",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which **THREE** ideals does Mandela set out for the future of South Africa in his speech?",
+    "image": {
+      "src": "/img/c10-en-mandela/ideals.svg",
+      "alt": "Three pictures: a broken chain, two equal figures and a rising sun, standing for the ideals in the speech"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To build a strong army so that the state can control its citizens"
+      },
+      {
+        "id": "b",
+        "text": "To free all people from the bondage of poverty, deprivation, suffering and discrimination"
+      },
+      {
+        "id": "c",
+        "text": "To keep other nations from visiting South Africa again"
+      },
+      {
+        "id": "d",
+        "text": "To make sure the land never again experiences the oppression of one by another"
+      },
+      {
+        "id": "e",
+        "text": "To let freedom reign"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Look at the \"We pledge ourselves...\" and \"Never, never, and never again...\" lines.",
+    "explanation": "He pledges to **liberate all people** from poverty, deprivation, suffering, gender and other discrimination, promises that oppression of one by another will **never happen again**, and ends with \"Let freedom reign\". Nothing in the speech asks for a strong army or for shutting the country to foreign visitors; he has just thanked them."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the air display",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "After the oath, a \"spectacular array\" of aircraft roared over the Union Buildings. Tap the **chevron** (V-shape) of jets that left a smoke trail.",
+    "image": {
+      "src": "/img/c10-en-mandela/airshow.svg",
+      "alt": "A V-shaped formation of jets with smoke trails, a helicopter and a large transport plane above a building"
+    },
+    "spots": [
+      {
+        "id": "jets",
+        "x": 50.0,
+        "y": 34.17,
+        "label": "V-shaped jet formation"
+      },
+      {
+        "id": "helicopter",
+        "x": 22.5,
+        "y": 62.5,
+        "label": "Helicopter"
+      },
+      {
+        "id": "carrier",
+        "x": 80.0,
+        "y": 66.67,
+        "label": "Transport plane"
+      },
+      {
+        "id": "building",
+        "x": 50.0,
+        "y": 85.42,
+        "label": "Sandstone building"
+      },
+      {
+        "id": "cloud",
+        "x": 83.75,
+        "y": 20.0,
+        "label": "Cloud"
+      }
+    ],
+    "answer": "jets",
+    "hint": "A chevron looks like the letter V.",
+    "explanation": "The five jets flying in a **V formation** with trails behind them are the chevron. The helicopter and the large transport plane are other parts of the display; the building and cloud are background."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the military's loyalty",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela says the air display was \"not only a display of pinpoint precision and military force\". What else was it?",
+    "image": {
+      "src": "/img/c10-en-mandela/loyalty.svg",
+      "alt": "Anonymous uniformed officers with medals saluting while jets fly overhead"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A warning to neighbouring countries not to attack"
+      },
+      {
+        "id": "b",
+        "text": "A demonstration of the military's loyalty to democracy and to a freely and fairly elected government"
+      },
+      {
+        "id": "c",
+        "text": "A farewell salute to the outgoing white government"
+      },
+      {
+        "id": "d",
+        "text": "A celebration of the end of the Anglo-Boer war"
+      }
+    ],
+    "answer": "b",
+    "hint": "Read the rest of the sentence after \"but\".",
+    "explanation": "The display was \"a demonstration of the military's **loyalty to democracy**, to a new government that had been freely and fairly elected\". The generals had also saluted and pledged loyalty. Nothing links the display to neighbours, a farewell or the Anglo-Boer war."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the two anthems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Why does Mandela say the day was \"symbolised\" by the playing of two national anthems?",
+    "image": {
+      "src": "/img/c10-en-mandela/anthems.svg",
+      "alt": "Two groups of anonymous singers with music notes rising, standing either side of a stage"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The new government had not yet chosen a national anthem"
+      },
+      {
+        "id": "b",
+        "text": "Whites and blacks each sang an anthem they had once despised, showing the nation coming together"
+      },
+      {
+        "id": "c",
+        "text": "Guests from abroad had asked for their own anthems"
+      },
+      {
+        "id": "d",
+        "text": "Only the old anthem was still allowed by law"
+      }
+    ],
+    "answer": "b",
+    "hint": "Think about who sang \"Nkosi Sikelel' iAfrika\" and who sang \"Die Stem\".",
+    "explanation": "Whites sang \"Nkosi Sikelel' iAfrika\" and blacks sang \"Die Stem\", the old anthem of the Republic; neither group knew the words of the anthem it \"once despised\", but they would soon know them by heart. This is why the two anthems **symbolise unity**. The other reasons are not in the text."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the two anthems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-en-mandela/anthem-swap.svg",
+      "alt": "Two groups of singers with arrows swinging between them showing each group singing the other group song"
+    },
+    "assertion": "Mandela says the day was symbolised for him by the playing of two national anthems.",
+    "reason": "Whites sang \"Nkosi Sikelel' iAfrika\" and blacks sang \"Die Stem\", although neither group yet knew the words of the anthem it once despised.",
+    "answer": "a",
+    "hint": "Does the picture of whites and blacks singing the other's anthem explain why the day was a symbol?",
+    "explanation": "Both statements are true, and R explains A: the sight of each group singing the anthem it once **despised** is what made the day a symbol of reconciliation. It is not just two songs being played; it is who sang which one."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the sweep of history",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these events from Mandela's account of history in the order in which they happened.",
+    "image": {
+      "src": "/img/c10-en-mandela/timeline.svg",
+      "alt": "A timeline arrow from the early 1900s to the 1990s showing a wall built, a birth and the wall gone"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "The system is overturned and replaced by one that recognises the rights of all"
+      },
+      {
+        "id": "s0",
+        "text": "The bitter Anglo-Boer war is fought"
+      },
+      {
+        "id": "s4",
+        "text": "Mandela takes office on inauguration day"
+      },
+      {
+        "id": "s2",
+        "text": "Mandela is born"
+      },
+      {
+        "id": "s1",
+        "text": "White-skinned peoples patch up their differences and build a system of racial domination"
+      }
+    ],
+    "answer": [
+      "s0",
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "Earliest",
+    "endLabel": "Latest",
+    "hint": "The war came \"a few years\" before the system was built, and before his own birth.",
+    "explanation": "In the first decade of the twentieth century, a few years after the **Anglo-Boer war** and before Mandela's birth, whites patched up their differences and built the system of racial domination. Mandela was born afterwards. In the last decade of the century the system was overturned, which led to the inauguration."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: \"the sum of all those African patriots\"",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela says he was \"simply the sum of all those African patriots who had gone before me\". What does he mean?",
+    "image": {
+      "src": "/img/c10-en-mandela/sum.svg",
+      "alt": "A large human outline made up of many small figures, showing one person as the sum of many"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "He had counted all the patriots who had died"
+      },
+      {
+        "id": "b",
+        "text": "He considered himself richer and wiser than the other patriots"
+      },
+      {
+        "id": "c",
+        "text": "He alone deserved the credit for the victory"
+      },
+      {
+        "id": "d",
+        "text": "His achievement was made possible by the sacrifices of those before him, and he carried their struggle forward"
+      }
+    ],
+    "answer": "d",
+    "hint": "Think of \"that long and noble line ended and now began again with me\".",
+    "explanation": "He sees himself as the **total of all their efforts**: the \"long and noble line\" of patriots ended with their sacrifice and \"now began again\" with him. He denies being special, so credit for himself alone is wrong, and \"sum\" does not mean counting heads or wealth."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the \"unintended effect\" of oppression",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "According to Mandela, what \"unintended effect\" did the decades of oppression and brutality have?",
+    "image": {
+      "src": "/img/c10-en-mandela/heights.svg",
+      "alt": "A deep pit with a figure at the bottom and a tall tower with a figure on top joined by an arrow"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "They produced leaders such as Oliver Tambo and Walter Sisulu, men of extraordinary courage, wisdom and generosity"
+      },
+      {
+        "id": "b",
+        "text": "They made the people forget their traditions"
+      },
+      {
+        "id": "c",
+        "text": "They made the white rulers more generous"
+      },
+      {
+        "id": "d",
+        "text": "They made the freedom fighters give up their struggle"
+      }
+    ],
+    "answer": "a",
+    "hint": "The word \"unintended\" means the oppressors did not plan this result.",
+    "explanation": "Oppression, meant to crush people, instead **produced great leaders**: \"it requires such depths of oppression to create such heights of character\". The other options describe effects the text never mentions, and the opposite of what he says happened."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the nation's wealth",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Mandela says his country is rich in minerals and gems, but its greatest wealth is \"finer and truer than the purest diamonds\". Tap that greatest wealth.",
+    "image": {
+      "src": "/img/c10-en-mandela/wealth.svg",
+      "alt": "People standing on green ground above soil that holds a diamond, a gold nugget and a rock"
+    },
+    "spots": [
+      {
+        "id": "people",
+        "x": 50.0,
+        "y": 25.83,
+        "label": "People"
+      },
+      {
+        "id": "diamond",
+        "x": 80.0,
+        "y": 70.0,
+        "label": "Diamond"
+      },
+      {
+        "id": "nugget",
+        "x": 20.0,
+        "y": 79.17,
+        "label": "Gold nugget"
+      },
+      {
+        "id": "rock",
+        "x": 49.5,
+        "y": 85.42,
+        "label": "Rock"
+      },
+      {
+        "id": "sun",
+        "x": 88.75,
+        "y": 14.58,
+        "label": "Sun"
+      }
+    ],
+    "answer": "people",
+    "hint": "It is not found under the soil.",
+    "explanation": "The greatest wealth of South Africa is its **people**, standing on the ground above. The diamond, gold nugget and rock are the minerals and gems beneath the soil that he rates lower; the sun is just scenery."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the meaning of courage",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Mandela writes: \"I learned that courage was not the absence of fear, but the triumph over it.\" What does courage mean to him?",
+    "image": {
+      "src": "/img/c10-en-mandela/courage.svg",
+      "alt": "A small figure stepping forward towards a huge dark shadow with eyes, showing courage in the face of fear"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Never feeling afraid of anything"
+      },
+      {
+        "id": "b",
+        "text": "Winning every fight against the guards"
+      },
+      {
+        "id": "c",
+        "text": "Conquering your fear and acting in spite of it"
+      },
+      {
+        "id": "d",
+        "text": "Hiding your fear from your comrades"
+      }
+    ],
+    "answer": "c",
+    "hint": "The sentence says what courage is NOT, then what it is.",
+    "explanation": "To Mandela, the brave man \"is not he who does not feel afraid, but he who **conquers that fear**\". Feeling no fear, winning fights and hiding fear are not what he describes."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: love and hate",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which **THREE** statements agree with what Mandela says about hatred and love?",
+    "image": {
+      "src": "/img/c10-en-mandela/learn.svg",
+      "alt": "A child standing between two signposts, hate and love, with a glowing heart on the love side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Hatred comes more naturally to the human heart than love"
+      },
+      {
+        "id": "b",
+        "text": "No one is born hating another person because of skin colour, background or religion"
+      },
+      {
+        "id": "c",
+        "text": "Hatred disappears by itself as people grow older"
+      },
+      {
+        "id": "d",
+        "text": "People must learn to hate"
+      },
+      {
+        "id": "e",
+        "text": "If people can learn to hate, they can be taught to love"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "He says love comes \"more naturally to the human heart than its opposite\".",
+    "explanation": "Mandela says nobody is born hating, hate has to be **learned**, and what can be learned can be replaced by love, which is actually more natural to the human heart. He says the opposite of \"hatred is more natural\", and he never says hatred vanishes by itself."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: a glimmer of humanity",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Even in prison, Mandela says, \"man's goodness is a flame that can be hidden but never extinguished.\" Tap the **flame** in the cell.",
+    "image": {
+      "src": "/img/c10-en-mandela/cell.svg",
+      "alt": "A prison cell at night: a prisoner on a bed, a candle on a table, a barred window and a guard"
+    },
+    "spots": [
+      {
+        "id": "flame",
+        "x": 50.0,
+        "y": 58.33,
+        "label": "Candle flame"
+      },
+      {
+        "id": "prisoner",
+        "x": 18.75,
+        "y": 62.5,
+        "label": "Prisoner"
+      },
+      {
+        "id": "bars",
+        "x": 80.0,
+        "y": 35.42,
+        "label": "Barred window"
+      },
+      {
+        "id": "guard",
+        "x": 85.0,
+        "y": 79.17,
+        "label": "Guard"
+      },
+      {
+        "id": "table",
+        "x": 50.0,
+        "y": 85.42,
+        "label": "Table"
+      }
+    ],
+    "answer": "flame",
+    "hint": "It is the small light on the table.",
+    "explanation": "The **candle flame** stands for the goodness that can be hidden, as in a dark cell, but never put out. The bars, guard, prisoner and table are the setting, not the symbol."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: twin obligations",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "What are the \"twin obligations\" that Mandela says every man has?",
+    "image": {
+      "src": "/img/c10-en-mandela/twin.svg",
+      "alt": "A balance scale with a family home on one side and a crowd of people on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "To his teachers and to his employer"
+      },
+      {
+        "id": "b",
+        "text": "To his religion and to his government"
+      },
+      {
+        "id": "c",
+        "text": "To his friends and to his enemies"
+      },
+      {
+        "id": "d",
+        "text": "To his family and to his people, community and country"
+      }
+    ],
+    "answer": "d",
+    "hint": "The first obligation is to those closest to him at home.",
+    "explanation": "Every man has an obligation \"to his family, to his parents, to his wife and children\" and one \"to his people, his community, his country\". The other pairs are not mentioned."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: a twilight existence",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Why was it almost impossible in South Africa for \"a man of my birth and colour\" to fulfil both his obligations?",
+    "image": {
+      "src": "/img/c10-en-mandela/twilight.svg",
+      "alt": "A lone dark figure walking at dusk away from a small home with a lit window"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A man who lived as a human being was punished, and a man who served his people was torn from his family into a life of secrecy"
+      },
+      {
+        "id": "b",
+        "text": "His family refused to let him do any political work"
+      },
+      {
+        "id": "c",
+        "text": "The law forbade him to marry or have children"
+      },
+      {
+        "id": "d",
+        "text": "He freely chose his work over his family from the start"
+      }
+    ],
+    "answer": "a",
+    "hint": "The text says he did not \"in the beginning choose\" his people over his family.",
+    "explanation": "Under apartheid a man of colour who tried to live as a human being was \"punished and isolated\", and one who served his people was \"ripped from his family and his home\" into \"a **twilight existence** of secrecy and rebellion\". He says he did NOT choose that at first; it was forced."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: a free boyhood",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "As a boy Mandela was \"free to roast **mealies** under the stars\". Tap the fire where mealies (corn cobs) are roasting.",
+    "image": {
+      "src": "/img/c10-en-mandela/boyhood.svg",
+      "alt": "A village scene at night: a hut, a stream, a bull, a fire roasting corn and stars"
+    },
+    "spots": [
+      {
+        "id": "hut",
+        "x": 17.5,
+        "y": 56.25,
+        "label": "Hut"
+      },
+      {
+        "id": "stars",
+        "x": 52.5,
+        "y": 15.83,
+        "label": "Stars"
+      },
+      {
+        "id": "fire",
+        "x": 51.25,
+        "y": 62.5,
+        "label": "Fire roasting corn"
+      },
+      {
+        "id": "bull",
+        "x": 79.5,
+        "y": 66.67,
+        "label": "Bull"
+      },
+      {
+        "id": "stream",
+        "x": 22.5,
+        "y": 92.5,
+        "label": "Stream"
+      }
+    ],
+    "answer": "fire",
+    "hint": "Mealies are corn cobs; they need heat.",
+    "explanation": "The **fire** with corn cobs beside it shows the roasting of mealies. The hut, bull, stream and stars are other pleasures of his boyhood, but not where mealies are cooked."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: freedom as an \"illusion\"",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Mandela calls his boyhood freedom \"an illusion\". Why?",
+    "image": {
+      "src": "/img/c10-en-mandela/illusion.svg",
+      "alt": "A child running happily in a field, with a faint dotted chain secretly tying the child to a post"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "His father punished him whenever he swam in the stream"
+      },
+      {
+        "id": "b",
+        "text": "As a young man he discovered that his freedom had already been taken from him; it only seemed real as long as he obeyed his father and the tribe's customs"
+      },
+      {
+        "id": "c",
+        "text": "He was sent to prison as a boy"
+      },
+      {
+        "id": "d",
+        "text": "He could remember nothing of his childhood"
+      }
+    ],
+    "answer": "b",
+    "hint": "An illusion is something that appears real but is not.",
+    "explanation": "He felt free only because he obeyed his father and the customs of his tribe and was not troubled by laws. Then he learned that his freedom \"had already been taken\" from him, so it was an **illusion**. The other options contradict the happy picture he paints."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: how his idea of freedom grew",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each stage of Mandela's life with what freedom meant to him then.",
+    "image": {
+      "src": "/img/c10-en-mandela/stairs.svg",
+      "alt": "Four steps rising like a staircase: a child, a book, a briefcase and a crowd, standing for growing ideas of freedom"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "As a boy near his mother's hut"
+      },
+      {
+        "id": "l1",
+        "text": "As a student"
+      },
+      {
+        "id": "l2",
+        "text": "As a young man in Johannesburg"
+      },
+      {
+        "id": "l3",
+        "text": "After joining the African National Congress"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "Achieving his potential, earning his keep, marrying and having a family"
+      },
+      {
+        "id": "r3",
+        "text": "The freedom of his people to live with dignity and self-respect"
+      },
+      {
+        "id": "r0",
+        "text": "Running in the fields, swimming in the stream, roasting mealies"
+      },
+      {
+        "id": "r1",
+        "text": "Staying out at night, reading what he pleased and going where he chose"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3"
+    },
+    "hint": "His wants grow from \"only for myself\" to \"the freedom of my people\".",
+    "explanation": "As a boy he had simple freedoms; as a student \"transitory\" ones for himself; in Johannesburg the \"basic and honourable\" freedoms; and once he saw that others were not free, his hunger became **the freedom of his whole people**."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: \"freedom is indivisible\"",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela says, \"Freedom is indivisible; the chains on anyone of my people were the chains on all of them.\" What does this mean?",
+    "image": {
+      "src": "/img/c10-en-mandela/chains.svg",
+      "alt": "Five anonymous figures linked in a line by a single chain"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Freedom can be shared out equally in parts"
+      },
+      {
+        "id": "b",
+        "text": "Only chained prisoners can understand freedom"
+      },
+      {
+        "id": "c",
+        "text": "No one is truly free while others remain unfree"
+      },
+      {
+        "id": "d",
+        "text": "Each person must win his own freedom alone"
+      }
+    ],
+    "answer": "c",
+    "hint": "\"Indivisible\" means cannot be divided.",
+    "explanation": "If freedom cannot be divided, one person's lack of freedom affects everyone: \"the chains on all of my people were the chains on me\". So he could not enjoy his own small freedoms while his people were not free. Splitting, prisoners-only and going-alone all contradict this."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Reading: the oppressor must be freed too",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-en-mandela/hatred-bars.svg",
+      "alt": "A figure behind bars holding a chain that is tied to another figure outside, so both are held"
+    },
+    "assertion": "Mandela says the oppressor must be liberated just as surely as the oppressed.",
+    "reason": "A man who takes away another man's freedom is a prisoner of hatred, locked behind the bars of prejudice and narrow-mindedness.",
+    "answer": "a",
+    "hint": "Can someone ruled by hatred really be free?",
+    "explanation": "Both are true and R explains A: the oppressor is himself **imprisoned by hatred and prejudice**, so he too needs freeing. \"The oppressed and the oppressor alike are robbed of their humanity.\""
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: words from the speech",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each word from the chapter with its meaning.",
+    "image": {
+      "src": "/img/c10-en-mandela/vocab-cards.svg",
+      "alt": "Five picture cards: people surrounding someone, a broken chain, an empty bowl, a line cut short and a blindfolded face"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "besieged"
+      },
+      {
+        "id": "l1",
+        "text": "emancipation"
+      },
+      {
+        "id": "l2",
+        "text": "deprivation"
+      },
+      {
+        "id": "l3",
+        "text": "curtailed"
+      },
+      {
+        "id": "l4",
+        "text": "prejudice"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "the state of not having one's rightful benefits"
+      },
+      {
+        "id": "r3",
+        "text": "reduced"
+      },
+      {
+        "id": "r4",
+        "text": "a strong dislike without a good reason"
+      },
+      {
+        "id": "r0",
+        "text": "surrounded closely"
+      },
+      {
+        "id": "r1",
+        "text": "freedom from restriction"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Look back at the glossary notes beside the text.",
+    "explanation": "**Besieged** = surrounded closely; **emancipation** = freedom from restriction; **deprivation** = not having what one has a right to; **curtailed** = reduced; **prejudice** = strong dislike without good reason."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: chevron",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A \"**chevron** of Impala jets\" left a smoke trail over the Union Buildings. Which picture shows a chevron?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jets flying in a circle",
+        "image": {
+          "src": "/img/c10-en-mandela/chev-circle.svg",
+          "alt": "Six jets flying in a circle"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Jets flying in a straight line",
+        "image": {
+          "src": "/img/c10-en-mandela/chev-line.svg",
+          "alt": "Five jets flying side by side in a straight line"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Jets flying in a V shape",
+        "image": {
+          "src": "/img/c10-en-mandela/chev-v.svg",
+          "alt": "Five jets flying in a V-shaped formation"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Jets flying in a zigzag",
+        "image": {
+          "src": "/img/c10-en-mandela/chev-zig.svg",
+          "alt": "Five jets flying in a zigzag"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "A chevron is the shape of the letter V.",
+    "explanation": "A **chevron** is a V-shaped pattern, as the glossary says. A circle, a straight line and a zigzag are different formations."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: besieged",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela was \"pleasantly **besieged** by dignitaries and world leaders\". Which picture best shows someone who is besieged?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A person closely surrounded on every side",
+        "image": {
+          "src": "/img/c10-en-mandela/bes-ring.svg",
+          "alt": "A person closely surrounded on every side by a ring of people"
+        }
+      },
+      {
+        "id": "b",
+        "text": "A person alone with empty space around",
+        "image": {
+          "src": "/img/c10-en-mandela/bes-alone.svg",
+          "alt": "A lone person with empty space around"
+        }
+      },
+      {
+        "id": "c",
+        "text": "A person waving to a crowd far away",
+        "image": {
+          "src": "/img/c10-en-mandela/bes-wave.svg",
+          "alt": "A person waving at a small crowd far away"
+        }
+      },
+      {
+        "id": "d",
+        "text": "A person standing in a queue",
+        "image": {
+          "src": "/img/c10-en-mandela/bes-queue.svg",
+          "alt": "A queue of people standing in a line"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "To be besieged is to be surrounded closely.",
+    "explanation": "**Besieged** means \"surrounded closely\". Only the ring of people pressing in on all sides shows this; being alone, waving at a distance or queueing is not being surrounded."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: resilience",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela saw men stand up to attacks, \"showing a strength and **resilience** that defies the imagination\". Which picture shows resilience?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A glass that cracks under pressure",
+        "image": {
+          "src": "/img/c10-en-mandela/res-glass.svg",
+          "alt": "A cracked glass"
+        }
+      },
+      {
+        "id": "b",
+        "text": "A paper that tears",
+        "image": {
+          "src": "/img/c10-en-mandela/res-paper.svg",
+          "alt": "A torn sheet of paper"
+        }
+      },
+      {
+        "id": "c",
+        "text": "An ice cube that melts",
+        "image": {
+          "src": "/img/c10-en-mandela/res-ice.svg",
+          "alt": "An ice cube melting into a puddle"
+        }
+      },
+      {
+        "id": "d",
+        "text": "A spring that is pressed down and springs back",
+        "image": {
+          "src": "/img/c10-en-mandela/res-spring.svg",
+          "alt": "A spring that is pressed down and springs back up"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Resilience is the ability to recover from hardship.",
+    "explanation": "**Resilience** is the ability to deal with hardship and recover from it. A spring returns to its shape after being pressed; the glass, paper and ice are all permanently damaged or changed."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: amphitheatre",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The ceremony took place in a sandstone **amphitheatre**. Which picture shows an amphitheatre?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A closed hall with a roof",
+        "image": {
+          "src": "/img/c10-en-mandela/amph-hall.svg",
+          "alt": "A closed hall with a roof"
+        }
+      },
+      {
+        "id": "b",
+        "text": "A roofless arena with rows of seats rising in steps",
+        "image": {
+          "src": "/img/c10-en-mandela/amph-open.svg",
+          "alt": "A roofless arena with curved rows of seats rising in steps"
+        }
+      },
+      {
+        "id": "c",
+        "text": "A tall narrow tower",
+        "image": {
+          "src": "/img/c10-en-mandela/amph-tower.svg",
+          "alt": "A tall narrow tower"
+        }
+      },
+      {
+        "id": "d",
+        "text": "A flat stage with a curtain",
+        "image": {
+          "src": "/img/c10-en-mandela/amph-stage.svg",
+          "alt": "A flat stage with a red curtain"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "The glossary says it has no roof and many rows of seats rising in steps.",
+    "explanation": "An **amphitheatre** is \"a building without a roof, with many rows of seats rising in steps\". A hall has a roof, a tower has no seats and a flat stage has no rising rows."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: curtailed",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Mandela says \"it was not just my freedom that was **curtailed**\". Which picture shows something being curtailed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A line stretched longer",
+        "image": {
+          "src": "/img/c10-en-mandela/cur-stretch.svg",
+          "alt": "A line being stretched longer"
+        }
+      },
+      {
+        "id": "b",
+        "text": "A line cut shorter with scissors",
+        "image": {
+          "src": "/img/c10-en-mandela/cur-cut.svg",
+          "alt": "A line being cut shorter with scissors"
+        }
+      },
+      {
+        "id": "c",
+        "text": "A line bending into a curl",
+        "image": {
+          "src": "/img/c10-en-mandela/cur-curl.svg",
+          "alt": "A line bending into a curl"
+        }
+      },
+      {
+        "id": "d",
+        "text": "A line tied in a knot",
+        "image": {
+          "src": "/img/c10-en-mandela/cur-knot.svg",
+          "alt": "A line tied in a knot"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "Curtailed means reduced.",
+    "explanation": "**Curtailed** means reduced or cut short. Only the cut line becomes shorter; stretching, curling and knotting do not reduce it."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Vocabulary: expressions in the text",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each expression from the chapter with its meaning.",
+    "image": {
+      "src": "/img/c10-en-mandela/expressions.svg",
+      "alt": "Six picture cards: a rainbow, a throne, a scroll, a spring, a spark and a half-lit sky at dusk"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "A rainbow gathering of different colours and nations"
+      },
+      {
+        "id": "l1",
+        "text": "The seat of white supremacy"
+      },
+      {
+        "id": "l2",
+        "text": "Resilience that defies the imagination"
+      },
+      {
+        "id": "l3",
+        "text": "A glimmer of humanity"
+      },
+      {
+        "id": "l4",
+        "text": "A twilight existence"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "A great, almost unimaginable ability to remain unchanged by suffering"
+      },
+      {
+        "id": "r3",
+        "text": "A sign of human feeling such as kindness or pity"
+      },
+      {
+        "id": "r4",
+        "text": "A half-secret life, like the fading light between sunset and darkness"
+      },
+      {
+        "id": "r0",
+        "text": "A beautiful coming together of various peoples"
+      },
+      {
+        "id": "r1",
+        "text": "The centre of racial superiority"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Think of the picture each expression creates.",
+    "explanation": "A **rainbow gathering** is a beautiful mix of peoples; the **seat of white supremacy** is the centre of racial superiority; **resilience that defies the imagination** is almost unbelievable strength; a **glimmer of humanity** is a sign of human feeling; a **twilight existence** is a half-secret life."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Grammar: nouns formed from verbs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each verb with the noun formed from it, as in the chapter's exercise.",
+    "image": {
+      "src": "/img/c10-en-mandela/noun-verb.svg",
+      "alt": "Two columns of word cards with arrows turning verbs into nouns by adding an ending"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "resist"
+      },
+      {
+        "id": "l1",
+        "text": "assist"
+      },
+      {
+        "id": "l2",
+        "text": "imprison"
+      },
+      {
+        "id": "l3",
+        "text": "humiliate"
+      },
+      {
+        "id": "l4",
+        "text": "subjugate"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "imprisonment"
+      },
+      {
+        "id": "r3",
+        "text": "humiliation"
+      },
+      {
+        "id": "r4",
+        "text": "subjugation"
+      },
+      {
+        "id": "r0",
+        "text": "resistance"
+      },
+      {
+        "id": "r1",
+        "text": "assistance"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "The endings are -ance, -ment or -(at)ion.",
+    "explanation": "Verbs and their nouns: resist - **resistance**; assist - **assistance**; imprison - **imprisonment**; humiliate - **humiliation**; subjugate - **subjugation**. Note the spelling changes in some pairs."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Grammar: noun and verb pairs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which **THREE** noun-verb pairs are correct, as in the chapter's examples?",
+    "image": {
+      "src": "/img/c10-en-mandela/noun-verb.svg",
+      "alt": "Two columns of word cards with arrows turning verbs into nouns by adding an ending"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "govern - governation"
+      },
+      {
+        "id": "b",
+        "text": "rebel - rebellion"
+      },
+      {
+        "id": "c",
+        "text": "resist - resistion"
+      },
+      {
+        "id": "d",
+        "text": "constitute - constitution"
+      },
+      {
+        "id": "e",
+        "text": "imprison - imprisonment"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "Rebellion and constitution are the examples given in the text.",
+    "explanation": "**Rebel - rebellion**, **constitute - constitution** and **imprison - imprisonment** are correct. The nouns for govern and resist are **government** and **resistance**, so the other two are not real words."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Grammar: \"the\" with proper nouns",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-en-mandela/the-names.svg",
+      "alt": "A row of identical anonymous figures in different colours under a card showing that a plural name means people of that kind"
+    },
+    "assertion": "In the text, \"the Oliver Tambos, the Walter Sisulus\" refers to many men like Oliver Tambo and Walter Sisulu, not just to these two.",
+    "reason": "A proper noun used in the plural with \"the\" carries a special meaning: people of that type or kind.",
+    "answer": "a",
+    "hint": "Remember option (b) from the exercise.",
+    "explanation": "Both are true and R explains A. Used with \"the\" and in the plural, a proper noun means **men of their type or kind**, whose names may not be as well known. It does not simply list examples."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Grammar: balanced sentences",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Choose the best way to complete this balanced sentence: \"Courage was not the absence of fear, ...\"",
+    "image": {
+      "src": "/img/c10-en-mandela/contrast.svg",
+      "alt": "A see-saw balancing a light block that says not fear-free against a heavier block that says but triumph over it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "but the triumph over it"
+      },
+      {
+        "id": "b",
+        "text": "and the triumph over it"
+      },
+      {
+        "id": "c",
+        "text": "so the triumph over it"
+      },
+      {
+        "id": "d",
+        "text": "or the absence of fear"
+      }
+    ],
+    "answer": "a",
+    "hint": "After \"not ...\", the contrast word is needed.",
+    "explanation": "The structure is **not X, but Y**. \"But\" signals the contrast between the absence of fear and the triumph over it. \"And\", \"so\" and \"or\" do not set up the contrast."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Speaking: preparing a speech",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Before giving a two-minute speech on \"True liberty is freedom from poverty, deprivation and all forms of discrimination\", the exercise says to first make **notes** in writing. Tap the notes.",
+    "image": {
+      "src": "/img/c10-en-mandela/speechroom.svg",
+      "alt": "A classroom with a whiteboard, note cards on a desk, a stopwatch, a speaker at a podium and an audience"
+    },
+    "spots": [
+      {
+        "id": "board",
+        "x": 18.75,
+        "y": 25.0,
+        "label": "Whiteboard"
+      },
+      {
+        "id": "timer",
+        "x": 82.5,
+        "y": 25.83,
+        "label": "Stopwatch"
+      },
+      {
+        "id": "notes",
+        "x": 21.25,
+        "y": 54.17,
+        "label": "Note cards"
+      },
+      {
+        "id": "speaker",
+        "x": 58.75,
+        "y": 54.17,
+        "label": "Speaker"
+      },
+      {
+        "id": "audience",
+        "x": 50.0,
+        "y": 87.5,
+        "label": "Audience"
+      }
+    ],
+    "answer": "notes",
+    "hint": "They are written on small cards.",
+    "explanation": "The **note cards** on the desk are the written notes for the speech. The stopwatch times the speech, the whiteboard lists topics, and the speaker and audience come later."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Literary device: contrast",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-en-mandela/heights.svg",
+      "alt": "A deep pit with a figure at the bottom and a tall tower with a figure on top joined by an arrow"
+    },
+    "assertion": "The phrase \"depths of oppression\" and \"heights of character\" is an example of contrast.",
+    "reason": "\"Depths\" and \"heights\" are opposites, set against each other to show that great character can come out of great suffering.",
+    "answer": "a",
+    "hint": "Which two words are opposites?",
+    "explanation": "Both are true and R explains A: the writer uses **opposite words** to show that high character can come from deep suffering. This pairing is the \"contrast\" the chapter's language exercise talks about."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Writing: a paragraph on colour prejudice",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "The chapter asks for a 100-150 word paragraph on colour prejudice. Arrange the parts of a good paragraph in order.",
+    "image": {
+      "src": "/img/c10-en-mandela/paragraph.svg",
+      "alt": "A page showing the parts of a paragraph: topic sentence, supporting lines, an example and a concluding sentence"
+    },
+    "items": [
+      {
+        "id": "s2",
+        "text": "Add an example from real life"
+      },
+      {
+        "id": "s0",
+        "text": "Begin with a topic sentence that states your view"
+      },
+      {
+        "id": "s3",
+        "text": "End with a concluding sentence"
+      },
+      {
+        "id": "s1",
+        "text": "Give reasons that support the view"
+      }
+    ],
+    "answer": [
+      "s0",
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "startLabel": "Start",
+    "endLabel": "End",
+    "hint": "A paragraph opens with its main idea and ends by rounding it off.",
+    "explanation": "A well-built paragraph starts with the **topic sentence**, develops it with reasons, adds a concrete **example**, and ends with a **concluding sentence**. Putting the conclusion early or the example first confuses the reader."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Speaking: a two-minute speech",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which **THREE** are good ways to prepare a two-minute speech on freedom from poverty and discrimination?",
+    "image": {
+      "src": "/img/c10-en-mandela/speech-prep.svg",
+      "alt": "Hand-written note cards, a clock and a speaker facing a seated group, showing how to prepare a short speech"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Read ten pages aloud word for word"
+      },
+      {
+        "id": "b",
+        "text": "Discuss the issues in a group and make written notes first"
+      },
+      {
+        "id": "c",
+        "text": "Avoid giving any examples"
+      },
+      {
+        "id": "d",
+        "text": "Cover points such as causes of poverty and constitutionally guaranteed rights"
+      },
+      {
+        "id": "e",
+        "text": "Keep the speech to about two minutes"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "The exercise tells you to discuss, make notes, and speak for about two minutes.",
+    "explanation": "The task says to **discuss in groups, make notes, and prepare about two minutes**, using the suggested issues (poverty, discrimination, rights). Reading ten pages overruns the time, and a speech with no examples is weak."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: title and poet",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The poem that follows the chapter is \"**A Tiger in the Zoo**\". Who wrote it?",
+    "image": {
+      "src": "/img/c10-en-mandela/tiger-bars.svg",
+      "alt": "A tiger behind thick bars looking up at the stars"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Rainer Maria Rilke"
+      },
+      {
+        "id": "b",
+        "text": "Peter Niblett"
+      },
+      {
+        "id": "c",
+        "text": "Leslie Norris"
+      },
+      {
+        "id": "d",
+        "text": "Victoria Sackville-West"
+      }
+    ],
+    "answer": "c",
+    "hint": "The name appears at the end of the poem; the others wrote the poems about a panther, another tiger and \"the greater cats\".",
+    "explanation": "The poem is by **Leslie Norris**. Rilke wrote \"The Panther\", Peter Niblett wrote \"The Tiger\" and Victoria Sackville-West wrote \"The Greater Cats\", the three poems given for comparison."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: zoo and jungle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The poem moves between the zoo and the jungle. Which **THREE** stanzas describe the tiger in the **zoo**?",
+    "image": {
+      "src": "/img/c10-en-mandela/zoo-jungle.svg",
+      "alt": "A tiger behind bars at night on the left and the same tiger free in the jungle on the right"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Stanza 2 (\"He should be lurking in shadow\")"
+      },
+      {
+        "id": "b",
+        "text": "Stanza 1 (\"He stalks in his vivid stripes\")"
+      },
+      {
+        "id": "c",
+        "text": "Stanza 3 (\"He should be snarling around houses\")"
+      },
+      {
+        "id": "d",
+        "text": "Stanza 4 (\"But he's locked in a concrete cell\")"
+      },
+      {
+        "id": "e",
+        "text": "Stanza 5 (\"He hears the last voice at night\")"
+      }
+    ],
+    "answers": [
+      "b",
+      "d",
+      "e"
+    ],
+    "hint": "The jungle stanzas begin with \"He should be...\".",
+    "explanation": "Stanzas **1, 4 and 5** show the real tiger in his cage. Stanzas **2 and 3** say what he *should* be doing in the jungle: lurking near the water hole and terrorising the village. The poem therefore goes zoo, jungle, zoo."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: night in the zoo",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the last stanza the tiger \"stares with his brilliant eyes at the brilliant **stars**\". Tap the stars.",
+    "image": {
+      "src": "/img/c10-en-mandela/zoo.svg",
+      "alt": "A tiger pacing behind bars on a concrete floor at night, with stars above, a patrol car and visitors"
+    },
+    "spots": [
+      {
+        "id": "tiger",
+        "x": 32.5,
+        "y": 62.5,
+        "label": "Tiger"
+      },
+      {
+        "id": "bars",
+        "x": 9.5,
+        "y": 54.17,
+        "label": "Cage bars"
+      },
+      {
+        "id": "stars",
+        "x": 75.0,
+        "y": 21.67,
+        "label": "Stars"
+      },
+      {
+        "id": "car",
+        "x": 81.25,
+        "y": 66.67,
+        "label": "Patrolling car"
+      },
+      {
+        "id": "visitors",
+        "x": 85.0,
+        "y": 89.58,
+        "label": "Visitors"
+      }
+    ],
+    "answer": "stars",
+    "hint": "They are in the night sky above the cage.",
+    "explanation": "The **stars** are the bright points in the sky above the cage. The patrolling car, visitors and bars are the other things the tiger hears and sees at night, but they are not what he stares at."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: the tiger's hunting ground",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The poet says the tiger should be sliding through long grass near the water hole \"where plump **deer** pass\". Tap the deer.",
+    "image": {
+      "src": "/img/c10-en-mandela/jungle.svg",
+      "alt": "A jungle scene with long grass hiding a tiger, a water hole and a plump deer nearby"
+    },
+    "spots": [
+      {
+        "id": "tiger",
+        "x": 42.5,
+        "y": 77.08,
+        "label": "Tiger in the grass"
+      },
+      {
+        "id": "deer",
+        "x": 72.5,
+        "y": 70.0,
+        "label": "Deer"
+      },
+      {
+        "id": "waterhole",
+        "x": 75.0,
+        "y": 90.83,
+        "label": "Water hole"
+      },
+      {
+        "id": "tree",
+        "x": 10.0,
+        "y": 52.08,
+        "label": "Tree"
+      },
+      {
+        "id": "sun",
+        "x": 15.0,
+        "y": 16.67,
+        "label": "Sun"
+      }
+    ],
+    "answer": "deer",
+    "hint": "It is the animal that the tiger would hunt.",
+    "explanation": "The **deer** is the tiger's prey, passing near the water hole. The tiger lurks in the long grass, which the poem calls \"lurking in shadow\"; the water hole is only where the deer pass."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: \"quiet rage\"",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The poet says the tiger stalks \"on pads of velvet quiet, in his **quiet rage**\". What does \"quiet rage\" suggest?",
+    "image": {
+      "src": "/img/c10-en-mandela/paws.svg",
+      "alt": "Soft paw prints stepping quietly across the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Gentle happiness in his new home"
+      },
+      {
+        "id": "b",
+        "text": "A sudden loud attack on visitors"
+      },
+      {
+        "id": "c",
+        "text": "Deep anger that he cannot show openly, because he is caged"
+      },
+      {
+        "id": "d",
+        "text": "Sleepiness after a heavy meal"
+      }
+    ],
+    "answer": "c",
+    "hint": "He moves silently but the word \"rage\" tells you how he feels.",
+    "explanation": "The tiger's movements are soft and silent but he is **angry at being caged**: \"quiet rage\" joins calm and anger. Happiness, loud attacks and sleepiness do not fit \"rage\" or his pacing in a few steps."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: repetition",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The word \"quiet\" is repeated in \"pads of velvet quiet\" and \"his quiet rage\", and \"brilliant\" in \"his brilliant eyes\" and \"the brilliant stars\". What is the effect?",
+    "image": {
+      "src": "/img/c10-en-mandela/tiger-bars.svg",
+      "alt": "A tiger behind thick bars looking up at the stars"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It links two ideas and makes the tiger's bright eyes seem as grand as the stars he can see"
+      },
+      {
+        "id": "b",
+        "text": "It shows the poet ran out of words"
+      },
+      {
+        "id": "c",
+        "text": "It makes the tiger seem timid"
+      },
+      {
+        "id": "d",
+        "text": "It tells us the zoo is a quiet place"
+      }
+    ],
+    "answer": "a",
+    "hint": "The repeated word joins two different things.",
+    "explanation": "Repetition **links the tiger with his surroundings**: his silent anger and the shining stars share a word, so his bright eyes seem equal to the stars he can see but not reach. It is a deliberate device, not carelessness, and it does not make him timid."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: how the poem is built",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the poem's scenes in the order in which they appear.",
+    "image": {
+      "src": "/img/c10-en-mandela/stanzas.svg",
+      "alt": "Five stanza cards in a row, dark blue for the zoo and green for the jungle"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "He is locked in a concrete cell, ignoring visitors"
+      },
+      {
+        "id": "s1",
+        "text": "He should be lurking in the grass near the water hole"
+      },
+      {
+        "id": "s4",
+        "text": "He hears night sounds and stares at the stars"
+      },
+      {
+        "id": "s0",
+        "text": "The tiger paces his cage in quiet rage"
+      },
+      {
+        "id": "s2",
+        "text": "He should be snarling and terrorising the village"
+      }
+    ],
+    "answer": [
+      "s0",
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "The poem goes zoo, jungle, zoo.",
+    "explanation": "The poem opens in the zoo, imagines the jungle in stanzas 2 and 3 (hunting, then the village), and returns to the zoo in stanzas 4 and 5, ending at night with the stars."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: vocabulary",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each word from the poem with its meaning.",
+    "image": {
+      "src": "/img/c10-en-mandela/jungle.svg",
+      "alt": "A jungle scene with long grass hiding a tiger, a water hole and a plump deer nearby"
+    },
+    "left": [
+      {
+        "id": "l0",
+        "text": "stalks"
+      },
+      {
+        "id": "l1",
+        "text": "lurking"
+      },
+      {
+        "id": "l2",
+        "text": "snarls"
+      },
+      {
+        "id": "l3",
+        "text": "plump"
+      },
+      {
+        "id": "l4",
+        "text": "terrorising"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "makes an angry, warning sound"
+      },
+      {
+        "id": "r3",
+        "text": "well-fed and rounded"
+      },
+      {
+        "id": "r4",
+        "text": "frightening people badly"
+      },
+      {
+        "id": "r0",
+        "text": "walks stiffly and watchfully"
+      },
+      {
+        "id": "r1",
+        "text": "waiting quietly out of sight"
+      }
+    ],
+    "pairs": {
+      "l0": "r0",
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Use the poem's context and the glossary note on \"snarls\".",
+    "explanation": "**Stalks** = walks stiffly and watchfully; **lurking** = waiting hidden; **snarls** = an angry warning sound (the glossary); **plump** = well-fed, describing the deer; **terrorising** = causing great fear."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: what the tiger has lost",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-en-mandela/zoo-jungle.svg",
+      "alt": "A tiger behind bars at night on the left and the same tiger free in the jungle on the right"
+    },
+    "assertion": "In the poem the tiger \"should be\" lurking in shadow and snarling at the jungle's edge, but he is \"locked in a concrete cell\".",
+    "reason": "The poet contrasts the free life of the wild with life in a cage to show how much the captive tiger has lost.",
+    "answer": "a",
+    "hint": "Why does the poet keep saying what he \"should be\" doing?",
+    "explanation": "Both are true and R explains A: the \"should be\" stanzas set the **wild life** against the **cage** so that we feel the tiger's lost freedom and strength (\"his strength behind bars\")."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: imagery",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "What does \"pads of velvet quiet\" tell us about the tiger?",
+    "image": {
+      "src": "/img/c10-en-mandela/paws.svg",
+      "alt": "Soft paw prints stepping quietly across the ground"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "His claws are rough and loud"
+      },
+      {
+        "id": "b",
+        "text": "He is wearing a velvet coat"
+      },
+      {
+        "id": "c",
+        "text": "His cage is padded with cushions"
+      },
+      {
+        "id": "d",
+        "text": "His paws are soft and make no sound"
+      }
+    ],
+    "answer": "d",
+    "hint": "\"Pads\" are the soft undersides of paws.",
+    "explanation": "\"Pads\" are a tiger's paws and \"velvet\" suggests softness, so he moves **soft and silent**. It is imagery of touch and sound, not clothing or a padded cage."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: rhyme",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the first stanza (\"stripes / cage / quiet / rage\"), which two words rhyme?",
+    "image": {
+      "src": "/img/c10-en-mandela/rhyme.svg",
+      "alt": "Four lines of a stanza on cards, with the second and fourth cards highlighted and joined by a curved line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "stripes and quiet"
+      },
+      {
+        "id": "b",
+        "text": "cage and rage"
+      },
+      {
+        "id": "c",
+        "text": "stripes and cage"
+      },
+      {
+        "id": "d",
+        "text": "quiet and cage"
+      }
+    ],
+    "answer": "b",
+    "hint": "Rhyming words end in the same sound; look at lines 2 and 4.",
+    "explanation": "The poem has four-line stanzas and the second and fourth lines rhyme: **cage / rage**. Stripes and quiet do not share an end sound."
+  },
+  {
+    "id": "in-cbse-10-eng-mandela-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "chapterNo": 2,
+    "topic": "Poem: message",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Which statement best expresses the poet's message in \"A Tiger in the Zoo\"?",
+    "image": {
+      "src": "/img/c10-en-mandela/zoo.svg",
+      "alt": "A tiger pacing behind bars on a concrete floor at night, with stars above, a patrol car and visitors"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Tigers are dangerous and should be kept in zoos"
+      },
+      {
+        "id": "b",
+        "text": "A wild animal in a cage loses its freedom, strength and natural life"
+      },
+      {
+        "id": "c",
+        "text": "Zoos are the best homes for wild animals"
+      },
+      {
+        "id": "d",
+        "text": "Visitors enjoy watching tigers pace"
+      }
+    ],
+    "answer": "b",
+    "hint": "Think about the words \"locked\", \"cell\" and \"strength behind bars\".",
+    "explanation": "By describing the caged tiger beside the free tiger, the poet makes us feel **sadness at lost freedom**. He does not praise zoos or fear tigers; the tiger even \"ignores visitors\"."
+  }
+]

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A hand touching a flame is pulled back instantly as a reflex action</title>
+<style>
+text{font-family:sans-serif}
+.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes hh{0%,35%{transform:translate(0,0)}45%,80%{transform:translate(70px,-26px)}100%{transform:translate(0,0)}}
+.hand{animation:hh 3s ease-in-out infinite}
+@keyframes fl{0%,100%{transform:scale(1,1)}50%{transform:scale(1.1,1.25)}}
+.flame{animation:fl .5s ease-in-out infinite;transform-box:fill-box;transform-origin:center bottom}
+@keyframes ou{0%,38%{opacity:0}44%,80%{opacity:1}90%,100%{opacity:0}}
+.ouch{animation:ou 3s linear infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="30" y="198" width="120" height="24" rx="6" fill="#B07A4A" stroke="#2B2F4A" stroke-width="3" /><g class="flame"><path d="M90 198Q60 170 84 140Q86 160 100 150Q104 130 92 112Q130 140 124 170Q118 198 90 198Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FF8A1F" /><path d="M92 198Q80 184 92 168Q104 182 92 198Z" stroke="#2B2F4A" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" fill="#FFD166" /></g><g class="hand"><g transform="translate(-60,26)"><path d="M380 100L250 100" stroke="#2B2F4A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M380 100L250 100" stroke="#FFE0C2" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none" /><ellipse cx="232" cy="100" rx="26" ry="22" fill="#FFE0C2" stroke="#2B2F4A" stroke-width="3" /><path d="M215 88L176 88" stroke="#2B2F4A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M215 88L176 88" stroke="#FFE0C2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M215 100L170 100" stroke="#2B2F4A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M215 100L170 100" stroke="#FFE0C2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M215 112L176 112" stroke="#2B2F4A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M215 112L176 112" stroke="#FFE0C2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M230 82L205 62" stroke="#2B2F4A" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M230 82L205 62" stroke="#FFE0C2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" /></g></g><g class="ouch"><text x="270" y="52" font-family="sans-serif" font-size="20" fill="#E5484D" text-anchor="middle" font-weight="bold">Ouch!</text></g><text x="210" y="232" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Reflex: no waiting for the brain to think</text>
+</svg>

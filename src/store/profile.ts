@@ -58,6 +58,9 @@ interface ProfileState extends Stats {
   /** Subject tab last opened on the home screen. */
   lastSubject: SubjectId | null;
   setLastSubject: (s: SubjectId) => void;
+  /** Class tab last opened on the home screen. */
+  lastGrade: number | null;
+  setLastGrade: (g: number) => void;
   recordSession: (round: Round, bestStreak: number) => void;
   /** Shows a signed-in round straight away and queues it for the server. */
   recordAccountRound: (userId: string, round: Round, answers: RoundAnswers) => void;
@@ -92,6 +95,8 @@ export const useProfile = create<ProfileState>()(
       theme: "system",
       lastSubject: null,
       setLastSubject: (lastSubject) => set({ lastSubject }),
+      lastGrade: null,
+      setLastGrade: (lastGrade) => set({ lastGrade }),
       recordSession: (round, streak) => set((s) => addRound(s, round, streak, MAX_ROUNDS)),
       recordAccountRound: (userId, round, answers) =>
         set((s) => ({

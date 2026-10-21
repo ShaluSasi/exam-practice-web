@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A law book with three arrows to three benefits: no birth privileges, equality before law, property rights</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-34px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}30%{opacity:1}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.35}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7C5CFF"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><text x="200" y="26.0" font-size="13" text-anchor="middle">The Civil Code of 1804 (Napoleonic Code)</text><g transform="translate(200 92) scale(2.2)"><g class="pul"><rect x="-13.0" y="-16.0" width="26" height="32" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-8.0 -16.0V16.0" stroke="#fff" stroke-width="2"/><path d="M-4.0 -6H10.0M-4.0 1H10.0" stroke="#fff" stroke-width="2" stroke-linecap="round"/></g></g><line x1="200" y1="124" x2="70" y2="150" stroke="#E5484D" stroke-width="3" stroke-linecap="round" class="fl" marker-end="url(#ahr)"/><g><rect x="8" y="154" width="124" height="40" rx="10" fill="#fff" stroke="#E5484D" stroke-width="2.5"/><text x="70.0" y="171.0" font-size="11" text-anchor="middle">No privileges</text><text x="70.0" y="184.7" font-size="11" text-anchor="middle">based on birth</text></g><line x1="200" y1="124" x2="200" y2="150" stroke="#3FA34D" stroke-width="3" stroke-linecap="round" class="fl" marker-end="url(#ahg)"/><g><rect x="138" y="154" width="124" height="40" rx="10" fill="#fff" stroke="#3FA34D" stroke-width="2.5"/><text x="200.0" y="171.0" font-size="11" text-anchor="middle">Equality before</text><text x="200.0" y="184.7" font-size="11" text-anchor="middle">the law</text></g><line x1="200" y1="124" x2="330" y2="150" stroke="#FF8A1F" stroke-width="3" stroke-linecap="round" class="fl" marker-end="url(#aho)"/><g><rect x="268" y="154" width="124" height="40" rx="10" fill="#fff" stroke="#FF8A1F" stroke-width="2.5"/><text x="330.0" y="171.0" font-size="11" text-anchor="middle">Right to property</text><text x="330.0" y="184.7" font-size="11" text-anchor="middle">secured</text></g><text x="200" y="220.0" font-size="11" text-anchor="middle">Exported to regions under French control</text></svg>

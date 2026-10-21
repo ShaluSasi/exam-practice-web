@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A room at night: a tree inside with roots in the veranda floor and long boughs under the roof, leaves pressing towards a glass window with a moon outside, and a person writing letters at a desk</title><style>
+.bob{animation:bob 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes bob{to{transform:translateY(-5px)}}
+.sway{animation:sway 2.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+.flick{animation:flick .45s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes flick{to{transform:scale(1.18,.82)}}
+.steam{animation:steam 2.4s ease-in infinite;transform-box:fill-box}
+@keyframes steam{0%{transform:translateY(6px);opacity:0}30%{opacity:.85}100%{transform:translateY(-16px);opacity:0}}
+.drift{animation:drift 7s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translateX(34px)}}
+.fall{animation:fall 1.7s ease-in infinite}
+@keyframes fall{0%{transform:translateY(-22px);opacity:0}25%{opacity:1}100%{transform:translateY(38px);opacity:0}}
+.pulse{animation:pulse 1.3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{to{transform:scale(1.12)}}
+.slide{animation:slide 4s ease-in-out infinite alternate}
+@keyframes slide{from{transform:translateX(-26px)}to{transform:translateX(26px)}}
+.blink{animation:blink 1.4s steps(2) infinite}
+@keyframes blink{50%{opacity:.35}}
+.rip{animation:rip 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes rip{0%{transform:scale(.4);opacity:.9}100%{transform:scale(1.6);opacity:0}}
+.dive{animation:dive 2.2s ease-in infinite}
+@keyframes dive{0%,20%{transform:translateY(-10px)}60%{transform:translateY(26px)}100%{transform:translateY(-10px)}}
+.spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="0" y="0" width="400" height="240" rx="0" fill="#4A4E7A" /><rect x="0" y="180" width="400" height="60" rx="0" fill="#8B5A2B" /><line x1="40" y1="180" x2="40" y2="240" stroke="#6B4423" stroke-width="2" stroke-linecap="round" /><line x1="110" y1="180" x2="110" y2="240" stroke="#6B4423" stroke-width="2" stroke-linecap="round" /><line x1="180" y1="180" x2="180" y2="240" stroke="#6B4423" stroke-width="2" stroke-linecap="round" /><line x1="250" y1="180" x2="250" y2="240" stroke="#6B4423" stroke-width="2" stroke-linecap="round" /><line x1="320" y1="180" x2="320" y2="240" stroke="#6B4423" stroke-width="2" stroke-linecap="round" /><path d="M60 184 l8 14 l-6 12 M96 184 l-6 10 l8 16" fill="none" stroke="#3a2412" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><rect x="245" y="40" width="80" height="100" rx="4" fill="#16193A" stroke="#2B2F4A" stroke-width="4" /><line x1="285" y1="40" x2="285" y2="140" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="245" y1="90" x2="325" y2="90" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><g class="pulse"><circle cx="280" cy="70" r="14" fill="#FFF6C8" stroke="#E8D98A" stroke-width="2" /></g><circle cx="262" cy="120" r="1.8" fill="#FFFFFF" /><circle cx="310" cy="56" r="1.8" fill="#FFFFFF" /><circle cx="305" cy="118" r="1.8" fill="#FFFFFF" /><path d="M70 180 Q64 196 52 204 M70 180 Q80 200 96 208 M70 180 Q70 200 74 214" fill="none" stroke="#6B4423" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /><path d="M70 182 Q62 140 70 100" fill="none" stroke="#8B5A2B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" /><g class="sway"><path d="M70 104 Q120 40 225 58" fill="none" stroke="#8B5A2B" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" /><path d="M120 66 Q150 40 170 36 M170 56 Q196 38 214 40" fill="none" stroke="#8B5A2B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /></g><circle cx="205" cy="62" r="11" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" /><circle cx="222" cy="74" r="11" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" /><circle cx="214" cy="90" r="11" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" /><circle cx="196" cy="78" r="11" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" /><circle cx="232" cy="58" r="11" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2" /><rect x="300" y="158" width="92" height="10" rx="3" fill="#C98A3B" stroke="#2B2F4A" stroke-width="3" /><line x1="310" y1="168" x2="310" y2="200" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="382" y1="168" x2="382" y2="200" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><rect x="335" y="128" width="24" height="32" rx="6" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" /><circle cx="347" cy="112" r="12" fill="#F2C9A0" stroke="#2B2F4A" stroke-width="2.5" /><path d="M335 108 Q347 94 359 108" fill="#3a2a20" /><rect x="320" y="150" width="24" height="8" rx="1" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" /></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Three everyday scenes: a rope leaving a pulley, a wheel on a road and a ruler touching a coin</title>
+<style>.pu{animation:pu 2s ease-in-out infinite}@keyframes pu{50%{opacity:.35}}.fl{stroke-dasharray:10 5;animation:fl 1s linear infinite}@keyframes fl{to{stroke-dashoffset:-15}}text{font-family:sans-serif;font-weight:700;fill:#2B2F4A;font-size:15px}.h{paint-order:stroke;stroke:#FFF9EE;stroke-width:4px;stroke-linejoin:round}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<circle cx="70" cy="80" r="32" fill="#EAF5FD" stroke="#0B93D4" stroke-width="4"/>
+<circle cx="70" cy="80" r="4" fill="#2B2F4A"/>
+<line x1="38" y1="80" x2="38" y2="150" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/>
+<line x1="102" y1="80" x2="102" y2="20" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/>
+<rect x="24" y="150" width="28" height="22" rx="4" fill="#3FA34D"/>
+<line x1="102" y1="20" x2="102" y2="80" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/>
+<line x1="38" y1="150" x2="38" y2="80" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/>
+<text x="70" y="212" font-size="15" text-anchor="middle" class="h">Pulley rope</text>
+<circle cx="200" cy="112" r="34" fill="#EAF5FD" stroke="#0B93D4" stroke-width="4"/>
+<circle cx="200" cy="112" r="4" fill="#2B2F4A"/>
+<line x1="200" y1="112" x2="231" y2="112" stroke="#8A8FB0" stroke-width="2"/>
+<line x1="200" y1="112" x2="215.5" y2="138.8" stroke="#8A8FB0" stroke-width="2"/>
+<line x1="200" y1="112" x2="184.5" y2="138.8" stroke="#8A8FB0" stroke-width="2"/>
+<line x1="200" y1="112" x2="169" y2="112" stroke="#8A8FB0" stroke-width="2"/>
+<line x1="200" y1="112" x2="184.5" y2="85.2" stroke="#8A8FB0" stroke-width="2"/>
+<line x1="200" y1="112" x2="215.5" y2="85.2" stroke="#8A8FB0" stroke-width="2"/>
+<line x1="150" y1="146" x2="255" y2="146" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round"/>
+<text x="200" y="212" font-size="15" text-anchor="middle" class="h">Wheel on road</text>
+<circle cx="332" cy="112" r="34" fill="#EAF5FD" stroke="#7C5CFF" stroke-width="4"/>
+<rect x="282" y="66" width="102" height="12" rx="3" transform="translate(0 -0)" fill="#FFE2B8" stroke="#FF8A1F" stroke-width="2.5"/>
+<text x="332" y="212" font-size="15" text-anchor="middle" class="h">Coin and ruler</text>
+</svg>

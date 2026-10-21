@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>C-60 fullerene shaped like a football</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.turn{animation:sp 24s linear infinite}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<defs><clipPath id="cc"><circle cx="200" cy="120" r="92"/></clipPath></defs><circle cx="200" cy="120" r="92" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="3.5"/><g clip-path="url(#cc)" class="turn" style="transform-origin:200px 120px"><polygon points="200.0,94.0 224.7,112.0 215.3,141.0 184.7,141.0 175.3,112.0" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="200.0,94.0 203.2,63.6 231.1,51.2 255.8,69.1 252.6,99.5 224.7,112.0" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="224.7,112.0 254.6,105.6 275.1,128.3 265.6,157.4 235.7,163.7 215.3,141.0" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="215.3,141.0 230.6,167.5 215.3,194.0 184.7,194.0 169.4,167.5 184.7,141.0" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="184.7,141.0 164.3,163.7 134.4,157.4 124.9,128.3 145.4,105.6 175.3,112.0" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="175.3,112.0 147.4,99.5 144.2,69.1 168.9,51.2 196.8,63.6 200.0,94.0" fill="#FFF3D6" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="200.0,63.4 175.3,45.5 184.7,16.4 215.3,16.4 224.7,45.5" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="253.8,102.5 263.2,73.5 293.8,73.5 303.3,102.5 278.5,120.5" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="233.2,165.8 263.8,165.8 273.3,194.8 248.5,212.8 223.8,194.8" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="166.8,165.8 176.2,194.8 151.5,212.8 126.7,194.8 136.2,165.8" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/><polygon points="146.2,102.5 121.5,120.5 96.7,102.5 106.2,73.5 136.8,73.5" fill="#FFD9A8" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,2294 @@
+[
+ {
+  "id": "in-cbse-10-bio-control-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Reflex action",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "You pull your hand away from a hot flame before you have time to think. Why is this response so quick?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The brain is able to think faster when there is danger"
+   },
+   {
+    "id": "b",
+    "text": "The nerves that detect heat connect to the nerves that move the muscle through a reflex arc in the spinal cord, so the signal need not wait for the thinking brain"
+   },
+   {
+    "id": "c",
+    "text": "The muscles of the hand decide on their own without any nerves"
+   },
+   {
+    "id": "d",
+    "text": "Pain receptors are present only inside muscles"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-control/hot-hand.svg",
+   "alt": "A hand touching a flame is pulled back instantly as a reflex action"
+  },
+  "hint": "Where do the input nerve and the output nerve first meet?",
+  "explanation": "A **reflex arc** joins the input (sensory) nerve and the output (motor) nerve at the point where they first meet, the **spinal cord**. The information still reaches the brain later, but the response does not wait for the slow, complicated thinking process. Muscles cannot act without a nerve impulse, and heat receptors are in the skin, not in muscles."
+ },
+ {
+  "id": "in-cbse-10-bio-control-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Neuron",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the part of the neuron where **information is first acquired**.",
+  "image": {
+   "src": "/img/c10-control/neuron.svg",
+   "alt": "A neuron with branched dendrites, a cell body with nucleus, a long axon with myelin sheath and axon terminals while an impulse travels along it"
+  },
+  "spots": [
+   {
+    "id": "dendrite",
+    "x": 14.2,
+    "y": 37.1,
+    "label": "Dendrite (tip receives information)"
+   },
+   {
+    "id": "body",
+    "x": 28.0,
+    "y": 60.0,
+    "label": "Cell body"
+   },
+   {
+    "id": "axon",
+    "x": 45.5,
+    "y": 50.0,
+    "label": "Axon"
+   },
+   {
+    "id": "terminal",
+    "x": 93.5,
+    "y": 50.0,
+    "label": "Axon end (nerve ending)"
+   }
+  ],
+  "answer": "dendrite",
+  "hint": "Information is detected at the tips of the branched fibres.",
+  "explanation": "Information is acquired at the tip of the **dendrites**. It sets off a chemical reaction that creates an electrical impulse, which travels from the dendrite to the cell body and then along the axon."
+ },
+ {
+  "id": "in-cbse-10-bio-control-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Neuron",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the part of the neuron where the electrical impulse is **converted into a chemical signal** for passing on to the next cell.",
+  "image": {
+   "src": "/img/c10-control/neuron.svg",
+   "alt": "A neuron with branched dendrites, a cell body with nucleus, a long axon with myelin sheath and axon terminals while an impulse travels along it"
+  },
+  "spots": [
+   {
+    "id": "dendrite",
+    "x": 14.2,
+    "y": 37.1,
+    "label": "Dendrite (tip receives information)"
+   },
+   {
+    "id": "body",
+    "x": 28.0,
+    "y": 60.0,
+    "label": "Cell body"
+   },
+   {
+    "id": "axon",
+    "x": 45.5,
+    "y": 50.0,
+    "label": "Axon"
+   },
+   {
+    "id": "terminal",
+    "x": 93.5,
+    "y": 50.0,
+    "label": "Axon end (nerve ending)"
+   }
+  ],
+  "answer": "terminal",
+  "hint": "Think about the end of the long fibre that touches the next neuron.",
+  "explanation": "At the **end of the axon** the impulse triggers the release of chemicals. These cross the **synapse** and start a new electrical impulse in the dendrite of the next neuron. The dendrite is where information is acquired, and the axon only conducts the impulse."
+ },
+ {
+  "id": "in-cbse-10-bio-control-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Synapse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "What happens at the **synapse** between two neurons?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The axon of one neuron fuses with the cell body of the next"
+   },
+   {
+    "id": "b",
+    "text": "An electrical impulse jumps across the gap as a spark"
+   },
+   {
+    "id": "c",
+    "text": "Chemicals released at the axon end cross the gap and start an electrical impulse in the dendrite of the next neuron"
+   },
+   {
+    "id": "d",
+    "text": "The impulse stops and the signal is lost"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-control/synapse.svg",
+   "alt": "Two neurons at a synapse: chemical messengers leave the axon end, cross the gap and start an impulse in the next neuron's dendrite"
+  },
+  "hint": "The gap is crossed by something other than electricity.",
+  "explanation": "The electrical impulse reaching the axon end triggers the release of **chemicals**. They diffuse across the gap (synapse) and start a similar electrical impulse in the next neuron. The neurons do not fuse and the signal is not lost. A similar synapse passes impulses on to muscle or gland cells."
+ },
+ {
+  "id": "in-cbse-10-bio-control-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Nerve impulse",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps by which a signal travels from one neuron to the next.",
+  "image": {
+   "src": "/img/c10-control/synapse.svg",
+   "alt": "Two neurons at a synapse: chemical messengers leave the axon end, cross the gap and start an impulse in the next neuron's dendrite"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Impulse travels along the axon to its end"
+   },
+   {
+    "id": "s1",
+    "text": "Dendrite tip detects information and a chemical reaction creates an electrical impulse"
+   },
+   {
+    "id": "s4",
+    "text": "Chemicals are released and cross the synapse"
+   },
+   {
+    "id": "s2",
+    "text": "Impulse travels from the dendrite to the cell body"
+   },
+   {
+    "id": "s5",
+    "text": "A new impulse starts in the dendrite of the next neuron"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Dendrite, cell body, axon, then across the gap.",
+  "explanation": "Information starts at the **dendrite**, moves to the **cell body**, runs along the **axon**, and at the axon end chemicals cross the **synapse** to start a new impulse in the next neuron's dendrite."
+ },
+ {
+  "id": "in-cbse-10-bio-control-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Receptors",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "You smell an agarbatti (incense stick). Tap the sense organ that holds the **olfactory receptors** detecting the smell.",
+  "image": {
+   "src": "/img/c10-control/sense-organs.svg",
+   "alt": "Side view of a head with the eye, ear, nose and tongue; scent particles drift towards the nose and sound waves towards the ear"
+  },
+  "spots": [
+   {
+    "id": "eye",
+    "x": 55.5,
+    "y": 40.8,
+    "label": "Eye (light receptors)"
+   },
+   {
+    "id": "ear",
+    "x": 25.5,
+    "y": 51.7,
+    "label": "Ear (sound receptors)"
+   },
+   {
+    "id": "nose",
+    "x": 66.5,
+    "y": 52.5,
+    "label": "Nose (olfactory receptors for smell)"
+   },
+   {
+    "id": "tongue",
+    "x": 58.5,
+    "y": 72.5,
+    "label": "Tongue (gustatory receptors for taste)"
+   }
+  ],
+  "answer": "nose",
+  "hint": "Olfactory means related to smell.",
+  "explanation": "Receptors are specialised tips of nerve cells in sense organs. **Olfactory receptors** in the **nose** detect smell, **gustatory receptors** in the tongue detect taste. The impulse then travels along nerves to the brain, which interprets it as the smell of the agarbatti."
+ },
+ {
+  "id": "in-cbse-10-bio-control-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Receptors",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "When you pinch your nose shut and eat sugar, it tastes less sweet. What is the best explanation?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The tongue stops working when the nose is blocked"
+   },
+   {
+    "id": "b",
+    "text": "Sugar does not dissolve in the mouth when the nose is blocked"
+   },
+   {
+    "id": "c",
+    "text": "Smell receptors in the nose also contribute to how food tastes, and they get no input when the nose is blocked"
+   },
+   {
+    "id": "d",
+    "text": "Taste buds only work when we breathe in"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-control/nose-block.svg",
+   "alt": "A child pinches the nose shut while a sugar cube is eaten; the smell cannot reach the nose, so the taste seems weaker"
+  },
+  "hint": "Think of what you notice when you have a cold.",
+  "explanation": "Flavour combines **taste** (gustatory receptors on the tongue) and **smell** (olfactory receptors in the nose). With a blocked nose, such as during a cold, the smell input is missing, so food seems bland. The tongue and taste buds still work and sugar still dissolves."
+ },
+ {
+  "id": "in-cbse-10-bio-control-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Human brain",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The part of the brain that is the **main thinking region**, receives sensory impulses and holds the centre that tells us we are full is the",
+  "options": [
+   {
+    "id": "a",
+    "text": "medulla"
+   },
+   {
+    "id": "b",
+    "text": "cerebellum"
+   },
+   {
+    "id": "c",
+    "text": "spinal cord"
+   },
+   {
+    "id": "d",
+    "text": "fore-brain"
+   }
+  ],
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-control/brain.svg",
+   "alt": "Side view of the human brain showing the fore-brain, mid-brain, cerebellum, medulla and the start of the spinal cord"
+  },
+  "hint": "Which of the three main regions is at the front?",
+  "explanation": "The **fore-brain** is the main thinking part. It has areas for hearing, smell and sight, association areas that interpret information, motor areas for voluntary muscles, and a separate centre associated with hunger. The medulla and cerebellum belong to the hind-brain."
+ },
+ {
+  "id": "in-cbse-10-bio-control-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Nervous system",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these belong to the **peripheral nervous system**? Select all that apply.",
+  "image": {
+   "src": "/img/c10-control/cns-pns.svg",
+   "alt": "The brain and spinal cord with cranial nerves and spinal nerves branching out to the body"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Cranial nerves arising from the brain"
+   },
+   {
+    "id": "b",
+    "text": "Spinal nerves arising from the spinal cord"
+   },
+   {
+    "id": "c",
+    "text": "The brain"
+   },
+   {
+    "id": "d",
+    "text": "The spinal cord"
+   },
+   {
+    "id": "e",
+    "text": "Fore-brain"
+   }
+  ],
+  "answers": [
+   "a",
+   "b"
+  ],
+  "hint": "The central nervous system is only brain plus spinal cord.",
+  "explanation": "The **central nervous system** is the brain and spinal cord. The **peripheral nervous system** carries messages between the CNS and the rest of the body and consists of **cranial nerves** (from the brain) and **spinal nerves** (from the spinal cord)."
+ },
+ {
+  "id": "in-cbse-10-bio-control-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Human brain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the **cerebellum**, which keeps the body balanced and makes voluntary actions precise.",
+  "image": {
+   "src": "/img/c10-control/brain.svg",
+   "alt": "Side view of the human brain showing the fore-brain, mid-brain, cerebellum, medulla and the start of the spinal cord"
+  },
+  "spots": [
+   {
+    "id": "fore",
+    "x": 37.5,
+    "y": 35.8,
+    "label": "Fore-brain"
+   },
+   {
+    "id": "mid",
+    "x": 56.5,
+    "y": 68.3,
+    "label": "Mid-brain"
+   },
+   {
+    "id": "cerebellum",
+    "x": 71.0,
+    "y": 63.3,
+    "label": "Cerebellum"
+   },
+   {
+    "id": "medulla",
+    "x": 56.8,
+    "y": 81.7,
+    "label": "Medulla (hind-brain)"
+   },
+   {
+    "id": "cord",
+    "x": 56.8,
+    "y": 96.7,
+    "label": "Spinal cord"
+   }
+  ],
+  "answer": "cerebellum",
+  "hint": "It sits at the back of the brain and has fine stripes.",
+  "explanation": "The **cerebellum** (part of the hind-brain) controls the precision of voluntary actions such as walking in a straight line, riding a bicycle or picking up a pencil, and maintains posture and balance."
+ },
+ {
+  "id": "in-cbse-10-bio-control-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Human brain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the **medulla**, which controls involuntary actions such as blood pressure, salivation and vomiting.",
+  "image": {
+   "src": "/img/c10-control/brain.svg",
+   "alt": "Side view of the human brain showing the fore-brain, mid-brain, cerebellum, medulla and the start of the spinal cord"
+  },
+  "spots": [
+   {
+    "id": "fore",
+    "x": 37.5,
+    "y": 35.8,
+    "label": "Fore-brain"
+   },
+   {
+    "id": "mid",
+    "x": 56.5,
+    "y": 68.3,
+    "label": "Mid-brain"
+   },
+   {
+    "id": "cerebellum",
+    "x": 71.0,
+    "y": 63.3,
+    "label": "Cerebellum"
+   },
+   {
+    "id": "medulla",
+    "x": 56.8,
+    "y": 81.7,
+    "label": "Medulla (hind-brain)"
+   },
+   {
+    "id": "cord",
+    "x": 56.8,
+    "y": 96.7,
+    "label": "Spinal cord"
+   }
+  ],
+  "answer": "medulla",
+  "hint": "It is the lower part of the brain stem, just above the spinal cord.",
+  "explanation": "The **medulla** in the hind-brain controls involuntary actions like blood pressure, salivation and vomiting. The spinal cord below it is not part of the brain."
+ },
+ {
+  "id": "in-cbse-10-bio-control-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Human brain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which actions are **involuntary** and controlled by the medulla? Select all that apply.",
+  "image": {
+   "src": "/img/c10-control/brain.svg",
+   "alt": "Side view of the human brain showing the fore-brain, mid-brain, cerebellum, medulla and the start of the spinal cord"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Changes in blood pressure"
+   },
+   {
+    "id": "b",
+    "text": "Salivation"
+   },
+   {
+    "id": "c",
+    "text": "Vomiting"
+   },
+   {
+    "id": "d",
+    "text": "Writing a letter"
+   },
+   {
+    "id": "e",
+    "text": "Walking in a straight line"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "Can you decide to do it by thinking?",
+  "explanation": "The medulla controls involuntary actions: **blood pressure, salivation and vomiting**. Writing is a voluntary action planned by the fore-brain, and walking in a straight line needs the cerebellum for balance and precision."
+ },
+ {
+  "id": "in-cbse-10-bio-control-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Human brain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each part of the nervous system with its function.",
+  "image": {
+   "src": "/img/c10-control/brain.svg",
+   "alt": "Side view of the human brain showing the fore-brain, mid-brain, cerebellum, medulla and the start of the spinal cord"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Fore-brain"
+   },
+   {
+    "id": "l2",
+    "text": "Medulla"
+   },
+   {
+    "id": "l3",
+    "text": "Cerebellum"
+   },
+   {
+    "id": "l4",
+    "text": "Spinal cord"
+   }
+  ],
+  "right": [
+   {
+    "id": "r3",
+    "text": "Precision of voluntary actions, posture and balance"
+   },
+   {
+    "id": "r1",
+    "text": "Thinking, receiving sensory impulses and the hunger centre"
+   },
+   {
+    "id": "r4",
+    "text": "Reflex arcs are formed here"
+   },
+   {
+    "id": "r2",
+    "text": "Controls blood pressure, salivation and vomiting"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Reflex arcs do not go through the thinking part of the brain.",
+  "explanation": "The **fore-brain** thinks and has sensory and motor areas; the **medulla** controls involuntary actions; the **cerebellum** gives precision and balance; reflex arcs are formed in the **spinal cord**."
+ },
+ {
+  "id": "in-cbse-10-bio-control-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Protection",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which structure protects the **spinal cord**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The vertebral column (backbone)"
+   },
+   {
+    "id": "b",
+    "text": "The skull"
+   },
+   {
+    "id": "c",
+    "text": "The fluid-filled balloon around the brain"
+   },
+   {
+    "id": "d",
+    "text": "The muscles of the arm"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-control/brain-protect.svg",
+   "alt": "The brain sits inside a bony skull and a fluid-filled balloon; the spinal cord runs inside the vertebral column"
+  },
+  "hint": "Run your hand down your back to feel it.",
+  "explanation": "The **vertebral column** protects the spinal cord. The brain is protected by the bony **skull** and the **fluid-filled balloon** inside it, which absorbs shocks."
+ },
+ {
+  "id": "in-cbse-10-bio-control-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Muscle action",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "How does a muscle cell **move** when a nerve impulse reaches it?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The cell absorbs water and swells without changing length"
+   },
+   {
+    "id": "b",
+    "text": "The cell grows longer by dividing"
+   },
+   {
+    "id": "c",
+    "text": "The cell moves along the nerve like a vehicle"
+   },
+   {
+    "id": "d",
+    "text": "Special proteins change their shape and arrangement so that the cell becomes shorter"
+   }
+  ],
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-control/muscle-contract.svg",
+   "alt": "A nerve impulse reaches a muscle fibre and the muscle cell shortens as its proteins rearrange"
+  },
+  "hint": "Animal muscle cells use proteins; plant cells use water.",
+  "explanation": "Muscle cells have **special proteins** that change shape and arrangement in response to nerve impulses, giving a **shorter** cell. Plants, which have no muscle, instead change cell shape by changing water content."
+ },
+ {
+  "id": "in-cbse-10-bio-control-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Reflex arc",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the path of a **reflex action** when you touch a hot object.",
+  "image": {
+   "src": "/img/c10-control/reflex-arc.svg",
+   "alt": "A reflex arc: heat receptor in the skin, sensory neuron, spinal cord, motor neuron and muscle, with an impulse travelling along it"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Impulse passes to a motor neuron in the spinal cord"
+   },
+   {
+    "id": "s1",
+    "text": "Receptors in the skin detect heat"
+   },
+   {
+    "id": "s4",
+    "text": "Motor neuron carries the impulse to the muscle"
+   },
+   {
+    "id": "s2",
+    "text": "Sensory neuron carries the impulse to the spinal cord"
+   },
+   {
+    "id": "s5",
+    "text": "Muscle contracts and the hand is pulled away"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "Stimulus",
+  "endLabel": "Response",
+  "hint": "Input first, then spinal cord, then output.",
+  "explanation": "The reflex arc runs: **receptor, sensory neuron, spinal cord (connection), motor neuron, effector (muscle)**. The brain is informed too, but the action does not wait for it."
+ },
+ {
+  "id": "in-cbse-10-bio-control-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Reflex arc",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the part where the **reflex arc connection** between input and output nerves is made.",
+  "image": {
+   "src": "/img/c10-control/reflex-arc.svg",
+   "alt": "A reflex arc: heat receptor in the skin, sensory neuron, spinal cord, motor neuron and muscle, with an impulse travelling along it"
+  },
+  "spots": [
+   {
+    "id": "receptor",
+    "x": 20.0,
+    "y": 79.2,
+    "label": "Receptor (in the skin)"
+   },
+   {
+    "id": "sensory",
+    "x": 31.2,
+    "y": 66.7,
+    "label": "Sensory neuron"
+   },
+   {
+    "id": "cord",
+    "x": 51.2,
+    "y": 60.8,
+    "label": "Spinal cord"
+   },
+   {
+    "id": "motor",
+    "x": 73.0,
+    "y": 71.2,
+    "label": "Motor neuron"
+   },
+   {
+    "id": "muscle",
+    "x": 84.5,
+    "y": 82.5,
+    "label": "Effector (muscle)"
+   },
+   {
+    "id": "brain",
+    "x": 51.2,
+    "y": 16.7,
+    "label": "Brain"
+   }
+  ],
+  "answer": "cord",
+  "hint": "Nerves from all over the body first meet in a bundle here.",
+  "explanation": "Nerves from all over the body meet in a bundle in the **spinal cord**, so reflex arcs are formed there. The brain is not needed for the reflex itself."
+ },
+ {
+  "id": "in-cbse-10-bio-control-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Reflex arc",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the nerve cell that **carries the heat signal from the skin to the spinal cord**.",
+  "image": {
+   "src": "/img/c10-control/reflex-arc.svg",
+   "alt": "A reflex arc: heat receptor in the skin, sensory neuron, spinal cord, motor neuron and muscle, with an impulse travelling along it"
+  },
+  "spots": [
+   {
+    "id": "receptor",
+    "x": 20.0,
+    "y": 79.2,
+    "label": "Receptor (in the skin)"
+   },
+   {
+    "id": "sensory",
+    "x": 31.2,
+    "y": 66.7,
+    "label": "Sensory neuron"
+   },
+   {
+    "id": "cord",
+    "x": 51.2,
+    "y": 60.8,
+    "label": "Spinal cord"
+   },
+   {
+    "id": "motor",
+    "x": 73.0,
+    "y": 71.2,
+    "label": "Motor neuron"
+   },
+   {
+    "id": "muscle",
+    "x": 84.5,
+    "y": 82.5,
+    "label": "Effector (muscle)"
+   }
+  ],
+  "answer": "sensory",
+  "hint": "It carries input towards the centre.",
+  "explanation": "The **sensory neuron** carries impulses from the receptor to the spinal cord. The **motor neuron** carries the output from the cord to the muscle (effector), and the receptor is only the sensing tip."
+ },
+ {
+  "id": "in-cbse-10-bio-control-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Reflex arc",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-control/reflex-arc.svg",
+   "alt": "A reflex arc: heat receptor in the skin, sensory neuron, spinal cord, motor neuron and muscle, with an impulse travelling along it"
+  },
+  "assertion": "Reflex arcs are formed in the spinal cord.",
+  "reason": "Nerves from all over the body meet in a bundle in the spinal cord, where input and output nerves first meet.",
+  "answer": "a",
+  "hint": "Think about the shortest connection between input and output.",
+  "explanation": "Both are true and R explains A. The spinal cord is where input and output nerves first meet, so the simplest connection (reflex arc) is formed there, giving a quick response."
+ },
+ {
+  "id": "in-cbse-10-bio-control-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Spinal cord",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A person has an injury that cuts the spinal cord in the middle of the back. Which signals are disrupted?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Only the signals from the brain to the legs"
+   },
+   {
+    "id": "b",
+    "text": "Impulses between the brain and the body below the injury, in both directions"
+   },
+   {
+    "id": "c",
+    "text": "Only the sensations from the legs to the brain"
+   },
+   {
+    "id": "d",
+    "text": "None, since the brain controls the whole body directly"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-control/spinal-injury.svg",
+   "alt": "Side view of the backbone with a damaged spinal cord; impulses from below and commands from the brain are blocked at the injury"
+  },
+  "hint": "The spinal cord carries messages both up and down.",
+  "explanation": "The spinal cord carries sensory impulses **up to the brain** and motor commands **down from the brain**. A cut blocks both ways below the injury. The brain cannot reach muscles directly; it needs the cord and nerves, so the other options are incomplete or wrong."
+ },
+ {
+  "id": "in-cbse-10-bio-control-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Human brain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-control/brain.svg",
+   "alt": "Side view of the human brain showing the fore-brain, mid-brain, cerebellum, medulla and the start of the spinal cord"
+  },
+  "assertion": "The medulla controls salivation and vomiting.",
+  "reason": "The medulla is a part of the hind-brain.",
+  "answer": "b",
+  "hint": "Is the fact in R the reason for A?",
+  "explanation": "Both are true, but R does not explain A. The medulla controls these involuntary actions because of its connections and role, not simply because it is in the hind-brain (the cerebellum is also in the hind-brain but does a different job)."
+ },
+ {
+  "id": "in-cbse-10-bio-control-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant movement",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The leaves of a sensitive plant fold when touched. This movement is",
+  "options": [
+   {
+    "id": "a",
+    "text": "independent of growth"
+   },
+   {
+    "id": "b",
+    "text": "caused by growth of the leaf stalk"
+   },
+   {
+    "id": "c",
+    "text": "controlled by muscles in the leaf"
+   },
+   {
+    "id": "d",
+    "text": "controlled by a nervous system in the stem"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-control/mimosa.svg",
+   "alt": "A sensitive plant: touching a leaf makes the leaflets fold and the leaf stalks droop within seconds"
+  },
+  "hint": "The leaves move within seconds.",
+  "explanation": "The sensitive plant's leaf movement is **quick and not related to growth**. Plants have neither muscles nor nerves; the information is passed from cell to cell by electrical-chemical means. Directional growth movements (like a seedling) are slow and depend on growth."
+ },
+ {
+  "id": "in-cbse-10-bio-control-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant movement",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "How do cells in a sensitive plant change shape so that the leaf droops?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Special muscle proteins shorten the cells"
+   },
+   {
+    "id": "b",
+    "text": "Cells divide rapidly on one side"
+   },
+   {
+    "id": "c",
+    "text": "By changing the amount of water in them, so they swell or shrink"
+   },
+   {
+    "id": "d",
+    "text": "They secrete auxin on the shady side"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-control/turgor-cells.svg",
+   "alt": "Before touch the cells at the base of a sensitive plant leaf are swollen with water; after touch water leaves, the cells shrink and the leaf droops"
+  },
+  "hint": "Plants have no muscle proteins.",
+  "explanation": "Plant cells change shape by **gaining or losing water**: swelling or shrinking. Special proteins are what animal muscle cells use, cell division is a growth process, and auxin is linked to growth movements, not the quick touch response."
+ },
+ {
+  "id": "in-cbse-10-bio-control-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Tropic movements",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A pea tendril coils around a support because",
+  "options": [
+   {
+    "id": "a",
+    "text": "the part in contact grows faster than the far side"
+   },
+   {
+    "id": "b",
+    "text": "the part in contact with the support grows more slowly than the part away from it"
+   },
+   {
+    "id": "c",
+    "text": "the tendril has muscles that contract"
+   },
+   {
+    "id": "d",
+    "text": "the tendril shrinks in the light"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-control/tendril.svg",
+   "alt": "A pea tendril coiling round a support because the side touching it grows more slowly than the far side"
+  },
+  "hint": "Think about which side is longer when a tendril curls.",
+  "explanation": "When the tendril touches a support, the side in contact **grows less rapidly** than the far side. The faster-growing outer side makes the tendril circle round and cling to the support. This is a growth movement, not muscle action."
+ },
+ {
+  "id": "in-cbse-10-bio-control-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Phototropism",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Bean seedlings are kept in a box open towards a window on the **right** for a few days (Activity 6.2). Which picture shows the result?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Shoot and root both bend right",
+    "image": {
+     "src": "/img/c10-control/t-shoot-b.svg",
+     "alt": "Shoot and root both bend right, towards the light"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Shoot bends right towards the light and root bends left, away from it",
+    "image": {
+     "src": "/img/c10-control/t-shoot-a.svg",
+     "alt": "Shoot bends right towards the light and root bends left, away from it"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Shoot bends left and root bends right",
+    "image": {
+     "src": "/img/c10-control/t-shoot-c.svg",
+     "alt": "Shoot bends left away from the light and root bends right"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Shoot and root both stay straight",
+    "image": {
+     "src": "/img/c10-control/t-shoot-d.svg",
+     "alt": "Shoot and root both grow straight"
+    }
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-control/phototropism-flask.svg",
+   "alt": "Bean seedlings on a flask inside a box open towards a window: shoots bend towards the light and roots bend away from it"
+  },
+  "hint": "Shoots go towards light, roots away.",
+  "explanation": "Shoots show **positive phototropism** (bend towards light) and roots bend **away** from it. Turning the flask later changes only the direction of **new growth**; old parts keep their bend."
+ },
+ {
+  "id": "in-cbse-10-bio-control-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the place where the plant hormone **auxin** is **synthesised**.",
+  "image": {
+   "src": "/img/c10-control/auxin-shoot.svg",
+   "alt": "A shoot with light shining from the right; auxin made at the tip moves down the shaded left side where cells grow longer"
+  },
+  "spots": [
+   {
+    "id": "tip",
+    "x": 50.0,
+    "y": 32.5,
+    "label": "Shoot tip (auxin is made here)"
+   },
+   {
+    "id": "shaded",
+    "x": 43.8,
+    "y": 62.5,
+    "label": "Shaded side (auxin gathers, cells grow longer)"
+   },
+   {
+    "id": "lit",
+    "x": 56.2,
+    "y": 62.5,
+    "label": "Side facing the light"
+   },
+   {
+    "id": "base",
+    "x": 50.0,
+    "y": 89.2,
+    "label": "Base of the shoot"
+   }
+  ],
+  "answer": "tip",
+  "hint": "It is made where growth is directed from.",
+  "explanation": "Auxin is synthesised at the **shoot tip**. When light comes from one side, it diffuses down towards the shady side."
+ },
+ {
+  "id": "in-cbse-10-bio-control-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Light falls on a shoot from the right. Which picture shows the distribution of **auxin**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Auxin gathered on the right, lit side",
+    "image": {
+     "src": "/img/c10-control/t-auxin-b.svg",
+     "alt": "Auxin dots gathered on the right side, facing the light"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Auxin spread evenly on both sides",
+    "image": {
+     "src": "/img/c10-control/t-auxin-c.svg",
+     "alt": "Auxin dots spread evenly on both sides"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Auxin gathered on the left, shaded side",
+    "image": {
+     "src": "/img/c10-control/t-auxin-a.svg",
+     "alt": "Auxin dots gathered on the left, shaded side of the shoot"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Auxin only at the very tip",
+    "image": {
+     "src": "/img/c10-control/t-auxin-d.svg",
+     "alt": "Auxin dots only at the very tip"
+    }
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-control/auxin-shoot.svg",
+   "alt": "A shoot with light shining from the right; auxin made at the tip moves down the shaded left side where cells grow longer"
+  },
+  "hint": "Auxin moves away from light.",
+  "explanation": "Auxin diffuses towards the **shady side**, making cells there grow **longer**, so the shoot bends towards the light. If auxin stayed even or gathered on the lit side, the shoot would not bend towards the light."
+ },
+ {
+  "id": "in-cbse-10-bio-control-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the events that make a shoot **bend towards light**.",
+  "image": {
+   "src": "/img/c10-control/auxin-shoot.svg",
+   "alt": "A shoot with light shining from the right; auxin made at the tip moves down the shaded left side where cells grow longer"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Auxin diffuses to the shady side"
+   },
+   {
+    "id": "s1",
+    "text": "Light shines on the shoot from one side"
+   },
+   {
+    "id": "s4",
+    "text": "Cells on the shady side grow longer"
+   },
+   {
+    "id": "s2",
+    "text": "Auxin is made at the shoot tip"
+   },
+   {
+    "id": "s5",
+    "text": "Shoot bends towards the light"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Auxin goes to the shady side, then growth, then bending.",
+  "explanation": "Auxin made at the shoot tip diffuses towards the **shady side**, stimulating those cells to grow longer; the longer cells push the shoot so that it **appears to bend towards light**."
+ },
+ {
+  "id": "in-cbse-10-bio-control-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-control/auxin-shoot.svg",
+   "alt": "A shoot with light shining from the right; auxin made at the tip moves down the shaded left side where cells grow longer"
+  },
+  "assertion": "Auxin makes the cells on the side of the shoot facing the light grow longer.",
+  "reason": "Auxin diffuses towards the shady side of the shoot.",
+  "answer": "d",
+  "hint": "On which side does auxin gather?",
+  "explanation": "A is false: auxin makes cells on the **shady** side grow longer. R is true: auxin diffuses towards the shady side. That causes the shoot to bend towards light."
+ },
+ {
+  "id": "in-cbse-10-bio-control-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Tropism",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "The upward growth of shoots and downward growth of roots in response to the pull of the earth is called",
+  "options": [
+   {
+    "id": "a",
+    "text": "phototropism"
+   },
+   {
+    "id": "b",
+    "text": "hydrotropism"
+   },
+   {
+    "id": "c",
+    "text": "chemotropism"
+   },
+   {
+    "id": "d",
+    "text": "geotropism"
+   }
+  ],
+  "answer": "d",
+  "image": {
+   "src": "/img/c10-control/geotropism.svg",
+   "alt": "A germinating seed with the root growing down towards gravity and the shoot growing upwards"
+  },
+  "hint": "'Geo' refers to the earth.",
+  "explanation": "**Geotropism** is directional growth in response to **gravity**. Phototropism is to light, hydrotropism to water and chemotropism to chemicals (for example pollen tubes growing towards ovules)."
+ },
+ {
+  "id": "in-cbse-10-bio-control-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Tropism",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A root grows sideways through the soil towards a patch of damp soil. Which picture shows this **hydrotropism**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Root curving towards the wet soil",
+    "image": {
+     "src": "/img/c10-control/t-hydro-a.svg",
+     "alt": "Root curving towards the wet soil on the right"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Root curving away from the wet soil",
+    "image": {
+     "src": "/img/c10-control/t-hydro-b.svg",
+     "alt": "Root curving away from the wet soil, to the left"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Root growing straight down",
+    "image": {
+     "src": "/img/c10-control/t-hydro-c.svg",
+     "alt": "Root growing straight down"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Root curling back upwards",
+    "image": {
+     "src": "/img/c10-control/t-hydro-d.svg",
+     "alt": "Root curling back upwards"
+    }
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-control/hydrotropism.svg",
+   "alt": "A root growing sideways through soil towards a patch of wet soil"
+  },
+  "hint": "Hydro means water, tropism means growth movement.",
+  "explanation": "In **hydrotropism** roots grow towards water. The root bends towards the wet patch."
+ },
+ {
+  "id": "in-cbse-10-bio-control-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Tropism",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each directional growth movement with its stimulus.",
+  "image": {
+   "src": "/img/c10-control/geotropism.svg",
+   "alt": "A germinating seed with the root growing down towards gravity and the shoot growing upwards"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Phototropism",
+    "image": {
+     "src": "/img/c10-control/t-shoot-a.svg",
+     "alt": "Shoot bends right towards the light and root bends left, away from it"
+    }
+   },
+   {
+    "id": "l2",
+    "text": "Geotropism",
+    "image": {
+     "src": "/img/c10-control/geotropism.svg",
+     "alt": "A germinating seed with the root growing down towards gravity and the shoot growing upwards"
+    }
+   },
+   {
+    "id": "l3",
+    "text": "Hydrotropism",
+    "image": {
+     "src": "/img/c10-control/t-hydro-a.svg",
+     "alt": "Root curving towards the wet soil on the right"
+    }
+   },
+   {
+    "id": "l4",
+    "text": "Chemotropism",
+    "image": {
+     "src": "/img/c10-control/pollen-tube.svg",
+     "alt": "A pollen tube growing down the style towards the ovule, guided by chemicals released by the ovule"
+    }
+   }
+  ],
+  "right": [
+   {
+    "id": "r4",
+    "text": "Chemicals"
+   },
+   {
+    "id": "r1",
+    "text": "Light"
+   },
+   {
+    "id": "r3",
+    "text": "Water"
+   },
+   {
+    "id": "r2",
+    "text": "Gravity"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Hydro = water, chemo = chemicals.",
+  "explanation": "Phototropism responds to **light**, geotropism to **gravity**, hydrotropism to **water**, chemotropism to **chemicals**, for example pollen tubes growing towards ovules."
+ },
+ {
+  "id": "in-cbse-10-bio-control-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Speed of response",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these plant movements from the **fastest** to the **slowest**.",
+  "image": {
+   "src": "/img/c10-control/mimosa.svg",
+   "alt": "A sensitive plant: touching a leaf makes the leaflets fold and the leaf stalks droop within seconds"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Shoot bends towards light over several days",
+    "image": {
+     "src": "/img/c10-control/t-shoot-a.svg",
+     "alt": "Shoot bends right towards the light and root bends left, away from it"
+    }
+   },
+   {
+    "id": "s1",
+    "text": "Sensitive plant folds its leaves on touch",
+    "image": {
+     "src": "/img/c10-control/mimosa.svg",
+     "alt": "A sensitive plant: touching a leaf makes the leaflets fold and the leaf stalks droop within seconds"
+    }
+   },
+   {
+    "id": "s2",
+    "text": "Sunflower head follows the sun through the day",
+    "image": {
+     "src": "/img/c10-control/sunflower.svg",
+     "alt": "A sunflower head slowly turning to follow the sun across the sky from morning to evening"
+    }
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3"
+  ],
+  "startLabel": "Fastest",
+  "endLabel": "Slowest",
+  "hint": "Touch response needs no growth.",
+  "explanation": "The sensitive plant responds in seconds, the sunflower follows the sun slowly over a day, and growth-related movement such as a shoot bending is even slower."
+ },
+ {
+  "id": "in-cbse-10-bio-control-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these plant hormones help in **promoting growth**? Select all that apply.",
+  "image": {
+   "src": "/img/c10-control/gibberellin-stem.svg",
+   "alt": "A short stem next to a tall stem that has grown longer under the effect of gibberellins"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Auxin"
+   },
+   {
+    "id": "b",
+    "text": "Gibberellins"
+   },
+   {
+    "id": "c",
+    "text": "Cytokinins"
+   },
+   {
+    "id": "d",
+    "text": "Abscisic acid"
+   },
+   {
+    "id": "e",
+    "text": "Insulin"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "Abscisic acid is the one that stops growth.",
+  "explanation": "**Auxin** and **gibberellins** help the stem grow and **cytokinins** promote cell division. **Abscisic acid** inhibits growth (causing wilting of leaves). **Insulin** is an animal hormone."
+ },
+ {
+  "id": "in-cbse-10-bio-control-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each plant hormone with its effect.",
+  "image": {
+   "src": "/img/c10-control/plant-hormones.svg",
+   "alt": "A potted plant showing growing shoot tip, lengthening stem, a fruit with seeds and a drooping leaf"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Auxin"
+   },
+   {
+    "id": "l2",
+    "text": "Gibberellins"
+   },
+   {
+    "id": "l3",
+    "text": "Cytokinins"
+   },
+   {
+    "id": "l4",
+    "text": "Abscisic acid"
+   }
+  ],
+  "right": [
+   {
+    "id": "r2",
+    "text": "Help in the growth of the stem"
+   },
+   {
+    "id": "r4",
+    "text": "Inhibits growth and causes wilting"
+   },
+   {
+    "id": "r1",
+    "text": "Helps cells at the shoot tip grow longer"
+   },
+   {
+    "id": "r3",
+    "text": "Promote cell division"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Cytokinesis means cell division.",
+  "explanation": "**Auxin** lengthens cells, **gibberellins** help stem growth, **cytokinins** promote cell division (high in fruits and seeds), and **abscisic acid** inhibits growth."
+ },
+ {
+  "id": "in-cbse-10-bio-control-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which plant hormone **inhibits growth** and its effects include wilting of leaves?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Auxin"
+   },
+   {
+    "id": "b",
+    "text": "Abscisic acid"
+   },
+   {
+    "id": "c",
+    "text": "Gibberellin"
+   },
+   {
+    "id": "d",
+    "text": "Cytokinin"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-control/aba-wilt.svg",
+   "alt": "A healthy plant beside a plant whose leaves droop and wilt under abscisic acid, a growth inhibitor"
+  },
+  "hint": "Plants also need a signal to stop growing.",
+  "explanation": "**Abscisic acid** stops growth and is linked to wilting. Auxin, gibberellins and cytokinins promote growth."
+ },
+ {
+  "id": "in-cbse-10-bio-control-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Plant hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Cytokinins are present in greater concentration in areas of rapid cell division, such as",
+  "options": [
+   {
+    "id": "a",
+    "text": "fruits and seeds"
+   },
+   {
+    "id": "b",
+    "text": "mature leaves only"
+   },
+   {
+    "id": "c",
+    "text": "dead bark"
+   },
+   {
+    "id": "d",
+    "text": "root caps only"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-control/cytokinin-divide.svg",
+   "alt": "Cells dividing again and again in a fruit with seeds, where cytokinins are most concentrated"
+  },
+  "hint": "Rapid cell division is common in young fruits and seeds.",
+  "explanation": "Cytokinins **promote cell division**, so they are more concentrated where cells divide rapidly, such as in **fruits and seeds**."
+ },
+ {
+  "id": "in-cbse-10-bio-control-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Hormones",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Why do most multicellular organisms use **chemical communication** in addition to electrical impulses?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Electrical impulses are slower than chemicals"
+   },
+   {
+    "id": "b",
+    "text": "Hormones need nerve tissue to reach every cell"
+   },
+   {
+    "id": "c",
+    "text": "Electrical impulses reach only connected cells and a cell needs time to reset before sending a new impulse, whereas hormones can reach all cells steadily"
+   },
+   {
+    "id": "d",
+    "text": "Cells can send electrical impulses continuously without rest"
+   }
+  ],
+  "answer": "c",
+  "image": {
+   "src": "/img/c10-control/nerve-vs-hormone.svg",
+   "alt": "A nerve impulse racing along a nerve to one connected cell compared with hormone molecules slowly spreading to many cells"
+  },
+  "hint": "Think of two limitations of electrical impulses.",
+  "explanation": "Electrical impulses are an excellent fast means, but (1) they reach only cells **connected by nervous tissue** and (2) a cell needs time to **reset** before another impulse. Chemical signals diffuse to all cells and can act steadily and persistently, although slower."
+ },
+ {
+  "id": "in-cbse-10-bio-control-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which statements about **hormonal (chemical) coordination** are correct? Select all that apply.",
+  "image": {
+   "src": "/img/c10-control/nerve-vs-hormone.svg",
+   "alt": "A nerve impulse racing along a nerve to one connected cell compared with hormone molecules slowly spreading to many cells"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It is slower than nerve impulses"
+   },
+   {
+    "id": "b",
+    "text": "It can reach all cells of the body"
+   },
+   {
+    "id": "c",
+    "text": "It can be steady and persistent"
+   },
+   {
+    "id": "d",
+    "text": "It needs nerve connections to every cell"
+   },
+   {
+    "id": "e",
+    "text": "It uses electrical impulses"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "Hormones travel by diffusion or blood.",
+  "explanation": "Hormones are slower but can reach **every cell** and work steadily. They do not need nerves to every cell and they are chemical, not electrical."
+ },
+ {
+  "id": "in-cbse-10-bio-control-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Nervous vs hormonal",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-control/nerve-vs-hormone.svg",
+   "alt": "A nerve impulse racing along a nerve to one connected cell compared with hormone molecules slowly spreading to many cells"
+  },
+  "assertion": "Nervous coordination is faster than hormonal coordination.",
+  "reason": "Electrical impulses can reach each and every cell of the animal body.",
+  "answer": "c",
+  "hint": "Do impulses reach cells without nerve connections?",
+  "explanation": "A is true: impulses travel quickly. R is false: impulses reach only cells **connected by nervous tissue**. Hormones can reach every cell."
+ },
+ {
+  "id": "in-cbse-10-bio-control-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Adrenaline",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A squirrel is scared. Why is a **chemical signal** (adrenaline) more useful here than only nerve impulses?",
+  "options": [
+   {
+    "id": "a",
+    "text": "It reaches all cells of the body, bringing the wide-ranging changes needed for either fighting or running"
+   },
+   {
+    "id": "b",
+    "text": "Nerves cannot carry any signals in an emergency"
+   },
+   {
+    "id": "c",
+    "text": "It works much faster than nerve impulses"
+   },
+   {
+    "id": "d",
+    "text": "It only affects the brain"
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-control/squirrel-scared.svg",
+   "alt": "A frightened squirrel facing a growling dog must either run away or fight, so its body prepares for both"
+  },
+  "hint": "Both fighting and running need many tissues to prepare.",
+  "explanation": "Nerve impulses would reach only a limited set of tissues. **Adrenaline**, secreted into the blood, reaches many tissues and prepares the body for both running and fighting. It is not faster than nerves and it does not act only on the brain."
+ },
+ {
+  "id": "in-cbse-10-bio-control-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Endocrine system",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the gland that secretes **adrenaline**.",
+  "image": {
+   "src": "/img/c10-control/endocrine.svg",
+   "alt": "A human body outline with the pituitary in the head, thyroid in the neck, adrenal glands above the kidneys, pancreas and ovaries"
+  },
+  "spots": [
+   {
+    "id": "pituitary",
+    "x": 50.0,
+    "y": 11.3,
+    "label": "Pituitary gland"
+   },
+   {
+    "id": "thyroid",
+    "x": 50.0,
+    "y": 24.0,
+    "label": "Thyroid gland"
+   },
+   {
+    "id": "adrenal",
+    "x": 43.0,
+    "y": 39.7,
+    "label": "Adrenal gland"
+   },
+   {
+    "id": "pancreas",
+    "x": 53.5,
+    "y": 50.7,
+    "label": "Pancreas"
+   },
+   {
+    "id": "ovary",
+    "x": 45.0,
+    "y": 61.3,
+    "label": "Ovary"
+   }
+  ],
+  "answer": "adrenal",
+  "hint": "It sits just above the kidneys.",
+  "explanation": "The **adrenal glands**, above the kidneys, secrete adrenaline directly into the blood."
+ },
+ {
+  "id": "in-cbse-10-bio-control-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Adrenaline",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which are responses to **adrenaline** secreted into the blood? Select all that apply.",
+  "image": {
+   "src": "/img/c10-control/adrenaline-body.svg",
+   "alt": "Adrenaline from the adrenal gland travels in the blood: the heart beats faster, more blood goes to the muscles and less to the gut and skin"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The heart beats faster"
+   },
+   {
+    "id": "b",
+    "text": "Breathing rate increases"
+   },
+   {
+    "id": "c",
+    "text": "Blood flow to the digestive system and skin decreases"
+   },
+   {
+    "id": "d",
+    "text": "Blood is diverted to the skeletal muscles"
+   },
+   {
+    "id": "e",
+    "text": "Blood flow to the digestive system increases"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "hint": "Adrenaline gets the body ready for action.",
+  "explanation": "Adrenaline makes the heart beat faster, increases breathing, narrows arteries to digestive system and skin, and diverts blood to skeletal muscles. More blood to the gut is the opposite."
+ },
+ {
+  "id": "in-cbse-10-bio-control-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Adrenaline",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "How does adrenaline reduce blood flow to the digestive system and skin?",
+  "options": [
+   {
+    "id": "a",
+    "text": "The heart stops pumping blood there"
+   },
+   {
+    "id": "b",
+    "text": "Muscles around small arteries in those organs contract"
+   },
+   {
+    "id": "c",
+    "text": "The blood vessels burst"
+   },
+   {
+    "id": "d",
+    "text": "Hormones are not released there"
+   }
+  ],
+  "answer": "b",
+  "image": {
+   "src": "/img/c10-control/adrenaline-body.svg",
+   "alt": "Adrenaline from the adrenal gland travels in the blood: the heart beats faster, more blood goes to the muscles and less to the gut and skin"
+  },
+  "hint": "Contraction narrows a tube.",
+  "explanation": "Contraction of muscles around small arteries in these organs narrows them, diverting blood to the **skeletal muscles**."
+ },
+ {
+  "id": "in-cbse-10-bio-control-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Endocrine system",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the **thyroid gland**, which needs iodine to make thyroxin.",
+  "image": {
+   "src": "/img/c10-control/endocrine.svg",
+   "alt": "A human body outline with the pituitary in the head, thyroid in the neck, adrenal glands above the kidneys, pancreas and ovaries"
+  },
+  "spots": [
+   {
+    "id": "pituitary",
+    "x": 50.0,
+    "y": 11.3,
+    "label": "Pituitary gland"
+   },
+   {
+    "id": "thyroid",
+    "x": 50.0,
+    "y": 24.0,
+    "label": "Thyroid gland"
+   },
+   {
+    "id": "adrenal",
+    "x": 43.0,
+    "y": 39.7,
+    "label": "Adrenal gland"
+   },
+   {
+    "id": "pancreas",
+    "x": 53.5,
+    "y": 50.7,
+    "label": "Pancreas"
+   },
+   {
+    "id": "ovary",
+    "x": 45.0,
+    "y": 61.3,
+    "label": "Ovary"
+   }
+  ],
+  "answer": "thyroid",
+  "hint": "It lies in the neck.",
+  "explanation": "The **thyroid gland** is in the neck. A swollen neck (goitre) is a symptom of iodine deficiency."
+ },
+ {
+  "id": "in-cbse-10-bio-control-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Hormone disorders",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each deficiency or problem with the condition it causes.",
+  "image": {
+   "src": "/img/c10-control/insulin-feedback.svg",
+   "alt": "A feedback loop: rising blood sugar makes the pancreas release more insulin, sugar falls, and insulin release is reduced"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Iodine deficiency in the diet",
+    "image": {
+     "src": "/img/c10-control/t-goitre.svg",
+     "alt": "A person with a swollen neck"
+    }
+   },
+   {
+    "id": "l2",
+    "text": "Growth hormone deficiency in childhood",
+    "image": {
+     "src": "/img/c10-control/t-grow-dwarf.svg",
+     "alt": "A very short adult standing next to an average-height person"
+    }
+   },
+   {
+    "id": "l3",
+    "text": "Insufficient insulin",
+    "image": {
+     "src": "/img/c10-control/t-diabetes.svg",
+     "alt": "A drop of blood loaded with sugar cubes next to an insulin syringe"
+    }
+   }
+  ],
+  "right": [
+   {
+    "id": "r3",
+    "text": "High blood sugar (diabetes)"
+   },
+   {
+    "id": "r1",
+    "text": "Goitre"
+   },
+   {
+    "id": "r2",
+    "text": "Dwarfism"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3"
+  },
+  "hint": "Match iodine to thyroid, growth hormone to height.",
+  "explanation": "Iodine is needed for thyroxin, so deficiency can cause **goitre**; lack of **growth hormone** in childhood causes **dwarfism**; insufficient **insulin** raises blood sugar, as in **diabetes**."
+ },
+ {
+  "id": "in-cbse-10-bio-control-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Thyroid",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-control/goitre.svg",
+   "alt": "Iodine from iodised salt feeds the thyroid gland; a normal thyroid beside a swollen thyroid causing goitre"
+  },
+  "assertion": "Iodised salt is advisable in our diet.",
+  "reason": "Iodine is essential for the thyroid gland to make thyroxin.",
+  "answer": "a",
+  "hint": "What does thyroxin need?",
+  "explanation": "Both true and R explains A. Iodine deficiency can cause goitre (swollen neck)."
+ },
+ {
+  "id": "in-cbse-10-bio-control-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Growth hormone",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Deficiency of **growth hormone** in childhood leads to which condition? Choose the picture.",
+  "options": [
+   {
+    "id": "a",
+    "text": "A very short adult (dwarfism)",
+    "image": {
+     "src": "/img/c10-control/t-grow-dwarf.svg",
+     "alt": "A very short adult standing next to an average-height person"
+    }
+   },
+   {
+    "id": "b",
+    "text": "An extremely tall person (giant)",
+    "image": {
+     "src": "/img/c10-control/t-grow-giant.svg",
+     "alt": "An extremely tall person standing next to an average-height person"
+    }
+   },
+   {
+    "id": "c",
+    "text": "A swollen neck (goitre)",
+    "image": {
+     "src": "/img/c10-control/t-goitre.svg",
+     "alt": "A person with a swollen neck"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Two people of the same height (normal)",
+    "image": {
+     "src": "/img/c10-control/t-grow-normal.svg",
+     "alt": "Two people of the same average height"
+    }
+   }
+  ],
+  "answer": "a",
+  "image": {
+   "src": "/img/c10-control/endocrine.svg",
+   "alt": "A human body outline with the pituitary in the head, thyroid in the neck, adrenal glands above the kidneys, pancreas and ovaries"
+  },
+  "hint": "Growth hormone comes from the pituitary.",
+  "explanation": "Growth hormone is secreted by the **pituitary**. Deficiency in childhood leads to **dwarfism**."
+ },
+ {
+  "id": "in-cbse-10-bio-control-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Hormones",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each hormone with the gland that produces it.",
+  "image": {
+   "src": "/img/c10-control/endocrine.svg",
+   "alt": "A human body outline with the pituitary in the head, thyroid in the neck, adrenal glands above the kidneys, pancreas and ovaries"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Insulin"
+   },
+   {
+    "id": "l2",
+    "text": "Thyroxin"
+   },
+   {
+    "id": "l3",
+    "text": "Adrenaline"
+   },
+   {
+    "id": "l4",
+    "text": "Testosterone"
+   }
+  ],
+  "right": [
+   {
+    "id": "r2",
+    "text": "Thyroid gland"
+   },
+   {
+    "id": "r4",
+    "text": "Testes"
+   },
+   {
+    "id": "r1",
+    "text": "Pancreas"
+   },
+   {
+    "id": "r3",
+    "text": "Adrenal gland"
+   }
+  ],
+  "pairs": {
+   "l1": "r1",
+   "l2": "r2",
+   "l3": "r3",
+   "l4": "r4"
+  },
+  "hint": "Think of the position of the gland.",
+  "explanation": "**Insulin** is made by the pancreas, **thyroxin** by the thyroid, **adrenaline** by the adrenal glands and **testosterone** by the testes."
+ },
+ {
+  "id": "in-cbse-10-bio-control-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Control and Coordination",
+  "chapterNo": 2,
+  "topic": "Feedback",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange the **feedback** events that control blood sugar.",
+  "image": {
+   "src": "/img/c10-control/insulin-feedback.svg",
+   "alt": "A feedback loop: rising blood sugar makes the pancreas release more insulin, sugar falls, and insulin release is reduced"
+  },
+  "items": [
+   {
+    "id": "s3",
+    "text": "Pancreas releases more insulin"
+   },
+   {
+    "id": "s1",
+    "text": "Blood sugar level rises"
+   },
+   {
+    "id": "s4",
+    "text": "Blood sugar level falls"
+   },
+   {
+    "id": "s2",
+    "text": "Cells of the pancreas detect the rise"
+   },
+   {
+    "id": "s5",
+    "text": "Insulin secretion is reduced"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Detect, respond, fall, reduce.",
+  "explanation": "A rise in blood sugar is detected by pancreas cells, which produce **more insulin**. As sugar falls, insulin secretion is **reduced**. This is a feedback mechanism."
+ }
+]

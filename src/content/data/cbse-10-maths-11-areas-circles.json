@@ -1,0 +1,2239 @@
+[
+  {
+    "id": "in-cbse-10-math-areascircles-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Sector of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In which figure is the shaded region enclosed by **two radii** and the corresponding **arc**, that is, a **sector** of the circle?",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/overview.svg",
+      "alt": "Two circles, one with a shaded sector and one with a shaded segment"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Figure A",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/t-segment.svg",
+          "alt": "A circle with a shaded part cut off by a chord"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Figure B",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/t-sector.svg",
+          "alt": "A circle with a shaded part between two radii"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Figure C",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/t-lens.svg",
+          "alt": "A shaded lens between two arcs"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Figure D",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/t-ring.svg",
+          "alt": "A shaded ring between two circles"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "A sector looks like a slice of pizza: it touches the centre.",
+    "explanation": "A **sector** is the part of a circular region enclosed by **two radii and the arc** between them, so it always has the centre as one corner (Figure B). Figure A is bounded by a chord and an arc, so it is a **segment**. A lens and a ring are not parts cut out by radii."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Major and minor segments",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A chord divides a circle into two segments. Which figure shows the **major segment**?",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-major.svg",
+      "alt": "A circle with a chord cutting off a small piece and the large part shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Figure A",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-minsec.svg",
+          "alt": "A small shaded sector"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Figure B",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-majsec.svg",
+          "alt": "A large shaded sector"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Figure C",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-minseg.svg",
+          "alt": "A small shaded segment below a chord"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Figure D",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-majseg.svg",
+          "alt": "A large shaded segment above a chord"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "A segment is cut off by a chord, with no radii. Major means the bigger one.",
+    "explanation": "A **segment** lies between a **chord and an arc**; the bigger one is the **major segment** (Figure D) and the smaller one is the minor segment (Figure C). Figures A and B are **sectors** because they are bounded by two radii."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a sector",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A sector of a circle of radius $r$ has angle $\\theta$ (in degrees) at the centre. Its area is",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-sweep.svg",
+      "alt": "A sector whose angle at the centre opens and closes"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{\\theta}{180}\\times\\pi r^2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{\\theta}{360}\\times 2\\pi r$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{\\theta}{360}\\times\\pi r^2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{\\theta}{360}\\times\\pi r$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The whole circle is a sector of $360^\\circ$.",
+    "explanation": "By the unitary method, $360^\\circ$ gives $\\pi r^2$, so $1^\\circ$ gives $\\dfrac{\\pi r^2}{360}$ and $\\theta^\\circ$ gives $\\dfrac{\\theta}{360}\\times\\pi r^2$. The option with $2\\pi r$ is the **arc length**, the one with $\\theta/180$ doubles the area, and $\\pi r$ forgets to square the radius."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Length of an arc",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The arc of a sector of angle $\\theta$ in a circle of radius $r$ has length",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-arc.svg",
+      "alt": "A sector with radius r, angle theta and arc length l"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{\\theta}{360}\\times\\pi r^2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{\\theta}{360}\\times 2\\pi r$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{\\theta}{360}\\times\\pi r$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{\\theta}{180}\\times 2\\pi r$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The arc is the same fraction of the circumference as the angle is of $360^\\circ$.",
+    "explanation": "The whole circumference $2\\pi r$ belongs to $360^\\circ$, so an arc for $\\theta^\\circ$ is $\\dfrac{\\theta}{360}\\times 2\\pi r$. The option with $\\pi r^2$ is the **area** of the sector, $\\pi r$ uses the diameter formula wrongly, and $\\theta/180$ makes the arc twice as long."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a sector",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Find the area of a sector of a circle of radius $6$ cm whose angle is $60^\\circ$. (Leave the answer in terms of $\\pi$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-6-60.svg",
+      "alt": "A sector of radius 6 cm and angle 60 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$12\\pi$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$24\\pi$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$36\\pi$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$6\\pi$ cm$^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Use $\\dfrac{\\theta}{360}\\times\\pi r^2$ with $\\theta=60$ and $r=6$.",
+    "explanation": "$\\dfrac{60}{360}\\times\\pi\\times 6^2 = \\dfrac{1}{6}\\times 36\\pi = 6\\pi$ cm$^2$. Using $\\theta/180$ gives $12\\pi$, taking the diameter $12$ as the radius gives $24\\pi$, and forgetting the fraction $\\tfrac16$ gives the whole circle, $36\\pi$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Quadrant of a circle",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The circumference of a circle is $44$ cm. Find the area of its **quadrant**. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/quad-circum.svg",
+      "alt": "A quadrant of a circle whose whole circumference is 44 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$38.5$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$154$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$77$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$25$ cm$^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "First find the radius from $2\\pi r = 44$.",
+    "explanation": "$2\\pi r=44 \\Rightarrow r=7$ cm. A quadrant is $\\tfrac14$ of the circle: $\\tfrac14\\times\\tfrac{22}{7}\\times 49 = 38.5$ cm$^2$. The value $154$ is the whole circle, $77$ is a semicircle, and $25$ is the **perimeter** of the quadrant ($11+7+7$), not its area."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area swept by a clock hand",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The minute hand of a clock is $21$ cm long. Find the area swept by it in $10$ minutes. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/clock-10.svg",
+      "alt": "A clock face with the minute hand pointing at 2 and the swept sector shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$38.5$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$1155$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$231$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$924$ cm$^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The minute hand turns $360^\\circ$ in $60$ minutes. How many degrees is $1$ minute?",
+    "explanation": "In $60$ minutes the hand turns $360^\\circ$, so in $10$ minutes it turns $60^\\circ$. Area $=\\dfrac{60}{360}\\times\\dfrac{22}{7}\\times 21\\times 21 = 231$ cm$^2$. Taking $10$ minutes as $10^\\circ$ gives $38.5$; using $30^\\circ$ per unit (hour hand idea) gives $300^\\circ$ and $1155$; using the diameter $42$ gives $924$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Length of an arc",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "An arc subtends an angle of $60^\\circ$ at the centre of a circle of radius $21$ cm. Find the length of the arc. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/arc-length.svg",
+      "alt": "A sector of angle 60 degrees and radius 21 cm with its arc highlighted"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$231$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$22$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$44$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$11$ cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use the arc length formula, not the area formula.",
+    "explanation": "Arc $=\\dfrac{60}{360}\\times 2\\times\\dfrac{22}{7}\\times 21 = \\dfrac{1}{6}\\times 132 = 22$ cm. The number $231$ is the **area** of the sector, $44$ comes from using $\\theta/180$, and $11$ comes from using $\\pi r$ in place of $2\\pi r$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a segment",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A chord of a circle of radius $10$ cm subtends a right angle at the centre. Find the area of the **minor segment**. (Use $\\pi=3.14$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-90.svg",
+      "alt": "A chord AB subtending 90 degrees at O in a circle of radius 10 cm with the triangle and segment shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$78.5$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$50$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$128.5$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$28.5$ cm$^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Segment = sector $-$ triangle $OAB$. The triangle has legs $10$ and $10$.",
+    "explanation": "Sector $=\\dfrac{90}{360}\\times3.14\\times100 = 78.5$ cm$^2$. Triangle $OAB=\\tfrac12\\times10\\times10=50$ cm$^2$. Segment $=78.5-50=28.5$ cm$^2$. Stopping at $78.5$ forgets the triangle, $50$ is only the triangle, and $128.5$ adds instead of subtracting."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Major sector",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "For the circle of radius $10$ cm in which a chord subtends $90^\\circ$ at the centre, find the area of the **major sector**. (Use $\\pi=3.14$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/major-90.svg",
+      "alt": "A circle of radius 10 cm with its major sector shaded and the minor sector of 90 degrees unshaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$235.5$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$78.5$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$285.5$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$264$ cm$^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Major sector = whole circle $-$ minor sector.",
+    "explanation": "Whole circle $=3.14\\times100=314$ cm$^2$ and minor sector $=78.5$ cm$^2$, so the major sector is $314-78.5=235.5$ cm$^2$. Alternatively $\\dfrac{270}{360}\\times314=235.5$. The value $78.5$ is the minor sector, $285.5$ subtracts the minor **segment** (it is the major segment), and $264$ subtracts the triangle."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Angle from the area of a sector",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A sector of a circle of radius $14$ cm has area $77$ cm$^2$. Find the angle of the sector. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-area.svg",
+      "alt": "A sector of radius 14 cm and area 77 square centimetres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$90^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$45^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$180^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$8^\\circ$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Put $\\dfrac{\\theta}{360}\\times\\dfrac{22}{7}\\times14^2 = 77$ and solve for $\\theta$.",
+    "explanation": "$\\pi r^2=\\dfrac{22}{7}\\times196=616$, so $\\dfrac{\\theta}{360}=\\dfrac{77}{616}=\\dfrac18$ and $\\theta=45^\\circ$. Using $\\theta/180$ gives $90^\\circ$, using $r=7$ gives $180^\\circ$, and reading $\\tfrac18$ as $8$ gives $8^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a segment (120 degrees)",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A chord of a circle of radius $6$ cm subtends an angle of $120^\\circ$ at the centre. Find the area of the corresponding segment. (Use $\\pi=3.14$ and $\\sqrt3=1.73$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-120.svg",
+      "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$37.68$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$19.68$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$22.11$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$6.54$ cm$^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Draw $OM\\perp AB$. Then $\\angle AOM=60^\\circ$, so $OM=6\\cos60^\\circ$ and $AM=6\\sin60^\\circ$.",
+    "explanation": "Sector $=\\dfrac{120}{360}\\times3.14\\times36=37.68$. $OM=3$ and $AM=3\\sqrt3$, so $AB=6\\sqrt3$ and $\\triangle OAB=\\tfrac12\\times6\\sqrt3\\times3=9\\sqrt3=15.57$. Segment $=37.68-15.57=22.11$ cm$^2$. Forgetting the triangle gives $37.68$; using $\\tfrac12r^2=18$ for the triangle gives $19.68$; using $\\tfrac{\\sqrt3}{2}r^2$ gives $6.54$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a segment (60 degrees)",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A chord of a circle of radius $10$ cm subtends $60^\\circ$ at the centre. The area of the minor segment is",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-60.svg",
+      "alt": "A chord AB subtending 60 degrees at O in a circle of radius 10 cm; the triangle is equilateral"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\left(\\dfrac{50\\pi}{3}-25\\sqrt3\\right)$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\left(\\dfrac{50\\pi}{3}-50\\sqrt3\\right)$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$\\left(\\dfrac{100\\pi}{3}-25\\sqrt3\\right)$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\left(\\dfrac{50\\pi}{3}-50\\right)$ cm$^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Two radii and a $60^\\circ$ angle make the triangle equilateral with side $10$ cm.",
+    "explanation": "Sector $=\\dfrac{60}{360}\\pi\\times100=\\dfrac{50\\pi}{3}$. $\\triangle OAB$ is equilateral, area $\\dfrac{\\sqrt3}{4}\\times10^2=25\\sqrt3$. Segment $=\\dfrac{50\\pi}{3}-25\\sqrt3$. The option with $50\\sqrt3$ uses $\\tfrac{\\sqrt3}{2}r^2$, the one with $\\dfrac{100\\pi}{3}$ doubles the sector, and $50$ treats the triangle as right-angled."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: grazing area",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A horse is tied to a peg at one corner of a square field of side $12$ m with a rope $6$ m long. Find the area of the part of the field the horse can graze.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/horse-6.svg",
+      "alt": "A square field with a quarter circle of radius 6 m shaded at the corner where the horse is tied"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$18\\pi$ m$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$36\\pi$ m$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$12\\pi$ m$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$9\\pi$ m$^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "At a corner of a square the rope sweeps a $90^\\circ$ angle.",
+    "explanation": "The corner angle of the square is $90^\\circ$, so the horse grazes a **quarter circle** of radius $6$ m: $\\tfrac14\\pi\\times6^2=9\\pi$ m$^2$. A semicircle ($18\\pi$) would need the horse on the middle of a side, the full circle is $36\\pi$, and $12\\pi$ is the circumference $2\\pi r$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: grazing area",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In the same square field of side $12$ m, the rope is made $10$ m long instead of $6$ m. By how much does the grazing area increase?",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/horse-10.svg",
+      "alt": "A square field with two nested quarter circles of radii 6 m and 10 m"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4\\pi$ m$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$25\\pi$ m$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$16\\pi$ m$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$34\\pi$ m$^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The rope $10<12$, so it still fits inside the field. Subtract the two quarter circles.",
+    "explanation": "New area $=\\tfrac14\\pi\\times10^2=25\\pi$; old area $=\\tfrac14\\pi\\times6^2=9\\pi$. Increase $=25\\pi-9\\pi=16\\pi$ m$^2$. Using $(10-6)^2$ gives $4\\pi$, $25\\pi$ is only the new area, and $34\\pi$ adds instead of subtracting."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: brooch",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A brooch is made of silver wire in the form of a circle of diameter $28$ mm. The wire is also used to make $5$ diameters that divide the circle into $10$ equal sectors. Find the total length of wire required. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/brooch.svg",
+      "alt": "A circle with five diameters dividing it into ten equal sectors; the diameter is 28 mm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$88$ mm"
+      },
+      {
+        "id": "b",
+        "text": "$228$ mm"
+      },
+      {
+        "id": "c",
+        "text": "$116$ mm"
+      },
+      {
+        "id": "d",
+        "text": "$158$ mm"
+      }
+    ],
+    "answer": "b",
+    "hint": "Wire = circumference + $5$ diameters.",
+    "explanation": "Circumference $=\\pi d=\\dfrac{22}{7}\\times28=88$ mm. Five diameters $=5\\times28=140$ mm. Total $=88+140=228$ mm. Giving only the circle gives $88$, one diameter $116$, and using the radius $14$ for each diameter gives $158$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: brooch",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The brooch has diameter $28$ mm and is divided into $10$ equal sectors. Find the area of each sector. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/brooch-sector.svg",
+      "alt": "The brooch with one of the ten equal sectors shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$61.6$ mm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$123.2$ mm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$616$ mm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$246.4$ mm$^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Each sector has angle $360^\\circ\\div10$.",
+    "explanation": "Each sector has angle $36^\\circ$ and radius $14$ mm: $\\dfrac{36}{360}\\times\\dfrac{22}{7}\\times14^2=61.6$ mm$^2$. Dividing by $5$ (the number of diameters) gives $123.2$, $616$ is the whole circle, and using the diameter $28$ as radius gives $246.4$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: umbrella",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "An umbrella has $8$ equally spaced ribs. Taking it as a flat circle of radius $28$ cm, find the area between two consecutive ribs. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/umbrella.svg",
+      "alt": "Top view of an umbrella with eight ribs and the region between two consecutive ribs shaded"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$352$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$616$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$154$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$308$ cm$^2$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Eight ribs cut the circle into eight equal sectors of $45^\\circ$ each.",
+    "explanation": "Circle area $=\\dfrac{22}{7}\\times28^2=2464$ cm$^2$. Between consecutive ribs is a $45^\\circ$ sector: $\\dfrac{2464}{8}=308$ cm$^2$. Dividing by $7$ gives $352$, by $4$ gives $616$, and by $16$ gives $154$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: wipers",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A car has two wipers which do not overlap. Each wiper has a blade $21$ cm long and sweeps through an angle of $100^\\circ$. Find the total area cleaned at each sweep of the blades. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/wipers.svg",
+      "alt": "A windscreen with two wipers, each sweeping a sector of 100 degrees with blade length 21 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$385$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$770$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$1540$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$1386$ cm$^2$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Each blade sweeps one sector; there are two of them.",
+    "explanation": "One wiper sweeps $\\dfrac{100}{360}\\times\\dfrac{22}{7}\\times21^2=385$ cm$^2$. Two wipers give $2\\times385=770$ cm$^2$. Counting one wiper gives $385$, using $\\theta/180$ gives $1540$, and one full circle gives $1386$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: lighthouse",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A lighthouse spreads a red light over a sector of angle $40^\\circ$ to a distance of $21$ km. Find the area of the sea over which ships are warned. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/lighthouse.svg",
+      "alt": "Top view of a lighthouse with a 40 degree red sector of light over the sea"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$1386$ km$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$308$ km$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$154$ km$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$616$ km$^2$"
+      }
+    ],
+    "answer": "c",
+    "hint": "The lit region is one sector with $r=21$ km and $\\theta=40^\\circ$.",
+    "explanation": "Area $=\\dfrac{40}{360}\\times\\dfrac{22}{7}\\times21\\times21=154$ km$^2$. The whole circle gives $1386$, using $\\theta/180$ gives $308$, and using the diameter $42$ gives $616$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: table cover",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A round table cover of radius $14$ cm has six equal designs, each the part of the circle outside an inscribed regular hexagon (see the figure). Find the total area of the designs. (Use $\\pi=\\frac{22}{7}$ and $\\sqrt3=1.7$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/tablecover.svg",
+      "alt": "A round cover with a regular hexagon inscribed and six shaded segments"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$116.2$ cm$^2$"
+      },
+      {
+        "id": "b",
+        "text": "$616$ cm$^2$"
+      },
+      {
+        "id": "c",
+        "text": "$28$ cm$^2$"
+      },
+      {
+        "id": "d",
+        "text": "$532.7$ cm$^2$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Each design is a segment: sector of $60^\\circ$ minus an equilateral triangle of side $14$ cm.",
+    "explanation": "Circle $=\\dfrac{22}{7}\\times196=616$. The hexagon is six equilateral triangles of side $14$: $6\\times\\dfrac{\\sqrt3}{4}\\times196=6\\times83.3=499.8$. Designs $=616-499.8=116.2$ cm$^2$. Forgetting the hexagon gives $616$, treating each triangle as $\\tfrac12r^2$ gives $28$, and subtracting only one triangle gives $532.7$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Sector of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Radii $OA$ and $OB$ make an angle of $120^\\circ$ at $O$. Tap the **minor sector**.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-scene.svg",
+      "alt": "A circle with centre O and two radii OA and OB"
+    },
+    "spots": [
+      {
+        "id": "minsec",
+        "x": 55.6,
+        "y": 34.6,
+        "label": "Minor sector OAB"
+      },
+      {
+        "id": "majsec",
+        "x": 43.7,
+        "y": 68.9,
+        "label": "Major sector"
+      },
+      {
+        "id": "rad",
+        "x": 65.0,
+        "y": 50.8,
+        "label": "Radius OA"
+      },
+      {
+        "id": "minarc",
+        "x": 62.5,
+        "y": 14.7,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "majarc",
+        "x": 37.5,
+        "y": 86.9,
+        "label": "Major arc AB"
+      }
+    ],
+    "answer": "minsec",
+    "hint": "It is the smaller region between the two radii.",
+    "explanation": "The **minor sector** is the smaller region enclosed by the two radii and the shorter arc, with angle $\\angle AOB=120^\\circ$. The larger region on the other side is the **major sector**, whose angle is $360^\\circ-120^\\circ=240^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Major sector",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **major sector** of this circle.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-scene.svg",
+      "alt": "A circle with centre O and two radii OA and OB"
+    },
+    "spots": [
+      {
+        "id": "minsec",
+        "x": 55.6,
+        "y": 34.6,
+        "label": "Minor sector OAB"
+      },
+      {
+        "id": "majsec",
+        "x": 43.7,
+        "y": 68.9,
+        "label": "Major sector"
+      },
+      {
+        "id": "rad",
+        "x": 65.0,
+        "y": 50.8,
+        "label": "Radius OA"
+      },
+      {
+        "id": "minarc",
+        "x": 62.5,
+        "y": 14.7,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "majarc",
+        "x": 37.5,
+        "y": 86.9,
+        "label": "Major arc AB"
+      }
+    ],
+    "answer": "majsec",
+    "hint": "Its angle at the centre is $360^\\circ-\\angle AOB$.",
+    "explanation": "The **major sector** is the larger part, enclosed by $OA$, $OB$ and the longer arc. Its angle at the centre is $360^\\circ-120^\\circ=240^\\circ$, and its area is $\\pi r^2-$ area of the minor sector."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Arc of a sector",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The length of an arc of a sector is $\\dfrac{\\theta}{360}\\times2\\pi r$. Tap the **arc** that belongs to the **minor sector** $OAB$.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-scene.svg",
+      "alt": "A circle with centre O and two radii OA and OB"
+    },
+    "spots": [
+      {
+        "id": "minsec",
+        "x": 55.6,
+        "y": 34.6,
+        "label": "Minor sector OAB"
+      },
+      {
+        "id": "majsec",
+        "x": 43.7,
+        "y": 68.9,
+        "label": "Major sector"
+      },
+      {
+        "id": "rad",
+        "x": 65.0,
+        "y": 50.8,
+        "label": "Radius OA"
+      },
+      {
+        "id": "minarc",
+        "x": 62.5,
+        "y": 14.7,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "majarc",
+        "x": 37.5,
+        "y": 86.9,
+        "label": "Major arc AB"
+      }
+    ],
+    "answer": "minarc",
+    "hint": "It is the shorter curved part of the circle between $A$ and $B$.",
+    "explanation": "The arc of the minor sector is the **shorter** curve between $A$ and $B$; its length is $\\dfrac{120}{360}\\times2\\pi r$. The longer curve is the arc of the major sector, with angle $240^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Segment of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A chord $AB$ cuts the circle into two parts. Tap the **minor segment**.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-scene.svg",
+      "alt": "A circle with centre O and a chord AB below the centre"
+    },
+    "spots": [
+      {
+        "id": "minseg",
+        "x": 50.0,
+        "y": 75.4,
+        "label": "Minor segment"
+      },
+      {
+        "id": "majseg",
+        "x": 50.0,
+        "y": 30.5,
+        "label": "Major segment"
+      },
+      {
+        "id": "chord",
+        "x": 50.0,
+        "y": 57.5,
+        "label": "Chord AB"
+      },
+      {
+        "id": "minarc",
+        "x": 50.0,
+        "y": 93.3,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "majarc",
+        "x": 50.0,
+        "y": 6.7,
+        "label": "Major arc AB"
+      }
+    ],
+    "answer": "minseg",
+    "hint": "A segment lies between a chord and an arc, and does not need the centre.",
+    "explanation": "A **segment** is the region between a chord and its arc. The small part below $AB$ is the **minor segment**; the large part above is the major segment. Its area is the sector area minus the triangle $OAB$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Chord of a circle",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **chord** of the circle.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-scene.svg",
+      "alt": "A circle with centre O and a chord AB below the centre"
+    },
+    "spots": [
+      {
+        "id": "minseg",
+        "x": 50.0,
+        "y": 75.4,
+        "label": "Minor segment"
+      },
+      {
+        "id": "majseg",
+        "x": 50.0,
+        "y": 30.5,
+        "label": "Major segment"
+      },
+      {
+        "id": "chord",
+        "x": 50.0,
+        "y": 57.5,
+        "label": "Chord AB"
+      },
+      {
+        "id": "minarc",
+        "x": 50.0,
+        "y": 93.3,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "majarc",
+        "x": 50.0,
+        "y": 6.7,
+        "label": "Major arc AB"
+      }
+    ],
+    "answer": "chord",
+    "hint": "A chord is a straight line segment joining two points on the circle.",
+    "explanation": "The **chord $AB$** is the straight line joining two points $A$ and $B$ of the circle. It is the boundary shared by the minor and major segments; the curved parts are arcs."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Major segment",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **major segment** formed by the chord $AB$.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-scene.svg",
+      "alt": "A circle with centre O and a chord AB below the centre"
+    },
+    "spots": [
+      {
+        "id": "minseg",
+        "x": 50.0,
+        "y": 75.4,
+        "label": "Minor segment"
+      },
+      {
+        "id": "majseg",
+        "x": 50.0,
+        "y": 30.5,
+        "label": "Major segment"
+      },
+      {
+        "id": "chord",
+        "x": 50.0,
+        "y": 57.5,
+        "label": "Chord AB"
+      },
+      {
+        "id": "minarc",
+        "x": 50.0,
+        "y": 93.3,
+        "label": "Minor arc AB"
+      },
+      {
+        "id": "majarc",
+        "x": 50.0,
+        "y": 6.7,
+        "label": "Major arc AB"
+      }
+    ],
+    "answer": "majseg",
+    "hint": "The major segment is the larger piece on the side of the centre.",
+    "explanation": "The chord $AB$ forms two segments. The larger one is the **major segment**, and its area equals $\\pi r^2-$ area of the minor segment."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: grazing area",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A horse is tied at the peg with a $6$ m rope in a square field of side $12$ m. Tap the part of the field where the horse can **graze**.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/horse-hot.svg",
+      "alt": "A square field with a peg at one corner and a rope drawn along one side"
+    },
+    "spots": [
+      {
+        "id": "peg",
+        "x": 12.5,
+        "y": 87.5,
+        "label": "Peg"
+      },
+      {
+        "id": "rope",
+        "x": 23.8,
+        "y": 87.5,
+        "label": "Rope"
+      },
+      {
+        "id": "graze",
+        "x": 23.0,
+        "y": 67.5,
+        "label": "Grazing region (quarter circle)"
+      },
+      {
+        "id": "rest",
+        "x": 46.2,
+        "y": 31.2,
+        "label": "Part the horse cannot reach"
+      }
+    ],
+    "answer": "graze",
+    "hint": "The rope can swing from one side of the corner to the other.",
+    "explanation": "The rope swings through the $90^\\circ$ corner, so the grazing region is a **quarter circle of radius $6$ m**, with area $\\tfrac14\\pi\\times6^2=9\\pi$ m$^2$. The rest of the field is out of reach."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a segment",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "To find the area of the **minor segment** $AB$ we subtract an area from the sector $OAB$. Tap that region.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/tri-hot.svg",
+      "alt": "A circle with radii OA, OB and chord AB forming a triangle"
+    },
+    "spots": [
+      {
+        "id": "tri",
+        "x": 50.0,
+        "y": 42.4,
+        "label": "Triangle OAB"
+      },
+      {
+        "id": "seg",
+        "x": 50.0,
+        "y": 23.8,
+        "label": "Minor segment"
+      },
+      {
+        "id": "rest",
+        "x": 50.0,
+        "y": 77.1,
+        "label": "Major sector region"
+      },
+      {
+        "id": "rad",
+        "x": 64.1,
+        "y": 42.7,
+        "label": "Radius OA"
+      }
+    ],
+    "answer": "tri",
+    "hint": "Segment = sector $-$ ?",
+    "explanation": "Area of segment $=$ area of sector $OAB-$ **area of $\\triangle OAB$**. The triangle is bounded by the two radii and the chord; what is left between the chord and the arc is the segment."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Combination of figures: umbrella",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The umbrella has $8$ equally spaced ribs. Tap the region **between two consecutive ribs**.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/umbrella-hot.svg",
+      "alt": "Top view of an umbrella with eight equally spaced ribs"
+    },
+    "spots": [
+      {
+        "id": "centre",
+        "x": 50.0,
+        "y": 50.8,
+        "label": "Centre of the umbrella"
+      },
+      {
+        "id": "rib",
+        "x": 65.0,
+        "y": 50.8,
+        "label": "A rib"
+      },
+      {
+        "id": "gap",
+        "x": 44.3,
+        "y": 27.7,
+        "label": "Region between two consecutive ribs"
+      },
+      {
+        "id": "rim",
+        "x": 40.4,
+        "y": 89.3,
+        "label": "Arc of the rim between two ribs"
+      }
+    ],
+    "answer": "gap",
+    "hint": "Consecutive ribs make an angle of $360^\\circ\\div8$.",
+    "explanation": "The region between two consecutive ribs is a **sector of angle $45^\\circ$**, with area $\\tfrac18$ of the whole circle. A rib is only a radius (a line), and the rim is only an arc."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Sectors and segments",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Figure P is a shaded sector and Figure Q is a shaded segment. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/overview.svg",
+      "alt": "Figure P a shaded sector and figure Q a shaded segment"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A sector is enclosed by two radii and an arc"
+      },
+      {
+        "id": "b",
+        "text": "A segment is enclosed by a chord and an arc"
+      },
+      {
+        "id": "c",
+        "text": "If $\\angle AOB=\\theta$, the major sector $OAB$ has angle $360^\\circ-\\theta$"
+      },
+      {
+        "id": "d",
+        "text": "A segment is enclosed by two radii and an arc"
+      },
+      {
+        "id": "e",
+        "text": "Every chord divides the circle into two equal segments"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Recall the boundary of each region.",
+    "explanation": "A **sector** has two radii and an arc; a **segment** has a chord and an arc; the major sector has angle $360^\\circ-\\theta$. The statement about two radii describes a sector, not a segment. Only a **diameter** gives two equal segments; other chords give a minor and a major segment."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a sector",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A sector of radius $r$ has angle $\\theta$ and arc length $l$. Select **all** expressions that give its area.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-arc.svg",
+      "alt": "A sector with radius r, angle theta and arc length l"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{\\theta}{360}\\times\\pi r^2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{\\theta}{180}\\times\\pi r^2$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac12\\, l\\, r$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{\\theta}{360}\\times2\\pi r$"
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{l}{2\\pi r}\\times\\pi r^2$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Try $l=\\dfrac{\\theta}{360}\\times2\\pi r$ in the other expressions.",
+    "explanation": "The area is $\\dfrac{\\theta}{360}\\pi r^2$. With $l=\\dfrac{\\theta}{360}2\\pi r$ we get $\\tfrac12lr=\\dfrac{\\theta}{360}\\pi r^2$ and $\\dfrac{l}{2\\pi r}\\times\\pi r^2=\\dfrac{\\theta}{360}\\pi r^2$, so both are equal. The option with $\\theta/180$ doubles it, and the one with $2\\pi r$ is the arc length $l$ itself."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Quadrant of a circle",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A quadrant of a circle of radius $14$ cm has area $154$ cm$^2$ (using $\\pi=\\frac{22}{7}$). Select **all** the expressions that equal this area.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/quad-14.svg",
+      "alt": "A quadrant of a circle of radius 14 centimetres"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac14\\times\\dfrac{22}{7}\\times14^2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{90}{360}\\times\\dfrac{22}{7}\\times14\\times14$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac12\\times\\dfrac{22}{7}\\times14^2$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{22}{7}\\times14^2-3\\times\\left(\\dfrac14\\times\\dfrac{22}{7}\\times14^2\\right)$"
+      },
+      {
+        "id": "e",
+        "text": "$\\dfrac{90}{360}\\times2\\times\\dfrac{22}{7}\\times14$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Work out each expression: $\\tfrac14\\pi r^2$ is the pattern.",
+    "explanation": "A quadrant is $\\dfrac{90}{360}=\\tfrac14$ of the circle: $\\tfrac14\\times616=154$. The circle minus three quadrants is also one quadrant. The half-circle expression gives $308$, and the last one is the **arc length** $22$ cm, not an area."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Effect of doubling the radius",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "The radius of a circle is doubled from $r$ to $2r$ (angles unchanged). Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/double-circle.svg",
+      "alt": "Two concentric circles with radii r and 2r"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The area of the circle becomes $4$ times"
+      },
+      {
+        "id": "b",
+        "text": "The circumference becomes $2$ times"
+      },
+      {
+        "id": "c",
+        "text": "The area of a sector of the same angle becomes $2$ times"
+      },
+      {
+        "id": "d",
+        "text": "The length of an arc of the same angle becomes $2$ times"
+      },
+      {
+        "id": "e",
+        "text": "The angle of a sector becomes $2$ times"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "d"
+    ],
+    "hint": "Area uses $r^2$; lengths use $r$.",
+    "explanation": "Area $\\propto r^2$, so the circle area and a sector area (same angle) become **4 times**; lengths ($2\\pi r$ and arc length) are $\\propto r$, so they become **2 times**. The sector area does not double, and the angle $\\theta$ does not depend on the radius."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a segment",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "To find the area of the minor segment $AYB$ by the method of this chapter, which of these are needed?",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-120.svg",
+      "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The radius of the circle"
+      },
+      {
+        "id": "b",
+        "text": "The angle at the centre subtended by the chord"
+      },
+      {
+        "id": "c",
+        "text": "The area of triangle $OAB$"
+      },
+      {
+        "id": "d",
+        "text": "The length of a tangent drawn at $A$"
+      },
+      {
+        "id": "e",
+        "text": "The circumference of the whole circle"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Segment = sector $-$ triangle.",
+    "explanation": "We need the **radius** and **angle** for the sector $\\dfrac{\\theta}{360}\\pi r^2$, and the **area of $\\triangle OAB$** (found from $OM$ and $AB$ using $\\cos$ and $\\sin$) to subtract. No tangent or circumference is needed."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a sector",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the **unitary method** used to find the area of a sector of angle $\\theta$.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/derive-sector.svg",
+      "alt": "A whole circle, a one degree slice and a sector of angle theta"
+    },
+    "items": [
+      {
+        "id": "d",
+        "text": "Multiply by $\\theta$ to get the area for $\\theta^\\circ$"
+      },
+      {
+        "id": "a",
+        "text": "Regard the whole circle as a sector of angle $360^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "Divide by $360$ to get the area for $1^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "Its area is $\\pi r^2$"
+      }
+    ],
+    "answer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Go from $360^\\circ$ down to $1^\\circ$ and then up to $\\theta^\\circ$.",
+    "explanation": "The circle is a sector of $360^\\circ$ with area $\\pi r^2$. For $1^\\circ$ the area is $\\dfrac{\\pi r^2}{360}$, and for $\\theta^\\circ$ it is $\\theta\\times\\dfrac{\\pi r^2}{360}=\\dfrac{\\theta}{360}\\pi r^2$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a segment",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps for finding the area of a minor segment of a circle of radius $r$ with angle $120^\\circ$.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-120.svg",
+      "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
+    },
+    "items": [
+      {
+        "id": "e",
+        "text": "Subtract the area of the triangle from the area of the sector"
+      },
+      {
+        "id": "b",
+        "text": "Draw $OM\\perp AB$ and note $\\angle AOM=60^\\circ$"
+      },
+      {
+        "id": "a",
+        "text": "Find the area of sector $OAYB$"
+      },
+      {
+        "id": "d",
+        "text": "Find the area of $\\triangle OAB=\\tfrac12\\times AB\\times OM$"
+      },
+      {
+        "id": "c",
+        "text": "Use $\\cos60^\\circ$ and $\\sin60^\\circ$ to get $OM$ and $AM$, then $AB=2AM$"
+      }
+    ],
+    "answer": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need both $OM$ and $AB$ before the triangle area.",
+    "explanation": "First the **sector** area, then draw $OM\\perp AB$ ($M$ is the midpoint of $AB$ by RHS congruence), find $OM=r\\cos60^\\circ$ and $AM=r\\sin60^\\circ$, then the **triangle** area, and finally **subtract**: segment $=$ sector $-$ triangle."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Comparing sector areas",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange these sectors in order of **area**, smallest first. (Each picture is drawn to scale.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/angle-fan.svg",
+      "alt": "A circle split into sectors of different angles"
+    },
+    "items": [
+      {
+        "id": "oa",
+        "text": "$60^\\circ$, $r=6$ cm",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/o-oa.svg",
+          "alt": "A sector with the stated angle and radius"
+        }
+      },
+      {
+        "id": "ob",
+        "text": "$90^\\circ$, $r=4$ cm",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/o-ob.svg",
+          "alt": "A sector with the stated angle and radius"
+        }
+      },
+      {
+        "id": "oc",
+        "text": "$30^\\circ$, $r=12$ cm",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/o-oc.svg",
+          "alt": "A sector with the stated angle and radius"
+        }
+      },
+      {
+        "id": "od",
+        "text": "$120^\\circ$, $r=3$ cm",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/o-od.svg",
+          "alt": "A sector with the stated angle and radius"
+        }
+      }
+    ],
+    "answer": [
+      "od",
+      "ob",
+      "oa",
+      "oc"
+    ],
+    "startLabel": "Smallest area",
+    "endLabel": "Largest area",
+    "hint": "Compute $\\dfrac{\\theta}{360}\\times r^2$ for each (the $\\pi$ is common).",
+    "explanation": "Area $=\\dfrac{\\theta}{360}\\pi r^2$: $120^\\circ$, $r=3$ gives $3\\pi$; $90^\\circ$, $r=4$ gives $4\\pi$; $60^\\circ$, $r=6$ gives $6\\pi$; $30^\\circ$, $r=12$ gives $12\\pi$ cm$^2$. A large radius beats a large angle because the radius is **squared**."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area swept by a clock hand",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to find the area swept by a minute hand of length $r$ in $20$ minutes.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/clock-20.svg",
+      "alt": "A clock with the minute hand pointing at 4 and the swept sector shaded"
+    },
+    "items": [
+      {
+        "id": "d",
+        "text": "Area $=\\dfrac{120}{360}\\times\\pi r^2$"
+      },
+      {
+        "id": "a",
+        "text": "$60$ minutes correspond to $360^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$20$ minutes correspond to $20\\times6=120^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$1$ minute corresponds to $6^\\circ$"
+      }
+    ],
+    "answer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Find the angle first, then use the sector formula.",
+    "explanation": "The hand turns $360^\\circ$ in $60$ minutes, so $6^\\circ$ per minute and $120^\\circ$ in $20$ minutes. The swept region is a sector with $\\theta=120$, so the area is $\\dfrac{120}{360}\\pi r^2=\\dfrac13\\pi r^2$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Comparing regions",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A chord of a circle of radius $10$ cm subtends $90^\\circ$ at the centre (use $\\pi=3.14$). Arrange these regions by **area**, smallest first.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-90.svg",
+      "alt": "A chord AB subtending 90 degrees at O in a circle of radius 10 cm"
+    },
+    "items": [
+      {
+        "id": "maj",
+        "text": "Major sector"
+      },
+      {
+        "id": "tri",
+        "text": "Triangle $OAB$"
+      },
+      {
+        "id": "seg",
+        "text": "Minor segment"
+      },
+      {
+        "id": "sec",
+        "text": "Minor sector"
+      }
+    ],
+    "answer": [
+      "seg",
+      "tri",
+      "sec",
+      "maj"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Compute all four areas: $28.5$, $50$, $78.5$, $235.5$.",
+    "explanation": "Sector $=78.5$, triangle $=\\tfrac12\\times10\\times10=50$, segment $=78.5-50=28.5$, major sector $=314-78.5=235.5$ cm$^2$. So the order is segment $<$ triangle $<$ minor sector $<$ major sector."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Area of a sector",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sector-sweep.svg",
+      "alt": "A sector whose angle at the centre opens and closes"
+    },
+    "assertion": "The area of a sector of a circle is directly proportional to the angle of the sector (for a fixed radius).",
+    "reason": "The whole circle is a sector of angle $360^\\circ$ with area $\\pi r^2$, so the sector of angle $\\theta$ has area $\\dfrac{\\theta}{360}\\pi r^2$.",
+    "answer": "a",
+    "hint": "Look at the formula: how does $\\theta$ appear in it?",
+    "explanation": "Both are true and R explains A. The area is $\\dfrac{\\theta}{360}\\pi r^2$, which is a constant times $\\theta$, so doubling the angle doubles the area."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Length of an arc",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/arc-90-14.svg",
+      "alt": "A 90 degree sector of radius 14 cm with its arc highlighted"
+    },
+    "assertion": "The arc of a $90^\\circ$ sector of a circle of radius $14$ cm has length $22$ cm (use $\\pi=\\frac{22}{7}$).",
+    "reason": "The length of an arc of a sector of angle $\\theta$ is $\\dfrac{\\theta}{360}\\times2\\pi r$.",
+    "answer": "a",
+    "hint": "Substitute $\\theta=90$ and $r=14$.",
+    "explanation": "Both are true and R explains A: $\\dfrac{90}{360}\\times2\\times\\dfrac{22}{7}\\times14=\\dfrac14\\times88=22$ cm, using exactly the formula in R."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Effect of the radius",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/double-r.svg",
+      "alt": "Two sectors with the same angle and radii r and 2r"
+    },
+    "assertion": "Two sectors with the same angle, in circles of radii $r$ and $2r$, have areas in the ratio $1:2$.",
+    "reason": "The area of a sector of a given angle is proportional to the square of the radius.",
+    "answer": "d",
+    "hint": "The radius appears squared in $\\pi r^2$.",
+    "explanation": "A is **false**: the areas are in the ratio $r^2:(2r)^2=1:4$. R is true. Students often match the ratio of the radii instead of squaring it."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Segment and sector",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/sec-seg-tri.svg",
+      "alt": "A sector OAB split into triangle OAB and the segment below the chord AB"
+    },
+    "assertion": "The area of a minor segment is always less than the area of the corresponding minor sector.",
+    "reason": "The area of a sector of angle $\\theta$ is the fraction $\\dfrac{\\theta}{360}$ of the area of the circle.",
+    "answer": "b",
+    "hint": "Does R say anything about the triangle?",
+    "explanation": "Both are true, but R does not explain A. The segment is smaller because it is the sector **minus the triangle $OAB$**, which has positive area. R only tells how the sector is related to the whole circle."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Major segment",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/seg-major.svg",
+      "alt": "A chord AB cutting off a small segment, with the large segment shaded"
+    },
+    "assertion": "Area of the major segment $=\\pi r^2-$ area of the minor segment.",
+    "reason": "Area of the major segment $=$ area of the minor sector $-$ area of $\\triangle OAB$.",
+    "answer": "c",
+    "hint": "The minor sector minus the triangle is the minor segment.",
+    "explanation": "A is true: the two segments together make the whole circle. R is false, because sector minus triangle gives the **minor segment**, not the major one."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Sectors and segments",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each name with the correct shaded figure.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/overview.svg",
+      "alt": "Two circles with a shaded sector and a shaded segment"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Minor sector"
+      },
+      {
+        "id": "l2",
+        "text": "Major sector"
+      },
+      {
+        "id": "l3",
+        "text": "Minor segment"
+      },
+      {
+        "id": "l4",
+        "text": "Major segment"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Figure A",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-majseg.svg",
+          "alt": "A large segment shaded"
+        }
+      },
+      {
+        "id": "r2",
+        "text": "Figure B",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-minsec.svg",
+          "alt": "A small sector shaded"
+        }
+      },
+      {
+        "id": "r3",
+        "text": "Figure C",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-minseg.svg",
+          "alt": "A small segment shaded"
+        }
+      },
+      {
+        "id": "r4",
+        "text": "Figure D",
+        "image": {
+          "src": "/img/c10-ma-areas-circles/m-majsec.svg",
+          "alt": "A large sector shaded"
+        }
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r4",
+      "l3": "r3",
+      "l4": "r1"
+    },
+    "hint": "Sectors touch the centre; segments are cut off by a chord.",
+    "explanation": "A **minor sector** is the small slice between two radii; the **major sector** is the large one. A **minor segment** is the small piece cut off by a chord; the **major segment** is the large piece."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Formulae",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quantity of a circle of radius $r$ (sector angle $\\theta$) with its formula.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/circle-parts.svg",
+      "alt": "A radius turning once around a circle"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Area of the circle"
+      },
+      {
+        "id": "l2",
+        "text": "Circumference"
+      },
+      {
+        "id": "l3",
+        "text": "Area of a sector of angle $\\theta$"
+      },
+      {
+        "id": "l4",
+        "text": "Length of an arc of angle $\\theta$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$2\\pi r$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{\\theta}{360}\\times2\\pi r$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\pi r^2$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{\\theta}{360}\\times\\pi r^2$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r1",
+      "l3": "r4",
+      "l4": "r2"
+    },
+    "hint": "Areas have $r^2$; lengths have $r$.",
+    "explanation": "The circle has area $\\pi r^2$ and circumference $2\\pi r$. Taking the fraction $\\dfrac{\\theta}{360}$ of each gives the sector area and the arc length."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Areas of sectors",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "The sectors in the figure are parts of one circle of radius $21$ cm. Match each angle with the area of the sector. (Use $\\pi=\\frac{22}{7}$.)",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/angle-fan.svg",
+      "alt": "A circle of radius 21 cm split into sectors of 120, 90, 60 and 30 degrees"
+    },
+    "left": [
+      {
+        "id": "l30",
+        "text": "$30^\\circ$"
+      },
+      {
+        "id": "l60",
+        "text": "$60^\\circ$"
+      },
+      {
+        "id": "l90",
+        "text": "$90^\\circ$"
+      },
+      {
+        "id": "l120",
+        "text": "$120^\\circ$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r120",
+        "text": "$462$ cm$^2$"
+      },
+      {
+        "id": "r30",
+        "text": "$115.5$ cm$^2$"
+      },
+      {
+        "id": "r90",
+        "text": "$346.5$ cm$^2$"
+      },
+      {
+        "id": "r60",
+        "text": "$231$ cm$^2$"
+      }
+    ],
+    "pairs": {
+      "l30": "r30",
+      "l60": "r60",
+      "l90": "r90",
+      "l120": "r120"
+    },
+    "hint": "The circle has area $\\tfrac{22}{7}\\times441=1386$ cm$^2$.",
+    "explanation": "$\\pi r^2=1386$. Then $\\tfrac{30}{360}\\times1386=115.5$, $\\tfrac{60}{360}\\times1386=231$, $\\tfrac{90}{360}\\times1386=346.5$ and $\\tfrac{120}{360}\\times1386=462$ cm$^2$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Clock hands",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "The minute hand of a clock turns through a certain angle. Match the time it takes with the angle.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/clock-plain.svg",
+      "alt": "A clock face with hands"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$5$ minutes"
+      },
+      {
+        "id": "l2",
+        "text": "$10$ minutes"
+      },
+      {
+        "id": "l3",
+        "text": "$15$ minutes"
+      },
+      {
+        "id": "l4",
+        "text": "$30$ minutes"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$180^\\circ$"
+      },
+      {
+        "id": "r2",
+        "text": "$30^\\circ$"
+      },
+      {
+        "id": "r3",
+        "text": "$90^\\circ$"
+      },
+      {
+        "id": "r4",
+        "text": "$60^\\circ$"
+      }
+    ],
+    "pairs": {
+      "l1": "r2",
+      "l2": "r4",
+      "l3": "r3",
+      "l4": "r1"
+    },
+    "hint": "The minute hand turns $6^\\circ$ every minute.",
+    "explanation": "The minute hand makes $360^\\circ$ in $60$ minutes, i.e. $6^\\circ$ per minute: $5\\to30^\\circ$, $10\\to60^\\circ$, $15\\to90^\\circ$, $30\\to180^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-areascircles-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "chapterNo": 11,
+    "topic": "Fractions of a circle",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "A circle has area $\\pi r^2$. Match each part with its area.",
+    "image": {
+      "src": "/img/c10-ma-areas-circles/pie-fractions.svg",
+      "alt": "A circle cut into a quarter, another quarter, a sixth and a third"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Quadrant"
+      },
+      {
+        "id": "l2",
+        "text": "Semicircle"
+      },
+      {
+        "id": "l3",
+        "text": "Sector of $60^\\circ$"
+      },
+      {
+        "id": "l4",
+        "text": "Sector of $120^\\circ$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{\\pi r^2}{2}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{\\pi r^2}{3}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{\\pi r^2}{4}$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{\\pi r^2}{6}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r3",
+      "l2": "r1",
+      "l3": "r4",
+      "l4": "r2"
+    },
+    "hint": "Find $\\theta/360$ for each part.",
+    "explanation": "The fraction is $\\theta/360$: $90/360=\\tfrac14$, $180/360=\\tfrac12$, $60/360=\\tfrac16$, $120/360=\\tfrac13$."
+  }
+]

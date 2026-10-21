@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Four cards: equal treatment, freedom, security and respect</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.gr{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+.fall{animation:fall 1.6s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:.9}100%{transform:translateY(24px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-10px)}to{transform:translateX(10px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+.gr{transform-origin:50% 100%;animation:gr 3s ease-in-out infinite}
+@keyframes gr{50%{transform:scaleY(.93)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="15" y="40" width="85" height="130" rx="12" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(57 92) scale(1.4)"><g class="pul"><path d="M-14 -8H14M-14 8H14" stroke="#2B2F4A" stroke-width="7" stroke-linecap="round"/></g></g><text x="57" y="150" font-size="11" text-anchor="middle">Equal treatment</text><rect x="110" y="40" width="85" height="130" rx="12" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(152 92) scale(1.4)"><g class="pul"><rect x="-12" y="-4" width="24" height="20" rx="4" fill="#FFC93C" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-7 -4V-12Q-7 -22 3 -22Q12 -22 12 -12" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><text x="152" y="150" font-size="11" text-anchor="middle">Freedom</text><rect x="205" y="40" width="85" height="130" rx="12" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(247 92) scale(1.4)"><g class="pul"><path d="M0 -22L18 -14V2Q18 16 0 24Q-18 16 -18 2V-14Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M-8 2L-2 8L9 -6" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/></g></g><text x="247" y="150" font-size="11" text-anchor="middle">Security</text><rect x="300" y="40" width="85" height="130" rx="12" fill="#fff" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(342 92) scale(1.4)"><g class="pul"><path d="M0 14C-22 -2 -14 -18 -4 -14Q0 -12 0 -8Q0 -12 4 -14C14 -18 22 -2 0 14Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g><text x="342" y="150" font-size="11" text-anchor="middle">Respect</text><text x="200" y="20" font-size="14" text-anchor="middle">Goals beyond income</text><text x="200" y="204" font-size="12" text-anchor="middle">Material things are not all we need to live</text><text x="200" y="224" font-size="12" text-anchor="middle">Many of these are not easily measured</text></svg>

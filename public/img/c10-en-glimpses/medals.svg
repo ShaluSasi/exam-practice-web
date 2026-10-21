@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A row of shining medals on coloured ribbons with the words many awards for bravery</title><style>
+.bob{animation:bob 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes bob{to{transform:translateY(-5px)}}
+.sway{animation:sway 2.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+.flick{animation:flick .45s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes flick{to{transform:scale(1.18,.82)}}
+.steam{animation:steam 2.4s ease-in infinite;transform-box:fill-box}
+@keyframes steam{0%{transform:translateY(6px);opacity:0}30%{opacity:.85}100%{transform:translateY(-16px);opacity:0}}
+.drift{animation:drift 7s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translateX(34px)}}
+.fall{animation:fall 1.7s ease-in infinite}
+@keyframes fall{0%{transform:translateY(-22px);opacity:0}25%{opacity:1}100%{transform:translateY(38px);opacity:0}}
+.pulse{animation:pulse 1.3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{to{transform:scale(1.12)}}
+.slide{animation:slide 4s ease-in-out infinite alternate}
+@keyframes slide{from{transform:translateX(-26px)}to{transform:translateX(26px)}}
+.blink{animation:blink 1.4s steps(2) infinite}
+@keyframes blink{50%{opacity:.35}}
+.rip{animation:rip 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes rip{0%{transform:scale(.4);opacity:.9}100%{transform:scale(1.6);opacity:0}}
+.dive{animation:dive 2.2s ease-in infinite}
+@keyframes dive{0%,20%{transform:translateY(-10px)}60%{transform:translateY(26px)}100%{transform:translateY(-10px)}}
+.spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="0" y="0" width="400" height="240" rx="0" fill="#EFE6FF" /><path d="M43 20 L55 80 L67 20" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse" style="animation-delay:0.0s"><circle cx="55" cy="110" r="28" fill="#FFD25E" stroke="#FF8A1F" stroke-width="3" /><path d="M55 90 l5 12 h13 l-10 8 4 13 -12 -8 -12 8 4 -13 -10 -8 h13z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M115 20 L127 80 L139 20" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse" style="animation-delay:0.2s"><circle cx="127" cy="110" r="28" fill="#FFD25E" stroke="#FF8A1F" stroke-width="3" /><path d="M127 90 l5 12 h13 l-10 8 4 13 -12 -8 -12 8 4 -13 -10 -8 h13z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M187 20 L199 80 L211 20" fill="#3FA34D" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse" style="animation-delay:0.4s"><circle cx="199" cy="110" r="28" fill="#FFD25E" stroke="#FF8A1F" stroke-width="3" /><path d="M199 90 l5 12 h13 l-10 8 4 13 -12 -8 -12 8 4 -13 -10 -8 h13z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M259 20 L271 80 L283 20" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse" style="animation-delay:0.6000000000000001s"><circle cx="271" cy="110" r="28" fill="#FFD25E" stroke="#FF8A1F" stroke-width="3" /><path d="M271 90 l5 12 h13 l-10 8 4 13 -12 -8 -12 8 4 -13 -10 -8 h13z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></g><path d="M331 20 L343 80 L355 20" fill="#7C5CFF" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse" style="animation-delay:0.8s"><circle cx="343" cy="110" r="28" fill="#FFD25E" stroke="#FF8A1F" stroke-width="3" /><path d="M343 90 l5 12 h13 l-10 8 4 13 -12 -8 -12 8 4 -13 -10 -8 h13z" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></g><rect x="70" y="170" width="260" height="44" rx="10" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><text x="200" y="198" font-family="sans-serif" font-size="14" font-weight="700" fill="#2B2F4A" text-anchor="middle" >Many awards for bravery</text></svg>

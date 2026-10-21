@@ -1,0 +1,2225 @@
+[
+  {
+    "id": "in-cbse-10-math-trigonometry-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Introduction",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A student looks at the top of a tower and a right triangle can be imagined between the student, the foot of the tower and its top. The branch of mathematics that lets us find the height **without measuring it** is called trigonometry. The word comes from the Greek words *tri*, *gon* and *metron*. What do they mean?",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/scene-tower.svg",
+      "alt": "A student, a tower and the line of sight forming a right triangle"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "triangle, angle, distance"
+      },
+      {
+        "id": "b",
+        "text": "three, angles, height"
+      },
+      {
+        "id": "c",
+        "text": "three, sides, measure"
+      },
+      {
+        "id": "d",
+        "text": "right, side, measure"
+      }
+    ],
+    "answer": "c",
+    "hint": "Think of a *tri*angle, a poly*gon* and a *metre*.",
+    "explanation": "**Tri** = three, **gon** = sides and **metron** = measure, so trigonometry literally means \"measuring three-sided figures\". It studies the relationships between the **sides and angles of a triangle**, which is exactly what lets us find the height of the tower from the distance and the angle of sight."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **hypotenuse** of this right triangle.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-A.svg",
+      "alt": "Right triangle ABC with the right angle at B and the angle at A marked"
+    },
+    "spots": [
+      {
+        "id": "hyp",
+        "x": 50.0,
+        "y": 48.5,
+        "label": "Hypotenuse AC"
+      },
+      {
+        "id": "opp",
+        "x": 79.5,
+        "y": 48.5,
+        "label": "Side BC (opposite to ∠A)"
+      },
+      {
+        "id": "adj",
+        "x": 50.0,
+        "y": 85.4,
+        "label": "Side AB (adjacent to ∠A)"
+      },
+      {
+        "id": "ang",
+        "x": 24.2,
+        "y": 83.4,
+        "label": "Angle A"
+      },
+      {
+        "id": "rt",
+        "x": 77.0,
+        "y": 81.2,
+        "label": "Right angle at B"
+      }
+    ],
+    "answer": "hyp",
+    "hint": "The hypotenuse faces the right angle.",
+    "explanation": "The **hypotenuse** is the side opposite the right angle, here AC, and it is always the longest side. BC faces $\\angle A$ (the side opposite to it) and AB, which is part of $\\angle A$, is the side adjacent to it."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, right-angled at B, $AB = 15$ cm, $BC = 8$ cm and $AC = 17$ cm. What is $\\cos A$?",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-15-8.svg",
+      "alt": "Right triangle ABC with AB = 15 cm, BC = 8 cm, AC = 17 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{15}{17}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{8}{17}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{17}{15}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{15}{8}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "$\\cos A$ is the side adjacent to $A$ divided by the hypotenuse.",
+    "explanation": "The side **adjacent** to $\\angle A$ is $AB = 15$ and the hypotenuse is $AC = 17$, so $\\cos A = \\dfrac{AB}{AC} = \\dfrac{15}{17}$. The value $\\dfrac{8}{17}$ is $\\sin A$ (opposite side used), $\\dfrac{17}{15}$ is $\\sec A$ (upside down) and $\\dfrac{15}{8}$ is $\\cot A$ (adjacent over opposite)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the side that is **opposite** to $\\angle C$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-C.svg",
+      "alt": "Right triangle ABC with the right angle at B and the angle at C marked"
+    },
+    "spots": [
+      {
+        "id": "opp",
+        "x": 50.0,
+        "y": 72.2,
+        "label": "Side AB (opposite to ∠C)"
+      },
+      {
+        "id": "adj",
+        "x": 85.0,
+        "y": 47.9,
+        "label": "Side BC (adjacent to ∠C)"
+      },
+      {
+        "id": "hyp",
+        "x": 50.0,
+        "y": 47.9,
+        "label": "Hypotenuse AC"
+      },
+      {
+        "id": "ang",
+        "x": 82.8,
+        "y": 29.0,
+        "label": "Angle C"
+      },
+      {
+        "id": "rt",
+        "x": 82.5,
+        "y": 68.1,
+        "label": "Right angle at B"
+      }
+    ],
+    "answer": "opp",
+    "hint": "The opposite side faces the angle, across the triangle from it.",
+    "explanation": "Looking from $C$, the side that faces it without touching it is $AB$, so **AB is opposite to $\\angle C$**. $BC$ touches $C$ and is the side **adjacent** to it, and $AC$ is still the hypotenuse. The roles of the two legs swap when you move from $\\angle A$ to $\\angle C$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each trigonometric ratio of $\\angle A$ in the right triangle with the ratio of sides it stands for.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-A.svg",
+      "alt": "Right triangle ABC with the right angle at B and the angle at A marked"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$\\sin A$"
+      },
+      {
+        "id": "l2",
+        "text": "$\\cos A$"
+      },
+      {
+        "id": "l3",
+        "text": "$\\tan A$"
+      },
+      {
+        "id": "l4",
+        "text": "$\\cot A$"
+      },
+      {
+        "id": "l5",
+        "text": "$\\sec A$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\dfrac{\\text{opposite}}{\\text{adjacent}}$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\dfrac{\\text{adjacent}}{\\text{opposite}}$"
+      },
+      {
+        "id": "r5",
+        "text": "$\\dfrac{\\text{hypotenuse}}{\\text{adjacent}}$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Remember that cosec, sec and cot are the reciprocals of sin, cos and tan.",
+    "explanation": "$\\sin A=\\dfrac{BC}{AC}$, $\\cos A=\\dfrac{AB}{AC}$ and $\\tan A=\\dfrac{BC}{AB}$. The reciprocals turn each fraction upside down: $\\cot A=\\dfrac{1}{\\tan A}=\\dfrac{AB}{BC}$ and $\\sec A=\\dfrac{1}{\\cos A}=\\dfrac{AC}{AB}$ (hypotenuse over adjacent)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, right-angled at B, $AB = 9$ cm, $BC = 40$ cm and $AC = 41$ cm. Find $\\sin C$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-9-40.svg",
+      "alt": "Tall thin right triangle ABC with AB = 9, BC = 40, AC = 41"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{40}{41}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{9}{40}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{41}{9}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{9}{41}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Which side faces $\\angle C$?",
+    "explanation": "The side opposite $\\angle C$ is $AB = 9$, so $\\sin C = \\dfrac{AB}{AC} = \\dfrac{9}{41}$. The trap is to reuse the answer for $\\angle A$: $\\dfrac{40}{41}$ is $\\sin A$ (which is also $\\cos C$). $\\dfrac{9}{40}$ is $\\tan C$ and $\\dfrac{41}{9}$ is $\\operatorname{cosec} C$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about an acute angle $A$ of a right triangle.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/recip.svg",
+      "alt": "Right triangle with sides named opposite, adjacent and hypotenuse and the six ratios"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sec A = \\dfrac{1}{\\cos A}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\operatorname{cosec} A = \\dfrac{1}{\\cos A}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\cot A = \\dfrac{\\cos A}{\\sin A}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\tan A = \\dfrac{\\cos A}{\\sin A}$"
+      },
+      {
+        "id": "e",
+        "text": "$\\operatorname{cosec} A$ is never less than $1$"
+      },
+      {
+        "id": "f",
+        "text": "$\\sin A$ can be $\\dfrac{5}{4}$ for some acute angle $A$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Cosec goes with sin, sec goes with cos and cot goes with tan. Which side is longest?",
+    "explanation": "$\\sec A=\\dfrac{1}{\\cos A}$ and $\\cot A=\\dfrac{1}{\\tan A}=\\dfrac{\\cos A}{\\sin A}$ are true. $\\operatorname{cosec} A=\\dfrac{1}{\\sin A}$ (not $\\cos A$), and $\\tan A=\\dfrac{\\sin A}{\\cos A}$ (not the other way round). Since $\\sin A=\\dfrac{\\text{opp}}{\\text{hyp}}\\le 1$, its reciprocal $\\operatorname{cosec} A\\ge 1$, and $\\sin A$ can never be $\\dfrac54$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In the right triangle $ABC$ (right-angled at B), $AB = 9$ cm, $BC = 12$ cm and $AC = 15$ cm. A point $P$ lies on $AC$ with $AP = 10$ cm, and $PM \\perp AB$ meets $AB$ at $M$. Find $PM$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/sim-tri.svg",
+      "alt": "Right triangle ABC with a smaller similar triangle APM inside it and AP = 10"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "12.5 cm"
+      },
+      {
+        "id": "b",
+        "text": "8 cm"
+      },
+      {
+        "id": "c",
+        "text": "6 cm"
+      },
+      {
+        "id": "d",
+        "text": "12 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "Triangles $APM$ and $ACB$ share angle $A$, so $\\sin A$ is the same in both.",
+    "explanation": "$\\sin A$ depends only on the angle, so in $\\triangle APM$ it equals $\\dfrac{PM}{AP}$ and in $\\triangle ABC$ it equals $\\dfrac{BC}{AC}=\\dfrac{12}{15}=\\dfrac45$. Hence $PM = 10\\times\\dfrac45 = 8$ cm. Using $\\cos A$ gives $6$ (that is $AM$), dividing $AP$ by $\\sin A$ gives $12.5$, and $12$ wrongly assumes $PM=BC$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "$\\triangle PAM \\sim \\triangle CAB$. Tap the side of $\\triangle PAM$ that **corresponds to $BC$** of $\\triangle CAB$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/sim-tri-hs.svg",
+      "alt": "Right triangle ABC inside a larger right triangle QAN, with P on AC, Q on AC extended and perpendiculars PM and QN to line AB"
+    },
+    "spots": [
+      {
+        "id": "pm",
+        "x": 27.5,
+        "y": 74.0,
+        "label": "Side PM of △PAM (corresponds to BC)"
+      },
+      {
+        "id": "bc",
+        "x": 47.5,
+        "y": 62.5,
+        "label": "Side BC of △CAB"
+      },
+      {
+        "id": "qn",
+        "x": 67.5,
+        "y": 51.0,
+        "label": "Side QN of △QAN"
+      },
+      {
+        "id": "an",
+        "x": 37.5,
+        "y": 85.4,
+        "label": "Base AN of △QAN"
+      }
+    ],
+    "answer": "pm",
+    "hint": "BC is the side opposite $\\angle A$; find the side opposite $\\angle A$ in the small triangle.",
+    "explanation": "$\\angle A$ is common, and $BC$ is opposite to it in $\\triangle CAB$. In $\\triangle PAM$ the side opposite $\\angle A$ is $PM$. Because the triangles are similar, $\\dfrac{PM}{AP}=\\dfrac{BC}{AC}=\\sin A$, and the same holds for $\\dfrac{QN}{AQ}$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/sim-scale.svg",
+      "alt": "Three similar right triangles sharing the angle at A"
+    },
+    "assertion": "In a right triangle, the value of $\\sin A$ depends only on the angle $A$ and not on the size of the triangle.",
+    "reason": "Right triangles with the same acute angle are similar (AA criterion), so ratios of corresponding sides are equal.",
+    "answer": "a",
+    "hint": "Compare $BC/AC$, $PM/AP$ and $QN/AQ$ in the picture.",
+    "explanation": "Both statements are true and R explains A. Triangles $PAM$, $CAB$ and $QAN$ are similar by AA, so $\\dfrac{PM}{AP}=\\dfrac{BC}{AC}=\\dfrac{QN}{AQ}$. The ratio therefore stays the same however large the triangle is drawn; it depends only on $\\angle A$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "If $5\\cot A = 12$, find $\\sin A$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/cot-tri.svg",
+      "alt": "Right triangle ABC with AB = 12k and BC = 5k and the hypotenuse unknown"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{12}{13}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{13}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{5}{12}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{13}{5}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "$\\cot A=\\dfrac{\\text{adjacent}}{\\text{opposite}}$; use the Pythagoras theorem for the hypotenuse.",
+    "explanation": "$\\cot A=\\dfrac{12}{5}=\\dfrac{AB}{BC}$, so take $AB=12k$ and $BC=5k$. Then $AC^2=(12k)^2+(5k)^2=169k^2$, so $AC=13k$ and $\\sin A=\\dfrac{BC}{AC}=\\dfrac{5}{13}$. Taking the adjacent side gives $\\dfrac{12}{13}$ ($\\cos A$), $\\dfrac{5}{12}$ is $\\tan A$ and $\\dfrac{13}{5}$ is $\\operatorname{cosec} A$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In $\\triangle OPQ$, right-angled at $P$, $OP = 11$ cm and $OQ - PQ = 1$ cm. Find $\\cos Q$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-opq.svg",
+      "alt": "Right triangle OPQ, right-angled at P, with OP = 11 cm and OQ one centimetre longer than PQ"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{11}{61}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{5}{6}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{61}{62}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{60}{61}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Put $OQ = 1 + PQ$ in $OQ^2 = OP^2 + PQ^2$ and expand.",
+    "explanation": "$(1+PQ)^2 = 11^2 + PQ^2$ gives $1 + 2PQ = 121$, so $PQ = 60$ cm and $OQ = 61$ cm. Then $\\cos Q = \\dfrac{PQ}{OQ} = \\dfrac{60}{61}$. $\\dfrac{11}{61}$ is $\\sin Q$. Using $OP$ instead of $OP^2$ gives $PQ=5$ and the false $\\dfrac56$, and $\\dfrac{61}{62}$ comes from adding instead of subtracting the $1$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Given $\\tan A = \\dfrac43$, arrange the steps for finding **all** the trigonometric ratios of $A$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-34.svg",
+      "alt": "Right triangle ABC with AB = 3k and BC = 4k"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Write $\\sin A=\\dfrac45$ and $\\cos A=\\dfrac35$ from the definitions"
+      },
+      {
+        "id": "s1",
+        "text": "Draw a right $\\triangle ABC$ and, since $\\tan A=\\dfrac{BC}{AB}=\\dfrac43$, take $BC=4k$ and $AB=3k$"
+      },
+      {
+        "id": "s5",
+        "text": "Take reciprocals: $\\cot A=\\dfrac34$, $\\operatorname{cosec} A=\\dfrac54$, $\\sec A=\\dfrac53$"
+      },
+      {
+        "id": "s3",
+        "text": "Take the positive root: $AC=5k$"
+      },
+      {
+        "id": "s2",
+        "text": "Use Pythagoras: $AC^2=(3k)^2+(4k)^2=25k^2$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You cannot name the hypotenuse before you have squared and added the legs.",
+    "explanation": "Start by building the triangle from the given ratio with an unknown scale $k$. Pythagoras gives $AC^2=25k^2$, and only the positive root $AC=5k$ is a length. The definitions then give $\\sin A$ and $\\cos A$, and the reciprocals give the other three. The scale $k$ cancels in every ratio."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A ladder leans against a wall. Tap the side that is **adjacent** to the angle the ladder makes with the ground.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/ladder.svg",
+      "alt": "A ladder leaning on a wall with the angle at the ground marked"
+    },
+    "spots": [
+      {
+        "id": "lad",
+        "x": 58.8,
+        "y": 55.7,
+        "label": "Ladder (hypotenuse)"
+      },
+      {
+        "id": "wall",
+        "x": 80.0,
+        "y": 55.7,
+        "label": "Wall (side opposite to the angle)"
+      },
+      {
+        "id": "ground",
+        "x": 58.8,
+        "y": 85.4,
+        "label": "Ground between foot and wall (adjacent side)"
+      },
+      {
+        "id": "ang",
+        "x": 46.9,
+        "y": 79.7,
+        "label": "Angle with the ground"
+      }
+    ],
+    "answer": "ground",
+    "hint": "The adjacent side touches the angle and is not the hypotenuse.",
+    "explanation": "The angle is at the foot of the ladder. The ladder is the **hypotenuse**, the wall is the side **opposite** to the angle, and the stretch of **ground** from the foot of the ladder to the wall is the side **adjacent** to it. So $\\cos$ of this angle is (ground distance) $\\div$ (ladder length)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/range-line.svg",
+      "alt": "A number line showing the possible values of sin A, cos A, sec A and cosec A with a cross at 4/3"
+    },
+    "assertion": "There is no acute angle $\\theta$ for which $\\sin\\theta = \\dfrac43$.",
+    "reason": "In a right triangle the hypotenuse is the longest side, so $\\sin\\theta$ can never exceed $1$.",
+    "answer": "a",
+    "hint": "What is the largest value of $\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$?",
+    "explanation": "Both are true and R explains A. $\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ and the hypotenuse is the longest side, so $\\sin\\theta\\le1$ (and likewise $\\cos\\theta\\le1$). A value like $\\dfrac43$ is not possible, whereas $\\sec\\theta$ and $\\operatorname{cosec}\\theta$ are always $\\ge1$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, right-angled at B, $\\tan A = \\dfrac{5}{12}$. Find $\\cos A\\cos C - \\sin A\\sin C$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-5-12.svg",
+      "alt": "Right triangle ABC with AB = 12k and BC = 5k with angles A and C marked"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$0$"
+      },
+      {
+        "id": "b",
+        "text": "$1$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{120}{169}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{119}{169}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Take $AB=12k$, $BC=5k$, $AC=13k$ and write each ratio for $A$ and for $C$.",
+    "explanation": "With $AB=12k$, $BC=5k$, $AC=13k$: $\\sin A=\\dfrac5{13}$, $\\cos A=\\dfrac{12}{13}$, $\\sin C=\\dfrac{12}{13}$, $\\cos C=\\dfrac5{13}$. So $\\cos A\\cos C=\\dfrac{60}{169}=\\sin A\\sin C$ and the difference is $0$. The value $1$ belongs to $\\sin A\\cos C+\\cos A\\sin C$, $\\dfrac{120}{169}$ comes from adding the products, and $\\dfrac{119}{169}$ is $\\cos^2A-\\sin^2A$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric ratios",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "In $\\triangle ABC$, right-angled at B, let $\\angle A = x$, so $\\angle C = 90^\\circ - x$. Match each ratio of $x$ with the equal ratio of $90^\\circ - x$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/comp-tri.svg",
+      "alt": "Right triangle ABC whose acute angles are x and 90 degrees minus x"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$\\sin x$"
+      },
+      {
+        "id": "l2",
+        "text": "$\\cos x$"
+      },
+      {
+        "id": "l3",
+        "text": "$\\tan x$"
+      },
+      {
+        "id": "l4",
+        "text": "$\\sec x$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\cos(90^\\circ - x)$"
+      },
+      {
+        "id": "r2",
+        "text": "$\\sin(90^\\circ - x)$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\cot(90^\\circ - x)$"
+      },
+      {
+        "id": "r4",
+        "text": "$\\operatorname{cosec}(90^\\circ - x)$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "The side opposite $\\angle A$ is adjacent to $\\angle C$, and vice versa.",
+    "explanation": "The side opposite $x$ is $BC$, which is **adjacent** to $90^\\circ - x$ at $C$. So $\\sin x=\\dfrac{BC}{AC}=\\cos(90^\\circ-x)$ and $\\cos x=\\dfrac{AB}{AC}=\\sin(90^\\circ-x)$. Likewise $\\tan x=\\dfrac{BC}{AB}=\\cot(90^\\circ-x)$ and $\\sec x=\\dfrac{AC}{AB}=\\operatorname{cosec}(90^\\circ-x)$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, right-angled at B, $\\angle A = 45^\\circ$ and $AC = 12$ cm. Find $BC$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri45-12.svg",
+      "alt": "Right triangle ABC with angle A equal to 45 degrees and hypotenuse AC = 12 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$6$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$12\\sqrt{2}$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$6\\sqrt{2}$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$6\\sqrt{3}$ cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "$BC$ is opposite $\\angle A$ and $AC$ is the hypotenuse; which ratio joins them?",
+    "explanation": "$\\sin 45^\\circ=\\dfrac{BC}{AC}$, so $BC = 12\\times\\dfrac{1}{\\sqrt2}=6\\sqrt2$ cm. The wrong options come from using $\\sin30^\\circ=\\dfrac12$ (giving $6$), multiplying by $\\sqrt2$ instead of dividing (giving $12\\sqrt2$) or using $\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$ (giving $6\\sqrt3$)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In this right triangle $\\angle A=\\angle C=45^\\circ$. Tap the side that is **equal in length to $AB$**.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri45-hs.svg",
+      "alt": "Right isosceles triangle ABC with two angles of 45 degrees"
+    },
+    "spots": [
+      {
+        "id": "ab",
+        "x": 50.0,
+        "y": 85.4,
+        "label": "Side AB itself"
+      },
+      {
+        "id": "bc",
+        "x": 71.9,
+        "y": 49.0,
+        "label": "Side BC (equal to AB)"
+      },
+      {
+        "id": "ac",
+        "x": 50.0,
+        "y": 49.0,
+        "label": "Hypotenuse AC (longer than AB)"
+      },
+      {
+        "id": "rt",
+        "x": 69.4,
+        "y": 81.2,
+        "label": "Right angle at B"
+      }
+    ],
+    "answer": "bc",
+    "hint": "Equal angles have equal sides opposite to them.",
+    "explanation": "Since $\\angle A=\\angle C=45^\\circ$, the sides opposite them are equal: $BC=AB$. If $AB=BC=a$ then $AC=\\sqrt{a^2+a^2}=a\\sqrt2$, so the hypotenuse is longer than either leg. This gives $\\sin45^\\circ=\\cos45^\\circ=\\dfrac1{\\sqrt2}$ and $\\tan45^\\circ=1$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "$\\triangle ABC$ is equilateral with each side $10$ cm, and $AD\\perp BC$ with $D$ on $BC$. Find $AD$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/equi-10.svg",
+      "alt": "Equilateral triangle ABC of side 10 cm with altitude AD"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$5$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$10\\sqrt{3}$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$5\\sqrt{2}$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$5\\sqrt{3}$ cm"
+      }
+    ],
+    "answer": "d",
+    "hint": "In right $\\triangle ABD$, $\\angle B = 60^\\circ$ and $AB = 10$.",
+    "explanation": "In $\\triangle ABD$, $\\angle ABD=60^\\circ$ and $AB=10$, so $AD = AB\\sin60^\\circ = 10\\times\\dfrac{\\sqrt3}{2}=5\\sqrt3$ cm. (Check: $BD=5$ and $AD^2=100-25=75$.) The value $5$ is only $BD$, $10\\sqrt3$ uses $\\tan60^\\circ$ and $5\\sqrt2$ uses the $45^\\circ$ value $\\sin45^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "$AD$ splits the equilateral triangle $ABC$ into two right triangles. In $\\triangle ABD$, tap the side **opposite to the $30^\\circ$ angle**.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/equi-hs.svg",
+      "alt": "Equilateral triangle ABC with altitude AD, angle BAD marked 30 degrees and angle ABD marked 60 degrees"
+    },
+    "spots": [
+      {
+        "id": "ab",
+        "x": 37.5,
+        "y": 49.3,
+        "label": "Hypotenuse AB"
+      },
+      {
+        "id": "bd",
+        "x": 37.5,
+        "y": 85.4,
+        "label": "Side BD (opposite the 30° angle)"
+      },
+      {
+        "id": "ad",
+        "x": 50.0,
+        "y": 49.3,
+        "label": "Altitude AD (opposite the 60° angle)"
+      },
+      {
+        "id": "dc",
+        "x": 62.5,
+        "y": 85.4,
+        "label": "Segment DC"
+      },
+      {
+        "id": "ac",
+        "x": 62.5,
+        "y": 49.3,
+        "label": "Side AC"
+      }
+    ],
+    "answer": "bd",
+    "hint": "The $30^\\circ$ angle is at $A$; which side faces it?",
+    "explanation": "The $30^\\circ$ angle is $\\angle BAD$ at $A$ and the side facing it is $BD$. It is half of $BC$, so $BD=\\dfrac12 AB$, which is why $\\sin30^\\circ=\\dfrac{BD}{AB}=\\dfrac12$. The side opposite $60^\\circ$ is $AD=\\sqrt3\\,BD$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In $\\triangle ABC$, right-angled at B, $AB = 7$ cm and $\\angle ACB = 30^\\circ$. Find $BC$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri30-7.svg",
+      "alt": "Right triangle ABC with AB = 7 cm and angle C equal to 30 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{7}{\\sqrt{3}}$ cm"
+      },
+      {
+        "id": "b",
+        "text": "$7\\sqrt{3}$ cm"
+      },
+      {
+        "id": "c",
+        "text": "$14$ cm"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{7\\sqrt{3}}{2}$ cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "$AB$ is opposite $\\angle C$ and $BC$ is adjacent to it.",
+    "explanation": "$\\tan C=\\dfrac{AB}{BC}$, so $BC=\\dfrac{AB}{\\tan30^\\circ}=7\\times\\sqrt3=7\\sqrt3$ cm. Multiplying by $\\tan30^\\circ$ instead (giving $\\dfrac{7}{\\sqrt3}$) turns the ratio upside down. $14$ is the hypotenuse $AC=\\dfrac{7}{\\sin30^\\circ}$, and $\\dfrac{7\\sqrt3}{2}$ comes from $7\\cos30^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In $\\triangle PQR$, right-angled at Q, $PQ = 4$ cm and $PR = 8$ cm. Find $\\angle QPR$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri-48.svg",
+      "alt": "Right triangle PQR, right-angled at Q, with PQ = 4 cm and PR = 8 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$30^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$45^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$60^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "answer": "c",
+    "hint": "$PQ$ is adjacent to $\\angle P$ and $PR$ is the hypotenuse.",
+    "explanation": "$\\cos P=\\dfrac{PQ}{PR}=\\dfrac48=\\dfrac12$, and $\\cos60^\\circ=\\dfrac12$, so $\\angle QPR=60^\\circ$ (and $\\angle PRQ=30^\\circ$). Choosing $30^\\circ$ comes from reading the ratio as $\\sin P$ or confusing the angle at $P$ with the one at $R$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Evaluate $\\tan^2 60^\\circ + 4\\cos^2 45^\\circ + 3\\sec^2 30^\\circ$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/setsq.svg",
+      "alt": "A 45-45-90 set square with sides 1, 1, root 2 and a 30-60-90 set square with sides 1, root 3, 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$9$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{29}{4}$"
+      },
+      {
+        "id": "c",
+        "text": "$8$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{19}{3}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Use $\\tan60^\\circ=\\sqrt3$, $\\cos45^\\circ=\\dfrac1{\\sqrt2}$, $\\sec30^\\circ=\\dfrac2{\\sqrt3}$ and square each.",
+    "explanation": "$\\tan^2 60^\\circ=3$, $4\\cos^2 45^\\circ=4\\times\\dfrac12=2$ and $3\\sec^2 30^\\circ=3\\times\\dfrac43=4$, so the total is $3+2+4=9$. Common slips: taking $\\sec30^\\circ=\\dfrac{\\sqrt3}2$ (that is $\\cos30^\\circ$) gives $\\dfrac{29}4$; using $\\cos45^\\circ=\\dfrac12$ gives $8$; using $\\tan60^\\circ=\\dfrac1{\\sqrt3}$ gives $\\dfrac{19}3$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each expression with its value.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/setsq.svg",
+      "alt": "A 45-45-90 set square and a 30-60-90 set square with their side ratios"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$\\sin^2 30^\\circ + \\cos^2 60^\\circ$"
+      },
+      {
+        "id": "l2",
+        "text": "$\\sec 60^\\circ \\cdot \\sin 30^\\circ$"
+      },
+      {
+        "id": "l3",
+        "text": "$\\operatorname{cosec}30^\\circ + \\cos0^\\circ$"
+      },
+      {
+        "id": "l4",
+        "text": "$\\cos 90^\\circ + \\tan 0^\\circ$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\dfrac{1}{2}$"
+      },
+      {
+        "id": "r2",
+        "text": "$1$"
+      },
+      {
+        "id": "r3",
+        "text": "$3$"
+      },
+      {
+        "id": "r4",
+        "text": "$0$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Use $\\sin30^\\circ=\\dfrac12$, $\\cos60^\\circ=\\dfrac12$, $\\sec60^\\circ=2$, $\\operatorname{cosec}30^\\circ=2$ and the values at $0^\\circ$ and $90^\\circ$.",
+    "explanation": "$\\sin^230^\\circ+\\cos^260^\\circ=\\dfrac14+\\dfrac14=\\dfrac12$. $\\sec60^\\circ\\sin30^\\circ=2\\times\\dfrac12=1$. $\\operatorname{cosec}30^\\circ+\\cos0^\\circ=2+1=3$. $\\cos90^\\circ+\\tan0^\\circ=0+0=0$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the cell that gives the value of $\\cos 60^\\circ$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/table81.svg",
+      "alt": "Table of sin, cos and tan for 0, 30, 45, 60 and 90 degrees"
+    },
+    "spots": [
+      {
+        "id": "s30",
+        "x": 43.8,
+        "y": 38.3,
+        "label": "sin 30° = 1/2"
+      },
+      {
+        "id": "s60",
+        "x": 74.8,
+        "y": 38.3,
+        "label": "sin 60° = √3/2"
+      },
+      {
+        "id": "c30",
+        "x": 43.8,
+        "y": 58.3,
+        "label": "cos 30° = √3/2"
+      },
+      {
+        "id": "c60",
+        "x": 74.8,
+        "y": 58.3,
+        "label": "cos 60° = 1/2"
+      },
+      {
+        "id": "t45",
+        "x": 59.2,
+        "y": 78.3,
+        "label": "tan 45° = 1"
+      }
+    ],
+    "answer": "c60",
+    "hint": "Go along the $\\cos A$ row until you reach the $60^\\circ$ column.",
+    "explanation": "Read the row **cos A** and the column **$60^\\circ$**: $\\cos60^\\circ=\\dfrac12$. The cell for $\\sin30^\\circ$ also holds $\\dfrac12$, which is no accident: $30^\\circ$ and $60^\\circ$ are complementary, so $\\sin30^\\circ=\\cos60^\\circ$. Be sure you are in the right row."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about the trigonometric ratios of $0^\\circ$ and $90^\\circ$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/limits.svg",
+      "alt": "Two right triangles: one with a very small angle A and one with A close to 90 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sin 0^\\circ = 0$"
+      },
+      {
+        "id": "b",
+        "text": "$\\cos 0^\\circ = 0$"
+      },
+      {
+        "id": "c",
+        "text": "$\\tan 90^\\circ$ is not defined"
+      },
+      {
+        "id": "d",
+        "text": "$\\operatorname{cosec}0^\\circ = 1$"
+      },
+      {
+        "id": "e",
+        "text": "$\\sec 90^\\circ$ is not defined"
+      },
+      {
+        "id": "f",
+        "text": "$\\cot 0^\\circ = 0$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Whenever a ratio would need division by $0$, it is not defined.",
+    "explanation": "As $A\\to0^\\circ$, $BC\\to0$ and $AC\\to AB$, so $\\sin0^\\circ=0$ and $\\cos0^\\circ=1$. Hence $\\tan0^\\circ=0$, while $\\cot0^\\circ=\\dfrac10$ and $\\operatorname{cosec}0^\\circ=\\dfrac10$ are **not defined**. At $90^\\circ$, $\\cos90^\\circ=0$, so $\\tan90^\\circ$ and $\\sec90^\\circ$ are not defined. So $\\cos0^\\circ=0$, $\\operatorname{cosec}0^\\circ=1$ and $\\cot0^\\circ=0$ are all false."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which graph shows how $\\cos A$ changes as $A$ increases from $0^\\circ$ to $90^\\circ$?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Graph 1",
+        "image": {
+          "src": "/img/c10-ma-trigonometry/g-sin.svg",
+          "alt": "A curve rising from 0 to 1, steep at the start"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Graph 2",
+        "image": {
+          "src": "/img/c10-ma-trigonometry/g-linfall.svg",
+          "alt": "A straight line falling from 1 to 0"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Graph 3",
+        "image": {
+          "src": "/img/c10-ma-trigonometry/g-cos.svg",
+          "alt": "A curve falling from 1 to 0, steep at the end"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Graph 4",
+        "image": {
+          "src": "/img/c10-ma-trigonometry/g-linrise.svg",
+          "alt": "A straight line rising from 0 to 1"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Where does $\\cos A$ start, and is it a straight line? Check $\\cos 60^\\circ$.",
+    "explanation": "$\\cos0^\\circ=1$ and $\\cos90^\\circ=0$, so $\\cos A$ **decreases** from $1$ to $0$. It is not a straight line: halfway up the angles, $\\cos60^\\circ=\\dfrac12$, whereas a straight line from $1$ to $0$ would give $1-\\dfrac{60}{90}=\\dfrac13$. Graph 1 is $\\sin A$, which rises."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tall-tri.svg",
+      "alt": "A very tall right triangle whose angle A is close to 90 degrees"
+    },
+    "assertion": "$\\tan 90^\\circ$ is not defined.",
+    "reason": "$\\tan A = \\dfrac{\\sin A}{\\cos A}$ and $\\cos 90^\\circ = 0$, so the ratio would need division by zero.",
+    "answer": "a",
+    "hint": "What happens to $AB$ as $A$ gets close to $90^\\circ$?",
+    "explanation": "Both are true and R explains A. $\\tan90^\\circ=\\dfrac{\\sin90^\\circ}{\\cos90^\\circ}=\\dfrac10$, which has no value. In the picture, as $A\\to90^\\circ$ the side $AB$ shrinks to $0$ while $BC$ stays, so $\\tan A=\\dfrac{BC}{AB}$ grows without limit."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these values from the **smallest** to the **largest**.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/val-line.svg",
+      "alt": "A number line from 0 to 2"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "$\\tan 45^\\circ$"
+      },
+      {
+        "id": "s1",
+        "text": "$\\cos 90^\\circ$"
+      },
+      {
+        "id": "s5",
+        "text": "$\\tan 60^\\circ$"
+      },
+      {
+        "id": "s3",
+        "text": "$\\cos 30^\\circ$"
+      },
+      {
+        "id": "s2",
+        "text": "$\\sin 30^\\circ$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "Smallest",
+    "endLabel": "Largest",
+    "hint": "Use $\\cos90^\\circ=0$, $\\sin30^\\circ=0.5$, $\\cos30^\\circ\\approx0.87$, $\\tan45^\\circ=1$ and $\\tan60^\\circ\\approx1.73$.",
+    "explanation": "$\\cos90^\\circ=0$, $\\sin30^\\circ=\\dfrac12$, $\\cos30^\\circ=\\dfrac{\\sqrt3}2\\approx0.87$, $\\tan45^\\circ=1$ and $\\tan60^\\circ=\\sqrt3\\approx1.73$. Remember that $\\sin A$ rises from $0$ to $1$ and $\\cos A$ falls from $1$ to $0$ as $A$ goes from $0^\\circ$ to $90^\\circ$, so $\\cos30^\\circ>\\sin30^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each condition with the acute angle $\\theta$ (from $0^\\circ$ to $90^\\circ$) that satisfies it.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/fan.svg",
+      "alt": "A quarter circle with rays at 0, 30, 45, 60 and 90 degrees"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "$\\sin\\theta=\\dfrac12$"
+      },
+      {
+        "id": "l2",
+        "text": "$\\tan\\theta=1$"
+      },
+      {
+        "id": "l3",
+        "text": "$\\sec\\theta=2$"
+      },
+      {
+        "id": "l4",
+        "text": "$\\cos\\theta=0$"
+      },
+      {
+        "id": "l5",
+        "text": "$\\tan\\theta=0$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$30^\\circ$"
+      },
+      {
+        "id": "r2",
+        "text": "$45^\\circ$"
+      },
+      {
+        "id": "r3",
+        "text": "$60^\\circ$"
+      },
+      {
+        "id": "r4",
+        "text": "$90^\\circ$"
+      },
+      {
+        "id": "r5",
+        "text": "$0^\\circ$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Use Table 8.1; $\\sec\\theta=\\dfrac1{\\cos\\theta}$.",
+    "explanation": "$\\sin30^\\circ=\\dfrac12$; $\\tan45^\\circ=1$; $\\sec60^\\circ=\\dfrac1{\\cos60^\\circ}=2$; $\\cos90^\\circ=0$; and $\\tan0^\\circ=\\dfrac{\\sin0^\\circ}{\\cos0^\\circ}=0$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "If $\\sin(A+B)=1$ and $\\cos(A-B)=\\dfrac{\\sqrt3}{2}$, with $0^\\circ<A+B\\le90^\\circ$ and $A>B$, find $A$ and $B$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/ab-fan.svg",
+      "alt": "A quarter circle showing the two angles A minus B and A plus B"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$A=60^\\circ,\\ B=30^\\circ$"
+      },
+      {
+        "id": "b",
+        "text": "$A=30^\\circ,\\ B=60^\\circ$"
+      },
+      {
+        "id": "c",
+        "text": "$A=75^\\circ,\\ B=15^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$A=45^\\circ,\\ B=15^\\circ$"
+      }
+    ],
+    "answer": "a",
+    "hint": "First find $A+B$ and $A-B$ separately from Table 8.1, then add and subtract.",
+    "explanation": "$\\sin(A+B)=1$ gives $A+B=90^\\circ$ and $\\cos(A-B)=\\dfrac{\\sqrt3}{2}$ gives $A-B=30^\\circ$. Adding: $2A=120^\\circ$, so $A=60^\\circ$ and $B=30^\\circ$. Taking $A-B=60^\\circ$ (from $\\cos60^\\circ=\\dfrac12$) gives $75^\\circ,15^\\circ$; $A+B=60^\\circ$ gives $45^\\circ,15^\\circ$; and $30^\\circ,60^\\circ$ ignores $A>B$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/sumbars.svg",
+      "alt": "Two bars comparing sin(A+B) with sin A plus sin B for A = B = 30 degrees"
+    },
+    "assertion": "$\\sin(A+B)=\\sin A+\\sin B$ is not true for all angles $A$ and $B$.",
+    "reason": "For $A=B=30^\\circ$, $\\sin(A+B)=\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$, but $\\sin A+\\sin B=\\dfrac12+\\dfrac12=1$.",
+    "answer": "a",
+    "hint": "Try a particular pair of angles, such as $30^\\circ$ and $30^\\circ$.",
+    "explanation": "Both are true and R explains A: one counterexample is enough to show a statement is not an identity. Here $\\dfrac{\\sqrt3}{2}\\approx0.87\\ne1$. In general $\\sin(A+B)$ is **not** found by adding the sines; $\\sin$ is not a number that can be distributed over a sum."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps that give the trigonometric ratios of $30^\\circ$ and $60^\\circ$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/half-eq.svg",
+      "alt": "An equilateral triangle cut along its altitude into two 30-60-90 triangles"
+    },
+    "items": [
+      {
+        "id": "s3",
+        "text": "Let $AB=2a$; then $BD=a$"
+      },
+      {
+        "id": "s5",
+        "text": "Read off $\\sin30^\\circ=\\dfrac{BD}{AB}=\\dfrac12$, $\\cos30^\\circ=\\dfrac{\\sqrt3}2$, $\\tan30^\\circ=\\dfrac1{\\sqrt3}$ and the ratios of $60^\\circ$"
+      },
+      {
+        "id": "s1",
+        "text": "Take an equilateral $\\triangle ABC$ and draw $AD\\perp BC$"
+      },
+      {
+        "id": "s4",
+        "text": "Pythagoras in $\\triangle ABD$: $AD^2=(2a)^2-a^2=3a^2$, so $AD=a\\sqrt3$"
+      },
+      {
+        "id": "s2",
+        "text": "Show $\\triangle ABD\\cong\\triangle ACD$, so $BD=\\dfrac12BC$ and $\\angle BAD=30^\\circ$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "You need the side lengths before you can write any ratio.",
+    "explanation": "Cutting an equilateral triangle in half gives a right triangle with angles $30^\\circ$, $60^\\circ$, $90^\\circ$. The congruence shows the altitude bisects the base, taking $AB=2a$ avoids fractions, Pythagoras gives the altitude $a\\sqrt3$, and the sides $a$, $a\\sqrt3$, $2a$ yield every ratio of $30^\\circ$ and $60^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "In a right triangle with $\\angle A=\\angle C=45^\\circ$ and equal sides $AB=BC=a$, select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/tri45-ratios.svg",
+      "alt": "Right isosceles triangle with legs a and hypotenuse a root 2"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The hypotenuse is $a\\sqrt2$"
+      },
+      {
+        "id": "b",
+        "text": "$\\sin45^\\circ=\\dfrac1{\\sqrt2}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\tan45^\\circ=1$"
+      },
+      {
+        "id": "d",
+        "text": "$\\cos45^\\circ=\\dfrac12$"
+      },
+      {
+        "id": "e",
+        "text": "$\\operatorname{cosec}45^\\circ=\\sqrt2$"
+      },
+      {
+        "id": "f",
+        "text": "$\\sec45^\\circ=2$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "hint": "Use $AC=a\\sqrt2$ and write each ratio of $a$, $a$, $a\\sqrt2$.",
+    "explanation": "$AC^2=a^2+a^2=2a^2$, so $AC=a\\sqrt2$. Then $\\sin45^\\circ=\\cos45^\\circ=\\dfrac{a}{a\\sqrt2}=\\dfrac1{\\sqrt2}$ (not $\\dfrac12$), $\\tan45^\\circ=1$ and the reciprocals are $\\operatorname{cosec}45^\\circ=\\sec45^\\circ=\\sqrt2$ (not $2$)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In this quarter circle of radius $OP=1$, tap the segment whose length equals **$\\sin\\theta$**.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/unit-circle.svg",
+      "alt": "A quarter circle of radius 1 with a right triangle OMP inside it"
+    },
+    "spots": [
+      {
+        "id": "sin",
+        "x": 45.1,
+        "y": 66.8,
+        "label": "Segment PM (length sin θ)"
+      },
+      {
+        "id": "cos",
+        "x": 28.8,
+        "y": 89.6,
+        "label": "Segment OM (length cos θ)"
+      },
+      {
+        "id": "rad",
+        "x": 28.8,
+        "y": 66.8,
+        "label": "Radius OP = 1"
+      },
+      {
+        "id": "arc",
+        "x": 27.0,
+        "y": 23.0,
+        "label": "Arc of the quarter circle"
+      }
+    ],
+    "answer": "sin",
+    "hint": "$\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$, and the hypotenuse is $1$.",
+    "explanation": "In right $\\triangle OMP$ the hypotenuse is $OP=1$, so $\\sin\\theta=\\dfrac{PM}{OP}=PM$: the vertical segment $PM$ has length $\\sin\\theta$. As $\\theta$ grows from $0^\\circ$ to $90^\\circ$, $PM$ grows from $0$ to $1$, matching \"sin increases from 0 to 1\"."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the same quarter circle, tap the segment whose length equals **$\\cos\\theta$**.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/unit-circle.svg",
+      "alt": "A quarter circle of radius 1 with a right triangle OMP inside it"
+    },
+    "spots": [
+      {
+        "id": "sin",
+        "x": 45.1,
+        "y": 66.8,
+        "label": "Segment PM (length sin θ)"
+      },
+      {
+        "id": "cos",
+        "x": 28.8,
+        "y": 89.6,
+        "label": "Segment OM (length cos θ)"
+      },
+      {
+        "id": "rad",
+        "x": 28.8,
+        "y": 66.8,
+        "label": "Radius OP = 1"
+      },
+      {
+        "id": "arc",
+        "x": 27.0,
+        "y": 23.0,
+        "label": "Arc of the quarter circle"
+      }
+    ],
+    "answer": "cos",
+    "hint": "$\\cos\\theta=\\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$, and the hypotenuse is $1$.",
+    "explanation": "The side adjacent to $\\theta$ is $OM$ and $OP=1$, so $\\cos\\theta=\\dfrac{OM}{OP}=OM$: the horizontal segment. As $\\theta$ grows to $90^\\circ$, $OM$ shrinks to $0$, matching \"cos decreases from 1 to 0\"."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Ratios of specific angles",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "As $A$ increases from $0^\\circ$ to $90^\\circ$, select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/trace.svg",
+      "alt": "Graphs of sin A rising and cos A falling between 0 and 90 degrees, crossing at 45 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sin A$ increases from $0$ to $1$"
+      },
+      {
+        "id": "b",
+        "text": "$\\cos A$ increases from $0$ to $1$"
+      },
+      {
+        "id": "c",
+        "text": "$\\sin45^\\circ=\\cos45^\\circ$"
+      },
+      {
+        "id": "d",
+        "text": "$\\sin45^\\circ+\\cos45^\\circ=1$"
+      },
+      {
+        "id": "e",
+        "text": "$\\sin30^\\circ<\\sin60^\\circ$"
+      },
+      {
+        "id": "f",
+        "text": "$\\cos30^\\circ<\\cos60^\\circ$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Follow the two curves in the picture; where do they cross?",
+    "explanation": "$\\sin A$ increases from $0$ to $1$ and $\\cos A$ decreases from $1$ to $0$; they meet at $45^\\circ$ where both equal $\\dfrac1{\\sqrt2}$, so $\\sin45^\\circ+\\cos45^\\circ=\\sqrt2\\ne1$. Also $\\sin30^\\circ=\\dfrac12<\\dfrac{\\sqrt3}2=\\sin60^\\circ$, but $\\cos30^\\circ=\\dfrac{\\sqrt3}2>\\dfrac12=\\cos60^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that prove the identity $\\sin^2A+\\cos^2A=1$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/pyth-sq.svg",
+      "alt": "Right triangle ABC with the relation AB squared plus BC squared equals AC squared"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Replace $\\dfrac{AB}{AC}$ by $\\cos A$ and $\\dfrac{BC}{AC}$ by $\\sin A$"
+      },
+      {
+        "id": "s1",
+        "text": "In $\\triangle ABC$, right-angled at B, write $AB^2+BC^2=AC^2$"
+      },
+      {
+        "id": "s5",
+        "text": "Conclude $\\cos^2A+\\sin^2A=1$, true for every $A$ with $0^\\circ\\le A\\le90^\\circ$"
+      },
+      {
+        "id": "s3",
+        "text": "Rewrite as $\\left(\\dfrac{AB}{AC}\\right)^2+\\left(\\dfrac{BC}{AC}\\right)^2=\\left(\\dfrac{AC}{AC}\\right)^2$"
+      },
+      {
+        "id": "s2",
+        "text": "Divide every term by $AC^2$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Start from the Pythagoras theorem and end with the identity.",
+    "explanation": "The proof starts with the Pythagoras theorem and divides by $AC^2$ so each term becomes a ratio. $\\dfrac{AB}{AC}=\\cos A$ and $\\dfrac{BC}{AC}=\\sin A$, giving $\\cos^2A+\\sin^2A=1$. It holds for $A=0^\\circ$ and $A=90^\\circ$ too, so it is a true **identity** for all $0^\\circ\\le A\\le90^\\circ$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "In $\\triangle ABC$, right-angled at B, start from $AB^2+BC^2=AC^2$. Match each division with the identity it produces.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/pyth-sq.svg",
+      "alt": "Right triangle ABC with the three ways of dividing the Pythagoras relation"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Divide by $AC^2$"
+      },
+      {
+        "id": "l2",
+        "text": "Divide by $AB^2$"
+      },
+      {
+        "id": "l3",
+        "text": "Divide by $BC^2$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "$\\sin^2A+\\cos^2A=1$"
+      },
+      {
+        "id": "r2",
+        "text": "$1+\\tan^2A=\\sec^2A$"
+      },
+      {
+        "id": "r3",
+        "text": "$\\cot^2A+1=\\operatorname{cosec}^2A$"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3"
+    },
+    "hint": "$\\dfrac{BC}{AB}=\\tan A$ and $\\dfrac{AB}{BC}=\\cot A$.",
+    "explanation": "Dividing by $AC^2$ gives $\\cos^2A+\\sin^2A=1$. Dividing by $AB^2$ gives $1+\\left(\\dfrac{BC}{AB}\\right)^2=\\left(\\dfrac{AC}{AB}\\right)^2$, that is $1+\\tan^2A=\\sec^2A$. Dividing by $BC^2$ gives $\\left(\\dfrac{AB}{BC}\\right)^2+1=\\left(\\dfrac{AC}{BC}\\right)^2$, that is $\\cot^2A+1=\\operatorname{cosec}^2A$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the statements that are true for every acute angle $A$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/stack.svg",
+      "alt": "Stacked bars of sin squared and cos squared that always total 1"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\sin^2A+\\cos^2A=1$"
+      },
+      {
+        "id": "b",
+        "text": "$1+\\tan^2A=\\sec^2A$"
+      },
+      {
+        "id": "c",
+        "text": "$1+\\cot^2A=\\operatorname{cosec}^2A$"
+      },
+      {
+        "id": "d",
+        "text": "$\\sin A+\\cos A=1$"
+      },
+      {
+        "id": "e",
+        "text": "$\\sec^2A-\\tan^2A=-1$"
+      },
+      {
+        "id": "f",
+        "text": "$\\cos^2A=1-\\sin A$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Test each with $A=45^\\circ$ or $A=30^\\circ$.",
+    "explanation": "The first three are the standard identities. $\\sin A+\\cos A=1$ fails at $45^\\circ$ (it gives $\\sqrt2$); $\\sec^2A-\\tan^2A$ equals $+1$, not $-1$; and $\\cos^2A=1-\\sin^2A$, not $1-\\sin A$ (try $A=30^\\circ$: $\\dfrac34\\ne\\dfrac12$)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/sec-tri.svg",
+      "alt": "Right triangle with adjacent side 1, opposite tan A and hypotenuse sec A"
+    },
+    "assertion": "The identity $1+\\tan^2A=\\sec^2A$ is true for $A=0^\\circ$ but is meaningless for $A=90^\\circ$.",
+    "reason": "$\\tan90^\\circ$ and $\\sec90^\\circ$ are not defined.",
+    "answer": "a",
+    "hint": "Put $A=0^\\circ$ and then $A=90^\\circ$ into both sides.",
+    "explanation": "Both are true and R explains A. At $A=0^\\circ$: $1+0=1$, which is $\\sec0^\\circ$. At $A=90^\\circ$ neither $\\tan A$ nor $\\sec A$ exists, so the identity cannot be checked. It holds for all $A$ with $0^\\circ\\le A<90^\\circ$, which comes from dividing the Pythagoras relation by $AB^2$ ($AB\\ne0$)."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find the value of $6\\sec^2A-6\\tan^2A+2\\sin^2A+2\\cos^2A$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/balance.svg",
+      "alt": "A balance with sec squared A on one pan and 1 plus tan squared A on the other, level"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$-4$"
+      },
+      {
+        "id": "b",
+        "text": "$6$"
+      },
+      {
+        "id": "c",
+        "text": "$8$"
+      },
+      {
+        "id": "d",
+        "text": "$10$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Group the terms: $6(\\sec^2A-\\tan^2A)+2(\\sin^2A+\\cos^2A)$.",
+    "explanation": "$6(\\sec^2A-\\tan^2A)=6\\times1=6$ and $2(\\sin^2A+\\cos^2A)=2\\times1=2$, so the value is $8$. Writing $\\sec^2A-\\tan^2A=-1$ gives $-4$; forgetting the last two terms gives $6$; and treating $\\sin^2A+\\cos^2A$ as $2$ gives $10$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "If $\\sec A=\\dfrac53$, find $\\tan A$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/sec-tri2.svg",
+      "alt": "Right triangle ABC with AB = 3k and hypotenuse AC = 5k"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{4}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{2}{3}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{16}{9}$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Use $1+\\tan^2A=\\sec^2A$, and remember to take a square root.",
+    "explanation": "$\\tan^2A=\\sec^2A-1=\\dfrac{25}{9}-1=\\dfrac{16}{9}$, so $\\tan A=\\dfrac43$ (positive, since $A$ is acute). The triangle with $AB=3k$, $AC=5k$, $BC=4k$ agrees. $\\dfrac34$ is $\\cot A$, $\\dfrac23$ comes from $\\sec A-1$ and $\\dfrac{16}{9}$ is $\\tan^2A$, where the square root was forgotten."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "If $\\cot\\theta=\\dfrac35$, evaluate $\\dfrac{(1+\\sin\\theta)(1-\\sin\\theta)}{(1+\\cos\\theta)(1-\\cos\\theta)}$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/cot-tri2.svg",
+      "alt": "Right triangle with adjacent side 3k and opposite side 5k"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{3}{5}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{25}{9}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{25}{34}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{9}{25}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "$(1+x)(1-x)=1-x^2$; then use $\\sin^2\\theta+\\cos^2\\theta=1$.",
+    "explanation": "The numerator is $1-\\sin^2\\theta=\\cos^2\\theta$ and the denominator is $1-\\cos^2\\theta=\\sin^2\\theta$, so the value is $\\dfrac{\\cos^2\\theta}{\\sin^2\\theta}=\\cot^2\\theta=\\dfrac{9}{25}$. Stopping at $\\cot\\theta$ gives $\\dfrac35$, inverting gives $\\dfrac{25}{9}$, and $\\dfrac{25}{34}$ is just $\\sin^2\\theta$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Express $\\tan A$ in terms of $\\sin A$ (for an acute angle $A$).",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/unit-tri.svg",
+      "alt": "Right triangle with hypotenuse 1, opposite side sin A and an unknown adjacent side"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{\\sin A}{1-\\sin^2 A}$"
+      },
+      {
+        "id": "b",
+        "text": "$\\dfrac{\\sqrt{1-\\sin^2 A}}{\\sin A}$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{\\sin A}{\\sqrt{1-\\sin^2 A}}$"
+      },
+      {
+        "id": "d",
+        "text": "$\\dfrac{1}{\\sqrt{1-\\sin^2 A}}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "First find $\\cos A$ from $\\sin^2A+\\cos^2A=1$, taking the positive root.",
+    "explanation": "$\\cos^2A=1-\\sin^2A$, so $\\cos A=\\sqrt{1-\\sin^2A}$ (positive because $A$ is acute). Then $\\tan A=\\dfrac{\\sin A}{\\cos A}=\\dfrac{\\sin A}{\\sqrt{1-\\sin^2A}}$. Leaving out the root gives the second option, the third is $\\cot A$ and the fourth is $\\sec A$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Simplify $(\\operatorname{cosec}A-\\cot A)(1+\\cos A)$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/cosec-tri.svg",
+      "alt": "Right triangle with opposite side 1, hypotenuse cosec A and adjacent side cot A"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\cos A$"
+      },
+      {
+        "id": "b",
+        "text": "$\\cos A\\cot A$"
+      },
+      {
+        "id": "c",
+        "text": "$\\tan A$"
+      },
+      {
+        "id": "d",
+        "text": "$\\sin A$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Write $\\operatorname{cosec}A-\\cot A$ over $\\sin A$ and use $(1-x)(1+x)=1-x^2$.",
+    "explanation": "$\\operatorname{cosec}A-\\cot A=\\dfrac{1-\\cos A}{\\sin A}$, so the product is $\\dfrac{(1-\\cos A)(1+\\cos A)}{\\sin A}=\\dfrac{1-\\cos^2A}{\\sin A}=\\dfrac{\\sin^2A}{\\sin A}=\\sin A$. Replacing $1-\\cos^2A$ by $\\cos^2A$ gives $\\cos A\\cot A$ (the trap), and $\\cos A$ or $\\tan A$ come from mixing up the ratios."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the steps that prove $\\sec A\\,(1-\\sin A)(\\sec A+\\tan A)=1$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/steps.svg",
+      "alt": "A staircase of five steps from the left-hand side to the right-hand side"
+    },
+    "items": [
+      {
+        "id": "s2",
+        "text": "Write $\\sec A=\\dfrac1{\\cos A}$ and $\\tan A=\\dfrac{\\sin A}{\\cos A}$"
+      },
+      {
+        "id": "s4",
+        "text": "Use $(1-\\sin A)(1+\\sin A)=1-\\sin^2A=\\cos^2A$"
+      },
+      {
+        "id": "s1",
+        "text": "Start with $\\text{LHS}=\\sec A\\,(1-\\sin A)(\\sec A+\\tan A)$"
+      },
+      {
+        "id": "s5",
+        "text": "Cancel to obtain $\\dfrac{\\cos^2A}{\\cos^2A}=1=\\text{RHS}$"
+      },
+      {
+        "id": "s3",
+        "text": "Combine to get $\\dfrac{(1-\\sin A)(1+\\sin A)}{\\cos^2A}$"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First step",
+    "endLabel": "Last step",
+    "hint": "Convert to $\\sin A$ and $\\cos A$ first.",
+    "explanation": "Expressing everything in $\\sin A$ and $\\cos A$ gives $\\dfrac1{\\cos A}(1-\\sin A)\\cdot\\dfrac{1+\\sin A}{\\cos A}=\\dfrac{(1-\\sin A)(1+\\sin A)}{\\cos^2A}$. The product of conjugates is $1-\\sin^2A=\\cos^2A$ and the fraction becomes $1$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "If $\\operatorname{cosec}A=\\dfrac53$, find $\\dfrac{\\cot A-\\cos A}{\\cot A+\\cos A}$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/cosec-tri53.svg",
+      "alt": "Right triangle ABC with BC = 3k and hypotenuse AC = 5k"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$\\dfrac{1}{4}$"
+      },
+      {
+        "id": "b",
+        "text": "$4$"
+      },
+      {
+        "id": "c",
+        "text": "$\\dfrac{2}{5}$"
+      },
+      {
+        "id": "d",
+        "text": "$-\\dfrac{1}{4}$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find $\\cot A$ and $\\cos A$ from the triangle with $BC=3k$ and $AC=5k$.",
+    "explanation": "$BC=3k$, $AC=5k$ give $AB=4k$, so $\\cot A=\\dfrac43$ and $\\cos A=\\dfrac45$. Then $\\dfrac{\\cot A-\\cos A}{\\cot A+\\cos A}=\\dfrac{\\frac{8}{15}}{\\frac{32}{15}}=\\dfrac14$, which agrees with the identity $\\dfrac{\\operatorname{cosec}A-1}{\\operatorname{cosec}A+1}=\\dfrac{2/3}{8/3}$. Inverting gives $4$; $\\dfrac25$ is $\\dfrac{\\operatorname{cosec}A-1}{\\operatorname{cosec}A}$; and using $\\sin A$ in place of $\\operatorname{cosec}A$ gives $-\\dfrac14$."
+  },
+  {
+    "id": "in-cbse-10-math-trigonometry-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "chapterNo": 8,
+    "topic": "Trigonometric identities",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Find the value of $(\\sin A+\\operatorname{cosec}A)^2+(\\cos A+\\sec A)^2-\\tan^2A-\\cot^2A$.",
+    "image": {
+      "src": "/img/c10-ma-trigonometry/area-model.svg",
+      "alt": "A square of side sin A plus cosec A cut into two squares and two rectangles each of area 1"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3$"
+      },
+      {
+        "id": "b",
+        "text": "$7$"
+      },
+      {
+        "id": "c",
+        "text": "$5$"
+      },
+      {
+        "id": "d",
+        "text": "$1$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Expand each bracket; the cross terms $2\\sin A\\operatorname{cosec}A$ and $2\\cos A\\sec A$ equal $2$ each.",
+    "explanation": "$(\\sin A+\\operatorname{cosec}A)^2=\\sin^2A+2+\\operatorname{cosec}^2A$ and $(\\cos A+\\sec A)^2=\\cos^2A+2+\\sec^2A$. Adding, $\\sin^2A+\\cos^2A=1$, $\\operatorname{cosec}^2A=1+\\cot^2A$ and $\\sec^2A=1+\\tan^2A$, so the sum is $1+4+2+\\tan^2A+\\cot^2A$; subtracting $\\tan^2A+\\cot^2A$ leaves $7$. Dropping the cross terms gives $3$, keeping only one pair gives $5$, and stopping after $\\sin^2A+\\cos^2A$ gives $1$."
+  }
+]

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>A horse tied at the corner of a square field</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.45}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<rect x="50" y="30" width="180" height="180" fill="#DFF3D8" stroke="#3FA34D" stroke-width="4"/><path d="M50 210 L200 210 A150 150 0 0 0 50 60 Z" fill="#FFD7A8" stroke="#FF8A1F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /><path d="M50 210 L140 210 A90 90 0 0 0 50 120 Z" fill="#FFB067" stroke="#FF8A1F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /><line x1="50.0" y1="210.0" x2="140.0" y2="210.0" stroke="#E5484D" stroke-width="3" stroke-linecap="round" /><circle cx="50.0" cy="210.0" r="6" fill="#2B2F4A" /><text x="46.0" y="228.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle" >peg</text><text x="95.0" y="202.0" font-family="sans-serif" font-size="14" font-weight="700" fill="#E5484D" text-anchor="middle" >6 m</text><text x="244.0" y="110.0" font-family="sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="start" >Square field</text><text x="244.0" y="130.0" font-family="sans-serif" font-size="14" font-weight="600" fill="#2B2F4A" text-anchor="start" >side 12 m</text><text x="170.0" y="202.0" font-family="sans-serif" font-size="14" font-weight="700" fill="#E5484D" text-anchor="middle" >10 m</text>
+</svg>

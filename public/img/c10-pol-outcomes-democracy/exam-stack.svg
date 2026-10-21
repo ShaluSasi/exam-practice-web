@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Four test papers each higher than the last, with a student on the left</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.blk,.drift,.rock{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.1)}}
+.spin{animation:spin 8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rspin{transform-box:fill-box;transform-origin:center;animation:rspin 8s linear infinite}
+@keyframes rspin{to{transform:rotate(-360deg)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.4}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+.rock{animation:rock 3s ease-in-out infinite alternate}
+@keyframes rock{from{transform:rotate(-1.5deg)}to{transform:rotate(1.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7C5CFF"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><text x="200" y="22" font-size="13" text-anchor="middle">Test after test</text><g class="bob" style="animation-delay:0.0s"><rect x="90" y="150" width="60" height="44" rx="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="120" y="178" font-size="12" text-anchor="middle">Test 1</text></g><g class="bob" style="animation-delay:0.4s"><rect x="160" y="128" width="60" height="44" rx="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="190" y="156" font-size="12" text-anchor="middle">Test 2</text></g><g class="bob" style="animation-delay:0.8s"><rect x="230" y="106" width="60" height="44" rx="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="260" y="134" font-size="12" text-anchor="middle">Test 3</text></g><g class="bob" style="animation-delay:1.2000000000000002s"><rect x="300" y="84" width="60" height="44" rx="6" fill="#fff" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="330" y="112" font-size="12" text-anchor="middle">Test 4</text></g><g transform="translate(50 180) scale(1.3)"><circle cx="0" cy="-13" r="6.5" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M-9 14V0Q-9 -6 0 -6Q9 -6 9 0V14Z" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

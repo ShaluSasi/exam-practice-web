@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Alkaline potassium permanganate dripping into warm ethanol</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@keyframes fall{0%{transform:translateY(0);opacity:1}70%{transform:translateY(60px);opacity:1}100%{transform:translateY(64px);opacity:0}}@keyframes fade{0%,60%{opacity:0}70%{opacity:.7}100%{opacity:0}}</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M92 130H142V200Q142 214 128 214H106Q92 214 92 200Z" fill="#fff" stroke="#2B2F4A" stroke-width="3.5"/><path d="M96 150H138V200Q138 210 128 210H106Q96 210 96 200Z" fill="#DFF1FF"/><path d="M92 130V96H142V130" fill="none" stroke="#2B2F4A" stroke-width="3.5"/><rect x="108" y="40" width="18" height="30" rx="4" fill="#B8BDD9" stroke="#2B2F4A" stroke-width="3"/><path d="M117 70V80" stroke="#2B2F4A" stroke-width="3"/><g style="animation:fall 2.6s ease-in infinite"><circle cx="117" cy="86" r="5" fill="#7C5CFF"/></g><circle cx="117" cy="164" r="9" fill="#7C5CFF" opacity=".6" style="animation:fade 2.6s ease-out infinite"/><text x="117.0" y="34.0" font-family="sans-serif" font-size="11.5" font-weight="600" fill="#7C5CFF" text-anchor="middle" >alkaline KMnO₄</text><text x="117.0" y="232.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle" >warm ethanol</text><rect x="199.0" y="80.0" width="118" height="32" rx="10" fill="#fff" stroke="#2B2F4A" stroke-width="2.5"/><text x="258.0" y="101.0" font-family="sans-serif" font-size="14" font-weight="700" fill="#2B2F4A" text-anchor="middle" >CH₃CH₂OH</text><line x1="258.0" y1="114.0" x2="258.0" y2="149.0" stroke="#FF8A1F" stroke-width="3.5" stroke-linecap="round" /><path d="M258.0 158.0L252.0 149.0L264.0 149.0Z" fill="#FF8A1F"/><text x="274.0" y="142.0" font-family="sans-serif" font-size="14" font-weight="800" fill="#FF8A1F" text-anchor="start" >[O]</text><rect x="199.0" y="160.0" width="118" height="32" rx="10" fill="#fff" stroke="#3FA34D" stroke-width="2.5"/><text x="258.0" y="181.0" font-family="sans-serif" font-size="14" font-weight="700" fill="#3FA34D" text-anchor="middle" >CH₃COOH</text><text x="258.0" y="216.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#5A5F80" text-anchor="middle" >oxygen added</text>
+</svg>

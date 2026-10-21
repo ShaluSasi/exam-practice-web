@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Two identical packs, one with a quality badge and one without</title><style>text{font-family:sans-serif}
+.bob{animation:bob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{animation:flow 1.6s linear infinite}
+.slide{animation:slide 3s ease-in-out infinite}
+.grow{animation:grow 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+.puff{animation:puff 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes slide{0%,100%{transform:translateX(0)}50%{transform:translateX(26px)}}
+@keyframes grow{0%{transform:scaleX(.25)}60%,100%{transform:scaleX(1)}}
+@keyframes puff{0%{transform:translateY(0) scale(.6);opacity:.9}100%{transform:translateY(-26px) scale(1.3);opacity:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="40" y="56" width="100" height="100" rx="8" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" /><circle cx="90" cy="106" r="24" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" /><circle cx="90" cy="106" r="17.759999999999998" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2" /><path d="M78.0,106 l9.0,10.5 l16.5,-21.0" fill="none" stroke="#3FA34D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><rect x="240" y="56" width="100" height="100" rx="8" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="3" /><rect x="262" y="90" width="56" height="34" rx="4" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="3" /><text x="290" y="112" font-size="10" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >No mark</text><text x="90" y="190" font-size="13" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Certified</text><text x="290" y="190" font-size="13" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Not certified</text></svg>

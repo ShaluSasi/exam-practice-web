@@ -24,7 +24,7 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
     boards: ["CBSE"],
     grades: [9, 10, 11, 12],
     gradeLabel: (g) => `Class ${g}`,
-    subjects: { maths: "Mathematics", physics: "Physics", chemistry: "Chemistry", biology: "Biology", social: "Social Science", english: "English" },
+    subjects: { maths: "Mathematics", physics: "Physics", chemistry: "Chemistry", biology: "Biology", social: "Social Science", english: "English", history: "History", geography: "Geography", politics: "Politics", economics: "Economics" },
     assertionReasonOptions: [
       { id: "a", text: "Both A and R are true, and R is the correct explanation of A." },
       { id: "b", text: "Both A and R are true, but R is not the correct explanation of A." },
@@ -39,7 +39,7 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
     boards: ["Common Core", "AP"],
     grades: [9, 10, 11, 12],
     gradeLabel: (g) => `Grade ${g}`,
-    subjects: { maths: "Math", physics: "Physics", chemistry: "Chemistry", biology: "Biology", social: "Social Studies", english: "English" },
+    subjects: { maths: "Math", physics: "Physics", chemistry: "Chemistry", biology: "Biology", social: "Social Studies", english: "English", history: "History", geography: "Geography", politics: "Government", economics: "Economics" },
     assertionReasonOptions: [],
   },
   UK: {
@@ -49,7 +49,7 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
     boards: ["AQA", "Edexcel", "OCR"],
     grades: [10, 11, 12, 13],
     gradeLabel: (g) => `Year ${g}`,
-    subjects: { maths: "Maths", physics: "Physics", chemistry: "Chemistry", biology: "Biology", social: "Humanities", english: "English" },
+    subjects: { maths: "Maths", physics: "Physics", chemistry: "Chemistry", biology: "Biology", social: "Humanities", english: "English", history: "History", geography: "Geography", politics: "Politics", economics: "Economics" },
     assertionReasonOptions: [],
   },
 };
@@ -57,8 +57,8 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
 export const region = REGIONS.IN;
 
 /**
- * Classes the app offers today. Only Class 9 for now; add the others as their
- * content grows. Mixed practice, custom sets and challenge fallbacks draw from
- * these classes only, so sample questions for other classes never reach a student.
+ * Classes the app offers today (the ones with full chapters); add the others as
+ * their content grows. Mixed practice, custom sets and challenge fallbacks draw
+ * from these classes only, so stray questions for other classes never reach a student.
  */
-export const offeredGrades = region.grades.filter((g) => g === 9);
+export const offeredGrades: number[] = region.grades.filter((g) => g === 9 || g === 10);

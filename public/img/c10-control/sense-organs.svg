@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Side view of a head with the eye, ear, nose and tongue; scent particles drift towards the nose and sound waves towards the ear</title>
+<style>
+text{font-family:sans-serif}
+.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes sm{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(-26px,0);opacity:0}}
+.sm1{animation:sm 2s linear infinite}.sm2{animation:sm 2s linear .7s infinite}
+@keyframes sd{0%{transform:translate(0,0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translate(22px,0);opacity:0}}
+.sd1{animation:sd 2s linear infinite}.sd2{animation:sd 2s linear .7s infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<ellipse cx="172" cy="122" rx="84" ry="92" fill="#FFE0C2" stroke="#2B2F4A" stroke-width="3" /><path d="M130 52Q170 20 235 52Q200 40 130 62Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#3A3550" /><path d="M248 106Q282 128 250 144" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FFE0C2" /><circle cx="222" cy="98" r="11" fill="#fff" stroke="#2B2F4A" stroke-width="2.5" /><circle cx="225" cy="98" r="5" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="1" /><ellipse cx="102" cy="124" rx="12" ry="22" fill="#FFE0C2" stroke="#2B2F4A" stroke-width="3" /><path d="M104 114Q96 124 104 134" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M214 170Q234 162 254 170Q236 186 214 170Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#B03A4A" /><ellipse cx="234" cy="174" rx="12" ry="5" fill="#FFB3C1" stroke="#2B2F4A" stroke-width="2" /><path d="M300 112q6 -6 12 0t12 0" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sm1"/><path d="M300 128q6 -6 12 0t12 0" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sm2"/><path d="M300 144q6 -6 12 0t12 0" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sm1"/><path d="M50 112q6 -8 0 -16" stroke="#7C5CFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sd1"/><path d="M50 134q6 -8 0 -16" stroke="#7C5CFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sd2"/><text x="322" y="168" font-family="sans-serif" font-size="12" fill="#0B93D4" text-anchor="middle" font-weight="bold">smell</text><text x="46" y="160" font-family="sans-serif" font-size="12" fill="#7C5CFF" text-anchor="middle" font-weight="bold">sound</text>
+</svg>

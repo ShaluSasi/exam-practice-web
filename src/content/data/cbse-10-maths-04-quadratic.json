@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "in-cbse-10-math-quadratic-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Standard form",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The prayer hall in this chapter leads to the equation shown on the card. Tap the term that contains the **highest power** of $x$.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/eqcard.svg",
+      "alt": "A card showing the equation 2x squared plus x minus 300 equals 0"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 18.8,
+        "y": 50.0,
+        "label": "The $2x^2$ term (highest power, coefficient $a=2$)"
+      },
+      {
+        "id": "b",
+        "x": 41.2,
+        "y": 50.0,
+        "label": "The $x$ term (coefficient $b=1$)"
+      },
+      {
+        "id": "c",
+        "x": 66.2,
+        "y": 50.0,
+        "label": "The constant term $-300$"
+      },
+      {
+        "id": "z",
+        "x": 86.2,
+        "y": 50.0,
+        "label": "The right-hand side, $0$"
+      }
+    ],
+    "answer": "a",
+    "hint": "A quadratic equation is named after the power 2.",
+    "explanation": "In $ax^2+bx+c=0$ the **highest power** of $x$ is 2, and it sits in the $ax^2$ term. Here that term is $2x^2$. The term $x$ has power 1, $-300$ is the constant term, and $0$ is the right-hand side. Writing the terms from the highest power down is the **standard form**."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Quadratic equation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the equation $ax^2+bx+c=0$, which condition on the real numbers $a$, $b$, $c$ must hold for it to be a quadratic equation?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/flatten.svg",
+      "alt": "A parabola flattening into a straight line as a tends to zero"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$b\\ne 0$"
+      },
+      {
+        "id": "b",
+        "text": "$c\\ne 0$"
+      },
+      {
+        "id": "c",
+        "text": "$a\\ne 0$"
+      },
+      {
+        "id": "d",
+        "text": "$a$, $b$ and $c$ are all non-zero"
+      }
+    ],
+    "answer": "c",
+    "hint": "Which coefficient belongs to the term that makes the equation quadratic?",
+    "explanation": "The equation is quadratic because of the $ax^2$ term. If $a=0$ that term vanishes and only $bx+c=0$ is left, a **linear** equation (the picture's curve flattens to a line). $b$ or $c$ can be zero: $2x^2-8=0$ ($b=0$) and $3x^2+5x=0$ ($c=0$) are both quadratic, so the other conditions are not needed."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Quadratic equation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Simplify before you decide. Which one of these is a **quadratic equation**?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/degree-ladder.svg",
+      "alt": "A straight line, a parabola and a cubic curve"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x(x+4)+7=(x+3)(x-3)$"
+      },
+      {
+        "id": "b",
+        "text": "$(x+3)^3=x^3-9$"
+      },
+      {
+        "id": "c",
+        "text": "$(x-2)^2=x^2+5x$"
+      },
+      {
+        "id": "d",
+        "text": "$x(x^2+1)=x^3+2x+3$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Expand both sides and collect everything on one side. Do the $x^3$ and $x^2$ terms cancel?",
+    "explanation": "$(x+3)^3=x^3+9x^2+27x+27$, so $(x+3)^3=x^3-9$ becomes $9x^2+27x+36=0$: it **looks cubic** but is quadratic. In the others the $x^2$ (or $x^3$) terms cancel: $x^2+4x+7=x^2-9$ gives $4x+16=0$; $x^2-4x+4=x^2+5x$ gives $-9x+4=0$; $x^3+x=x^3+2x+3$ gives $-x-3=0$. All three are **linear**."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Forming equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Rohan's mother is 26 years older than him. The product of their ages (in years) 3 years from now will be 360. If Rohan's present age is $x$ years, which quadratic equation represents this?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/ages-rohan.svg",
+      "alt": "Bars showing Rohan and his mother now and three years later"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^2+32x-273=0$"
+      },
+      {
+        "id": "b",
+        "text": "$x^2+29x-282=0$"
+      },
+      {
+        "id": "c",
+        "text": "$x^2+20x-429=0$"
+      },
+      {
+        "id": "d",
+        "text": "$x^2+32x+87=0$"
+      }
+    ],
+    "answer": "a",
+    "hint": "Both of them are 3 years older in the future. What are their future ages in terms of $x$?",
+    "explanation": "Rohan will be $x+3$ and his mother $(x+26)+3=x+29$, so $(x+3)(x+29)=360$, i.e. $x^2+32x+87=360$, i.e. $x^2+32x-273=0$. Traps: adding 3 to Rohan's age only gives $x^2+29x-282=0$; subtracting 3 (the past) gives $x^2+20x-429=0$; and leaving out the $-360$ gives $x^2+32x+87=0$, not an equation for the situation."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Forming equations",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "In the prayer hall the breadth is $x$ m and the length is one metre more than twice the breadth. Tap the side of the plan that has length $(2x+1)$ m.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/hall.svg",
+      "alt": "Floor plan of a rectangular hall with the breadth marked x metres"
+    },
+    "spots": [
+      {
+        "id": "len",
+        "x": 50.0,
+        "y": 19.2,
+        "label": "Length $(2x+1)$ m"
+      },
+      {
+        "id": "bre",
+        "x": 12.5,
+        "y": 49.2,
+        "label": "Breadth $x$ m"
+      },
+      {
+        "id": "area",
+        "x": 50.0,
+        "y": 62.5,
+        "label": "Floor area $300\\ \\text{m}^2$"
+      },
+      {
+        "id": "door",
+        "x": 87.5,
+        "y": 57.1,
+        "label": "Door"
+      }
+    ],
+    "answer": "len",
+    "hint": "The long side is the length; the marked short side is the breadth.",
+    "explanation": "The marked short side is the breadth $x$. The long side is the **length** $=2x+1$. Area $=x(2x+1)=2x^2+x=300$ leads to the quadratic equation $2x^2+x-300=0$. The shaded floor is the area (300 m$^2$), not a side."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Roots of a quadratic equation",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A number is a **root** of $x^2-5x-14=0$ if putting it in for $x$ makes the left-hand side $0$. Which of these is a root?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/root-machine.svg",
+      "alt": "A machine turning an input x into p of x; output zero means x is a root"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x=-7$"
+      },
+      {
+        "id": "b",
+        "text": "$x=2$"
+      },
+      {
+        "id": "c",
+        "text": "$x=14$"
+      },
+      {
+        "id": "d",
+        "text": "$x=7$"
+      }
+    ],
+    "answer": "d",
+    "hint": "Substitute each value and see which one gives exactly 0.",
+    "explanation": "For $x=7$: $49-35-14=0$, so 7 is a root. For $x=-7$: $49+35-14=70$. For $x=2$: $4-10-14=-20$. For $x=14$: $196-70-14=112$. Picking $-7$ or $2$ comes from a sign slip on the true roots $7$ and $-2$, and $14$ just copies the constant term. (The other root is $-2$.)"
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Roots and zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Look at the graph of $y=x^2-5x+6$. Select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/zeros-56.svg",
+      "alt": "Graph of y = x squared minus 5x plus 6 meeting the x-axis at two points"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The zeroes of the polynomial $x^2-5x+6$ and the roots of $x^2-5x+6=0$ are the same numbers"
+      },
+      {
+        "id": "b",
+        "text": "A real number $\\alpha$ is a root of $ax^2+bx+c=0$ if $a\\alpha^2+b\\alpha+c=0$"
+      },
+      {
+        "id": "c",
+        "text": "A quadratic equation can have at most two roots"
+      },
+      {
+        "id": "d",
+        "text": "Every quadratic equation has two different real roots"
+      },
+      {
+        "id": "e",
+        "text": "Putting $x=2$ into $x^2-5x+6$ gives $6$"
+      },
+      {
+        "id": "f",
+        "text": "The roots of $x^2-5x+6=0$ are $-2$ and $-3$"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Recall the definition of a root and how many zeroes a quadratic polynomial has.",
+    "explanation": "True: zeroes of the polynomial and roots of the equation are the same, $\\alpha$ is a root exactly when $a\\alpha^2+b\\alpha+c=0$, and a quadratic has **at most two** roots. False: some quadratics have equal or no real roots ($x^2+1=0$); at $x=2$ the value is $4-10+6=0$, not 6; and the roots here are $2$ and $3$ (check $x=-2$: $4+10+6=20\\ne 0$)."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Solution by factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "To factorise $3x^2+14x+8$ by splitting the middle term, which rewriting is correct?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/split-mid.svg",
+      "alt": "A two by two area model with 3x squared and 8 in opposite corners and two unknown middle cells"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$3x^2+12x+2x+8$"
+      },
+      {
+        "id": "b",
+        "text": "$3x^2-12x-2x+8$"
+      },
+      {
+        "id": "c",
+        "text": "$3x^2+6x+4x+8$"
+      },
+      {
+        "id": "d",
+        "text": "$3x^2+7x+7x+8$"
+      }
+    ],
+    "answer": "a",
+    "hint": "You need two numbers that add to 14 and multiply to $3\\times 8$.",
+    "explanation": "Find two numbers with **sum $14$** and **product $ac=3\\times8=24$**: they are $12$ and $2$. So $3x^2+12x+2x+8=3x(x+4)+2(x+4)=(3x+2)(x+4)$. The pair $-12,-2$ has product 24 but sum $-14$; $6$ and $4$ have product 24 but sum 10; and $7,7$ has the right sum but product 49, not 24."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Solution by factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Find the roots of $6x^2+x-12=0$ by factorisation.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/zero-product-0.svg",
+      "alt": "Two factor boxes multiplied together giving 0"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x=-\\dfrac43$ or $x=\\dfrac32$"
+      },
+      {
+        "id": "b",
+        "text": "$x=\\dfrac43$ or $x=-\\dfrac32$"
+      },
+      {
+        "id": "c",
+        "text": "$x=\\dfrac34$ or $x=-\\dfrac23$"
+      },
+      {
+        "id": "d",
+        "text": "$x=4$ or $x=-3$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Split $x$ as $9x-8x$, then use: a product is zero only if one of the factors is zero.",
+    "explanation": "$6x^2+9x-8x-12=3x(2x+3)-4(2x+3)=(3x-4)(2x+3)$. Setting each factor to zero: $3x-4=0\\Rightarrow x=\\dfrac43$ and $2x+3=0\\Rightarrow x=-\\dfrac32$. Traps: sign errors give $-\\frac43,\\frac32$; inverting the fractions gives $\\frac34,-\\frac23$; and forgetting to divide by the coefficient of $x$ gives $4$ and $-3$. Check: $6\\cdot\\frac{16}{9}+\\frac43-12=0$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Solution by factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps that solve $2x^2+7x+3=0$ by factorisation.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/factor-flow.svg",
+      "alt": "From the equation to two factors to two roots"
+    },
+    "items": [
+      {
+        "id": "eq",
+        "text": "Equate each factor to zero: $2x+1=0$ or $x+3=0$"
+      },
+      {
+        "id": "sol",
+        "text": "Solve: $x=-\\dfrac12$ or $x=-3$"
+      },
+      {
+        "id": "split",
+        "text": "Split the middle term: $2x^2+6x+x+3=0$"
+      },
+      {
+        "id": "fac",
+        "text": "Factorise: $(2x+1)(x+3)=0$"
+      },
+      {
+        "id": "grp",
+        "text": "Group the terms: $2x(x+3)+1(x+3)=0$"
+      }
+    ],
+    "answer": [
+      "split",
+      "grp",
+      "fac",
+      "eq",
+      "sol"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Split first, then pull out common factors, then use the zero-product idea.",
+    "explanation": "Split $7x$ as $6x+x$ (sum 7, product $2\\times3=6$), group to get a common bracket $(x+3)$, factorise as $(2x+1)(x+3)=0$, then equate **each** factor to zero and solve both small equations. Finally the roots $-\\frac12$ and $-3$ can be verified in the original equation."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Solution by factorisation",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "What are the roots of $49x^2-14x+1=0$?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/repeat-touch.svg",
+      "alt": "Two dots on the x-axis sliding together under a parabola touching the axis"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x=\\dfrac17$ and $x=-\\dfrac17$"
+      },
+      {
+        "id": "b",
+        "text": "No real roots"
+      },
+      {
+        "id": "c",
+        "text": "$x=7$, a root repeated twice"
+      },
+      {
+        "id": "d",
+        "text": "$x=\\dfrac17$, a root repeated twice"
+      }
+    ],
+    "answer": "d",
+    "hint": "Is the left-hand side a perfect square?",
+    "explanation": "$49x^2-14x+1=(7x-1)^2=(7x-1)(7x-1)$, so $7x-1=0$ for **both** factors and $x=\\dfrac17$ is a root repeated twice (two equal roots); the discriminant is $196-196=0$. The pair $\\pm\\frac17$ would come from $(7x-1)(7x+1)=49x^2-1$, a different equation, and $x=7$ is the reciprocal of the true root."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Roots and graphs",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The graph of $y=x^2-2x-8$ is drawn. Tap the point that shows the **positive root** of $x^2-2x-8=0$.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/roots-graph.svg",
+      "alt": "Graph of the parabola y equals x squared minus 2x minus 8"
+    },
+    "spots": [
+      {
+        "id": "zl",
+        "x": 25.0,
+        "y": 43.3,
+        "label": "Zero at $x=-2$"
+      },
+      {
+        "id": "zr",
+        "x": 77.5,
+        "y": 43.3,
+        "label": "Zero at $x=4$ (positive root)"
+      },
+      {
+        "id": "vertex",
+        "x": 51.2,
+        "y": 80.8,
+        "label": "Lowest point $(1,-9)$"
+      },
+      {
+        "id": "ur",
+        "x": 86.2,
+        "y": 14.2,
+        "label": "Point $(5,7)$"
+      },
+      {
+        "id": "ul",
+        "x": 16.2,
+        "y": 14.2,
+        "label": "Point $(-3,7)$"
+      }
+    ],
+    "answer": "zr",
+    "hint": "A root is where the curve meets the x-axis (where $y=0$).",
+    "explanation": "Roots of $x^2-2x-8=0$ are the x-values where $y=0$, i.e. where the curve **crosses the x-axis**: $x=-2$ and $x=4$ since $(x-4)(x+2)=0$. The positive one is $x=4$. The lowest point $(1,-9)$ has $y\\ne0$, and $(5,7)$, $(-3,7)$ are just points on the curve with $y=7$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The graph of $y=x^2-6x+9$ gives the equation $x^2-6x+9=0$. Tap the point where the curve **touches the x-axis**, showing the repeated root.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/touch.svg",
+      "alt": "Graph of the parabola y equals x squared minus 6x plus 9"
+    },
+    "spots": [
+      {
+        "id": "touch",
+        "x": 51.2,
+        "y": 75.3,
+        "label": "Touching point $(3,0)$"
+      },
+      {
+        "id": "yint",
+        "x": 18.4,
+        "y": 12.8,
+        "label": "$y$-intercept $(0,9)$"
+      },
+      {
+        "id": "left",
+        "x": 29.4,
+        "y": 47.5,
+        "label": "Point $(1,4)$"
+      },
+      {
+        "id": "right",
+        "x": 73.1,
+        "y": 47.5,
+        "label": "Point $(5,4)$"
+      }
+    ],
+    "answer": "touch",
+    "hint": "Where does the curve have $y=0$?",
+    "explanation": "$x^2-6x+9=(x-3)^2$, so the equation has the repeated root $x=3$ and the curve only **touches** the x-axis at $(3,0)$ without crossing it. The discriminant is $36-36=0$. The point $(0,9)$ is where the curve cuts the $y$-axis, and $(1,4)$, $(5,4)$ are mirror-image points on its arms."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Two numbers add up to 27 and their product is 182. Which pair are they?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/two-numbers.svg",
+      "alt": "A bar of total 27 split into two parts that slide"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$12$ and $15$"
+      },
+      {
+        "id": "b",
+        "text": "$13$ and $14$"
+      },
+      {
+        "id": "c",
+        "text": "$7$ and $26$"
+      },
+      {
+        "id": "d",
+        "text": "$-13$ and $-14$"
+      }
+    ],
+    "answer": "b",
+    "hint": "If one number is $x$, the other is $27-x$. Then $x(27-x)=182$.",
+    "explanation": "Let the numbers be $x$ and $27-x$. Then $x(27-x)=182$, so $x^2-27x+182=0$, i.e. $(x-13)(x-14)=0$. The numbers are $13$ and $14$ (sum 27, product 182). $12$ and $15$ add to 27 but multiply to 180; $7$ and $26$ multiply to 182 but add to 33; and $-13,-14$ multiply to 182 but add to $-27$ (a sign slip in the equation)."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A train travels 480 km at a uniform speed. If its speed had been 8 km/h less, it would have taken 3 hours more for the same journey. What is the usual speed of the train?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/train-road.svg",
+      "alt": "Two trains travelling the same 480 km at different speeds"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "40 km/h"
+      },
+      {
+        "id": "b",
+        "text": "32 km/h"
+      },
+      {
+        "id": "c",
+        "text": "48 km/h"
+      },
+      {
+        "id": "d",
+        "text": "160 km/h"
+      }
+    ],
+    "answer": "a",
+    "hint": "Time $=\\dfrac{\\text{distance}}{\\text{speed}}$. Write the two times and subtract.",
+    "explanation": "Let the speed be $x$ km/h. Then $\\dfrac{480}{x-8}-\\dfrac{480}{x}=3$, which simplifies to $x^2-8x-1280=0$, i.e. $(x-40)(x+32)=0$. The speed cannot be negative, so $x=40$ km/h (times: 12 h and 15 h, a difference of 3 h). **32** is the *reduced* speed, **48** is $x+8$, and **160** is $480\\div3$, which ignores the equation."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The bars show the time for the same 480 km journey at two speeds. Tap the part that represents the **extra 3 hours** taken at the lower speed.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/train-bars.svg",
+      "alt": "Two bars showing journey times at two speeds; the slower bar is longer"
+    },
+    "spots": [
+      {
+        "id": "b1",
+        "x": 40.0,
+        "y": 31.7,
+        "label": "Journey at $x$ km/h (12 hours)"
+      },
+      {
+        "id": "b2",
+        "x": 40.0,
+        "y": 60.8,
+        "label": "First 12 hours of the slower journey"
+      },
+      {
+        "id": "extra",
+        "x": 77.5,
+        "y": 60.8,
+        "label": "The extra 3 hours"
+      },
+      {
+        "id": "axis",
+        "x": 45.0,
+        "y": 79.2,
+        "label": "Time axis"
+      },
+      {
+        "id": "dist",
+        "x": 50.0,
+        "y": 10.0,
+        "label": "Title: 480 km"
+      }
+    ],
+    "answer": "extra",
+    "hint": "Compare the two bars: how much longer is the lower one?",
+    "explanation": "At 40 km/h the 480 km takes $12$ h; at 32 km/h it takes $15$ h. The slower bar is longer by exactly the orange part, the **extra 3 hours**: $\\dfrac{480}{x-8}-\\dfrac{480}{x}=3$. The blue part of the lower bar is the same 12 hours as the top bar."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "John and Jivanti together have 40 marbles. Each loses 3 marbles, and the product of the numbers they have left is 189. How many marbles did the one who had **more** start with?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/marble-jars.svg",
+      "alt": "Two jars of marbles with three marbles leaving each"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "27"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "33"
+      }
+    ],
+    "answer": "c",
+    "hint": "If John has $x$, Jivanti has $40-x$. After losing 3 each: $(x-3)(37-x)$.",
+    "explanation": "$(x-3)(37-x)=189$ gives $-x^2+40x-111=189$, so $x^2-40x+300=0$ and $(x-30)(x-10)=0$. The two children had 30 and 10 marbles, so the one with more had **30**. $10$ is the other child's number, $27$ is what the first child has *after* losing 3 ($27\\times7=189$), and $33$ comes from adding 3 instead of subtracting."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Solution by factorisation",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Solve $(x-2)(x-3)=6$.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/zero-product-6.svg",
+      "alt": "Two factor boxes multiplied together giving 6"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x=0$ or $x=5$"
+      },
+      {
+        "id": "b",
+        "text": "$x=8$ or $x=9$"
+      },
+      {
+        "id": "c",
+        "text": "$x=2$ or $x=3$"
+      },
+      {
+        "id": "d",
+        "text": "$x=5$ only"
+      }
+    ],
+    "answer": "a",
+    "hint": "The 'product is zero' rule needs 0 on one side. Expand and move the 6 across first.",
+    "explanation": "Zero-product reasoning works only when the product equals **0**. Expand: $x^2-5x+6=6$, so $x^2-5x=0$ and $x(x-5)=0$, giving $x=0$ or $x=5$ (check: $(-2)(-3)=6$ and $3\\cdot2=6$). Setting each factor equal to 6 gives $8,9$, but $6\\times5=30$. $2$ and $3$ make the product 0, not 6. Dividing by $x$ in $x^2=5x$ loses the root $x=0$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Number of roots",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/sweep-line.svg",
+      "alt": "A horizontal line sweeping down across a parabola"
+    },
+    "assertion": "A quadratic equation cannot have more than two roots.",
+    "reason": "The graph of a quadratic polynomial can meet the x-axis in at most two points, and these points give the roots.",
+    "answer": "a",
+    "hint": "Roots are the x-coordinates where the parabola meets the x-axis.",
+    "explanation": "Both are true and R explains A. The roots of $ax^2+bx+c=0$ are the zeroes of the polynomial, i.e. where its parabola meets the x-axis, and a parabola meets any straight line (including the x-axis) in at most two points. That is why there can never be three roots."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Is it quadratic?",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/cancel-balance.svg",
+      "alt": "A balance with an x squared block on each pan"
+    },
+    "assertion": "The equation $x(x+3)+5=(x+1)(x-1)$ is not a quadratic equation.",
+    "reason": "On simplifying, the $x^2$ terms on both sides cancel and the equation becomes $3x+6=0$.",
+    "answer": "a",
+    "hint": "Expand both sides first.",
+    "explanation": "Both are true and R explains A. $x(x+3)+5=x^2+3x+5$ and $(x+1)(x-1)=x^2-1$. Subtracting, the $x^2$ terms cancel leaving $3x+6=0$, a **linear** equation. An equation must be simplified before deciding its type; having $x^2$ in the original does not make it quadratic."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Roots of equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each equation with its roots.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/numberline-roots.svg",
+      "alt": "A number line with five coloured dots marking roots of several equations"
+    },
+    "left": [
+      {
+        "id": "e1",
+        "text": "$x^2-5x+6=0$"
+      },
+      {
+        "id": "e2",
+        "text": "$x^2-9=0$"
+      },
+      {
+        "id": "e3",
+        "text": "$x^2-2x+1=0$"
+      },
+      {
+        "id": "e4",
+        "text": "$x^2+3x-10=0$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "$x=1$ (repeated twice)"
+      },
+      {
+        "id": "r1",
+        "text": "$x=2$ and $x=3$"
+      },
+      {
+        "id": "r4",
+        "text": "$x=-5$ and $x=2$"
+      },
+      {
+        "id": "r2",
+        "text": "$x=-3$ and $x=3$"
+      }
+    ],
+    "pairs": {
+      "e1": "r1",
+      "e2": "r2",
+      "e3": "r3",
+      "e4": "r4"
+    },
+    "hint": "Factorise each one: $(x-2)(x-3)$, $(x-3)(x+3)$, $(x-1)^2$, $(x+5)(x-2)$.",
+    "explanation": "$x^2-5x+6=(x-2)(x-3)$ gives 2 and 3. $x^2-9=(x-3)(x+3)$ gives $\\pm3$. $x^2-2x+1=(x-1)^2$ gives the repeated root 1. $x^2+3x-10=(x+5)(x-2)$ gives $-5$ and 2. Substituting each root back into its equation gives 0."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Forming equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each situation with the quadratic equation it leads to.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/story-collage.svg",
+      "alt": "Four small pictures: two neighbouring numbers, a rectangular plot, two numbers, a right triangle"
+    },
+    "left": [
+      {
+        "id": "s1",
+        "text": "The product of two consecutive positive integers is 132 (smaller is $x$)"
+      },
+      {
+        "id": "s2",
+        "text": "A rectangle's length is 3 m more than its breadth $x$ m; its area is $108\\ \\text{m}^2$"
+      },
+      {
+        "id": "s3",
+        "text": "Two numbers add up to 17 and their product is 66 (one is $x$)"
+      },
+      {
+        "id": "s4",
+        "text": "A right triangle has hypotenuse 10 cm and altitude 2 cm less than its base $x$ cm"
+      }
+    ],
+    "right": [
+      {
+        "id": "q1",
+        "text": "$x^2+3x-108=0$"
+      },
+      {
+        "id": "q2",
+        "text": "$x^2-17x+66=0$"
+      },
+      {
+        "id": "q3",
+        "text": "$x^2+x-132=0$"
+      },
+      {
+        "id": "q4",
+        "text": "$x^2-2x-48=0$"
+      }
+    ],
+    "pairs": {
+      "s1": "q3",
+      "s2": "q1",
+      "s3": "q2",
+      "s4": "q4"
+    },
+    "hint": "Write each situation as an equation in $x$, expand and collect the terms.",
+    "explanation": "(1) $x(x+1)=132\\Rightarrow x^2+x-132=0$. (2) $x(x+3)=108\\Rightarrow x^2+3x-108=0$. (3) $x(17-x)=66\\Rightarrow x^2-17x+66=0$. (4) Pythagoras: $x^2+(x-2)^2=100\\Rightarrow 2x^2-4x-96=0\\Rightarrow x^2-2x-48=0$. Each equation's solution (11, 9, 6 or 11, 8) fits its story."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the steps for solving a word problem with a quadratic equation in order.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/word-flow.svg",
+      "alt": "Four boxes: word problem, equation, roots, answer in words"
+    },
+    "items": [
+      {
+        "id": "solve",
+        "text": "Solve the quadratic equation by factorisation or the formula"
+      },
+      {
+        "id": "let",
+        "text": "Read the problem and let the unknown quantity be $x$"
+      },
+      {
+        "id": "reject",
+        "text": "Reject any root that does not suit the situation and state the answer"
+      },
+      {
+        "id": "form",
+        "text": "Use the condition in the problem to form a quadratic equation"
+      },
+      {
+        "id": "express",
+        "text": "Write the other quantities in terms of $x$"
+      }
+    ],
+    "answer": [
+      "let",
+      "express",
+      "form",
+      "solve",
+      "reject"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You cannot solve before an equation exists, and you check last.",
+    "explanation": "First name the unknown $x$, then express the other quantities using $x$, then turn the given condition into an equation. Solve it, and finally **check each root against the story**: a length, age or count cannot be negative, so such a root is rejected."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Is the situation possible?",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The sum of the ages of two friends is 30 years. Three years ago, the product of their ages (in years) was 143. Which statement is correct?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/ages-friends.svg",
+      "alt": "Two bars adding to 30 years and the same bars three years earlier"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is possible; their present ages are 11 and 13 years"
+      },
+      {
+        "id": "b",
+        "text": "It is possible; their present ages are 12 and 18 years"
+      },
+      {
+        "id": "c",
+        "text": "It is not possible, because the discriminant is negative"
+      },
+      {
+        "id": "d",
+        "text": "It is possible; their present ages are 14 and 16 years"
+      }
+    ],
+    "answer": "d",
+    "hint": "Take one age as $x$; three years ago the ages were $x-3$ and $27-x$.",
+    "explanation": "$(x-3)(27-x)=143\\Rightarrow -x^2+30x-81=143\\Rightarrow x^2-30x+224=0$. The discriminant is $900-896=4>0$, so real roots exist: $x=\\dfrac{30\\pm2}{2}=14$ or $16$. The friends are 14 and 16 (three years ago: $11\\times13=143$). The pair 11 and 13 are the ages *three years ago*, and 12 and 18 give $9\\times15=135$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Discriminant",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the quadratic formula for $ax^2+bx+c=0$, the expression under the square root decides whether real roots exist. What is the **discriminant**?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/formula-blank.svg",
+      "alt": "The quadratic formula with the expression under the root sign hidden"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$b^2+4ac$"
+      },
+      {
+        "id": "b",
+        "text": "$b^2-4ac$"
+      },
+      {
+        "id": "c",
+        "text": "$4ac-b^2$"
+      },
+      {
+        "id": "d",
+        "text": "$b^2-2ac$"
+      }
+    ],
+    "answer": "b",
+    "hint": "The formula is $x=\\dfrac{-b\\pm\\sqrt{\\ ?\\ }}{2a}$.",
+    "explanation": "The roots are $x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}$, so the discriminant is $D=b^2-4ac$. Its sign tells the nature of the roots. $b^2+4ac$ has the wrong sign, $4ac-b^2$ is the negative of $D$ (it would reverse the answer), and $b^2-2ac$ replaces 4 by 2."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Four graphs of quadratic polynomials are drawn with the x-axis. Tap the panel whose polynomial, set equal to $0$, has **no real roots**.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/panels.svg",
+      "alt": "Four parabolas labelled P, Q, R and S drawn with the x-axis"
+    },
+    "spots": [
+      {
+        "id": "P",
+        "x": 25.8,
+        "y": 25.8,
+        "label": "Graph P: crosses the x-axis twice (two distinct real roots)"
+      },
+      {
+        "id": "Q",
+        "x": 74.2,
+        "y": 25.8,
+        "label": "Graph Q: stays above the x-axis (no real roots)"
+      },
+      {
+        "id": "R",
+        "x": 25.8,
+        "y": 74.2,
+        "label": "Graph R: touches the x-axis (two equal roots)"
+      },
+      {
+        "id": "S",
+        "x": 74.2,
+        "y": 74.2,
+        "label": "Graph S: crosses the x-axis twice (two distinct real roots)"
+      }
+    ],
+    "answer": "Q",
+    "hint": "No real roots means the curve never meets the x-axis.",
+    "explanation": "Real roots are where the graph meets the x-axis. Graph **Q** lies completely above the axis, so there is no real $x$ with value $0$: $D<0$. P and S cut the axis at two points ($D>0$; S opens downwards), and R just touches it at one point ($D=0$, equal roots)."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The discriminant of $2x^2-4x+5=0$ is negative. Which graph shows $y=2x^2-4x+5$?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/graph-axes.svg",
+      "alt": "Empty axes with x from minus 2 to 4 and y from minus 5 to 9"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A",
+        "image": {
+          "src": "/img/c10-ma-quadratic/g-up.svg",
+          "alt": "A parabola opening upwards with its lowest point above the x-axis"
+        }
+      },
+      {
+        "id": "b",
+        "text": "B",
+        "image": {
+          "src": "/img/c10-ma-quadratic/g-cross.svg",
+          "alt": "A parabola opening upwards that crosses the x-axis twice"
+        }
+      },
+      {
+        "id": "c",
+        "text": "C",
+        "image": {
+          "src": "/img/c10-ma-quadratic/g-touch.svg",
+          "alt": "A parabola opening upwards that touches the x-axis"
+        }
+      },
+      {
+        "id": "d",
+        "text": "D",
+        "image": {
+          "src": "/img/c10-ma-quadratic/g-down.svg",
+          "alt": "A parabola opening downwards below the x-axis"
+        }
+      }
+    ],
+    "answer": "a",
+    "hint": "$a=2>0$ so it opens upwards. Where is its lowest point, $x=1$?",
+    "explanation": "Here $a=2>0$, so the parabola opens **upwards**, and $D=(-4)^2-4(2)(5)=-24<0$ means it never meets the x-axis, so it lies wholly above it (lowest point $y=2-4+5=3$ at $x=1$). B would need $D>0$, C would need $D=0$, and D opens downwards, which needs $a<0$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Roots of equations",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which number line shows the two roots of $x^2-x-12=0$?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/nl-stem.svg",
+      "alt": "The equation x squared minus x minus 12 equals 0 above an empty number line"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "B",
+        "image": {
+          "src": "/img/c10-ma-quadratic/nl-b.svg",
+          "alt": "A number line with points marked at 3 and minus 4"
+        }
+      },
+      {
+        "id": "b",
+        "text": "C",
+        "image": {
+          "src": "/img/c10-ma-quadratic/nl-c.svg",
+          "alt": "A number line with points marked at minus 3 and minus 4"
+        }
+      },
+      {
+        "id": "c",
+        "text": "A",
+        "image": {
+          "src": "/img/c10-ma-quadratic/nl-a.svg",
+          "alt": "A number line with points marked at minus 3 and 4"
+        }
+      },
+      {
+        "id": "d",
+        "text": "D",
+        "image": {
+          "src": "/img/c10-ma-quadratic/nl-d.svg",
+          "alt": "A number line with points marked at 3 and 4"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Factorise $x^2-x-12$ as $(x+3)(x-4)$ and set each factor to zero.",
+    "explanation": "$x^2-x-12=(x-4)(x+3)=0$, so $x=4$ or $x=-3$. Check: $16-4-12=0$ and $9+3-12=0$. The picture with $3$ and $-4$ comes from flipping both signs, $-3$ and $-4$ would need $x^2+7x+12$, and $3$ and $4$ would need $x^2-7x+12$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The length of a rectangular plot is 7 m more than its breadth and its area is $120\\ \\text{m}^2$. Which rectangle (drawn to scale) is the plot?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/rect-stem.svg",
+      "alt": "A rectangular plot with breadth x and length x plus 7"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "B",
+        "image": {
+          "src": "/img/c10-ma-quadratic/rc-b.svg",
+          "alt": "A rectangle 10 m by 12 m"
+        }
+      },
+      {
+        "id": "b",
+        "text": "C",
+        "image": {
+          "src": "/img/c10-ma-quadratic/rc-c.svg",
+          "alt": "A rectangle 6 m by 13 m"
+        }
+      },
+      {
+        "id": "c",
+        "text": "D",
+        "image": {
+          "src": "/img/c10-ma-quadratic/rc-d.svg",
+          "alt": "A rectangle 12 m by 19 m"
+        }
+      },
+      {
+        "id": "d",
+        "text": "A",
+        "image": {
+          "src": "/img/c10-ma-quadratic/rc-a.svg",
+          "alt": "A rectangle 8 m by 15 m"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Both conditions must hold: the length exceeds the breadth by 7, and the area is 120.",
+    "explanation": "$x(x+7)=120\\Rightarrow x^2+7x-120=0\\Rightarrow(x-8)(x+15)=0$, so the breadth is $8$ m and the length $15$ m ($8\\times15=120$). The 10 m by 12 m plot has area 120 but the sides differ by 2; 6 m by 13 m differs by 7 but has area 78; 12 m by 19 m differs by 7 but has area 228."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In a right triangle the altitude is 7 cm less than the base and the hypotenuse is 13 cm. Which triangle (legs drawn to scale) matches?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/tri-stem.svg",
+      "alt": "A right-angled triangle with hypotenuse 13 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "B",
+        "image": {
+          "src": "/img/c10-ma-quadratic/tr-b.svg",
+          "alt": "A right triangle with legs 11 cm and 4 cm"
+        }
+      },
+      {
+        "id": "b",
+        "text": "A",
+        "image": {
+          "src": "/img/c10-ma-quadratic/tr-a.svg",
+          "alt": "A right triangle with legs 12 cm and 5 cm"
+        }
+      },
+      {
+        "id": "c",
+        "text": "C",
+        "image": {
+          "src": "/img/c10-ma-quadratic/tr-c.svg",
+          "alt": "A right triangle with legs 10 cm and 3 cm"
+        }
+      },
+      {
+        "id": "d",
+        "text": "D",
+        "image": {
+          "src": "/img/c10-ma-quadratic/tr-d.svg",
+          "alt": "A right triangle with legs 9 cm and 2 cm"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "All four triangles satisfy 'altitude = base $-7$'. Test the hypotenuse with Pythagoras.",
+    "explanation": "Let the base be $x$: $x^2+(x-7)^2=13^2\\Rightarrow 2x^2-14x-120=0\\Rightarrow x^2-7x-60=0\\Rightarrow(x-12)(x+5)=0$. So the base is 12 cm and the altitude 5 cm ($144+25=169$). The other triangles also differ by 7 but give hypotenuse squares $137$, $109$, $85$, not $169$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Pole in the park",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "A and B are gates at the ends of a diameter of a circular park, and P is a pole on its boundary. Tap the **hypotenuse** of the right triangle APB.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/park-ab.svg",
+      "alt": "A circular park with gates A and B at the ends of a diameter and a pole P on the boundary"
+    },
+    "spots": [
+      {
+        "id": "AB",
+        "x": 50.0,
+        "y": 51.7,
+        "label": "Diameter AB (the hypotenuse)"
+      },
+      {
+        "id": "AP",
+        "x": 41.0,
+        "y": 31.7,
+        "label": "Side AP"
+      },
+      {
+        "id": "PB",
+        "x": 66.0,
+        "y": 31.7,
+        "label": "Side PB"
+      },
+      {
+        "id": "ang",
+        "x": 56.5,
+        "y": 17.9,
+        "label": "Right angle at P"
+      },
+      {
+        "id": "arc",
+        "x": 50.0,
+        "y": 93.3,
+        "label": "Boundary of the park"
+      }
+    ],
+    "answer": "AB",
+    "hint": "The hypotenuse is opposite the right angle.",
+    "explanation": "Since AB is a **diameter**, the angle in a semicircle gives $\\angle APB=90^\\circ$. The side opposite the right angle is the hypotenuse, so it is the diameter **AB**. Then Pythagoras gives $AP^2+PB^2=AB^2$, which leads to a quadratic equation in the distance $BP$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Pole in the park",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "In the same park, AB is a diameter. Tap the angle that must equal $90^\\circ$ (angle in a semicircle).",
+    "image": {
+      "src": "/img/c10-ma-quadratic/park-ab.svg",
+      "alt": "A circular park with gates A and B at the ends of a diameter and a pole P on the boundary"
+    },
+    "spots": [
+      {
+        "id": "ang",
+        "x": 56.5,
+        "y": 17.9,
+        "label": "$\\angle APB=90^\\circ$"
+      },
+      {
+        "id": "AB",
+        "x": 50.0,
+        "y": 51.7,
+        "label": "Diameter AB"
+      },
+      {
+        "id": "AP",
+        "x": 41.0,
+        "y": 31.7,
+        "label": "Side AP"
+      },
+      {
+        "id": "PB",
+        "x": 66.0,
+        "y": 31.7,
+        "label": "Side PB"
+      },
+      {
+        "id": "arc",
+        "x": 50.0,
+        "y": 93.3,
+        "label": "Boundary of the park"
+      }
+    ],
+    "answer": "ang",
+    "hint": "Join P to both ends of the diameter. Which vertex of the triangle is on the circle opposite the diameter?",
+    "explanation": "Any point P on a circle sees a diameter AB at a right angle, so $\\angle APB=90^\\circ$. This allows Pythagoras to be used: $AP^2+BP^2=AB^2$. The angles at A and B are not right angles unless P sits at the end of a diameter perpendicular to AB."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Pole in the park",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A pole has to be erected at a point P on the boundary of a circular park of diameter 25 m so that the difference of its distances from two diametrically opposite gates A and B is 5 m. How far is the pole from the **nearer** gate?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/park-25.svg",
+      "alt": "A circular park with a diameter of 25 metres, gates A and B and a pole P on the boundary"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "15 m"
+      },
+      {
+        "id": "b",
+        "text": "20 m"
+      },
+      {
+        "id": "c",
+        "text": "30 m"
+      },
+      {
+        "id": "d",
+        "text": "10 m"
+      }
+    ],
+    "answer": "a",
+    "hint": "If $BP=x$ then $AP=x+5$, and $\\angle APB=90^\\circ$.",
+    "explanation": "Let $BP=x$, $AP=x+5$. Pythagoras: $x^2+(x+5)^2=25^2\\Rightarrow 2x^2+10x-600=0\\Rightarrow x^2+5x-300=0$. $D=25+1200=1225=35^2$, so $x=\\dfrac{-5\\pm35}{2}=15$ or $-20$. Reject the negative root: $BP=15$ m and $AP=20$ m. **20** is the farther gate; **30** is $-b+\\sqrt D$ without dividing by $2a$; **10** is a wrong shortcut $\\frac{25-5}{2}$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Word problems",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "The altitude of a right triangle is 7 cm less than its base and the hypotenuse is 13 cm. Tap the **hypotenuse**.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/rt-tri.svg",
+      "alt": "A right-angled triangle with the right angle at the bottom-left corner"
+    },
+    "spots": [
+      {
+        "id": "hyp",
+        "x": 50.0,
+        "y": 50.8,
+        "label": "Hypotenuse (13 cm)"
+      },
+      {
+        "id": "base",
+        "x": 50.0,
+        "y": 71.7,
+        "label": "Base $x$ cm"
+      },
+      {
+        "id": "alt",
+        "x": 20.0,
+        "y": 50.8,
+        "label": "Altitude $(x-7)$ cm"
+      },
+      {
+        "id": "ang",
+        "x": 23.0,
+        "y": 66.7,
+        "label": "Right angle"
+      }
+    ],
+    "answer": "hyp",
+    "hint": "It is the longest side, opposite the right angle.",
+    "explanation": "The hypotenuse is the side **opposite the right angle**, the slanting side of length 13 cm. With base $x$ and altitude $x-7$, Pythagoras gives $x^2+(x-7)^2=169$, i.e. $x^2-7x-60=0$, so $x=12$ and the sides are 12 cm, 5 cm and 13 cm."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Is the situation possible?",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Is it possible to design a rectangular park of perimeter 60 m and area $250\\ \\text{m}^2$?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/perim-area.svg",
+      "alt": "Graph of area against breadth for rectangles of perimeter 60 metres with a dashed line at 250"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, breadth 10 m and length 20 m"
+      },
+      {
+        "id": "b",
+        "text": "Yes, breadth 15 m and length 15 m"
+      },
+      {
+        "id": "c",
+        "text": "No, because $x^2-30x+250=0$ has discriminant $-100<0$"
+      },
+      {
+        "id": "d",
+        "text": "Yes, breadth 25 m and length 5 m"
+      }
+    ],
+    "answer": "c",
+    "hint": "Half the perimeter is 30, so the sides are $x$ and $30-x$. Then $x(30-x)=250$.",
+    "explanation": "With sides $x$ and $30-x$: $x(30-x)=250\\Rightarrow x^2-30x+250=0$. $D=900-1000=-100<0$, so there are **no real roots**: no such park exists (the largest possible area is $15\\times15=225$, below the dashed line at 250). The pairs $10\\times20$, $15\\times15$ and $25\\times5$ have perimeter 60 but areas 200, 225 and 125."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "For which values of $k$ does $2x^2+kx+8=0$ have **no real roots**?",
+    "image": {
+      "src": "/img/c10-ma-quadratic/discr-k.svg",
+      "alt": "Graph of D equals k squared minus 64"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$k<-8$ or $k>8$"
+      },
+      {
+        "id": "b",
+        "text": "$k=\\pm8$"
+      },
+      {
+        "id": "c",
+        "text": "$k<8$"
+      },
+      {
+        "id": "d",
+        "text": "$-8<k<8$"
+      }
+    ],
+    "answer": "d",
+    "hint": "No real roots means $D<0$ where $D=k^2-4(2)(8)$.",
+    "explanation": "$D=k^2-64<0\\Rightarrow k^2<64\\Rightarrow -8<k<8$ (the part of the graph below the $k$-axis). Reversing the inequality gives $k<-8$ or $k>8$, which is the case of **two distinct real roots**. $k=\\pm8$ makes $D=0$ (equal roots), and $k<8$ forgets that $k=-20$, for example, gives $D>0$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Find the value of $k$ for which $kx(x-3)+9=0$ has two equal roots.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/slide-up.svg",
+      "alt": "A parabola moving down, up and touching the x-axis"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$k=0$ or $k=4$"
+      },
+      {
+        "id": "b",
+        "text": "$k=4$"
+      },
+      {
+        "id": "c",
+        "text": "$k=-4$"
+      },
+      {
+        "id": "d",
+        "text": "$k=12$"
+      }
+    ],
+    "answer": "b",
+    "hint": "Write it as $kx^2-3kx+9=0$, then set $D=0$. Remember $a=k$ cannot be 0.",
+    "explanation": "$kx^2-3kx+9=0$ has $a=k$, $b=-3k$, $c=9$. $D=9k^2-36k=9k(k-4)=0$, so $k=0$ or $k=4$. But $k=0$ would remove the $x^2$ term (not quadratic, and the equation would be $9=0$), so $k=4$. Check: $4x^2-12x+9=(2x-3)^2$. $-4$ is a sign slip, and $k=12$ comes from squaring $k$ but not $3$ ($3k^2-36k=0$)."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Quadratic formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "Using the quadratic formula, the roots of $3x^2-6x+2=0$ are",
+    "image": {
+      "src": "/img/c10-ma-quadratic/formula-full.svg",
+      "alt": "The quadratic formula x equals minus b plus or minus the square root of b squared minus 4ac, all over 2a"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x=\\dfrac{-3\\pm\\sqrt3}{3}$"
+      },
+      {
+        "id": "b",
+        "text": "$x=\\dfrac{3\\pm\\sqrt6}{3}$"
+      },
+      {
+        "id": "c",
+        "text": "$x=\\dfrac{3\\pm\\sqrt3}{6}$"
+      },
+      {
+        "id": "d",
+        "text": "$x=\\dfrac{3\\pm\\sqrt3}{3}$"
+      }
+    ],
+    "answer": "d",
+    "hint": "$a=3$, $b=-6$, $c=2$. Compute $b^2-4ac$ first, and remember $-b=+6$.",
+    "explanation": "$D=(-6)^2-4(3)(2)=36-24=12$, $\\sqrt{12}=2\\sqrt3$. $x=\\dfrac{6\\pm2\\sqrt3}{6}=\\dfrac{3\\pm\\sqrt3}{3}$. Traps: using $-6$ for $-b$ gives $\\frac{-3\\pm\\sqrt3}3$; computing $b^2-2ac=24$ gives $\\frac{3\\pm\\sqrt6}3$; dividing by 6 after already cancelling gives $\\frac{3\\pm\\sqrt3}6$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps used to decide the nature of the roots of a quadratic equation.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/disc-meter.svg",
+      "alt": "A number line for the discriminant with three zones: negative, zero and positive"
+    },
+    "items": [
+      {
+        "id": "cmp",
+        "text": "Compare $D$ with zero"
+      },
+      {
+        "id": "std",
+        "text": "Write the equation in the standard form $ax^2+bx+c=0$"
+      },
+      {
+        "id": "state",
+        "text": "State: $D>0$ two distinct real roots, $D=0$ two equal real roots, $D<0$ no real roots"
+      },
+      {
+        "id": "disc",
+        "text": "Calculate $D=b^2-4ac$"
+      },
+      {
+        "id": "abc",
+        "text": "Read off $a$, $b$ and $c$ with their signs"
+      }
+    ],
+    "answer": [
+      "std",
+      "abc",
+      "disc",
+      "cmp",
+      "state"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You need the numbers $a$, $b$, $c$ before you can find $D$.",
+    "explanation": "Put the equation in standard form so $a,b,c$ are visible (with signs), compute $D=b^2-4ac$, compare it with 0 (the green point of the meter), and finally state the nature of the roots. Careful with signs: for $x^2-4x-5=0$, $c=-5$, so $D=16+20=36$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Quadratic formula",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps to solve $2x^2-5x-3=0$ using the quadratic formula.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/formula-full.svg",
+      "alt": "The quadratic formula x equals minus b plus or minus the square root of b squared minus 4ac, all over 2a"
+    },
+    "items": [
+      {
+        "id": "sub",
+        "text": "Substitute: $x=\\dfrac{5\\pm\\sqrt{49}}{4}$"
+      },
+      {
+        "id": "val",
+        "text": "Identify $a=2$, $b=-5$, $c=-3$"
+      },
+      {
+        "id": "pos",
+        "text": "Since $49>0$, two distinct real roots exist"
+      },
+      {
+        "id": "disc",
+        "text": "Compute $b^2-4ac=25+24=49$"
+      },
+      {
+        "id": "fin",
+        "text": "Simplify: $x=3$ or $x=-\\dfrac12$"
+      }
+    ],
+    "answer": [
+      "val",
+      "disc",
+      "pos",
+      "sub",
+      "fin"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Find the discriminant before substituting into the formula.",
+    "explanation": "Identify $a,b,c$ (keep the signs), find $D=(-5)^2-4(2)(-3)=49$, note that $D>0$ so the formula will give real roots, substitute to get $\\dfrac{5\\pm7}{4}$, and simplify: $\\dfrac{12}{4}=3$ and $\\dfrac{-2}{4}=-\\dfrac12$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Pole in the park",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A pole P stands on the boundary of a circular park of diameter 17 m, and its distances from the opposite gates A and B differ by 7 m. Arrange the steps of the solution.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/park-ab.svg",
+      "alt": "A circular park with gates A and B at the ends of a diameter and a pole P on the boundary"
+    },
+    "items": [
+      {
+        "id": "pyth",
+        "text": "Pythagoras: $x^2+(x+7)^2=17^2$"
+      },
+      {
+        "id": "right",
+        "text": "AB is a diameter, so $\\angle APB=90^\\circ$"
+      },
+      {
+        "id": "let",
+        "text": "Let $BP=x$ m, so $AP=(x+7)$ m"
+      },
+      {
+        "id": "simp",
+        "text": "Simplify to $x^2+7x-120=0$"
+      },
+      {
+        "id": "rej",
+        "text": "Solve: $x=8$ or $x=-15$; reject the negative root, so $BP=8$ m"
+      }
+    ],
+    "answer": [
+      "let",
+      "right",
+      "pyth",
+      "simp",
+      "rej"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "Name the unknown first; the right angle comes from the semicircle.",
+    "explanation": "Take $BP=x$ and $AP=x+7$. Because AB is a diameter, $\\angle APB=90^\\circ$, so $AP^2+BP^2=AB^2$: $x^2+(x+7)^2=289$, which simplifies to $2x^2+14x-240=0$, i.e. $x^2+7x-120=0$. Its discriminant $49+480=529=23^2$ gives $x=8$ or $-15$; distance cannot be negative, so the pole is 8 m from B and 15 m from A."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "For the graph of $y=ax^2+bx+c$ and the discriminant $D=b^2-4ac$, select **all** the true statements.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/panels.svg",
+      "alt": "Four parabolas labelled P, Q, R and S drawn with the x-axis"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "If $D>0$ the graph cuts the x-axis at two different points"
+      },
+      {
+        "id": "b",
+        "text": "If $D=0$ the graph just touches the x-axis at one point"
+      },
+      {
+        "id": "c",
+        "text": "If $D<0$ the graph does not meet the x-axis"
+      },
+      {
+        "id": "d",
+        "text": "If $D<0$ the equation has two negative real roots"
+      },
+      {
+        "id": "e",
+        "text": "If $D=0$ the equation has no roots at all"
+      },
+      {
+        "id": "f",
+        "text": "If $a$ and $c$ have opposite signs, $D$ is always positive"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "f"
+    ],
+    "hint": "Link each sign of $D$ to the number of points where the curve meets the x-axis.",
+    "explanation": "$D>0$: two crossings. $D=0$: the curve touches the axis (two equal roots). $D<0$: it never meets the axis, so there are **no real roots** (not 'negative roots'). If $D=0$ the roots exist: $x=-\\dfrac b{2a}$ twice. If $a$ and $c$ have opposite signs then $ac<0$, so $-4ac>0$ and $D=b^2-4ac>0$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Is it quadratic?",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Simplify each equation first. Select **all** the quadratic equations.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/simplify-flow.svg",
+      "alt": "Four boxes: expand, collect on one side, combine like terms, check the highest power"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$(x+3)^2=2x+7$"
+      },
+      {
+        "id": "b",
+        "text": "$x(x+5)=x^2+3$"
+      },
+      {
+        "id": "c",
+        "text": "$(x-1)^3=x^3+6x$"
+      },
+      {
+        "id": "d",
+        "text": "$(2x-1)(x+4)=2x(x+3)$"
+      },
+      {
+        "id": "e",
+        "text": "$(x+1)^3=x^3+3x^2+7$"
+      },
+      {
+        "id": "f",
+        "text": "$x^2=4$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "f"
+    ],
+    "hint": "Move everything to one side and look at the highest power that is left.",
+    "explanation": "(a) $x^2+6x+9=2x+7\\Rightarrow x^2+4x+2=0$: quadratic. (b) $x^2+5x=x^2+3\\Rightarrow5x-3=0$: linear. (c) $x^3-3x^2+3x-1=x^3+6x\\Rightarrow-3x^2-3x-1=0$: quadratic though it looks cubic. (d) $2x^2+7x-4=2x^2+6x\\Rightarrow x-4=0$: linear. (e) $x^3+3x^2+3x+1=x^3+3x^2+7\\Rightarrow3x-6=0$: linear. (f) $x^2-4=0$: quadratic (here $b=0$)."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the equations that have real roots.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/nature-icons.svg",
+      "alt": "Three small parabolas: one crossing the x-axis, one touching it, one above it"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$x^2-4x+4=0$"
+      },
+      {
+        "id": "b",
+        "text": "$2x^2-3x+5=0$"
+      },
+      {
+        "id": "c",
+        "text": "$x^2+x-6=0$"
+      },
+      {
+        "id": "d",
+        "text": "$3x^2+2x+1=0$"
+      },
+      {
+        "id": "e",
+        "text": "$5x^2-x-4=0$"
+      },
+      {
+        "id": "f",
+        "text": "$4x^2+4x+3=0$"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "Compute $b^2-4ac$ for each and check that it is not negative.",
+    "explanation": "Discriminants: (a) $16-16=0$ (equal real roots), (b) $9-40=-31$, (c) $1+24=25$, (d) $4-12=-8$, (e) $1+80=81$, (f) $16-48=-32$. Real roots exist when $D\\ge0$: (a), (c), (e). Negative $D$ in (b), (d), (f) means the curve stays on one side of the x-axis."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "History of quadratic equations",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the true statements about the history of quadratic equations.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/history.svg",
+      "alt": "Six cards naming mathematicians and cultures that studied quadratic equations"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Brahmagupta gave an explicit formula to solve $ax^2+bx=c$"
+      },
+      {
+        "id": "b",
+        "text": "Sridharacharya derived the quadratic formula by the method of completing the square"
+      },
+      {
+        "id": "c",
+        "text": "The Babylonians knew how to find two positive numbers with a given sum and product"
+      },
+      {
+        "id": "d",
+        "text": "Euclid solved quadratic equations by a purely algebraic formula with symbols"
+      },
+      {
+        "id": "e",
+        "text": "Abraham bar Hiyya's *Liber embadorum* (C.E. 1145) gave complete solutions of different quadratic equations"
+      },
+      {
+        "id": "f",
+        "text": "Al-Khwarizmi lived in about C.E. 1500"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "hint": "Euclid used geometry; Al-Khwarizmi is from about the year 800.",
+    "explanation": "True: Brahmagupta (C.E. 598-665) gave an explicit formula for $ax^2+bx=c$; Sridharacharya (C.E. 1025) derived the quadratic formula by completing the square; the Babylonians solved the sum-and-product problem, equivalent to $x^2-px+q=0$; and Abraham bar Hiyya's book of 1145 gave complete solutions. False: Euclid used a **geometrical** approach, and Al-Khwarizmi lived about C.E. 800."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Standard form",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each part of $ax^2+bx+c=0$ with its meaning.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/std-parts.svg",
+      "alt": "The standard form a x squared plus b x plus c equals zero with the letters coloured"
+    },
+    "left": [
+      {
+        "id": "a",
+        "text": "$a$"
+      },
+      {
+        "id": "b",
+        "text": "$b$"
+      },
+      {
+        "id": "c",
+        "text": "$c$"
+      },
+      {
+        "id": "cond",
+        "text": "$a\\ne0$"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "Condition that keeps the equation quadratic"
+      },
+      {
+        "id": "r2",
+        "text": "Coefficient of $x$"
+      },
+      {
+        "id": "r1",
+        "text": "Coefficient of $x^2$"
+      },
+      {
+        "id": "r3",
+        "text": "Constant term"
+      }
+    ],
+    "pairs": {
+      "a": "r1",
+      "b": "r2",
+      "c": "r3",
+      "cond": "r4"
+    },
+    "hint": "Say each letter with its term: $ax^2$, $bx$, and the term with no $x$.",
+    "explanation": "In the standard form $ax^2+bx+c=0$: $a$ multiplies $x^2$, $b$ multiplies $x$, and $c$ is the **constant term**. The condition $a\\ne0$ is what keeps the $x^2$ term alive. In $2x^2-3x+1=0$ we have $a=2$, $b=-3$, $c=1$."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each equation with the nature of its roots.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/nature-icons.svg",
+      "alt": "Three small parabolas: one crossing the x-axis, one touching it, one above it"
+    },
+    "left": [
+      {
+        "id": "n1",
+        "text": "$x^2-5x+6=0$"
+      },
+      {
+        "id": "n2",
+        "text": "$x^2-6x+9=0$"
+      },
+      {
+        "id": "n3",
+        "text": "$x^2-2x+5=0$"
+      },
+      {
+        "id": "n4",
+        "text": "$x^2-4x+1=0$"
+      }
+    ],
+    "right": [
+      {
+        "id": "m3",
+        "text": "No real roots"
+      },
+      {
+        "id": "m1",
+        "text": "Two distinct rational roots"
+      },
+      {
+        "id": "m4",
+        "text": "Two distinct irrational roots"
+      },
+      {
+        "id": "m2",
+        "text": "Two equal real roots"
+      }
+    ],
+    "pairs": {
+      "n1": "m1",
+      "n2": "m2",
+      "n3": "m3",
+      "n4": "m4"
+    },
+    "hint": "Find $D=b^2-4ac$ for each: is it positive, zero, negative, and is it a perfect square?",
+    "explanation": "$D=25-24=1$ (positive perfect square: roots 2 and 3, rational). $D=36-36=0$ (equal roots, $x=3$). $D=4-20=-16<0$ (no real roots). $D=16-4=12>0$ but 12 is not a perfect square, so the roots $2\\pm\\sqrt3$ are real, distinct and irrational."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/double-factor.svg",
+      "alt": "The polynomial x squared minus 6x plus 9 written as two identical factors"
+    },
+    "assertion": "The equation $x^2-6x+9=0$ has two equal roots.",
+    "reason": "The discriminant of every quadratic equation with equal roots is positive.",
+    "answer": "c",
+    "hint": "Compute $D$ for $x^2-6x+9$ and recall what $D$ is when the roots are equal.",
+    "explanation": "A is true: $x^2-6x+9=(x-3)^2$, so both roots are $3$ and $D=36-36=0$. R is **false**: equal roots occur exactly when $D=0$, not when $D>0$ (positive $D$ gives two distinct roots)."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Nature of roots",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/above-axis.svg",
+      "alt": "Graph of y equals x squared plus 4x plus 7 lying wholly above the x-axis"
+    },
+    "assertion": "The equation $x^2+4x+7=0$ has two distinct real roots.",
+    "reason": "Its discriminant is $4^2-4(1)(7)=-12$, which is negative.",
+    "answer": "d",
+    "hint": "Work out $b^2-4ac$ and compare with the picture.",
+    "explanation": "R is true: $D=16-28=-12<0$. A is **false**: a negative discriminant means there are **no real roots**, and the curve $y=x^2+4x+7$ (lowest point $3$ at $x=-2$) never meets the x-axis."
+  },
+  {
+    "id": "in-cbse-10-math-quadratic-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "chapterNo": 4,
+    "topic": "Roots and zeroes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-ma-quadratic/zeros-56.svg",
+      "alt": "Graph of y = x squared minus 5x plus 6 meeting the x-axis at two points"
+    },
+    "assertion": "The roots of $x^2-5x+6=0$ are $2$ and $3$, the same numbers as the zeroes of the polynomial $x^2-5x+6$.",
+    "reason": "A quadratic polynomial can have at most two zeroes.",
+    "answer": "b",
+    "hint": "Does the 'at most two' fact say why the numbers coincide?",
+    "explanation": "Both are true. $x^2-5x+6=(x-2)(x-3)$ has zeros 2 and 3, and a quadratic polynomial has at most two zeroes. But R does **not** explain A: the roots and zeroes are the same because a root is by definition a zero of the polynomial, not because there can be at most two."
+  }
+]

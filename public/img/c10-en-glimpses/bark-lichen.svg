@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>A tree trunk with crusty pale green and yellow patches growing on its bark</title><style>
+.bob{animation:bob 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes bob{to{transform:translateY(-5px)}}
+.sway{animation:sway 2.4s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sway{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+.flick{animation:flick .45s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes flick{to{transform:scale(1.18,.82)}}
+.steam{animation:steam 2.4s ease-in infinite;transform-box:fill-box}
+@keyframes steam{0%{transform:translateY(6px);opacity:0}30%{opacity:.85}100%{transform:translateY(-16px);opacity:0}}
+.drift{animation:drift 7s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translateX(34px)}}
+.fall{animation:fall 1.7s ease-in infinite}
+@keyframes fall{0%{transform:translateY(-22px);opacity:0}25%{opacity:1}100%{transform:translateY(38px);opacity:0}}
+.pulse{animation:pulse 1.3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{to{transform:scale(1.12)}}
+.slide{animation:slide 4s ease-in-out infinite alternate}
+@keyframes slide{from{transform:translateX(-26px)}to{transform:translateX(26px)}}
+.blink{animation:blink 1.4s steps(2) infinite}
+@keyframes blink{50%{opacity:.35}}
+.rip{animation:rip 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes rip{0%{transform:scale(.4);opacity:.9}100%{transform:scale(1.6);opacity:0}}
+.dive{animation:dive 2.2s ease-in infinite}
+@keyframes dive{0%,20%{transform:translateY(-10px)}60%{transform:translateY(26px)}100%{transform:translateY(-10px)}}
+.spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="0" y="0" width="400" height="240" rx="0" fill="#E8F1EA" /><rect x="120" y="0" width="160" height="240" rx="0" fill="#8B5A2B" stroke="#2B2F4A" stroke-width="3" /><path d="M140 30 q10 20 0 40 M180 40 q10 20 0 40 M230 30 q10 20 0 40" fill="none" stroke="#6B4423" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><path d="M140 80 q10 20 0 40 M180 90 q10 20 0 40 M230 80 q10 20 0 40" fill="none" stroke="#6B4423" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><path d="M140 140 q10 20 0 40 M180 150 q10 20 0 40 M230 140 q10 20 0 40" fill="none" stroke="#6B4423" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><path d="M140 200 q10 20 0 40 M180 210 q10 20 0 40 M230 200 q10 20 0 40" fill="none" stroke="#6B4423" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse" style="animation-delay:0.0s"><circle cx="170" cy="60" r="16" fill="#B8D49A" stroke="#6E8B4E" stroke-width="2" /><circle cx="175" cy="64" r="4.0" fill="#6E8B4E" /></g><g class="pulse" style="animation-delay:0.0s"><circle cx="230" cy="120" r="20" fill="#D9E3A8" stroke="#6E8B4E" stroke-width="2" /><circle cx="235" cy="124" r="5.0" fill="#6E8B4E" /></g><g class="pulse" style="animation-delay:0.0s"><circle cx="150" cy="150" r="14" fill="#A9C98A" stroke="#6E8B4E" stroke-width="2" /><circle cx="155" cy="154" r="3.5" fill="#6E8B4E" /></g><g class="pulse" style="animation-delay:0.0s"><circle cx="210" cy="200" r="16" fill="#C6D8A0" stroke="#6E8B4E" stroke-width="2" /><circle cx="215" cy="204" r="4.0" fill="#6E8B4E" /></g><g class="pulse" style="animation-delay:0.0s"><circle cx="250" cy="50" r="12" fill="#E3C98A" stroke="#6E8B4E" stroke-width="2" /><circle cx="255" cy="54" r="3.0" fill="#6E8B4E" /></g></svg>

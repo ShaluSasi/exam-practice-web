@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Hard water with soap and with detergent</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<path d="M89.5 100H150.5V168.0A30.5 30.5 0 0 1 89.5 168.0Z" fill="#EAF6FF"/><path d="M88.0 60V168.0A32.0 32.0 0 0 0 152.0 168.0V60" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><path class="drift" d="M93 170Q93 161 102 161Q112 161 112 170Q102 177 93 170Z" fill="#fff" stroke="#9AA0C8" stroke-width="2"/><path class="drift" d="M115 176Q115 167 124 167Q134 167 134 176Q124 183 115 176Z" fill="#fff" stroke="#9AA0C8" stroke-width="2"/><path class="drift" d="M131 168Q131 159 140 159Q150 159 150 168Q140 175 131 168Z" fill="#fff" stroke="#9AA0C8" stroke-width="2"/><path class="drift" d="M103 150Q103 141 112 141Q122 141 122 150Q112 157 103 150Z" fill="#fff" stroke="#9AA0C8" stroke-width="2"/><path class="drift" d="M123 150Q123 141 132 141Q142 141 142 150Q132 157 123 150Z" fill="#fff" stroke="#9AA0C8" stroke-width="2"/><path d="M249.5 100H310.5V168.0A30.5 30.5 0 0 1 249.5 168.0Z" fill="#EAF6FF"/><path d="M248.0 60V168.0A32.0 32.0 0 0 0 312.0 168.0V60" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round"/><circle class="bp" style="animation-delay:0.0s" cx="260" cy="100" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><circle class="bp" style="animation-delay:0.3s" cx="274" cy="100" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><circle class="bp" style="animation-delay:0.6s" cx="288" cy="100" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><circle class="bp" style="animation-delay:0.8999999999999999s" cx="302" cy="100" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><circle class="bp" style="animation-delay:1.2s" cx="260" cy="86" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><circle class="bp" style="animation-delay:1.5s" cx="274" cy="86" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><circle class="bp" style="animation-delay:1.7999999999999998s" cx="288" cy="86" r="8" fill="#fff" stroke="#0B93D4" stroke-width="2"/><text x="120.0" y="224.0" font-family="sans-serif" font-size="18" font-weight="800" fill="#FF8A1F" text-anchor="middle" >1</text><text x="280.0" y="224.0" font-family="sans-serif" font-size="18" font-weight="800" fill="#FF8A1F" text-anchor="middle" >2</text><text x="120.0" y="40.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle" >hard water + soap</text><text x="280.0" y="40.0" font-family="sans-serif" font-size="12" font-weight="600" fill="#2B2F4A" text-anchor="middle" >hard water + detergent</text>
+</svg>

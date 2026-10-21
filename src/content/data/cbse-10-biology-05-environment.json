@@ -1,0 +1,2277 @@
+[
+ {
+  "id": "in-cbse-10-bio-environment-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ecosystem",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which of these is a **human-made (artificial) ecosystem**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Forest",
+    "image": {
+     "src": "/img/c10-environment/t-forest.svg",
+     "alt": "Forest"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Pond",
+    "image": {
+     "src": "/img/c10-environment/t-pond.svg",
+     "alt": "Pond"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Crop-field",
+    "image": {
+     "src": "/img/c10-environment/t-field.svg",
+     "alt": "Crop-field"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Lake",
+    "image": {
+     "src": "/img/c10-environment/t-lake.svg",
+     "alt": "Lake"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Natural ecosystems form without anyone planning them. Who arranged the rows of plants?",
+  "explanation": "A **crop-field** is a human-made ecosystem. Gardens and crop-fields are artificial, while forests, ponds and lakes are **natural ecosystems**. An aquarium is another human-made ecosystem."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biotic and abiotic components",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "A garden is an ecosystem. Tap the **abiotic** (non-living) component in this picture.",
+  "image": {
+   "src": "/img/c10-environment/garden.svg",
+   "alt": "A garden with the sun, a rose plant, a butterfly, a frog and grass"
+  },
+  "spots": [
+   {
+    "id": "sun",
+    "x": 15.0,
+    "y": 18.8,
+    "label": "Sunlight (abiotic)"
+   },
+   {
+    "id": "rose",
+    "x": 33.8,
+    "y": 65.8,
+    "label": "Rose plant (producer)"
+   },
+   {
+    "id": "butterfly",
+    "x": 52.5,
+    "y": 35.4,
+    "label": "Butterfly"
+   },
+   {
+    "id": "frog",
+    "x": 71.2,
+    "y": 71.7,
+    "label": "Frog"
+   },
+   {
+    "id": "grass",
+    "x": 87.5,
+    "y": 70.0,
+    "label": "Grass"
+   }
+  ],
+  "answer": "sun",
+  "hint": "Abiotic means not alive. Which of these is not an organism?",
+  "explanation": "**Abiotic components** are the physical factors such as temperature, rainfall, wind, soil, minerals and sunlight. The rose, butterfly, frog and grass are living organisms, so they are **biotic components**."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biotic and abiotic components",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these in the pond picture are **biotic** components of the ecosystem? Select all that apply.",
+  "image": {
+   "src": "/img/c10-environment/pond-scene.svg",
+   "alt": "A pond with sun, rain cloud, fish, water plants, a frog and a mushroom"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Fish in the water"
+   },
+   {
+    "id": "b",
+    "text": "Rainfall"
+   },
+   {
+    "id": "c",
+    "text": "Aquatic plants"
+   },
+   {
+    "id": "d",
+    "text": "Temperature of the water"
+   },
+   {
+    "id": "e",
+    "text": "Fungi growing on dead leaves"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "e"
+  ],
+  "hint": "Biotic components are the living organisms; abiotic ones are physical factors.",
+  "explanation": "Fish, aquatic plants and fungi are living organisms, so they are **biotic**. Rainfall and temperature are physical factors, so they are **abiotic**, like wind, soil and minerals."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Aquarium as an ecosystem",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "What is the main job of the **aerator (oxygen pump)** in a human-made aquarium?",
+  "image": {
+   "src": "/img/c10-environment/aquarium.svg",
+   "alt": "Aquarium with a fish, water plants, an air pump stone with bubbles and microbes on the sand"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "It supplies food to the fish"
+   },
+   {
+    "id": "b",
+    "text": "It supplies oxygen to the water for the fish"
+   },
+   {
+    "id": "c",
+    "text": "It keeps the water clean of dead plants"
+   },
+   {
+    "id": "d",
+    "text": "It gives the plants sunlight"
+   }
+  ],
+  "answer": "b",
+  "hint": "Look at the bubbles rising from the stone.",
+  "explanation": "Fish need free space, water, **oxygen** and food. An oxygen pump (aerator) bubbles air into the water to provide the oxygen. It does not feed the fish or clean the tank, which is why the aquarium still needs cleaning from time to time."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Decomposers",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "In this aquarium, dead plants and fish waste are broken down into simple substances. Tap the **decomposers**.",
+  "image": {
+   "src": "/img/c10-environment/aquarium.svg",
+   "alt": "Aquarium with a fish, water plants, an air pump stone and microbes on the sand"
+  },
+  "spots": [
+   {
+    "id": "fish",
+    "x": 47.5,
+    "y": 39.6,
+    "label": "Fish (consumer)"
+   },
+   {
+    "id": "plant",
+    "x": 21.2,
+    "y": 62.5,
+    "label": "Aquatic plant (producer)"
+   },
+   {
+    "id": "pump",
+    "x": 80.0,
+    "y": 82.5,
+    "label": "Aerator (air stone)"
+   },
+   {
+    "id": "decomp",
+    "x": 47.5,
+    "y": 85.4,
+    "label": "Decomposers (bacteria and fungi)"
+   }
+  ],
+  "answer": "decomp",
+  "hint": "Decomposers are tiny microorganisms, not the large plants or animals.",
+  "explanation": "**Decomposers** are bacteria and fungi. They break down the dead remains and waste products of organisms into simple inorganic substances that return to the soil or water and are used again by plants. The fish is a consumer and the plant is a producer."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Producers",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which picture shows an organism that belongs to the **first trophic level**?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Frog",
+    "image": {
+     "src": "/img/c10-environment/t-frog.svg",
+     "alt": "Frog"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Snake",
+    "image": {
+     "src": "/img/c10-environment/t-snake.svg",
+     "alt": "Snake"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Grass",
+    "image": {
+     "src": "/img/c10-environment/t-grass.svg",
+     "alt": "Grass"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Grasshopper",
+    "image": {
+     "src": "/img/c10-environment/t-grasshopper.svg",
+     "alt": "Grasshopper"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "The first trophic level makes its own food using sunlight.",
+  "explanation": "**Autotrophs or producers**, such as green plants, are at the first trophic level because they capture the Sun's energy and make food. The grasshopper, frog and snake are heterotrophs (consumers)."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Producers",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select all the **producers** from this list.",
+  "image": {
+   "src": "/img/c10-environment/producers.svg",
+   "alt": "Sunlight falling on grass, a tree and wheat"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Grass"
+   },
+   {
+    "id": "b",
+    "text": "Bacteria that make food by photosynthesis"
+   },
+   {
+    "id": "c",
+    "text": "Mushroom"
+   },
+   {
+    "id": "d",
+    "text": "Goat"
+   },
+   {
+    "id": "e",
+    "text": "Wheat plant"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "e"
+  ],
+  "hint": "Producers make organic compounds like sugar and starch from inorganic substances using sunlight.",
+  "explanation": "All green plants and certain bacteria that carry out **photosynthesis** are producers. A mushroom is a fungus, which breaks down dead matter (a decomposer), and a goat eats plants, so it is a consumer."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Consumers",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each organism with the kind of consumer it is.",
+  "image": {
+   "src": "/img/c10-environment/consumer-types.svg",
+   "alt": "A cow, a hawk, a human and a tapeworm"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Cow"
+   },
+   {
+    "id": "l2",
+    "text": "Hawk"
+   },
+   {
+    "id": "l3",
+    "text": "Human"
+   },
+   {
+    "id": "l4",
+    "text": "Tapeworm"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Carnivore"
+   },
+   {
+    "id": "r2",
+    "text": "Parasite"
+   },
+   {
+    "id": "r3",
+    "text": "Herbivore"
+   },
+   {
+    "id": "r4",
+    "text": "Omnivore"
+   }
+  ],
+  "pairs": {
+   "l1": "r3",
+   "l2": "r1",
+   "l3": "r4",
+   "l4": "r2"
+  },
+  "hint": "Think about what each one eats and where it lives.",
+  "explanation": "A cow eats only plants, so it is a **herbivore**. A hawk eats other animals, so it is a **carnivore**. Humans eat both plants and animals, so they are **omnivores**. A tapeworm lives in another animal and feeds on it, so it is a **parasite**."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Food chain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In the food chain shown, which animal depends on the producers only **indirectly**?",
+  "image": {
+   "src": "/img/c10-environment/chain-land.svg",
+   "alt": "Food chain of grass, grasshopper, frog and snake"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Grasshopper"
+   },
+   {
+    "id": "b",
+    "text": "Frog"
+   },
+   {
+    "id": "c",
+    "text": "Both grasshopper and frog"
+   },
+   {
+    "id": "d",
+    "text": "Both frog and snake"
+   }
+  ],
+  "answer": "d",
+  "hint": "Indirectly means the energy first passes through another consumer.",
+  "explanation": "Organisms depend on producers **directly** (by eating them) or **indirectly** (by feeding on other consumers). Only the grasshopper eats grass. The frog eats the grasshopper and the snake eats the frog, so both depend on the producer indirectly."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Decomposers",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "What would happen in an ecosystem if **decomposers were absent**?",
+  "image": {
+   "src": "/img/c10-environment/no-decomposers.svg",
+   "alt": "Left: bacteria recycle dead leaves into nutrients. Right: dead matter piles up"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Dead remains would pile up and the soil would not get its nutrients back"
+   },
+   {
+    "id": "b",
+    "text": "Plants would grow faster as dead matter stays on the ground"
+   },
+   {
+    "id": "c",
+    "text": "Herbivores would eat the dead matter instead"
+   },
+   {
+    "id": "d",
+    "text": "Nothing would change because heat breaks down dead matter"
+   }
+  ],
+  "answer": "a",
+  "hint": "Compare the two panels: what happens to the dead matter on the right?",
+  "explanation": "Decomposers break complex organic substances into simple inorganic ones that go into the soil and are used by plants again. Without them, garbage and dead plants and animals would accumulate and **natural replenishment of the soil** would not take place."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Decomposers",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of the recycling of nutrients through decomposers.",
+  "image": {
+   "src": "/img/c10-environment/decomposition-cycle.svg",
+   "alt": "Cycle of plant, dead remains, decomposers and nutrients"
+  },
+  "items": [
+   {
+    "id": "e",
+    "text": "Plants absorb the simple substances again"
+   },
+   {
+    "id": "a",
+    "text": "An organism dies"
+   },
+   {
+    "id": "c",
+    "text": "Complex organic substances become simple inorganic substances"
+   },
+   {
+    "id": "b",
+    "text": "Bacteria and fungi break down the dead remains"
+   },
+   {
+    "id": "d",
+    "text": "The simple substances enter the soil"
+   }
+  ],
+  "answer": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Death comes first, and the plant is the last to benefit.",
+  "explanation": "A dead organism is attacked by the **decomposers (bacteria and fungi)**, which convert complex organic substances into simple inorganic substances. These pass into the soil and are taken up by plants once more."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Food chain",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **producer** in this food chain.",
+  "image": {
+   "src": "/img/c10-environment/chain-land.svg",
+   "alt": "Food chain of grass, grasshopper, frog and snake"
+  },
+  "spots": [
+   {
+    "id": "grass",
+    "x": 12.5,
+    "y": 70.0,
+    "label": "Grass (producer)"
+   },
+   {
+    "id": "hopper",
+    "x": 35.0,
+    "y": 68.8,
+    "label": "Grasshopper (primary consumer)"
+   },
+   {
+    "id": "frog",
+    "x": 60.0,
+    "y": 70.8,
+    "label": "Frog (secondary consumer)"
+   },
+   {
+    "id": "snake",
+    "x": 84.5,
+    "y": 71.7,
+    "label": "Snake (tertiary consumer)"
+   }
+  ],
+  "answer": "grass",
+  "hint": "A producer makes its own food using sunlight.",
+  "explanation": "**Grass** is the producer: it makes food by photosynthesis and is at the first trophic level. The grasshopper, frog and snake are consumers."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Trophic levels",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "In this food chain, tap the **secondary consumer**.",
+  "image": {
+   "src": "/img/c10-environment/chain-land.svg",
+   "alt": "Food chain of grass, grasshopper, frog and snake"
+  },
+  "spots": [
+   {
+    "id": "grass",
+    "x": 12.5,
+    "y": 70.0,
+    "label": "Grass (producer)"
+   },
+   {
+    "id": "hopper",
+    "x": 35.0,
+    "y": 68.8,
+    "label": "Grasshopper (primary consumer)"
+   },
+   {
+    "id": "frog",
+    "x": 60.0,
+    "y": 70.8,
+    "label": "Frog (secondary consumer)"
+   },
+   {
+    "id": "snake",
+    "x": 84.5,
+    "y": 71.7,
+    "label": "Snake (tertiary consumer)"
+   }
+  ],
+  "answer": "frog",
+  "hint": "Primary consumers eat producers. Secondary consumers eat the primary consumers.",
+  "explanation": "The grasshopper (herbivore) is the **primary consumer** at the second trophic level. The **frog**, which eats the grasshopper, is the secondary consumer at the third level. The snake is the tertiary consumer at the fourth level."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Food chain",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which of the following constitutes a **food chain**? (The arrows point to the eater.)",
+  "options": [
+   {
+    "id": "a",
+    "text": "Grass, wheat and mango",
+    "image": {
+     "src": "/img/c10-environment/t-chain-plants.svg",
+     "alt": "Grass, wheat and mango"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Goat, cow and elephant",
+    "image": {
+     "src": "/img/c10-environment/t-chain-herb.svg",
+     "alt": "Goat, cow and elephant"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Grass, goat and human",
+    "image": {
+     "src": "/img/c10-environment/t-chain-ok.svg",
+     "alt": "Grass, goat and human"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Grass, fish and goat",
+    "image": {
+     "src": "/img/c10-environment/t-chain-fish.svg",
+     "alt": "Grass, fish and goat"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "A food chain is a series of organisms in which each one feeds on the one before it.",
+  "explanation": "A food chain shows who eats whom. **Grass, goat and human** is a chain: the goat eats grass and a human eats the goat. Grass, wheat and mango are all producers; goat, cow and elephant are all herbivores that do not feed on each other; and a goat does not eat a fish."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Energy flow",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange these organisms in the order of **energy available to them**, from the most energy to the least.",
+  "image": {
+   "src": "/img/c10-environment/chain-land.svg",
+   "alt": "Food chain of grass, grasshopper, frog and snake"
+  },
+  "items": [
+   {
+    "id": "frog",
+    "text": "Frog",
+    "image": {
+     "src": "/img/c10-environment/t-frog.svg",
+     "alt": "Frog"
+    }
+   },
+   {
+    "id": "grass",
+    "text": "Grass",
+    "image": {
+     "src": "/img/c10-environment/t-grass.svg",
+     "alt": "Grass"
+    }
+   },
+   {
+    "id": "snake",
+    "text": "Snake",
+    "image": {
+     "src": "/img/c10-environment/t-snake.svg",
+     "alt": "Snake"
+    }
+   },
+   {
+    "id": "hop",
+    "text": "Grasshopper",
+    "image": {
+     "src": "/img/c10-environment/t-grasshopper.svg",
+     "alt": "Grasshopper"
+    }
+   }
+  ],
+  "answer": [
+   "grass",
+   "hop",
+   "frog",
+   "snake"
+  ],
+  "startLabel": "Most energy",
+  "endLabel": "Least energy",
+  "hint": "Energy is lost as heat at every step, so the first level has the most.",
+  "explanation": "Producers capture the energy of sunlight, and at each step only about **10%** of the energy passes on. So the order is grass, grasshopper, frog, snake."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Trophic levels",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each trophic level with the organisms found there.",
+  "image": {
+   "src": "/img/c10-environment/trophic-levels.svg",
+   "alt": "Four steps numbered one to four with grass, grasshopper, frog and snake"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "First trophic level"
+   },
+   {
+    "id": "l2",
+    "text": "Second trophic level"
+   },
+   {
+    "id": "l3",
+    "text": "Third trophic level"
+   },
+   {
+    "id": "l4",
+    "text": "Fourth trophic level"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Herbivores (primary consumers)"
+   },
+   {
+    "id": "r2",
+    "text": "Larger carnivores (tertiary consumers)"
+   },
+   {
+    "id": "r3",
+    "text": "Autotrophs (producers)"
+   },
+   {
+    "id": "r4",
+    "text": "Small carnivores (secondary consumers)"
+   }
+  ],
+  "pairs": {
+   "l1": "r3",
+   "l2": "r1",
+   "l3": "r4",
+   "l4": "r2"
+  },
+  "hint": "Count the steps from the producers upward.",
+  "explanation": "Autotrophs are at level 1, herbivores or **primary consumers** at level 2, small carnivores or **secondary consumers** at level 3, and larger carnivores or **tertiary consumers** at level 4."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Trophic levels",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the trophic level that holds the **herbivores (primary consumers)**.",
+  "image": {
+   "src": "/img/c10-environment/energy-pyramid.svg",
+   "alt": "Pyramid of four trophic levels"
+  },
+  "spots": [
+   {
+    "id": "top",
+    "x": 50.0,
+    "y": 19.2,
+    "label": "Tertiary consumers (larger carnivores)"
+   },
+   {
+    "id": "carn",
+    "x": 50.0,
+    "y": 37.5,
+    "label": "Secondary consumers (small carnivores)"
+   },
+   {
+    "id": "herb",
+    "x": 50.0,
+    "y": 55.8,
+    "label": "Primary consumers (herbivores)"
+   },
+   {
+    "id": "prod",
+    "x": 50.0,
+    "y": 74.2,
+    "label": "Producers (autotrophs)"
+   }
+  ],
+  "answer": "herb",
+  "hint": "Herbivores eat the producers, so they are one step above them.",
+  "explanation": "The producers form the base (level 1). The **herbivores** that feed on them form the second level. Small carnivores are at the third and larger carnivores at the fourth level."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Energy flow",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Green plants of a terrestrial ecosystem capture roughly what share of the sunlight energy falling on their leaves?",
+  "image": {
+   "src": "/img/c10-environment/sun-leaf.svg",
+   "alt": "Sun rays travelling to a leaf"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "About 10%"
+   },
+   {
+    "id": "b",
+    "text": "About 1%"
+   },
+   {
+    "id": "c",
+    "text": "About 50%"
+   },
+   {
+    "id": "d",
+    "text": "About 0.01%"
+   }
+  ],
+  "answer": "b",
+  "hint": "It is much less than the figure used for the passing of energy between trophic levels.",
+  "explanation": "Green plants capture only about **1%** of the energy of sunlight that falls on their leaves and convert it into food energy. The 10% figure is for the energy passed from one trophic level to the next, so do not confuse the two."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Energy flow",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The producers in a field contain 20 000 J of energy. By the 10 per cent rule, how much energy reaches the **secondary consumers (third trophic level)**?",
+  "image": {
+   "src": "/img/c10-environment/energy-numbers.svg",
+   "alt": "Four trophic level bars, the first with 20 000 joules"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "2 000 J"
+   },
+   {
+    "id": "b",
+    "text": "4 000 J"
+   },
+   {
+    "id": "c",
+    "text": "20 J"
+   },
+   {
+    "id": "d",
+    "text": "200 J"
+   }
+  ],
+  "answer": "d",
+  "hint": "Count how many times the energy is passed on to reach the third level.",
+  "explanation": "Producers to herbivores keeps 10%: 20 000 to 2 000 J. Herbivores to small carnivores keeps 10% again: 2 000 to **200 J**. The traps are 2 000 J (stopping after one transfer), 4 000 J (multiplying by 2 instead of taking 10% twice) and 20 J (going one transfer too far)."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Energy flow",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "In the food chain grass, mouse, snake, hawk, the hawk receives 50 J of energy. How much energy was present in the **grass**, assuming 10% is passed on at each step?",
+  "image": {
+   "src": "/img/c10-environment/energy-hawk.svg",
+   "alt": "Chain of grass, mouse, snake and hawk; hawk has 50 joules"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "50 000 J"
+   },
+   {
+    "id": "b",
+    "text": "5 000 J"
+   },
+   {
+    "id": "c",
+    "text": "500 000 J"
+   },
+   {
+    "id": "d",
+    "text": "500 J"
+   }
+  ],
+  "answer": "a",
+  "hint": "From the grass to the hawk is three transfers, not four.",
+  "explanation": "There are four trophic levels, so there are **three** transfers. Going backwards, multiply by 10 each time: 50, 500, 5 000, **50 000 J**. Using two steps gives 5 000 J, using one step gives 500 J, and counting four steps gives 500 000 J."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Trophic levels",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Which trophic level of an ecosystem generally has the **greatest number of individuals**?",
+  "image": {
+   "src": "/img/c10-environment/energy-pyramid.svg",
+   "alt": "Pyramid of four trophic levels"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Tertiary consumers"
+   },
+   {
+    "id": "b",
+    "text": "Secondary consumers"
+   },
+   {
+    "id": "c",
+    "text": "Producers"
+   },
+   {
+    "id": "d",
+    "text": "Primary consumers"
+   }
+  ],
+  "answer": "c",
+  "hint": "More energy is available at the base of the pyramid.",
+  "explanation": "There are generally more individuals at the lower trophic levels, and the greatest number is of the **producers**, because energy declines at each higher level."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Energy flow",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "Which of these statements about energy in an ecosystem are **correct**?",
+  "image": {
+   "src": "/img/c10-environment/energy-flow.svg",
+   "alt": "Energy flowing from the sun along a food chain with heat lost at every step"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The flow of energy is unidirectional"
+   },
+   {
+    "id": "b",
+    "text": "About 10% of the energy at one trophic level reaches the next"
+   },
+   {
+    "id": "c",
+    "text": "The energy passed to herbivores returns to the producers"
+   },
+   {
+    "id": "d",
+    "text": "The energy available decreases at each trophic level"
+   },
+   {
+    "id": "e",
+    "text": "Green plants capture about half the sunlight falling on them"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ],
+  "hint": "Energy keeps moving forward and shrinking.",
+  "explanation": "Energy flow is **one-way** and is reduced at each step, with about 10% passed on. It does not go back to the producers or the Sun. Plants capture only about 1% of sunlight, not half."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Food chain length",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-environment/chain-length.svg",
+   "alt": "Bars of energy falling with each trophic level"
+  },
+  "assertion": "Food chains generally consist of only three or four steps.",
+  "reason": "Only about 10% of the energy passes to the next level, so very little usable energy remains after four trophic levels.",
+  "answer": "a",
+  "hint": "Think about how much energy is left at the fifth level.",
+  "explanation": "Both are true and R explains A. At each step about 90% of the energy is lost, so after four levels too little is left to support another level of consumers."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Energy flow",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-environment/one-way.svg",
+   "alt": "Energy arrows from producer to herbivore to carnivore; backward arrow crossed out"
+  },
+  "assertion": "The flow of energy in an ecosystem is unidirectional.",
+  "reason": "The energy that passes to herbivores comes back to the autotrophs when they are eaten.",
+  "answer": "c",
+  "hint": "Check the direction of the arrows. Can energy go back to the plant?",
+  "explanation": "A is true: energy captured by autotrophs does not return to the Sun and the energy that goes to herbivores does not return to the autotrophs. R is false because energy moves only forward."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Food web",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "In this food web, if **all the mice are removed**, which organisms lose one of their food sources?",
+  "image": {
+   "src": "/img/c10-environment/foodweb.svg",
+   "alt": "Food web of grass, insect, mouse, frog, snake and hawk"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Only the hawk"
+   },
+   {
+    "id": "b",
+    "text": "The snake and the hawk"
+   },
+   {
+    "id": "c",
+    "text": "The insect and the frog"
+   },
+   {
+    "id": "d",
+    "text": "Only the grass"
+   }
+  ],
+  "answer": "b",
+  "hint": "Follow the arrows that start at the mouse.",
+  "explanation": "Arrows leave the mouse towards the **snake** and the **hawk**, so both lose a food source. They can survive on other food, such as the frog for the snake, which is why a food web is more stable than a single chain. The grass, insect and frog do not eat mice."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Food web",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "hotspot",
+  "prompt": "Tap the organism that is eaten by **both the snake and the hawk**.",
+  "image": {
+   "src": "/img/c10-environment/foodweb.svg",
+   "alt": "Food web of grass, insect, mouse, frog, snake and hawk"
+  },
+  "spots": [
+   {
+    "id": "grass",
+    "x": 12.5,
+    "y": 62.5,
+    "label": "Grass"
+   },
+   {
+    "id": "insect",
+    "x": 32.5,
+    "y": 83.3,
+    "label": "Insect"
+   },
+   {
+    "id": "mouse",
+    "x": 32.5,
+    "y": 37.5,
+    "label": "Mouse"
+   },
+   {
+    "id": "frog",
+    "x": 57.5,
+    "y": 83.3,
+    "label": "Frog"
+   },
+   {
+    "id": "snake",
+    "x": 72.5,
+    "y": 54.2,
+    "label": "Snake"
+   },
+   {
+    "id": "hawk",
+    "x": 87.5,
+    "y": 20.8,
+    "label": "Hawk"
+   }
+  ],
+  "answer": "mouse",
+  "hint": "Find the organism with two arrows leaving it, one to the snake and one to the hawk.",
+  "explanation": "Arrows go from the **mouse** to both the snake and the hawk. The snake is eaten by the hawk but does not eat it, and the frog is eaten only by the snake. A food web is a series of branching lines where each organism is eaten by two or more others."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biological magnification",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Pesticide residues increase along this food chain. Tap the organism that has the **highest concentration** of pesticide.",
+  "image": {
+   "src": "/img/c10-environment/biomag.svg",
+   "alt": "Food chain from pond water to a bird with red dots for pesticide"
+  },
+  "spots": [
+   {
+    "id": "water",
+    "x": 13.8,
+    "y": 77.1,
+    "label": "Water (pesticides washed in)"
+   },
+   {
+    "id": "plank",
+    "x": 35.0,
+    "y": 62.5,
+    "label": "Plankton (producer)"
+   },
+   {
+    "id": "small",
+    "x": 56.2,
+    "y": 47.9,
+    "label": "Small fish"
+   },
+   {
+    "id": "large",
+    "x": 75.0,
+    "y": 35.4,
+    "label": "Large fish"
+   },
+   {
+    "id": "bird",
+    "x": 88.8,
+    "y": 18.8,
+    "label": "Fish-eating bird (top consumer)"
+   }
+  ],
+  "answer": "bird",
+  "hint": "The highest level accumulates the most of the non-degradable chemical.",
+  "explanation": "Pesticides are not degradable, so they build up at each trophic level. The **fish-eating bird** at the top has the highest concentration. This is **biological magnification**."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biological magnification",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "A pesticide enters a pond. Arrange these from the **lowest** to the **highest** pesticide concentration.",
+  "image": {
+   "src": "/img/c10-environment/biomag-bars.svg",
+   "alt": "Bars of pesticide level rising from water to bird"
+  },
+  "items": [
+   {
+    "id": "large",
+    "text": "Large fish"
+   },
+   {
+    "id": "bird",
+    "text": "Fish-eating bird"
+   },
+   {
+    "id": "water",
+    "text": "Pond water"
+   },
+   {
+    "id": "small",
+    "text": "Small fish"
+   },
+   {
+    "id": "plank",
+    "text": "Plankton"
+   }
+  ],
+  "answer": [
+   "water",
+   "plank",
+   "small",
+   "large",
+   "bird"
+  ],
+  "startLabel": "Lowest",
+  "endLabel": "Highest",
+  "hint": "The chemical is not degraded, so it adds up as you move up the chain.",
+  "explanation": "Concentration rises at each trophic level: water, plankton, small fish, large fish, then the top bird. This progressive build-up is **biological magnification**."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biological magnification",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange the path by which a pesticide ends up in humans.",
+  "image": {
+   "src": "/img/c10-environment/pesticide-path.svg",
+   "alt": "Pesticide moving from sprayer to soil, plant, cow and human"
+  },
+  "items": [
+   {
+    "id": "c",
+    "text": "Plants absorb it from the soil along with water and minerals"
+   },
+   {
+    "id": "e",
+    "text": "Humans accumulate the maximum concentration"
+   },
+   {
+    "id": "a",
+    "text": "Pesticide is sprayed on crops"
+   },
+   {
+    "id": "d",
+    "text": "Animals eat the plants"
+   },
+   {
+    "id": "b",
+    "text": "It is washed into the soil and water bodies"
+   }
+  ],
+  "answer": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Start at the crop and end at the top of the food chain.",
+  "explanation": "Pesticides sprayed on crops are washed into soil and water, absorbed by plants (and aquatic plants), pass to animals through food, and are finally concentrated in **humans**, who occupy the top level in most food chains."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biological magnification",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Why do human beings usually have the **maximum concentration** of pesticides in their bodies?",
+  "image": {
+   "src": "/img/c10-environment/pesticide-path.svg",
+   "alt": "Pesticide moving from sprayer to soil, plant, cow and human"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Humans eat much more food than other animals"
+   },
+   {
+    "id": "b",
+    "text": "The chemicals are non-degradable and accumulate at each trophic level, and humans are at the top"
+   },
+   {
+    "id": "c",
+    "text": "The chemicals are made inside the human body"
+   },
+   {
+    "id": "d",
+    "text": "The chemicals are fully removed from other organisms by washing"
+   }
+  ],
+  "answer": "b",
+  "hint": "Think about what happens to a chemical that cannot be broken down.",
+  "explanation": "These chemicals are **not degradable**, so they accumulate progressively at each trophic level. Humans occupy the top level in any food chain, so they receive the most. Pesticide residues in grains, vegetables and meat cannot always be removed by washing."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biological magnification",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "**Biological magnification** is best described as",
+  "image": {
+   "src": "/img/c10-environment/biomag-bars.svg",
+   "alt": "Bars of pesticide level rising from water to bird"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "The growth of organisms at higher trophic levels"
+   },
+   {
+    "id": "b",
+    "text": "Progressive accumulation of non-degradable harmful chemicals at successive trophic levels"
+   },
+   {
+    "id": "c",
+    "text": "The increase in the number of producers"
+   },
+   {
+    "id": "d",
+    "text": "The breakdown of pesticides by decomposers"
+   }
+  ],
+  "answer": "b",
+  "hint": "Magnification means that something gets larger as you go up.",
+  "explanation": "Biological magnification is the build-up of harmful chemicals that cannot be degraded, in greater and greater concentrations at each trophic level. Organisms do not break these chemicals down."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ozone",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "How many oxygen atoms are present in one **molecule of ozone**?",
+  "image": {
+   "src": "/img/c10-environment/o3-molecules.svg",
+   "alt": "Ball models of oxygen and ozone molecules"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "1"
+   },
+   {
+    "id": "b",
+    "text": "2"
+   },
+   {
+    "id": "c",
+    "text": "4"
+   },
+   {
+    "id": "d",
+    "text": "3"
+   }
+  ],
+  "answer": "d",
+  "hint": "Count the balls in the ozone model.",
+  "explanation": "Ozone, $\\ce{O3}$, is formed by **three** atoms of oxygen. The ordinary oxygen we breathe, $\\ce{O2}$, has two atoms. Do not mix the two."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ozone",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "At the higher levels of the atmosphere, ozone is formed when which radiation acts on oxygen molecules?",
+  "image": {
+   "src": "/img/c10-environment/ozone-formation.svg",
+   "alt": "UV splitting O2 into O atoms, which join O2 to form O3"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Infrared radiation"
+   },
+   {
+    "id": "b",
+    "text": "Visible light"
+   },
+   {
+    "id": "c",
+    "text": "Ultraviolet radiation"
+   },
+   {
+    "id": "d",
+    "text": "Radio waves"
+   }
+  ],
+  "answer": "c",
+  "hint": "The high-energy radiation splits $\\ce{O2}$ into single atoms.",
+  "explanation": "The higher energy **ultraviolet (UV) radiation** splits some molecular oxygen into free oxygen atoms. Each free atom then joins a $\\ce{O2}$ molecule to make $\\ce{O3}$."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ozone",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps by which ozone forms in the upper atmosphere.",
+  "image": {
+   "src": "/img/c10-environment/ozone-formation.svg",
+   "alt": "UV splitting O2 into O atoms, which join O2 to form O3"
+  },
+  "items": [
+   {
+    "id": "c",
+    "text": "A free oxygen atom meets an oxygen molecule"
+   },
+   {
+    "id": "a",
+    "text": "UV radiation strikes an oxygen molecule"
+   },
+   {
+    "id": "d",
+    "text": "Ozone forms"
+   },
+   {
+    "id": "b",
+    "text": "The oxygen molecule splits into two oxygen atoms"
+   }
+  ],
+  "answer": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "startLabel": "First",
+  "endLabel": "Last",
+  "hint": "Write the two equations in the correct order.",
+  "explanation": "$\\ce{O2 ->[UV] O + O}$ happens first. Then $\\ce{O + O2 -> O3}$. The ozone formed shields the surface from UV rays."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ozone",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **ozone layer**, which shields the surface of the Earth from ultraviolet radiation.",
+  "image": {
+   "src": "/img/c10-environment/ozone.svg",
+   "alt": "Sun, UV rays, ozone layer, refrigerator and a person on the ground"
+  },
+  "spots": [
+   {
+    "id": "sun",
+    "x": 12.5,
+    "y": 16.7,
+    "label": "Sun"
+   },
+   {
+    "id": "uv",
+    "x": 30.5,
+    "y": 30.4,
+    "label": "UV radiation"
+   },
+   {
+    "id": "ozone",
+    "x": 50.0,
+    "y": 37.5,
+    "label": "Ozone layer"
+   },
+   {
+    "id": "fridge",
+    "x": 82.5,
+    "y": 70.0,
+    "label": "Refrigerator (a source of CFCs)"
+   },
+   {
+    "id": "ground",
+    "x": 35.0,
+    "y": 71.7,
+    "label": "Living organisms on Earth's surface"
+   }
+  ],
+  "answer": "ozone",
+  "hint": "It is the purple band high in the atmosphere.",
+  "explanation": "At the higher levels of the atmosphere, **ozone** absorbs UV radiation from the Sun. UV is highly damaging to organisms and is known to cause skin cancer in human beings."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "CFCs",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "hotspot",
+  "prompt": "Tap the item that can be a **source of CFCs** (chlorofluorocarbons).",
+  "image": {
+   "src": "/img/c10-environment/ozone.svg",
+   "alt": "Sun, UV rays, ozone layer, refrigerator and a person on the ground"
+  },
+  "spots": [
+   {
+    "id": "sun",
+    "x": 12.5,
+    "y": 16.7,
+    "label": "Sun"
+   },
+   {
+    "id": "uv",
+    "x": 30.5,
+    "y": 30.4,
+    "label": "UV radiation"
+   },
+   {
+    "id": "ozone",
+    "x": 50.0,
+    "y": 37.5,
+    "label": "Ozone layer"
+   },
+   {
+    "id": "fridge",
+    "x": 82.5,
+    "y": 70.0,
+    "label": "Refrigerator (a source of CFCs)"
+   },
+   {
+    "id": "ground",
+    "x": 35.0,
+    "y": 71.7,
+    "label": "Living organisms on Earth's surface"
+   }
+  ],
+  "answer": "fridge",
+  "hint": "CFCs are used as refrigerants and in fire extinguishers.",
+  "explanation": "CFCs are synthetic chemicals used as **refrigerants** and in fire extinguishers. Their release has been linked to the sharp drop in atmospheric ozone since the 1980s."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "CFCs",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In 1987 the United Nations Environment Programme (UNEP) succeeded in forging an agreement to",
+  "image": {
+   "src": "/img/c10-environment/cfc-timeline.svg",
+   "alt": "Graph of ozone amount falling in the 1980s, with a flag at 1987"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Ban all refrigerators"
+   },
+   {
+    "id": "b",
+    "text": "Freeze CFC production at 1986 levels"
+   },
+   {
+    "id": "c",
+    "text": "Increase CFC production"
+   },
+   {
+    "id": "d",
+    "text": "Replace oxygen with ozone in the atmosphere"
+   }
+  ],
+  "answer": "b",
+  "hint": "It was about limiting a chemical that harms the ozone layer.",
+  "explanation": "Ozone fell sharply in the 1980s, which was linked to **CFCs**. UNEP got countries to **freeze CFC production at 1986 levels**, and it is now mandatory worldwide to make CFC-free refrigerators."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ozone and CFCs",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "match",
+  "prompt": "Match each item with its role or fact.",
+  "image": {
+   "src": "/img/c10-environment/ozone-players.svg",
+   "alt": "An ozone molecule, an oxygen molecule, a refrigerator and a globe"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Ozone"
+   },
+   {
+    "id": "l2",
+    "text": "Oxygen"
+   },
+   {
+    "id": "l3",
+    "text": "CFCs"
+   },
+   {
+    "id": "l4",
+    "text": "UNEP"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Used in refrigerators and fire extinguishers"
+   },
+   {
+    "id": "r2",
+    "text": "Agreed in 1987 to freeze CFC production"
+   },
+   {
+    "id": "r3",
+    "text": "Shields the Earth's surface from UV radiation"
+   },
+   {
+    "id": "r4",
+    "text": "Essential for aerobic forms of life"
+   }
+  ],
+  "pairs": {
+   "l1": "r3",
+   "l2": "r4",
+   "l3": "r1",
+   "l4": "r2"
+  },
+  "hint": "Think about which one is a poison but a useful shield.",
+  "explanation": "**Ozone** shields the Earth from UV; ordinary **oxygen** is essential for aerobic life; **CFCs** are refrigerants and fire-extinguisher chemicals that harm ozone; **UNEP** brought about the 1987 agreement."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Ozone",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-environment/uv-skin.svg",
+   "alt": "Sun sending UV rays to a person"
+  },
+  "assertion": "Excess exposure to UV radiation can cause skin cancer in humans.",
+  "reason": "Ozone is formed when UV radiation acts on oxygen molecules in the upper atmosphere.",
+  "answer": "b",
+  "hint": "Both are facts from the chapter, but does the second one explain the first?",
+  "explanation": "A is true: UV radiation is highly damaging and is known to cause skin cancer. R is also true, since UV splits $\\ce{O2}$ and the atoms form ozone. But R tells how ozone is made, not why UV harms skin, so it does not explain A."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "CFCs",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "Why is it now mandatory for manufacturers worldwide to make **CFC-free refrigerators**?",
+  "image": {
+   "src": "/img/c10-environment/ozone.svg",
+   "alt": "Sun, UV rays, ozone layer, refrigerator and a person on the ground"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "CFCs make food spoil quickly"
+   },
+   {
+    "id": "b",
+    "text": "CFCs damage the ozone layer"
+   },
+   {
+    "id": "c",
+    "text": "CFCs are too heavy"
+   },
+   {
+    "id": "d",
+    "text": "CFCs are not available"
+   }
+  ],
+  "answer": "b",
+  "hint": "Look at what happens to the ozone layer in the picture.",
+  "explanation": "CFCs used as refrigerants have been linked to the **depletion of the ozone layer**. Less ozone means more UV reaches the surface, so the use of CFCs has been limited."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biodegradable waste",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Bin A holds vegetable peels, paper and leaves. Bin B holds a plastic bottle, a medicine strip and a polythene bag. Which statement is correct?",
+  "image": {
+   "src": "/img/c10-environment/biodeg-sort.svg",
+   "alt": "Bin A with peel, paper and leaves; Bin B with bottle, strip and polythene bag"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Bin A can be broken down by biological processes, Bin B cannot"
+   },
+   {
+    "id": "b",
+    "text": "Bin B items are broken down faster by bacteria than Bin A items"
+   },
+   {
+    "id": "c",
+    "text": "Both bins contain biodegradable items"
+   },
+   {
+    "id": "d",
+    "text": "Bin A is non-biodegradable because it is natural"
+   }
+  ],
+  "answer": "a",
+  "hint": "Biodegradable substances are broken down by biological processes.",
+  "explanation": "Substances broken down by biological processes (bacteria, saprophytes) are **biodegradable** (Bin A). Human-made materials like plastics are **non-biodegradable** (Bin B) and persist for a long time, since specific enzymes are needed for the break-down of a particular substance."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Non-biodegradable waste",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-environment/enzyme-lock.svg",
+   "alt": "Enzyme fits a matching substance but not a piece of plastic"
+  },
+  "assertion": "Plastics persist for a long time in the environment.",
+  "reason": "Enzymes are specific in their action, so bacteria and other saprophytes cannot break down human-made materials such as plastics.",
+  "answer": "a",
+  "hint": "The picture shows an enzyme that fits only one substance.",
+  "explanation": "Both are true and R explains A. Each enzyme works on a particular substance, so there is no enzyme in nature suited to plastics. They are acted on only by physical processes such as heat and pressure, and under normal conditions they remain."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biodegradable waste",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "In Activity 13.5, waste is buried in a pit and kept moist. Which buried item would remain **unchanged for the longest time**?",
+  "image": {
+   "src": "/img/c10-environment/waste-pit.svg",
+   "alt": "Cross-section of a soil pit with buried waste"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Vegetable peel",
+    "image": {
+     "src": "/img/c10-environment/t-peel.svg",
+     "alt": "Vegetable peel"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Paper",
+    "image": {
+     "src": "/img/c10-environment/t-paper.svg",
+     "alt": "Paper"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Medicine bubble-pack",
+    "image": {
+     "src": "/img/c10-environment/t-strip.svg",
+     "alt": "Medicine bubble-pack"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Cotton cloth",
+    "image": {
+     "src": "/img/c10-environment/t-rag.svg",
+     "alt": "Cotton cloth"
+    }
+   }
+  ],
+  "answer": "c",
+  "hint": "Choose the human-made, non-biodegradable material.",
+  "explanation": "The vegetable peel, paper and cotton cloth are natural materials that microbes break down. The medicine bubble-pack is made of plastic and metal foil, which is **non-biodegradable**, so it persists."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Biodegradable waste",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select all the **biodegradable** items.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Vegetable peel",
+    "image": {
+     "src": "/img/c10-environment/t-peel.svg",
+     "alt": "Vegetable peel"
+    }
+   },
+   {
+    "id": "b",
+    "text": "Plastic bottle",
+    "image": {
+     "src": "/img/c10-environment/t-bottle.svg",
+     "alt": "Plastic bottle"
+    }
+   },
+   {
+    "id": "c",
+    "text": "Paper",
+    "image": {
+     "src": "/img/c10-environment/t-paper.svg",
+     "alt": "Paper"
+    }
+   },
+   {
+    "id": "d",
+    "text": "Polythene bag",
+    "image": {
+     "src": "/img/c10-environment/t-bag.svg",
+     "alt": "Polythene bag"
+    }
+   },
+   {
+    "id": "e",
+    "text": "Wood",
+    "image": {
+     "src": "/img/c10-environment/t-log.svg",
+     "alt": "Wood"
+    }
+   },
+   {
+    "id": "f",
+    "text": "Glass bottle",
+    "image": {
+     "src": "/img/c10-environment/t-glass.svg",
+     "alt": "Glass bottle"
+    }
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "e"
+  ],
+  "hint": "Biodegradable items are made from living things and are broken down by microbes.",
+  "explanation": "Peels, paper and wood come from plants and can be broken down by biological processes. Plastic and polythene are human-made, and glass is also not broken down by microbes. These are **non-biodegradable**."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Waste management",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Which is the best way to handle the **vegetable peels and tea leaves** produced in a kitchen?",
+  "image": {
+   "src": "/img/c10-environment/compost.svg",
+   "alt": "Kitchen waste goes into a pit and becomes manure for a plant"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Burn them along with plastic wrappers"
+   },
+   {
+    "id": "b",
+    "text": "Throw them into a nearby pond"
+   },
+   {
+    "id": "c",
+    "text": "Collect them separately and compost them into manure"
+   },
+   {
+    "id": "d",
+    "text": "Mix them with plastic waste in one bin"
+   }
+  ],
+  "answer": "c",
+  "hint": "Biodegradable and non-biodegradable wastes should be treated separately.",
+  "explanation": "Kitchen waste is biodegradable, so it can be separated and **composted** into manure that enriches the soil. Mixing it with plastics makes treatment harder, burning plastics pollutes the air, and dumping it in ponds pollutes water."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Waste management",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Why was the idea of using **clay kulhads** for tea in trains on a large scale not a good solution?",
+  "image": {
+   "src": "/img/c10-environment/kulhad-cups.svg",
+   "alt": "A clay kulhad, a paper cup and a plastic cup"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Clay is non-biodegradable"
+   },
+   {
+    "id": "b",
+    "text": "Making them in huge numbers would cause loss of fertile top-soil"
+   },
+   {
+    "id": "c",
+    "text": "Clay cups are poisonous"
+   },
+   {
+    "id": "d",
+    "text": "Clay cups are made of plastic"
+   }
+  ],
+  "answer": "b",
+  "hint": "What do potters need as raw material?",
+  "explanation": "Clay comes from the top-soil. Making millions of kulhads daily would cost us the **fertile top-soil**. Clay itself is natural and biodegradable, so the problem is the scale of production."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Environment-friendly practices",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Which of these are **environment-friendly practices**?",
+  "image": {
+   "src": "/img/c10-environment/eco-habits.svg",
+   "alt": "A cloth bag, a switched-off bulb and a person walking"
+  },
+  "options": [
+   {
+    "id": "a",
+    "text": "Carrying cloth bags for shopping"
+   },
+   {
+    "id": "b",
+    "text": "Switching off unnecessary lights and fans"
+   },
+   {
+    "id": "c",
+    "text": "Walking to school instead of going on a scooter"
+   },
+   {
+    "id": "d",
+    "text": "Throwing wrappers anywhere"
+   },
+   {
+    "id": "e",
+    "text": "Using disposable plastic cups all the time"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c"
+  ],
+  "hint": "Which habits cut waste or save energy?",
+  "explanation": "Cloth bags reduce plastic waste, switching off appliances saves energy, and walking saves fuel. Littering and disposable plastic add to the garbage problem."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Numbers in the chapter",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each number with what it stands for.",
+  "image": {
+   "src": "/img/c10-environment/key-numbers.svg",
+   "alt": "Tiles showing sun and leaf, energy steps, a food chain and an agreement"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "1%"
+   },
+   {
+    "id": "l2",
+    "text": "10%"
+   },
+   {
+    "id": "l3",
+    "text": "3 to 4"
+   },
+   {
+    "id": "l4",
+    "text": "1987"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Usual number of steps in a food chain"
+   },
+   {
+    "id": "r2",
+    "text": "Year of the UNEP agreement on CFCs"
+   },
+   {
+    "id": "r3",
+    "text": "Share of sunlight energy captured by green plants"
+   },
+   {
+    "id": "r4",
+    "text": "Energy that passes to the next trophic level"
+   }
+  ],
+  "pairs": {
+   "l1": "r3",
+   "l2": "r4",
+   "l3": "r1",
+   "l4": "r2"
+  },
+  "hint": "Recall the energy figures and the dates.",
+  "explanation": "Plants capture about **1%** of sunlight. About **10%** of the energy is passed to the next level. Food chains usually have **3 to 4** steps. The agreement to freeze CFC production was made in **1987**."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Key terms",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "match",
+  "prompt": "Match each term with its meaning.",
+  "image": {
+   "src": "/img/c10-environment/concept-cards.svg",
+   "alt": "Four cards showing sun and grass, bacteria, red dots and stacked steps"
+  },
+  "left": [
+   {
+    "id": "l1",
+    "text": "Producers"
+   },
+   {
+    "id": "l2",
+    "text": "Decomposers"
+   },
+   {
+    "id": "l3",
+    "text": "Biological magnification"
+   },
+   {
+    "id": "l4",
+    "text": "Trophic level"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Each step of a food chain"
+   },
+   {
+    "id": "r2",
+    "text": "Build-up of non-degradable chemicals along a food chain"
+   },
+   {
+    "id": "r3",
+    "text": "Make food from inorganic substances using sunlight"
+   },
+   {
+    "id": "r4",
+    "text": "Break complex organic matter into simple inorganic substances"
+   }
+  ],
+  "pairs": {
+   "l1": "r3",
+   "l2": "r4",
+   "l3": "r2",
+   "l4": "r1"
+  },
+  "hint": "Link each term to what it does in the ecosystem.",
+  "explanation": "**Producers** make food using sunlight; **decomposers** break down dead matter; **biological magnification** is the accumulation of harmful chemicals; a **trophic level** is a step in a food chain."
+ },
+ {
+  "id": "in-cbse-10-bio-environment-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "biology",
+  "chapter": "Our Environment",
+  "chapterNo": 5,
+  "topic": "Trophic levels",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-environment/energy-pyramid.svg",
+   "alt": "Pyramid of four trophic levels"
+  },
+  "assertion": "The number of individuals is greatest at the top trophic level of an ecosystem.",
+  "reason": "The energy available decreases at each higher trophic level.",
+  "answer": "d",
+  "hint": "Is the top of a pyramid the widest part?",
+  "explanation": "A is false: the number of individuals is generally greatest at the **lowest** level, the producers. R is true because energy is lost at each step, which supports a smaller number of organisms higher up."
+ }
+]

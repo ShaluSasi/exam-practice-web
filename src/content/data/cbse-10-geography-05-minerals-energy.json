@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "in-cbse-10-geo-minerals-energy-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "What is a mineral?",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Geologists define a mineral in a particular way. Which description matches that definition?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mineral-crystal.svg",
+      "alt": "A cluster of purple mineral crystals on a rock base"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Any rock lying beneath the soil, whatever it is made of"
+      },
+      {
+        "id": "b",
+        "text": "A homogenous, naturally occurring substance with a definable internal structure"
+      },
+      {
+        "id": "c",
+        "text": "A man-made alloy produced by heating metals in a furnace"
+      },
+      {
+        "id": "d",
+        "text": "A mixture of several rocks in fixed proportions"
+      }
+    ],
+    "answer": "b",
+    "hint": "Think of three words: homogenous, natural, structure.",
+    "explanation": "A mineral is **homogenous** (the same throughout), **naturally occurring** and has a **definable internal structure**. Rocks are combinations of minerals, so calling a rock a mineral confuses the two; alloys are man-made, and a rock is not a fixed mixture. Some rocks, like limestone, consist of just one mineral, but most are made of several in varying proportions."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Minerals in daily life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Toothpaste, its tube and its brush all depend on minerals or mineral products. Match each use with its source.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/toothpaste.svg",
+      "alt": "A paste tube and brush with four mineral names beside them"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Fluoride that reduces cavities"
+      },
+      {
+        "id": "l2",
+        "text": "The white colour (titanium oxide)"
+      },
+      {
+        "id": "l3",
+        "text": "The sparkle in some pastes"
+      },
+      {
+        "id": "l4",
+        "text": "Plastic of the tube and the brush"
+      }
+    ],
+    "right": [
+      {
+        "id": "r4",
+        "text": "Petroleum"
+      },
+      {
+        "id": "r1",
+        "text": "Fluorite"
+      },
+      {
+        "id": "r3",
+        "text": "Mica"
+      },
+      {
+        "id": "r2",
+        "text": "Rutile, ilmenite and anatase"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Match the effect first, then the source.",
+    "explanation": "Fluoride comes from the mineral **fluorite**; titanium oxide, which whitens most pastes, comes from **rutile, ilmenite and anatase**; the sparkle comes from **mica**; and the plastics of the tube and brush are made from **petroleum**. Abrasive minerals such as silica and limestone do the actual cleaning."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Minerals and life",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Minerals make up only about 0.3 per cent of what we eat. Which statement explains why they still matter so much?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/nutrient-bar.svg",
+      "alt": "A bar showing 0.3 per cent minerals and 99.7 per cent other nutrients"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "They supply 99.7 per cent of the energy we need"
+      },
+      {
+        "id": "b",
+        "text": "They are needed only for bones and teeth, not for life processes"
+      },
+      {
+        "id": "c",
+        "text": "Without them the body could not make use of the other 99.7 per cent of the food"
+      },
+      {
+        "id": "d",
+        "text": "Their share is so small that they can be left out of the diet"
+      }
+    ],
+    "answer": "c",
+    "hint": "The text calls them \"potent\".",
+    "explanation": "The chapter says minerals are so potent that without them we **could not utilise the other 99.7 per cent** of foodstuffs, and that life processes cannot occur without them. They do not supply the energy (distractor 1), their role is not limited to bones and teeth, and a small share does not mean a small importance."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence: ores",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Rock A and Rock B contain the same mineral, shown by the gold dots. Other things being equal, which is more likely to be an **ore** worth mining, and why?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/ore-rocks.svg",
+      "alt": "Rock A is packed with gold dots; Rock B has only a few"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Rock A, because the mineral is concentrated enough to make extraction commercially viable"
+      },
+      {
+        "id": "b",
+        "text": "Rock B, because a rock with few grains is easier to crush"
+      },
+      {
+        "id": "c",
+        "text": "Both equally, because any rock with the mineral in it is an ore"
+      },
+      {
+        "id": "d",
+        "text": "Neither, because ores are found only in sedimentary rocks"
+      }
+    ],
+    "answer": "a",
+    "hint": "The mineral content must be in sufficient concentration.",
+    "explanation": "An **ore** is an accumulation of a mineral mixed with other elements, and its mineral content must be in **sufficient concentration to make extraction commercially viable**. Rock A passes this test; Rock B has too little. Ores are not limited to sedimentary rocks, and not every rock containing the mineral counts as an ore."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **placer deposit**: the sand of a valley floor that holds gold, silver, tin or platinum which water does not corrode.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/occ-cross.svg",
+      "alt": "Cross-section of rock layers with a vein, a lode, a coal bed, a weathered layer and valley sands"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 14.5,
+        "y": 70.8,
+        "label": "Vein (small crack filling)"
+      },
+      {
+        "id": "b",
+        "x": 29.0,
+        "y": 72.9,
+        "label": "Lode (large crack filling)"
+      },
+      {
+        "id": "c",
+        "x": 82.5,
+        "y": 73.8,
+        "label": "Coal seam in sedimentary beds"
+      },
+      {
+        "id": "d",
+        "x": 15.0,
+        "y": 29.2,
+        "label": "Residual weathered mass (bauxite)"
+      },
+      {
+        "id": "e",
+        "x": 52.5,
+        "y": 48.8,
+        "label": "Placer deposit"
+      }
+    ],
+    "answer": "e",
+    "hint": "Look at the valley floor where a stream runs.",
+    "explanation": "Placer deposits are **alluvial deposits in the sands of valley floors and the base of hills**; they hold minerals not corroded by water, such as gold, silver, tin and platinum. The crack fillings in the hard rock are veins and lodes, the dark band in the layered rock is a coal seam, and the reddish top layer is the weathered residue where bauxite forms."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Bauxite forms when surface rocks decompose and the soluble parts are removed. Tap the part of the picture where such a **residual mass of weathered material** lies.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/occ-cross.svg",
+      "alt": "Cross-section of rock layers with a vein, a lode, a coal bed, a weathered layer and valley sands"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 14.5,
+        "y": 70.8,
+        "label": "Vein"
+      },
+      {
+        "id": "b",
+        "x": 29.0,
+        "y": 72.9,
+        "label": "Lode"
+      },
+      {
+        "id": "c",
+        "x": 82.5,
+        "y": 73.8,
+        "label": "Coal seam"
+      },
+      {
+        "id": "d",
+        "x": 15.0,
+        "y": 29.2,
+        "label": "Residual weathered mass"
+      },
+      {
+        "id": "e",
+        "x": 52.5,
+        "y": 48.8,
+        "label": "Placer deposit"
+      }
+    ],
+    "answer": "d",
+    "hint": "It lies at the surface, on top of the hard rock.",
+    "explanation": "Bauxite is formed by the **decomposition of surface rocks and the removal of soluble constituents**, leaving a residual mass of weathered material that contains the ore. So it lies at the surface, not in a crack (vein or lode), not in a sedimentary bed (coal seam) and not in river sands (placer)."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Coal and some forms of iron ore were concentrated in horizontal layers after long periods under great heat and pressure. Which picture shows minerals occurring in **beds or layers** of sedimentary rock?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/form-a.svg",
+          "alt": "Two crack fillings in hard rock"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/form-c.svg",
+          "alt": "A reddish weathered layer on top of rock"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/form-d.svg",
+          "alt": "Sand between two hills with gold grains"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/form-b.svg",
+          "alt": "Horizontal layers of rock with a dark coal band"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Look for horizontal strata.",
+    "explanation": "In **sedimentary rocks** minerals occur in beds or layers formed by deposition, accumulation and concentration in horizontal strata. Picture D shows horizontal layers with a coal band. Picture A is veins or lodes (igneous and metamorphic rocks), Picture B is a weathered residue (bauxite) and Picture C is a placer deposit."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "match",
+    "prompt": "Match each way in which minerals occur with the minerals obtained from it.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/occ-cross.svg",
+      "alt": "Cross-section of rock layers showing different ways minerals occur"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Veins and lodes in igneous and metamorphic rocks"
+      },
+      {
+        "id": "l2",
+        "text": "Beds in sedimentary rocks"
+      },
+      {
+        "id": "l3",
+        "text": "Decomposition of surface rocks"
+      },
+      {
+        "id": "l4",
+        "text": "Placer deposits in valley sands"
+      },
+      {
+        "id": "l5",
+        "text": "Ocean waters"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Tin, copper, zinc and lead"
+      },
+      {
+        "id": "r3",
+        "text": "Bauxite"
+      },
+      {
+        "id": "r4",
+        "text": "Gold, silver, tin and platinum"
+      },
+      {
+        "id": "r5",
+        "text": "Common salt, magnesium and bromine"
+      },
+      {
+        "id": "r2",
+        "text": "Coal"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Say how each one forms before you pair it.",
+    "explanation": "Major metallic minerals such as tin, copper, zinc and lead come from **veins and lodes**; coal from **sedimentary beds**; bauxite from **weathered residue**; gold, silver, tin and platinum from **placers**; and common salt, magnesium and bromine from **ocean water**. Tin appears in two lists in the chapter, but the whole set of minerals in each pair tells you which one is meant."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "How are veins and lodes formed in igneous and metamorphic rocks? Put the steps in order.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/vein-form.svg",
+      "alt": "Hot minerals rising through a crack in rock"
+    },
+    "items": [
+      {
+        "id": "o1",
+        "text": "Minerals exist in liquid or molten and gaseous forms deep down"
+      },
+      {
+        "id": "o2",
+        "text": "They are forced upward through cracks, crevices, faults or joints"
+      },
+      {
+        "id": "o4",
+        "text": "Smaller fillings are called veins; larger ones are called lodes"
+      },
+      {
+        "id": "o3",
+        "text": "They cool and solidify as they rise"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Deep underground",
+    "endLabel": "In the rock",
+    "hint": "Begin with the state of the minerals.",
+    "explanation": "Minerals in **liquid/molten and gaseous** form are forced **upward** through cavities towards the surface; they **cool and solidify as they rise**, leaving mineral-filled cracks. The smaller occurrences are **veins** and the larger **lodes**."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mode of occurrence",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which of these minerals are formed as a result of **evaporation**, especially in arid regions?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/evap.svg",
+      "alt": "A shallow pond in a hot dry region shrinking as it dries"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Gypsum"
+      },
+      {
+        "id": "b",
+        "text": "Potash salt"
+      },
+      {
+        "id": "c",
+        "text": "Sodium salt"
+      },
+      {
+        "id": "d",
+        "text": "Bauxite"
+      },
+      {
+        "id": "e",
+        "text": "Tin"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "They are sedimentary minerals, but not coal or iron ore.",
+    "explanation": "Another group of sedimentary minerals, **gypsum, potash salt and sodium salt**, forms by evaporation, especially in arid regions. Bauxite forms by weathering of surface rocks, and tin comes from veins/lodes and placer deposits."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Rat-hole mining",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In Jowai and Cherapunjee in Meghalaya, family members dig long, narrow tunnels to take out coal. What is this method called and what has been said about it?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/rathole.svg",
+      "alt": "A narrow tunnel running sideways into a coal seam under a hillside"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Placer mining, which is nationalised and run by the state"
+      },
+      {
+        "id": "b",
+        "text": "Rat-hole mining, which the National Green Tribunal wants expanded"
+      },
+      {
+        "id": "c",
+        "text": "Quarrying, which needs no permission because families own the minerals"
+      },
+      {
+        "id": "d",
+        "text": "Rat-hole mining, which the National Green Tribunal has declared illegal"
+      }
+    ],
+    "answer": "d",
+    "hint": "It is named after the size of the tunnel.",
+    "explanation": "Coal mining in Jowai and Cherapunjee is done by families in long narrow tunnels, called **rat-hole mining**. The **National Green Tribunal has declared it illegal** and recommended it be stopped. In most of India minerals are nationalised, but in many tribal areas of the north-east they are owned by individuals or communities."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Distribution of minerals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each setting with what it contains.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/geo-cards.svg",
+      "alt": "Four cards: hard old rocks, rock flanks, river plains and dry rock land"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Peninsular rocks"
+      },
+      {
+        "id": "l2",
+        "text": "Sedimentary rocks on the flanks of the peninsula, in Gujarat and Assam"
+      },
+      {
+        "id": "l3",
+        "text": "Vast alluvial plains of north India"
+      },
+      {
+        "id": "l4",
+        "text": "Rajasthan, with peninsular rock systems"
+      }
+    ],
+    "right": [
+      {
+        "id": "r2",
+        "text": "Most of the petroleum deposits"
+      },
+      {
+        "id": "r3",
+        "text": "Almost devoid of economic minerals"
+      },
+      {
+        "id": "r4",
+        "text": "Reserves of many non-ferrous minerals"
+      },
+      {
+        "id": "r1",
+        "text": "Most reserves of coal, metallic minerals and mica"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Think about the type of rock in each setting.",
+    "explanation": "Peninsular rocks hold most of the **coal, metallic minerals and mica**; the **sedimentary rocks** on the western and eastern flanks, in Gujarat and in Assam hold most **petroleum**; the **alluvial plains** are almost devoid of economic minerals; Rajasthan has many **non-ferrous** minerals. The differences arise from geological structure, processes and time of formation."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mines and reserves",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which set of factors decides whether a mineral **deposit or reserve** turns into a mine?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mine-factors.svg",
+      "alt": "Three cards: a rock rich in ore, an easy-to-dig tunnel and a shop with a truck"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Colour of the ore, age of the rock and name of the district"
+      },
+      {
+        "id": "b",
+        "text": "The number of minerals identified in the whole world"
+      },
+      {
+        "id": "c",
+        "text": "Concentration of the mineral in the ore, ease of extraction and closeness to the market"
+      },
+      {
+        "id": "d",
+        "text": "Hardness of the mineral alone"
+      }
+    ],
+    "answer": "c",
+    "hint": "Money and distance matter, not looks.",
+    "explanation": "The concentration of the mineral in the ore, the **ease of extraction** and **closeness to the market** play an important role in economic viability. When a choice among the options is made, a deposit or reserve turns into a mine. Colour, age and the district name do not decide viability."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Ferrous minerals",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Ferrous minerals account for about three-fourths of the value of the production of metallic minerals. If metallic minerals worth ₹ 400 crore were produced in a year, about how much of that value would be ferrous minerals?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/ferrous-bar.svg",
+      "alt": "A bar split into 75 per cent ferrous minerals and 25 per cent others"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "₹ 100 crore"
+      },
+      {
+        "id": "b",
+        "text": "₹ 300 crore"
+      },
+      {
+        "id": "c",
+        "text": "₹ 133 crore"
+      },
+      {
+        "id": "d",
+        "text": "₹ 75 crore"
+      }
+    ],
+    "answer": "b",
+    "hint": "Find three-fourths of 400.",
+    "explanation": "$\\frac{3}{4}\\times 400 = 300$, so ferrous minerals account for ₹ 300 crore. ₹ 100 crore is **one**-fourth, ₹ 133 crore comes from **dividing** by 3 instead of taking three-fourths, and ₹ 75 crore wrongly treats \"75\" as the amount instead of a percentage."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Iron ore",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which statement about magnetite and hematite is correct?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/iron-grade.svg",
+      "alt": "Bars: magnetite up to 70 per cent iron, hematite 50 to 60 per cent"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Hematite has up to 70 per cent iron and excellent magnetic qualities"
+      },
+      {
+        "id": "b",
+        "text": "Both have about the same iron content, but only hematite is magnetic"
+      },
+      {
+        "id": "c",
+        "text": "Magnetite is the ore used in the greatest quantity, and hematite is the finest ore"
+      },
+      {
+        "id": "d",
+        "text": "Magnetite has up to 70 per cent iron and is valuable in the electrical industry; hematite has 50-60 per cent and is the ore used in greatest quantity"
+      }
+    ],
+    "answer": "d",
+    "hint": "The finest ore is not the one used the most.",
+    "explanation": "**Magnetite** is the finest iron ore (up to **70 per cent** iron) with excellent magnetic qualities, valuable in the electrical industry. **Hematite** is the most important industrial ore by quantity used but has a slightly lower iron content (**50-60 per cent**). The distractors swap the two ores or erase the difference."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Iron ore",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "In 2018-19, 97 per cent of India's iron ore came from Odisha, Chhattisgarh, Karnataka and Jharkhand. If total production had been 200 million tonnes, how many million tonnes came from all other states together?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/iron-97.svg",
+      "alt": "A bar showing 97 per cent from four states and 3 per cent from other states"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "194"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "60"
+      }
+    ],
+    "answer": "a",
+    "hint": "The other states supplied the remaining 3 per cent.",
+    "explanation": "The remaining share is $100 - 97 = 3$ per cent, and $\\frac{3}{100}\\times 200 = 6$ million tonnes. 194 is what the **four states** produced, 3 is the **percentage** not the quantity, and 60 treats 3 per cent as 30 per cent."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Iron ore belts",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "match",
+    "prompt": "Match each iron ore area with what the chapter says about it.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/ore-chain.svg",
+      "alt": "Ore wagons running to a port where a ship waits"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Bailadila hills of Chhattisgarh"
+      },
+      {
+        "id": "l2",
+        "text": "Kudremukh mines in the Western Ghats"
+      },
+      {
+        "id": "l3",
+        "text": "Badampahar mines in Odisha"
+      },
+      {
+        "id": "l4",
+        "text": "Goa and Ratnagiri belt"
+      }
+    ],
+    "right": [
+      {
+        "id": "r3",
+        "text": "High grade hematite in the Mayurbhanj and Kendujhar districts"
+      },
+      {
+        "id": "r1",
+        "text": "14 deposits of super high grade hematite; exported to Japan and South Korea via Visakhapatnam"
+      },
+      {
+        "id": "r4",
+        "text": "Ores not of very high quality, but efficiently exploited and exported through Marmagao"
+      },
+      {
+        "id": "r2",
+        "text": "A 100 per cent export unit; ore moves as slurry through a pipeline to a port near Mangaluru"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4"
+    },
+    "hint": "Link the port or the district named in each description.",
+    "explanation": "Bailadila has **14 deposits of super high grade hematite** exported via **Visakhapatnam**; **Kudremukh** is a **100 per cent export unit** whose slurry travels by pipeline; **Badampahar** (Odisha) has high grade hematite in Mayurbhanj and Kendujhar; the **Goa-Ratnagiri** belt has lower quality ore, exported through **Marmagao**."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Manganese",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "About 10 kg of manganese is needed to make one tonne of steel. How much manganese does a mill need to make 350 tonnes of steel?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mn-steel.svg",
+      "alt": "Steel beams marked 1 tonne beside a sack of manganese marked 10 kg"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "35 kg"
+      },
+      {
+        "id": "b",
+        "text": "350 kg"
+      },
+      {
+        "id": "c",
+        "text": "3,500 kg"
+      },
+      {
+        "id": "d",
+        "text": "35,000 kg"
+      }
+    ],
+    "answer": "c",
+    "hint": "Multiply the tonnes of steel by the kilograms per tonne.",
+    "explanation": "$350 \\times 10 = 3500$ kg (3.5 tonnes). 35 kg comes from **dividing** 350 by 10, 350 kg uses only 1 kg per tonne, and 35,000 kg adds an extra factor of 10."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Manganese",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Study the chart of manganese production in 2018-19. Tap the bar of the state with the **second-largest share**.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mn-bars.svg",
+      "alt": "Horizontal bars of the share of manganese production for six producers"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 43.4,
+        "y": 22.9,
+        "label": "Odisha (16%)"
+      },
+      {
+        "id": "b",
+        "x": 40.0,
+        "y": 36.2,
+        "label": "Karnataka (12%)"
+      },
+      {
+        "id": "c",
+        "x": 58.2,
+        "y": 49.6,
+        "label": "Madhya Pradesh (33%)"
+      },
+      {
+        "id": "d",
+        "x": 53.0,
+        "y": 62.9,
+        "label": "Maharashtra (27%)"
+      },
+      {
+        "id": "e",
+        "x": 38.2,
+        "y": 76.2,
+        "label": "Andhra Pradesh (10%)"
+      },
+      {
+        "id": "f",
+        "x": 31.2,
+        "y": 89.6,
+        "label": "Others (2%)"
+      }
+    ],
+    "answer": "d",
+    "hint": "Madhya Pradesh is first; find the next longest bar.",
+    "explanation": "The shares are Madhya Pradesh 33%, **Maharashtra 27%**, Odisha 16%, Karnataka 12%, Andhra Pradesh 10% and others 2%, adding up to 100%. So Maharashtra has the second-largest share."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Biogas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "In a biogas (gobar gas) plant, put these steps in order.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/biogas-plant.svg",
+      "alt": "Cross-section of a biogas plant with a feed funnel, a tank, a dome, a stove and a manure pit"
+    },
+    "items": [
+      {
+        "id": "o2",
+        "text": "Organic matter decomposes inside the tank"
+      },
+      {
+        "id": "o3",
+        "text": "The gas produced is drawn off for cooking and lighting"
+      },
+      {
+        "id": "o4",
+        "text": "The leftover slurry is used as improved manure"
+      },
+      {
+        "id": "o1",
+        "text": "Cattle dung, farm waste and shrubs are fed into the plant"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Dung and waste go in",
+    "endLabel": "Gas and manure come out",
+    "hint": "Decomposition comes before gas.",
+    "explanation": "Waste is fed in, **decomposition of organic matter yields gas**, which has higher thermal efficiency than kerosene, dung cake or charcoal, and the leftover is **better manure**. These are the \"twin benefits\" to the farmer, and biogas also prevents loss of trees and manure from burning wood and dung cakes."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Copper",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A cable maker needs a metal that is malleable, ductile and a good conductor. The chapter names it as mainly used in electrical cables and electronics. Which mineral is it, and how does India stand in it?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/copper-wire.svg",
+      "alt": "A coil of copper wire connected to a glowing bulb"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Copper; India has plentiful reserves and exports it"
+      },
+      {
+        "id": "b",
+        "text": "Copper; India is critically deficient in its reserves and production"
+      },
+      {
+        "id": "c",
+        "text": "Bauxite; India is critically deficient in it"
+      },
+      {
+        "id": "d",
+        "text": "Mica; India is critically deficient in it"
+      }
+    ],
+    "answer": "b",
+    "hint": "Malleable, ductile and a good conductor describe a non-ferrous metal.",
+    "explanation": "**Copper** is malleable, ductile and a good conductor, so it is used in electrical cables, electronics and chemical industries, but India is **critically deficient** in its reserve and production. Bauxite gives aluminium, and mica is valued as an insulator, not a conducting cable metal."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mines and minerals",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "Which of these pairings of a place and its mineral are correct?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mine-icons.svg",
+      "alt": "Cards with iron ore, copper, bauxite and mica"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Khetri mines (Rajasthan): copper"
+      },
+      {
+        "id": "b",
+        "text": "Panchpatmali deposits, Koraput (Odisha): bauxite"
+      },
+      {
+        "id": "c",
+        "text": "Koderma (Jharkhand): mica"
+      },
+      {
+        "id": "d",
+        "text": "Kudremukh (Karnataka): manganese"
+      },
+      {
+        "id": "e",
+        "text": "Neyveli (Tamil Nadu): anthracite"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Kudremukh is an iron ore name; Neyveli is a soft coal.",
+    "explanation": "**Khetri** is a leading copper producer; **Panchpatmali** in Koraput has the most important bauxite deposits of Odisha; **Koderma** (in the Koderma-Gaya-Hazaribagh belt) leads in mica. Kudremukh is an **iron ore** mine, and Neyveli holds **lignite**, a low-grade brown coal, not anthracite."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Tidal energy",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Put the working of a tidal power plant in order.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/tidal-dam.svg",
+      "alt": "A floodgate dam across an inlet with a pipe and turbine"
+    },
+    "items": [
+      {
+        "id": "o3",
+        "text": "The tide falls outside the floodgate"
+      },
+      {
+        "id": "o1",
+        "text": "At high tide, sea water flows into the inlet"
+      },
+      {
+        "id": "o4",
+        "text": "The trapped water flows back to the sea through a pipe that turns a turbine"
+      },
+      {
+        "id": "o2",
+        "text": "The floodgate is closed and the water is trapped"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "High tide",
+    "endLabel": "Electricity generated",
+    "hint": "The turbine works only after the tide goes out.",
+    "explanation": "**Floodgate dams** are built across inlets. During high tide water flows in and is trapped when the gate is closed. After the tide falls outside, the retained water flows back to the sea through a pipe carrying it through a **power-generating turbine**."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Bauxite and aluminium",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Put the steps from rock to metal in order.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/al-uses.svg",
+      "alt": "Bauxite lump and cards for light, strong and conducting uses of aluminium"
+    },
+    "items": [
+      {
+        "id": "o4",
+        "text": "Aluminium is obtained later from the alumina"
+      },
+      {
+        "id": "o1",
+        "text": "Rocks rich in aluminium silicates decompose"
+      },
+      {
+        "id": "o3",
+        "text": "Alumina is obtained from the bauxite"
+      },
+      {
+        "id": "o2",
+        "text": "Bauxite, a clay-like substance, is left as deposits"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Rock",
+    "endLabel": "Metal",
+    "hint": "Bauxite comes before alumina, and alumina before the metal.",
+    "explanation": "Bauxite deposits form by the **decomposition of rocks rich in aluminium silicates**. From the clay-like bauxite, **alumina and later aluminium** are obtained. Aluminium is important because it combines the strength of iron with extreme lightness, good conductivity and great malleability."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Limestone",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "In 2018-19 the five largest limestone-producing states were Rajasthan, Andhra Pradesh, Madhya Pradesh, Chhattisgarh and Karnataka. Read the chart: what was their combined share of production?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/limestone-bars.svg",
+      "alt": "Bars for the state shares of limestone production, summing to 100 per cent"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "59 per cent"
+      },
+      {
+        "id": "b",
+        "text": "56 per cent"
+      },
+      {
+        "id": "c",
+        "text": "76 per cent"
+      },
+      {
+        "id": "d",
+        "text": "69 per cent"
+      }
+    ],
+    "answer": "d",
+    "hint": "Add 22, 13, 13, 11 and 10.",
+    "explanation": "$22 + 13 + 13 + 11 + 10 = 69$ per cent. 59 leaves out Karnataka, 56 counts the 13 per cent of Andhra Pradesh and Madhya Pradesh only once, and 76 adds Telangana (7 per cent), a sixth state."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Limestone",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Limestone is found in sedimentary rocks. Which pair of uses is given in the chapter?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/blast-furnace.svg",
+      "alt": "Iron ore, coal and limestone being loaded into a blast furnace"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Basic raw material for the cement industry and essential for smelting iron ore in a blast furnace"
+      },
+      {
+        "id": "b",
+        "text": "Raw material for fertilisers and insulation of electric cables"
+      },
+      {
+        "id": "c",
+        "text": "Raw material for glass and extraction of aluminium"
+      },
+      {
+        "id": "d",
+        "text": "Raw material for steel alloys and making copper wire"
+      }
+    ],
+    "answer": "a",
+    "hint": "One use is a building material; the other is in making iron.",
+    "explanation": "Limestone is the **basic raw material for the cement industry** and is **essential for smelting iron ore** in the blast furnace. It occurs with rocks of calcium carbonates or calcium and magnesium carbonates. Insulation is a use of mica, and aluminium comes from bauxite."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Mica",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mica.svg",
+      "alt": "Thin plates of mica beside an electric plug"
+    },
+    "assertion": "Mica is one of the most indispensable minerals in the electric and electronic industries.",
+    "reason": "Mica has excellent di-electric strength, a low power loss factor, insulating properties and resistance to high voltage.",
+    "answer": "a",
+    "hint": "Ask whether the properties explain the use.",
+    "explanation": "Both statements are true, and R explains A: mica's **di-electric strength, low power loss, insulating properties and resistance to high voltage** are exactly what electric and electronic industries need. Mica is a non-metallic mineral that splits easily into thin sheets; the Koderma-Gaya-Hazaribagh belt of Jharkhand is the leading producer."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Hazards of mining",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Which statements about the hazards of mining are correct?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/mine-hazards.svg",
+      "alt": "A mine mouth with dust, fire, fallen rocks and dirty water"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Dust and noxious fumes make miners prone to lung (pulmonary) diseases"
+      },
+      {
+        "id": "b",
+        "text": "Collapsing roofs, flooding and fires in coalmines are constant threats"
+      },
+      {
+        "id": "c",
+        "text": "Mining can contaminate the water sources of the region"
+      },
+      {
+        "id": "d",
+        "text": "Dumping waste and slurry degrades land and soil and pollutes streams and rivers"
+      },
+      {
+        "id": "e",
+        "text": "Mining has no effect on the health of miners"
+      },
+      {
+        "id": "f",
+        "text": "Strict safety rules are the reason mining is called a \"killer industry\""
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "hint": "Look for the effects on miners and on the environment.",
+    "explanation": "The first four statements come straight from the chapter. Mining **does** harm miners' health, and it is the **lack** of safety, not strict safety rules, that can make mining a \"killer industry\": stricter safety regulations and environmental laws are needed to prevent that."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Conservation of minerals",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/crust-1pct.svg",
+      "alt": "A grid of 100 squares with one square marked for workable deposits"
+    },
+    "assertion": "Mineral resources are finite and non-renewable.",
+    "reason": "The geological processes of mineral formation are so slow that the rate of replenishment is infinitely small compared with the present rate of consumption.",
+    "answer": "a",
+    "hint": "Compare the speed of formation with the speed of use.",
+    "explanation": "Both are true and R is the reason for A. Workable deposits are only about **one per cent** of the earth's crust, took **millions of years** to form and are being consumed rapidly, so they cannot be replaced in time."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Conservation of minerals",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "multi",
+    "prompt": "Which steps does the chapter suggest for conserving mineral resources?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/recycle-loop.svg",
+      "alt": "Loop of metal goods, scrap metal and new metal"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Recycling of metals"
+      },
+      {
+        "id": "b",
+        "text": "Using scrap metals and other substitutes"
+      },
+      {
+        "id": "c",
+        "text": "Developing technologies that allow low-grade ores to be used at low cost"
+      },
+      {
+        "id": "d",
+        "text": "Extracting the richest deposits as fast as possible while they last"
+      },
+      {
+        "id": "e",
+        "text": "Using mineral resources in a planned and sustainable manner"
+      },
+      {
+        "id": "f",
+        "text": "Ignoring depth and quality, since extraction costs do not change"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ],
+    "hint": "Think \"reuse, replace, plan\".",
+    "explanation": "The chapter calls for **planned and sustainable use**, **improved technologies for low-grade ores**, **recycling of metals** and **scrap and substitutes**. Rushing to use rich deposits wastes a short-lived resource, and costs actually **rise** as extraction goes deeper and quality falls."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Energy resources",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture shows a **non-conventional** source of energy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/en-coal.svg",
+          "alt": "A heap of coal"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/en-wood.svg",
+          "alt": "A pile of firewood logs"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/en-wind.svg",
+          "alt": "A wind turbine turning"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/en-pump.svg",
+          "alt": "A fuel pump"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Conventional sources are the old, familiar ones such as fuels burnt for heat.",
+    "explanation": "Wind is a **non-conventional** source, like solar, tidal, geothermal, biogas and atomic energy. **Firewood, coal, petroleum** (from the fuel pump), natural gas and electricity are conventional sources."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Conventional sources",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "More than 70 per cent of the energy needed in rural households comes from firewood and cattle dung cake. Why is the use of dung cake being discouraged?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/rural-energy.svg",
+      "alt": "A bar showing more than 70 per cent of rural energy from firewood and dung cake"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It gives more heat than biogas but costs more"
+      },
+      {
+        "id": "b",
+        "text": "It is a fossil fuel whose mining harms miners"
+      },
+      {
+        "id": "c",
+        "text": "It is a non-conventional source that is hard to obtain"
+      },
+      {
+        "id": "d",
+        "text": "Burning it uses up valuable manure that could be put on farms"
+      }
+    ],
+    "answer": "d",
+    "hint": "Think of what the farmer loses.",
+    "explanation": "Using dung cake **consumes valuable manure** that could be used in agriculture, and using firewood is getting harder as forest area decreases. Dung cake and firewood are conventional, not fossil fuels, and biogas, which also gives manure, has a higher thermal efficiency than dung cake."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Coal",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Put the formation and grading of coal in order, from the plant material to the best quality.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/coal-burial.svg",
+      "alt": "Plants in a swamp buried under layers that press them into coal"
+    },
+    "items": [
+      {
+        "id": "o4",
+        "text": "Anthracite, the highest quality hard coal, is formed"
+      },
+      {
+        "id": "o1",
+        "text": "Decaying plants in swamps form peat"
+      },
+      {
+        "id": "o3",
+        "text": "Deep burial at higher temperatures gives bituminous coal"
+      },
+      {
+        "id": "o2",
+        "text": "Peat is changed into soft brown lignite"
+      }
+    ],
+    "answer": [
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "startLabel": "Plant material",
+    "endLabel": "Best coal",
+    "hint": "The deeper and hotter, the better the coal.",
+    "explanation": "Coal is formed by the **compression of plant material over millions of years**; its form depends on compression, depth and time of burial. **Peat** has low carbon and high moisture; **lignite** is a low-grade brown coal; **bituminous** is the most popular in commercial use; **anthracite** is the highest quality hard coal."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Coal",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A steel plant needs coal with a special value for smelting iron in blast furnaces. Which should it choose?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/coal-stages.svg",
+      "alt": "Four lumps labelled peat, lignite, bituminous and anthracite"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Metallurgical coal, a high-grade bituminous coal"
+      },
+      {
+        "id": "b",
+        "text": "Anthracite, because it is the highest quality hard coal"
+      },
+      {
+        "id": "c",
+        "text": "Lignite from Neyveli, because it is soft with high moisture"
+      },
+      {
+        "id": "d",
+        "text": "Peat, because it forms first in swamps"
+      }
+    ],
+    "answer": "a",
+    "hint": "It is a grade of the most popular commercial coal.",
+    "explanation": "**Metallurgical coal** is high-grade bituminous coal with special value for smelting iron in blast furnaces. Anthracite is the highest quality but is not named for this use. Lignite (low-grade, high moisture) is used to generate electricity, and peat has low carbon and low heating capacity."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Coal in India",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Coal in the north-eastern states of Meghalaya, Assam, Arunachal Pradesh and Nagaland belongs to which series?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/coal-age.svg",
+      "alt": "Bars: Gondwana coal a little over 200 million years, Tertiary coal about 55 million"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Gondwana deposits, a little over 200 million years old"
+      },
+      {
+        "id": "b",
+        "text": "Tertiary deposits, only about 55 million years old"
+      },
+      {
+        "id": "c",
+        "text": "Gondwana deposits, about 55 million years old"
+      },
+      {
+        "id": "d",
+        "text": "Tertiary deposits, a little over 200 million years old"
+      }
+    ],
+    "answer": "b",
+    "hint": "The major metallurgical coal of the Damodar valley is the other series.",
+    "explanation": "North-eastern coal is **Tertiary**, about **55 million years** old. The major resources of **Gondwana** coal (a little over 200 million years old, and metallurgical) lie in the Damodar valley, with Jharia, Raniganj and Bokaro as important coalfields. The wrong options mix up the series or their ages."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Coal and industry",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/coal-plant.svg",
+      "alt": "A coalfield with a mine and a power station next to it"
+    },
+    "assertion": "Heavy industries and thermal power stations are located on or near the coalfields.",
+    "reason": "Coal gains weight when it is burnt.",
+    "answer": "c",
+    "hint": "Check what happens to the weight of coal when it is used.",
+    "explanation": "A is true: coal is a **bulky material**, so it is cheaper to set up industries near the coalfields. R is false: coal **loses weight** on use because it is reduced to ash. The false reason is what makes this a choice (c) rather than (a)."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Petroleum",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Petroleum collects in a porous layer that is sealed in by non-porous layers. Tap the **non-porous layer above the oil-bearing rock** that stops the oil from rising any further.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/oil-trap.svg",
+      "alt": "Cross-section of an upfold of rock layers with gas, oil and water in the porous layer and a well"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 50.0,
+        "y": 44.2,
+        "label": "Natural gas"
+      },
+      {
+        "id": "b",
+        "x": 33.8,
+        "y": 56.2,
+        "label": "Crude oil"
+      },
+      {
+        "id": "c",
+        "x": 13.8,
+        "y": 75.0,
+        "label": "Water in the porous layer"
+      },
+      {
+        "id": "d",
+        "x": 73.0,
+        "y": 40.9,
+        "label": "Non-porous cap layer"
+      },
+      {
+        "id": "e",
+        "x": 50.0,
+        "y": 16.7,
+        "label": "Oil well"
+      }
+    ],
+    "answer": "d",
+    "hint": "It lies on top of the arch of the porous layer.",
+    "explanation": "In an **anticline (upfold)**, oil is trapped in the crest of the porous limestone or sandstone layer, and **non-porous layers** keep it from rising or sinking. **Gas, being lighter, occurs above the oil.**"
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Petroleum",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Most petroleum in India occurs in anticlines and fault traps in tertiary rocks. Which picture shows oil trapped at the crest of an **upfold**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/oil-b.svg",
+          "alt": "Flat layers with oil seeping upward"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/oil-a.svg",
+          "alt": "An arch of rock layers with oil held at the top under a cap"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/form-a.svg",
+          "alt": "Cracks in hard rock filled with mineral"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/form-d.svg",
+          "alt": "Sand on a valley floor with gold grains"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "The oil must be held in by a cover on top.",
+    "explanation": "Picture B shows an arch (anticline) with a porous layer capped by a non-porous layer, so oil collects at the crest. In Picture A the flat layers have no trap, Picture C shows veins of metallic minerals and Picture D a placer deposit."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Petroleum",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Why are petroleum refineries called a \"nodal industry\"?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/refinery.svg",
+      "alt": "A refinery tower linked to four other industries"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "They stand at the junctions of gas pipelines"
+      },
+      {
+        "id": "b",
+        "text": "They produce coal for thermal power stations"
+      },
+      {
+        "id": "c",
+        "text": "They supply raw materials to synthetic textile, fertiliser and many chemical industries"
+      },
+      {
+        "id": "d",
+        "text": "They turn natural gas into electricity for homes"
+      }
+    ],
+    "answer": "c",
+    "hint": "A node is a centre that many things connect to.",
+    "explanation": "Petroleum refineries act as a **nodal industry** because they provide raw material for the **synthetic textile, fertiliser and numerous chemical industries**. Petroleum also gives fuel for heat and lighting and lubricants for machinery."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Natural gas",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "The first Hazira-Vijaipur-Jagdishpur pipeline was 1,700 km long. India's cross-country gas pipelines have since grown to 18,500 km and are expected to reach over 34,000 km as a Gas Grid. How many more kilometres are needed to reach 34,000 km from today's length?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/gas-bars.svg",
+      "alt": "Bars for 1,700 km, 18,500 km and 34,000 km of pipelines"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "15,500 km"
+      },
+      {
+        "id": "b",
+        "text": "32,300 km"
+      },
+      {
+        "id": "c",
+        "text": "16,800 km"
+      },
+      {
+        "id": "d",
+        "text": "52,500 km"
+      }
+    ],
+    "answer": "a",
+    "hint": "Start from the present length, not from the first pipeline.",
+    "explanation": "$34000 - 18500 = 15500$ km. 32,300 km starts from the first 1,700 km pipeline, 16,800 km is the growth already achieved ($18500 - 1700$), and 52,500 km **adds** the two lengths."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Coal",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/coal-stages.svg",
+      "alt": "Four lumps labelled peat, lignite, bituminous and anthracite"
+    },
+    "assertion": "Peat is the highest quality coal.",
+    "reason": "Peat has low carbon and high moisture content and a low heating capacity.",
+    "answer": "d",
+    "hint": "Is low carbon a sign of high quality?",
+    "explanation": "A is false: **peat** is the first stage, formed by decaying plants in swamps, while **anthracite** is the highest quality hard coal. R is true, since peat has low carbon, high moisture and low heating capacity, which is why peat is a poor fuel, not a top one."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Electricity",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/power-compare.svg",
+      "alt": "Falling water on a turbine beside a flame under a boiler"
+    },
+    "assertion": "Hydro electricity is generated from a renewable resource.",
+    "reason": "Thermal power stations burn coal, petroleum and natural gas to drive turbines.",
+    "answer": "b",
+    "hint": "Does the reason say anything about why water is renewable?",
+    "explanation": "Both are true. Hydro electricity comes from **fast-flowing water, a renewable resource**, and thermal stations burn coal, petroleum and natural gas. But R describes thermal power; it does not explain why hydro power is renewable, so the answer is (b). Once generated, the electricity is exactly the same."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Electricity",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "In this thermal power station, tap the part where steam spins blades to drive the generator: the **turbine**.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/thermal-plant.svg",
+      "alt": "Schematic of coal heap, boiler, chimney, turbine, generator and power line"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 13.8,
+        "y": 79.2,
+        "label": "Coal store"
+      },
+      {
+        "id": "b",
+        "x": 30.5,
+        "y": 62.5,
+        "label": "Boiler furnace"
+      },
+      {
+        "id": "c",
+        "x": 42.8,
+        "y": 41.7,
+        "label": "Chimney"
+      },
+      {
+        "id": "d",
+        "x": 61.3,
+        "y": 66.7,
+        "label": "Turbine"
+      },
+      {
+        "id": "e",
+        "x": 79.5,
+        "y": 66.7,
+        "label": "Generator"
+      }
+    ],
+    "answer": "d",
+    "hint": "Steam flows from the boiler into it.",
+    "explanation": "In thermal power, coal, petroleum or natural gas is burnt to make **steam that drives turbines**, which in turn run the generator. The boiler makes the steam, the chimney carries smoke away, and the generator makes the electricity."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Electricity",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Hydro electricity uses fast-flowing water to drive turbines. Tap the **pipe that carries water from the reservoir to the turbine**.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/hydro.svg",
+      "alt": "Cross-section of a dam with a power house and a river below"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 17.5,
+        "y": 54.2,
+        "label": "Reservoir"
+      },
+      {
+        "id": "b",
+        "x": 43.8,
+        "y": 41.7,
+        "label": "Dam wall"
+      },
+      {
+        "id": "c",
+        "x": 48.8,
+        "y": 71.7,
+        "label": "Penstock pipe"
+      },
+      {
+        "id": "d",
+        "x": 68.0,
+        "y": 79.2,
+        "label": "Turbine"
+      },
+      {
+        "id": "e",
+        "x": 75.0,
+        "y": 62.5,
+        "label": "Generator"
+      },
+      {
+        "id": "f",
+        "x": 92.0,
+        "y": 84.6,
+        "label": "River below the dam"
+      }
+    ],
+    "answer": "c",
+    "hint": "It runs through the base of the dam.",
+    "explanation": "Water from the reservoir rushes down a **pipe through the dam** to the turbine; the turbine turns the generator. Multi-purpose projects like Bhakra Nangal, Damodar Valley and Kopili produce hydroelectric power this way."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Nuclear energy",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Atomic (nuclear) energy is obtained by altering the structure of atoms. Which minerals are used, and what is the Monazite sand of Kerala rich in?",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/nuclear.svg",
+      "alt": "A split atom giving heat that makes steam to turn a turbine and light a bulb"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Uranium and petroleum; Monazite sands are rich in oil"
+      },
+      {
+        "id": "b",
+        "text": "Uranium and thorium; Monazite sands are rich in thorium"
+      },
+      {
+        "id": "c",
+        "text": "Thorium and copper; Monazite sands are rich in uranium"
+      },
+      {
+        "id": "d",
+        "text": "Uranium and thorium; Monazite sands are rich in uranium"
+      }
+    ],
+    "answer": "b",
+    "hint": "Both minerals are named, but Monazite is linked to only one.",
+    "explanation": "**Uranium and thorium** (found in Jharkhand and the Aravalli ranges of Rajasthan) are used for atomic power. The **Monazite sands of Kerala are rich in thorium**. Altering the atoms releases much energy as heat, which is used to generate electric power."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Non-conventional sources",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "match",
+    "prompt": "Match each non-conventional source with a fact from the chapter.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/renew-icons.svg",
+      "alt": "Five cards: solar, wind, biogas, tidal, geothermal"
+    },
+    "left": [
+      {
+        "id": "l1",
+        "text": "Solar energy"
+      },
+      {
+        "id": "l2",
+        "text": "Wind power"
+      },
+      {
+        "id": "l3",
+        "text": "Biogas"
+      },
+      {
+        "id": "l4",
+        "text": "Tidal energy"
+      },
+      {
+        "id": "l5",
+        "text": "Geothermal energy"
+      }
+    ],
+    "right": [
+      {
+        "id": "r1",
+        "text": "Photovoltaic technology converts sunlight directly into electricity"
+      },
+      {
+        "id": "r2",
+        "text": "The largest wind farm cluster runs from Nagarcoil to Madurai"
+      },
+      {
+        "id": "r4",
+        "text": "Floodgate dams are built across inlets"
+      },
+      {
+        "id": "r3",
+        "text": "Decomposition of shrubs, farm waste, animal and human waste yields gas"
+      },
+      {
+        "id": "r5",
+        "text": "Heat from the Earth's interior turns groundwater into steam"
+      }
+    ],
+    "pairs": {
+      "l1": "r1",
+      "l2": "r2",
+      "l3": "r3",
+      "l4": "r4",
+      "l5": "r5"
+    },
+    "hint": "Each fact names the technology, the place or the process.",
+    "explanation": "**Solar** uses photovoltaic technology; **wind** farms are largest in Tamil Nadu from Nagarcoil to Madurai; **biogas** comes from decomposing organic waste; **tidal** plants use floodgate dams across inlets; **geothermal** plants use steam from groundwater heated by the Earth's interior."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Tidal energy",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **floodgate** that is closed at high tide so the sea water stays trapped in the inlet.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/tidal-dam.svg",
+      "alt": "Side view of a floodgate dam across a sea inlet with a pipe and turbine"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 20.0,
+        "y": 62.5,
+        "label": "Sea"
+      },
+      {
+        "id": "b",
+        "x": 50.5,
+        "y": 46.7,
+        "label": "Floodgate"
+      },
+      {
+        "id": "c",
+        "x": 77.5,
+        "y": 62.5,
+        "label": "Inlet (trapped water)"
+      },
+      {
+        "id": "d",
+        "x": 62.0,
+        "y": 78.3,
+        "label": "Pipe and turbine"
+      }
+    ],
+    "answer": "b",
+    "hint": "It sits in the wall that separates the sea from the inlet.",
+    "explanation": "A **floodgate dam** across an inlet traps water at high tide when the gate is closed. When the tide falls, the trapped water flows back to the sea through a pipe and a turbine. The Gulf of Khambhat, the Gulf of Kuchchh and the Sunderban delta are ideal sites."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Biogas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "Tap the part of the biogas plant where the **gas collects** before it is piped to the stove.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/biogas-plant.svg",
+      "alt": "Cross-section of a village biogas plant"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 13.8,
+        "y": 45.0,
+        "label": "Feeding funnel for dung and waste"
+      },
+      {
+        "id": "b",
+        "x": 47.5,
+        "y": 46.7,
+        "label": "Gas-collecting dome"
+      },
+      {
+        "id": "c",
+        "x": 47.5,
+        "y": 79.2,
+        "label": "Digester tank"
+      },
+      {
+        "id": "d",
+        "x": 80.0,
+        "y": 49.2,
+        "label": "Stove"
+      },
+      {
+        "id": "e",
+        "x": 84.0,
+        "y": 83.3,
+        "label": "Manure pit"
+      }
+    ],
+    "answer": "b",
+    "hint": "It sits above the ground and has a pipe from its top.",
+    "explanation": "Gas given off by the decomposing slurry rises into the **dome** and is piped to the stove. The slurry stays in the digester tank and then flows out as improved manure. Plants using cattle dung are called **gobar gas plants** and give twin benefits: energy and better manure."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Geothermal energy",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Groundwater heated by hot rocks rises to the surface as **steam** to drive turbines. Tap that rising steam.",
+    "image": {
+      "src": "/img/c10-geo-minerals-energy/geothermal.svg",
+      "alt": "Cross-section with hot rock below, groundwater, a steam channel and a turbine house"
+    },
+    "spots": [
+      {
+        "id": "a",
+        "x": 47.5,
+        "y": 92.5,
+        "label": "Hot rocks"
+      },
+      {
+        "id": "b",
+        "x": 18.0,
+        "y": 62.5,
+        "label": "Groundwater"
+      },
+      {
+        "id": "c",
+        "x": 51.2,
+        "y": 58.3,
+        "label": "Rising steam"
+      },
+      {
+        "id": "d",
+        "x": 67.5,
+        "y": 31.2,
+        "label": "Turbine house"
+      }
+    ],
+    "answer": "c",
+    "hint": "It is the white column going up from the hot zone.",
+    "explanation": "The Earth grows hotter with depth. Where the geothermal gradient is high, groundwater absorbs heat from rocks and **turns to steam when it rises**; the steam drives turbines. Two experimental projects in India are at Manikaran (Parvati valley, Himachal Pradesh) and Puga Valley, Ladakh."
+  },
+  {
+    "id": "in-cbse-10-geo-minerals-energy-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "geography",
+    "chapter": "Minerals and Energy Resources",
+    "chapterNo": 5,
+    "topic": "Conserving energy",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which picture shows a way of saving energy suggested in the chapter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Picture A",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/save-b.svg",
+          "alt": "A lit bulb in an empty room"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Picture B",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/save-c.svg",
+          "alt": "Three cars each carrying one person"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Picture C",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/save-d.svg",
+          "alt": "Lights and a fan left on in an empty room"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Picture D",
+        "image": {
+          "src": "/img/c10-geo-minerals-energy/save-a.svg",
+          "alt": "A bus full of passengers"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "The chapter says to use public transport.",
+    "explanation": "Using **public transport instead of individual vehicles** saves energy; the bus with many passengers shows it. Leaving lights or a fan on in an empty room, or each person driving a separate car, wastes it. \"Energy saved is energy produced.\""
+  }
+]

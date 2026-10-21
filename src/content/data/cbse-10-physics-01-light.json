@@ -1,0 +1,2275 @@
+[
+  {
+    "id": "in-cbse-10-phy-light-001",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Seeing objects",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "In the picture a lamp lights up an apple and you can see the apple. What makes the apple **visible** to your eye?",
+    "image": {
+      "src": "/img/c10-light/seeing.svg",
+      "alt": "A light source, an apple and an eye with rays travelling from the source to the apple and from the apple to the eye"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The eye sends out light that falls on the apple"
+      },
+      {
+        "id": "b",
+        "text": "Light reflected by the apple enters the eye"
+      },
+      {
+        "id": "c",
+        "text": "The apple makes its own light"
+      },
+      {
+        "id": "d",
+        "text": "The apple absorbs all the light that falls on it"
+      }
+    ],
+    "answer": "b",
+    "hint": "Think about where the light that reaches your eye last came from.",
+    "explanation": "An object reflects the light that falls on it, and this **reflected light** entering the eye lets us see the object. The eye does not send out light, an ordinary apple is not a source of light, and an object that absorbed all the light would look black and be invisible in a dark room."
+  },
+  {
+    "id": "in-cbse-10-phy-light-002",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Laws of reflection",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A ray of light is reflected by a plane mirror. Tap the **angle of reflection**.",
+    "image": {
+      "src": "/img/c10-light/laws.svg",
+      "alt": "A ray reflecting from a horizontal mirror with a dashed normal and two shaded angles on either side of it"
+    },
+    "spots": [
+      {
+        "id": "inc",
+        "x": 28,
+        "y": 40,
+        "label": "Incident ray"
+      },
+      {
+        "id": "ref",
+        "x": 72,
+        "y": 40,
+        "label": "Reflected ray"
+      },
+      {
+        "id": "nor",
+        "x": 50,
+        "y": 18.8,
+        "label": "Normal"
+      },
+      {
+        "id": "ai",
+        "x": 43.5,
+        "y": 47.4,
+        "label": "Angle of incidence"
+      },
+      {
+        "id": "ar",
+        "x": 56.5,
+        "y": 47.4,
+        "label": "Angle of reflection"
+      },
+      {
+        "id": "mir",
+        "x": 75,
+        "y": 73,
+        "label": "Mirror"
+      }
+    ],
+    "answer": "ar",
+    "hint": "Angles of incidence and reflection are measured from the normal, not from the mirror surface.",
+    "explanation": "The **angle of reflection** is the angle between the **reflected ray** and the **normal** at the point of incidence. The first law of reflection says it equals the angle of incidence, and the second says the incident ray, the normal and the reflected ray all lie in the same plane. A common slip is measuring the angle from the mirror surface instead of the normal."
+  },
+  {
+    "id": "in-cbse-10-phy-light-003",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Plane mirror",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which statement about the image formed by a **plane mirror** is **wrong**?",
+    "image": {
+      "src": "/img/c10-light/plane-mirror.svg",
+      "alt": "A candle in front of a plane mirror and its dashed virtual image behind the mirror at the same distance"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It is virtual and erect"
+      },
+      {
+        "id": "b",
+        "text": "It is the same size as the object"
+      },
+      {
+        "id": "c",
+        "text": "It is real and inverted"
+      },
+      {
+        "id": "d",
+        "text": "It is as far behind the mirror as the object is in front"
+      }
+    ],
+    "answer": "c",
+    "hint": "A plane mirror image cannot be caught on a screen.",
+    "explanation": "A plane mirror forms an image that is **virtual and erect**, **equal in size** to the object and **as far behind the mirror as the object is in front**. It is also laterally inverted (left and right swap). Saying the image is real and inverted is wrong: the rays only appear to come from behind the mirror, so no screen can show it."
+  },
+  {
+    "id": "in-cbse-10-phy-light-004",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Plane mirror",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A girl stands **2 m** in front of a plane mirror and then walks **1 m** towards it. How far is she now from her **image**?",
+    "image": {
+      "src": "/img/c10-light/plane-walk.svg",
+      "alt": "A faint girl 2 m from a mirror, the girl after walking 1 m closer, and her image behind the mirror"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "1 m"
+      },
+      {
+        "id": "b",
+        "text": "2 m"
+      },
+      {
+        "id": "c",
+        "text": "3 m"
+      },
+      {
+        "id": "d",
+        "text": "4 m"
+      }
+    ],
+    "answer": "b",
+    "hint": "After she has moved, find her distance from the mirror first. The image is the same distance behind it.",
+    "explanation": "After walking 1 m she is **1 m** from the mirror. Her image is also 1 m behind the mirror, so the gap between her and her image is $1 + 1 = 2\\ \\text{m}$. Traps: 4 m is the separation before she moved, 3 m comes from adding the 1 m walk to 2 m, and 1 m is only her distance from the mirror."
+  },
+  {
+    "id": "in-cbse-10-phy-light-005",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Rays for a concave mirror",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each incident ray on a **concave mirror** with the diagram that shows its reflected path.",
+    "image": {
+      "src": "/img/c10-light/mirror-terms-lab.svg",
+      "alt": "A concave mirror with its pole P, focus F, centre of curvature C and principal axis labelled"
+    },
+    "left": [
+      {
+        "id": "par",
+        "text": "A ray parallel to the principal axis"
+      },
+      {
+        "id": "foc",
+        "text": "A ray passing through the principal focus F"
+      },
+      {
+        "id": "cen",
+        "text": "A ray passing through the centre of curvature C"
+      },
+      {
+        "id": "pole",
+        "text": "A ray striking the pole P obliquely"
+      }
+    ],
+    "right": [
+      {
+        "id": "rA",
+        "text": "Diagram A",
+        "image": {
+          "src": "/img/c10-light/mrule-centre.svg",
+          "alt": "A ray going through C is reflected back along the same path"
+        }
+      },
+      {
+        "id": "rB",
+        "text": "Diagram B",
+        "image": {
+          "src": "/img/c10-light/mrule-parallel.svg",
+          "alt": "A ray parallel to the axis is reflected through the focus"
+        }
+      },
+      {
+        "id": "rC",
+        "text": "Diagram C",
+        "image": {
+          "src": "/img/c10-light/mrule-pole.svg",
+          "alt": "A ray hitting the pole is reflected at the same angle below the axis"
+        }
+      },
+      {
+        "id": "rD",
+        "text": "Diagram D",
+        "image": {
+          "src": "/img/c10-light/mrule-focus.svg",
+          "alt": "A ray through the focus is reflected parallel to the axis"
+        }
+      }
+    ],
+    "pairs": {
+      "par": "rB",
+      "foc": "rD",
+      "cen": "rA",
+      "pole": "rC"
+    },
+    "hint": "The ray through F and the ray parallel to the axis are reverses of each other.",
+    "explanation": "A ray **parallel to the axis** is reflected **through F**. A ray **through F** is reflected **parallel** to the axis. A ray **through C** meets the mirror along the normal, so it returns along the **same path**. A ray at the **pole** obeys the laws of reflection and leaves at an equal angle on the other side of the axis."
+  },
+  {
+    "id": "in-cbse-10-phy-light-006",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Lenses in use",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "Which lens would you prefer for reading the **small letters** of a dictionary?",
+    "image": {
+      "src": "/img/c10-light/magnifier.svg",
+      "alt": "A magnifying glass over small print making the letters look larger"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "A convex lens of focal length 50 cm"
+      },
+      {
+        "id": "b",
+        "text": "A concave lens of focal length 50 cm"
+      },
+      {
+        "id": "c",
+        "text": "A convex lens of focal length 5 cm"
+      },
+      {
+        "id": "d",
+        "text": "A concave lens of focal length 5 cm"
+      }
+    ],
+    "answer": "c",
+    "hint": "You need an enlarged, erect image, and the object must be closer than F.",
+    "explanation": "A **convex lens** gives an enlarged, erect, virtual image when the object lies between F and the optical centre. A short focal length makes it easy to keep the print within F, so the 5 cm convex lens works well. Concave lenses always give diminished images, and a 50 cm convex lens would need the book to be nearer than 50 cm, giving only slight magnification."
+  },
+  {
+    "id": "in-cbse-10-phy-light-007",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Spherical mirrors: terms",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **centre of curvature** of this concave mirror.",
+    "image": {
+      "src": "/img/c10-light/mirror-terms.svg",
+      "alt": "A concave mirror on a principal axis with three dots, a bracket across the mirror and a double arrow below the axis"
+    },
+    "spots": [
+      {
+        "id": "P",
+        "x": 85,
+        "y": 41.7,
+        "label": "Pole (P)"
+      },
+      {
+        "id": "F",
+        "x": 60,
+        "y": 41.7,
+        "label": "Principal focus (F)"
+      },
+      {
+        "id": "C",
+        "x": 35,
+        "y": 41.7,
+        "label": "Centre of curvature (C)"
+      },
+      {
+        "id": "ap",
+        "x": 93,
+        "y": 18.8,
+        "label": "Aperture"
+      },
+      {
+        "id": "R",
+        "x": 47.5,
+        "y": 62.5,
+        "label": "Radius of curvature (R)"
+      }
+    ],
+    "answer": "C",
+    "hint": "It is the centre of the sphere of which the mirror is a part, the farthest dot from the mirror.",
+    "explanation": "The **centre of curvature C** is the centre of the sphere of which the mirror surface is a part. It lies **in front** of a concave mirror and is **not** part of the mirror. The distance PC is the radius of curvature, so C is twice as far from the pole as the focus F. The middle dot is F, and the dot on the mirror is the pole P."
+  },
+  {
+    "id": "in-cbse-10-phy-light-008",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Spherical mirrors: terms",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **principal focus** of this concave mirror.",
+    "image": {
+      "src": "/img/c10-light/mirror-terms.svg",
+      "alt": "A concave mirror on a principal axis with three dots, a bracket across the mirror and a double arrow below the axis"
+    },
+    "spots": [
+      {
+        "id": "P",
+        "x": 85,
+        "y": 41.7,
+        "label": "Pole (P)"
+      },
+      {
+        "id": "F",
+        "x": 60,
+        "y": 41.7,
+        "label": "Principal focus (F)"
+      },
+      {
+        "id": "C",
+        "x": 35,
+        "y": 41.7,
+        "label": "Centre of curvature (C)"
+      },
+      {
+        "id": "ap",
+        "x": 93,
+        "y": 18.8,
+        "label": "Aperture"
+      },
+      {
+        "id": "R",
+        "x": 47.5,
+        "y": 62.5,
+        "label": "Radius of curvature (R)"
+      }
+    ],
+    "answer": "F",
+    "hint": "It lies midway between the pole and the centre of curvature.",
+    "explanation": "For a mirror of small aperture, $R = 2f$, so the **principal focus F** lies **midway between the pole P and the centre of curvature C**. Parallel rays reflected from a concave mirror pass through F. The farthest dot is C, and the dot on the mirror is P."
+  },
+  {
+    "id": "in-cbse-10-phy-light-009",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Radius of curvature and focal length",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "The radius of curvature of a spherical mirror is **20 cm**. What is the magnitude of its focal length?",
+    "image": {
+      "src": "/img/c10-light/convex-R.svg",
+      "alt": "A convex mirror with P, F and C marked behind it and R shown as 20 cm"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "5 cm"
+      },
+      {
+        "id": "b",
+        "text": "10 cm"
+      },
+      {
+        "id": "c",
+        "text": "20 cm"
+      },
+      {
+        "id": "d",
+        "text": "40 cm"
+      }
+    ],
+    "answer": "b",
+    "hint": "The focus is midway between P and C.",
+    "explanation": "For spherical mirrors of small aperture, $f = \\dfrac{R}{2} = \\dfrac{20}{2} = 10\\ \\text{cm}$. Choosing 20 cm confuses f with R, 40 cm doubles instead of halving, and 5 cm halves twice. For the convex mirror shown, $f = +10\\ \\text{cm}$ because F is behind the mirror."
+  },
+  {
+    "id": "in-cbse-10-phy-light-010",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Activity: focus of a concave mirror",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Sunlight falls on a concave mirror and a sheet of paper is held at the bright spot. The paper soon starts to burn. Why?",
+    "image": {
+      "src": "/img/c10-light/sun-mirror.svg",
+      "alt": "Parallel rays from the Sun reflected by a concave mirror to a point where a paper burns"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The mirror produces heat of its own"
+      },
+      {
+        "id": "b",
+        "text": "The paper absorbs the Sun's rays more than the mirror does"
+      },
+      {
+        "id": "c",
+        "text": "The rays are reflected parallel and add up on the paper"
+      },
+      {
+        "id": "d",
+        "text": "The mirror converges the parallel sunlight at its principal focus, concentrating the heat"
+      }
+    ],
+    "answer": "d",
+    "hint": "Where do all the parallel rays meet after reflection?",
+    "explanation": "The Sun is so far away that its rays arrive **parallel**. A concave mirror brings them together at the **principal focus**, forming a tiny, bright real image of the Sun there. The concentrated light produces enough heat to burn the paper. The distance from the mirror to this spot is the approximate focal length. (Never look at the Sun or its reflection directly.)"
+  },
+  {
+    "id": "in-cbse-10-phy-light-011",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Uses of concave mirrors",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-light/headlight.svg",
+      "alt": "A bulb at the focus of a concave reflector sending a parallel beam"
+    },
+    "assertion": "Concave mirrors are used in torches and vehicle headlights to get a powerful parallel beam of light.",
+    "reason": "A bulb placed at the principal focus of a concave mirror sends out a parallel beam after reflection.",
+    "answer": "a",
+    "hint": "Reverse the path of rays that are parallel to the axis.",
+    "explanation": "Both statements are true and R explains A. Rays from a source at **F** reflect **parallel** to the principal axis, since a ray through F emerges parallel after reflection. This gives a strong, narrow beam, which is why torches, search-lights and headlights use concave reflectors."
+  },
+  {
+    "id": "in-cbse-10-phy-light-012",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Convex mirror",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Parallel rays fall on a **convex mirror**. Which diagram shows the reflected rays correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diagram A",
+        "image": {
+          "src": "/img/c10-light/beam-concave.svg",
+          "alt": "Reflected rays meet at a point in front of a concave mirror"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Diagram B",
+        "image": {
+          "src": "/img/c10-light/beam-plane.svg",
+          "alt": "Rays bounce straight back from a flat mirror"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Diagram C",
+        "image": {
+          "src": "/img/c10-light/beam-convex.svg",
+          "alt": "Reflected rays spread out and appear to come from a point behind a convex mirror"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Diagram D",
+        "image": {
+          "src": "/img/c10-light/beam-wrong.svg",
+          "alt": "Rays meet in front of a convex mirror"
+        }
+      }
+    ],
+    "answer": "c",
+    "hint": "Rays from a convex mirror diverge, so they only appear to come from the focus.",
+    "explanation": "A convex mirror **diverges** parallel rays: the reflected rays spread out and appear to come from the **principal focus behind the mirror** (dotted lines), so the focus is virtual. Diagram A is a concave mirror, B shows a plane mirror hit straight on, and D wrongly shows a convex mirror converging light."
+  },
+  {
+    "id": "in-cbse-10-phy-light-013",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Image by a concave mirror",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "An object is placed beyond C of a concave mirror. Tap the **real image** formed.",
+    "image": {
+      "src": "/img/c10-light/cm-beyondC.svg",
+      "alt": "Ray diagram with an orange object arrow beyond C, a smaller inverted green image between F and C, and a concave mirror"
+    },
+    "spots": [
+      {
+        "id": "obj",
+        "x": 45,
+        "y": 37.9,
+        "label": "Object"
+      },
+      {
+        "id": "img",
+        "x": 63.8,
+        "y": 48.3,
+        "label": "Real, inverted, diminished image"
+      },
+      {
+        "id": "mir",
+        "x": 79.5,
+        "y": 25,
+        "label": "Concave mirror"
+      },
+      {
+        "id": "axis",
+        "x": 15,
+        "y": 45,
+        "label": "Principal axis"
+      }
+    ],
+    "answer": "img",
+    "hint": "The image is the point where the reflected rays meet.",
+    "explanation": "For an object beyond C, the reflected rays meet between **F and C**, forming a **real, inverted and diminished** image (the green arrow). It is real because the rays actually meet there, so it can be caught on a screen. The orange arrow is the object."
+  },
+  {
+    "id": "in-cbse-10-phy-light-014",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Image size changes",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "A candle is moved from far away towards a concave mirror, stopping between C and F. Arrange the positions by the **size of the image**, smallest first.",
+    "image": {
+      "src": "/img/c10-light/mirror-positions.svg",
+      "alt": "A concave mirror axis with P, F and C and labelled zones for the object"
+    },
+    "items": [
+      {
+        "id": "cf",
+        "text": "Object between C and F"
+      },
+      {
+        "id": "inf",
+        "text": "Object at infinity"
+      },
+      {
+        "id": "c",
+        "text": "Object at C"
+      },
+      {
+        "id": "bey",
+        "text": "Object beyond C"
+      }
+    ],
+    "answer": [
+      "inf",
+      "bey",
+      "c",
+      "cf"
+    ],
+    "startLabel": "Smallest image",
+    "endLabel": "Largest image",
+    "hint": "Compare each image with the object: point-sized, diminished, same size, enlarged.",
+    "explanation": "At **infinity** the image is highly diminished and point-sized at F. **Beyond C** it is diminished. **At C** it is the **same size**. **Between C and F** it is **enlarged** and lies beyond C. The image grows as the object approaches the mirror."
+  },
+  {
+    "id": "in-cbse-10-phy-light-015",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Uses of concave mirrors",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select **all** the uses of **concave mirrors**.",
+    "image": {
+      "src": "/img/c10-light/solar-furnace.svg",
+      "alt": "A large concave mirror concentrating sunlight onto a boiler"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Shaving mirror"
+      },
+      {
+        "id": "b",
+        "text": "Rear-view mirror of a car"
+      },
+      {
+        "id": "c",
+        "text": "Solar furnace"
+      },
+      {
+        "id": "d",
+        "text": "Dentist's mirror"
+      },
+      {
+        "id": "e",
+        "text": "Torch reflector"
+      },
+      {
+        "id": "f",
+        "text": "Side mirror of a scooter"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d",
+      "e"
+    ],
+    "hint": "Concave mirrors either concentrate light or give a magnified erect image at close range.",
+    "explanation": "Concave mirrors are used in **shaving mirrors** (an enlarged erect face), by **dentists** (large images of teeth), in **solar furnaces** (concentrating sunlight) and in **torches**, search-lights and headlights (parallel beams). **Rear-view and side mirrors** are convex because they give a wider field of view."
+  },
+  {
+    "id": "in-cbse-10-phy-light-016",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Uses of convex mirrors",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Why is a **convex mirror** preferred as a rear-view mirror in vehicles?",
+    "image": {
+      "src": "/img/c10-light/rear-view.svg",
+      "alt": "Two panels: a plane mirror seeing a narrow area behind a car and a convex mirror seeing a wide area"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "It always gives an erect, diminished image and a wider field of view"
+      },
+      {
+        "id": "b",
+        "text": "It forms a real enlarged image of the traffic"
+      },
+      {
+        "id": "c",
+        "text": "It forms an inverted image that is easier to judge"
+      },
+      {
+        "id": "d",
+        "text": "It makes objects look larger and closer"
+      }
+    ],
+    "answer": "a",
+    "hint": "Look at how much of the road each mirror shows.",
+    "explanation": "A convex mirror always forms a **virtual, erect, diminished** image, and because it curves outwards it has a **wider field of view**. The driver can see much more traffic than with a plane mirror of the same size. The price is that the images are smaller, so distances need care."
+  },
+  {
+    "id": "in-cbse-10-phy-light-017",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Erect images",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "No matter how far you stand from a mirror, your image appears **erect**. Select all the possible mirrors.",
+    "image": {
+      "src": "/img/c10-light/move-away.svg",
+      "alt": "A girl moving away from a mirror while her image stays upright"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Plane mirror"
+      },
+      {
+        "id": "b",
+        "text": "Concave mirror"
+      },
+      {
+        "id": "c",
+        "text": "Convex mirror"
+      },
+      {
+        "id": "d",
+        "text": "The inner (hollow) surface of a shiny spoon"
+      },
+      {
+        "id": "e",
+        "text": "The outer (bulging) surface of a shiny spoon"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "e"
+    ],
+    "hint": "A concave mirror gives an inverted image once you are beyond its focus.",
+    "explanation": "A **plane** mirror and a **convex** mirror always give an erect image. A concave mirror gives an erect image only when the object is between P and F, and an inverted one beyond F. The hollow side of a spoon acts as a concave mirror and the bulging side as a convex mirror."
+  },
+  {
+    "id": "in-cbse-10-phy-light-018",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Sign convention",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "By the **New Cartesian Sign Convention**, which of these have a **positive** focal length?",
+    "image": {
+      "src": "/img/c10-light/sign-convention.svg",
+      "alt": "A concave mirror with the X axis through its pole, an object to the left and incident light from the left"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Convex mirror"
+      },
+      {
+        "id": "b",
+        "text": "Concave mirror"
+      },
+      {
+        "id": "c",
+        "text": "Convex lens"
+      },
+      {
+        "id": "d",
+        "text": "Concave lens"
+      }
+    ],
+    "answers": [
+      "a",
+      "c"
+    ],
+    "hint": "The principal focus of a convex mirror is behind it; that of a convex lens is on the side the light goes to.",
+    "explanation": "Distances measured in the direction of the incident light are positive. The focus of a **convex mirror** is behind the mirror, on the right, so $f > 0$. A **convex lens** has its principal focus on the far side, so $f > 0$. **Concave mirrors** and **concave lenses** have negative focal lengths."
+  },
+  {
+    "id": "in-cbse-10-phy-light-019",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Sign convention",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "By the New Cartesian Sign Convention, tap the part of the **principal axis** where distances such as the **object distance** are taken as **negative**.",
+    "image": {
+      "src": "/img/c10-light/sign-convention.svg",
+      "alt": "A concave mirror with the X axis through its pole, an object to the left and incident light from the left"
+    },
+    "spots": [
+      {
+        "id": "left",
+        "x": 11.25,
+        "y": 50,
+        "label": "Left of the pole (negative x)"
+      },
+      {
+        "id": "right",
+        "x": 90,
+        "y": 50,
+        "label": "Right of the pole (positive x)"
+      },
+      {
+        "id": "pole",
+        "x": 52.5,
+        "y": 50,
+        "label": "Pole (origin)"
+      },
+      {
+        "id": "obj",
+        "x": 27.5,
+        "y": 41.7,
+        "label": "Object (height positive above the axis)"
+      }
+    ],
+    "answer": "left",
+    "hint": "The object is always placed to the left, where the light comes from.",
+    "explanation": "The pole is the origin. Distances to the **right** of it (along +x) are **positive**, and to the **left** (along -x) are **negative**. Since the object is always placed on the left, the object distance $u$ is **negative**. Heights above the axis are positive and below are negative."
+  },
+  {
+    "id": "in-cbse-10-phy-light-020",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Mirror formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A convex rear-view mirror has radius of curvature **3.00 m**. A bus is **5.00 m** in front of it. Where is the image formed?",
+    "image": {
+      "src": "/img/c10-light/vm-bus.svg",
+      "alt": "A convex mirror with an object in front and a small virtual image behind the mirror"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "+2.14 m (taking u as +5.00 m)"
+      },
+      {
+        "id": "b",
+        "text": "+1.88 m (taking f = R)"
+      },
+      {
+        "id": "c",
+        "text": "+1.15 m, behind the mirror"
+      },
+      {
+        "id": "d",
+        "text": "−1.15 m, in front of the mirror"
+      }
+    ],
+    "answer": "c",
+    "hint": "Convex mirror: f is positive. Object on the left: u is negative. Use $\\frac{1}{v}+\\frac{1}{u}=\\frac{1}{f}$.",
+    "explanation": "Here $f = \\dfrac{R}{2} = +1.50\\ \\text{m}$ and $u = -5.00\\ \\text{m}$. So $\\dfrac{1}{v} = \\dfrac{1}{f}-\\dfrac{1}{u} = \\dfrac{1}{1.50}+\\dfrac{1}{5.00} = 0.867$, giving $v = +1.15\\ \\text{m}$ (behind the mirror, virtual). Traps: 2.14 m uses $u = +5$, 1.88 m uses $f = R = 3$, and $-1.15$ m is a sign slip. The magnification is $m = -v/u = +0.23$ (erect, diminished)."
+  },
+  {
+    "id": "in-cbse-10-phy-light-021",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Mirror formula and magnification",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A **4.0 cm** tall object is placed **25.0 cm** in front of a concave mirror of focal length **15.0 cm**. What are the size and nature of the image?",
+    "image": {
+      "src": "/img/c10-light/cm-4cm.svg",
+      "alt": "A concave mirror with an object in front and a larger inverted real image"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "6.0 cm tall, real and inverted"
+      },
+      {
+        "id": "b",
+        "text": "6.0 cm tall, virtual and erect"
+      },
+      {
+        "id": "c",
+        "text": "2.4 cm tall, real and inverted (used $h' = h\\times f/u$)"
+      },
+      {
+        "id": "d",
+        "text": "2.7 cm tall, real and inverted (used $m = u/v$)"
+      }
+    ],
+    "answer": "a",
+    "hint": "Find v first using f = −15 cm and u = −25 cm, then use $m = -v/u$.",
+    "explanation": "With $f=-15$ and $u=-25$: $\\dfrac{1}{v} = \\dfrac{1}{f}-\\dfrac{1}{u} = -\\dfrac{1}{15}+\\dfrac{1}{25} = -\\dfrac{2}{75}$, so $v = -37.5\\ \\text{cm}$ (real, in front). Then $m = -\\dfrac{v}{u} = -1.5$ and $h' = -1.5\\times 4.0 = -6.0\\ \\text{cm}$: **inverted and enlarged**. The negative signs of $v$ and $h'$ mean the image is real. 2.4 cm uses the wrong ratio $f/u$ and 2.7 cm turns the magnification upside down."
+  },
+  {
+    "id": "in-cbse-10-phy-light-022",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Mirror formula and magnification",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A concave mirror forms a **real image three times as large** as an object placed **10 cm** in front of it. Where is the image?",
+    "image": {
+      "src": "/img/c10-light/cm-3x.svg",
+      "alt": "A concave mirror with an object and a much larger inverted real image"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "30 cm behind the mirror"
+      },
+      {
+        "id": "b",
+        "text": "3.3 cm in front of the mirror"
+      },
+      {
+        "id": "c",
+        "text": "7.5 cm in front of the mirror (this is f, not v)"
+      },
+      {
+        "id": "d",
+        "text": "30 cm in front of the mirror"
+      }
+    ],
+    "answer": "d",
+    "hint": "A real image has a negative magnification, so $m = -3$.",
+    "explanation": "A real image gives $m = -3$, and $m = -\\dfrac{v}{u}$ with $u = -10$: $-3 = -\\dfrac{v}{-10}$, so $v = -30\\ \\text{cm}$: **30 cm in front** of the mirror. Using $m=+3$ gives the wrong side, dividing instead of multiplying gives 3.3 cm, and 7.5 cm is the focal length that follows from the mirror formula, not the image distance."
+  },
+  {
+    "id": "in-cbse-10-phy-light-023",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Plane mirror",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-light/plane-mirror.svg",
+      "alt": "A candle and its virtual image the same distance behind a plane mirror"
+    },
+    "assertion": "The magnification produced by a plane mirror is +1.",
+    "reason": "The image formed by a plane mirror is real and erect.",
+    "answer": "c",
+    "hint": "Is a plane mirror image something you can catch on a screen?",
+    "explanation": "A is true: the image is the same size as the object ($h' = h$) and positive, so $m=+1$. R is **false**: the image is **virtual** and erect. The positive sign of $m$ itself shows the image is virtual, whereas a negative sign shows a real one."
+  },
+  {
+    "id": "in-cbse-10-phy-light-024",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Uses of concave mirrors",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-light/cm-PF.svg",
+      "alt": "Ray diagram for an object between P and F of a concave mirror giving a virtual enlarged image"
+    },
+    "assertion": "A concave mirror held close to the face gives a larger, erect image, so it is used as a shaving mirror.",
+    "reason": "A concave mirror has a curved reflecting surface.",
+    "answer": "b",
+    "hint": "Does \"curved\" alone explain the enlargement? A convex mirror is curved too.",
+    "explanation": "Both are true but R does **not** explain A. A convex mirror is also curved, yet it gives a diminished image. The enlarged, erect, virtual image appears because the face lies **between P and F** of a concave mirror, so the reflected rays diverge and appear to come from behind it."
+  },
+  {
+    "id": "in-cbse-10-phy-light-025",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Refraction",
+    "difficulty": "easy",
+    "marks": 1,
+    "type": "mcq",
+    "prompt": "A ray of light travelling in air enters **obliquely into glass**. Which diagram is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diagram A",
+        "image": {
+          "src": "/img/c10-light/bend-away.svg",
+          "alt": "The ray bends away from the normal after entering glass"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Diagram B",
+        "image": {
+          "src": "/img/c10-light/bend-straight.svg",
+          "alt": "The ray carries straight on"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Diagram C",
+        "image": {
+          "src": "/img/c10-light/bend-reflect.svg",
+          "alt": "The ray bounces back into the air"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Diagram D",
+        "image": {
+          "src": "/img/c10-light/bend-toward.svg",
+          "alt": "The ray bends towards the normal after entering glass"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "Glass is optically denser than air, and light slows down in it.",
+    "explanation": "When light passes obliquely from a rarer medium (air) into a denser one (glass), its speed decreases and it **bends towards the normal**. Diagram A shows bending away, as would happen when leaving glass. B would only happen for normal incidence, and C shows reflection, not refraction."
+  },
+  {
+    "id": "in-cbse-10-phy-light-026",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Refraction in daily life",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A pencil partly dipped in water looks **bent** at the water surface. Why?",
+    "image": {
+      "src": "/img/c10-light/pencil-water.svg",
+      "alt": "A pencil dipping in a tumbler of water looking bent at the surface with a ray bending as it leaves the water"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The water really bends the pencil"
+      },
+      {
+        "id": "b",
+        "text": "Light from the part in water bends (refracts) as it passes into air"
+      },
+      {
+        "id": "c",
+        "text": "The water absorbs light from the lower part"
+      },
+      {
+        "id": "d",
+        "text": "Light is totally reflected from the water surface"
+      }
+    ],
+    "answer": "b",
+    "hint": "The light from the submerged part changes direction when it leaves the water.",
+    "explanation": "Light from the submerged part comes from a **different direction** compared to the part above water because it bends at the water–air interface. This is **refraction**, caused by the change in the speed of light. The pencil itself is not bent, and the lower part is clearly visible, so it is not absorbed or reflected away."
+  },
+  {
+    "id": "in-cbse-10-phy-light-027",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Glass slab",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "A ray passes through a rectangular glass slab. Tap the **emergent ray**.",
+    "image": {
+      "src": "/img/c10-light/slab.svg",
+      "alt": "A ray passing through a glass slab with dashed normals, the original direction dotted and a small double arrow between the emergent ray and that dotted line"
+    },
+    "spots": [
+      {
+        "id": "inc",
+        "x": 26.3,
+        "y": 21.8,
+        "label": "Incident ray"
+      },
+      {
+        "id": "ref",
+        "x": 50,
+        "y": 47.4,
+        "label": "Refracted ray"
+      },
+      {
+        "id": "emg",
+        "x": 66.3,
+        "y": 62.5,
+        "label": "Emergent ray"
+      },
+      {
+        "id": "nor",
+        "x": 31.3,
+        "y": 37.5,
+        "label": "Normal"
+      },
+      {
+        "id": "lat",
+        "x": 72.8,
+        "y": 79.2,
+        "label": "Lateral displacement"
+      }
+    ],
+    "answer": "emg",
+    "hint": "The emergent ray is the one that leaves the slab into the air on the far side.",
+    "explanation": "The ray enters at the first face (the **incident ray**), travels inside as the **refracted ray**, and leaves through the opposite face as the **emergent ray**. The emergent ray is **parallel** to the incident ray because the bending at the two parallel faces is equal and opposite."
+  },
+  {
+    "id": "in-cbse-10-phy-light-028",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Glass slab",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "hotspot",
+    "prompt": "The ray emerging from the slab is parallel to the incident ray but displaced. Tap the **lateral displacement**.",
+    "image": {
+      "src": "/img/c10-light/slab.svg",
+      "alt": "A ray passing through a glass slab with dashed normals, the original direction dotted and a small double arrow between the emergent ray and that dotted line"
+    },
+    "spots": [
+      {
+        "id": "inc",
+        "x": 26.3,
+        "y": 21.8,
+        "label": "Incident ray"
+      },
+      {
+        "id": "ref",
+        "x": 50,
+        "y": 47.4,
+        "label": "Refracted ray"
+      },
+      {
+        "id": "emg",
+        "x": 66.3,
+        "y": 62.5,
+        "label": "Emergent ray"
+      },
+      {
+        "id": "nor",
+        "x": 31.3,
+        "y": 37.5,
+        "label": "Normal"
+      },
+      {
+        "id": "lat",
+        "x": 72.8,
+        "y": 79.2,
+        "label": "Lateral displacement"
+      }
+    ],
+    "answer": "lat",
+    "hint": "It is measured at right angles between the dotted original direction and the emergent ray.",
+    "explanation": "The emergent ray is **parallel** to the incident ray but **shifted sideways**. This shift is the **lateral displacement**, the perpendicular distance between the emergent ray and the original direction of the incident ray (the dotted line). It grows with the thickness of the slab and the angle of incidence."
+  },
+  {
+    "id": "in-cbse-10-phy-light-029",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Activity: rectangular glass slab",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange the steps of the activity to trace a ray through a **rectangular glass slab**.",
+    "image": {
+      "src": "/img/c10-light/slab-pins.svg",
+      "alt": "Top view of a glass slab ABCD on paper with pins E, F, G and H"
+    },
+    "items": [
+      {
+        "id": "s4",
+        "text": "Remove the slab and pins, then join the pin positions: EF up to AB, and HG up to CD"
+      },
+      {
+        "id": "s2",
+        "text": "Fix pins E and F so that the line joining them is inclined to the edge AB"
+      },
+      {
+        "id": "s5",
+        "text": "Join the two points on AB and CD and draw perpendiculars (normals) there"
+      },
+      {
+        "id": "s1",
+        "text": "Fix paper on a board, place the slab on it and draw its outline ABCD"
+      },
+      {
+        "id": "s3",
+        "text": "Look through the opposite edge and fix pins G and H in line with the images of E and F"
+      }
+    ],
+    "answer": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ],
+    "startLabel": "First",
+    "endLabel": "Last",
+    "hint": "You must see the pin images before you can place the other pins.",
+    "explanation": "Draw the outline, fix E and F, fix G and H so they line up with the images of E and F seen through the slab, and then remove everything to join the points. Only then can the normals be drawn and the angles compared: the ray bends towards the normal at AB and away at CD."
+  },
+  {
+    "id": "in-cbse-10-phy-light-030",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Activity: coin in a bowl",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A coin in a bowl just disappears behind the rim when you stand back. A friend pours water gently into the bowl and the coin **reappears**. Why?",
+    "image": {
+      "src": "/img/c10-light/coin-bowl.svg",
+      "alt": "A bowl with a coin hidden by the rim and a ray from the coin bending at the water surface to reach the eye"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Refraction makes the coin appear raised, so its light can reach the eye over the rim"
+      },
+      {
+        "id": "b",
+        "text": "Water magnifies the coin and makes it bigger"
+      },
+      {
+        "id": "c",
+        "text": "Water reflects the light from the room onto the coin"
+      },
+      {
+        "id": "d",
+        "text": "The coin floats up in the water"
+      }
+    ],
+    "answer": "a",
+    "hint": "Think about the direction of the light leaving the water surface.",
+    "explanation": "Light from the coin bends **away from the normal** as it leaves the water and goes into air. The coin then appears **raised**, and light that previously could not clear the rim now reaches the eye. The coin does not move or get bigger, and water does not light it up."
+  },
+  {
+    "id": "in-cbse-10-phy-light-031",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Refractive index",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "The refractive index of crown glass is **1.50**. If the speed of light in vacuum is $3\\times10^8\\ \\text{m s}^{-1}$, what is its speed in the glass?",
+    "image": {
+      "src": "/img/c10-light/speed-bars.svg",
+      "alt": "Animated dots racing along bars for vacuum, air, water, crown glass and diamond, moving slower in the denser media"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "$4.5\\times10^8\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "b",
+        "text": "$3\\times10^8\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "c",
+        "text": "$2\\times10^8\\ \\text{m s}^{-1}$"
+      },
+      {
+        "id": "d",
+        "text": "$1.5\\times10^8\\ \\text{m s}^{-1}$"
+      }
+    ],
+    "answer": "c",
+    "hint": "Refractive index $n = c/v$, so divide to find v.",
+    "explanation": "The refractive index is $n = \\dfrac{c}{v}$, so $v = \\dfrac{c}{n} = \\dfrac{3\\times10^8}{1.50} = 2\\times10^8\\ \\text{m s}^{-1}$. Multiplying gives $4.5\\times10^8$, which is faster than light in vacuum and so impossible. Light always slows down in glass."
+  },
+  {
+    "id": "in-cbse-10-phy-light-032",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Refractive index and speed",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "Arrange these media in order of the **speed of light** in them, fastest first.",
+    "image": {
+      "src": "/img/c10-light/rare-dense.svg",
+      "alt": "A ray bending towards the normal entering glass from air and away from it leaving glass"
+    },
+    "items": [
+      {
+        "id": "dia",
+        "text": "Diamond (n = 2.42)"
+      },
+      {
+        "id": "air",
+        "text": "Air (n = 1.0003)"
+      },
+      {
+        "id": "gl",
+        "text": "Crown glass (n = 1.52)"
+      },
+      {
+        "id": "wat",
+        "text": "Water (n = 1.33)"
+      }
+    ],
+    "answer": [
+      "air",
+      "wat",
+      "gl",
+      "dia"
+    ],
+    "startLabel": "Fastest light",
+    "endLabel": "Slowest light",
+    "hint": "The larger the refractive index, the slower the light.",
+    "explanation": "Since $v = c/n$, a **higher refractive index** means **slower** light. In order: air (almost $c$), water ($\\approx 2.26\\times10^8$ m/s), crown glass ($\\approx 1.97\\times10^8$ m/s) and diamond ($\\approx 1.24\\times10^8$ m/s). The higher n also means a bigger bend towards the normal."
+  },
+  {
+    "id": "in-cbse-10-phy-light-033",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Apparent depth",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-light/pool-depth.svg",
+      "alt": "A pebble at the bottom of a pool with its apparent position raised"
+    },
+    "assertion": "A swimming pool appears shallower than it really is.",
+    "reason": "Light from the bottom bends away from the normal as it passes from water into air.",
+    "answer": "a",
+    "hint": "Where does the eye think the light is coming from?",
+    "explanation": "Both are true and R explains A. Rays from the bottom bend **away from the normal** on leaving water, so they appear to come from a **higher point**, making the bottom look raised and the pool shallower."
+  },
+  {
+    "id": "in-cbse-10-phy-light-034",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Optical density",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "Select all the **true** statements.",
+    "image": {
+      "src": "/img/c10-light/rare-dense.svg",
+      "alt": "A ray bending towards the normal entering glass from air and away from it leaving glass"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Kerosene (n = 1.44) is optically denser than water (n = 1.33)"
+      },
+      {
+        "id": "b",
+        "text": "Optical density means the same as mass density"
+      },
+      {
+        "id": "c",
+        "text": "Light travels faster in an optically rarer medium"
+      },
+      {
+        "id": "d",
+        "text": "A ray going from a rarer to a denser medium bends towards the normal"
+      },
+      {
+        "id": "e",
+        "text": "A ray going from a denser to a rarer medium bends towards the normal"
+      }
+    ],
+    "answers": [
+      "a",
+      "c",
+      "d"
+    ],
+    "hint": "Optically denser means a higher refractive index, not more mass per volume.",
+    "explanation": "The medium with the **larger refractive index** is optically denser, so kerosene is denser than water even though its mass density is lower. Light is faster in the rarer medium. On entering a denser medium it slows and bends **towards** the normal; going from denser to rarer it bends **away** from the normal."
+  },
+  {
+    "id": "in-cbse-10-phy-light-035",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Snell's law",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A ray travels from medium 1 into medium 2 with an angle of incidence of $45^\\circ$ and an angle of refraction of $30^\\circ$. What is the refractive index of medium 2 with respect to medium 1?",
+    "image": {
+      "src": "/img/c10-light/snell.svg",
+      "alt": "A ray crossing a boundary with an angle of incidence of 45 degrees and an angle of refraction of 30 degrees"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "0.71"
+      },
+      {
+        "id": "b",
+        "text": "1.41"
+      },
+      {
+        "id": "c",
+        "text": "1.50"
+      },
+      {
+        "id": "d",
+        "text": "1.73"
+      }
+    ],
+    "answer": "b",
+    "hint": "Snell's law uses the **sines** of the angles: $n = \\dfrac{\\sin i}{\\sin r}$.",
+    "explanation": "$n_{21} = \\dfrac{\\sin i}{\\sin r} = \\dfrac{\\sin 45^\\circ}{\\sin 30^\\circ} = \\dfrac{0.707}{0.5} \\approx 1.41$. Traps: 1.50 divides the angles themselves, 0.71 inverts the ratio, and 1.73 uses tangents instead of sines."
+  },
+  {
+    "id": "in-cbse-10-phy-light-036",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Formulas",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each quantity with its formula.",
+    "image": {
+      "src": "/img/c10-light/uvf.svg",
+      "alt": "A concave mirror and a convex lens with the object distance u, image distance v and focal length f shown as arrows"
+    },
+    "left": [
+      {
+        "id": "mf",
+        "text": "Mirror formula"
+      },
+      {
+        "id": "lf",
+        "text": "Lens formula"
+      },
+      {
+        "id": "mm",
+        "text": "Magnification by a mirror"
+      },
+      {
+        "id": "pw",
+        "text": "Power of a lens"
+      },
+      {
+        "id": "ri",
+        "text": "Refractive index of a medium"
+      }
+    ],
+    "right": [
+      {
+        "id": "f1",
+        "text": "$P = \\dfrac{1}{f}$"
+      },
+      {
+        "id": "f2",
+        "text": "$\\dfrac{1}{v}-\\dfrac{1}{u}=\\dfrac{1}{f}$"
+      },
+      {
+        "id": "f3",
+        "text": "$n = \\dfrac{c}{v}$"
+      },
+      {
+        "id": "f4",
+        "text": "$m = -\\dfrac{v}{u}$"
+      },
+      {
+        "id": "f5",
+        "text": "$\\dfrac{1}{v}+\\dfrac{1}{u}=\\dfrac{1}{f}$"
+      }
+    ],
+    "pairs": {
+      "mf": "f5",
+      "lf": "f2",
+      "mm": "f4",
+      "pw": "f1",
+      "ri": "f3"
+    },
+    "hint": "The mirror formula has a plus sign; the lens formula has a minus sign.",
+    "explanation": "Mirror formula: $\\frac{1}{v}+\\frac{1}{u}=\\frac{1}{f}$. Lens formula: $\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}$. Magnification of a mirror: $m=h'/h=-v/u$ (for a lens $m=v/u$). Power: $P=1/f$ in dioptres with f in metres. Refractive index: $n=c/v$. All need the New Cartesian Sign Convention."
+  },
+  {
+    "id": "in-cbse-10-phy-light-037",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Concave lens",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "Which diagram shows how a **concave lens** treats parallel rays?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diagram A",
+        "image": {
+          "src": "/img/c10-light/lbeam-convex.svg",
+          "alt": "A convex lens bringing parallel rays to a focus"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Diagram B",
+        "image": {
+          "src": "/img/c10-light/lbeam-concave.svg",
+          "alt": "A concave lens spreading parallel rays so they appear to come from a focus"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Diagram C",
+        "image": {
+          "src": "/img/c10-light/lbeam-wrongA.svg",
+          "alt": "A concave lens drawn with rays meeting at a point"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Diagram D",
+        "image": {
+          "src": "/img/c10-light/lbeam-wrongB.svg",
+          "alt": "A convex lens drawn with rays spreading out"
+        }
+      }
+    ],
+    "answer": "b",
+    "hint": "A concave lens is thicker at the edges and is called a diverging lens.",
+    "explanation": "A **concave lens** is thicker at the edges and **diverges** parallel rays, which appear to come from its principal focus on the incident side. Diagram A shows a convex lens converging light. C and D give the wrong action for the lens shape."
+  },
+  {
+    "id": "in-cbse-10-phy-light-038",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Terms for lenses",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Light comes from the left. Tap the **second principal focus** $F_2$ of this convex lens.",
+    "image": {
+      "src": "/img/c10-light/lens-terms.svg",
+      "alt": "A convex lens with an object on the left and five dots on the principal axis, with parallel rays meeting at one of them"
+    },
+    "spots": [
+      {
+        "id": "O",
+        "x": 50,
+        "y": 50,
+        "label": "Optical centre (O)"
+      },
+      {
+        "id": "F1",
+        "x": 37,
+        "y": 50,
+        "label": "First principal focus (F1)"
+      },
+      {
+        "id": "F2",
+        "x": 63,
+        "y": 50,
+        "label": "Second principal focus (F2)"
+      },
+      {
+        "id": "2F1",
+        "x": 24,
+        "y": 50,
+        "label": "2F1"
+      },
+      {
+        "id": "2F2",
+        "x": 76,
+        "y": 50,
+        "label": "2F2"
+      }
+    ],
+    "answer": "F2",
+    "hint": "Rays parallel to the axis meet at it after passing through the lens.",
+    "explanation": "A lens has **two** principal foci. $F_2$ is the point on the far side where rays parallel to the principal axis **converge** after refraction, which the animated rays show. $F_1$ is on the object side at the same distance, and the 2F points are twice as far away."
+  },
+  {
+    "id": "in-cbse-10-phy-light-039",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Terms for lenses",
+    "difficulty": "easy",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each term with its meaning.",
+    "image": {
+      "src": "/img/c10-light/lens-shapes.svg",
+      "alt": "A convex lens converging parallel rays and a concave lens diverging them"
+    },
+    "left": [
+      {
+        "id": "oc",
+        "text": "Optical centre"
+      },
+      {
+        "id": "pf",
+        "text": "Principal focus"
+      },
+      {
+        "id": "fl",
+        "text": "Focal length"
+      },
+      {
+        "id": "ap",
+        "text": "Aperture"
+      }
+    ],
+    "right": [
+      {
+        "id": "d1",
+        "text": "Distance from the optical centre to the principal focus"
+      },
+      {
+        "id": "d2",
+        "text": "Effective diameter of the circular outline of the lens"
+      },
+      {
+        "id": "d3",
+        "text": "Central point of the lens; a ray through it is not deviated"
+      },
+      {
+        "id": "d4",
+        "text": "Point where rays parallel to the axis meet or appear to diverge from"
+      }
+    ],
+    "pairs": {
+      "oc": "d3",
+      "pf": "d4",
+      "fl": "d1",
+      "ap": "d2"
+    },
+    "hint": "The focal length is a distance measured from the optical centre.",
+    "explanation": "The **optical centre** is the central point of the lens and rays through it pass undeviated. The **principal focus** is where rays parallel to the principal axis converge (convex) or appear to diverge from (concave). The **focal length** is the distance from O to the principal focus. The **aperture** is the effective diameter of the lens outline."
+  },
+  {
+    "id": "in-cbse-10-phy-light-040",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Rays for lenses",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each incident ray with the diagram that shows its path after refraction.",
+    "image": {
+      "src": "/img/c10-light/lens-terms.svg",
+      "alt": "A convex lens with an object on the left and five dots on the principal axis"
+    },
+    "left": [
+      {
+        "id": "p",
+        "text": "Ray parallel to the axis (convex lens)"
+      },
+      {
+        "id": "f",
+        "text": "Ray through the first focus F1 (convex lens)"
+      },
+      {
+        "id": "o",
+        "text": "Ray through the optical centre"
+      },
+      {
+        "id": "d",
+        "text": "Ray parallel to the axis (concave lens)"
+      }
+    ],
+    "right": [
+      {
+        "id": "rA",
+        "text": "Diagram A",
+        "image": {
+          "src": "/img/c10-light/lrule-centre.svg",
+          "alt": "A ray through the optical centre going straight on"
+        }
+      },
+      {
+        "id": "rB",
+        "text": "Diagram B",
+        "image": {
+          "src": "/img/c10-light/lrule-diverge.svg",
+          "alt": "A ray bending away from the axis as if from the focus"
+        }
+      },
+      {
+        "id": "rC",
+        "text": "Diagram C",
+        "image": {
+          "src": "/img/c10-light/lrule-parallel.svg",
+          "alt": "A ray parallel to the axis passing through the focus"
+        }
+      },
+      {
+        "id": "rD",
+        "text": "Diagram D",
+        "image": {
+          "src": "/img/c10-light/lrule-focus.svg",
+          "alt": "A ray from the focus emerging parallel to the axis"
+        }
+      }
+    ],
+    "pairs": {
+      "p": "rC",
+      "f": "rD",
+      "o": "rA",
+      "d": "rB"
+    },
+    "hint": "The ray through the optical centre of a thin lens is not deviated.",
+    "explanation": "A parallel ray goes through **F2** after a convex lens. A ray through **F1** emerges **parallel**. A ray through the **optical centre** goes straight on. For a **concave lens**, a parallel ray diverges as if it came from the principal focus on the incident side."
+  },
+  {
+    "id": "in-cbse-10-phy-light-041",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Image formation by a convex lens",
+    "difficulty": "hard",
+    "marks": 2,
+    "type": "match",
+    "prompt": "Match each position of the object in front of a **convex lens** with the image formed.",
+    "image": {
+      "src": "/img/c10-light/lens-positions.svg",
+      "alt": "A convex lens axis with F and 2F marks and zones for the object"
+    },
+    "left": [
+      {
+        "id": "a",
+        "text": "Object beyond 2F1"
+      },
+      {
+        "id": "b",
+        "text": "Object at 2F1"
+      },
+      {
+        "id": "c",
+        "text": "Object between F1 and 2F1"
+      },
+      {
+        "id": "d",
+        "text": "Object between F1 and O"
+      }
+    ],
+    "right": [
+      {
+        "id": "i1",
+        "text": "Beyond 2F2; real, inverted, enlarged"
+      },
+      {
+        "id": "i2",
+        "text": "Same side as the object; virtual, erect, enlarged"
+      },
+      {
+        "id": "i3",
+        "text": "Between F2 and 2F2; real, inverted, diminished"
+      },
+      {
+        "id": "i4",
+        "text": "At 2F2; real, inverted, same size"
+      }
+    ],
+    "pairs": {
+      "a": "i3",
+      "b": "i4",
+      "c": "i1",
+      "d": "i2"
+    },
+    "hint": "The image moves further from the lens as the object comes closer to F1.",
+    "explanation": "Beyond 2F1: image between F2 and 2F2, diminished. At 2F1: image at 2F2, same size. Between F1 and 2F1: image beyond 2F2, enlarged. Between F1 and O: the rays diverge after the lens, so the image is **virtual, erect and enlarged** on the object side. This last case is how a magnifying glass works."
+  },
+  {
+    "id": "in-cbse-10-phy-light-042",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Image distance for a convex lens",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "order",
+    "prompt": "An object moves from far away towards the focus $F_1$ of a convex lens. Arrange the positions by the **distance of the image from the lens**, smallest first.",
+    "image": {
+      "src": "/img/c10-light/lens-positions.svg",
+      "alt": "A convex lens axis with F and 2F marks and zones for the object"
+    },
+    "items": [
+      {
+        "id": "f",
+        "text": "Object at F1"
+      },
+      {
+        "id": "a",
+        "text": "Object beyond 2F1"
+      },
+      {
+        "id": "inf",
+        "text": "Object at infinity"
+      },
+      {
+        "id": "b",
+        "text": "Object at 2F1"
+      },
+      {
+        "id": "c",
+        "text": "Object between 2F1 and F1"
+      }
+    ],
+    "answer": [
+      "inf",
+      "a",
+      "b",
+      "c",
+      "f"
+    ],
+    "startLabel": "Image nearest the lens",
+    "endLabel": "Image farthest",
+    "hint": "At infinity the image is at the focus; at 2F1 it is at 2F2.",
+    "explanation": "At infinity the image is at **F2** (distance $f$). Beyond 2F1 it is between F2 and 2F2. At 2F1 it is at **2F2** (distance $2f$). Between 2F1 and F1 it is beyond 2F2, and with the object at F1 the image goes to **infinity**. As the object approaches F1 the image moves away and grows bigger."
+  },
+  {
+    "id": "in-cbse-10-phy-light-043",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Convex lens ray diagrams",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "mcq",
+    "prompt": "A convex lens forms a **virtual, erect and enlarged** image. Which ray diagram shows it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diagram A",
+        "image": {
+          "src": "/img/c10-light/cl-F2F.svg",
+          "alt": "Object between F1 and 2F1 gives a real inverted enlarged image beyond 2F2"
+        }
+      },
+      {
+        "id": "b",
+        "text": "Diagram B",
+        "image": {
+          "src": "/img/c10-light/cl-beyond2F.svg",
+          "alt": "Object beyond 2F1 gives a real inverted smaller image"
+        }
+      },
+      {
+        "id": "c",
+        "text": "Diagram C",
+        "image": {
+          "src": "/img/c10-light/ccl.svg",
+          "alt": "A concave lens giving a smaller virtual erect image"
+        }
+      },
+      {
+        "id": "d",
+        "text": "Diagram D",
+        "image": {
+          "src": "/img/c10-light/cl-insideF.svg",
+          "alt": "Object between F1 and the lens, with a virtual enlarged erect image on the same side"
+        }
+      }
+    ],
+    "answer": "d",
+    "hint": "The object must be closer to the lens than its focus.",
+    "explanation": "A convex lens gives a **virtual, erect, enlarged** image only when the object is **between F1 and the optical centre**. The refracted rays diverge, and the dotted extensions meet on the object side. A and B give real inverted images, and C shows a concave lens whose image is diminished."
+  },
+  {
+    "id": "in-cbse-10-phy-light-044",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Lens formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A **2.0 cm** tall object is placed **15 cm** from a convex lens of focal length **10 cm**. What is the position and nature of the image?",
+    "image": {
+      "src": "/img/c10-light/cl-15-10.svg",
+      "alt": "A convex lens with an object between F and 2F and a larger inverted real image beyond 2F"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "+30 cm, real and inverted"
+      },
+      {
+        "id": "b",
+        "text": "−30 cm, virtual and erect"
+      },
+      {
+        "id": "c",
+        "text": "+6 cm, real and inverted (used the mirror formula)"
+      },
+      {
+        "id": "d",
+        "text": "+25 cm, real and inverted (added u and f)"
+      }
+    ],
+    "answer": "a",
+    "hint": "Lens formula: $\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}$ with $u=-15$ cm and $f=+10$ cm.",
+    "explanation": "$\\dfrac{1}{v} = \\dfrac{1}{f}+\\dfrac{1}{u} = \\dfrac{1}{10}-\\dfrac{1}{15} = \\dfrac{1}{30}$, so $v = +30\\ \\text{cm}$ (other side, real). $m = \\dfrac{v}{u} = -2$, so $h' = -4.0$ cm: **inverted, real, twice the size**. Using the mirror formula gives 6 cm, and adding u and f gives 25 cm."
+  },
+  {
+    "id": "in-cbse-10-phy-light-045",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Lens formula",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A **concave lens** of focal length **15 cm** forms an image **10 cm** from the lens. How far is the object from the lens?",
+    "image": {
+      "src": "/img/c10-light/ccl-30.svg",
+      "alt": "A concave lens with an object and a smaller virtual image between the object and the lens"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "30 cm in front of the lens"
+      },
+      {
+        "id": "b",
+        "text": "30 cm behind the lens"
+      },
+      {
+        "id": "c",
+        "text": "6 cm in front of the lens"
+      },
+      {
+        "id": "d",
+        "text": "25 cm in front of the lens"
+      }
+    ],
+    "answer": "a",
+    "hint": "A concave lens always forms a virtual image on the same side as the object, so $v=-10$ cm and $f=-15$ cm.",
+    "explanation": "$\\dfrac{1}{u} = \\dfrac{1}{v}-\\dfrac{1}{f} = -\\dfrac{1}{10}+\\dfrac{1}{15} = -\\dfrac{1}{30}$, so $u = -30\\ \\text{cm}$: the object is **30 cm in front** of the lens. The magnification is $m = v/u = +0.33$, so the image is virtual, erect and one-third the size. A sign slip in the formula gives 6 cm, and 25 cm comes from subtracting f and v directly."
+  },
+  {
+    "id": "in-cbse-10-phy-light-046",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Concave lens",
+    "difficulty": "medium",
+    "marks": 2,
+    "type": "multi",
+    "prompt": "A **concave lens** forms an image of an object. Select all the statements that are **always** true.",
+    "image": {
+      "src": "/img/c10-light/ccl.svg",
+      "alt": "A concave lens with an object and a smaller virtual image between F1 and the lens"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The image is virtual"
+      },
+      {
+        "id": "b",
+        "text": "The image is erect"
+      },
+      {
+        "id": "c",
+        "text": "The image is diminished"
+      },
+      {
+        "id": "d",
+        "text": "The image is real"
+      },
+      {
+        "id": "e",
+        "text": "The image is enlarged when the object is very close"
+      }
+    ],
+    "answers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "hint": "Check Table 9.5: the result does not depend on the object position.",
+    "explanation": "A concave lens always forms a **virtual, erect and diminished** image, wherever the object is. At infinity the image is a point at F1, and for a nearer object it lies between F1 and O. It can never be real, and it is never enlarged."
+  },
+  {
+    "id": "in-cbse-10-phy-light-047",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Concave lens",
+    "difficulty": "hard",
+    "marks": 1,
+    "type": "assertion_reason",
+    "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+    "image": {
+      "src": "/img/c10-light/lbeam-concave.svg",
+      "alt": "A concave lens spreading parallel rays"
+    },
+    "assertion": "A concave lens can form a sharp real image of a distant object on a screen.",
+    "reason": "A concave lens always forms a virtual, erect and diminished image.",
+    "answer": "d",
+    "hint": "Can rays that diverge be brought together on a screen?",
+    "explanation": "A is **false**: a concave lens diverges light, so it cannot form a real image on a screen. R is true. Its image is always virtual, erect and diminished and can only be seen by looking through the lens."
+  },
+  {
+    "id": "in-cbse-10-phy-light-048",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Image by a concave lens",
+    "difficulty": "medium",
+    "marks": 1,
+    "type": "hotspot",
+    "prompt": "Tap the **virtual image** formed by this concave lens.",
+    "image": {
+      "src": "/img/c10-light/ccl.svg",
+      "alt": "Ray diagram of a concave lens with an orange object and a smaller dashed green image on the same side of the lens"
+    },
+    "spots": [
+      {
+        "id": "obj",
+        "x": 22.5,
+        "y": 39.6,
+        "label": "Object"
+      },
+      {
+        "id": "img",
+        "x": 40.3,
+        "y": 44.2,
+        "label": "Virtual, erect, diminished image"
+      },
+      {
+        "id": "lens",
+        "x": 50,
+        "y": 18.8,
+        "label": "Concave lens"
+      },
+      {
+        "id": "axis",
+        "x": 85,
+        "y": 46.7,
+        "label": "Principal axis"
+      }
+    ],
+    "answer": "img",
+    "hint": "It is drawn dashed because the rays only appear to meet there.",
+    "explanation": "The dotted extensions of the diverging refracted rays meet on the object side, between **F1 and the optical centre**, forming a **virtual, erect, diminished** image (dashed green arrow). It is drawn dashed because the light does not really pass through it."
+  },
+  {
+    "id": "in-cbse-10-phy-light-049",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Power of a lens",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "mcq",
+    "prompt": "A convex lens forms a real, inverted image of a needle at a distance of **50 cm**, and the image is the **same size** as the needle. Where is the needle, and what is the power of the lens?",
+    "image": {
+      "src": "/img/c10-light/needle-lens.svg",
+      "alt": "A convex lens with a needle at 2F on one side and an equal real inverted image at 2F on the other"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "50 cm from the lens; +2 D"
+      },
+      {
+        "id": "b",
+        "text": "25 cm from the lens; +4 D"
+      },
+      {
+        "id": "c",
+        "text": "50 cm from the lens; +0.04 D"
+      },
+      {
+        "id": "d",
+        "text": "50 cm from the lens; +4 D"
+      }
+    ],
+    "answer": "d",
+    "hint": "Same size means the needle and its image are each at $2f$.",
+    "explanation": "Image the same size as the object only when the object is at **2F**, so $u = -50\\ \\text{cm}$ and $v = +50\\ \\text{cm}$. Then $f = 25\\ \\text{cm} = 0.25\\ \\text{m}$ and $P = \\dfrac{1}{0.25} = +4\\ \\text{D}$. Taking $f = 50$ cm gives +2 D, putting the needle at F (25 cm) is wrong, and leaving f in cm gives the unit slip of 0.04."
+  },
+  {
+    "id": "in-cbse-10-phy-light-050",
+    "region": "IN",
+    "board": "CBSE",
+    "grade": 10,
+    "subject": "physics",
+    "chapter": "Light – Reflection and Refraction",
+    "chapterNo": 1,
+    "topic": "Power of a lens",
+    "difficulty": "hard",
+    "marks": 3,
+    "type": "order",
+    "prompt": "Arrange the lenses in order of **power**, from the least to the greatest.",
+    "image": {
+      "src": "/img/c10-light/power.svg",
+      "alt": "A short focal length convex lens bending rays sharply and a long focal length one bending them gently"
+    },
+    "items": [
+      {
+        "id": "p2",
+        "text": "Convex lens, f = +50 cm"
+      },
+      {
+        "id": "n05",
+        "text": "Concave lens, f = −2 m"
+      },
+      {
+        "id": "p1",
+        "text": "Convex lens, f = +100 cm"
+      },
+      {
+        "id": "n25",
+        "text": "Concave lens, f = −40 cm"
+      }
+    ],
+    "answer": [
+      "n25",
+      "n05",
+      "p1",
+      "p2"
+    ],
+    "startLabel": "Least power",
+    "endLabel": "Greatest power",
+    "hint": "Convert f to metres and use $P = 1/f$; concave lenses have negative power.",
+    "explanation": "$P = 1/f$ with f in metres gives: −40 cm → −2.5 D, −2 m → −0.5 D, +100 cm → +1.0 D, +50 cm → +2.0 D. A convex lens has positive power and a concave lens negative power. Powers of lenses in contact simply add, for example +2.0 D and +0.25 D give +2.25 D."
+  }
+]

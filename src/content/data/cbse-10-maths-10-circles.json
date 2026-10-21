@@ -1,0 +1,2208 @@
+[
+ {
+  "id": "in-cbse-10-math-circles-001",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent to a circle",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A straight wire AB is turned slowly about the point P on a circular wire. In exactly one position the wire touches the circle and nothing else. How many points does a **tangent** have in common with the circle?",
+  "image": {
+   "src": "/img/c10-ma-circles/pivot.svg",
+   "alt": "A line pivoting about a point P on a circle, touching it in one position"
+  },
+  "hint": "In the animation, count the common points when the line just touches the circle.",
+  "explanation": "A line that meets the circle in **two** points is a secant. As the second point slides towards $P$ the two points coincide, so a tangent is the special case of a secant with exactly **one** common point (the point of contact). A line with no common point is a non-intersecting line.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$0$"
+   },
+   {
+    "id": "b",
+    "text": "$1$"
+   },
+   {
+    "id": "c",
+    "text": "$2$"
+   },
+   {
+    "id": "d",
+    "text": "Infinitely many"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-002",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Number of tangents from a point",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A circle has centre $O$ and radius $5$ cm. Points $A$, $B$ and $C$ are at distances $3$ cm, $5$ cm and $8$ cm from $O$. In all, how many different tangents to the circle can be drawn **through the points** $A$, $B$ and $C$ (counting each point separately)?",
+  "image": {
+   "src": "/img/c10-ma-circles/three-points.svg",
+   "alt": "A circle with point A inside, B on the circle and C outside"
+  },
+  "hint": "Compare each distance with the radius: inside, on, or outside?",
+  "explanation": "$A$ is inside ($3<5$): **no** tangent. $B$ is on the circle ($5=5$): **one** tangent. $C$ is outside ($8>5$): **two** tangents. Total $0+1+2=3$. The traps: treating every point as outside ($6$), thinking an outside point gives one tangent ($2$), or thinking an inside point gives one ($4$).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$6$"
+   },
+   {
+    "id": "b",
+    "text": "$2$"
+   },
+   {
+    "id": "c",
+    "text": "$3$"
+   },
+   {
+    "id": "d",
+    "text": "$4$"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-math-circles-003",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Positions of a line",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "A circle has radius $6$ cm. Each line is at the given perpendicular distance from the centre. Match the line with its name.",
+  "image": {
+   "src": "/img/c10-ma-circles/dist-lines.svg",
+   "alt": "A circle of radius 6 with three lines at distances 4, 6 and 9"
+  },
+  "hint": "Compare the distance of the line from the centre with the radius.",
+  "explanation": "If the distance is **less** than the radius ($4<6$) the line cuts the circle twice: a secant. If it **equals** the radius ($6=6$) the line touches at one point: a tangent. If it is **greater** ($9>6$) the line misses the circle completely.",
+  "left": [
+   {
+    "id": "a",
+    "text": "Line $l_1$, distance $4$ cm from $O$"
+   },
+   {
+    "id": "b",
+    "text": "Line $l_2$, distance $6$ cm from $O$"
+   },
+   {
+    "id": "c",
+    "text": "Line $l_3$, distance $9$ cm from $O$"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Secant"
+   },
+   {
+    "id": "r2",
+    "text": "Tangent"
+   },
+   {
+    "id": "r3",
+    "text": "Non-intersecting line"
+   }
+  ],
+  "pairs": {
+   "a": "r1",
+   "b": "r2",
+   "c": "r3"
+  }
+ },
+ {
+  "id": "in-cbse-10-math-circles-004",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent to a circle",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **tangent** to the circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/lines3.svg",
+   "alt": "A circle with three parallel lines l, m and n and numbered markers"
+  },
+  "hint": "A tangent touches the circle at only one point.",
+  "explanation": "Line $m$ just grazes the circle at a single point, so it is the tangent. Line $l$ cuts the circle at two points (a secant) and line $n$ never meets it.",
+  "spots": [
+   {
+    "id": "sec",
+    "x": 76.4,
+    "y": 23.3,
+    "label": "Secant l"
+   },
+   {
+    "id": "tan",
+    "x": 76.4,
+    "y": 72.0,
+    "label": "Tangent m"
+   },
+   {
+    "id": "non",
+    "x": 76.4,
+    "y": 89.3,
+    "label": "Non-intersecting line n"
+   },
+   {
+    "id": "chord",
+    "x": 50.0,
+    "y": 23.3,
+    "label": "Chord cut off by l"
+   },
+   {
+    "id": "cen",
+    "x": 50.0,
+    "y": 40.6,
+    "label": "Centre O"
+   }
+  ],
+  "answer": "tan"
+ },
+ {
+  "id": "in-cbse-10-math-circles-005",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent to a circle",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **secant** of the circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/lines3.svg",
+   "alt": "A circle with three parallel lines l, m and n and numbered markers"
+  },
+  "hint": "A secant cuts the circle at two points.",
+  "explanation": "Line $l$ passes through the circle and meets it in two points, so it is the secant. The part of it inside the circle is a chord. Line $m$ touches once and line $n$ not at all.",
+  "spots": [
+   {
+    "id": "sec",
+    "x": 76.4,
+    "y": 23.3,
+    "label": "Secant l"
+   },
+   {
+    "id": "tan",
+    "x": 76.4,
+    "y": 72.0,
+    "label": "Tangent m"
+   },
+   {
+    "id": "non",
+    "x": 76.4,
+    "y": 89.3,
+    "label": "Non-intersecting line n"
+   },
+   {
+    "id": "chord",
+    "x": 50.0,
+    "y": 23.3,
+    "label": "Chord cut off by l"
+   },
+   {
+    "id": "cen",
+    "x": 50.0,
+    "y": 40.6,
+    "label": "Centre O"
+   }
+  ],
+  "answer": "sec"
+ },
+ {
+  "id": "in-cbse-10-math-circles-006",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent to a circle",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "The wheel turns but it always touches the road at one point, and the road is a tangent. Select **all** the true statements about a tangent to a circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/roll.svg",
+   "alt": "A wheel turning on a road with the radius to the contact point"
+  },
+  "hint": "Recall the Activity with the rotating wire and Theorem 10.1.",
+  "explanation": "True: one common point (a), perpendicular to the radius at the point of contact (b), and the limiting position of a secant (d). False: at a point of the circle there is **one and only one** tangent, and a tangent lies entirely outside the circle except at the point of contact.",
+  "options": [
+   {
+    "id": "a",
+    "text": "A tangent meets the circle at exactly one point"
+   },
+   {
+    "id": "b",
+    "text": "The tangent at a point is perpendicular to the radius through that point"
+   },
+   {
+    "id": "c",
+    "text": "Infinitely many tangents can be drawn to a circle at a given point on it"
+   },
+   {
+    "id": "d",
+    "text": "A tangent is a secant whose two points of intersection with the circle have coincided"
+   },
+   {
+    "id": "e",
+    "text": "A tangent passes through the inside of the circle"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ]
+ },
+ {
+  "id": "in-cbse-10-math-circles-007",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent to a circle",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Select **all** the situations that are good models of a tangent to a circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/tangent-real.svg",
+   "alt": "A pulley with a rope, a wheel on a road and a ruler touching a coin"
+  },
+  "hint": "A tangent touches the circle at one point without crossing into it.",
+  "explanation": "The pulley rope, the road under the wheel and the ruler resting on the coin each touch the circle at exactly one point, so they are tangents. A spoke is a radius, and a ruler cutting the coin at two points models a secant.",
+  "options": [
+   {
+    "id": "a",
+    "text": "The rope on either side of a pulley wheel, leaving the wheel in a straight line"
+   },
+   {
+    "id": "b",
+    "text": "The road touching a wheel at the point where it rests"
+   },
+   {
+    "id": "c",
+    "text": "A spoke of the wheel"
+   },
+   {
+    "id": "d",
+    "text": "A ruler edge resting against a coin, touching it at one point"
+   },
+   {
+    "id": "e",
+    "text": "A ruler laid across a coin so that it cuts the edge at two points"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "d"
+  ]
+ },
+ {
+  "id": "in-cbse-10-math-circles-008",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Key terms",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each term with its meaning.",
+  "image": {
+   "src": "/img/c10-ma-circles/terms.svg",
+   "alt": "A circle with a secant l, a tangent m touching at P and a point T on the tangent"
+  },
+  "hint": "In the picture, $l$ cuts the circle twice and $m$ touches it once.",
+  "explanation": "A secant cuts the circle in two points, a tangent touches it in one, and that single common point ($P$) is the point of contact. The length of the tangent from an external point $T$ is the length of the segment $TP$ from $T$ to $P$.",
+  "left": [
+   {
+    "id": "a",
+    "text": "Secant"
+   },
+   {
+    "id": "b",
+    "text": "Tangent"
+   },
+   {
+    "id": "c",
+    "text": "Point of contact"
+   },
+   {
+    "id": "d",
+    "text": "Length of the tangent from $T$"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "A line meeting the circle at two points"
+   },
+   {
+    "id": "r2",
+    "text": "A line meeting the circle at exactly one point"
+   },
+   {
+    "id": "r3",
+    "text": "The common point of a tangent and the circle"
+   },
+   {
+    "id": "r4",
+    "text": "The distance from $T$ to the point where the tangent touches the circle"
+   }
+  ],
+  "pairs": {
+   "a": "r1",
+   "b": "r2",
+   "c": "r3",
+   "d": "r4"
+  }
+ },
+ {
+  "id": "in-cbse-10-math-circles-009",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Number of tangents from a point",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-circles/interior-lines.svg",
+   "alt": "A point P inside a circle with lines through it cutting the circle at two points"
+  },
+  "hint": "What would a line through an inside point have to do to be a tangent?",
+  "explanation": "Both are true and R explains A. A tangent must meet the circle at only **one** point, but every line through an interior point cuts the circle at two points (it is a secant). So no tangent exists through such a point.",
+  "assertion": "No tangent can be drawn to a circle from a point lying inside it.",
+  "reason": "Every line through a point inside a circle meets the circle in two points.",
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-010",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent perpendicular to the radius",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-circles/perp-tan.svg",
+   "alt": "A tangent at P with radius OP perpendicular to it"
+  },
+  "hint": "Does the fact that a tangent touches once tell you the angle it makes with the radius?",
+  "explanation": "Both statements are true, but R does not explain A. The perpendicularity comes from the proof: every other point $Q$ of the tangent is outside the circle, so $OQ>OP$ and $OP$ is the shortest distance from $O$ to the line, which means $OP\\perp$ tangent. Merely touching once does not by itself give the angle.",
+  "assertion": "The tangent at a point $P$ of a circle with centre $O$ is perpendicular to the radius $OP$.",
+  "reason": "A tangent to a circle meets the circle at exactly one point.",
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-011",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent perpendicular to the radius",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The line $XY$ touches the circle at $P$. Tap the **radius through the point of contact**.",
+  "image": {
+   "src": "/img/c10-ma-circles/tan-radius-hs.svg",
+   "alt": "A circle with centre O, line XY touching at P, a point Q on XY and a chord AB, with numbered markers"
+  },
+  "hint": "The radius to the point of contact joins the centre to the point where $XY$ touches.",
+  "explanation": "$XY$ touches the circle at $P$, so the radius through the point of contact is $OP$. By Theorem 10.1 it is perpendicular to the tangent $XY$. $OQ$ goes to a point outside the circle, so it is longer than a radius.",
+  "spots": [
+   {
+    "id": "rad",
+    "x": 41.5,
+    "y": 65.8,
+    "label": "Radius OP"
+   },
+   {
+    "id": "oq",
+    "x": 57.5,
+    "y": 65.8,
+    "label": "Segment OQ"
+   },
+   {
+    "id": "tan",
+    "x": 23.5,
+    "y": 82.5,
+    "label": "Tangent XY"
+   },
+   {
+    "id": "chord",
+    "x": 41.5,
+    "y": 29.1,
+    "label": "Chord AB"
+   },
+   {
+    "id": "cen",
+    "x": 41.5,
+    "y": 49.2,
+    "label": "Centre O"
+   }
+  ],
+  "answer": "rad"
+ },
+ {
+  "id": "in-cbse-10-math-circles-012",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Parts of a circle",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the **chord** of the circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/tan-radius-hs.svg",
+   "alt": "A circle with centre O, line XY touching at P, a point Q on XY and a chord AB, with numbered markers"
+  },
+  "hint": "A chord has both of its end points on the circle.",
+  "explanation": "$AB$ joins two points $A$ and $B$ of the circle, so it is a chord. $OP$ is a radius, $XY$ is a tangent and $OQ$ ends outside the circle, so none of those is a chord.",
+  "spots": [
+   {
+    "id": "rad",
+    "x": 41.5,
+    "y": 65.8,
+    "label": "Radius OP"
+   },
+   {
+    "id": "oq",
+    "x": 57.5,
+    "y": 65.8,
+    "label": "Segment OQ"
+   },
+   {
+    "id": "tan",
+    "x": 23.5,
+    "y": 82.5,
+    "label": "Tangent XY"
+   },
+   {
+    "id": "chord",
+    "x": 41.5,
+    "y": 29.1,
+    "label": "Chord AB"
+   },
+   {
+    "id": "cen",
+    "x": 41.5,
+    "y": 49.2,
+    "label": "Centre O"
+   }
+  ],
+  "answer": "chord"
+ },
+ {
+  "id": "in-cbse-10-math-circles-013",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Theorem 10.1",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of the proof that **the tangent at any point of a circle is perpendicular to the radius through the point of contact**.",
+  "image": {
+   "src": "/img/c10-ma-circles/thm101.svg",
+   "alt": "A circle with centre O, tangent XY touching at P and a point Q on the tangent joined to O"
+  },
+  "hint": "Compare $OQ$ with $OP$, then use the shortest-distance idea last.",
+  "explanation": "The proof is by comparing distances: pick $Q$, show it is outside the circle, deduce $OQ>OP$ for every such $Q$, conclude that $OP$ is the shortest distance and therefore perpendicular to $XY$.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "Hence $OQ>OP$, since $OP$ is a radius and $Q$ is outside"
+   },
+   {
+    "id": "s5",
+    "text": "The shortest distance from a point to a line is the perpendicular, so $OP\\perp XY$"
+   },
+   {
+    "id": "s1",
+    "text": "Take a point $Q$ on the tangent $XY$, other than $P$, and join $OQ$"
+   },
+   {
+    "id": "s4",
+    "text": "This is true for every point of $XY$ other than $P$, so $OP$ is the shortest of all distances from $O$ to $XY$"
+   },
+   {
+    "id": "s2",
+    "text": "Q must lie outside the circle, because if it were inside, $XY$ would be a secant and not a tangent"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First step",
+  "endLabel": "Last step"
+ },
+ {
+  "id": "in-cbse-10-math-circles-014",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent perpendicular to the radius",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A tangent $PQ$ at a point $P$ of a circle of radius $6$ cm meets a line through the centre $O$ at a point $Q$ with $OQ=10$ cm. Find the length $PQ$.",
+  "image": {
+   "src": "/img/c10-ma-circles/tan-oq.svg",
+   "alt": "Circle of radius 6 with centre O, a point Q with OQ equal to 10 and the tangent QP"
+  },
+  "hint": "The radius $OP$ is perpendicular to the tangent $PQ$, so $\\triangle OPQ$ has a right angle at $P$.",
+  "explanation": "By Theorem 10.1, $\\angle OPQ=90^\\circ$, so $PQ^2=OQ^2-OP^2=10^2-6^2=64$ and $PQ=8$ cm. Traps: subtracting lengths ($10-6=4$), adding the squares ($\\sqrt{136}=2\\sqrt{34}$), or taking $OQ$ itself.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$8$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$4$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$2\\sqrt{34}$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$10$ cm"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-015",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent perpendicular to the radius",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "mcq",
+  "prompt": "A circle with centre $O$ touches a straight road at $P$. $T$ is a point on the road and $\\angle OTP=35^\\circ$. Find $\\angle POT$.",
+  "image": {
+   "src": "/img/c10-ma-circles/angle-otp.svg",
+   "alt": "A circle touching a road at P with centre O above P and a point T on the road, angle OTP equal to 35 degrees"
+  },
+  "hint": "What is $\\angle OPT$, by Theorem 10.1?",
+  "explanation": "The road is a tangent, so $\\angle OPT=90^\\circ$. In the right triangle $OPT$ the angles add up to $180^\\circ$: $\\angle POT=180^\\circ-90^\\circ-35^\\circ=55^\\circ$. Do not copy $35^\\circ$ or add the right angle to it.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$35^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$125^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$145^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$55^\\circ$"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-math-circles-016",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent perpendicular to the radius",
+  "difficulty": "hard",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-circles/perp-centre.svg",
+   "alt": "A tangent at P and a perpendicular line at P passing through the centre O"
+  },
+  "hint": "Where is the only perpendicular at $P$ sure to go?",
+  "explanation": "Both are true and R explains A. The radius $OP$ is already a perpendicular to the tangent at $P$ (Theorem 10.1). Since there is only **one** perpendicular to a line at a given point of it, the perpendicular at $P$ must be the line $OP$, which passes through $O$.",
+  "assertion": "The perpendicular drawn to a tangent at its point of contact passes through the centre of the circle.",
+  "reason": "The radius through the point of contact is perpendicular to the tangent, and at a given point of a line only one perpendicular can be drawn to it.",
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-017",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent perpendicular to the radius",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "$PQ$ is a diameter of a circle and tangents $l$ and $m$ are drawn at $P$ and $Q$. Why are $l$ and $m$ parallel?",
+  "image": {
+   "src": "/img/c10-ma-circles/diam-tangent.svg",
+   "alt": "A circle with diameter PQ and tangents l and m at its two ends"
+  },
+  "hint": "Use Theorem 10.1 at each end of the diameter.",
+  "explanation": "The diameter through $P$ and $Q$ contains the radii $OP$ and $OQ$. By Theorem 10.1, $l\\perp OP$ and $m\\perp OQ$, i.e. both are perpendicular to $PQ$. Two lines perpendicular to the same line are parallel (equal alternate angles of $90^\\circ$). Tangents never pass through the centre, and they are lines, not radii.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Both tangents are equal in length to the diameter"
+   },
+   {
+    "id": "b",
+    "text": "Both tangents pass through the centre $O$"
+   },
+   {
+    "id": "c",
+    "text": "Both are perpendicular to the diameter $PQ$, so they are perpendicular to the same line"
+   },
+   {
+    "id": "d",
+    "text": "Both tangents are radii of the circle"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-math-circles-018",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "$XY$ and $X'Y'$ are two parallel tangents to a circle with centre $O$, touching at $P$ and $R$. Another tangent $AB$ touches the circle at $C$, with $A$ on $XY$ and $B$ on $X'Y'$. If $AP=4$ cm and $BR=9$ cm, find the radius.",
+  "image": {
+   "src": "/img/c10-ma-circles/parallel-ab.svg",
+   "alt": "Two parallel tangents and a third tangent AB touching the circle at C"
+  },
+  "hint": "Tangents from $A$ are equal; so are tangents from $B$. Then use $\\angle AOB=90^\\circ$.",
+  "explanation": "Tangent lengths: $AC=AP=4$ and $BC=BR=9$. $OA$ and $OB$ bisect the angles at $A$ and $B$, whose sum is $180^\\circ$, so $\\angle AOB=90^\\circ$ and $OC\\perp AB$ is the altitude to the hypotenuse. Hence $OC^2=AC\\times BC=36$ and $r=6$. Traps: the average $\\frac{4+9}{2}=6.5$, the sum $13$, or $\\sqrt{4^2+9^2}=\\sqrt{97}$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$6.5$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$6$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$13$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$\\sqrt{97}$ cm"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-019",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Positions of a line",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-circles/line-d7.svg",
+   "alt": "A circle of radius 5 and a line 7 units from its centre"
+  },
+  "hint": "Compare the distance $7$ with the radius $5$.",
+  "explanation": "A is false and R is true. Since $7>5$, the line is farther from $O$ than any point of the circle, so it never meets the circle: it is a non-intersecting line, not a secant. R is the correct definition of a secant.",
+  "assertion": "A line at a distance of $7$ cm from the centre of a circle of radius $5$ cm is a secant.",
+  "reason": "A line that cuts a circle at two points is a secant.",
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-math-circles-020",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "$PA$ and $PB$ are the two tangents from $P$. Tap the line segment that **bisects $\\angle APB$** (the centre lies on it).",
+  "image": {
+   "src": "/img/c10-ma-circles/ext-two-hs.svg",
+   "alt": "Two tangents PA and PB from an outside point P, radii OA, OB and the line OP, with numbered markers"
+  },
+  "hint": "It joins the external point to the centre.",
+  "explanation": "Triangles $OAP$ and $OBP$ are congruent (RHS), so $\\angle OPA=\\angle OPB$. Therefore the centre lies on the bisector of $\\angle APB$, and that bisector is the line $OP$.",
+  "spots": [
+   {
+    "id": "pa",
+    "x": 65.6,
+    "y": 32.7,
+    "label": "Tangent PA"
+   },
+   {
+    "id": "pb",
+    "x": 65.6,
+    "y": 67.3,
+    "label": "Tangent PB"
+   },
+   {
+    "id": "op",
+    "x": 61.3,
+    "y": 50.0,
+    "label": "Line OP"
+   },
+   {
+    "id": "oa",
+    "x": 36.3,
+    "y": 32.7,
+    "label": "Radius OA"
+   },
+   {
+    "id": "ob",
+    "x": 36.3,
+    "y": 67.3,
+    "label": "Radius OB"
+   }
+  ],
+  "answer": "op"
+ },
+ {
+  "id": "in-cbse-10-math-circles-021",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "Tap the tangent that touches the circle at **$B$**.",
+  "image": {
+   "src": "/img/c10-ma-circles/ext-two-hs.svg",
+   "alt": "Two tangents PA and PB from an outside point P, radii OA, OB and the line OP, with numbered markers"
+  },
+  "hint": "The tangent is a line from $P$, not a radius.",
+  "explanation": "$PB$ runs from the external point $P$ and touches the circle at $B$, so it is the tangent at $B$. $OB$ is the radius to $B$, and $PA$ is the other tangent, touching at $A$.",
+  "spots": [
+   {
+    "id": "pa",
+    "x": 65.6,
+    "y": 32.7,
+    "label": "Tangent PA"
+   },
+   {
+    "id": "pb",
+    "x": 65.6,
+    "y": 67.3,
+    "label": "Tangent PB"
+   },
+   {
+    "id": "op",
+    "x": 61.3,
+    "y": 50.0,
+    "label": "Line OP"
+   },
+   {
+    "id": "oa",
+    "x": 36.3,
+    "y": 32.7,
+    "label": "Radius OA"
+   },
+   {
+    "id": "ob",
+    "x": 36.3,
+    "y": 67.3,
+    "label": "Radius OB"
+   }
+  ],
+  "answer": "pb"
+ },
+ {
+  "id": "in-cbse-10-math-circles-022",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Lengths of tangents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Two tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$. If $PA=(3x+4)$ cm and $PB=(5x-6)$ cm, find the length $PA$.",
+  "image": {
+   "src": "/img/c10-ma-circles/ext-eq.svg",
+   "alt": "Two tangents PA and PB from an external point P to a circle with centre O"
+  },
+  "hint": "Tangents from an external point are equal in length.",
+  "explanation": "$PA=PB$ (Theorem 10.2), so $3x+4=5x-6$, giving $2x=10$ and $x=5$. Then $PA=3(5)+4=19$ cm (and $PB=5(5)-6=19$ cm too). Traps: giving $x=5$ as the length, a slip such as $2x=6-4$, or adding both tangents ($38$).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$5$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$7$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$38$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$19$ cm"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-math-circles-023",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Angle between tangents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "The tangents $PA$ and $PB$ from a point $P$ to a circle with centre $O$ are inclined to each other at $64^\\circ$. Find $\\angle POA$.",
+  "image": {
+   "src": "/img/c10-ma-circles/apb64.svg",
+   "alt": "Tangents PA and PB meeting at 64 degrees with radii OA and OB and line OP"
+  },
+  "hint": "$OP$ bisects $\\angle APB$, and $\\angle OAP=90^\\circ$.",
+  "explanation": "$OP$ bisects $\\angle APB$, so $\\angle APO=32^\\circ$. In $\\triangle OAP$, $\\angle OAP=90^\\circ$, so $\\angle POA=90^\\circ-32^\\circ=58^\\circ$. Traps: using the whole $64^\\circ$, using only the half ($32^\\circ$), or finding $\\angle AOB=116^\\circ$ and stopping there.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$58^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$64^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$32^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$116^\\circ$"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-024",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Angle between tangents",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Two tangents $TP$ and $TQ$ are drawn from an external point $T$ to a circle with centre $O$, with $\\angle PTQ=70^\\circ$. Find $\\angle OPQ$.",
+  "image": {
+   "src": "/img/c10-ma-circles/ext-ptq70.svg",
+   "alt": "Tangents TP and TQ meeting at 70 degrees with the chord PQ and radii"
+  },
+  "hint": "First find $\\angle TPQ$ in the isosceles triangle $TPQ$, then subtract it from $\\angle OPT$.",
+  "explanation": "$TP=TQ$, so $\\angle TPQ=\\frac{180^\\circ-70^\\circ}{2}=55^\\circ$. Also $\\angle OPT=90^\\circ$, so $\\angle OPQ=90^\\circ-55^\\circ=35^\\circ$ (this is the result $\\angle PTQ=2\\angle OPQ$). Traps: answering $55^\\circ$ ($\\angle TPQ$) or forgetting to subtract.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$70^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$35^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$55^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$20^\\circ$"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-025",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Angle between tangents",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle with centre $O$, and $\\angle OAB=25^\\circ$. Find $\\angle APB$.",
+  "image": {
+   "src": "/img/c10-ma-circles/oab25.svg",
+   "alt": "Tangents PA and PB with the chord AB, angle OAB equal to 25 degrees"
+  },
+  "hint": "$OA=OB$, so $\\triangle OAB$ is isosceles. Then use that $\\angle AOB$ and $\\angle APB$ are supplementary.",
+  "explanation": "$OA=OB$ gives $\\angle OBA=25^\\circ$, so $\\angle AOB=180^\\circ-50^\\circ=130^\\circ$. The angle between the tangents is supplementary to $\\angle AOB$: $\\angle APB=180^\\circ-130^\\circ=50^\\circ$. Traps: stopping at $\\angle AOB=130^\\circ$, giving $\\angle PAB=65^\\circ$, or $180^\\circ-25^\\circ$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$130^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$65^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$50^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$155^\\circ$"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-math-circles-026",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Angle between tangents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "The tangents $PA$ and $PB$ from $P$ meet at the angle $\\angle APB$. Match each with the angle $\\angle AOB$ subtended at the centre $O$ by the chord $AB$.",
+  "image": {
+   "src": "/img/c10-ma-circles/apb-aob.svg",
+   "alt": "Tangents PA and PB with angles x at P and y at O"
+  },
+  "hint": "In the quadrilateral $OAPB$ two angles are right angles.",
+  "explanation": "In quadrilateral $OAPB$, $\\angle OAP=\\angle OBP=90^\\circ$, so $\\angle APB+\\angle AOB=360^\\circ-180^\\circ=180^\\circ$. The two angles are supplementary: $40+140$, $50+130$, $60+120$, $70+110$.",
+  "left": [
+   {
+    "id": "l40",
+    "text": "$\\angle APB=40^\\circ$"
+   },
+   {
+    "id": "l50",
+    "text": "$\\angle APB=50^\\circ$"
+   },
+   {
+    "id": "l60",
+    "text": "$\\angle APB=60^\\circ$"
+   },
+   {
+    "id": "l70",
+    "text": "$\\angle APB=70^\\circ$"
+   }
+  ],
+  "right": [
+   {
+    "id": "r140",
+    "text": "$\\angle AOB=140^\\circ$"
+   },
+   {
+    "id": "r130",
+    "text": "$\\angle AOB=130^\\circ$"
+   },
+   {
+    "id": "r120",
+    "text": "$\\angle AOB=120^\\circ$"
+   },
+   {
+    "id": "r110",
+    "text": "$\\angle AOB=110^\\circ$"
+   }
+  ],
+  "pairs": {
+   "l40": "r140",
+   "l50": "r130",
+   "l60": "r120",
+   "l70": "r110"
+  }
+ },
+ {
+  "id": "in-cbse-10-math-circles-027",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle with centre $O$. Select **all** the true statements.",
+  "image": {
+   "src": "/img/c10-ma-circles/ext-sym.svg",
+   "alt": "Tangents PA and PB, radii OA and OB, line OP and chord AB"
+  },
+  "hint": "Use the symmetry of the figure about the line $OP$.",
+  "explanation": "The figure is symmetrical about $OP$: $PA=PB$ (Theorem 10.2), $OP$ bisects $\\angle APB$, and $OP$ is the perpendicular bisector of the chord $AB$. Also $\\angle OAP=90^\\circ$ by Theorem 10.1. $OP$ and $AB$ generally differ in length, and $\\angle APB+\\angle AOB=180^\\circ$, so they are not equal (unless both are $90^\\circ$, which cannot be used as a general rule).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$PA=PB$"
+   },
+   {
+    "id": "b",
+    "text": "$\\angle OPA=\\angle OPB$"
+   },
+   {
+    "id": "c",
+    "text": "$OP\\perp AB$"
+   },
+   {
+    "id": "d",
+    "text": "$OP=AB$"
+   },
+   {
+    "id": "e",
+    "text": "$\\angle APB=\\angle AOB$"
+   },
+   {
+    "id": "f",
+    "text": "$\\angle OAP=90^\\circ$"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "f"
+  ]
+ },
+ {
+  "id": "in-cbse-10-math-circles-028",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Theorem 10.2",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "Arrange the steps of the proof that **the lengths of tangents drawn from an external point to a circle are equal** ($PQ$ and $PR$ are the tangents from $P$).",
+  "image": {
+   "src": "/img/c10-ma-circles/thm102.svg",
+   "alt": "Tangents PQ and PR from P with radii OQ and OR, line OP and right angle marks"
+  },
+  "hint": "Construction, right angles, then the congruence, then the conclusion.",
+  "explanation": "After joining the radii, Theorem 10.1 gives two right angles. Hypotenuse $OP$ is common and the radii are equal, so RHS gives $\\triangle OQP\\cong\\triangle ORP$ and the corresponding sides $PQ$ and $PR$ are equal.",
+  "items": [
+   {
+    "id": "s4",
+    "text": "$\\triangle OQP\\cong\\triangle ORP$ by RHS congruence"
+   },
+   {
+    "id": "s1",
+    "text": "Join $OP$, $OQ$ and $OR$"
+   },
+   {
+    "id": "s5",
+    "text": "Therefore $PQ=PR$ by CPCT"
+   },
+   {
+    "id": "s3",
+    "text": "In right triangles $OQP$ and $ORP$: $OQ=OR$ (radii) and $OP=OP$ (common)"
+   },
+   {
+    "id": "s2",
+    "text": "$\\angle OQP=\\angle ORP=90^\\circ$, because a tangent is perpendicular to the radius at the point of contact"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First step",
+  "endLabel": "Last step"
+ },
+ {
+  "id": "in-cbse-10-math-circles-029",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Theorem 10.2",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "match",
+  "prompt": "In the proof of Theorem 10.2, match each statement with the reason that justifies it.",
+  "image": {
+   "src": "/img/c10-ma-circles/thm102b.svg",
+   "alt": "Tangents PQ and PR from P with equal radii OQ and OR marked and the common side OP"
+  },
+  "hint": "The tick marks show which two segments are radii.",
+  "explanation": "$OQ$ and $OR$ are radii of one circle. $OP$ belongs to both triangles, so it is common. Right angle, hypotenuse and a side give RHS. Corresponding parts of congruent triangles are equal (CPCT), so $PQ=PR$.",
+  "left": [
+   {
+    "id": "a",
+    "text": "$OQ=OR$"
+   },
+   {
+    "id": "b",
+    "text": "$OP=OP$"
+   },
+   {
+    "id": "c",
+    "text": "$\\triangle OQP\\cong\\triangle ORP$"
+   },
+   {
+    "id": "d",
+    "text": "$PQ=PR$"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "Radii of the same circle"
+   },
+   {
+    "id": "r2",
+    "text": "Common side"
+   },
+   {
+    "id": "r3",
+    "text": "RHS congruence"
+   },
+   {
+    "id": "r4",
+    "text": "CPCT"
+   }
+  ],
+  "pairs": {
+   "a": "r1",
+   "b": "r2",
+   "c": "r3",
+   "d": "r4"
+  }
+ },
+ {
+  "id": "in-cbse-10-math-circles-030",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange the steps that prove $\\angle PTQ=2\\angle OPQ$ for the tangents $TP$ and $TQ$ from $T$.",
+  "image": {
+   "src": "/img/c10-ma-circles/ex2.svg",
+   "alt": "Tangents TP and TQ with the chord PQ and the angle at T marked theta"
+  },
+  "hint": "Find $\\angle TPQ$ first, then subtract it from the right angle.",
+  "explanation": "Equal tangents make $\\triangle TPQ$ isosceles, giving $\\angle TPQ=90^\\circ-\\theta/2$. The right angle at $P$ minus this leaves $\\angle OPQ=\\theta/2$, i.e. $\\angle PTQ=2\\angle OPQ$.",
+  "items": [
+   {
+    "id": "s4",
+    "text": "$\\angle OPQ=\\angle OPT-\\angle TPQ=90^\\circ-\\left(90^\\circ-\\frac{\\theta}{2}\\right)=\\frac{\\theta}{2}$"
+   },
+   {
+    "id": "s2",
+    "text": "$\\angle TPQ=\\frac12(180^\\circ-\\theta)=90^\\circ-\\frac{\\theta}{2}$"
+   },
+   {
+    "id": "s5",
+    "text": "Hence $\\angle PTQ=\\theta=2\\angle OPQ$"
+   },
+   {
+    "id": "s1",
+    "text": "Let $\\angle PTQ=\\theta$. Since $TP=TQ$, $\\triangle TPQ$ is isosceles"
+   },
+   {
+    "id": "s3",
+    "text": "$\\angle OPT=90^\\circ$, because the radius $OP$ is perpendicular to the tangent"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First step",
+  "endLabel": "Last step"
+ },
+ {
+  "id": "in-cbse-10-math-circles-031",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "$PQ$ is a chord of length $12$ cm of a circle of radius $10$ cm. The tangents at $P$ and $Q$ meet at $T$. Find the length $TP$.",
+  "image": {
+   "src": "/img/c10-ma-circles/chord-tt.svg",
+   "alt": "Circle of radius 10 with chord PQ of length 12 and tangents at P and Q meeting at T"
+  },
+  "hint": "$OT$ bisects $PQ$ at right angles. Use similar triangles $TRP$ and $PRO$.",
+  "explanation": "$OT\\perp PQ$ and $R$ is the midpoint of $PQ$, so $PR=6$ cm and $OR=\\sqrt{10^2-6^2}=8$ cm. Right triangles $TRP$ and $PRO$ are similar (AA), so $\\frac{TP}{PR}=\\frac{PO}{RO}$, i.e. $TP=\\frac{6\\times10}{8}=\\frac{15}{2}$ cm. Traps: inverting the ratio ($\\frac{40}{3}$), adding $6+8$, or taking $TP=OP$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$\\dfrac{15}{2}$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$\\dfrac{40}{3}$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$14$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$10$ cm"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-032",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "order",
+  "prompt": "Arrange the steps for finding $TP$ when $PQ=12$ cm is a chord of a circle of radius $10$ cm and the tangents at $P$ and $Q$ meet at $T$.",
+  "image": {
+   "src": "/img/c10-ma-circles/chord-tt.svg",
+   "alt": "Circle of radius 10 with chord PQ of length 12 and tangents at P and Q meeting at T"
+  },
+  "hint": "Find $OR$ before you can use similar triangles.",
+  "explanation": "First locate $R$ and the half-chord, then get $OR$ by Pythagoras, then use similarity to relate $TP$ to the known sides.",
+  "items": [
+   {
+    "id": "s3",
+    "text": "$\\angle RPO=\\angle PTR$, so right $\\triangle TRP\\sim$ right $\\triangle PRO$ by AA"
+   },
+   {
+    "id": "s5",
+    "text": "So $TP=\\dfrac{6\\times10}{8}=\\dfrac{15}{2}$ cm"
+   },
+   {
+    "id": "s1",
+    "text": "Join $OT$ to meet $PQ$ at $R$. As $TP=TQ$, $OT\\perp PQ$ and $PR=6$ cm"
+   },
+   {
+    "id": "s4",
+    "text": "From the similarity, $\\dfrac{TP}{PR}=\\dfrac{PO}{RO}$"
+   },
+   {
+    "id": "s2",
+    "text": "In right $\\triangle ORP$: $OR=\\sqrt{OP^2-PR^2}=\\sqrt{100-36}=8$ cm"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First step",
+  "endLabel": "Last step"
+ },
+ {
+  "id": "in-cbse-10-math-circles-033",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "From a point $P$ at $25$ cm from the centre $O$ of a circle of radius $15$ cm, two tangents $PA$ and $PB$ are drawn. Find the length of the chord $AB$ joining the points of contact.",
+  "image": {
+   "src": "/img/c10-ma-circles/chord-contact.svg",
+   "alt": "Point P at 25 cm from O with tangents PA, PB and chord AB of a circle of radius 15 cm"
+  },
+  "hint": "Find $PA$ first. Then use that $AB$ is the perpendicular bisector-pair partner of $OP$ and compare areas of $\\triangle OAP$.",
+  "explanation": "$PA=\\sqrt{25^2-15^2}=20$ cm. In right $\\triangle OAP$ the altitude from $A$ to $OP$ is $\\frac{OA\\times AP}{OP}=\\frac{15\\times20}{25}=12$ cm, and this is half of $AB$ (since $OP$ bisects $AB$ at right angles). So $AB=24$ cm. Traps: giving the tangent length $20$, the half-chord $12$, or the diameter $30$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$20$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$12$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$30$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$24$ cm"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-math-circles-034",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Concentric circles",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Two concentric circles have radii $17$ cm and $8$ cm. Find the length of the chord of the larger circle that touches the smaller circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/concentric.svg",
+   "alt": "Two concentric circles of radii 17 and 8 with a chord AB of the larger circle touching the smaller circle at P"
+  },
+  "hint": "The chord is a tangent to the small circle, so $OP\\perp AB$; then use right triangle $OPA$.",
+  "explanation": "$AB$ touches the smaller circle at $P$, so $OP\\perp AB$ and $OP=8$. In right $\\triangle OPA$: $AP=\\sqrt{17^2-8^2}=15$ cm. The perpendicular from the centre bisects the chord, so $AB=2\\times15=30$ cm. Traps: giving only the half ($15$), the diameter ($34$) or $2\\times8$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$15$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$34$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$30$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$16$ cm"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-math-circles-035",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Concentric circles",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The chord $AB$ of the larger circle touches the smaller circle at the small dot. Tap the **radius of the smaller circle drawn to the point of contact**.",
+  "image": {
+   "src": "/img/c10-ma-circles/conc-hs.svg",
+   "alt": "Two concentric circles with a chord AB of the larger circle touching the smaller one, with numbered markers"
+  },
+  "hint": "It joins the common centre to the point where $AB$ touches the smaller circle.",
+  "explanation": "The radius to the point of contact is perpendicular to the tangent $AB$, and it therefore bisects $AB$. The chord itself, the circles and the centre are different parts of the diagram.",
+  "spots": [
+   {
+    "id": "chord",
+    "x": 50.0,
+    "y": 76.5,
+    "label": "Chord AB"
+   },
+   {
+    "id": "rad",
+    "x": 50.0,
+    "y": 63.3,
+    "label": "Radius OP of the smaller circle"
+   },
+   {
+    "id": "small",
+    "x": 35.1,
+    "y": 40.9,
+    "label": "Smaller circle"
+   },
+   {
+    "id": "large",
+    "x": 74.0,
+    "y": 31.3,
+    "label": "Larger circle"
+   },
+   {
+    "id": "cen",
+    "x": 50.0,
+    "y": 50.0,
+    "label": "Centre O"
+   }
+  ],
+  "answer": "rad"
+ },
+ {
+  "id": "in-cbse-10-math-circles-036",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Concentric circles",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "multi",
+  "prompt": "A chord $AB$ of the larger of two concentric circles with centre $O$ touches the smaller circle at $P$. Select **all** the true statements.",
+  "image": {
+   "src": "/img/c10-ma-circles/conc-hs.svg",
+   "alt": "Two concentric circles with a chord AB of the larger circle touching the smaller one"
+  },
+  "hint": "Apply Theorem 10.1 to the smaller circle.",
+  "explanation": "$AB$ is a tangent to the smaller circle at $P$, so $OP\\perp AB$. The perpendicular from the centre of the larger circle bisects its chord $AB$, so $AP=BP$. $OA$ is the radius of the larger circle and $OP$ of the smaller, so $OA>OP$. $AB$ does not pass through $O$ (it would then be a diameter, cutting the smaller circle twice).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$AP=BP$"
+   },
+   {
+    "id": "b",
+    "text": "$OP\\perp AB$"
+   },
+   {
+    "id": "c",
+    "text": "$AB$ is a tangent to the smaller circle"
+   },
+   {
+    "id": "d",
+    "text": "$AB$ passes through $O$"
+   },
+   {
+    "id": "e",
+    "text": "$OP=OA$"
+   },
+   {
+    "id": "f",
+    "text": "$OA>OP$"
+   }
+  ],
+  "answers": [
+   "a",
+   "b",
+   "c",
+   "f"
+  ]
+ },
+ {
+  "id": "in-cbse-10-math-circles-037",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent length in context",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A circular park has a radius of $20$ m. A straight path starts at a gate $G$, which is $29$ m from the centre of the park, and just touches the park boundary at $T$. How long is the path $GT$?",
+  "image": {
+   "src": "/img/c10-ma-circles/park.svg",
+   "alt": "Top view of a circular park with a gate G outside and a straight path from G touching the boundary at T"
+  },
+  "hint": "The path is a tangent; $OT$ is the radius to the point of contact.",
+  "explanation": "$OT\\perp GT$, so $GT^2=OG^2-OT^2=29^2-20^2=441$ and $GT=21$ m. Traps: subtracting lengths ($29-20=9$), using $OG$, or adding the squares ($\\sqrt{1241}$).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$9$ m"
+   },
+   {
+    "id": "b",
+    "text": "$21$ m"
+   },
+   {
+    "id": "c",
+    "text": "$29$ m"
+   },
+   {
+    "id": "d",
+    "text": "$\\sqrt{1241}$ m"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-038",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangent length",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "order",
+  "prompt": "The centre $O$ of a circle of radius $r$ is at distance $d$ from an external point $Q$. $QP$ touches the circle at $P$. Arrange the steps to find $QP$.",
+  "image": {
+   "src": "/img/c10-ma-circles/tan-oq.svg",
+   "alt": "Circle with centre O, external point Q and tangent QP with radius OP"
+  },
+  "hint": "The right angle must be established before Pythagoras is used.",
+  "explanation": "The right angle at $P$ (Theorem 10.1) is what makes the Pythagoras theorem available. Then rearrange for the unknown side.",
+  "items": [
+   {
+    "id": "s5",
+    "text": "Take the square root: $PQ=\\sqrt{d^2-r^2}$"
+   },
+   {
+    "id": "s2",
+    "text": "$OP\\perp PQ$ by Theorem 10.1, so $\\triangle OPQ$ is right-angled at $P$"
+   },
+   {
+    "id": "s1",
+    "text": "Join $OP$, the radius to the point of contact"
+   },
+   {
+    "id": "s4",
+    "text": "Rearrange: $PQ^2=OQ^2-OP^2=d^2-r^2$"
+   },
+   {
+    "id": "s3",
+    "text": "Apply Pythagoras: $OQ^2=OP^2+PQ^2$"
+   }
+  ],
+  "answer": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ],
+  "startLabel": "First step",
+  "endLabel": "Last step"
+ },
+ {
+  "id": "in-cbse-10-math-circles-039",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A circle is inscribed in $\\triangle ABC$, touching $BC$ at $D$, $CA$ at $E$ and $AB$ at $F$. If $BD=9$ cm, $DC=5$ cm and $AB=17$ cm, find $AC$.",
+  "image": {
+   "src": "/img/c10-ma-circles/tri-incircle.svg",
+   "alt": "Triangle ABC with its inscribed circle touching BC at D, CA at E and AB at F"
+  },
+  "hint": "Tangent lengths from the same vertex are equal: $BF=BD$, $CE=CD$, $AE=AF$.",
+  "explanation": "$BF=BD=9$, so $AF=17-9=8$. Then $AE=AF=8$ and $CE=CD=5$, so $AC=AE+EC=8+5=13$ cm. Traps: mixing the vertices ($17-5+9=21$), adding $AB+CD$ ($22$) or using $BD+DC=14$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$21$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$22$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$14$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$13$ cm"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-math-circles-040",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The circle touches the sides of $\\triangle ABC$ at $D$, $E$ and $F$. Tap the segment that is **equal in length to $AF$**.",
+  "image": {
+   "src": "/img/c10-ma-circles/tri-incircle.svg",
+   "alt": "Triangle ABC with an inscribed circle touching the sides at D, E and F, with numbered markers"
+  },
+  "hint": "Both segments start at the same vertex.",
+  "explanation": "$AF$ and $AE$ are the two tangents drawn from the external point $A$ to the circle, so $AE=AF$ (Theorem 10.2). $BD$ and $CD$ come from other vertices and have different lengths, and $OD$ is a radius.",
+  "spots": [
+   {
+    "id": "ae",
+    "x": 68.1,
+    "y": 35.6,
+    "label": "Tangent segment AE"
+   },
+   {
+    "id": "bd",
+    "x": 41.2,
+    "y": 87.5,
+    "label": "Tangent segment BD"
+   },
+   {
+    "id": "cd",
+    "x": 65.9,
+    "y": 87.5,
+    "label": "Tangent segment CD"
+   },
+   {
+    "id": "od",
+    "x": 57.1,
+    "y": 75.6,
+    "label": "Radius OD"
+   }
+  ],
+  "answer": "ae"
+ },
+ {
+  "id": "in-cbse-10-math-circles-041",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Circumscribed quadrilateral",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A quadrilateral $ABCD$ is drawn to circumscribe a circle. If $AB=10$ cm, $BC=15$ cm and $CD=15$ cm, find $AD$.",
+  "image": {
+   "src": "/img/c10-ma-circles/kite.svg",
+   "alt": "A kite ABCD whose four sides touch a circle with centre O"
+  },
+  "hint": "In a quadrilateral circumscribing a circle, sums of opposite sides are equal.",
+  "explanation": "The four sides are tangents, so $AB+CD=AD+BC$ (tangent lengths from each vertex cancel in pairs). $AD=AB+CD-BC=10+15-15=10$ cm. Traps: adding the three sides ($40$), using $BC+CD-AB$ ($20$), or subtracting only two ($15-10=5$).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$10$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$40$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$20$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$5$ cm"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-042",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Circumscribed quadrilateral",
+  "difficulty": "easy",
+  "marks": 1,
+  "type": "hotspot",
+  "prompt": "The circle touches all four sides of $ABCD$. Tap the **point where side $BC$ touches the circle**.",
+  "image": {
+   "src": "/img/c10-ma-circles/quad-hs.svg",
+   "alt": "A quadrilateral ABCD around a circle with centre O and numbered markers"
+  },
+  "hint": "Look for the contact point on the side joining $B$ and $C$.",
+  "explanation": "The red dots show where the four sides touch the circle. The one on the side from $B$ to $C$ is the point of contact of $BC$. The radius to it is perpendicular to $BC$.",
+  "spots": [
+   {
+    "id": "ab",
+    "x": 47.8,
+    "y": 88.3,
+    "label": "Point of contact on AB"
+   },
+   {
+    "id": "bc",
+    "x": 70.4,
+    "y": 56.7,
+    "label": "Point of contact on BC"
+   },
+   {
+    "id": "cd",
+    "x": 47.8,
+    "y": 11.7,
+    "label": "Point of contact on CD"
+   },
+   {
+    "id": "da",
+    "x": 24.8,
+    "y": 50.0,
+    "label": "Point of contact on DA"
+   },
+   {
+    "id": "o",
+    "x": 47.8,
+    "y": 50.0,
+    "label": "Centre O"
+   }
+  ],
+  "answer": "bc"
+ },
+ {
+  "id": "in-cbse-10-math-circles-043",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Circumscribed quadrilateral",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "multi",
+  "prompt": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$. Select **all** the true statements.",
+  "image": {
+   "src": "/img/c10-ma-circles/quad-multi.svg",
+   "alt": "A quadrilateral ABCD whose sides all touch a circle with centre O"
+  },
+  "hint": "Equal tangents from each vertex give a relation between opposite sides.",
+  "explanation": "Write the tangent lengths from $A,B,C,D$ as $a,b,c,d$: $AB+CD=(a+b)+(c+d)=AD+BC$. So the perimeter is $2(AB+CD)$. Opposite sides subtend supplementary angles at $O$. But $AB+BC=CD+DA$ would force extra equalities, and $\\angle AOB=\\angle COD$ only holds in special cases (e.g. the picture has them different).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$AB+CD=AD+BC$"
+   },
+   {
+    "id": "b",
+    "text": "$AB+BC=CD+DA$ in every such quadrilateral"
+   },
+   {
+    "id": "c",
+    "text": "The perimeter equals $2(AB+CD)$"
+   },
+   {
+    "id": "d",
+    "text": "$\\angle AOB+\\angle COD=180^\\circ$"
+   },
+   {
+    "id": "e",
+    "text": "$\\angle AOB=\\angle COD$ in every such quadrilateral"
+   }
+  ],
+  "answers": [
+   "a",
+   "c",
+   "d"
+  ]
+ },
+ {
+  "id": "in-cbse-10-math-circles-044",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Circumscribed quadrilateral",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "A parallelogram $ABCD$ circumscribes a circle and $AB=7$ cm. Find the perimeter of $ABCD$.",
+  "image": {
+   "src": "/img/c10-ma-circles/rhombus.svg",
+   "alt": "A parallelogram ABCD around a circle which turns out to be a rhombus"
+  },
+  "hint": "A parallelogram has $AB=CD$ and $AD=BC$. Combine with $AB+CD=AD+BC$.",
+  "explanation": "For a circumscribed quadrilateral, $AB+CD=AD+BC$. In a parallelogram $AB=CD$ and $AD=BC$, so $2AB=2AD$, i.e. $AB=AD$: all sides are equal and it is a **rhombus**. Perimeter $=4\\times7=28$ cm. Traps: $2\\times7=14$, $7^2=49$ or $3\\times7=21$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$14$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$28$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$49$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$21$ cm"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-045",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Circumscribed quadrilateral",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$ and $\\angle AOB=105^\\circ$. Find $\\angle COD$.",
+  "image": {
+   "src": "/img/c10-ma-circles/quad-cod.svg",
+   "alt": "A quadrilateral ABCD around a circle with angle AOB equal to 105 degrees"
+  },
+  "hint": "Opposite sides of a circumscribed quadrilateral subtend supplementary angles at the centre.",
+  "explanation": "Each vertex lies on the bisector of the angle between its two contact radii. The four angles at $O$ total $360^\\circ$, and $\\angle AOB+\\angle COD=\\angle BOC+\\angle DOA=180^\\circ$. So $\\angle COD=180^\\circ-105^\\circ=75^\\circ$. Traps: assuming it equals $\\angle AOB$, using $360^\\circ-105^\\circ=255^\\circ$, or guessing $90^\\circ$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$105^\\circ$"
+   },
+   {
+    "id": "b",
+    "text": "$255^\\circ$"
+   },
+   {
+    "id": "c",
+    "text": "$75^\\circ$"
+   },
+   {
+    "id": "d",
+    "text": "$90^\\circ$"
+   }
+  ],
+  "answer": "c"
+ },
+ {
+  "id": "in-cbse-10-math-circles-046",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle. A third tangent touches the circle at $C$ on the minor arc $AB$ and meets $PA$ at $D$ and $PB$ at $E$. If $PA=11$ cm, find the perimeter of $\\triangle PDE$.",
+  "image": {
+   "src": "/img/c10-ma-circles/third-tangent.svg",
+   "alt": "Tangents PA and PB and a third tangent DE touching the circle at C"
+  },
+  "hint": "Replace $DC$ by $DA$ and $EC$ by $EB$ using equal tangents.",
+  "explanation": "$DC=DA$ and $EC=EB$ (tangents from $D$ and $E$), and $PA=PB=11$. Perimeter $=PD+DE+EP=PD+(DC+CE)+EP=(PD+DA)+(EB+EP)=PA+PB=22$ cm. Traps: giving one tangent ($11$), or $3\\times11$, $4\\times11$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "$22$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$11$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$33$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$44$ cm"
+   }
+  ],
+  "answer": "a"
+ },
+ {
+  "id": "in-cbse-10-math-circles-047",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Tangents from an external point",
+  "difficulty": "hard",
+  "marks": 3,
+  "type": "mcq",
+  "prompt": "A circle is inscribed in a right triangle $ABC$ with the right angle at $B$, $AB=6$ cm and $BC=8$ cm. Find the radius of the circle.",
+  "image": {
+   "src": "/img/c10-ma-circles/rt-incircle.svg",
+   "alt": "A right triangle ABC with a circle inscribed touching all three sides"
+  },
+  "hint": "Join the centre to the points of contact on $AB$ and $BC$; what shape is formed at $B$?",
+  "explanation": "The radii to the contact points on $AB$ and $BC$ are perpendicular to those sides, so with the right angle at $B$ they form a square of side $r$: $BF=BD=r$. Then $AF=6-r$, $CD=8-r$ and $AC=AF+CD=14-2r$. Since $AC=10$, $2r=4$ and $r=2$ cm. Traps: $\\frac{6\\times8}{10}=4.8$ (the altitude to the hypotenuse), area $\\div$ perimeter ($1$), or $a+b-c=4$ (forgetting to halve).",
+  "options": [
+   {
+    "id": "a",
+    "text": "$4.8$ cm"
+   },
+   {
+    "id": "b",
+    "text": "$1$ cm"
+   },
+   {
+    "id": "c",
+    "text": "$4$ cm"
+   },
+   {
+    "id": "d",
+    "text": "$2$ cm"
+   }
+  ],
+  "answer": "d"
+ },
+ {
+  "id": "in-cbse-10-math-circles-048",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Angle between tangents",
+  "difficulty": "medium",
+  "marks": 2,
+  "type": "mcq",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle and they are inclined at $60^\\circ$. Which kind of triangle is $\\triangle PAB$?",
+  "image": {
+   "src": "/img/c10-ma-circles/apb-aob.svg",
+   "alt": "Tangents PA and PB meeting at 60 degrees at P"
+  },
+  "hint": "Use $PA=PB$ to find the other two angles.",
+  "explanation": "$PA=PB$ (equal tangents), so $\\angle PAB=\\angle PBA=\\frac{180^\\circ-60^\\circ}{2}=60^\\circ$. All three angles are $60^\\circ$, so $\\triangle PAB$ is equilateral. It is not scalene because two sides are equal, and no angle is $90^\\circ$.",
+  "options": [
+   {
+    "id": "a",
+    "text": "Right-angled isosceles"
+   },
+   {
+    "id": "b",
+    "text": "Equilateral"
+   },
+   {
+    "id": "c",
+    "text": "Scalene"
+   },
+   {
+    "id": "d",
+    "text": "Isosceles but not equilateral"
+   }
+  ],
+  "answer": "b"
+ },
+ {
+  "id": "in-cbse-10-math-circles-049",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Number of tangents",
+  "difficulty": "easy",
+  "marks": 2,
+  "type": "match",
+  "prompt": "Match each situation with the number of tangents that can be drawn.",
+  "image": {
+   "src": "/img/c10-ma-circles/three-points.svg",
+   "alt": "A circle with a point A inside, B on the circle and C outside"
+  },
+  "hint": "Think of $A$, $B$ and $C$ in the picture.",
+  "explanation": "Inside: every line cuts the circle twice, so no tangent. On the circle: one and only one tangent (perpendicular to the radius). Outside: exactly two tangents. Lines through a point on the circle that also cut it again are secants, and there are infinitely many of these.",
+  "left": [
+   {
+    "id": "a",
+    "text": "Tangents from a point **inside** the circle"
+   },
+   {
+    "id": "b",
+    "text": "Tangents at a point **on** the circle"
+   },
+   {
+    "id": "c",
+    "text": "Tangents from a point **outside** the circle"
+   },
+   {
+    "id": "d",
+    "text": "Secants through a point **on** the circle"
+   }
+  ],
+  "right": [
+   {
+    "id": "r1",
+    "text": "None"
+   },
+   {
+    "id": "r2",
+    "text": "Exactly one"
+   },
+   {
+    "id": "r3",
+    "text": "Exactly two"
+   },
+   {
+    "id": "r4",
+    "text": "Infinitely many"
+   }
+  ],
+  "pairs": {
+   "a": "r1",
+   "b": "r2",
+   "c": "r3",
+   "d": "r4"
+  }
+ },
+ {
+  "id": "in-cbse-10-math-circles-050",
+  "region": "IN",
+  "board": "CBSE",
+  "grade": 10,
+  "subject": "maths",
+  "chapter": "Circles",
+  "chapterNo": 10,
+  "topic": "Lengths of tangents",
+  "difficulty": "medium",
+  "marks": 1,
+  "type": "assertion_reason",
+  "prompt": "Read the Assertion (A) and Reason (R) carefully.",
+  "image": {
+   "src": "/img/c10-ma-circles/ext-perp.svg",
+   "alt": "Two tangents from an outside point P to a circle meeting at 60 degrees"
+  },
+  "hint": "Look at the angle between the tangents in the picture.",
+  "explanation": "A is true (Theorem 10.2) but R is false. The angle between the two tangents depends on how far $P$ is from the circle; the picture shows $60^\\circ$. They are perpendicular only when $P$ is at distance $r\\sqrt2$ from the centre.",
+  "assertion": "The two tangents drawn from an external point to a circle are equal in length.",
+  "reason": "The two tangents drawn from an external point to a circle are always perpendicular to each other.",
+  "answer": "c"
+ }
+]

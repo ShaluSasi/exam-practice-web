@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Bars: 20 workers after expansion and seven workers now</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.sw,.blk,.fall,.drift,.grow,.mv,.mv2{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.12)}}
+.spin{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise 2.6s ease-out infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-22px);opacity:0}}
+.sway{transform-origin:50% 100%;animation:sway 3s ease-in-out infinite alternate}
+@keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+.sw{animation:sw 3.5s ease-in-out infinite alternate}
+@keyframes sw{from{transform:translateX(-12px)}to{transform:translateX(12px)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.3}}
+.grow{transform-origin:50% 100%;animation:grow 3s ease-in-out infinite alternate}
+@keyframes grow{from{transform:scaleY(.82)}to{transform:scaleY(1)}}
+.mv{animation:mv 3s ease-in-out infinite alternate}
+@keyframes mv{from{transform:translateX(-18px)}to{transform:translateX(18px)}}
+.mv2{animation:mv2 3s ease-in-out infinite alternate}
+@keyframes mv2{from{transform:translateX(18px)}to{transform:translateX(-18px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><path d="M80 190.0H380" stroke="#D5D9E5" stroke-width="1.5"/><text x="74" y="194.0" font-size="11" text-anchor="end">0</text><path d="M80 152.5H380" stroke="#D5D9E5" stroke-width="1.5"/><text x="74" y="156.5" font-size="11" text-anchor="end">5</text><path d="M80 115.0H380" stroke="#D5D9E5" stroke-width="1.5"/><text x="74" y="119.0" font-size="11" text-anchor="end">10</text><path d="M80 77.5H380" stroke="#D5D9E5" stroke-width="1.5"/><text x="74" y="81.5" font-size="11" text-anchor="end">15</text><path d="M80 40.0H380" stroke="#D5D9E5" stroke-width="1.5"/><text x="74" y="44.0" font-size="11" text-anchor="end">20</text><path d="M80 36V190H380" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="112" y="40.0" width="76" height="150.0" rx="5" fill="#0B93D4" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="150" y="33.0" font-size="13" text-anchor="middle">20</text><text x="150" y="210" font-size="12" text-anchor="middle">After expansion</text><rect x="252" y="137.5" width="76" height="52.5" rx="5" fill="#E5484D" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="290" y="130.5" font-size="13" text-anchor="middle">7</text><text x="290" y="210" font-size="12" text-anchor="middle">Now</text><text x="230" y="22" font-size="13" text-anchor="middle">Workers in Ravi's unit</text></svg>

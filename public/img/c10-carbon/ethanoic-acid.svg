@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Structure of ethanoic acid</title>
+<style>
+.pl{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+.fl{animation:fl .7s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,.9)}to{transform:scale(1,1.1)}}
+.rise{animation:rise 2.4s ease-in infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+.rise2{animation:rise 2.4s ease-in 1.2s infinite}
+.rise3{animation:rise 2.4s ease-in .6s infinite}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<line x1="144.5" y1="127.5" x2="190.5" y2="127.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="132.5" y1="115.5" x2="132.5" y2="89.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="132.5" y1="139.5" x2="132.5" y2="165.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="120.5" y1="127.5" x2="94.5" y2="127.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="199.3" y1="115.5" x2="199.3" y2="74.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="205.7" y1="115.5" x2="205.7" y2="74.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="213.7" y1="131.8" x2="256.3" y2="148.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="279.5" y1="152.5" x2="305.5" y2="152.5" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><text x="132.5" y="134.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#2B2F4A" text-anchor="middle" >C</text><text x="132.5" y="84.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#4A90C2" text-anchor="middle" >H</text><text x="132.5" y="184.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#4A90C2" text-anchor="middle" >H</text><text x="82.5" y="134.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#4A90C2" text-anchor="middle" >H</text><text x="202.5" y="134.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#2B2F4A" text-anchor="middle" >C</text><text x="202.5" y="69.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#E5484D" text-anchor="middle" >O</text><text x="267.5" y="159.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#E5484D" text-anchor="middle" >O</text><text x="317.5" y="159.7" font-family="sans-serif" font-size="20" font-weight="700" fill="#4A90C2" text-anchor="middle" >H</text>
+</svg>

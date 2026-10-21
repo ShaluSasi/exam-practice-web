@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img"><title>Four bars: democratic 3.95, dictatorial 4.42, poor dictatorship 4.34, poor democracy 4.28</title><style>text{font-family:sans-serif;font-weight:700;fill:#2B2F4A}
+.fl{stroke-dasharray:7 6;animation:fl 1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-13}}
+.bob,.pul,.spin,.rise,.sway,.blk,.drift,.rock{transform-box:fill-box;transform-origin:center}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.pul{animation:pul 2.4s ease-in-out infinite}
+@keyframes pul{50%{transform:scale(1.1)}}
+.spin{animation:spin 8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rspin{transform-box:fill-box;transform-origin:center;animation:rspin 8s linear infinite}
+@keyframes rspin{to{transform:rotate(-360deg)}}
+.blk{animation:blk 2s ease-in-out infinite}
+@keyframes blk{50%{opacity:.4}}
+.drift{animation:drift 3s ease-in-out infinite alternate}
+@keyframes drift{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+.rock{animation:rock 3s ease-in-out infinite alternate}
+@keyframes rock{from{transform:rotate(-1.5deg)}to{transform:rotate(1.5deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><defs><marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2F4A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#FF8A1F"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E5484D"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#3FA34D"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0B93D4"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7C5CFF"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#E3F2FD"/><text x="200" y="22" font-size="13" text-anchor="middle">Rate of economic growth, 1950-2000</text><rect x="45" y="75.2" width="52" height="94.8" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="71.0" y="69.2" font-size="12" text-anchor="middle">3.95</text><text x="71.0" y="186" font-size="11" text-anchor="middle">All</text><text x="71.0" y="199" font-size="11" text-anchor="middle">democratic</text><rect x="133" y="63.9" width="52" height="106.1" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="159.0" y="57.9" font-size="12" text-anchor="middle">4.42</text><text x="159.0" y="186" font-size="11" text-anchor="middle">All</text><text x="159.0" y="199" font-size="11" text-anchor="middle">dictatorial</text><rect x="221" y="65.8" width="52" height="104.2" rx="3" fill="#FF8A1F" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="247.0" y="59.8" font-size="12" text-anchor="middle">4.34</text><text x="247.0" y="186" font-size="11" text-anchor="middle">Poor,</text><text x="247.0" y="199" font-size="11" text-anchor="middle">dictatorship</text><rect x="309" y="67.3" width="52" height="102.7" rx="3" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="335.0" y="61.3" font-size="12" text-anchor="middle">4.28</text><text x="335.0" y="186" font-size="11" text-anchor="middle">Poor,</text><text x="335.0" y="199" font-size="11" text-anchor="middle">democracy</text><path d="M33 170H377" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>

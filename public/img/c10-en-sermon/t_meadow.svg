@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img"><title>A green meadow with flowers</title><style>
+.fl{animation:fl 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes fl{from{transform:scale(1,1)}to{transform:scale(.8,1.25)}}
+.sw{animation:sw 3s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes sw{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+.bob{animation:bob 2.2s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-5px)}}
+.tw{animation:tw 1.6s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:1}to{opacity:.25}}
+.rot{animation:rot 24s linear infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes rot{to{transform:rotate(360deg)}}
+.dr{animation:dr 4s ease-in-out infinite alternate}
+@keyframes dr{from{transform:translateX(-8px)}to{transform:translateX(8px)}}
+.fall{animation:fall 2s linear infinite}
+@keyframes fall{0%{transform:translateY(-6px);opacity:0}20%{opacity:1}100%{transform:translateY(22px);opacity:0}}
+.pu{animation:pu 1.8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes pu{from{transform:scale(1)}to{transform:scale(1.12)}}
+.d2{animation-delay:.5s}.d3{animation-delay:1s}.d4{animation-delay:1.5s}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style><rect width="100%" height="100%" rx="16" fill="#E3F2FD"/><path d="M0 80H200V134Q200 150 184 150H16Q0 150 0 134Z" fill="#9CD27D"/><g class="rot"><line x1="177.0" y1="32.0" x2="185.0" y2="32.0" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="172.020793202691" y1="44.02083735761105" x2="177.67763706278092" y2="49.67770199648684" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="159.99993755551324" y1="48.99999999988532" x2="159.9999081698724" y2="56.999999999831346" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="147.9791184876311" y1="44.020749047608795" x2="142.32223307004574" y2="49.67757212883646" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="143.00000000045875" y1="31.999875111026487" x2="135.00000000067462" y2="31.999816339744832" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="147.9792951076356" y1="19.979074333035452" x2="142.32249280534649" y2="14.322168136816842" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="160.00018733346027" y1="15.000000001032173" x2="160.00027549038273" y2="7.0000000015179005" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /><line x1="172.020969821398" y1="19.97933926304222" x2="177.67789679617354" y2="14.32255773976797" stroke="#FFC83D" stroke-width="3" stroke-linecap="round" /></g><circle cx="160" cy="32" r="12" fill="#FFC83D" stroke="#FF8A1F" stroke-width="3"/><circle cx="40" cy="100" r="6" fill="#FF8AA8" stroke="#2B2F4A" stroke-width="2"/><circle cx="90" cy="120" r="6" fill="#FFC83D" stroke="#2B2F4A" stroke-width="2"/><circle cx="140" cy="104" r="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/><circle cx="170" cy="126" r="6" fill="#FF8AA8" stroke="#2B2F4A" stroke-width="2"/><circle cx="60" cy="130" r="6" fill="#FFFFFF" stroke="#2B2F4A" stroke-width="2"/></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" role="img"><title>A judge at a desk hearing two people</title><style>text{font-family:sans-serif}
+.bob{animation:bob 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pulse{animation:pulse 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.flow{animation:flow 1.6s linear infinite}
+.slide{animation:slide 3s ease-in-out infinite}
+.grow{animation:grow 3s ease-in-out infinite;transform-box:fill-box;transform-origin:left center}
+.puff{animation:puff 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes sw{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes slide{0%,100%{transform:translateX(0)}50%{transform:translateX(26px)}}
+@keyframes grow{0%{transform:scaleX(.25)}60%,100%{transform:scaleX(1)}}
+@keyframes puff{0%{transform:translateY(0) scale(.6);opacity:.9}100%{transform:translateY(-26px) scale(1.3);opacity:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style><rect width="100%" height="100%" rx="16" fill="#FFF9EE"/><rect x="70" y="52" width="60" height="24" rx="6" fill="#D9B38C" stroke="#2B2F4A" stroke-width="3" /><circle cx="100" cy="31.1" r="6.3" fill="#F6C9A0" stroke="#2B2F4A" stroke-width="2.5" /><path d="M93.7,29.0 q6.3,-6.3 12.6,0" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><rect x="92.3" y="38.8" width="15.399999999999999" height="19.599999999999998" rx="4.8999999999999995" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2.5" /><line x1="96.5" y1="58.4" x2="96.5" y2="68.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="103.5" y1="58.4" x2="103.5" y2="68.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><circle cx="40" cy="79.1" r="6.3" fill="#F6C9A0" stroke="#2B2F4A" stroke-width="2.5" /><path d="M33.7,77.0 q6.3,-6.3 12.6,0" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><rect x="32.3" y="86.8" width="15.399999999999999" height="19.599999999999998" rx="4.8999999999999995" fill="#0B93D4" stroke="#2B2F4A" stroke-width="2.5" /><line x1="36.5" y1="106.4" x2="36.5" y2="116.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="43.5" y1="106.4" x2="43.5" y2="116.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><circle cx="160" cy="79.1" r="6.3" fill="#F6C9A0" stroke="#2B2F4A" stroke-width="2.5" /><path d="M153.7,77.0 q6.3,-6.3 12.6,0" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><rect x="152.3" y="86.8" width="15.399999999999999" height="19.599999999999998" rx="4.8999999999999995" fill="#E5484D" stroke="#2B2F4A" stroke-width="2.5" /><line x1="156.5" y1="106.4" x2="156.5" y2="116.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><line x1="163.5" y1="106.4" x2="163.5" y2="116.2" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" /><text x="100" y="142" font-size="12" font-weight="bold" fill="#2B2F4A" text-anchor="middle" >Both sides heard</text></svg>
