@@ -17,9 +17,10 @@ import { discardSavedRound, useSavedRound } from "../store/progress";
 import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
 
-const SUBJECTS = Object.keys(region.subjects) as SubjectId[];
-/** Classes shown in the practice-set builder. Only Class 9 for now; add the others back as their content grows. */
-const gradesWithQuestions = region.grades.filter((g) => g === 9);
+/** Subjects that have at least one question (the old combined "social" subject is empty now that it is split). */
+const SUBJECTS = (Object.keys(region.subjects) as SubjectId[]).filter((s) => questionBank.some((q) => q.subject === s));
+/** Classes shown in the practice-set builder: the ones that have questions. Add more as their content grows. */
+const gradesWithQuestions = region.grades.filter((g) => g === 9 || g === 10);
 
 /** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
 type StartRound = (qs: Question[], title: string, key?: string) => void;
@@ -283,9 +284,14 @@ function StartOver({ onConfirm }: { onConfirm: () => void }) {
 function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: StartRound }) {
   const lastSubject = useProfile((p) => p.lastSubject);
   const setLastSubject = useProfile((p) => p.setLastSubject);
-  const subjects = [...new Set(chapters.map((c) => c.subject))];
+  const lastGrade = useProfile((p) => p.lastGrade);
+  const setLastGrade = useProfile((p) => p.setLastGrade);
+  const grades = [...new Set(chapters.map((c) => c.grade))].sort((a, b) => a - b);
+  const grade = lastGrade && grades.includes(lastGrade) ? lastGrade : grades[0];
+  const inGrade = chapters.filter((c) => c.grade === grade);
+  const subjects = [...new Set(inGrade.map((c) => c.subject))];
   const active = lastSubject && subjects.includes(lastSubject) ? lastSubject : subjects[0];
-  const list = chapters.filter((c) => c.subject === active);
+  const list = inGrade.filter((c) => c.subject === active);
   const tabsRef = useRef<HTMLDivElement>(null);
   const [more, setMore] = useState({ left: false, right: false });
   const measure = () => {
@@ -323,6 +329,25 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
       </div>
 
       <div className="sticky top-0 z-30 -mx-4 bg-bg/90 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6">
+        {grades.length > 1 && (
+          <div role="tablist" aria-label="Class" className="mb-2 flex gap-1.5 rounded-2xl border-2 border-line bg-surface p-1.5">
+            {grades.map((g) => (
+              <button
+                key={g}
+                type="button"
+                role="tab"
+                aria-selected={g === grade}
+                onClick={() => setLastGrade(g)}
+                className={clsx(
+                  "flex-1 rounded-xl px-3 py-2 font-display text-sm font-bold transition-colors sm:text-base",
+                  g === grade ? "bg-fg text-bg shadow-pop" : "text-muted hover:text-fg",
+                )}
+              >
+                {region.gradeLabel(g)}
+              </button>
+            ))}
+          </div>
+        )}
         <div className="rounded-2xl border-2 border-line bg-surface">
         <div
           ref={tabsRef}
@@ -340,7 +365,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
           {subjects.map((s) => {
             const st = SUBJECT_STYLE[s];
             const on = s === active;
-            const n = chapters.filter((c) => c.subject === s).length;
+            const n = inGrade.filter((c) => c.subject === s).length;
             return (
               <button
                 key={s}

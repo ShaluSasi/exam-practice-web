@@ -22,28 +22,6 @@
     "explanation": "$\\sqrt{16} = 4$, $\\frac{22}{7}$ is already a fraction, and $0.\\overline{3} = \\frac{1}{3}$. Only $\\sqrt{2}$ has a non-terminating, non-repeating decimal expansion, so it is irrational."
   },
   {
-    "id": "in-cbse-10-math-quad-001",
-    "region": "IN",
-    "board": "CBSE",
-    "grade": 10,
-    "subject": "maths",
-    "chapter": "Quadratic Equations",
-    "topic": "Roots of a quadratic",
-    "difficulty": "easy",
-    "marks": 1,
-    "type": "mcq",
-    "prompt": "If $x = 2$ is a root of the equation $x^2 - 5x + k = 0$, find the value of $k$.",
-    "options": [
-      { "id": "a", "text": "$-6$" },
-      { "id": "b", "text": "$6$" },
-      { "id": "c", "text": "$14$" },
-      { "id": "d", "text": "$10$" }
-    ],
-    "answer": "b",
-    "hint": "A root satisfies the equation. Substitute $x = 2$.",
-    "explanation": "Substituting $x = 2$: $$2^2 - 5(2) + k = 0 \\Rightarrow 4 - 10 + k = 0 \\Rightarrow k = 6$$"
-  },
-  {
     "id": "in-cbse-9-phy-motion-001",
     "region": "IN",
     "board": "CBSE",
@@ -64,74 +42,6 @@
     "answer": "c",
     "hint": "Use $v = u + at$. 'Starts from rest' tells you $u$.",
     "explanation": "Using $v = u + at$ with $u = 0$: $$a = \\frac{v - u}{t} = \\frac{20 - 0}{5} = 4\\ \\text{m s}^{-2}$$"
-  },
-  {
-    "id": "in-cbse-10-chem-react-001",
-    "region": "IN",
-    "board": "CBSE",
-    "grade": 10,
-    "subject": "chemistry",
-    "chapter": "Chemical Reactions and Equations",
-    "topic": "Types of reactions",
-    "difficulty": "medium",
-    "marks": 2,
-    "type": "multi",
-    "prompt": "Select **all** the displacement reactions.",
-    "options": [
-      { "id": "a", "text": "$\\ce{Zn + CuSO4 -> ZnSO4 + Cu}$" },
-      { "id": "b", "text": "$\\ce{CaCO3 -> CaO + CO2}$" },
-      { "id": "c", "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$" },
-      { "id": "d", "text": "$\\ce{2H2 + O2 -> 2H2O}$" }
-    ],
-    "answers": ["a", "c"],
-    "hint": "In a displacement reaction, a more reactive element pushes a less reactive one out of its compound.",
-    "explanation": "Zinc and iron are more reactive than copper, so they displace copper from copper sulphate. $\\ce{CaCO3 -> CaO + CO2}$ is a **decomposition** reaction and $\\ce{2H2 + O2 -> 2H2O}$ is a **combination** reaction."
-  },
-  {
-    "id": "in-cbse-10-bio-life-001",
-    "region": "IN",
-    "board": "CBSE",
-    "grade": 10,
-    "subject": "biology",
-    "chapter": "Life Processes",
-    "topic": "Transport and exchange",
-    "difficulty": "medium",
-    "marks": 2,
-    "type": "match",
-    "prompt": "Match each structure with its main function.",
-    "left": [
-      { "id": "l1", "text": "Stomata" },
-      { "id": "l2", "text": "Xylem" },
-      { "id": "l3", "text": "Phloem" },
-      { "id": "l4", "text": "Villi" }
-    ],
-    "right": [
-      { "id": "r1", "text": "Transport of food" },
-      { "id": "r2", "text": "Absorption of digested food" },
-      { "id": "r3", "text": "Exchange of gases" },
-      { "id": "r4", "text": "Transport of water" }
-    ],
-    "pairs": { "l1": "r3", "l2": "r4", "l3": "r1", "l4": "r2" },
-    "hint": "Xylem and phloem are both plant transport tissues — one moves water, the other moves food.",
-    "explanation": "**Stomata** → exchange of gases. **Xylem** → transport of water and minerals. **Phloem** → transport of food (translocation). **Villi** → absorption of digested food in the small intestine."
-  },
-  {
-    "id": "in-cbse-10-phy-light-001",
-    "region": "IN",
-    "board": "CBSE",
-    "grade": 10,
-    "subject": "physics",
-    "chapter": "Light – Reflection and Refraction",
-    "topic": "Concave mirrors",
-    "difficulty": "medium",
-    "marks": 1,
-    "type": "assertion_reason",
-    "prompt": "Read the assertion (A) and reason (R) carefully and choose the correct option.",
-    "assertion": "A concave mirror can form a virtual image.",
-    "reason": "When an object is placed between the pole and the principal focus of a concave mirror, the image formed is virtual, erect and magnified.",
-    "answer": "a",
-    "hint": "Think about where you hold a shaving mirror to see an enlarged face.",
-    "explanation": "Both statements are true. A concave mirror forms a virtual image **only** when the object lies between $P$ and $F$ — which is exactly what R describes. So R correctly explains A."
   },
   {
     "id": "in-cbse-12-math-diff-001",
