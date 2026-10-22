@@ -17,6 +17,8 @@ export interface GameMeta {
   learn: string[];
   /** Lowest class this game's content suits. Hidden from students below it so they never see unlearned material. */
   minGrade?: number;
+  /** Highest class this game is meant for. Hidden from students above it. */
+  maxGrade?: number;
 }
 
 export const GAMES: GameMeta[] = [
@@ -94,6 +96,9 @@ export const GAMES: GameMeta[] = [
     tagline: "Symbols, valency and atoms. How fast can you go?",
     subject: "Chemistry",
     minutes: "1 min",
+    // Class 9 chemistry only; Class 10 students don't see it.
+    minGrade: 9,
+    maxGrade: 9,
     icon: Atom,
     gradient: "from-[#0b93d4] via-[#14b8a6] to-[#22c55e]",
     unit: "points",

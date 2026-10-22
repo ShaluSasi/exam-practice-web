@@ -4,7 +4,8 @@
  * Structure of the Atom, and Is Matter Around Us Pure?). This deliberately
  * stops short of the periodic table itself (groups, periods, Mendeleev,
  * Dobereiner's triads...), which is Class 10 content this app doesn't teach
- * in Class 9 chemistry.
+ * in Class 9 chemistry. The game is shown to Class 9 students only (see
+ * minGrade/maxGrade in the games registry).
  */
 
 export type Skill = "Element symbols" | "Valency" | "Atomic number" | "Subatomic particles" | "Separating mixtures";

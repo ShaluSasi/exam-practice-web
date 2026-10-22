@@ -195,8 +195,8 @@ export function GamesStrip() {
   const streak = useGameStreak();
   const solved = useGames((s) => s.solved);
   const grade = useCurrentGrade();
-  // Hide games whose content is above the student's class, e.g. "Balance It!" needs Class 10 chemistry.
-  const games = GAMES.filter((g) => !g.minGrade || grade >= g.minGrade);
+  // Show only games meant for the student's class: "Balance It!" needs Class 10, "Element Lab" is Class 9 only.
+  const games = GAMES.filter((g) => (!g.minGrade || grade >= g.minGrade) && (!g.maxGrade || grade <= g.maxGrade));
   const [featured, ...rest] = games;
   return (
     <section id="games" className="mb-10 scroll-mt-4">
