@@ -4,6 +4,7 @@ import { Brain, Crown, Flame, Play } from "lucide-react";
 import clsx from "clsx";
 import { useGames, useGameStreak } from "../store/games";
 import { useNav } from "../store/nav";
+import { useCurrentGrade } from "../store/profile";
 import { GAMES, type GameMeta } from "./registry";
 
 const TEASERS: Record<GameMeta["id"], string[]> = {
@@ -192,6 +193,10 @@ function FeaturedTile({ g }: { g: GameMeta }) {
 export function GamesStrip() {
   const streak = useGameStreak();
   const solved = useGames((s) => s.solved);
+  const grade = useCurrentGrade();
+  // Hide games whose content is above the student's class, e.g. "Balance It!" needs Class 10 chemistry.
+  const games = GAMES.filter((g) => !g.minGrade || grade >= g.minGrade);
+  const [featured, ...rest] = games;
   return (
     <section id="games" className="mb-10 scroll-mt-4">
       <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
@@ -212,9 +217,9 @@ export function GamesStrip() {
           )}
         </div>
       </div>
-      <FeaturedTile g={GAMES[0]} />
+      {featured && <FeaturedTile g={featured} />}
       <div className="-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] sm:mx-0 sm:grid sm:grid-cols-3 sm:overflow-visible sm:px-0 [&::-webkit-scrollbar]:hidden">
-        {GAMES.slice(1).map((g, i) => (
+        {rest.map((g, i) => (
           <GameTile key={g.id} g={g} index={i} />
         ))}
       </div>

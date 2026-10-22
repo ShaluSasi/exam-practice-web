@@ -6,6 +6,7 @@ import { region } from "../../config/regions";
 import { burst } from "../../lib/celebrate";
 import { play } from "../../lib/sound";
 import { SUBJECT_STYLE } from "../../lib/subjects";
+import { useCurrentGrade } from "../../store/profile";
 import { useGames } from "../../store/games";
 import { GameIntro, GameOver, GameTopBar, PointsPop, type Mistake, type SkillScore } from "../GameKit";
 import { gameMeta } from "../registry";
@@ -24,6 +25,11 @@ function shuffled<T>(xs: readonly T[]): T[] {
   return a;
 }
 
+/** Facts for a class: its own syllabus plus any earlier class's, as revision, but never a later class's. */
+function factsFor(grade: number): Fact[] {
+  return FACTS.filter((f) => f.grade <= grade);
+}
+
 interface Result {
   score: number;
   correct: number;
@@ -32,6 +38,8 @@ interface Result {
   skills: SkillScore[];
   mistakes: Mistake[];
   newBest: boolean;
+  /** Cards in this run's deck, which varies by class, so "cleared the deck" compares against the right size. */
+  deckSize: number;
 }
 
 export function FactOrFiction({ onExit }: { onExit: () => void }) {
@@ -58,7 +66,7 @@ export function FactOrFiction({ onExit }: { onExit: () => void }) {
           score={result.score}
           newBest={result.newBest}
           headline={
-            result.answered === FACTS.length && result.correct > result.answered - LIVES
+            result.answered === result.deckSize && result.correct > result.answered - LIVES
               ? "You cleared the whole deck!"
               : result.correct >= 25
                 ? "Walking encyclopedia!"
@@ -145,7 +153,8 @@ function SwipeCard({ fact, onAnswer }: { fact: Fact; onAnswer: (truth: boolean) 
 }
 
 function Round({ onDone }: { onDone: (r: Result) => void }) {
-  const [deck] = useState(() => shuffled(FACTS));
+  const grade = useCurrentGrade();
+  const [deck] = useState(() => shuffled(factsFor(grade)));
   const [idx, setIdx] = useState(0);
   const [lives, setLives] = useState(LIVES);
   const [score, setScore] = useState(0);
@@ -193,7 +202,7 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
       done.current = true;
       const s = stats.current;
       const newBest = finish("facts", score, s.correct);
-      onDone({ score, correct: s.correct, answered: s.answered, bestStreak: s.bestStreak, skills: [...s.skills.values()], mistakes: s.mistakes, newBest });
+      onDone({ score, correct: s.correct, answered: s.answered, bestStreak: s.bestStreak, skills: [...s.skills.values()], mistakes: s.mistakes, newBest, deckSize: deck.length });
       return;
     }
     play("tap");

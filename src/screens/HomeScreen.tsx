@@ -11,18 +11,12 @@ import { Logo, SettingsToggles, XpPill } from "../components/TopBar";
 import { ROUND_SIZE } from "../engine/scoring";
 import { GamesStrip } from "../games/GamesStrip";
 import { SUBJECT_STYLE } from "../lib/subjects";
-import { rankRounds, useProfile, useStats } from "../store/profile";
+import { rankRounds, useCurrentGrade, useProfile, useStats } from "../store/profile";
 import { useAuth } from "../store/auth";
 import { discardSavedRound, useSavedRound } from "../store/progress";
 import { useContent, type RoundSource } from "../store/content";
 import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
-
-/** The class whose chapters are open; mixed practice draws from that class only. */
-function useCurrentGrade(): number {
-  const lastGrade = useProfile((p) => p.lastGrade);
-  return lastGrade && offeredGrades.includes(lastGrade) ? lastGrade : offeredGrades[0];
-}
 
 const SUBJECT_ORDER = Object.keys(region.subjects) as SubjectId[];
 

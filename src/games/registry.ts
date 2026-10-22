@@ -15,6 +15,8 @@ export interface GameMeta {
   how: string[];
   /** Shown to students and parents: what the game practises. */
   learn: string[];
+  /** Lowest class this game's content suits. Hidden from students below it so they never see unlearned material. */
+  minGrade?: number;
 }
 
 export const GAMES: GameMeta[] = [
@@ -58,6 +60,8 @@ export const GAMES: GameMeta[] = [
     tagline: "Balance real reactions from your textbook.",
     subject: "Chemistry",
     minutes: "2 min",
+    // Types of reactions is Class 10 Chemistry content; see equations.ts.
+    minGrade: 10,
     icon: FlaskConical,
     gradient: "from-[#0b93d4] via-[#6d5cf0] to-[#a24ee8]",
     unit: "stars",

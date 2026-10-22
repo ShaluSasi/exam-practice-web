@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { useShallow } from "zustand/react/shallow";
+import { offeredGrades } from "../config/regions";
 import type { SubjectId } from "../content/schema";
 
 export type ThemePref = "system" | "light" | "dark";
@@ -131,4 +132,10 @@ export function useStats(): Stats {
 /** Rounds sorted best first: accuracy, then marks, then faster time. */
 export function rankRounds(rounds: readonly Round[]): Round[] {
   return [...rounds].sort((a, b) => b.accuracy - a.accuracy || b.marks - a.marks || a.timeMs - b.timeMs);
+}
+
+/** The class the student is practising, everywhere content needs to match it: chapter lists, games and quick decks. */
+export function useCurrentGrade(): number {
+  const lastGrade = useProfile((p) => p.lastGrade);
+  return lastGrade && offeredGrades.includes(lastGrade) ? lastGrade : offeredGrades[0];
 }

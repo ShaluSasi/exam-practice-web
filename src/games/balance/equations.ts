@@ -1,4 +1,10 @@
-/** Balance It levels: real reactions from the Class 9–10 syllabus, easiest first. */
+/**
+ * Balance It levels: real reactions from the syllabus, easiest first. Types of
+ * reactions (combination, decomposition, displacement...) are Class 10 Chemistry
+ * chapter 1 content; this app's Class 9 chemistry doesn't cover equation balancing
+ * at all, so every level here is grade 10. The game itself is hidden from Class 9
+ * students in the games registry rather than left to show an empty deck.
+ */
 
 export interface Equation {
   id: string;
@@ -9,10 +15,13 @@ export interface Equation {
   /** Smallest whole-number coefficients, left then right. */
   solution: number[];
   fact: string;
+  /** The class this reaction type is taught in. */
+  grade: number;
 }
 
 export const EQUATIONS: Equation[] = [
   {
+    grade: 10,
     id: "hcl",
     name: "Making hydrogen chloride",
     kind: "Combination",
@@ -22,6 +31,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Hydrogen chloride dissolved in water is hydrochloric acid. Your stomach makes it to digest food.",
   },
   {
+    grade: 10,
     id: "water",
     name: "Burning hydrogen",
     kind: "Combination",
@@ -31,6 +41,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Rockets like the ISRO GSLV upper stage burn liquid hydrogen with oxygen. The only exhaust is water vapour.",
   },
   {
+    grade: 10,
     id: "mgo",
     name: "Burning magnesium ribbon",
     kind: "Combination",
@@ -40,6 +51,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Magnesium burns with a dazzling white flame. It is the first activity in Class 10 Chemistry, Chapter 1.",
   },
   {
+    grade: 10,
     id: "nacl",
     name: "Making common salt",
     kind: "Combination",
@@ -49,6 +61,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Sodium is a soft metal that reacts violently with water, and chlorine is a poisonous gas. Together they make the salt on your table!",
   },
   {
+    grade: 10,
     id: "nh3",
     name: "Making ammonia",
     kind: "Combination",
@@ -58,6 +71,7 @@ export const EQUATIONS: Equation[] = [
     fact: "This is the Haber process. Ammonia from it is used to make fertilisers that help feed half the world.",
   },
   {
+    grade: 10,
     id: "zn",
     name: "Zinc in acid",
     kind: "Displacement",
@@ -67,6 +81,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Zinc pushes hydrogen out of the acid. The bubbles are hydrogen gas, which burns with a 'pop' sound.",
   },
   {
+    grade: 10,
     id: "ch4",
     name: "Burning natural gas",
     kind: "Combustion",
@@ -76,6 +91,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Methane is the main gas in CNG and biogas. Burning it gives heat, carbon dioxide and water.",
   },
   {
+    grade: 10,
     id: "neutral",
     name: "Acid meets base",
     kind: "Neutralisation",
@@ -85,6 +101,7 @@ export const EQUATIONS: Equation[] = [
     fact: "An acid and a base cancel each other out to form a salt and water. Antacid tablets work the same way.",
   },
   {
+    grade: 10,
     id: "baso4",
     name: "White precipitate",
     kind: "Double displacement",
@@ -94,6 +111,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Barium sulphate is the white solid that forms. Doctors use it in 'barium meals' to see the stomach on X-rays.",
   },
   {
+    grade: 10,
     id: "cu",
     name: "Copper in silver nitrate",
     kind: "Displacement",
@@ -103,6 +121,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Copper is more reactive than silver, so it pushes silver out. Shiny silver crystals grow on the copper wire.",
   },
   {
+    grade: 10,
     id: "kclo3",
     name: "Heating potassium chlorate",
     kind: "Decomposition",
@@ -112,6 +131,7 @@ export const EQUATIONS: Equation[] = [
     fact: "This is a quick way to make oxygen in the lab. It also gives oxygen to the flame in fireworks.",
   },
   {
+    grade: 10,
     id: "al2o3",
     name: "Aluminium's armour",
     kind: "Combination",
@@ -121,6 +141,7 @@ export const EQUATIONS: Equation[] = [
     fact: "A thin layer of aluminium oxide protects aluminium utensils from rusting. That's why they stay shiny.",
   },
   {
+    grade: 10,
     id: "rust",
     name: "Iron rusting",
     kind: "Combination",
@@ -130,6 +151,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Rust needs both air and water. Painting or galvanising iron with zinc stops it.",
   },
   {
+    grade: 10,
     id: "steam",
     name: "Iron and steam",
     kind: "Displacement",
@@ -139,6 +161,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Red-hot iron takes oxygen from steam and leaves hydrogen behind. This equation is in your Class 10 textbook.",
   },
   {
+    grade: 10,
     id: "thermite",
     name: "Thermite welding",
     kind: "Displacement",
@@ -148,6 +171,7 @@ export const EQUATIONS: Equation[] = [
     fact: "This reaction gets hot enough to melt iron. Railways use it to weld broken tracks.",
   },
   {
+    grade: 10,
     id: "blast",
     name: "Blast furnace",
     kind: "Redox",
@@ -157,6 +181,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Carbon monoxide takes oxygen away from iron ore, which is reduction. That is how steel plants get iron.",
   },
   {
+    grade: 10,
     id: "alhcl",
     name: "Aluminium in acid",
     kind: "Displacement",
@@ -166,6 +191,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Aluminium is more reactive than zinc, but its oxide coat slows it down at first.",
   },
   {
+    grade: 10,
     id: "feso4",
     name: "Heating green vitriol",
     kind: "Decomposition",
@@ -175,6 +201,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Green ferrous sulphate crystals turn reddish-brown and give off gases that smell of burning sulphur.",
   },
   {
+    grade: 10,
     id: "propane",
     name: "Burning LPG",
     kind: "Combustion",
@@ -184,6 +211,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Propane is part of the LPG in your kitchen cylinder. A blue flame means it is burning completely.",
   },
   {
+    grade: 10,
     id: "lead",
     name: "Heating lead nitrate",
     kind: "Decomposition",
@@ -193,6 +221,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Brown fumes of nitrogen dioxide appear. This classic activity is in Class 10, Chapter 1.",
   },
   {
+    grade: 10,
     id: "respire",
     name: "Respiration",
     kind: "Combustion (in your cells)",
@@ -202,6 +231,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Every cell in your body runs this reaction in its mitochondria to release energy from glucose.",
   },
   {
+    grade: 10,
     id: "photo",
     name: "Photosynthesis",
     kind: "Uses sunlight",
@@ -211,6 +241,7 @@ export const EQUATIONS: Equation[] = [
     fact: "Plants run respiration in reverse using sunlight and chlorophyll. Almost all the oxygen you breathe comes from it.",
   },
   {
+    grade: 10,
     id: "butane",
     name: "Boss level: butane",
     kind: "Combustion",
