@@ -12,6 +12,7 @@ const TEASERS: Record<GameMeta["id"], string[]> = {
   rush: ["7 × 8", "√144", "15% of 80", "2³ × 2⁴", "½ + ⅓", "13²"],
   balance: ["2H₂ + O₂ → 2H₂O", "N₂ + 3H₂ → 2NH₃", "4Fe + 3O₂ → 2Fe₂O₃", "CH₄ + 2O₂ → …"],
   facts: ["Sound in a vacuum?", "√2 is rational?", "Air is a mixture?", "Xylem carries food?"],
+  elements: ["Fe = ?", "Na = ?", "Valency of O?", "Cream from milk?"],
 };
 
 function Teaser({ items }: { items: string[] }) {
@@ -218,7 +219,13 @@ export function GamesStrip() {
         </div>
       </div>
       {featured && <FeaturedTile g={featured} />}
-      <div className="-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] sm:mx-0 sm:grid sm:grid-cols-3 sm:overflow-visible sm:px-0 [&::-webkit-scrollbar]:hidden">
+      <div
+        className={clsx(
+          "-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] sm:mx-0 sm:grid sm:overflow-visible sm:px-0 [&::-webkit-scrollbar]:hidden",
+          // Three tiles sit in one row; two or four sit in even pairs rather than leaving a gap.
+          rest.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-2",
+        )}
+      >
         {rest.map((g, i) => (
           <GameTile key={g.id} g={g} index={i} />
         ))}

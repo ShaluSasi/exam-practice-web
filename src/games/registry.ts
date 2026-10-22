@@ -1,4 +1,4 @@
-import { FlaskConical, Layers, Rocket, Zap, type LucideIcon } from "lucide-react";
+import { Atom, FlaskConical, Layers, Rocket, Zap, type LucideIcon } from "lucide-react";
 import type { GameId } from "../store/games";
 
 export interface GameMeta {
@@ -87,6 +87,22 @@ export const GAMES: GameMeta[] = [
       "You have 3 lives. Keep your streak going for bonus points.",
     ],
     learn: ["Common exam traps", "Physics and Chemistry facts", "Cell biology", "Number systems and geometry", "History, geography and civics"],
+  },
+  {
+    id: "elements",
+    title: "Element Lab",
+    tagline: "Symbols, valency and atoms. How fast can you go?",
+    subject: "Chemistry",
+    minutes: "1 min",
+    icon: Atom,
+    gradient: "from-[#0b93d4] via-[#14b8a6] to-[#22c55e]",
+    unit: "points",
+    how: [
+      "Tap the right answer before the clock runs out.",
+      "Right answers add time. Wrong answers take 3 seconds away.",
+      "Get answers right in a row for a combo: up to ×4 points.",
+    ],
+    learn: ["Symbols of elements", "Valency", "Atomic number", "Protons, neutrons and electrons", "Separating mixtures"],
   },
 ];
 

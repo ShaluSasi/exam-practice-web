@@ -1,4 +1,5 @@
 import { BalanceIt } from "../games/balance/BalanceIt";
+import { ElementLab } from "../games/elements/ElementLab";
 import { FactOrFiction } from "../games/facts/FactOrFiction";
 import { GalaxyGuardian } from "../games/galaxy/GalaxyGuardian";
 import { NumberRush } from "../games/rush/NumberRush";
@@ -18,6 +19,7 @@ export function GameScreen() {
         {game === "rush" &&<NumberRush onExit={exit} />}
         {game === "balance" && <BalanceIt onExit={exit} />}
         {game === "facts" && <FactOrFiction onExit={exit} />}
+        {game === "elements" && <ElementLab onExit={exit} />}
       </div>
     </div>
   );
