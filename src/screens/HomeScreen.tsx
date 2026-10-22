@@ -471,8 +471,6 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
   const contentStatus = useContent((s) => s.status);
   const currentGrade = useCurrentGrade();
   const mixed: RoundSource = { subjects: [], grades: [currentGrade] };
-  /** Subjects with at least one question (the old combined "social" subject is empty now that it is split). */
-  const subjectsWithQuestions = SUBJECT_ORDER.filter((s) => allChapters.some((c) => c.subject === s));
   const bestRound = rankRounds(profile.rounds)[0];
   // The logo opens the full landing page; otherwise returning students skip it.
   const landing = useNav((s) => s.landing) || profile.sessions === 0;
@@ -480,6 +478,8 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
   const [subjects, setSubjects] = useState<SubjectId[]>([]);
 
   const allChapters = useAllChapters();
+  /** Subjects with at least one question (the old combined "social" subject is empty now that it is split). */
+  const subjectsWithQuestions = SUBJECT_ORDER.filter((s) => allChapters.some((c) => c.subject === s));
   const types = useContent((s) => s.catalog?.types) ?? [];
   // No class ticked means every class the app offers, not every class in the bank.
   const chosenGrades = grades.length === 0 ? offeredGrades : grades;
