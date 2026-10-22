@@ -10,6 +10,13 @@ const PAIR_COLORS = ["#5B5EF0", "#E0782A", "#0B93D4", "#D63F8C", "#0F9F5F", "#A2
 
 const NO_PAIRS: Record<string, string> = {};
 
+/**
+ * Card text. It takes the room left beside the badge and picture, but drops onto its own line
+ * when that room is under 4.5rem (narrow phones), and long names such as "Platyhelminthes"
+ * break with a hyphen instead of pushing the card wider than its column.
+ */
+const LABEL = "min-w-0 flex-1 basis-[4.5rem] break-words [overflow-wrap:anywhere] hyphens-auto";
+
 function Thumb({ src, alt }: { src: string; alt: string }) {
   return <img src={src} alt={alt} draggable={false} className="size-11 shrink-0 select-none rounded-xl sm:size-14" />;
 }
@@ -27,6 +34,13 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
   const leftEls = useRef<Record<string, HTMLElement | null>>({});
   const rightEls = useRef<Record<string, HTMLElement | null>>({});
   const [lines, setLines] = useState<Line[]>([]);
+  /**
+   * Stacked: the items and their matches as two lists, one under the other. Used only when a card's
+   * content cannot fit in half the width, e.g. a chemical equation on a phone; the numbered badges
+   * on the matches then show the pairing instead of connector lines.
+   */
+  const [stacked, setStacked] = useState(false);
+  const stackedAt = useRef(0);
 
   const colorOf = (leftId: string) => PAIR_COLORS[q.left.findIndex((l) => l.id === leftId) % PAIR_COLORS.length];
   const leftFor = (rightId: string) => Object.keys(response).find((l) => response[l] === rightId);
@@ -34,8 +48,25 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
   useLayoutEffect(() => {
     const el = box.current;
     if (!el) return;
+    let live = true;
     const measure = () => {
+      if (!live) return;
       const c = el.getBoundingClientRect();
+      // Decide only once fonts have loaded: a formula in a fallback font measures wider than it will be.
+      if (!stacked && document.fonts?.status !== "loading") {
+        // Plain text wraps, so only content that cannot wrap (maths, equations) is ever wider than its card.
+        const tooWide = [...el.querySelectorAll<HTMLElement>("[data-match-label]")].some((n) => n.scrollWidth > n.clientWidth + 1);
+        if (tooWide) {
+          stackedAt.current = c.width;
+          setStacked(true);
+          return;
+        }
+      } else {
+        // Go back to side by side only if the space grows a lot (e.g. turning the phone), so the layout never flips back and forth.
+        if (c.width > stackedAt.current + 80) setStacked(false);
+        setLines([]);
+        return;
+      }
       const next: Line[] = [];
       for (const [l, r] of Object.entries(response)) {
         const a = leftEls.current[l]?.getBoundingClientRect();
@@ -52,8 +83,16 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
     measure();
     const ro = new ResizeObserver(measure);
     ro.observe(el);
-    return () => ro.disconnect();
-  }, [response, reveal]);
+    // Maths fonts only start downloading when the first formula appears, so the first measure can use a
+    // wider fallback font. When fonts finish loading, check again from side by side.
+    const onFonts = () => (stacked ? setStacked(false) : measure());
+    document.fonts?.addEventListener("loadingdone", onFonts);
+    return () => {
+      live = false;
+      ro.disconnect();
+      document.fonts?.removeEventListener("loadingdone", onFonts);
+    };
+  }, [response, reveal, stacked]);
 
   const pickLeft = (id: string) => {
     if (reveal) return;
@@ -79,9 +118,14 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
   return (
     <div>
       <p className="mb-3 text-sm font-semibold text-muted">
-        {reveal ? "Your matches" : "Tap an item on the left, then its match on the right"}
+        {reveal ? "Your matches" : stacked ? "Tap an item, then its match in the list below" : "Tap an item on the left, then its match on the right"}
       </p>
-      <div ref={box} className="relative grid grid-cols-2 gap-x-7 gap-y-3 sm:gap-x-20">
+      {/* minmax(0,1fr): both columns stay exactly half the width. With plain 1fr a long word or a
+          picture forces a column wider than half, and the left cards slide over the right ones on phones. */}
+      <div
+        ref={box}
+        className={clsx("relative grid gap-y-3", stacked ? "grid-cols-1" : "grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-x-6 sm:gap-x-20")}
+      >
         <svg className="pointer-events-none absolute inset-0 size-full overflow-visible" aria-hidden>
           {lines.map((ln) => (
             <motion.path
@@ -98,7 +142,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
           ))}
         </svg>
 
-        <div className="grid content-start gap-3">
+        <div className="grid min-w-0 content-start gap-3">
           {q.left.map((l, i) => {
             const paired = response[l.id];
             const isActive = !reveal && active === l.id;
@@ -119,7 +163,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                 whileTap={reveal ? undefined : { scale: 0.97 }}
                 style={paired && !reveal ? { borderColor: color } : undefined}
                 className={clsx(
-                  "relative flex min-h-14 items-center gap-2 rounded-2xl border-2 bg-surface px-2.5 py-2.5 sm:gap-2.5 sm:px-3 text-left text-[15px] leading-snug transition-[border-color,box-shadow]",
+                  "relative flex min-h-14 w-full min-w-0 flex-wrap items-center gap-2 rounded-2xl border-2 bg-surface px-2.5 py-2.5 sm:flex-nowrap sm:gap-2.5 sm:px-3 text-left text-[15px] leading-snug transition-[border-color,box-shadow]",
                   !paired && !isActive && "border-line",
                   isActive && "border-brand shadow-[0_3px_0_0_var(--brand)]",
                   reveal && (right ? "border-ok bg-ok-soft" : "border-bad bg-bad-soft"),
@@ -132,7 +176,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                   {reveal ? right ? <Check className="size-3.5" strokeWidth={3} /> : <X className="size-3.5" strokeWidth={3} /> : i + 1}
                 </span>
                 {l.image && <Thumb src={l.image.src} alt={l.image.alt} />}
-                <span className="min-w-0">
+                <span data-match-label className={clsx(LABEL, stacked && "overflow-x-auto")}>
                   <RichText text={l.text} className="font-semibold" />
                   {reveal && !right && (
                     <span className="mt-1 block text-xs font-semibold text-ok">
@@ -153,7 +197,8 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
           })}
         </div>
 
-        <div className="grid content-start gap-3">
+        <div className={clsx("grid min-w-0 content-start gap-3", stacked && "mt-3")}>
+          {stacked && <p className="text-sm font-semibold text-muted">{reveal ? "Matched to" : "Matches"}</p>}
           {q.right.map((r, i) => {
             const by = leftFor(r.id);
             const color = by ? colorOf(by) : undefined;
@@ -173,7 +218,7 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                 whileTap={reveal || !active ? undefined : { scale: 0.97 }}
                 style={by && !reveal ? { borderColor: color } : undefined}
                 className={clsx(
-                  "flex min-h-14 items-center gap-2 rounded-2xl border-2 bg-surface px-2.5 py-2.5 text-left text-[14px] sm:gap-2.5 sm:px-3 sm:text-[15px] leading-snug transition-[border-color,transform]",
+                  "flex min-h-14 w-full min-w-0 flex-wrap items-center gap-2 rounded-2xl border-2 bg-surface px-2.5 py-2.5 text-left text-[14px] sm:flex-nowrap sm:gap-2.5 sm:px-3 sm:text-[15px] leading-snug transition-[border-color,transform]",
                   !by && "border-line",
                   !reveal && active && !by && "hover:-translate-y-0.5 hover:border-fg/25",
                   reveal && "border-line",
@@ -193,7 +238,9 @@ export function MatchQuestion({ q, response = NO_PAIRS, onChange, reveal }: Ques
                   {n}
                 </motion.span>
                 {r.image && <Thumb src={r.image.src} alt={r.image.alt} />}
-                <RichText text={r.text} className="min-w-0" />
+                <span data-match-label className={clsx(LABEL, stacked && "overflow-x-auto")}>
+                  <RichText text={r.text} />
+                </span>
               </motion.button>
             );
           })}
