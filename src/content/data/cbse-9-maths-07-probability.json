@@ -1068,7 +1068,7 @@
       "e"
     ],
     "hint": "Think about whether a die can remember.",
-    "explanation": "A fair die has no memory, so every roll has $P(6) = \\dfrac{1}{6}$ and this does not depend on past rolls. Statements B and D claim the die balances itself out, which is exactly the mistaken belief known as the Gambler's Fallacy."
+    "explanation": "A fair die has no memory, so every roll has $P(6) = \\dfrac{1}{6}$ and this does not depend on past rolls. The claims that a 6 is now less likely, or that the die balances its results out, are exactly the mistaken belief known as the Gambler's Fallacy."
   },
   {
     "id": "ma07-q026",
@@ -1262,24 +1262,24 @@
     "prompt": "Which of these experiments have **equally likely** outcomes? Select all that do.",
     "image": {
       "src": "/img/maths07/equally.svg",
-      "alt": "Four pictures labelled A to D"
+      "alt": "Four pictures: a coin, a die, a car and a bag of red and blue marbles"
     },
     "options": [
       {
         "id": "a",
-        "text": "A: Tossing a fair coin once"
+        "text": "Tossing a fair coin once"
       },
       {
         "id": "b",
-        "text": "B: Rolling a fair 6-sided die"
+        "text": "Rolling a fair 6-sided die"
       },
       {
         "id": "c",
-        "text": "C: A driver tries to start a car: it starts or it does not"
+        "text": "A driver tries to start a car: it starts or it does not"
       },
       {
         "id": "d",
-        "text": "D: Picking a marble at random from a bag with 3 red and 7 blue marbles"
+        "text": "Picking a marble at random from a bag with 3 red and 7 blue marbles"
       }
     ],
     "answers": [
@@ -1287,7 +1287,7 @@
       "b"
     ],
     "hint": "Outcomes are equally likely only if nothing favours one over another.",
-    "explanation": "A fair coin and a fair die give symmetrical outcomes. A car usually starts, so the two outcomes are not equally likely. In D, blue marbles outnumber red ones, so a blue marble is more likely than a red one even though there are two colours."
+    "explanation": "A fair coin and a fair die give symmetrical outcomes. A car usually starts, so the two outcomes are not equally likely. In the bag, blue marbles outnumber red ones, so a blue marble is more likely than a red one even though there are two colours."
   },
   {
     "id": "ma07-q031",
@@ -1687,8 +1687,8 @@
     "type": "hotspot",
     "prompt": "Tap the end of the path where the first toss is **tails** and the second toss is **heads**.",
     "image": {
-      "src": "/img/maths07/tree-2coins.svg",
-      "alt": "A tree diagram with numbered markers at the ends of its paths"
+      "src": "/img/maths07/tree-2coins-blank.svg",
+      "alt": "A tree diagram with H and T branches and numbered markers at the ends of its paths"
     },
     "spots": [
       {
@@ -1717,8 +1717,8 @@
       }
     ],
     "answer": "th",
-    "hint": "Follow the lower branch first, then the upper one.",
-    "explanation": "The first toss gives T (lower branch), and the second toss gives H (upper sub-branch), so this is the outcome **TH**. The order matters: HT is a different outcome with heads first."
+    "hint": "Start on the first-toss branch marked T, then take its branch marked H.",
+    "explanation": "The first toss gives T (the lower branch), and from there the second toss gives H, so this path is the outcome **TH**. The order matters: HT is a different outcome with heads first."
   },
   {
     "id": "ma07-q041",

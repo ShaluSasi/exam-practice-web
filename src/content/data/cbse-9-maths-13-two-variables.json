@@ -224,8 +224,8 @@
     "type": "multi",
     "prompt": "Select **all** the ordered pairs that are solutions of $3x + 2y = 12$.",
     "image": {
-      "src": "/img/maths13/g-line1.svg",
-      "alt": "A straight line drawn on a grid"
+      "src": "/img/maths13/pair-box.svg",
+      "alt": "An ordered pair whose first entry is x and second entry is y"
     },
     "options": [
       {
@@ -411,7 +411,7 @@
       "f"
     ],
     "hint": "Test the pairs by substitution; for the origin, try an equation with a non-zero constant.",
-    "explanation": "Each value of $x$ gives a matching $y$, so there are infinitely many solutions, and $x = 3$ is $x + 0y - 3 = 0$. $2x + 3y = 7$ does not pass through $(0,0)$, so the origin claim is false. $(1,2)$ gives $2 + 6 = 8 \\ne 7$, while $(2,1)$ gives $4 + 3 = 7$, so only the second pair works."
+    "explanation": "Each value of $x$ gives a matching $y$, so there are infinitely many solutions, and $x = 3$ is $x + 0y - 3 = 0$. $2x + 3y = 7$ does not pass through $(0,0)$, so the origin claim is false. $(1,2)$ gives $2 + 6 = 8 \\ne 7$, while $(2,1)$ gives $4 + 3 = 7$, so only $(2,1)$ is a solution."
   },
   {
     "id": "ma13-q010",
@@ -649,7 +649,7 @@
     ],
     "answer": "c",
     "hint": "Look at the sign of the slope and where the line crosses the y-axis.",
-    "explanation": "The slope is $-3$, so the line falls steeply from left to right, and the $y$-intercept is $+4$, so it crosses the y-axis above the origin. Graph A rises (slope $+3$), Graph B has intercept $-4$, and Graph D falls too gently (slope $-\\dfrac{1}{3}$)."
+    "explanation": "The slope is $-3$, so the line falls steeply from left to right, and the $y$-intercept is $+4$, so it crosses the y-axis above the origin. The graph that rises has slope $+3$, the steep falling graph that crosses the y-axis below the origin has intercept $-4$, and the graph that falls only gently has slope $-\\dfrac{1}{3}$."
   },
   {
     "id": "ma13-q016",
@@ -1301,7 +1301,7 @@
       "e"
     ],
     "hint": "Compare $\\dfrac{a_1}{a_2}$ with $\\dfrac{b_1}{b_2}$ for each pair.",
-    "explanation": "A unique solution needs $\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$: this holds for $\\dfrac{2}{1} \\ne \\dfrac{1}{-1}$, $\\dfrac{1}{1} \\ne \\dfrac{1}{-1}$ and $\\dfrac{5}{7} \\ne \\dfrac{-4}{6}$. The second pair has all ratios equal to $\\dfrac{1}{2}$ (infinitely many solutions), and the third has $\\dfrac{3}{6} = \\dfrac{-1}{-2} \\ne \\dfrac{2}{7}$ (no solution)."
+    "explanation": "A unique solution needs $\\dfrac{a_1}{a_2} \\ne \\dfrac{b_1}{b_2}$: this holds for $\\dfrac{2}{1} \\ne \\dfrac{1}{-1}$, $\\dfrac{1}{1} \\ne \\dfrac{1}{-1}$ and $\\dfrac{5}{7} \\ne \\dfrac{-4}{6}$. The pair $x + 2y = 4$, $2x + 4y = 8$ has all ratios equal to $\\dfrac{1}{2}$ (infinitely many solutions), and the pair $3x - y = 2$, $6x - 2y = 7$ has $\\dfrac{3}{6} = \\dfrac{-1}{-2} \\ne \\dfrac{2}{7}$ (no solution)."
   },
   {
     "id": "ma13-q031",
@@ -1363,7 +1363,7 @@
       "l4": "r4"
     },
     "hint": "Find the ratios $\\dfrac{a_1}{a_2}$, $\\dfrac{b_1}{b_2}$, $\\dfrac{c_1}{c_2}$.",
-    "explanation": "First pair: $\\dfrac{5}{7} \\ne \\dfrac{-4}{6}$, so one point; it is $x = -\\dfrac{6}{29} \\ne 0$, not the origin. Second: $\\dfrac{6}{2} = \\dfrac{-3}{-1} = 3 \\ne \\dfrac{10}{9}$, parallel. Third: all ratios equal $\\dfrac{1}{2}$, so coincident. Fourth: adding gives $3x = 0$, so $x = 0$, $y = 0$: the origin."
+    "explanation": "For $5x - 4y + 8 = 0$ and $7x + 6y - 9 = 0$: $\\dfrac{5}{7} \\ne \\dfrac{-4}{6}$, so one point; it is $x = -\\dfrac{6}{29} \\ne 0$, not the origin. For $6x - 3y + 10 = 0$ and $2x - y + 9 = 0$: $\\dfrac{6}{2} = \\dfrac{-3}{-1} = 3 \\ne \\dfrac{10}{9}$, parallel. For $9x + 3y + 12 = 0$ and $18x + 6y + 24 = 0$: all ratios equal $\\dfrac{1}{2}$, so coincident. For $2x + y = 0$ and $x - y = 0$: adding gives $3x = 0$, so $x = 0$, $y = 0$: the origin."
   },
   {
     "id": "ma13-q032",
@@ -1402,7 +1402,7 @@
     ],
     "answer": "c",
     "hint": "Let the fraction be $\\dfrac{n}{d}$ and cross-multiply each clue.",
-    "explanation": "$\\dfrac{n+1}{d+1} = \\dfrac{4}{5}$ gives $5n - 4d = -1$, and $\\dfrac{n-1}{d-1} = \\dfrac{2}{3}$ gives $3n - 2d = 1$. Doubling the second, $6n - 4d = 2$; subtracting the first gives $n = 3$ and then $d = 4$. Check: $\\dfrac{4}{5}$ and $\\dfrac{2}{4 - 1} \\to \\dfrac{2}{3}$ both hold. The other options are values given in the clues or the fraction upside down."
+    "explanation": "$\\dfrac{n+1}{d+1} = \\dfrac{4}{5}$ gives $5n - 4d = -1$, and $\\dfrac{n-1}{d-1} = \\dfrac{2}{3}$ gives $3n - 2d = 1$. Doubling the second, $6n - 4d = 2$; subtracting the first gives $n = 3$ and then $d = 4$. Check: $\\dfrac{3+1}{4+1} = \\dfrac{4}{5}$ and $\\dfrac{3-1}{4-1} = \\dfrac{2}{3}$. The other options are values given in the clues or the fraction upside down."
   },
   {
     "id": "ma13-q033",
@@ -1718,14 +1718,14 @@
       },
       {
         "id": "pq",
-        "x": 54.5,
-        "y": 53.3,
-        "label": "Crossing of two lines"
+        "x": 68.9,
+        "y": 28.5,
+        "label": "Crossing of the two rising lines"
       }
     ],
     "answer": "q",
     "hint": "Write the equation as $y = mx + d$ and look at the sign of the slope.",
-    "explanation": "$2x + y = 4$ gives $y = -2x + 4$: slope $-2$ (falling) and y-intercept $4$. For example $(3, -2)$ satisfies it: $6 - 2 = 4$. The other two lines rise, with slopes $2$ and $\\dfrac{1}{2}$. The crossing of two lines is not on every line."
+    "explanation": "$2x + y = 4$ gives $y = -2x + 4$: slope $-2$ (falling) and y-intercept $4$. For example $(3, -2)$ satisfies it: $6 - 2 = 4$. The other two lines rise, with slopes $2$ and $\\dfrac{1}{2}$, and the point where those two rising lines cross is not on $2x + y = 4$."
   },
   {
     "id": "ma13-q040",
@@ -1794,8 +1794,8 @@
     "type": "mcq",
     "prompt": "Using the same plans (A: ₹50 + ₹0.20 per minute; B: ₹30 + ₹0.30 per minute), which plan is cheaper for 300 minutes of calls in a month, and by how much?",
     "image": {
-      "src": "/img/maths13/g-plans.svg",
-      "alt": "Cost against minutes for two mobile plans"
+      "src": "/img/maths13/plan-cards.svg",
+      "alt": "Two plan cards showing the monthly fee and the charge per minute"
     },
     "options": [
       {
@@ -1895,7 +1895,7 @@
     ],
     "answer": "a",
     "hint": "Robot 1 follows $y = \\dfrac{3}{2}x$. Find the line for Robot 2 and equate.",
-    "explanation": "Robot 1: slope $\\dfrac{3}{2}$ through the origin, $y = \\dfrac{3}{2}x$. Robot 2: slope $2$ through $(8,0)$, $y = 2(x - 8)$. Equating: $\\dfrac{3}{2}x = 2x - 16$, so $x = 32$ and $y = 48$. Robot 1 reaches it after 16 steps and Robot 2 after 24 steps. $(48,32)$ **swaps** the coordinates, $(16,24)$ halves them, and $(32,64)$ uses $y = 2x$, forgetting the start offset of 8."
+    "explanation": "Robot 1: slope $\\dfrac{3}{2}$ through the origin, $y = \\dfrac{3}{2}x$. Robot 2: slope $2$ through $(8,0)$, $y = 2(x - 8)$. Equating: $\\dfrac{3}{2}x = 2x - 16$, so $x = 32$ and $y = 48$. Robot 1 reaches it after 16 steps and Robot 2 after 24 steps. $(48,32)$ **swaps** the coordinates, $(16,24)$ halves them, and $(32,64)$ puts $x = 32$ into $y = 2x$, forgetting that Robot 2 starts at $(8, 0)$."
   },
   {
     "id": "ma13-q044",
@@ -2199,7 +2199,7 @@
     "prompt": "Solve $3x + y = 11$ and $x - 2y = -1$ by substitution. Arrange the steps in order.",
     "image": {
       "src": "/img/maths13/step-stairs.svg",
-      "alt": "Five steps of a staircase numbered one to five"
+      "alt": "A staircase of numbered steps"
     },
     "items": [
       {

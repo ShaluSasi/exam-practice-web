@@ -131,7 +131,7 @@
     "reason": "Gamma rays and X-rays have a very high frequency and carry very high energy.",
     "answer": "b",
     "hint": "Ask what actually stops these rays. Is it their energy?",
-    "explanation": "Both statements are true. Gamma rays and X-rays are high-frequency, high-energy waves that would harm life, but their energy is not *why* they fail to reach the ground. They are **filtered out by the upper atmosphere**. The reason explains why they are dangerous, not why they are missing at the surface, so the answer is (b)."
+    "explanation": "Both statements are true. Gamma rays and X-rays are high-frequency, high-energy waves that would harm life, but their energy is not *why* they fail to reach the ground. They are **filtered out by the upper atmosphere**. The reason explains why they are dangerous, not why they are missing at the surface, so both statements are true but the reason does not explain the assertion."
   },
   {
     "id": "in-cbse-9-phy-earth-007",
@@ -143,7 +143,7 @@
     "image": { "src": "/img/earth/sun-earth.svg", "alt": "A pulse of light travelling from the Sun to the Earth" },
     "options": [
       { "id": "a", "text": "$4.5 \\times 10^{19}\\ \\text{s}$" },
-      { "id": "b", "text": "$500\\ \\text{s}$ (about 8.3 minutes)" },
+      { "id": "b", "text": "$500\\ \\text{s}$" },
       { "id": "c", "text": "$2 \\times 10^{-3}\\ \\text{s}$" },
       { "id": "d", "text": "$50\\ \\text{s}$" }
     ],
@@ -246,7 +246,7 @@
       { "id": "ghg", "x": 84, "y": 42.7, "label": "Heat trapped by greenhouse gases" }
     ],
     "answer": "surfref",
-    "hint": "Follow a yellow ray down to the ground and see which one heads back up.",
+    "hint": "A ray reflected by the ground must touch the ground before it leaves again.",
     "explanation": "Incoming sunlight is **partly reflected** by clouds, **partly absorbed** by the atmosphere and clouds, **partly absorbed** by the surface and **partly reflected** by the surface. The ray that hits the ground and returns upward is the surface reflection. How much a surface reflects is its **albedo**, so snow reflects far more than dark soil."
   },
   {
@@ -265,7 +265,7 @@
       { "id": "ghg", "x": 84, "y": 42.7, "label": "Heat trapped by greenhouse gases" }
     ],
     "answer": "ghg",
-    "hint": "Look for wavy red infrared arrows and small molecules that send some heat back down.",
+    "hint": "The heat that greenhouse gases trap comes up from the warm ground as infrared, not down from the Sun.",
     "explanation": "The warmed surface re-radiates energy as **infrared**. Molecules of **CO₂, CH₄ and water vapour** absorb part of this outgoing heat and send some back down, so it cannot all escape to space. This **greenhouse effect** keeps the Earth warm enough for life. Too much CO₂ enhances it and causes global warming."
   },
   {
@@ -283,7 +283,7 @@
       { "id": "d", "text": "Only the sunlight reflected by clouds heats the Earth" }
     ],
     "answer": "a",
-    "hint": "The troposphere is heated from below, by the ground.",
+    "hint": "Most sunlight passes through clear air. Where does it end up, and what happens to that energy next?",
     "explanation": "Much of the incoming sunlight passes through the air and is **absorbed by the surface**. The warm surface then **re-radiates infrared**, and greenhouse gases absorb part of it, keeping heat near the ground. That is why the troposphere is heated from the Earth's surface. CO₂ mainly traps *outgoing* infrared rather than incoming light, dust absorbs only a little sunlight, and reflected light leaves rather than heats."
   },
   {
@@ -440,7 +440,7 @@
       { "id": "exo", "x": 55.6, "y": 7, "label": "Exosphere" }
     ],
     "answer": "strat",
-    "hint": "It begins at about 12 km and reaches about 50 km.",
+    "hint": "Ozone absorbs UV and warms its layer, which sits directly above the layer where weather happens.",
     "explanation": "The **stratosphere** extends from about $12$ to $50\\ \\text{km}$. Its **ozone** absorbs UV rays, which heats the layer, so temperature *increases* with height. Below it is the **troposphere** (0–12 km), where clouds, aircraft and weather are found. The mesosphere, thermosphere and exosphere above play only a minor role in surface climate."
   },
   {
@@ -562,7 +562,7 @@
     ],
     "answer": "r",
     "hint": "Check two things: is it day or night, and which way does the air move along the slopes?",
-    "explanation": "During the **day**, sunlit slopes heat faster than the valley floor. Air over the slopes warms and rises, making low pressure, and cooler valley air flows **up the slopes**: a **valley breeze** (Picture R). After sunset the slopes cool faster, and cold, dense air sinks **down** into the valley: a **mountain breeze** (Picture S). P and Q show these directions at the wrong time of day."
+    "explanation": "During the **day**, sunlit slopes heat faster than the valley floor. Air over the slopes warms and rises, making low pressure, and cooler valley air flows **up the slopes**: a **valley breeze**, so the correct picture shows the Sun with air moving up the slopes. After sunset the slopes cool faster, and cold, dense air sinks **down** into the valley: a **mountain breeze**, shown by the night picture with air moving down. The other two pictures show these air directions at the wrong time of day."
   },
   {
     "id": "in-cbse-9-phy-earth-031",
@@ -573,14 +573,14 @@
     "prompt": "Tap the **sub-tropical high pressure belt** of the Northern Hemisphere, where cooled air sinks back to the surface.",
     "image": { "src": "/img/earth/pressure-belts.svg", "alt": "The Earth with lines of latitude and surface winds, with numbered markers" },
     "spots": [
-      { "id": "eq", "x": 50, "y": 50, "label": "0° (equator)" },
-      { "id": "n30", "x": 50, "y": 29.7, "label": "30° N" },
-      { "id": "n60", "x": 50, "y": 14.8, "label": "60° N" },
-      { "id": "s30", "x": 50, "y": 70.3, "label": "30° S" },
-      { "id": "s60", "x": 50, "y": 85.2, "label": "60° S" }
+      { "id": "eq", "x": 50, "y": 50, "label": "Equatorial low" },
+      { "id": "n30", "x": 50, "y": 29.7, "label": "Sub-tropical high (north)" },
+      { "id": "n60", "x": 50, "y": 14.8, "label": "Sub-polar low (north)" },
+      { "id": "s30", "x": 50, "y": 70.3, "label": "Sub-tropical high (south)" },
+      { "id": "s60", "x": 50, "y": 85.2, "label": "Sub-polar low (south)" }
     ],
     "answer": "n30",
-    "hint": "Air rising at the equator travels poleward high up and sinks about one-third of the way to the pole.",
+    "hint": "Air rising at the equator moves poleward high up, cools and sinks. It is the first high pressure belt it meets.",
     "explanation": "Intense heating makes air rise at the equator (**equatorial low**). High up it moves poleward, cools, becomes denser and **sinks near 30° N and 30° S**, forming the **sub-tropical high pressure belts**. Some air then moves poleward along the surface and rises again near **60°** (sub-polar lows), while cold, dense air sinks at the poles (**polar highs**)."
   },
   {
@@ -637,7 +637,7 @@
     ],
     "answer": "s",
     "hint": "Deflection is to the right in the north and to the left in the south, so the two loops turn opposite ways.",
-    "explanation": "Moving water is deflected **right in the Northern Hemisphere**, so gyres there turn **clockwise**; it is deflected **left in the Southern Hemisphere**, so gyres there turn **counter-clockwise** (Pattern S). Patterns Q and R have both loops turning the same way, and P has them reversed. Continents further block and redirect these currents."
+    "explanation": "Moving water is deflected **right in the Northern Hemisphere**, so gyres there turn **clockwise**; it is deflected **left in the Southern Hemisphere**, so gyres there turn **counter-clockwise**. The correct pattern has a clockwise loop marked N and a counter-clockwise loop marked S; two of the others have both loops turning the same way, and one has them reversed. Continents further block and redirect these currents."
   },
   {
     "id": "in-cbse-9-phy-earth-035",
@@ -692,7 +692,7 @@
       { "id": "ground", "x": 75, "y": 94, "label": "Groundwater" }
     ],
     "answer": "cond",
-    "hint": "Look for a small cloud with droplets just forming beneath it.",
+    "hint": "Condensation is the reverse of evaporation: rising vapour cools and becomes liquid again, before any rain falls.",
     "explanation": "Water **evaporates** from the sea, rises, cools and **condenses** into droplets that form clouds. The clouds release **precipitation** (rain, hail or snow) over the hills. The water then runs off in rivers back to the ocean, while some seeps down to become **groundwater**, and plants return vapour to the air by **transpiration**."
   },
   {
@@ -856,7 +856,7 @@
       { "id": "soil", "x": 76, "y": 85, "label": "Free-living soil bacteria" }
     ],
     "answer": "nodules",
-    "hint": "Look underground, at the small swellings on the roots.",
+    "hint": "Rhizobium lives inside a legume plant, not freely in the soil.",
     "explanation": "**Rhizobium** lives in the **root nodules** of legumes such as peas and converts unreactive N₂ into **ammonia** (NH₃). Free-living **Azotobacter** in the soil also fixes nitrogen. **Lightning** fixes a tiny amount as nitrogen oxides, and decomposers such as fungi return ammonia to the soil when organisms die (**ammonification**)."
   },
   {

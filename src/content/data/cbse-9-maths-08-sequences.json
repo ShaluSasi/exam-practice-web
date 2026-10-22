@@ -483,7 +483,7 @@
     ],
     "answer": "b",
     "hint": "Keep adding the previous two terms: $1, 2, 3, 5, 8, \\dots$",
-    "explanation": "Starting from $1, 2$ each term is the sum of the two before: $1, 2, 3, 5, 8, 13, 21, 34, 55, 89$, so $V_{10} = 89$. $55$ is $V_9$ (off by one), $144$ comes from the classical Fibonacci numbers that start $1, 1$, and $110 = 2 \\times 55$ wrongly doubles."
+    "explanation": "Starting from $1, 2$ each term is the sum of the two before: $1, 2, 3, 5, 8, 13, 21, 34, 55, 89$, so $V_{10} = 89$. $55$ is $V_9$ (off by one), $144$ is $V_{11}$ (one term too far), and $110 = 2 \\times 55$ wrongly doubles."
   },
   {
     "region": "IN",
@@ -654,7 +654,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "On the graph, each point is $(x, y)$ with $x$ the stage number and $y$ the number of tiles in a growing pattern ($1, 5, 9, 13, 17$). Tap the point for **Stage 4**.",
+    "prompt": "On the graph, each point is $(x, y)$ with $x$ the stage number and $y$ the number of squares in a growing pattern ($1, 5, 9, 13, 17$). Tap the point for **Stage 4**.",
     "image": {
       "src": "/img/maths08/ap-graph.svg",
       "alt": "A graph with numbered axes and five points lying on a straight line, with numbered markers"
@@ -707,7 +707,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Same graph. Tap the point that stands for the stage with **9 tiles**.",
+    "prompt": "Same graph. Tap the point that stands for the stage with **9 squares**.",
     "image": {
       "src": "/img/maths08/ap-graph.svg",
       "alt": "A graph with numbered axes and five points lying on a straight line, with numbered markers"
@@ -746,7 +746,7 @@
     ],
     "answer": "p3",
     "hint": "Find $y = 9$ on the vertical axis and look across to the point.",
-    "explanation": "Reading across from $y = 9$ we reach the point $(3, 9)$, so Stage 3 has $9$ tiles; check with $4n - 3 = 9 \\Rightarrow n = 3$. Tapping Stage 5 or 2 confuses the tile count with the stage number or counts squares on the axis wrongly."
+    "explanation": "Reading across from $y = 9$ we reach the point $(3, 9)$, so Stage 3 has $9$ squares; check with $4n - 3 = 9 \\Rightarrow n = 3$. Looking for $9$ on the horizontal (stage) axis mixes up the number of squares with the stage number."
   },
   {
     "region": "IN",
@@ -824,7 +824,7 @@
     ],
     "answer": "b",
     "hint": "Here $d = -3$. Solve $21 + (n-1)(-3) = -81$.",
-    "explanation": "With $a = 21$ and $d = -3$: $21 - 3(n-1) = -81$, so $-3(n-1) = -102$ and $n - 1 = 34$, giving $n = 35$. Stopping at $n - 1 = 34$ gives $34$th, using $a + nd$ gives $36$th, and a sign error in $d$ gives a wrong small answer such as $21$st."
+    "explanation": "With $a = 21$ and $d = -3$: $21 - 3(n-1) = -81$, so $-3(n-1) = -102$ and $n - 1 = 34$, giving $n = 35$. Stopping at $n - 1 = 34$ (or using $a + nd$ instead of $a + (n-1)d$) gives $34$th, adding an extra step gives $36$th, and $21$st simply reuses the first term as a position."
   },
   {
     "region": "IN",
@@ -1710,7 +1710,7 @@
       "src": "/img/maths08/sierpinski.svg",
       "alt": "Four stages of a blue triangle with holes cut again and again"
     },
-    "assertion": "As the number of stages grows, the black area gets closer and closer to 0.",
+    "assertion": "As the number of stages grows, the blue (shaded) area gets closer and closer to 0.",
     "reason": "Each stage keeps $\\dfrac{3}{4}$ of the area of the previous stage, a common ratio less than 1.",
     "answer": "a",
     "hint": "How much of the area is left after one stage? What happens if you multiply by that fraction again and again?",
@@ -2233,6 +2233,6 @@
     "startLabel": "Smallest",
     "endLabel": "Largest",
     "hint": "Substitute $n = 10$ carefully; for the GP use $ar^{n-1}$.",
-    "explanation": "(a) $3(10) - 4 = 26$. (b) $2 - 5(10) = -48$. (c) $10^2 - 2(10) + 3 = 83$. (d) GP $3, 6, 12, \\dots$ has $t_{10} = 3 \\times 2^9 = 1536$. In order: $-48 < 26 < 83 < 1536$. A common slip is $3 \\times 2^{10} = 3072$ for (d), which would not change the order but is wrong."
+    "explanation": "Substitute $n = 10$: $t_n = 3n - 4$ gives $26$; $t_n = 2 - 5n$ gives $-48$; $t_n = n^2 - 2n + 3$ gives $100 - 20 + 3 = 83$; the GP $3, 6, 12, \\dots$ has $t_{10} = 3 \\times 2^9 = 1536$. In order: $-48 < 26 < 83 < 1536$. A common slip is $3 \\times 2^{10} = 3072$ for the GP, which would not change the order but is wrong."
   }
 ]

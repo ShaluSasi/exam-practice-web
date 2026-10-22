@@ -655,7 +655,7 @@
       }
     ],
     "answer": "O",
-    "hint": "For an obtuse-angled triangle, the circumcentre lies outside, beyond the longest side.",
+    "hint": "The circumcentre is the one point equally far from A, B and C.",
     "explanation": "The **circumcentre** is where the perpendicular bisectors of the sides meet, and it is equidistant from A, B and C. For an **acute** triangle it lies inside, for a **right** triangle at the midpoint of the hypotenuse, and for an **obtuse** triangle **outside**, on the far side of the longest side BC. Only the point below BC is the same distance from A, B and C. The point above BC is equally far from B and C but much closer to A."
   },
   {
@@ -1478,7 +1478,7 @@
     ],
     "answer": "b",
     "hint": "Let the longer chord be $x$ cm from the centre; the shorter one is then $(x + 17)$ cm away. Both give the same $r^2$.",
-    "explanation": "$r^2 = 24^2 + x^2 = 7^2 + (x + 17)^2$, so $576 + x^2 = 49 + x^2 + 34x + 289$, giving $34x = 238$ and $x = 7$. Then $r = \\sqrt{24^2 + 7^2} = \\sqrt{625} = 25$ cm (check: $\\sqrt{7^2 + 24^2} = 25$ ✓). $7$ cm stops at $x$; $24$ cm is half the longer chord; $31$ cm adds $24 + 7$ instead of using squares."
+    "explanation": "$r^2 = 24^2 + x^2 = 7^2 + (x + 17)^2$, so $576 + x^2 = 49 + x^2 + 34x + 289$, giving $34x = 238$ and $x = 7$. Then $r = \\sqrt{24^2 + 7^2} = \\sqrt{625} = 25$ cm (check with the shorter chord, $24$ cm from the centre: $\\sqrt{7^2 + 24^2} = 25$ ✓). $7$ cm stops at $x$; $24$ cm is half the longer chord; $31$ cm adds $24 + 7$ instead of using squares."
   },
   {
     "id": "ma05-q032",
@@ -1807,7 +1807,7 @@
       }
     ],
     "answer": "P",
-    "hint": "Only points on the circle itself are guaranteed this angle.",
+    "hint": "Recall the corollary of the arc-angle theorem about the angle a diameter subtends.",
     "explanation": "The diameter subtends a straight angle ($180^\\circ$) at the centre, so at any point **on the circle** it subtends $\\dfrac{180^\\circ}{2} = 90^\\circ$. A point inside the semicircle sees AB at more than $90^\\circ$, and a point outside sees it at less than $90^\\circ$."
   },
   {
@@ -2042,7 +2042,7 @@
       "e"
     ],
     "hint": "Check $\\angle A + \\angle C$ (and $\\angle B + \\angle D$) for each.",
-    "explanation": "A quadrilateral is cyclic exactly when a pair of opposite angles adds up to $180^\\circ$ (Theorems 11 and 12). (a) $85 + 95 = 180$ ✓; (b) $100 + 100 = 200$ ✗, a parallelogram that is not a rectangle; (c) $70 + 110 = 180$ ✓; (d) $60 + 100 = 160$ ✗; (e) $120 + 60 = 180$ ✓. In every set the four angles total $360^\\circ$, so that alone proves nothing."
+    "explanation": "A quadrilateral is cyclic exactly when a pair of opposite angles adds up to $180^\\circ$ (Theorems 11 and 12). Adding $\\angle A + \\angle C$: $85 + 95 = 180$ ✓; $70 + 110 = 180$ ✓; $120 + 60 = 180$ ✓. But $100 + 100 = 200$ ✗ (a parallelogram that is not a rectangle) and $60 + 100 = 160$ ✗. In every set the four angles total $360^\\circ$, so that alone proves nothing."
   },
   {
     "id": "ma05-q046",

@@ -87,7 +87,7 @@
       { "id": "shoot", "x": 50, "y": 11.5, "label": "Shoot tip" },
       { "id": "leaf", "x": 65, "y": 26, "label": "Leaf" },
       { "id": "node", "x": 50, "y": 41.75, "label": "Just above a node" },
-      { "id": "lower", "x": 50, "y": 53, "label": "Stem just above the soil" },
+      { "id": "lateral", "x": 36.7, "y": 71.5, "label": "Side root" },
       { "id": "roottip", "x": 50, "y": 92.5, "label": "Root tip" }
     ],
     "answer": "node",
@@ -295,7 +295,7 @@
     ],
     "answer": "c",
     "hint": "Multiply the body weight by 12/100 and by 15/100.",
-    "explanation": "12% of 50 kg = 0.12 × 50 = **6 kg** and 15% of 50 kg = 0.15 × 50 = **7.5 kg**, so her bones weigh about **6–7.5 kg**. Writing the percentages straight as kilograms gives 12–15 kg, dividing by 100 twice gives 0.6–0.75 kg, and subtracting the percentages from 50 gives 35–38 kg."
+    "explanation": "12% of 50 kg = 0.12 × 50 = **6 kg** and 15% of 50 kg = 0.15 × 50 = **7.5 kg**, so her bones weigh about **6–7.5 kg**. Writing the percentages straight as kilograms gives 12–15 kg, misplacing the decimal point (0.012 × 50 and 0.015 × 50) gives 0.6–0.75 kg, and subtracting the percentages from 50 gives 35–38 kg."
   },
   {
     "id": "in-cbse-9-bio-tissue-017",
@@ -432,7 +432,7 @@
       { "id": "d", "text": "*Escherichia coli*" }
     ],
     "answer": "b",
-    "hint": "Its name contains a word meaning 'tumour-making'.",
+    "hint": "The text says this germ can pass its own genetic material into plant cells.",
     "explanation": "Crown gall is caused by the bacterium *Agrobacterium tumefaciens*, which transfers some of its genetic material into plant cells. Scientists studied how it does this, and now use Agrobacterium as a tool to put useful genes into plants for better, disease-resistant crops. Helianthus annuus is the sunflower, not a germ."
   },
   {

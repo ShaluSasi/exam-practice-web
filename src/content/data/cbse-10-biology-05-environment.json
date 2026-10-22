@@ -502,11 +502,11 @@
    },
    {
     "id": "c",
-    "text": "Complex organic substances become simple inorganic substances"
+    "text": "The complex organic substances are converted into simple inorganic substances"
    },
    {
     "id": "b",
-    "text": "Bacteria and fungi break down the dead remains"
+    "text": "Bacteria and fungi start to attack the dead remains"
    },
    {
     "id": "d",
@@ -917,7 +917,7 @@
   ],
   "answer": "d",
   "hint": "Count how many times the energy is passed on to reach the third level.",
-  "explanation": "Producers to herbivores keeps 10%: 20 000 to 2 000 J. Herbivores to small carnivores keeps 10% again: 2 000 to **200 J**. The traps are 2 000 J (stopping after one transfer), 4 000 J (multiplying by 2 instead of taking 10% twice) and 20 J (going one transfer too far)."
+  "explanation": "Producers to herbivores keeps 10%: 20 000 to 2 000 J. Herbivores to small carnivores keeps 10% again: 2 000 to **200 J**. The traps are 2 000 J (stopping after one transfer), 4 000 J (passing on 20% instead of 10%) and 20 J (going one transfer too far, to the fourth level)."
  },
  {
   "id": "in-cbse-10-bio-environment-020",
@@ -1255,8 +1255,8 @@
   "type": "order",
   "prompt": "A pesticide enters a pond. Arrange these from the **lowest** to the **highest** pesticide concentration.",
   "image": {
-   "src": "/img/c10-environment/biomag-bars.svg",
-   "alt": "Bars of pesticide level rising from water to bird"
+   "src": "/img/c10-environment/pesticide-path.svg",
+   "alt": "Pesticide moving from a sprayer through soil, plant and cow to a human, with more red dots at each step"
   },
   "items": [
    {
@@ -1306,8 +1306,8 @@
   "type": "order",
   "prompt": "Arrange the path by which a pesticide ends up in humans.",
   "image": {
-   "src": "/img/c10-environment/pesticide-path.svg",
-   "alt": "Pesticide moving from sprayer to soil, plant, cow and human"
+   "src": "/img/c10-environment/biomag-bars.svg",
+   "alt": "Bars of pesticide level rising from water to bird"
   },
   "items": [
    {
@@ -1513,8 +1513,8 @@
   "type": "order",
   "prompt": "Arrange the steps by which ozone forms in the upper atmosphere.",
   "image": {
-   "src": "/img/c10-environment/ozone-formation.svg",
-   "alt": "UV splitting O2 into O atoms, which join O2 to form O3"
+   "src": "/img/c10-environment/o3-molecules.svg",
+   "alt": "Ball models of oxygen and ozone molecules"
   },
   "items": [
    {

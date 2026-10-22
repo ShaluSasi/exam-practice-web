@@ -179,11 +179,7 @@
   ],
   "answer": "c",
   "hint": "The chapter calls this transparency.",
-  "explanation": "In a democracy decisions are based on **norms and procedures**, so a citizen can examine the process of decision-making. This is called **transparency**, and it is often missing in non-democratic governments. Locked files and one-person decisions are the opposite.",
-  "image": {
-   "src": "/img/c10-pol-outcomes-democracy/transp.svg",
-   "alt": "Citizen with magnifier and a ticked file"
-  }
+  "explanation": "In a democracy decisions are based on **norms and procedures**, so a citizen can examine the process of decision-making. This is called **transparency**, and it is often missing in non-democratic governments. Locked files and one-person decisions are the opposite."
  },
  {
   "id": "in-cbse-10-pol-outcomes-democracy-005",
@@ -361,7 +357,7 @@
    }
   ],
   "answer": "info",
-  "hint": "Which card has a document and a magnifier?",
+  "hint": "Which card is about finding out what the government is doing?",
   "explanation": "The **right to information** lets citizens learn how the government works and how decisions are taken; the document with a magnifier shows it. The other cards show elections, public debate and a fair chance for everyone."
  },
  {
@@ -378,8 +374,8 @@
   "type": "match",
   "prompt": "Match each expected outcome with the chapter's verdict on the record of democracies.",
   "image": {
-   "src": "/img/c10-pol-outcomes-democracy/record.svg",
-   "alt": "Checklist with success, falls short and poor record"
+   "src": "/img/c10-pol-outcomes-democracy/acc-resp.svg",
+   "alt": "Citizens choosing the government and the government answering back"
   },
   "left": [
    {
@@ -934,7 +930,7 @@
    }
   ],
   "answer": "All democratic regimes",
-  "hint": "The lowest value is 3.95.",
+  "hint": "Compare the heights of the four bars.",
   "explanation": "All democratic regimes had **3.95**, lower than 4.28, 4.34 and 4.42. The gaps are small, which is why the chapter says democracy cannot be rejected on this ground alone."
  },
  {
@@ -980,7 +976,7 @@
   ],
   "startLabel": "Highest",
   "endLabel": "Lowest",
-  "hint": "The four rates are 4.42, 4.34, 4.28 and 3.95.",
+  "hint": "Read the value above each bar.",
   "explanation": "All dictatorial regimes 4.42, poor countries under dictatorship 4.34, poor countries under democracy 4.28, all democratic regimes 3.95."
  },
  {
@@ -1145,7 +1141,7 @@
    "l3": "r3",
    "l4": "r4"
   },
-  "hint": "Table 1 lists them in this order.",
+  "hint": "Read the value above each bar.",
   "explanation": "The rates are 3.95, 4.42, 4.34 and 4.28."
  },
  {
@@ -1240,6 +1236,12 @@
     "x": 81.2,
     "y": 74.2,
     "label": "Denmark"
+   },
+   {
+    "id": "Hungary",
+    "x": 94.6,
+    "y": 74.2,
+    "label": "Hungary"
    }
   ],
   "answer": "Brazil",
@@ -1299,8 +1301,8 @@
   "type": "mcq",
   "prompt": "In South Africa the top 20 per cent take 64.8 per cent of national income and the bottom 20 per cent take 2.9. What share goes to the middle 60 per cent?",
   "image": {
-   "src": "/img/c10-pol-outcomes-democracy/ineq-stack.svg",
-   "alt": "Stacked bars for four countries"
+   "src": "/img/c10-pol-outcomes-democracy/ineq-bars.svg",
+   "alt": "Paired bars of top and bottom shares"
   },
   "options": [
    {
@@ -1441,7 +1443,7 @@
   ],
   "startLabel": "Lowest",
   "endLabel": "Highest",
-  "hint": "The shares are 2.6, 2.9, 4.0, 6.0 and 10.0.",
+  "hint": "Read the blue (bottom 20 per cent) bars.",
   "explanation": "Brazil 2.6, South Africa 2.9, USA 4.0, United Kingdom 6.0, Hungary 10.0."
  },
  {
@@ -1558,10 +1560,6 @@
   "marks": 2,
   "type": "mcq",
   "prompt": "The chapter says people in several poor countries are now dependent on rich countries even for food supplies. Which picture shows this?",
-  "image": {
-   "src": "/img/c10-pol-outcomes-democracy/dep.svg",
-   "alt": "Ship with food between rich and poor countries"
-  },
   "options": [
    {
     "id": "a",
@@ -1699,10 +1697,6 @@
   "marks": 2,
   "type": "mcq",
   "prompt": "Which picture shows democracy staying accommodative, with different groups forming the majority on different decisions?",
-  "image": {
-   "src": "/img/c10-pol-outcomes-democracy/majority-shift.svg",
-   "alt": "Three panels with different majorities"
-  },
   "options": [
    {
     "id": "a",
@@ -2067,8 +2061,8 @@
   "type": "mcq",
   "prompt": "Which one of these is the odd one out? Democracies need to ensure:",
   "image": {
-   "src": "/img/c10-pol-outcomes-democracy/term-cards.svg",
-   "alt": "Four idea cards"
+   "src": "/img/c10-pol-outcomes-democracy/practices.svg",
+   "alt": "Four cards: ballot box, speech bubbles, document, people at a start line"
   },
   "options": [
    {

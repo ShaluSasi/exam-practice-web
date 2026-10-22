@@ -793,7 +793,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Using the same rhombus (diagonals 16 cm and 12 cm), find its area.",
+    "prompt": "A rhombus has diagonals 16 cm and 12 cm long. Find its area.",
     "image": {
       "src": "/img/maths12/rhombus-diag.svg",
       "alt": "A rhombus ABCD with both diagonals and their lengths"
@@ -1021,7 +1021,7 @@
       "d"
     ],
     "hint": "The diagonals of **every** rhombus are already perpendicular.",
-    "explanation": "A right angle forces all four angles to be $90^\\circ$ in a parallelogram (adjacent angles add to $180^\\circ$), so (a) is true. Equal diagonals make a parallelogram a rectangle, and a rhombus that is also a rectangle is a square, so (c) and (d) are true. (b) is false because every rhombus has perpendicular diagonals; (e) is false because an isosceles trapezium has equal diagonals."
+    "explanation": "In a parallelogram adjacent angles add to $180^\\circ$, so one right angle forces all four angles to be $90^\\circ$: a parallelogram with one right angle is a rectangle. Equal diagonals make a parallelogram a rectangle, and a rhombus that is also a rectangle is a square, so those two statements are true as well. A rhombus with perpendicular diagonals need not be a square, because **every** rhombus has perpendicular diagonals; and a quadrilateral with equal diagonals need not be a rectangle, because an isosceles trapezium has equal diagonals."
   },
   {
     "id": "ma12-q026",
@@ -1069,7 +1069,7 @@
       },
       {
         "id": "r2",
-        "text": "Bisect each other, and are not necessarily equal"
+        "text": "Bisect each other, but are not necessarily equal or perpendicular"
       },
       {
         "id": "r3",
@@ -1077,7 +1077,7 @@
       },
       {
         "id": "r4",
-        "text": "Bisect each other at right angles"
+        "text": "Bisect each other at right angles, but are not necessarily equal"
       },
       {
         "id": "r5",
@@ -1542,12 +1542,12 @@
       },
       {
         "id": "d",
-        "text": "15 cm"
+        "text": "13.5 cm"
       }
     ],
     "answer": "a",
     "hint": "The centroid divides each median in the ratio $2 : 1$, with the longer part next to the vertex.",
-    "explanation": "M divides CP in the ratio $CM : MP = 2 : 1$, so $CM = \\dfrac23 \\times 18 = 12$ cm and $MP = 6$ cm. Traps: 9 cm takes half of the median; 6 cm is $MP$ (the shorter part); 15 cm has no basis in the ratio."
+    "explanation": "M divides CP in the ratio $CM : MP = 2 : 1$, so $CM = \\dfrac23 \\times 18 = 12$ cm and $MP = 6$ cm. Traps: 9 cm takes half of the median; 6 cm is $MP$ (the shorter part); 13.5 cm uses a $3 : 1$ split ($\\dfrac34 \\times 18$) instead of $2 : 1$."
   },
   {
     "id": "ma12-q037",
@@ -1585,8 +1585,8 @@
       }
     ],
     "answer": "b",
-    "hint": "MQ is the shorter part, one third of the median.",
-    "explanation": "The longer part is $BM = 2 \\times MQ = 10$ cm, so $BQ = BM + MQ = 10 + 5 = 15$ cm. Traps: 10 cm is only $BM$; 7.5 cm halves MQ's partner wrongly; 20 cm multiplies by 4 (using $3 : 1$ instead of $2 : 1$)."
+    "hint": "Is MQ the part of the median next to the vertex B, or the part next to the side AC?",
+    "explanation": "M divides BQ in the ratio $BM : MQ = 2 : 1$, so the longer part is $BM = 2 \\times MQ = 10$ cm and $BQ = BM + MQ = 10 + 5 = 15$ cm. Traps: 10 cm is only $BM$; 7.5 cm wrongly treats MQ as the longer part ($\\dfrac32 \\times 5$); 20 cm multiplies by 4 (using $3 : 1$ instead of $2 : 1$)."
   },
   {
     "id": "ma12-q038",
@@ -1656,7 +1656,7 @@
     "reason": "The common point divides each median in the ratio $1 : 1$.",
     "answer": "c",
     "hint": "Recall the ratio in which the centroid divides a median.",
-    "explanation": "A is true: the medians are concurrent at the centroid. R is false because the centroid divides each median in the ratio $2 : 1$ (longer part towards the vertex); a $1 : 1$ division would be the midpoint, which lies on only one of the medians."
+    "explanation": "A is true: the medians are concurrent at the centroid. R is false because the centroid divides each median in the ratio $2 : 1$, with the longer part towards the vertex, not $1 : 1$ (it is not the midpoint of a median)."
   },
   {
     "id": "ma12-q040",

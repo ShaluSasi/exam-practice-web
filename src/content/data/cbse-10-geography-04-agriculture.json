@@ -13,8 +13,8 @@
   "type": "mcq",
   "prompt": "Which type of farming is also called **'slash and burn'** agriculture?",
   "image": {
-   "src": "/img/c10-geo-agriculture/farm-types.svg",
-   "alt": "Four types of farming with their key features"
+   "src": "/img/c10-geo-agriculture/jhum-scene.svg",
+   "alt": "A hillside farm with standing forest, a family hut and a cleared patch on fire"
   },
   "options": [
    {
@@ -332,7 +332,7 @@
    },
    {
     "id": "c",
-    "text": "Picture D",
+    "text": "Picture C",
     "image": {
      "src": "/img/c10-geo-agriculture/th-commercial.svg",
      "alt": "A tractor with sacks of fertiliser and high yielding variety seeds"
@@ -340,7 +340,7 @@
    },
    {
     "id": "d",
-    "text": "Picture C",
+    "text": "Picture D",
     "image": {
      "src": "/img/c10-geo-agriculture/th-plantation.svg",
      "alt": "Rows of one crop over a large area beside a processing shed"
@@ -427,8 +427,8 @@
   "type": "multi",
   "prompt": "Which of these are features of **commercial farming**? Select all that apply.",
   "image": {
-   "src": "/img/c10-geo-agriculture/inputs.svg",
-   "alt": "Four modern inputs used in commercial farming"
+   "src": "/img/c10-geo-agriculture/comm-sub.svg",
+   "alt": "Rice sold at market in Punjab and Haryana but eaten by the family in Odisha"
   },
   "options": [
    {
@@ -497,8 +497,8 @@
   "type": "match",
   "prompt": "Match each type of farming with its main feature.",
   "image": {
-   "src": "/img/c10-geo-agriculture/farm-types.svg",
-   "alt": "Four types of farming with their key features"
+   "src": "/img/c10-geo-agriculture/th-intensive.svg",
+   "alt": "Many small plots with many workers and a water channel"
   },
   "left": [
    {
@@ -826,8 +826,8 @@
   "type": "mcq",
   "prompt": "In Assam, West Bengal and Odisha, how many crops of paddy are grown in a year?",
   "image": {
-   "src": "/img/c10-geo-agriculture/paddy3.svg",
-   "alt": "Three cards for three paddy crops grown in one year with rice plants"
+   "src": "/img/c10-geo-agriculture/ricefield.svg",
+   "alt": "Paddy field with a canal, a tubewell, rain from a cloud and a thermometer"
   },
   "options": [
    {
@@ -920,7 +920,7 @@
     "id": "thermo",
     "x": 7.5,
     "y": 25.8,
-    "label": "Thermometer (rice needs above 25°C)"
+    "label": "Thermometer (rice needs above 25 degrees C)"
    }
   ],
   "answer": "well",
@@ -1050,7 +1050,7 @@
   ],
   "answer": "b",
   "hint": "Wheat is a rabi crop.",
-  "explanation": "Wheat is a rabi crop that needs a **cool season, bright sunshine as it ripens and 50 to 75 cm of rain** spread over the growing period. The other options describe rice and rubber."
+  "explanation": "Wheat is a rabi crop that needs a **cool season, bright sunshine as it ripens and 50 to 75 cm of rain** spread over the growing period. Option a describes rice, option c is close to rubber, and option d fits none of the crops in the chapter."
  },
  {
   "id": "in-cbse-10-geo-agriculture-025",
@@ -1075,23 +1075,23 @@
     "text": "Picture A",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-jute.svg",
-     "alt": "ic-jute"
+     "alt": "Crop picture A"
     }
    },
    {
     "id": "b",
-    "text": "Picture C",
+    "text": "Picture B",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-rice.svg",
-     "alt": "ic-rice"
+     "alt": "Crop picture B"
     }
    },
    {
     "id": "c",
-    "text": "Picture B",
+    "text": "Picture C",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-cotton.svg",
-     "alt": "ic-cotton"
+     "alt": "Crop picture C"
     }
    },
    {
@@ -1099,7 +1099,7 @@
     "text": "Picture D",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-coffee.svg",
-     "alt": "ic-coffee"
+     "alt": "Crop picture D"
     }
    }
   ],
@@ -1222,8 +1222,8 @@
   "type": "mcq",
   "prompt": "Which picture shows a **pulse crop** that, being leguminous, helps restore soil fertility?",
   "image": {
-   "src": "/img/c10-geo-agriculture/nodules.svg",
-   "alt": "Cross-section of soil with a pulse plant, its roots with small swellings and nitrogen gas in the air"
+   "src": "/img/c10-geo-agriculture/baskets.svg",
+   "alt": "Two season cards: kharif with monsoon rain and rabi with winter sun"
   },
   "options": [
    {
@@ -1231,7 +1231,7 @@
     "text": "Picture A",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-wheat.svg",
-     "alt": "ic-wheat"
+     "alt": "Crop picture A"
     }
    },
    {
@@ -1239,23 +1239,23 @@
     "text": "Picture B",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-sugarcane.svg",
-     "alt": "ic-sugarcane"
+     "alt": "Crop picture B"
     }
    },
    {
     "id": "c",
-    "text": "Picture D",
+    "text": "Picture C",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-gram.svg",
-     "alt": "ic-gram"
+     "alt": "Crop picture C"
     }
    },
    {
     "id": "d",
-    "text": "Picture C",
+    "text": "Picture D",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-bajra.svg",
-     "alt": "ic-bajra"
+     "alt": "Crop picture D"
     }
    }
   ],
@@ -1681,7 +1681,7 @@
     "text": "Picture A",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-maize.svg",
-     "alt": "ic-maize"
+     "alt": "Crop picture A"
     }
    },
    {
@@ -1689,7 +1689,7 @@
     "text": "Picture B",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-tea.svg",
-     "alt": "ic-tea"
+     "alt": "Crop picture B"
     }
    },
    {
@@ -1697,7 +1697,7 @@
     "text": "Picture C",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-wheat.svg",
-     "alt": "ic-wheat"
+     "alt": "Crop picture C"
     }
    },
    {
@@ -1705,13 +1705,13 @@
     "text": "Picture D",
     "image": {
      "src": "/img/c10-geo-agriculture/ic-groundnut.svg",
-     "alt": "ic-groundnut"
+     "alt": "Crop picture D"
     }
    }
   ],
   "answer": "b",
   "hint": "Tea grows as a low round bush.",
-  "explanation": "Tea bushes are low and round. They need a warm, moist, frost-free climate with showers spread across the year. Maize, wheat and groundnut do not grow in plantations."
+  "explanation": "Tea is a low, round bush grown in plantations. It needs a warm, moist, frost-free climate with frequent showers spread across the year. The other pictures show maize, wheat and groundnut."
  },
  {
   "id": "in-cbse-10-geo-agriculture-039",
@@ -1727,8 +1727,8 @@
   "type": "mcq",
   "prompt": "Which statement about Indian **coffee** is correct?",
   "image": {
-   "src": "/img/c10-geo-agriculture/coffeechain.svg",
-   "alt": "Three boxes in a chain: Yemen, Baba Budan Hills and Nilgiri with a coffee branch"
+   "src": "/img/c10-geo-agriculture/ic-coffee.svg",
+   "alt": "A coffee plant"
   },
   "options": [
    {
@@ -2011,10 +2011,10 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Cotton needs **210 frost-free days** (take a month as 30 days) and sugarcane takes almost **12 months**. How many more months does sugarcane occupy the field?",
+  "prompt": "Cotton takes **6 to 8 months** to mature and sugarcane takes almost **12 months**. If a cotton crop takes 7 months (the red line), how many more months does sugarcane occupy the field?",
   "image": {
    "src": "/img/c10-geo-agriculture/cottontime.svg",
-   "alt": "Bar chart of months taken by cotton (6 to 8) and sugarcane (about 12) with a marker at 7 months"
+   "alt": "Bar chart of months taken by cotton (6 to 8) and sugarcane (about 12) with a red line at 7 months"
   },
   "options": [
    {
@@ -2035,8 +2035,8 @@
    }
   ],
   "answer": "d",
-  "hint": "First change 210 days into months.",
-  "explanation": "210 / 30 = 7 months for cotton. 12 - 7 = **5 months**. The trap 4 uses 8 months, 6 uses 6 months, and 7 forgets to subtract."
+  "hint": "Subtract the months for cotton from the months for sugarcane.",
+  "explanation": "12 - 7 = **5 months**. The trap 4 uses 8 months for cotton, 6 uses 6 months, and 7 is the time for cotton itself, not the difference."
  },
  {
   "id": "in-cbse-10-geo-agriculture-047",

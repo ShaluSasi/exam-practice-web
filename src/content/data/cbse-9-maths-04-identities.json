@@ -1150,7 +1150,7 @@
     "reason": "A square of side $a + b + c$ is made of three squares and six rectangles, and the rectangles have total area $2ab + 2bc + 2ca$.",
     "answer": "d",
     "hint": "Count the pieces in the square: how many are squares and how many are rectangles?",
-    "explanation": "A is false: $(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$. Try $a = b = c = 1$: $9 \\ne 3$. R is true: the square of side $a + b + c$ is made of three squares ($a^2$, $b^2$, $c^2$) and six rectangles with total area $2ab + 2bc + 2ca$. So the answer is (d)."
+    "explanation": "A is false: $(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$. Try $a = b = c = 1$: $9 \\ne 3$. R is true: the square of side $a + b + c$ is made of three squares ($a^2$, $b^2$, $c^2$) and six rectangles with total area $2ab + 2bc + 2ca$. A is false and R is true."
   },
   {
     "id": "ma04-q022",
@@ -1173,7 +1173,7 @@
     "reason": "$x^2 - 1 = 24$ is true when $x = 5$.",
     "answer": "b",
     "hint": "An identity must be true for **every** value. Does one value that works prove anything about that?",
-    "explanation": "A is true: $x^2 - 1 = 24$ holds only for $x = 5$ or $x = -5$ (try $x = 0$: $-1 \\ne 24$), so it is an equation, not an identity. R is also true, since $25 - 1 = 24$. But R does not explain A: being true for one value says nothing about being false for others. So the answer is (b)."
+    "explanation": "A is true: $x^2 - 1 = 24$ holds only for $x = 5$ or $x = -5$ (try $x = 0$: $-1 \\ne 24$), so it is an equation, not an identity. R is also true, since $25 - 1 = 24$. But R does not explain A: being true for one value says nothing about being false for others. Both are true, but R is not the reason for A."
   },
   {
     "id": "ma04-q023",
@@ -1196,7 +1196,7 @@
     "reason": "$x^4 - y^4 = (x^2 - y^2)(x^2 + y^2)$ and $x^2 - y^2 = (x - y)(x + y)$.",
     "answer": "a",
     "hint": "Treat $x^4$ as $(x^2)^2$ and $y^4$ as $(y^2)^2$.",
-    "explanation": "Using $a^2 - b^2 = (a-b)(a+b)$ twice: $x^4 - y^4 = (x^2 - y^2)(x^2 + y^2) = (x - y)(x + y)(x^2 + y^2)$. So $x - y$ is a factor (A true), and R is exactly the reason why. The answer is (a)."
+    "explanation": "Using $a^2 - b^2 = (a-b)(a+b)$ twice: $x^4 - y^4 = (x^2 - y^2)(x^2 + y^2) = (x - y)(x + y)(x^2 + y^2)$. So $x - y$ is a factor (A true), and R is exactly the reason why."
   },
   {
     "id": "ma04-q024",
@@ -1219,7 +1219,7 @@
     "reason": "$n^3 - n = (n - 1)n(n + 1)$ is a product of three consecutive whole numbers, so it has a factor 2 and a factor 3.",
     "answer": "a",
     "hint": "Factorise $n^3 - n$ completely.",
-    "explanation": "$n^3 - n = n(n^2 - 1) = (n-1)n(n+1)$, a product of three consecutive whole numbers. Among them one is even and one is a multiple of 3, so the product is divisible by $2 \\times 3 = 6$; e.g. $5^3 - 5 = 120 = 6 \\times 20$. Both statements are true and R explains A: answer (a)."
+    "explanation": "$n^3 - n = n(n^2 - 1) = (n-1)n(n+1)$, a product of three consecutive whole numbers. Among them one is even and one is a multiple of 3, so the product is divisible by $2 \\times 3 = 6$; e.g. $5^3 - 5 = 120 = 6 \\times 20$. Both statements are true and R correctly explains A."
   },
   {
     "id": "ma04-q025",
@@ -1242,7 +1242,7 @@
     "reason": "An algebraic identity is true only when its variables stand for lengths, which are positive.",
     "answer": "c",
     "hint": "Substitute $a = -2$ and $b = -3$ into both sides.",
-    "explanation": "A is true: $(a + b)^2 = (-5)^2 = 25$ and $a^2 + 2ab + b^2 = 4 + 12 + 9 = 25$. R is false: the area picture uses lengths, but the distributive property proves the identity for **all** numbers — negative numbers and fractions too. So the answer is (c)."
+    "explanation": "A is true: $(a + b)^2 = (-5)^2 = 25$ and $a^2 + 2ab + b^2 = 4 + 12 + 9 = 25$. R is false: the area picture uses lengths, but the distributive property proves the identity for **all** numbers — negative numbers and fractions too. A is true and R is false."
   },
   {
     "id": "ma04-q026",
@@ -1394,7 +1394,7 @@
       "c"
     ],
     "hint": "Multiply $x + \\dfrac{1}{x} = \\dfrac{17}{4}$ by $4x$ and factorise the quadratic.",
-    "explanation": "$4x^2 + 4 = 17x$, so $4x^2 - 17x + 4 = 0$. Split $-17x$ as $-16x - x$ (product $16$, sum $-17$): $4x(x - 4) - 1(x - 4) = (4x - 1)(x - 4) = 0$, giving $x = 4$ or $x = \\dfrac{1}{4}$. Check: $4 + \\dfrac14 = \\dfrac{17}{4}$. Negative numbers give a negative sum, and $\\dfrac{17}{4} + \\dfrac{4}{17}$ is far bigger."
+    "explanation": "$4x^2 + 4 = 17x$, so $4x^2 - 17x + 4 = 0$. Split $-17x$ as $-16x - x$ (product $16$, sum $-17$): $4x(x - 4) - 1(x - 4) = (4x - 1)(x - 4) = 0$, giving $x = 4$ or $x = \\dfrac{1}{4}$. Check: $4 + \\dfrac14 = \\dfrac{17}{4}$. Negative numbers give a negative sum, and $\\dfrac{17}{4} + \\dfrac{4}{17} = \\dfrac{305}{68}$ is more than $\\dfrac{17}{4}$."
   },
   {
     "id": "ma04-q029",

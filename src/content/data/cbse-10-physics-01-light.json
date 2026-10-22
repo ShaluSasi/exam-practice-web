@@ -890,11 +890,11 @@
     "options": [
       {
         "id": "a",
-        "text": "+2.14 m (taking u as +5.00 m)"
+        "text": "+2.14 m, behind the mirror"
       },
       {
         "id": "b",
-        "text": "+1.88 m (taking f = R)"
+        "text": "+1.88 m, behind the mirror"
       },
       {
         "id": "c",
@@ -937,11 +937,11 @@
       },
       {
         "id": "c",
-        "text": "2.4 cm tall, real and inverted (used $h' = h\\times f/u$)"
+        "text": "2.4 cm tall, real and inverted"
       },
       {
         "id": "d",
-        "text": "2.7 cm tall, real and inverted (used $m = u/v$)"
+        "text": "2.7 cm tall, real and inverted"
       }
     ],
     "answer": "a",
@@ -976,7 +976,7 @@
       },
       {
         "id": "c",
-        "text": "7.5 cm in front of the mirror (this is f, not v)"
+        "text": "7.5 cm in front of the mirror"
       },
       {
         "id": "d",
@@ -2020,11 +2020,11 @@
       },
       {
         "id": "c",
-        "text": "+6 cm, real and inverted (used the mirror formula)"
+        "text": "+6 cm, real and inverted"
       },
       {
         "id": "d",
-        "text": "+25 cm, real and inverted (added u and f)"
+        "text": "+25 cm, real and inverted"
       }
     ],
     "answer": "a",
@@ -2068,7 +2068,7 @@
     ],
     "answer": "a",
     "hint": "A concave lens always forms a virtual image on the same side as the object, so $v=-10$ cm and $f=-15$ cm.",
-    "explanation": "$\\dfrac{1}{u} = \\dfrac{1}{v}-\\dfrac{1}{f} = -\\dfrac{1}{10}+\\dfrac{1}{15} = -\\dfrac{1}{30}$, so $u = -30\\ \\text{cm}$: the object is **30 cm in front** of the lens. The magnification is $m = v/u = +0.33$, so the image is virtual, erect and one-third the size. A sign slip in the formula gives 6 cm, and 25 cm comes from subtracting f and v directly."
+    "explanation": "$\\dfrac{1}{u} = \\dfrac{1}{v}-\\dfrac{1}{f} = -\\dfrac{1}{10}+\\dfrac{1}{15} = -\\dfrac{1}{30}$, so $u = -30\\ \\text{cm}$: the object is **30 cm in front** of the lens. The magnification is $m = v/u = +0.33$, so the image is virtual, erect and one-third the size. A sign slip in the formula gives 6 cm, and 25 cm comes from simply adding the two distances (15 + 10)."
   },
   {
     "id": "in-cbse-10-phy-light-046",
@@ -2114,7 +2114,7 @@
       "b",
       "c"
     ],
-    "hint": "Check Table 9.5: the result does not depend on the object position.",
+    "hint": "Ask whether the kind of image changes as the object is moved closer to the lens.",
     "explanation": "A concave lens always forms a **virtual, erect and diminished** image, wherever the object is. At infinity the image is a point at F1, and for a nearer object it lies between F1 and O. It can never be real, and it is never enlarged."
   },
   {

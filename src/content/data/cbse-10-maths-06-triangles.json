@@ -399,7 +399,7 @@
   "prompt": "Match each pair of figures with the correct conclusion.",
   "image": {
    "src": "/img/c10-ma-triangles/pairs-figs.svg",
-   "alt": "Four pairs of figures: two circles, a square and a rectangle, a square and a rhombus, a triangle and a square"
+   "alt": "Four pairs of figures: two circles, a square and a rectangle, a square and a rhombus, two equilateral triangles of different sizes"
   },
   "left": [
    {
@@ -416,7 +416,7 @@
    },
    {
     "id": "l4",
-    "text": "Two equilateral triangles of different size"
+    "text": "Two equilateral triangles of different size (pair iv)"
    }
   ],
   "right": [
@@ -620,7 +620,7 @@
   ],
   "answer": "c",
   "hint": "Write $\\dfrac{x}{x-2}=\\dfrac{x+2}{x-1}$ and cross-multiply carefully.",
-  "explanation": "$\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\Rightarrow x(x-1)=(x-2)(x+2)\\Rightarrow x^2-x=x^2-4\\Rightarrow x=4$. Check: $\\dfrac{4}{2}=\\dfrac{6}{3}$. Traps: pairing $AD$ with $AE$ on one side incorrectly gives $\\frac25$; writing $(x+2)(x-2)=x^2+4$ gives $-4$; and pairing $AD\\cdot DB=AE\\cdot EC$ gives $\\frac23$."
+  "explanation": "$\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\Rightarrow x(x-1)=(x-2)(x+2)\\Rightarrow x^2-x=x^2-4\\Rightarrow x=4$. Check: $\\dfrac{4}{2}=\\dfrac{6}{3}$. Traps: flipping one ratio, $\\dfrac{x}{x-2}=\\dfrac{x-1}{x+2}$, gives $5x=2$, i.e. $\\frac25$; writing $(x+2)(x-2)=x^2+4$ gives $-4$; and pairing $AD\\cdot DB=AE\\cdot EC$ gives $\\frac23$."
  },
  {
   "id": "in-cbse-10-math-triangles-015",
@@ -659,7 +659,7 @@
   ],
   "answer": "d",
   "hint": "Compare $\\dfrac{PE}{EQ}$ with $\\dfrac{PF}{FR}$.",
-  "explanation": "$EF\\parallel QR$ exactly when $\\dfrac{PE}{EQ}=\\dfrac{PF}{FR}$ (Theorem 6.2). First set: $\\dfrac{2.4}{3.6}=\\dfrac23=\\dfrac{1.6}{2.4}$. Second: $1.3\\neq1.5$. Third: $\\dfrac{8}{9}\\neq1$. Fourth: $\\dfrac23\\neq\\dfrac34$."
+  "explanation": "$EF\\parallel QR$ exactly when $\\dfrac{PE}{EQ}=\\dfrac{PF}{FR}$ (Theorem 6.2). For $PE=2.4$, $EQ=3.6$, $PF=1.6$, $FR=2.4$: $\\dfrac{2.4}{3.6}=\\dfrac23=\\dfrac{1.6}{2.4}$. The other sets fail: $\\dfrac{3.9}{3}=1.3\\neq\\dfrac{3.6}{2.4}=1.5$; $\\dfrac{4}{4.5}=\\dfrac89\\neq\\dfrac88=1$; $\\dfrac23\\neq\\dfrac34$."
  },
  {
   "id": "in-cbse-10-math-triangles-016",
@@ -1388,7 +1388,7 @@
   ],
   "answer": "d",
   "hint": "$\\triangle POQ\\sim\\triangle SOR$ with $P\\leftrightarrow S$, $Q\\leftrightarrow R$.",
-  "explanation": "By AA, $\\triangle POQ\\sim\\triangle SOR$, so $\\dfrac{PO}{SO}=\\dfrac{QO}{RO}$, i.e. $\\dfrac46=\\dfrac6{RO}$ and $RO=9$. Pairing $PO$ with $QO$ wrongly gives $4$; adding the difference gives $8$; and just copying $QO$ gives $6$."
+  "explanation": "By AA, $\\triangle POQ\\sim\\triangle SOR$, so $\\dfrac{PO}{SO}=\\dfrac{QO}{RO}$, i.e. $\\dfrac46=\\dfrac6{RO}$ and $RO=9$. Inverting one ratio ($\\dfrac{PO}{SO}=\\dfrac{RO}{QO}$) gives $4$; adding the difference gives $8$; and just copying $QO$ gives $6$."
  },
  {
   "id": "in-cbse-10-math-triangles-032",
@@ -1620,7 +1620,7 @@
   ],
   "answer": "b",
   "hint": "$\\triangle ABE\\sim\\triangle CDE$: $\\dfrac{BE}{DE}=\\dfrac{AB}{CD}$ with $BE=6+x$.",
-  "explanation": "The lamp-post and girl are both vertical and the angle at the shadow tip $E$ is common, so the triangles are similar (AA). $\\dfrac{6+x}{x}=\\dfrac{4.5}{1.5}=3\\Rightarrow6+x=3x\\Rightarrow x=3$ m. Forgetting the $6+x$ (using $\\dfrac6x=3$) gives $2$; flipping the ratio gives $12$; multiplying distance by height gives $9$."
+  "explanation": "The lamp-post and girl are both vertical and the angle at the shadow tip $E$ is common, so the triangles are similar (AA). $\\dfrac{6+x}{x}=\\dfrac{4.5}{1.5}=3\\Rightarrow6+x=3x\\Rightarrow x=3$ m. Forgetting the $6+x$ (using $\\dfrac6x=3$) gives $2$; flipping the final fraction ($x=\\dfrac{6\\times3}{1.5}$ instead of $\\dfrac{6\\times1.5}{3}$) gives $12$; multiplying distance by height gives $9$."
  },
  {
   "id": "in-cbse-10-math-triangles-037",
@@ -2244,10 +2244,10 @@
    "src": "/img/c10-ma-triangles/sss-tri.svg",
    "alt": "Triangle ABC with sides 6, 9, 12 and triangle DEF with sides 8, 12 and one unknown"
   },
-  "assertion": "Triangles with sides $3, 4, 5$ and $6, 8, 11$ are similar.",
+  "assertion": "In the figure, if $FD=15$, then $\\triangle ABC\\sim\\triangle DEF$.",
   "reason": "If the sides of one triangle are proportional to the sides of another, the triangles are similar (SSS).",
   "answer": "d",
-  "hint": "Check all three ratios.",
-  "explanation": "$\\dfrac{6}{3}=2$ and $\\dfrac{8}{4}=2$ but $\\dfrac{11}{5}=2.2$, so the sides are not proportional and A is false. R is the true SSS criterion, but it does not apply here."
+  "hint": "Check all three ratios of corresponding sides.",
+  "explanation": "$\\dfrac{DE}{AB}=\\dfrac{8}{6}=\\dfrac43$ and $\\dfrac{EF}{BC}=\\dfrac{12}{9}=\\dfrac43$, but $\\dfrac{FD}{CA}=\\dfrac{15}{12}=\\dfrac54$, so the sides are not proportional and A is false (similarity would need $FD=16$). R is the true SSS criterion, but it does not apply here. So (d)."
  }
 ]

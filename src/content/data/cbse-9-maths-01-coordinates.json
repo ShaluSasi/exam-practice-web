@@ -593,7 +593,7 @@
     ],
     "answer": "b",
     "hint": "First find the centre of the room: halfway from P to A, and halfway down the 15 ft width.",
-    "explanation": "Centre: $x = \\dfrac{-6 + 12}{2} = 3$, $y = -\\dfrac{15}{2} = -7.5$. The feet are $2.5$ ft left/right and $1.5$ ft up/down from $(3, -7.5)$: $x = 0.5$ or $5.5$, $y = -6$ or $-9$. Positive y-values put the room above the x-axis; centring at $x = 9$ measures half of 18 from O instead of from P; the last option puts a **corner** of the table, not its centre, at the room's centre."
+    "explanation": "Centre: $x = \\dfrac{-6 + 12}{2} = 3$, $y = -\\dfrac{15}{2} = -7.5$. The feet are $2.5$ ft left/right and $1.5$ ft up/down from $(3, -7.5)$: $x = 0.5$ or $5.5$, $y = -6$ or $-9$. Positive y-values put the room above the x-axis; centring at $x = 9$ measures half of 18 from O instead of from P; and feet at $(3, -7.5)$, $(8, -7.5)$, $(8, -10.5)$, $(3, -10.5)$ put a **corner** of the table, not its centre, at the room's centre."
   },
   {
     "id": "ma01-q015",
@@ -826,7 +826,7 @@
       "d"
     ],
     "hint": "Think about which axis you measure from when you read off the x-coordinate.",
-    "explanation": "Swapping coordinates gives a different point unless both are equal, so A and B are true. The x-coordinate is the distance from the **y-axis** (measured along the x-axis), so C is false. Points on the y-axis are $(0, y)$ — D is true — and points on the x-axis are $(x, 0)$, so E is false."
+    "explanation": "Swapping coordinates gives a different point unless both are equal, so $(2, 5) \\ne (5, 2)$, and $(x, y) = (y, x)$ only when $x = y$. The x-coordinate is the distance from the **y-axis** (measured along the x-axis), not from the x-axis. Points on the y-axis are $(0, y)$, so their x-coordinate is 0, while points on the x-axis are $(x, 0)$, not $(0, y)$."
   },
   {
     "id": "ma01-q020",
@@ -1617,7 +1617,7 @@
     ],
     "answer": "d",
     "hint": "IN lies along the x-axis and NZ is vertical. Use the theorem for IZ.",
-    "explanation": "$IN = 5 - 0 = 5$, $NZ = 0 - (-6) = 6$, and $$IZ = \\sqrt{5^2 + 6^2} = \\sqrt{25 + 36} = \\sqrt{61} \\approx 7.81$$ 11 adds the legs, 61 forgets the square root, and $\\sqrt{11}$ adds the legs before squaring."
+    "explanation": "$IN = 5 - 0 = 5$, $NZ = 0 - (-6) = 6$, and $$IZ = \\sqrt{5^2 + 6^2} = \\sqrt{25 + 36} = \\sqrt{61} \\approx 7.81$$ 11 adds the legs, 61 forgets the square root, and $\\sqrt{11}$ takes the square root of $5 + 6$ without squaring the legs."
   },
   {
     "id": "ma01-q037",
@@ -1724,7 +1724,7 @@
     "prompt": "Circle K is centred at the origin with radius $\\sqrt{65}$. The marked points are $(7, 4)$, $(5, -6)$, $(-6, 6)$, $(-7, -3)$ and $(-4, -7)$. Tap the only point that lies **outside** K.",
     "image": {
       "src": "/img/maths01/circle-test.svg",
-      "alt": "Circle K centred at the origin with five points near it and numbered markers"
+      "alt": "A coordinate plane with five points and numbered markers"
     },
     "spots": [
       {
@@ -1887,7 +1887,7 @@
       "b"
     ],
     "hint": "The midpoint's coordinates are the averages of the end-points' coordinates.",
-    "explanation": "Midpoint $= \\left(\\dfrac{x_1 + x_2}{2}, \\dfrac{y_1 + y_2}{2}\\right)$. Row A gives $(0, 0)$ ✓ and row B gives $(3, 4)$ ✓. Row C gives $(0, -5)$, not $(0, 5)$ — a sign slip. Row D gives $(-1, 2)$, not $(0, -2)$."
+    "explanation": "Midpoint $= \\left(\\dfrac{x_1 + x_2}{2}, \\dfrac{y_1 + y_2}{2}\\right)$. For $S(-3, 0)$, $T(3, 0)$ it is $(0, 0)$ ✓, and for $S(2, 3)$, $T(4, 5)$ it is $(3, 4)$ ✓. For $S(0, 0)$, $T(0, -10)$ it is $(0, -5)$, not $(0, 5)$ — a sign slip. For $S(-8, 7)$, $T(6, -3)$ it is $(-1, 2)$, not $(0, -2)$."
   },
   {
     "id": "ma01-q043",
@@ -2012,7 +2012,7 @@
     ],
     "answer": "d",
     "hint": "Adding the two midpoints next to A and subtracting the one opposite A gives A: $A = E + F - D$.",
-    "explanation": "$A = E + F - D = (6 + 0 - 5, 5 + 3 - 1) = (1, 7)$, $B = D + F - E = (-1, -1)$, $C = D + E - F = (11, 3)$. Check: midpoint of BC $= \\left(\\dfrac{-1 + 11}{2}, \\dfrac{-1 + 3}{2}\\right) = (5, 1) = D$ ✓. The first option mixes up which vertex is opposite which midpoint, the second takes midpoints of DEF, and the third just doubles D, E and F."
+    "explanation": "$A = E + F - D = (6 + 0 - 5, 5 + 3 - 1) = (1, 7)$, $B = D + F - E = (-1, -1)$, $C = D + E - F = (11, 3)$. Check: midpoint of BC $= \\left(\\dfrac{-1 + 11}{2}, \\dfrac{-1 + 3}{2}\\right) = (5, 1) = D$ ✓. $A(11, 3)$, $B(1, 7)$, $C(-1, -1)$ is the right triangle with its vertices relabelled, so its side midpoints do not match D, E and F; $A(5.5, 3)$, $B(3, 4)$, $C(2.5, 2)$ are midpoints of triangle DEF; and $A(10, 2)$, $B(12, 10)$, $C(0, 6)$ just double D, E and F."
   },
   {
     "id": "ma01-q046",
@@ -2115,7 +2115,7 @@
     "prompt": "A screen is 800 pixels wide and 600 pixels high, with the origin at its bottom-left corner. Icon A is a circle of radius 80 px centred at (100, 150); icon B is a circle of radius 100 px centred at (250, 230). Which statement is correct?",
     "image": {
       "src": "/img/maths01/screen-icons.svg",
-      "alt": "A computer screen with two circular icons A and B"
+      "alt": "A computer screen with the centres A and B of two circular icons marked"
     },
     "options": [
       {

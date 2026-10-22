@@ -338,7 +338,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Chromosomes and DNA",
     "difficulty": "medium", "marks": 1,
     "type": "order",
-    "prompt": "Zoom in! Arrange these from **largest to smallest**.",
+    "prompt": "Zoom in! Arrange these so that each one **contains** the next, from the outermost container to the smallest part.",
     "image": { "src": "/img/cell/chromosome.svg", "alt": "Animation of a chromosome with DNA unwinding from one arm" },
     "items": [
       { "id": "dna", "text": "DNA molecule" },
@@ -348,8 +348,8 @@
       { "id": "nucleus", "text": "Nucleus" }
     ],
     "answer": ["cell", "nucleus", "chromosome", "dna", "gene"],
-    "startLabel": "Largest",
-    "endLabel": "Smallest",
+    "startLabel": "Outermost",
+    "endLabel": "Innermost",
     "hint": "A gene is a functional segment of a DNA molecule.",
     "explanation": "The **cell** contains a **nucleus**, the nucleus contains **chromosomes**, each chromosome is made of a **DNA** molecule with proteins, and a **gene** is a functional segment of DNA."
   },
@@ -513,7 +513,7 @@
     "options": [
       { "id": "a", "text": "An Amoeba" },
       { "id": "b", "text": "A typical plant cell" },
-      { "id": "c", "text": "A bacterium" },
+      { "id": "c", "text": "A typical bacterium" },
       { "id": "d", "text": "A virus" }
     ],
     "answer": "d",

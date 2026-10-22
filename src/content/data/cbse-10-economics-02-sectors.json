@@ -543,12 +543,12 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "The biscuit company buys an **intermediate good** from the flour mill. Tap it.",
+    "prompt": "In the biscuit example, the biscuit company buys one **intermediate good** and uses it up to make its product. Tap that good.",
     "image": {
       "src": "/img/c10-eco-sectors/chain-scene.svg",
       "alt": "Wheat, flour, biscuits and a consumer joined by arrows"
     },
-    "hint": "What did the mill sell, and what is it used up in?",
+    "hint": "Which good does the biscuit company buy, and is it used up in making biscuits?",
     "explanation": "The mill sells **wheat flour**, which the biscuit company uses up in making biscuits, so it is an **intermediate good**. The biscuits are the **final good**. The wheat is also intermediate, but it is bought by the mill, not by the biscuit company.",
     "spots": [
       {
@@ -733,7 +733,7 @@
     "prompt": "GVA (₹ crore) in 2021-22: primary 24,79,400; secondary 40,73,000; tertiary 73,25,000. What was the **share of the tertiary sector** in the total?",
     "image": {
       "src": "/img/c10-eco-sectors/gva-share-chart.svg",
-      "alt": "Stacked share bars for 2001-02 and 2021-22"
+      "alt": "Bars of the GVA of the primary, secondary and tertiary sectors in 2021-22, in lakh crore rupees"
     },
     "hint": "Share = sector ÷ total of all three sectors × 100.",
     "explanation": "Total = 24,79,400 + 40,73,000 + 73,25,000 = 1,38,77,400. Tertiary share = 73,25,000 ÷ 1,38,77,400 × 100 = **52.8%**. Traps: **29.3%** is the secondary share; **45.0%** is the tertiary share in 2001-02; **74.7%** leaves the secondary sector out of the total. It matches the textbook range of 50 to 60 per cent.",
@@ -935,13 +935,13 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Which pair of bars shows the **share of the three sectors in employment (%)** for 1977-78 and 2017-18, in that order?",
+    "prompt": "Each chart stacks **primary (blue)** at the bottom, **secondary (red)** in the middle and **tertiary (green)** on top. Which pair of bars shows the **share of the three sectors in employment (%)** for 1977-78 and 2017-18, in that order?",
     "hint": "Primary was still the biggest employer in 2017-18.",
-    "explanation": "In 1977-78 primary employed **71%**, secondary 11% and tertiary 18%; in 2017-18 the shares were **44%, 25% and 31%**. One option swaps the years, one has the sectors in the wrong order, and one looks like a **GVA-style** pattern, where the primary share falls much further.",
+    "explanation": "In 1977-78 primary employed **71%**, secondary 11% and tertiary 18%; in 2017-18 the shares were **44%, 25% and 31%**. One option swaps the two years, one gives the primary sector the tertiary sector's share (18 and 31), and one follows a **GVA-style** pattern in which the primary share falls far more.",
     "options": [
       {
         "id": "a",
-        "text": "Bars 44, 25, 31 then 71, 11, 18",
+        "text": "Primary 44, secondary 25, tertiary 31; then 71, 11, 18",
         "image": {
           "src": "/img/c10-eco-sectors/chart-opt-b.svg",
           "alt": "Bars 44, 25, 31 and 71, 11, 18"
@@ -949,7 +949,7 @@
       },
       {
         "id": "b",
-        "text": "Bars 48, 22, 30 then 19, 28, 53",
+        "text": "Primary 48, secondary 22, tertiary 30; then 19, 28, 53",
         "image": {
           "src": "/img/c10-eco-sectors/chart-opt-c.svg",
           "alt": "Bars 48, 22, 30 and 19, 28, 53"
@@ -957,7 +957,7 @@
       },
       {
         "id": "c",
-        "text": "Bars 18, 11, 71 then 31, 25, 44",
+        "text": "Primary 18, secondary 11, tertiary 71; then 31, 25, 44",
         "image": {
           "src": "/img/c10-eco-sectors/chart-opt-d.svg",
           "alt": "Bars 18, 11, 71 and 31, 25, 44"
@@ -965,7 +965,7 @@
       },
       {
         "id": "d",
-        "text": "Bars 71, 11, 18 then 44, 25, 31",
+        "text": "Primary 71, secondary 11, tertiary 18; then 44, 25, 31",
         "image": {
           "src": "/img/c10-eco-sectors/chart-opt-a.svg",
           "alt": "Bars 71, 11, 18 and 44, 25, 31"
@@ -1044,7 +1044,7 @@
       "src": "/img/c10-eco-sectors/employment-hotspot-chart.svg",
       "alt": "Two stacked bars of employment shares for 1977-78 and 2017-18"
     },
-    "hint": "Secondary is the red block, in the right-hand bar.",
+    "hint": "Use the legend to find the secondary sector's colour, then look at the later year.",
     "explanation": "The red block in the 2017-18 bar is the **secondary** sector, **25%** of employment, up from 11% in 1977-78. The blue block is primary and the green block is tertiary.",
     "spots": [
       {

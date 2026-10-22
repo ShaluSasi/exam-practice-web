@@ -302,7 +302,7 @@
     ],
     "answer": "a",
     "hint": "Start at 4 on a number line and move 15 steps to the left.",
-    "explanation": "A drop means subtraction: $4 - 15 = -11$, so it is **−11 °C** at midnight. Moving 4 steps left brings you to 0, and the remaining 11 steps take you below zero. Writing 11 °C forgets the sign; −19 °C and 19 °C come from adding 4 and 15 instead of subtracting."
+    "explanation": "A drop means subtraction: $4 - 15 = -11$, so it is **−11 °C** at midnight. Moving 4 steps left brings you to 0, and the remaining 11 steps take you below zero. Writing 11 °C forgets the sign; 19 °C comes from adding 4 and 15 instead of subtracting, and −19 °C wrongly starts from −4 instead of +4."
   },
   {
     "id": "ma03-q008",
@@ -724,7 +724,7 @@
     ],
     "answer": "c",
     "hint": "Change both mixed numbers into improper fractions (quarters) before dividing.",
-    "explanation": "$15\\dfrac{3}{4} = \\dfrac{63}{4}$ and $2\\dfrac{1}{4} = \\dfrac{9}{4}$, so $\\dfrac{63}{4} \\div \\dfrac{9}{4} = \\dfrac{63}{4} \\times \\dfrac{4}{9} = 7$ exactly: **7 kurtas with nothing left over**. Multiplying instead gives $\\dfrac{567}{16} \\approx 35$. Dividing whole parts and fraction parts separately is not allowed, and \"6 with $2\\dfrac{1}{4}$ m left\" stops one kurta too early."
+    "explanation": "$15\\dfrac{3}{4} = \\dfrac{63}{4}$ and $2\\dfrac{1}{4} = \\dfrac{9}{4}$, so $\\dfrac{63}{4} \\div \\dfrac{9}{4} = \\dfrac{63}{4} \\times \\dfrac{4}{9} = 7$ exactly: **7 kurtas with nothing left over**. Multiplying instead gives $\\dfrac{567}{16} \\approx 35$. \"7 with $\\dfrac{1}{2}$ m left over\" would need $16\\dfrac{1}{4}$ m of silk, because $7 \\times 2\\dfrac{1}{4} = 15\\dfrac{3}{4}$ already uses all of it, and \"6 with $2\\dfrac{1}{4}$ m left\" stops one kurta too early."
   },
   {
     "id": "ma03-q018",
@@ -1782,7 +1782,7 @@
     ],
     "answer": "d",
     "hint": "Two digits repeat, so multiply by 100.",
-    "explanation": "Let $x = 0.3636\\ldots$. Then $100x = 36.3636\\ldots$, and subtracting gives $99x = 36$, so $x = \\dfrac{36}{99} = \\dfrac{4}{11}$. $\\dfrac{9}{25} = \\dfrac{36}{100}$ treats the decimal as if it stopped. $\\dfrac{36}{90} = \\dfrac{2}{5}$ uses the wrong subtraction, and $\\dfrac{36}{999} = \\dfrac{4}{111}$ uses three nines for a two-digit block."
+    "explanation": "Let $x = 0.3636\\ldots$. Then $100x = 36.3636\\ldots$, and subtracting gives $99x = 36$, so $x = \\dfrac{36}{99} = \\dfrac{4}{11}$. $\\dfrac{9}{25} = \\dfrac{36}{100}$ treats the decimal as if it stopped. $\\dfrac{36}{90} = \\dfrac{2}{5}$ divides by 90 instead of 99, and $\\dfrac{36}{999} = \\dfrac{4}{111}$ uses three nines for a two-digit block."
   },
   {
     "id": "ma03-q041",
@@ -2038,7 +2038,7 @@
       "c": "gen",
       "d": "irr"
     },
-    "hint": "Look at where the bar starts, and ask whether the last one has any block that repeats.",
+    "hint": "Look at where the bar starts, and ask whether each decimal has any block that repeats at all.",
     "explanation": "$0.875 = \\dfrac{7}{8}$ stops, so it is **terminating**. In $0.\\overline{72}$ the block starts at once: **pure repeating**. In $0.58\\overline{3}$ the digits 5 and 8 come first: **general repeating**. $1.0100100010000\\ldots$ never ends, and because the run of zeros keeps growing, no block repeats, so it is **irrational**."
   },
   {

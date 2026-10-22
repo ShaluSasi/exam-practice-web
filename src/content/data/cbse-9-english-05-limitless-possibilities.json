@@ -299,7 +299,7 @@
     ],
     "answer": "c",
     "hint": "A butterfly is a completely new, freer form of the same creature.",
-    "explanation": "Like a caterpillar that becomes a butterfly, Dr Malik **transformed** her life. After a spine tumour left her paralysed waist down, she refused to **squander** (waste) her life in **remorse** (regret) and became a Paralympic medallist. Option A is the choice she rejected. She did not return to her old life or give up sports: she switched to para-athletics."
+    "explanation": "Like a caterpillar that becomes a butterfly, Dr Malik **transformed** her life. After a spine tumour left her paralysed waist down, she refused to **squander** (waste) her life in **remorse** (regret) and became a Paralympic medallist. Spending her life in regret is exactly the choice she rejected. She did not return to her old life or give up sports: she switched to para-athletics."
   },
   {
     "id": "en05-q007",
@@ -994,7 +994,7 @@
     ],
     "answer": "c",
     "hint": "Three things change: the pronoun, the tense and the time phrase.",
-    "explanation": "With a past reporting verb (**said**), the simple past **watched** moves back to the past perfect **had watched**. 'I' becomes **she** because Siya is the speaker, and **last night** becomes **the previous night**. Option A keeps the tense and the time words unchanged, B forgets to change 'I', and D uses the present perfect 'has watched', which does not move the tense back."
+    "explanation": "With a past reporting verb (**said**), the simple past **watched** moves back to the past perfect **had watched**. 'I' becomes **she** because Siya is the speaker, and **last night** becomes **the previous night**. Keeping 'watched' and 'last night' ignores the backshift, keeping 'I' forgets the pronoun change, and the present perfect 'has watched', which does not move the tense back."
   },
   {
     "id": "en05-q022",
@@ -1033,7 +1033,7 @@
     ],
     "answer": "d",
     "hint": "What does 'will' become after 'said'? And what happens to 'this'?",
-    "explanation": "After a past reporting verb, **will** becomes **would**, **I** becomes **he**, **this** becomes **that**, and 'the next weekend' is reported as **the following weekend**. Option A changes nothing, B keeps 'I', and C wrongly uses the past perfect 'had watched' for something Tarun only planned to do in the future."
+    "explanation": "After a past reporting verb, **will** becomes **would**, **I** becomes **he**, **this** becomes **that**, and 'the next weekend' is reported as **the following weekend**. Keeping 'will' and 'this' changes nothing, keeping 'I' forgets the pronoun change, and 'had watched' wrongly uses the past perfect 'had watched' for something Tarun only planned to do in the future."
   },
   {
     "id": "en05-q023",
@@ -1072,10 +1072,22 @@
         "label": "that"
       },
       {
+        "id": "she",
+        "x": 81.25,
+        "y": 16.95,
+        "label": "she"
+      },
+      {
         "id": "had",
         "x": 22.75,
         "y": 61.86,
         "label": "had watched"
+      },
+      {
+        "id": "a",
+        "x": 48.5,
+        "y": 61.86,
+        "label": "a"
       },
       {
         "id": "doc",
@@ -1086,7 +1098,7 @@
     ],
     "answer": "had",
     "hint": "The past perfect is made with 'had' + the past participle.",
-    "explanation": "The **past perfect** is formed with **had + past participle**, so **had watched** is correct. 'Said' is the reporting verb in the simple past. 'That' is the **linking word** added after the reporting verb, and 'Siya' and 'documentary' are nouns. In reported speech the simple past 'watched' shifts back to 'had watched'."
+    "explanation": "The **past perfect** is formed with **had + past participle**, so **had watched** is correct. 'Said' is the reporting verb in the simple past. 'That' is the **linking word** added after the reporting verb, 'she' is a pronoun, 'a' is an article, and 'Siya' and 'documentary' are nouns. In reported speech the simple past 'watched' shifts back to 'had watched'."
   },
   {
     "id": "en05-q024",
@@ -1285,6 +1297,12 @@
         "label": "Details"
       },
       {
+        "id": "name",
+        "x": 7.06,
+        "y": 80,
+        "label": "Name"
+      },
+      {
         "id": "desig",
         "x": 7.06,
         "y": 89.41,
@@ -1427,7 +1445,7 @@
     ],
     "answer": "a",
     "hint": "Count the words, and check which one carries the spirit of inclusion.",
-    "explanation": "Option A has nine words, is catchy and carries the message of the Special Olympics, that every athlete's effort counts, like the example **'Special Olympics: Igniting a Universe of Potential'**. Option B is far too long, C goes against the spirit of inclusion shown in the poem, and D is just a list of words with no message."
+    "explanation": "'Where Every Finish Line Is a Win' has nine words, is catchy and carries the message of the Special Olympics, that every athlete's effort counts, like the example **'Special Olympics: Igniting a Universe of Potential'**. The long sentence about many athletes is far too long, 'Winning first is the only thing that matters' goes against the spirit of inclusion shown in the poem, and 'Olympics sports games events' is just a list of words with no message."
   },
   {
     "id": "en05-q032",
@@ -1982,6 +2000,12 @@
     },
     "spots": [
       {
+        "id": "s1",
+        "x": 13.05,
+        "y": 37.04,
+        "label": "Stanza 1"
+      },
+      {
         "id": "s2",
         "x": 34.69,
         "y": 18.67,
@@ -2010,6 +2034,12 @@
         "x": 65.31,
         "y": 81.33,
         "label": "Stanza 6"
+      },
+      {
+        "id": "s7",
+        "x": 34.69,
+        "y": 81.35,
+        "label": "Stanza 7"
       },
       {
         "id": "s8",
@@ -2122,7 +2152,7 @@
     "prompt": "*Then all the nine runners joined hands and continued*\n*The hundred-yard dash now reduced to a walk*\n\nWhat does this change from a dash to a walk **symbolise**?",
     "image": {
       "src": "/img/english05/hand-in-hand.svg",
-      "alt": "Five runners holding hands as they walk along a track under a banner, watched by a crowd"
+      "alt": "Nine runners holding hands as they walk along a track under a banner, watched by a crowd"
     },
     "options": [
       {

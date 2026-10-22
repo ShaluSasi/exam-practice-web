@@ -145,7 +145,7 @@
       "l4": "const"
     },
     "hint": "Find the highest power of the variable in each one: 3, 2, 1 or 0.",
-    "explanation": "The **degree** is the highest power of the variable. $2t^3 - t + 4$ has degree 3 (**cubic**), $7s^2 - 4s + 6$ has degree 2 (**quadratic**), $5 - 4y$ has degree 1 (**linear**, even though the constant is written first), and $-9 = -9y^0$ has degree 0 (**constant**)."
+    "explanation": "The **degree** is the highest power of the variable. $2t^3 - t + 4$ has degree 3 (**cubic**), $7s^2 - 4s + 6$ has degree 2 (**quadratic**), $5 - 4y$ has degree 1 (**linear**, even though the constant is written first), and $-9 = -9x^0$ has degree 0 (**constant**)."
   },
   {
     "id": "ma02-q004",
@@ -492,7 +492,7 @@
     ],
     "answer": "d",
     "hint": "Total paid $= 150 + 60m$. Set it equal to 750.",
-    "explanation": "$150 + 60m = 750 \\Rightarrow 60m = 600 \\Rightarrow m = 10$. Check: $150 + 600 = 750$. $12.5$ comes from $750 \\div 60$ (ignoring the joining fee), $15$ from adding the fee, $(750 + 150) \\div 60$, and $9$ from taking away one extra ₹60. The cost goes up by the same ₹60 for each extra match, a **linear pattern**."
+    "explanation": "$150 + 60m = 750 \\Rightarrow 60m = 600 \\Rightarrow m = 10$. Check: $150 + 600 = 750$. $12.5$ comes from $750 \\div 60$ (ignoring the joining fee), $15$ from adding the fee, $(750 + 150) \\div 60$, and $9$ from subtracting one match too many, $(600 - 60) \\div 60$. The cost goes up by the same ₹60 for each extra match, a **linear pattern**."
   },
   {
     "id": "ma02-q012",
@@ -839,7 +839,7 @@
     ],
     "answer": "b",
     "hint": "Only the kilometres after the first 2 cost ₹12 each.",
-    "explanation": "Extra distance $= 10 - 2 = 8$ km, so fare $= 30 + 12 \\times 8 = 126$ rupees. In general the fare for $n$ km ($n \\ge 2$) is $30 + 12(n - 2) = 12n + 6$. ₹150 charges ₹12 for all 10 km on top of ₹30, ₹120 drops the starting fare, and ₹138 counts 9 extra km."
+    "explanation": "Extra distance $= 10 - 2 = 8$ km, so fare $= 30 + 12 \\times 8 = 126$ rupees. In general the fare for $n$ km ($n \\ge 2$) is $30 + 12(n - 2) = 12n + 6$. ₹150 charges ₹12 for all 10 km on top of ₹30, ₹120 charges ₹12 for all 10 km and leaves out the starting ₹30, and ₹138 counts 9 extra km."
   },
   {
     "id": "ma02-q021",
@@ -1504,7 +1504,7 @@
     "prompt": "All four lines pass through the origin. Tap the line $y = 3x$.",
     "image": {
       "src": "/img/maths02/slopes.svg",
-      "alt": "Four straight lines through the origin with numbered markers"
+      "alt": "Four unlabelled straight lines through the origin"
     },
     "spots": [
       {
@@ -1584,7 +1584,7 @@
     ],
     "startLabel": "Least steep",
     "endLabel": "Steepest",
-    "hint": "Compare the slopes $a$: $\\dfrac{1}{3}$, $\\dfrac{3}{4}$, $1$, $2$, $4$.",
+    "hint": "For $y = ax$ with $a > 0$, the larger the slope $a$, the steeper the line. Turn the fractions into decimals to compare them.",
     "explanation": "For $y = ax$ with $a > 0$, a larger slope means a steeper line. $\\dfrac{1}{3} < \\dfrac{3}{4} < 1 < 2 < 4$. Lines with $a < 1$ are less steep than $y = x$; lines with $a > 1$ are steeper."
   },
   {
@@ -1625,7 +1625,7 @@
     "prompt": "Tap the graph of $y = -3x$.",
     "image": {
       "src": "/img/maths02/neg-slopes.svg",
-      "alt": "Four straight lines through the origin with numbered markers"
+      "alt": "Four unlabelled straight lines through the origin"
     },
     "spots": [
       {
@@ -1723,7 +1723,7 @@
     "prompt": "Tap the point where the line $y = 3x - 3$ cuts the **$y$-axis**.",
     "image": {
       "src": "/img/maths02/intercepts.svg",
-      "alt": "Three straight lines crossing the axes, with numbered markers"
+      "alt": "Three unlabelled straight lines crossing the axes, with six marked points on the axes"
     },
     "spots": [
       {
@@ -1755,11 +1755,17 @@
         "x": 29.3,
         "y": 53.2,
         "label": "(−2, 0)"
+      },
+      {
+        "id": "f",
+        "x": 73.5,
+        "y": 53.2,
+        "label": "(3, 0)"
       }
     ],
     "answer": "a",
     "hint": "On the $y$-axis, $x = 0$.",
-    "explanation": "Put $x = 0$: $y = 3 \\times 0 - 3 = -3$, so the line cuts the $y$-axis at $(0, -3)$. Its **$y$-intercept** is $b = -3$: 3 units below the origin. $(0, 3)$ ignores the minus sign, and $(1, 0)$ is where this line cuts the $x$-axis instead."
+    "explanation": "Put $x = 0$: $y = 3 \\times 0 - 3 = -3$, so the line cuts the $y$-axis at $(0, -3)$. Its **$y$-intercept** is $b = -3$: 3 units below the origin. $(0, 3)$ ignores the minus sign, and $(1, 0)$ is where this line cuts the $x$-axis instead. The other marked points belong to the other two lines."
   },
   {
     "id": "ma02-q041",
@@ -1776,7 +1782,7 @@
     "prompt": "Tap the point where the line $y = -x + 3$ cuts the **$x$-axis**.",
     "image": {
       "src": "/img/maths02/intercepts.svg",
-      "alt": "Three straight lines crossing the axes, with numbered markers"
+      "alt": "Three unlabelled straight lines crossing the axes, with six marked points on the axes"
     },
     "spots": [
       {
@@ -1808,11 +1814,17 @@
         "x": 47.0,
         "y": 77.4,
         "label": "(0, −3)"
+      },
+      {
+        "id": "f",
+        "x": 47.0,
+        "y": 37.0,
+        "label": "(0, 2)"
       }
     ],
     "answer": "a",
     "hint": "On the $x$-axis, $y = 0$. Solve $0 = -x + 3$.",
-    "explanation": "Put $y = 0$: $0 = -x + 3$, so $x = 3$, giving the point $(3, 0)$. $(0, 3)$ is where the same line cuts the $y$-axis (its $y$-intercept), which is the usual trap. $(1, 0)$ and $(-2, 0)$ belong to the other two lines."
+    "explanation": "Put $y = 0$: $0 = -x + 3$, so $x = 3$, giving the point $(3, 0)$. $(0, 3)$ is where the same line cuts the $y$-axis (its $y$-intercept), which is the usual trap. $(1, 0)$, $(-2, 0)$, $(0, 2)$ and $(0, -3)$ belong to the other two lines."
   },
   {
     "id": "ma02-q042",
@@ -2151,7 +2163,7 @@
     ],
     "answer": "d",
     "hint": "Find the slope of $p$ first. Parallel lines share the same slope.",
-    "explanation": "Slope of $p = \\dfrac{11 - 3}{6 - 2} = 2$, so $p(x) = 2x - 1$. Then $q(x) = 2x + d$ with $-1 = 8 + d$, so $d = -9$ and $q(x) = 2x - 9$. $2x + 7$ comes from a sign slip, $-2x + 7$ passes through $(4, -1)$ but is not parallel, and $2x - 1$ is $p$ itself. The lines meet the $x$-axis at $(0.5, 0)$ for $p$ and $(4.5, 0)$ for $q$."
+    "explanation": "Slope of $p = \\dfrac{11 - 3}{6 - 2} = 2$, so $p(x) = 2x - 1$. Then $q(x) = 2x + d$ with $-1 = 8 + d$, so $d = -9$ and $q(x) = 2x - 9$. $2x + 7$ comes from a sign slip in $-1 = -8 + d$, $-2x + 7$ passes through $(4, -1)$ but is not parallel, and $2x - 1$ is $p$ itself. The lines meet the $x$-axis at $(0.5, 0)$ for $p$ and $(4.5, 0)$ for $q$."
   },
   {
     "id": "ma02-q049",

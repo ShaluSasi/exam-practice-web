@@ -402,7 +402,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Anita cuts a potato into pieces, some with a notch (eye) and some without, and keeps them on wet cotton. Which pieces will give fresh green shoots and roots?",
+  "prompt": "Anita cuts a potato into pieces, some with a notch (eye) and some without, and keeps them on wet cotton. As the picture shows, only the pieces with a notch give fresh green shoots and roots. Why?",
   "image": {
    "src": "/img/c10-reproduce/potato.svg",
    "alt": "Potato pieces on wet cotton, only the piece with an eye sprouting"
@@ -410,24 +410,24 @@
   "options": [
    {
     "id": "a",
-    "text": "Every piece, since all of them contain stored food"
+    "text": "The pieces with a notch contain more stored food"
    },
    {
     "id": "b",
-    "text": "Only the pieces without a notch, as they are not damaged"
+    "text": "Water enters a piece faster through the notch"
    },
    {
     "id": "c",
-    "text": "None, since potatoes can grow only from seeds"
+    "text": "The notch contains tiny seeds of the potato"
    },
    {
     "id": "d",
-    "text": "Only the pieces that contain a notch (bud)"
+    "text": "The notch is a bud, and a new shoot and roots can develop only from a bud"
    }
   ],
   "answer": "d",
-  "hint": "A plant part needs a bud to develop a new shoot.",
-  "explanation": "In **vegetative propagation**, a plant part grows into a new plant only if it has a **bud**. The notches (eyes) of a potato are buds, so only pieces with an eye sprout. Stored food alone is not enough, and potatoes can indeed grow from vegetative parts."
+  "hint": "What does a plant part need in order to develop a new shoot?",
+  "explanation": "In **vegetative propagation**, a plant part grows into a new plant only if it carries a **bud**. The notches (eyes) of a potato are buds, so only pieces with an eye sprout. All pieces have stored food and take up water, and a potato tuber contains no seeds, so these cannot explain the difference."
  },
  {
   "id": "in-cbse-10-bio-reproduce-012",
@@ -441,7 +441,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Piece A of a money plant has a node with a leaf and piece B is a part between two nodes. Both are kept with one end in water. Which one will grow roots and fresh leaves?",
+  "prompt": "Piece A of a money plant has a node with a leaf and piece B is a part cut between two nodes. Both are kept with one end in water. As the picture shows, only piece A grows roots and fresh leaves. Why?",
   "image": {
    "src": "/img/c10-reproduce/moneyplant.svg",
    "alt": "Two money plant cuttings in water, A with a node and leaf and B cut between nodes"
@@ -449,24 +449,24 @@
   "options": [
    {
     "id": "a",
-    "text": "Piece B, because it has more stem to store water"
+    "text": "Piece B has more stem, so it rots in the water"
    },
    {
     "id": "b",
-    "text": "Piece A, which has a node with a leaf"
+    "text": "Piece A carries a node, where a bud is present from which new growth starts"
    },
    {
     "id": "c",
-    "text": "Both A and B, since any stem piece grows"
+    "text": "Piece A is longer and stores more water"
    },
    {
     "id": "d",
-    "text": "Neither, because a money plant needs seeds"
+    "text": "Piece A contains a seed inside its leaf"
    }
   ],
   "answer": "b",
-  "hint": "New growth starts from the node, where buds are present.",
-  "explanation": "New roots and shoots arise from a **node**, where a bud is present. Piece B, cut between two nodes, has no bud and does not grow. This is why cuttings of money plant, rose or sugarcane are cut so that they carry nodes."
+  "hint": "Think about where buds are found on a stem.",
+  "explanation": "New roots and shoots arise from a **node**, where a bud is present. Piece B, cut between two nodes, has no bud and does not grow. This is why cuttings of money plant, rose or sugarcane are cut so that they carry nodes. Length, water storage and seeds have nothing to do with it; a leaf does not contain seeds."
  },
  {
   "id": "in-cbse-10-bio-reproduce-013",
@@ -630,8 +630,8 @@
   "type": "order",
   "prompt": "Arrange the steps of tissue culture in the correct order.",
   "image": {
-   "src": "/img/c10-reproduce/tissue-culture.svg",
-   "alt": "Tissue culture steps from shoot tip to plants in soil"
+   "src": "/img/c10-reproduce/culture-jar.svg",
+   "alt": "A laboratory jar with plant tissue growing on an artificial medium"
   },
   "items": [
    {
@@ -680,40 +680,40 @@
     "id": "amoeba",
     "text": "Amoeba",
     "image": {
-     "src": "/img/c10-reproduce/amoeba.svg",
-     "alt": "Amoeba dividing into two"
+     "src": "/img/c10-reproduce/th-fission.svg",
+     "alt": "A cell splitting into two equal halves"
     }
    },
    {
     "id": "plasmo",
     "text": "Plasmodium",
     "image": {
-     "src": "/img/c10-reproduce/plasmodium.svg",
-     "alt": "Plasmodium dividing into many cells"
+     "src": "/img/c10-reproduce/th-multiple.svg",
+     "alt": "One cell dividing into many small cells at once"
     }
    },
    {
     "id": "yeast",
     "text": "Yeast",
     "image": {
-     "src": "/img/c10-reproduce/yeast.svg",
-     "alt": "Yeast cell with a bud"
+     "src": "/img/c10-reproduce/th-budding.svg",
+     "alt": "A cell with a small bud growing from its side"
     }
    },
    {
     "id": "spiro",
     "text": "Spirogyra",
     "image": {
-     "src": "/img/c10-reproduce/spirogyra.svg",
-     "alt": "Spirogyra filament breaking into pieces"
+     "src": "/img/c10-reproduce/th-fragment.svg",
+     "alt": "A green filament breaking into pieces"
     }
    },
    {
     "id": "rhiz",
     "text": "Rhizopus",
     "image": {
-     "src": "/img/c10-reproduce/rhizopus.svg",
-     "alt": "Bread mould releasing spores"
+     "src": "/img/c10-reproduce/th-spore.svg",
+     "alt": "A sac on a stalk releasing spores"
     }
    }
   ],
@@ -1124,7 +1124,7 @@
     "text": "Picture D",
     "image": {
      "src": "/img/c10-reproduce/th-cross.svg",
-     "alt": "Pollen carried by an insect to another flower"
+     "alt": "Pollen carried from one flower to a different flower"
     }
    }
   ],
@@ -2307,6 +2307,6 @@
   ],
   "answer": "d",
   "hint": "Prenatal sex determination is prohibited by law.",
-  "explanation": "Surgery can be misused to remove unwanted pregnancies, as in illegal **sex-selective abortion of female foetuses**. This is declining the child sex ratio, though **prenatal sex determination is prohibited by law**. For a healthy society the female-male sex ratio must be maintained."
+  "explanation": "Surgery can be misused to remove unwanted pregnancies, as in illegal **sex-selective abortion of female foetuses**. This is making the child sex ratio decline, even though **prenatal sex determination is prohibited by law**. For a healthy society the female-male sex ratio must be maintained."
  }
 ]

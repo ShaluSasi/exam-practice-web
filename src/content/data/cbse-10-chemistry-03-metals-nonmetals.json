@@ -410,11 +410,11 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Which jar shows the **safe** way to store a piece of sodium metal?",
+  "prompt": "Which picture shows the **safe** way to store a piece of sodium metal?",
   "options": [
    {
     "id": "a",
-    "text": "Jar A",
+    "text": "Picture A",
     "image": {
      "src": "/img/c10-metals/st-water.svg",
      "alt": "A jar of water with sodium reacting"
@@ -422,7 +422,7 @@
    },
    {
     "id": "b",
-    "text": "Jar B",
+    "text": "Picture B",
     "image": {
      "src": "/img/c10-metals/st-air.svg",
      "alt": "Sodium burning on an open dish"
@@ -430,7 +430,7 @@
    },
    {
     "id": "c",
-    "text": "Jar C",
+    "text": "Picture C",
     "image": {
      "src": "/img/c10-metals/st-acid.svg",
      "alt": "A jar of dilute acid with sodium bubbling"
@@ -438,7 +438,7 @@
    },
    {
     "id": "d",
-    "text": "Jar D",
+    "text": "Picture D",
     "image": {
      "src": "/img/c10-metals/st-kero.svg",
      "alt": "A jar of kerosene oil with sodium resting at the bottom"
@@ -447,7 +447,7 @@
   ],
   "answer": "d",
   "hint": "Sodium reacts with water, air and acids.",
-  "explanation": "Sodium must be kept away from air, water and acids. Only the jar of **kerosene oil** does that: sodium does not react with it. In water it reacts violently and the hydrogen catches fire; in the open it burns; in acid it reacts even faster."
+  "explanation": "Sodium must be kept away from air, water and acids. Only the container of **kerosene oil** (D) does that: sodium does not react with it. In water (A) it reacts violently and the hydrogen catches fire; on an open dish (B) it burns; in dilute acid (C) it reacts even faster."
  },
  {
   "id": "in-cbse-10-chem-metals-011",
@@ -486,7 +486,7 @@
   ],
   "answer": "a",
   "hint": "Read the mole ratio from the balanced equation: Na to H₂.",
-  "explanation": "The balanced equation shows $2\\ \\text{mol Na} \\to 1\\ \\text{mol H}_2$, so $4\\ \\text{mol Na} \\to 2\\ \\text{mol H}_2$. Traps: assuming a 1:1 ratio (4 mol), using only one step of the ratio (1 mol), or doubling instead of halving (8 mol)."
+  "explanation": "The balanced equation shows $2\\ \\text{mol Na} \\to 1\\ \\text{mol H}_2$, so $4\\ \\text{mol Na} \\to 2\\ \\text{mol H}_2$. Traps: assuming a 1:1 ratio (4 mol), copying the 1 mol of $\\text{H}_2$ straight from the equation without scaling it up (1 mol), or doubling instead of halving (8 mol)."
  },
  {
   "id": "in-cbse-10-chem-metals-012",
@@ -728,8 +728,8 @@
   "type": "multi",
   "prompt": "Which of these metals will give bubbles of **hydrogen** with dilute hydrochloric acid? Select all that apply.",
   "image": {
-   "src": "/img/c10-metals/acid-tubes.svg",
-   "alt": "Test tubes of dilute acid containing different metals"
+   "src": "/img/c10-metals/ladder.svg",
+   "alt": "The reactivity series from potassium to gold, with hydrogen marked"
   },
   "options": [
    {
@@ -1193,7 +1193,7 @@
   ],
   "answer": "b",
   "hint": "Metals form cations by losing electrons. How many does Mg need to lose to reach a full shell?",
-  "explanation": "$\\ce{Mg -> Mg^2+ + 2e-}$. The atom (2,8,2) loses its two outer electrons, leaving 12 protons and **10 electrons (2,8)**: a charge of $+2$. A is the neutral atom, C has lost only one electron (Mg\\u207a), and D has gained one, which a metal does not do. Each $\\ce{Cl-}$ takes one electron, so two chloride ions are needed."
+  "explanation": "$\\ce{Mg -> Mg^2+ + 2e-}$. The atom (2,8,2) loses its two outer electrons, leaving 12 protons and **10 electrons (2,8)**: a charge of $+2$. A is the neutral atom, C has lost only one electron (Mg⁺), and D has gained one, which a metal does not do. Each $\\ce{Cl-}$ takes one electron, so two chloride ions are needed."
  },
  {
   "id": "in-cbse-10-chem-metals-026",
@@ -1478,8 +1478,8 @@
   "type": "multi",
   "prompt": "Which of these metals are found in nature in the **free (native) state**? Select all that apply.",
   "image": {
-   "src": "/img/c10-metals/bands.svg",
-   "alt": "Metals in the activity series grouped by how they are extracted"
+   "src": "/img/c10-metals/ladder.svg",
+   "alt": "The reactivity series from potassium to gold"
   },
   "options": [
    {
@@ -1603,8 +1603,8 @@
   "type": "order",
   "prompt": "Mercury is obtained from its ore cinnabar (HgS). Put the steps in the correct order.",
   "image": {
-   "src": "/img/c10-metals/hg-extract.svg",
-   "alt": "Cinnabar heated in air to mercury oxide and then to mercury"
+   "src": "/img/c10-metals/bands.svg",
+   "alt": "Metals in the activity series grouped by how they are extracted"
   },
   "items": [
    {
@@ -2222,7 +2222,7 @@
    },
    {
     "id": "c",
-    "text": "A freshly prepared mixture of the two in the ratio 3 : 1"
+    "text": "A freshly prepared 3 : 1 mixture of concentrated HCl and concentrated HNO₃"
    },
    {
     "id": "d",

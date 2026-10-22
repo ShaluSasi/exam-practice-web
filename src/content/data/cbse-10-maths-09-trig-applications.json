@@ -53,7 +53,7 @@
     "prompt": "The student at A looks up at the top C of the minar. Tap the **angle of elevation** of C.",
     "image": {
       "src": "/img/c10-ma-trig-applications/hs-elev.svg",
-      "alt": "A student at A looking at the top C of a minar BD with a horizontal dashed line through the eye"
+      "alt": "A student at A looking at the top C of a minar CD with a horizontal dashed line through the eye"
     },
     "spots": [
       {
@@ -207,7 +207,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "From the top of a tower the angle of depression of a car on the level road is $40^\\circ$. What is the angle of elevation of the top of the tower from the car (marked ?)",
+    "prompt": "From the top of a tower the angle of depression of a car on the level road is $40^\\circ$. What is the angle of elevation of the top of the tower from the car, marked ? in the picture?",
     "image": {
       "src": "/img/c10-ma-trig-applications/alt-angles.svg",
       "alt": "A tower, a car, the line of sight with depression 40 degrees at the top and an unknown angle at the car"
@@ -771,7 +771,7 @@
     "items": [
       {
         "id": "s4",
-        "text": "Add the height of the observer, $1.6$ m, to AE"
+        "text": "Add the height of the observer, $1.6$ m, to $x$"
       },
       {
         "id": "s1",
@@ -783,11 +783,11 @@
       },
       {
         "id": "s3",
-        "text": "Solve for AE using $\\tan 45^\\circ = 1$"
+        "text": "Solve for $x$ using $\\tan 45^\\circ = 1$"
       },
       {
         "id": "s2",
-        "text": "Choose the ratio that links the known side and the required side: $\\tan 45^\\circ = \\dfrac{AE}{24}$"
+        "text": "Choose the ratio that links the known side and the required side: $\\tan 45^\\circ = \\dfrac{x}{24}$, where $x$ is the height of the chimney above eye level"
       }
     ],
     "answer": [
@@ -800,7 +800,7 @@
     "startLabel": "First step",
     "endLabel": "Last step",
     "hint": "A diagram and a ratio come before any arithmetic, and the eye height is added last.",
-    "explanation": "Draw the figure, pick the right ratio, solve for the part above eye level ($AE = 24$ m because $\\tan45^\\circ=1$), then add the observer's height: $24 + 1.6 = 25.6$ m. Forgetting the last addition is the most common slip."
+    "explanation": "Draw the figure, pick the right ratio, solve for the part above eye level ($x = 24$ m because $\\tan45^\\circ=1$), then add the observer's height: $24 + 1.6 = 25.6$ m. Forgetting the last addition is the most common slip."
   },
   {
     "id": "in-cbse-10-math-trigapp-018",
@@ -871,10 +871,10 @@
       "alt": "A vertical 8 m pole with a shadow 8 m long and a 45 degree Sun ray"
     },
     "assertion": "When the Sun's altitude is $45^\\circ$, a vertical pole casts a shadow equal to its own height.",
-    "reason": "$\\sin 45^\\circ = \\cos 45^\\circ$.",
-    "answer": "b",
+    "reason": "$\\tan 45^\\circ = 1$, and the tangent of the Sun's altitude equals the height of the pole divided by the length of its shadow.",
+    "answer": "a",
     "hint": "Which ratio of the shadow and the pole is used?",
-    "explanation": "Both are true, but R does not explain A. The shadow $s$ and pole $h$ are related by $\\tan 45^\\circ = \\dfrac{h}{s}$ and $\\tan45^\\circ = 1$, so $s=h$. The sine and cosine do not involve $s$ and $h$ alone, because they need the length of the ray."
+    "explanation": "Both are true and R explains A. The pole $h$ and its shadow $s$ are related by $\\tan 45^\\circ = \\dfrac{h}{s}$, and since $\\tan45^\\circ = 1$ this gives $s=h$."
   },
   {
     "id": "in-cbse-10-math-trigapp-020",
@@ -958,7 +958,7 @@
     ],
     "startLabel": "Shortest shadow",
     "endLabel": "Longest shadow",
-    "hint": "Shadow length is height divided by $\\tan$ of the altitude.",
+    "hint": "Shadow length is height divided by $\\tan$ of the altitude; use $\\tan15^\\circ = 2-\\sqrt3$.",
     "explanation": "Shadow $= \\dfrac{\\text{height}}{\\tan(\\text{altitude})}$: $3\\sqrt{3}\\approx5.20$ m, $8=8$ m, $6\\sqrt{3}\\approx10.39$ m and $5(2+\\sqrt3)\\approx18.66$ m, using $\\tan15^\\circ=2-\\sqrt3$. A lower Sun makes a longer shadow."
   },
   {
@@ -998,7 +998,7 @@
     ],
     "answer": "b",
     "hint": "Let the shorter shadow be $x$, so the longer one is $x+50$.",
-    "explanation": "$h = x\\sqrt3$ from $\\tan60^\\circ$, and $\\dfrac{h}{x+50}=\\dfrac1{\\sqrt3}$ from $\\tan30^\\circ$. So $3x = x+50$, $x = 25$ and $h = 25\\sqrt3$ m. The values $50\\sqrt3$ (using 50 as the shadow) and 25 (the shorter shadow) are traps, and $\\dfrac{50\\sqrt3}{3}$ swaps tan and cot."
+    "explanation": "$h = x\\sqrt3$ from $\\tan60^\\circ$, and $\\dfrac{h}{x+50}=\\dfrac1{\\sqrt3}$ from $\\tan30^\\circ$. So $3x = x+50$, $x = 25$ and $h = 25\\sqrt3$ m. The value $50\\sqrt3$ treats 50 m as the shadow at $60^\\circ$, 25 is the shorter shadow, and $\\dfrac{50\\sqrt3}{3}$ treats 50 m as the shadow at $60^\\circ$ but uses $\\cot60^\\circ$ instead of $\\tan60^\\circ$."
   },
   {
     "id": "in-cbse-10-math-trigapp-023",
@@ -1194,12 +1194,12 @@
       },
       {
         "id": "d",
-        "text": "$-3\\sqrt{3}+9$ m"
+        "text": "$9-3\\sqrt{3}$ m"
       }
     ],
     "answer": "c",
     "hint": "The distance between the buildings is the same as the height at $45^\\circ$.",
-    "explanation": "Let the height be $H$ and the distance $d$. At $45^\\circ$, $d=H$. At $30^\\circ$, $\\dfrac{H-6}{H}=\\dfrac1{\\sqrt3}$, so $H=\\dfrac{6\\sqrt3}{\\sqrt3-1}=3(3+\\sqrt3)$, that is $3\\sqrt{3}+9$ m. The option $3\\sqrt{3}+3$ is $H-6$, the option $2\\sqrt{3}+6$ assumes $d=6$, and $-3\\sqrt{3}+9$ uses the wrong conjugate when rationalising."
+    "explanation": "Let the height be $H$ and the distance $d$. At $45^\\circ$, $d=H$. At $30^\\circ$, $\\dfrac{H-6}{H}=\\dfrac1{\\sqrt3}$, so $H=\\dfrac{6\\sqrt3}{\\sqrt3-1}=3(3+\\sqrt3)$, that is $3\\sqrt{3}+9$ m. The option $3\\sqrt{3}+3$ is $H-6$, the option $2\\sqrt{3}+6$ assumes $d=6$, and $9-3\\sqrt{3}$ uses the wrong conjugate when rationalising."
   },
   {
     "id": "in-cbse-10-math-trigapp-028",
@@ -1246,7 +1246,7 @@
     ],
     "answer": "upper",
     "hint": "Level the roof of the short building across to the tall one.",
-    "explanation": "The roof of the short building is level with a point on the tall building; the segment above it is $H - h$. This is the side opposite the angle of depression of the top in the upper right triangle, so $\\tan30^\\circ = \\dfrac{H-h}{d}$."
+    "explanation": "Let the tall building be $H$ high, the short one $h$ high and the gap between them $d$. The roof of the short building is level with a point on the tall building; the segment above it is $H - h$. This is the side opposite the angle of depression of the top in the upper right triangle, so $\\tan30^\\circ = \\dfrac{H-h}{d}$."
   },
   {
     "id": "in-cbse-10-math-trigapp-029",
@@ -1687,7 +1687,7 @@
     ],
     "answer": "gap",
     "hint": "It is the difference of the two distances from the lighthouse.",
-    "explanation": "The distance between the ships is the **difference** of their distances from the base of the lighthouse: $75\\sqrt3 - 75$ m. It is not the length of either line of sight, and it is not either ship's own distance from the lighthouse."
+    "explanation": "The distance between the ships is the **difference** of their distances from the base of the lighthouse: for a lighthouse $h$ m high this is $h\\sqrt3 - h$ m. It is not the length of either line of sight, and it is not either ship's own distance from the lighthouse."
   },
   {
     "id": "in-cbse-10-math-trigapp-039",
@@ -1939,7 +1939,7 @@
     ],
     "answer": "c",
     "hint": "Compare the distance still to go with the distance already covered.",
-    "explanation": "With tower height $H$: first distance $H\\sqrt3$, second distance $\\dfrac{H}{\\sqrt3}$. Covered in 8 s: $H\\sqrt3-\\dfrac{H}{\\sqrt3}=\\dfrac{2H}{\\sqrt3}$, and still to go: $\\dfrac{H}{\\sqrt3}$, which is half of it. So the time is $4$ s. The options 8 and 16 use the wrong ratio and $\\dfrac{8}{3}$ divides by the first distance."
+    "explanation": "With tower height $H$: first distance $H\\sqrt3$, second distance $\\dfrac{H}{\\sqrt3}$. Covered in 8 s: $H\\sqrt3-\\dfrac{H}{\\sqrt3}=\\dfrac{2H}{\\sqrt3}$, and still to go: $\\dfrac{H}{\\sqrt3}$, which is half of it. So the time is $4$ s. The option 8 s assumes the remaining distance equals the distance covered, 16 s assumes it is twice as long, and $\\dfrac{8}{3}$ s compares the remaining distance with the first distance $H\\sqrt3$ instead of with the distance covered."
   },
   {
     "id": "in-cbse-10-math-trigapp-045",
@@ -2196,7 +2196,7 @@
       },
       {
         "id": "o0",
-        "text": "Tower 10$\\sqrt3$ m high, observer 10 m from its foot"
+        "text": "Tower $10\\sqrt3$ m high, observer 10 m from its foot"
       },
       {
         "id": "o2",

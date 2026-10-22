@@ -679,8 +679,8 @@
   ],
   "answer": "b",
   "image": {
-   "src": "/img/c10-carbon/pentane-isomers.svg",
-   "alt": "Three carbon skeletons: straight chain, branched chain and a central carbon with four branches"
+   "src": "/img/c10-carbon/pentane-chain.svg",
+   "alt": "The carbon skeleton of straight-chain pentane, five carbon atoms in a row, formula C5H12"
   },
   "hint": "Try a 5-carbon chain, a 4-carbon chain with a branch, and a 3-carbon chain with branches.",
   "explanation": "Pentane has **three** structural isomers: straight-chain **pentane**, **2-methylbutane** (a four-carbon chain with one methyl branch) and **2,2-dimethylpropane** (a central carbon with four other carbons). The trap is counting the same skeleton drawn bent in a different way as a new isomer."
@@ -1588,14 +1588,14 @@
   "type": "assertion_reason",
   "prompt": "Read the Assertion (A) and Reason (R) carefully.",
   "assertion": "In sunlight, methane reacts with chlorine as $\\ce{CH4 + Cl2 -> CH3Cl + HCl}$, which is a substitution reaction.",
-  "reason": "Methane is a saturated hydrocarbon.",
+  "reason": "Methane is widely used as a fuel and is a major component of bio-gas and CNG.",
   "answer": "b",
   "image": {
    "src": "/img/c10-carbon/substitution.svg",
    "alt": "Methane reacting with chlorine in sunlight to give chloromethane and hydrogen chloride"
   },
-  "hint": "Does being saturated explain why chlorine takes the place of hydrogen?",
-  "explanation": "Both statements are true, but R is **not the explanation**. The reaction is a **substitution** because a chlorine atom **takes the place of a hydrogen atom**. Saturated hydrocarbons are fairly unreactive and give **substitution** (not addition) reactions only in the presence of sunlight; the key idea is replacement of H, which R does not state."
+  "hint": "Does methane being a fuel have anything to do with chlorine taking the place of hydrogen?",
+  "explanation": "Both statements are true, but R is **not the explanation**. The reaction is a **substitution** because a chlorine atom **takes the place of a hydrogen atom** in methane, a saturated hydrocarbon that is otherwise fairly unreactive. Methane being a fuel and a component of bio-gas and CNG is true but has nothing to do with why the reaction is called a substitution."
  },
  {
   "id": "in-cbse-10-chem-carbon-035",
@@ -2240,7 +2240,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Equal amounts of **hard water** are shaken with soap solution (tube 1) and with detergent solution (tube 2). Which statement is correct?",
+  "prompt": "Equal amounts of **hard water** are shaken with soap solution (tube 1) and with detergent solution (tube 2); the picture shows the result. Which statement correctly explains it?",
   "options": [
    {
     "id": "a",

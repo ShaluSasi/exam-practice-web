@@ -14,7 +14,7 @@
   "prompt": "A small compass is placed near a straight copper wire. When the key is closed and a current flows, the needle swings away from its north-south position. What does this show?",
   "image": {
    "src": "/img/c10-magnetism/oersted.svg",
-   "alt": "A compass below a wire carrying current, with the needle swinging away from north"
+   "alt": "A compass under a wire carrying current, the needle swinging away from north"
   },
   "hint": "The needle only moves while the current flows.",
   "explanation": "This is **Oersted's** observation (1820): a current-carrying conductor deflects a nearby compass needle, so **electricity and magnetism are linked**. Copper is not magnetic, so it is not a permanent magnet. Heating is a different effect of current and cannot turn a needle in a definite direction.",
@@ -91,8 +91,8 @@
   "type": "mcq",
   "prompt": "Which statement about the magnetic field lines of a bar magnet is correct?",
   "image": {
-   "src": "/img/c10-magnetism/bar-field-lab.svg",
-   "alt": "Field lines of a bar magnet with arrows from N to S outside and S to N inside"
+   "src": "/img/c10-magnetism/compass-trace.svg",
+   "alt": "Compass needles placed one after another along a field line from the N end to the S end of a bar magnet"
   },
   "hint": "Follow one line all the way round, including through the magnet.",
   "explanation": "By convention the field lines **emerge from the north pole and merge at the south pole**. Inside the magnet the direction is from **south to north**, so each line is a **closed curve**. Lines outside are curved, not straight, and they continue inside the magnet.",
@@ -208,7 +208,7 @@
   "type": "mcq",
   "prompt": "Look along a long straight wire carrying current (the brown dot is the wire). Which picture shows the magnetic field lines around it?",
   "hint": "The field lines close on themselves around the wire.",
-  "explanation": "Around a straight current-carrying wire the field lines are **concentric circles centred on the wire**. They get larger and farther apart as you move away, because the field becomes weaker with distance. Straight or radial lines are never produced by a straight wire.",
+  "explanation": "Around a straight current-carrying wire the field lines are **concentric circles centred on the wire**. The circles become larger as you move away from the wire, where the field is weaker. Straight or radial lines are never produced by a straight wire.",
   "options": [
    {
     "id": "a",
@@ -222,7 +222,7 @@
     "id": "b",
     "text": "Picture B",
     "image": {
-     "src": "/img/c10-magnetism/pat-perp.svg",
+     "src": "/img/c10-magnetism/pat-parallel.svg",
      "alt": "Parallel straight lines across the picture"
     }
    },
@@ -230,20 +230,12 @@
     "id": "c",
     "text": "Picture C",
     "image": {
-     "src": "/img/c10-magnetism/pat-parallel.svg",
-     "alt": "Parallel straight lines running left to right"
-    }
-   },
-   {
-    "id": "d",
-    "text": "Picture D",
-    "image": {
      "src": "/img/c10-magnetism/pat-ccw.svg",
      "alt": "Concentric circles around the wire with arrows"
     }
    }
   ],
-  "answer": "d"
+  "answer": "c"
  },
  {
   "id": "in-cbse-10-phy-magnetism-007",
@@ -387,10 +379,6 @@
   "marks": 2,
   "type": "mcq",
   "prompt": "A current flows through a circular loop of wire. Which picture shows what the magnetic field lines look like near the **centre** of the loop?",
-  "image": {
-   "src": "/img/c10-magnetism/loop-field.svg",
-   "alt": "Edge view of a loop with circles around each wire section and straight field lines through the middle"
-  },
   "hint": "The circles around the wire grow larger and larger towards the centre.",
   "explanation": "Near each part of the wire the field lines are circles. Far from the wire the circles are so large that their arcs look like **straight lines**, and every part of the loop sends its field the **same way** through the loop. So at the centre the field lines are **parallel straight lines**.",
   "options": [
@@ -444,7 +432,7 @@
   "prompt": "A single circular loop carrying a current produces a magnetic field of strength B at its centre. A coil of **20 identical turns** carries the same current. What is the field at its centre?",
   "image": {
    "src": "/img/c10-magnetism/coil-turns.svg",
-   "alt": "A one-turn loop and a five-turn coil with a stronger field arrow for the coil"
+   "alt": "A one-turn loop with a weaker field arrow and a five-turn coil with a stronger field arrow"
   },
   "hint": "The current in every turn goes the same way, so their fields add up.",
   "explanation": "The current in each turn has the **same direction**, so the field of every turn **adds up**. For a coil of n turns the field is **n times** that of one turn: 20 B. Common traps: thinking extra turns change nothing (B), dividing instead of multiplying (B/20), or squaring the number of turns (400 B).",
@@ -482,10 +470,10 @@
   "type": "mcq",
   "prompt": "The magnetic field inside a long straight solenoid carrying current",
   "image": {
-   "src": "/img/c10-magnetism/solenoid-lab.svg",
-   "alt": "A solenoid with straight parallel field lines inside and N and S ends"
+   "src": "/img/c10-magnetism/solenoid.svg",
+   "alt": "A current-carrying solenoid connected to a battery, with field lines through and around it"
   },
-  "hint": "Look at the field lines inside the coil.",
+  "hint": "Look at how the field lines inside the coil are spaced and directed.",
   "explanation": "Inside a long solenoid the field lines are **parallel straight lines**, which means the field has the **same strength and direction at all points**, that is, it is **uniform**. It is certainly not zero: that is where the field is strongest and used to magnetise iron.",
   "options": [
    {
@@ -697,7 +685,7 @@
    "alt": "A map showing an alpha particle moving west and bending north"
   },
   "hint": "Current is towards west, force is towards north: find the missing finger.",
-  "explanation": "For a positive charge the current is **along its motion (west)**, and the force is **north**. With the middle finger west and the thumb north, the forefinger (field) points **upward**. The field cannot be south or east because the force would then be zero or in a horizontal plane, not at right angles to all three.",
+  "explanation": "For a positive charge the current is **along its motion (west)**, and the force is **north**. With the middle finger west and the thumb north, the forefinger (field) points **upward**. A field towards the east would be along the motion and give **no force**; a field towards the south would push the particle **upward**; a downward field would push it **south**.",
   "options": [
    {
     "id": "a",
@@ -814,7 +802,7 @@
    "alt": "A 2 kilowatt oven connected to a 220 volt 5 ampere circuit"
   },
   "hint": "Use I = P / V and convert kilowatts to watts first.",
-  "explanation": "$I = \\dfrac{P}{V} = \\dfrac{2000\\ \\text{W}}{220\\ \\text{V}} \\approx 9.1\\ \\text{A}$. This is more than the 5 A rating, so the circuit is **overloaded** and the **fuse melts**. Traps: dividing $V$ by $P$ gives 0.11 A; multiplying $P$ and $V$ gives a meaningless 440 000; using 2 instead of 2000 W (forgetting kW to W) gives 0.009 A.",
+  "explanation": "$I = \\dfrac{P}{V} = \\dfrac{2000\\ \\text{W}}{220\\ \\text{V}} \\approx 9.1\\ \\text{A}$. This is more than the 5 A rating, so the circuit is **overloaded** and the **fuse melts**. Traps: dividing $V$ by $P$ gives 0.11 A; multiplying 2 (kW) by 220 gives a meaningless 440; dividing 2 instead of 2000 W by 220 (forgetting kW to W) gives 0.009 A.",
   "options": [
    {
     "id": "a",
@@ -847,11 +835,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Which picture shows how appliances are connected in a house, and why?",
-  "image": {
-   "src": "/img/c10-magnetism/domestic-circuit.svg",
-   "alt": "A household circuit with live, neutral and earth wires, a meter, a fuse and appliances"
-  },
+  "prompt": "Which picture shows how appliances are connected to the supply in a house?",
   "hint": "Each appliance needs the full supply voltage and its own switch.",
   "explanation": "In houses appliances are connected **in parallel** across the live and neutral wires. Each then gets the **same potential difference (220 V)** and can be switched on or off **separately**. In series, the same current would pass through every appliance, they would not get full voltage, and switching one off would switch off all.",
   "options": [
@@ -1299,7 +1283,7 @@
    "src": "/img/c10-magnetism/domestic-circuit.svg",
    "alt": "A household circuit with live, neutral and earth wires and a metal-bodied appliance"
   },
-  "hint": "It has green insulation and goes to a plate deep in the earth.",
+  "hint": "It is a safety wire, not one of the two wires that supply the current.",
   "explanation": "The **earth wire (green)** gives a **low-resistance path** to the earth plate, so any leakage of current to the metal body keeps the body at the **potential of the earth** and the user does not get a severe shock.",
   "spots": [
    {
@@ -1349,8 +1333,8 @@
   "type": "multi",
   "prompt": "Select **all** the correct statements about magnetic field lines.",
   "image": {
-   "src": "/img/c10-magnetism/bar-field-lab.svg",
-   "alt": "A labelled bar magnet and its field lines"
+   "src": "/img/c10-magnetism/bar-vs-solenoid.svg",
+   "alt": "Field lines of a bar magnet and of a solenoid, without arrows"
   },
   "hint": "Remember the closed loops and what crowded lines mean.",
   "explanation": "**True:** lines leave N and enter S outside the magnet; they are closed curves (inside they run **S to N**); crowded lines mean a **stronger field**. **False:** field lines **never cross** (a needle cannot point two ways), and inside a magnet they run S to N, not N to S.",
@@ -1443,8 +1427,8 @@
   "type": "multi",
   "prompt": "Which properties of a proton can change while it moves freely in a magnetic field? Select all that apply.",
   "image": {
-   "src": "/img/c10-magnetism/electron-field.svg",
-   "alt": "A charged particle moving in a magnetic field"
+   "src": "/img/c10-magnetism/proton-path.svg",
+   "alt": "A proton moving to the right in a magnetic field directed into the page, its path curving"
   },
   "hint": "The force on it is always at right angles to its motion.",
   "explanation": "The force is always **perpendicular to the velocity**, so it changes the **direction** but not the speed. Direction change means the **velocity** changes, and so does the **momentum** (a vector). The **mass** and the **speed** stay the same.",
@@ -1624,10 +1608,10 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Each coil carries the same current. Arrange the coils from the weakest to the strongest magnetic field at the centre.",
+  "prompt": "Each coil is made of identical circular turns and carries the same current. Arrange the coils from the weakest to the strongest magnetic field at the centre.",
   "image": {
    "src": "/img/c10-magnetism/coil-turns.svg",
-   "alt": "A one-turn loop and a five-turn coil"
+   "alt": "A one-turn loop with a weaker field and a five-turn coil with a stronger field"
   },
   "hint": "Field is proportional to the number of turns.",
   "explanation": "The field at the centre of a circular coil is **n times** the field of a single turn, because the field of every turn adds up. So the field grows with the number of turns: 1, 5, 20, 50.",
@@ -1670,29 +1654,29 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps of making an electromagnet in the correct order.",
+  "prompt": "Arrange the stages of making an electromagnet in the correct order.",
   "image": {
    "src": "/img/c10-magnetism/electromagnet.svg",
    "alt": "A soft iron core inside a coil attracting iron nails"
   },
-  "hint": "The coil comes first and the current is what magnetises the core.",
-  "explanation": "Make the **solenoid** from insulated copper wire, put **soft iron** in it and pass a **current**. The strong, uniform field inside the solenoid then **magnetises** the soft iron, giving an **electromagnet**.",
+  "hint": "Build the coil first; the iron is magnetised last.",
+  "explanation": "First make the **solenoid** from insulated copper wire, then pass a **current** through it. The current sets up a **strong, uniform field** inside the coil, and this field **magnetises** a piece of soft iron placed inside: an **electromagnet**.",
   "items": [
    {
-    "id": "s2",
-    "text": "Place a piece of soft iron inside the coil"
-   },
-   {
-    "id": "s4",
-    "text": "The strong field inside the solenoid magnetises the iron, forming an electromagnet"
+    "id": "s3",
+    "text": "A strong, uniform magnetic field is set up inside the solenoid"
    },
    {
     "id": "s1",
     "text": "Wrap insulated copper wire closely in the shape of a cylinder to make a solenoid"
    },
    {
-    "id": "s3",
-    "text": "Connect the coil to a battery so that a current flows"
+    "id": "s4",
+    "text": "A piece of soft iron inside the coil is magnetised, forming an electromagnet"
+   },
+   {
+    "id": "s2",
+    "text": "Pass a current through the solenoid"
    }
   ],
   "answer": [
@@ -2010,7 +1994,7 @@
     "id": "l2",
     "image": {
      "src": "/img/c10-magnetism/loop-field.svg",
-     "alt": "Straight lines at the centre of a loop"
+     "alt": "Field circles around two wire cross-sections with straight lines between them"
     },
     "text": "Pattern B"
    },

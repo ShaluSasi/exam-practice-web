@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Which set lists the **life processes** that keep an organism's body in repair, even when it is asleep?",
+  "prompt": "The wheel shows the four **life processes**. Which of them is the removal of harmful waste by-products from the body?",
   "image": {
    "src": "/img/c10-life/life-wheel.svg",
    "alt": "Four life processes around a wheel: nutrition, respiration, transportation and excretion"
@@ -19,24 +19,24 @@
   "options": [
    {
     "id": "a",
-    "text": "Nutrition, growth, movement and reproduction"
+    "text": "Nutrition"
    },
    {
     "id": "b",
-    "text": "Digestion, circulation, sensation and locomotion"
+    "text": "Respiration"
    },
    {
     "id": "c",
-    "text": "Photosynthesis, digestion, pollination and excretion"
+    "text": "Transportation"
    },
    {
     "id": "d",
-    "text": "Nutrition, respiration, transportation and excretion"
+    "text": "Excretion"
    }
   ],
   "answer": "d",
-  "hint": "Think of what a body must do to get energy in, use it, move materials around and get rid of waste.",
-  "explanation": "Life processes are the **maintenance processes** that go on all the time: **nutrition** (bringing in food), **respiration** (using oxygen to release energy from food), **transportation** (moving materials inside the body) and **excretion** (removing harmful wastes). Growth, movement and reproduction are not the maintenance jobs listed in this chapter, and photosynthesis or digestion is only one part of nutrition."
+  "hint": "Think of what happens to the by-products that cells cannot use.",
+  "explanation": "When cells use food and oxygen to release energy they create by-products that are useless or even harmful. Removing these wastes from the body is **excretion**. **Nutrition** brings in food, **respiration** uses oxygen to break food down for energy, and **transportation** moves food, oxygen and wastes between parts of the body. All four are maintenance processes that go on even when we are asleep."
  },
  {
   "id": "in-cbse-10-bio-life-002",
@@ -76,7 +76,7 @@
   "prompt": "Why can simple **diffusion** not meet the oxygen needs of a large multi-cellular organism like a human?",
   "image": {
    "src": "/img/c10-life/diffusion.svg",
-   "alt": "A single cell with its whole surface in contact with the environment beside a block of many cells whose centre is far from the surface"
+   "alt": "A single cell beside a block of many cells"
   },
   "options": [
    {
@@ -368,7 +368,7 @@
   "prompt": "Two plants were kept in dark, then placed under bell-jars in sunlight. Jar (a) had a watch-glass of **potassium hydroxide (KOH)**, jar (b) had none. Which leaf shows **more starch**, and why?",
   "image": {
    "src": "/img/c10-life/bell-jar.svg",
-   "alt": "Two bell jars over potted plants: one with potassium hydroxide to absorb carbon dioxide, one without"
+   "alt": "Two bell jars over potted plants: one with a dish of potassium hydroxide inside, one without"
   },
   "options": [
    {
@@ -407,7 +407,7 @@
   "prompt": "What makes a **stomatal pore open**?",
   "image": {
    "src": "/img/c10-life/stomata.svg",
-   "alt": "A stomatal pore open with swollen guard cells and closed with shrunken guard cells"
+   "alt": "A stomatal pore shown open between two guard cells and closed between two guard cells"
   },
   "options": [
    {
@@ -492,8 +492,8 @@
   "type": "order",
   "prompt": "Arrange the stages of **nutrition in Amoeba**.",
   "image": {
-   "src": "/img/c10-life/amoeba-steps.svg",
-   "alt": "Four stages of an amoeba feeding: food touches it, pseudopodia enclose it, a food vacuole forms, and leftovers leave"
+   "src": "/img/c10-life/amoeba.svg",
+   "alt": "An amoeba with pseudopodia, a nucleus, a food vacuole holding a food particle and a contractile vacuole"
   },
   "items": [
    {
@@ -603,7 +603,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In Activity 5.3, iodine is added to test tube **A** (starch + saliva) and **B** (starch only). Which tube does **not** turn blue-black, and why?",
+  "prompt": "In Activity 5.3, iodine is added to both tubes. Tube **A** (starch + saliva) stays brownish, while tube **B** (starch only) turns blue-black. What does this show?",
   "image": {
    "src": "/img/c10-life/saliva-test.svg",
    "alt": "Two test tubes: starch with saliva stays brown after iodine; starch without saliva turns blue-black"
@@ -611,24 +611,24 @@
   "options": [
    {
     "id": "a",
-    "text": "Tube B, because starch dissolves in water"
+    "text": "Starch dissolves in water, so tube A had none left"
    },
    {
     "id": "b",
-    "text": "Both tubes, because iodine only detects sugar"
+    "text": "Iodine detects sugar, not starch"
    },
    {
     "id": "c",
-    "text": "Tube A, because salivary amylase broke the starch down"
+    "text": "Salivary amylase in the saliva broke the starch down into simple sugar"
    },
    {
     "id": "d",
-    "text": "Neither tube, because saliva has no enzyme"
+    "text": "Saliva contains no enzyme, so the starch in tube A was unchanged"
    }
   ],
   "answer": "c",
-  "hint": "Blue-black means starch is still present.",
-  "explanation": "Saliva contains the enzyme **salivary amylase**, which breaks starch into simple sugar. In tube A the starch has been digested, so there is no blue-black colour. Tube B has no saliva, so its starch remains and turns blue-black."
+  "hint": "Blue-black with iodine means starch is still present.",
+  "explanation": "Iodine turns **blue-black** with starch. Tube B (no saliva) still has starch, so it turns blue-black. Tube A does not, so its starch is gone: saliva contains the enzyme **salivary amylase**, which breaks starch, a complex molecule, into simple sugar. Starch does not simply dissolve away, and iodine tests for starch, not sugar."
  },
  {
   "id": "in-cbse-10-bio-life-015",
@@ -790,7 +790,7 @@
   "prompt": "Which statement correctly describes the action of **bile juice** from the liver?",
   "image": {
    "src": "/img/c10-life/fat-emulsion.svg",
-   "alt": "A large fat globule broken into many small globules by bile salts"
+   "alt": "A large fat globule, and many small globules after bile salts act on it"
   },
   "options": [
    {
@@ -1158,7 +1158,7 @@
   "prompt": "Yeast, sugar solution and a delivery tube dipping in lime water are set up (Activity 5.5). What does the lime water show about **fermentation**?",
   "image": {
    "src": "/img/c10-life/fermentation.svg",
-   "alt": "Yeast and sugar solution in a flask with a bent tube leading carbon dioxide into lime water that turns milky"
+   "alt": "Yeast and sugar solution in a flask with a bent tube leading the gas produced into lime water that turns milky"
   },
   "options": [
    {
@@ -1197,7 +1197,7 @@
   "prompt": "Match each step in the breakdown of glucose with where or when it happens.",
   "image": {
    "src": "/img/c10-life/respiration-pathways.svg",
-   "alt": "Flow chart: glucose to pyruvate in the cytoplasm, then ethanol and carbon dioxide, lactic acid, or carbon dioxide and water"
+   "alt": "Flow chart: glucose to pyruvate, then three possible products: ethanol and carbon dioxide, lactic acid, or carbon dioxide and water"
   },
   "left": [
    {
@@ -1282,7 +1282,7 @@
   "prompt": "After sudden vigorous exercise your muscles cramp. Which substance building up in the muscle cells causes this?",
   "image": {
    "src": "/img/c10-life/muscle-cramp.svg",
-   "alt": "A working muscle where lack of oxygen makes pyruvate turn into lactic acid that builds up"
+   "alt": "A working muscle that gets little oxygen, in which a substance made from pyruvate builds up"
   },
   "options": [
    {
@@ -1321,7 +1321,7 @@
   "prompt": "Which statement about **gas exchange in a plant** is correct?",
   "image": {
    "src": "/img/c10-life/gas-day-night.svg",
-   "alt": "A leaf by day using carbon dioxide and releasing oxygen, and at night taking in oxygen and releasing carbon dioxide"
+   "alt": "A leaf in sunlight by day and the same leaf at night"
   },
   "options": [
    {
@@ -1452,7 +1452,7 @@
   "prompt": "When we **breathe in**, which of these happen? Select all that apply.",
   "image": {
    "src": "/img/c10-life/breathing-mechanism.svg",
-   "alt": "Ribs lifting and the diaphragm flattening so the chest cavity enlarges and air is drawn into the lungs"
+   "alt": "The ribs, lungs and diaphragm of the chest while breathing in, with air entering"
   },
   "options": [
    {
@@ -1987,7 +1987,7 @@
   "prompt": "Which statements about **xylem and phloem** are correct? Select all that apply.",
   "image": {
    "src": "/img/c10-life/xylem-phloem.svg",
-   "alt": "Two tubes in a stem: xylem carrying water upwards and phloem carrying food up and down"
+   "alt": "Two tubes in a stem: xylem fed from the roots and phloem fed from the leaves"
   },
   "options": [
    {

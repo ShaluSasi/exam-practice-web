@@ -75,7 +75,7 @@
     ],
     "answer": "d",
     "hint": "For the converse, swap the 'if' part and the 'then' part.",
-    "explanation": "The proposition has the form 'if X then Y' with X = two sides are equal and Y = the opposite angles are equal. Its **converse** is 'if Y then X', which is Statement 2 of the chapter. The second option (negating both parts) is the *inverse*, the third (negating and swapping) is the *contrapositive*, and the fourth just repeats the original."
+    "explanation": "The proposition has the form 'if X then Y' with X = two sides are equal and Y = the opposite angles are equal. Its **converse** is 'if Y then X': if two angles are equal, then the sides opposite them are equal, which is Statement 2 of the chapter. Negating both parts without swapping ('sides not equal, so angles not equal') gives the *inverse*; negating and swapping ('angles not equal, so sides not equal') gives the *contrapositive*; and the statement about equal sides giving equal angles just repeats the original."
   },
   {
     "id": "ma09-q003",
@@ -259,7 +259,7 @@
     ],
     "answer": "a",
     "hint": "Swap the two parts of the sentence without changing them.",
-    "explanation": "P has the form 'if X then Y', with X = it rains and Y = the road is wet. The converse swaps them: 'if the road is wet, then it has rained'. The second option is the inverse, the third is the contrapositive (which is true, just like P), and the fourth contradicts P."
+    "explanation": "P has the form 'if X then Y', with X = it rains and Y = the road is wet. The converse swaps them: 'if the road is wet, then it has rained'. 'If it does not rain, then the road is not wet' negates both parts (the inverse); 'if the road is not wet, then it has not rained' negates and swaps (the contrapositive, which is true just like P); and 'if it rains, then the road is not wet' contradicts P."
   },
   {
     "id": "ma09-q007",
@@ -806,7 +806,7 @@
     ],
     "answer": "d",
     "hint": "Keep the first sentence, and swap the 'if' and 'then' parts of the second.",
-    "explanation": "The book keeps the opening line and swaps the two parts: 'if $a^2 + b^2 = c^2$, then the triangle is right-angled'. The second option is the inverse, the third switches the equation without swapping meaning, and the fourth is the original theorem. Here, unlike many examples, the converse is also true."
+    "explanation": "The book keeps the opening line and swaps the two parts: 'if $a^2 + b^2 = c^2$, then the triangle is right-angled'. The statement 'if the triangle is not right-angled, then $a^2 + b^2 \\ne c^2$' negates both parts instead of swapping them; 'if $a^2 + b^2 \\ne c^2$, then the triangle is right-angled' swaps the parts but wrongly negates the equation; and 'if the triangle is right-angled, then $a^2 + b^2 = c^2$' is the original theorem. Here, unlike many examples, the converse is also true."
   },
   {
     "id": "ma09-q020",
@@ -1454,7 +1454,7 @@
       },
       {
         "id": "r5",
-        "text": "Converse true: 5 and 12 share no factor, so $5\\times 12 = 60$ divides $n$"
+        "text": "Converse true: 5 and 12 have no common factor other than 1, so $5\\times 12 = 60$ divides $n$"
       },
       {
         "id": "r3",
@@ -1473,7 +1473,7 @@
       "l5": "r5"
     },
     "hint": "For each converse try a small example such as $-3$ and $3$, or $12$.",
-    "explanation": "$(-3)^2 = 3^2$ breaks the converse for squares, but cubes keep their sign, so $x^3 = y^3$ forces $x = y$. Subtracting $a$ from both sides gives the converse of Exercise 4, which is why we can solve equations. $12$ is divisible by 4 and 6 but not 24. Since 5 and 12 have no common factor, a number divisible by both is divisible by 60."
+    "explanation": "$(-3)^2 = 3^2$ breaks the converse for squares, but cubes keep their sign, so $x^3 = y^3$ forces $x = y$. Subtracting $a$ from both sides gives the converse of Exercise 4, which is why we can solve equations. $12$ is divisible by 4 and 6 but not 24. Since 5 and 12 have no common factor other than 1, a number divisible by both is divisible by 60."
   },
   {
     "id": "ma09-q034",

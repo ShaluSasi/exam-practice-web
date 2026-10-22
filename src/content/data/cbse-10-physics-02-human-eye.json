@@ -67,7 +67,7 @@
     "prompt": "The eye lens focuses light from a distant tree on the retina. What is the nature of this image?",
     "image": {
       "src": "/img/c10-eye/eye-camera.svg",
-      "alt": "A camera and a human eye each forming an inverted image on a light-sensitive surface"
+      "alt": "A camera and a human eye each forming an image on a light-sensitive surface"
     },
     "options": [
       {
@@ -165,7 +165,7 @@
     "prompt": "A student walks from bright sunlight into a dimly lit room. What happens to her pupil, and which part of the eye makes this happen?",
     "image": {
       "src": "/img/c10-eye/iris-pupil.svg",
-      "alt": "Two eyes: a small pupil in bright light and a large pupil in dim light"
+      "alt": "An eye in bright light with a small pupil, and an eye in dim light with its pupil size hidden"
     },
     "options": [
       {
@@ -501,8 +501,8 @@
     "type": "mcq",
     "prompt": "You look up from your book at a tree far away. Which picture shows the eye lens and ciliary muscles now?",
     "image": {
-      "src": "/img/c10-eye/accommodation.svg",
-      "alt": "The eye lens is thin for distant objects and thick for near objects"
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye"
     },
     "options": [
       {
@@ -608,7 +608,7 @@
     "prompt": "A young adult with normal vision can see objects clearly when they lie between",
     "image": {
       "src": "/img/c10-eye/near-far-points.svg",
-      "alt": "A scale showing the near point at 25 cm and the far point at infinity"
+      "alt": "A scale showing the near point N and the far point F of a normal eye"
     },
     "options": [
       {
@@ -647,7 +647,7 @@
     "prompt": "Why is a normal eye unable to see a book clearly when it is held only 10 cm away?",
     "image": {
       "src": "/img/c10-eye/reading-close.svg",
-      "alt": "An eye looking at a book very close to it, with the image falling behind the retina"
+      "alt": "An eye looking at a book held 10 cm away"
     },
     "options": [
       {
@@ -761,8 +761,8 @@
     "type": "mcq",
     "prompt": "Which picture shows a **hypermetropic** eye?",
     "image": {
-      "src": "/img/c10-eye/defects-summary.svg",
-      "alt": "Three eyes showing the image on, in front of and behind the retina"
+      "src": "/img/c10-eye/eye-anatomy.svg",
+      "alt": "Cross-section of the human eye"
     },
     "options": [
       {
@@ -862,8 +862,8 @@
     "type": "mcq",
     "prompt": "A person with a myopic eye cannot see objects beyond 1.2 m distinctly. Which kind of lens should the person use?",
     "image": {
-      "src": "/img/c10-eye/myopia-correct.svg",
-      "alt": "A concave spectacle lens spreading parallel rays so the myopic eye can focus them on the retina"
+      "src": "/img/c10-eye/myopia.svg",
+      "alt": "Myopic eye whose rays from a distant object cross in front of the retina"
     },
     "options": [
       {
@@ -902,7 +902,7 @@
     "prompt": "The far point of a myopic person is 80 cm in front of the eye. What is the power of the lens required to correct the problem?",
     "image": {
       "src": "/img/c10-eye/power-calc.svg",
-      "alt": "A myopic eye whose far point is 80 cm away with a concave lens in front"
+      "alt": "A myopic eye whose far point is 80 cm away, with an unknown spectacle lens in front"
     },
     "options": [
       {
@@ -919,12 +919,12 @@
       },
       {
         "id": "d",
-        "text": "$-125\\ \\text{D}$"
+        "text": "$-0.0125\\ \\text{D}$"
       }
     ],
     "answer": "c",
     "hint": "The lens must form a virtual image of a very distant object at the far point.",
-    "explanation": "For a distant object $u=-\\infty$, and the lens must form its image at the far point, so $v=-80\\ \\text{cm}$ and $f=-80\\ \\text{cm}=-0.8\\ \\text{m}$. Then $$P=\\dfrac{1}{f}=\\dfrac{1}{-0.8\\ \\text{m}}=-1.25\\ \\text{D}$$ The traps: **+1.25 D** has the wrong sign (convex instead of concave), **-0.8 D** uses the focal length in metres as if it were the power, and **-125 D** forgets to convert 80 cm into metres."
+    "explanation": "For a distant object $u=-\\infty$, and the lens must form its image at the far point, so $v=-80\\ \\text{cm}$ and $f=-80\\ \\text{cm}=-0.8\\ \\text{m}$. Then $$P=\\dfrac{1}{f}=\\dfrac{1}{-0.8\\ \\text{m}}=-1.25\\ \\text{D}$$ The traps: **+1.25 D** has the wrong sign (convex instead of concave), **-0.8 D** uses the focal length in metres as if it were the power, and **-0.0125 D** forgets to convert 80 cm into metres, working out $1/(-80)$ instead."
   },
   {
     "id": "in-cbse-10-phy-eye-021",
@@ -980,7 +980,7 @@
     "prompt": "The near point of a hypermetropic eye is 1 m. What is the power of the lens needed to read a book at 25 cm, the normal near point?",
     "image": {
       "src": "/img/c10-eye/hyper-calc.svg",
-      "alt": "A convex lens forming a virtual image at 1 m of a book held at 25 cm"
+      "alt": "A spectacle lens forming a virtual image at 1 m of a book held at 25 cm"
     },
     "options": [
       {
@@ -1074,7 +1074,7 @@
     "prompt": "Match each defect or lens with its description.",
     "image": {
       "src": "/img/c10-eye/defects-summary.svg",
-      "alt": "Three eyes showing a normal eye, a myopic eye and a hypermetropic eye"
+      "alt": "Three numbered eyes: image on, in front of and behind the retina"
     },
     "left": [
       {
@@ -1175,7 +1175,7 @@
     "prompt": "A man in his sixties sees distant objects clearly, but he gradually finds it difficult to read a newspaper at the usual distance. What is this defect and what causes it?",
     "image": {
       "src": "/img/c10-eye/presbyopia.svg",
-      "alt": "A book that must be held farther from an older eye"
+      "alt": "An older reader who must hold the book farther away"
     },
     "options": [
       {
@@ -1214,7 +1214,7 @@
     "prompt": "Which statements about **bi-focal lenses** are correct? Select all that apply.",
     "image": {
       "src": "/img/c10-eye/bifocal.svg",
-      "alt": "A bi-focal lens with a concave upper part and a convex lower part"
+      "alt": "A bi-focal lens: the upper part is used for a distant tree and the lower part for a book"
     },
     "options": [
       {
@@ -1284,7 +1284,7 @@
     "prompt": "Which of these statements about **eye donation** are correct? Select all that apply.",
     "image": {
       "src": "/img/c10-eye/eye-donation.svg",
-      "alt": "Eye donation: removal within a few hours, helping up to four corneal blind people"
+      "alt": "Eye donation: an eye, a clock and the people a donor can help"
     },
     "options": [
       {
@@ -1936,7 +1936,7 @@
     "prompt": "Stars twinkle, but planets do not. Why?",
     "image": {
       "src": "/img/c10-eye/twinkling.svg",
-      "alt": "A point-like star flickering beside an extended planet that shines steadily"
+      "alt": "Light from a twinkling star and from a planet that does not twinkle"
     },
     "options": [
       {
@@ -2084,7 +2084,7 @@
     "prompt": "A fine beam of sunlight enters a smoke-filled room through a small hole, and its path becomes visible. What is the reason?",
     "image": {
       "src": "/img/c10-eye/tyndall.svg",
-      "alt": "A narrow sunbeam entering a smoke-filled room and lit up by the particles"
+      "alt": "A narrow sunbeam entering a smoke-filled room with its path visible"
     },
     "options": [
       {
@@ -2122,8 +2122,8 @@
     "type": "mcq",
     "prompt": "Why does the clear sky appear blue?",
     "image": {
-      "src": "/img/c10-eye/sky-scatter.svg",
-      "alt": "White sunlight in the atmosphere: blue is scattered strongly while red passes through"
+      "src": "/img/c10-eye/wavelength-compare.svg",
+      "alt": "A shorter blue wave and a longer red wave"
     },
     "options": [
       {
@@ -2185,7 +2185,7 @@
     "prompt": "Match each situation with what happens to the light.",
     "image": {
       "src": "/img/c10-eye/scatter-size.svg",
-      "alt": "Particles of three sizes scattering white light into different colours"
+      "alt": "Particles of three sizes scattering a beam of white light"
     },
     "left": [
       {
@@ -2194,11 +2194,11 @@
       },
       {
         "id": "larger",
-        "text": "Particles of larger size"
+        "text": "Particles larger than air molecules"
       },
       {
         "id": "large",
-        "text": "Particles large enough"
+        "text": "Particles large enough, such as big droplets"
       },
       {
         "id": "signal",

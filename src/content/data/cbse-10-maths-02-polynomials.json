@@ -170,7 +170,7 @@
     "prompt": "It is given that $3$ is a zero of $p(x) = x^2 - x - 6$. What is the **other zero**?",
     "image": {
       "src": "/img/c10-ma-polynomials/numline-3q.svg",
-      "alt": "A number line with the zero 3 marked and a question mark at the unknown second zero"
+      "alt": "A number line with the zero 3 marked and the caption: other zero = ?"
     },
     "options": [
       {
@@ -608,7 +608,7 @@
     "prompt": "If $3$ is a zero of the polynomial $2x^2 - 7x + k$, find $k$.",
     "image": {
       "src": "/img/c10-ma-polynomials/k-graph.svg",
-      "alt": "Parabola through the point (3, 0) with the polynomial 2x squared minus 7x plus k"
+      "alt": "Part of a parabola passing through the point (3, 0), labelled 2x squared minus 7x plus k"
     },
     "options": [
       {
@@ -669,7 +669,7 @@
     ],
     "answer": "c",
     "hint": "Write the sum as $-\\dfrac ba$ and the product as $\\dfrac ca$, using $a=k,\\ b=2,\\ c=3k$.",
-    "explanation": "Sum $=-\\dfrac{2}{k}$ and product $=\\dfrac{3k}{k}=3$. Setting them equal: $-\\dfrac2k=3$, so $k=-\\dfrac23$. Slips: $\\frac23$ drops the minus sign of the sum, and $\\pm\\frac32$ come from inverting the equation ($k=\\frac{3}{-2}$)."
+    "explanation": "Sum $=-\\dfrac{2}{k}$ and product $=\\dfrac{3k}{k}=3$. Setting them equal: $-\\dfrac2k=3$, so $k=-\\dfrac23$. Slips: $\\frac23$ drops the minus sign of the sum; $-\\frac32$ comes from inverting wrongly ($k=\\frac{3}{-2}$ instead of $k=\\frac{-2}{3}$); and $\\frac32$ makes both slips at once."
   },
   {
     "id": "in-cbse-10-math-polynomials-017",
@@ -1010,14 +1010,14 @@
       },
       {
         "id": "tmax",
-        "x": 30.1,
-        "y": 16.6,
+        "x": 35.8,
+        "y": 12.6,
         "label": "Peak of the left hump"
       },
       {
         "id": "tmin",
-        "x": 70.1,
-        "y": 63.9,
+        "x": 73.0,
+        "y": 64.8,
         "label": "Bottom of the right dip"
       }
     ],

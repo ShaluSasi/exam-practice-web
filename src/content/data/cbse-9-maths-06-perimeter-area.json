@@ -36,7 +36,7 @@
     ],
     "answer": "c",
     "hint": "Which part of the track is longer for the outer lanes, the straight stretches or the curved ends?",
-    "explanation": "On the straight parts all lanes have the same length, but on the bends the outer lanes run along circles of **larger radius**, and the length of a circle grows with its radius ($C = 2\\pi r$). The **stagger** moves the outer starting lines forward by exactly that extra length so that all runners cover the same distance. It is not a reward for speed, the finish line is common to all, and lane width is only a side-effect."
+    "explanation": "On the straight parts all lanes have the same length, but on the bends the outer lanes run along circles of **larger radius**, and the length of a circle grows with its radius ($C = 2\\pi r$). The **stagger** moves the outer starting lines forward by exactly that extra length so that all runners cover the same distance. It is not a reward for speed, the finish line is common to all, and every lane has the same width (1.22 m), so width is not the reason."
   },
   {
     "id": "ma06-q002",
@@ -1001,7 +1001,7 @@
     "reason": "The area of a parallelogram is base $\\times$ height, and the height changes when the angle between the sides changes.",
     "answer": "a",
     "hint": "Imagine four rods hinged at the corners. Does the shape stay the same when you push it?",
-    "explanation": "Both are true and R explains A. With sides 10 and 6 the area is $10 \\times 6\\sin\\theta = 60\\sin\\theta\\ \\text{cm}^2$: it is $60$ for a rectangle ($\\theta = 90^\\circ$) but only $30$ at $\\theta = 30^\\circ$. So side lengths alone cannot give the area; we also need the height (or an angle)."
+    "explanation": "Both are true and R explains A. With base 10 cm, the height can be at most the slanting side 6 cm: as a rectangle the area is $10 \\times 6 = 60\\ \\text{cm}^2$, but if the rods are pushed over until the height is only 3 cm, the area is $10 \\times 3 = 30\\ \\text{cm}^2$. So side lengths alone cannot give the area; we also need the height (or an angle)."
   },
   {
     "id": "ma06-q024",
@@ -1606,7 +1606,7 @@
     ],
     "answer": "c",
     "hint": "First find $\\dfrac{8}{9}$ of the diameter, then square it.",
-    "explanation": "$\\dfrac{8}{9} \\times 18 = 16$ cm, and the area is $16^2 = 256\\ \\text{cm}^2$. This is close to the true value $\\pi r^2 = \\dfrac{22}{7} \\times 81 \\approx 254.6\\ \\text{cm}^2$. Traps: squaring only the diameter inside the bracket wrongly ($\\dfrac{8}{9} \\times 18^2 = 288$), forgetting to square ($16$, which is a length), or taking the square on the whole diameter ($324$)."
+    "explanation": "$\\dfrac{8}{9} \\times 18 = 16$ cm, and the area is $16^2 = 256\\ \\text{cm}^2$. This is close to the true value $\\pi r^2 = \\dfrac{22}{7} \\times 81 \\approx 254.6\\ \\text{cm}^2$. Traps: squaring the diameter but not the $\\dfrac{8}{9}$ ($\\dfrac{8}{9} \\times 18^2 = 288$), forgetting to square ($16$, which is a length), or taking the square on the whole diameter ($324$)."
   },
   {
     "id": "ma06-q039",
@@ -1632,7 +1632,7 @@
       },
       {
         "id": "b",
-        "text": "$616\\ \\text{cm}^2$"
+        "text": "$77\\ \\text{cm}^2$"
       },
       {
         "id": "c",
@@ -1645,7 +1645,7 @@
     ],
     "answer": "d",
     "hint": "The legs are perpendicular, so the triangle's area is half the product of its legs.",
-    "explanation": "Area $= \\dfrac{1}{2} \\times 7 \\times 44 = 154\\ \\text{cm}^2$, which is exactly $\\pi r^2 = \\dfrac{22}{7} \\times 49$. In general $\\dfrac{1}{2} \\times r \\times 2\\pi r = \\pi r^2$. Traps: omitting $\\dfrac{1}{2}$ ($308$), using the diameter 14 as a leg ($616$), or **adding** the legs ($51$)."
+    "explanation": "Area $= \\dfrac{1}{2} \\times 7 \\times 44 = 154\\ \\text{cm}^2$, which is exactly $\\pi r^2 = \\dfrac{22}{7} \\times 49$. In general $\\dfrac{1}{2} \\times r \\times 2\\pi r = \\pi r^2$. Traps: omitting $\\dfrac{1}{2}$ ($7 \\times 44 = 308$), using half the circumference 22 as the long leg ($\\dfrac{1}{2} \\times 7 \\times 22 = 77$), or **adding** the legs ($7 + 44 = 51$)."
   },
   {
     "id": "ma06-q040",
@@ -1695,7 +1695,7 @@
     ],
     "startLabel": "First",
     "endLabel": "Last",
-    "hint": "Cut first, rearrange next, measure, then apply the formula.",
+    "hint": "You cannot use a parallelogram formula until a parallelogram-like shape exists. What must happen to the circle before that?",
     "explanation": "Cut the circle into thin equal slices, then rearrange them alternately. The new shape is close to a parallelogram whose base is **half the circumference** ($\\pi r$, because each half of the circumference is on one side) and whose height is the radius $r$. Applying area $=$ base $\\times$ height gives $\\pi r \\times r = \\pi r^2$. The thinner the slices, the closer the shape is to a true parallelogram."
   },
   {
@@ -1737,13 +1737,13 @@
       {
         "id": "slice",
         "x": 48.5,
-        "y": 42.5,
+        "y": 58,
         "label": "Inside one slice"
       },
       {
         "id": "tip",
         "x": 32.1,
-        "y": 64.5,
+        "y": 72,
         "label": "Tip of a slice"
       }
     ],

@@ -367,7 +367,7 @@
    "dal": "r1",
    "ram": "r3"
   },
-  "hint": "Lavoisier's law came first, in 1789. Dalton's theory was built on two earlier laws.",
+  "hint": "Dalton's theory was built on the two laws discovered before it. Only one of the five descriptions is not linked to any of these scientists.",
   "explanation": "**Antoine Lavoisier**, the Father of Modern Chemistry, proposed the Law of Conservation of Mass in 1789. **Joseph Proust** showed that compounds such as copper carbonate always contain their elements in the same proportion by mass. **John Dalton** presented his atomic theory in 1808, and **Raja Ramanna** helped build India's peaceful Nuclear Energy Programme."
  },
  {
@@ -1284,7 +1284,7 @@
   "assertion": "The formula unit mass of sodium chloride is 58.5 u (Na = 23 u, Cl = 35.5 u).",
   "reason": "In a sodium chloride crystal, each sodium ion is surrounded by six chloride ions.",
   "answer": "b",
-  "hint": "Is R about mass at all? Check A with the atomic masses Na = 23 u and Cl = 35.5 u.",
+  "hint": "Check A with the atomic masses Na = 23 u and Cl = 35.5 u. Then ask: does the arrangement of ions decide the mass of a formula unit?",
   "explanation": "Both are true, but R does not explain A. A is a calculation: formula unit mass of $\\ce{NaCl} = 23 + 35.5 = 58.5\\ \\text{u}$. R describes the crystal: each $\\ce{Na+}$ is surrounded by six $\\ce{Cl-}$ ions (and each $\\ce{Cl-}$ by six $\\ce{Na+}$) in a repeating 3-D pattern. Because ionic compounds form such crystals and not separate molecules, we speak of a **formula unit mass** rather than a molecular mass."
  },
  {
@@ -2189,7 +2189,7 @@
   "left": [
    {
     "id": "nacl",
-    "text": "Sodium chloride"
+    "text": "Sodium chloride, stirred into water"
    },
    {
     "id": "sugar",
@@ -2322,7 +2322,7 @@
    "c",
    "d"
   ],
-  "hint": "M loses 2 electrons; oxygen (2, 6) gains 2.",
+  "hint": "Count the electrons in the M shell. Does a metal give electrons away or take them in, and how many does oxygen (2, 6) need?",
   "explanation": "M (2, 8, 2) loses its two valence electrons to form $\\ce{M^2+}$, and oxygen gains two to form $\\ce{O^2-}$. The equal charges give the formula $\\ce{MO}$ (like MgO) and the bond is **ionic**. The dissolved part gives free ions, so the solution **does** conduct electricity. $\\ce{M2O}$ would need an ion with a 1+ charge, and a metal loses electrons rather than gaining them."
  }
 ]

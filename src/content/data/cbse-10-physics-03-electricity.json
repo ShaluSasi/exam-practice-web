@@ -296,8 +296,8 @@
   "type": "mcq",
   "prompt": "A student wants to measure the potential difference across a lamp. Which symbol represents the instrument she must connect **in parallel** across the lamp?",
   "image": {
-   "src": "/img/c10-electricity/power-circuit.svg",
-   "alt": "A lamp circuit with an ammeter and a voltmeter"
+   "src": "/img/c10-electricity/circuit-open.svg",
+   "alt": "An open circuit with a cell, key, bulb and ammeter"
   },
   "options": [
    {
@@ -450,7 +450,7 @@
    "l4": "r4"
   },
   "hint": "Current is charge per unit time; potential difference is work per unit charge.",
-  "explanation": "**Current** $I = Q/t$ (charge per second). **Potential difference** $V = W/Q$ (work done per unit charge), so $1\\ \\text{V} = 1\\ \\text{J C}^{-1}$. **Power** $P = VI$. **Heat** $H = I^{2}Rt$ is Joule\\'s law of heating."
+  "explanation": "**Current** $I = Q/t$ (charge per second). **Potential difference** $V = W/Q$ (work done per unit charge), so $1\\ \\text{V} = 1\\ \\text{J C}^{-1}$. **Power** $P = VI$. **Heat** $H = I^{2}Rt$ is Joule's law of heating."
  },
  {
   "id": "in-cbse-10-phy-electricity-010",
@@ -544,7 +544,7 @@
   ],
   "answer": "d",
   "hint": "Ohm's law says $V/I$ is constant.",
-  "explanation": "Ohm\\'s law: $V \\propto I$ at constant temperature, so $V/I = R$ is constant. A graph of $V$ against $I$ is a **straight line through the origin**, with slope equal to the resistance. A curve, a horizontal line or a line that does not start at the origin would mean $V/I$ is not constant."
+  "explanation": "Ohm's law: $V \\propto I$ at constant temperature, so $V/I = R$ is constant. A graph of $V$ against $I$ is a **straight line through the origin**, with slope equal to the resistance. A curve, a horizontal line or a line that does not start at the origin would mean $V/I$ is not constant."
  },
  {
   "id": "in-cbse-10-phy-electricity-012",
@@ -805,7 +805,7 @@
   "items": [
    {
     "id": "s3",
-    "text": "Nichrome (about $10^{-6}\\ \\Omega\\,\\text{m}$)"
+    "text": "Nichrome (about $100\\times10^{-6}\\ \\Omega\\,\\text{m}$)"
    },
    {
     "id": "s1",
@@ -829,7 +829,7 @@
   "startLabel": "Lowest resistivity",
   "endLabel": "Highest resistivity",
   "hint": "Metals first, then alloys, and insulators last.",
-  "explanation": "Pure metals have the lowest resistivity ($10^{-8}\\ \\Omega\\,\\text{m}$ range), and copper is lower than iron. An **alloy** like nichrome has higher resistivity than its constituent metals ($10^{-6}\\ \\Omega\\,\\text{m}$). **Insulators** like glass are enormously higher ($10^{10}$ to $10^{17}\\ \\Omega\\,\\text{m}$)."
+  "explanation": "Pure metals have the lowest resistivity ($10^{-8}\\ \\Omega\\,\\text{m}$ range), and copper is lower than iron. An **alloy** like nichrome has higher resistivity than its constituent metals (about $100\\times10^{-6}\\ \\Omega\\,\\text{m}$, that is $10^{-4}\\ \\Omega\\,\\text{m}$). **Insulators** like glass are enormously higher ($10^{10}$ to $10^{14}\\ \\Omega\\,\\text{m}$ for glass)."
  },
  {
   "id": "in-cbse-10-phy-electricity-019",
@@ -914,7 +914,7 @@
   "reason": "Nichrome has a lower resistivity than copper.",
   "answer": "c",
   "hint": "Compare the heights of the two bars.",
-  "explanation": "A is **true** and R is **false**. Alloys have **higher** resistivity than pure metals ($\\rho$ of nichrome is about $10^{-6}\\ \\Omega\\,\\text{m}$ against about $1.6\\times10^{-8}\\ \\Omega\\,\\text{m}$ for copper), so they produce more heat. They also do not oxidise (burn) readily at high temperature, which is why they last."
+  "explanation": "A is **true** and R is **false**. Alloys have **higher** resistivity than pure metals ($\\rho$ of nichrome is about $100\\times10^{-6}\\ \\Omega\\,\\text{m}$ against about $1.6\\times10^{-8}\\ \\Omega\\,\\text{m}$ for copper), so they produce more heat. They also do not oxidise (burn) readily at high temperature, which is why they last."
  },
  {
   "id": "in-cbse-10-phy-electricity-021",
@@ -961,7 +961,7 @@
   ],
   "answer": "lamp",
   "hint": "In series the same current flows through both, so $V = IR$ is largest across the larger $R$.",
-  "explanation": "$R_s = 20+4 = 24\\ \\Omega$, $I = 6/24 = 0.25\\ \\text{A}$ everywhere. Then $V_{lamp} = 0.25\\times20 = 5\\ \\text{V}$ and $V_{conductor} = 0.25\\times4 = 1\\ \\text{V}$. The battery\\'s $6\\ \\text{V}$ is shared in proportion to the resistances, and the lamp, the larger resistance, takes $5\\ \\text{V}$."
+  "explanation": "$R_s = 20+4 = 24\\ \\Omega$, $I = 6/24 = 0.25\\ \\text{A}$ everywhere. Then $V_{lamp} = 0.25\\times20 = 5\\ \\text{V}$ and $V_{conductor} = 0.25\\times4 = 1\\ \\text{V}$. The battery's $6\\ \\text{V}$ is shared in proportion to the resistances, and the lamp, the larger resistance, takes $5\\ \\text{V}$."
  },
  {
   "id": "in-cbse-10-phy-electricity-022",
@@ -1290,32 +1290,32 @@
   "spots": [
    {
     "id": "r1",
-    "x": 25.0,
-    "y": 50.0,
+    "x": 30.0,
+    "y": 22.9,
     "label": "R1 = 10 ohm"
    },
    {
     "id": "r2",
-    "x": 37.5,
-    "y": 50.0,
+    "x": 30.0,
+    "y": 47.9,
     "label": "R2 = 40 ohm"
    },
    {
     "id": "r3",
-    "x": 60.0,
-    "y": 50.0,
+    "x": 68.8,
+    "y": 18.8,
     "label": "R3 = 30 ohm"
    },
    {
     "id": "r4",
-    "x": 72.5,
-    "y": 50.0,
+    "x": 68.8,
+    "y": 41.7,
     "label": "R4 = 20 ohm"
    },
    {
     "id": "r5",
-    "x": 85.0,
-    "y": 50.0,
+    "x": 68.8,
+    "y": 64.6,
     "label": "R5 = 60 ohm"
    }
   ],
@@ -1500,7 +1500,7 @@
   ],
   "answer": "a",
   "hint": "Across a fixed $V$, heat is $H = V^2t/R$, so a smaller $R$ gives more heat.",
-  "explanation": "Let each wire be $R$. Series: $2R$; parallel: $R/2$. With the same $V$ and $t$, $H = \\dfrac{V^2t}{R_{eq}}$, so $\\dfrac{H_s}{H_p} = \\dfrac{R/2}{2R} = \\dfrac14$. The parallel combination dissipates four times as much heat. $1:2$ or $2:1$ come from treating the equivalent resistance as $R$ in one case only."
+  "explanation": "Let each wire be $R$. Series: $2R$; parallel: $R/2$. With the same $V$ and $t$, $H = \\dfrac{V^2t}{R_{eq}}$, so $\\dfrac{H_s}{H_p} = \\dfrac{R/2}{2R} = \\dfrac14$. The parallel combination dissipates four times as much heat. Taking the series pair as $R$ instead of $2R$ (or the parallel pair as $R$ instead of $R/2$) gives $1:2$; using $H \\propto R$, which holds only for the same current, inverts the ratio and gives $4:1$."
  },
  {
   "id": "in-cbse-10-phy-electricity-034",
@@ -1917,7 +1917,7 @@
   ],
   "answer": "d",
   "hint": "Find the current from $P = VI$ and choose the nearest rating above it.",
-  "explanation": "$I = P/V = 1000/220 = 4.54\\ \\text{A}$. The fuse must be rated just **above** this: $5\\ \\text{A}$. A $1\\ \\text{A}$ or $3\\ \\text{A}$ fuse would melt during normal use, and a $10\\ \\text{A}$ fuse would allow almost double the safe current before it melts, so it would not protect the iron."
+  "explanation": "$I = P/V = 1000/220 = 4.54\\ \\text{A}$. The fuse must be rated just **above** this: $5\\ \\text{A}$. A $1\\ \\text{A}$ or $3\\ \\text{A}$ fuse would melt during normal use, and a $10\\ \\text{A}$ fuse would allow more than double the normal current before it melts, so it would not protect the iron."
  },
  {
   "id": "in-cbse-10-phy-electricity-043",

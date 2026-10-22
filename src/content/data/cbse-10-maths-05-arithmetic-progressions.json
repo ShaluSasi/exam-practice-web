@@ -361,7 +361,7 @@
       "f"
     ],
     "hint": "Look at what the three graphs show about the sign of $d$.",
-    "explanation": "$d$ may be positive, negative or zero (falling, rising or level terms) and is found as **later term minus earlier term**, $a_{k+1}-a_k$. Writing earlier minus later reverses the sign. A list that has a last term is a **finite AP**; lists that go on for ever are infinite APs."
+    "explanation": "$d$ may be positive, negative or zero (rising, falling or level terms) and is found as **later term minus earlier term**, $a_{k+1}-a_k$. Writing earlier minus later reverses the sign. A list that has a last term is a **finite AP**; lists that go on for ever are infinite APs."
   },
   {
     "id": "in-cbse-10-math-ap-009",
@@ -974,7 +974,7 @@
     "prompt": "Put the steps in order to find how many terms the AP $5, 9, 13, \\dots, 101$ has.",
     "image": {
       "src": "/img/c10-ma-ap/flow-n.svg",
-      "alt": "Four boxes showing the steps to find how many terms"
+      "alt": "Three boxes showing the steps to find how many terms"
     },
     "items": [
       {
@@ -1025,7 +1025,7 @@
     "prompt": "Arrange the steps to find the **11th term from the last** of the AP $4, 9, 14, \\dots, 199$.",
     "image": {
       "src": "/img/c10-ma-ap/flow-last.svg",
-      "alt": "Four boxes showing the steps to find a term counted from the end"
+      "alt": "Three boxes showing the steps to find a term counted from the end"
     },
     "items": [
       {
@@ -1313,8 +1313,8 @@
     "type": "mcq",
     "prompt": "In an AP the first term is $5$ and the 11th term is $45$. Find the common difference $d$ and the sum of the first $11$ terms $S_{11}$.",
     "image": {
-      "src": "/img/c10-ma-ap/bars-ap10.svg",
-      "alt": "Bars of an AP"
+      "src": "/img/c10-ma-ap/bars-q29.svg",
+      "alt": "Eleven rising bars of an AP, the first marked 5 and the eleventh marked 45"
     },
     "options": [
       {
@@ -1350,7 +1350,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A job starts with a monthly salary of \u0001 and the monthly salary goes up by \u0002 every year. In which year does the monthly salary become ₹40,000?",
+    "prompt": "A job starts with a monthly salary of ₹22,000 and the monthly salary goes up by ₹1,500 every year. In which year does the monthly salary become ₹40,000?",
     "image": {
       "src": "/img/c10-ma-ap/salary-bars.svg",
       "alt": "Bars of salary rising each year"
@@ -1375,7 +1375,7 @@
     ],
     "answer": "d",
     "hint": "Solve $40000 = 22000 + (n-1)\\times 1500$.",
-    "explanation": "$18000 = (n-1)\\times1500$ gives $n - 1 = 12$ and $n = 13$. The number $12$ is only $n - 1$; $14$ comes from adding one too many; and $27$ comes from dividing $40000$ by $1500$, ignoring the starting salary."
+    "explanation": "$18000 = (n-1)\\times1500$ gives $n - 1 = 12$ and $n = 13$. The number $12$ is only $n - 1$; $14$ comes from adding one too many; and $27$ comes from dividing $40000$ by $1500$ ($\\approx 26.7$) and rounding up, ignoring the starting salary."
   },
   {
     "id": "in-cbse-10-math-ap-031",
@@ -1709,7 +1709,7 @@
     ],
     "answer": "b",
     "hint": "Pair the first and last terms, as in the picture.",
-    "explanation": "$S_n = \\dfrac{n(n+1)}{2}$, so $S_{200} = \\dfrac{200\\times201}{2} = 20100$. Forgetting the division by $2$ gives $40200$; $200\\times100 = 20000$ drops the $+1$; and $100\\times202 = 20200$ uses the wrong last number."
+    "explanation": "$S_n = \\dfrac{n(n+1)}{2}$, so $S_{200} = \\dfrac{200\\times201}{2} = 20100$. Forgetting the division by $2$ gives $40200$; $200\\times100 = 20000$ drops the $+1$; and $100\\times202 = 20200$ adds $2$ instead of $1$ to the last number."
   },
   {
     "id": "in-cbse-10-math-ap-037",
@@ -2069,8 +2069,8 @@
     "type": "mcq",
     "prompt": "How many terms of the AP $30, 27, 24, \\dots$ must be taken so that their sum is $135$?",
     "image": {
-      "src": "/img/c10-ma-ap/sn-parabola.svg",
-      "alt": "Graph of the sum of n terms of 30, 27, 24 and so on, with a dashed line at 135"
+      "src": "/img/c10-ma-ap/terms-30.svg",
+      "alt": "Bars of the terms 30, 27, 24 and so on, falling through zero to negative values"
     },
     "options": [
       {

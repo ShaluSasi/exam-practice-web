@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 350" role="img">
-<title>A computer screen with two circular icons A and B</title>
+<title>A computer screen with the centres A and B of two circular icons marked</title>
 <style>
 text{font-family:system-ui, sans-serif;font-weight:600;fill:#2B2F4A}.h{stroke:#FFF9EE;stroke-width:3px;paint-order:stroke}
-.ca,.cb{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.cb{animation-delay:1.5s}@keyframes pulse{50%{transform:scale(1.06)}}
+.ca,.cb{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.cb{animation-delay:1.5s}@keyframes pulse{50%{transform:scale(1.4)}}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
 <rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
-<rect x="18" y="12" width="424" height="324" rx="12" fill="#3A3F5C"/><rect x="30" y="24" width="400" height="300" fill="#F4F8FF"/><path d="M80 24V324M130 24V324M180 24V324M230 24V324M280 24V324M330 24V324M380 24V324M30 274H430M30 224H430M30 174H430M30 124H430M30 74H430" stroke="#DCE6F5"/><circle class="ca" cx="80" cy="249" r="40" fill="#FF8A1F" fill-opacity=".45" stroke="#FF8A1F" stroke-width="3"/><circle class="cb" cx="155" cy="209" r="50" fill="#0B93D4" fill-opacity=".35" stroke="#0B93D4" stroke-width="3"/><circle cx="80" cy="249" r="3.5" fill="#2B2F4A"/><circle cx="155" cy="209" r="3.5" fill="#2B2F4A"/><text class="h" x="86" y="244" font-size="13">A</text><text class="h" x="161" y="204" font-size="13">B</text><text class="h" x="33" y="320" font-size="12">O</text><text class="h" x="230" y="350" font-size="12" text-anchor="middle">800 px wide</text><text class="h" x="458" y="174" font-size="12" text-anchor="middle" transform="rotate(90 458 174)">600 px high</text>
+<rect x="18" y="12" width="424" height="324" rx="12" fill="#3A3F5C"/><rect x="30" y="24" width="400" height="300" fill="#F4F8FF"/><circle class="ca" cx="80" cy="249" r="6" fill="#FF8A1F" stroke="#fff" stroke-width="1.5"/><circle class="cb" cx="155" cy="209" r="6" fill="#0B93D4" stroke="#fff" stroke-width="1.5"/><text class="h" x="80" y="272" font-size="12" text-anchor="middle">A, r = 80</text><text class="h" x="155" y="196" font-size="12" text-anchor="middle">B, r = 100</text><text class="h" x="33" y="320" font-size="12">O</text><text class="h" x="230" y="347" font-size="12" text-anchor="middle">800 px wide</text><text class="h" x="458" y="174" font-size="12" text-anchor="middle" transform="rotate(90 458 174)">600 px high</text>
 </svg>

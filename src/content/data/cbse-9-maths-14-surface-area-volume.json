@@ -246,7 +246,7 @@
       }
     ],
     "answer": "face",
-    "hint": "A cube touching only one outer face must sit in the middle of a face, not on an edge or corner.",
+    "hint": "For each marked small cube, count how many outer faces of the big cube it touches.",
     "explanation": "Corner cubes touch three outer faces, edge cubes (not corners) touch two, and cubes in the interior of a face touch only one. On each face the inner $3 \\times 3$ block has one painted face, so there are $6 \\times 9 = 54$ such cubes."
   },
   {
@@ -483,7 +483,7 @@
     "prompt": "A tumbler is a cylinder of radius $7\\ \\text{cm}$ and height $10\\ \\text{cm}$, closed at the bottom and **open at the top**. What is the area of material in it? Use $\\pi = \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths14/tumbler.svg",
-      "alt": "A cylinder that is open at the top"
+      "alt": "A cylinder that is open at the top, with radius 7 cm and height 10 cm marked"
     },
     "options": [
       {
@@ -552,7 +552,7 @@
       "d"
     ],
     "hint": "The volume depends on $r^2$ and on $h$: multiply the factors.",
-    "explanation": "Volume scales by (radius factor)$^2 \\times$ (height factor). a: $1 \\times 2 = 2$. b: $2^2 \\times 1 = 4$. c: $2^2 \\times \\tfrac12 = 2$. d: $(\\sqrt2)^2 \\times 1 = 2$. e: $(\\tfrac12)^2 \\times 4 = 1$, so the volume is unchanged. Doubling the radius is the usual slip: it quadruples the volume."
+    "explanation": "Volume scales by (radius factor)$^2 \\times$ (height factor). Height doubled: $1 \\times 2 = 2$. Radius doubled: $2^2 \\times 1 = 4$. Radius doubled and height halved: $2^2 \\times \\tfrac12 = 2$. Radius times $\\sqrt2$: $(\\sqrt2)^2 \\times 1 = 2$. Radius halved and height times 4: $(\\tfrac12)^2 \\times 4 = 1$, so the volume is unchanged. Doubling the radius is the usual slip: it quadruples the volume."
   },
   {
     "id": "ma14-q014",
@@ -651,7 +651,7 @@
     },
     "items": [
       {
-        "id": "s4",
+        "id": "s3",
         "text": "Divide the cube volume by the rod volume"
       },
       {
@@ -659,29 +659,24 @@
         "text": "Note the cube edge and the rod radius and height"
       },
       {
-        "id": "s5",
+        "id": "s4",
         "text": "Round down to the number of complete rods"
       },
       {
-        "id": "s3",
-        "text": "Find the volume of one rod, $\\pi r^2 h$"
-      },
-      {
         "id": "s2",
-        "text": "Find the volume of the cube, $a^3$"
+        "text": "Find both volumes: the cube's $a^3$ and one rod's $\\pi r^2 h$"
       }
     ],
     "answer": [
       "s1",
       "s2",
       "s3",
-      "s4",
-      "s5"
+      "s4"
     ],
     "startLabel": "First",
     "endLabel": "Last",
     "hint": "Melting keeps the volume the same, so you need both volumes before dividing.",
-    "explanation": "Melting and recasting changes the shape but not the **volume**. So compute the cube's volume, then one rod's volume, divide, and take the whole-number part because a partly formed rod is not a rod."
+    "explanation": "Melting and recasting changes the shape but not the **volume**. So note the measurements, work out the cube's volume and one rod's volume, divide, and take the whole-number part because a partly formed rod is not a rod."
   },
   {
     "id": "ma14-q017",
@@ -950,7 +945,7 @@
     ],
     "answer": "a",
     "hint": "Halve the diameter first, then add the base circle.",
-    "explanation": "$r = 7\\ \\text{m}$. $\\text{TSA} = \\pi r(l + r) = \\dfrac{22}{7} \\times 7 \\times 32 = 704\\ \\text{m}^2$. $550$ is the curved part $\\pi r l$ only; $1100$ uses the diameter $14$ as the radius; $858$ adds the base circle twice ($\\pi r l + 2\\pi r^2$)."
+    "explanation": "$r = 7\\ \\text{m}$. $\\text{TSA} = \\pi r(l + r) = \\dfrac{22}{7} \\times 7 \\times 32 = 704\\ \\text{m}^2$. $550$ is the curved part $\\pi r l$ only; $1100$ puts the diameter $14$ in place of $r$ in $\\pi r l$; $858$ adds the base circle twice ($\\pi r l + 2\\pi r^2$)."
   },
   {
     "id": "ma14-q022",
@@ -1058,7 +1053,7 @@
       },
       {
         "id": "s1",
-        "text": "Notice that only the curved surface needs cloth"
+        "text": "Note $h$, $r$ and the tarpaulin width, and that only the curved surface needs cloth"
       },
       {
         "id": "s4",
@@ -1179,7 +1174,7 @@
     "assertion": "A cone and a cylinder have the same base radius and height. The cone holds exactly one third as much as the cylinder.",
     "reason": "The slant height $l$ of a cone satisfies $l^2 = h^2 + r^2$.",
     "answer": "b",
-    "hint": "Is the relation among $l$, $h$ and $r$ the reason behind the factor $\\tfrac13$?",
+    "hint": "Decide whether each statement is true on its own, then ask whether R is what makes A true.",
     "explanation": "Both statements are true. Pouring a cone of salt into the cylinder fills it exactly in three goes, so $V_\\text{cone} = \\tfrac13 \\pi r^2 h$. But $l^2 = h^2 + r^2$ is about the sloping side and has nothing to do with the $\\tfrac13$, so R does not explain A."
   },
   {
@@ -1335,7 +1330,7 @@
     "assertion": "For any pyramid, $V = \\tfrac13 \\times (\\text{area of base}) \\times \\text{height}$, whatever the shape of the base.",
     "reason": "A pyramid with a triangular base needs a different volume formula from one with a square base.",
     "answer": "c",
-    "hint": "The same formula is used for triangular, square or any other base.",
+    "hint": "Think about what actually changes between a triangular-based and a square-based pyramid when you find the volume.",
     "explanation": "A is true: the same formula works for any base, and a cone is just a pyramid with a circular base. R is false, since only the **base area** changes, not the formula. Surface area, however, is found by adding up the areas of all faces."
   },
   {
@@ -1665,7 +1660,7 @@
     ],
     "answer": "d",
     "hint": "Find $r$ from $2\\pi r = 35.2$, then the curved area, then convert $\\text{m}^2$ to $\\text{cm}^2$.",
-    "explanation": "$2 \\times \\dfrac{22}{7} \\times r = 35.2$ gives $r = 5.6\\ \\text{m}$. Only the curved surface is painted: $2\\pi r^2 = 2 \\times \\dfrac{22}{7} \\times 31.36 = 197.12\\ \\text{m}^2 = 19,71,200\\ \\text{cm}^2$. Cost $= 19712 \\times 10 = ₹1,97,120$. Using $3\\pi r^2$ (with the base) or $4\\pi r^2$ (a full sphere) overcounts, and treating $1\\ \\text{m}^2$ as $100\\ \\text{cm}^2$ gives ₹1,971.20."
+    "explanation": "$2 \\times \\dfrac{22}{7} \\times r = 35.2$ gives $r = 5.6\\ \\text{m}$. Only the curved surface is painted: $2\\pi r^2 = 2 \\times \\dfrac{22}{7} \\times 31.36 = 197.12\\ \\text{m}^2 = 1971200\\ \\text{cm}^2$. Cost $= \\dfrac{1971200}{100} \\times 10 = 197120$, i.e. ₹1,97,120. Using $3\\pi r^2$ (with the base) or $4\\pi r^2$ (a full sphere) overcounts, and treating $1\\ \\text{m}^2$ as $100\\ \\text{cm}^2$ gives ₹1,971.20."
   },
   {
     "id": "ma14-q039",
@@ -1883,7 +1878,7 @@
     ],
     "answer": "c",
     "hint": "The diameter is $6\\ \\text{cm}$. Convert metres to centimetres and count along each direction.",
-    "explanation": "Diameter $= 6\\ \\text{cm}$. Along the length $1200 \\div 6 = 200$, width $900 \\div 6 = 150$, height $300 \\div 6 = 50$. Total $= 200 \\times 150 \\times 50 = 15,00,000$ balls. Dividing room volume by ball volume gives about $28,64,789$, but that is only an **upper bound** because spheres leave gaps. Using the radius $3\\ \\text{cm}$ as the spacing gives $1,20,00,000$, which is far too many."
+    "explanation": "Diameter $= 6\\ \\text{cm}$. Along the length $1200 \\div 6 = 200$, width $900 \\div 6 = 150$, height $300 \\div 6 = 50$. Total $= 200 \\times 150 \\times 50 =$ 15,00,000 balls. Dividing room volume by ball volume gives about 28,64,789, but that is only an **upper bound** because spheres leave gaps. Using the radius $3\\ \\text{cm}$ as the spacing gives 1,20,00,000, which is far too many."
   },
   {
     "id": "ma14-q044",
@@ -1973,7 +1968,7 @@
     ],
     "answer": "a",
     "hint": "Halve the diameter to get the radius, then convert $\\text{cm}^3$ to litres at the end.",
-    "explanation": "$r = 3.5\\ \\text{cm}$. One glass: $\\pi r^2 h = \\dfrac{22}{7} \\times 12.25 \\times 12 = 462\\ \\text{cm}^3$. For $1600$: $462 \\times 1600 = 7,39,200\\ \\text{cm}^3 = 739.2$ litres. Using $7$ as the radius gives $2956.8$, a decimal slip gives $7392$, and $7,39,200$ forgets to convert to litres."
+    "explanation": "$r = 3.5\\ \\text{cm}$. One glass: $\\pi r^2 h = \\dfrac{22}{7} \\times 12.25 \\times 12 = 462\\ \\text{cm}^3$. For $1600$: $462 \\times 1600 = 739200\\ \\text{cm}^3 = 739.2$ litres. Using $7$ as the radius gives $2956.8$, a decimal slip gives $7392$, and 7,39,200 forgets to convert to litres."
   },
   {
     "id": "ma14-q046",
@@ -1990,7 +1985,7 @@
     "prompt": "A cylindrical glass of height $25\\ \\text{cm}$ and radius $4\\ \\text{cm}$ has water up to $16\\ \\text{cm}$. A crow can drink only when the water reaches $20\\ \\text{cm}$. It drops in marbles of radius $1\\ \\text{cm}$. How many marbles are needed?",
     "image": {
       "src": "/img/maths14/crow.svg",
-      "alt": "A tall glass of water with marbles dropping in and a crow waiting"
+      "alt": "A tall glass of water with marbles at the bottom and the 16 cm and 20 cm levels marked"
     },
     "options": [
       {
@@ -2051,7 +2046,7 @@
     ],
     "answer": "b",
     "hint": "Equate $4\\pi(5)^2 = 5\\pi r l$ to find the slant height first.",
-    "explanation": "$4\\pi \\cdot 25 = 100\\pi = 5 \\cdot \\pi \\cdot 4 \\cdot l$ gives $l = 5$. Then $h = \\sqrt{l^2 - r^2} = \\sqrt{25 - 16} = 3\\ \\text{cm}$ and $V = \\tfrac13 \\pi \\cdot 16 \\cdot 3 = 16\\pi\\ \\text{cm}^3$. Taking $l = 5$ as the height, forgetting the $\\tfrac13$ ($48\\pi$), or swapping $h$ with $r$ are the traps."
+    "explanation": "$4\\pi \\cdot 25 = 100\\pi = 5 \\cdot \\pi \\cdot 4 \\cdot l$ gives $l = 5$. Then $h = \\sqrt{l^2 - r^2} = \\sqrt{25 - 16} = 3\\ \\text{cm}$ and $V = \\tfrac13 \\pi \\cdot 16 \\cdot 3 = 16\\pi\\ \\text{cm}^3$. The traps: taking the slant height $5$ as the height gives $\\tfrac{80\\pi}{3}$, forgetting the $\\tfrac13$ gives $48\\pi$, and taking the height equal to the radius $4$ gives $\\tfrac{64\\pi}{3}$."
   },
   {
     "id": "ma14-q048",
@@ -2065,7 +2060,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Take Earth as a sphere of radius $6370\\ \\text{km}$ and Jupiter as a sphere of radius $69,900\\ \\text{km}$. About how many times is Jupiter's **volume** the volume of the Earth?",
+    "prompt": "Take Earth as a sphere of radius $6370\\ \\text{km}$ and Jupiter as a sphere of radius $69900\\ \\text{km}$. About how many times is Jupiter's **volume** the volume of the Earth?",
     "image": {
       "src": "/img/maths14/planets.svg",
       "alt": "Earth, Jupiter and the Sun drawn as circles of different sizes"

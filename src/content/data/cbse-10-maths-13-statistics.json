@@ -288,7 +288,7 @@
     "prompt": "Put the steps of the **direct method** for the mean of grouped data in the correct order.",
     "image": {
       "src": "/img/c10-ma-statistics/flow-direct.svg",
-      "alt": "Four boxes joined by arrows with a dot moving along a line below them"
+      "alt": "Four boxes joined by arrows, each hiding a step behind a question mark"
     },
     "items": [
       {
@@ -334,7 +334,7 @@
     "prompt": "Match each **method or measure** with its formula.",
     "image": {
       "src": "/img/c10-ma-statistics/toolkit.svg",
-      "alt": "Five coloured formula cards stacked in a list"
+      "alt": "Three small pictures for the mean, the mode and the median: a balance, a set of bars with the tallest one orange, and a row of dots with the middle one highlighted"
     },
     "left": [
       {
@@ -614,7 +614,7 @@
     ],
     "answer": "r2",
     "hint": "The median class is the first class whose cumulative frequency is larger than $\\dfrac{n}{2}$.",
-    "explanation": "$n=50$ so $\\dfrac{n}{2}=25$. The cumulative frequencies are 4, 13, 28, 40, 46, 50. The first one greater than 25 is 28, which belongs to $25\\text{--}30$, the median class. The class with the biggest frequency is the modal class, which can be a different row."
+    "explanation": "$n=50$ so $\\dfrac{n}{2}=25$. The cumulative frequencies are 4, 13, 28, 40, 46, 50. The first one greater than 25 is 28, which belongs to $25\\text{--}30$, the median class. Here this row also has the biggest frequency, but that is a coincidence: the modal class and the median class are found in different ways and are often different rows."
   },
   {
     "id": "in-cbse-10-math-statistics-014",
@@ -709,7 +709,7 @@
     "prompt": "This less than ogive has $n=40$. Tap the point on the curve that gives the **median**.",
     "image": {
       "src": "/img/c10-ma-statistics/ogive-hot.svg",
-      "alt": "A rising less than ogive through six upper-limit points with numbered axes"
+      "alt": "A rising less than ogive through seven plotted points with numbered axes"
     },
     "spots": [
       {
@@ -1297,7 +1297,7 @@
       },
       {
         "id": "axes",
-        "text": "Mark upper limits on the $x$-axis and cumulative frequency on the $y$-axis"
+        "text": "Choose the scales: upper limits along the $x$-axis and a $y$-scale that fits the largest cumulative frequency in the table"
       }
     ],
     "answer": [
@@ -1308,8 +1308,8 @@
     ],
     "startLabel": "First",
     "endLabel": "Last",
-    "hint": "You need numbers before you can plot, and points before you can join them.",
-    "explanation": "Make the **less than cumulative frequency** table first, set up the axes (upper class limits along $x$, cumulative frequency up $y$; the scales need not be equal), plot each pair (upper limit, cf), then join the points with a smooth rising curve: the **ogive**."
+    "hint": "The $y$-scale depends on the cumulative frequencies, and you need points before you can join them.",
+    "explanation": "Make the **less than cumulative frequency** table first, choose the scales from it (upper class limits along $x$, and a $y$-scale that fits the largest cumulative frequency; the scales need not be equal), plot each pair (upper limit, cf), then join the points with a smooth rising curve: the **ogive**."
   },
   {
     "id": "in-cbse-10-math-statistics-032",
@@ -1372,7 +1372,7 @@
     "prompt": "Arrange the steps of the **step-deviation method** in the correct order.",
     "image": {
       "src": "/img/c10-ma-statistics/flow-step.svg",
-      "alt": "Four boxes joined by arrows: choose a, find d, divide to get u, sum the products"
+      "alt": "Four boxes joined by arrows, each hiding a step behind a question mark"
     },
     "items": [
       {
@@ -1833,7 +1833,7 @@
     ],
     "answer": "d",
     "hint": "A less than ogive never goes down, and its slope shows each class frequency.",
-    "explanation": "The cumulative frequencies are 3, 8, 18, 33, 40, so the curve starts gently (small first frequencies), is steepest over the fourth class (frequency 15) and flattens at the end. Graph 1 plots the frequencies themselves (it falls), Graph 2 is a **more than** ogive (falling), and Graph 3 comes from the frequencies in the reverse class order."
+    "explanation": "The cumulative frequencies are 3, 8, 18, 33, 40, so the curve starts gently (small first frequencies), is steepest over the fourth class (frequency 15) and flattens at the end. Graph 1 plots the frequencies themselves (it rises and then falls), Graph 2 is a **more than** ogive (falling), and Graph 3 comes from the frequencies in the reverse class order."
   },
   {
     "id": "in-cbse-10-math-statistics-042",
@@ -2060,7 +2060,7 @@
     ],
     "answer": "a",
     "hint": "When there is no preceding class, its frequency is $f_0=0$.",
-    "explanation": "The modal class is $10\\text{--}20$ with $f_1=18$, $f_2=16$ and $f_0=0$ (no class before it). Mode $=10+\\dfrac{18-0}{2(18)-0-16}\\times 10=19$. Choosing the class mark (15) or the lower limit (10) ignores the neighbouring frequency, and using $f_2$ with the wrong sign gives $11$."
+    "explanation": "The modal class is $10\\text{--}20$ with $f_1=18$, $f_2=16$ and $f_0=0$ (no class before it). Mode $=10+\\dfrac{18-0}{2(18)-0-16}\\times 10=19$. Choosing the class mark (15) or the lower limit (10) ignores the neighbouring frequency, and putting the next class frequency 16 in place of $f_0$ (with $f_2=0$) gives $10+\\dfrac{18-16}{36-16}\\times 10=11$."
   },
   {
     "id": "in-cbse-10-math-statistics-047",
@@ -2248,7 +2248,7 @@
     "prompt": "This less than ogive is drawn for 50 observations. Tap the point that shows **how many observations are less than 40**.",
     "image": {
       "src": "/img/c10-ma-statistics/ogive-pt.svg",
-      "alt": "A rising less than ogive with six plotted points and numbered axes"
+      "alt": "A rising less than ogive through seven plotted points with numbered axes"
     },
     "spots": [
       {

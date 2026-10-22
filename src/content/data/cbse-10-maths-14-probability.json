@@ -929,7 +929,7 @@
     ],
     "answer": "a",
     "hint": "Which shirts will she accept? Add the groups she does not reject.",
-    "explanation": "She rejects only the $4$ shirts with major defects, so she accepts $88 + 8 = 96$ shirts and $P = \\dfrac{96}{100} = 0.96$. The value $0.88$ is what the strict trader Jimmy accepts, $0.04$ is $P(\\text{major defect})$, and $0.92$ adds the major defects instead of the minor ones."
+    "explanation": "She rejects only the $4$ shirts with major defects, so she accepts $88 + 8 = 96$ shirts and $P = \\dfrac{96}{100} = 0.96$. The value $0.88$ counts only the good shirts (what a trader who accepts only good shirts would get), $0.04$ is $P(\\text{major defect})$, and $0.92$ adds the major defects instead of the minor ones."
   },
   {
     "id": "in-cbse-10-math-probability-023",
@@ -1520,7 +1520,7 @@
     ],
     "answer": "c",
     "hint": "Count the winning outcomes among the 8 and use the complement.",
-    "explanation": "There are $2 \\times 2 \\times 2 = 8$ equally likely outcomes. Hanif wins only with $HHH$ or $TTT$, so $P(\\text{win}) = \\dfrac{2}{8} = \\dfrac{1}{4}$ and $P(\\text{loses}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$. The option $\\tfrac{1}{4}$ is the probability of winning, and $\\tfrac{1}{8}$ counts a single outcome."
+    "explanation": "There are $2 \\times 2 \\times 2 = 8$ equally likely outcomes. Hanif wins only with $HHH$ or $TTT$, so $P(\\text{win}) = \\dfrac{2}{8} = \\dfrac{1}{4}$ and $P(\\text{loses}) = 1 - \\dfrac{1}{4} = \\dfrac{3}{4}$. The option $\\tfrac{1}{4}$ is the probability of winning, $\\tfrac{1}{8}$ counts a single outcome, and $\\tfrac{1}{2}$ wrongly treats win and lose as equally likely."
   },
   {
     "id": "in-cbse-10-math-probability-035",
@@ -1536,8 +1536,8 @@
     "type": "hotspot",
     "prompt": "Tap the outcome in which the **first coin is tail, the second is tail and the third is head**.",
     "image": {
-      "src": "/img/c10-ma-probability/tree3.svg",
-      "alt": "A tree diagram of the eight outcomes of three coin tosses"
+      "src": "/img/c10-ma-probability/tree3-hs.svg",
+      "alt": "A tree diagram of three coin tosses with the eight outcome boxes left blank"
     },
     "spots": [
       {
@@ -1547,10 +1547,22 @@
         "label": "Outcome HHH"
       },
       {
+        "id": "o1",
+        "x": 72.5,
+        "y": 20.8,
+        "label": "Outcome HHT"
+      },
+      {
         "id": "o2",
         "x": 72.5,
         "y": 32.3,
         "label": "Outcome HTH"
+      },
+      {
+        "id": "o3",
+        "x": 72.5,
+        "y": 43.8,
+        "label": "Outcome HTT"
       },
       {
         "id": "o4",
@@ -1559,15 +1571,27 @@
         "label": "Outcome THH"
       },
       {
+        "id": "o5",
+        "x": 72.5,
+        "y": 66.9,
+        "label": "Outcome THT"
+      },
+      {
         "id": "o6",
         "x": 72.5,
         "y": 78.5,
         "label": "Outcome TTH"
+      },
+      {
+        "id": "o7",
+        "x": 72.5,
+        "y": 90.0,
+        "label": "Outcome TTT"
       }
     ],
     "answer": "o6",
     "hint": "Follow the branches T, then T, then H.",
-    "explanation": "Follow the path $T \\to T \\to H$ from the start: the leaf at the end reads $TTH$. Each of the $8$ leaves is an equally likely outcome, so $P(TTH) = \\dfrac{1}{8}$. Leaves such as $HTH$ or $THH$ share some of the same tosses but differ in at least one position."
+    "explanation": "Follow the path $T \\to T \\to H$ from the start: it ends at the seventh box from the top, the outcome $TTH$. Each of the $8$ leaves is an equally likely outcome, so $P(TTH) = \\dfrac{1}{8}$. Leaves such as $HTH$ or $THH$ share some of the same tosses but differ in at least one position."
   },
   {
     "id": "in-cbse-10-math-probability-036",
@@ -1606,7 +1630,7 @@
     ],
     "answer": "c",
     "hint": "Count pairs containing a 5 in either place, but count (5, 5) only once. Or use the complement.",
-    "explanation": "Pairs with no $5$: $5 \\times 5 = 25$, so pairs with at least one $5$ number $36 - 25 = 11$ and $P = \\dfrac{11}{36}$. The option $\\tfrac{25}{36}$ is the probability of no $5$ at all, $\\tfrac{10}{36}$ forgets $(5,5)$, and $\\tfrac{12}{36}$ counts $(5,5)$ twice ($6 + 6$)."
+    "explanation": "Pairs with no $5$: $5 \\times 5 = 25$, so pairs with at least one $5$ number $36 - 25 = 11$ and $P = \\dfrac{11}{36}$. The option $\\tfrac{25}{36}$ is the probability of no $5$ at all, $\\tfrac{5}{18} = \\tfrac{10}{36}$ forgets $(5,5)$, and $\\tfrac{1}{3} = \\tfrac{12}{36}$ counts $(5,5)$ twice ($6 + 6$)."
   },
   {
     "id": "in-cbse-10-math-probability-037",
@@ -1689,7 +1713,7 @@
       },
       {
         "id": "c",
-        "text": "A bag has 1 red and 4 blue balls. There are two colours, so $P(\\text{red}) = \\dfrac{1}{2}$."
+        "text": "A bag has 4 red balls and 1 blue ball. There are two colours, so $P(\\text{red}) = \\dfrac{1}{2}$."
       },
       {
         "id": "d",
@@ -1705,7 +1729,7 @@
       "d"
     ],
     "hint": "The formula works only when the listed outcomes are equally likely.",
-    "explanation": "Odd and even are equally likely on a fair die (3 faces each), and each sector of the equal spinner is equally likely, so those two arguments hold. Two coins have four equally likely outcomes ($HH, HT, TH, TT$), so one head and one tail has probability $\\tfrac{1}{2}$, not $\\tfrac{1}{3}$. Red is less likely than blue in the bag ($\\tfrac{1}{5}$), and the 11 sums are not equally likely ($P(7) = \\tfrac{1}{6}$)."
+    "explanation": "Odd and even are equally likely on a fair die (3 faces each), and each sector of the equal spinner is equally likely, so those two arguments hold. Two coins have four equally likely outcomes ($HH, HT, TH, TT$), so one head and one tail has probability $\\tfrac{1}{2}$, not $\\tfrac{1}{3}$. Red is more likely than blue in the bag ($\\tfrac{4}{5}$), and the 11 sums are not equally likely ($P(7) = \\tfrac{1}{6}$)."
   },
   {
     "id": "in-cbse-10-math-probability-039",
@@ -2123,10 +2147,10 @@
       "alt": "A bag with four red balls and one blue ball"
     },
     "assertion": "A ball is drawn at random from a bag with 4 red balls and 1 blue ball. The probability that it is red is $\\dfrac{4}{5}$.",
-    "reason": "The outcomes \"red\" and \"blue\" are not equally likely.",
+    "reason": "The probability of an impossible event is $0$.",
     "answer": "b",
-    "hint": "Does the reason give the way the number $\\dfrac{4}{5}$ is calculated?",
-    "explanation": "A is true: $5$ balls are equally likely to be drawn and $4$ are red, so $P = \\tfrac{4}{5}$. R is also true, but it does not explain the calculation. The $\\tfrac{4}{5}$ comes from counting the equally likely **balls**, not from the colours."
+    "hint": "Check each statement on its own, then ask whether R has anything to do with drawing a red ball.",
+    "explanation": "A is true: $5$ balls are equally likely to be drawn and $4$ are red, so $P = \\tfrac{4}{5}$. R is also true (an impossible event has no favourable outcomes), but it says nothing about this bag, so it does not explain A. The $\\tfrac{4}{5}$ comes from counting the equally likely **balls**."
   },
   {
     "id": "in-cbse-10-math-probability-048",

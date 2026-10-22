@@ -65,7 +65,7 @@
   "prompt": "Which list classifies **every** mixture correctly as homogeneous (Hm) or heterogeneous (Ht)?",
   "image": {
    "src": "/img/mixtures/mixture-icons.svg",
-   "alt": "A glass of muddy water, a glass of milk, a drop of blood and a brass bell"
+   "alt": "Smoke from a chimney, a glass of milk, a bottle of vinegar and a brass bell"
   },
   "options": [
    {
@@ -224,7 +224,7 @@
   ],
   "answer": "a",
   "hint": "Mass of solution = mass of solute + mass of solvent.",
-  "explanation": "Mass of solution $= 15\\ \\text{g} + 60\\ \\text{g} = 75\\ \\text{g}$. $$\\%\\ \\text{m/m} = \\dfrac{\\text{mass of solute}}{\\text{mass of solution}} \\times 100 = \\dfrac{15}{75} \\times 100 = 20\\%$$ Dividing by the water alone (60 g) gives the trap answer 25%, and turning the fraction upside down gives 400%. 15% just repeats the mass of sugar, which would only be right if the solution weighed exactly 100 g."
+  "explanation": "Mass of solution $= 15\\ \\text{g} + 60\\ \\text{g} = 75\\ \\text{g}$. $$\\%\\ \\text{m/m} = \\dfrac{\\text{mass of solute}}{\\text{mass of solution}} \\times 100 = \\dfrac{15}{75} \\times 100 = 20\\%$$ Dividing by the water alone (60 g) gives the trap answer 25%, and dividing the water by the sugar ($\\dfrac{60}{15} \\times 100$) gives 400%. 15% just repeats the mass of sugar, which would only be right if the solution weighed exactly 100 g."
  },
  {
   "id": "in-cbse-9-chem-mixtures-006",
@@ -302,7 +302,7 @@
   ],
   "answer": "c",
   "hint": "0.9% m/v means 0.9 g of solute in every 100 mL of solution.",
-  "explanation": "**Mass by volume percentage** gives the grams of solute in 100 mL of solution. Here that is 0.9 g in every 100 mL, so $\\text{mass} = \\dfrac{0.9 \\times 500}{100} = 4.5\\ \\text{g}$. 0.9 g is the salt in only 100 mL. 45 g forgets to divide by 100, and 0.45 g divides by 1000 instead. 0.9% saline is safe for blood and replaces fluids the body has lost."
+  "explanation": "**Mass by volume percentage** gives the grams of solute in 100 mL of solution. Here that is 0.9 g in every 100 mL, so $\\text{mass} = \\dfrac{0.9 \\times 500}{100} = 4.5\\ \\text{g}$. 0.9 g is the salt in only 100 mL. 45 g divides by 10 instead of 100, and 0.45 g divides by 1000 instead. 0.9% saline is safe for blood and replaces fluids the body has lost."
  },
  {
   "id": "in-cbse-9-chem-mixtures-008",
@@ -520,14 +520,14 @@
    {
     "id": "a20",
     "x": 33.33,
-    "y": 72,
-    "label": "Compound A at 20 °C (about 66 g)"
+    "y": 77.44,
+    "label": "Compound A at 20 °C (about 37 g)"
    },
    {
     "id": "a60",
     "x": 71.43,
-    "y": 66.38,
-    "label": "Compound A at 60 °C (about 96 g)"
+    "y": 73.69,
+    "label": "Compound A at 60 °C (about 57 g)"
    },
    {
     "id": "b20",
@@ -550,7 +550,7 @@
   ],
   "answer": "a20",
   "hint": "The lower a point sits on the graph, the less solute dissolves.",
-  "explanation": "The y-axis shows **solubility** in g per 100 g of water. Curve A lies well below curve B, and both curves rise with temperature, so the lowest point marked is **A at 20 °C** (about 66 g). B at 60 °C (287 g) holds the most. The solubility of most solids rises as the temperature rises, and B's rises much faster than A's."
+  "explanation": "The y-axis shows **solubility** in g per 100 g of water. Curve A lies well below curve B, and both curves rise with temperature, so the lowest point marked is **A at 20 °C** (about 37 g). B at 60 °C (287 g) holds the most. The solubility of most solids rises as the temperature rises, and B's rises much faster than A's."
  },
  {
   "id": "in-cbse-9-chem-mixtures-014",
@@ -1944,7 +1944,7 @@
    }
   ],
   "answer": "plasma",
-  "hint": "Plasma is the lightest part, a pale yellow liquid.",
+  "hint": "Spinning sends the heaviest parts of blood to the bottom. Where would the lightest, liquid part end up?",
   "explanation": "Spinning drives the heavier **red blood cells** to the bottom. A thin white band of platelets and white blood cells sits above them, and the lighter, pale yellow **plasma** rises to the top. Blood banks separate donated blood into these components and store them for patients who need transfusions. The body replaces donated blood within a few weeks, so donating is safe."
  },
  {

@@ -74,7 +74,7 @@
    },
    {
     "id": "c",
-    "text": "12825"
+    "text": "8815"
    },
    {
     "id": "d",
@@ -83,7 +83,7 @@
   ],
   "answer": "d",
   "hint": "Write the carry each time a column total reaches 10 or more.",
-  "explanation": "Units: $7 + 8 = 15$, write $5$, carry $1$. Tens: $5 + 6 + 1 = 12$, write $2$, carry $1$. Hundreds: $8 + 9 + 1 = 18$, write $8$, carry $1$. Thousands: $4 + 3 + 1 = 8$. Answer $8825$. $7715$ is what you get by forgetting every carry; $8725$ forgets the carry into the hundreds; $12825$ writes each column total without carrying."
+  "explanation": "Units: $7 + 8 = 15$, write $5$, carry $1$. Tens: $5 + 6 + 1 = 12$, write $2$, carry $1$. Hundreds: $8 + 9 + 1 = 18$, write $8$, carry $1$. Thousands: $4 + 3 + 1 = 8$. Answer $8825$. $7715$ is what you get by forgetting every carry; $8725$ forgets the carry into the hundreds; $8815$ forgets the carry from the units column into the tens."
  },
  {
   "region": "IN",
@@ -161,7 +161,7 @@
   ],
   "answer": "b",
   "hint": "Take the biggest digit twice, and add the biggest possible carry.",
-  "explanation": "The biggest digit is $9$ and the biggest carry is $1$, so the largest column total is $9 + 9 + 1 = 19$. Writing the units digit $9$ and carrying $1$ shows the carry can never be more than $1$. $18$ forgets the incoming carry; $20$ and $10$ do not come from any real column."
+  "explanation": "The biggest digit is $9$ and the biggest carry is $1$, so the largest column total is $9 + 9 + 1 = 19$. Writing the units digit $9$ and carrying $1$ shows the carry can never be more than $1$. $18$ forgets the incoming carry; $20$ would need a carry of $2$, which never happens; $10$ is a possible column total (for example $5 + 5$) but not the largest."
  },
  {
   "region": "IN",
@@ -312,7 +312,7 @@
    }
   ],
   "answer": "b",
-  "hint": "5-digit numbers are about 100 times as big as 3-digit numbers.",
+  "hint": "Each extra digit makes a number about 10 times as big, but adds just one column.",
   "explanation": "A 5-digit number is about $10 \\times 10 = 100$ times a 3-digit number, so counting out dots takes $100$ times as long. The column method just adds $5 - 3 = 2$ more columns. Mixing up a factor of $10$ (one more digit) with $100$ (two more digits) is the common slip."
  },
  {
@@ -352,7 +352,7 @@
   ],
   "answer": "a",
   "hint": "Line up the decimal points, so that tenths sit under tenths. Write 8.5 as 8.50.",
-  "explanation": "Aligned: $12.75 + 8.50$. Hundredths $5+0=5$; tenths $7+5=12$ (write 2, carry 1); ones $2+8+1=11$ (write 1, carry 1); tens $1+1=2$. Result $21.25$. $13.60$ comes from right-aligning the digits ($1275 + 85$); $20.80$ reads $8.5$ as $8.05$; $20.25$ loses the carry."
+  "explanation": "Aligned: $12.75 + 8.50$. Hundredths $5+0=5$; tenths $7+5=12$ (write 2, carry 1); ones $2+8+1=11$ (write 1, carry 1); tens $1+1=2$. Result $21.25$. $13.60$ comes from right-aligning the digits ($1275 + 85$); $20.80$ reads $8.5$ as $8.05$; $20.25$ loses the carry from the tenths column into the ones."
  },
  {
   "region": "IN",

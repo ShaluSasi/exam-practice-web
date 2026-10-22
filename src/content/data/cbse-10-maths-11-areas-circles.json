@@ -68,8 +68,8 @@
     "type": "mcq",
     "prompt": "A chord divides a circle into two segments. Which figure shows the **major segment**?",
     "image": {
-      "src": "/img/c10-ma-areas-circles/seg-major.svg",
-      "alt": "A circle with a chord cutting off a small piece and the large part shaded"
+      "src": "/img/c10-ma-areas-circles/seg-scene.svg",
+      "alt": "A circle with centre O and a chord AB below the centre"
     },
     "options": [
       {
@@ -302,7 +302,7 @@
     ],
     "answer": "c",
     "hint": "The minute hand turns $360^\\circ$ in $60$ minutes. How many degrees is $1$ minute?",
-    "explanation": "In $60$ minutes the hand turns $360^\\circ$, so in $10$ minutes it turns $60^\\circ$. Area $=\\dfrac{60}{360}\\times\\dfrac{22}{7}\\times 21\\times 21 = 231$ cm$^2$. Taking $10$ minutes as $10^\\circ$ gives $38.5$; using $30^\\circ$ per unit (hour hand idea) gives $300^\\circ$ and $1155$; using the diameter $42$ gives $924$."
+    "explanation": "In $60$ minutes the hand turns $360^\\circ$, so in $10$ minutes it turns $60^\\circ$. Area $=\\dfrac{60}{360}\\times\\dfrac{22}{7}\\times 21\\times 21 = 231$ cm$^2$. Taking $10$ minutes as $10^\\circ$ gives $38.5$; taking each minute as $30^\\circ$ (the angle between two numbers on the dial) gives $300^\\circ$ and $1155$; using the diameter $42$ gives $924$."
   },
   {
     "id": "in-cbse-10-math-areascircles-008",
@@ -770,7 +770,7 @@
     ],
     "answer": "b",
     "hint": "Each blade sweeps one sector; there are two of them.",
-    "explanation": "One wiper sweeps $\\dfrac{100}{360}\\times\\dfrac{22}{7}\\times21^2=385$ cm$^2$. Two wipers give $2\\times385=770$ cm$^2$. Counting one wiper gives $385$, using $\\theta/180$ gives $1540$, and one full circle gives $1386$."
+    "explanation": "One wiper sweeps $\\dfrac{100}{360}\\times\\dfrac{22}{7}\\times21^2=385$ cm$^2$. Two wipers give $2\\times385=770$ cm$^2$. Counting one wiper gives $385$, using $\\theta/180$ for both wipers gives $1540$, and one full circle gives $1386$."
   },
   {
     "id": "in-cbse-10-math-areascircles-020",
@@ -915,7 +915,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **major sector** of this circle.",
+    "prompt": "Radii $OA$ and $OB$ make an angle of $120^\\circ$ at $O$. Tap the **major sector** of this circle.",
     "image": {
       "src": "/img/c10-ma-areas-circles/sector-scene.svg",
       "alt": "A circle with centre O and two radii OA and OB"
@@ -968,7 +968,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The length of an arc of a sector is $\\dfrac{\\theta}{360}\\times2\\pi r$. Tap the **arc** that belongs to the **minor sector** $OAB$.",
+    "prompt": "Radii $OA$ and $OB$ make an angle of $120^\\circ$ at $O$. The length of an arc of a sector is $\\dfrac{\\theta}{360}\\times2\\pi r$. Tap the **arc** that belongs to the **minor sector** $OAB$.",
     "image": {
       "src": "/img/c10-ma-areas-circles/sector-scene.svg",
       "alt": "A circle with centre O and two radii OA and OB"
@@ -1030,7 +1030,7 @@
       {
         "id": "minseg",
         "x": 50.0,
-        "y": 75.4,
+        "y": 82.1,
         "label": "Minor segment"
       },
       {
@@ -1042,7 +1042,7 @@
       {
         "id": "chord",
         "x": 50.0,
-        "y": 57.5,
+        "y": 70.8,
         "label": "Chord AB"
       },
       {
@@ -1083,7 +1083,7 @@
       {
         "id": "minseg",
         "x": 50.0,
-        "y": 75.4,
+        "y": 82.1,
         "label": "Minor segment"
       },
       {
@@ -1095,7 +1095,7 @@
       {
         "id": "chord",
         "x": 50.0,
-        "y": 57.5,
+        "y": 70.8,
         "label": "Chord AB"
       },
       {
@@ -1136,7 +1136,7 @@
       {
         "id": "minseg",
         "x": 50.0,
-        "y": 75.4,
+        "y": 82.1,
         "label": "Minor segment"
       },
       {
@@ -1148,7 +1148,7 @@
       {
         "id": "chord",
         "x": 50.0,
-        "y": 57.5,
+        "y": 70.8,
         "label": "Chord AB"
       },
       {
@@ -1602,31 +1602,31 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "order",
-    "prompt": "Arrange the steps for finding the area of a minor segment of a circle of radius $r$ with angle $120^\\circ$.",
+    "prompt": "The area of sector $OAYB$, $\\dfrac{120}{360}\\pi r^2$, has been found for a circle of radius $r$ with $\\angle AOB=120^\\circ$. Arrange the remaining steps for finding the area of the minor segment $AYB$.",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-120.svg",
       "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
     },
     "items": [
       {
-        "id": "e",
-        "text": "Subtract the area of the triangle from the area of the sector"
-      },
-      {
-        "id": "b",
-        "text": "Draw $OM\\perp AB$ and note $\\angle AOM=60^\\circ$"
-      },
-      {
-        "id": "a",
-        "text": "Find the area of sector $OAYB$"
-      },
-      {
         "id": "d",
         "text": "Find the area of $\\triangle OAB=\\tfrac12\\times AB\\times OM$"
       },
       {
+        "id": "a",
+        "text": "Draw $OM\\perp AB$ and note $\\angle AOM=60^\\circ$"
+      },
+      {
+        "id": "e",
+        "text": "Subtract the area of $\\triangle OAB$ from the area of sector $OAYB$"
+      },
+      {
         "id": "c",
-        "text": "Use $\\cos60^\\circ$ and $\\sin60^\\circ$ to get $OM$ and $AM$, then $AB=2AM$"
+        "text": "Find $AB=2AM$"
+      },
+      {
+        "id": "b",
+        "text": "Use $\\cos60^\\circ$ and $\\sin60^\\circ$ to get $OM=r\\cos60^\\circ$ and $AM=r\\sin60^\\circ$"
       }
     ],
     "answer": [
@@ -1638,8 +1638,8 @@
     ],
     "startLabel": "First step",
     "endLabel": "Last step",
-    "hint": "You need both $OM$ and $AB$ before the triangle area.",
-    "explanation": "First the **sector** area, then draw $OM\\perp AB$ ($M$ is the midpoint of $AB$ by RHS congruence), find $OM=r\\cos60^\\circ$ and $AM=r\\sin60^\\circ$, then the **triangle** area, and finally **subtract**: segment $=$ sector $-$ triangle."
+    "hint": "You need $AM$ before $AB$, and both $OM$ and $AB$ before the triangle area.",
+    "explanation": "Draw $OM\\perp AB$ ($M$ is the midpoint of $AB$ by RHS congruence, so $\\angle AOM=60^\\circ$), find $OM=r\\cos60^\\circ$ and $AM=r\\sin60^\\circ$, then $AB=2AM$, then the **triangle** area $\\tfrac12\\times AB\\times OM$, and finally **subtract**: segment $=$ sector $-$ triangle."
   },
   {
     "id": "in-cbse-10-math-areascircles-038",
@@ -1654,10 +1654,6 @@
     "marks": 3,
     "type": "order",
     "prompt": "Arrange these sectors in order of **area**, smallest first. (Each picture is drawn to scale.)",
-    "image": {
-      "src": "/img/c10-ma-areas-circles/angle-fan.svg",
-      "alt": "A circle split into sectors of different angles"
-    },
     "items": [
       {
         "id": "oa",
@@ -1792,7 +1788,7 @@
     ],
     "startLabel": "Smallest",
     "endLabel": "Largest",
-    "hint": "Compute all four areas: $28.5$, $50$, $78.5$, $235.5$.",
+    "hint": "Find the minor sector and the triangle first; the segment and the major sector both come from the minor sector.",
     "explanation": "Sector $=78.5$, triangle $=\\tfrac12\\times10\\times10=50$, segment $=78.5-50=28.5$, major sector $=314-78.5=235.5$ cm$^2$. So the order is segment $<$ triangle $<$ minor sector $<$ major sector."
   },
   {

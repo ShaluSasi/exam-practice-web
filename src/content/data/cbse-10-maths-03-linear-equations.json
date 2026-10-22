@@ -511,7 +511,7 @@
     "prompt": "Tap the point that solves $x + 3y = 6$ and $2x - 3y = 12$.",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-ex1.svg",
-      "alt": "Two lines crossing the x axis at the same point, with three marked points on the y axis and a third"
+      "alt": "Two lines meeting on the x axis, with A and P marked on the y axis and Q marked on one line"
     },
     "spots": [
       {
@@ -754,7 +754,7 @@
     ],
     "answer": "c",
     "hint": "Let the ages now be $F$ and $S$: $F - 3 = 5(S - 3)$ and $F + 7 = 3(S + 7)$.",
-    "explanation": "$F - 3 = 5(S - 3)$ gives $F = 5S - 12$ and $F + 7 = 3(S + 7)$ gives $F = 3S + 14$. So $5S - 12 = 3S + 14$, $S = 13$ and $F = 53$. Check: 3 years ago $50 = 5 \\times 10$; in 7 years $60 = 3 \\times 20$. The options 50 and 60 are the father\\'s ages at those times, and 13 is the son\\'s present age."
+    "explanation": "$F - 3 = 5(S - 3)$ gives $F = 5S - 12$ and $F + 7 = 3(S + 7)$ gives $F = 3S + 14$. So $5S - 12 = 3S + 14$, $S = 13$ and $F = 53$. Check: 3 years ago $50 = 5 \\times 10$; in 7 years $60 = 3 \\times 20$. The options 50 and 60 are the father's ages at those times, and 13 is the son's present age."
   },
   {
     "id": "in-cbse-10-math-linear-equations-018",
@@ -836,29 +836,24 @@
         "text": "Name the two unknown quantities with letters"
       },
       {
-        "id": "w5",
-        "text": "Check the answer against the story"
+        "id": "w4",
+        "text": "Check the values against the story and state the answer with units"
       },
       {
         "id": "w2",
         "text": "Translate the two conditions into two equations"
-      },
-      {
-        "id": "w4",
-        "text": "Write the answer with units"
       }
     ],
     "answer": [
       "w1",
       "w2",
       "w3",
-      "w4",
-      "w5"
+      "w4"
     ],
     "startLabel": "First",
     "endLabel": "Last",
     "hint": "You must name the unknowns before you can write equations.",
-    "explanation": "Choose letters for the unknowns, turn each condition of the story into an equation, solve the pair (by graph, substitution or elimination), state the answer in words with units, and finally verify it against the **original** wording of the problem, not just your equations."
+    "explanation": "Choose letters for the unknowns, turn each condition of the story into an equation, and solve the pair (by graph, substitution or elimination). Finally check the values against the **original** wording of the problem, not just your equations, and state the answer in words with units."
   },
   {
     "id": "in-cbse-10-math-linear-equations-020",
@@ -1591,8 +1586,8 @@
     "type": "assertion_reason",
     "prompt": "Read the Assertion (A) and Reason (R) carefully.",
     "image": {
-      "src": "/img/c10-ma-linear-equations/ratio-table.svg",
-      "alt": "A table comparing coefficient ratios"
+      "src": "/img/c10-ma-linear-equations/three-cases.svg",
+      "alt": "Three panels showing meeting, coinciding and parallel lines"
     },
     "assertion": "The pair $6x - 3y + 10 = 0$ and $2x - y + 9 = 0$ has no solution.",
     "reason": "For this pair $\\dfrac{a_1}{a_2} = \\dfrac{b_1}{b_2} = \\dfrac{c_1}{c_2}$.",
@@ -1862,8 +1857,8 @@
     "type": "match",
     "prompt": "For the pair $2x + 3y = 7$ and the second equation shown, match each second equation with the number of solutions.",
     "image": {
-      "src": "/img/c10-ma-linear-equations/g-pivot.svg",
-      "alt": "A fixed line and a pivoting line"
+      "src": "/img/c10-ma-linear-equations/three-cases.svg",
+      "alt": "Three panels showing meeting, coinciding and parallel lines"
     },
     "left": [
       {
@@ -2082,7 +2077,7 @@
       },
       {
         "id": "f",
-        "text": "Swap x and y in only one of the equations"
+        "text": "Swap $x$ and $y$ in the equation"
       }
     ],
     "answers": [
@@ -2091,7 +2086,7 @@
       "e"
     ],
     "hint": "The scale must stay balanced, and you must be able to undo the step.",
-    "explanation": "Doing the same non-zero operation to both sides keeps the equation equivalent, so multiplying by 3, adding a number and dividing by 2 are allowed. Multiplying by 0 turns every equation into $0 = 0$, squaring one side breaks the balance, and swapping $x$ and $y$ in one equation changes the problem."
+    "explanation": "Doing the same non-zero operation to both sides keeps the equation equivalent, so multiplying by 3, adding a number and dividing by 2 are allowed. Multiplying by 0 turns every equation into $0 = 0$, squaring one side breaks the balance, and swapping $x$ and $y$ changes the equation (for example $(3, 1)$ fits $2x + y = 7$ but not $2y + x = 7$)."
   },
   {
     "id": "in-cbse-10-math-linear-equations-048",

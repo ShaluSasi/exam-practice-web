@@ -31,7 +31,7 @@
    },
    {
     "id": "d",
-    "text": "Sugarcane plants have more chromosomes than humans, so they stay the same"
+    "text": "Sugarcane plants do not copy their DNA when they reproduce, so nothing can change"
    }
   ],
   "answer": "b",
@@ -200,7 +200,7 @@
    "d",
    "e"
   ],
-  "hint": "Only one statement says the environment treats all variants alike.",
+  "hint": "Think of the heat-wave example: do all bacteria fare equally well?",
   "explanation": "True: copying errors (asexual), greater diversity from sexual reproduction, inheritance plus new differences each generation, and selection by the environment as the basis of evolution. **False:** variants do **not** have equal chances. A heat-tolerant bacterium does well in a heat wave and a heat-sensitive one does not."
  },
  {
@@ -375,7 +375,7 @@
    }
   ],
   "answer": "b",
-  "hint": "One quarter of the F2 plants are short.",
+  "hint": "Recall the ratio of tall to short plants that Mendel found in the F2 generation.",
   "explanation": "The F2 ratio is **3 tall : 1 short**, so short plants are $\\dfrac{1}{4} \\times 1200 = 300$. 900 is the number of **tall** plants, 600 wrongly takes half, and 400 wrongly takes one third."
  },
  {
@@ -428,7 +428,7 @@
    }
   ],
   "answer": "f2short",
-  "hint": "F2 is the right-hand group, and its short plant has a smaller stem.",
+  "hint": "Find the F2 group first, then compare the stem heights within it.",
   "explanation": "The F2 generation is the last group. Three of its four plants are tall and one is **short** (genotype tt). The short plant in the P generation is a parent, not an F2 offspring."
  },
  {
@@ -445,8 +445,8 @@
   "type": "hotspot",
   "prompt": "Tap the box showing a **short** plant (tt) in this Punnett square for $Tt \\times Tt$.",
   "image": {
-   "src": "/img/c10-heredity/punnett-tt.svg",
-   "alt": "Punnett square for a cross of two Tt plants"
+   "src": "/img/c10-heredity/punnett-tt-plain.svg",
+   "alt": "Punnett square for a cross of two Tt plants showing only the gene combinations in each box"
   },
   "spots": [
    {
@@ -492,8 +492,8 @@
   "type": "hotspot",
   "prompt": "Tap the box that has **two identical tallness genes** (TT).",
   "image": {
-   "src": "/img/c10-heredity/punnett-tt.svg",
-   "alt": "Punnett square for a cross of two Tt plants"
+   "src": "/img/c10-heredity/punnett-tt-plain.svg",
+   "alt": "Punnett square for a cross of two Tt plants showing only the gene combinations in each box"
   },
   "spots": [
    {
@@ -853,7 +853,7 @@
   ],
   "answer": "d",
   "hint": "Try each possibility in turn and see whether the family could still arise.",
-  "explanation": "The daughter must have received one O copy from each parent. If **A is dominant**, the father is A with a hidden O copy, and she is OO. If **O is dominant**, the father has two copies of the A gene and the daughter has one of each but shows O. Both are consistent, so we cannot decide (this uses the simple dominant/recessive model of the chapter)."
+  "explanation": "Try both possibilities. If **A is dominant**, the father is A with a hidden O copy (AO), the mother is OO, and the daughter received O from each parent (OO). If **O is dominant**, the father must be AA; the daughter received A from him and O from her mother (AO) and shows O because O is dominant. Both stories fit the facts, so this family alone cannot tell us which trait is dominant (using the simple dominant/recessive model of the chapter)."
  },
  {
   "id": "in-cbse-10-bio-heredity-021",
@@ -1228,7 +1228,7 @@
    }
   ],
   "answer": "a",
-  "hint": "Wrinkled green is 1 box out of 16.",
+  "hint": "Count how many of the 16 boxes are rryy, then take that fraction of 1600.",
   "explanation": "Wrinkled green is $\\dfrac{1}{16}$ of the seeds: $\\dfrac{1600}{16} = 100$. The 300 uses $\\dfrac{3}{16}$ (a single-recessive class), 400 uses $\\dfrac{1}{4}$, and 900 uses $\\dfrac{9}{16}$ (round yellow)."
  },
  {
@@ -1245,8 +1245,8 @@
   "type": "order",
   "prompt": "Arrange Mendel's F2 seed types from the **most** to the **fewest** seeds counted.",
   "image": {
-   "src": "/img/c10-heredity/dihybrid-bars.svg",
-   "alt": "Bar chart of 315 round yellow, 108 round green, 101 wrinkled yellow and 32 wrinkled green seeds"
+   "src": "/img/c10-heredity/seed-types.svg",
+   "alt": "Four pea seed types: round yellow, round green, wrinkled yellow and wrinkled green"
   },
   "items": [
    {
@@ -1521,7 +1521,7 @@
    },
    {
     "id": "d2",
-    "text": "Expressed only when both copies are the same"
+    "text": "Expressed only when both copies are the recessive version"
    }
   ],
   "pairs": {
@@ -1531,7 +1531,7 @@
    "r": "d2"
   },
   "hint": "A gene is for one protein; a chromosome holds many genes.",
-  "explanation": "A **gene** is a section of DNA that gives information for one **protein**. A **chromosome** is one of the independent pieces in which the gene set is packaged. A **dominant** trait needs only one copy to be expressed, while a **recessive** trait is expressed only when both copies are the same."
+  "explanation": "A **gene** is a section of DNA that gives information for one **protein**. A **chromosome** is one of the independent pieces in which the gene set is packaged. A **dominant** trait needs only one copy to be expressed, while a **recessive** trait is expressed only when both copies are the recessive version."
  },
  {
   "id": "in-cbse-10-bio-heredity-037",
@@ -1623,7 +1623,7 @@
    }
   ],
   "answer": "chromosome",
-  "hint": "It is the large X-shaped body in the middle.",
+  "hint": "It is smaller than the nucleus but much bigger than a single gene.",
   "explanation": "The big orange X-shaped body is a **chromosome**. The nucleus holds chromosomes, DNA is the thread that makes them up, and the highlighted piece of DNA is one **gene**."
  },
  {
@@ -2130,7 +2130,7 @@
    }
   ],
   "answer": "b",
-  "hint": "Each birth is a fresh event: the sperm carries X or Y with equal chance.",
+  "hint": "Does what happened in the earlier births change the chances for the next one?",
   "explanation": "The father's sperm carries **X or Y with equal chance** every time, whatever happened before. So a boy has a 1 in 2 chance. 1 in 8 is the chance of three girls in a row, and 1 in 16 is the chance of four girls. Past births do not change the next one."
  },
  {

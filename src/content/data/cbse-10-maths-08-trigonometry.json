@@ -445,7 +445,7 @@
     "prompt": "Read the Assertion (A) and Reason (R) carefully.",
     "image": {
       "src": "/img/c10-ma-trigonometry/sim-scale.svg",
-      "alt": "Three similar right triangles sharing the angle at A"
+      "alt": "Three nested right triangles with a common vertex A"
     },
     "assertion": "In a right triangle, the value of $\\sin A$ depends only on the angle $A$ and not on the size of the triangle.",
     "reason": "Right triangles with the same acute angle are similar (AA criterion), so ratios of corresponding sides are equal.",
@@ -529,7 +529,7 @@
     ],
     "answer": "d",
     "hint": "Put $OQ = 1 + PQ$ in $OQ^2 = OP^2 + PQ^2$ and expand.",
-    "explanation": "$(1+PQ)^2 = 11^2 + PQ^2$ gives $1 + 2PQ = 121$, so $PQ = 60$ cm and $OQ = 61$ cm. Then $\\cos Q = \\dfrac{PQ}{OQ} = \\dfrac{60}{61}$. $\\dfrac{11}{61}$ is $\\sin Q$. Using $OP$ instead of $OP^2$ gives $PQ=5$ and the false $\\dfrac56$, and $\\dfrac{61}{62}$ comes from adding instead of subtracting the $1$."
+    "explanation": "$(1+PQ)^2 = 11^2 + PQ^2$ gives $1 + 2PQ = 121$, so $PQ = 60$ cm and $OQ = 61$ cm. Then $\\cos Q = \\dfrac{PQ}{OQ} = \\dfrac{60}{61}$. $\\dfrac{11}{61}$ is $\\sin Q$. Using $OP$ instead of $OP^2$ gives $PQ=5$ and the false $\\dfrac56$, and $\\dfrac{61}{62}$ comes from taking the hypotenuse $61$ as $PQ$ and then adding $1$ again for $OQ$."
   },
   {
     "id": "in-cbse-10-math-trigonometry-013",
@@ -1263,7 +1263,7 @@
     ],
     "answer": "c",
     "hint": "Where does $\\cos A$ start, and is it a straight line? Check $\\cos 60^\\circ$.",
-    "explanation": "$\\cos0^\\circ=1$ and $\\cos90^\\circ=0$, so $\\cos A$ **decreases** from $1$ to $0$. It is not a straight line: halfway up the angles, $\\cos60^\\circ=\\dfrac12$, whereas a straight line from $1$ to $0$ would give $1-\\dfrac{60}{90}=\\dfrac13$. Graph 1 is $\\sin A$, which rises."
+    "explanation": "$\\cos0^\\circ=1$ and $\\cos90^\\circ=0$, so $\\cos A$ **decreases** from $1$ to $0$. It is not a straight line: at $60^\\circ$, $\\cos60^\\circ=\\dfrac12$, whereas a straight line from $1$ to $0$ would give $1-\\dfrac{60}{90}=\\dfrac13$. Graph 1 is $\\sin A$, which rises."
   },
   {
     "id": "in-cbse-10-math-trigonometry-029",
@@ -1336,7 +1336,7 @@
     ],
     "startLabel": "Smallest",
     "endLabel": "Largest",
-    "hint": "Use $\\cos90^\\circ=0$, $\\sin30^\\circ=0.5$, $\\cos30^\\circ\\approx0.87$, $\\tan45^\\circ=1$ and $\\tan60^\\circ\\approx1.73$.",
+    "hint": "Write each value from Table 8.1 as a decimal; use $\\sqrt3\\approx1.73$.",
     "explanation": "$\\cos90^\\circ=0$, $\\sin30^\\circ=\\dfrac12$, $\\cos30^\\circ=\\dfrac{\\sqrt3}2\\approx0.87$, $\\tan45^\\circ=1$ and $\\tan60^\\circ=\\sqrt3\\approx1.73$. Remember that $\\sin A$ rises from $0$ to $1$ and $\\cos A$ falls from $1$ to $0$ as $A$ goes from $0^\\circ$ to $90^\\circ$, so $\\cos30^\\circ>\\sin30^\\circ$."
   },
   {
@@ -1351,7 +1351,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each condition with the acute angle $\\theta$ (from $0^\\circ$ to $90^\\circ$) that satisfies it.",
+    "prompt": "Match each condition with the angle $\\theta$ ($0^\\circ\\le\\theta\\le90^\\circ$) that satisfies it.",
     "image": {
       "src": "/img/c10-ma-trigonometry/fan.svg",
       "alt": "A quarter circle with rays at 0, 30, 45, 60 and 90 degrees"
@@ -1425,7 +1425,7 @@
     "prompt": "If $\\sin(A+B)=1$ and $\\cos(A-B)=\\dfrac{\\sqrt3}{2}$, with $0^\\circ<A+B\\le90^\\circ$ and $A>B$, find $A$ and $B$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/ab-fan.svg",
-      "alt": "A quarter circle showing the two angles A minus B and A plus B"
+      "alt": "A quarter circle with two rays making unknown angles A and B with the base line"
     },
     "options": [
       {
@@ -2052,7 +2052,7 @@
     ],
     "answer": "c",
     "hint": "First find $\\cos A$ from $\\sin^2A+\\cos^2A=1$, taking the positive root.",
-    "explanation": "$\\cos^2A=1-\\sin^2A$, so $\\cos A=\\sqrt{1-\\sin^2A}$ (positive because $A$ is acute). Then $\\tan A=\\dfrac{\\sin A}{\\cos A}=\\dfrac{\\sin A}{\\sqrt{1-\\sin^2A}}$. Leaving out the root gives the second option, the third is $\\cot A$ and the fourth is $\\sec A$."
+    "explanation": "$\\cos^2A=1-\\sin^2A$, so $\\cos A=\\sqrt{1-\\sin^2A}$ (positive because $A$ is acute). Then $\\tan A=\\dfrac{\\sin A}{\\cos A}=\\dfrac{\\sin A}{\\sqrt{1-\\sin^2A}}$. Leaving out the square root gives $\\dfrac{\\sin A}{1-\\sin^2A}$, the fraction $\\dfrac{\\sqrt{1-\\sin^2A}}{\\sin A}$ is $\\cot A$ (upside down) and $\\dfrac{1}{\\sqrt{1-\\sin^2A}}$ is $\\sec A$."
   },
   {
     "id": "in-cbse-10-math-trigonometry-047",

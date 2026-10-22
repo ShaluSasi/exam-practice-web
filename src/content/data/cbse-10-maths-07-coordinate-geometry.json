@@ -1025,7 +1025,7 @@
       "src": "/img/c10-ma-coordinate/locus-question.svg",
       "alt": "Point P joined to A and B with equal dashed lines"
     },
-    "hint": "The set of points equidistant from A and B is the perpendicular bisector of AB.",
+    "hint": "Such a point must be the same distance from A as from B. Which line through the mid-point of AB keeps that true everywhere?",
     "explanation": "The points equidistant from $A$ and $B$ form the **perpendicular bisector** of $AB$: it passes through the mid-point $(1,0)$ and is perpendicular to $AB$ (which has direction $(2,1)$, so the bisector has direction $(-1,2)$). A line through the mid-point with the wrong tilt, the line $AB$ itself, or a perpendicular through only $A$ are the tempting errors.",
     "options": [
       {
@@ -1081,7 +1081,7 @@
       "alt": "Segment AB and five labelled candidate points"
     },
     "hint": "Compare $PA^2$ and $PB^2$ for each point.",
-    "explanation": "Squared distances: $(2,3)$: $18$ and $18$; $(3,3)$: $5$ and $13$; $(4,5)$: $10$ and $10$; $(3,5)$: $13$ and $5$; $(6,7)$: $26$ and $26$. The three equal pairs lie on the line $y=x+1$, the perpendicular bisector of $AB$.",
+    "explanation": "Squared distances: $(2,3)$: $10$ and $10$; $(3,3)$: $5$ and $13$; $(4,5)$: $10$ and $10$; $(3,5)$: $13$ and $5$; $(6,7)$: $26$ and $26$. The three equal pairs lie on the line $y=x+1$, the perpendicular bisector of $AB$.",
     "options": [
       {
         "id": "a",
@@ -1127,7 +1127,7 @@
       "src": "/img/c10-ma-coordinate/bisector-lines.svg",
       "alt": "Segment AB with mid-point M and four differently coloured lines"
     },
-    "hint": "It must pass through the mid-point **and** be perpendicular to AB.",
+    "hint": "Pick any point on each line and ask: is it the same distance from A as from B?",
     "explanation": "The locus of points equidistant from $A$ and $B$ is the **perpendicular bisector**: it goes through $M(0,1)$ and is perpendicular to $AB$ (slope of $AB$ is $-\\tfrac12$, so the bisector has slope 2). The other lines either miss $M$ or are not perpendicular.",
     "spots": [
       {
@@ -1153,12 +1153,6 @@
         "x": 40.6,
         "y": 12.9,
         "label": "Perpendicular to AB through A only"
-      },
-      {
-        "id": "mid",
-        "x": 50.0,
-        "y": 44.8,
-        "label": "The mid-point M"
       }
     ],
     "answer": "bis"
@@ -1268,7 +1262,7 @@
     "prompt": "A relay tower is to be placed at $P$ on the straight line from $A(0,0)$ to $B(35, 20)$ so that $AP : PB = 2 : 3$ (units in km). Find the coordinates of $P$.",
     "image": {
       "src": "/img/c10-ma-coordinate/tower-section.svg",
-      "alt": "A line from A to B with a tower marked between them"
+      "alt": "The line from A to B on which the tower P must stand"
     },
     "hint": "The section formula divides by $m_1+m_2$; $m_1$ multiplies the **second** point.",
     "explanation": "$x=\\dfrac{2\\cdot35+3\\cdot0}{2+3}=14$, $y=\\dfrac{2\\cdot20+3\\cdot0}{5}=8$. Swapping the ratio gives $(21,12)$, using the mid-point gives $(17.5,10)$ and forgetting to divide by $5$ gives $(70,40)$, which is not even on the segment.",
@@ -1456,7 +1450,7 @@
     "prompt": "Read the Assertion (A) and Reason (R) carefully.",
     "image": {
       "src": "/img/c10-ma-coordinate/mid-ar.svg",
-      "alt": "A segment with its mid-point marked"
+      "alt": "The segment joining (-2, 4) and (6, -8)"
     },
     "hint": "Apply the formula in R to the numbers in A.",
     "explanation": "Using R: $\\left(\\dfrac{-2+6}{2},\\dfrac{4-8}{2}\\right)=(2,-2)$. So A is true, R is true, and R is exactly the rule that gives A.",
@@ -1479,7 +1473,7 @@
     "prompt": "Match each pair of end points with the **mid-point** of the segment joining them.",
     "image": {
       "src": "/img/c10-ma-coordinate/four-midpoints.svg",
-      "alt": "Four segments with red mid-point dots"
+      "alt": "Four segments drawn on a grid"
     },
     "hint": "Add the two x-values and halve; do the same for y.",
     "explanation": "Mid-point $=\\left(\\dfrac{x_1+x_2}{2},\\dfrac{y_1+y_2}{2}\\right)$: $(4,7)$, $(-1,2)$, $(4,-2)$ and $(-3,-5)$. Watch the signs when a coordinate is negative: $\\dfrac{-5+(-1)}{2}=-3$.",
@@ -1706,7 +1700,7 @@
       "alt": "Segment AB with the point P between A and B"
     },
     "hint": "Let the ratio be $k:1$ and use the x-coordinate (it has the simplest numbers).",
-    "explanation": "With ratio $k:1$: $0=\\dfrac{6k-3}{k+1}\\Rightarrow k=\\dfrac12$, so $AP:PB=1:2$. Check with y: $\\dfrac{-5(1/2)+4}{3/2}=1$. The ratio $2:1$ is the reverse; $1:3$ confuses \"part to whole\" ($AP:AB$) with \"part to part\".",
+    "explanation": "With ratio $k:1$: $0=\\dfrac{6k-3}{k+1}\\Rightarrow k=\\dfrac12$, so $AP:PB=1:2$. Check with y: $\\dfrac{-5(1/2)+4}{3/2}=1$. The ratio $2:1$ is the reverse; $1:3$ confuses \"part to whole\" ($AP:AB$) with \"part to part\", and $2:3$ compares $PB$ with the whole of $AB$.",
     "options": [
       {
         "id": "a",
@@ -1722,7 +1716,7 @@
       },
       {
         "id": "d",
-        "text": "$3 : 2$"
+        "text": "$2 : 3$"
       }
     ],
     "answer": "c"
@@ -1952,7 +1946,7 @@
       "alt": "A parallelogram with its two diagonals dashed"
     },
     "hint": "The diagonals $AC$ and $BD$ bisect each other.",
-    "explanation": "Mid-point of $AC=\\left(\\dfrac{1+7}{2},\\dfrac{2+6}{2}\\right)=(4,4)$; mid-point of $BD=\\left(\\dfrac{5+p}{2},4\\right)$. So $5+p=8$, $p=3$. Pairing the wrong vertices gives $-1$ (using $AB$ and $CD$) or $11$ (using $AD$ and $BC$), and $4$ comes from forgetting to subtract $5$.",
+    "explanation": "Mid-point of $AC=\\left(\\dfrac{1+7}{2},\\dfrac{2+6}{2}\\right)=(4,4)$; mid-point of $BD=\\left(\\dfrac{5+p}{2},4\\right)$. So $5+p=8$, $p=3$. Treating the wrong pairs of vertices as the diagonals gives $-1$ (taking $AB$ and $CD$ as diagonals) or $11$ (taking $AD$ and $BC$ as diagonals), and $4$ is just the x-coordinate of the common mid-point, not $p$.",
     "options": [
       {
         "id": "a",
@@ -2276,7 +2270,7 @@
       "alt": "A circle through the three vertices of a right triangle"
     },
     "hint": "The centre is equidistant from all three points; note the angle at $O$.",
-    "explanation": "The centre $(x,y)$ satisfies $x^2+y^2=(x-6)^2+y^2=x^2+(y-8)^2$, which gives $x=3$ and $y=4$. It is also the mid-point of $PQ$ because $\\angle POQ=90^\\circ$, and its distance from each point is 5. The point $(6,8)$ is on the circle, not at its centre, and $(4,3)$ swaps the coordinates.",
+    "explanation": "The centre $(x,y)$ satisfies $x^2+y^2=(x-6)^2+y^2=x^2+(y-8)^2$, which gives $x=3$ and $y=4$. It is also the mid-point of $PQ$ because $\\angle POQ=90^\\circ$, and its distance from each point is 5. The point $(6,8)$ is on the circle, not at its centre, $(4,3)$ swaps the coordinates, and $(3,0)$ is only the mid-point of $OP$.",
     "options": [
       {
         "id": "a",

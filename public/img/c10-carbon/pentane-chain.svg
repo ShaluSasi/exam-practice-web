@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+<title>Carbon skeleton of straight-chain pentane</title>
+<style>
+.bp{animation:bp 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes bp{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
+<text x="200" y="44" font-family="sans-serif" font-size="16" font-weight="800" fill="#2B2F4A" text-anchor="middle">Straight-chain pentane, C₅H₁₂</text>
+<line x1="96" y1="130" x2="148" y2="100" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="148" y1="100" x2="200" y2="130" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="200" y1="130" x2="252" y2="100" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="252" y1="100" x2="304" y2="130" stroke="#2B2F4A" stroke-width="3.5" stroke-linecap="round"/>
+<circle class="bp" style="animation-delay:0s" cx="96" cy="130" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/>
+<circle class="bp" style="animation-delay:.25s" cx="148" cy="100" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/>
+<circle class="bp" style="animation-delay:.5s" cx="200" cy="130" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/>
+<circle class="bp" style="animation-delay:.75s" cx="252" cy="100" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/>
+<circle class="bp" style="animation-delay:1s" cx="304" cy="130" r="8" fill="#0B93D4" stroke="#075E88" stroke-width="2.5"/>
+<text x="200" y="185" font-family="sans-serif" font-size="12" font-weight="600" fill="#5A5F80" text-anchor="middle">dots are carbon atoms, hydrogens not drawn</text>
+<text x="200" y="210" font-family="sans-serif" font-size="12" font-weight="600" fill="#5A5F80" text-anchor="middle">other skeletons with the same formula are possible</text>
+</svg>

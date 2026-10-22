@@ -562,7 +562,7 @@
       "c"
     ],
     "hint": "First turn every mark into a fraction (or percentage) of its own total.",
-    "explanation": "Marks out of 20, 40 and 100 are not on the same scale, so each must first become a fraction of its own total. Options b and c both do this: b multiplies by 100 at the end and c converts each score to a percentage first; both give $\\dfrac{0.9\\times 2+0.9\\times 3+0.7\\times 5}{10}\\times 100=80\\%$. Option a uses raw marks, d divides 18 and 36 by 100 although they are out of 20 and 40, and e is a simple mean of raw marks."
+    "explanation": "Marks out of 20, 40 and 100 are not on the same scale, so each must first become a fraction of its own total. The two correct expressions both do this: one multiplies by 100 at the end and the other converts each score to a percentage first; both give $\\dfrac{0.9\\times 2+0.9\\times 3+0.7\\times 5}{10}\\times 100=80\\%$. Weighting the raw marks mixes different scales, dividing 18 and 36 by 100 ignores that they are out of 20 and 40, and the simple mean of raw marks ignores both the totals and the ratio."
   },
   {
     "id": "ma10-q015",
@@ -1238,7 +1238,7 @@
       "e"
     ],
     "hint": "You may compare parts within one garden, but not across gardens without totals.",
-    "explanation": "Within one garden all parts share the same total, so comparing them is safe: P has $45\\%>20\\%$ (a true), Q has $55\\%>25\\%+20\\%=45\\%$ (c true), and autumn $20\\%<$ spring in both ($20<45$ and $20<25$), so e is true. Comparing **across** gardens (b, d, f) needs the actual totals, which a 100% chart does not show; a 45% slice of a small garden can be fewer flowers than a 25% slice of a huge one."
+    "explanation": "Within one garden all parts share the same total, so comparing them is safe: in P spring is $45\\%>20\\%$ autumn; in Q summer is $55\\%>25\\%+20\\%=45\\%$; and autumn ($20\\%$) is below spring in both gardens ($20<45$ and $20<25$). Comparing **across** gardens (spring in P versus Q, equal totals, or which garden had more flowers) needs the actual totals, which a 100% chart does not show; a 45% slice of a small garden can be fewer flowers than a 25% slice of a huge one."
   },
   {
     "id": "ma10-q031",
@@ -1601,7 +1601,7 @@
     "reason": "A weighted mean always lies between the smallest and the largest data value.",
     "answer": "b",
     "hint": "Does the second statement say anything about doubling?",
-    "explanation": "A is true: $\\dfrac{2w_1x_1+2w_2x_2}{2w_1+2w_2}=\\dfrac{w_1x_1+w_2x_2}{w_1+w_2}$ because the factor $2$ cancels. R is also a true property, but it does not explain *why* doubling changes nothing, so the answer is B. (Example: values 10 and 20 with weights 1 and 3 give $17.5$, and with weights 2 and 6 give $\\dfrac{20+120}{8}=17.5$.)"
+    "explanation": "A is true: $\\dfrac{2w_1x_1+2w_2x_2}{2w_1+2w_2}=\\dfrac{w_1x_1+w_2x_2}{w_1+w_2}$ because the factor $2$ cancels. R is also a true property, but it does not explain *why* doubling changes nothing, so both are true but R does not explain A. (Example: values 10 and 20 with weights 1 and 3 give $17.5$, and with weights 2 and 6 give $\\dfrac{20+120}{8}=17.5$.)"
   },
   {
     "id": "ma10-q040",
@@ -1648,7 +1648,7 @@
       "e"
     ],
     "hint": "The shares of one whole must always add up to 100%.",
-    "explanation": "Shares always add to $100\\%$, so they cannot **all** fall (a) or **all** rise (b). All staying the same (c) is possible when every population falls by the same fraction. In d the cows fall faster than the others and in e the hens fall fastest, so the rest gain share; both are possible even though every count fell."
+    "explanation": "Shares always add to $100\\%$, so they cannot **all** fall or **all** rise. All three staying the same is possible when every population falls by the same fraction. Cows losing share while sheep gain and hens stay level happens when the cows fall fastest and the sheep slowest; cows and sheep both gaining happens when the hens fall fastest. Both are possible even though every count fell."
   },
   {
     "id": "ma10-q041",
@@ -1900,7 +1900,7 @@
       "q5": "c5"
     },
     "hint": "Think about what each chart makes easy to compare.",
-    "explanation": "Grouping by **category** puts the three families side by side for each item (q1); grouping by **family** puts a family’s items side by side (q2). A **stacked bar** shows totals along with parts (q3). A **100% stacked bar** compares proportions across families (q4), and a **pie chart** shows how one whole splits (q5)."
+    "explanation": "Grouping by **category** puts the three families side by side for each item, so the least spent on housing is easy to spot. Grouping by **family** puts one family’s items side by side, so A’s food and healthcare can be compared. A **stacked bar** shows totals along with their parts (most overall, and on what). A **100% stacked bar** compares proportions such as healthcare’s share across families, and a **pie chart** shows how one whole splits into slices."
   },
   {
     "id": "ma10-q045",
@@ -1971,7 +1971,7 @@
       "m5": "k5"
     },
     "hint": "Equal volumes give the midpoint; more of the weaker one pulls the result down.",
-    "explanation": "Concentration $=\\dfrac{\\text{jaggery}}{\\text{volume}}$: m1 is $\\dfrac{10+20}{200}=15\\%$; m2 is $\\dfrac{30+20}{400}=12.5\\%$; m3 is $\\dfrac{10+60}{400}=17.5\\%$; m4 is $\\dfrac{20+40+60}{600}=20\\%$; m5 is $\\dfrac{10+20+60}{400}=22.5\\%$. Each answer sits nearer the percentage with more volume."
+    "explanation": "Concentration $=\\dfrac{\\text{jaggery}}{\\text{volume}}$. 100 mL each at 10% and 20%: $\\dfrac{10+20}{200}=15\\%$. 300 mL at 10% with 100 mL at 20%: $\\dfrac{30+20}{400}=12.5\\%$. 100 mL at 10% with 300 mL at 20%: $\\dfrac{10+60}{400}=17.5\\%$. 200 mL each at 10%, 20%, 30%: $\\dfrac{20+40+60}{600}=20\\%$. 100 mL at 10%, 100 mL at 20% and 200 mL at 30%: $\\dfrac{10+20+60}{400}=22.5\\%$. Each answer sits nearer the percentage with more volume."
   },
   {
     "id": "ma10-q046",
@@ -2105,7 +2105,7 @@
     "prompt": "Arrange these mixtures from the **lowest** to the **highest** jaggery concentration.",
     "image": {
       "src": "/img/maths10/glasses4.svg",
-      "alt": "Four glasses of mixed juice of different shades"
+      "alt": "Four glasses of lemonade labelled Mixture P, Q, R and S"
     },
     "items": [
       {

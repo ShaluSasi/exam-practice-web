@@ -736,7 +736,7 @@
     ],
     "answer": "c",
     "hint": "If John has $x$, Jivanti has $40-x$. After losing 3 each: $(x-3)(37-x)$.",
-    "explanation": "$(x-3)(37-x)=189$ gives $-x^2+40x-111=189$, so $x^2-40x+300=0$ and $(x-30)(x-10)=0$. The two children had 30 and 10 marbles, so the one with more had **30**. $10$ is the other child's number, $27$ is what the first child has *after* losing 3 ($27\\times7=189$), and $33$ comes from adding 3 instead of subtracting."
+    "explanation": "$(x-3)(37-x)=189$ gives $-x^2+40x-111=189$, so $x^2-40x+300=0$ and $(x-30)(x-10)=0$. The two children had 30 and 10 marbles, so the one with more had **30**. $10$ is the other child's number, $27$ is what the first child has *after* losing 3 ($27\\times7=189$), and $33$ adds the 3 lost marbles on to the starting number 30 a second time."
   },
   {
     "id": "in-cbse-10-math-quadratic-018",
@@ -1447,7 +1447,7 @@
     ],
     "answer": "ang",
     "hint": "Join P to both ends of the diameter. Which vertex of the triangle is on the circle opposite the diameter?",
-    "explanation": "Any point P on a circle sees a diameter AB at a right angle, so $\\angle APB=90^\\circ$. This allows Pythagoras to be used: $AP^2+BP^2=AB^2$. The angles at A and B are not right angles unless P sits at the end of a diameter perpendicular to AB."
+    "explanation": "Any point P on a circle sees a diameter AB at a right angle, so $\\angle APB=90^\\circ$. This allows Pythagoras to be used: $AP^2+BP^2=AB^2$. The angles at A and B are always acute (they add up to $90^\\circ$), so neither of them can be the right angle."
   },
   {
     "id": "in-cbse-10-math-quadratic-033",
@@ -1762,36 +1762,36 @@
     "items": [
       {
         "id": "sub",
-        "text": "Substitute: $x=\\dfrac{5\\pm\\sqrt{49}}{4}$"
+        "text": "Substitute into the formula: $x=\\dfrac{5\\pm\\sqrt{49}}{4}$"
       },
       {
         "id": "val",
         "text": "Identify $a=2$, $b=-5$, $c=-3$"
       },
       {
-        "id": "pos",
-        "text": "Since $49>0$, two distinct real roots exist"
+        "id": "fin",
+        "text": "Simplify: $x=3$ or $x=-\\dfrac12$"
       },
       {
         "id": "disc",
-        "text": "Compute $b^2-4ac=25+24=49$"
+        "text": "Compute $b^2-4ac=25+24=49$; it is positive, so real roots exist"
       },
       {
-        "id": "fin",
-        "text": "Simplify: $x=3$ or $x=-\\dfrac12$"
+        "id": "root",
+        "text": "Use $\\sqrt{49}=7$: $x=\\dfrac{5+7}{4}$ or $x=\\dfrac{5-7}{4}$"
       }
     ],
     "answer": [
       "val",
       "disc",
-      "pos",
       "sub",
+      "root",
       "fin"
     ],
     "startLabel": "First",
     "endLabel": "Last",
     "hint": "Find the discriminant before substituting into the formula.",
-    "explanation": "Identify $a,b,c$ (keep the signs), find $D=(-5)^2-4(2)(-3)=49$, note that $D>0$ so the formula will give real roots, substitute to get $\\dfrac{5\\pm7}{4}$, and simplify: $\\dfrac{12}{4}=3$ and $\\dfrac{-2}{4}=-\\dfrac12$."
+    "explanation": "Identify $a,b,c$ (keep the signs), find $D=(-5)^2-4(2)(-3)=49>0$ so the formula gives real roots, substitute to get $\\dfrac{5\\pm\\sqrt{49}}{4}$, take $\\sqrt{49}=7$ to split into the $+$ and $-$ cases, and simplify: $\\dfrac{12}{4}=3$ and $\\dfrac{-2}{4}=-\\dfrac12$."
   },
   {
     "id": "in-cbse-10-math-quadratic-041",
@@ -1813,36 +1813,36 @@
     "items": [
       {
         "id": "pyth",
-        "text": "Pythagoras: $x^2+(x+7)^2=17^2$"
+        "text": "$\\angle APB=90^\\circ$ (angle in a semicircle), so $x^2+(x+7)^2=17^2$"
       },
       {
-        "id": "right",
-        "text": "AB is a diameter, so $\\angle APB=90^\\circ$"
+        "id": "disc",
+        "text": "Discriminant: $7^2-4(1)(-120)=529=23^2>0$, so the pole can be placed"
       },
       {
         "id": "let",
         "text": "Let $BP=x$ m, so $AP=(x+7)$ m"
       },
       {
-        "id": "simp",
-        "text": "Simplify to $x^2+7x-120=0$"
+        "id": "rej",
+        "text": "Solve: $x=\\dfrac{-7\\pm23}{2}=8$ or $-15$; reject the negative root, so $BP=8$ m"
       },
       {
-        "id": "rej",
-        "text": "Solve: $x=8$ or $x=-15$; reject the negative root, so $BP=8$ m"
+        "id": "simp",
+        "text": "Simplify to $x^2+7x-120=0$"
       }
     ],
     "answer": [
       "let",
-      "right",
       "pyth",
       "simp",
+      "disc",
       "rej"
     ],
     "startLabel": "First",
     "endLabel": "Last",
-    "hint": "Name the unknown first; the right angle comes from the semicircle.",
-    "explanation": "Take $BP=x$ and $AP=x+7$. Because AB is a diameter, $\\angle APB=90^\\circ$, so $AP^2+BP^2=AB^2$: $x^2+(x+7)^2=289$, which simplifies to $2x^2+14x-240=0$, i.e. $x^2+7x-120=0$. Its discriminant $49+480=529=23^2$ gives $x=8$ or $-15$; distance cannot be negative, so the pole is 8 m from B and 15 m from A."
+    "hint": "Name the unknown first; check the discriminant before solving.",
+    "explanation": "Take $BP=x$ and $AP=x+7$. Because AB is a diameter, $\\angle APB=90^\\circ$, so $AP^2+BP^2=AB^2$: $x^2+(x+7)^2=289$, which simplifies to $2x^2+14x-240=0$, i.e. $x^2+7x-120=0$. Its discriminant $49+480=529=23^2$ is positive, so real roots exist; $x=\\dfrac{-7\\pm23}{2}$ gives $8$ or $-15$. A distance cannot be negative, so the pole is 8 m from B and 15 m from A."
   },
   {
     "id": "in-cbse-10-math-quadratic-042",

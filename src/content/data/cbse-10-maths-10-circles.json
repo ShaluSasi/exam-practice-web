@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A straight wire AB is turned slowly about the point P on a circular wire. In exactly one position the wire touches the circle and nothing else. How many points does a **tangent** have in common with the circle?",
+  "prompt": "A straight wire AB is turned slowly about the point P on a circular wire. In one special position it just touches the circle at $P$. How many points does a **tangent** have in common with the circle?",
   "image": {
    "src": "/img/c10-ma-circles/pivot.svg",
    "alt": "A line pivoting about a point P on a circle, touching it in one position"
@@ -222,12 +222,6 @@
     "label": "Non-intersecting line n"
    },
    {
-    "id": "chord",
-    "x": 50.0,
-    "y": 23.3,
-    "label": "Chord cut off by l"
-   },
-   {
     "id": "cen",
     "x": 50.0,
     "y": 40.6,
@@ -432,10 +426,10 @@
    "src": "/img/c10-ma-circles/perp-tan.svg",
    "alt": "A tangent at P with radius OP perpendicular to it"
   },
-  "hint": "Does the fact that a tangent touches once tell you the angle it makes with the radius?",
-  "explanation": "Both statements are true, but R does not explain A. The perpendicularity comes from the proof: every other point $Q$ of the tangent is outside the circle, so $OQ>OP$ and $OP$ is the shortest distance from $O$ to the line, which means $OP\\perp$ tangent. Merely touching once does not by itself give the angle.",
+  "hint": "Does a fact about tangents parallel to a secant say anything about the angle with the radius?",
+  "explanation": "Both statements are true, but R does not explain A. A is Theorem 10.1: every other point $Q$ of the tangent is outside the circle, so $OQ>OP$ and $OP$ is the shortest distance from $O$ to the line, which means $OP\\perp$ tangent. R comes from Activity 2 (parallel lines to a secant) and says nothing about the angle between a tangent and the radius.",
   "assertion": "The tangent at a point $P$ of a circle with centre $O$ is perpendicular to the radius $OP$.",
-  "reason": "A tangent to a circle meets the circle at exactly one point.",
+  "reason": "A circle can have at most two tangents parallel to a given secant.",
   "answer": "b"
  },
  {
@@ -921,7 +915,7 @@
    "alt": "Two tangents PA and PB from an external point P to a circle with centre O"
   },
   "hint": "Tangents from an external point are equal in length.",
-  "explanation": "$PA=PB$ (Theorem 10.2), so $3x+4=5x-6$, giving $2x=10$ and $x=5$. Then $PA=3(5)+4=19$ cm (and $PB=5(5)-6=19$ cm too). Traps: giving $x=5$ as the length, a slip such as $2x=6-4$, or adding both tangents ($38$).",
+  "explanation": "$PA=PB$ (Theorem 10.2), so $3x+4=5x-6$, giving $2x=10$ and $x=5$. Then $PA=3(5)+4=19$ cm (and $PB=5(5)-6=19$ cm too). Traps: giving $x=5$ as the length, a sign slip $2x=6-4$ (so $x=1$ and $PA=7$), or adding both tangents ($38$).",
   "options": [
    {
     "id": "a",
@@ -999,7 +993,7 @@
    "alt": "Tangents TP and TQ meeting at 70 degrees with the chord PQ and radii"
   },
   "hint": "First find $\\angle TPQ$ in the isosceles triangle $TPQ$, then subtract it from $\\angle OPT$.",
-  "explanation": "$TP=TQ$, so $\\angle TPQ=\\frac{180^\\circ-70^\\circ}{2}=55^\\circ$. Also $\\angle OPT=90^\\circ$, so $\\angle OPQ=90^\\circ-55^\\circ=35^\\circ$ (this is the result $\\angle PTQ=2\\angle OPQ$). Traps: answering $55^\\circ$ ($\\angle TPQ$) or forgetting to subtract.",
+  "explanation": "$TP=TQ$, so $\\angle TPQ=\\frac{180^\\circ-70^\\circ}{2}=55^\\circ$. Also $\\angle OPT=90^\\circ$, so $\\angle OPQ=90^\\circ-55^\\circ=35^\\circ$ (this is the result $\\angle PTQ=2\\angle OPQ$). Traps: answering $55^\\circ$ ($\\angle TPQ$), copying $70^\\circ$, or $90^\\circ-70^\\circ=20^\\circ$.",
   "options": [
    {
     "id": "a",
@@ -1355,7 +1349,7 @@
    "alt": "Circle of radius 10 with chord PQ of length 12 and tangents at P and Q meeting at T"
   },
   "hint": "$OT$ bisects $PQ$ at right angles. Use similar triangles $TRP$ and $PRO$.",
-  "explanation": "$OT\\perp PQ$ and $R$ is the midpoint of $PQ$, so $PR=6$ cm and $OR=\\sqrt{10^2-6^2}=8$ cm. Right triangles $TRP$ and $PRO$ are similar (AA), so $\\frac{TP}{PR}=\\frac{PO}{RO}$, i.e. $TP=\\frac{6\\times10}{8}=\\frac{15}{2}$ cm. Traps: inverting the ratio ($\\frac{40}{3}$), adding $6+8$, or taking $TP=OP$.",
+  "explanation": "$OT\\perp PQ$ and $R$ is the midpoint of $PQ$, so $PR=6$ cm and $OR=\\sqrt{10^2-6^2}=8$ cm. Right triangles $TRP$ and $PRO$ are similar (AA), so $\\frac{TP}{PR}=\\frac{PO}{RO}$, i.e. $TP=\\frac{6\\times10}{8}=\\frac{15}{2}$ cm. Traps: swapping $PR$ and $RO$ ($\\frac{8\\times10}{6}=\\frac{40}{3}$), adding $6+8$, or taking $TP=OP$.",
   "options": [
    {
     "id": "a",
@@ -1444,7 +1438,7 @@
    "src": "/img/c10-ma-circles/chord-contact.svg",
    "alt": "Point P at 25 cm from O with tangents PA, PB and chord AB of a circle of radius 15 cm"
   },
-  "hint": "Find $PA$ first. Then use that $AB$ is the perpendicular bisector-pair partner of $OP$ and compare areas of $\\triangle OAP$.",
+  "hint": "Find $PA$ first. Then use that $OP$ bisects $AB$ at right angles, and find the altitude of right $\\triangle OAP$ from $A$.",
   "explanation": "$PA=\\sqrt{25^2-15^2}=20$ cm. In right $\\triangle OAP$ the altitude from $A$ to $OP$ is $\\frac{OA\\times AP}{OP}=\\frac{15\\times20}{25}=12$ cm, and this is half of $AB$ (since $OP$ bisects $AB$ at right angles). So $AB=24$ cm. Traps: giving the tangent length $20$, the half-chord $12$, or the diameter $30$.",
   "options": [
    {
@@ -1517,7 +1511,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "The chord $AB$ of the larger circle touches the smaller circle at the small dot. Tap the **radius of the smaller circle drawn to the point of contact**.",
+  "prompt": "The chord $AB$ of the larger circle touches the smaller circle at $P$. Tap the **radius of the smaller circle drawn to the point of contact**.",
   "image": {
    "src": "/img/c10-ma-circles/conc-hs.svg",
    "alt": "Two concentric circles with a chord AB of the larger circle touching the smaller one, with numbered markers"
@@ -1527,7 +1521,7 @@
   "spots": [
    {
     "id": "chord",
-    "x": 50.0,
+    "x": 64.0,
     "y": 76.5,
     "label": "Chord AB"
    },

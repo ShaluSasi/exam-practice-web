@@ -526,7 +526,7 @@
       "c"
     ],
     "hint": "A number ending in 0 is divisible by 10, so its prime factorisation must contain both 2 and 5.",
-    "explanation": "A number ending in 0 is divisible by $2$ and by $5$, so both primes must appear in its factorisation, and by uniqueness no other primes can appear from nowhere. $4^n = 2^{2n}$ has no 5; $6^n = 2^n3^n$ has no 5; $15^n = 3^n5^n$ has no 2. But $20^n = 2^{2n}5^n$ and $10^n = 2^n5^n$ contain both, so they end with 0."
+    "explanation": "A number ending in 0 is divisible by $2$ and by $5$, so both primes must appear in its factorisation. By uniqueness, the only primes in $b^n$ are the primes of $b$. $4^n = 2^{2n}$ has no 5; $6^n = 2^n3^n$ has no 5; $15^n = 3^n5^n$ has no 2. But $20^n = 2^{2n}5^n$ and $10^n = 2^n5^n$ contain both, so they end with 0."
   },
   {
     "id": "in-cbse-10-math-real-numbers-012",
@@ -1036,7 +1036,7 @@
     ],
     "answer": "d",
     "hint": "The side must divide both 504 and 360, and be as big as possible.",
-    "explanation": "The largest side is $\\text{HCF}(504, 360) = 72$ cm ($504 = 2^3\\times3^2\\times7$, $360 = 2^3\\times3^2\\times5$). Along the length $504\\div72 = 7$ tiles, along the width $360\\div72 = 5$ tiles, so $7\\times5 = 35$ tiles. A side of 36 cm or 24 cm fits but is not the largest; 12 tiles comes from dividing the perimeter, not the area."
+    "explanation": "The largest side is $\\text{HCF}(504, 360) = 72$ cm ($504 = 2^3\\times3^2\\times7$, $360 = 2^3\\times3^2\\times5$). Along the length $504\\div72 = 7$ tiles, along the width $360\\div72 = 5$ tiles, so $7\\times5 = 35$ tiles. A side of 36 cm or 24 cm fits but is not the largest; 12 tiles comes from adding $7+5$ instead of multiplying."
   },
   {
     "id": "in-cbse-10-math-real-numbers-024",
@@ -1945,7 +1945,7 @@
     ],
     "answer": "b",
     "hint": "Move $\\sqrt5$ to one side and $\\dfrac ab$ to the other.",
-    "explanation": "$\\sqrt5 = 6-\\dfrac ab = \\dfrac{6b-a}{b}$. Since $a, b$ are integers, the right side is rational, so $\\sqrt5$ would be rational, contradicting the fact that $\\sqrt5$ is irrational. So $6-\\sqrt5$ is irrational. Swapping the sides gives $-\\sqrt5$, adding $a$ is a sign slip, and $a/6b$ treats the 6 as a factor."
+    "explanation": "$\\sqrt5 = 6-\\dfrac ab = \\dfrac{6b-a}{b}$. Since $a, b$ are integers, the right side is rational, so $\\sqrt5$ would be rational, contradicting the fact that $\\sqrt5$ is irrational. So $6-\\sqrt5$ is irrational. The first option equals $\\dfrac ab-6$, which is $-\\sqrt5$ (a sign slip); adding $a$ is another sign slip; and $\\dfrac{a}{6b}$ wrongly treats the 6 as a factor."
   },
   {
     "id": "in-cbse-10-math-real-numbers-043",
@@ -2054,7 +2054,7 @@
       }
     ],
     "answer": "b",
-    "hint": "Estimate $\\sqrt5 \\approx 2.24$, then compute $3 + 2\\times2.24$.",
+    "hint": "Estimate $\\sqrt5$ first, and remember to multiply by 2 before adding 3.",
     "explanation": "$\\sqrt5\\approx2.236$, so $3+2\\sqrt5 \\approx 3+4.472 = 7.47$. Dropping the 2 gives $3+\\sqrt5 \\approx 5.24$, dropping the 3 gives $2\\sqrt5\\approx4.47$, and adding $3+2$ before multiplying gives $5\\sqrt5\\approx11.18$. Each of these is an error of operations, and the right value sits between 6 and 9."
   },
   {
