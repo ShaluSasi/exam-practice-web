@@ -65,14 +65,15 @@ export async function signIn(request: Request, env: Env, url: URL): Promise<Resp
   return json(result, { "Set-Cookie": cookie(token, maxAge, url) });
 }
 
-export async function me(request: Request, env: Env): Promise<Response> {
+export async function me(request: Request, env: Env, url: URL): Promise<Response> {
   const session = await readSession(request, env);
   if (!session) return json({ user: null });
   const row = await env.DB.prepare("SELECT role, imported_at FROM users WHERE id = ?")
     .bind(session.id)
     .first<{ role: Role; imported_at: number | null }>();
-  // Cookie from before the account was saved (or a wiped database): sign in again.
-  if (!row) return json({ user: null });
+  // Cookie from before the account was saved (or a wiped database): sign in again. Clear the cookie
+  // too, or every later request still carries a user id that saving progress would fail on.
+  if (!row) return json({ user: null }, { "Set-Cookie": cookie("", 0, url) });
   return json({ user: { ...session, role: row.role }, canImport: row.imported_at == null });
 }
 

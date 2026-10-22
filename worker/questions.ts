@@ -101,14 +101,11 @@ export async function checkAnswer(request: Request, env: Env): Promise<Response>
 
   const user = roundId ? await optionalUser(request, env) : null;
   if (user && roundId) {
+    // A session whose account is gone (e.g. a wiped local database) saves nothing and is graded as a guest's.
     const [, saved] = await env.DB.batch([
-      env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
-        user.id,
-        roundId,
-        q.id,
-        response === undefined ? null : JSON.stringify(response),
-        Date.now(),
-      ),
+      env.DB.prepare(
+        "INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) SELECT ?1, ?2, ?3, ?4, ?5 WHERE EXISTS (SELECT 1 FROM users WHERE id = ?1)",
+      ).bind(user.id, roundId, q.id, response === undefined ? null : JSON.stringify(response), Date.now()),
       env.DB.prepare("SELECT response FROM checks WHERE user_id = ? AND round_id = ? AND question_id = ?").bind(user.id, roundId, q.id),
     ]);
     const row = saved.results[0] as { response: string | null } | undefined;

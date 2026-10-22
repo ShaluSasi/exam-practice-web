@@ -51,7 +51,7 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
       case "GET /api/auth/config":
         return json({ clientId: env.GOOGLE_CLIENT_ID || null });
       case "GET /api/auth/me":
-        return await me(request, env);
+        return await me(request, env, url);
       case "POST /api/auth/google":
         return await signIn(request, env, url);
       case "POST /api/auth/logout":
