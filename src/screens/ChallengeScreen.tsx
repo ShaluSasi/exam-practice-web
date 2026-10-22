@@ -10,7 +10,7 @@ import { PERIOD_LABEL } from "../components/ShareSheet";
 import { ApiError, OFFLINE, api } from "../store/auth";
 import type { RoundSource } from "../store/content";
 import type { Period } from "../store/leaderboard";
-import { useNav } from "../store/nav";
+import { forgetLink, useNav } from "../store/nav";
 
 interface PublicShare {
   code: string;
@@ -45,7 +45,7 @@ export function ChallengeScreen({ onStart }: { onStart: (source: RoundSource, ti
   useEffect(load, [load]);
 
   const leave = () => {
-    window.history.replaceState(null, "", "/");
+    forgetLink();
     useNav.setState({ challengeCode: null });
   };
   const home = () => {

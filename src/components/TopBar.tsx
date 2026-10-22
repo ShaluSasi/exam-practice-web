@@ -10,7 +10,6 @@ const THEME_ICON = { system: Monitor, light: Sun, dark: Moon };
 
 /** Goes to the landing (home) page, leaving any challenge link or result behind. */
 function goHome() {
-  if (window.location.pathname !== "/") window.history.replaceState(null, "", "/");
   useNav.setState({ challengeCode: null, opponent: null });
   useNav.getState().goLanding();
 }
