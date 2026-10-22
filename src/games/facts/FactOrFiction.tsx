@@ -8,7 +8,7 @@ import { play } from "../../lib/sound";
 import { SUBJECT_STYLE } from "../../lib/subjects";
 import { useCurrentGrade } from "../../store/profile";
 import { useGames } from "../../store/games";
-import { GameIntro, GameOver, GameTopBar, PointsPop, type Mistake, type SkillScore } from "../GameKit";
+import { GameIntro, GameOver, GameTopBar, PointsPop, useTopics, type Mistake, type SkillScore } from "../GameKit";
 import { gameMeta } from "../registry";
 import { FACTS, type Fact } from "./facts";
 
@@ -25,9 +25,14 @@ function shuffled<T>(xs: readonly T[]): T[] {
   return a;
 }
 
-/** Facts for a class: its own syllabus plus any earlier class's, as revision, but never a later class's. */
-function factsFor(grade: number): Fact[] {
-  return FACTS.filter((f) => f.grade <= grade);
+/**
+ * Facts for a class: its own syllabus plus any earlier class's, as revision, but never a later class's.
+ * Only the subjects switched on at the start screen; all of them if none of those have cards for this class.
+ */
+function factsFor(grade: number, subjects: string[]): Fact[] {
+  const forGrade = FACTS.filter((f) => f.grade <= grade);
+  const picked = forGrade.filter((f) => subjects.includes(region.subjects[f.subject]));
+  return picked.length ? picked : forGrade;
 }
 
 interface Result {
@@ -154,7 +159,8 @@ function SwipeCard({ fact, onAnswer }: { fact: Fact; onAnswer: (truth: boolean) 
 
 function Round({ onDone }: { onDone: (r: Result) => void }) {
   const grade = useCurrentGrade();
-  const [deck] = useState(() => shuffled(factsFor(grade)));
+  const subjects = useTopics(meta);
+  const [deck] = useState(() => shuffled(factsFor(grade, subjects)));
   const [idx, setIdx] = useState(0);
   const [lives, setLives] = useState(LIVES);
   const [score, setScore] = useState(0);

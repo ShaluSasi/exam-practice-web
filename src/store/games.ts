@@ -18,6 +18,12 @@ interface GamesState {
   /** Local date (YYYY-MM-DD) a game was last played, and how many days in a row games were played. */
   lastDay: string | null;
   dayStreak: number;
+  /**
+   * Topics a student turned off on a game's start screen. Stored as the ones left out, not the ones
+   * picked, so a topic added to the game later is on by default.
+   */
+  skipped: Partial<Record<GameId, string[]>>;
+  setSkipped: (id: GameId, topics: string[]) => void;
   /** Saves a finished game. Returns true when the score beats the previous best. */
   finish: (id: GameId, score: number, correct: number) => boolean;
   /** Saves a solved Balance It level. Returns true when it earns more stars than before. */
@@ -41,6 +47,8 @@ export const useGames = create<GamesState>()(
       solved: 0,
       lastDay: null,
       dayStreak: 0,
+      skipped: {},
+      setSkipped: (id, topics) => set((s) => ({ skipped: { ...s.skipped, [id]: topics } })),
       finish: (id, score, correct) => {
         const s = get();
         const prev = s.records[id];

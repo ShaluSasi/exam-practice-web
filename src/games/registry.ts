@@ -1,5 +1,10 @@
 import { Atom, FlaskConical, Layers, Rocket, Zap, type LucideIcon } from "lucide-react";
+import { region } from "../config/regions";
+import type { SubjectId } from "../content/schema";
 import type { GameId } from "../store/games";
+
+/** Subjects with Fact or Fiction cards, in the order the topic picker lists them. */
+export const FACT_SUBJECTS: SubjectId[] = ["physics", "chemistry", "biology", "maths", "social"];
 
 export interface GameMeta {
   id: GameId;
@@ -15,6 +20,8 @@ export interface GameMeta {
   how: string[];
   /** Shown to students and parents: what the game practises. */
   learn: string[];
+  /** The `learn` items are the game's question topics, and students can pick which ones to play. */
+  pickTopics?: boolean;
   /** Lowest class this game's content suits. Hidden from students below it so they never see unlearned material. */
   minGrade?: number;
   /** Highest class this game is meant for. Hidden from students above it. */
@@ -88,7 +95,9 @@ export const GAMES: GameMeta[] = [
       "Every card shows a one-line reason, so you learn even when you miss.",
       "You have 3 lives. Keep your streak going for bonus points.",
     ],
-    learn: ["Common exam traps", "Physics and Chemistry facts", "Cell biology", "Number systems and geometry", "History, geography and civics"],
+    // Subject names as the results screen shows them: cards are filtered by these.
+    learn: FACT_SUBJECTS.map((s) => region.subjects[s]),
+    pickTopics: true,
   },
   {
     id: "elements",
@@ -107,7 +116,9 @@ export const GAMES: GameMeta[] = [
       "Right answers add time. Wrong answers take 3 seconds away.",
       "Get answers right in a row for a combo: up to ×4 points.",
     ],
-    learn: ["Symbols of elements", "Valency", "Atomic number", "Protons, neutrons and electrons", "Separating mixtures"],
+    // Must match the `Skill` names in elements.ts: questions are filtered by these.
+    learn: ["Element symbols", "Valency", "Atomic number", "Subatomic particles", "Separating mixtures"],
+    pickTopics: true,
   },
 ];
 

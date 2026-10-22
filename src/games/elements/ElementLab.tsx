@@ -6,7 +6,7 @@ import { RichText } from "../../components/RichText";
 import { burst } from "../../lib/celebrate";
 import { play } from "../../lib/sound";
 import { useGames } from "../../store/games";
-import { GameIntro, GameOver, GameTopBar, PointsPop, type Mistake, type SkillScore } from "../GameKit";
+import { GameIntro, GameOver, GameTopBar, PointsPop, useTopics, type Mistake, type SkillScore } from "../GameKit";
 import { gameMeta } from "../registry";
 import { ELEMENT_QUESTIONS, type ElementQ } from "./elements";
 
@@ -112,24 +112,29 @@ function Countdown({ onDone }: { onDone: () => void }) {
  * Options are shuffled on every draw: the data lists the answer first, so an
  * unshuffled card would always have the right answer in the same place.
  */
-function useQuestionDraw() {
-  const queue = useRef<ElementQ[]>(shuffled(ELEMENT_QUESTIONS));
+function useQuestionDraw(topics: string[]) {
+  const [pool] = useState(() => {
+    const picked = ELEMENT_QUESTIONS.filter((q) => topics.includes(q.skill));
+    return picked.length ? picked : ELEMENT_QUESTIONS;
+  });
+  const queue = useRef<ElementQ[]>(shuffled(pool));
   const pos = useRef(0);
   return useCallback((): ElementQ => {
     if (pos.current >= queue.current.length) {
       const last = queue.current[queue.current.length - 1];
-      const next = shuffled(ELEMENT_QUESTIONS);
+      const next = shuffled(pool);
       if (next[0] === last) [next[0], next[1]] = [next[1], next[0]];
       queue.current = next;
       pos.current = 0;
     }
     const q = queue.current[pos.current++];
     return { ...q, options: shuffled(q.options) };
-  }, []);
+  }, [pool]);
 }
 
 function Round({ onDone }: { onDone: (r: Result) => void }) {
-  const draw = useQuestionDraw();
+  // Only the topics switched on at the start screen.
+  const draw = useQuestionDraw(useTopics(meta));
   const [started, setStarted] = useState(false);
   const [question, setQuestion] = useState<ElementQ>(() => draw());
   const [qn, setQn] = useState(0);

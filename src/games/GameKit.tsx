@@ -46,6 +46,14 @@ export function Sparkles({ glyphs }: { glyphs: string[] }) {
   );
 }
 
+const NONE: string[] = [];
+
+/** The topics a student has switched on for a `pickTopics` game: every `learn` item they haven't turned off. */
+export function useTopics(meta: GameMeta): string[] {
+  const skipped = useGames((s) => s.skipped[meta.id] ?? NONE);
+  return meta.pickTopics ? meta.learn.filter((t) => !skipped.includes(t)) : meta.learn;
+}
+
 /** Start screen: what the game is, how to play, what it teaches, and the best score so far. */
 export function GameIntro({
   meta,
@@ -64,6 +72,14 @@ export function GameIntro({
   children?: ReactNode;
 }) {
   const record = useGames((s) => s.records[meta.id]);
+  const setSkipped = useGames((s) => s.setSkipped);
+  const topics = useTopics(meta);
+  const canPlay = topics.length > 0;
+  const toggle = (t: string) => {
+    play("tap");
+    const on = topics.includes(t) ? topics.filter((x) => x !== t) : [...topics, t];
+    setSkipped(meta.id, meta.learn.filter((x) => !on.includes(x)));
+  };
   const Icon = meta.icon;
   return (
     <div className="pb-12">
@@ -91,15 +107,20 @@ export function GameIntro({
             {onPlay && (
               <motion.button
                 type="button"
+                disabled={!canPlay}
                 onClick={() => {
                   play("tap");
                   onPlay();
                 }}
-                whileHover={{ scale: 1.04 }}
-                whileTap={{ scale: 0.96, y: 2 }}
-                animate={{ boxShadow: ["0 6px 0 0 rgb(0 0 0 / 0.25)", "0 6px 24px 4px rgb(255 255 255 / 0.45)", "0 6px 0 0 rgb(0 0 0 / 0.25)"] }}
+                whileHover={canPlay ? { scale: 1.04 } : undefined}
+                whileTap={canPlay ? { scale: 0.96, y: 2 } : undefined}
+                animate={
+                  canPlay
+                    ? { boxShadow: ["0 6px 0 0 rgb(0 0 0 / 0.25)", "0 6px 24px 4px rgb(255 255 255 / 0.45)", "0 6px 0 0 rgb(0 0 0 / 0.25)"] }
+                    : { boxShadow: "0 6px 0 0 rgb(0 0 0 / 0.25)" }
+                }
                 transition={{ boxShadow: { duration: 2, repeat: Infinity } }}
-                className="flex items-center gap-2 rounded-2xl bg-white px-8 py-4 font-display text-xl font-extrabold text-[#1b1f3b]"
+                className="flex items-center gap-2 rounded-2xl bg-white px-8 py-4 font-display text-xl font-extrabold text-[#1b1f3b] disabled:cursor-not-allowed disabled:opacity-60"
               >
                 <Play className="size-5 fill-current" /> {playLabel}
               </motion.button>
@@ -146,14 +167,58 @@ export function GameIntro({
           <h3 className="flex items-center gap-2 font-display text-lg font-extrabold">
             <GraduationCap className="size-5 text-maths" /> What you practise
           </h3>
-          <p className="mt-1 text-sm text-muted">Straight from the CBSE syllabus.</p>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {meta.learn.map((l) => (
-              <span key={l} className="flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5 text-sm font-semibold">
-                <Check className="size-3.5 text-ok" strokeWidth={3} /> {l}
-              </span>
-            ))}
-          </div>
+          {meta.pickTopics ? (
+            <>
+              <p className="mt-1 text-sm text-muted">Straight from the CBSE syllabus. Tap a topic to leave it out of the game.</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {meta.learn.map((l) => {
+                  const on = topics.includes(l);
+                  return (
+                    <motion.button
+                      key={l}
+                      type="button"
+                      aria-pressed={on}
+                      onClick={() => toggle(l)}
+                      whileTap={{ scale: 0.94 }}
+                      className={clsx(
+                        "flex items-center gap-1.5 rounded-full border-2 px-3 py-1.5 text-sm font-semibold transition-colors",
+                        on ? "border-ok/60 bg-ok-soft" : "border-line bg-transparent text-muted",
+                      )}
+                    >
+                      <span
+                        className={clsx(
+                          "grid size-4 shrink-0 place-items-center rounded-[5px] border-2",
+                          on ? "border-ok bg-ok text-white" : "border-line",
+                        )}
+                      >
+                        {on && <Check className="size-3" strokeWidth={4} />}
+                      </span>
+                      {l}
+                    </motion.button>
+                  );
+                })}
+              </div>
+              <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm font-semibold">
+                {!canPlay && <span className="text-bad">Pick at least one topic to play.</span>}
+                {topics.length < meta.learn.length && (
+                  <button type="button" onClick={() => setSkipped(meta.id, [])} className="text-brand hover:underline">
+                    Select all
+                  </button>
+                )}
+              </div>
+            </>
+          ) : (
+            <>
+              <p className="mt-1 text-sm text-muted">Straight from the CBSE syllabus.</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {meta.learn.map((l) => (
+                  <span key={l} className="flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5 text-sm font-semibold">
+                    <Check className="size-3.5 text-ok" strokeWidth={3} /> {l}
+                  </span>
+                ))}
+              </div>
+            </>
+          )}
         </motion.section>
       </div>
     </div>
