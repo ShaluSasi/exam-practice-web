@@ -458,7 +458,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The picture shows the ways to fill $1$, $2$ and $3$ beats with short ($1$ beat) and long ($2$ beats) sounds. The counts $V_1 = 1$, $V_2 = 2$, $V_3 = 3, \\dots$ follow $V_n = V_{n-1} + V_{n-2}$. What is $V_{10}$?",
+    "prompt": "The picture shows the ways to fill $1$, $2$ and $3$ beats with short ($1$ beat) and long ($2$ beats) sounds. The counts $V_1 = 1$, $V_2 = 2$, $V_3 = 3, \\dots$ follow the rule $V_n = V_{n-1} + V_{n-2}$. What is $V_{10}$?",
     "image": {
       "src": "/img/maths08/fib-tiles.svg",
       "alt": "Rows of short and long tiles arranged to fill one, two and three beats"
@@ -615,7 +615,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The pattern uses $1, 5, 9, 13$ tiles in Stages 1 to 4, growing by the same number each stage. How many tiles are in **Stage 20**?",
+    "prompt": "A pattern uses $1, 5, 9, 13$ tiles in Stages 1 to 4. It grows by the same number at each stage. How many tiles are in **Stage 20**?",
     "image": {
       "src": "/img/maths08/plus-pattern.svg",
       "alt": "A plus-shaped pattern of tiles whose arms get longer at each stage"
@@ -654,7 +654,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "On the graph, each point is $(x, y)$ with $x$ the stage number and $y$ the number of squares in a growing pattern ($1, 5, 9, 13, 17$). Tap the point for **Stage 4**.",
+    "prompt": "Each point on the graph is $(x, y)$. Here $x$ is the stage number and $y$ is the number of squares in a growing pattern ($1, 5, 9, 13, 17$). Tap the point for **Stage 4**.",
     "image": {
       "src": "/img/maths08/ap-graph.svg",
       "alt": "A graph with numbered axes and five points lying on a straight line, with numbered markers"
@@ -707,7 +707,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Same graph. Tap the point that stands for the stage with **9 squares**.",
+    "prompt": "This is the same graph. Tap the point for the stage with **9 squares**.",
     "image": {
       "src": "/img/maths08/ap-graph.svg",
       "alt": "A graph with numbered axes and five points lying on a straight line, with numbered markers"
@@ -760,7 +760,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A taxi charges a fixed booking fee of ₹200 plus ₹40 for every kilometre. The fares after $1, 2, 3, \\dots$ km form an AP starting at ₹240. What is the fare for **15 km**?",
+    "prompt": "A taxi charges a fixed booking fee of ₹200, plus ₹40 for every kilometre. The fares for $1, 2, 3, \\dots$ km form an AP starting at ₹240. What is the fare for **15 km**?",
     "image": {
       "src": "/img/maths08/taxi.svg",
       "alt": "A taxi on a road marked in kilometres, with a fare board"
@@ -916,7 +916,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "How much is the **sum of all two-digit numbers divisible by 3**? (They run from $12$ to $99$.)",
+    "prompt": "What is the **sum of all two-digit numbers divisible by 3**? (They go from $12$ to $99$.)",
     "image": {
       "src": "/img/maths08/multiples-3.svg",
       "alt": "A number line from 10 to 99 with the multiples of 3 marked by orange ticks"
@@ -955,7 +955,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Harish starts at ₹5,00,000 a year and gets a rise of ₹20,000 every year. Counting the starting year as year 1, in which **year of work** does his salary reach ₹7,00,000?",
+    "prompt": "Harish's starting salary is ₹5,00,000 a year. He gets a raise of ₹20,000 every year. The starting year is counted as year 1. In which **year of work** does his salary reach ₹7,00,000?",
     "image": {
       "src": "/img/maths08/salary-steps.svg",
       "alt": "A staircase of yearly salary steps with a figure climbing it"
@@ -1084,7 +1084,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The blue dots show $1 + 2 + 3 + 4 + 5 + 6$ and together with a turned-over copy they fill a $6 \\times 7$ rectangle. Tap a dot of the **second copy** that completes the rectangle.",
+    "prompt": "The blue dots show $1 + 2 + 3 + 4 + 5 + 6$. Together with a turned-over copy, they fill a $6 \\times 7$ rectangle. Tap a dot of the **second copy** that completes the rectangle.",
     "image": {
       "src": "/img/maths08/rect-dots.svg",
       "alt": "A rectangle of dots with a blue staircase part and an orange part, with numbered markers"
@@ -1451,7 +1451,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "On this graph the points are (stage number, squares) for a pattern that doubles each stage: $3, 6, 12, 24, 48$. Tap the point where the number of squares is $24$.",
+    "prompt": "This graph shows points (stage number, squares) for a pattern that doubles at each stage: $3, 6, 12, 24, 48$. Tap the point where the number of squares is $24$.",
     "image": {
       "src": "/img/maths08/gp-graph.svg",
       "alt": "A graph with numbered axes and five points rising faster and faster, with numbered markers"
@@ -1728,7 +1728,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In the Sierpinski carpet each red square is cut into $9$ equal squares and the middle one is removed. Stage 0 has $1$ square, Stage 1 has $8$. How many red squares are there in **Stage 3**?",
+    "prompt": "In the Sierpinski carpet, each red square is cut into $9$ equal squares and the middle one is removed. Stage 0 has $1$ square and Stage 1 has $8$. How many red squares are there in **Stage 3**?",
     "image": {
       "src": "/img/maths08/carpet.svg",
       "alt": "Three stages of a red square carpet with square holes"
@@ -1767,7 +1767,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A ball is dropped from $24$ ft and each bounce reaches $\\dfrac{3}{4}$ of the previous height. Tap the bar that shows the height after the **3rd bounce**.",
+    "prompt": "A ball is dropped from $24$ ft. Each bounce reaches $\\dfrac{3}{4}$ of the previous height. Tap the bar that shows the height after the **3rd bounce**.",
     "image": {
       "src": "/img/maths08/bounce-bars.svg",
       "alt": "A bar chart of decreasing heights with numbered axes and numbered markers above the bars"
@@ -1877,7 +1877,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The same ball falls from $80$ m and rebounds to $60\\%$ of its previous height each time. What total vertical distance has it travelled by the time it **hits the ground for the 6th time**? (in metres)",
+    "prompt": "The same ball falls from $80$ m. Each time, it bounces back up to $60\\%$ of its previous height. What total vertical distance (up and down) has it travelled when it **hits the ground for the 6th time**? (in metres)",
     "image": {
       "src": "/img/maths08/bounce-80.svg",
       "alt": "A ball dropped from a height, bouncing lower each time"
@@ -1994,7 +1994,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A culture has $30$ bacteria at the start, and the number **doubles every hour**. How many bacteria are present at the end of the **4th hour**?",
+    "prompt": "A culture starts with $30$ bacteria, and the number **doubles every hour**. How many bacteria are there at the end of the **4th hour**?",
     "image": {
       "src": "/img/maths08/petri.svg",
       "alt": "Petri dishes with more and more bacteria dots after each hour"
@@ -2075,7 +2075,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "Select **all** the runs of consecutive natural numbers whose sum is exactly $100$.",
+    "prompt": "Select **all** the groups of consecutive natural numbers that add up to exactly $100$.",
     "image": {
       "src": "/img/maths08/run.svg",
       "alt": "A row of consecutive number cards with hidden values"

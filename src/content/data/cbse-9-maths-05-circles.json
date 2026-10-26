@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Ripples from a raindrop, the rings of a sawn tree trunk, a sunflower head and the full moon all look like circles, and early rock art shows circles too. Which property is shared by **every** circle, and is used to define one?",
+    "prompt": "Ripples from a raindrop, the rings of a cut tree trunk, a sunflower head and the full moon all look like circles. Even early rock art shows circles. Which property does **every** circle have, and is used to define a circle?",
     "image": {
       "src": "/img/maths05/nature-circles.svg",
       "alt": "Rock-art shapes, ripples on water, a tree-trunk slice, a sunflower and the moon"
@@ -260,7 +260,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "A turning wheel always looks the same, and folding a paper circle edge to edge leaves a crease. Select **all** the true statements.",
+    "prompt": "A turning wheel always looks the same. Folding a paper circle edge to edge leaves a crease. Select **all** the true statements.",
     "image": {
       "src": "/img/maths05/wheel-symmetry.svg",
       "alt": "A turning wheel on a road and a paper circle with fold creases"
@@ -600,7 +600,7 @@
       "alt": "Three points on one line with dashed perpendicular bisectors"
     },
     "assertion": "No circle can pass through three distinct points that lie on one straight line.",
-    "reason": "For collinear points A, B, C, the perpendicular bisectors of AB and BC are parallel, so no point is equidistant from all three.",
+    "reason": "For collinear points A, B, C, the perpendicular bisectors of AB and BC are parallel. So no point is at the same distance from all three.",
     "answer": "a",
     "hint": "Where would the centre of such a circle have to be?",
     "explanation": "Both are true and R explains A. Both bisectors are perpendicular to the same line, so they are **parallel** and never meet. A centre would have to lie on both, so no centre (and no circle) exists. This also means a straight line can cut a circle in at most two points."
@@ -830,7 +830,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In a circle with centre O and radius 9 cm, chord AB subtends $\\angle AOB = 60^\\circ$ at the centre. How long is AB?",
+    "prompt": "A circle has centre O and radius 9 cm. Chord AB subtends $\\angle AOB = 60^\\circ$ at the centre. How long is AB?",
     "image": {
       "src": "/img/maths05/central-60.svg",
       "alt": "A circle with radii OA and OB of 9 cm making a 60° angle, and chord AB"
@@ -982,7 +982,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Two parallel chords of 10 cm and 24 cm lie on **opposite sides** of the centre of a circle of radius 13 cm. How far apart are the chords?",
+    "prompt": "A circle has radius 13 cm. Two parallel chords of 10 cm and 24 cm lie on **opposite sides** of its centre. How far apart are the chords?",
     "image": {
       "src": "/img/maths05/parallel-opposite.svg",
       "alt": "Two parallel chords of 10 cm and 24 cm on opposite sides of the centre of a circle of radius 13 cm"
@@ -1068,7 +1068,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "order",
-    "prompt": "Arc AB subtends $\\angle AOB = 100^\\circ$ at the centre O. P is on the major arc and Q is on the minor arc. Arrange these angles from **smallest to largest**.",
+    "prompt": "Arc AB subtends $\\angle AOB = 100^\\circ$ at the centre O. Point P is on the major arc and point Q is on the minor arc. Arrange these angles from **smallest to largest**.",
     "image": {
       "src": "/img/maths05/arc-order.svg",
       "alt": "Circle with centre O, P on the major arc and Q on the minor arc, both joined to A and B"
@@ -1337,7 +1337,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "This circle has radius 5 cm and each chord is labelled with its length. Tap the chord that is exactly **3 cm** from the centre.",
+    "prompt": "This circle has radius 5 cm. Each chord is labelled with its length. Tap the chord that is exactly **3 cm** from the centre.",
     "image": {
       "src": "/img/maths05/chord-lengths.svg",
       "alt": "A circle of radius 5 cm with four parallel chords labelled with their lengths, with numbered markers"
@@ -1384,7 +1384,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "In a circle of radius 13 cm, four chords lie at these distances from the centre. Arrange the chords from **shortest to longest**.",
+    "prompt": "A circle has radius 13 cm. Four chords are at the distances given below from the centre. Arrange the chords from **shortest to longest**.",
     "image": {
       "src": "/img/maths05/chord-slide.svg",
       "alt": "A chord sliding away from the centre of a circle and getting shorter"
@@ -1453,7 +1453,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Two parallel chords of 48 cm and 14 cm lie on the **same side** of the centre of a circle and are 17 cm apart. Find the radius.",
+    "prompt": "Two parallel chords of 48 cm and 14 cm lie on the **same side** of the centre of a circle. The chords are 17 cm apart. Find the radius.",
     "image": {
       "src": "/img/maths05/parallel-same.svg",
       "alt": "Two parallel chords of 48 cm and 14 cm on the same side of the centre, 17 cm apart"
@@ -1497,7 +1497,7 @@
       "src": "/img/maths05/shortest-chord.svg",
       "alt": "A chord turning about a fixed point P inside a circle with centre O"
     },
-    "assertion": "Of all the chords through a fixed point P inside a circle (P not the centre O), the shortest is the one perpendicular to OP.",
+    "assertion": "Many chords pass through a fixed point P inside a circle (P is not the centre O). Of all these chords, the shortest one is the chord perpendicular to OP.",
     "reason": "The farther a chord is from the centre, the shorter it is.",
     "answer": "a",
     "hint": "For a chord through P, compare its distance from O with the length OP.",
@@ -1515,7 +1515,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A regular hexagon is inscribed in a circle of radius 8 cm. How far is each side of the hexagon from the centre?",
+    "prompt": "A regular hexagon is inscribed in a circle of radius 8 cm, so all its vertices lie on the circle. How far is each side of the hexagon from the centre?",
     "image": {
       "src": "/img/maths05/hexagon.svg",
       "alt": "A regular hexagon inside a circle of radius 8 cm with a dashed line from the centre to one side"
@@ -1554,7 +1554,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "An arc subtends $130^\\circ$ at the centre O. What angle does it subtend at a point P on the remaining part of the circle?",
+    "prompt": "An arc subtends $130^\\circ$ at the centre O. What angle does it subtend at a point P on the rest of the circle?",
     "image": {
       "src": "/img/maths05/arc-130.svg",
       "alt": "Arc AB makes 130° at the centre O and P is a point on the rest of the circle"
@@ -1646,7 +1646,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "C is the centre and D is a point on the circle outside arc AFB. Arrange the steps that prove $\\angle ACB = 2\\angle ADB$.",
+    "prompt": "C is the centre. D is a point on the circle that is not on arc AFB. Arrange the steps that prove $\\angle ACB = 2\\angle ADB$.",
     "image": {
       "src": "/img/maths05/thm9.svg",
       "alt": "Circle with centre C, arc AFB, a point D and DC extended to E"
@@ -1697,7 +1697,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A, B and C lie on a circle with centre O, and C is on the major arc with $\\angle ACB = 38^\\circ$. Find $\\angle OAB$.",
+    "prompt": "A, B and C lie on a circle with centre O. C is on the major arc and $\\angle ACB = 38^\\circ$. Find $\\angle OAB$.",
     "image": {
       "src": "/img/maths05/isosceles-oab.svg",
       "alt": "Circle with centre O; C sees chord AB at 38° and triangle OAB is shaded"
@@ -1892,7 +1892,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "ABCD is a cyclic quadrilateral with diagonals AC and BD. If $\\angle BAC = 55^\\circ$ and $\\angle DBC = 40^\\circ$, find $\\angle BCD$.",
+    "prompt": "ABCD is a cyclic quadrilateral. Its diagonals are AC and BD. If $\\angle BAC = 55^\\circ$ and $\\angle DBC = 40^\\circ$, find $\\angle BCD$.",
     "image": {
       "src": "/img/maths05/same-segment.svg",
       "alt": "Cyclic quadrilateral ABCD with diagonals; angle BAC is 55° and angle DBC is 40°"
@@ -2009,7 +2009,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "The angles of a quadrilateral ABCD are listed in the order $\\angle A, \\angle B, \\angle C, \\angle D$. Which quadrilaterals are **cyclic**? Select all that apply.",
+    "prompt": "Each option gives the angles of a quadrilateral ABCD in the order $\\angle A, \\angle B, \\angle C, \\angle D$. Which quadrilaterals are **cyclic**? Select all that apply.",
     "image": {
       "src": "/img/maths05/cyclic-abcd.svg",
       "alt": "A quadrilateral ABCD with its angles marked"
@@ -2056,7 +2056,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "B and D lie on a circle with centre O, and the non-reflex $\\angle BOD = 140^\\circ$. A is on the major arc and C is on the minor arc. Find $\\angle BCD$.",
+    "prompt": "B and D lie on a circle with centre O. The non-reflex $\\angle BOD = 140^\\circ$. A is on the major arc and C is on the minor arc. Find $\\angle BCD$.",
     "image": {
       "src": "/img/maths05/reflex-central.svg",
       "alt": "Circle with centre O; angle BOD is 140°, A on the major arc and C on the minor arc"
@@ -2095,7 +2095,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "ABCD is a cyclic quadrilateral with $\\angle ABC = 72^\\circ$. Side CD is extended beyond D to E. Find the exterior angle $\\angle ADE$.",
+    "prompt": "ABCD is a cyclic quadrilateral with $\\angle ABC = 72^\\circ$. Side CD is extended beyond D to a point E. Find the exterior angle $\\angle ADE$.",
     "image": {
       "src": "/img/maths05/exterior-cyclic.svg",
       "alt": "Cyclic quadrilateral ABCD with side CD extended beyond D to E"

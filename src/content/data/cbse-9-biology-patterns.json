@@ -5,7 +5,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Ecological roles",
     "difficulty": "easy", "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the organism in this pond-side scene that works as a **decomposer**, breaking down dead wood and leaves.",
+    "prompt": "Look at this pond-side scene. Tap the organism that is a **decomposer**. It breaks down dead wood and leaves.",
     "image": { "src": "/img/patterns/pond-scene.svg", "alt": "A pond and forest-edge scene with numbered markers on several organisms" },
     "spots": [
       { "id": "tree", "x": 10.5, "y": 18.7, "label": "Tree (producer)" },
@@ -99,7 +99,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Hierarchy of classification",
     "difficulty": "medium", "marks": 1,
     "type": "hotspot",
-    "prompt": "The tiger (*Panthera tigris*) and the lion (*Panthera leo*) share this level of classification, but a house cat does not. Tap it.",
+    "prompt": "The tiger (*Panthera tigris*) and the lion (*Panthera leo*) are in the same group at this level of classification. A house cat is not. Tap this level.",
     "image": { "src": "/img/patterns/ladder.svg", "alt": "Seven levels of classification with numbered markers beside them" },
     "spots": [
       { "id": "phylum", "x": 85, "y": 22.78, "label": "Phylum" },
@@ -317,7 +317,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Hierarchy of classification",
     "difficulty": "hard", "marks": 2,
     "type": "order",
-    "prompt": "Arrange the classification of the **pea plant** from the broadest group to the most specific.",
+    "prompt": "Arrange the classification of the **pea plant** from the broadest (biggest) group to the most specific (smallest) group.",
     "image": { "src": "/img/patterns/flowering.svg", "alt": "A climbing pea plant with flowers and a pod" },
     "items": [
       { "id": "fabaceae", "text": "Fabaceae" },
@@ -483,7 +483,7 @@
     "prompt": "Read the Assertion (A) and Reason (R) carefully.",
     "image": { "src": "/img/patterns/library.svg", "alt": "A messy pile of books beside neatly arranged bookshelves" },
     "assertion": "Biological classification makes it easier to study the millions of organisms on the Earth.",
-    "reason": "Grouping organisms by shared features lets us find, compare and study related organisms systematically, just as books sorted by subject are easy to find in a library.",
+    "reason": "When organisms are grouped by shared features, we can find, compare and study related organisms in an orderly way. It is like books sorted by subject in a library, which are easy to find.",
     "answer": "a",
     "hint": "Think how hard it would be to find one book in a heap of thousands.",
     "explanation": "Both are true and R explains A. Classification organises information, shows how organisms are related, helps name newly found organisms and identifies species under threat. It also gives scientists all over the world a **common system** to discuss organisms."
@@ -494,7 +494,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Endemic species",
     "difficulty": "medium", "marks": 2,
     "type": "multi",
-    "prompt": "Select **all** the species that are **endemic to India**, found naturally nowhere else.",
+    "prompt": "Select **all** the species that are **endemic to India**. This means they are found naturally nowhere else.",
     "options": [
       { "id": "a", "text": "Nilgiri tahr", "image": { "src": "/img/patterns/nilgiri-tahr.svg", "alt": "A wild mountain goat on a grassy hill" } },
       { "id": "b", "text": "Tiger", "image": { "src": "/img/patterns/tiger.svg", "alt": "A tiger's face" } },
@@ -592,7 +592,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Arthropoda",
     "difficulty": "easy", "marks": 1,
     "type": "mcq",
-    "prompt": "Meena and Hari spot a small animal in the garden. Hari says it is an insect; Meena says it is an earthworm. Which feature would confirm that it is an **insect**?",
+    "prompt": "Meena and Hari spot a small animal in the garden. Hari says it is an insect. Meena says it is an earthworm. Which feature would show that it is an **insect**?",
     "image": { "src": "/img/patterns/garden-pair.svg", "alt": "Two small garden animals on the soil" },
     "options": [
       { "id": "a", "text": "Its body is bilaterally symmetrical" },
@@ -610,7 +610,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Porifera",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Sponges lack true tissues and organs. Which feature of **sponge cells** supports placing them in the animal kingdom?",
+    "prompt": "Sponges do not have true tissues and organs. Which feature of **sponge cells** supports placing them in the animal kingdom?",
     "image": { "src": "/img/patterns/sponge.svg", "alt": "A sponge with water flowing through its pores" },
     "options": [
       { "id": "a", "text": "They have a cell membrane but no cell wall" },
@@ -646,7 +646,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Need for classification",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Scientists have recorded nearly **300** bird species in Pakke Tiger Reserve, Arunachal Pradesh, while India has about **1,300**. Roughly what percentage of India's bird species are found in Pakke?",
+    "prompt": "Nearly **300** bird species have been recorded in Pakke Tiger Reserve, Arunachal Pradesh. India has about **1,300** bird species. Roughly what percentage of India's bird species are found in Pakke?",
     "image": { "src": "/img/patterns/hornbill.svg", "alt": "A large bird with a huge curved bill flying past a tall old tree" },
     "options": [
       { "id": "a", "text": "About 4%" },
@@ -771,7 +771,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Kingdom Monera",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Layered rock mounds called **stromatolites**, found in Rajasthan and Madhya Pradesh, are among the earliest evidence of life. Which organisms formed them?",
+    "prompt": "**Stromatolites** are layered rock mounds found in Rajasthan and Madhya Pradesh. They are among the earliest signs of life. Which organisms formed them?",
     "image": { "src": "/img/patterns/stromatolite.svg", "alt": "Layered rock mounds in shallow sunlit water" },
     "options": [
       { "id": "a", "text": "Ancient ferns" },
@@ -789,7 +789,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Indian contributions",
     "difficulty": "easy", "marks": 1,
     "type": "mcq",
-    "prompt": "*Hortus Malabaricus*, one of the earliest scientific books on Indian plants, was compiled in the 17th century by Hendrik van Rheede with the help of which Indian herbalist and physician?",
+    "prompt": "*Hortus Malabaricus* is one of the earliest scientific books on Indian plants. Hendrik van Rheede put it together in the 17th century. Which Indian herbalist and doctor helped him?",
     "image": { "src": "/img/patterns/hortus.svg", "alt": "An old open book with a hand-drawn plant and notes" },
     "options": [
       { "id": "a", "text": "Itty Achudan" },
@@ -843,7 +843,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Protochordates",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "*Amphioxus* is a small sea animal with a flexible rod, the **notochord**, along its back, but no backbone. It is best described as a…",
+    "prompt": "*Amphioxus* is a small sea animal. It has a flexible rod called the **notochord** along its back, but no backbone. It is best described as a…",
     "image": { "src": "/img/patterns/amphioxus.svg", "alt": "A small, slender, fish-like sea animal swimming" },
     "options": [
       { "id": "a", "text": "non-chordate (invertebrate)" },
@@ -932,7 +932,7 @@
     "chapter": "Patterns in Life: Diversity and Classification", "chapterNo": 4, "topic": "Biodiversity under threat",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "The **Sangai**, Manipur's 'dancing deer', lives on **phumdis**, the floating mats of soil and plants in Loktak Lake. What is the main threat to it today?",
+    "prompt": "The **Sangai** is Manipur's 'dancing deer'. It lives on **phumdis**, which are floating mats of soil and plants in Loktak Lake. What is the main threat to it today?",
     "image": { "src": "/img/patterns/phumdi.svg", "alt": "A lake with floating grass mats and a deer standing on one" },
     "options": [
       { "id": "a", "text": "The phumdis are degenerating, so its habitat is being lost" },

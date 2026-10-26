@@ -216,20 +216,24 @@ export async function importDevice(request: Request, env: Env, url: URL): Promis
   }
   // A guest's answers were never checked against an account, so they are recorded as its checks now
   // (taken as sent, like the rest of the device's progress); the round then grades and finishes as usual.
+  // Skips are left unrecorded, as in a live round, so they can still be answered later.
   if (imported) {
     for (const round of body.active ?? []) {
-      if (round.attempts.length === 0) continue;
-      await env.DB.batch(
-        round.attempts.map((a) =>
-          env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
-            user.id,
-            round.roundId,
-            a.questionId,
-            a.response === undefined || a.response === null ? null : JSON.stringify(a.response),
-            now,
+      const answered = round.attempts.filter((a) => a.response !== undefined && a.response !== null);
+      if (answered.length > 0) {
+        await env.DB.batch(
+          answered.map((a) =>
+            env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
+              user.id,
+              round.roundId,
+              a.questionId,
+              JSON.stringify(a.response),
+              now,
+            ),
           ),
-        ),
-      );
+        );
+      }
+      if (round.attempts.length === 0) continue;
       await storeActiveRound(env, user, round);
     }
   }

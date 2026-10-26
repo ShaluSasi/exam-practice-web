@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In a 4 × 100 m relay the runners in the outer lanes start a little ahead of the runners in the inner lanes, yet every lane has the same finish line. What is the reason for this stagger?",
+    "prompt": "In a 4 × 100 m relay, runners in the outer lanes start a little ahead of runners in the inner lanes. But every lane has the same finish line. Why are the starting points staggered like this?",
     "image": {
       "src": "/img/maths06/track-stagger.svg",
       "alt": "An oval running track with four lanes and four runners moving round it"
@@ -89,7 +89,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the home experiment, a thin thread is wound tightly 20 times round a cotton reel of diameter 2.5 cm. When unwound, the thread is 157 cm long. What estimate of the C/D ratio does this give?",
+    "prompt": "In the home experiment, a thin thread is wound tightly 20 times round a cotton reel. The reel has a diameter of 2.5 cm. When unwound, the thread is 157 cm long. What estimate of the C/D ratio does this give?",
     "image": {
       "src": "/img/maths06/thread-reel.svg",
       "alt": "A cotton reel and the same thread straightened out below it"
@@ -219,7 +219,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Archimedes trapped the perimeter of a circle between the perimeters of two hexagons, one inside the circle and one outside. Tap the part whose perimeter gives an **upper** estimate for the circle's perimeter.",
+    "prompt": "Archimedes trapped the perimeter of a circle between the perimeters of two hexagons. One hexagon is inside the circle and one is outside. Tap the part whose perimeter gives an **upper** estimate for the circle's perimeter.",
     "image": {
       "src": "/img/maths06/hex-bounds.svg",
       "alt": "A circle with two regular hexagons and numbered markers"
@@ -272,7 +272,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A circle of radius 1 touches all six sides of a regular hexagon (the outer hexagon). Using a $30^\\circ$ right triangle, each side of this hexagon is $a = \\dfrac{2}{\\sqrt{3}}$. What upper bound for $\\pi$ follows from comparing perimeters?",
+    "prompt": "A circle of radius 1 touches all six sides of a regular hexagon (the outer hexagon). Using a $30^\\circ$ right triangle, each side of this hexagon is $a = \\dfrac{2}{\\sqrt{3}}$. By comparing perimeters, what upper bound for $\\pi$ do we get?",
     "image": {
       "src": "/img/maths06/hex-bounds-a.svg",
       "alt": "A circle with an inner and an outer regular hexagon and a radius marked"
@@ -456,7 +456,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "An arc of a circle of radius 21 cm subtends an angle of $60^\\circ$ at the centre. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the length of the arc?",
+    "prompt": "A circle has radius 21 cm. An arc of this circle subtends an angle of $60^\\circ$ at the centre. Taking $\\pi \\approx \\dfrac{22}{7}$, what is the length of the arc?",
     "image": {
       "src": "/img/maths06/arc-60.svg",
       "alt": "A circle with a shaded sector and its curved edge highlighted"
@@ -573,7 +573,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "On a running track each lane is 1.22 m wide. A runner in lane 2 runs two semicircular bends whose radius is 1.22 m more than those of the runner in lane 1. Taking $\\pi \\approx 3.1416$, about how much extra distance does she run on the bends, which is the stagger she needs?",
+    "prompt": "On a running track, each lane is 1.22 m wide. A runner in lane 2 runs two semicircular bends. The radius of her bends is 1.22 m more than that of the runner in lane 1. Taking $\\pi \\approx 3.1416$, about how much extra distance does she run on the bends? (This is the stagger she needs.)",
     "image": {
       "src": "/img/maths06/track-lanes-gap.svg",
       "alt": "Two neighbouring lanes on the bend of a running track with the lane width marked"
@@ -612,7 +612,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Four runners each run one lap, each hugging the inside edge of their own lane. Tap the lane in which the runner covers the **longest** distance.",
+    "prompt": "Four runners each run one lap. Each runner keeps close to the inside edge of their own lane. Tap the lane in which the runner covers the **longest** distance.",
     "image": {
       "src": "/img/maths06/track-lanes.svg",
       "alt": "A running track with four lanes and numbered markers"
@@ -659,7 +659,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Two circles of radius 21 cm are drawn so that each passes through the centre of the other. They meet at C and D. Taking $\\pi \\approx \\dfrac{22}{7}$, find the length of the outer boundary (the two red arcs).",
+    "prompt": "Two circles of radius 21 cm are drawn so that each one passes through the centre of the other. They meet at C and D. Taking $\\pi \\approx \\dfrac{22}{7}$, find the length of the outer boundary (the two red arcs).",
     "image": {
       "src": "/img/maths06/two-circles.svg",
       "alt": "Two equal circles, each passing through the centre of the other, with the outer arcs in red"
@@ -698,7 +698,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Blue circle A and orange circle B have equal radii and each passes through the other's centre. Tap the arc of the **blue** circle that forms part of the outline of the combined shape.",
+    "prompt": "Blue circle A and orange circle B have equal radii. Each circle passes through the other's centre. Tap the arc of the **blue** circle that forms part of the outline of the combined shape.",
     "image": {
       "src": "/img/maths06/two-circles-hot.svg",
       "alt": "Two overlapping circles, a blue one and an orange one, with numbered markers"
@@ -751,7 +751,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A car tyre has diameter 56 cm. How many complete revolutions does it make while the car travels 8.8 km? Take $\\pi \\approx \\dfrac{22}{7}$.",
+    "prompt": "A car tyre has a diameter of 56 cm. The car travels 8.8 km. How many complete revolutions does the tyre make? Take $\\pi \\approx \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths06/rolling-wheel.svg",
       "alt": "A tyre rolling along a road with a red mark on its rim"
@@ -790,7 +790,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Four arcs are drawn inside a square of side 28 cm, each centred at the midpoint of a side and passing through that side's two corners. Together they make a four-petalled flower. Taking $\\pi \\approx \\dfrac{22}{7}$, find the total perimeter of all the petals.",
+    "prompt": "Four arcs are drawn inside a square of side 28 cm. Each arc has its centre at the midpoint of a side and passes through the two corners of that side. Together they make a flower with four petals. Taking $\\pi \\approx \\dfrac{22}{7}$, find the total perimeter of all the petals.",
     "image": {
       "src": "/img/maths06/petals-square.svg",
       "alt": "A square with four semicircles drawn inside it on its sides, making petal shapes"
@@ -998,7 +998,7 @@
       "alt": "A parallelogram made of four hinged rods that tilts while its sides stay the same"
     },
     "assertion": "Two parallelograms with the same side lengths, 10 cm and 6 cm, can have different areas.",
-    "reason": "The area of a parallelogram is base $\\times$ height, and the height changes when the angle between the sides changes.",
+    "reason": "The area of a parallelogram is base $\\times$ height. The height changes when the angle between the sides changes.",
     "answer": "a",
     "hint": "Imagine four rods hinged at the corners. Does the shape stay the same when you push it?",
     "explanation": "Both are true and R explains A. With base 10 cm, the height can be at most the slanting side 6 cm: as a rectangle the area is $10 \\times 6 = 60\\ \\text{cm}^2$, but if the rods are pushed over until the height is only 3 cm, the area is $10 \\times 3 = 30\\ \\text{cm}^2$. So side lengths alone cannot give the area; we also need the height (or an angle)."
@@ -1015,7 +1015,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the triangle shown, the base BC is 12 cm, the slanting side AB is 17 cm and the perpendicular from A meets the extended base 8 cm below A. What is the area of the triangle?",
+    "prompt": "In the triangle shown, the base BC is 12 cm and the slanting side AB is 17 cm. The perpendicular from A meets the extended base 8 cm below A. What is the area of the triangle?",
     "image": {
       "src": "/img/maths06/triangle-obtuse.svg",
       "alt": "An obtuse triangle with its base, a slanting side and a dashed perpendicular from the top vertex"
@@ -1167,7 +1167,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The sides of a triangular plot are in the ratio $3 : 5 : 7$ and its perimeter is 300 m. Find its area.",
+    "prompt": "The sides of a triangular plot are in the ratio $3 : 5 : 7$. Its perimeter is 300 m. Find its area.",
     "image": {
       "src": "/img/maths06/triangle-ratio.svg",
       "alt": "A triangular plot whose three sides are in a fixed ratio"
@@ -1206,7 +1206,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The parallel sides of a trapezium are 40 cm and 20 cm, and its two non-parallel sides are each 26 cm. Find its area.",
+    "prompt": "A trapezium has parallel sides of 40 cm and 20 cm. Its two non-parallel sides are each 26 cm. Find its area.",
     "image": {
       "src": "/img/maths06/trapezium.svg",
       "alt": "A trapezium with equal slanting sides and two parallel sides"
@@ -1245,7 +1245,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "One diagonal of a rhombus is twice as long as the other, and the area of the rhombus is $169\\ \\text{cm}^2$. What is the length of the **shorter** diagonal?",
+    "prompt": "One diagonal of a rhombus is twice as long as the other. The area of the rhombus is $169\\ \\text{cm}^2$. What is the length of the **shorter** diagonal?",
     "image": {
       "src": "/img/maths06/rhombus-diag.svg",
       "alt": "A rhombus with its two diagonals drawn as dashed lines"
@@ -1380,7 +1380,7 @@
       "alt": "A four-sided figure whose fourth side slowly shrinks"
     },
     "assertion": "Heron's formula for a triangle is a special case of Brahmagupta's formula for a cyclic 4-gon.",
-    "reason": "A triangle can be viewed as a cyclic 4-gon whose fourth side has length zero, which makes the factor $s - d$ equal to $s$.",
+    "reason": "A triangle can be thought of as a cyclic 4-gon whose fourth side has length zero. This makes the factor $s - d$ equal to $s$.",
     "answer": "a",
     "hint": "What happens to $\\sqrt{(s-a)(s-b)(s-c)(s-d)}$ when $d = 0$?",
     "explanation": "Both are true and R explains A. Every triangle is cyclic (its circumcircle). If $d = 0$ then $s = \\dfrac{a + b + c}{2}$ is the triangle's semi-perimeter and the factor $s - d = s$, so the formula becomes $\\sqrt{s(s-a)(s-b)(s-c)}$, which is **Heron's formula**. This is why Brahmagupta's formula is called a generalisation."
@@ -1397,7 +1397,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Only one of these four figures must always have all four corners on a single circle. Tap it.",
+    "prompt": "Only one of these four figures always has all four corners on one circle. Tap it.",
     "image": {
       "src": "/img/maths06/cyclic-quads.svg",
       "alt": "Four different four-sided figures labelled A to D with numbered markers"
@@ -1444,7 +1444,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Baudhāyana's method turns a rectangle with sides 18 cm and 8 cm into a square of the **same area**. What is the side of that square?",
+    "prompt": "Baudhāyana's method changes a rectangle with sides 18 cm and 8 cm into a square with the **same area**. What is the side of that square?",
     "image": {
       "src": "/img/maths06/rect-to-square.svg",
       "alt": "A rectangle and a dashed square that have the same area"
@@ -1581,7 +1581,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Ancient Egyptians estimated the area of a circle of diameter $d$ as $\\left(\\dfrac{8}{9}d\\right)^2$. Use this rule for a circle of diameter 18 cm.",
+    "prompt": "Ancient Egyptians estimated the area of a circle of diameter $d$ as $\\left(\\dfrac{8}{9}d\\right)^2$. Use this rule to find the area of a circle of diameter 18 cm.",
     "image": {
       "src": "/img/maths06/egypt-circle.svg",
       "alt": "A circle with its diameter marked beside a dashed square of unknown side"
@@ -1620,7 +1620,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Archimedes showed that a circle has the same area as a right-angled triangle whose two shorter sides are the circle's radius and its circumference. For a circle of radius 7 cm (circumference 44 cm), what is the area of that triangle?",
+    "prompt": "Archimedes showed that a circle has the same area as a right-angled triangle. The two shorter sides of this triangle are the circle's radius and its circumference. A circle has radius 7 cm (circumference 44 cm). What is the area of that triangle?",
     "image": {
       "src": "/img/maths06/archimedes-triangle.svg",
       "alt": "A circle, and a right-angled triangle whose legs are the radius and the unrolled circumference"
@@ -1710,7 +1710,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Twelve slices of a circle of radius $r$ are laid side by side, pointing alternately up and down. As the slices get thinner this shape looks more and more like a parallelogram. Tap the part of the outline that stands for the **height** of that parallelogram.",
+    "prompt": "Twelve slices of a circle of radius $r$ are placed side by side, pointing up and down in turn. As the slices get thinner, this shape looks more and more like a parallelogram. Tap the part of the outline that stands for the **height** of that parallelogram.",
     "image": {
       "src": "/img/maths06/slices-rearranged.svg",
       "alt": "Twelve slices of a circle fitted side by side, with numbered markers"
@@ -2123,7 +2123,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Two circles share the same centre O. A chord BC of the larger circle, 14 cm long, touches the smaller circle at A. Taking $\\pi \\approx \\dfrac{22}{7}$, find the area of the ring between the two circles.",
+    "prompt": "Two circles have the same centre O. BC is a chord of the larger circle. It is 14 cm long and touches the smaller circle at A. Taking $\\pi \\approx \\dfrac{22}{7}$, find the area of the ring between the two circles.",
     "image": {
       "src": "/img/maths06/annulus.svg",
       "alt": "Two circles with the same centre and a chord of the big circle touching the small one"

@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Early Indian astronomers measured the positions of all other places from the meridian through one city, their **zero line of longitude**. Arabic geographers later called this reference 'Arin'. Which city was it?",
+    "prompt": "Early Indian astronomers used the meridian (north–south line) through one city as their **zero line of longitude**. They measured the positions of all other places from it. Later, Arabic geographers called this line 'Arin'. Which city was it?",
     "image": {
       "src": "/img/maths01/globe-meridian.svg",
       "alt": "A stylised globe with one meridian line highlighted"
@@ -216,7 +216,7 @@
       "src": "/img/maths01/sky-ecliptic.svg",
       "alt": "Animation of the sun moving along its path across a starry sky"
     },
-    "assertion": "The Ujjayinī meridian served as the zero-longitude reference for early Arabic maps.",
+    "assertion": "The Ujjayinī meridian was used as the zero-longitude line for early Arabic maps.",
     "reason": "Āryabhaṭa replaced the Greek 'chords' with 'sines', making coordinates easier to calculate.",
     "answer": "b",
     "hint": "Both statements are historical facts from the chapter. Does the second one explain how Arabic maps got their zero line?",
@@ -529,7 +529,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The bathroom door is hinged at $B_1(0, 1.5)$ and swings into the bedroom. The wardrobe's left side lies along $x = 3$, from $y = 0$ to $y = 2$. If the door were made wider, beyond what width would it start to hit the wardrobe?",
+    "prompt": "The bathroom door is hinged at $B_1(0, 1.5)$ and opens into the bedroom. The wardrobe's left side lies along $x = 3$, from $y = 0$ to $y = 2$. Suppose the door is made wider. Above what width will it start to hit the wardrobe?",
     "image": {
       "src": "/img/maths01/door-swing.svg",
       "alt": "Animation of a door swinging open from the wall towards a wardrobe"
@@ -568,7 +568,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The dining room is 18 ft long, from $P(-6, 0)$ to $A(12, 0)$, and 15 ft wide, lying **below** the x-axis. A 5 ft × 3 ft table, long side parallel to the x-axis, stands exactly at the centre of the room. Where are its four feet?",
+    "prompt": "The dining room is 18 ft long, from $P(-6, 0)$ to $A(12, 0)$, and 15 ft wide, lying **below** the x-axis. A 5 ft × 3 ft table stands exactly at the centre of the room. Its long side is parallel to the x-axis. Where are its four feet?",
     "image": {
       "src": "/img/maths01/dining-room.svg",
       "alt": "House plan with a dining room below the bedroom and a table at its centre"
@@ -1813,7 +1813,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps to check, **without plotting**, that $M(-3, -4)$, $A(0, 0)$ and $G(6, 8)$ lie on one straight line.",
+    "prompt": "Put in order the steps to check that $M(-3, -4)$, $A(0, 0)$ and $G(6, 8)$ lie on one straight line, **without plotting** them.",
     "image": {
       "src": "/img/maths01/collinear-mag.svg",
       "alt": "Animation of a straight line being drawn through points M, A and G"
@@ -2112,7 +2112,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A screen is 800 pixels wide and 600 pixels high, with the origin at its bottom-left corner. Icon A is a circle of radius 80 px centred at (100, 150); icon B is a circle of radius 100 px centred at (250, 230). Which statement is correct?",
+    "prompt": "A screen is 800 pixels wide and 600 pixels high. The origin is at its bottom-left corner. Icon A is a circle of radius 80 px centred at (100, 150). Icon B is a circle of radius 100 px centred at (250, 230). Which statement is correct?",
     "image": {
       "src": "/img/maths01/screen-icons.svg",
       "alt": "A computer screen with the centres A and B of two circular icons marked"
@@ -2190,7 +2190,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "order",
-    "prompt": "Arrange these points by the quadrant they lie in, from Quadrant I to Quadrant IV.",
+    "prompt": "Put these points in order of the quadrant they lie in, from Quadrant I to Quadrant IV.",
     "image": {
       "src": "/img/maths01/plane-blank.svg",
       "alt": "A blank coordinate plane"

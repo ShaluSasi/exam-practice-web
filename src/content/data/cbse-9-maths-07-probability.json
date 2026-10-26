@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Two friends look at the same sky. Asha says, “It is bright and sunny, so rain is unlikely.” Ravi says, “It is very hot, so I think it may rain later.” Each is judging the chance of rain from what they personally see, without counting trials or equal outcomes. What kind of probability are they giving?",
+    "prompt": "Two friends look at the same sky. Asha says, “It is bright and sunny, so rain is unlikely.” Ravi says, “It is very hot, so I think it may rain later.” Each of them judges the chance of rain only from what they see. They do not count trials or equal outcomes. What kind of probability are they giving?",
     "image": {
       "src": "/img/maths07/weather.svg",
       "alt": "Two friends and a sky with a sun and a cloud"
@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A school's chance of winning tomorrow's hockey match is given as $0.75$. Where does this sit on the probability scale, and what does it tell us?",
+    "prompt": "A school's chance of winning tomorrow's hockey match is $0.75$. Where is this on the probability scale, and what does it tell us?",
     "image": {
       "src": "/img/maths07/scale.svg",
       "alt": "A probability scale running from 0 to 1"
@@ -181,7 +181,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "From a deck of 52 cards, 36 cards carry the numbers 2 to 10. Tap where the event **“drawing a card numbered 2 to 10”** sits on the scale.",
+    "prompt": "A deck of 52 cards has 36 cards numbered 2 to 10. Tap where the event **“drawing a card numbered 2 to 10”** belongs on the scale.",
     "image": {
       "src": "/img/maths07/scale.svg",
       "alt": "A probability scale with numbered markers above it"
@@ -304,7 +304,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A die was rolled 50 times and this chart shows how many times each face turned up. What is the experimental probability of getting a 4?",
+    "prompt": "A die was rolled 50 times. This chart shows how many times each face came up. What is the experimental probability of getting a 4?",
     "image": {
       "src": "/img/maths07/die-tally.svg",
       "alt": "A bar chart with one bar for each face of a die"
@@ -349,7 +349,7 @@
       "alt": "A die rolling and showing different faces"
     },
     "assertion": "A fair die is rolled 12 times and shows a 3 on three rolls. The experimental probability of a 3 is $\\dfrac{1}{4}$, even though the theoretical probability is $\\dfrac{1}{6}$.",
-    "reason": "Experimental probability depends on the actual results of the trials done, so with few trials it can differ from the theoretical value.",
+    "reason": "Experimental probability depends on the actual results of the trials. So with only a few trials, it can be different from the theoretical value.",
     "answer": "a",
     "hint": "Compare 3 out of 12 with 1 out of 6.",
     "explanation": "$\\dfrac{3}{12} = \\dfrac{1}{4}$ and the theoretical value is $\\dfrac{1}{6}$, so A is true. R is true and explains why: with only 12 trials, chance variation can push the experimental value away from $\\dfrac{1}{6}$. With many more rolls it would settle close to $\\dfrac{1}{6}$."
@@ -405,7 +405,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "In a class survey of **50 students** the probability that a randomly chosen student likes one fruit best is $0.2$. Tap the bar of that fruit.",
+    "prompt": "In a class survey of **50 students**, the probability that a student chosen at random likes a certain fruit best is $0.2$. Tap the bar for that fruit.",
     "image": {
       "src": "/img/maths07/fruit-bars.svg",
       "alt": "A bar chart of favourite fruits with numbered markers on the bars"
@@ -452,7 +452,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "In a sample of 40 students, favourite clubs were counted as shown. Match each club with the probability that a randomly chosen student from the sample prefers it.",
+    "prompt": "In a sample of 40 students, the favourite clubs were counted as shown. Match each club with the probability that a student chosen at random from the sample prefers it.",
     "image": {
       "src": "/img/maths07/clubs.svg",
       "alt": "A bar chart of favourite clubs with counts above the bars"
@@ -553,7 +553,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put these steps in the right order to estimate how many mangoes to buy for a whole school from a class survey.",
+    "prompt": "A class survey is used to estimate how many mangoes to buy for the whole school. Put these steps in the right order.",
     "image": {
       "src": "/img/maths07/sample-pop.svg",
       "alt": "A crowd of dots with some highlighted"
@@ -813,7 +813,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "The spinner stops at one of the eight equal sectors 1 to 8. Match each event with its probability.",
+    "prompt": "A spinner has eight equal sectors numbered 1 to 8. The pointer stops at one of them. Match each event with its probability.",
     "image": {
       "src": "/img/maths07/spinner8.svg",
       "alt": "A spinner wheel with eight numbered sectors"
@@ -1105,7 +1105,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A fair coin was tossed many times. The graph shows the share of heads so far (the dashed line is the theoretical probability). Tap the point where the experimental probability is **closest** to the theoretical probability.",
+    "prompt": "A fair coin was tossed many times. The graph shows the fraction of tosses that were heads so far. The dashed line is the theoretical probability. Tap the point where the experimental probability is **closest** to the theoretical probability.",
     "image": {
       "src": "/img/maths07/lln.svg",
       "alt": "A line graph with numbered markers under its points"
@@ -1517,7 +1517,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A tyre company recorded how far 1000 tyres ran before replacement. A tyre is chosen at random. What is the probability that it lasted **between 4000 km and 14000 km** (the middle two groups)?",
+    "prompt": "A tyre company recorded how far 1000 tyres ran before they had to be replaced. One tyre is chosen at random. What is the probability that it lasted **between 4000 km and 14000 km** (the middle two groups)?",
     "image": {
       "src": "/img/maths07/tyre.svg",
       "alt": "A table of numbers about tyres"
@@ -1595,7 +1595,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A dye drop falls at random on a rectangle $3\\ \\text{m}$ by $2\\ \\text{m}$. What is the probability that it lands inside the circle of **diameter** $1\\ \\text{m}$ drawn on it?",
+    "prompt": "A drop of dye falls at random on a rectangle that is $3\\ \\text{m}$ by $2\\ \\text{m}$. A circle of **diameter** $1\\ \\text{m}$ is drawn on the rectangle. What is the probability that the drop lands inside the circle?",
     "image": {
       "src": "/img/maths07/dye.svg",
       "alt": "A dropper above a rectangle containing a circle"
@@ -1634,7 +1634,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange these steps for drawing a tree diagram for two tosses of a coin and finding a probability.",
+    "prompt": "Put these steps in order to draw a tree diagram for two tosses of a coin and find a probability.",
     "image": {
       "src": "/img/maths07/tree-2coins.svg",
       "alt": "A tree diagram with branches"
@@ -2032,7 +2032,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A basket has 4 red and 5 blue balls. One ball is drawn and laid aside, then a second ball is drawn. Using the tree diagram, what is the probability of getting **one red and one blue** ball (in either order)?",
+    "prompt": "A basket has 4 red and 5 blue balls. One ball is drawn and kept aside. Then a second ball is drawn. Using the tree diagram, what is the probability of getting **one red and one blue** ball (in either order)?",
     "image": {
       "src": "/img/maths07/tree-balls.svg",
       "alt": "A tree diagram with fractions on the branches"

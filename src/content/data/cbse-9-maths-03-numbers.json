@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each artefact or record with what it tells us about the history of numbers.",
+    "prompt": "Match each old object or record with what it tells us about the history of numbers.",
     "image": {
       "src": "/img/maths03/artefacts-shelf.svg",
       "alt": "A museum shelf with two carved bones, a manuscript page, a bundle of leaves and a clay tablet"
@@ -160,7 +160,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "At the port of Lothal, a merchant receives 15 copper ingots for every 2 bags of spices. How many ingots does he leave with if he brings 12 bags of spices?",
+    "prompt": "At the port of Lothal, a merchant gets 15 copper ingots for every 2 bags of spices. He brings 12 bags of spices. How many ingots does he take back?",
     "image": {
       "src": "/img/maths03/lothal-trade.svg",
       "alt": "Bags of spices and a stack of copper ingots on a dock at an ancient port, with a boat on the sea"
@@ -238,7 +238,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In an old Indian way of counting, the thumb is used as a pointer to touch each segment of the other four fingers, as the glowing circle does in the picture. How far can you count on one hand this way, and which counting system does it suit?",
+    "prompt": "In an old Indian way of counting, you use the thumb to touch each segment (part) of the other four fingers, as the glowing circle shows in the picture. How far can you count on one hand this way, and which counting system does it suit?",
     "image": {
       "src": "/img/maths03/finger-joints.svg",
       "alt": "An open hand with creases dividing each finger into segments and a glowing circle hopping between them"
@@ -316,7 +316,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A spice trader takes a loan (debt) of ₹850. The next day he makes a profit (fortune) of ₹1,200. The following week he makes a loss of ₹450. What is his final financial standing?",
+    "prompt": "A spice trader takes a loan (debt) of ₹850. The next day he makes a profit (fortune) of ₹1,200. The following week he makes a loss of ₹450. In the end, what does he have — a fortune or a debt, and how much?",
     "image": {
       "src": "/img/maths03/ledger.svg",
       "alt": "An account book listing a loan, a profit and a loss, with a question mark for the final standing"
@@ -355,7 +355,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Someone takes away four of your debts, each worth ₹3. Which statement models this correctly?",
+    "prompt": "Someone takes away four of your debts, each worth ₹3. Which statement shows this correctly?",
     "image": {
       "src": "/img/maths03/debts-removed.svg",
       "alt": "Four debt slips of minus three rupees sliding away while a face smiles"
@@ -1082,7 +1082,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps of the proof that $\\sqrt{5}$ is irrational.",
+    "prompt": "Put the steps of the proof that $\\sqrt{5}$ is irrational in order.",
     "image": {
       "src": "/img/maths03/proof-board.svg",
       "alt": "A chalkboard asking whether root five equals p over q, with a lightning bolt"
@@ -1133,7 +1133,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A right triangle with both short sides 1 unit stands on the number line, with corner O at 0. With the compass point at O and radius OB, an arc is swung down to the number line. Tap where the arc cuts the line.",
+    "prompt": "A right triangle with both shorter sides of 1 unit stands on the number line. Its corner O is at 0. With the compass point at O and radius OB, an arc is drawn down to the number line. Tap where the arc cuts the line.",
     "image": {
       "src": "/img/maths03/sqrt2-construct.svg",
       "alt": "A right triangle with legs of 1 unit on a number line, with numbered markers"
@@ -1231,7 +1231,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "In this square-root spiral the first triangle has two sides of 1 unit, and every new triangle adds an outer side of 1 unit. Tap the slanting side (hypotenuse) whose length is $\\sqrt{5}$.",
+    "prompt": "In this square-root spiral, the first triangle has two sides of 1 unit. Each new triangle adds an outer side of 1 unit. Tap the slanting side (hypotenuse) whose length is $\\sqrt{5}$.",
     "image": {
       "src": "/img/maths03/root-spiral.svg",
       "alt": "A square-root spiral of six right triangles with numbered markers on the slanting sides"
@@ -1617,7 +1617,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Without dividing, decide how the decimal expansion of $\\dfrac{18}{125}$ behaves.",
+    "prompt": "Without dividing, find out what kind of decimal expansion $\\dfrac{18}{125}$ has.",
     "image": {
       "src": "/img/maths03/place-value.svg",
       "alt": "An empty decimal place-value chart from ones to ten-thousandths"
@@ -1662,7 +1662,7 @@
       "alt": "Six remainders arranged in a loop with arrows going round"
     },
     "assertion": "$\\dfrac{1}{7}$ has a non-terminating, repeating decimal expansion.",
-    "reason": "When dividing by 7, the remainder is never 0 and can only be 1, 2, 3, 4, 5 or 6, so some remainder must come up again and the division starts to loop.",
+    "reason": "When dividing by 7, the remainder is never 0. It can only be 1, 2, 3, 4, 5 or 6. So some remainder must come again, and the division starts to repeat in a loop.",
     "answer": "a",
     "hint": "Once a remainder repeats, every step after it repeats too.",
     "explanation": "Both are true, and R explains A. In the long division of 1 by 7 the remainders go $3, 2, 6, 4, 5, 1, \\ldots$; there are only six possible non-zero values, so a remainder must repeat, and then the digits loop: $\\dfrac{1}{7} = 0.\\overline{142857}$. The remainder can never be 0 because 7 is not made of 2s and 5s."
@@ -1718,7 +1718,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Carry out the long division for $\\dfrac{1}{13}$. How many digits are in its repeating block?",
+    "prompt": "Do the long division for $\\dfrac{1}{13}$. How many digits are in its repeating block?",
     "image": {
       "src": "/img/maths03/long-division-13.svg",
       "alt": "A long division of 1 by 13 that has just begun"
@@ -1952,7 +1952,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Just as $0.\\overline{9} = 1$, every terminating decimal has a second decimal form. Which of these is **exactly** equal to $2.47$?",
+    "prompt": "We know that $0.\\overline{9} = 1$. In the same way, every terminating decimal can also be written in a second decimal form. Which of these is **exactly** equal to $2.47$?",
     "image": {
       "src": "/img/maths03/zoom-247.svg",
       "alt": "A zoomed-in number line from 2.4 to 2.5 with 2.47 marked"
@@ -2104,7 +2104,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Every number goes in exactly **one** coloured region, the innermost one it fits. Tap the region where $-7$ belongs.",
+    "prompt": "Each number goes in exactly **one** coloured region: the innermost region it fits in. Tap the region where $-7$ belongs.",
     "image": {
       "src": "/img/maths03/number-sets.svg",
       "alt": "Nested boxes for the families of real numbers, with numbered markers"
@@ -2157,7 +2157,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Every number goes in exactly **one** coloured region, the innermost one it fits. Tap the region where $\\sqrt{16}$ belongs.",
+    "prompt": "Each number goes in exactly **one** coloured region: the innermost region it fits in. Tap the region where $\\sqrt{16}$ belongs.",
     "image": {
       "src": "/img/maths03/number-sets.svg",
       "alt": "Nested boxes for the families of real numbers, with numbered markers"
@@ -2210,7 +2210,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Every number goes in exactly **one** coloured region, the innermost one it fits. Tap the region where $\\dfrac{22}{7}$ belongs.",
+    "prompt": "Each number goes in exactly **one** coloured region: the innermost region it fits in. Tap the region where $\\dfrac{22}{7}$ belongs.",
     "image": {
       "src": "/img/maths03/number-sets.svg",
       "alt": "Nested boxes for the families of real numbers, with numbered markers"

@@ -142,7 +142,7 @@ export const QuestionBank = z.array(Question);
 
 /**
  * Fields that give the answer away. The server keeps them back until the
- * student has answered (or skipped) the question. Hotspot spot labels are
+ * student has answered the question (a skipped one: until the round ends). Hotspot spot labels are
  * held back too: they name every part of the diagram.
  */
 export const KEY_FIELDS = ["answer", "answers", "pairs", "tolerance", "explanation"] as const;

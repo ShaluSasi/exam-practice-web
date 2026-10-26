@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, MotionConfig, motion } from "motion/react";
 import type { AppConfig } from "./content/api";
 import { scoreSession } from "./engine/scoring";
@@ -23,7 +23,7 @@ import { LoadingScreen, OfflineScreen, UpdateScreen } from "./screens/StatusScre
 import { startGameScoreSync } from "./store/gameBoard";
 import { invalidateBoards } from "./store/leaderboard";
 import { useNav } from "./store/nav";
-import { getSavedRound, progressReady, startProgressSync } from "./store/progress";
+import { discardSavedRound, getSavedRound, progressReady, startProgressSync } from "./store/progress";
 import { useProfile } from "./store/profile";
 import { recordRound, startScoreSync } from "./store/scoreSync";
 import { useSession } from "./store/session";
@@ -79,6 +79,8 @@ export default function App() {
   /** A round waiting for the guest to sign in; it starts once they have. */
   const [gate, setGate] = useState<{ retry: () => void } | null>(null);
   const authStatus = useAuth((s) => s.status);
+  /** How the round on screen was started, so "Start over" can load a fresh one the same way. */
+  const lastRound = useRef<{ source: RoundSource; title: string; key?: string; free: boolean } | null>(null);
   const notAdmin = useNotAdmin();
   useAdminGuard(screen);
 
@@ -105,25 +107,31 @@ export default function App() {
     };
   }, []);
 
-  /** Loads a round from the server and starts it; with a `key` (chapter or mixed practice), continues its unfinished round instead. */
+  /**
+   * Loads a round from the server and starts it; with a `key` (chapter or mixed practice), continues its unfinished round instead.
+   * `fresh` starts over: a new round replaces the unfinished one, which is dropped only once the new one has loaded.
+   */
   const begin = useCallback(
-    async (source: RoundSource, title: string, key?: string, free = false) => {
-      // A guest past the free round signs in first; a round they already started can still be finished.
-      if (!free && mustSignIn() && !(key && getSavedRound(key))) {
-        setGate({ retry: () => void begin(source, title, key) });
+    async (source: RoundSource, title: string, key?: string, free = false, fresh = false) => {
+      // A guest past the free round signs in first; a round they already started can still be finished, but not started over.
+      if (!free && mustSignIn() && (fresh || !(key && getSavedRound(key)))) {
+        setGate({ retry: () => void begin(source, title, key, free, fresh) });
         return;
       }
+      lastRound.current = { source, title, key, free };
       setStarting(true);
       setFailedStart(null);
       try {
         // A signed-in student's unfinished rounds may still be loading from another device.
         if (key) await progressReady();
         const saved = key ? getSavedRound(key) : undefined;
-        if (saved) {
-          // Answered questions come with their keys, so their feedback and review still show.
+        if (saved && !fresh) {
+          // Answered questions come with their keys, so their feedback and review still show. Skipped ones stay without,
+          // so they can still be answered; for a signed-in student the server reveals only those it saw checked.
+          const signedIn = useAuth.getState().user !== null;
           const { questions, missing } = await fetchQuestions(
             saved.questionIds,
-            saved.attempts.map((a) => a.questionId),
+            saved.attempts.filter((a) => signedIn || a.response !== undefined).map((a) => a.questionId),
             saved.roundId,
           );
           // A question was removed since: start a fresh round instead.
@@ -138,9 +146,10 @@ export default function App() {
         const questions = await fetchRound(source, count);
         if (questions.length === 0) throw new Error("No questions");
         start(questions, title, key);
+        if (fresh && key && saved) discardSavedRound(key, saved.roundId);
         go("practice");
       } catch (e) {
-        setFailedStart({ retry: () => void begin(source, title, key), problem: problemOf(e) });
+        setFailedStart({ retry: () => void begin(source, title, key, free, fresh), problem: problemOf(e) });
       } finally {
         setStarting(false);
       }
@@ -215,7 +224,19 @@ export default function App() {
           transition={{ duration: 0.25 }}
         >
           {screen === "home" && <HomeScreen onStart={begin} />}
-          {screen === "practice" && <PracticeScreen onExit={leaveResults} />}
+          {screen === "practice" && (
+            <PracticeScreen
+              onExit={leaveResults}
+              onRestart={
+                lastRound.current
+                  ? () => {
+                      const r = lastRound.current!;
+                      void begin(r.source, r.title, r.key, r.free, true);
+                    }
+                  : undefined
+              }
+            />
+          )}
           {screen === "results" && (
             <ResultsScreen
               onHome={leaveResults}

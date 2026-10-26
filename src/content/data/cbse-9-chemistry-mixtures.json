@@ -62,7 +62,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Which list classifies **every** mixture correctly as homogeneous (Hm) or heterogeneous (Ht)?",
+  "prompt": "Which list marks **every** mixture correctly as homogeneous (Hm) or heterogeneous (Ht)?",
   "image": {
    "src": "/img/mixtures/mixture-icons.svg",
    "alt": "Smoke from a chimney, a glass of milk, a bottle of vinegar and a brass bell"
@@ -152,7 +152,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "A laser beam is shone through three stirred mixtures: salt in water, chalk powder in water and a few drops of milk in water. Each is viewed from the side. Tap the beaker that holds the **salt solution**.",
+  "prompt": "A laser beam is passed through three stirred mixtures: salt in water, chalk powder in water, and a few drops of milk in water. Each beaker is seen from the side. Tap the beaker that has the **salt solution**.",
   "image": {
    "src": "/img/mixtures/tyndall-beakers.svg",
    "alt": "A laser pointer shining through three beakers labelled A, B and C"
@@ -238,7 +238,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A dry cake mix contains $60\\ \\text{g}$ of sugar, $336\\ \\text{g}$ of flour and $4\\ \\text{g}$ of baking soda (sodium hydrogencarbonate). What is the concentration of **sugar** in the mix, expressed in a suitable way?",
+  "prompt": "A dry cake mix contains $60\\ \\text{g}$ of sugar, $336\\ \\text{g}$ of flour and $4\\ \\text{g}$ of baking soda (sodium hydrogencarbonate). What is the concentration of **sugar** in the mix? Give it in a suitable form.",
   "image": {
    "src": "/img/mixtures/cake.svg",
    "alt": "Bowls of sugar, flour and baking soda beside a mixing bowl"
@@ -277,7 +277,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A hospital drip bag holds $500\\ \\text{mL}$ of 0.9% m/v sodium chloride ($\\ce{NaCl}$) solution, called saline. How much salt does the bag contain?",
+  "prompt": "A hospital drip bag holds $500\\ \\text{mL}$ of saline. Saline is a 0.9% m/v solution of sodium chloride ($\\ce{NaCl}$). How much salt is in the bag?",
   "image": {
    "src": "/img/mixtures/saline-drip.svg",
    "alt": "A saline drip bag hanging from a hospital stand"
@@ -355,7 +355,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A farmer needs $15\\ \\text{L}$ of a 2% v/v pesticide spray for her rice field. What volume of liquid pesticide should she measure out before topping it up with water?",
+  "prompt": "A farmer needs $15\\ \\text{L}$ of a 2% v/v pesticide spray for her rice field. What volume of liquid pesticide should she measure first, before adding water to make up the full amount?",
   "image": {
    "src": "/img/mixtures/sprayer.svg",
    "alt": "A spray tank spraying a fine mist over rice plants"
@@ -472,7 +472,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "The Indian paediatrician **Dilip Mahalanabis** formulated the Oral Rehydration Solution (ORS) used to treat dehydration. Why must ORS be made with the **specified** amounts of salt and sugar in a fixed volume of water?",
+  "prompt": "The Indian children's doctor **Dilip Mahalanabis** developed the Oral Rehydration Solution (ORS). ORS is used to treat dehydration (loss of water from the body). Why must ORS be made with the **exact** amounts of salt and sugar given, in a fixed volume of water?",
   "image": {
    "src": "/img/mixtures/ors.svg",
    "alt": "A packet of oral rehydration salts beside a glass of water being stirred"
@@ -511,7 +511,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Each point on these solubility curves shows the most solute that 100 g of water can dissolve at that temperature. Tap the point at which 100 g of water can hold the **least** solute before it becomes saturated.",
+  "prompt": "Each point on these solubility curves shows the largest amount of solute that 100 g of water can dissolve at that temperature. Tap the point where 100 g of water can hold the **least** solute before it becomes saturated.",
   "image": {
    "src": "/img/mixtures/solubility-curve.svg",
    "alt": "Solubility curves of compounds A and B with numbered markers"
@@ -698,7 +698,7 @@
    "src": "/img/mixtures/crystal-cool.svg",
    "alt": "Two beakers of copper sulfate solution, P covered and Q standing in ice"
   },
-  "assertion": "A hot saturated copper sulfate solution that cools slowly at room temperature gives larger, better-shaped crystals than one cooled quickly in ice-cold water.",
+  "assertion": "Take a hot saturated copper sulfate solution. If it cools slowly at room temperature, it gives larger, better-shaped crystals than if it is cooled quickly in ice-cold water.",
   "reason": "Slow cooling gives the particles in the solution enough time to come together and arrange themselves in a regular pattern.",
   "answer": "a",
   "hint": "Is speed of cooling linked to how neatly particles can pack?",
@@ -880,7 +880,7 @@
    "alt": "A distillation set-up with a flask, condenser and receiver"
   },
   "assertion": "A mixture of acetone and water can be separated by simple distillation.",
-  "reason": "Acetone (about 56 °C) and water (100 °C) differ in boiling point by more than about 25 °C, so acetone vaporises before much water vapour forms.",
+  "reason": "The boiling points of acetone (about 56 °C) and water (100 °C) differ by more than about 25 °C. So acetone turns into vapour before much water vapour forms.",
   "answer": "a",
   "hint": "What boiling-point gap does simple distillation need?",
   "explanation": "Both are true and R explains A. Simple **distillation** separates miscible liquids whose boiling points differ by at least about 25 °C. Acetone and water differ by 44 °C, so acetone vapour comes off first and condenses as the distillate while water stays in the flask. Evaporation alone would lose the acetone to the air, so you could not recover both liquids."
@@ -947,7 +947,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Chloroform boils at 61 °C and alcohol at 78 °C. Which method suits a mixture of these two miscible liquids? (The same method separates crude oil in a refinery.)",
+  "prompt": "Chloroform boils at 61 °C and alcohol at 78 °C. These two liquids are miscible (they mix completely). Which method is best to separate them? (The same method is used to separate crude oil in a refinery.)",
   "image": {
    "src": "/img/mixtures/fractional-column.svg",
    "alt": "A tall column separating crude oil heated in a furnace"
@@ -1074,7 +1074,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In Kannauj, the \"perfume capital of India\", the earthy smell of the first rain is captured as **Mitti ka Ittar** using the traditional Deg-Bhapka method shown. Which separation process is it based on?",
+  "prompt": "Kannauj is called the \"perfume capital of India\". There, the earthy smell of the first rain is captured as a perfume called **Mitti ka Ittar**. It is made by the traditional Deg-Bhapka method shown. Which separation process is this method based on?",
   "image": {
    "src": "/img/mixtures/deg-bhapka.svg",
    "alt": "A copper pot on a fire joined by a bamboo pipe to a receiver pot standing in water"
@@ -1166,7 +1166,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Before starting, a line is drawn 2 cm from the bottom of the strip and the ink spot is placed on it. Tap this line, which must be drawn with a **pencil**, not a pen.",
+  "prompt": "Before starting, a line is drawn 2 cm from the bottom of the strip, and the ink spot is put on it. This line must be drawn with a **pencil**, not a pen. Tap this line.",
   "image": {
    "src": "/img/mixtures/chromatography.svg",
    "alt": "A paper strip in a covered gas jar with numbered markers"
@@ -1320,7 +1320,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "A cooking-oil pack says one litre of oil has a mass of 910 g, while one litre of water is about 1000 g. Oil and water are left to settle in this separating funnel. Tap the layer that drains out **first** when the stopcock is opened.",
+  "prompt": "A cooking-oil pack says one litre of oil has a mass of 910 g. One litre of water has a mass of about 1000 g. Oil and water are left to settle in this separating funnel. Which layer drains out **first** when the stopcock (tap) is opened? Tap it.",
   "image": {
    "src": "/img/mixtures/separating-funnel.svg",
    "alt": "A separating funnel with two liquid layers and numbered markers"
@@ -1959,7 +1959,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Blood can be separated by centrifugation, yet its cells cannot be seen with the naked eye and they do not settle when blood stands. What type of mixture is blood?",
+  "prompt": "Blood can be separated by centrifugation. But its cells cannot be seen with the naked eye, and they do not settle when blood is left standing. What type of mixture is blood?",
   "image": {
    "src": "/img/mixtures/blood-tube.svg",
    "alt": "Two test tubes of blood in a stand, before and after spinning"
@@ -2078,7 +2078,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Why can you see bright beams of sunlight in the air when sunlight passes through small gaps between the leaves of a dense tree?",
+  "prompt": "Sunlight passes through small gaps between the leaves of a dense tree. Why can you see bright beams of sunlight in the air?",
   "image": {
    "src": "/img/mixtures/sunbeams.svg",
    "alt": "Beams of sunlight slanting through gaps in a dense tree canopy"

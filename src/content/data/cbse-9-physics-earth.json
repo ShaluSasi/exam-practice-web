@@ -60,7 +60,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Interacting spheres",
     "difficulty": "medium", "marks": 2,
     "type": "order",
-    "prompt": "A change in one sphere spreads to others. Arrange this chain of events, starting from a warmer Arabian Sea.",
+    "prompt": "A change in one sphere can affect the others. Arrange this chain of events in order. Start with the Arabian Sea getting warmer.",
     "image": { "src": "/img/earth/sea-monsoon.svg", "alt": "Warm sea water evaporating while moist wind blows towards hills" },
     "items": [
       { "id": "monsoon", "text": "The southwest monsoon starts to fluctuate" },
@@ -80,7 +80,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Electromagnetic spectrum",
     "difficulty": "medium", "marks": 1,
     "type": "hotspot",
-    "prompt": "Short-wavelength radiation from the Sun is mostly absorbed by the **ozone layer**. Tap the region of the spectrum it belongs to.",
+    "prompt": "Some short-wavelength radiation from the Sun is mostly absorbed by the **ozone layer**. Tap the part of the spectrum that this radiation belongs to.",
     "image": { "src": "/img/earth/em-spectrum.svg", "alt": "A band of electromagnetic radiation from short to long wavelength with numbered markers" },
     "spots": [
       { "id": "gamma", "x": 11.25, "y": 55, "label": "Gamma rays" },
@@ -175,7 +175,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Solar constant and insolation",
     "difficulty": "hard", "marks": 2,
     "type": "mcq",
-    "prompt": "The **solar constant** at the top of the atmosphere is about $1400\\ \\text{W m}^{-2}$, but on a clear day the maximum insolation at the ground is about $1000\\ \\text{W m}^{-2}$. Roughly what percentage of the energy is lost on the way down?",
+    "prompt": "At the top of the atmosphere, the **solar constant** is about $1400\\ \\text{W m}^{-2}$. On a clear day, the highest insolation (sunlight energy received) at the ground is about $1000\\ \\text{W m}^{-2}$. Roughly what percentage of the energy is lost on the way down?",
     "image": { "src": "/img/earth/solar-budget.svg", "alt": "Sunlight entering the atmosphere and meeting clouds, air and the ground" },
     "options": [
       { "id": "a", "text": "40%" },
@@ -376,7 +376,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Latitude and Earth's shape",
     "difficulty": "easy", "marks": 1,
     "type": "mcq",
-    "prompt": "Two equal beams of sunlight strike the Earth, one near the equator and one near a pole. Why do equatorial regions stay **warmer**?",
+    "prompt": "Two equal beams of sunlight strike the Earth, one near the equator and one near a pole. Why do regions near the equator stay **warmer**?",
     "image": { "src": "/img/earth/latitude-rays.svg", "alt": "Two equal beams of sunlight striking a round Earth at different places" },
     "options": [
       { "id": "a", "text": "The equator is much closer to the Sun than the poles" },
@@ -394,7 +394,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Latitude and Earth's shape",
     "difficulty": "hard", "marks": 1,
     "type": "mcq",
-    "prompt": "Imagine the Earth were a **flat disc** always facing the Sun instead of a sphere. How would the pattern of solar heating change?",
+    "prompt": "Imagine the Earth was a **flat disc** always facing the Sun, not a sphere. How would the pattern of heating by the Sun change?",
     "image": { "src": "/img/earth/flat-earth.svg", "alt": "Parallel sunlight falling on a ball-shaped planet and on a flat disc" },
     "options": [
       { "id": "a", "text": "Every part would get sunlight at the same angle, so heating would be nearly uniform with no equator-to-pole difference" },
@@ -488,7 +488,7 @@
     "prompt": "Read the assertion and the reason, then choose the correct option.",
     "image": { "src": "/img/earth/atm-layers.svg", "alt": "A column of the atmosphere divided into bands" },
     "assertion": "Nearly all weather, such as clouds, rain and storms, happens in the troposphere.",
-    "reason": "In the stratosphere temperature increases with height, which stops vertical mixing of air and keeps weather confined to the layer below.",
+    "reason": "In the stratosphere, temperature increases with height. This stops the up-and-down (vertical) mixing of air and keeps the weather limited to the layer below.",
     "answer": "a",
     "hint": "Can warm air keep rising if the air above it is even warmer?",
     "explanation": "Both are true and the reason explains the assertion. The **troposphere** is heated from the ground, so warm air rises, cools and forms clouds, winds and storms. In the **stratosphere** temperature *rises* with height, so the air is calm with little **vertical mixing**, acting like a lid that keeps the weather in the troposphere."
@@ -589,7 +589,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Planetary winds",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Planetary winds do not blow straight from high to low pressure; they follow **curved paths**. What causes this?",
+    "prompt": "Planetary winds do not blow straight from high pressure to low pressure. They follow **curved paths**. What causes this?",
     "image": { "src": "/img/earth/pressure-belts.svg", "alt": "The Earth with lines of latitude and curved surface winds" },
     "options": [
       { "id": "a", "text": "Uneven heating of land and sea" },
@@ -607,7 +607,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Planetary winds",
     "difficulty": "medium", "marks": 2,
     "type": "order",
-    "prompt": "Follow a parcel of air around one loop between the equator and 30° N. Arrange the steps in order.",
+    "prompt": "Follow a parcel (small mass) of air as it goes round one loop between the equator and 30° N. Arrange the steps in order.",
     "image": { "src": "/img/earth/hadley-cell.svg", "alt": "Air circulating in two loops between the equator and 30 degrees north and south" },
     "items": [
       { "id": "sink", "text": "It cools, becomes denser and sinks near 30° N, forming high pressure" },
@@ -645,7 +645,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Ocean currents",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Many ports on the north-western coast of Europe stay **ice-free in winter**, even though they are at high latitudes. Why?",
+    "prompt": "Many ports on the north-western coast of Europe stay **ice-free in winter**, even though they are at high latitudes (far from the equator). Why?",
     "image": { "src": "/img/earth/ocean-currents.svg", "alt": "A slice through the ocean from the equator to a pole with moving water" },
     "options": [
       { "id": "a", "text": "The North Atlantic Drift, an extension of the Gulf Stream, carries warm equatorial water to them" },
@@ -701,7 +701,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Water cycle",
     "difficulty": "easy", "marks": 2,
     "type": "order",
-    "prompt": "Trace a drop of sea water through the water cycle. Arrange the steps in order.",
+    "prompt": "Follow a drop of sea water through the water cycle. Arrange the steps in order.",
     "image": { "src": "/img/earth/water-cycle.svg", "alt": "Water moving between the sea, the sky, a mountain, a tree and the ground" },
     "items": [
       { "id": "rain", "text": "It falls as rain on the hills" },
@@ -796,7 +796,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Keeling curve",
     "difficulty": "medium", "marks": 2,
     "type": "mcq",
-    "prompt": "The graph shows atmospheric CO₂ rising from about $315\\ \\text{ppm}$ in 1960 to about $420\\ \\text{ppm}$ today. By roughly what **percentage** has it increased?",
+    "prompt": "The graph shows that the CO₂ in the atmosphere rose from about $315\\ \\text{ppm}$ in 1960 to about $420\\ \\text{ppm}$ today. By roughly what **percentage** has it increased?",
     "image": { "src": "/img/earth/keeling.svg", "alt": "Graph of carbon dioxide in the air from 1960 to 2025" },
     "options": [
       { "id": "a", "text": "25%" },
@@ -814,7 +814,7 @@
     "chapter": "Earth as a System: Energy, Matter, and Life", "chapterNo": 5, "topic": "Carbon cycle",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Carbon makes up about **49% of the dry weight** of living organisms. Roughly how much carbon is locked in a dried log weighing $20\\ \\text{kg}$?",
+    "prompt": "Carbon makes up about **49% of the dry weight** of living things. Roughly how much carbon is stored in a dried log weighing $20\\ \\text{kg}$?",
     "image": { "src": "/img/earth/dry-log.svg", "alt": "A dried log of wood resting on a weighing scale" },
     "options": [
       { "id": "a", "text": "$0.98\\ \\text{kg}$" },
@@ -834,8 +834,8 @@
     "type": "assertion_reason",
     "prompt": "Read the assertion and the reason, then choose the correct option.",
     "image": { "src": "/img/earth/carbon-cycle.svg", "alt": "Carbon dioxide moving between the air, land and the sea" },
-    "assertion": "As the oceans get warmer, they become a more effective carbon sink.",
-    "reason": "Ocean water absorbs atmospheric CO₂ to form carbonate and bicarbonate ions.",
+    "assertion": "As the oceans get warmer, they become a better carbon sink.",
+    "reason": "Ocean water absorbs CO₂ from the atmosphere and forms carbonate and bicarbonate ions.",
     "answer": "d",
     "hint": "Does warm water hold more or less dissolved gas?",
     "explanation": "The assertion is false and the reason is true. The ocean does absorb CO₂, forming **carbonate and bicarbonate ions** used by phytoplankton and shell-forming organisms. But **warmer water reduces** the ocean's capacity to absorb CO₂, so it becomes a *weaker* sink. Meanwhile, extra CO₂ makes sea water **more acidic**, threatening plankton and coral reefs."

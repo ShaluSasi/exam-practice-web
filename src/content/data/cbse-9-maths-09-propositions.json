@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which of these is a **proposition**, a statement that is definitely either true or false?",
+    "prompt": "Which of these is a **proposition**? (A proposition is a statement that is definitely either true or false.)",
     "image": {
       "src": "/img/maths09/statements.svg",
       "alt": "Four cards showing a question mark, an exclamation mark, a triangle and a speech bubble"
@@ -89,7 +89,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "In this triangle $AB = AC$ (see the tick marks). Statement 1 says the angles opposite equal sides are equal. Tap the angle that must be equal to $\\angle B$.",
+    "prompt": "In this triangle, $AB = AC$ (see the tick marks). Statement 1 says that the angles opposite equal sides are equal. Tap the angle that must be equal to $\\angle B$.",
     "image": {
       "src": "/img/maths09/tri-iso.svg",
       "alt": "A triangle with numbered markers placed near its corners and base"
@@ -136,7 +136,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "In $\\triangle ABC$ it is given that $\\angle B = \\angle C$. Arrange the steps that prove $AB = AC$ (Statement 2), following the hint to draw the altitude.",
+    "prompt": "In $\\triangle ABC$, it is given that $\\angle B = \\angle C$. Arrange the steps that prove $AB = AC$ (Statement 2). Follow the hint and draw the altitude.",
     "image": {
       "src": "/img/maths09/tri-alt.svg",
       "alt": "Triangle ABC with a dashed line from A to the base BC"
@@ -187,7 +187,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **altitude** from $A$, the line the hint tells us to draw to prove Statement 2.",
+    "prompt": "Tap the **altitude** from $A$. This is the line the hint asks us to draw to prove Statement 2.",
     "image": {
       "src": "/img/maths09/tri-alt.svg",
       "alt": "A triangle with numbered markers on its sides and on a dashed line"
@@ -349,7 +349,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Fermat claimed that every number $2^{2^n} + 1$ is prime $(n = 0, 1, 2, \\dots)$, and the first five values really are prime. Euler found that $2^{2^5} + 1$ is composite. What does this **one** example prove?",
+    "prompt": "Fermat claimed that every number $2^{2^n} + 1$ is prime $(n = 0, 1, 2, \\dots)$. The first five values really are prime. But Euler found that $2^{2^5} + 1$ is composite. What does this **one** example prove?",
     "image": {
       "src": "/img/maths09/fermat.svg",
       "alt": "Values of a number pattern for n from 0 to 4, and a question mark for n equal to 5"
@@ -480,7 +480,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "For a number $n$, pair each factor with its 'partner' (the factor that multiplies with it to give $n$). The argument says: an odd number of factors forces a pair $(f, f)$, so $n = f\\times f$. What does this argument prove?",
+    "prompt": "For a number $n$, pair each factor with its 'partner' (the factor that multiplies with it to give $n$). The argument says: if there is an odd number of factors, there must be a pair $(f, f)$, so $n = f\\times f$. What does this argument prove?",
     "image": {
       "src": "/img/maths09/fp12.svg",
       "alt": "The factors of a number on a line with arcs joining partner factors"
@@ -519,7 +519,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Here are the factors of 36 with partner arcs. Tap the pair that shows $36$ is a **perfect square**.",
+    "prompt": "Here are the factors of 36. Each factor is joined to its partner by an arc. Tap the pair that shows $36$ is a **perfect square**.",
     "image": {
       "src": "/img/maths09/fp36.svg",
       "alt": "Factors of 36 on a line joined by five coloured arcs, one of which is a small loop"
@@ -657,7 +657,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "**P:** If two triangles have the same area, then they are congruent. Triangle 1 has base $8\\ \\text{cm}$ and height $3\\ \\text{cm}$; triangle 2 has base $6\\ \\text{cm}$ and height $4\\ \\text{cm}$. What do they show about P?",
+    "prompt": "**P:** If two triangles have the same area, then they are congruent. Triangle 1 has base $8\\ \\text{cm}$ and height $3\\ \\text{cm}$. Triangle 2 has base $6\\ \\text{cm}$ and height $4\\ \\text{cm}$. What do these two triangles show about P?",
     "image": {
       "src": "/img/maths09/same-area.svg",
       "alt": "Two differently shaped triangles with bases and heights marked"
@@ -1054,7 +1054,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Use the note on 'Y when X'. Arrange the steps to write and test the converse of **'A number has an odd number of factors when it is a perfect square.'**",
+    "prompt": "Use the note on 'Y when X'. Arrange the steps to write the converse of **'A number has an odd number of factors when it is a perfect square.'** and test it.",
     "image": {
       "src": "/img/maths09/if-then.svg",
       "alt": "A box X with an arrow to a box Y and a dashed arrow coming back"
@@ -1105,7 +1105,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "**Proposition:** If two lines are parallel, then corresponding angles formed by a transversal are equal. The shaded angle is at the upper line. Tap its **corresponding angle** at the lower line.",
+    "prompt": "**Proposition:** If two lines are parallel, then corresponding angles formed by a transversal are equal. The shaded angle is where the transversal meets the upper line. Tap its **corresponding angle** where the transversal meets the lower line.",
     "image": {
       "src": "/img/maths09/parallel.svg",
       "alt": "Two parallel lines cut by a slanting line with one angle shaded and numbered markers at the lower crossing"
@@ -1197,7 +1197,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "In $\\triangle ABC$, the bisectors of $\\angle B$ and $\\angle C$ meet at the incentre $I$ and are extended to meet the opposite sides at $E$ and $F$. **Proposition:** If $AB = AC$, then $IE = IF$. Select **all** correct statements.",
+    "prompt": "In $\\triangle ABC$, the bisectors of $\\angle B$ and $\\angle C$ meet at the incentre $I$. They are extended to meet the opposite sides at $E$ and $F$. **Proposition:** If $AB = AC$, then $IE = IF$. Select **all** correct statements.",
     "image": {
       "src": "/img/maths09/incentre.svg",
       "alt": "A triangle with two lines from B and C crossing inside it at I, meeting the sides at E and F"
@@ -1363,7 +1363,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "**Proposition:** If $x = y$, then $x^2 = y^2$. Its converse: if $x^2 = y^2$, then $x = y$. The graph shows $x^2$ against $x$; the orange point is $x = 3$. Tap the other point on the curve with the same $x^2$ value, a counterexample to the converse.",
+    "prompt": "**Proposition:** If $x = y$, then $x^2 = y^2$. Its converse: if $x^2 = y^2$, then $x = y$. The graph shows $x^2$ against $x$. The orange point is at $x = 3$. Tap the other point on the curve with the same $x^2$ value. This point is a counterexample to the converse.",
     "image": {
       "src": "/img/maths09/parabola.svg",
       "alt": "A U-shaped curve on a grid with a dashed horizontal line and numbered markers on the curve"
@@ -1565,7 +1565,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "**Proposition:** If $n$ is a product of two unequal primes, then it has exactly 4 divisors. Select **all** numbers below that have exactly 4 divisors.",
+    "prompt": "**Proposition:** If $n$ is a product of two unequal primes, then it has exactly 4 divisors. Select **all** the numbers below that have exactly 4 divisors.",
     "image": {
       "src": "/img/maths09/arrays.svg",
       "alt": "Counters arranged in different rectangular arrays"
@@ -1660,7 +1660,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "mcq",
-    "prompt": "**Proposition:** If $n$ and $n+3$ have no common factor other than 1, then $n$ is not a multiple of 3. What is true of its converse: if $n$ is not a multiple of 3, then $n$ and $n+3$ have no common factor other than 1?",
+    "prompt": "**Proposition:** If $n$ and $n+3$ have no common factor other than 1, then $n$ is not a multiple of 3. Its converse is: if $n$ is not a multiple of 3, then $n$ and $n+3$ have no common factor other than 1. What is true about this converse?",
     "image": {
       "src": "/img/maths09/grid30.svg",
       "alt": "A grid of the numbers 1 to 30 with the multiples of 3 shaded"
@@ -1809,7 +1809,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Ravi tests whether a number is divisible by 8 by checking only that it is divisible by 2 and by 4. Which number **fools** his test?",
+    "prompt": "Ravi wants to test whether a number is divisible by 8. He only checks that it is divisible by 2 and by 4. Which number **fools** his test?",
     "image": {
       "src": "/img/maths09/ticks-248.svg",
       "alt": "Three number lines with dots marking multiples of 2, 4 and 8"
@@ -1848,7 +1848,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "The digit-sum shortcut links 'a number is divisible by 3' and 'its digit sum is a multiple of 3'. Select **all** the true statements.",
+    "prompt": "The digit-sum shortcut connects two statements: 'a number is divisible by 3' and 'its digit sum is a multiple of 3'. Select **all** the true statements.",
     "image": {
       "src": "/img/maths09/digit-sum.svg",
       "alt": "A four-digit number broken into its digits that are added up"
@@ -1934,7 +1934,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Now suppose $Q$ satisfies: **if a quadrilateral has equal diagonals, then it is of type $Q$.** You join two sticks of equal length as diagonals. What can you say?",
+    "prompt": "Now suppose type $Q$ has this property: **if a quadrilateral has equal diagonals, then it is of type $Q$.** You join two sticks of equal length as diagonals. What can you say?",
     "image": {
       "src": "/img/maths09/sticks.svg",
       "alt": "Two thin sticks laid across each other, one of them swaying"
@@ -1973,7 +1973,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "**Exercise 2:** 'If a quadrilateral is a square, then all its angles are equal' is true, but its converse is false. Tap the region where a **counterexample** to the converse lies (all angles equal, not a square).",
+    "prompt": "**Exercise 2:** 'If a quadrilateral is a square, then all its angles are equal' is true, but its converse is false. Tap the region where a **counterexample** to the converse lies (all angles equal, but not a square).",
     "image": {
       "src": "/img/maths09/nested-quads.svg",
       "alt": "Nested boxes for four families of shapes, with numbered markers in different regions"
@@ -2162,7 +2162,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps for showing that a claim of the form 'if P, then Q' is **false**.",
+    "prompt": "Arrange the steps to show that a claim of the form 'if P, then Q' is **false**.",
     "image": {
       "src": "/img/maths09/prime-machine.svg",
       "alt": "A machine with a spinning gear taking a number n in and sending an unknown result out"

@@ -58,7 +58,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A square of side $a$ is divided by lines drawn at a distance $b$ from its right edge and from its bottom edge. Tap the piece whose area is $(a - b)^2$.",
+    "prompt": "A square of side $a$ is divided by two lines. One is drawn at a distance $b$ from its right edge, and the other at a distance $b$ from its bottom edge. Tap the piece whose area is $(a - b)^2$.",
     "image": {
       "src": "/img/maths04/area-amb.svg",
       "alt": "A square of side a divided into four pieces, with numbered markers"
@@ -105,7 +105,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Start with the big square of area $a^2$ and remove two strips of area $ab$ each: the right-hand column ($b$ wide, $a$ tall) and the bottom row ($a$ wide, $b$ tall). One piece gets removed **twice** this way. Tap it.",
+    "prompt": "Start with the big square of area $a^2$. Remove two strips of area $ab$ each: the right-hand column ($b$ wide, $a$ tall) and the bottom row ($a$ wide, $b$ tall). When you do this, one piece gets removed **twice**. Tap it.",
     "image": {
       "src": "/img/maths04/area-amb.svg",
       "alt": "A square of side a divided into four pieces, with numbered markers"
@@ -258,7 +258,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "These tiles show $(2x + 3)(3x + 1)$: the top side is $2x + 3$ and the left side is $3x + 1$. Tap the group of tiles you get by multiplying the $3$ of $2x + 3$ by the $3x$ of $3x + 1$.",
+    "prompt": "These tiles show $(2x + 3)(3x + 1)$. The top side is $2x + 3$ and the left side is $3x + 1$. Multiply the $3$ of $2x + 3$ by the $3x$ of $3x + 1$. Tap the group of tiles you get.",
     "image": {
       "src": "/img/maths04/tiles-2x3-3x1.svg",
       "alt": "Algebra tiles for a rectangle of sides 2x + 3 and 3x + 1, with numbered markers"
@@ -891,7 +891,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "For three consecutive square numbers such as 25, 36, 49, (smallest + largest) − 2 × (middle) always equals 2. Put the steps of the algebraic proof in order.",
+    "prompt": "Take three consecutive square numbers, such as 25, 36 and 49. Then (smallest + largest) − 2 × (middle) always equals 2. Put the steps of the algebraic proof in order.",
     "image": {
       "src": "/img/maths04/three-squares.svg",
       "alt": "Three square grids of sides 5, 6 and 7"
@@ -942,7 +942,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Using this square of side $a$, arrange the steps that show $(a-b)^2 = a^2 - 2ab + b^2$.",
+    "prompt": "Use this square of side $a$. Put in order the steps that show $(a-b)^2 = a^2 - 2ab + b^2$.",
     "image": {
       "src": "/img/maths04/area-amb.svg",
       "alt": "A square of side a divided into pieces"
@@ -1039,7 +1039,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps to factorise $6x^2 + 7x + 2$ by splitting the middle term.",
+    "prompt": "Put in order the steps to factorise $6x^2 + 7x + 2$ by splitting the middle term.",
     "image": {
       "src": "/img/maths04/sum-product-12.svg",
       "alt": "A sum and product diamond with 12 on top and 7 below"
@@ -1090,7 +1090,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "The numerator of $\\dfrac{x^2 - 7x + 12}{5x^2 + 5x - 100}$ is already factorised as $(x-3)(x-4)$. Arrange the remaining steps to simplify it (the denominator is not zero).",
+    "prompt": "The numerator of $\\dfrac{x^2 - 7x + 12}{5x^2 + 5x - 100}$ is already factorised as $(x-3)(x-4)$. Put the remaining steps to simplify it in order. (The denominator is not zero.)",
     "image": {
       "src": "/img/maths04/cancel-factors.svg",
       "alt": "A fraction drawn as blocks, with matching blocks crossed out"
@@ -1693,7 +1693,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Take four consecutive square numbers, e.g. 9, 16, 25, 36. Add the smallest and the largest, then subtract the two middle squares. What do you get?",
+    "prompt": "Take four consecutive square numbers, for example 9, 16, 25, 36. Add the smallest and the largest, then subtract the two middle squares. What do you get?",
     "image": {
       "src": "/img/maths04/four-squares.svg",
       "alt": "Four square grids of sides 3, 4, 5 and 6"
@@ -2161,7 +2161,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A rectangular pool's breadth is 3 m less than its length, and its area is $108\\ \\text{m}^2$. Find its length and breadth.",
+    "prompt": "The breadth of a rectangular pool is 3 m less than its length. Its area is $108\\ \\text{m}^2$. Find its length and breadth.",
     "image": {
       "src": "/img/maths04/pool.svg",
       "alt": "A rectangular swimming pool of length x metres"
@@ -2200,7 +2200,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A square playground of side 30 m has a path of uniform width $s$ m built all around it, outside the playground. What is the area of the path?",
+    "prompt": "A square playground of side 30 m has a path of the same width $s$ m all around it, outside the playground. What is the area of the path?",
     "image": {
       "src": "/img/maths04/playground-path.svg",
       "alt": "A square playground with a path of width s around it"
@@ -2239,7 +2239,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Saira has one $x^2$ tile, five $x$-strips and six unit squares, i.e. $x^2 + 5x + 6$. Which arrangement uses **exactly** these tiles to make a complete rectangle?",
+    "prompt": "Saira has one $x^2$ tile, five $x$-strips and six unit squares. Together they make $x^2 + 5x + 6$. Which arrangement uses **exactly** these tiles to make a complete rectangle?",
     "options": [
       {
         "id": "a",

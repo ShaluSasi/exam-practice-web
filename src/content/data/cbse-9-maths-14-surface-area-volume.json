@@ -175,7 +175,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The areas of the three faces of a cuboid meeting at one corner are $6\\ \\text{cm}^2$, $15\\ \\text{cm}^2$ and $10\\ \\text{cm}^2$. What is its volume?",
+    "prompt": "Three faces of a cuboid meet at one corner. Their areas are $6\\ \\text{cm}^2$, $15\\ \\text{cm}^2$ and $10\\ \\text{cm}^2$. What is the volume of the cuboid?",
     "image": {
       "src": "/img/maths14/cuboid-faces.svg",
       "alt": "A cuboid and its net with the face areas written in square centimetres"
@@ -214,7 +214,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A $5\\ \\text{cm}$ cube is painted on every face and then sliced into $1\\ \\text{cm}$ cubes. Tap the small cube that will have **exactly one** face painted.",
+    "prompt": "A $5\\ \\text{cm}$ cube is painted on every face. Then it is cut into $1\\ \\text{cm}$ cubes. Tap the small cube that will have **exactly one** face painted.",
     "image": {
       "src": "/img/maths14/painted-cube.svg",
       "alt": "A painted cube divided into small cubes, with numbered markers"
@@ -261,7 +261,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "A $5\\ \\text{cm}$ cube is painted on all faces and sliced into $125$ cubes of $1\\ \\text{cm}^3$. Select **all** the true statements.",
+    "prompt": "A $5\\ \\text{cm}$ cube is painted on all faces. Then it is cut into $125$ cubes of $1\\ \\text{cm}^3$ each. Select **all** the true statements.",
     "image": {
       "src": "/img/maths14/painted-cube.svg",
       "alt": "A painted cube divided into small cubes"
@@ -308,7 +308,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A school is choosing a swimming pool: Pool A is $8\\ \\text{ft}$ deep, $50\\ \\text{ft}$ long and $20\\ \\text{ft}$ wide; Pool B is $6\\ \\text{ft}$ deep, $100\\ \\text{ft}$ long and $15\\ \\text{ft}$ wide. Using $1\\ \\text{ft}^3 \\approx 28.3$ litres, which holds more water and by how much?",
+    "prompt": "A school is choosing a swimming pool. Pool A is $8\\ \\text{ft}$ deep, $50\\ \\text{ft}$ long and $20\\ \\text{ft}$ wide. Pool B is $6\\ \\text{ft}$ deep, $100\\ \\text{ft}$ long and $15\\ \\text{ft}$ wide. Take $1\\ \\text{ft}^3 \\approx 28.3$ litres. Which pool holds more water, and by how much?",
     "image": {
       "src": "/img/maths14/pools.svg",
       "alt": "Two swimming pool designs drawn as cuboids"
@@ -394,7 +394,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Cut a cylinder along its height and open it out: one surface becomes a rectangle. Tap that surface.",
+    "prompt": "A cylinder is cut along its height and opened out. One of its surfaces becomes a rectangle. Tap that surface.",
     "image": {
       "src": "/img/maths14/cylinder-parts.svg",
       "alt": "A cylinder with lines and numbered markers"
@@ -441,7 +441,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Savitri makes a tube-shaped kaleidoscope of length $25\\ \\text{cm}$ and radius $3.5\\ \\text{cm}$ out of chart paper. How much paper is needed for the curved surface? Use $\\pi = \\dfrac{22}{7}$.",
+    "prompt": "Savitri makes a tube-shaped kaleidoscope out of chart paper. It is $25\\ \\text{cm}$ long and its radius is $3.5\\ \\text{cm}$. How much paper is needed for the curved surface? Use $\\pi = \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths14/kaleidoscope.svg",
       "alt": "A rectangle of chart paper rolled into a tube"
@@ -480,7 +480,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A tumbler is a cylinder of radius $7\\ \\text{cm}$ and height $10\\ \\text{cm}$, closed at the bottom and **open at the top**. What is the area of material in it? Use $\\pi = \\dfrac{22}{7}$.",
+    "prompt": "A tumbler is a cylinder of radius $7\\ \\text{cm}$ and height $10\\ \\text{cm}$. It is closed at the bottom and **open at the top**. What is the area of material needed to make it? Use $\\pi = \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths14/tumbler.svg",
       "alt": "A cylinder that is open at the top, with radius 7 cm and height 10 cm marked"
@@ -605,7 +605,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A solid metal cube of side $12\\ \\text{cm}$ is melted and recast into solid rods, each of radius $2\\ \\text{cm}$ and height $12\\ \\text{cm}$. How many **complete** rods can be made? Use $\\pi = \\dfrac{22}{7}$.",
+    "prompt": "A solid metal cube of side $12\\ \\text{cm}$ is melted. The metal is recast (made again) into solid rods, each of radius $2\\ \\text{cm}$ and height $12\\ \\text{cm}$. How many **complete** rods can be made? Use $\\pi = \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths14/melt-rods.svg",
       "alt": "A metal cube being melted into several rods"
@@ -644,7 +644,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put the steps for finding how many cylindrical rods can be recast from a metal cube in the correct order.",
+    "prompt": "We want to find how many cylindrical rods can be made by melting a metal cube. Put the steps in the correct order.",
     "image": {
       "src": "/img/maths14/melt-rods.svg",
       "alt": "A metal cube being melted into several rods"
@@ -998,7 +998,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A conical tent has height $24\\ \\text{m}$ and base radius $7\\ \\text{m}$. How long a strip of tarpaulin $5\\ \\text{m}$ wide is needed for the curved surface, if $20\\ \\text{cm}$ of length is extra for stitching and wastage? Use $\\pi = \\dfrac{22}{7}$.",
+    "prompt": "A conical tent has height $24\\ \\text{m}$ and base radius $7\\ \\text{m}$. Its curved surface is made from a strip of tarpaulin $5\\ \\text{m}$ wide. An extra $20\\ \\text{cm}$ of length is needed for stitching and wastage. How long must the strip be? Use $\\pi = \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths14/tent.svg",
       "alt": "A conical tent and a roll of tarpaulin"
@@ -1037,7 +1037,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps to find the length of tarpaulin needed for a conical tent of given height and radius.",
+    "prompt": "Put the steps in order to find the length of tarpaulin needed for a conical tent of given height and radius.",
     "image": {
       "src": "/img/maths14/tent.svg",
       "alt": "A conical tent and a roll of tarpaulin"
@@ -1088,7 +1088,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A right triangle with sides $6\\ \\text{cm}$, $8\\ \\text{cm}$ and $10\\ \\text{cm}$ is turned through $360^\\circ$ about the side of $8\\ \\text{cm}$. What is the volume of the solid formed? (Leave $\\pi$ in the answer.)",
+    "prompt": "A right triangle has sides $6\\ \\text{cm}$, $8\\ \\text{cm}$ and $10\\ \\text{cm}$. It is turned through $360^\\circ$ about the side of $8\\ \\text{cm}$. What is the volume of the solid formed? (Leave $\\pi$ in the answer.)",
     "image": {
       "src": "/img/maths14/triangle-rotate.svg",
       "alt": "A right triangle turning about one of its sides"
@@ -1127,7 +1127,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A cup shaped like a cone, point downwards, is filled with water to **half its depth**. What fraction of the cup's volume does the water occupy?",
+    "prompt": "A cup is shaped like a cone, with its point downwards. It is filled with water up to **half its depth**. What fraction of the cup's volume is filled with water?",
     "image": {
       "src": "/img/maths14/cone-half-water.svg",
       "alt": "A cone-shaped cup holding water"
@@ -1236,7 +1236,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **slant height** of a triangular face, which runs from the apex to the middle of a base edge.",
+    "prompt": "Tap the **slant height** of a triangular face. It runs from the apex (top point) to the middle of a base edge.",
     "image": {
       "src": "/img/maths14/pyramid-parts.svg",
       "alt": "A square pyramid with several lines and numbered markers"
@@ -1596,7 +1596,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Sixteen metal spheres, each of radius $2\\ \\text{cm}$, are packed into a box of internal size $16\\ \\text{cm} \\times 8\\ \\text{cm} \\times 8\\ \\text{cm}$ (two layers of eight). The box is then filled with preservative liquid. Find the volume of liquid, to the nearest whole number.",
+    "prompt": "Sixteen metal spheres, each of radius $2\\ \\text{cm}$, are packed in a box (two layers of eight). The inside of the box measures $16\\ \\text{cm} \\times 8\\ \\text{cm} \\times 8\\ \\text{cm}$. The box is then filled up with preservative liquid. Find the volume of liquid, to the nearest whole number.",
     "image": {
       "src": "/img/maths14/spheres-box.svg",
       "alt": "Top view of a box with eight spheres in one layer"
@@ -1635,7 +1635,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The outside of a hemispherical dome is to be painted. The circumference of its base is $35.2\\ \\text{m}$ and painting costs ₹10 per $100\\ \\text{cm}^2$. What is the total cost? Use $\\pi = \\dfrac{22}{7}$.",
+    "prompt": "The outside of a dome shaped like a hemisphere is to be painted. The circumference of its base is $35.2\\ \\text{m}$. Painting costs ₹10 per $100\\ \\text{cm}^2$. What is the total cost? Use $\\pi = \\dfrac{22}{7}$.",
     "image": {
       "src": "/img/maths14/dome.svg",
       "alt": "A building topped by a hemispherical dome"
@@ -1814,7 +1814,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A cylindrical vessel of radius $10\\ \\text{cm}$ holds spiced water (pani) to a height of $50\\ \\text{cm}$. Each golgappa is a ball of radius $1.5\\ \\text{cm}$, and on average it is **half full** of pani (ignore the thickness of the shell). About how many golgappas can be served?",
+    "prompt": "A cylindrical vessel of radius $10\\ \\text{cm}$ has spiced water (pani) up to a height of $50\\ \\text{cm}$. Each golgappa is a ball of radius $1.5\\ \\text{cm}$. On average, each golgappa is **half full** of pani (ignore the thickness of the shell). About how many golgappas can be served?",
     "image": {
       "src": "/img/maths14/golgappa.svg",
       "alt": "A vessel of spiced water and a few round hollow golgappas"
@@ -1853,7 +1853,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A classroom is $12\\ \\text{m} \\times 9\\ \\text{m} \\times 3\\ \\text{m}$. Tennis balls of radius $3\\ \\text{cm}$ are stacked in neat, straight rows along the length, width and height, touching each other. How many fit?",
+    "prompt": "A classroom is $12\\ \\text{m} \\times 9\\ \\text{m} \\times 3\\ \\text{m}$. Tennis balls of radius $3\\ \\text{cm}$ are stacked in neat, straight rows along the length, width and height. Each ball touches the next one. How many balls fit?",
     "image": {
       "src": "/img/maths14/room-balls.svg",
       "alt": "A classroom shaped like a cuboid and tennis balls packed neatly in rows"
@@ -1892,7 +1892,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps of solving a **guesstimate** problem, as suggested in the chapter.",
+    "prompt": "Put the steps of solving a **guesstimate** problem in order, as given in the chapter.",
     "image": {
       "src": "/img/maths14/guess-steps.svg",
       "alt": "A light bulb, a thought cloud and a calculator"
@@ -1943,7 +1943,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A school gives milk in cylindrical glasses of diameter $7\\ \\text{cm}$, each filled to a height of $12\\ \\text{cm}$. How many litres are needed for $1600$ students? Use $\\pi = \\dfrac{22}{7}$ and $1000\\ \\text{cm}^3 = 1$ litre.",
+    "prompt": "A school gives milk in cylindrical glasses of diameter $7\\ \\text{cm}$. Each glass is filled to a height of $12\\ \\text{cm}$. How many litres of milk are needed for $1600$ students? Use $\\pi = \\dfrac{22}{7}$ and $1000\\ \\text{cm}^3 = 1$ litre.",
     "image": {
       "src": "/img/maths14/milk-glasses.svg",
       "alt": "A row of identical glasses filled with milk"
@@ -1982,7 +1982,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A cylindrical glass of height $25\\ \\text{cm}$ and radius $4\\ \\text{cm}$ has water up to $16\\ \\text{cm}$. A crow can drink only when the water reaches $20\\ \\text{cm}$. It drops in marbles of radius $1\\ \\text{cm}$. How many marbles are needed?",
+    "prompt": "A cylindrical glass has height $25\\ \\text{cm}$ and radius $4\\ \\text{cm}$. It has water up to $16\\ \\text{cm}$. A crow can drink only when the water reaches $20\\ \\text{cm}$. So it drops in marbles of radius $1\\ \\text{cm}$. How many marbles are needed?",
     "image": {
       "src": "/img/maths14/crow.svg",
       "alt": "A tall glass of water with marbles at the bottom and the 16 cm and 20 cm levels marked"
@@ -2021,7 +2021,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The surface area of a sphere of radius $5\\ \\text{cm}$ is **five times** the curved surface area of a cone of base radius $4\\ \\text{cm}$. Find the height and the volume of the cone.",
+    "prompt": "A sphere has radius $5\\ \\text{cm}$. A cone has base radius $4\\ \\text{cm}$. The surface area of the sphere is **five times** the curved surface area of the cone. Find the height and the volume of the cone.",
     "image": {
       "src": "/img/maths14/sphere-cone.svg",
       "alt": "A sphere of radius 5 cm beside a cone of radius 4 cm"
@@ -2060,7 +2060,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Take Earth as a sphere of radius $6370\\ \\text{km}$ and Jupiter as a sphere of radius $69900\\ \\text{km}$. About how many times is Jupiter's **volume** the volume of the Earth?",
+    "prompt": "Take Earth as a sphere of radius $6370\\ \\text{km}$ and Jupiter as a sphere of radius $69900\\ \\text{km}$. Jupiter's **volume** is about how many times the volume of the Earth?",
     "image": {
       "src": "/img/maths14/planets.svg",
       "alt": "Earth, Jupiter and the Sun drawn as circles of different sizes"
@@ -2099,7 +2099,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A string is tied tightly round the equator of a sphere. A second string, exactly $1\\ \\text{m}$ longer, is held at the same height above the surface all the way round. How high above the surface is it, and does the answer depend on the size of the sphere?",
+    "prompt": "A string is tied tightly round the equator of a sphere. A second string is exactly $1\\ \\text{m}$ longer. It is held at the same height above the surface all the way round. How high above the surface is it? Does the answer depend on the size of the sphere?",
     "image": {
       "src": "/img/maths14/earth-string.svg",
       "alt": "A string round a planet and a slightly longer string above it"

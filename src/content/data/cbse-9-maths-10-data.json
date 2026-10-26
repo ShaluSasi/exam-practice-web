@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A badminton academy has 6 seniors with a mean height of $168\\ \\text{cm}$ and 2 juniors with a mean height of $152\\ \\text{cm}$. What is the mean height of all 8 players together?",
+    "prompt": "A badminton academy has 6 seniors and 2 juniors. The mean height of the seniors is $168\\ \\text{cm}$ and of the juniors is $152\\ \\text{cm}$. What is the mean height of all 8 players together?",
     "image": {
       "src": "/img/maths10/badminton.svg",
       "alt": "Two groups of badminton players of different sizes with their mean heights"
@@ -153,8 +153,8 @@
       "src": "/img/maths10/cycling.svg",
       "alt": "A cyclist and a table of three weeks with five weekday rides each"
     },
-    "assertion": "Jaspreet cycled on 5 weekdays in each of 3 weeks. Adding her three weekly means and dividing by 3 gives her correct mean over all 15 rides.",
-    "reason": "When all the groups have the same size, each group has the same weight, so the weighted mean becomes the simple mean of the group means.",
+    "assertion": "Jaspreet cycled on 5 weekdays in each of 3 weeks. If she adds her three weekly means and divides by 3, she gets her correct mean over all 15 rides.",
+    "reason": "When all the groups are the same size, each group has the same weight. So the weighted mean becomes the simple mean of the group means.",
     "answer": "a",
     "hint": "Look at what $p$ does in $\\dfrac{ap+bp+cp}{p+p+p}$.",
     "explanation": "Both are true and R explains A. With group size $p$, $\\dfrac{ap+bp+cp}{3p}=\\dfrac{a+b+c}{3}$ because $p$ cancels. The same shortcut would be wrong if one week had 4 rides and another 5."
@@ -171,7 +171,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A 300 mL bowl of lemonade has 10% jaggery and a 100 mL glass has 30% jaggery. Both are poured into one jug. What is the percentage of jaggery in the mixture?",
+    "prompt": "A 300 mL bowl of lemonade has 10% jaggery. A 100 mL glass has 30% jaggery. Both are poured into one jug. What is the percentage of jaggery in the mixture?",
     "image": {
       "src": "/img/maths10/bowl-glass.svg",
       "alt": "A bowl and a glass of lemonade being poured into one jug"
@@ -249,7 +249,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Brahmagupta’s idea of mean depth: a 20-hasta pit is dug in four sections of lengths 3, 4, 5 and 8 hastas to depths 8, 6, 4 and 2 hastas respectively. What is the mean depth of the pit?",
+    "prompt": "This is Brahmagupta’s idea of mean depth. A pit 20 hastas long is dug in four sections. The sections are 3, 4, 5 and 8 hastas long. They are dug to depths of 8, 6, 4 and 2 hastas respectively. What is the mean depth of the pit?",
     "image": {
       "src": "/img/maths10/pit.svg",
       "alt": "Side view of a pit with four sections of different lengths and depths"
@@ -327,7 +327,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A goldsmith melts together 6 units of gold of purity 14 varṇa, 10 units of 12 varṇa and 4 units of 16 varṇa (16 varṇa is pure gold). What is the purity of the combined gold?",
+    "prompt": "A goldsmith melts together 6 units of gold of purity 14 varṇa, 10 units of 12 varṇa and 4 units of 16 varṇa. (16 varṇa is pure gold.) What is the purity of the combined gold?",
     "image": {
       "src": "/img/maths10/gold.svg",
       "alt": "Three small stacks of gold bars with different purities"
@@ -405,7 +405,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A 400 mL kadha with 5% spice mix, a 100 mL one with 10% and a 500 mL one with 20% are poured together. What is the spice-mix concentration of the mixture?",
+    "prompt": "Three kadhas are poured together: 400 mL with 5% spice mix, 100 mL with 10% and 500 mL with 20%. What is the spice-mix concentration of the mixture?",
     "image": {
       "src": "/img/maths10/jugs3.svg",
       "alt": "Three jugs of herbal drink of different sizes and strengths"
@@ -491,7 +491,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A school combines internals, project and final exam in the ratio $3:2:5$. A student scored 54, 70 and 82 (each out of 100) respectively. What is the annual score?",
+    "prompt": "A school combines internals, project and final exam in the ratio $3:2:5$. A student scored 54, 70 and 82 (each out of 100) in these, in that order. What is the annual score?",
     "image": {
       "src": "/img/maths10/report-card.svg",
       "alt": "A report card with marks for three parts and a weight bar for each"
@@ -530,7 +530,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "Marks: internals 18 out of 20, project 36 out of 40, final exam 70 out of 100, combined in the ratio $2:3:5$. Which expression(s) give the annual score **as a percentage**? Select all that apply.",
+    "prompt": "A student's marks are: internals 18 out of 20, project 36 out of 40, final exam 70 out of 100. They are combined in the ratio $2:3:5$. Which expression(s) give the annual score **as a percentage**? Select all that apply.",
     "image": {
       "src": "/img/maths10/report-card2.svg",
       "alt": "A report card with marks out of different totals and a weight bar for each"
@@ -615,7 +615,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A store counts each review of the last 3 months **twice** as much as an older review. It has 40 recent reviews averaging 4.5 and 60 older reviews averaging 3.5. What is its overall rating (to two decimals)?",
+    "prompt": "A store counts each review from the last 3 months **twice** as much as an older review. It has 40 recent reviews with an average of 4.5, and 60 older reviews with an average of 3.5. What is its overall rating (to two decimals)?",
     "image": {
       "src": "/img/maths10/shop-reviews.svg",
       "alt": "Two review boxes for recent and older reviews with their means"
@@ -654,7 +654,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A shop earned ₹6000 from books with a 20% profit and ₹2000 from book covers with a 40% profit. What is the profit percentage on the total sales?",
+    "prompt": "A shop earned ₹6000 from books with a 20% profit. It earned ₹2000 from book covers with a 40% profit. What is the profit percentage on the total sales?",
     "image": {
       "src": "/img/maths10/stationery.svg",
       "alt": "A shop counter with a pile of books and a pile of book covers"
@@ -732,7 +732,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Ten customers rated the restaurant, with the counts shown in the table. First find the mean star rating for each aspect, then combine them with the weights Food : Service : Ambience $=5:3:2$. What is the overall rating?",
+    "prompt": "Ten customers rated the restaurant. The table shows the counts. First find the mean star rating for each aspect. Then combine them using the weights Food : Service : Ambience $=5:3:2$. What is the overall rating?",
     "image": {
       "src": "/img/maths10/rating-table.svg",
       "alt": "A table of how many customers gave each star rating for three aspects"
@@ -818,7 +818,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In another facility the mean weight of male langurs is $20\\ \\text{kg}$, of female langurs $14\\ \\text{kg}$, and of all 48 langurs $16\\ \\text{kg}$. How many male langurs are there?",
+    "prompt": "In another facility, the mean weight of the male langurs is $20\\ \\text{kg}$ and of the female langurs is $14\\ \\text{kg}$. The mean weight of all 48 langurs is $16\\ \\text{kg}$. How many male langurs are there?",
     "image": {
       "src": "/img/maths10/langur-table.svg",
       "alt": "A table of langur weights with the counts left unknown"
@@ -958,7 +958,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A stall’s pani has 10% spice. Customers say it is too hot, so the owner adds plain water to 12 L of pani until the spice level is $\\dfrac{3}{5}$ of the original. How much water is added?",
+    "prompt": "A stall’s pani has 10% spice. Customers say it is too hot. So the owner adds plain water to 12 L of pani until the spice level is $\\dfrac{3}{5}$ of the original. How much water is added?",
     "image": {
       "src": "/img/maths10/pani.svg",
       "alt": "A pot of pani with a jug of plain water being added"
@@ -1148,7 +1148,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "This chart shows how a house’s electricity use was split in 2005 and 2025. Tap the segment that is the **largest share of the 2025 total**.",
+    "prompt": "This chart shows how a house’s electricity use was divided in 2005 and 2025. Tap the segment that is the **largest share of the 2025 total**.",
     "image": {
       "src": "/img/maths10/power-100.svg",
       "alt": "A 100 percent stacked bar chart of electricity use by type for two years, with numbered markers"
@@ -1201,7 +1201,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "The chart shows the share of each garden’s yearly flowers that bloomed in each season. Which statements can be **definitely inferred**? Select all that apply.",
+    "prompt": "The chart shows what share of each garden’s flowers for the year bloomed in each season. Which statements can be **definitely inferred** from the chart? Select all that apply.",
     "image": {
       "src": "/img/maths10/flowers-100.svg",
       "alt": "A 100 percent stacked bar chart of flowers blooming by season in two gardens"
@@ -1258,7 +1258,7 @@
       "alt": "Two different stacked bar charts with two rows each"
     },
     "assertion": "From any stacked bar chart we can draw the matching 100% stacked bar chart.",
-    "reason": "From any 100% stacked bar chart we can recover the exact numbers of the original stacked bar chart.",
+    "reason": "From any 100% stacked bar chart, we can get back the exact numbers of the original stacked bar chart.",
     "answer": "c",
     "hint": "Many different totals can give the same percentages.",
     "explanation": "A is true: divide each part by its bar’s total and scale to 100%. R is false: the two charts in the picture have different counts and totals but would give identical 100% bars, so the percentages cannot tell you the numbers. The chapter’s summary says a 100% chart can be made from a stacked chart, but not vice versa."
@@ -1396,7 +1396,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In cricket the run rate is runs per over. After 14 overs a team’s run rate is 7. In the 15th over it scores 13 runs. What is the run rate after 15 overs?",
+    "prompt": "In cricket, the run rate is runs per over. After 14 overs, a team’s run rate is 7. In the 15th over, it scores 13 runs. What is the run rate after 15 overs?",
     "image": {
       "src": "/img/maths10/cricket.svg",
       "alt": "A cricket scoreboard with overs and runs, a bat and a ball"
@@ -1435,7 +1435,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Asha holds 20 shares of a company at a mean price of ₹120. She buys 10 more shares at ₹30 each. What is her mean price per share now?",
+    "prompt": "Asha has 20 shares of a company, bought at a mean price of ₹120. She buys 10 more shares at ₹30 each. What is her mean price per share now?",
     "image": {
       "src": "/img/maths10/shares.svg",
       "alt": "A pile of share certificates already held and a smaller pile being bought"
@@ -1474,7 +1474,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Suvarna owns 3 g of gold bought at a mean price of ₹20k per gram (point O). She now buys **1 g at ₹40k**. Tap where her new mean price per gram lies.",
+    "prompt": "Suvarna owns 3 g of gold, bought at a mean price of ₹20k per gram (point O). She now buys **1 g at ₹40k**. Tap where her new mean price per gram lies.",
     "image": {
       "src": "/img/maths10/gold-line.svg",
       "alt": "A number line of gold prices with a marker O and numbered markers"
@@ -1615,7 +1615,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "A farm’s animals were 60% cows, 25% sheep and 15% hens, and the **number** of every kind of animal fell this year. Which changes in the **shares** (percentages) are possible? Select all that apply.",
+    "prompt": "On a farm, 60% of the animals were cows, 25% sheep and 15% hens. This year, the **number** of every kind of animal fell. Which changes in the **shares** (percentages) are possible? Select all that apply.",
     "image": {
       "src": "/img/maths10/farm.svg",
       "alt": "A bar showing shares of cows, sheep and hens on a farm"
@@ -1662,7 +1662,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Athlete 1 took 1 h 08 min to swim, 5 h 00 min to cycle and 3 h 15 min to run. If a 100% stacked bar is drawn for this athlete, what percentage will the cycling part be (to one decimal)?",
+    "prompt": "Athlete 1 took 1 h 08 min to swim, 5 h 00 min to cycle and 3 h 15 min to run. A 100% stacked bar is drawn for this athlete. What percentage will the cycling part be (to one decimal)?",
     "image": {
       "src": "/img/maths10/triathlon.svg",
       "alt": "A table of three athletes’ finish times in swimming, cycling and running"
@@ -1772,7 +1772,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "In each situation, what plays the role of the **weight**?",
+    "prompt": "Match each situation with what acts as the **weight** in it.",
     "image": {
       "src": "/img/maths10/weights-match.svg",
       "alt": "Five small everyday scenes"
@@ -1914,7 +1914,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each mixture of lemonade (volume at jaggery percentage) with the jaggery concentration of the final mixture.",
+    "prompt": "Each lemonade mixture below lists its parts as volume at jaggery percentage. Match each mixture with the jaggery concentration of the final mixture.",
     "image": {
       "src": "/img/maths10/mix-match.svg",
       "alt": "Several jugs of lemonade of different colours"
@@ -2194,7 +2194,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "order",
-    "prompt": "Internals, project and final exam count in the ratio $3:5:2$. Arrange the students by their **annual score**, lowest first. Marks are (internals, project, final).",
+    "prompt": "Internals, project and final exam count in the ratio $3:5:2$. Marks are given as (internals, project, final). Arrange the students by their **annual score**, lowest first.",
     "image": {
       "src": "/img/maths10/podium.svg",
       "alt": "Four students standing in a row"

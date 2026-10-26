@@ -206,7 +206,8 @@ export function startProgressSync(): () => void {
   const offSession = useSession.subscribe((s, prev) => {
     if (!s.key) return;
     if (s.finishedAt && !prev.finishedAt) discardSavedRound(s.key, s.roundId);
-    else if (s.roundId === prev.roundId && s.attempts.length > prev.attempts.length) save(snapshot(s));
+    // A new answer, or a skipped question answered later (which replaces its skip).
+    else if (s.roundId === prev.roundId && s.attempts !== prev.attempts && s.attempts.length >= prev.attempts.length) save(snapshot(s));
   });
 
   let lastUserId: string | null | undefined;

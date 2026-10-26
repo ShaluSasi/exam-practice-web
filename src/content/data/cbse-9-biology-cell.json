@@ -120,7 +120,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Mitochondria",
     "difficulty": "medium", "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **cristae**, the folds that increase the surface area for energy production.",
+    "prompt": "Tap the **cristae**. These are the folds that give more surface area for making energy.",
     "image": { "src": "/img/cell/mitochondrion.svg", "alt": "A mitochondrion releasing ATP, with numbered markers" },
     "spots": [
       { "id": "outer", "x": 50, "y": 17, "label": "Outer membrane" },
@@ -318,7 +318,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Endoplasmic reticulum and Golgi",
     "difficulty": "medium", "marks": 2,
     "type": "order",
-    "prompt": "The animation follows a protein that the cell will secrete. Arrange its journey in the correct order.",
+    "prompt": "The animation follows a protein that the cell will secrete (send out). Put the steps of its journey in the correct order.",
     "image": { "src": "/img/cell/protein-pathway.svg", "alt": "Animation of a vesicle travelling from the ER through the Golgi to the cell membrane" },
     "items": [
       { "id": "golgi", "text": "Golgi apparatus modifies and packs it into vesicles" },
@@ -338,7 +338,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Chromosomes and DNA",
     "difficulty": "medium", "marks": 1,
     "type": "order",
-    "prompt": "Zoom in! Arrange these so that each one **contains** the next, from the outermost container to the smallest part.",
+    "prompt": "Zoom in! Arrange these from the outermost to the smallest part, so that each one **contains** the next.",
     "image": { "src": "/img/cell/chromosome.svg", "alt": "Animation of a chromosome with DNA unwinding from one arm" },
     "items": [
       { "id": "dna", "text": "DNA molecule" },
@@ -359,7 +359,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Cell theory",
     "difficulty": "medium", "marks": 2,
     "type": "order",
-    "prompt": "Put these milestones on the road to the **Cell Theory** in time order.",
+    "prompt": "These discoveries led to the **Cell Theory**. Put them in the order they happened.",
     "image": { "src": "/img/cell/microscope.svg", "alt": "A compound light microscope" },
     "items": [
       { "id": "virchow", "text": "Virchow: new cells form only from pre-existing cells" },
@@ -400,7 +400,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Estimating cell size",
     "difficulty": "medium", "marks": 2,
     "type": "mcq",
-    "prompt": "Through the eyepiece, the circular field of view measures **4 mm** across. You count **20** onion peel cells in a straight line along the diameter. Estimate the size of one cell.",
+    "prompt": "Through the eyepiece, the round field of view is **4 mm** across. You count **20** onion peel cells in a straight line across it (along the diameter). Estimate the size of one cell.",
     "image": { "src": "/img/cell/field-of-view.svg", "alt": "A microscope field of view 4 mm across with a row of 20 onion cells along its diameter" },
     "options": [
       { "id": "a", "text": "0.2 µm" },
@@ -490,7 +490,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Limit of resolution",
     "difficulty": "easy", "marks": 1,
     "type": "mcq",
-    "prompt": "Two dots are moved closer and closer. Viewed from 25 cm, below what gap does your eye see them as **one** dot?",
+    "prompt": "Two dots are moved closer and closer together. You look at them from 25 cm away. Below what gap does your eye see them as **one** dot?",
     "image": { "src": "/img/cell/two-dots.svg", "alt": "Animation of an eye watching two dots move together until they merge" },
     "options": [
       { "id": "a", "text": "1 cm" },
@@ -780,7 +780,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Cell death",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "As an embryo's hand develops, the cells between the fingers die on schedule. What is this called?",
+    "prompt": "As the hand of an embryo develops, the cells between the fingers die at a fixed, planned time. What is this called?",
     "image": { "src": "/img/cell/hand-pcd.svg", "alt": "Animation of the webbing between an embryo's fingers disappearing" },
     "options": [
       { "id": "a", "text": "Contact inhibition" },
@@ -798,7 +798,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Totipotency",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "A single plant cell, given nutrients and the right conditions, grows into a whole new plant. What is this ability called?",
+    "prompt": "A single plant cell is given nutrients and the right conditions. It grows into a whole new plant. What is this ability called?",
     "image": { "src": "/img/cell/tissue-culture.svg", "alt": "Animation: a single plant cell becomes a cell mass and then a small plantlet" },
     "options": [
       { "id": "a", "text": "Totipotency" },
@@ -816,7 +816,7 @@
     "chapter": "Cell: The Building Block of Life", "chapterNo": 1, "topic": "Synthetic biology",
     "difficulty": "hard", "marks": 1,
     "type": "mcq",
-    "prompt": "In 2010, Craig Venter's team put lab-made DNA into a bacterium whose own DNA had been removed. The cell grew and divided following the new DNA. What does this show?",
+    "prompt": "In 2010, Craig Venter's team made DNA in a lab. They put it into a bacterium whose own DNA had been removed. The cell then grew and divided as the new DNA told it to. What does this show?",
     "image": { "src": "/img/cell/synthetic-cell.svg", "alt": "Animation: a bacterium's DNA is removed, synthetic DNA is added, and the cell divides" },
     "options": [
       { "id": "a", "text": "Scientists can build a complete living cell from non-living chemicals" },
@@ -912,7 +912,7 @@
     "type": "assertion_reason",
     "prompt": "Read the Assertion (A) and Reason (R) carefully.",
     "image": { "src": "/img/cell/cheek-cells.svg", "alt": "Human cheek cells seen through a microscope" },
-    "assertion": "Cheek cells shrink considerably when placed in 20% sugar solution.",
+    "assertion": "Cheek cells shrink a lot when placed in 20% sugar solution.",
     "reason": "Animal cells do not have a rigid cell wall to hold their shape.",
     "answer": "a",
     "hint": "Compare what happened to the Rhoeo leaf cells in the same solution.",

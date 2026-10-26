@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A grid of long wooden sticks is pinned at every crossing. The bottom stick is held still and the top is pushed sideways, as in the picture. Which statement describes the cells of the grid afterwards?",
+    "prompt": "A grid is made of long wooden sticks, pinned where they cross. The bottom stick is held still and the top is pushed sideways, as in the picture. Which statement is true about the cells of the grid after this?",
     "image": {
       "src": "/img/maths12/tile-shear.svg",
       "alt": "A grid of pinned sticks that slants as it is pushed sideways"
@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "By the definition of a quadrilateral, no three of the four vertices may lie on one line. In the picture, which figure breaks this rule because **three of its four points are collinear**?",
+    "prompt": "In a quadrilateral, no three of the four vertices can lie on one straight line. Which figure in the picture breaks this rule because **three of its four points are collinear**?",
     "image": {
       "src": "/img/maths12/shapes-gallery.svg",
       "alt": "Four figures labelled P, Q, R and S"
@@ -89,7 +89,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **non-convex** quadrilateral: the one with a dent, where one internal angle is more than $180^\\circ$.",
+    "prompt": "Tap the **non-convex** quadrilateral. It has a dent, and one of its internal angles is more than $180^\\circ$.",
     "image": {
       "src": "/img/maths12/shapes-gallery.svg",
       "alt": "Four figures labelled P, Q, R and S with numbered markers"
@@ -136,7 +136,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the quadrilateral shown, the two diagonals drawn as solid lines **do not meet** (they would only meet if one were extended). What can you conclude?",
+    "prompt": "In the quadrilateral shown, the two diagonals (solid lines) **do not meet**. They would meet only if one of them were extended. What can you say about this quadrilateral?",
     "image": {
       "src": "/img/maths12/convex-test.svg",
       "alt": "A four-sided figure with its two diagonals drawn"
@@ -511,7 +511,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "A quadrilateral ABCD (diagonals meeting at E) **must be a parallelogram** if which of these hold? Select **all** that apply.",
+    "prompt": "The diagonals of quadrilateral ABCD meet at E. In which of these cases **must** ABCD **be a parallelogram**? Select **all** that apply.",
     "image": {
       "src": "/img/maths12/diag-bisect.svg",
       "alt": "A four-sided figure ABCD whose diagonals cross at E with tick marks"
@@ -569,7 +569,7 @@
       "alt": "A four-sided figure ABCD with its angles marked x and y"
     },
     "assertion": "If the opposite angles of a quadrilateral are equal, then it is a parallelogram.",
-    "reason": "If $\\angle A = \\angle C = x$ and $\\angle B = \\angle D = y$, then $2(x + y) = 360^\\circ$, so each pair of adjacent angles adds up to $180^\\circ$, which makes opposite sides parallel.",
+    "reason": "If $\\angle A = \\angle C = x$ and $\\angle B = \\angle D = y$, then $2(x + y) = 360^\\circ$. So each pair of adjacent angles adds up to $180^\\circ$, and this makes the opposite sides parallel.",
     "answer": "a",
     "hint": "Use the fact that the four angles add up to $360^\\circ$.",
     "explanation": "Both are true and R is the proof of A. With $2x + 2y = 360^\\circ$ we get $x + y = 180^\\circ$, so $\\angle A + \\angle B = 180^\\circ$ and BC $\\parallel$ AD; likewise $\\angle B + \\angle C = 180^\\circ$ gives AB $\\parallel$ DC. Two pairs of parallel sides make a parallelogram."
@@ -586,7 +586,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps that prove: *a quadrilateral whose diagonals bisect each other is a parallelogram.*",
+    "prompt": "Put the steps of this proof in order: *a quadrilateral whose diagonals bisect each other is a parallelogram.*",
     "image": {
       "src": "/img/maths12/diag-bisect.svg",
       "alt": "A four-sided figure ABCD whose diagonals cross at E with tick marks"
@@ -660,7 +660,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **rhombus** (all four sides equal; equal sides carry the same tick marks).",
+    "prompt": "Tap the **rhombus** (all four sides equal). Equal sides have the same tick marks.",
     "image": {
       "src": "/img/maths12/gallery-rhombus.svg",
       "alt": "Four quadrilaterals labelled P, Q, R and S with tick marks and numbered markers"
@@ -832,7 +832,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In rhombus ABCD, $\\angle A = 70^\\circ$. Find $\\angle ABD$, where BD is a diagonal.",
+    "prompt": "In rhombus ABCD, $\\angle A = 70^\\circ$ and BD is a diagonal. Find $\\angle ABD$.",
     "image": {
       "src": "/img/maths12/rhombus-angle.svg",
       "alt": "A rhombus ABCD with one angle marked and diagonal BD"
@@ -1192,7 +1192,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In trapezium ABCD, $AD \\parallel BC$, $AD = 3$ cm and $BC = 5$ cm. E and F are the midpoints of the non-parallel sides. Find the ratio of the areas of AEFD and EBCF.",
+    "prompt": "In trapezium ABCD, $AD \\parallel BC$, $AD = 3$ cm and $BC = 5$ cm. E and F are the midpoints of the non-parallel sides. Find the ratio of the area of AEFD to the area of EBCF.",
     "image": {
       "src": "/img/maths12/trap-areas.svg",
       "alt": "A trapezium ABCD split by EF into a green part and an orange part"
@@ -1309,7 +1309,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps of the proof that $PQ \\parallel BC$ and $PQ = \\dfrac12 BC$, where P and Q are midpoints of AB and AC.",
+    "prompt": "P and Q are the midpoints of AB and AC. Put the steps in order to prove that $PQ \\parallel BC$ and $PQ = \\dfrac12 BC$.",
     "image": {
       "src": "/img/maths12/midpoint-proof.svg",
       "alt": "A triangle ABC with midpoints P and Q and a dashed line through C parallel to BA"
@@ -1431,7 +1431,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "P, Q, R and S are the midpoints of the sides of quadrilateral ABCD, whose diagonals are $AC = 12$ cm and $BD = 8$ cm. Find the perimeter of the parallelogram PQRS.",
+    "prompt": "P, Q, R and S are the midpoints of the sides of quadrilateral ABCD. Its diagonals are $AC = 12$ cm and $BD = 8$ cm. Find the perimeter of the parallelogram PQRS.",
     "image": {
       "src": "/img/maths12/varignon.svg",
       "alt": "A four-sided figure ABCD with the midpoints of its sides joined"
@@ -1561,7 +1561,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The medians of $\\triangle ABC$ meet at M, and $MQ = 5$ cm, where BQ is a median. Find the length of the whole median BQ.",
+    "prompt": "The medians of $\\triangle ABC$ meet at M. BQ is a median and $MQ = 5$ cm. Find the length of the whole median BQ.",
     "image": {
       "src": "/img/maths12/centroid.svg",
       "alt": "A triangle ABC with its three medians meeting at M"
@@ -1600,7 +1600,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **centroid** of the triangle, the point common to all three medians.",
+    "prompt": "Tap the **centroid** of the triangle. It is the point where all three medians meet.",
     "image": {
       "src": "/img/maths12/centroid-plain.svg",
       "alt": "A triangle with its three medians drawn and numbered markers"
@@ -1670,7 +1670,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In $\\triangle ABC$, P lies on AB and the line through P parallel to BC meets AC at Q. If $AP = 1$, $PB = 2$ and $AQ = \\sqrt{5}$, find QC.",
+    "prompt": "In $\\triangle ABC$, P is a point on AB. The line through P parallel to BC meets AC at Q. If $AP = 1$, $PB = 2$ and $AQ = \\sqrt{5}$, find QC.",
     "image": {
       "src": "/img/maths12/tri-parallel.svg",
       "alt": "A triangle ABC with a line PQ drawn parallel to the base BC"
@@ -1709,7 +1709,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In parallelogram ABCD, M and N are the midpoints of AB and CD. The segments DM and BN cut the diagonal AC at X and Y, and $AC = 21$ cm. Find XY.",
+    "prompt": "In parallelogram ABCD, M and N are the midpoints of AB and CD. The segments DM and BN cut the diagonal AC at X and Y. If $AC = 21$ cm, find XY.",
     "image": {
       "src": "/img/maths12/trisect.svg",
       "alt": "A parallelogram ABCD with two lines crossing the diagonal AC at X and Y"
@@ -1748,7 +1748,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Triangles are drawn from one vertex of a 7-sided polygon, as in the picture. What is the sum of its internal angles?",
+    "prompt": "From one vertex of a 7-sided polygon, triangles are drawn as in the picture. What is the sum of its internal angles?",
     "image": {
       "src": "/img/maths12/heptagon-triangles.svg",
       "alt": "A seven-sided polygon being cut into triangles from one corner"
@@ -1995,7 +1995,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps of **Method 1** for tiling the plane with copies of a 4-gon SOME.",
+    "prompt": "Put the steps of **Method 1** in order. This method tiles the plane with copies of a 4-gon SOME.",
     "image": {
       "src": "/img/maths12/tiling-methods.svg",
       "alt": "A four-sided tile and a second copy turned a half-turn about the midpoint of one edge"
@@ -2069,7 +2069,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Three sides of a quadrilateral measure 2 cm, 5 cm and 11 cm. Which of these could be the length of the **fourth** side?",
+    "prompt": "Three sides of a quadrilateral are 2 cm, 5 cm and 11 cm long. Which of these could be the length of the **fourth** side?",
     "image": {
       "src": "/img/maths12/rods.svg",
       "alt": "Rods of different lengths to be joined into a four-sided frame"

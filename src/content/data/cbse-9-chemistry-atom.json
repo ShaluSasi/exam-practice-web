@@ -116,7 +116,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Thomson got the same kind of cathode rays **whatever metal** he used for the cathode and **whatever gas** filled the tube. What did this show?",
+  "prompt": "Thomson always got the same kind of cathode rays. It did not matter **which metal** he used for the cathode or **which gas** filled the tube. What did this show?",
   "image": {
    "src": "/img/atom/cathode-tube.svg",
    "alt": "A gas discharge tube connected to a high-voltage supply and a vacuum pump"
@@ -253,7 +253,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Riya builds a Thomson-style atom: a ball of positively charged clay with small negatively charged beads pressed into it. The clay's positive charge is **less** than the total negative charge of the beads. What is wrong with her model?",
+  "prompt": "Riya makes a model of Thomson's atom. It is a ball of positively charged clay with small negatively charged beads pressed into it. The positive charge of the clay is **less** than the total negative charge of the beads. What is wrong with her model?",
   "image": {
    "src": "/img/atom/plum-pudding.svg",
    "alt": "A ball of positive charge with small negative particles spread through it"
@@ -292,7 +292,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Alpha particles are fired at a very thin gold foil, and a circular screen records where they land. Tap where **most** of the alpha particles were detected.",
+  "prompt": "Alpha particles are fired at a very thin gold foil. A circular screen shows where they land. Tap where **most** of the alpha particles were detected.",
   "image": {
    "src": "/img/atom/gold-foil-setup.svg",
    "alt": "A beam of alpha particles aimed at a thin gold foil inside a circular screen, with numbered markers"
@@ -454,8 +454,8 @@
    "src": "/img/atom/rutherford-model.svg",
    "alt": "A tiny central nucleus with electrons moving in orbits around it"
   },
-  "assertion": "From the gold foil experiment, Rutherford deduced that most of an atom's mass is packed into a tiny central region, the nucleus.",
-  "reason": "According to Thomson's model, electrons are embedded in a sphere of evenly spread positive charge.",
+  "assertion": "From the gold foil experiment, Rutherford concluded that most of an atom's mass is packed into a tiny central part, the nucleus.",
+  "reason": "According to Thomson's model, electrons sit inside a sphere of positive charge that is spread evenly.",
   "answer": "b",
   "hint": "Check each statement on its own, then ask whether R is the reason for A.",
   "explanation": "Both are true, but R does not explain A. Rutherford's conclusion came from his **own results**: a few alpha particles were deflected through large angles or bounced back, which needs a small, dense, positive **nucleus**. R just describes **Thomson's** earlier model, which the experiment actually disproved."
@@ -511,7 +511,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A sheet of card is $0.2\\ \\text{mm}$ thick. If one atom is about $10^{-10}\\ \\text{m}$ across, roughly how many atoms lie stacked across the card's thickness?",
+  "prompt": "A sheet of card is $0.2\\ \\text{mm}$ thick. One atom is about $10^{-10}\\ \\text{m}$ across. Roughly how many atoms, placed one on top of another, would fit across the card's thickness?",
   "image": {
    "src": "/img/atom/paper-stack.svg",
    "alt": "A thin sheet magnified to show the atoms packed inside it"
@@ -573,7 +573,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Electrons orbit the nucleus in both Rutherford's and Bohr's models. Why could Bohr's model explain the **stability** of atoms?",
+  "prompt": "In both Rutherford's and Bohr's models, electrons move around the nucleus. Why could Bohr's model explain the **stability** of atoms?",
   "image": {
    "src": "/img/atom/bohr-shells.svg",
    "alt": "Concentric energy levels around a nucleus with electrons moving on them"
@@ -847,7 +847,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A helium atom has twice as many protons as a hydrogen atom, yet it is about **four times** as heavy. What explains this?",
+  "prompt": "A helium atom has twice as many protons as a hydrogen atom. But it is about **four times** as heavy. What explains this?",
   "image": {
    "src": "/img/atom/mass-balance.svg",
    "alt": "A balance with four small atoms on one pan and one bigger atom on the other"
@@ -1105,7 +1105,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In 1803, John Dalton used circle pictures like these as symbols for elements. Who, in 1813, suggested that symbols be made from letters of the elements' **Latin** names?",
+  "prompt": "In 1803, John Dalton used circle pictures like these as symbols for elements. In 1813, who suggested making symbols from letters of the elements' **Latin** names?",
   "image": {
    "src": "/img/atom/dalton-symbols.svg",
    "alt": "Six old-style circle symbols for elements"
@@ -2131,7 +2131,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "The pictures P to T show five models of the atom. Arrange them in the order in which they were proposed.",
+  "prompt": "The pictures P to T show five models of the atom. Arrange them in the order in which they were suggested.",
   "image": {
    "src": "/img/atom/model-gallery.svg",
    "alt": "Five different pictures of the atom labelled P to T"

@@ -15,7 +15,7 @@ import { burst } from "../lib/celebrate";
 import { play } from "../lib/sound";
 import { SUBJECT_STYLE, formatTime } from "../lib/subjects";
 import { QuestionBody } from "../questions";
-import { useSession } from "../store/session";
+import { attemptFor, hasKey, useSession } from "../store/session";
 import { ShareSheet, type ShareTarget } from "../components/ShareSheet";
 import { SaveScoreCard } from "../components/SignInPrompt";
 import { freeRoundUsed } from "../store/guestLimit";
@@ -400,8 +400,10 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
         <section className="mt-8">
           <h2 className="mb-4 font-display text-2xl font-extrabold tracking-tight">Review answers</h2>
           <ul className="grid gap-3">
-            {s.attempts.map((a, i) => {
-              const q = byId[a.questionId];
+            {/* In question order: answers are stored in the order they were given, and skipped ones may come later. */}
+            {s.questions.flatMap((q, i) => {
+              const a = attemptFor(s.attempts, q.id);
+              if (!a) return [];
               const open = openId === q.id;
               return (
                 <motion.li
@@ -459,7 +461,9 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
                             <RichText text={q.prompt} />
                           </p>
                           {q.image && q.type !== "hotspot" && <Figure media={q.image} className="mb-4" frameClassName="max-w-[380px]" />}
-                          <QuestionBody q={q} response={a.response} onChange={() => {}} reveal />
+                          {/* A skipped question's answer arrives as the round ends; without a connection then, it can't be shown. */}
+                          <QuestionBody q={q} response={a.response} onChange={() => {}} reveal={hasKey(q)} />
+                          {!hasKey(q) && <p className="mt-3 text-sm font-semibold text-muted">The answer couldn't be loaded. Check your connection.</p>}
                           {q.explanation && (
                             <div className="mt-5 rounded-2xl bg-surface-2 p-4 leading-relaxed">
                               <p className="mb-1 text-xs font-bold uppercase tracking-wider text-muted">Explanation</p>

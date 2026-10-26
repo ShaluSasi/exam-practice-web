@@ -260,7 +260,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Stopping force",
     "difficulty": "hard", "marks": 3,
     "type": "mcq",
-    "prompt": "A **20 g** bullet moving at $200\\ \\text{m s}^{-1}$ enters a heavy wooden block and stops after going **10 cm** into it. Assuming constant deceleration, estimate the stopping force on the bullet.",
+    "prompt": "A **20 g** bullet moving at $200\\ \\text{m s}^{-1}$ enters a heavy wooden block. It stops after going **10 cm** into the block. Assume the deceleration is constant. Estimate the stopping force on the bullet.",
     "image": { "src": "/img/forces/bullet-block.svg", "alt": "Animation of a bullet entering a wooden block and stopping inside it" },
     "options": [
       { "id": "a", "text": "40 N" },
@@ -296,7 +296,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Friction and stopping distance",
     "difficulty": "hard", "marks": 2,
     "type": "mcq",
-    "prompt": "A **4 kg** block slides at a steady $6\\ \\text{m s}^{-1}$ onto a rough patch where friction is **5 N**. At the same moment an extra **3 N** force opposing the motion is applied. How far does it go before stopping?",
+    "prompt": "A **4 kg** block is sliding at a steady $6\\ \\text{m s}^{-1}$. It reaches a rough patch where friction is **5 N**. At the same moment, an extra **3 N** force is applied against its motion. How far does it go before it stops?",
     "image": { "src": "/img/forces/rough-patch.svg", "alt": "Animation of a block sliding from a smooth floor onto a rough patch and stopping, with two backward arrows" },
     "options": [
       { "id": "a", "text": "14.4 m" },
@@ -314,7 +314,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Second law: mass and acceleration",
     "difficulty": "hard", "marks": 2,
     "type": "mcq",
-    "prompt": "A tractor's net pull F gives a harrow an acceleration of $3\\ \\text{m s}^{-2}$, and gives a trolley $6\\ \\text{m s}^{-2}$. With the harrow loaded on the trolley, what acceleration does the same force F produce? (Ignore friction.)",
+    "prompt": "A tractor pulls with a net force F. This force gives a harrow (a farm tool) an acceleration of $3\\ \\text{m s}^{-2}$, and gives a trolley an acceleration of $6\\ \\text{m s}^{-2}$. Now the harrow is loaded on the trolley. What acceleration does the same force F give them? (Ignore friction.)",
     "image": { "src": "/img/forces/tractor.svg", "alt": "Animation of a tractor pulling a trolley that carries a harrow" },
     "options": [
       { "id": "a", "text": "$9\\ \\text{m s}^{-2}$" },
@@ -368,7 +368,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: force and acceleration",
     "difficulty": "hard", "marks": 2,
     "type": "mcq",
-    "prompt": "In the cart-and-cup activity, the cart takes $T_1 = 3.0$ s to cross the table. With double the mass in the cup it takes $T_2 = 2.2$ s over the same distance, starting from rest. What is $\\dfrac{a_2}{a_1}$?",
+    "prompt": "In the cart-and-cup activity, the cart starts from rest and takes $T_1 = 3.0$ s to cross the table. When the mass in the cup is doubled, the cart again starts from rest and takes $T_2 = 2.2$ s over the same distance. What is $\\dfrac{a_2}{a_1}$?",
     "image": { "src": "/img/forces/cart-pulley.svg", "alt": "Animation of a cart on a table pulled by a thread over a pipe to a falling paper cup" },
     "options": [
       { "id": "a", "text": "1.86" },
@@ -509,7 +509,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Rocket propulsion in space",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "Like the Vikram lander of **Chandrayaan-3**, this lander is moving down towards the Moon and must slow down for a soft landing. Which way should its engine push out the exhaust gas?",
+    "prompt": "This lander is like the Vikram lander of **Chandrayaan-3**. It is moving down towards the Moon and must slow down for a soft landing. Which way should its engine push out the exhaust gas?",
     "image": { "src": "/img/forces/spacecraft.svg", "alt": "Animation of a lander descending towards the Moon's surface, with an arrow showing its downward motion" },
     "options": [
       { "id": "a", "text": "Downwards, in the direction it is moving" },
@@ -545,7 +545,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Balanced and unbalanced forces",
     "difficulty": "medium", "marks": 1,
     "type": "mcq",
-    "prompt": "On a smooth floor, block P has forces of **5 N** and **4 N** acting in opposite directions, while block Q slides at **constant velocity**. Which statement is correct?",
+    "prompt": "Two blocks are on a smooth floor. Block P has two forces on it, **5 N** and **4 N**, acting in opposite directions. Block Q slides at **constant velocity**. Which statement is correct?",
     "image": { "src": "/img/forces/blocks-pq.svg", "alt": "Block P with a 5 N arrow to the left and a 4 N arrow to the right; block Q sliding to the right" },
     "options": [
       { "id": "a", "text": "P has a net force on it; Q does not" },
@@ -593,8 +593,8 @@
     "type": "assertion_reason",
     "prompt": "Read the Assertion (A) and Reason (R) carefully.",
     "image": { "src": "/img/forces/airbag.svg", "alt": "Animation of a passenger moving forwards into an inflating airbag" },
-    "assertion": "Airbags lower the risk of serious injury when a vehicle stops abruptly in a collision.",
-    "reason": "The soft cushion increases the time over which the passenger is brought to rest, so the acceleration and hence the force on the passenger are smaller.",
+    "assertion": "Airbags lower the risk of serious injury when a vehicle stops suddenly in a crash.",
+    "reason": "The soft cushion increases the time the passenger takes to come to rest. So the acceleration, and hence the force on the passenger, become smaller.",
     "answer": "a",
     "hint": "Think about how $F = ma$ changes when the same change in velocity happens more slowly.",
     "explanation": "Both are true and R explains A. The passenger's velocity must drop to zero either way. Spreading that change over a **longer time** means a **smaller acceleration**, and by $F = ma$ a **smaller force**. Seat belts add to this protection. A fielder pulling the hands back while catching uses the same idea."
@@ -857,7 +857,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: friction on different surfaces",
     "difficulty": "medium", "marks": 1,
     "type": "order",
-    "prompt": "A stack of coins is launched by the same stretched rubber band on three surfaces. Arrange the surfaces from where the stack slides **farthest** to where it stops **soonest**.",
+    "prompt": "The same stretched rubber band is used to launch a stack of coins on three surfaces. Arrange the surfaces from where the stack slides **farthest** to where it stops **soonest**.",
     "image": { "src": "/img/forces/coins-setup.svg", "alt": "Top view of a rubber band stretched to point C with a stack of coins, and three surface samples" },
     "items": [
       { "id": "wood", "text": "Wooden table top" },
@@ -876,7 +876,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Activity: force and acceleration",
     "difficulty": "medium", "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps of the cart-and-cup activity, which tests how force affects acceleration.",
+    "prompt": "The cart-and-cup activity tests how force affects acceleration. Arrange the steps of this activity in order.",
     "image": { "src": "/img/forces/cart-pulley.svg", "alt": "Animation of a cart on a table pulled by a thread over a pipe to a paper cup" },
     "items": [
       { "id": "time", "text": "Read the time $T_1$ from the slow-motion video" },
@@ -918,7 +918,7 @@
     "chapter": "How Forces Affect Motion", "chapterNo": 2, "topic": "Stopping force",
     "difficulty": "medium", "marks": 2,
     "type": "order",
-    "prompt": "You want the stopping force on a bullet that stops inside a wooden block. Arrange the steps of the working in order.",
+    "prompt": "You want to find the stopping force on a bullet that stops inside a wooden block. Put the steps of the working in order.",
     "image": { "src": "/img/forces/bullet-block.svg", "alt": "Animation of a bullet entering a wooden block and stopping inside it" },
     "items": [
       { "id": "force", "text": "Multiply by the mass to get the force, $F = ma$" },

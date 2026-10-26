@@ -91,7 +91,11 @@ export async function storeActiveRound(env: Env, user: SessionUser, round: z.inf
        SELECT ?1, ?2, ?3, ?4, a.value ->> '$.questionId', a.value ->> '$.correct', (a.value -> '$.response') IS NULL,
               a.value ->> '$.usedHint', a.value ->> '$.xp', a.value ->> '$.timeMs', a.value -> '$.response', ?5
        FROM json_each(?6) AS a WHERE true
-       ON CONFLICT (user_id, round_id, question_id) DO NOTHING`,
+       ON CONFLICT (user_id, round_id, question_id) DO UPDATE SET
+         correct = excluded.correct, skipped = excluded.skipped, used_hint = excluded.used_hint, xp = excluded.xp,
+         time_ms = excluded.time_ms, response = excluded.response, answered_at = excluded.answered_at
+       -- Logged once, except that a skipped question answered later gets its answer.
+       WHERE answers.skipped AND NOT excluded.skipped`,
     ).bind(user.id, user.email, round.roundId, round.title, now, JSON.stringify(round.attempts)),
   ]);
 }

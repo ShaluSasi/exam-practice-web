@@ -389,7 +389,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A rectangular garden is $l$ m long and $w$ m wide. A wire fence along **both lengths** costs ₹120 per metre, a wooden fence along **both widths** costs ₹90 per metre, and seeds sown over the whole garden cost ₹40 per square metre. Which expression gives the **total cost** in rupees?",
+    "prompt": "A rectangular garden is $l$ m long and $w$ m wide. A wire fence along **both lengths** costs ₹120 per metre. A wooden fence along **both widths** costs ₹90 per metre. Seeds sown over the whole garden cost ₹40 per square metre. Which expression gives the **total cost** in rupees?",
     "image": {
       "src": "/img/maths02/garden.svg",
       "alt": "A rectangular garden with wire fencing on its two lengths, wooden fencing on its two widths and seeds inside"
@@ -1165,7 +1165,7 @@
       "src": "/img/maths02/bacteria.svg",
       "alt": "A bacteria colony with 1, 2, 4 and 8 cells at hours 0 to 3"
     },
-    "assertion": "A bacteria colony that grows 1, 2, 4, 8, 16, … over successive hours shows linear growth.",
+    "assertion": "A bacteria colony that grows as 1, 2, 4, 8, 16, … hour after hour shows linear growth.",
     "reason": "The number of bacteria increases every hour.",
     "answer": "d",
     "hint": "Check the differences between consecutive numbers.",
@@ -2177,7 +2177,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Every linear function $f(x) = ax + a$ with $a > 0$ (for example $2x + 2$ or $3x + 3$) has a graph that passes through one common point. Tap that point.",
+    "prompt": "Look at linear functions of the form $f(x) = ax + a$ with $a > 0$ (for example $2x + 2$ or $3x + 3$). All their graphs pass through one common point. Tap that point.",
     "image": {
       "src": "/img/maths02/axes-points.svg",
       "alt": "Coordinate axes with five marked points near the origin"
@@ -2230,7 +2230,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The two digits of a two-digit number differ by 5. When the digits are swapped and the new number is added to the original, the sum is **121**. Which pair could be the original and swapped numbers?",
+    "prompt": "The two digits of a two-digit number differ by 5. The digits are swapped to make a new number. When the new number is added to the original, the sum is **121**. Which pair could be the original and swapped numbers?",
     "image": {
       "src": "/img/maths02/digit-swap.svg",
       "alt": "Two digit cards a and b swapping places, with ab + ba = 121"

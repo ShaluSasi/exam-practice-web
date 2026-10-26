@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Adding $586 + 748$ with the column algorithm. The dashed circles above the columns are the carry cells. Tap the cell in which the carry produced by the **units** column is written.",
+  "prompt": "We add $586 + 748$ with the column algorithm. The dashed circles above the columns are the carry cells. Tap the cell where the carry from the **units** column is written.",
   "image": {
    "src": "/img/maths11/add-586-748.svg",
    "alt": "Two three-digit numbers written one under the other with dashed carry circles above each column"
@@ -136,7 +136,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In Step 3 of the addition algorithm, one column holds two digits and a carry. What is the **largest** total that one such column can have?",
+  "prompt": "In Step 3 of the addition algorithm, one column has two digits and a carry. What is the **largest** total that one such column can have?",
   "image": {
    "src": "/img/maths11/add-max.svg",
    "alt": "Two digit cards and a carry card added together with a question mark for the total"
@@ -226,12 +226,12 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "assertion_reason",
-  "prompt": "Consider the addition algorithm with its last step (write a leftover carry) removed.",
+  "prompt": "Think of the addition algorithm without its last step (writing a leftover carry).",
   "image": {
    "src": "/img/maths11/add-742-658.svg",
    "alt": "Two three-digit numbers written one under the other with carry circles and answer boxes"
   },
-  "assertion": "Without the final step, the algorithm still adds $123 + 456$ correctly but gives a wrong answer for $742 + 658$.",
+  "assertion": "Without the last step, the algorithm still adds $123 + 456$ correctly, but it gives a wrong answer for $742 + 658$.",
   "reason": "After the leftmost column, a carry of 1 can still be left over.",
   "answer": "a",
   "hint": "Check whether any column of each sum produces a carry past the leftmost digit.",
@@ -288,7 +288,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "If we move from adding 3-digit numbers to adding 5-digit numbers, what happens to the dots we would have to count and to the columns we add?",
+  "prompt": "We move from adding 3-digit numbers to adding 5-digit numbers. What happens to the number of dots we would have to count? What happens to the number of columns we add?",
   "image": {
    "src": "/img/maths11/dots-vs-cols.svg",
    "alt": "A big block of dots beside a row of column boxes"
@@ -327,7 +327,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "To add the decimal fractions $12.75 + 8.5$ with the column algorithm, the numbers must first be lined up. What is $12.75 + 8.5$?",
+  "prompt": "To add the decimal numbers $12.75 + 8.5$ with the column algorithm, we must first line up the numbers. What is $12.75 + 8.5$?",
   "image": {
    "src": "/img/maths11/decimal-add.svg",
    "alt": "A number with a decimal point written above empty boxes, with a second number waiting to be placed"
@@ -366,7 +366,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "The divisors algorithm is run for $n = 12$. After the number $j = 7$ has been checked, what does list-of-divisors contain?",
+  "prompt": "The divisors algorithm is run for $n = 12$. After $j = 7$ has been checked, what is in list-of-divisors?",
   "image": {
    "src": "/img/maths11/scanner12.svg",
    "alt": "A row of twelve numbered cells with a frame scanning along them"
@@ -405,7 +405,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Divisors of $36$ come in pairs with product $36$, e.g. $(1, 36)$, $(2, 18)$. One divisor is paired with **itself**. Tap the circle under that divisor.",
+  "prompt": "The divisors of $36$ come in pairs that multiply to give $36$, e.g. $(1, 36)$, $(2, 18)$. One divisor is paired with **itself**. Tap the circle under that divisor.",
   "image": {
    "src": "/img/maths11/divpairs36.svg",
    "alt": "A row of nine number chips with an empty dashed circle under each chip"
@@ -464,7 +464,7 @@
   "difficulty": "hard",
   "marks": 1,
   "type": "mcq",
-  "prompt": "If divisors are found **in pairs**, up to which number must we examine to find all the divisors of $n = 144$?",
+  "prompt": "We find divisors **in pairs**. Up to which number must we check to find all the divisors of $n = 144$?",
   "image": {
    "src": "/img/maths11/pairarcs24.svg",
    "alt": "Number chips with coloured arcs joining pairs of chips"
@@ -503,7 +503,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "The divisors algorithm checks $j = 1, 2, 3, \\dots$ for $n = 45$. Arrange the divisors in the order in which they are **added** to the list.",
+  "prompt": "The divisors algorithm checks $j = 1, 2, 3, \\dots$ for $n = 45$. Put the divisors in the order in which they are **added** to the list.",
   "image": {
    "src": "/img/maths11/list-grows.svg",
    "alt": "A bracket containing coloured blocks that appear one by one at the end"
@@ -782,7 +782,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "For $n = 18$, arrange these actions in the order in which the flowchart performs them for the very first time round.",
+  "prompt": "For $n = 18$, put these actions in the order in which the flowchart does them in its first round.",
   "image": {
    "src": "/img/maths11/flow-divisors.svg",
    "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
@@ -838,7 +838,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Using the first gcd algorithm for $\\gcd(48, 36)$, how many numbers are in the list **common-divisors**?",
+  "prompt": "Use the first gcd algorithm to find $\\gcd(48, 36)$. How many numbers are in the list **common-divisors**?",
   "image": {
    "src": "/img/maths11/lists-48-36.svg",
    "alt": "Two rows of number chips, the first row longer than the second"
@@ -877,7 +877,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "List 1 is the list of divisors of $375$ and List 2 is the list of divisors of $825$. Which elements of List 1 are **not** present in List 2?",
+  "prompt": "List 1 is the list of divisors of $375$. List 2 is the list of divisors of $825$. Which numbers in List 1 are **not** in List 2?",
   "image": {
    "src": "/img/maths11/lists-375-825.svg",
    "alt": "Two rows of number chips for two lists of divisors"
@@ -963,7 +963,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "For $m = 90$ and $n = 36$, arrange the three scans from the **most** numbers checked to the **fewest**.",
+  "prompt": "For $m = 90$ and $n = 36$, put the three scans in order, from the one that checks the **most** numbers to the one that checks the **fewest**.",
   "image": {
    "src": "/img/maths11/bars-scan.svg",
    "alt": "Two bars of different lengths with a magnifier scanning along a ruler"
@@ -1009,7 +1009,7 @@
    "src": "/img/maths11/bars-scan.svg",
    "alt": "Two bars of different lengths with a magnifier scanning along a ruler"
   },
-  "assertion": "It is enough to scan the numbers from $1$ to $\\min(m, n)$ when looking for common divisors.",
+  "assertion": "To find common divisors, it is enough to check the numbers from $1$ to $\\min(m, n)$.",
   "reason": "A divisor of a positive number cannot be larger than the number itself.",
   "answer": "a",
   "hint": "Which number limits how big a common divisor can be?",
@@ -1027,7 +1027,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The scan with the variable $d$ (most recent common divisor) is run for $m = 36$, $n = 60$. What is $d$ just after $k = 9$ has been processed?",
+  "prompt": "The scan uses a variable $d$ that holds the most recent common divisor. It is run for $m = 36$, $n = 60$. What is $d$ just after $k = 9$ has been checked?",
   "image": {
    "src": "/img/maths11/flow-scan.svg",
    "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
@@ -1119,7 +1119,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "multi",
-  "prompt": "The scan is run for $m = 12$ and $n = 18$ (so $k$ goes from $2$ to $12$). Select **all** the values of $k$ at which $d \\leftarrow k$ is executed.",
+  "prompt": "The scan is run for $m = 12$ and $n = 18$ (so $k$ goes from $2$ to $12$). Select **all** the values of $k$ at which the step $d \\leftarrow k$ is carried out.",
   "image": {
    "src": "/img/maths11/flow-scan.svg",
    "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
@@ -1291,7 +1291,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Bar $n$ is laid under bar $m$ with their left ends together. Tap the circle on the part that represents $m - n$.",
+  "prompt": "Bar $n$ is placed under bar $m$, with their left ends lined up. Tap the circle on the part that shows $m - n$.",
   "image": {
    "src": "/img/maths11/tile-proof.svg",
    "alt": "Two bars made of equal blocks, one placed under the other, with dashed circles"
@@ -1338,7 +1338,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Euclid's original (subtraction) algorithm is applied to $\\gcd(48, 18)$. How many **reductions** (uses of Step 3) happen before $n = 0$ is reached?",
+  "prompt": "Euclid's original (subtraction) algorithm is used to find $\\gcd(48, 18)$. How many **reductions** (uses of Step 3) happen before we reach $n = 0$?",
   "image": {
    "src": "/img/maths11/pair-48-18.svg",
    "alt": "Two number cards going into a gear that produces an unknown"
@@ -1455,7 +1455,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Using Āryabhaṭa's division algorithm for $\\gcd(1071, 462)$, how many reduction (division) steps are needed before the second number becomes $0$?",
+  "prompt": "Use Āryabhaṭa's division algorithm to find $\\gcd(1071, 462)$. How many reduction (division) steps are needed before the second number becomes $0$?",
   "image": {
    "src": "/img/maths11/pair-1071-462.svg",
    "alt": "Two number cards going into a gear that produces an unknown"
@@ -1606,7 +1606,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "In this flowchart for Euclid's remainder algorithm, tap the circle beside the **decision** whose 'yes' answer ends the computation.",
+  "prompt": "In this flowchart for Euclid's remainder algorithm, tap the circle beside the **decision** that stops the computation when its answer is 'yes'.",
   "image": {
    "src": "/img/maths11/flow-euclid.svg",
    "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
@@ -1659,7 +1659,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "After the numbers have been reduced, the process repeats from the top. Tap the circle on the **loop-back** arrow.",
+  "prompt": "After the numbers are reduced, the process starts again from the top. Tap the circle on the **loop-back** arrow.",
   "image": {
    "src": "/img/maths11/flow-euclid.svg",
    "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
@@ -1759,13 +1759,13 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "assertion_reason",
-  "prompt": "Consider Euclid's algorithm with Step 1 'If $m < n$, reverse the numbers'.",
+  "prompt": "Euclid's algorithm has Step 1: 'If $m < n$, reverse the numbers'.",
   "image": {
    "src": "/img/maths11/reduce-step.svg",
    "alt": "A gcd problem passing through a gear to become a smaller problem"
   },
-  "assertion": "For $\\gcd(18, 48)$, the first thing the algorithm does is to reverse the numbers to $\\gcd(48, 18)$.",
-  "reason": "The reduction of $\\gcd(m, n)$ to $\\gcd(n, m - n)$ is justified only when $m \\ge n$.",
+  "assertion": "For $\\gcd(18, 48)$, the algorithm first reverses the numbers to get $\\gcd(48, 18)$.",
+  "reason": "The rule that reduces $\\gcd(m, n)$ to $\\gcd(n, m - n)$ can be used only when $m \\ge n$.",
   "answer": "a",
   "hint": "Is 18 smaller than 48?",
   "explanation": "Since $18 < 48$, Step 1 applies and the pair becomes $(48, 18)$. The reduction rule was proved for $m \\ge n$ (so that $m - n$ is not negative), which is why the reversal comes first."
@@ -1782,7 +1782,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The flowchart is run with $m = 18$ and $n = 48$. How many times is the rectangle $r \\leftarrow m \\bmod n$ executed?",
+  "prompt": "The flowchart is run with $m = 18$ and $n = 48$. How many times is the rectangle $r \\leftarrow m \\bmod n$ carried out?",
   "image": {
    "src": "/img/maths11/flow-euclid.svg",
    "alt": "A flowchart with ovals, rectangles and diamonds joined by arrows, with dashed empty circles beside the shapes"
@@ -1887,13 +1887,13 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "assertion_reason",
-  "prompt": "Consider Euclid's subtraction algorithm applied to $\\gcd(2k+1, 2)$.",
+  "prompt": "Euclid's subtraction algorithm is used to find $\\gcd(2k+1, 2)$.",
   "image": {
    "src": "/img/maths11/pair-99-2.svg",
    "alt": "Two number cards going into a gear that produces an unknown"
   },
   "assertion": "The subtraction algorithm needs about $k$ reductions for $\\gcd(2k + 1, 2)$.",
-  "reason": "Each reduction here lowers the big number by only $2$, so the work grows with the **value** of the number, not with its number of digits.",
+  "reason": "Here, each reduction makes the big number smaller by only $2$. So the work grows with the **value** of the number, not with how many digits it has.",
   "answer": "a",
   "hint": "How much does each step shrink 2k + 1?",
   "explanation": "The pairs go $(2k+1, 2) \\to (2k-1, 2) \\to (2k-3, 2) \\to \\cdots$ so roughly $k$ steps are used; for example $\\gcd(99, 2)$ needs $51$. The reason explains why the algorithm is slow for large numbers."
@@ -1910,13 +1910,13 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "assertion_reason",
-  "prompt": "Āryabhaṭa's improvement replaces the reduction to $\\gcd(n, m - n)$ by $\\gcd(n, m \\bmod n)$.",
+  "prompt": "Āryabhaṭa's improvement uses $\\gcd(n, m \\bmod n)$ in place of $\\gcd(n, m - n)$.",
   "image": {
    "src": "/img/maths11/pair-99-2.svg",
    "alt": "Two number cards going into a gear that produces an unknown"
   },
   "assertion": "For $\\gcd(99, 2)$ the remainder method finishes in just two reductions.",
-  "reason": "$99 \\bmod 2$ is what remains when $2$ is subtracted from $99$ again and again until no more can be subtracted.",
+  "reason": "$99 \\bmod 2$ is what is left when we keep subtracting $2$ from $99$ until we cannot subtract any more.",
   "answer": "a",
   "hint": "Many subtractions are bundled into one division.",
   "explanation": "$99 \\bmod 2 = 1$ so $(99,2)\\to(2,1)$, then $2 \\bmod 1 = 0$ gives $(1,0)$: two reductions instead of fifty-one. The reason shows why one remainder step replaces many subtractions."
@@ -1972,7 +1972,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "One way to find the least common multiple is to first compute $\\gcd(m, n)$ and then use it. What is $\\text{lcm}(24, 36)$?",
+  "prompt": "One way to find the least common multiple is to first find $\\gcd(m, n)$ and then use it. What is $\\text{lcm}(24, 36)$?",
   "image": {
    "src": "/img/maths11/pair-24-36.svg",
    "alt": "Two number cards going into a gear that produces an unknown"
@@ -2011,7 +2011,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "multi",
-  "prompt": "An algorithm prime(n) computes divisors(n) and says 'prime' if the list has exactly two entries (1 and $n$). Select **all** the numbers for which it says 'prime'.",
+  "prompt": "An algorithm prime(n) finds divisors(n). It says 'prime' if the list has exactly two entries (1 and $n$). Select **all** the numbers for which it says 'prime'.",
   "image": {
    "src": "/img/maths11/list-grows.svg",
    "alt": "A bracket containing coloured blocks that appear one by one at the end"
@@ -2057,7 +2057,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "The algorithm primedivisors(n) first computes divisors(n) and then keeps only the **prime** numbers in the list. What is primedivisors$(24)$?",
+  "prompt": "The algorithm primedivisors(n) first finds divisors(n). Then it keeps only the **prime** numbers in the list. What is primedivisors$(24)$?",
   "image": {
    "src": "/img/maths11/list-grows.svg",
    "alt": "A bracket containing coloured blocks that appear one by one at the end"

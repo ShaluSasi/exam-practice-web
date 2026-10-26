@@ -102,8 +102,8 @@
       "src": "/img/sound/bell-jar.svg",
       "alt": "Animation of an electric bell ringing inside a bell jar attached to a vacuum pump"
     },
-    "assertion": "A ringing electric bell inside a bell jar becomes almost silent once most of the air is pumped out, even though its hammer can still be seen striking.",
-    "reason": "Sound needs a material medium to propagate.",
+    "assertion": "An electric bell is ringing inside a bell jar. When most of the air is pumped out, the bell becomes almost silent, even though its hammer can still be seen striking.",
+    "reason": "Sound needs a material medium to travel (propagate).",
     "answer": "a",
     "hint": "What is left between the bell and your ear when the air has been removed?",
     "explanation": "Both are true and R explains A. As the pump removes air, there are fewer particles to carry the vibrations, so the sound fades; near a **vacuum** almost nothing is heard. The bell can still be **seen** because light does not need a medium. Letting air back in brings the sound back."
@@ -1212,7 +1212,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Gunjan presses her ear to a long steel fence while her friend knocks on it **850 m** away. Sound travels at $5000\\ \\text{m s}^{-1}$ in steel and $340\\ \\text{m s}^{-1}$ in air. What is the time gap between the two knocks she hears, and can she tell them apart? (Two sounds must be at least 0.1 s apart to be heard separately.)",
+    "prompt": "Gunjan presses her ear to a long steel fence. Her friend knocks on the fence **850 m** away. Sound travels at $5000\\ \\text{m s}^{-1}$ in steel and $340\\ \\text{m s}^{-1}$ in air, so Gunjan hears two knocks. What is the time gap between them, and can she hear them as separate sounds? (Two sounds must be at least 0.1 s apart to be heard separately.)",
     "image": {
       "src": "/img/sound/steel-fence.svg",
       "alt": "Animation of a knock travelling quickly along a steel fence and more slowly through the air"
@@ -1251,7 +1251,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Sound travels at about $344\\ \\text{m s}^{-1}$ in air at 22 °C but only $331\\ \\text{m s}^{-1}$ at 0 °C. Thunder comes from a strike **2648 m** away. Roughly how much **extra** time does it take to reach you on a 0 °C day than on a 22 °C day?",
+    "prompt": "Sound travels at about $344\\ \\text{m s}^{-1}$ in air at 22 °C, but only $331\\ \\text{m s}^{-1}$ at 0 °C. Lightning strikes **2648 m** away. Roughly how much **extra** time does the thunder take to reach you on a 0 °C day, compared with a 22 °C day?",
     "image": {
       "src": "/img/sound/lightning.svg",
       "alt": "Animation of thunder travelling from a distant lightning strike to a child"
@@ -1604,7 +1604,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Indian drums like the tabla have a black patch on the drum head that changes how the membrane vibrates. Tap this patch, the **syaahi**, on the smaller wooden drum.",
+    "prompt": "Indian drums like the tabla have a black patch on the drum head. This patch changes how the membrane vibrates. Tap this patch, called the **syaahi**, on the smaller wooden drum.",
     "image": {
       "src": "/img/sound/tabla.svg",
       "alt": "Animation of a tabla pair with numbered markers"
@@ -1657,7 +1657,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "order",
-    "prompt": "In Kongthong, the 'Whistling Village' in Meghalaya, every person has a sung **tune name**, a tradition called **Jingrwai Iawbei**. A girl practising her tune sings the notes below into a frequency app. Arrange them from **lowest to highest frequency**.",
+    "prompt": "Kongthong in Meghalaya is called the 'Whistling Village'. There, every person has a sung **tune name**. This tradition is called **Jingrwai Iawbei**. A girl practising her tune sings the notes below into a frequency app. Arrange the notes from **lowest to highest frequency**.",
     "image": {
       "src": "/img/sound/phone-app.svg",
       "alt": "Animation of a girl singing while a phone app shows frequency bars"
@@ -1755,7 +1755,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A science club wants an echo to arrive **at least 0.15 s** after a clap. If sound travels at $340\\ \\text{m s}^{-1}$, what is the **minimum** distance of the reflecting cliff?",
+    "prompt": "A science club wants an echo to arrive **at least 0.15 s** after a clap. If sound travels at $340\\ \\text{m s}^{-1}$, what is the **minimum** distance of the cliff that reflects the sound?",
     "image": {
       "src": "/img/sound/echo-cliff.svg",
       "alt": "Animation of a child's shout travelling to a cliff and back"
@@ -1838,7 +1838,7 @@
       "src": "/img/sound/hall.svg",
       "alt": "Animation of sound from a singer reflecting off the ceiling and walls of a large hall"
     },
-    "assertion": "In a large hall, sound can linger after the singer stops, because reflections from the walls and ceiling keep arriving less than 0.05 s apart.",
+    "assertion": "In a large hall, sound can continue for some time after the singer stops. This is because reflections from the walls and ceiling keep arriving less than 0.05 s apart.",
     "reason": "Hard, smooth walls absorb most of the sound that falls on them.",
     "answer": "c",
     "hint": "Do echoes come more strongly from hard surfaces or from curtains?",
@@ -2125,7 +2125,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Two identical sources face a vertical cliff from the same distance: A in air and B under water. The echo takes **4.4 times as long** to return to A as to B. What is the ratio of the speed of sound in air to that in water?",
+    "prompt": "Two identical sound sources, A and B, are at the same distance from a vertical cliff. A is in air and B is under water. The echo takes **4.4 times as long** to come back to A as to B. What is the ratio of the speed of sound in air to the speed of sound in water?",
     "image": {
       "src": "/img/sound/cliff-two.svg",
       "alt": "Animation of sound pulses from source A in air and source B under water bouncing off a cliff"
@@ -2170,7 +2170,7 @@
       "alt": "Animation of two mechanical waves, P with particles moving along the wave and Q with particles moving across it"
     },
     "assertion": "When an earthquake strikes, the first seismic waves picked up by seismographs are longitudinal waves.",
-    "reason": "Sound in air is a longitudinal wave, in which particles vibrate parallel to the direction of propagation.",
+    "reason": "Sound in air is a longitudinal wave, in which particles vibrate parallel to the direction of propagation (the direction in which the wave travels).",
     "answer": "b",
     "hint": "Both statements are facts from the chapter, but is the second one about earthquakes at all?",
     "explanation": "Both are true. Seismic waves can be longitudinal (like P) or transverse (like Q), and the **longitudinal** ones are detected first. R correctly describes **sound** in air, but it says nothing about why longitudinal seismic waves arrive first, so it does not explain A. Not all waves are mechanical: **light** is a transverse wave that can travel through a vacuum."
