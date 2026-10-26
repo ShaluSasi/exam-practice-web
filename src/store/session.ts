@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import type { AnyResponse, ClientQuestion } from "../content/schema";
-import { initialResponse, xpFor } from "../engine/scoring";
+import { initialResponse, nextStreak, xpFor } from "../engine/scoring";
 import { ApiError, OFFLINE } from "./auth";
 import { checkAnswer } from "./content";
 
@@ -178,7 +178,7 @@ export const useSession = create<SessionState>()((set, get) => ({
     // The student left or restarted the round while it was being checked.
     if (get().roundId !== s.roundId || get().index !== s.index) return null;
     const correct = result.correct;
-    const streak = correct ? s.streak + 1 : 0;
+    const streak = nextStreak(s.streak, correct, skip);
     const xp = correct ? xpFor(q, { streak, usedHint: s.usedHint }) : 0;
     const attempt: Attempt = {
       questionId: q.id,

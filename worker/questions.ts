@@ -6,9 +6,9 @@
 import { z } from "zod";
 import type { Catalog, CheckResponse, QuestionsResponse } from "../src/content/api";
 import { SubjectId, type ClientQuestion, type Question } from "../src/content/schema";
-import { ROUND_SIZE, pickRandom } from "../src/engine/scoring";
+import { ROUND_SIZE, pickRound } from "../src/engine/scoring";
 import { optionalUser } from "./auth";
-import { answerKey, chapterInfo, grade, isResponseFor, loadBank, publicQuestion, recordedChecks } from "./content";
+import { answerKey, chapterInfo, chapterOrders, grade, inOrder, isResponseFor, loadBank, publicQuestion, recordedChecks } from "./content";
 import { HttpError, json, readJson, type Env } from "./http";
 
 const MAX_IDS = 200;
@@ -17,8 +17,8 @@ const MAX_COUNT = 50;
 const list = (v: string | null) => (v ? v.split(",").filter(Boolean) : []);
 
 /** GET /api/catalog — every chapter with its question count and version. */
-export async function getCatalog(url: URL): Promise<Response> {
-  const bank = await loadBank();
+export async function getCatalog(env: Env, url: URL): Promise<Response> {
+  const bank = await loadBank(env);
   const chapters = [...bank.chapters.values()]
     .map((c) => chapterInfo(c, url.origin))
     .sort((a, b) => a.subject.localeCompare(b.subject) || a.grade - b.grade || (a.no ?? 99) - (b.no ?? 99));
@@ -31,11 +31,12 @@ export async function getCatalog(url: URL): Promise<Response> {
  * - `ids=a,b,c`: those questions, in that order. `reveal=a,b` also sends the
  *   answer keys of ones already answered (resuming a round). For a signed-in
  *   student only questions the server saw checked in `round=<id>` are revealed.
- * - otherwise a random round of `count` (default 20) from `chapter=<key>`, or
- *   from `subjects=` / `grades=`, or from everything.
+ * - otherwise a random round of `count` (default 20), easiest questions first, from `chapter=<key>`, or
+ *   from `subjects=` / `grades=`, or from everything. A chapter whose order an admin has set
+ *   shows its round in that order instead.
  */
 export async function getQuestions(request: Request, env: Env, url: URL): Promise<Response> {
-  const bank = await loadBank();
+  const bank = await loadBank(env);
   const p = url.searchParams;
   const ids = list(p.get("ids"));
   const send = (qs: Question[], missing: string[] = [], reveal = new Set<string>()) => {
@@ -65,6 +66,9 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
   let pool: Question[];
   if (chapter) {
     pool = bank.chapters.get(chapter)?.questions ?? [];
+    // An admin has set this chapter's order: the round's questions are shown in it instead.
+    const order = (await chapterOrders.get(env)).get(chapter);
+    if (order) return send(inOrder(pickRound(pool, count), order));
   } else {
     const subjects = list(p.get("subjects")).filter((s) => SubjectId.safeParse(s).success);
     const grades = list(p.get("grades")).map(Number);
@@ -72,7 +76,7 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
       (q) => (subjects.length === 0 || subjects.includes(q.subject)) && (grades.length === 0 || grades.includes(q.grade)),
     );
   }
-  return send(pickRandom(pool, count));
+  return send(pickRound(pool, count));
 }
 
 const CheckIn = z.object({
@@ -95,7 +99,7 @@ export async function checkAnswer(request: Request, env: Env): Promise<Response>
   if (!parsed.success) throw new HttpError(400, "Invalid answer");
   const { questionId, roundId } = parsed.data;
   let response: unknown = parsed.data.response ?? undefined;
-  const q = (await loadBank()).byId.get(questionId);
+  const q = (await loadBank(env)).byId.get(questionId);
   if (!q) throw new HttpError(404, "This question no longer exists");
   if (response !== undefined && !isResponseFor(q, response)) throw new HttpError(400, "Invalid answer");
 

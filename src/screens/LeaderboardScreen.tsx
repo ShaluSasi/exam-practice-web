@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { AnimatePresence, animate, motion, useMotionValue, useTransform } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import {
   ArrowDown,
   ArrowLeft,
@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import clsx from "clsx";
 import { AccountButton } from "../components/Account";
+import { CountUp } from "../components/CountUp";
 import { Button } from "../components/Button";
 import { ShareSheet, type ShareTarget } from "../components/ShareSheet";
 import { SettingsToggles } from "../components/TopBar";
@@ -54,17 +55,6 @@ function Avatar({ entry, size = "size-11", ring }: { entry: Pick<Entry, "pid" | 
       {entry.name.charAt(0).toUpperCase()}
     </span>
   );
-}
-
-/** Number that counts up from 0 when it appears. */
-function CountUp({ value, className }: { value: number; className?: string }) {
-  const mv = useMotionValue(0);
-  const shown = useTransform(mv, (v) => Math.round(v).toLocaleString("en-IN"));
-  useEffect(() => {
-    const c = animate(mv, value, { duration: 1.1, ease: "easeOut" });
-    return () => c.stop();
-  }, [mv, value]);
-  return <motion.span className={clsx("tabular-nums", className)}>{shown}</motion.span>;
 }
 
 function PeriodTabs({ period, onChange }: { period: Period; onChange: (p: Period) => void }) {

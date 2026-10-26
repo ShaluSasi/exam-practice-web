@@ -11,6 +11,7 @@
 import { serialized } from "../lib/serial";
 import { ApiError, api, markSignedOut, useAuth, type User } from "./auth";
 import { addRound, useProfile, type AccountStats, type Round, type RoundAnswers, type Stats } from "./profile";
+import { forgetGuestRounds, guestRounds, holdProgressSync } from "./progress";
 
 interface Summary {
   totalXp: number;
@@ -22,6 +23,8 @@ interface Summary {
 
 const BATCH = 50;
 const IMPORT_LIMIT = 100;
+/** Most unfinished rounds the server takes in one import (worker/scores.ts). */
+const ACTIVE_IMPORT_LIMIT = 20;
 
 function toAccount(userId: string, s: Summary): AccountStats {
   const byId = new Map<string, Round>();
@@ -50,6 +53,7 @@ function handleError(e: unknown) {
 }
 
 async function sendPending(userId: string): Promise<void> {
+  if (importing?.userId === userId) await importing.done;
   for (;;) {
     const batch = useProfile
       .getState()
@@ -73,28 +77,52 @@ async function sendPending(userId: string): Promise<void> {
 /** Sends this user's queued rounds to the server, one send at a time. */
 const flush = serialized(sendPending);
 
+/** The first-sign-in copy of this device's progress in flight, if any; sending rounds waits for it. */
+let importing: { userId: string; done: Promise<unknown> } | null = null;
+
+/**
+ * Copies this device's guest progress into the account, on its first sign-in.
+ * Unfinished guest rounds go too, with their answers, so a round interrupted by
+ * signing in carries on in the account. Rounds and progress saved for the
+ * account wait for this, so nothing reaches the server before the guest answers.
+ */
+function importGuest(user: User): Promise<void> {
+  const done = (async () => {
+    const profile = useProfile.getState();
+    // Always called on an account's first sign-in, so it counts as "first" even with nothing to copy.
+    const active = profile.importedTo === null ? guestRounds().slice(0, ACTIVE_IMPORT_LIMIT) : [];
+    const ownProgress = profile.importedTo === null && (profile.sessions > 0 || active.length > 0);
+    const res = await api<Summary & { imported: boolean }>(
+      "/api/scores/import",
+      ownProgress
+        ? {
+            totalXp: profile.totalXp,
+            bestStreak: profile.bestStreak,
+            sessions: profile.sessions,
+            rounds: profile.rounds.slice(0, IMPORT_LIMIT),
+            active,
+          }
+        : { totalXp: 0, bestStreak: 0, sessions: 0, rounds: [] },
+    );
+    if (res.imported && ownProgress) {
+      useProfile.getState().setImportedTo(user.id);
+      forgetGuestRounds(active.map((r) => r.roundId));
+    }
+    useAuth.setState({ canImport: false });
+    apply(user.id, res);
+  })();
+  importing = { userId: user.id, done: done.catch(() => undefined) };
+  holdProgressSync(user.id, done);
+  return done;
+}
+
 async function load(user: User, canImport: boolean) {
   const profile = useProfile.getState();
   if (profile.account && profile.account.userId !== user.id) profile.setAccount(null);
+  // Started before anything else, so rounds finished meanwhile wait for it.
+  const imported = canImport ? importGuest(user) : null;
   try {
-    if (canImport) {
-      // Always called on an account's first sign-in, so it counts as "first" even with nothing to copy.
-      const ownProgress = profile.importedTo === null && profile.sessions > 0;
-      const res = await api<Summary & { imported: boolean }>(
-        "/api/scores/import",
-        ownProgress
-          ? {
-              totalXp: profile.totalXp,
-              bestStreak: profile.bestStreak,
-              sessions: profile.sessions,
-              rounds: profile.rounds.slice(0, IMPORT_LIMIT),
-            }
-          : { totalXp: 0, bestStreak: 0, sessions: 0, rounds: [] },
-      );
-      if (res.imported && ownProgress) useProfile.getState().setImportedTo(user.id);
-      useAuth.setState({ canImport: false });
-      apply(user.id, res);
-    }
+    if (imported) await imported;
     await flush(user.id);
   } catch (e) {
     handleError(e);

@@ -174,14 +174,14 @@ export async function sharePage(request: Request, env: Env, url: URL, code: stri
     const d = share.data as RoundShare;
     return withPreview(env, url, {
       title: `${share.name} scored ${d.accuracy}% in ${d.title} 🏆`,
-      description: `Same ${d.questionIds.length} questions. Can you beat ${d.accuracy}%? Free CBSE practice on PrepQuest.`,
+      description: `Same ${d.questionIds.length} questions. Can you beat ${d.accuracy}%? Free CBSE practice on Kidzladder.`,
       image: "/og/challenge.jpg",
       path: `/s/${code}`,
     });
   }
   const d = share.data as RankShare;
   return withPreview(env, url, {
-    title: `${share.name} is #${d.rank} of ${d.participants} on PrepQuest ${PERIOD_TEXT[d.period]} 🏆`,
+    title: `${share.name} is #${d.rank} of ${d.participants} on Kidzladder ${PERIOD_TEXT[d.period]} 🏆`,
     description: "Practise CBSE questions, earn XP and climb the leaderboard. Can you get higher?",
     image: "/og/rank.jpg",
     path: `/s/${code}`,
@@ -213,8 +213,8 @@ export function gamePage(env: Env, url: URL, id: string): Promise<Response> {
 /** GET / — the home page with a link preview, for when the plain site address is shared. */
 export function homePage(env: Env, url: URL): Promise<Response> {
   return withPreview(env, url, {
-    title: "PrepQuest — CBSE exam practice that feels like a game",
-    description: "Free interactive practice for CBSE Class 9–12: instant feedback, streaks, XP and leaderboards.",
+    title: "Kidzladder — CBSE exam practice that feels like a game",
+    description: "Free interactive practice for CBSE Class 9 and 10: instant feedback, streaks, XP and leaderboards.",
     image: "/og/default.jpg",
     path: "/",
   });
@@ -225,7 +225,7 @@ async function withPreview(env: Env, url: URL, p: { title: string; description: 
   const page = await env.ASSETS.fetch(new Request(new URL("/", url), { headers: { Accept: "text/html" } }));
   const tags = {
     "og:type": "website",
-    "og:site_name": "PrepQuest",
+    "og:site_name": "Kidzladder",
     "og:title": p.title,
     "og:description": p.description,
     "og:url": `${url.origin}${p.path}`,
@@ -241,7 +241,7 @@ async function withPreview(env: Env, url: URL, p: { title: string; description: 
   ].join("");
 
   const rewritten = new HTMLRewriter()
-    .on("title", { element: (el) => void el.setInnerContent(p.path === "/" ? p.title : `${p.title} · PrepQuest`) })
+    .on("title", { element: (el) => void el.setInnerContent(p.path === "/" ? p.title : `${p.title} · Kidzladder`) })
     .on('meta[name="description"]', { element: (el) => void el.setAttribute("content", p.description) })
     .on('meta[property^="og:"], meta[name^="twitter:"]', { element: (el) => void el.remove() })
     .on("head", { element: (el) => void el.append(head, { html: true }) })

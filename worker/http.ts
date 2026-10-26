@@ -9,6 +9,8 @@ export interface Env {
   ASSETS: Fetcher;
   /** Oldest app build (app-version.json) still supported. Older apps are asked to update. */
   MIN_APP_BUILD: string;
+  /** Comma-separated Google account emails that are always admins. */
+  ADMIN_EMAILS?: string;
 }
 
 /**

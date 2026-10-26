@@ -119,7 +119,7 @@ function header(ctx: CanvasRenderingContext2D) {
   ctx.font = `800 54px ${DISPLAY}`;
   ctx.textAlign = "left";
   ctx.textBaseline = "middle";
-  ctx.fillText("PrepQuest", 180, 108);
+  ctx.fillText("Kidzladder", 180, 108);
   ctx.font = `600 30px ${SANS}`;
   ctx.fillStyle = MUTED;
   ctx.textAlign = "right";

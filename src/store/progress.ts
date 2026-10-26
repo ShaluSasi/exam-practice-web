@@ -92,8 +92,31 @@ function handleError(e: unknown) {
   // Offline or server error: the change stays in `unsent` and is retried later.
 }
 
+/** Set while an account's first sign-in copies this device's guest rounds in (store/scoreSync.ts). */
+let hold: { userId: string; done: Promise<unknown> } | null = null;
+
+/**
+ * Makes this account's saves and loads wait for `done`, so a round started as
+ * a guest reaches the server with its guest answers before anything else is
+ * saved for it. Must be called before the sign-in reaches `startProgressSync`.
+ */
+export function holdProgressSync(userId: string, done: Promise<unknown>) {
+  hold = { userId, done: done.catch(() => undefined) };
+}
+
+/** Unfinished rounds this device played as a guest, to copy into a new account. */
+export function guestRounds(): SavedRound[] {
+  return Object.values(useProgress.getState().guest);
+}
+
+/** Forgets guest rounds once they have been copied into an account. */
+export function forgetGuestRounds(roundIds: string[]) {
+  set((s) => ({ guest: Object.fromEntries(Object.entries(s.guest).filter(([, r]) => !roundIds.includes(r.roundId))) }));
+}
+
 /** Sends this user's queued changes, oldest key first, until none are left. */
 const push = serialized(async (userId) => {
+  if (hold?.userId === userId) await hold.done;
   for (;;) {
     const entry = Object.values(useProgress.getState().unsent).find((u) => u.userId === userId);
     if (!entry) return;

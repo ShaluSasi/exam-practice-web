@@ -6,8 +6,8 @@
  * Students get questions without their answers (`publicQuestion`); the answer
  * key comes back only once a question has been answered or skipped.
  */
-import { isCorrect, scoreSession, xpFor } from "../src/engine/scoring";
-import type { ChapterInfo } from "../src/content/api";
+import { isCorrect, nextStreak, scoreSession, xpFor } from "../src/engine/scoring";
+import type { ChapterInfo, Difficulty } from "../src/content/api";
 import { KEY_FIELDS, type AnswerKey, type AnyResponse, type ClientQuestion, type Question } from "../src/content/schema";
 import type { Env } from "./http";
 
@@ -32,13 +32,81 @@ async function hash(value: unknown): Promise<string> {
 
 export const chapterKey = (q: Question) => `${q.subject}|${q.grade}|${q.chapter}`;
 
-async function build(): Promise<Bank> {
-  const banks = await Promise.all(
+let files$: Promise<Question[]> | null = null;
+
+/** Every question as it is in the bank files, before any admin change. Loaded once per Worker instance. */
+export function fileQuestions(): Promise<Question[]> {
+  files$ ??= Promise.all(
     Object.entries(files)
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([, load]) => load()),
-  );
-  const all = banks.flat();
+  )
+    .then((banks) => banks.flat())
+    .catch((e: unknown) => {
+      files$ = null;
+      throw e;
+    });
+  return files$;
+}
+
+/** How long an instance keeps admin changes before asking D1 again; the admin's own instance sees them at once. */
+const CHANGES_TTL_MS = 30_000;
+
+/**
+ * Admin changes kept in a D1 table, cached per instance. `forget` (after an
+ * admin saves) makes this instance read them again on the next request.
+ */
+function adminChanges<T>(read: (env: Env) => Promise<T>, none: () => T) {
+  let cache: { at: number; rows: Promise<T> } | null = null;
+  return {
+    get(env: Env): Promise<T> {
+      if (!cache || Date.now() - cache.at > CHANGES_TTL_MS) {
+        cache = {
+          at: Date.now(),
+          // Without the table (e.g. the migration has not run yet) students still get the bank files as they are.
+          rows: read(env).catch((e: unknown) => {
+            console.error(e);
+            cache = null;
+            return none();
+          }),
+        };
+      }
+      return cache.rows;
+    },
+    forget() {
+      cache = null;
+    },
+  };
+}
+
+/** Difficulties admins have set (table question_difficulty), by question ID. */
+export const difficultyChanges = adminChanges(
+  async (env) => {
+    const { results } = await env.DB.prepare("SELECT question_id, difficulty FROM question_difficulty ORDER BY question_id").all<{
+      question_id: string;
+      difficulty: Difficulty;
+    }>();
+    return new Map(results.map((r) => [r.question_id, r.difficulty]));
+  },
+  () => new Map<string, Difficulty>(),
+);
+
+/** Question order admins have set (table chapter_order): question IDs, first to last, by chapter key. */
+export const chapterOrders = adminChanges(
+  async (env) => {
+    const { results } = await env.DB.prepare("SELECT chapter_key, question_ids FROM chapter_order").all<{ chapter_key: string; question_ids: string }>();
+    return new Map(results.map((r) => [r.chapter_key, JSON.parse(r.question_ids) as string[]]));
+  },
+  () => new Map<string, string[]>(),
+);
+
+/** `questions` in the admin's `order`; ones it does not list (added since) follow in their current order. */
+export function inOrder<T extends { id: string }>(questions: readonly T[], order: readonly string[]): T[] {
+  const at = new Map(order.map((id, i) => [id, i]));
+  return [...questions].sort((a, b) => (at.get(a.id) ?? order.length) - (at.get(b.id) ?? order.length));
+}
+
+async function build(all: Question[]): Promise<Bank> {
   const chapters = new Map<string, Chapter>();
   for (const q of all) {
     const key = chapterKey(q);
@@ -54,15 +122,20 @@ async function build(): Promise<Bank> {
   return { chapters, byId: new Map(all.map((q) => [q.id, q])), all, version: await hash([...chapters.values()].map((c) => c.version)) };
 }
 
-let bank: Promise<Bank> | null = null;
+let bank: { changes: string; bank: Promise<Bank> } | null = null;
 
-/** Loaded once per Worker instance, on the first request that needs it. */
-export function loadBank(): Promise<Bank> {
-  bank ??= build().catch((e: unknown) => {
-    bank = null;
-    throw e;
-  });
-  return bank;
+/** The bank files with the admins' difficulty changes applied; rebuilt only when those change. */
+export async function loadBank(env: Env): Promise<Bank> {
+  const [questions, changed] = await Promise.all([fileQuestions(), difficultyChanges.get(env)]);
+  const key = JSON.stringify([...changed]);
+  if (bank?.changes !== key) {
+    const built = build(questions.map((q) => (changed.has(q.id) ? { ...q, difficulty: changed.get(q.id)! } : q))).catch((e: unknown) => {
+      bank = null;
+      throw e;
+    });
+    bank = { changes: key, bank: built };
+  }
+  return bank.bank;
 }
 
 /** Image paths in the banks are site-relative; the app (served from the phone) needs full URLs. */
@@ -156,7 +229,7 @@ export function gradeRound(bank: Bank, questionIds: string[], attempts: AttemptI
     if (!q || !inRound.has(q.id) || seen.has(q.id)) return [];
     seen.add(q.id);
     const correct = grade(q, a.response);
-    streak = correct ? streak + 1 : 0;
+    streak = nextStreak(streak, correct, a.response === undefined || a.response === null);
     bestStreak = Math.max(bestStreak, streak);
     const gained = correct ? xpFor(q, { streak, usedHint: a.usedHint }) : 0;
     xp += gained;

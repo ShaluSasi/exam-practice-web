@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, BookOpen, Check, Clock, Flame, Lightbulb, Loader2, Target, Trophy, WifiOff, X, Zap } from "lucide-react";
+import { ArrowRight, BookOpen, Check, Clock, Flame, Lightbulb, Loader2, Minus, Target, Trophy, WifiOff, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { Button } from "../components/Button";
@@ -39,7 +39,7 @@ function ProgressTrack({ total, attempts, index }: { total: number; attempts: At
         return (
           <div key={i} className="relative h-3 flex-1 overflow-hidden rounded-full bg-line">
             <motion.div
-              className={clsx("absolute inset-0 rounded-full", a ? (a.correct ? "bg-ok" : "bg-bad") : "bg-brand")}
+              className={clsx("absolute inset-0 rounded-full", a ? (a.correct ? "bg-ok" : a.response === undefined ? "bg-muted/50" : "bg-bad") : "bg-brand")}
               initial={false}
               animate={{ scaleX: a ? 1 : i === index ? 0.35 : 0 }}
               style={{ originX: 0 }}
@@ -72,18 +72,21 @@ function Streak({ n }: { n: number }) {
 function ScoreTile({
   icon: Icon,
   label,
+  short,
   value,
   suffix,
   tone,
 }: {
   icon: typeof Zap;
   label: string;
+  /** Label on phones, where five tiles share the width. */
+  short?: string;
   value: string | number;
   suffix?: string;
   tone: string;
 }) {
   return (
-    <div className="flex min-w-0 flex-1 items-center gap-2 rounded-xl border-2 border-line bg-surface px-2 py-1.5 sm:px-3">
+    <div className="flex min-w-0 flex-1 items-center gap-2 rounded-xl border-2 border-line bg-surface px-1.5 py-1.5 sm:px-3">
       <span className={clsx("hidden size-7 shrink-0 place-items-center rounded-lg sm:grid", tone)}>
         <Icon className="size-4" strokeWidth={2.75} />
       </span>
@@ -100,7 +103,16 @@ function ScoreTile({
           </motion.span>
           {suffix && <span className="text-xs text-muted">{suffix}</span>}
         </div>
-        <div className="mt-0.5 truncate text-[10px] font-bold uppercase tracking-wider text-muted sm:text-[11px]">{label}</div>
+        <div className="mt-0.5 truncate text-[10px] font-bold uppercase tracking-normal text-muted sm:text-[11px] sm:tracking-wider">
+          {short ? (
+            <>
+              <span className="sm:hidden">{short}</span>
+              <span className="hidden sm:inline">{label}</span>
+            </>
+          ) : (
+            label
+          )}
+        </div>
       </div>
     </div>
   );
@@ -109,11 +121,12 @@ function ScoreTile({
 /** Live scoreboard for the current round. */
 function ScoreBoard({ score }: { score: ScoreSummary }) {
   return (
-    <div className="mx-auto flex max-w-3xl gap-1.5 px-4 pb-3 sm:gap-2.5 sm:px-6" aria-label="Scoreboard">
+    <div className="mx-auto flex max-w-3xl gap-1 px-4 pb-3 min-[400px]:gap-1.5 sm:gap-2.5 sm:px-6" aria-label="Scoreboard">
       <ScoreTile icon={Trophy} label="Score" value={score.marks} suffix={`/${score.maxMarks}`} tone="bg-brand text-brand-ink" />
-      <ScoreTile icon={Check} label="Correct" value={score.correct} tone="bg-ok text-white" />
-      <ScoreTile icon={X} label="Wrong" value={score.wrong + score.skipped} tone="bg-bad text-white" />
-      <ScoreTile icon={Target} label="Accuracy" value={`${score.accuracy}%`} tone="bg-fg text-bg" />
+      <ScoreTile icon={Check} label="Correct" short="Right" value={score.correct} tone="bg-ok text-white" />
+      <ScoreTile icon={X} label="Wrong" value={score.wrong} tone="bg-bad text-white" />
+      <ScoreTile icon={Minus} label="Skipped" short="Skip" value={score.skipped} tone="bg-surface-2 text-muted" />
+      <ScoreTile icon={Target} label="Accuracy" short="Acc." value={score.accuracy === null ? "–" : `${score.accuracy}%`} tone="bg-fg text-bg" />
     </div>
   );
 }
@@ -132,18 +145,22 @@ function FeedbackSheet({
   isLast: boolean;
 }) {
   const [open, setOpen] = useState(!attempt.correct);
+  // A skip is neither right nor wrong: no praise, no "not quite", just the answer to learn from.
+  const skipped = attempt.response === undefined;
   const [title] = useState(() => {
+    if (skipped) return "Skipped";
     const pool = attempt.correct ? PRAISE : ENCOURAGE;
     return pool[Math.floor(Math.random() * pool.length)];
   });
   const ok = attempt.correct;
+  const tone = ok ? "ok" : skipped ? "skip" : "bad";
   return (
     <motion.div
       initial={{ y: "100%" }}
       animate={{ y: 0 }}
       exit={{ y: "100%" }}
       transition={{ type: "spring", stiffness: 380, damping: 34 }}
-      className={clsx("border-t-2", ok ? "border-ok/40 bg-ok-soft" : "border-bad/40 bg-bad-soft")}
+      className={clsx("border-t-2", { ok: "border-ok/40 bg-ok-soft", skip: "border-line bg-surface-2", bad: "border-bad/40 bg-bad-soft" }[tone])}
     >
       <div className="mx-auto max-w-3xl px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-4 sm:px-6 sm:pt-5">
         <div className="flex items-center gap-3">
@@ -151,12 +168,13 @@ function FeedbackSheet({
             initial={{ scale: 0, rotate: -45 }}
             animate={{ scale: 1, rotate: 0 }}
             transition={{ type: "spring", stiffness: 500, damping: 15, delay: 0.05 }}
-            className={clsx("grid size-11 shrink-0 place-items-center rounded-full text-white", ok ? "bg-ok" : "bg-bad")}
+            className={clsx("grid size-11 shrink-0 place-items-center rounded-full text-white", { ok: "bg-ok", skip: "bg-muted", bad: "bg-bad" }[tone])}
           >
-            {ok ? <Check className="size-6" strokeWidth={3.5} /> : <X className="size-6" strokeWidth={3.5} />}
+            {ok ? <Check className="size-6" strokeWidth={3.5} /> : skipped ? <Minus className="size-6" strokeWidth={3.5} /> : <X className="size-6" strokeWidth={3.5} />}
           </motion.span>
           <div className="min-w-0 flex-1">
-            <p className={clsx("font-display text-2xl font-extrabold", ok ? "text-ok" : "text-bad")}>{title}</p>
+            <p className={clsx("font-display text-2xl font-extrabold", { ok: "text-ok", skip: "text-fg", bad: "text-bad" }[tone])}>{title}</p>
+            {skipped && <p className="text-sm font-semibold text-fg/70">No marks lost. Here's the answer for next time.</p>}
             {ok && (
               <p className="flex items-center gap-2 text-sm font-semibold text-fg/70">
                 <span className="flex items-center gap-1">
@@ -199,7 +217,7 @@ function FeedbackSheet({
           >
             <BookOpen className="size-5" />
           </Button>
-          <Button variant={ok ? "ok" : "bad"} onClick={onNext} className="flex-1 sm:ml-auto sm:flex-none sm:px-10" autoFocus>
+          <Button variant={({ ok: "ok", skip: "dark", bad: "bad" } as const)[tone]} onClick={onNext} className="flex-1 sm:ml-auto sm:flex-none sm:px-10" autoFocus>
             {isLast ? "See results" : "Continue"} <ArrowRight className="size-5" />
           </Button>
         </div>
@@ -414,7 +432,7 @@ export function PracticeScreen({ onExit }: { onExit: () => void }) {
                 <button
                   type="button"
                   disabled={checking}
-                  onClick={() => void s.check(true).then((a) => a && play("wrong"))}
+                  onClick={() => void s.check(true).then((a) => a && play("tap"))}
                   className="rounded-xl px-3 py-2 font-bold text-muted hover:bg-surface-2 hover:text-fg disabled:opacity-40"
                 >
                   Skip

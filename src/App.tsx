@@ -6,18 +6,25 @@ import { APP_BUILD, isNative } from "./lib/platform";
 import { useApplyTheme } from "./lib/theme";
 import { ApiError, OFFLINE, api, useAuth } from "./store/auth";
 import { useConnection } from "./store/connection";
+import { SignInGate } from "./components/SignInPrompt";
+import { mustSignIn, startGuestCount } from "./store/guestLimit";
 import { fetchQuestions, fetchRound, useContent, type RoundSource } from "./store/content";
+import { ADMIN_SCREENS, AdminScreen, useAdminGuard, useNotAdmin } from "./screens/AdminScreen";
 import { ChallengeScreen } from "./screens/ChallengeScreen";
+import { DifficultyScreen } from "./screens/DifficultyScreen";
+import { SequenceScreen } from "./screens/SequenceScreen";
 import { GameScreen } from "./screens/GameScreen";
 import { HomeScreen } from "./screens/HomeScreen";
 import { LeaderboardScreen } from "./screens/LeaderboardScreen";
 import { PracticeScreen } from "./screens/PracticeScreen";
+import { ProgressScreen } from "./screens/ProgressScreen";
 import { ResultsScreen } from "./screens/ResultsScreen";
 import { LoadingScreen, OfflineScreen, UpdateScreen } from "./screens/StatusScreens";
 import { startGameScoreSync } from "./store/gameBoard";
 import { invalidateBoards } from "./store/leaderboard";
 import { useNav } from "./store/nav";
 import { getSavedRound, progressReady, startProgressSync } from "./store/progress";
+import { useProfile } from "./store/profile";
 import { recordRound, startScoreSync } from "./store/scoreSync";
 import { useSession } from "./store/session";
 
@@ -69,6 +76,18 @@ export default function App() {
   const [starting, setStarting] = useState(false);
   /** A round that could not be loaded: retried from the offline screen. `problem` when it was not a connection issue. */
   const [failedStart, setFailedStart] = useState<{ retry: () => void; problem: string | null } | null>(null);
+  /** A round waiting for the guest to sign in; it starts once they have. */
+  const [gate, setGate] = useState<{ retry: () => void } | null>(null);
+  const authStatus = useAuth((s) => s.status);
+  const notAdmin = useNotAdmin();
+  useAdminGuard(screen);
+
+  useEffect(() => {
+    if (gate && authStatus === "signedIn") {
+      setGate(null);
+      gate.retry();
+    }
+  }, [gate, authStatus]);
 
   useEffect(() => {
     startup();
@@ -76,7 +95,9 @@ export default function App() {
     const stopScores = startScoreSync();
     const stopProgress = startProgressSync();
     const stopGames = startGameScoreSync();
+    const stopGuestCount = startGuestCount();
     return () => {
+      stopGuestCount();
       window.removeEventListener("online", startup);
       stopScores();
       stopProgress();
@@ -86,7 +107,12 @@ export default function App() {
 
   /** Loads a round from the server and starts it; with a `key` (chapter or mixed practice), continues its unfinished round instead. */
   const begin = useCallback(
-    async (source: RoundSource, title: string, key?: string) => {
+    async (source: RoundSource, title: string, key?: string, free = false) => {
+      // A guest past the free round signs in first; a round they already started can still be finished.
+      if (!free && mustSignIn() && !(key && getSavedRound(key))) {
+        setGate({ retry: () => void begin(source, title, key) });
+        return;
+      }
       setStarting(true);
       setFailedStart(null);
       try {
@@ -107,7 +133,9 @@ export default function App() {
             return;
           }
         }
-        const questions = await fetchRound(source);
+        // Admin-only, for testing: a chapter round can draw fewer (or more) than the usual ROUND_SIZE questions.
+        const count = "chapter" in source && !notAdmin ? useProfile.getState().adminRoundSize ?? undefined : undefined;
+        const questions = await fetchRound(source, count);
         if (questions.length === 0) throw new Error("No questions");
         start(questions, title, key);
         go("practice");
@@ -117,7 +145,7 @@ export default function App() {
         setStarting(false);
       }
     },
-    [go, resume, start],
+    [go, resume, start, notAdmin],
   );
 
   const leaveResults = () => {
@@ -144,7 +172,7 @@ export default function App() {
           total: questions.length,
           marks: score.marks,
           maxMarks: score.maxMarks,
-          accuracy: score.accuracy,
+          accuracy: score.percent,
           xp,
           timeMs: Math.min(MAX_ROUND_MS, finishedAt - startedAt),
           ...(key ? { quizKey: key } : {}),
@@ -170,9 +198,11 @@ export default function App() {
     return <OfflineScreen onRetry={failedStart.retry} onBack={back} problem={failedStart.problem ?? undefined} />;
   }
   if (starting) return <LoadingScreen />;
-  // Home lists the chapters, which come from the server; until they arrive (or fail), a spinner.
+  // Home and progress list the chapters, which come from the server; until they arrive (or fail), a spinner.
   // After a failure home still opens, so the games (which need no connection) can be played.
-  if (screen === "home" && contentStatus === "loading") return <LoadingScreen />;
+  if ((screen === "home" || screen === "progress") && contentStatus === "loading") return <LoadingScreen />;
+  // Admin pages wait for the sign-in check; non-admins are sent home (useAdminGuard) and never see them.
+  if (ADMIN_SCREENS.includes(screen) && (authStatus === "loading" || notAdmin)) return <LoadingScreen />;
 
   return (
     <MotionConfig reducedMotion="user">
@@ -196,10 +226,16 @@ export default function App() {
             />
           )}
           {screen === "board" && <LeaderboardScreen />}
-          {screen === "challenge" && <ChallengeScreen onStart={begin} />}
+          {screen === "progress" && <ProgressScreen onStart={begin} />}
+          {/* Challenge links stay free, so a friend can always play the challenge they were sent. */}
+          {screen === "challenge" && <ChallengeScreen onStart={(source, title) => void begin(source, title, undefined, true)} />}
           {screen === "game" && <GameScreen />}
+          {screen === "admin" && <AdminScreen />}
+          {screen === "difficulty" && <DifficultyScreen />}
+          {screen === "sequence" && <SequenceScreen />}
         </motion.div>
       </AnimatePresence>
+      <SignInGate open={gate !== null} onClose={() => setGate(null)} />
     </MotionConfig>
   );
 }

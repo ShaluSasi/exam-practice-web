@@ -11,6 +11,7 @@ import { z } from "zod";
 import { requireUser, type SessionUser } from "./auth";
 import { fromRecorded, gradeRound, loadBank, recordedChecks } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
+import { SavedRoundIn, storeActiveRound } from "./progress";
 
 const DAY = 86_400_000;
 const RECENT = 30;
@@ -50,6 +51,7 @@ const SaveBody = z.object({ rounds: z.array(LiveRoundIn).min(1).max(50) });
 /** The most XP one question can earn (src/engine/scoring.ts: hard, with the streak bonus). */
 const MAX_XP_PER_QUESTION = 25;
 const MAX_QUESTIONS_PER_ROUND = 50;
+const MAX_ACTIVE_IMPORT = 20;
 
 const ImportBody = z
   .object({
@@ -57,6 +59,8 @@ const ImportBody = z
     bestStreak: z.number().int().min(0).max(10_000),
     sessions: z.number().int().min(0).max(100_000),
     rounds: z.array(RoundIn).max(100),
+    /** Rounds started as a guest and not finished yet, so they continue in the account. */
+    active: z.array(SavedRoundIn).max(MAX_ACTIVE_IMPORT).optional(),
   })
   // Guest progress cannot be re-graded (its answers were never sent), so at least keep it plausible.
   .refine(
@@ -169,7 +173,7 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
   assertSameOrigin(request, url);
   const user = await requireUser(request, env);
   const { rounds } = parse(SaveBody, await readJson(request));
-  const bank = await loadBank();
+  const bank = await loadBank(env);
   const now = Date.now();
   // Graded from the answers the server saw checked (worker/questions.ts), not the ones sent here.
   const graded: RoundIn[] = [];
@@ -181,7 +185,7 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
       total: Math.max(1, g.total),
       marks: g.score.marks,
       maxMarks: g.score.maxMarks,
-      accuracy: g.score.accuracy,
+      accuracy: g.score.percent,
       xp: g.xp,
       streak: g.bestStreak,
     });
@@ -209,6 +213,25 @@ export async function importDevice(request: Request, env: Env, url: URL): Promis
   const imported = claimed.meta.changes === 1;
   if (imported && body.rounds.length > 0) {
     await env.DB.batch(body.rounds.map((r) => insertRound(env, user, r, "imported", now)));
+  }
+  // A guest's answers were never checked against an account, so they are recorded as its checks now
+  // (taken as sent, like the rest of the device's progress); the round then grades and finishes as usual.
+  if (imported) {
+    for (const round of body.active ?? []) {
+      if (round.attempts.length === 0) continue;
+      await env.DB.batch(
+        round.attempts.map((a) =>
+          env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
+            user.id,
+            round.roundId,
+            a.questionId,
+            a.response === undefined || a.response === null ? null : JSON.stringify(a.response),
+            now,
+          ),
+        ),
+      );
+      await storeActiveRound(env, user, round);
+    }
   }
   return json({ imported, ...(await summary(env, user.id)) });
 }

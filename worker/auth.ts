@@ -29,6 +29,12 @@ const SESSION_DAYS = 30;
 const GOOGLE_CERTS = "https://www.googleapis.com/oauth2/v3/certs";
 const GOOGLE_ISSUERS = ["accounts.google.com", "https://accounts.google.com"];
 
+/** The account's role: listed admin emails (ADMIN_EMAILS) are admins whatever D1 says. */
+function roleOf(env: Env, email: string, stored: Role | undefined): Role {
+  const admins = (env.ADMIN_EMAILS ?? "").split(",").map((e) => e.trim().toLowerCase());
+  return admins.includes(email.toLowerCase()) ? "admin" : (stored ?? "student");
+}
+
 export async function signIn(request: Request, env: Env, url: URL): Promise<Response> {
   if (!env.GOOGLE_CLIENT_ID || !env.SESSION_SECRET) throw new HttpError(503, "Google sign-in is not configured");
   assertSameOrigin(request, url);
@@ -58,7 +64,7 @@ export async function signIn(request: Request, env: Env, url: URL): Promise<Resp
 
   const maxAge = SESSION_DAYS * 86400;
   const token = await signSession({ ...user, exp: Math.floor(now / 1000) + maxAge }, env.SESSION_SECRET);
-  const result = { user: { ...user, role: row?.role ?? "student" }, canImport: row?.imported_at == null };
+  const result = { user: { ...user, role: roleOf(env, user.email, row?.role) }, canImport: row?.imported_at == null };
   // The app can't use our cookie (its pages are on another origin), so it keeps the token and sends it back.
   // The website never sees the token: the cookie stays HttpOnly.
   if (isAppOrigin(request)) return json({ ...result, token });
@@ -74,7 +80,7 @@ export async function me(request: Request, env: Env, url: URL): Promise<Response
   // Cookie from before the account was saved (or a wiped database): sign in again. Clear the cookie
   // too, or every later request still carries a user id that saving progress would fail on.
   if (!row) return json({ user: null }, { "Set-Cookie": cookie("", 0, url) });
-  return json({ user: { ...session, role: row.role }, canImport: row.imported_at == null });
+  return json({ user: { ...session, role: roleOf(env, session.email, row.role) }, canImport: row.imported_at == null });
 }
 
 export function signOut(request: Request, url: URL): Response {
@@ -96,13 +102,15 @@ export async function requireUser(request: Request, env: Env): Promise<SessionUs
 
 /**
  * The signed-in user if their role is one of `roles`, else 403.
- * For the planned teacher/admin view, e.g. `requireRole(request, env, ["teacher", "admin"])`.
+ * e.g. `requireRole(request, env, ["teacher", "admin"])`.
  */
 export async function requireRole(request: Request, env: Env, roles: Role[]): Promise<SessionUser & { role: Role }> {
   const user = await requireUser(request, env);
   const row = await env.DB.prepare("SELECT role FROM users WHERE id = ?").bind(user.id).first<{ role: Role }>();
-  if (!row || !roles.includes(row.role)) throw new HttpError(403, "Not allowed");
-  return { ...user, role: row.role };
+  if (!row) throw new HttpError(403, "Not allowed");
+  const role = roleOf(env, user.email, row.role);
+  if (!roles.includes(role)) throw new HttpError(403, "Not allowed");
+  return { ...user, role };
 }
 
 // ---------- Google ID token verification ----------

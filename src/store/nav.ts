@@ -4,7 +4,7 @@ import { SITE_ORIGIN, isNative } from "../lib/platform";
 import type { GameId } from "./games";
 import { useSession } from "./session";
 
-export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game";
+export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "progress" | "admin" | "difficulty" | "sequence";
 
 /** Who the student is playing against, when they accepted a friend's challenge link. */
 export interface Opponent {
@@ -51,6 +51,10 @@ const GAME_IDS: GameId[] = ["galaxy", "rush", "balance", "facts"];
 const fromLink = /^\/s\/([A-Za-z0-9]{8})\/?$/.exec(window.location.pathname)?.[1] ?? null;
 const gameLink = /^\/games\/([a-z]+)\/?$/.exec(window.location.pathname)?.[1] as GameId | undefined;
 const linkedGame = gameLink && GAME_IDS.includes(gameLink) ? gameLink : null;
+const progressLink = /^\/progress\/?$/.test(window.location.pathname);
+const adminLink = /^\/admin\/?$/.test(window.location.pathname);
+const difficultyLink = /^\/admin\/difficulty\/?$/.test(window.location.pathname);
+const sequenceLink = /^\/admin\/sequence\/?$/.test(window.location.pathname);
 
 /** The game's own address, so the address bar can be copied and shared. */
 export function gameUrl(id: GameId, mode?: string | null): string {
@@ -58,6 +62,10 @@ export function gameUrl(id: GameId, mode?: string | null): string {
 }
 
 function pathOf(entry: Omit<Entry, "depth">): string {
+  if (entry.screen === "progress") return "/progress";
+  if (entry.screen === "admin") return "/admin";
+  if (entry.screen === "difficulty") return "/admin/difficulty";
+  if (entry.screen === "sequence") return "/admin/sequence";
   if (entry.screen !== "game" || !entry.game) return "/";
   const url = new URL(gameUrl(entry.game, entry.gameMode));
   return url.pathname + url.search;
@@ -93,7 +101,7 @@ function returnHome() {
 }
 
 export const useNav = create<NavState>()((set, get) => ({
-  screen: fromLink ? "challenge" : linkedGame ? "game" : "home",
+  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : "home",
   challengeCode: fromLink,
   opponent: null,
   game: linkedGame,
@@ -109,7 +117,7 @@ export const useNav = create<NavState>()((set, get) => ({
       if (from === "practice" || (from === "results" && screen === "practice")) {
         window.history.replaceState(entry, "", "/");
       } else {
-        window.history.pushState({ ...entry, depth: entry.depth + 1 }, "", "/");
+        window.history.pushState({ ...entry, depth: entry.depth + 1 }, "", pathOf(entry));
       }
     }
     set({ screen, landing: false });

@@ -59,18 +59,64 @@ export function pickRandom<T>(items: readonly T[], n = ROUND_SIZE): T[] {
   return a.slice(0, n);
 }
 
+const LEVELS = ["easy", "medium", "hard"] as const;
+type Level = (typeof LEVELS)[number];
+
+/** Share of a round at each difficulty: a gentle start, a solid middle and only a few hard questions to finish. */
+export const ROUND_MIX: Record<Level, number> = { easy: 0.35, medium: 0.45, hard: 0.2 };
+
+/** Where a level's missing questions come from when a pool runs short: the nearest level first. */
+const FALLBACK: Record<Level, Level[]> = { easy: ["medium", "hard"], medium: ["easy", "hard"], hard: ["medium", "easy"] };
+
+/** Questions easiest first; the order within each level is kept. */
+export function byDifficulty<T extends { difficulty: Level }>(items: readonly T[]): T[] {
+  return [...items].sort((a, b) => LEVELS.indexOf(a.difficulty) - LEVELS.indexOf(b.difficulty));
+}
+
+/**
+ * A random round of up to `n` questions that ramps up: easy questions first,
+ * then medium, with the few hard ones at the end. Aims for `ROUND_MIX`; a
+ * level the pool is short of is made up from the nearest other level.
+ */
+export function pickRound<T extends { difficulty: Level }>(pool: readonly T[], n = ROUND_SIZE): T[] {
+  const shuffled = Object.fromEntries(LEVELS.map((l) => [l, pickRandom(pool.filter((q) => q.difficulty === l), Infinity)])) as Record<Level, T[]>;
+  const size = Math.min(n, pool.length);
+  const want = { easy: Math.round(size * ROUND_MIX.easy), hard: Math.round(size * ROUND_MIX.hard), medium: 0 };
+  want.medium = size - want.easy - want.hard;
+  const take = Object.fromEntries(LEVELS.map((l) => [l, Math.min(want[l], shuffled[l].length)])) as Record<Level, number>;
+  for (const l of LEVELS) {
+    // Only the pool's own shortfall counts: a level that has already lent questions to another is not short.
+    let short = Math.max(0, want[l] - Math.min(want[l], shuffled[l].length));
+    for (const from of FALLBACK[l]) {
+      if (short === 0) break;
+      const extra = Math.min(short, shuffled[from].length - take[from]);
+      take[from] += extra;
+      short -= extra;
+    }
+  }
+  return LEVELS.flatMap((l) => shuffled[l].slice(0, take[l]));
+}
+
 export interface ScoreSummary {
   correct: number;
   wrong: number;
   skipped: number;
+  /** Questions done so far, skips included. */
   answered: number;
   marks: number;
   maxMarks: number;
-  /** Percent of attempted questions answered correctly. */
-  accuracy: number;
+  /**
+   * Percent of the questions done so far that were answered correctly; a skip
+   * is not a correct answer. Once the round is over this is its score, saved as
+   * the round's `accuracy` and used for best scores, mastery and challenges, so
+   * skipping never raises it.
+   */
+  percent: number;
+  /** Percent of the questions tried (skips left out) that were right; null until one has been tried. */
+  accuracy: number | null;
 }
 
-/** Scoreboard numbers for a round so far. Wrong answers cost `negativeMarks`; skips cost nothing. */
+/** Scoreboard numbers for a round so far. Wrong answers cost `negativeMarks`; skips cost nothing and count as neither right nor wrong. */
 export function scoreSession(
   questions: readonly Pick<Question, "id" | "marks" | "negativeMarks">[],
   attempts: readonly { questionId: string; correct: boolean; response: AnyResponse | undefined }[],
@@ -97,8 +143,14 @@ export function scoreSession(
     answered,
     marks,
     maxMarks: questions.reduce((n, q) => n + q.marks, 0),
-    accuracy: answered ? Math.round((correct / answered) * 100) : 0,
+    percent: answered ? Math.round((correct / answered) * 100) : 0,
+    accuracy: correct + wrong ? Math.round((correct / (correct + wrong)) * 100) : null,
   };
+}
+
+/** The streak after an answer: a right one adds to it, a wrong one ends it and a skip leaves it as it was. */
+export function nextStreak(streak: number, correct: boolean, skipped: boolean): number {
+  return correct ? streak + 1 : skipped ? streak : 0;
 }
 
 const BASE_XP = { easy: 10, medium: 15, hard: 20 } as const;

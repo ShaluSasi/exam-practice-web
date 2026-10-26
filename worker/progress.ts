@@ -3,7 +3,7 @@
  * any device, plus a permanent per-answer log.
  */
 import { z } from "zod";
-import { requireUser } from "./auth";
+import { requireUser, type SessionUser } from "./auth";
 import { fromRecorded, gradeRound, loadBank, recordedChecks } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 
@@ -19,7 +19,7 @@ const AttemptIn = z.object({
   timeMs: z.number().int().min(0).max(DAY),
 });
 
-const SavedRoundIn = z
+export const SavedRoundIn = z
   .object({
     key: z.string().min(1).max(200),
     roundId: z.string().min(1).max(64),
@@ -55,10 +55,15 @@ export async function getProgress(request: Request, env: Env): Promise<Response>
 export async function saveProgress(request: Request, env: Env, url: URL): Promise<Response> {
   assertSameOrigin(request, url);
   const user = await requireUser(request, env);
-  const round = parse(SavedRoundIn, await readJson(request));
+  await storeActiveRound(env, user, parse(SavedRoundIn, await readJson(request)));
+  return json({ ok: true });
+}
+
+/** Saves an unfinished round and logs its answers, graded from the answers the server has recorded for it. */
+export async function storeActiveRound(env: Env, user: SessionUser, round: z.infer<typeof SavedRoundIn>) {
   // Right/wrong and XP in the answer log come from grading the answers the server saw checked, not from the app.
   round.attempts = fromRecorded(round.attempts, await recordedChecks(env, user.id, round.roundId));
-  const { graded } = gradeRound(await loadBank(), round.questionIds, round.attempts);
+  const { graded } = gradeRound(await loadBank(env), round.questionIds, round.attempts);
   const byQuestion = new Map(graded.map((g) => [g.questionId, g]));
   // Attempts for questions outside the round (or removed since) are dropped rather than trusted.
   round.attempts = round.attempts.flatMap((a) => {
@@ -89,7 +94,6 @@ export async function saveProgress(request: Request, env: Env, url: URL): Promis
        ON CONFLICT (user_id, round_id, question_id) DO NOTHING`,
     ).bind(user.id, user.email, round.roundId, round.title, now, JSON.stringify(round.attempts)),
   ]);
-  return json({ ok: true });
 }
 
 /** POST /api/progress/clear — round finished or started over. Only removes that exact round. */

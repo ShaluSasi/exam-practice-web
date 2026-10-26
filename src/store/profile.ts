@@ -59,6 +59,9 @@ interface ProfileState extends Stats {
   /** Subject tab last opened on the home screen. */
   lastSubject: SubjectId | null;
   setLastSubject: (s: SubjectId) => void;
+  /** Questions answered without signing in on this device; guests get one free round (store/guestLimit.ts). */
+  guestAnswered: number;
+  countGuestAnswer: () => void;
   /** Class tab last opened on the home screen. */
   lastGrade: number | null;
   setLastGrade: (g: number) => void;
@@ -70,6 +73,9 @@ interface ProfileState extends Stats {
   setImportedTo: (userId: string) => void;
   toggleSound: () => void;
   setTheme: (t: ThemePref) => void;
+  /** Admin-only override of how many questions a chapter round draws (worker/questions.ts caps it at 50); null uses the normal ROUND_SIZE. Ignored for non-admin accounts. */
+  adminRoundSize: number | null;
+  setAdminRoundSize: (n: number | null) => void;
 }
 
 /** Adds a round to a set of stats, keeping at most `keep` rounds (newest first). */
@@ -96,6 +102,8 @@ export const useProfile = create<ProfileState>()(
       theme: "system",
       lastSubject: null,
       setLastSubject: (lastSubject) => set({ lastSubject }),
+      guestAnswered: 0,
+      countGuestAnswer: () => set((s) => ({ guestAnswered: s.guestAnswered + 1 })),
       lastGrade: null,
       setLastGrade: (lastGrade) => set({ lastGrade }),
       recordSession: (round, streak) => set((s) => addRound(s, round, streak, MAX_ROUNDS)),
@@ -109,6 +117,8 @@ export const useProfile = create<ProfileState>()(
       setImportedTo: (importedTo) => set({ importedTo }),
       toggleSound: () => set((s) => ({ soundOn: !s.soundOn })),
       setTheme: (theme) => set({ theme }),
+      adminRoundSize: null,
+      setAdminRoundSize: (adminRoundSize) => set({ adminRoundSize }),
     }),
     { name: "prepquest-profile", storage: createJSONStorage(() => localStorage) },
   ),

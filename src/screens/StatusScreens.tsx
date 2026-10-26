@@ -60,7 +60,7 @@ export function UpdateScreen() {
   return (
     <Panel icon={<Download className="size-8" />} title="Update required">
       <p className="mt-2 text-muted">
-        {isNative ? "A new version of PrepQuest is available. Update the app to keep practising." : "PrepQuest has been updated. Reload the page to continue."}
+        {isNative ? "A new version of Kidzladder is available. Update the app to keep practising." : "Kidzladder has been updated. Reload the page to continue."}
       </p>
       {isNative ? (
         // Capacitor hands links off the app's own pages to Android, which opens them in the Play Store.

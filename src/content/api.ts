@@ -1,4 +1,4 @@
-import type { AnswerKey, ClientQuestion, QuestionType, SubjectId } from "./schema";
+import type { AnswerKey, ClientQuestion, Question, QuestionType, SubjectId } from "./schema";
 
 /**
  * Shapes of the content API (worker/questions.ts). Questions, answers and
@@ -44,4 +44,45 @@ export interface CheckResponse {
 export interface AppConfig {
   /** Oldest app build the server still supports; older apps must update. */
   minBuild: number;
+}
+
+// ---------- Admin configuration (worker/admin.ts) ----------
+
+export type Difficulty = Question["difficulty"];
+
+/** GET /api/admin/chapters: every chapter, with how many questions it has at each difficulty. */
+export interface AdminChapter extends Omit<ChapterInfo, "cover" | "version"> {
+  difficulty: Record<Difficulty, number>;
+  /** Questions whose difficulty an admin has changed from the bank file's. */
+  changed: number;
+  /** An admin has set the order its questions are shown in. */
+  ordered: boolean;
+}
+
+/** A question in full (answer included), with its difficulty in the bank file and who last changed it. */
+export interface AdminQuestion {
+  question: Question;
+  fileDifficulty: Difficulty;
+  changedBy?: string;
+  changedAt?: number;
+}
+
+/** GET /api/admin/questions?chapter=<key> */
+export interface AdminQuestions {
+  chapter: AdminChapter;
+  /** In bank file order. */
+  questions: AdminQuestion[];
+  /** The order an admin set (question IDs, first to last), if any. */
+  order?: { ids: string[]; updatedBy: string; updatedAt: number };
+}
+
+/** POST /api/admin/order: every question of the chapter, first to last; `ids: null` goes back to the default order. */
+export interface ChapterOrderIn {
+  chapter: string;
+  ids: string[] | null;
+}
+
+/** POST /api/admin/difficulty */
+export interface DifficultyChanges {
+  changes: { id: string; difficulty: Difficulty }[];
 }

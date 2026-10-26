@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Award, BookOpen, Check, Flame, Play, RefreshCw, RotateCcw, Sparkles, Target, Trophy, WifiOff, Zap } from "lucide-react";
+import { Award, BadgeCheck, BookOpen, ChartColumn, Check, ChevronRight, Flame, Play, RefreshCw, RotateCcw, Sparkles, Target, Trophy, WifiOff, Zap } from "lucide-react";
 import clsx from "clsx";
 import { offeredGrades, region } from "../config/regions";
 import type { ChapterInfo } from "../content/api";
@@ -273,30 +273,6 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
   const subjects = [...new Set(inGrade.map((c) => c.subject))];
   const active = lastSubject && subjects.includes(lastSubject) ? lastSubject : subjects[0];
   const list = inGrade.filter((c) => c.subject === active);
-  const tabsRef = useRef<HTMLDivElement>(null);
-  const [more, setMore] = useState({ left: false, right: false });
-  const measure = () => {
-    const bar = tabsRef.current;
-    if (!bar) return;
-    setMore({ left: bar.scrollLeft > 2, right: bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 2 });
-  };
-
-  useEffect(() => {
-    measure();
-    window.addEventListener("resize", measure);
-    return () => window.removeEventListener("resize", measure);
-  }, [subjects.length]);
-
-  // On narrow screens the tab strip scrolls sideways; keep the selected tab in view.
-  useEffect(() => {
-    const bar = tabsRef.current;
-    const tab = bar?.querySelector<HTMLElement>('[aria-selected="true"]');
-    if (!bar || !tab) return;
-    if (tab.offsetLeft < bar.scrollLeft || tab.offsetLeft + tab.offsetWidth > bar.scrollLeft + bar.clientWidth) {
-      bar.scrollTo({ left: tab.offsetLeft - (bar.clientWidth - tab.offsetWidth) / 2, behavior: "smooth" });
-    }
-  }, [active]);
-
   const start: StartRound = (qs, title, key) => {
     setLastSubject(active);
     onStart(qs, title, key);
@@ -331,17 +307,9 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
         )}
         <div className="rounded-2xl border-2 border-line bg-surface">
         <div
-          ref={tabsRef}
           role="tablist"
           aria-label="Subjects"
-          onScroll={measure}
-          style={{
-            maskImage:
-              more.left || more.right
-                ? `linear-gradient(to right, ${more.left ? "transparent, #000 40px" : "#000"}, ${more.right ? "#000 calc(100% - 40px), transparent" : "#000"})`
-                : undefined,
-          }}
-          className="relative flex gap-1.5 overflow-x-auto overscroll-x-contain rounded-[14px] p-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          className="relative flex flex-wrap gap-1.5 rounded-[14px] p-1.5"
         >
           {subjects.map((s) => {
             const st = SUBJECT_STYLE[s];
@@ -359,7 +327,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
                   document.getElementById("chapters")?.scrollIntoView({ behavior: "smooth", block: "start" });
                 }}
                 className={clsx(
-                  "relative flex flex-1 shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:gap-2 sm:text-base",
+                  "relative flex flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:gap-2 sm:text-base",
                   on ? "text-white" : "text-muted hover:text-fg",
                 )}
               >
@@ -419,7 +387,14 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
       animate={{ opacity: 1, y: 0 }}
       className="mb-4 flex items-center gap-3 rounded-[24px] border-2 border-line bg-surface p-3 shadow-card sm:mb-6 sm:justify-between sm:gap-4 sm:p-5"
     >
-      <div className="min-w-0 flex-1">
+      {/* The stats open the progress page, which explains them in full. */}
+      <motion.button
+        type="button"
+        onClick={() => go("progress")}
+        whileTap={{ scale: 0.98 }}
+        aria-label="My progress"
+        className="group min-w-0 flex-1 rounded-2xl text-left"
+      >
         <p className="hidden font-display text-2xl font-extrabold tracking-tight sm:block">Welcome back{firstName ? `, ${firstName}` : ""}! 👋</p>
         <dl className="grid grid-cols-4 gap-2 sm:mt-2 sm:flex sm:gap-6">
           {stats.map((s) => (
@@ -431,7 +406,11 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
             </div>
           ))}
         </dl>
-      </div>
+        <span className="mt-1.5 inline-flex items-center gap-1 rounded-full bg-brand-soft px-2.5 py-1 text-xs font-bold text-fg transition-colors group-hover:bg-brand sm:mt-2.5">
+          <ChartColumn className="size-3.5" /> My progress
+          <ChevronRight className="size-3.5 transition-transform group-hover:translate-x-0.5" />
+        </span>
+      </motion.button>
       <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
         <Button onClick={() => go("board")} className="px-3 sm:px-5" aria-label="Leaderboard">
           <Trophy className="size-4" /> <span className="hidden sm:inline">Leaderboard</span>
@@ -441,6 +420,64 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
         </Button>
       </div>
     </motion.section>
+  );
+}
+
+/** Bar chart whose bars keep rising and falling, so the progress button catches the eye. */
+function GrowingBars() {
+  const reduce = useReducedMotion();
+  const bars = [
+    { x: 3, h: [6, 12, 6] },
+    { x: 10, h: [12, 7, 12] },
+    { x: 17, h: [9, 16, 9] },
+  ];
+  return (
+    <svg viewBox="0 0 24 20" className="size-[18px]" aria-hidden>
+      {bars.map((b, i) => (
+        <motion.rect
+          key={b.x}
+          x={b.x}
+          width={4.5}
+          rx={1.5}
+          fill="currentColor"
+          initial={{ height: b.h[0], y: 20 - b.h[0] }}
+          animate={reduce ? undefined : { height: b.h, y: b.h.map((h) => 20 - h) }}
+          transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut", delay: i * 0.2 }}
+        />
+      ))}
+    </svg>
+  );
+}
+
+/** Bright header button to the progress page: gradient, growing bars and a passing shine. */
+function ProgressButton() {
+  const reduce = useReducedMotion();
+  return (
+    <motion.button
+      type="button"
+      onClick={() => useNav.getState().go("progress")}
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ type: "spring", stiffness: 400, damping: 22, delay: 0.2 }}
+      whileHover={{ y: -2, scale: 1.04 }}
+      whileTap={{ scale: 0.92 }}
+      aria-label="My progress"
+      title="My progress"
+      className="relative hidden h-10 items-center gap-1.5 overflow-hidden rounded-xl bg-gradient-to-r from-[#ffc53d] to-brand px-2.5 font-display text-sm font-extrabold text-brand-ink shadow-[0_3px_0_0_rgb(0_0_0/0.18)] min-[400px]:flex"
+    >
+      {!reduce && (
+        <motion.span
+          aria-hidden
+          className="pointer-events-none absolute inset-y-0 w-1/2 skew-x-[-20deg] bg-white/50"
+          animate={{ left: ["-60%", "160%"] }}
+          transition={{ duration: 1.4, repeat: Infinity, repeatDelay: 2.4, ease: "easeInOut" }}
+        />
+      )}
+      <span className="relative">
+        <GrowingBars />
+      </span>
+      <span className="relative hidden md:inline">My progress</span>
+    </motion.button>
   );
 }
 
@@ -489,10 +526,11 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
       <div className="relative mx-auto max-w-6xl px-4 pb-16 sm:px-6">
         <header className="flex items-center justify-between py-5">
           <Logo />
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2">
             <div className="hidden sm:block">
               <XpPill xp={profile.totalXp} />
             </div>
+            <ProgressButton />
             <SettingsToggles />
           </div>
         </header>
@@ -509,7 +547,8 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               className="mb-5 inline-flex items-center gap-2 rounded-full border-2 border-line bg-surface px-3 py-1.5 text-sm font-semibold"
             >
               <Sparkles className="size-4 text-brand" />
-              {region.boards.join(" · ")} · {region.gradeLabel(region.grades[0])}–{region.grades.at(-1)}
+              {region.boards.join(" · ")} · {region.gradeLabel(offeredGrades[0])}{offeredGrades.length > 1 && ` & ${offeredGrades.at(-1)}`}
+              <span className="rounded-full bg-ok-soft px-2 py-0.5 text-xs font-extrabold uppercase tracking-wider text-ok">Free</span>
             </motion.div>
             <motion.h1
               initial={{ opacity: 0, y: 16 }}
@@ -560,6 +599,15 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
                 or start mixed practice
               </button>
             </motion.div>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.25 }}
+              className="mt-4 flex items-center gap-1.5 text-sm font-semibold text-muted"
+            >
+              <BadgeCheck className="size-4 shrink-0 text-ok" />
+              100% free to use. Try a full round now, then sign in with Google to keep going.
+            </motion.p>
             <motion.dl
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -580,6 +628,17 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
                 </div>
               ))}
             </motion.dl>
+            <motion.button
+              type="button"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.35 }}
+              onClick={() => useNav.getState().go("progress")}
+              className="group mt-5 inline-flex items-center gap-1.5 font-semibold text-muted hover:text-fg"
+            >
+              <ChartColumn className="size-4 text-brand" /> See my progress
+              <ChevronRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </motion.button>
           </div>
           <motion.div
             initial={{ opacity: 0, scale: 0.9, rotate: 4 }}

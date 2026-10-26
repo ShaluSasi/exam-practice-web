@@ -1,6 +1,6 @@
-# PrepQuest — exam practice (prototype)
+# Kidzladder — exam practice (prototype)
 
-Interactive practice for CBSE Class 9–12. React + TypeScript + Vite, Tailwind CSS v4, Motion, KaTeX.
+Interactive practice for CBSE Class 9 and 10. React + TypeScript + Vite, Tailwind CSS v4, Motion, KaTeX.
 Deploys to Cloudflare Workers: static assets plus a small API Worker (`worker/`) for Google sign-in and saved scores (Cloudflare D1).
 
 ```bash

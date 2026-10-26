@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, animate, motion, useMotionValue, useTransform } from "motion/react";
-import { Check, ChevronDown, Clock, Crown, Flame, House, Medal, RotateCcw, Share2, Swords, Target, Trophy, X, Zap } from "lucide-react";
+import { ChartColumn, Check, ChevronDown, Clock, Crown, Flame, House, Medal, Minus, RotateCcw, Share2, Swords, Target, Trophy, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import type { SubjectId } from "../content/schema";
 import { Button } from "../components/Button";
 import { Figure } from "../components/Figure";
-import { scoreSession } from "../engine/scoring";
+import { byDifficulty, scoreSession, type ScoreSummary } from "../engine/scoring";
 import { rankRounds, useStats } from "../store/profile";
 import { SubjectChip } from "../components/QuestionHeader";
 import { RichText } from "../components/RichText";
@@ -17,6 +17,8 @@ import { SUBJECT_STYLE, formatTime } from "../lib/subjects";
 import { QuestionBody } from "../questions";
 import { useSession } from "../store/session";
 import { ShareSheet, type ShareTarget } from "../components/ShareSheet";
+import { SaveScoreCard } from "../components/SignInPrompt";
+import { freeRoundUsed } from "../store/guestLimit";
 import { useNav, type Opponent } from "../store/nav";
 
 /** Head-to-head result after playing a friend's challenge link. */
@@ -109,10 +111,33 @@ function ScoreRing({ pct }: { pct: number }) {
       <div className="absolute inset-0 grid place-items-center text-center">
         <div>
           <div className="font-display text-5xl font-extrabold tabular-nums">{shown}%</div>
-          <div className="text-sm font-semibold text-muted">accuracy</div>
+          <div className="text-sm font-semibold text-muted">score</div>
         </div>
       </div>
     </div>
+  );
+}
+
+/** Under the score: right, wrong and skipped, and how accurate the questions tried were. */
+function RoundBreakdown({ score, total }: { score: ScoreSummary; total: number }) {
+  const tried = score.correct + score.wrong;
+  return (
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.35 }} className="mb-7 mt-3 grid justify-items-center gap-2">
+      <div className="flex flex-wrap justify-center gap-2 text-sm font-bold">
+        <span className="flex items-center gap-1 rounded-full bg-ok-soft px-3 py-1 text-ok">
+          <Check className="size-4" strokeWidth={3} /> {score.correct} correct
+        </span>
+        <span className="flex items-center gap-1 rounded-full bg-bad-soft px-3 py-1 text-bad">
+          <X className="size-4" strokeWidth={3} /> {score.wrong} wrong
+        </span>
+        <span className="flex items-center gap-1 rounded-full bg-surface-2 px-3 py-1 text-muted">
+          <Minus className="size-4" strokeWidth={3} /> {score.skipped} skipped
+        </span>
+      </div>
+      <p className="text-sm font-semibold text-muted">
+        {score.accuracy === null ? "No questions tried this time." : `Accuracy ${score.accuracy}% · ${tried} of ${total} tried`}
+      </p>
+    </motion.div>
   );
 }
 
@@ -219,8 +244,18 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
   const go = useNav((n) => n.go);
   const byId = useMemo(() => Object.fromEntries(s.questions.map((q) => [q.id, q])), [s.questions]);
 
-  const { marks, maxMarks, accuracy: pct } = scoreSession(s.questions, s.attempts);
+  const score = scoreSession(s.questions, s.attempts);
+  const { marks, maxMarks, percent: pct } = score;
+  // Wrong and skipped questions both need another go.
   const wrong = s.questions.filter((q) => !s.attempts.find((a) => a.questionId === q.id)?.correct);
+  const skippedIds = new Set(s.attempts.filter((a) => a.response === undefined).map((a) => a.questionId));
+  const retrySkipped = wrong.filter((q) => skippedIds.has(q.id)).length;
+  const retryLabel =
+    retrySkipped === 0
+      ? `Retry ${wrong.length} mistake${wrong.length === 1 ? "" : "s"}`
+      : retrySkipped === wrong.length
+        ? `Retry ${wrong.length} skipped`
+        : `Retry ${wrong.length} (${wrong.length - retrySkipped} wrong, ${retrySkipped} skipped)`;
 
   const subjects = Object.entries(
     s.attempts.reduce<Record<string, { c: number; t: number }>>((acc, a) => {
@@ -287,9 +322,10 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
             {headline}
           </motion.h1>
           <p className="mt-1 text-muted">{sub}</p>
-          <div className="my-7">
+          <div className="mt-7">
             <ScoreRing pct={pct} />
           </div>
+          <RoundBreakdown score={score} total={s.questions.length} />
           <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-4">
             <Stat icon={Target} label="Marks" value={`${marks}/${maxMarks}`} tone="text-maths" delay={0.4} />
             <Stat icon={Zap} label="XP earned" value={`+${s.xp}`} tone="fill-brand text-brand" delay={0.48} />
@@ -316,10 +352,13 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
 
           <div className="mt-3 flex w-full flex-col gap-3 sm:flex-row sm:justify-center">
             {wrong.length > 0 && (
-              <Button variant="dark" onClick={() => onRetry(wrong.map((q) => q.id), s.title ? `${s.title} · mistakes` : "Mistakes")}>
-                <RotateCcw className="size-5" /> Retry {wrong.length} mistake{wrong.length === 1 ? "" : "s"}
+              <Button variant="dark" onClick={() => onRetry(byDifficulty(wrong).map((q) => q.id), s.title ? `${s.title} · mistakes` : "Mistakes")}>
+                <RotateCcw className="size-5" /> {retryLabel}
               </Button>
             )}
+            <Button variant="ghost" onClick={() => go("progress")}>
+              <ChartColumn className="size-5" /> My progress
+            </Button>
             <Button variant="ghost" onClick={() => go("board")}>
               <Trophy className="size-5" /> Leaderboard
             </Button>
@@ -327,6 +366,7 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
               <House className="size-5" /> Back to home
             </Button>
           </div>
+          <SaveScoreCard freeUsed={freeRoundUsed()} />
         </section>
         <ShareSheet target={share} onClose={() => setShare(null)} />
 
@@ -380,10 +420,16 @@ export function ResultsScreen({ onHome, onRetry }: { onHome: () => void; onRetry
                     <span
                       className={clsx(
                         "grid size-8 shrink-0 place-items-center rounded-full text-white",
-                        a.correct ? "bg-ok" : "bg-bad",
+                        a.correct ? "bg-ok" : a.response === undefined ? "bg-muted/60" : "bg-bad",
                       )}
                     >
-                      {a.correct ? <Check className="size-4" strokeWidth={3} /> : <X className="size-4" strokeWidth={3} />}
+                      {a.correct ? (
+                        <Check className="size-4" strokeWidth={3} />
+                      ) : a.response === undefined ? (
+                        <Minus className="size-4" strokeWidth={3} />
+                      ) : (
+                        <X className="size-4" strokeWidth={3} />
+                      )}
                     </span>
                     <span className="min-w-0 flex-1">
                       <span className="flex flex-wrap items-center gap-2">

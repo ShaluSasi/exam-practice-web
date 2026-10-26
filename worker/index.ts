@@ -3,6 +3,7 @@
  * only `/`, `/api/*`, `/s/*` and `/games/*` reach this code (see `run_worker_first` in wrangler.jsonc).
  */
 import type { AppConfig } from "../src/content/api";
+import { getAdminChapters, getAdminQuestions, saveDifficulty, saveOrder } from "./admin";
 import { me, signIn, signOut } from "./auth";
 import { getGameBoard, getGameRanks, saveRuns } from "./games";
 import { HttpError, error, json, preflight, withCors, type Env } from "./http";
@@ -43,7 +44,7 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
       case "GET /api/config":
         return json({ minBuild } satisfies AppConfig);
       case "GET /api/catalog":
-        return await getCatalog(url);
+        return await getCatalog(env, url);
       case "GET /api/questions":
         return await getQuestions(request, env, url);
       case "POST /api/answers/check":
@@ -56,6 +57,14 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await signIn(request, env, url);
       case "POST /api/auth/logout":
         return signOut(request, url);
+      case "GET /api/admin/chapters":
+        return await getAdminChapters(request, env);
+      case "GET /api/admin/questions":
+        return await getAdminQuestions(request, env, url);
+      case "POST /api/admin/difficulty":
+        return await saveDifficulty(request, env, url);
+      case "POST /api/admin/order":
+        return await saveOrder(request, env, url);
       case "GET /api/scores":
         return await getScores(request, env);
       case "POST /api/scores/rounds":

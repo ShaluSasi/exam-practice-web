@@ -1,15 +1,32 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { LogOut, Trophy } from "lucide-react";
+import { LogOut, Settings, Trophy } from "lucide-react";
 import { useNav } from "../store/nav";
 import { isNative } from "../lib/platform";
 import { useIsDark, useMediaQuery } from "../lib/theme";
 import { loadGoogle, useAuth } from "../store/auth";
 
-/** Google's own button (their branding rules require it), re-rendered on theme change. */
-function GoogleButton() {
-  const clientId = useAuth((s) => s.clientId);
+/** Sign-in error under the button; in the header it hangs below, in `big` buttons it sits in the flow. */
+function SignInError({ big }: { big?: boolean }) {
   const error = useAuth((s) => s.error);
+  if (!error) return null;
+  return (
+    <p
+      role="alert"
+      className={
+        big
+          ? "mt-3 rounded-xl bg-bad px-3 py-2 text-center text-xs font-semibold text-white"
+          : "absolute right-0 top-full z-30 mt-2 w-56 rounded-xl bg-bad px-3 py-2 text-xs font-semibold text-white shadow-pop"
+      }
+    >
+      {error}
+    </p>
+  );
+}
+
+/** Google's own button (their branding rules require it), re-rendered on theme change. `big`: "Continue with Google", full size. */
+function GoogleButton({ big }: { big?: boolean }) {
+  const clientId = useAuth((s) => s.clientId);
   const dark = useIsDark();
   const wide = useMediaQuery("(min-width: 640px)");
   const ref = useRef<HTMLDivElement>(null);
@@ -24,40 +41,40 @@ function GoogleButton() {
         google.accounts.id.renderButton(ref.current, {
           type: "standard",
           theme: dark ? "filled_black" : "outline",
-          size: wide ? "large" : "medium",
-          text: "signin",
+          size: big || wide ? "large" : "medium",
+          text: big ? "continue_with" : "signin",
           shape: "pill",
+          ...(big ? { logo_alignment: "center" as const, width: 280 } : {}),
         });
       })
       .catch(() => useAuth.setState({ error: "Could not load Google sign-in" }));
     return () => {
       live = false;
     };
-  }, [clientId, dark, wide]);
+  }, [clientId, dark, wide, big]);
 
   return (
     <div className="relative">
-      <div ref={ref} className="flex h-10 items-center" />
-      {error && (
-        <p role="alert" className="absolute right-0 top-full z-30 mt-2 w-56 rounded-xl bg-bad px-3 py-2 text-xs font-semibold text-white shadow-pop">
-          {error}
-        </p>
-      )}
+      <div ref={ref} className={big ? "flex min-h-11 items-center justify-center" : "flex h-10 items-center"} />
+      <SignInError big={big} />
     </div>
   );
 }
 
 /** The app: Google's script can't sign in inside an app, so this opens Android's own Google sign-in. */
-function NativeGoogleButton() {
+function NativeGoogleButton({ big }: { big?: boolean }) {
   const signIn = useAuth((s) => s.signInNative);
-  const error = useAuth((s) => s.error);
   return (
     <div className="relative">
       <motion.button
         type="button"
         onClick={() => void signIn()}
         whileTap={{ scale: 0.95 }}
-        className="flex h-10 items-center gap-2 rounded-full border-2 border-line bg-surface px-4 text-sm font-bold"
+        className={
+          big
+            ? "mx-auto flex h-12 w-full max-w-[280px] items-center justify-center gap-2.5 rounded-full border-2 border-line bg-surface px-5 font-bold"
+            : "flex h-10 items-center gap-2 rounded-full border-2 border-line bg-surface px-4 text-sm font-bold"
+        }
       >
         <svg viewBox="0 0 48 48" className="size-5" aria-hidden>
           <path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.7 13.3l7.9 6.1C12.5 13.6 17.8 9.5 24 9.5z" />
@@ -65,15 +82,16 @@ function NativeGoogleButton() {
           <path fill="#FBBC05" d="M10.6 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.1C1 16.6 0 20.2 0 24s1 7.4 2.7 10.7l7.9-6.1z" />
           <path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.4-5.7c-2.1 1.4-4.8 2.3-8.5 2.3-6.2 0-11.5-4.2-13.4-9.9l-7.9 6.1C6.6 42.6 14.6 48 24 48z" />
         </svg>
-        Sign in
+        {big ? "Continue with Google" : "Sign in"}
       </motion.button>
-      {error && (
-        <p role="alert" className="absolute right-0 top-full z-30 mt-2 w-56 rounded-xl bg-bad px-3 py-2 text-xs font-semibold text-white shadow-pop">
-          {error}
-        </p>
-      )}
+      <SignInError big={big} />
     </div>
   );
+}
+
+/** Large Google sign-in button for prompts (the sign-in gate, the results card). */
+export function SignInButton() {
+  return isNative ? <NativeGoogleButton big /> : <GoogleButton big />;
 }
 
 function Avatar({ name, picture, size = "size-10" }: { name: string; picture: string | null; size?: string }) {
@@ -147,6 +165,18 @@ function UserMenu() {
             >
               <Trophy className="size-4" /> Leaderboard
             </button>
+            {user.role === "admin" && (
+              <button
+                role="menuitem"
+                onClick={() => {
+                  setOpen(false);
+                  useNav.getState().go("admin");
+                }}
+                className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm font-semibold text-muted transition-colors hover:bg-surface-2 hover:text-fg"
+              >
+                <Settings className="size-4" /> Configuration
+              </button>
+            )}
             <button
               role="menuitem"
               onClick={() => {

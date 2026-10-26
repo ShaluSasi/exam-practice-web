@@ -163,7 +163,7 @@ export function ChallengeScreen({ onStart }: { onStart: (source: RoundSource, ti
                   {share.name} is <span className="text-[#ffc53d]">#{share.data.rank}</span>
                 </h1>
                 <p className="relative mt-2 text-white/75">
-                  of {share.data.participants} students on PrepQuest {PERIOD_LABEL[share.data.period]}
+                  of {share.data.participants} students on Kidzladder {PERIOD_LABEL[share.data.period]}
                 </p>
                 <div className="relative mt-6 flex items-center justify-center gap-3">
                   {share.data.rank <= 3 ? <Crown className="size-10 fill-[#ffc53d] text-[#e0a100]" /> : <Trophy className="size-10 text-[#ffc53d]" />}
@@ -172,7 +172,7 @@ export function ChallengeScreen({ onStart }: { onStart: (source: RoundSource, ti
                 <Button className="relative mt-7 w-full text-lg" onClick={home}>
                   <Play className="size-5 fill-current" /> Start climbing
                 </Button>
-                <p className="relative mt-3 text-xs text-white/55">Free CBSE practice for Class 9–12.</p>
+                <p className="relative mt-3 text-xs text-white/55">Free CBSE practice for Class 9 and 10.</p>
               </>
             ) : null}
           </motion.section>
