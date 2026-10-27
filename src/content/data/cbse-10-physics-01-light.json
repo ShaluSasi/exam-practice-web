@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the picture a lamp lights up an apple and you can see the apple. What makes the apple **visible** to your eye?",
+    "prompt": "In the picture, a lamp lights up an apple, and you can see the apple. What makes the apple **visible** to your eye?",
     "image": {
       "src": "/img/c10-light/seeing.svg",
       "alt": "A light source, an apple and an eye with rays travelling from the source to the apple and from the apple to the eye"
@@ -265,7 +265,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which lens would you prefer for reading the **small letters** of a dictionary?",
+    "prompt": "You want to read the **small letters** in a dictionary. Which lens is the best choice?",
     "image": {
       "src": "/img/c10-light/magnifier.svg",
       "alt": "A magnifying glass over small print making the letters look larger"
@@ -410,7 +410,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The radius of curvature of a spherical mirror is **20 cm**. What is the magnitude of its focal length?",
+    "prompt": "The radius of curvature of a spherical mirror is **20 cm**. What is the magnitude (value without the sign) of its focal length?",
     "image": {
       "src": "/img/c10-light/convex-R.svg",
       "alt": "A convex mirror with P, F and C marked behind it and R shown as 20 cm"
@@ -449,7 +449,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Sunlight falls on a concave mirror and a sheet of paper is held at the bright spot. The paper soon starts to burn. Why?",
+    "prompt": "Sunlight falls on a concave mirror. A sheet of paper is held at the bright spot. Soon the paper starts to burn. Why?",
     "image": {
       "src": "/img/c10-light/sun-mirror.svg",
       "alt": "Parallel rays from the Sun reflected by a concave mirror to a point where a paper burns"
@@ -493,8 +493,8 @@
       "src": "/img/c10-light/headlight.svg",
       "alt": "A bulb at the focus of a concave reflector sending a parallel beam"
     },
-    "assertion": "Concave mirrors are used in torches and vehicle headlights to get a powerful parallel beam of light.",
-    "reason": "A bulb placed at the principal focus of a concave mirror sends out a parallel beam after reflection.",
+    "assertion": "Concave mirrors are used in torches and vehicle headlights to get a strong parallel beam of light.",
+    "reason": "A bulb is placed at the principal focus of a concave mirror. After reflection, its light comes out as a parallel beam.",
     "answer": "a",
     "hint": "Reverse the path of rays that are parallel to the axis.",
     "explanation": "Both statements are true and R explains A. Rays from a source at **F** reflect **parallel** to the principal axis, since a ray through F emerges parallel after reflection. This gives a strong, narrow beam, which is why torches, search-lights and headlights use concave reflectors."
@@ -609,7 +609,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "A candle is moved from far away towards a concave mirror, stopping between C and F. Arrange the positions by the **size of the image**, smallest first.",
+    "prompt": "A candle is moved from far away towards a concave mirror. It stops between C and F. Arrange the positions by the **size of the image**, smallest first.",
     "image": {
       "src": "/img/c10-light/mirror-positions.svg",
       "alt": "A concave mirror axis with P, F and C and labelled zones for the object"
@@ -707,7 +707,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Why is a **convex mirror** preferred as a rear-view mirror in vehicles?",
+    "prompt": "Why do vehicles use a **convex mirror** as the rear-view mirror?",
     "image": {
       "src": "/img/c10-light/rear-view.svg",
       "alt": "Two panels: a plane mirror seeing a narrow area behind a car and a convex mirror seeing a wide area"
@@ -746,7 +746,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "No matter how far you stand from a mirror, your image appears **erect**. Select all the possible mirrors.",
+    "prompt": "You stand at different distances from a mirror. At every distance, your image appears **erect** (upright). Select all the possible mirrors.",
     "image": {
       "src": "/img/c10-light/move-away.svg",
       "alt": "A girl moving away from a mirror while her image stays upright"
@@ -793,7 +793,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "By the **New Cartesian Sign Convention**, which of these have a **positive** focal length?",
+    "prompt": "According to the **New Cartesian Sign Convention**, which of these have a **positive** focal length?",
     "image": {
       "src": "/img/c10-light/sign-convention.svg",
       "alt": "A concave mirror with the X axis through its pole, an object to the left and incident light from the left"
@@ -835,7 +835,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "By the New Cartesian Sign Convention, tap the part of the **principal axis** where distances such as the **object distance** are taken as **negative**.",
+    "prompt": "According to the New Cartesian Sign Convention, distances such as the **object distance** are taken as **negative** on one side. Tap that part of the **principal axis**.",
     "image": {
       "src": "/img/c10-light/sign-convention.svg",
       "alt": "A concave mirror with the X axis through its pole, an object to the left and incident light from the left"
@@ -882,7 +882,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A convex rear-view mirror has radius of curvature **3.00 m**. A bus is **5.00 m** in front of it. Where is the image formed?",
+    "prompt": "A convex rear-view mirror has a radius of curvature of **3.00 m**. A bus is **5.00 m** in front of it. Where is the image formed?",
     "image": {
       "src": "/img/c10-light/vm-bus.svg",
       "alt": "A convex mirror with an object in front and a small virtual image behind the mirror"
@@ -921,7 +921,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A **4.0 cm** tall object is placed **25.0 cm** in front of a concave mirror of focal length **15.0 cm**. What are the size and nature of the image?",
+    "prompt": "An object **4.0 cm** tall is placed **25.0 cm** in front of a concave mirror. The focal length of the mirror is **15.0 cm**. What are the size and nature of the image?",
     "image": {
       "src": "/img/c10-light/cm-4cm.svg",
       "alt": "A concave mirror with an object in front and a larger inverted real image"
@@ -960,7 +960,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A concave mirror forms a **real image three times as large** as an object placed **10 cm** in front of it. Where is the image?",
+    "prompt": "An object is placed **10 cm** in front of a concave mirror. The mirror forms a **real image three times as large** as the object. Where is the image?",
     "image": {
       "src": "/img/c10-light/cm-3x.svg",
       "alt": "A concave mirror with an object and a much larger inverted real image"
@@ -1027,7 +1027,7 @@
       "src": "/img/c10-light/cm-PF.svg",
       "alt": "Ray diagram for an object between P and F of a concave mirror giving a virtual enlarged image"
     },
-    "assertion": "A concave mirror held close to the face gives a larger, erect image, so it is used as a shaving mirror.",
+    "assertion": "When a concave mirror is held close to the face, it gives a larger, erect image. So it is used as a shaving mirror.",
     "reason": "A concave mirror has a curved reflecting surface.",
     "answer": "b",
     "hint": "Does \"curved\" alone explain the enlargement? A convex mirror is curved too.",
@@ -1045,7 +1045,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A ray of light travelling in air enters **obliquely into glass**. Which diagram is correct?",
+    "prompt": "A ray of light travelling in air enters **obliquely into glass** (at a slant, not straight). Which diagram is correct?",
     "options": [
       {
         "id": "a",
@@ -1188,7 +1188,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "The ray emerging from the slab is parallel to the incident ray but displaced. Tap the **lateral displacement**.",
+    "prompt": "The ray coming out of the slab is parallel to the incident ray, but shifted sideways. Tap the **lateral displacement**.",
     "image": {
       "src": "/img/c10-light/slab.svg",
       "alt": "A ray passing through a glass slab with dashed normals, the original direction dotted and a small double arrow between the emergent ray and that dotted line"
@@ -1292,7 +1292,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A coin in a bowl just disappears behind the rim when you stand back. A friend pours water gently into the bowl and the coin **reappears**. Why?",
+    "prompt": "A coin is kept in a bowl. You move back until the coin just goes out of sight behind the rim. A friend then pours water gently into the bowl, and the coin **appears again**. Why?",
     "image": {
       "src": "/img/c10-light/coin-bowl.svg",
       "alt": "A bowl with a coin hidden by the rim and a ray from the coin bending at the water surface to reach the eye"
@@ -1331,7 +1331,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The refractive index of crown glass is **1.50**. If the speed of light in vacuum is $3\\times10^8\\ \\text{m s}^{-1}$, what is its speed in the glass?",
+    "prompt": "The refractive index of crown glass is **1.50**. The speed of light in vacuum is $3\\times10^8\\ \\text{m s}^{-1}$. What is the speed of light in the glass?",
     "image": {
       "src": "/img/c10-light/speed-bars.svg",
       "alt": "Animated dots racing along bars for vacuum, air, water, crown glass and diamond, moving slower in the denser media"
@@ -1421,7 +1421,7 @@
       "src": "/img/c10-light/pool-depth.svg",
       "alt": "A pebble at the bottom of a pool with its apparent position raised"
     },
-    "assertion": "A swimming pool appears shallower than it really is.",
+    "assertion": "A swimming pool looks less deep than it really is.",
     "reason": "Light from the bottom bends away from the normal as it passes from water into air.",
     "answer": "a",
     "hint": "Where does the eye think the light is coming from?",
@@ -1486,7 +1486,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A ray travels from medium 1 into medium 2 with an angle of incidence of $45^\\circ$ and an angle of refraction of $30^\\circ$. What is the refractive index of medium 2 with respect to medium 1?",
+    "prompt": "A ray goes from medium 1 into medium 2. The angle of incidence is $45^\\circ$ and the angle of refraction is $30^\\circ$. What is the refractive index of medium 2 with respect to medium 1?",
     "image": {
       "src": "/img/c10-light/snell.svg",
       "alt": "A ray crossing a boundary with an angle of incidence of 45 degrees and an angle of refraction of 30 degrees"
@@ -1596,7 +1596,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Which diagram shows how a **concave lens** treats parallel rays?",
+    "prompt": "Which diagram shows what a **concave lens** does to parallel rays?",
     "options": [
       {
         "id": "a",
@@ -2004,7 +2004,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A **2.0 cm** tall object is placed **15 cm** from a convex lens of focal length **10 cm**. What is the position and nature of the image?",
+    "prompt": "An object **2.0 cm** tall is placed **15 cm** from a convex lens. The focal length of the lens is **10 cm**. What is the position and nature of the image?",
     "image": {
       "src": "/img/c10-light/cl-15-10.svg",
       "alt": "A convex lens with an object between F and 2F and a larger inverted real image beyond 2F"
@@ -2043,7 +2043,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A **concave lens** of focal length **15 cm** forms an image **10 cm** from the lens. How far is the object from the lens?",
+    "prompt": "A **concave lens** has a focal length of **15 cm**. It forms an image **10 cm** from the lens. How far is the object from the lens?",
     "image": {
       "src": "/img/c10-light/ccl-30.svg",
       "alt": "A concave lens with an object and a smaller virtual image between the object and the lens"
@@ -2199,7 +2199,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A convex lens forms a real, inverted image of a needle at a distance of **50 cm**, and the image is the **same size** as the needle. Where is the needle, and what is the power of the lens?",
+    "prompt": "A convex lens forms a real, inverted image of a needle at a distance of **50 cm**. The image is the **same size** as the needle. Where is the needle, and what is the power of the lens?",
     "image": {
       "src": "/img/c10-light/needle-lens.svg",
       "alt": "A convex lens with a needle at 2F on one side and an equal real inverted image at 2F on the other"

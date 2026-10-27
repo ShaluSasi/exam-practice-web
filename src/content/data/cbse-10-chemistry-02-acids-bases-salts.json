@@ -11,7 +11,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "You have three test tubes holding distilled water, an acidic solution and a basic solution, in some unknown order. You only have **red litmus paper**. It turns blue in tube 2 only. How can you tell which of tubes 1 and 3 holds the acid?",
+  "prompt": "You have three test tubes. They contain distilled water, an acidic solution and a basic solution, but you do not know which is which. You only have **red litmus paper**. It turns blue in tube 2 only. How can you find out which of tubes 1 and 3 has the acid?",
   "image": {
    "src": "/img/c10-acids/litmus-tubes.svg",
    "alt": "Red litmus paper dipped in three test tubes; in tube 2 it turns blue"
@@ -50,7 +50,7 @@
   "difficulty": "easy",
   "marks": 2,
   "type": "match",
-  "prompt": "Match each indicator with the colour change you see in the stated solution.",
+  "prompt": "Match each indicator with the colour change you see in the given solution.",
   "image": {
    "src": "/img/c10-acids/bottles.svg",
    "alt": "Four dropper bottles of indicators: litmus, phenolphthalein, methyl orange and turmeric"
@@ -112,7 +112,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A cloth strip kept overnight with chopped onions in a sealed bag smells strongly of onion. A few drops of dilute **NaOH** are put on it. What will you notice, and what does it show?",
+  "prompt": "A cloth strip is kept overnight with chopped onions in a sealed bag. Now it smells strongly of onion. A few drops of dilute **NaOH** are put on it. What will you notice, and what does it show?",
   "image": {
    "src": "/img/c10-acids/olfactory.svg",
    "alt": "Two onion-scented cloth strips, one with dilute HCl and one with dilute NaOH"
@@ -151,7 +151,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "In Activity 2.3 the hydrogen gas from zinc and dilute sulphuric acid is passed through a liquid so that gas-filled bubbles form. Tap the **soap solution**.",
+  "prompt": "In Activity 2.3, zinc and dilute sulphuric acid give hydrogen gas. This gas is passed through a liquid to make bubbles filled with the gas. Tap the **soap solution**.",
   "image": {
    "src": "/img/c10-acids/zinc-acid.svg",
    "alt": "Zinc granules in dilute sulphuric acid; hydrogen passes into soap solution and a burning candle is brought near the bubble"
@@ -198,7 +198,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A soap bubble filled with the gas from zinc and dilute $\\ce{H2SO4}$ is brought near a burning candle. The gas burns with a **pop** sound. Which gas is it, and which equation is correct?",
+  "prompt": "A soap bubble is filled with the gas made from zinc and dilute $\\ce{H2SO4}$. It is brought near a burning candle. The gas burns with a **pop** sound. Which gas is it, and which equation is correct?",
   "image": {
    "src": "/img/c10-acids/zinc-acid.svg",
    "alt": "Zinc granules in dilute sulphuric acid; hydrogen passes into soap solution and a burning candle is brought near the bubble"
@@ -276,7 +276,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps for making the soda-acid fire extinguisher of the group activity in order.",
+  "prompt": "In the group activity, you make a soda-acid fire extinguisher. Arrange the steps in order.",
   "image": {
    "src": "/img/c10-acids/fire-ext.svg",
    "alt": "A wash-bottle soda-acid fire extinguisher: acid in an ignition tube mixes with sodium hydrogencarbonate and CO2 is directed on a candle flame"
@@ -413,7 +413,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Sodium carbonate and dilute HCl give a gas that is passed through a clear solution that turns milky. Tap the **lime water**.",
+  "prompt": "Sodium carbonate and dilute HCl react and give a gas. The gas is passed through a clear solution, and the solution turns milky. Tap the **lime water**.",
   "image": {
    "src": "/img/c10-acids/carbonate-limewater.svg",
    "alt": "Gas from sodium carbonate and dilute HCl is passed through lime water, which turns milky"
@@ -460,7 +460,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "$\\ce{CO2}$ from sodium carbonate and dilute HCl is passed for a short time through fresh lime water. Which test tube shows what you will see?",
+  "prompt": "Sodium carbonate and dilute HCl give $\\ce{CO2}$. This gas is passed through fresh lime water for a short time. Which test tube shows what you will see?",
   "options": [
    {
     "id": "a",
@@ -511,7 +511,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange in order what happens in Activity 2.5 when $\\ce{Na2CO3}$ reacts with dilute HCl and the gas is passed into lime water.",
+  "prompt": "In Activity 2.5, $\\ce{Na2CO3}$ reacts with dilute HCl, and the gas is passed into lime water. Arrange what happens in the correct order.",
   "image": {
    "src": "/img/c10-acids/carbonate-limewater.svg",
    "alt": "Gas from sodium carbonate and dilute HCl is passed through lime water, which turns milky"
@@ -562,7 +562,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Metal compound **A** reacts with dilute hydrochloric acid and produces effervescence. The gas **extinguishes a burning candle**, and one product is calcium chloride. Which is compound A and its balanced reaction?",
+  "prompt": "Metal compound **A** reacts with dilute hydrochloric acid and produces effervescence (fizzing with gas bubbles). The gas **extinguishes a burning candle** (puts out the flame). One product is calcium chloride. What is compound A, and what is its balanced reaction?",
   "image": {
    "src": "/img/c10-acids/reaction-types.svg",
    "alt": "Four test tubes showing acid reacting with a metal, a carbonate, a metal oxide and a base"
@@ -606,7 +606,7 @@
    "src": "/img/c10-acids/limewater-excess.svg",
    "alt": "Lime water turns milky with a little CO2 and clear again with excess CO2"
   },
-  "assertion": "When carbon dioxide is passed in excess through lime water, the milky appearance first formed disappears.",
+  "assertion": "When excess carbon dioxide is passed through lime water, the milkiness formed at first disappears.",
   "reason": "Calcium carbonate reacts with water and more carbon dioxide to form soluble calcium hydrogencarbonate.",
   "answer": "a",
   "hint": "Think about what happens to the white $\\ce{CaCO3}$.",
@@ -787,7 +787,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Black copper oxide dissolves in dilute HCl and the solution turns blue-green. What causes the colour, and what kind of oxide is CuO?",
+  "prompt": "Black copper oxide dissolves in dilute HCl. The solution turns blue-green. What causes this colour? What kind of oxide is CuO?",
   "image": {
    "src": "/img/c10-acids/cuo-hcl.svg",
    "alt": "Black copper oxide dissolving in hydrochloric acid to give a blue-green solution"
@@ -832,7 +832,7 @@
    "alt": "Gas from sodium carbonate and dilute HCl is passed through lime water, which turns milky"
   },
   "assertion": "Non-metallic oxides are acidic in nature.",
-  "reason": "Carbon dioxide reacts with calcium hydroxide, a base, to produce a salt and water, like an acid does.",
+  "reason": "Carbon dioxide reacts with calcium hydroxide (a base) to produce a salt and water, just like an acid does.",
   "answer": "a",
   "hint": "Compare it with base + acid.",
   "explanation": "Both are true and R explains A. $\\ce{Ca(OH)2 + CO2 -> CaCO3 + H2O}$ is similar to the reaction of a base with an acid, so $\\ce{CO2}$ behaves as an acid-forming (**acidic**) oxide."
@@ -849,7 +849,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Two nails are dipped in dilute HCl and connected to a battery through a bulb. Tap one of the **nails** that carry current into the solution.",
+  "prompt": "Two nails are dipped in dilute HCl. They are connected to a battery through a bulb. The nails carry current into the solution. Tap one of the **nails**.",
   "image": {
    "src": "/img/c10-acids/conductivity.svg",
    "alt": "Circuit with battery, switch, bulb and two nails dipped in dilute hydrochloric acid; the bulb glows"
@@ -1218,7 +1218,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "order",
-  "prompt": "Solutions A, B, C, D and E have pH values 4, 1, 11, 7 and 9, respectively. Arrange them in **increasing** order of hydrogen-ion concentration.",
+  "prompt": "Solutions A, B, C, D and E have pH values 4, 1, 11, 7 and 9, respectively. Arrange them in **increasing** order of hydrogen-ion concentration (from lowest to highest).",
   "image": {
    "src": "/img/c10-acids/ph-scale.svg",
    "alt": "The pH scale from 0 (red, strongly acidic) through 7 (green, neutral) to 14 (purple, strongly basic)"
@@ -1308,7 +1308,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A solution is tested with universal indicator paper and is **strongly alkaline** (pH about 13). Which colour will the paper show? (Colours are only a rough guide.)",
+  "prompt": "A solution is tested with universal indicator paper. It is **strongly alkaline** (pH about 13). Which colour will the paper show? (Colours are only a rough guide.)",
   "options": [
    {
     "id": "a",
@@ -1359,7 +1359,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Equal lengths of magnesium ribbon are put in test tube A with HCl and test tube B with acetic acid, both of the same concentration and volume. In which will the fizzing be more vigorous and why?",
+  "prompt": "Two equal lengths of magnesium ribbon are taken. One is put in test tube A with HCl. The other is put in test tube B with acetic acid. Both acids have the same concentration and volume. In which tube will the fizzing be stronger, and why?",
   "image": {
    "src": "/img/c10-acids/mg-acids.svg",
    "alt": "Magnesium ribbon in hydrochloric acid (tube A) and in acetic acid (tube B), same amount and concentration"
@@ -1484,7 +1484,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tooth decay starts when the pH of the mouth falls below 5.5. Tap the part of the tooth that gets **corroded**.",
+  "prompt": "Tooth decay starts when the pH of the mouth falls below 5.5. Tap the part of the tooth that gets **corroded** (worn away).",
   "image": {
    "src": "/img/c10-acids/tooth.svg",
    "alt": "A tooth with enamel, dentine and pulp, with acid-producing bacteria on its surface"
@@ -1728,7 +1728,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A milkman adds a very small amount of baking soda to fresh milk (pH 6) to make it slightly alkaline. Why does this milk take a **long time** to set as curd?",
+  "prompt": "A milkman adds a very small amount of baking soda to fresh milk (pH 6). This makes the milk slightly alkaline. Why does this milk take a **long time** to set as curd?",
   "image": {
    "src": "/img/c10-acids/milk.svg",
    "alt": "Fresh milk, a spoon of baking soda and a bowl of curd"
@@ -1890,7 +1890,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Brine is being electrolysed in the chlor-alkali process. Tap the **cathode**.",
+  "prompt": "Brine (a strong solution of common salt in water) is being electrolysed in the chlor-alkali process. Tap the **cathode**.",
   "image": {
    "src": "/img/c10-acids/chlor-alkali.svg",
    "alt": "Electrolysis of brine: chlorine at the anode, hydrogen at the cathode, sodium hydroxide near the cathode"
@@ -1937,7 +1937,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "match",
-  "prompt": "Match each salt with the nature of its aqueous solution.",
+  "prompt": "Match each salt with the nature of its aqueous solution (its solution in water).",
   "image": {
    "src": "/img/c10-acids/salt-solutions.svg",
    "alt": "Three beakers of salt solutions to be tested with pH paper"
@@ -2035,7 +2035,7 @@
    "alt": "A cake rising as carbon dioxide bubbles form from baking powder"
   },
   "assertion": "A cake made with baking powder is soft and spongy.",
-  "reason": "Baking powder, a mixture of baking soda and tartaric acid, produces carbon dioxide on heating or when mixed with water.",
+  "reason": "Baking powder is a mixture of baking soda and tartaric acid. It produces carbon dioxide on heating or when mixed with water.",
   "answer": "a",
   "hint": "Think of the gas bubbles in the batter.",
   "explanation": "Both are true and R explains A. $\\ce{NaHCO3 + H+ -> CO2 + H2O}$ + the sodium salt of the acid. The $\\ce{CO2}$ makes the bread or cake rise, so it becomes soft and spongy."
@@ -2052,7 +2052,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Blue crystals of copper sulphate ($\\ce{CuSO4.5H2O}$) are heated strongly in a dry boiling tube. Which sample is the product, anhydrous copper sulphate?",
+  "prompt": "Blue crystals of copper sulphate ($\\ce{CuSO4.5H2O}$) are heated strongly in a dry boiling tube. The product is anhydrous copper sulphate (copper sulphate without water). Which sample shows this product?",
   "options": [
    {
     "id": "a",
@@ -2154,7 +2154,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Why should Plaster of Paris be stored in a moisture-proof container?",
+  "prompt": "Why should Plaster of Paris be stored in a moisture-proof container (one that keeps out damp air)?",
   "image": {
    "src": "/img/c10-acids/pop.svg",
    "alt": "Gypsum loses water on heating to give Plaster of Paris; adding water turns it back into hard gypsum"

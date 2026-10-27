@@ -70,7 +70,7 @@
    "alt": "Electrons drifting one way along a wire while conventional current points the other way"
   },
   "assertion": "In a metal wire, the conventional direction of electric current is opposite to the direction in which the electrons flow.",
-  "reason": "Electric current was first thought to be a flow of positive charges, before electrons were discovered.",
+  "reason": "Before electrons were discovered, electric current was thought to be a flow of positive charges.",
   "answer": "a",
   "hint": "Who was discovered first, current or electrons?",
   "explanation": "Both statements are true and R explains A. The direction of current was fixed by convention as the direction of flow of **positive** charge, before electrons were known. Electrons carry negative charge and drift from the negative to the positive terminal, so conventional current points the **opposite** way, from the positive terminal to the negative terminal through the circuit."
@@ -87,7 +87,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A bulb filament draws a current of $0.5\\ \\text{A}$ for $10$ minutes. How much electric charge flows through the circuit?",
+  "prompt": "A current of $0.5\\ \\text{A}$ flows through a bulb filament for $10$ minutes. How much electric charge flows through the circuit?",
   "image": {
    "src": "/img/c10-electricity/charge-flow.svg",
    "alt": "Charges flowing through a wire past a cross-section"
@@ -165,7 +165,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Put these events in the order in which they happen when you switch on a torch.",
+  "prompt": "What happens when you switch on a torch? Put these events in order.",
   "image": {
    "src": "/img/c10-electricity/torch.svg",
    "alt": "A torch with cells, a bulb and a light beam"
@@ -294,7 +294,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A student wants to measure the potential difference across a lamp. Which symbol represents the instrument she must connect **in parallel** across the lamp?",
+  "prompt": "A student wants to measure the potential difference across a lamp. She must connect an instrument **in parallel** across the lamp. Which symbol shows this instrument?",
   "image": {
    "src": "/img/c10-electricity/circuit-open.svg",
    "alt": "An open circuit with a cell, key, bulb and ammeter"
@@ -464,7 +464,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "When a $12\\ \\text{V}$ battery is connected across an unknown resistor, a current of $2.5\\ \\text{mA}$ flows. What is the resistance of the resistor?",
+  "prompt": "A $12\\ \\text{V}$ battery is connected across an unknown resistor. A current of $2.5\\ \\text{mA}$ flows. What is the resistance of the resistor?",
   "image": {
    "src": "/img/c10-electricity/resistor-ma.svg",
    "alt": "A 12 volt cell connected to an unknown resistor with a milliammeter reading 2.5 milliamperes"
@@ -503,7 +503,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The nichrome wire in the circuit is kept at a steady temperature. Which graph of potential difference $V$ (vertical) against current $I$ (horizontal) will the student obtain?",
+  "prompt": "The nichrome wire in the circuit is kept at a steady temperature. The student plots potential difference $V$ (vertical) against current $I$ (horizontal). Which graph will the student get?",
   "image": {
    "src": "/img/c10-electricity/ohm-activity.svg",
    "alt": "The circuit used to study Ohm's law"
@@ -558,7 +558,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "The potential difference across a heater is $60\\ \\text{V}$ and it draws $4\\ \\text{A}$. What current will it draw if the potential difference is raised to $120\\ \\text{V}$?",
+  "prompt": "The potential difference across a heater is $60\\ \\text{V}$, and it takes a current of $4\\ \\text{A}$. The potential difference is then raised to $120\\ \\text{V}$. What current will the heater take now?",
   "image": {
    "src": "/img/c10-electricity/heater-vary.svg",
    "alt": "An electric heater on a 60 volt supply drawing 4 amperes"
@@ -602,8 +602,8 @@
    "src": "/img/c10-electricity/electrons-consumed.svg",
    "alt": "A bulb with an ammeter on each side both reading 1 ampere"
   },
-  "assertion": "Electrons are used up as current flows through a bulb, so the battery must keep supplying new electrons.",
-  "reason": "We pay the electricity board for the energy supplied to move electrons through our appliances, not for the electrons.",
+  "assertion": "Electrons get used up as current flows through a bulb. So the battery must keep supplying new electrons.",
+  "reason": "We pay the electricity board for the energy used to move electrons through our appliances. We do not pay for the electrons.",
   "answer": "d",
   "hint": "Compare the two ammeter readings in the picture.",
   "explanation": "A is **false**, R is **true**. The two ammeters read the same, so exactly as many electrons leave the bulb as enter it: electrons are **not consumed**. What the circuit uses up is the **energy** given to the electrons by the source, and that is what we pay for."
@@ -620,7 +620,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A copper wire of resistance $R$ is pulled out evenly until its length is **doubled**. Its volume stays the same. What is its new resistance?",
+  "prompt": "A copper wire has resistance $R$. It is stretched evenly until its length is **doubled**. Its volume stays the same. What is its new resistance?",
   "image": {
    "src": "/img/c10-electricity/wire-stretch.svg",
    "alt": "A thick wire being stretched into a longer thinner wire"
@@ -659,7 +659,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A wire of length $l$ and area of cross-section $A$ has resistance $4\\ \\Omega$. What is the resistance of a wire of the **same material** with length $l/2$ and area $2A$?",
+  "prompt": "A wire has length $l$, area of cross-section $A$ and resistance $4\\ \\Omega$. Another wire of the **same material** has length $l/2$ and area $2A$. What is its resistance?",
   "image": {
    "src": "/img/c10-electricity/wire-half-double.svg",
    "alt": "Two wires of the same material, one long and thin and one short and thick"
@@ -698,7 +698,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "All four wires are connected one at a time to the same cell. Tap the wire that has the **greatest resistance** (fewest current dots).",
+  "prompt": "All four wires are connected to the same cell, one at a time. Tap the wire that has the **greatest resistance** (fewest current dots).",
   "image": {
    "src": "/img/c10-electricity/wire-factors.svg",
    "alt": "Four wires: nichrome of length l, nichrome of length 2l, thicker nichrome and copper"
@@ -745,7 +745,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "multi",
-  "prompt": "On which of these does the resistance of a metal conductor **depend**? Select all that apply.",
+  "prompt": "The resistance of a metal conductor **depends** on which of these? Select all that apply.",
   "image": {
    "src": "/img/c10-electricity/wire-factors.svg",
    "alt": "Four wires of different length, thickness and material"
@@ -843,7 +843,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "match",
-  "prompt": "The same material and temperature are used. Match each change to the wire with the new resistance, using $R = \\rho l/A$.",
+  "prompt": "The material and temperature stay the same. Using $R = \\rho l/A$, match each change to the wire with the new resistance.",
   "image": {
    "src": "/img/c10-electricity/wire-changes.svg",
    "alt": "A wire with length l, cross-section area A and resistivity rho"
@@ -910,7 +910,7 @@
    "src": "/img/c10-electricity/toaster-coil.svg",
    "alt": "A toaster with glowing nichrome coils and a chart comparing copper and nichrome"
   },
-  "assertion": "The heating elements of toasters and electric irons are made of an alloy such as nichrome rather than a pure metal.",
+  "assertion": "The heating elements of toasters and electric irons are made of an alloy such as nichrome, not a pure metal.",
   "reason": "Nichrome has a lower resistivity than copper.",
   "answer": "c",
   "hint": "Compare the heights of the two bars.",
@@ -928,7 +928,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "A $20\\ \\Omega$ lamp and a $4\\ \\Omega$ conductor are in series with a $6\\ \\text{V}$ battery. Tap the component with the **largest potential difference** across it.",
+  "prompt": "A $20\\ \\Omega$ lamp and a $4\\ \\Omega$ conductor are connected in series with a $6\\ \\text{V}$ battery. Tap the component with the **largest potential difference** across it.",
   "image": {
    "src": "/img/c10-electricity/series-numerical.svg",
    "alt": "A 20 ohm lamp and a 4 ohm conductor in series with a battery and an ammeter"
@@ -1027,7 +1027,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A battery of three $2\\ \\text{V}$ cells is joined in series with $5\\ \\Omega$, $8\\ \\Omega$ and $12\\ \\Omega$ resistors. What does a voltmeter across the $12\\ \\Omega$ resistor read?",
+  "prompt": "A battery of three $2\\ \\text{V}$ cells is joined in series with $5\\ \\Omega$, $8\\ \\Omega$ and $12\\ \\Omega$ resistors. A voltmeter is connected across the $12\\ \\Omega$ resistor. What does it read?",
   "image": {
    "src": "/img/c10-electricity/series-meters.svg",
    "alt": "Three cells in series with 5, 8 and 12 ohm resistors and a voltmeter across the 12 ohm resistor"
@@ -1066,7 +1066,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In a string of festival fairy lights, one fused bulb makes all the others go dark. Which circuit would **keep the other bulb glowing** if one bulb were removed?",
+  "prompt": "In a string of festival fairy lights, when one bulb fuses, all the others go dark. If one bulb were removed, which circuit would **keep the other bulb glowing**?",
   "image": {
    "src": "/img/c10-electricity/fairy-lights.svg",
    "alt": "A string of fairy lights gone dark because one bulb fused"
@@ -1264,8 +1264,8 @@
    "src": "/img/c10-electricity/parallel-two.svg",
    "alt": "A 6 ohm and a 3 ohm resistor in parallel across a 6 volt battery"
   },
-  "assertion": "When $6\\ \\Omega$ and $3\\ \\Omega$ resistors are connected in parallel, the equivalent resistance is $2\\ \\Omega$, less than either resistor.",
-  "reason": "In a parallel combination $1/R_p$ is the sum of the reciprocals, so $1/R_p$ is greater than the reciprocal of any single resistor.",
+  "assertion": "$6\\ \\Omega$ and $3\\ \\Omega$ resistors are connected in parallel. The equivalent resistance is $2\\ \\Omega$, which is less than either resistor.",
+  "reason": "In a parallel combination, $1/R_p$ is the sum of the reciprocals. So $1/R_p$ is greater than the reciprocal of any single resistor.",
   "answer": "a",
   "hint": "Greater $1/R_p$ means smaller $R_p$.",
   "explanation": "Both are true and R explains A. $\\dfrac1{R_p} = \\dfrac16+\\dfrac13 = \\dfrac12$, so $R_p = 2\\ \\Omega$. Since $1/R_p$ is larger than $1/6$ and $1/3$, $R_p$ is smaller than both. Physically, the extra branch gives the current one more path, so the total current for the same $V$ rises."
@@ -1335,7 +1335,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "In the circuit shown, $R_1 = 10\\ \\Omega$, $R_2 = 40\\ \\Omega$, $R_3 = 30\\ \\Omega$, $R_4 = 20\\ \\Omega$ and $R_5 = 60\\ \\Omega$ with a $12\\ \\text{V}$ battery. What is the **total current** from the battery?",
+  "prompt": "In the circuit shown, $R_1 = 10\\ \\Omega$, $R_2 = 40\\ \\Omega$, $R_3 = 30\\ \\Omega$, $R_4 = 20\\ \\Omega$ and $R_5 = 60\\ \\Omega$. The battery is $12\\ \\text{V}$. What is the **total current** from the battery?",
   "image": {
    "src": "/img/c10-electricity/combo-circuit.svg",
    "alt": "Two parallel groups of resistors in series across a 12 volt battery"
@@ -1374,7 +1374,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Which way of joining resistors of $2\\ \\Omega$, $3\\ \\Omega$ and $6\\ \\Omega$ gives a total resistance of **$4\\ \\Omega$**?",
+  "prompt": "You have resistors of $2\\ \\Omega$, $3\\ \\Omega$ and $6\\ \\Omega$. Which way of joining them gives a total resistance of **$4\\ \\Omega$**?",
   "image": {
    "src": "/img/c10-electricity/three-resistors.svg",
    "alt": "Three separate resistors of 2, 3 and 6 ohms"
@@ -1475,7 +1475,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Two identical wires are first joined **in series** and then **in parallel** across the same battery. What is the ratio of the heat produced in series to that in parallel in the same time?",
+  "prompt": "Two identical wires are first joined **in series** across a battery. Then they are joined **in parallel** across the same battery. In the same time, what is the ratio of the heat produced in series to the heat produced in parallel?",
   "image": {
    "src": "/img/c10-electricity/two-wires.svg",
    "alt": "Two identical wires joined in series and in parallel across the same battery"
@@ -1623,7 +1623,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "Bulbs are filled with chemically inactive gases to make the filament last longer. Tap the part of the bulb that holds these **nitrogen and argon** gases.",
+  "prompt": "Bulbs are filled with chemically inactive gases. This makes the filament last longer. Tap the part of the bulb that holds these **nitrogen and argon** gases.",
   "image": {
    "src": "/img/c10-electricity/bulb-anatomy.svg",
    "alt": "An electric bulb with glass envelope, filament, support wires and metal cap"
@@ -1676,7 +1676,7 @@
    "alt": "An electric iron and a row of fuse cartridges"
   },
   "assertion": "A fuse is connected in series with the appliance that it protects.",
-  "reason": "The wire of a fuse has a low melting point, so it melts when too much current flows.",
+  "reason": "The wire of a fuse has a low melting point. So it melts when too much current flows.",
   "answer": "b",
   "hint": "Ask why the placement in series matters, and whether the melting point explains that.",
   "explanation": "Both are true, but R does **not** explain A. A fuse is placed in **series** so that the same current flows through the fuse and the appliance: if that current is too high the fuse wire melts first and breaks the circuit. The low melting point explains *why the wire melts*, not *why it is in series*."
@@ -1791,7 +1791,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "An electric iron of resistance $20\\ \\Omega$ takes a current of $5\\ \\text{A}$. How much heat is developed in $30\\ \\text{s}$?",
+  "prompt": "An electric iron has a resistance of $20\\ \\Omega$ and takes a current of $5\\ \\text{A}$. How much heat is produced in $30\\ \\text{s}$?",
   "image": {
    "src": "/img/c10-electricity/iron-joule.svg",
    "alt": "An electric iron with heat waves rising from its sole plate"
@@ -1892,7 +1892,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "An electric iron consumes $1\\ \\text{kW}$ at $220\\ \\text{V}$. Which fuse from the picture should be used with it?",
+  "prompt": "An electric iron uses $1\\ \\text{kW}$ of power at $220\\ \\text{V}$. Which fuse from the picture should be used with it?",
   "image": {
    "src": "/img/c10-electricity/fuse-iron.svg",
    "alt": "An electric iron rated 1 kilowatt at 220 volts and fuse cartridges of 1, 3, 5 and 10 amperes"
@@ -1931,7 +1931,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A bulb is rated $220\\ \\text{V}$, $100\\ \\text{W}$. What power does it consume when it is operated on a $110\\ \\text{V}$ supply (taking its resistance as constant)?",
+  "prompt": "A bulb is rated $220\\ \\text{V}$, $100\\ \\text{W}$. It is now used on a $110\\ \\text{V}$ supply. Take its resistance as constant. What power does it use now?",
   "image": {
    "src": "/img/c10-electricity/bulb-110v.svg",
    "alt": "A bulb rated 220 V 100 W glowing dimmer on a 110 V supply"
@@ -2056,7 +2056,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A refrigerator rated $400\\ \\text{W}$ runs $8$ hours a day. What is the cost of running it for $30$ days at Rs $3.00$ per kW h?",
+  "prompt": "A refrigerator rated $400\\ \\text{W}$ runs for $8$ hours a day. Electricity costs Rs $3.00$ per kW h. What is the cost of running it for $30$ days?",
   "image": {
    "src": "/img/c10-electricity/fridge-bill.svg",
    "alt": "A 400 watt refrigerator and an energy meter charging Rs 3 per kilowatt hour"
@@ -2141,7 +2141,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "An electric motor takes $5\\ \\text{A}$ from a $220\\ \\text{V}$ line. What are its power and the energy it consumes in $2$ hours?",
+  "prompt": "An electric motor takes $5\\ \\text{A}$ from a $220\\ \\text{V}$ line. What is its power, and how much energy does it use in $2$ hours?",
   "image": {
    "src": "/img/c10-electricity/motor.svg",
    "alt": "An electric motor on a 220 volt line drawing 5 amperes"
@@ -2231,7 +2231,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Compare the power used in the highlighted $2\\ \\Omega$ resistor in (i) a $6\\ \\text{V}$ battery in series with $1\\ \\Omega$ and $2\\ \\Omega$ resistors, and (ii) a $4\\ \\text{V}$ battery in parallel with $12\\ \\Omega$ and $2\\ \\Omega$ resistors.",
+  "prompt": "Look at the highlighted $2\\ \\Omega$ resistor in two circuits. (i) A $6\\ \\text{V}$ battery is in series with $1\\ \\Omega$ and $2\\ \\Omega$ resistors. (ii) A $4\\ \\text{V}$ battery is in parallel with $12\\ \\Omega$ and $2\\ \\Omega$ resistors. Compare the power used in this $2\\ \\Omega$ resistor in the two circuits.",
   "image": {
    "src": "/img/c10-electricity/two-circuits-2ohm.svg",
    "alt": "Two circuits each containing a 2 ohm resistor"

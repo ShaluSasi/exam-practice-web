@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A straight wire AB is turned slowly about the point P on a circular wire. In one special position it just touches the circle at $P$. How many points does a **tangent** have in common with the circle?",
+  "prompt": "A straight wire AB is turned slowly around the point P on a circular wire. In one position, it just touches the circle at $P$. How many points does a **tangent** share with the circle?",
   "image": {
    "src": "/img/c10-ma-circles/pivot.svg",
    "alt": "A line pivoting about a point P on a circle, touching it in one position"
@@ -50,7 +50,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A circle has centre $O$ and radius $5$ cm. Points $A$, $B$ and $C$ are at distances $3$ cm, $5$ cm and $8$ cm from $O$. In all, how many different tangents to the circle can be drawn **through the points** $A$, $B$ and $C$ (counting each point separately)?",
+  "prompt": "A circle has centre $O$ and radius $5$ cm. Point $A$ is $3$ cm from $O$, point $B$ is $5$ cm from $O$ and point $C$ is $8$ cm from $O$. Count the tangents through each point separately. In total, how many different tangents to the circle can be drawn **through the points** $A$, $B$ and $C$?",
   "image": {
    "src": "/img/c10-ma-circles/three-points.svg",
    "alt": "A circle with point A inside, B on the circle and C outside"
@@ -89,7 +89,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "match",
-  "prompt": "A circle has radius $6$ cm. Each line is at the given perpendicular distance from the centre. Match the line with its name.",
+  "prompt": "A circle has radius $6$ cm. Each line below is at the given perpendicular distance (shortest distance) from the centre. Match each line with its name.",
   "image": {
    "src": "/img/c10-ma-circles/dist-lines.svg",
    "alt": "A circle of radius 6 with three lines at distances 4, 6 and 9"
@@ -242,7 +242,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "multi",
-  "prompt": "The wheel turns but it always touches the road at one point, and the road is a tangent. Select **all** the true statements about a tangent to a circle.",
+  "prompt": "A wheel turns, but it always touches the road at one point. The road is a tangent to the wheel. Select **all** the true statements about a tangent to a circle.",
   "image": {
    "src": "/img/c10-ma-circles/roll.svg",
    "alt": "A wheel turning on a road with the radius to the contact point"
@@ -550,7 +550,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps of the proof that **the tangent at any point of a circle is perpendicular to the radius through the point of contact**.",
+  "prompt": "Arrange the steps to prove that **the tangent at any point of a circle is perpendicular to the radius through the point of contact**.",
   "image": {
    "src": "/img/c10-ma-circles/thm101.svg",
    "alt": "A circle with centre O, tangent XY touching at P and a point Q on the tangent joined to O"
@@ -601,7 +601,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A tangent $PQ$ at a point $P$ of a circle of radius $6$ cm meets a line through the centre $O$ at a point $Q$ with $OQ=10$ cm. Find the length $PQ$.",
+  "prompt": "A circle has centre $O$ and radius $6$ cm. $PQ$ is a tangent to the circle at the point $P$. It meets a line through the centre $O$ at the point $Q$, and $OQ=10$ cm. Find the length $PQ$.",
   "image": {
    "src": "/img/c10-ma-circles/tan-oq.svg",
    "alt": "Circle of radius 6 with centre O, a point Q with OQ equal to 10 and the tangent QP"
@@ -686,8 +686,8 @@
   },
   "hint": "Where is the only perpendicular at $P$ sure to go?",
   "explanation": "Both are true and R explains A. The radius $OP$ is already a perpendicular to the tangent at $P$ (Theorem 10.1). Since there is only **one** perpendicular to a line at a given point of it, the perpendicular at $P$ must be the line $OP$, which passes through $O$.",
-  "assertion": "The perpendicular drawn to a tangent at its point of contact passes through the centre of the circle.",
-  "reason": "The radius through the point of contact is perpendicular to the tangent, and at a given point of a line only one perpendicular can be drawn to it.",
+  "assertion": "A line is drawn perpendicular to a tangent at its point of contact (the point where it touches the circle). This line passes through the centre of the circle.",
+  "reason": "The radius through the point of contact is perpendicular to the tangent. Also, at a given point on a line, only one perpendicular can be drawn to that line.",
   "answer": "a"
  },
  {
@@ -702,7 +702,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "$PQ$ is a diameter of a circle and tangents $l$ and $m$ are drawn at $P$ and $Q$. Why are $l$ and $m$ parallel?",
+  "prompt": "$PQ$ is a diameter of a circle. Tangents $l$ and $m$ are drawn at $P$ and $Q$. Why are $l$ and $m$ parallel?",
   "image": {
    "src": "/img/c10-ma-circles/diam-tangent.svg",
    "alt": "A circle with diameter PQ and tangents l and m at its two ends"
@@ -741,7 +741,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "$XY$ and $X'Y'$ are two parallel tangents to a circle with centre $O$, touching at $P$ and $R$. Another tangent $AB$ touches the circle at $C$, with $A$ on $XY$ and $B$ on $X'Y'$. If $AP=4$ cm and $BR=9$ cm, find the radius.",
+  "prompt": "$XY$ and $X'Y'$ are two parallel tangents to a circle with centre $O$. They touch the circle at $P$ and $R$. Another tangent $AB$ touches the circle at $C$. $A$ is on $XY$ and $B$ is on $X'Y'$. If $AP=4$ cm and $BR=9$ cm, find the radius.",
   "image": {
    "src": "/img/c10-ma-circles/parallel-ab.svg",
    "alt": "Two parallel tangents and a third tangent AB touching the circle at C"
@@ -803,7 +803,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "$PA$ and $PB$ are the two tangents from $P$. Tap the line segment that **bisects $\\angle APB$** (the centre lies on it).",
+  "prompt": "$PA$ and $PB$ are the two tangents from $P$. Tap the line segment that **bisects $\\angle APB$** (divides it into two equal angles). The centre lies on this segment.",
   "image": {
    "src": "/img/c10-ma-circles/ext-two-hs.svg",
    "alt": "Two tangents PA and PB from an outside point P, radii OA, OB and the line OP, with numbered markers"
@@ -909,7 +909,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Two tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$. If $PA=(3x+4)$ cm and $PB=(5x-6)$ cm, find the length $PA$.",
+  "prompt": "From a point $P$ outside a circle with centre $O$, two tangents $PA$ and $PB$ are drawn. If $PA=(3x+4)$ cm and $PB=(5x-6)$ cm, find the length $PA$.",
   "image": {
    "src": "/img/c10-ma-circles/ext-eq.svg",
    "alt": "Two tangents PA and PB from an external point P to a circle with centre O"
@@ -948,7 +948,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The tangents $PA$ and $PB$ from a point $P$ to a circle with centre $O$ are inclined to each other at $64^\\circ$. Find $\\angle POA$.",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from a point $P$ to a circle with centre $O$. The angle between them is $64^\\circ$. Find $\\angle POA$.",
   "image": {
    "src": "/img/c10-ma-circles/apb64.svg",
    "alt": "Tangents PA and PB meeting at 64 degrees with radii OA and OB and line OP"
@@ -987,7 +987,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Two tangents $TP$ and $TQ$ are drawn from an external point $T$ to a circle with centre $O$, with $\\angle PTQ=70^\\circ$. Find $\\angle OPQ$.",
+  "prompt": "Two tangents $TP$ and $TQ$ are drawn from a point $T$ outside a circle with centre $O$. $\\angle PTQ=70^\\circ$. Find $\\angle OPQ$.",
   "image": {
    "src": "/img/c10-ma-circles/ext-ptq70.svg",
    "alt": "Tangents TP and TQ meeting at 70 degrees with the chord PQ and radii"
@@ -1026,7 +1026,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle with centre $O$, and $\\angle OAB=25^\\circ$. Find $\\angle APB$.",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle with centre $O$. Also, $\\angle OAB=25^\\circ$. Find $\\angle APB$.",
   "image": {
    "src": "/img/c10-ma-circles/oab25.svg",
    "alt": "Tangents PA and PB with the chord AB, angle OAB equal to 25 degrees"
@@ -1065,7 +1065,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "match",
-  "prompt": "The tangents $PA$ and $PB$ from $P$ meet at the angle $\\angle APB$. Match each with the angle $\\angle AOB$ subtended at the centre $O$ by the chord $AB$.",
+  "prompt": "The tangents $PA$ and $PB$ from $P$ make the angle $\\angle APB$. The chord $AB$ makes the angle $\\angle AOB$ at the centre $O$. Match each $\\angle APB$ with its $\\angle AOB$.",
   "image": {
    "src": "/img/c10-ma-circles/apb-aob.svg",
    "alt": "Tangents PA and PB with angles x at P and y at O"
@@ -1179,7 +1179,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps of the proof that **the lengths of tangents drawn from an external point to a circle are equal** ($PQ$ and $PR$ are the tangents from $P$).",
+  "prompt": "$PQ$ and $PR$ are the tangents from a point $P$ outside a circle. Arrange the steps to prove that **the lengths of tangents drawn from an external point to a circle are equal**.",
   "image": {
    "src": "/img/c10-ma-circles/thm102.svg",
    "alt": "Tangents PQ and PR from P with radii OQ and OR, line OP and right angle marks"
@@ -1230,7 +1230,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "match",
-  "prompt": "In the proof of Theorem 10.2, match each statement with the reason that justifies it.",
+  "prompt": "This is the proof of Theorem 10.2. Match each statement with the reason for it.",
   "image": {
    "src": "/img/c10-ma-circles/thm102b.svg",
    "alt": "Tangents PQ and PR from P with equal radii OQ and OR marked and the common side OP"
@@ -1292,7 +1292,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "order",
-  "prompt": "Arrange the steps that prove $\\angle PTQ=2\\angle OPQ$ for the tangents $TP$ and $TQ$ from $T$.",
+  "prompt": "$TP$ and $TQ$ are the tangents from $T$. Arrange the steps that prove $\\angle PTQ=2\\angle OPQ$.",
   "image": {
    "src": "/img/c10-ma-circles/ex2.svg",
    "alt": "Tangents TP and TQ with the chord PQ and the angle at T marked theta"
@@ -1343,7 +1343,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "$PQ$ is a chord of length $12$ cm of a circle of radius $10$ cm. The tangents at $P$ and $Q$ meet at $T$. Find the length $TP$.",
+  "prompt": "A circle has radius $10$ cm. $PQ$ is a chord of this circle, of length $12$ cm. The tangents at $P$ and $Q$ meet at $T$. Find the length $TP$.",
   "image": {
    "src": "/img/c10-ma-circles/chord-tt.svg",
    "alt": "Circle of radius 10 with chord PQ of length 12 and tangents at P and Q meeting at T"
@@ -1382,7 +1382,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "order",
-  "prompt": "Arrange the steps for finding $TP$ when $PQ=12$ cm is a chord of a circle of radius $10$ cm and the tangents at $P$ and $Q$ meet at $T$.",
+  "prompt": "A circle has radius $10$ cm, and $PQ=12$ cm is a chord. The tangents at $P$ and $Q$ meet at $T$. Arrange the steps for finding $TP$.",
   "image": {
    "src": "/img/c10-ma-circles/chord-tt.svg",
    "alt": "Circle of radius 10 with chord PQ of length 12 and tangents at P and Q meeting at T"
@@ -1433,7 +1433,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "From a point $P$ at $25$ cm from the centre $O$ of a circle of radius $15$ cm, two tangents $PA$ and $PB$ are drawn. Find the length of the chord $AB$ joining the points of contact.",
+  "prompt": "A circle has centre $O$ and radius $15$ cm. A point $P$ is $25$ cm from $O$. Two tangents $PA$ and $PB$ are drawn from $P$. Find the length of the chord $AB$ that joins the points of contact.",
   "image": {
    "src": "/img/c10-ma-circles/chord-contact.svg",
    "alt": "Point P at 25 cm from O with tangents PA, PB and chord AB of a circle of radius 15 cm"
@@ -1472,7 +1472,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Two concentric circles have radii $17$ cm and $8$ cm. Find the length of the chord of the larger circle that touches the smaller circle.",
+  "prompt": "Two concentric circles (circles with the same centre) have radii $17$ cm and $8$ cm. A chord of the larger circle touches the smaller circle. Find the length of this chord.",
   "image": {
    "src": "/img/c10-ma-circles/concentric.svg",
    "alt": "Two concentric circles of radii 17 and 8 with a chord AB of the larger circle touching the smaller circle at P"
@@ -1564,7 +1564,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "multi",
-  "prompt": "A chord $AB$ of the larger of two concentric circles with centre $O$ touches the smaller circle at $P$. Select **all** the true statements.",
+  "prompt": "Two concentric circles have centre $O$. A chord $AB$ of the larger circle touches the smaller circle at $P$. Select **all** the true statements.",
   "image": {
    "src": "/img/c10-ma-circles/conc-hs.svg",
    "alt": "Two concentric circles with a chord AB of the larger circle touching the smaller one"
@@ -1616,7 +1616,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A circular park has a radius of $20$ m. A straight path starts at a gate $G$, which is $29$ m from the centre of the park, and just touches the park boundary at $T$. How long is the path $GT$?",
+  "prompt": "A circular park has a radius of $20$ m. A gate $G$ is $29$ m from the centre of the park. A straight path starts at $G$ and just touches the park boundary at $T$. How long is the path $GT$?",
   "image": {
    "src": "/img/c10-ma-circles/park.svg",
    "alt": "Top view of a circular park with a gate G outside and a straight path from G touching the boundary at T"
@@ -1655,7 +1655,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "The centre $O$ of a circle of radius $r$ is at distance $d$ from an external point $Q$. $QP$ touches the circle at $P$. Arrange the steps to find $QP$.",
+  "prompt": "A circle has centre $O$ and radius $r$. A point $Q$ outside the circle is at distance $d$ from $O$. $QP$ touches the circle at $P$. Arrange the steps to find $QP$.",
   "image": {
    "src": "/img/c10-ma-circles/tan-oq.svg",
    "alt": "Circle with centre O, external point Q and tangent QP with radius OP"
@@ -1706,7 +1706,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A circle is inscribed in $\\triangle ABC$, touching $BC$ at $D$, $CA$ at $E$ and $AB$ at $F$. If $BD=9$ cm, $DC=5$ cm and $AB=17$ cm, find $AC$.",
+  "prompt": "A circle is inscribed in $\\triangle ABC$ (drawn inside it, touching all three sides). It touches $BC$ at $D$, $CA$ at $E$ and $AB$ at $F$. If $BD=9$ cm, $DC=5$ cm and $AB=17$ cm, find $AC$.",
   "image": {
    "src": "/img/c10-ma-circles/tri-incircle.svg",
    "alt": "Triangle ABC with its inscribed circle touching BC at D, CA at E and AB at F"
@@ -1792,7 +1792,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A quadrilateral $ABCD$ is drawn to circumscribe a circle. If $AB=10$ cm, $BC=15$ cm and $CD=15$ cm, find $AD$.",
+  "prompt": "A quadrilateral $ABCD$ is drawn around a circle so that all four sides touch the circle (it circumscribes the circle). If $AB=10$ cm, $BC=15$ cm and $CD=15$ cm, find $AD$.",
   "image": {
    "src": "/img/c10-ma-circles/kite.svg",
    "alt": "A kite ABCD whose four sides touch a circle with centre O"
@@ -1884,7 +1884,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "multi",
-  "prompt": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$. Select **all** the true statements.",
+  "prompt": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$ (all four sides touch the circle). Select **all** the true statements.",
   "image": {
    "src": "/img/c10-ma-circles/quad-multi.svg",
    "alt": "A quadrilateral ABCD whose sides all touch a circle with centre O"
@@ -1931,7 +1931,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A parallelogram $ABCD$ circumscribes a circle and $AB=7$ cm. Find the perimeter of $ABCD$.",
+  "prompt": "A parallelogram $ABCD$ circumscribes a circle (all four sides touch the circle). $AB=7$ cm. Find the perimeter of $ABCD$.",
   "image": {
    "src": "/img/c10-ma-circles/rhombus.svg",
    "alt": "A parallelogram ABCD around a circle which turns out to be a rhombus"
@@ -1970,7 +1970,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$ and $\\angle AOB=105^\\circ$. Find $\\angle COD$.",
+  "prompt": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$ (all four sides touch the circle). $\\angle AOB=105^\\circ$. Find $\\angle COD$.",
   "image": {
    "src": "/img/c10-ma-circles/quad-cod.svg",
    "alt": "A quadrilateral ABCD around a circle with angle AOB equal to 105 degrees"
@@ -2009,7 +2009,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle. A third tangent touches the circle at $C$ on the minor arc $AB$ and meets $PA$ at $D$ and $PB$ at $E$. If $PA=11$ cm, find the perimeter of $\\triangle PDE$.",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle. A third tangent touches the circle at $C$, on the minor arc $AB$. This tangent meets $PA$ at $D$ and $PB$ at $E$. If $PA=11$ cm, find the perimeter of $\\triangle PDE$.",
   "image": {
    "src": "/img/c10-ma-circles/third-tangent.svg",
    "alt": "Tangents PA and PB and a third tangent DE touching the circle at C"
@@ -2048,7 +2048,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A circle is inscribed in a right triangle $ABC$ with the right angle at $B$, $AB=6$ cm and $BC=8$ cm. Find the radius of the circle.",
+  "prompt": "A circle is inscribed in a right triangle $ABC$ (drawn inside it, touching all three sides). The right angle is at $B$, $AB=6$ cm and $BC=8$ cm. Find the radius of the circle.",
   "image": {
    "src": "/img/c10-ma-circles/rt-incircle.svg",
    "alt": "A right triangle ABC with a circle inscribed touching all three sides"
@@ -2087,7 +2087,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle and they are inclined at $60^\\circ$. Which kind of triangle is $\\triangle PAB$?",
+  "prompt": "Tangents $PA$ and $PB$ are drawn from $P$ to a circle. The angle between them is $60^\\circ$. What kind of triangle is $\\triangle PAB$?",
   "image": {
    "src": "/img/c10-ma-circles/apb-aob.svg",
    "alt": "Tangents PA and PB meeting at 60 degrees at P"

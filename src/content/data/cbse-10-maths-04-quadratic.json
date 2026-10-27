@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The prayer hall in this chapter leads to the equation shown on the card. Tap the term that contains the **highest power** of $x$.",
+    "prompt": "The prayer hall problem in this chapter gives the equation shown on the card. Tap the term that has the **highest power** of $x$.",
     "image": {
       "src": "/img/c10-ma-quadratic/eqcard.svg",
       "alt": "A card showing the equation 2x squared plus x minus 300 equals 0"
@@ -58,7 +58,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the equation $ax^2+bx+c=0$, which condition on the real numbers $a$, $b$, $c$ must hold for it to be a quadratic equation?",
+    "prompt": "In the equation $ax^2+bx+c=0$, $a$, $b$ and $c$ are real numbers. Which condition must be true for it to be a quadratic equation?",
     "image": {
       "src": "/img/c10-ma-quadratic/flatten.svg",
       "alt": "A parabola flattening into a straight line as a tends to zero"
@@ -97,7 +97,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Simplify before you decide. Which one of these is a **quadratic equation**?",
+    "prompt": "First simplify, then decide. Which one of these is a **quadratic equation**?",
     "image": {
       "src": "/img/c10-ma-quadratic/degree-ladder.svg",
       "alt": "A straight line, a parabola and a cubic curve"
@@ -136,7 +136,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Rohan's mother is 26 years older than him. The product of their ages (in years) 3 years from now will be 360. If Rohan's present age is $x$ years, which quadratic equation represents this?",
+    "prompt": "Rohan's mother is 26 years older than him. 3 years from now, the product of their ages (in years) will be 360. Let Rohan's present age be $x$ years. Which quadratic equation shows this?",
     "image": {
       "src": "/img/c10-ma-quadratic/ages-rohan.svg",
       "alt": "Bars showing Rohan and his mother now and three years later"
@@ -175,7 +175,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "In the prayer hall the breadth is $x$ m and the length is one metre more than twice the breadth. Tap the side of the plan that has length $(2x+1)$ m.",
+    "prompt": "In the prayer hall, the breadth is $x$ m. The length is one metre more than twice the breadth. Tap the side of the plan that has length $(2x+1)$ m.",
     "image": {
       "src": "/img/c10-ma-quadratic/hall.svg",
       "alt": "Floor plan of a rectangular hall with the breadth marked x metres"
@@ -222,7 +222,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A number is a **root** of $x^2-5x-14=0$ if putting it in for $x$ makes the left-hand side $0$. Which of these is a root?",
+    "prompt": "A number is a **root** of $x^2-5x-14=0$ if putting it in place of $x$ makes the left-hand side $0$. Which of these is a root?",
     "image": {
       "src": "/img/c10-ma-quadratic/root-machine.svg",
       "alt": "A machine turning an input x into p of x; output zero means x is a root"
@@ -533,7 +533,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "The graph of $y=x^2-6x+9$ gives the equation $x^2-6x+9=0$. Tap the point where the curve **touches the x-axis**, showing the repeated root.",
+    "prompt": "The graph of $y=x^2-6x+9$ is for the equation $x^2-6x+9=0$. Tap the point where the curve **touches the x-axis**. This point shows the repeated root.",
     "image": {
       "src": "/img/c10-ma-quadratic/touch.svg",
       "alt": "Graph of the parabola y equals x squared minus 6x plus 9"
@@ -580,7 +580,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Two numbers add up to 27 and their product is 182. Which pair are they?",
+    "prompt": "Two numbers add up to 27. Their product is 182. Which pair are they?",
     "image": {
       "src": "/img/c10-ma-quadratic/two-numbers.svg",
       "alt": "A bar of total 27 split into two parts that slide"
@@ -619,7 +619,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A train travels 480 km at a uniform speed. If its speed had been 8 km/h less, it would have taken 3 hours more for the same journey. What is the usual speed of the train?",
+    "prompt": "A train travels 480 km at a uniform (constant) speed. If its speed were 8 km/h less, it would take 3 hours more for the same journey. What is the usual speed of the train?",
     "image": {
       "src": "/img/c10-ma-quadratic/train-road.svg",
       "alt": "Two trains travelling the same 480 km at different speeds"
@@ -658,7 +658,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "The bars show the time for the same 480 km journey at two speeds. Tap the part that represents the **extra 3 hours** taken at the lower speed.",
+    "prompt": "The bars show the time taken for the same 480 km journey at two speeds. Tap the part that shows the **extra 3 hours** taken at the lower speed.",
     "image": {
       "src": "/img/c10-ma-quadratic/train-bars.svg",
       "alt": "Two bars showing journey times at two speeds; the slower bar is longer"
@@ -711,7 +711,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "John and Jivanti together have 40 marbles. Each loses 3 marbles, and the product of the numbers they have left is 189. How many marbles did the one who had **more** start with?",
+    "prompt": "John and Jivanti together have 40 marbles. Each of them loses 3 marbles. The product of the numbers of marbles they have left is 189. How many marbles did the one who had **more** have at the start?",
     "image": {
       "src": "/img/c10-ma-quadratic/marble-jars.svg",
       "alt": "Two jars of marbles with three marbles leaving each"
@@ -795,7 +795,7 @@
       "alt": "A horizontal line sweeping down across a parabola"
     },
     "assertion": "A quadratic equation cannot have more than two roots.",
-    "reason": "The graph of a quadratic polynomial can meet the x-axis in at most two points, and these points give the roots.",
+    "reason": "The graph of a quadratic polynomial can meet the x-axis at two points at most. These points give the roots.",
     "answer": "a",
     "hint": "Roots are the x-coordinates where the parabola meets the x-axis.",
     "explanation": "Both are true and R explains A. The roots of $ax^2+bx+c=0$ are the zeroes of the polynomial, i.e. where its parabola meets the x-axis, and a parabola meets any straight line (including the x-axis) in at most two points. That is why there can never be three roots."
@@ -818,7 +818,7 @@
       "alt": "A balance with an x squared block on each pan"
     },
     "assertion": "The equation $x(x+3)+5=(x+1)(x-1)$ is not a quadratic equation.",
-    "reason": "On simplifying, the $x^2$ terms on both sides cancel and the equation becomes $3x+6=0$.",
+    "reason": "When we simplify, the $x^2$ terms on both sides cancel. The equation becomes $3x+6=0$.",
     "answer": "a",
     "hint": "Expand both sides first.",
     "explanation": "Both are true and R explains A. $x(x+3)+5=x^2+3x+5$ and $(x+1)(x-1)=x^2-1$. Subtracting, the $x^2$ terms cancel leaving $3x+6=0$, a **linear** equation. An equation must be simplified before deciding its type; having $x^2$ in the original does not make it quadratic."
@@ -1049,7 +1049,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the quadratic formula for $ax^2+bx+c=0$, the expression under the square root decides whether real roots exist. What is the **discriminant**?",
+    "prompt": "In the quadratic formula for $ax^2+bx+c=0$, the expression under the square root tells us whether real roots exist. What is the **discriminant**?",
     "image": {
       "src": "/img/c10-ma-quadratic/formula-blank.svg",
       "alt": "The quadratic formula with the expression under the root sign hidden"
@@ -1088,7 +1088,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "Four graphs of quadratic polynomials are drawn with the x-axis. Tap the panel whose polynomial, set equal to $0$, has **no real roots**.",
+    "prompt": "Four graphs of quadratic polynomials are drawn with the x-axis. Each polynomial is set equal to $0$. Tap the panel whose equation has **no real roots**.",
     "image": {
       "src": "/img/c10-ma-quadratic/panels.svg",
       "alt": "Four parabolas labelled P, Q, R and S drawn with the x-axis"
@@ -1245,7 +1245,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The length of a rectangular plot is 7 m more than its breadth and its area is $120\\ \\text{m}^2$. Which rectangle (drawn to scale) is the plot?",
+    "prompt": "The length of a rectangular plot is 7 m more than its breadth. Its area is $120\\ \\text{m}^2$. Which rectangle (drawn to scale) is the plot?",
     "image": {
       "src": "/img/c10-ma-quadratic/rect-stem.svg",
       "alt": "A rectangular plot with breadth x and length x plus 7"
@@ -1300,7 +1300,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "In a right triangle the altitude is 7 cm less than the base and the hypotenuse is 13 cm. Which triangle (legs drawn to scale) matches?",
+    "prompt": "In a right triangle, the altitude is 7 cm less than the base. The hypotenuse is 13 cm. Which triangle (with the two shorter sides drawn to scale) matches?",
     "image": {
       "src": "/img/c10-ma-quadratic/tri-stem.svg",
       "alt": "A right-angled triangle with hypotenuse 13 cm"
@@ -1355,7 +1355,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "A and B are gates at the ends of a diameter of a circular park, and P is a pole on its boundary. Tap the **hypotenuse** of the right triangle APB.",
+    "prompt": "A circular park has two gates, A and B, at the two ends of a diameter. P is a pole on the boundary of the park. Tap the **hypotenuse** of the right triangle APB.",
     "image": {
       "src": "/img/c10-ma-quadratic/park-ab.svg",
       "alt": "A circular park with gates A and B at the ends of a diameter and a pole P on the boundary"
@@ -1461,7 +1461,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A pole has to be erected at a point P on the boundary of a circular park of diameter 25 m so that the difference of its distances from two diametrically opposite gates A and B is 5 m. How far is the pole from the **nearer** gate?",
+    "prompt": "A circular park has a diameter of 25 m. Gates A and B are at the two ends of a diameter. A pole has to be put up at a point P on the boundary of the park. The difference of its distances from A and B must be 5 m. How far is the pole from the **nearer** gate?",
     "image": {
       "src": "/img/c10-ma-quadratic/park-25.svg",
       "alt": "A circular park with a diameter of 25 metres, gates A and B and a pole P on the boundary"
@@ -1500,7 +1500,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The altitude of a right triangle is 7 cm less than its base and the hypotenuse is 13 cm. Tap the **hypotenuse**.",
+    "prompt": "The altitude of a right triangle is 7 cm less than its base. The hypotenuse is 13 cm. Tap the **hypotenuse**.",
     "image": {
       "src": "/img/c10-ma-quadratic/rt-tri.svg",
       "alt": "A right-angled triangle with the right angle at the bottom-left corner"
@@ -1547,7 +1547,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Is it possible to design a rectangular park of perimeter 60 m and area $250\\ \\text{m}^2$?",
+    "prompt": "Is it possible to make a rectangular park with perimeter 60 m and area $250\\ \\text{m}^2$?",
     "image": {
       "src": "/img/c10-ma-quadratic/perim-area.svg",
       "alt": "Graph of area against breadth for rectangles of perimeter 60 metres with a dashed line at 250"
@@ -1664,7 +1664,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Using the quadratic formula, the roots of $3x^2-6x+2=0$ are",
+    "prompt": "Use the quadratic formula. What are the roots of $3x^2-6x+2=0$?",
     "image": {
       "src": "/img/c10-ma-quadratic/formula-full.svg",
       "alt": "The quadratic formula x equals minus b plus or minus the square root of b squared minus 4ac, all over 2a"
@@ -1703,7 +1703,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps used to decide the nature of the roots of a quadratic equation.",
+    "prompt": "Arrange the steps used to find the nature of the roots (what kind of roots they are) of a quadratic equation.",
     "image": {
       "src": "/img/c10-ma-quadratic/disc-meter.svg",
       "alt": "A number line for the discriminant with three zones: negative, zero and positive"
@@ -1805,7 +1805,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "order",
-    "prompt": "A pole P stands on the boundary of a circular park of diameter 17 m, and its distances from the opposite gates A and B differ by 7 m. Arrange the steps of the solution.",
+    "prompt": "A pole P stands on the boundary of a circular park of diameter 17 m. Its distances from the opposite gates A and B differ by 7 m. Arrange the steps of the solution.",
     "image": {
       "src": "/img/c10-ma-quadratic/park-ab.svg",
       "alt": "A circular park with gates A and B at the ends of a diameter and a pole P on the boundary"
@@ -1856,7 +1856,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "For the graph of $y=ax^2+bx+c$ and the discriminant $D=b^2-4ac$, select **all** the true statements.",
+    "prompt": "Think about the graph of $y=ax^2+bx+c$ and the discriminant $D=b^2-4ac$. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-quadratic/panels.svg",
       "alt": "Four parabolas labelled P, Q, R and S drawn with the x-axis"
@@ -2214,7 +2214,7 @@
       "src": "/img/c10-ma-quadratic/above-axis.svg",
       "alt": "Graph of y equals x squared plus 4x plus 7 lying wholly above the x-axis"
     },
-    "assertion": "The equation $x^2+4x+7=0$ has two distinct real roots.",
+    "assertion": "The equation $x^2+4x+7=0$ has two distinct (different) real roots.",
     "reason": "Its discriminant is $4^2-4(1)(7)=-12$, which is negative.",
     "answer": "d",
     "hint": "Work out $b^2-4ac$ and compare with the picture.",

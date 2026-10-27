@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A student looks at the top of a tower and a right triangle can be imagined between the student, the foot of the tower and its top. The branch of mathematics that lets us find the height **without measuring it** is called trigonometry. The word comes from the Greek words *tri*, *gon* and *metron*. What do they mean?",
+    "prompt": "A student looks at the top of a tower. We can imagine a right triangle between the student, the foot of the tower and its top. The branch of mathematics that lets us find the height **without measuring it** is called trigonometry. The word comes from the Greek words *tri*, *gon* and *metron*. What do they mean?",
     "image": {
       "src": "/img/c10-ma-trigonometry/scene-tower.svg",
       "alt": "A student, a tower and the line of sight forming a right triangle"
@@ -356,7 +356,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In the right triangle $ABC$ (right-angled at B), $AB = 9$ cm, $BC = 12$ cm and $AC = 15$ cm. A point $P$ lies on $AC$ with $AP = 10$ cm, and $PM \\perp AB$ meets $AB$ at $M$. Find $PM$.",
+    "prompt": "In the right triangle $ABC$ (right-angled at B), $AB = 9$ cm, $BC = 12$ cm and $AC = 15$ cm. A point $P$ lies on $AC$ with $AP = 10$ cm. A line $PM$ is drawn from $P$ with $PM \\perp AB$, and it meets $AB$ at $M$. Find $PM$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/sim-tri.svg",
       "alt": "Right triangle ABC with a smaller similar triangle APM inside it and AP = 10"
@@ -448,7 +448,7 @@
       "alt": "Three nested right triangles with a common vertex A"
     },
     "assertion": "In a right triangle, the value of $\\sin A$ depends only on the angle $A$ and not on the size of the triangle.",
-    "reason": "Right triangles with the same acute angle are similar (AA criterion), so ratios of corresponding sides are equal.",
+    "reason": "Right triangles with the same acute angle are similar (AA criterion). So the ratios of their corresponding sides are equal.",
     "answer": "a",
     "hint": "Compare $BC/AC$, $PM/AP$ and $QN/AQ$ in the picture.",
     "explanation": "Both statements are true and R explains A. Triangles $PAM$, $CAB$ and $QAN$ are similar by AA, so $\\dfrac{PM}{AP}=\\dfrac{BC}{AC}=\\dfrac{QN}{AQ}$. The ratio therefore stays the same however large the triangle is drawn; it depends only on $\\angle A$."
@@ -543,7 +543,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Given $\\tan A = \\dfrac43$, arrange the steps for finding **all** the trigonometric ratios of $A$.",
+    "prompt": "It is given that $\\tan A = \\dfrac43$. Arrange the steps to find **all** the trigonometric ratios of $A$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/tri-34.svg",
       "alt": "Right triangle ABC with AB = 3k and BC = 4k"
@@ -594,7 +594,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A ladder leans against a wall. Tap the side that is **adjacent** to the angle the ladder makes with the ground.",
+    "prompt": "A ladder leans against a wall. Tap the side that is **adjacent** to (next to) the angle that the ladder makes with the ground.",
     "image": {
       "src": "/img/c10-ma-trigonometry/ladder.svg",
       "alt": "A ladder leaning on a wall with the angle at the ground marked"
@@ -647,7 +647,7 @@
       "alt": "A number line showing the possible values of sin A, cos A, sec A and cosec A with a cross at 4/3"
     },
     "assertion": "There is no acute angle $\\theta$ for which $\\sin\\theta = \\dfrac43$.",
-    "reason": "In a right triangle the hypotenuse is the longest side, so $\\sin\\theta$ can never exceed $1$.",
+    "reason": "In a right triangle, the hypotenuse is the longest side. So $\\sin\\theta$ can never be more than $1$.",
     "answer": "a",
     "hint": "What is the largest value of $\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$?",
     "explanation": "Both are true and R explains A. $\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ and the hypotenuse is the longest side, so $\\sin\\theta\\le1$ (and likewise $\\cos\\theta\\le1$). A value like $\\dfrac43$ is not possible, whereas $\\sec\\theta$ and $\\operatorname{cosec}\\theta$ are always $\\ge1$."
@@ -703,7 +703,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "match",
-    "prompt": "In $\\triangle ABC$, right-angled at B, let $\\angle A = x$, so $\\angle C = 90^\\circ - x$. Match each ratio of $x$ with the equal ratio of $90^\\circ - x$.",
+    "prompt": "In $\\triangle ABC$, right-angled at B, let $\\angle A = x$. Then $\\angle C = 90^\\circ - x$. Match each ratio of $x$ with the equal ratio of $90^\\circ - x$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/comp-tri.svg",
       "alt": "Right triangle ABC whose acute angles are x and 90 degrees minus x"
@@ -851,7 +851,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "$\\triangle ABC$ is equilateral with each side $10$ cm, and $AD\\perp BC$ with $D$ on $BC$. Find $AD$.",
+    "prompt": "$\\triangle ABC$ is equilateral, with each side $10$ cm. $AD\\perp BC$, with $D$ on $BC$. Find $AD$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/equi-10.svg",
       "alt": "Equilateral triangle ABC of side 10 cm with altitude AD"
@@ -890,7 +890,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "$AD$ splits the equilateral triangle $ABC$ into two right triangles. In $\\triangle ABD$, tap the side **opposite to the $30^\\circ$ angle**.",
+    "prompt": "$AD$ divides the equilateral triangle $ABC$ into two right triangles. In $\\triangle ABD$, tap the side **opposite to the $30^\\circ$ angle**.",
     "image": {
       "src": "/img/c10-ma-trigonometry/equi-hs.svg",
       "alt": "Equilateral triangle ABC with altitude AD, angle BAD marked 30 degrees and angle ABD marked 60 degrees"
@@ -1021,7 +1021,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Evaluate $\\tan^2 60^\\circ + 4\\cos^2 45^\\circ + 3\\sec^2 30^\\circ$.",
+    "prompt": "Find the value of $\\tan^2 60^\\circ + 4\\cos^2 45^\\circ + 3\\sec^2 30^\\circ$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/setsq.svg",
       "alt": "A 45-45-90 set square with sides 1, 1, root 2 and a 30-60-90 set square with sides 1, root 3, 2"
@@ -1283,7 +1283,7 @@
       "alt": "A very tall right triangle whose angle A is close to 90 degrees"
     },
     "assertion": "$\\tan 90^\\circ$ is not defined.",
-    "reason": "$\\tan A = \\dfrac{\\sin A}{\\cos A}$ and $\\cos 90^\\circ = 0$, so the ratio would need division by zero.",
+    "reason": "$\\tan A = \\dfrac{\\sin A}{\\cos A}$ and $\\cos 90^\\circ = 0$. So the ratio would need division by zero.",
     "answer": "a",
     "hint": "What happens to $AB$ as $A$ gets close to $90^\\circ$?",
     "explanation": "Both are true and R explains A. $\\tan90^\\circ=\\dfrac{\\sin90^\\circ}{\\cos90^\\circ}=\\dfrac10$, which has no value. In the picture, as $A\\to90^\\circ$ the side $AB$ shrinks to $0$ while $BC$ stays, so $\\tan A=\\dfrac{BC}{AB}$ grows without limit."
@@ -1351,7 +1351,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each condition with the angle $\\theta$ ($0^\\circ\\le\\theta\\le90^\\circ$) that satisfies it.",
+    "prompt": "Match each condition with the angle $\\theta$ ($0^\\circ\\le\\theta\\le90^\\circ$) that makes it true.",
     "image": {
       "src": "/img/c10-ma-trigonometry/fan.svg",
       "alt": "A quarter circle with rays at 0, 30, 45, 60 and 90 degrees"
@@ -1422,7 +1422,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "If $\\sin(A+B)=1$ and $\\cos(A-B)=\\dfrac{\\sqrt3}{2}$, with $0^\\circ<A+B\\le90^\\circ$ and $A>B$, find $A$ and $B$.",
+    "prompt": "$\\sin(A+B)=1$ and $\\cos(A-B)=\\dfrac{\\sqrt3}{2}$. Here $0^\\circ<A+B\\le90^\\circ$ and $A>B$. Find $A$ and $B$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/ab-fan.svg",
       "alt": "A quarter circle with two rays making unknown angles A and B with the base line"
@@ -1535,7 +1535,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "In a right triangle with $\\angle A=\\angle C=45^\\circ$ and equal sides $AB=BC=a$, select **all** the true statements.",
+    "prompt": "A right triangle has $\\angle A=\\angle C=45^\\circ$ and equal sides $AB=BC=a$. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-trigonometry/tri45-ratios.svg",
       "alt": "Right isosceles triangle with legs a and hypotenuse a root 2"
@@ -1681,7 +1681,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "multi",
-    "prompt": "As $A$ increases from $0^\\circ$ to $90^\\circ$, select **all** the true statements.",
+    "prompt": "$A$ increases from $0^\\circ$ to $90^\\circ$. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-trigonometry/trace.svg",
       "alt": "Graphs of sin A rising and cos A falling between 0 and 90 degrees, crossing at 45 degrees"
@@ -1783,7 +1783,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "match",
-    "prompt": "In $\\triangle ABC$, right-angled at B, start from $AB^2+BC^2=AC^2$. Match each division with the identity it produces.",
+    "prompt": "In $\\triangle ABC$, right-angled at B, start from $AB^2+BC^2=AC^2$. Match each division with the identity it gives.",
     "image": {
       "src": "/img/c10-ma-trigonometry/pyth-sq.svg",
       "alt": "Right triangle ABC with the three ways of dividing the Pythagoras relation"
@@ -1892,7 +1892,7 @@
       "src": "/img/c10-ma-trigonometry/sec-tri.svg",
       "alt": "Right triangle with adjacent side 1, opposite tan A and hypotenuse sec A"
     },
-    "assertion": "The identity $1+\\tan^2A=\\sec^2A$ is true for $A=0^\\circ$ but is meaningless for $A=90^\\circ$.",
+    "assertion": "The identity $1+\\tan^2A=\\sec^2A$ is true for $A=0^\\circ$ but has no meaning for $A=90^\\circ$.",
     "reason": "$\\tan90^\\circ$ and $\\sec90^\\circ$ are not defined.",
     "answer": "a",
     "hint": "Put $A=0^\\circ$ and then $A=90^\\circ$ into both sides.",
@@ -1988,7 +1988,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "If $\\cot\\theta=\\dfrac35$, evaluate $\\dfrac{(1+\\sin\\theta)(1-\\sin\\theta)}{(1+\\cos\\theta)(1-\\cos\\theta)}$.",
+    "prompt": "If $\\cot\\theta=\\dfrac35$, find the value of $\\dfrac{(1+\\sin\\theta)(1-\\sin\\theta)}{(1+\\cos\\theta)(1-\\cos\\theta)}$.",
     "image": {
       "src": "/img/c10-ma-trigonometry/cot-tri2.svg",
       "alt": "Right triangle with adjacent side 3k and opposite side 5k"

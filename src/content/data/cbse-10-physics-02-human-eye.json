@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Most of the refraction of light entering the eye takes place at its outer surface. Tap this transparent bulge at the front of the eyeball.",
+    "prompt": "Light enters the eye. Most of its refraction takes place at the outer surface of the eye. Tap this clear (transparent) bulge at the front of the eyeball.",
     "image": {
       "src": "/img/c10-eye/eye-anatomy.svg",
       "alt": "Cross-section of the human eye with light rays entering from the left"
@@ -103,7 +103,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the dark muscular diaphragm that controls the size of the pupil.",
+    "prompt": "Tap the dark muscular diaphragm (thin sheet of muscle) that controls the size of the pupil.",
     "image": {
       "src": "/img/c10-eye/eye-anatomy.svg",
       "alt": "Cross-section of the human eye with light rays entering from the left"
@@ -162,7 +162,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A student walks from bright sunlight into a dimly lit room. What happens to her pupil, and which part of the eye makes this happen?",
+    "prompt": "A student walks from bright sunlight into a room with dim light. What happens to her pupil? Which part of the eye makes this happen?",
     "image": {
       "src": "/img/c10-eye/iris-pupil.svg",
       "alt": "An eye in bright light with a small pupil, and an eye in dim light with its pupil size hidden"
@@ -272,7 +272,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put these steps in the order in which a picture of a tree is seen by the eye.",
+    "prompt": "How does the eye see a picture of a tree? Put these steps in order.",
     "image": {
       "src": "/img/c10-eye/eye-signal.svg",
       "alt": "Light from a tree entering an eye, and electrical signals travelling along the optic nerve to the brain"
@@ -381,8 +381,8 @@
       "src": "/img/c10-eye/eye-camera.svg",
       "alt": "A camera and a human eye each forming an inverted image"
     },
-    "assertion": "The image of an object formed on the retina is inverted, yet we see objects the right way up.",
-    "reason": "The brain interprets the signals from the retina and processes the information so that we perceive objects as they are.",
+    "assertion": "The image formed on the retina is inverted (upside down). Still, we see objects the right way up.",
+    "reason": "The brain interprets (makes sense of) the signals from the retina. So we see objects as they really are.",
     "answer": "a",
     "hint": "Where is the signal from the retina finally made sense of?",
     "explanation": "Both statements are true and R explains A. The eye lens forms an inverted real image on the retina, the retina sends **electrical signals** along the optic nerves, and the **brain** interprets them so that we perceive objects as they really are, upright."
@@ -446,7 +446,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "These muscles change the curvature of the eye lens and so change its focal length. Tap the **ciliary muscles**.",
+    "prompt": "These muscles change the curvature of the eye lens. In this way, they change its focal length. Tap the **ciliary muscles**.",
     "image": {
       "src": "/img/c10-eye/eye-anatomy.svg",
       "alt": "Cross-section of the human eye"
@@ -554,7 +554,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "You shift your gaze from a distant tree to a book held at reading distance. Arrange what happens in your eye.",
+    "prompt": "You stop looking at a distant tree and look at a book held at reading distance. Arrange, in order, what happens in your eye.",
     "image": {
       "src": "/img/c10-eye/accommodation.svg",
       "alt": "Eye lens thin for far objects and thick for near objects"
@@ -605,7 +605,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A young adult with normal vision can see objects clearly when they lie between",
+    "prompt": "A young adult with normal vision can see objects clearly when they are between",
     "image": {
       "src": "/img/c10-eye/near-far-points.svg",
       "alt": "A scale showing the near point N and the far point F of a normal eye"
@@ -644,7 +644,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Why is a normal eye unable to see a book clearly when it is held only 10 cm away?",
+    "prompt": "A book is held only 10 cm from a normal eye. Why can the eye not see it clearly?",
     "image": {
       "src": "/img/c10-eye/reading-close.svg",
       "alt": "An eye looking at a book held 10 cm away"
@@ -688,8 +688,8 @@
       "src": "/img/c10-eye/cataract.svg",
       "alt": "A normal eye beside an eye with a cloudy cataract lens"
     },
-    "assertion": "A person with cataract has partial or complete loss of vision.",
-    "reason": "In cataract the crystalline lens of the eye becomes milky and cloudy.",
+    "assertion": "A person with cataract loses vision partly or fully.",
+    "reason": "In cataract, the crystalline lens of the eye becomes milky and cloudy.",
     "answer": "a",
     "hint": "If the lens turns cloudy, how much light can reach the retina?",
     "explanation": "Both statements are true and R explains A. In old age the **crystalline lens** can become milky and cloudy, a condition called **cataract**. A cloudy lens blocks light, so vision is partly or completely lost. Vision can be restored by **cataract surgery**."
@@ -706,7 +706,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "This myopic eye looks at a distant tree. Tap the point where the **image of the tree** is formed.",
+    "prompt": "This myopic (short-sighted) eye looks at a distant tree. Tap the point where the **image of the tree** is formed.",
     "image": {
       "src": "/img/c10-eye/myopia.svg",
       "alt": "Eye whose rays from a distant object cross in front of the retina"
@@ -860,7 +860,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A person with a myopic eye cannot see objects beyond 1.2 m distinctly. Which kind of lens should the person use?",
+    "prompt": "A person with a myopic eye cannot see objects clearly beyond 1.2 m. Which kind of lens should the person use?",
     "image": {
       "src": "/img/c10-eye/myopia.svg",
       "alt": "Myopic eye whose rays from a distant object cross in front of the retina"
@@ -899,7 +899,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The far point of a myopic person is 80 cm in front of the eye. What is the power of the lens required to correct the problem?",
+    "prompt": "The far point of a myopic person is 80 cm in front of the eye. What is the power of the lens needed to correct the problem?",
     "image": {
       "src": "/img/c10-eye/power-calc.svg",
       "alt": "A myopic eye whose far point is 80 cm away, with an unknown spectacle lens in front"
@@ -938,7 +938,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A person needs a lens of power $-5.5\\ \\text{D}$ for correcting distant vision and $+1.5\\ \\text{D}$ for correcting near vision. What are the focal lengths of the two lenses?",
+    "prompt": "A person needs a lens of power $-5.5\\ \\text{D}$ to correct distant vision. The person also needs a lens of power $+1.5\\ \\text{D}$ to correct near vision. What are the focal lengths of the two lenses?",
     "image": {
       "src": "/img/c10-eye/spectacles-power.svg",
       "alt": "A concave lens of power -5.5 D and a convex lens of power +1.5 D"
@@ -977,7 +977,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The near point of a hypermetropic eye is 1 m. What is the power of the lens needed to read a book at 25 cm, the normal near point?",
+    "prompt": "The near point of a hypermetropic eye is 1 m. The person wants to read a book at 25 cm, the normal near point. What is the power of the lens needed?",
     "image": {
       "src": "/img/c10-eye/hyper-calc.svg",
       "alt": "A spectacle lens forming a virtual image at 1 m of a book held at 25 cm"
@@ -1016,7 +1016,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A boy sees distant objects clearly but must hold a book much farther than 25 cm to read it comfortably. Which spectacle lens corrects this?",
+    "prompt": "A boy sees distant objects clearly. But to read a book comfortably, he must hold it much farther than 25 cm. Which spectacle lens corrects this?",
     "image": {
       "src": "/img/c10-eye/hyper.svg",
       "alt": "Hypermetropic eye whose rays from a near object would focus behind the retina"
@@ -1133,7 +1133,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A student sitting in the last row has difficulty reading the blackboard, but reads her own notebook comfortably. What defect might she have, and how can it be corrected?",
+    "prompt": "A student sits in the last row. She cannot read the blackboard easily, but she reads her own notebook comfortably. What defect might she have, and how can it be corrected?",
     "image": {
       "src": "/img/c10-eye/blackboard.svg",
       "alt": "A classroom where the student in the last row cannot read the blurred blackboard"
@@ -1172,7 +1172,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A man in his sixties sees distant objects clearly, but he gradually finds it difficult to read a newspaper at the usual distance. What is this defect and what causes it?",
+    "prompt": "A man in his sixties sees distant objects clearly. But slowly, he finds it hard to read a newspaper at the usual distance. What is this defect, and what causes it?",
     "image": {
       "src": "/img/c10-eye/presbyopia.svg",
       "alt": "An older reader who must hold the book farther away"
@@ -1264,7 +1264,7 @@
       "alt": "A convex spectacle lens helping a hypermetropic eye focus on the retina"
     },
     "assertion": "A convex lens is used to correct hypermetropia.",
-    "reason": "A convex lens provides the additional focusing power required to form the image on the retina.",
+    "reason": "A convex lens gives the extra focusing power needed to form the image on the retina.",
     "answer": "a",
     "hint": "In hypermetropia the eye does not converge the light enough.",
     "explanation": "Both statements are true and R explains A. In hypermetropia the focal length of the eye lens is too long (or the eyeball too small), so the image would form behind the retina. Eye-glasses with **converging (convex) lenses** supply the **additional focusing power** needed to bring the image onto the retina."
@@ -1390,8 +1390,8 @@
       "src": "/img/c10-eye/slab-vs-prism.svg",
       "alt": "A glass slab giving a parallel emergent ray and a prism bending the ray towards its base"
     },
-    "assertion": "The emergent ray from a rectangular glass slab is parallel to the incident ray, but the emergent ray from a triangular prism is not.",
-    "reason": "The refracting surfaces of a slab are parallel to each other, whereas the refracting surfaces of a prism are inclined to each other.",
+    "assertion": "The emergent ray from a rectangular glass slab is parallel to the incident ray. The emergent ray from a triangular prism is not.",
+    "reason": "The refracting surfaces of a slab are parallel to each other. The refracting surfaces of a prism are inclined (at an angle) to each other.",
     "answer": "a",
     "hint": "Compare the two faces of a slab with the two faces of a prism.",
     "explanation": "Both are true and R explains A. In a slab the second surface undoes the bend of the first, so the emergent ray is parallel to the incident ray (just shifted sideways). In a prism the two faces are **inclined**, so both bends add up in the same sense and the ray is turned through the **angle of deviation**."
@@ -1516,7 +1516,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Isaac Newton placed a second identical prism upside down next to the first one so that all the colours of the spectrum passed through it. What did he observe?",
+    "prompt": "Isaac Newton placed a second identical prism upside down next to the first one. All the colours of the spectrum passed through this second prism. What did he observe?",
     "image": {
       "src": "/img/c10-eye/newton-prism.svg",
       "alt": "Two prisms, the second inverted, turning the spectrum back into a white beam"
@@ -1606,7 +1606,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "On a rainy morning the Sun is in the east. In which direction should you look to see a rainbow?",
+    "prompt": "It is a rainy morning, and the Sun is in the east. In which direction should you look to see a rainbow?",
     "image": {
       "src": "/img/c10-eye/rainbow-sky.svg",
       "alt": "A rainbow in front of an observer with the Sun behind"
@@ -1796,7 +1796,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Objects seen through the hot air rising above a fire appear to waver. What is the reason?",
+    "prompt": "Objects are seen through the hot air rising above a fire. They seem to waver (shake slightly). What is the reason?",
     "image": {
       "src": "/img/c10-eye/hot-air.svg",
       "alt": "Light from an object wavering as it passes through the hot air above a flame"
@@ -1972,7 +1972,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "At sunrise, atmospheric refraction raises the Sun's apparent position. Tap where the Sun **appears** to be.",
+    "prompt": "At sunrise, atmospheric refraction makes the Sun appear higher than it really is. Tap where the Sun **appears** to be.",
     "image": {
       "src": "/img/c10-eye/sunrise.svg",
       "alt": "The Sun seen above the horizon while its actual position is just below it"
@@ -2081,7 +2081,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A fine beam of sunlight enters a smoke-filled room through a small hole, and its path becomes visible. What is the reason?",
+    "prompt": "A thin beam of sunlight enters a smoke-filled room through a small hole. Its path becomes visible. What is the reason?",
     "image": {
       "src": "/img/c10-eye/tyndall.svg",
       "alt": "A narrow sunbeam entering a smoke-filled room with its path visible"
@@ -2165,7 +2165,7 @@
       "alt": "A blue sky seen from the ground and a dark sky seen by an astronaut above the atmosphere"
     },
     "assertion": "An astronaut in space sees the sky as dark instead of blue.",
-    "reason": "At very high altitudes scattering of sunlight is not prominent because there is very little atmosphere.",
+    "reason": "At very great heights, there is very little atmosphere. So the scattering of sunlight is not noticeable.",
     "answer": "a",
     "hint": "Without scattering by air, no coloured light is sent towards the observer's eyes.",
     "explanation": "Both are true and R explains A. The blue colour of the sky comes from **scattering** of sunlight by the molecules in the atmosphere. If the Earth had no atmosphere there would be no scattering and the sky would look **dark**. At very high altitudes scattering is not prominent, so the sky appears dark to the astronaut."

@@ -50,7 +50,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "The shoe maker first sells shoes for money and then buys wheat with that money. **Tap the object that acts as the medium of exchange.**",
+  "prompt": "The shoe maker first sells shoes for money. Then he buys wheat with that money. **Tap the object that acts as the medium of exchange.**",
   "image": {
    "src": "/img/c10-eco-money-credit/exchange-flow.svg",
    "alt": "A shoe maker sells shoes and receives a coin, then uses the coin to buy wheat from a farmer"
@@ -108,8 +108,8 @@
    "src": "/img/c10-eco-money-credit/barter-vs-money.svg",
    "alt": "Top: a chain of people searching for a matching partner in barter. Bottom: shoes sold for a coin, then the coin buys wheat"
   },
-  "assertion": "In an economy that uses money, the shoe maker need not search for a farmer who sells wheat and also wants shoes.",
-  "reason": "Money acts as an intermediate step in exchange, so it eliminates the need for double coincidence of wants.",
+  "assertion": "In an economy that uses money, the shoe maker does not need to search for a farmer who sells wheat and also wants shoes.",
+  "reason": "Money acts as a middle step (intermediate) in exchange. So it removes the need for double coincidence of wants.",
   "answer": "a",
   "hint": "Compare the long search in the top row with the two simple steps below.",
   "explanation": "Both statements are true and R explains A. With money, the shoe maker only has to **find a buyer for his shoes**; once he has money he can buy wheat or anything else. The intermediate step removes the need for both sides to want each other's goods at the same time."
@@ -126,7 +126,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "The chapter says that before coins people used grain and cattle as money, and today's money is **modern currency**. Which picture shows a **modern form of money**?",
+  "prompt": "The chapter says that before coins, people used grain and cattle as money. Today's money is **modern currency**. Which picture shows a **modern form of money**?",
   "options": [
    {
     "id": "a",
@@ -233,7 +233,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A rupee note has **no use of its own**, yet everyone accepts it in payment. What is the reason?",
+  "prompt": "A rupee note has **no use of its own**. Still, everyone accepts it as payment. What is the reason?",
   "image": {
    "src": "/img/c10-eco-money-credit/currency-rbi.svg",
    "alt": "The Reserve Bank building issuing rupee notes and coins on behalf of the government"
@@ -411,7 +411,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "Banks code each cheque with the account number, bank branch code and cheque number. **Tap the strip that carries this coding.**",
+  "prompt": "Banks put a code on each cheque. The code has the account number, bank branch code and cheque number. **Tap the strip that carries this coding.**",
   "image": {
    "src": "/img/c10-eco-money-credit/cheque.svg",
    "alt": "A cheque with a payee line, an amount box, a date box, a signature area and a coded strip along the bottom"
@@ -464,7 +464,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Which picture shows the paper that instructs a bank to pay a **specific amount** from the payer's account to a named person?",
+  "prompt": "Which picture shows the paper that tells a bank to pay a **specific amount** from the payer's account to a named person?",
   "options": [
    {
     "id": "a",
@@ -515,7 +515,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Salim's account holds **₹80,000** and the leather supplier's account holds **₹15,000**. Salim pays the supplier by a **cheque for ₹20,000**, and the cheque is realised. What are the balances afterwards?",
+  "prompt": "Salim's account has **₹80,000**. The leather supplier's account has **₹15,000**. Salim pays the supplier with a **cheque for ₹20,000**, and the cheque is cleared (realised). What are the balances after this?",
   "image": {
    "src": "/img/c10-eco-money-credit/cheque-flow.svg",
    "alt": "A cheque for 20,000 rupees moving money from Salim's account holding 80,000 to a supplier's account holding 15,000"
@@ -601,7 +601,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "How do banks **mediate** between depositors and borrowers?",
+  "prompt": "How do banks **mediate** (act as a link) between depositors and borrowers?",
   "image": {
    "src": "/img/c10-eco-money-credit/bank-cycle.svg",
    "alt": "People deposit money in a bank and withdraw it with interest, while borrowers take loans and repay them with interest"
@@ -640,7 +640,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Banks in India these days hold about **5 per cent** of their deposits as cash. A bank has **₹2,00,000** in deposits. About how much is left to lend?",
+  "prompt": "These days, banks in India keep about **5 per cent** of their deposits as cash. A bank has **₹2,00,000** in deposits. About how much is left to lend?",
   "image": {
    "src": "/img/c10-eco-money-credit/bank-reserve.svg",
    "alt": "A grid of 100 squares: 5 orange squares are cash kept by the bank and 95 blue squares are lent out"
@@ -684,7 +684,7 @@
    "src": "/img/c10-eco-money-credit/bank-reserve.svg",
    "alt": "A grid of 100 squares: 5 orange squares are cash kept by the bank and 95 blue squares are lent out"
   },
-  "assertion": "A bank can lend out most of its deposits even though depositors may withdraw their money on demand.",
+  "assertion": "A bank can lend out most of its deposits, even though depositors may take out their money whenever they ask.",
   "reason": "A bank can take back its deposits from the depositors whenever it needs funds.",
   "answer": "c",
   "hint": "Why does a small cash reserve usually satisfy the people who come to withdraw?",
@@ -702,7 +702,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A bank pays **4% a year** on deposits and charges **10% a year** on loans (example rates). It lends **₹1,00,000** of its depositors' money for a year. How much does it earn from the gap between the two rates?",
+  "prompt": "A bank pays **4% a year** on deposits. It charges **10% a year** on loans (example rates). It lends **₹1,00,000** of its depositors' money for one year. How much does it earn from the difference between the two rates?",
   "image": {
    "src": "/img/c10-eco-money-credit/interest-gap.svg",
    "alt": "Two bars: an example 4 percent rate paid on deposits and a taller 10 percent rate charged on loans"
@@ -831,7 +831,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Swapna borrowed from a moneylender to grow groundnut. Pests destroyed the crop, and she later had to sell part of her land. What best explains why credit left her **worse off**?",
+  "prompt": "Swapna borrowed from a moneylender to grow groundnut. Pests destroyed the crop. Later, she had to sell part of her land. What best explains why credit made her **worse off**?",
   "image": {
    "src": "/img/c10-eco-money-credit/swapna-debt.svg",
    "alt": "A farm with wilted crops and pests, a lender with a loan slip and a stack of coins showing debt growing"
@@ -1138,7 +1138,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Megha submitted papers showing her job and salary. The bank also **retained one paper as collateral** until she repays the entire loan. **Tap the collateral.**",
+  "prompt": "Megha gave papers showing her job and salary. The bank also **kept one paper as collateral** until she repays the whole loan. **Tap the collateral.**",
   "image": {
    "src": "/img/c10-eco-money-credit/collateral-desk.svg",
    "alt": "A bank clerk at a desk with three papers: a pay slip, a house paper with a seal, and a calendar with boxes for instalments"
@@ -1185,7 +1185,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Megha's housing loan is **₹5,00,000** at **12 per cent per annum**. If she repaid nothing during the first year, how much interest would be due for that year?",
+  "prompt": "Megha's housing loan is **₹5,00,000** at **12 per cent per annum** (per year). Suppose she repaid nothing in the first year. How much interest would be due for that year?",
   "image": {
    "src": "/img/c10-eco-money-credit/megha-loan.svg",
    "alt": "A loan card listing Megha's housing loan details beside a house and a bank"
@@ -1295,7 +1295,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Shyamal once borrowed from the moneylender at **5% per month** and now borrows from a trader at **3% per month**. By how many **percentage points a year** did his interest rate fall?",
+  "prompt": "Shyamal earlier borrowed from the moneylender at **5% per month**. Now he borrows from a trader at **3% per month**. By how many **percentage points a year** has his interest rate fallen?",
   "image": {
    "src": "/img/c10-eco-money-credit/trader-tie.svg",
    "alt": "A trader supplies inputs on credit at the start of the season and buys the crop at a low price after harvest"
@@ -1373,7 +1373,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Besides charging interest, the trader makes the farmers who borrow from him **promise to sell their crop to him**. Why does this suit the trader?",
+  "prompt": "The trader charges interest. He also makes the farmers who borrow from him **promise to sell their crop to him**. Why is this good for the trader?",
   "image": {
    "src": "/img/c10-eco-money-credit/trader-tie.svg",
    "alt": "A trader supplies inputs on credit at the start of the season and buys the crop at a low price after harvest"
@@ -1463,7 +1463,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Arun plans to store the rest of his potatoes after selling part of the crop. **Tap the facility where he will store them.**",
+  "prompt": "Arun will sell part of his potato crop. He plans to store the rest. **Tap the place where he will store them.**",
   "image": {
    "src": "/img/c10-eco-money-credit/sonpur-village.svg",
    "alt": "A village scene with a potato field, a trader's godown with sacks, a blue building with a snowflake and a bank with columns"
@@ -1510,7 +1510,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Arun is one of the few people in Sonpur to get a **bank loan** for cultivation, at 8.5 per cent per annum. **Tap the lender he borrowed from.**",
+  "prompt": "Arun is one of the few people in Sonpur who got a **bank loan** for farming. The interest is 8.5 per cent per annum. **Tap the lender he borrowed from.**",
   "image": {
    "src": "/img/c10-eco-money-credit/sonpur-village.svg",
    "alt": "A village scene with a potato field, a trader's godown with sacks, a blue building with a snowflake and a bank with columns"
@@ -1557,7 +1557,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Krishak Cooperative has **2300 farmers** as members. How does it obtain a **large loan** from the bank to lend to its members?",
+  "prompt": "Krishak Cooperative has **2300 farmers** as members. How does it get a **large loan** from the bank to lend to its members?",
   "image": {
    "src": "/img/c10-eco-money-credit/coop-flow.svg",
    "alt": "Members deposit with a cooperative society, which uses the deposits as collateral for a large bank loan and lends to members"
@@ -1602,7 +1602,7 @@
    "alt": "A moneylender at a table with a question mark, free to choose any interest rate, with a borrower facing him"
   },
   "assertion": "Informal lenders can lend at whatever interest rate they choose.",
-  "reason": "No organisation supervises the credit activities of lenders in the informal sector.",
+  "reason": "No organisation supervises (keeps a check on) the lending done by lenders in the informal sector.",
   "answer": "a",
   "hint": "Who could stop a moneylender from charging a very high rate?",
   "explanation": "Both are true and R explains A. The RBI supervises **formal** lenders, but **no organisation supervises informal lenders**, so they can lend at any rate and there is no one to stop them from using unfair means to get their money back."
@@ -1619,7 +1619,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Which of these does the **Reserve Bank of India** actually monitor?",
+  "prompt": "Which of these does the **Reserve Bank of India** actually monitor (keep a check on)?",
   "image": {
    "src": "/img/c10-eco-money-credit/rbi-supervision.svg",
    "alt": "The Reserve Bank checking banks' cash balances and receiving their reports, while no one watches a moneylender"
@@ -1663,8 +1663,8 @@
    "src": "/img/c10-eco-money-credit/shg-flow.svg",
    "alt": "A flow: a group of women pools savings, makes small loans inside the group, later gets a bank loan and starts self-employment"
   },
-  "assertion": "Self Help Groups help borrowers overcome the problem of lack of collateral.",
-  "reason": "The regular meetings of an SHG give its members a platform to discuss social issues such as health and nutrition.",
+  "assertion": "Self Help Groups help borrowers solve the problem of not having collateral.",
+  "reason": "Members of an SHG meet regularly. These meetings give them a place to discuss social issues such as health and nutrition.",
   "answer": "b",
   "hint": "Check each statement on its own, then ask whether the second one explains the first.",
   "explanation": "Both statements are true, but R does **not** explain A. SHGs solve the collateral problem because the **group is responsible for repayment**, so banks lend to it even without collateral. Separately, the regular meetings give a platform to discuss and act on health, nutrition, domestic violence and other social issues."
@@ -1767,7 +1767,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "In urban areas, **54 per cent** of the loans of poor households come from informal sources. Out of **200 loans** taken by poor urban households, how many are from **informal** sources?",
+  "prompt": "In urban areas, **54 per cent** of the loans of poor households come from informal sources. Poor urban households take **200 loans**. How many of these are from **informal** sources?",
   "image": {
    "src": "/img/c10-eco-money-credit/pie-urban-num.svg",
    "alt": "Four pie charts of urban loans: formal share 46 percent for poor, 62 for few assets, 73 for well-off and 83 for rich households"
@@ -1853,7 +1853,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "In the chapter's graph for urban households, the formal sector supplies **83 per cent** of the loans of **rich households**. Which pie shows this? (Purple is formal, orange is informal.)",
+  "prompt": "The chapter's graph for urban households shows that the formal sector gives **83 per cent** of the loans of **rich households**. Which pie shows this? (Purple is formal, orange is informal.)",
   "options": [
    {
     "id": "a",
@@ -2106,7 +2106,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "In 2018 the Grameen Bank had over **9 million** members in about **81,600** villages. If it had exactly 9 million members, about how many members were there **per village**?",
+  "prompt": "In 2018, the Grameen Bank had over **9 million** members in about **81,600** villages. Take the members as exactly 9 million. About how many members were there **per village**?",
   "image": {
    "src": "/img/c10-eco-money-credit/grameen.svg",
    "alt": "Three cards: over 9 million members, about 81,600 villages, almost all borrowers women"
@@ -2145,7 +2145,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In **November 2016** the government declared some currency notes invalid, and people had to exchange them at banks. Which notes were these?",
+  "prompt": "In **November 2016**, the government declared some currency notes invalid (they could no longer be used). People had to exchange them at banks. Which notes were these?",
   "image": {
    "src": "/img/c10-eco-money-credit/demonetisation.svg",
    "alt": "Two old notes crossed out, taken to a bank, and exchanged for new 500 and 2,000 rupee notes"

@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Sugarcane plants in a field look very alike, but people in a crowd show many differences. What best explains this?",
+  "prompt": "Sugarcane plants in a field look almost the same. But people in a crowd look very different from one another. What is the best reason for this?",
   "image": {
    "src": "/img/c10-heredity/sugarcane-humans.svg",
    "alt": "Identical sugarcane plants beside a group of very different people"
@@ -50,7 +50,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "In an asexually reproducing species, trait A is found in 10% of the population and trait B in 60%. Which trait is likely to have arisen earlier?",
+  "prompt": "A species reproduces asexually. Trait A is seen in 10% of its members and trait B in 60%. Which trait most likely appeared earlier?",
   "image": {
    "src": "/img/c10-heredity/tree-variation.svg",
    "alt": "A family tree showing one organism giving rise to more and more varied descendants over generations"
@@ -89,7 +89,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A bacterium divides, and its two daughter cells divide again. The four bacteria are very similar but not perfectly identical. Why?",
+  "prompt": "A bacterium divides into two cells. These two cells divide again, giving four bacteria. The four bacteria are very similar but not exactly the same. Why?",
   "image": {
    "src": "/img/c10-heredity/bacteria-divide.svg",
    "alt": "One bacterium dividing twice into four nearly identical bacteria"
@@ -128,7 +128,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "During a heat wave most bacteria in a colony die, but a few survive and multiply. How do variations help the species here?",
+  "prompt": "During a heat wave, most bacteria in a colony die. But a few of them survive and multiply. How do variations help the species here?",
   "image": {
    "src": "/img/c10-heredity/heat-wave.svg",
    "alt": "A heat wave kills some bacteria while heat-tolerant ones survive"
@@ -215,7 +215,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In a class of 40 students, 30 have free earlobes and the rest have attached earlobes. What percentage have attached earlobes?",
+  "prompt": "There are 40 students in a class. 30 of them have free earlobes and the others have attached earlobes. What percentage of the students have attached earlobes?",
   "image": {
    "src": "/img/c10-heredity/earlobes.svg",
    "alt": "Side views of a head with a free earlobe and a head with an attached earlobe"
@@ -254,7 +254,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Free and attached earlobes are two variants of one trait. Which picture shows an **attached** earlobe?",
+  "prompt": "Free earlobes and attached earlobes are two forms of the same trait. Which picture shows an **attached** earlobe?",
   "options": [
    {
     "id": "a",
@@ -333,8 +333,8 @@
    "src": "/img/c10-heredity/f2-ratio.svg",
    "alt": "F1 tall plants self-pollinate to give three tall and one short F2 plants"
   },
-  "assertion": "Short plants reappear in the F2 generation even though every F1 plant was tall.",
-  "reason": "F1 plants carry two different copies of the height gene, and the copy for shortness is present but not expressed.",
+  "assertion": "Short plants appear again in the F2 generation, even though all the F1 plants were tall.",
+  "reason": "Each F1 plant has two different copies of the height gene. The copy for shortness is present, but it is not expressed (it does not show).",
   "answer": "a",
   "hint": "Where was the shortness trait hiding?",
   "explanation": "Both **A and R are true and R explains A**. F1 plants are Tt. They show tallness because T is dominant, but they still carry t. When they self-pollinate, some F2 plants receive two copies of t and are short (about one quarter)."
@@ -351,7 +351,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Self-pollinating F1 tall plants gave 1200 F2 plants. About how many of them would be short?",
+  "prompt": "Tall F1 plants were self-pollinated, and 1200 F2 plants were produced. About how many of these would be short?",
   "image": {
    "src": "/img/c10-heredity/f2-ratio.svg",
    "alt": "F1 tall plants self-pollinate to give three tall and one short F2 plants"
@@ -443,7 +443,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the box showing a **short** plant (tt) in this Punnett square for $Tt \\times Tt$.",
+  "prompt": "This Punnett square is for the cross $Tt \\times Tt$. Tap the box that shows a **short** plant (tt).",
   "image": {
    "src": "/img/c10-heredity/punnett-tt-plain.svg",
    "alt": "Punnett square for a cross of two Tt plants showing only the gene combinations in each box"
@@ -637,7 +637,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "match",
-  "prompt": "Match each cross with the expected ratio of **offspring types** (tall = T, round = R, yellow = Y).",
+  "prompt": "Match each cross with the ratio of **offspring types** you expect. (T = tall, R = round, Y = yellow)",
   "image": {
    "src": "/img/c10-heredity/punnett-tt.svg",
    "alt": "Punnett square for a cross of two Tt plants"
@@ -699,7 +699,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A tall plant of genotype Tt is crossed with a short plant (tt). What is the expected ratio of tall to short offspring?",
+  "prompt": "A tall plant with genotype Tt is crossed with a short plant (tt). What ratio of tall to short offspring do you expect?",
   "image": {
    "src": "/img/c10-heredity/punnett-test.svg",
    "alt": "Punnett square for a cross of Tt with tt"
@@ -789,7 +789,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A Mendelian cross between a tall plant with violet flowers and a short plant with white flowers gave progeny that all had violet flowers, but almost half were short. What is the genetic make-up of the tall parent?",
+  "prompt": "In a Mendelian cross, a tall plant with violet flowers was crossed with a short plant with white flowers. All the progeny (offspring) had violet flowers, but almost half of them were short. What is the genetic make-up of the tall parent?",
   "image": {
    "src": "/img/c10-heredity/tall-violet.svg",
    "alt": "A tall violet pea plant crossed with a short white one giving violet flowers with tall and short plants"
@@ -828,7 +828,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this enough to tell which trait, A or O, is dominant?",
+  "prompt": "A man with blood group A marries a woman with blood group O. Their daughter has blood group O. Is this information enough to tell which trait, A or O, is dominant?",
   "image": {
    "src": "/img/c10-heredity/pedigree.svg",
    "alt": "A family tree with a father of blood group A, a mother of group O and a daughter of group O"
@@ -867,7 +867,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A study found that children with light-coloured eyes are likely to have parents with light-coloured eyes. Can we say whether light eye colour is dominant or recessive?",
+  "prompt": "A study found that children with light-coloured eyes often have parents who also have light-coloured eyes. From this, can we say whether light eye colour is dominant or recessive?",
   "image": {
    "src": "/img/c10-heredity/eye-colour.svg",
    "alt": "Two light-eyed parents and their light-eyed children"
@@ -906,7 +906,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Which plan would best find the **dominant coat colour** in dogs?",
+  "prompt": "Which plan is the best way to find out the **dominant coat colour** in dogs?",
   "image": {
    "src": "/img/c10-heredity/dog-project.svg",
    "alt": "A black dog and a brown dog and four puppies of unknown colour"
@@ -951,7 +951,7 @@
    "alt": "A notebook with tally marks counting tall and short pea plants and a pencil"
   },
   "assertion": "Mendel was able to discover the 3 : 1 pattern in his F2 pea plants.",
-  "reason": "He was the first to keep a count of the individuals showing each trait in every generation.",
+  "reason": "He was the first to count how many plants showed each trait in every generation.",
   "answer": "a",
   "hint": "Why did counting help?",
   "explanation": "Both are true and R explains A. Earlier scientists studied inheritance but did not **count**. Mendel combined his knowledge of science and **mathematics**, counted each trait in every generation, and so found the ratios."
@@ -1061,7 +1061,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Round green seeds (RRyy) are crossed with wrinkled yellow seeds (rrYY). Which pair of F2 seed types are **new combinations**, not seen in either parent?",
+  "prompt": "Round green seeds (RRyy) are crossed with wrinkled yellow seeds (rrYY). Which pair of F2 seed types are **new combinations** that neither parent had?",
   "options": [
    {
     "id": "a",
@@ -1112,7 +1112,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "In the 16-box Punnett square for $Rr\\,Yy \\times Rr\\,Yy$, how many boxes show **round, yellow** seeds?",
+  "prompt": "Look at the 16-box Punnett square for $Rr\\,Yy \\times Rr\\,Yy$. How many boxes show **round, yellow** seeds?",
   "image": {
    "src": "/img/c10-heredity/dihybrid-grid.svg",
    "alt": "Sixteen-box Punnett square for a dihybrid cross of round yellow seeds"
@@ -1204,7 +1204,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "From a cross of $Rr\\,Yy \\times Rr\\,Yy$ you collect 1600 F2 seeds. About how many are expected to be **wrinkled and green**?",
+  "prompt": "You cross $Rr\\,Yy \\times Rr\\,Yy$ and collect 1600 F2 seeds. About how many of them do you expect to be **wrinkled and green**?",
   "image": {
    "src": "/img/c10-heredity/dihybrid-bars.svg",
    "alt": "Bar chart of 315 round yellow, 108 round green, 101 wrinkled yellow and 32 wrinkled green seeds"
@@ -1243,7 +1243,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange Mendel's F2 seed types from the **most** to the **fewest** seeds counted.",
+  "prompt": "Mendel counted the F2 seeds of each type. Arrange the seed types from the **most** seeds to the **fewest** seeds.",
   "image": {
    "src": "/img/c10-heredity/seed-types.svg",
    "alt": "Four pea seed types: round yellow, round green, wrinkled yellow and wrinkled green"
@@ -1466,7 +1466,7 @@
    "alt": "An egg and a sperm each with one chromosome set fuse to give a zygote with two sets"
   },
   "assertion": "A human germ cell has the same number of chromosomes as a body cell.",
-  "reason": "Fertilisation restores the normal number of chromosomes in the zygote.",
+  "reason": "Fertilisation brings the number of chromosomes in the zygote back to normal.",
   "answer": "d",
   "hint": "Count the sets in the egg, the sperm and the zygote.",
   "explanation": "A is **false**: a germ cell has only **one** chromosome of each pair, so half the number found in a body cell. R is **true**: when the egg and sperm combine, the zygote again has two sets, which keeps the DNA of the species stable."
@@ -1591,7 +1591,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the **chromosome**, one of the separate pieces in which the gene set is packaged.",
+  "prompt": "Tap the **chromosome**. The gene set is packed into separate pieces, and each piece is a chromosome.",
   "image": {
    "src": "/img/c10-heredity/cell-dna.svg",
    "alt": "Zoom from a cell with a nucleus to a chromosome to a DNA helix with a highlighted gene"
@@ -1638,7 +1638,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the **gene**, the section of DNA that gives information for one protein.",
+  "prompt": "Tap the **gene**. It is the section of DNA that gives information for one protein.",
   "image": {
    "src": "/img/c10-heredity/cell-dna.svg",
    "alt": "Zoom from a cell with a nucleus to a chromosome to a DNA helix with a highlighted gene"
@@ -1685,7 +1685,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the **enzyme** whose efficiency decides how much plant growth hormone is made.",
+  "prompt": "Tap the **enzyme**. How well this enzyme works decides how much plant growth hormone is made.",
   "image": {
    "src": "/img/c10-heredity/gene-hormone.svg",
    "alt": "Chain from a gene to an enzyme to a plant hormone to a tall plant"
@@ -1732,7 +1732,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A change in a gene makes an enzyme for a plant growth hormone work less efficiently. What is the likely result?",
+  "prompt": "An enzyme helps a plant make its growth hormone. A change in a gene makes this enzyme work less efficiently. What will most likely happen?",
   "image": {
    "src": "/img/c10-heredity/gene-hormone.svg",
    "alt": "Chain from a gene to an enzyme to a plant hormone to a tall plant"
@@ -1771,7 +1771,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps from the gene to the height of the plant.",
+  "prompt": "Arrange the steps in order, starting from the gene and ending with the height of the plant.",
   "image": {
    "src": "/img/c10-heredity/gene-hormone.svg",
    "alt": "Chain from a gene to an enzyme to a plant hormone to a tall plant"
@@ -1817,7 +1817,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "match",
-  "prompt": "Match each case with how its sex is decided or described.",
+  "prompt": "Match each item with the way its sex is decided or described.",
   "image": {
    "src": "/img/c10-heredity/reptile-temp.svg",
    "alt": "Two thermometers show a cool and a warm nest of reptile eggs"
@@ -2145,7 +2145,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the events that decide the sex of a child.",
+  "prompt": "Arrange in order the events that decide the sex of a child.",
   "image": {
    "src": "/img/c10-heredity/sex-cross.svg",
    "alt": "Diagram of human sex chromosomes showing the egg, sperm and zygote"

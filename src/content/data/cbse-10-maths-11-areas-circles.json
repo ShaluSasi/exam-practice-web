@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In which figure is the shaded region enclosed by **two radii** and the corresponding **arc**, that is, a **sector** of the circle?",
+    "prompt": "A region bounded by **two radii** and the **arc** between them is called a **sector** of the circle. In which figure is the shaded region a sector?",
     "image": {
       "src": "/img/c10-ma-areas-circles/overview.svg",
       "alt": "Two circles, one with a shaded sector and one with a shaded segment"
@@ -160,7 +160,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The arc of a sector of angle $\\theta$ in a circle of radius $r$ has length",
+    "prompt": "A circle has radius $r$. A sector of this circle has angle $\\theta$. The length of its arc is",
     "image": {
       "src": "/img/c10-ma-areas-circles/sector-arc.svg",
       "alt": "A sector with radius r, angle theta and arc length l"
@@ -199,7 +199,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Find the area of a sector of a circle of radius $6$ cm whose angle is $60^\\circ$. (Leave the answer in terms of $\\pi$.)",
+    "prompt": "A circle has radius $6$ cm. Find the area of a sector of this circle with angle $60^\\circ$. (Leave the answer in terms of $\\pi$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/sector-6-60.svg",
       "alt": "A sector of radius 6 cm and angle 60 degrees"
@@ -238,7 +238,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The circumference of a circle is $44$ cm. Find the area of its **quadrant**. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "The circumference of a circle is $44$ cm. Find the area of its **quadrant** (one-fourth of the circle). (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/quad-circum.svg",
       "alt": "A quadrant of a circle whose whole circumference is 44 cm"
@@ -277,7 +277,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The minute hand of a clock is $21$ cm long. Find the area swept by it in $10$ minutes. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "The minute hand of a clock is $21$ cm long. Find the area it sweeps (covers) in $10$ minutes. (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/clock-10.svg",
       "alt": "A clock face with the minute hand pointing at 2 and the swept sector shaded"
@@ -316,7 +316,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "An arc subtends an angle of $60^\\circ$ at the centre of a circle of radius $21$ cm. Find the length of the arc. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "A circle has radius $21$ cm. An arc of this circle makes (subtends) an angle of $60^\\circ$ at the centre. Find the length of the arc. (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/arc-length.svg",
       "alt": "A sector of angle 60 degrees and radius 21 cm with its arc highlighted"
@@ -355,7 +355,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A chord of a circle of radius $10$ cm subtends a right angle at the centre. Find the area of the **minor segment**. (Use $\\pi=3.14$.)",
+    "prompt": "A circle has radius $10$ cm. A chord of this circle makes (subtends) a right angle at the centre. Find the area of the **minor segment**. (Use $\\pi=3.14$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-90.svg",
       "alt": "A chord AB subtending 90 degrees at O in a circle of radius 10 cm with the triangle and segment shaded"
@@ -394,7 +394,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "For the circle of radius $10$ cm in which a chord subtends $90^\\circ$ at the centre, find the area of the **major sector**. (Use $\\pi=3.14$.)",
+    "prompt": "A circle has radius $10$ cm. A chord of this circle makes an angle of $90^\\circ$ at the centre. Find the area of the **major sector**. (Use $\\pi=3.14$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/major-90.svg",
       "alt": "A circle of radius 10 cm with its major sector shaded and the minor sector of 90 degrees unshaded"
@@ -433,7 +433,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A sector of a circle of radius $14$ cm has area $77$ cm$^2$. Find the angle of the sector. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "A circle has radius $14$ cm. A sector of this circle has area $77$ cm$^2$. Find the angle of the sector. (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/sector-area.svg",
       "alt": "A sector of radius 14 cm and area 77 square centimetres"
@@ -472,7 +472,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A chord of a circle of radius $6$ cm subtends an angle of $120^\\circ$ at the centre. Find the area of the corresponding segment. (Use $\\pi=3.14$ and $\\sqrt3=1.73$.)",
+    "prompt": "A circle has radius $6$ cm. A chord of this circle makes an angle of $120^\\circ$ at the centre. Find the area of the segment formed by this chord. (Use $\\pi=3.14$ and $\\sqrt3=1.73$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-120.svg",
       "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
@@ -511,7 +511,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A chord of a circle of radius $10$ cm subtends $60^\\circ$ at the centre. The area of the minor segment is",
+    "prompt": "A circle has radius $10$ cm. A chord of this circle makes an angle of $60^\\circ$ at the centre. The area of the minor segment is",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-60.svg",
       "alt": "A chord AB subtending 60 degrees at O in a circle of radius 10 cm; the triangle is equilateral"
@@ -550,7 +550,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A horse is tied to a peg at one corner of a square field of side $12$ m with a rope $6$ m long. Find the area of the part of the field the horse can graze.",
+    "prompt": "A square field has side $12$ m. A horse is tied to a peg at one corner of the field with a rope $6$ m long. Find the area of the part of the field the horse can graze (eat grass from).",
     "image": {
       "src": "/img/c10-ma-areas-circles/horse-6.svg",
       "alt": "A square field with a quarter circle of radius 6 m shaded at the corner where the horse is tied"
@@ -589,7 +589,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "In the same square field of side $12$ m, the rope is made $10$ m long instead of $6$ m. By how much does the grazing area increase?",
+    "prompt": "Take the same square field of side $12$ m. Now the rope is $10$ m long instead of $6$ m. By how much does the grazing area increase?",
     "image": {
       "src": "/img/c10-ma-areas-circles/horse-10.svg",
       "alt": "A square field with two nested quarter circles of radii 6 m and 10 m"
@@ -628,7 +628,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A brooch is made of silver wire in the form of a circle of diameter $28$ mm. The wire is also used to make $5$ diameters that divide the circle into $10$ equal sectors. Find the total length of wire required. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "A brooch is made of silver wire. The wire is bent into a circle of diameter $28$ mm. The wire is also used to make $5$ diameters, which divide the circle into $10$ equal sectors. Find the total length of wire needed. (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/brooch.svg",
       "alt": "A circle with five diameters dividing it into ten equal sectors; the diameter is 28 mm"
@@ -706,7 +706,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "An umbrella has $8$ equally spaced ribs. Taking it as a flat circle of radius $28$ cm, find the area between two consecutive ribs. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "An umbrella has $8$ ribs that are equally spaced. Think of the umbrella as a flat circle of radius $28$ cm. Find the area between two consecutive ribs (ribs next to each other). (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/umbrella.svg",
       "alt": "Top view of an umbrella with eight ribs and the region between two consecutive ribs shaded"
@@ -745,7 +745,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A car has two wipers which do not overlap. Each wiper has a blade $21$ cm long and sweeps through an angle of $100^\\circ$. Find the total area cleaned at each sweep of the blades. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "A car has two wipers that do not overlap. Each wiper has a blade $21$ cm long. Each blade sweeps (moves) through an angle of $100^\\circ$. Find the total area cleaned in one sweep of the blades. (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/wipers.svg",
       "alt": "A windscreen with two wipers, each sweeping a sector of 100 degrees with blade length 21 cm"
@@ -784,7 +784,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A lighthouse spreads a red light over a sector of angle $40^\\circ$ to a distance of $21$ km. Find the area of the sea over which ships are warned. (Use $\\pi=\\frac{22}{7}$.)",
+    "prompt": "A lighthouse spreads a red light over a sector of angle $40^\\circ$, up to a distance of $21$ km. This light warns ships. Find the area of the sea over which ships are warned. (Use $\\pi=\\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/lighthouse.svg",
       "alt": "Top view of a lighthouse with a 40 degree red sector of light over the sea"
@@ -823,7 +823,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A round table cover of radius $14$ cm has six equal designs, each the part of the circle outside an inscribed regular hexagon (see the figure). Find the total area of the designs. (Use $\\pi=\\frac{22}{7}$ and $\\sqrt3=1.7$.)",
+    "prompt": "A round table cover has radius $14$ cm. It has six equal designs. Each design is the part of the circle outside a regular hexagon drawn inside the circle (see the figure). Find the total area of the designs. (Use $\\pi=\\frac{22}{7}$ and $\\sqrt3=1.7$.)",
     "image": {
       "src": "/img/c10-ma-areas-circles/tablecover.svg",
       "alt": "A round cover with a regular hexagon inscribed and six shaded segments"
@@ -1180,7 +1180,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A horse is tied at the peg with a $6$ m rope in a square field of side $12$ m. Tap the part of the field where the horse can **graze**.",
+    "prompt": "A square field has side $12$ m. A horse is tied at the peg with a $6$ m rope. Tap the part of the field where the horse can **graze**.",
     "image": {
       "src": "/img/c10-ma-areas-circles/horse-hot.svg",
       "alt": "A square field with a peg at one corner and a rope drawn along one side"
@@ -1227,7 +1227,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "To find the area of the **minor segment** $AB$ we subtract an area from the sector $OAB$. Tap that region.",
+    "prompt": "To find the area of the **minor segment** $AB$, we take away one area from the area of the sector $OAB$. Tap that region.",
     "image": {
       "src": "/img/c10-ma-areas-circles/tri-hot.svg",
       "alt": "A circle with radii OA, OB and chord AB forming a triangle"
@@ -1274,7 +1274,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The umbrella has $8$ equally spaced ribs. Tap the region **between two consecutive ribs**.",
+    "prompt": "The umbrella has $8$ equally spaced ribs. Tap the region **between two consecutive ribs** (ribs next to each other).",
     "image": {
       "src": "/img/c10-ma-areas-circles/umbrella-hot.svg",
       "alt": "Top view of an umbrella with eight equally spaced ribs"
@@ -1462,7 +1462,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "The radius of a circle is doubled from $r$ to $2r$ (angles unchanged). Select **all** the true statements.",
+    "prompt": "The radius of a circle is doubled from $r$ to $2r$. The angles stay the same. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-areas-circles/double-circle.svg",
       "alt": "Two concentric circles with radii r and 2r"
@@ -1509,7 +1509,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "To find the area of the minor segment $AYB$ by the method of this chapter, which of these are needed?",
+    "prompt": "We want to find the area of the minor segment $AYB$ using the method of this chapter. Which of these are needed?",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-120.svg",
       "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
@@ -1602,7 +1602,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "order",
-    "prompt": "The area of sector $OAYB$, $\\dfrac{120}{360}\\pi r^2$, has been found for a circle of radius $r$ with $\\angle AOB=120^\\circ$. Arrange the remaining steps for finding the area of the minor segment $AYB$.",
+    "prompt": "A circle has radius $r$ and $\\angle AOB=120^\\circ$. The area of sector $OAYB$ has already been found. It is $\\dfrac{120}{360}\\pi r^2$. Arrange the remaining steps for finding the area of the minor segment $AYB$.",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-120.svg",
       "alt": "A chord AB subtending 120 degrees at O with the perpendicular OM drawn"
@@ -1757,7 +1757,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "A chord of a circle of radius $10$ cm subtends $90^\\circ$ at the centre (use $\\pi=3.14$). Arrange these regions by **area**, smallest first.",
+    "prompt": "A circle has radius $10$ cm. A chord of this circle makes an angle of $90^\\circ$ at the centre (use $\\pi=3.14$). Arrange these regions by **area**, smallest first.",
     "image": {
       "src": "/img/c10-ma-areas-circles/seg-90.svg",
       "alt": "A chord AB subtending 90 degrees at O in a circle of radius 10 cm"
@@ -1808,8 +1808,8 @@
       "src": "/img/c10-ma-areas-circles/sector-sweep.svg",
       "alt": "A sector whose angle at the centre opens and closes"
     },
-    "assertion": "The area of a sector of a circle is directly proportional to the angle of the sector (for a fixed radius).",
-    "reason": "The whole circle is a sector of angle $360^\\circ$ with area $\\pi r^2$, so the sector of angle $\\theta$ has area $\\dfrac{\\theta}{360}\\pi r^2$.",
+    "assertion": "For a fixed radius, the area of a sector of a circle is directly proportional to the angle of the sector.",
+    "reason": "The whole circle is a sector of angle $360^\\circ$ with area $\\pi r^2$. So the sector of angle $\\theta$ has area $\\dfrac{\\theta}{360}\\pi r^2$.",
     "answer": "a",
     "hint": "Look at the formula: how does $\\theta$ appear in it?",
     "explanation": "Both are true and R explains A. The area is $\\dfrac{\\theta}{360}\\pi r^2$, which is a constant times $\\theta$, so doubling the angle doubles the area."
@@ -1831,7 +1831,7 @@
       "src": "/img/c10-ma-areas-circles/arc-90-14.svg",
       "alt": "A 90 degree sector of radius 14 cm with its arc highlighted"
     },
-    "assertion": "The arc of a $90^\\circ$ sector of a circle of radius $14$ cm has length $22$ cm (use $\\pi=\\frac{22}{7}$).",
+    "assertion": "A circle has radius $14$ cm. The arc of a $90^\\circ$ sector of this circle has length $22$ cm (use $\\pi=\\frac{22}{7}$).",
     "reason": "The length of an arc of a sector of angle $\\theta$ is $\\dfrac{\\theta}{360}\\times2\\pi r$.",
     "answer": "a",
     "hint": "Substitute $\\theta=90$ and $r=14$.",
@@ -1854,7 +1854,7 @@
       "src": "/img/c10-ma-areas-circles/double-r.svg",
       "alt": "Two sectors with the same angle and radii r and 2r"
     },
-    "assertion": "Two sectors with the same angle, in circles of radii $r$ and $2r$, have areas in the ratio $1:2$.",
+    "assertion": "Two circles have radii $r$ and $2r$. A sector with the same angle is taken in each circle. The areas of the two sectors are in the ratio $1:2$.",
     "reason": "The area of a sector of a given angle is proportional to the square of the radius.",
     "answer": "d",
     "hint": "The radius appears squared in $\\pi r^2$.",
@@ -1996,7 +1996,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each quantity of a circle of radius $r$ (sector angle $\\theta$) with its formula.",
+    "prompt": "A circle has radius $r$ and a sector has angle $\\theta$. Match each quantity with its formula.",
     "image": {
       "src": "/img/c10-ma-areas-circles/circle-parts.svg",
       "alt": "A radius turning once around a circle"
@@ -2120,7 +2120,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "The minute hand of a clock turns through a certain angle. Match the time it takes with the angle.",
+    "prompt": "The minute hand of a clock turns through some angle. Match each time with the angle it turns through.",
     "image": {
       "src": "/img/c10-ma-areas-circles/clock-plain.svg",
       "alt": "A clock face with hands"

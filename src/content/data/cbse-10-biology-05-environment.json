@@ -115,7 +115,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "multi",
-  "prompt": "Which of these in the pond picture are **biotic** components of the ecosystem? Select all that apply.",
+  "prompt": "Look at the pond picture. Which of these are **biotic** (living) components of the ecosystem? Select all that apply.",
   "image": {
    "src": "/img/c10-environment/pond-scene.svg",
    "alt": "A pond with sun, rain cloud, fish, water plants, a frog and a mushroom"
@@ -447,7 +447,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "What would happen in an ecosystem if **decomposers were absent**?",
+  "prompt": "Suppose **decomposers were absent** (not there) in an ecosystem. What would happen?",
   "image": {
    "src": "/img/c10-environment/no-decomposers.svg",
    "alt": "Left: bacteria recycle dead leaves into nutrients. Right: dead matter piles up"
@@ -486,7 +486,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps of the recycling of nutrients through decomposers.",
+  "prompt": "Decomposers help to recycle nutrients. Arrange the steps of this recycling.",
   "image": {
    "src": "/img/c10-environment/decomposition-cycle.svg",
    "alt": "Cycle of plant, dead remains, decomposers and nutrients"
@@ -631,7 +631,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Which of the following constitutes a **food chain**? (The arrows point to the eater.)",
+  "prompt": "Which of the following forms a **food chain**? (The arrows point to the eater.)",
   "options": [
    {
     "id": "a",
@@ -806,7 +806,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the trophic level that holds the **herbivores (primary consumers)**.",
+  "prompt": "Tap the trophic level that has the **herbivores (primary consumers)**.",
   "image": {
    "src": "/img/c10-environment/energy-pyramid.svg",
    "alt": "Pyramid of four trophic levels"
@@ -853,7 +853,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "Green plants of a terrestrial ecosystem capture roughly what share of the sunlight energy falling on their leaves?",
+  "prompt": "Green plants in a terrestrial ecosystem (an ecosystem on land) capture some of the sunlight energy falling on their leaves. Roughly what share do they capture?",
   "image": {
    "src": "/img/c10-environment/sun-leaf.svg",
    "alt": "Sun rays travelling to a leaf"
@@ -892,7 +892,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The producers in a field contain 20 000 J of energy. By the 10 per cent rule, how much energy reaches the **secondary consumers (third trophic level)**?",
+  "prompt": "The producers in a field contain 20 000 J of energy. Use the 10 per cent rule. How much energy reaches the **secondary consumers (third trophic level)**?",
   "image": {
    "src": "/img/c10-environment/energy-numbers.svg",
    "alt": "Four trophic level bars, the first with 20 000 joules"
@@ -931,7 +931,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "In the food chain grass, mouse, snake, hawk, the hawk receives 50 J of energy. How much energy was present in the **grass**, assuming 10% is passed on at each step?",
+  "prompt": "Look at the food chain: grass, mouse, snake, hawk. The hawk receives 50 J of energy. At each step, 10% of the energy is passed on. How much energy was present in the **grass**?",
   "image": {
    "src": "/img/c10-environment/energy-hawk.svg",
    "alt": "Chain of grass, mouse, snake and hawk; hawk has 50 joules"
@@ -1062,7 +1062,7 @@
    "alt": "Bars of energy falling with each trophic level"
   },
   "assertion": "Food chains generally consist of only three or four steps.",
-  "reason": "Only about 10% of the energy passes to the next level, so very little usable energy remains after four trophic levels.",
+  "reason": "Only about 10% of the energy passes to the next level. So very little usable energy remains after four trophic levels.",
   "answer": "a",
   "hint": "Think about how much energy is left at the fifth level.",
   "explanation": "Both are true and R explains A. At each step about 90% of the energy is lost, so after four levels too little is left to support another level of consumers."
@@ -1084,7 +1084,7 @@
    "src": "/img/c10-environment/one-way.svg",
    "alt": "Energy arrows from producer to herbivore to carnivore; backward arrow crossed out"
   },
-  "assertion": "The flow of energy in an ecosystem is unidirectional.",
+  "assertion": "The flow of energy in an ecosystem is unidirectional (in one direction only).",
   "reason": "The energy that passes to herbivores comes back to the autotrophs when they are eaten.",
   "answer": "c",
   "hint": "Check the direction of the arrows. Can energy go back to the plant?",
@@ -1102,7 +1102,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "In this food web, if **all the mice are removed**, which organisms lose one of their food sources?",
+  "prompt": "Look at this food web. Suppose **all the mice are removed**. Which organisms lose one of their food sources?",
   "image": {
    "src": "/img/c10-environment/foodweb.svg",
    "alt": "Food web of grass, insect, mouse, frog, snake and hawk"
@@ -1200,7 +1200,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "Pesticide residues increase along this food chain. Tap the organism that has the **highest concentration** of pesticide.",
+  "prompt": "Pesticide residues (leftover pesticide) increase along this food chain. Tap the organism that has the **highest concentration** of pesticide.",
   "image": {
    "src": "/img/c10-environment/biomag.svg",
    "alt": "Food chain from pond water to a bird with red dots for pesticide"
@@ -1304,7 +1304,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "order",
-  "prompt": "Arrange the path by which a pesticide ends up in humans.",
+  "prompt": "A pesticide finally reaches humans. Arrange the path it takes.",
   "image": {
    "src": "/img/c10-environment/biomag-bars.svg",
    "alt": "Bars of pesticide level rising from water to bird"
@@ -1472,7 +1472,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "At the higher levels of the atmosphere, ozone is formed when which radiation acts on oxygen molecules?",
+  "prompt": "Ozone is formed at the higher levels of the atmosphere. Which radiation acts on oxygen molecules to form it?",
   "image": {
    "src": "/img/c10-environment/ozone-formation.svg",
    "alt": "UV splitting O2 into O atoms, which join O2 to form O3"
@@ -1557,7 +1557,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the **ozone layer**, which shields the surface of the Earth from ultraviolet radiation.",
+  "prompt": "Tap the **ozone layer**. It shields (protects) the surface of the Earth from ultraviolet radiation.",
   "image": {
    "src": "/img/c10-environment/ozone.svg",
    "alt": "Sun, UV rays, ozone layer, refrigerator and a person on the ground"
@@ -1663,7 +1663,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "In 1987 the United Nations Environment Programme (UNEP) succeeded in forging an agreement to",
+  "prompt": "In 1987, the United Nations Environment Programme (UNEP) succeeded in making an agreement to",
   "image": {
    "src": "/img/c10-environment/cfc-timeline.svg",
    "alt": "Graph of ozone amount falling in the 1980s, with a flag at 1987"
@@ -1787,7 +1787,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Why is it now mandatory for manufacturers worldwide to make **CFC-free refrigerators**?",
+  "prompt": "Today, manufacturers all over the world must make **CFC-free refrigerators**. Why is this compulsory?",
   "image": {
    "src": "/img/c10-environment/ozone.svg",
    "alt": "Sun, UV rays, ozone layer, refrigerator and a person on the ground"
@@ -1870,8 +1870,8 @@
    "src": "/img/c10-environment/enzyme-lock.svg",
    "alt": "Enzyme fits a matching substance but not a piece of plastic"
   },
-  "assertion": "Plastics persist for a long time in the environment.",
-  "reason": "Enzymes are specific in their action, so bacteria and other saprophytes cannot break down human-made materials such as plastics.",
+  "assertion": "Plastics persist (stay) for a long time in the environment.",
+  "reason": "Enzymes are specific in their action. So bacteria and other saprophytes cannot break down human-made materials such as plastics.",
   "answer": "a",
   "hint": "The picture shows an enzyme that fits only one substance.",
   "explanation": "Both are true and R explains A. Each enzyme works on a particular substance, so there is no enzyme in nature suited to plastics. They are acted on only by physical processes such as heat and pressure, and under normal conditions they remain."
@@ -2053,7 +2053,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Why was the idea of using **clay kulhads** for tea in trains on a large scale not a good solution?",
+  "prompt": "There was an idea to use **clay kulhads** for tea in trains on a large scale. Why was this not a good solution?",
   "image": {
    "src": "/img/c10-environment/kulhad-cups.svg",
    "alt": "A clay kulhad, a paper cup and a plastic cup"

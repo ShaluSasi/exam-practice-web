@@ -119,7 +119,7 @@
       "alt": "Bars of heights 2, 4, 8 and 16"
     },
     "assertion": "The list $2, 4, 8, 16, \\dots$ is **not** an AP.",
-    "reason": "In an AP the difference between any two consecutive terms is the same.",
+    "reason": "In an AP, the difference between any two consecutive (next to each other) terms is the same.",
     "answer": "a",
     "hint": "Subtract each term from the next one.",
     "explanation": "Differences: $4-2 = 2$, $8-4 = 4$, $16-8 = 8$, which are not equal, so A is true. R is the defining property of an AP and it is exactly why the list fails: the terms are **multiplied** by $2$, not increased by a fixed number."
@@ -249,7 +249,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Figures are built from dots. The pictures show Figure 1, Figure 2 and Figure 3 of four patterns. In which pattern do the numbers of dots form an AP?",
+    "prompt": "Figures are made from dots. The pictures show Figure 1, Figure 2 and Figure 3 for four patterns. In which pattern do the numbers of dots form an AP?",
     "options": [
       {
         "id": "a",
@@ -449,7 +449,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Equal hops are drawn along a number line. Tap the point that shows the **4th term** of this AP.",
+    "prompt": "Equal jumps are drawn along a number line. Tap the point that shows the **4th term** of this AP.",
     "image": {
       "src": "/img/c10-ma-ap/hs-hops.svg",
       "alt": "Number line with five points 7, 12, 17, 22 and 27 joined by equal hops"
@@ -502,7 +502,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the term that is the **arithmetic mean** of $12$ and $22$.",
+    "prompt": "Tap the term that is the **arithmetic mean** (average) of $12$ and $22$.",
     "image": {
       "src": "/img/c10-ma-ap/hs-hops.svg",
       "alt": "Number line with five points 7, 12, 17, 22 and 27 joined by equal hops"
@@ -555,7 +555,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each situation with the first term $a$ and common difference $d$ of the list it creates.",
+    "prompt": "Match each situation with the first term $a$ and common difference $d$ of the list it makes.",
     "image": {
       "src": "/img/c10-ma-ap/situations.svg",
       "alt": "Three small bar charts titled taxi fare, ladder rungs and money box"
@@ -617,7 +617,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The bottom rung of a ladder is $60$ cm long and each rung above it is $2$ cm shorter than the one below. How long is the **15th rung** from the bottom?",
+    "prompt": "The bottom rung (step) of a ladder is $60$ cm long. Each rung above it is $2$ cm shorter than the one below it. How long is the **15th rung** from the bottom?",
     "image": {
       "src": "/img/c10-ma-ap/ladder-q5.svg",
       "alt": "A ladder whose rungs get shorter going up"
@@ -734,7 +734,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The rungs of a ladder form an AP: the bottom rung is $45$ cm and each rung above is $2$ cm shorter. Tap the rung that is **39 cm** long.",
+    "prompt": "The rungs (steps) of a ladder form an AP. The bottom rung is $45$ cm long and each rung above is $2$ cm shorter. Tap the rung that is **39 cm** long.",
     "image": {
       "src": "/img/c10-ma-ap/hs-ladder.svg",
       "alt": "A ladder with six rungs getting shorter going up"
@@ -1112,7 +1112,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "In an AP the sum of the 3rd and 7th terms is $30$ and the sum of the 5th and 9th terms is $46$. What are the first three terms?",
+    "prompt": "In an AP, the sum of the 3rd and 7th terms is $30$. The sum of the 5th and 9th terms is $46$. What are the first three terms?",
     "image": {
       "src": "/img/c10-ma-ap/slots.svg",
       "alt": "Ten boxes a1 to a10 with a3 and a7 shaded orange and a5 and a9 shaded green"
@@ -1311,7 +1311,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In an AP the first term is $5$ and the 11th term is $45$. Find the common difference $d$ and the sum of the first $11$ terms $S_{11}$.",
+    "prompt": "In an AP, the first term is $5$ and the 11th term is $45$. Find the common difference $d$ and the sum of the first $11$ terms, $S_{11}$.",
     "image": {
       "src": "/img/c10-ma-ap/bars-q29.svg",
       "alt": "Eleven rising bars of an AP, the first marked 5 and the eleventh marked 45"
@@ -1350,7 +1350,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A job starts with a monthly salary of ₹22,000 and the monthly salary goes up by ₹1,500 every year. In which year does the monthly salary become ₹40,000?",
+    "prompt": "A job starts with a monthly salary of ₹22,000. The monthly salary goes up by ₹1,500 every year. In which year does the monthly salary become ₹40,000?",
     "image": {
       "src": "/img/c10-ma-ap/salary-bars.svg",
       "alt": "Bars of salary rising each year"
@@ -1495,7 +1495,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "In a potato race the first potato is $5$ m from the bucket and the potatoes are $3$ m apart in a line. Tap the potato that is **11 m** from the bucket.",
+    "prompt": "In a potato race, the first potato is $5$ m from the bucket. The potatoes are in a line, $3$ m apart from each other. Tap the potato that is **11 m** from the bucket.",
     "image": {
       "src": "/img/c10-ma-ap/hs-potato.svg",
       "alt": "A bucket and five potatoes in a line with the distances 5 m and 3 m marked"
@@ -1625,7 +1625,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "A spiral is made of semicircles with radii $0.5$ cm, $1.0$ cm, $1.5$ cm, $2.0$ cm, $\\dots$ in that order, centres alternately at A and B. Tap the semicircle of radius **2.0 cm**.",
+    "prompt": "A spiral is made of semicircles with radii $0.5$ cm, $1.0$ cm, $1.5$ cm, $2.0$ cm, $\\dots$ in that order. Their centres are at A and B by turns (A, then B, then A, and so on). Tap the semicircle of radius **2.0 cm**.",
     "image": {
       "src": "/img/c10-ma-ap/hs-spiral.svg",
       "alt": "A spiral of six semicircles whose centres alternate between A and B"
@@ -1825,7 +1825,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Select **all** the expressions that equal the sum $S_n$ of the first $n$ terms of an AP with first term $a$, common difference $d$ and $n$th term $a_n$.",
+    "prompt": "An AP has first term $a$, common difference $d$ and $n$th term $a_n$. Select **all** the expressions that equal $S_n$, the sum of its first $n$ terms.",
     "image": {
       "src": "/img/c10-ma-ap/gauss-rev.svg",
       "alt": "The sum written forward and backward with each column totalling 2a plus n minus 1 times d"
@@ -2005,7 +2005,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A father puts ₹150 in a money box on his daughter's first birthday, ₹225 on the second, ₹300 on the third and so on, adding ₹75 more each time. How much is in the box after the **17th** birthday?",
+    "prompt": "A father puts ₹150 in a money box on his daughter's first birthday. He puts ₹225 on the second birthday, ₹300 on the third, and so on. Each time he adds ₹75 more. How much is in the box after the **17th** birthday?",
     "image": {
       "src": "/img/c10-ma-ap/piggy-bars.svg",
       "alt": "Bars of money put in each birthday, rising by the same step"
@@ -2145,7 +2145,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "$75$ logs are stacked with $15$ in the bottom row and one log fewer in each row above. In how many rows are they placed and how many logs are in the top row?",
+    "prompt": "$75$ logs are stacked. There are $15$ logs in the bottom row, and each row above has one log fewer. How many rows are there, and how many logs are in the top row?",
     "image": {
       "src": "/img/c10-ma-ap/logs-q.svg",
       "alt": "A stack of logs with 15, 14, 13 logs in the lowest rows"
@@ -2184,7 +2184,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "In a potato race the first potato is $6$ m from the bucket and the other $7$ potatoes are $4$ m apart in a line. A runner brings the potatoes **one at a time** to the bucket, starting and ending at the bucket. What is the total distance she runs?",
+    "prompt": "In a potato race, the first potato is $6$ m from the bucket. The other $7$ potatoes are in a line, $4$ m apart from each other. A runner brings the potatoes to the bucket **one at a time**. She starts and ends at the bucket. What is the total distance she runs?",
     "image": {
       "src": "/img/c10-ma-ap/potato-q.svg",
       "alt": "A bucket and potatoes in a line, the first 6 m from the bucket and the rest 4 m apart"

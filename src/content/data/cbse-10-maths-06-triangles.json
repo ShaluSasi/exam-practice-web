@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Which pair of figures is **always** similar, whatever sizes are chosen for the two figures of the pair?",
+  "prompt": "Which pair of figures is **always** similar, no matter what sizes the two figures have?",
   "options": [
    {
     "id": "a",
@@ -113,7 +113,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A photographer enlarges a $35$ mm film into a $45$ mm print. A line that measures $14$ mm on the film will measure how long on the print?",
+  "prompt": "A photographer enlarges (makes bigger) a $35$ mm film into a $45$ mm print. A line measures $14$ mm on the film. How long will it be on the print?",
   "image": {
    "src": "/img/c10-ma-triangles/photo-scale.svg",
    "alt": "A 35 mm photograph enlarged to a 45 mm print"
@@ -214,7 +214,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "A bulb hangs above a cardboard quadrilateral and its shadow falls on the table, as in Activity 1. Tap the **shadow**, the enlarged figure similar to the cardboard.",
+  "prompt": "A bulb hangs above a cardboard quadrilateral. Its shadow falls on the table, as in Activity 1. Tap the **shadow**. It is the bigger figure that is similar to the cardboard.",
   "image": {
    "src": "/img/c10-ma-triangles/bulb-shadow.svg",
    "alt": "A lighted bulb above a cardboard quadrilateral casts an enlarged shadow on the table"
@@ -341,7 +341,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The house-shaped figure on the grid is enlarged to **twice its size** (every length doubled, angles unchanged). Which picture shows the enlargement?",
+  "prompt": "The house-shaped figure on the grid is made **twice its size** (every length is doubled and the angles stay the same). Which picture shows the bigger figure?",
   "image": {
    "src": "/img/c10-ma-triangles/enl-orig.svg",
    "alt": "A house-shaped pentagon 3 squares wide and 3 squares tall on a grid"
@@ -509,7 +509,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$. Tap the side of the triangle to which $DE$ must be parallel.",
+  "prompt": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$, with $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$. Tap the side of the triangle that $DE$ must be parallel to.",
   "image": {
    "src": "/img/c10-ma-triangles/bpt-fig2.svg",
    "alt": "Triangle ABC with a line DE drawn across it, cutting AB at D and AC at E"
@@ -556,7 +556,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "In $\\triangle ABC$, $DE\\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD=6$ cm, $DB=4$ cm and $AE=9$ cm, find $EC$.",
+  "prompt": "In $\\triangle ABC$, $DE\\parallel BC$. $D$ is on $AB$ and $E$ is on $AC$. If $AD=6$ cm, $DB=4$ cm and $AE=9$ cm, find $EC$.",
   "image": {
    "src": "/img/c10-ma-triangles/bpt-num.svg",
    "alt": "Triangle ABC with DE parallel to BC: AD 6 cm, DB 4 cm, AE 9 cm, EC unknown"
@@ -595,7 +595,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "In $\\triangle ABC$, $DE\\parallel BC$ with $AD=x$, $DB=x-2$, $AE=x+2$ and $EC=x-1$ (in cm). Find $x$.",
+  "prompt": "In $\\triangle ABC$, $DE\\parallel BC$. Also, $AD=x$, $DB=x-2$, $AE=x+2$ and $EC=x-1$ (in cm). Find $x$.",
   "image": {
    "src": "/img/c10-ma-triangles/bpt-alg.svg",
    "alt": "Triangle ABC with DE parallel to BC and sides marked x, x-2, x+2 and x-1"
@@ -724,7 +724,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "order",
-  "prompt": "Arrange the proof of Theorem 6.2 (if a line divides two sides in the same ratio, it is parallel to the third side).",
+  "prompt": "Arrange the steps of the proof of Theorem 6.2 (if a line divides two sides of a triangle in the same ratio, it is parallel to the third side).",
   "image": {
    "src": "/img/c10-ma-triangles/conv-proof.svg",
    "alt": "Triangle ABC with line DE assumed not parallel to BC and a second line DE-prime drawn parallel to BC"
@@ -914,7 +914,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "The diagonals $AC$ and $BD$ of a trapezium $ABCD$ with $AB\\parallel DC$ meet at $O$. If $OA=8$, $OC=12$ and $OB=10$, find $OD$.",
+  "prompt": "$ABCD$ is a trapezium with $AB\\parallel DC$. Its diagonals $AC$ and $BD$ meet at $O$. If $OA=8$, $OC=12$ and $OB=10$, find $OD$.",
   "image": {
    "src": "/img/c10-ma-triangles/trap-diag.svg",
    "alt": "Trapezium ABCD with AB parallel to DC; diagonals meet at O with OA 8, OC 12, OB 10"
@@ -953,7 +953,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "In trapezium $ABCD$ with $AB\\parallel DC$, the diagonals cross at $O$ and $\\triangle OAB$ is shaded. Tap the triangle that is **similar** to $\\triangle OAB$.",
+  "prompt": "In trapezium $ABCD$, $AB\\parallel DC$. The diagonals cross at $O$, and $\\triangle OAB$ is shaded. Tap the triangle that is **similar** to $\\triangle OAB$.",
   "image": {
    "src": "/img/c10-ma-triangles/trap-diag-h.svg",
    "alt": "Trapezium ABCD with AB parallel to DC; diagonals cross at O; triangle OAB is shaded"
@@ -1000,7 +1000,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "order",
-  "prompt": "In $\\triangle PQR$, $\\dfrac{PS}{SQ}=\\dfrac{PT}{TR}$ and $\\angle PST=\\angle PRQ$. Arrange the proof that $PQR$ is isosceles.",
+  "prompt": "In $\\triangle PQR$, $\\dfrac{PS}{SQ}=\\dfrac{PT}{TR}$ and $\\angle PST=\\angle PRQ$. Arrange the steps to prove that $PQR$ is isosceles.",
   "image": {
    "src": "/img/c10-ma-triangles/ex3-iso.svg",
    "alt": "Triangle PQR with ST drawn so that PS over SQ equals PT over TR and angle PST equals angle PRQ"
@@ -1316,7 +1316,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "In the figure $PQ\\parallel RS$ and the lines $PS$ and $QR$ cross at $O$. Tap the angle $\\angle ORS$, which equals $\\angle OQP$.",
+  "prompt": "In the figure, $PQ\\parallel RS$. The lines $PS$ and $QR$ cross at $O$. Tap the angle $\\angle ORS$. (It is equal to $\\angle OQP$.)",
   "image": {
    "src": "/img/c10-ma-triangles/hourglass-h.svg",
    "alt": "Lines PS and QR cross at O with PQ parallel to RS, forming triangles POQ and SOR"
@@ -1363,7 +1363,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "In the figure $PQ\\parallel RS$ and $PS$, $QR$ meet at $O$. If $PO=4$, $OS=6$ and $QO=6$, find $OR$.",
+  "prompt": "In the figure, $PQ\\parallel RS$. The lines $PS$ and $QR$ meet at $O$. If $PO=4$, $OS=6$ and $QO=6$, find $OR$.",
   "image": {
    "src": "/img/c10-ma-triangles/hourglass.svg",
    "alt": "Lines PS and QR cross at O with PQ parallel to RS; PO 4, OS 6, QO 6, OR unknown"
@@ -1441,7 +1441,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "Lines $AC$ and $BD$ cross at $O$ with $OA\\cdot OB=OC\\cdot OD$. If $OA=3$, $OB=8$ and $OC=4$, find $OD$ and the triangles that are similar.",
+  "prompt": "Lines $AC$ and $BD$ cross at $O$, and $OA\\cdot OB=OC\\cdot OD$. If $OA=3$, $OB=8$ and $OC=4$, find $OD$. Also find which triangles are similar.",
   "image": {
    "src": "/img/c10-ma-triangles/ex6-cross.svg",
    "alt": "Lines AC and BD cross at O with OA 3, OC 4, OB 8 and OD unknown"
@@ -1480,7 +1480,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "$\\triangle ABC\\sim\\triangle QRP$. In the larger turned triangle, tap the vertex that corresponds to $B$.",
+  "prompt": "$\\triangle ABC\\sim\\triangle QRP$. The larger triangle is turned around. In it, tap the vertex that corresponds to (matches) $B$.",
   "image": {
    "src": "/img/c10-ma-triangles/corr-tri.svg",
    "alt": "Triangle ABC and a larger turned triangle QRP with the matching angles marked at A and Q and at B and R"
@@ -1595,7 +1595,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A girl $1.5$ m tall walks away from a lamp-post whose lamp is $4.5$ m above the ground, at $1.2$ m/s for $5$ seconds (she is then $6$ m from the post). How long is her shadow now?",
+  "prompt": "A girl $1.5$ m tall walks away from a lamp-post. The lamp is $4.5$ m above the ground. She walks at $1.2$ m/s for $5$ seconds, so she is now $6$ m from the post. How long is her shadow now?",
   "image": {
    "src": "/img/c10-ma-triangles/lamp-girl.svg",
    "alt": "A lamp-post 4.5 m high, a girl 1.5 m tall standing 6 m from it and her shadow on the ground"
@@ -1687,7 +1687,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange the steps that find the girl's shadow when the lamp is $4.5$ m high, the girl is $1.5$ m tall and $6$ m from the post.",
+  "prompt": "Arrange the steps to find the length of the girl's shadow. The lamp is $4.5$ m high. The girl is $1.5$ m tall and stands $6$ m from the post.",
   "image": {
    "src": "/img/c10-ma-triangles/lamp-girl.svg",
    "alt": "A lamp-post 4.5 m high, a girl 1.5 m tall standing 6 m from it and her shadow on the ground"
@@ -1738,7 +1738,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A $5$ m vertical pole casts a $3$ m shadow at the same time that a tower casts a $21$ m shadow. How tall is the tower?",
+  "prompt": "A $5$ m tall vertical pole casts (makes) a $3$ m shadow. At the same time, a tower casts a $21$ m shadow. How tall is the tower?",
   "image": {
    "src": "/img/c10-ma-triangles/tower-shadow.svg",
    "alt": "A 5 m pole with a 3 m shadow and a tower with a 21 m shadow at the same time of day"
@@ -1777,7 +1777,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "$\\triangle ABC\\sim\\triangle PQR$ and $CM$, $RN$ are their medians to $AB$ and $PQ$. If $AB=12$, $PQ=8$ and $CM=9$, find $RN$.",
+  "prompt": "$\\triangle ABC\\sim\\triangle PQR$. $CM$ and $RN$ are their medians to $AB$ and $PQ$. If $AB=12$, $PQ=8$ and $CM=9$, find $RN$.",
   "image": {
    "src": "/img/c10-ma-triangles/medians.svg",
    "alt": "Triangle ABC with AB 12 and median CM 9, and a similar triangle PQR with PQ 8 and median RN unknown"
@@ -1863,7 +1863,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "multi",
-  "prompt": "$\\triangle ABC\\sim\\triangle PQR$; $CM$ and $RN$ are medians to $AB$ and $PQ$. Select **all** true statements.",
+  "prompt": "$\\triangle ABC\\sim\\triangle PQR$. $CM$ and $RN$ are medians to $AB$ and $PQ$. Select **all** true statements.",
   "image": {
    "src": "/img/c10-ma-triangles/medians.svg",
    "alt": "Triangle ABC with AB 12 and median CM 9, and a similar triangle PQR with PQ 8 and median RN unknown"
@@ -1949,7 +1949,7 @@
   "difficulty": "medium",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "The altitudes $AD$ and $CE$ of $\\triangle ABC$ intersect each other. Tap the point where they meet.",
+  "prompt": "The altitudes $AD$ and $CE$ of $\\triangle ABC$ cross each other. Tap the point where they meet.",
   "image": {
    "src": "/img/c10-ma-triangles/altitudes.svg",
    "alt": "Triangle ABC with altitudes AD and CE drawn"
@@ -2103,7 +2103,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "match",
-  "prompt": "In each case $DE\\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. Match the data with the required length.",
+  "prompt": "In each case, $DE\\parallel BC$, with $D$ on $AB$ and $E$ on $AC$. Match the given data with the length you need to find.",
   "image": {
    "src": "/img/c10-ma-triangles/mid-bpt.svg",
    "alt": "Triangle ABC where D is the midpoint of AB and DE is parallel to BC"
@@ -2221,8 +2221,8 @@
    "src": "/img/c10-ma-triangles/aaa-tri.svg",
    "alt": "Two triangles with the same three angles but different sizes"
   },
-  "assertion": "If $\\angle A=\\angle D$, $\\angle B=\\angle E$ and $\\angle C=\\angle F$ in $\\triangle ABC$ and $\\triangle DEF$, then $\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{CA}{FD}$.",
-  "reason": "If corresponding angles of two triangles are equal, their corresponding sides are in the same ratio, and the triangles are similar.",
+  "assertion": "In $\\triangle ABC$ and $\\triangle DEF$, $\\angle A=\\angle D$, $\\angle B=\\angle E$ and $\\angle C=\\angle F$. Then $\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{CA}{FD}$.",
+  "reason": "If the corresponding angles of two triangles are equal, their corresponding sides are in the same ratio. Also, the triangles are similar.",
   "answer": "a",
   "hint": "Think of the AAA (AA) criterion.",
   "explanation": "Theorem 6.3 says equal corresponding angles force the sides to be in the same ratio (the triangles in the picture have the same angles but different sizes). A is exactly that conclusion and R is the theorem, so R explains A."

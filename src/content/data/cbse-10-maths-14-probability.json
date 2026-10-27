@@ -89,7 +89,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the mark on the scale that shows the probability of getting a number **less than 7** when a fair die is thrown once.",
+    "prompt": "A fair die is thrown once. Tap the mark on the scale that shows the probability of getting a number **less than 7**.",
     "image": {
       "src": "/img/c10-ma-probability/scale.svg",
       "alt": "A probability scale with marks at 0, 0.2, 0.5, 0.8 and 1"
@@ -142,7 +142,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "In which of these experiments are the outcomes **equally likely**? Select all that apply. (The pictures (a) to (d) show the first four.)",
+    "prompt": "In which of these experiments are the outcomes **equally likely** (have the same chance)? Select all that apply. (The pictures (a) to (d) show the first four.)",
     "image": {
       "src": "/img/c10-ma-probability/experiments.svg",
       "alt": "Four experiments: a coin, a bag of 4 red and 1 blue ball, a die and a spinner with a large red half"
@@ -748,7 +748,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The ten, jack, queen, king and ace of diamonds are well shuffled face down. One card is picked and it is the **queen**, which is put aside. What is the probability that the **next** card picked is an **ace**?",
+    "prompt": "The ten, jack, queen, king and ace of diamonds are shuffled well and placed face down. One card is picked. It is the **queen**, and it is put aside. What is the probability that the **next** card picked is an **ace**?",
     "image": {
       "src": "/img/c10-ma-probability/five-cards.svg",
       "alt": "The queen of diamonds lifted out above four face-down cards"
@@ -787,7 +787,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A lot of **144** ball pens has **20** defective ones; the rest are good. Nuri buys a pen only if it is good. One pen is drawn at random. What is the probability that she **will buy** it?",
+    "prompt": "A lot of **144** ball pens has **20** defective (faulty) ones. The rest are good. Nuri buys a pen only if it is good. One pen is drawn at random. What is the probability that she **will buy** it?",
     "image": {
       "src": "/img/c10-ma-probability/pens.svg",
       "alt": "A grid of 144 pens with 20 shown in red as defective"
@@ -826,7 +826,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A box contains **90** discs numbered 1 to 90. One disc is drawn at random. What is the probability that it bears a **two-digit number**?",
+    "prompt": "A box contains **90** discs numbered 1 to 90. One disc is drawn at random. What is the probability that it has a **two-digit number** on it?",
     "image": {
       "src": "/img/c10-ma-probability/discs.svg",
       "alt": "A grid of discs numbered 1 to 90"
@@ -904,7 +904,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A carton has 100 shirts: **88 good**, **8 with minor defects** and **4 with major defects**. Sujatha **rejects only the shirts with major defects**. One shirt is drawn at random. What is the probability that it is **acceptable to Sujatha**?",
+    "prompt": "A carton has 100 shirts: **88 good**, **8 with minor defects** (small faults) and **4 with major defects** (big faults). Sujatha **rejects only the shirts with major defects**. One shirt is drawn at random. What is the probability that it is **acceptable to Sujatha**?",
     "image": {
       "src": "/img/c10-ma-probability/shirts.svg",
       "alt": "A carton of 100 shirts with 88 good, 8 minor defect and 4 major defect"
@@ -1084,7 +1084,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In which spinner, with **all sectors equal**, is the probability that the pointer stops on **red** equal to $\\dfrac{1}{4}$?",
+    "prompt": "Each spinner has **all sectors equal**. In which spinner is the probability that the pointer stops on **red** equal to $\\dfrac{1}{4}$?",
     "image": {
       "src": "/img/c10-ma-probability/spinner8.svg",
       "alt": "A spinner with eight equal sectors"
@@ -1288,7 +1288,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Rows show the number on the **blue die** and columns the number on the **grey die**. Tap the cell where the blue die shows **2** and the grey die shows **6**.",
+    "prompt": "Rows show the number on the **blue die**, and columns show the number on the **grey die**. Tap the cell where the blue die shows **2** and the grey die shows **6**.",
     "image": {
       "src": "/img/c10-ma-probability/grid36-hs.svg",
       "alt": "A blank 6 by 6 table with a blue die down the side and a grey die across the top"
@@ -1495,7 +1495,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A game consists of tossing a one-rupee coin **3 times**. Hanif **wins** if all three tosses give the same result (three heads or three tails) and loses otherwise. What is the probability that Hanif **loses**?",
+    "prompt": "A game is played by tossing a one-rupee coin **3 times**. Hanif **wins** if all three tosses give the same result (three heads or three tails). Otherwise he loses. What is the probability that Hanif **loses**?",
     "image": {
       "src": "/img/c10-ma-probability/tree3.svg",
       "alt": "A tree diagram of the eight outcomes of three coin tosses"
@@ -1892,7 +1892,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "order",
-    "prompt": "Savita and Hamida want the probability that they have the **same birthday** (ignore leap years). Put the reasoning in order.",
+    "prompt": "Savita and Hamida want to find the probability that they have the **same birthday** (ignore leap years). Put the reasoning in order.",
     "image": {
       "src": "/img/c10-ma-probability/birthday.svg",
       "alt": "A year strip of 365 days with two birthday markers"
@@ -2192,8 +2192,8 @@
       "src": "/img/c10-ma-probability/coin-streak.svg",
       "alt": "Ten coin tosses showing seven heads"
     },
-    "assertion": "A fair coin tossed 10 times gave 7 heads, so the theoretical probability of a head is $\\dfrac{7}{10}$.",
-    "reason": "Theoretical probability comes from equally likely outcomes, not from the result of one particular set of tosses.",
+    "assertion": "A fair coin was tossed 10 times and gave 7 heads. So the theoretical probability of a head is $\\dfrac{7}{10}$.",
+    "reason": "Theoretical probability comes from equally likely outcomes. It does not come from the result of one particular set of tosses.",
     "answer": "d",
     "hint": "Theoretical probability of a head for a fair coin does not change with a particular run of tosses.",
     "explanation": "A is false: the theoretical probability of a head for a fair coin is $\\tfrac{1}{2}$ whatever happened in the 10 tosses; $\\tfrac{7}{10}$ is only the experimental (empirical) result. R is true: theoretical probability is worked out from equally likely outcomes."

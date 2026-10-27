@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Akhila spent ₹20 at a village fair. A Giant Wheel ride costs ₹3 and a game of Hoopla costs ₹4. The number of Hoopla games she played is **half** the number of rides. Let $x$ be the rides and $y$ the games. Which pair of equations represents this?",
+    "prompt": "Akhila spent ₹20 at a village fair. A Giant Wheel ride costs ₹3 and a game of Hoopla costs ₹4. The number of Hoopla games she played is **half** the number of rides. Let $x$ be the number of rides and $y$ the number of games. Which pair of equations shows this?",
     "image": {
       "src": "/img/c10-ma-linear-equations/fair.svg",
       "alt": "A Giant Wheel and a Hoopla stall at a village fair with the price of each"
@@ -246,7 +246,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The table compares the coefficients of $9x - 6y + 15 = 0$ and $3x - 2y + 7 = 0$. What do the lines representing this pair do?",
+    "prompt": "The table compares the coefficients of $9x - 6y + 15 = 0$ and $3x - 2y + 7 = 0$. What do the lines of this pair do?",
     "image": {
       "src": "/img/c10-ma-linear-equations/ratio-table.svg",
       "alt": "A table with the pair of equations and the ratios 9 over 3, minus 6 over minus 2 and 15 over 7"
@@ -285,7 +285,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "For what value of $k$ will the pair $3x + 2y = 8$ and $6x + ky = 10$ have **no solution**? (In the picture the second line pivots about a fixed point as $k$ changes.)",
+    "prompt": "For what value of $k$ will the pair $3x + 2y = 8$ and $6x + ky = 10$ have **no solution**? (In the picture, the second line turns about a fixed point as $k$ changes.)",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-pivot.svg",
       "alt": "A fixed line 3x + 2y = 8 and a second line that pivots, shown parallel to the first"
@@ -363,7 +363,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The lines $x - y + 1 = 0$ and $3x + 2y = 12$ and the x axis enclose the shaded triangle. What is its area in square units?",
+    "prompt": "The lines $x - y + 1 = 0$ and $3x + 2y = 12$ and the x axis make the shaded triangle. What is its area in square units?",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-tri.svg",
       "alt": "Two lines and the x axis forming a shaded triangle"
@@ -561,7 +561,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Rani bought $x$ pants and $y$ skirts. The number of skirts is 4 less than twice the number of pants, and also 7 less than three times the number of pants. How many pants and skirts did she buy?",
+    "prompt": "Rani bought $x$ pants and $y$ skirts. The number of skirts is 4 less than twice the number of pants. It is also 7 less than three times the number of pants. How many pants and skirts did she buy?",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-champa.svg",
       "alt": "Two lines y = 2x - 4 and y = 3x - 7 crossing at one point"
@@ -600,7 +600,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A shop bills 5 pencils and 3 pens for ₹38, and 3 pencils and 5 pens for ₹42. What does **one pen** cost?",
+    "prompt": "At a shop, 5 pencils and 3 pens cost ₹38. Also, 3 pencils and 5 pens cost ₹42. What does **one pen** cost?",
     "image": {
       "src": "/img/c10-ma-linear-equations/shop-pencils.svg",
       "alt": "Two bills: five pencils and three pens, and three pencils and five pens"
@@ -768,7 +768,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "hotspot",
-    "prompt": "The graph shows the father's age $y$ against the son's age $x$ for the two conditions of the age problem ($y = 5x - 12$ and $y = 3x + 14$). Tap the point that gives their **present ages**.",
+    "prompt": "The graph is for the father and son age problem. It shows the father's age $y$ against the son's age $x$ for the two conditions ($y = 5x - 12$ and $y = 3x + 14$). Tap the point that gives their **present ages**.",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-ages.svg",
       "alt": "Two straight lines of fathers age against sons age crossing at one point"
@@ -867,7 +867,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The incomes of two people are in the ratio $7 : 5$ and their spendings are in the ratio $3 : 2$. Each saves ₹1500 a month. Find the monthly income of the **first** person.",
+    "prompt": "The incomes of two people are in the ratio $7 : 5$. The money they spend is in the ratio $3 : 2$. Each person saves ₹1500 a month. Find the monthly income of the **first** person.",
     "image": {
       "src": "/img/c10-ma-linear-equations/incomes.svg",
       "alt": "Two bars each split into spending and an equal saving"
@@ -952,7 +952,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The sum of the digits of a two-digit number is 9. The number is 27 more than the number formed by reversing its digits. Find the number.",
+    "prompt": "The sum of the digits of a two-digit number is 9. When its digits are reversed, we get a new number. The original number is 27 more than this new number. Find the original number.",
     "image": {
       "src": "/img/c10-ma-linear-equations/digits.svg",
       "alt": "Digit tiles x and y swapped when the number is reversed"
@@ -1030,7 +1030,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A taxi charges a fixed amount plus a rate per km. The fare is ₹140 for 10 km and ₹200 for 15 km (see the graph). What is the fare for 25 km?",
+    "prompt": "A taxi charges a fixed amount plus a charge for each km. The fare is ₹140 for 10 km and ₹200 for 15 km (see the graph). What is the fare for 25 km?",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-taxi.svg",
       "alt": "A straight line graph of taxi fare against distance through the points 10 km, 140 rupees and 15 km, 200 rupees"
@@ -1069,7 +1069,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "On the fare graph, tap the point that shows the **fixed charge** (the fare before any distance is travelled).",
+    "prompt": "On the fare graph, tap the point that shows the **fixed charge** (the fare before the taxi travels any distance).",
     "image": {
       "src": "/img/c10-ma-linear-equations/g-taxi.svg",
       "alt": "A straight line graph of taxi fare against distance through the points 10 km, 140 rupees and 15 km, 200 rupees"
@@ -1122,7 +1122,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A fraction becomes $\\dfrac{3}{5}$ when 1 is added to both its numerator and denominator, and $\\dfrac{2}{3}$ when 3 is added to both. Find the fraction.",
+    "prompt": "If 1 is added to both the numerator and the denominator of a fraction, it becomes $\\dfrac{3}{5}$. If 3 is added to both, it becomes $\\dfrac{2}{3}$. Find the fraction.",
     "image": {
       "src": "/img/c10-ma-linear-equations/fraction-bars.svg",
       "alt": "Bars showing 3 over 5 after adding 1 and 2 over 3 after adding 3"
@@ -1161,7 +1161,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Meena withdraws ₹1700 from a bank in ₹50 and ₹100 notes only and receives 22 notes in all. How many ₹100 notes does she get?",
+    "prompt": "Meena takes out ₹1700 from a bank. She gets only ₹50 and ₹100 notes, and 22 notes in all. How many ₹100 notes does she get?",
     "image": {
       "src": "/img/c10-ma-linear-equations/notes.svg",
       "alt": "A fifty rupee note and a hundred rupee note"
@@ -1200,7 +1200,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A library charges a fixed amount for the first 2 days and an extra amount for **each day after that**. A book kept for 6 days costs ₹38 and one kept for 9 days costs ₹56. What is the charge for keeping a book 12 days?",
+    "prompt": "A library charges a fixed amount for the first 2 days. Then it charges an extra amount for **each day after that**. Keeping a book for 6 days costs ₹38. Keeping a book for 9 days costs ₹56. What is the charge for keeping a book for 12 days?",
     "image": {
       "src": "/img/c10-ma-linear-equations/library-days.svg",
       "alt": "Twelve day boxes where the first two are the fixed-charge days"
@@ -1439,7 +1439,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "Two angles $p$ and $q$ form a linear pair and the larger exceeds the smaller by $40^\\circ$. Tap the angle that measures $110^\\circ$.",
+    "prompt": "Two angles $p$ and $q$ form a linear pair. The larger angle is $40^\\circ$ more than the smaller one. Tap the angle that measures $110^\\circ$.",
     "image": {
       "src": "/img/c10-ma-linear-equations/linepair.svg",
       "alt": "A ray standing on a straight line with the angles p and q marked"
@@ -1543,7 +1543,7 @@
       "src": "/img/c10-ma-linear-equations/g-dep3.svg",
       "alt": "Two coincident lines"
     },
-    "assertion": "The pair $3x - y = 3$ and $9x - 3y = 9$ has a unique solution.",
+    "assertion": "The pair $3x - y = 3$ and $9x - 3y = 9$ has a unique solution (exactly one solution).",
     "reason": "The second equation is 3 times the first equation.",
     "answer": "d",
     "hint": "Multiply the first equation by 3.",
@@ -1855,7 +1855,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "match",
-    "prompt": "For the pair $2x + 3y = 7$ and the second equation shown, match each second equation with the number of solutions.",
+    "prompt": "The first equation is $2x + 3y = 7$. Match each second equation with the number of solutions the pair has.",
     "image": {
       "src": "/img/c10-ma-linear-equations/three-cases.svg",
       "alt": "Three panels showing meeting, coinciding and parallel lines"

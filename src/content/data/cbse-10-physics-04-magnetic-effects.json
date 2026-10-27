@@ -11,7 +11,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A small compass is placed near a straight copper wire. When the key is closed and a current flows, the needle swings away from its north-south position. What does this show?",
+  "prompt": "A small compass is placed near a straight copper wire. The key is closed, and a current flows. The needle moves away from its north-south position. What does this show?",
   "image": {
    "src": "/img/c10-magnetism/oersted.svg",
    "alt": "A compass under a wire carrying current, the needle swinging away from north"
@@ -167,7 +167,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "In panel (a) the current flows north to south in the wire above the compass and the north pole of the needle turns towards the east. The connections to the cells are then reversed, as in (b). What does the needle do?",
+  "prompt": "In panel (a), the current flows from north to south in the wire above the compass. The north pole of the needle turns towards the east. Then the connections to the cells are reversed, as in (b). What does the needle do now?",
   "image": {
    "src": "/img/c10-magnetism/compass-wire-ab.svg",
    "alt": "Two panels showing a wire above a compass with current in opposite directions"
@@ -206,7 +206,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "Look along a long straight wire carrying current (the brown dot is the wire). Which picture shows the magnetic field lines around it?",
+  "prompt": "A long straight wire carries current. You look along the wire (the brown dot is the wire). Which picture shows the magnetic field lines around it?",
   "hint": "The field lines close on themselves around the wire.",
   "explanation": "Around a straight current-carrying wire the field lines are **concentric circles centred on the wire**. The circles become larger as you move away from the wire, where the field is weaker. Straight or radial lines are never produced by a straight wire.",
   "options": [
@@ -249,7 +249,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A straight wire carries current **out of the page, towards you**. Using the right-hand thumb rule, which picture shows the direction of the field lines around it?",
+  "prompt": "A straight wire carries current **out of the page, towards you**. Use the right-hand thumb rule. Which picture shows the direction of the field lines around it?",
   "hint": "Point your right thumb towards you and watch which way the fingers curl.",
   "explanation": "Hold the wire in your **right hand with the thumb along the current** (towards you). The fingers wrap around the wire **anticlockwise** as seen by you. If the current went into the page the field would be clockwise. Straight or radial lines are wrong because the field wraps around the wire.",
   "options": [
@@ -300,7 +300,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "The same wire and compass are used in both panels. The needle turns through a larger angle in the right panel, where the current is larger. What does this show?",
+  "prompt": "The same wire and compass are used in both panels. The current is larger in the right panel, and the needle turns through a larger angle there. What does this show?",
   "image": {
    "src": "/img/c10-magnetism/current-strength.svg",
    "alt": "A wire above a compass with a small current and a large current, the needle turning more for the large current"
@@ -339,7 +339,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A horizontal power line carries current from east to west. What is the direction of the magnetic field at point A directly above the wire and at point B directly below it?",
+  "prompt": "A horizontal power line carries current from east to west. Point A is directly above the wire, and point B is directly below it. What is the direction of the magnetic field at A and at B?",
   "image": {
    "src": "/img/c10-magnetism/powerline.svg",
    "alt": "A power line between two poles with points A above and B below the wire"
@@ -429,7 +429,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "mcq",
-  "prompt": "A single circular loop carrying a current produces a magnetic field of strength B at its centre. A coil of **20 identical turns** carries the same current. What is the field at its centre?",
+  "prompt": "A single circular loop carries a current. It produces a magnetic field of strength B at its centre. A coil of **20 identical turns** carries the same current. What is the field at the centre of this coil?",
   "image": {
    "src": "/img/c10-magnetism/coil-turns.svg",
    "alt": "A one-turn loop with a weaker field arrow and a five-turn coil with a stronger field arrow"
@@ -507,7 +507,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "mcq",
-  "prompt": "A current-carrying rod is placed in a magnetic field. The force on the rod is largest when the angle between the direction of the current and the magnetic field is",
+  "prompt": "A rod carrying current is placed in a magnetic field. The force on the rod is largest when the angle between the direction of the current and the magnetic field is",
   "image": {
    "src": "/img/c10-magnetism/rod-force.svg",
    "alt": "End view of a rod between magnet poles with the force arrow to the left"
@@ -601,7 +601,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A horizontal wire carries current to the **right** in a magnetic field directed **into the page**. In which direction is the force on the wire?",
+  "prompt": "A horizontal wire carries current to the **right**. The magnetic field is directed **into the page**. In which direction is the force on the wire?",
   "image": {
    "src": "/img/c10-magnetism/wire-in-field.svg",
    "alt": "A wire carrying current to the right in a magnetic field into the page"
@@ -640,7 +640,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "An electron enters a magnetic field that points up the page, moving to the right. Remember that the direction of conventional current is opposite to the direction of motion of electrons. The force on the electron is",
+  "prompt": "An electron moving to the right enters a magnetic field that points up the page. Remember: the direction of conventional current is opposite to the direction in which electrons move. The force on the electron is",
   "image": {
    "src": "/img/c10-magnetism/electron-field.svg",
    "alt": "An electron moving right in a magnetic field pointing up the page"
@@ -679,7 +679,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "A positively charged alpha particle moving towards the west is deflected towards the north by a magnetic field. The direction of the magnetic field is",
+  "prompt": "An alpha particle is positively charged. It is moving towards the west. A magnetic field deflects (turns) it towards the north. The direction of the magnetic field is",
   "image": {
    "src": "/img/c10-magnetism/alpha-map.svg",
    "alt": "A map showing an alpha particle moving west and bending north"
@@ -718,7 +718,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "You sit in a chamber with your back to one wall. An electron beam travelling horizontally from the back wall towards the front wall is deflected towards your **right** side. The direction of the magnetic field is",
+  "prompt": "You sit in a chamber with your back to one wall. An electron beam moves horizontally from the back wall towards the front wall. The beam is deflected (turned) towards your **right** side. The direction of the magnetic field is",
   "image": {
    "src": "/img/c10-magnetism/electron-beam.svg",
    "alt": "Top view of a chamber with an electron beam bending to the right"
@@ -796,7 +796,7 @@
   "difficulty": "hard",
   "marks": 3,
   "type": "mcq",
-  "prompt": "An electric oven of 2 kW power rating is operated on a 220 V domestic circuit that has a current rating of 5 A. What do you expect?",
+  "prompt": "An electric oven has a power rating of 2 kW. It is used on a 220 V domestic circuit that has a current rating of 5 A. What do you expect to happen?",
   "image": {
    "src": "/img/c10-magnetism/oven.svg",
    "alt": "A 2 kilowatt oven connected to a 220 volt 5 ampere circuit"
@@ -878,7 +878,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Magnetic field lines emerge from the north pole of a magnet. Tap the **north pole** of this bar magnet.",
+  "prompt": "Magnetic field lines come out of the north pole of a magnet. Tap the **north pole** of this bar magnet.",
   "image": {
    "src": "/img/c10-magnetism/bar-field.svg",
    "alt": "A bar magnet with field lines and arrows pointing from the left end to the right end"
@@ -925,7 +925,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "The strength of the field is shown by how close the lines are. Tap the region where the field of the magnet is **weakest**.",
+  "prompt": "The closer the lines are, the stronger the field. Tap the region where the field of the magnet is **weakest**.",
   "image": {
    "src": "/img/c10-magnetism/bar-field.svg",
    "alt": "A bar magnet with field lines and arrows pointing from the left end to the right end"
@@ -972,7 +972,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "A current-carrying solenoid behaves like a bar magnet. Tap the **end that behaves as the north pole**.",
+  "prompt": "A solenoid carrying current behaves like a bar magnet. Tap the **end that behaves as the north pole**.",
   "image": {
    "src": "/img/c10-magnetism/solenoid.svg",
    "alt": "A solenoid connected to a battery with field lines through the coil pointing to the right"
@@ -1125,7 +1125,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "In Fleming's left-hand rule the three fingers are at right angles. Tap the **forefinger**, which points in the direction of the **magnetic field**.",
+  "prompt": "In Fleming's left-hand rule, the three fingers are at right angles to each other. Tap the **forefinger**, which points in the direction of the **magnetic field**.",
   "image": {
    "src": "/img/c10-magnetism/fleming-hand.svg",
    "alt": "A left hand with thumb up, forefinger to the right and middle finger pointing down and to the left"
@@ -1172,7 +1172,7 @@
   "difficulty": "easy",
   "marks": 1,
   "type": "hotspot",
-  "prompt": "Tap the **live wire**, the one that is usually covered with red insulation.",
+  "prompt": "Tap the **live wire**. It is usually covered with red insulation.",
   "image": {
    "src": "/img/c10-magnetism/domestic-circuit.svg",
    "alt": "A household circuit with a red live wire, a black neutral wire, a green earth wire, a fuse and a meter"
@@ -1225,7 +1225,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "hotspot",
-  "prompt": "Tap the safety device that **melts to break the circuit** when the current becomes unusually large.",
+  "prompt": "Tap the safety device that **melts to break the circuit** when the current becomes much larger than normal.",
   "image": {
    "src": "/img/c10-magnetism/domestic-circuit.svg",
    "alt": "A household circuit with a fuse on the live wire, a meter and bulbs"
@@ -1378,7 +1378,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "multi",
-  "prompt": "In the rod experiment, the displacement of the rod increases when we do which of the following? Select all that apply.",
+  "prompt": "In the rod experiment, which of these will make the rod move more (increase its displacement)? Select all that apply.",
   "image": {
    "src": "/img/c10-magnetism/rod-force.svg",
    "alt": "End view of the rod in the magnetic field"
@@ -1425,7 +1425,7 @@
   "difficulty": "hard",
   "marks": 2,
   "type": "multi",
-  "prompt": "Which properties of a proton can change while it moves freely in a magnetic field? Select all that apply.",
+  "prompt": "A proton moves freely in a magnetic field. Which of its properties can change? Select all that apply.",
   "image": {
    "src": "/img/c10-magnetism/proton-path.svg",
    "alt": "A proton moving to the right in a magnetic field directed into the page, its path curving"
@@ -1751,7 +1751,7 @@
   "difficulty": "medium",
   "marks": 2,
   "type": "order",
-  "prompt": "Arrange these events in the order in which they happen when a fault causes a short circuit and the fuse does its job.",
+  "prompt": "A fault causes a short circuit, and the fuse does its job. Arrange these events in the order in which they happen.",
   "image": {
    "src": "/img/c10-magnetism/short-circuit.svg",
    "alt": "A live wire touching a neutral wire"
@@ -1832,7 +1832,7 @@
   },
   "hint": "Is the unit named because of the deflection, or because of him?",
   "explanation": "Both statements are true, but the unit is named **after the scientist**; it is not the reason the compass is deflected. So R does **not** explain A.",
-  "assertion": "In 1820 Oersted noticed that a compass needle was deflected by an electric current.",
+  "assertion": "In 1820, Oersted noticed that an electric current deflected (moved) a compass needle.",
   "reason": "The unit of magnetic field strength is called the oersted in his honour.",
   "answer": "b"
  },
@@ -1879,7 +1879,7 @@
   "hint": "All the current must pass through the fuse.",
   "explanation": "A is **false**: the fuse is connected **in series** with the live wire, so that the whole current passes through it. R is true: the fuse melts because of the **heating effect (Joule heating)**.",
   "assertion": "A fuse is connected in parallel with the appliance it protects.",
-  "reason": "A fuse wire melts due to Joule heating when the current in it becomes too large.",
+  "reason": "A fuse wire melts due to Joule heating (heating caused by current) when the current in it becomes too large.",
   "answer": "d"
  },
  {
@@ -1901,8 +1901,8 @@
   },
   "hint": "Think of what happens if the live wire touches the metal body.",
   "explanation": "Both are true and R explains A. With the body earthed, a leakage current flows safely to the ground through the **low-resistance** earth wire and the user avoids a severe shock.",
-  "assertion": "The metallic body of appliances such as a toaster or refrigerator is connected to the earth wire.",
-  "reason": "The earth wire provides a low-resistance path for any leakage current, keeping the body at the potential of the earth.",
+  "assertion": "The metal body of appliances such as a toaster or refrigerator is connected to the earth wire.",
+  "reason": "The earth wire gives a low-resistance path for any leakage current. This keeps the body at the potential of the earth.",
   "answer": "a"
  },
  {

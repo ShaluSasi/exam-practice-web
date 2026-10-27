@@ -242,7 +242,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "When the surface area of this top is calculated, one circle is **not** counted at all because it is hidden inside. Tap that circle.",
+    "prompt": "We find the surface area of this top. One circle is **not** counted at all, because it is hidden inside. Tap that circle.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/top-hs.svg",
       "alt": "A spinning top: a hemisphere resting on top of a cone that points down to the floor"
@@ -294,7 +294,7 @@
       "src": "/img/c10-ma-surface-volumes/two-cubes.svg",
       "alt": "Two identical cubes pressed together face to face with the joined face in red"
     },
-    "assertion": "When two cubes are joined face to face, the surface area of the cuboid so formed is less than the sum of the surface areas of the two cubes.",
+    "assertion": "Two cubes are joined face to face to form a cuboid. The surface area of this cuboid is less than the sum of the surface areas of the two cubes.",
     "reason": "The two faces that are pressed together are no longer on the outside.",
     "answer": "a",
     "hint": "How many faces disappear inside when the cubes touch?",
@@ -312,7 +312,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A decorative block is a cube of edge $10\\ \\text{cm}$ with a hemisphere of diameter $7\\ \\text{cm}$ fixed on the middle of its top face. Find the total surface area of the block. (Take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A decorative block is a cube of edge $10\\ \\text{cm}$. A hemisphere of diameter $7\\ \\text{cm}$ is fixed on the middle of its top face. Find the total surface area of the block. (Take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/block-dims.svg",
       "alt": "A cube of edge 10 cm with a hemisphere of diameter 7 cm on its top face"
@@ -351,7 +351,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "A hemisphere is fixed on the top face of a cube. Tap the part of the cube's top face that is **still exposed** and must be included in the surface area.",
+    "prompt": "A hemisphere is fixed on the top face of a cube. Tap the part of the cube's top face that is **still exposed** (not covered). This part must be included in the surface area.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/block-hs.svg",
       "alt": "A cube on a shelf with a hemisphere fixed in the middle of its top face"
@@ -403,8 +403,8 @@
       "src": "/img/c10-ma-surface-volumes/dent-cube.svg",
       "alt": "A cube of edge 10 cm with a hemispherical hollow cut into its top face"
     },
-    "assertion": "If a hemispherical depression of radius $r$ is scooped out of one face of a cube, the surface area of the solid increases by $\\pi r^2$.",
-    "reason": "The depression removes a flat circle of area $\\pi r^2$ and exposes a curved surface of area $2\\pi r^2$.",
+    "assertion": "A hemispherical depression (hollow) of radius $r$ is scooped out of one face of a cube. Then the surface area of the solid increases by $\\pi r^2$.",
+    "reason": "The depression removes a flat circle of area $\\pi r^2$. It also exposes (opens up) a curved surface of area $2\\pi r^2$.",
     "answer": "a",
     "hint": "Compare what is taken away with what is newly exposed.",
     "explanation": "Both statements are true and R explains A. The flat circle $\\pi r^2$ disappears and the curved bowl $2\\pi r^2$ appears, so the change is $2\\pi r^2 - \\pi r^2 = \\pi r^2$. Compare this with a hemisphere **added** on a face: the change is the same, $+\\pi r^2$."
@@ -421,7 +421,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A toy rocket is a cone fixed on a cylinder. The cone has base diameter $6\\ \\text{cm}$ and height $4\\ \\text{cm}$. The cylinder has diameter $4\\ \\text{cm}$ and the whole rocket is $16\\ \\text{cm}$ high. What area must be painted **orange** (the whole cone part, including the ring of its base not covered by the cylinder)? (Take $\\pi = 3.14$.)",
+    "prompt": "A toy rocket is a cone fixed on a cylinder. The cone has base diameter $6\\ \\text{cm}$ and height $4\\ \\text{cm}$. The cylinder has diameter $4\\ \\text{cm}$. The whole rocket is $16\\ \\text{cm}$ high. The whole cone part is painted, including the ring of its base that the cylinder does not cover. What area must be painted **orange**? (Take $\\pi = 3.14$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/rocket-dims.svg",
       "alt": "A rocket made of a cone of base diameter 6 cm and height 4 cm on a cylinder of diameter 4 cm; total height 16 cm"
@@ -460,7 +460,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "A cone is fixed on a cylinder, and the base of the cone is wider than the cylinder. In the view from below, tap the **ring** of the cone's base that is still outside and must be painted.",
+    "prompt": "A cone is fixed on a cylinder. The base of the cone is wider than the cylinder. In the view from below, tap the **ring** of the cone's base that is still outside and must be painted.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/rocket-hs.svg",
       "alt": "A rocket with a cone on a narrower cylinder, and a view from below showing two circles one inside the other"
@@ -507,7 +507,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A bird-bath is a solid cylinder of radius $21\\ \\text{cm}$ and height $49\\ \\text{cm}$ with a hemispherical depression of the same radius scooped out of its top. Find the area of its exposed surface (the flat bottom on the ground is not counted). Take $\\pi = \\frac{22}{7}$.",
+    "prompt": "A bird-bath is a solid cylinder of radius $21\\ \\text{cm}$ and height $49\\ \\text{cm}$. A hemispherical depression (hollow) of the same radius is scooped out of its top. Find the area of its exposed surface. (The flat bottom on the ground is not counted.) Take $\\pi = \\frac{22}{7}$.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/bird-bath.svg",
       "alt": "A cylinder of radius 21 cm and height 49 cm with a bowl-shaped hollow in its top"
@@ -585,7 +585,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A tent is a cylinder topped by a cone. The cylindrical part is $2.1\\ \\text{m}$ high and $4\\ \\text{m}$ in diameter, and the slant height of the conical top is $2.8\\ \\text{m}$. What is the cost of the canvas at ₹$500$ per $\\text{m}^2$? (The floor needs no canvas; take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A tent is a cylinder with a cone on top. The cylindrical part is $2.1\\ \\text{m}$ high and $4\\ \\text{m}$ in diameter. The slant height of the conical top is $2.8\\ \\text{m}$. Canvas costs ₹$500$ per $\\text{m}^2$. What is the cost of the canvas? (The floor needs no canvas; take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/tent-dims.svg",
       "alt": "A tent with a cylinder wall 2.1 m high, diameter 4 m, and a cone roof of slant height 2.8 m"
@@ -624,7 +624,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A solid cylinder of height $2.4\\ \\text{cm}$ and diameter $1.4\\ \\text{cm}$ has a conical cavity of the same height and diameter hollowed out of it. Find the total surface area of the remaining solid to the nearest $\\text{cm}^2$. (Take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A solid cylinder has height $2.4\\ \\text{cm}$ and diameter $1.4\\ \\text{cm}$. A conical cavity (hollow) of the same height and diameter is hollowed out of it. Find the total surface area of the remaining solid, to the nearest $\\text{cm}^2$. (Take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/cavity-dims.svg",
       "alt": "A cylinder of diameter 1.4 cm and height 2.4 cm with a conical hollow from its top face down to the middle of the base"
@@ -663,7 +663,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "A solid cylinder has a conical cavity of the same height and diameter. In the cut-through view, tap the **conical cavity**.",
+    "prompt": "A solid cylinder has a conical cavity (hollow) of the same height and diameter. In the cut-through view, tap the **conical cavity**.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/cavity-hs.svg",
       "alt": "A solid cylinder whole and cut through, showing a triangle-shaped hollow that reaches from the top to the middle of the base"
@@ -710,7 +710,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A wooden article is made by scooping out a hemisphere from each end of a solid cylinder of height $10\\ \\text{cm}$ and base radius $3.5\\ \\text{cm}$. Find its total surface area. (Take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A solid cylinder has height $10\\ \\text{cm}$ and base radius $3.5\\ \\text{cm}$. A wooden article is made by scooping out a hemisphere from each end of it. Find its total surface area. (Take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/scoop.svg",
       "alt": "A cut view of a cylinder 10 cm high with a half-sphere hollow at the top and at the bottom"
@@ -754,7 +754,7 @@
       "src": "/img/c10-ma-surface-volumes/top-joint.svg",
       "alt": "A top: hemisphere on a cone with the circular joint highlighted in red"
     },
-    "assertion": "The total surface area of a top made of a cone and a hemisphere of the same radius equals the total surface area of the cone plus the total surface area of the hemisphere.",
+    "assertion": "A top is made of a cone and a hemisphere of the same radius. Its total surface area equals the total surface area of the cone plus the total surface area of the hemisphere.",
     "reason": "The flat circular faces that are joined together are not on the outside of the top.",
     "answer": "d",
     "hint": "If the two TSAs are added, are the glued circles counted?",
@@ -772,7 +772,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "A top is a hemisphere of radius $r$ fixed on a cone of the same radius, with total height $H$. Select **all** the true statements.",
+    "prompt": "A top is a hemisphere of radius $r$ fixed on a cone of the same radius. The total height of the top is $H$. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/top-m.svg",
       "alt": "A top of diameter 6 cm and total height 8 cm: a hemisphere on a cone"
@@ -819,7 +819,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "A cube of edge $a$ has a hemisphere of radius $r$ fixed on the middle of its top face. Select **all** the true statements.",
+    "prompt": "A cube has edge $a$. A hemisphere of radius $r$ is fixed on the middle of its top face. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/block-m.svg",
       "alt": "A cube of edge 8 cm with a hemisphere of diameter 6 cm fixed on its top face"
@@ -928,7 +928,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each solid with the formula for its outer surface area. All round parts have radius $r$; the cylinder has height $h$, the cone has slant height $l$, the cube has edge $a$. In the last solid the flat bottom is counted.",
+    "prompt": "Match each solid with the formula for its outer surface area. All round parts have radius $r$. The cylinder has height $h$, the cone has slant height $l$ and the cube has edge $a$. In the last solid, the flat bottom is counted.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/row-ma2.svg",
       "alt": "A capsule, a top, a block and a cup shape"
@@ -990,7 +990,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps for finding the area to be painted on a top (hemisphere on a cone) in a sensible order.",
+    "prompt": "A top is a hemisphere on a cone. Arrange the steps for finding the area to be painted on it, in a sensible order.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/top-o.svg",
       "alt": "A top with diameter 6 cm and total height 8 cm"
@@ -1041,7 +1041,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "order",
-    "prompt": "A cone is fixed on a narrower cylinder. Arrange the steps for the area to be painted on the **cone part** (its curved surface and the exposed ring of its base).",
+    "prompt": "A cone is fixed on a narrower cylinder. Arrange the steps for finding the area to be painted on the **cone part**. This is its curved surface and the exposed ring of its base.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/rocket-o.svg",
       "alt": "A rocket with a cone of base diameter 8 cm and height 3 cm on a narrower cylinder"
@@ -1087,7 +1087,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A hemisphere is to be placed on the top face of a cube of side $7\\ \\text{cm}$. Which picture shows the **greatest** hemisphere that can be fixed on the face?",
+    "prompt": "A cube has side $7\\ \\text{cm}$. A hemisphere is to be placed on its top face. Which picture shows the **greatest** hemisphere that can be fixed on the face?",
     "options": [
       {
         "id": "a",
@@ -1138,7 +1138,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "multi",
-    "prompt": "A solid cylinder of radius $r$ and height $h$ has a conical cavity of the same radius and height hollowed out from one end. Select **all** the true statements.",
+    "prompt": "A solid cylinder has radius $r$ and height $h$. A conical cavity (hollow) of the same radius and height is hollowed out from one end. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/cavity-m.svg",
       "alt": "A cylinder of radius 1.5 cm and height 4 cm with a conical hollow"
@@ -1281,7 +1281,7 @@
       "src": "/img/c10-ma-surface-volumes/toy-parts.svg",
       "alt": "A cone fixed on a hemisphere with the text: volume of cone plus volume of hemisphere"
     },
-    "assertion": "The volume of a toy made of a cone fixed on a hemisphere is the sum of the volumes of the cone and the hemisphere.",
+    "assertion": "A toy is made of a cone fixed on a hemisphere. Its volume is the sum of the volumes of the cone and the hemisphere.",
     "reason": "Joining two solids does not remove any material from either of them.",
     "answer": "a",
     "hint": "Does gluing take away any space from either solid?",
@@ -1299,7 +1299,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A shed is a cuboid surmounted by a half cylinder. Its base is $20\\ \\text{m} \\times 7\\ \\text{m}$, the cuboid is $6\\ \\text{m}$ high, and the half cylinder has diameter $7\\ \\text{m}$ and length $20\\ \\text{m}$. The machinery occupies $250\\ \\text{m}^3$ and $25$ workers occupy about $0.08\\ \\text{m}^3$ each. How much air is in the shed? (Take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A shed is a cuboid with a half cylinder on top. Its base is $20\\ \\text{m} \\times 7\\ \\text{m}$ and the cuboid is $6\\ \\text{m}$ high. The half cylinder has diameter $7\\ \\text{m}$ and length $20\\ \\text{m}$. The machinery inside takes up $250\\ \\text{m}^3$. There are $25$ workers, and each takes up about $0.08\\ \\text{m}^3$. How much air is in the shed? (Take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/shed-dims.svg",
       "alt": "A shed 20 m long with cuboid walls 6 m high, width 7 m, and a half-cylinder roof"
@@ -1385,7 +1385,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps for finding the volume of **air** in a shed (cuboid with a half-cylinder roof) with machinery inside.",
+    "prompt": "A shed is a cuboid with a half-cylinder roof, and it has machinery inside. Arrange the steps for finding the volume of **air** in the shed.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/shed-o.svg",
       "alt": "A shed 12 m long and 5 m wide with 4 m high walls and a half-cylinder roof"
@@ -1431,7 +1431,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A juice glass has inner diameter $6\\ \\text{cm}$ and height $10\\ \\text{cm}$, but its bottom has a hemispherical raised portion of the same diameter that reduces its capacity. Find the **actual capacity** of the glass. (Take $\\pi = 3.14$.)",
+    "prompt": "A juice glass has inner diameter $6\\ \\text{cm}$ and height $10\\ \\text{cm}$. But its bottom has a raised hemispherical portion of the same diameter, and this reduces how much the glass can hold. Find the **actual capacity** of the glass. (Take $\\pi = 3.14$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/glass-dims.svg",
       "alt": "A glass 10 cm high and 6 cm wide with a half-sphere bump at the bottom"
@@ -1517,7 +1517,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The capacity of a cylindrical glass of radius $r$ and height $h$ is $\\pi r^2 h - \\dfrac{2}{3}\\pi r^3$. Which cut view shows such a glass?",
+    "prompt": "A cylindrical glass has radius $r$ and height $h$. Its capacity is $\\pi r^2 h - \\dfrac{2}{3}\\pi r^3$. Which cut view shows such a glass?",
     "options": [
       {
         "id": "a",
@@ -1568,7 +1568,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A model is a cylinder with a cone attached at each end. The diameter is $7\\ \\text{cm}$, the whole length is $20\\ \\text{cm}$, and each cone has height $6\\ \\text{cm}$. Find the volume of air inside it. (Take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A model is a cylinder with a cone attached at each end. Its diameter is $7\\ \\text{cm}$ and its whole length is $20\\ \\text{cm}$. Each cone has height $6\\ \\text{cm}$. Find the volume of air inside it. (Take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/model.svg",
       "alt": "A model with a cylinder in the middle and a cone at each end; diameter 7 cm, length 20 cm, cone height 6 cm"
@@ -1646,7 +1646,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A wooden pen stand is a cuboid $20\\ \\text{cm} \\times 12\\ \\text{cm} \\times 4\\ \\text{cm}$ with $6$ conical depressions to hold pens. Each depression has radius $0.7\\ \\text{cm}$ and depth $3\\ \\text{cm}$. Find the volume of wood in the stand. (Take $\\pi = \\frac{22}{7}$.)",
+    "prompt": "A wooden pen stand is a cuboid of size $20\\ \\text{cm} \\times 12\\ \\text{cm} \\times 4\\ \\text{cm}$. It has $6$ conical depressions (hollows) to hold pens. Each depression has radius $0.7\\ \\text{cm}$ and depth $3\\ \\text{cm}$. Find the volume of wood in the stand. (Take $\\pi = \\frac{22}{7}$.)",
     "image": {
       "src": "/img/c10-ma-surface-volumes/penstand.svg",
       "alt": "A wooden block 20 cm by 12 cm by 4 cm with six cone-shaped holes in its top face"
@@ -1825,7 +1825,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "order",
-    "prompt": "A cone, a hemisphere, a cylinder and a sphere all have the same radius $r$, and the cone and the cylinder both have height $r$. Arrange them from **smallest** to **largest** volume.",
+    "prompt": "A cone, a hemisphere, a cylinder and a sphere all have the same radius $r$. The cone and the cylinder both have height $r$. Arrange them from **smallest** to **largest** volume.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/row-o3.svg",
       "alt": "A cone, a hemisphere, a cylinder and a sphere with the same radius"
@@ -1934,7 +1934,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "An inverted cone-shaped vessel of height $12\\ \\text{cm}$ and brim radius $6\\ \\text{cm}$ is full of water. Spherical lead shots of radius $0.5\\ \\text{cm}$ are dropped in until **one-fourth** of the water flows out. How many shots were dropped?",
+    "prompt": "A cone-shaped vessel is kept upside down (inverted), with its tip pointing down. Its height is $12\\ \\text{cm}$ and the radius of its top (brim) is $6\\ \\text{cm}$. It is full of water. Lead shots, each a sphere of radius $0.5\\ \\text{cm}$, are dropped into it until **one-fourth** of the water flows out. How many shots were dropped?",
     "image": {
       "src": "/img/c10-ma-surface-volumes/shots.svg",
       "alt": "An upside-down cone vessel full of water with small lead balls dropping in and some water spilling over the rim"
@@ -1973,7 +1973,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A solid made of a cone of height $12\\ \\text{cm}$ and radius $6\\ \\text{cm}$ standing on a hemisphere of radius $6\\ \\text{cm}$ is placed upright in a cylinder full of water so that it touches the bottom. The cylinder has radius $6\\ \\text{cm}$ and height $18\\ \\text{cm}$. Find the volume of water left in the cylinder.",
+    "prompt": "A solid is made of a cone standing on a hemisphere. The cone has height $12\\ \\text{cm}$ and radius $6\\ \\text{cm}$. The hemisphere has radius $6\\ \\text{cm}$. A cylinder of radius $6\\ \\text{cm}$ and height $18\\ \\text{cm}$ is full of water. The solid is placed upright in the cylinder so that it touches the bottom. Find the volume of water left in the cylinder.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/cyl-water.svg",
       "alt": "A cylinder 18 cm high and 12 cm wide with a hemisphere at the bottom and a cone above it reaching the top"
@@ -2012,7 +2012,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A solid metal cylinder of radius $6\\ \\text{cm}$ and height $8\\ \\text{cm}$ is melted and recast into cones, each of radius $2\\ \\text{cm}$ and height $6\\ \\text{cm}$. How many cones can be made?",
+    "prompt": "A solid metal cylinder has radius $6\\ \\text{cm}$ and height $8\\ \\text{cm}$. It is melted and recast (made again) into cones. Each cone has radius $2\\ \\text{cm}$ and height $6\\ \\text{cm}$. How many cones can be made?",
     "image": {
       "src": "/img/c10-ma-surface-volumes/melt.svg",
       "alt": "A big cylinder, an arrow, and several small cones"
@@ -2074,7 +2074,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "A solid is melted and recast into several smaller solids. Select **all** the true statements.",
+    "prompt": "A solid is melted and recast (made again) into several smaller solids. Select **all** the true statements.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/melt-m.svg",
       "alt": "A large cylinder, an arrow and several small cones"
@@ -2121,7 +2121,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps for finding **how many small solids** can be made by melting a big solid and recasting it.",
+    "prompt": "A big solid is melted and recast into small solids. Arrange the steps for finding **how many small solids** can be made.",
     "image": {
       "src": "/img/c10-ma-surface-volumes/melt-o.svg",
       "alt": "A big cylinder, an arrow and small cones"

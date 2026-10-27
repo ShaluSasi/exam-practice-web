@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A student looks at the top of a minar, as in the picture. The straight line drawn from her eye to the top of the minar is called the",
+    "prompt": "A student looks at the top of a minar (tall tower), as in the picture. The straight line from her eye to the top of the minar is called the",
     "image": {
       "src": "/img/c10-ma-trig-applications/sight-def.svg",
       "alt": "A student on the ground and a line from her eye to the top of a minar, with the horizontal marked"
@@ -207,7 +207,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "From the top of a tower the angle of depression of a car on the level road is $40^\\circ$. What is the angle of elevation of the top of the tower from the car, marked ? in the picture?",
+    "prompt": "From the top of a tower, the angle of depression of a car on the level road is $40^\\circ$. The angle marked ? in the picture is the angle of elevation of the top of the tower from the car. What is this angle?",
     "image": {
       "src": "/img/c10-ma-trig-applications/alt-angles.svg",
       "alt": "A tower, a car, the line of sight with depression 40 degrees at the top and an unknown angle at the car"
@@ -293,7 +293,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the right triangle $ABC$, the horizontal distance $AB$ is known and the height $BC$ is to be found. Which ratios of $\\angle A$ involve **both** $AB$ and $BC$?",
+    "prompt": "In the right triangle $ABC$, the horizontal distance $AB$ is known. We need to find the height $BC$. Which ratios of $\\angle A$ use **both** $AB$ and $BC$?",
     "image": {
       "src": "/img/c10-ma-trig-applications/tri-ratio.svg",
       "alt": "Right triangle ABC with angle A, AB known and BC unknown"
@@ -377,7 +377,7 @@
       "alt": "Two parallel horizontal lines with a slanted line of sight and equal alternate angles theta"
     },
     "assertion": "The angle of depression of a point on the ground seen from the top of a tower is equal to the angle of elevation of the top of the tower seen from that point.",
-    "reason": "The horizontal through the observer's eye is parallel to the ground, so the two angles are alternate angles.",
+    "reason": "The horizontal line through the observer's eye is parallel to the ground. So the two angles are alternate angles.",
     "answer": "a",
     "hint": "Look at the two parallel lines and the line of sight as a transversal.",
     "explanation": "Both statements are true and R explains A. The line of sight is a transversal of the two parallel horizontals, and alternate interior angles are equal. This is why the right triangle can be solved using whichever of the two angles is convenient."
@@ -394,7 +394,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The angle of elevation of the top C of a tower BC is marked at A. Tap the side that is **opposite** to the angle of elevation.",
+    "prompt": "At A, the angle of elevation of the top C of a tower BC is marked. Tap the side that is **opposite** to this angle of elevation.",
     "image": {
       "src": "/img/c10-ma-trig-applications/hs-opp.svg",
       "alt": "Right triangle ABC with a 30 degree angle at A, tower BC and ground distance AB"
@@ -447,7 +447,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "An 8 m long ladder leans against a vertical wall and makes an angle of $60^\\circ$ with the ground. How high up the wall does it reach?",
+    "prompt": "An 8 m long ladder leans against a vertical wall. It makes an angle of $60^\\circ$ with the ground. How high up the wall does it reach?",
     "image": {
       "src": "/img/c10-ma-trig-applications/ladder60.svg",
       "alt": "An 8 m ladder against a wall making 60 degrees with the ground"
@@ -486,7 +486,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each term with the picture that highlights it.",
+    "prompt": "Match each term with the picture that shows it.",
     "image": {
       "src": "/img/c10-ma-trig-applications/terms-scene.svg",
       "alt": "An observer on a roof looking up at a kite and down at a car with two angles marked"
@@ -677,7 +677,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A tree is broken by a storm and the broken part bends so that its top touches the ground 9 m from the foot, making an angle of $30^\\circ$ with the ground. What was the **original height** of the tree?",
+    "prompt": "A tree is broken by a storm. The broken part bends, and its top touches the ground 9 m from the foot of the tree. The broken part makes an angle of $30^\\circ$ with the ground. What was the **original height** of the tree?",
     "image": {
       "src": "/img/c10-ma-trig-applications/tree-broken.svg",
       "alt": "A tree with a standing part and a bent part touching the ground 9 m away at 30 degrees"
@@ -763,7 +763,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "An observer 1.6 m tall is 24 m from a chimney and sees its top at $45^\\circ$. Arrange the steps of the solution in the correct order.",
+    "prompt": "An observer 1.6 m tall is 24 m away from a chimney. The observer sees its top at $45^\\circ$. Arrange the steps of the solution in the correct order.",
     "image": {
       "src": "/img/c10-ma-trig-applications/chimney.svg",
       "alt": "An observer 1.6 m tall 24 m from a chimney with a 45 degree line of sight to its top"
@@ -870,8 +870,8 @@
       "src": "/img/c10-ma-trig-applications/shadow45.svg",
       "alt": "A vertical 8 m pole with a shadow 8 m long and a 45 degree Sun ray"
     },
-    "assertion": "When the Sun's altitude is $45^\\circ$, a vertical pole casts a shadow equal to its own height.",
-    "reason": "$\\tan 45^\\circ = 1$, and the tangent of the Sun's altitude equals the height of the pole divided by the length of its shadow.",
+    "assertion": "When the Sun's altitude (its angle above the horizontal) is $45^\\circ$, a vertical pole casts a shadow equal to its own height.",
+    "reason": "$\\tan 45^\\circ = 1$. Also, the tangent of the Sun's altitude equals the height of the pole divided by the length of its shadow.",
     "answer": "a",
     "hint": "Which ratio of the shadow and the pole is used?",
     "explanation": "Both are true and R explains A. The pole $h$ and its shadow $s$ are related by $\\tan 45^\\circ = \\dfrac{h}{s}$, and since $\\tan45^\\circ = 1$ this gives $s=h$."
@@ -888,7 +888,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "From a point P on the ground the angle of elevation of the top of a 20 m tall building is $30^\\circ$. A flagstaff stands on top of the building and the angle of elevation of its top from P is $45^\\circ$. Find the length of the flagstaff.",
+    "prompt": "From a point P on the ground, the angle of elevation of the top of a 20 m tall building is $30^\\circ$. A flagstaff (flag pole) stands on top of the building. From P, the angle of elevation of the top of the flagstaff is $45^\\circ$. Find the length of the flagstaff.",
     "image": {
       "src": "/img/c10-ma-trig-applications/flagstaff.svg",
       "alt": "A 20 m building with a flagstaff above it, seen from P at 30 degrees to the roof and 45 degrees to the flag top"
@@ -1065,7 +1065,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "A bird flies 30 m above the ground and an observer's eye is at ground level. Select **all** the correct statements about the angle of elevation $\\theta$ of the bird.",
+    "prompt": "A bird flies 30 m above the ground. An observer's eye is at ground level. Select **all** the correct statements about the angle of elevation $\\theta$ of the bird.",
     "image": {
       "src": "/img/c10-ma-trig-applications/bird-dist.svg",
       "alt": "A bird 30 m above the ground and an observer at distance d"
@@ -1112,7 +1112,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A 1.5 m tall boy stands some distance from a 24 m tall building. The angle of elevation of its top from his eyes is $30^\\circ$. He walks towards the building and the angle becomes $60^\\circ$. Find the distance he walked.",
+    "prompt": "A 1.5 m tall boy stands some distance away from a 24 m tall building. From his eyes, the angle of elevation of the top of the building is $30^\\circ$. He walks towards the building, and the angle becomes $60^\\circ$. Find the distance he walked.",
     "image": {
       "src": "/img/c10-ma-trig-applications/boy-walks.svg",
       "alt": "A boy at two positions with sight lines to the top of a 24 m building at 30 and 60 degrees"
@@ -1157,7 +1157,7 @@
       "alt": "A tower seen from a far point at angle alpha and from a nearer point at a bigger angle beta"
     },
     "assertion": "As an observer on level ground walks towards a tower, the angle of elevation of its top decreases.",
-    "reason": "$\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$, so for a fixed height $\\tan\\theta$ increases as the distance decreases.",
+    "reason": "$\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$. So, for a fixed height, $\\tan\\theta$ increases as the distance decreases.",
     "answer": "d",
     "hint": "Compare the angle at the far point with the angle at the near point in the picture.",
     "explanation": "A is **false**: the angle gets bigger as the observer comes closer ($\\beta > \\alpha$). R is true, because with a fixed height a smaller distance gives a larger tangent and hence a larger angle."
@@ -1174,7 +1174,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "From the top of a multi-storeyed building the angles of depression of the top and the bottom of a 6 m tall building are $30^\\circ$ and $45^\\circ$ respectively. Find the height of the multi-storeyed building.",
+    "prompt": "From the top of a multi-storeyed building, a person looks at a 6 m tall building. The angle of depression of its top is $30^\\circ$. The angle of depression of its bottom is $45^\\circ$. Find the height of the multi-storeyed building.",
     "image": {
       "src": "/img/c10-ma-trig-applications/twobuild-6.svg",
       "alt": "A tall building and a 6 m building with lines of sight at 30 and 45 degrees of depression"
@@ -1213,7 +1213,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "From the roof of a tall building the top and bottom of a shorter building are seen. Tap the part of the tall building that rises **above the roof of the short building**.",
+    "prompt": "From the roof of a tall building, a person looks at the top and bottom of a shorter building. Tap the part of the tall building that rises **above the roof of the short building**.",
     "image": {
       "src": "/img/c10-ma-trig-applications/hs-twobuild.svg",
       "alt": "A tall building and a shorter one with two lines of sight from the tall roof to the top and bottom of the short building"
@@ -1260,7 +1260,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "From a point P on a bridge across a river, 5 m above the banks, the angles of depression of the banks on opposite sides are $30^\\circ$ and $45^\\circ$. Find the width of the river.",
+    "prompt": "P is a point on a bridge across a river. P is 5 m above the banks. From P, the angles of depression of the banks on opposite sides are $30^\\circ$ and $45^\\circ$. Find the width of the river.",
     "image": {
       "src": "/img/c10-ma-trig-applications/bridge-5.svg",
       "alt": "A bridge 5 m above a river with sight lines at 30 and 45 degrees to the two banks"
@@ -1346,7 +1346,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The angle of elevation of the top of a building from the foot of a 36 m high tower is $30^\\circ$, and the angle of elevation of the top of the tower from the foot of the building is $60^\\circ$. Find the height of the building.",
+    "prompt": "From the foot of a 36 m high tower, the angle of elevation of the top of a building is $30^\\circ$. From the foot of the building, the angle of elevation of the top of the tower is $60^\\circ$. Find the height of the building.",
     "image": {
       "src": "/img/c10-ma-trig-applications/tower-bldg.svg",
       "alt": "A 36 m tower and a building with lines of sight crossing between their tops and feet"
@@ -1431,7 +1431,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "Two poles of equal height stand on either side of a 60 m wide road. From a point on the road between them the angles of elevation of the tops are $60^\\circ$ and $30^\\circ$. Find the height of the poles.",
+    "prompt": "Two poles of equal height stand on either side of a 60 m wide road. From a point on the road between them, the angles of elevation of their tops are $60^\\circ$ and $30^\\circ$. Find the height of the poles.",
     "image": {
       "src": "/img/c10-ma-trig-applications/poles.svg",
       "alt": "Two poles across a 60 m road with lines of sight from a point P at 60 degrees and 30 degrees"
@@ -1523,7 +1523,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "From the top of a 9 m high building the angle of elevation of the top of a cable tower is $60^\\circ$ and the angle of depression of its foot is $45^\\circ$. Find the height of the tower.",
+    "prompt": "From the top of a 9 m high building, the angle of elevation of the top of a cable tower is $60^\\circ$. The angle of depression of the foot of the tower is $45^\\circ$. Find the height of the tower.",
     "image": {
       "src": "/img/c10-ma-trig-applications/cable.svg",
       "alt": "A 9 m building and a cable tower with a 60 degree elevation to its top and a 45 degree depression to its foot"
@@ -1609,7 +1609,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "As observed from the top of a 60 m high lighthouse above sea level, the angles of depression of two ships are $30^\\circ$ and $45^\\circ$. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.",
+    "prompt": "A lighthouse is 60 m high above sea level. From its top, the angles of depression of two ships are $30^\\circ$ and $45^\\circ$. One ship is exactly behind the other, on the same side of the lighthouse. Find the distance between the two ships.",
     "image": {
       "src": "/img/c10-ma-trig-applications/lh-60.svg",
       "alt": "A 60 m lighthouse with two ships in a line at 45 and 30 degrees of depression"
@@ -1752,7 +1752,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A 1.6 m tall girl watches a balloon moving with the wind in a horizontal line at a height of 61.6 m above the ground. The angle of elevation from her eyes is $60^\\circ$ at one instant and $30^\\circ$ later. Find the distance travelled by the balloon.",
+    "prompt": "A 1.6 m tall girl watches a balloon. The wind moves the balloon in a horizontal line at a height of 61.6 m above the ground. From her eyes, the angle of elevation of the balloon is $60^\\circ$ at one moment and $30^\\circ$ some time later. Find the distance travelled by the balloon.",
     "image": {
       "src": "/img/c10-ma-trig-applications/balloon-60.svg",
       "alt": "A girl and a balloon at two positions with lines of sight at 60 and 30 degrees"
@@ -1867,7 +1867,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "multi",
-    "prompt": "An observer uses a clinometer at ground level to look at the top of a tower on level ground. Select **all** the sets of measurements that are enough to find the height of the tower.",
+    "prompt": "An observer uses a clinometer (an instrument that measures angles of elevation) at ground level to look at the top of a tower on level ground. Select **all** the sets of measurements that are enough to find the height of the tower.",
     "image": {
       "src": "/img/c10-ma-trig-applications/clinometer.svg",
       "alt": "An observer holding a clinometer and looking at the top of a tower"
@@ -1914,7 +1914,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A man at the top of a tower sees a car approaching the foot of the tower at uniform speed. The angle of depression of the car is $30^\\circ$, and 8 seconds later it is $60^\\circ$. How long more does the car take to reach the foot of the tower?",
+    "prompt": "A man at the top of a tower sees a car coming towards the foot of the tower at a uniform (constant) speed. The angle of depression of the car is $30^\\circ$. 8 seconds later, it is $60^\\circ$. How much more time does the car take to reach the foot of the tower?",
     "image": {
       "src": "/img/c10-ma-trig-applications/car-tower.svg",
       "alt": "A tower with two cars at 30 and 60 degrees of depression"
@@ -2009,7 +2009,7 @@
       "src": "/img/c10-ma-trig-applications/kite100.svg",
       "alt": "A kite on a 100 m string at 30 degrees to the ground"
     },
-    "assertion": "A kite flies on a 100 m string, with no slack, inclined at $30^\\circ$ to level ground. The kite is 50 m above the ground.",
+    "assertion": "A kite is flying on a 100 m string. The string is tight (no slack) and makes an angle of $30^\\circ$ with level ground. The kite is 50 m above the ground.",
     "reason": "$\\sin30^\\circ = \\dfrac12$.",
     "answer": "a",
     "hint": "The string is the hypotenuse and the height is opposite the angle.",
@@ -2080,7 +2080,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "A 10 m ladder leans against a vertical wall and makes $60^\\circ$ with the ground. Select **all** the correct statements.",
+    "prompt": "A 10 m ladder leans against a vertical wall. It makes an angle of $60^\\circ$ with the ground. Select **all** the correct statements.",
     "image": {
       "src": "/img/c10-ma-trig-applications/ladder10.svg",
       "alt": "A 10 m ladder against a wall at 60 degrees to the ground"

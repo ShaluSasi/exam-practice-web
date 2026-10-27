@@ -320,7 +320,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The length $x_2 - x_1$ is the length of one side of the right triangle $PTQ$. Tap that **segment**.",
+    "prompt": "One side of the right triangle $PTQ$ has length $x_2 - x_1$. Tap that **segment**.",
     "image": {
       "src": "/img/c10-ma-coordinate/dist-derive-hs.svg",
       "alt": "Right triangle PTQ with P and Q marked by coordinates"
@@ -426,7 +426,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps that derive the **distance formula**.",
+    "prompt": "Arrange the steps to work out (derive) the **distance formula**.",
     "image": {
       "src": "/img/c10-ma-coordinate/dist-derive-steps.svg",
       "alt": "Construction for the distance formula"
@@ -981,7 +981,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "A point $P(x, y)$ is equidistant from $A(6, 1)$ and $B(2, 5)$. Which relation between $x$ and $y$ holds?",
+    "prompt": "A point $P(x, y)$ is equidistant from (at the same distance from) $A(6, 1)$ and $B(2, 5)$. Which relation between $x$ and $y$ is true?",
     "image": {
       "src": "/img/c10-ma-coordinate/equidistant-relation.svg",
       "alt": "Point P joined by equal dashed lines to A and B"
@@ -1020,7 +1020,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Which graph shows **all** the points that are equidistant from $A(-3,-2)$ and $B(5,2)$?",
+    "prompt": "Which graph shows **all** the points that are equidistant from (at the same distance from) $A(-3,-2)$ and $B(5,2)$?",
     "image": {
       "src": "/img/c10-ma-coordinate/locus-question.svg",
       "alt": "Point P joined to A and B with equal dashed lines"
@@ -1075,7 +1075,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Which of these points are **equidistant** from $A(5,2)$ and $B(1,6)$? Select all.",
+    "prompt": "Which of these points are **equidistant** from (at the same distance from) $A(5,2)$ and $B(1,6)$? Select all.",
     "image": {
       "src": "/img/c10-ma-coordinate/equidistant-candidates.svg",
       "alt": "Segment AB and five labelled candidate points"
@@ -1122,7 +1122,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "Four lines are drawn. Tap the line made of **all points equidistant from $A$ and $B$**.",
+    "prompt": "Four lines are drawn. Tap the line made of **all points equidistant from $A$ and $B$** (at the same distance from both).",
     "image": {
       "src": "/img/c10-ma-coordinate/bisector-lines.svg",
       "alt": "Segment AB with mid-point M and four differently coloured lines"
@@ -1208,7 +1208,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps of the alternative method to show that $ABCD$ is a **square**.",
+    "prompt": "Arrange the steps of the second (alternative) method to show that $ABCD$ is a **square**.",
     "image": {
       "src": "/img/c10-ma-coordinate/square-proof.svg",
       "alt": "A quadrilateral with a diagonal drawn"
@@ -1259,7 +1259,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A relay tower is to be placed at $P$ on the straight line from $A(0,0)$ to $B(35, 20)$ so that $AP : PB = 2 : 3$ (units in km). Find the coordinates of $P$.",
+    "prompt": "A relay tower must be put at a point $P$ on the straight line from $A(0,0)$ to $B(35, 20)$, so that $AP : PB = 2 : 3$ (units in km). Find the coordinates of $P$.",
     "image": {
       "src": "/img/c10-ma-coordinate/tower-section.svg",
       "alt": "The line from A to B on which the tower P must stand"
@@ -1532,7 +1532,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Find the coordinates of the point $P$ that divides the segment joining $A(-2,5)$ and $B(10,-7)$ internally in the ratio $AP : PB = 1 : 3$.",
+    "prompt": "Point $P$ divides the segment joining $A(-2,5)$ and $B(10,-7)$ internally in the ratio $AP : PB = 1 : 3$. Find the coordinates of $P$.",
     "image": {
       "src": "/img/c10-ma-coordinate/section-1-3.svg",
       "alt": "Segment AB with equally spaced marks"
@@ -1733,7 +1733,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The points $P$ and $Q$ trisect the segment joining $A(-6, 3)$ and $B(6, -9)$, so $AP = PQ = QB$. Which picture shows $P$ and $Q$?",
+    "prompt": "The points $P$ and $Q$ trisect (divide into three equal parts) the segment joining $A(-6, 3)$ and $B(6, -9)$. So $AP = PQ = QB$. Which picture shows $P$ and $Q$?",
     "image": {
       "src": "/img/c10-ma-coordinate/trisect-question.svg",
       "alt": "Segment AB between A(-6,3) and B(6,-9)"
@@ -1788,7 +1788,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "On the segment joining $A(-3,2)$ and $B(4,-5)$, a point $P$ is such that $AP = \\dfrac27 AB$. Find the coordinates of $P$.",
+    "prompt": "$P$ is a point on the segment joining $A(-3,2)$ and $B(4,-5)$, such that $AP = \\dfrac27 AB$. Find the coordinates of $P$.",
     "image": {
       "src": "/img/c10-ma-coordinate/seven-parts.svg",
       "alt": "Segment AB divided into seven equal parts"
@@ -1866,7 +1866,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the steps to find the ratio in which the **y-axis** divides a segment $AB$, and the point where it meets it.",
+    "prompt": "Arrange the steps to find two things: the ratio in which the **y-axis** divides a segment $AB$, and the point where it meets $AB$.",
     "image": {
       "src": "/img/c10-ma-coordinate/yaxis-steps.svg",
       "alt": "A segment crossing the y-axis"
@@ -1925,7 +1925,7 @@
     "hint": "On the x-axis it is the ordinate that equals 0.",
     "explanation": "A is true: with ratio $k:1$, $\\dfrac{-9k+3}{k+1}=0\\Rightarrow k=\\tfrac13$, i.e. $1:3$ (the ratio of the ordinates $3:9$). R is false: the x-axis uses the ratio of the **ordinates**; here the abscissas give $6:2=3:1$, which would be the wrong answer.",
     "assertion": "The x-axis divides the segment joining $A(6,3)$ and $B(2,-9)$ in the ratio $1:3$.",
-    "reason": "The x-axis always divides a segment in the same ratio as the ratio of the abscissas of its end points.",
+    "reason": "The x-axis always divides a segment in the same ratio as the ratio of the abscissas (x-coordinates) of its end points.",
     "answer": "c"
   },
   {
@@ -2100,7 +2100,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "In a rectangular school ground $ABCD$ with $AB$ along the x-axis and $AD = 16$ m along the y-axis, chalk lines parallel to $AD$ are drawn 1 m apart and numbered $1, 2, 3, \\dots$ from $AD$. Niharika runs $\\tfrac14$ of $AD$ along the **2nd** line and posts a green flag. Preet runs $\\tfrac34$ of $AD$ along the **8th** line and posts a red flag. How far apart are the flags?",
+    "prompt": "$ABCD$ is a rectangular school ground. $AB$ is along the x-axis, and $AD = 16$ m is along the y-axis. Chalk lines are drawn parallel to $AD$, 1 m apart. They are numbered $1, 2, 3, \\dots$ starting from $AD$. Niharika runs $\\tfrac14$ of $AD$ along the **2nd** line and puts a green flag there. Preet runs $\\tfrac34$ of $AD$ along the **8th** line and puts a red flag there. How far apart are the flags?",
     "image": {
       "src": "/img/c10-ma-coordinate/ground-flags.svg",
       "alt": "A rectangular ground with flower pots along AD and two flags"
@@ -2139,7 +2139,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "Rashmi must post a blue flag **exactly halfway** between the green and red flags. Tap where she should post it.",
+    "prompt": "Rashmi must put a blue flag **exactly halfway** between the green and red flags. Tap where she should put it.",
     "image": {
       "src": "/img/c10-ma-coordinate/ground-flags.svg",
       "alt": "A school ground with a green flag and a red flag"
@@ -2186,7 +2186,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "$AB$ is a diameter of a circle whose centre is $C(-1, 3)$. If $B$ is $(4,-2)$, find the coordinates of $A$.",
+    "prompt": "$AB$ is a diameter of a circle. The centre of the circle is $C(-1, 3)$. If $B$ is $(4,-2)$, find the coordinates of $A$.",
     "image": {
       "src": "/img/c10-ma-coordinate/diameter-end.svg",
       "alt": "Circle with centre C, diameter AB and one end A unknown"
@@ -2225,7 +2225,7 @@
     "difficulty": "hard",
     "marks": 3,
     "type": "mcq",
-    "prompt": "The vertices of a rhombus, taken in order, are $A(4,4)$, $B(0,2)$, $C(-2,-2)$ and $D(2,0)$. Using area $=\\tfrac12\\times$ (product of the diagonals), find its area.",
+    "prompt": "The vertices of a rhombus, taken in order, are $A(4,4)$, $B(0,2)$, $C(-2,-2)$ and $D(2,0)$. Use area $=\\tfrac12\\times$ (product of the diagonals) to find its area.",
     "image": {
       "src": "/img/c10-ma-coordinate/rhombus-area.svg",
       "alt": "A rhombus with diagonals AC and BD"
