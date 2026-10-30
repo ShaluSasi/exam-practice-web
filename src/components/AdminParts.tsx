@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { AlertTriangle, ArrowLeft, Check, ChevronRight, Image as ImageIcon, Layers, Lightbulb, MinusCircle, PencilLine, RotateCcw, Tag } from "lucide-react";
 import clsx from "clsx";
@@ -520,6 +520,8 @@ export function ChapterBrowser({
   const [open, setOpen] = useState<string | null>(null);
   const [data, setData] = useState<AdminQuestions | null>(null);
   const [problem, setProblem] = useState<string | null>(null);
+  /** The chapter open now: a slow answer for one opened before must not show under this one. */
+  const openRef = useRef<string | null>(null);
 
   const loadChapters = useCallback(async () => {
     setProblem(null);
@@ -533,9 +535,10 @@ export function ChapterBrowser({
   const loadChapter = useCallback(async (key: string) => {
     setProblem(null);
     try {
-      setData(await api<AdminQuestions>(`/api/admin/questions?chapter=${encodeURIComponent(key)}`));
+      const questions = await api<AdminQuestions>(`/api/admin/questions?chapter=${encodeURIComponent(key)}`);
+      if (openRef.current === key) setData(questions);
     } catch (e) {
-      setProblem(e instanceof Error ? e.message : "Could not load the questions.");
+      if (openRef.current === key) setProblem(e instanceof Error ? e.message : "Could not load the questions.");
     }
   }, []);
 
@@ -546,6 +549,7 @@ export function ChapterBrowser({
   const openChapter = (key: string) => {
     setData(null);
     setOpen(key);
+    openRef.current = key;
     window.scrollTo({ top: 0 });
     void loadChapter(key);
   };
@@ -554,6 +558,7 @@ export function ChapterBrowser({
     if (!leaveOk()) return;
     if (open) {
       setOpen(null);
+      openRef.current = null;
       setData(null);
       setProblem(null);
       // The list includes what was just saved.

@@ -234,6 +234,7 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
   // Keys 1–4 pick an option.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (e.repeat) return;
       const i = Number(e.key) - 1;
       if (i >= 0 && i < question.options.length) answer(question.options[i]);
     };

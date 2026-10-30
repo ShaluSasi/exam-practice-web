@@ -16,15 +16,16 @@ interface ContentState {
   load: () => Promise<void>;
 }
 
-export const useContent = create<ContentState>()((set) => ({
+export const useContent = create<ContentState>()((set, get) => ({
   catalog: null,
   status: "loading",
   load: async () => {
-    set({ status: "loading" });
+    // A reload once the chapters are showing (e.g. when the connection comes back) keeps them on screen.
+    if (!get().catalog) set({ status: "loading" });
     try {
       set({ catalog: await api<Catalog>("/api/catalog"), status: "ready" });
     } catch {
-      set({ status: "failed" });
+      if (!get().catalog) set({ status: "failed" });
     }
   },
 }));

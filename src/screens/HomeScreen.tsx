@@ -13,7 +13,7 @@ import { GamesStrip } from "../games/GamesStrip";
 import { SUBJECT_STYLE } from "../lib/subjects";
 import { rankRounds, useCurrentGrade, useProfile, useStats } from "../store/profile";
 import { useAuth } from "../store/auth";
-import { discardSavedRound, useSavedRound } from "../store/progress";
+import { useSavedRound } from "../store/progress";
 import { useContent, type RoundSource } from "../store/content";
 import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
@@ -21,7 +21,7 @@ import { TYPE_LABEL } from "../questions";
 const SUBJECT_ORDER = Object.keys(region.subjects) as SubjectId[];
 
 /** Starts a round. With a `key`, an unfinished round for that key is continued instead. */
-type StartRound = (source: RoundSource, title: string, key?: string) => void;
+type StartRound = (source: RoundSource, title: string, key?: string, free?: boolean, fresh?: boolean) => void;
 const MIXED_KEY = "mixed";
 const GLYPHS = [
   { c: "∑", x: "6%", y: "18%", s: 64, d: 7 },
@@ -157,10 +157,11 @@ function useChapters(): Chapter[] {
 /** One compact, fully tappable row per chapter so a whole subject fits on one screen. */
 function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: StartRound; index: number }) {
   const { rounds } = useStats();
-  const best = rankRounds(rounds.filter((r) => r.title === chapter.title))[0];
+  // By key, as on the progress page: Class 9 and Class 10 can have chapters with the same title. Older rounds without one match by title.
+  const best = rankRounds(rounds.filter((r) => (r.quizKey ? r.quizKey === chapter.key : r.title === chapter.title)))[0];
   const saved = useSavedRound(chapter.key);
   const st = SUBJECT_STYLE[chapter.subject];
-  const startNew = () => onStart({ chapter: chapter.key }, chapter.title, chapter.key);
+  const startNew = (fresh = false) => onStart({ chapter: chapter.key }, chapter.title, chapter.key, false, fresh);
 
   return (
     <motion.article
@@ -172,7 +173,7 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: St
     >
       <motion.button
         type="button"
-        onClick={startNew}
+        onClick={() => startNew()}
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.98 }}
         className="group flex w-full items-center gap-3 rounded-2xl border-2 border-line bg-surface p-2.5 text-left shadow-card transition-colors hover:border-fg/25 sm:gap-4 sm:p-3"
@@ -226,10 +227,7 @@ function ChapterRow({ chapter, onStart, index }: { chapter: Chapter; onStart: St
       </motion.button>
       {saved && (
         <StartOver
-          onConfirm={() => {
-            discardSavedRound(chapter.key, saved.roundId);
-            startNew();
-          }}
+          onConfirm={() => startNew(true)}
         />
       )}
     </motion.article>
@@ -273,9 +271,9 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
   const subjects = [...new Set(inGrade.map((c) => c.subject))];
   const active = lastSubject && subjects.includes(lastSubject) ? lastSubject : subjects[0];
   const list = inGrade.filter((c) => c.subject === active);
-  const start: StartRound = (qs, title, key) => {
+  const start: StartRound = (qs, title, key, free, fresh) => {
     setLastSubject(active);
-    onStart(qs, title, key);
+    onStart(qs, title, key, free, fresh);
   };
 
   return (

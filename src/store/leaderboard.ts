@@ -96,3 +96,8 @@ export function useBoard(period: Period, scope: ScopeKind = "global") {
 export function invalidateBoards() {
   useLeaderboard.setState({ boards: {} });
 }
+
+// Boards mark the student's own row and rank, so another account must not see them.
+useAuth.subscribe((s, prev) => {
+  if (s.user?.id !== prev.user?.id) invalidateBoards();
+});

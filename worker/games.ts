@@ -94,7 +94,7 @@ export async function saveRuns(request: Request, env: Env, url: URL): Promise<Re
         `INSERT INTO game_runs (user_id, client_id, game, section, score, wave, level, correct, answered, best_combo, played_at, created_at)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
          ON CONFLICT (user_id, client_id) DO NOTHING`,
-      ).bind(user.id, r.id, r.game, r.section, r.score, r.wave, r.level, r.correct, r.answered, r.bestCombo, r.at, now),
+      ).bind(user.id, r.id, r.game, r.section, r.score, r.wave, r.level, r.correct, r.answered, r.bestCombo, Math.min(r.at, now), now),
     ),
   );
   return json({ saved: parsed.data.runs.length });

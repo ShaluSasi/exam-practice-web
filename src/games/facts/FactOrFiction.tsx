@@ -218,6 +218,7 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (e.repeat) return;
       if (reveal) {
         if (["Enter", " ", "ArrowRight", "ArrowLeft"].includes(e.key)) {
           e.preventDefault();

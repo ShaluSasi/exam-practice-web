@@ -46,7 +46,7 @@ interface Entry {
   depth: number;
 }
 
-const GAME_IDS: GameId[] = ["galaxy", "rush", "balance", "facts"];
+const GAME_IDS: GameId[] = ["galaxy", "rush", "balance", "facts", "elements"];
 
 const fromLink = /^\/s\/([A-Za-z0-9]{8})\/?$/.exec(window.location.pathname)?.[1] ?? null;
 const gameLink = /^\/games\/([a-z]+)\/?$/.exec(window.location.pathname)?.[1] as GameId | undefined;

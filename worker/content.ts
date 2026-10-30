@@ -175,7 +175,8 @@ export function isResponseFor(q: Question, r: unknown): r is AnyResponse {
     case "numeric":
       return typeof r === "string";
     case "multi":
-      return strings(r);
+      // No repeats: the grading compares lengths, so ["a", "a"] would pass for answers ["a", "b"].
+      return strings(r) && new Set(r as string[]).size === (r as string[]).length;
     case "order":
       return strings(r) && (r as string[]).length === q.items.length;
     case "match":

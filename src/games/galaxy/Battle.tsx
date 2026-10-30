@@ -859,6 +859,7 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
   // Keys: 1–4 shoot the answers in screen order (left to right), F freeze, N nova.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (e.repeat) return;
       const g = G.current;
       if (e.key === "f" || e.key === "F") fireFreeze();
       else if (e.key === "n" || e.key === "N") fireNova();

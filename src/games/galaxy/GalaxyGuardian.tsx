@@ -42,6 +42,8 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
   const [saving, setSaving] = useState<Saving>("guest");
   /** The run whose save is in progress; an older save finishing late must not overwrite a newer result. */
   const savingRun = useRef<string | null>(null);
+  /** The wait before the result screen; a new run started meanwhile cancels it. */
+  const overTimer = useRef(0);
   const section = useGalaxy((s) => s.section);
   const setSection = useGalaxy((s) => s.setSection);
   const signedIn = useAuth((s) => s.status === "signedIn");
@@ -67,7 +69,8 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
     setResult({ ...r, newBest, newMissionBest: missionBest > 0 && r.score > missionBest, badges: rec.badges, missions: rec.missions, rankBefore, boardRankBefore });
     // The run is already recorded; the "SHIELDS DOWN" sequence plays out before the result screen.
     // Back pressed meanwhile goes to the intro and stays there.
-    window.setTimeout(() => setPhase((p) => (p === "play" ? "over" : p)), 2200);
+    window.clearTimeout(overTimer.current);
+    overTimer.current = window.setTimeout(() => setPhase((p) => (p === "play" ? "over" : p)), 2200);
 
     if (r.score <= 0) {
       setSaving("none");
@@ -103,6 +106,7 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
     window.scrollTo({ top: 0 });
   };
   const playMission = (id: SectionId) => {
+    window.clearTimeout(overTimer.current);
     setSection(id);
     setRun((n) => n + 1);
     setPhase("play");

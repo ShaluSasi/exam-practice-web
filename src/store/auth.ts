@@ -106,13 +106,15 @@ export const useAuth = create<AuthState>()((set, get) => ({
         api<{ clientId: string | null }>("/api/auth/config"),
         api<{ user: User | null; canImport?: boolean }>("/api/auth/me"),
       ]);
+      // Signed in while this check was on its way: its answer is older than the sign-in.
+      if (get().user) return;
       if (user) set({ status: "signedIn", user, clientId, canImport: !!canImport });
       else {
         setSessionToken(null); // the app's token, if any, is no longer valid
         set({ status: clientId ? "signedOut" : "unavailable", user: null, clientId });
       }
     } catch {
-      set({ status: "unavailable", user: null });
+      if (!get().user) set({ status: "unavailable", user: null });
     }
   },
 

@@ -98,8 +98,12 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
   const closeRef = useRef<HTMLButtonElement>(null);
   const name = user ? shortName(user.name) : "I";
 
+  // Focus moves to the sheet once, when it opens: `onClose` is a new function on every parent render.
   useEffect(() => {
     closeRef.current?.focus();
+  }, []);
+
+  useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -175,7 +179,7 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
         r.onload = () => resolve(String(r.result));
         r.readAsDataURL(card.blob);
       });
-      const html = `<p>${escapeHtml(text).replace(escapeHtml(link ?? ""), `<a href="${link}">${escapeHtml(link ?? "")}</a>`).replace(/\n/g, "<br>")}</p><img src="${dataUrl}" alt="Kidzladder" width="540">`;
+      const html = `<p>${escapeHtml(text).replace(escapeHtml(link ?? ""), `<a href="${escapeHtml(link ?? "")}">${escapeHtml(link ?? "")}</a>`).replace(/\n/g, "<br>")}</p><img src="${dataUrl}" alt="Kidzladder" width="540">`;
       await navigator.clipboard.write([
         new ClipboardItem({
           "image/png": card.blob,
@@ -199,7 +203,9 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
     if (canShareFile) return shareBoth();
     // Desktop: WhatsApp links carry text only, so the picture goes on the clipboard to paste in.
     // The tab is opened inside the click itself; after an await, strict browsers block it as a popup.
-    const tab = window.open("", "_blank", "noopener");
+    // Not with the "noopener" feature: window.open then returns null and the blank tab could never be pointed at WhatsApp.
+    const tab = window.open("", "_blank");
+    if (tab) tab.opener = null;
     const how = await copyBoth();
     setNotice(how === "copied" ? "Picture copied. Paste it into the WhatsApp chat (Ctrl+V) with your link." : "Picture saved. Attach it in the WhatsApp chat with your link.");
     const link = `https://wa.me/?text=${encodeURIComponent(text)}`;

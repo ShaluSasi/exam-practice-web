@@ -181,6 +181,8 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
     const g = gradeRound(bank, questionIds, fromRecorded(attempts, await recordedChecks(env, user.id, r.id)));
     graded.push({
       ...r,
+      // A round can't finish in the future; a later date would count in this period and the next.
+      at: Math.min(r.at, now),
       correct: g.score.correct,
       total: Math.max(1, g.total),
       marks: g.score.marks,

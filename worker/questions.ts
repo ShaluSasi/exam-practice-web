@@ -13,6 +13,8 @@ import { HttpError, json, readJson, type Env } from "./http";
 
 const MAX_IDS = 200;
 const MAX_COUNT = 50;
+/** A real answer is a few option IDs; anything far bigger is not one (and is saved in `checks`). */
+const MAX_RESPONSE_CHARS = 10_000;
 
 const list = (v: string | null) => (v ? v.split(",").filter(Boolean) : []);
 
@@ -101,7 +103,9 @@ export async function checkAnswer(request: Request, env: Env): Promise<Response>
   let response: unknown = parsed.data.response ?? undefined;
   const q = (await loadBank(env)).byId.get(questionId);
   if (!q) throw new HttpError(404, "This question no longer exists");
-  if (response !== undefined && !isResponseFor(q, response)) throw new HttpError(400, "Invalid answer");
+  if (response !== undefined && (!isResponseFor(q, response) || JSON.stringify(response).length > MAX_RESPONSE_CHARS)) {
+    throw new HttpError(400, "Invalid answer");
+  }
 
   const user = roundId ? await optionalUser(request, env) : null;
   if (user && roundId) {

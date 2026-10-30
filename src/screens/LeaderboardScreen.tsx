@@ -189,11 +189,11 @@ function MyRankCard({
               />
             </div>
           </>
-        ) : (
+        ) : me.rank === 1 ? (
           <p className="flex items-center gap-2 font-display text-lg font-extrabold text-[#ffc53d]">
             <Crown className="size-5" /> You're at the top. Defend your crown!
           </p>
-        )}
+        ) : null}
       </div>
 
       <div className="relative mt-5 grid grid-cols-2 gap-2.5">
@@ -438,8 +438,10 @@ export function LeaderboardScreen() {
   const me = board?.me ?? null;
   const above = useMemo(() => {
     if (!me) return null;
+    // Students tied on XP share a rank, so the one to overtake is the nearest listed above with a better rank.
     const i = list.findIndex((e) => e.isMe);
-    return i > 0 && list[i - 1].rank < me.rank ? list[i - 1] : null;
+    for (let j = i - 1; j >= 0; j--) if (list[j].rank < me.rank) return list[j];
+    return null;
   }, [list, me]);
 
   // A little party when you're on the podium.

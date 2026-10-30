@@ -327,7 +327,11 @@ function ChapterView({ data, onSaved }: { data: AdminQuestions; onSaved: () => P
   const [pending, setPending] = useState<Map<string, Difficulty>>(new Map());
   const [filter, setFilter] = useState<Filter>("all");
   const [search, setSearch] = useState("");
-  const [review, setReview] = useState<number | null>(null);
+  /**
+   * The questions being reviewed, fixed when the review opens: with a difficulty filter on, picking another
+   * difficulty would drop the question from `shown`, shifting the rest up so the move to the next one skipped a question.
+   */
+  const [review, setReview] = useState<string[] | null>(null);
   const { saving, message, setMessage, submit } = useSubmit(pending.size, async () => {
     const body: DifficultyChanges = { changes: [...pending].map(([id, difficulty]) => ({ id, difficulty })) };
     const { saved } = await api<{ saved: number }>("/api/admin/difficulty", body);
@@ -355,6 +359,12 @@ function ChapterView({ data, onSaved }: { data: AdminQuestions; onSaved: () => P
     });
   }, [data.questions, filter, search, pending, valueOf]);
 
+  const reviewItems = useMemo(() => {
+    if (!review) return [];
+    const byId = new Map(data.questions.map((i) => [i.question.id, i]));
+    return review.flatMap((id) => byId.get(id) ?? []);
+  }, [review, data.questions]);
+
   const filterCount = (f: Filter) =>
     f === "all" ? data.questions.length : f === "changed" ? data.questions.filter((i) => i.changedBy || pending.has(i.question.id)).length : data.questions.filter((i) => valueOf(i) === f).length;
 
@@ -362,8 +372,8 @@ function ChapterView({ data, onSaved }: { data: AdminQuestions; onSaved: () => P
     <>
       <Summary items={data.questions} valueOf={valueOf} />
 
-      {review !== null && shown.length > 0 ? (
-        <Review items={shown} start={review} valueOf={valueOf} onChange={change} onClose={() => setReview(null)} />
+      {review !== null && reviewItems.length > 0 ? (
+        <Review items={reviewItems} start={0} valueOf={valueOf} onChange={change} onClose={() => setReview(null)} />
       ) : (
         <>
           <div className="sticky top-0 z-20 -mx-4 mb-3 bg-bg/90 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6">
@@ -391,7 +401,7 @@ function ChapterView({ data, onSaved }: { data: AdminQuestions; onSaved: () => P
                 placeholder="Search questions, topics or IDs"
                 className="min-w-0 flex-1 rounded-xl border-2 border-line bg-surface px-3 py-2.5 text-sm outline-none focus:border-fg/40"
               />
-              <Button variant="dark" className="shrink-0 px-4 py-2 text-sm" disabled={shown.length === 0} onClick={() => setReview(0)}>
+              <Button variant="dark" className="shrink-0 px-4 py-2 text-sm" disabled={shown.length === 0} onClick={() => setReview(shown.map((i) => i.question.id))}>
                 <ListChecks className="size-4" /> Review one by one
               </Button>
             </div>

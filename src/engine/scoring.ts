@@ -1,6 +1,6 @@
 import type { AnyResponse, ClientQuestion, Question, ResponseFor } from "../content/schema";
 
-const sameSet = (a: string[], b: string[]) => a.length === b.length && a.every((x) => b.includes(x));
+const sameSet = (a: string[], b: string[]) => a.length === b.length && new Set(a).size === a.length && a.every((x) => b.includes(x));
 
 export function isAnswered(q: ClientQuestion, r: AnyResponse | undefined): boolean {
   if (r === undefined) return false;
