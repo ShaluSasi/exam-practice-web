@@ -1,4 +1,4 @@
-# Kidzladder — exam practice (prototype)
+# Vijayeemantra — exam practice (prototype)
 
 Interactive practice for CBSE Class 9 and 10. React + TypeScript + Vite, Tailwind CSS v4, Motion, KaTeX.
 Deploys to Cloudflare Workers: static assets plus a small API Worker (`worker/`) for Google sign-in and saved scores (Cloudflare D1).
@@ -25,8 +25,10 @@ npm run deploy     # build + wrangler deploy (run `npx wrangler login` once firs
 | `src/engine/scoring.ts` | Grading and XP rules (grading runs in the Worker). |
 | `src/lib/platform.ts`, `app-version.json` | Website vs Android app, the live site address, and the build number shared by both. |
 | `worker/` | API Worker: `auth.ts` (`/api/auth/*`, Google sign-in, session cookie, roles), `scores.ts` (`/api/scores*`), `progress.ts` (`/api/progress*`, unfinished rounds and answer log). |
-| `migrations/*.sql` | D1 database schema (`users`, `rounds`, `active_rounds`, `answers`, `groups`, `group_members`, `shares`). |
+| `migrations/*.sql` | D1 database schema (`users`, `rounds`, `active_rounds`, `answers`, `groups`, `group_members`, `shares`, `question_reports`, `question_edits`, `quizzes`, `quiz_attempts`, ...). |
 | `worker/leaderboard.ts`, `worker/share.ts` | Leaderboard API (scopes and periods) and share links with link previews. |
+| `worker/reports.ts`, `src/content/edit.ts` | Reported questions: students report a problem (remark and optional suggested fix) from the answer sheet; admins approve, modify or reject on `/admin/reports`. Approved edits are kept in D1 (`question_edits`) and applied over the bank files, so they reach everyone without a deploy. |
+| `worker/quizzes.ts`, `src/screens/QuizScreen.tsx` | Scheduled quizzes (`/quiz`): admins create them from the banks on `/admin/quizzes` with a window, time limit and pass mark; students who pass get a certificate (`src/lib/certificate.ts`, checked with `/api/certificates?id=`) whose wording, signature and colours admins set per quiz (`src/content/certificate.ts`). Each quiz has a shareable link, `/quiz/<id>`, with a link preview. Answers are revealed only after the window closes. |
 | `src/store/auth.ts`, `src/components/Account.tsx` | Sign-in state, Google button and account menu. |
 | `src/store/scoreSync.ts`, `src/store/profile.ts` | Guest scores on the device; signed-in scores saved to the server. |
 | `src/store/progress.ts` | Saves the current round after every answer and resumes it. |

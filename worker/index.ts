@@ -1,6 +1,6 @@
 /**
  * API Worker. Static assets (the React app) are served by Cloudflare directly;
- * only `/`, `/api/*`, `/s/*` and `/games/*` reach this code (see `run_worker_first` in wrangler.jsonc).
+ * only `/`, `/api/*`, `/s/*`, `/games/*` and `/quiz*` reach this code (see `run_worker_first` in wrangler.jsonc).
  */
 import type { AppConfig } from "../src/content/api";
 import { getAdminChapters, getAdminQuestions, saveDifficulty, saveOrder } from "./admin";
@@ -10,6 +10,24 @@ import { HttpError, error, json, preflight, withCors, type Env } from "./http";
 import { getLeaderboard } from "./leaderboard";
 import { clearProgress, getProgress, saveProgress } from "./progress";
 import { checkAnswer, getCatalog, getQuestions } from "./questions";
+import {
+  adminDeleteQuiz,
+  adminDrawQuestions,
+  adminListQuizzes,
+  adminQuizQuestions,
+  adminQuizResults,
+  adminSaveCertificate,
+  adminSaveQuiz,
+  getCertificate,
+  getQuizBoard,
+  getQuizResult,
+  quizPage,
+  listQuizzes,
+  saveQuizAnswer,
+  startQuiz,
+  submitQuiz,
+} from "./quizzes";
+import { getAdminReports, resolveReport, submitReport } from "./reports";
 import { getScores, importDevice, saveRounds } from "./scores";
 import { countPlay, createShare, gamePage, getShare, homePage, sharePage } from "./share";
 
@@ -28,6 +46,8 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
     const page = /^\/s\/([^/]+)\/?$/.exec(url.pathname);
     if (page && isGet) return await sharePage(request, env, url, page[1]);
     if (url.pathname === "/" && isGet) return await homePage(env, url);
+    const quizLink = /^\/quiz(?:\/([A-Za-z0-9-]{1,100}))?\/?$/.exec(url.pathname);
+    if (quizLink && isGet) return await quizPage(env, url, quizLink[1]);
     const gameLink = /^\/games\/([a-z]+)\/?$/.exec(url.pathname);
     if (gameLink && isGet) return await gamePage(env, url, gameLink[1]);
 
@@ -65,6 +85,40 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await saveDifficulty(request, env, url);
       case "POST /api/admin/order":
         return await saveOrder(request, env, url);
+      case "GET /api/admin/reports":
+        return await getAdminReports(request, env, url);
+      case "POST /api/admin/reports/resolve":
+        return await resolveReport(request, env, url);
+      case "POST /api/reports":
+        return await submitReport(request, env, url);
+      case "GET /api/quizzes":
+        return await listQuizzes(request, env);
+      case "POST /api/quizzes/start":
+        return await startQuiz(request, env, url);
+      case "POST /api/quizzes/answer":
+        return await saveQuizAnswer(request, env, url);
+      case "POST /api/quizzes/submit":
+        return await submitQuiz(request, env, url);
+      case "GET /api/quizzes/result":
+        return await getQuizResult(request, env, url);
+      case "GET /api/quizzes/board":
+        return await getQuizBoard(request, env, url);
+      case "GET /api/certificates":
+        return await getCertificate(env, url);
+      case "GET /api/admin/quizzes":
+        return await adminListQuizzes(request, env);
+      case "GET /api/admin/quizzes/questions":
+        return await adminQuizQuestions(request, env, url);
+      case "POST /api/admin/quizzes/draw":
+        return await adminDrawQuestions(request, env, url);
+      case "POST /api/admin/quizzes/save":
+        return await adminSaveQuiz(request, env, url);
+      case "POST /api/admin/quizzes/certificate":
+        return await adminSaveCertificate(request, env, url);
+      case "POST /api/admin/quizzes/delete":
+        return await adminDeleteQuiz(request, env, url);
+      case "GET /api/admin/quizzes/results":
+        return await adminQuizResults(request, env, url);
       case "GET /api/scores":
         return await getScores(request, env);
       case "POST /api/scores/rounds":

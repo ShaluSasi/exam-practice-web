@@ -19,7 +19,7 @@ export interface RegionConfig {
 export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
   IN: {
     id: "IN",
-    appName: "Kidzladder",
+    appName: "Vijayeemantra",
     locale: "en-IN",
     boards: ["CBSE"],
     grades: [9, 10, 11, 12],
@@ -34,7 +34,7 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
   },
   US: {
     id: "US",
-    appName: "Kidzladder",
+    appName: "Vijayeemantra",
     locale: "en-US",
     boards: ["Common Core", "AP"],
     grades: [9, 10, 11, 12],
@@ -44,7 +44,7 @@ export const REGIONS: Record<RegionConfig["id"], RegionConfig> = {
   },
   UK: {
     id: "UK",
-    appName: "Kidzladder",
+    appName: "Vijayeemantra",
     locale: "en-GB",
     boards: ["AQA", "Edexcel", "OCR"],
     grades: [10, 11, 12, 13],

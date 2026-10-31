@@ -8,6 +8,7 @@
  */
 import { isCorrect, nextStreak, scoreSession, xpFor } from "../src/engine/scoring";
 import type { ChapterInfo, Difficulty } from "../src/content/api";
+import { editedQuestion, type QuestionEdit } from "../src/content/edit";
 import { KEY_FIELDS, type AnswerKey, type AnyResponse, type ClientQuestion, type Question } from "../src/content/schema";
 import type { Env } from "./http";
 
@@ -91,6 +92,15 @@ export const difficultyChanges = adminChanges(
   () => new Map<string, Difficulty>(),
 );
 
+/** Wording and answer changes admins have approved (table question_edits), by question ID. */
+export const questionEdits = adminChanges(
+  async (env) => {
+    const { results } = await env.DB.prepare("SELECT question_id, edit FROM question_edits ORDER BY question_id").all<{ question_id: string; edit: string }>();
+    return new Map(results.map((r) => [r.question_id, JSON.parse(r.edit) as QuestionEdit]));
+  },
+  () => new Map<string, QuestionEdit>(),
+);
+
 /** Question order admins have set (table chapter_order): question IDs, first to last, by chapter key. */
 export const chapterOrders = adminChanges(
   async (env) => {
@@ -124,12 +134,26 @@ async function build(all: Question[]): Promise<Bank> {
 
 let bank: { changes: string; bank: Promise<Bank> } | null = null;
 
-/** The bank files with the admins' difficulty changes applied; rebuilt only when those change. */
+/** Each question with the edit an admin approved for it; one that no longer fits its question (the file changed since) is left out. */
+function withEdit(q: Question, edits: Map<string, QuestionEdit>): Question {
+  const edit = edits.get(q.id);
+  if (!edit) return q;
+  const edited = editedQuestion(q, edit);
+  if (!edited) console.error(`Question edit for ${q.id} no longer fits the question; using the bank file.`);
+  return edited ?? q;
+}
+
+/** The bank files with the admins' edits and difficulty changes applied; rebuilt only when those change. */
 export async function loadBank(env: Env): Promise<Bank> {
-  const [questions, changed] = await Promise.all([fileQuestions(), difficultyChanges.get(env)]);
-  const key = JSON.stringify([...changed]);
+  const [questions, changed, edits] = await Promise.all([fileQuestions(), difficultyChanges.get(env), questionEdits.get(env)]);
+  const key = JSON.stringify([[...changed], [...edits]]);
   if (bank?.changes !== key) {
-    const built = build(questions.map((q) => (changed.has(q.id) ? { ...q, difficulty: changed.get(q.id)! } : q))).catch((e: unknown) => {
+    const built = build(
+      questions.map((q) => {
+        const edited = withEdit(q, edits);
+        return changed.has(q.id) ? { ...edited, difficulty: changed.get(q.id)! } : edited;
+      }),
+    ).catch((e: unknown) => {
       bank = null;
       throw e;
     });

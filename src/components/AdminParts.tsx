@@ -81,7 +81,7 @@ export function Counts({ counts }: { counts: Record<Difficulty, number> }) {
   );
 }
 
-function Header({ title, subtitle, onBack }: { title: string; subtitle?: string; onBack: () => void }) {
+export function Header({ title, subtitle, onBack }: { title: string; subtitle?: string; onBack: () => void }) {
   return (
     <header className="flex items-center gap-2 py-5">
       <motion.button
@@ -101,7 +101,7 @@ function Header({ title, subtitle, onBack }: { title: string; subtitle?: string;
   );
 }
 
-function Problem({ message, onRetry }: { message: string; onRetry: () => void }) {
+export function Problem({ message, onRetry }: { message: string; onRetry: () => void }) {
   return (
     <div className="rounded-[24px] border-2 border-line bg-surface p-6 text-center">
       <p className="font-semibold">{message}</p>
@@ -112,7 +112,7 @@ function Problem({ message, onRetry }: { message: string; onRetry: () => void })
   );
 }
 
-function Spinner() {
+export function Spinner() {
   return (
     <div className="grid place-items-center py-24" role="status" aria-label="Loading">
       <div className="size-10 animate-spin rounded-full border-4 border-line border-t-brand" />

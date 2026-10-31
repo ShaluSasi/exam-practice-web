@@ -12,6 +12,9 @@ import { fetchQuestions, fetchRound, useContent, type RoundSource } from "./stor
 import { ADMIN_SCREENS, AdminScreen, useAdminGuard, useNotAdmin } from "./screens/AdminScreen";
 import { ChallengeScreen } from "./screens/ChallengeScreen";
 import { DifficultyScreen } from "./screens/DifficultyScreen";
+import { QuizAdminScreen } from "./screens/QuizAdminScreen";
+import { QuizScreen } from "./screens/QuizScreen";
+import { ReportsScreen } from "./screens/ReportsScreen";
 import { SequenceScreen } from "./screens/SequenceScreen";
 import { GameScreen } from "./screens/GameScreen";
 import { HomeScreen } from "./screens/HomeScreen";
@@ -254,6 +257,9 @@ export default function App() {
           {screen === "admin" && <AdminScreen />}
           {screen === "difficulty" && <DifficultyScreen />}
           {screen === "sequence" && <SequenceScreen />}
+          {screen === "reports" && <ReportsScreen />}
+          {screen === "quizzes" && <QuizScreen />}
+          {screen === "quizadmin" && <QuizAdminScreen />}
         </motion.div>
       </AnimatePresence>
       <SignInGate open={gate !== null} onClose={() => setGate(null)} />

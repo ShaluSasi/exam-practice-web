@@ -9,7 +9,7 @@
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     // "/", /s/<code> share links and /games/<id> game links: the Worker adds link-preview tags for chat apps.
-    "run_worker_first": ["/", "/api/*", "/s/*", "/games/*"],
+    "run_worker_first": ["/", "/api/*", "/s/*", "/games/*", "/quiz", "/quiz/*"],
   },
   "vars": {
     // OAuth 2.0 Web client ID from Google Cloud Console (public, safe to commit).

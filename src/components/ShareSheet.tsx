@@ -72,8 +72,8 @@ function message(t: ShareTarget, url: string, signedIn: boolean): string {
     if (t.score) return `🚀 I scored ${t.score.points.toLocaleString("en-IN")} points in ${where} and reached level ${t.score.level}! Can you beat me?\n👉 ${url}`;
     return `🚀 Play ${where} with me! Blast asteroids with maths and save Earth 🌍\n👉 ${url}`;
   }
-  if (t.kind === "rank") return `🔥 I'm #${t.rank} of ${t.participants} students on Kidzladder ${PERIOD_LABEL[t.period]}! Think you can beat me?\n👉 ${url}`;
-  const head = `🏆 I scored ${t.accuracy}% in ${t.title} on Kidzladder!`;
+  if (t.kind === "rank") return `🔥 I'm #${t.rank} of ${t.participants} students on Vijayeemantra ${PERIOD_LABEL[t.period]}! Think you can beat me?\n👉 ${url}`;
+  const head = `🏆 I scored ${t.accuracy}% in ${t.title} on Vijayeemantra!`;
   return signedIn
     ? `${head}\nSame ${t.questionIds.length} questions — can you beat me?\n👉 ${url}`
     : `${head}\nFree CBSE practice — try it\n👉 ${url}`;
@@ -115,7 +115,7 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
     let objectUrl: string | null = null;
     (async () => {
       const url = await createLink(target, signedIn).catch(() => {
-        if (live) setError("Couldn't make a challenge link right now, so your picture links to Kidzladder instead.");
+        if (live) setError("Couldn't make a challenge link right now, so your picture links to Vijayeemantra instead.");
         return SITE_ORIGIN;
       });
       if (!live) return;
@@ -147,7 +147,7 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
   }, [target, signedIn, name, attempt]);
 
   const text = link ? message(target, link, signedIn) : "";
-  const file = useMemo(() => (card ? new File([card.blob], "kidzladder.png", { type: "image/png" }) : null), [card]);
+  const file = useMemo(() => (card ? new File([card.blob], "vijayeemantra.png", { type: "image/png" }) : null), [card]);
   const canShareFile = !!file && typeof navigator.share === "function" && typeof navigator.canShare === "function" && navigator.canShare({ files: [file], text });
   // Every way of sharing sends the picture and the link together, so wait for both.
   const ready = !!link && !!card;
@@ -179,7 +179,7 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
         r.onload = () => resolve(String(r.result));
         r.readAsDataURL(card.blob);
       });
-      const html = `<p>${escapeHtml(text).replace(escapeHtml(link ?? ""), `<a href="${escapeHtml(link ?? "")}">${escapeHtml(link ?? "")}</a>`).replace(/\n/g, "<br>")}</p><img src="${dataUrl}" alt="Kidzladder" width="540">`;
+      const html = `<p>${escapeHtml(text).replace(escapeHtml(link ?? ""), `<a href="${escapeHtml(link ?? "")}">${escapeHtml(link ?? "")}</a>`).replace(/\n/g, "<br>")}</p><img src="${dataUrl}" alt="Vijayeemantra" width="540">`;
       await navigator.clipboard.write([
         new ClipboardItem({
           "image/png": card.blob,
@@ -191,7 +191,7 @@ function Sheet({ target, onClose }: { target: ShareTarget; onClose: () => void }
     } catch {
       const a = document.createElement("a");
       a.href = card.url;
-      a.download = target.kind === "round" ? "kidzladder-score.png" : target.kind === "game" ? `kidzladder-${target.game}.png` : "kidzladder-rank.png";
+      a.download = target.kind === "round" ? "vijayeemantra-score.png" : target.kind === "game" ? `vijayeemantra-${target.game}.png` : "vijayeemantra-rank.png";
       a.click();
       await navigator.clipboard.writeText(text).catch(() => undefined);
       return "saved";

@@ -1,19 +1,21 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, BookOpen, Check, ChevronLeft, ChevronRight, Clock, Flame, Lightbulb, Loader2, Minus, RotateCcw, Target, Trophy, WifiOff, X, Zap } from "lucide-react";
+import { ArrowRight, BookOpen, Check, ChevronLeft, ChevronRight, Clock, Flag, Flame, Lightbulb, Loader2, Minus, RotateCcw, Target, Trophy, WifiOff, X, Zap } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { Button } from "../components/Button";
 import { Figure } from "../components/Figure";
 import { QuestionHeader } from "../components/QuestionHeader";
+import { ReportSheet } from "../components/ReportSheet";
 import { RichText } from "../components/RichText";
 import { XpPill } from "../components/TopBar";
+import type { Question } from "../content/schema";
 import { isAnswered, scoreSession, type ScoreSummary } from "../engine/scoring";
 import { burst } from "../lib/celebrate";
 import { play } from "../lib/sound";
 import { formatTime } from "../lib/subjects";
 import { QuestionBody } from "../questions";
-import { attemptFor, canAnswerLater, frontier, isPending, skippedIndexes, useSession, type Attempt } from "../store/session";
+import { attemptFor, canAnswerLater, frontier, hasKey, isPending, skippedIndexes, useSession, type Attempt } from "../store/session";
 
 const PRAISE = ["Brilliant!", "Spot on!", "Nailed it!", "Excellent!", "Superb!"];
 const ENCOURAGE = ["Not quite", "Almost there", "Good try"];
@@ -183,6 +185,7 @@ function FeedbackSheet({
   streak,
   explanation,
   onNext,
+  onReport,
   nextLabel,
   review = false,
 }: {
@@ -190,6 +193,8 @@ function FeedbackSheet({
   streak: number;
   explanation: string;
   onNext: () => void;
+  /** Opens "Report a problem" for this question; absent until its answer is known. */
+  onReport?: () => void;
   nextLabel: string;
   /** An earlier answer looked at again: a plain verdict instead of praise, and no streak. */
   review?: boolean;
@@ -269,6 +274,11 @@ function FeedbackSheet({
           >
             <BookOpen className="size-5" />
           </Button>
+          {onReport && (
+            <Button variant="ghost" onClick={onReport} className="px-4" aria-label="Report a problem with this question">
+              <Flag className="size-5" /> <span className="hidden sm:inline">Report</span>
+            </Button>
+          )}
           <Button variant={({ ok: "ok", skip: "dark", bad: "bad" } as const)[tone]} onClick={onNext} className="flex-1 sm:ml-auto sm:flex-none sm:px-10" autoFocus>
             {nextLabel} <ArrowRight className="size-5" />
           </Button>
@@ -394,13 +404,15 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
   const xpRef = useRef<HTMLDivElement>(null);
   const [floatXp, setFloatXp] = useState<{ id: number; xp: number } | null>(null);
   const [confirmRestart, setConfirmRestart] = useState(false);
+  const [reporting, setReporting] = useState<Question | null>(null);
+  const closeReport = useCallback(() => setReporting(null), []);
   const cancelRestart = useCallback(() => setConfirmRestart(false), []);
   const answered = q ? isAnswered(q, s.response) : false;
   const shownAttempt = q ? attemptFor(s.attempts, q.id) : undefined;
   const score = useMemo(() => scoreSession(s.questions, s.attempts), [s.questions, s.attempts]);
   const skipped = skippedIndexes(s);
   const reached = frontier(s);
-  const dialogOpen = confirmRestart || s.endPrompt;
+  const dialogOpen = confirmRestart || s.endPrompt || !!reporting;
   // Whether moving on from here ends the round (nothing left to answer).
   const lastStop = !s.questions.some((_, i) => i > s.index && isPending(s, i)) && skipped.length === 0;
 
@@ -635,6 +647,8 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
               streak={s.streak}
               explanation={q.explanation ?? ""}
               onNext={() => s.next()}
+              // Once checked, the question carries its answer key: it is the whole question.
+              onReport={hasKey(q) ? () => setReporting(q as Question) : undefined}
               review={s.phase === "review"}
               nextLabel={
                 s.phase === "review" && s.index + 1 <= reached && s.index + 1 < s.questions.length
@@ -693,6 +707,7 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
           }}
         />
       )}
+      <ReportSheet question={reporting} onClose={closeReport} />
       <SkippedDialog
         open={s.endPrompt && !s.finishing}
         count={skipped.length}

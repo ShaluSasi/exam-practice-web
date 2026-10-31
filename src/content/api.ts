@@ -1,4 +1,6 @@
-import type { AnswerKey, ClientQuestion, Question, QuestionType, SubjectId } from "./schema";
+import type { CertificateFormat } from "./certificate";
+import type { QuestionEdit } from "./edit";
+import type { AnswerKey, AnyResponse, ClientQuestion, Question, QuestionType, SubjectId } from "./schema";
 
 /**
  * Shapes of the content API (worker/questions.ts). Questions, answers and
@@ -85,4 +87,159 @@ export interface ChapterOrderIn {
 /** POST /api/admin/difficulty */
 export interface DifficultyChanges {
   changes: { id: string; difficulty: Difficulty }[];
+}
+
+// ---------- Reported questions (worker/reports.ts) ----------
+
+export type ReportReason = "wrong_answer" | "question_error" | "unclear" | "image" | "other";
+export type ReportStatus = "open" | "approved" | "rejected";
+
+/** POST /api/reports: a signed-in student reports a problem with a question they have answered. */
+export interface ReportIn {
+  questionId: string;
+  reason: ReportReason;
+  remark: string;
+  /** The fix the student suggests, if any. */
+  proposal?: QuestionEdit;
+}
+
+export interface AdminReport {
+  id: string;
+  reason: ReportReason;
+  remark: string;
+  proposal?: QuestionEdit;
+  status: ReportStatus;
+  createdAt: number;
+  reporter: { name: string; email: string };
+  resolvedBy?: string;
+  resolvedAt?: number;
+  adminNote?: string;
+  /** The edit an admin applied when approving, if any. */
+  applied?: QuestionEdit;
+}
+
+/** The reports about one question. `question` is null if it has since been removed from the bank. */
+export interface AdminReportGroup {
+  questionId: string;
+  question: Question | null;
+  /** An admin has already edited this question. */
+  edited: boolean;
+  reports: AdminReport[];
+}
+
+/** GET /api/admin/reports?status=<status> */
+export interface AdminReports {
+  groups: AdminReportGroup[];
+  counts: Record<ReportStatus, number>;
+}
+
+/** POST /api/admin/reports/resolve. Approving with an `edit` changes the question for everyone. */
+export interface ResolveReportIn {
+  id: string;
+  action: "approve" | "reject";
+  edit?: QuestionEdit;
+  note?: string;
+}
+
+// ---------- Quizzes (worker/quizzes.ts) ----------
+
+/** A scheduled quiz as students see it. Times are ms since epoch. */
+export interface QuizInfo {
+  id: string;
+  title: string;
+  description: string;
+  startsAt: number;
+  endsAt: number;
+  /** Minutes each student gets from starting (cut short by the end of the window). */
+  durationMin: number;
+  passPercent: number;
+  questionCount: number;
+  /** Students who have started it. */
+  participants: number;
+  /** The signed-in student's attempt, if any. */
+  mine?: { status: "in_progress" | "submitted"; deadline: number; percent?: number; passed?: boolean; certificateId?: string };
+}
+
+/** GET /api/quizzes: quizzes not yet over, and those that ended in the last 30 days. `now` is the server's clock. */
+export interface QuizList {
+  quizzes: QuizInfo[];
+  now: number;
+}
+
+/** POST /api/quizzes/start: the questions (without answers) and the answers saved so far. */
+export interface QuizSession {
+  quiz: QuizInfo;
+  questions: ClientQuestion[];
+  answers: Record<string, AnyResponse>;
+  deadline: number;
+  now: number;
+}
+
+/** POST /api/quizzes/answer. `response: null` clears it. */
+export interface QuizAnswerIn {
+  quizId: string;
+  questionId: string;
+  response: AnyResponse | null;
+}
+
+export interface Certificate {
+  id: string;
+  name: string;
+  quizTitle: string;
+  percent: number;
+  issuedAt: number;
+  /** The quiz's wording and look, as an admin set them. */
+  format: CertificateFormat;
+}
+
+/** POST /api/quizzes/submit, GET /api/quizzes/result?quiz=<id>. `review` arrives once the quiz has ended. */
+export interface QuizResult {
+  quiz: QuizInfo;
+  correct: number;
+  total: number;
+  percent: number;
+  passed: boolean;
+  timeTakenMs: number;
+  /** Position among everyone who has finished so far. */
+  rank: number;
+  finished: number;
+  certificate?: Certificate;
+  review?: { question: ClientQuestion; response?: AnyResponse; correct: boolean }[];
+}
+
+/** GET /api/quizzes/board?quiz=<id>: the top scorers, once the quiz has ended. */
+export interface QuizBoard {
+  entries: { rank: number; name: string; picture: string | null; percent: number; timeTakenMs: number; passed: boolean; isMe: boolean }[];
+  finished: number;
+}
+
+/** A quiz with what only admins see. */
+export interface AdminQuiz extends QuizInfo {
+  questionIds: string[];
+  createdBy: string;
+  passedCount: number;
+  certificate: CertificateFormat;
+}
+
+/** POST /api/admin/quizzes/certificate: the quiz's certificate format; `format: null` goes back to the default. */
+export interface CertificateIn {
+  id: string;
+  format: CertificateFormat | null;
+}
+
+/** POST /api/admin/quizzes/save: creates a quiz (no `id`) or changes one. */
+export interface QuizIn {
+  id?: string;
+  title: string;
+  description: string;
+  startsAt: number;
+  endsAt: number;
+  durationMin: number;
+  passPercent: number;
+  questionIds: string[];
+}
+
+/** GET /api/admin/quizzes/results?quiz=<id> */
+export interface AdminQuizResults {
+  rows: { name: string; email: string; status: "in_progress" | "submitted"; percent: number | null; passed: boolean; startedAt: number; submittedAt: number | null; certificateId: string | null }[];
 }

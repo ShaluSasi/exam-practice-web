@@ -4,7 +4,7 @@ import { SITE_ORIGIN, isNative } from "../lib/platform";
 import type { GameId } from "./games";
 import { useSession } from "./session";
 
-export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "progress" | "admin" | "difficulty" | "sequence";
+export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "quizzes" | "quizadmin";
 
 /** Who the student is playing against, when they accepted a friend's challenge link. */
 export interface Opponent {
@@ -55,6 +55,20 @@ const progressLink = /^\/progress\/?$/.test(window.location.pathname);
 const adminLink = /^\/admin\/?$/.test(window.location.pathname);
 const difficultyLink = /^\/admin\/difficulty\/?$/.test(window.location.pathname);
 const sequenceLink = /^\/admin\/sequence\/?$/.test(window.location.pathname);
+const reportsLink = /^\/admin\/reports\/?$/.test(window.location.pathname);
+const quizLink = /^\/quiz(?:\/([A-Za-z0-9-]{1,100}))?\/?$/.exec(window.location.pathname);
+const quizzesLink = !!quizLink;
+/** Quiz ID from a shared /quiz/<id> link this visit started on, until the quiz page has opened it. */
+let linkedQuiz: string | null = quizLink?.[1] ?? null;
+export function takeLinkedQuiz(): string | null {
+  const id = linkedQuiz;
+  linkedQuiz = null;
+  return id;
+}
+
+/** The address students are sent to join a quiz. */
+export const quizUrl = (id: string) => `${SITE_ORIGIN}/quiz/${id}`;
+const quizAdminLink = /^\/admin\/quizzes\/?$/.test(window.location.pathname);
 
 /** The game's own address, so the address bar can be copied and shared. */
 export function gameUrl(id: GameId, mode?: string | null): string {
@@ -66,6 +80,9 @@ function pathOf(entry: Omit<Entry, "depth">): string {
   if (entry.screen === "admin") return "/admin";
   if (entry.screen === "difficulty") return "/admin/difficulty";
   if (entry.screen === "sequence") return "/admin/sequence";
+  if (entry.screen === "reports") return "/admin/reports";
+  if (entry.screen === "quizzes") return "/quiz";
+  if (entry.screen === "quizadmin") return "/admin/quizzes";
   if (entry.screen !== "game" || !entry.game) return "/";
   const url = new URL(gameUrl(entry.game, entry.gameMode));
   return url.pathname + url.search;
@@ -101,7 +118,7 @@ function returnHome() {
 }
 
 export const useNav = create<NavState>()((set, get) => ({
-  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : "home",
+  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : reportsLink ? "reports" : quizzesLink ? "quizzes" : quizAdminLink ? "quizadmin" : "home",
   challengeCode: fromLink,
   opponent: null,
   game: linkedGame,

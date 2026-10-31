@@ -12,7 +12,7 @@ import { z } from "zod";
 import type { AdminChapter, AdminQuestion, AdminQuestions, Difficulty } from "../src/content/api";
 import type { Question } from "../src/content/schema";
 import { requireRole } from "./auth";
-import { absoluteImages, chapterOrders, difficultyChanges, fileQuestions, loadBank } from "./content";
+import { absoluteImages, chapterOrders, difficultyChanges, fileQuestions, loadBank, questionEdits } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 
 const MAX_CHANGES = 500;
@@ -21,6 +21,7 @@ const MAX_CHANGES = 500;
 async function current(env: Env) {
   difficultyChanges.forget();
   chapterOrders.forget();
+  questionEdits.forget();
   const [bank, files, orders] = await Promise.all([loadBank(env), fileQuestions(), chapterOrders.get(env)]);
   return { bank, fileDifficulty: new Map(files.map((q) => [q.id, q.difficulty])), orders };
 }

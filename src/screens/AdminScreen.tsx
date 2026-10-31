@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import { ArrowLeft, ChevronRight, Gauge, ListOrdered } from "lucide-react";
+import { ArrowLeft, ChevronRight, Flag, Gauge, ListOrdered, Trophy } from "lucide-react";
 import { ROUND_SIZE } from "../engine/scoring";
 import { SettingsToggles } from "../components/TopBar";
 import { useAuth } from "../store/auth";
@@ -11,9 +11,21 @@ import { useProfile } from "../store/profile";
 const MAX_ROUND_SIZE = 50;
 
 /** Pages only admins (ADMIN_EMAILS in wrangler.jsonc) may open; App.tsx sends everyone else home. */
-export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence"];
+export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "quizadmin"];
 
 const LINKS = [
+  {
+    screen: "quizadmin" as const,
+    icon: Trophy,
+    title: "Quizzes",
+    text: "Schedule live quizzes from the question banks, edit or delete them, and see who passed.",
+  },
+  {
+    screen: "reports" as const,
+    icon: Flag,
+    title: "Reported questions",
+    text: "Problems students reported, with their suggested fixes. Approve, modify or reject each one.",
+  },
   {
     screen: "difficulty" as const,
     icon: Gauge,
