@@ -197,3 +197,13 @@ export async function renderCertificate(c: Certificate): Promise<Blob> {
 
   return new Promise((resolve, reject) => canvas.toBlob((b) => (b ? resolve(b) : reject(new Error("Could not draw the certificate"))), "image/png"));
 }
+
+/** Draws the certificate and saves it as a PNG. */
+export async function downloadCertificate(c: Certificate): Promise<void> {
+  const url = URL.createObjectURL(await renderCertificate(c));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `vijayeemantra-certificate-${c.id}.png`;
+  a.click();
+  window.setTimeout(() => URL.revokeObjectURL(url), 10_000);
+}

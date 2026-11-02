@@ -66,6 +66,12 @@ export function takeLinkedQuiz(): string | null {
   return id;
 }
 
+/** Opens one quiz's page (its lobby, or the student's result from there). */
+export function openQuiz(id: string) {
+  linkedQuiz = id;
+  useNav.getState().go("quizzes");
+}
+
 /** The address students are sent to join a quiz. */
 export const quizUrl = (id: string) => `${SITE_ORIGIN}/quiz/${id}`;
 const quizAdminLink = /^\/admin\/quizzes\/?$/.test(window.location.pathname);

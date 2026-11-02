@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { Award, BarChart3, Check, Loader2, RotateCcw, CalendarClock, Dices, Link2, Lock, MessageSquareText, PencilLine, Plus, Share2, Trash2, Users, X } from "lucide-react";
+import { Award, BarChart3, Check, Loader2, RotateCcw, CalendarClock, CopyPlus, Dices, EyeOff, Link2, Lock, MessageSquareText, PencilLine, Plus, Rocket, Share2, Trash2, Users, X } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
-import type { AdminChapter, AdminQuiz, AdminQuizResults, CertificateIn, QuizIn } from "../content/api";
+import type { AdminChapter, AdminQuiz, AdminQuizResults, CertificateIn, QuizIn, QuizStatus, QuizStatusIn } from "../content/api";
 import { CERTIFICATE_THEMES, CertificateFormat, DEFAULT_CERTIFICATE } from "../content/certificate";
 import type { Question, SubjectId } from "../content/schema";
 import { Chip, Header, Problem, Spinner, TYPE_LABEL } from "../components/AdminParts";
@@ -34,6 +34,23 @@ const inviteText = (q: AdminQuiz) =>
     `🏅 Score ${q.passPercent}% or more to win a certificate of achievement`,
     `👉 Join here: ${quizUrl(q.id)}`,
   ].join("\n");
+
+/** Who can see the quiz, as a badge. */
+const STATUS: Record<QuizStatus, { label: string; className: string; hint: string }> = {
+  draft: { label: "Draft", className: "bg-surface-2 text-muted ring-2 ring-inset ring-line", hint: "Only admins can see it" },
+  released: { label: "Released", className: "bg-ok/15 text-ok", hint: "Students can see it" },
+  withheld: { label: "Withheld", className: "bg-bad/10 text-bad", hint: "Hidden from students" },
+};
+
+function StatusBadge({ status }: { status: QuizStatus }) {
+  const s = STATUS[status];
+  return (
+    <span title={s.hint} className={clsx("inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-extrabold uppercase tracking-wider", s.className)}>
+      <span className={clsx("size-2 rounded-full bg-current", status === "released" && "animate-pulse")} />
+      {s.label}
+    </span>
+  );
+}
 
 /** Copies `text`; where the browser won't, shows it to copy by hand. */
 async function copy(text: string): Promise<boolean> {
@@ -132,7 +149,13 @@ function QuizEditor({ quiz, onSaved, onCancel }: { quiz: AdminQuiz | null; onSav
     setBusy(true);
     try {
       await api("/api/admin/quizzes/save", body);
-      onSaved(quiz ? "Quiz updated." : "Quiz scheduled! It shows on the home page for every student.");
+      onSaved(
+        !quiz
+          ? "Quiz saved as a draft. Release it when students should see it."
+          : quiz.status === "released"
+            ? "Quiz updated."
+            : "Quiz updated. It stays hidden from students until you release it.",
+      );
     } catch (e) {
       setProblem(errorText(e, "Couldn't save the quiz."));
       setBusy(false);
@@ -198,7 +221,20 @@ function QuizEditor({ quiz, onSaved, onCancel }: { quiz: AdminQuiz | null; onSav
       </section>
 
       <section className="rounded-[24px] border-2 border-line bg-surface p-5">
-        <h2 className="font-display text-lg font-extrabold">Questions {questions ? `(${questions.length})` : ""}</h2>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 className="font-display text-lg font-extrabold">Questions {questions ? `(${questions.length})` : ""}</h2>
+          {!locked && !!questions?.length && (
+            <Button
+              variant="ghost"
+              className="px-4 py-2 text-sm text-bad"
+              onClick={() => {
+                if (window.confirm(`Remove all ${questions.length} questions from this quiz? Nothing changes for students until you save.`)) setQuestions([]);
+              }}
+            >
+              <Trash2 className="size-4" /> Delete all questions
+            </Button>
+          )}
+        </div>
         {!locked && (
           <div className="mt-3 rounded-2xl bg-surface-2 p-4">
             <p className="text-sm font-bold">Draw random questions from chapters</p>
@@ -530,15 +566,17 @@ export function QuizAdminScreen() {
   const [problem, setProblem] = useState<string | null>(null);
   const [view, setView] = useState<View>({ kind: "list" });
   const [toast, setToast] = useState<string | null>(null);
+  const [busyId, setBusyId] = useState<string | null>(null);
   const now = useServerNow();
 
-  const load = useCallback(async () => {
+  const load = useCallback(async (): Promise<AdminQuiz[] | undefined> => {
     setProblem(null);
     try {
       // The public list carries the server's clock, so the live / upcoming badges match it.
       const [mine, clockNow] = await Promise.all([api<{ quizzes: AdminQuiz[] }>("/api/admin/quizzes"), api<{ now: number }>("/api/quizzes")]);
       syncClock(clockNow.now);
       setQuizzes(mine.quizzes);
+      return mine.quizzes;
     } catch (e) {
       setProblem(errorText(e, "Couldn't load the quizzes."));
     }
@@ -563,6 +601,35 @@ export function QuizAdminScreen() {
       await load();
     } catch (e) {
       setToast(errorText(e, "Couldn't delete the quiz."));
+    }
+  };
+
+  const setStatus = async (quiz: AdminQuiz, status: QuizStatusIn["status"]) => {
+    if (status === "withheld" && !window.confirm(`Withhold "${quiz.title}"? Students won't see it or be able to start it until you release it again.`)) return;
+    setBusyId(quiz.id);
+    try {
+      await api("/api/admin/quizzes/status", { id: quiz.id, status } satisfies QuizStatusIn);
+      setToast(status === "released" ? "Released! Students can see the quiz now." : "Withheld. Students can't see the quiz until you release it.");
+      await load();
+    } catch (e) {
+      setToast(errorText(e, "Couldn't change the quiz's status."));
+    } finally {
+      setBusyId(null);
+    }
+  };
+
+  /** Makes a draft copy and opens it in the editor. */
+  const clone = async (quiz: AdminQuiz) => {
+    setBusyId(quiz.id);
+    try {
+      const { id } = await api<{ id: string }>("/api/admin/quizzes/clone", { id: quiz.id });
+      const copy = (await load())?.find((q) => q.id === id);
+      if (copy) setView({ kind: "edit", quiz: copy });
+      setToast("Copy made as a draft. Change what you need, save, then release it.");
+    } catch (e) {
+      setToast(errorText(e, "Couldn't copy the quiz."));
+    } finally {
+      setBusyId(null);
     }
   };
 
@@ -627,9 +694,10 @@ export function QuizAdminScreen() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: i * 0.04 }}
-                    className="rounded-[24px] border-2 border-line bg-surface p-5"
+                    className={clsx("rounded-[24px] border-2 bg-surface p-5", q.status === "released" ? "border-line" : "border-dashed border-fg/20")}
                   >
                     <div className="flex flex-wrap items-center gap-2">
+                      <StatusBadge status={q.status} />
                       <PhaseBadge quiz={q} now={now} />
                       <span className="text-xs text-muted">created by {q.createdBy}</span>
                     </div>
@@ -650,7 +718,25 @@ export function QuizAdminScreen() {
                         <Award className="size-4 text-[#c8962a]" /> {q.passedCount} passed
                       </span>
                     </p>
-                    <div className="mt-4 flex flex-wrap items-center gap-2 rounded-2xl bg-surface-2 p-2 pl-3">
+                    <div className={clsx("mt-4 flex flex-wrap items-center gap-3 rounded-2xl p-3", q.status === "released" ? "bg-ok/10" : "bg-brand/10")}>
+                      <p className="min-w-0 flex-1 text-sm font-semibold">
+                        {q.status === "released"
+                          ? "Students can see this quiz on the home page and open its link."
+                          : q.status === "draft"
+                            ? "Draft: students can't see this quiz or open its link until you release it."
+                            : "Withheld: hidden from students, and its link doesn't open. Release it to show it again."}
+                      </p>
+                      {q.status === "released" ? (
+                        <Button variant="ghost" className="px-4 py-2 text-sm" disabled={busyId === q.id} onClick={() => void setStatus(q, "withheld")}>
+                          <EyeOff className="size-4" /> Withhold
+                        </Button>
+                      ) : (
+                        <Button variant="ok" className="px-4 py-2 text-sm" disabled={busyId === q.id} onClick={() => void setStatus(q, "released")}>
+                          <Rocket className="size-4" /> {q.status === "draft" ? "Release" : "Release again"}
+                        </Button>
+                      )}
+                    </div>
+                    <div className="mt-3 flex flex-wrap items-center gap-2 rounded-2xl bg-surface-2 p-2 pl-3">
                       <span className="min-w-0 flex-1 truncate font-mono text-sm text-muted" title={quizUrl(q.id)}>
                         {quizUrl(q.id)}
                       </span>
@@ -673,6 +759,9 @@ export function QuizAdminScreen() {
                     <div className="mt-3 flex flex-wrap gap-2">
                       <Button variant="ghost" className="px-4 py-2 text-sm" onClick={() => setView({ kind: "edit", quiz: q })}>
                         <PencilLine className="size-4" /> Edit
+                      </Button>
+                      <Button variant="ghost" className="px-4 py-2 text-sm" disabled={busyId === q.id} onClick={() => void clone(q)}>
+                        <CopyPlus className="size-4" /> Clone
                       </Button>
                       <Button variant="ghost" className="px-4 py-2 text-sm" onClick={() => setView({ kind: "certificate", quiz: q })}>
                         <Award className="size-4" /> Certificate

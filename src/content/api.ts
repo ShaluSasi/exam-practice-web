@@ -192,7 +192,7 @@ export interface Certificate {
   format: CertificateFormat;
 }
 
-/** POST /api/quizzes/submit, GET /api/quizzes/result?quiz=<id>. `review` arrives once the quiz has ended. */
+/** POST /api/quizzes/submit, GET /api/quizzes/result?quiz=<id>: the score, the answers and the certificate (if passed). */
 export interface QuizResult {
   quiz: QuizInfo;
   correct: number;
@@ -207,14 +207,32 @@ export interface QuizResult {
   review?: { question: ClientQuestion; response?: AnyResponse; correct: boolean }[];
 }
 
-/** GET /api/quizzes/board?quiz=<id>: the top scorers, once the quiz has ended. */
+/** GET /api/quizzes/mine: every quiz the signed-in student has finished, newest first. */
+export interface MyQuizzes {
+  entries: {
+    quiz: QuizInfo;
+    correct: number;
+    total: number;
+    percent: number;
+    passed: boolean;
+    timeTakenMs: number;
+    finishedAt: number;
+    certificate?: Certificate;
+  }[];
+}
+
+/** GET /api/quizzes/board?quiz=<id>: the top scorers so far. */
 export interface QuizBoard {
   entries: { rank: number; name: string; picture: string | null; percent: number; timeTakenMs: number; passed: boolean; isMe: boolean }[];
   finished: number;
 }
 
+/** Who can see a quiz: only admins until it is released; a withheld quiz is hidden again until released. */
+export type QuizStatus = "draft" | "released" | "withheld";
+
 /** A quiz with what only admins see. */
 export interface AdminQuiz extends QuizInfo {
+  status: QuizStatus;
   questionIds: string[];
   createdBy: string;
   passedCount: number;
@@ -237,6 +255,12 @@ export interface QuizIn {
   durationMin: number;
   passPercent: number;
   questionIds: string[];
+}
+
+/** POST /api/admin/quizzes/status: releases a quiz to students, or withholds it. */
+export interface QuizStatusIn {
+  id: string;
+  status: "released" | "withheld";
 }
 
 /** GET /api/admin/quizzes/results?quiz=<id> */

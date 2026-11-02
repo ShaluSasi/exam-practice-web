@@ -15,6 +15,7 @@ import { rankRounds, useCurrentGrade, useProfile, useStats } from "../store/prof
 import { useAuth } from "../store/auth";
 import { useSavedRound } from "../store/progress";
 import { QuizBanner } from "../components/QuizParts";
+import { MyQuizzesShelf } from "../components/QuizJourney";
 import { useContent, type RoundSource } from "../store/content";
 import { useNav } from "../store/nav";
 import { TYPE_LABEL } from "../questions";
@@ -536,6 +537,8 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
 
         {/* The live or next quiz: the way in for new students. Hidden when none is scheduled. */}
         <QuizBanner />
+        {/* Quizzes the student has taken, with their certificates. */}
+        <MyQuizzesShelf />
 
         {!landing && <WelcomeBar onMixed={() => onStart(mixed, "Mixed practice", MIXED_KEY)} />}
 

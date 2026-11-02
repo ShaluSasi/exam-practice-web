@@ -12,14 +12,17 @@ import { clearProgress, getProgress, saveProgress } from "./progress";
 import { checkAnswer, getCatalog, getQuestions } from "./questions";
 import {
   adminDeleteQuiz,
+  adminCloneQuiz,
   adminDrawQuestions,
   adminListQuizzes,
   adminQuizQuestions,
   adminQuizResults,
   adminSaveCertificate,
   adminSaveQuiz,
+  adminSetQuizStatus,
   getCertificate,
   getQuizBoard,
+  getMyQuizzes,
   getQuizResult,
   quizPage,
   listQuizzes,
@@ -101,6 +104,8 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await submitQuiz(request, env, url);
       case "GET /api/quizzes/result":
         return await getQuizResult(request, env, url);
+      case "GET /api/quizzes/mine":
+        return await getMyQuizzes(request, env);
       case "GET /api/quizzes/board":
         return await getQuizBoard(request, env, url);
       case "GET /api/certificates":
@@ -115,6 +120,10 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await adminSaveQuiz(request, env, url);
       case "POST /api/admin/quizzes/certificate":
         return await adminSaveCertificate(request, env, url);
+      case "POST /api/admin/quizzes/status":
+        return await adminSetQuizStatus(request, env, url);
+      case "POST /api/admin/quizzes/clone":
+        return await adminCloneQuiz(request, env, url);
       case "POST /api/admin/quizzes/delete":
         return await adminDeleteQuiz(request, env, url);
       case "GET /api/admin/quizzes/results":

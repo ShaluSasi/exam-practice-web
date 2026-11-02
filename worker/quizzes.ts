@@ -2,12 +2,14 @@
  * Scheduled quizzes. Admins create them from the question banks with a window
  * (start and end time) and a time limit; signed-in students take each one once
  * inside its window. Answers are saved as they are picked and graded here, on
- * submit or once the student's time is up. Answers are revealed only after the
- * window closes, so they cannot be passed on to students still taking it.
+ * submit or once the student's time is up. A student sees the correct answers,
+ * the leaderboard and their certificate as soon as they finish.
  * A student who reaches the pass mark gets a certificate of achievement.
+ * Students only see quizzes an admin has released: new and cloned quizzes are
+ * drafts, and a released quiz can be withheld (hidden) and released again.
  */
 import { z } from "zod";
-import type { AdminQuiz, AdminQuizResults, Certificate, QuizBoard, QuizInfo, QuizList, QuizResult, QuizSession } from "../src/content/api";
+import type { AdminQuiz, AdminQuizResults, Certificate, MyQuizzes, QuizBoard, QuizInfo, QuizList, QuizResult, QuizSession, QuizStatus } from "../src/content/api";
 import { CertificateFormat, certificateFormat } from "../src/content/certificate";
 import type { AnyResponse, ClientQuestion, Question } from "../src/content/schema";
 import { pickRandom } from "../src/engine/scoring";
@@ -37,6 +39,7 @@ interface QuizRow {
   created_at: number;
   updated_at: number;
   certificate: string | null;
+  status: QuizStatus;
 }
 
 interface AttemptRow {
@@ -85,6 +88,13 @@ async function getQuiz(env: Env, id: string): Promise<QuizRow> {
   return quiz;
 }
 
+/** A quiz students can see: released by an admin. Drafts and withheld quizzes look as if they don't exist. */
+async function getReleasedQuiz(env: Env, id: string): Promise<QuizRow> {
+  const quiz = await getQuiz(env, id);
+  if (quiz.status !== "released") throw new HttpError(404, "This quiz isn't available right now.");
+  return quiz;
+}
+
 const getAttempt = (env: Env, quizId: string, userId: string) =>
   env.DB.prepare("SELECT * FROM quiz_attempts WHERE quiz_id = ? AND user_id = ?").bind(quizId, userId).first<AttemptRow>();
 
@@ -126,7 +136,7 @@ export async function listQuizzes(request: Request, env: Env): Promise<Response>
   const user = await optionalUser(request, env);
   const { results } = await env.DB.prepare(
     `SELECT q.*, (SELECT COUNT(*) FROM quiz_attempts a WHERE a.quiz_id = q.id) AS participants
-     FROM quizzes q WHERE q.ends_at > ? ORDER BY q.starts_at`,
+     FROM quizzes q WHERE q.status = 'released' AND q.ends_at > ? ORDER BY q.starts_at`,
   )
     .bind(now - LISTED_AFTER_END_MS)
     .all<QuizRow & { participants: number }>();
@@ -154,7 +164,7 @@ export async function startQuiz(request: Request, env: Env, url: URL): Promise<R
   const user = await requireUser(request, env);
   const parsed = QuizIdIn.safeParse(await readJson(request));
   if (!parsed.success) throw new HttpError(400, "Invalid request");
-  const quiz = await getQuiz(env, parsed.data.quizId);
+  const quiz = await getReleasedQuiz(env, parsed.data.quizId);
   const now = Date.now();
   const bank = await loadBank(env);
   let attempt = await getAttempt(env, quiz.id, user.id);
@@ -195,7 +205,7 @@ export async function saveQuizAnswer(request: Request, env: Env, url: URL): Prom
   const parsed = AnswerIn.safeParse(await readJson(request));
   if (!parsed.success) throw new HttpError(400, "Invalid answer");
   const { quizId, questionId, response } = parsed.data;
-  const quiz = await getQuiz(env, quizId);
+  const quiz = await getReleasedQuiz(env, quizId);
   if (!idsOf(quiz).includes(questionId)) throw new HttpError(400, "That question isn't in this quiz");
   const attempt = await getAttempt(env, quizId, user.id);
   if (!attempt) throw new HttpError(409, "Start the quiz first.");
@@ -219,7 +229,7 @@ export async function saveQuizAnswer(request: Request, env: Env, url: URL): Prom
   return json({ ok: true });
 }
 
-async function resultOf(env: Env, bank: Bank, quiz: QuizRow, attempt: AttemptRow, userName: string, origin: string, now: number): Promise<QuizResult> {
+async function resultOf(env: Env, bank: Bank, quiz: QuizRow, attempt: AttemptRow, userName: string, origin: string): Promise<QuizResult> {
   const timeTakenMs = attempt.submitted_at! - attempt.started_at;
   const [ahead, finished, participants] = await Promise.all([
     env.DB.prepare(
@@ -251,14 +261,12 @@ async function resultOf(env: Env, bank: Bank, quiz: QuizRow, attempt: AttemptRow
       format: certificateFormat(quiz.certificate),
     };
   }
-  if (now >= quiz.ends_at) {
-    const answers = JSON.parse(attempt.answers) as Record<string, AnyResponse>;
-    result.review = questionsOf(bank, quiz).map((q) => ({
-      question: { ...publicQuestion(q, origin), ...absoluteImages(answerKey(q), origin) } as ClientQuestion,
-      ...(answers[q.id] !== undefined ? { response: answers[q.id] } : {}),
-      correct: grade(q, answers[q.id]),
-    }));
-  }
+  const answers = JSON.parse(attempt.answers) as Record<string, AnyResponse>;
+  result.review = questionsOf(bank, quiz).map((q) => ({
+    question: { ...publicQuestion(q, origin), ...absoluteImages(answerKey(q), origin) } as ClientQuestion,
+    ...(answers[q.id] !== undefined ? { response: answers[q.id] } : {}),
+    correct: grade(q, answers[q.id]),
+  }));
   return result;
 }
 
@@ -273,7 +281,7 @@ export async function submitQuiz(request: Request, env: Env, url: URL): Promise<
   if (!attempt) throw new HttpError(409, "Start the quiz first.");
   const now = Date.now();
   const bank = await loadBank(env);
-  return json(await resultOf(env, bank, quiz, await finalize(env, bank, quiz, attempt, now), user.name, url.origin, now));
+  return json(await resultOf(env, bank, quiz, await finalize(env, bank, quiz, attempt, now), user.name, url.origin));
 }
 
 /** GET /api/quizzes/result?quiz=<id>: the student's result, once finished (time up counts as finished). */
@@ -288,14 +296,62 @@ export async function getQuizResult(request: Request, env: Env, url: URL): Promi
     if (now <= attempt.deadline + GRACE_MS) throw new HttpError(409, "You're still taking this quiz.");
     attempt = await finalize(env, bank, quiz, attempt, now);
   }
-  return json(await resultOf(env, bank, quiz, attempt, user.name, url.origin, now));
+  return json(await resultOf(env, bank, quiz, attempt, user.name, url.origin));
 }
 
-/** GET /api/quizzes/board?quiz=<id>: top scorers (best score, then fastest), once the quiz has ended. */
+/** GET /api/quizzes/mine: the student's finished quizzes (time up counts as finished), with their certificates. */
+export async function getMyQuizzes(request: Request, env: Env): Promise<Response> {
+  const user = await requireUser(request, env);
+  const now = Date.now();
+  const { results } = await env.DB.prepare(
+    `SELECT a.*, q.id AS q_id, q.title, q.description, q.starts_at, q.ends_at, q.duration_min, q.pass_percent, q.question_ids,
+       q.created_by, q.created_at, q.updated_at, q.certificate, q.status,
+       (SELECT COUNT(*) FROM quiz_attempts b WHERE b.quiz_id = q.id) AS participants
+     FROM quiz_attempts a JOIN quizzes q ON q.id = a.quiz_id
+     WHERE a.user_id = ? ORDER BY a.started_at DESC`,
+  )
+    .bind(user.id)
+    .all<AttemptRow & Omit<QuizRow, "id"> & { q_id: string; participants: number }>();
+  let bank: Bank | null = null;
+  const entries: MyQuizzes["entries"] = [];
+  for (const row of results) {
+    const quiz: QuizRow = { ...row, id: row.q_id };
+    let attempt: AttemptRow = row;
+    if (attempt.submitted_at === null) {
+      // Still being taken: not in the history yet.
+      if (now <= attempt.deadline + GRACE_MS) continue;
+      bank ??= await loadBank(env);
+      attempt = await finalize(env, bank, quiz, attempt, now);
+    }
+    entries.push({
+      quiz: toInfo(quiz, row.participants, attempt),
+      correct: attempt.correct ?? 0,
+      total: attempt.total ?? 0,
+      percent: attempt.percent ?? 0,
+      passed: !!attempt.passed,
+      timeTakenMs: attempt.submitted_at! - attempt.started_at,
+      finishedAt: attempt.submitted_at!,
+      ...(attempt.certificate_id
+        ? {
+            certificate: {
+              id: attempt.certificate_id,
+              name: user.name,
+              quizTitle: quiz.title,
+              percent: attempt.percent ?? 0,
+              issuedAt: attempt.submitted_at!,
+              format: certificateFormat(quiz.certificate),
+            },
+          }
+        : {}),
+    });
+  }
+  return json({ entries } satisfies MyQuizzes);
+}
+
+/** GET /api/quizzes/board?quiz=<id>: top scorers so far (best score, then fastest). */
 export async function getQuizBoard(request: Request, env: Env, url: URL): Promise<Response> {
   const user = await optionalUser(request, env);
-  const quiz = await getQuiz(env, url.searchParams.get("quiz") ?? "");
-  if (Date.now() < quiz.ends_at) throw new HttpError(409, "The leaderboard opens when the quiz ends.");
+  const quiz = await getReleasedQuiz(env, url.searchParams.get("quiz") ?? "");
   const [{ results }, finished] = await Promise.all([
     env.DB.prepare(
       `SELECT a.user_id, a.percent, a.passed, a.submitted_at - a.started_at AS taken, u.name, u.picture
@@ -353,7 +409,7 @@ export async function quizPage(env: Env, url: URL, id: string | undefined): Prom
     });
   }
   const quiz = await env.DB.prepare("SELECT * FROM quizzes WHERE id = ?").bind(id).first<QuizRow>().catch(() => null);
-  if (!quiz) return homePage(env, url);
+  if (quiz?.status !== "released") return homePage(env, url);
   const when = new Date(quiz.starts_at).toLocaleString("en-IN", {
     timeZone: "Asia/Kolkata",
     weekday: "short",
@@ -383,6 +439,7 @@ export async function adminListQuizzes(request: Request, env: Env): Promise<Resp
   ).all<QuizRow & { participants: number; passed_count: number }>();
   const quizzes: AdminQuiz[] = results.map((q) => ({
     ...toInfo(q, q.participants),
+    status: q.status,
     questionIds: idsOf(q),
     createdBy: q.created_by,
     passedCount: q.passed_count,
@@ -432,7 +489,7 @@ const QuizIn = z
   .refine((q) => q.endsAt > q.startsAt, "The quiz must end after it starts")
   .refine((q) => new Set(q.questionIds).size === q.questionIds.length, "A question is in the quiz twice");
 
-/** POST /api/admin/quizzes/save. Once a student has started, only the title, description and end time can change. */
+/** POST /api/admin/quizzes/save. A new quiz is a draft until released. Once a student has started, only the title, description and end time can change. */
 export async function adminSaveQuiz(request: Request, env: Env, url: URL): Promise<Response> {
   assertSameOrigin(request, url);
   const admin = await requireRole(request, env, ["admin"]);
@@ -447,8 +504,8 @@ export async function adminSaveQuiz(request: Request, env: Env, url: URL): Promi
   if (!q.id) {
     const id = crypto.randomUUID();
     await env.DB.prepare(
-      `INSERT INTO quizzes (id, title, description, starts_at, ends_at, duration_min, pass_percent, question_ids, created_by, created_at, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      `INSERT INTO quizzes (id, title, description, starts_at, ends_at, duration_min, pass_percent, question_ids, created_by, created_at, updated_at, status)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'draft')`,
     )
       .bind(id, q.title, q.description, q.startsAt, q.endsAt, q.durationMin, q.passPercent, JSON.stringify(q.questionIds), admin.email, now, now)
       .run();
@@ -489,6 +546,56 @@ export async function adminSaveCertificate(request: Request, env: Env, url: URL)
     .bind(parsed.data.format ? JSON.stringify(parsed.data.format) : null, Date.now(), parsed.data.id)
     .run();
   return json({ ok: true });
+}
+
+const StatusIn = z.object({ id: z.string().min(1).max(100), status: z.enum(["released", "withheld"]) });
+
+/** POST /api/admin/quizzes/status: releases the quiz to students, or withholds it (hides it until released again). */
+export async function adminSetQuizStatus(request: Request, env: Env, url: URL): Promise<Response> {
+  assertSameOrigin(request, url);
+  await requireRole(request, env, ["admin"]);
+  const parsed = StatusIn.safeParse(await readJson(request));
+  if (!parsed.success) throw new HttpError(400, "Invalid request");
+  await getQuiz(env, parsed.data.id);
+  await env.DB.prepare("UPDATE quizzes SET status = ?, updated_at = ? WHERE id = ?").bind(parsed.data.status, Date.now(), parsed.data.id).run();
+  return json({ ok: true });
+}
+
+const CloneIn = z.object({ id: z.string().min(1).max(100) });
+
+/**
+ * POST /api/admin/quizzes/clone: a draft copy of the quiz (questions, settings and certificate), without its attempts.
+ * A window that has already started moves forward by whole days, keeping its time of day, so the copy can be released as it is.
+ */
+export async function adminCloneQuiz(request: Request, env: Env, url: URL): Promise<Response> {
+  assertSameOrigin(request, url);
+  const admin = await requireRole(request, env, ["admin"]);
+  const parsed = CloneIn.safeParse(await readJson(request));
+  if (!parsed.success) throw new HttpError(400, "Invalid request");
+  const quiz = await getQuiz(env, parsed.data.id);
+  const now = Date.now();
+  const shift = quiz.starts_at > now ? 0 : Math.ceil((now - quiz.starts_at + 1) / DAY_MS) * DAY_MS;
+  const id = crypto.randomUUID();
+  await env.DB.prepare(
+    `INSERT INTO quizzes (id, title, description, starts_at, ends_at, duration_min, pass_percent, question_ids, created_by, created_at, updated_at, certificate, status)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'draft')`,
+  )
+    .bind(
+      id,
+      `${quiz.title} (copy)`.slice(0, 120),
+      quiz.description,
+      quiz.starts_at + shift,
+      quiz.ends_at + shift,
+      quiz.duration_min,
+      quiz.pass_percent,
+      quiz.question_ids,
+      admin.email,
+      now,
+      now,
+      quiz.certificate,
+    )
+    .run();
+  return json({ id });
 }
 
 const DeleteIn = z.object({ id: z.string().min(1).max(100) });

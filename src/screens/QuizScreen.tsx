@@ -31,7 +31,8 @@ import { Button } from "../components/Button";
 import { CountUp } from "../components/CountUp";
 import { Figure } from "../components/Figure";
 import { QuestionHeader } from "../components/QuestionHeader";
-import { Countdown, PhaseBadge, clock, formatWhen, phaseOf, syncClock, useServerNow } from "../components/QuizParts";
+import { ExploreMore, MyQuizzesShelf } from "../components/QuizJourney";
+import { Countdown, PhaseBadge, clock, formatWhen, phaseOf, serverNow, syncClock, useServerNow } from "../components/QuizParts";
 import { RichText } from "../components/RichText";
 import { SettingsToggles } from "../components/TopBar";
 import { initialResponse, isAnswered } from "../engine/scoring";
@@ -149,7 +150,7 @@ function QuizCard({ quiz, now, onOpen, index }: { quiz: QuizInfo; now: number; o
   );
 }
 
-function QuizListView({ quizzes, now, onOpen }: { quizzes: QuizInfo[]; now: number; onOpen: (id: string) => void }) {
+function QuizListView({ quizzes, now, onOpen, onResult }: { quizzes: QuizInfo[]; now: number; onOpen: (id: string) => void; onResult: (id: string) => void }) {
   const groups: { title: string; items: QuizInfo[] }[] = [
     { title: "Live now", items: quizzes.filter((q) => phaseOf(q, now) === "live") },
     { title: "Coming up", items: quizzes.filter((q) => phaseOf(q, now) === "upcoming") },
@@ -184,6 +185,7 @@ function QuizListView({ quizzes, now, onOpen }: { quizzes: QuizInfo[]; now: numb
           Join live quizzes with students across India. Reach the pass mark and you get a certificate of achievement with your name on it. Free!
         </p>
       </motion.section>
+      <MyQuizzesShelf onOpen={onResult} />
       {quizzes.length === 0 ? (
         <p className="rounded-[24px] border-2 border-line bg-surface p-8 text-center font-semibold text-muted">No quizzes scheduled yet. Check back soon! 📅</p>
       ) : (
@@ -293,7 +295,7 @@ function Lobby({
                       "The timer keeps running if you leave, so finish in one go.",
                       "Your answers save as you go. Change them any time until you submit.",
                       `Score ${quiz.passPercent}% or more to earn your certificate.`,
-                      "One attempt only. Answers are revealed when the quiz ends.",
+                      "One attempt only. See the answers and your certificate as soon as you submit.",
                     ].map((t) => (
                       <li key={t} className="flex gap-2">
                         <Check className="mt-0.5 size-5 shrink-0 text-ok" /> {t}
@@ -595,16 +597,19 @@ function QuizPlayer({ session, onFinished, onExit }: { session: QuizSession; onF
           <Button variant="ghost" className="px-4" onClick={() => goTo(index - 1)} disabled={index === 0} aria-label="Previous question">
             <ChevronLeft className="size-5" />
           </Button>
-          <Button
-            variant="dark"
-            className="px-4 sm:px-5"
-            onClick={() => setConfirm("submit")}
-            disabled={finishing || !allAnswered}
-            title={allAnswered ? undefined : "Answer every question to submit"}
-            aria-label={allAnswered ? "Submit" : `Submit (answer every question first, ${unanswered} left)`}
-          >
-            <Send className="size-5" /> <span className="hidden min-[400px]:inline">{allAnswered ? "Submit" : `${unanswered} left`}</span>
-          </Button>
+          {/* Left out once the big button is Submit itself (last question, all answered). */}
+          {!(last && allAnswered) && (
+            <Button
+              variant="dark"
+              className="px-4 sm:px-5"
+              onClick={() => setConfirm("submit")}
+              disabled={finishing || !allAnswered}
+              title={allAnswered ? undefined : "Answer every question to submit"}
+              aria-label={allAnswered ? "Submit" : `Submit (answer every question first, ${unanswered} left)`}
+            >
+              <Send className="size-5" /> <span className="hidden min-[400px]:inline">{allAnswered ? "Submit" : `${unanswered} left`}</span>
+            </Button>
+          )}
           {!last ? (
             <Button className="flex-1" onClick={() => goTo(index + 1)}>
               Next <ChevronRight className="size-5" />
@@ -892,9 +897,8 @@ function Review({ result }: { result: QuizResult }) {
 }
 
 function ResultView({ result }: { result: QuizResult }) {
-  const go = useNav((s) => s.go);
   const [tab, setTab] = useState<"answers" | "board">("answers");
-  const ended = !!result.review;
+  const ended = serverNow() >= result.quiz.endsAt;
 
   useEffect(() => {
     if (!result.passed) return;
@@ -937,40 +941,30 @@ function ResultView({ result }: { result: QuizResult }) {
 
       {result.certificate && <CertificateCard result={result} />}
 
-      {!result.passed && (
-        <Button variant="dark" onClick={() => go("home")}>
-          <BookOpen className="size-5" /> Practise chapters for the next quiz
-        </Button>
-      )}
+      <ExploreMore quizId={result.quiz.id} passed={result.passed} />
 
-      {ended ? (
-        <section>
-          <div role="tablist" className="mb-4 flex gap-2">
-            {(
-              [
-                ["answers", "Answers"],
-                ["board", "Leaderboard"],
-              ] as const
-            ).map(([k, label]) => (
-              <button
-                key={k}
-                type="button"
-                role="tab"
-                aria-selected={tab === k}
-                onClick={() => setTab(k)}
-                className={clsx("rounded-full border-2 px-4 py-1.5 text-sm font-bold transition", tab === k ? "border-fg bg-fg text-bg" : "border-line bg-surface")}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
-          {tab === "answers" ? <Review result={result} /> : <Board quizId={result.quiz.id} />}
-        </section>
-      ) : (
-        <p className="flex items-center justify-center gap-2 rounded-2xl bg-surface-2 p-4 text-center text-sm font-semibold text-muted">
-          <Lock className="size-4 shrink-0" /> The answers and the leaderboard open when the quiz ends, {formatWhen(result.quiz.endsAt)}.
-        </p>
-      )}
+      <section>
+        <div role="tablist" className="mb-4 flex gap-2">
+          {(
+            [
+              ["answers", "Answers"],
+              ["board", "Leaderboard"],
+            ] as const
+          ).map(([k, label]) => (
+            <button
+              key={k}
+              type="button"
+              role="tab"
+              aria-selected={tab === k}
+              onClick={() => setTab(k)}
+              className={clsx("rounded-full border-2 px-4 py-1.5 text-sm font-bold transition", tab === k ? "border-fg bg-fg text-bg" : "border-line bg-surface")}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        {tab === "answers" ? <Review result={result} /> : <Board quizId={result.quiz.id} />}
+      </section>
     </div>
   );
 }
@@ -983,10 +977,8 @@ export function QuizScreen() {
   const [quizzes, setQuizzes] = useState<QuizInfo[] | null>(null);
   const [problem, setProblem] = useState<string | null>(null);
   // A shared /quiz/<id> link opens that quiz's page straight away.
-  const [view, setView] = useState<View>(() => {
-    const id = takeLinkedQuiz();
-    return id ? { kind: "lobby", id } : { kind: "list" };
-  });
+  const [linked] = useState(takeLinkedQuiz);
+  const [view, setView] = useState<View>(linked ? { kind: "lobby", id: linked } : { kind: "list" });
   const [busy, setBusy] = useState(false);
   const [actionProblem, setActionProblem] = useState<string | null>(null);
   const [counting, setCounting] = useState<QuizSession | null>(null);
@@ -1040,6 +1032,16 @@ export function QuizScreen() {
     }
   };
 
+  // A quiz opened from a link or "My quizzes" that the student has finished: show their result straight away.
+  const autoResult = useRef(!!linked);
+  useEffect(() => {
+    if (!autoResult.current || !quizzes || !linked) return;
+    autoResult.current = false;
+    const q = quizzes.find((x) => x.id === linked);
+    if (q?.mine && (q.mine.status === "submitted" || serverNow() > q.mine.deadline)) void openResult(linked);
+    else if (!q && authStatus === "signedIn") void openResult(linked).catch(() => undefined);
+  }, [quizzes]);
+
   const backToList = () => {
     // Off a shared quiz's address, so a reload shows the list.
     if (window.location.pathname !== "/quiz") window.history.replaceState(window.history.state, "", "/quiz");
@@ -1087,6 +1089,7 @@ export function QuizScreen() {
           <QuizListView
             quizzes={quizzes}
             now={now}
+            onResult={(id) => void openResult(id)}
             onOpen={(id) => {
               setView({ kind: "lobby", id });
               setActionProblem(null);

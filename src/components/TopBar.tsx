@@ -4,6 +4,7 @@ import { region } from "../config/regions";
 import { useProfile, type ThemePref } from "../store/profile";
 import { useNav } from "../store/nav";
 import { AccountButton } from "./Account";
+import { Wordmark } from "./Wordmark";
 
 const NEXT_THEME: Record<ThemePref, ThemePref> = { system: "light", light: "dark", dark: "system" };
 const THEME_ICON = { system: Monitor, light: Sun, dark: Moon };
@@ -43,7 +44,7 @@ function LogoMark() {
           />
         </svg>
       </motion.div>
-      <span className="font-display text-xl font-extrabold tracking-tight">{region.appName}</span>
+      <Wordmark className="h-[23px] w-auto" />
     </div>
   );
 }
