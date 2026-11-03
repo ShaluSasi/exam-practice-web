@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { BadgeCheck, ChartColumn, Cloud, Gift, Trophy, X } from "lucide-react";
 import { useAuth } from "../store/auth";
+import type { GateReason } from "../store/guestLimit";
 import { SignInButton } from "./Account";
 
 const PERKS = [
@@ -19,11 +20,16 @@ function FreeBadge() {
   );
 }
 
+const GATE_TEXT: Record<GateReason, { title: string; text: string }> = {
+  round: { title: "You've used your free round! 🎉", text: "Sign in to keep practising. It takes one tap with Google." },
+  game: { title: "You've played your free games! 🎮", text: "Sign in to keep playing. It takes one tap with Google." },
+};
+
 /**
- * Shown when a guest who has used the free round starts another one. Signing
- * in closes it and the round starts (App.tsx); "Not now" goes back.
+ * Shown when a guest who has used the free round (or games) starts another one.
+ * Signing in closes it and the round or game starts (App.tsx); "Not now" goes back.
  */
-export function SignInGate({ open, onClose }: { open: boolean; onClose: () => void }) {
+export function SignInGate({ open, reason, onClose }: { open: boolean; reason: GateReason; onClose: () => void }) {
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -69,9 +75,9 @@ export function SignInGate({ open, onClose }: { open: boolean; onClose: () => vo
               <Gift className="size-8" />
             </motion.div>
             <h2 id="signin-gate-title" className="mt-4 font-display text-2xl font-extrabold tracking-tight">
-              You've used your free round! 🎉
+              {GATE_TEXT[reason].title}
             </h2>
-            <p className="mt-1.5 text-muted">Sign in to keep practising. It takes one tap with Google.</p>
+            <p className="mt-1.5 text-muted">{GATE_TEXT[reason].text}</p>
             <div className="mt-3">
               <FreeBadge />
             </div>

@@ -7,7 +7,7 @@ import { useApplyTheme } from "./lib/theme";
 import { ApiError, OFFLINE, api, useAuth } from "./store/auth";
 import { useConnection } from "./store/connection";
 import { SignInGate } from "./components/SignInPrompt";
-import { mustSignIn, startGuestCount } from "./store/guestLimit";
+import { GUEST_LIMIT, askSignIn, closeSignInGate, mustSignIn, startGuestCount, useSignInGate } from "./store/guestLimit";
 import { fetchQuestions, fetchRound, useContent, type RoundSource } from "./store/content";
 import { ADMIN_SCREENS, AdminScreen, useAdminGuard, useNotAdmin } from "./screens/AdminScreen";
 import { ChallengeScreen } from "./screens/ChallengeScreen";
@@ -79,8 +79,9 @@ export default function App() {
   const [starting, setStarting] = useState(false);
   /** A round that could not be loaded: retried from the offline screen. `problem` when it was not a connection issue. */
   const [failedStart, setFailedStart] = useState<{ retry: () => void; problem: string | null } | null>(null);
-  /** A round waiting for the guest to sign in; it starts once they have. */
-  const [gate, setGate] = useState<{ retry: () => void } | null>(null);
+  /** A round or game waiting for the guest to sign in; it starts once they have. */
+  const gate = useSignInGate((s) => s.retry);
+  const gateReason = useSignInGate((s) => s.reason);
   const authStatus = useAuth((s) => s.status);
   /** How the round on screen was started, so "Start over" can load a fresh one the same way. */
   const lastRound = useRef<{ source: RoundSource; title: string; key?: string; free: boolean } | null>(null);
@@ -89,8 +90,8 @@ export default function App() {
 
   useEffect(() => {
     if (gate && authStatus === "signedIn") {
-      setGate(null);
-      gate.retry();
+      closeSignInGate();
+      gate();
     }
   }, [gate, authStatus]);
 
@@ -117,8 +118,9 @@ export default function App() {
   const begin = useCallback(
     async (source: RoundSource, title: string, key?: string, free = false, fresh = false) => {
       // A guest past the free round signs in first; a round they already started can still be finished, but not started over.
-      if (!free && mustSignIn() && (fresh || !(key && getSavedRound(key)))) {
-        setGate({ retry: () => void begin(source, title, key, free, fresh) });
+      const retry = () => void begin(source, title, key, free, fresh);
+      if (!free && (fresh || !(key && getSavedRound(key))) && (await mustSignIn())) {
+        askSignIn("round", retry);
         return;
       }
       lastRound.current = { source, title, key, free };
@@ -152,7 +154,9 @@ export default function App() {
         if (fresh && key && saved) discardSavedRound(key, saved.roundId);
         go("practice");
       } catch (e) {
-        setFailedStart({ retry: () => void begin(source, title, key, free, fresh), problem: problemOf(e) });
+        // The server's daily cap on guest rounds from this network (worker/questions.ts).
+        if (e instanceof ApiError && e.status === GUEST_LIMIT) askSignIn("round", retry);
+        else setFailedStart({ retry, problem: problemOf(e) });
       } finally {
         setStarting(false);
       }
@@ -262,7 +266,7 @@ export default function App() {
           {screen === "quizadmin" && <QuizAdminScreen />}
         </motion.div>
       </AnimatePresence>
-      <SignInGate open={gate !== null} onClose={() => setGate(null)} />
+      <SignInGate open={gate !== null} reason={gateReason} onClose={closeSignInGate} />
     </MotionConfig>
   );
 }

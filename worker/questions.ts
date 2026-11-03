@@ -15,6 +15,14 @@ const MAX_IDS = 200;
 const MAX_COUNT = 50;
 /** A real answer is a few option IDs; anything far bigger is not one (and is saved in `checks`). */
 const MAX_RESPONSE_CHARS = 10_000;
+/**
+ * New rounds guests may draw from one network a day. The app already stops a
+ * guest after one free round (src/store/guestLimit.ts); this catches clearing
+ * the browser's data or a private window, and leaves room for a few devices
+ * (a family, a classroom) sharing one connection.
+ */
+const GUEST_ROUNDS_PER_DAY = 5;
+const DAY_MS = 86_400_000;
 
 const list = (v: string | null) => (v ? v.split(",").filter(Boolean) : []);
 
@@ -63,6 +71,7 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
     return send(found, ids.filter((id) => !bank.byId.has(id)), new Set(reveal));
   }
 
+  await countGuestRound(request, env);
   const count = Math.min(MAX_COUNT, Math.max(1, Number(p.get("count")) || ROUND_SIZE));
   const chapter = p.get("chapter");
   let pool: Question[];
@@ -79,6 +88,32 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
     );
   }
   return send(pickRound(pool, count));
+}
+
+/** The network a request came from: its IP address, or the /64 an IPv6 address belongs to, hashed. */
+async function networkOf(request: Request): Promise<string | null> {
+  const ip = request.headers.get("CF-Connecting-IP");
+  if (!ip) return null; // local dev
+  const network = ip.includes(":") ? ip.split(":").slice(0, 4).join(":") : ip;
+  const hash = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(network));
+  return [...new Uint8Array(hash).slice(0, 12)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+/** Counts a new round drawn by a guest; past the day's cap, they must sign in (401, src/store/guestLimit.ts). */
+async function countGuestRound(request: Request, env: Env): Promise<void> {
+  if (await optionalUser(request, env)) return;
+  const network = await networkOf(request);
+  if (!network) return;
+  const day = Math.floor(Date.now() / DAY_MS);
+  // A database problem (or the table not migrated yet) must not stop guests from practising.
+  const counted = await env.DB.batch([
+    env.DB.prepare("DELETE FROM guest_rounds WHERE day < ?").bind(day - 1),
+    env.DB.prepare(
+      "INSERT INTO guest_rounds (network, day, n) VALUES (?, ?, 1) ON CONFLICT (network, day) DO UPDATE SET n = n + 1 RETURNING n",
+    ).bind(network, day),
+  ]).catch(() => null);
+  const n = (counted?.[1].results[0] as { n: number } | undefined)?.n ?? 0;
+  if (n > GUEST_ROUNDS_PER_DAY) throw new HttpError(401, "Sign in (free) to keep practising.");
 }
 
 const CheckIn = z.object({

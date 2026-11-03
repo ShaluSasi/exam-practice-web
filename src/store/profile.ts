@@ -62,6 +62,9 @@ interface ProfileState extends Stats {
   /** Questions answered without signing in on this device; guests get one free round (store/guestLimit.ts). */
   guestAnswered: number;
   countGuestAnswer: () => void;
+  /** Games opened without signing in on this device (store/guestLimit.ts). */
+  guestGames: number;
+  countGuestGame: () => void;
   /** Class tab last opened on the home screen. */
   lastGrade: number | null;
   setLastGrade: (g: number) => void;
@@ -104,6 +107,8 @@ export const useProfile = create<ProfileState>()(
       setLastSubject: (lastSubject) => set({ lastSubject }),
       guestAnswered: 0,
       countGuestAnswer: () => set((s) => ({ guestAnswered: s.guestAnswered + 1 })),
+      guestGames: 0,
+      countGuestGame: () => set((s) => ({ guestGames: s.guestGames + 1 })),
       lastGrade: null,
       setLastGrade: (lastGrade) => set({ lastGrade }),
       recordSession: (round, streak) => set((s) => addRound(s, round, streak, MAX_ROUNDS)),

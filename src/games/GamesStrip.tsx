@@ -3,7 +3,7 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Brain, Crown, Flame, Play } from "lucide-react";
 import clsx from "clsx";
 import { useGames, useGameStreak } from "../store/games";
-import { useNav } from "../store/nav";
+import { openGame } from "../store/guestLimit";
 import { useCurrentGrade } from "../store/profile";
 import { GAMES, type GameMeta } from "./registry";
 
@@ -43,12 +43,11 @@ function Teaser({ items }: { items: string[] }) {
 
 function GameTile({ g, index }: { g: GameMeta; index: number }) {
   const record = useGames((s) => s.records[g.id]);
-  const playGame = useNav((s) => s.playGame);
   const Icon = g.icon;
   return (
     <motion.button
       type="button"
-      onClick={() => playGame(g.id)}
+      onClick={() => void openGame(g.id)}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.07 }}
@@ -99,7 +98,6 @@ function GameTile({ g, index }: { g: GameMeta; index: number }) {
 function FeaturedTile({ g }: { g: GameMeta }) {
   const reduce = useReducedMotion();
   const record = useGames((s) => s.records[g.id]);
-  const playGame = useNav((s) => s.playGame);
   const rocks = [
     { label: "56", x: "18%", d: 0, dur: 4.2 },
     { label: "54", x: "42%", d: 1.3, dur: 4.8 },
@@ -109,7 +107,7 @@ function FeaturedTile({ g }: { g: GameMeta }) {
   return (
     <motion.button
       type="button"
-      onClick={() => playGame(g.id)}
+      onClick={() => void openGame(g.id)}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       whileHover={{ y: -4 }}
