@@ -957,7 +957,7 @@ function ResultView({ result }: { result: QuizResult }) {
               role="tab"
               aria-selected={tab === k}
               onClick={() => setTab(k)}
-              className={clsx("rounded-full border-2 px-4 py-1.5 text-sm font-bold transition", tab === k ? "border-fg bg-fg text-bg" : "border-line bg-surface")}
+              className={clsx("rounded-full border-2 px-4 py-2 text-sm font-bold transition", tab === k ? "border-fg bg-fg text-bg" : "border-line bg-surface")}
             >
               {label}
             </button>

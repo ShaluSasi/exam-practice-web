@@ -168,7 +168,7 @@ function FeaturedTile({ g }: { g: GameMeta }) {
           <motion.span
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 1.4, repeat: Infinity }}
-            className="rounded-full bg-gradient-to-r from-[#ffd23f] to-[#ff7ad9] px-2.5 py-1 text-[10px] font-extrabold tracking-wider text-[#1b1f3b]"
+            className="rounded-full bg-gradient-to-r from-[#ffd23f] to-[#ff7ad9] px-2.5 py-1 text-[11px] font-extrabold tracking-wider text-[#1b1f3b]"
           >
             {record ? "FEATURED" : "NEW · FEATURED"}
           </motion.span>

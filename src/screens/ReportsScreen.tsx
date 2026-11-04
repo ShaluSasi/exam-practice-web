@@ -154,7 +154,7 @@ function Actions({ report, question, onSetStatus, onFix }: { report: AdminReport
           onChange={(e) => setStatus(e.target.value as ReportStatus)}
           disabled={busy}
           aria-label="Status"
-          className="rounded-xl border-2 border-line bg-bg px-3 py-2 text-sm font-bold outline-none focus:border-brand"
+          className="rounded-xl border-2 border-line bg-bg px-3 py-2 text-base font-bold outline-none focus:border-brand"
         >
           {STATUSES.map((s) => (
             <option key={s.status} value={s.status}>
@@ -169,7 +169,7 @@ function Actions({ report, question, onSetStatus, onFix }: { report: AdminReport
           maxLength={1000}
           placeholder="Note (optional), e.g. why it was rejected"
           aria-label="Admin note"
-          className="min-w-48 flex-1 rounded-xl border-2 border-line bg-bg px-3 py-2 text-sm outline-none focus:border-brand"
+          className="min-w-48 flex-1 rounded-xl border-2 border-line bg-bg px-3 py-2 text-base outline-none focus:border-brand"
         />
         <Button className="px-5 py-2.5 text-sm" disabled={busy || !unsaved} onClick={() => void run(onSetStatus({ id: report.id, status, note: note.trim() }))}>
           {busy ? "Saving…" : "Save"}
@@ -276,7 +276,7 @@ function GroupCard({ group, onSetStatus, onFix }: { group: AdminReportGroup } & 
             type="button"
             aria-expanded={open}
             onClick={() => setOpen((o) => !o)}
-            className="mt-2 flex items-center gap-1 text-sm font-bold text-muted hover:text-fg"
+            className="mt-1 flex items-center gap-1 py-2 text-sm font-bold text-muted hover:text-fg"
           >
             <ChevronDown className={clsx("size-4 transition", open && "rotate-180")} /> {open ? "Hide" : "Show"} the question as it is now
           </button>
@@ -361,7 +361,7 @@ export function ReportsScreen() {
               aria-selected={status === t.status}
               onClick={() => setStatus(t.status)}
               className={clsx(
-                "rounded-full border-2 px-4 py-1.5 text-sm font-bold transition",
+                "rounded-full border-2 px-4 py-2 text-sm font-bold transition",
                 status === t.status ? "border-fg bg-fg text-bg" : "border-line bg-surface hover:border-fg/30",
               )}
             >

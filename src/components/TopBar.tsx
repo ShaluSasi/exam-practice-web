@@ -17,15 +17,16 @@ function goHome() {
 
 export function Logo() {
   return (
-    <button type="button" onClick={goHome} aria-label={`${region.appName} home`} className="flex items-center gap-2.5 rounded-xl">
+    <button type="button" onClick={goHome} aria-label={`${region.appName} home`} className="flex min-h-10 items-center rounded-xl">
       <LogoMark />
     </button>
   );
 }
 
+/** The mark with the wordmark beside it; the wordmark is smaller on phones and left out on the narrowest, so the header's buttons fit. */
 function LogoMark() {
   return (
-    <div className="flex items-center gap-2.5">
+    <div className="flex items-center gap-2 min-[400px]:gap-2.5">
       <motion.div
         className="grid size-9 place-items-center rounded-xl bg-fg"
         whileHover={{ rotate: -8, scale: 1.05 }}
@@ -44,7 +45,7 @@ function LogoMark() {
           />
         </svg>
       </motion.div>
-      <Wordmark className="h-[23px] w-auto" />
+      <Wordmark className="hidden h-[18px] w-auto min-[360px]:block min-[400px]:h-[23px]" />
     </div>
   );
 }

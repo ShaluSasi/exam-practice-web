@@ -249,7 +249,7 @@ function QuizEditor({ quiz, onSaved, onCancel }: { quiz: AdminQuiz | null; onSav
                         setGrade(g);
                         setSubject("all");
                       }}
-                      className={clsx("rounded-full border-2 px-3 py-1 text-sm font-bold", grade === g ? "border-fg bg-fg text-bg" : "border-line bg-surface")}
+                      className={clsx("rounded-full border-2 px-3 py-2 text-sm font-bold", grade === g ? "border-fg bg-fg text-bg" : "border-line bg-surface")}
                     >
                       {region.gradeLabel(g)}
                     </button>
@@ -263,7 +263,7 @@ function QuizEditor({ quiz, onSaved, onCancel }: { quiz: AdminQuiz | null; onSav
                       aria-pressed={subject === sub}
                       onClick={() => setSubject(sub)}
                       className={clsx(
-                        "rounded-full border-2 px-2.5 py-0.5 text-xs font-bold",
+                        "rounded-full border-2 px-3 py-2 text-xs font-bold",
                         subject === sub ? "border-brand bg-brand text-brand-ink" : "border-line bg-surface hover:border-fg/30",
                       )}
                     >
@@ -699,7 +699,7 @@ export function QuizAdminScreen() {
                     <div className="flex flex-wrap items-center gap-2">
                       <StatusBadge status={q.status} />
                       <PhaseBadge quiz={q} now={now} />
-                      <span className="text-xs text-muted">created by {q.createdBy}</span>
+                      <span className="break-all text-xs text-muted">created by {q.createdBy}</span>
                     </div>
                     <h2 className="mt-2 font-display text-xl font-extrabold">{q.title}</h2>
                     <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
@@ -719,7 +719,8 @@ export function QuizAdminScreen() {
                       </span>
                     </p>
                     <div className={clsx("mt-4 flex flex-wrap items-center gap-3 rounded-2xl p-3", q.status === "released" ? "bg-ok/10" : "bg-brand/10")}>
-                      <p className="min-w-0 flex-1 text-sm font-semibold">
+                      {/* On a phone the button drops below the text rather than squeezing it into a narrow column. */}
+                      <p className="min-w-0 flex-1 basis-52 text-sm font-semibold">
                         {q.status === "released"
                           ? "Students can see this quiz on the home page and open its link."
                           : q.status === "draft"

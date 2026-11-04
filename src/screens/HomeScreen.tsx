@@ -296,7 +296,7 @@ function ChapterPicker({ chapters, onStart }: { chapters: Chapter[]; onStart: St
                 aria-selected={g === grade}
                 onClick={() => setLastGrade(g)}
                 className={clsx(
-                  "flex-1 rounded-xl px-3 py-2 font-display text-sm font-bold transition-colors sm:text-base",
+                  "flex-1 rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:text-base",
                   g === grade ? "bg-fg text-bg shadow-pop" : "text-muted hover:text-fg",
                 )}
               >
@@ -399,7 +399,7 @@ function WelcomeBar({ onMixed }: { onMixed: () => void }) {
         <dl className="grid grid-cols-4 gap-2 sm:mt-2 sm:flex sm:gap-6">
           {stats.map((s) => (
             <div key={s.label} className="min-w-0">
-              <dt className="truncate text-[10px] font-semibold uppercase tracking-wider text-muted sm:text-xs">{s.label}</dt>
+              <dt className="truncate text-[11px] font-semibold uppercase tracking-wider text-muted sm:text-xs">{s.label}</dt>
               <dd className="flex items-center gap-1 font-display text-lg font-extrabold tabular-nums">
                 <s.icon className={clsx("size-4 shrink-0", s.cls)} /> {s.value}
               </dd>
@@ -463,7 +463,8 @@ function ProgressButton() {
       whileTap={{ scale: 0.92 }}
       aria-label="My progress"
       title="My progress"
-      className="relative hidden h-10 items-center gap-1.5 overflow-hidden rounded-xl bg-gradient-to-r from-[#ffc53d] to-brand px-2.5 font-display text-sm font-extrabold text-brand-ink shadow-[0_3px_0_0_rgb(0_0_0/0.18)] min-[400px]:flex"
+      // Hidden on phones, where the logo and the sign-in button fill the header; the welcome bar and hero link to progress there.
+      className="relative hidden h-10 items-center gap-1.5 overflow-hidden rounded-xl bg-gradient-to-r from-[#ffc53d] to-brand px-2.5 font-display text-sm font-extrabold text-brand-ink shadow-[0_3px_0_0_rgb(0_0_0/0.18)] min-[480px]:flex"
     >
       {!reduce && (
         <motion.span
@@ -599,7 +600,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               <button
                 type="button"
                 onClick={() => onStart(mixed, "Mixed practice", MIXED_KEY)}
-                className="font-semibold text-muted underline-offset-4 hover:text-fg hover:underline"
+                className="py-2 font-semibold text-muted underline-offset-4 hover:text-fg hover:underline"
               >
                 or start mixed practice
               </button>
@@ -639,7 +640,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.35 }}
               onClick={() => useNav.getState().go("progress")}
-              className="group mt-5 inline-flex items-center gap-1.5 font-semibold text-muted hover:text-fg"
+              className="group mt-3 inline-flex items-center gap-1.5 py-2 font-semibold text-muted hover:text-fg"
             >
               <ChartColumn className="size-4 text-brand" /> See my progress
               <ChevronRight className="size-4 transition-transform group-hover:translate-x-0.5" />
@@ -743,8 +744,9 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
                 </span>
               ))}
             </div>
-            <div className="flex items-center gap-4">
-              <span className="flex items-center gap-2 font-semibold text-muted">
+            {/* On phones the count and the button stack, so neither pushes past the screen's edge. */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+              <span className="flex flex-wrap items-center gap-x-2 gap-y-0.5 font-semibold text-muted">
                 <Target className="size-4" />
                 <motion.span key={selectionSize} initial={{ y: -6, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="tabular-nums">
                   {Math.min(selectionSize, ROUND_SIZE)}
@@ -752,7 +754,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
                 question{selectionSize === 1 ? "" : "s"}
                 {selectionSize > ROUND_SIZE && <span className="whitespace-nowrap font-normal">(random from {selectionSize})</span>}
               </span>
-              <Button variant="dark" disabled={selectionSize === 0} onClick={() => onStart({ subjects, grades: chosenGrades }, "Custom set")}>
+              <Button variant="dark" className="w-full sm:w-auto" disabled={selectionSize === 0} onClick={() => onStart({ subjects, grades: chosenGrades }, "Custom set")}>
                 Start <Play className="size-4 fill-current" />
               </Button>
             </div>

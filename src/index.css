@@ -104,6 +104,12 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* A stack laid out with `grid` and no columns gets one implicit column, which is sized to its widest
+   item: a long chapter title or an email address then pushed the whole page wider than a phone. */
+.grid {
+  grid-auto-columns: minmax(0, 1fr);
+}
+
 /* Subtle dotted "exam paper" texture behind everything. */
 .paper {
   background-image: radial-gradient(rgb(var(--shadow) / 0.07) 1px, transparent 1px);

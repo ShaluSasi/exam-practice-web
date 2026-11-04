@@ -31,7 +31,7 @@ function OrderItem({
       transition={{ duration: 0.4 }}
       style={{ position: "relative" }}
       className={clsx(
-        "flex items-center gap-3 rounded-2xl border-2 bg-surface py-2.5 pl-2 pr-3 text-[16px]",
+        "flex items-center gap-2 rounded-2xl border-2 bg-surface py-2 pl-1 pr-2 text-[16px] sm:gap-3 sm:pr-3",
         state === "idle" && "border-line",
         state === "correct" && "border-ok bg-ok-soft",
         state === "wrong" && "border-bad bg-bad-soft",
@@ -42,7 +42,8 @@ function OrderItem({
         aria-label={`Drag ${item.text}`}
         disabled={locked}
         onPointerDown={(e) => !locked && controls.start(e)}
-        className="grid h-10 w-8 shrink-0 cursor-grab touch-none place-items-center rounded-lg text-muted hover:bg-surface-2 active:cursor-grabbing disabled:cursor-default disabled:opacity-40"
+        // Finger-sized: the handle and the arrows are what a student taps on a phone.
+        className="grid h-11 w-10 shrink-0 cursor-grab touch-none place-items-center rounded-lg text-muted hover:bg-surface-2 active:cursor-grabbing disabled:cursor-default disabled:opacity-40"
       >
         <GripVertical className="size-5" />
       </button>
@@ -66,13 +67,13 @@ function OrderItem({
       )}
       <RichText text={item.text} className="min-w-0 flex-1 font-semibold" />
       {!locked && (
-        <div className="flex shrink-0 gap-1">
+        <div className="flex shrink-0 gap-0.5">
           <button
             type="button"
             aria-label="Move up"
             disabled={index === 0}
             onClick={() => onMove(-1)}
-            className="grid size-8 place-items-center rounded-lg text-muted hover:bg-surface-2 hover:text-fg disabled:opacity-25"
+            className="grid size-10 place-items-center rounded-lg text-muted hover:bg-surface-2 hover:text-fg disabled:opacity-25"
           >
             <ChevronUp className="size-5" />
           </button>
@@ -81,7 +82,7 @@ function OrderItem({
             aria-label="Move down"
             disabled={index === total - 1}
             onClick={() => onMove(1)}
-            className="grid size-8 place-items-center rounded-lg text-muted hover:bg-surface-2 hover:text-fg disabled:opacity-25"
+            className="grid size-10 place-items-center rounded-lg text-muted hover:bg-surface-2 hover:text-fg disabled:opacity-25"
           >
             <ChevronDown className="size-5" />
           </button>

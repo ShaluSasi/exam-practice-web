@@ -385,7 +385,7 @@ function ChapterView({ data, onSaved }: { data: AdminQuestions; onSaved: () => P
                   aria-pressed={filter === f}
                   onClick={() => setFilter(f)}
                   className={clsx(
-                    "rounded-full border-2 px-3 py-1 text-sm font-bold transition-colors",
+                    "rounded-full border-2 px-3 py-2 text-sm font-bold transition-colors",
                     filter === f ? "border-fg bg-fg text-bg" : "border-line bg-surface text-muted hover:text-fg",
                   )}
                 >
@@ -399,7 +399,7 @@ function ChapterView({ data, onSaved }: { data: AdminQuestions; onSaved: () => P
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search questions, topics or IDs"
-                className="min-w-0 flex-1 rounded-xl border-2 border-line bg-surface px-3 py-2.5 text-sm outline-none focus:border-fg/40"
+                className="min-w-0 flex-1 rounded-xl border-2 border-line bg-surface px-3 py-2.5 text-base outline-none focus:border-fg/40"
               />
               <Button variant="dark" className="shrink-0 px-4 py-2 text-sm" disabled={shown.length === 0} onClick={() => setReview(shown.map((i) => i.question.id))}>
                 <ListChecks className="size-4" /> Review one by one

@@ -24,11 +24,15 @@ function SignInError({ big }: { big?: boolean }) {
   );
 }
 
+/** Phones: the header's sign-in button is Google's icon alone, or with the logo and buttons it would not fit beside it. */
+const NARROW = "(max-width: 479px)";
+
 /** Google's own button (their branding rules require it), re-rendered on theme change. `big`: "Continue with Google", full size. */
 function GoogleButton({ big }: { big?: boolean }) {
   const clientId = useAuth((s) => s.clientId);
   const dark = useIsDark();
   const wide = useMediaQuery("(min-width: 640px)");
+  const narrow = useMediaQuery(NARROW);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -38,12 +42,13 @@ function GoogleButton({ big }: { big?: boolean }) {
       .then((google) => {
         if (!live || !ref.current) return;
         ref.current.replaceChildren();
+        const icon = narrow && !big;
         google.accounts.id.renderButton(ref.current, {
-          type: "standard",
+          type: icon ? "icon" : "standard",
           theme: dark ? "filled_black" : "outline",
-          size: big || wide ? "large" : "medium",
+          size: big || wide || icon ? "large" : "medium",
           text: big ? "continue_with" : "signin",
-          shape: "pill",
+          shape: icon ? "circle" : "pill",
           ...(big ? { logo_alignment: "center" as const, width: 280 } : {}),
         });
       })
@@ -51,7 +56,7 @@ function GoogleButton({ big }: { big?: boolean }) {
     return () => {
       live = false;
     };
-  }, [clientId, dark, wide, big]);
+  }, [clientId, dark, wide, narrow, big]);
 
   return (
     <div className="relative">
@@ -70,10 +75,11 @@ function NativeGoogleButton({ big }: { big?: boolean }) {
         type="button"
         onClick={() => void signIn()}
         whileTap={{ scale: 0.95 }}
+        aria-label={big ? undefined : "Sign in"}
         className={
           big
             ? "mx-auto flex h-12 w-full max-w-[280px] items-center justify-center gap-2.5 rounded-full border-2 border-line bg-surface px-5 font-bold"
-            : "flex h-10 items-center gap-2 rounded-full border-2 border-line bg-surface px-4 text-sm font-bold"
+            : "flex h-10 items-center gap-2 rounded-full border-2 border-line bg-surface px-2.5 text-sm font-bold min-[480px]:px-4"
         }
       >
         <svg viewBox="0 0 48 48" className="size-5" aria-hidden>
@@ -82,7 +88,7 @@ function NativeGoogleButton({ big }: { big?: boolean }) {
           <path fill="#FBBC05" d="M10.6 28.6c-.5-1.4-.8-3-.8-4.6s.3-3.2.8-4.6l-7.9-6.1C1 16.6 0 20.2 0 24s1 7.4 2.7 10.7l7.9-6.1z" />
           <path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.4-5.7c-2.1 1.4-4.8 2.3-8.5 2.3-6.2 0-11.5-4.2-13.4-9.9l-7.9 6.1C6.6 42.6 14.6 48 24 48z" />
         </svg>
-        {big ? "Continue with Google" : "Sign in"}
+        {big ? "Continue with Google" : <span className="hidden min-[480px]:inline">Sign in</span>}
       </motion.button>
       <SignInError big={big} />
     </div>

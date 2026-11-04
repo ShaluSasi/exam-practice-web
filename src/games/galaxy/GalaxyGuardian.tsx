@@ -376,7 +376,7 @@ function MissionPicker({
                 type="button"
                 whileTap={{ scale: 0.94 }}
                 onClick={() => onBoard(selected)}
-                className="flex items-center gap-1.5 rounded-xl bg-white/10 px-3 py-2 font-display text-sm font-bold hover:bg-white/20"
+                className="flex items-center gap-1.5 rounded-xl bg-white/10 px-3 py-2.5 font-display text-sm font-bold hover:bg-white/20"
               >
                 <Trophy className="size-4" /> Ranking
               </motion.button>
@@ -385,7 +385,7 @@ function MissionPicker({
                 whileTap={{ scale: 0.94 }}
                 whileHover={{ scale: 1.04 }}
                 onClick={() => onPlay(selected)}
-                className="flex items-center gap-1.5 rounded-xl px-4 py-2 font-display text-sm font-extrabold text-[#0b1030]"
+                className="flex items-center gap-1.5 rounded-xl px-4 py-2.5 font-display text-sm font-extrabold text-[#0b1030]"
                 style={{ background: sel.color }}
               >
                 <Rocket className="size-4" /> Launch

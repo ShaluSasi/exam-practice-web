@@ -233,7 +233,7 @@ function Puzzle({ index, onBack, onNext, onRetry }: { index: number; onBack: () 
           onClick={() => change(k, 1)}
           whileTap={{ scale: 0.85, y: -2 }}
           disabled={locked || earned !== null}
-          className="grid h-8 w-12 place-items-center rounded-xl bg-chemistry/12 text-chemistry disabled:opacity-0 sm:h-9 sm:w-14"
+          className="grid h-10 w-12 place-items-center rounded-xl bg-chemistry/12 text-chemistry disabled:opacity-0 sm:w-14"
         >
           <ChevronUp className="size-6" strokeWidth={3} />
         </motion.button>
@@ -268,7 +268,7 @@ function Puzzle({ index, onBack, onNext, onRetry }: { index: number; onBack: () 
           onClick={() => change(k, -1)}
           whileTap={{ scale: 0.85, y: 2 }}
           disabled={locked || earned !== null || coefs[k] === 1}
-          className="grid h-8 w-12 place-items-center rounded-xl bg-surface-2 text-muted disabled:opacity-30 sm:h-9 sm:w-14"
+          className="grid h-10 w-12 place-items-center rounded-xl bg-surface-2 text-muted disabled:opacity-30 sm:w-14"
         >
           <ChevronDown className="size-6" strokeWidth={3} />
         </motion.button>

@@ -77,7 +77,7 @@ function ReportForm({ question, onClose }: { question: Question; onClose: () => 
               aria-pressed={reason === r}
               onClick={() => setReason(r)}
               className={clsx(
-                "rounded-full border-2 px-3.5 py-1.5 text-sm font-bold transition",
+                "rounded-full border-2 px-3.5 py-2 text-sm font-bold transition",
                 reason === r ? "border-brand bg-brand text-brand-ink" : "border-line bg-surface hover:border-fg/30",
               )}
             >
@@ -176,7 +176,7 @@ export function ReportSheet({ question, onClose }: { question: Question | null; 
               type="button"
               onClick={onClose}
               aria-label="Close"
-              className="absolute right-3 top-3 grid size-9 place-items-center rounded-xl text-muted hover:bg-surface-2 hover:text-fg"
+              className="absolute right-3 top-3 grid size-10 place-items-center rounded-xl text-muted hover:bg-surface-2 hover:text-fg"
             >
               <X className="size-5" />
             </button>

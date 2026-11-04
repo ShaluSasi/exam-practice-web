@@ -156,7 +156,7 @@ function ChapterList({ chapters, onOpen, note }: { chapters: AdminChapter[]; onO
             aria-selected={g === grade}
             onClick={() => setGrade(g)}
             className={clsx(
-              "flex-1 rounded-xl px-3 py-2 font-display text-sm font-bold transition-colors sm:text-base",
+              "flex-1 rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:text-base",
               g === grade ? "bg-fg text-bg shadow-pop" : "text-muted hover:text-fg",
             )}
           >
@@ -173,7 +173,7 @@ function ChapterList({ chapters, onOpen, note }: { chapters: AdminChapter[]; onO
             aria-pressed={s === subject}
             onClick={() => setSubject(s)}
             className={clsx(
-              "rounded-full border-2 px-3.5 py-1.5 text-sm font-bold transition-colors",
+              "rounded-full border-2 px-3.5 py-2 text-sm font-bold transition-colors",
               s === subject ? "border-fg bg-fg text-bg" : "border-line bg-surface text-muted hover:text-fg",
             )}
           >

@@ -181,7 +181,7 @@ export function GameIntro({
                       onClick={() => toggle(l)}
                       whileTap={{ scale: 0.94 }}
                       className={clsx(
-                        "flex items-center gap-1.5 rounded-full border-2 px-3 py-1.5 text-sm font-semibold transition-colors",
+                        "flex items-center gap-1.5 rounded-full border-2 px-3 py-2 text-sm font-semibold transition-colors",
                         on ? "border-ok/60 bg-ok-soft" : "border-line bg-transparent text-muted",
                       )}
                     >

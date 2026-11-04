@@ -703,7 +703,7 @@ function ChapterList({ list, onStart }: { list: ChapterProgress[]; onStart: Star
             aria-selected={filter === f.id}
             onClick={() => setFilter(f.id)}
             className={clsx(
-              "relative flex-1 whitespace-nowrap rounded-xl px-3 py-2 font-display text-sm font-bold transition-colors",
+              "relative flex-1 whitespace-nowrap rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors",
               filter === f.id ? "text-bg" : "text-muted hover:text-fg",
             )}
           >
@@ -795,7 +795,7 @@ export function ProgressScreen({ onStart }: { onStart: StartRound }) {
                 aria-selected={g === grade}
                 onClick={() => setLastGrade(g)}
                 className={clsx(
-                  "relative flex-1 rounded-xl px-3 py-2 font-display text-sm font-bold transition-colors sm:text-base",
+                  "relative flex-1 rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:text-base",
                   g === grade ? "text-bg" : "text-muted hover:text-fg",
                 )}
               >

@@ -77,7 +77,7 @@ export function Figure({
             type="button"
             onClick={() => setOpen(true)}
             aria-label="Enlarge image"
-            className="absolute right-2 top-2 grid size-8 place-items-center rounded-lg bg-white/85 text-[#2B2F4A] shadow-card backdrop-blur hover:bg-white"
+            className="absolute right-2 top-2 grid size-10 place-items-center rounded-lg bg-white/85 text-[#2B2F4A] shadow-card backdrop-blur hover:bg-white"
           >
             <Maximize2 className="size-4" />
           </button>

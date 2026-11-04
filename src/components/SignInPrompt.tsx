@@ -62,7 +62,7 @@ export function SignInGate({ open, reason, onClose }: { open: boolean; reason: G
               type="button"
               onClick={onClose}
               aria-label="Not now"
-              className="absolute right-3 top-3 grid size-9 place-items-center rounded-xl text-muted hover:bg-surface-2 hover:text-fg"
+              className="absolute right-3 top-3 grid size-10 place-items-center rounded-xl text-muted hover:bg-surface-2 hover:text-fg"
             >
               <X className="size-5" />
             </button>
@@ -100,7 +100,7 @@ export function SignInGate({ open, reason, onClose }: { open: boolean; reason: G
             <div className="mt-6">
               <SignInButton />
             </div>
-            <button type="button" onClick={onClose} className="mt-4 text-sm font-semibold text-muted underline-offset-4 hover:text-fg hover:underline">
+            <button type="button" onClick={onClose} className="mt-2 px-3 py-2 text-sm font-semibold text-muted underline-offset-4 hover:text-fg hover:underline">
               Not now
             </button>
           </motion.div>
@@ -126,7 +126,7 @@ export function SaveScoreCard({ freeUsed }: { freeUsed: boolean }) {
         type="button"
         onClick={() => setHidden(true)}
         aria-label="Maybe later"
-        className="absolute right-2.5 top-2.5 grid size-8 place-items-center rounded-lg text-muted hover:bg-surface hover:text-fg"
+        className="absolute right-2 top-2 grid size-10 place-items-center rounded-lg text-muted hover:bg-surface hover:text-fg"
       >
         <X className="size-4" />
       </button>
@@ -144,7 +144,7 @@ export function SaveScoreCard({ freeUsed }: { freeUsed: boolean }) {
       <div className="mt-4">
         <SignInButton />
       </div>
-      <button type="button" onClick={() => setHidden(true)} className="mt-3 text-sm font-semibold text-muted underline-offset-4 hover:text-fg hover:underline">
+      <button type="button" onClick={() => setHidden(true)} className="mt-1 px-3 py-2 text-sm font-semibold text-muted underline-offset-4 hover:text-fg hover:underline">
         Maybe later
       </button>
     </motion.section>

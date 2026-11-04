@@ -50,7 +50,7 @@ function ProgressTrack({ onOpen }: { onOpen: (i: number) => void }) {
             onClick={() => onOpen(i)}
             aria-label={`Question ${i + 1}${a ? (a.correct ? ", correct" : a.response === undefined ? ", skipped" : ", wrong") : ""}`}
             aria-current={here ? "step" : undefined}
-            className="group flex h-6 flex-1 items-center disabled:cursor-default"
+            className="group flex h-8 flex-1 items-center disabled:cursor-default"
           >
             <span
               className={clsx(
@@ -614,7 +614,7 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
                         play("tap");
                         s.revealHint();
                       }}
-                      className="inline-flex items-center gap-1.5 rounded-xl px-2 py-1 text-sm font-bold text-brand hover:bg-brand-soft"
+                      className="inline-flex items-center gap-1.5 rounded-xl px-2 py-2 text-sm font-bold text-brand hover:bg-brand-soft"
                     >
                       <Lightbulb className="size-4" /> Need a hint? <span className="font-normal text-muted">(half XP)</span>
                     </motion.button>
