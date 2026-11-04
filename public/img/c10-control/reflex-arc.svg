@@ -2,12 +2,31 @@
 <title>A reflex arc: heat receptor in the skin, sensory neuron, spinal cord, motor neuron and muscle, with an impulse travelling along it</title>
 <style>
 text{font-family:sans-serif}
-.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
 @keyframes rf{0%{transform:translate(0px,0px);opacity:0}4%{transform:translate(0px,0px);opacity:1}25.7%{transform:translate(60px,-40px)}40.0%{transform:translate(98px,-68px)}53.2%{transform:translate(142px,-68px)}67.9%{transform:translate(182px,-40px)}90.0%{transform:translate(242px,2px)}94%{transform:translate(242px,2px);opacity:1}98%,100%{transform:translate(242px,2px);opacity:0}}
 .rf{animation:rf 3.2s linear 0s infinite}
+@keyframes ht{0%,100%{opacity:.35}50%{opacity:1}}
+.ht{animation:ht 1.4s ease-in-out infinite}
 
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
 <rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
-<ellipse cx="205" cy="120" rx="40" ry="38" fill="#E9E4F5" stroke="#2B2F4A" stroke-width="3" /><path d="M205 100Q185 100 178 116Q186 126 205 122Q224 126 232 116Q224 100 205 100M205 140Q188 142 184 154Q196 160 205 150Q214 160 226 154Q222 142 205 140" stroke="#7C5CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#CFC4FF" /><path d="M205 82L205 62" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-dasharray="5 5"/><ellipse cx="205" cy="40" rx="38" ry="22" fill="#FFB3C1" stroke="#2B2F4A" stroke-width="3" /><path d="M185 38Q195 28 205 38Q215 28 225 38" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" /><rect x="24" y="200" width="86" height="26" rx="6" fill="#F6C9A0" stroke="#2B2F4A" stroke-width="3" /><path d="M30 200Q40 176 36 168Q52 178 50 200" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FF8A1F" /><path d="M80 190L140 150L178 122" stroke="#0B93D4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M178 122L222 122" stroke="#7C5CFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M222 122L262 150L322 192" stroke="#FF8A1F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" /><circle cx="80" cy="190" r="8" fill="#FFD166" stroke="#2B2F4A" stroke-width="2.5" /><ellipse cx="338" cy="198" rx="24" ry="13" fill="#E5484D" stroke="#2B2F4A" stroke-width="3" /><path d="M318 192Q338 182 358 194" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" /><circle class="rf" cx="80" cy="190" r="7" fill="#FF8A1F" stroke="#fff" stroke-width="2"/><text x="70" y="238" font-family="sans-serif" font-size="11" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Hot object</text><text x="338" y="226" font-family="sans-serif" font-size="11" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Muscle</text>
+<path d="M205 82L205 62" fill="none" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 5"/>
+<path d="M166 42C164 22 190 12 212 16C234 16 248 30 244 46C240 58 222 60 208 58C192 62 170 58 166 42Z" fill="#FFB3C1" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#E58FA2" stroke-width="2.5" stroke-linecap="round"><path d="M178 38Q188 28 198 38T218 36T236 38"/><path d="M186 50Q196 44 206 50T226 48"/><path d="M196 24Q204 30 214 24"/></g>
+<ellipse cx="205" cy="120" rx="40" ry="38" fill="#E9E4F5" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M205 110C198 100 186 94 180 98C176 106 184 116 192 120C184 126 176 138 182 146C190 150 200 138 205 130C210 138 220 150 228 146C234 138 226 126 218 120C226 116 234 106 230 98C224 94 212 100 205 110Z" fill="#CFC4FF" stroke="#7C5CFF" stroke-width="2" stroke-linejoin="round"/>
+<path d="M0 174L74 174C88 174 96 182 96 190C96 198 88 204 74 204L0 204Z" fill="#FFD2AC" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<rect x="34" y="214" width="84" height="10" rx="4" fill="#E5484D" stroke="#2B2F4A" stroke-width="3"/>
+<g class="ht" fill="none" stroke="#FF8A1F" stroke-width="2.5" stroke-linecap="round"><path d="M52 212q-3 -3 0 -6"/><path d="M76 212q-3 -3 0 -6"/><path d="M100 212q-3 -3 0 -6"/></g>
+<text x="76" y="237" font-size="11" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Hot object</text>
+<path d="M80 190L140 150L178 122" fill="none" stroke="#0B93D4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M178 122L222 122" fill="none" stroke="#7C5CFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M222 122L262 150L322 192" fill="none" stroke="#FF8A1F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146 136L158 136L153 147" fill="none" stroke="#0B93D4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M302 167L304 179L292 178" fill="none" stroke="#FF8A1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="80" cy="190" r="7" fill="#FFD166" stroke="#2B2F4A" stroke-width="2.5"/>
+<path d="M314 196C322 184 354 184 364 196C354 212 322 212 314 196Z" fill="#E5484D" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<g fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"><path d="M324 195Q338 190 354 195"/><path d="M326 201Q338 197 352 201"/></g>
+<circle class="rf" cx="80" cy="190" r="6" fill="#FF8A1F" stroke="#fff" stroke-width="2"/>
+<text x="338" y="226" font-size="11" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Muscle</text>
 </svg>

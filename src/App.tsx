@@ -7,7 +7,7 @@ import { useApplyTheme } from "./lib/theme";
 import { ApiError, OFFLINE, api, useAuth } from "./store/auth";
 import { useConnection } from "./store/connection";
 import { SignInGate } from "./components/SignInPrompt";
-import { GUEST_LIMIT, askSignIn, closeSignInGate, mustSignIn, startGuestCount, useSignInGate } from "./store/guestLimit";
+import { GUEST_LIMIT, askSignIn, closeSignInGate, mustSignIn, settleGuestLimits, startGuestCount, useSignInGate } from "./store/guestLimit";
 import { fetchQuestions, fetchRound, useContent, type RoundSource } from "./store/content";
 import { ADMIN_SCREENS, AdminScreen, useAdminGuard, useNotAdmin } from "./screens/AdminScreen";
 import { ChallengeScreen } from "./screens/ChallengeScreen";
@@ -20,6 +20,7 @@ import { GameScreen } from "./screens/GameScreen";
 import { HomeScreen } from "./screens/HomeScreen";
 import { LeaderboardScreen } from "./screens/LeaderboardScreen";
 import { PracticeScreen } from "./screens/PracticeScreen";
+import { PreviewScreen } from "./screens/PreviewScreen";
 import { ProgressScreen } from "./screens/ProgressScreen";
 import { ResultsScreen } from "./screens/ResultsScreen";
 import { LoadingScreen, OfflineScreen, UpdateScreen } from "./screens/StatusScreens";
@@ -53,8 +54,10 @@ function problemOf(e: unknown): string | null {
 
 /** Asks the server which builds it still supports. An outdated website reloads itself once; the app asks to be updated. */
 async function checkAppVersion() {
-  const { minBuild } = await api<AppConfig>("/api/config").catch(() => ({ minBuild: 0 }));
-  if (APP_BUILD >= minBuild) return;
+  const config = await api<AppConfig>("/api/config").catch(() => null);
+  settleGuestLimits(config?.guest);
+  if (!config || APP_BUILD >= config.minBuild) return;
+  const { minBuild } = config;
   try {
     if (!isNative && sessionStorage.getItem(RELOADED_KEY) !== String(minBuild)) {
       sessionStorage.setItem(RELOADED_KEY, String(minBuild));
@@ -262,6 +265,7 @@ export default function App() {
           {screen === "difficulty" && <DifficultyScreen />}
           {screen === "sequence" && <SequenceScreen />}
           {screen === "reports" && <ReportsScreen />}
+          {screen === "preview" && <PreviewScreen />}
           {screen === "quizzes" && <QuizScreen />}
           {screen === "quizadmin" && <QuizAdminScreen />}
         </motion.div>

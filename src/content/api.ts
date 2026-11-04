@@ -46,6 +46,8 @@ export interface CheckResponse {
 export interface AppConfig {
   /** Oldest app build the server still supports; older apps must update. */
   minBuild: number;
+  /** What a guest may do on one device before signing in; -1 means unlimited. */
+  guest: { questions: number; games: number };
 }
 
 // ---------- Admin configuration (worker/admin.ts) ----------
@@ -92,7 +94,7 @@ export interface DifficultyChanges {
 // ---------- Reported questions (worker/reports.ts) ----------
 
 export type ReportReason = "wrong_answer" | "question_error" | "unclear" | "image" | "other";
-export type ReportStatus = "open" | "approved" | "rejected";
+export type ReportStatus = "new" | "accepted" | "rejected" | "fixed" | "reviewed" | "closed";
 
 /** POST /api/reports: a signed-in student reports a problem with a question they have answered. */
 export interface ReportIn {
@@ -114,7 +116,7 @@ export interface AdminReport {
   resolvedBy?: string;
   resolvedAt?: number;
   adminNote?: string;
-  /** The edit an admin applied when approving, if any. */
+  /** The edit an admin applied to fix it, if any. */
   applied?: QuestionEdit;
 }
 
@@ -133,10 +135,17 @@ export interface AdminReports {
   counts: Record<ReportStatus, number>;
 }
 
-/** POST /api/admin/reports/resolve. Approving with an `edit` changes the question for everyone. */
-export interface ResolveReportIn {
+/** POST /api/admin/reports/status. Only the report changes; an edit already applied to the question stays. */
+export interface SetReportStatusIn {
   id: string;
-  action: "approve" | "reject";
+  status: ReportStatus;
+  /** Replaces the admin's note; empty removes it. */
+  note: string;
+}
+
+/** POST /api/admin/reports/fix. Applies `edit`, or else the student's suggestion, for everyone and marks the report fixed. */
+export interface FixReportIn {
+  id: string;
   edit?: QuestionEdit;
   note?: string;
 }

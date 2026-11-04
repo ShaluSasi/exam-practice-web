@@ -11,6 +11,15 @@ export interface Env {
   MIN_APP_BUILD: string;
   /** Comma-separated Google account emails that are always admins. */
   ADMIN_EMAILS?: string;
+  /** Guest limits; -1 means unlimited. See wrangler.jsonc. */
+  GUEST_FREE_QUESTIONS?: string;
+  GUEST_FREE_GAMES?: string;
+  GUEST_ROUNDS_PER_DAY?: string;
+}
+
+/** A guest limit from the Worker's settings: -1 (unlimited) or more. Anything else uses `fallback`. */
+export function guestLimit(value: string | undefined, fallback: number): number {
+  return /^(-1|\d+)$/.test(String(value)) ? Number(value) : fallback;
 }
 
 /**

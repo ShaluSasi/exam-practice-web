@@ -21,12 +21,12 @@ function FreeBadge() {
 }
 
 const GATE_TEXT: Record<GateReason, { title: string; text: string }> = {
-  round: { title: "You've used your free round! 🎉", text: "Sign in to keep practising. It takes one tap with Google." },
+  round: { title: "You've used your free practice! 🎉", text: "Sign in to keep practising. It takes one tap with Google." },
   game: { title: "You've played your free games! 🎮", text: "Sign in to keep playing. It takes one tap with Google." },
 };
 
 /**
- * Shown when a guest who has used the free round (or games) starts another one.
+ * Shown when a guest who has used the free practice (or games) starts another round.
  * Signing in closes it and the round or game starts (App.tsx); "Not now" goes back.
  */
 export function SignInGate({ open, reason, onClose }: { open: boolean; reason: GateReason; onClose: () => void }) {
@@ -131,7 +131,7 @@ export function SaveScoreCard({ freeUsed }: { freeUsed: boolean }) {
         <X className="size-4" />
       </button>
       <h2 className="px-6 font-display text-xl font-extrabold tracking-tight">
-        {freeUsed ? "That was your free round — nice work!" : "Save this score"}
+        {freeUsed ? "That's your free practice done — nice work!" : "Save this score"}
       </h2>
       <p className="mt-1 text-sm text-muted">
         {freeUsed

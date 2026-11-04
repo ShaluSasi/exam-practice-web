@@ -6,22 +6,15 @@
 import { z } from "zod";
 import type { Catalog, CheckResponse, QuestionsResponse } from "../src/content/api";
 import { SubjectId, type ClientQuestion, type Question } from "../src/content/schema";
-import { ROUND_SIZE, pickRound } from "../src/engine/scoring";
+import { GUEST_LIMITS, ROUND_SIZE, pickRound } from "../src/engine/scoring";
 import { optionalUser } from "./auth";
 import { answerKey, chapterInfo, chapterOrders, grade, inOrder, isResponseFor, loadBank, publicQuestion, recordedChecks } from "./content";
-import { HttpError, json, readJson, type Env } from "./http";
+import { HttpError, guestLimit, json, readJson, type Env } from "./http";
 
 const MAX_IDS = 200;
 const MAX_COUNT = 50;
 /** A real answer is a few option IDs; anything far bigger is not one (and is saved in `checks`). */
 const MAX_RESPONSE_CHARS = 10_000;
-/**
- * New rounds guests may draw from one network a day. The app already stops a
- * guest after one free round (src/store/guestLimit.ts); this catches clearing
- * the browser's data or a private window, and leaves room for a few devices
- * (a family, a classroom) sharing one connection.
- */
-const GUEST_ROUNDS_PER_DAY = 5;
 const DAY_MS = 86_400_000;
 
 const list = (v: string | null) => (v ? v.split(",").filter(Boolean) : []);
@@ -99,9 +92,14 @@ async function networkOf(request: Request): Promise<string | null> {
   return [...new Uint8Array(hash).slice(0, 12)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
-/** Counts a new round drawn by a guest; past the day's cap, they must sign in (401, src/store/guestLimit.ts). */
+/**
+ * Counts a new round drawn by a guest; past GUEST_ROUNDS_PER_DAY, they must sign in (401, src/store/guestLimit.ts).
+ * The app has its own limit per device; this catches clearing the browser's data or a private window, and
+ * leaves room for a few devices (a family, a classroom) sharing one connection.
+ */
 async function countGuestRound(request: Request, env: Env): Promise<void> {
-  if (await optionalUser(request, env)) return;
+  const perDay = guestLimit(env.GUEST_ROUNDS_PER_DAY, GUEST_LIMITS.roundsPerDay);
+  if (perDay < 0 || (await optionalUser(request, env))) return;
   const network = await networkOf(request);
   if (!network) return;
   const day = Math.floor(Date.now() / DAY_MS);
@@ -113,7 +111,7 @@ async function countGuestRound(request: Request, env: Env): Promise<void> {
     ).bind(network, day),
   ]).catch(() => null);
   const n = (counted?.[1].results[0] as { n: number } | undefined)?.n ?? 0;
-  if (n > GUEST_ROUNDS_PER_DAY) throw new HttpError(401, "Sign in (free) to keep practising.");
+  if (n > perDay) throw new HttpError(401, "Sign in (free) to keep practising.");
 }
 
 const CheckIn = z.object({

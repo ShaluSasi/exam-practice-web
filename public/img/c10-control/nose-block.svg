@@ -2,7 +2,6 @@
 <title>A child pinches the nose shut while a sugar cube is eaten; the smell cannot reach the nose, so the taste seems weaker</title>
 <style>
 text{font-family:sans-serif}
-.pulse{animation:pulse 1.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
 @keyframes sw{0%,100%{opacity:.25}50%{opacity:1}}
 .sw{animation:sw 1.6s ease-in-out infinite}
 @keyframes cr{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
@@ -11,5 +10,30 @@ text{font-family:sans-serif}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
 <rect width="100%" height="100%" rx="16" fill="#FFF9EE"/>
-<ellipse cx="150" cy="118" rx="78" ry="88" fill="#FFE0C2" stroke="#2B2F4A" stroke-width="3" /><path d="M80 80Q150 20 220 80Q200 56 150 54Q100 56 80 80Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#3A3550" /><circle cx="122" cy="100" r="8" fill="#fff" stroke="#2B2F4A" stroke-width="2.5" /><circle cx="178" cy="100" r="8" fill="#fff" stroke="#2B2F4A" stroke-width="2.5" /><circle cx="123" cy="101" r="4" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="1" /><circle cx="177" cy="101" r="4" fill="#2B2F4A" stroke="#2B2F4A" stroke-width="1" /><path d="M150 108Q140 130 150 138Q160 132 150 108" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#F2C49C" /><path d="M118 164Q150 188 182 164Q150 174 118 164Z" stroke="#2B2F4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#B03A4A" /><path d="M146 150L126 112" stroke="#2B2F4A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M154 150L174 112" stroke="#2B2F4A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M146 150L126 112" stroke="#FFE0C2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" /><path d="M154 150L174 112" stroke="#FFE0C2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" /><rect x="250" y="150" width="30" height="30" rx="5" fill="#fff" stroke="#2B2F4A" stroke-width="3" /><path d="M250 150L262 140L292 140L280 150" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="#F2F2F2" /><path d="M280 150L292 140L292 170L280 180" stroke="#2B2F4A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="#E6E6E6" /><text x="268" y="200" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Sugar</text><path d="M300 120q6 -6 12 0t12 0" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sw"/><path d="M318 100q6 -6 12 0t12 0" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sw"/><path d="M330 126q6 -6 12 0t12 0" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" class="sw"/><g class="cr"><path d="M236 70L262 96" stroke="#E5484D" stroke-width="6" stroke-linecap="round" fill="none" /><path d="M262 70L236 96" stroke="#E5484D" stroke-width="6" stroke-linecap="round" fill="none" /></g><text x="250" y="56" font-family="sans-serif" font-size="12" fill="#E5484D" text-anchor="middle" font-weight="bold">No smell</text><text x="150" y="232" font-family="sans-serif" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Nose blocked: sweet taste is weaker</text>
+<path d="M152 28C92 28 56 72 58 122C60 160 78 186 104 198L104 222L172 222L172 202C186 204 204 204 212 196C218 190 216 182 216 176C222 174 224 170 220 166C226 162 226 156 220 152C226 146 224 142 218 140C222 136 238 134 244 126C248 120 236 104 226 94C226 78 218 60 206 48C192 34 172 28 152 28Z" fill="#FFE0C2" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<path d="M60 112C54 66 96 22 152 24C184 25 208 38 218 62C190 50 160 52 138 62C126 76 118 92 112 110C96 100 76 102 60 112Z" fill="#3A3550" stroke="#2B2F4A" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="102" cy="126" rx="12" ry="20" fill="#FFE0C2" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M104 116Q96 126 104 136" fill="none" stroke="#2B2F4A" stroke-width="2" stroke-linecap="round"/>
+<path d="M180 90Q192 80 206 90Q192 100 180 90Z" fill="#fff" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="196" cy="90" r="4.5" fill="#2B2F4A"/>
+<path d="M176 76Q190 68 208 76" fill="none" stroke="#3A3550" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M222 160Q208 164 196 158" fill="none" stroke="#B03A4A" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M290 150L346 226" fill="none" stroke="#2B2F4A" stroke-width="28" stroke-linecap="round"/>
+<path d="M290 150L346 226" fill="none" stroke="#FFD2AC" stroke-width="22" stroke-linecap="round"/>
+<circle cx="288" cy="140" r="21" fill="#FFD2AC" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M280 124L240 106" fill="none" stroke="#2B2F4A" stroke-width="15" stroke-linecap="round"/>
+<path d="M280 124L240 106" fill="none" stroke="#FFD2AC" stroke-width="10" stroke-linecap="round"/>
+<path d="M278 148L238 138" fill="none" stroke="#2B2F4A" stroke-width="15" stroke-linecap="round"/>
+<path d="M278 148L238 138" fill="none" stroke="#FFD2AC" stroke-width="10" stroke-linecap="round"/>
+<circle cx="288" cy="140" r="17" fill="#FFD2AC"/>
+<rect x="232" y="164" width="22" height="22" rx="4" fill="#fff" stroke="#2B2F4A" stroke-width="3"/>
+<path d="M232 164L240 156L262 156L254 164" fill="#F2F2F2" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M254 164L262 156L262 178L254 186" fill="#E6E6E6" stroke="#2B2F4A" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="248" y="204" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Sugar</text>
+<path d="M332 96q6 -6 12 0t12 0" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" class="sw"/>
+<path d="M350 74q6 -6 12 0t12 0" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" class="sw"/>
+<path d="M352 112q6 -6 12 0t12 0" fill="none" stroke="#0B93D4" stroke-width="3" stroke-linecap="round" class="sw"/>
+<g class="cr"><path d="M290 66L314 90" fill="none" stroke="#E5484D" stroke-width="6" stroke-linecap="round"/><path d="M314 66L290 90" fill="none" stroke="#E5484D" stroke-width="6" stroke-linecap="round"/></g>
+<text x="302" y="54" font-size="12" fill="#E5484D" text-anchor="middle" font-weight="bold">No smell</text>
+<text x="170" y="235" font-size="12" fill="#2B2F4A" text-anchor="middle" font-weight="bold">Nose blocked: sweet taste is weaker</text>
 </svg>

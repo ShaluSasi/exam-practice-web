@@ -59,7 +59,7 @@ interface ProfileState extends Stats {
   /** Subject tab last opened on the home screen. */
   lastSubject: SubjectId | null;
   setLastSubject: (s: SubjectId) => void;
-  /** Questions answered without signing in on this device; guests get one free round (store/guestLimit.ts). */
+  /** Questions answered without signing in on this device (store/guestLimit.ts). */
   guestAnswered: number;
   countGuestAnswer: () => void;
   /** Games opened without signing in on this device (store/guestLimit.ts). */

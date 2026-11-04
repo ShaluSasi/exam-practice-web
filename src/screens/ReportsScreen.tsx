@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, Check, ChevronDown, Flag, PencilLine, X } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, ExternalLink, Flag, PencilLine } from "lucide-react";
 import clsx from "clsx";
 import { region } from "../config/regions";
-import type { AdminReport, AdminReportGroup, AdminReports, ReportStatus, ResolveReportIn } from "../content/api";
+import type { AdminReport, AdminReportGroup, AdminReports, FixReportIn, ReportStatus, SetReportStatusIn } from "../content/api";
 import { CHOICE_LISTS, QuestionEdit, choicesOf, editBetween, editedQuestion, isEmptyEdit } from "../content/edit";
 import type { Question } from "../content/schema";
 import { AnswerDetails, Chip, Header, Problem, Spinner, TYPE_LABEL, formatDate } from "../components/AdminParts";
@@ -14,11 +14,24 @@ import { RichText } from "../components/RichText";
 import { api } from "../store/auth";
 import { useNav } from "../store/nav";
 
-const TABS: { status: ReportStatus; label: string }[] = [
-  { status: "open", label: "Open" },
-  { status: "approved", label: "Approved" },
-  { status: "rejected", label: "Rejected" },
+const STATUSES: { status: ReportStatus; label: string; className: string }[] = [
+  { status: "new", label: "NEW", className: "bg-fg text-bg" },
+  { status: "accepted", label: "ACCEPTED", className: "bg-brand-soft text-brand" },
+  { status: "rejected", label: "REJECTED", className: "bg-bad-soft text-bad" },
+  { status: "fixed", label: "FIXED", className: "bg-ok-soft text-ok" },
+  { status: "reviewed", label: "REVIEWED", className: "bg-brand-soft text-brand" },
+  { status: "closed", label: "CLOSED", className: "bg-surface-2 text-muted" },
 ];
+
+const statusInfo = (status: ReportStatus) => STATUSES.find((s) => s.status === status)!;
+
+/** The question in its own window, as students see it. */
+const openPreview = (questionId: string) => window.open(`/admin/preview/${encodeURIComponent(questionId)}`, "_blank", "popup,width=1100,height=860");
+
+interface ReportHandlers {
+  onSetStatus: (body: SetReportStatusIn) => Promise<void>;
+  onFix: (body: FixReportIn) => Promise<void>;
+}
 
 /** What a choice ID shows as: the option's text, or the assertion–reason option, or the spot's label. */
 function answerText(q: Question, id: string): string {
@@ -79,24 +92,29 @@ function ChangeList({ q, edit }: { q: Question; edit: QuestionEdit }) {
   );
 }
 
-/** Approve, modify or reject one open report. */
-function Actions({ report, question, onResolve }: { report: AdminReport; question: Question | null; onResolve: (body: ResolveReportIn) => Promise<void> }) {
+/** Change one report's status and note, fix its question, or view the question as students do. */
+function Actions({ report, question, onSetStatus, onFix }: { report: AdminReport; question: Question | null } & ReportHandlers) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState<Question | null>(null);
-  const [note, setNote] = useState("");
+  const [status, setStatus] = useState(report.status);
+  const [note, setNote] = useState(report.adminNote ?? "");
   const [busy, setBusy] = useState(false);
   const [problem, setProblem] = useState<string | null>(null);
 
-  const run = async (body: ResolveReportIn) => {
+  const run = async (task: Promise<void>) => {
     setBusy(true);
     setProblem(null);
     try {
-      await onResolve({ ...body, ...(note.trim() ? { note: note.trim() } : {}) });
+      await task;
     } catch (e) {
       setProblem(e instanceof Error ? e.message : "Could not save.");
+    } finally {
       setBusy(false);
     }
   };
+
+  const fix = (edit?: QuestionEdit) => run(onFix({ id: report.id, note: note.trim(), ...(edit ? { edit } : {}) }));
+  const unsaved = status !== report.status || note.trim() !== (report.adminNote ?? "");
 
   const startEditing = () => {
     if (!question) return;
@@ -108,8 +126,8 @@ function Actions({ report, question, onResolve }: { report: AdminReport; questio
     if (!question || !draft) return;
     const parsed = QuestionEdit.safeParse(editBetween(question, draft));
     if (!parsed.success || !editedQuestion(question, parsed.data)) return setProblem("A field is empty or no correct answer is ticked.");
-    if (isEmptyEdit(parsed.data)) return setProblem("Nothing has been changed. Use “Approve without change” instead.");
-    void run({ id: report.id, action: "approve", edit: parsed.data });
+    if (isEmptyEdit(parsed.data)) return setProblem("Nothing has been changed.");
+    void fix(parsed.data);
   };
 
   const pending = question && draft ? QuestionEdit.safeParse(editBetween(question, draft)) : null;
@@ -130,24 +148,44 @@ function Actions({ report, question, onResolve }: { report: AdminReport; questio
           )}
         </div>
       )}
-      <input
-        type="text"
-        value={note}
-        onChange={(e) => setNote(e.target.value)}
-        maxLength={1000}
-        placeholder="Note (optional), e.g. why it was rejected"
-        aria-label="Admin note"
-        className="w-full rounded-xl border-2 border-line bg-bg px-3 py-2 text-sm outline-none focus:border-brand"
-      />
+      <div className="flex flex-wrap items-center gap-2">
+        <select
+          value={status}
+          onChange={(e) => setStatus(e.target.value as ReportStatus)}
+          disabled={busy}
+          aria-label="Status"
+          className="rounded-xl border-2 border-line bg-bg px-3 py-2 text-sm font-bold outline-none focus:border-brand"
+        >
+          {STATUSES.map((s) => (
+            <option key={s.status} value={s.status}>
+              {s.label}
+            </option>
+          ))}
+        </select>
+        <input
+          type="text"
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+          maxLength={1000}
+          placeholder="Note (optional), e.g. why it was rejected"
+          aria-label="Admin note"
+          className="min-w-48 flex-1 rounded-xl border-2 border-line bg-bg px-3 py-2 text-sm outline-none focus:border-brand"
+        />
+        <Button className="px-5 py-2.5 text-sm" disabled={busy || !unsaved} onClick={() => void run(onSetStatus({ id: report.id, status, note: note.trim() }))}>
+          {busy ? "Saving…" : "Save"}
+        </Button>
+      </div>
       {problem && (
         <p role="alert" className="text-sm font-semibold text-bad">
           {problem}
         </p>
       )}
       <div className="flex flex-wrap gap-2">
-        <Button variant="ghost" className="px-4 py-2.5 text-sm" disabled={busy} onClick={() => void run({ id: report.id, action: "reject" })}>
-          <X className="size-4" /> Reject
-        </Button>
+        {question && (
+          <Button variant="ghost" className="px-4 py-2.5 text-sm" onClick={() => openPreview(question.id)}>
+            <ExternalLink className="size-4" /> View as student
+          </Button>
+        )}
         {editing ? (
           <>
             <Button variant="ghost" className="px-4 py-2.5 text-sm" disabled={busy} onClick={() => setEditing(false)}>
@@ -158,27 +196,31 @@ function Actions({ report, question, onResolve }: { report: AdminReport; questio
             </Button>
           </>
         ) : (
-          <>
-            {question && (
+          question && (
+            <>
               <Button variant="ghost" className="px-4 py-2.5 text-sm" disabled={busy} onClick={startEditing}>
                 <PencilLine className="size-4" /> {report.proposal ? "Modify" : "Edit question"}
               </Button>
-            )}
-            <Button variant="ok" className="px-5 py-2.5 text-sm" disabled={busy} onClick={() => void run({ id: report.id, action: "approve" })}>
-              <Check className="size-4" /> {busy ? "Saving…" : report.proposal && question ? "Approve fix" : "Approve without change"}
-            </Button>
-          </>
+              {report.proposal && !report.applied && (
+                <Button variant="ok" className="px-5 py-2.5 text-sm" disabled={busy} onClick={() => void fix()}>
+                  <Check className="size-4" /> {busy ? "Saving…" : "Apply suggested fix"}
+                </Button>
+              )}
+            </>
+          )
         )}
       </div>
     </div>
   );
 }
 
-function ReportItem({ report, question, onResolve }: { report: AdminReport; question: Question | null; onResolve: (body: ResolveReportIn) => Promise<void> }) {
+function ReportItem({ report, question, onSetStatus, onFix }: { report: AdminReport; question: Question | null } & ReportHandlers) {
   const shown = report.applied ?? report.proposal;
+  const info = statusInfo(report.status);
   return (
     <li className="rounded-2xl border-2 border-line bg-bg p-4">
       <div className="flex flex-wrap items-center gap-2">
+        <Chip className={info.className}>{info.label}</Chip>
         <Chip icon={Flag} className="bg-bad-soft text-bad">
           {REASON_LABEL[report.reason]}
         </Chip>
@@ -196,19 +238,19 @@ function ReportItem({ report, question, onResolve }: { report: AdminReport; ques
           <ChangeList q={question} edit={shown} />
         </div>
       )}
-      {report.status !== "open" && (
+      {report.resolvedBy && (
         <p className="mt-3 text-sm text-muted">
-          {report.status === "approved" ? "Approved" : "Rejected"} by {report.resolvedBy}
+          Set to {info.label} by {report.resolvedBy}
           {report.resolvedAt ? ` on ${formatDate(report.resolvedAt)}` : ""}
-          {report.adminNote ? ` · “${report.adminNote}”` : ""}
         </p>
       )}
-      {report.status === "open" && <Actions report={report} question={question} onResolve={onResolve} />}
+      {/* Keyed so a saved status or note becomes the new starting point. */}
+      <Actions key={`${report.status}|${report.adminNote ?? ""}`} report={report} question={question} onSetStatus={onSetStatus} onFix={onFix} />
     </li>
   );
 }
 
-function GroupCard({ group, onResolve }: { group: AdminReportGroup; onResolve: (body: ResolveReportIn) => Promise<void> }) {
+function GroupCard({ group, onSetStatus, onFix }: { group: AdminReportGroup } & ReportHandlers) {
   const [open, setOpen] = useState(false);
   const q = group.question;
   return (
@@ -256,7 +298,7 @@ function GroupCard({ group, onResolve }: { group: AdminReportGroup; onResolve: (
       </p>
       <ul className="grid gap-3">
         {group.reports.map((r) => (
-          <ReportItem key={r.id} report={r} question={q} onResolve={onResolve} />
+          <ReportItem key={r.id} report={r} question={q} onSetStatus={onSetStatus} onFix={onFix} />
         ))}
       </ul>
     </motion.article>
@@ -265,7 +307,7 @@ function GroupCard({ group, onResolve }: { group: AdminReportGroup; onResolve: (
 
 export function ReportsScreen() {
   const go = useNav((s) => s.go);
-  const [status, setStatus] = useState<ReportStatus>("open");
+  const [status, setStatus] = useState<ReportStatus>("new");
   const [data, setData] = useState<AdminReports | null>(null);
   const [problem, setProblem] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
@@ -294,11 +336,15 @@ export function ReportsScreen() {
     return () => window.clearTimeout(t);
   }, [toast]);
 
-  const resolve = async (body: ResolveReportIn) => {
-    const group = data?.groups.find((g) => g.reports.some((r) => r.id === body.id));
-    const changes = !!group?.question && (!!body.edit || !!group.reports.find((r) => r.id === body.id)?.proposal);
-    await api("/api/admin/reports/resolve", body);
-    setToast(body.action === "reject" ? "Report rejected." : changes ? "Approved. The question is updated for everyone." : "Report approved.");
+  const setReportStatus = async (body: SetReportStatusIn) => {
+    await api("/api/admin/reports/status", body);
+    setToast(`Saved. Status is ${statusInfo(body.status).label}.`);
+    await load(status);
+  };
+
+  const fixReport = async (body: FixReportIn) => {
+    await api("/api/admin/reports/fix", body);
+    setToast("Fixed. The question is updated for everyone.");
     await load(status);
   };
 
@@ -306,8 +352,8 @@ export function ReportsScreen() {
     <div className="paper min-h-dvh">
       <div className="mx-auto max-w-4xl px-4 pb-16 sm:px-6">
         <Header title="Reported questions" subtitle="Problems students found, with their suggested fixes" onBack={() => go("admin")} />
-        <div role="tablist" className="mb-5 flex gap-2">
-          {TABS.map((t) => (
+        <div role="tablist" aria-label="Filter by status" className="mb-5 flex flex-wrap gap-2">
+          {STATUSES.map((t) => (
             <button
               key={t.status}
               type="button"
@@ -330,12 +376,12 @@ export function ReportsScreen() {
           <Spinner />
         ) : data.groups.length === 0 ? (
           <p className="rounded-[24px] border-2 border-line bg-surface p-8 text-center font-semibold text-muted">
-            {status === "open" ? "No open reports. All caught up! 🎉" : `No ${status} reports yet.`}
+            {status === "new" ? "No new reports. All caught up! 🎉" : `No ${statusInfo(status).label} reports.`}
           </p>
         ) : (
           <div className="grid gap-4">
             {data.groups.map((g) => (
-              <GroupCard key={g.questionId} group={g} onResolve={resolve} />
+              <GroupCard key={g.questionId} group={g} onSetStatus={setReportStatus} onFix={fixReport} />
             ))}
           </div>
         )}

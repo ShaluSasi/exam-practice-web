@@ -6,7 +6,8 @@ import type { AppConfig } from "../src/content/api";
 import { getAdminChapters, getAdminQuestions, saveDifficulty, saveOrder } from "./admin";
 import { me, signIn, signOut } from "./auth";
 import { getGameBoard, getGameRanks, saveRuns } from "./games";
-import { HttpError, error, json, preflight, withCors, type Env } from "./http";
+import { GUEST_LIMITS } from "../src/engine/scoring";
+import { HttpError, error, guestLimit, json, preflight, withCors, type Env } from "./http";
 import { getLeaderboard } from "./leaderboard";
 import { clearProgress, getProgress, saveProgress } from "./progress";
 import { checkAnswer, getCatalog, getQuestions } from "./questions";
@@ -30,7 +31,7 @@ import {
   startQuiz,
   submitQuiz,
 } from "./quizzes";
-import { getAdminReports, resolveReport, submitReport } from "./reports";
+import { fixReport, getAdminReports, setReportStatus, submitReport } from "./reports";
 import { getScores, importDevice, saveRounds } from "./scores";
 import { countPlay, createShare, gamePage, getShare, homePage, sharePage } from "./share";
 
@@ -65,7 +66,10 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
 
     switch (`${request.method} ${url.pathname}`) {
       case "GET /api/config":
-        return json({ minBuild } satisfies AppConfig);
+        return json({
+          minBuild,
+          guest: { questions: guestLimit(env.GUEST_FREE_QUESTIONS, GUEST_LIMITS.questions), games: guestLimit(env.GUEST_FREE_GAMES, GUEST_LIMITS.games) },
+        } satisfies AppConfig);
       case "GET /api/catalog":
         return await getCatalog(env, url);
       case "GET /api/questions":
@@ -90,8 +94,10 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await saveOrder(request, env, url);
       case "GET /api/admin/reports":
         return await getAdminReports(request, env, url);
-      case "POST /api/admin/reports/resolve":
-        return await resolveReport(request, env, url);
+      case "POST /api/admin/reports/status":
+        return await setReportStatus(request, env, url);
+      case "POST /api/admin/reports/fix":
+        return await fixReport(request, env, url);
       case "POST /api/reports":
         return await submitReport(request, env, url);
       case "GET /api/quizzes":

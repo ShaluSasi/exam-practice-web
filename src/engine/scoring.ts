@@ -49,6 +49,9 @@ export function initialResponse(q: ClientQuestion): AnyResponse | undefined {
 /** Number of questions drawn for one practice round. */
 export const ROUND_SIZE = 20;
 
+/** Guest limits when the Worker's settings (wrangler.jsonc) do not say otherwise. */
+export const GUEST_LIMITS = { questions: ROUND_SIZE, games: 3, roundsPerDay: 5 };
+
 /** A random sample of up to `n` items (Fisher–Yates on a copy). */
 export function pickRandom<T>(items: readonly T[], n = ROUND_SIZE): T[] {
   const a = [...items];

@@ -11,7 +11,7 @@ import { useProfile } from "../store/profile";
 const MAX_ROUND_SIZE = 50;
 
 /** Pages only admins (ADMIN_EMAILS in wrangler.jsonc) may open; App.tsx sends everyone else home. */
-export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "quizadmin"];
+export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "preview", "quizadmin"];
 
 const LINKS = [
   {
@@ -24,7 +24,7 @@ const LINKS = [
     screen: "reports" as const,
     icon: Flag,
     title: "Reported questions",
-    text: "Problems students reported, with their suggested fixes. Approve, modify or reject each one.",
+    text: "Problems students reported, with their suggested fixes. Track each one's status and fix the question.",
   },
   {
     screen: "difficulty" as const,

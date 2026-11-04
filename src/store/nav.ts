@@ -4,7 +4,7 @@ import { SITE_ORIGIN, isNative } from "../lib/platform";
 import type { GameId } from "./games";
 import { useSession } from "./session";
 
-export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "quizzes" | "quizadmin";
+export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "preview" | "quizzes" | "quizadmin";
 
 /** Who the student is playing against, when they accepted a friend's challenge link. */
 export interface Opponent {
@@ -56,6 +56,8 @@ const adminLink = /^\/admin\/?$/.test(window.location.pathname);
 const difficultyLink = /^\/admin\/difficulty\/?$/.test(window.location.pathname);
 const sequenceLink = /^\/admin\/sequence\/?$/.test(window.location.pathname);
 const reportsLink = /^\/admin\/reports\/?$/.test(window.location.pathname);
+/** Question ID from a /admin/preview/<id> link, opened in its own window from the reports page. */
+export const previewQuestionId = decodeURIComponent(/^\/admin\/preview\/([^/]+)\/?$/.exec(window.location.pathname)?.[1] ?? "");
 const quizLink = /^\/quiz(?:\/([A-Za-z0-9-]{1,100}))?\/?$/.exec(window.location.pathname);
 const quizzesLink = !!quizLink;
 /** Quiz ID from a shared /quiz/<id> link this visit started on, until the quiz page has opened it. */
@@ -124,7 +126,7 @@ function returnHome() {
 }
 
 export const useNav = create<NavState>()((set, get) => ({
-  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : reportsLink ? "reports" : quizzesLink ? "quizzes" : quizAdminLink ? "quizadmin" : "home",
+  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : reportsLink ? "reports" : previewQuestionId ? "preview" : quizzesLink ? "quizzes" : quizAdminLink ? "quizadmin" : "home",
   challengeCode: fromLink,
   opponent: null,
   game: linkedGame,

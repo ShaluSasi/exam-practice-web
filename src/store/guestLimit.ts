@@ -1,32 +1,44 @@
 /**
- * Guests play one round free, then sign in (also free) to keep practising.
+ * Guests practise free for a while, then sign in (also free) to keep practising.
+ * The limits are the Worker's settings (wrangler.jsonc), sent in /api/config; -1 means unlimited.
  *
- * - The allowance is one round's worth of questions on this device, counted
- *   across chapters, so switching chapters doesn't reset it.
+ * - The allowance is a number of questions on this device, counted across
+ *   chapters, so switching chapters doesn't reset it.
  * - It is checked when a new round starts, never in the middle of one, and a
  *   round already started can always be finished.
  * - The server also caps the new rounds guests draw from one network each day
  *   (worker/questions.ts), so clearing the browser's data or opening a private
  *   window doesn't give endless free rounds.
- * - Games: a guest opens them FREE_GAMES times, then signs in too.
+ * - Games: a guest opens them a limited number of times, then signs in too.
  * - Challenge links and shared game links stay open to everyone: they are how
  *   friends find the app.
  * - When sign-in isn't available (not configured), nobody is stopped. When the
  *   sign-in check failed (a bad connection), it is asked again before deciding.
  */
 import { create } from "zustand";
-import { ROUND_SIZE } from "../engine/scoring";
+import type { AppConfig } from "../content/api";
+import { GUEST_LIMITS, ROUND_SIZE } from "../engine/scoring";
 import type { GameId } from "./games";
 import { useAuth } from "./auth";
 import { useNav } from "./nav";
 import { useProfile } from "./profile";
 import { useSession } from "./session";
 
-export const FREE_QUESTIONS = ROUND_SIZE;
-/** Times a guest may open a game from the home screen. */
-export const FREE_GAMES = 3;
 /** The server's answer to a guest round past its daily cap. */
 export const GUEST_LIMIT = 401;
+
+/** Questions and game opens a guest gets; the defaults until the server has said, or if it can't be reached. */
+let limits: AppConfig["guest"] = GUEST_LIMITS;
+let limitsSettled: () => void;
+const limitsReady = new Promise<void>((resolve) => {
+  limitsSettled = resolve;
+});
+
+/** Called with the server's limits at start-up, or with nothing if it could not be reached. */
+export function settleGuestLimits(fromServer?: AppConfig["guest"]) {
+  if (fromServer) limits = fromServer;
+  limitsSettled();
+}
 
 export type GateReason = "round" | "game";
 
@@ -41,10 +53,10 @@ export function closeSignInGate() {
   useSignInGate.setState({ retry: null });
 }
 
-/** Whether this guest has used the free round. Rounds finished before this rule existed count too. */
+/** Whether this guest has used the free questions. Rounds finished before they were counted count as a full round each. */
 export function freeRoundUsed(): boolean {
   const p = useProfile.getState();
-  return p.guestAnswered >= FREE_QUESTIONS || p.sessions > 0;
+  return limits.questions >= 0 && Math.max(p.guestAnswered, p.sessions * ROUND_SIZE) >= limits.questions;
 }
 
 /**
@@ -59,6 +71,7 @@ async function settledAuth(): Promise<void> {
 
 /** Whether a new round must wait for sign-in. */
 export async function mustSignIn(): Promise<boolean> {
+  await limitsReady;
   if (!freeRoundUsed()) return false;
   await settledAuth();
   return useAuth.getState().status === "signedOut";
@@ -67,8 +80,9 @@ export async function mustSignIn(): Promise<boolean> {
 /** Opens a game from the home screen; a guest past the free games is asked to sign in first. */
 export async function openGame(id: GameId): Promise<void> {
   const play = () => useNav.getState().playGame(id);
+  await limitsReady;
   const p = useProfile.getState();
-  if (p.guestGames >= FREE_GAMES) {
+  if (limits.games >= 0 && p.guestGames >= limits.games) {
     await settledAuth();
     if (useAuth.getState().status === "signedOut") return askSignIn("game", play);
   }

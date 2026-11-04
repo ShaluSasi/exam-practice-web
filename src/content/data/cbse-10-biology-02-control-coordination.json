@@ -244,24 +244,40 @@
     "id": "eye",
     "x": 55.5,
     "y": 40.8,
+    "marker": {
+     "x": 70,
+     "y": 24
+    },
     "label": "Eye (light receptors)"
    },
    {
     "id": "ear",
     "x": 25.5,
     "y": 51.7,
+    "marker": {
+     "x": 13,
+     "y": 82
+    },
     "label": "Ear (sound receptors)"
    },
    {
     "id": "nose",
     "x": 66.5,
     "y": 52.5,
+    "marker": {
+     "x": 72,
+     "y": 37
+    },
     "label": "Nose (olfactory receptors for smell)"
    },
    {
     "id": "tongue",
     "x": 58.5,
     "y": 72.5,
+    "marker": {
+     "x": 72,
+     "y": 86
+    },
     "label": "Tongue (gustatory receptors for taste)"
    }
   ],
@@ -1675,7 +1691,7 @@
    },
    {
     "id": "b",
-    "text": "mature leaves only"
+    "text": "mature leaves"
    },
    {
     "id": "c",
@@ -1683,7 +1699,7 @@
    },
    {
     "id": "d",
-    "text": "root caps only"
+    "text": "old woody stems"
    }
   ],
   "answer": "a",
