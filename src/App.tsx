@@ -19,6 +19,7 @@ import { SequenceScreen } from "./screens/SequenceScreen";
 import { GameScreen } from "./screens/GameScreen";
 import { HomeScreen } from "./screens/HomeScreen";
 import { LeaderboardScreen } from "./screens/LeaderboardScreen";
+import { MyReportsScreen } from "./screens/MyReportsScreen";
 import { PracticeScreen } from "./screens/PracticeScreen";
 import { PreviewScreen } from "./screens/PreviewScreen";
 import { ProgressScreen } from "./screens/ProgressScreen";
@@ -272,6 +273,7 @@ export default function App() {
           {screen === "sequence" && <SequenceScreen />}
           {screen === "reports" && <ReportsScreen />}
           {screen === "preview" && <PreviewScreen />}
+          {screen === "myreports" && <MyReportsScreen />}
           {screen === "quizzes" && <QuizScreen />}
           {screen === "quizadmin" && <QuizAdminScreen />}
         </motion.div>

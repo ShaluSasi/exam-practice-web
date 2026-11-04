@@ -93,7 +93,8 @@ export function Header({ title, subtitle, onBack }: { title: string; subtitle?: 
         <ArrowLeft className="size-5" />
       </motion.button>
       <div className="min-w-0 flex-1">
-        <h1 className="truncate font-display text-2xl font-extrabold tracking-tight sm:text-3xl">{title}</h1>
+        {/* Wraps on a phone rather than cutting the title off beside the header's buttons. */}
+        <h1 className="font-display text-lg font-extrabold leading-tight tracking-tight [overflow-wrap:anywhere] min-[360px]:text-xl sm:text-3xl">{title}</h1>
         {subtitle && <p className="truncate text-sm font-semibold text-muted">{subtitle}</p>}
       </div>
       <SettingsToggles />
@@ -244,7 +245,8 @@ function ChapterList({ chapters, onOpen, note }: { chapters: AdminChapter[]; onO
 
 export function Chip({ icon: Icon, children, className }: { icon?: typeof Tag; children: React.ReactNode; className?: string }) {
   return (
-    <span className={clsx("inline-flex items-center gap-1 rounded-full bg-surface-2 px-2.5 py-1 text-xs font-bold text-muted", className)}>
+    // The default colours only apply when none are passed: both would be in the stylesheet, and its order would decide.
+    <span className={clsx("inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-bold", !className?.includes("bg-") && "bg-surface-2 text-muted", className)}>
       {Icon && <Icon className="size-3.5" />}
       {children}
     </span>

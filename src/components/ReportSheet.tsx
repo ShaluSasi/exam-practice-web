@@ -2,7 +2,7 @@ import { useEffect, useId, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { Check, Flag, PencilLine, X } from "lucide-react";
 import clsx from "clsx";
-import type { ReportIn, ReportReason } from "../content/api";
+import type { ReportIn, ReportReason, ReportStatus } from "../content/api";
 import { QuestionEdit, editBetween, editedQuestion, isEmptyEdit } from "../content/edit";
 import type { Question } from "../content/schema";
 import { api, useAuth } from "../store/auth";
@@ -17,6 +17,18 @@ export const REASON_LABEL: Record<ReportReason, string> = {
   image: "Problem with the picture",
   other: "Something else",
 };
+
+/** A report's statuses, in filter order (the admins' reports page and the student's own). */
+export const REPORT_STATUSES: { status: ReportStatus; label: string; className: string }[] = [
+  { status: "new", label: "NEW", className: "bg-fg text-bg" },
+  { status: "accepted", label: "ACCEPTED", className: "bg-brand-soft text-brand" },
+  { status: "rejected", label: "REJECTED", className: "bg-bad-soft text-bad" },
+  { status: "fixed", label: "FIXED", className: "bg-ok-soft text-ok" },
+  { status: "reviewed", label: "REVIEWED", className: "bg-brand-soft text-brand" },
+  { status: "closed", label: "CLOSED", className: "bg-surface-2 text-muted" },
+];
+
+export const statusInfo = (status: ReportStatus) => REPORT_STATUSES.find((s) => s.status === status)!;
 
 /** The report form, for a question the student has answered (so its answer is known). */
 function ReportForm({ question, onClose }: { question: Question; onClose: () => void }) {
@@ -57,7 +69,7 @@ function ReportForm({ question, onClose }: { question: Question; onClose: () => 
           <Check className="size-7" strokeWidth={3} />
         </span>
         <h2 className="mt-4 font-display text-2xl font-extrabold">Thanks for reporting!</h2>
-        <p className="mt-1 text-muted">Our team will check it. If you're right, the question gets fixed for everyone.</p>
+        <p className="mt-1 text-muted">Our team will check it. If you're right, the question gets fixed for everyone. Follow it under My reported questions in your account menu.</p>
         <Button className="mt-6" onClick={onClose}>
           Back to practice
         </Button>

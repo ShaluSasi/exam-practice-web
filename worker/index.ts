@@ -31,7 +31,7 @@ import {
   startQuiz,
   submitQuiz,
 } from "./quizzes";
-import { fixReport, getAdminReports, setReportStatus, submitReport } from "./reports";
+import { fixReport, getAdminReports, getMyReports, setReportStatus, submitReport } from "./reports";
 import { getScores, importDevice, saveRounds } from "./scores";
 import { countPlay, createShare, gamePage, getShare, homePage, sharePage } from "./share";
 
@@ -98,6 +98,8 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await setReportStatus(request, env, url);
       case "POST /api/admin/reports/fix":
         return await fixReport(request, env, url);
+      case "GET /api/reports":
+        return await getMyReports(request, env, url);
       case "POST /api/reports":
         return await submitReport(request, env, url);
       case "GET /api/quizzes":

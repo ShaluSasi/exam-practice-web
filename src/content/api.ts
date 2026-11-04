@@ -137,6 +137,27 @@ export interface AdminReports {
   counts: Record<ReportStatus, number>;
 }
 
+/** One of a student's own reports. Only what they wrote and its status: admins' notes and names stay with admins. */
+export interface MyReport {
+  id: string;
+  reason: ReportReason;
+  remark: string;
+  status: ReportStatus;
+  createdAt: number;
+  /** When an admin last set the status; absent while it is new. */
+  updatedAt?: number;
+  /** The student suggested a fix with it. */
+  suggestedFix: boolean;
+  /** What the question is, without its answer. Null if it has since been removed from the bank. */
+  question: { prompt: string; subject: SubjectId; grade: number; chapter: string } | null;
+}
+
+/** GET /api/reports?status=<status>: the signed-in student's own reports with that status. */
+export interface MyReports {
+  reports: MyReport[];
+  counts: Record<ReportStatus, number>;
+}
+
 /** POST /api/admin/reports/status. Only the report changes; an edit already applied to the question stays. */
 export interface SetReportStatusIn {
   id: string;

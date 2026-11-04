@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { LogOut, Settings, Trophy } from "lucide-react";
+import { Flag, LogOut, Settings, Trophy } from "lucide-react";
 import { useNav } from "../store/nav";
 import { isNative } from "../lib/platform";
 import { useIsDark, useMediaQuery } from "../lib/theme";
@@ -170,6 +170,16 @@ function UserMenu() {
               className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm font-semibold text-muted transition-colors hover:bg-surface-2 hover:text-fg"
             >
               <Trophy className="size-4" /> Leaderboard
+            </button>
+            <button
+              role="menuitem"
+              onClick={() => {
+                setOpen(false);
+                useNav.getState().go("myreports");
+              }}
+              className="flex w-full items-center gap-2.5 rounded-xl px-3 py-2.5 text-sm font-semibold text-muted transition-colors hover:bg-surface-2 hover:text-fg"
+            >
+              <Flag className="size-4" /> My reported questions
             </button>
             {user.role === "admin" && (
               <button

@@ -6,7 +6,7 @@
  * a deploy.
  */
 import { z } from "zod";
-import type { AdminReport, AdminReportGroup, AdminReports, ReportReason, ReportStatus } from "../src/content/api";
+import type { AdminReport, AdminReportGroup, AdminReports, MyReports, ReportReason, ReportStatus } from "../src/content/api";
 import { QuestionEdit, editBetween, editedQuestion, isEmptyEdit, mergeEdits } from "../src/content/edit";
 import { requireRole, requireUser } from "./auth";
 import { absoluteImages, fileQuestions, loadBank, questionEdits } from "./content";
@@ -92,10 +92,47 @@ function toReport(r: ReportRow): AdminReport {
   };
 }
 
+const statusOf = (url: URL): ReportStatus =>
+  (STATUSES as readonly string[]).includes(url.searchParams.get("status") ?? "") ? (url.searchParams.get("status") as ReportStatus) : "new";
+
+const noCounts = (): Record<ReportStatus, number> => ({ new: 0, accepted: 0, rejected: 0, fixed: 0, reviewed: 0, closed: 0 });
+
+/** GET /api/reports?status=<status>: the student's own reports with that status (new by default), newest first. */
+export async function getMyReports(request: Request, env: Env, url: URL): Promise<Response> {
+  const user = await requireUser(request, env);
+  const [bank, { results }, counted] = await Promise.all([
+    loadBank(env),
+    env.DB.prepare(
+      "SELECT id, question_id, reason, remark, proposal, status, created_at, resolved_at FROM question_reports WHERE user_id = ? AND status = ? ORDER BY created_at DESC LIMIT ?",
+    )
+      .bind(user.id, statusOf(url), MAX_LISTED)
+      .all<Pick<ReportRow, "id" | "question_id" | "reason" | "remark" | "proposal" | "status" | "created_at" | "resolved_at">>(),
+    env.DB.prepare("SELECT status, COUNT(*) AS n FROM question_reports WHERE user_id = ? GROUP BY status").bind(user.id).all<{ status: ReportStatus; n: number }>(),
+  ]);
+  const counts = noCounts();
+  for (const c of counted.results) counts[c.status] = c.n;
+  return json({
+    reports: results.map((r) => {
+      const q = bank.byId.get(r.question_id);
+      return {
+        id: r.id,
+        reason: r.reason,
+        remark: r.remark,
+        status: r.status,
+        createdAt: r.created_at,
+        ...(r.resolved_at ? { updatedAt: r.resolved_at } : {}),
+        suggestedFix: r.proposal !== null,
+        question: q ? { prompt: q.prompt, subject: q.subject, grade: q.grade, chapter: q.chapter } : null,
+      };
+    }),
+    counts,
+  } satisfies MyReports);
+}
+
 /** GET /api/admin/reports?status=<status>: reports with that status (new by default) grouped by question, newest first. */
 export async function getAdminReports(request: Request, env: Env, url: URL): Promise<Response> {
   await requireRole(request, env, ["admin"]);
-  const status = (STATUSES as readonly string[]).includes(url.searchParams.get("status") ?? "") ? (url.searchParams.get("status") as ReportStatus) : "new";
+  const status = statusOf(url);
   // The question as students get it now, not another instance's stale copy.
   questionEdits.forget();
   const [bank, files, { results }, counted, edited] = await Promise.all([
@@ -129,7 +166,7 @@ export async function getAdminReports(request: Request, env: Env, url: URL): Pro
     }
     g.reports.push(toReport(row));
   }
-  const counts: Record<ReportStatus, number> = { new: 0, accepted: 0, rejected: 0, fixed: 0, reviewed: 0, closed: 0 };
+  const counts = noCounts();
   for (const c of counted.results) counts[c.status] = c.n;
   return json({ groups: [...groups.values()], counts } satisfies AdminReports);
 }

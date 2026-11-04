@@ -9,21 +9,10 @@ import type { Question } from "../content/schema";
 import { AnswerDetails, Chip, Header, Problem, Spinner, TYPE_LABEL, formatDate } from "../components/AdminParts";
 import { Button } from "../components/Button";
 import { QuestionEditor } from "../components/QuestionEditor";
-import { REASON_LABEL } from "../components/ReportSheet";
+import { REASON_LABEL, REPORT_STATUSES as STATUSES, statusInfo } from "../components/ReportSheet";
 import { RichText } from "../components/RichText";
 import { api } from "../store/auth";
 import { useNav } from "../store/nav";
-
-const STATUSES: { status: ReportStatus; label: string; className: string }[] = [
-  { status: "new", label: "NEW", className: "bg-fg text-bg" },
-  { status: "accepted", label: "ACCEPTED", className: "bg-brand-soft text-brand" },
-  { status: "rejected", label: "REJECTED", className: "bg-bad-soft text-bad" },
-  { status: "fixed", label: "FIXED", className: "bg-ok-soft text-ok" },
-  { status: "reviewed", label: "REVIEWED", className: "bg-brand-soft text-brand" },
-  { status: "closed", label: "CLOSED", className: "bg-surface-2 text-muted" },
-];
-
-const statusInfo = (status: ReportStatus) => STATUSES.find((s) => s.status === status)!;
 
 /** The question in its own window, as students see it. */
 const openPreview = (questionId: string) => window.open(`/admin/preview/${encodeURIComponent(questionId)}`, "_blank", "popup,width=1100,height=860");
