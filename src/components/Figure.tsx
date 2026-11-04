@@ -14,7 +14,7 @@ function Markers({ media }: { media: Media }) {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.25 + i * 0.08, type: "spring", stiffness: 500, damping: 18 }}
-          className="pointer-events-none absolute grid size-7 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-fg font-display text-sm font-extrabold text-bg shadow-pop ring-2 ring-white"
+          className="pointer-events-none absolute grid size-5 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-fg font-display text-[11px] font-extrabold text-bg shadow-pop ring-2 ring-white sm:size-6 sm:text-xs"
           style={{ left: `${m.x}%`, top: `${m.y}%` }}
         >
           {m.label}

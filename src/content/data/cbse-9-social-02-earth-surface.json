@@ -21,12 +21,20 @@
         "id": "crust",
         "x": 20.7,
         "y": 28.1,
+        "marker": {
+          "x": 12,
+          "y": 10
+        },
         "label": "Crust"
       },
       {
         "id": "asth",
         "x": 63.6,
         "y": 16.5,
+        "marker": {
+          "x": 76,
+          "y": 6
+        },
         "label": "Asthenosphere"
       },
       {
@@ -74,18 +82,30 @@
         "id": "crust",
         "x": 20.7,
         "y": 28.1,
+        "marker": {
+          "x": 12,
+          "y": 10
+        },
         "label": "Crust"
       },
       {
         "id": "lith",
         "x": 35.2,
         "y": 13.4,
+        "marker": {
+          "x": 25,
+          "y": 5
+        },
         "label": "Lower part of the lithosphere"
       },
       {
         "id": "asth",
         "x": 63.6,
         "y": 16.5,
+        "marker": {
+          "x": 76,
+          "y": 6
+        },
         "label": "Asthenosphere"
       },
       {
@@ -615,10 +635,10 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The red dots on this globe mark the belt where most earthquakes and volcanoes happen. What is this belt called? Why is it so active?",
+    "prompt": "The red dots on this map mark the belt where most earthquakes and volcanoes happen. What is this belt called? Why is it so active?",
     "image": {
       "src": "/img/social02/ring-of-fire.svg",
-      "alt": "A globe centred on a large ocean with red dots near its edges"
+      "alt": "A map centred on a large ocean with red dots near its edges"
     },
     "options": [
       {
@@ -1753,8 +1773,12 @@
       },
       {
         "id": "arete",
-        "x": 47.9,
-        "y": 14.3,
+        "x": 42.9,
+        "y": 15,
+        "marker": {
+          "x": 38,
+          "y": 5
+        },
         "label": "Arête"
       },
       {
@@ -1879,12 +1903,20 @@
         "id": "ventifact",
         "x": 29.5,
         "y": 82.3,
+        "marker": {
+          "x": 17,
+          "y": 80
+        },
         "label": "Ventifact"
       },
       {
         "id": "oasis",
         "x": 55.2,
         "y": 75.4,
+        "marker": {
+          "x": 55,
+          "y": 92
+        },
         "label": "Deflation hollow with oasis"
       },
       {

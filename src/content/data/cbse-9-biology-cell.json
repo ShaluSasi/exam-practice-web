@@ -9,10 +9,10 @@
     "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell with numbered markers on its parts" },
     "spots": [
       { "id": "wall", "x": 6, "y": 50, "label": "Cell wall" },
-      { "id": "nucleus", "x": 27, "y": 32, "label": "Nucleus" },
+      { "id": "nucleus", "x": 23, "y": 27, "marker": { "x": 13, "y": 17 }, "label": "Nucleus" },
       { "id": "vacuole", "x": 65.5, "y": 56, "label": "Vacuole" },
-      { "id": "chloroplast", "x": 75, "y": 20.7, "label": "Chloroplast" },
-      { "id": "mito", "x": 37.5, "y": 77.3, "label": "Mitochondrion" }
+      { "id": "chloroplast", "x": 78, "y": 23, "marker": { "x": 84, "y": 29 }, "label": "Chloroplast" },
+      { "id": "mito", "x": 33, "y": 80, "marker": { "x": 27, "y": 85 }, "label": "Mitochondrion" }
     ],
     "answer": "nucleus",
     "hint": "Look for the round purple body with a dark dot (the nucleolus) inside it.",
@@ -27,10 +27,10 @@
     "prompt": "Tap the **large central vacuole**, the sac filled with cell sap.",
     "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell with numbered markers on its parts" },
     "spots": [
-      { "id": "nucleus", "x": 27, "y": 32, "label": "Nucleus" },
-      { "id": "er", "x": 43.75, "y": 28.3, "label": "Endoplasmic reticulum" },
-      { "id": "chloroplast", "x": 75, "y": 20.7, "label": "Chloroplast" },
-      { "id": "golgi", "x": 27.5, "y": 60, "label": "Golgi apparatus" },
+      { "id": "nucleus", "x": 23, "y": 27, "marker": { "x": 13, "y": 17 }, "label": "Nucleus" },
+      { "id": "er", "x": 43, "y": 23, "marker": { "x": 41, "y": 15 }, "label": "Endoplasmic reticulum" },
+      { "id": "chloroplast", "x": 78, "y": 23, "marker": { "x": 84, "y": 29 }, "label": "Chloroplast" },
+      { "id": "golgi", "x": 22, "y": 60, "marker": { "x": 12, "y": 58 }, "label": "Golgi apparatus" },
       { "id": "vacuole", "x": 65.5, "y": 56, "label": "Large central vacuole" }
     ],
     "answer": "vacuole",
@@ -47,11 +47,11 @@
     "image": { "src": "/img/cell/plant-cell.svg", "alt": "A plant cell with numbered markers on its parts" },
     "spots": [
       { "id": "wall", "x": 6, "y": 50, "label": "Cell wall" },
-      { "id": "nucleus", "x": 27, "y": 32, "label": "Nucleus" },
-      { "id": "chloroplast", "x": 75, "y": 20.7, "label": "Chloroplast" },
-      { "id": "mito", "x": 37.5, "y": 77.3, "label": "Mitochondrion" },
+      { "id": "nucleus", "x": 23, "y": 27, "marker": { "x": 13, "y": 17 }, "label": "Nucleus" },
+      { "id": "chloroplast", "x": 78, "y": 23, "marker": { "x": 84, "y": 29 }, "label": "Chloroplast" },
+      { "id": "mito", "x": 33, "y": 80, "marker": { "x": 27, "y": 85 }, "label": "Mitochondrion" },
       { "id": "vacuole", "x": 65.5, "y": 56, "label": "Vacuole" },
-      { "id": "golgi", "x": 27.5, "y": 60, "label": "Golgi apparatus" }
+      { "id": "golgi", "x": 22, "y": 60, "marker": { "x": 12, "y": 58 }, "label": "Golgi apparatus" }
     ],
     "answer": "chloroplast",
     "hint": "It is green because it contains chlorophyll.",
@@ -66,11 +66,11 @@
     "prompt": "Tap the **lysosome**, the clean-up system of this animal cell.",
     "image": { "src": "/img/cell/animal-cell.svg", "alt": "An animal cell with numbered markers on its parts" },
     "spots": [
-      { "id": "nucleus", "x": 46.25, "y": 48.3, "label": "Nucleus" },
-      { "id": "er", "x": 30.5, "y": 46.7, "label": "Endoplasmic reticulum" },
-      { "id": "mito", "x": 71.25, "y": 36.7, "label": "Mitochondrion" },
-      { "id": "golgi", "x": 70, "y": 65, "label": "Golgi apparatus" },
-      { "id": "lysosome", "x": 28.75, "y": 71.7, "label": "Lysosome" },
+      { "id": "nucleus", "x": 46, "y": 38, "marker": { "x": 43, "y": 25 }, "label": "Nucleus" },
+      { "id": "er", "x": 27, "y": 40, "marker": { "x": 24, "y": 30 }, "label": "Endoplasmic reticulum" },
+      { "id": "mito", "x": 73, "y": 39, "marker": { "x": 77, "y": 46 }, "label": "Mitochondrion" },
+      { "id": "golgi", "x": 65, "y": 63, "marker": { "x": 58, "y": 62 }, "label": "Golgi apparatus" },
+      { "id": "lysosome", "x": 28.75, "y": 71.7, "marker": { "x": 38, "y": 63 }, "label": "Lysosome" },
       { "id": "membrane", "x": 86.25, "y": 50, "label": "Cell membrane" }
     ],
     "answer": "lysosome",
@@ -86,11 +86,11 @@
     "prompt": "Tap the **Golgi apparatus**, the cell's packaging and shipping centre.",
     "image": { "src": "/img/cell/animal-cell.svg", "alt": "An animal cell with numbered markers on its parts" },
     "spots": [
-      { "id": "nucleus", "x": 46.25, "y": 48.3, "label": "Nucleus" },
-      { "id": "er", "x": 30.5, "y": 46.7, "label": "Endoplasmic reticulum" },
-      { "id": "mito", "x": 71.25, "y": 36.7, "label": "Mitochondrion" },
-      { "id": "golgi", "x": 70, "y": 65, "label": "Golgi apparatus" },
-      { "id": "lysosome", "x": 28.75, "y": 71.7, "label": "Lysosome" }
+      { "id": "nucleus", "x": 46, "y": 38, "marker": { "x": 43, "y": 25 }, "label": "Nucleus" },
+      { "id": "er", "x": 27, "y": 40, "marker": { "x": 24, "y": 30 }, "label": "Endoplasmic reticulum" },
+      { "id": "mito", "x": 73, "y": 39, "marker": { "x": 77, "y": 46 }, "label": "Mitochondrion" },
+      { "id": "golgi", "x": 65, "y": 63, "marker": { "x": 58, "y": 62 }, "label": "Golgi apparatus" },
+      { "id": "lysosome", "x": 28.75, "y": 71.7, "marker": { "x": 38, "y": 63 }, "label": "Lysosome" }
     ],
     "answer": "golgi",
     "hint": "It looks like a stack of flattened, curved sacs with small vesicles budding off.",

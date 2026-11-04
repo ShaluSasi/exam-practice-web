@@ -102,7 +102,8 @@ const Order = Base.extend({
 const Hotspot = Base.extend({
   type: z.literal("hotspot"),
   image: Media,
-  spots: z.array(Point.extend({ id: z.string().min(1), label: z.string().min(1) })).min(2),
+  /** `x`, `y` is the part itself. `marker` puts its number elsewhere, joined by a line, when it would hide a small part. */
+  spots: z.array(Point.extend({ id: z.string().min(1), label: z.string().min(1), marker: Point.optional() })).min(2),
   answer: z.string(),
 });
 

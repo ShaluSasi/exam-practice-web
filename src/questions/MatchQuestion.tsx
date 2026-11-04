@@ -17,8 +17,9 @@ const NO_PAIRS: Record<string, string> = {};
  */
 const LABEL = "min-w-0 flex-1 basis-[4.5rem] break-words [overflow-wrap:anywhere] hyphens-auto";
 
+/** Big enough to read a diagram: the card's full width on phones, with the badge and text under it. */
 function Thumb({ src, alt }: { src: string; alt: string }) {
-  return <img src={src} alt={alt} draggable={false} className="size-11 shrink-0 select-none rounded-xl sm:size-14" />;
+  return <img src={src} alt={alt} draggable={false} className="order-first h-auto w-full shrink-0 select-none rounded-xl sm:order-none sm:w-32" />;
 }
 
 interface Line {

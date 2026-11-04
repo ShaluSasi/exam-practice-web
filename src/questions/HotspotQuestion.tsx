@@ -1,3 +1,4 @@
+import type { MouseEvent } from "react";
 import { motion } from "motion/react";
 import { Check, X } from "lucide-react";
 import clsx from "clsx";
@@ -16,7 +17,16 @@ const SPOT: Record<SpotState, string> = {
   dim: "bg-white/80 text-[#2B2F4A]/60 ring-transparent",
 };
 
-/** Tap the numbered marker on the diagram that matches the prompt. */
+const LINE: Record<SpotState, string> = {
+  idle: "#2B2F4A",
+  selected: "var(--brand)",
+  correct: "var(--ok)",
+  wrong: "var(--bad)",
+  missed: "var(--ok)",
+  dim: "#2B2F4A",
+};
+
+/** Tap a part of the diagram, or its numbered marker, that matches the prompt. */
 export function HotspotQuestion({ q, response, onChange, reveal }: QuestionProps<"hotspot">) {
   const state = (id: string): SpotState => {
     if (!reveal) return response === id ? "selected" : "idle";
@@ -24,26 +34,54 @@ export function HotspotQuestion({ q, response, onChange, reveal }: QuestionProps
     return response === id ? "wrong" : "dim";
   };
 
+  const pick = (id: string) => {
+    play("tap");
+    onChange(id);
+  };
+
+  /** A tap off the markers picks the nearest part, so a whole card or organelle can be tapped. */
+  const pickNearest = (e: MouseEvent<HTMLDivElement>) => {
+    const box = e.currentTarget.getBoundingClientRect();
+    const away = (s: { x: number; y: number }) =>
+      Math.hypot((s.x / 100) * box.width - (e.clientX - box.left), (s.y / 100) * box.height - (e.clientY - box.top));
+    pick(q.spots.reduce((best, s) => (away(s) < away(best) ? s : best)).id);
+  };
+
   return (
     <div>
       <p className="mb-3 text-center text-sm font-semibold text-muted">
-        {reveal ? "Every part, labelled" : "Tap a glowing marker on the diagram"}
+        {reveal ? "Every part, labelled" : "Tap the part on the diagram, or its number"}
       </p>
       <Figure media={q.image} zoomable={false} frameClassName="max-w-[620px]">
+        {!reveal && <div aria-hidden onClick={pickNearest} className="absolute inset-0 z-[1] cursor-pointer" />}
+        <svg aria-hidden className="pointer-events-none absolute inset-0 z-[1] size-full overflow-visible">
+          {q.spots.map((s) => {
+            if (!s.marker) return null;
+            const ends = { x1: `${s.marker.x}%`, y1: `${s.marker.y}%`, x2: `${s.x}%`, y2: `${s.y}%` };
+            return (
+              <g key={s.id}>
+                <line {...ends} stroke="#fff" strokeWidth={3.5} strokeLinecap="round" />
+                <line {...ends} stroke={LINE[state(s.id)]} strokeWidth={1.5} strokeLinecap="round" />
+                <circle cx={ends.x2} cy={ends.y2} r={3} fill={LINE[state(s.id)]} stroke="#fff" strokeWidth={1} />
+              </g>
+            );
+          })}
+        </svg>
         {q.spots.map((s, i) => {
           const st = state(s.id);
           const showLabel = reveal && (st === "correct" || st === "missed" || st === "wrong");
+          const at = s.marker ?? s;
           return (
             <div
               key={s.id}
               className="absolute -translate-x-1/2 -translate-y-1/2"
-              style={{ left: `${s.x}%`, top: `${s.y}%`, zIndex: showLabel ? 3 : 2 }}
+              style={{ left: `${at.x}%`, top: `${at.y}%`, zIndex: showLabel ? 3 : 2 }}
             >
               {st === "idle" && (
                 <motion.span
                   aria-hidden
-                  className="absolute inset-0 rounded-full bg-brand"
-                  animate={{ scale: [1, 1.9], opacity: [0.55, 0] }}
+                  className="absolute inset-0 rounded-full border-2 border-brand"
+                  animate={{ scale: [1, 1.6], opacity: [0.8, 0] }}
                   transition={{ duration: 1.6, repeat: Infinity, delay: i * 0.2 }}
                 />
               )}
@@ -52,24 +90,22 @@ export function HotspotQuestion({ q, response, onChange, reveal }: QuestionProps
                 disabled={reveal}
                 aria-label={reveal ? s.label : `Marker ${i + 1}`}
                 aria-pressed={response === s.id}
-                onClick={() => {
-                  play("tap");
-                  onChange(s.id);
-                }}
+                onClick={() => pick(s.id)}
                 initial={{ scale: 0 }}
                 animate={st === "wrong" ? { scale: 1, x: [0, -6, 6, -3, 3, 0] } : { scale: 1 }}
                 transition={{ delay: reveal ? 0 : 0.15 + i * 0.06, type: "spring", stiffness: 500, damping: 20 }}
                 whileHover={reveal ? undefined : { scale: 1.2 }}
                 whileTap={reveal ? undefined : { scale: 0.9 }}
                 className={clsx(
-                  "relative grid size-8 place-items-center rounded-full font-display text-sm font-extrabold shadow-pop ring-[3px] transition-[background-color,color,transform] duration-200 sm:size-9",
+                  // Small so it does not hide the diagram; after: keeps a finger-sized tap area.
+                  "relative grid size-5 place-items-center rounded-full font-display text-[11px] font-extrabold shadow-pop ring-2 transition-[background-color,color,transform] duration-200 after:absolute after:-inset-2 after:rounded-full sm:size-6 sm:text-xs",
                   SPOT[st],
                 )}
               >
                 {st === "correct" || st === "missed" ? (
-                  <Check className="size-4" strokeWidth={3.5} />
+                  <Check className="size-3 sm:size-3.5" strokeWidth={3.5} />
                 ) : st === "wrong" ? (
-                  <X className="size-4" strokeWidth={3.5} />
+                  <X className="size-3 sm:size-3.5" strokeWidth={3.5} />
                 ) : (
                   i + 1
                 )}
