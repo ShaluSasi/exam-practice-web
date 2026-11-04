@@ -9,7 +9,8 @@ import { SubjectId, type ClientQuestion, type Question } from "../src/content/sc
 import { GUEST_LIMITS, ROUND_SIZE, pickRound } from "../src/engine/scoring";
 import { optionalUser } from "./auth";
 import { answerKey, chapterInfo, chapterOrders, grade, inOrder, isResponseFor, loadBank, publicQuestion, recordedChecks } from "./content";
-import { HttpError, guestLimit, json, readJson, type Env } from "./http";
+import { HttpError, assertSameOrigin, guestLimit, json, readJson, type Env } from "./http";
+import { liveQuizQuestions } from "./quizzes";
 
 const MAX_IDS = 200;
 const MAX_COUNT = 50;
@@ -39,7 +40,7 @@ export async function getCatalog(env: Env, url: URL): Promise<Response> {
  *   shows its round in that order instead.
  */
 export async function getQuestions(request: Request, env: Env, url: URL): Promise<Response> {
-  const bank = await loadBank(env);
+  const [bank, live] = await Promise.all([loadBank(env), liveQuizQuestions(env)]);
   const p = url.searchParams;
   const ids = list(p.get("ids"));
   const send = (qs: Question[], missing: string[] = [], reveal = new Set<string>()) => {
@@ -53,7 +54,8 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
   if (ids.length > 0) {
     if (ids.length > MAX_IDS) throw new HttpError(400, "Too many questions");
     const found = ids.map((id) => bank.byId.get(id)).filter((q): q is Question => !!q);
-    let reveal = list(p.get("reveal"));
+    // Never the key of a question in a quiz that is on right now (quizzes.ts), whatever the round says.
+    let reveal = list(p.get("reveal")).filter((id) => !live.has(id));
     if (reveal.length) {
       const user = await optionalUser(request, env);
       if (user) {
@@ -67,27 +69,39 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
   await countGuestRound(request, env);
   const count = Math.min(MAX_COUNT, Math.max(1, Number(p.get("count")) || ROUND_SIZE));
   const chapter = p.get("chapter");
-  let pool: Question[];
+  // Questions in a quiz that is on right now stay out of practice until it ends: practice would show their answers.
+  const open = (qs: Question[]) => qs.filter((q) => !live.has(q.id));
   if (chapter) {
-    pool = bank.chapters.get(chapter)?.questions ?? [];
+    const pool = open(bank.chapters.get(chapter)?.questions ?? []);
     // An admin has set this chapter's order: the round's questions are shown in it instead.
     const order = (await chapterOrders.get(env)).get(chapter);
-    if (order) return send(inOrder(pickRound(pool, count), order));
-  } else {
-    const subjects = list(p.get("subjects")).filter((s) => SubjectId.safeParse(s).success);
-    const grades = list(p.get("grades")).map(Number);
-    pool = bank.all.filter(
-      (q) => (subjects.length === 0 || subjects.includes(q.subject)) && (grades.length === 0 || grades.includes(q.grade)),
-    );
+    return send(order ? inOrder(pickRound(pool, count), order) : pickRound(pool, count));
   }
+  const subjects = list(p.get("subjects")).filter((s) => SubjectId.safeParse(s).success);
+  const grades = list(p.get("grades")).map(Number);
+  const pool = open(
+    bank.all.filter((q) => (subjects.length === 0 || subjects.includes(q.subject)) && (grades.length === 0 || grades.includes(q.grade))),
+  );
   return send(pickRound(pool, count));
+}
+
+/** The first four groups of an IPv6 address (its /64) with "::" expanded, so every form of an address gives the same key. */
+function prefix64(ip: string): string {
+  const [head, tail = ""] = ip.split("::");
+  const h = head ? head.split(":") : [];
+  const t = tail ? tail.split(":") : [];
+  const groups = [...h, ...Array<string>(Math.max(0, 8 - h.length - t.length)).fill("0"), ...t];
+  return groups
+    .slice(0, 4)
+    .map((g) => g.toLowerCase().padStart(4, "0"))
+    .join(":");
 }
 
 /** The network a request came from: its IP address, or the /64 an IPv6 address belongs to, hashed. */
 async function networkOf(request: Request): Promise<string | null> {
   const ip = request.headers.get("CF-Connecting-IP");
   if (!ip) return null; // local dev
-  const network = ip.includes(":") ? ip.split(":").slice(0, 4).join(":") : ip;
+  const network = ip.includes(":") ? prefix64(ip) : ip;
   const hash = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(network));
   return [...new Uint8Array(hash).slice(0, 12)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
@@ -129,13 +143,17 @@ const CheckIn = z.object({
  * kept (table `checks`) and is the one graded, now and when the round is saved,
  * so checking a guess to learn the key and then "answering" changes nothing.
  */
-export async function checkAnswer(request: Request, env: Env): Promise<Response> {
+export async function checkAnswer(request: Request, env: Env, url: URL): Promise<Response> {
+  assertSameOrigin(request, url);
   const parsed = CheckIn.safeParse(await readJson(request));
   if (!parsed.success) throw new HttpError(400, "Invalid answer");
   const { questionId, roundId } = parsed.data;
   let response: unknown = parsed.data.response ?? undefined;
-  const q = (await loadBank(env)).byId.get(questionId);
+  const [bank, live] = await Promise.all([loadBank(env), liveQuizQuestions(env)]);
+  const q = bank.byId.get(questionId);
   if (!q) throw new HttpError(404, "This question no longer exists");
+  // The app takes a 4xx here as "this question is gone from the round" and moves on.
+  if (live.has(q.id)) throw new HttpError(409, "This question is in a quiz that is on right now. Try it again once the quiz ends.");
   if (response !== undefined && (!isResponseFor(q, response) || JSON.stringify(response).length > MAX_RESPONSE_CHARS)) {
     throw new HttpError(400, "Invalid answer");
   }

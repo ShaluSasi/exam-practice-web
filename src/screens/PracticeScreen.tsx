@@ -437,7 +437,8 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
       if (e.ctrlKey || e.metaKey || e.altKey || dialogOpen) return;
       if (e.key === "Enter") {
         // Enter on a focused control (an option, a move-up arrow, Check, Continue) activates that control.
-        if (e.target instanceof HTMLElement && e.target.closest("button, [role=button], input, a")) return;
+        // In a text box (a numerical answer) it checks the answer, as the tip below the question says.
+        if (e.target instanceof HTMLElement && e.target.closest("button, [role=button], a")) return;
         e.preventDefault();
         if (s.phase === "answering") void check();
         else if (s.phase === "feedback" || s.phase === "review") s.next();

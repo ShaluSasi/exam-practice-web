@@ -198,7 +198,9 @@ export const useSession = create<SessionState>()((set, get) => {
     },
 
     resume: (saved, questions) => {
-      const data = { questions, attempts: saved.attempts, hinted: [] };
+      // A skipped question whose hint was shown keeps the hint's cost when it is answered after resuming.
+      const hinted = saved.attempts.filter((a) => a.usedHint).map((a) => a.questionId);
+      const data = { questions, attempts: saved.attempts, hinted };
       const fresh = questions.findIndex((q) => !attemptFor(saved.attempts, q.id));
       const skipped = skippedIndexes(data);
       // Every question tried: offer the skipped ones, or reopen the last question so "See results" is one tap away.
@@ -208,7 +210,7 @@ export const useSession = create<SessionState>()((set, get) => {
         roundId: saved.roundId,
         title: saved.title,
         questions,
-        hinted: [],
+        hinted,
         attempts: saved.attempts,
         xp: saved.xp,
         streak: saved.streak,

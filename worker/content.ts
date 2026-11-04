@@ -219,12 +219,24 @@ export interface AttemptIn {
   usedHint: boolean;
 }
 
+export interface RecordedCheck {
+  questionId: string;
+  /** `undefined`: checked as a skip. */
+  response: unknown;
+  checkedAt: number;
+}
+
+/** The answers a signed-in student checked for a round (table `checks`), oldest first. */
+export async function recordedCheckList(env: Env, userId: string, roundId: string): Promise<RecordedCheck[]> {
+  const { results } = await env.DB.prepare("SELECT question_id, response, checked_at FROM checks WHERE user_id = ? AND round_id = ? ORDER BY checked_at, rowid")
+    .bind(userId, roundId)
+    .all<{ question_id: string; response: string | null; checked_at: number }>();
+  return results.map((r) => ({ questionId: r.question_id, response: r.response === null ? undefined : (JSON.parse(r.response) as unknown), checkedAt: r.checked_at }));
+}
+
 /** The answers a signed-in student checked for a round (table `checks`), by question. */
 export async function recordedChecks(env: Env, userId: string, roundId: string): Promise<Map<string, unknown>> {
-  const { results } = await env.DB.prepare("SELECT question_id, response FROM checks WHERE user_id = ? AND round_id = ?")
-    .bind(userId, roundId)
-    .all<{ question_id: string; response: string | null }>();
-  return new Map(results.map((r) => [r.question_id, r.response === null ? undefined : (JSON.parse(r.response) as unknown)]));
+  return new Map((await recordedCheckList(env, userId, roundId)).map((c) => [c.questionId, c.response]));
 }
 
 /**
@@ -232,8 +244,24 @@ export async function recordedChecks(env: Env, userId: string, roundId: string):
  * saved round is graded from what the student really answered first. An
  * attempt the server never saw checked counts as skipped.
  */
-export function fromRecorded<T extends AttemptIn>(attempts: T[], recorded: Map<string, unknown>): T[] {
-  return attempts.map((a) => ({ ...a, response: recorded.get(a.questionId) }));
+export function fromRecorded<T extends AttemptIn>(attempts: T[], recorded: RecordedCheck[]): T[] {
+  const byId = new Map(recorded.map((c) => [c.questionId, c.response]));
+  return attempts.map((a) => ({ ...a, response: byId.get(a.questionId) }));
+}
+
+/**
+ * A finished round's attempts as the server saw them: every question it
+ * checked for the round, with the answer it checked first, in the order they
+ * were checked. So leaving out wrong answers, or reordering them, cannot raise
+ * the score or the streak. An attempt the server never saw checked counts as skipped.
+ */
+export function recordedAttempts(attempts: AttemptIn[], recorded: RecordedCheck[]): AttemptIn[] {
+  const sent = new Map(attempts.map((a) => [a.questionId, a]));
+  const seen = new Set(recorded.map((c) => c.questionId));
+  return [
+    ...recorded.map((c) => ({ questionId: c.questionId, response: c.response, usedHint: sent.get(c.questionId)?.usedHint ?? false })),
+    ...attempts.filter((a) => !seen.has(a.questionId)).map((a) => ({ ...a, response: undefined })),
+  ];
 }
 
 /**

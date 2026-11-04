@@ -148,6 +148,12 @@ export default function App() {
             go("practice");
             return;
           }
+          // A fresh round is a new one: a guest past the free practice signs in for it like any other.
+          if (!free && (await mustSignIn())) {
+            setStarting(false);
+            askSignIn("round", retry);
+            return;
+          }
         }
         // Admin-only, for testing: a chapter round can draw fewer (or more) than the usual ROUND_SIZE questions.
         const count = "chapter" in source && !notAdmin ? useProfile.getState().adminRoundSize ?? undefined : undefined;

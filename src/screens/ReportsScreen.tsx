@@ -214,8 +214,10 @@ function Actions({ report, question, onSetStatus, onFix }: { report: AdminReport
   );
 }
 
-function ReportItem({ report, question, onSetStatus, onFix }: { report: AdminReport; question: Question | null } & ReportHandlers) {
+function ReportItem({ report, question, original, onSetStatus, onFix }: { report: AdminReport; question: Question | null; original: Question | null } & ReportHandlers) {
   const shown = report.applied ?? report.proposal;
+  // `question` already has an applied change in it, so that change is shown against the bank file's version.
+  const shownAgainst = report.applied ? (original ?? question) : question;
   const info = statusInfo(report.status);
   return (
     <li className="rounded-2xl border-2 border-line bg-bg p-4">
@@ -230,12 +232,12 @@ function ReportItem({ report, question, onSetStatus, onFix }: { report: AdminRep
         </span>
       </div>
       <p className="mt-2 whitespace-pre-wrap">{report.remark}</p>
-      {shown && question && (
+      {shown && shownAgainst && (
         <div className="mt-3">
           <p className="mb-1.5 text-xs font-extrabold uppercase tracking-wider text-muted">
             {report.applied ? "Change applied" : "Student's suggested fix"}
           </p>
-          <ChangeList q={question} edit={shown} />
+          <ChangeList q={shownAgainst} edit={shown} />
         </div>
       )}
       {report.resolvedBy && (
@@ -298,7 +300,7 @@ function GroupCard({ group, onSetStatus, onFix }: { group: AdminReportGroup } & 
       </p>
       <ul className="grid gap-3">
         {group.reports.map((r) => (
-          <ReportItem key={r.id} report={r} question={q} onSetStatus={onSetStatus} onFix={onFix} />
+          <ReportItem key={r.id} report={r} question={q} original={group.original} onSetStatus={onSetStatus} onFix={onFix} />
         ))}
       </ul>
     </motion.article>

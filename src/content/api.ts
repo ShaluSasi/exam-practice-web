@@ -126,6 +126,8 @@ export interface AdminReportGroup {
   question: Question | null;
   /** An admin has already edited this question. */
   edited: boolean;
+  /** The question as it is in the bank file, when an admin has edited it: what the applied changes were made to. */
+  original: Question | null;
   reports: AdminReport[];
 }
 

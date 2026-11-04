@@ -98,8 +98,9 @@ export async function getAdminReports(request: Request, env: Env, url: URL): Pro
   const status = (STATUSES as readonly string[]).includes(url.searchParams.get("status") ?? "") ? (url.searchParams.get("status") as ReportStatus) : "new";
   // The question as students get it now, not another instance's stale copy.
   questionEdits.forget();
-  const [bank, { results }, counted, edited] = await Promise.all([
+  const [bank, files, { results }, counted, edited] = await Promise.all([
     loadBank(env),
+    fileQuestions(),
     env.DB.prepare(
       `SELECT r.*, u.name, u.email FROM question_reports r JOIN users u ON u.id = r.user_id
        WHERE r.status = ? ORDER BY r.created_at DESC LIMIT ?`,
@@ -115,7 +116,15 @@ export async function getAdminReports(request: Request, env: Env, url: URL): Pro
     let g = groups.get(row.question_id);
     if (!g) {
       const q = bank.byId.get(row.question_id);
-      g = { questionId: row.question_id, question: q ? absoluteImages(q, url.origin) : null, edited: editedIds.has(row.question_id), reports: [] };
+      const isEdited = editedIds.has(row.question_id);
+      const file = isEdited ? files.find((f) => f.id === row.question_id) : undefined;
+      g = {
+        questionId: row.question_id,
+        question: q ? absoluteImages(q, url.origin) : null,
+        edited: isEdited,
+        original: file ? absoluteImages(file, url.origin) : null,
+        reports: [],
+      };
       groups.set(row.question_id, g);
     }
     g.reports.push(toReport(row));

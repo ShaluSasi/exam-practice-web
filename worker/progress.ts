@@ -4,7 +4,7 @@
  */
 import { z } from "zod";
 import { requireUser, type SessionUser } from "./auth";
-import { fromRecorded, gradeRound, loadBank, recordedChecks } from "./content";
+import { fromRecorded, gradeRound, loadBank, recordedCheckList } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 
 const DAY = 86_400_000;
@@ -62,7 +62,7 @@ export async function saveProgress(request: Request, env: Env, url: URL): Promis
 /** Saves an unfinished round and logs its answers, graded from the answers the server has recorded for it. */
 export async function storeActiveRound(env: Env, user: SessionUser, round: z.infer<typeof SavedRoundIn>) {
   // Right/wrong and XP in the answer log come from grading the answers the server saw checked, not from the app.
-  round.attempts = fromRecorded(round.attempts, await recordedChecks(env, user.id, round.roundId));
+  round.attempts = fromRecorded(round.attempts, await recordedCheckList(env, user.id, round.roundId));
   const { graded } = gradeRound(await loadBank(env), round.questionIds, round.attempts);
   const byQuestion = new Map(graded.map((g) => [g.questionId, g]));
   // Attempts for questions outside the round (or removed since) are dropped rather than trusted.

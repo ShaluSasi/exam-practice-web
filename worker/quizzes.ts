@@ -104,6 +104,36 @@ const countParticipants = async (env: Env, quizId: string) =>
 /** The quiz's questions that are still in the bank, in the quiz's order. */
 const questionsOf = (bank: Bank, quiz: QuizRow) => idsOf(quiz).flatMap((id) => bank.byId.get(id) ?? []);
 
+/** How long an instance keeps the list of released quizzes before asking D1 again. */
+const LIVE_TTL_MS = 30_000;
+let released: { at: number; rows: Promise<{ starts_at: number; ends_at: number; ids: string[] }[]> } | null = null;
+
+/**
+ * The questions of every quiz that is on right now (its window open, plus the
+ * grace period). Practice must not grade or reveal these meanwhile, or a
+ * student could look up the answers to the quiz they are taking.
+ */
+export async function liveQuizQuestions(env: Env): Promise<Set<string>> {
+  const now = Date.now();
+  if (!released || now - released.at > LIVE_TTL_MS) {
+    released = {
+      at: now,
+      rows: env.DB.prepare("SELECT starts_at, ends_at, question_ids FROM quizzes WHERE status = 'released' AND ends_at + ? > ?")
+        .bind(GRACE_MS, now)
+        .all<{ starts_at: number; ends_at: number; question_ids: string }>()
+        .then(({ results }) => results.map((r) => ({ starts_at: r.starts_at, ends_at: r.ends_at, ids: JSON.parse(r.question_ids) as string[] })))
+        .catch((e: unknown) => {
+          console.error(e);
+          released = null;
+          return [];
+        }),
+    };
+  }
+  const live = new Set<string>();
+  for (const q of await released.rows) if (q.starts_at <= now && now < q.ends_at + GRACE_MS) for (const id of q.ids) live.add(id);
+  return live;
+}
+
 function certificateCode(): string {
   const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
   return [...crypto.getRandomValues(new Uint8Array(10))].map((b) => alphabet[b % alphabet.length]).join("");
@@ -111,23 +141,28 @@ function certificateCode(): string {
 
 /** Grades an attempt whose student submitted or whose time is up; one already graded is returned as it is. */
 async function finalize(env: Env, bank: Bank, quiz: QuizRow, attempt: AttemptRow, now: number): Promise<AttemptRow> {
-  if (attempt.submitted_at !== null) return attempt;
-  const answers = JSON.parse(attempt.answers) as Record<string, unknown>;
   const questions = questionsOf(bank, quiz);
-  const correct = questions.filter((q) => grade(q, answers[q.id])).length;
-  const total = questions.length;
-  const percent = total ? Math.round((correct / total) * 100) : 0;
-  const passed = total > 0 && percent >= quiz.pass_percent;
-  // Time taken ends at the deadline for a student who never pressed Submit.
-  const submittedAt = Math.min(now, attempt.deadline);
-  await env.DB.prepare(
-    `UPDATE quiz_attempts SET submitted_at = ?, correct = ?, total = ?, percent = ?, passed = ?, certificate_id = ?
-     WHERE quiz_id = ? AND user_id = ? AND submitted_at IS NULL`,
-  )
-    .bind(submittedAt, correct, total, percent, passed ? 1 : 0, passed ? certificateCode() : null, quiz.id, attempt.user_id)
-    .run();
-  // Read back: another request may have graded it first.
-  return (await getAttempt(env, quiz.id, attempt.user_id))!;
+  // A last answer (within the grace period) can land between reading the attempt and grading it: the
+  // update only applies to the answers that were graded, and otherwise the fresh row is graded instead.
+  for (let tries = 0; attempt.submitted_at === null && tries < 3; tries++) {
+    const answers = JSON.parse(attempt.answers) as Record<string, unknown>;
+    const correct = questions.filter((q) => grade(q, answers[q.id])).length;
+    const total = questions.length;
+    const percent = total ? Math.round((correct / total) * 100) : 0;
+    const passed = total > 0 && percent >= quiz.pass_percent;
+    // Time taken ends at the deadline for a student who never pressed Submit.
+    const submittedAt = Math.min(now, attempt.deadline);
+    const { meta } = await env.DB.prepare(
+      `UPDATE quiz_attempts SET submitted_at = ?, correct = ?, total = ?, percent = ?, passed = ?, certificate_id = ?
+       WHERE quiz_id = ? AND user_id = ? AND submitted_at IS NULL AND answers = ?`,
+    )
+      .bind(submittedAt, correct, total, percent, passed ? 1 : 0, passed ? certificateCode() : null, quiz.id, attempt.user_id, attempt.answers)
+      .run();
+    // Read back: the answers changed, or another request graded it first.
+    attempt = (await getAttempt(env, quiz.id, attempt.user_id))!;
+    if (meta.changes === 1) break;
+  }
+  return attempt;
 }
 
 /** GET /api/quizzes */

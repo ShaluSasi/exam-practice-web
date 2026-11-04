@@ -1086,16 +1086,24 @@ export function QuizScreen() {
         ) : view.kind === "lobby" && quiz ? (
           <Lobby quiz={quiz} now={now} busy={busy} problem={actionProblem} onStart={() => void start(quiz)} onResult={() => void openResult(quiz.id)} />
         ) : (
-          <QuizListView
-            quizzes={quizzes}
-            now={now}
-            onResult={(id) => void openResult(id)}
-            onOpen={(id) => {
-              setView({ kind: "lobby", id });
-              setActionProblem(null);
-              window.scrollTo({ top: 0 });
-            }}
-          />
+          <>
+            {/* A shared link to a quiz that cannot be opened (e.g. withheld), or a result that would not load. */}
+            {actionProblem && (
+              <p role="alert" className="mb-4 rounded-2xl border-2 border-bad/40 bg-bad-soft px-4 py-3 text-sm font-semibold text-bad">
+                {actionProblem}
+              </p>
+            )}
+            <QuizListView
+              quizzes={quizzes}
+              now={now}
+              onResult={(id) => void openResult(id)}
+              onOpen={(id) => {
+                setView({ kind: "lobby", id });
+                setActionProblem(null);
+                window.scrollTo({ top: 0 });
+              }}
+            />
+          </>
         )}
       </div>
       {counting && (

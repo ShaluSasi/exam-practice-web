@@ -53,11 +53,16 @@ export function closeSignInGate() {
   useSignInGate.setState({ retry: null });
 }
 
-/** Whether this guest has used the free questions. Rounds finished before they were counted count as a full round each. */
+/** Whether this guest has used the free questions. A device that finished rounds before answers were counted has used a round's worth. */
 export function freeRoundUsed(): boolean {
   const p = useProfile.getState();
-  return limits.questions >= 0 && Math.max(p.guestAnswered, p.sessions * ROUND_SIZE) >= limits.questions;
+  const answered = p.guestAnswered || (p.sessions > 0 ? ROUND_SIZE : 0);
+  return limits.questions >= 0 && answered >= limits.questions;
 }
+
+/** How long a new round waits for the server's limits before using the defaults, so a slow connection does not hold up Start. */
+const LIMITS_WAIT_MS = 1500;
+const limitsOrDefaults = () => Promise.race([limitsReady, new Promise<void>((resolve) => setTimeout(resolve, LIMITS_WAIT_MS))]);
 
 /**
  * Whether the sign-in check is settled. Still loading, or failed on a bad
@@ -71,7 +76,7 @@ async function settledAuth(): Promise<void> {
 
 /** Whether a new round must wait for sign-in. */
 export async function mustSignIn(): Promise<boolean> {
-  await limitsReady;
+  await limitsOrDefaults();
   if (!freeRoundUsed()) return false;
   await settledAuth();
   return useAuth.getState().status === "signedOut";
@@ -80,7 +85,7 @@ export async function mustSignIn(): Promise<boolean> {
 /** Opens a game from the home screen; a guest past the free games is asked to sign in first. */
 export async function openGame(id: GameId): Promise<void> {
   const play = () => useNav.getState().playGame(id);
-  await limitsReady;
+  await limitsOrDefaults();
   const p = useProfile.getState();
   if (limits.games >= 0 && p.guestGames >= limits.games) {
     await settledAuth();

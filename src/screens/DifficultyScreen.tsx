@@ -153,7 +153,8 @@ function Review({
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement) return;
+      // Browser shortcuts (Ctrl+1 for a tab, Alt+Left for back) are not a difficulty or a step.
+      if (e.target instanceof HTMLInputElement || e.ctrlKey || e.metaKey || e.altKey) return;
       if (e.key === "ArrowRight") next();
       else if (e.key === "ArrowLeft") prev();
       else if (e.key === "Escape") onClose();

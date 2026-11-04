@@ -9,7 +9,7 @@
  */
 import { z } from "zod";
 import { requireUser, type SessionUser } from "./auth";
-import { fromRecorded, gradeRound, loadBank, recordedChecks } from "./content";
+import { gradeRound, loadBank, recordedAttempts, recordedCheckList } from "./content";
 import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
 import { SavedRoundIn, storeActiveRound } from "./progress";
 
@@ -175,10 +175,12 @@ export async function saveRounds(request: Request, env: Env, url: URL): Promise<
   const { rounds } = parse(SaveBody, await readJson(request));
   const bank = await loadBank(env);
   const now = Date.now();
-  // Graded from the answers the server saw checked (worker/questions.ts), not the ones sent here.
+  // Graded from the answers the server saw checked (worker/questions.ts), not the ones sent here, and every
+  // question it checked for the round is in the round, so leaving some out cannot raise the score.
   const graded: RoundIn[] = [];
   for (const { questionIds, attempts, ...r } of rounds) {
-    const g = gradeRound(bank, questionIds, fromRecorded(attempts, await recordedChecks(env, user.id, r.id)));
+    const recorded = await recordedCheckList(env, user.id, r.id);
+    const g = gradeRound(bank, [...new Set([...questionIds, ...recorded.map((c) => c.questionId)])], recordedAttempts(attempts, recorded));
     graded.push({
       ...r,
       // A round can't finish in the future; a later date would count in this period and the next.
@@ -213,31 +215,42 @@ export async function importDevice(request: Request, env: Env, url: URL): Promis
     .run();
 
   const imported = claimed.meta.changes === 1;
-  if (imported && body.rounds.length > 0) {
-    await env.DB.batch(body.rounds.map((r) => insertRound(env, user, r, "imported", now)));
-  }
-  // A guest's answers were never checked against an account, so they are recorded as its checks now
-  // (taken as sent, like the rest of the device's progress); the round then grades and finishes as usual.
-  // Skips are left unrecorded, as in a live round, so they can still be answered later.
-  if (imported) {
-    for (const round of body.active ?? []) {
-      const answered = round.attempts.filter((a) => a.response !== undefined && a.response !== null);
-      if (answered.length > 0) {
-        await env.DB.batch(
-          answered.map((a) =>
-            env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
-              user.id,
-              round.roundId,
-              a.questionId,
-              JSON.stringify(a.response),
-              now,
-            ),
-          ),
-        );
-      }
-      if (round.attempts.length === 0) continue;
-      await storeActiveRound(env, user, round);
+  try {
+    if (imported && body.rounds.length > 0) {
+      await env.DB.batch(body.rounds.map((r) => insertRound(env, user, r, "imported", now)));
     }
+    // A guest's answers were never checked against an account, so they are recorded as its checks now
+    // (taken as sent, like the rest of the device's progress); the round then grades and finishes as usual.
+    // Skips are left unrecorded, as in a live round, so they can still be answered later.
+    if (imported) {
+      for (const round of body.active ?? []) {
+        const answered = round.attempts.filter((a) => a.response !== undefined && a.response !== null);
+        if (answered.length > 0) {
+          await env.DB.batch(
+            answered.map((a) =>
+              env.DB.prepare("INSERT OR IGNORE INTO checks (user_id, round_id, question_id, response, checked_at) VALUES (?, ?, ?, ?, ?)").bind(
+                user.id,
+                round.roundId,
+                a.questionId,
+                JSON.stringify(a.response),
+                now,
+              ),
+            ),
+          );
+        }
+        if (round.attempts.length === 0) continue;
+        await storeActiveRound(env, user, round);
+      }
+    }
+  } catch (e) {
+    // The claim above is the only thing that stops a second import: give it back, or a failure here
+    // (e.g. one active round too large) would leave the device's progress unimportable for ever.
+    if (imported) {
+      await env.DB.prepare("UPDATE users SET imported_at = NULL, base_xp = 0, base_rounds = 0, base_best_streak = 0 WHERE id = ? AND imported_at = ?")
+        .bind(user.id, now)
+        .run();
+    }
+    throw e;
   }
   return json({ imported, ...(await summary(env, user.id)) });
 }

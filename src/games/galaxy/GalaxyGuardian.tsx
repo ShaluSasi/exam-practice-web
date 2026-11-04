@@ -459,10 +459,18 @@ function RunRank({ result, saving, onBoard }: { result: Result; saving: Saving; 
           <p className="max-w-sm text-sm text-muted">Sign in to put this score on the {mission.name} scoreboard and see your rank among other pilots.</p>
           <AccountButton />
         </div>
-      ) : saving === "sending" || (saving === "saved" && !ranks) ? (
+      ) : saving === "sending" ? (
         <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-muted">
           <Loader2 className="size-4 animate-spin" /> Sending your score to the scoreboard…
         </p>
+      ) : saving === "saved" && !ranks ? (
+        // The score was saved but the ranks did not load (the connection dropped in between): offer another try.
+        <div className="mt-2 flex flex-wrap items-center gap-3 text-sm font-semibold text-muted">
+          <span>Your score is on the scoreboard, but your rank couldn't be loaded.</span>
+          <button type="button" onClick={() => void loadGameRanks("galaxy", "week", true)} className="rounded-xl border-2 border-line px-3 py-2 text-fg hover:border-fg/30">
+            Try again
+          </button>
+        </div>
       ) : saving === "offline" ? (
         <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-muted">
           <CloudOff className="size-4" /> Saved on this device. It goes on the scoreboard when you're back online.

@@ -56,8 +56,14 @@ const adminLink = /^\/admin\/?$/.test(window.location.pathname);
 const difficultyLink = /^\/admin\/difficulty\/?$/.test(window.location.pathname);
 const sequenceLink = /^\/admin\/sequence\/?$/.test(window.location.pathname);
 const reportsLink = /^\/admin\/reports\/?$/.test(window.location.pathname);
-/** Question ID from a /admin/preview/<id> link, opened in its own window from the reports page. */
-export const previewQuestionId = decodeURIComponent(/^\/admin\/preview\/([^/]+)\/?$/.exec(window.location.pathname)?.[1] ?? "");
+/** Question ID from a /admin/preview/<id> link, opened in its own window from the reports page. A malformed address is no ID. */
+export const previewQuestionId = (() => {
+  try {
+    return decodeURIComponent(/^\/admin\/preview\/([^/]+)\/?$/.exec(window.location.pathname)?.[1] ?? "");
+  } catch {
+    return "";
+  }
+})();
 const quizLink = /^\/quiz(?:\/([A-Za-z0-9-]{1,100}))?\/?$/.exec(window.location.pathname);
 const quizzesLink = !!quizLink;
 /** Quiz ID from a shared /quiz/<id> link this visit started on, until the quiz page has opened it. */

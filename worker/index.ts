@@ -75,7 +75,7 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
       case "GET /api/questions":
         return await getQuestions(request, env, url);
       case "POST /api/answers/check":
-        return await checkAnswer(request, env);
+        return await checkAnswer(request, env, url);
       case "GET /api/auth/config":
         return json({ clientId: env.GOOGLE_CLIENT_ID || null });
       case "GET /api/auth/me":

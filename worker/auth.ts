@@ -150,6 +150,8 @@ async function verifyGoogleIdToken(token: string, clientId: string): Promise<Goo
   } catch {
     return null;
   }
+  // Valid JSON that is not an object (e.g. `null`) is not a token either.
+  if (typeof header !== "object" || header === null || typeof claims !== "object" || claims === null) return null;
   if (header.alg !== "RS256" || !header.kid) return null;
 
   const jwk = (await googleKeys()).find((k) => k.kid === header.kid);
