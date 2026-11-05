@@ -198,7 +198,7 @@ export function GamesStrip() {
   const games = GAMES.filter((g) => (!g.minGrade || grade >= g.minGrade) && (!g.maxGrade || grade <= g.maxGrade));
   const [featured, ...rest] = games;
   return (
-    <section id="games" className="mb-10 scroll-mt-4">
+    <section id="games" className="scroll-mt-4">
       <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
         <div>
           <h2 className="flex items-center gap-2 font-display text-2xl font-extrabold tracking-tight sm:text-3xl">

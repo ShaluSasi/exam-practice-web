@@ -16,6 +16,7 @@ import { QuizAdminScreen } from "./screens/QuizAdminScreen";
 import { QuizScreen } from "./screens/QuizScreen";
 import { ReportsScreen } from "./screens/ReportsScreen";
 import { SequenceScreen } from "./screens/SequenceScreen";
+import { GameListScreen } from "./screens/GameListScreen";
 import { GameScreen } from "./screens/GameScreen";
 import { HomeScreen } from "./screens/HomeScreen";
 import { LeaderboardScreen } from "./screens/LeaderboardScreen";
@@ -268,6 +269,7 @@ export default function App() {
           {/* Challenge links stay free, so a friend can always play the challenge they were sent. */}
           {screen === "challenge" && <ChallengeScreen onStart={(source, title) => void begin(source, title, undefined, true)} />}
           {screen === "game" && <GameScreen />}
+          {screen === "gamelist" && <GameListScreen />}
           {screen === "admin" && <AdminScreen />}
           {screen === "difficulty" && <DifficultyScreen />}
           {screen === "sequence" && <SequenceScreen />}

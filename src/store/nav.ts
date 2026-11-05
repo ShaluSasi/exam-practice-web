@@ -4,7 +4,7 @@ import { SITE_ORIGIN, isNative } from "../lib/platform";
 import type { GameId } from "./games";
 import { useSession } from "./session";
 
-export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "preview" | "myreports" | "quizzes" | "quizadmin";
+export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "gamelist" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "preview" | "myreports" | "quizzes" | "quizadmin";
 
 /** Who the student is playing against, when they accepted a friend's challenge link. */
 export interface Opponent {
@@ -32,6 +32,8 @@ interface NavState {
   goLanding: () => void;
   setOpponent: (o: Opponent | null) => void;
   playGame: (id: GameId) => void;
+  /** Opens the game list from a round, which waits: Back returns to it as it was. */
+  openGameList: () => void;
 }
 
 /**
@@ -168,6 +170,13 @@ export const useNav = create<NavState>()((set, get) => ({
     set({ screen: "game", game, gameMode: null });
     window.scrollTo({ top: 0 });
   },
+  openGameList: () => {
+    useSession.getState().pauseClock();
+    const entry: Entry = { screen: "gamelist", game: null, gameMode: null, depth: depthNow() + 1 };
+    window.history.pushState(entry, "", pathOf(entry));
+    set({ screen: "gamelist", game: null, gameMode: null });
+    window.scrollTo({ top: 0 });
+  },
 }));
 
 /** Turns the current history entry into home, e.g. once a challenge link has been used. */
@@ -196,7 +205,8 @@ window.addEventListener("popstate", () => {
   let { screen } = entry;
   const { questions, finishedAt } = useSession.getState();
   // A round can't be stepped back into once it is over (it would be recorded again), nor a result without one.
-  if (screen === "practice" && (finishedAt || questions.length === 0)) screen = "home";
+  if ((screen === "practice" || screen === "gamelist") && (finishedAt || questions.length === 0)) screen = "home";
+  if (screen === "practice") useSession.getState().resumeClock();
   if (screen === "results" && !finishedAt) screen = "home";
   // A challenge link is only shown until it has been used.
   if (screen === "challenge" && !useNav.getState().challengeCode) screen = "home";

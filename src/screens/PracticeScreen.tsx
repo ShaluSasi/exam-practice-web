@@ -4,6 +4,7 @@ import { ArrowRight, BookOpen, Check, ChevronLeft, ChevronRight, Clock, Flag, Fl
 import clsx from "clsx";
 import { region } from "../config/regions";
 import { Button } from "../components/Button";
+import { GamesOffer } from "../components/GamesOffer";
 import { Figure } from "../components/Figure";
 import { QuestionHeader } from "../components/QuestionHeader";
 import { ReportSheet } from "../components/ReportSheet";
@@ -15,10 +16,13 @@ import { burst } from "../lib/celebrate";
 import { play } from "../lib/sound";
 import { formatTime } from "../lib/subjects";
 import { QuestionBody } from "../questions";
-import { attemptFor, canAnswerLater, frontier, hasKey, isPending, skippedIndexes, useSession, type Attempt } from "../store/session";
+import { useNav } from "../store/nav";
+import { GAMES_OFFER_AFTER, attemptFor, canAnswerLater, frontier, hasKey, isPending, skippedIndexes, useSession, type Attempt } from "../store/session";
 
 const PRAISE = ["Brilliant!", "Spot on!", "Nailed it!", "Excellent!", "Superb!"];
 const ENCOURAGE = ["Not quite", "Almost there", "Good try"];
+/** Lets the next question appear first, and keeps a double tap on "Continue" from landing on the offer. */
+const GAMES_OFFER_DELAY_MS = 700;
 
 function Elapsed({ since }: { since: number }) {
   const [now, setNow] = useState(Date.now());
@@ -405,6 +409,9 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
   const [floatXp, setFloatXp] = useState<{ id: number; xp: number } | null>(null);
   const [confirmRestart, setConfirmRestart] = useState(false);
   const [reporting, setReporting] = useState<Question | null>(null);
+  const [offeringGames, setOfferingGames] = useState(false);
+  const closeGamesOffer = useCallback(() => setOfferingGames(false), []);
+  const racingFriend = useNav((n) => n.opponent !== null);
   const closeReport = useCallback(() => setReporting(null), []);
   const cancelRestart = useCallback(() => setConfirmRestart(false), []);
   const answered = q ? isAnswered(q, s.response) : false;
@@ -412,7 +419,19 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
   const score = useMemo(() => scoreSession(s.questions, s.attempts), [s.questions, s.attempts]);
   const skipped = skippedIndexes(s);
   const reached = frontier(s);
-  const dialogOpen = confirmRestart || s.endPrompt || !!reporting;
+  const dialogOpen = confirmRestart || s.endPrompt || !!reporting || offeringGames;
+  const gamesOfferDue =
+    !s.gamesOffered && !racingFriend && s.attempts.length >= GAMES_OFFER_AFTER && s.phase === "answering" && !s.finishing && !confirmRestart && !s.endPrompt && !reporting;
+
+  useEffect(() => {
+    if (!gamesOfferDue) return;
+    const t = setTimeout(() => {
+      useSession.getState().markGamesOffered();
+      setOfferingGames(true);
+    }, GAMES_OFFER_DELAY_MS);
+    return () => clearTimeout(t);
+  }, [gamesOfferDue]);
+
   // Whether moving on from here ends the round (nothing left to answer).
   const lastStop = !s.questions.some((_, i) => i > s.index && isPending(s, i)) && skipped.length === 0;
 
@@ -709,6 +728,14 @@ export function PracticeScreen({ onExit, onRestart }: { onExit: () => void; onRe
         />
       )}
       <ReportSheet question={reporting} onClose={closeReport} />
+      <GamesOffer
+        open={offeringGames}
+        onClose={closeGamesOffer}
+        onPlay={() => {
+          setOfferingGames(false);
+          useNav.getState().openGameList();
+        }}
+      />
       <SkippedDialog
         open={s.endPrompt && !s.finishing}
         count={skipped.length}

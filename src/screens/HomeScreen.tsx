@@ -489,7 +489,7 @@ function ChaptersOffline() {
     <section className="mb-12 rounded-[28px] border-2 border-dashed border-line bg-surface p-6 text-center shadow-card">
       <WifiOff className="mx-auto size-8 text-muted" />
       <h2 className="mt-3 font-display text-xl font-extrabold">Chapters need a connection</h2>
-      <p className="mt-1 text-sm text-muted">Questions come from the server, so practice needs the internet. The games above work offline.</p>
+      <p className="mt-1 text-sm text-muted">Questions come from the server, so practice needs the internet. The games below work offline.</p>
       <Button variant="ghost" className="mt-4" onClick={() => void load()}>
         <RefreshCw className="size-5" /> Try again
       </Button>
@@ -655,8 +655,6 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
         </section>
         )}
 
-        <GamesStrip />
-
         {chapters.length > 0 && <ChapterPicker chapters={chapters} onStart={onStart} />}
         {contentStatus === "failed" && <ChaptersOffline />}
 
@@ -758,6 +756,10 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
             </div>
           </div>
         </section>
+
+        <div className="mt-12">
+          <GamesStrip />
+        </div>
       </div>
     </div>
   );

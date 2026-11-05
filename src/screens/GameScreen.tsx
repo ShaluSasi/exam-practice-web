@@ -5,11 +5,17 @@ import { GalaxyGuardian } from "../games/galaxy/GalaxyGuardian";
 import { MatchSprint } from "../games/match/MatchSprint";
 import { NumberRush } from "../games/rush/NumberRush";
 import { useNav } from "../store/nav";
+import { useSession } from "../store/session";
 
 export function GameScreen() {
   const game = useNav((s) => s.game);
   const go = useNav((s) => s.go);
   const exit = () => {
+    // Opened from the list during a round: back to that list, one step from the round.
+    if (useSession.getState().pausedAt !== null) {
+      window.history.back();
+      return;
+    }
     go("home");
     setTimeout(() => document.getElementById("games")?.scrollIntoView({ block: "start" }), 300);
   };

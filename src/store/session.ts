@@ -7,6 +7,9 @@ import { checkAnswer } from "./content";
 /** Longest time the server accepts for one question (worker/progress.ts). */
 const MAX_QUESTION_MS = 86_400_000;
 
+/** Questions done in a round before the games are offered, once. */
+export const GAMES_OFFER_AFTER = 5;
+
 export interface Attempt {
   questionId: string;
   response: AnyResponse | undefined;
@@ -69,6 +72,10 @@ interface SessionState {
   endPrompt: boolean;
   /** Fetching the answers to skipped questions before the results show. */
   finishing: boolean;
+  /** The games have been offered this round (or it resumed past that point, when it would interrupt straight away). */
+  gamesOffered: boolean;
+  /** When the student left for the games; time away doesn't count towards the round. */
+  pausedAt: number | null;
 
   start: (questions: ClientQuestion[], title: string, key?: string | null) => void;
   /** Continues a saved round; `questions` are its questions, in order (answered ones with their keys). */
@@ -86,6 +93,9 @@ interface SessionState {
   /** Opens the next skipped question after the current one, wrapping round to the first. */
   nextSkipped: () => void;
   closeEndPrompt: () => void;
+  markGamesOffered: () => void;
+  pauseClock: () => void;
+  resumeClock: () => void;
   /** Ends the round, fetching the answers to any questions left skipped so the results can show them. */
   finish: () => Promise<void>;
 }
@@ -170,6 +180,8 @@ export const useSession = create<SessionState>()((set, get) => {
     questionStartedAt: 0,
     endPrompt: false,
     finishing: false,
+    gamesOffered: false,
+    pausedAt: null,
 
     start: (questions, title, key = null) => {
       const now = Date.now();
@@ -194,6 +206,8 @@ export const useSession = create<SessionState>()((set, get) => {
         questionStartedAt: now,
         endPrompt: false,
         finishing: false,
+        gamesOffered: false,
+        pausedAt: null,
       });
     },
 
@@ -220,6 +234,8 @@ export const useSession = create<SessionState>()((set, get) => {
         finishedAt: null,
         endPrompt: fresh < 0 && skipped.length > 0,
         finishing: false,
+        gamesOffered: saved.attempts.length >= GAMES_OFFER_AFTER,
+        pausedAt: null,
         ...view(data, index),
       });
     },
@@ -335,6 +351,17 @@ export const useSession = create<SessionState>()((set, get) => {
     },
 
     closeEndPrompt: () => set({ endPrompt: false }),
+
+    markGamesOffered: () => set({ gamesOffered: true }),
+
+    pauseClock: () => set({ pausedAt: Date.now() }),
+
+    resumeClock: () => {
+      const { pausedAt, startedAt, questionStartedAt } = get();
+      if (pausedAt === null) return;
+      const away = Date.now() - pausedAt;
+      set({ pausedAt: null, startedAt: startedAt + away, questionStartedAt: questionStartedAt + away });
+    },
 
     finish: async () => {
       const s = get();
