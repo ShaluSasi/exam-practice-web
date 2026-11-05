@@ -10,6 +10,7 @@ import { GAMES, type GameMeta } from "./registry";
 const TEASERS: Record<GameMeta["id"], string[]> = {
   galaxy: ["7 × 8", "√225", "2⁵ × 2³"],
   rush: ["7 × 8", "√144", "15% of 80", "2³ × 2⁴", "½ + ⅓", "13²"],
+  match: ["Pepsin ↔ Proteins", "Xylem ↔ Water", "Gandhi ↔ Dandi", "Lens ↔ Focus"],
   balance: ["2H₂ + O₂ → 2H₂O", "N₂ + 3H₂ → 2NH₃", "4Fe + 3O₂ → 2Fe₂O₃", "CH₄ + 2O₂ → …"],
   facts: ["Sound in a vacuum?", "√2 is rational?", "Air is a mixture?", "Xylem carries food?"],
   elements: ["Fe = ?", "Na = ?", "Valency of O?", "Cream from milk?"],

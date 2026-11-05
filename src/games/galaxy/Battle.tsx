@@ -338,6 +338,17 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onDone, section]);
 
+  // Leaving mid-battle (Back, or the phone's back button) still counts what was earned: score, stardust and missions.
+  useEffect(
+    () => () => {
+      if (G.current.over || R.current.answered === 0) return;
+      G.current.over = true;
+      finishRun();
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [],
+  );
+
   const gameOver = () => {
     const g = G.current;
     if (g.over) return;
@@ -649,6 +660,18 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
     if (!el || !cv) return;
     const fit = () => {
       const g = G.current;
+      // Turning the phone resizes the field: everything in flight keeps its place in it, or a rock could
+      // end up off-screen where it can't be tapped, or suddenly below the new ground line.
+      const sx = g.W > 0 ? el.clientWidth / g.W : 1;
+      const sy = g.H > 0 ? el.clientHeight / g.H : 1;
+      if (sx !== 1 || sy !== 1) {
+        for (const rk of g.rocks) {
+          rk.x *= sx;
+          if (rk.y > 0) rk.y *= sy;
+          rk.vy *= sy;
+        }
+        for (const c of g.caps) c.x *= sx;
+      }
       g.W = el.clientWidth;
       g.H = el.clientHeight;
       const dpr = Math.min(2, window.devicePixelRatio || 1);
@@ -705,7 +728,8 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
       let removed = false;
       for (const rk of g.rocks) {
         if (!rk.dying) {
-          if (!frozenNow && !g.paused) {
+          // Freeze holds what is on the field; a new question's rocks still have to arrive, or there'd be nothing to tap.
+          if ((!frozenNow || rk.y < rk.r) && !g.paused) {
             rk.y += rk.vy * dt;
             rk.x += rk.vx * dt;
             rk.rot += rk.vr * dt;
@@ -753,7 +777,8 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
             beam(g.W / 2 + rand(-60, 60), gy + 10, "#ff3d7f", 14, { x: b.x, y: b.y + 40 });
             sparks(g.W / 2, gy, "#ff3d7f", 50, 340);
             damage(2);
-            setBanner({ key: Date.now(), title: "MOTHERSHIP FIRED!", sub: "−2 shields. Answer faster!", tone: "boss" });
+            // Not over "SHIELDS DOWN" when this shot ended the run.
+            if (!g.over) setBanner({ key: Date.now(), title: "MOTHERSHIP FIRED!", sub: "−2 shields. Answer faster!", tone: "boss" });
           }
         }
         if (bossRef.current) {
@@ -859,7 +884,8 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
   // Keys: 1–4 shoot the answers in screen order (left to right), F freeze, N nova.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.repeat) return;
+      // Browser shortcuts (Ctrl+F to search, Ctrl+1 for a tab) are not moves.
+      if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
       const g = G.current;
       if (e.key === "f" || e.key === "F") fireFreeze();
       else if (e.key === "n" || e.key === "N") fireNova();

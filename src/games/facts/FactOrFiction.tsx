@@ -116,8 +116,9 @@ function SwipeCard({ fact, onAnswer }: { fact: Fact; onAnswer: (truth: boolean) 
   const st = SUBJECT_STYLE[fact.subject];
 
   const onDragEnd = (_: unknown, info: PanInfo) => {
-    if (info.offset.x > SWIPE_PX || info.velocity.x > 700) onAnswer(true);
-    else if (info.offset.x < -SWIPE_PX || info.velocity.x < -700) onAnswer(false);
+    // A flick only counts towards the side the card is on: flicking it back to the middle is changing your mind.
+    if (info.offset.x > SWIPE_PX || (info.offset.x > 0 && info.velocity.x > 700)) onAnswer(true);
+    else if (info.offset.x < -SWIPE_PX || (info.offset.x < 0 && info.velocity.x < -700)) onAnswer(false);
   };
 
   return (
@@ -169,6 +170,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
   const [pop, setPop] = useState<{ id: number; text: string } | null>(null);
   const stats = useRef({ correct: 0, answered: 0, bestStreak: 0, skills: new Map<string, SkillScore>(), mistakes: [] as Mistake[] });
   const done = useRef(false);
+  /** Set by the run's last answer, when it is saved: leaving from the last card must not lose the score. */
+  const saved = useRef<{ score: number; newBest: boolean } | null>(null);
   const revealRef = useRef<HTMLDivElement>(null);
   const finish = useGames((s) => s.finish);
   const fact = deck[idx];
@@ -178,6 +181,7 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
     const right = truth === fact.truth;
     const s = stats.current;
     s.answered++;
+    let total = score;
     const name = region.subjects[fact.subject];
     const sk = s.skills.get(name) ?? { name, right: 0, total: 0 };
     sk.total++;
@@ -189,7 +193,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
       const pts = 10 + Math.min(st - 1, 10) * 2;
       s.bestStreak = Math.max(s.bestStreak, st);
       setStreak(st);
-      setScore((x) => x + pts);
+      total += pts;
+      setScore(total);
       setPop({ id: Date.now(), text: `+${pts}` });
       play(st > 0 && st % 5 === 0 ? "combo" : "correct");
       if (st > 0 && st % 5 === 0) setTimeout(() => burst(revealRef.current), 120);
@@ -199,16 +204,16 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
       s.mistakes.push({ prompt: fact.text, answer: fact.truth ? "Fact" : "Fiction", given: fact.truth ? "Fiction" : "Fact", tip: fact.why });
       play("wrong");
     }
+    if ((right ? lives : lives - 1) <= 0 || idx + 1 >= deck.length) saved.current = { score: total, newBest: finish("facts", total, s.correct) };
     setReveal({ fact, right });
   };
 
   const next = () => {
     if (!reveal || done.current) return;
-    if (lives <= 0 || idx + 1 >= deck.length) {
+    if (saved.current) {
       done.current = true;
       const s = stats.current;
-      const newBest = finish("facts", score, s.correct);
-      onDone({ score, correct: s.correct, answered: s.answered, bestStreak: s.bestStreak, skills: [...s.skills.values()], mistakes: s.mistakes, newBest, deckSize: deck.length });
+      onDone({ score: saved.current.score, correct: s.correct, answered: s.answered, bestStreak: s.bestStreak, skills: [...s.skills.values()], mistakes: s.mistakes, newBest: saved.current.newBest, deckSize: deck.length });
       return;
     }
     play("tap");
@@ -218,9 +223,12 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.repeat) return;
+      // Browser shortcuts (Alt+Left for back) are not answers.
+      if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
       if (reveal) {
-        if (["Enter", " ", "ArrowRight", "ArrowLeft"].includes(e.key)) {
+        // Enter or Space on a focused button (Back, mute, Next) is that button's own press.
+        const onButton = (e.key === "Enter" || e.key === " ") && e.target instanceof HTMLElement && e.target.closest("button, a");
+        if (!onButton && ["Enter", " ", "ArrowRight", "ArrowLeft"].includes(e.key)) {
           e.preventDefault();
           next();
         }

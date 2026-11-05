@@ -209,7 +209,8 @@ export const useGalaxy = create<GalaxyState>()(
         const prev = s.sections[section];
         const record: SectionRecord = {
           best: Math.max(prev?.best ?? 0, run.score),
-          bestLevel: Math.max(prev?.bestLevel ?? 0, run.level),
+          // A run with no right answer has done nothing on its level.
+          bestLevel: Math.max(prev?.bestLevel ?? 0, run.correct > 0 ? run.level : 0),
           plays: (prev?.plays ?? 0) + 1,
         };
         const l = s.lifetime;

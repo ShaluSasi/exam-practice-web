@@ -4,11 +4,11 @@
  * bank is live on the next request after a deploy.
  */
 import { z } from "zod";
-import type { Catalog, CheckResponse, QuestionsResponse } from "../src/content/api";
+import type { Catalog, CheckResponse, MatchSets, QuestionsResponse } from "../src/content/api";
 import { SubjectId, type ClientQuestion, type Question } from "../src/content/schema";
 import { GUEST_LIMITS, ROUND_SIZE, pickRound } from "../src/engine/scoring";
 import { optionalUser } from "./auth";
-import { answerKey, chapterInfo, chapterOrders, grade, inOrder, isResponseFor, loadBank, publicQuestion, recordedChecks } from "./content";
+import { answerKey, chapterInfo, chapterOrders, grade, inOrder, isResponseFor, loadBank, matchSets, publicQuestion, recordedChecks } from "./content";
 import { HttpError, assertSameOrigin, guestLimit, json, readJson, type Env } from "./http";
 import { liveQuizQuestions } from "./quizzes";
 
@@ -83,6 +83,18 @@ export async function getQuestions(request: Request, env: Env, url: URL): Promis
     bank.all.filter((q) => (subjects.length === 0 || subjects.includes(q.subject)) && (grades.length === 0 || grades.includes(q.grade))),
   );
   return send(pickRound(pool, count));
+}
+
+/**
+ * GET /api/games/match?chapter=<key> — a chapter's match questions, with their
+ * answers, for the Match Sprint game. Questions in a quiz that is on right now
+ * are left out, like everywhere else in practice.
+ */
+export async function getMatchSets(env: Env, url: URL): Promise<Response> {
+  const [bank, live] = await Promise.all([loadBank(env), liveQuizQuestions(env)]);
+  const chapter = bank.chapters.get(url.searchParams.get("chapter") ?? "");
+  if (!chapter) throw new HttpError(404, "This chapter no longer exists");
+  return json({ sets: matchSets(chapter.questions.filter((q) => !live.has(q.id))) } satisfies MatchSets);
 }
 
 /** The first four groups of an IPv6 address (its /64) with "::" expanded, so every form of an address gives the same key. */

@@ -129,20 +129,21 @@ export function invalidateGameBoards() {
 }
 
 /**
- * Saves a finished run for the scoreboard. Resolves once it is on the server
- * (signed in), or straight away for guests. Never rejects.
+ * Saves a finished run for the scoreboard and says what became of it: on the
+ * server, queued to retry, or refused by the server for good (and so dropped).
+ * Never rejects.
  */
-export async function submitGameRun(run: GameRun): Promise<boolean> {
+export async function submitGameRun(run: GameRun): Promise<"saved" | "queued" | "rejected"> {
   const user = useAuth.getState().user;
-  if (!user) return false;
+  if (!user) return "queued";
   useGameBoard.setState((s) => ({ pending: [...s.pending, { userId: user.id, run }] }));
   try {
     await flush(user.id);
     invalidateGameBoards();
-    return true;
+    return "saved";
   } catch (e) {
     handleError(e);
-    return false;
+    return e instanceof ApiError && e.status === 400 ? "rejected" : "queued";
   }
 }
 

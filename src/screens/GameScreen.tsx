@@ -2,6 +2,7 @@ import { BalanceIt } from "../games/balance/BalanceIt";
 import { ElementLab } from "../games/elements/ElementLab";
 import { FactOrFiction } from "../games/facts/FactOrFiction";
 import { GalaxyGuardian } from "../games/galaxy/GalaxyGuardian";
+import { MatchSprint } from "../games/match/MatchSprint";
 import { NumberRush } from "../games/rush/NumberRush";
 import { useNav } from "../store/nav";
 
@@ -17,6 +18,7 @@ export function GameScreen() {
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         {game === "galaxy" && <GalaxyGuardian onExit={exit} />}
         {game === "rush" &&<NumberRush onExit={exit} />}
+        {game === "match" && <MatchSprint onExit={exit} />}
         {game === "balance" && <BalanceIt onExit={exit} />}
         {game === "facts" && <FactOrFiction onExit={exit} />}
         {game === "elements" && <ElementLab onExit={exit} />}

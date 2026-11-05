@@ -612,11 +612,13 @@ export function Scoreboard({
   const error = useGameBoard((s) => s.error);
   const category = categoryOf(cat);
 
+  // `hasBoard`: a score saved meanwhile clears the cached boards, and this one must then load again.
+  const hasBoard = !!board;
   useEffect(() => {
     if (!signedIn) return;
     void loadGameBoard(GAME, cat, period);
     void loadGameRanks(GAME, period);
-  }, [signedIn, cat, period]);
+  }, [signedIn, cat, period, hasBoard]);
 
   const list = useMemo(() => (board ? [...board.top, ...board.around] : []), [board]);
   const me = board?.me ?? null;

@@ -7,7 +7,7 @@ import { ShareSheet, type ShareTarget } from "../../components/ShareSheet";
 import { burst } from "../../lib/celebrate";
 import { play } from "../../lib/sound";
 import { useAuth } from "../../store/auth";
-import { OVERALL, loadGameRanks, submitGameRun, useGameBoard, useMyGameRanks } from "../../store/gameBoard";
+import { OVERALL, invalidateGameBoards, loadGameRanks, submitGameRun, useGameBoard, useMyGameRanks } from "../../store/gameBoard";
 import { useGames } from "../../store/games";
 import { showGameUrl, useNav } from "../../store/nav";
 import { GameIntro, GameOver, GameTopBar } from "../GameKit";
@@ -26,12 +26,12 @@ interface Result extends BattleResult {
   badges: Badge[];
   missions: string[];
   rankBefore: number;
-  /** This week's rank on the mission before this run, if known. */
-  boardRankBefore: number | null;
+  /** This week's rank on the mission before this run; null if not on the board, undefined if it isn't known. */
+  boardRankBefore: number | null | undefined;
 }
 
 type Phase = "intro" | "play" | "over" | "board";
-type Saving = "sending" | "saved" | "offline" | "guest" | "none";
+type Saving = "sending" | "saved" | "offline" | "rejected" | "guest" | "none";
 
 export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
   const [phase, setPhase] = useState<Phase>("intro");
@@ -60,10 +60,49 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
     if (signedIn) void loadGameRanks("galaxy", "week");
   }, [signedIn]);
 
+  const submit = (r: BattleResult) => {
+    setSaving("sending");
+    const runId = crypto.randomUUID();
+    savingRun.current = runId;
+    void submitGameRun({
+      id: runId,
+      game: "galaxy",
+      section: r.section,
+      at: Date.now(),
+      score: r.score,
+      wave: r.wave,
+      level: r.level,
+      correct: r.correct,
+      answered: r.answered,
+      bestCombo: r.bestCombo,
+    }).then(async (outcome) => {
+      if (outcome === "saved") await loadGameRanks("galaxy", "week", true);
+      if (savingRun.current === runId) setSaving(outcome === "saved" ? "saved" : outcome === "queued" ? "offline" : "rejected");
+    });
+  };
+
+  // Signing in from the result screen (or the session coming back after a bad connection) puts that score on the board, as the prompt promises.
+  useEffect(() => {
+    if (signedIn && saving === "guest" && result && result.score > 0) submit(result);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [signedIn, saving, result]);
+
+  // A queued run sent later (the connection came back): the result screen catches up.
+  const queued = useGameBoard((s) => s.pending.some((p) => p.run.id === savingRun.current));
+  useEffect(() => {
+    if (saving !== "offline" || queued) return;
+    const runId = savingRun.current;
+    invalidateGameBoards();
+    void loadGameRanks("galaxy", "week", true).then(() => {
+      if (savingRun.current === runId) setSaving("saved");
+    });
+  }, [saving, queued]);
+
   const onDone = (r: BattleResult) => {
     const rankBefore = useGalaxy.getState().lifetime.score;
     const missionBest = useGalaxy.getState().sections[r.section]?.best ?? 0;
-    const boardRankBefore = useGameBoard.getState().ranks["galaxy:week"]?.data?.[r.section]?.rank ?? null;
+    const knownRanks = useGameBoard.getState().ranks["galaxy:week"]?.data;
+    const boardRankBefore = knownRanks ? (knownRanks[r.section]?.rank ?? null) : undefined;
     const newBest = useGames.getState().finish("galaxy", r.score, r.correct);
     const rec = useGalaxy.getState().recordRun(r, r.section);
     setResult({ ...r, newBest, newMissionBest: missionBest > 0 && r.score > missionBest, badges: rec.badges, missions: rec.missions, rankBefore, boardRankBefore });
@@ -80,24 +119,7 @@ export function GalaxyGuardian({ onExit }: { onExit: () => void }) {
       setSaving("guest");
       return;
     }
-    setSaving("sending");
-    const runId = crypto.randomUUID();
-    savingRun.current = runId;
-    void submitGameRun({
-      id: runId,
-      game: "galaxy",
-      section: r.section,
-      at: Date.now(),
-      score: r.score,
-      wave: r.wave,
-      level: r.level,
-      correct: r.correct,
-      answered: r.answered,
-      bestCombo: r.bestCombo,
-    }).then(async (ok) => {
-      if (ok) await loadGameRanks("galaxy", "week", true);
-      if (savingRun.current === runId) setSaving(ok ? "saved" : "offline");
-    });
+    submit(r);
   };
 
   const openBoard = (id: string) => {
@@ -471,6 +493,10 @@ function RunRank({ result, saving, onBoard }: { result: Result; saving: Saving; 
             Try again
           </button>
         </div>
+      ) : saving === "rejected" ? (
+        <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-muted">
+          <CloudOff className="size-4 shrink-0" /> The scoreboard couldn't accept this score. Check that your phone's date and time are right.
+        </p>
       ) : saving === "offline" ? (
         <p className="mt-2 flex items-center gap-2 text-sm font-semibold text-muted">
           <CloudOff className="size-4" /> Saved on this device. It goes on the scoreboard when you're back online.

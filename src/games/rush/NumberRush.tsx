@@ -63,6 +63,7 @@ export function NumberRush({ onExit }: { onExit: () => void }) {
           ]}
           skills={result.skills}
           mistakes={result.mistakes}
+          noAnswers={result.answered === 0}
           onAgain={() => {
             setRun((n) => n + 1);
             setPhase("play");
@@ -74,7 +75,7 @@ export function NumberRush({ onExit }: { onExit: () => void }) {
   );
 }
 
-function Countdown({ onDone }: { onDone: () => void }) {
+export function Countdown({ onDone }: { onDone: () => void }) {
   const [n, setN] = useState(3);
   useEffect(() => {
     play(n === 0 ? "levelup" : "tick");
@@ -135,7 +136,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
     if (finished.current) return;
     finished.current = true;
     const s = stats.current;
-    const newBest = finish("rush", score, s.solved);
+    // A clock that ran out untouched is not a game played: no play, no day of streak.
+    const newBest = s.answered > 0 && finish("rush", score, s.solved);
     onDone({
       score,
       solved: s.solved,
@@ -217,7 +219,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
   // Keys 1–4 pick an option.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.repeat) return;
+      // Browser shortcuts (Ctrl+1 for a tab) are not answers.
+      if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
       const i = Number(e.key) - 1;
       if (i >= 0 && i < problem.options.length) answer(problem.options[i]);
     };
@@ -243,7 +246,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
           <motion.div
             className={clsx("absolute inset-y-0 left-0 rounded-full bg-gradient-to-r", low ? "from-bad to-[#ff9a3c]" : "from-[#5b5ef0] to-[#c04df0]")}
             animate={{ width: `${(left / MAX_MS) * 100}%`, opacity: low ? [1, 0.6, 1] : 1 }}
-            transition={{ width: { duration: 0.1, ease: "linear" }, opacity: { duration: 0.6, repeat: Infinity } }}
+            // Only pulses while low: a repeating transition would keep flashing after a bonus lifts it out.
+            transition={{ width: { duration: 0.1, ease: "linear" }, opacity: low ? { duration: 0.6, repeat: Infinity } : { duration: 0.2 } }}
           />
         </div>
         <motion.span

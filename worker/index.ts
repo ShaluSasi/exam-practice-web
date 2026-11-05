@@ -10,7 +10,7 @@ import { GUEST_LIMITS } from "../src/engine/scoring";
 import { HttpError, error, guestLimit, json, preflight, withCors, type Env } from "./http";
 import { getLeaderboard } from "./leaderboard";
 import { clearProgress, getProgress, saveProgress } from "./progress";
-import { checkAnswer, getCatalog, getQuestions } from "./questions";
+import { checkAnswer, getCatalog, getMatchSets, getQuestions } from "./questions";
 import {
   adminDeleteQuiz,
   adminCloneQuiz,
@@ -154,6 +154,8 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await createShare(request, env, url);
       case "POST /api/games/runs":
         return await saveRuns(request, env, url);
+      case "GET /api/games/match":
+        return await getMatchSets(env, url);
       case "GET /api/games/board":
         return await getGameBoard(request, env, url);
       case "GET /api/games/ranks":

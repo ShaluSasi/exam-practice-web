@@ -1,4 +1,4 @@
-import { Atom, FlaskConical, Layers, Rocket, Zap, type LucideIcon } from "lucide-react";
+import { Atom, FlaskConical, Layers, Link2, Rocket, Zap, type LucideIcon } from "lucide-react";
 import { region } from "../config/regions";
 import type { SubjectId } from "../content/schema";
 import type { GameId } from "../store/games";
@@ -62,6 +62,24 @@ export const GAMES: GameMeta[] = [
       "Get answers right in a row for a combo: up to ×4 points.",
     ],
     learn: ["Times tables", "Squares and roots", "Percentages", "Laws of exponents", "Fractions", "BODMAS", "HCF and LCM", "Linear equations"],
+  },
+  {
+    id: "match",
+    title: "Match Sprint",
+    tagline: "Pair them up before the clock runs out.",
+    subject: "Any chapter",
+    minutes: "1–3 min",
+    icon: Link2,
+    gradient: "from-[#0f9f5f] via-[#0b93d4] to-[#5b5ef0]",
+    unit: "points",
+    how: [
+      "Pick your class, subject and chapter, then choose a time limit.",
+      "Tap a card, then the card it matches. Either column can go first.",
+      "A right pair earns points and adds a second. A wrong pair costs 3 seconds and your combo.",
+      "Pair them up in a row for a combo: up to ×4 points. Clear a board for bonus points and 3 more seconds.",
+      "Clear every board in the chapter to finish. Time left on the clock earns bonus points.",
+    ],
+    learn: ["Key terms", "Definitions", "People and events", "Formulae", "Causes and effects"],
   },
   {
     id: "balance",

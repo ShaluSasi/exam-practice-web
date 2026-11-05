@@ -18,6 +18,8 @@ export interface ChapterInfo {
   subject: SubjectId;
   grade: number;
   count: number;
+  /** Boards this chapter has in the Match Sprint game. */
+  matchBoards: number;
   /** Absolute URL of the first question image, shown on the chapter card. */
   cover?: string;
   version: string;
@@ -34,6 +36,19 @@ export interface Catalog {
 export interface QuestionsResponse {
   questions: ClientQuestion[];
   missing: string[];
+}
+
+/** One "match the following" question as a board in the Match Sprint game. */
+export interface MatchSet {
+  prompt: string;
+  explanation: string;
+  /** Each left item with its match; no text repeats within a set. */
+  pairs: { left: string; right: string }[];
+}
+
+/** GET /api/games/match?chapter=<key> */
+export interface MatchSets {
+  sets: MatchSet[];
 }
 
 /** POST /api/answers/check */
@@ -55,7 +70,7 @@ export interface AppConfig {
 export type Difficulty = Question["difficulty"];
 
 /** GET /api/admin/chapters: every chapter, with how many questions it has at each difficulty. */
-export interface AdminChapter extends Omit<ChapterInfo, "cover" | "version"> {
+export interface AdminChapter extends Omit<ChapterInfo, "cover" | "version" | "matchBoards"> {
   difficulty: Record<Difficulty, number>;
   /** Questions whose difficulty an admin has changed from the bank file's. */
   changed: number;

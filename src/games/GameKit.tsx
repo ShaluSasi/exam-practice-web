@@ -266,7 +266,10 @@ export function GameOver({
   onExit,
   extra,
   actions,
+  noAnswers = false,
 }: {
+  /** The clock ran out without a single answer, so there is nothing to praise. */
+  noAnswers?: boolean;
   extra?: ReactNode;
   /** More buttons next to "Play again", e.g. share or scoreboard. */
   actions?: ReactNode;
@@ -314,11 +317,11 @@ export function GameOver({
             >
               <Crown className="size-5 fill-current" /> New personal best!
             </motion.div>
-          ) : (
+          ) : best > 0 ? (
             <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-black/20 px-4 py-2 font-display font-bold">
               <Crown className="size-4 fill-[#ffd23f] text-[#ffd23f]" /> Best {best} · {Math.max(0, best - score)} to beat it
             </p>
-          )}
+          ) : null}
           <dl className="mx-auto mt-6 grid max-w-lg grid-cols-2 gap-2 sm:grid-cols-4">
             {stats.map((s, i) => (
               <motion.div
@@ -390,9 +393,9 @@ export function GameOver({
 
       <section className="mt-5 rounded-3xl border-2 border-line bg-surface p-5 shadow-card">
         <h3 className="flex items-center gap-2 font-display text-lg font-extrabold">
-          <BookOpenCheck className="size-5 text-ok" /> {mistakes.length ? "Learn from your mistakes" : "No mistakes. Brilliant!"}
+          <BookOpenCheck className="size-5 text-ok" /> {noAnswers ? "No answers this time" : mistakes.length ? "Learn from your mistakes" : "No mistakes. Brilliant!"}
         </h3>
-        {mistakes.length === 0 && <p className="mt-1 text-muted">Every answer was right. Try to beat your score next time.</p>}
+        {mistakes.length === 0 && <p className="mt-1 text-muted">{noAnswers ? "The clock ran out before you answered. Have another go!" : "Every answer was right. Try to beat your score next time."}</p>}
         <ul className="mt-3 space-y-3">
           {mistakes.map((m, i) => (
             <motion.li

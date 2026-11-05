@@ -82,17 +82,26 @@ export async function mustSignIn(): Promise<boolean> {
   return useAuth.getState().status === "signedOut";
 }
 
+/** A game is being opened: on a slow start a second tap must not use up a free game or open another one. */
+let opening = false;
+
 /** Opens a game from the home screen; a guest past the free games is asked to sign in first. */
 export async function openGame(id: GameId): Promise<void> {
-  const play = () => useNav.getState().playGame(id);
-  await limitsOrDefaults();
-  const p = useProfile.getState();
-  if (limits.games >= 0 && p.guestGames >= limits.games) {
-    await settledAuth();
-    if (useAuth.getState().status === "signedOut") return askSignIn("game", play);
+  if (opening) return;
+  opening = true;
+  try {
+    const play = () => useNav.getState().playGame(id);
+    await limitsOrDefaults();
+    const p = useProfile.getState();
+    if (limits.games >= 0 && p.guestGames >= limits.games) {
+      await settledAuth();
+      if (useAuth.getState().status === "signedOut") return askSignIn("game", play);
+    }
+    if (!useAuth.getState().user) p.countGuestGame();
+    play();
+  } finally {
+    opening = false;
   }
-  if (!useAuth.getState().user) p.countGuestGame();
-  play();
 }
 
 /** Counts every answer given without an account. Call once on mount; returns cleanup. */

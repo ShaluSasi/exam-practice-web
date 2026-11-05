@@ -7,14 +7,14 @@
  * key comes back only once a question has been answered or skipped.
  */
 import { isCorrect, nextStreak, scoreSession, xpFor } from "../src/engine/scoring";
-import type { ChapterInfo, Difficulty } from "../src/content/api";
+import type { ChapterInfo, Difficulty, MatchSet } from "../src/content/api";
 import { editedQuestion, type QuestionEdit } from "../src/content/edit";
 import { KEY_FIELDS, type AnswerKey, type AnyResponse, type ClientQuestion, type Question } from "../src/content/schema";
 import type { Env } from "./http";
 
 const files = import.meta.glob<Question[]>("../src/content/data/*.json", { import: "default" });
 
-interface Chapter extends Omit<ChapterInfo, "count" | "cover"> {
+interface Chapter extends Omit<ChapterInfo, "count" | "matchBoards" | "cover"> {
   questions: Question[];
   cover?: string;
 }
@@ -169,9 +169,48 @@ export function absoluteImages<T>(value: T, origin: string): T {
   ) as T;
 }
 
+/** Longest text a Match Sprint card shows: a phone has half a screen's width for it. */
+const MAX_MATCH_TEXT = 90;
+/** A board needs at least this many pairs to be a game. */
+const MIN_MATCH_PAIRS = 3;
+/** Wording that sends the student to the question's picture, which the game does not show. */
+const NEEDS_PICTURE = /\b(numbered|labell?ed|label the|(the|this|in the) (picture|figure|diagram|chart|map|graph|wheel)|as shown|using table)\b/i;
+/** A card that only names something in a picture, e.g. "Part 3" or "Figure P". */
+const PICTURE_NAME = /^(part|figure|fig\.?|picture|diagram|image|photo|graph|panel|scene|object|shape|point|marker|arrow|cell|band|tool|device|block|row|piece|outlet|tissue|symbol|triangle)\s*\(?([a-z]|\d{1,2})\)?\.?$/i;
+
+/**
+ * A match question as a Match Sprint board, or null if it can't be one. Most
+ * questions carry a picture that only illustrates them, and the board leaves
+ * those out; a question that can't be understood without its picture is no
+ * board at all. So are cards with pictures, overlong cards and repeated texts,
+ * which could not be told apart.
+ */
+function matchSet(q: Question): MatchSet | null {
+  if (q.type !== "match" || q.image?.markers?.length || NEEDS_PICTURE.test(q.prompt)) return null;
+  const left = new Map(q.left.map((c) => [c.id, c]));
+  const right = new Map(q.right.map((c) => [c.id, c]));
+  const seen = new Set<string>();
+  const pairs: MatchSet["pairs"] = [];
+  for (const [l, r] of Object.entries(q.pairs)) {
+    const a = left.get(l);
+    const b = right.get(r);
+    if (!a || !b || a.image || b.image || a.text.length > MAX_MATCH_TEXT || b.text.length > MAX_MATCH_TEXT) continue;
+    if (PICTURE_NAME.test(a.text.trim()) || PICTURE_NAME.test(b.text.trim())) return null;
+    if (seen.has(`l:${a.text}`) || seen.has(`r:${b.text}`)) continue;
+    seen.add(`l:${a.text}`);
+    seen.add(`r:${b.text}`);
+    pairs.push({ left: a.text, right: b.text });
+  }
+  // A board shows five pairs at most, so wording like "it has six blanks" would be wrong on it.
+  if (pairs.length > 5 && /\b(six|seven)\b/i.test(q.prompt)) return null;
+  return pairs.length >= MIN_MATCH_PAIRS ? { prompt: q.prompt, explanation: q.explanation, pairs } : null;
+}
+
+export const matchSets = (questions: readonly Question[]): MatchSet[] => questions.flatMap((q) => matchSet(q) ?? []);
+
 export function chapterInfo(c: Chapter, origin: string): ChapterInfo {
   const { questions, cover, ...rest } = c;
-  return { ...rest, count: questions.length, ...(cover ? { cover: origin + cover } : {}) };
+  return { ...rest, count: questions.length, matchBoards: matchSets(questions).length, ...(cover ? { cover: origin + cover } : {}) };
 }
 
 /** The question without anything that gives its answer away. */

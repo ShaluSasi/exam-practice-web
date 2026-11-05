@@ -71,6 +71,7 @@ export function ElementLab({ onExit }: { onExit: () => void }) {
           ]}
           skills={result.skills}
           mistakes={result.mistakes}
+          noAnswers={result.answered === 0}
           onAgain={() => {
             setRun((n) => n + 1);
             setPhase("play");
@@ -123,7 +124,7 @@ function useQuestionDraw(topics: string[]) {
     if (pos.current >= queue.current.length) {
       const last = queue.current[queue.current.length - 1];
       const next = shuffled(pool);
-      if (next[0] === last) [next[0], next[1]] = [next[1], next[0]];
+      if (next.length > 1 && next[0] === last) [next[0], next[1]] = [next[1], next[0]];
       queue.current = next;
       pos.current = 0;
     }
@@ -168,7 +169,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
     if (finished.current) return;
     finished.current = true;
     const s = stats.current;
-    const newBest = finish("elements", score, s.solved);
+    // A clock that ran out untouched is not a game played: no play, no day of streak.
+    const newBest = s.answered > 0 && finish("elements", score, s.solved);
     onDone({ score, solved: s.solved, answered: s.answered, bestCombo: s.bestCombo, skills: [...s.skills.values()], mistakes: s.mistakes.slice(0, 8), newBest });
   }, [finish, onDone, score]);
 
@@ -234,7 +236,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
   // Keys 1–4 pick an option.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.repeat) return;
+      // Browser shortcuts (Ctrl+1 for a tab) are not answers.
+      if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
       const i = Number(e.key) - 1;
       if (i >= 0 && i < question.options.length) answer(question.options[i]);
     };
@@ -260,7 +263,8 @@ function Round({ onDone }: { onDone: (r: Result) => void }) {
           <motion.div
             className={clsx("absolute inset-y-0 left-0 rounded-full bg-gradient-to-r", low ? "from-bad to-[#ff9a3c]" : "from-[#0b93d4] to-[#22c55e]")}
             animate={{ width: `${(left / MAX_MS) * 100}%`, opacity: low ? [1, 0.6, 1] : 1 }}
-            transition={{ width: { duration: 0.1, ease: "linear" }, opacity: { duration: 0.6, repeat: Infinity } }}
+            // Only pulses while low: a repeating transition would keep flashing after a bonus lifts it out.
+            transition={{ width: { duration: 0.1, ease: "linear" }, opacity: low ? { duration: 0.6, repeat: Infinity } : { duration: 0.2 } }}
           />
         </div>
         <motion.span

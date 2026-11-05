@@ -562,9 +562,9 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               transition={{ delay: 0.05 }}
               className="font-display text-[42px] font-extrabold leading-[1.02] tracking-tight sm:text-6xl"
             >
-              Practise like it's the{" "}
+              The fun way to score{" "}
               <span className="relative whitespace-nowrap">
-                <span className="relative z-10">board exam.</span>
+                <span className="relative z-10">100%.</span>
                 <motion.span
                   className="absolute inset-x-0 bottom-1 z-0 h-4 rounded-sm bg-brand/45 sm:h-5"
                   initial={{ scaleX: 0 }}
@@ -573,8 +573,6 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
                   transition={{ delay: 0.5, duration: 0.5, ease: "easeOut" }}
                 />
               </span>
-              <br />
-              Learn like it's a game.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -582,8 +580,8 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               transition={{ delay: 0.12 }}
               className="mt-5 max-w-md text-lg text-muted"
             >
-              Bite-sized questions with instant feedback, step-by-step explanations, streaks and XP — for Maths,
-              Physics, Chemistry and Biology.
+              Short, game-like rounds make revision enjoyable. Step-by-step explanations help fix mistakes before the
+              exam. For Maths, Science, Social Science and English.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 16 }}
@@ -612,7 +610,7 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
               className="mt-4 flex items-center gap-1.5 text-sm font-semibold text-muted"
             >
               <BadgeCheck className="size-4 shrink-0 text-ok" />
-              100% free to use. Try a full round now, then sign in with Google to keep going.
+              Completely free to use. Try a full round now, then sign in with Google to keep going.
             </motion.p>
             <motion.dl
               initial={{ opacity: 0 }}
