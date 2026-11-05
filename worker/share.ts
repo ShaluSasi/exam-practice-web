@@ -12,7 +12,7 @@
  */
 import { z } from "zod";
 import { requireUser } from "./auth";
-import { HttpError, assertSameOrigin, json, readJson, type Env } from "./http";
+import { HttpError, SITE_ORIGIN, assertSameOrigin, json, readJson, type Env } from "./http";
 import { GAME_SECTIONS, hasSection } from "./games";
 import { buildBoard, displayName, type Period } from "./leaderboard";
 
@@ -159,7 +159,7 @@ export async function countPlay(request: Request, env: Env, url: URL, code: stri
 
 const PERIOD_TEXT: Record<Period, string> = { week: "this week", month: "this month", all: "of all time" };
 
-function escape(s: string): string {
+export function escape(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 }
 
@@ -177,6 +177,7 @@ export async function sharePage(request: Request, env: Env, url: URL, code: stri
       description: `Same ${d.questionIds.length} questions. Can you beat ${d.accuracy}%? Free CBSE practice on Vijayeemantra.`,
       image: "/og/challenge.jpg",
       path: `/s/${code}`,
+      noindex: true,
     });
   }
   const d = share.data as RankShare;
@@ -185,14 +186,40 @@ export async function sharePage(request: Request, env: Env, url: URL, code: stri
     description: "Practise CBSE questions, earn XP and climb the leaderboard. Can you get higher?",
     image: "/og/rank.jpg",
     path: `/s/${code}`,
+    noindex: true,
   });
 }
 
-const GAME_PREVIEW: Record<string, { title: string; description: string; image: string }> = {
+export const GAME_PREVIEW: Record<string, { title: string; description: string; image: string }> = {
   galaxy: {
     title: "Galaxy Guardian 🚀 Save Earth with maths",
     description: "Blast the asteroid with the right answer before it hits Earth. Pick a mission (×, ÷, fractions, %…), climb the levels and top the scoreboard!",
     image: "/og/galaxy.jpg",
+  },
+  rush: {
+    title: "Number Rush: a 60-second maths game",
+    description: "Times tables, percentages, fractions, BODMAS and more against the clock. A free maths game for CBSE students.",
+    image: "/og/default.jpg",
+  },
+  match: {
+    title: "Match Sprint: match key terms from any CBSE chapter",
+    description: "Pick your class, subject and chapter, then pair up key terms and definitions before the clock runs out. Free for CBSE Class 9 and 10.",
+    image: "/og/default.jpg",
+  },
+  balance: {
+    title: "Balance It! Balance chemical equations",
+    description: "Practise balancing real chemical reactions from your textbook in this free chemistry game for CBSE students.",
+    image: "/og/default.jpg",
+  },
+  facts: {
+    title: "Fact or Fiction: a quick science and social science game",
+    description: "Swipe right for fact and left for fiction, with Science, Maths and Social Science topics. A free game for CBSE students.",
+    image: "/og/default.jpg",
+  },
+  elements: {
+    title: "Element Lab: learn symbols, valency and atoms",
+    description: "Learn element symbols, valency and atoms against the clock in this free chemistry game for CBSE students.",
+    image: "/og/default.jpg",
   },
 };
 
@@ -210,25 +237,57 @@ export function gamePage(env: Env, url: URL, id: string): Promise<Response> {
   });
 }
 
+/**
+ * What the home page holds before the app starts, which then replaces it: words and links
+ * a search engine can read straight away. The app itself has no links to the /cbse/ pages.
+ */
+const HOME_CONTENT = `<main style="max-width:40rem;margin:0 auto;padding:2rem 1.25rem"><h1 style="font-size:1.75rem;font-weight:800;margin-bottom:.75rem">Free CBSE Class 9 and 10 practice questions</h1>
+<p>Chapter-wise practice for Maths, Science, Social Science and English, with an explanation for each answer, learning games and live quizzes.</p>
+<ul style="margin-top:.75rem"><li><a href="/cbse/class-9" style="text-decoration:underline">CBSE Class 9 practice questions</a></li><li><a href="/cbse/class-10" style="text-decoration:underline">CBSE Class 10 practice questions</a></li></ul></main>`;
+
+const SITE_DATA = JSON.stringify([
+  { "@context": "https://schema.org", "@type": "WebSite", name: "Vijayeemantra", url: `${SITE_ORIGIN}/` },
+  { "@context": "https://schema.org", "@type": "Organization", name: "Vijayeemantra", url: `${SITE_ORIGIN}/`, logo: `${SITE_ORIGIN}/favicon.svg` },
+]);
+
 /** GET / — the home page with a link preview, for when the plain site address is shared. */
 export function homePage(env: Env, url: URL): Promise<Response> {
   return withPreview(env, url, {
-    title: "Vijayeemantra — CBSE exam practice that feels like a game",
-    description: "Free interactive practice for CBSE Class 9 and 10: instant feedback, streaks, XP and leaderboards.",
+    title: "Vijayeemantra — Free CBSE Class 9 & 10 Practice Questions and Games",
+    description: "Free chapter-wise practice for CBSE Class 9 and 10: Maths, Science, Social Science and English, with explanations, learning games and live quizzes.",
     image: "/og/default.jpg",
     path: "/",
+    content: HOME_CONTENT,
+    data: SITE_DATA,
   });
 }
 
 /** The app page with its title, description and Open Graph tags set (image URLs must be absolute). */
-export async function withPreview(env: Env, url: URL, p: { title: string; description: string; image: string; path: string }): Promise<Response> {
+export async function withPreview(
+  env: Env,
+  url: URL,
+  p: {
+    title: string;
+    description: string;
+    image: string;
+    path: string;
+    /** Personal or short-lived pages, kept out of search results. */
+    noindex?: boolean;
+    /** HTML for the page before the app starts. */
+    content?: string;
+    /** Structured data (JSON) for search engines. */
+    data?: string;
+  },
+): Promise<Response> {
   const page = await env.ASSETS.fetch(new Request(new URL("/", url), { headers: { Accept: "text/html" } }));
+  // A mission's ?mode= is the same page to a search engine.
+  const canonical = `${SITE_ORIGIN}${p.path.split("?")[0]}`;
   const tags = {
     "og:type": "website",
     "og:site_name": "Vijayeemantra",
     "og:title": p.title,
     "og:description": p.description,
-    "og:url": `${url.origin}${p.path}`,
+    "og:url": `${SITE_ORIGIN}${p.path}`,
     "og:image": `${url.origin}${p.image}`,
     "og:image:type": "image/jpeg",
     "og:image:width": "1200",
@@ -238,9 +297,12 @@ export async function withPreview(env: Env, url: URL, p: { title: string; descri
   const head = [
     ...Object.entries(tags).map(([k, v]) => `<meta property="${k}" content="${escape(v)}" />`),
     `<meta name="twitter:card" content="summary_large_image" />`,
+    `<link rel="canonical" href="${escape(canonical)}" />`,
+    ...(p.data ? [`<script type="application/ld+json">${p.data}</script>`] : []),
   ].join("");
 
   const rewritten = new HTMLRewriter()
+    .on("#root", { element: (el) => void (p.content && el.setInnerContent(p.content, { html: true })) })
     .on("title", { element: (el) => void el.setInnerContent(p.path === "/" ? p.title : `${p.title} · Vijayeemantra`) })
     .on('meta[name="description"]', { element: (el) => void el.setAttribute("content", p.description) })
     .on('meta[property^="og:"], meta[name^="twitter:"]', { element: (el) => void el.remove() })
@@ -248,5 +310,6 @@ export async function withPreview(env: Env, url: URL, p: { title: string; descri
     .transform(page);
   const headers = new Headers(rewritten.headers);
   headers.set("Cache-Control", "no-store");
+  if (p.noindex) headers.set("X-Robots-Tag", "noindex");
   return new Response(rewritten.body, { status: 200, headers });
 }

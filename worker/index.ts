@@ -1,6 +1,6 @@
 /**
- * API Worker. Static assets (the React app) are served by Cloudflare directly;
- * only `/`, `/api/*`, `/s/*`, `/games/*` and `/quiz*` reach this code (see `run_worker_first` in wrangler.jsonc).
+ * API Worker. Built files (scripts, styles, pictures) are served by Cloudflare directly;
+ * everything else reaches this code first (see `run_worker_first` in wrangler.jsonc).
  */
 import type { AppConfig } from "../src/content/api";
 import { getAdminChapters, getAdminQuestions, saveDifficulty, saveOrder } from "./admin";
@@ -33,13 +33,21 @@ import {
 } from "./quizzes";
 import { fixReport, getAdminReports, getMyReports, setReportStatus, submitReport } from "./reports";
 import { getScores, importDevice, saveRounds } from "./scores";
+import { appPage, cbsePage, privacyPage, robotsTxt, sitemap, termsPage, toMainAddress } from "./seo";
 import { countPlay, createShare, gamePage, getShare, homePage, sharePage } from "./share";
 
 export default {
   async fetch(request, env): Promise<Response> {
     const url = new URL(request.url);
     if (request.method === "OPTIONS" && url.pathname.startsWith("/api/")) return preflight(request);
-    return withCors(request, await route(request, env, url));
+    const redirect = toMainAddress(request, url);
+    if (redirect) return redirect;
+    const response = withCors(request, await route(request, env, url));
+    if (!url.pathname.startsWith("/api/")) return response;
+    // The app and Google's reader of its pages need the API, but its answers are no search results.
+    const api = new Response(response.body, response);
+    api.headers.set("X-Robots-Tag", "noindex");
+    return api;
   },
 } satisfies ExportedHandler<Env>;
 
@@ -54,6 +62,14 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
     if (quizLink && isGet) return await quizPage(env, url, quizLink[1]);
     const gameLink = /^\/games\/([a-z]+)\/?$/.exec(url.pathname);
     if (gameLink && isGet) return await gamePage(env, url, gameLink[1]);
+    if (url.pathname === "/robots.txt" && isGet) return robotsTxt();
+    if (url.pathname === "/sitemap.xml" && isGet) return await sitemap(env);
+    if (url.pathname === "/privacy" && isGet) return privacyPage();
+    if (url.pathname === "/terms" && isGet) return termsPage();
+    const cbse = /^\/cbse\/class-(\d+)(?:\/([a-z]+)(?:\/([a-z0-9-]+))?)?\/?$/.exec(url.pathname);
+    const cbseAnswer = cbse && isGet ? await cbsePage(env, Number(cbse[1]), cbse[2], cbse[3]) : null;
+    if (cbseAnswer) return cbseAnswer;
+    if (isGet && !url.pathname.startsWith("/api/")) return await appPage(request, env, url);
 
     // Apps older than the oldest supported build are told to update (the app shows an update screen).
     const minBuild = Number(env.MIN_APP_BUILD) || 0;

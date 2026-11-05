@@ -17,6 +17,9 @@ export interface Env {
   GUEST_ROUNDS_PER_DAY?: string;
 }
 
+/** The site's main address: the one search engines should list. */
+export const SITE_ORIGIN = "https://vijayeemantra.com";
+
 /** A guest limit from the Worker's settings: -1 (unlimited) or more. Anything else uses `fallback`. */
 export function guestLimit(value: string | undefined, fallback: number): number {
   return /^(-1|\d+)$/.test(String(value)) ? Number(value) : fallback;

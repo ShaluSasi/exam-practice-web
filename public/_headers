@@ -1,3 +1,7 @@
 # Question pictures rarely change: let browsers keep them for a day instead of asking the server each time.
 /img/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# Built scripts and styles have the file's contents in their name, so they never change: keep them, for a fast repeat visit.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

@@ -458,6 +458,7 @@ export async function quizPage(env: Env, url: URL, id: string | undefined): Prom
     description: `${Date.now() < quiz.starts_at ? `Starts ${when} IST.` : Date.now() < quiz.ends_at ? "Live now!" : "This quiz has ended."} ${idsOf(quiz).length} questions, ${quiz.duration_min} minutes. Score ${quiz.pass_percent}% or more to win a certificate of achievement. Free!`,
     image: "/og/default.jpg",
     path: `/quiz/${quiz.id}`,
+    noindex: true,
   });
 }
 
