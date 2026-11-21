@@ -314,3 +314,37 @@ export interface QuizStatusIn {
 export interface AdminQuizResults {
   rows: { name: string; email: string; status: "in_progress" | "submitted"; percent: number | null; passed: boolean; startedAt: number; submittedAt: number | null; certificateId: string | null }[];
 }
+
+/** One account on the admin Users page, with what it did in the chosen days (GET /api/admin/users). */
+export interface AdminUser {
+  id: string;
+  name: string;
+  email: string;
+  picture: string | null;
+  grade: number | null;
+  role: "student" | "teacher" | "admin";
+  /** When the account was made. */
+  joinedAt: number;
+  /** Last time the app was opened or signed in to, in the chosen days. */
+  lastSeenAt: number;
+  /** Days the app was used in the chosen days. */
+  days: number;
+  /** Times the app was opened in the chosen days. */
+  visits: number;
+  signIns: number;
+  /** Practice rounds finished in the chosen days. */
+  rounds: number;
+}
+
+export interface AdminUsers {
+  /** The chosen days, India time ("YYYY-MM-DD"); absent for all time. */
+  from?: string;
+  to?: string;
+  users: AdminUser[];
+  /** More accounts matched than were sent. */
+  truncated: boolean;
+  /** Accounts made in the chosen days (after the exclusions). */
+  newUsers: number;
+  /** Every account there is. */
+  totalUsers: number;
+}

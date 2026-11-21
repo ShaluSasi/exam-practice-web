@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import { ArrowLeft, ChevronRight, Flag, Gauge, ListOrdered, Trophy } from "lucide-react";
+import { ArrowLeft, ChevronRight, Flag, Gauge, ListOrdered, Trophy, Users } from "lucide-react";
 import { ROUND_SIZE } from "../engine/scoring";
 import { SettingsToggles } from "../components/TopBar";
 import { useAuth } from "../store/auth";
@@ -11,9 +11,15 @@ import { useProfile } from "../store/profile";
 const MAX_ROUND_SIZE = 50;
 
 /** Pages only admins (ADMIN_EMAILS in wrangler.jsonc) may open; App.tsx sends everyone else home. */
-export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "preview", "quizadmin"];
+export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "preview", "quizadmin", "users"];
 
 const LINKS = [
+  {
+    screen: "users" as const,
+    icon: Users,
+    title: "Users",
+    text: "Everyone who used the app, by date or date range. Leave out emails, such as your own test accounts.",
+  },
   {
     screen: "quizadmin" as const,
     icon: Trophy,

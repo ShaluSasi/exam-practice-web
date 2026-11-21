@@ -16,6 +16,7 @@ import { QuizAdminScreen } from "./screens/QuizAdminScreen";
 import { QuizScreen } from "./screens/QuizScreen";
 import { ReportsScreen } from "./screens/ReportsScreen";
 import { SequenceScreen } from "./screens/SequenceScreen";
+import { UsersScreen } from "./screens/UsersScreen";
 import { GameListScreen } from "./screens/GameListScreen";
 import { GameScreen } from "./screens/GameScreen";
 import { HomeScreen } from "./screens/HomeScreen";
@@ -278,6 +279,7 @@ export default function App() {
           {screen === "myreports" && <MyReportsScreen />}
           {screen === "quizzes" && <QuizScreen />}
           {screen === "quizadmin" && <QuizAdminScreen />}
+          {screen === "users" && <UsersScreen />}
         </motion.div>
       </AnimatePresence>
       <SignInGate open={gate !== null} reason={gateReason} onClose={closeSignInGate} />

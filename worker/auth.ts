@@ -8,6 +8,7 @@
  * (still issued for our web client ID), and gets the session as a token it
  * sends in an `Authorization: Bearer` header.
  */
+import { dayOf } from "../src/lib/day";
 import { HttpError, assertSameOrigin, b64url, bytesFromB64url, isAppOrigin, json, readJson, textFromB64url, type Env } from "./http";
 
 export type Role = "student" | "teacher" | "admin";
@@ -29,10 +30,28 @@ const SESSION_DAYS = 30;
 const GOOGLE_CERTS = "https://www.googleapis.com/oauth2/v3/certs";
 const GOOGLE_ISSUERS = ["accounts.google.com", "https://accounts.google.com"];
 
+/** The emails listed in ADMIN_EMAILS, lower-cased. */
+export function adminEmails(env: Env): string[] {
+  return (env.ADMIN_EMAILS ?? "").split(",").map((e) => e.trim().toLowerCase()).filter(Boolean);
+}
+
 /** The account's role: listed admin emails (ADMIN_EMAILS) are admins whatever D1 says. */
-function roleOf(env: Env, email: string, stored: Role | undefined): Role {
-  const admins = (env.ADMIN_EMAILS ?? "").split(",").map((e) => e.trim().toLowerCase());
-  return admins.includes(email.toLowerCase()) ? "admin" : (stored ?? "student");
+export function roleOf(env: Env, email: string, stored: Role | undefined): Role {
+  return adminEmails(env).includes(email.toLowerCase()) ? "admin" : (stored ?? "student");
+}
+
+/** Notes that the account used the app today (the admin Users page). A failure must not stop the sign-in. */
+async function recordVisit(env: Env, userId: string, now: number, signIn: boolean): Promise<void> {
+  try {
+    await env.DB.prepare(
+      `INSERT INTO user_visits (user_id, day, first_at, last_at, visits, sign_ins) VALUES (?1, ?2, ?3, ?3, 1, ?4)
+       ON CONFLICT (user_id, day) DO UPDATE SET last_at = ?3, visits = visits + 1, sign_ins = sign_ins + ?4`,
+    )
+      .bind(userId, dayOf(now), now, signIn ? 1 : 0)
+      .run();
+  } catch (e) {
+    console.error("recordVisit", e);
+  }
 }
 
 export async function signIn(request: Request, env: Env, url: URL): Promise<Response> {
@@ -61,6 +80,7 @@ export async function signIn(request: Request, env: Env, url: URL): Promise<Resp
   )
     .bind(user.id, user.email, user.name, user.picture, now)
     .first<{ role: Role; imported_at: number | null }>();
+  await recordVisit(env, user.id, now, true);
 
   const maxAge = SESSION_DAYS * 86400;
   const token = await signSession({ ...user, exp: Math.floor(now / 1000) + maxAge }, env.SESSION_SECRET);
@@ -80,6 +100,7 @@ export async function me(request: Request, env: Env, url: URL): Promise<Response
   // Cookie from before the account was saved (or a wiped database): sign in again. Clear the cookie
   // too, or every later request still carries a user id that saving progress would fail on.
   if (!row) return json({ user: null }, { "Set-Cookie": cookie("", 0, url) });
+  await recordVisit(env, session.id, Date.now(), false);
   return json({ user: { ...session, role: roleOf(env, session.email, row.role) }, canImport: row.imported_at == null });
 }
 

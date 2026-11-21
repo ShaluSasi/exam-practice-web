@@ -43,6 +43,12 @@ first.forEach((name, i) => {
     lines.push(
       `INSERT INTO rounds (user_id, email, client_id, title, correct, total, marks, max_marks, accuracy, xp, best_streak, time_ms, played_at, source, created_at, quiz_key) VALUES (${q(id)}, ${q(email)}, ${q(`${id}-r${r}`)}, ${q(title)}, ${correct}, 20, ${correct}, 20, ${accuracy}, ${xp}, ${Math.max(1, Math.round(correct * rand()))}, ${Math.round(180_000 + rand() * 600_000)}, ${Math.round(now - ago)}, 'live', ${now}, ${q(key)});`,
     );
+    // The day it was played counts as a visit, for the admin Users page.
+    const at = Math.round(now - ago);
+    const day = new Date(at + 330 * 60_000).toISOString().slice(0, 10);
+    lines.push(
+      `INSERT INTO user_visits (user_id, day, first_at, last_at, visits, sign_ins) VALUES (${q(id)}, ${q(day)}, ${at}, ${at}, 1, 0) ON CONFLICT (user_id, day) DO UPDATE SET visits = visits + 1, first_at = min(first_at, ${at}), last_at = max(last_at, ${at});`,
+    );
   }
   // Galaxy Guardian runs, for the game scoreboards.
   const runs = Math.floor(rand() * rand() * 12);

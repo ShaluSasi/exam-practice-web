@@ -100,7 +100,7 @@ export function SignInButton() {
   return isNative ? <NativeGoogleButton big /> : <GoogleButton big />;
 }
 
-function Avatar({ name, picture, size = "size-10" }: { name: string; picture: string | null; size?: string }) {
+export function Avatar({ name, picture, size = "size-10" }: { name: string; picture: string | null; size?: string }) {
   const [broken, setBroken] = useState(false);
   if (picture && !broken) {
     return <img src={picture} alt="" referrerPolicy="no-referrer" onError={() => setBroken(true)} className={`${size} rounded-full object-cover`} />;
