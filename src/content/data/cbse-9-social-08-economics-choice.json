@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Buy snacks now or save for new shoes? Share five library copies among twenty readers? Which crop to sow? Use more workers or more machines? Build highways or hospitals? What do all these questions have in common?",
+    "prompt": "Snacks now or save for shoes? Which crop to sow? Workers or machines? Highways or hospitals? What do these questions have in common?",
     "image": {
       "src": "/img/social08/big-questions.svg",
       "alt": "Four small scenes: a piggy bank and shoes, library books and students, a farmer between crops, a road and a hospital"
@@ -19,19 +19,19 @@
     "options": [
       {
         "id": "a",
-        "text": "They are questions about the past that only History can answer"
+        "text": "They are about the past, which only History can answer"
       },
       {
         "id": "b",
-        "text": "They are economic choices that individuals, enterprises and governments have to make"
+        "text": "They are economic choices made by people, firms and governments"
       },
       {
         "id": "c",
-        "text": "They concern only the government, never households or students"
+        "text": "They concern only the government, never households"
       },
       {
         "id": "d",
-        "text": "They can all be settled without giving anything up"
+        "text": "They can be settled without giving anything up"
       }
     ],
     "answer": "b",
@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Some of our preferences are **needs** and others are **wants**. Which picture shows a **need**?",
+    "prompt": "Which picture shows a **need**, not a **want**?",
     "options": [
       {
         "id": "a",
@@ -101,7 +101,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "order",
-    "prompt": "The chapter shows that **human wants are unlimited and keep changing**. Arrange the vehicles in the order in which a person's wants usually grow.",
+    "prompt": "**Human wants keep growing.** Put the vehicles in the order a person usually wants them.",
     "items": [
       {
         "id": "car",
@@ -150,7 +150,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the ideas to show how the **three key questions** of economics come up.",
+    "prompt": "Put the ideas in order to show how the **three key questions** of economics arise.",
     "image": {
       "src": "/img/social08/wants-vs-resources.svg",
       "alt": "A girl with a big cloud of wished-for things next to a small basket of coins"
@@ -158,7 +158,7 @@
     "items": [
       {
         "id": "choice",
-        "text": "Choices have to be made about how to use resources"
+        "text": "So we must choose how to use resources"
       },
       {
         "id": "mismatch",
@@ -166,7 +166,7 @@
       },
       {
         "id": "questions",
-        "text": "Every economy must decide what to produce, how to produce and for whom to produce"
+        "text": "Every economy must decide what, how and for whom to produce"
       },
       {
         "id": "scarcity",
@@ -196,7 +196,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The same steel can be used for medical equipment, refrigerators or aircraft. What idea does this example show?",
+    "prompt": "The same steel can make hospital equipment, fridges or aircraft. What does this show?",
     "image": {
       "src": "/img/social08/steel.svg",
       "alt": "A steel beam with arrows to a hospital bed, a refrigerator and an aeroplane"
@@ -204,19 +204,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Resources are limited and have alternative uses, so we must choose how to use them"
+        "text": "Resources are limited and have other uses, so we must choose"
       },
       {
         "id": "b",
-        "text": "Steel is a want, not a need, so it should not be produced"
+        "text": "Steel is a want, not a need, so it should not be made"
       },
       {
         "id": "c",
-        "text": "Steel is unlimited, so all three products can be made in any quantity"
+        "text": "Steel is unlimited, so all three can be made in any amount"
       },
       {
         "id": "d",
-        "text": "Only the government is allowed to decide how steel is used"
+        "text": "Only the government may decide how steel is used"
       }
     ],
     "answer": "a",
@@ -235,7 +235,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Resources can be **natural** or **human-made**. Which picture shows a **human-made** resource?",
+    "prompt": "Which picture shows a **human-made** resource?",
     "options": [
       {
         "id": "a",
@@ -286,7 +286,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Land, labour, capital and technology are the **factors of production**. Tap the part of the farm scene that shows **labour**.",
+    "prompt": "Land, labour, capital and technology are **factors of production**. Tap the part showing **labour**.",
     "image": {
       "src": "/img/social08/factors-scene.svg",
       "alt": "A farm scene with several parts to tap"
@@ -339,7 +339,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each picture with the **factor of production** it shows.",
+    "prompt": "Match each picture with its **factor of production**.",
     "left": [
       {
         "id": "p1",
@@ -413,7 +413,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The farmer decides to hire **fewer workers** and plough the field with a **machine** instead. Tap the factor of production she is now using **more** of.",
+    "prompt": "The farmer hires **fewer workers** and ploughs with a **machine**. Tap the factor she now uses **more** of.",
     "image": {
       "src": "/img/social08/factors-scene.svg",
       "alt": "A farm scene with several parts to tap"
@@ -466,7 +466,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A student has **₹100**. She must choose between buying a notebook now or saving the money for a tennis racket later. Which economic concept best explains her situation?",
+    "prompt": "A student has **₹100**. She must choose: buy a notebook now, or save for a tennis racket. Which concept explains this?",
     "image": {
       "src": "/img/social08/pocket-money.svg",
       "alt": "A student holding a ₹100 note between a notebook and a tennis racket"
@@ -505,7 +505,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Meena has **₹300**. A pair of sports shoes costs **₹250** and a packet of snacks costs **₹25**. If she buys the shoes, what is their opportunity cost in **packets of snacks**?",
+    "prompt": "Meena has **₹300**. Shoes cost **₹250**; a snack packet costs **₹25**. If she buys the shoes, what is the opportunity cost in **snack packets**?",
     "image": {
       "src": "/img/social08/snack-shop.svg",
       "alt": "A shop counter with a pair of shoes, snack packets, price tags and a wallet"
@@ -544,7 +544,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Time is a scarce resource. In one hour Aarav can either solve **12 maths sums** or read **30 pages** of a storybook. What is the opportunity cost of solving **one** sum?",
+    "prompt": "In one hour Aarav can solve **12 maths sums** or read **30 pages**. What is the opportunity cost of **one** sum?",
     "image": {
       "src": "/img/social08/study-time.svg",
       "alt": "A clock marked one hour, with a sheet of sums on one side and an open book on the other"
@@ -583,7 +583,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The library has only **5 copies** of a new storybook, but **20 students** want it. Each reader keeps a copy for **3 days** and then passes it straight to the next. If they share, how many days until all 20 students have read it?",
+    "prompt": "The library has **5 copies** of a book; **20 students** want it. Each reader keeps it **3 days**, then passes it on. How many days until all 20 have read it?",
     "image": {
       "src": "/img/social08/library.svg",
       "alt": "A shelf with five copies of a book, a calendar card and a crowd of students"
@@ -622,7 +622,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Using the farmer's table, how much **wheat** must she give up to move from combination **C** to combination **D**?",
+    "prompt": "From the farmer's table: how much **wheat** must she give up to move from **C** to **D**?",
     "image": {
       "src": "/img/social08/choice-table.svg",
       "alt": "A table of five combinations, A to E, of barley and wheat in kilograms"
@@ -661,7 +661,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the combination the farmer could grow only if she **wasted** some of her land, water or labour.",
+    "prompt": "Tap the combination she could grow only by **wasting** some land, water or labour.",
     "image": {
       "src": "/img/social08/ppc-farm.svg",
       "alt": "A curved graph of wheat against barley with lettered points"
@@ -714,7 +714,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the combination that the farmer **cannot** produce with her present land, water and labour.",
+    "prompt": "Tap the combination the farmer **cannot** produce with her present resources.",
     "image": {
       "src": "/img/social08/ppc-farm.svg",
       "alt": "A curved graph of wheat against barley with lettered points"
@@ -767,7 +767,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "On the farmer's PPC, she moves from **D** (75 kg barley, 40 kg wheat) to **E** (100 kg barley, 0 kg wheat). What is the opportunity cost of **each extra kilogram of barley** in this move?",
+    "prompt": "The farmer moves from **D** (75 kg barley, 40 kg wheat) to **E** (100 kg barley, 0 kg wheat). What is the opportunity cost of **each extra kg of barley**?",
     "image": {
       "src": "/img/social08/ppc-farm.svg",
       "alt": "A curved graph of wheat against barley with lettered points"
@@ -806,7 +806,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The farmer is at **C**. Next season she gives up **30 kg of wheat** and still uses all her resources fully. Tap the combination she moves to.",
+    "prompt": "The farmer is at **C**. She gives up **30 kg of wheat** and still uses all her resources. Tap where she moves to.",
     "image": {
       "src": "/img/social08/ppc-farm.svg",
       "alt": "A curved graph of wheat against barley with lettered points"
@@ -859,7 +859,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The farmer now grows combination **B**. She wants to grow **75 kg of barley** while still using all her resources. How much wheat must she give up?",
+    "prompt": "The farmer is at **B**. To grow **75 kg of barley** using all her resources, how much wheat must she give up?",
     "image": {
       "src": "/img/social08/choice-table.svg",
       "alt": "A table of five combinations, A to E, of barley and wheat in kilograms"
@@ -898,7 +898,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put the steps in order to work out the opportunity cost of moving from **B** to **C** in the farmer's table.",
+    "prompt": "Put the steps in order to find the opportunity cost of moving from **B** to **C**.",
     "image": {
       "src": "/img/social08/choice-table.svg",
       "alt": "A table of five combinations, A to E, of barley and wheat in kilograms"
@@ -906,23 +906,23 @@
     "items": [
       {
         "id": "s4",
-        "text": "Divide the wheat given up by the barley gained: $20 \\div 25 = 0.8$"
+        "text": "Divide wheat lost by barley gained: $20 \\div 25 = 0.8$"
       },
       {
         "id": "s2",
-        "text": "Read combination C: 50 kg barley and 70 kg wheat"
+        "text": "Read C: 50 kg barley, 70 kg wheat"
       },
       {
         "id": "s5",
-        "text": "Conclude: each extra kg of barley costs 0.8 kg of wheat"
+        "text": "So each extra kg of barley costs 0.8 kg of wheat"
       },
       {
         "id": "s1",
-        "text": "Read the starting combination B: 25 kg barley and 90 kg wheat"
+        "text": "Read B: 25 kg barley, 90 kg wheat"
       },
       {
         "id": "s3",
-        "text": "Find the change: 25 kg more barley, 20 kg less wheat"
+        "text": "Find the change: +25 kg barley, −20 kg wheat"
       }
     ],
     "answer": [
@@ -954,8 +954,8 @@
       "src": "/img/social08/ppc-farm.svg",
       "alt": "A curved graph of wheat against barley with lettered points"
     },
-    "assertion": "Every point on the farmer's production possibility curve shows the maximum output she can get from her resources.",
-    "reason": "Points on the PPC use all available resources efficiently, without wastage.",
+    "assertion": "Every point on the farmer's PPC shows the most she can produce with her resources.",
+    "reason": "Points on the PPC use all resources fully, with no waste.",
     "answer": "a",
     "hint": "Why can she not get more than the curve shows?",
     "explanation": "Both are true. The chapter says all points on the PPC show the **maximum output** that can be produced through **efficient use of resources by avoiding wastage**. Output is at its maximum *because* nothing is wasted, so the reason explains the assertion. This helps enterprises and governments plan better."
@@ -972,7 +972,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "This curve shows what a state government can build with its funds and workers. Tap the combination where it **uses all its resources** and builds **4 hospitals**.",
+    "prompt": "This curve shows what a state can build with its funds and workers. Tap the point that **uses all resources** and builds **4 hospitals**.",
     "image": {
       "src": "/img/social08/ppc-govt.svg",
       "alt": "A curved graph of highways built against hospitals built, with lettered points"
@@ -1025,7 +1025,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A government has **₹1,000 crore**. A highway costs **₹200 crore** and a hospital **₹50 crore**. It builds **3 highways** and spends the rest on hospitals. How many hospitals can it build, and what is the opportunity cost of the 3 highways?",
+    "prompt": "A government has **₹1,000 crore**. A highway costs **₹200 crore**, a hospital **₹50 crore**. It builds **3 highways** and spends the rest on hospitals. How many hospitals, and what is the opportunity cost of the highways?",
     "image": {
       "src": "/img/social08/govt-choice.svg",
       "alt": "A money bag of ₹1,000 crore between a highway and a hospital with price tags"
@@ -1064,7 +1064,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The word *economics* comes from the Greek word **oikonomia**, made of *oikos* and *nemein*. What does it mean?",
+    "prompt": "*Economics* comes from the Greek **oikonomia** (*oikos* + *nemein*). What does it mean?",
     "image": {
       "src": "/img/social08/oikos.svg",
       "alt": "An old scroll with the word oikonomia and its two parts written on it"
@@ -1103,7 +1103,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which statement about the **Economic Survey of India** is correct?",
+    "prompt": "Which is true about the **Economic Survey of India**?",
     "image": {
       "src": "/img/social08/econ-survey.svg",
       "alt": "A thick report called Economic Survey in front of a semicircular assembly hall"
@@ -1111,19 +1111,19 @@
     "options": [
       {
         "id": "a",
-        "text": "The Ministry of Finance prepares it every year and presents it in Parliament before the Union Budget"
+        "text": "The Finance Ministry presents it in Parliament every year, before the Budget"
       },
       {
         "id": "b",
-        "text": "Private companies prepare it once every five years to advertise their products"
+        "text": "Private companies make it every five years to advertise products"
       },
       {
         "id": "c",
-        "text": "It is prepared after the Union Budget to report only how the budget money was spent"
+        "text": "It comes after the Budget and only reports how money was spent"
       },
       {
         "id": "d",
-        "text": "It covers only agriculture and leaves out industry, services, health and education"
+        "text": "It covers only farming, not industry, services, health or education"
       }
     ],
     "answer": "a",
@@ -1142,7 +1142,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange these steps, from the review of the past year to the use of public money.",
+    "prompt": "Put these steps in order, from reviewing the past year to spending public money.",
     "image": {
       "src": "/img/social08/econ-survey.svg",
       "alt": "A thick report in front of a semicircular assembly hall"
@@ -1150,15 +1150,15 @@
     "items": [
       {
         "id": "budget",
-        "text": "The Union Budget is presented, using the Survey's insights as a blueprint"
+        "text": "The Union Budget is presented, based on the Survey"
       },
       {
         "id": "review",
-        "text": "The Ministry of Finance reviews how agriculture, industry and services performed in the past year"
+        "text": "The Finance Ministry reviews how farming, industry and services did last year"
       },
       {
         "id": "spend",
-        "text": "Tax revenue is spent on the infrastructure and welfare programmes planned in the Budget"
+        "text": "Tax money is spent on the projects planned in the Budget"
       },
       {
         "id": "present",
@@ -1188,7 +1188,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each area of an economist's work with what the economist does there.",
+    "prompt": "Match each area of an economist's work with what they do there.",
     "image": {
       "src": "/img/social08/economist.svg",
       "alt": "An economist at a desk with a chart, coins, books, a briefcase and a report"
@@ -1214,19 +1214,19 @@
     "right": [
       {
         "id": "r1",
-        "text": "Advising investors on where to invest"
+        "text": "Advise investors where to invest"
       },
       {
         "id": "r2",
-        "text": "Helping firms plan growth or improve efficiency"
+        "text": "Help firms grow or work better"
       },
       {
         "id": "r3",
-        "text": "Guiding governments on taxation or welfare spending"
+        "text": "Guide governments on taxes or welfare"
       },
       {
         "id": "r4",
-        "text": "Studying economic trends and teaching others"
+        "text": "Study economic trends and teach"
       }
     ],
     "pairs": {
@@ -1250,7 +1250,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "multi",
-    "prompt": "Families divide their money between essential items, non-essential items and savings. Select **all** the items the chapter would call **non-essential**.",
+    "prompt": "Select **all** the **non-essential** items.",
     "image": {
       "src": "/img/social08/family-shopping.svg",
       "alt": "Six cards showing a sack of rice, a necklace, a medicine bottle, a ticket, a notebook and a restaurant plate"
@@ -1270,7 +1270,7 @@
       },
       {
         "id": "d",
-        "text": "Entertainment, such as a cinema ticket"
+        "text": "Entertainment, like a cinema ticket"
       },
       {
         "id": "e",
@@ -1301,7 +1301,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A family earns **₹40,000** a month. It spends **55%** on essentials and **20%** on non-essentials, and saves the rest. How much does it save each month?",
+    "prompt": "A family earns **₹40,000** a month. It spends **55%** on essentials, **20%** on non-essentials and saves the rest. How much does it save?",
     "image": {
       "src": "/img/social08/family-budget.svg",
       "alt": "A bar split into essentials 55%, non-essentials 20% and savings marked with a question mark"
@@ -1340,7 +1340,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Riya plans how to use her monthly money. Tap the slice that is a **non-essential** expense.",
+    "prompt": "Riya plans her monthly money. Tap the **non-essential** slice.",
     "image": {
       "src": "/img/social08/budget-pie.svg",
       "alt": "A pie chart of a student's monthly money in four labelled slices"
@@ -1417,23 +1417,23 @@
     "right": [
       {
         "id": "r1",
-        "text": "Facts and statistics collected for reference or analysis"
+        "text": "Facts and figures collected for study"
       },
       {
         "id": "r2",
-        "text": "Anyone who takes part in economic activity, such as a producer, a consumer or the government"
+        "text": "Anyone in economic activity: producer, consumer or government"
       },
       {
         "id": "r3",
-        "text": "A place, physical or on the internet, where goods and services are bought and sold"
+        "text": "A place, real or online, where things are bought and sold"
       },
       {
         "id": "r4",
-        "text": "A course or principle of action adopted or proposed by an organisation or a person"
+        "text": "A plan of action chosen by a person or organisation"
       },
       {
         "id": "r5",
-        "text": "Natural or human-made factors used to produce goods and services"
+        "text": "Natural or human-made things used to make goods and services"
       }
     ],
     "pairs": {
@@ -1458,7 +1458,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A car company decides to fit **robot arms** on its assembly line instead of hiring more workers. Which key economic question is it answering?",
+    "prompt": "A car company uses **robot arms** instead of hiring more workers. Which key question is it answering?",
     "image": {
       "src": "/img/social08/car-robot.svg",
       "alt": "A robot arm working on a car body on an assembly line"
@@ -1502,7 +1502,7 @@
       "src": "/img/social08/farmer-crops.svg",
       "alt": "A farmer between tall sugarcane with water drops and short millet plants, each with a price tag"
     },
-    "assertion": "Growing sugarcane has an opportunity cost even though it earns high profits.",
+    "assertion": "Growing sugarcane has an opportunity cost, even though it earns high profits.",
     "reason": "Sugarcane is a drought-resistant crop that saves water.",
     "answer": "c",
     "hint": "Which crops does the chapter call water-intensive?",
@@ -1520,7 +1520,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In one season a farmer's field can earn a profit of **₹90,000** from sugarcane or **₹65,000** from millets and pulses. She chooses sugarcane. What is her **opportunity cost**?",
+    "prompt": "A field can earn **₹90,000** from sugarcane or **₹65,000** from millets and pulses. The farmer picks sugarcane. What is her **opportunity cost**?",
     "image": {
       "src": "/img/social08/farmer-crops.svg",
       "alt": "A farmer between tall sugarcane and short millet plants, each with a price tag"
@@ -1528,7 +1528,7 @@
     "options": [
       {
         "id": "a",
-        "text": "₹65,000 of millet and pulse profit, plus the water saved and the healthier soil"
+        "text": "₹65,000 from millets and pulses, plus saved water and healthier soil"
       },
       {
         "id": "b",
@@ -1540,7 +1540,7 @@
       },
       {
         "id": "d",
-        "text": "₹1,55,000, the two profits added together"
+        "text": "₹1,55,000, both profits added"
       }
     ],
     "answer": "a",
@@ -1559,7 +1559,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The chapter says **leather** shoes are generally made for office-goers and high-income customers. Tap that pair.",
+    "prompt": "**Leather** shoes are mostly made for office-goers and high earners. Tap that pair.",
     "image": {
       "src": "/img/social08/shoe-shop.svg",
       "alt": "A shoe shop shelf with four kinds of footwear and price tags"
@@ -1606,7 +1606,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each numbered pair of footwear with the group of people it is mainly produced for.",
+    "prompt": "Match each pair of footwear with who it is mainly made for.",
     "image": {
       "src": "/img/social08/shoe-shop.svg",
       "alt": "A shoe shop shelf with four numbered kinds of footwear and price tags",
@@ -1662,11 +1662,11 @@
       },
       {
         "id": "all",
-        "text": "Everyday use by people who want comfort at low cost"
+        "text": "Daily use: comfort at low cost"
       },
       {
         "id": "ath",
-        "text": "Athletes and fitness enthusiasts"
+        "text": "Athletes and fitness lovers"
       }
     ],
     "pairs": {
@@ -1690,7 +1690,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which picture shows an activity that usually relies more on **labour** than on machines?",
+    "prompt": "Which picture shows work that relies more on **labour** than machines?",
     "options": [
       {
         "id": "a",
@@ -1741,7 +1741,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "A garment maker must choose between labour-intensive methods (more workers) and capital-intensive methods (more machines). Select **all** the things the chapter says affect this choice.",
+    "prompt": "A garment maker chooses between more workers (labour-intensive) and more machines (capital-intensive). Select **all** that affect this choice.",
     "image": {
       "src": "/img/social08/garment-methods.svg",
       "alt": "Two ways of making shirts: tailors at sewing tables, or one large machine with operators"
@@ -1753,7 +1753,7 @@
       },
       {
         "id": "b",
-        "text": "Whether labour is cheap and easily available"
+        "text": "Whether labour is cheap and easy to find"
       },
       {
         "id": "c",
@@ -1761,11 +1761,11 @@
       },
       {
         "id": "d",
-        "text": "The nature of the product: designer pieces or mass-produced garments"
+        "text": "The product: designer pieces or mass-produced clothes"
       },
       {
         "id": "e",
-        "text": "Laws and regulations, such as labour laws or incentives for machinery"
+        "text": "Laws, like labour laws or incentives for machines"
       },
       {
         "id": "f",
@@ -1793,7 +1793,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "To stitch 1,000 shirts, **Method L** needs 20 tailors for 5 days at ₹600 per tailor per day. **Method K** needs a machine hired for ₹30,000, plus 4 operators for 5 days at ₹600 each per day. Which method is cheaper, and by how much?",
+    "prompt": "To stitch 1,000 shirts: **Method L** uses 20 tailors for 5 days at ₹600/day each. **Method K** hires a machine for ₹30,000 plus 4 operators for 5 days at ₹600/day each. Which is cheaper, and by how much?",
     "image": {
       "src": "/img/social08/garment-methods.svg",
       "alt": "Two ways of making shirts: Method L with tailors and Method K with a machine"
@@ -1801,19 +1801,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Method K (capital-intensive), cheaper by ₹30,000"
+        "text": "Method K (machines), by ₹30,000"
       },
       {
         "id": "b",
-        "text": "Method L (labour-intensive), cheaper by ₹18,000"
+        "text": "Method L (workers), by ₹18,000"
       },
       {
         "id": "c",
-        "text": "Method K (capital-intensive), cheaper by ₹48,000"
+        "text": "Method K (machines), by ₹48,000"
       },
       {
         "id": "d",
-        "text": "Method K (capital-intensive), cheaper by ₹18,000"
+        "text": "Method K (machines), by ₹18,000"
       }
     ],
     "answer": "d",
@@ -1837,8 +1837,8 @@
       "src": "/img/social08/garment-methods.svg",
       "alt": "Two ways of making shirts: tailors at sewing tables, or one large machine with operators"
     },
-    "assertion": "If labour becomes costly or scarce, a garment firm is likely to shift towards machines.",
-    "reason": "Customised or designer clothes require skilled labour.",
+    "assertion": "If labour becomes costly or scarce, a garment firm will likely shift to machines.",
+    "reason": "Designer clothes need skilled workers.",
     "answer": "b",
     "hint": "Is the reason about the cost of labour, or about the kind of product?",
     "explanation": "Both statements are true. The chapter says that if labour is **costly or scarce**, machines become more efficient, and that **customised or designer clothes** need skilled labour. But the reason is about the **nature of the product**, not the **cost of labour**, so it does not explain the assertion. The answer is (b)."
@@ -1855,7 +1855,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Select **all** the features of a **planned economy** described in the chapter.",
+    "prompt": "Select **all** the features of a **planned economy**.",
     "image": {
       "src": "/img/social08/planned-vs-market.svg",
       "alt": "Left: a central office sending arrows to factories. Right: a street of shops with price tags"
@@ -1863,7 +1863,7 @@
     "options": [
       {
         "id": "a",
-        "text": "A central planning authority decides what, how and for whom to produce, and at what prices"
+        "text": "A central authority decides what, how and for whom to produce, and prices"
       },
       {
         "id": "b",
@@ -1871,19 +1871,19 @@
       },
       {
         "id": "c",
-        "text": "Many private producers compete to offer better quality at lower prices"
+        "text": "Many private firms compete on quality and price"
       },
       {
         "id": "d",
-        "text": "Enterprises follow the central authority's targets rather than market demand"
+        "text": "Firms follow government targets, not market demand"
       },
       {
         "id": "e",
-        "text": "Enterprises need strict permits and licences to produce"
+        "text": "Firms need strict permits and licences"
       },
       {
         "id": "f",
-        "text": "The government acts only like a referee and does not control prices"
+        "text": "The government is only a referee and does not set prices"
       }
     ],
     "answers": [
@@ -1907,7 +1907,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The chapter says that in a **market economy** the government often acts like a **referee in a football match**. What does this mean?",
+    "prompt": "In a **market economy**, the government acts like a **football referee**. What does this mean?",
     "image": {
       "src": "/img/social08/referee.svg",
       "alt": "A football match with players in two colours and a referee blowing a whistle"
@@ -1915,19 +1915,19 @@
     "options": [
       {
         "id": "a",
-        "text": "It decides which firms should win and sets their prices"
+        "text": "It picks which firms win and sets their prices"
       },
       {
         "id": "b",
-        "text": "It owns all the firms, just as a club owns its players"
+        "text": "It owns all firms, like a club owns players"
       },
       {
         "id": "c",
-        "text": "It ensures safety and law and order, but does not control prices or production"
+        "text": "It keeps safety and order, but does not control prices or production"
       },
       {
         "id": "d",
-        "text": "It is the main producer of goods, competing with private firms"
+        "text": "It is the main producer, competing with private firms"
       }
     ],
     "answer": "c",
@@ -1946,7 +1946,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each **economic system** with how it answers the key economic questions.",
+    "prompt": "Match each **economic system** with how it decides.",
     "image": {
       "src": "/img/social08/planned-vs-market.svg",
       "alt": "Left: a central office sending arrows to factories. Right: a street of shops with price tags"
@@ -1968,15 +1968,15 @@
     "right": [
       {
         "id": "r1",
-        "text": "Private enterprises and the government both play important roles, and private players are regulated"
+        "text": "Private firms and government both matter; private firms are regulated"
       },
       {
         "id": "r2",
-        "text": "A central authority of the government decides production, distribution and prices"
+        "text": "A central government authority decides production and prices"
       },
       {
         "id": "r3",
-        "text": "Demand and supply mainly decide, with little government intervention"
+        "text": "Demand and supply decide, with little government role"
       }
     ],
     "pairs": {
@@ -1999,7 +1999,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which group lists only countries the chapter gives as examples of **planned economies**?",
+    "prompt": "Which list has only **planned economies**?",
     "image": {
       "src": "/img/social08/permits.svg",
       "alt": "A small factory behind a closed gate beside a tall pile of stamped papers"
@@ -2043,8 +2043,8 @@
       "src": "/img/social08/permits.svg",
       "alt": "A small factory behind a closed gate beside a tall pile of stamped papers"
     },
-    "assertion": "In a planned economy, enterprises have little reason to improve quality or to bring in new ideas.",
-    "reason": "Strict permits and licences keep many enterprises out of the market and reduce competition among private enterprises.",
+    "assertion": "In a planned economy, firms have little reason to improve quality or try new ideas.",
+    "reason": "Strict permits keep many firms out and reduce competition.",
     "answer": "a",
     "hint": "What usually pushes a firm to make better products?",
     "explanation": "Both are true, and the reason explains the assertion. Heavy regulation through **permits and licences** prevents many enterprises from operating, so there is **little competition**. Without rivals, firms have **little motivation** to improve quality or innovate. In a market economy, by contrast, many producers compete, which encourages better quality, lower prices and innovation."
@@ -2061,7 +2061,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "**Public goods** are available to everyone, and one person using them does not stop others. Tap the **public good** in this town.",
+    "prompt": "**Public goods** are open to all, and one person's use doesn't stop others. Tap the **public good**.",
     "image": {
       "src": "/img/social08/town-scene.svg",
       "alt": "A town with several places to tap"
@@ -2114,7 +2114,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In a **mixed economy**, which of these is mainly the role of the **government** rather than the market?",
+    "prompt": "In a **mixed economy**, which is mainly the **government's** role, not the market's?",
     "image": {
       "src": "/img/social08/mixed-economy.svg",
       "alt": "Two overlapping circles named Government and Market with small symbols in each"
@@ -2126,7 +2126,7 @@
       },
       {
         "id": "b",
-        "text": "Innovation by competing private firms"
+        "text": "New ideas from competing private firms"
       },
       {
         "id": "c",
@@ -2158,8 +2158,8 @@
       "src": "/img/social08/mixed-economy.svg",
       "alt": "Two overlapping circles named Government and Market with small symbols in each"
     },
-    "assertion": "Pure market economies, in which the government plays no role at all, are common in today's world.",
-    "reason": "Even in market economies such as the United States of America and Singapore, the government plays a big part in the market.",
+    "assertion": "Pure market economies, with no government role at all, are common today.",
+    "reason": "Even in market economies like the USA and Singapore, the government plays a big role.",
     "answer": "d",
     "hint": "Does the reason support the assertion or contradict it?",
     "explanation": "The assertion is false: the chapter says that in reality **most economies are mixed**, and that governments play an important role even in market economies. The reason is true: the **USA and Singapore** have significant government involvement. Pure systems rarely exist because both markets and governments have limits, so the answer is (d)."
@@ -2176,7 +2176,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Arrange the stages of how **India's economic system** has changed since Independence.",
+    "prompt": "Put the stages of **India's economic system** since Independence in order.",
     "image": {
       "src": "/img/social08/reform-road.svg",
       "alt": "A road with a lifting barrier leading to factories, shops and cargo containers"
@@ -2184,19 +2184,19 @@
     "items": [
       {
         "id": "reform",
-        "text": "Major reforms reduce excessive regulations and open the economy to global trade and investment"
+        "text": "Reforms cut rules and open the economy to world trade"
       },
       {
         "id": "state",
-        "text": "A state-led approach similar to a planned economy, with licences and permits"
+        "text": "State-led, like a planned economy, with licences and permits"
       },
       {
         "id": "now",
-        "text": "A more market-oriented system that still keeps an important role for the government"
+        "text": "More market-based, with an important government role"
       },
       {
         "id": "crisis",
-        "text": "The country faces serious economic difficulties"
+        "text": "The country faces a serious economic crisis"
       }
     ],
     "answer": [
@@ -2222,7 +2222,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Select **all** the changes the chapter says the **1991 economic reforms** brought about.",
+    "prompt": "Select **all** the changes from the **1991 reforms**.",
     "image": {
       "src": "/img/social08/reform-road.svg",
       "alt": "A road with a lifting barrier leading to factories, shops and cargo containers"
@@ -2230,11 +2230,11 @@
     "options": [
       {
         "id": "a",
-        "text": "Reduced excessive regulations"
+        "text": "Fewer excessive rules"
       },
       {
         "id": "b",
-        "text": "Ended every role of the government in the economy"
+        "text": "Ended every government role in the economy"
       },
       {
         "id": "c",
@@ -2242,11 +2242,11 @@
       },
       {
         "id": "d",
-        "text": "Opened the economy to global trade and investment"
+        "text": "Opened the economy to world trade and investment"
       },
       {
         "id": "e",
-        "text": "Brought banking and transport entirely under the public sector"
+        "text": "Put banking and transport fully under the government"
       },
       {
         "id": "f",

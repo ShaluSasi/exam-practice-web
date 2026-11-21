@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Some people live in crowded cities, and others in small villages spread far apart. Social Science tries to explain differences like these. In simple words, what is **Social Science**?",
+    "prompt": "Some people live in crowded cities, others in small villages. In simple words, what is **Social Science**?",
     "image": {
       "src": "/img/social01/city-village.svg",
       "alt": "A crowded city beside a village with fields"
@@ -19,19 +19,19 @@
     "options": [
       {
         "id": "a",
-        "text": "The study of the natural world, such as forces, chemicals and living cells"
+        "text": "The study of nature: forces, chemicals and living cells"
       },
       {
         "id": "b",
-        "text": "The systematic study of human society: what happens, where, and why"
+        "text": "The study of human society: what happens, where and why"
       },
       {
         "id": "c",
-        "text": "A list of dates, maps and definitions to be memorised"
+        "text": "A list of dates, maps and definitions to memorise"
       },
       {
         "id": "d",
-        "text": "The study of how governments, and nothing else, make decisions"
+        "text": "The study of government decisions only"
       }
     ],
     "answer": "b",
@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which of these questions would a **social scientist** try to answer, and not a physicist, chemist or biologist?",
+    "prompt": "Which question would a **social scientist** answer, not a physicist, chemist or biologist?",
     "image": {
       "src": "/img/social01/nature-vs-society.svg",
       "alt": "Two halves of a picture: science equipment on one side and people talking on the other"
@@ -89,7 +89,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Your daily life depends on many systems. Tap the place that is shaped by **educational policies and programmes**.",
+    "prompt": "Tap the place shaped by **education policies and programmes**.",
     "image": {
       "src": "/img/social01/day-life.svg",
       "alt": "A neighbourhood scene with numbered markers"
@@ -142,7 +142,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "The chapter says that even our simplest daily activities depend on certain systems. Select **all** the systems it names.",
+    "prompt": "Our daily activities depend on certain systems. Select **all** the systems the chapter names.",
     "image": {
       "src": "/img/social01/day-life.svg",
       "alt": "A neighbourhood with a house, school, shop, power line and a bus on the road"
@@ -194,7 +194,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "order",
-    "prompt": "Before food reaches your plate, it passes through the hands of many people. Put the steps of its journey in order.",
+    "prompt": "Put the steps of food's journey to your plate in order.",
     "image": {
       "src": "/img/social01/thali.svg",
       "alt": "A plate of rice, roti, dal and vegetables with question marks around it"
@@ -202,23 +202,23 @@
     "items": [
       {
         "id": "sell",
-        "text": "It is bought and sold in markets and shops"
+        "text": "Sold in markets and shops"
       },
       {
         "id": "harvest",
-        "text": "The crop is harvested from the field"
+        "text": "Harvested from the field"
       },
       {
         "id": "plate",
-        "text": "It is cooked and served on your plate"
+        "text": "Cooked and served on your plate"
       },
       {
         "id": "transport",
-        "text": "It is transported to towns and cities"
+        "text": "Transported to towns and cities"
       },
       {
         "id": "process",
-        "text": "It is processed (cleaned, milled and packed)"
+        "text": "Processed (cleaned, milled and packed)"
       }
     ],
     "answer": [
@@ -245,7 +245,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "order",
-    "prompt": "In the **Let's Analyse** activity, you study one change in your area over the past five years. Put the steps of this group activity in order.",
+    "prompt": "**Let's Analyse:** your group studies one change in your area over five years. Put the steps in order.",
     "image": {
       "src": "/img/social01/locality-change.svg",
       "alt": "A before-and-after picture of the same street"
@@ -253,23 +253,23 @@
     "items": [
       {
         "id": "cause",
-        "text": "Discuss what might have caused the change"
+        "text": "Discuss what caused the change"
       },
       {
         "id": "report",
-        "text": "Prepare a short report and present it in class"
+        "text": "Write a short report and present it in class"
       },
       {
         "id": "pick",
-        "text": "Observe your surroundings and pick one change, such as in transport or housing"
+        "text": "Observe and pick one change, e.g. in transport or housing"
       },
       {
         "id": "effect",
-        "text": "Discuss how the change has affected people's lives"
+        "text": "Discuss how it affected people's lives"
       },
       {
         "id": "earlier",
-        "text": "Find out what the situation was earlier and what has changed"
+        "text": "Find out what it was like earlier"
       }
     ],
     "answer": [
@@ -296,7 +296,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "For the Let's Analyse activity, a group surveys **40 households**. Five years ago **10** of them used e-rickshaws to reach the market. Now **30** do. How has the **share** of households using e-rickshaws changed?",
+    "prompt": "A group surveys **40 households**. Five years ago **10** used e-rickshaws. Now **30** do. How has the **share** changed?",
     "image": {
       "src": "/img/social01/survey.svg",
       "alt": "A student with a clipboard interviewing a person at a door, next to a bar chart"
@@ -335,7 +335,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Social scientists build explanations that are **supported by evidence**. Select **all** the methods the chapter says they use.",
+    "prompt": "Social scientists back their ideas with **evidence**. Select **all** the methods they use.",
     "image": {
       "src": "/img/social01/survey.svg",
       "alt": "A student with a clipboard collecting information from a household"
@@ -347,7 +347,7 @@
       },
       {
         "id": "b",
-        "text": "Accepting the first story they hear without checking it"
+        "text": "Believing the first story without checking it"
       },
       {
         "id": "c",
@@ -367,7 +367,7 @@
       },
       {
         "id": "g",
-        "text": "Using only one source so that there is no confusion"
+        "text": "Using just one source to avoid confusion"
       }
     ],
     "answers": [
@@ -391,7 +391,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "order",
-    "prompt": "Society has changed a lot over thousands of years. Put these stages in the order the chapter gives them.",
+    "prompt": "Put these stages of society in the order the chapter gives them.",
     "image": {
       "src": "/img/social01/settlement.svg",
       "alt": "An early farming settlement with huts, crops, cattle and clay pots"
@@ -399,11 +399,11 @@
     "items": [
       {
         "id": "town",
-        "text": "Villages develop into towns"
+        "text": "Villages grow into towns"
       },
       {
         "id": "nature",
-        "text": "Communities depend directly on nature for survival"
+        "text": "People depend directly on nature to survive"
       },
       {
         "id": "city",
@@ -411,7 +411,7 @@
       },
       {
         "id": "farm",
-        "text": "People learn to grow crops and domesticate animals"
+        "text": "People grow crops and tame animals"
       },
       {
         "id": "village",
@@ -442,7 +442,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The **Pañchamahābhūtas** idea says the world is made of five great elements. Tap the part of the scene that shows **Ākāśha**.",
+    "prompt": "The **Pañchamahābhūtas** are the five great elements. Tap the part that shows **Ākāśha**.",
     "image": {
       "src": "/img/social01/elements.svg",
       "alt": "A landscape scene with numbered markers"
@@ -495,7 +495,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each numbered part of the scene with the element of the **Pañchamahābhūtas** it represents.",
+    "prompt": "Match each numbered part with its **Pañchamahābhūta** element.",
     "image": {
       "src": "/img/social01/elements.svg",
       "alt": "A landscape scene with five numbered parts",
@@ -593,7 +593,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Why does the chapter say the idea of the **Pañchamahābhūtas** is still relevant today?",
+    "prompt": "Why is the **Pañchamahābhūtas** idea still relevant today?",
     "image": {
       "src": "/img/social01/elements.svg",
       "alt": "A landscape with sky, air, a hill, a river and a fire"
@@ -601,19 +601,19 @@
     "options": [
       {
         "id": "a",
-        "text": "It sees nature as an interconnected system that shapes settlements, occupations, architecture, food habits and health practices"
+        "text": "It sees nature as one linked system that shapes how we live, work, build, eat and stay healthy"
       },
       {
         "id": "b",
-        "text": "It lists the five metals that were used to make ancient coins"
+        "text": "It lists the five metals used in ancient coins"
       },
       {
         "id": "c",
-        "text": "It is a modern scientific law that has replaced Physics and Chemistry"
+        "text": "It is a modern law that replaced Physics and Chemistry"
       },
       {
         "id": "d",
-        "text": "It is a set of rules for collecting taxes from farmers"
+        "text": "It is a set of rules for taxing farmers"
       }
     ],
     "answer": "a",
@@ -632,7 +632,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which idea from India's knowledge traditions says that **human societies across regions and cultures are interconnected** (linked to each other)?",
+    "prompt": "Which Indian idea says that **societies across the world are linked** to each other?",
     "image": {
       "src": "/img/social01/one-family.svg",
       "alt": "Children of many backgrounds holding hands in a ring around a globe"
@@ -671,7 +671,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The **Arthaśhāstra** is believed to have been written by **Kauṭilya**. It is mentioned more than once in this chapter. What is it about?",
+    "prompt": "The **Arthaśhāstra** is believed to be by **Kauṭilya**. What is it about?",
     "image": {
       "src": "/img/social01/scroll-text.svg",
       "alt": "An old manuscript on a desk beside a balance, coins and a shield"
@@ -679,7 +679,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Administration, economic management, taxation, the army and the duties of rulers towards their people"
+        "text": "Running a state: economy, taxes, the army and a ruler's duties"
       },
       {
         "id": "b",
@@ -687,11 +687,11 @@
       },
       {
         "id": "c",
-        "text": "Stories of sailors travelling to distant lands"
+        "text": "Stories of sailors going to distant lands"
       },
       {
         "id": "d",
-        "text": "Family trees recording births, marriages and deaths"
+        "text": "Family trees of births, marriages and deaths"
       }
     ],
     "answer": "a",
@@ -710,7 +710,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The Arthaśhāstra was written **about 2,300 years ago**. To keep the sums easy, take the present year as about **2000 CE**. About when was it written?",
+    "prompt": "The Arthaśhāstra was written **about 2,300 years ago**. Take today as about **2000 CE**. When was it written?",
     "image": {
       "src": "/img/social01/scroll-text.svg",
       "alt": "An old manuscript on a desk"
@@ -749,7 +749,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "A drought has hit this village. The field has dried up and the farmer earns less. A government water tanker has arrived. Families are leaving by bus for the city. The village still uses its old stepwell. Match each numbered part with the area of life the chapter links it to.",
+    "prompt": "Drought scene: dry field, farmer earning less, government tanker, families leaving for the city, old stepwell. Match each numbered part with its area of life.",
     "image": {
       "src": "/img/social01/drought.svg",
       "alt": "A village in a drought with five numbered parts",
@@ -847,7 +847,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Political Science studies how governments respond to problems. Tap the part of this drought scene that shows a **government's response**.",
+    "prompt": "Tap the part of this drought scene that shows the **government's response**.",
     "image": {
       "src": "/img/social01/drought.svg",
       "alt": "A village in a drought with numbered markers"
@@ -905,8 +905,8 @@
       "src": "/img/social01/drought.svg",
       "alt": "A village affected by drought"
     },
-    "assertion": "To understand a drought fully, we must study it from several different points of view.",
-    "reason": "Human society is complex, and no single subject can fully explain it. So Social Science is a group of related disciplines, and each one focuses on a different part of life.",
+    "assertion": "To fully understand a drought, we must study it from many points of view.",
+    "reason": "Society is complex, so Social Science uses several subjects, each looking at a different part of life.",
     "answer": "a",
     "hint": "Does the reason tell you why one viewpoint is not enough?",
     "explanation": "Both statements are true. A drought affects the environment, the economy, politics, society and culture all at once. Because **no single field** can explain such complex events, Social Science is **a group of related disciplines** that together give a comprehensive and connected understanding. The reason directly explains why the assertion is true."
@@ -923,7 +923,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "multi",
-    "prompt": "In Grades 9–10, Social Science mainly uses **four core disciplines** (subjects). Select **all four**.",
+    "prompt": "Select the **four core subjects** of Social Science in Grades 9–10.",
     "image": {
       "src": "/img/social01/branches-wheel.svg",
       "alt": "A circle of people linked to four picture bubbles"
@@ -979,7 +979,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the bubble for the discipline that studies **systems of governance, power, and the rights and responsibilities of citizens**.",
+    "prompt": "Tap the subject that studies **government, power, and citizens' rights and duties**.",
     "image": {
       "src": "/img/social01/branches-wheel.svg",
       "alt": "A circle of people linked to four picture bubbles, with numbered markers"
@@ -1032,7 +1032,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Each scene would interest one discipline most. Match each scene with that discipline.",
+    "prompt": "Match each scene with the subject most interested in it.",
     "left": [
       {
         "id": "p",
@@ -1110,7 +1110,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A geographer asks two questions. Why did a town grow up at this spot beside the river? How have the town and the river changed over 200 years? Which two perspectives is she combining?",
+    "prompt": "A geographer asks: why did a town grow beside this river, and how have both changed in 200 years? Which two perspectives is she using?",
     "image": {
       "src": "/img/social01/scene-landform.svg",
       "alt": "Mountains, a river and a plain with a small town on its bank"
@@ -1154,8 +1154,8 @@
       "src": "/img/social01/geo-tools.svg",
       "alt": "A desk with a globe, a laptop, a wall chart, a book and a town plan"
     },
-    "assertion": "Geography uses natural sciences such as Physics, Chemistry and Biology, and also social sciences.",
-    "reason": "Geography studies only the physical features of the Earth and leaves human communities to other subjects.",
+    "assertion": "Geography uses natural sciences (Physics, Chemistry, Biology) and also social sciences.",
+    "reason": "Geography studies only the Earth's physical features, not people.",
     "answer": "c",
     "hint": "Check the word 'only' in the reason.",
     "explanation": "The assertion is true: Geography uses natural sciences and social sciences such as Political Science, Economics and History. The reason is **false**. Geography studies **both** the physical features of the Earth's surface **and** the human communities living there, especially how people interact with their environment. So the assertion is true but the reason is false."
@@ -1172,7 +1172,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Geographers can place layers of information about a place, such as land, rivers and roads, on top of each other on a computer and study them together. Tap this tool.",
+    "prompt": "Geographers stack layers of a place (land, rivers, roads) on a computer to study them together. Tap this tool.",
     "image": {
       "src": "/img/social01/geo-tools.svg",
       "alt": "A study desk with numbered markers on five tools"
@@ -1225,7 +1225,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The chapter's **Let's Explore** box points you to NCERT's **School Bhuvan** portal. What can you do with it?",
+    "prompt": "What can you do on NCERT's **School Bhuvan** portal?",
     "image": {
       "src": "/img/social01/geo-tools.svg",
       "alt": "A study desk with a globe, a laptop showing map layers and a town plan"
@@ -1264,7 +1264,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Geography helps explain why India has long been a **hub of global interaction** (a centre of contact with other parts of the world). Which feature does the chapter point to?",
+    "prompt": "Which feature made India a **hub of global contact** for centuries?",
     "image": {
       "src": "/img/social01/ship.svg",
       "alt": "A wooden sailing ship loaded with goods on the sea near a port"
@@ -1272,7 +1272,7 @@
     "options": [
       {
         "id": "a",
-        "text": "The long coastline of the Indian peninsula, which made contact with Africa, Europe and Southeast Asia easier"
+        "text": "Its long coastline, which eased contact with Africa, Europe and Southeast Asia"
       },
       {
         "id": "b",
@@ -1280,7 +1280,7 @@
       },
       {
         "id": "c",
-        "text": "Its lack of rivers, which forced people to stay at home"
+        "text": "Its lack of rivers, which kept people at home"
       },
       {
         "id": "d",
@@ -1303,7 +1303,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "One of the oldest ways of keeping cultural memory alive in Bharat passes on history **through stories**. It gives cultural meaning to events and people. What is it called?",
+    "prompt": "Which old Indian tradition keeps history alive **through stories**?",
     "image": {
       "src": "/img/social01/storyteller.svg",
       "alt": "An elder telling stories to children by lantern light"
@@ -1342,7 +1342,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Archaeologists find charcoal in an ancient fireplace (hearth). They want to know **how old** it is. Which tool of modern historiography is best for this?",
+    "prompt": "Archaeologists find charcoal in an ancient fireplace. Which tool tells **how old** it is?",
     "image": {
       "src": "/img/social01/lab-dating.svg",
       "alt": "A scientist in a laboratory examining old samples"
@@ -1386,8 +1386,8 @@
       "src": "/img/social01/lab-dating.svg",
       "alt": "A scientist using a microscope and a computer to study old samples"
     },
-    "assertion": "Modern historiography uses tools such as human genetics and carbon-14 dating.",
-    "reason": "Modern historiography depends more and more on empirical evidence, that is, information collected by actually observing things or doing experiments.",
+    "assertion": "Modern historiography uses tools like human genetics and carbon-14 dating.",
+    "reason": "Modern historiography relies more and more on empirical evidence (facts from observation or experiments).",
     "answer": "a",
     "hint": "Are genetics and carbon dating ways of observing and experimenting?",
     "explanation": "Both statements are true. **Empirical evidence** is information collected by actual **observation or experimentation**. Because modern historians rely on it, they use scientific methods such as **genetics, carbon-14 dating and archaeology**, often with laboratory testing, to establish timelines. So the reason correctly explains the assertion."
@@ -1404,7 +1404,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **epigraphic source** in this museum gallery.",
+    "prompt": "Tap the **epigraphic source** in this gallery.",
     "image": {
       "src": "/img/social01/sources-museum.svg",
       "alt": "A museum gallery with numbered markers on five objects"
@@ -1457,7 +1457,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Tap the **literary source** in this museum gallery.",
+    "prompt": "Tap the **literary source** in this gallery.",
     "image": {
       "src": "/img/social01/sources-museum.svg",
       "alt": "A museum gallery with numbered markers on five objects"
@@ -1510,7 +1510,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each picture with the type of historical source it shows.",
+    "prompt": "Match each picture with its type of source.",
     "left": [
       {
         "id": "p",
@@ -1588,7 +1588,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A historian wants to study a kingdom's **economy, trade and chronology** (order of events in time). She will use the **metal content**, inscriptions and symbols of one kind of object. Which picture shows the source she needs?",
+    "prompt": "A historian studies a kingdom's **economy, trade and timeline** from an object's **metal**, inscriptions and symbols. Which picture shows this source?",
     "image": {
       "src": "/img/social01/sources-museum.svg",
       "alt": "A museum gallery with several old objects"
@@ -1648,8 +1648,8 @@
       "src": "/img/social01/src-coin.svg",
       "alt": "An old gold coin"
     },
-    "assertion": "A Mughal coin issued during the reign of Jahangir is a numismatic source.",
-    "reason": "The Jahangir coin shown in the chapter carries the zodiac sign 'Sagittarius'.",
+    "assertion": "A Mughal coin from Jahangir's reign is a numismatic source.",
+    "reason": "The Jahangir coin in the chapter shows the zodiac sign 'Sagittarius'.",
     "answer": "b",
     "hint": "What makes something numismatic: the picture on it, or the fact that it is a coin?",
     "explanation": "Both statements are true. The coin is **numismatic** because it is a **coin**: numismatic sources are coins, currency and medals. The Sagittarius sign is a true detail of this particular coin and tells us about culture, but it is not the reason the coin counts as numismatic. So both statements are true, but the reason does not explain the assertion."
@@ -1666,7 +1666,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Physical remains from the past, such as objects and buildings, that we use to study it are called **archaeological sources**. Select **all** the archaeological sources.",
+    "prompt": "**Archaeological sources** are physical remains from the past. Select **all** of them.",
     "image": {
       "src": "/img/social01/scene-dig.svg",
       "alt": "A trench with old bricks and broken pots being uncovered"
@@ -1717,7 +1717,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A family register traces relationships across three generations and records **births, marriages and deaths**. What kind of record is it?",
+    "prompt": "A family register records **births, marriages and deaths** across three generations. What kind of record is it?",
     "image": {
       "src": "/img/social01/genealogy.svg",
       "alt": "An old register page showing three generations of a family linked by lines"
@@ -1756,7 +1756,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "order",
-    "prompt": "Put these sources and texts from the chapter in order, from the **oldest** to the **most recent**.",
+    "prompt": "Put these in order, from **oldest** to **most recent**.",
     "image": {
       "src": "/img/social01/sources-museum.svg",
       "alt": "A museum gallery of old objects"
@@ -1764,23 +1764,23 @@
     "items": [
       {
         "id": "samudra",
-        "text": "Coin issued by King Samudragupta (4th century CE)"
+        "text": "Samudragupta's coin (4th century CE)"
       },
       {
         "id": "jahangir",
-        "text": "Mughal coin issued during Jahangir's reign"
+        "text": "Jahangir's Mughal coin"
       },
       {
         "id": "figurine",
-        "text": "Terracotta figurine of the Sindhu-Sarasvatī Civilisation"
+        "text": "Terracotta figurine, Sindhu-Sarasvatī Civilisation"
       },
       {
         "id": "vishnu",
-        "text": "Sculpture of Viṣhṇu (12th century CE)"
+        "text": "Viṣhṇu sculpture (12th century CE)"
       },
       {
         "id": "artha",
-        "text": "The Arthaśhāstra (composed about 2,300 years ago)"
+        "text": "The Arthaśhāstra (about 2,300 years ago)"
       }
     ],
     "answer": [
@@ -1807,7 +1807,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Samudragupta's coin is from the **4th century CE**. The sculpture of Viṣhṇu is from the **12th century CE**. Take the middle of each century (about **350 CE** and **1150 CE**). Roughly how many years apart are they?",
+    "prompt": "Samudragupta's coin is from about **350 CE**. The Viṣhṇu sculpture is from about **1150 CE**. About how many years apart are they?",
     "image": {
       "src": "/img/social01/src-coin.svg",
       "alt": "An old gold coin"
@@ -1846,7 +1846,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "In India's villages, the **Panchayati Raj** system lets citizens have a say in planning local development. Tap the place where this kind of **grassroots democracy** (democracy at the village level) is at work.",
+    "prompt": "**Panchayati Raj** lets villagers help plan local development. Tap where this **grassroots democracy** is at work.",
     "image": {
       "src": "/img/social01/village-lens.svg",
       "alt": "A village scene with numbered markers"
@@ -1899,7 +1899,7 @@
     "difficulty": "hard",
     "marks": 1,
     "type": "mcq",
-    "prompt": "At the village meeting, an old custom decides who speaks first and whose word is respected. A political scientist would study this custom as well as the formal panchayat rules. Why?",
+    "prompt": "At a village meeting, an old custom decides who speaks first. Why would a political scientist study this custom, not just panchayat rules?",
     "image": {
       "src": "/img/social01/village-lens.svg",
       "alt": "Villagers sitting in a circle under a big tree"
@@ -1907,19 +1907,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Because political power exists not only in formal institutions but also in social relationships, customs and ideas of legitimacy"
+        "text": "Power lies not only in formal bodies but also in customs and relationships"
       },
       {
         "id": "b",
-        "text": "Because Political Science studies customs and ignores governments"
+        "text": "Political Science studies customs and ignores governments"
       },
       {
         "id": "c",
-        "text": "Because village customs are a kind of numismatic source"
+        "text": "Village customs are a kind of numismatic source"
       },
       {
         "id": "d",
-        "text": "Because the meeting is held outdoors in the natural environment"
+        "text": "The meeting is held outdoors, in nature"
       }
     ],
     "answer": "a",
@@ -1943,8 +1943,8 @@
       "src": "/img/social01/scene-vote.svg",
       "alt": "A polling booth with a voting machine and a ballot box"
     },
-    "assertion": "The Panchayati Raj system promotes local self-governance and public participation at the village level.",
-    "reason": "In early Indian political thought, power was seen only as a privilege enjoyed by the ruler.",
+    "assertion": "Panchayati Raj promotes local self-government and public participation in villages.",
+    "reason": "Early Indian thought saw power only as a ruler's privilege.",
     "answer": "c",
     "hint": "Recall how the chapter says Indian thought viewed power.",
     "explanation": "The assertion is true: Panchayati Raj promotes **local self-governance and public participation**. The reason is **false**. Indian political thought viewed power as **a responsibility rather than merely a privilege**, linking politics with economics, social life, morality and defence. These ancient ideas still shape India's democratic practices. So the assertion is true but the reason is false."
@@ -1961,7 +1961,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Early Indian thought linked politics with moral and economic ideas. Match each term with its meaning.",
+    "prompt": "Match each term with its meaning.",
     "image": {
       "src": "/img/social01/scroll-text.svg",
       "alt": "An old manuscript beside a balance, coins and a shield"
@@ -2027,7 +2027,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Economics studies decisions made by consumers, producers and governments. Tap the decision-maker who decides **what to make and how much of it to make**.",
+    "prompt": "Tap the decision-maker who decides **what to make and how much**.",
     "image": {
       "src": "/img/social01/market-decisions.svg",
       "alt": "A town scene with numbered markers"
@@ -2074,7 +2074,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Economics helps us understand how people decide to use **limited resources**. The chapter says economics is not only about numbers and markets. What else is it about?",
+    "prompt": "Economics is about how people use **limited resources**. Besides numbers and markets, what else is it about?",
     "image": {
       "src": "/img/social01/market-decisions.svg",
       "alt": "A shopper, a factory, a public building and a delivery truck"
@@ -2113,7 +2113,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put these stages of India's economic history in the order the chapter gives them.",
+    "prompt": "Put these stages of India's economic history in order.",
     "image": {
       "src": "/img/social01/ship.svg",
       "alt": "A wooden trading ship loaded with goods near a port"
@@ -2121,19 +2121,19 @@
     "items": [
       {
         "id": "indep",
-        "text": "After independence, India begins the task of rebuilding its economy"
+        "text": "After independence: rebuilding the economy"
       },
       {
         "id": "lead",
-        "text": "India is one of the world's leading economies and a centre of trade, industry and maritime activity"
+        "text": "A leading world economy and centre of trade and industry"
       },
       {
         "id": "recent",
-        "text": "Recent decades bring better infrastructure, more education and technology, less poverty and longer lives"
+        "text": "Recent decades: better infrastructure, less poverty, longer lives"
       },
       {
         "id": "colony",
-        "text": "Colonial rule causes widespread poverty, recurrent famines and the decline of traditional industries"
+        "text": "Colonial rule: poverty, famines and decline of industries"
       }
     ],
     "answer": [
@@ -2159,7 +2159,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The chapter says economic growth should be **sustainable**. Which description matches this idea?",
+    "prompt": "Which describes **sustainable** growth?",
     "image": {
       "src": "/img/social01/sustain.svg",
       "alt": "A child planting a sapling near a clean river with a solar panel nearby"
@@ -2167,19 +2167,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Growth that uses up resources as fast as possible"
+        "text": "Using up resources as fast as possible"
       },
       {
         "id": "b",
-        "text": "Stopping all economic activity to protect nature"
+        "text": "Stopping all economic activity to save nature"
       },
       {
         "id": "c",
-        "text": "Growth that meets present needs without harming the ability of future generations to meet theirs"
+        "text": "Meeting today's needs without harming future generations"
       },
       {
         "id": "d",
-        "text": "Growth that benefits only the present generation"
+        "text": "Growth that helps only today's generation"
       }
     ],
     "answer": "c",
@@ -2198,7 +2198,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Over the next two years you will study many topics. Match each pair of topics with the discipline it belongs to.",
+    "prompt": "Match each pair of topics with its subject.",
     "image": {
       "src": "/img/social01/book-stack.svg",
       "alt": "Four colourful books on a shelf beside a school bag"
@@ -2206,19 +2206,19 @@
     "left": [
       {
         "id": "t1",
-        "text": "Biosphere reserves and geospatial technologies"
+        "text": "Biosphere reserves, geospatial technology"
       },
       {
         "id": "t2",
-        "text": "The Renaissance and the Industrial Revolution"
+        "text": "The Renaissance, the Industrial Revolution"
       },
       {
         "id": "t3",
-        "text": "Elections and civil society"
+        "text": "Elections, civil society"
       },
       {
         "id": "t4",
-        "text": "Gross Domestic Product (GDP) and the Union Budget"
+        "text": "GDP, the Union Budget"
       }
     ],
     "right": [
@@ -2264,7 +2264,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "People in the same country speak different languages, follow different customs and do different kinds of work. How does Social Science explain these differences?",
+    "prompt": "People in one country differ in language, customs and work. How does Social Science explain this?",
     "image": {
       "src": "/img/social01/diversity.svg",
       "alt": "People in different styles of clothing holding hands under bunting"
@@ -2272,19 +2272,19 @@
     "options": [
       {
         "id": "a",
-        "text": "As outcomes of geographical, historical, cultural and economic factors"
+        "text": "Through geography, history, culture and the economy"
       },
       {
         "id": "b",
-        "text": "As things that happen purely by chance"
+        "text": "As pure chance"
       },
       {
         "id": "c",
-        "text": "As the result of climate alone"
+        "text": "By climate alone"
       },
       {
         "id": "d",
-        "text": "As the result of government laws alone"
+        "text": "By government laws alone"
       }
     ],
     "answer": "a",
@@ -2303,7 +2303,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "New technologies, growing cities, migration and global links are changing how people live. Which issues does the chapter say Social Science will help societies deal with in the years ahead?",
+    "prompt": "Technology, cities, migration and global links are changing our lives. Which issues will Social Science help with?",
     "image": {
       "src": "/img/social01/future.svg",
       "alt": "A growing city with solar roofs, a wind turbine, an elevated train and connected phones"
@@ -2311,19 +2311,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Balancing chemical equations and measuring the speed of light"
+        "text": "Balancing chemical equations and measuring light speed"
       },
       {
         "id": "b",
-        "text": "Climate change, sustainable development, social harmony and the fair use of resources"
+        "text": "Climate change, sustainability, social harmony and fair use of resources"
       },
       {
         "id": "c",
-        "text": "Memorising the names of all the cities in the world"
+        "text": "Memorising the names of all the world's cities"
       },
       {
         "id": "d",
-        "text": "Finding the exact date of every future event"
+        "text": "Finding the exact date of future events"
       }
     ],
     "answer": "b",
@@ -2348,7 +2348,7 @@
       "alt": "Four colourful books on a shelf beside a school bag"
     },
     "assertion": "Social Science is mainly about memorising dates, maps and definitions.",
-    "reason": "Social Science is about understanding people, places, society, culture and power, and it links the past, the present and the future.",
+    "reason": "Social Science is about understanding people, places, society, culture and power, from past to future.",
     "answer": "d",
     "hint": "The chapter says plainly what Social Science is not about.",
     "explanation": "The assertion is **false**. The chapter says Social Science is **not** about memorising dates, maps or definitions. The reason is **true**. It is about understanding **people, places, society, culture and power**, learning from the past, analysing the present and imagining a better future, so that we become **informed, responsible citizens**. So the assertion is false and the reason is true."

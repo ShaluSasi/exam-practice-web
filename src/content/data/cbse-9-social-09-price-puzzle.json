@@ -11,7 +11,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Mangoes are costly at the start of the season and much cheaper a few weeks later. The prices of snacks, movie tickets, phones, vegetables and all other goods and services are decided by **two powerful forces**. What are they?",
+    "prompt": "Mangoes are costly early in the season and cheaper later. Which **two forces** decide the price of all goods and services?",
     "image": {
       "src": "/img/social09/mango-season.svg",
       "alt": "Two mango stalls, one early in the season and one later, with price tags"
@@ -50,7 +50,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "A bicycle costs ₹6,000. In economics, which of these children is creating **demand** for it?",
+    "prompt": "A bicycle costs ₹6,000. Which child creates **demand** for it?",
     "image": {
       "src": "/img/social09/wish-vs-buy.svg",
       "alt": "A bicycle with a price tag between two children"
@@ -58,19 +58,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Anu, who wants it badly but has no money and no way to pay"
+        "text": "Anu, who wants it badly but cannot pay"
       },
       {
         "id": "b",
-        "text": "Ravi, who looks at a poster of it and wishes he had one"
+        "text": "Ravi, who sees a poster and wishes he had one"
       },
       {
         "id": "c",
-        "text": "Meera, who has ₹6,000 but has no interest in cycling"
+        "text": "Meera, who has ₹6,000 but no interest in cycling"
       },
       {
         "id": "d",
-        "text": "Kabir, who has saved ₹6,000 and is ready to buy it at that price"
+        "text": "Kabir, who has ₹6,000 and is ready to buy it"
       }
     ],
     "answer": "d",
@@ -94,8 +94,8 @@
       "src": "/img/social09/mango-bag.svg",
       "alt": "A price board for mangoes next to a shopping bag of mangoes"
     },
-    "assertion": "When the price of mangoes fell from ₹150 to ₹100 and then to ₹50 per kg, Srivalli bought 1 kg, then 2 kg, then 3 kg.",
-    "reason": "The Law of Demand states that the price of a good and its quantity demanded move in the same direction.",
+    "assertion": "As mango prices fell from ₹150 to ₹100 to ₹50 per kg, Srivalli bought 1 kg, then 2 kg, then 3 kg.",
+    "reason": "The Law of Demand says price and quantity demanded move in the same direction.",
     "answer": "c",
     "hint": "As the price went down, did the quantity go down too?",
     "explanation": "The assertion is true: it is the chapter's own example of Srivalli's **individual demand**. The reason is false. The **Law of Demand** describes an **inverse** relationship: when price falls, quantity demanded rises, and when price rises, quantity demanded falls (other things remaining the same). Price and quantity moving in the same direction describes the law of **supply**."
@@ -112,7 +112,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Srivalli's demand schedule is: ₹150 → 1 kg, ₹100 → 2 kg, ₹50 → 3 kg. Tap the point that shows how many mangoes she buys when the price is **₹100 per kg**.",
+    "prompt": "Srivalli buys: ₹150 → 1 kg, ₹100 → 2 kg, ₹50 → 3 kg. Tap the point for **₹100 per kg**.",
     "image": {
       "src": "/img/social09/demand-curve.svg",
       "alt": "A demand curve for mangoes with numbered markers"
@@ -165,7 +165,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Using Srivalli's demand schedule (₹150 → 1 kg, ₹100 → 2 kg, ₹50 → 3 kg), at which price does she **spend the most money** on mangoes?",
+    "prompt": "Srivalli buys: ₹150 → 1 kg, ₹100 → 2 kg, ₹50 → 3 kg. At which price does she **spend the most**?",
     "image": {
       "src": "/img/social09/demand-curve.svg",
       "alt": "A demand curve for mangoes with three plotted points"
@@ -185,7 +185,7 @@
       },
       {
         "id": "d",
-        "text": "She spends the same amount at every price"
+        "text": "The same amount at every price"
       }
     ],
     "answer": "a",
@@ -204,7 +204,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put in the correct order the steps for turning a demand schedule into a demand curve.",
+    "prompt": "Put the steps in order to turn a demand schedule into a demand curve.",
     "image": {
       "src": "/img/social09/schedule-to-curve.svg",
       "alt": "A small price and quantity table with an arrow pointing to a graph"
@@ -212,19 +212,19 @@
     "items": [
       {
         "id": "s3",
-        "text": "Mark one point for each price–quantity pair"
+        "text": "Mark a point for each price–quantity pair"
       },
       {
         "id": "s1",
-        "text": "Write down the quantity bought at each price in a table (the demand schedule)"
+        "text": "Make a table of quantity bought at each price"
       },
       {
         "id": "s4",
-        "text": "Join the points to get a downward-sloping demand curve"
+        "text": "Join the points: a downward-sloping curve"
       },
       {
         "id": "s2",
-        "text": "Draw the axes: price on the y-axis and quantity on the x-axis"
+        "text": "Draw axes: price on y, quantity on x"
       }
     ],
     "answer": [
@@ -250,7 +250,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The table shows how many kilograms of guava you and three friends would buy at different prices. What is the **market demand** for guavas at **₹50 per kg**?",
+    "prompt": "The table shows how much guava four friends would buy. What is the **market demand** at **₹50 per kg**?",
     "image": {
       "src": "/img/social09/guava-table.svg",
       "alt": "A table of how many kilograms of guava four friends would buy at four prices"
@@ -289,7 +289,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In the chapter's mango example, the price falls from ₹150 to ₹50 per kg. Srivalli then buys **2 kg more**. But market demand (Srivalli, Alex and Israt together) goes up by **12 kg**. Why is the market demand curve **flatter** than Srivalli's demand curve?",
+    "prompt": "Mangoes fall from ₹150 to ₹50 per kg. Srivalli buys **2 kg more**, but market demand rises by **12 kg**. Why is the market demand curve **flatter**?",
     "image": {
       "src": "/img/social09/ind-market.svg",
       "alt": "Two demand curves, P and Q, on the same price–quantity axes"
@@ -297,19 +297,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Market demand adds up many buyers, so the same fall in price produces a much larger change in total quantity"
+        "text": "It adds up many buyers, so the same price fall changes total quantity much more"
       },
       {
         "id": "b",
-        "text": "Sellers charge lower prices in the market than they charge Srivalli on her own"
+        "text": "Sellers charge the market less than they charge Srivalli"
       },
       {
         "id": "c",
-        "text": "The Law of Demand applies to the whole market but not to individual buyers"
+        "text": "The Law of Demand applies to markets, not to single buyers"
       },
       {
         "id": "d",
-        "text": "Market demand is the average of all buyers' demands, which smooths out the curve"
+        "text": "It is the average of all buyers, which smooths the curve"
       }
     ],
     "answer": "a",
@@ -328,7 +328,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Srivalli buys 1 kg at ₹150 and 3 kg at ₹50. The whole market buys 6 kg at ₹150 and 18 kg at ₹50. Tap the **market demand curve**.",
+    "prompt": "Srivalli buys 1 kg at ₹150 and 3 kg at ₹50. The market buys 6 kg at ₹150 and 18 kg at ₹50. Tap the **market demand curve**.",
     "image": {
       "src": "/img/social09/ind-market.svg",
       "alt": "Two demand curves on price–quantity axes with numbered markers"
@@ -375,7 +375,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In the Let's Explore activity, you make a demand schedule for notebooks. At ₹60 you would buy none, at ₹40 you would buy 2, and at ₹20 you would buy 5. Which graph matches your schedule?",
+    "prompt": "Your notebook demand: ₹60 → 0, ₹40 → 2, ₹20 → 5. Which graph matches?",
     "options": [
       {
         "id": "a",
@@ -426,7 +426,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "In a canteen, the price of coffee goes up from ₹20 to ₹30 a cup. The price of tea stays at ₹15. What will most likely happen to the **demand for tea**?",
+    "prompt": "Coffee goes up from ₹20 to ₹30 a cup. Tea stays at ₹15. What happens to the **demand for tea**?",
     "image": {
       "src": "/img/social09/tea-coffee.svg",
       "alt": "A glass of tea and a mug of coffee with price tags"
@@ -434,19 +434,19 @@
     "options": [
       {
         "id": "a",
-        "text": "It falls, because all hot drinks become less popular"
+        "text": "It falls, as all hot drinks lose popularity"
       },
       {
         "id": "b",
-        "text": "It stays exactly the same, because the price of tea has not changed"
+        "text": "It stays the same, as tea's price hasn't changed"
       },
       {
         "id": "c",
-        "text": "It falls, because tea and coffee are used together"
+        "text": "It falls, as tea and coffee are used together"
       },
       {
         "id": "d",
-        "text": "It rises, because some coffee drinkers switch to tea"
+        "text": "It rises, as some coffee drinkers switch to tea"
       }
     ],
     "answer": "d",
@@ -470,8 +470,8 @@
       "src": "/img/social09/printer.svg",
       "alt": "A printer printing a page, next to an ink cartridge"
     },
-    "assertion": "If the demand for printers increases, the demand for printer cartridges may also rise, even if the price of cartridges does not change.",
-    "reason": "Printers and cartridges are complementary goods, which are generally used together.",
+    "assertion": "If demand for printers rises, demand for cartridges may rise too, even at the same cartridge price.",
+    "reason": "Printers and cartridges are complementary goods, used together.",
     "answer": "a",
     "hint": "Can you use one without the other?",
     "explanation": "Both are true and R explains A. **Complementary goods** are used together to give the consumer utility, so more printers in use means more cartridges are needed. The chapter's other examples are smartphones and earphones, cars and petrol, and movie tickets and cinema popcorn: if tickets get dearer, popcorn sales in the hall may fall."
@@ -488,7 +488,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Select **all** the pairs that are **complementary goods** (goods used together).",
+    "prompt": "Select **all** the **complementary goods** (used together).",
     "image": {
       "src": "/img/social09/goods-pairs.svg",
       "alt": "Four pairs of everyday goods shown side by side"
@@ -496,7 +496,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Movie ticket and popcorn in the cinema hall"
+        "text": "Movie ticket and popcorn"
       },
       {
         "id": "b",
@@ -544,7 +544,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "Suppose the price of petrol **doubles**. Select **all** the goods and services whose demand is likely to **rise**.",
+    "prompt": "Petrol prices **double**. Select **all** whose demand is likely to **rise**.",
     "image": {
       "src": "/img/social09/petrol-pump.svg",
       "alt": "A petrol pump whose price display is changing, with a car filling up"
@@ -560,7 +560,7 @@
       },
       {
         "id": "c",
-        "text": "Bus and metro rides (public transport)"
+        "text": "Bus and metro rides"
       },
       {
         "id": "d",
@@ -586,7 +586,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each determinant of demand (a factor that affects demand) with the example that shows it.",
+    "prompt": "Match each factor that affects demand with its example.",
     "image": {
       "src": "/img/social09/demand-factors.svg",
       "alt": "Five round icons: a cup, a wallet, a heart, a snowflake and a calendar"
@@ -616,27 +616,27 @@
     "right": [
       {
         "id": "r1",
-        "text": "Sweater shops are crowded once winter arrives"
+        "text": "Sweater shops get crowded in winter"
       },
       {
         "id": "r2",
-        "text": "A family waits to buy a fridge, expecting festival discounts"
+        "text": "A family waits for festival discounts to buy a fridge"
       },
       {
         "id": "r3",
-        "text": "Coffee gets dearer, so more people order tea"
+        "text": "Coffee gets costlier, so more people order tea"
       },
       {
         "id": "r4",
-        "text": "Srivalli keeps buying mangoes even though oranges are cheaper"
+        "text": "Srivalli buys mangoes though oranges are cheaper"
       },
       {
         "id": "r5",
-        "text": "After a salary rise, a family buys better-quality rice"
+        "text": "After a pay rise, a family buys better rice"
       },
       {
         "id": "r6",
-        "text": "A farmer plants chickpeas because their price is high"
+        "text": "A farmer grows chickpeas because their price is high"
       }
     ],
     "pairs": {
@@ -661,7 +661,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The kind of people living in a place affects demand. In a town where **many elderly people** live, which type of footwear will be in higher demand? Tap it.",
+    "prompt": "In a town with **many elderly people**, which footwear will be in higher demand? Tap it.",
     "image": {
       "src": "/img/social09/shoes.svg",
       "alt": "A shoe-shop shelf with four kinds of footwear and numbered markers"
@@ -708,7 +708,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The first mango tastes delicious and the second is good. But by the fourth, you hardly want any more. What does the chapter call this idea, and how does it affect demand?",
+    "prompt": "The first mango tastes great, the second good, but by the fourth you hardly want more. What is this idea, and how does it affect demand?",
     "image": {
       "src": "/img/social09/mango-utility.svg",
       "alt": "Four mangoes eaten one after another, with a bar and a face above each"
@@ -716,11 +716,11 @@
     "options": [
       {
         "id": "a",
-        "text": "Law of supply: sellers lower the price after each mango"
+        "text": "Law of supply: sellers cut the price after each mango"
       },
       {
         "id": "b",
-        "text": "Diminishing marginal utility: the extra satisfaction from each additional mango falls, so willingness to pay falls"
+        "text": "Diminishing marginal utility: each extra mango satisfies less, so you'd pay less"
       },
       {
         "id": "c",
@@ -728,7 +728,7 @@
       },
       {
         "id": "d",
-        "text": "Seasonality: mangoes go out of season while you are eating them"
+        "text": "Seasonality: mangoes go out of season as you eat"
       }
     ],
     "answer": "b",
@@ -747,7 +747,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "For some goods, demand depends more on the time of year than on the price. Tap the shop that will most likely be crowded at the **start of a new school year**.",
+    "prompt": "Tap the shop most likely crowded at the **start of the school year**.",
     "image": {
       "src": "/img/social09/season-shops.svg",
       "alt": "A street with four shops and numbered markers"
@@ -794,7 +794,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Seller A offers 1 kg of mangoes at ₹50, 2 kg at ₹100 and 3 kg at ₹150. Which graph shows this seller's **supply curve**?",
+    "prompt": "A seller offers 1 kg of mangoes at ₹50, 2 kg at ₹100, 3 kg at ₹150. Which graph is the **supply curve**?",
     "options": [
       {
         "id": "a",
@@ -845,7 +845,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Three mango sellers, X, Y and Z, offer the quantities shown. What is the **market supply** at **₹80 per kg**?",
+    "prompt": "Sellers X, Y and Z offer the amounts shown. What is the **market supply** at **₹80 per kg**?",
     "image": {
       "src": "/img/social09/supply-table.svg",
       "alt": "A table of how many kilograms of mangoes three sellers offer at three prices"
@@ -889,8 +889,8 @@
       "src": "/img/social09/mango-orchard.svg",
       "alt": "Two mango trees with a few mangoes slowly ripening"
     },
-    "assertion": "At the start of the mango season, mangoes are cheap because plenty of them reach the market.",
-    "reason": "In the middle of the season, the supply of mangoes increases and their price falls.",
+    "assertion": "Early in the season, mangoes are cheap because plenty reach the market.",
+    "reason": "Mid-season, mango supply rises and prices fall.",
     "answer": "d",
     "hint": "How many mangoes are ripe in the first few weeks?",
     "explanation": "The assertion is false: at the start of the season **supply is low**, which makes mangoes **costly**. The reason is true: mid-season, supply rises and prices fall. The general rule in the chapter is that when supply is less than demand, prices rise, and when supply exceeds demand, prices fall."
@@ -907,7 +907,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Match each determinant of supply (a factor that affects supply) with its example.",
+    "prompt": "Match each factor that affects supply with its example.",
     "image": {
       "src": "/img/social09/supply-factors.svg",
       "alt": "Four round icons: two crops, three stalls, a refrigerated truck and a storehouse"
@@ -933,23 +933,23 @@
     "right": [
       {
         "id": "s1",
-        "text": "Cold-storage trucks let mangoes reach distant markets"
+        "text": "Cold-storage trucks carry mangoes to far markets"
       },
       {
         "id": "s2",
-        "text": "Potato wholesalers hold back stock, expecting higher prices in the peak season"
+        "text": "Potato traders hold stock, expecting higher prices later"
       },
       {
         "id": "s3",
-        "text": "Chickpea prices are high, so a farmer grows chickpeas instead of wheat next season"
+        "text": "Chickpeas sell high, so a farmer grows them instead of wheat"
       },
       {
         "id": "s4",
-        "text": "Many new juice stalls open on one street, and juice becomes cheaper"
+        "text": "Many new juice stalls open, and juice gets cheaper"
       },
       {
         "id": "s5",
-        "text": "Bookshops get crowded when the school year begins"
+        "text": "Bookshops get crowded when school begins"
       }
     ],
     "pairs": {
@@ -973,7 +973,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A farmer used to water his field by hand. Now he uses **drip irrigation**. This cuts water use by **40%** and raises his yield (crop output) by **30%**. He used to harvest **40 quintals** of tomatoes. How much does he harvest now?",
+    "prompt": "A farmer switches to **drip irrigation**. It cuts water use by **40%** and raises yield by **30%**. He used to harvest **40 quintals** of tomatoes. How much now?",
     "image": {
       "src": "/img/social09/drip-irrigation.svg",
       "alt": "Tomato plants watered drop by drop from a pipe along the field"
@@ -1012,7 +1012,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Suppose **many** farmers in a region start using drip irrigation. If nothing else changes, what will most likely happen in the tomato market?",
+    "prompt": "**Many** farmers start drip irrigation. If nothing else changes, what happens in the tomato market?",
     "image": {
       "src": "/img/social09/supply-shift.svg",
       "alt": "A demand curve with a supply curve sliding sideways and the crossing point moving"
@@ -1020,19 +1020,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Demand for tomatoes rises, so their price rises"
+        "text": "Demand rises, so the price rises"
       },
       {
         "id": "b",
-        "text": "Supply falls, because farmers now use less water"
+        "text": "Supply falls, as farmers use less water"
       },
       {
         "id": "c",
-        "text": "Market supply rises at every price, so the equilibrium price tends to fall and more is sold"
+        "text": "Supply rises at every price, so the price tends to fall and more is sold"
       },
       {
         "id": "d",
-        "text": "Nothing changes, because the price of tomatoes has not changed"
+        "text": "Nothing, as the tomato price hasn't changed"
       }
     ],
     "answer": "c",
@@ -1051,7 +1051,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The table shows the tomato market one morning. What are the **equilibrium price** and **equilibrium quantity**?",
+    "prompt": "From the tomato table, what are the **equilibrium price** and **quantity**?",
     "image": {
       "src": "/img/social09/schedule-eq.svg",
       "alt": "A table of quantities of tomatoes demanded and supplied at five prices"
@@ -1090,7 +1090,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "In the same tomato market, suppose the price is stuck at **₹30 per kg**. What does the market face?",
+    "prompt": "In the same market, the price is stuck at **₹30 per kg**. What happens?",
     "image": {
       "src": "/img/social09/schedule-eq.svg",
       "alt": "A table of quantities of tomatoes demanded and supplied at five prices"
@@ -1129,7 +1129,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "Now suppose the tomato price is **₹60 per kg**. What happens in the market?",
+    "prompt": "Now the price is **₹60 per kg**. What happens?",
     "image": {
       "src": "/img/social09/schedule-eq.svg",
       "alt": "A table of quantities of tomatoes demanded and supplied at five prices"
@@ -1168,7 +1168,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "The graph shows demand curve DD’ and supply curve SS’ for a market. Tap the point that shows **market equilibrium**.",
+    "prompt": "Tap the point that shows **market equilibrium**.",
     "image": {
       "src": "/img/social09/eq-graph.svg",
       "alt": "Demand and supply curves with two dashed price lines and numbered markers"
@@ -1221,7 +1221,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "The upper and lower dashed lines show two prices that are not the equilibrium price. Tap the gap that shows a **surplus (excess supply)**.",
+    "prompt": "The dashed lines are two non-equilibrium prices. Tap the gap showing a **surplus (excess supply)**.",
     "image": {
       "src": "/img/social09/eq-graph.svg",
       "alt": "Demand and supply curves with two dashed price lines and numbered markers"
@@ -1268,7 +1268,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "The price of mangoes is **below** the equilibrium price. Put in order what happens next in a free market.",
+    "prompt": "The mango price is **below** equilibrium. Put what happens next in order.",
     "image": {
       "src": "/img/social09/shortage-queue.svg",
       "alt": "A long queue of buyers in front of a mango stall with only a few mangoes"
@@ -1276,23 +1276,23 @@
     "items": [
       {
         "id": "t3",
-        "text": "Buyers are willing to pay more, and sellers raise the price"
+        "text": "Buyers will pay more, so sellers raise the price"
       },
       {
         "id": "t5",
-        "text": "The gap closes where quantity demanded equals quantity supplied"
+        "text": "It settles where demand equals supply"
       },
       {
         "id": "t1",
-        "text": "Quantity demanded is greater than quantity supplied at this low price"
+        "text": "At this low price, demand is more than supply"
       },
       {
         "id": "t4",
-        "text": "As the price rises, quantity demanded falls and quantity supplied rises"
+        "text": "As price rises, demand falls and supply rises"
       },
       {
         "id": "t2",
-        "text": "A shortage appears: queues form and some buyers go home empty-handed"
+        "text": "A shortage: queues form, some buyers go empty-handed"
       }
     ],
     "answer": [
@@ -1324,8 +1324,8 @@
       "src": "/img/social09/scale-balance.svg",
       "alt": "A balance with D on one pan and S on the other, tipping back and forth"
     },
-    "assertion": "In real-world markets, the equilibrium keeps moving and never fully settles.",
-    "reason": "At equilibrium, the quantity demanded equals the quantity supplied.",
+    "assertion": "In real markets, equilibrium keeps moving and never fully settles.",
+    "reason": "At equilibrium, quantity demanded equals quantity supplied.",
     "answer": "b",
     "hint": "Both statements are correct. Does the definition of equilibrium explain why it keeps shifting?",
     "explanation": "Both are true, but R does not explain A: R only **defines** equilibrium. A is true because changes in **technology, wages, interest rates, wars, political events, pandemics, weather and natural disasters** keep shifting demand and supply, so the market is always adjusting to a new equilibrium. Those changing conditions are what explain A."
@@ -1342,7 +1342,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put in order the story of face-mask prices during the COVID-19 pandemic of 2020, as told in the chapter.",
+    "prompt": "Put the story of face-mask prices in the 2020 COVID-19 pandemic in order.",
     "image": {
       "src": "/img/social09/mask-timeline.svg",
       "alt": "A line graph of the price of face masks over time, with a mask drawn beside it"
@@ -1350,19 +1350,19 @@
     "items": [
       {
         "id": "u3",
-        "text": "Suppliers adjust to the higher demand and prices fall"
+        "text": "Suppliers catch up and prices fall"
       },
       {
         "id": "u1",
-        "text": "The pandemic begins and demand for face masks surges"
+        "text": "The pandemic begins; demand for masks surges"
       },
       {
         "id": "u4",
-        "text": "The pandemic ends, demand drops further and prices return to pre-pandemic levels"
+        "text": "The pandemic ends; prices return to normal"
       },
       {
         "id": "u2",
-        "text": "Supply cannot catch up immediately, so mask prices rise sharply"
+        "text": "Supply can't keep up, so prices rise sharply"
       }
     ],
     "answer": [
@@ -1388,7 +1388,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "During the festive season, people buy more sweets at every price. So the demand curve shifts from **D1** to **D2**. Supply **S** does not change. Tap the **new equilibrium**.",
+    "prompt": "At festival time, people buy more sweets at every price: demand shifts from **D1** to **D2**. Supply **S** stays the same. Tap the **new equilibrium**.",
     "image": {
       "src": "/img/social09/demand-shift.svg",
       "alt": "A supply curve with two demand curves and numbered markers"
@@ -1435,7 +1435,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The same flight seat costs **₹3,000** on one day and **₹9,000** on another day. By what **percentage** is the higher fare more than the lower fare?",
+    "prompt": "A flight seat costs **₹3,000** one day and **₹9,000** another. By what **percentage** is the higher fare more?",
     "image": {
       "src": "/img/social09/flight-fare.svg",
       "alt": "An aeroplane flying across the sky with two ticket price tags below"
@@ -1474,7 +1474,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A hotel in Goa charges **₹8,000** a night for a Saturday in December. A group tour cancels its booking. So the hotel **cuts the tariff (room rate) by 40%** overnight to fill the empty rooms. What is the new tariff?",
+    "prompt": "A Goa hotel charges **₹8,000** a night on a December Saturday. A group cancels, so it **cuts the rate by 40%**. What is the new rate?",
     "image": {
       "src": "/img/social09/hotel-tariff.svg",
       "alt": "A seaside hotel with room-rate tags for different days"
@@ -1513,7 +1513,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "order",
-    "prompt": "Use the chapter's Goa hotel example. Arrange these nights from the **lowest** room tariff (room rate) to the **highest**.",
+    "prompt": "Goa hotel: order these nights from **lowest** to **highest** room rate.",
     "image": {
       "src": "/img/social09/tariff-calendar.svg",
       "alt": "Four calendar pages for different nights at a hotel, each with an unknown room rate"
@@ -1533,7 +1533,7 @@
       },
       {
         "id": "v2",
-        "text": "A December Saturday after a group tour cancels and the tariff is cut by 40%"
+        "text": "A December Saturday after a group cancels (rate cut 40%)"
       }
     ],
     "answer": [
@@ -1559,7 +1559,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "When a hotel changes its room tariffs (room rates), which of these factors does it consider, as listed in the chapter? Select **all** that apply.",
+    "prompt": "Which factors does a hotel consider when changing room rates? Select **all** that apply.",
     "image": {
       "src": "/img/social09/hotel-tariff.svg",
       "alt": "A seaside hotel with room-rate tags for different days"
@@ -1583,11 +1583,11 @@
       },
       {
         "id": "e",
-        "text": "A single fixed rate set for the whole year"
+        "text": "One fixed rate for the whole year"
       },
       {
         "id": "f",
-        "text": "Number of days left before the guest arrives"
+        "text": "Days left before the guest arrives"
       }
     ],
     "answers": [
@@ -1616,8 +1616,8 @@
       "src": "/img/social09/sustain-fish.svg",
       "alt": "A fishing boat dragging a big net through the sea"
     },
-    "assertion": "Overfishing to meet today's high demand can reduce the supply of fish in the future.",
-    "reason": "When a resource is used up faster than it can recover, less of it is left for the future.",
+    "assertion": "Overfishing for today's demand can reduce fish supply in future.",
+    "reason": "If a resource is used faster than it recovers, less is left for later.",
     "answer": "a",
     "hint": "Fish need time to breed and grow back.",
     "explanation": "Both are true and R explains A. The chapter's Think About It box warns that high demand for fast fashion, **overfishing** and the overuse of **groundwater** can harm **future supply**. Chasing only short-term gains leaves less to sell later and pushes prices up, so long-term **sustainability** also affects market equilibrium."
@@ -1634,7 +1634,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "hotspot",
-    "prompt": "A **price floor** (a legal minimum price) works only if it is set **above** the equilibrium price. Tap the line that would be an **effective price floor** in this market.",
+    "prompt": "A **price floor** (legal minimum price) works only if set **above** equilibrium. Tap the **effective price floor**.",
     "image": {
       "src": "/img/social09/ceiling-floor.svg",
       "alt": "Demand and supply curves with two green dashed price lines and numbered markers"
@@ -1687,7 +1687,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "The government sets a **maximum** sale price for an essential vaccine. This price is **below** the market price, like the ₹100 line on this graph, where equilibrium is ₹200. What is most likely to happen?",
+    "prompt": "The government sets a **maximum** vaccine price of ₹100, **below** the ₹200 equilibrium. What will most likely happen?",
     "image": {
       "src": "/img/social09/ceiling-floor.svg",
       "alt": "Demand and supply curves with two green dashed price lines across the graph"
@@ -1726,7 +1726,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "mcq",
-    "prompt": "The market price of wheat is **₹30 per kg**. But the government sets a **maximum price of ₹20 per kg**. A farmer sells **800 kg**. How much **less** does he earn than he would in a free market?",
+    "prompt": "Wheat's market price is **₹30/kg**, but the government caps it at **₹20/kg**. A farmer sells **800 kg**. How much **less** does he earn?",
     "image": {
       "src": "/img/social09/wheat-ceiling.svg",
       "alt": "Sacks of wheat beside a farmer, with a market price tag and a maximum price tag"
@@ -1765,7 +1765,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "order",
-    "prompt": "Put in order the events of the hand-sanitiser case given in the chapter.",
+    "prompt": "Put the hand-sanitiser story in order.",
     "image": {
       "src": "/img/social09/sanitiser.svg",
       "alt": "A shop shelf with only a few hand-sanitiser bottles and a large bottle with a price tag"
@@ -1773,23 +1773,23 @@
     "items": [
       {
         "id": "w4",
-        "text": "The government declares sanitisers essential commodities and caps the maximum retail price"
+        "text": "The government declares them essential and caps the price"
       },
       {
         "id": "w2",
-        "text": "Shops run out of stock and prices rise sharply"
+        "text": "Shops run out and prices rise sharply"
       },
       {
         "id": "w5",
-        "text": "Many companies start production and sanitisers become widely available at fair prices"
+        "text": "Many firms start making them; prices become fair"
       },
       {
         "id": "w1",
-        "text": "Demand for sanitisers surges during COVID-19"
+        "text": "Demand surges during COVID-19"
       },
       {
         "id": "w3",
-        "text": "Some shopkeepers start hoarding and black-marketing"
+        "text": "Some shopkeepers hoard and sell on the black market"
       }
     ],
     "answer": [
@@ -1846,27 +1846,27 @@
     "right": [
       {
         "id": "d1",
-        "text": "Illegal trade in goods or services that are banned or regulated"
+        "text": "Illegal trade in banned or controlled goods"
       },
       {
         "id": "d2",
-        "text": "The highest price a seller is allowed to charge"
+        "text": "The highest price a seller may charge"
       },
       {
         "id": "d3",
-        "text": "Storing goods beyond present need, expecting shortages or higher prices"
+        "text": "Storing goods beyond need, expecting shortage or higher prices"
       },
       {
         "id": "d4",
-        "text": "A single seller controlling the whole supply of a product with no close substitutes"
+        "text": "One seller controls all supply, with no close substitutes"
       },
       {
         "id": "d5",
-        "text": "A legal lower limit on a price, such as a minimum wage"
+        "text": "A legal minimum price, like a minimum wage"
       },
       {
         "id": "d6",
-        "text": "Total money a business earns from sales before expenses"
+        "text": "Money a business earns from sales before costs"
       }
     ],
     "pairs": {
@@ -1891,7 +1891,7 @@
     "difficulty": "easy",
     "marks": 2,
     "type": "match",
-    "prompt": "Regulators help keep markets transparent (open and clear). Match each regulator with the area it looks after.",
+    "prompt": "Match each regulator with the area it looks after.",
     "image": {
       "src": "/img/social09/regulators.svg",
       "alt": "Four round icons: a bank, a mobile tower, a share-price chart and a shield with a shopping bag"
@@ -1921,7 +1921,7 @@
       },
       {
         "id": "y2",
-        "text": "Violations of consumer rights and unfair trade practices"
+        "text": "Consumer rights and unfair trade"
       },
       {
         "id": "y3",
@@ -1929,7 +1929,7 @@
       },
       {
         "id": "y4",
-        "text": "The securities market (shares and similar investments)"
+        "text": "Shares and the securities market"
       },
       {
         "id": "y5",
@@ -1957,7 +1957,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "Most things in this neighbourhood are **public goods** provided by the government. Tap the one that is a **private** business that sells to make a profit.",
+    "prompt": "Most things here are **public goods**. Tap the **private** business that sells for profit.",
     "image": {
       "src": "/img/social09/public-goods.svg",
       "alt": "A neighbourhood scene with numbered markers"
@@ -2010,7 +2010,7 @@
     "difficulty": "hard",
     "marks": 2,
     "type": "mcq",
-    "prompt": "A neighbourhood park will cost **₹4,00,000**. Each family was supposed to give **₹5,000**. But only **50 families** pay. The others think, 'If others pay, I can use it for free.' How much money is **still missing**?",
+    "prompt": "A park costs **₹4,00,000**. Each family should give **₹5,000**, but only **50 families** pay; the rest want to use it free. How much is **still missing**?",
     "image": {
       "src": "/img/social09/park-fund.svg",
       "alt": "A row of houses and a collection box for building a neighbourhood park"
@@ -2049,7 +2049,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "multi",
-    "prompt": "India has a market-based economy that the government regulates. Select **all** the actions or reasons for government intervention (stepping in) that the chapter describes.",
+    "prompt": "Select **all** the reasons the government steps into markets.",
     "image": {
       "src": "/img/social09/govt-tools.svg",
       "alt": "Five round icons about prices, sellers and goods kept in storage"
@@ -2057,27 +2057,27 @@
     "options": [
       {
         "id": "a",
-        "text": "Keeping essentials like medicines affordable, especially for low-income groups"
+        "text": "Keeping essentials like medicines affordable for the poor"
       },
       {
         "id": "b",
-        "text": "Providing public goods such as roads and streetlights"
+        "text": "Providing public goods like roads and streetlights"
       },
       {
         "id": "c",
-        "text": "Setting the price of every good sold in the country"
+        "text": "Setting the price of every good in the country"
       },
       {
         "id": "d",
-        "text": "Stopping monopolies from charging high prices and restricting supply"
+        "text": "Stopping monopolies from overcharging and limiting supply"
       },
       {
         "id": "e",
-        "text": "Guaranteeing that every business makes a profit"
+        "text": "Making sure every business earns a profit"
       },
       {
         "id": "f",
-        "text": "Levying higher taxes on tobacco and alcohol to promote healthier choices"
+        "text": "Higher taxes on tobacco and alcohol for better health"
       }
     ],
     "answers": [
@@ -2101,7 +2101,7 @@
     "difficulty": "medium",
     "marks": 2,
     "type": "match",
-    "prompt": "Too much government intervention can harm markets. Match each limitation (problem) with its example.",
+    "prompt": "Too much government control can harm markets. Match each problem with its example.",
     "image": {
       "src": "/img/social09/permits.svg",
       "alt": "A small eatery and its owner carrying a tall stack of forms"
@@ -2109,7 +2109,7 @@
     "left": [
       {
         "id": "z1",
-        "text": "Price distortions and reduced producer incentives"
+        "text": "Distorted prices, less reason to produce"
       },
       {
         "id": "z2",
@@ -2117,25 +2117,25 @@
       },
       {
         "id": "z3",
-        "text": "Discourages innovation and entrepreneurship"
+        "text": "Fewer new ideas and businesses"
       }
     ],
     "right": [
       {
         "id": "e1",
-        "text": "A small restaurant needs separate permissions for food safety, fire safety, pollution control and local clearances"
+        "text": "A small eatery needs many separate permits: food, fire, pollution, local"
       },
       {
         "id": "e2",
-        "text": "Farmers stop investing in better seeds and irrigation because the returns are too low"
+        "text": "Farmers stop investing in better seeds, as returns are too low"
       },
       {
         "id": "e3",
-        "text": "A maximum wheat price below the market price makes farmers grow less, causing shortages"
+        "text": "A low wheat price cap makes farmers grow less, causing shortages"
       },
       {
         "id": "e4",
-        "text": "Sanitisers become widely available after many companies start making them"
+        "text": "Sanitisers become easy to find after many firms make them"
       }
     ],
     "pairs": {
@@ -2163,8 +2163,8 @@
       "src": "/img/social09/town-meeting.svg",
       "alt": "Four people from different walks of life talking around a table"
     },
-    "assertion": "Before deciding how much to step into a market, a democratic government should listen to the views of consumers, producers and workers.",
-    "reason": "A democratic government is accountable to the people and is expected to act in their interest.",
+    "assertion": "Before stepping into a market, a democratic government should hear consumers, producers and workers.",
+    "reason": "A democratic government answers to the people and should act for them.",
     "answer": "a",
     "hint": "To whom is a democratic government answerable?",
     "explanation": "Both are true and R explains A. The chapter's Let's Recall box links back to the chapter on democracy: because a democratic government is **accountable to the people**, it must weigh the welfare of everyone a market decision affects. A price cap may help consumers but hurt producers, so balancing these voices is part of acting in the people's interest."
@@ -2181,7 +2181,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "At a vegetable market, tomatoes sell for ₹40 per kg in the morning but only ₹20 per kg by evening. Which explanation uses **demand and supply** best?",
+    "prompt": "Tomatoes cost ₹40/kg in the morning but ₹20/kg by evening. Which **demand and supply** explanation is best?",
     "image": {
       "src": "/img/social09/veg-market.svg",
       "alt": "A tomato seller's stall in the morning and in the evening, with price tags"
@@ -2189,19 +2189,19 @@
     "options": [
       {
         "id": "a",
-        "text": "Sellers have unsold tomatoes that will spoil and fewer buyers are left, so supply exceeds demand"
+        "text": "Unsold tomatoes will spoil and fewer buyers remain, so supply exceeds demand"
       },
       {
         "id": "b",
-        "text": "The government orders every seller to halve vegetable prices after sunset each day"
+        "text": "The government orders all sellers to halve prices after sunset"
       },
       {
         "id": "c",
-        "text": "Evening shoppers have more money to spend, so sellers can accept a lower price from them"
+        "text": "Evening shoppers have more money, so sellers accept less"
       },
       {
         "id": "d",
-        "text": "Tomatoes sold in the morning cost farmers more to grow than those sold in the evening"
+        "text": "Morning tomatoes cost more to grow than evening ones"
       }
     ],
     "answer": "a",
