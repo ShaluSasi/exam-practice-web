@@ -21,30 +21,50 @@
         "id": "swing",
         "x": 16.43,
         "y": 54.69,
+        "marker": {
+          "x": 16.4,
+          "y": 30
+        },
         "label": "Swing"
       },
       {
         "id": "grandpa",
         "x": 36.79,
         "y": 56.25,
+        "marker": {
+          "x": 30,
+          "y": 30
+        },
         "label": "Bench"
       },
       {
         "id": "bush",
         "x": 63.39,
         "y": 66.25,
+        "marker": {
+          "x": 60,
+          "y": 34
+        },
         "label": "Elephant-shaped bush"
       },
       {
         "id": "child",
         "x": 81.79,
         "y": 64.06,
+        "marker": {
+          "x": 76,
+          "y": 40
+        },
         "label": "Small child"
       },
       {
         "id": "lady",
         "x": 91.96,
         "y": 59.38,
+        "marker": {
+          "x": 95,
+          "y": 26
+        },
         "label": "The child's mother"
       }
     ],
@@ -1124,18 +1144,30 @@
         "id": "cradle",
         "x": 19.23,
         "y": 51.56,
+        "marker": {
+          "x": 19,
+          "y": 27
+        },
         "label": "Cradle"
       },
       {
         "id": "toys",
         "x": 39.42,
         "y": 87.5,
+        "marker": {
+          "x": 30,
+          "y": 72
+        },
         "label": "Toys"
       },
       {
         "id": "shiuli",
         "x": 56.15,
         "y": 53.13,
+        "marker": {
+          "x": 42,
+          "y": 36
+        },
         "label": "Shiuli flowers"
       },
       {
@@ -1245,7 +1277,7 @@
     "difficulty": "medium",
     "marks": 1,
     "type": "mcq",
-    "prompt": "Which word from stanza 1 of the poem is an example of **onomatopoeia**?",
+    "prompt": "Stanza 1: *'I cannot remember my mother, / only sometimes in the midst of my play / a tune seems to hover over my playthings, / the tune of some song that she used to hum / while rocking my cradle.'* Which word is an example of **onomatopoeia**?",
     "image": {
       "src": "/img/english04/cradle.svg",
       "alt": "A cradle rocking while musical notes float in the air"
@@ -2143,7 +2175,7 @@
     "difficulty": "easy",
     "marks": 1,
     "type": "hotspot",
-    "prompt": "You are writing an article, **'Our Inspiring Elderly'**, for your school magazine. Tap the part where you should explain how the elderly **overcame challenges** and how they have inspired you.",
+    "prompt": "You are writing an article, **'Our Inspiring Elderly'**, for your school magazine. Tap the part where you should write your **conclusion**.",
     "image": {
       "src": "/img/english04/article.svg",
       "alt": "A school-magazine article page with numbered markers on its parts"
@@ -2186,9 +2218,9 @@
         "label": "Paragraph 4"
       }
     ],
-    "answer": "p3",
-    "hint": "Introduction first, then supporting details, then this part, then the conclusion.",
-    "explanation": "The task's plan is: **title**, then your **name and grade**; Paragraph 1 introduces the main idea; Paragraph 2 gives details, examples, facts and quotations on how the elderly inspire; **Paragraph 3** elaborates on how they overcame challenges and their impact on you; and Paragraph 4 concludes."
+    "answer": "p4",
+    "hint": "An article opens with an introduction and ends with this.",
+    "explanation": "An article's **conclusion** comes in its **last paragraph**. The layout is: **title**, then your **name and class**; Paragraph 1 introduces the main idea; Paragraphs 2 and 3 give details, examples and how the elderly overcame challenges and inspired you; **Paragraph 4** sums up."
   },
   {
     "id": "en04-q048",
