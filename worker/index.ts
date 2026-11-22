@@ -34,7 +34,7 @@ import {
 import { fixReport, getAdminReports, getMyReports, setReportStatus, submitReport } from "./reports";
 import { getScores, importDevice, saveRounds } from "./scores";
 import { appPage, cbsePage, privacyPage, robotsTxt, sitemap, termsPage, toMainAddress } from "./seo";
-import { getAdminUsers } from "./users";
+import { getAdminUsers, getUserProgress } from "./users";
 import { countPlay, createShare, gamePage, getShare, homePage, sharePage } from "./share";
 
 export default {
@@ -111,6 +111,8 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await saveOrder(request, env, url);
       case "GET /api/admin/users":
         return await getAdminUsers(request, env, url);
+      case "GET /api/admin/users/progress":
+        return await getUserProgress(request, env, url);
       case "GET /api/admin/reports":
         return await getAdminReports(request, env, url);
       case "POST /api/admin/reports/status":

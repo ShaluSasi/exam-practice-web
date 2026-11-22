@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "motion/react";
-import { Download, Search, ShieldCheck, X } from "lucide-react";
+import { ChevronRight, Download, Search, ShieldCheck, X } from "lucide-react";
 import clsx from "clsx";
 import type { AdminUser, AdminUsers } from "../content/api";
 import { region } from "../config/regions";
@@ -9,7 +9,7 @@ import { Chip, Header, Problem, Spinner, formatDate } from "../components/AdminP
 import { Button } from "../components/Button";
 import { addDays, dayOf } from "../lib/day";
 import { api } from "../store/auth";
-import { useNav } from "../store/nav";
+import { openUserProgress, useNav } from "../store/nav";
 
 type Preset = "today" | "yesterday" | "week" | "month" | "thisMonth" | "all" | "custom";
 
@@ -116,45 +116,53 @@ function Stat({ label, value }: { label: string; value: number }) {
 
 function UserRow({ user, onExclude }: { user: AdminUser; onExclude: (email: string) => void }) {
   return (
-    <li className="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-2xl border-2 border-line bg-surface p-4">
-      <div className="flex min-w-0 flex-[1_1_16rem] items-center gap-3">
-        <Avatar name={user.name} picture={user.picture} size="size-10" />
-        <div className="min-w-0">
-          <p className="flex items-center gap-1.5 truncate font-display font-bold">
-            <span className="truncate">{user.name}</span>
-            {user.role !== "student" && (
-              <span title={user.role} className="shrink-0 text-brand">
-                <ShieldCheck className="size-4" aria-label={user.role} />
-              </span>
-            )}
-          </p>
-          <p className="truncate text-sm text-muted [overflow-wrap:anywhere]">{user.email}</p>
-        </div>
-      </div>
-      <div className="flex flex-[2_1_20rem] flex-wrap items-center gap-1.5">
-        <Chip className="bg-brand-soft text-brand">Last seen {dateTime(user.lastSeenAt)}</Chip>
-        <Chip>
-          {user.days} day{user.days === 1 ? "" : "s"}
-        </Chip>
-        <Chip>
-          {user.visits} visit{user.visits === 1 ? "" : "s"}
-        </Chip>
-        {user.signIns > 0 && (
+    <li className="flex items-center gap-2 rounded-2xl border-2 border-line bg-surface p-2 transition hover:border-fg/30">
+      <button
+        type="button"
+        onClick={() => openUserProgress(user.id)}
+        title={`See ${user.name}'s progress`}
+        className="group flex min-w-0 flex-1 flex-wrap items-center gap-x-4 gap-y-2 rounded-xl p-2 text-left"
+      >
+        <span className="flex min-w-0 flex-[1_1_16rem] items-center gap-3">
+          <Avatar name={user.name} picture={user.picture} size="size-10" />
+          <span className="min-w-0">
+            <span className="flex items-center gap-1.5 truncate font-display font-bold">
+              <span className="truncate">{user.name}</span>
+              {user.role !== "student" && (
+                <span title={user.role} className="shrink-0 text-brand">
+                  <ShieldCheck className="size-4" aria-label={user.role} />
+                </span>
+              )}
+            </span>
+            <span className="block truncate text-sm text-muted [overflow-wrap:anywhere]">{user.email}</span>
+          </span>
+        </span>
+        <span className="flex flex-[2_1_20rem] flex-wrap items-center gap-1.5">
+          <Chip className="bg-brand-soft text-brand">Last seen {dateTime(user.lastSeenAt)}</Chip>
           <Chip>
-            {user.signIns} sign-in{user.signIns === 1 ? "" : "s"}
+            {user.days} day{user.days === 1 ? "" : "s"}
           </Chip>
-        )}
-        <Chip>
-          {user.rounds} round{user.rounds === 1 ? "" : "s"}
-        </Chip>
-        {user.grade != null && <Chip>{region.gradeLabel(user.grade)}</Chip>}
-        <Chip>Joined {formatDate(user.joinedAt)}</Chip>
-      </div>
+          <Chip>
+            {user.visits} visit{user.visits === 1 ? "" : "s"}
+          </Chip>
+          {user.signIns > 0 && (
+            <Chip>
+              {user.signIns} sign-in{user.signIns === 1 ? "" : "s"}
+            </Chip>
+          )}
+          <Chip>
+            {user.rounds} round{user.rounds === 1 ? "" : "s"}
+          </Chip>
+          {user.grade != null && <Chip>{region.gradeLabel(user.grade)}</Chip>}
+          <Chip>Joined {formatDate(user.joinedAt)}</Chip>
+        </span>
+        <ChevronRight className="ml-auto size-5 shrink-0 text-muted transition group-hover:translate-x-0.5 group-hover:text-fg" aria-hidden />
+      </button>
       <button
         type="button"
         onClick={() => onExclude(user.email)}
         title="Leave this email out of the list"
-        className="ml-auto rounded-xl px-2.5 py-1.5 text-xs font-bold text-muted hover:bg-surface-2 hover:text-fg"
+        className="shrink-0 rounded-xl px-2.5 py-1.5 text-xs font-bold text-muted hover:bg-surface-2 hover:text-fg"
       >
         Exclude
       </button>

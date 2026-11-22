@@ -134,7 +134,8 @@ function insertRound(env: Env, user: SessionUser, r: RoundIn, source: "live" | "
 }
 
 /** Totals, the latest rounds, and the best round of every chapter. */
-async function summary(env: Env, userId: string) {
+/** A student's totals, latest rounds and best round per title (also shown to admins, worker/users.ts). */
+export async function summary(env: Env, userId: string) {
   const [totals, recent, bests] = await env.DB.batch([
     env.DB.prepare(
       `SELECT u.base_xp + COALESCE(SUM(r.xp), 0) AS xp,

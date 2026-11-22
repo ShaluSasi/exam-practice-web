@@ -2,10 +2,11 @@
  * Admin Users page: the accounts that used the app on chosen days (India time),
  * from user_visits (recorded at sign-in and each time the app opens, worker/auth.ts).
  */
-import type { AdminUser, AdminUsers } from "../src/content/api";
+import type { AdminUser, AdminUserProgress, AdminUsers, ScoreSummary } from "../src/content/api";
 import { DAY_RE, addDays, dayStart } from "../src/lib/day";
 import { adminEmails, requireRole, roleOf, type Role } from "./auth";
 import { HttpError, json, type Env } from "./http";
+import { summary } from "./scores";
 
 const MAX_LISTED = 2000;
 /** D1 allows 100 bound values a query; the rest of the query uses a few. */
@@ -99,4 +100,23 @@ export async function getAdminUsers(request: Request, env: Env, url: URL): Promi
     newUsers: (made.results[0] as { n: number } | undefined)?.n ?? 0,
     totalUsers: (all.results[0] as { n: number } | undefined)?.n ?? 0,
   } satisfies AdminUsers);
+}
+
+/** GET /api/admin/users/progress?user=<id>: one student's scores and unfinished rounds, for their progress page. */
+export async function getUserProgress(request: Request, env: Env, url: URL): Promise<Response> {
+  await requireRole(request, env, ["admin"]);
+  const id = url.searchParams.get("user") ?? "";
+  const user = await env.DB.prepare("SELECT id, name, email, picture, grade, created_at FROM users WHERE id = ?")
+    .bind(id)
+    .first<{ id: string; name: string; email: string; picture: string | null; grade: number | null; created_at: number }>();
+  if (!user) throw new HttpError(404, "No such user");
+  const [scores, active] = await Promise.all([
+    summary(env, user.id),
+    env.DB.prepare("SELECT state FROM active_rounds WHERE user_id = ? ORDER BY updated_at DESC").bind(user.id).all<{ state: string }>(),
+  ]);
+  return json({
+    user: { id: user.id, name: user.name, email: user.email, picture: user.picture, grade: user.grade, joinedAt: user.created_at },
+    scores: scores satisfies ScoreSummary,
+    saved: active.results.map((r) => JSON.parse(r.state) as unknown),
+  } satisfies AdminUserProgress);
 }

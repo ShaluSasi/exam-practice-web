@@ -348,3 +348,35 @@ export interface AdminUsers {
   /** Every account there is. */
   totalUsers: number;
 }
+
+/** One finished round, as GET /api/scores sends it (src/store/profile.ts `Round`). */
+export interface ScoreRound {
+  id: string;
+  at: number;
+  title: string;
+  correct: number;
+  total: number;
+  marks: number;
+  maxMarks: number;
+  accuracy: number;
+  xp: number;
+  timeMs: number;
+  streak?: number;
+}
+
+/** A student's scores: GET /api/scores, and admins' view of any student. */
+export interface ScoreSummary {
+  totalXp: number;
+  sessions: number;
+  bestStreak: number;
+  recent: ScoreRound[];
+  bests: ScoreRound[];
+}
+
+/** GET /api/admin/users/progress?user=<id>: what that student's progress page shows. */
+export interface AdminUserProgress {
+  user: { id: string; name: string; email: string; picture: string | null; grade: number | null; joinedAt: number };
+  scores: ScoreSummary;
+  /** Unfinished rounds (src/store/session.ts `SavedRound`). */
+  saved: unknown[];
+}

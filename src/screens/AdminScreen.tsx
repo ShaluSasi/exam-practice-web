@@ -11,7 +11,7 @@ import { useProfile } from "../store/profile";
 const MAX_ROUND_SIZE = 50;
 
 /** Pages only admins (ADMIN_EMAILS in wrangler.jsonc) may open; App.tsx sends everyone else home. */
-export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "preview", "quizadmin", "users"];
+export const ADMIN_SCREENS: Screen[] = ["admin", "difficulty", "sequence", "reports", "preview", "quizadmin", "users", "userprogress"];
 
 const LINKS = [
   {

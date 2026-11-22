@@ -4,7 +4,7 @@ import { SITE_ORIGIN, isNative } from "../lib/platform";
 import type { GameId } from "./games";
 import { useSession } from "./session";
 
-export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "gamelist" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "preview" | "myreports" | "quizzes" | "quizadmin" | "users";
+export type Screen = "home" | "practice" | "results" | "board" | "challenge" | "game" | "gamelist" | "progress" | "admin" | "difficulty" | "sequence" | "reports" | "preview" | "myreports" | "quizzes" | "quizadmin" | "users" | "userprogress";
 
 /** Who the student is playing against, when they accepted a friend's challenge link. */
 export interface Opponent {
@@ -59,6 +59,22 @@ const difficultyLink = /^\/admin\/difficulty\/?$/.test(window.location.pathname)
 const sequenceLink = /^\/admin\/sequence\/?$/.test(window.location.pathname);
 const reportsLink = /^\/admin\/reports\/?$/.test(window.location.pathname);
 const usersLink = /^\/admin\/users\/?$/.test(window.location.pathname);
+/** The student whose progress an admin opened (/admin/users/<id>), read from the address so Back and reload keep it. */
+export function viewedUserId(): string {
+  try {
+    return decodeURIComponent(/^\/admin\/users\/([^/]+)\/?$/.exec(window.location.pathname)?.[1] ?? "");
+  } catch {
+    return "";
+  }
+}
+/** Set by `openUserProgress` until the page's address has been written. */
+let openingUser = "";
+
+/** Opens a student's progress page for an admin. */
+export function openUserProgress(id: string) {
+  openingUser = id;
+  useNav.getState().go("userprogress");
+}
 const myReportsLink = /^\/my-reported-questions\/?$/.test(window.location.pathname);
 /** Question ID from a /admin/preview/<id> link, opened in its own window from the reports page. A malformed address is no ID. */
 export const previewQuestionId = (() => {
@@ -100,6 +116,7 @@ function pathOf(entry: Omit<Entry, "depth">): string {
   if (entry.screen === "sequence") return "/admin/sequence";
   if (entry.screen === "reports") return "/admin/reports";
   if (entry.screen === "users") return "/admin/users";
+  if (entry.screen === "userprogress") return `/admin/users/${encodeURIComponent(openingUser || viewedUserId())}`;
   if (entry.screen === "myreports") return "/my-reported-questions";
   if (entry.screen === "quizzes") return "/quiz";
   if (entry.screen === "quizadmin") return "/admin/quizzes";
@@ -138,7 +155,7 @@ function returnHome() {
 }
 
 export const useNav = create<NavState>()((set, get) => ({
-  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : reportsLink ? "reports" : previewQuestionId ? "preview" : myReportsLink ? "myreports" : quizzesLink ? "quizzes" : quizAdminLink ? "quizadmin" : usersLink ? "users" : "home",
+  screen: fromLink ? "challenge" : linkedGame ? "game" : progressLink ? "progress" : adminLink ? "admin" : difficultyLink ? "difficulty" : sequenceLink ? "sequence" : reportsLink ? "reports" : previewQuestionId ? "preview" : myReportsLink ? "myreports" : quizzesLink ? "quizzes" : quizAdminLink ? "quizadmin" : usersLink ? "users" : viewedUserId() ? "userprogress" : "home",
   challengeCode: fromLink,
   opponent: null,
   game: linkedGame,

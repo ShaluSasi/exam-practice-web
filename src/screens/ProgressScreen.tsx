@@ -27,7 +27,7 @@ import { SUBJECT_STYLE, formatTime } from "../lib/subjects";
 import { useAuth } from "../store/auth";
 import { useContent, type RoundSource } from "../store/content";
 import { useNav } from "../store/nav";
-import { rankRounds, useCurrentGrade, useProfile, useStats, type Round } from "../store/profile";
+import { rankRounds, useCurrentGrade, useProfile, useStats, type Round, type Stats } from "../store/profile";
 import { useProgress } from "../store/progress";
 import type { SavedRound } from "../store/session";
 
@@ -120,10 +120,8 @@ function dayStreak(days: Set<number>) {
   return n;
 }
 
-function useChapterProgress(): ChapterProgress[] {
+function useChapterProgress(rounds: Round[], saved: Record<string, SavedRound>): ChapterProgress[] {
   const chapters = useContent((s) => s.catalog?.chapters);
-  const { rounds } = useStats();
-  const saved = useProgress((s) => (s.account ? s.account.rounds : s.guest));
   return useMemo(
     () =>
       (chapters ?? [])
@@ -260,8 +258,7 @@ function Overview({ list, grade }: { list: ChapterProgress[]; grade: number }) {
 }
 
 /** Headline numbers across every class. */
-function StatTiles({ recent, days }: { recent: Round[]; days: Set<number> }) {
-  const stats = useStats();
+function StatTiles({ stats, recent, days }: { stats: Stats; recent: Round[]; days: Set<number> }) {
   const answered = recent.reduce((n, r) => n + r.total, 0);
   const correct = recent.reduce((n, r) => n + r.correct, 0);
   const tiles = [
@@ -310,7 +307,7 @@ function StatTiles({ recent, days }: { recent: Round[]; days: Set<number> }) {
 }
 
 /** Up to three chapters worth doing next: an unfinished round, then the weakest scores, then the next new chapter. */
-function FocusNext({ list, onStart }: { list: ChapterProgress[]; onStart: StartRound }) {
+function FocusNext({ list, onStart }: { list: ChapterProgress[]; onStart?: StartRound }) {
   const picks = useMemo(() => {
     const inProgress = list.filter((c) => c.saved).sort((a, b) => (b.saved?.updatedAt ?? 0) - (a.saved?.updatedAt ?? 0));
     const weakest = list.filter((c) => c.best && c.score < MASTERED && !c.saved).sort((a, b) => a.score - b.score);
@@ -328,7 +325,7 @@ function FocusNext({ list, onStart }: { list: ChapterProgress[]; onStart: StartR
 
   return (
     <Card delay={0.05}>
-      <SectionTitle icon={Sparkles} hint="Picked from your scores">
+      <SectionTitle icon={Sparkles} hint={onStart ? "Picked from your scores" : "Picked from their scores"}>
         Focus next
       </SectionTitle>
       <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
@@ -338,14 +335,15 @@ function FocusNext({ list, onStart }: { list: ChapterProgress[]; onStart: StartR
             <motion.button
               key={c.chapter.key}
               type="button"
-              onClick={() => onStart({ chapter: c.chapter.key }, c.chapter.title, c.chapter.key)}
+              disabled={!onStart}
+              onClick={() => onStart?.({ chapter: c.chapter.key }, c.chapter.title, c.chapter.key)}
               initial={{ opacity: 0, x: -12 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 + i * 0.08 }}
-              whileHover={{ y: -3 }}
-              whileTap={{ scale: 0.98 }}
-              className="group relative flex items-center gap-3 overflow-hidden rounded-2xl border-2 border-line bg-bg/60 p-3 text-left transition-colors hover:border-fg/25"
+              whileHover={onStart ? { y: -3 } : undefined}
+              whileTap={onStart ? { scale: 0.98 } : undefined}
+              className="group relative flex items-center gap-3 overflow-hidden rounded-2xl border-2 border-line bg-bg/60 p-3 text-left transition-colors enabled:hover:border-fg/25"
             >
               <span className={clsx("grid size-10 shrink-0 place-items-center rounded-xl text-white sm:size-12", st.bg)}>
                 <st.icon className="size-6" />
@@ -354,9 +352,11 @@ function FocusNext({ list, onStart }: { list: ChapterProgress[]; onStart: StartR
                 <span className="line-clamp-2 break-words font-display font-extrabold leading-tight">{c.chapter.title}</span>
                 <span className="mt-0.5 line-clamp-2 text-xs font-semibold text-muted">{reason(c)}</span>
               </span>
-              <span className="grid size-9 shrink-0 place-items-center rounded-full bg-brand text-brand-ink shadow-pop transition-transform group-hover:scale-110">
-                <Play className="size-4 fill-current" />
-              </span>
+              {onStart && (
+                <span className="grid size-9 shrink-0 place-items-center rounded-full bg-brand text-brand-ink shadow-pop transition-transform group-hover:scale-110">
+                  <Play className="size-4 fill-current" />
+                </span>
+              )}
             </motion.button>
           );
         })}
@@ -569,12 +569,12 @@ function SubjectCards({ list, active, onPick }: { list: ChapterProgress[]; activ
   );
 }
 
-function ChapterItem({ c, onStart, index }: { c: ChapterProgress; onStart: StartRound; index: number }) {
+function ChapterItem({ c, onStart, index }: { c: ChapterProgress; onStart?: StartRound; index: number }) {
   const [open, setOpen] = useState(false);
   const st = SUBJECT_STYLE[c.chapter.subject];
   const s = STATUS[c.status];
   const fill = c.saved && !c.best ? (c.saved.attempts.length / c.saved.questionIds.length) * 100 : c.score;
-  const start = () => onStart({ chapter: c.chapter.key }, c.chapter.title, c.chapter.key);
+  const start = () => onStart?.({ chapter: c.chapter.key }, c.chapter.title, c.chapter.key);
 
   return (
     <motion.li
@@ -665,9 +665,17 @@ function ChapterItem({ c, onStart, index }: { c: ChapterProgress; onStart: Start
                 <span className="text-xs font-semibold text-muted">
                   {c.chapter.count} questions{c.status !== "mastered" && c.best ? ` · ${MASTERED}% to master` : ""}
                 </span>
-                <Button onClick={start} className="px-4 py-2.5 text-base">
-                  <Play className="size-4 fill-current" /> {c.saved ? "Continue" : c.best ? "Practise again" : "Start"}
-                </Button>
+                {onStart ? (
+                  <Button onClick={start} className="px-4 py-2.5 text-base">
+                    <Play className="size-4 fill-current" /> {c.saved ? "Continue" : c.best ? "Practise again" : "Start"}
+                  </Button>
+                ) : (
+                  c.saved && (
+                    <span className="text-xs font-semibold text-muted">
+                      Unfinished: {c.saved.attempts.length}/{c.saved.questionIds.length} answered
+                    </span>
+                  )
+                )}
               </div>
             </div>
           </motion.div>
@@ -677,7 +685,7 @@ function ChapterItem({ c, onStart, index }: { c: ChapterProgress; onStart: Start
   );
 }
 
-function ChapterList({ list, onStart }: { list: ChapterProgress[]; onStart: StartRound }) {
+function ChapterList({ list, onStart }: { list: ChapterProgress[]; onStart?: StartRound }) {
   const [subject, setSubject] = useState<SubjectId | null>(null);
   const [filter, setFilter] = useState<Filter>("all");
   const matches = (c: ChapterProgress) =>
@@ -751,15 +759,46 @@ function ChapterList({ list, onStart }: { list: ChapterProgress[]; onStart: Star
   );
 }
 
+/** Someone else's progress, opened by an admin from the Users page: read-only. */
+export interface ViewedStudent {
+  name: string;
+  email: string;
+  /** The class they told us, if any: the class shown first. */
+  grade: number | null;
+  onBack: () => void;
+}
+
+/** The signed-in student's (or this device's) own progress. */
 export function ProgressScreen({ onStart }: { onStart: StartRound }) {
-  const go = useNav((s) => s.go);
   const stats = useStats();
+  const saved = useProgress((s) => (s.account ? s.account.rounds : s.guest));
+  return <ProgressView stats={stats} saved={saved} onStart={onStart} />;
+}
+
+/** The progress page for the student's own rounds, or (with `viewing`) a student an admin opened, without Start buttons. */
+export function ProgressView({
+  stats,
+  saved,
+  onStart,
+  viewing,
+}: {
+  stats: Stats;
+  saved: Record<string, SavedRound>;
+  onStart?: StartRound;
+  viewing?: ViewedStudent;
+}) {
+  const go = useNav((s) => s.go);
   const signedIn = useAuth((s) => s.status === "signedIn");
-  const all = useChapterProgress();
+  const all = useChapterProgress(stats.rounds, saved);
   const currentGrade = useCurrentGrade();
   const setLastGrade = useProfile((p) => p.setLastGrade);
+  // An admin's pick of class for someone else stays on this page: it must not change the admin's own class.
+  const [viewedGrade, setViewedGrade] = useState<number | null>(null);
   const grades = [...new Set(all.map((c) => c.chapter.grade))].sort((a, b) => a - b);
-  const grade = grades.includes(currentGrade) ? currentGrade : grades[0];
+  const latest = [...all].sort((a, b) => (b.lastAt ?? 0) - (a.lastAt ?? 0))[0];
+  const wanted = viewing ? (viewedGrade ?? viewing.grade ?? (latest?.lastAt ? latest.chapter.grade : currentGrade)) : currentGrade;
+  const grade = grades.includes(wanted) ? wanted : grades[0];
+  const pickGrade = viewing ? setViewedGrade : setLastGrade;
   const list = all.filter((c) => c.chapter.grade === grade);
   const recent = useMemo(() => [...stats.rounds].sort((a, b) => b.at - a.at).slice(0, RECENT), [stats.rounds]);
   const days = useMemo(() => new Set(stats.rounds.map((r) => startOfDay(r.at))), [stats.rounds]);
@@ -771,15 +810,18 @@ export function ProgressScreen({ onStart }: { onStart: StartRound }) {
         <header className="flex flex-wrap items-center gap-x-2 gap-y-3 py-5">
           <motion.button
             whileTap={{ scale: 0.9 }}
-            onClick={() => go("home")}
-            aria-label="Back to home"
+            onClick={viewing ? viewing.onBack : () => go("home")}
+            aria-label={viewing ? "Back to users" : "Back to home"}
             className="grid size-10 shrink-0 place-items-center rounded-xl border-2 border-line bg-surface text-muted hover:text-fg"
           >
             <ArrowLeft className="size-5" />
           </motion.button>
-          <h1 className="order-last w-full font-display text-3xl font-extrabold tracking-tight min-[480px]:order-none min-[480px]:w-auto min-[480px]:min-w-0 min-[480px]:flex-1 min-[480px]:truncate min-[480px]:text-2xl sm:text-3xl">
-            My progress
-          </h1>
+          <div className="order-last w-full min-[480px]:order-none min-[480px]:w-auto min-[480px]:min-w-0 min-[480px]:flex-1">
+            <h1 className="font-display text-3xl font-extrabold tracking-tight min-[480px]:truncate min-[480px]:text-2xl sm:text-3xl">
+              {viewing ? `${viewing.name}'s progress` : "My progress"}
+            </h1>
+            {viewing && <p className="truncate text-sm font-semibold text-muted">{viewing.email} · view only</p>}
+          </div>
           <div className="ml-auto">
             <SettingsToggles />
           </div>
@@ -793,7 +835,7 @@ export function ProgressScreen({ onStart }: { onStart: StartRound }) {
                 type="button"
                 role="tab"
                 aria-selected={g === grade}
-                onClick={() => setLastGrade(g)}
+                onClick={() => pickGrade(g)}
                 className={clsx(
                   "relative flex-1 rounded-xl px-3 py-2.5 font-display text-sm font-bold transition-colors sm:text-base",
                   g === grade ? "text-bg" : "text-muted hover:text-fg",
@@ -815,7 +857,7 @@ export function ProgressScreen({ onStart }: { onStart: StartRound }) {
         )}
 
         <div className="mt-4">
-          <StatTiles recent={recent} days={days} />
+          <StatTiles stats={stats} recent={recent} days={days} />
         </div>
 
         {stats.sessions === 0 && (
@@ -824,10 +866,16 @@ export function ProgressScreen({ onStart }: { onStart: StartRound }) {
               <Trophy className="size-10 text-brand" />
             </motion.div>
             <h2 className="mt-2 font-display text-xl font-extrabold">No rounds yet</h2>
-            <p className="mt-1 text-sm text-muted">Play a chapter round and your scores, streaks and mastery will show up here.</p>
-            <Button className="mt-4" onClick={() => go("home")}>
-              <BookOpen className="size-5" /> Choose a chapter
-            </Button>
+            {viewing ? (
+              <p className="mt-1 text-sm text-muted">{viewing.name} hasn't finished a round yet.</p>
+            ) : (
+              <>
+                <p className="mt-1 text-sm text-muted">Play a chapter round and your scores, streaks and mastery will show up here.</p>
+                <Button className="mt-4" onClick={() => go("home")}>
+                  <BookOpen className="size-5" /> Choose a chapter
+                </Button>
+              </>
+            )}
           </Card>
         )}
 
@@ -845,8 +893,8 @@ export function ProgressScreen({ onStart }: { onStart: StartRound }) {
         {list.length > 0 && <ChapterList key={`chapters-${grade}`} list={list} onStart={onStart} />}
 
         <p className="mt-8 text-center text-xs text-muted">
-          Averages, trend and practice time use your latest {RECENT} rounds.
-          {!signedIn && " Your progress is saved on this device — sign in to keep it on every device."}
+          Averages, trend and practice time use {viewing ? "their" : "your"} latest {RECENT} rounds.
+          {!viewing && !signedIn && " Your progress is saved on this device — sign in to keep it on every device."}
         </p>
       </div>
     </div>
