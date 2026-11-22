@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Award, BadgeCheck, BookOpen, ChartColumn, Check, ChevronRight, Flame, Play, RefreshCw, RotateCcw, Sparkles, Target, Trophy, WifiOff, Zap } from "lucide-react";
+import { ArrowDown, Atom, Award, BadgeCheck, BookOpen, ChartColumn, Check, ChevronRight, Flame, Gamepad2, Play, Puzzle, RefreshCw, Rocket, RotateCcw, Sparkles, Target, Trophy, WifiOff, Zap } from "lucide-react";
 import clsx from "clsx";
 import { offeredGrades, region } from "../config/regions";
 import type { ChapterInfo } from "../content/api";
@@ -482,6 +482,57 @@ function ProgressButton() {
   );
 }
 
+const GAME_ICONS = [Rocket, Gamepad2, Puzzle, Atom];
+
+/** Bright banner at the top of home that jumps to the Brain games: bobbing game icons, a passing shine and a bouncing arrow. */
+function BrainGamesButton() {
+  const reduce = useReducedMotion();
+  return (
+    <motion.button
+      type="button"
+      onClick={() => document.getElementById("games")?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" })}
+      initial={{ opacity: 0, y: -8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ type: "spring", stiffness: 320, damping: 24, delay: 0.1 }}
+      whileHover={{ y: -3, scale: 1.01 }}
+      whileTap={{ scale: 0.97 }}
+      className="group relative mb-4 flex w-full items-center gap-3 overflow-hidden rounded-[22px] bg-gradient-to-r from-[#7c3aed] via-[#c026d3] to-[#f97316] p-3 text-left text-white shadow-[0_5px_0_0_rgb(0_0_0/0.22)] sm:mb-6 sm:gap-4 sm:p-4"
+    >
+      {!reduce && (
+        <motion.span
+          aria-hidden
+          className="pointer-events-none absolute inset-y-0 w-1/3 skew-x-[-20deg] bg-white/25"
+          animate={{ left: ["-40%", "140%"] }}
+          transition={{ duration: 1.6, repeat: Infinity, repeatDelay: 2.2, ease: "easeInOut" }}
+        />
+      )}
+      <span className="relative flex shrink-0 -space-x-2">
+        {GAME_ICONS.map((Icon, i) => (
+          <motion.span
+            key={i}
+            className="grid size-9 place-items-center rounded-full bg-white/95 text-[#7c3aed] shadow-md ring-2 ring-white/60 sm:size-11"
+            animate={reduce ? undefined : { y: [0, -5, 0], rotate: [0, i % 2 ? 8 : -8, 0] }}
+            transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut", delay: i * 0.18 }}
+          >
+            <Icon className="size-5 sm:size-6" />
+          </motion.span>
+        ))}
+      </span>
+      <span className="relative min-w-0 flex-1">
+        <span className="block font-display text-lg font-extrabold leading-tight sm:text-2xl">Brain games 🎮</span>
+        <span className="block text-xs font-semibold text-white/85 sm:text-sm">Play, have fun and sharpen your exam skills</span>
+      </span>
+      <motion.span
+        className="relative grid size-10 shrink-0 place-items-center rounded-full bg-white text-[#c026d3] shadow-md transition group-hover:scale-110 sm:size-12"
+        animate={reduce ? undefined : { y: [0, 4, 0] }}
+        transition={{ duration: 1.1, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <ArrowDown className="size-5 sm:size-6" strokeWidth={3} />
+      </motion.span>
+    </motion.button>
+  );
+}
+
 /** Shown in place of the chapters when the catalog could not be loaded (usually offline). */
 function ChaptersOffline() {
   const load = useContent((s) => s.load);
@@ -535,6 +586,8 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
             <SettingsToggles />
           </div>
         </header>
+
+        <BrainGamesButton />
 
         {/* The live or next quiz: the way in for new students. Hidden when none is scheduled. */}
         <QuizBanner />
@@ -658,6 +711,10 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
         {chapters.length > 0 && <ChapterPicker chapters={chapters} onStart={onStart} />}
         {contentStatus === "failed" && <ChaptersOffline />}
 
+        <div className="mb-12">
+          <GamesStrip />
+        </div>
+
         {/* Builder */}
         <section id="build" className="scroll-mt-6 rounded-[28px] border-2 border-line bg-surface p-5 shadow-card sm:p-8">
           <div className="flex flex-wrap items-end justify-between gap-4">
@@ -756,10 +813,6 @@ export function HomeScreen({ onStart }: { onStart: StartRound }) {
             </div>
           </div>
         </section>
-
-        <div className="mt-12">
-          <GamesStrip />
-        </div>
       </div>
     </div>
   );
