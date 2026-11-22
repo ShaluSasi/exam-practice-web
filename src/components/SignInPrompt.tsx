@@ -28,7 +28,7 @@ const GATE_TEXT: Record<GateReason, { title: string; text: string }> = {
 
 /**
  * Shown when a guest who has used the free practice (or games) starts another round.
- * Signing in closes it and the round or game starts (App.tsx); "Not now" goes back.
+ * Signing in closes it and the round or game starts (App.tsx); the close button, Escape or a tap outside goes back.
  */
 export function SignInGate({ open, reason, onClose }: { open: boolean; reason: GateReason; onClose: () => void }) {
   useEffect(() => {
@@ -62,7 +62,7 @@ export function SignInGate({ open, reason, onClose }: { open: boolean; reason: G
             <button
               type="button"
               onClick={onClose}
-              aria-label="Not now"
+              aria-label="Close"
               className="absolute right-3 top-3 grid size-10 place-items-center rounded-xl text-muted hover:bg-surface-2 hover:text-fg"
             >
               <X className="size-5" />
@@ -101,9 +101,6 @@ export function SignInGate({ open, reason, onClose }: { open: boolean; reason: G
             <div className="mt-6">
               <SignInButton />
             </div>
-            <button type="button" onClick={onClose} className="mt-2 px-3 py-2 text-sm font-semibold text-muted underline-offset-4 hover:text-fg hover:underline">
-              Not now
-            </button>
           </motion.div>
         </motion.div>
       )}
