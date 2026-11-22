@@ -5,7 +5,7 @@
 import type { AppConfig } from "../src/content/api";
 import { getAdminChapters, getAdminQuestions, saveDifficulty, saveOrder } from "./admin";
 import { me, signIn, signOut } from "./auth";
-import { getGameBoard, getGameRanks, saveRuns } from "./games";
+import { getGameBoard, getGameRanks, getGameState, saveGameState, saveRuns } from "./games";
 import { GUEST_LIMITS } from "../src/engine/scoring";
 import { HttpError, error, guestLimit, json, preflight, withCors, type Env } from "./http";
 import { getLeaderboard } from "./leaderboard";
@@ -179,6 +179,10 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
         return await getMatchSets(env, url);
       case "GET /api/games/board":
         return await getGameBoard(request, env, url);
+      case "GET /api/games/state":
+        return await getGameState(request, env, url);
+      case "POST /api/games/state":
+        return await saveGameState(request, env, url);
       case "GET /api/games/ranks":
         return await getGameRanks(request, env, url);
       default:

@@ -40,7 +40,7 @@ export function settleGuestLimits(fromServer?: AppConfig["guest"]) {
   limitsSettled();
 }
 
-export type GateReason = "round" | "game";
+export type GateReason = "round" | "game" | "level";
 
 /** The sign-in sheet (SignInGate in App.tsx): `retry` runs once the guest has signed in. */
 export const useSignInGate = create<{ reason: GateReason; retry: (() => void) | null }>()(() => ({ reason: "round", retry: null }));
@@ -78,6 +78,16 @@ async function settledAuth(): Promise<void> {
 export async function mustSignIn(): Promise<boolean> {
   await limitsOrDefaults();
   if (!freeRoundUsed()) return false;
+  await settledAuth();
+  return useAuth.getState().status === "signedOut";
+}
+
+/**
+ * Whether a guest must sign in to go on, e.g. past Galaxy Guardian's level 1.
+ * Nobody is stopped when sign-in isn't set up; a failed sign-in check is asked again first.
+ */
+export async function mustSignInToContinue(): Promise<boolean> {
+  if (useAuth.getState().user) return false;
   await settledAuth();
   return useAuth.getState().status === "signedOut";
 }

@@ -2,7 +2,7 @@
  * Admin Users page: the accounts that used the app on chosen days (India time),
  * from user_visits (recorded at sign-in and each time the app opens, worker/auth.ts).
  */
-import type { AdminUser, AdminUserProgress, AdminUsers, ScoreSummary } from "../src/content/api";
+import type { AdminGalaxy, AdminUser, AdminUserProgress, AdminUsers, ScoreSummary } from "../src/content/api";
 import { DAY_RE, addDays, dayStart } from "../src/lib/day";
 import { adminEmails, requireRole, roleOf, type Role } from "./auth";
 import { HttpError, json, type Env } from "./http";
@@ -110,13 +110,58 @@ export async function getUserProgress(request: Request, env: Env, url: URL): Pro
     .bind(id)
     .first<{ id: string; name: string; email: string; picture: string | null; grade: number | null; created_at: number }>();
   if (!user) throw new HttpError(404, "No such user");
-  const [scores, active] = await Promise.all([
+  const [scores, active, galaxy] = await Promise.all([
     summary(env, user.id),
     env.DB.prepare("SELECT state FROM active_rounds WHERE user_id = ? ORDER BY updated_at DESC").bind(user.id).all<{ state: string }>(),
+    galaxyOf(env, user.id),
   ]);
   return json({
     user: { id: user.id, name: user.name, email: user.email, picture: user.picture, grade: user.grade, joinedAt: user.created_at },
     scores: scores satisfies ScoreSummary,
     saved: active.results.map((r) => JSON.parse(r.state) as unknown),
+    galaxy,
   } satisfies AdminUserProgress);
+}
+
+/** A student's Galaxy Guardian: saved progress, best run per mission and latest runs. */
+async function galaxyOf(env: Env, userId: string): Promise<AdminGalaxy> {
+  const [saved, sections, recent] = await env.DB.batch([
+    env.DB.prepare("SELECT state, updated_at FROM game_state WHERE user_id = ? AND game = 'galaxy'").bind(userId),
+    env.DB.prepare(
+      `SELECT section, MAX(score) AS best, MAX(level) AS best_level, MAX(wave) AS best_wave, COUNT(*) AS plays,
+              SUM(correct) AS correct, SUM(answered) AS answered, MAX(played_at) AS last_at
+       FROM game_runs WHERE user_id = ? AND game = 'galaxy' GROUP BY section ORDER BY last_at DESC`,
+    ).bind(userId),
+    env.DB.prepare(
+      `SELECT section, score, wave, level, correct, answered, best_combo, played_at
+       FROM game_runs WHERE user_id = ? AND game = 'galaxy' ORDER BY played_at DESC LIMIT 10`,
+    ).bind(userId),
+  ]);
+  const row = saved.results[0] as { state: string; updated_at: number } | undefined;
+  type SectionRow = { section: string; best: number; best_level: number; best_wave: number; plays: number; correct: number; answered: number; last_at: number };
+  type RunRow = { section: string; score: number; wave: number; level: number; correct: number; answered: number; best_combo: number; played_at: number };
+  return {
+    state: row ? (JSON.parse(row.state) as unknown) : null,
+    savedAt: row?.updated_at ?? null,
+    sections: (sections.results as SectionRow[]).map((r) => ({
+      section: r.section,
+      best: r.best,
+      bestLevel: r.best_level,
+      bestWave: r.best_wave,
+      plays: r.plays,
+      correct: r.correct,
+      answered: r.answered,
+      lastAt: r.last_at,
+    })),
+    recent: (recent.results as RunRow[]).map((r) => ({
+      section: r.section,
+      score: r.score,
+      wave: r.wave,
+      level: r.level,
+      correct: r.correct,
+      answered: r.answered,
+      bestCombo: r.best_combo,
+      at: r.played_at,
+    })),
+  };
 }

@@ -28,6 +28,7 @@ import { PreviewScreen } from "./screens/PreviewScreen";
 import { ProgressScreen } from "./screens/ProgressScreen";
 import { ResultsScreen } from "./screens/ResultsScreen";
 import { LoadingScreen, OfflineScreen, UpdateScreen } from "./screens/StatusScreens";
+import { startGalaxySync } from "./games/galaxy/sync";
 import { startGameScoreSync } from "./store/gameBoard";
 import { invalidateBoards } from "./store/leaderboard";
 import { useNav } from "./store/nav";
@@ -108,6 +109,7 @@ export default function App() {
     const stopScores = startScoreSync();
     const stopProgress = startProgressSync();
     const stopGames = startGameScoreSync();
+    const stopGalaxy = startGalaxySync();
     const stopGuestCount = startGuestCount();
     return () => {
       stopGuestCount();
@@ -115,6 +117,7 @@ export default function App() {
       stopScores();
       stopProgress();
       stopGames();
+      stopGalaxy();
     };
   }, []);
 

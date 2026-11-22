@@ -23,6 +23,7 @@ function FreeBadge() {
 const GATE_TEXT: Record<GateReason, { title: string; text: string }> = {
   round: { title: "You've used your free practice! 🎉", text: "Sign in to keep practising. It takes one tap with Google." },
   game: { title: "You've played your free games! 🎮", text: "Sign in to keep playing. It takes one tap with Google." },
+  level: { title: "Level 1 cleared! 🚀", text: "Sign in to play on from level 2. It takes one tap with Google, and your game progress is saved to your account." },
 };
 
 /**

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { AdminUserProgress } from "../content/api";
 import { Header, Problem, Spinner } from "../components/AdminParts";
+import { AdminGalaxyCard } from "../games/galaxy/AdminGalaxyCard";
 import { api } from "../store/auth";
 import { useNav, viewedUserId } from "../store/nav";
 import type { Round, Stats } from "../store/profile";
@@ -48,5 +49,9 @@ export function UserProgressScreen() {
       </div>
     );
   }
-  return <ProgressView stats={stats} saved={saved} viewing={{ name: data.user.name, email: data.user.email, grade: data.user.grade, onBack: () => go("users") }} />;
+  return (
+    <ProgressView stats={stats} saved={saved} viewing={{ name: data.user.name, email: data.user.email, grade: data.user.grade, onBack: () => go("users") }}>
+      <AdminGalaxyCard galaxy={data.galaxy} />
+    </ProgressView>
+  );
 }

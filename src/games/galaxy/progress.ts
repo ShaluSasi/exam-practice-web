@@ -143,7 +143,24 @@ export interface SectionRecord {
   plays: number;
 }
 
+/** What is saved to the player's account (worker/games.ts checks the same shape). */
+export interface SavedGalaxy {
+  section: SectionId;
+  sections: Partial<Record<SectionId, SectionRecord>>;
+  stardust: number;
+  upgrades: Record<UpgradeId, number>;
+  owned: string[];
+  laser: string;
+  lifetime: Lifetime;
+  badges: string[];
+  missions: { day: string; progress: Record<string, number>; claimed: string[] };
+}
+
 interface GalaxyState {
+  /** Whose progress this is: a signed-in player's ID, or null for this device's guest (src/games/galaxy/sync.ts). */
+  owner: string | null;
+  /** Changed since it was last saved to the owner's account. */
+  dirty: boolean;
   /** Mission picked on the start screen. */
   section: SectionId;
   sections: Partial<Record<SectionId, SectionRecord>>;
@@ -165,19 +182,32 @@ interface GalaxyState {
 
 const EMPTY_LIFETIME: Lifetime = { runs: 0, score: 0, correct: 0, asteroids: 0, bosses: 0, bestWave: 0, bestCombo: 0, stardust: 0 };
 
+/** A new player's progress. */
+export const freshGalaxy = (): SavedGalaxy => ({
+  section: "mixed",
+  sections: {},
+  stardust: 0,
+  upgrades: { shield: 0, cryo: 0, nova: 0 },
+  owned: ["ion"],
+  laser: "ion",
+  lifetime: EMPTY_LIFETIME,
+  badges: [],
+  missions: { day: dayKey(), progress: {}, claimed: [] },
+});
+
+/** The saved part of the game's state. */
+export function savedPart(s: SavedGalaxy): SavedGalaxy {
+  const { section, sections, stardust, upgrades, owned, laser, lifetime, badges, missions } = s;
+  return { section, sections, stardust, upgrades, owned, laser, lifetime, badges, missions };
+}
+
 export const useGalaxy = create<GalaxyState>()(
   persist(
     (set, get) => ({
-      section: "mixed",
-      sections: {},
+      ...freshGalaxy(),
+      owner: null,
+      dirty: false,
       setSection: (section) => set({ section }),
-      stardust: 0,
-      upgrades: { shield: 0, cryo: 0, nova: 0 },
-      owned: ["ion"],
-      laser: "ion",
-      lifetime: EMPTY_LIFETIME,
-      badges: [],
-      missions: { day: dayKey(), progress: {}, claimed: [] },
       buyUpgrade: (id) => {
         const s = get();
         const cost = UPGRADES[id].costs[s.upgrades[id]];

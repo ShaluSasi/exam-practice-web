@@ -781,11 +781,14 @@ export function ProgressView({
   saved,
   onStart,
   viewing,
+  children,
 }: {
   stats: Stats;
   saved: Record<string, SavedRound>;
   onStart?: StartRound;
   viewing?: ViewedStudent;
+  /** More sections, shown after the score trend and activity (e.g. the student's games, for admins). */
+  children?: React.ReactNode;
 }) {
   const go = useNav((s) => s.go);
   const signedIn = useAuth((s) => s.status === "signedIn");
@@ -889,6 +892,8 @@ export function ProgressView({
           <ScoreTrend recent={recent} />
           <Activity rounds={stats.rounds} />
         </div>
+
+        {children}
 
         {list.length > 0 && <ChapterList key={`chapters-${grade}`} list={list} onStart={onStart} />}
 

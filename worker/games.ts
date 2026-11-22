@@ -225,3 +225,66 @@ export async function getGameRanks(request: Request, env: Env, url: URL): Promis
   for (const r of results) ranks[r.section] = { score: r.score, rank: r.rank, participants: r.participants };
   return json({ game, period, ranks });
 }
+
+// ---------- Saved game progress ----------
+
+/** Largest saved progress accepted, in characters of JSON. */
+const MAX_STATE_CHARS = 32_000;
+const count = (max: number) => z.number().int().min(0).max(max);
+const key = z.string().min(1).max(40);
+
+/** Galaxy Guardian's saved progress (src/games/galaxy/progress.ts `SavedGalaxy`). Bounded, so no row grows without limit. */
+const GalaxyStateIn = z.object({
+  section: key,
+  sections: z.record(key, z.object({ best: count(5_000_000), bestLevel: count(50), plays: count(1_000_000) })),
+  stardust: count(1_000_000_000),
+  upgrades: z.object({ shield: count(20), cryo: count(20), nova: count(20) }),
+  owned: z.array(key).max(30),
+  laser: key,
+  lifetime: z.object({
+    runs: count(1_000_000),
+    score: count(1_000_000_000),
+    correct: count(100_000_000),
+    asteroids: count(100_000_000),
+    bosses: count(10_000_000),
+    bestWave: count(500),
+    bestCombo: count(100_000),
+    stardust: count(1_000_000_000),
+  }),
+  badges: z.array(key).max(50),
+  missions: z.object({ day: z.string().max(10), progress: z.record(key, z.number().min(0).max(1_000_000_000)), claimed: z.array(key).max(10) }),
+});
+
+const STATE_SCHEMAS: Record<string, z.ZodType> = { galaxy: GalaxyStateIn };
+
+/** GET /api/games/state?game=galaxy: the signed-in player's saved progress, or null before their first save. */
+export async function getGameState(request: Request, env: Env, url: URL): Promise<Response> {
+  const user = await requireUser(request, env);
+  const game = parseGame(url.searchParams.get("game"));
+  const row = await env.DB.prepare("SELECT state, updated_at FROM game_state WHERE user_id = ? AND game = ?")
+    .bind(user.id, game)
+    .first<{ state: string; updated_at: number }>();
+  return json({ state: row ? (JSON.parse(row.state) as unknown) : null, savedAt: row?.updated_at ?? null });
+}
+
+const StateBody = z.object({ game: key, state: z.unknown() });
+
+/** POST /api/games/state: replaces the signed-in player's saved progress for one game. */
+export async function saveGameState(request: Request, env: Env, url: URL): Promise<Response> {
+  assertSameOrigin(request, url);
+  const user = await requireUser(request, env);
+  const body = StateBody.safeParse(await readJson(request));
+  if (!body.success || !hasGame(body.data.game) || !STATE_SCHEMAS[body.data.game]) throw new HttpError(400, "Invalid game progress");
+  const parsed = STATE_SCHEMAS[body.data.game].safeParse(body.data.state);
+  if (!parsed.success) throw new HttpError(400, "Invalid game progress");
+  const state = JSON.stringify(parsed.data);
+  if (state.length > MAX_STATE_CHARS) throw new HttpError(413, "Game progress too large");
+  const now = Date.now();
+  await env.DB.prepare(
+    `INSERT INTO game_state (user_id, game, state, updated_at) VALUES (?1, ?2, ?3, ?4)
+     ON CONFLICT (user_id, game) DO UPDATE SET state = ?3, updated_at = ?4`,
+  )
+    .bind(user.id, body.data.game, state, now)
+    .run();
+  return json({ savedAt: now });
+}

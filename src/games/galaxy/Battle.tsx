@@ -1,14 +1,18 @@
 import { useCallback, useEffect, useLayoutEffect, useReducer, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { Bomb, ChevronsUp, Flame, Gem, Shield, ShieldPlus, Snowflake, Zap } from "lucide-react";
+import { Bomb, ChevronsUp, Flame, Gem, Lock, Shield, ShieldPlus, Snowflake, Zap } from "lucide-react";
 import clsx from "clsx";
 import { RichText } from "../../components/RichText";
 import { burst } from "../../lib/celebrate";
 import { play } from "../../lib/sound";
+import { useAuth } from "../../store/auth";
+import { askSignIn, closeSignInGate, mustSignInToContinue } from "../../store/guestLimit";
 import type { Mistake, SkillScore } from "../GameKit";
 import { LASERS, useGalaxy, type RunStats } from "./progress";
 import { levelForWave, levelLabel, maxLevel, nextQuestion, sectionOf, type Question, type SectionId } from "./sections";
 
+/** Guests play this many waves (level 1); going further needs an account. */
+const FREE_WAVES = 1;
 /** Right answers needed to clear a normal wave. */
 const WAVE_SIZE = 6;
 const MAX_POWER = 3;
@@ -260,6 +264,10 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
   const [pops, setPops] = useState<{ id: number; x: number; y: number; text: string; color: string }[]>([]);
   const [flash, setFlash] = useState(0);
   const [frozen, setFrozen] = useState(false);
+  /** Waiting for a guest to sign in before the next wave; holds what carries the battle on. */
+  const [locked, setLocked] = useState(false);
+  const resumeRef = useRef<(() => void) | null>(null);
+  const signedIn = useAuth((s) => s.status === "signedIn");
 
   const later = (fn: () => void, ms: number) => {
     timers.current.push(window.setTimeout(fn, ms));
@@ -341,6 +349,11 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
   // Leaving mid-battle (Back, or the phone's back button) still counts what was earned: score, stardust and missions.
   useEffect(
     () => () => {
+      // Left while waiting for sign-in: the sheet must not carry on a battle that is gone.
+      if (resumeRef.current) {
+        resumeRef.current = null;
+        closeSignInGate();
+      }
       if (G.current.over || R.current.answered === 0) return;
       G.current.over = true;
       finishRun();
@@ -459,34 +472,67 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
       },
       bossDown ? 1400 : 300,
     );
+    const nextWave = () => {
+      const oldLevel = lvlOf(r.wave);
+      r.wave++;
+      r.waveCorrect = 0;
+      g.warpUntil = performance.now() + 1300;
+      play("warp");
+      sync();
+      const boss = isBossWave(r.wave);
+      const lvl = lvlOf(r.wave);
+      later(() => {
+        if (lvl > oldLevel) {
+          setBanner({ key: Date.now(), title: `LEVEL ${lvl}`, sub: levelLabel(section, lvl), tone: "level" });
+          play("combo");
+        } else {
+          setBanner({ key: Date.now(), title: `WAVE ${r.wave}`, sub: lvl >= maxLevel(section) ? "Top level · faster asteroids!" : "Faster asteroids!", tone: "info" });
+        }
+      }, 900);
+      if (boss) {
+        later(() => {
+          setBanner({ key: Date.now(), title: "⚠ MOTHERSHIP", sub: "Every right answer hits it. Destroy it before it charges!", tone: "boss" });
+          play("hit");
+        }, 2500);
+      }
+      later(startWave, boss ? 3900 : 2600);
+    };
     later(
       () => {
-        const oldLevel = lvlOf(r.wave);
-        r.wave++;
-        r.waveCorrect = 0;
-        g.warpUntil = performance.now() + 1300;
-        play("warp");
-        sync();
-        const boss = isBossWave(r.wave);
-        const lvl = lvlOf(r.wave);
-        later(() => {
-          if (lvl > oldLevel) {
-            setBanner({ key: Date.now(), title: `LEVEL ${lvl}`, sub: levelLabel(section, lvl), tone: "level" });
-            play("combo");
-          } else {
-            setBanner({ key: Date.now(), title: `WAVE ${r.wave}`, sub: lvl >= maxLevel(section) ? "Top level · faster asteroids!" : "Faster asteroids!", tone: "info" });
-          }
-        }, 900);
-        if (boss) {
-          later(() => {
-            setBanner({ key: Date.now(), title: "⚠ MOTHERSHIP", sub: "Every right answer hits it. Destroy it before it charges!", tone: "boss" });
-            play("hit");
-          }, 2500);
+        // Guests play level 1 free; from level 2 they need an account (signing in carries this battle on).
+        if (r.wave === FREE_WAVES && !useAuth.getState().user) {
+          void mustSignInToContinue().then((must) => (must ? holdForSignIn(nextWave) : nextWave()));
+        } else {
+          nextWave();
         }
-        later(startWave, boss ? 3900 : 2600);
       },
       bossDown ? 2600 : 1600,
     );
+  };
+
+  /** Pauses after the free waves until the guest signs in; signing in (here or in the header) carries on. */
+  const holdForSignIn = (resume: () => void) => {
+    if (G.current.over) return;
+    resumeRef.current = resume;
+    setLocked(true);
+    askSignIn("level", carryOn);
+  };
+  const carryOn = () => {
+    const resume = resumeRef.current;
+    if (!resume || G.current.over) return;
+    resumeRef.current = null;
+    setLocked(false);
+    resume();
+  };
+  /** Ends the run where it stands: what was earned in the free waves still counts. */
+  const endRun = () => {
+    const g = G.current;
+    if (g.over) return;
+    resumeRef.current = null;
+    closeSignInGate();
+    g.over = true;
+    g.paused = true;
+    finishRun();
   };
 
   const hitBoss = (dmg: number) => {
@@ -703,6 +749,11 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [count]);
+
+  useEffect(() => {
+    if (locked && signedIn) carryOn();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [locked, signedIn]);
 
   useEffect(() => {
     if (!banner) return;
@@ -1152,6 +1203,36 @@ export function Battle({ section, onDone }: { section: SectionId; onDone: (r: Ba
                 >
                   {count === 0 ? "LAUNCH!" : count}
                 </motion.span>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          {/* Sign in to go past level 1 */}
+          <AnimatePresence>
+            {locked && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="absolute inset-0 z-20 grid place-items-center bg-[#05071a]/80 p-6 text-center text-white backdrop-blur-sm"
+              >
+                <div className="max-w-xs">
+                  <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-[#ffd23f] text-[#0b1030]">
+                    <Lock className="size-7" />
+                  </span>
+                  <p className="mt-3 font-display text-2xl font-extrabold">Level 1 cleared!</p>
+                  <p className="mt-1 text-sm text-white/80">Sign in to play on from level 2. Your score and game progress will be saved.</p>
+                  <button
+                    type="button"
+                    onClick={() => askSignIn("level", carryOn)}
+                    className="mt-4 w-full rounded-2xl bg-[#ffd23f] px-5 py-3 font-display font-extrabold text-[#0b1030] shadow-[0_4px_0_0_rgb(0_0_0/0.3)]"
+                  >
+                    Sign in to continue
+                  </button>
+                  <button type="button" onClick={endRun} className="mt-2 w-full rounded-2xl px-5 py-2.5 text-sm font-bold text-white/70 hover:text-white">
+                    End mission
+                  </button>
+                </div>
               </motion.div>
             )}
           </AnimatePresence>

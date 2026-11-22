@@ -379,4 +379,16 @@ export interface AdminUserProgress {
   scores: ScoreSummary;
   /** Unfinished rounds (src/store/session.ts `SavedRound`). */
   saved: unknown[];
+  galaxy: AdminGalaxy;
+}
+
+/** A student's Galaxy Guardian: saved progress and their runs from the scoreboards (game_runs). */
+export interface AdminGalaxy {
+  /** Saved progress (src/games/galaxy/progress.ts `SavedGalaxy`); null if never saved while signed in. */
+  state: unknown | null;
+  savedAt: number | null;
+  /** Each mission played: best run and totals. */
+  sections: { section: string; best: number; bestLevel: number; bestWave: number; plays: number; correct: number; answered: number; lastAt: number }[];
+  /** Latest runs, newest first. */
+  recent: { section: string; score: number; wave: number; level: number; correct: number; answered: number; bestCombo: number; at: number }[];
 }
