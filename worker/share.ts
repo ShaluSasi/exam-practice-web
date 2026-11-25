@@ -273,7 +273,7 @@ export async function withPreview(
     path: string;
     /** Personal or short-lived pages, kept out of search results. */
     noindex?: boolean;
-    /** HTML for the page before the app starts. */
+    /** HTML for the page before the app starts, behind the loading screen (index.html). */
     content?: string;
     /** Structured data (JSON) for search engines. */
     data?: string;
@@ -302,7 +302,7 @@ export async function withPreview(
   ].join("");
 
   const rewritten = new HTMLRewriter()
-    .on("#root", { element: (el) => void (p.content && el.setInnerContent(p.content, { html: true })) })
+    .on("#root", { element: (el) => void (p.content && el.append(p.content, { html: true })) })
     .on("title", { element: (el) => void el.setInnerContent(p.path === "/" ? p.title : `${p.title} · Vijayeemantra`) })
     .on('meta[name="description"]', { element: (el) => void el.setAttribute("content", p.description) })
     .on('meta[property^="og:"], meta[name^="twitter:"]', { element: (el) => void el.remove() })
