@@ -102,6 +102,14 @@ export function openQuiz(id: string) {
 
 /** The address students are sent to join a quiz. */
 export const quizUrl = (id: string) => `${SITE_ORIGIN}/quiz/${id}`;
+/** Chapter key from a /?practice=<key> link on a chapter's page (worker/seo.ts), until App.tsx has started or dropped it. */
+let linkedChapter = new URLSearchParams(window.location.search).get("practice");
+export const getLinkedChapter = () => (window.location.pathname === "/" ? linkedChapter : null);
+/** The link has been used: the address goes back to plain home, so a reload doesn't start the chapter again. */
+export function forgetLinkedChapter() {
+  linkedChapter = null;
+  forgetLink();
+}
 const quizAdminLink = /^\/admin\/quizzes\/?$/.test(window.location.pathname);
 
 /** The game's own address, so the address bar can be copied and shared. */

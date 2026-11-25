@@ -176,7 +176,7 @@ const MIN_MATCH_PAIRS = 3;
 /** Wording that sends the student to the question's picture, which the game does not show. */
 export const NEEDS_PICTURE = /\b(numbered|labell?ed|label the|(the|this|in the) (picture|figure|diagram|chart|map|graph|wheel)|as shown|using table)\b/i;
 /** A card that only names something in a picture, e.g. "Part 3" or "Figure P". */
-const PICTURE_NAME = /^(part|figure|fig\.?|picture|diagram|image|photo|graph|panel|scene|object|shape|point|marker|arrow|cell|band|tool|device|block|row|piece|outlet|tissue|symbol|triangle)\s*\(?([a-z]|\d{1,2})\)?\.?$/i;
+export const PICTURE_NAME = /^(part|figure|fig\.?|picture|diagram|image|photo|graph|panel|scene|object|shape|point|marker|arrow|cell|band|tool|device|block|row|piece|outlet|tissue|symbol|triangle)\s*\(?([a-z]|\d{1,2})\)?\.?$/i;
 
 /**
  * A match question as a Match Sprint board, or null if it can't be one. Most

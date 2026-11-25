@@ -67,7 +67,7 @@ async function route(request: Request, env: Env, url: URL): Promise<Response> {
     if (url.pathname === "/sitemap.xml" && isGet) return await sitemap(env);
     if (url.pathname === "/privacy" && isGet) return privacyPage();
     if (url.pathname === "/terms" && isGet) return termsPage();
-    const cbse = /^\/cbse\/class-(\d+)(?:\/([a-z]+)(?:\/([a-z0-9-]+))?)?\/?$/.exec(url.pathname);
+    const cbse = /^\/cbse\/class-(\d+)(?:\/([a-z-]+)(?:\/([a-z0-9-]+))?)?\/?$/.exec(url.pathname);
     const cbseAnswer = cbse && isGet ? await cbsePage(env, Number(cbse[1]), cbse[2], cbse[3]) : null;
     if (cbseAnswer) return cbseAnswer;
     if (isGet && !url.pathname.startsWith("/api/")) return await appPage(request, env, url);

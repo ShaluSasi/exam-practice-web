@@ -31,7 +31,7 @@ import { LoadingScreen, OfflineScreen, UpdateScreen } from "./screens/StatusScre
 import { startGalaxySync } from "./games/galaxy/sync";
 import { startGameScoreSync } from "./store/gameBoard";
 import { invalidateBoards } from "./store/leaderboard";
-import { useNav } from "./store/nav";
+import { forgetLinkedChapter, getLinkedChapter, useNav } from "./store/nav";
 import { discardSavedRound, getSavedRound, progressReady, startProgressSync } from "./store/progress";
 import { useProfile } from "./store/profile";
 import { recordRound, startScoreSync } from "./store/scoreSync";
@@ -180,6 +180,19 @@ export default function App() {
     [go, resume, start, notAdmin],
   );
 
+  /** A chapter's page in the search results links here to practise it: it starts once the chapters and the sign-in check are in. */
+  const [linked, setLinked] = useState(getLinkedChapter);
+  const catalog = useContent((s) => s.catalog);
+  useEffect(() => {
+    if (!linked || contentStatus === "loading" || authStatus === "loading") return;
+    setLinked(null);
+    forgetLinkedChapter();
+    const chapter = catalog?.chapters.find((c) => c.key === linked);
+    if (!chapter) return;
+    useProfile.getState().setLastGrade(chapter.grade);
+    void begin({ chapter: chapter.key }, chapter.title, chapter.key);
+  }, [linked, contentStatus, authStatus, catalog, begin]);
+
   const leaveResults = () => {
     useNav.getState().setOpponent(null);
     go("home");
@@ -229,7 +242,7 @@ export default function App() {
     };
     return <OfflineScreen onRetry={failedStart.retry} onBack={back} problem={failedStart.problem ?? undefined} />;
   }
-  if (starting) return <LoadingScreen />;
+  if (starting || (linked && contentStatus !== "failed")) return <LoadingScreen />;
   // Home and progress list the chapters, which come from the server; until they arrive (or fail), a spinner.
   // After a failure home still opens, so the games (which need no connection) can be played.
   if ((screen === "home" || screen === "progress") && contentStatus === "loading") return <LoadingScreen />;
